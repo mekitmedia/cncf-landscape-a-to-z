@@ -1,87 +1,667 @@
 App Definition and Development:
   Application Definition & Image Build: []
   Continuous Integration & Delivery:
-  - crunchbase: https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf
+  - best_practice_data:
+      badge: 3538
+      percentage: 100
+    crunchbase: https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf
+    crunchbase_data:
+      acquisitions: []
+      city: San Francisco
+      company_type: Non Profit
+      country: United States
+      description: A Neutral Home for the Next Generation of Continuous Delivery Collaboration
+      homepage: https://cd.foundation
+      industries:
+      - Cloud Computing
+      - Open Source
+      - Software
+      linkedin: null
+      name: Continuous Delivery Foundation (CDF)
+      num_employees_max: 10
+      num_employees_min: 1
+      parents:
+      - https://www.crunchbase.com/organization/linux-foundation
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/CDeliveryFdn
+    github_data:
+      contributions: 7;16;22;16;20;10;25;18;16;36;34;23;25;27;17;29;35;48;28;40;36;30;17;16;28;23;16;25;26;19;30;30;19;16;23;36;24;21;14;23;18;14;20;22;17;19;21;73;38;48;28;25
+      contributors_count: 1035
+      contributors_link: https://github.com/jenkinsci/jenkins/graphs/contributors
+      description: Jenkins automation server
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#b07219'
+        name: Java
+        value: 11603111
+      - color: '#e34c26'
+        name: HTML
+        value: 919596
+      - color: '#f1e05a'
+        name: JavaScript
+        value: 400727
+      - color: '#563d7c'
+        name: CSS
+        value: 216201
+      - name: Less
+        value: 188989
+      - color: '#e69f56'
+        name: Groovy
+        value: 78196
+      - color: '#701516'
+        name: Ruby
+        value: 17290
+      - color: '#0298c3'
+        name: Perl
+        value: 16145
+      - name: Handlebars
+        value: 15179
+      - name: GAP
+        value: 6933
+      - color: '#3572A5'
+        name: Python
+        value: 4047
+      - color: '#89e051'
+        name: Shell
+        value: 2354
+      - color: '#555555'
+        name: C
+        value: 2091
+      - color: '#C1F12E'
+        name: Batchfile
+        value: 1023
+      - color: '#384d54'
+        name: Dockerfile
+        value: 163
+      latest_commit_date: '2022-08-05T15:03:36Z'
+      latest_commit_link: /jenkinsci/jenkins/commit/0907d01d0a9e567b81dfca88ad854b5ef6dc9577
+      license: MIT License
+      release_date: '2022-08-02T13:11:09Z'
+      release_link: https://github.com/jenkinsci/jenkins/releases
+      stars: 19277
+    github_start_commit_data:
+      start_commit_link: /jenkinsci/jenkins/commit/8a0dc230f44e84e5a7f7920cf9a31f09a54999ac
+      start_date: '2006-11-05T21:16:01Z'
     homepage_url: https://jenkins.io/
+    image_data:
+      fileName: jenkins.svg
+      hash: NF6wJqVGQ/KuagjWw5zBa9rK75/gL28x92et53olJF8=
     item: null
     logo: jenkins.svg
     name: Jenkins
     repo_url: https://github.com/jenkinsci/jenkins
+    repos:
+    - stars: 19277
+      url: https://github.com/jenkinsci/jenkins
     twitter: https://twitter.com/jenkinsci
-  - crunchbase: https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf
+    twitter_data:
+      latest_tweet_date: 2022-08-05 13:58:43+00:00
+  - best_practice_data:
+      badge: 5950
+      percentage: 34
+    crunchbase: https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf
+    crunchbase_data:
+      acquisitions: []
+      city: San Francisco
+      company_type: Non Profit
+      country: United States
+      description: A Neutral Home for the Next Generation of Continuous Delivery Collaboration
+      homepage: https://cd.foundation
+      industries:
+      - Cloud Computing
+      - Open Source
+      - Software
+      linkedin: null
+      name: Continuous Delivery Foundation (CDF)
+      num_employees_max: 10
+      num_employees_min: 1
+      parents:
+      - https://www.crunchbase.com/organization/linux-foundation
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/CDeliveryFdn
+    github_data:
+      contributions: 15;17;0;1;9;1;5;5;2;4;2;10;8;7;2;8;13;8;3;4;3;4;6;5;2;4;6;0;12;0;7;0;16;28;10;2;11;24;43;13;2;0;1;14;56;22;45;12;3;0;13;4
+      contributors_count: 228
+      contributors_link: https://github.com/jenkins-x/jx/graphs/contributors
+      description: Jenkins X provides automated CI+CD for Kubernetes with Preview
+        Environments on Pull Requests using Cloud Native pipelines from Tekton
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#00ADD8'
+        name: Go
+        value: 97272
+      - color: '#89e051'
+        name: Shell
+        value: 8524
+      - color: '#427819'
+        name: Makefile
+        value: 6781
+      - name: Mustache
+        value: 916
+      - color: '#384d54'
+        name: Dockerfile
+        value: 412
+      latest_commit_date: '2022-08-03T02:25:52Z'
+      latest_commit_link: /jenkins-x/jx/commit/32575033cc7e3ac7770b8c097694d36d893ec1d0
+      license: Apache License 2.0
+      release_date: '2022-08-03T02:28:55Z'
+      release_link: https://github.com/jenkins-x/jx/releases
+      stars: 4217
+    github_start_commit_data:
+      start_commit_link: /jenkins-x/jx/commit/e255f7ea050c4a410a21183ec85a510c8e4ca8c6
+      start_date: '2018-01-05T15:46:09Z'
     homepage_url: https://jenkins-x.io/
+    image_data:
+      fileName: jenkins-x.svg
+      hash: +bDZsdrfz1O+H77iUB0d3eF8S0qLd9y9isM2GpaRlVc=
     item: null
     logo: jenkins-x.svg
     name: JenkinsX
     repo_url: https://github.com/jenkins-x/jx
+    repos:
+    - stars: 4217
+      url: https://github.com/jenkins-x/jx
     twitter: https://twitter.com/jenkinsxio
+    twitter_data:
+      latest_tweet_date: 2022-08-03 18:26:38+00:00
   Database: []
   Streaming & Messaging: []
 CNCF Members:
   Academic: []
   End User Supporter:
-  - crunchbase: https://www.crunchbase.com/organization/juni
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/juni
+    crunchbase_data:
+      acquisitions: []
+      city: "G\xF6teborg"
+      company_type: For Profit
+      country: Sweden
+      description: Juni is a fintech company that develops a banking app and platform
+        for e-commerce and online marketing entrepreneurs.
+      funding: 281873253
+      homepage: https://www.juni.co
+      industries:
+      - Banking
+      - E-Commerce
+      - FinTech
+      - Finance
+      - Financial Services
+      kind: funding
+      linkedin: https://www.linkedin.com/company/getjuni
+      name: Juni
+      num_employees_max: 250
+      num_employees_min: 101
+      parents: []
+      region: Vastra Gotaland
+      stockExchange: null
+      twitter: https://twitter.com/getjuni
     homepage_url: https://www.juni.co/
+    image_data:
+      fileName: juni-supporter.svg
+      hash: val+mHdtQFiUNRvSg03Bbk9pGlds7hYc5l9Ms96Gikc=
     item: null
     joined: '2022-03-01'
     logo: juni.svg
     name: Juni (supporter)
+    twitter_data:
+      latest_tweet_date: 2022-08-04 10:14:28+00:00
   Gold:
-  - crunchbase: https://www.crunchbase.com/organization/jd-cloud
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/jd-cloud
+    crunchbase_data:
+      acquisitions: []
+      city: Beijing
+      company_type: ''
+      country: China
+      description: "JD Cloud is JD.com\u2019s full-service cloud computing platform\
+        \ and integrated cloud service provider."
+      homepage: https://www.jdcloud.com/en/
+      industries: []
+      linkedin: null
+      name: JD Cloud
+      num_employees_max: null
+      num_employees_min: null
+      parents: []
+      region: Beijing
+      stockExchange: null
+      twitter: null
     homepage_url: https://www.jdcloud.com/cn
+    image_data:
+      fileName: jd-cloud-member.svg
+      hash: XMEMrIY/TXW2+cLGH/T9/6MLB9nPRGWVpccpYD+XIHs=
     item: null
     logo: jd-cloud.svg
     name: JD Cloud (member)
-  - crunchbase: https://www.crunchbase.com/organization/jfrog-ltd
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/jfrog-ltd
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Conan
+        date: '2016-11-17'
+      - acquiree: Dimon
+        date: '2017-05-25'
+      - acquiree: CloudMunch
+        date: '2017-06-26'
+      - acquiree: Trainologic
+        date: '2018-09-26'
+      - acquiree: Shippable
+        date: '2019-02-21'
+      - acquiree: Vdoo
+        date: '2021-06-29'
+        price: 300000000
+      - acquiree: UpSwift.io
+        date: '2021-09-13'
+      city: Sunnyvale
+      company_type: For Profit
+      country: United States
+      description: JFrog provides software developers with a binary repository management
+        solution.
+      funding: 226500000
+      homepage: http://www.jfrog.com
+      industries:
+      - Developer Tools
+      - Enterprise Software
+      - Software
+      - Web Development
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/455737
+      name: JFrog
+      num_employees_max: 1000
+      num_employees_min: 501
+      parents: []
+      region: California
+      stockExchange: nasdaq
+      ticker: FROG
+      twitter: http://twitter.com/jfrog
     homepage_url: https://jfrog.com/
+    image_data:
+      fileName: j-frog-member.svg
+      hash: 0wPdlXgvFgbTDoEX3uv+QpEcMprR2Yup2xZ1djpHWTI=
     item: null
     logo: jfrog.svg
     name: JFrog (member)
+    twitter_data:
+      latest_tweet_date: 2022-08-04 21:28:05+00:00
+    yahoo_finance_data:
+      effective_ticker: FROG
+      market_cap: 2438384128
   Nonprofit: []
   Platinum: []
   Silver:
-  - crunchbase: https://www.crunchbase.com/organization/jeli-io
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/jeli-io
+    crunchbase_data:
+      acquisitions: []
+      city: San Francisco
+      company_type: For Profit
+      country: United States
+      description: Jeli is an incident analysis platform that combines more comprehensive
+        data to deliver more proactive solutions and identify problems.
+      funding: 4000000
+      homepage: https://jeli.io
+      industries:
+      - Information Technology
+      - Software
+      - Software Engineering
+      kind: funding
+      linkedin: https://www.linkedin.com/company/jeli-inc
+      name: Jeli.io
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/jeli_io
     homepage_url: https://www.jeli.io/
+    image_data:
+      fileName: jeli-member.svg
+      hash: DlRj7v955SsM+aQjm3+qMcF6YrniDoh4Errpq2nrfI8=
     item: null
     logo: jeli.svg
     name: Jeli (member)
-  - crunchbase: https://www.crunchbase.com/organization/jetstack
+    twitter_data:
+      latest_tweet_date: 2022-08-05 19:16:50+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/jetstack
+    crunchbase_data:
+      acquisitions: []
+      city: London
+      company_type: For Profit
+      country: United Kingdom
+      description: Jetstack builds modern, cloud-native infrastructure using Kubernetes.
+      homepage: http://www.jetstack.io/
+      industries:
+      - Information Technology
+      linkedin: https://www.linkedin.com/company/jetstack
+      name: Jetstack
+      num_employees_max: 10
+      num_employees_min: 1
+      parents: []
+      region: England
+      stockExchange: null
+      twitter: https://www.twitter.com/jetstackhq
     homepage_url: https://www.jetstack.io
+    image_data:
+      fileName: jetstack-member.svg
+      hash: NGd7tldLl6WFTjA1SujIppjZIHlrTF/tLoaiZJCbvxo=
     item: null
     logo: jetstack-member.svg
     name: Jetstack (member)
-  - crunchbase: https://www.crunchbase.com/organization/jiangxi-yumin-bank
+    twitter_data:
+      latest_tweet_date: 2022-08-05 10:49:12+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/jiangxi-yumin-bank
+    crunchbase_data:
+      acquisitions: []
+      city: Nanchang
+      company_type: ''
+      country: China
+      description: The first private bank in Jiangxi Province and the 18th private
+        bank in China.
+      homepage: https://www.ymbank.com/
+      industries:
+      - Financial Services
+      linkedin: null
+      name: Jiangxi Yumin Bank
+      num_employees_max: 250
+      num_employees_min: 101
+      parents: []
+      region: Hebei
+      stockExchange: null
+      twitter: null
     enduser: true
     homepage_url: https://www.ymbank.com/
+    image_data:
+      fileName: jiangxi-yumin-bank-member.svg
+      hash: pyGvtDO0uVoK1OZz5JVpQo9Wyfx3/y9tIWHE308EeUs=
     item: null
     joined: '2020-11-17'
     logo: jiangxi-yumin-bank.svg
     name: Jiangxi Yumin Bank (member)
-  - crunchbase: https://www.crunchbase.com/organization/jimdo
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/jimdo
+    crunchbase_data:
+      acquisitions: []
+      city: Hamburg
+      company_type: For Profit
+      country: Germany
+      description: Jimdo enables users to create a website on a computer, smart phone
+        or tablet using a simple intuitive interface.
+      funding: 28869397
+      homepage: http://www.jimdo.com
+      industries:
+      - Internet
+      - Web Development
+      kind: funding
+      linkedin: https://www.linkedin.com/company/167456
+      name: Jimdo
+      num_employees_max: 500
+      num_employees_min: 251
+      parents: []
+      region: Hamburg
+      stockExchange: null
+      twitter: http://twitter.com/jimdo
     enduser: true
     homepage_url: https://www.jimdo.com/
+    image_data:
+      fileName: jimdo-member.svg
+      hash: C1tO0bIk1AveOvn1jJbxtYwJRz8TNHMz0g7fssBPibg=
     item: null
     joined: '2021-08-26'
     logo: jimdo.svg
     name: Jimdo (member)
-  - crunchbase: https://www.crunchbase.com/organization/jpmorgan-chase-co
+    twitter_data:
+      latest_tweet_date: 2022-07-21 08:54:51+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/jpmorgan-chase-co
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Hambrecht & Quist
+        date: '1999-09-28'
+        price: 1350000000
+      - acquiree: Bank One
+        date: '2004-01-15'
+        price: 58000000000
+      - acquiree: Neovest Holdings
+        date: '2005-06-23'
+      - acquiree: Collegiate Funding Services
+        date: '2005-12-15'
+      - acquiree: Xign Corporation
+        date: '2007-05-17'
+      - acquiree: Xspand
+        date: '2008-03-01'
+      - acquiree: Bear Stearns
+        date: '2008-03-17'
+      - acquiree: Washington Mutual
+        date: '2008-09-26'
+      - acquiree: J.P. Morgan Cazenove
+        date: '2009-11-19'
+      - acquiree: WePay
+        date: '2017-10-17'
+        price: 400000000
+      - acquiree: InstaMed
+        date: '2019-05-17'
+      - acquiree: cxLoyalty Group-Global Loyalty business
+        date: '2020-12-28'
+      - acquiree: The Infatuation
+        date: '2021-09-09'
+      - acquiree: Frank Financial Aid
+        date: '2021-09-21'
+      - acquiree: FROSCH
+        date: '2022-02-17'
+      - acquiree: Global Shares
+        date: '2022-03-01'
+      city: New York
+      company_type: For Profit
+      country: United States
+      description: JP Morgan Chase is a global financial services provider that offers
+        investment banking, asset management, treasury, and other services.
+      funding: 3000000
+      homepage: http://www.jpmorganchase.com
+      industries:
+      - Asset Management
+      - Banking
+      - Financial Services
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/jpmorgan-chase?trk=top_nav_home
+      name: JP Morgan Chase
+      num_employees_max: 1000000
+      num_employees_min: 10001
+      parents: []
+      region: New York
+      stockExchange: nyse
+      ticker: JPM
+      twitter: https://twitter.com/jpmorgan
     enduser: true
     homepage_url: https://www.jpmorganchase.com
+    image_data:
+      fileName: jp-morgan-chase-member.svg
+      hash: 8lLcCJwwZgvGXmch0lyIPxAfCgBk22qk1FO1ZKLQS7c=
     item: null
     logo: jp-morgan-chase-member.svg
     name: JPMorgan Chase (member)
-  - crunchbase: https://www.crunchbase.com/organization/juniper-networks
+    twitter_data:
+      latest_tweet_date: 2022-08-03 16:45:18+00:00
+    yahoo_finance_data:
+      effective_ticker: JPM
+      market_cap: 343774789632
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/juniper-networks
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Layer Five
+        date: '1999-11-15'
+        price: 19000000
+      - acquiree: Pacific Advantage Ltd.
+        date: '2000-01-18'
+        price: 4000000
+      - acquiree: Micro Magic
+        date: '2001-12-11'
+        price: 260000000
+      - acquiree: Pacific Broadband Communications
+        date: '2001-12-14'
+        price: 200000000
+      - acquiree: Unisphere Networks
+        date: '2002-07-01'
+        price: 740000000
+      - acquiree: NetScreen Technologies
+        date: '2004-02-10'
+        price: 3400000000
+      - acquiree: Kagoor Networks
+        date: '2005-03-29'
+      - acquiree: Redline Networks
+        date: '2005-05-05'
+        price: 132000000
+      - acquiree: Peribit Networks
+        date: '2005-07-01'
+        price: 337000000
+      - acquiree: Acorn Packet Solutions
+        date: '2005-10-25'
+        price: 8700000
+      - acquiree: Funk Software
+        date: '2005-11-14'
+        price: 122000000
+      - acquiree: Ankeena Networks
+        date: '2010-04-08'
+        price: 100000000
+      - acquiree: SMobile Systems
+        date: '2010-07-27'
+        price: 70000000
+      - acquiree: Trapeze Networks
+        date: '2010-11-16'
+        price: 152000000
+      - acquiree: Blackwave
+        date: '2010-11-18'
+      - acquiree: Altor Networks
+        date: '2010-12-06'
+      - acquiree: Brilliant Telecommunications
+        date: '2011-02-21'
+        price: 4500000
+      - acquiree: Mykonos Software
+        date: '2012-02-22'
+      - acquiree: Contrail Systems
+        date: '2012-12-13'
+        price: 176000000
+      - acquiree: Webscreen Technology
+        date: '2013-02-08'
+      - acquiree: WANDL
+        date: '2013-12-16'
+      - acquiree: BTI Systems
+        date: '2016-04-04'
+      - acquiree: Aurrion
+        date: '2016-08-02'
+      - acquiree: AppFormix
+        date: '2016-12-01'
+      - acquiree: Cyphort
+        date: '2017-08-31'
+      - acquiree: HTBASE
+        date: '2018-11-29'
+      - acquiree: Mist Systems
+        date: '2019-03-05'
+        price: 405000000
+      - acquiree: 128 Technology
+        date: '2020-10-19'
+        price: 450000000
+      - acquiree: SISRA
+        date: '2020-11-25'
+      - acquiree: Apstra
+        date: '2020-12-07'
+      - acquiree: WiteSand
+        date: '2022-02-14'
+      city: Sunnyvale
+      company_type: For Profit
+      country: United States
+      description: Juniper Networks is a networking company that markets and develops
+        networking products for enterprise companies.
+      funding: 38677847
+      homepage: http://www.juniper.net
+      industries:
+      - Communication Hardware
+      - Information Technology
+      - Infrastructure
+      - Security
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/juniper-networks
+      name: Juniper Networks
+      num_employees_max: 10000
+      num_employees_min: 5001
+      parents: []
+      region: California
+      stockExchange: nyse
+      ticker: JNPR
+      twitter: http://twitter.com/JuniperNetworks
     homepage_url: https://www.juniper.net/us/en.html
+    image_data:
+      fileName: juniper-networks-member.svg
+      hash: TD/eZspPAo+E0o5DYCc4jWSbldfUrLosK3SlHAzxlqo=
     item: null
     logo: juniper-networks.svg
     name: Juniper Networks (member)
+    twitter_data:
+      latest_tweet_date: 2022-08-05 18:34:04+00:00
+    yahoo_finance_data:
+      effective_ticker: JNPR
+      market_cap: 9045956608
 Observability and Analysis:
   Chaos Engineering: []
   Continuous Optimization: []
   Logging: []
   Monitoring: []
   Tracing:
-  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  - best_practice_data:
+      badge: 1273
+      percentage: 100
+    crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Kubernetes
+        date: '2016-03-10'
+      - acquiree: RethinkDB
+        date: '2017-02-06'
+        price: 25000
+      city: San Francisco
+      company_type: Non Profit
+      country: United States
+      description: CNCF is an open source software foundation that hosts and nurtures
+        projects like Kubernetes and Prometheus.
+      funding: 3000000
+      homepage: https://www.cncf.io
+      industries:
+      - Cloud Computing
+      - Cloud Infrastructure
+      - Non Profit
+      - Open Source
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+      name: Cloud Native Computing Foundation (CNCF)
+      num_employees_max: 50
+      num_employees_min: 11
+      parents:
+      - https://www.crunchbase.com/organization/linux-foundation
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/CloudNativeFdn
     extra:
       accepted: '2017-09-13'
       artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#jaeger-logos
@@ -90,13 +670,64 @@ Observability and Analysis:
       gitter_url: https://gitter.im/jaegertracing/Lobby
       mailing_list_url: https://groups.google.com/forum/#!forum/jaeger-tracing
       stack_overflow_url: https://stackoverflow.com/questions/tagged/jaeger
+    github_data:
+      contributions: 8;6;7;3;9;6;2;7;8;9;4;3;10;4;5;4;6;4;11;3;1;1;4;7;4;10;3;7;2;7;10;2;4;4;0;13;5;6;2;9;12;6;11;10;1;8;5;6;5;1;4;17
+      contributors_count: 251
+      contributors_link: https://github.com/jaegertracing/jaeger/graphs/contributors
+      description: CNCF Jaeger, a Distributed Tracing Platform
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#00ADD8'
+        name: Go
+        value: 2832707
+      - color: '#89e051'
+        name: Shell
+        value: 29645
+      - color: '#427819'
+        name: Makefile
+        value: 24717
+      - color: '#3572A5'
+        name: Python
+        value: 13167
+      - color: '#0064bd'
+        name: Jsonnet
+        value: 9510
+      - color: '#384d54'
+        name: Dockerfile
+        value: 5837
+      - color: '#e34c26'
+        name: HTML
+        value: 937
+      - color: '#f1e05a'
+        name: JavaScript
+        value: 340
+      - color: '#64b970'
+        name: sed
+        value: 158
+      latest_commit_date: '2022-08-06T01:30:38Z'
+      latest_commit_link: /jaegertracing/jaeger/commit/38f62031491c869223694506966a4b57d69be256
+      license: Apache License 2.0
+      release_date: '2022-08-03T17:36:11Z'
+      release_link: https://github.com/jaegertracing/jaeger/releases
+      stars: 16163
+    github_start_commit_data:
+      start_commit_link: /jaegertracing/jaeger/commit/4dc35c9e83518c339cbf0bc52c7b39cd028e7659
+      start_date: '2016-04-18T22:22:11Z'
     homepage_url: https://www.jaegertracing.io/
+    image_data:
+      fileName: jaeger.svg
+      hash: liGBqZr114ntZFMesZBeGxJAAynVF8pRhqzNoPGO2PQ=
     item: null
     logo: jaeger.svg
     name: Jaeger
     project: graduated
     repo_url: https://github.com/jaegertracing/jaeger
+    repos:
+    - stars: 16163
+      url: https://github.com/jaegertracing/jaeger
     twitter: https://twitter.com/JaegerTracing
+    twitter_data:
+      latest_tweet_date: 2022-08-03 19:29:07+00:00
 Orchestration & Management:
   API Gateway: []
   Coordination & Service Discovery: []
@@ -106,63 +737,385 @@ Orchestration & Management:
   Service Proxy: []
 Platform:
   Certified Kubernetes - Distribution:
-  - crunchbase: https://www.crunchbase.com/organization/jd-cloud
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/jd-cloud
+    crunchbase_data:
+      acquisitions: []
+      city: Beijing
+      company_type: ''
+      country: China
+      description: "JD Cloud is JD.com\u2019s full-service cloud computing platform\
+        \ and integrated cloud service provider."
+      homepage: https://www.jdcloud.com/en/
+      industries: []
+      linkedin: null
+      name: JD Cloud
+      num_employees_max: null
+      num_employees_min: null
+      parents: []
+      region: Beijing
+      stockExchange: null
+      twitter: null
     description: JDOS is Jingdong Datacenter OS for automated management of shared
       container clusters and containerized applications in a scalable and elastic
       manner. The key systems include ContainerFS, ContainerDNS and ContainerLB.
     homepage_url: http://tig.jd.com/en/products/jdos
+    image_data:
+      fileName: jd-com-jdos.svg
+      hash: Jd7tpOY2cisZBAAnFPbsKtNeJ5KRPmChbX3sH9mkkE4=
     item: null
     logo: jd.com.svg
     name: JD.com JDOS
   Certified Kubernetes - Hosted:
-  - crunchbase: https://www.crunchbase.com/organization/jd-cloud
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/jd-cloud
+    crunchbase_data:
+      acquisitions: []
+      city: Beijing
+      company_type: ''
+      country: China
+      description: "JD Cloud is JD.com\u2019s full-service cloud computing platform\
+        \ and integrated cloud service provider."
+      homepage: https://www.jdcloud.com/en/
+      industries: []
+      linkedin: null
+      name: JD Cloud
+      num_employees_max: null
+      num_employees_min: null
+      parents: []
+      region: Beijing
+      stockExchange: null
+      twitter: null
     description: By adopting fully-hosted management node, JCS for Kubernetes offers
       simple, easy-to-use, high-reliable and powerful container management service
       to users. Compatible with Kubernetes API, integrating network, storage and other
       JD Cloud plug-ins.
     homepage_url: https://www.jdcloud.com/en/products/jcs-for-kubernetes
+    image_data:
+      fileName: jd-cloud-jcs-for-kubernetes.svg
+      hash: XMEMrIY/TXW2+cLGH/T9/6MLB9nPRGWVpccpYD+XIHs=
     item: null
     logo: jd-cloud.svg
     name: JD Cloud JCS for Kubernetes
   Certified Kubernetes - Installer: []
   PaaS/Container Service:
-  - crunchbase: https://www.crunchbase.com/organization/jhipster
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/jhipster
+    crunchbase_data:
+      acquisitions: []
+      city: Paris
+      company_type: Non Profit
+      country: France
+      description: PaaS/Container Service
+      homepage: http://www.jhipster.tech/
+      industries:
+      - Apps
+      - Internet
+      - Software
+      linkedin: null
+      name: JHipster
+      num_employees_max: null
+      num_employees_min: null
+      parents: []
+      region: Ile-de-France
+      stockExchange: null
+      twitter: https://twitter.com/jhipster
+    github_data:
+      contributions: 159;162;170;147;195;155;145;163;195;161;155;199;81;130;153;119;127;123;155;156;67;135;91;142;98;165;103;168;113;130;77;156;117;99;111;94;101;144;114;112;94;114;135;149;119;124;108;57;63;99;96;126
+      contributors_count: 907
+      contributors_link: https://github.com/jhipster/generator-jhipster/graphs/contributors
+      description: JHipster is a development platform to quickly generate, develop,
+        & deploy modern web applications & microservice architectures.
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#f1e05a'
+        name: JavaScript
+        value: 4053363
+      - color: '#2b7489'
+        name: TypeScript
+        value: 1412070
+      - color: '#b07219'
+        name: Java
+        value: 1264922
+      - name: EJS
+        value: 588387
+      - color: '#2c3e50'
+        name: Vue
+        value: 149446
+      - color: '#89e051'
+        name: Shell
+        value: 72007
+      - name: SCSS
+        value: 45555
+      - color: '#563d7c'
+        name: CSS
+        value: 4199
+      - name: Mustache
+        value: 2614
+      - color: '#e34c26'
+        name: HTML
+        value: 2430
+      - color: '#384d54'
+        name: Dockerfile
+        value: 2150
+      - color: '#C1F12E'
+        name: Batchfile
+        value: 687
+      latest_commit_date: '2022-08-05T19:41:23Z'
+      latest_commit_link: /jhipster/generator-jhipster/commit/da060bcd8d313bace8c8c5b6ec41cce58e494afa
+      license: Apache License 2.0
+      release_date: '2022-08-03T16:27:45Z'
+      release_link: https://github.com/jhipster/generator-jhipster/releases
+      stars: 19798
+    github_start_commit_data:
+      start_commit_link: /jhipster/generator-jhipster/commit/c8630ab7af7b6a99db880b3b0e2403806b7d2436
+      start_date: '2013-10-21T20:07:22Z'
     homepage_url: https://www.jhipster.tech/
+    image_data:
+      fileName: j-hipster.svg
+      hash: 1s3eHdDl+/NKv98tOEpKmOcqR1wal0J13iUY4DPucWg=
     item: null
     logo: jhipster.svg
     name: JHipster
     repo_url: https://github.com/jhipster/generator-jhipster
+    repos:
+    - stars: 19798
+      url: https://github.com/jhipster/generator-jhipster
+    twitter_data:
+      latest_tweet_date: 2022-08-05 15:02:07+00:00
 Provisioning:
   Automation & Configuration:
-  - crunchbase: https://www.crunchbase.com/organization/canonical-ltd
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/canonical-ltd
+    crunchbase_data:
+      acquisitions: []
+      city: London
+      company_type: For Profit
+      country: United Kingdom
+      description: Canonical is a computer software company that markets commercial
+        support and related services for Ubuntu and related projects.
+      funding: 12800000
+      homepage: http://www.canonical.com
+      industries:
+      - Cloud Computing
+      - Internet of Things
+      - Linux
+      - Open Source
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/canonical-ltd-
+      name: Canonical
+      num_employees_max: 1000
+      num_employees_min: 501
+      parents: []
+      region: England
+      stockExchange: null
+      twitter: http://twitter.com/Canonical
+    github_data:
+      contributions: 71;89;73;65;55;73;78;68;78;68;77;25;66;51;49;45;40;58;32;1;0;31;73;47;70;81;60;69;76;23;57;59;108;118;50;31;63;58;33;52;112;80;85;76;77;74;126;107;119;170;91;74
+      contributors_count: 249
+      contributors_link: https://github.com/juju/juju/graphs/contributors
+      description: Universal Operator Lifecycle Manager (OLM) for Kubernetes operators,
+        and operators for traditional Linux apps, with declarative integration between
+        operators for automated microservice integration.
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#00ADD8'
+        name: Go
+        value: 36244619
+      - color: '#3572A5'
+        name: Python
+        value: 1790248
+      - color: '#89e051'
+        name: Shell
+        value: 401012
+      - color: '#4F5D95'
+        name: PHP
+        value: 148431
+      - color: '#427819'
+        name: Makefile
+        value: 21524
+      - name: Inno Setup
+        value: 8991
+      - name: DIGITAL Command Language
+        value: 3422
+      - color: '#384d54'
+        name: Dockerfile
+        value: 1115
+      - color: '#555555'
+        name: C
+        value: 304
+      latest_commit_date: '2022-08-05T05:06:45Z'
+      latest_commit_link: /juju/juju/commit/8f3dfdb07eae53c15690338a0ba95a456d1908d3
+      license: Other
+      release_date: '2022-06-24T00:17:06Z'
+      release_link: https://github.com/juju/juju/releases
+      stars: 2016
+    github_start_commit_data:
+      start_commit_link: /juju/juju/commit/04811115d7729e219e77244b7aed2164c48bae68
+      start_date: '2011-08-23T15:10:42Z'
     homepage_url: https://jaas.ai/
+    image_data:
+      fileName: juju.svg
+      hash: J80Cx1Pw+nhIqA3V9h2MlptwWyh0foyDys2rsjgLiV4=
     item: null
     logo: juju.svg
     name: Juju
     repo_url: https://github.com/juju/juju
+    repos:
+    - stars: 2016
+      url: https://github.com/juju/juju
     twitter: https://twitter.com/ubuntu
+    twitter_data:
+      latest_tweet_date: 2022-08-05 09:04:36+00:00
   Container Registry:
-  - crunchbase: https://www.crunchbase.com/organization/jfrog-ltd
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/jfrog-ltd
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Conan
+        date: '2016-11-17'
+      - acquiree: Dimon
+        date: '2017-05-25'
+      - acquiree: CloudMunch
+        date: '2017-06-26'
+      - acquiree: Trainologic
+        date: '2018-09-26'
+      - acquiree: Shippable
+        date: '2019-02-21'
+      - acquiree: Vdoo
+        date: '2021-06-29'
+        price: 300000000
+      - acquiree: UpSwift.io
+        date: '2021-09-13'
+      city: Sunnyvale
+      company_type: For Profit
+      country: United States
+      description: JFrog provides software developers with a binary repository management
+        solution.
+      funding: 226500000
+      homepage: http://www.jfrog.com
+      industries:
+      - Developer Tools
+      - Enterprise Software
+      - Software
+      - Web Development
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/455737
+      name: JFrog
+      num_employees_max: 1000
+      num_employees_min: 501
+      parents: []
+      region: California
+      stockExchange: nasdaq
+      ticker: FROG
+      twitter: http://twitter.com/jfrog
     description: Shipping updates continuously and automatically has become a critical
       element of any successful operation. JFrog is revolutionizing the software world
       with the practice of Continuous Update, with a speed and continuity that forever
       changes the way organizations manage and release software.
     homepage_url: https://jfrog.com/artifactory/
+    image_data:
+      fileName: j-frog-artifactory.svg
+      hash: KQgMfMW2kD2KY1Nbgblpzb1x4BP1R5zfk9hJ1DLr6W8=
     item: null
     logo: j-frog-artifactory.svg
     name: JFrog Artifactory
+    twitter_data:
+      latest_tweet_date: 2022-08-04 21:28:05+00:00
+    yahoo_finance_data:
+      effective_ticker: FROG
+      market_cap: 2438384128
   Key Management: []
   Security & Compliance: []
 Runtime:
   Cloud Native Network: []
   Cloud Native Storage:
-  - crunchbase: https://www.crunchbase.com/organization/juicefs
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/juicefs
+    crunchbase_data:
+      acquisitions: []
+      city: Emeryville
+      company_type: For Profit
+      country: United States
+      description: Juicedata is helping engineers to access and manage data easily
+        in cloud.
+      funding: 0
+      homepage: https://juicefs.com
+      industries:
+      - Big Data
+      - Cloud Data Services
+      - Cloud Storage
+      - Information Technology
+      linkedin: null
+      name: Juicedata
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: null
+    github_data:
+      contributions: 18;15;8;21;19;25;8;7;4;7;14;14;7;15;32;26;19;15;28;31;19;15;21;24;22;5;28;24;21;20;23;24;32;35;28;26;41;45;10;23;42;31;24;30;38;29;10;9;11;12;28;30
+      contributors_count: 63
+      contributors_link: https://github.com/juicedata/juicefs/graphs/contributors
+      description: JuiceFS is a distributed POSIX file system built on top of Redis
+        and S3.
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#00ADD8'
+        name: Go
+        value: 1433501
+      - color: '#b07219'
+        name: Java
+        value: 219880
+      - color: '#89e051'
+        name: Shell
+        value: 60443
+      - color: '#555555'
+        name: C
+        value: 29819
+      - color: '#427819'
+        name: Makefile
+        value: 7906
+      - color: '#384d54'
+        name: Dockerfile
+        value: 546
+      latest_commit_date: '2022-08-05T08:05:06Z'
+      latest_commit_link: /juicedata/juicefs/commit/932e14c925cac2f66db121b15aa271e46c684a1a
+      license: Apache License 2.0
+      release_date: '2022-08-05T06:19:47Z'
+      release_link: https://github.com/juicedata/juicefs/releases
+      stars: 5722
+    github_start_commit_data:
+      start_commit_link: /juicedata/juicefs/commit/d23762a7e926f896a3dd615677882b8e98ed29df
+      start_date: '2021-01-08T09:44:26Z'
     homepage_url: https://juicefs.com/
+    image_data:
+      fileName: juice-fs.svg
+      hash: +5IZUDshHTMnPFveJSWAGBnoXDSHtaQ6zR8QTube2OM=
     item: null
     logo: juicefs.svg
     name: JuiceFS
     repo_url: https://github.com/juicedata/juicefs
+    repos:
+    - stars: 5722
+      url: https://github.com/juicedata/juicefs
     twitter: https://twitter.com/JuicedataInc
+    twitter_data:
+      latest_tweet_date: 2022-08-04 02:36:05+00:00
   Container Runtime: []
 Serverless:
   Framework: []
@@ -173,23 +1126,71 @@ Serverless:
 Special:
   Certified CNFs: []
   Kubernetes Certified Service Provider:
-  - crunchbase: https://www.crunchbase.com/organization/jd-cloud
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/jd-cloud
+    crunchbase_data:
+      acquisitions: []
+      city: Beijing
+      company_type: ''
+      country: China
+      description: "JD Cloud is JD.com\u2019s full-service cloud computing platform\
+        \ and integrated cloud service provider."
+      homepage: https://www.jdcloud.com/en/
+      industries: []
+      linkedin: null
+      name: JD Cloud
+      num_employees_max: null
+      num_employees_min: null
+      parents: []
+      region: Beijing
+      stockExchange: null
+      twitter: null
     description: JD Cloud provides complete professional services around our Kubernetes
       certified JD Cloud Container Engine, which is a secure, reliable and fully managed
       container service, so that users can focus on their applications and improve
       development efficiency.
     homepage_url: https://www.jdcloud.com/cn/products/jcs-for-kubernetes
+    image_data:
+      fileName: jd-cloud-kcsp.svg
+      hash: XMEMrIY/TXW2+cLGH/T9/6MLB9nPRGWVpccpYD+XIHs=
     item: null
     logo: jd-cloud.svg
     name: JD Cloud (KCSP)
-  - crunchbase: https://www.crunchbase.com/organization/jetstack
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/jetstack
+    crunchbase_data:
+      acquisitions: []
+      city: London
+      company_type: For Profit
+      country: United Kingdom
+      description: Jetstack builds modern, cloud-native infrastructure using Kubernetes.
+      homepage: http://www.jetstack.io/
+      industries:
+      - Information Technology
+      linkedin: https://www.linkedin.com/company/jetstack
+      name: Jetstack
+      num_employees_max: 10
+      num_employees_min: 1
+      parents: []
+      region: England
+      stockExchange: null
+      twitter: https://www.twitter.com/jetstackhq
     description: Jetstack is an organisation focused entirely on Kubernetes. They
       will help you to get the most out of Kubernetes through expert professional
       services and open source tooling. Get in touch, and accelerate your project.
     homepage_url: https://www.jetstack.io/
+    image_data:
+      fileName: jetstack-kcsp.svg
+      hash: t9VZXtyNKBEjS4LalJvx4hRF4537hcz5R5EbobbyhGo=
     item: null
     logo: jetstack.svg
     name: Jetstack (KCSP)
+    twitter_data:
+      latest_tweet_date: 2022-08-05 10:49:12+00:00
   Kubernetes Training Partner: []
 Wasm:
   Debugging and Observability: []

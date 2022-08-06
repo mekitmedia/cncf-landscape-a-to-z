@@ -1,6 +1,39 @@
 App Definition and Development:
   Application Definition & Image Build:
-  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  - best_practice_data:
+      badge: 3131
+      percentage: 100
+    crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Kubernetes
+        date: '2016-03-10'
+      - acquiree: RethinkDB
+        date: '2017-02-06'
+        price: 25000
+      city: San Francisco
+      company_type: Non Profit
+      country: United States
+      description: CNCF is an open source software foundation that hosts and nurtures
+        projects like Kubernetes and Prometheus.
+      funding: 3000000
+      homepage: https://www.cncf.io
+      industries:
+      - Cloud Computing
+      - Cloud Infrastructure
+      - Non Profit
+      - Open Source
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+      name: Cloud Native Computing Foundation (CNCF)
+      num_employees_max: 50
+      num_employees_min: 11
+      parents:
+      - https://www.crunchbase.com/organization/linux-foundation
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/CloudNativeFdn
     extra:
       accepted: '2016-01-18'
       artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#helm-logos
@@ -8,247 +41,1871 @@ App Definition and Development:
       dev_stats_url: https://helm.devstats.cncf.io/
       slack_url: slack.k8s.io
       stack_overflow_url: https://stackoverflow.com/questions/tagged/helm
+    github_data:
+      contributions: 4;12;23;18;8;6;1;0;10;3;6;4;8;5;30;16;5;6;4;8;3;17;41;14;10;4;1;4;5;0;17;6;3;1;5;14;0;12;10;17;4;0;0;3;0;8;6;4;3;1;2;0
+      contributors_count: 688
+      contributors_link: https://github.com/helm/helm/graphs/contributors
+      description: The Kubernetes Package Manager
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#00ADD8'
+        name: Go
+        value: 1650257
+      - color: '#89e051'
+        name: Shell
+        value: 32580
+      - color: '#427819'
+        name: Makefile
+        value: 7804
+      latest_commit_date: '2022-07-28T19:58:16Z'
+      latest_commit_link: /helm/helm/commit/9fe4f2ea72ef795d250f716c3d4146127c1f8040
+      license: Apache License 2.0
+      release_date: '2022-07-21T17:59:26Z'
+      release_link: https://github.com/helm/helm/releases
+      stars: 22356
+    github_start_commit_data:
+      start_commit_link: /helm/helm/commit/94db53d0803034083a3a9b1c7a9a197c327eb6b0
+      start_date: '2015-11-02T23:52:56Z'
     homepage_url: https://helm.sh/
+    image_data:
+      fileName: helm.svg
+      hash: KhA6o4K6XUSqkzETQq1dSKGteJ7kc7vebZcpB96Rxww=
     item: null
     logo: helm.svg
     name: Helm
     project: graduated
     repo_url: https://github.com/helm/helm
+    repos:
+    - stars: 22356
+      url: https://github.com/helm/helm
     twitter: https://twitter.com/helmpack
+    twitter_data:
+      latest_tweet_date: 2022-08-05 16:27:13+00:00
   Continuous Integration & Delivery:
-  - crunchbase: https://www.crunchbase.com/organization/harness-512d
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/harness-512d
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Drone.io
+        date: '2020-08-05'
+      - acquiree: ChaosNative
+        date: '2022-03-22'
+      city: San Francisco
+      company_type: For Profit
+      country: United States
+      description: Harness is a Continuous Delivery-as-a-Service platform for engineering
+        and DevOps teams to release applications into production.
+      funding: 425000000
+      homepage: http://harness.io
+      industries:
+      - Developer Tools
+      - Productivity Tools
+      - SaaS
+      kind: funding
+      linkedin: https://www.linkedin.com/company/harnessinc
+      name: Harness
+      num_employees_max: 1000
+      num_employees_min: 501
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/harnessio
     homepage_url: https://harness.io
+    image_data:
+      fileName: harness-io.svg
+      hash: 3vbjGNT9bi7hueXdJk6V2+2Ix8c/rjtK1hepZmfM5lw=
     item: null
     logo: harness.svg
     name: Harness.io
-  - crunchbase: https://www.crunchbase.com/organization/hyscale
+    twitter_data:
+      latest_tweet_date: 2022-08-05 22:40:01+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/hyscale
+    crunchbase_data:
+      acquisitions: []
+      city: Mountain View
+      company_type: For Profit
+      country: United States
+      description: An acceleration platform for Kubernetes. Offers self-service app
+        deployments, container sprawl management across clusters, and DevSecOps.
+      homepage: https://www.hyscale.io/enterprise/
+      industries: []
+      linkedin: https://www.linkedin.com/company/hyscale/
+      name: HyScale
+      num_employees_max: 50
+      num_employees_min: 11
+      parents:
+      - https://www.crunchbase.com/organization/pramati-prism
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/hyscaleio
     description: An app-centric abstraction framework over K8s and an enterprise platform
       for accelerating deployments to multi-cloud Kubernetes. Offers self-service
       app deployments, container sprawl management across clusters, and DevSecOps.
+    github_data:
+      contributions: 5;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+      contributors_count: 26
+      contributors_link: https://github.com/hyscale/hyscale/graphs/contributors
+      description: HyScale is an Application Centric Abstraction Framework over K8s.
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#b07219'
+        name: Java
+        value: 1951082
+      - color: '#00ADD8'
+        name: Go
+        value: 19897
+      - color: '#89e051'
+        name: Shell
+        value: 10718
+      - name: Smarty
+        value: 4346
+      - color: '#384d54'
+        name: Dockerfile
+        value: 1509
+      - color: '#f1e05a'
+        name: JavaScript
+        value: 1249
+      - color: '#012456'
+        name: PowerShell
+        value: 1092
+      latest_commit_date: '2021-08-27T06:58:56Z'
+      latest_commit_link: /hyscale/hyscale/commit/87c78a3bb29cc6b40d64c816c9c801663c62df5d
+      license: Apache License 2.0
+      release_date: '2021-08-31T09:10:24Z'
+      release_link: https://github.com/hyscale/hyscale/releases
+      stars: 436
+    github_start_commit_data:
+      start_commit_link: /hyscale/hyscale/commit/a0e4fe22e696a3a76582f1d0b3ce9236eb9169b5
+      start_date: '2019-09-26T13:39:15Z'
     homepage_url: https://www.hyscale.io
+    image_data:
+      fileName: hy-scale.svg
+      hash: erC4fClFU6Zb7fkivQrNVvMieTJ4OQrnMSAJ3o3PnCE=
     item: null
     logo: hyscale.svg
     name: HyScale
     repo_url: https://github.com/hyscale/hyscale
+    repos:
+    - stars: 436
+      url: https://github.com/hyscale/hyscale
+    twitter_data:
+      latest_tweet_date: 2021-02-10 15:50:06+00:00
   Database:
-  - crunchbase: https://www.crunchbase.com/organization/hazelcast
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/hazelcast
+    crunchbase_data:
+      acquisitions: []
+      city: San Mateo
+      company_type: For Profit
+      country: United States
+      description: Hazelcast is a real-time, intelligent application platform that
+        enables enterprises to capture value otherwise missed.
+      funding: 63584000
+      homepage: http://www.hazelcast.com
+      industries:
+      - Cloud Computing
+      - Cloud Data Services
+      - Data Storage
+      - Enterprise Software
+      - Open Source
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/hazelcast
+      name: Hazelcast
+      num_employees_max: 250
+      num_employees_min: 101
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: http://twitter.com/hazelcast
+    github_data:
+      contributions: 15;24;22;30;24;32;23;23;21;12;26;15;13;16;6;8;15;12;15;9;1;42;20;33;50;52;37;41;10;10;18;17;18;14;13;9;11;2;10;9;5;4;9;11;5;4;5;2;4;21;27;13
+      contributors_count: 398
+      contributors_link: https://github.com/hazelcast/hazelcast/graphs/contributors
+      description: ' Open-source distributed computation and storage platform'
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#b07219'
+        name: Java
+        value: 64778117
+      - color: '#0050b2'
+        name: FreeMarker
+        value: 140280
+      - color: '#89e051'
+        name: Shell
+        value: 37807
+      - color: '#3572A5'
+        name: Python
+        value: 4714
+      - color: '#555555'
+        name: C
+        value: 3721
+      - color: '#C1F12E'
+        name: Batchfile
+        value: 3700
+      - color: '#F18E33'
+        name: Kotlin
+        value: 1282
+      latest_commit_date: '2022-08-05T10:02:39Z'
+      latest_commit_link: /hazelcast/hazelcast/commit/a28e5fe2a07b2f6b91f57d5cd1ac8a737ddbd12c
+      license: Other
+      release_date: '2022-08-01T14:21:29Z'
+      release_link: https://github.com/hazelcast/hazelcast/releases
+      stars: 4949
+    github_start_commit_data:
+      start_commit_link: /hazelcast/hazelcast/commit/e29759246fc919efca6862e41652a2b4c502c5b4
+      start_date: '2008-12-15T11:41:01Z'
     homepage_url: https://hazelcast.com/open-source-projects
+    image_data:
+      fileName: hazelcast-imdg.svg
+      hash: A3ZA1AWJIQrFEhAqlzZYVlokwdnIRN1TBg+3JTo1I+A=
     item: null
     logo: hazelcast.svg
     name: Hazelcast IMDG
     open_source: false
     repo_url: https://github.com/hazelcast/hazelcast
+    repos:
+    - stars: 4949
+      url: https://github.com/hazelcast/hazelcast
+    twitter_data:
+      latest_tweet_date: 2022-08-05 20:40:11+00:00
   Streaming & Messaging:
-  - crunchbase: https://www.crunchbase.com/organization/hazelcast
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/hazelcast
+    crunchbase_data:
+      acquisitions: []
+      city: San Mateo
+      company_type: For Profit
+      country: United States
+      description: Hazelcast is a real-time, intelligent application platform that
+        enables enterprises to capture value otherwise missed.
+      funding: 63584000
+      homepage: http://www.hazelcast.com
+      industries:
+      - Cloud Computing
+      - Cloud Data Services
+      - Data Storage
+      - Enterprise Software
+      - Open Source
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/hazelcast
+      name: Hazelcast
+      num_employees_max: 250
+      num_employees_min: 101
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: http://twitter.com/hazelcast
+    github_data:
+      contributions: 0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;1;2;1;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+      contributors_count: 58
+      contributors_link: https://github.com/hazelcast/hazelcast-jet/graphs/contributors
+      description: Distributed Stream and Batch Processing
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#b07219'
+        name: Java
+        value: 8374524
+      - color: '#0050b2'
+        name: FreeMarker
+        value: 68264
+      - color: '#f1e05a'
+        name: JavaScript
+        value: 45572
+      - color: '#89e051'
+        name: Shell
+        value: 29283
+      - color: '#563d7c'
+        name: CSS
+        value: 8027
+      - color: '#3572A5'
+        name: Python
+        value: 4714
+      - color: '#C1F12E'
+        name: Batchfile
+        value: 1346
+      - color: '#F18E33'
+        name: Kotlin
+        value: 1012
+      latest_commit_date: '2022-04-13T07:29:52Z'
+      latest_commit_link: /hazelcast/hazelcast-jet/commit/50377c567922050b7c91ddbdc26f365a11e9f653
+      license: Other
+      release_date: '2021-12-21T09:26:03Z'
+      release_link: https://github.com/hazelcast/hazelcast-jet/releases
+      stars: 1012
+    github_start_commit_data:
+      start_commit_link: /hazelcast/hazelcast-jet/commit/4e8c423b30c90e86de8ba471b3a50de16edabf6d
+      start_date: '2016-02-05T18:38:20Z'
     homepage_url: https://jet-start.sh
+    image_data:
+      fileName: hazelcast-jet.svg
+      hash: n5koU7kYLfF2DY2YZwiN7OUb9A9ERmuwMDQAJFTvCK0=
     item: null
     logo: hazelcast-jet.svg
     name: Hazelcast Jet
     open_source: false
     repo_url: https://github.com/hazelcast/hazelcast-jet
+    repos:
+    - stars: 1012
+      url: https://github.com/hazelcast/hazelcast-jet
+    twitter_data:
+      latest_tweet_date: 2022-08-05 20:40:11+00:00
 CNCF Members:
   Academic: []
   End User Supporter:
-  - crunchbase: https://www.crunchbase.com/organization/hitrust-2cd7
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/hitrust-2cd7
+    crunchbase_data:
+      acquisitions: []
+      city: Taipei
+      company_type: For Profit
+      country: Taiwan
+      description: Data Intelligence
+      homepage: https://www.hitrust.com/
+      industries: []
+      linkedin: null
+      name: HiTRUST
+      num_employees_max: null
+      num_employees_min: null
+      parents: []
+      region: T'ai-pei
+      stockExchange: null
+      twitter: null
     homepage_url: https://www.hitrust.com/
+    image_data:
+      fileName: hi-trust-supporter.svg
+      hash: fSq/fcM8JCbSczcl+0xqJqxdAyIP0NawsitszEwoBW8=
     item: null
     joined: '2021-01-05'
     logo: hitrust.svg
     name: HiTRUST (supporter)
-  - crunchbase: https://www.crunchbase.com/organization/huifu-payment
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/huifu-payment
+    crunchbase_data:
+      acquisitions: []
+      city: Xuhui
+      company_type: For Profit
+      country: China
+      description: Huifu Payment provides third party payment services.
+      homepage: https://www.huifu.com/
+      industries:
+      - Finance
+      - Information Technology
+      - Payments
+      kind: market_cap
+      linkedin: null
+      name: Huifu Payment
+      num_employees_max: 5000
+      num_employees_min: 1001
+      parents: []
+      region: Shanghai
+      stockExchange: hkg
+      ticker: 1806.HK
+      twitter: null
     homepage_url: https://www.huifu.com/
+    image_data:
+      fileName: huifu-payment-limited-supporter.svg
+      hash: 4uwgundZqcHC3jPoYBOpydj/v3K5ajXhEMCfnxfCBZM=
     item: null
     joined: '2020-09-02'
     logo: huifu.svg
     name: Huifu Payment Limited (supporter)
+    yahoo_finance_data:
+      effective_ticker: 1806.HK
+      market_cap: 581337079
   Gold:
-  - crunchbase: https://www.crunchbase.com/organization/h3c-technologies
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/h3c-technologies
+    crunchbase_data:
+      acquisitions: []
+      city: Binjiang
+      company_type: For Profit
+      country: China
+      description: H3C is a leading global supplier of IP-based products and solutions.
+      homepage: http://www.h3c.com/portal/
+      industries:
+      - Electronics
+      - Information Technology
+      - Manufacturing
+      - Software
+      linkedin: https://www.linkedin.com/company/h3c-technologies-co-ltd
+      name: H3C Technologies
+      num_employees_max: 5000
+      num_employees_min: 1001
+      parents: []
+      region: Jiangxi
+      stockExchange: null
+      twitter: null
     homepage_url: https://www.h3c.com/en
+    image_data:
+      fileName: h3-c-technologies-member.svg
+      hash: RMuO+VD62WuNLdHjlnwE51ua9UlK1BT7x3w5npa1D5k=
     item: null
     logo: h3-c-technologies-member.svg
     name: H3C Technologies (member)
-  - crunchbase: https://www.crunchbase.com/organization/hcl-technologies
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/hcl-technologies
+    crunchbase_data:
+      acquisitions:
+      - acquiree: AXON Group Ltd.
+        date: '2011-08-19'
+        price: 726711778
+      - acquiree: Concept2Silicon Systems
+        date: '2015-10-19'
+      - acquiree: PowerObjects
+        date: '2015-10-29'
+      - acquiree: Point to Point
+        date: '2016-01-28'
+        price: 11000000
+      - acquiree: GeometricPLM
+        date: '2016-04-02'
+        price: 200000000
+      - acquiree: Butler America
+        date: '2016-10-21'
+        price: 85000000
+      - acquiree: Urban Fulfillment Services
+        date: '2017-04-25'
+        price: 30000000
+      - acquiree: Datawave
+        date: '2017-09-06'
+      - acquiree: C3i Solutions
+        date: '2018-04-05'
+      - acquiree: Actian
+        date: '2018-04-12'
+        price: 264000000
+      - acquiree: H&D International Group
+        date: '2018-06-27'
+      - acquiree: Lotus Development Corporation
+        date: '2018-12-07'
+        price: 1800000000
+      - acquiree: Strong-Bridge Envision
+        date: '2019-03-13'
+      - acquiree: Sankalp Semiconductors
+        date: '2019-09-10'
+        price: 25043648
+      - acquiree: NortonLifeLock
+        date: '2020-05-29'
+      - acquiree: DWS
+        date: '2020-09-21'
+      - acquiree: "Gesellschaft f\xFCr Banksysteme"
+        date: '2021-12-08'
+      - acquiree: Starschema
+        date: '2022-01-14'
+      - acquiree: Quest Informatics
+        date: '2022-05-09'
+        price: 1938835
+      city: Noida
+      company_type: For Profit
+      country: India
+      description: HCL Technologies is a global IT services company, working with
+        clients in the areas that impact and redefine the core of their businesses.
+      funding: 220000000
+      homepage: http://www.hcltech.com
+      industries:
+      - Aerospace
+      - Consumer Electronics
+      - IT Management
+      - Information and Communications Technology (ICT)
+      - Media and Entertainment
+      - Outsourcing
+      - Software
+      - Telecommunications
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/hcl-technologies
+      name: HCL Technologies
+      num_employees_max: 1000000
+      num_employees_min: 10001
+      parents: []
+      region: Uttar Pradesh
+      stockExchange: nse
+      ticker: HCLTECH.NS
+      twitter: http://twitter.com/hcltech
     homepage_url: https://www.hcltech.com/
+    image_data:
+      fileName: hcl-technologies-member.svg
+      hash: BCp0p7pZ1+uyUKLC0URU5aXpFQ9Fv4BCbVb2FZhTULc=
     item: null
     logo: hcl.svg
     name: HCL Technologies (member)
-  - crunchbase: https://www.crunchbase.com/organization/hewlett-packard-enterprise
+    twitter_data:
+      latest_tweet_date: 2022-08-03 12:30:01+00:00
+    yahoo_finance_data:
+      effective_ticker: HCLTECH.NS
+      market_cap: 32743524420
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/hewlett-packard-enterprise
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Trilead
+        date: '2016-02-03'
+      - acquiree: Silicon Graphics
+        date: '2016-08-11'
+        price: 275000000
+      - acquiree: Simplivity
+        date: '2017-01-17'
+        price: 650000000
+      - acquiree: Cloud Cruiser
+        date: '2017-01-23'
+      - acquiree: Niara
+        date: '2017-02-01'
+      - acquiree: Nimble Storage
+        date: '2017-03-07'
+        price: 1090000000
+      - acquiree: Cloud Technology Partners
+        date: '2017-09-05'
+      - acquiree: RedPixie
+        date: '2018-04-11'
+      - acquiree: Plexxi
+        date: '2018-05-15'
+      - acquiree: BlueData Software
+        date: '2018-11-27'
+      - acquiree: MapR Technologies
+        date: '2019-08-06'
+      - acquiree: Cray
+        date: '2019-09-26'
+        price: 1400000000
+      - acquiree: Scytale.io
+        date: '2020-02-03'
+      - acquiree: Silver Peak Systems, Inc.
+        date: '2020-07-13'
+        price: 925000000
+      - acquiree: CloudPhysics
+        date: '2021-02-23'
+      - acquiree: Determined AI
+        date: '2021-06-21'
+      - acquiree: Zerto
+        date: '2021-07-01'
+        price: 374000000
+      - acquiree: Ampool
+        date: '2021-07-07'
+      city: Houston
+      company_type: For Profit
+      country: United States
+      description: Hewlett Packard Enterprise is an industry technology company that
+        enables customers to go further and faster.
+      homepage: https://www.hpe.com
+      industries:
+      - Data Center
+      - Enterprise Software
+      - IT Management
+      - Information Technology
+      - Network Security
+      - Wireless
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/hewlett-packard-enterprise
+      name: Hewlett Packard Enterprise
+      num_employees_max: 1000000
+      num_employees_min: 10001
+      parents: []
+      region: Texas
+      stockExchange: nyse
+      ticker: HPE
+      twitter: https://www.twitter.com/hpe
     homepage_url: https://www.hpe.com/us/en/home.html
+    image_data:
+      fileName: hpe-member.svg
+      hash: T+RjkbAds7aV6k+93wxJ7v+FxGNnxAUrwrxn8y5xKdA=
     item: null
     logo: hpe-member.svg
     name: HPE (member)
+    twitter_data:
+      latest_tweet_date: 2022-08-05 20:25:25+00:00
+    yahoo_finance_data:
+      effective_ticker: HPE
+      market_cap: 18658379776
   Nonprofit: []
   Platinum:
-  - crunchbase: https://www.crunchbase.com/organization/huawei
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/huawei
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Harbour Networks Holdings
+        date: '2006-09-11'
+      - acquiree: 3Leaf
+        date: '2011-02-19'
+      - acquiree: Huawei Symantec Technologies
+        date: '2011-11-14'
+      - acquiree: Centre for Integrated Photonics
+        date: '2012-01-26'
+      - acquiree: Neul
+        date: '2014-09-22'
+        price: 25000000
+      - acquiree: Toga Networks
+        date: '2016-12-07'
+      - acquiree: HexaTier
+        date: '2016-12-27'
+        price: 42000000
+      - acquiree: Vokord Telekom Zao
+        date: '2019-06-03'
+        price: 50000000
+      - acquiree: Vocord
+        date: '2019-06-04'
+      city: Shenzhen
+      company_type: For Profit
+      country: China
+      description: Huawei Technologies provides infrastructure application software
+        and devices with wireline, wireless, and IP technologies.
+      funding: 0
+      homepage: http://huawei.com
+      industries:
+      - Information and Communications Technology (ICT)
+      - Software
+      - Web Hosting
+      - Wireless
+      linkedin: https://www.linkedin.com/company/huawei/
+      name: Huawei Technologies
+      num_employees_max: 1000000
+      num_employees_min: 10001
+      parents: []
+      region: Guangdong
+      stockExchange: null
+      twitter: https://twitter.com/Huawei
     homepage_url: https://www.huaweicloud.com/intl/en-us
+    image_data:
+      fileName: huawei-member.svg
+      hash: mHVrII9LfaQH2KqZmMwccwZdOEgkoKregz2+bez3VHE=
     item: null
     logo: huawei.svg
     name: Huawei (member)
     twitter: https://twitter.com/Huawei_Cloud
+    twitter_data:
+      latest_tweet_date: 2021-05-27 08:57:42+00:00
   Silver:
-  - crunchbase: https://www.crunchbase.com/organization/hammerspace-4936
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/hammerspace-4936
+    crunchbase_data:
+      acquisitions: []
+      city: San Mateo
+      company_type: For Profit
+      country: United States
+      description: Hammerspace is a software-defined data platform that creates a
+        Global Data Environment to connect users and applications with their data.
+      homepage: https://hammerspace.com/
+      industries:
+      - Cloud Data Services
+      - Cloud Storage
+      - Data Storage
+      - Information Technology
+      - Software
+      linkedin: https://www.linkedin.com/company/hammerspace/
+      name: Hammerspace
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/Hammerspace_Inc
     homepage_url: https://hammerspace.com
+    image_data:
+      fileName: hammerspace-member.svg
+      hash: 78ibeWewGaz2o+yw9U8SB1OikYDM42clRr7wH3qFI+k=
     item: null
     logo: hammerspace-member.svg
     name: Hammerspace (member)
-  - crunchbase: https://www.crunchbase.com/organization/haproxy-technologies
+    twitter_data:
+      latest_tweet_date: 2022-08-04 17:36:49+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/haproxy-technologies
+    crunchbase_data:
+      acquisitions: []
+      city: Waltham
+      company_type: For Profit
+      country: United States
+      description: "HAProxy Technologies is the company behind HAProxy, the world\u2019\
+        s fastest and most widely used software load balancer."
+      homepage: http://www.haproxy.com
+      industries:
+      - Information Services
+      - Information Technology
+      - Internet
+      - Software
+      linkedin: https://www.linkedin.com/company/haproxy-technologies/
+      name: HAProxy Technologies
+      num_employees_max: 250
+      num_employees_min: 101
+      parents: []
+      region: Massachusetts
+      stockExchange: null
+      twitter: https://twitter.com/haproxy
     homepage_url: https://www.haproxy.com
+    image_data:
+      fileName: ha-proxy-technologies-member.svg
+      hash: M8TdqZqLFLa9qUXsrRoCSPYuIKjSOkC5eYeQbU31Hf0=
     item: null
     logo: ha-proxy-technologies-member.svg
     name: HAProxy Technologies (member)
-  - crunchbase: https://www.crunchbase.com/organization/harmony-cloud
+    twitter_data:
+      latest_tweet_date: 2022-08-05 15:25:38+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/harmony-cloud
+    crunchbase_data:
+      acquisitions: []
+      city: Hangzhou
+      company_type: For Profit
+      country: China
+      description: Harmony Cloud operates as a cloud computing startup.
+      funding: 4825796
+      homepage: http://harmonycloud.cn/
+      industries:
+      - Cloud Computing
+      - Information Technology
+      kind: funding
+      linkedin: null
+      name: Harmony Cloud
+      num_employees_max: 10
+      num_employees_min: 1
+      parents: []
+      region: Zhejiang
+      stockExchange: null
+      twitter: null
     homepage_url: https://www.harmonycloud.cn
+    image_data:
+      fileName: harmony-cloud-member.svg
+      hash: 3Mn+dQf8JxS599zvq0zTFRb9yz3r8Dz4dyZKrR+gZRU=
     item: null
     logo: harmony-cloud-member.svg
     name: Harmony Cloud (member)
-  - crunchbase: https://www.crunchbase.com/organization/harness-512d
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/harness-512d
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Drone.io
+        date: '2020-08-05'
+      - acquiree: ChaosNative
+        date: '2022-03-22'
+      city: San Francisco
+      company_type: For Profit
+      country: United States
+      description: Harness is a Continuous Delivery-as-a-Service platform for engineering
+        and DevOps teams to release applications into production.
+      funding: 425000000
+      homepage: http://harness.io
+      industries:
+      - Developer Tools
+      - Productivity Tools
+      - SaaS
+      kind: funding
+      linkedin: https://www.linkedin.com/company/harnessinc
+      name: Harness
+      num_employees_max: 1000
+      num_employees_min: 501
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/harnessio
     homepage_url: https://harness.io
+    image_data:
+      fileName: harness-member.svg
+      hash: 1epazX5OrLkc6Chsz7mISona2Qcn/UBSf4DeT4DxGjE=
     item: null
     logo: harness-member.svg
     name: Harness (member)
-  - crunchbase: https://www.crunchbase.com/organization/harpoon
+    twitter_data:
+      latest_tweet_date: 2022-08-05 22:40:01+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/harpoon
+    crunchbase_data:
+      acquisitions: []
+      city: San Diego
+      company_type: For Profit
+      country: United States
+      description: harpoon is a No Code Kubernetes platform
+      funding: 0
+      homepage: https://harpoon.io
+      industries:
+      - Cloud Computing
+      - Developer Tools
+      - Enterprise Software
+      - SaaS
+      - Software
+      - Virtualization
+      - Web Apps
+      - Web Development
+      linkedin: https://www.linkedin.com/company/harpooncorp/
+      name: harpoon
+      num_employees_max: 10
+      num_employees_min: 1
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/harpoon51585536
     homepage_url: https://www.harpoon.io
+    image_data:
+      fileName: harpoon-member.svg
+      hash: W4ZexgjeJ/kJOwC8aX17r77Z1YTyyslJtQMbaPtqhns=
     item: null
     logo: harpoon.svg
     name: Harpoon (member)
-  - crunchbase: https://www.crunchbase.com/organization/hashicorp
+    twitter_data:
+      latest_tweet_date: 2018-09-01 16:59:37+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/hashicorp
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Vektra
+        date: '2016-06-14'
+      city: San Francisco
+      company_type: For Profit
+      country: United States
+      description: HashiCorp is a remote-first company that solves development, security,
+        and operations challenges in infrastructure.
+      funding: 349175000
+      homepage: https://www.hashicorp.com
+      industries:
+      - Cloud Infrastructure
+      - Cyber Security
+      - Information Technology
+      - Private Cloud
+      - Software
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/HashiCorp
+      name: HashiCorp
+      num_employees_max: 5000
+      num_employees_min: 1001
+      parents: []
+      region: California
+      stockExchange: nasdaq
+      ticker: HCP
+      twitter: https://twitter.com/HashiCorp
     homepage_url: https://www.hashicorp.com/
+    image_data:
+      fileName: hashi-corp-member.svg
+      hash: iQpRABvwNfIgG5OvuiRrvS39QbAhDfpm7ymlPwGMmo8=
     item: null
     logo: hashicorp.svg
     name: HashiCorp (member)
-  - crunchbase: https://www.crunchbase.com/organization/hasura
+    twitter_data:
+      latest_tweet_date: 2022-08-05 23:07:00+00:00
+    yahoo_finance_data:
+      effective_ticker: HCP
+      market_cap: 6973402624
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/hasura
+    crunchbase_data:
+      acquisitions: []
+      city: Bangalore
+      company_type: For Profit
+      country: India
+      description: Hasura is a software technology company that provides developer-focused
+        tooling products.
+      funding: 136500000
+      homepage: http://hasura.io/
+      industries:
+      - Cloud Infrastructure
+      - Developer APIs
+      - Developer Tools
+      - Open Source
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/hasura/
+      name: Hasura
+      num_employees_max: null
+      num_employees_min: null
+      parents: []
+      region: Karnataka
+      stockExchange: null
+      twitter: https://twitter.com/hasurahq
     homepage_url: https://hasura.io
+    image_data:
+      fileName: hasura-technologies-member.svg
+      hash: upEgZ76e4X13rISVtz1aIfMw9JBlohaE6cswulWaRgg=
     item: null
     logo: hasura-technologies-member.svg
     name: Hasura Technologies (member)
-  - crunchbase: https://www.crunchbase.com/organization/helios-5828
+    twitter_data:
+      latest_tweet_date: 2022-08-05 13:55:39+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/helios-5828
+    crunchbase_data:
+      acquisitions: []
+      city: Tel Aviv
+      company_type: For Profit
+      country: Israel
+      description: Helios gives you the power to understand, troubleshoot, and test
+        all your applications and services.
+      funding: 5000000
+      homepage: https://gethelios.dev/
+      industries:
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/helios-dev/
+      name: Helios
+      num_employees_max: null
+      num_employees_min: null
+      parents: []
+      region: Tel Aviv
+      stockExchange: null
+      twitter: null
     homepage_url: https://www.gethelios.dev/
+    image_data:
+      fileName: helios-member.svg
+      hash: u0W59vueCh+YX8+E1lexKe8EDUWjy8+0yKf1VUE15Vs=
     item: null
     logo: helios.svg
     name: Helios (member)
-  - crunchbase: https://www.crunchbase.com/organization/hitachi-vantara
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/hitachi-vantara
+    crunchbase_data:
+      acquisitions:
+      - acquiree: REAN Cloud
+        date: '2018-07-24'
+      - acquiree: Waterline Data
+        date: '2020-01-22'
+      - acquiree: Containership
+        date: '2020-03-13'
+      - acquiree: Io-Tahoe
+        date: '2021-06-23'
+      city: Santa Clara
+      company_type: For Profit
+      country: United States
+      description: Hitachi Vantara drives data to meaningful outcomes.
+      homepage: 'https://www.hitachivantara.com/ '
+      industries:
+      - Information Services
+      - Information Technology
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/11257500/
+      name: Hitachi Vantara
+      num_employees_max: 10000
+      num_employees_min: 5001
+      parents:
+      - https://www.crunchbase.com/organization/hitachi
+      region: California
+      stockExchange: null
+      ticker: 6501.T
+      twitter: https://twitter.com/HitachiVantara
     homepage_url: https://www.hitachivantara.com/en-us/home.html
+    image_data:
+      fileName: hitachi-vantara-member.svg
+      hash: Ys3oCUl/x8Iw7eVJyBLT2x/6AKi/OgLYqUKkcVY9cuU=
     item: null
     logo: hitachi-vantara.svg
     name: Hitachi Vantara (member)
-  - crunchbase: https://www.crunchbase.com/organization/humanitec
+    twitter_data:
+      latest_tweet_date: 2022-08-05 19:05:12+00:00
+    yahoo_finance_data:
+      effective_ticker: 6501.T
+      market_cap: 47326370787
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/humanitec
+    crunchbase_data:
+      acquisitions: []
+      city: Berlin
+      company_type: For Profit
+      country: Germany
+      description: Humanitec is the Platform Orchestrator at the core of your Internal
+        Developer Platform.
+      homepage: https://humanitec.com
+      industries:
+      - Information Technology
+      - Software
+      linkedin: https://www.linkedin.com/company/humanitec
+      name: Humanitec
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: Berlin
+      stockExchange: null
+      twitter: https://twitter.com/humanitec_com
     homepage_url: https://www.humanitec.com/
+    image_data:
+      fileName: humanitec-member.svg
+      hash: Eg0MIBY1BlhH7duNByOUynRVjzUswm6eARtudtHeOZU=
     item: null
     logo: humanitec.svg
     name: Humanitec (member)
-  - crunchbase: https://www.crunchbase.com/organization/humio
+    twitter_data:
+      latest_tweet_date: 2022-08-04 07:38:24+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/humio
+    crunchbase_data:
+      acquisitions: []
+      city: London
+      company_type: For Profit
+      country: United Kingdom
+      description: Humio provides a live observability platform that enables data
+        aggregation, exploration, reporting, and analysis from a range of sources.
+      funding: 31830177
+      homepage: https://www.humio.com
+      industries:
+      - Analytics
+      - Data Integration
+      - Information Technology
+      - Management Information Systems
+      kind: funding
+      linkedin: https://www.linkedin.com/company/humio
+      name: Humio
+      num_employees_max: 100
+      num_employees_min: 51
+      parents: []
+      region: England
+      stockExchange: null
+      twitter: https://twitter.com/meethumio
     homepage_url: https://www.humio.com
+    image_data:
+      fileName: humio-member.svg
+      hash: JcrU9mUZDACnLi1wDnW8r0I37Hu4B+0EJ7buwm4t6us=
     item: null
     logo: humio.svg
     name: Humio (member)
-  - crunchbase: https://www.crunchbase.com/organization/hx-security
+    twitter_data:
+      latest_tweet_date: 2022-08-05 19:00:38+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/hx-security
+    crunchbase_data:
+      acquisitions: []
+      city: Beijing
+      company_type: For Profit
+      country: China
+      description: HX Security
+      homepage: https://www.huoxian.cn/index
+      industries: []
+      linkedin: null
+      name: HX Security
+      num_employees_max: null
+      num_employees_min: null
+      parents: []
+      region: Beijing
+      stockExchange: null
+      twitter: null
     homepage_url: https://www.huoxian.cn/
+    image_data:
+      fileName: huoxian-security-member.svg
+      hash: H5Gj4vIOtHv1uVWlGCKyEAoA8YsjPNm0u3PZiF6muQ4=
     item: null
     logo: huoxian-security.svg
     name: Huoxian Security (member)
-  - crunchbase: https://www.crunchbase.com/organization/hyscale
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/hyscale
+    crunchbase_data:
+      acquisitions: []
+      city: Mountain View
+      company_type: For Profit
+      country: United States
+      description: An acceleration platform for Kubernetes. Offers self-service app
+        deployments, container sprawl management across clusters, and DevSecOps.
+      homepage: https://www.hyscale.io/enterprise/
+      industries: []
+      linkedin: https://www.linkedin.com/company/hyscale/
+      name: HyScale
+      num_employees_max: 50
+      num_employees_min: 11
+      parents:
+      - https://www.crunchbase.com/organization/pramati-prism
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/hyscaleio
     homepage_url: https://www.hyscale.io/
+    image_data:
+      fileName: hy-scale-member.svg
+      hash: erC4fClFU6Zb7fkivQrNVvMieTJ4OQrnMSAJ3o3PnCE=
     item: null
     logo: hyscale.svg
     name: HyScale (member)
+    twitter_data:
+      latest_tweet_date: 2021-02-10 15:50:06+00:00
 Observability and Analysis:
   Chaos Engineering: []
   Continuous Optimization: []
   Logging:
-  - crunchbase: https://www.crunchbase.com/organization/humio
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/humio
+    crunchbase_data:
+      acquisitions: []
+      city: London
+      company_type: For Profit
+      country: United Kingdom
+      description: Humio provides a live observability platform that enables data
+        aggregation, exploration, reporting, and analysis from a range of sources.
+      funding: 31830177
+      homepage: https://www.humio.com
+      industries:
+      - Analytics
+      - Data Integration
+      - Information Technology
+      - Management Information Systems
+      kind: funding
+      linkedin: https://www.linkedin.com/company/humio
+      name: Humio
+      num_employees_max: 100
+      num_employees_min: 51
+      parents: []
+      region: England
+      stockExchange: null
+      twitter: https://twitter.com/meethumio
     homepage_url: https://www.humio.com/
+    image_data:
+      fileName: humio.svg
+      hash: JcrU9mUZDACnLi1wDnW8r0I37Hu4B+0EJ7buwm4t6us=
     item: null
     logo: humio.svg
     name: Humio
+    twitter_data:
+      latest_tweet_date: 2022-08-05 19:00:38+00:00
   Monitoring:
-  - crunchbase: https://www.crunchbase.com/organization/honeybadger
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/honeybadger
+    crunchbase_data:
+      acquisitions: []
+      city: Kirkland
+      company_type: For Profit
+      country: United States
+      description: Exception, uptime, and cron monitoring for web developers
+      homepage: https://www.honeybadger.io
+      industries:
+      - SaaS
+      - Software
+      - Web Development
+      linkedin: https://www.linkedin.com/company/honeybadger-io/about/
+      name: Honeybadger
+      num_employees_max: 10
+      num_employees_min: 1
+      parents: []
+      region: Washington
+      stockExchange: null
+      twitter: https://twitter.com/honeybadgerapp
     homepage_url: https://www.honeybadger.io/
+    image_data:
+      fileName: honeybadger.svg
+      hash: 0tk1jnKIYBMZzMyFdhgAA00lxE9wwY6T/sH5vdQc0ls=
     item: null
     logo: honeybadger.svg
     name: Honeybadger
-  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    twitter_data:
+      latest_tweet_date: 2022-08-04 18:47:24+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Kubernetes
+        date: '2016-03-10'
+      - acquiree: RethinkDB
+        date: '2017-02-06'
+        price: 25000
+      city: San Francisco
+      company_type: Non Profit
+      country: United States
+      description: CNCF is an open source software foundation that hosts and nurtures
+        projects like Kubernetes and Prometheus.
+      funding: 3000000
+      homepage: https://www.cncf.io
+      industries:
+      - Cloud Computing
+      - Cloud Infrastructure
+      - Non Profit
+      - Open Source
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+      name: Cloud Native Computing Foundation (CNCF)
+      num_employees_max: 50
+      num_employees_min: 11
+      parents:
+      - https://www.crunchbase.com/organization/linux-foundation
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/CloudNativeFdn
+    github_data:
+      contributions: 5;5;4;2;7;5;6;2;1;2;1;2;3;2;0;0;5;7;1;2;2;2;2;0;4;1;1;2;2;1;2;5;2;2;2;1;6;2;2;5;4;5;8;7;4;10;2;3;1;2;4;3
+      contributors_count: 35
+      contributors_link: https://github.com/cilium/hubble/graphs/contributors
+      description: Hubble - Network, Service & Security Observability for Kubernetes
+        using eBPF
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#00ADD8'
+        name: Go
+        value: 231286
+      - color: '#427819'
+        name: Makefile
+        value: 2895
+      - color: '#384d54'
+        name: Dockerfile
+        value: 986
+      latest_commit_date: '2022-08-02T14:17:41Z'
+      latest_commit_link: /cilium/hubble/commit/c91443379b49a613de39dfab4c0e883e67bbeec6
+      license: Apache License 2.0
+      release_date: '2022-06-22T16:51:50Z'
+      release_link: https://github.com/cilium/hubble/releases
+      stars: 2121
+    github_start_commit_data:
+      start_commit_link: /cilium/hubble/commit/4c2e5c2e613af389d12a5290fc8fea436f28ea75
+      start_date: '2019-11-19T05:03:41Z'
     homepage_url: https://github.com/cilium/hubble
+    image_data:
+      fileName: hubble.svg
+      hash: vSDM86wiu5sg+/s0gjbWGkTFDGEBWyUmTJmVbA/U7BY=
     item: null
     logo: hubble(rgb).svg
     name: Hubble
     project: incubating
     repo_url: https://github.com/cilium/hubble
+    repos:
+    - stars: 2121
+      url: https://github.com/cilium/hubble
+    twitter_data:
+      latest_tweet_date: 2022-08-05 21:09:37+00:00
   Tracing:
-  - crunchbase: https://www.crunchbase.com/organization/honeycombio
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/honeycombio
+    crunchbase_data:
+      acquisitions: []
+      city: San Francisco
+      company_type: For Profit
+      country: United States
+      description: Honeycomb is a developer of an observability platform to visualize,
+        analyze, and improve cloud application quality and performance.
+      funding: 85400000
+      homepage: https://www.honeycomb.io/
+      industries:
+      - Cloud Data Services
+      - Data Visualization
+      - Developer Tools
+      - Information Technology
+      - Software Engineering
+      kind: funding
+      linkedin: https://www.linkedin.com/company/honeycomb.io/
+      name: Honeycomb
+      num_employees_max: 250
+      num_employees_min: 101
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: https://www.twitter.com/honeycombio
     homepage_url: https://www.honeycomb.io/
+    image_data:
+      fileName: honeycomb.svg
+      hash: 8B3ximDegs1Fz2d4jIF4vqINPLdd8QeyJvHnaZb9eZ4=
     item: null
     logo: honeycomb.svg
     name: Honeycomb
+    twitter_data:
+      latest_tweet_date: 2022-08-05 23:29:05+00:00
 Orchestration & Management:
   API Gateway:
-  - crunchbase: https://www.crunchbase.com/organization/netease-com
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/netease-com
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Grasshopper Manufacture
+        date: '2021-10-22'
+      city: Hangzhou
+      company_type: For Profit
+      country: China
+      description: 'NetEase, Inc. (NASDAQ: NTES) is a leading internet technology
+        company dedicated to providing premium online services.'
+      funding: 0
+      homepage: https://www.neteasegames.com/
+      industries:
+      - Advertising
+      - Gaming
+      - Mobile
+      - Mobile Apps
+      - Music
+      - PC Games
+      - Venture Capital
+      - Wireless
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/netease
+      name: NetEase
+      num_employees_max: 1000000
+      num_employees_min: 10001
+      parents: []
+      region: Zhejiang
+      stockExchange: hkg
+      ticker: 9999.HK
+      twitter: https://twitter.com/neteaseofficial?lang=en
+    github_data:
+      contributions: 14;10;0;0;1;2;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+      contributors_count: 11
+      contributors_link: https://github.com/hango-io/hango-gateway/graphs/contributors
+      description: Hango API Gateway, build on Envoy & Istio.
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#89e051'
+        name: Shell
+        value: 8173
+      - name: Mustache
+        value: 1908
+      latest_commit_date: '2022-01-13T05:29:20Z'
+      latest_commit_link: /hango-io/hango-gateway/commit/073d11f2c32081286ec11c2db0eba05958ce6eee
+      license: Apache License 2.0
+      release_date: '2021-08-10T09:04:52Z'
+      release_link: https://github.com/hango-io/hango-gateway/releases
+      stars: 352
+    github_start_commit_data:
+      start_commit_link: /hango-io/hango-gateway/commit/e986210913db2f2d62c64586d35f711decf0cf4a
+      start_date: '2021-08-04T11:13:06Z'
     homepage_url: https://github.com/hango-io
+    image_data:
+      fileName: hango.svg
+      hash: fnD0/ww4gRu3eDbvfYFCgZuNcuGUH/2PupP7UBO+wj0=
     item: null
     logo: Hango.svg
     name: Hango
     repo_url: https://github.com/hango-io/hango-gateway
+    repos:
+    - stars: 352
+      url: https://github.com/hango-io/hango-gateway
     twitter: https://twitter.com/NetEase_Global
+    twitter_data:
+      latest_tweet_date: 2022-08-02 08:34:40+00:00
+    yahoo_finance_data:
+      effective_ticker: 9999.HK
+      market_cap: 58973992918
   Coordination & Service Discovery: []
   Remote Procedure Call: []
   Scheduling & Orchestration: []
   Service Mesh: []
   Service Proxy:
-  - crunchbase: https://www.crunchbase.com/organization/haproxy-technologies
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/haproxy-technologies
+    crunchbase_data:
+      acquisitions: []
+      city: Waltham
+      company_type: For Profit
+      country: United States
+      description: "HAProxy Technologies is the company behind HAProxy, the world\u2019\
+        s fastest and most widely used software load balancer."
+      homepage: http://www.haproxy.com
+      industries:
+      - Information Services
+      - Information Technology
+      - Internet
+      - Software
+      linkedin: https://www.linkedin.com/company/haproxy-technologies/
+      name: HAProxy Technologies
+      num_employees_max: 250
+      num_employees_min: 101
+      parents: []
+      region: Massachusetts
+      stockExchange: null
+      twitter: https://twitter.com/haproxy
+    github_data:
+      contributions: 31;35;54;49;30;49;54;69;98;59;73;50;29;56;48;45;27;29;46;59;33;38;39;43;63;44;38;58;65;73;54;41;45;116;42;81;41;90;134;84;121;129;82;40;48;41;38;65;40;24;25;26
+      contributors_count: 347
+      contributors_link: https://github.com/haproxy/haproxy/graphs/contributors
+      description: HAProxy Load Balancer's development branch (mirror of git.haproxy.org)
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#555555'
+        name: C
+        value: 9894324
+      - color: '#89e051'
+        name: Shell
+        value: 59800
+      - color: '#427819'
+        name: Makefile
+        value: 54593
+      - color: '#3572A5'
+        name: Python
+        value: 20148
+      - color: '#000080'
+        name: Lua
+        value: 14494
+      - color: '#199f4b'
+        name: Vim script
+        value: 7696
+      - color: '#0298c3'
+        name: Perl
+        value: 5554
+      - name: SmPL
+        value: 5223
+      - color: '#e34c26'
+        name: HTML
+        value: 44
+      latest_commit_date: '2022-08-05T14:12:00Z'
+      latest_commit_link: /haproxy/haproxy/commit/f9d4a7dad385d66edfab99c307bb1d493c3eff04
+      license: Other
+      stars: 2989
+    github_start_commit_data:
+      start_commit_link: /haproxy/haproxy/commit/0f7af9126525b01b82ad3f1b1cde8843de93a89d
+      start_date: '2005-12-17T11:21:26Z'
     homepage_url: https://www.haproxy.com/
+    image_data:
+      fileName: ha-proxy.svg
+      hash: Lr6Ak+r5LAbsmWTEYxgdfDUosjjBIBfCGn6tophcLL8=
     item: null
     logo: haproxy.svg
     name: HAProxy
     repo_url: https://github.com/haproxy/haproxy
+    repos:
+    - stars: 2989
+      url: https://github.com/haproxy/haproxy
+    twitter_data:
+      latest_tweet_date: 2022-08-05 15:25:38+00:00
 Platform:
   Certified Kubernetes - Distribution:
-  - crunchbase: https://www.crunchbase.com/organization/h3c-technologies
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/h3c-technologies
+    crunchbase_data:
+      acquisitions: []
+      city: Binjiang
+      company_type: For Profit
+      country: China
+      description: H3C is a leading global supplier of IP-based products and solutions.
+      homepage: http://www.h3c.com/portal/
+      industries:
+      - Electronics
+      - Information Technology
+      - Manufacturing
+      - Software
+      linkedin: https://www.linkedin.com/company/h3c-technologies-co-ltd
+      name: H3C Technologies
+      num_employees_max: 5000
+      num_employees_min: 1001
+      parents: []
+      region: Jiangxi
+      stockExchange: null
+      twitter: null
     description: Based on container technology and pluggable open architecture, H3C
       CloudOS provides compute, storage, network, security, big data, database, PaaS,
       and DevOps services as a full-stack cloud management platform. It enables you
       to perform unified operations and management of various cloud resources.
     homepage_url: https://www.h3c.com/en
+    image_data:
+      fileName: h3-c-cloud-os.svg
+      hash: qCtZ/Oz1U5m1Rfgy+7g5aMNuC/VGmVvX13d9CmfzHPk=
     item: null
     logo: h3-c-cloud-os.svg
     name: H3C CloudOS
-  - crunchbase: https://www.crunchbase.com/organization/harmony-cloud
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/harmony-cloud
+    crunchbase_data:
+      acquisitions: []
+      city: Hangzhou
+      company_type: For Profit
+      country: China
+      description: Harmony Cloud operates as a cloud computing startup.
+      funding: 4825796
+      homepage: http://harmonycloud.cn/
+      industries:
+      - Cloud Computing
+      - Information Technology
+      kind: funding
+      linkedin: null
+      name: Harmony Cloud
+      num_employees_max: 10
+      num_employees_min: 1
+      parents: []
+      region: Zhejiang
+      stockExchange: null
+      twitter: null
     description: HarmonyCloud Container Platform is an Enterprise Platform-as-a-Service
       based on Kubernetes.
     homepage_url: http://harmonycloud.cn/products/rongqiyun/
+    image_data:
+      fileName: harmony-cloud-container-platform.svg
+      hash: yPCUwlYlerW3KU8JnQ8No8+0fhs9PUS9iD11Q7vevPg=
     item: null
     logo: harmonycloud.svg
     name: HarmonyCloud Container Platform
   Certified Kubernetes - Hosted:
-  - crunchbase: https://www.crunchbase.com/organization/huawei
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/huawei
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Harbour Networks Holdings
+        date: '2006-09-11'
+      - acquiree: 3Leaf
+        date: '2011-02-19'
+      - acquiree: Huawei Symantec Technologies
+        date: '2011-11-14'
+      - acquiree: Centre for Integrated Photonics
+        date: '2012-01-26'
+      - acquiree: Neul
+        date: '2014-09-22'
+        price: 25000000
+      - acquiree: Toga Networks
+        date: '2016-12-07'
+      - acquiree: HexaTier
+        date: '2016-12-27'
+        price: 42000000
+      - acquiree: Vokord Telekom Zao
+        date: '2019-06-03'
+        price: 50000000
+      - acquiree: Vocord
+        date: '2019-06-04'
+      city: Shenzhen
+      company_type: For Profit
+      country: China
+      description: Huawei Technologies provides infrastructure application software
+        and devices with wireline, wireless, and IP technologies.
+      funding: 0
+      homepage: http://huawei.com
+      industries:
+      - Information and Communications Technology (ICT)
+      - Software
+      - Web Hosting
+      - Wireless
+      linkedin: https://www.linkedin.com/company/huawei/
+      name: Huawei Technologies
+      num_employees_max: 1000000
+      num_employees_min: 10001
+      parents: []
+      region: Guangdong
+      stockExchange: null
+      twitter: https://twitter.com/Huawei
     description: Cloud Container Engine (CCE) is a high-performance, high-reliability
       service through which enterprises can manage containerized applications. CCE
       supports native Kubernetes applications and tools, allowing you to set up a
       container runtime environment on the cloud with ease.
     homepage_url: https://www.huaweicloud.com/intl/en-us
+    image_data:
+      fileName: huawei-cloud-container-engine-cce.svg
+      hash: VDjfBA8FMydQ2bDnulEZlNNIcT8y4iGh/DeU3FnRngc=
     item: null
     logo: huawei-cloud-container-engine-cce.svg
     name: Huawei Cloud Container Engine (CCE)
     twitter: https://twitter.com/Huawei_Cloud
+    twitter_data:
+      latest_tweet_date: 2021-05-27 08:57:42+00:00
   Certified Kubernetes - Installer:
-  - crunchbase: https://www.crunchbase.com/organization/harmony-cloud
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/harmony-cloud
+    crunchbase_data:
+      acquisitions: []
+      city: Hangzhou
+      company_type: For Profit
+      country: China
+      description: Harmony Cloud operates as a cloud computing startup.
+      funding: 4825796
+      homepage: http://harmonycloud.cn/
+      industries:
+      - Cloud Computing
+      - Information Technology
+      kind: funding
+      linkedin: null
+      name: Harmony Cloud
+      num_employees_max: 10
+      num_employees_min: 1
+      parents: []
+      region: Zhejiang
+      stockExchange: null
+      twitter: null
     description: 'Harmonycloud PaaS Container Platform Install is an Offline install
       Platform-as-a-Service platform based on Kubernetes. '
     homepage_url: http://harmonycloud.cn/products/rongqiyun/
+    image_data:
+      fileName: harmonycloud-paa-s-container-platform-install.svg
+      hash: yPCUwlYlerW3KU8JnQ8No8+0fhs9PUS9iD11Q7vevPg=
     item: null
     logo: harmonycloud.svg
     name: Harmonycloud PaaS Container Platform Install
   PaaS/Container Service:
-  - crunchbase: https://www.crunchbase.com/organization/salesforce
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/salesforce
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Sendia
+        date: '2006-04-11'
+      - acquiree: Kieden
+        date: '2006-08-22'
+      - acquiree: Koral Technologies
+        date: '2007-04-10'
+      - acquiree: InStranet
+        date: '2008-08-19'
+        price: 31500000
+      - acquiree: GroupSwim
+        date: '2009-12-11'
+        price: 7000000
+      - acquiree: Informavores
+        date: '2009-12-31'
+      - acquiree: Jigsaw
+        date: '2010-04-21'
+      - acquiree: Sitemasher
+        date: '2010-05-28'
+      - acquiree: Activa Live
+        date: '2010-09-24'
+      - acquiree: Heroku
+        date: '2010-12-08'
+      - acquiree: Etacts
+        date: '2010-12-21'
+      - acquiree: Dimdim
+        date: '2011-01-06'
+      - acquiree: Manymoon
+        date: '2011-02-01'
+      - acquiree: Radian6
+        date: '2011-03-30'
+      - acquiree: Zorap
+        date: '2011-05-01'
+      - acquiree: Navajo Systems
+        date: '2011-08-26'
+      - acquiree: Desk.com
+        date: '2011-09-21'
+      - acquiree: Model Metrics
+        date: '2011-11-14'
+      - acquiree: Work.com
+        date: '2011-12-15'
+      - acquiree: Stypi
+        date: '2012-05-01'
+      - acquiree: Buddy Media
+        date: '2012-06-04'
+        price: 649000000
+      - acquiree: ChoicePass
+        date: '2012-06-18'
+      - acquiree: Thinkfuse
+        date: '2012-06-25'
+      - acquiree: GoInstant
+        date: '2012-07-09'
+        price: 70000000
+      - acquiree: Prior Knowledge
+        date: '2012-11-23'
+      - acquiree: EntropySoft
+        date: '2013-02-06'
+      - acquiree: Clipboard
+        date: '2013-05-10'
+        price: 20000000
+      - acquiree: ExactTarget
+        date: '2013-06-04'
+        price: 2500000000
+      - acquiree: EdgeSpring
+        date: '2013-06-07'
+      - acquiree: Cloud Connect
+        date: '2013-11-18'
+      - acquiree: RelateIQ
+        date: '2014-07-11'
+        price: 390000000
+      - acquiree: Toopher
+        date: '2015-04-01'
+      - acquiree: Tempo AI
+        date: '2015-05-29'
+      - acquiree: Kerensen Consulting
+        date: '2015-07-31'
+        price: 24200000
+      - acquiree: AKTA
+        date: '2015-09-02'
+      - acquiree: MinHash
+        date: '2015-12-14'
+      - acquiree: SteelBrick
+        date: '2015-12-23'
+        price: 360000000
+      - acquiree: YOUR SL
+        date: '2016-01-22'
+      - acquiree: PredictionIO
+        date: '2016-02-19'
+      - acquiree: MetaMind
+        date: '2016-04-04'
+        price: 32799999
+      - acquiree: Implisit
+        date: '2016-05-09'
+      - acquiree: Demandware
+        date: '2016-06-01'
+        price: 2800000000
+      - acquiree: Coolan
+        date: '2016-07-21'
+      - acquiree: Quip
+        date: '2016-08-01'
+        price: 750000000
+      - acquiree: BeyondCore
+        date: '2016-08-15'
+        price: 110000000
+      - acquiree: HeyWire
+        date: '2016-09-07'
+      - acquiree: gravitytank
+        date: '2016-09-30'
+      - acquiree: Krux
+        date: '2016-10-03'
+        price: 800000000
+      - acquiree: Twin Prime
+        date: '2016-12-14'
+      - acquiree: Sequence
+        date: '2017-01-25'
+      - acquiree: Attic Labs
+        date: '2018-01-08'
+      - acquiree: CloudCraze
+        date: '2018-03-13'
+      - acquiree: MuleSoft
+        date: '2018-03-20'
+        price: 6500000000
+      - acquiree: Datorama
+        date: '2018-07-17'
+        price: 800000000
+      - acquiree: Rebel
+        date: '2018-10-05'
+      - acquiree: Griddable
+        date: '2019-01-28'
+      - acquiree: Salesforce Foundation
+        date: '2019-04-16'
+        price: 300000000
+      - acquiree: MapAnything
+        date: '2019-04-17'
+        price: 213000000
+      - acquiree: Bonobo AI
+        date: '2019-05-06'
+      - acquiree: Tableau
+        date: '2019-06-10'
+        price: 15700000000
+      - acquiree: ClickSoftware Technologies
+        date: '2019-08-08'
+        price: 1350000000
+      - acquiree: Evergage
+        date: '2020-02-03'
+      - acquiree: Vlocity
+        date: '2020-02-25'
+        price: 1330000000
+      - acquiree: The CMO Club
+        date: '2020-03-02'
+      - acquiree: Mobify
+        date: '2020-09-06'
+        price: 60000000
+      - acquiree: Acumen Solutions
+        date: '2020-12-01'
+      - acquiree: Slack
+        date: '2020-12-01'
+        price: 27700000000
+      - acquiree: LevelJump
+        date: '2021-09-24'
+      - acquiree: Atonit
+        date: '2022-02-02'
+      - acquiree: Troops
+        date: '2022-03-01'
+      - acquiree: Phennecs
+        date: '2022-04-04'
+      city: San Francisco
+      company_type: For Profit
+      country: United States
+      description: Salesforce is a global cloud computing company that develops CRM
+        solutions and provides business software on a subscription basis.
+      funding: 65375124
+      homepage: https://www.salesforce.com
+      industries:
+      - Analytics
+      - CRM
+      - Enterprise Software
+      - SaaS
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/salesforce
+      name: Salesforce
+      num_employees_max: 1000000
+      num_employees_min: 10001
+      parents: []
+      region: California
+      stockExchange: nyse
+      ticker: CRM
+      twitter: http://twitter.com/salesforce
     description: Developers, teams, and businesses of all sizes use Heroku to deploy,
       manage, and scale apps.
     homepage_url: https://www.heroku.com
+    image_data:
+      fileName: heroku.svg
+      hash: E15IVYEYe3oR1b/7W/cCNScl/rlYKS525iYUI7a5mBA=
     item: null
     logo: heroku.svg
     name: Heroku
     twitter: https://twitter.com/heroku
+    twitter_data:
+      latest_tweet_date: 2022-06-15 20:59:11+00:00
+    yahoo_finance_data:
+      effective_ticker: CRM
+      market_cap: 189219143680
 Provisioning:
   Automation & Configuration: []
   Container Registry:
-  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  - best_practice_data:
+      badge: 2095
+      percentage: 100
+    crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Kubernetes
+        date: '2016-03-10'
+      - acquiree: RethinkDB
+        date: '2017-02-06'
+        price: 25000
+      city: San Francisco
+      company_type: Non Profit
+      country: United States
+      description: CNCF is an open source software foundation that hosts and nurtures
+        projects like Kubernetes and Prometheus.
+      funding: 3000000
+      homepage: https://www.cncf.io
+      industries:
+      - Cloud Computing
+      - Cloud Infrastructure
+      - Non Profit
+      - Open Source
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+      name: Cloud Native Computing Foundation (CNCF)
+      num_employees_max: 50
+      num_employees_min: 11
+      parents:
+      - https://www.crunchbase.com/organization/linux-foundation
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/CloudNativeFdn
     extra:
       accepted: '2018-07-31'
       artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#harbor-logos
@@ -256,128 +1913,968 @@ Provisioning:
       mailing_list_url: https://lists.cncf.io/g/harbor-users/topics
       slack_url: https://cloud-native.slack.com/messages/harbor/
       stack_overflow_url: https://stackoverflow.com/questions/tagged/harbor
+    github_data:
+      contributions: 10;9;13;14;4;19;20;11;4;17;15;14;12;17;6;5;7;17;9;3;1;6;13;19;19;4;11;8;6;13;17;10;16;12;7;11;12;17;5;16;8;14;3;14;11;21;15;19;9;8;11;20
+      contributors_count: 302
+      contributors_link: https://github.com/goharbor/harbor/graphs/contributors
+      description: An open source trusted cloud native registry project that stores,
+        signs, and scans content.
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#00ADD8'
+        name: Go
+        value: 5465628
+      - color: '#2b7489'
+        name: TypeScript
+        value: 2010845
+      - color: '#e34c26'
+        name: HTML
+        value: 842927
+      - color: '#3572A5'
+        name: Python
+        value: 513769
+      - name: RobotFramework
+        value: 464827
+      - name: Jinja
+        value: 198952
+      - name: SCSS
+        value: 113514
+      - color: '#89e051'
+        name: Shell
+        value: 81740
+      - color: '#427819'
+        name: Makefile
+        value: 42282
+      - color: '#384d54'
+        name: Dockerfile
+        value: 16684
+      - name: PLpgSQL
+        value: 11799
+      - color: '#f1e05a'
+        name: JavaScript
+        value: 6079
+      - color: '#563d7c'
+        name: CSS
+        value: 2122
+      - name: Smarty
+        value: 1931
+      latest_commit_date: '2022-08-05T12:07:02Z'
+      latest_commit_link: /goharbor/harbor/commit/49d73fa57dd74766ae7cd1083b53d50ed6624489
+      license: Apache License 2.0
+      release_date: '2022-08-03T06:04:35Z'
+      release_link: https://github.com/goharbor/harbor/releases
+      stars: 18005
+    github_start_commit_data:
+      start_commit_link: /goharbor/harbor/commit/f859348ac6230bda564f608e934f67359233a4b3
+      start_date: '2016-02-01T11:59:10Z'
     homepage_url: https://goharbor.io/
+    image_data:
+      fileName: harbor.svg
+      hash: X1sIwTjFqzWzveSoeRaJRHdCxUV8RXj1ZeOLn7/L07w=
     item: null
     logo: harbor.svg
     name: Harbor
     project: graduated
     repo_url: https://github.com/goharbor/harbor
+    repos:
+    - stars: 18005
+      url: https://github.com/goharbor/harbor
     twitter: https://twitter.com/project_harbor
+    twitter_data:
+      latest_tweet_date: 2022-07-25 11:39:17+00:00
   Key Management: []
   Security & Compliance: []
 Runtime:
   Cloud Native Network: []
   Cloud Native Storage:
-  - crunchbase: https://www.crunchbase.com/organization/hitachi
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/hitachi
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Archivas
+        date: '2007-02-05'
+        price: 120000000
+      - acquiree: Hitachi ID Systems
+        date: '2008-04-07'
+      - acquiree: Parascale
+        date: '2010-08-20'
+      - acquiree: Aloka
+        date: '2011-06-22'
+      - acquiree: BlueArc
+        date: '2011-09-07'
+      - acquiree: Hi-Rel Electronics
+        date: '2011-10-07'
+      - acquiree: Cofio Software
+        date: '2012-09-24'
+      - acquiree: Horizon Nuclear Power
+        date: '2012-10-30'
+      - acquiree: Hitachi Payment Services
+        date: '2013-11-15'
+        price: 250000000
+      - acquiree: Ideaca
+        date: '2013-12-02'
+      - acquiree: Ignify
+        date: '2015-12-14'
+      - acquiree: ABB - Power Grids Business
+        date: '2018-12-17'
+        price: 7800000000
+      - acquiree: JR Automation Technologies
+        date: '2019-04-24'
+        price: 1425000000
+      - acquiree: GlobalLogic
+        date: '2021-03-31'
+        price: 9600000000
+      city: Tokyo
+      company_type: For Profit
+      country: Japan
+      description: Hitachi is engaged in the manufacture and sale of electronic and
+        electrical products worldwide.
+      homepage: http://www.hitachi.com
+      industries:
+      - Industrial Manufacturing
+      - Manufacturing
+      - Public Relations
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/hitachi
+      name: Hitachi
+      num_employees_max: 1000000
+      num_employees_min: 10001
+      parents: []
+      region: Tokyo
+      stockExchange: tyo
+      ticker: 6501.T
+      twitter: https://twitter.com/HitachiGlobal
     homepage_url: https://www.hitachi.com
+    image_data:
+      fileName: hitachi.svg
+      hash: /7H/or5oIUDOPHfLaN7uRmbl1yZt8CTw+pIfO63sskg=
     item: null
     logo: hitachi.svg
     name: Hitachi
     twitter: https://twitter.com/hitachivantara
-  - crunchbase: https://www.crunchbase.com/organization/hewlett-packard-enterprise
+    twitter_data:
+      latest_tweet_date: 2022-08-05 19:05:12+00:00
+    yahoo_finance_data:
+      effective_ticker: 6501.T
+      market_cap: 47326370787
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/hewlett-packard-enterprise
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Trilead
+        date: '2016-02-03'
+      - acquiree: Silicon Graphics
+        date: '2016-08-11'
+        price: 275000000
+      - acquiree: Simplivity
+        date: '2017-01-17'
+        price: 650000000
+      - acquiree: Cloud Cruiser
+        date: '2017-01-23'
+      - acquiree: Niara
+        date: '2017-02-01'
+      - acquiree: Nimble Storage
+        date: '2017-03-07'
+        price: 1090000000
+      - acquiree: Cloud Technology Partners
+        date: '2017-09-05'
+      - acquiree: RedPixie
+        date: '2018-04-11'
+      - acquiree: Plexxi
+        date: '2018-05-15'
+      - acquiree: BlueData Software
+        date: '2018-11-27'
+      - acquiree: MapR Technologies
+        date: '2019-08-06'
+      - acquiree: Cray
+        date: '2019-09-26'
+        price: 1400000000
+      - acquiree: Scytale.io
+        date: '2020-02-03'
+      - acquiree: Silver Peak Systems, Inc.
+        date: '2020-07-13'
+        price: 925000000
+      - acquiree: CloudPhysics
+        date: '2021-02-23'
+      - acquiree: Determined AI
+        date: '2021-06-21'
+      - acquiree: Zerto
+        date: '2021-07-01'
+        price: 374000000
+      - acquiree: Ampool
+        date: '2021-07-07'
+      city: Houston
+      company_type: For Profit
+      country: United States
+      description: Hewlett Packard Enterprise is an industry technology company that
+        enables customers to go further and faster.
+      homepage: https://www.hpe.com
+      industries:
+      - Data Center
+      - Enterprise Software
+      - IT Management
+      - Information Technology
+      - Network Security
+      - Wireless
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/hewlett-packard-enterprise
+      name: Hewlett Packard Enterprise
+      num_employees_max: 1000000
+      num_employees_min: 10001
+      parents: []
+      region: Texas
+      stockExchange: nyse
+      ticker: HPE
+      twitter: https://www.twitter.com/hpe
     description: "The world\u2019s most intelligent storage, built for our hybrid\
       \ cloud world to help you unlock the full potential of your data."
     homepage_url: https://www.hpe.com/us/en/storage.html
+    image_data:
+      fileName: hpe-storage.svg
+      hash: hWBtfNQQm6ZqcORaM2BS+0AAX/3BisTE7Iqpa5cX1QY=
     item: null
     logo: hpe-storage.svg
     name: HPE Storage
     twitter: https://twitter.com/HPE_Storage
-  - crunchbase: https://www.crunchbase.com/organization/huawei
+    twitter_data:
+      latest_tweet_date: 2022-08-04 14:06:00+00:00
+    yahoo_finance_data:
+      effective_ticker: HPE
+      market_cap: 18658379776
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/huawei
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Harbour Networks Holdings
+        date: '2006-09-11'
+      - acquiree: 3Leaf
+        date: '2011-02-19'
+      - acquiree: Huawei Symantec Technologies
+        date: '2011-11-14'
+      - acquiree: Centre for Integrated Photonics
+        date: '2012-01-26'
+      - acquiree: Neul
+        date: '2014-09-22'
+        price: 25000000
+      - acquiree: Toga Networks
+        date: '2016-12-07'
+      - acquiree: HexaTier
+        date: '2016-12-27'
+        price: 42000000
+      - acquiree: Vokord Telekom Zao
+        date: '2019-06-03'
+        price: 50000000
+      - acquiree: Vocord
+        date: '2019-06-04'
+      city: Shenzhen
+      company_type: For Profit
+      country: China
+      description: Huawei Technologies provides infrastructure application software
+        and devices with wireline, wireless, and IP technologies.
+      funding: 0
+      homepage: http://huawei.com
+      industries:
+      - Information and Communications Technology (ICT)
+      - Software
+      - Web Hosting
+      - Wireless
+      linkedin: https://www.linkedin.com/company/huawei/
+      name: Huawei Technologies
+      num_employees_max: 1000000
+      num_employees_min: 10001
+      parents: []
+      region: Guangdong
+      stockExchange: null
+      twitter: https://twitter.com/Huawei
     description: Ubiquitous Storage Unleashes Data Power
     homepage_url: https://e.huawei.com/en/products/storage
+    image_data:
+      fileName: huawei.svg
+      hash: mHVrII9LfaQH2KqZmMwccwZdOEgkoKregz2+bez3VHE=
     item: null
     logo: huawei.svg
     name: Huawei
+    twitter_data:
+      latest_tweet_date: 2022-08-05 13:11:06+00:00
   Container Runtime: []
 Serverless:
   Framework: []
   Hosted Platform:
-  - crunchbase: https://www.crunchbase.com/organization/huawei
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/huawei
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Harbour Networks Holdings
+        date: '2006-09-11'
+      - acquiree: 3Leaf
+        date: '2011-02-19'
+      - acquiree: Huawei Symantec Technologies
+        date: '2011-11-14'
+      - acquiree: Centre for Integrated Photonics
+        date: '2012-01-26'
+      - acquiree: Neul
+        date: '2014-09-22'
+        price: 25000000
+      - acquiree: Toga Networks
+        date: '2016-12-07'
+      - acquiree: HexaTier
+        date: '2016-12-27'
+        price: 42000000
+      - acquiree: Vokord Telekom Zao
+        date: '2019-06-03'
+        price: 50000000
+      - acquiree: Vocord
+        date: '2019-06-04'
+      city: Shenzhen
+      company_type: For Profit
+      country: China
+      description: Huawei Technologies provides infrastructure application software
+        and devices with wireline, wireless, and IP technologies.
+      funding: 0
+      homepage: http://huawei.com
+      industries:
+      - Information and Communications Technology (ICT)
+      - Software
+      - Web Hosting
+      - Wireless
+      linkedin: https://www.linkedin.com/company/huawei/
+      name: Huawei Technologies
+      num_employees_max: 1000000
+      num_employees_min: 10001
+      parents: []
+      region: Guangdong
+      stockExchange: null
+      twitter: https://twitter.com/Huawei
     description: FunctionStage is an event-driven function hosting and computing service,
       that compiles function code and configures running conditions without provisioning
       or managing servers, thus providing a scalable, maintenance-free, and reliable
       operation environment for functions. You only pay for what you use.
     homepage_url: https://www.huaweicloud.com/intl/en-us
+    image_data:
+      fileName: huawei-function-stage.svg
+      hash: kbhAr6t1Bjw+EXCVBQbbrJJ3bjoZt0FVpofUTIjwJPg=
     item: null
     logo: huawei-functionstage.svg
     name: Huawei FunctionStage
     twitter: https://twitter.com/Huawei_Cloud
+    twitter_data:
+      latest_tweet_date: 2021-05-27 08:57:42+00:00
   Installable Platform: []
   Security: []
   Tools:
-  - crunchbase: https://www.crunchbase.com/organization/hasura
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/hasura
+    crunchbase_data:
+      acquisitions: []
+      city: Bangalore
+      company_type: For Profit
+      country: India
+      description: Hasura is a software technology company that provides developer-focused
+        tooling products.
+      funding: 136500000
+      homepage: http://hasura.io/
+      industries:
+      - Cloud Infrastructure
+      - Developer APIs
+      - Developer Tools
+      - Open Source
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/hasura/
+      name: Hasura
+      num_employees_max: null
+      num_employees_min: null
+      parents: []
+      region: Karnataka
+      stockExchange: null
+      twitter: https://twitter.com/hasurahq
+    github_data:
+      contributions: 30;36;28;11;24;28;30;22;22;25;17;14;18;24;23;25;25;21;26;20;9;17;26;26;22;35;22;28;43;24;36;32;20;24;29;24;29;29;27;21;2;26;29;39;46;41;61;24;21;43;62;66
+      contributors_count: 381
+      contributors_link: https://github.com/hasura/graphql-engine/graphs/contributors
+      description: Blazing fast, instant realtime GraphQL APIs on your DB with fine
+        grained access control, also trigger webhooks on database events.
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#5e5086'
+        name: Haskell
+        value: 5932970
+      - color: '#2b7489'
+        name: TypeScript
+        value: 3786541
+      - color: '#f1e05a'
+        name: JavaScript
+        value: 1806858
+      - color: '#00ADD8'
+        name: Go
+        value: 1207961
+      - color: '#3572A5'
+        name: Python
+        value: 1035729
+      - color: '#563d7c'
+        name: CSS
+        value: 348768
+      - color: '#89e051'
+        name: Shell
+        value: 184012
+      - name: SCSS
+        value: 114943
+      - color: '#e34c26'
+        name: HTML
+        value: 77655
+      - name: PLpgSQL
+        value: 51157
+      - color: '#2c3e50'
+        name: Vue
+        value: 48579
+      - color: '#427819'
+        name: Makefile
+        value: 34515
+      - color: '#384d54'
+        name: Dockerfile
+        value: 14883
+      - color: '#b07219'
+        name: Java
+        value: 5245
+      - name: Svelte
+        value: 4536
+      - color: '#000080'
+        name: Lua
+        value: 3826
+      - color: '#701516'
+        name: Ruby
+        value: 2107
+      - color: '#dfafff'
+        name: Dhall
+        value: 1748
+      - name: TSQL
+        value: 255
+      - color: '#012456'
+        name: PowerShell
+        value: 183
+      - name: Procfile
+        value: 85
+      latest_commit_date: '2022-08-06T00:52:17Z'
+      latest_commit_link: /hasura/graphql-engine/commit/edc29ce0d46cd54005d90d4b3ff0252c93f96222
+      license: Apache License 2.0
+      release_date: '2022-07-28T04:18:27Z'
+      release_link: https://github.com/hasura/graphql-engine/releases
+      stars: 27568
+    github_start_commit_data:
+      start_commit_link: /hasura/graphql-engine/commit/f7409ef2eb21bc73f6e9e8a1dbcdda878f0d6db1
+      start_date: '2018-06-24T13:40:48Z'
     homepage_url: https://hasura.io/event-triggers
+    image_data:
+      fileName: hasura-graph-ql-engine.svg
+      hash: kuO9lbsiCJhp7xuhdK31GCf/Da47he5pssWZBsJXGtY=
     item: null
     logo: hasura-graphqlengine.svg
     name: Hasura GraphQL Engine
     repo_url: https://github.com/hasura/graphql-engine
+    repos:
+    - stars: 27568
+      url: https://github.com/hasura/graphql-engine
+    twitter_data:
+      latest_tweet_date: 2022-08-05 13:55:39+00:00
 Special:
   Certified CNFs: []
   Kubernetes Certified Service Provider:
-  - crunchbase: https://www.crunchbase.com/organization/h3c-technologies
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/h3c-technologies
+    crunchbase_data:
+      acquisitions: []
+      city: Binjiang
+      company_type: For Profit
+      country: China
+      description: H3C is a leading global supplier of IP-based products and solutions.
+      homepage: http://www.h3c.com/portal/
+      industries:
+      - Electronics
+      - Information Technology
+      - Manufacturing
+      - Software
+      linkedin: https://www.linkedin.com/company/h3c-technologies-co-ltd
+      name: H3C Technologies
+      num_employees_max: 5000
+      num_employees_min: 1001
+      parents: []
+      region: Jiangxi
+      stockExchange: null
+      twitter: null
     description: "We provide enterprise-level cloud native platform solutions, focusing\
       \ on Kubernetes\uFF0CService Mesh\uFF0CDevOps and other comprehensive services."
     homepage_url: https://www.h3c.com/en/Solution/Technology_Solution/CloudComputing/Solutions/H3C_Container_Cloud/
+    image_data:
+      fileName: h3-c-technologies-kcsp.svg
+      hash: RMuO+VD62WuNLdHjlnwE51ua9UlK1BT7x3w5npa1D5k=
     item: null
     logo: h3-c-technologies-member.svg
     name: H3C Technologies (KCSP)
-  - crunchbase: https://www.crunchbase.com/organization/harmony-cloud
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/harmony-cloud
+    crunchbase_data:
+      acquisitions: []
+      city: Hangzhou
+      company_type: For Profit
+      country: China
+      description: Harmony Cloud operates as a cloud computing startup.
+      funding: 4825796
+      homepage: http://harmonycloud.cn/
+      industries:
+      - Cloud Computing
+      - Information Technology
+      kind: funding
+      linkedin: null
+      name: Harmony Cloud
+      num_employees_max: 10
+      num_employees_min: 1
+      parents: []
+      region: Zhejiang
+      stockExchange: null
+      twitter: null
     homepage_url: https://harmonycloud.cn
+    image_data:
+      fileName: harmony-cloud-kcsp.svg
+      hash: yPCUwlYlerW3KU8JnQ8No8+0fhs9PUS9iD11Q7vevPg=
     item: null
     logo: harmonycloud.svg
     name: HarmonyCloud (KCSP)
-  - crunchbase: https://www.crunchbase.com/organization/hcl-technologies
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/hcl-technologies
+    crunchbase_data:
+      acquisitions:
+      - acquiree: AXON Group Ltd.
+        date: '2011-08-19'
+        price: 726711778
+      - acquiree: Concept2Silicon Systems
+        date: '2015-10-19'
+      - acquiree: PowerObjects
+        date: '2015-10-29'
+      - acquiree: Point to Point
+        date: '2016-01-28'
+        price: 11000000
+      - acquiree: GeometricPLM
+        date: '2016-04-02'
+        price: 200000000
+      - acquiree: Butler America
+        date: '2016-10-21'
+        price: 85000000
+      - acquiree: Urban Fulfillment Services
+        date: '2017-04-25'
+        price: 30000000
+      - acquiree: Datawave
+        date: '2017-09-06'
+      - acquiree: C3i Solutions
+        date: '2018-04-05'
+      - acquiree: Actian
+        date: '2018-04-12'
+        price: 264000000
+      - acquiree: H&D International Group
+        date: '2018-06-27'
+      - acquiree: Lotus Development Corporation
+        date: '2018-12-07'
+        price: 1800000000
+      - acquiree: Strong-Bridge Envision
+        date: '2019-03-13'
+      - acquiree: Sankalp Semiconductors
+        date: '2019-09-10'
+        price: 25043648
+      - acquiree: NortonLifeLock
+        date: '2020-05-29'
+      - acquiree: DWS
+        date: '2020-09-21'
+      - acquiree: "Gesellschaft f\xFCr Banksysteme"
+        date: '2021-12-08'
+      - acquiree: Starschema
+        date: '2022-01-14'
+      - acquiree: Quest Informatics
+        date: '2022-05-09'
+        price: 1938835
+      city: Noida
+      company_type: For Profit
+      country: India
+      description: HCL Technologies is a global IT services company, working with
+        clients in the areas that impact and redefine the core of their businesses.
+      funding: 220000000
+      homepage: http://www.hcltech.com
+      industries:
+      - Aerospace
+      - Consumer Electronics
+      - IT Management
+      - Information and Communications Technology (ICT)
+      - Media and Entertainment
+      - Outsourcing
+      - Software
+      - Telecommunications
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/hcl-technologies
+      name: HCL Technologies
+      num_employees_max: 1000000
+      num_employees_min: 10001
+      parents: []
+      region: Uttar Pradesh
+      stockExchange: nse
+      ticker: HCLTECH.NS
+      twitter: http://twitter.com/hcltech
     description: At HCL we enable your complete Cloud Native journey with Kubernetes,
       offering services that include Kubernetes platform design/build, Applications
       Migration, Operations and Developer enablement. We cover all leading Kubernetes
       distributions.
     homepage_url: https://www.hcltech.com/cloud
+    image_data:
+      fileName: hcl-technologies-kcsp.svg
+      hash: BCp0p7pZ1+uyUKLC0URU5aXpFQ9Fv4BCbVb2FZhTULc=
     item: null
     logo: hcl.svg
     name: HCL Technologies (KCSP)
-  - crunchbase: https://www.crunchbase.com/organization/hewlett-packard-enterprise
+    twitter_data:
+      latest_tweet_date: 2022-08-03 12:30:01+00:00
+    yahoo_finance_data:
+      effective_ticker: HCLTECH.NS
+      market_cap: 32743524420
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/hewlett-packard-enterprise
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Trilead
+        date: '2016-02-03'
+      - acquiree: Silicon Graphics
+        date: '2016-08-11'
+        price: 275000000
+      - acquiree: Simplivity
+        date: '2017-01-17'
+        price: 650000000
+      - acquiree: Cloud Cruiser
+        date: '2017-01-23'
+      - acquiree: Niara
+        date: '2017-02-01'
+      - acquiree: Nimble Storage
+        date: '2017-03-07'
+        price: 1090000000
+      - acquiree: Cloud Technology Partners
+        date: '2017-09-05'
+      - acquiree: RedPixie
+        date: '2018-04-11'
+      - acquiree: Plexxi
+        date: '2018-05-15'
+      - acquiree: BlueData Software
+        date: '2018-11-27'
+      - acquiree: MapR Technologies
+        date: '2019-08-06'
+      - acquiree: Cray
+        date: '2019-09-26'
+        price: 1400000000
+      - acquiree: Scytale.io
+        date: '2020-02-03'
+      - acquiree: Silver Peak Systems, Inc.
+        date: '2020-07-13'
+        price: 925000000
+      - acquiree: CloudPhysics
+        date: '2021-02-23'
+      - acquiree: Determined AI
+        date: '2021-06-21'
+      - acquiree: Zerto
+        date: '2021-07-01'
+        price: 374000000
+      - acquiree: Ampool
+        date: '2021-07-07'
+      city: Houston
+      company_type: For Profit
+      country: United States
+      description: Hewlett Packard Enterprise is an industry technology company that
+        enables customers to go further and faster.
+      homepage: https://www.hpe.com
+      industries:
+      - Data Center
+      - Enterprise Software
+      - IT Management
+      - Information Technology
+      - Network Security
+      - Wireless
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/hewlett-packard-enterprise
+      name: Hewlett Packard Enterprise
+      num_employees_max: 1000000
+      num_employees_min: 10001
+      parents: []
+      region: Texas
+      stockExchange: nyse
+      ticker: HPE
+      twitter: https://www.twitter.com/hpe
     description: HPE Pointnext Advisory & Professional Service provides various services
       from strategic advisory to design/implementation professional services related
       to Kubernetes and cloud native computing technologies.
     homepage_url: https://www.hpe.com/us/en/services/consulting/cloud.html
+    image_data:
+      fileName: hpe-kcsp.svg
+      hash: j8S/N8yTSVhJPfAvCcj4y1hEGrLgABCxCBx79tE2rnY=
     item: null
     logo: hpe-kcsp.svg
     name: HPE (KCSP)
-  - crunchbase: https://www.crunchbase.com/organization/huawei
+    twitter_data:
+      latest_tweet_date: 2022-08-05 20:25:25+00:00
+    yahoo_finance_data:
+      effective_ticker: HPE
+      market_cap: 18658379776
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/huawei
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Harbour Networks Holdings
+        date: '2006-09-11'
+      - acquiree: 3Leaf
+        date: '2011-02-19'
+      - acquiree: Huawei Symantec Technologies
+        date: '2011-11-14'
+      - acquiree: Centre for Integrated Photonics
+        date: '2012-01-26'
+      - acquiree: Neul
+        date: '2014-09-22'
+        price: 25000000
+      - acquiree: Toga Networks
+        date: '2016-12-07'
+      - acquiree: HexaTier
+        date: '2016-12-27'
+        price: 42000000
+      - acquiree: Vokord Telekom Zao
+        date: '2019-06-03'
+        price: 50000000
+      - acquiree: Vocord
+        date: '2019-06-04'
+      city: Shenzhen
+      company_type: For Profit
+      country: China
+      description: Huawei Technologies provides infrastructure application software
+        and devices with wireline, wireless, and IP technologies.
+      funding: 0
+      homepage: http://huawei.com
+      industries:
+      - Information and Communications Technology (ICT)
+      - Software
+      - Web Hosting
+      - Wireless
+      linkedin: https://www.linkedin.com/company/huawei/
+      name: Huawei Technologies
+      num_employees_max: 1000000
+      num_employees_min: 10001
+      parents: []
+      region: Guangdong
+      stockExchange: null
+      twitter: https://twitter.com/Huawei
     description: HUAWEI CLOUD provides customers with stable, reliable, secure, and
       sustainably growing cloud services. It helps large enterprises address challenges
       in cloud transformation and enables them to take better advantages of potential
       business opportunities. It also helps small- and medium-sized enterprises expand
       their business growth and rise to challenges.
     homepage_url: https://www.huaweicloud.com/intl/en-us
+    image_data:
+      fileName: huawei-kcsp.svg
+      hash: 1XhY319PV93cvPxcXZovLAaB1eyyxVoOsbzYYXqBIuk=
     item: null
     logo: huawei-kcsp.svg
     name: Huawei (KCSP)
     twitter: https://twitter.com/Huawei_Cloud
+    twitter_data:
+      latest_tweet_date: 2021-05-27 08:57:42+00:00
   Kubernetes Training Partner:
-  - crunchbase: https://www.crunchbase.com/organization/harmony-cloud
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/harmony-cloud
+    crunchbase_data:
+      acquisitions: []
+      city: Hangzhou
+      company_type: For Profit
+      country: China
+      description: Harmony Cloud operates as a cloud computing startup.
+      funding: 4825796
+      homepage: http://harmonycloud.cn/
+      industries:
+      - Cloud Computing
+      - Information Technology
+      kind: funding
+      linkedin: null
+      name: Harmony Cloud
+      num_employees_max: 10
+      num_employees_min: 1
+      parents: []
+      region: Zhejiang
+      stockExchange: null
+      twitter: null
     homepage_url: https://harmonycloud.cn
+    image_data:
+      fileName: harmony-cloud-ktp.svg
+      hash: yPCUwlYlerW3KU8JnQ8No8+0fhs9PUS9iD11Q7vevPg=
     item: null
     logo: harmonycloud.svg
     name: HarmonyCloud (KTP)
-  - crunchbase: https://www.crunchbase.com/organization/hewlett-packard-enterprise
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/hewlett-packard-enterprise
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Trilead
+        date: '2016-02-03'
+      - acquiree: Silicon Graphics
+        date: '2016-08-11'
+        price: 275000000
+      - acquiree: Simplivity
+        date: '2017-01-17'
+        price: 650000000
+      - acquiree: Cloud Cruiser
+        date: '2017-01-23'
+      - acquiree: Niara
+        date: '2017-02-01'
+      - acquiree: Nimble Storage
+        date: '2017-03-07'
+        price: 1090000000
+      - acquiree: Cloud Technology Partners
+        date: '2017-09-05'
+      - acquiree: RedPixie
+        date: '2018-04-11'
+      - acquiree: Plexxi
+        date: '2018-05-15'
+      - acquiree: BlueData Software
+        date: '2018-11-27'
+      - acquiree: MapR Technologies
+        date: '2019-08-06'
+      - acquiree: Cray
+        date: '2019-09-26'
+        price: 1400000000
+      - acquiree: Scytale.io
+        date: '2020-02-03'
+      - acquiree: Silver Peak Systems, Inc.
+        date: '2020-07-13'
+        price: 925000000
+      - acquiree: CloudPhysics
+        date: '2021-02-23'
+      - acquiree: Determined AI
+        date: '2021-06-21'
+      - acquiree: Zerto
+        date: '2021-07-01'
+        price: 374000000
+      - acquiree: Ampool
+        date: '2021-07-07'
+      city: Houston
+      company_type: For Profit
+      country: United States
+      description: Hewlett Packard Enterprise is an industry technology company that
+        enables customers to go further and faster.
+      homepage: https://www.hpe.com
+      industries:
+      - Data Center
+      - Enterprise Software
+      - IT Management
+      - Information Technology
+      - Network Security
+      - Wireless
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/hewlett-packard-enterprise
+      name: Hewlett Packard Enterprise
+      num_employees_max: 1000000
+      num_employees_min: 10001
+      parents: []
+      region: Texas
+      stockExchange: nyse
+      ticker: HPE
+      twitter: https://www.twitter.com/hpe
     description: HPE is a leader in the hybrid cloud market offering Kubernetes solutions
       that are supported by professional services and education.
     homepage_url: https://education.hpe.com/ww/en/training/portfolio/cloud.html
+    image_data:
+      fileName: hpe-ktp.svg
+      hash: +aJSs3RHMKJBQDK5+na4ylEiA+5WJKuEU7e60NZIk0I=
     item: null
     logo: hpe-ktp.svg
     name: HPE (KTP)
-  - crunchbase: https://www.crunchbase.com/organization/huawei
+    twitter_data:
+      latest_tweet_date: 2022-08-05 20:25:25+00:00
+    yahoo_finance_data:
+      effective_ticker: HPE
+      market_cap: 18658379776
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/huawei
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Harbour Networks Holdings
+        date: '2006-09-11'
+      - acquiree: 3Leaf
+        date: '2011-02-19'
+      - acquiree: Huawei Symantec Technologies
+        date: '2011-11-14'
+      - acquiree: Centre for Integrated Photonics
+        date: '2012-01-26'
+      - acquiree: Neul
+        date: '2014-09-22'
+        price: 25000000
+      - acquiree: Toga Networks
+        date: '2016-12-07'
+      - acquiree: HexaTier
+        date: '2016-12-27'
+        price: 42000000
+      - acquiree: Vokord Telekom Zao
+        date: '2019-06-03'
+        price: 50000000
+      - acquiree: Vocord
+        date: '2019-06-04'
+      city: Shenzhen
+      company_type: For Profit
+      country: China
+      description: Huawei Technologies provides infrastructure application software
+        and devices with wireline, wireless, and IP technologies.
+      funding: 0
+      homepage: http://huawei.com
+      industries:
+      - Information and Communications Technology (ICT)
+      - Software
+      - Web Hosting
+      - Wireless
+      linkedin: https://www.linkedin.com/company/huawei/
+      name: Huawei Technologies
+      num_employees_max: 1000000
+      num_employees_min: 10001
+      parents: []
+      region: Guangdong
+      stockExchange: null
+      twitter: https://twitter.com/Huawei
     description: HUAWEI CLOUD provides customers with stable, reliable, secure, and
       sustainably growing cloud services. It helps large enterprises address challenges
       in cloud transformation and enables them to take better advantages of potential
       business opportunities. It also helps small- and medium-sized enterprises expand
       their business growth and rise to challenges.
     homepage_url: https://www.huaweicloud.com/intl/en-us
+    image_data:
+      fileName: huawei-ktp.svg
+      hash: mHVrII9LfaQH2KqZmMwccwZdOEgkoKregz2+bez3VHE=
     item: null
     logo: huawei.svg
     name: Huawei (KTP)
     twitter: https://twitter.com/Huawei_Cloud
+    twitter_data:
+      latest_tweet_date: 2021-05-27 08:57:42+00:00
 Wasm:
   Debugging and Observability: []
   Installable Platform: []

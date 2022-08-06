@@ -5,72 +5,501 @@ App Definition and Development:
   Streaming & Messaging: []
 CNCF Members:
   Academic:
-  - crunchbase: https://www.crunchbase.com/organization/university-of-michigan
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/university-of-michigan
+    crunchbase_data:
+      acquisitions: []
+      city: Ann Arbor
+      company_type: ''
+      country: United States
+      description: The University of Michigan is a public research university that
+        caters business, engineering, law, and medical courses.
+      funding: 186350000
+      homepage: https://www.umich.edu/
+      industries:
+      - Business Intelligence
+      - E-Learning
+      - Education
+      - Knowledge Management
+      - Universities
+      kind: funding
+      linkedin: https://www.linkedin.com/edu/university-of-michigan-18633
+      name: University of Michigan
+      num_employees_max: 1000000
+      num_employees_min: 10001
+      parents: []
+      region: Michigan
+      stockExchange: null
+      twitter: https://twitter.com/UMich
     homepage_url: https://www.umich.edu/
+    image_data:
+      fileName: university-of-michigan-member.svg
+      hash: oOFdpaidsxZJAC6XsXDpKC1QTZkqvXY45ZspIRmIFlM=
     item: null
     logo: university-of-michigan.svg
     name: University of Michigan (member)
+    twitter_data:
+      latest_tweet_date: 2022-08-05 19:33:00+00:00
   End User Supporter:
-  - crunchbase: https://www.crunchbase.com/organization/ultimate-software
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/ultimate-software
+    crunchbase_data:
+      acquisitions:
+      - acquiree: EmployTouch
+        date: '2013-10-11'
+      - acquiree: Vestrics
+        date: '2016-05-20'
+      - acquiree: Kanjoya
+        date: '2016-09-30'
+      - acquiree: PeopleDoc
+        date: '2018-07-17'
+        price: 300000000
+      city: Weston
+      company_type: For Profit
+      country: United States
+      description: Ultimate Software is a provider of cloud-based people management
+        solutions.
+      funding: 19088273
+      homepage: http://www.ultimatesoftware.com
+      industries:
+      - Artificial Intelligence
+      - Cloud Management
+      - Enterprise Software
+      - Human Resources
+      - Information Technology
+      - SaaS
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/ultimate-software
+      name: Ultimate Software
+      num_employees_max: 5000
+      num_employees_min: 1001
+      parents: []
+      region: Florida
+      stockExchange: nasdaq
+      twitter: http://twitter.com/UltimateHCM
     homepage_url: https://www.ultimatesoftware.com/
+    image_data:
+      fileName: ultimate-software-supporter.svg
+      hash: 1eN4osnkZYcbfBoTHju9NleitObewCKGFBHmgygZvuY=
     item: null
     logo: ultimate-software.svg
     name: Ultimate Software (supporter)
     twitter: null
-  - crunchbase: https://www.crunchbase.com/organization/under-armour
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/under-armour
+    crunchbase_data:
+      acquisitions:
+      - acquiree: MapMyFitness
+        date: '2013-11-14'
+        price: 150000000
+      - acquiree: Endomondo
+        date: '2015-02-04'
+        price: 85000000
+      - acquiree: MyFitnessPal
+        date: '2015-02-04'
+        price: 475000000
+      - acquiree: Gritness
+        date: '2015-07-01'
+      city: Baltimore
+      company_type: For Profit
+      country: United States
+      description: Under Armour is a manufacturer of footwear, sport, and casual apparel.
+      homepage: http://underarmour.com
+      industries:
+      - Delivery Service
+      - Fitness
+      - Innovation Management
+      - Internet
+      - Shopping
+      - Sporting Goods
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/under-armour
+      name: Under Armour
+      num_employees_max: 1000000
+      num_employees_min: 10001
+      parents: []
+      region: Maryland
+      stockExchange: nyse
+      ticker: UA
+      twitter: http://twitter.com/UnderArmour
     homepage_url: https://www.underarmour.com/en-us/
+    image_data:
+      fileName: under-armour-supporter.svg
+      hash: itpgWA6dqImglmI4rFr4FsLN+Uj91U9HToWAnn2MvLk=
     item: null
     logo: under-armour.svg
     name: Under Armour (supporter)
-  - crunchbase: https://www.crunchbase.com/organization/upsider-587f
+    twitter_data:
+      latest_tweet_date: 2022-07-28 17:57:01+00:00
+    yahoo_finance_data:
+      effective_ticker: UA
+      market_cap: 4148460032
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/upsider-587f
+    crunchbase_data:
+      acquisitions: []
+      city: Tokyo
+      company_type: For Profit
+      country: Japan
+      description: We enable people to trust upsiders by organizing the world's B2B
+        transactions.
+      funding: 9163551
+      homepage: https://www.up-sider.com/
+      industries:
+      - Communities
+      - Finance
+      - Task Management
+      kind: funding
+      linkedin: null
+      name: Upsider
+      num_employees_max: 10
+      num_employees_min: 1
+      parents: []
+      region: Tokyo
+      stockExchange: null
+      twitter: null
     homepage_url: https://corp.up-sider.com/en
+    image_data:
+      fileName: upsider-supporter.svg
+      hash: 3URxBecNa+Q/kkzk56ElPp9lWMHh4g9XDlfmg4C/GR4=
     item: null
     logo: upsider-supporter.svg
     name: Upsider (supporter)
   Gold: []
   Nonprofit:
-  - crunchbase: https://www.crunchbase.com/organization/upchieve
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/upchieve
+    crunchbase_data:
+      acquisitions: []
+      city: New York
+      company_type: Non Profit
+      country: United States
+      description: We connect low-income youth with live academic support to help
+        them on their path to achieving upward mobility.
+      funding: 0
+      homepage: https://upchieve.org/
+      industries: []
+      linkedin: https://www.linkedin.com/company/upchieve
+      name: UPchieve
+      num_employees_max: null
+      num_employees_min: null
+      parents: []
+      region: New York
+      stockExchange: null
+      twitter: https://twitter.com/UPchieve
     homepage_url: https://www.upchieve.org/
+    image_data:
+      fileName: u-pchieve-member.svg
+      hash: fKsQ8XFReWeGmpAZIKaJZ8sspAExGaOOtWKQLr9PNy0=
     item: null
     joined: '2021-01-07'
     logo: upchieve.svg
     name: UPchieve (member)
-  - crunchbase: https://www.crunchbase.com/organization/upmc-enterprises
+    twitter_data:
+      latest_tweet_date: 2022-07-27 18:58:06+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/upmc-enterprises
+    crunchbase_data:
+      acquisitions: []
+      city: Pittsburgh
+      company_type: For Profit
+      country: United States
+      description: UPMC Enterprises is the commercialization arm of UPMC, a Pittsburgh-based
+        health care provider and insurer.
+      homepage: http://enterprises.upmc.com
+      industries:
+      - Health Care
+      linkedin: https://www.linkedin.com/company/10646886/
+      name: UPMC Enterprises
+      num_employees_max: 100
+      num_employees_min: 51
+      parents:
+      - https://www.crunchbase.com/organization/upmc
+      region: Pennsylvania
+      stockExchange: null
+      twitter: https://twitter.com/upmcenterprises
     homepage_url: https://enterprises.upmc.com/
+    image_data:
+      fileName: upmc-enterprises-member.svg
+      hash: UqAyaVJC90v5Af4kehCHX55Pj6lBfKp7D7V7tA3Svnc=
     item: null
     joined: '2021-11-03'
     logo: upmc-enterprises.svg
     name: UPMC Enterprises (member)
+    twitter_data:
+      latest_tweet_date: 2022-08-05 20:35:11+00:00
   Platinum: []
   Silver:
-  - crunchbase: https://www.crunchbase.com/organization/uffizzi
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/uffizzi
+    crunchbase_data:
+      acquisitions: []
+      city: Nashville
+      company_type: For Profit
+      country: United States
+      description: Uffizzi is an open-source engine for creating and managing lightweight,
+        ephemeral preview environments for APIs and full-stack applications.
+      homepage: https://uffizzi.com/
+      industries:
+      - Information Technology
+      - Software
+      linkedin: https://www.linkedin.com/company/uffizzi-cloud/
+      name: Uffizzi
+      num_employees_max: 10
+      num_employees_min: 1
+      parents: []
+      region: Tennessee
+      stockExchange: null
+      twitter: https://twitter.com/Uffizzi_
     homepage_url: https://www.uffizzi.com/
+    image_data:
+      fileName: uffizzi-member.svg
+      hash: 5X3PDqW4mSmt4osKusGxe8U2dVO1bQcaIsFh+mmwYSA=
     item: null
     logo: uffizzi.svg
     name: Uffizzi (member)
-  - crunchbase: https://www.crunchbase.com/organization/umb-ag
+    twitter_data:
+      latest_tweet_date: 2022-08-03 21:09:16+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/umb-ag
+    crunchbase_data:
+      acquisitions:
+      - acquiree: COAST AG
+        date: '2016-06-22'
+      city: Cham
+      company_type: For Profit
+      country: Switzerland
+      description: UMB provides a 360-degree service for your digital transformation
+        with Consulting, Cloud, Modern Work, Security, and Infrastructure.
+      homepage: https://www.umb.ch/
+      industries:
+      - Cloud Computing
+      - Cloud Management
+      - Cloud Security
+      - Consulting
+      - Information Services
+      - Information Technology
+      - Software
+      linkedin: https://www.linkedin.com/company/umb-ag
+      name: UMB
+      num_employees_max: 1000
+      num_employees_min: 501
+      parents: []
+      region: Zug
+      stockExchange: null
+      twitter: https://twitter.com/umb1978
     homepage_url: https://www.umb.ch/
+    image_data:
+      fileName: umb-member.svg
+      hash: t0ryl9tnPizOh2AiF4SDFgUE9vPXpbUhAoNHloxgNT0=
     item: null
     logo: umb-ag.svg
     name: UMB (member)
-  - crunchbase: https://www.crunchbase.com/organization/uniserver
+    twitter_data:
+      latest_tweet_date: 2022-08-03 05:38:04+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/uniserver
+    crunchbase_data:
+      acquisitions: []
+      city: Alkmaar
+      company_type: For Profit
+      country: The Netherlands
+      description: Uniserver specializes in providing hosted server capacity with
+        the highest availability guarantees.
+      homepage: http://www.uniserver.nl
+      industries:
+      - Information Technology
+      - Software
+      linkedin: https://www.linkedin.com/company/uniserver-internet-bv/
+      name: Uniserver
+      num_employees_max: null
+      num_employees_min: null
+      parents: []
+      region: Noord-Holland
+      stockExchange: null
+      twitter: https://twitter.com/uniserver
     homepage_url: https://www.uniserver.nl/
+    image_data:
+      fileName: uniserver-member.svg
+      hash: EMRza+F/WOjeVG2Y2v8e/HTte7rW5o4vcROqSgqOn2A=
     item: null
     logo: uniserver.svg
     name: Uniserver (member)
-  - crunchbase: https://www.crunchbase.com/organization/unitedhealth-group
+    twitter_data:
+      latest_tweet_date: 2022-07-27 13:30:28+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/unitedhealth-group
+    crunchbase_data:
+      acquisitions:
+      - acquiree: AmeriChoice
+        date: '2002-06-19'
+      - acquiree: Golden Rule Financial
+        date: '2003-10-13'
+      - acquiree: Mid Atlantic Medical Services
+        date: '2003-10-27'
+        price: 2950000000
+      - acquiree: Touchpoint Health Plan
+        date: '2004-04-02'
+      - acquiree: Oxford Health Plans
+        date: '2004-04-27'
+        price: 4900000000
+      - acquiree: Definity Health
+        date: '2004-11-30'
+        price: 300000000
+      - acquiree: PacifiCare Health Systems
+        date: '2005-12-21'
+        price: 8100000000
+      - acquiree: Sierra Health Services,Inc
+        date: '2007-03-12'
+        price: 2600000000
+      - acquiree: Inspiris
+        date: '2011-03-16'
+      - acquiree: Amil
+        date: '2012-10-08'
+        price: 4300000000
+      - acquiree: Humedica
+        date: '2013-01-25'
+      - acquiree: MedSynergies
+        date: '2014-09-30'
+      - acquiree: Surgical Care Affiliates
+        date: '2017-02-21'
+      - acquiree: Peoples Health
+        date: '2018-06-08'
+      - acquiree: Genoa
+        date: '2018-09-29'
+        price: 2500000000
+      - acquiree: Avella Specialty Pharmacy
+        date: '2018-10-16'
+      - acquiree: Equian
+        date: '2019-06-20'
+      - acquiree: PatientsLikeMe
+        date: '2019-06-24'
+      - acquiree: Diplomat Pharmacy
+        date: '2019-12-09'
+        price: 300000000
+      - acquiree: divvyDOSE
+        date: '2020-09-29'
+        price: 300000000
+      - acquiree: PreferredOne
+        date: '2021-08-16'
+      - acquiree: LHC Group
+        date: '2022-03-29'
+        price: 5400000000
+      city: Minneapolis
+      company_type: For Profit
+      country: United States
+      description: UnitedHealth Group is a healthcare company that offers insurance
+        products and services for everyone.
+      homepage: http://www.unitedhealthgroup.com
+      industries:
+      - Health Care
+      - Medical
+      - Wellness
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/unitedhealth-group
+      name: UnitedHealth Group
+      num_employees_max: 1000000
+      num_employees_min: 10001
+      parents: []
+      region: Minnesota
+      stockExchange: nyse
+      ticker: UNH
+      twitter: https://twitter.com/UnitedHealthGrp
     enduser: true
     homepage_url: https://www.unitedhealthgroup.com/
+    image_data:
+      fileName: united-health-group-member.svg
+      hash: Wi2Z/3nTU2kgLITeJXV9r3pRZi7KJoQKHcBkwMpZJtU=
     item: null
     logo: unitedhealth-group.svg
     name: UnitedHealth Group (member)
-  - crunchbase: https://www.crunchbase.com/organization/upbound
+    twitter_data:
+      latest_tweet_date: 2022-08-05 16:15:43+00:00
+    yahoo_finance_data:
+      effective_ticker: UNH
+      market_cap: 508467544064
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/upbound
+    crunchbase_data:
+      acquisitions: []
+      city: Seattle
+      company_type: For Profit
+      country: United States
+      description: Upbound is an infrastructure management platform that runs, scales,
+        and optimizes services across multiple cloud environments.
+      funding: 69000000
+      homepage: https://upbound.io/
+      industries:
+      - Cloud Computing
+      - Information Services
+      - Information Technology
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/upbound-io/
+      name: Upbound
+      num_employees_max: 100
+      num_employees_min: 51
+      parents: []
+      region: Washington
+      stockExchange: null
+      twitter: https://twitter.com/upbound_io
     homepage_url: https://upbound.io
+    image_data:
+      fileName: upbound-member.svg
+      hash: IdWmpK8ZDGB9XczM1vMtKIe8kYdbrr5xmFmG+9cOWnI=
     item: null
     logo: upbound-member.svg
     name: Upbound (member)
-  - crunchbase: https://www.crunchbase.com/organization/uws-inc
+    twitter_data:
+      latest_tweet_date: 2022-08-05 22:11:01+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/uws-inc
+    crunchbase_data:
+      acquisitions: []
+      city: Seoul
+      company_type: For Profit
+      country: South Korea
+      description: Service company that contributes to the development of customers,
+        employees, and society based on three management philosophies.
+      homepage: https://www.uws.co.kr
+      industries: []
+      linkedin: null
+      name: UWS Inc.
+      num_employees_max: 100
+      num_employees_min: 51
+      parents: []
+      region: Seoul-t'ukpyolsi
+      stockExchange: null
+      twitter: null
     homepage_url: http://www.uws.co.kr/
+    image_data:
+      fileName: uws-member.svg
+      hash: tnoxwFRgCtow7DVaTbO6pe3DDzeiIjIkkvUwHCaqODw=
     item: null
     logo: uws.svg
     name: UWS (member)
@@ -110,22 +539,83 @@ Serverless:
 Special:
   Certified CNFs: []
   Kubernetes Certified Service Provider:
-  - crunchbase: https://www.crunchbase.com/organization/umb-ag
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/umb-ag
+    crunchbase_data:
+      acquisitions:
+      - acquiree: COAST AG
+        date: '2016-06-22'
+      city: Cham
+      company_type: For Profit
+      country: Switzerland
+      description: UMB provides a 360-degree service for your digital transformation
+        with Consulting, Cloud, Modern Work, Security, and Infrastructure.
+      homepage: https://www.umb.ch/
+      industries:
+      - Cloud Computing
+      - Cloud Management
+      - Cloud Security
+      - Consulting
+      - Information Services
+      - Information Technology
+      - Software
+      linkedin: https://www.linkedin.com/company/umb-ag
+      name: UMB
+      num_employees_max: 1000
+      num_employees_min: 501
+      parents: []
+      region: Zug
+      stockExchange: null
+      twitter: https://twitter.com/umb1978
     description: UMB is offering managed OpenShift and Kubernetes services in public
       clouds or our own hosted cloud in Switzerland. We support our customers on their
       journey to cloud native applications from consulting to implementation.
     homepage_url: https://www.umb.ch/en/services/digital-transformation/cloud-native/understand-what-kubernetes-is-and-what-it-can-do-for-your-business
+    image_data:
+      fileName: umb-kcsp.svg
+      hash: t0ryl9tnPizOh2AiF4SDFgUE9vPXpbUhAoNHloxgNT0=
     item: null
     logo: umb-ag.svg
     name: UMB (KCSP)
-  - crunchbase: https://www.crunchbase.com/organization/uniserver
+    twitter_data:
+      latest_tweet_date: 2022-08-03 05:38:04+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/uniserver
+    crunchbase_data:
+      acquisitions: []
+      city: Alkmaar
+      company_type: For Profit
+      country: The Netherlands
+      description: Uniserver specializes in providing hosted server capacity with
+        the highest availability guarantees.
+      homepage: http://www.uniserver.nl
+      industries:
+      - Information Technology
+      - Software
+      linkedin: https://www.linkedin.com/company/uniserver-internet-bv/
+      name: Uniserver
+      num_employees_max: null
+      num_employees_min: null
+      parents: []
+      region: Noord-Holland
+      stockExchange: null
+      twitter: https://twitter.com/uniserver
     description: "Uniserver offers fully managed Kubernetes solutions to ISV\u2019\
       s. We take care of everything that is required to make optimal use of the Kubernetes\
       \ platform and provide 24/7 support, training, and consulting services."
     homepage_url: https://denit.nl/en/containerization/kubernetes/
+    image_data:
+      fileName: uniserver-kcsp.svg
+      hash: EMRza+F/WOjeVG2Y2v8e/HTte7rW5o4vcROqSgqOn2A=
     item: null
     logo: uniserver.svg
     name: Uniserver (KCSP)
+    twitter_data:
+      latest_tweet_date: 2022-07-27 13:30:28+00:00
   Kubernetes Training Partner: []
 Wasm:
   Debugging and Observability: []

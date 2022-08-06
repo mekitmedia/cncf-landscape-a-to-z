@@ -6,92 +6,660 @@ App Definition and Development:
 CNCF Members:
   Academic: []
   End User Supporter:
-  - crunchbase: https://www.crunchbase.com/organization/zalando
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/zalando
+    crunchbase_data:
+      acquisitions:
+      - acquiree: MyBrands
+        date: '2010-06-07'
+      - acquiree: Metrigo
+        date: '2015-03-05'
+      - acquiree: nugg.ad
+        date: '2015-12-22'
+      - acquiree: Tradebyte Software GmbH
+        date: '2016-05-12'
+      - acquiree: AMAZE
+        date: '2016-05-18'
+      - acquiree: KICKZ AG
+        date: '2017-03-01'
+      - acquiree: meepl
+        date: '2020-10-16'
+      - acquiree: Highsnobiety
+        date: '2022-06-13'
+      city: Berlin
+      company_type: For Profit
+      country: Germany
+      description: Zalando is a fashion and technology company, currently transforming
+        into a multi-service platform.
+      funding: 615854262
+      homepage: https://corporate.zalando.com
+      industries:
+      - E-Commerce
+      - E-Commerce Platforms
+      - Fashion
+      - Lifestyle
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/zalando/
+      name: Zalando
+      num_employees_max: 1000000
+      num_employees_min: 10001
+      parents: []
+      region: Berlin
+      stockExchange: etr
+      ticker: ZAL.DE
+      twitter: http://twitter.com/zalandotech
     homepage_url: https://www.zalando.de/
+    image_data:
+      fileName: zalando-supporter.svg
+      hash: alfB8Tawb+mw7bgcJsnyRyXFudsN+XJ0mmT5HXNn/2U=
     item: null
     logo: zalando-supporter.svg
     name: Zalando (supporter)
-  - crunchbase: https://www.crunchbase.com/organization/zendesk
+    twitter_data:
+      latest_tweet_date: 2022-07-26 07:28:42+00:00
+    yahoo_finance_data:
+      effective_ticker: ZAL.DE
+      market_cap: 8157497273
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/zendesk
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Zopim
+        date: '2014-04-10'
+      - acquiree: BIME Analytics
+        date: '2015-10-13'
+        price: 45000000
+      - acquiree: Outbound.io
+        date: '2017-05-04'
+      - acquiree: Base
+        date: '2018-09-10'
+      - acquiree: Base
+        date: '2018-09-10'
+      - acquiree: Smooch Technologies
+        date: '2019-05-22'
+      - acquiree: Cleverly
+        date: '2021-08-26'
+      city: San Francisco
+      company_type: For Profit
+      country: United States
+      description: Zendesk is a customizable customer service platform.
+      funding: 85500000
+      homepage: http://zendesk.com
+      industries:
+      - Customer Service
+      - Enterprise Software
+      - SaaS
+      - Software
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/zendesk
+      name: Zendesk
+      num_employees_max: 10000
+      num_employees_min: 5001
+      parents: []
+      region: California
+      stockExchange: nyse
+      ticker: ZEN
+      twitter: http://twitter.com/zendesk
     homepage_url: https://www.zendesk.com/
+    image_data:
+      fileName: zendesk-supporter.svg
+      hash: /5rZsV7/FKjqUu04XTUGCGymb52nwzRuF2JxWUZZIZo=
     item: null
     logo: zendesk-supporter.svg
     name: Zendesk (supporter)
-  - crunchbase: https://www.crunchbase.com/organization/zuora
+    twitter_data:
+      latest_tweet_date: 2022-08-05 20:06:00+00:00
+    yahoo_finance_data:
+      effective_ticker: ZEN
+      market_cap: 9367406592
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/zuora
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Frontleaf
+        date: '2015-05-20'
+      - acquiree: Leeyo Software
+        date: '2017-05-10'
+      - acquiree: Live Objects
+        date: '2021-05-26'
+      city: San Mateo
+      company_type: For Profit
+      country: United States
+      description: Zuora provides cloud-based software on a subscription basis that
+        helps companies launch, manage, and transform into a subscription business.
+      funding: 647500000
+      homepage: https://www.zuora.com/
+      industries:
+      - Billing
+      - Developer APIs
+      - Payments
+      - SaaS
+      - Software
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/zuora/
+      name: Zuora
+      num_employees_max: 1000
+      num_employees_min: 501
+      parents: []
+      region: California
+      stockExchange: nyse
+      ticker: ZUO
+      twitter: https://twitter.com/Zuora
     homepage_url: https://www.zuora.com/
+    image_data:
+      fileName: zuora-supporter.svg
+      hash: O8tLzlEFZOT+bDTMAxpHTvR0PETeOHvUpoAIddr5Xww=
     item: null
     logo: zuora.svg
     name: Zuora (supporter)
+    twitter_data:
+      latest_tweet_date: 2022-08-05 17:19:01+00:00
+    yahoo_finance_data:
+      effective_ticker: ZUO
+      market_cap: 1184322816
   Gold:
-  - crunchbase: https://www.crunchbase.com/organization/zte-corporation
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/zte-corporation
+    crunchbase_data:
+      acquisitions: []
+      city: Shenzhen
+      company_type: For Profit
+      country: China
+      description: ZTE provides telecommunications equipment and network solutions.
+      homepage: http://zte.com.cn
+      industries:
+      - Network Hardware
+      - Telecommunications
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/5804
+      name: ZTE
+      num_employees_max: 1000000
+      num_employees_min: 10001
+      parents: []
+      region: Guangdong
+      stockExchange: szse
+      ticker: 000063.SZ
+      twitter: https://twitter.com/ZTEPress
     homepage_url: https://www.zte.com.cn/global/
+    image_data:
+      fileName: zte-member.svg
+      hash: 9G7dW4A20SuKnQV8Bdq4LqOrk+7ma5niwcsjydslfVc=
     item: null
     logo: zte-kcsp.svg
     name: ZTE (member)
+    twitter_data:
+      latest_tweet_date: 2022-08-05 10:25:16+00:00
+    yahoo_finance_data:
+      effective_ticker: 000063.SZ
+      market_cap: 16359645340
   Nonprofit: []
   Platinum: []
   Silver:
-  - crunchbase: https://www.crunchbase.com/organization/zafin
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/zafin
+    crunchbase_data:
+      acquisitions:
+      - acquiree: FINCAD
+        date: '2022-01-24'
+      city: Toronto
+      company_type: For Profit
+      country: Canada
+      description: Zafin is a global enterprise software banking company that enables
+        banks to optimize multiple revenue streams across retail/corporate banks.
+      funding: 47200000
+      homepage: http://www.zafin.com
+      industries:
+      - Banking
+      - FinTech
+      - Financial Services
+      - Professional Services
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/Zafin
+      name: Zafin
+      num_employees_max: 500
+      num_employees_min: 251
+      parents: []
+      region: Ontario
+      stockExchange: null
+      twitter: http://twitter.com/Zafin
     enduser: true
     homepage_url: https://zafin.com
+    image_data:
+      fileName: zafin-member.svg
+      hash: XsCVdifMrqryxab2Qeu7vOTZ9cnBtefkDvIV7cD2H/M=
     item: null
     joined: '2020-09-21'
     logo: zafin.svg
     name: Zafin (member)
-  - crunchbase: https://www.crunchbase.com/organization/zebrium
+    twitter_data:
+      latest_tweet_date: 2022-08-05 16:42:40+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/zebrium
+    crunchbase_data:
+      acquisitions: []
+      city: Santa Clara
+      company_type: For Profit
+      country: United States
+      description: Zebrium uses machine learning to catch software incidents and show
+        you root cause.
+      funding: 6311973
+      homepage: https://www.zebrium.com/
+      industries:
+      - Analytics
+      - Information Services
+      - Information Technology
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/zebrium/
+      name: Zebrium
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/ZebriumAI
     homepage_url: https://www.zebrium.com/
+    image_data:
+      fileName: zebrium-member.svg
+      hash: Wopoyx5cMH+h8kCwR2XgH9ayLOoEEEvdmZ2mU/3Wonk=
     item: null
     logo: zebrium.svg
     name: Zebrium (member)
-  - crunchbase: https://www.crunchbase.com/organization/zededa
+    twitter_data:
+      latest_tweet_date: 2022-07-27 20:50:29+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/zededa
+    crunchbase_data:
+      acquisitions: []
+      city: San Jose
+      company_type: For Profit
+      country: United States
+      description: ZEDEDA is a provider of distributed edge orchestration and virtualization
+        software.
+      funding: 57484000
+      homepage: https://www.zededa.com/
+      industries:
+      - Cloud Computing
+      - Cloud Data Services
+      - Open Source
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/zededaedge/
+      name: ZEDEDA
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/ZEDEDAEdge
     homepage_url: https://zededa.com/
+    image_data:
+      fileName: zededa-inc-member.svg
+      hash: cRvuPr0hPaHKCb0OkjkgbcIOgdhk1BsD9fDlsosYk48=
     item: null
     logo: zededainc..svg
     name: ZEDEDA, Inc. (member)
-  - crunchbase: https://www.crunchbase.com/organization/zelarsoft
+    twitter_data:
+      latest_tweet_date: 2022-08-05 21:00:29+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/zelarsoft
+    crunchbase_data:
+      acquisitions: []
+      city: San Francisco
+      company_type: For Profit
+      country: United States
+      description: Zelarsoft is an IT company that specializes in DevOps, cloud-native
+        consulting, product engineering, data integration, and analytics.
+      homepage: https://www.zelarsoft.com
+      industries:
+      - Analytics
+      - Data Integration
+      - Information Technology
+      - Software
+      linkedin: https://www.linkedin.com/company/zelarsoft
+      name: Zelarsoft
+      num_employees_max: 100
+      num_employees_min: 51
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: null
     homepage_url: https://www.zelarsoft.com/
+    image_data:
+      fileName: zelarsoft-member.svg
+      hash: gG6K//DVrYEsFgcn8PEu677BvBfCmN77stZp8btrB2s=
     item: null
     logo: zelar.svg
     name: Zelarsoft (member)
-  - crunchbase: https://www.crunchbase.com/organization/zenhub
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/zenhub
+    crunchbase_data:
+      acquisitions: []
+      city: Vancouver
+      company_type: For Profit
+      country: Canada
+      description: Agile Project Management within GitHub
+      funding: 4700000
+      homepage: https://www.zenhub.com/
+      industries:
+      - Collaboration
+      - Enterprise Software
+      - Project Management
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/zenhub
+      name: ZenHub
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: British Columbia
+      stockExchange: null
+      twitter: http://twitter.com/zenhubhq
     enduser: true
     homepage_url: https://www.zenhub.com/
+    image_data:
+      fileName: zen-hub-member.svg
+      hash: NDowVUmaV0A9q9cvwQexAgz2+NdWwLfRfM1IN5jA3PQ=
     item: null
     logo: zenhub.svg
     name: ZenHub (member)
-  - crunchbase: https://www.crunchbase.com/organization/zerto
+    twitter_data:
+      latest_tweet_date: 2022-08-05 17:18:57+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/zerto
+    crunchbase_data:
+      acquisitions: []
+      city: Boston
+      company_type: For Profit
+      country: United States
+      description: Zerto is an IT resilient all-in-one converged disaster recovery,
+        data protection, and cloud mobility solution.
+      funding: 183000000
+      homepage: http://www.zerto.com
+      industries:
+      - Computer
+      - Enterprise Software
+      - Private Cloud
+      - Software
+      - Virtualization
+      kind: funding
+      linkedin: https://www.linkedin.com/company/zerto
+      name: Zerto
+      num_employees_max: 1000
+      num_employees_min: 501
+      parents: []
+      region: Massachusetts
+      stockExchange: null
+      twitter: http://twitter.com/Zerto
     homepage_url: https://www.zerto.com/
+    image_data:
+      fileName: zerto-member.svg
+      hash: ADziIoMBnzRYpJhNEVJYa5e5Fk3wKkzObz0VrbNoXb0=
     item: null
     logo: zerto.svg
     name: Zerto (member)
-  - crunchbase: https://www.crunchbase.com/organization/zoi-1e34
+    twitter_data:
+      latest_tweet_date: 2022-08-05 19:44:03+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/zoi-1e34
+    crunchbase_data:
+      acquisitions: []
+      city: Stuttgart
+      company_type: For Profit
+      country: Germany
+      description: Zoi is an essential paradigm of IT and electronics.
+      homepage: http://www.zoi.de/
+      industries:
+      - Information Technology
+      - Internet
+      - Software
+      linkedin: https://www.linkedin.com/company/zoi-gmbh/
+      name: Zoi
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: Baden-Wurttemberg
+      stockExchange: null
+      twitter: https://twitter.com/zoisays
     homepage_url: https://en.zoi.tech/
+    image_data:
+      fileName: zoi-member.svg
+      hash: XW767udSt/Nu2zfbtNDXvMfdB3UmpApN22RM+t7mBJ4=
     item: null
     logo: zoi.svg
     name: Zoi (member)
+    twitter_data:
+      latest_tweet_date: 2022-07-21 08:36:44+00:00
 Observability and Analysis:
   Chaos Engineering: []
   Continuous Optimization:
-  - crunchbase: https://www.crunchbase.com/organization/zesty-co
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/zesty-co
+    crunchbase_data:
+      acquisitions: []
+      city: Giv'atayim
+      company_type: For Profit
+      country: Israel
+      description: Zesty is a real-time cloud management platform that automatically
+        and seamlessly adjusts cloud infrastructure to meet the application needs.
+      funding: 42200000
+      homepage: https://zesty.co
+      industries:
+      - Big Data
+      - Cloud Infrastructure
+      - Cloud Management
+      - Information Technology
+      - SaaS
+      kind: funding
+      linkedin: https://www.linkedin.com/company/zestyco
+      name: Zesty.co
+      num_employees_max: 250
+      num_employees_min: 101
+      parents: []
+      region: Tel Aviv
+      stockExchange: null
+      twitter: https://twitter.com/zesty_co
     homepage_url: https://zesty.co/
+    image_data:
+      fileName: zesty.svg
+      hash: KICz32w8/ERweHUb2H0+kUkLMpUTPaKHGSgCu0bdkRA=
     item: null
     logo: zesty.svg
     name: Zesty
+    twitter_data:
+      latest_tweet_date: 2022-08-04 09:45:08+00:00
   Logging: []
   Monitoring:
-  - crunchbase: https://www.crunchbase.com/organization/zabbix
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/zabbix
+    crunchbase_data:
+      acquisitions: []
+      city: Riga
+      company_type: For Profit
+      country: Latvia
+      description: ZABBIX SIA is based in Riga, Latvia.
+      homepage: http://www.zabbix.com/
+      industries:
+      - Software
+      linkedin: https://www.linkedin.com/company/2476879
+      name: Zabbix
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: Riga
+      stockExchange: null
+      twitter: https://twitter.com/zabbix
+    github_data:
+      contributions: 165;193;225;261;207;196;212;242;182;177;271;187;206;180;92;158;187;197;203;118;67;190;198;240;188;156;161;139;130;105;100;121;166;192;265;154;168;249;205;207;262;242;193;209;150;70;92;84;72;42;33;39
+      contributors_count: 130
+      contributors_link: https://github.com/zabbix/zabbix/graphs/contributors
+      description: Real-time monitoring of IT components and services, such as networks,
+        servers, VMs, applications and the cloud.
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#4F5D95'
+        name: PHP
+        value: 19087270
+      - color: '#555555'
+        name: C
+        value: 16333565
+      - color: '#00ADD8'
+        name: Go
+        value: 1445505
+      - color: '#f1e05a'
+        name: JavaScript
+        value: 1053815
+      - color: '#563d7c'
+        name: CSS
+        value: 983413
+      - name: SCSS
+        value: 257550
+      - name: M4
+        value: 201713
+      - color: '#427819'
+        name: Makefile
+        value: 166049
+      - color: '#b07219'
+        name: Java
+        value: 79233
+      - color: '#0298c3'
+        name: Perl
+        value: 43744
+      - color: '#89e051'
+        name: Shell
+        value: 42437
+      - color: '#f34b7d'
+        name: C++
+        value: 37857
+      - name: PLpgSQL
+        value: 5475
+      - color: '#EB8CEB'
+        name: XSLT
+        value: 456
+      latest_commit_date: '2022-08-05T16:58:53Z'
+      latest_commit_link: /zabbix/zabbix/commit/fd099db625aa9f9a41acf297957d5d481791f187
+      license: GNU General Public License v2.0
+      stars: 2400
+    github_start_commit_data:
+      start_commit_link: /zabbix/zabbix/commit/f8d8ef1358a8e40b920aeae8141567c5ce5e5238
+      start_date: '2001-03-28T06:45:24Z'
     homepage_url: https://www.zabbix.com/
+    image_data:
+      fileName: zabbix.svg
+      hash: j+kVuM6IY/oTWtvebcnDraoeBCfrGQ0ZcfCVUH4O/fM=
     item: null
     logo: zabbix.svg
     name: Zabbix
     repo_url: https://github.com/zabbix/zabbix
+    repos:
+    - stars: 2400
+      url: https://github.com/zabbix/zabbix
+    twitter_data:
+      latest_tweet_date: 2022-08-05 15:31:35+00:00
   Tracing:
-  - crunchbase: https://www.crunchbase.com/organization/zipkin
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/zipkin
+    crunchbase_data:
+      acquisitions: []
+      city: San Francisco
+      company_type: For Profit
+      country: United States
+      description: Tracing
+      homepage: http://zipkin.io/
+      industries:
+      - Analytics
+      - Big Data
+      - Software
+      linkedin: null
+      name: Zipkin
+      num_employees_max: null
+      num_employees_min: null
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: null
+    github_data:
+      contributions: 0;0;0;1;7;0;0;0;0;0;0;1;0;0;2;10;5;1;16;3;0;3;0;0;13;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;7;0;0;0;0;0
+      contributors_count: 117
+      contributors_link: https://github.com/openzipkin/zipkin/graphs/contributors
+      description: Zipkin is a distributed tracing system
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#b07219'
+        name: Java
+        value: 2088279
+      - color: '#f1e05a'
+        name: JavaScript
+        value: 331480
+      - color: '#2b7489'
+        name: TypeScript
+        value: 178710
+      - color: '#89e051'
+        name: Shell
+        value: 70375
+      - color: '#384d54'
+        name: Dockerfile
+        value: 22702
+      - name: Smarty
+        value: 2347
+      - color: '#e34c26'
+        name: HTML
+        value: 969
+      - color: '#563d7c'
+        name: CSS
+        value: 647
+      latest_commit_date: '2022-06-28T12:57:56Z'
+      latest_commit_link: /openzipkin/zipkin/commit/4b7f03f6031732c1a6031f1acca3fa19626ba071
+      license: Apache License 2.0
+      release_date: '2022-01-27T21:32:36Z'
+      release_link: https://github.com/openzipkin/zipkin/releases
+      stars: 15578
+    github_start_commit_data:
+      start_commit_link: /openzipkin/zipkin/commit/6e0efb29482edb2b388fb5440bd8846388baf665
+      start_date: '2012-06-06T18:28:34Z'
     homepage_url: https://zipkin.io/
+    image_data:
+      fileName: zipkin.svg
+      hash: FF9k5qwokC7vUUYQT9ilLTE+JA7l7+0Cc7AM0lA94+s=
     item: null
     logo: zipkin.svg
     name: Zipkin
     repo_url: https://github.com/openzipkin/zipkin
+    repos:
+    - stars: 15578
+      url: https://github.com/openzipkin/zipkin
     twitter: https://twitter.com/zipkinproject
+    twitter_data:
+      latest_tweet_date: 2021-10-25 14:30:49+00:00
 Orchestration & Management:
   API Gateway: []
   Coordination & Service Discovery: []
@@ -102,13 +670,44 @@ Orchestration & Management:
 Platform:
   Certified Kubernetes - Distribution: []
   Certified Kubernetes - Hosted:
-  - crunchbase: https://www.crunchbase.com/organization/zte-corporation
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/zte-corporation
+    crunchbase_data:
+      acquisitions: []
+      city: Shenzhen
+      company_type: For Profit
+      country: China
+      description: ZTE provides telecommunications equipment and network solutions.
+      homepage: http://zte.com.cn
+      industries:
+      - Network Hardware
+      - Telecommunications
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/5804
+      name: ZTE
+      num_employees_max: 1000000
+      num_employees_min: 10001
+      parents: []
+      region: Guangdong
+      stockExchange: szse
+      ticker: 000063.SZ
+      twitter: https://twitter.com/ZTEPress
     description: The TECS OpenPalette platform is a unified cloud platform oriented
       to the ICT realm.
     homepage_url: https://sdnfv.zte.com.cn/en/products
+    image_data:
+      fileName: zte-tecs-open-palette.svg
+      hash: /jXMMErf9hRYjoKvw+AbAX/PQY2+LYoEQ30AZ/VGZ+s=
     item: null
     logo: zte-tecs.svg
     name: ZTE TECS OpenPalette
+    twitter_data:
+      latest_tweet_date: 2022-08-05 10:25:16+00:00
+    yahoo_finance_data:
+      effective_ticker: 000063.SZ
+      market_cap: 16359645340
   Certified Kubernetes - Installer: []
   PaaS/Container Service: []
 Provisioning:
@@ -116,21 +715,122 @@ Provisioning:
   Container Registry: []
   Key Management: []
   Security & Compliance:
-  - crunchbase: https://www.crunchbase.com/organization/goto-metrics
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/goto-metrics
+    crunchbase_data:
+      acquisitions: []
+      city: Los Altos
+      company_type: For Profit
+      country: United States
+      description: Zettaset is software-defined encryption that protects against data
+        theft and can be deployed across all physical and virtual environments.
+      funding: 13000000
+      homepage: http://www.zettaset.com
+      industries:
+      - Big Data
+      - Cyber Security
+      - Enterprise Software
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/zettaset
+      name: Zettaset, Inc.
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: http://twitter.com/zettaset
     homepage_url: https://www.zettaset.com/
+    image_data:
+      fileName: zettaset.svg
+      hash: +x/sgdlpQWjLTdXOqkT2VBwYe4C/KdfgsLwwKRO3k5k=
     item: null
     logo: zettaset.svg
     name: Zettaset
+    twitter_data:
+      latest_tweet_date: 2022-03-09 17:19:19+00:00
 Runtime:
   Cloud Native Network: []
   Cloud Native Storage:
-  - crunchbase: https://www.crunchbase.com/organization/scality
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/scality
+    crunchbase_data:
+      acquisitions: []
+      city: Paris
+      company_type: For Profit
+      country: France
+      description: Scality is a venture-backed software company that solves problems
+        associated with large-scale storage management and infrastructure.
+      funding: 172000000
+      homepage: http://scality.com/
+      industries:
+      - Cloud Data Services
+      - Data Storage
+      - Enterprise Software
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/scality
+      name: Scality
+      num_employees_max: 250
+      num_employees_min: 101
+      parents: []
+      region: Ile-de-France
+      stockExchange: null
+      twitter: http://twitter.com/scality
+    github_data:
+      contributions: 0;0;1;3;15;5;5;6;18;18;19;18;10;22;13;24;2;7;13;8;20;24;38;15;6;3;20;22;27;6;19;8;19;15;2;10;7;2;3;8;11;3;4;17;28;7;11;4;10;13;13;10
+      contributors_count: 67
+      contributors_link: https://github.com/scality/zenko/graphs/contributors
+      description: 'Zenko is the open source multi-cloud data controller: own and
+        keep control of your data on any cloud.'
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#f1e05a'
+        name: JavaScript
+        value: 344662
+      - name: Mustache
+        value: 68316
+      - color: '#89e051'
+        name: Shell
+        value: 61483
+      - color: '#3572A5'
+        name: Python
+        value: 24090
+      - color: '#384d54'
+        name: Dockerfile
+        value: 5887
+      - color: '#427819'
+        name: Makefile
+        value: 729
+      - name: Awk
+        value: 186
+      latest_commit_date: '2022-08-04T16:18:08Z'
+      latest_commit_link: /scality/Zenko/commit/a7ec723f38eb5c313275086e74491614cb2f3198
+      license: Apache License 2.0
+      release_date: '2022-08-03T20:12:56Z'
+      release_link: https://github.com/scality/zenko/releases
+      stars: 442
+    github_start_commit_data:
+      start_commit_link: /scality/Zenko/commit/b6257ce130f1bfc72263de06ea43f475d649eae5
+      start_date: '2017-06-14T22:41:34Z'
     homepage_url: https://www.zenko.io
+    image_data:
+      fileName: zenko.svg
+      hash: ZBPLCfn3ot99rp9V7t0r3bPnIJA/u3C+jqWusT5qLak=
     item: null
     logo: zenko.svg
     name: Zenko
     repo_url: https://github.com/scality/zenko
+    repos:
+    - stars: 442
+      url: https://github.com/scality/zenko
     twitter: https://twitter.com/zenko
+    twitter_data:
+      latest_tweet_date: 2020-09-29 00:15:04+00:00
   Container Runtime: []
 Serverless:
   Framework: []
@@ -141,7 +841,29 @@ Serverless:
 Special:
   Certified CNFs: []
   Kubernetes Certified Service Provider:
-  - crunchbase: https://www.crunchbase.com/organization/zoi-1e34
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/zoi-1e34
+    crunchbase_data:
+      acquisitions: []
+      city: Stuttgart
+      company_type: For Profit
+      country: Germany
+      description: Zoi is an essential paradigm of IT and electronics.
+      homepage: http://www.zoi.de/
+      industries:
+      - Information Technology
+      - Internet
+      - Software
+      linkedin: https://www.linkedin.com/company/zoi-gmbh/
+      name: Zoi
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: Baden-Wurttemberg
+      stockExchange: null
+      twitter: https://twitter.com/zoisays
     description: Zoi is a cloud-native IT consulting company that bridges the gap
       between hidden champions and the latest cloud technology. We are a trusted partner
       to manufacturing & retail companies in the DACH region, and together develop
@@ -151,14 +873,50 @@ Special:
       consulting, professional services and training for clients embarking on their
       Kubernetes journey.
     homepage_url: https://en.zoi.tech/kubernetes
+    image_data:
+      fileName: zoi-kcsp.svg
+      hash: XW767udSt/Nu2zfbtNDXvMfdB3UmpApN22RM+t7mBJ4=
     item: null
     logo: zoi.svg
     name: Zoi (KCSP)
-  - crunchbase: https://www.crunchbase.com/organization/zte-corporation
+    twitter_data:
+      latest_tweet_date: 2022-07-21 08:36:44+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/zte-corporation
+    crunchbase_data:
+      acquisitions: []
+      city: Shenzhen
+      company_type: For Profit
+      country: China
+      description: ZTE provides telecommunications equipment and network solutions.
+      homepage: http://zte.com.cn
+      industries:
+      - Network Hardware
+      - Telecommunications
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/5804
+      name: ZTE
+      num_employees_max: 1000000
+      num_employees_min: 10001
+      parents: []
+      region: Guangdong
+      stockExchange: szse
+      ticker: 000063.SZ
+      twitter: https://twitter.com/ZTEPress
     homepage_url: https://sdnfv.zte.com.cn/en
+    image_data:
+      fileName: zte-kcsp.svg
+      hash: 9G7dW4A20SuKnQV8Bdq4LqOrk+7ma5niwcsjydslfVc=
     item: null
     logo: zte-kcsp.svg
     name: ZTE (KCSP)
+    twitter_data:
+      latest_tweet_date: 2022-08-05 10:25:16+00:00
+    yahoo_finance_data:
+      effective_ticker: 000063.SZ
+      market_cap: 16359645340
   Kubernetes Training Partner: []
 Wasm:
   Debugging and Observability: []

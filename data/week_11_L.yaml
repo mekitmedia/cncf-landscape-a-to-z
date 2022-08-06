@@ -1,216 +1,1635 @@
 App Definition and Development:
   Application Definition & Image Build:
-  - crunchbase: https://www.crunchbase.com/organization/amazee-io
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/amazee-io
+    crunchbase_data:
+      acquisitions: []
+      city: "Z\xFCrich"
+      company_type: For Profit
+      country: Switzerland
+      description: Your ZeroOps application delivery hub.
+      homepage: https://www.amazee.io/
+      industries:
+      - Cloud Computing
+      - Cloud Infrastructure
+      - Information Technology
+      - Internet
+      - Open Source
+      - PaaS
+      - SaaS
+      - Software
+      - Web Apps
+      - Web Hosting
+      linkedin: https://www.linkedin.com/company/amazee.io
+      name: amazee.io
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: Zurich
+      stockExchange: null
+      twitter: http://twitter.com/amazeeio
     description: Build and Deploy System for OpenShift & Kubernetes
+    github_data:
+      contributions: 4;22;8;19;15;19;9;23;12;27;32;29;37;26;20;37;29;4;15;17;0;11;8;18;27;44;26;31;51;23;13;31;13;42;41;6;22;5;4;25;14;33;22;27;14;13;3;0;16;16;20;8
+      contributors_count: 90
+      contributors_link: https://github.com/uselagoon/lagoon/graphs/contributors
+      description: Lagoon, the developer-focused application delivery platform
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#2b7489'
+        name: TypeScript
+        value: 818576
+      - color: '#f1e05a'
+        name: JavaScript
+        value: 511098
+      - color: '#89e051'
+        name: Shell
+        value: 258145
+      - name: Mustache
+        value: 84940
+      - color: '#00ADD8'
+        name: Go
+        value: 74652
+      - color: '#384d54'
+        name: Dockerfile
+        value: 64589
+      - color: '#4F5D95'
+        name: PHP
+        value: 64071
+      - color: '#427819'
+        name: Makefile
+        value: 39375
+      - color: '#e34c26'
+        name: HTML
+        value: 8364
+      - color: '#3572A5'
+        name: Python
+        value: 2112
+      - name: Smarty
+        value: 2003
+      - color: '#563d7c'
+        name: CSS
+        value: 1036
+      latest_commit_date: '2022-08-04T21:35:26Z'
+      latest_commit_link: /uselagoon/lagoon/commit/00f85d4efe48c09abd6db4da5401eb594c6a0b9c
+      license: Apache License 2.0
+      release_date: '2022-08-01T21:25:29Z'
+      release_link: https://github.com/uselagoon/lagoon/releases
+      stars: 441
+    github_start_commit_data:
+      start_commit_link: /amazeeio/lagoon/commit/d80c6c301bd5253cdc4104c65a201b05d3350e3e
+      start_date: '2016-08-29T20:53:06Z'
     homepage_url: https://github.com/uselagoon/lagoon
+    image_data:
+      fileName: lagoon.svg
+      hash: jJjUOknCtuX7rV7xOGjAckh7UMUf6WhQ6pa0E7a/JTU=
     item: null
     logo: lagoon.svg
     name: Lagoon
     repo_url: https://github.com/uselagoon/lagoon
+    repos:
+    - stars: 441
+      url: https://github.com/uselagoon/lagoon
+    twitter_data:
+      latest_tweet_date: 2022-08-05 15:19:35+00:00
   Continuous Integration & Delivery: []
   Database: []
   Streaming & Messaging:
-  - crunchbase: https://www.crunchbase.com/organization/typesafe
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/typesafe
+    crunchbase_data:
+      acquisitions:
+      - acquiree: BoldRadius
+        date: '2016-04-15'
+      - acquiree: OpsClarity
+        date: '2017-02-08'
+      city: San Francisco
+      company_type: For Profit
+      country: United States
+      description: Lightbend offers a reactive application development platform for
+        building distributed applications and modernizing aging infrastructures.
+      funding: 83994189
+      homepage: http://www.lightbend.com
+      industries:
+      - Big Data
+      - Cloud Computing
+      - Data Integration
+      - Enterprise Applications
+      - Enterprise Software
+      - Information Technology
+      - Internet
+      - Software
+      - Software Engineering
+      kind: funding
+      linkedin: https://www.linkedin.com/company/lightbend-inc-/
+      name: Lightbend
+      num_employees_max: 250
+      num_employees_min: 101
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: http://twitter.com/lightbend
     homepage_url: https://www.lightbend.com/
+    image_data:
+      fileName: lightbend.svg
+      hash: w/HCqh4wzqM6b2t+Gluy/1p+XBh1wRzLvnu13lqQOgc=
     item: null
     logo: lightbend.svg
     name: Lightbend
+    twitter_data:
+      latest_tweet_date: 2022-08-03 18:11:57+00:00
 CNCF Members:
   Academic: []
   End User Supporter:
-  - crunchbase: https://www.crunchbase.com/organization/die-mobiliar
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/die-mobiliar
+    crunchbase_data:
+      acquisitions:
+      - acquiree: bexio
+        date: '2018-07-05'
+      city: Bern
+      company_type: For Profit
+      country: Switzerland
+      description: Die Mobiliar is a furniture startup and an old private insurance
+        company in Switzerland.
+      homepage: https://www.mobiliar.ch
+      industries:
+      - Health Insurance
+      - Insurance
+      linkedin: https://www.linkedin.com/company/die-mobiliar
+      name: Die Mobiliar
+      num_employees_max: 5000
+      num_employees_min: 1001
+      parents: []
+      region: Bern
+      stockExchange: null
+      twitter: https://twitter.com/diemobiliar
     homepage_url: https://www.mobiliar.ch/
+    image_data:
+      fileName: la-mobiliere-supporter.svg
+      hash: rLTBfB0ecrjD8sQRHghvwi5q0Vh2xbOSHfDOWGYY880=
     item: null
     logo: la-mobiliere-supporter.svg
     name: La Mobiliere (supporter)
-  - crunchbase: https://www.crunchbase.com/organization/lowes
+    twitter_data:
+      latest_tweet_date: 2022-08-04 14:22:08+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/lowes
+    crunchbase_data:
+      acquisitions:
+      - acquiree: ATG
+        date: '2011-12-29'
+      - acquiree: Orchard Supply Hardware
+        date: '2013-06-17'
+      - acquiree: RONA
+        date: '2016-02-03'
+        price: 2300000000
+      - acquiree: Maintenance Supply Headquarters
+        date: '2017-05-18'
+      - acquiree: Boomerang Commerce
+        date: '2019-05-20'
+      - acquiree: StainMaster
+        date: '2021-04-22'
+      city: Mooresville
+      company_type: For Profit
+      country: United States
+      description: "Lowe\u2019s provides the skills you need to manage your home,\
+        \ and offer the best customer services."
+      funding: 5000000000
+      homepage: https://www.lowes.com
+      industries:
+      - Hardware
+      - Home Renovation
+      - Manufacturing
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/lowe's-home-improvement
+      name: "Lowe\u2019s"
+      num_employees_max: 1000000
+      num_employees_min: 10001
+      parents: []
+      region: North Carolina
+      stockExchange: nyse
+      ticker: LOW
+      twitter: http://twitter.com/Lowes
     homepage_url: https://www.lowes.com/
+    image_data:
+      fileName: lowe-s-supporter.svg
+      hash: wGDCCo0fLfcbiDReygDm5QkDHUOeABnL9IeefO2N2xE=
     item: null
     logo: lowes.svg
     name: Lowe's (supporter)
-  - crunchbase: https://www.crunchbase.com/organization/lunar-bank
+    twitter_data:
+      latest_tweet_date: 2022-08-06 04:00:14+00:00
+    yahoo_finance_data:
+      effective_ticker: LOW
+      market_cap: 127237808128
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/lunar-bank
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Lendify
+        date: '2021-04-20'
+      - acquiree: Paylike
+        date: '2021-10-12'
+      - acquiree: Instabank
+        date: '2022-03-28'
+        price: 149483074
+      city: Aarhus
+      company_type: For Profit
+      country: Denmark
+      description: Lunar is a digital bank that offers a mobile-based banking app
+        that helps consumers manage their personal finances.
+      funding: 448352296
+      homepage: http://www.lunar.app
+      industries:
+      - Banking
+      - Credit Cards
+      - Debit Cards
+      - FinTech
+      - Financial Services
+      kind: funding
+      linkedin: https://www.linkedin.com/company/lunarbank
+      name: Lunar
+      num_employees_max: 500
+      num_employees_min: 251
+      parents: []
+      region: Midtjylland
+      stockExchange: null
+      twitter: https://twitter.com/lunarmoney
     homepage_url: https://www.lunar.app/en/personal
+    image_data:
+      fileName: lunar-supporter.svg
+      hash: xhsWiecV79G1bdg8fELzU9KMUGRL24p8tSFdbWb2TTA=
     item: null
     logo: lunar.svg
     name: Lunar (supporter)
+    twitter_data:
+      latest_tweet_date: 2022-07-06 13:33:05+00:00
   Gold: []
   Nonprofit: []
   Platinum: []
   Silver:
-  - crunchbase: https://www.crunchbase.com/organization/lablup
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/lablup
+    crunchbase_data:
+      acquisitions: []
+      city: Seoul
+      company_type: For Profit
+      country: South Korea
+      description: Lablup provides the Enterprise cluster operating software from
+        Building AI to Service. NVIDIA DGX-ready software partner.
+      funding: 1752925
+      homepage: http://www.lablup.com/
+      industries:
+      - Cloud Computing
+      - Information Technology
+      - Machine Learning
+      - SaaS
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/lablun-inc
+      name: Lablup
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: Seoul-t'ukpyolsi
+      stockExchange: null
+      twitter: null
     homepage_url: https://www.lablup.com/home
+    image_data:
+      fileName: lablup-member.svg
+      hash: XnJROXruYiZuJQZ1oAbb3IMBtiLTnMrsQJy7BY0veic=
     item: null
     logo: lablup.svg
     name: Lablup (member)
-  - crunchbase: https://www.crunchbase.com/organization/lacework
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/lacework
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Soluble
+        date: '2021-11-11'
+      city: San Jose
+      company_type: For Profit
+      country: United States
+      description: Lacework is a cloud security services provider that automates cloud
+        security at scale so customers can innovate with speed and safety.
+      funding: 1899000000
+      homepage: https://www.lacework.com
+      industries:
+      - Cloud Security
+      - Compliance
+      - Cyber Security
+      - Developer Tools
+      kind: funding
+      linkedin: https://www.linkedin.com/company/lacework
+      name: Lacework
+      num_employees_max: 1000
+      num_employees_min: 501
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/lacework
     homepage_url: https://www.lacework.com
+    image_data:
+      fileName: lacework-member.svg
+      hash: eyJ7cIPQzsFxKwPl3eYJUxWkPrjMn/HNEooebfRgJns=
     item: null
     logo: lacework.svg
     name: Lacework (member)
-  - crunchbase: https://www.crunchbase.com/organization/leanix
+    twitter_data:
+      latest_tweet_date: 2022-08-05 18:02:02+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/leanix
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Cleanshelf
+        date: '2021-03-24'
+      city: Bonn
+      company_type: For Profit
+      country: Germany
+      description: LeanIX is a Software-as-a-Service (SaaS) company that manages Enterprise
+        Architecture and multi-cloud environments.
+      funding: 119885574
+      homepage: http://www.leanix.net
+      industries:
+      - Collaboration
+      - Enterprise Software
+      - IT Management
+      - SaaS
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/2868882
+      name: LeanIX
+      num_employees_max: 250
+      num_employees_min: 101
+      parents: []
+      region: Nordrhein-Westfalen
+      stockExchange: null
+      twitter: http://twitter.com/leanix_net
     homepage_url: https://www.leanix.net/en/
+    image_data:
+      fileName: lean-ix-member.svg
+      hash: 9NQO/r7l7vpQIsHb6MD4l14e8zL3p9kb6qEYaug0+lM=
     item: null
     logo: lean-ix-member.svg
     name: LeanIX (member)
-  - crunchbase: https://www.crunchbase.com/organization/legit-security
+    twitter_data:
+      latest_tweet_date: 2022-08-04 12:09:00+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/legit-security
+    crunchbase_data:
+      acquisitions: []
+      city: Palo Alto
+      company_type: For Profit
+      country: United States
+      description: "Legit Security provides an enterprise SaaS solution that protects\
+        \ an organization\u2019s software supply chain from attack."
+      funding: 33500000
+      homepage: https://www.legitsecurity.com
+      industries:
+      - SaaS
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/legitsecurity
+      name: Legit Security
+      num_employees_max: 100
+      num_employees_min: 51
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/legitsecurity1
     homepage_url: https://www.legitsecurity.com/
+    image_data:
+      fileName: legit-security-member.svg
+      hash: vrc2x5LQv9TETi48KEPWAj+SIJie3y5Cgms+OUrhHDM=
     item: null
     logo: legit-security.svg
     name: Legit Security (member)
-  - crunchbase: https://www.crunchbase.com/organization/typesafe
+    twitter_data:
+      latest_tweet_date: 2022-08-05 16:15:14+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/typesafe
+    crunchbase_data:
+      acquisitions:
+      - acquiree: BoldRadius
+        date: '2016-04-15'
+      - acquiree: OpsClarity
+        date: '2017-02-08'
+      city: San Francisco
+      company_type: For Profit
+      country: United States
+      description: Lightbend offers a reactive application development platform for
+        building distributed applications and modernizing aging infrastructures.
+      funding: 83994189
+      homepage: http://www.lightbend.com
+      industries:
+      - Big Data
+      - Cloud Computing
+      - Data Integration
+      - Enterprise Applications
+      - Enterprise Software
+      - Information Technology
+      - Internet
+      - Software
+      - Software Engineering
+      kind: funding
+      linkedin: https://www.linkedin.com/company/lightbend-inc-/
+      name: Lightbend
+      num_employees_max: 250
+      num_employees_min: 101
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: http://twitter.com/lightbend
     homepage_url: https://www.lightbend.com/
+    image_data:
+      fileName: lightbend-member.svg
+      hash: w/HCqh4wzqM6b2t+Gluy/1p+XBh1wRzLvnu13lqQOgc=
     item: null
     logo: lightbend.svg
     name: Lightbend (member)
-  - crunchbase: https://www.crunchbase.com/organization/lightlytics
+    twitter_data:
+      latest_tweet_date: 2022-08-03 18:11:57+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/lightlytics
+    crunchbase_data:
+      acquisitions: []
+      city: Tel Aviv
+      company_type: For Profit
+      country: Israel
+      description: "We\u2019re on a mission to empower organizations to code and deploy\
+        \ configurations faster and safer, from plan to production."
+      funding: 30000000
+      homepage: https://www.lightlytics.com
+      industries:
+      - Cloud Computing
+      - Cloud Infrastructure
+      - SaaS
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/lightlytics
+      name: Lightlytics
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: Tel Aviv
+      stockExchange: null
+      twitter: https://twitter.com/lightlytics
     homepage_url: https://www.lightlytics.com/
+    image_data:
+      fileName: lightlytics-member.svg
+      hash: Jc3D5NOVaP1j0ULtsBMzPxWfaFI/XH2Wq4ZYJ3mElvw=
     item: null
     logo: lightlytics.svg
     name: Lightlytics (member)
-  - crunchbase: https://www.crunchbase.com/organization/lightrun
+    twitter_data:
+      latest_tweet_date: 2022-08-04 09:12:52+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/lightrun
+    crunchbase_data:
+      acquisitions: []
+      city: Tel Aviv
+      company_type: For Profit
+      country: Israel
+      description: Lightrun is a startup that makes it easier for developers to debug
+        their production code.
+      funding: 27000000
+      homepage: https://lightrun.com/
+      industries:
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/lightrun/
+      name: Lightrun
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: Tel Aviv
+      stockExchange: null
+      twitter: https://twitter.com/Lightruntech
     homepage_url: https://www.lightrun.com/
+    image_data:
+      fileName: lightrun-member.svg
+      hash: JCKgAXzb8pGNrnpriLRSGZbzWtYq1GjRvu1HLOOhaRM=
     item: null
     logo: lightrun.svg
     name: Lightrun (member)
-  - crunchbase: https://www.crunchbase.com/organization/lightspin-technologies-ltd
+    twitter_data:
+      latest_tweet_date: 2022-07-18 08:10:19+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/lightspin-technologies-ltd
+    crunchbase_data:
+      acquisitions: []
+      city: Tel Aviv
+      company_type: For Profit
+      country: Israel
+      description: Lightspin's contextual cloud security platform protects native,
+        Kubernetes, and microservices from known and unknown risks.
+      funding: 20000000
+      homepage: https://www.lightspin.io
+      industries:
+      - Cyber Security
+      kind: funding
+      linkedin: https://www.linkedin.com/company/lightspin
+      name: Lightspin
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: Tel Aviv
+      stockExchange: null
+      twitter: https://twitter.com/LightspinTech
     homepage_url: https://www.lightspin.io/
+    image_data:
+      fileName: lightspin-member.svg
+      hash: nC8bIg5VNnIO27gHbi3CXhwhzTWDHz3De6lkjt2kxSs=
     item: null
     logo: lightspin.svg
     name: Lightspin (member)
-  - crunchbase: https://www.crunchbase.com/organization/lightstep
+    twitter_data:
+      latest_tweet_date: 2022-08-05 12:57:00+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/lightstep
+    crunchbase_data:
+      acquisitions: []
+      city: San Francisco
+      company_type: For Profit
+      country: United States
+      description: "LightStep's mission is to deliver confidence at scale for those\
+        \ who develop, operate, and rely upon today\u2019s powerful software applications."
+      funding: 70000000
+      homepage: https://lightstep.com/
+      industries:
+      - Application Performance Management
+      - Internet
+      - Software
+      - Software Engineering
+      kind: funding
+      linkedin: https://www.linkedin.com/company/7595344/
+      name: LightStep
+      num_employees_max: 250
+      num_employees_min: 101
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: https://www.twitter.com/lightstephq
     homepage_url: https://lightstep.com
+    image_data:
+      fileName: light-step-member.svg
+      hash: l1BrGRiNW9X8OB3ovDduXjBKLOpdjz35QGRUUMC61ao=
     item: null
     logo: lightstep.svg
     name: LightStep (member)
-  - crunchbase: https://www.crunchbase.com/organization/linbit
+    twitter_data:
+      latest_tweet_date: 2022-08-04 16:42:38+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/linbit
+    crunchbase_data:
+      acquisitions: []
+      city: Beaverton
+      company_type: For Profit
+      country: United States
+      description: LINBIT is an open source partner for block storage.
+      homepage: http://www.linbit.com
+      industries:
+      - Cloud Computing
+      - Cloud Data Services
+      - Data Storage
+      - Flash Storage
+      - Information Technology
+      - Linux
+      - Open Source
+      - Software
+      linkedin: https://www.linkedin.com/company/2773681
+      name: LINBIT
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: Oregon
+      stockExchange: null
+      twitter: http://twitter.com/LINBIT
     homepage_url: https://www.linbit.com
+    image_data:
+      fileName: linbit-member.svg
+      hash: n5zCxNljXAebIZ8/HygfUDfE3e57gtQxZrkJbAFgNwE=
     item: null
     logo: linbit.svg
     name: Linbit (member)
-  - crunchbase: https://www.crunchbase.com/organization/linklogis
+    twitter_data:
+      latest_tweet_date: 2022-08-05 15:07:00+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/linklogis
+    crunchbase_data:
+      acquisitions: []
+      city: Shenzhen
+      company_type: For Profit
+      country: China
+      description: Linklogis is a supply chain financing service provider that is
+        based in China.
+      funding: 265145175
+      homepage: https://www.linklogis.com/
+      industries:
+      - Finance
+      - Financial Services
+      - Supply Chain Management
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/%E6%B7%B1%E5%9C%B3%E5%89%8D%E6%B5%B7%E8%81%94%E6%98%93%E8%9E%8D%E9%87%91%E8%9E%8D%E6%9C%8D%E5%8A%A1%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/
+      name: Linklogis
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: Guangdong
+      stockExchange: hkg
+      ticker: 9959.HK
+      twitter: null
     homepage_url: https://www.linklogis.com.hk/
+    image_data:
+      fileName: linklogis-member.svg
+      hash: XABCmi2F2E05vPl5FiGCAJ8a6qatk4vzJ2Fpm2YR/1w=
     item: null
     logo: linklogis.svg
     name: Linklogis (member)
-  - crunchbase: https://www.crunchbase.com/organization/linode
+    yahoo_finance_data:
+      effective_ticker: 9959.HK
+      market_cap: 1531015731
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/linode
+    crunchbase_data:
+      acquisitions: []
+      city: Philadelphia
+      company_type: For Profit
+      country: United States
+      description: Linode is a cloud hosting company offering customers access to
+        Linux virtual servers on high speed internet connections.
+      homepage: http://www.linode.com
+      industries:
+      - Cloud Computing
+      - Cloud Infrastructure
+      - IaaS
+      - Information Technology
+      - Web Hosting
+      linkedin: https://www.linkedin.com/company/linode
+      name: Linode
+      num_employees_max: 250
+      num_employees_min: 101
+      parents: []
+      region: Pennsylvania
+      stockExchange: null
+      twitter: http://twitter.com/linode
     homepage_url: https://www.linode.com
+    image_data:
+      fileName: linode-member.svg
+      hash: R8GuFN98tRkw9ohzJ0dkLg5E/4RCnzLC2WCLQ01NRm8=
     item: null
     logo: linode.svg
     name: Linode (member)
-  - crunchbase: https://www.crunchbase.com/organization/liquid-reply
+    twitter_data:
+      latest_tweet_date: 2022-08-05 21:30:02+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/liquid-reply
+    crunchbase_data:
+      acquisitions: []
+      city: Munich
+      company_type: For Profit
+      country: Germany
+      description: Liquid Reply is a Reply Group Company specialized in Container
+        Orchestration & Cloud Native Development.
+      homepage: https://www.reply.com/liquid-reply/en/
+      industries: []
+      linkedin: https://www.linkedin.com/company/liquid-reply
+      name: Liquid Reply
+      num_employees_max: null
+      num_employees_min: null
+      parents: []
+      region: Bayern
+      stockExchange: null
+      twitter: https://twitter.com/LiquidReply
     homepage_url: https://www.reply.com/liquid-reply/en
+    image_data:
+      fileName: liquid-reply-member.svg
+      hash: zrJJokZbDU1uHOz+eqGhPls+mDVeTmf8w2/jAG/l+BI=
     item: null
     logo: liquid-reply.svg
     name: Liquid Reply (member)
-  - crunchbase: https://www.crunchbase.com/organization/lockheed-martin
+    twitter_data:
+      latest_tweet_date: 2022-08-04 14:00:38+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/lockheed-martin
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Loral Corporation
+        date: '1996-01-09'
+      - acquiree: COMSAT Corporation
+        date: '1998-09-20'
+        price: 2700000000
+      - acquiree: OAO Corporation
+        date: '2001-12-07'
+      - acquiree: Affiliated Computer Services
+        date: '2003-12-12'
+        price: 585000000
+      - acquiree: Stasys
+        date: '2005-02-28'
+      - acquiree: The Sytex Group, Inc.
+        date: '2005-03-31'
+        price: 462000000
+      - acquiree: Coherent Technologies
+        date: '2005-10-06'
+        price: 180000000
+      - acquiree: INSYS Group, Inc.
+        date: '2005-10-19'
+      - acquiree: Aspen Systems Corp.
+        date: '2005-12-16'
+      - acquiree: HMT Vehicles
+        date: '2006-01-23'
+      - acquiree: Savi Technology
+        date: '2006-04-04'
+      - acquiree: ISX Corporation
+        date: '2006-06-30'
+      - acquiree: Pacific Architects and Engineers
+        date: '2006-09-29'
+      - acquiree: Management Systems Designers
+        date: '2007-02-01'
+      - acquiree: Eagle Group International
+        date: '2008-05-23'
+      - acquiree: Universal Systems & Technology
+        date: '2008-12-24'
+      - acquiree: Gyrocam Systems
+        date: '2009-07-25'
+      - acquiree: QTC Holdings
+        date: '2011-08-22'
+      - acquiree: Sim-Industries
+        date: '2011-11-03'
+      - acquiree: Procerus Technologies
+        date: '2012-01-17'
+      - acquiree: Chandler/May, Inc.
+        date: '2012-11-13'
+      - acquiree: CDL Systems
+        date: '2012-12-21'
+      - acquiree: Amor Group
+        date: '2013-09-11'
+      - acquiree: BEONTRA
+        date: '2014-03-18'
+      - acquiree: Deposition Sciences
+        date: '2014-06-18'
+      - acquiree: Zeta Associates
+        date: '2014-08-18'
+      - acquiree: Sun Catalytix
+        date: '2014-08-25'
+      - acquiree: Systems Made Simple
+        date: '2014-10-30'
+      - acquiree: Sikorsky Aircraft
+        date: '2015-07-20'
+        price: 9000000000
+      - acquiree: i3
+        date: '2020-10-09'
+      - acquiree: Aerojet Rocketdyne Holdings
+        date: '2020-12-18'
+        price: 4400000000
+      city: Bethesda
+      company_type: For Profit
+      country: United States
+      description: Lockheed Martin is a security company engaged in the research,
+        development, and manufacture of advanced technology systems and products.
+      funding: 28316440
+      homepage: http://www.lockheedmartin.com
+      industries:
+      - Cyber Security
+      - National Security
+      - Security
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/lockheed-martin
+      name: Lockheed Martin
+      num_employees_max: 1000000
+      num_employees_min: 10001
+      parents: []
+      region: Maryland
+      stockExchange: nyse
+      ticker: LMT
+      twitter: http://twitter.com/LockheedMartin
     enduser: true
     homepage_url: https://www.lockheedmartin.com/
+    image_data:
+      fileName: lockheed-martin-member.svg
+      hash: 2vBtNQ4Rh9snWqwkO1ys6Bx0Jn2HgMKn1ugXacBL4Dg=
     item: null
     joined: '2022-02-14'
     logo: lockheedmartin.svg
     name: Lockheed Martin (member)
-  - crunchbase: https://www.crunchbase.com/organization/loft-labs
+    twitter_data:
+      latest_tweet_date: 2022-08-05 13:20:01+00:00
+    yahoo_finance_data:
+      effective_ticker: LMT
+      market_cap: 113063469056
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/loft-labs
+    crunchbase_data:
+      acquisitions: []
+      city: San Francisco
+      company_type: For Profit
+      country: United States
+      description: Loft Labs enables any organization to scale self-service access
+        to Kubernetes from 10 to 10,000 engineers.
+      funding: 4600000
+      homepage: https://loft.sh/
+      industries:
+      - Cloud Computing
+      - Cloud Management
+      - Developer Platform
+      - Developer Tools
+      - Information Technology
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/loft-sh/
+      name: Loft Labs
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/loft_sh
     homepage_url: https://loft.sh
+    image_data:
+      fileName: loft-labs-member.svg
+      hash: QiUtDicZCMF3EXLgUR3AVnbC1xr7Ti2st4JhPuAq9Vg=
     item: null
     logo: loft-labs.svg
     name: Loft Labs (member)
-  - crunchbase: https://www.crunchbase.com/organization/logiq
+    twitter_data:
+      latest_tweet_date: 2022-07-29 00:45:51+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/logiq
+    crunchbase_data:
+      acquisitions: []
+      city: San Jose
+      company_type: For Profit
+      country: United States
+      description: Logiq.ai is a data platform for engineering teams.
+      funding: 1800000
+      homepage: https://logiq.ai/
+      industries:
+      - Artificial Intelligence
+      - Big Data
+      - Database
+      kind: funding
+      linkedin: https://www.linkedin.com/company/logiq-ai/
+      name: Logiq.ai
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/logiq_ai
     homepage_url: https://logiq.ai/
+    image_data:
+      fileName: logiq-member.svg
+      hash: 6QTAkpXJYoJVx/Wre4Cbfyeacwk3bAbEi2G/T+nEYJ4=
     item: null
     logo: logiq.svg
     name: Logiq (member)
-  - crunchbase: https://www.crunchbase.com/organization/logz-io
+    twitter_data:
+      latest_tweet_date: 2022-07-04 18:53:51+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/logz-io
+    crunchbase_data:
+      acquisitions: []
+      city: Boston
+      company_type: For Profit
+      country: United States
+      description: Logz.io provides a scalable and intelligent machine data analytics
+        platform built on ELK and Grafana for monitoring modern applications.
+      funding: 121900000
+      homepage: https://logz.io/
+      industries:
+      - Analytics
+      - Artificial Intelligence
+      - Big Data
+      - Enterprise Software
+      - SaaS
+      kind: funding
+      linkedin: https://www.linkedin.com/company/logz-io
+      name: Logz.io
+      num_employees_max: 500
+      num_employees_min: 251
+      parents: []
+      region: Massachusetts
+      stockExchange: null
+      twitter: https://twitter.com/logzio
     homepage_url: https://logz.io/
+    image_data:
+      fileName: logz-io-member.svg
+      hash: 1QCMdAeDd9XgPviJE/yfmXALIOKY1OnwoNr+XPbVE6c=
     item: null
     logo: logz-io.svg
     name: Logz.io (member)
-  - crunchbase: https://www.crunchbase.com/organization/lsd-open
+    twitter_data:
+      latest_tweet_date: 2022-08-05 14:00:30+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/lsd-open
+    crunchbase_data:
+      acquisitions: []
+      city: Johannesburg
+      company_type: ''
+      country: South Africa
+      description: Fully managed and engineered cloud native accelerator, leveraging
+        a foundation of containerisation, Kubernetes and open source technologies
+      homepage: https://lsdopen.io/
+      industries: []
+      linkedin: null
+      name: LSD Open
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: NA - South Africa
+      stockExchange: null
+      twitter: null
     homepage_url: https://lsdopen.io/
+    image_data:
+      fileName: lsd-open-member.svg
+      hash: YhF3g1Fg5hCSqozO64WOz1fq4+bZvEYT1fTqOAZ34TE=
     item: null
     logo: LSD-OPEN.svg
     name: LSD Open (member)
-  - crunchbase: https://www.crunchbase.com/organization/l-t-infotech
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/l-t-infotech
+    crunchbase_data:
+      acquisitions:
+      - acquiree: GDA Technologies
+        date: '2006-12-13'
+      - acquiree: AugmentIQ Data Sciences
+        date: '2016-10-25'
+      - acquiree: Syncordis S.A.
+        date: '2017-11-14'
+      - acquiree: Ruletronics
+        date: '2019-01-17'
+      - acquiree: Nielsen+Partner
+        date: '2019-02-14'
+        price: 31500000
+      - acquiree: Lymbyc
+        date: '2019-07-17'
+      - acquiree: Powerupcloud Technologies
+        date: '2019-10-17'
+      city: Edison
+      company_type: For Profit
+      country: United States
+      description: LTI is a global technology consulting and digital solutions company
+        helping more than 250 clients succeed in a converging world.
+      funding: 30000000
+      homepage: https://www.lntinfotech.com
+      industries:
+      - Analytics
+      - Consulting
+      - Information Technology
+      - Internet of Things
+      - Software
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/l&t-infotech
+      name: L&T Infotech
+      num_employees_max: 1000000
+      num_employees_min: 10001
+      parents: []
+      region: New Jersey
+      stockExchange: nse
+      ticker: LTI.NS
+      twitter: https://twitter.com/LTI_Global
     homepage_url: https://www.lntinfotech.com/
+    image_data:
+      fileName: lti-member.svg
+      hash: Ytqa6AcgTOwF1xiaHl+zFyHineF1xt7xCD+4t9e8a2E=
     item: null
     logo: larsen-toubro.svg
     name: LTI (member)
+    twitter_data:
+      latest_tweet_date: 2022-08-05 13:52:07+00:00
+    yahoo_finance_data:
+      effective_ticker: LTI.NS
+      market_cap: 10879205531
 Observability and Analysis:
   Chaos Engineering:
-  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  - best_practice_data:
+      badge: 3202
+      percentage: 82
+    crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Kubernetes
+        date: '2016-03-10'
+      - acquiree: RethinkDB
+        date: '2017-02-06'
+        price: 25000
+      city: San Francisco
+      company_type: Non Profit
+      country: United States
+      description: CNCF is an open source software foundation that hosts and nurtures
+        projects like Kubernetes and Prometheus.
+      funding: 3000000
+      homepage: https://www.cncf.io
+      industries:
+      - Cloud Computing
+      - Cloud Infrastructure
+      - Non Profit
+      - Open Source
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+      name: Cloud Native Computing Foundation (CNCF)
+      num_employees_max: 50
+      num_employees_min: 11
+      parents:
+      - https://www.crunchbase.com/organization/linux-foundation
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/CloudNativeFdn
     extra:
       accepted: '2020-06-23'
       dev_stats_url: https://litmuschaos.devstats.cncf.io/
       slack_url: https://kubernetes.slack.com/messages/CNXNB0ZTN
       youtube_url: https://www.youtube.com/channel/UCa57PMqmz_j0wnteRa9nCaw
+    github_data:
+      contributions: 16;25;9;9;2;10;5;12;13;15;9;9;0;3;5;4;6;10;9;4;1;5;6;3;0;1;2;6;1;7;8;10;0;2;2;10;4;3;0;6;12;3;3;0;12;0;1;0;8;6;0;9
+      contributors_count: 178
+      contributors_link: https://github.com/litmuschaos/litmus/graphs/contributors
+      description: Litmus helps  SREs and developers practice chaos engineering in
+        a Cloud-native way. Chaos experiments are published at the ChaosHub  (https://hub.litmuschaos.io).
+        Community notes is at https://hackmd.io/a4Zu_sH4TZGeih-xCimi3Q
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#e34c26'
+        name: HTML
+        value: 2678552
+      - color: '#2b7489'
+        name: TypeScript
+        value: 2015597
+      - color: '#00ADD8'
+        name: Go
+        value: 564318
+      - color: '#563d7c'
+        name: CSS
+        value: 269772
+      - color: '#f1e05a'
+        name: JavaScript
+        value: 21494
+      - color: '#427819'
+        name: Makefile
+        value: 10740
+      - color: '#384d54'
+        name: Dockerfile
+        value: 4394
+      latest_commit_date: '2022-08-05T10:39:28Z'
+      latest_commit_link: /litmuschaos/litmus/commit/0e638a350abc0de6222f275cbdff61541bb21ece
+      license: Apache License 2.0
+      release_date: '2022-07-15T06:10:22Z'
+      release_link: https://github.com/litmuschaos/litmus/releases
+      stars: 3150
+    github_start_commit_data:
+      start_commit_link: /litmuschaos/litmus/commit/c3871e36df7aad65e52b386a5a8bcca6263e9835
+      start_date: '2017-03-15T07:03:00Z'
     homepage_url: https://litmuschaos.io/
+    image_data:
+      fileName: litmus.svg
+      hash: LDSuX91AawOePRc1G8iXbehlt3jnU6jxwZIBg+MLjko=
     item: null
     logo: litmus.svg
     name: Litmus
     project: incubating
     repo_url: https://github.com/litmuschaos/litmus
+    repos:
+    - stars: 3150
+      url: https://github.com/litmuschaos/litmus
     twitter: https://twitter.com/litmuschaos
+    twitter_data:
+      latest_tweet_date: 2022-08-05 14:03:26+00:00
   Continuous Optimization: []
   Logging:
-  - crunchbase: https://www.crunchbase.com/organization/netease-com
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/netease-com
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Grasshopper Manufacture
+        date: '2021-10-22'
+      city: Hangzhou
+      company_type: For Profit
+      country: China
+      description: 'NetEase, Inc. (NASDAQ: NTES) is a leading internet technology
+        company dedicated to providing premium online services.'
+      funding: 0
+      homepage: https://www.neteasegames.com/
+      industries:
+      - Advertising
+      - Gaming
+      - Mobile
+      - Mobile Apps
+      - Music
+      - PC Games
+      - Venture Capital
+      - Wireless
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/netease
+      name: NetEase
+      num_employees_max: 1000000
+      num_employees_min: 10001
+      parents: []
+      region: Zhejiang
+      stockExchange: hkg
+      ticker: 9999.HK
+      twitter: https://twitter.com/neteaseofficial?lang=en
     description: Loggie is a lightweight, high-performance, cloud-native log collection
       agent and aggregator based on Golang.
+    github_data:
+      contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;7;8;1;8;9;9;2;9;10;0;0;2;3;4;14;4;5;4;0;6;10;5;2;2;11;3;6;5;10;6;0;7;6;4;6;2;2
+      contributors_count: 14
+      contributors_link: https://github.com/loggie-io/loggie/graphs/contributors
+      description: A lightweight, cloud-native data transfer agent and aggregator
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#00ADD8'
+        name: Go
+        value: 803519
+      - color: '#427819'
+        name: Makefile
+        value: 3409
+      - color: '#89e051'
+        name: Shell
+        value: 1509
+      - color: '#384d54'
+        name: Dockerfile
+        value: 562
+      latest_commit_date: '2022-08-03T13:09:01Z'
+      latest_commit_link: /loggie-io/loggie/commit/98ae9bf3385245b0e28497f05a87ad0e5541d636
+      license: Apache License 2.0
+      release_date: '2022-06-16T08:51:06Z'
+      release_link: https://github.com/loggie-io/loggie/releases
+      stars: 717
+    github_start_commit_data:
+      start_commit_link: /loggie-io/loggie/commit/365ae5bd24a84c6d27171c2872ce70ec2987a0c4
+      start_date: '2021-11-22T02:26:17Z'
     homepage_url: https://loggie-io.github.io/
+    image_data:
+      fileName: loggie.svg
+      hash: mhoKI65zCWZwJod8bKHohW8gbTyMUjEkibXhVS+UzEQ=
     item: null
     logo: loggie.svg
     name: Loggie
     repo_url: https://github.com/loggie-io/loggie
-  - crunchbase: https://www.crunchbase.com/organization/loggly
+    repos:
+    - stars: 717
+      url: https://github.com/loggie-io/loggie
+    twitter_data:
+      latest_tweet_date: 2021-02-02 10:40:05+00:00
+    yahoo_finance_data:
+      effective_ticker: 9999.HK
+      market_cap: 58973992918
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/loggly
+    crunchbase_data:
+      acquisitions: []
+      city: San Francisco
+      company_type: For Profit
+      country: United States
+      description: Loggly parses your log files, shows you the code in GitHub which
+        caused the log errors. 10,000+ customers, including 1/3 of the Fortune 500.
+      funding: 47400000
+      homepage: https://www.loggly.com/
+      industries:
+      - Analytics
+      - Cloud Data Services
+      - Enterprise Software
+      - SaaS
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/loggly
+      name: Loggly
+      num_employees_max: 100
+      num_employees_min: 51
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: http://twitter.com/loggly
     homepage_url: https://www.loggly.com/
+    image_data:
+      fileName: loggly.svg
+      hash: eFjOrqUKRCWMKG5cmNcVoK8ai8YeZI1mFDSufQsX078=
     item: null
     logo: loggly.svg
     name: Loggly
-  - crunchbase: https://www.crunchbase.com/organization/logiq
+    twitter_data:
+      latest_tweet_date: 2022-08-04 18:01:01+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/logiq
+    crunchbase_data:
+      acquisitions: []
+      city: San Jose
+      company_type: For Profit
+      country: United States
+      description: Logiq.ai is a data platform for engineering teams.
+      funding: 1800000
+      homepage: https://logiq.ai/
+      industries:
+      - Artificial Intelligence
+      - Big Data
+      - Database
+      kind: funding
+      linkedin: https://www.linkedin.com/company/logiq-ai/
+      name: Logiq.ai
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/logiq_ai
     homepage_url: https://logiq.ai/
+    image_data:
+      fileName: logiq.svg
+      hash: 6QTAkpXJYoJVx/Wre4Cbfyeacwk3bAbEi2G/T+nEYJ4=
     item: null
     logo: logiq.svg
     name: Logiq
-  - crunchbase: https://www.crunchbase.com/organization/elasticsearch
+    twitter_data:
+      latest_tweet_date: 2022-07-04 18:53:51+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/elasticsearch
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Elastic Cloud
+        date: '2015-03-10'
+      - acquiree: Packetbeat
+        date: '2015-05-27'
+      - acquiree: Prelert
+        date: '2016-09-15'
+      - acquiree: Opbeat
+        date: '2017-06-22'
+      - acquiree: Swiftype
+        date: '2017-11-09'
+      - acquiree: Insight.io
+        date: '2018-06-28'
+      - acquiree: Endgame
+        date: '2019-06-05'
+        price: 234000000
+      - acquiree: Perched, LLC.
+        date: '2019-08-21'
+      - acquiree: build.security
+        date: '2021-08-23'
+      - acquiree: Cmd
+        date: '2021-08-25'
+      - acquiree: Optimyze
+        date: '2021-10-14'
+      city: Mountain View
+      company_type: For Profit
+      country: United States
+      description: Elastic builds software to make data usable in real time and at
+        scale for search, logging, security, and analytics use cases.
+      funding: 161999996
+      homepage: https://www.elastic.co
+      industries:
+      - Analytics
+      - Cloud Computing
+      - Open Source
+      - SaaS
+      - Search Engine
+      - Software
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/elastic-co/
+      name: Elastic
+      num_employees_max: 5000
+      num_employees_min: 1001
+      parents: []
+      region: California
+      stockExchange: nyse
+      ticker: ESTC
+      twitter: https://twitter.com/elastic
+    github_data:
+      contributions: 2;4;2;6;5;4;4;6;9;8;4;10;3;4;7;4;4;5;4;1;1;5;9;16;6;19;14;13;3;13;7;11;8;13;1;6;5;8;9;9;20;17;6;11;10;7;14;3;9;13;12;3
+      contributors_count: 564
+      contributors_link: https://github.com/elastic/logstash/graphs/contributors
+      description: Logstash - transport and process your logs, events, or other data
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#701516'
+        name: Ruby
+        value: 2430619
+      - color: '#b07219'
+        name: Java
+        value: 2354075
+      - color: '#e34c26'
+        name: HTML
+        value: 60726
+      - color: '#89e051'
+        name: Shell
+        value: 60101
+      - color: '#3572A5'
+        name: Python
+        value: 17531
+      - color: '#563d7c'
+        name: CSS
+        value: 14421
+      - color: '#427819'
+        name: Makefile
+        value: 10506
+      - color: '#e69f56'
+        name: Groovy
+        value: 10043
+      - color: '#012456'
+        name: PowerShell
+        value: 9805
+      - color: '#C1F12E'
+        name: Batchfile
+        value: 8649
+      - name: Jinja
+        value: 7386
+      - color: '#00ADD8'
+        name: Go
+        value: 6027
+      - color: '#555555'
+        name: C
+        value: 3338
+      - color: '#384d54'
+        name: Dockerfile
+        value: 2621
+      latest_commit_date: '2022-08-04T18:13:30Z'
+      latest_commit_link: /elastic/logstash/commit/5b69f65797d1e12193ac8ce55d5a543d2e0d9e11
+      license: Other
+      release_date: '2022-07-28T14:47:20Z'
+      release_link: https://github.com/elastic/logstash/releases
+      stars: 13005
+    github_start_commit_data:
+      start_commit_link: /elastic/logstash/commit/82fdc11f2e35b52b05f773be52ba3c0e8072c509
+      start_date: '2009-08-05T01:01:23Z'
     homepage_url: https://www.elastic.co/logstash
+    image_data:
+      fileName: logstash.svg
+      hash: 9pDcdtxWOITZsjrt/TaVHkT0qlBAatNIyFdniLRcQ9o=
     item: null
     logo: logstash.svg
     name: Logstash
     repo_url: https://github.com/elastic/logstash
+    repos:
+    - stars: 13005
+      url: https://github.com/elastic/logstash
+    twitter_data:
+      latest_tweet_date: 2022-08-05 16:27:00+00:00
+    yahoo_finance_data:
+      effective_ticker: ESTC
+      market_cap: 8217513472
   Monitoring:
-  - crunchbase: https://www.crunchbase.com/organization/leanix
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/leanix
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Cleanshelf
+        date: '2021-03-24'
+      city: Bonn
+      company_type: For Profit
+      country: Germany
+      description: LeanIX is a Software-as-a-Service (SaaS) company that manages Enterprise
+        Architecture and multi-cloud environments.
+      funding: 119885574
+      homepage: http://www.leanix.net
+      industries:
+      - Collaboration
+      - Enterprise Software
+      - IT Management
+      - SaaS
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/2868882
+      name: LeanIX
+      num_employees_max: 250
+      num_employees_min: 101
+      parents: []
+      region: Nordrhein-Westfalen
+      stockExchange: null
+      twitter: http://twitter.com/leanix_net
     description: "LeanIX Miroservice Intelligence (MI) is a SaaS solution for development\
       \ teams. It automatically discover metadata from your DevOps toolchain and build\
       \ a central microservice catalog to increase developer productivity and ensure\
       \ software reliability.  You\u2019ll always know what\u2019s running where,\
       \ who deployed it, and how it supports your business."
     homepage_url: https://www.leanix.net/en/products/value-stream-management
+    image_data:
+      fileName: lean-ix-microservice-intelligence-mi.svg
+      hash: ImoyiJS6Ua5kjrbEJHpbm01fO1R26UXHxzDWgDTZ/Yc=
     item: null
     logo: leanix.svg
     name: LeanIX Microservice Intelligence (MI)
     repo_url: null
-  - crunchbase: https://www.crunchbase.com/organization/logicmonitor
+    twitter_data:
+      latest_tweet_date: 2022-08-04 12:09:00+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/logicmonitor
+    crunchbase_data:
+      acquisitions:
+      - acquiree: ITculate
+        date: '2018-04-01'
+      - acquiree: Unomaly
+        date: '2020-01-13'
+      - acquiree: Airbrake.io
+        date: '2021-02-23'
+      - acquiree: Dexda
+        date: '2021-06-30'
+      city: Santa Barbara
+      company_type: For Profit
+      country: United States
+      description: LogicMonitor provides IT observability and monitoring for physical,
+        virtual, and cloud-based IT infrastructures.
+      funding: 142949998
+      homepage: http://www.logicmonitor.com
+      industries:
+      - Analytics
+      - Cloud Infrastructure
+      - IT Infrastructure
+      - IT Management
+      - Information Technology
+      - SaaS
+      kind: funding
+      linkedin: https://www.linkedin.com/company/logicmonitor
+      name: LogicMonitor
+      num_employees_max: 5000
+      num_employees_min: 1001
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: http://twitter.com/LogicMonitor
     homepage_url: https://www.logicmonitor.com/
+    image_data:
+      fileName: logic-monitor.svg
+      hash: ZjZYGNu6uDqwy6eMnF2kWglJHait4gIN2aoFBxjtUmk=
     item: null
     logo: logicmonitor.svg
     name: LogicMonitor
     twitter: https://twitter.com/logicmonitor
-  - crunchbase: https://www.crunchbase.com/organization/logz-io
+    twitter_data:
+      latest_tweet_date: 2022-08-05 20:24:02+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/logz-io
+    crunchbase_data:
+      acquisitions: []
+      city: Boston
+      company_type: For Profit
+      country: United States
+      description: Logz.io provides a scalable and intelligent machine data analytics
+        platform built on ELK and Grafana for monitoring modern applications.
+      funding: 121900000
+      homepage: https://logz.io/
+      industries:
+      - Analytics
+      - Artificial Intelligence
+      - Big Data
+      - Enterprise Software
+      - SaaS
+      kind: funding
+      linkedin: https://www.linkedin.com/company/logz-io
+      name: Logz.io
+      num_employees_max: 500
+      num_employees_min: 251
+      parents: []
+      region: Massachusetts
+      stockExchange: null
+      twitter: https://twitter.com/logzio
     homepage_url: https://logz.io/
+    image_data:
+      fileName: logz-io.svg
+      hash: 1QCMdAeDd9XgPviJE/yfmXALIOKY1OnwoNr+XPbVE6c=
     item: null
     logo: logz-io.svg
     name: Logz.io
+    twitter_data:
+      latest_tweet_date: 2022-08-05 14:00:30+00:00
   Tracing:
-  - crunchbase: https://www.crunchbase.com/organization/lightstep
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/lightstep
+    crunchbase_data:
+      acquisitions: []
+      city: San Francisco
+      company_type: For Profit
+      country: United States
+      description: "LightStep's mission is to deliver confidence at scale for those\
+        \ who develop, operate, and rely upon today\u2019s powerful software applications."
+      funding: 70000000
+      homepage: https://lightstep.com/
+      industries:
+      - Application Performance Management
+      - Internet
+      - Software
+      - Software Engineering
+      kind: funding
+      linkedin: https://www.linkedin.com/company/7595344/
+      name: LightStep
+      num_employees_max: 250
+      num_employees_min: 101
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: https://www.twitter.com/lightstephq
     homepage_url: https://lightstep.com/
+    image_data:
+      fileName: light-step.svg
+      hash: l1BrGRiNW9X8OB3ovDduXjBKLOpdjz35QGRUUMC61ao=
     item: null
     logo: lightstep.svg
     name: LightStep
+    twitter_data:
+      latest_tweet_date: 2022-08-04 16:42:38+00:00
 Orchestration & Management:
   API Gateway: []
   Coordination & Service Discovery: []
   Remote Procedure Call: []
   Scheduling & Orchestration: []
   Service Mesh:
-  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  - best_practice_data:
+      badge: 4629
+      percentage: 100
+    crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Kubernetes
+        date: '2016-03-10'
+      - acquiree: RethinkDB
+        date: '2017-02-06'
+        price: 25000
+      city: San Francisco
+      company_type: Non Profit
+      country: United States
+      description: CNCF is an open source software foundation that hosts and nurtures
+        projects like Kubernetes and Prometheus.
+      funding: 3000000
+      homepage: https://www.cncf.io
+      industries:
+      - Cloud Computing
+      - Cloud Infrastructure
+      - Non Profit
+      - Open Source
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+      name: Cloud Native Computing Foundation (CNCF)
+      num_employees_max: 50
+      num_employees_min: 11
+      parents:
+      - https://www.crunchbase.com/organization/linux-foundation
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/CloudNativeFdn
     extra:
       accepted: '2017-01-23'
       artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#linkerd-logos
@@ -219,130 +1638,1398 @@ Orchestration & Management:
       slack_url: https://slack.linkerd.io/
       stack_overflow_url: https://stackoverflow.com/questions/tagged/linkerd
       youtube_url: https://www.youtube.com/watch?v=wBgBwNZo_EE&list=PLI9FkLPXDscDB0gevkhEnyfgIfWF5yk4V
+    github_data:
+      contributions: 27;28;30;24;37;31;35;14;39;13;29;18;31;27;29;18;28;38;14;34;8;25;25;27;44;34;50;42;24;23;25;32;32;32;26;22;30;36;46;23;27;34;26;26;23;37;30;25;40;34;50;25
+      contributors_count: 265
+      contributors_link: https://github.com/linkerd/linkerd2/graphs/contributors
+      description: Ultralight, security-first service mesh for Kubernetes. Main repo
+        for Linkerd 2.x.
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#00ADD8'
+        name: Go
+        value: 2364681
+      - color: '#f1e05a'
+        name: JavaScript
+        value: 435410
+      - color: '#dea584'
+        name: Rust
+        value: 359444
+      - color: '#89e051'
+        name: Shell
+        value: 93225
+      - color: '#384d54'
+        name: Dockerfile
+        value: 24726
+      - name: Smarty
+        value: 16376
+      - color: '#427819'
+        name: Makefile
+        value: 15092
+      - color: '#563d7c'
+        name: CSS
+        value: 6471
+      - color: '#e34c26'
+        name: HTML
+        value: 1212
+      - color: '#012456'
+        name: PowerShell
+        value: 804
+      - name: Mustache
+        value: 436
+      - color: '#C1F12E'
+        name: Batchfile
+        value: 417
+      - name: jq
+        value: 332
+      latest_commit_date: '2022-08-06T00:12:34Z'
+      latest_commit_link: /linkerd/linkerd2/commit/a3b08a115a6fbaa0dc03958eb23d99e7c712365b
+      license: Apache License 2.0
+      release_date: '2022-08-05T22:25:26Z'
+      release_link: https://github.com/linkerd/linkerd2/releases
+      stars: 8696
+    github_start_commit_data:
+      start_commit_link: /linkerd/linkerd2/commit/b104bd0676091740b48ca7490596a7cd12327284
+      start_date: '2017-12-05T00:17:02Z'
     homepage_url: https://linkerd.io/
+    image_data:
+      fileName: linkerd.svg
+      hash: zYA8IOYladg+dVC2mOP2/ibdOD3PG1j8UbTXSFkW9cE=
     item: null
     logo: linkerd.svg
     name: Linkerd
     project: graduated
     repo_url: https://github.com/linkerd/linkerd2
+    repos:
+    - stars: 8696
+      url: https://github.com/linkerd/linkerd2
     twitter: https://twitter.com/linkerd
+    twitter_data:
+      latest_tweet_date: 2022-08-04 15:47:11+00:00
   Service Proxy: []
 Platform:
   Certified Kubernetes - Distribution: []
   Certified Kubernetes - Hosted:
-  - crunchbase: https://www.crunchbase.com/organization/linode
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/linode
+    crunchbase_data:
+      acquisitions: []
+      city: Philadelphia
+      company_type: For Profit
+      country: United States
+      description: Linode is a cloud hosting company offering customers access to
+        Linux virtual servers on high speed internet connections.
+      homepage: http://www.linode.com
+      industries:
+      - Cloud Computing
+      - Cloud Infrastructure
+      - IaaS
+      - Information Technology
+      - Web Hosting
+      linkedin: https://www.linkedin.com/company/linode
+      name: Linode
+      num_employees_max: 250
+      num_employees_min: 101
+      parents: []
+      region: Pennsylvania
+      stockExchange: null
+      twitter: http://twitter.com/linode
     description: Linode Kubernetes Engine is a fast and simple way to deploy, scale,
       and manage Kubernetes clusters running on Linode's global infrastructure.
     homepage_url: https://www.linode.com/products/kubernetes/
+    image_data:
+      fileName: linode-kubernetes-engine.svg
+      hash: R8GuFN98tRkw9ohzJ0dkLg5E/4RCnzLC2WCLQ01NRm8=
     item: null
     logo: linode.svg
     name: Linode Kubernetes Engine
+    twitter_data:
+      latest_tweet_date: 2022-08-05 21:30:02+00:00
   Certified Kubernetes - Installer: []
   PaaS/Container Service: []
 Provisioning:
   Automation & Configuration:
-  - crunchbase: https://www.crunchbase.com/organization/docker
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/docker
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Orchard
+        date: '2014-07-23'
+      - acquiree: Koality
+        date: '2014-10-07'
+      - acquiree: SocketPlane
+        date: '2015-03-04'
+      - acquiree: Kitematic
+        date: '2015-03-12'
+      - acquiree: Tutum
+        date: '2015-10-21'
+      - acquiree: Unikernel Systems
+        date: '2016-01-21'
+      - acquiree: Conductant
+        date: '2016-03-03'
+      - acquiree: Infinit
+        date: '2016-12-06'
+      - acquiree: Nestybox
+        date: '2022-05-10'
+      city: Palo Alto
+      company_type: For Profit
+      country: United States
+      description: "Docker\u2019s platform helps millions of developers efficiently\
+        \ and collaboratively build, share, and run applications."
+      funding: 435855439
+      homepage: https://www.docker.com
+      industries:
+      - Developer Platform
+      - Developer Tools
+      - Information Technology
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/docker
+      name: Docker
+      num_employees_max: 250
+      num_employees_min: 101
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/docker
+    github_data:
+      contributions: 5;1;0;0;0;0;0;1;0;7;20;11;10;11;1;1;3;2;6;4;3;1;6;9;0;2;0;0;0;3;8;3;5;0;0;1;1;0;0;1;0;5;6;8;1;1;6;1;5;11;5;0
+      contributors_count: 170
+      contributors_link: https://github.com/linuxkit/linuxkit/graphs/contributors
+      description: A toolkit for building secure, portable and lean operating systems
+        for containers
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#00ADD8'
+        name: Go
+        value: 571460
+      - color: '#89e051'
+        name: Shell
+        value: 178288
+      - color: '#384d54'
+        name: Dockerfile
+        value: 79310
+      - color: '#3be133'
+        name: OCaml
+        value: 69432
+      - color: '#427819'
+        name: Makefile
+        value: 47321
+      - color: '#555555'
+        name: C
+        value: 33724
+      - color: '#3572A5'
+        name: Python
+        value: 6363
+      - name: Cap'n Proto
+        value: 2365
+      - color: '#e34c26'
+        name: HTML
+        value: 188
+      - color: '#dc566d'
+        name: Standard ML
+        value: 37
+      latest_commit_date: '2022-07-28T07:46:13Z'
+      latest_commit_link: /linuxkit/linuxkit/commit/239d4d95022c8d3174e8ff87584cfb7ae31b1efd
+      license: Apache License 2.0
+      release_date: '2020-07-26T10:28:37Z'
+      release_link: https://github.com/linuxkit/linuxkit/releases
+      stars: 7470
+    github_start_commit_data:
+      start_commit_link: /linuxkit/linuxkit/commit/0fa1e68dc65c5f484ce9c2851b5efa2c8617d4f9
+      start_date: '2015-11-26T15:17:40Z'
     homepage_url: https://github.com/linuxkit/linuxkit
+    image_data:
+      fileName: linux-kit.svg
+      hash: 16we6gHzZ7LXHFzziD5J1dGODBzRGmDNXtNu8kJqN4o=
     item: null
     logo: linux-kit.svg
     name: LinuxKit
     repo_url: https://github.com/linuxkit/linuxkit
+    repos:
+    - stars: 7470
+      url: https://github.com/linuxkit/linuxkit
     twitter: https://twitter.com/moby
+    twitter_data:
+      latest_tweet_date: 2019-02-12 18:10:37+00:00
   Container Registry: []
   Key Management: []
   Security & Compliance: []
 Runtime:
   Cloud Native Network:
-  - crunchbase: https://www.crunchbase.com/organization/cisco
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/cisco
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Crescendo Communications
+        date: '1993-09-24'
+      - acquiree: Newport Systems Solutions
+        date: '1994-07-12'
+        price: 90800000
+      - acquiree: Kalpana
+        date: '1994-10-24'
+      - acquiree: LightStream Corporation
+        date: '1994-12-08'
+        price: 120000000
+      - acquiree: Combinet
+        date: '1995-08-10'
+      - acquiree: Internet Junction
+        date: '1995-09-06'
+      - acquiree: Grand Junction Networks
+        date: '1995-09-28'
+        price: 348000000
+      - acquiree: Network Translation
+        date: '1995-10-27'
+      - acquiree: TGV Software
+        date: '1996-01-23'
+        price: 115000000
+      - acquiree: Granite Systems
+        date: '1996-04-09'
+      - acquiree: StrataCom
+        date: '1996-04-22'
+        price: 4000000000
+      - acquiree: Telebit
+        date: '1996-07-23'
+        price: 200000000
+      - acquiree: Nashoba Networks
+        date: '1996-08-06'
+        price: 100000000
+      - acquiree: NetSys Technologies
+        date: '1996-10-14'
+        price: 79000000
+      - acquiree: Metaplex
+        date: '1996-11-22'
+      - acquiree: Telesend
+        date: '1997-03-27'
+      - acquiree: Skystone Systems
+        date: '1997-06-09'
+        price: 89000000
+      - acquiree: Ardent Communications
+        date: '1997-06-24'
+        price: 156000000
+      - acquiree: Global Internet Software Group
+        date: '1997-06-24'
+        price: 40250000
+      - acquiree: DAGAZ Technologies
+        date: '1997-07-29'
+        price: 126000000
+      - acquiree: LightSpeed International
+        date: '1997-12-22'
+        price: 160000000
+      - acquiree: WheelGroup
+        date: '1998-02-18'
+        price: 124000000
+      - acquiree: NetSpeed
+        date: '1998-03-10'
+        price: 236000000
+      - acquiree: Precept Software
+        date: '1998-03-11'
+        price: 84000000
+      - acquiree: CLASS Data Systems
+        date: '1998-05-04'
+        price: 50000000
+      - acquiree: Summa Four
+        date: '1998-07-28'
+        price: 116000000
+      - acquiree: American Internet Corporation
+        date: '1998-08-21'
+        price: 56000000
+      - acquiree: Clarity Wireless
+        date: '1998-09-15'
+        price: 157000000
+      - acquiree: PipeLinks
+        date: '1998-12-02'
+        price: 126000000
+      - acquiree: Selsius Systems
+        date: '1999-02-24'
+        price: 145000000
+      - acquiree: Fibex Systems
+        date: '1999-04-08'
+        price: 320000000
+      - acquiree: Sentient Networks
+        date: '1999-04-08'
+        price: 125000000
+      - acquiree: GeoTel Communications
+        date: '1999-04-13'
+        price: 2000000000
+      - acquiree: GeoTel Communications
+        date: '1999-04-13'
+        price: 200000000
+      - acquiree: Amteva Technologies
+        date: '1999-04-28'
+        price: 170000000
+      - acquiree: TransMedia Communications
+        date: '1999-06-17'
+        price: 407000000
+      - acquiree: StratumOne Communications
+        date: '1999-06-29'
+        price: 435000000
+      - acquiree: CALISTA
+        date: '1999-08-16'
+        price: 55000000
+      - acquiree: Maxcomm Technologies
+        date: '1999-08-18'
+        price: 143000000
+      - acquiree: Cerent
+        date: '1999-08-26'
+        price: 6900000000
+      - acquiree: MONTEREY NETWORKS
+        date: '1999-08-26'
+        price: 500000000
+      - acquiree: Cocom
+        date: '1999-09-15'
+        price: 65599999
+      - acquiree: WebLine Communications
+        date: '1999-09-22'
+        price: 325000000
+      - acquiree: Tasmania Network Systems
+        date: '1999-10-26'
+        price: 25000000
+      - acquiree: Aironet Wireless Communications
+        date: '1999-11-09'
+        price: 799000000
+      - acquiree: V-Bits
+        date: '1999-11-11'
+        price: 128000000
+      - acquiree: Worldwide Data Systems
+        date: '1999-12-16'
+      - acquiree: Internet Engineering Group
+        date: '1999-12-17'
+        price: 25000000
+      - acquiree: Pirelli Optical Systems
+        date: '1999-12-20'
+        price: 2000000000
+      - acquiree: Altiga Networks
+        date: '2000-01-19'
+      - acquiree: Compatible Systems
+        date: '2000-01-20'
+      - acquiree: Growth Networks
+        date: '2000-02-16'
+        price: 355000000
+      - acquiree: Atlantech Technologies
+        date: '2000-03-01'
+        price: 180000000
+      - acquiree: JetCell
+        date: '2000-03-16'
+        price: 200000000
+      - acquiree: InfoGear Technology
+        date: '2000-03-17'
+        price: 301000000
+      - acquiree: SightPath
+        date: '2000-03-19'
+        price: 800000000
+      - acquiree: Pentacom
+        date: '2000-04-11'
+        price: 118000000
+      - acquiree: Seagull Semiconductor
+        date: '2000-04-12'
+      - acquiree: ArrowPoint Communications
+        date: '2000-05-05'
+        price: 5700000000
+      - acquiree: Qeyton Systems
+        date: '2000-05-12'
+        price: 800000000
+      - acquiree: HyNEX
+        date: '2000-06-05'
+        price: 127000000
+      - acquiree: Netiverse
+        date: '2000-07-07'
+        price: 210000000
+      - acquiree: Komodo Technology
+        date: '2000-07-25'
+        price: 175000000
+      - acquiree: NuSpeed Internet Systems
+        date: '2000-07-27'
+        price: 450000000
+      - acquiree: IPmobile
+        date: '2000-08-01'
+        price: 425000000
+      - acquiree: PixStream
+        date: '2000-08-31'
+        price: 369000000
+      - acquiree: IPCell Technologies
+        date: '2000-09-28'
+        price: 369000000
+      - acquiree: Vovida Networks
+        date: '2000-09-28'
+        price: 369000000
+      - acquiree: CAIS Software Solutions
+        date: '2000-10-20'
+        price: 170000000
+      - acquiree: Active Voice Corporation
+        date: '2000-11-10'
+        price: 300000000
+      - acquiree: Radiata
+        date: '2000-11-13'
+        price: 295000000
+      - acquiree: ExiO Communications
+        date: '2000-12-14'
+      - acquiree: AuroraNetics
+        date: '2001-07-16'
+        price: 150000000
+      - acquiree: Allegro Systems
+        date: '2001-07-27'
+        price: 181000000
+      - acquiree: Hammerhead Networks
+        date: '2002-05-01'
+        price: 173000000
+      - acquiree: Navarro Networks
+        date: '2002-05-01'
+        price: 85000000
+      - acquiree: AYR Networks
+        date: '2002-07-25'
+      - acquiree: Andiamo Systems
+        date: '2002-08-20'
+      - acquiree: Psionic Software
+        date: '2002-10-22'
+        price: 12000000
+      - acquiree: Okena
+        date: '2003-01-24'
+        price: 154000000
+      - acquiree: SignalWorks
+        date: '2003-03-19'
+        price: 13500000
+      - acquiree: The Linksys Group
+        date: '2003-03-20'
+        price: 500000000
+      - acquiree: Latitude Communications
+        date: '2003-11-12'
+        price: 80000000
+      - acquiree: Twingo Systems
+        date: '2004-03-12'
+      - acquiree: Riverhead Networks
+        date: '2004-03-23'
+        price: 39000000
+      - acquiree: Procket Networks
+        date: '2004-06-18'
+        price: 89000000
+      - acquiree: Actona Technologies
+        date: '2004-06-29'
+        price: 82000000
+      - acquiree: Parc Technologies
+        date: '2004-07-08'
+        price: 9000000
+      - acquiree: P-Cube
+        date: '2004-08-23'
+        price: 200000000
+      - acquiree: NetSolve
+        date: '2004-09-09'
+      - acquiree: DynamicSoft
+        date: '2004-09-13'
+        price: 55000000
+      - acquiree: Perfigo
+        date: '2004-10-21'
+        price: 74000000
+      - acquiree: Jahi Networks
+        date: '2004-11-17'
+      - acquiree: BCN Systems
+        date: '2004-12-09'
+        price: 34000000
+      - acquiree: Protego Networks
+        date: '2004-12-20'
+        price: 65000000
+      - acquiree: Airespace
+        date: '2005-03-23'
+        price: 450000000
+      - acquiree: Topspin Communications
+        date: '2005-04-14'
+        price: 250000000
+      - acquiree: Sipura Technology
+        date: '2005-04-26'
+        price: 68000000
+      - acquiree: Vihana
+        date: '2005-05-23'
+      - acquiree: FineGround Networks
+        date: '2005-05-26'
+      - acquiree: M. I. Secure Corporation
+        date: '2005-06-14'
+      - acquiree: NetSift
+        date: '2005-06-27'
+        price: 30000000
+      - acquiree: KiSS Technology
+        date: '2005-07-22'
+        price: 61000000
+      - acquiree: Sheer Networks
+        date: '2005-07-26'
+      - acquiree: Nemo Systems
+        date: '2005-09-30'
+      - acquiree: Scientific Atlanta
+        date: '2005-11-18'
+        price: 6900000000
+      - acquiree: Intellishield Alert Manager
+        date: '2005-11-29'
+      - acquiree: Sypixx Networks
+        date: '2006-03-07'
+        price: 51000000
+      - acquiree: Audium
+        date: '2006-06-08'
+      - acquiree: Metreos Corporation
+        date: '2006-06-28'
+        price: 28000000
+      - acquiree: Meetinghouse Data Communications
+        date: '2006-07-06'
+        price: 43700000
+      - acquiree: Arroyo Video Solutions
+        date: '2006-08-21'
+      - acquiree: Ashley Laurent
+        date: '2006-10-10'
+      - acquiree: Orative Corporation
+        date: '2006-10-25'
+      - acquiree: Greenfield Networks
+        date: '2006-11-13'
+      - acquiree: Tivella
+        date: '2006-12-15'
+      - acquiree: Qovia
+        date: '2007-01-01'
+      - acquiree: IronPort Systems
+        date: '2007-01-04'
+        price: 830000000
+      - acquiree: FiveAcross
+        date: '2007-02-08'
+      - acquiree: Reactivity
+        date: '2007-02-21'
+        price: 135000000
+      - acquiree: Tribe
+        date: '2007-03-02'
+      - acquiree: NeoPath Networks
+        date: '2007-03-13'
+      - acquiree: Webex
+        date: '2007-03-15'
+        price: 3200000000
+      - acquiree: Spans Logic
+        date: '2007-03-28'
+      - acquiree: BroadWare Technologies
+        date: '2007-05-22'
+      - acquiree: Cognio
+        date: '2007-09-18'
+      - acquiree: Latigent
+        date: '2007-09-27'
+      - acquiree: Navini Networks
+        date: '2007-10-23'
+        price: 330000000
+      - acquiree: Securent
+        date: '2007-11-01'
+      - acquiree: Fast Data Technology
+        date: '2008-05-01'
+      - acquiree: Nuova Systems
+        date: '2008-05-01'
+      - acquiree: DiviTech A/S
+        date: '2008-06-10'
+      - acquiree: Pure Networks
+        date: '2008-07-22'
+        price: 120000000
+      - acquiree: PostPath
+        date: '2008-08-27'
+        price: 215000000
+      - acquiree: Jabber
+        date: '2008-09-19'
+      - acquiree: Richards-Zeta Building Intelligence
+        date: '2009-01-27'
+      - acquiree: Pure Digital Technologies
+        date: '2009-03-19'
+        price: 590000000
+      - acquiree: Tidal Software
+        date: '2009-05-20'
+        price: 105000000
+      - acquiree: Tandberg
+        date: '2009-10-01'
+        price: 3400000000
+      - acquiree: ScanSafe
+        date: '2009-10-27'
+        price: 183000000
+      - acquiree: DVN - set-top box business
+        date: '2009-11-02'
+        price: 44500000
+      - acquiree: Starent Networks
+        date: '2009-12-18'
+        price: 2900000000
+      - acquiree: Rohati Systems
+        date: '2010-01-05'
+      - acquiree: MOTO Development Group
+        date: '2010-05-18'
+      - acquiree: CoreOptics
+        date: '2010-05-20'
+        price: 99000000
+      - acquiree: ExtendMedia
+        date: '2010-08-26'
+        price: 80000000
+      - acquiree: Arch Rock Corporation
+        date: '2010-09-20'
+      - acquiree: LineSider Technologies
+        date: '2010-12-13'
+      - acquiree: Inlet Technologies
+        date: '2011-02-04'
+      - acquiree: Pari Networks
+        date: '2011-03-02'
+      - acquiree: newScale
+        date: '2011-03-29'
+      - acquiree: Axioss
+        date: '2011-08-22'
+      - acquiree: AXIOM Systems
+        date: '2011-08-25'
+        price: 31000000
+      - acquiree: Versly
+        date: '2011-08-29'
+      - acquiree: BNI Video
+        date: '2011-10-20'
+        price: 99000000
+      - acquiree: Lightwire
+        date: '2012-02-24'
+        price: 271000000
+      - acquiree: NDS
+        date: '2012-03-15'
+      - acquiree: NDS Group
+        date: '2012-03-15'
+        price: 5019096092
+      - acquiree: ClearAccess
+        date: '2012-03-29'
+      - acquiree: Truviso
+        date: '2012-05-04'
+      - acquiree: Virtuata
+        date: '2012-07-16'
+      - acquiree: ThinkSmart Technologies
+        date: '2012-09-26'
+      - acquiree: vCider
+        date: '2012-10-04'
+      - acquiree: Cloupia
+        date: '2012-11-15'
+        price: 125000000
+      - acquiree: Meraki
+        date: '2012-11-20'
+        price: 1200000000
+      - acquiree: Cariden Technologies
+        date: '2012-11-29'
+        price: 141000000
+      - acquiree: BroadHop
+        date: '2012-12-18'
+      - acquiree: Intucell
+        date: '2013-01-23'
+        price: 475000000
+      - acquiree: Cognitive Security
+        date: '2013-01-29'
+      - acquiree: SolveDirect Service Management
+        date: '2013-03-25'
+      - acquiree: Ubiquisys
+        date: '2013-04-03'
+        price: 310000000
+      - acquiree: JouleX
+        date: '2013-05-29'
+        price: 107000000
+      - acquiree: Composite Software
+        date: '2013-06-20'
+        price: 180000000
+      - acquiree: Sourcefire
+        date: '2013-07-23'
+        price: 2700000000
+      - acquiree: WhipTail
+        date: '2013-09-11'
+        price: 415000000
+      - acquiree: Pioneer SourceFire
+        date: '2013-10-07'
+      - acquiree: Insieme
+        date: '2013-11-06'
+      - acquiree: Collaborate.com
+        date: '2013-12-17'
+      - acquiree: ThreatGRID
+        date: '2014-05-21'
+      - acquiree: Tail-f Systems
+        date: '2014-06-17'
+        price: 175000000
+      - acquiree: Assemblage
+        date: '2014-07-27'
+      - acquiree: Metacloud
+        date: '2014-09-17'
+      - acquiree: Memoir Systems
+        date: '2014-09-18'
+      - acquiree: Neohapsis
+        date: '2014-12-10'
+      - acquiree: Embrane
+        date: '2015-04-01'
+      - acquiree: Tropo
+        date: '2015-05-29'
+      - acquiree: Piston Cloud Computing
+        date: '2015-06-12'
+      - acquiree: OpenDNS
+        date: '2015-06-30'
+        price: 635000000
+      - acquiree: MaintenanceNet
+        date: '2015-07-07'
+        price: 139000000
+      - acquiree: Portcullis
+        date: '2015-10-01'
+      - acquiree: Pawaa Software
+        date: '2015-10-12'
+      - acquiree: ParStream
+        date: '2015-10-26'
+      - acquiree: Lancope
+        date: '2015-10-27'
+        price: 452500000
+      - acquiree: 1 Mainstream
+        date: '2015-10-28'
+      - acquiree: Acano
+        date: '2015-11-20'
+        price: 700000000
+      - acquiree: Jasper Technologies
+        date: '2016-02-03'
+        price: 1400000000
+      - acquiree: CliQr Technologies
+        date: '2016-03-01'
+        price: 260000000
+      - acquiree: Leaba Semiconductor
+        date: '2016-03-02'
+        price: 320000000
+      - acquiree: Synata
+        date: '2016-03-08'
+      - acquiree: CloudLock
+        date: '2016-06-28'
+        price: 293000000
+      - acquiree: ContainerX
+        date: '2016-08-30'
+      - acquiree: Worklife
+        date: '2016-10-17'
+      - acquiree: AppDynamics
+        date: '2017-01-24'
+        price: 3700000000
+      - acquiree: Viptela
+        date: '2017-05-01'
+        price: 610000000
+      - acquiree: MindMeld
+        date: '2017-05-11'
+        price: 125000000
+      - acquiree: Observable Networks
+        date: '2017-07-13'
+      - acquiree: Springpath
+        date: '2017-08-23'
+        price: 320000000
+      - acquiree: Perspica
+        date: '2017-10-19'
+      - acquiree: BroadSoft
+        date: '2017-10-23'
+        price: 1900000000
+      - acquiree: Cmpute.io
+        date: '2017-12-07'
+      - acquiree: Skyport Systems
+        date: '2018-01-24'
+      - acquiree: Accompany
+        date: '2018-05-01'
+        price: 270000000
+      - acquiree: July Systems
+        date: '2018-06-19'
+      - acquiree: Duo Security
+        date: '2018-08-02'
+        price: 2350000000
+      - acquiree: Ensoft Ltd.
+        date: '2018-11-21'
+      - acquiree: Luxtera
+        date: '2018-12-18'
+        price: 660000000
+      - acquiree: Singularity Networks
+        date: '2019-01-30'
+      - acquiree: Sentryo
+        date: '2019-06-06'
+      - acquiree: Acacia
+        date: '2019-07-09'
+        price: 4500000000
+      - acquiree: Voicea
+        date: '2019-08-07'
+      - acquiree: CloudCherry
+        date: '2019-08-26'
+      - acquiree: Wrappup
+        date: '2019-09-12'
+      - acquiree: Exablaze
+        date: '2019-12-16'
+      - acquiree: Fluidmesh Networks
+        date: '2020-04-06'
+      - acquiree: ThousandEyes
+        date: '2020-05-28'
+        price: 1000000000
+      - acquiree: Modcam
+        date: '2020-07-31'
+      - acquiree: BabbleLabs
+        date: '2020-08-25'
+      - acquiree: Portshift
+        date: '2020-10-01'
+      - acquiree: Banzai Cloud
+        date: '2020-11-16'
+      - acquiree: IMImobile
+        date: '2020-12-07'
+        price: 725222241
+      - acquiree: Slido
+        date: '2020-12-07'
+      - acquiree: Dashbase
+        date: '2020-12-22'
+      - acquiree: Sedona Systems
+        date: '2021-05-11'
+        price: 100000000
+      - acquiree: Socio
+        date: '2021-05-12'
+      - acquiree: Kenna Security
+        date: '2021-05-14'
+      - acquiree: Epsagon
+        date: '2021-08-13'
+        price: 500000000
+      - acquiree: Replex
+        date: '2021-10-25'
+      city: San Jose
+      company_type: For Profit
+      country: United States
+      description: Cisco develops, manufactures, and sells networking hardware, telecommunications
+        equipment, and other technology services and products.
+      funding: 2500000
+      homepage: http://www.cisco.com
+      industries:
+      - Communications Infrastructure
+      - Enterprise Software
+      - Hardware
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/cisco
+      name: Cisco
+      num_employees_max: 1000000
+      num_employees_min: 10001
+      parents: []
+      region: California
+      stockExchange: nasdaq
+      ticker: CSCO
+      twitter: https://twitter.com/cisco
+    github_data:
+      contributions: 0;1;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;1;0;0;0;0;3;0;3;0;1;0;0;0;0;0;0;0;0;1;0;0;0;0;0;2;2;0;1;1;0;0;2;2;0;1
+      contributors_count: 59
+      contributors_link: https://github.com/ligato/vpp-agent/graphs/contributors
+      description: "\u26A1\uFE0F Control plane management agent for FD.io's VPP"
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#00ADD8'
+        name: Go
+        value: 5505267
+      - name: RobotFramework
+        value: 1029018
+      - color: '#3572A5'
+        name: Python
+        value: 103503
+      - color: '#89e051'
+        name: Shell
+        value: 68018
+      - color: '#427819'
+        name: Makefile
+        value: 16138
+      - color: '#384d54'
+        name: Dockerfile
+        value: 5247
+      latest_commit_date: '2022-08-05T12:01:19Z'
+      latest_commit_link: /ligato/vpp-agent/commit/dfd9a377c7417331a920f076dcc3a99c5397751d
+      license: Apache License 2.0
+      release_date: '2022-02-15T08:51:10Z'
+      release_link: https://github.com/ligato/vpp-agent/releases
+      stars: 187
+    github_start_commit_data:
+      start_commit_link: /ligato/vpp-agent/commit/84419acfef6357411c1b58731a3163a0bc89ef53
+      start_date: '2017-07-14T11:45:39Z'
     homepage_url: https://ligato.io/
+    image_data:
+      fileName: ligato.svg
+      hash: gYXO6KXDQd4dQgYsOyslCZTFcYjj1rg+nWQOs48ZRmo=
     item: null
     logo: ligato.svg
     name: Ligato
     repo_url: https://github.com/ligato/vpp-agent
+    repos:
+    - stars: 187
+      url: https://github.com/ligato/vpp-agent
+    twitter_data:
+      latest_tweet_date: 2022-08-05 20:06:32+00:00
+    yahoo_finance_data:
+      effective_ticker: CSCO
+      market_cap: 187740307456
   Cloud Native Storage:
-  - crunchbase: https://www.crunchbase.com/organization/linbit
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/linbit
+    crunchbase_data:
+      acquisitions: []
+      city: Beaverton
+      company_type: For Profit
+      country: United States
+      description: LINBIT is an open source partner for block storage.
+      homepage: http://www.linbit.com
+      industries:
+      - Cloud Computing
+      - Cloud Data Services
+      - Data Storage
+      - Flash Storage
+      - Information Technology
+      - Linux
+      - Open Source
+      - Software
+      linkedin: https://www.linkedin.com/company/2773681
+      name: LINBIT
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: Oregon
+      stockExchange: null
+      twitter: http://twitter.com/LINBIT
     description: High Performance Software-Defined Block Storage for container, cloud
       and virtualisation. Fully integrated with Docker, Kubernetes, Openstack, Proxmox
       etc.
+    github_data:
+      contributions: 9;17;26;20;9;11;17;23;18;11;10;7;7;18;8;11;16;7;9;2;2;1;10;9;11;13;1;10;8;23;10;9;11;7;6;5;8;5;5;6;4;19;8;9;6;5;3;5;5;7;4;0
+      contributors_count: 16
+      contributors_link: https://github.com/LINBIT/linstor-server/graphs/contributors
+      description: High Performance Software-Defined Block Storage for container,
+        cloud and virtualisation. Fully integrated with Docker, Kubernetes, Openstack,
+        Proxmox etc.
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#b07219'
+        name: Java
+        value: 11793594
+      - color: '#3572A5'
+        name: Python
+        value: 16012
+      - color: '#555555'
+        name: C
+        value: 11730
+      - color: '#427819'
+        name: Makefile
+        value: 7211
+      - color: '#89e051'
+        name: Shell
+        value: 3003
+      latest_commit_date: '2022-07-27T06:36:11Z'
+      latest_commit_link: /LINBIT/linstor-server/commit/a758bf07796c374fd2004465b0d8690209b74356
+      license: GNU General Public License v3.0
+      release_date: '2022-07-27T07:51:20Z'
+      release_link: https://github.com/LINBIT/linstor-server/releases
+      stars: 571
+    github_start_commit_data:
+      start_commit_link: /LINBIT/linstor-server/commit/8cc4c51d910d47b375912e38e4e6342c026b0618
+      start_date: '2016-11-02T14:55:53Z'
     homepage_url: https://www.linbit.com/linstor/
+    image_data:
+      fileName: linstor.svg
+      hash: E9bG8LC+ZHCAM38yrHtaJsqTEHNPlcR+hTjQiVkMW1U=
     item: null
     logo: linstor.svg
     name: LINSTOR
     repo_url: https://github.com/LINBIT/linstor-server
+    repos:
+    - stars: 571
+      url: https://github.com/LINBIT/linstor-server
     twitter: https://twitter.com/linbit
-  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    twitter_data:
+      latest_tweet_date: 2022-08-05 15:07:00+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Kubernetes
+        date: '2016-03-10'
+      - acquiree: RethinkDB
+        date: '2017-02-06'
+        price: 25000
+      city: San Francisco
+      company_type: Non Profit
+      country: United States
+      description: CNCF is an open source software foundation that hosts and nurtures
+        projects like Kubernetes and Prometheus.
+      funding: 3000000
+      homepage: https://www.cncf.io
+      industries:
+      - Cloud Computing
+      - Cloud Infrastructure
+      - Non Profit
+      - Open Source
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+      name: Cloud Native Computing Foundation (CNCF)
+      num_employees_max: 50
+      num_employees_min: 11
+      parents:
+      - https://www.crunchbase.com/organization/linux-foundation
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/CloudNativeFdn
     extra:
       accepted: '2019-10-11'
       artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#longhorn-logos
       dev_stats_url: https://longhorn.devstats.cncf.io/
+    github_data:
+      contributions: 2;6;8;11;2;6;2;0;7;1;2;1;1;1;8;3;3;2;4;1;0;4;3;1;0;0;2;1;4;7;5;5;3;3;1;1;4;2;5;5;12;5;6;6;7;1;0;0;2;7;2;4
+      contributors_count: 75
+      contributors_link: https://github.com/longhorn/longhorn/graphs/contributors
+      description: Cloud-Native distributed storage built on and for Kubernetes
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#89e051'
+        name: Shell
+        value: 28100
+      - color: '#3572A5'
+        name: Python
+        value: 3735
+      - name: Mustache
+        value: 1998
+      latest_commit_date: '2022-08-02T07:41:33Z'
+      latest_commit_link: /longhorn/longhorn/commit/95ef30ba7203648d975235ac598ed775a0dbbb48
+      license: Apache License 2.0
+      release_date: '2022-07-29T08:28:21Z'
+      release_link: https://github.com/longhorn/longhorn/releases
+      stars: 3986
+    github_start_commit_data:
+      start_commit_link: /longhorn/longhorn/commit/507e62ecd7a82cb279831c03703f351481b9a13a
+      start_date: '2017-04-14T19:57:02Z'
     homepage_url: https://longhorn.io/
+    image_data:
+      fileName: longhorn.svg
+      hash: rloYDZ+a1XIGD5Dg+xFzwEmXrqw3UOLHaIh6XoZzmDA=
     item: null
     logo: longhorn.svg
     name: Longhorn
     project: incubating
     repo_url: https://github.com/longhorn/longhorn
+    repos:
+    - stars: 3986
+      url: https://github.com/longhorn/longhorn
+    twitter_data:
+      latest_tweet_date: 2022-08-05 21:09:37+00:00
   Container Runtime: []
 Serverless:
   Framework:
-  - crunchbase: https://www.crunchbase.com/organization/ant-financial
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/ant-financial
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Mayijijin
+        date: '2015-04-24'
+        price: 32215911
+      - acquiree: EyeVerify
+        date: '2016-09-13'
+      - acquiree: helloPay
+        date: '2017-04-19'
+      - acquiree: riskstorm
+        date: '2018-04-25'
+        price: 7902723
+      - acquiree: WorldFirst
+        date: '2019-02-14'
+        price: 700000000
+      - acquiree: 2C2P
+        date: '2022-04-18'
+      city: Hangzhou
+      company_type: For Profit
+      country: China
+      description: Ant Group strives to enable all consumers and small businesses
+        to have equal access to financial and other services through technology.
+      funding: 22000000000
+      homepage: https://www.antgroup.com
+      industries:
+      - Banking
+      - FinTech
+      - Financial Services
+      - Payments
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/antgroup
+      name: Ant Group
+      num_employees_max: 10000
+      num_employees_min: 5001
+      parents:
+      - https://www.crunchbase.com/organization/alibaba
+      region: Zhejiang
+      stockExchange: null
+      ticker: 9988.HK
+      twitter: https://twitter.com/antgroup
+    github_data:
+      contributions: 7;2;2;1;1;3;3;10;1;6;19;8;4;7;6;10;2;5;7;5;0;1;2;1;1;1;2;3;7;3;5;2;7;7;3;3;9;5;15;9;12;9;3;8;6;10;6;5;8;6;9;3
+      contributors_count: 58
+      contributors_link: https://github.com/mosn/layotto/graphs/contributors
+      description: A fast and efficient cloud native application runtime
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#00ADD8'
+        name: Go
+        value: 1246501
+      - color: '#427819'
+        name: Makefile
+        value: 38200
+      - color: '#89e051'
+        name: Shell
+        value: 7970
+      - color: '#384d54'
+        name: Dockerfile
+        value: 1893
+      latest_commit_date: '2022-08-05T02:59:50Z'
+      latest_commit_link: /mosn/layotto/commit/3fc29191e8a223403dcec58f41f687d15543af46
+      license: Apache License 2.0
+      release_date: '2022-05-13T02:48:33Z'
+      release_link: https://github.com/mosn/layotto/releases
+      stars: 607
+    github_start_commit_data:
+      start_commit_link: /mosn/layotto/commit/325ceef146334f7106ac7b1e3587dad5e1bce57c
+      start_date: '2021-04-29T02:59:52Z'
     homepage_url: https://mosn.io/layotto
+    image_data:
+      fileName: layotto.svg
+      hash: SDH18/e1C6DnCUIdBonOmfPqilcGqnDBei8c21kXi/g=
     item: null
     logo: layotto.svg
     name: Layotto
     repo_url: https://github.com/mosn/layotto
+    repos:
+    - stars: 607
+      url: https://github.com/mosn/layotto
+    twitter_data:
+      latest_tweet_date: 2022-07-21 08:09:26+00:00
+    yahoo_finance_data:
+      effective_ticker: 9988.HK
+      market_cap: 250716029031
   Hosted Platform: []
   Installable Platform: []
   Security: []
   Tools:
-  - crunchbase: https://www.crunchbase.com/organization/lumigo
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/lumigo
+    crunchbase_data:
+      acquisitions: []
+      city: Tel Aviv
+      company_type: For Profit
+      country: Israel
+      description: Lumigo provides Troubleshoot Serverless Applications at the speed
+        of light.
+      funding: 37000000
+      homepage: https://www.lumigo.io/
+      industries:
+      - Apps
+      - Information Services
+      kind: funding
+      linkedin: https://www.linkedin.com/company/lumigo/
+      name: Lumigo
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: Tel Aviv
+      stockExchange: null
+      twitter: https://twitter.com/lumigo
     homepage_url: https://lumigo.io/
+    image_data:
+      fileName: lumigo.svg
+      hash: Rp9GmHmm97tWhgJAwjj6IR+Z0zSzb3Id7c+l7NPsb9s=
     item: null
     logo: lumigo.svg
     name: Lumigo
     twitter: https://twitter.com/Lumigo
+    twitter_data:
+      latest_tweet_date: 2022-08-05 14:32:16+00:00
 Special:
   Certified CNFs: []
   Kubernetes Certified Service Provider:
-  - crunchbase: https://www.crunchbase.com/organization/linklogis
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/linklogis
+    crunchbase_data:
+      acquisitions: []
+      city: Shenzhen
+      company_type: For Profit
+      country: China
+      description: Linklogis is a supply chain financing service provider that is
+        based in China.
+      funding: 265145175
+      homepage: https://www.linklogis.com/
+      industries:
+      - Finance
+      - Financial Services
+      - Supply Chain Management
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/%E6%B7%B1%E5%9C%B3%E5%89%8D%E6%B5%B7%E8%81%94%E6%98%93%E8%9E%8D%E9%87%91%E8%9E%8D%E6%9C%8D%E5%8A%A1%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/
+      name: Linklogis
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: Guangdong
+      stockExchange: hkg
+      ticker: 9959.HK
+      twitter: null
     description: Linklogis Cloud provides customers with services around Kubernetes
       including not only consulting, operations, technical support and training, but
       also professional cloud native products.
     homepage_url: https://cloud.linklogis.com/#/kubernetes
+    image_data:
+      fileName: linklogis-kcsp.svg
+      hash: XABCmi2F2E05vPl5FiGCAJ8a6qatk4vzJ2Fpm2YR/1w=
     item: null
     logo: linklogis.svg
     name: Linklogis (KCSP)
-  - crunchbase: https://www.crunchbase.com/organization/liquid-reply
+    yahoo_finance_data:
+      effective_ticker: 9959.HK
+      market_cap: 1531015731
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/liquid-reply
+    crunchbase_data:
+      acquisitions: []
+      city: Munich
+      company_type: For Profit
+      country: Germany
+      description: Liquid Reply is a Reply Group Company specialized in Container
+        Orchestration & Cloud Native Development.
+      homepage: https://www.reply.com/liquid-reply/en/
+      industries: []
+      linkedin: https://www.linkedin.com/company/liquid-reply
+      name: Liquid Reply
+      num_employees_max: null
+      num_employees_min: null
+      parents: []
+      region: Bayern
+      stockExchange: null
+      twitter: https://twitter.com/LiquidReply
     description: As Enterprise Kubernetes Consultants, we design and build your Kubernetes
       cluster in the public cloud, on-prem, or multi/hybrid cloud environments according
       to your needs.
     homepage_url: https://www.reply.com/liquid-reply/en
+    image_data:
+      fileName: liquid-reply-kcsp.svg
+      hash: zrJJokZbDU1uHOz+eqGhPls+mDVeTmf8w2/jAG/l+BI=
     item: null
     logo: liquid-reply.svg
     name: Liquid Reply (KCSP)
-  - crunchbase: https://www.crunchbase.com/organization/lsd-open
+    twitter_data:
+      latest_tweet_date: 2022-08-04 14:00:38+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/lsd-open
+    crunchbase_data:
+      acquisitions: []
+      city: Johannesburg
+      company_type: ''
+      country: South Africa
+      description: Fully managed and engineered cloud native accelerator, leveraging
+        a foundation of containerisation, Kubernetes and open source technologies
+      homepage: https://lsdopen.io/
+      industries: []
+      linkedin: null
+      name: LSD Open
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: NA - South Africa
+      stockExchange: null
+      twitter: null
     description: Fully managed and engineered cloud native accelerator, leveraging
       a foundation of containerization, Kubernetes and open source technologies
     homepage_url: https://lsdopen.io/kubernetes-services/
+    image_data:
+      fileName: lsd-open-kcsp.svg
+      hash: YhF3g1Fg5hCSqozO64WOz1fq4+bZvEYT1fTqOAZ34TE=
     item: null
     logo: LSD-OPEN.svg
     name: LSD Open (KCSP)
-  - crunchbase: https://www.crunchbase.com/organization/l-t-infotech
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/l-t-infotech
+    crunchbase_data:
+      acquisitions:
+      - acquiree: GDA Technologies
+        date: '2006-12-13'
+      - acquiree: AugmentIQ Data Sciences
+        date: '2016-10-25'
+      - acquiree: Syncordis S.A.
+        date: '2017-11-14'
+      - acquiree: Ruletronics
+        date: '2019-01-17'
+      - acquiree: Nielsen+Partner
+        date: '2019-02-14'
+        price: 31500000
+      - acquiree: Lymbyc
+        date: '2019-07-17'
+      - acquiree: Powerupcloud Technologies
+        date: '2019-10-17'
+      city: Edison
+      company_type: For Profit
+      country: United States
+      description: LTI is a global technology consulting and digital solutions company
+        helping more than 250 clients succeed in a converging world.
+      funding: 30000000
+      homepage: https://www.lntinfotech.com
+      industries:
+      - Analytics
+      - Consulting
+      - Information Technology
+      - Internet of Things
+      - Software
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/l&t-infotech
+      name: L&T Infotech
+      num_employees_max: 1000000
+      num_employees_min: 10001
+      parents: []
+      region: New Jersey
+      stockExchange: nse
+      ticker: LTI.NS
+      twitter: https://twitter.com/LTI_Global
     description: Our Kubernetes-centric Professional services are designed to address
       the key tenets and challenges with containerization and Kubernetes adoption
       at scale.
     homepage_url: https://www.lntinfotech.com/services/cloud/cloud-native/make-the-shift/
+    image_data:
+      fileName: lti-kcsp.svg
+      hash: Ytqa6AcgTOwF1xiaHl+zFyHineF1xt7xCD+4t9e8a2E=
     item: null
     logo: larsen-toubro.svg
     name: LTI (KCSP)
+    twitter_data:
+      latest_tweet_date: 2022-08-05 13:52:07+00:00
+    yahoo_finance_data:
+      effective_ticker: LTI.NS
+      market_cap: 10879205531
   Kubernetes Training Partner:
-  - crunchbase: https://www.crunchbase.com/organization/liquid-reply
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/liquid-reply
+    crunchbase_data:
+      acquisitions: []
+      city: Munich
+      company_type: For Profit
+      country: Germany
+      description: Liquid Reply is a Reply Group Company specialized in Container
+        Orchestration & Cloud Native Development.
+      homepage: https://www.reply.com/liquid-reply/en/
+      industries: []
+      linkedin: https://www.linkedin.com/company/liquid-reply
+      name: Liquid Reply
+      num_employees_max: null
+      num_employees_min: null
+      parents: []
+      region: Bayern
+      stockExchange: null
+      twitter: https://twitter.com/LiquidReply
     description: As Enterprise Kubernetes Consultants, we design and build your Kubernetes
       cluster in the public cloud, on-prem, or multi/hybrid cloud environments according
       to your needs.
     homepage_url: https://www.reply.com/liquid-reply/en
+    image_data:
+      fileName: liquid-reply-ktp.svg
+      hash: zrJJokZbDU1uHOz+eqGhPls+mDVeTmf8w2/jAG/l+BI=
     item: null
     logo: liquid-reply.svg
     name: Liquid Reply (KTP)
+    twitter_data:
+      latest_tweet_date: 2022-08-04 14:00:38+00:00
 Wasm:
   Debugging and Observability: []
   Installable Platform: []

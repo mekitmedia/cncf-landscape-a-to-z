@@ -1,291 +1,2355 @@
 App Definition and Development:
   Application Definition & Image Build:
-  - crunchbase: https://www.crunchbase.com/organization/eclipse-che
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/eclipse-che
+    crunchbase_data:
+      acquisitions: []
+      city: Ottawa
+      company_type: Non Profit
+      country: Canada
+      description: The Kubernetes-Native IDE for Developer Teams
+      homepage: https://www.eclipse.org/che/
+      industries:
+      - Cloud Data Services
+      - Information Technology
+      - Software
+      linkedin: null
+      name: Eclipse Che
+      num_employees_max: null
+      num_employees_min: null
+      parents: []
+      region: Ontario
+      stockExchange: null
+      twitter: https://twitter.com/eclipse_che
+    github_data:
+      contributions: 3;3;8;4;3;3;6;3;2;10;7;3;1;6;1;1;6;6;8;1;0;1;2;3;2;2;0;3;3;1;5;2;0;0;0;0;0;1;0;2;2;0;0;1;1;1;6;2;0;1;1;0
+      contributors_count: 200
+      contributors_link: https://github.com/eclipse/che/graphs/contributors
+      description: The Kubernetes-Native IDE for Developer Teams
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#2b7489'
+        name: TypeScript
+        value: 540248
+      - color: '#89e051'
+        name: Shell
+        value: 48052
+      - color: '#384d54'
+        name: Dockerfile
+        value: 680
+      latest_commit_date: '2022-07-27T07:53:27Z'
+      latest_commit_link: /eclipse/che/commit/f4532fb3618ab7787aff6c3049c04be4359225d2
+      license: Eclipse Public License 2.0
+      release_date: '2022-07-26T19:18:24Z'
+      release_link: https://github.com/eclipse/che/releases
+      stars: 6699
+    github_start_commit_data:
+      start_commit_link: /eclipse/che/commit/9b6a9647f720dfa85182ae307a42f7ecaf163971
+      start_date: '2016-02-11T12:19:25Z'
     homepage_url: https://www.eclipse.org/che/
+    image_data:
+      fileName: eclipse-che.svg
+      hash: wJIvYl44ISxei4sMrjcOxQ/x8HBJBkr4SiAI9QB0kU0=
     item: null
     logo: eclipseche.svg
     name: Eclipse Che
     repo_url: https://github.com/eclipse/che
+    repos:
+    - stars: 6699
+      url: https://github.com/eclipse/che
+    twitter_data:
+      latest_tweet_date: 2022-07-26 19:10:48+00:00
   Continuous Integration & Delivery: []
   Database: []
   Streaming & Messaging:
-  - crunchbase: https://www.crunchbase.com/organization/emq-technologies
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/emq-technologies
+    crunchbase_data:
+      acquisitions: []
+      city: Morgan Hill
+      company_type: For Profit
+      country: United States
+      description: Open-source IoT data infrastructure software provider, delivering
+        the world's leading MQTT-based IoT messaging platform & streaming database
+      funding: 21430649
+      homepage: https://www.emqx.com
+      industries:
+      - Cloud Data Services
+      - Enterprise Software
+      - Information Technology
+      - Internet of Things
+      - Open Source
+      kind: funding
+      linkedin: https://www.linkedin.com/company/emqtech
+      name: EMQ Technologies
+      num_employees_max: 250
+      num_employees_min: 101
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/EMQTech
+    github_data:
+      contributions: 86;63;104;89;93;84;72;82;33;80;93;47;36;59;69;99;76;69;76;85;161;164;128;82;86;46;109;88;118;106;135;98;152;91;70;73;220;287;59;138;69;69;89;59;194;50;130;64;31;46;55;28
+      contributors_count: 117
+      contributors_link: https://github.com/emqx/emqx/graphs/contributors
+      description: The most scalable open-source MQTT broker for IoT
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#B83998'
+        name: Erlang
+        value: 6008286
+      - color: '#89e051'
+        name: Shell
+        value: 119728
+      - color: '#555555'
+        name: C
+        value: 57549
+      - color: '#6e4a7e'
+        name: Elixir
+        value: 31335
+      - color: '#427819'
+        name: Makefile
+        value: 18097
+      - color: '#C1F12E'
+        name: Batchfile
+        value: 7389
+      - color: '#384d54'
+        name: Dockerfile
+        value: 3207
+      - color: '#3572A5'
+        name: Python
+        value: 1927
+      - name: Mustache
+        value: 1036
+      - color: '#e34c26'
+        name: HTML
+        value: 926
+      latest_commit_date: '2022-08-04T19:27:55Z'
+      latest_commit_link: /emqx/emqx/commit/e9d7cde0b4b43a93967faebcb44cb71d53583ea6
+      license: Other
+      release_date: '2022-08-02T06:49:07Z'
+      release_link: https://github.com/emqx/emqx/releases
+      stars: 10137
+    github_start_commit_data:
+      start_commit_link: /emqx/emqx/commit/11db16725e76c3072f7b50cd62abc4a0aa6a43ba
+      start_date: '2012-12-17T10:07:44Z'
     homepage_url: https://www.emqx.io/
+    image_data:
+      fileName: emq-technologies.svg
+      hash: oTrh5dWNHBp6Qur5RiyaeWG04U/NxR0uKhV16XeiIL8=
     item: null
     logo: emq-technologies.svg
     name: EMQ Technologies
     repo_url: https://github.com/emqx/emqx
+    repos:
+    - stars: 10137
+      url: https://github.com/emqx/emqx
+    twitter_data:
+      latest_tweet_date: 2022-08-04 09:20:42+00:00
 CNCF Members:
   Academic: []
   End User Supporter:
-  - crunchbase: https://www.crunchbase.com/organization/arms-business-solutions
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/arms-business-solutions
+    crunchbase_data:
+      acquisitions: []
+      city: Madison
+      company_type: For Profit
+      country: United States
+      description: Saas
+      homepage: https://Entegral.com
+      industries:
+      - Information Technology
+      - Insurance
+      - SaaS
+      - Software
+      linkedin: https://www.linkedin.com/company/entegral/mycompany/?viewAsMember=true
+      name: Entegral
+      num_employees_max: 250
+      num_employees_min: 101
+      parents: []
+      region: Wisconsin
+      stockExchange: null
+      twitter: null
     homepage_url: https://entegral.com/
+    image_data:
+      fileName: entegral-supporter.svg
+      hash: Vx4O/OSMVPF0yeY9bRRD9kotVbteeoyqsYElTm0a4rw=
     item: null
     logo: entegral.svg
     name: Entegral (supporter)
-  - crunchbase: https://www.crunchbase.com/organization/equityzen-inc
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/equityzen-inc
+    crunchbase_data:
+      acquisitions: []
+      city: New York
+      company_type: For Profit
+      country: United States
+      description: EquityZen is a financial services company that provides an investment
+        platform intended to connect shareholders of private companies.
+      funding: 11309374
+      homepage: http://www.equityzen.com/
+      industries:
+      - FinTech
+      - Finance
+      - Financial Services
+      - Payments
+      - Trading Platform
+      kind: funding
+      linkedin: https://www.linkedin.com/company/equityzen/
+      name: EquityZen
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: New York
+      stockExchange: null
+      twitter: https://twitter.com/EquityZen
     homepage_url: https://equityzen.com/
+    image_data:
+      fileName: equity-zen-supporter.svg
+      hash: WWuj+eCagj8MquEE97sy7ZdN/ToIKYURklN2jhU38Vk=
     item: null
     logo: equityzen.svg
     name: EquityZen (supporter)
-  - crunchbase: https://www.crunchbase.com/organization/everquote
+    twitter_data:
+      latest_tweet_date: 2022-07-26 18:00:37+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/everquote
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Eversurance
+        date: '2020-08-04'
+      - acquiree: Policy Fuel
+        date: '2021-07-20'
+      city: Cambridge
+      company_type: For Profit
+      country: United States
+      description: EverQuote is an independent insurance marketplace and is a free
+        service that helps consumers compare quotes on auto insurance.
+      funding: 52568676
+      homepage: https://www.everquote.com/
+      industries:
+      - Auto Insurance
+      - Insurance
+      - Internet
+      - Marketplace
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/everquote
+      name: EverQuote
+      num_employees_max: 500
+      num_employees_min: 251
+      parents: []
+      region: Massachusetts
+      stockExchange: nasdaq
+      ticker: EVER
+      twitter: https://twitter.com/EverQuoteInsure
     homepage_url: https://www.everquote.com/
+    image_data:
+      fileName: ever-quote-supporter.svg
+      hash: N7YRZl4ul7S/5NHwMHHIDputH9VB683/+xIfmjLhFZ8=
     item: null
     logo: everquote.svg
     name: EverQuote (supporter)
+    twitter_data:
+      latest_tweet_date: 2019-11-18 16:23:15+00:00
+    yahoo_finance_data:
+      effective_ticker: EVER
+      market_cap: 360181536
   Gold:
-  - crunchbase: https://www.crunchbase.com/organization/equinix
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/equinix
+    crunchbase_data:
+      acquisitions:
+      - acquiree: IXEurope
+        date: '2007-09-14'
+      - acquiree: Virtu Secure Webservices
+        date: '2008-02-06'
+      - acquiree: Switch & Data
+        date: '2009-10-21'
+        price: 689000000
+      - acquiree: Switch and Data
+        date: '2009-10-21'
+        price: 689000000
+      - acquiree: ancotel
+        date: '2012-05-16'
+      - acquiree: Asia Tone Limited
+        date: '2012-07-09'
+        price: 230500000
+      - acquiree: Kleyer 90 Carrier Hotel
+        date: '2013-10-09'
+      - acquiree: Alog Data Centers do Brasil
+        date: '2014-07-24'
+      - acquiree: Nimbo
+        date: '2015-01-22'
+      - acquiree: Bit-isle Equinix, Inc.
+        date: '2015-12-09'
+      - acquiree: TelecityGroup
+        date: '2016-01-16'
+        price: 3600000000
+      - acquiree: Itconic Innovate IT
+        date: '2017-09-11'
+        price: 259000000
+      - acquiree: Metronode
+        date: '2017-12-17'
+        price: 792000000
+      - acquiree: Packet
+        date: '2020-01-15'
+        price: 355000000
+      - acquiree: GPX India
+        date: '2020-08-11'
+        price: 161000000
+      - acquiree: MainOne
+        date: '2021-12-07'
+        price: 320000000
+      city: Redwood City
+      company_type: For Profit
+      country: United States
+      description: Equinix is an internet company that provides data center services
+        for companies, businesses, and organizations.
+      funding: 1443500126
+      homepage: http://www.equinix.com
+      industries:
+      - Cloud Data Services
+      - Data Center
+      - Information Technology
+      - Infrastructure
+      - Internet
+      - Software
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/equinix
+      name: Equinix
+      num_employees_max: 10000
+      num_employees_min: 5001
+      parents: []
+      region: California
+      stockExchange: nasdaq
+      ticker: EQIX
+      twitter: http://twitter.com/equinix
     homepage_url: https://www.equinix.com/
+    image_data:
+      fileName: equinix-member.svg
+      hash: 0gI+38CHducbypS38qLt4ZyIxPl/bxfij3XrHOGrku0=
     item: null
     logo: equinix.svg
     name: Equinix (member)
+    twitter_data:
+      latest_tweet_date: 2022-08-05 23:06:01+00:00
+    yahoo_finance_data:
+      effective_ticker: EQIX
+      market_cap: 63525863424
   Nonprofit:
-  - crunchbase: https://www.crunchbase.com/organization/eclipse-foundation
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/eclipse-foundation
+    crunchbase_data:
+      acquisitions: []
+      city: Ottawa
+      company_type: Non Profit
+      country: Canada
+      description: The Eclipse Foundation provides individuals and organizations with
+        a commercially focused environment for open source software innovation.
+      homepage: http://eclipse.org
+      industries:
+      - Cloud Computing
+      - Communities
+      - Enterprise Software
+      - Information Technology
+      - Non Profit
+      - Open Source
+      - Software
+      linkedin: https://www.linkedin.com/company/eclipse-foundation
+      name: Eclipse Foundation
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: Ontario
+      stockExchange: null
+      twitter: http://twitter.com/EclipseFdn
     homepage_url: https://www.eclipse.org/
+    image_data:
+      fileName: eclipse-foundation-member.svg
+      hash: iRrKyw9YcNX5moRKCoonI3A/1xt4mDkc3LjoR6tzfvI=
     item: null
     logo: eclipse-foundation-member.svg
     name: Eclipse Foundation (member)
+    twitter_data:
+      latest_tweet_date: 2022-08-05 18:41:59+00:00
   Platinum: []
   Silver:
-  - crunchbase: https://www.crunchbase.com/organization/easystack
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/easystack
+    crunchbase_data:
+      acquisitions: []
+      city: Beijing
+      company_type: For Profit
+      country: China
+      description: EasyStack provides open cloud solutions and services for China
+        and Asia market.
+      funding: 114000000
+      homepage: http://www.easystack.cn/en/
+      industries:
+      - Cloud Computing
+      - Enterprise
+      - Information Technology
+      kind: funding
+      linkedin: https://www.linkedin.com/company/6656236
+      name: EasyStack
+      num_employees_max: 250
+      num_employees_min: 101
+      parents: []
+      region: Beijing
+      stockExchange: null
+      twitter: https://twitter.com/EasyStackIO
     homepage_url: https://www.easystack.cn
+    image_data:
+      fileName: easy-stack-member.svg
+      hash: /Dfhyg41h7L6RTTWL+ahcpCMYWW1eC6WUydyrFYB7Og=
     item: null
     logo: easystack.svg
     name: EasyStack (member)
-  - crunchbase: https://www.crunchbase.com/organization/enterprisedb
+    twitter_data:
+      latest_tweet_date: 2021-02-10 03:05:14+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/enterprisedb
+    crunchbase_data:
+      acquisitions:
+      - acquiree: 2ndQuadrant
+        date: '2020-09-30'
+      city: Bedford
+      company_type: For Profit
+      country: United States
+      description: EDB is an open source-based data platform.
+      funding: 67921718
+      homepage: https://www.enterprisedb.com
+      industries:
+      - Analytics
+      - Big Data
+      - Business Intelligence
+      - Database
+      - Enterprise Software
+      - Hardware
+      - Open Source
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/14958
+      name: EDB
+      num_employees_max: 500
+      num_employees_min: 251
+      parents: []
+      region: Massachusetts
+      stockExchange: null
+      twitter: https://twitter.com/EDBPostgres
     homepage_url: https://www.enterprisedb.com/
+    image_data:
+      fileName: edb-member.svg
+      hash: L8/DoWFYwW0YujFOclXOWZGZz9KM51hgjNQwM3pkpP0=
     item: null
     logo: enterprisedb.svg
     name: EDB (member)
-  - crunchbase: https://www.crunchbase.com/organization/edge-delta
+    twitter_data:
+      latest_tweet_date: 2022-08-05 12:02:34+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/edge-delta
+    crunchbase_data:
+      acquisitions: []
+      city: Seattle
+      company_type: For Profit
+      country: United States
+      description: Edge Delta is a stream processing platform for observability, predicting,
+        and detecting anomalies in operational and security data.
+      funding: 81000000
+      homepage: https://edgedelta.com
+      industries:
+      - Computer
+      - Network Security
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/edgedelta
+      name: Edge Delta
+      num_employees_max: 100
+      num_employees_min: 51
+      parents: []
+      region: Washington
+      stockExchange: null
+      twitter: https://twitter.com/edge_delta
     homepage_url: https://www.edgedelta.com/
+    image_data:
+      fileName: edge-delta-member.svg
+      hash: z0Opi3Tyf0iyYfyMi2/N/FgdX3aPcmArbEC6gbLdfQQ=
     item: null
     logo: edge-delta.svg
     name: Edge Delta (member)
-  - crunchbase: https://www.crunchbase.com/organization/edgeless-systems
+    twitter_data:
+      latest_tweet_date: 2022-07-21 13:32:18+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/edgeless-systems
+    crunchbase_data:
+      acquisitions: []
+      city: Bochum
+      company_type: ''
+      country: Germany
+      description: Edgeless Systems builds confidential computing technology that
+        turns the public cloud into your private cloud.
+      funding: 1757669
+      homepage: https://www.edgeless.systems/
+      industries:
+      - Computer
+      - Network Security
+      kind: funding
+      linkedin: https://www.linkedin.com/company/edgeless-systems/about/
+      name: Edgeless Systems
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: Nordrhein-Westfalen
+      stockExchange: null
+      twitter: https://twitter.com/EdgelessSystems
     homepage_url: https://www.edgeless.systems/
+    image_data:
+      fileName: edgeless-systems-member.svg
+      hash: R6nf/kL7WkDzm5ZyX4EMLDALc2sCMfRSRFMMClAskCM=
     item: null
     logo: edgeless-systems.svg
     name: Edgeless Systems (member)
-  - crunchbase: https://www.crunchbase.com/organization/edgeray-technologies
+    twitter_data:
+      latest_tweet_date: 2022-08-04 08:43:04+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/edgeray-technologies
+    crunchbase_data:
+      acquisitions: []
+      city: Shenzhen
+      company_type: For Profit
+      country: China
+      description: Company provides customers with products and services to meet their
+        flexible and diverse needs of cloud deployment.
+      homepage: https://www.edgeray.cn/
+      industries: []
+      linkedin: https://www.linkedin.com/company/edgeray/
+      name: EdgeRay Technologies
+      num_employees_max: 500
+      num_employees_min: 251
+      parents: []
+      region: Guangdong
+      stockExchange: null
+      twitter: null
     homepage_url: https://www.edgeray.cn/
+    image_data:
+      fileName: edge-ray-member.svg
+      hash: FsHtIH2oaM53lVv3cukxasSJqtcL+fqp/x9VrwCxXgk=
     item: null
     logo: edgeray.svg
     name: EdgeRay (member)
-  - crunchbase: https://www.crunchbase.com/organization/eficode
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/eficode
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Videnhuset as
+        date: '2011-11-01'
+      - acquiree: Adage Oy
+        date: '2017-04-03'
+      - acquiree: Praqma
+        date: '2019-05-20'
+      - acquiree: Riada
+        date: '2021-01-29'
+      - acquiree: Beecom
+        date: '2021-05-18'
+      city: Helsinki
+      company_type: For Profit
+      country: Finland
+      description: Eficode is a DevOps, software, automation, and design company with
+        offices in Northern and Western Europe.
+      funding: 7423179
+      homepage: http://www.eficode.com
+      industries:
+      - Developer Tools
+      - Information Technology
+      - Linux
+      - Open Source
+      - Software
+      - Web Development
+      kind: funding
+      linkedin: https://www.linkedin.com/company/eficode
+      name: Eficode
+      num_employees_max: 500
+      num_employees_min: 251
+      parents: []
+      region: Southern Finland
+      stockExchange: null
+      twitter: http://twitter.com/Eficode
     homepage_url: https://www.eficode.com/
+    image_data:
+      fileName: eficode-member.svg
+      hash: cH09stEcK0ATPOVb/mUFU3CrYFaMePgh3CMMlYWyVyw=
     item: null
     logo: eficode.svg
     name: Eficode (member)
-  - crunchbase: https://www.crunchbase.com/organization/elasticsearch
+    twitter_data:
+      latest_tweet_date: 2022-08-05 07:59:59+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/elasticsearch
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Elastic Cloud
+        date: '2015-03-10'
+      - acquiree: Packetbeat
+        date: '2015-05-27'
+      - acquiree: Prelert
+        date: '2016-09-15'
+      - acquiree: Opbeat
+        date: '2017-06-22'
+      - acquiree: Swiftype
+        date: '2017-11-09'
+      - acquiree: Insight.io
+        date: '2018-06-28'
+      - acquiree: Endgame
+        date: '2019-06-05'
+        price: 234000000
+      - acquiree: Perched, LLC.
+        date: '2019-08-21'
+      - acquiree: build.security
+        date: '2021-08-23'
+      - acquiree: Cmd
+        date: '2021-08-25'
+      - acquiree: Optimyze
+        date: '2021-10-14'
+      city: Mountain View
+      company_type: For Profit
+      country: United States
+      description: Elastic builds software to make data usable in real time and at
+        scale for search, logging, security, and analytics use cases.
+      funding: 161999996
+      homepage: https://www.elastic.co
+      industries:
+      - Analytics
+      - Cloud Computing
+      - Open Source
+      - SaaS
+      - Search Engine
+      - Software
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/elastic-co/
+      name: Elastic
+      num_employees_max: 5000
+      num_employees_min: 1001
+      parents: []
+      region: California
+      stockExchange: nyse
+      ticker: ESTC
+      twitter: https://twitter.com/elastic
     homepage_url: https://www.elastic.co
+    image_data:
+      fileName: elastic-member.svg
+      hash: Q2hLIojScU2YK6eu3b++EP1tv2VpTLsWFkBPWxxh1B0=
     item: null
     logo: elastic-member.svg
     name: Elastic (member)
-  - crunchbase: https://www.crunchbase.com/organization/elastisys
+    twitter_data:
+      latest_tweet_date: 2022-08-05 16:27:00+00:00
+    yahoo_finance_data:
+      effective_ticker: ESTC
+      market_cap: 8217513472
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/elastisys
+    crunchbase_data:
+      acquisitions: []
+      city: "Ume\xE5"
+      company_type: For Profit
+      country: Sweden
+      description: Elastisys develops and sells a management platform for cloud-based
+        applications like intelligent.
+      funding: 679613
+      homepage: https://elastisys.com/
+      industries:
+      - Cloud Computing
+      - Information Technology
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/elastisys/
+      name: Elastisys
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: Vasterbottens Lan
+      stockExchange: null
+      twitter: https://twitter.com/elastisys
     homepage_url: https://elastisys.com
+    image_data:
+      fileName: elastisys-member.svg
+      hash: 8/mB7mxaIakqYXuh3VIXrbA3A59AgcDpQlaNBN5QG+c=
     item: null
     logo: elastisys-member.svg
     name: Elastisys (member)
-  - crunchbase: https://www.crunchbase.com/organization/elastx
+    twitter_data:
+      latest_tweet_date: 2022-07-20 06:11:36+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/elastx
+    crunchbase_data:
+      acquisitions: []
+      city: Stockholm
+      company_type: For Profit
+      country: Sweden
+      description: Public cloud made in Sweden
+      homepage: https://elastx.se/en
+      industries:
+      - Information Technology
+      - Software
+      linkedin: https://www.linkedin.com/company/elastx/
+      name: Elastx
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: Stockholms Lan
+      stockExchange: null
+      twitter: https://twitter.com/elastx
     homepage_url: https://elastx.se/en/
+    image_data:
+      fileName: elastx-member.svg
+      hash: 0Pvh5ktCBEssxlh5SRWw2M6RgUf+Z0w9VQUE+oQVRuk=
     item: null
     logo: elastx-member.svg
     name: Elastx (member)
-  - crunchbase: https://www.crunchbase.com/organization/elotl
+    twitter_data:
+      latest_tweet_date: 2020-06-26 10:00:03+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/elotl
+    crunchbase_data:
+      acquisitions: []
+      city: San Francisco
+      company_type: For Profit
+      country: United States
+      description: Elotl develops serverless infrastructure platform for microservices.
+      funding: 8800000
+      homepage: https://www.elotl.co/
+      industries:
+      - Information Technology
+      - Software
+      - Software Engineering
+      kind: funding
+      linkedin: null
+      name: Elotl
+      num_employees_max: null
+      num_employees_min: null
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/elotlinc
     homepage_url: https://www.elotl.co/
+    image_data:
+      fileName: elotl-member.svg
+      hash: /FU0bjK1j7KFbUv0Km+q3UI+8gA40QCVy5L4sVxQepA=
     item: null
     logo: elotl.svg
     name: Elotl (member)
-  - crunchbase: https://www.crunchbase.com/organization/emq-technologies
+    twitter_data:
+      latest_tweet_date: 2022-06-21 16:34:07+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/emq-technologies
+    crunchbase_data:
+      acquisitions: []
+      city: Morgan Hill
+      company_type: For Profit
+      country: United States
+      description: Open-source IoT data infrastructure software provider, delivering
+        the world's leading MQTT-based IoT messaging platform & streaming database
+      funding: 21430649
+      homepage: https://www.emqx.com
+      industries:
+      - Cloud Data Services
+      - Enterprise Software
+      - Information Technology
+      - Internet of Things
+      - Open Source
+      kind: funding
+      linkedin: https://www.linkedin.com/company/emqtech
+      name: EMQ Technologies
+      num_employees_max: 250
+      num_employees_min: 101
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/EMQTech
     homepage_url: https://www.emqx.io/
+    image_data:
+      fileName: emq-technologies-member.svg
+      hash: CqlhIFWvH2DUstaTura9pgrHorAqV2LATV7N7IhwzZE=
     item: null
     logo: emq-technologies-member.svg
     name: EMQ Technologies (member)
-  - crunchbase: https://www.crunchbase.com/organization/engineerbetter
+    twitter_data:
+      latest_tweet_date: 2022-08-04 09:20:42+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/engineerbetter
+    crunchbase_data:
+      acquisitions: []
+      city: London
+      company_type: For Profit
+      country: United Kingdom
+      description: EngineerBetter offer holistic services to help you deliver value
+        faster with Cloud Foundry.
+      homepage: http://www.engineerbetter.com/
+      industries:
+      - CRM
+      - Information Technology
+      - Software
+      linkedin: https://www.linkedin.com/company-beta/10542315/
+      name: EngineerBetter
+      num_employees_max: 10
+      num_employees_min: 1
+      parents: []
+      region: England
+      stockExchange: null
+      twitter: https://twitter.com/engineerbetter
     homepage_url: https://www.engineerbetter.com/
+    image_data:
+      fileName: engineer-better-member.svg
+      hash: 3qubc5YNXlXml6eyWGs84FhPVS7grhQiqtaoTfgKbzE=
     item: null
     logo: engineer-better.svg
     name: EngineerBetter (member)
-  - crunchbase: https://www.crunchbase.com/organization/entando
+    twitter_data:
+      latest_tweet_date: 2022-01-21 16:56:28+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/entando
+    crunchbase_data:
+      acquisitions: []
+      city: San Diego
+      company_type: For Profit
+      country: United States
+      description: Entando is an open-source software company providing an application
+        composition platform for building applications on Kubernetes.
+      funding: 14324074
+      homepage: http://www.entando.com
+      industries:
+      - Developer Platform
+      - Enterprise Applications
+      - Enterprise Software
+      - Open Source
+      - Software
+      - UX Design
+      - Web Development
+      kind: funding
+      linkedin: https://www.linkedin.com/company/2425557?trk=NUS_CMPY_TWIT
+      name: Entando
+      num_employees_max: 100
+      num_employees_min: 51
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/Entando
     homepage_url: https://www.entando.com/
+    image_data:
+      fileName: entando-member.svg
+      hash: ZYKcKKrAVhJhPwJOmABqljArsjwbmd9YqGYRd9pO3nQ=
     item: null
     logo: entando.svg
     name: Entando (member)
-  - crunchbase: https://www.crunchbase.com/organization/entigo-0301
+    twitter_data:
+      latest_tweet_date: 2022-08-05 12:09:00+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/entigo-0301
+    crunchbase_data:
+      acquisitions: []
+      city: Tallinn
+      company_type: For Profit
+      country: Estonia
+      description: Our goal is to simplify your software delivery and operations.
+      homepage: https://www.entigo.com/
+      industries:
+      - Delivery
+      - Information Technology
+      - Software
+      linkedin: null
+      name: Entigo
+      num_employees_max: null
+      num_employees_min: null
+      parents: []
+      region: Harjumaa
+      stockExchange: null
+      twitter: null
     homepage_url: https://www.entigo.com/
+    image_data:
+      fileName: entigo-member.svg
+      hash: o1OXcNjgSc4iJWvWGzbxDOUs3MfKJPYSIqihMSftwgo=
     item: null
     logo: entigo.svg
     name: Entigo (member)
-  - crunchbase: https://www.crunchbase.com/organization/eradb
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/eradb
+    crunchbase_data:
+      acquisitions: []
+      city: Seattle
+      company_type: For Profit
+      country: United States
+      description: Observability Data Management built for modern IT and security.
+        Ingest, route, store, and analyze massive volumes of data with ease.
+      funding: 22250000
+      homepage: https://era.co
+      industries: []
+      kind: funding
+      linkedin: https://www.linkedin.com/company/erasoftware/mycompany/
+      name: Era Software
+      num_employees_max: 100
+      num_employees_min: 51
+      parents: []
+      region: Washington
+      stockExchange: null
+      twitter: https://twitter.com/era
     homepage_url: https://www.era.co/
+    image_data:
+      fileName: era-software-member.svg
+      hash: j6JMD17O2omb3DUIMjITmm2479RiMX+Sl+Z+UHK9hZI=
     item: null
     logo: era-software.svg
     name: Era Software (member)
-  - crunchbase: https://www.crunchbase.com/organization/ericsson
+    twitter_data:
+      latest_tweet_date: 2022-08-02 14:42:07+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/ericsson
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Advanced Computer Communications
+        date: '1998-09-10'
+        price: 285000000
+      - acquiree: Ericsson Amplified Technologies
+        date: '2000-10-13'
+        price: 100000000
+      - acquiree: Netspira Networks
+        date: '2005-06-03'
+      - acquiree: Teleca
+        date: '2005-07-04'
+      - acquiree: Axxessit AS
+        date: '2005-07-25'
+      - acquiree: Marconi Corporation plc
+        date: '2005-10-25'
+        price: 2137920836
+      - acquiree: Redback Networks
+        date: '2006-12-19'
+        price: 2100000000
+      - acquiree: Entrisphere
+        date: '2007-02-13'
+      - acquiree: Ericsson Television
+        date: '2007-02-26'
+        price: 1390583169
+      - acquiree: LHS Germany
+        date: '2007-06-05'
+        price: 419267931
+      - acquiree: Drutt Corporation
+        date: '2007-06-08'
+      - acquiree: Pride SpA
+        date: '2010-12-01'
+      - acquiree: Optimi Corporation
+        date: '2010-12-22'
+      - acquiree: iconectiv
+        date: '2011-06-14'
+      - acquiree: Technicolor - Broadcast Services
+        date: '2012-03-13'
+        price: 24858275
+      - acquiree: BelAir Networks
+        date: '2012-04-03'
+      - acquiree: Aspex Semiconductor
+        date: '2012-07-31'
+      - acquiree: ConceptWave Software
+        date: '2012-09-25'
+      - acquiree: Red Bee Media
+        date: '2013-07-01'
+      - acquiree: Microsoft Mediaroom
+        date: '2013-09-05'
+      - acquiree: Airvana - EVDO business
+        date: '2013-09-06'
+      - acquiree: Azuki Systems
+        date: '2014-02-06'
+      - acquiree: MetraTech
+        date: '2014-07-29'
+      - acquiree: Fabrix Systems
+        date: '2014-09-12'
+        price: 95000000
+      - acquiree: Apcera
+        date: '2014-09-22'
+      - acquiree: GEOSS
+        date: '2014-09-26'
+      - acquiree: Ambient Corporation
+        date: '2014-10-01'
+      - acquiree: Sentilla
+        date: '2014-10-16'
+      - acquiree: TimelessMIND
+        date: '2015-04-09'
+      - acquiree: Envivio
+        date: '2015-09-10'
+        price: 125000000
+      - acquiree: FYI Television
+        date: '2016-01-19'
+      - acquiree: NodePrime
+        date: '2016-04-05'
+      - acquiree: Ericpol
+        date: '2016-06-21'
+      - acquiree: Allolio&Konrad
+        date: '2016-12-01'
+      - acquiree: VidScale
+        date: '2018-04-04'
+      - acquiree: CENX
+        date: '2018-09-04'
+      - acquiree: Genaker
+        date: '2020-03-12'
+      - acquiree: Cradlepoint
+        date: '2020-09-17'
+        price: 1100000000
+      - acquiree: Vonage
+        date: '2021-11-22'
+        price: 6200000000
+      city: Stockholm
+      company_type: For Profit
+      country: Sweden
+      description: Ericsson is a technology company that provides and operates telecommunications
+        networks, television and video systems, and related services.
+      funding: 663160564
+      homepage: https://www.ericsson.com/en
+      industries:
+      - Information Technology
+      - Internet
+      - Mobile
+      - Telecommunications
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/1060
+      name: Ericsson
+      num_employees_max: 1000000
+      num_employees_min: 10001
+      parents:
+      - https://www.crunchbase.com/organization/investor-ab
+      region: Stockholms Lan
+      stockExchange: nasdaq
+      ticker: ERIC
+      twitter: https://twitter.com/ericsson
     homepage_url: https://www.ericsson.com/en
+    image_data:
+      fileName: ericsson-member.svg
+      hash: BChH+/39pySnbdSIKtWoxiKrOIHNjp0TsP5vj0faO3Y=
     item: null
     logo: ericsson-member.svg
     name: Ericsson (member)
-  - crunchbase: https://www.crunchbase.com/organization/exein
+    twitter_data:
+      latest_tweet_date: 2022-08-05 16:28:32+00:00
+    yahoo_finance_data:
+      effective_ticker: ERIC
+      market_cap: 25476265984
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/exein
+    crunchbase_data:
+      acquisitions: []
+      city: Roma
+      company_type: For Profit
+      country: Italy
+      description: Exein is a firmware-focused cybersecurity startup that develops
+        an open-source IoT security framework.
+      funding: 9285970
+      homepage: https://www.exein.io
+      industries:
+      - Cyber Security
+      - Information Technology
+      - Internet of Things
+      - Network Security
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/exein
+      name: Exein
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: Lazio
+      stockExchange: null
+      twitter: https://twitter.com/Exein3
     homepage_url: https://www.exein.io/
+    image_data:
+      fileName: exein-member.svg
+      hash: OBGmuI0k4ymHRthBTTTYOXL9zsMaDz3XPboLLi+cl9E=
     item: null
     logo: exein.svg
     name: Exein (member)
-  - crunchbase: https://www.crunchbase.com/organization/exem-4a38
+    twitter_data:
+      latest_tweet_date: 2021-11-05 22:18:48+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/exem-4a38
+    crunchbase_data:
+      acquisitions: []
+      city: La Mirada
+      company_type: For Profit
+      country: United States
+      description: EXEM is an information technology company.
+      homepage: https://www.ex-em.com
+      industries:
+      - Big Data
+      - Consulting
+      - Database
+      - Information Technology
+      linkedin: https://www.linkedin.com/company/exem-inc./
+      name: EXEM
+      num_employees_max: 250
+      num_employees_min: 101
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: null
     homepage_url: https://ex-em.com/
+    image_data:
+      fileName: exem-member.svg
+      hash: aGhV8JU0eETyj+B5Xszd5B5qOvWZBIWKEhrmufgEmFI=
     item: null
     joined: '2021-01-25'
     logo: exem.svg
     name: EXEM (member)
-  - crunchbase: https://www.crunchbase.com/organization/exoscale
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/exoscale
+    crunchbase_data:
+      acquisitions:
+      - acquiree: cloudControl
+        date: '2016-04-11'
+      city: Lausanne
+      company_type: For Profit
+      country: Switzerland
+      description: Exoscale is the cloud hosting platform for SaaS companies, developers
+        and systems administrators.
+      funding: 0
+      homepage: https://www.exoscale.com
+      industries:
+      - Cloud Computing
+      - IaaS
+      - Information Technology
+      - Internet
+      - SaaS
+      linkedin: https://www.linkedin.com/company/exoscale
+      name: Exoscale
+      num_employees_max: 100
+      num_employees_min: 51
+      parents: []
+      region: Vaud
+      stockExchange: null
+      twitter: https://twitter.com/exoscale
     homepage_url: https://www.exoscale.com
+    image_data:
+      fileName: exoscale-member.svg
+      hash: HL2ljT+qS96GqJA1W6XeehsleYjABfLUb9GgqdYuvT0=
     item: null
     logo: exoscale-member.svg
     name: Exoscale (member)
-  - crunchbase: https://www.crunchbase.com/organization/exotanium
+    twitter_data:
+      latest_tweet_date: 2022-08-05 12:00:35+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/exotanium
+    crunchbase_data:
+      acquisitions: []
+      city: Ithaca
+      company_type: For Profit
+      country: United States
+      description: We help enterprise companies achieve cloud optimizations and cost
+        reductions without service interruptions.
+      funding: 6980967
+      homepage: http://exotanium.io/
+      industries: []
+      kind: funding
+      linkedin: https://www.linkedin.com/company/exotanium/
+      name: Exotanium
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: New York
+      stockExchange: null
+      twitter: null
     homepage_url: https://exotanium.io
+    image_data:
+      fileName: exotanium-member.svg
+      hash: c5YEbueSk1T3QJG52GyhRxGY6EFhq2RSxGkK1T8O6Yw=
     item: null
     logo: exotanium.svg
     name: Exotanium (member)
-  - crunchbase: https://www.crunchbase.com/organization/expert-thinking
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/expert-thinking
+    crunchbase_data:
+      acquisitions: []
+      city: London
+      company_type: For Profit
+      country: United Kingdom
+      description: Expert Thinking is an information technology service-based company.
+      homepage: https://expert-thinking.co.uk
+      industries:
+      - Cloud Data Services
+      - Information Services
+      - Information Technology
+      - Software
+      linkedin: https://www.linkedin.com/company/expert-thinking/
+      name: Expert Thinking
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: England
+      stockExchange: null
+      twitter: https://twitter.com/expertthinking
     homepage_url: https://www.expert-thinking.co.uk/
+    image_data:
+      fileName: expert-thinking-member.svg
+      hash: x6hP+h8AWtcabtaM+VPtOXKc6hBlfNkChY+ZISyU3r8=
     item: null
     logo: expert-thinking.svg
     name: Expert Thinking (member)
+    twitter_data:
+      latest_tweet_date: 2019-02-15 14:38:49+00:00
 Observability and Analysis:
   Chaos Engineering: []
   Continuous Optimization: []
   Logging:
-  - crunchbase: https://www.crunchbase.com/organization/elasticsearch
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/elasticsearch
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Elastic Cloud
+        date: '2015-03-10'
+      - acquiree: Packetbeat
+        date: '2015-05-27'
+      - acquiree: Prelert
+        date: '2016-09-15'
+      - acquiree: Opbeat
+        date: '2017-06-22'
+      - acquiree: Swiftype
+        date: '2017-11-09'
+      - acquiree: Insight.io
+        date: '2018-06-28'
+      - acquiree: Endgame
+        date: '2019-06-05'
+        price: 234000000
+      - acquiree: Perched, LLC.
+        date: '2019-08-21'
+      - acquiree: build.security
+        date: '2021-08-23'
+      - acquiree: Cmd
+        date: '2021-08-25'
+      - acquiree: Optimyze
+        date: '2021-10-14'
+      city: Mountain View
+      company_type: For Profit
+      country: United States
+      description: Elastic builds software to make data usable in real time and at
+        scale for search, logging, security, and analytics use cases.
+      funding: 161999996
+      homepage: https://www.elastic.co
+      industries:
+      - Analytics
+      - Cloud Computing
+      - Open Source
+      - SaaS
+      - Search Engine
+      - Software
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/elastic-co/
+      name: Elastic
+      num_employees_max: 5000
+      num_employees_min: 1001
+      parents: []
+      region: California
+      stockExchange: nyse
+      ticker: ESTC
+      twitter: https://twitter.com/elastic
+    github_data:
+      contributions: 120;100;75;100;112;103;132;109;135;200;162;183;123;87;63;61;91;96;98;51;23;60;115;103;134;111;133;90;78;130;88;107;105;122;25;79;75;105;117;107;110;100;67;91;99;110;97;74;74;85;118;103
+      contributors_count: 1911
+      contributors_link: https://github.com/elastic/elasticsearch/graphs/contributors
+      description: Free and Open, Distributed, RESTful Search Engine
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#b07219'
+        name: Java
+        value: 127313964
+      - color: '#e69f56'
+        name: Groovy
+        value: 317464
+      - color: '#89e051'
+        name: Shell
+        value: 45755
+      - color: '#9DC3FF'
+        name: ANTLR
+        value: 34626
+      - color: '#3572A5'
+        name: Python
+        value: 21308
+      - color: '#384d54'
+        name: Dockerfile
+        value: 12909
+      - color: '#C1F12E'
+        name: Batchfile
+        value: 11182
+      - color: '#563d7c'
+        name: CSS
+        value: 5424
+      - color: '#c065db'
+        name: Emacs Lisp
+        value: 3341
+      - color: '#e34c26'
+        name: HTML
+        value: 2186
+      - color: '#012456'
+        name: PowerShell
+        value: 1358
+      - color: '#f1e05a'
+        name: JavaScript
+        value: 1268
+      - name: Mustache
+        value: 58
+      - color: '#0050b2'
+        name: FreeMarker
+        value: 45
+      latest_commit_date: '2022-08-05T15:38:35Z'
+      latest_commit_link: /elastic/elasticsearch/commit/2c79925cf273f899749f3d56709bf8ee7c9ca631
+      license: Other
+      release_date: '2022-07-28T14:47:14Z'
+      release_link: https://github.com/elastic/elasticsearch/releases
+      stars: 60649
+    github_start_commit_data:
+      start_commit_link: /elastic/elasticsearch/commit/ec72ca8b7a115f9b2eea3c76c518062b99a1d015
+      start_date: '2010-02-08T13:22:27Z'
     homepage_url: https://www.elastic.co/
+    image_data:
+      fileName: elastic.svg
+      hash: 3LAvXpEtNSROlAZ75aAuk1XUGawPZIYBx6uT0DCtqYg=
     item: null
     logo: elastic.svg
     name: Elastic
     open_source: false
     repo_url: https://github.com/elastic/elasticsearch
+    repos:
+    - stars: 60649
+      url: https://github.com/elastic/elasticsearch
+    twitter_data:
+      latest_tweet_date: 2022-08-05 16:27:00+00:00
+    yahoo_finance_data:
+      effective_ticker: ESTC
+      market_cap: 8217513472
   Monitoring:
-  - crunchbase: https://www.crunchbase.com/organization/epsagon
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/epsagon
+    crunchbase_data:
+      acquisitions: []
+      city: New York
+      company_type: For Profit
+      country: United States
+      description: Epsagon is a privately held, modern observability company with
+        offices in New York and Tel Aviv.
+      funding: 30000000
+      homepage: https://www.epsagon.com
+      industries:
+      - Analytics
+      - Cloud Infrastructure
+      - Information Technology
+      - SaaS
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/epsagon/
+      name: Epsagon
+      num_employees_max: 100
+      num_employees_min: 51
+      parents: []
+      region: New York
+      stockExchange: null
+      twitter: https://twitter.com/epsagon
     homepage_url: https://www.epsagon.com/
+    image_data:
+      fileName: epsagon.svg
+      hash: 6LBVsryobcrsuwfzu57fCPL+pUg3G2+vkq9JZzPYuPM=
     item: null
     logo: epsagon.svg
     name: Epsagon
+    twitter_data:
+      latest_tweet_date: 2022-02-22 19:05:51+00:00
   Tracing:
-  - crunchbase: https://www.crunchbase.com/organization/megaease-inc
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/megaease-inc
+    crunchbase_data:
+      acquisitions: []
+      city: Beijing
+      company_type: For Profit
+      country: China
+      description: High performance software architecture
+      homepage: https://megaease.com/
+      industries: []
+      linkedin: null
+      name: MegaEase, Inc.
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: Beijing
+      stockExchange: null
+      twitter: null
     description: EaseAgent is a Javaagent that can be integrated with the mainstream
       monitoring system, providing standard data formats that are fully compatible
       with OpenZipkin and Prometheus. EaseAgent is also very easy to extend through
       the Plugin Mechanism which only a minimum of three interfaces are required to
       be implemented to complete a plugin development.
+    github_data:
+      contributions: 0;0;0;7;3;6;1;1;0;30;11;24;24;15;30;13;17;36;48;45;7;8;8;3;13;0;4;3;9;16;8;10;7;3;2;1;0;0;2;1;0;0;0;0;0;0;1;0;0;0;0;0
+      contributors_count: 20
+      contributors_link: https://github.com/megaease/easeagent/graphs/contributors
+      description: An agent component for the Java system
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#b07219'
+        name: Java
+        value: 3679142
+      - color: '#89e051'
+        name: Shell
+        value: 2971
+      - color: '#384d54'
+        name: Dockerfile
+        value: 657
+      latest_commit_date: '2022-06-28T09:05:11Z'
+      latest_commit_link: /megaease/easeagent/commit/c0822e5918b29825afd592ef1fb74324c28b106a
+      license: Apache License 2.0
+      release_date: '2022-05-07T07:09:26Z'
+      release_link: https://github.com/megaease/easeagent/releases
+      stars: 440
+    github_start_commit_data:
+      start_commit_link: /megaease/easeagent/commit/33484359fc5eb54227f106203692cae51b655931
+      start_date: '2017-04-13T12:12:42Z'
     homepage_url: https://github.com/megaease/easeagent
+    image_data:
+      fileName: ease-agent.svg
+      hash: jbdiMoN7jKgNQeU0lvUKwH/ObVZ/n9EAA4yg5LQBM3Y=
     item: null
     logo: easeagent.svg
     name: EaseAgent
     repo_url: https://github.com/megaease/easeagent
+    repos:
+    - stars: 440
+      url: https://github.com/megaease/easeagent
     twitter: https://twitter.com/megaease
-  - crunchbase: https://www.crunchbase.com/organization/elasticsearch
+    twitter_data:
+      latest_tweet_date: 2022-07-27 13:04:39+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/elasticsearch
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Elastic Cloud
+        date: '2015-03-10'
+      - acquiree: Packetbeat
+        date: '2015-05-27'
+      - acquiree: Prelert
+        date: '2016-09-15'
+      - acquiree: Opbeat
+        date: '2017-06-22'
+      - acquiree: Swiftype
+        date: '2017-11-09'
+      - acquiree: Insight.io
+        date: '2018-06-28'
+      - acquiree: Endgame
+        date: '2019-06-05'
+        price: 234000000
+      - acquiree: Perched, LLC.
+        date: '2019-08-21'
+      - acquiree: build.security
+        date: '2021-08-23'
+      - acquiree: Cmd
+        date: '2021-08-25'
+      - acquiree: Optimyze
+        date: '2021-10-14'
+      city: Mountain View
+      company_type: For Profit
+      country: United States
+      description: Elastic builds software to make data usable in real time and at
+        scale for search, logging, security, and analytics use cases.
+      funding: 161999996
+      homepage: https://www.elastic.co
+      industries:
+      - Analytics
+      - Cloud Computing
+      - Open Source
+      - SaaS
+      - Search Engine
+      - Software
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/elastic-co/
+      name: Elastic
+      num_employees_max: 5000
+      num_employees_min: 1001
+      parents: []
+      region: California
+      stockExchange: nyse
+      ticker: ESTC
+      twitter: https://twitter.com/elastic
+    github_data:
+      contributions: 14;10;14;16;9;16;16;5;13;22;17;27;20;11;27;22;20;23;4;10;6;8;15;3;8;12;21;23;14;14;14;21;23;26;13;11;8;17;16;12;28;23;13;13;23;25;8;20;17;24;25;14
+      contributors_count: 87
+      contributors_link: https://github.com/elastic/apm-server/graphs/contributors
+      description: APM Server
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#00ADD8'
+        name: Go
+        value: 3125042
+      - color: '#89e051'
+        name: Shell
+        value: 68743
+      - color: '#427819'
+        name: Makefile
+        value: 46474
+      - color: '#e69f56'
+        name: Groovy
+        value: 40561
+      - name: HCL
+        value: 30095
+      - color: '#3572A5'
+        name: Python
+        value: 14073
+      - color: '#384d54'
+        name: Dockerfile
+        value: 6048
+      - color: '#e34c26'
+        name: HTML
+        value: 4146
+      - color: '#64b970'
+        name: sed
+        value: 2475
+      - name: Handlebars
+        value: 2458
+      - color: '#012456'
+        name: PowerShell
+        value: 1751
+      - name: Smarty
+        value: 628
+      latest_commit_date: '2022-08-04T05:47:44Z'
+      latest_commit_link: /elastic/apm-server/commit/9402818ed9529f82e4414912496126f17c061abd
+      license: Other
+      release_date: '2022-07-28T14:47:10Z'
+      release_link: https://github.com/elastic/apm-server/releases
+      stars: 1023
+    github_start_commit_data:
+      start_commit_link: /elastic/apm-server/commit/3ad33b3129c0be3b0e4057efc53948c381a2af79
+      start_date: '2017-08-03T16:20:48Z'
     homepage_url: https://www.elastic.co/observability/application-performance-monitoring
+    image_data:
+      fileName: elastic-apm.svg
+      hash: lYs2Lg7eQGoati36kn0dXE+5UITVk9TZ6Qt7UCLQkis=
     item: null
     logo: elastic-apm.svg
     name: Elastic APM
     repo_url: https://github.com/elastic/apm-server
+    repos:
+    - stars: 1023
+      url: https://github.com/elastic/apm-server
+    twitter_data:
+      latest_tweet_date: 2022-08-05 16:27:00+00:00
+    yahoo_finance_data:
+      effective_ticker: ESTC
+      market_cap: 8217513472
 Orchestration & Management:
   API Gateway:
-  - crunchbase: https://www.crunchbase.com/organization/megaease-inc
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/megaease-inc
+    crunchbase_data:
+      acquisitions: []
+      city: Beijing
+      company_type: For Profit
+      country: China
+      description: High performance software architecture
+      homepage: https://megaease.com/
+      industries: []
+      linkedin: null
+      name: MegaEase, Inc.
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: Beijing
+      stockExchange: null
+      twitter: null
+    github_data:
+      contributions: 10;1;12;10;5;6;6;7;1;12;11;6;13;6;6;2;5;8;3;16;8;6;10;3;7;0;9;4;1;13;12;6;11;11;20;9;10;10;10;9;5;3;2;12;6;6;11;7;2;4;8;7
+      contributors_count: 52
+      contributors_link: https://github.com/megaease/easegress/graphs/contributors
+      description: A Cloud Native traffic orchestration system
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#00ADD8'
+        name: Go
+        value: 1808658
+      - color: '#89e051'
+        name: Shell
+        value: 14874
+      - color: '#427819'
+        name: Makefile
+        value: 3581
+      - color: '#384d54'
+        name: Dockerfile
+        value: 664
+      - color: '#701516'
+        name: Ruby
+        value: 56
+      latest_commit_date: '2022-08-05T06:13:07Z'
+      latest_commit_link: /megaease/easegress/commit/eeb09bedb211538a8ecd8ba1b46ec4fd6c4287ac
+      license: Apache License 2.0
+      release_date: '2022-07-07T08:26:36Z'
+      release_link: https://github.com/megaease/easegress/releases
+      stars: 4570
+    github_start_commit_data:
+      start_commit_link: /megaease/easegress/commit/bd07d16b856ec9fe26018e3e8e679140eedaa62e
+      start_date: '2017-03-27T08:44:10Z'
     homepage_url: https://megaease.com/easegress
+    image_data:
+      fileName: easegress.svg
+      hash: hz6ebcB9la/HhKoY3saJXiYx9X5rTiLtJifgtYQnwo4=
     item: null
     logo: easegress.svg
     name: Easegress
     repo_url: https://github.com/megaease/easegress
+    repos:
+    - stars: 4570
+      url: https://github.com/megaease/easegress
     twitter: https://twitter.com/megaease
-  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    twitter_data:
+      latest_tweet_date: 2022-07-27 13:04:39+00:00
+  - best_practice_data:
+      badge: 4991
+      percentage: 19
+    crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Kubernetes
+        date: '2016-03-10'
+      - acquiree: RethinkDB
+        date: '2017-02-06'
+        price: 25000
+      city: San Francisco
+      company_type: Non Profit
+      country: United States
+      description: CNCF is an open source software foundation that hosts and nurtures
+        projects like Kubernetes and Prometheus.
+      funding: 3000000
+      homepage: https://www.cncf.io
+      industries:
+      - Cloud Computing
+      - Cloud Infrastructure
+      - Non Profit
+      - Open Source
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+      name: Cloud Native Computing Foundation (CNCF)
+      num_employees_max: 50
+      num_employees_min: 11
+      parents:
+      - https://www.crunchbase.com/organization/linux-foundation
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/CloudNativeFdn
     extra:
       accepted: '2021-03-26'
       artwork_url: https://github.com/cncf/artwork/tree/master/projects/emissary-ingress
       dev_stats_url: https://emissaryingress.devstats.cncf.io/
+    github_data:
+      contributions: 30;82;54;41;16;88;71;68;84;21;11;4;31;19;23;19;43;37;15;18;0;17;20;65;75;135;55;49;20;10;4;4;3;1;1;16;18;32;20;7;16;24;24;23;28;30;16;3;3;15;10;6
+      contributors_count: 257
+      contributors_link: https://github.com/emissary-ingress/emissary/graphs/contributors
+      description: open source Kubernetes-native API gateway for microservices built
+        on the Envoy Proxy
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#3572A5'
+        name: Python
+        value: 1886638
+      - color: '#00ADD8'
+        name: Go
+        value: 1576007
+      - color: '#427819'
+        name: Makefile
+        value: 139844
+      - color: '#89e051'
+        name: Shell
+        value: 80687
+      - color: '#e34c26'
+        name: HTML
+        value: 27070
+      - color: '#384d54'
+        name: Dockerfile
+        value: 17178
+      - name: Mustache
+        value: 3855
+      latest_commit_date: '2022-08-03T18:27:50Z'
+      latest_commit_link: /emissary-ingress/emissary/commit/a42c06607e65f53ead93db911eeacf0bafc0b876
+      license: Apache License 2.0
+      release_date: '2022-08-01T15:26:51Z'
+      release_link: https://github.com/emissary-ingress/emissary/releases
+      stars: 3834
+    github_start_commit_data:
+      start_commit_link: /datawire/ambassador/commit/82ed5e4054a0eb3f4da76e45d89f020fbf1e4f14
+      start_date: '2017-03-30T19:54:17Z'
     homepage_url: https://www.getambassador.io/
+    image_data:
+      fileName: emissary-ingress.svg
+      hash: r7rCTgH5N6UYAAy/ttJj9coF35YfnmfZMC9oc0CJesA=
     item: null
     logo: emissary-ingress.svg
     name: Emissary-Ingress
     project: incubating
     repo_url: https://github.com/emissary-ingress/emissary
-  - crunchbase: https://www.crunchbase.com/organization/saaras
+    repos:
+    - stars: 3834
+      url: https://github.com/emissary-ingress/emissary
+    twitter_data:
+      latest_tweet_date: 2022-08-05 21:09:37+00:00
+  - best_practice_data:
+      badge: 4383
+      percentage: 72
+    crunchbase: https://www.crunchbase.com/organization/saaras
+    crunchbase_data:
+      acquisitions: []
+      city: Milpitas
+      company_type: ''
+      country: United States
+      description: Security, Observability and Policy for your (micro)service/API
+        across clouds and platforms
+      homepage: http://saaras.io/
+      industries:
+      - Cloud Security
+      - Compliance
+      - Enterprise Software
+      - Network Security
+      - Open Source
+      - Security
+      linkedin: https://www.linkedin.com/company/saarasio/
+      name: Saaras
+      num_employees_max: null
+      num_employees_min: null
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/SaarasInc
+    github_data:
+      contributions: 13;0;0;6;0;0;0;0;0;3;0;0;0;0;1;0;0;0;2;0;3;0;0;6;1;0;2;0;7;2;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;2;3;3;3;12;3;0
+      contributors_count: 7
+      contributors_link: https://github.com/saarasio/enroute/graphs/contributors
+      description: EnRoute Ingress API Gateway - Connectivity and Security for your
+        Microservice at Kubernetes Ingress using one helm command. Built on Envoy
+        Proxy.
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#00ADD8'
+        name: Go
+        value: 1346244
+      - color: '#89e051'
+        name: Shell
+        value: 23143
+      - name: PLpgSQL
+        value: 21309
+      - name: CMake
+        value: 7895
+      - name: Smarty
+        value: 7428
+      - color: '#f34b7d'
+        name: C++
+        value: 4611
+      - color: '#427819'
+        name: Makefile
+        value: 3384
+      - color: '#000080'
+        name: Lua
+        value: 516
+      - color: '#384d54'
+        name: Dockerfile
+        value: 281
+      latest_commit_date: '2022-07-27T06:33:20Z'
+      latest_commit_link: /saarasio/enroute/commit/1eee5f22bd0175535c2faba4460ff81cdc99a900
+      license: Apache License 2.0
+      release_date: '2022-07-27T06:53:13Z'
+      release_link: https://github.com/saarasio/enroute/releases
+      stars: 168
+    github_start_commit_data:
+      start_commit_link: /saarasio/enroute/commit/43836a51f7e5755c13ef902aebd1494c748ea1d1
+      start_date: '2019-07-31T06:33:02Z'
     homepage_url: https://www.getenroute.io
+    image_data:
+      fileName: en-route-one-step-ingress.svg
+      hash: DPtlrSrbGZVqrx9ZFs68S2EZPa5J/BZXXLDLyArFDR4=
     item: null
     logo: saaras.svg
     name: EnRoute OneStep Ingress
     repo_url: https://github.com/saarasio/enroute
+    repos:
+    - stars: 168
+      url: https://github.com/saarasio/enroute
+    twitter_data:
+      latest_tweet_date: 2022-08-01 18:27:10+00:00
   Coordination & Service Discovery: []
   Remote Procedure Call: []
   Scheduling & Orchestration: []
   Service Mesh:
-  - crunchbase: https://www.crunchbase.com/organization/megaease-inc
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/megaease-inc
+    crunchbase_data:
+      acquisitions: []
+      city: Beijing
+      company_type: For Profit
+      country: China
+      description: High performance software architecture
+      homepage: https://megaease.com/
+      industries: []
+      linkedin: null
+      name: MegaEase, Inc.
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: Beijing
+      stockExchange: null
+      twitter: null
+    github_data:
+      contributions: 5;1;2;2;2;6;4;0;0;1;2;0;2;2;0;2;3;2;0;2;2;0;2;0;0;0;1;3;1;1;1;3;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;1;0
+      contributors_count: 12
+      contributors_link: https://github.com/megaease/easemesh/graphs/contributors
+      description: A service mesh implementation for connecting,  control, and observe
+        services in spring-cloud.
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#00ADD8'
+        name: Go
+        value: 731681
+      - color: '#427819'
+        name: Makefile
+        value: 8441
+      - color: '#384d54'
+        name: Dockerfile
+        value: 1120
+      - color: '#89e051'
+        name: Shell
+        value: 156
+      latest_commit_date: '2022-07-27T08:30:06Z'
+      latest_commit_link: /megaease/easemesh/commit/a076da25fbff5cdc08460183c761e103470d4eaf
+      license: Apache License 2.0
+      release_date: '2022-03-24T09:36:01Z'
+      release_link: https://github.com/megaease/easemesh/releases
+      stars: 417
+    github_start_commit_data:
+      start_commit_link: /megaease/easemesh/commit/958c984d5eadd7d615007b0e44927c2733b68789
+      start_date: '2021-02-01T06:24:30Z'
     homepage_url: https://megaease.com/easemesh
+    image_data:
+      fileName: ease-mesh.svg
+      hash: DH/+GGG9+enfs+W/wTzgYDb1Lg+YNYYU1JQfTKyh2aE=
     item: null
     logo: easemesh.svg
     name: EaseMesh
     repo_url: https://github.com/megaease/easemesh
+    repos:
+    - stars: 417
+      url: https://github.com/megaease/easemesh
     twitter: https://twitter.com/megaease
+    twitter_data:
+      latest_tweet_date: 2022-07-27 13:04:39+00:00
   Service Proxy:
-  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  - best_practice_data:
+      badge: 1266
+      percentage: 100
+    crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Kubernetes
+        date: '2016-03-10'
+      - acquiree: RethinkDB
+        date: '2017-02-06'
+        price: 25000
+      city: San Francisco
+      company_type: Non Profit
+      country: United States
+      description: CNCF is an open source software foundation that hosts and nurtures
+        projects like Kubernetes and Prometheus.
+      funding: 3000000
+      homepage: https://www.cncf.io
+      industries:
+      - Cloud Computing
+      - Cloud Infrastructure
+      - Non Profit
+      - Open Source
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+      name: Cloud Native Computing Foundation (CNCF)
+      num_employees_max: 50
+      num_employees_min: 11
+      parents:
+      - https://www.crunchbase.com/organization/linux-foundation
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/CloudNativeFdn
     extra:
       accepted: '2017-09-13'
       artwork_url: https://github.com/cncf/artwork/blob/master/examples/graduated.md#envoy-logos
       dev_stats_url: https://envoy.devstats.cncf.io/
       slack_url: https://envoyproxy.slack.com/
       stack_overflow_url: https://stackoverflow.com/questions/tagged/envoyproxy
+    github_data:
+      contributions: 41;40;49;50;29;47;51;59;64;54;38;45;36;46;41;13;36;25;40;6;13;34;63;38;51;48;51;52;27;50;36;82;51;46;62;52;50;85;61;49;65;51;46;34;58;65;51;42;83;84;42;62
+      contributors_count: 1011
+      contributors_link: https://github.com/envoyproxy/envoy/graphs/contributors
+      description: Cloud-native high-performance edge/middle/service proxy
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#f34b7d'
+        name: C++
+        value: 33782267
+      - name: Starlark
+        value: 1949896
+      - color: '#3572A5'
+        name: Python
+        value: 566208
+      - color: '#89e051'
+        name: Shell
+        value: 176406
+      - name: Jinja
+        value: 46306
+      - color: '#dea584'
+        name: Rust
+        value: 38041
+      - color: '#555555'
+        name: C
+        value: 9479
+      - name: Smarty
+        value: 1287
+      - color: '#c065db'
+        name: Emacs Lisp
+        value: 966
+      - color: '#384d54'
+        name: Dockerfile
+        value: 891
+      - name: Thrift
+        value: 748
+      - color: '#563d7c'
+        name: CSS
+        value: 598
+      - color: '#00ADD8'
+        name: Go
+        value: 558
+      - color: '#5a6986'
+        name: PureBasic
+        value: 472
+      - color: '#C1F12E'
+        name: Batchfile
+        value: 439
+      - color: '#427819'
+        name: Makefile
+        value: 303
+      - color: '#f1e05a'
+        name: JavaScript
+        value: 76
+      - color: '#e34c26'
+        name: HTML
+        value: 68
+      latest_commit_date: '2022-08-05T14:21:44Z'
+      latest_commit_link: /envoyproxy/envoy/commit/71d61bf36628bbd6d967f92b0628cccda0bbc821
+      license: Apache License 2.0
+      release_date: '2022-08-03T14:11:01Z'
+      release_link: https://github.com/envoyproxy/envoy/releases
+      stars: 20140
+    github_start_commit_data:
+      start_commit_link: /envoyproxy/envoy/commit/a714b9c2b0a2acc9da44098cabff69586134a0dd
+      start_date: '2016-08-08T15:07:25Z'
     homepage_url: https://www.envoyproxy.io
+    image_data:
+      fileName: envoy.svg
+      hash: 0COEZmDxBuHsRjEmJcGUxa299np0lkSqUFGRAxfDt4M=
     item: null
     logo: envoy.svg
     name: Envoy
     project: graduated
     repo_url: https://github.com/envoyproxy/envoy
+    repos:
+    - stars: 20140
+      url: https://github.com/envoyproxy/envoy
     twitter: https://twitter.com/envoyproxy
+    twitter_data:
+      latest_tweet_date: 2022-07-21 13:14:48+00:00
 Platform:
   Certified Kubernetes - Distribution:
-  - crunchbase: https://www.crunchbase.com/organization/easystack
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/easystack
+    crunchbase_data:
+      acquisitions: []
+      city: Beijing
+      company_type: For Profit
+      country: China
+      description: EasyStack provides open cloud solutions and services for China
+        and Asia market.
+      funding: 114000000
+      homepage: http://www.easystack.cn/en/
+      industries:
+      - Cloud Computing
+      - Enterprise
+      - Information Technology
+      kind: funding
+      linkedin: https://www.linkedin.com/company/6656236
+      name: EasyStack
+      num_employees_max: 250
+      num_employees_min: 101
+      parents: []
+      region: Beijing
+      stockExchange: null
+      twitter: https://twitter.com/EasyStackIO
     description: EasyStack Kubernetes Service's enterprise container platform integrates
       applications and infrastructure resources through deep integration of Kubernetes
       and OpenStack platforms in multiple management dimensions such as scheduling,
       scheduling, security, operation and maintenance, and finally launches a new
       generation of application delivery in the cloud data center.
     homepage_url: https://www.easystack.cn/eks
+    image_data:
+      fileName: easy-stack-kubernetes-service-eks.svg
+      hash: /Dfhyg41h7L6RTTWL+ahcpCMYWW1eC6WUydyrFYB7Og=
     item: null
     logo: easystack.svg
     name: EasyStack Kubernetes Service (EKS)
-  - crunchbase: https://www.crunchbase.com/organization/elastisys
+    twitter_data:
+      latest_tweet_date: 2021-02-10 03:05:14+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/elastisys
+    crunchbase_data:
+      acquisitions: []
+      city: "Ume\xE5"
+      company_type: For Profit
+      country: Sweden
+      description: Elastisys develops and sells a management platform for cloud-based
+        applications like intelligent.
+      funding: 679613
+      homepage: https://elastisys.com/
+      industries:
+      - Cloud Computing
+      - Information Technology
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/elastisys/
+      name: Elastisys
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: Vasterbottens Lan
+      stockExchange: null
+      twitter: https://twitter.com/elastisys
     description: Compliant Kubernetes (ck8s) is an enterprise-grade Kubernetes distribution,
       built with security and compliance in mind.
+    github_data:
+      contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+      contributors_count: 11
+      contributors_link: https://github.com/elastisys/ck8s-cluster/graphs/contributors
+      description: Infrastructure and kubernetes provisioner for compliant kubernetes.
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#00ADD8'
+        name: Go
+        value: 298213
+      - name: HCL
+        value: 84494
+      - color: '#e34c26'
+        name: HTML
+        value: 21151
+      - color: '#89e051'
+        name: Shell
+        value: 16957
+      - color: '#384d54'
+        name: Dockerfile
+        value: 1959
+      - color: '#427819'
+        name: Makefile
+        value: 369
+      latest_commit_date: '2021-02-23T07:59:16Z'
+      latest_commit_link: /elastisys/ck8s-cluster/commit/7bc293a67e476a07829676f4e2eac00c7dd0f300
+      license: Apache License 2.0
+      release_date: '2020-12-11T12:51:46Z'
+      release_link: https://github.com/elastisys/ck8s-cluster/releases
+      stars: 16
+    github_start_commit_data:
+      start_commit_link: /elastisys/ck8s-cluster/commit/495cdb32ed92239d16e0151b7d8dc8c819061bd4
+      start_date: '2020-09-15T08:00:31Z'
     homepage_url: https://elastisys.io/compliantkubernetes
+    image_data:
+      fileName: elastisys-compliant-kubernetes.svg
+      hash: 3aQKWm66emCLykPiX0LVkHzvJBeDkKwfN6A2wYi29QA=
     item: null
     logo: elastisys.svg
     name: Elastisys Compliant Kubernetes
     repo_url: https://github.com/elastisys/ck8s-cluster
-  - crunchbase: https://www.crunchbase.com/organization/ericsson
+    repos:
+    - stars: 16
+      url: https://github.com/elastisys/ck8s-cluster
+    twitter_data:
+      latest_tweet_date: 2022-07-20 06:11:36+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/ericsson
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Advanced Computer Communications
+        date: '1998-09-10'
+        price: 285000000
+      - acquiree: Ericsson Amplified Technologies
+        date: '2000-10-13'
+        price: 100000000
+      - acquiree: Netspira Networks
+        date: '2005-06-03'
+      - acquiree: Teleca
+        date: '2005-07-04'
+      - acquiree: Axxessit AS
+        date: '2005-07-25'
+      - acquiree: Marconi Corporation plc
+        date: '2005-10-25'
+        price: 2137920836
+      - acquiree: Redback Networks
+        date: '2006-12-19'
+        price: 2100000000
+      - acquiree: Entrisphere
+        date: '2007-02-13'
+      - acquiree: Ericsson Television
+        date: '2007-02-26'
+        price: 1390583169
+      - acquiree: LHS Germany
+        date: '2007-06-05'
+        price: 419267931
+      - acquiree: Drutt Corporation
+        date: '2007-06-08'
+      - acquiree: Pride SpA
+        date: '2010-12-01'
+      - acquiree: Optimi Corporation
+        date: '2010-12-22'
+      - acquiree: iconectiv
+        date: '2011-06-14'
+      - acquiree: Technicolor - Broadcast Services
+        date: '2012-03-13'
+        price: 24858275
+      - acquiree: BelAir Networks
+        date: '2012-04-03'
+      - acquiree: Aspex Semiconductor
+        date: '2012-07-31'
+      - acquiree: ConceptWave Software
+        date: '2012-09-25'
+      - acquiree: Red Bee Media
+        date: '2013-07-01'
+      - acquiree: Microsoft Mediaroom
+        date: '2013-09-05'
+      - acquiree: Airvana - EVDO business
+        date: '2013-09-06'
+      - acquiree: Azuki Systems
+        date: '2014-02-06'
+      - acquiree: MetraTech
+        date: '2014-07-29'
+      - acquiree: Fabrix Systems
+        date: '2014-09-12'
+        price: 95000000
+      - acquiree: Apcera
+        date: '2014-09-22'
+      - acquiree: GEOSS
+        date: '2014-09-26'
+      - acquiree: Ambient Corporation
+        date: '2014-10-01'
+      - acquiree: Sentilla
+        date: '2014-10-16'
+      - acquiree: TimelessMIND
+        date: '2015-04-09'
+      - acquiree: Envivio
+        date: '2015-09-10'
+        price: 125000000
+      - acquiree: FYI Television
+        date: '2016-01-19'
+      - acquiree: NodePrime
+        date: '2016-04-05'
+      - acquiree: Ericpol
+        date: '2016-06-21'
+      - acquiree: Allolio&Konrad
+        date: '2016-12-01'
+      - acquiree: VidScale
+        date: '2018-04-04'
+      - acquiree: CENX
+        date: '2018-09-04'
+      - acquiree: Genaker
+        date: '2020-03-12'
+      - acquiree: Cradlepoint
+        date: '2020-09-17'
+        price: 1100000000
+      - acquiree: Vonage
+        date: '2021-11-22'
+        price: 6200000000
+      city: Stockholm
+      company_type: For Profit
+      country: Sweden
+      description: Ericsson is a technology company that provides and operates telecommunications
+        networks, television and video systems, and related services.
+      funding: 663160564
+      homepage: https://www.ericsson.com/en
+      industries:
+      - Information Technology
+      - Internet
+      - Mobile
+      - Telecommunications
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/1060
+      name: Ericsson
+      num_employees_max: 1000000
+      num_employees_min: 10001
+      parents:
+      - https://www.crunchbase.com/organization/investor-ab
+      region: Stockholms Lan
+      stockExchange: nasdaq
+      ticker: ERIC
+      twitter: https://twitter.com/ericsson
     description: Ericsson Cloud Container Distribution provides container management
       and orchestration for the Ericsson Telco applications that have been adopted
       to the Cloud Native based Architecture and run in a container environment.
     homepage_url: https://www.ericsson.com/en/portfolio/digital-services/cloud-infrastructure/cloud-container-distribution
+    image_data:
+      fileName: ericsson-cloud-container-distribution.svg
+      hash: HhjCc1eNOMDeLu0ftdKCe9SnwIinEmKKa4iqIsIQbWw=
     item: null
     logo: ericsson.svg
     name: Ericsson Cloud Container Distribution
+    twitter_data:
+      latest_tweet_date: 2022-08-05 16:28:32+00:00
+    yahoo_finance_data:
+      effective_ticker: ERIC
+      market_cap: 25476265984
   Certified Kubernetes - Hosted:
-  - crunchbase: https://www.crunchbase.com/organization/elastx
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/elastx
+    crunchbase_data:
+      acquisitions: []
+      city: Stockholm
+      company_type: For Profit
+      country: Sweden
+      description: Public cloud made in Sweden
+      homepage: https://elastx.se/en
+      industries:
+      - Information Technology
+      - Software
+      linkedin: https://www.linkedin.com/company/elastx/
+      name: Elastx
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: Stockholms Lan
+      stockExchange: null
+      twitter: https://twitter.com/elastx
     description: ELASTX Private Kubernetes is fully managed and runs on top of our
       OpenStack platform in your own tenant.
     homepage_url: https://elastx.se/en/kubernetes/
+    image_data:
+      fileName: elastx-private-kubernetes.svg
+      hash: 0Pvh5ktCBEssxlh5SRWw2M6RgUf+Z0w9VQUE+oQVRuk=
     item: null
     logo: elastx.svg
     name: ELASTX Private Kubernetes
-  - crunchbase: https://www.crunchbase.com/organization/exoscale
+    twitter_data:
+      latest_tweet_date: 2020-06-26 10:00:03+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/exoscale
+    crunchbase_data:
+      acquisitions:
+      - acquiree: cloudControl
+        date: '2016-04-11'
+      city: Lausanne
+      company_type: For Profit
+      country: Switzerland
+      description: Exoscale is the cloud hosting platform for SaaS companies, developers
+        and systems administrators.
+      funding: 0
+      homepage: https://www.exoscale.com
+      industries:
+      - Cloud Computing
+      - IaaS
+      - Information Technology
+      - Internet
+      - SaaS
+      linkedin: https://www.linkedin.com/company/exoscale
+      name: Exoscale
+      num_employees_max: 100
+      num_employees_min: 51
+      parents: []
+      region: Vaud
+      stockExchange: null
+      twitter: https://twitter.com/exoscale
     description: Scalable, On-demand Kubernetes Clusters on a privacy minded public
       cloud to host from simple applications to complex architectures.  Deploy a production
       ready cluster in 90 seconds and manage it with a simple web portal, CLI, API
       or your choice of tools like Terraform.
     homepage_url: https://www.exoscale.com/sks/
+    image_data:
+      fileName: exoscale.svg
+      hash: HL2ljT+qS96GqJA1W6XeehsleYjABfLUb9GgqdYuvT0=
     item: null
     logo: exoscale-member.svg
     name: Exoscale
+    twitter_data:
+      latest_tweet_date: 2022-08-05 12:00:35+00:00
   Certified Kubernetes - Installer: []
   PaaS/Container Service: []
 Provisioning:
@@ -299,15 +2363,76 @@ Runtime:
   Container Runtime: []
 Serverless:
   Framework:
-  - crunchbase: https://www.crunchbase.com/organization/apache
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/apache
+    crunchbase_data:
+      acquisitions: []
+      city: Forest Hill
+      company_type: Non Profit
+      country: United States
+      description: Apache Software Foundation provides organizational, legal and financial
+        support for Apache open-source software projects.
+      homepage: http://www.apache.org
+      industries:
+      - Non Profit
+      - Software
+      linkedin: https://www.linkedin.com/company/the-apache-software-foundation
+      name: The Apache Software Foundation
+      num_employees_max: 10
+      num_employees_min: 1
+      parents: []
+      region: Maryland
+      stockExchange: null
+      twitter: http://twitter.com/TheASF
     description: EventMesh is a dynamic cloud-native eventing infrastruture used to
       decouple the application and backend middleware layer.
+    github_data:
+      contributions: 8;1;4;0;4;2;7;4;9;5;5;9;8;8;10;14;14;30;14;12;11;10;7;17;8;0;4;7;10;9;4;5;0;3;11;8;9;2;5;11;10;32;27;8;39;61;12;25;18;17;21;13
+      contributors_count: 83
+      contributors_link: https://github.com/apache/incubator-eventmesh/graphs/contributors
+      description: EventMesh is a dynamic event-driven application runtime used to
+        decouple the application and backend middleware layer, which supports a wide
+        range of use cases that encompass complex multi-cloud, widely distributed
+        topologies using diverse technology stacks.
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#b07219'
+        name: Java
+        value: 2986987
+      - color: '#00ADD8'
+        name: Go
+        value: 214167
+      - color: '#89e051'
+        name: Shell
+        value: 66009
+      - color: '#384d54'
+        name: Dockerfile
+        value: 2219
+      latest_commit_date: '2022-08-03T07:40:03Z'
+      latest_commit_link: /apache/incubator-eventmesh/commit/93c6d9fbbb0ce3db98267f2c63aae1e99e6d5c71
+      license: Apache License 2.0
+      release_date: '2022-07-04T08:50:37Z'
+      release_link: https://github.com/apache/incubator-eventmesh/releases
+      stars: 1017
+    github_start_commit_data:
+      start_commit_link: /apache/incubator-eventmesh/commit/10e659846aa1f76bdd4663918e4b1213eb2eb6f7
+      start_date: '2019-09-16T03:04:57Z'
     homepage_url: https://eventmesh.apache.org/
+    image_data:
+      fileName: event-mesh.svg
+      hash: 7pK4ZN48TGeB0Xtuc1UMgteDyAWWcxSLbCB9xXbVxts=
     item: null
     logo: eventmesh.svg
     name: EventMesh
     repo_url: https://github.com/apache/incubator-eventmesh
+    repos:
+    - stars: 1017
+      url: https://github.com/apache/incubator-eventmesh
     twitter: https://twitter.com/ASFEventMesh
+    twitter_data:
+      latest_tweet_date: 2021-06-30 02:02:36+00:00
   Hosted Platform: []
   Installable Platform: []
   Security: []
@@ -315,65 +2440,351 @@ Serverless:
 Special:
   Certified CNFs: []
   Kubernetes Certified Service Provider:
-  - crunchbase: https://www.crunchbase.com/organization/easystack
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/easystack
+    crunchbase_data:
+      acquisitions: []
+      city: Beijing
+      company_type: For Profit
+      country: China
+      description: EasyStack provides open cloud solutions and services for China
+        and Asia market.
+      funding: 114000000
+      homepage: http://www.easystack.cn/en/
+      industries:
+      - Cloud Computing
+      - Enterprise
+      - Information Technology
+      kind: funding
+      linkedin: https://www.linkedin.com/company/6656236
+      name: EasyStack
+      num_employees_max: 250
+      num_employees_min: 101
+      parents: []
+      region: Beijing
+      stockExchange: null
+      twitter: https://twitter.com/EasyStackIO
     homepage_url: https://www.easystack.cn/
+    image_data:
+      fileName: easy-stack-kcsp.svg
+      hash: /Dfhyg41h7L6RTTWL+ahcpCMYWW1eC6WUydyrFYB7Og=
     item: null
     logo: easystack.svg
     name: EasyStack (KCSP)
-  - crunchbase: https://www.crunchbase.com/organization/enterprisedb
+    twitter_data:
+      latest_tweet_date: 2021-02-10 03:05:14+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/enterprisedb
+    crunchbase_data:
+      acquisitions:
+      - acquiree: 2ndQuadrant
+        date: '2020-09-30'
+      city: Bedford
+      company_type: For Profit
+      country: United States
+      description: EDB is an open source-based data platform.
+      funding: 67921718
+      homepage: https://www.enterprisedb.com
+      industries:
+      - Analytics
+      - Big Data
+      - Business Intelligence
+      - Database
+      - Enterprise Software
+      - Hardware
+      - Open Source
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/14958
+      name: EDB
+      num_employees_max: 500
+      num_employees_min: 251
+      parents: []
+      region: Massachusetts
+      stockExchange: null
+      twitter: https://twitter.com/EDBPostgres
     description: Our services are designed to help enterprises become Cloud Native
       under the supervision of certified Kubernetes and PostgreSQL experts.
     homepage_url: https://www.2ndquadrant.com/en/resources/kubernetes-operators-for-highly-available-postgresql-and-bdr
+    image_data:
+      fileName: edb-kcsp.svg
+      hash: L8/DoWFYwW0YujFOclXOWZGZz9KM51hgjNQwM3pkpP0=
     item: null
     logo: enterprisedb.svg
     name: EDB (KCSP)
-  - crunchbase: https://www.crunchbase.com/organization/eficode
+    twitter_data:
+      latest_tweet_date: 2022-08-05 12:02:34+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/eficode
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Videnhuset as
+        date: '2011-11-01'
+      - acquiree: Adage Oy
+        date: '2017-04-03'
+      - acquiree: Praqma
+        date: '2019-05-20'
+      - acquiree: Riada
+        date: '2021-01-29'
+      - acquiree: Beecom
+        date: '2021-05-18'
+      city: Helsinki
+      company_type: For Profit
+      country: Finland
+      description: Eficode is a DevOps, software, automation, and design company with
+        offices in Northern and Western Europe.
+      funding: 7423179
+      homepage: http://www.eficode.com
+      industries:
+      - Developer Tools
+      - Information Technology
+      - Linux
+      - Open Source
+      - Software
+      - Web Development
+      kind: funding
+      linkedin: https://www.linkedin.com/company/eficode
+      name: Eficode
+      num_employees_max: 500
+      num_employees_min: 251
+      parents: []
+      region: Southern Finland
+      stockExchange: null
+      twitter: http://twitter.com/Eficode
     description: Eficode is the leading Continuous Delivery and DevOps consultancy
       in Europe. We have been helping our customers succeed on Kubernetes projects
       for years and offer Kubernetes consulting, support and training for organizations
       embarking on their Kubernetes journey.
     homepage_url: https://www.eficode.com/
+    image_data:
+      fileName: eficode-kcsp.svg
+      hash: cH09stEcK0ATPOVb/mUFU3CrYFaMePgh3CMMlYWyVyw=
     item: null
     logo: eficode.svg
     name: Eficode (KCSP)
-  - crunchbase: https://www.crunchbase.com/organization/elastisys
+    twitter_data:
+      latest_tweet_date: 2022-08-05 07:59:59+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/elastisys
+    crunchbase_data:
+      acquisitions: []
+      city: "Ume\xE5"
+      company_type: For Profit
+      country: Sweden
+      description: Elastisys develops and sells a management platform for cloud-based
+        applications like intelligent.
+      funding: 679613
+      homepage: https://elastisys.com/
+      industries:
+      - Cloud Computing
+      - Information Technology
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/elastisys/
+      name: Elastisys
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: Vasterbottens Lan
+      stockExchange: null
+      twitter: https://twitter.com/elastisys
     description: Elastisys is a Kubernetes partner that designs, builds, and operates
       Kubernetes clusters. We excel in creation of self-healing, self-managing, and
       self-optimizing infrastructures based on Kubernetes and related cloud native
       projects.
     homepage_url: https://elastisys.com/
+    image_data:
+      fileName: elastisys-kcsp.svg
+      hash: 3aQKWm66emCLykPiX0LVkHzvJBeDkKwfN6A2wYi29QA=
     item: null
     logo: elastisys.svg
     name: Elastisys (KCSP)
-  - crunchbase: https://www.crunchbase.com/organization/elastx
+    twitter_data:
+      latest_tweet_date: 2022-07-20 06:11:36+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/elastx
+    crunchbase_data:
+      acquisitions: []
+      city: Stockholm
+      company_type: For Profit
+      country: Sweden
+      description: Public cloud made in Sweden
+      homepage: https://elastx.se/en
+      industries:
+      - Information Technology
+      - Software
+      linkedin: https://www.linkedin.com/company/elastx/
+      name: Elastx
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: Stockholms Lan
+      stockExchange: null
+      twitter: https://twitter.com/elastx
     description: ELASTX is a public cloud provider based in the Nordics. We love sustainable
       IT and our CloudOps Engineers help companies automate the entire process from
       code to production.
     homepage_url: https://elastx.se/en/kubernetes/
+    image_data:
+      fileName: elastx-kcsp.svg
+      hash: 0Pvh5ktCBEssxlh5SRWw2M6RgUf+Z0w9VQUE+oQVRuk=
     item: null
     logo: elastx.svg
     name: ELASTX (KCSP)
-  - crunchbase: https://www.crunchbase.com/organization/engineerbetter
+    twitter_data:
+      latest_tweet_date: 2020-06-26 10:00:03+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/engineerbetter
+    crunchbase_data:
+      acquisitions: []
+      city: London
+      company_type: For Profit
+      country: United Kingdom
+      description: EngineerBetter offer holistic services to help you deliver value
+        faster with Cloud Foundry.
+      homepage: http://www.engineerbetter.com/
+      industries:
+      - CRM
+      - Information Technology
+      - Software
+      linkedin: https://www.linkedin.com/company-beta/10542315/
+      name: EngineerBetter
+      num_employees_max: 10
+      num_employees_min: 1
+      parents: []
+      region: England
+      stockExchange: null
+      twitter: https://twitter.com/engineerbetter
     description: Helping you deliver value on Kubernetes faster via delivery, enablement,
       training and organisational transformation services. Experts in the continuous
       delivery and automation of infrastructure, cloud native apps.
     homepage_url: https://www.engineerbetter.com/our-services/
+    image_data:
+      fileName: engineer-better-kcsp.svg
+      hash: 3qubc5YNXlXml6eyWGs84FhPVS7grhQiqtaoTfgKbzE=
     item: null
     logo: engineer-better.svg
     name: EngineerBetter (KCSP)
-  - crunchbase: https://www.crunchbase.com/organization/entigo-0301
+    twitter_data:
+      latest_tweet_date: 2022-01-21 16:56:28+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/entigo-0301
+    crunchbase_data:
+      acquisitions: []
+      city: Tallinn
+      company_type: For Profit
+      country: Estonia
+      description: Our goal is to simplify your software delivery and operations.
+      homepage: https://www.entigo.com/
+      industries:
+      - Delivery
+      - Information Technology
+      - Software
+      linkedin: null
+      name: Entigo
+      num_employees_max: null
+      num_employees_min: null
+      parents: []
+      region: Harjumaa
+      stockExchange: null
+      twitter: null
     description: Simplify your software delivery and operations.
     homepage_url: https://www.entigo.com/services/kubernetes-implementation/
+    image_data:
+      fileName: entigo-kcsp.svg
+      hash: o1OXcNjgSc4iJWvWGzbxDOUs3MfKJPYSIqihMSftwgo=
     item: null
     logo: entigo.svg
     name: Entigo (KCSP)
   Kubernetes Training Partner:
-  - crunchbase: https://www.crunchbase.com/organization/easystack
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/easystack
+    crunchbase_data:
+      acquisitions: []
+      city: Beijing
+      company_type: For Profit
+      country: China
+      description: EasyStack provides open cloud solutions and services for China
+        and Asia market.
+      funding: 114000000
+      homepage: http://www.easystack.cn/en/
+      industries:
+      - Cloud Computing
+      - Enterprise
+      - Information Technology
+      kind: funding
+      linkedin: https://www.linkedin.com/company/6656236
+      name: EasyStack
+      num_employees_max: 250
+      num_employees_min: 101
+      parents: []
+      region: Beijing
+      stockExchange: null
+      twitter: https://twitter.com/EasyStackIO
     homepage_url: https://www.easystack.cn/
+    image_data:
+      fileName: easy-stack-ktp.svg
+      hash: /Dfhyg41h7L6RTTWL+ahcpCMYWW1eC6WUydyrFYB7Og=
     item: null
     logo: easystack.svg
     name: EasyStack (KTP)
-  - crunchbase: https://www.crunchbase.com/organization/eficode
+    twitter_data:
+      latest_tweet_date: 2021-02-10 03:05:14+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/eficode
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Videnhuset as
+        date: '2011-11-01'
+      - acquiree: Adage Oy
+        date: '2017-04-03'
+      - acquiree: Praqma
+        date: '2019-05-20'
+      - acquiree: Riada
+        date: '2021-01-29'
+      - acquiree: Beecom
+        date: '2021-05-18'
+      city: Helsinki
+      company_type: For Profit
+      country: Finland
+      description: Eficode is a DevOps, software, automation, and design company with
+        offices in Northern and Western Europe.
+      funding: 7423179
+      homepage: http://www.eficode.com
+      industries:
+      - Developer Tools
+      - Information Technology
+      - Linux
+      - Open Source
+      - Software
+      - Web Development
+      kind: funding
+      linkedin: https://www.linkedin.com/company/eficode
+      name: Eficode
+      num_employees_max: 500
+      num_employees_min: 251
+      parents: []
+      region: Southern Finland
+      stockExchange: null
+      twitter: http://twitter.com/Eficode
     description: Eficode offers a wide range of training and workshops in cloud native
       technologies like Docker and Kubernetes. We offer both on-site and remote courses
       in Scandinavia, DACH region, and Finland.
@@ -381,25 +2792,85 @@ Special:
       training_certifications: cka
       training_type: instructor-led
     homepage_url: https://www.eficode.com/academy/cloud
+    image_data:
+      fileName: eficode-ktp.svg
+      hash: cH09stEcK0ATPOVb/mUFU3CrYFaMePgh3CMMlYWyVyw=
     item: null
     logo: eficode.svg
     name: Eficode (KTP)
-  - crunchbase: https://www.crunchbase.com/organization/elastisys
+    twitter_data:
+      latest_tweet_date: 2022-08-05 07:59:59+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/elastisys
+    crunchbase_data:
+      acquisitions: []
+      city: "Ume\xE5"
+      company_type: For Profit
+      country: Sweden
+      description: Elastisys develops and sells a management platform for cloud-based
+        applications like intelligent.
+      funding: 679613
+      homepage: https://elastisys.com/
+      industries:
+      - Cloud Computing
+      - Information Technology
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/elastisys/
+      name: Elastisys
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: Vasterbottens Lan
+      stockExchange: null
+      twitter: https://twitter.com/elastisys
     description: Elastisys training builds on our experience of setting up and operating
       highly available and secure Kubernetes clusters for companies all over the world.
     extra:
       training_certifications: cka, ckad, kcna
       training_type: e-learning, instructor-led
     homepage_url: https://elastisys.com/
+    image_data:
+      fileName: elastisys-ktp.svg
+      hash: 3aQKWm66emCLykPiX0LVkHzvJBeDkKwfN6A2wYi29QA=
     item: null
     logo: elastisys.svg
     name: Elastisys (KTP)
-  - crunchbase: https://www.crunchbase.com/organization/entigo-0301
+    twitter_data:
+      latest_tweet_date: 2022-07-20 06:11:36+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/entigo-0301
+    crunchbase_data:
+      acquisitions: []
+      city: Tallinn
+      company_type: For Profit
+      country: Estonia
+      description: Our goal is to simplify your software delivery and operations.
+      homepage: https://www.entigo.com/
+      industries:
+      - Delivery
+      - Information Technology
+      - Software
+      linkedin: null
+      name: Entigo
+      num_employees_max: null
+      num_employees_min: null
+      parents: []
+      region: Harjumaa
+      stockExchange: null
+      twitter: null
     description: Simplify your software delivery and operations.
     extra:
       training_certifications: cka
       training_type: instructor-led
     homepage_url: https://www.entigo.com/et/koolitused/
+    image_data:
+      fileName: entigo-ktp.svg
+      hash: o1OXcNjgSc4iJWvWGzbxDOUs3MfKJPYSIqihMSftwgo=
     item: null
     logo: entigo.svg
     name: Entigo (KTP)

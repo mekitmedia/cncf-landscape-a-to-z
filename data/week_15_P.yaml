@@ -1,18 +1,279 @@
 App Definition and Development:
   Application Definition & Image Build:
-  - crunchbase: https://www.crunchbase.com/organization/hashicorp
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/hashicorp
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Vektra
+        date: '2016-06-14'
+      city: San Francisco
+      company_type: For Profit
+      country: United States
+      description: HashiCorp is a remote-first company that solves development, security,
+        and operations challenges in infrastructure.
+      funding: 349175000
+      homepage: https://www.hashicorp.com
+      industries:
+      - Cloud Infrastructure
+      - Cyber Security
+      - Information Technology
+      - Private Cloud
+      - Software
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/HashiCorp
+      name: HashiCorp
+      num_employees_max: 5000
+      num_employees_min: 1001
+      parents: []
+      region: California
+      stockExchange: nasdaq
+      ticker: HCP
+      twitter: https://twitter.com/HashiCorp
+    github_data:
+      contributions: 6;1;8;14;10;12;2;12;15;18;18;13;20;5;5;2;5;6;15;2;0;2;8;11;8;10;3;4;9;35;10;7;4;0;0;3;4;2;5;2;14;27;10;3;7;5;0;6;1;6;10;8
+      contributors_count: 1457
+      contributors_link: https://github.com/hashicorp/packer/graphs/contributors
+      description: Packer is a tool for creating identical machine images for multiple
+        platforms from a single source configuration.
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#00ADD8'
+        name: Go
+        value: 1262952
+      - name: HCL
+        value: 57424
+      - color: '#89e051'
+        name: Shell
+        value: 32719
+      - color: '#f1e05a'
+        name: JavaScript
+        value: 16118
+      - color: '#427819'
+        name: Makefile
+        value: 8698
+      - color: '#384d54'
+        name: Dockerfile
+        value: 4735
+      - color: '#012456'
+        name: PowerShell
+        value: 3058
+      - color: '#3572A5'
+        name: Python
+        value: 2144
+      - color: '#C1F12E'
+        name: Batchfile
+        value: 80
+      latest_commit_date: '2022-08-05T17:42:56Z'
+      latest_commit_link: /hashicorp/packer/commit/d2c83c49441b73ce49e2da39fe1bf451c3467b82
+      license: Mozilla Public License 2.0
+      release_date: '2022-03-10T00:30:39Z'
+      release_link: https://github.com/hashicorp/packer/releases
+      stars: 13867
+    github_start_commit_data:
+      start_commit_link: /hashicorp/packer/commit/9c22026293c937a45b269a938c7775def8544dea
+      start_date: '2013-03-23T05:41:53Z'
     homepage_url: https://www.packer.io/
+    image_data:
+      fileName: packer.svg
+      hash: w5cg19p6b9WOlwsPsMpoQS3ImgdUFGRqHsTnNskBeYA=
     item: null
     logo: packer.svg
     name: Packer
     repo_url: https://github.com/hashicorp/packer
-  - crunchbase: https://www.crunchbase.com/organization/red-hat
+    repos:
+    - stars: 13867
+      url: https://github.com/hashicorp/packer
+    twitter_data:
+      latest_tweet_date: 2022-08-05 23:07:00+00:00
+    yahoo_finance_data:
+      effective_ticker: HCP
+      market_cap: 6973402624
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/red-hat
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Akopia
+        date: '2001-01-31'
+      - acquiree: NOCpulse
+        date: '2002-10-07'
+      - acquiree: Sistina Software
+        date: '2003-12-18'
+        price: 31000000
+      - acquiree: JBoss
+        date: '2004-02-20'
+        price: 350000000
+      - acquiree: MetaMatrix
+        date: '2007-06-02'
+      - acquiree: Amentra
+        date: '2008-03-14'
+      - acquiree: Identyx
+        date: '2008-06-19'
+      - acquiree: Qumranet
+        date: '2008-09-04'
+      - acquiree: Makara
+        date: '2010-11-30'
+      - acquiree: Gluster
+        date: '2011-10-04'
+        price: 136000000
+      - acquiree: FuseSource
+        date: '2012-06-27'
+      - acquiree: Polymita Technologies
+        date: '2012-08-28'
+      - acquiree: BPM Technology
+        date: '2012-08-29'
+      - acquiree: ManageIQ
+        date: '2012-12-22'
+      - acquiree: Inktank
+        date: '2014-04-30'
+        price: 175000000
+      - acquiree: eNovance
+        date: '2014-06-18'
+        price: 95074205
+      - acquiree: FeedHenry
+        date: '2014-09-18'
+        price: 82000000
+      - acquiree: Red Hat Ansible
+        date: '2015-10-16'
+        price: 150000000
+      - acquiree: 3scale
+        date: '2016-06-22'
+      - acquiree: Codenvy
+        date: '2017-05-25'
+      - acquiree: Permabit Technology Corporation
+        date: '2017-07-31'
+      - acquiree: CoreOS
+        date: '2018-01-30'
+        price: 250000000
+      - acquiree: NooBaa
+        date: '2018-11-27'
+      - acquiree: StackRox
+        date: '2021-01-07'
+      city: Raleigh
+      company_type: For Profit
+      country: United States
+      description: Red Hat is a multinational software company engaged in providing
+        open-source software products to the enterprise community.
+      funding: 0
+      homepage: http://www.redhat.com
+      industries:
+      - Enterprise Software
+      - Linux
+      - Open Source
+      - Operating Systems
+      - Software
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/red-hat
+      name: Red Hat
+      num_employees_max: 1000000
+      num_employees_min: 10001
+      parents:
+      - https://www.crunchbase.com/organization/ibm
+      region: North Carolina
+      stockExchange: nyse
+      ticker: IBM
+      twitter: http://twitter.com/redhat
+    github_data:
+      contributions: 43;62;61;58;87;114;90;97;36;73;53;67;52;83;87;64;80;60;66;44;11;52;84;92;68;65;43;44;46;38;56;64;118;59;40;69;79;106;75;69;44;104;70;68;71;56;80;80;70;74;61;68
+      contributors_count: 450
+      contributors_link: https://github.com/containers/podman/graphs/contributors
+      description: 'Podman: A tool for managing OCI containers and pods.'
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#00ADD8'
+        name: Go
+        value: 6349646
+      - color: '#89e051'
+        name: Shell
+        value: 816970
+      - color: '#0298c3'
+        name: Perl
+        value: 130195
+      - color: '#3572A5'
+        name: Python
+        value: 88044
+      - color: '#555555'
+        name: C
+        value: 40262
+      - color: '#427819'
+        name: Makefile
+        value: 37003
+      - color: '#384d54'
+        name: Dockerfile
+        value: 10767
+      - color: '#701516'
+        name: Ruby
+        value: 3511
+      - color: '#C1F12E'
+        name: Batchfile
+        value: 1250
+      - name: Awk
+        value: 540
+      - color: '#e34c26'
+        name: HTML
+        value: 404
+      latest_commit_date: '2022-08-05T14:48:18Z'
+      latest_commit_link: /containers/podman/commit/66c246d2c13edb893368fef4ba3a9770c00f8f3b
+      license: Apache License 2.0
+      release_date: '2022-08-05T17:37:07Z'
+      release_link: https://github.com/containers/podman/releases
+      stars: 14727
+    github_start_commit_data:
+      start_commit_link: /containers/libpod/commit/2b74391cd5281f6fdf391ff8ad50fd1490f6bf89
+      start_date: '2017-11-01T15:01:27Z'
     homepage_url: https://podman.io/
+    image_data:
+      fileName: podman.svg
+      hash: 78GwBttvYlKQEzq97XreqwnBvtVaICCkhW2PWVjd7hI=
     item: null
     logo: podman.svg
     name: Podman
     repo_url: https://github.com/containers/podman
-  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    repos:
+    - stars: 14727
+      url: https://github.com/containers/podman
+    twitter_data:
+      latest_tweet_date: 2022-08-05 17:14:02+00:00
+    yahoo_finance_data:
+      effective_ticker: IBM
+      market_cap: 118744473600
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Kubernetes
+        date: '2016-03-10'
+      - acquiree: RethinkDB
+        date: '2017-02-06'
+        price: 25000
+      city: San Francisco
+      company_type: Non Profit
+      country: United States
+      description: CNCF is an open source software foundation that hosts and nurtures
+        projects like Kubernetes and Prometheus.
+      funding: 3000000
+      homepage: https://www.cncf.io
+      industries:
+      - Cloud Computing
+      - Cloud Infrastructure
+      - Non Profit
+      - Open Source
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+      name: Cloud Native Computing Foundation (CNCF)
+      num_employees_max: 50
+      num_employees_min: 11
+      parents:
+      - https://www.crunchbase.com/organization/linux-foundation
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/CloudNativeFdn
     extra:
       accepted: '2020-09-08'
       artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#porter-logos
@@ -21,298 +282,2451 @@ App Definition and Development:
       mailing_list_url: https://porter.sh/mailing-list
       slack_url: https://porter.sh/community/#slack
       youtube_url: https://www.youtube.com/channel/UCbpSU5xLikfXQ-5meXLrsfA
+    github_data:
+      contributions: 16;13;25;7;16;14;12;17;9;6;8;0;2;5;11;4;0;0;0;0;1;12;19;3;15;8;13;12;23;9;9;14;8;21;18;6;4;23;15;1;28;29;22;21;18;26;27;15;5;14;18;9
+      contributors_count: 72
+      contributors_link: https://github.com/getporter/porter/graphs/contributors
+      description: Porter enables you to package your application artifact, client
+        tools, configuration and deployment logic together as an installer that you
+        can distribute, and install with a single command.
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#00ADD8'
+        name: Go
+        value: 1601507
+      - color: '#89e051'
+        name: Shell
+        value: 9606
+      - name: HCL
+        value: 5340
+      - color: '#384d54'
+        name: Dockerfile
+        value: 4600
+      - color: '#427819'
+        name: Makefile
+        value: 1875
+      - color: '#012456'
+        name: PowerShell
+        value: 1709
+      latest_commit_date: '2022-08-04T14:22:31Z'
+      latest_commit_link: /getporter/porter/commit/f7aa99dc8cfc0ac48cb019df45ac39e987135c39
+      license: Apache License 2.0
+      release_date: '2022-08-04T20:03:49Z'
+      release_link: https://github.com/getporter/porter/releases
+      stars: 854
+    github_start_commit_data:
+      start_commit_link: /getporter/porter/commit/db28cf3b6e63bbafa513a7eea2aa3bc3fe8cf96a
+      start_date: '2018-11-05T16:27:59Z'
     homepage_url: https://porter.sh/
+    image_data:
+      fileName: porter.svg
+      hash: o8mRJVAXurFibzeTcAcawnEmE+dtiGJD0C+rIO5jQPY=
     item: null
     logo: porter-sh.svg
     name: Porter
     project: sandbox
     repo_url: https://github.com/getporter/porter
+    repos:
+    - stars: 854
+      url: https://github.com/getporter/porter
     twitter: https://twitter.com/get_porter
+    twitter_data:
+      latest_tweet_date: 2022-08-01 17:46:46+00:00
   Continuous Integration & Delivery:
-  - crunchbase: https://www.crunchbase.com/organization/cyberagent-2
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/cyberagent-2
+    crunchbase_data:
+      acquisitions:
+      - acquiree: R-Force Entertainment
+        date: '2012-02-09'
+      - acquiree: Avatta
+        date: '2018-03-30'
+      city: Tokyo
+      company_type: For Profit
+      country: Japan
+      description: "CyberAgent operates \u201CAmeba,\u201D which is one of leading\
+        \ Internet media in Japan."
+      homepage: https://www.cyberagent.co.jp
+      industries:
+      - Advertising
+      - Internet
+      - Internet of Things
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/cyberagent
+      name: CyberAgent
+      num_employees_max: 5000
+      num_employees_min: 1001
+      parents: []
+      region: Tokyo
+      stockExchange: tyo
+      ticker: 4751.T
+      twitter: https://twitter.com/CyberAgent_PR
+    github_data:
+      contributions: 6;24;8;12;35;23;15;26;43;34;30;28;21;15;23;24;23;24;25;25;5;11;28;26;44;37;29;34;22;28;20;20;15;26;26;22;30;19;3;24;14;30;28;17;7;7;16;22;0;5;9;8
+      contributors_count: 44
+      contributors_link: https://github.com/pipe-cd/pipecd/graphs/contributors
+      description: The One CD for All {applications, platforms, operations}
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#00ADD8'
+        name: Go
+        value: 2621910
+      - color: '#f1e05a'
+        name: JavaScript
+        value: 1467327
+      - color: '#2b7489'
+        name: TypeScript
+        value: 555700
+      - color: '#89e051'
+        name: Shell
+        value: 20784
+      - name: Mustache
+        value: 9787
+      - color: '#384d54'
+        name: Dockerfile
+        value: 7353
+      - color: '#427819'
+        name: Makefile
+        value: 6257
+      - color: '#e34c26'
+        name: HTML
+        value: 487
+      latest_commit_date: '2022-08-05T02:14:17Z'
+      latest_commit_link: /pipe-cd/pipecd/commit/091619c5ec61b34ad94acd327ceb099181fdf187
+      license: Apache License 2.0
+      release_date: '2022-08-05T02:46:06Z'
+      release_link: https://github.com/pipe-cd/pipecd/releases
+      stars: 607
+    github_start_commit_data:
+      start_commit_link: /pipe-cd/pipe/commit/1c03e3021988a7e53fff4b88202d2252bae47b60
+      start_date: '2020-03-09T12:16:03Z'
     homepage_url: https://pipecd.dev/
+    image_data:
+      fileName: pipe-cd.svg
+      hash: Y/gZO0EgavcE5hOCO52lXXs6SsvTFWT1BdJkiaW7zMI=
     item: null
     logo: pipecd.svg
     name: PipeCD
     repo_url: https://github.com/pipe-cd/pipecd
+    repos:
+    - stars: 607
+      url: https://github.com/pipe-cd/pipecd
     twitter: https://twitter.com/pipecd_dev
+    twitter_data:
+      latest_tweet_date: 2022-07-06 03:03:29+00:00
+    yahoo_finance_data:
+      effective_ticker: 4751.T
+      market_cap: 5487647714
   Database:
-  - crunchbase: https://www.crunchbase.com/organization/percona
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/percona
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Tokutek
+        date: '2015-04-15'
+      city: Raleigh
+      company_type: For Profit
+      country: United States
+      description: The Percona Platform provides a unified experience to monitor,
+        manage, secure, and optimize open database environments
+      homepage: http://www.percona.com
+      industries:
+      - Consulting
+      - IT Management
+      - Information Technology
+      - Internet
+      - Internet of Things
+      - Open Source
+      - Software
+      linkedin: https://www.linkedin.com/company/percona
+      name: Percona
+      num_employees_max: 500
+      num_employees_min: 251
+      parents: []
+      region: North Carolina
+      stockExchange: null
+      twitter: http://twitter.com/percona
+    github_data:
+      contributions: 113;112;132;144;98;101;90;92;46;52;71;156;71;92;97;50;23;36;19;24;5;14;11;14;50;17;16;32;18;28;20;12;9;33;30;3;8;8;8;26;12;13;7;4;2;27;0;0;0;0;0;0
+      contributors_count: 856
+      contributors_link: https://github.com/percona/percona-server/graphs/contributors
+      description: Percona Server
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#f34b7d'
+        name: C++
+        value: 150499581
+      - color: '#555555'
+        name: C
+        value: 25927353
+      - color: '#b07219'
+        name: Java
+        value: 3571450
+      - name: CMake
+        value: 1772964
+      - color: '#4F5D95'
+        name: PHP
+        value: 1677127
+      - color: '#427819'
+        name: Makefile
+        value: 1668264
+      - name: NASL
+        value: 1569273
+      - color: '#438eff'
+        name: Objective-C
+        value: 1382849
+      - color: '#0298c3'
+        name: Perl
+        value: 1093455
+      - color: '#89e051'
+        name: Shell
+        value: 862525
+      - color: '#4B6C4B'
+        name: Yacc
+        value: 646231
+      - color: '#f1e05a'
+        name: JavaScript
+        value: 432714
+      - color: '#E3F171'
+        name: Pascal
+        value: 396981
+      - color: '#6E4C13'
+        name: Assembly
+        value: 352722
+      - color: '#ecdebe'
+        name: Roff
+        value: 183585
+      - color: '#3572A5'
+        name: Python
+        value: 173360
+      - name: M4
+        value: 86429
+      - name: Starlark
+        value: 77204
+      - color: '#e34c26'
+        name: HTML
+        value: 48391
+      - name: SWIG
+        value: 26850
+      - name: DIGITAL Command Language
+        value: 26402
+      - name: Awk
+        value: 16765
+      - color: '#DBCA00'
+        name: Lex
+        value: 15525
+      - name: RPC
+        value: 15045
+      - color: '#C1F12E'
+        name: Batchfile
+        value: 12442
+      - color: '#f0a9f0'
+        name: Gnuplot
+        value: 9732
+      - color: '#185619'
+        name: LLVM
+        value: 5689
+      - color: '#dbb284'
+        name: Pawn
+        value: 3834
+      - name: POV-Ray SDL
+        value: 2898
+      - color: '#563d7c'
+        name: CSS
+        value: 2508
+      - color: '#B34936'
+        name: SAS
+        value: 1847
+      - name: Module Management System
+        value: 1545
+      - color: '#5c7611'
+        name: SourcePawn
+        value: 874
+      - color: '#384d54'
+        name: Dockerfile
+        value: 499
+      - name: VBA
+        value: 433
+      - color: '#dad8d8'
+        name: PLSQL
+        value: 280
+      latest_commit_date: '2022-06-22T08:24:23Z'
+      latest_commit_link: /percona/percona-server/commit/ab380371a37f7be9a4e76dd0483ccd698f928a8c
+      license: Other
+      release_date: '2017-07-05T20:27:17Z'
+      release_link: https://github.com/percona/percona-server/releases
+      stars: 914
+    github_start_commit_data:
+      start_commit_link: /percona/percona-server/commit/7eec25e393727b16bb916b50d82b0aa3084e065c
+      start_date: '2000-07-31T19:10:05Z'
     homepage_url: https://www.percona.com/software/mysql-database/percona-server
+    image_data:
+      fileName: percona-server-for-my-sql.svg
+      hash: LLQouB+elKLN3xf/QGA/+QLJ1dkR468BrIJohDgRSaY=
     item: null
     logo: percona.svg
     name: Percona Server for MySQL
     repo_url: https://github.com/percona/percona-server
-  - crunchbase: https://www.crunchbase.com/organization/pilosa
+    repos:
+    - stars: 914
+      url: https://github.com/percona/percona-server
+    twitter_data:
+      latest_tweet_date: 2022-08-05 20:52:00+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/pilosa
+    crunchbase_data:
+      acquisitions: []
+      city: Austin
+      company_type: For Profit
+      country: United States
+      description: Pilosa is an open source, distributed bitmap index that dramatically
+        accelerates continuous analysis across multiple, massive data sets.
+      funding: 3671889
+      homepage: https://www.pilosa.com/
+      industries:
+      - Analytics
+      - Big Data
+      - Cloud Data Services
+      - Data Storage
+      - Database
+      kind: funding
+      linkedin: https://www.linkedin.com/company/pilosa/
+      name: Pilosa
+      num_employees_max: 10
+      num_employees_min: 1
+      parents: []
+      region: Texas
+      stockExchange: null
+      twitter: https://twitter.com/slothware
+    github_data:
+      contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+      contributors_count: 41
+      contributors_link: https://github.com/pilosa/pilosa/graphs/contributors
+      description: Pilosa is an open source, distributed bitmap index that dramatically
+        accelerates queries across multiple, massive data sets.
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#00ADD8'
+        name: Go
+        value: 2033899
+      - color: '#427819'
+        name: Makefile
+        value: 7459
+      - color: '#384d54'
+        name: Dockerfile
+        value: 471
+      latest_commit_date: '2021-12-14T16:56:22Z'
+      latest_commit_link: /pilosa/pilosa/commit/227632544d72f2242f9cf0c02bca97999372f845
+      license: Apache License 2.0
+      release_date: '2020-10-08T21:50:32Z'
+      release_link: https://github.com/pilosa/pilosa/releases
+      stars: 2258
+    github_start_commit_data:
+      start_commit_link: /pilosa/pilosa/commit/3f2ff1a0e3e1f0a3d9f8679797548511c0efa9e7
+      start_date: '2013-10-16T22:34:43Z'
     homepage_url: https://www.pilosa.com/
+    image_data:
+      fileName: pilosa.svg
+      hash: Ljr6CQ+pQBWO6i5+QhYRbN7ytvSfRESkBm2Cl3j1DLo=
     item: null
     logo: pilosa.svg
     name: Pilosa
     repo_url: https://github.com/pilosa/pilosa
-  - crunchbase: https://www.crunchbase.com/organization/postgresql
+    repos:
+    - stars: 2258
+      url: https://github.com/pilosa/pilosa
+    twitter_data:
+      latest_tweet_date: 2021-12-15 22:42:57+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/postgresql
+    crunchbase_data:
+      acquisitions: []
+      city: Philadelphia
+      company_type: Non Profit
+      country: United States
+      description: PostgreSQL is an object-relational database management system with
+        an emphasis on extensibility and standards-compliance.
+      homepage: http://www.postgresql.org/
+      industries:
+      - Information Technology
+      - Software
+      linkedin: https://www.linkedin.com/company/758353
+      name: PostgreSQL
+      num_employees_max: 100
+      num_employees_min: 51
+      parents: []
+      region: Pennsylvania
+      stockExchange: null
+      twitter: http://twitter.com/postgresql
+    github_data:
+      contributions: 46;28;38;47;43;38;25;35;39;28;31;39;48;46;22;42;46;28;31;23;14;27;45;53;48;30;37;73;37;39;37;47;89;79;120;66;39;17;22;63;27;22;28;17;19;21;27;64;80;71;49;73
+      contributors_count: 52
+      contributors_link: https://github.com/postgres/postgres/graphs/contributors
+      description: Mirror of the official PostgreSQL GIT repository. Note that this
+        is just a *mirror* - we don't work with pull requests on github. To contribute,
+        please see https://wiki.postgresql.org/wiki/Submitting_a_Patch
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#555555'
+        name: C
+        value: 43094458
+      - name: PLpgSQL
+        value: 3083797
+      - color: '#0298c3'
+        name: Perl
+        value: 1743145
+      - color: '#4B6C4B'
+        name: Yacc
+        value: 677449
+      - color: '#427819'
+        name: Makefile
+        value: 336384
+      - color: '#701516'
+        name: Ruby
+        value: 252495
+      - color: '#DBCA00'
+        name: Lex
+        value: 227194
+      - name: M4
+        value: 190431
+      - color: '#89e051'
+        name: Shell
+        value: 73758
+      - color: '#dad8d8'
+        name: PLSQL
+        value: 53708
+      - color: '#3572A5'
+        name: Python
+        value: 45016
+      - color: '#f34b7d'
+        name: C++
+        value: 32065
+      - color: '#C1F12E'
+        name: Batchfile
+        value: 10681
+      - name: XS
+        value: 7034
+      - color: '#c065db'
+        name: Emacs Lisp
+        value: 4164
+      - name: DTrace
+        value: 3451
+      - color: '#6E4C13'
+        name: Assembly
+        value: 2468
+      - color: '#ecdebe'
+        name: Roff
+        value: 1895
+      - color: '#64b970'
+        name: sed
+        value: 1834
+      latest_commit_date: '2022-08-06T00:50:59Z'
+      latest_commit_link: /postgres/postgres/commit/5fc88c5d53e43fa7dcea93499d230a0bf70f4f77
+      license: Other
+      stars: 10713
+    github_start_commit_data:
+      start_commit_link: /postgres/postgres/commit/d31084e9d1118b25fd16580d9d8c2924b5740dff
+      start_date: '1996-07-09T06:22:35Z'
     homepage_url: https://www.postgresql.org/
+    image_data:
+      fileName: postgre-sql.svg
+      hash: CpvoexwbkFXvualEjBTkuGhfXX24aSOT4E7InPZSzHo=
     item: null
     logo: postgre-sql.svg
     name: PostgreSQL
     repo_url: https://github.com/postgres/postgres
-  - crunchbase: https://www.crunchbase.com/organization/presto-foundation
+    repos:
+    - stars: 10713
+      url: https://github.com/postgres/postgres
+    twitter_data:
+      latest_tweet_date: 2022-08-01 08:15:03+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/presto-foundation
+    crunchbase_data:
+      acquisitions: []
+      city: San Francisco
+      company_type: Non Profit
+      country: United States
+      description: Presto is an open source distributed SQL query engine for running
+        interactive analytic queries against data sources of all sizes.
+      homepage: https://prestodb.io
+      industries:
+      - Big Data
+      - Database
+      - Open Source
+      - Software
+      linkedin: https://www.linkedin.com/company/presto-foundation/
+      name: Presto Foundation
+      num_employees_max: null
+      num_employees_min: null
+      parents:
+      - https://www.crunchbase.com/organization/linux-foundation
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/prestodb
+    github_data:
+      contributions: 42;35;77;90;92;65;95;103;120;85;98;64;120;72;54;82;104;115;69;59;40;76;95;124;85;92;76;88;99;106;88;135;128;72;115;83;85;76;58;99;74;69;68;90;74;78;72;47;48;82;56;25
+      contributors_count: 751
+      contributors_link: https://github.com/trinodb/trino/graphs/contributors
+      description: Official repository of Trino, the distributed SQL query engine
+        for big data, formerly known as PrestoSQL (https://trino.io)
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#b07219'
+        name: Java
+        value: 60680047
+      - color: '#f1e05a'
+        name: JavaScript
+        value: 232261
+      - color: '#9DC3FF'
+        name: ANTLR
+        value: 50268
+      - color: '#89e051'
+        name: Shell
+        value: 48714
+      - color: '#e34c26'
+        name: HTML
+        value: 30842
+      - color: '#563d7c'
+        name: CSS
+        value: 13515
+      - color: '#c22d40'
+        name: Scala
+        value: 10145
+      - color: '#3572A5'
+        name: Python
+        value: 5266
+      - name: Smarty
+        value: 1938
+      - color: '#e69f56'
+        name: Groovy
+        value: 1702
+      - color: '#384d54'
+        name: Dockerfile
+        value: 1473
+      - color: '#dad8d8'
+        name: PLSQL
+        value: 85
+      latest_commit_date: '2022-08-06T03:21:50Z'
+      latest_commit_link: /trinodb/trino/commit/8ca27d335c85937c72ba64fecd09f2eabb233086
+      license: Apache License 2.0
+      stars: 5893
+    github_start_commit_data:
+      start_commit_link: /prestosql/presto/commit/d0eb103a660125a53660a7ba2c95e9b8a4d8feb6
+      start_date: '2012-08-08T19:58:34Z'
     homepage_url: https://prestodb.io/
+    image_data:
+      fileName: presto.svg
+      hash: jrU94vB89HDjROlVxu8Kpw2kYofQWiJnbDR21v7kgSo=
     item: null
     logo: presto.svg
     name: Presto
     repo_url: https://github.com/trinodb/trino
+    repos:
+    - stars: 5893
+      url: https://github.com/trinodb/trino
+    twitter_data:
+      latest_tweet_date: 2022-07-20 23:02:48+00:00
   Streaming & Messaging:
-  - crunchbase: https://www.crunchbase.com/organization/pachyderm
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/pachyderm
+    crunchbase_data:
+      acquisitions: []
+      city: San Francisco
+      company_type: For Profit
+      country: United States
+      description: Pachyderm is an enterprise-grade data science platform that makes
+        explainable, repeatable, and scalable AI/ML a reality.
+      funding: 28120000
+      homepage: https://www.pachyderm.com
+      industries:
+      - Analytics
+      - Artificial Intelligence
+      - Big Data
+      - Developer APIs
+      - Machine Learning
+      - Open Source
+      kind: funding
+      linkedin: https://www.linkedin.com/company/pachyderm-inc-
+      name: Pachyderm
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/pachyderminc
+    github_data:
+      contributions: 27;42;25;12;38;34;47;46;24;30;14;11;21;10;18;4;18;13;20;3;0;12;8;3;14;20;5;25;23;16;9;8;7;16;14;24;10;16;33;14;19;11;21;23;25;20;34;28;30;39;19;24
+      contributors_count: 162
+      contributors_link: https://github.com/pachyderm/pachyderm/graphs/contributors
+      description: Data-Centric Pipelines and Data Versioning
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#00ADD8'
+        name: Go
+        value: 4061219
+      - color: '#89e051'
+        name: Shell
+        value: 97607
+      - name: Mustache
+        value: 63862
+      - color: '#427819'
+        name: Makefile
+        value: 24919
+      - color: '#DA5B0B'
+        name: Jupyter Notebook
+        value: 21217
+      - color: '#0064bd'
+        name: Jsonnet
+        value: 15814
+      - color: '#3572A5'
+        name: Python
+        value: 11659
+      - color: '#563d7c'
+        name: CSS
+        value: 8461
+      - color: '#e34c26'
+        name: HTML
+        value: 6027
+      - color: '#384d54'
+        name: Dockerfile
+        value: 2847
+      latest_commit_date: '2022-08-05T20:52:01Z'
+      latest_commit_link: /pachyderm/pachyderm/commit/72d04351aa8968b731bcacc0a2e314a3e5a84fd0
+      license: Other
+      release_date: '2022-08-04T20:09:19Z'
+      release_link: https://github.com/pachyderm/pachyderm/releases
+      stars: 5598
+    github_start_commit_data:
+      start_commit_link: /pachyderm/pachyderm/commit/11eb4c6e1945beb1e6ce3e878ed2cb6c24ee8bf1
+      start_date: '2014-09-04T07:50:02Z'
     homepage_url: https://www.pachyderm.com
+    image_data:
+      fileName: pachyderm.svg
+      hash: BhbDEJcI6LsIt/m56CIoyY2flsp35ghG15LjQJW43/8=
     item: null
     logo: pachyderm.svg
     name: Pachyderm
     open_source: false
     repo_url: https://github.com/pachyderm/pachyderm
-  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    repos:
+    - stars: 5598
+      url: https://github.com/pachyderm/pachyderm
+    twitter_data:
+      latest_tweet_date: 2022-08-05 18:02:14+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Kubernetes
+        date: '2016-03-10'
+      - acquiree: RethinkDB
+        date: '2017-02-06'
+        price: 25000
+      city: San Francisco
+      company_type: Non Profit
+      country: United States
+      description: CNCF is an open source software foundation that hosts and nurtures
+        projects like Kubernetes and Prometheus.
+      funding: 3000000
+      homepage: https://www.cncf.io
+      industries:
+      - Cloud Computing
+      - Cloud Infrastructure
+      - Non Profit
+      - Open Source
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+      name: Cloud Native Computing Foundation (CNCF)
+      num_employees_max: 50
+      num_employees_min: 11
+      parents:
+      - https://www.crunchbase.com/organization/linux-foundation
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/CloudNativeFdn
     extra:
       artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#pravega-logos
       blog_url: https://blog.pravega.io/
       dev_stats_url: https://pravega.devstats.cncf.io/
       slack_url: https://pravega-slack-invite.herokuapp.com/
       youtube_url: https://www.youtube.com/channel/UCiEkLCWdnjSpub76ZEZcdqw
+    github_data:
+      contributions: 5;6;5;6;9;4;5;5;6;3;4;6;1;2;9;2;1;0;6;0;0;4;2;2;5;9;6;3;3;1;6;2;1;6;1;3;8;2;1;2;2;3;2;4;4;3;1;2;3;1;1;2
+      contributors_count: 94
+      contributors_link: https://github.com/pravega/pravega/graphs/contributors
+      description: Pravega - Streaming as a new software defined storage primitive
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#b07219'
+        name: Java
+        value: 19763309
+      - color: '#89e051'
+        name: Shell
+        value: 87019
+      - name: HCL
+        value: 16017
+      - color: '#3572A5'
+        name: Python
+        value: 4556
+      - color: '#384d54'
+        name: Dockerfile
+        value: 3456
+      - name: Jinja
+        value: 1279
+      latest_commit_date: '2022-08-05T04:47:09Z'
+      latest_commit_link: /pravega/pravega/commit/029bd206a4c0681e874e641fc9efcac5fa3d8225
+      license: Apache License 2.0
+      release_date: '2022-05-06T17:18:25Z'
+      release_link: https://github.com/pravega/pravega/releases
+      stars: 1768
+    github_start_commit_data:
+      start_commit_link: /pravega/pravega/commit/3f3bec4fd9ae2318c388cd15ff3d21724ec2aa3c
+      start_date: '2016-04-27T17:23:58Z'
     homepage_url: https://cncf.pravega.io
+    image_data:
+      fileName: pravega.svg
+      hash: +DkHJBfieXbSvfpz3nMv20dV9RBo58s0TCbgjcLbySI=
     item: null
     logo: pravega.svg
     name: Pravega
     project: sandbox
     repo_url: https://github.com/pravega/pravega
+    repos:
+    - stars: 1768
+      url: https://github.com/pravega/pravega
     twitter: https://twitter.com/PravegaIO
-  - crunchbase: https://www.crunchbase.com/organization/apache
+    twitter_data:
+      latest_tweet_date: 2022-05-18 17:05:54+00:00
+  - best_practice_data:
+      badge: 5498
+      percentage: 24
+    crunchbase: https://www.crunchbase.com/organization/apache
+    crunchbase_data:
+      acquisitions: []
+      city: Forest Hill
+      company_type: Non Profit
+      country: United States
+      description: Apache Software Foundation provides organizational, legal and financial
+        support for Apache open-source software projects.
+      homepage: http://www.apache.org
+      industries:
+      - Non Profit
+      - Software
+      linkedin: https://www.linkedin.com/company/the-apache-software-foundation
+      name: The Apache Software Foundation
+      num_employees_max: 10
+      num_employees_min: 1
+      parents: []
+      region: Maryland
+      stockExchange: null
+      twitter: http://twitter.com/TheASF
+    github_data:
+      contributions: 52;30;51;47;31;26;52;46;20;58;42;34;69;77;90;41;90;68;93;69;57;44;47;80;81;42;72;65;49;53;30;71;52;43;52;50;50;51;52;75;59;49;50;60;57;47;57;52;92;45;69;44
+      contributors_count: 599
+      contributors_link: https://github.com/apache/pulsar/graphs/contributors
+      description: Apache Pulsar - distributed pub-sub messaging system
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#b07219'
+        name: Java
+        value: 30549958
+      - color: '#e34c26'
+        name: HTML
+        value: 17948879
+      - color: '#f34b7d'
+        name: C++
+        value: 1999234
+      - color: '#3572A5'
+        name: Python
+        value: 437000
+      - color: '#89e051'
+        name: Shell
+        value: 214856
+      - color: '#00ADD8'
+        name: Go
+        value: 116763
+      - color: '#555555'
+        name: C
+        value: 76676
+      - color: '#384d54'
+        name: Dockerfile
+        value: 45529
+      - name: CMake
+        value: 40365
+      - name: HCL
+        value: 14529
+      - color: '#000080'
+        name: Lua
+        value: 5454
+      - color: '#ecdebe'
+        name: Roff
+        value: 3495
+      - color: '#C1F12E'
+        name: Batchfile
+        value: 2170
+      - color: '#f1e05a'
+        name: JavaScript
+        value: 1385
+      latest_commit_date: '2022-08-05T21:32:27Z'
+      latest_commit_link: /apache/pulsar/commit/7a65f3ff907385af4b115f300324e5ec60aa25ac
+      license: Apache License 2.0
+      release_date: '2022-07-20T02:04:10Z'
+      release_link: https://github.com/apache/pulsar/releases
+      stars: 11306
+    github_start_commit_data:
+      start_commit_link: /apache/pulsar/commit/9f849c324969e160f9891203b2a2e4805fae5a1c
+      start_date: '2016-09-07T05:10:37Z'
     homepage_url: https://pulsar.apache.org/
+    image_data:
+      fileName: pulsar.svg
+      hash: X12DFKXy5W21JWytR6ohBsJ10rhJgakVGV1BLHfpIro=
     item: null
     logo: pulsar.svg
     name: Pulsar
     repo_url: https://github.com/apache/pulsar
+    repos:
+    - stars: 11306
+      url: https://github.com/apache/pulsar
     twitter: https://twitter.com/apache_pulsar
+    twitter_data:
+      latest_tweet_date: 2022-08-03 16:00:03+00:00
 CNCF Members:
   Academic: []
   End User Supporter:
-  - crunchbase: https://www.crunchbase.com/organization/payit
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/payit
+    crunchbase_data:
+      acquisitions: []
+      city: Kansas City
+      company_type: For Profit
+      country: United States
+      description: PayIt is a provider of digital government services that simplifies
+        business through its mobile transaction and payment platform.
+      funding: 194500000
+      homepage: https://www.payitgov.com
+      industries:
+      - FinTech
+      - GovTech
+      - Mobile
+      - Payments
+      kind: funding
+      linkedin: https://www.linkedin.com/company/payit
+      name: PayIt
+      num_employees_max: 250
+      num_employees_min: 101
+      parents: []
+      region: Missouri
+      stockExchange: null
+      twitter: https://twitter.com/payitgov
     homepage_url: https://www.payitgov.com/
+    image_data:
+      fileName: pay-it-supporter.svg
+      hash: u+2250u3c0IUDAyFj9lH9wtZsY/ZoGRnoKhxLqypYVg=
     item: null
     logo: payit.svg
     name: PayIt (supporter)
-  - crunchbase: https://www.crunchbase.com/organization/pdt-partners
+    twitter_data:
+      latest_tweet_date: 2022-08-05 15:00:59+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/pdt-partners
+    crunchbase_data:
+      acquisitions: []
+      city: New York
+      company_type: ''
+      country: United States
+      description: PDT Partners is a global investment manager.
+      homepage: https://www.pdtpartners.com/
+      industries:
+      - Software Engineering
+      linkedin: https://www.linkedin.com/company/pdt-partners-llc/
+      name: PDT Partners
+      num_employees_max: 100
+      num_employees_min: 51
+      parents: []
+      region: New York
+      stockExchange: null
+      twitter: null
     homepage_url: https://www.pdtpartners.com/
+    image_data:
+      fileName: pdt-partners-supporter.svg
+      hash: 3FWTsgV7GuTAxtJqNMDo7q9Qb5Iibeem2G3+PPe5YvI=
     item: null
     logo: pdt-partners.svg
     name: PDT Partners (supporter)
-  - crunchbase: https://www.crunchbase.com/organization/peritus-ai
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/peritus-ai
+    crunchbase_data:
+      acquisitions: []
+      city: Palo Alto
+      company_type: For Profit
+      country: United States
+      description: Peritus.ai is a machine learning recommendation engine for developer
+        success
+      funding: 7700000
+      homepage: http://peritus.ai
+      industries:
+      - Artificial Intelligence
+      - Computer
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/peritus.ai/
+      name: Peritus.ai
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/Peritus_AI
     homepage_url: https://peritus.ai/
+    image_data:
+      fileName: peritus-ai-supporter.svg
+      hash: JOIyBRswnHlw6jhBWQ3AXU6WXIoOpt3sNqQtBs1Lsmo=
     item: null
     joined: '2021-03-02'
     logo: peritus-logo-pink.svg
     name: Peritus.ai (supporter)
-  - crunchbase: https://www.crunchbase.com/organization/porsche
+    twitter_data:
+      latest_tweet_date: 2022-08-02 12:49:12+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/porsche
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Manthey-Racing
+        date: '2013-12-15'
+      - acquiree: CETITEC
+        date: '2019-05-09'
+      - acquiree: Greyp Bikes d.o.o.
+        date: '2021-11-19'
+      city: Stuttgart
+      company_type: For Profit
+      country: Germany
+      description: Porsche is an automobile manufacturer.
+      funding: 170252564
+      homepage: http://www.porsche.com
+      industries:
+      - Automotive
+      - Manufacturing
+      - Sports
+      kind: funding
+      linkedin: https://www.linkedin.com/company/porsche-ag/?originalSubdomain=in
+      name: Porsche
+      num_employees_max: 1000000
+      num_employees_min: 10001
+      parents: []
+      region: Baden-Wurttemberg
+      stockExchange: null
+      twitter: https://www.twitter.com/porsche
     homepage_url: https://www.porsche.com/
+    image_data:
+      fileName: porsche-supporter.svg
+      hash: 2W4XOVlFX92EQsr1gHcjW0Ovs0fc/0zo0NpPre3lF6c=
     item: null
     joined: '2021-11-11'
     logo: porsche.svg
     name: Porsche (supporter)
-  - crunchbase: https://www.crunchbase.com/organization/postfinance
+    twitter_data:
+      latest_tweet_date: 2022-08-05 18:28:20+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/postfinance
+    crunchbase_data:
+      acquisitions: []
+      city: Bern
+      company_type: For Profit
+      country: Switzerland
+      description: It is the fifth largest retail financial institution in Switzerland.
+      homepage: https://www.postfinance.ch/
+      industries:
+      - Financial Services
+      linkedin: https://www.linkedin.com/company/postfinance
+      name: PostFinance
+      num_employees_max: 5000
+      num_employees_min: 1001
+      parents: []
+      region: Bern
+      stockExchange: null
+      twitter: https://twitter.com/postfinance
     homepage_url: https://www.postfinance.ch/en/private.html
+    image_data:
+      fileName: post-finance-supporter.svg
+      hash: qNfwYFOWzaJCXiFcj3qp7bm2DCvSZB2ABJ64ZG8Tl5A=
     item: null
     logo: post-finance-supporter.svg
     name: PostFinance (supporter)
-  - crunchbase: https://www.crunchbase.com/organization/prosiebensat1
+    twitter_data:
+      latest_tweet_date: 2022-08-04 11:47:24+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/prosiebensat1
+    crunchbase_data:
+      acquisitions:
+      - acquiree: 'Burda: ic'
+        date: '2011-06-09'
+      - acquiree: Booming
+        date: '2012-04-05'
+      - acquiree: Preis24
+        date: '2012-05-25'
+      - acquiree: tropo GmbH
+        date: '2012-07-05'
+      - acquiree: ferien.de
+        date: '2013-09-12'
+      - acquiree: weg.de
+        date: '2013-09-12'
+      - acquiree: Aeria Games GmbH
+        date: '2014-02-27'
+      - acquiree: Amorelie
+        date: '2015-03-18'
+      - acquiree: Flaconi
+        date: '2015-03-18'
+      - acquiree: RapidApe
+        date: '2015-05-27'
+      - acquiree: Verivox Holdings Ltd.
+        date: '2015-06-26'
+      - acquiree: Virtual Minds
+        date: '2015-06-30'
+      - acquiree: Yieldlab AG
+        date: '2015-06-30'
+      - acquiree: Studio71
+        date: '2015-07-10'
+      - acquiree: SMARTSTREAM TV
+        date: '2015-07-29'
+      - acquiree: Etraveli
+        date: '2015-10-12'
+        price: 268710626
+      - acquiree: Stylight
+        date: '2016-05-19'
+        price: 89622900
+      - acquiree: WindStar Medical GmbH
+        date: '2016-08-17'
+      - acquiree: Parship
+        date: '2016-09-05'
+      - acquiree: Jochen Schweizer Events
+        date: '2017-06-21'
+      - acquiree: esome advertising technologies
+        date: '2017-12-05'
+      - acquiree: eHarmony
+        date: '2018-10-28'
+      city: "Unterf\xF6hring"
+      company_type: For Profit
+      country: Germany
+      description: ProSiebenSat.1 Media SE is a mass media company operating television,
+        radio stations and print businesses.
+      funding: 0
+      homepage: https://www.prosiebensat1.com
+      industries:
+      - Advertising
+      - Broadcasting
+      - Media and Entertainment
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/prosiebensat1-media-se/
+      name: ProSiebenSat.1 Media SE
+      num_employees_max: 5000
+      num_employees_min: 1001
+      parents: []
+      region: Bayern
+      stockExchange: fra
+      ticker: PSM.F
+      twitter: https://twitter.com/p7s1group
     homepage_url: https://www.karriere.prosiebensat1.com/
+    image_data:
+      fileName: pro-sieben-sat-1-supporter.svg
+      hash: s8RhZB9w9ysauAhDMVnPlxLqz1CgsH3+phHWT7bRxgg=
     item: null
     joined: '2020-12-03'
     logo: prosiebensat1.svg
     name: ProSiebenSat.1 (supporter)
-  - crunchbase: https://www.crunchbase.com/organization/pusher-ltd
+    twitter_data:
+      latest_tweet_date: 2022-08-03 08:54:28+00:00
+    yahoo_finance_data:
+      effective_ticker: PSM.F
+      market_cap: 1932520478
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/pusher-ltd
+    crunchbase_data:
+      acquisitions: []
+      city: London
+      company_type: For Profit
+      country: United Kingdom
+      description: Pusher Ltd. provides a hosted API service for adding real-time
+        bi-directional.
+      funding: 11500000
+      homepage: https://www.pusher.com/
+      industries:
+      - Cloud Computing
+      - Developer APIs
+      - Enterprise Software
+      - Messaging
+      - Real Time
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/pusher-app
+      name: Pusher
+      num_employees_max: 100
+      num_employees_min: 51
+      parents: []
+      region: England
+      stockExchange: null
+      twitter: http://twitter.com/pusher
     homepage_url: https://pusher.com/
+    image_data:
+      fileName: pusher-supporter.svg
+      hash: TRHRPztm/rF1Xg+b5muh5VuaYJYEm+BmW641MvaB0MA=
     item: null
     logo: pusher-supporter.svg
     name: Pusher (supporter)
+    twitter_data:
+      latest_tweet_date: 2022-07-27 15:56:38+00:00
   Gold: []
   Nonprofit: []
   Platinum:
-  - crunchbase: https://www.crunchbase.com/organization/prisma-cloud
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/prisma-cloud
+    crunchbase_data:
+      acquisitions: []
+      city: Santa Clara
+      company_type: For Profit
+      country: United States
+      description: A complete cloud native application protection platform that secures
+        infrastructure and applications across cloud environments.
+      funding: 65000000
+      homepage: https://www.paloaltonetworks.com/prisma/cloud
+      industries:
+      - Cloud Security
+      - Cyber Security
+      - Security
+      kind: market_cap
+      linkedin: https://www.linkedin.com/products/palo-alto-networks-prisma-cloud/
+      name: Prisma Cloud
+      num_employees_max: 1000
+      num_employees_min: 501
+      parents:
+      - https://www.crunchbase.com/organization/palo-alto-networks
+      region: California
+      stockExchange: null
+      ticker: PANW
+      twitter: https://twitter.com/prisma_cloud
     homepage_url: https://www.paloaltonetworks.com/prisma/cloud
+    image_data:
+      fileName: prisma-cloud-by-palo-alto-networks-member.svg
+      hash: iDmAt4Pm5KEULVn2L2y/0CcyOM2hSUiDS6N9k+JRXkU=
     item: null
     logo: prisma-cloud-palo-alto.svg
     name: Prisma Cloud by Palo Alto Networks (member)
+    twitter_data:
+      latest_tweet_date: 2022-08-05 21:46:51+00:00
+    yahoo_finance_data:
+      effective_ticker: PANW
+      market_cap: 49954201600
   Silver:
-  - crunchbase: https://www.crunchbase.com/organization/paladin-cloud
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/paladin-cloud
+    crunchbase_data:
+      acquisitions: []
+      city: Califon
+      company_type: For Profit
+      country: United States
+      description: Open source, Security-as-Code platform for developers and security
+        teams to identify and eliminate risks in your clouds.
+      funding: 3300000
+      homepage: https://www.paladincloud.io
+      industries: []
+      kind: funding
+      linkedin: https://www.linkedin.com/company/paladin-cloud/
+      name: Paladin Cloud
+      num_employees_max: null
+      num_employees_min: null
+      parents: []
+      region: New Jersey
+      stockExchange: null
+      twitter: null
     homepage_url: https://paladincloud.io/
+    image_data:
+      fileName: paladin-cloud-member.svg
+      hash: veBpdopXbge1tt9F/rnkyncI2VuziYdQM/w98fmCrQ4=
     item: null
     logo: paladin-cloud.svg
     name: Paladin Cloud (member)
-  - crunchbase: https://www.crunchbase.com/organization/particule
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/particule
+    crunchbase_data:
+      acquisitions: []
+      city: Paris
+      company_type: For Profit
+      country: France
+      description: We build Cloud Native infrastructure, from an application on your
+        laptop to a scalable infrastructure, define as code
+      homepage: https://particule.io/
+      industries: []
+      linkedin: https://www.linkedin.com/company/particuleio/
+      name: Particule
+      num_employees_max: 10
+      num_employees_min: 1
+      parents: []
+      region: Ile-de-France
+      stockExchange: null
+      twitter: https://twitter.com/particuleio
     homepage_url: https://particule.io/
+    image_data:
+      fileName: particule-member.svg
+      hash: fyAFEw7Sp3xVPz+4XEeOSzyr5z4hQJ2in4mpM0iw0EY=
     item: null
     logo: particule.svg
     name: Particule (member)
-  - crunchbase: https://www.crunchbase.com/organization/pegasystems
+    twitter_data:
+      latest_tweet_date: 2022-05-23 08:25:15+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/pegasystems
+    crunchbase_data:
+      acquisitions:
+      - acquiree: 1mind Corp
+        date: '2002-01-31'
+        price: 3600000
+      - acquiree: Chordiant Software
+        date: '2010-03-15'
+      - acquiree: Antenna Software
+        date: '2013-10-11'
+      - acquiree: MeshLabs
+        date: '2014-05-07'
+      - acquiree: Firefly Software
+        date: '2014-06-09'
+      - acquiree: Pegasystems Information Technology
+        date: '2014-10-31'
+      - acquiree: OpenSpan
+        date: '2016-04-12'
+        price: 52300000
+      - acquiree: Infruid Labs
+        date: '2019-02-06'
+      - acquiree: InTheChat
+        date: '2019-05-14'
+      - acquiree: Valued
+        date: '2021-01-11'
+      - acquiree: Everflow
+        date: '2022-05-24'
+      city: Cambridge
+      company_type: For Profit
+      country: United States
+      description: PegaSystems provides business process and customer relationship
+        management solutions for organizations.
+      funding: 0
+      homepage: http://www.pega.com
+      industries:
+      - Business Development
+      - CRM
+      - Software
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/165426
+      name: Pegasystems
+      num_employees_max: 10000
+      num_employees_min: 5001
+      parents: []
+      region: Massachusetts
+      stockExchange: nasdaq
+      ticker: PEGA
+      twitter: http://twitter.com/pega
     homepage_url: https://www.pega.com/
+    image_data:
+      fileName: pega-member.svg
+      hash: BN5w3jkPmhFEOdOQp6Zz45AuYOUd0VZgGxX8LNxeWHM=
     item: null
     logo: pega-member.svg
     name: Pega (member)
-  - crunchbase: https://www.crunchbase.com/organization/peloton-interactive
+    twitter_data:
+      latest_tweet_date: 2022-08-05 14:07:02+00:00
+    yahoo_finance_data:
+      effective_ticker: PEGA
+      market_cap: 3192042240
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/peloton-interactive
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Neurotic Media
+        date: '2018-06-27'
+      - acquiree: Gossamer Engineering
+        date: '2019-11-05'
+      - acquiree: Atlas Wearables
+        date: '2020-01-01'
+      - acquiree: Otari
+        date: '2020-01-01'
+      - acquiree: Precor
+        date: '2020-12-21'
+        price: 420000000
+      - acquiree: Aiqudo
+        date: '2021-02-01'
+      city: New York
+      company_type: For Profit
+      country: United States
+      description: Peloton is an interactive fitness platform reinventing fitness
+        with live and on-demand boutique studio classes.
+      funding: 1869707000
+      homepage: http://www.onepeloton.com
+      industries:
+      - Cycling
+      - Fitness
+      - Health Care
+      - Wellness
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/peloton-interactive-
+      name: Peloton
+      num_employees_max: 5000
+      num_employees_min: 1001
+      parents: []
+      region: New York
+      stockExchange: nasdaq
+      ticker: PTON
+      twitter: https://twitter.com/onepeloton
     enduser: true
     homepage_url: https://www.onepeloton.com/
+    image_data:
+      fileName: peloton-interactive-member.svg
+      hash: DsnyZNgyOPBzhpbCxqx50HYR6OKCEhz58I7plpOlMPk=
     item: null
     joined: '2021-01-04'
     logo: peloton.svg
     name: Peloton Interactive (member)
-  - crunchbase: https://www.crunchbase.com/organization/pengyun-network
+    twitter_data:
+      latest_tweet_date: 2022-08-05 20:52:17+00:00
+    yahoo_finance_data:
+      effective_ticker: PTON
+      market_cap: 4314573824
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/pengyun-network
+    crunchbase_data:
+      acquisitions: []
+      city: Nanjing
+      company_type: For Profit
+      country: China
+      description: Pengyun Network is a dual-soft technology company engaged in providing
+        software-defined storage products and solutions.
+      funding: 0
+      homepage: http://www.pengyunnetwork.com/
+      industries:
+      - Cloud Computing
+      - Data Storage
+      - Database
+      - Software
+      linkedin: null
+      name: Pengyun Network
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: Jiangsu
+      stockExchange: null
+      twitter: null
     homepage_url: https://www.pengyunnetwork.com/
+    image_data:
+      fileName: pengyun-network-member.svg
+      hash: lTv+RtJyJD57ftdXqLDHIfxkIy82Bp5e5lirtjix1DI=
     item: null
     logo: pengyun.svg
     name: Pengyun Network (member)
-  - crunchbase: https://www.crunchbase.com/organization/percona
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/percona
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Tokutek
+        date: '2015-04-15'
+      city: Raleigh
+      company_type: For Profit
+      country: United States
+      description: The Percona Platform provides a unified experience to monitor,
+        manage, secure, and optimize open database environments
+      homepage: http://www.percona.com
+      industries:
+      - Consulting
+      - IT Management
+      - Information Technology
+      - Internet
+      - Internet of Things
+      - Open Source
+      - Software
+      linkedin: https://www.linkedin.com/company/percona
+      name: Percona
+      num_employees_max: 500
+      num_employees_min: 251
+      parents: []
+      region: North Carolina
+      stockExchange: null
+      twitter: http://twitter.com/percona
     homepage_url: http://www.percona.com/
+    image_data:
+      fileName: percona-member.svg
+      hash: LLQouB+elKLN3xf/QGA/+QLJ1dkR468BrIJohDgRSaY=
     item: null
     logo: percona.svg
     name: Percona (member)
-  - crunchbase: https://www.crunchbase.com/organization/permit-io
+    twitter_data:
+      latest_tweet_date: 2022-08-05 20:52:00+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/permit-io
+    crunchbase_data:
+      acquisitions: []
+      city: Tel Aviv
+      company_type: For Profit
+      country: Israel
+      description: Permit.io empowers developers to bake in permissions and access-control
+        into product in minutes and takes away the pain of rebuilding them.
+      funding: 6000000
+      homepage: https://www.permit.io
+      industries:
+      - Customer Service
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/permitio
+      name: Permit.io
+      num_employees_max: 10
+      num_employees_min: 1
+      parents: []
+      region: Tel Aviv
+      stockExchange: null
+      twitter: https://twitter.com/permit_io
     homepage_url: https://www.permit.io/
+    image_data:
+      fileName: permit-io-member.svg
+      hash: hPVNrMf9Q71FyCBx/pOK1GKIxYw8NxtJnXUPZiE1inw=
     item: null
     logo: permit.io.svg
     name: Permit.io (member)
-  - crunchbase: https://www.crunchbase.com/organization/ping-an
+    twitter_data:
+      latest_tweet_date: 2022-08-04 14:41:43+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/ping-an
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Autohome
+        date: '2016-04-15'
+        price: 1600000000
+      - acquiree: ITutorGroup
+        date: '2019-07-12'
+      city: Shenzhen
+      company_type: For Profit
+      country: China
+      description: Ping An Insurance Company is a holding company deals with insurance,
+        banking, and financial service.
+      funding: 4750000000
+      homepage: http://www.pingan.com/
+      industries:
+      - Banking
+      - Financial Services
+      - Insurance
+      - Medical
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/ping-an/
+      name: Ping An
+      num_employees_max: 1000000
+      num_employees_min: 10001
+      parents: []
+      region: Guangdong
+      stockExchange: sse
+      ticker: 601318.SS
+      twitter: https://twitter.com/pingan_group
     homepage_url: https://yun.pingan.com/
+    image_data:
+      fileName: ping-an-technology-member.svg
+      hash: bVzQ3eWLC4gXe7zeuBd1B/jcA4Gq8APp+sS1PaOYIQo=
     item: null
     logo: ping-an.svg
     name: Ping An Technology (member)
-  - crunchbase: https://www.crunchbase.com/organization/pingcap
+    twitter_data:
+      latest_tweet_date: 2022-08-04 11:01:30+00:00
+    yahoo_finance_data:
+      effective_ticker: 601318.SS
+      market_cap: 109070836256
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/pingcap
+    crunchbase_data:
+      acquisitions: []
+      city: San Mateo
+      company_type: For Profit
+      country: United States
+      description: PingCAP is a developer of an open-source, distributed SQL database
+        for real-time analytics.
+      funding: 341600000
+      homepage: https://pingcap.com
+      industries:
+      - Big Data
+      - Database
+      - Open Source
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/pingcap/
+      name: PingCAP
+      num_employees_max: 500
+      num_employees_min: 251
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: https://www.twitter.com/pingcap
     homepage_url: https://en.pingcap.com
+    image_data:
+      fileName: ping-cap-member.svg
+      hash: QBvAEDqiq0LaJtk35dt6qjyZ1WYJLr9t3C7/1mRiWD0=
     item: null
     logo: pingcap.svg
     name: PingCAP (member)
-  - crunchbase: https://www.crunchbase.com/organization/pipekit
+    twitter_data:
+      latest_tweet_date: 2022-08-03 23:30:00+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/pipekit
+    crunchbase_data:
+      acquisitions: []
+      city: Atlanta
+      company_type: For Profit
+      country: United States
+      description: Pipekit scales data pipelines for enterprises by managing Argo
+        Workflows for data teams.
+      funding: 125000
+      homepage: https://pipekit.io
+      industries:
+      - Cloud Infrastructure
+      - Information Technology
+      - Infrastructure
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/pipekit-io
+      name: Pipekit
+      num_employees_max: 10
+      num_employees_min: 1
+      parents: []
+      region: Georgia
+      stockExchange: null
+      twitter: https://twitter.com/pipekitio
     homepage_url: http://www.pipekit.io/
+    image_data:
+      fileName: pipekit-member.svg
+      hash: bCHLnDiaMtKnaxlcPJdzXg/52qhd9HjpkAuSIB7ojIg=
     item: null
     logo: pipekit.svg
     name: Pipekit (member)
-  - crunchbase: https://www.crunchbase.com/organization/pixie-labs-f7c0
+    twitter_data:
+      latest_tweet_date: 2022-07-26 17:25:25+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/pixie-labs-f7c0
+    crunchbase_data:
+      acquisitions: []
+      city: San Francisco
+      company_type: For Profit
+      country: United States
+      description: At Pixie Labs, we build machine intelligence systems which empower
+        developers to engineer the future.
+      funding: 9150000
+      homepage: https://pixielabs.ai/
+      industries:
+      - Developer APIs
+      - Developer Platform
+      - Developer Tools
+      - Enterprise Software
+      - Machine Learning
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/pixieai/
+      name: Pixie
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/pixie_run
     homepage_url: https://pixielabs.ai/
+    image_data:
+      fileName: pixie-labs-member.svg
+      hash: l0BnAim9Ahmtj1zh3pUL26SkK54wSjhPB84pzADTCG8=
     item: null
     logo: pixie-labs.svg
     name: Pixie Labs (member)
     twitter: https://twitter.com/pixielabs
-  - crunchbase: https://www.crunchbase.com/organization/planetscale
+    twitter_data:
+      latest_tweet_date: 2022-04-26 18:31:10+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/planetscale
+    crunchbase_data:
+      acquisitions: []
+      city: Mountain View
+      company_type: For Profit
+      country: United States
+      description: PlanetScale builds a database-as-a-service offering on Vitess,
+        an open source sharding middleware system for MySQL.
+      funding: 105000000
+      homepage: http://planetscale.com/
+      industries:
+      - Database
+      - Information Technology
+      - SaaS
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/planetscale/
+      name: PlanetScale
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/planetscaledata
     homepage_url: https://planetscale.com
+    image_data:
+      fileName: planet-scale-member.svg
+      hash: Y1ZmTs0FVls/CFD1XRI9ofs5LD99lTljF4hu3gdljIw=
     item: null
     logo: planetscale.svg
     name: PlanetScale (member)
-  - crunchbase: https://www.crunchbase.com/organization/platform9-systems-inc
+    twitter_data:
+      latest_tweet_date: 2022-08-02 16:27:27+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/platform9-systems-inc
+    crunchbase_data:
+      acquisitions: []
+      city: Mountain View
+      company_type: For Profit
+      country: United States
+      description: Platform9 provides Kubernetes-as-a-Service for multi-cloud, on-premises,
+        or at edge.
+      funding: 100000000
+      homepage: https://platform9.com
+      industries:
+      - Cloud Computing
+      - Enterprise Software
+      - IT Infrastructure
+      - SaaS
+      kind: funding
+      linkedin: https://www.linkedin.com/company/platform9-systems
+      name: Platform9
+      num_employees_max: 250
+      num_employees_min: 101
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: http://twitter.com/Platform9Sys
     homepage_url: https://platform9.com
+    image_data:
+      fileName: platform9-member.svg
+      hash: s/0BxS9AOnyM8MtltahylYMJfGvAkXQ8rjLOQPBg8LI=
     item: null
     logo: platform9-member.svg
     name: Platform9 (member)
     twitter: null
-  - crunchbase: https://www.crunchbase.com/organization/plural-37ce
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/plural-37ce
+    crunchbase_data:
+      acquisitions: []
+      city: New York
+      company_type: For Profit
+      country: United States
+      description: Plural effortlessly deploys and operates production-ready open-source
+        applications in minutes.
+      funding: 7000000
+      homepage: https://www.plural.sh
+      industries:
+      - Internet
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/pluralsh
+      name: Plural Labs
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: New York
+      stockExchange: null
+      twitter: https://twitter.com/plural_sh
     homepage_url: https://app.plural.sh/login
+    image_data:
+      fileName: plural-member.svg
+      hash: UsZTZ8+625Xdbv/MaoKv6LpoIUEGwFI8AcDG2b8O03A=
     item: null
     logo: plural.svg
     name: Plural (member)
-  - crunchbase: https://www.crunchbase.com/organization/polar-signals
+    twitter_data:
+      latest_tweet_date: 2022-08-05 19:38:39+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/polar-signals
+    crunchbase_data:
+      acquisitions: []
+      city: Claymont
+      company_type: For Profit
+      country: United States
+      description: Polar Signals is a profiling platform designed to measure and understand
+        performance over time.
+      funding: 3994963
+      homepage: https://www.polarsignals.com
+      industries:
+      - Computer
+      - Productivity Tools
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/polar-signals
+      name: Polar Signals
+      num_employees_max: 10
+      num_employees_min: 1
+      parents: []
+      region: Delaware
+      stockExchange: null
+      twitter: https://twitter.com/PolarSignalsIO
     homepage_url: https://www.polarsignals.com/
+    image_data:
+      fileName: polar-signals-member.svg
+      hash: 3ynABzJF1SI24iFmJeVOIk26kaIvN6MJdvxx4fcKsHw=
     item: null
     logo: polar-signals.svg
     name: Polar Signals (member)
-  - crunchbase: https://www.crunchbase.com/organization/polar-squad
+    twitter_data:
+      latest_tweet_date: 2022-07-31 11:40:17+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/polar-squad
+    crunchbase_data:
+      acquisitions: []
+      city: Helsinki
+      company_type: For Profit
+      country: Finland
+      description: Information Technology and Services
+      homepage: https://www.polarsquad.com/
+      industries:
+      - CRM
+      - Information Technology
+      - Software
+      linkedin: https://www.linkedin.com/company/polarsquad/
+      name: Polar Squad
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: Southern Finland
+      stockExchange: null
+      twitter: https://twitter.com/polarsquadhq
     homepage_url: https://polarsquad.com
+    image_data:
+      fileName: polar-squad-member.svg
+      hash: fA1lbdVS/5G82QiHZvDqYsiiCyDVcryFBb2tAhu3f8c=
     item: null
     logo: polar-squad-member.svg
     name: Polar Squad (member)
-  - crunchbase: https://www.crunchbase.com/organization/portainer
+    twitter_data:
+      latest_tweet_date: 2022-06-30 11:02:02+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/portainer
+    crunchbase_data:
+      acquisitions: []
+      city: Auckland
+      company_type: For Profit
+      country: New Zealand
+      description: Portainer is a simplified, expert GUI management toolset designed
+        to build, manage, and maintain Swarm and Kubernetes environments.
+      funding: 13400000
+      homepage: https://portainer.io/
+      industries:
+      - Information Technology
+      - Software
+      kind: funding
+      linkedin: null
+      name: Portainer
+      num_employees_max: null
+      num_employees_min: null
+      parents: []
+      region: Auckland
+      stockExchange: null
+      twitter: https://twitter.com/portainerio
     homepage_url: https://www.portainer.io/
+    image_data:
+      fileName: portainer-member.svg
+      hash: XASH8WCDDc4eVHEazn4o0Rk5u6Ri07MG6BNGnmiBjgo=
     item: null
     logo: portainer.svg
     name: Portainer (member)
-  - crunchbase: https://www.crunchbase.com/organization/portworx
+    twitter_data:
+      latest_tweet_date: 2022-08-05 20:32:52+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/portworx
+    crunchbase_data:
+      acquisitions: []
+      city: Los Altos
+      company_type: For Profit
+      country: United States
+      description: "Portworx is a cloud-native storage and data management company\
+        \ offering the industry\u2019s first storage solution purpose-built for containers."
+      funding: 55500000
+      homepage: https://portworx.com/
+      industries:
+      - Cloud Storage
+      - Data Center
+      - Data Storage
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/portworx/
+      name: Portworx
+      num_employees_max: 250
+      num_employees_min: 101
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/portwx
     homepage_url: https://portworx.com
+    image_data:
+      fileName: portworx-member.svg
+      hash: n7mJwtl+4bgGeMgfEj0OrN/iRLZSkn1WqBeKwVABJ4M=
     item: null
     logo: portworx-by-purestorage.svg
     name: Portworx (member)
-  - crunchbase: https://www.crunchbase.com/organization/posedio
+    twitter_data:
+      latest_tweet_date: 2022-08-04 15:05:23+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/posedio
+    crunchbase_data:
+      acquisitions: []
+      city: Vienna
+      company_type: For Profit
+      country: Austria
+      description: "We are a reliable and competent partner \u2013 from design and\
+        \ implementation, through maintenance and administration of your services."
+      homepage: https://posedio.com/
+      industries:
+      - Consulting
+      - Information Technology
+      linkedin: https://www.linkedin.com/company/posedio
+      name: Posedio
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: Wien
+      stockExchange: null
+      twitter: null
     homepage_url: https://www.posedio.com/
+    image_data:
+      fileName: posedio-member.svg
+      hash: iD/BEKmNaKGElwlFu06Y4ayGM7UNa4LJj2oyPPRjM0g=
     item: null
     logo: posedio.svg
     name: Posedio (member)
-  - crunchbase: https://www.crunchbase.com/organization/prefect-technologies-inc
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/prefect-technologies-inc
+    crunchbase_data:
+      acquisitions: []
+      city: Washington
+      company_type: For Profit
+      country: United States
+      description: "Prefect is a workflow management system that helps to eliminate\
+        \ data flow problems for companies\u2019 data teams."
+      funding: 46000000
+      homepage: https://www.prefect.io
+      industries:
+      - Big Data
+      - Cloud Data Services
+      - Data Integration
+      - Open Source
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/prefect
+      name: Prefect
+      num_employees_max: 100
+      num_employees_min: 51
+      parents: []
+      region: District of Columbia
+      stockExchange: null
+      twitter: https://twitter.com/prefectio
     homepage_url: https://www.prefect.io/
+    image_data:
+      fileName: prefect-member.svg
+      hash: XKYubQ8IgOUGEjnuTtFCV+9hw3cVPbFIM7t5/jfSO4Q=
     item: null
     logo: prefect.svg
     name: Prefect (member)
-  - crunchbase: https://www.crunchbase.com/organization/prisma-io
+    twitter_data:
+      latest_tweet_date: 2022-08-04 19:43:06+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/prisma-io
+    crunchbase_data:
+      acquisitions: []
+      city: San Francisco
+      company_type: For Profit
+      country: United States
+      description: At Prisma, we are building the data access layer for modern applications.
+      funding: 56500000
+      homepage: https://www.prisma.io
+      industries:
+      - Developer Platform
+      - Enterprise Software
+      - Information Technology
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/prisma-io/
+      name: Prisma
+      num_employees_max: 100
+      num_employees_min: 51
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/prisma
     homepage_url: https://www.prisma.io/
+    image_data:
+      fileName: prisma-member.svg
+      hash: BYsOQWExESbvGFdzaofzMXMJcymrbalfh6WJx4575nA=
     item: null
     logo: prisma.svg
     name: Prisma (member)
-  - crunchbase: https://www.crunchbase.com/organization/prodigy-game
+    twitter_data:
+      latest_tweet_date: 2022-08-05 14:27:01+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/prodigy-game
+    crunchbase_data:
+      acquisitions: []
+      city: Oakville
+      company_type: For Profit
+      country: Canada
+      description: Prodigy Education is a leader in game-based learning
+      funding: 125121088
+      homepage: http://www.prodigygame.com
+      industries:
+      - Children
+      - Education
+      - Gaming
+      kind: funding
+      linkedin: https://www.linkedin.com/company/prodigyedu
+      name: Prodigy Education
+      num_employees_max: 500
+      num_employees_min: 251
+      parents: []
+      region: Ontario
+      stockExchange: null
+      twitter: https://www.twitter.com/prodigygame
     enduser: true
     homepage_url: https://www.prodigygame.com/main-en/
+    image_data:
+      fileName: prodigy-education-member.svg
+      hash: TCz8gpf4QuTCQ/ICzusmpvCwuv+nLqi2+KTSp6I3YDs=
     item: null
     joined: '2022-03-30'
     logo: prodigy-education.svg
     name: Prodigy Education (member)
-  - crunchbase: https://www.crunchbase.com/organization/prodyna
+    twitter_data:
+      latest_tweet_date: 2022-08-05 16:22:42+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/prodyna
+    crunchbase_data:
+      acquisitions: []
+      city: Eschborn
+      company_type: For Profit
+      country: Germany
+      description: PRODYNA is an innovative IT consultancy specialized on the topic
+        of digital business.
+      homepage: http://www.prodyna.com/
+      industries:
+      - Information Technology
+      linkedin: https://www.linkedin.com/company-beta/274445/
+      name: PRODYNA
+      num_employees_max: 500
+      num_employees_min: 251
+      parents: []
+      region: Hessen
+      stockExchange: null
+      twitter: https://twitter.com/PRODYNASE
     homepage_url: https://www.prodyna.com
+    image_data:
+      fileName: prodyna-member.svg
+      hash: P6TUnxvh+1r+mfeYLt2/rr1czIbFwj/8nstLHcf9R3M=
     item: null
     logo: prodyna-member.svg
     name: PRODYNA (member)
-  - crunchbase: https://www.crunchbase.com/organization/vsh-software
+    twitter_data:
+      latest_tweet_date: 2022-08-05 11:23:18+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/vsh-software
+    crunchbase_data:
+      acquisitions: []
+      city: Hod Hasharon
+      company_type: For Profit
+      country: Israel
+      description: Israeli boutique DevOps and Cloud company
+      funding: 2000000
+      homepage: http://www.profisea.com/
+      industries:
+      - Cloud Management
+      - Consulting
+      - Information Technology
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/profisea/
+      name: Profisea
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: HaMerkaz
+      stockExchange: null
+      twitter: https://twitter.com/profisea
     homepage_url: https://www.profisea.com/
+    image_data:
+      fileName: profisea-member.svg
+      hash: xTodFXye69r4m32MvTAVoV0sQlv2WkvTAIXf/Jqp5P8=
     item: null
     logo: profisea.svg
     name: Profisea (member)
-  - crunchbase: https://www.crunchbase.com/organization/pulumi-corporation
+    twitter_data:
+      latest_tweet_date: 2022-07-08 11:23:01+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/pulumi-corporation
+    crunchbase_data:
+      acquisitions: []
+      city: Seattle
+      company_type: For Profit
+      country: United States
+      description: Pulumi is a  Seattle-based cloud engineering company that offers
+        a way to build, connect, and run modern cloud applications.
+      funding: 57500000
+      homepage: https://www.pulumi.com
+      industries:
+      - Cloud Computing
+      - Computer
+      - SaaS
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/pulumi
+      name: Pulumi
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: Washington
+      stockExchange: null
+      twitter: https://twitter.com/pulumicorp
     homepage_url: https://www.pulumi.com
+    image_data:
+      fileName: pulumi-member.svg
+      hash: +HekUEmVeIgeGKPyVY0p3kv2Pdi97GCqBtRi59s+QMA=
     item: null
     logo: pulumi.svg
     name: Pulumi (member)
-  - crunchbase: https://www.crunchbase.com/organization/puppet-labs
+    twitter_data:
+      latest_tweet_date: 2022-08-05 20:00:35+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/puppet-labs
+    crunchbase_data:
+      acquisitions:
+      - acquiree: The Marionette Collective
+        date: '2010-10-07'
+      - acquiree: Cloudsmith
+        date: '2013-07-17'
+      - acquiree: Distelli
+        date: '2017-09-20'
+      - acquiree: Reflect
+        date: '2018-06-07'
+      city: Portland
+      company_type: For Profit
+      country: United States
+      description: Puppet is an information technology automation software company
+        designed for system administrators.
+      funding: 189500000
+      homepage: https://puppet.com/
+      industries:
+      - Application Performance Management
+      - Data Center Automation
+      - IT Infrastructure
+      - Information Services
+      - Information Technology
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/puppet/
+      name: Puppet
+      num_employees_max: 500
+      num_employees_min: 251
+      parents: []
+      region: Oregon
+      stockExchange: null
+      twitter: https://twitter.com/puppetize
     homepage_url: https://puppet.com
+    image_data:
+      fileName: puppet-member.svg
+      hash: Znovog0WY2aZOKG1kkABO8naIc12UOXs/ETAizezdiQ=
     item: null
     logo: puppet.svg
     name: Puppet (member)
-  - crunchbase: https://www.crunchbase.com/organization/puzzle
+    twitter_data:
+      latest_tweet_date: 2022-08-03 21:35:02+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/puzzle
+    crunchbase_data:
+      acquisitions: []
+      city: Bern
+      company_type: For Profit
+      country: Switzerland
+      description: Puzzle is a Red Hat Certified Cloud Provider.
+      homepage: https://www.puzzle.ch/
+      industries:
+      - Information Technology
+      linkedin: https://www.linkedin.com/company/puzzle-itc/
+      name: Puzzle
+      num_employees_max: 100
+      num_employees_min: 51
+      parents: []
+      region: Bern
+      stockExchange: null
+      twitter: https://www.twitter.com/puzzleitc
     homepage_url: https://www.puzzle.ch/de/home
+    image_data:
+      fileName: puzzle-itc-member.svg
+      hash: iwYegEraXqRQa/+i06iOetizSX7bMyYVWXCgH+4vNj8=
     item: null
     logo: puzzle.svg
     name: Puzzle ITC (member)
+    twitter_data:
+      latest_tweet_date: 2022-08-05 05:46:23+00:00
 Observability and Analysis:
   Chaos Engineering:
-  - crunchbase: https://www.crunchbase.com/organization/bloomberg
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/bloomberg
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Bloomberg Businessweek
+        date: '2009-10-13'
+      - acquiree: BloombergNEF
+        date: '2009-12-10'
+      - acquiree: Eagle Eye Publishers
+        date: '2010-02-22'
+      - acquiree: BNA
+        date: '2011-08-25'
+      - acquiree: Bloomberg PolarLake
+        date: '2012-05-22'
+      - acquiree: RTS Realtime Systems
+        date: '2014-07-09'
+      - acquiree: Netbox Blue
+        date: '2016-01-12'
+      - acquiree: RegTek Solutions
+        date: '2019-08-13'
+      - acquiree: Bloomberg Second Measure
+        date: '2020-12-24'
+      city: New York
+      company_type: For Profit
+      country: United States
+      description: Bloomberg provides news, data, analytics, and communication services
+        for the global business and financial world.
+      homepage: http://www.bloomberg.com
+      industries:
+      - Analytics
+      - Business Information Systems
+      - Business Intelligence
+      - News
+      linkedin: https://www.linkedin.com/company/bloomberg-lp
+      name: Bloomberg
+      num_employees_max: 1000000
+      num_employees_min: 10001
+      parents: []
+      region: New York
+      stockExchange: null
+      twitter: https://twitter.com/Bloomberg
+    github_data:
+      contributions: 0;0;0;0;0;1;0;1;0;2;9;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+      contributors_count: 35
+      contributors_link: https://github.com/powerfulseal/powerfulseal/graphs/contributors
+      description: A powerful testing tool for Kubernetes clusters.
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#3572A5'
+        name: Python
+        value: 293292
+      - color: '#f1e05a'
+        name: JavaScript
+        value: 1605
+      - color: '#427819'
+        name: Makefile
+        value: 1596
+      - color: '#384d54'
+        name: Dockerfile
+        value: 1503
+      - color: '#89e051'
+        name: Shell
+        value: 101
+      latest_commit_date: '2021-10-22T10:05:47Z'
+      latest_commit_link: /powerfulseal/powerfulseal/commit/83e138c92ce3d3cff3c7b19d76f5c7c76bbf817e
+      license: Apache License 2.0
+      release_date: '2021-09-17T16:53:43Z'
+      release_link: https://github.com/powerfulseal/powerfulseal/releases
+      stars: 1807
+    github_start_commit_data:
+      start_commit_link: /bloomberg/powerfulseal/commit/32886c31dcd3c09c249ee4f8c01db6f9252c09a7
+      start_date: '2017-12-06T16:41:12Z'
     homepage_url: https://github.com/powerfulseal/powerfulseal
+    image_data:
+      fileName: powerful-seal.svg
+      hash: R2t6gTTh5CfZ3PwmXUarOjUI4sK+/I/EcBZgLqBxcjg=
     item: null
     logo: powerful-seal.svg
     name: PowerfulSeal
     repo_url: https://github.com/powerfulseal/powerfulseal
+    repos:
+    - stars: 1807
+      url: https://github.com/powerfulseal/powerfulseal
     twitter: https://twitter.com/TechAtBloomberg
+    twitter_data:
+      latest_tweet_date: 2022-08-05 20:57:34+00:00
   Continuous Optimization: []
   Logging:
-  - crunchbase: https://www.crunchbase.com/organization/qiniu
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/qiniu
+    crunchbase_data:
+      acquisitions: []
+      city: Shanghai
+      company_type: For Profit
+      country: China
+      description: Your unified data lake and analysis platform for 5G
+      funding: 396890187
+      homepage: https://www.qiniu.com/
+      industries:
+      - Cloud Computing
+      - Cloud Storage
+      - Information Technology
+      - Intelligent Systems
+      kind: funding
+      linkedin: https://www.linkedin.com/company/qiniu-limited
+      name: Qiniu
+      num_employees_max: 500
+      num_employees_min: 251
+      parents: []
+      region: Shanghai
+      stockExchange: null
+      twitter: null
     homepage_url: https://www.qiniu.com/products/pdr
+    image_data:
+      fileName: pandora2-0.svg
+      hash: iR3aNFrMiuobDYUETrdWMkhfBOutvxQps2MX58HgZ5Y=
     item: null
     logo: pandora.svg
     name: Pandora2.0
   Monitoring:
-  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  - best_practice_data:
+      badge: 5027
+      percentage: 100
+    crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Kubernetes
+        date: '2016-03-10'
+      - acquiree: RethinkDB
+        date: '2017-02-06'
+        price: 25000
+      city: San Francisco
+      company_type: Non Profit
+      country: United States
+      description: CNCF is an open source software foundation that hosts and nurtures
+        projects like Kubernetes and Prometheus.
+      funding: 3000000
+      homepage: https://www.cncf.io
+      industries:
+      - Cloud Computing
+      - Cloud Infrastructure
+      - Non Profit
+      - Open Source
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+      name: Cloud Native Computing Foundation (CNCF)
+      num_employees_max: 50
+      num_employees_min: 11
+      parents:
+      - https://www.crunchbase.com/organization/linux-foundation
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/CloudNativeFdn
     description: Open source Kubernetes observability for developers
     extra:
       accepted: '2021-06-22'
       blog_url: https://blog.px.dev/
       slack_url: https://slackin.px.dev/
       youtube_url: https://www.youtube.com/channel/UCOMCDRvBVNIS0lCyOmst7eg
+    github_data:
+      contributions: 5;73;67;71;37;61;26;51;60;14;55;54;37;36;56;9;31;60;49;2;1;30;67;47;55;63;53;64;32;66;25;21;66;70;41;45;49;35;54;32;1;24;49;45;57;35;56;29;35;39;65;40
+      contributors_count: 52
+      contributors_link: https://github.com/pixie-io/pixie/graphs/contributors
+      description: Instant Kubernetes-Native Application Observability
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#f34b7d'
+        name: C++
+        value: 8522681
+      - color: '#00ADD8'
+        name: Go
+        value: 3847223
+      - color: '#2b7489'
+        name: TypeScript
+        value: 1547350
+      - name: Starlark
+        value: 1088934
+      - color: '#f1e05a'
+        name: JavaScript
+        value: 690556
+      - color: '#3572A5'
+        name: Python
+        value: 682436
+      - color: '#555555'
+        name: C
+        value: 287317
+      - color: '#89e051'
+        name: Shell
+        value: 187149
+      - color: '#4F5D95'
+        name: PHP
+        value: 55924
+      - color: '#701516'
+        name: Ruby
+        value: 39284
+      - color: '#427819'
+        name: Makefile
+        value: 14468
+      - color: '#384d54'
+        name: Dockerfile
+        value: 12884
+      - color: '#b07219'
+        name: Java
+        value: 5257
+      - name: PLpgSQL
+        value: 2809
+      - color: '#c22d40'
+        name: Scala
+        value: 2626
+      - color: '#e34c26'
+        name: HTML
+        value: 1433
+      - name: HCL
+        value: 539
+      - name: Thrift
+        value: 498
+      latest_commit_date: '2022-08-05T23:17:50Z'
+      latest_commit_link: /pixie-io/pixie/commit/0bb6f8c0c6d6e44378fce6b48f6222fcf980d44a
+      license: Apache License 2.0
+      release_date: '2022-08-03T23:17:21Z'
+      release_link: https://github.com/pixie-io/pixie/releases
+      stars: 3646
+    github_start_commit_data:
+      start_commit_link: /pixie-io/pixie/commit/6fa088f31073c6333f82d878ac9bd365c6c9ff77
+      start_date: '2018-06-23T00:26:53Z'
     homepage_url: https://px.dev/
+    image_data:
+      fileName: pixie.svg
+      hash: F4S+xmfJZpzAq19phqpgqa1PCGzI127BPMAqFDWVorE=
     item: null
     logo: pixie.svg
     name: Pixie
     project: sandbox
     repo_url: https://github.com/pixie-io/pixie
+    repos:
+    - stars: 3646
+      url: https://github.com/pixie-io/pixie
     twitter: https://twitter.com/pixie_run
-  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    twitter_data:
+      latest_tweet_date: 2022-07-12 00:00:22+00:00
+  - best_practice_data:
+      badge: 486
+      percentage: 100
+    crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Kubernetes
+        date: '2016-03-10'
+      - acquiree: RethinkDB
+        date: '2017-02-06'
+        price: 25000
+      city: San Francisco
+      company_type: Non Profit
+      country: United States
+      description: CNCF is an open source software foundation that hosts and nurtures
+        projects like Kubernetes and Prometheus.
+      funding: 3000000
+      homepage: https://www.cncf.io
+      industries:
+      - Cloud Computing
+      - Cloud Infrastructure
+      - Non Profit
+      - Open Source
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+      name: Cloud Native Computing Foundation (CNCF)
+      num_employees_max: 50
+      num_employees_min: 11
+      parents:
+      - https://www.crunchbase.com/organization/linux-foundation
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/CloudNativeFdn
     extra:
       accepted: '2016-05-09'
       artwork_url: https://github.com/cncf/artwork/blob/master/examples/graduated.md#prometheus-logos
@@ -323,28 +2737,229 @@ Observability and Analysis:
       slack_url: https://freenode.net/
       stack_overflow_url: https://stackoverflow.com/questions/tagged/prometheus
       youtube_url: https://www.youtube.com/channel/UC4pLFely0-Odea4B2NL1nWA
+    github_data:
+      contributions: 23;9;47;33;41;36;14;20;11;20;41;24;27;32;86;26;31;45;25;26;12;25;21;14;11;28;11;15;14;14;30;10;11;17;18;16;8;11;17;4;9;30;16;27;23;11;26;11;21;14;4;25
+      contributors_count: 832
+      contributors_link: https://github.com/prometheus/prometheus/graphs/contributors
+      description: The Prometheus monitoring system and time series database.
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#00ADD8'
+        name: Go
+        value: 4210795
+      - color: '#2b7489'
+        name: TypeScript
+        value: 466211
+      - color: '#e34c26'
+        name: HTML
+        value: 30454
+      - color: '#f1e05a'
+        name: JavaScript
+        value: 28170
+      - color: '#4B6C4B'
+        name: Yacc
+        value: 26012
+      - color: '#89e051'
+        name: Shell
+        value: 16811
+      - name: SCSS
+        value: 12701
+      - color: '#DBCA00'
+        name: Lex
+        value: 5982
+      - color: '#427819'
+        name: Makefile
+        value: 3930
+      - color: '#563d7c'
+        name: CSS
+        value: 3721
+      - color: '#384d54'
+        name: Dockerfile
+        value: 1270
+      latest_commit_date: '2022-08-05T13:49:38Z'
+      latest_commit_link: /prometheus/prometheus/commit/fba20567c0301d48361959a87aefa7d2e0c72815
+      license: Apache License 2.0
+      release_date: '2022-07-14T15:41:38Z'
+      release_link: https://github.com/prometheus/prometheus/releases
+      stars: 43691
+    github_start_commit_data:
+      start_commit_link: /prometheus/prometheus/commit/734d28b515026ca9f429eba0a7d09954bceb6387
+      start_date: '2012-11-24T11:14:12Z'
     homepage_url: https://prometheus.io/
+    image_data:
+      fileName: prometheus.svg
+      hash: I4EIFdktueFkVsEYWbEPTL1eNE4bMe2BiLdqynSWjOk=
     item: null
     logo: prometheus.svg
     name: Prometheus
     project: graduated
     repo_url: https://github.com/prometheus/prometheus
+    repos:
+    - stars: 43691
+      url: https://github.com/prometheus/prometheus
     twitter: https://twitter.com/PrometheusIO
-  - crunchbase: https://www.crunchbase.com/organization/timescaledb
+    twitter_data:
+      latest_tweet_date: 2022-08-04 14:04:41+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/timescaledb
+    crunchbase_data:
+      acquisitions: []
+      city: New York
+      company_type: For Profit
+      country: United States
+      description: TimescaleDB is an open-source time-series database optimized for
+        fast ingest and complex queries.
+      funding: 181100000
+      homepage: http://www.timescale.com
+      industries:
+      - Computer
+      - Database
+      - Information Services
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/timescaledb
+      name: Timescale
+      num_employees_max: 250
+      num_employees_min: 101
+      parents: []
+      region: New York
+      stockExchange: null
+      twitter: https://twitter.com/timescaledb
     description: 'The observability backend powered by SQL built on PostgreSQL and
       TimescaleDB. '
+    github_data:
+      contributions: 10;8;7;3;3;2;15;13;64;34;27;24;9;17;32;38;44;34;17;10;1;13;31;14;11;17;25;20;22;21;8;14;19;5;8;12;5;15;19;36;4;10;14;9;12;16;8;6;24;17;7;3
+      contributors_count: 69
+      contributors_link: https://github.com/timescale/promscale/graphs/contributors
+      description: Promscale is a unified metric and trace observability backend for
+        Prometheus, Jaeger and OpenTelemetry built on PostgreSQL and TimescaleDB.
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#00ADD8'
+        name: Go
+        value: 2062037
+      - name: PLpgSQL
+        value: 204044
+      - color: '#89e051'
+        name: Shell
+        value: 15959
+      - color: '#3572A5'
+        name: Python
+        value: 10713
+      - color: '#427819'
+        name: Makefile
+        value: 3063
+      - name: Smarty
+        value: 1570
+      - color: '#384d54'
+        name: Dockerfile
+        value: 1426
+      latest_commit_date: '2022-08-04T15:51:53Z'
+      latest_commit_link: /timescale/promscale/commit/a6c30996361308df4f52393db30cd27389ef9942
+      license: Apache License 2.0
+      release_date: '2022-07-22T05:34:35Z'
+      release_link: https://github.com/timescale/promscale/releases
+      stars: 1125
+    github_start_commit_data:
+      start_commit_link: /timescale/promscale/commit/1ecbe3a00a4d016251b36691f979480a4a69794c
+      start_date: '2017-04-28T12:43:48Z'
     homepage_url: https://timescale.com/promscale
+    image_data:
+      fileName: promscale.svg
+      hash: gUS7Okxe/JH0FMRIASaD4nBwgl6E0HhhIJ5lmtvc3Vo=
     item: null
     logo: promscale.svg
     name: Promscale
     repo_url: https://github.com/timescale/promscale
+    repos:
+    - stars: 1125
+      url: https://github.com/timescale/promscale
+    twitter_data:
+      latest_tweet_date: 2022-08-05 17:58:39+00:00
   Tracing:
-  - crunchbase: https://www.crunchbase.com/organization/pinpoint-282b
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/pinpoint-282b
+    crunchbase_data:
+      acquisitions: []
+      city: Seongnam
+      company_type: Non Profit
+      country: South Korea
+      description: APM
+      homepage: https://naver.github.io/pinpoint/
+      industries: []
+      linkedin: null
+      name: Pinpoint
+      num_employees_max: null
+      num_employees_min: null
+      parents: []
+      region: Kyonggi-do
+      stockExchange: null
+      twitter: https://twitter.com/Pinpoint_APM
+    github_data:
+      contributions: 11;11;19;20;22;23;6;20;7;17;20;18;9;14;13;4;13;14;16;6;11;6;7;5;13;5;8;9;9;2;10;4;9;10;17;13;13;15;13;13;3;5;13;5;9;28;19;11;9;10;9;5
+      contributors_count: 139
+      contributors_link: https://github.com/pinpoint-apm/pinpoint/graphs/contributors
+      description: 'APM, (Application Performance Management) tool for large-scale
+        distributed systems. '
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#b07219'
+        name: Java
+        value: 19517343
+      - color: '#2b7489'
+        name: TypeScript
+        value: 1678288
+      - color: '#563d7c'
+        name: CSS
+        value: 214019
+      - color: '#e34c26'
+        name: HTML
+        value: 202064
+      - name: Thrift
+        value: 15920
+      - color: '#89e051'
+        name: Shell
+        value: 9993
+      - color: '#f1e05a'
+        name: JavaScript
+        value: 5971
+      - color: '#e69f56'
+        name: Groovy
+        value: 1423
+      - color: '#F18E33'
+        name: Kotlin
+        value: 1327
+      - name: TSQL
+        value: 978
+      - color: '#C1F12E'
+        name: Batchfile
+        value: 200
+      latest_commit_date: '2022-08-05T09:47:55Z'
+      latest_commit_link: /pinpoint-apm/pinpoint/commit/796bd8d239cac27430550f649a78644196b3d398
+      license: Apache License 2.0
+      release_date: '2022-08-04T06:11:51Z'
+      release_link: https://github.com/pinpoint-apm/pinpoint/releases
+      stars: 12297
+    github_start_commit_data:
+      start_commit_link: /naver/pinpoint/commit/20c9d38b033d7c5c6b24dcdb7eb24857e22d54e1
+      start_date: '2012-06-19T05:37:05Z'
     homepage_url: https://naver.github.io/pinpoint/
+    image_data:
+      fileName: pinpoint.svg
+      hash: FeAjlHFQVGt3R0lyLYQjEuuHZPE9Ho1GALwmsHuxZeQ=
     item: null
     logo: pinpoint.svg
     name: Pinpoint
     repo_url: https://github.com/pinpoint-apm/pinpoint
+    repos:
+    - stars: 12297
+      url: https://github.com/pinpoint-apm/pinpoint
+    twitter_data:
+      latest_tweet_date: 2022-08-04 07:50:30+00:00
 Orchestration & Management:
   API Gateway: []
   Coordination & Service Discovery: []
@@ -354,18 +2969,77 @@ Orchestration & Management:
   Service Proxy: []
 Platform:
   Certified Kubernetes - Distribution:
-  - crunchbase: https://www.crunchbase.com/organization/spectro-cloud
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/spectro-cloud
+    crunchbase_data:
+      acquisitions: []
+      city: San Jose
+      company_type: For Profit
+      country: United States
+      description: Spectro Cloud enables organizations to manage the full lifecycle
+        of any combination of new or existing Kubernetes environments.
+      funding: 67500000
+      homepage: https://www.spectrocloud.com
+      industries:
+      - Cloud Data Services
+      - Information Technology
+      - SaaS
+      kind: funding
+      linkedin: https://www.linkedin.com/company/spectro-cloud/
+      name: Spectro Cloud
+      num_employees_max: 100
+      num_employees_min: 51
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/spectrocloudinc
     description: "Keep control of your Kubernetes infrastructure stack with Spectro\
       \ Cloud\u2019s as-a-Service experience for public clouds, private clouds, and\
       \ bare metal environments."
     homepage_url: https://www.spectrocloud.com/
+    image_data:
+      fileName: palette.svg
+      hash: f6BW9qrNgmzdKklWej298783HFc1sTt7mmErKAIUXck=
     item: null
     logo: palette.svg
     name: Palette
-  - crunchbase: https://www.crunchbase.com/organization/platform9-systems-inc
+    twitter_data:
+      latest_tweet_date: 2022-08-05 20:01:31+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/platform9-systems-inc
+    crunchbase_data:
+      acquisitions: []
+      city: Mountain View
+      company_type: For Profit
+      country: United States
+      description: Platform9 provides Kubernetes-as-a-Service for multi-cloud, on-premises,
+        or at edge.
+      funding: 100000000
+      homepage: https://platform9.com
+      industries:
+      - Cloud Computing
+      - Enterprise Software
+      - IT Infrastructure
+      - SaaS
+      kind: funding
+      linkedin: https://www.linkedin.com/company/platform9-systems
+      name: Platform9
+      num_employees_max: 250
+      num_employees_min: 101
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: http://twitter.com/Platform9Sys
     description: Platform9 Managed Kubernetes is SaaS-managed, infrastructure-agnostic,
       and works across public clouds and on-premises server infrastructure.
     homepage_url: https://platform9.com/managed-kubernetes/
+    image_data:
+      fileName: platform9-managed-kubernetes.svg
+      hash: 3oq57PpCz3GeBES7+P0XlRPZcFK0284wRH6FBgVpCt0=
     item: null
     logo: platform9-managed-kubernetes.svg
     name: Platform9 Managed Kubernetes
@@ -373,234 +3047,1979 @@ Platform:
   Certified Kubernetes - Hosted: []
   Certified Kubernetes - Installer: []
   PaaS/Container Service:
-  - crunchbase: https://www.crunchbase.com/organization/yelp
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/yelp
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Qype
+        date: '2012-10-25'
+        price: 50000000
+      - acquiree: Yelp Reservations
+        date: '2013-07-18'
+        price: 12700000
+      - acquiree: Restaurant-Kritik
+        date: '2014-10-24'
+      - acquiree: Cityvox
+        date: '2014-10-28'
+      - acquiree: Eat24
+        date: '2015-02-10'
+        price: 134000000
+      - acquiree: Nowait
+        date: '2017-03-02'
+        price: 40000000
+      - acquiree: Turnstyle Solutions
+        date: '2017-04-04'
+        price: 20000000
+      city: San Francisco
+      company_type: For Profit
+      country: United States
+      description: Yelp operates an online platform that connects people with local
+        businesses.
+      funding: 56000000
+      homepage: http://yelp.com
+      industries:
+      - Apps
+      - Internet
+      - Mobile
+      - Search Engine
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/yelp-com
+      name: Yelp
+      num_employees_max: 1000000
+      num_employees_min: 10001
+      parents: []
+      region: California
+      stockExchange: nyse
+      ticker: YELP
+      twitter: http://twitter.com/Yelp
+    github_data:
+      contributions: 36;60;33;28;17;13;9;11;16;2;3;7;7;10;5;5;18;12;5;0;0;11;15;4;14;4;22;33;6;15;28;24;17;12;5;7;14;2;16;7;14;8;5;15;10;9;15;5;11;22;25;17
+      contributors_count: 212
+      contributors_link: https://github.com/Yelp/paasta/graphs/contributors
+      description: An open, distributed platform as a service
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#3572A5'
+        name: Python
+        value: 4763360
+      - color: '#89e051'
+        name: Shell
+        value: 97987
+      - color: '#5B2063'
+        name: Gherkin
+        value: 22268
+      - color: '#384d54'
+        name: Dockerfile
+        value: 20506
+      - color: '#427819'
+        name: Makefile
+        value: 11927
+      latest_commit_date: '2022-08-05T18:39:22Z'
+      latest_commit_link: /Yelp/paasta/commit/ee2a9bc362a2eace355f22ae8add5a8793568c99
+      license: Apache License 2.0
+      stars: 1610
+    github_start_commit_data:
+      start_commit_link: /Yelp/paasta/commit/012a3d280e6cd9d1077d062ecbedd3bac98bdcb2
+      start_date: '2013-08-20T13:28:10Z'
     homepage_url: https://engineeringblog.yelp.com/2015/11/introducing-paasta-an-open-platform-as-a-service.html
+    image_data:
+      fileName: paa-sta.svg
+      hash: Km1r6jdlo52aSbyQa4Ga1YjfMusUeHqS6U2SCzWLnUs=
     item: null
     logo: paasta.svg
     name: PaaSTA
     repo_url: https://github.com/Yelp/paasta
+    repos:
+    - stars: 1610
+      url: https://github.com/Yelp/paasta
     twitter: https://twitter.com/yelpengineering
-  - crunchbase: https://www.crunchbase.com/organization/commerce-guys
+    twitter_data:
+      latest_tweet_date: 2022-08-03 16:00:27+00:00
+    yahoo_finance_data:
+      effective_ticker: YELP
+      market_cap: 2711072768
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/commerce-guys
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Blackfire.io
+        date: '2021-07-30'
+      city: Paris
+      company_type: For Profit
+      country: France
+      description: Platform.sh is a cloud hosting platform that helps companies build,
+        run, and scale their websites and apps.
+      funding: 187300000
+      homepage: https://platform.sh
+      industries:
+      - Cloud Management
+      - Internet
+      - Open Source
+      - PaaS
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/platformsh
+      name: Platform.sh
+      num_employees_max: 500
+      num_employees_min: 251
+      parents: []
+      region: Ile-de-France
+      stockExchange: null
+      twitter: http://twitter.com/platformsh
     homepage_url: https://platform.sh/
+    image_data:
+      fileName: platform-sh.svg
+      hash: wELocXvB/xBxC2zIeODAg9zmqi3QvnEy58okXcGt2NA=
     item: null
     logo: platform-sh.svg
     name: Platform.sh
-  - crunchbase: https://www.crunchbase.com/organization/portainer
+    twitter_data:
+      latest_tweet_date: 2022-08-05 07:01:33+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/portainer
+    crunchbase_data:
+      acquisitions: []
+      city: Auckland
+      company_type: For Profit
+      country: New Zealand
+      description: Portainer is a simplified, expert GUI management toolset designed
+        to build, manage, and maintain Swarm and Kubernetes environments.
+      funding: 13400000
+      homepage: https://portainer.io/
+      industries:
+      - Information Technology
+      - Software
+      kind: funding
+      linkedin: null
+      name: Portainer
+      num_employees_max: null
+      num_employees_min: null
+      parents: []
+      region: Auckland
+      stockExchange: null
+      twitter: https://twitter.com/portainerio
+    github_data:
+      contributions: 14;8;13;18;19;18;55;32;15;16;27;9;7;6;20;18;20;14;13;10;1;7;14;12;20;10;9;8;4;13;3;17;4;8;16;15;16;15;9;7;8;8;15;9;12;10;18;27;16;21;43;62
+      contributors_count: 234
+      contributors_link: https://github.com/portainer/portainer/graphs/contributors
+      description: Making Docker and Kubernetes management easy.
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#00ADD8'
+        name: Go
+        value: 1863307
+      - color: '#f1e05a'
+        name: JavaScript
+        value: 1726949
+      - color: '#e34c26'
+        name: HTML
+        value: 1454330
+      - color: '#2b7489'
+        name: TypeScript
+        value: 824052
+      - color: '#563d7c'
+        name: CSS
+        value: 97915
+      - color: '#89e051'
+        name: Shell
+        value: 11508
+      - color: '#384d54'
+        name: Dockerfile
+        value: 6299
+      - name: EJS
+        value: 2436
+      - color: '#427819'
+        name: Makefile
+        value: 927
+      - name: Handlebars
+        value: 411
+      - color: '#012456'
+        name: PowerShell
+        value: 396
+      latest_commit_date: '2022-08-05T07:45:21Z'
+      latest_commit_link: /portainer/portainer/commit/539948b5a615b8118acec9d9c4e77a0207adc6e3
+      license: zlib License
+      release_date: '2022-07-26T04:15:54Z'
+      release_link: https://github.com/portainer/portainer/releases
+      stars: 22543
+    github_start_commit_data:
+      start_commit_link: /portainer/portainer/commit/bec8f5338634b631a2d907be2cd7d02c969739d1
+      start_date: '2013-06-09T00:12:14Z'
     homepage_url: https://www.portainer.io/
+    image_data:
+      fileName: portainer.svg
+      hash: XASH8WCDDc4eVHEazn4o0Rk5u6Ri07MG6BNGnmiBjgo=
     item: null
     logo: portainer.svg
     name: Portainer
     repo_url: https://github.com/portainer/portainer
+    repos:
+    - stars: 22543
+      url: https://github.com/portainer/portainer
+    twitter_data:
+      latest_tweet_date: 2022-08-05 20:32:52+00:00
 Provisioning:
   Automation & Configuration:
-  - crunchbase: https://www.crunchbase.com/organization/pulumi-corporation
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/pulumi-corporation
+    crunchbase_data:
+      acquisitions: []
+      city: Seattle
+      company_type: For Profit
+      country: United States
+      description: Pulumi is a  Seattle-based cloud engineering company that offers
+        a way to build, connect, and run modern cloud applications.
+      funding: 57500000
+      homepage: https://www.pulumi.com
+      industries:
+      - Cloud Computing
+      - Computer
+      - SaaS
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/pulumi
+      name: Pulumi
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: Washington
+      stockExchange: null
+      twitter: https://twitter.com/pulumicorp
+    github_data:
+      contributions: 20;19;48;30;20;11;29;30;26;17;13;18;14;21;27;15;15;18;13;8;13;15;33;29;29;38;9;14;9;33;51;39;24;13;14;17;24;17;52;10;22;30;29;29;25;25;37;11;36;33;34;3
+      contributors_count: 182
+      contributors_link: https://github.com/pulumi/pulumi/graphs/contributors
+      description: "Pulumi - Universal Infrastructure as Code. Your Cloud, Your Language,\
+        \ Your Way \U0001F680"
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#00ADD8'
+        name: Go
+        value: 6393584
+      - color: '#2b7489'
+        name: TypeScript
+        value: 1263839
+      - color: '#3572A5'
+        name: Python
+        value: 1106605
+      - color: '#178600'
+        name: C#
+        value: 899763
+      - color: '#f1e05a'
+        name: JavaScript
+        value: 701019
+      - color: '#427819'
+        name: Makefile
+        value: 31906
+      - color: '#89e051'
+        name: Shell
+        value: 29953
+      - color: '#b845fc'
+        name: F#
+        value: 6098
+      - color: '#384d54'
+        name: Dockerfile
+        value: 4543
+      - color: '#C1F12E'
+        name: Batchfile
+        value: 1936
+      - color: '#6E4C13'
+        name: Assembly
+        value: 817
+      latest_commit_date: '2022-08-04T12:46:55Z'
+      latest_commit_link: /pulumi/pulumi/commit/f2a3c417b7fa2ec6cebae19c33dee588b0c5fd51
+      license: Apache License 2.0
+      release_date: '2022-07-30T01:23:08Z'
+      release_link: https://github.com/pulumi/pulumi/releases
+      stars: 13255
+    github_start_commit_data:
+      start_commit_link: /pulumi/pulumi/commit/86f6117640ebaaffb8689e241a668218b24f4690
+      start_date: '2016-10-08T23:01:25Z'
     homepage_url: https://www.pulumi.com/
+    image_data:
+      fileName: pulumi.svg
+      hash: +HekUEmVeIgeGKPyVY0p3kv2Pdi97GCqBtRi59s+QMA=
     item: null
     logo: pulumi.svg
     name: Pulumi
     repo_url: https://github.com/pulumi/pulumi
+    repos:
+    - stars: 13255
+      url: https://github.com/pulumi/pulumi
     twitter: https://twitter.com/PulumiCorp
-  - crunchbase: https://www.crunchbase.com/organization/puppet-labs
+    twitter_data:
+      latest_tweet_date: 2022-08-05 20:00:35+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/puppet-labs
+    crunchbase_data:
+      acquisitions:
+      - acquiree: The Marionette Collective
+        date: '2010-10-07'
+      - acquiree: Cloudsmith
+        date: '2013-07-17'
+      - acquiree: Distelli
+        date: '2017-09-20'
+      - acquiree: Reflect
+        date: '2018-06-07'
+      city: Portland
+      company_type: For Profit
+      country: United States
+      description: Puppet is an information technology automation software company
+        designed for system administrators.
+      funding: 189500000
+      homepage: https://puppet.com/
+      industries:
+      - Application Performance Management
+      - Data Center Automation
+      - IT Infrastructure
+      - Information Services
+      - Information Technology
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/puppet/
+      name: Puppet
+      num_employees_max: 500
+      num_employees_min: 251
+      parents: []
+      region: Oregon
+      stockExchange: null
+      twitter: https://twitter.com/puppetize
+    github_data:
+      contributions: 15;15;16;24;29;17;3;25;24;20;10;20;19;14;16;4;17;9;17;6;0;19;16;4;6;0;9;8;7;10;9;11;0;12;3;8;7;4;7;5;9;0;0;1;4;2;10;5;6;4;0;2
+      contributors_count: 807
+      contributors_link: https://github.com/puppetlabs/puppet/graphs/contributors
+      description: Server automation framework and application
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#701516'
+        name: Ruby
+        value: 12728022
+      - color: '#e34c26'
+        name: HTML
+        value: 23787
+      - color: '#302B6D'
+        name: Puppet
+        value: 20124
+      - color: '#89e051'
+        name: Shell
+        value: 12321
+      - color: '#178600'
+        name: C#
+        value: 5195
+      - color: '#E3F171'
+        name: Pascal
+        value: 993
+      - color: '#C1F12E'
+        name: Batchfile
+        value: 594
+      latest_commit_date: '2022-08-02T19:10:35Z'
+      latest_commit_link: /puppetlabs/puppet/commit/13188f1cb4bbc241e579fe0668441f3a09c1796f
+      license: Apache License 2.0
+      stars: 6635
+    github_start_commit_data:
+      start_commit_link: /puppetlabs/puppet/commit/54e9b5e3561977ea063417da12c46aad2a4c1332
+      start_date: '2005-04-13T15:18:05Z'
     homepage_url: https://puppet.com/
+    image_data:
+      fileName: puppet.svg
+      hash: Znovog0WY2aZOKG1kkABO8naIc12UOXs/ETAizezdiQ=
     item: null
     logo: puppet.svg
     name: Puppet
     repo_url: https://github.com/puppetlabs/puppet
+    repos:
+    - stars: 6635
+      url: https://github.com/puppetlabs/puppet
+    twitter_data:
+      latest_tweet_date: 2022-08-03 21:35:02+00:00
   Container Registry:
-  - crunchbase: https://www.crunchbase.com/organization/suse
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/suse
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Rancher Labs
+        date: '2020-07-08'
+        price: 600000000
+      - acquiree: NeuVector
+        date: '2021-10-28'
+        price: 130000000
+      city: Nuremberg
+      company_type: For Profit
+      country: Germany
+      description: SUSE provides reliable and interoperable Linux and cloud infrastructure
+        solutions that give enterprises greater control and flexibility.
+      homepage: http://www.suse.com
+      industries:
+      - Cloud Computing
+      - Enterprise Software
+      - Linux
+      - Software
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/suse
+      name: SUSE
+      num_employees_max: 5000
+      num_employees_min: 1001
+      parents: []
+      region: Bayern
+      stockExchange: fra
+      ticker: SUSE.F
+      twitter: https://twitter.com/SUSE
+    github_data:
+      contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+      contributors_count: 72
+      contributors_link: https://github.com/SUSE/Portus/graphs/contributors
+      description: Authorization service and frontend for Docker registry (v2)
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#701516'
+        name: Ruby
+        value: 1098584
+      - color: '#2c3e50'
+        name: Vue
+        value: 202208
+      - color: '#e34c26'
+        name: HTML
+        value: 70298
+      - color: '#f1e05a'
+        name: JavaScript
+        value: 61504
+      - color: '#89e051'
+        name: Shell
+        value: 31989
+      - color: '#563d7c'
+        name: CSS
+        value: 23374
+      - color: '#384d54'
+        name: Dockerfile
+        value: 3250
+      latest_commit_date: '2020-03-25T09:02:07Z'
+      latest_commit_link: /SUSE/Portus/commit/2843437742515c1f0896fafaee166cde336f5b18
+      license: Apache License 2.0
+      release_date: '2019-03-19T16:15:19Z'
+      release_link: https://github.com/SUSE/Portus/releases
+      stars: 2946
+    github_start_commit_data:
+      start_commit_link: /SUSE/Portus/commit/f301fdfc9aff7e9eb220e848d6d6c69f9ab1d75a
+      start_date: '2015-04-12T21:58:55Z'
     homepage_url: http://port.us.org/
+    image_data:
+      fileName: portus.svg
+      hash: 3BDYuv/aPpZQDb/yE5P/tvHIXbYnbtpSfoKBWq/WrVw=
     item: null
     logo: portus.svg
     name: Portus
     repo_url: https://github.com/SUSE/Portus
+    repos:
+    - stars: 2946
+      url: https://github.com/SUSE/Portus
+    twitter_data:
+      latest_tweet_date: 2022-08-04 14:00:58+00:00
+    yahoo_finance_data:
+      effective_ticker: SUSE.F
+      market_cap: 3288476571
   Key Management:
-  - crunchbase: https://www.crunchbase.com/organization/vmware
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/vmware
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Emic Networks
+        date: '2003-12-16'
+      - acquiree: Akimbi Systems
+        date: '2006-06-18'
+      - acquiree: Determina
+        date: '2007-08-06'
+      - acquiree: Dunes Technologies
+        date: '2007-09-11'
+      - acquiree: Thinstall inc
+        date: '2008-01-15'
+      - acquiree: B-hive Networks
+        date: '2008-05-28'
+      - acquiree: Blue Lane Technologies
+        date: '2008-11-30'
+      - acquiree: Spring
+        date: '2009-08-10'
+        price: 362000000
+      - acquiree: Integrien
+        date: '2010-08-31'
+      - acquiree: TriCipher
+        date: '2010-08-31'
+        price: 100000000
+      - acquiree: WaveMaker
+        date: '2011-03-08'
+      - acquiree: SlideRocket
+        date: '2011-04-26'
+      - acquiree: Shavlik Technologies
+        date: '2011-05-16'
+      - acquiree: Socialcast
+        date: '2011-05-31'
+      - acquiree: Digital Fuel
+        date: '2011-06-13'
+      - acquiree: Packetmotion
+        date: '2011-08-01'
+      - acquiree: Wanova
+        date: '2012-05-22'
+      - acquiree: DynamicOps
+        date: '2012-07-02'
+      - acquiree: Nicira Networks
+        date: '2012-07-23'
+        price: 1260000000
+      - acquiree: Virsto Software
+        date: '2013-02-11'
+      - acquiree: Desktone
+        date: '2013-10-15'
+      - acquiree: AirWatch
+        date: '2014-01-22'
+        price: 1540000000
+      - acquiree: CloudVolumes
+        date: '2014-08-20'
+      - acquiree: Immidio
+        date: '2015-02-03'
+      - acquiree: Boxer
+        date: '2015-10-14'
+      - acquiree: Arkin
+        date: '2016-06-13'
+      - acquiree: PLUMgrid
+        date: '2016-12-20'
+      - acquiree: Wavefront
+        date: '2017-04-12'
+        price: 375000000
+      - acquiree: Apteligent
+        date: '2017-05-15'
+        price: 50000000
+      - acquiree: VeloCloud
+        date: '2017-11-02'
+      - acquiree: CloudCoreo
+        date: '2018-02-14'
+      - acquiree: CloudVelox
+        date: '2018-02-22'
+      - acquiree: E8 Security
+        date: '2018-03-28'
+      - acquiree: Bracket Computing
+        date: '2018-05-01'
+      - acquiree: CloudHealth Technologies
+        date: '2018-08-27'
+      - acquiree: Heptio
+        date: '2018-11-06'
+        price: 550000000
+      - acquiree: AetherPal
+        date: '2019-02-05'
+      - acquiree: Bitnami
+        date: '2019-05-15'
+      - acquiree: Avi Networks
+        date: '2019-06-14'
+      - acquiree: Bitfusion.io
+        date: '2019-07-18'
+      - acquiree: Uhana
+        date: '2019-07-25'
+      - acquiree: Veriflow
+        date: '2019-08-16'
+      - acquiree: Intrinsic
+        date: '2019-08-20'
+      - acquiree: Pivotal
+        date: '2019-08-22'
+        price: 2700000000
+      - acquiree: Carbon Black
+        date: '2019-10-08'
+        price: 2100000000
+      - acquiree: Nyansa
+        date: '2020-01-21'
+      - acquiree: Octarine
+        date: '2020-05-13'
+      - acquiree: Lastline
+        date: '2020-06-04'
+      - acquiree: Datrium
+        date: '2020-07-02'
+      - acquiree: SaltStack
+        date: '2020-09-29'
+      - acquiree: Mesh7
+        date: '2021-03-18'
+      city: Palo Alto
+      company_type: For Profit
+      country: United States
+      description: VMware is a provider of multi-cloud services for all apps, enabling
+        digital innovation with enterprise control.
+      funding: 393500000
+      homepage: https://www.vmware.com
+      industries:
+      - Cloud Infrastructure
+      - Cloud Management
+      - Enterprise Software
+      - Information Technology
+      kind: market_cap
+      linkedin: https://www.linkedin.com/company/vmware
+      name: VMware
+      num_employees_max: 1000000
+      num_employees_min: 10001
+      parents:
+      - https://www.crunchbase.com/organization/dell-technologies
+      region: California
+      stockExchange: nyse
+      ticker: VMW
+      twitter: http://twitter.com/VMware
+    github_data:
+      contributions: 15;48;45;33;3;16;15;8;11;5;16;21;13;5;8;9;11;21;14;0;1;8;16;47;5;6;28;36;8;26;11;6;21;18;8;25;23;12;29;10;8;2;6;21;0;1;4;0;0;8;4;0
+      contributors_count: 29
+      contributors_link: https://github.com/vmware-tanzu/pinniped/graphs/contributors
+      description: Pinniped is the easy, secure way to log in to your Kubernetes clusters.
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#00ADD8'
+        name: Go
+        value: 4081084
+      - color: '#89e051'
+        name: Shell
+        value: 58320
+      - name: SCSS
+        value: 24657
+      - color: '#e34c26'
+        name: HTML
+        value: 23671
+      - color: '#563d7c'
+        name: CSS
+        value: 9076
+      - color: '#384d54'
+        name: Dockerfile
+        value: 6180
+      - color: '#f1e05a'
+        name: JavaScript
+        value: 3581
+      latest_commit_date: '2022-07-26T16:27:37Z'
+      latest_commit_link: /vmware-tanzu/pinniped/commit/a876591765ce8caa908ff33b5a25cfe3e2de00f6
+      license: Apache License 2.0
+      release_date: '2022-06-08T22:12:18Z'
+      release_link: https://github.com/vmware-tanzu/pinniped/releases
+      stars: 345
+    github_start_commit_data:
+      start_commit_link: /vmware-tanzu/pinniped/commit/a3d64bef62f4c119c6df7a9609d7891fd13887a9
+      start_date: '2020-07-02T22:23:21Z'
     homepage_url: https://pinniped.dev
+    image_data:
+      fileName: pinniped.svg
+      hash: XE8ipOw5fK2tKLtvLpzQ6TmJuxwzCrIKhaFS2KHgfz0=
     item: null
     logo: pinniped.svg
     name: Pinniped
     repo_url: https://github.com/vmware-tanzu/pinniped
+    repos:
+    - stars: 345
+      url: https://github.com/vmware-tanzu/pinniped
     twitter: https://twitter.com/projectpinniped
-  - crunchbase: https://www.crunchbase.com/organization/pomerium
+    twitter_data:
+      latest_tweet_date: 2022-06-22 14:24:04+00:00
+    yahoo_finance_data:
+      effective_ticker: VMW
+      market_cap: 49414426624
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/pomerium
+    crunchbase_data:
+      acquisitions: []
+      city: Solana Beach
+      company_type: For Profit
+      country: United States
+      description: Pomerium authenticate, authorize, monitor, and secure user access
+        to any application without a VPN.
+      funding: 3750000
+      homepage: https://www.pomerium.io/
+      industries:
+      - Apps
+      - Information Technology
+      - Software
+      kind: funding
+      linkedin: null
+      name: Pomerium
+      num_employees_max: 10
+      num_employees_min: 1
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/pomerium_io
+    github_data:
+      contributions: 10;21;19;18;16;8;12;12;7;5;14;16;12;6;14;1;13;11;8;15;17;11;13;12;15;14;21;21;10;12;21;11;22;24;21;7;12;11;13;11;11;7;12;18;15;10;5;0;15;9;17;7
+      contributors_count: 85
+      contributors_link: https://github.com/pomerium/pomerium/graphs/contributors
+      description: Pomerium is an identity-aware access proxy.
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#00ADD8'
+        name: Go
+        value: 1938791
+      - color: '#2b7489'
+        name: TypeScript
+        value: 52678
+      - color: '#0064bd'
+        name: Jsonnet
+        value: 45580
+      - color: '#89e051'
+        name: Shell
+        value: 9951
+      - name: Open Policy Agent
+        value: 6479
+      - color: '#000080'
+        name: Lua
+        value: 5371
+      - color: '#427819'
+        name: Makefile
+        value: 3994
+      - color: '#3572A5'
+        name: Python
+        value: 3228
+      - color: '#384d54'
+        name: Dockerfile
+        value: 2879
+      latest_commit_date: '2022-08-05T19:45:12Z'
+      latest_commit_link: /pomerium/pomerium/commit/f253365470a91f6bbfea50e18ad7ceded842b3dc
+      license: Apache License 2.0
+      release_date: '2022-07-27T02:42:39Z'
+      release_link: https://github.com/pomerium/pomerium/releases
+      stars: 3176
+    github_start_commit_data:
+      start_commit_link: /pomerium/pomerium/commit/d56c889224d7c88bb9ba74cf980210b0a4a782cf
+      start_date: '2019-01-02T20:13:36Z'
     homepage_url: https://www.pomerium.com
+    image_data:
+      fileName: pomerium.svg
+      hash: 0NZR4UkD4U0vlIKnWcff5bZg8NhQvLIPaNMkCc7vXug=
     item: null
     logo: pomerium.svg
     name: Pomerium
     repo_url: https://github.com/pomerium/pomerium
+    repos:
+    - stars: 3176
+      url: https://github.com/pomerium/pomerium
+    twitter_data:
+      latest_tweet_date: 2022-08-03 14:02:28+00:00
   Security & Compliance:
-  - crunchbase: https://www.crunchbase.com/organization/paladin-cloud
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/paladin-cloud
+    crunchbase_data:
+      acquisitions: []
+      city: Califon
+      company_type: For Profit
+      country: United States
+      description: Open source, Security-as-Code platform for developers and security
+        teams to identify and eliminate risks in your clouds.
+      funding: 3300000
+      homepage: https://www.paladincloud.io
+      industries: []
+      kind: funding
+      linkedin: https://www.linkedin.com/company/paladin-cloud/
+      name: Paladin Cloud
+      num_employees_max: null
+      num_employees_min: null
+      parents: []
+      region: New Jersey
+      stockExchange: null
+      twitter: null
     homepage_url: https://paladincloud.io/
+    image_data:
+      fileName: paladin-cloud.svg
+      hash: veBpdopXbge1tt9F/rnkyncI2VuziYdQM/w98fmCrQ4=
     item: null
     logo: paladin-cloud.svg
     name: Paladin Cloud
-  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  - best_practice_data:
+      badge: 4856
+      percentage: 100
+    crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Kubernetes
+        date: '2016-03-10'
+      - acquiree: RethinkDB
+        date: '2017-02-06'
+        price: 25000
+      city: San Francisco
+      company_type: Non Profit
+      country: United States
+      description: CNCF is an open source software foundation that hosts and nurtures
+        projects like Kubernetes and Prometheus.
+      funding: 3000000
+      homepage: https://www.cncf.io
+      industries:
+      - Cloud Computing
+      - Cloud Infrastructure
+      - Non Profit
+      - Open Source
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+      name: Cloud Native Computing Foundation (CNCF)
+      num_employees_max: 50
+      num_employees_min: 11
+      parents:
+      - https://www.crunchbase.com/organization/linux-foundation
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/CloudNativeFdn
     extra:
       accepted: '2020-06-23'
       artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#parsec-logos
       dev_stats_url: https://parsec.devstats.cncf.io/
+    github_data:
+      contributions: 1;0;1;4;3;8;1;6;0;4;13;6;6;11;2;11;9;4;1;0;0;5;11;3;2;6;6;6;3;2;0;3;6;2;0;3;1;0;0;2;4;4;2;5;2;5;6;0;5;4;0;3
+      contributors_count: 27
+      contributors_link: https://github.com/parallaxsecond/parsec/graphs/contributors
+      description: Platform AbstRaction for SECurity service
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#dea584'
+        name: Rust
+        value: 850134
+      - color: '#89e051'
+        name: Shell
+        value: 31748
+      - color: '#384d54'
+        name: Dockerfile
+        value: 7550
+      latest_commit_date: '2022-08-03T14:58:36Z'
+      latest_commit_link: /parallaxsecond/parsec/commit/05f4e9fb069eec5d82633eef152e477bdb505bbc
+      license: Apache License 2.0
+      release_date: '2022-03-31T11:39:19Z'
+      release_link: https://github.com/parallaxsecond/parsec/releases
+      stars: 355
+    github_start_commit_data:
+      start_commit_link: /parallaxsecond/parsec/commit/047e395ee5edbad82d52738e275f756e7bd0480b
+      start_date: '2019-06-07T20:44:01Z'
     homepage_url: https://parsec.community/
+    image_data:
+      fileName: parsec.svg
+      hash: XDAht5oho++z+te2Z8wr763sjWgEW7N/2O+KNWzGXHk=
     item: null
     logo: parsec.svg
     name: Parsec
     project: sandbox
     repo_url: https://github.com/parallaxsecond/parsec
-  - crunchbase: https://www.crunchbase.com/organization/passage-36d4
+    repos:
+    - stars: 355
+      url: https://github.com/parallaxsecond/parsec
+    twitter_data:
+      latest_tweet_date: 2022-08-05 21:09:37+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/passage-36d4
+    crunchbase_data:
+      acquisitions: []
+      city: Austin
+      company_type: For Profit
+      country: United States
+      description: Passage is a modern identity for web and mobile applications.
+      funding: 4850000
+      homepage: https://passage.id
+      industries:
+      - Developer Tools
+      - Identity Management
+      - Internet
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/passageidentity/
+      name: Passage
+      num_employees_max: 10
+      num_employees_min: 1
+      parents: []
+      region: Texas
+      stockExchange: null
+      twitter: https://twitter.com/PassageIdentity
     description: Passage makes it easy for developers to implement passwordless customer
       identity in any application.
     homepage_url: https://passage.id
+    image_data:
+      fileName: passage.svg
+      hash: sWiQzrZC3X/H9gP80lQeerEpcz8dHMA3t3pihU9r4KE=
     item: null
     logo: passage.svg
     name: Passage
-  - crunchbase: https://www.crunchbase.com/organization/fairwinds
+    twitter_data:
+      latest_tweet_date: 2022-07-01 20:29:49+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/fairwinds
+    crunchbase_data:
+      acquisitions: []
+      city: Boston
+      company_type: For Profit
+      country: United States
+      description: Kubernetes security, policy and compliance experts
+      homepage: https://www.fairwinds.com/
+      industries:
+      - Cloud Computing
+      - Cloud Security
+      - Developer Tools
+      - Information Technology
+      - Software
+      - Subscription Service
+      linkedin: https://www.linkedin.com/company/fairwinds/
+      name: Fairwinds
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: Massachusetts
+      stockExchange: null
+      twitter: https://twitter.com/fairwindsops
+    github_data:
+      contributions: 0;6;1;0;0;1;1;2;2;1;1;5;0;2;0;0;1;1;0;0;6;1;24;1;1;0;0;7;3;3;2;2;2;2;1;0;1;2;0;0;0;0;5;1;2;2;3;3;3;0;2;0
+      contributors_count: 30
+      contributors_link: https://github.com/FairwindsOps/pluto/graphs/contributors
+      description: A cli tool to help discover deprecated apiVersions in Kubernetes
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#00ADD8'
+        name: Go
+        value: 115790
+      - color: '#89e051'
+        name: Shell
+        value: 2337
+      - name: Mustache
+        value: 1877
+      - color: '#427819'
+        name: Makefile
+        value: 1367
+      - color: '#384d54'
+        name: Dockerfile
+        value: 68
+      latest_commit_date: '2022-07-27T18:10:51Z'
+      latest_commit_link: /FairwindsOps/pluto/commit/45c6ec236edc1fb0a5bd6a2312c8754fe8451bba
+      license: Apache License 2.0
+      release_date: '2022-07-27T18:17:00Z'
+      release_link: https://github.com/FairwindsOps/pluto/releases
+      stars: 1075
+    github_start_commit_data:
+      start_commit_link: /FairwindsOps/pluto/commit/4730bc159fadf20a79577a914cdaadb89fd28ecf
+      start_date: '2020-03-24T20:13:08Z'
     homepage_url: https://www.fairwinds.com/open-source-software
+    image_data:
+      fileName: pluto.svg
+      hash: fnwYNSudwynqWodjy70RFmaIWBpM+YvDqKYHmyFeuHM=
     item: null
     logo: pluto.svg
     name: Pluto
     repo_url: https://github.com/FairwindsOps/pluto
-  - crunchbase: https://www.crunchbase.com/organization/fairwinds
+    repos:
+    - stars: 1075
+      url: https://github.com/FairwindsOps/pluto
+    twitter_data:
+      latest_tweet_date: 2022-08-04 20:26:50+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/fairwinds
+    crunchbase_data:
+      acquisitions: []
+      city: Boston
+      company_type: For Profit
+      country: United States
+      description: Kubernetes security, policy and compliance experts
+      homepage: https://www.fairwinds.com/
+      industries:
+      - Cloud Computing
+      - Cloud Security
+      - Developer Tools
+      - Information Technology
+      - Software
+      - Subscription Service
+      linkedin: https://www.linkedin.com/company/fairwinds/
+      name: Fairwinds
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: Massachusetts
+      stockExchange: null
+      twitter: https://twitter.com/fairwindsops
+    github_data:
+      contributions: 0;7;0;2;2;2;1;8;0;1;0;1;1;1;0;0;0;0;0;0;0;0;16;1;1;0;1;3;4;1;0;4;2;2;6;1;0;6;1;1;0;0;1;3;1;0;0;2;12;0;7;2
+      contributors_count: 51
+      contributors_link: https://github.com/FairwindsOps/polaris/graphs/contributors
+      description: Validation of best practices in your Kubernetes clusters
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#00ADD8'
+        name: Go
+        value: 226364
+      - color: '#563d7c'
+        name: CSS
+        value: 8751
+      - color: '#89e051'
+        name: Shell
+        value: 6366
+      - color: '#f1e05a'
+        name: JavaScript
+        value: 1827
+      - color: '#384d54'
+        name: Dockerfile
+        value: 597
+      latest_commit_date: '2022-08-05T15:58:57Z'
+      latest_commit_link: /FairwindsOps/polaris/commit/206322271cb6995740245d2eba5376ae9f642f2e
+      license: Apache License 2.0
+      release_date: '2022-07-11T19:09:31Z'
+      release_link: https://github.com/FairwindsOps/polaris/releases
+      stars: 2637
+    github_start_commit_data:
+      start_commit_link: /FairwindsOps/polaris/commit/963d0e1dab72f68a57968b535632aaaa938ff15a
+      start_date: '2018-11-30T04:21:17Z'
     homepage_url: https://fairwinds.com/polaris
+    image_data:
+      fileName: polaris.svg
+      hash: 0GG12YPe32leXaapJNUw7Wk3PWigwTPmWPccGW4eqYc=
     item: null
     logo: polaris.svg
     name: Polaris
     repo_url: https://github.com/FairwindsOps/polaris
-  - crunchbase: https://www.crunchbase.com/organization/portshift
+    repos:
+    - stars: 2637
+      url: https://github.com/FairwindsOps/polaris
+    twitter_data:
+      latest_tweet_date: 2022-08-04 20:26:50+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/portshift
+    crunchbase_data:
+      acquisitions: []
+      city: Tel Aviv
+      company_type: For Profit
+      country: Israel
+      description: Kubernetes-native security solution, single pane of glass for containers
+        and Kubernetes security.
+      funding: 5300000
+      homepage: https://www.portshift.io/
+      industries:
+      - Cloud Computing
+      - Cloud Management
+      - Cloud Security
+      - IT Management
+      kind: funding
+      linkedin: https://www.linkedin.com/company/portshift/
+      name: Portshift
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: Tel Aviv
+      stockExchange: null
+      twitter: https://twitter.com/portshift
     homepage_url: https://www.portshift.io/
+    image_data:
+      fileName: portshift.svg
+      hash: rPjMQHoPc/GKiNBeNEtQG6Oy/xNTd7EjGK4uOJhhwoI=
     item: null
     logo: portshift.svg
     name: Portshift
-  - crunchbase: https://www.crunchbase.com/organization/prisma-cloud
+    twitter_data:
+      latest_tweet_date: 2022-08-05 18:31:00+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/prisma-cloud
+    crunchbase_data:
+      acquisitions: []
+      city: Santa Clara
+      company_type: For Profit
+      country: United States
+      description: A complete cloud native application protection platform that secures
+        infrastructure and applications across cloud environments.
+      funding: 65000000
+      homepage: https://www.paloaltonetworks.com/prisma/cloud
+      industries:
+      - Cloud Security
+      - Cyber Security
+      - Security
+      kind: market_cap
+      linkedin: https://www.linkedin.com/products/palo-alto-networks-prisma-cloud/
+      name: Prisma Cloud
+      num_employees_max: 1000
+      num_employees_min: 501
+      parents:
+      - https://www.crunchbase.com/organization/palo-alto-networks
+      region: California
+      stockExchange: null
+      ticker: PANW
+      twitter: https://twitter.com/prisma_cloud
     homepage_url: https://www.paloaltonetworks.com/prisma/cloud
+    image_data:
+      fileName: prisma-cloud.svg
+      hash: iDmAt4Pm5KEULVn2L2y/0CcyOM2hSUiDS6N9k+JRXkU=
     item: null
     logo: prisma-cloud-palo-alto.svg
     name: Prisma Cloud
+    twitter_data:
+      latest_tweet_date: 2022-08-05 21:46:51+00:00
+    yahoo_finance_data:
+      effective_ticker: PANW
+      market_cap: 49954201600
 Runtime:
   Cloud Native Network:
-  - crunchbase: https://www.crunchbase.com/organization/tigera
+  - best_practice_data:
+      badge: 6064
+      percentage: 100
+    crunchbase: https://www.crunchbase.com/organization/tigera
+    crunchbase_data:
+      acquisitions: []
+      city: San Francisco
+      company_type: For Profit
+      country: United States
+      description: Active, zero-trust based security for cloud-native applications
+      funding: 53000000
+      homepage: https://www.tigera.io/
+      industries:
+      - Cloud Security
+      - Compliance
+      - Cyber Security
+      - Enterprise Software
+      - Network Security
+      - Open Source
+      - SaaS
+      - Security
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/tigera/
+      name: Tigera
+      num_employees_max: 250
+      num_employees_min: 101
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/tigeraio
+    github_data:
+      contributions: 51;209;27;107;66;28;61;70;116;150;162;89;89;62;43;22;53;42;140;40;4;46;63;69;57;55;27;17;34;31;25;35;29;29;32;33;63;34;28;56;46;32;22;50;42;24;37;43;23;18;35;18
+      contributors_count: 604
+      contributors_link: https://github.com/projectcalico/calico/graphs/contributors
+      description: Cloud native networking and network security
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#00ADD8'
+        name: Go
+        value: 11130817
+      - color: '#555555'
+        name: C
+        value: 4333163
+      - color: '#3572A5'
+        name: Python
+        value: 1089918
+      - color: '#89e051'
+        name: Shell
+        value: 263356
+      - name: SCSS
+        value: 244261
+      - color: '#427819'
+        name: Makefile
+        value: 231428
+      - color: '#e34c26'
+        name: HTML
+        value: 142594
+      - color: '#012456'
+        name: PowerShell
+        value: 98044
+      - name: Smarty
+        value: 24336
+      - color: '#f1e05a'
+        name: JavaScript
+        value: 17675
+      - color: '#701516'
+        name: Ruby
+        value: 9525
+      - name: HCL
+        value: 5665
+      - color: '#384d54'
+        name: Dockerfile
+        value: 3995
+      - color: '#563d7c'
+        name: CSS
+        value: 2970
+      - name: Starlark
+        value: 725
+      - name: Awk
+        value: 504
+      latest_commit_date: '2022-08-05T19:56:58Z'
+      latest_commit_link: /projectcalico/calico/commit/06e22b34e9bf21b652511f279d04db2eb2be3de8
+      license: Unknown License
+      release_date: '2022-08-01T23:21:50Z'
+      release_link: https://github.com/projectcalico/calico/releases
+      stars: 3745
+    github_start_commit_data:
+      start_commit_link: /projectcalico/calico/commit/8e3d75dd58a2d93eddfdf53baad931004d7fb783
+      start_date: '2016-07-21T15:45:54Z'
     homepage_url: https://www.tigera.io/project-calico
+    image_data:
+      fileName: project-calico.svg
+      hash: gpuuQs0NtqshU4JePNGzG2VzWGcLemZWs6AxS7ZSIys=
     item: null
     logo: project-calico.svg
     name: Project Calico
     repo_url: https://github.com/projectcalico/calico
+    repos:
+    - stars: 3745
+      url: https://github.com/projectcalico/calico
     twitter: https://twitter.com/projectcalico
+    twitter_data:
+      latest_tweet_date: 2022-08-05 15:01:00+00:00
   Cloud Native Storage:
-  - crunchbase: https://www.crunchbase.com/organization/pengyun-network
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/pengyun-network
+    crunchbase_data:
+      acquisitions: []
+      city: Nanjing
+      company_type: For Profit
+      country: China
+      description: Pengyun Network is a dual-soft technology company engaged in providing
+        software-defined storage products and solutions.
+      funding: 0
+      homepage: http://www.pengyunnetwork.com/
+      industries:
+      - Cloud Computing
+      - Data Storage
+      - Database
+      - Software
+      linkedin: null
+      name: Pengyun Network
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: Jiangsu
+      stockExchange: null
+      twitter: null
     homepage_url: https://www.pengyunnetwork.com/
+    image_data:
+      fileName: pengyun-network.svg
+      hash: lTv+RtJyJD57ftdXqLDHIfxkIy82Bp5e5lirtjix1DI=
     item: null
     logo: pengyun.svg
     name: Pengyun Network
-  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    crunchbase_data:
+      acquisitions:
+      - acquiree: Kubernetes
+        date: '2016-03-10'
+      - acquiree: RethinkDB
+        date: '2017-02-06'
+        price: 25000
+      city: San Francisco
+      company_type: Non Profit
+      country: United States
+      description: CNCF is an open source software foundation that hosts and nurtures
+        projects like Kubernetes and Prometheus.
+      funding: 3000000
+      homepage: https://www.cncf.io
+      industries:
+      - Cloud Computing
+      - Cloud Infrastructure
+      - Non Profit
+      - Open Source
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+      name: Cloud Native Computing Foundation (CNCF)
+      num_employees_max: 50
+      num_employees_min: 11
+      parents:
+      - https://www.crunchbase.com/organization/linux-foundation
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/CloudNativeFdn
+    github_data:
+      contributions: 0;7;1;3;0;0;2;0;0;0;0;0;0;0;2;0;0;1;0;0;0;2;3;0;2;1;0;5;2;0;2;2;5;0;0;0;0;3;3;3;0;3;0;0;0;0;0;3;0;2;1;0
+      contributors_count: 12
+      contributors_link: https://github.com/piraeusdatastore/piraeus/graphs/contributors
+      description: High Available Datastore for Kubernetes
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#89e051'
+        name: Shell
+        value: 19757
+      - color: '#384d54'
+        name: Dockerfile
+        value: 5970
+      - color: '#427819'
+        name: Makefile
+        value: 5440
+      latest_commit_date: '2022-07-27T09:26:25Z'
+      latest_commit_link: /piraeusdatastore/piraeus/commit/e3126e32e94a3ee3a2b71fcaa71ca728432b74e1
+      license: Apache License 2.0
+      stars: 322
+    github_start_commit_data:
+      start_commit_link: /piraeusdatastore/piraeus/commit/348344e4f0558be7f919fe702f743735b925a6b2
+      start_date: '2019-07-10T11:18:17Z'
     homepage_url: https://piraeus.io/
+    image_data:
+      fileName: piraeus-datastore.svg
+      hash: pRjd1hKY/BAFwsE/6FpuP5ymR4l7KoMQz/h9iKPtp/A=
     item: null
     logo: piraeus.svg
     name: Piraeus Datastore
     project: sandbox
     repo_url: https://github.com/piraeusdatastore/piraeus
-  - crunchbase: https://www.crunchbase.com/organization/portworx
+    repos:
+    - stars: 322
+      url: https://github.com/piraeusdatastore/piraeus
+    twitter_data:
+      latest_tweet_date: 2022-08-05 21:09:37+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/portworx
+    crunchbase_data:
+      acquisitions: []
+      city: Los Altos
+      company_type: For Profit
+      country: United States
+      description: "Portworx is a cloud-native storage and data management company\
+        \ offering the industry\u2019s first storage solution purpose-built for containers."
+      funding: 55500000
+      homepage: https://portworx.com/
+      industries:
+      - Cloud Storage
+      - Data Center
+      - Data Storage
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/portworx/
+      name: Portworx
+      num_employees_max: 250
+      num_employees_min: 101
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/portwx
     homepage_url: https://portworx.com/
+    image_data:
+      fileName: portworx.svg
+      hash: PUwm/ow/lIoJWp9OZBx4hsI/FTFY0uDoP/SXEjuVECY=
     item: null
     logo: portworx.svg
     name: Portworx
-  - crunchbase: https://www.crunchbase.com/organization/portworx
+    twitter_data:
+      latest_tweet_date: 2022-08-04 15:05:23+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/portworx
+    crunchbase_data:
+      acquisitions: []
+      city: Los Altos
+      company_type: For Profit
+      country: United States
+      description: "Portworx is a cloud-native storage and data management company\
+        \ offering the industry\u2019s first storage solution purpose-built for containers."
+      funding: 55500000
+      homepage: https://portworx.com/
+      industries:
+      - Cloud Storage
+      - Data Center
+      - Data Storage
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/portworx/
+      name: Portworx
+      num_employees_max: 250
+      num_employees_min: 101
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/portwx
     homepage_url: https://www.purestorage.com/
+    image_data:
+      fileName: pure-storage.svg
+      hash: cj2nlmj8cbDXezvU4dkVHVi1vy3e7acgPFYhAQZEOwI=
     item: null
     logo: pure-storage.svg
     name: Pure Storage
+    twitter_data:
+      latest_tweet_date: 2022-08-04 15:05:23+00:00
   Container Runtime: []
 Serverless:
   Framework: []
   Hosted Platform:
-  - crunchbase: https://www.crunchbase.com/organization/pubnub
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/pubnub
+    crunchbase_data:
+      acquisitions: []
+      city: San Francisco
+      company_type: For Profit
+      country: United States
+      description: PubNub Data Stream Network is a secure global Data Stream Network
+        that enables mobile and web developers to build and scale real-time apps.
+      funding: 134100000
+      homepage: https://www.pubnub.com
+      industries:
+      - Apps
+      - Cloud Computing
+      - Developer APIs
+      - Internet of Things
+      - Mobile
+      - Real Time
+      - Software
+      - Web Development
+      kind: funding
+      linkedin: https://www.linkedin.com/company/pubnub
+      name: PubNub
+      num_employees_max: 250
+      num_employees_min: 101
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/PubNub
     homepage_url: https://www.pubnub.com/products/functions/
+    image_data:
+      fileName: pub-nub-functions.svg
+      hash: tNutfuGXB4sdJsFlLN1acU/08gcz/plPeIKu0GWNzsU=
     item: null
     logo: pub-nub-functions.svg
     name: PubNub Functions
+    twitter_data:
+      latest_tweet_date: 2022-08-05 16:36:01+00:00
   Installable Platform:
-  - crunchbase: https://www.crunchbase.com/organization/pipelineio
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/pipelineio
+    crunchbase_data:
+      acquisitions: []
+      city: San Francisco
+      company_type: For Profit
+      country: United States
+      description: Real-Time Enterprise AI Platform
+      funding: 1200000
+      homepage: https://www.datascienceonaws.com
+      industries:
+      - Artificial Intelligence
+      - Big Data
+      - Data Visualization
+      - Enterprise Software
+      - GPU
+      - Machine Learning
+      - Real Time
+      kind: funding
+      linkedin: https://www.linkedin.com/company/6609122
+      name: PipelineAI
+      num_employees_max: 10
+      num_employees_min: 1
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/PipelineAI
+    github_data:
+      contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+      contributors_count: 6
+      contributors_link: https://github.com/pipelineai/pipeline/graphs/contributors
+      description: PipelineAI Kubeflow Distribution
+      firstWeek: 2021-08-08Z
+      languages:
+      - color: '#0064bd'
+        name: Jsonnet
+        value: 48907941
+      - color: '#b07219'
+        name: Java
+        value: 3224135
+      - color: '#00ADD8'
+        name: Go
+        value: 2474901
+      - color: '#3572A5'
+        name: Python
+        value: 746406
+      - color: '#f1e05a'
+        name: JavaScript
+        value: 426301
+      - color: '#2b7489'
+        name: TypeScript
+        value: 276119
+      - color: '#89e051'
+        name: Shell
+        value: 174715
+      - color: '#563d7c'
+        name: CSS
+        value: 113954
+      - color: '#e34c26'
+        name: HTML
+        value: 91959
+      - color: '#c22d40'
+        name: Scala
+        value: 86996
+      - color: '#db5855'
+        name: Clojure
+        value: 46696
+      - color: '#DA5B0B'
+        name: Jupyter Notebook
+        value: 46308
+      - color: '#427819'
+        name: Makefile
+        value: 41637
+      - color: '#384d54'
+        name: Dockerfile
+        value: 25782
+      - color: '#012456'
+        name: PowerShell
+        value: 7883
+      - color: '#e69f56'
+        name: Groovy
+        value: 1650
+      - name: Smarty
+        value: 1351
+      - color: '#701516'
+        name: Ruby
+        value: 666
+      latest_commit_date: '2020-04-24T04:03:32Z'
+      latest_commit_link: /PipelineAI/pipeline/commit/ac1bf593a15ad2b3eb657033410ad6e35ce32bba
+      license: Apache License 2.0
+      stars: 4142
+    github_start_commit_data:
+      start_commit_link: /PipelineAI/pipeline/commit/b185e0cb271a3d0f7d263b2f8e4cc9ec9aa14839
+      start_date: '2015-07-08T03:49:23Z'
     homepage_url: https://www.datascienceonaws.com
+    image_data:
+      fileName: pipeline-ai.svg
+      hash: CCGu/W+pLtt+4/AJb75ve3E4gfepEA7A5bm+iaBCtdM=
     item: null
     logo: pipeline-ai.svg
     name: PipelineAI
     repo_url: https://github.com/pipelineai/pipeline
+    repos:
+    - stars: 4142
+      url: https://github.com/pipelineai/pipeline
+    twitter_data:
+      latest_tweet_date: 2020-05-10 16:49:48+00:00
   Security:
-  - crunchbase: https://www.crunchbase.com/organization/prisma-cloud
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/prisma-cloud
+    crunchbase_data:
+      acquisitions: []
+      city: Santa Clara
+      company_type: For Profit
+      country: United States
+      description: A complete cloud native application protection platform that secures
+        infrastructure and applications across cloud environments.
+      funding: 65000000
+      homepage: https://www.paloaltonetworks.com/prisma/cloud
+      industries:
+      - Cloud Security
+      - Cyber Security
+      - Security
+      kind: market_cap
+      linkedin: https://www.linkedin.com/products/palo-alto-networks-prisma-cloud/
+      name: Prisma Cloud
+      num_employees_max: 1000
+      num_employees_min: 501
+      parents:
+      - https://www.crunchbase.com/organization/palo-alto-networks
+      region: California
+      stockExchange: null
+      ticker: PANW
+      twitter: https://twitter.com/prisma_cloud
     homepage_url: https://www.paloaltonetworks.com/prisma/cloud
+    image_data:
+      fileName: prisma-cloud-by-palo-alto-networks.svg
+      hash: iDmAt4Pm5KEULVn2L2y/0CcyOM2hSUiDS6N9k+JRXkU=
     item: null
     logo: prisma-cloud-palo-alto.svg
     name: Prisma Cloud by Palo Alto Networks
-  - crunchbase: https://www.crunchbase.com/organization/protego-labs
+    twitter_data:
+      latest_tweet_date: 2022-08-05 21:46:51+00:00
+    yahoo_finance_data:
+      effective_ticker: PANW
+      market_cap: 49954201600
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/protego-labs
+    crunchbase_data:
+      acquisitions: []
+      city: Baltimore
+      company_type: For Profit
+      country: United States
+      description: Protego  is a developer of a security solution built for serverless
+        based in Baltimore.
+      funding: 2000000
+      homepage: https://www.protego.io/
+      industries:
+      - Computer
+      - Network Security
+      kind: funding
+      linkedin: https://www.linkedin.com/company/protego-labs/
+      name: Protego Labs
+      num_employees_max: 10
+      num_employees_min: 1
+      parents: []
+      region: Maryland
+      stockExchange: null
+      twitter: https://twitter.com/ProtegoLabs
     homepage_url: https://www.checkpoint.com
+    image_data:
+      fileName: protego.svg
+      hash: NkyYadPncCCHAoh5yBuXWb+PZuaB8oHyqhYlbyTNs94=
     item: null
     logo: protego.svg
     name: Protego
+    twitter_data:
+      latest_tweet_date: 2020-03-02 23:26:06+00:00
   Tools: []
 Special:
   Certified CNFs: []
   Kubernetes Certified Service Provider:
-  - crunchbase: https://www.crunchbase.com/organization/particule
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/particule
+    crunchbase_data:
+      acquisitions: []
+      city: Paris
+      company_type: For Profit
+      country: France
+      description: We build Cloud Native infrastructure, from an application on your
+        laptop to a scalable infrastructure, define as code
+      homepage: https://particule.io/
+      industries: []
+      linkedin: https://www.linkedin.com/company/particuleio/
+      name: Particule
+      num_employees_max: 10
+      num_employees_min: 1
+      parents: []
+      region: Ile-de-France
+      stockExchange: null
+      twitter: https://twitter.com/particuleio
     description: Particule's experts help you make the most of Kubernetes - from IaaS
       to Day 2 operations.
     homepage_url: https://particule.io/en/kubernetes/
+    image_data:
+      fileName: particule-kcsp.svg
+      hash: fyAFEw7Sp3xVPz+4XEeOSzyr5z4hQJ2in4mpM0iw0EY=
     item: null
     logo: particule.svg
     name: Particule (KCSP)
-  - crunchbase: https://www.crunchbase.com/organization/platform9-systems-inc
+    twitter_data:
+      latest_tweet_date: 2022-05-23 08:25:15+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/platform9-systems-inc
+    crunchbase_data:
+      acquisitions: []
+      city: Mountain View
+      company_type: For Profit
+      country: United States
+      description: Platform9 provides Kubernetes-as-a-Service for multi-cloud, on-premises,
+        or at edge.
+      funding: 100000000
+      homepage: https://platform9.com
+      industries:
+      - Cloud Computing
+      - Enterprise Software
+      - IT Infrastructure
+      - SaaS
+      kind: funding
+      linkedin: https://www.linkedin.com/company/platform9-systems
+      name: Platform9
+      num_employees_max: 250
+      num_employees_min: 101
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: http://twitter.com/Platform9Sys
     description: Platform9 Managed Kubernetes is SaaS-managed, infrastructure-agnostic,
       and works across public clouds, on-premises servers, and VMware infrastructure.
     homepage_url: https://platform9.com/managed-kubernetes/
+    image_data:
+      fileName: platform9-kcsp.svg
+      hash: 3oq57PpCz3GeBES7+P0XlRPZcFK0284wRH6FBgVpCt0=
     item: null
     logo: platform9-managed-kubernetes.svg
     name: Platform9 (KCSP)
     twitter: null
-  - crunchbase: https://www.crunchbase.com/organization/polar-squad
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/polar-squad
+    crunchbase_data:
+      acquisitions: []
+      city: Helsinki
+      company_type: For Profit
+      country: Finland
+      description: Information Technology and Services
+      homepage: https://www.polarsquad.com/
+      industries:
+      - CRM
+      - Information Technology
+      - Software
+      linkedin: https://www.linkedin.com/company/polarsquad/
+      name: Polar Squad
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: Southern Finland
+      stockExchange: null
+      twitter: https://twitter.com/polarsquadhq
     description: Polar Squad provides on-site consulting with Kubernetes and other
       cloud and devops-related tasks.
     homepage_url: https://polarsquad.com/
+    image_data:
+      fileName: polar-squad-kcsp.svg
+      hash: fkM4Q446QuC9aWym5/3vcHf1sRuNKBAQjv+jrNnkvzs=
     item: null
     logo: polar-squad.svg
     name: Polar Squad (KCSP)
-  - crunchbase: https://www.crunchbase.com/organization/portworx
+    twitter_data:
+      latest_tweet_date: 2022-06-30 11:02:02+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/portworx
+    crunchbase_data:
+      acquisitions: []
+      city: Los Altos
+      company_type: For Profit
+      country: United States
+      description: "Portworx is a cloud-native storage and data management company\
+        \ offering the industry\u2019s first storage solution purpose-built for containers."
+      funding: 55500000
+      homepage: https://portworx.com/
+      industries:
+      - Cloud Storage
+      - Data Center
+      - Data Storage
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/portworx/
+      name: Portworx
+      num_employees_max: 250
+      num_employees_min: 101
+      parents: []
+      region: California
+      stockExchange: null
+      twitter: https://twitter.com/portwx
     description: Portworx is the leader in cloud native storage and data management
       for Kubernetes, trusted to manage Fortune 2000's mission-critical data.
     homepage_url: https://portworx.com/
+    image_data:
+      fileName: portworx-kcsp.svg
+      hash: PUwm/ow/lIoJWp9OZBx4hsI/FTFY0uDoP/SXEjuVECY=
     item: null
     logo: portworx.svg
     name: Portworx (KCSP)
-  - crunchbase: https://www.crunchbase.com/organization/prisma-cloud
+    twitter_data:
+      latest_tweet_date: 2022-08-04 15:05:23+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/prisma-cloud
+    crunchbase_data:
+      acquisitions: []
+      city: Santa Clara
+      company_type: For Profit
+      country: United States
+      description: A complete cloud native application protection platform that secures
+        infrastructure and applications across cloud environments.
+      funding: 65000000
+      homepage: https://www.paloaltonetworks.com/prisma/cloud
+      industries:
+      - Cloud Security
+      - Cyber Security
+      - Security
+      kind: market_cap
+      linkedin: https://www.linkedin.com/products/palo-alto-networks-prisma-cloud/
+      name: Prisma Cloud
+      num_employees_max: 1000
+      num_employees_min: 501
+      parents:
+      - https://www.crunchbase.com/organization/palo-alto-networks
+      region: California
+      stockExchange: null
+      ticker: PANW
+      twitter: https://twitter.com/prisma_cloud
     homepage_url: https://www.paloaltonetworks.com/prisma/environments/kubernetes
+    image_data:
+      fileName: prisma-cloud-by-palo-alto-networks-kcsp.svg
+      hash: iDmAt4Pm5KEULVn2L2y/0CcyOM2hSUiDS6N9k+JRXkU=
     item: null
     logo: prisma-cloud-palo-alto.svg
     name: Prisma Cloud by Palo Alto Networks (KCSP)
-  - crunchbase: https://www.crunchbase.com/organization/prodyna
+    twitter_data:
+      latest_tweet_date: 2022-08-05 21:46:51+00:00
+    yahoo_finance_data:
+      effective_ticker: PANW
+      market_cap: 49954201600
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/prodyna
+    crunchbase_data:
+      acquisitions: []
+      city: Eschborn
+      company_type: For Profit
+      country: Germany
+      description: PRODYNA is an innovative IT consultancy specialized on the topic
+        of digital business.
+      homepage: http://www.prodyna.com/
+      industries:
+      - Information Technology
+      linkedin: https://www.linkedin.com/company-beta/274445/
+      name: PRODYNA
+      num_employees_max: 500
+      num_employees_min: 251
+      parents: []
+      region: Hessen
+      stockExchange: null
+      twitter: https://twitter.com/PRODYNASE
     description: PRODYNA designs, implements, and operates Kubernetes-based custom
       applications for mid- to large size enterprises in all of Europe.
     homepage_url: https://www.prodyna.com/en/cloud-native-computing-docker-kubernetes
+    image_data:
+      fileName: prodyna-kcsp.svg
+      hash: 14MsfR1DYmXJ0oVOMITYjLSGzdPkHRhEtm2NSDdanv4=
     item: null
     logo: prodyna.svg
     name: PRODYNA (KCSP)
-  - crunchbase: https://www.crunchbase.com/organization/vsh-software
+    twitter_data:
+      latest_tweet_date: 2022-08-05 11:23:18+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/vsh-software
+    crunchbase_data:
+      acquisitions: []
+      city: Hod Hasharon
+      company_type: For Profit
+      country: Israel
+      description: Israeli boutique DevOps and Cloud company
+      funding: 2000000
+      homepage: http://www.profisea.com/
+      industries:
+      - Cloud Management
+      - Consulting
+      - Information Technology
+      - Software
+      kind: funding
+      linkedin: https://www.linkedin.com/company/profisea/
+      name: Profisea
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: HaMerkaz
+      stockExchange: null
+      twitter: https://twitter.com/profisea
     description: Profisea, an Israeli boutique DevOps and Cloud company, has for over
       six years been providing Kubernetes-based services, including consulting, implementation,
       migration, automation and support. We provide GitOps-based Setup and configuration
       of Kubernetes platforms across the cloud. Our engineers are Kubernetes experts
       and we provide end-to-end management of your Kubernetes operations.
     homepage_url: https://profisea.com/kubernetes-services/
+    image_data:
+      fileName: profisea-kcsp.svg
+      hash: xTodFXye69r4m32MvTAVoV0sQlv2WkvTAIXf/Jqp5P8=
     item: null
     logo: profisea.svg
     name: Profisea (KCSP)
-  - crunchbase: https://www.crunchbase.com/organization/puzzle
+    twitter_data:
+      latest_tweet_date: 2022-07-08 11:23:01+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/puzzle
+    crunchbase_data:
+      acquisitions: []
+      city: Bern
+      company_type: For Profit
+      country: Switzerland
+      description: Puzzle is a Red Hat Certified Cloud Provider.
+      homepage: https://www.puzzle.ch/
+      industries:
+      - Information Technology
+      linkedin: https://www.linkedin.com/company/puzzle-itc/
+      name: Puzzle
+      num_employees_max: 100
+      num_employees_min: 51
+      parents: []
+      region: Bern
+      stockExchange: null
+      twitter: https://www.twitter.com/puzzleitc
     description: As a cloud native specialist we support you through your journey
       into container and cloud technologies with Kubernetes and OpenShift.
     homepage_url: https://www.puzzle.ch/de/home
+    image_data:
+      fileName: puzzle-itc-kcsp.svg
+      hash: iwYegEraXqRQa/+i06iOetizSX7bMyYVWXCgH+4vNj8=
     item: null
     logo: puzzle.svg
     name: Puzzle ITC (KCSP)
+    twitter_data:
+      latest_tweet_date: 2022-08-05 05:46:23+00:00
   Kubernetes Training Partner:
-  - crunchbase: https://www.crunchbase.com/organization/particule
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/particule
+    crunchbase_data:
+      acquisitions: []
+      city: Paris
+      company_type: For Profit
+      country: France
+      description: We build Cloud Native infrastructure, from an application on your
+        laptop to a scalable infrastructure, define as code
+      homepage: https://particule.io/
+      industries: []
+      linkedin: https://www.linkedin.com/company/particuleio/
+      name: Particule
+      num_employees_max: 10
+      num_employees_min: 1
+      parents: []
+      region: Ile-de-France
+      stockExchange: null
+      twitter: https://twitter.com/particuleio
     homepage_url: https://particule.io/en/
+    image_data:
+      fileName: particule-ktp.svg
+      hash: fyAFEw7Sp3xVPz+4XEeOSzyr5z4hQJ2in4mpM0iw0EY=
     item: null
     logo: particule.svg
     name: Particule (KTP)
-  - crunchbase: https://www.crunchbase.com/organization/polar-squad
+    twitter_data:
+      latest_tweet_date: 2022-05-23 08:25:15+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/polar-squad
+    crunchbase_data:
+      acquisitions: []
+      city: Helsinki
+      company_type: For Profit
+      country: Finland
+      description: Information Technology and Services
+      homepage: https://www.polarsquad.com/
+      industries:
+      - CRM
+      - Information Technology
+      - Software
+      linkedin: https://www.linkedin.com/company/polarsquad/
+      name: Polar Squad
+      num_employees_max: 50
+      num_employees_min: 11
+      parents: []
+      region: Southern Finland
+      stockExchange: null
+      twitter: https://twitter.com/polarsquadhq
     description: Polar Squad offers consulting on cloud native technologies and rapid
       software development practices. We provide hands-on Kubernetes consulting, workshops
       and training.
@@ -608,16 +5027,47 @@ Special:
       training_certifications: cka, ckad
       training_type: instructor-led
     homepage_url: https://polarsquad.com/
+    image_data:
+      fileName: polar-squad-ktp.svg
+      hash: fkM4Q446QuC9aWym5/3vcHf1sRuNKBAQjv+jrNnkvzs=
     item: null
     logo: polar-squad.svg
     name: Polar Squad (KTP)
-  - crunchbase: https://www.crunchbase.com/organization/prodyna
+    twitter_data:
+      latest_tweet_date: 2022-06-30 11:02:02+00:00
+  - best_practice_data:
+      badge: false
+      percentage: null
+    crunchbase: https://www.crunchbase.com/organization/prodyna
+    crunchbase_data:
+      acquisitions: []
+      city: Eschborn
+      company_type: For Profit
+      country: Germany
+      description: PRODYNA is an innovative IT consultancy specialized on the topic
+        of digital business.
+      homepage: http://www.prodyna.com/
+      industries:
+      - Information Technology
+      linkedin: https://www.linkedin.com/company-beta/274445/
+      name: PRODYNA
+      num_employees_max: 500
+      num_employees_min: 251
+      parents: []
+      region: Hessen
+      stockExchange: null
+      twitter: https://twitter.com/PRODYNASE
     description: PRODYNA designs, implements, and operates Kubernetes-based custom
       applications for mid- to large size enterprises in all of Europe.
     homepage_url: https://www.prodyna.com/en/cloud-native-computing-docker-kubernetes
+    image_data:
+      fileName: prodyna-ktp.svg
+      hash: 14MsfR1DYmXJ0oVOMITYjLSGzdPkHRhEtm2NSDdanv4=
     item: null
     logo: prodyna.svg
     name: PRODYNA (KTP)
+    twitter_data:
+      latest_tweet_date: 2022-08-05 11:23:18+00:00
 Wasm:
   Debugging and Observability: []
   Installable Platform: []
