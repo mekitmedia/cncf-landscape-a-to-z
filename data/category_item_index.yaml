@@ -1,0 +1,2097 @@
+App Definition and Development:
+  Application Definition & Image Build:
+  - Alibaba Cloud Serverless Workflow
+  - Artifact Hub
+  - Backstage
+  - Bitnami - Tanzu Application Catalog
+  - Buildpacks
+  - Carvel
+  - Chef Habitat
+  - CloudARK KubePlus
+  - CodeZero
+  - DeployHub
+  - Devfile
+  - DevSpace
+  - Docker Compose
+  - Eclipse Che
+  - Gitpod
+  - Gradle Build Tool
+  - Helm
+  - itopia
+  - kaniko
+  - KOTS
+  - Krator
+  - KubeCarrier
+  - KubeOrbit
+  - KubeVela
+  - KubeVirt
+  - KUDO
+  - Kui
+  - Lagoon
+  - Mia-Platform
+  - Monokle
+  - Nocalhost
+  - Octant
+  - Okteto
+  - On-Prem
+  - Open Application Model
+  - Open Service Broker API
+  - OpenAPI
+  - Operator Framework
+  - Packer
+  - Podman
+  - Porter
+  - Raftt
+  - sealer
+  - Serverless Workflow
+  - ServiceComb
+  - Shipwright
+  - Skaffold
+  - Squash
+  - Tanka
+  - Telepresence
+  - Tilt
+  Continuous Integration & Delivery:
+  - Agola
+  - Akuity
+  - Appveyor
+  - Argo
+  - AWS CodePipeline
+  - Azure Pipelines
+  - Bamboo
+  - Brigade
+  - Buildkite
+  - Bunnyshell
+  - CAPE
+  - Cartographer
+  - CircleCI
+  - Cloud 66 Skycap
+  - Cloudbees Codeship
+  - Codefresh
+  - Concourse
+  - D2iQ Dispatch
+  - DolphinScheduler
+  - Drone
+  - Flagger
+  - Flux
+  - GitHub Actions
+  - GitLab
+  - GoCD
+  - Google Cloud Build
+  - Harness.io
+  - HyScale
+  - Jenkins
+  - JenkinsX
+  - k6
+  - Keploy
+  - Keptn
+  - Octopus Deploy
+  - OpenFeature
+  - OpenGitOps
+  - OpenKruise
+  - Ortelius
+  - Ozone
+  - PipeCD
+  - Razee
+  - Screwdriver
+  - Semaphore
+  - Spacelift
+  - Spinnaker
+  - TeamCity
+  - Tekton Pipelines
+  - Testkube
+  - Travis CI
+  - werf
+  - Woodpecker CI
+  - XL Deploy
+  Database:
+  - Apache CarbonData
+  - Apache Hadoop
+  - Apache Ignite
+  - ArangoDB
+  - BigchainDB
+  - Cassandra
+  - CockroachDB
+  - Couchbase
+  - Crate.io
+  - Crunchy Postgres Operator
+  - Crux
+  - Dgraph
+  - Druid
+  - FoundationDB
+  - GraphScope
+  - Hazelcast IMDG
+  - IBM Db2
+  - iguazio
+  - Infinispan
+  - InterSystems IRIS Data Platform
+  - KubeDB by AppsCode
+  - MariaDB
+  - Microsoft SQL Server
+  - MongoDB
+  - MySQL
+  - Nebula Graph
+  - Neo4j
+  - NomsDB
+  - NuoDB
+  - Oracle Database
+  - OrientDB
+  - Percona Server for MySQL
+  - Pilosa
+  - PostgreSQL
+  - Presto
+  - Qubole
+  - Redis
+  - RethinkDB
+  - Scalar DB
+  - SchemaHero
+  - Scylla
+  - Seata
+  - ShardingSphere
+  - SingleStore
+  - Snowflake
+  - Software AG
+  - Stolon
+  - TDengine
+  - TiDB
+  - TiKV
+  - Timescale
+  - Vertica
+  - Vitess
+  - VoltDB
+  - Weaviate
+  - Yellowbrick
+  - YugaByte DB
+  Streaming & Messaging:
+  - Amazon Kinesis
+  - Apache Heron
+  - Apache NiFi
+  - Apache RocketMQ
+  - Apache Spark
+  - Apache Storm
+  - Azure Event Hubs
+  - Beam
+  - CDEvents
+  - CloudEvents
+  - deepstream
+  - EMQ Technologies
+  - Flink
+  - Fluvio
+  - Google Cloud Dataflow
+  - Hazelcast Jet
+  - Kafka
+  - KubeMQ
+  - Lightbend
+  - NATS
+  - OpenMessaging
+  - Pachyderm
+  - Pravega
+  - Pulsar
+  - RabbitMQ
+  - Redpanda
+  - SeaTunnal
+  - Siddhi
+  - StreamSets
+  - Strimzi
+  - Talend Data Streams
+  - Tremor
+CNCF Members:
+  Academic:
+  - Golden Gate University (member)
+  - Strategic Education (member)
+  - SW Engineering Lab of Zhejiang University (member)
+  - University of Michigan (member)
+  End User Supporter:
+  - Adidas (supporter)
+  - Airbnb (supporter)
+  - Amadeus (supporter)
+  - Anova (supporter)
+  - Argyle Systems (supporter)
+  - Audi (supporter)
+  - AuditBoard (supporter)
+  - AuthKeys (supporter)
+  - Babylon Health (supporter)
+  - BitMEX (supporter)
+  - Blizzard (supporter)
+  - Box (supporter)
+  - Cardinal Health (supporter)
+  - Celonis (supporter)
+  - Cookpad (supporter)
+  - Cordial (supporter)
+  - Cruise (supporter)
+  - Curve (supporter)
+  - DataGalaxy (supporter)
+  - Dave (supporter)
+  - DB Systel (supporter)
+  - DFDS (supporter)
+  - DIRECTV (supporter)
+  - DoorDash (supporter)
+  - Entegral (supporter)
+  - EquityZen (supporter)
+  - eRoad Software (supporter)
+  - EverQuote (supporter)
+  - FATMAP (supporter)
+  - Form3 (supporter)
+  - GMX (supporter)
+  - HiTRUST (supporter)
+  - Huifu Payment Limited (supporter)
+  - i3 Systems (supporter)
+  - iHerb (supporter)
+  - Juni (supporter)
+  - King (supporter)
+  - KSAT (supporter)
+  - La Mobiliere (supporter)
+  - Lowe's (supporter)
+  - Lunar (supporter)
+  - Mambu (supporter)
+  - MasterClass (supporter)
+  - Meltwater (supporter)
+  - Monzo (supporter)
+  - Morning Consult (supporter)
+  - N26 (supporter)
+  - Nasdaq (supporter)
+  - NetMatch (supporter)
+  - Nielsen (supporter)
+  - NielsenIQ (supporter)
+  - Non-Public Organization Bear (supporter)
+  - Non-Public Organization Dog (supporter)
+  - Non-Public Organization Elephant (supporter)
+  - Non-Public Organization Flamingo (supporter)
+  - Non-Public Organization Giraffe (supporter)
+  - Non-Public Organization Horse (supporter)
+  - Non-Public Organization Iguana (supporter)
+  - Non-Public Organization Jellyfish (supporter)
+  - Non-Public Organization Kiwi (supporter)
+  - OneCause (supporter)
+  - PayIt (supporter)
+  - PDT Partners (supporter)
+  - Peritus.ai (supporter)
+  - Porsche (supporter)
+  - PostFinance (supporter)
+  - ProSiebenSat.1 (supporter)
+  - Pusher (supporter)
+  - Reddit (supporter)
+  - REWE International Dienstleistungsges.m.b.h. (supporter)
+  - Ricardo.ch (supporter)
+  - Robinhood (supporter)
+  - RStudio (supporter)
+  - SAP Concur (supporter)
+  - Shopify (supporter)
+  - Sky Betting & Gaming (supporter)
+  - Skyline Technology Solutions (supporter)
+  - SNCF (supporter)
+  - Snow Software (supporter)
+  - Sony Interactive Entertainment (supporter)
+  - Springer Nature (supporter)
+  - State Farm (supporter)
+  - The New York Times (supporter)
+  - Thermo Fisher Scientific (supporter)
+  - TicketMaster (supporter)
+  - TomTom (supporter)
+  - trivago (supporter)
+  - Twitter (supporter)
+  - Two Sigma (supporter)
+  - Ultimate Software (supporter)
+  - Under Armour (supporter)
+  - Upsider (supporter)
+  - Vermiculus Financial Technology (supporter)
+  - Volvo (supporter)
+  - Westwing (supporter)
+  - Workday (supporter)
+  - WPEngine (supporter)
+  - Yahoo (supporter)
+  - Zalando (supporter)
+  - Zendesk (supporter)
+  - Zuora (supporter)
+  Gold:
+  - American Express (member)
+  - Ant Financial (member)
+  - Baidu (member)
+  - Capital One (member)
+  - CECloud (member)
+  - Charter Communications (member)
+  - Coinbase (member)
+  - Cox Communications (member)
+  - Equinix (member)
+  - Fidelity Investments (member)
+  - H3C Technologies (member)
+  - HCL Technologies (member)
+  - HPE (member)
+  - Inspur (member)
+  - Intuit (member)
+  - iSoftStone (member)
+  - JD Cloud (member)
+  - JFrog (member)
+  - Kingsoft (member)
+  - NEC (member)
+  - OPPO (member)
+  - Salesforce (member)
+  - Samsung SDS (member)
+  - SPD Bank (member)
+  - Splunk (member)
+  - T-Mobile (member)
+  - Tencent Cloud (member)
+  - ZTE (member)
+  Nonprofit:
+  - CableLabs (member)
+  - Cambia Health Solutions (member)
+  - Canada Health Infoway (member)
+  - CENGN (member)
+  - CISPI (member)
+  - Cloud Foundry Foundation (member)
+  - Eclipse Foundation (member)
+  - MITRE (member)
+  - NAIC (member)
+  - National Information Society Agency (member)
+  - NIPR (member)
+  - Non-Public Organization Octopus (member)
+  - Non-Public Organization Quail (member)
+  - Open Compute Project (member)
+  - RISC-V (member)
+  - SiDi Campinas (member)
+  - SouJava (member)
+  - Telecommunications Technology Association (member)
+  - TNO (member)
+  - UPchieve (member)
+  - UPMC Enterprises (member)
+  - Wikimedia (member)
+  Platinum:
+  - Alibaba Cloud (member)
+  - Amazon Web Services (member)
+  - Apple (member)
+  - Arm (member)
+  - AT&T (member)
+  - Boeing (member)
+  - Cisco (member)
+  - Fujitsu (member)
+  - Google Cloud (member)
+  - Grafana Labs (member)
+  - Huawei (member)
+  - IBM (member)
+  - Intel (member)
+  - Kasten (member)
+  - Microsoft (member)
+  - NetApp (member)
+  - New Relic (member)
+  - Oracle (member)
+  - Prisma Cloud by Palo Alto Networks (member)
+  - Red Hat (member)
+  - SAP (member)
+  - VMware (member)
+  - Volcano Engine (member)
+  Silver:
+  - 1NCE (member)
+  - 23 Technologies (member)
+  - 3-Shake (member)
+  - 3K Technologies (member)
+  - 4intelligence (member)
+  - 99cloud (member)
+  - Aarna Networks (member)
+  - ACC ICT (member)
+  - Accu Knox (member)
+  - acend (member)
+  - Acnodal (member)
+  - Acorn Labs (member)
+  - Adfolks (member)
+  - Aeolabs (member)
+  - Aerospike (member)
+  - Afi Technologies (member)
+  - Agree Technology (member)
+  - AIM (member)
+  - Airlock (member)
+  - Aiven (member)
+  - Akatsuki (member)
+  - Akuity (member)
+  - Alauda (member)
+  - Alerant (member)
+  - Allianz Direct (member)
+  - Alter Way (member)
+  - Altinity (member)
+  - Altoros (member)
+  - AlviStack (member)
+  - amazee.io (member)
+  - Ambassador (member)
+  - Amberflo (member)
+  - Ambient IT (member)
+  - Amido (member)
+  - Ampere Consulting (member)
+  - Anchnet (member)
+  - Anchore (member)
+  - Andes Digital (member)
+  - anynines (member)
+  - Aokumo (member)
+  - APE Factory (member)
+  - Apiiro (member)
+  - Appaegis (member)
+  - Appddiction Studio (member)
+  - Appstellar (member)
+  - Appvia (member)
+  - Aqua Security (member)
+  - ArangoDB (member)
+  - ArcherOS (member)
+  - Argonaut (member)
+  - Arima (member)
+  - Arista Networks (member)
+  - Armo (member)
+  - Armory (member)
+  - Arrikto (member)
+  - Aserto (member)
+  - AsiaInfo (member)
+  - Aspecto (member)
+  - Aspen Mesh (member)
+  - Asserts (member)
+  - ASUS Cloud Corporation (member)
+  - ATIX (member)
+  - Atlassian (member)
+  - AtomicJar (member)
+  - Atos (member)
+  - Authzed (member)
+  - Automat-IT (member)
+  - Avanade (member)
+  - Avesha (member)
+  - Avisi (member)
+  - Axcelinno (member)
+  - Axiata Digital Labs (member)
+  - b-nova (member)
+  - B1 Systems (member)
+  - Balena (member)
+  - Bancolombia (member)
+  - BC Cloud (member)
+  - BeOpenIT (member)
+  - BESSYSTEM (member)
+  - Biqmind (member)
+  - Bitrock (member)
+  - Blameless (member)
+  - Blockchain Technology Partners (member)
+  - Bloomberg (member)
+  - Blue Sentry (member)
+  - BMO - Bank of Montreal (member)
+  - BoCloud (member)
+  - Boer Technology (member)
+  - Booz Allen Hamilton (member)
+  - Boxboat (member)
+  - Brickdoc (member)
+  - Broadcom (member)
+  - Brobridge (member)
+  - Bunnyshell (member)
+  - Buoyant (member)
+  - Calyptia (member)
+  - Camptocamp (member)
+  - Canonical (member)
+  - CARS - China Academy of Railway Sciences (member)
+  - Cast.ai (member)
+  - Catalyst Cloud (member)
+  - Caylent (member)
+  - Cerbos (member)
+  - Chainguard (member)
+  - Chaitin Tech (member)
+  - Chef (member)
+  - China Mobile (member)
+  - China Systems (member)
+  - China Telecom (member)
+  - China Unicom (member)
+  - China-ASEAN Information Harbor (member)
+  - Chronosphere (member)
+  - CINQ (member)
+  - CircleCI (member)
+  - Cisel Informatique (member)
+  - Citi (member)
+  - Citrix (member)
+  - Civo (member)
+  - Claion (member)
+  - Clastix (member)
+  - Clockwork (member)
+  - Cloud Kinetics (member)
+  - Cloudbase Solutions (member)
+  - CloudBees (member)
+  - CloudBolt Software (member)
+  - CloudCasa by Catalogic (member)
+  - CloudControl (member)
+  - CloudCover (member)
+  - Cloudical (member)
+  - CloudIQ (member)
+  - Cloudmatos (member)
+  - CloudNatix (member)
+  - CloudOps (member)
+  - Cloudshape (member)
+  - Cloudside (member)
+  - Cloudsmith (member)
+  - CloudThat (member)
+  - Cloudthread (member)
+  - CloudYuga (member)
+  - CloudZone (member)
+  - Clyso (member)
+  - Cockroach Labs (member)
+  - Cocktail Cloud (member)
+  - Code Zero Technologies (member)
+  - Codefresh (member)
+  - Comcast (member)
+  - Comforte (member)
+  - Commvault (member)
+  - Component Soft (member)
+  - Conoa (member)
+  - Container Solutions (member)
+  - ContainIQ (member)
+  - Contino (member)
+  - Contrast Security (member)
+  - Control Plane (member)
+  - ControlPlane (member)
+  - Core 24/7 (member)
+  - Coredge (member)
+  - CoreHive Computing (member)
+  - Cortex (member)
+  - Cosmonic (member)
+  - Couchbase (member)
+  - CrafterCMS (member)
+  - Creationline (member)
+  - Cribl (member)
+  - Crunchy Data (member)
+  - Cryptosense (member)
+  - Cuegee (member)
+  - Cuemby (member)
+  - CyberArk (member)
+  - Cybozu (member)
+  - Cycode (member)
+  - D2iQ (member)
+  - Daekyo CNS (member)
+  - Dalian Hi-Think (member)
+  - DaoCloud (member)
+  - Data Essential (member)
+  - DataCore (member)
+  - Datadog (member)
+  - Datadrivers (member)
+  - Datastax (member)
+  - DatenLord (member)
+  - Datree (member)
+  - Daugherty Business Solutions (member)
+  - Deepfactor (member)
+  - Deepfence (member)
+  - Deepshore (member)
+  - Dell Technologies (member)
+  - Deloitte Consulting (member)
+  - DENSO (member)
+  - Desotech (member)
+  - DevSamurai (member)
+  - DevsOperative (member)
+  - DGi (member)
+  - Diamanti (member)
+  - DiDi Infinity Technology and Development (member)
+  - Didim365 (member)
+  - Digitalis.io (member)
+  - DigitalOcean (member)
+  - Direktiv (member)
+  - Dito (member)
+  - Docker (member)
+  - DOCOMO Innovations (member)
+  - DoiT International (member)
+  - DoK Community (member)
+  - Doppler (member)
+  - Dosec (member)
+  - Dynatrace (member)
+  - Dysnix (member)
+  - EasyStack (member)
+  - eBaoTech International (member)
+  - eBay (member)
+  - eCloudTech (member)
+  - EDB (member)
+  - Edge Delta (member)
+  - Edgeless Systems (member)
+  - EdgeRay (member)
+  - Eficode (member)
+  - Elastic (member)
+  - Elastisys (member)
+  - Elastx (member)
+  - Elotl (member)
+  - EMQ Technologies (member)
+  - EngineerBetter (member)
+  - Entando (member)
+  - Entigo (member)
+  - env0 (member)
+  - Era Software (member)
+  - Ericsson (member)
+  - eSynergy Solutions (member)
+  - Exein (member)
+  - EXEM (member)
+  - Exoscale (member)
+  - Exotanium (member)
+  - Expert Thinking (member)
+  - F5 (member)
+  - Fairwinds (member)
+  - Fannie Mae (member)
+  - Finout (member)
+  - Firefly (member)
+  - FireHydrant (member)
+  - FIT2CLOUD (member)
+  - Flanksource (member)
+  - Flant (member)
+  - FOSSA (member)
+  - Fournine Cloud Solutions (member)
+  - Fullstaq (member)
+  - Futurewei Technologies (member)
+  - G-Research (member)
+  - Gaia Information Technology  (member)
+  - Garden (member)
+  - GE Healthcare (member)
+  - Gemini Open Cloud (member)
+  - German Edge Cloud (member)
+  - Giant Swarm (member)
+  - GienTech (member)
+  - GitHub (member)
+  - GitLab (member)
+  - Gitpod (member)
+  - Globo (member)
+  - GoDaddy (member)
+  - Goldman Sachs (member)
+  - GotoAdmins (member)
+  - Granulate (member)
+  - Grape Up (member)
+  - Gremlin (member)
+  - greymatter.io (member)
+  - Groundcover (member)
+  - Guance (member)
+  - Guida (member)
+  - Hammerspace (member)
+  - HAProxy Technologies (member)
+  - Harmony Cloud (member)
+  - Harness (member)
+  - Harpoon (member)
+  - HashiCorp (member)
+  - Hasura Technologies (member)
+  - Helios (member)
+  - Hitachi Vantara (member)
+  - Humanitec (member)
+  - Humio (member)
+  - Huoxian Security (member)
+  - HyScale (member)
+  - iauro (member)
+  - IGNW (member)
+  - Iguazio (member)
+  - IITS Consulting (member)
+  - Ilki (member)
+  - Indeed (member)
+  - Infinyon (member)
+  - InfluxData (member)
+  - Infoblox (member)
+  - Infosys (member)
+  - InfraCloud Technologies (member)
+  - Inigo (member)
+  - Innablr (member)
+  - Innogrid (member)
+  - Inovex (member)
+  - Instaclustr (member)
+  - Instana (member)
+  - Intercloud (member)
+  - Intuitive Technology Partners (member)
+  - inwinSTACK (member)
+  - IOMesh (member)
+  - Isovalent (member)
+  - Itera (member)
+  - itopia (member)
+  - ITRenew (member)
+  - Jeli (member)
+  - Jetstack (member)
+  - Jiangxi Yumin Bank (member)
+  - Jimdo (member)
+  - JPMorgan Chase (member)
+  - Juniper Networks (member)
+  - Kaloom (member)
+  - KBSYS (member)
+  - Kentik (member)
+  - KINX (member)
+  - Kiratech (member)
+  - kloia (member)
+  - KodeKloud (member)
+  - Komodor (member)
+  - Kong (member)
+  - KPMG (member)
+  - KSOC (member)
+  - kt NexR (member)
+  - Kubecost (member)
+  - KubeOps (member)
+  - Kubermatic (member)
+  - kubeshop (member)
+  - Kubesphere (member)
+  - Kubiya (member)
+  - Kublr (member)
+  - Kumina (member)
+  - Lablup (member)
+  - Lacework (member)
+  - LeanIX (member)
+  - Legit Security (member)
+  - Lightbend (member)
+  - Lightlytics (member)
+  - Lightrun (member)
+  - Lightspin (member)
+  - LightStep (member)
+  - Linbit (member)
+  - Linklogis (member)
+  - Linode (member)
+  - Liquid Reply (member)
+  - Lockheed Martin (member)
+  - Loft Labs (member)
+  - Logiq (member)
+  - Logz.io (member)
+  - LSD Open (member)
+  - LTI (member)
+  - MacStadium (member)
+  - MaibornWolff (member)
+  - Mail.Ru Cloud Solutions (member)
+  - MakinaRocks (member)
+  - Mandao Fintech (member)
+  - ManTech (member)
+  - Mastercard (member)
+  - Mathworks (member)
+  - MATRIXX Software (member)
+  - Mattermost (member)
+  - Mavenir (member)
+  - Mayfield (member)
+  - McKinsey & Company (member)
+  - MegaEase (member)
+  - MegazoneCloud (member)
+  - Mercedes Benz AG (member)
+  - MetroStar Systems (member)
+  - Mezmo (member)
+  - Mia-Platform (member)
+  - MiaoYun (member)
+  - Micro Focus (member)
+  - MinIO (member)
+  - Mirantis (member)
+  - Miraxia Edge Technology (member)
+  - Mobilise Cloud Services (member)
+  - mogenius (member)
+  - Mondoo (member)
+  - Monostream (member)
+  - MoreSec (member)
+  - Morgan Stanley (member)
+  - Morpheus Data (member)
+  - MSys Technologies (member)
+  - MUFG Union Bank (member)
+  - Mycelial (member)
+  - MyFitnessPal (member)
+  - N3NCLOUD (member)
+  - Namutech (member)
+  - Navitas Business Consulting (member)
+  - NCSOFT (member)
+  - ndustrial (member)
+  - Netdata (member)
+  - NetEase (member)
+  - NetFoundry (member)
+  - Nethopper (member)
+  - Netis (member)
+  - Netris (member)
+  - Neuroglia (member)
+  - New Black (member)
+  - NexClipper (member)
+  - NextGenTek (member)
+  - NGINX (member)
+  - NHN Cloud (member)
+  - Nirmata (member)
+  - Nokia (member)
+  - Non-Public Organization Alligator (member)
+  - Non-Public Organization Camel (member)
+  - Non-Public Organization Moose (member)
+  - Non-Public Organization Narwhal (member)
+  - noris network (member)
+  - NS1 (member)
+  - NTT DATA (member)
+  - Nutanix (member)
+  - Nuvitek (member)
+  - NVIDIA (member)
+  - OBSS (member)
+  - Occentus (member)
+  - Octo Consulting (member)
+  - OCTO Technology (member)
+  - OGIS-RI (member)
+  - Okteto (member)
+  - Ondat (member)
+  - OnGres (member)
+  - Open Raven (member)
+  - Open Source Consulting (member)
+  - OpenNebula (member)
+  - OpsCruise (member)
+  - Opsera (member)
+  - OpsLevel (member)
+  - OpsMx (member)
+  - OpsVerse (member)
+  - Orange (member)
+  - Orca Security (member)
+  - Ori (member)
+  - Origoss Solutions (member)
+  - Orkes (member)
+  - Oteemo (member)
+  - OVHcloud (member)
+  - Ovoo (member)
+  - Oxeye (member)
+  - Ozone (member)
+  - Paladin Cloud (member)
+  - Particule (member)
+  - Pega (member)
+  - Peloton Interactive (member)
+  - Pengyun Network (member)
+  - Percona (member)
+  - Permit.io (member)
+  - Ping An Technology (member)
+  - PingCAP (member)
+  - Pipekit (member)
+  - Pixie Labs (member)
+  - PlanetScale (member)
+  - Platform9 (member)
+  - Plural (member)
+  - plusserver (member)
+  - Polar Signals (member)
+  - Polar Squad (member)
+  - Portainer (member)
+  - Portworx (member)
+  - Posedio (member)
+  - Prefect (member)
+  - Prisma (member)
+  - Prodigy Education (member)
+  - PRODYNA (member)
+  - Profisea (member)
+  - Pulumi (member)
+  - Puppet (member)
+  - Puzzle ITC (member)
+  - QAware (member)
+  - Qingteng (member)
+  - Qiniu (member)
+  - Qualys (member)
+  - Quobyte (member)
+  - Rackner (member)
+  - Rafay Systems (member)
+  - Raft (member)
+  - Raftt (member)
+  - RapidFort (member)
+  - Raytheon (member)
+  - Reblaze (member)
+  - Red Kubes (member)
+  - Red Reply (member)
+  - Redeploy (member)
+  - Redpanda (member)
+  - Refinitiv (member)
+  - ReleaseHub (member)
+  - Replex (member)
+  - Replicated (member)
+  - Ridge (member)
+  - RNG Technology (member)
+  - Roadie (member)
+  - Robin Systems (member)
+  - Robusta (member)
+  - Rookout (member)
+  - Roost (member)
+  - RX-M (member)
+  - Saaras (member)
+  - SAIC (member)
+  - saltware (member)
+  - Scaleflash (member)
+  - Scaleway (member)
+  - Scality (member)
+  - Scarf (member)
+  - ScoutAPM (member)
+  - Scribe Security (member)
+  - Seagate (member)
+  - Searce (member)
+  - Second State (member)
+  - Section (member)
+  - Seekret (member)
+  - Selector (member)
+  - Serverless (member)
+  - servicememe (member)
+  - Services4-IT (member)
+  - Shinesoft (member)
+  - Shipa (member)
+  - Shoreline (member)
+  - Sidero Labs (member)
+  - SIGHUP (member)
+  - SingleStore (member)
+  - Singularity Data (member)
+  - Skyloud (member)
+  - Slim.ai (member)
+  - Smallstep (member)
+  - Smartiful (member)
+  - Snyk (member)
+  - Softax (member)
+  - SoftIron (member)
+  - Software Mind (member)
+  - SoKube (member)
+  - Solo.io (member)
+  - Sosivio (member)
+  - Spacelift (member)
+  - SparkFabrik (member)
+  - Spectral (member)
+  - Spectro Cloud (member)
+  - SpeedScale (member)
+  - SphereEx (member)
+  - Spotify (member)
+  - Spyderbat (member)
+  - Squarespace (member)
+  - stackgenie (member)
+  - StackHawk (member)
+  - STACKIT (member)
+  - Stacklet (member)
+  - Stark & Wayne (member)
+  - Steamhaus
+  - Storm Reply (member)
+  - StormForge (member)
+  - StorPool (member)
+  - Stratox (member)
+  - StreamNative (member)
+  - Structsure (member)
+  - Styra (member)
+  - Successive Technologies (member)
+  - Sumo Logic (member)
+  - Sup-info Information Technology (member)
+  - Superblocks (member)
+  - SuperOrbital (member)
+  - SUSE (member)
+  - SVA (member)
+  - Swisscom (member)
+  - Synadia Communications (member)
+  - Synax (member)
+  - Sysdig (member)
+  - SysEleven (member)
+  - T-Systems (member)
+  - Teamsun (member)
+  - Teleport (member)
+  - Temporal (member)
+  - Tenable (member)
+  - Tensor Security (member)
+  - TenxCloud (member)
+  - TeraSky (member)
+  - Tetrate (member)
+  - TeutoStack (member)
+  - The Scale Factory (member)
+  - Thought Machine (member)
+  - Threat Stack (member)
+  - Tidu (member)
+  - Tigera (member)
+  - Timescale (member)
+  - TL Consulting Group (member)
+  - TmaxCloud (member)
+  - Toyota Motor Corporation (member)
+  - Traceable (member)
+  - TraceRoute42 (member)
+  - Traefik Labs (member)
+  - Translucent Computing (member)
+  - Transposit (member)
+  - Transwarp Technologies (member)
+  - Travelping (member)
+  - Trend Micro (member)
+  - Trilio (member)
+  - True (member)
+  - Tyk (member)
+  - Uffizzi (member)
+  - UMB (member)
+  - Uniserver (member)
+  - UnitedHealth Group (member)
+  - unSkript (member)
+  - Upbound (member)
+  - UWS (member)
+  - VA Linux Systems Japan (member)
+  - Valve Software (member)
+  - Velocity (member)
+  - Ventus Cloud (member)
+  - VEXXHOST (member)
+  - Viable Data (member)
+  - Virtasant (member)
+  - Vodafone (member)
+  - VSHN AG (member)
+  - Vultr (member)
+  - Wallarm (member)
+  - Walmart (member)
+  - Wanclouds (member)
+  - Wayfair (member)
+  - Weaveworks (member)
+  - Webera (member)
+  - WeScale (member)
+  - WhaTap (member)
+  - Whitestack (member)
+  - WhizUs (member)
+  - Wind River (member)
+  - Windmill Engineering (member)
+  - Wise2C (member)
+  - WOQU Tech (member)
+  - Wowjoy Technology (member)
+  - WSO2 (member)
+  - x-cellent (member)
+  - x-ion (member)
+  - Xenit (member)
+  - XenonStack (member)
+  - Xopero Software (member)
+  - Yahoo Japan Corporation (member)
+  - Yellowbrick (member)
+  - YLD (member)
+  - Zafin (member)
+  - Zebrium (member)
+  - ZEDEDA, Inc. (member)
+  - Zelarsoft (member)
+  - ZenHub (member)
+  - Zerto (member)
+  - Zoi (member)
+Observability and Analysis:
+  Chaos Engineering:
+  - Chaos Mesh
+  - Chaos Toolkit
+  - Chaosblade
+  - chaoskube
+  - Gremlin
+  - Litmus
+  - PowerfulSeal
+  - steadybit
+  Continuous Optimization:
+  - BMC Helix
+  - cast.ai
+  - CloudZero
+  - Densify
+  - gocrane
+  - Granulate
+  - Infracost
+  - Kubecost
+  - mPLAT
+  - OpenCost
+  - Opsani
+  - Spot.io
+  - StormForge
+  - Turbonomic
+  - vamp.io
+  - Zesty
+  Logging:
+  - Alibaba Cloud Log Service
+  - DataSet
+  - Elastic
+  - Fluentd
+  - Grafana Loki
+  - Graylog
+  - Humio
+  - Loggie
+  - Loggly
+  - Logiq
+  - Logstash
+  - Mezmo
+  - OpenSearch
+  - Pandora2.0
+  - Rizhiyi
+  - Sematext
+  - Splunk
+  - Sumo Logic
+  - Tencent Cloud Log Service
+  - Trink.io
+  Monitoring:
+  - Amazon CloudWatch
+  - AppDynamics
+  - Application High Availability Service
+  - Applications Manager
+  - AppNeta
+  - AppOptics
+  - AppSignal
+  - Aternity
+  - Azure Monitor
+  - Beats
+  - Blue Matador
+  - Catchpoint
+  - Centreon
+  - Checkmk
+  - Chronosphere
+  - CloudHealth Technologies
+  - Cortex
+  - Datadog
+  - Dynatrace
+  - Epsagon
+  - Falcon
+  - Flowmill
+  - Fonio
+  - Google Stackdriver
+  - Gradle Enterprise
+  - Grafana
+  - Grafana Mimir
+  - Graphite
+  - Guance Cloud
+  - Honeybadger
+  - Hubble
+  - Icinga
+  - InfluxData
+  - Instana
+  - IronDB
+  - Kiali
+  - Kuberhealthy
+  - LeanIX Microservice Intelligence (MI)
+  - LogicMonitor
+  - Logz.io
+  - M3
+  - Mackerel
+  - Nagios
+  - Netdata
+  - Netis
+  - New Relic
+  - NexClipper
+  - Nightingale
+  - NodeSource
+  - OpenMetrics
+  - OpenTSDB
+  - Opstrace
+  - OverOps
+  - Pixie
+  - Prometheus
+  - Promscale
+  - Replex
+  - Rookout
+  - Sensu
+  - Sentry
+  - SignalFX
+  - Skooner
+  - Sosivio
+  - StackState
+  - sysdig
+  - Thanos
+  - Tingyun
+  - Trickster
+  - Vector
+  - VictoriaMetrics
+  - Virtasant
+  - Wavefront
+  - Weave Cloud
+  - Weave Scope
+  - WhaTap
+  - Zabbix
+  Tracing:
+  - Aspecto
+  - EaseAgent
+  - Elastic APM
+  - Grafana Tempo
+  - Honeycomb
+  - Jaeger
+  - LightStep
+  - OpenTelemetry
+  - OpenTracing
+  - Pinpoint
+  - SkyWalking
+  - SOFATracer
+  - Spring Cloud Sleuth
+  - Tracetest
+  - Zipkin
+Orchestration & Management:
+  API Gateway:
+  - 3Scale
+  - Akana
+  - APIOAK
+  - APISIX
+  - Azure API Management
+  - Easegress
+  - Emissary-Ingress
+  - EnRoute OneStep Ingress
+  - Gloo
+  - Gravitee.io
+  - Hango
+  - Kong
+  - KrakenD
+  - Kusk Gateway
+  - MuleSoft
+  - Reactive Interaction Gateway
+  - Sentinel
+  - Tyk
+  - WSO2 API Microgateway
+  Coordination & Service Discovery:
+  - Apache Zookeeper
+  - AWS Cloud Map
+  - CoreDNS
+  - etcd
+  - k8gb
+  - Nacos
+  - Netflix Eureka
+  Remote Procedure Call:
+  - Apache Thrift
+  - Avro
+  - CloudWeGo
+  - Dubbo
+  - go-zero
+  - gRPC
+  - kratos
+  - SOFARPC
+  - SRPC
+  - TARS
+  Scheduling & Orchestration:
+  - Amazon Elastic Container Service (ECS)
+  - Apache Mesos
+  - Azure Service Fabric
+  - Capsule
+  - Clusternet
+  - Clusterpedia
+  - Crossplane
+  - Docker Swarm
+  - Fluid
+  - iSSCloud
+  - Karmada
+  - Koordinator
+  - kube-rs
+  - Kubernetes
+  - Nomad
+  - Open Cluster Management
+  - OpenNebula
+  - Volcano
+  - wasmCloud
+  Service Mesh:
+  - Aeraki Mesh
+  - AWS App Mesh
+  - Consul
+  - EaseMesh
+  - Glasnostic
+  - Gloo Mesh
+  - greymatter.io
+  - Istio
+  - Kuma
+  - Linkerd
+  - Merbridge
+  - Meshery
+  - Open Service Mesh
+  - Service Mesh Interface (SMI)
+  - Service Mesh Performance
+  - Slime
+  - Traefik Mesh
+  Service Proxy:
+  - Avi Networks
+  - BFE
+  - Caddy
+  - Citrix ADC (formerly NetScaler ADC)
+  - Contour
+  - Envoy
+  - F5
+  - Gimbal
+  - HAProxy
+  - Inlets
+  - MetalLB
+  - MOSN
+  - Netflix Zuul
+  - NGINX
+  - OpenELB
+  - OpenResty
+  - Sangfor CNAD
+  - Skipper
+  - Snapt Nova
+  - Tengine
+  - Traefik
+Platform:
+  Certified Kubernetes - Distribution:
+  - Accordion
+  - AgoraKube
+  - AIStation
+  - Alauda Container Platform (ACP)
+  - AlviStack Ansible Collection for Kubernetes
+  - Amazon Elastic Kubernetes Service Distro (Amazon EKS-D)
+  - ASUS Cloud Infra
+  - Azure (AKS) Engine
+  - BizKube
+  - BoCloud BeyondContainer
+  - Canonical Charmed Kubernetes
+  - CARS TaiChu
+  - China Mobile CMIT PaaS
+  - China-ASEAN Information Harbor Container Cloud
+  - Cisco Intersight Kubernetes Service
+  - Cloudboostr
+  - Cocktail Cloud
+  - Constellation
+  - D2iQ Konvoy
+  - DaoCloud Enterprise
+  - Desktop Kubernetes
+  - Diamanti Spektra
+  - EasyStack Kubernetes Service (EKS)
+  - Elastisys Compliant Kubernetes
+  - Ericsson Cloud Container Distribution
+  - Flant Deckhouse
+  - Flexkube
+  - Fury Distribution
+  - Giant Swarm Managed Kubernetes
+  - H3C CloudOS
+  - HarmonyCloud Container Platform
+  - Inspur AIStation Training Platform
+  - Intel Smart Edge Open
+  - JD.com JDOS
+  - k0s
+  - k3s
+  - K8splus
+  - KubeCube
+  - Kubermatic Kubernetes Platform
+  - Kubesphere
+  - Kubic
+  - Kublr
+  - kURL
+  - MetalK8s
+  - MicroK8s
+  - Netease Qingzhou Microservice
+  - Oracle Cloud Native Environment
+  - Palette
+  - Platform9 Managed Kubernetes
+  - Rancher Kubernetes
+  - Red Hat OpenShift
+  - RKE Government
+  - Robin CNP
+  - TenxCloud Container Enterprise
+  - TmaxA&C HyperCloud
+  - Typhoon
+  - vcluster
+  - VMware Tanzu Community Edition
+  - VMware Tanzu Kubernetes Grid
+  - VMware Tanzu Kubernetes Grid Integrated Edition
+  - Whitestack WhiteMist
+  - Wind River Studio Cloud Platform
+  - Wise2C Technology WiseCloud
+  Certified Kubernetes - Hosted:
+  - Alibaba Cloud Container Service for Kubernetes
+  - Amazon Elastic Container Service for Kubernetes (EKS)
+  - Azure Kubernetes Service (AKS)
+  - Baidu Cloud Container Engine
+  - Bizmicro
+  - Catalyst Kubernetes Service
+  - China Mobile KCS
+  - Chinaunicom Kubernetes Engine
+  - Civo Kubernetes
+  - CloudLink
+  - Conoa Proact Managed Container Platform
+  - DigitalOcean Kubernetes
+  - eBaoCloud
+  - ELASTX Private Kubernetes
+  - Exoscale
+  - FUJITSU Hybrid IT Service Digital Application Platform Kubernetes Service Hatoba
+  - German Edge Cloud Kubernetes Services (GKS)
+  - Google Kubernetes Engine (GKE)
+  - Huawei Cloud Container Engine (CCE)
+  - IBM Cloud Kubernetes Service
+  - InCloud OS
+  - Inspur Cloud Container Engine and Inspur Open Platform
+  - Inspur Open Platform for ARM
+  - InsureMO
+  - IXcloud Kubernetes Service
+  - JD Cloud JCS for Kubernetes
+  - "KubeSphere\xAE\uFE0F (QKE)"
+  - Linode Kubernetes Engine
+  - Mail.Ru Cloud Containers
+  - Microsoft AKS Engine for Azure Stack
+  - Nexastack Managed Kubernetes
+  - NHN Kubernetes Service (NKS)
+  - NIFCLOUD Kubernetes Service Hatoba
+  - Nirmata Managed Kubernetes
+  - Nutanix Karbon
+  - Oracle Container Engine
+  - Orka
+  - OVH Managed Kubernetes Service
+  - Rafay
+  - Red Hat OpenShift Dedicated
+  - Red Hat OpenShift on IBM Cloud
+  - Ridge Kubernetes Service
+  - Samsung Cloud Platform - SCP Kubernetes Engine (SKE)
+  - SAP Certified Gardener
+  - Scaleway Kubernetes Kapsule
+  - STACKIT Kubernetes Engine
+  - Taikun
+  - Tencent Kubernetes Engine (TKE)
+  - Vultr Kubernetes Engine
+  - ZTE TECS OpenPalette
+  Certified Kubernetes - Installer:
+  - AlviStack Vagrant Box Packaging for Kubernetes
+  - Amazon Elastic Kubernetes Service Anywhere (Amazon EKS Anywhere)
+  - Crane
+  - Cybozu Kubernetes Engine
+  - Gardener
+  - Harmonycloud PaaS Container Platform Install
+  - kOps
+  - Kubeasz
+  - Kubekey
+  - KubeOperator
+  - Kubermatic KubeOne
+  - Kubernetes - The Easier Way
+  - Kubespray
+  - Magnum
+  - minikube
+  - OpenNebula Kubernetes Engine
+  - puppetlabs-kubernetes
+  - Rancher Kubernetes Engine (RKE)
+  - Symplegma
+  - Talos
+  - Weave GitOps Enterprise
+  - Wise2C Technology Breeze
+  PaaS/Container Service:
+  - Akka
+  - Atomist
+  - Clever Cloud
+  - Cloud Foundry Application Runtime
+  - Heroku
+  - JHipster
+  - No Code
+  - Otomi
+  - PaaSTA
+  - Platform.sh
+  - Portainer
+  - Rio
+  - Scalingo
+  - Sogou C++ Workflow
+  - Tetrate Service Bridge(TSB)
+  - Tsuru
+  - YellowDog
+Provisioning:
+  Automation & Configuration:
+  - Airship
+  - Akri
+  - Ansible
+  - Apollo
+  - AWS CloudFormation
+  - BOSH
+  - Cadence Workflow
+  - CDK for Kubernetes (CDK8s)
+  - CFEngine
+  - Chef Infra
+  - Cloud Custodian
+  - Cloudify
+  - Couler
+  - DevStream
+  - Digital Rebar
+  - Foreman
+  - Juju
+  - kiosk
+  - KubeDL
+  - KubeEdge
+  - Kubefirst
+  - LinuxKit
+  - MAAS
+  - ManageIQ
+  - Metal3-io
+  - Mist.io
+  - OpenStack
+  - OpenYurt
+  - Pulumi
+  - Puppet
+  - Rundeck
+  - SaltStack
+  - StackStorm
+  - SuperEdge
+  - Terraform
+  - Tinkerbell
+  - VMware vSphere
+  Container Registry:
+  - Alibaba Cloud Container Registry (ACR)
+  - Amazon Elastic Container Registry (ECR)
+  - Azure Registry
+  - Distribution
+  - Dragonfly
+  - Google Container Registry
+  - Harbor
+  - IBM Cloud Container Registry
+  - JFrog Artifactory
+  - Kraken
+  - Portus
+  - Quay
+  Key Management:
+  - Athenz
+  - Authing
+  - CyberArk Conjur
+  - Keycloak
+  - OAuth2 Proxy
+  - ORY Hydra
+  - Pinniped
+  - Pomerium
+  - SPIFFE
+  - SPIRE
+  - Square Keywhiz
+  - sso
+  - Teleport
+  - Teller
+  - Vault
+  Security & Compliance:
+  - Airlock
+  - Alcide
+  - Anchore
+  - Apolicy
+  - Aqua
+  - Armo
+  - Black Duck
+  - Bloombase
+  - Capsule8
+  - Cerbos
+  - cert-manager
+  - Check Point
+  - Checkov
+  - Chef InSpec
+  - Clair
+  - CloudMatos
+  - Confidential Containers
+  - Curiefense
+  - Datica
+  - Datree
+  - Dex
+  - Dosec
+  - external-secrets
+  - Fairwinds Insights
+  - Falco
+  - FOSSA
+  - FOSSID
+  - Fugue
+  - Goldilocks
+  - Grafeas
+  - in-toto
+  - Keylime
+  - KICS
+  - kube-bench
+  - kube-hunter
+  - KubeArmor
+  - Kyverno
+  - Mondoo
+  - NeuVector
+  - Nirmata Cloud Native Policy Manager
+  - Notary
+  - Open Policy Agent (OPA)
+  - OpenSCAP
+  - Orca Security
+  - Oxeye
+  - Paladin Cloud
+  - Parsec
+  - Passage
+  - Pluto
+  - Polaris
+  - Portshift
+  - Prisma Cloud
+  - Qingteng
+  - RBAC Lookup
+  - RBAC Manager
+  - Rudder
+  - sigstore
+  - Snyk
+  - Sonatype Nexus
+  - Sonobuoy
+  - Spyderbat
+  - StackHawk
+  - StackRox
+  - Starboard
+  - Sysdig Secure
+  - Tensor Security
+  - Terrascan
+  - Tetragon
+  - The Update Framework (TUF)
+  - ThreatMapper
+  - Tigera
+  - Trend Micro Cloud One
+  - Trivy
+  - WhiteSource
+  - Zettaset
+Runtime:
+  Cloud Native Network:
+  - Antrea
+  - Aviatrix
+  - Cilium
+  - CNI-Genie
+  - Container Network Interface (CNI)
+  - Cumulus
+  - DANM
+  - FabEdge
+  - FD.io
+  - Flannel
+  - Guardicore Centra
+  - Isovalent
+  - Kilo
+  - Kube-OVN
+  - Kube-router
+  - Ligato
+  - Multus
+  - Network Service Mesh
+  - Nuage Networks
+  - Open vSwitch
+  - Project Calico
+  - Submariner
+  - Tungsten Fabric
+  - VMware NSX
+  - Weave Net
+  Cloud Native Storage:
+  - Alibaba Cloud File Storage
+  - Alibaba Cloud File Storage CPFS
+  - Alluxio
+  - Amazon Elastic Block Store (EBS)
+  - Arrikto
+  - Azure Disk Storage
+  - Carina
+  - Ceph
+  - CloudCasa by Catalogic Software
+  - Commvault
+  - Container Storage Interface (CSI)
+  - CubeFS
+  - Curve
+  - DataCore Bolt
+  - Datera
+  - Dell EMC
+  - Diamanti
+  - DriveScale
+  - Gluster
+  - Google Persistent Disk
+  - Hitachi
+  - HPE Storage
+  - Huawei
+  - IBM Storage
+  - INFINIDAT
+  - Inspur Storage
+  - IOMesh
+  - Ionir
+  - JuiceFS
+  - K8up
+  - Kasten
+  - LINSTOR
+  - Longhorn
+  - MinIO
+  - MooseFS
+  - NetApp
+  - Nutanix Objects
+  - Ondat
+  - OpenEBS
+  - OpenIO
+  - ORAS
+  - Pengyun Network
+  - Piraeus Datastore
+  - Portworx
+  - Pure Storage
+  - QingStor
+  - Qumulo
+  - Quobyte
+  - Robin Systems
+  - Rook
+  - SandStone
+  - Sangfor EDS
+  - ScaleFlash
+  - Scality RING
+  - Soda Foundation
+  - Stash by AppsCode
+  - StorPool
+  - Swift
+  - Trilio
+  - Triton Object Storage
+  - Velero
+  - Vineyard
+  - XSKY
+  - YRCloudFile
+  - Zenko
+  Container Runtime:
+  - containerd
+  - CRI-O
+  - Firecracker
+  - gVisor
+  - Inclavare Containers
+  - Kata Containers
+  - lxd
+  - rkt
+  - runc
+  - Singularity
+  - SmartOS
+  - Sysbox
+  - WasmEdge Runtime
+Serverless:
+  Framework:
+  - Architect
+  - AWS Server Application Model (SAM)
+  - Chalice
+  - Dapr
+  - EventMesh
+  - Flogo
+  - Layotto
+  - Midway Serverless
+  - Nitric
+  - Serverless
+  - Serverless Stack
+  - Sparta
+  - Spring Cloud Function
+  - Stateful Functions
+  - Webiny
+  Hosted Platform:
+  - Algorithmia
+  - Alibaba Cloud Function Compute
+  - Alibaba Cloud Serverless App Engine
+  - AWS Lambda
+  - Azure Functions
+  - Baidu Cloud Function Compute
+  - Cloudflare Workers
+  - Google Cloud Functions
+  - Huawei FunctionStage
+  - IBM Cloud Code Engine
+  - IBM Cloud Functions
+  - Koyeb
+  - Netlify Functions
+  - Nimbella
+  - Nuweba
+  - Oracle Functions
+  - PubNub Functions
+  - Second State Functions
+  - Standard Library
+  - Tencent Cloud Serverless Cloud Function
+  - Twilio Functions
+  - Vercel
+  Installable Platform:
+  - Apache Camel K
+  - Apache OpenWhisk
+  - AppScale
+  - Fission
+  - Keda
+  - Knative
+  - Knix
+  - Krustlet
+  - Kubeless
+  - Kyma
+  - Nuclio
+  - OpenFaaS
+  - OpenFunction
+  - PipelineAI
+  - Riff
+  - Virtual Kubelet
+  Security:
+  - Prisma Cloud by Palo Alto Networks
+  - Protego
+  - Threat Stack
+  Tools:
+  - Cloud Native Landscape
+  - Dashbird
+  - Hasura GraphQL Engine
+  - Lumigo
+  - Node Lambda
+  - SCAR
+  - Serverless Devs
+  - Sigma
+  - Stackery
+  - Thundra
+Special:
+  Certified CNFs:
+  - MATRIXX Digital Commerce
+  Kubernetes Certified Service Provider:
+  - 3-Shake (KCSP)
+  - 3K Technologies (KCSP)
+  - 99Cloud (KCSP)
+  - ACC ICT (KCSP)
+  - acend (KCSP)
+  - Acornsoft (KCSP)
+  - Adfolks (KCSP)
+  - Alauda (KCSP)
+  - Alerant (KCSP)
+  - Alibaba Cloud (KCSP)
+  - Alter Way (KCSP)
+  - Altoros (KCSP)
+  - amazee.io (KCSP)
+  - Ambient IT (KCSP)
+  - Anchnet (KCSP)
+  - Andes Digital (KCSP)
+  - Appddiction Studio (KCSP)
+  - Appstellar (KCSP)
+  - Appvia (KCSP)
+  - Aqua Security (KCSP)
+  - ArcherOS (KCSP)
+  - Arm Treasure Data (KCSP)
+  - AsiaInfo (KCSP)
+  - Aspen Mesh (KCSP)
+  - ATIX (KCSP)
+  - Automat-IT (KCSP)
+  - b-nova (KCSP)
+  - B1 Systems (KCSP)
+  - Baidu (KCSP)
+  - Banzai Cloud (KCSP)
+  - BC Cloud (KCSP)
+  - BeOpenIT (KCSP)
+  - BESSYSTEM - Beijing Baolande Software Corporation (KCSP)
+  - Blue Sentry (KCSP)
+  - BoCloud (KCSP)
+  - Boer Technology (KCSP)
+  - Booz Allen Hamilton (KCSP)
+  - BoxBoat (KCSP)
+  - Brobridge (KCSP)
+  - Camptocamp (KCSP)
+  - Canonical (KCSP)
+  - CARS - China Academy of Railway Sciences (KCSP)
+  - Catalyst Cloud (KCSP)
+  - Caylent (KCSP)
+  - CENGN (KCSP)
+  - China Mobile (KCSP)
+  - China Systems (KCSP)
+  - China-ASEAN Information Harbor (KCSP)
+  - CINQ (KCSP)
+  - Cisel Informatique (KCSP)
+  - Claion (KCSP)
+  - Cloud Kinetics (KCSP)
+  - CloudCover (KCSP)
+  - Cloudical (KCSP)
+  - CloudIQ (KCSP)
+  - CloudOps (KCSP)
+  - Cloudreach (KCSP)
+  - Cloudside (KCSP)
+  - CloudYuga (KCSP)
+  - CloudZone (KCSP)
+  - Component Soft (KCSP)
+  - Conoa (KCSP)
+  - Container Solutions (KCSP)
+  - Contino (KCSP)
+  - ControlPlane (KCSP)
+  - Core 24/7 (KCSP)
+  - CoreHive Computing (KCSP)
+  - Creationline (KCSP)
+  - Cuegee (KCSP)
+  - Cuemby (KCSP)
+  - D2iQ (KCSP)
+  - Daekyo CNS (KCSP)
+  - Dalian Hi-Think (KCSP)
+  - DaoCloud (KCSP)
+  - Data Essential (KCSP)
+  - DataCore (KCSP)
+  - Datadrivers (KCSP)
+  - Deepshore (KCSP)
+  - Dell Technologies Consulting (KCSP)
+  - Deloitte (KCSP)
+  - Desotech (KCSP)
+  - DevSamurai (KCSP)
+  - DevsOperative (KCSP)
+  - DGi (KCSP)
+  - Diamanti (KCSP)
+  - Didim365 (KCSP)
+  - Digitalis.io (KCSP)
+  - Dito (KCSP)
+  - DoiT International (KCSP)
+  - EasyStack (KCSP)
+  - EDB (KCSP)
+  - Eficode (KCSP)
+  - Elastisys (KCSP)
+  - ELASTX (KCSP)
+  - EngineerBetter (KCSP)
+  - Entigo (KCSP)
+  - Fairwinds (KCSP)
+  - FIT2CLOUD (KCSP)
+  - Flanksource (KCSP)
+  - Flant (KCSP)
+  - Fournine Cloud Solutions (KCSP)
+  - Fujitsu (KCSP)
+  - Fullstaq (KCSP)
+  - Gaia (KCSP)
+  - Gemini Open Cloud (KCSP)
+  - Giant Swarm (KCSP)
+  - GitLab (KCSP)
+  - Grape Up (KCSP)
+  - Guida (KCSP)
+  - H3C Technologies (KCSP)
+  - HarmonyCloud (KCSP)
+  - HCL Technologies (KCSP)
+  - HPE (KCSP)
+  - Huawei (KCSP)
+  - IBM Cloud (KCSP)
+  - IITS Consulting (KCSP)
+  - InfraCloud Technologies (KCSP)
+  - Innablr (KCSP)
+  - Innogrid (KCSP)
+  - inovex (KCSP)
+  - Inspur (KCSP)
+  - Intuitive Technology Partners (KCSP)
+  - inwinSTACK (KCSP)
+  - iSoftStone (KCSP)
+  - JD Cloud (KCSP)
+  - Jetstack (KCSP)
+  - KBSYS (KCSP)
+  - Kingsoft Cloud (KCSP)
+  - KINX (KCSP)
+  - Kiratech (KCSP)
+  - kloia (KCSP)
+  - KodeKloud (KCSP)
+  - kt NexR (KCSP)
+  - KubeOps (KCSP)
+  - Kubermatic (KCSP)
+  - Kublr (KCSP)
+  - Kumina (KCSP)
+  - Linklogis (KCSP)
+  - Liquid Reply (KCSP)
+  - LSD Open (KCSP)
+  - LTI (KCSP)
+  - MakinaRocks (KCSP)
+  - Mandao Fintech (KCSP)
+  - ManTech (KCSP)
+  - Mia-Platform (KCSP)
+  - MiaoYun (KCSP)
+  - Microsoft (KCSP)
+  - Mirantis (KCSP)
+  - Mobilise Cloud Services (KCSP)
+  - MSys Technologies (KCSP)
+  - N3NCLOUD (KCSP)
+  - Namutech (KCSP)
+  - Navitas Business Consulting (KCSP)
+  - NEC (KCSP)
+  - NetApp (KCSP)
+  - Netease (KCSP)
+  - Nirmata (KCSP)
+  - noris network (KCSP)
+  - NTT DATA (KCSP)
+  - OBSS (KCSP)
+  - Occentus (KCSP)
+  - Octo Consulting (KCSP)
+  - OCTO Technology (KCSP)
+  - OGIS-RI (KCSP)
+  - Open Source Consulting (KCSP)
+  - Origoss Solutions (KCSP)
+  - Oteemo (KCSP)
+  - OVHcloud (KCSP)
+  - Ozone (KCSP)
+  - Particule (KCSP)
+  - Platform9 (KCSP)
+  - Polar Squad (KCSP)
+  - Portworx (KCSP)
+  - Prisma Cloud by Palo Alto Networks (KCSP)
+  - PRODYNA (KCSP)
+  - Profisea (KCSP)
+  - Puzzle ITC (KCSP)
+  - QingCloud (KCSP)
+  - Rackner (KCSP)
+  - Rafay (KCSP)
+  - Raft (KCSP)
+  - Rancher (KCSP)
+  - Red Kubes (KCSP)
+  - Redeploy (KCSP)
+  - Replex (KCSP)
+  - RNG Technology (KCSP)
+  - RX-M (KCSP)
+  - SAIC (KCSP)
+  - saltware (KCSP)
+  - Samsung SDS (KCSP)
+  - SAP (KCSP)
+  - servicememe (KCSP)
+  - Services4-IT (KCSP)
+  - Shinesoft (KCSP)
+  - SIGHUP (KCSP)
+  - Skyloud (KCSP)
+  - Smartiful (KCSP)
+  - Softax (KCSP)
+  - SoKube (KCSP)
+  - SparkFabrik (KCSP)
+  - Spectro Cloud (KCSP)
+  - stackgenie (KCSP)
+  - Stark & Wayne (KCSP)
+  - Steamhaus (KCSP)
+  - Storm Reply (KCSP)
+  - StormForge (KCSP)
+  - Stratox (KCSP)
+  - Successive Technologies (KCSP)
+  - Sup-info Information Technology (KCSP)
+  - SuperOrbital (KCSP)
+  - SVA (KCSP)
+  - Swisscom Kubernetes Service (KCSP)
+  - Sysdig (KCSP)
+  - SysEleven (KCSP)
+  - Teleport (KCSP)
+  - Tencent Cloud (KCSP)
+  - TenxCloud (KCSP)
+  - TeraSky (KCSP)
+  - teutoStack (KCSP)
+  - The Scale Factory (KCSP)
+  - Tidu (KCSP)
+  - TL Consulting Group (KCSP)
+  - TraceRoute42 (KCSP)
+  - Translucent Computing (KCSP)
+  - Transwarp (KCSP)
+  - True (KCSP)
+  - TYNYBAY (KCSP)
+  - UMB (KCSP)
+  - Uniserver (KCSP)
+  - VA Linux Systems Japan (KCSP)
+  - Ventus Cloud (KCSP)
+  - VMware (KCSP)
+  - Volcano Engine (KCSP)
+  - VSHN AG (KCSP)
+  - Weaveworks (KCSP)
+  - WeScale (KCSP)
+  - WhaTap (KCSP)
+  - WhizUs (KCSP)
+  - Wise2C (KCSP)
+  - WoCloud (KCSP)
+  - WOQU Tech (KCSP)
+  - WSO2 (KCSP)
+  - x-cellent (KCSP)
+  - Xenit (KCSP)
+  - XenonStack (KCSP)
+  - YLD (KCSP)
+  - Zoi (KCSP)
+  - ZTE (KCSP)
+  Kubernetes Training Partner:
+  - 99Cloud (KTP)
+  - acend (KTP)
+  - Acornsoft (KTP)
+  - Alauda (KTP)
+  - Alter Way (KTP)
+  - Altoros (KTP)
+  - Appddiction Studio (KTP)
+  - ATIX (KTP)
+  - BeOpenIT (KTP)
+  - BoCloud (KTP)
+  - Boer Technology (KTP)
+  - BoxBoat (KTP)
+  - Camptocamp (KTP)
+  - CARS - China Academy of Railway Sciences (KTP)
+  - CINQ (KTP)
+  - CloudIQ (KTP)
+  - CloudOps (KTP)
+  - CloudYuga (KTP)
+  - Component Soft (KTP)
+  - Conoa (KTP)
+  - Container Solutions (KTP)
+  - ControlPlane (KTP)
+  - Creationline (KTP)
+  - Cuemby (KTP)
+  - D2iQ (KTP)
+  - DaoCloud (KTP)
+  - Desotech (KTP)
+  - DoiT International (KTP)
+  - EasyStack (KTP)
+  - Eficode (KTP)
+  - Elastisys (KTP)
+  - Entigo (KTP)
+  - Fullstaq (KTP)
+  - Gaia (KTP)
+  - HarmonyCloud (KTP)
+  - HPE (KTP)
+  - Huawei (KTP)
+  - inovex (KTP)
+  - INSPUR (KTP)
+  - inwinSTACK (KTP)
+  - Kiratech (KTP)
+  - KodeKloud (KTP)
+  - KubeOps (KTP)
+  - Kubermatic (KTP)
+  - Liquid Reply (KTP)
+  - Mirantis (KTP)
+  - Oteemo (KTP)
+  - Particule (KTP)
+  - Polar Squad (KTP)
+  - PRODYNA (KTP)
+  - RX-M (KTP)
+  - servicememe (KTP)
+  - Shinesoft (KTP)
+  - SIGHUP (KTP)
+  - SoKube (KTP)
+  - Storm Reply (KTP)
+  - SuperOrbital (KTP)
+  - TenxCloud (KTP)
+  - The Linux Foundation Training (KTP)
+  - Volcano Engine (KTP)
+  - WhizUs (KTP)
+  - x-cellent (KTP)
+Wasm:
+  Debugging and Observability:
+  - DWARF
+  Installable Platform:
+  - Atmo
+  - hippo
+  - krustlet
+  Packaging, Registries & Application Delivery:
+  - OCI
+  - wapm
+  Runtime:
+  - crunw
+  - V8
+  - wamr
+  - wasm3
+  - WasmEdge
+  - Wasmer
+  - wasmi
+  - wasmtime
+  - WAVM
+  Specifications:
+  - ewasm
+  - WASI
+  - wasi-nn
+  - Wasm
+  Toolchain:
+  - emscripten
+  - llvm
+  - solang
+  - Subo CLI
+  - WaPC
+  - wasm-pack

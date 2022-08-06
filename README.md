@@ -7,3 +7,8 @@ It might be easier if you'd get to know the full Landscape over a year by lookin
 This repo contains a bot that parse the [landscape.yml](https://github.com/cncf/landscape/blob/master/landscape.yml) in the [cncf/landscape]() repository and sends recommendations every two weeks.
 
 
+##
+
+* App definition and developement
+* Observability and Analysis
+* Orchestartion and Ma
