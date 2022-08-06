@@ -1,0 +1,743 @@
+App Definition and Development:
+  Application Definition & Image Build:
+  - crunchbase: https://www.crunchbase.com/organization/vmware
+    homepage_url: https://github.com/vmware-tanzu/octant
+    item: null
+    logo: octant.svg
+    name: Octant
+    repo_url: https://github.com/vmware-tanzu/octant
+    twitter: https://twitter.com/projectoctant
+  - crunchbase: https://www.crunchbase.com/organization/okteto
+    homepage_url: https://okteto.com/
+    item: null
+    logo: okteto.svg
+    name: Okteto
+    repo_url: https://github.com/okteto/okteto
+  - crunchbase: https://www.crunchbase.com/organization/unscramble
+    description: On-Prem provides an easy way to build on-premises virtual appliances
+      designed for enterprise deployments. The On-Prem Meta appliance manages the
+      appliance build lifecycle, and can be paired with continous integration systems.
+    homepage_url: https://on-premises.com/
+    item: null
+    logo: on-prem.svg
+    name: On-Prem
+  - crunchbase: https://www.crunchbase.com/organization/microsoft
+    homepage_url: https://oam.dev/
+    item: null
+    logo: oam.svg
+    name: Open Application Model
+    repo_url: https://github.com/oam-dev/spec
+    twitter: https://twitter.com/oam_dev
+  - crunchbase: https://www.crunchbase.com/organization/cloud-foundry
+    homepage_url: https://www.openservicebrokerapi.org/
+    item: null
+    logo: openservicebrokerapi.svg
+    name: Open Service Broker API
+    repo_url: https://github.com/openservicebrokerapi/servicebroker
+  - crunchbase: https://www.crunchbase.com/organization/the-open-api-initiative
+    homepage_url: https://www.openapis.org/
+    item: null
+    logo: openapi.svg
+    name: OpenAPI
+    repo_url: https://github.com/OAI/OpenAPI-Specification
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      accepted: '2020-07-09'
+      dev_stats_url: https://operatorframework.devstats.cncf.io/
+      youtube_url: https://www.youtube.com/channel/UCxRfXpCVxnotoSGxEpB1hwA
+    homepage_url: https://www.redhat.com/en/technologies/cloud-computing/openshift/what-are-openshift-operators
+    item: null
+    logo: operator-framework.svg
+    name: Operator Framework
+    project: incubating
+    repo_url: https://github.com/operator-framework/operator-sdk
+  Continuous Integration & Delivery:
+  - crunchbase: https://www.crunchbase.com/organization/octopus-deploy
+    homepage_url: https://octopus.com/
+    item: null
+    logo: octopus-deploy.svg
+    name: Octopus Deploy
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    description: Standardizing Feature Flagging for Everyone
+    extra:
+      accepted: '2022-06-14'
+      dev_stats_url: https://openfeature.devstats.cncf.io/
+      youtube_url: https://www.youtube.com/channel/UCHMn9HyAMeb81bRlaOuZyuQ
+    homepage_url: https://openfeature.dev/
+    item: null
+    logo: openfeature.svg
+    name: OpenFeature
+    project: sandbox
+    repo_url: https://github.com/open-feature/community
+    twitter: https://twitter.com/openfeature
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    homepage_url: https://opengitops.dev/
+    item: null
+    logo: opengitops.svg
+    name: OpenGitOps
+    project: sandbox
+    repo_url: https://github.com/open-gitops/project
+    twitter: https://twitter.com/opengitops
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    homepage_url: https://openkruise.io/en-us/
+    item: null
+    logo: OpenKruise.svg
+    name: OpenKruise
+    project: sandbox
+    repo_url: https://github.com/openkruise/kruise
+  - crunchbase: https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf
+    homepage_url: https://ortelius.io/
+    item: null
+    logo: ortelius.svg
+    name: Ortelius
+    repo_url: https://github.com/ortelius/ortelius
+    twitter: https://twitter.com/OrteliusOs
+  - crunchbase: https://www.crunchbase.com/organization/ozone-cd
+    homepage_url: https://www.ozone.one/
+    item: null
+    logo: ozone.svg
+    name: Ozone
+  Database:
+  - crunchbase: https://www.crunchbase.com/organization/oracle
+    description: "The industry\u2019s leading database continues to deliver leading-edge\
+      \ innovations, including machine learning, to enable self-driving data management."
+    homepage_url: https://www.oracle.com/database/
+    item: null
+    logo: oracle.svg
+    name: Oracle Database
+  - crunchbase: https://www.crunchbase.com/organization/sap
+    homepage_url: https://orientdb.com/why-orientdb/
+    item: null
+    logo: orient-db.svg
+    name: OrientDB
+    repo_url: https://github.com/orientechnologies/orientdb
+    twitter: https://twitter.com/OrientDB
+  Streaming & Messaging:
+  - crunchbase: https://www.crunchbase.com/organization/linux-foundation
+    description: Cloud-oriented, simple, flexible, vendor-neutral and language-independent
+      standards for messaging
+    homepage_url: https://openmessaging.cloud
+    item: null
+    logo: openmessaging.svg
+    name: OpenMessaging
+    repo_url: https://github.com/openmessaging/openmessaging-java
+    twitter: https://twitter.com/Open_Messaging
+CNCF Members:
+  Academic: []
+  End User Supporter:
+  - crunchbase: https://www.crunchbase.com/organization/bidpal-network
+    homepage_url: https://www.onecause.com/
+    item: null
+    logo: onecause.svg
+    name: OneCause (supporter)
+  Gold:
+  - crunchbase: https://www.crunchbase.com/organization/oppo
+    homepage_url: https://www.oppo.com/
+    item: null
+    logo: oppo.svg
+    name: OPPO (member)
+  Nonprofit:
+  - crunchbase: https://www.crunchbase.com/organization/open-compute-project-foundation
+    homepage_url: https://www.opencompute.org/
+    item: null
+    logo: open-compute.svg
+    name: Open Compute Project (member)
+  Platinum:
+  - crunchbase: https://www.crunchbase.com/organization/oracle
+    homepage_url: https://www.oracle.com/index.html
+    item: null
+    logo: oracle.svg
+    name: Oracle (member)
+    twitter: https://twitter.com/oraclecloud
+  Silver:
+  - crunchbase: https://www.crunchbase.com/organization/obss
+    homepage_url: https://obss.com.tr/tr
+    item: null
+    logo: obss.svg
+    name: OBSS (member)
+  - crunchbase: https://www.crunchbase.com/organization/occentus-network
+    homepage_url: https://www.occentus.net/
+    item: null
+    logo: occentus.svg
+    name: Occentus (member)
+  - crunchbase: https://www.crunchbase.com/organization/octo-consulting-group
+    homepage_url: https://www.octo.us
+    item: null
+    logo: octo-consulting.svg
+    name: Octo Consulting (member)
+  - crunchbase: https://www.crunchbase.com/organization/octo-technology
+    homepage_url: https://www.octo.com
+    item: null
+    logo: octo-technology-member.svg
+    name: OCTO Technology (member)
+  - crunchbase: https://www.crunchbase.com/organization/ogis-ri
+    homepage_url: https://www.ogis-ri.co.jp
+    item: null
+    logo: ogis-ri.svg
+    name: OGIS-RI (member)
+  - crunchbase: https://www.crunchbase.com/organization/okteto
+    homepage_url: https://www.okteto.com/
+    item: null
+    logo: okteto.svg
+    name: Okteto (member)
+  - crunchbase: https://www.crunchbase.com/organization/ondat
+    homepage_url: https://www.ondat.io
+    item: null
+    logo: ondat.svg
+    name: Ondat (member)
+  - crunchbase: https://www.crunchbase.com/organization/ongres
+    homepage_url: https://www.ongres.com/
+    item: null
+    logo: ongres.svg
+    name: OnGres (member)
+  - crunchbase: https://www.crunchbase.com/organization/open-raven
+    homepage_url: https://www.openraven.com/
+    item: null
+    logo: open-raven.svg
+    name: Open Raven (member)
+  - crunchbase: https://www.crunchbase.com/organization/open-source-consulting
+    homepage_url: https://www.osci.kr/main.php
+    item: null
+    logo: open-source-consulting.svg
+    name: Open Source Consulting (member)
+  - crunchbase: https://www.crunchbase.com/organization/opennebula
+    homepage_url: https://opennebula.io/
+    item: null
+    logo: opennebula.svg
+    name: OpenNebula (member)
+  - crunchbase: https://www.crunchbase.com/organization/opscruise
+    homepage_url: https://www.opscruise.com/
+    item: null
+    logo: opscruise.svg
+    name: OpsCruise (member)
+  - crunchbase: https://www.crunchbase.com/organization/opsera
+    homepage_url: https://www.opsera.io/
+    item: null
+    logo: opsera.svg
+    name: Opsera (member)
+  - crunchbase: https://www.crunchbase.com/organization/opslevel
+    homepage_url: http://www.opslevel.com/
+    item: null
+    logo: opslevel.svg
+    name: OpsLevel (member)
+  - crunchbase: https://www.crunchbase.com/organization/opsmx
+    homepage_url: https://www.opsmx.com/
+    item: null
+    logo: opsmx.svg
+    name: OpsMx (member)
+  - crunchbase: https://www.crunchbase.com/organization/opsverse
+    homepage_url: https://www.opsverse.io/
+    item: null
+    logo: opsverse.svg
+    name: OpsVerse (member)
+  - crunchbase: https://www.crunchbase.com/organization/orange
+    homepage_url: https://www.orange.com/fr
+    item: null
+    logo: orange.svg
+    name: Orange (member)
+  - crunchbase: https://www.crunchbase.com/organization/orca-security
+    homepage_url: https://www.orca.security/
+    item: null
+    logo: orca-security.svg
+    name: Orca Security (member)
+  - crunchbase: https://www.crunchbase.com/organization/ori-8629
+    homepage_url: https://www.ori.co/
+    item: null
+    logo: ori.svg
+    name: Ori (member)
+  - crunchbase: https://www.crunchbase.com/organization/origoss-solutions-ltd
+    homepage_url: https://origoss.com
+    item: null
+    logo: origoss-solutions-member.svg
+    name: Origoss Solutions (member)
+  - crunchbase: https://www.crunchbase.com/organization/orkes
+    homepage_url: https://www.orkes.io/
+    item: null
+    logo: orkes.svg
+    name: Orkes (member)
+  - crunchbase: https://www.crunchbase.com/organization/oteemo
+    homepage_url: https://oteemo.com
+    item: null
+    logo: oteemo-member.svg
+    name: Oteemo (member)
+  - crunchbase: https://www.crunchbase.com/organization/ovh-com
+    homepage_url: https://us.ovhcloud.com/
+    item: null
+    logo: ovhcloud.svg
+    name: OVHcloud (member)
+  - crunchbase: https://www.crunchbase.com/organization/ovoo
+    homepage_url: https://ovoo.pl/
+    item: null
+    logo: ovoo.svg
+    name: Ovoo (member)
+  - crunchbase: https://www.crunchbase.com/organization/oxeye-security
+    homepage_url: https://www.oxeye.io/
+    item: null
+    logo: oxeye.svg
+    name: Oxeye (member)
+  - crunchbase: https://www.crunchbase.com/organization/ozone-cd
+    homepage_url: https://www.ozone.one/home
+    item: null
+    logo: ozone.svg
+    name: Ozone (member)
+Observability and Analysis:
+  Chaos Engineering: []
+  Continuous Optimization:
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    description: OpenCost provides visibility into current and historical Kubernetes
+      spend and resource allocation.
+    extra:
+      chat_channel: '#opencost'
+      slack_url: https://slack.cncf.io/
+    homepage_url: https://www.opencost.io/
+    item: null
+    logo: opencost.svg
+    name: OpenCost
+    project: sandbox
+    repo_url: https://github.com/kubecost/opencost
+  - crunchbase: https://www.crunchbase.com/organization/opsani
+    homepage_url: https://opsani.com/
+    item: null
+    logo: opsani.svg
+    name: Opsani
+  Logging:
+  - crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+    description: OpenSearch is a community-driven, Apache 2.0-licensed open source
+      search and analytics suite that makes it easy to ingest, search, visualize,
+      and analyze data.
+    extra:
+      blog_url: https://opensearch.org/blog/
+      youtube_url: https://www.youtube.com/c/OpenSearchProject
+    homepage_url: https://opensearch.org
+    item: null
+    logo: opensearch.svg
+    name: OpenSearch
+    open_source: true
+    repo_url: https://github.com/opensearch-project/opensearch
+    twitter: https://twitter.com/opensearchproj
+  Monitoring:
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      accepted: '2018-08-10'
+      artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#openmetrics-logos
+      dev_stats_url: https://openmetrics.devstats.cncf.io/
+      slack_url: https://cloud-native.slack.com/messages/openmetrics
+    homepage_url: https://openmetrics.io/
+    item: null
+    logo: openmetrics.svg
+    name: OpenMetrics
+    project: incubating
+    repo_url: https://github.com/OpenObservability/OpenMetrics
+    twitter: https://twitter.com/OpenMetricsIO
+  - branch: next
+    crunchbase: https://www.crunchbase.com/organization/open-tsbd
+    homepage_url: http://opentsdb.net/
+    item: null
+    logo: opentsdb.svg
+    name: OpenTSDB
+    repo_url: https://github.com/OpenTSDB/opentsdb
+    twitter: null
+  - crunchbase: https://www.crunchbase.com/organization/opstrace
+    description: Secure Open Source Observability Deployed in your own Network
+    homepage_url: https://www.opstrace.com/
+    item: null
+    logo: opstrace.svg
+    name: Opstrace
+    repo_url: https://github.com/opstrace/opstrace
+  - crunchbase: https://www.crunchbase.com/organization/overops
+    description: Prevent rapid code changes from impacting customers.
+    homepage_url: https://www.overops.com/
+    item: null
+    logo: overops.svg
+    name: OverOps
+  Tracing:
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      accepted: '2019-05-17'
+      artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#opentelemetry-logos
+      dev_stats_url: https://opentelemetry.devstats.cncf.io/
+      gitter_url: https://gitter.im/open-telemetry/community
+      slack_url: https://cloud-native.slack.com/messages/opentelemetry
+    homepage_url: https://opentelemetry.io/
+    item: null
+    logo: open-telemetry.svg
+    name: OpenTelemetry
+    project: incubating
+    repo_url: https://github.com/open-telemetry/community
+    twitter: https://twitter.com/opentelemetry
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      accepted: '2016-10-11'
+      artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#opentracing-logos
+      blog_url: https://medium.com/opentracing
+      dev_stats_url: https://opentracing.devstats.cncf.io/
+      gitter_url: https://gitter.im/opentracing/public
+      mailing_list_url: https://groups.google.com/forum/#!forum/opentracing
+      stack_overflow_url: https://stackoverflow.com/questions/tagged/opentracing
+    homepage_url: https://opentracing.io/
+    item: null
+    logo: open-tracing.svg
+    name: OpenTracing
+    project: archived
+    repo_url: https://github.com/opentracing/opentracing-go
+    twitter: https://twitter.com/opentracing
+Orchestration & Management:
+  API Gateway: []
+  Coordination & Service Discovery: []
+  Remote Procedure Call: []
+  Scheduling & Orchestration:
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      accepted: '2021-11-09'
+      artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#open-cluster-management-logos
+      mailing_list_url: https://groups.google.com/g/open-cluster-management
+      slack_url: https://kubernetes.slack.com/archives/C01GE7YSUUF
+      youtube_url: https://www.youtube.com/channel/UC7xxOh2jBM5Jfwt3fsBzOZw
+    homepage_url: https://open-cluster-management.io/
+    item: null
+    logo: open-cluster-management.svg
+    name: Open Cluster Management
+    project: sandbox
+    repo_url: https://github.com/open-cluster-management-io/ocm
+    twitter: https://twitter.com/ocm_io
+  - crunchbase: https://www.crunchbase.com/organization/opennebula
+    homepage_url: https://opennebula.io/
+    item: null
+    logo: open-nebula.svg
+    name: OpenNebula
+    repo_url: https://github.com/OpenNebula/one
+  Service Mesh:
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#open-service-mesh-logos
+      blog_url: https://openservicemesh.io/blog/
+      dev_stats_url: https://openservicemesh.devstats.cncf.io/
+      mailing_list_url: https://groups.google.com/g/openservicemesh
+      slack_url: https://cloud-native.slack.com/messages/openservicemesh
+    homepage_url: https://openservicemesh.io/
+    item: null
+    logo: open-service-mesh.svg
+    name: Open Service Mesh
+    project: sandbox
+    repo_url: https://github.com/openservicemesh/osm
+    twitter: https://twitter.com/openservicemesh
+  Service Proxy:
+  - crunchbase: https://www.crunchbase.com/organization/qingcloud
+    extra:
+      chat_channel: '#openelb'
+      slack_url: https://kubernetes.slack.com/messages/openelb
+    homepage_url: https://openelb.github.io
+    item: null
+    logo: openelb-io.svg
+    name: OpenELB
+    project: sandbox
+    repo_url: https://github.com/openelb/openelb
+    twitter: https://twitter.com/kubesphere
+  - crunchbase: https://www.crunchbase.com/organization/openresty
+    homepage_url: https://openresty.com/en/
+    item: null
+    logo: openresty.svg
+    name: OpenResty
+    repo_url: https://github.com/openresty/openresty
+Platform:
+  Certified Kubernetes - Distribution:
+  - crunchbase: https://www.crunchbase.com/organization/oracle
+    description: Oracle Cloud Native Environment is a fully integrated suite for the
+      development and management of cloud-native applications that uses Kubernetes
+      to orchestrate and schedule containers.
+    homepage_url: https://www.oracle.com/linux/cloud-native-environment/
+    item: null
+    logo: oracle.svg
+    name: Oracle Cloud Native Environment
+    twitter: https://twitter.com/oraclelinux
+  Certified Kubernetes - Hosted:
+  - crunchbase: https://www.crunchbase.com/organization/oracle
+    description: Next generation of container-native development. Container life cycle
+      made easy.
+    homepage_url: https://www.oracle.com/cloud-native/container-engine-kubernetes
+    item: null
+    logo: oracle.svg
+    name: Oracle Container Engine
+    twitter: https://twitter.com/oraclecloud
+  - crunchbase: https://www.crunchbase.com/organization/macstadium
+    description: Orka is a platform that allows Orchestatration via Kubernetes on
+      Apple.  It allows MacOS on genuine Apple hardware to be used in Kubernetes.
+    homepage_url: https://www.macstadium.com/orka
+    item: null
+    logo: orka.svg
+    name: Orka
+  - crunchbase: https://www.crunchbase.com/organization/ovh-com
+    description: Benefit from free HA managed Kubernetes service by hosting your nodes
+      and services on OVH Public Cloud.
+    homepage_url: https://www.ovhcloud.com/en-ie/public-cloud/kubernetes
+    item: null
+    logo: ovhcloud.svg
+    name: OVH Managed Kubernetes Service
+  Certified Kubernetes - Installer:
+  - crunchbase: https://www.crunchbase.com/organization/opennebula
+    description: Virtual Appliance for KVM with preinstalled Kubernetes service is
+      available from OpenNebula's Public Marketplace.
+    homepage_url: https://marketplace.opennebula.io/appliance/b5033eba-cd31-487e-892a-035cd70441ef
+    item: null
+    logo: opennebula.svg
+    name: OpenNebula Kubernetes Engine
+  PaaS/Container Service:
+  - crunchbase: https://www.crunchbase.com/organization/red-kubes
+    description: Kubernetes application configuration & automation platform
+    homepage_url: https://otomi.io
+    item: null
+    logo: otomi.svg
+    name: Otomi
+    repo_url: https://github.com/redkubes/otomi-core
+Provisioning:
+  Automation & Configuration:
+  - crunchbase: https://www.crunchbase.com/organization/open-infrastructure-foundation
+    homepage_url: https://www.openstack.org/
+    item: null
+    logo: open-stack.svg
+    name: OpenStack
+    repo_url: https://github.com/openstack/openstack
+    url_for_bestpractices: https://github.com/openstack
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    description: An open platform that extending your native Kubernetes to edge.
+    extra:
+      dev_stats_url: https://openyurt.devstats.cncf.io/
+    homepage_url: https://openyurt.io/
+    item: null
+    logo: openyurt.svg
+    name: OpenYurt
+    project: sandbox
+    repo_url: https://github.com/openyurtio/openyurt
+  Container Registry: []
+  Key Management:
+  - crunchbase: https://www.crunchbase.com/organization/oauth2-proxy
+    homepage_url: https://oauth2-proxy.github.io/oauth2-proxy/
+    item: null
+    logo: oauth2-proxy.svg
+    name: OAuth2 Proxy
+    repo_url: https://github.com/oauth2-proxy/oauth2-proxy
+  - crunchbase: https://www.crunchbase.com/organization/ory
+    homepage_url: https://www.ory.sh/
+    item: null
+    logo: ory-hydra.svg
+    name: ORY Hydra
+    repo_url: https://github.com/ory/hydra
+  Security & Compliance:
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      accepted: '2018-03-29'
+      artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#opa-logos
+      blog_url: https://blog.openpolicyagent.org/
+      dev_stats_url: https://opa.devstats.cncf.io/
+      slack_url: http://slack.openpolicyagent.org/
+      stack_overflow_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#opa-logos
+    homepage_url: https://www.openpolicyagent.org/
+    item: null
+    logo: opa.svg
+    name: Open Policy Agent (OPA)
+    project: graduated
+    repo_url: https://github.com/open-policy-agent/opa
+    twitter: https://twitter.com/openpolicyagent
+  - crunchbase: https://www.crunchbase.com/organization/red-hat
+    homepage_url: https://www.open-scap.org/
+    item: null
+    logo: openscap.svg
+    name: OpenSCAP
+    repo_url: https://github.com/OpenSCAP/openscap
+    twitter: https://twitter.com/OpenSCAP
+  - crunchbase: https://www.crunchbase.com/organization/orca-security
+    homepage_url: https://orca.security
+    item: null
+    logo: orcasec.svg
+    name: Orca Security
+  - crunchbase: https://www.crunchbase.com/organization/oxeye-security
+    homepage_url: https://oxeye.io
+    item: null
+    logo: oxeye.svg
+    name: Oxeye
+Runtime:
+  Cloud Native Network:
+  - crunchbase: https://www.crunchbase.com/organization/open-vswitch
+    homepage_url: https://www.openvswitch.org/
+    item: null
+    logo: open-v-switch.svg
+    name: Open vSwitch
+    repo_url: https://github.com/openvswitch/ovs
+    twitter: https://twitter.com/lf_networking
+  Cloud Native Storage:
+  - crunchbase: https://www.crunchbase.com/organization/ondat
+    homepage_url: https://www.ondat.io
+    item: null
+    logo: ondat.svg
+    name: Ondat
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      accepted: '2019-05-14'
+      artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#openebs-logos
+      dev_stats_url: https://openebs.devstats.cncf.io/
+      slack_url: https://cloud-native.slack.com/archives/CSL0PJ8GN
+      youtube_url: https://www.youtube.com/channel/UC3ywadaAUQ1FI4YsHZ8wa0g
+    homepage_url: https://www.openebs.io/
+    item: null
+    logo: openebs.svg
+    name: OpenEBS
+    project: sandbox
+    repo_url: https://github.com/openebs/openebs
+    twitter: https://twitter.com/openebs
+  - crunchbase: https://www.crunchbase.com/organization/openio
+    homepage_url: https://www.openio.io/
+    item: null
+    logo: openio.svg
+    name: OpenIO
+    repo_url: https://github.com/open-io/oio-sds
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#oras-logos
+      blog_url: https://oras.land/blog/
+      dev_stats_url: https://oras.devstats.cncf.io/
+      slack_url: https://cloud-native.slack.com/messages/oras
+    homepage_url: https://oras.land/
+    item: null
+    logo: oras.svg
+    name: ORAS
+    project: sandbox
+    repo_url: https://github.com/oras-project/oras
+    twitter: https://twitter.com/orasproject
+  Container Runtime: []
+Serverless:
+  Framework: []
+  Hosted Platform:
+  - crunchbase: https://www.crunchbase.com/organization/oracle
+    description: Write, deploy, and run code without having to provision, manage,
+      or scale servers. Oracle Functions is a fully managed, highly scalable, on-demand,
+      functions-as-a-service platform, built on enterprise-grade Oracle Cloud Infrastructure
+      and powered by the Fn Project open source engine.
+    homepage_url: https://www.oracle.com/cloud-native/functions
+    item: null
+    logo: oracle-functions.svg
+    name: Oracle Functions
+  Installable Platform:
+  - crunchbase: https://www.crunchbase.com/organization/openfaas
+    homepage_url: https://www.openfaas.com
+    item: null
+    logo: openfaas.svg
+    name: OpenFaaS
+    repo_url: https://github.com/openfaas/faas
+  - crunchbase: https://www.crunchbase.com/organization/qingcloud
+    extra:
+      chat_channel: '#openfunction'
+      slack_url: https://slack.cncf.io/
+    homepage_url: https://openfunction.dev
+    item: null
+    logo: openfunction.svg
+    name: OpenFunction
+    project: sandbox
+    repo_url: https://github.com/OpenFunction/OpenFunction
+  Security: []
+  Tools: []
+Special:
+  Certified CNFs: []
+  Kubernetes Certified Service Provider:
+  - crunchbase: https://www.crunchbase.com/organization/obss
+    homepage_url: https://obss.com.tr/tr
+    item: null
+    logo: obss.svg
+    name: OBSS (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/occentus-network
+    description: Occentus provides various services from strategic advisory to design
+      implementation and professional services related to Kubernetes and cloud native
+      computing technologies.
+    homepage_url: https://www.occentus.net/kubernetes/
+    item: null
+    logo: occentus.svg
+    name: Occentus (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/octo-consulting-group
+    description: Octo partners with Federal Government agencies to realize modern
+      and continuous software delivery through the design, architecture, and implementation
+      of cloud native, Kubernetes-based solutions.
+    homepage_url: https://www.octo.us/about/partners/cncf
+    item: null
+    logo: octo-consulting.svg
+    name: Octo Consulting (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/octo-technology
+    description: OCTO Technology provides training, architecture, technical consulting
+      and delivery services including containers and Kubernetes.
+    homepage_url: https://www.octo.com/en/
+    item: null
+    logo: octo-technology.svg
+    name: OCTO Technology (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/ogis-ri
+    description: OGIS-RI Co.,Ltd, a leading Cloud Integrator in Japan, provides Kubernetes
+      consulting, planning, impementation and operations support for public cloud
+      and on-premise deployments.
+    homepage_url: https://www.ogis-ri.co.jp
+    item: null
+    logo: ogis-ri.svg
+    name: OGIS-RI (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/open-source-consulting
+    description: Open Source Consulting, a cloud migration company, has experience
+      in technical, application, and system architecture consulting. We provide professional
+      consulting and technical support services for building optimal Kubernetes and
+      cloud native platforms.
+    homepage_url: https://www.play-ce.io/en/cloud.html
+    item: null
+    logo: open-source-consulting.svg
+    name: Open Source Consulting (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/origoss-solutions-ltd
+    description: Origoss Solutions helps enterprises in their journey to the cloud
+      native world by offering consultancy and operations support solutions.
+    homepage_url: https://origoss.com/
+    item: null
+    logo: origoss-solutions-kcsp.svg
+    name: Origoss Solutions (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/oteemo
+    description: Oteemo is a technology solutions provider specializing in helping
+      enterprises with cloud native transformations. Our services include operationalization
+      of Kubernetes platforms, application container migrations and mentoring of client
+      staff on cloud native technologies.
+    homepage_url: https://oteemo.com
+    item: null
+    logo: oteemo.svg
+    name: Oteemo (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/ovh-com
+    description: Our OVHcloud Professional services can help you deploy and scale
+      Entreprise Kubernetes workloads in our Public or Private Cloud managed services,
+      or help you with Hybrid,  Multicloud or DRP strategies around containers.
+    homepage_url: https://www.ovhcloud.com/en-ie/professional-services/
+    item: null
+    logo: ovhcloud.svg
+    name: OVHcloud (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/ozone-cd
+    description: Ozone provides consulting services on Kubernetes and enables continuous
+      delivery of modern applications using Kubernetes and cloud native technologies.
+    homepage_url: https://www.ozone.one/
+    item: null
+    logo: ozone.svg
+    name: Ozone (KCSP)
+  Kubernetes Training Partner:
+  - crunchbase: https://www.crunchbase.com/organization/oteemo
+    description: Oteemo is a technology solutions provider specializing in helping
+      enterprises with cloud native transformations. Our services include operationalization
+      of Kubernetes platforms, application container migrations and mentoring of client
+      staff on cloud native technologies.
+    extra:
+      training_certifications: cka, ckad, cks
+      training_type: instructor-led
+    homepage_url: https://oteemo.com
+    item: null
+    logo: oteemo.svg
+    name: Oteemo (KTP)
+Wasm:
+  Debugging and Observability: []
+  Installable Platform: []
+  Packaging, Registries & Application Delivery:
+  - allow_duplicate_repo: true
+    crunchbase: https://www.crunchbase.com/organization/open-container-initiative
+    homepage_url: https://opencontainers.org/
+    item: null
+    logo: oci.svg
+    name: OCI
+    repo_url: https://github.com/opencontainers/runc
+  Runtime: []
+  Specifications: []
+  Toolchain: []

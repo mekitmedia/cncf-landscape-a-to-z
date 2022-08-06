@@ -1,0 +1,103 @@
+App Definition and Development:
+  Application Definition & Image Build: []
+  Continuous Integration & Delivery:
+  - crunchbase: https://www.crunchbase.com/organization/xebialabs
+    homepage_url: https://digital.ai/deploy/deployment-automation
+    item: null
+    logo: xl-deploy.svg
+    name: XL Deploy
+  Database: []
+  Streaming & Messaging: []
+CNCF Members:
+  Academic: []
+  End User Supporter: []
+  Gold: []
+  Nonprofit: []
+  Platinum: []
+  Silver:
+  - crunchbase: https://www.crunchbase.com/organization/xenit-ab
+    homepage_url: https://xenit.se/
+    item: null
+    logo: xenit.svg
+    name: Xenit (member)
+  - crunchbase: https://www.crunchbase.com/organization/xenonstack
+    homepage_url: https://www.xenonstack.com
+    item: null
+    logo: xenonstack.svg
+    name: XenonStack (member)
+  - crunchbase: https://www.crunchbase.com/organization/xopero
+    homepage_url: https://www.xopero.com/
+    item: null
+    logo: xopero.svg
+    name: Xopero Software (member)
+Observability and Analysis:
+  Chaos Engineering: []
+  Continuous Optimization: []
+  Logging: []
+  Monitoring: []
+  Tracing: []
+Orchestration & Management:
+  API Gateway: []
+  Coordination & Service Discovery: []
+  Remote Procedure Call: []
+  Scheduling & Orchestration: []
+  Service Mesh: []
+  Service Proxy: []
+Platform:
+  Certified Kubernetes - Distribution: []
+  Certified Kubernetes - Hosted: []
+  Certified Kubernetes - Installer: []
+  PaaS/Container Service: []
+Provisioning:
+  Automation & Configuration: []
+  Container Registry: []
+  Key Management: []
+  Security & Compliance: []
+Runtime:
+  Cloud Native Network: []
+  Cloud Native Storage:
+  - crunchbase: https://www.crunchbase.com/organization/xsky-data-technology
+    description: XSKY (Beijing) Data Technology Co., Ltd. is a high-tech enterprise
+      focusing on software defined infrastructure, providing software defined distributed
+      storage product of enterprise-grade and helping customers achieve innovation
+      in data structure.
+    homepage_url: https://www.xsky.com
+    item: null
+    logo: xsky.svg
+    name: XSKY
+    twitter: null
+  Container Runtime: []
+Serverless:
+  Framework: []
+  Hosted Platform: []
+  Installable Platform: []
+  Security: []
+  Tools: []
+Special:
+  Certified CNFs: []
+  Kubernetes Certified Service Provider:
+  - crunchbase: https://www.crunchbase.com/organization/xenit-ab
+    description: We are experienced Kubernetes experts offering our support in training,
+      consulting and implementation. In addition, we have developed our own standardized
+      and streamlined open-source framework that makes Kubernetes easy for your development
+      teams.
+    homepage_url: https://xenit.se/it-tjanster/kubernetes-eng/
+    item: null
+    logo: xenit.svg
+    name: Xenit (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/xenonstack
+    description: XenonStack is a leading Kubernetes consulting and solutions provider,
+      helping enterprises build cloud native applications with Continuous Delivery,
+      DataOps and Enterprise AI Platform for Decision Intelligence.
+    homepage_url: https://www.xenonstack.com/insights/kubernetes-deployment
+    item: null
+    logo: xenonstack.svg
+    name: XenonStack (KCSP)
+  Kubernetes Training Partner: []
+Wasm:
+  Debugging and Observability: []
+  Installable Platform: []
+  Packaging, Registries & Application Delivery: []
+  Runtime: []
+  Specifications: []
+  Toolchain: []

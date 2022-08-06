@@ -1,0 +1,387 @@
+App Definition and Development:
+  Application Definition & Image Build:
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      accepted: '2016-01-18'
+      artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#helm-logos
+      chat_channel: '#helm-dev'
+      dev_stats_url: https://helm.devstats.cncf.io/
+      slack_url: slack.k8s.io
+      stack_overflow_url: https://stackoverflow.com/questions/tagged/helm
+    homepage_url: https://helm.sh/
+    item: null
+    logo: helm.svg
+    name: Helm
+    project: graduated
+    repo_url: https://github.com/helm/helm
+    twitter: https://twitter.com/helmpack
+  Continuous Integration & Delivery:
+  - crunchbase: https://www.crunchbase.com/organization/harness-512d
+    homepage_url: https://harness.io
+    item: null
+    logo: harness.svg
+    name: Harness.io
+  - crunchbase: https://www.crunchbase.com/organization/hyscale
+    description: An app-centric abstraction framework over K8s and an enterprise platform
+      for accelerating deployments to multi-cloud Kubernetes. Offers self-service
+      app deployments, container sprawl management across clusters, and DevSecOps.
+    homepage_url: https://www.hyscale.io
+    item: null
+    logo: hyscale.svg
+    name: HyScale
+    repo_url: https://github.com/hyscale/hyscale
+  Database:
+  - crunchbase: https://www.crunchbase.com/organization/hazelcast
+    homepage_url: https://hazelcast.com/open-source-projects
+    item: null
+    logo: hazelcast.svg
+    name: Hazelcast IMDG
+    open_source: false
+    repo_url: https://github.com/hazelcast/hazelcast
+  Streaming & Messaging:
+  - crunchbase: https://www.crunchbase.com/organization/hazelcast
+    homepage_url: https://jet-start.sh
+    item: null
+    logo: hazelcast-jet.svg
+    name: Hazelcast Jet
+    open_source: false
+    repo_url: https://github.com/hazelcast/hazelcast-jet
+CNCF Members:
+  Academic: []
+  End User Supporter:
+  - crunchbase: https://www.crunchbase.com/organization/hitrust-2cd7
+    homepage_url: https://www.hitrust.com/
+    item: null
+    joined: '2021-01-05'
+    logo: hitrust.svg
+    name: HiTRUST (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/huifu-payment
+    homepage_url: https://www.huifu.com/
+    item: null
+    joined: '2020-09-02'
+    logo: huifu.svg
+    name: Huifu Payment Limited (supporter)
+  Gold:
+  - crunchbase: https://www.crunchbase.com/organization/h3c-technologies
+    homepage_url: https://www.h3c.com/en
+    item: null
+    logo: h3-c-technologies-member.svg
+    name: H3C Technologies (member)
+  - crunchbase: https://www.crunchbase.com/organization/hcl-technologies
+    homepage_url: https://www.hcltech.com/
+    item: null
+    logo: hcl.svg
+    name: HCL Technologies (member)
+  - crunchbase: https://www.crunchbase.com/organization/hewlett-packard-enterprise
+    homepage_url: https://www.hpe.com/us/en/home.html
+    item: null
+    logo: hpe-member.svg
+    name: HPE (member)
+  Nonprofit: []
+  Platinum:
+  - crunchbase: https://www.crunchbase.com/organization/huawei
+    homepage_url: https://www.huaweicloud.com/intl/en-us
+    item: null
+    logo: huawei.svg
+    name: Huawei (member)
+    twitter: https://twitter.com/Huawei_Cloud
+  Silver:
+  - crunchbase: https://www.crunchbase.com/organization/hammerspace-4936
+    homepage_url: https://hammerspace.com
+    item: null
+    logo: hammerspace-member.svg
+    name: Hammerspace (member)
+  - crunchbase: https://www.crunchbase.com/organization/haproxy-technologies
+    homepage_url: https://www.haproxy.com
+    item: null
+    logo: ha-proxy-technologies-member.svg
+    name: HAProxy Technologies (member)
+  - crunchbase: https://www.crunchbase.com/organization/harmony-cloud
+    homepage_url: https://www.harmonycloud.cn
+    item: null
+    logo: harmony-cloud-member.svg
+    name: Harmony Cloud (member)
+  - crunchbase: https://www.crunchbase.com/organization/harness-512d
+    homepage_url: https://harness.io
+    item: null
+    logo: harness-member.svg
+    name: Harness (member)
+  - crunchbase: https://www.crunchbase.com/organization/harpoon
+    homepage_url: https://www.harpoon.io
+    item: null
+    logo: harpoon.svg
+    name: Harpoon (member)
+  - crunchbase: https://www.crunchbase.com/organization/hashicorp
+    homepage_url: https://www.hashicorp.com/
+    item: null
+    logo: hashicorp.svg
+    name: HashiCorp (member)
+  - crunchbase: https://www.crunchbase.com/organization/hasura
+    homepage_url: https://hasura.io
+    item: null
+    logo: hasura-technologies-member.svg
+    name: Hasura Technologies (member)
+  - crunchbase: https://www.crunchbase.com/organization/helios-5828
+    homepage_url: https://www.gethelios.dev/
+    item: null
+    logo: helios.svg
+    name: Helios (member)
+  - crunchbase: https://www.crunchbase.com/organization/hitachi-vantara
+    homepage_url: https://www.hitachivantara.com/en-us/home.html
+    item: null
+    logo: hitachi-vantara.svg
+    name: Hitachi Vantara (member)
+  - crunchbase: https://www.crunchbase.com/organization/humanitec
+    homepage_url: https://www.humanitec.com/
+    item: null
+    logo: humanitec.svg
+    name: Humanitec (member)
+  - crunchbase: https://www.crunchbase.com/organization/humio
+    homepage_url: https://www.humio.com
+    item: null
+    logo: humio.svg
+    name: Humio (member)
+  - crunchbase: https://www.crunchbase.com/organization/hx-security
+    homepage_url: https://www.huoxian.cn/
+    item: null
+    logo: huoxian-security.svg
+    name: Huoxian Security (member)
+  - crunchbase: https://www.crunchbase.com/organization/hyscale
+    homepage_url: https://www.hyscale.io/
+    item: null
+    logo: hyscale.svg
+    name: HyScale (member)
+Observability and Analysis:
+  Chaos Engineering: []
+  Continuous Optimization: []
+  Logging:
+  - crunchbase: https://www.crunchbase.com/organization/humio
+    homepage_url: https://www.humio.com/
+    item: null
+    logo: humio.svg
+    name: Humio
+  Monitoring:
+  - crunchbase: https://www.crunchbase.com/organization/honeybadger
+    homepage_url: https://www.honeybadger.io/
+    item: null
+    logo: honeybadger.svg
+    name: Honeybadger
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    homepage_url: https://github.com/cilium/hubble
+    item: null
+    logo: hubble(rgb).svg
+    name: Hubble
+    project: incubating
+    repo_url: https://github.com/cilium/hubble
+  Tracing:
+  - crunchbase: https://www.crunchbase.com/organization/honeycombio
+    homepage_url: https://www.honeycomb.io/
+    item: null
+    logo: honeycomb.svg
+    name: Honeycomb
+Orchestration & Management:
+  API Gateway:
+  - crunchbase: https://www.crunchbase.com/organization/netease-com
+    homepage_url: https://github.com/hango-io
+    item: null
+    logo: Hango.svg
+    name: Hango
+    repo_url: https://github.com/hango-io/hango-gateway
+    twitter: https://twitter.com/NetEase_Global
+  Coordination & Service Discovery: []
+  Remote Procedure Call: []
+  Scheduling & Orchestration: []
+  Service Mesh: []
+  Service Proxy:
+  - crunchbase: https://www.crunchbase.com/organization/haproxy-technologies
+    homepage_url: https://www.haproxy.com/
+    item: null
+    logo: haproxy.svg
+    name: HAProxy
+    repo_url: https://github.com/haproxy/haproxy
+Platform:
+  Certified Kubernetes - Distribution:
+  - crunchbase: https://www.crunchbase.com/organization/h3c-technologies
+    description: Based on container technology and pluggable open architecture, H3C
+      CloudOS provides compute, storage, network, security, big data, database, PaaS,
+      and DevOps services as a full-stack cloud management platform. It enables you
+      to perform unified operations and management of various cloud resources.
+    homepage_url: https://www.h3c.com/en
+    item: null
+    logo: h3-c-cloud-os.svg
+    name: H3C CloudOS
+  - crunchbase: https://www.crunchbase.com/organization/harmony-cloud
+    description: HarmonyCloud Container Platform is an Enterprise Platform-as-a-Service
+      based on Kubernetes.
+    homepage_url: http://harmonycloud.cn/products/rongqiyun/
+    item: null
+    logo: harmonycloud.svg
+    name: HarmonyCloud Container Platform
+  Certified Kubernetes - Hosted:
+  - crunchbase: https://www.crunchbase.com/organization/huawei
+    description: Cloud Container Engine (CCE) is a high-performance, high-reliability
+      service through which enterprises can manage containerized applications. CCE
+      supports native Kubernetes applications and tools, allowing you to set up a
+      container runtime environment on the cloud with ease.
+    homepage_url: https://www.huaweicloud.com/intl/en-us
+    item: null
+    logo: huawei-cloud-container-engine-cce.svg
+    name: Huawei Cloud Container Engine (CCE)
+    twitter: https://twitter.com/Huawei_Cloud
+  Certified Kubernetes - Installer:
+  - crunchbase: https://www.crunchbase.com/organization/harmony-cloud
+    description: 'Harmonycloud PaaS Container Platform Install is an Offline install
+      Platform-as-a-Service platform based on Kubernetes. '
+    homepage_url: http://harmonycloud.cn/products/rongqiyun/
+    item: null
+    logo: harmonycloud.svg
+    name: Harmonycloud PaaS Container Platform Install
+  PaaS/Container Service:
+  - crunchbase: https://www.crunchbase.com/organization/salesforce
+    description: Developers, teams, and businesses of all sizes use Heroku to deploy,
+      manage, and scale apps.
+    homepage_url: https://www.heroku.com
+    item: null
+    logo: heroku.svg
+    name: Heroku
+    twitter: https://twitter.com/heroku
+Provisioning:
+  Automation & Configuration: []
+  Container Registry:
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      accepted: '2018-07-31'
+      artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#harbor-logos
+      dev_stats_url: https://harbor.devstats.cncf.io/
+      mailing_list_url: https://lists.cncf.io/g/harbor-users/topics
+      slack_url: https://cloud-native.slack.com/messages/harbor/
+      stack_overflow_url: https://stackoverflow.com/questions/tagged/harbor
+    homepage_url: https://goharbor.io/
+    item: null
+    logo: harbor.svg
+    name: Harbor
+    project: graduated
+    repo_url: https://github.com/goharbor/harbor
+    twitter: https://twitter.com/project_harbor
+  Key Management: []
+  Security & Compliance: []
+Runtime:
+  Cloud Native Network: []
+  Cloud Native Storage:
+  - crunchbase: https://www.crunchbase.com/organization/hitachi
+    homepage_url: https://www.hitachi.com
+    item: null
+    logo: hitachi.svg
+    name: Hitachi
+    twitter: https://twitter.com/hitachivantara
+  - crunchbase: https://www.crunchbase.com/organization/hewlett-packard-enterprise
+    description: "The world\u2019s most intelligent storage, built for our hybrid\
+      \ cloud world to help you unlock the full potential of your data."
+    homepage_url: https://www.hpe.com/us/en/storage.html
+    item: null
+    logo: hpe-storage.svg
+    name: HPE Storage
+    twitter: https://twitter.com/HPE_Storage
+  - crunchbase: https://www.crunchbase.com/organization/huawei
+    description: Ubiquitous Storage Unleashes Data Power
+    homepage_url: https://e.huawei.com/en/products/storage
+    item: null
+    logo: huawei.svg
+    name: Huawei
+  Container Runtime: []
+Serverless:
+  Framework: []
+  Hosted Platform:
+  - crunchbase: https://www.crunchbase.com/organization/huawei
+    description: FunctionStage is an event-driven function hosting and computing service,
+      that compiles function code and configures running conditions without provisioning
+      or managing servers, thus providing a scalable, maintenance-free, and reliable
+      operation environment for functions. You only pay for what you use.
+    homepage_url: https://www.huaweicloud.com/intl/en-us
+    item: null
+    logo: huawei-functionstage.svg
+    name: Huawei FunctionStage
+    twitter: https://twitter.com/Huawei_Cloud
+  Installable Platform: []
+  Security: []
+  Tools:
+  - crunchbase: https://www.crunchbase.com/organization/hasura
+    homepage_url: https://hasura.io/event-triggers
+    item: null
+    logo: hasura-graphqlengine.svg
+    name: Hasura GraphQL Engine
+    repo_url: https://github.com/hasura/graphql-engine
+Special:
+  Certified CNFs: []
+  Kubernetes Certified Service Provider:
+  - crunchbase: https://www.crunchbase.com/organization/h3c-technologies
+    description: "We provide enterprise-level cloud native platform solutions, focusing\
+      \ on Kubernetes\uFF0CService Mesh\uFF0CDevOps and other comprehensive services."
+    homepage_url: https://www.h3c.com/en/Solution/Technology_Solution/CloudComputing/Solutions/H3C_Container_Cloud/
+    item: null
+    logo: h3-c-technologies-member.svg
+    name: H3C Technologies (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/harmony-cloud
+    homepage_url: https://harmonycloud.cn
+    item: null
+    logo: harmonycloud.svg
+    name: HarmonyCloud (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/hcl-technologies
+    description: At HCL we enable your complete Cloud Native journey with Kubernetes,
+      offering services that include Kubernetes platform design/build, Applications
+      Migration, Operations and Developer enablement. We cover all leading Kubernetes
+      distributions.
+    homepage_url: https://www.hcltech.com/cloud
+    item: null
+    logo: hcl.svg
+    name: HCL Technologies (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/hewlett-packard-enterprise
+    description: HPE Pointnext Advisory & Professional Service provides various services
+      from strategic advisory to design/implementation professional services related
+      to Kubernetes and cloud native computing technologies.
+    homepage_url: https://www.hpe.com/us/en/services/consulting/cloud.html
+    item: null
+    logo: hpe-kcsp.svg
+    name: HPE (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/huawei
+    description: HUAWEI CLOUD provides customers with stable, reliable, secure, and
+      sustainably growing cloud services. It helps large enterprises address challenges
+      in cloud transformation and enables them to take better advantages of potential
+      business opportunities. It also helps small- and medium-sized enterprises expand
+      their business growth and rise to challenges.
+    homepage_url: https://www.huaweicloud.com/intl/en-us
+    item: null
+    logo: huawei-kcsp.svg
+    name: Huawei (KCSP)
+    twitter: https://twitter.com/Huawei_Cloud
+  Kubernetes Training Partner:
+  - crunchbase: https://www.crunchbase.com/organization/harmony-cloud
+    homepage_url: https://harmonycloud.cn
+    item: null
+    logo: harmonycloud.svg
+    name: HarmonyCloud (KTP)
+  - crunchbase: https://www.crunchbase.com/organization/hewlett-packard-enterprise
+    description: HPE is a leader in the hybrid cloud market offering Kubernetes solutions
+      that are supported by professional services and education.
+    homepage_url: https://education.hpe.com/ww/en/training/portfolio/cloud.html
+    item: null
+    logo: hpe-ktp.svg
+    name: HPE (KTP)
+  - crunchbase: https://www.crunchbase.com/organization/huawei
+    description: HUAWEI CLOUD provides customers with stable, reliable, secure, and
+      sustainably growing cloud services. It helps large enterprises address challenges
+      in cloud transformation and enables them to take better advantages of potential
+      business opportunities. It also helps small- and medium-sized enterprises expand
+      their business growth and rise to challenges.
+    homepage_url: https://www.huaweicloud.com/intl/en-us
+    item: null
+    logo: huawei.svg
+    name: Huawei (KTP)
+    twitter: https://twitter.com/Huawei_Cloud
+Wasm:
+  Debugging and Observability: []
+  Installable Platform: []
+  Packaging, Registries & Application Delivery: []
+  Runtime: []
+  Specifications: []
+  Toolchain: []

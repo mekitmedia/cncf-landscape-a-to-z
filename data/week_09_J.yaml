@@ -1,0 +1,200 @@
+App Definition and Development:
+  Application Definition & Image Build: []
+  Continuous Integration & Delivery:
+  - crunchbase: https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf
+    homepage_url: https://jenkins.io/
+    item: null
+    logo: jenkins.svg
+    name: Jenkins
+    repo_url: https://github.com/jenkinsci/jenkins
+    twitter: https://twitter.com/jenkinsci
+  - crunchbase: https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf
+    homepage_url: https://jenkins-x.io/
+    item: null
+    logo: jenkins-x.svg
+    name: JenkinsX
+    repo_url: https://github.com/jenkins-x/jx
+    twitter: https://twitter.com/jenkinsxio
+  Database: []
+  Streaming & Messaging: []
+CNCF Members:
+  Academic: []
+  End User Supporter:
+  - crunchbase: https://www.crunchbase.com/organization/juni
+    homepage_url: https://www.juni.co/
+    item: null
+    joined: '2022-03-01'
+    logo: juni.svg
+    name: Juni (supporter)
+  Gold:
+  - crunchbase: https://www.crunchbase.com/organization/jd-cloud
+    homepage_url: https://www.jdcloud.com/cn
+    item: null
+    logo: jd-cloud.svg
+    name: JD Cloud (member)
+  - crunchbase: https://www.crunchbase.com/organization/jfrog-ltd
+    homepage_url: https://jfrog.com/
+    item: null
+    logo: jfrog.svg
+    name: JFrog (member)
+  Nonprofit: []
+  Platinum: []
+  Silver:
+  - crunchbase: https://www.crunchbase.com/organization/jeli-io
+    homepage_url: https://www.jeli.io/
+    item: null
+    logo: jeli.svg
+    name: Jeli (member)
+  - crunchbase: https://www.crunchbase.com/organization/jetstack
+    homepage_url: https://www.jetstack.io
+    item: null
+    logo: jetstack-member.svg
+    name: Jetstack (member)
+  - crunchbase: https://www.crunchbase.com/organization/jiangxi-yumin-bank
+    enduser: true
+    homepage_url: https://www.ymbank.com/
+    item: null
+    joined: '2020-11-17'
+    logo: jiangxi-yumin-bank.svg
+    name: Jiangxi Yumin Bank (member)
+  - crunchbase: https://www.crunchbase.com/organization/jimdo
+    enduser: true
+    homepage_url: https://www.jimdo.com/
+    item: null
+    joined: '2021-08-26'
+    logo: jimdo.svg
+    name: Jimdo (member)
+  - crunchbase: https://www.crunchbase.com/organization/jpmorgan-chase-co
+    enduser: true
+    homepage_url: https://www.jpmorganchase.com
+    item: null
+    logo: jp-morgan-chase-member.svg
+    name: JPMorgan Chase (member)
+  - crunchbase: https://www.crunchbase.com/organization/juniper-networks
+    homepage_url: https://www.juniper.net/us/en.html
+    item: null
+    logo: juniper-networks.svg
+    name: Juniper Networks (member)
+Observability and Analysis:
+  Chaos Engineering: []
+  Continuous Optimization: []
+  Logging: []
+  Monitoring: []
+  Tracing:
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      accepted: '2017-09-13'
+      artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#jaeger-logos
+      blog_url: https://medium.com/jaegertracing/
+      dev_stats_url: https://jaeger.devstats.cncf.io/
+      gitter_url: https://gitter.im/jaegertracing/Lobby
+      mailing_list_url: https://groups.google.com/forum/#!forum/jaeger-tracing
+      stack_overflow_url: https://stackoverflow.com/questions/tagged/jaeger
+    homepage_url: https://www.jaegertracing.io/
+    item: null
+    logo: jaeger.svg
+    name: Jaeger
+    project: graduated
+    repo_url: https://github.com/jaegertracing/jaeger
+    twitter: https://twitter.com/JaegerTracing
+Orchestration & Management:
+  API Gateway: []
+  Coordination & Service Discovery: []
+  Remote Procedure Call: []
+  Scheduling & Orchestration: []
+  Service Mesh: []
+  Service Proxy: []
+Platform:
+  Certified Kubernetes - Distribution:
+  - crunchbase: https://www.crunchbase.com/organization/jd-cloud
+    description: JDOS is Jingdong Datacenter OS for automated management of shared
+      container clusters and containerized applications in a scalable and elastic
+      manner. The key systems include ContainerFS, ContainerDNS and ContainerLB.
+    homepage_url: http://tig.jd.com/en/products/jdos
+    item: null
+    logo: jd.com.svg
+    name: JD.com JDOS
+  Certified Kubernetes - Hosted:
+  - crunchbase: https://www.crunchbase.com/organization/jd-cloud
+    description: By adopting fully-hosted management node, JCS for Kubernetes offers
+      simple, easy-to-use, high-reliable and powerful container management service
+      to users. Compatible with Kubernetes API, integrating network, storage and other
+      JD Cloud plug-ins.
+    homepage_url: https://www.jdcloud.com/en/products/jcs-for-kubernetes
+    item: null
+    logo: jd-cloud.svg
+    name: JD Cloud JCS for Kubernetes
+  Certified Kubernetes - Installer: []
+  PaaS/Container Service:
+  - crunchbase: https://www.crunchbase.com/organization/jhipster
+    homepage_url: https://www.jhipster.tech/
+    item: null
+    logo: jhipster.svg
+    name: JHipster
+    repo_url: https://github.com/jhipster/generator-jhipster
+Provisioning:
+  Automation & Configuration:
+  - crunchbase: https://www.crunchbase.com/organization/canonical-ltd
+    homepage_url: https://jaas.ai/
+    item: null
+    logo: juju.svg
+    name: Juju
+    repo_url: https://github.com/juju/juju
+    twitter: https://twitter.com/ubuntu
+  Container Registry:
+  - crunchbase: https://www.crunchbase.com/organization/jfrog-ltd
+    description: Shipping updates continuously and automatically has become a critical
+      element of any successful operation. JFrog is revolutionizing the software world
+      with the practice of Continuous Update, with a speed and continuity that forever
+      changes the way organizations manage and release software.
+    homepage_url: https://jfrog.com/artifactory/
+    item: null
+    logo: j-frog-artifactory.svg
+    name: JFrog Artifactory
+  Key Management: []
+  Security & Compliance: []
+Runtime:
+  Cloud Native Network: []
+  Cloud Native Storage:
+  - crunchbase: https://www.crunchbase.com/organization/juicefs
+    homepage_url: https://juicefs.com/
+    item: null
+    logo: juicefs.svg
+    name: JuiceFS
+    repo_url: https://github.com/juicedata/juicefs
+    twitter: https://twitter.com/JuicedataInc
+  Container Runtime: []
+Serverless:
+  Framework: []
+  Hosted Platform: []
+  Installable Platform: []
+  Security: []
+  Tools: []
+Special:
+  Certified CNFs: []
+  Kubernetes Certified Service Provider:
+  - crunchbase: https://www.crunchbase.com/organization/jd-cloud
+    description: JD Cloud provides complete professional services around our Kubernetes
+      certified JD Cloud Container Engine, which is a secure, reliable and fully managed
+      container service, so that users can focus on their applications and improve
+      development efficiency.
+    homepage_url: https://www.jdcloud.com/cn/products/jcs-for-kubernetes
+    item: null
+    logo: jd-cloud.svg
+    name: JD Cloud (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/jetstack
+    description: Jetstack is an organisation focused entirely on Kubernetes. They
+      will help you to get the most out of Kubernetes through expert professional
+      services and open source tooling. Get in touch, and accelerate your project.
+    homepage_url: https://www.jetstack.io/
+    item: null
+    logo: jetstack.svg
+    name: Jetstack (KCSP)
+  Kubernetes Training Partner: []
+Wasm:
+  Debugging and Observability: []
+  Installable Platform: []
+  Packaging, Registries & Application Delivery: []
+  Runtime: []
+  Specifications: []
+  Toolchain: []

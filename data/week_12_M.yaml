@@ -1,0 +1,597 @@
+App Definition and Development:
+  Application Definition & Image Build:
+  - crunchbase: https://www.crunchbase.com/organization/mia-platform
+    description: "Mia-Platform is the leading end-to-end Digital Integration Hub on\
+      \ the market. Its DevOps Console helps to manage Kubernetes clusters, define\
+      \ environments, set up test automation, design and run CI/CD pipelines, and\
+      \ guarantee an effective and efficient governance by controlling all the services\
+      \ \u2013 like Git, Jenkins, Docker, Nexus, Kubernetes, Terraform, Prometheus,\
+      \ Kibana and many others - from a single tool."
+    homepage_url: https://mia-platform.eu
+    item: null
+    logo: mia-platform.svg
+    name: Mia-Platform
+  - crunchbase: https://www.crunchbase.com/organization/kubeshop
+    description: Monokle is your friendly desktop UI for managing Kubernetes manifests.
+      Monokle helps you quickly get a high-level view of your manifests and their
+      contained resources, easily edit resources without having to learn yaml syntax,
+      diff resources against your cluster, preview and debug resources generated with
+      kustomize or Helm, and more. Monokle is created and maintained by Kubeshop.
+    homepage_url: https://monokle.kubeshop.io
+    item: null
+    logo: monokle.svg
+    name: Monokle
+    repo_url: https://github.com/kubeshop/monokle
+  Continuous Integration & Delivery: []
+  Database:
+  - crunchbase: https://www.crunchbase.com/organization/mariadb-2
+    homepage_url: https://mariadb.com/
+    item: null
+    logo: mariadb.svg
+    name: MariaDB
+    repo_url: https://github.com/MariaDB/server
+  - crunchbase: https://www.crunchbase.com/organization/microsoft
+    description: Data-Driven. Faster Insights. Breakthrough Performance. In-Memory
+      Technology. Hybrid Data Platform.
+    homepage_url: https://www.microsoft.com/en-us/sql-server
+    item: null
+    logo: microsoft-sql-server.svg
+    name: Microsoft SQL Server
+    twitter: https://twitter.com/SQLServer
+  - crunchbase: https://www.crunchbase.com/organization/mongodb-inc
+    homepage_url: https://www.mongodb.com/
+    item: null
+    logo: mongo-db.svg
+    name: MongoDB
+    open_source: false
+    repo_url: https://github.com/mongodb/mongo
+  - crunchbase: https://www.crunchbase.com/organization/oracle
+    homepage_url: https://www.oracle.com/mysql/
+    item: null
+    logo: my-sql.svg
+    name: MySQL
+    repo_url: https://github.com/mysql/mysql-server
+    twitter: https://twitter.com/mysql
+  Streaming & Messaging: []
+CNCF Members:
+  Academic: []
+  End User Supporter:
+  - crunchbase: https://www.crunchbase.com/organization/mambu
+    homepage_url: https://www.mambu.com/
+    item: null
+    logo: mambu.svg
+    name: Mambu (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/masterclass
+    homepage_url: https://www.masterclass.com/
+    item: null
+    joined: '2021-12-14'
+    logo: masterclass.svg
+    name: MasterClass (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/meltwater
+    homepage_url: https://www.meltwater.com/en
+    item: null
+    logo: meltwater-supporter.svg
+    name: Meltwater (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/monzo
+    homepage_url: https://monzo.com/us
+    item: null
+    logo: monzo.svg
+    name: Monzo (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/morning-consult
+    homepage_url: https://www.morningconsult.com/
+    item: null
+    joined: '2021-10-07'
+    logo: morning-consult.svg
+    name: Morning Consult (supporter)
+  Gold: []
+  Nonprofit:
+  - crunchbase: https://www.crunchbase.com/organization/mitre
+    homepage_url: https://https://www.mitre.org/
+    item: null
+    joined: '2021-03-02'
+    logo: mitre_logo.svg
+    name: MITRE (member)
+  Platinum:
+  - crunchbase: https://www.crunchbase.com/organization/microsoft
+    homepage_url: https://azure.microsoft.com/en-us/
+    item: null
+    logo: microsoft-azure.svg
+    name: Microsoft (member)
+    twitter: https://twitter.com/Azure
+  Silver:
+  - crunchbase: https://www.crunchbase.com/organization/macstadium
+    homepage_url: https://www.macstadium.com/
+    item: null
+    logo: mac-stadium-member.svg
+    name: MacStadium (member)
+  - crunchbase: https://www.crunchbase.com/organization/maibornwolff
+    homepage_url: https://www.maibornwolff.de
+    item: null
+    logo: maibornwolff.svg
+    name: MaibornWolff (member)
+  - crunchbase: https://www.crunchbase.com/organization/mail-ru
+    homepage_url: https://mcs.mail.ru
+    item: null
+    logo: mail.ru.svg
+    name: Mail.Ru Cloud Solutions (member)
+    twitter: null
+  - crunchbase: https://www.crunchbase.com/organization/makinarocks
+    homepage_url: https://www.makinarocks.ai/
+    item: null
+    logo: makinarocks.svg
+    name: MakinaRocks (member)
+  - crunchbase: https://www.crunchbase.com/organization/mandao-technology
+    homepage_url: https://www.mandao-tech.com/
+    item: null
+    logo: shanghai-mandao.svg
+    name: Mandao Fintech (member)
+  - crunchbase: https://www.crunchbase.com/organization/man-technology
+    homepage_url: https://www.mantech.co.kr/
+    item: null
+    logo: man-tech.svg
+    name: ManTech (member)
+  - crunchbase: https://www.crunchbase.com/organization/mastercard
+    enduser: true
+    homepage_url: https://www.mastercard.us/en-us.html
+    item: null
+    logo: mastercard.svg
+    name: Mastercard (member)
+  - crunchbase: https://www.crunchbase.com/organization/mathworks
+    enduser: true
+    homepage_url: https://www.mathworks.com/
+    item: null
+    logo: mathworks-member.svg
+    name: Mathworks (member)
+  - crunchbase: https://www.crunchbase.com/organization/matrixx-software
+    homepage_url: https://www.matrixx.com/
+    item: null
+    logo: matrixxsoftware.svg
+    name: MATRIXX Software (member)
+  - crunchbase: https://www.crunchbase.com/organization/mattermost
+    enduser: true
+    homepage_url: https://mattermost.com
+    item: null
+    logo: mattermost-member.svg
+    name: Mattermost (member)
+  - crunchbase: https://www.crunchbase.com/organization/mavenir-systems
+    homepage_url: https://mavenir.com/
+    item: null
+    logo: mavenir.svg
+    name: Mavenir (member)
+  - crunchbase: https://www.crunchbase.com/organization/mayfield-fund
+    homepage_url: https://www.mayfield.com/
+    item: null
+    logo: mayfield-fund.svg
+    name: Mayfield (member)
+  - crunchbase: https://www.crunchbase.com/organization/mckinsey-company
+    homepage_url: https://www.mckinsey.com/
+    item: null
+    logo: mc-kinsey-company-member.svg
+    name: McKinsey & Company (member)
+  - crunchbase: https://www.crunchbase.com/organization/megaease-inc
+    homepage_url: https://megaease.com/
+    item: null
+    logo: megaease.svg
+    name: MegaEase (member)
+  - crunchbase: https://www.crunchbase.com/organization/megazone-cloud
+    homepage_url: https://www.megazone.com/
+    item: null
+    logo: megazonecloud.svg
+    name: MegazoneCloud (member)
+  - crunchbase: https://www.crunchbase.com/organization/mercedes-benz-group-ag
+    enduser: true
+    homepage_url: https://group.mercedes-benz.com/
+    item: null
+    logo: mercedes-benz.svg
+    name: Mercedes Benz AG (member)
+  - crunchbase: https://www.crunchbase.com/organization/metrostar-systems
+    homepage_url: https://www.metrostar.com
+    item: null
+    logo: metrostar.svg
+    name: MetroStar Systems (member)
+  - crunchbase: https://www.crunchbase.com/organization/logdna
+    homepage_url: https://www.mezmo.com/
+    item: null
+    logo: mezmo.svg
+    name: Mezmo (member)
+  - crunchbase: https://www.crunchbase.com/organization/mia-platform
+    homepage_url: https://mia-platform.eu
+    item: null
+    logo: mia-platform.svg
+    name: Mia-Platform (member)
+  - crunchbase: https://www.crunchbase.com/organization/miaoyun
+    homepage_url: https://miaoyun.net.cn
+    item: null
+    logo: miao-yun-member.svg
+    name: MiaoYun (member)
+  - crunchbase: https://www.crunchbase.com/organization/micro-focus
+    homepage_url: https://www.microfocus.com/en-us/home
+    item: null
+    logo: micro-focus-member.svg
+    name: Micro Focus (member)
+  - crunchbase: https://www.crunchbase.com/organization/minio-inc
+    homepage_url: https://min.io
+    item: null
+    logo: min-io-member.svg
+    name: MinIO (member)
+  - crunchbase: https://www.crunchbase.com/organization/mirantis
+    homepage_url: https://www.mirantis.com
+    item: null
+    logo: mirantis-member.svg
+    name: Mirantis (member)
+  - crunchbase: https://www.crunchbase.com/organization/miraxia-edge-technology-corporation
+    homepage_url: https://www.miraxia.com/
+    item: null
+    logo: miraxia-edge-technology.svg
+    name: Miraxia Edge Technology (member)
+  - crunchbase: https://www.crunchbase.com/organization/mobilise-cloud-services
+    homepage_url: https://www.mobilise.cloud
+    item: null
+    logo: mobilise-cloud-services-member.svg
+    name: Mobilise Cloud Services (member)
+  - crunchbase: https://www.crunchbase.com/organization/mondoo
+    homepage_url: https://mondoo.com
+    item: null
+    logo: mondoo.svg
+    name: Mondoo (member)
+    twitter: https://twitter.com/MondooHQ
+  - crunchbase: https://www.crunchbase.com/organization/monostream
+    homepage_url: https://www.monostream.com
+    item: null
+    logo: monostream-member.svg
+    name: Monostream (member)
+  - crunchbase: https://www.crunchbase.com/organization/meran-technology
+    homepage_url: https://www.moresec.cn/
+    item: null
+    logo: moresec.svg
+    name: MoreSec (member)
+  - crunchbase: https://www.crunchbase.com/organization/morgan-stanley
+    enduser: true
+    homepage_url: https://www.morganstanley.com
+    item: null
+    logo: morgan-stanley-member.svg
+    name: Morgan Stanley (member)
+  - crunchbase: https://www.crunchbase.com/organization/morpheus
+    homepage_url: https://www.morpheusdata.com/
+    item: null
+    logo: morpheus-data-member.svg
+    name: Morpheus Data (member)
+  - crunchbase: https://www.crunchbase.com/organization/msys-technologies
+    homepage_url: https://msystechnologies.com
+    item: null
+    logo: m-sys-technologies-member.svg
+    name: MSys Technologies (member)
+  - crunchbase: https://www.crunchbase.com/organization/mufg-union-bank
+    enduser: true
+    homepage_url: https://mufgamericas.com
+    item: null
+    logo: mufg-union-bank-member.svg
+    name: MUFG Union Bank (member)
+  - crunchbase: https://www.crunchbase.com/organization/mycelial
+    homepage_url: https://www.mycelial.com/
+    item: null
+    logo: mycelial.svg
+    name: Mycelial (member)
+  - crunchbase: https://www.crunchbase.com/organization/myfitnesspal
+    enduser: true
+    homepage_url: https://www.myfitnesspal.com/
+    item: null
+    joined: '2020-11-09'
+    logo: myfitnesspal.svg
+    name: MyFitnessPal (member)
+Observability and Analysis:
+  Chaos Engineering: []
+  Continuous Optimization: []
+  Logging:
+  - crunchbase: https://www.crunchbase.com/organization/logdna
+    homepage_url: https://www.mezmo.com/
+    item: null
+    logo: mezmo.svg
+    name: Mezmo
+  Monitoring:
+  - crunchbase: https://www.crunchbase.com/organization/uber
+    homepage_url: https://www.m3db.io/
+    item: null
+    logo: m3.svg
+    name: M3
+    repo_url: https://github.com/m3db/m3
+  - crunchbase: https://www.crunchbase.com/organization/hatena
+    description: The server monitoring platform we always wanted.
+    homepage_url: https://en.mackerel.io
+    item: null
+    logo: mackerel.svg
+    name: Mackerel
+    twitter: https://twitter.com/mackerelio
+  Tracing: []
+Orchestration & Management:
+  API Gateway:
+  - crunchbase: https://www.crunchbase.com/organization/salesforce
+    homepage_url: https://www.mulesoft.com/
+    item: null
+    logo: mulesoft.svg
+    name: MuleSoft
+    repo_url: https://github.com/mulesoft/mule
+    twitter: https://twitter.com/mulesoft
+  Coordination & Service Discovery: []
+  Remote Procedure Call: []
+  Scheduling & Orchestration: []
+  Service Mesh:
+  - crunchbase: https://www.crunchbase.com/organization/daocloud
+    description: Use eBPF to speed up your Service Mesh like crossing an Einstein-Rosen
+      Bridge.
+    extra:
+      blog_url: https://merbridge.io/blog/
+    homepage_url: https://merbridge.io/
+    item: null
+    logo: merbridge.svg
+    name: Merbridge
+    repo_url: https://github.com/merbridge/merbridge
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#meshery-logos
+      blog_url: https://meshery.io/blog/
+      dev_stats_url: https://meshery.devstats.cncf.io/
+      mailing_list_url: https://groups.google.com/a/meshery.dev/g/community
+      slack_url: https://cloud-native.slack.com/messages/meshery
+      youtube_url: https://www.youtube.com/playlist?list=PL3A-A6hPO2INr4oEIorJqC8N0FtxnYj0a
+    homepage_url: https://meshery.io
+    item: null
+    logo: meshery.svg
+    name: Meshery
+    project: sandbox
+    repo_url: https://github.com/meshery/meshery
+    twitter: https://twitter.com/mesheryio
+  Service Proxy:
+  - crunchbase: https://www.crunchbase.com/organization/metallb
+    extra:
+      chat_channel: '#metallb'
+      slack_url: https://slack.k8s.io/
+    homepage_url: https://metallb.universe.tf
+    item: null
+    logo: metallb.svg
+    name: MetalLB
+    repo_url: https://github.com/metallb/metallb
+    twitter: https://twitter.com/dave_universetf
+  - crunchbase: https://www.crunchbase.com/organization/ant-financial
+    homepage_url: https://mosn.io
+    item: null
+    logo: mosn-mosn.svg
+    name: MOSN
+    repo_url: https://github.com/mosn/mosn
+    twitter: null
+Platform:
+  Certified Kubernetes - Distribution:
+  - crunchbase: https://www.crunchbase.com/organization/scality
+    description: An opinionated Kubernetes distribution with a focus on long-term
+      on-prem deployments
+    homepage_url: https://www.zenko.io/metalk8s/
+    item: null
+    logo: metalk8s.svg
+    name: MetalK8s
+    repo_url: https://github.com/scality/metalk8s
+  - crunchbase: https://www.crunchbase.com/organization/canonical-ltd
+    description: An easy to install, single node local Kubernetes.
+    homepage_url: https://microk8s.io
+    item: null
+    logo: microk8s.svg
+    name: MicroK8s
+    repo_url: https://github.com/canonical/microk8s
+  Certified Kubernetes - Hosted:
+  - crunchbase: https://www.crunchbase.com/organization/mail-ru
+    description: Mail.Ru Cloud Containers is a managed service for Kubernetes that
+      makes it easy for you to run Kubernetes clusters on any OpenStack-compatible
+      cloud. Mail.Ru Cloud Solutions provides hybrid cloud-based services that enable
+      businesses to run their workload in a public or private cloud.
+    homepage_url: https://mcs.mail.ru/en/
+    item: null
+    logo: mail.ru.svg
+    name: Mail.Ru Cloud Containers
+    twitter: null
+  - crunchbase: https://www.crunchbase.com/organization/microsoft
+    description: AKS Engine provides convenient tooling to quickly bootstrap Kubernetes
+      clusters on Azure Stack. By leveraging ARM (Azure Resource Manager), AKS Engine
+      helps create, destroy and maintain clusters provisioned with basic IaaS resources
+      in Azure Stack.
+    homepage_url: https://docs.microsoft.com/en-us/azure-stack/user/azure-stack-kubernetes-aks-engine-overview?view=azs-2108
+    item: null
+    logo: microsoft-azure.svg
+    name: Microsoft AKS Engine for Azure Stack
+    repo_url: https://github.com/msazurestackworkloads/aks-engine
+    twitter: https://twitter.com/Azure
+  Certified Kubernetes - Installer:
+  - crunchbase: https://www.crunchbase.com/organization/open-infrastructure-foundation
+    description: Magnum is an OpenStack API service developed by the OpenStack Containers
+      Team making container orchestration engines such as Kubernetes available as
+      a first class resource in OpenStack.
+    homepage_url: https://opendev.org/openstack/magnum/
+    item: null
+    logo: magnum.svg
+    name: Magnum
+    repo_url: https://github.com/openstack/magnum
+  PaaS/Container Service: []
+Provisioning:
+  Automation & Configuration:
+  - crunchbase: https://www.crunchbase.com/organization/canonical-ltd
+    description: Self-service, remote installation of Windows, CentOS, ESXi and Ubuntu
+      on real servers turns your data center into a bare-metal cloud.
+    homepage_url: https://maas.io/
+    item: null
+    logo: maas.svg
+    name: MAAS
+    repo_url: https://github.com/maas/maas
+  - crunchbase: https://www.crunchbase.com/organization/manageiq
+    homepage_url: https://www.manageiq.org/
+    item: null
+    logo: manage-iq.svg
+    name: ManageIQ
+    repo_url: https://github.com/ManageIQ/manageiq
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      artwork_url: https://github.com/cncf/artwork/tree/master/projects/metal3
+      blog_url: https://metal3.io/blog/index.html
+      dev_stats_url: https://metal3.devstats.cncf.io/
+      mailing_list_url: https://groups.google.com/g/metal3-dev
+      slack_url: https://kubernetes.slack.com/messages/CHD49TLE7
+      youtube_url: https://www.youtube.com/channel/UC_xneeYbo-Dl4g-U78xW15g/videos
+    homepage_url: https://metal3.io/
+    item: null
+    logo: metal3.svg
+    name: Metal3-io
+    project: sandbox
+    twitter: https://twitter.com/metal3_io
+  - crunchbase: https://www.crunchbase.com/organization/mist-io
+    homepage_url: https://mist.io/
+    item: null
+    joined: '2021-02-01'
+    logo: mistio.svg
+    name: Mist.io
+    repo_url: https://github.com/mistio/mist-ce
+  Container Registry: []
+  Key Management: []
+  Security & Compliance:
+  - crunchbase: https://www.crunchbase.com/organization/mondoo
+    description: Cloud native infrastructure security for your entire fleet
+    homepage_url: https://mondoo.com
+    item: null
+    logo: mondoo.svg
+    name: Mondoo
+    twitter: https://twitter.com/MondooHQ
+Runtime:
+  Cloud Native Network:
+  - crunchbase: https://www.crunchbase.com/organization/intel
+    homepage_url: https://networkbuilders.intel.com/intel-technologies/container-experience-kits
+    item: null
+    logo: multus.svg
+    name: Multus
+    repo_url: https://github.com/k8snetworkplumbingwg/multus-cni
+    twitter: https://twitter.com/intelsoftware
+  Cloud Native Storage:
+  - crunchbase: https://www.crunchbase.com/organization/minio-inc
+    homepage_url: https://min.io/
+    item: null
+    logo: min-io.svg
+    name: MinIO
+    repo_url: https://github.com/minio/minio
+  - crunchbase: https://www.crunchbase.com/organization/tuxera
+    homepage_url: https://moosefs.com/
+    item: null
+    logo: moosefs.svg
+    name: MooseFS
+    repo_url: https://github.com/moosefs/moosefs
+    twitter: https://twitter.com/moosefs
+  Container Runtime: []
+Serverless:
+  Framework:
+  - crunchbase: https://www.crunchbase.com/organization/alibaba
+    homepage_url: https://github.com/midwayjs/midway
+    item: null
+    logo: midway.svg
+    name: Midway Serverless
+    repo_url: https://github.com/midwayjs/midway
+    twitter: https://twitter.com/js_midway
+  Hosted Platform: []
+  Installable Platform: []
+  Security: []
+  Tools: []
+Special:
+  Certified CNFs:
+  - crunchbase: https://www.crunchbase.com/organization/matrixx-software
+    description: The MATRIXX Digital Commerce Platform (DCP) is a cloud-native, real-time
+      monetization engine delivering industry-compliant rating and charging functionality
+      along with a rich array of digital commerce capabilities such as subscription
+      management, event streaming and management, personalization, and digital payments.
+    homepage_url: https://www.matrixx.com/
+    item: null
+    logo: matrixx.svg
+    name: MATRIXX Digital Commerce
+    project: null
+  Kubernetes Certified Service Provider:
+  - crunchbase: https://www.crunchbase.com/organization/makinarocks
+    description: MakinaRocks deploys and operates cloud native services based on Kubernetes,
+      centralized in their MLOps platform.
+    homepage_url: https://mrxmarketing.wixsite.com/kubernetes
+    item: null
+    logo: makinarocks.svg
+    name: MakinaRocks (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/mandao-technology
+    description: Mandao Technology has launched K8s operations and maintenance services
+      around the full life cycle of Kubernetes to help you enjoy the benefits of rapid
+      application transformation and efficiency improvement brought by K8s, greatly
+      reducing business risks.
+    homepage_url: https://www.mandao-tech.com/products/kubernetes
+    item: null
+    logo: shanghai-mandao.svg
+    name: Mandao Fintech (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/man-technology
+    description: With over 30 years of experience as an IT solutions provider, we
+      provide Kubernetes technical support for an optimized and stable migration for
+      each enterprise environment. Our engineers are Kubernetes experts and we provide
+      end-to-end management of your Kubernetes operations.
+    homepage_url: https://accordions.co.kr/kube_eng/
+    item: null
+    logo: man-tech.svg
+    name: ManTech (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/mia-platform
+    description: "Mia\u2011Platform provides an end-to-end solution to develop and\
+      \ operate modern applications on Kubernetes. Mia-Platform Academy supports the\
+      \ transition to cloud-native with dedicated training and consultancy, focusing\
+      \ both on technologies and methodologies."
+    homepage_url: https://mia-platform.eu/platform/console
+    item: null
+    logo: mia-platform.svg
+    name: Mia-Platform (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/miaoyun
+    description: MiaoYun provides professional products and technical services for
+      enterprise users in China to adopt container and cloud native technologies.
+    homepage_url: https://miaoyun.net.cn/product/mycp.html
+    item: null
+    logo: miao-yun-kcsp.svg
+    name: MiaoYun (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/microsoft
+    description: Microsoft Services provides a comprehensive set of offerings to deploy
+      and secure Kubernetes on Azure as well as containerize applications and migrate
+      them from on-premises or other Clouds to Azure.
+    homepage_url: https://azure.microsoft.com/en-us/services/kubernetes-service/
+    item: null
+    logo: microsoft-azure.svg
+    name: Microsoft (KCSP)
+    twitter: https://twitter.com/Azure
+  - crunchbase: https://www.crunchbase.com/organization/mirantis
+    description: Mirantis provides full-stack support for clouds built with Kubernetes
+      and related open source software, using a flexible GitOps model for lifecycle
+      management.
+    homepage_url: https://www.mirantis.com/software/mirantis-kubernetes-engine
+    item: null
+    logo: mirantis.svg
+    name: Mirantis (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/mobilise-cloud-services
+    description: Mobilise Cloud enables clients through technical consulting, enterprise-level
+      platform development, and fully managed Kubernetes services.
+    homepage_url: https://www.mobilise.cloud/
+    item: null
+    logo: mobilise.svg
+    name: Mobilise Cloud Services (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/msys-technologies
+    description: We architect, develop, and manage modern distributed systems leveraging
+      open source, cloud native, and containerized technologies with Kubernetes-centric
+      focus.
+    homepage_url: https://www.msystechnologies.com
+    item: null
+    logo: msys.svg
+    name: MSys Technologies (KCSP)
+  Kubernetes Training Partner:
+  - crunchbase: https://www.crunchbase.com/organization/mirantis
+    description: We offer intensive cloud native training bootcamp(s) for IT professionals
+      looking to develop skills in deploying and administering containerized applications
+      in Kubernetes.
+    homepage_url: https://training.mirantis.com/cloud-native-learning-track/
+    item: null
+    logo: mirantis.svg
+    name: Mirantis (KTP)
+Wasm:
+  Debugging and Observability: []
+  Installable Platform: []
+  Packaging, Registries & Application Delivery: []
+  Runtime: []
+  Specifications: []
+  Toolchain: []

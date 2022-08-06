@@ -1,0 +1,653 @@
+App Definition and Development:
+  Application Definition & Image Build:
+  - crunchbase: https://www.crunchbase.com/organization/coding-2
+    extra:
+      accepted: '2021-11-17'
+      artwork_url: https://github.com/cncf/artwork/tree/master/projects/nocalhost
+      blog_url: https://nocalhost.dev/blog
+      dev_stats_url: https://nocalhost.devstats.cncf.io/
+      mailing_list_url: https://groups.google.com/g/nocalhost
+      slack_url: https://cloud-native.slack.com/archives/C02NLKZCJ5D
+      youtube_url: https://www.youtube.com/channel/UC2QC6HvFG8zOtFRvvMzcAUw
+    homepage_url: https://nocalhost.dev
+    item: null
+    logo: nocalhost.svg
+    name: Nocalhost
+    project: sandbox
+    repo_url: https://github.com/nocalhost/nocalhost
+  Continuous Integration & Delivery: []
+  Database:
+  - crunchbase: https://www.crunchbase.com/organization/nebula-graph
+    homepage_url: https://nebula-graph.io/
+    item: null
+    logo: nebula-graph.svg
+    name: Nebula Graph
+    repo_url: https://github.com/vesoft-inc/nebula
+  - crunchbase: https://www.crunchbase.com/organization/neo-technology
+    homepage_url: https://neo4j.com
+    item: null
+    logo: neo4j.svg
+    name: Neo4j
+    repo_url: https://github.com/neo4j/neo4j
+  - crunchbase: https://www.crunchbase.com/organization/salesforce
+    homepage_url: https://github.com/attic-labs/noms
+    item: null
+    logo: noms.svg
+    name: NomsDB
+    repo_url: https://github.com/attic-labs/noms
+    twitter: https://twitter.com/SalesforceEng
+  - crunchbase: https://www.crunchbase.com/organization/nuodb
+    homepage_url: https://www.nuodb.com/
+    item: null
+    logo: nuodb.svg
+    name: NuoDB
+  Streaming & Messaging:
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      accepted: '2018-03-15'
+      artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#nats-logos
+      dev_stats_url: https://nats.devstats.cncf.io/
+      mailing_list_url: https://nats.io/blog/
+      slack_url: https://natsio.slack.com/join/shared_invite/enQtMzE2NDkxNDI2NTE1LTc5ZDEzYTkwYWZkYWQ5YjY1MzBjMWZmYzA5OGQxMzlkMGQzMjYxNGM3MWYxMjNiYmNjNzIwMTVjMWE2ZDgxZGM
+      stack_overflow_url: https://stackoverflow.com/questions/tagged/nats.io
+    homepage_url: https://nats.io/
+    item: null
+    logo: nats.svg
+    name: NATS
+    project: incubating
+    repo_url: https://github.com/nats-io/nats-server
+    twitter: https://twitter.com/nats_io
+    url_for_bestpractices: https://github.com/nats-io
+CNCF Members:
+  Academic: []
+  End User Supporter:
+  - crunchbase: https://www.crunchbase.com/organization/n26
+    homepage_url: https://n26.com/en-us
+    item: null
+    logo: n26.svg
+    name: N26 (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/nasdaq
+    homepage_url: https://www.nasdaq.com/
+    item: null
+    logo: nasdaq-supporter.svg
+    name: Nasdaq (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/netmatch-2
+    homepage_url: https://www.netmatch.nl/
+    item: null
+    logo: netmatch.svg
+    name: NetMatch (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/nielsen
+    homepage_url: https://global.nielsen.com
+    item: null
+    logo: nielsen-supporter.svg
+    name: Nielsen (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/nielseniq
+    enduser: true
+    homepage_url: https://nielseniq.com/global/en/
+    item: null
+    joined: '2021-04-02'
+    logo: nlsiq.svg
+    name: NielsenIQ (supporter)
+  - homepage_url: https://www.cncf.io/
+    item: null
+    logo: bear.svg
+    name: Non-Public Organization Bear (supporter)
+    unnamed_organization: true
+  - homepage_url: https://www.cncf.io/
+    item: null
+    logo: dog.svg
+    name: Non-Public Organization Dog (supporter)
+    unnamed_organization: true
+  - homepage_url: https://www.cncf.io/
+    item: null
+    logo: elephant.svg
+    name: Non-Public Organization Elephant (supporter)
+    unnamed_organization: true
+  - homepage_url: https://www.cncf.io/
+    item: null
+    logo: flamingo.svg
+    name: Non-Public Organization Flamingo (supporter)
+    unnamed_organization: true
+  - homepage_url: https://www.cncf.io/
+    item: null
+    logo: giraffe.svg
+    name: Non-Public Organization Giraffe (supporter)
+    unnamed_organization: true
+  - homepage_url: https://www.cncf.io/
+    item: null
+    logo: horse.svg
+    name: Non-Public Organization Horse (supporter)
+    unnamed_organization: true
+  - homepage_url: https://www.cncf.io/
+    item: null
+    logo: iguana.svg
+    name: Non-Public Organization Iguana (supporter)
+    unnamed_organization: true
+  - homepage_url: https://www.cncf.io/
+    item: null
+    logo: jellyfish.svg
+    name: Non-Public Organization Jellyfish (supporter)
+    unnamed_organization: true
+  - homepage_url: https://www.cncf.io/
+    item: null
+    logo: kiwi.svg
+    name: Non-Public Organization Kiwi (supporter)
+    unnamed_organization: true
+  Gold:
+  - crunchbase: https://www.crunchbase.com/organization/nec
+    homepage_url: https://www.nec.com/
+    item: null
+    logo: nec.svg
+    name: NEC (member)
+  Nonprofit:
+  - crunchbase: https://www.crunchbase.com/organization/national-association-of-insurance-commissioners-naic
+    enduser: true
+    homepage_url: https://content.naic.org
+    item: null
+    logo: naic-member.svg
+    name: NAIC (member)
+  - crunchbase: https://www.crunchbase.com/organization/national-information-society-agency
+    homepage_url: https://www.nia.or.kr/site/nia_kor/main.do
+    item: null
+    logo: nia.svg
+    name: National Information Society Agency (member)
+  - crunchbase: https://www.crunchbase.com/organization/nipr
+    enduser: true
+    homepage_url: https://www.nipr.com/
+    item: null
+    logo: nipr-member.svg
+    name: NIPR (member)
+  - enduser: true
+    homepage_url: https://www.cncf.io/
+    item: null
+    logo: octopus.svg
+    name: Non-Public Organization Octopus (member)
+    unnamed_organization: true
+  - enduser: true
+    homepage_url: https://www.cncf.io/
+    item: null
+    logo: quail.svg
+    name: Non-Public Organization Quail (member)
+    unnamed_organization: true
+  Platinum:
+  - crunchbase: https://www.crunchbase.com/organization/netapp
+    homepage_url: https://www.netapp.com
+    item: null
+    logo: netapp.svg
+    name: NetApp (member)
+  - crunchbase: https://www.crunchbase.com/organization/new-relic
+    homepage_url: https://newrelic.com
+    item: null
+    logo: newrelic.svg
+    name: New Relic (member)
+  Silver:
+  - crunchbase: https://www.crunchbase.com/organization/n3n-cloud
+    homepage_url: https://www.aifrica.co.kr
+    item: null
+    logo: n3ncloud.svg
+    name: N3NCLOUD (member)
+  - crunchbase: https://www.crunchbase.com/organization/namutech
+    homepage_url: https://www.namutech.co.kr/
+    item: null
+    logo: namutech.svg
+    name: Namutech (member)
+  - crunchbase: https://www.crunchbase.com/organization/navitas-business-consulting
+    homepage_url: https://www.navitas-tech.com/404.html
+    item: null
+    logo: navitas-business-consulting-member.svg
+    name: Navitas Business Consulting (member)
+  - crunchbase: https://www.crunchbase.com/organization/ncsoft
+    enduser: true
+    homepage_url: https://kr.ncsoft.com/en/index.do
+    item: null
+    logo: ncsoft-member.svg
+    name: NCSOFT (member)
+  - crunchbase: https://www.crunchbase.com/organization/netdata
+    homepage_url: https://www.netdata.cloud
+    item: null
+    logo: netdata.svg
+    name: Netdata (member)
+  - crunchbase: https://www.crunchbase.com/organization/netease-com
+    homepage_url: https://sf.163.com
+    item: null
+    logo: netease.svg
+    name: NetEase (member)
+  - crunchbase: https://www.crunchbase.com/organization/netfoundry
+    homepage_url: https://netfoundry.io/
+    item: null
+    logo: net-foundry-member.svg
+    name: NetFoundry (member)
+  - crunchbase: https://www.crunchbase.com/organization/nethopper-io
+    homepage_url: https://www.nethopper.io/
+    item: null
+    logo: nethopper.svg
+    name: Nethopper (member)
+  - crunchbase: https://www.crunchbase.com/organization/netis-technologies-c590
+    homepage_url: https://wordpress.com/browsehappy
+    item: null
+    logo: netis.svg
+    name: Netis (member)
+  - crunchbase: https://www.crunchbase.com/organization/netris
+    homepage_url: https://www.netris.ai/
+    item: null
+    logo: netris.svg
+    name: Netris (member)
+  - crunchbase: https://www.crunchbase.com/organization/neuroglia-srl
+    homepage_url: https://neuroglia.io
+    item: null
+    logo: neuroglia.svg
+    name: Neuroglia (member)
+  - crunchbase: https://www.crunchbase.com/organization/new-black-a202
+    homepage_url: https://www.newblack.io/
+    item: null
+    logo: new-black.svg
+    name: New Black (member)
+  - crunchbase: https://www.crunchbase.com/organization/nexcloud
+    homepage_url: https://www.nexclipper.io/
+    item: null
+    logo: nexclipper.svg
+    name: NexClipper (member)
+  - crunchbase: https://www.crunchbase.com/organization/nextgen-tek-consulting
+    homepage_url: https://www.nextgentek.io/
+    item: null
+    logo: nextgen-tek.svg
+    name: NextGenTek (member)
+  - crunchbase: https://www.crunchbase.com/organization/nginx
+    homepage_url: https://www.nginx.com
+    item: null
+    logo: nginx.svg
+    name: NGINX (member)
+  - crunchbase: https://www.crunchbase.com/organization/nhn-cloud
+    homepage_url: https://cloud.nhn.com/
+    item: null
+    logo: nhn-cloud.svg
+    name: NHN Cloud (member)
+  - crunchbase: https://www.crunchbase.com/organization/nirmata
+    homepage_url: https://www.nirmata.com
+    item: null
+    logo: nirmata-member.svg
+    name: Nirmata (member)
+  - crunchbase: https://www.crunchbase.com/organization/nokia
+    homepage_url: https://www.nokia.com
+    item: null
+    logo: nokia-member.svg
+    name: Nokia (member)
+    stock_ticker: NOK
+  - homepage_url: https://www.cncf.io/
+    item: null
+    logo: alligator.svg
+    name: Non-Public Organization Alligator (member)
+    unnamed_organization: true
+  - enduser: true
+    homepage_url: https://www.cncf.io/
+    item: null
+    logo: camel.svg
+    name: Non-Public Organization Camel (member)
+    unnamed_organization: true
+  - enduser: true
+    homepage_url: https://www.cncf.io/
+    item: null
+    logo: moose.svg
+    name: Non-Public Organization Moose (member)
+    unnamed_organization: true
+  - enduser: true
+    homepage_url: https://www.cncf.io/
+    item: null
+    logo: narwhal.svg
+    name: Non-Public Organization Narwhal (member)
+    unnamed_organization: true
+  - crunchbase: https://www.crunchbase.com/organization/ns1
+    homepage_url: https://ns1.com/
+    item: null
+    logo: ns1.svg
+    name: NS1 (member)
+  - crunchbase: https://www.crunchbase.com/organization/ntt-data
+    homepage_url: https://www.nttdata.com/global/en
+    item: null
+    logo: ntt-data-member.svg
+    name: NTT DATA (member)
+  - crunchbase: https://www.crunchbase.com/organization/nutanix
+    homepage_url: https://www.nutanix.com
+    item: null
+    logo: nutanix.svg
+    name: Nutanix (member)
+  - crunchbase: https://www.crunchbase.com/organization/nuvitek
+    homepage_url: https://nuvitek.com/
+    item: null
+    logo: nuvitek.svg
+    name: Nuvitek (member)
+  - crunchbase: https://www.crunchbase.com/organization/nvidia
+    homepage_url: https://www.nvidia.com/en-us/
+    item: null
+    logo: nvidia-member.svg
+    name: NVIDIA (member)
+Observability and Analysis:
+  Chaos Engineering: []
+  Continuous Optimization: []
+  Logging: []
+  Monitoring:
+  - branch: maint
+    crunchbase: https://www.crunchbase.com/organization/nagios
+    homepage_url: https://www.nagios.com/
+    item: null
+    logo: nagios.svg
+    name: Nagios
+    repo_url: https://github.com/NagiosEnterprises/nagioscore
+  - crunchbase: https://www.crunchbase.com/organization/netdata
+    homepage_url: https://www.netdata.cloud
+    item: null
+    logo: netdata.svg
+    name: Netdata
+    repo_url: https://github.com/netdata/netdata
+  - crunchbase: https://www.crunchbase.com/organization/netis-technologies-c590
+    homepage_url: https://wordpress.com/browsehappy
+    item: null
+    logo: netis.svg
+    name: Netis
+    repo_url: https://github.com/Netis/packet-agent
+  - crunchbase: https://www.crunchbase.com/organization/new-relic
+    homepage_url: https://newrelic.com/
+    item: null
+    logo: newrelic.svg
+    name: New Relic
+    twitter: https://twitter.com/NewRelic
+  - crunchbase: https://www.crunchbase.com/organization/nexcloud
+    homepage_url: https://www.nexclipper.io/
+    item: null
+    logo: nexclipper.svg
+    name: NexClipper
+    repo_url: https://github.com/NexClipper/NexClipper
+    twitter: https://twitter.com/nexclipper
+  - crunchbase: https://www.crunchbase.com/organization/didi
+    homepage_url: http://n9e.didiyun.com
+    item: null
+    joined: '2021-02-01'
+    logo: nightingale.svg
+    name: Nightingale
+    repo_url: https://github.com/didi/nightingale
+  - crunchbase: https://www.crunchbase.com/organization/nodesource
+    homepage_url: https://nodesource.com/
+    item: null
+    logo: nodesource.svg
+    name: NodeSource
+  Tracing: []
+Orchestration & Management:
+  API Gateway: []
+  Coordination & Service Discovery:
+  - crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
+    homepage_url: https://nacos.io/en-us/
+    item: null
+    logo: alibaba-nacos.svg
+    name: Nacos
+    repo_url: https://github.com/alibaba/nacos
+    twitter: https://twitter.com/nacos2
+  - crunchbase: https://www.crunchbase.com/organization/netflix
+    homepage_url: https://github.com/Netflix/eureka
+    item: null
+    logo: netflix-oss-eureka.svg
+    name: Netflix Eureka
+    repo_url: https://github.com/Netflix/eureka
+    twitter: https://twitter.com/netflixoss
+  Remote Procedure Call: []
+  Scheduling & Orchestration:
+  - crunchbase: https://www.crunchbase.com/organization/hashicorp
+    homepage_url: https://www.nomadproject.io/
+    item: null
+    logo: nomad.svg
+    name: Nomad
+    repo_url: https://github.com/hashicorp/nomad
+  Service Mesh: []
+  Service Proxy:
+  - crunchbase: https://www.crunchbase.com/organization/netflix
+    homepage_url: https://github.com/Netflix/zuul
+    item: null
+    logo: netflix-oss-zuul.svg
+    name: Netflix Zuul
+    repo_url: https://github.com/Netflix/zuul
+    twitter: https://twitter.com/netflixoss
+  - crunchbase: https://www.crunchbase.com/organization/nginx
+    homepage_url: https://www.nginx.com/
+    item: null
+    logo: nginx.svg
+    name: NGINX
+    repo_url: https://github.com/nginx/nginx
+Platform:
+  Certified Kubernetes - Distribution:
+  - crunchbase: https://www.crunchbase.com/organization/netease-com
+    description: Netease Qingzhou Microservice is a one-stop PaaS platform built around
+      applications and microservice, which helps users to quickly realize microservice
+      solutions of easy access, easy operation and maintenance.
+    homepage_url: https://sf.163.com/product-nsf
+    item: null
+    logo: netease.svg
+    name: Netease Qingzhou Microservice
+  Certified Kubernetes - Hosted:
+  - crunchbase: https://www.crunchbase.com/organization/xenonstack
+    description: Nexastack is a  Platform for the Automation of Cloud Native and IaC
+      Tools for Effective Infrastructure Management.
+    homepage_url: https://www.nexastack.com
+    item: null
+    logo: nexastack.svg
+    name: Nexastack Managed Kubernetes
+  - crunchbase: https://www.crunchbase.com/organization/nhn-cloud
+    description: NKS(NHN Kubernetes Service) is a managed Kubernetes service that
+      allows you to easily deploy a Kubernetes cluster in NHN Cloud.
+    homepage_url: https://www.toast.com
+    item: null
+    logo: nhn-cloud.svg
+    name: NHN Kubernetes Service (NKS)
+  - crunchbase: https://www.crunchbase.com/organization/fujitsu
+    description: NIFCLOUD Hatoba is a managed Kubernetes as a Service that deploys
+      enterprise container applications and operates them simply and usefully on NIFCLOUD.
+    homepage_url: https://pfs.nifcloud.com/service/hatoba.htm
+    item: null
+    logo: nifcloud-hatoba.svg
+    name: NIFCLOUD Kubernetes Service Hatoba
+  - crunchbase: https://www.crunchbase.com/organization/nirmata
+    description: Simplify Day 2 operations and management for Kubernetes with a unified
+      management plane across all your clusters and workloads.
+    homepage_url: https://www.nirmata.com/
+    item: null
+    logo: nirmata.svg
+    name: Nirmata Managed Kubernetes
+  - crunchbase: https://www.crunchbase.com/organization/nutanix
+    description: Managed Kubernetes offering by Nutanix
+    homepage_url: https://www.nutanix.com
+    item: null
+    logo: nutanix.svg
+    name: Nutanix Karbon
+  Certified Kubernetes - Installer: []
+  PaaS/Container Service:
+  - crunchbase: https://www.crunchbase.com/organization/no-code
+    homepage_url: https://github.com/kelseyhightower/nocode
+    item: null
+    logo: nocode.svg
+    name: No Code
+    repo_url: https://github.com/kelseyhightower/nocode
+Provisioning:
+  Automation & Configuration: []
+  Container Registry: []
+  Key Management: []
+  Security & Compliance:
+  - crunchbase: https://www.crunchbase.com/organization/neuvector
+    homepage_url: https://neuvector.com/
+    item: null
+    logo: neuvector.svg
+    name: NeuVector
+  - crunchbase: https://www.crunchbase.com/organization/nirmata
+    description: The solution enables DevSecOps teams to ensure the security, compliance,
+      and operational readiness of their Kubernetes workloads and clusters. By automating
+      the creation, deployment, and lifecycle management of policy-based Intelligent
+      Guardrails, customers can gain insights, alerts, and reports, and enable effective
+      collaboration across development and operations teams.
+    homepage_url: https://www.nirmata.com/
+    item: null
+    logo: nirmata.svg
+    name: Nirmata Cloud Native Policy Manager
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      accepted: '2017-10-24'
+      artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#notary-logos
+      dev_stats_url: https://notary.devstats.cncf.io/
+      stack_overflow_url: https://stackoverflow.com/questions/tagged/notary
+    homepage_url: https://notaryproject.dev/
+    item: null
+    logo: notary.svg
+    name: Notary
+    project: incubating
+    repo_url: https://github.com/notaryproject/notary
+Runtime:
+  Cloud Native Network:
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      accepted: '2019-04-11'
+      artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#network-service-mesh-logos
+      dev_stats_url: https://networkservicemesh.devstats.cncf.io/
+      mailing_list_url: https://groups.google.com/forum/#!forum/networkservicemesh
+      slack_url: https://cloud-native.slack.com/messages/CHQNNUPN1/details/
+    homepage_url: https://networkservicemesh.io/
+    item: null
+    logo: network-service-mesh.svg
+    name: Network Service Mesh
+    project: sandbox
+    repo_url: https://github.com/networkservicemesh/networkservicemesh
+    twitter: https://twitter.com/nservicemesh
+  - crunchbase: https://www.crunchbase.com/organization/nuage-networks
+    homepage_url: https://www.nuagenetworks.net/
+    item: null
+    logo: nuagenetworks.svg
+    name: Nuage Networks
+  Cloud Native Storage:
+  - crunchbase: https://www.crunchbase.com/organization/netapp
+    description: "Build your Data Fabric on the industry\u2019s broadest portfolio\
+      \ of all-flash, hybrid-flash, and object storage systems."
+    homepage_url: https://www.netapp.com/data-storage
+    item: null
+    logo: netapp.svg
+    name: NetApp
+  - crunchbase: https://www.crunchbase.com/organization/nutanix
+    homepage_url: https://www.nutanix.com/products/objects
+    item: null
+    logo: nutanix.svg
+    name: Nutanix Objects
+  Container Runtime: []
+Serverless:
+  Framework:
+  - crunchbase: https://www.crunchbase.com/organization/nitric
+    homepage_url: https://nitric.io/
+    item: null
+    logo: nitric.svg
+    name: Nitric
+    repo_url: https://github.com/nitrictech/nitric
+  Hosted Platform:
+  - crunchbase: https://www.crunchbase.com/organization/netlify
+    description: Run your application code without servers, scale it automatically,
+      and pay nothing when it's not in use.
+    homepage_url: https://www.netlify.com/products/functions/
+    item: null
+    logo: netlify-functions.svg
+    name: Netlify Functions
+    twitter: https://twitter.com/Netlify
+  - crunchbase: https://www.crunchbase.com/organization/nimbella
+    homepage_url: https://www.digitalocean.com/nimbella
+    item: null
+    logo: nimbella.svg
+    name: Nimbella
+    twitter: https://twitter.com/nimbella
+  - crunchbase: https://www.crunchbase.com/organization/nuweba
+    description: Nuweba is an ultra-fast and highly-secure FaaS Platform. Nuweba rearchitected
+      serverless from the kernel up to enable companies to use serverless for applications
+      that require scalability, high performance, advanced application security and
+      deep visibility in real-time. Nuweba is compatible with leading serverless platforms,
+      so you can start using Nuweba with only one click and without any changes to
+      your code or configuration.
+    homepage_url: https://www.nuweba.com
+    item: null
+    logo: nuweba.svg
+    name: Nuweba
+    twitter: null
+  Installable Platform:
+  - crunchbase: https://www.crunchbase.com/organization/iguaz-io
+    homepage_url: https://nuclio.io/
+    item: null
+    logo: nuclio.svg
+    name: Nuclio
+    repo_url: https://github.com/nuclio/nuclio
+    twitter: https://twitter.com/nuclioio
+  Security: []
+  Tools:
+  - crunchbase: https://www.crunchbase.com/organization/node-lambda
+    homepage_url: https://github.com/motdotla/node-lambda
+    item: null
+    logo: nodelambda.svg
+    name: Node Lambda
+    repo_url: https://github.com/motdotla/node-lambda
+Special:
+  Certified CNFs: []
+  Kubernetes Certified Service Provider:
+  - crunchbase: https://www.crunchbase.com/organization/n3n-cloud
+    description: N3NCLOUD is a service company that develops an AI Dev platform based
+      on Kubernetes. We provide services to universities and research institutes.
+    homepage_url: https://www.aifrica.co.kr/cheetah
+    item: null
+    logo: n3ncloud.svg
+    name: N3NCLOUD (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/namutech
+    description: Namutech provides an enterprise cloud native platform based on Kubernetes
+      along with implementation, containerization, and training services.
+    homepage_url: https://www.namutech.co.kr/cocktail-cloud/?lang=en
+    item: null
+    logo: namutech.svg
+    name: Namutech (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/navitas-business-consulting
+    description: Navitas helps public and private sector companies develop, integrate,
+      and deploy applications faster with Kubernetes and emerging ecosystem technologies.
+    homepage_url: https://www.navitas-tech.com/404.html
+    item: null
+    logo: navitas-business-consulting-kcsp.svg
+    name: Navitas Business Consulting (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/nec
+    description: NEC provides a Digital Transformation platform based on Kubernetes
+      by working together with the Kubernetes community.
+    homepage_url: https://jpn.nec.com/oss/middle_support/openshift/index.html
+    item: null
+    logo: nec.svg
+    name: NEC (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/netapp
+    description: NetApp offers a wide range of support plans for managed Kubernetes
+      clusters built through its universal control plane for Kubernetes Anywhere.
+    homepage_url: https://cloud.netapp.com
+    item: null
+    logo: netapp.svg
+    name: NetApp (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/netease-com
+    description: Netease Cloud provide professional container solution, which integrates
+      IaaS, PaaS and container technology such as Kubernetes and Docker. It provides
+      services such as flexible computing, DevOps tool chain, micro-services infrastructure
+      and other services to help enterprises solve IT, architecture, operation and
+      maintenance problems, making enterprises more focused on business.
+    homepage_url: https://sf.163.com/product/ncs
+    item: null
+    logo: netease.svg
+    name: Netease (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/nirmata
+    description: Nirmata simplifies kubernetes for application development teams.
+    homepage_url: https://www.nirmata.com/
+    item: null
+    logo: nirmata.svg
+    name: Nirmata (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/ntt-data
+    description: NTT DATA, a member of the NTT Group, brings the power of the world's
+      leading infrastructure provider in the global K8s community.
+    homepage_url: https://de.nttdata.com/services/consulting
+    item: null
+    logo: ntt-data.svg
+    name: NTT DATA (KCSP)
+  Kubernetes Training Partner: []
+Wasm:
+  Debugging and Observability: []
+  Installable Platform: []
+  Packaging, Registries & Application Delivery: []
+  Runtime: []
+  Specifications: []
+  Toolchain: []

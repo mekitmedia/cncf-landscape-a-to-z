@@ -1,0 +1,725 @@
+App Definition and Development:
+  Application Definition & Image Build:
+  - crunchbase: https://www.crunchbase.com/organization/deployhub
+    homepage_url: https://www.deployhub.com/
+    item: null
+    logo: deploy-hub.svg
+    name: DeployHub
+    twitter: https://twitter.com/DeployHubProj
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      chat_channel: '#devfile'
+      slack_url: https://kubernetes.slack.com/messages/devfile
+    homepage_url: https://devfile.io
+    item: null
+    logo: devfile.svg
+    name: Devfile
+    project: sandbox
+    repo_url: https://github.com/devfile/api
+  - crunchbase: https://www.crunchbase.com/organization/loft-labs
+    homepage_url: https://loft.sh
+    item: null
+    logo: devspace.svg
+    name: DevSpace
+    repo_url: https://github.com/loft-sh/devspace
+  - crunchbase: https://www.crunchbase.com/organization/docker
+    homepage_url: https://docs.docker.com/compose/
+    item: null
+    logo: docker-compose.svg
+    name: Docker Compose
+    repo_url: https://github.com/docker/compose
+    twitter: https://twitter.com/moby
+  Continuous Integration & Delivery:
+  - crunchbase: https://www.crunchbase.com/organization/D2iQ
+    description: Dispatch is a cloud native CI/CD platform for enabling enterprises
+      to adopt GitOps methodologies running on Kubernetes.
+    homepage_url: https://d2iq.com/kubernetes-platform
+    item: null
+    logo: d2iq-dispatch.svg
+    name: D2iQ Dispatch
+  - crunchbase: https://www.crunchbase.com/organization/apache
+    homepage_url: https://dolphinscheduler.apache.org/
+    item: null
+    logo: dolphin-scheduler.svg
+    name: DolphinScheduler
+    repo_url: https://github.com/apache/dolphinscheduler
+    twitter: https://twitter.com/dolphinschedule
+  - crunchbase: https://www.crunchbase.com/organization/drone-io
+    homepage_url: http://try.drone.io/
+    item: null
+    logo: drone.svg
+    name: Drone
+    repo_url: https://github.com/harness/drone
+  Database:
+  - crunchbase: https://www.crunchbase.com/organization/dgraph
+    homepage_url: https://dgraph.io/
+    item: null
+    logo: dgraph.svg
+    name: Dgraph
+    open_source: false
+    repo_url: https://github.com/dgraph-io/dgraph
+  - crunchbase: https://www.crunchbase.com/organization/apache
+    homepage_url: https://druid.apache.org/
+    item: null
+    logo: druid.svg
+    name: Druid
+    repo_url: https://github.com/apache/druid
+    twitter: https://twitter.com/druidio
+  Streaming & Messaging: []
+CNCF Members:
+  Academic: []
+  End User Supporter:
+  - crunchbase: https://www.crunchbase.com/organization/datagalaxy
+    homepage_url: https://www.datagalaxy.com/fr/page-daccueil
+    item: null
+    joined: '2020-10-19'
+    logo: datagalaxy.svg
+    name: DataGalaxy (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/dave-com
+    homepage_url: https://dave.com/
+    item: null
+    joined: '2021-08-29'
+    logo: dave.svg
+    name: Dave (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/db-systel
+    homepage_url: https://www.dbsystel.de/dbsystel-en
+    item: null
+    logo: db-systel.svg
+    name: DB Systel (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/dfds
+    homepage_url: https://www.dfds.com/en
+    item: null
+    joined: '2021-11-11'
+    logo: dfds.svg
+    name: DFDS (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/directv
+    homepage_url: https://www.directv.com/
+    item: null
+    joined: '2021-10-07'
+    logo: directv.svg
+    name: DIRECTV (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/doordash
+    homepage_url: https://www.doordash.com/
+    item: null
+    logo: door-dash-supporter.svg
+    name: DoorDash (supporter)
+  Gold: []
+  Nonprofit: []
+  Platinum: []
+  Silver:
+  - crunchbase: https://www.crunchbase.com/organization/D2iQ
+    homepage_url: https://d2iq.com/
+    item: null
+    logo: d2iq.svg
+    name: D2iQ (member)
+  - crunchbase: https://www.crunchbase.com/organization/daekyo-cns
+    homepage_url: https://www.daekyocns.co.kr/
+    item: null
+    logo: daekyo.svg
+    name: Daekyo CNS (member)
+  - crunchbase: https://www.crunchbase.com/organization/dalian-hi-think-computer-technology
+    homepage_url: https://www.dhc.com.cn
+    item: null
+    joined: '2021-02-02'
+    logo: dalian.svg
+    name: Dalian Hi-Think (member)
+  - crunchbase: https://www.crunchbase.com/organization/daocloud
+    homepage_url: https://www.daocloud.io
+    item: null
+    logo: dao-cloud-member.svg
+    name: DaoCloud (member)
+  - crunchbase: https://www.crunchbase.com/organization/data-essential
+    homepage_url: https://www.data-essential.com
+    item: null
+    logo: data-essential.svg
+    name: Data Essential (member)
+  - crunchbase: https://www.crunchbase.com/organization/datacore-software
+    homepage_url: https://www.datacore.com/
+    item: null
+    logo: datacore.svg
+    name: DataCore (member)
+  - crunchbase: https://www.crunchbase.com/organization/datadog
+    homepage_url: https://www.datadoghq.com
+    item: null
+    logo: datadog-member.svg
+    name: Datadog (member)
+  - crunchbase: https://www.crunchbase.com/organization/datadrivers
+    homepage_url: https://www.datadrivers.de/
+    item: null
+    logo: datadrivers-member.svg
+    name: Datadrivers (member)
+  - crunchbase: https://www.crunchbase.com/organization/datastax
+    homepage_url: https://www.datastax.com/
+    item: null
+    logo: datastax.svg
+    name: Datastax (member)
+  - crunchbase: https://www.crunchbase.com/organization/beijing-datenlord-technology
+    homepage_url: http://www.datenlord.io/
+    item: null
+    logo: datenlord.svg
+    name: DatenLord (member)
+  - crunchbase: https://www.crunchbase.com/organization/datree-io
+    homepage_url: https://datree.io/
+    item: null
+    logo: datree logo Tall - color.svg
+    name: Datree (member)
+  - crunchbase: https://www.crunchbase.com/organization/daugherty-business-solutions-2
+    homepage_url: https://www.daugherty.com/
+    item: null
+    logo: daugherty.svg
+    name: Daugherty Business Solutions (member)
+  - crunchbase: https://www.crunchbase.com/organization/deepfactor
+    homepage_url: https://www.deepfactor.io/
+    item: null
+    logo: deepfactor.svg
+    name: Deepfactor (member)
+  - crunchbase: https://www.crunchbase.com/organization/deepfence
+    homepage_url: https://www.deepfence.io/
+    item: null
+    logo: deepfence.svg
+    name: Deepfence (member)
+  - crunchbase: https://www.crunchbase.com/organization/deepshore
+    homepage_url: https://deepshore.de
+    item: null
+    logo: deepshore.svg
+    name: Deepshore (member)
+  - crunchbase: https://www.crunchbase.com/organization/dell-emc
+    homepage_url: https://www.dell.com/en-us
+    item: null
+    logo: dell-technologies.svg
+    name: Dell Technologies (member)
+  - crunchbase: https://www.crunchbase.com/organization/deloitte
+    homepage_url: https://www2.deloitte.com/cn/zh.html
+    item: null
+    logo: deloitte-consulting-member.svg
+    name: Deloitte Consulting (member)
+  - crunchbase: https://www.crunchbase.com/organization/denso
+    enduser: true
+    homepage_url: https://www.denso.com/global/en/
+    item: null
+    logo: denso-member.svg
+    name: DENSO (member)
+    stock_ticker: DNZOY
+  - crunchbase: https://www.crunchbase.com/organization/desotech
+    homepage_url: https://www.deso.tech/
+    item: null
+    logo: desotech.svg
+    name: Desotech (member)
+  - crunchbase: https://www.crunchbase.com/organization/devsamurai
+    homepage_url: https://www.devsamurai.com/en/
+    item: null
+    logo: devsamurai.svg
+    name: DevSamurai (member)
+  - crunchbase: https://www.crunchbase.com/organization/devsoperative
+    homepage_url: https://www.devsoperative.com
+    item: null
+    logo: devsoperative.svg
+    name: DevsOperative (member)
+  - crunchbase: https://www.crunchbase.com/organization/dg-i
+    homepage_url: https://www.dg-i.net
+    item: null
+    logo: dgi.svg
+    name: DGi (member)
+  - crunchbase: https://www.crunchbase.com/organization/diamanti
+    homepage_url: https://diamanti.com
+    item: null
+    logo: diamanti.svg
+    name: Diamanti (member)
+  - crunchbase: https://www.crunchbase.com/organization/didi-dache
+    enduser: true
+    homepage_url: https://www.didiglobal.com/news/newsCenter?pageNum=1
+    item: null
+    logo: di-di-infinity-technology-and-development-member.svg
+    name: DiDi Infinity Technology and Development (member)
+    twitter: null
+  - crunchbase: https://www.crunchbase.com/organization/didim365
+    homepage_url: https://www.didim365.com/
+    item: null
+    logo: didim365.svg
+    name: Didim365 (member)
+  - crunchbase: https://www.crunchbase.com/organization/digitalis-io
+    homepage_url: https://digitalisio.cloudflareaccess.com/cdn-cgi/access/login/digitalis.io
+    item: null
+    logo: digitalis.svg
+    name: Digitalis.io (member)
+  - crunchbase: https://www.crunchbase.com/organization/digitalocean
+    homepage_url: https://www.digitalocean.com/
+    item: null
+    logo: digital-ocean.svg
+    name: DigitalOcean (member)
+  - crunchbase: https://www.crunchbase.com/organization/direktiv
+    homepage_url: https://direktiv.io
+    item: null
+    logo: direktiv.svg
+    name: Direktiv (member)
+  - crunchbase: https://www.crunchbase.com/organization/dito
+    homepage_url: https://www.ditoweb.com/
+    item: null
+    logo: dito.svg
+    name: Dito (member)
+  - crunchbase: https://www.crunchbase.com/organization/docker
+    homepage_url: https://www.docker.com
+    item: null
+    logo: docker-member.svg
+    name: Docker (member)
+  - crunchbase: https://www.crunchbase.com/organization/docomo-innovations
+    homepage_url: https://www.docomoinnovations.com/
+    item: null
+    logo: docomo.svg
+    name: DOCOMO Innovations (member)
+  - crunchbase: https://www.crunchbase.com/organization/doit-international
+    homepage_url: https://www.doit-intl.com
+    item: null
+    logo: doi-t-international-member.svg
+    name: DoiT International (member)
+  - crunchbase: https://www.crunchbase.com/organization/data-on-kubernetes-community
+    homepage_url: https://www.dok.community/
+    item: null
+    logo: dok-community.svg
+    name: DoK Community (member)
+  - crunchbase: https://www.crunchbase.com/organization/doppler
+    homepage_url: https://www.doppler.com/
+    item: null
+    logo: doppler.svg
+    name: Doppler (member)
+    twitter: https://twitter.com/doppler
+  - crunchbase: https://www.crunchbase.com/organization/dosec
+    description: Dosec is a cloud-native security solution provider with security
+      protection capabilities for containers, kubernetes, microservices, serverless,
+      and DevOps.
+    homepage_url: https://www.dosec.cn/
+    item: null
+    logo: dosec.svg
+    name: Dosec (member)
+  - crunchbase: https://www.crunchbase.com/organization/dynatrace-software
+    homepage_url: https://www.dynatrace.com
+    item: null
+    logo: dynatrace-member.svg
+    name: Dynatrace (member)
+  - crunchbase: https://www.crunchbase.com/organization/dysnix
+    homepage_url: https://www.dysnix.com/
+    item: null
+    logo: dysnix.svg
+    name: Dysnix (member)
+Observability and Analysis:
+  Chaos Engineering: []
+  Continuous Optimization:
+  - crunchbase: https://www.crunchbase.com/organization/cirba-inc
+    homepage_url: https://www.densify.com/
+    item: null
+    logo: densify.svg
+    name: Densify
+  Logging:
+  - crunchbase: https://www.crunchbase.com/organization/scalyr
+    homepage_url: https://www.dataset.com
+    item: null
+    logo: dataset.svg
+    name: DataSet
+    twitter: https://twitter.com/dataset_s1
+  Monitoring:
+  - crunchbase: https://www.crunchbase.com/organization/datadog
+    homepage_url: https://www.datadoghq.com/
+    item: null
+    logo: datadog.svg
+    name: Datadog
+  - crunchbase: https://www.crunchbase.com/organization/dynatrace-software
+    homepage_url: https://www.dynatrace.com/
+    item: null
+    logo: dynatrace.svg
+    name: Dynatrace
+  Tracing: []
+Orchestration & Management:
+  API Gateway: []
+  Coordination & Service Discovery: []
+  Remote Procedure Call:
+  - crunchbase: https://www.crunchbase.com/organization/apache
+    homepage_url: https://dubbo.apache.org/en/
+    item: null
+    logo: dubbo.svg
+    name: Dubbo
+    repo_url: https://github.com/apache/dubbo
+    twitter: https://twitter.com/ApacheDubbo
+  Scheduling & Orchestration:
+  - crunchbase: https://www.crunchbase.com/organization/docker
+    homepage_url: https://docs.docker.com/engine/swarm/
+    item: null
+    logo: dockerswarm.svg
+    name: Docker Swarm
+    repo_url: https://github.com/moby/swarmkit
+    twitter: https://twitter.com/moby
+  Service Mesh: []
+  Service Proxy: []
+Platform:
+  Certified Kubernetes - Distribution:
+  - crunchbase: https://www.crunchbase.com/organization/D2iQ
+    description: Konvoy is a standalone distribution of Kubernetes that includes a
+      native Kubernetes cluster pre-packaged for deployment with a complement of best-in-class
+      add-on services enabled by default and ready for immediate use.
+    homepage_url: https://d2iq.com/products/konvoy
+    item: null
+    logo: d2iq.svg
+    name: D2iQ Konvoy
+  - crunchbase: https://www.crunchbase.com/organization/daocloud
+    description: Daocloud helps you provide a reliable and consistent basic support
+      environment to meet the high SLA requirements of enterprise critical applications.
+    homepage_url: https://www.daocloud.io/dce
+    item: null
+    logo: daocloud.svg
+    name: DaoCloud Enterprise
+  - crunchbase: https://www.crunchbase.com/organization/desktop-kubernetes
+    description: Stands up a three-VM Kubernetes development cluster on the desktop
+      using VirtualBox, by running a single Bash script.
+    homepage_url: https://github.com/aceeric/desktop-kubernetes
+    item: null
+    logo: desktop-kubernetes.svg
+    name: Desktop Kubernetes
+    repo_url: https://github.com/aceeric/desktop-kubernetes
+  - crunchbase: https://www.crunchbase.com/organization/diamanti
+    description: Diamanti Spektra is a pre-validated and pre-packaged Kubernetes distribution
+      complete with integrated CSI and CNI plugins for modern, distributed applications
+      across the hybrid cloud.
+    homepage_url: https://diamanti.com/products
+    item: null
+    logo: diamanti.svg
+    name: Diamanti Spektra
+  Certified Kubernetes - Hosted:
+  - crunchbase: https://www.crunchbase.com/organization/digitalocean
+    description: DigitalOcean Kubernetes is designed for developers who want a simple
+      and cost effective way to deploy container workloads to a managed Kubernetes
+      service.
+    homepage_url: https://www.digitalocean.com/products/kubernetes/
+    item: null
+    logo: digital-ocean-kubernetes.svg
+    name: DigitalOcean Kubernetes
+  Certified Kubernetes - Installer: []
+  PaaS/Container Service: []
+Provisioning:
+  Automation & Configuration:
+  - crunchbase: https://www.crunchbase.com/organization/merico
+    extra:
+      blog_url: https://blog.devstream.io/
+      dev_stats_url: https://devstream.devstats.cncf.io/
+      slack_url: https://cloud-native.slack.com/messages/devstream
+    homepage_url: https://www.devstream.io/
+    item: null
+    logo: devstream.svg
+    name: DevStream
+    project: sandbox
+    repo_url: https://github.com/devstream-io/devstream
+  - crunchbase: https://www.crunchbase.com/organization/rackn-inc
+    homepage_url: https://rackn.com/rebar/
+    item: null
+    logo: digitalrebar.svg
+    name: Digital Rebar
+    repo_url: https://github.com/digitalrebar/provision
+    twitter: https://twitter.com/digitalrebar
+  Container Registry:
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    homepage_url: https://github.com/distribution/distribution
+    item: null
+    logo: distribution.svg
+    name: Distribution
+    project: sandbox
+    repo_url: https://github.com/distribution/distribution
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      accepted: '2018-11-15'
+      artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#dragonfly-logos
+      dev_stats_url: https://dragonfly.devstats.cncf.io/
+      mailing_list_url: https://groups.google.com/g/dragonfly-developers
+      slack_url: https://cloud-native.slack.com/messages/dragonfly/
+    homepage_url: https://d7y.io/
+    item: null
+    logo: dragonfly.svg
+    name: Dragonfly
+    project: incubating
+    repo_url: https://github.com/dragonflyoss/Dragonfly2
+    twitter: https://twitter.com/dragonfly_oss
+  Key Management: []
+  Security & Compliance:
+  - crunchbase: https://www.crunchbase.com/organization/datica
+    homepage_url: https://datica.com/
+    item: null
+    logo: datica.svg
+    name: Datica
+  - crunchbase: https://www.crunchbase.com/organization/datree-io
+    homepage_url: https://datree.io/
+    item: null
+    logo: datree logo Tall - color.svg
+    name: Datree
+    repo_url: https://github.com/datreeio/datree
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      accepted: '2020-06-23'
+      artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#dex-logos
+      dev_stats_url: https://dex.devstats.cncf.io/
+    homepage_url: https://dexidp.io/
+    item: null
+    logo: dex.svg
+    name: Dex
+    project: sandbox
+    repo_url: https://github.com/dexidp/dex
+  - crunchbase: https://www.crunchbase.com/organization/dosec
+    description: Dosec Security Platform provides security protection capabilities
+      for containers, kubernetes, microservices, serverless, and DevOps.
+    homepage_url: https://www.dosec.cn/
+    item: null
+    logo: dosec.svg
+    name: Dosec
+Runtime:
+  Cloud Native Network:
+  - crunchbase: https://www.crunchbase.com/organization/nokia
+    homepage_url: https://github.com/nokia/danm
+    item: null
+    logo: danm.svg
+    name: DANM
+    repo_url: https://github.com/nokia/danm
+    stock_ticker: NOK
+  Cloud Native Storage:
+  - crunchbase: https://www.crunchbase.com/organization/datacore-software
+    homepage_url: https://www.datacore.com/products/bolt-kubernetes-storage/
+    item: null
+    logo: datacore-bolt.svg
+    name: DataCore Bolt
+  - crunchbase: https://www.crunchbase.com/organization/datera-2
+    homepage_url: https://datera.io/
+    item: null
+    logo: datera.svg
+    name: Datera
+  - crunchbase: https://www.crunchbase.com/organization/dell-emc
+    description: Data storage that takes you from insights to innovation.
+    homepage_url: https://www.dell.com/en-us/dt/storage/data-storage.htm
+    item: null
+    logo: dell-emc.svg
+    name: Dell EMC
+    twitter: null
+  - crunchbase: https://www.crunchbase.com/organization/diamanti
+    homepage_url: https://diamanti.com/
+    item: null
+    logo: diamanti.svg
+    name: Diamanti
+  - crunchbase: https://www.crunchbase.com/organization/drivescale
+    homepage_url: https://drivescale.com/
+    item: null
+    logo: drivescale.svg
+    name: DriveScale
+    twitter: https://twitter.com/DriveScale_inc
+  Container Runtime: []
+Serverless:
+  Framework:
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      accepted: '2021-11-03'
+      artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#dapr-logos
+      blog_url: https://blog.dapr.io/posts
+      dev_stats_url: https://dapr.devstats.cncf.io/
+      slack_url: https://discord.com/invite/ptHhX6jc34
+    homepage_url: https://dapr.io
+    item: null
+    logo: dapr.svg
+    name: Dapr
+    project: incubating
+    repo_url: https://github.com/dapr/dapr
+    twitter: https://twitter.com/DaprDev
+  Hosted Platform: []
+  Installable Platform: []
+  Security: []
+  Tools:
+  - crunchbase: https://www.crunchbase.com/organization/dashbird
+    homepage_url: https://dashbird.io/
+    item: null
+    logo: dashbird.svg
+    name: Dashbird
+Special:
+  Certified CNFs: []
+  Kubernetes Certified Service Provider:
+  - crunchbase: https://www.crunchbase.com/organization/D2iQ
+    description: D2iQ provides comprehensive services, support, and training for Kubernetes.
+    homepage_url: https://d2iq.com/
+    item: null
+    logo: d2iq.svg
+    name: D2iQ (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/daekyo-cns
+    description: Daekyo CNS provides consulting services by experts with professional
+      CKA qualifications and consulting experience.
+    homepage_url: https://daekyocns.co.kr/business/consulting_en.aspx
+    item: null
+    logo: daekyo.svg
+    name: Daekyo CNS (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/dalian-hi-think-computer-technology
+    description: Dalian Hi-Think Computer Technology enables customers on their Kubernetes
+      journey, offering full life-cycle services including training, consulting, deployment,
+      and devops pipeline to accelerate their digital transformation.
+    homepage_url: https://www.dhc.com.cn/Kubernetes1
+    item: null
+    logo: dalian.svg
+    name: Dalian Hi-Think (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/daocloud
+    description: We provide enterprise-level cloud native application platform that
+      supports both Kubernetes and Docker Swarm.
+    homepage_url: https://www.daocloud.io/dce
+    item: null
+    logo: daocloud.svg
+    name: DaoCloud (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/data-essential
+    description: We are a startup sourced by a mature team that delivers enablement,
+      integration and support to help our customers succeed with their 3rd Platform
+      projects.
+    homepage_url: https://www.data-essential.com/
+    item: null
+    logo: data-essential.svg
+    name: Data Essential (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/datacore-software
+    description: DataCore offers OpenEBS container attached storage software solutions
+      that simplify the deployment and management of stateful applications on Kubernetes.  Implementation
+      and support services are also available.
+    homepage_url: https://www.datacore.com/support/openebs/
+    item: null
+    logo: datacore.svg
+    name: DataCore (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/datadrivers
+    description: Datadrivers are experts for Datacenter Automation, Big Data and AI.
+      We design and build cloud-aware and secure Kubernetes environments on data-driven
+      infrastructure.
+    homepage_url: https://www.datadrivers.de/
+    item: null
+    logo: datadrivers-kcsp.svg
+    name: Datadrivers (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/deepshore
+    description: Deepshore provides Kubernetes support in planning, installation and
+      operating your container platform.
+    homepage_url: https://deepshore.de
+    item: null
+    logo: deepshore.svg
+    name: Deepshore (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/dell
+    description: Leverage our Cloud Native Application Modernization and DevOps consulting
+      practice offerings to accelerate your adoption of K8s and containers.
+    homepage_url: https://www.dell.com/en-us/dt/services/consulting-services/cloud-native-applications.htm
+    item: null
+    logo: dell-consulting.svg
+    name: Dell Technologies Consulting (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/deloitte
+    description: Our K8s offerings are designed to solve K8s adoption challenges and
+      enable informed decision making while accelerating the container adoption journey
+      across the enterprise.
+    homepage_url: https://www2.deloitte.com/us/en/pages/technology/articles/cloud-container-technology.html
+    item: null
+    logo: deloitte-kcsp.svg
+    name: Deloitte (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/desotech
+    description: "Desotech provides training and consulting services for the world\u2019\
+      s leading containerization platform and can customize it to your business needs."
+    homepage_url: https://www.deso.tech/
+    item: null
+    logo: desotech.svg
+    name: Desotech (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/devsamurai
+    description: DevSamurai provides industry leading consulting expertise, service
+      delivery, cutting edge solutions based on Kubernetes to help customers operate
+      and maintain IT systems.
+    homepage_url: https://www.devsamurai.com/en/kubernetes-services/
+    item: null
+    logo: devsamurai.svg
+    name: DevSamurai (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/devsoperative
+    description: DevsOperative offers training, staffing, CNCF project support, and
+      on-site architectural design services.
+    homepage_url: https://www.devsoperative.com/index.html
+    item: null
+    joined: '2021-01-23'
+    logo: devsoperative.svg
+    name: DevsOperative (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/dg-i
+    description: Service Provider with core competency in building and operating Kubernetes
+      stacks in secure environments for regulated enterprises, including implementation,
+      consulting, professional services, and individual trainings.
+    homepage_url: https://www.dg-i.net/beratung
+    item: null
+    logo: dgi.svg
+    name: DGi (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/diamanti
+    description: "Diamanti offers support and training for the installation and operation\
+      \ of Diamanti\u2019s Kubernetes Certified bare-metal platform as well as provides\
+      \ consulting services for onboarding 3rd party applications on-premises and\
+      \ in public cloud environments."
+    homepage_url: https://diamanti.com/
+    item: null
+    logo: diamanti.svg
+    name: Diamanti (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/didim365
+    description: Managed Kubernetes of Didim 365 is an all-in-one service that supports
+      the adoption of Kubernetes from consulting to deployment. We support the optimal
+      adoption of Kubernetes according to the customer's infrastructure, and provide
+      a high level of security.
+    homepage_url: https://www.didim365.com/cloud-service/kubernetes-en/
+    item: null
+    logo: didim365.svg
+    name: Didim365 (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/digitalis-io
+    description: Digitalis is a Kubernetes partner that supports enterprises quickly
+      adopt this strategic technology platform.
+    homepage_url: https://digitalisio.cloudflareaccess.com/cdn-cgi/access/login/digitalis.io
+    item: null
+    logo: digitalis.svg
+    name: Digitalis.io (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/dito
+    description: Dito provides technical Kubernetes expertise focused on Google Cloud
+      Platform delivery for K8s including assessments, project plans, deployment,
+      support, and training.
+    homepage_url: https://www.ditoweb.com/kubernetes-containerization-professional-services/
+    item: null
+    logo: dito.svg
+    name: Dito (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/doit-international
+    description: Founded by experienced software engineers and Kubernetes contributors,
+      DoiT International delivers hands-on Kubernetes consulting and training for
+      some of the most demanding deployments in North America and Israel.
+    homepage_url: https://www.doit-intl.com
+    item: null
+    logo: doit.svg
+    name: DoiT International (KCSP)
+  Kubernetes Training Partner:
+  - crunchbase: https://www.crunchbase.com/organization/D2iQ
+    description: D2iQ provides comprehensive services, support, and training for Kubernetes.
+    homepage_url: https://d2iq.com/
+    item: null
+    logo: d2iq.svg
+    name: D2iQ (KTP)
+  - crunchbase: https://www.crunchbase.com/organization/daocloud
+    description: The world's top software experts, core code maintainers of the Docker
+      project, and DaoCloud senior architects bring you in-depth training on the core
+      technologies of the next generation of cloud computing, and easily master the
+      knowledge and practice of Docker containers, microservices, DevOps, and lean
+      R&D. experience.
+    homepage_url: https://www.daocloud.io/training
+    item: null
+    logo: daocloud.svg
+    name: DaoCloud (KTP)
+  - crunchbase: https://www.crunchbase.com/organization/desotech
+    description: "Desotech provides training and consulting services for the world\u2019\
+      s leading containerization platform and can customize it to your business needs."
+    homepage_url: https://www.deso.tech/
+    item: null
+    logo: desotech.svg
+    name: Desotech (KTP)
+  - crunchbase: https://www.crunchbase.com/organization/doit-international
+    description: Founded by experienced software engineers and Kubernetes contributors,
+      DoiT International delivers hands-on Kubernetes consulting and training for
+      some of the most demanding deployments in North America and Israel.
+    homepage_url: https://www.doit-intl.com
+    item: null
+    logo: doit.svg
+    name: DoiT International (KTP)
+Wasm:
+  Debugging and Observability:
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    homepage_url: https://dwarfstd.org/
+    item: null
+    logo: wasm.svg
+    name: DWARF
+  Installable Platform: []
+  Packaging, Registries & Application Delivery: []
+  Runtime: []
+  Specifications: []
+  Toolchain: []

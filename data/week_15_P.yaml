@@ -1,0 +1,627 @@
+App Definition and Development:
+  Application Definition & Image Build:
+  - crunchbase: https://www.crunchbase.com/organization/hashicorp
+    homepage_url: https://www.packer.io/
+    item: null
+    logo: packer.svg
+    name: Packer
+    repo_url: https://github.com/hashicorp/packer
+  - crunchbase: https://www.crunchbase.com/organization/red-hat
+    homepage_url: https://podman.io/
+    item: null
+    logo: podman.svg
+    name: Podman
+    repo_url: https://github.com/containers/podman
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      accepted: '2020-09-08'
+      artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#porter-logos
+      blog_url: https://porter.sh/blog
+      dev_stats_url: https://porter.devstats.cncf.io/
+      mailing_list_url: https://porter.sh/mailing-list
+      slack_url: https://porter.sh/community/#slack
+      youtube_url: https://www.youtube.com/channel/UCbpSU5xLikfXQ-5meXLrsfA
+    homepage_url: https://porter.sh/
+    item: null
+    logo: porter-sh.svg
+    name: Porter
+    project: sandbox
+    repo_url: https://github.com/getporter/porter
+    twitter: https://twitter.com/get_porter
+  Continuous Integration & Delivery:
+  - crunchbase: https://www.crunchbase.com/organization/cyberagent-2
+    homepage_url: https://pipecd.dev/
+    item: null
+    logo: pipecd.svg
+    name: PipeCD
+    repo_url: https://github.com/pipe-cd/pipecd
+    twitter: https://twitter.com/pipecd_dev
+  Database:
+  - crunchbase: https://www.crunchbase.com/organization/percona
+    homepage_url: https://www.percona.com/software/mysql-database/percona-server
+    item: null
+    logo: percona.svg
+    name: Percona Server for MySQL
+    repo_url: https://github.com/percona/percona-server
+  - crunchbase: https://www.crunchbase.com/organization/pilosa
+    homepage_url: https://www.pilosa.com/
+    item: null
+    logo: pilosa.svg
+    name: Pilosa
+    repo_url: https://github.com/pilosa/pilosa
+  - crunchbase: https://www.crunchbase.com/organization/postgresql
+    homepage_url: https://www.postgresql.org/
+    item: null
+    logo: postgre-sql.svg
+    name: PostgreSQL
+    repo_url: https://github.com/postgres/postgres
+  - crunchbase: https://www.crunchbase.com/organization/presto-foundation
+    homepage_url: https://prestodb.io/
+    item: null
+    logo: presto.svg
+    name: Presto
+    repo_url: https://github.com/trinodb/trino
+  Streaming & Messaging:
+  - crunchbase: https://www.crunchbase.com/organization/pachyderm
+    homepage_url: https://www.pachyderm.com
+    item: null
+    logo: pachyderm.svg
+    name: Pachyderm
+    open_source: false
+    repo_url: https://github.com/pachyderm/pachyderm
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#pravega-logos
+      blog_url: https://blog.pravega.io/
+      dev_stats_url: https://pravega.devstats.cncf.io/
+      slack_url: https://pravega-slack-invite.herokuapp.com/
+      youtube_url: https://www.youtube.com/channel/UCiEkLCWdnjSpub76ZEZcdqw
+    homepage_url: https://cncf.pravega.io
+    item: null
+    logo: pravega.svg
+    name: Pravega
+    project: sandbox
+    repo_url: https://github.com/pravega/pravega
+    twitter: https://twitter.com/PravegaIO
+  - crunchbase: https://www.crunchbase.com/organization/apache
+    homepage_url: https://pulsar.apache.org/
+    item: null
+    logo: pulsar.svg
+    name: Pulsar
+    repo_url: https://github.com/apache/pulsar
+    twitter: https://twitter.com/apache_pulsar
+CNCF Members:
+  Academic: []
+  End User Supporter:
+  - crunchbase: https://www.crunchbase.com/organization/payit
+    homepage_url: https://www.payitgov.com/
+    item: null
+    logo: payit.svg
+    name: PayIt (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/pdt-partners
+    homepage_url: https://www.pdtpartners.com/
+    item: null
+    logo: pdt-partners.svg
+    name: PDT Partners (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/peritus-ai
+    homepage_url: https://peritus.ai/
+    item: null
+    joined: '2021-03-02'
+    logo: peritus-logo-pink.svg
+    name: Peritus.ai (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/porsche
+    homepage_url: https://www.porsche.com/
+    item: null
+    joined: '2021-11-11'
+    logo: porsche.svg
+    name: Porsche (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/postfinance
+    homepage_url: https://www.postfinance.ch/en/private.html
+    item: null
+    logo: post-finance-supporter.svg
+    name: PostFinance (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/prosiebensat1
+    homepage_url: https://www.karriere.prosiebensat1.com/
+    item: null
+    joined: '2020-12-03'
+    logo: prosiebensat1.svg
+    name: ProSiebenSat.1 (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/pusher-ltd
+    homepage_url: https://pusher.com/
+    item: null
+    logo: pusher-supporter.svg
+    name: Pusher (supporter)
+  Gold: []
+  Nonprofit: []
+  Platinum:
+  - crunchbase: https://www.crunchbase.com/organization/prisma-cloud
+    homepage_url: https://www.paloaltonetworks.com/prisma/cloud
+    item: null
+    logo: prisma-cloud-palo-alto.svg
+    name: Prisma Cloud by Palo Alto Networks (member)
+  Silver:
+  - crunchbase: https://www.crunchbase.com/organization/paladin-cloud
+    homepage_url: https://paladincloud.io/
+    item: null
+    logo: paladin-cloud.svg
+    name: Paladin Cloud (member)
+  - crunchbase: https://www.crunchbase.com/organization/particule
+    homepage_url: https://particule.io/
+    item: null
+    logo: particule.svg
+    name: Particule (member)
+  - crunchbase: https://www.crunchbase.com/organization/pegasystems
+    homepage_url: https://www.pega.com/
+    item: null
+    logo: pega-member.svg
+    name: Pega (member)
+  - crunchbase: https://www.crunchbase.com/organization/peloton-interactive
+    enduser: true
+    homepage_url: https://www.onepeloton.com/
+    item: null
+    joined: '2021-01-04'
+    logo: peloton.svg
+    name: Peloton Interactive (member)
+  - crunchbase: https://www.crunchbase.com/organization/pengyun-network
+    homepage_url: https://www.pengyunnetwork.com/
+    item: null
+    logo: pengyun.svg
+    name: Pengyun Network (member)
+  - crunchbase: https://www.crunchbase.com/organization/percona
+    homepage_url: http://www.percona.com/
+    item: null
+    logo: percona.svg
+    name: Percona (member)
+  - crunchbase: https://www.crunchbase.com/organization/permit-io
+    homepage_url: https://www.permit.io/
+    item: null
+    logo: permit.io.svg
+    name: Permit.io (member)
+  - crunchbase: https://www.crunchbase.com/organization/ping-an
+    homepage_url: https://yun.pingan.com/
+    item: null
+    logo: ping-an.svg
+    name: Ping An Technology (member)
+  - crunchbase: https://www.crunchbase.com/organization/pingcap
+    homepage_url: https://en.pingcap.com
+    item: null
+    logo: pingcap.svg
+    name: PingCAP (member)
+  - crunchbase: https://www.crunchbase.com/organization/pipekit
+    homepage_url: http://www.pipekit.io/
+    item: null
+    logo: pipekit.svg
+    name: Pipekit (member)
+  - crunchbase: https://www.crunchbase.com/organization/pixie-labs-f7c0
+    homepage_url: https://pixielabs.ai/
+    item: null
+    logo: pixie-labs.svg
+    name: Pixie Labs (member)
+    twitter: https://twitter.com/pixielabs
+  - crunchbase: https://www.crunchbase.com/organization/planetscale
+    homepage_url: https://planetscale.com
+    item: null
+    logo: planetscale.svg
+    name: PlanetScale (member)
+  - crunchbase: https://www.crunchbase.com/organization/platform9-systems-inc
+    homepage_url: https://platform9.com
+    item: null
+    logo: platform9-member.svg
+    name: Platform9 (member)
+    twitter: null
+  - crunchbase: https://www.crunchbase.com/organization/plural-37ce
+    homepage_url: https://app.plural.sh/login
+    item: null
+    logo: plural.svg
+    name: Plural (member)
+  - crunchbase: https://www.crunchbase.com/organization/polar-signals
+    homepage_url: https://www.polarsignals.com/
+    item: null
+    logo: polar-signals.svg
+    name: Polar Signals (member)
+  - crunchbase: https://www.crunchbase.com/organization/polar-squad
+    homepage_url: https://polarsquad.com
+    item: null
+    logo: polar-squad-member.svg
+    name: Polar Squad (member)
+  - crunchbase: https://www.crunchbase.com/organization/portainer
+    homepage_url: https://www.portainer.io/
+    item: null
+    logo: portainer.svg
+    name: Portainer (member)
+  - crunchbase: https://www.crunchbase.com/organization/portworx
+    homepage_url: https://portworx.com
+    item: null
+    logo: portworx-by-purestorage.svg
+    name: Portworx (member)
+  - crunchbase: https://www.crunchbase.com/organization/posedio
+    homepage_url: https://www.posedio.com/
+    item: null
+    logo: posedio.svg
+    name: Posedio (member)
+  - crunchbase: https://www.crunchbase.com/organization/prefect-technologies-inc
+    homepage_url: https://www.prefect.io/
+    item: null
+    logo: prefect.svg
+    name: Prefect (member)
+  - crunchbase: https://www.crunchbase.com/organization/prisma-io
+    homepage_url: https://www.prisma.io/
+    item: null
+    logo: prisma.svg
+    name: Prisma (member)
+  - crunchbase: https://www.crunchbase.com/organization/prodigy-game
+    enduser: true
+    homepage_url: https://www.prodigygame.com/main-en/
+    item: null
+    joined: '2022-03-30'
+    logo: prodigy-education.svg
+    name: Prodigy Education (member)
+  - crunchbase: https://www.crunchbase.com/organization/prodyna
+    homepage_url: https://www.prodyna.com
+    item: null
+    logo: prodyna-member.svg
+    name: PRODYNA (member)
+  - crunchbase: https://www.crunchbase.com/organization/vsh-software
+    homepage_url: https://www.profisea.com/
+    item: null
+    logo: profisea.svg
+    name: Profisea (member)
+  - crunchbase: https://www.crunchbase.com/organization/pulumi-corporation
+    homepage_url: https://www.pulumi.com
+    item: null
+    logo: pulumi.svg
+    name: Pulumi (member)
+  - crunchbase: https://www.crunchbase.com/organization/puppet-labs
+    homepage_url: https://puppet.com
+    item: null
+    logo: puppet.svg
+    name: Puppet (member)
+  - crunchbase: https://www.crunchbase.com/organization/puzzle
+    homepage_url: https://www.puzzle.ch/de/home
+    item: null
+    logo: puzzle.svg
+    name: Puzzle ITC (member)
+Observability and Analysis:
+  Chaos Engineering:
+  - crunchbase: https://www.crunchbase.com/organization/bloomberg
+    homepage_url: https://github.com/powerfulseal/powerfulseal
+    item: null
+    logo: powerful-seal.svg
+    name: PowerfulSeal
+    repo_url: https://github.com/powerfulseal/powerfulseal
+    twitter: https://twitter.com/TechAtBloomberg
+  Continuous Optimization: []
+  Logging:
+  - crunchbase: https://www.crunchbase.com/organization/qiniu
+    homepage_url: https://www.qiniu.com/products/pdr
+    item: null
+    logo: pandora.svg
+    name: Pandora2.0
+  Monitoring:
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    description: Open source Kubernetes observability for developers
+    extra:
+      accepted: '2021-06-22'
+      blog_url: https://blog.px.dev/
+      slack_url: https://slackin.px.dev/
+      youtube_url: https://www.youtube.com/channel/UCOMCDRvBVNIS0lCyOmst7eg
+    homepage_url: https://px.dev/
+    item: null
+    logo: pixie.svg
+    name: Pixie
+    project: sandbox
+    repo_url: https://github.com/pixie-io/pixie
+    twitter: https://twitter.com/pixie_run
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      accepted: '2016-05-09'
+      artwork_url: https://github.com/cncf/artwork/blob/master/examples/graduated.md#prometheus-logos
+      blog_url: https://prometheus.io/blog/
+      chat_channel: '#prometheus'
+      dev_stats_url: https://prometheus.devstats.cncf.io/
+      mailing_list_url: https://prometheus.io/community/
+      slack_url: https://freenode.net/
+      stack_overflow_url: https://stackoverflow.com/questions/tagged/prometheus
+      youtube_url: https://www.youtube.com/channel/UC4pLFely0-Odea4B2NL1nWA
+    homepage_url: https://prometheus.io/
+    item: null
+    logo: prometheus.svg
+    name: Prometheus
+    project: graduated
+    repo_url: https://github.com/prometheus/prometheus
+    twitter: https://twitter.com/PrometheusIO
+  - crunchbase: https://www.crunchbase.com/organization/timescaledb
+    description: 'The observability backend powered by SQL built on PostgreSQL and
+      TimescaleDB. '
+    homepage_url: https://timescale.com/promscale
+    item: null
+    logo: promscale.svg
+    name: Promscale
+    repo_url: https://github.com/timescale/promscale
+  Tracing:
+  - crunchbase: https://www.crunchbase.com/organization/pinpoint-282b
+    homepage_url: https://naver.github.io/pinpoint/
+    item: null
+    logo: pinpoint.svg
+    name: Pinpoint
+    repo_url: https://github.com/pinpoint-apm/pinpoint
+Orchestration & Management:
+  API Gateway: []
+  Coordination & Service Discovery: []
+  Remote Procedure Call: []
+  Scheduling & Orchestration: []
+  Service Mesh: []
+  Service Proxy: []
+Platform:
+  Certified Kubernetes - Distribution:
+  - crunchbase: https://www.crunchbase.com/organization/spectro-cloud
+    description: "Keep control of your Kubernetes infrastructure stack with Spectro\
+      \ Cloud\u2019s as-a-Service experience for public clouds, private clouds, and\
+      \ bare metal environments."
+    homepage_url: https://www.spectrocloud.com/
+    item: null
+    logo: palette.svg
+    name: Palette
+  - crunchbase: https://www.crunchbase.com/organization/platform9-systems-inc
+    description: Platform9 Managed Kubernetes is SaaS-managed, infrastructure-agnostic,
+      and works across public clouds and on-premises server infrastructure.
+    homepage_url: https://platform9.com/managed-kubernetes/
+    item: null
+    logo: platform9-managed-kubernetes.svg
+    name: Platform9 Managed Kubernetes
+    twitter: null
+  Certified Kubernetes - Hosted: []
+  Certified Kubernetes - Installer: []
+  PaaS/Container Service:
+  - crunchbase: https://www.crunchbase.com/organization/yelp
+    homepage_url: https://engineeringblog.yelp.com/2015/11/introducing-paasta-an-open-platform-as-a-service.html
+    item: null
+    logo: paasta.svg
+    name: PaaSTA
+    repo_url: https://github.com/Yelp/paasta
+    twitter: https://twitter.com/yelpengineering
+  - crunchbase: https://www.crunchbase.com/organization/commerce-guys
+    homepage_url: https://platform.sh/
+    item: null
+    logo: platform-sh.svg
+    name: Platform.sh
+  - crunchbase: https://www.crunchbase.com/organization/portainer
+    homepage_url: https://www.portainer.io/
+    item: null
+    logo: portainer.svg
+    name: Portainer
+    repo_url: https://github.com/portainer/portainer
+Provisioning:
+  Automation & Configuration:
+  - crunchbase: https://www.crunchbase.com/organization/pulumi-corporation
+    homepage_url: https://www.pulumi.com/
+    item: null
+    logo: pulumi.svg
+    name: Pulumi
+    repo_url: https://github.com/pulumi/pulumi
+    twitter: https://twitter.com/PulumiCorp
+  - crunchbase: https://www.crunchbase.com/organization/puppet-labs
+    homepage_url: https://puppet.com/
+    item: null
+    logo: puppet.svg
+    name: Puppet
+    repo_url: https://github.com/puppetlabs/puppet
+  Container Registry:
+  - crunchbase: https://www.crunchbase.com/organization/suse
+    homepage_url: http://port.us.org/
+    item: null
+    logo: portus.svg
+    name: Portus
+    repo_url: https://github.com/SUSE/Portus
+  Key Management:
+  - crunchbase: https://www.crunchbase.com/organization/vmware
+    homepage_url: https://pinniped.dev
+    item: null
+    logo: pinniped.svg
+    name: Pinniped
+    repo_url: https://github.com/vmware-tanzu/pinniped
+    twitter: https://twitter.com/projectpinniped
+  - crunchbase: https://www.crunchbase.com/organization/pomerium
+    homepage_url: https://www.pomerium.com
+    item: null
+    logo: pomerium.svg
+    name: Pomerium
+    repo_url: https://github.com/pomerium/pomerium
+  Security & Compliance:
+  - crunchbase: https://www.crunchbase.com/organization/paladin-cloud
+    homepage_url: https://paladincloud.io/
+    item: null
+    logo: paladin-cloud.svg
+    name: Paladin Cloud
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      accepted: '2020-06-23'
+      artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#parsec-logos
+      dev_stats_url: https://parsec.devstats.cncf.io/
+    homepage_url: https://parsec.community/
+    item: null
+    logo: parsec.svg
+    name: Parsec
+    project: sandbox
+    repo_url: https://github.com/parallaxsecond/parsec
+  - crunchbase: https://www.crunchbase.com/organization/passage-36d4
+    description: Passage makes it easy for developers to implement passwordless customer
+      identity in any application.
+    homepage_url: https://passage.id
+    item: null
+    logo: passage.svg
+    name: Passage
+  - crunchbase: https://www.crunchbase.com/organization/fairwinds
+    homepage_url: https://www.fairwinds.com/open-source-software
+    item: null
+    logo: pluto.svg
+    name: Pluto
+    repo_url: https://github.com/FairwindsOps/pluto
+  - crunchbase: https://www.crunchbase.com/organization/fairwinds
+    homepage_url: https://fairwinds.com/polaris
+    item: null
+    logo: polaris.svg
+    name: Polaris
+    repo_url: https://github.com/FairwindsOps/polaris
+  - crunchbase: https://www.crunchbase.com/organization/portshift
+    homepage_url: https://www.portshift.io/
+    item: null
+    logo: portshift.svg
+    name: Portshift
+  - crunchbase: https://www.crunchbase.com/organization/prisma-cloud
+    homepage_url: https://www.paloaltonetworks.com/prisma/cloud
+    item: null
+    logo: prisma-cloud-palo-alto.svg
+    name: Prisma Cloud
+Runtime:
+  Cloud Native Network:
+  - crunchbase: https://www.crunchbase.com/organization/tigera
+    homepage_url: https://www.tigera.io/project-calico
+    item: null
+    logo: project-calico.svg
+    name: Project Calico
+    repo_url: https://github.com/projectcalico/calico
+    twitter: https://twitter.com/projectcalico
+  Cloud Native Storage:
+  - crunchbase: https://www.crunchbase.com/organization/pengyun-network
+    homepage_url: https://www.pengyunnetwork.com/
+    item: null
+    logo: pengyun.svg
+    name: Pengyun Network
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    homepage_url: https://piraeus.io/
+    item: null
+    logo: piraeus.svg
+    name: Piraeus Datastore
+    project: sandbox
+    repo_url: https://github.com/piraeusdatastore/piraeus
+  - crunchbase: https://www.crunchbase.com/organization/portworx
+    homepage_url: https://portworx.com/
+    item: null
+    logo: portworx.svg
+    name: Portworx
+  - crunchbase: https://www.crunchbase.com/organization/portworx
+    homepage_url: https://www.purestorage.com/
+    item: null
+    logo: pure-storage.svg
+    name: Pure Storage
+  Container Runtime: []
+Serverless:
+  Framework: []
+  Hosted Platform:
+  - crunchbase: https://www.crunchbase.com/organization/pubnub
+    homepage_url: https://www.pubnub.com/products/functions/
+    item: null
+    logo: pub-nub-functions.svg
+    name: PubNub Functions
+  Installable Platform:
+  - crunchbase: https://www.crunchbase.com/organization/pipelineio
+    homepage_url: https://www.datascienceonaws.com
+    item: null
+    logo: pipeline-ai.svg
+    name: PipelineAI
+    repo_url: https://github.com/pipelineai/pipeline
+  Security:
+  - crunchbase: https://www.crunchbase.com/organization/prisma-cloud
+    homepage_url: https://www.paloaltonetworks.com/prisma/cloud
+    item: null
+    logo: prisma-cloud-palo-alto.svg
+    name: Prisma Cloud by Palo Alto Networks
+  - crunchbase: https://www.crunchbase.com/organization/protego-labs
+    homepage_url: https://www.checkpoint.com
+    item: null
+    logo: protego.svg
+    name: Protego
+  Tools: []
+Special:
+  Certified CNFs: []
+  Kubernetes Certified Service Provider:
+  - crunchbase: https://www.crunchbase.com/organization/particule
+    description: Particule's experts help you make the most of Kubernetes - from IaaS
+      to Day 2 operations.
+    homepage_url: https://particule.io/en/kubernetes/
+    item: null
+    logo: particule.svg
+    name: Particule (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/platform9-systems-inc
+    description: Platform9 Managed Kubernetes is SaaS-managed, infrastructure-agnostic,
+      and works across public clouds, on-premises servers, and VMware infrastructure.
+    homepage_url: https://platform9.com/managed-kubernetes/
+    item: null
+    logo: platform9-managed-kubernetes.svg
+    name: Platform9 (KCSP)
+    twitter: null
+  - crunchbase: https://www.crunchbase.com/organization/polar-squad
+    description: Polar Squad provides on-site consulting with Kubernetes and other
+      cloud and devops-related tasks.
+    homepage_url: https://polarsquad.com/
+    item: null
+    logo: polar-squad.svg
+    name: Polar Squad (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/portworx
+    description: Portworx is the leader in cloud native storage and data management
+      for Kubernetes, trusted to manage Fortune 2000's mission-critical data.
+    homepage_url: https://portworx.com/
+    item: null
+    logo: portworx.svg
+    name: Portworx (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/prisma-cloud
+    homepage_url: https://www.paloaltonetworks.com/prisma/environments/kubernetes
+    item: null
+    logo: prisma-cloud-palo-alto.svg
+    name: Prisma Cloud by Palo Alto Networks (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/prodyna
+    description: PRODYNA designs, implements, and operates Kubernetes-based custom
+      applications for mid- to large size enterprises in all of Europe.
+    homepage_url: https://www.prodyna.com/en/cloud-native-computing-docker-kubernetes
+    item: null
+    logo: prodyna.svg
+    name: PRODYNA (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/vsh-software
+    description: Profisea, an Israeli boutique DevOps and Cloud company, has for over
+      six years been providing Kubernetes-based services, including consulting, implementation,
+      migration, automation and support. We provide GitOps-based Setup and configuration
+      of Kubernetes platforms across the cloud. Our engineers are Kubernetes experts
+      and we provide end-to-end management of your Kubernetes operations.
+    homepage_url: https://profisea.com/kubernetes-services/
+    item: null
+    logo: profisea.svg
+    name: Profisea (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/puzzle
+    description: As a cloud native specialist we support you through your journey
+      into container and cloud technologies with Kubernetes and OpenShift.
+    homepage_url: https://www.puzzle.ch/de/home
+    item: null
+    logo: puzzle.svg
+    name: Puzzle ITC (KCSP)
+  Kubernetes Training Partner:
+  - crunchbase: https://www.crunchbase.com/organization/particule
+    homepage_url: https://particule.io/en/
+    item: null
+    logo: particule.svg
+    name: Particule (KTP)
+  - crunchbase: https://www.crunchbase.com/organization/polar-squad
+    description: Polar Squad offers consulting on cloud native technologies and rapid
+      software development practices. We provide hands-on Kubernetes consulting, workshops
+      and training.
+    extra:
+      training_certifications: cka, ckad
+      training_type: instructor-led
+    homepage_url: https://polarsquad.com/
+    item: null
+    logo: polar-squad.svg
+    name: Polar Squad (KTP)
+  - crunchbase: https://www.crunchbase.com/organization/prodyna
+    description: PRODYNA designs, implements, and operates Kubernetes-based custom
+      applications for mid- to large size enterprises in all of Europe.
+    homepage_url: https://www.prodyna.com/en/cloud-native-computing-docker-kubernetes
+    item: null
+    logo: prodyna.svg
+    name: PRODYNA (KTP)
+Wasm:
+  Debugging and Observability: []
+  Installable Platform: []
+  Packaging, Registries & Application Delivery: []
+  Runtime: []
+  Specifications: []
+  Toolchain: []

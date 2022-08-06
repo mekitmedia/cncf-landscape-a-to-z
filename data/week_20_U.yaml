@@ -1,0 +1,136 @@
+App Definition and Development:
+  Application Definition & Image Build: []
+  Continuous Integration & Delivery: []
+  Database: []
+  Streaming & Messaging: []
+CNCF Members:
+  Academic:
+  - crunchbase: https://www.crunchbase.com/organization/university-of-michigan
+    homepage_url: https://www.umich.edu/
+    item: null
+    logo: university-of-michigan.svg
+    name: University of Michigan (member)
+  End User Supporter:
+  - crunchbase: https://www.crunchbase.com/organization/ultimate-software
+    homepage_url: https://www.ultimatesoftware.com/
+    item: null
+    logo: ultimate-software.svg
+    name: Ultimate Software (supporter)
+    twitter: null
+  - crunchbase: https://www.crunchbase.com/organization/under-armour
+    homepage_url: https://www.underarmour.com/en-us/
+    item: null
+    logo: under-armour.svg
+    name: Under Armour (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/upsider-587f
+    homepage_url: https://corp.up-sider.com/en
+    item: null
+    logo: upsider-supporter.svg
+    name: Upsider (supporter)
+  Gold: []
+  Nonprofit:
+  - crunchbase: https://www.crunchbase.com/organization/upchieve
+    homepage_url: https://www.upchieve.org/
+    item: null
+    joined: '2021-01-07'
+    logo: upchieve.svg
+    name: UPchieve (member)
+  - crunchbase: https://www.crunchbase.com/organization/upmc-enterprises
+    homepage_url: https://enterprises.upmc.com/
+    item: null
+    joined: '2021-11-03'
+    logo: upmc-enterprises.svg
+    name: UPMC Enterprises (member)
+  Platinum: []
+  Silver:
+  - crunchbase: https://www.crunchbase.com/organization/uffizzi
+    homepage_url: https://www.uffizzi.com/
+    item: null
+    logo: uffizzi.svg
+    name: Uffizzi (member)
+  - crunchbase: https://www.crunchbase.com/organization/umb-ag
+    homepage_url: https://www.umb.ch/
+    item: null
+    logo: umb-ag.svg
+    name: UMB (member)
+  - crunchbase: https://www.crunchbase.com/organization/uniserver
+    homepage_url: https://www.uniserver.nl/
+    item: null
+    logo: uniserver.svg
+    name: Uniserver (member)
+  - crunchbase: https://www.crunchbase.com/organization/unitedhealth-group
+    enduser: true
+    homepage_url: https://www.unitedhealthgroup.com/
+    item: null
+    logo: unitedhealth-group.svg
+    name: UnitedHealth Group (member)
+  - crunchbase: https://www.crunchbase.com/organization/upbound
+    homepage_url: https://upbound.io
+    item: null
+    logo: upbound-member.svg
+    name: Upbound (member)
+  - crunchbase: https://www.crunchbase.com/organization/uws-inc
+    homepage_url: http://www.uws.co.kr/
+    item: null
+    logo: uws.svg
+    name: UWS (member)
+Observability and Analysis:
+  Chaos Engineering: []
+  Continuous Optimization: []
+  Logging: []
+  Monitoring: []
+  Tracing: []
+Orchestration & Management:
+  API Gateway: []
+  Coordination & Service Discovery: []
+  Remote Procedure Call: []
+  Scheduling & Orchestration: []
+  Service Mesh: []
+  Service Proxy: []
+Platform:
+  Certified Kubernetes - Distribution: []
+  Certified Kubernetes - Hosted: []
+  Certified Kubernetes - Installer: []
+  PaaS/Container Service: []
+Provisioning:
+  Automation & Configuration: []
+  Container Registry: []
+  Key Management: []
+  Security & Compliance: []
+Runtime:
+  Cloud Native Network: []
+  Cloud Native Storage: []
+  Container Runtime: []
+Serverless:
+  Framework: []
+  Hosted Platform: []
+  Installable Platform: []
+  Security: []
+  Tools: []
+Special:
+  Certified CNFs: []
+  Kubernetes Certified Service Provider:
+  - crunchbase: https://www.crunchbase.com/organization/umb-ag
+    description: UMB is offering managed OpenShift and Kubernetes services in public
+      clouds or our own hosted cloud in Switzerland. We support our customers on their
+      journey to cloud native applications from consulting to implementation.
+    homepage_url: https://www.umb.ch/en/services/digital-transformation/cloud-native/understand-what-kubernetes-is-and-what-it-can-do-for-your-business
+    item: null
+    logo: umb-ag.svg
+    name: UMB (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/uniserver
+    description: "Uniserver offers fully managed Kubernetes solutions to ISV\u2019\
+      s. We take care of everything that is required to make optimal use of the Kubernetes\
+      \ platform and provide 24/7 support, training, and consulting services."
+    homepage_url: https://denit.nl/en/containerization/kubernetes/
+    item: null
+    logo: uniserver.svg
+    name: Uniserver (KCSP)
+  Kubernetes Training Partner: []
+Wasm:
+  Debugging and Observability: []
+  Installable Platform: []
+  Packaging, Registries & Application Delivery: []
+  Runtime: []
+  Specifications: []
+  Toolchain: []

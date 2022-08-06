@@ -1,0 +1,487 @@
+App Definition and Development:
+  Application Definition & Image Build:
+  - crunchbase: https://www.crunchbase.com/organization/raftt
+    homepage_url: https://www.raftt.io/
+    item: null
+    logo: raftt.svg
+    name: Raftt
+  Continuous Integration & Delivery:
+  - crunchbase: https://www.crunchbase.com/organization/ibm
+    homepage_url: https://razee.io/
+    item: null
+    logo: razee.svg
+    name: Razee
+    repo_url: https://github.com/razee-io/Razee
+    twitter: https://twitter.com/IBMCloud
+  Database:
+  - crunchbase: https://www.crunchbase.com/organization/redis-labs
+    homepage_url: https://redis.io/
+    item: null
+    logo: redis.svg
+    name: Redis
+    repo_url: https://github.com/redis/redis
+  - crunchbase: https://www.crunchbase.com/organization/linux-foundation
+    homepage_url: https://rethinkdb.com/
+    item: null
+    logo: rethinkdb.svg
+    name: RethinkDB
+    repo_url: https://github.com/rethinkdb/rethinkdb
+    twitter: https://twitter.com/rethinkdb
+  Streaming & Messaging:
+  - crunchbase: https://www.crunchbase.com/organization/rabbit-technologies
+    homepage_url: https://www.rabbitmq.com/
+    item: null
+    logo: rabbit-mq.svg
+    name: RabbitMQ
+    repo_url: https://github.com/rabbitmq/rabbitmq-server
+  - crunchbase: https://www.crunchbase.com/organization/vectorized
+    homepage_url: https://redpanda.com/platform
+    item: null
+    logo: redpanda.svg
+    name: Redpanda
+    open_source: false
+    repo_url: https://github.com/redpanda-data/redpanda
+CNCF Members:
+  Academic: []
+  End User Supporter:
+  - crunchbase: https://www.crunchbase.com/organization/reddit
+    homepage_url: https://www.reddit.com/
+    item: null
+    logo: reddit-supporter.svg
+    name: Reddit (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/rewe-group
+    homepage_url: https://rewe-group.at/de
+    item: null
+    joined: '2021-04-26'
+    logo: rewe-group.svg
+    name: REWE International Dienstleistungsges.m.b.h. (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/ricardo-ch
+    homepage_url: https://www.ricardo.ch/
+    item: null
+    logo: ricardo.svg
+    name: Ricardo.ch (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/robinhood
+    homepage_url: https://www.robinhood.com/us/en/
+    item: null
+    joined: '2021-07-21'
+    logo: robinhood.svg
+    name: Robinhood (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/rstudio
+    homepage_url: https://rstudio.com/
+    item: null
+    logo: rstudio.svg
+    name: RStudio (supporter)
+  Gold: []
+  Nonprofit:
+  - crunchbase: https://www.crunchbase.com/organization/risc-v
+    homepage_url: https://riscv.org/
+    item: null
+    logo: risc-v-international.svg
+    name: RISC-V (member)
+  Platinum:
+  - crunchbase: https://www.crunchbase.com/organization/red-hat
+    homepage_url: https://www.redhat.com/en
+    item: null
+    logo: red-hat-member.svg
+    name: Red Hat (member)
+  Silver:
+  - crunchbase: https://www.crunchbase.com/organization/rackner-solutions
+    homepage_url: https://www.rackner.com/
+    item: null
+    logo: rackner.svg
+    name: Rackner (member)
+  - crunchbase: https://www.crunchbase.com/organization/rafay-systems-inc
+    homepage_url: https://rafay.co/
+    item: null
+    logo: rafay.svg
+    name: Rafay Systems (member)
+  - crunchbase: https://www.crunchbase.com/organization/raft-2599
+    homepage_url: https://goraft.tech/
+    item: null
+    logo: raft.svg
+    name: Raft (member)
+  - crunchbase: https://www.crunchbase.com/organization/raftt
+    homepage_url: https://www.raftt.io/
+    item: null
+    logo: raftt.svg
+    name: Raftt (member)
+  - crunchbase: https://www.crunchbase.com/organization/rapidfort
+    homepage_url: https://www.rapidfort.com/
+    item: null
+    logo: rapidfort.svg
+    name: RapidFort (member)
+  - crunchbase: https://www.crunchbase.com/organization/raytheon
+    homepage_url: https://www.rtx.com/
+    item: null
+    logo: raytheontechnologies.svg
+    name: Raytheon (member)
+    stock_ticker: null
+  - crunchbase: https://www.crunchbase.com/organization/reblaze
+    homepage_url: https://www.reblaze.com/
+    item: null
+    logo: reblaze.svg
+    name: Reblaze (member)
+  - crunchbase: https://www.crunchbase.com/organization/red-kubes
+    homepage_url: https://redkubes.com/
+    item: null
+    logo: redkubes.svg
+    name: Red Kubes (member)
+  - crunchbase: https://www.crunchbase.com/organization/reply
+    homepage_url: https://www.reply.com/red-reply/en/
+    item: null
+    logo: red-reply.svg
+    name: Red Reply (member)
+  - crunchbase: https://www.crunchbase.com/organization/redeploy
+    homepage_url: https://redeploy.com/
+    item: null
+    logo: redeploy.svg
+    name: Redeploy (member)
+  - crunchbase: https://www.crunchbase.com/organization/vectorized
+    homepage_url: https://redpanda.com
+    item: null
+    logo: redpanda.svg
+    name: Redpanda (member)
+  - crunchbase: https://www.crunchbase.com/organization/refinitiv
+    enduser: true
+    homepage_url: https://www.refinitiv.com/en
+    item: null
+    joined: '2021-12-06'
+    logo: refinitiv.svg
+    name: Refinitiv (member)
+  - crunchbase: https://www.crunchbase.com/organization/release
+    homepage_url: https://www.releasehub.com/
+    item: null
+    logo: releasehub.svg
+    name: ReleaseHub (member)
+  - crunchbase: https://www.crunchbase.com/organization/replex-gmbh
+    homepage_url: https://www.replex.io/
+    item: null
+    logo: replex.svg
+    name: Replex (member)
+  - crunchbase: https://www.crunchbase.com/organization/replicated
+    homepage_url: https://www.replicated.com
+    item: null
+    logo: replicated-member.svg
+    name: Replicated (member)
+  - crunchbase: https://www.crunchbase.com/organization/tectonic-c189
+    homepage_url: https://ridge.co/
+    item: null
+    logo: ridge.svg
+    name: Ridge (member)
+  - crunchbase: https://www.crunchbase.com/organization/rng-technology
+    homepage_url: https://www.rng.tech/tr
+    item: null
+    logo: rng-technology.svg
+    name: RNG Technology (member)
+  - crunchbase: https://www.crunchbase.com/organization/roadie-7c12
+    homepage_url: https://www.roadie.io/
+    item: null
+    logo: roadie.svg
+    name: Roadie (member)
+  - crunchbase: https://www.crunchbase.com/organization/robin-systems
+    homepage_url: https://robin.io
+    item: null
+    logo: robin-systems-member.svg
+    name: Robin Systems (member)
+  - crunchbase: https://www.crunchbase.com/organization/robusta-dev
+    homepage_url: https://home.robusta.dev/
+    item: null
+    logo: robusta.svg
+    name: Robusta (member)
+  - crunchbase: https://www.crunchbase.com/organization/rookout
+    homepage_url: https://www.rookout.com
+    item: null
+    logo: rookout-member.svg
+    name: Rookout (member)
+  - crunchbase: https://www.crunchbase.com/organization/zettabytes
+    homepage_url: https://roost.ai
+    item: null
+    logo: roost.svg
+    name: Roost (member)
+  - crunchbase: https://www.crunchbase.com/organization/rx-m
+    homepage_url: https://rx-m.com
+    item: null
+    logo: rx-m.svg
+    name: RX-M (member)
+Observability and Analysis:
+  Chaos Engineering: []
+  Continuous Optimization: []
+  Logging:
+  - crunchbase: https://www.crunchbase.com/organization/rizhiyi
+    homepage_url: https://www.rizhiyi.com/
+    item: null
+    logo: rizhiyi.svg
+    name: Rizhiyi
+  Monitoring:
+  - crunchbase: https://www.crunchbase.com/organization/replex-gmbh
+    description: The central source of truth for all IT infrastructure insights. Providing
+      one central platform that uniquely combines technical and financial metrics
+      to manage and optimize modern containerized IT infrastructure stacks successfully.
+    homepage_url: https://www.replex.io/
+    item: null
+    logo: replex.svg
+    name: Replex
+  - crunchbase: https://www.crunchbase.com/organization/rookout
+    description: Collect data directly from your live code using non-breaking breakpoints.
+      Debug, observe and understand anything, anytime, anywhere.
+    homepage_url: https://www.rookout.com/
+    item: null
+    logo: rookout.svg
+    name: Rookout
+  Tracing: []
+Orchestration & Management:
+  API Gateway:
+  - crunchbase: https://www.crunchbase.com/organization/accenture
+    homepage_url: https://accenture.github.io/reactive-interaction-gateway/
+    item: null
+    logo: reactive-interaction-gateway.svg
+    name: Reactive Interaction Gateway
+    repo_url: https://github.com/accenture/reactive-interaction-gateway
+  Coordination & Service Discovery: []
+  Remote Procedure Call: []
+  Scheduling & Orchestration: []
+  Service Mesh: []
+  Service Proxy: []
+Platform:
+  Certified Kubernetes - Distribution:
+  - crunchbase: https://www.crunchbase.com/organization/suse
+    description: "Deploy Rancher\u2019s Kubernetes distro anywhere or launch cloud\
+      \ Kubernetes services from Google, Amazon or Microsoft."
+    homepage_url: https://rancher.com
+    item: null
+    logo: rancher.svg
+    name: Rancher Kubernetes
+    repo_url: https://github.com/rancher/rancher
+  - crunchbase: https://www.crunchbase.com/organization/red-hat
+    description: "Red Hat\xAE OpenShift is a container application platform that brings\
+      \ docker and Kubernetes to the enterprise."
+    homepage_url: https://www.redhat.com/en/technologies/cloud-computing/openshift
+    item: null
+    logo: red-hat-open-shift.svg
+    name: Red Hat OpenShift
+    repo_url: https://github.com/openshift/kubernetes
+    twitter: https://twitter.com/openshift
+  - crunchbase: https://www.crunchbase.com/organization/suse
+    description: A Kubernetes distribution focused on enabling Federal government
+      compliance-based use cases.
+    homepage_url: https://docs.rke2.io/
+    item: null
+    logo: rke-government.svg
+    name: RKE Government
+    repo_url: https://github.com/rancher/rke2
+  - crunchbase: https://www.crunchbase.com/organization/robin-systems
+    description: "ROBIN Platform, the industry\u2019s first hyper-converged Kubernetes\
+      \ platform for big data, databases, and AI/ML."
+    homepage_url: https://robin.io
+    item: null
+    logo: robin-systems-member.svg
+    name: Robin CNP
+  Certified Kubernetes - Hosted:
+  - crunchbase: https://www.crunchbase.com/organization/rafay-systems-inc
+    description: Rafay Systems enables DevOps and SRE teams to automate application
+      lifecycle and cluster configuration management across on-premise and cloud-based
+      Kubernetes clusters through a turnkey SaaS platform.
+    homepage_url: https://rafay.co/
+    item: null
+    logo: rafay.svg
+    name: Rafay
+  - crunchbase: https://www.crunchbase.com/organization/red-hat
+    description: "OpenShift\xAE Dedicated helps organizations focus on building and\
+      \ scaling their business with a private Kubernetes cluster fully-managed by\
+      \ Red Hat\xAE."
+    homepage_url: https://cloud.redhat.com/products/dedicated
+    item: null
+    logo: Logo-Red_Hat-OpenShift_Dedicated-A-Standard-RGB.svg
+    name: Red Hat OpenShift Dedicated
+    twitter: https://twitter.com/openshift
+  - crunchbase: https://www.crunchbase.com/organization/ibm
+    description: Red Hat OpenShift on IBM Cloud is a managed offering to create your
+      own OpenShift cluster of compute hosts to deploy and manage containerized apps
+      on IBM Cloud.
+    homepage_url: https://www.ibm.com/cloud/openshift
+    item: null
+    logo: red-hat-openshift-ibm-cloud.svg
+    name: Red Hat OpenShift on IBM Cloud
+  - crunchbase: https://www.crunchbase.com/organization/tectonic-c189
+    description: "Ridge Kubernetes Service (RKS). RKS is a full k8s managed service\
+      \ that makes it possible to run Kubernetes across Ridge\u2019s edge locations."
+    homepage_url: https://ridge.co/
+    item: null
+    joined: '2021-01-31'
+    logo: ridge.svg
+    name: Ridge Kubernetes Service
+  Certified Kubernetes - Installer:
+  - crunchbase: https://www.crunchbase.com/organization/suse
+    description: Rancher Kubernetes Engine, an extremely simple, lightning fast Kubernetes
+      installer that works everywhere.
+    homepage_url: https://github.com/rancher/rke
+    item: null
+    logo: rancher.svg
+    name: Rancher Kubernetes Engine (RKE)
+    repo_url: https://github.com/rancher/rke
+  PaaS/Container Service:
+  - crunchbase: https://www.crunchbase.com/organization/rancher-labs
+    homepage_url: https://rio.io/
+    item: null
+    logo: rio.svg
+    name: Rio
+    repo_url: https://github.com/rancher/rio
+Provisioning:
+  Automation & Configuration:
+  - crunchbase: https://www.crunchbase.com/organization/rundeck
+    homepage_url: https://www.rundeck.com/open-source
+    item: null
+    logo: rundeck.svg
+    name: Rundeck
+    repo_url: https://github.com/rundeck/rundeck
+  Container Registry: []
+  Key Management: []
+  Security & Compliance:
+  - crunchbase: https://www.crunchbase.com/organization/fairwinds
+    homepage_url: https://www.fairwinds.com/open-source-software
+    item: null
+    logo: rbac-lookup.svg
+    name: RBAC Lookup
+    repo_url: https://github.com/FairwindsOps/rbac-lookup
+  - crunchbase: https://www.crunchbase.com/organization/fairwinds
+    homepage_url: https://www.fairwinds.com/open-source-software
+    item: null
+    logo: rbac-manager.svg
+    name: RBAC Manager
+    repo_url: https://github.com/FairwindsOps/rbac-manager
+  - crunchbase: https://www.crunchbase.com/organization/normation
+    extra:
+      artwork_url: https://github.com/Normation/rudder/tree/master/logo
+      blog_url: https://www.rudder.io/blog/
+      youtube_url: https://www.youtube.com/user/RudderProject
+    homepage_url: https://www.rudder.io/
+    item: null
+    logo: rudder.svg
+    name: Rudder
+    repo_url: https://github.com/normation/rudder
+Runtime:
+  Cloud Native Network: []
+  Cloud Native Storage:
+  - crunchbase: https://www.crunchbase.com/organization/robin-systems
+    homepage_url: https://robin.io/
+    item: null
+    logo: robin-systems.svg
+    name: Robin Systems
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      accepted: '2018-01-29'
+      artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#rook-logos
+      blog_url: https://blog.rook.io/
+      dev_stats_url: https://rook.devstats.cncf.io/
+      slack_url: https://rook-io.slack.com/
+      stack_overflow_url: https://stackoverflow.com/questions/tagged/rook
+    homepage_url: https://rook.io/
+    item: null
+    logo: rook.svg
+    name: Rook
+    project: graduated
+    repo_url: https://github.com/rook/rook
+    twitter: https://twitter.com/rook_io
+  Container Runtime: []
+Serverless:
+  Framework: []
+  Hosted Platform: []
+  Installable Platform:
+  - crunchbase: https://www.crunchbase.com/organization/vmware
+    homepage_url: https://projectriff.io/
+    item: null
+    logo: riff.svg
+    name: Riff
+    repo_url: https://github.com/projectriff/riff
+    twitter: https://twitter.com/projectriff
+  Security: []
+  Tools: []
+Special:
+  Certified CNFs: []
+  Kubernetes Certified Service Provider:
+  - crunchbase: https://www.crunchbase.com/organization/rackner-solutions
+    description: Rackner is a cloud native consultancy where we work closely with
+      our clients to build, secure, and operate on any cloud with Kubernetes.
+    homepage_url: https://rackner.com/kubernetes/
+    item: null
+    logo: rackner.svg
+    name: Rackner (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/rafay-systems-inc
+    description: Rafay Systems delivers a turnkey offering along with white-glove
+      support to assist enterprise customers automate Kubernetes cluster management
+      and application operations at scale across public clouds, data centers and Edge
+      environments.
+    homepage_url: https://rafay.co/
+    item: null
+    logo: rafay.svg
+    name: Rafay (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/raft-2599
+    description: Raft provides cloud native training, consulting, and implementation
+      services that are vendor agnostic. Our DevSecOps services take a holistic experience
+      approach for developers, platform ops and security compliance.
+    homepage_url: https://goraft.tech/
+    item: null
+    logo: raft.svg
+    name: Raft (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/rancher-labs
+    description: Rancher is enterprise management for Kubernetes. Every distro. Every
+      cluster. Every cloud.
+    homepage_url: https://rancher.com
+    item: null
+    logo: rancher.svg
+    name: Rancher (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/red-kubes
+    description: Red Kubes helps organizations take advantage of Kubernetes in a fast,
+      reliable and secure way. We build and manage Kubernetes on every Cloud with
+      our own curated stack to deliver a full enterprise Kubernetes platform solution.
+      We also offer remote and on-site support.
+    homepage_url: https://redkubes.com/
+    item: null
+    logo: redkubes.svg
+    name: Red Kubes (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/redeploy
+    description: We know Azure AKS.
+    homepage_url: https://redeploy.com/services/
+    item: null
+    logo: redeploy.svg
+    name: Redeploy (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/replex-gmbh
+    description: Replex provides a portfolio of products and managed services to help
+      enterprises implement, operate, govern and control cloud native Kubernetes environments.
+    homepage_url: https://www.replex.io/kubernetes-professional-services
+    item: null
+    logo: replex.svg
+    name: Replex (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/rng-technology
+    description: As a KCSP partner, we offer consulting, design, configuration, and
+      24/7 support to a wide range of industries and organizations of all sizes, integrating
+      container technology with the appropriate methodologies and cloud culture.
+    homepage_url: https://rng.tech/en/kubernetes
+    item: null
+    logo: rng-technology.svg
+    name: RNG Technology (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/rx-m
+    description: Market neutral Kubernetes Dev, DevOps and Production training and
+      consulting services
+    homepage_url: http://rx-m.com/training/
+    item: null
+    logo: rx-m.svg
+    name: RX-M (KCSP)
+  Kubernetes Training Partner:
+  - crunchbase: https://www.crunchbase.com/organization/rx-m
+    description: Market neutral Kubernetes Dev, DevOps and Production training and
+      consulting services
+    extra:
+      training_certifications: cka, ckad, cks, kcna
+      training_type: instructor-led
+    homepage_url: http://rx-m.com/training/
+    item: null
+    logo: rx-m.svg
+    name: RX-M (KTP)
+Wasm:
+  Debugging and Observability: []
+  Installable Platform: []
+  Packaging, Registries & Application Delivery: []
+  Runtime: []
+  Specifications: []
+  Toolchain: []

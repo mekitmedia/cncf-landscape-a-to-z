@@ -1,0 +1,517 @@
+App Definition and Development:
+  Application Definition & Image Build:
+  - crunchbase: https://www.crunchbase.com/organization/gitpod
+    homepage_url: https://gitpod.io
+    item: null
+    logo: gitpod.svg
+    name: Gitpod
+  - crunchbase: https://www.crunchbase.com/organization/gradle
+    description: Gradle is a build automation tool for multi-language software development.
+      It controls the development process in the tasks of compilation  and packaging
+      to testing, deployment, and publishing. Supported languages include Java (Kotlin,
+      Groovy, Scala), C/C++, and JavaScript.
+    homepage_url: https://gradle.org
+    item: null
+    logo: gradle.svg
+    name: Gradle Build Tool
+    repo_url: https://github.com/gradle/gradle
+  Continuous Integration & Delivery:
+  - crunchbase: https://www.crunchbase.com/organization/github
+    description: GitHub Actions makes it easy to automate all your software workflows,
+      now with world-class CI/CD. Build, test, and deploy your code right from GitHub.
+      Make code reviews, branch management, and issue triaging work the way you want.
+    homepage_url: https://github.com/features/actions
+    item: null
+    logo: github-actions.svg
+    name: GitHub Actions
+  - crunchbase: https://www.crunchbase.com/organization/gitlab-com
+    homepage_url: https://about.gitlab.com/
+    item: null
+    logo: gitlab.svg
+    name: GitLab
+    repo_url: https://github.com/gitlabhq/gitlabhq
+    url_for_bestpractices: https://gitlab.com/gitlab-org/gitlab-ce
+  - crunchbase: https://www.crunchbase.com/organization/thoughtworks
+    homepage_url: https://www.gocd.org/
+    item: null
+    logo: gocd.svg
+    name: GoCD
+    repo_url: https://github.com/gocd/gocd
+    twitter: https://twitter.com/goforcd
+  - crunchbase: https://www.crunchbase.com/organization/google
+    description: Cloud Build lets you build software quickly across all languages.
+      Get complete control over defining custom workflows for building, testing, and
+      deploying across multiple environments such as VMs, serverless, Kubernetes,
+      or Firebase.
+    homepage_url: https://cloud.google.com/build
+    item: null
+    logo: google-cloud-build.svg
+    name: Google Cloud Build
+    twitter: https://twitter.com/GCPcloud
+  Database:
+  - crunchbase: https://www.crunchbase.com/organization/alibaba
+    description: A One-Stop Large-Scale Graph Computing System from Alibaba
+    homepage_url: https://graphscope.io/
+    item: null
+    logo: graphscope.svg
+    name: GraphScope
+    repo_url: https://github.com/alibaba/graphscope
+  Streaming & Messaging:
+  - crunchbase: https://www.crunchbase.com/organization/google
+    description: Cloud Dataflow is a fully-managed service for transforming and enriching
+      data in stream (real time) and batch (historical) modes with equal reliability
+      and expressiveness -- no more complex workarounds or compromises needed. And
+      with its serverless approach to resource provisioning and management, you have
+      access to virtually limitless capacity to solve your biggest data processing
+      challenges, while paying only for what you use.
+    homepage_url: https://cloud.google.com/dataflow/
+    item: null
+    logo: google-cloud-dataflow.svg
+    name: Google Cloud Dataflow
+    twitter: https://twitter.com/GCPcloud
+CNCF Members:
+  Academic:
+  - crunchbase: https://www.crunchbase.com/organization/golden-gate-university-san-francisco
+    enduser: true
+    homepage_url: https://www.ggu.edu
+    item: null
+    logo: golden-gate-university-member.svg
+    name: Golden Gate University (member)
+  End User Supporter:
+  - crunchbase: https://www.crunchbase.com/organization/1-1-mail-media-development-technology-gmbh
+    homepage_url: https://www.gmx.net
+    item: null
+    logo: gmx.svg
+    name: GMX (supporter)
+  Gold: []
+  Nonprofit: []
+  Platinum:
+  - crunchbase: https://www.crunchbase.com/organization/google
+    homepage_url: https://cloud.google.com/
+    item: null
+    logo: google-cloud.svg
+    name: Google Cloud (member)
+    twitter: https://twitter.com/GCPcloud
+  - crunchbase: https://www.crunchbase.com/organization/raintank
+    homepage_url: https://grafana.com
+    item: null
+    logo: grafana-labs-member.svg
+    name: Grafana Labs (member)
+  Silver:
+  - crunchbase: https://www.crunchbase.com/organization/g-research
+    enduser: true
+    homepage_url: https://www.gresearch.co.uk/
+    item: null
+    logo: g-research.svg
+    name: G-Research (member)
+  - crunchbase: https://www.crunchbase.com/organization/gaia-information-technology
+    homepage_url: https://www.gaia.net/en
+    item: null
+    logo: Gaia.svg
+    name: Gaia Information Technology  (member)
+  - crunchbase: https://www.crunchbase.com/organization/garden-io
+    homepage_url: https://garden.io
+    item: null
+    logo: garden-member.svg
+    name: Garden (member)
+  - crunchbase: https://www.crunchbase.com/organization/ge-healthcare
+    enduser: true
+    homepage_url: https://www.gehealthcare.com/
+    item: null
+    logo: ge-healthcare.svg
+    name: GE Healthcare (member)
+  - crunchbase: https://www.crunchbase.com/organization/gemini-open-cloud-computing-inc
+    homepage_url: https://www.geminiopencloud.com/
+    item: null
+    logo: geminiopencloud.svg
+    name: Gemini Open Cloud (member)
+  - crunchbase: https://www.crunchbase.com/organization/german-edge-cloud
+    homepage_url: https://gec.io/industrial-solutions/industrial-edge-appliance
+    item: null
+    logo: german-edge-cloud.svg
+    name: German Edge Cloud (member)
+  - crunchbase: https://www.crunchbase.com/organization/giant-swarm
+    homepage_url: https://www.giantswarm.io
+    item: null
+    logo: giant-swarm-member.svg
+    name: Giant Swarm (member)
+  - crunchbase: https://www.crunchbase.com/organization/gientech
+    homepage_url: https://www.gientech.com/
+    item: null
+    logo: gientech.svg
+    name: GienTech (member)
+  - crunchbase: https://www.crunchbase.com/organization/github
+    homepage_url: https://github.com
+    item: null
+    logo: git-hub-member.svg
+    name: GitHub (member)
+  - crunchbase: https://www.crunchbase.com/organization/gitlab-com
+    homepage_url: https://about.gitlab.com
+    item: null
+    logo: gitlab.svg
+    name: GitLab (member)
+  - crunchbase: https://www.crunchbase.com/organization/gitpod
+    homepage_url: https://gitpod.io
+    item: null
+    logo: gitpod.svg
+    name: Gitpod (member)
+  - crunchbase: https://www.crunchbase.com/organization/organiza-es-globo
+    enduser: true
+    homepage_url: https://www.globo.com
+    item: null
+    logo: globo-member.svg
+    name: Globo (member)
+  - crunchbase: https://www.crunchbase.com/organization/godaddy
+    homepage_url: https://www.godaddy.com/es-es
+    item: null
+    logo: godaddy.svg
+    name: GoDaddy (member)
+  - crunchbase: https://www.crunchbase.com/organization/goldman-sachs
+    enduser: true
+    homepage_url: https://www.goldmansachs.com
+    item: null
+    logo: goldman-sachs-member.svg
+    name: Goldman Sachs (member)
+  - crunchbase: https://www.crunchbase.com/organization/gotoadmins
+    homepage_url: https://www.gotoadmins.com/
+    item: null
+    logo: gotoadmins.svg
+    name: GotoAdmins (member)
+  - crunchbase: https://www.crunchbase.com/organization/granulate-cloud-solutions
+    homepage_url: https://www.granulate.io/
+    item: null
+    logo: granulate.svg
+    name: Granulate (member)
+  - crunchbase: https://www.crunchbase.com/organization/grape-up
+    homepage_url: https://grapeup.com
+    item: null
+    logo: grape-up-member.svg
+    name: Grape Up (member)
+  - crunchbase: https://www.crunchbase.com/organization/gremlin-inc
+    homepage_url: https://www.gremlin.com
+    item: null
+    logo: gremlin-member.svg
+    name: Gremlin (member)
+  - crunchbase: https://www.crunchbase.com/organization/groundcover
+    homepage_url: https://www.groundcover.com/
+    item: null
+    logo: groundcover.svg
+    name: Groundcover (member)
+  - crunchbase: https://www.crunchbase.com/organization/guanceyun
+    homepage_url: https://www.guance.com/
+    item: null
+    logo: guance.svg
+    name: Guance (member)
+  - crunchbase: https://www.crunchbase.com/organization/guida
+    homepage_url: https://www.guida.nl/
+    item: null
+    logo: guida.svg
+    name: Guida (member)
+Observability and Analysis:
+  Chaos Engineering:
+  - crunchbase: https://www.crunchbase.com/organization/gremlin-inc
+    homepage_url: https://www.gremlin.com/
+    item: null
+    logo: gremlin.svg
+    name: Gremlin
+    twitter: https://twitter.com/GremlinInc
+  Continuous Optimization:
+  - crunchbase: https://www.crunchbase.com/organization/granulate-cloud-solutions
+    homepage_url: https://www.granulate.io/
+    item: null
+    logo: granulate.svg
+    name: Granulate
+  Logging:
+  - crunchbase: https://www.crunchbase.com/organization/raintank
+    description: Loki is a horizontally-scalable, highly-available, multi-tenant log
+      aggregation system inspired by Prometheus. It is designed to be very cost effective
+      and easy to operate. It does not index the contents of the logs, but rather
+      a set of labels for each log stream.
+    homepage_url: https://grafana.com/oss/loki
+    item: null
+    logo: grafana-loki.svg
+    name: Grafana Loki
+    repo_url: https://github.com/grafana/loki
+  - crunchbase: https://www.crunchbase.com/organization/graylog
+    homepage_url: https://www.graylog.org/
+    item: null
+    logo: graylog.svg
+    name: Graylog
+    open_source: false
+    repo_url: https://github.com/Graylog2/graylog2-server
+  Monitoring:
+  - crunchbase: https://www.crunchbase.com/organization/google
+    description: Stackdriver aggregates metrics, logs, and events from infrastructure,
+      giving developers and operators a rich set of observable signals that speed
+      root-cause analysis and reduce mean time to resolution (MTTR).
+    homepage_url: https://cloud.google.com/products/operations
+    item: null
+    logo: google-stackdriver.svg
+    name: Google Stackdriver
+    twitter: https://twitter.com/GCPcloud
+  - crunchbase: https://www.crunchbase.com/organization/gradle
+    description: Gradle Enterprise provides both acceleration and observability technologies
+      to speed up the software build and test process. Data analytics make benchmarking
+      and  troubleshooting more efficient. It is a key enabling technology for the
+      emerging discipline of Developer Productivity Engineering.
+    homepage_url: https://gradle.com/
+    item: null
+    logo: gradle.svg
+    name: Gradle Enterprise
+  - crunchbase: https://www.crunchbase.com/organization/raintank
+    description: Grafana allows you to query, visualize, alert on and understand your
+      metrics no matter where they are stored. Create, explore, and share beautiful
+      dashboards with your team and foster a data driven culture.
+    homepage_url: https://grafana.com/
+    item: null
+    logo: grafana.svg
+    name: Grafana
+    repo_url: https://github.com/grafana/grafana
+  - crunchbase: https://www.crunchbase.com/organization/raintank
+    description: Grafana Mimir lets you scale to 1 billion metrics and beyond, with
+      high availability, multi-tenancy, durable storage, and blazing fast query performance
+      over long periods of time.
+    homepage_url: https://grafana.com/oss/mimir
+    item: null
+    logo: grafana-mimir.svg
+    name: Grafana Mimir
+    repo_url: https://github.com/grafana/mimir
+  - crunchbase: https://www.crunchbase.com/organization/graphite
+    homepage_url: https://graphiteapp.org/
+    item: null
+    logo: graphite.svg
+    name: Graphite
+    repo_url: https://github.com/graphite-project/graphite-web
+  - crunchbase: https://www.crunchbase.com/organization/guanceyun
+    description: Guance Cloud offers a full-stack observability platform for cloud-based
+      workflows.
+    homepage_url: https://guance.com/
+    item: null
+    logo: guance-cloud.svg
+    name: Guance Cloud
+  Tracing:
+  - crunchbase: https://www.crunchbase.com/organization/raintank
+    description: Grafana Tempo is an open source, easy-to-use and high-scale distributed
+      tracing backend. Tempo is cost-efficient, requiring only object storage to operate,
+      and is deeply integrated with Grafana, Prometheus, and Loki. Tempo can be used
+      with any of the open source tracing protocols, including Jaeger, Zipkin, and
+      OpenTelemetry.
+    homepage_url: https://grafana.com/oss/tempo/
+    item: null
+    logo: grafana-tempo.svg
+    name: Grafana Tempo
+    repo_url: https://github.com/grafana/tempo
+Orchestration & Management:
+  API Gateway:
+  - crunchbase: https://www.crunchbase.com/organization/solo-io
+    homepage_url: https://www.solo.io
+    item: null
+    logo: gloo.svg
+    name: Gloo
+    repo_url: https://github.com/solo-io/gloo
+  - crunchbase: https://www.crunchbase.com/organization/gravitee-io
+    homepage_url: https://gravitee.io
+    item: null
+    logo: gravitee.svg
+    name: Gravitee.io
+    repo_url: https://github.com/gravitee-io/gravitee-api-management
+  Coordination & Service Discovery: []
+  Remote Procedure Call: []
+  Scheduling & Orchestration: []
+  Service Mesh:
+  - crunchbase: https://www.crunchbase.com/organization/glasnostic
+    description: Glasnostic makes modern cloud applications resilient by shaping how
+      systems interact, automatically and in real-time.
+    homepage_url: https://glasnostic.com/
+    item: null
+    logo: glasnostic.svg
+    name: Glasnostic
+  - crunchbase: https://www.crunchbase.com/organization/solo-io
+    homepage_url: https://docs.solo.io/gloo-mesh-enterprise/latest
+    item: null
+    logo: gloomesh.svg
+    name: Gloo Mesh
+    repo_url: https://github.com/solo-io/gloo-mesh
+  Service Proxy:
+  - crunchbase: https://www.crunchbase.com/organization/vmware
+    homepage_url: https://github.com/projectcontour/gimbal
+    item: null
+    logo: project-gimbal.svg
+    name: Gimbal
+    repo_url: https://github.com/projectcontour/gimbal
+    twitter: https://twitter.com/projectgimbal
+Platform:
+  Certified Kubernetes - Distribution:
+  - crunchbase: https://www.crunchbase.com/organization/giant-swarm
+    description: The Giant Swarm platform enables users to simply and rapidly create
+      and use 24/7 managed Kubernetes clusters on-demand.
+    homepage_url: https://www.giantswarm.io
+    item: null
+    logo: giant-swarm-cncf.svg
+    name: Giant Swarm Managed Kubernetes
+  Certified Kubernetes - Hosted:
+  - crunchbase: https://www.crunchbase.com/organization/german-edge-cloud
+    description: The first choice for Industrial and Finance clients Kubernetes.
+    homepage_url: https://gec.io
+    item: null
+    logo: german-edge-cloud.svg
+    name: German Edge Cloud Kubernetes Services (GKS)
+  - crunchbase: https://www.crunchbase.com/organization/google
+    description: GKE is an enterprise-grade platform for containerized applications,
+      including stateful and stateless, AI and ML, Linux and Windows, complex and
+      simple web apps, API, and backend services.
+    homepage_url: https://cloud.google.com/kubernetes-engine/
+    item: null
+    logo: google-kubernetes-engine.svg
+    name: Google Kubernetes Engine (GKE)
+    twitter: https://twitter.com/GCPcloud
+  Certified Kubernetes - Installer:
+  - crunchbase: https://www.crunchbase.com/organization/sap
+    description: The Gardener implements automated management and operation of Kubernetes
+      clusters as a service and aims to support that service on multiple  Cloud providers.
+    homepage_url: https://gardener.cloud
+    item: null
+    logo: gardener.svg
+    name: Gardener
+    repo_url: https://github.com/gardener/gardener
+    twitter: https://twitter.com/GardenerProject
+    url_for_bestpractices: https://github.com/gardener/
+  PaaS/Container Service: []
+Provisioning:
+  Automation & Configuration: []
+  Container Registry:
+  - crunchbase: https://www.crunchbase.com/organization/google
+    description: Container Registry is a single place for your team to manage Docker
+      images, perform vulnerability analysis, and decide who can access what with
+      fine-grained access control.
+    homepage_url: https://cloud.google.com/container-registry/
+    item: null
+    logo: google-container-registry.svg
+    name: Google Container Registry
+    twitter: https://twitter.com/GCPcloud
+  Key Management: []
+  Security & Compliance:
+  - crunchbase: https://www.crunchbase.com/organization/fairwinds
+    homepage_url: https://www.fairwinds.com/open-source-software
+    item: null
+    logo: goldilocks.svg
+    name: Goldilocks
+    repo_url: https://github.com/FairwindsOps/goldilocks
+  - crunchbase: https://www.crunchbase.com/organization/google
+    homepage_url: https://grafeas.io/
+    item: null
+    logo: grafeas.svg
+    name: Grafeas
+    repo_url: https://github.com/grafeas/grafeas
+    twitter: https://twitter.com/Grafeasio
+Runtime:
+  Cloud Native Network:
+  - crunchbase: https://www.crunchbase.com/organization/guardicore
+    homepage_url: https://www.guardicore.com/cyber-security-platform
+    item: null
+    logo: guardi-core-centra.svg
+    name: Guardicore Centra
+  Cloud Native Storage:
+  - crunchbase: https://www.crunchbase.com/organization/red-hat
+    homepage_url: https://www.gluster.org/
+    item: null
+    logo: gluster.svg
+    name: Gluster
+    repo_url: https://github.com/gluster/glusterfs
+    twitter: https://twitter.com/gluster
+  - crunchbase: https://www.crunchbase.com/organization/google
+    description: Google Persistent Disk is durable and high performance block storage
+      for the Google Cloud Platform. Persistent Disk provides SSD and HDD storage
+      which can be attached to instances running in either Google Compute Engine or
+      Google Kubernetes Engine. Storage volumes can be transparently resized, quickly
+      backed up, and offer the ability to support simultaneous readers.
+    homepage_url: https://cloud.google.com/persistent-disk
+    item: null
+    logo: google-persistent-disk.svg
+    name: Google Persistent Disk
+    twitter: https://twitter.com/GCPcloud
+  Container Runtime: []
+Serverless:
+  Framework: []
+  Hosted Platform:
+  - crunchbase: https://www.crunchbase.com/organization/google
+    description: Your development agility comes from building systems composed of
+      small, independent units of functionality focused on doing one thing well. Cloud
+      Functions lets you build and deploy services at the level of a single function,
+      not at the level of entire applications, containers, or VMs.
+    homepage_url: https://cloud.google.com/functions/
+    item: null
+    logo: google-cloud-functions.svg
+    name: Google Cloud Functions
+    twitter: https://twitter.com/GCPcloud
+  Installable Platform: []
+  Security: []
+  Tools: []
+Special:
+  Certified CNFs: []
+  Kubernetes Certified Service Provider:
+  - crunchbase: https://www.crunchbase.com/organization/gaia-information-technology
+    description: Gaia, a multi-cloud solutions provider, offers Kubernetes implementation
+      and configuration services, application container migrations, and professional
+      IT training.   We help our customers adopt DevSecOps, build CI/CD, and migrate
+      applications to Kubernetes.
+    homepage_url: https://www.gaia.net/tc/services/20/Kubernetes
+    item: null
+    logo: Gaia.svg
+    name: Gaia (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/gemini-open-cloud-computing-inc
+    description: Gemini Open Cloud (GOC), a leader in hybrid multi-cloud technology,
+      helps data centers and enterprises build their cloud infrastructure and provision
+      heterogeneous resources to many projects and users. Hundreds of organizations
+      in Taiwan and abroad have adopted our software technology, successfully managing
+      thousands of CPU/GPU nodes in total.
+    homepage_url: https://www.geminiopencloud.com/en/products/kubernetes/
+    item: null
+    logo: geminiopencloud.svg
+    name: Gemini Open Cloud (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/giant-swarm
+    description: Giant Swarm provides fully-managed Kubernetes Clusters in your location
+      of choice, so you can focus on your product.
+    homepage_url: https://www.giantswarm.io/
+    item: null
+    logo: giant-swarm-cncf.svg
+    name: Giant Swarm (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/gitlab-com
+    description: GitLab provides DevOps fundamentals training using Kubernetes. Implement
+      GitOps using GitLab to establish declarative application delivery to K8s.
+    homepage_url: https://about.gitlab.com/solutions/kubernetes/
+    item: null
+    logo: gitlab.svg
+    name: GitLab (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/grape-up
+    description: "Grape Up combines cloud native platform \u2013 Cloudboostr, and\
+      \ professional services including DevOps & cloud enablement, application transformation,\
+      \ and operations & support for Kubernetes."
+    homepage_url: https://grapeup.com/
+    item: null
+    logo: grape-up-kcsp.svg
+    name: Grape Up (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/guida
+    description: Guida builds and operates cloud native platforms based on Kubernetes
+      so that software developers can focus on building innovative software.
+    homepage_url: https://www.guida.nl/
+    item: null
+    logo: guida.svg
+    name: Guida (KCSP)
+  Kubernetes Training Partner:
+  - crunchbase: https://www.crunchbase.com/organization/gaia-information-technology
+    description: Gaia, a multi-cloud solutions provider, offers Kubernetes implementation
+      and configuration services, application container migrations, and professional
+      IT training.   We help our customers adopt DevSecOps, build CI/CD, and migrate
+      applications to Kubernetes.
+    homepage_url: https://www.gaia.net/tc/training_detail/22/1/kubernetestraining
+    item: null
+    logo: Gaia.svg
+    name: Gaia (KTP)
+Wasm:
+  Debugging and Observability: []
+  Installable Platform: []
+  Packaging, Registries & Application Delivery: []
+  Runtime: []
+  Specifications: []
+  Toolchain: []

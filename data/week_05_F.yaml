@@ -1,0 +1,424 @@
+App Definition and Development:
+  Application Definition & Image Build: []
+  Continuous Integration & Delivery:
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    homepage_url: https://docs.flagger.app
+    item: null
+    logo: flagger.svg
+    name: Flagger
+    repo_url: https://github.com/fluxcd/flagger
+    twitter: https://twitter.com/fluxcd
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      accepted: '2019-07-15'
+      artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#flux-logos
+      blog_url: https://fluxcd.io/blog/
+      dev_stats_url: https://flux.devstats.cncf.io/
+      mailing_list_url: https://github.com/fluxcd/flux2/discussions
+      slack_url: https://cloud-native.slack.com/messages/flux
+      youtube_url: https://www.youtube.com/channel/UCoZxt-YMhGHb20ZkvcCc5KA
+    homepage_url: https://fluxcd.io/
+    item: null
+    logo: flux.svg
+    name: Flux
+    project: incubating
+    repo_url: https://github.com/fluxcd/flux2
+    twitter: https://twitter.com/fluxcd
+  Database:
+  - crunchbase: https://www.crunchbase.com/organization/apple
+    homepage_url: https://www.foundationdb.org/
+    item: null
+    logo: foundationdb.svg
+    name: FoundationDB
+    repo_url: https://github.com/apple/foundationdb
+    twitter: https://twitter.com/FoundationDB
+  Streaming & Messaging:
+  - crunchbase: https://www.crunchbase.com/organization/apache
+    homepage_url: https://flink.apache.org/
+    item: null
+    logo: flink.svg
+    name: Flink
+    repo_url: https://github.com/apache/flink
+    twitter: https://twitter.com/apacheflink
+  - crunchbase: https://www.crunchbase.com/organization/infinyon
+    homepage_url: https://fluvio.io/
+    item: null
+    logo: fluvio.svg
+    name: Fluvio
+    repo_url: https://github.com/infinyon/fluvio
+    twitter: https://twitter.com/InfinyOn
+CNCF Members:
+  Academic: []
+  End User Supporter:
+  - crunchbase: https://www.crunchbase.com/organization/fatmap
+    homepage_url: https://about.fatmap.com/
+    item: null
+    joined: '2022-01-14'
+    logo: fatmap.svg
+    name: FATMAP (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/form3-financial-cloud
+    homepage_url: https://form3.tech/
+    item: null
+    logo: form3-supporter.svg
+    name: Form3 (supporter)
+  Gold:
+  - crunchbase: https://www.crunchbase.com/organization/fidelity-investments
+    enduser: true
+    homepage_url: https://www.fidelity.com/
+    item: null
+    logo: fidelity-investments.svg
+    name: Fidelity Investments (member)
+  Nonprofit: []
+  Platinum:
+  - crunchbase: https://www.crunchbase.com/organization/fujitsu
+    homepage_url: https://www.fujitsu.com/global/
+    item: null
+    logo: fujitsu-k5.svg
+    name: Fujitsu (member)
+  Silver:
+  - crunchbase: https://www.crunchbase.com/organization/f5-networks
+    homepage_url: https://www.f5.com
+    item: null
+    logo: f5-member.svg
+    name: F5 (member)
+    twitter: https://twitter.com/F5
+  - crunchbase: https://www.crunchbase.com/organization/fairwinds
+    homepage_url: https://www.fairwinds.com/
+    item: null
+    logo: fairwinds.svg
+    name: Fairwinds (member)
+  - crunchbase: https://www.crunchbase.com/organization/fannie-mae
+    enduser: true
+    homepage_url: https://www.fanniemae.com/
+    item: null
+    joined: '2021-10-23'
+    logo: fannie-mae.svg
+    name: Fannie Mae (member)
+  - crunchbase: https://www.crunchbase.com/organization/finout
+    homepage_url: https://www.finout.io/
+    item: null
+    logo: finout.svg
+    name: Finout (member)
+  - crunchbase: https://www.crunchbase.com/organization/infralight
+    homepage_url: https://www.gofirefly.io/
+    item: null
+    logo: firefly.svg
+    name: Firefly (member)
+  - crunchbase: https://www.crunchbase.com/organization/firehydrant
+    homepage_url: https://firehydrant.com
+    item: null
+    logo: firehydrant.svg
+    name: FireHydrant (member)
+  - crunchbase: https://www.crunchbase.com/organization/fit2cloud
+    homepage_url: https://www.fit2cloud.com/
+    item: null
+    logo: fit2cloud.svg
+    name: FIT2CLOUD (member)
+  - crunchbase: https://www.crunchbase.com/organization/flanksource
+    homepage_url: https://www.flanksource.com/
+    item: null
+    logo: flanksource.svg
+    name: Flanksource (member)
+  - crunchbase: https://www.crunchbase.com/organization/flant
+    homepage_url: https://flant.com
+    item: null
+    logo: flant-member.svg
+    name: Flant (member)
+  - crunchbase: https://www.crunchbase.com/organization/fossa-2
+    homepage_url: https://fossa.com
+    item: null
+    logo: fossa.svg
+    name: FOSSA (member)
+  - crunchbase: https://www.crunchbase.com/organization/fournine-cloud
+    homepage_url: https://www.fourninecloud.com/
+    item: null
+    logo: fournine.svg
+    name: Fournine Cloud Solutions (member)
+  - crunchbase: https://www.crunchbase.com/organization/fullstaq
+    homepage_url: https://fullstaq.com/
+    item: null
+    logo: fullstaq.svg
+    name: Fullstaq (member)
+  - crunchbase: https://www.crunchbase.com/organization/futurewei-technologies
+    homepage_url: https://www.futurewei.com/
+    item: null
+    logo: futurewei.svg
+    name: Futurewei Technologies (member)
+Observability and Analysis:
+  Chaos Engineering: []
+  Continuous Optimization: []
+  Logging:
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      accepted: '2016-11-08'
+      artwork_url: https://github.com/cncf/artwork/blob/master/examples/graduated.md#fluentd-logos
+      blog_url: http://www.fluentd.org/blog/
+      dev_stats_url: https://fluentd.devstats.cncf.io/
+      slack_url: http://slack.fluentd.org/
+      stack_overflow_url: https://stackoverflow.com/questions/tagged/fluentd
+    homepage_url: https://www.fluentd.org/
+    item: null
+    logo: fluentd.svg
+    name: Fluentd
+    project: graduated
+    repo_url: https://github.com/fluent/fluentd
+    twitter: https://twitter.com/fluentd
+  Monitoring:
+  - crunchbase: https://www.crunchbase.com/organization/xiaomi
+    homepage_url: https://open-falcon.com
+    item: null
+    logo: falcon.svg
+    name: Falcon
+    repo_url: https://github.com/open-falcon/falcon-plus
+    twitter: null
+  - crunchbase: https://www.crunchbase.com/organization/flowmill
+    homepage_url: https://www.splunk.com/en_us/investor-relations/acquisitions/flowmill.html
+    item: null
+    logo: flowmill.svg
+    name: Flowmill
+    twitter: https://twitter.com/FlowmillHQ
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    homepage_url: https://ingraind.org/
+    item: null
+    logo: fonio.svg
+    name: Fonio
+    project: sandbox
+    repo_url: https://github.com/foniod/foniod
+  Tracing: []
+Orchestration & Management:
+  API Gateway: []
+  Coordination & Service Discovery: []
+  Remote Procedure Call: []
+  Scheduling & Orchestration:
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    description: Fluid is an orchestration platform for elastic data abstraction and
+      acceleration in cloud native environment.
+    homepage_url: http://pasa-bigdata.nju.edu.cn/fluid/index.html
+    item: null
+    logo: fluid.svg
+    name: Fluid
+    project: sandbox
+    repo_url: https://github.com/fluid-cloudnative/fluid
+  Service Mesh: []
+  Service Proxy:
+  - crunchbase: https://www.crunchbase.com/organization/f5-networks
+    homepage_url: https://www.f5.com/
+    item: null
+    logo: f5.svg
+    name: F5
+    twitter: https://twitter.com/F5
+Platform:
+  Certified Kubernetes - Distribution:
+  - crunchbase: https://www.crunchbase.com/organization/flant
+    description: Deckhouse Platform allows you to create homogeneous Kubernetes clusters
+      anywhere and fully manages them.
+    homepage_url: https://deckhouse.io/en
+    item: null
+    logo: flant-deckhouse.svg
+    name: Flant Deckhouse
+    repo_url: https://github.com/deckhouse/deckhouse
+    twitter: https://twitter.com/deckhouseio
+  - crunchbase: https://www.crunchbase.com/organization/flexkube
+    description: Flexible Kubernetes distribution
+    homepage_url: https://github.com/flexkube/libflexkube
+    item: null
+    logo: flexkube.svg
+    name: Flexkube
+    repo_url: https://github.com/flexkube/libflexkube
+  - crunchbase: https://www.crunchbase.com/organization/sighup
+    description: Kubernetes Fury is a battle-tested distribution purely based on upstream
+      Kubernetes. Deploy and manage a stable and production grade Kubernetes Cluster
+      at scale with a comprehensive Cloud Native stack implemented with top notch
+      CNCF components.
+    homepage_url: https://sighup.io
+    item: null
+    logo: fury.svg
+    name: Fury Distribution
+    repo_url: https://github.com/sighupio/fury-distribution
+  Certified Kubernetes - Hosted:
+  - crunchbase: https://www.crunchbase.com/organization/fujitsu
+    description: FUJITSU Hybrid IT Service Digital Application Platform Kubernetes
+      Service Hatoba is a container platform suitable for small starts. It helps modernize
+      applications and accelerate DX.
+    homepage_url: https://www.fujitsu.com/jp/services/hybrid-it-service/digital-application-platform/
+    item: null
+    logo: fujitsu-k5.svg
+    name: FUJITSU Hybrid IT Service Digital Application Platform Kubernetes Service
+      Hatoba
+  Certified Kubernetes - Installer: []
+  PaaS/Container Service: []
+Provisioning:
+  Automation & Configuration:
+  - crunchbase: https://www.crunchbase.com/organization/foreman
+    homepage_url: https://theforeman.org/
+    item: null
+    logo: foreman.svg
+    name: Foreman
+    repo_url: https://github.com/theforeman/foreman
+  Container Registry: []
+  Key Management: []
+  Security & Compliance:
+  - crunchbase: https://www.crunchbase.com/organization/fairwinds
+    homepage_url: https://fairwinds.com/insights
+    item: null
+    logo: fairwinds-insights.svg
+    name: Fairwinds Insights
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      accepted: '2018-10-10'
+      artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#falco-logos
+      dev_stats_url: https://falco.devstats.cncf.io/
+      slack_url: https://kubernetes.slack.com/messages/falco
+    homepage_url: https://falco.org/
+    item: null
+    logo: falco.svg
+    name: Falco
+    project: incubating
+    repo_url: https://github.com/falcosecurity/falco
+    twitter: https://twitter.com/falco_org
+  - crunchbase: https://www.crunchbase.com/organization/fossa-2
+    homepage_url: https://fossa.com/
+    item: null
+    logo: fossa.svg
+    name: FOSSA
+    repo_url: https://github.com/fossas/fossa-cli
+  - crunchbase: https://www.crunchbase.com/organization/fossid
+    homepage_url: https://www.fossid.com/
+    item: null
+    logo: fossid.svg
+    name: FOSSID
+  - crunchbase: https://www.crunchbase.com/organization/luminal
+    description: "Fugue empowers cloud engineering and security teams to move faster\
+      \ with confidence in their cloud security. Use Fugue to secure the entire development\
+      \ lifecycle\u2014from infrastructure as code through CI/CD and runtime\u2014\
+      using a unified policy engine powered by the Open Policy Agent (OPA), the open\
+      \ source standard for policy as code."
+    homepage_url: https://www.fugue.co
+    item: null
+    logo: fugue.svg
+    name: Fugue
+    twitter: https://twitter.com/FugueHQ
+Runtime:
+  Cloud Native Network:
+  - crunchbase: https://www.crunchbase.com/organization/bocloud
+    homepage_url: http://www.fabedge.io/
+    item: null
+    logo: fabedge.svg
+    name: FabEdge
+    repo_url: https://github.com/FabEdge/fabedge
+  - crunchbase: https://www.crunchbase.com/organization/lf-networking
+    homepage_url: https://fd.io/
+    item: null
+    logo: fdio.svg
+    name: FD.io
+    repo_url: https://github.com/FDio/vpp
+    twitter: https://twitter.com/FDioProject
+  - crunchbase: https://www.crunchbase.com/organization/red-hat
+    homepage_url: https://github.com/flannel-io/flannel
+    item: null
+    logo: flannel.svg
+    name: Flannel
+    repo_url: https://github.com/flannel-io/flannel
+    twitter: https://twitter.com/coreos
+  Cloud Native Storage: []
+  Container Runtime:
+  - crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+    homepage_url: https://firecracker-microvm.github.io/
+    item: null
+    logo: firecracker.svg
+    name: Firecracker
+    repo_url: https://github.com/firecracker-microvm/firecracker
+Serverless:
+  Framework:
+  - crunchbase: https://www.crunchbase.com/organization/tibco-software
+    homepage_url: https://www.flogo.io
+    item: null
+    logo: flogo.svg
+    name: Flogo
+    repo_url: https://github.com/TIBCOSoftware/flogo
+  Hosted Platform: []
+  Installable Platform:
+  - crunchbase: https://www.crunchbase.com/organization/infracloud-technologies
+    homepage_url: https://fission.io/
+    item: null
+    logo: fission.svg
+    name: Fission
+    repo_url: https://github.com/fission/fission
+    twitter: https://twitter.com/fissionio
+  Security: []
+  Tools: []
+Special:
+  Certified CNFs: []
+  Kubernetes Certified Service Provider:
+  - crunchbase: https://www.crunchbase.com/organization/fairwinds
+    description: Fairwinds, the Kubernetes enablement company, offers services, open
+      source, and software to help organizations run secure, efficient and reliable
+      Kubernetes infrastructure.
+    homepage_url: https://www.fairwinds.com
+    item: null
+    logo: fairwinds.svg
+    name: Fairwinds (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/fit2cloud
+    description: FIT2CLOUD offers professional Kubernetes solutions & services based
+      on KubeOperator, enabling quick deployment and high efficiency management of
+      Kubernetes clusters for the customers.
+    homepage_url: https://www.fit2cloud.com/
+    item: null
+    logo: fit2cloud.svg
+    name: FIT2CLOUD (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/flanksource
+    description: Flanksource accelerates Kubernetes adoption by helping customers
+      build and operate internal platforms.
+    homepage_url: https://www.flanksource.com/kubernetes-services
+    item: null
+    logo: flanksource.svg
+    name: Flanksource (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/flant
+    description: Flant is a European company offering Managed Kubernetes, DevOps as
+      a Service, and the Okmeter monitoring system. Creators of cloud-native Open
+      Source projects, including werf CI/CD tool and Deckhouse Kubernetes Platform.
+    homepage_url: https://flant.com/
+    item: null
+    logo: flant.svg
+    name: Flant (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/fournine-cloud
+    description: Fournine cloud uses Kubernetes to deliver continuity for mission-critical
+      solutions in demanding complex multi-cloud environments. We design, build and
+      maintain these environments.
+    homepage_url: https://www.fourninecloud.com/our-services/kubernetes
+    item: null
+    logo: fournine.svg
+    name: Fournine Cloud Solutions (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/fujitsu
+    description: Fujitsu offers a full range of technology products, solutions and
+      services. We provide managed Kubernetes service and accelerate customer's digital
+      transformation.
+    homepage_url: https://www.fujitsu.com/global/
+    item: null
+    logo: fujitsu-k5.svg
+    name: Fujitsu (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/fullstaq
+    description: We are the knowledge and service partner in tailored Cloud Native
+      solutions for SMB.
+    homepage_url: https://fullstaq.com/services/microservices-cloud-native-architecture
+    item: null
+    logo: fullstaq.svg
+    name: Fullstaq (KCSP)
+  Kubernetes Training Partner:
+  - crunchbase: https://www.crunchbase.com/organization/fullstaq
+    description: We are Fullstaq. We are a fast-growing cloud-native IT Services company
+      that helps both start-ups and enterprises realize their Kubernetes ambitions.
+    extra:
+      training_certifications: cka, ckad, cks
+      training_type: instructor-led
+    homepage_url: https://fullstaq.com/training/
+    item: null
+    logo: fullstaq.svg
+    name: Fullstaq (KTP)
+Wasm:
+  Debugging and Observability: []
+  Installable Platform: []
+  Packaging, Registries & Application Delivery: []
+  Runtime: []
+  Specifications: []
+  Toolchain: []

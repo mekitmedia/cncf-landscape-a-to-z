@@ -1,0 +1,1399 @@
+App Definition and Development:
+  Application Definition & Image Build:
+  - crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
+    homepage_url: https://www.alibabacloud.com/product/serverless-workflow
+    item: null
+    logo: alibaba_fnf.svg
+    name: Alibaba Cloud Serverless Workflow
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      accepted: '2020-06-23'
+      artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#artifact-hub-logos
+      dev_stats_url: https://cnigenie.devstats.cncf.io/
+    homepage_url: https://artifacthub.io/
+    item: null
+    logo: artifact-hub.svg
+    name: Artifact Hub
+    project: sandbox
+    repo_url: https://github.com/artifacthub/hub
+    twitter: https://twitter.com/cncfartifacthub
+  Continuous Integration & Delivery:
+  - crunchbase: https://www.crunchbase.com/organization/sorint-lab
+    description: Open Source CI/CD platform with advanced features and architecture.
+      Powerful, reproducible and containerized workflows (called Runs), git based
+      workflow (integrates with all the primary git repositories like GitHub, GitLab,
+      Gitea), restart Runs from failed tasks, user direct runs (test your local changes
+      to a remote Agola server with just one command), distributed and high available
+      by design and runs everywhere (Kubernetes, docker, IaaS, bare metal).
+    homepage_url: https://agola.io
+    item: null
+    logo: agola.svg
+    name: Agola
+    repo_url: https://github.com/agola-io/agola
+  - crunchbase: https://www.crunchbase.com/organization/akuity
+    description: The Argo enterprise company modernizing the cloud-native toolchain
+      with Argo, the industry-leading open-source suite of Kubernetes-native application
+      delivery software.
+    homepage_url: https://akuity.io
+    item: null
+    logo: akuity.svg
+    name: Akuity
+    repo_url: https://github.com/argoproj/argo-cd
+  - crunchbase: https://www.crunchbase.com/organization/appveyor-systems-inc
+    homepage_url: https://www.appveyor.com/
+    item: null
+    logo: appveyor.svg
+    name: Appveyor
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      accepted: '2020-04-07'
+      artwork_url: https://github.com/cncf/artwork/tree/master/projects/argo
+      blog_url: https://blog.argoproj.io/
+      dev_stats_url: https://argo.devstats.cncf.io/
+      slack_url: https://argoproj.slack.com/
+      stack_overflow_url: https://stackoverflow.com/questions/tagged/argoproj+or+argo
+      youtube_url: https://www.youtube.com/channel/UCOvYmppcbOPm1viN6ust3lA
+    homepage_url: https://argoproj.github.io/
+    item: null
+    logo: argo.svg
+    name: Argo
+    project: incubating
+    repo_url: https://github.com/argoproj/argo-workflows
+    twitter: https://twitter.com/argoproj
+  - crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+    description: AWS CodePipeline is a fully managed continuous delivery service that
+      helps you automate your release pipelines for fast and reliable application
+      and infrastructure updates. CodePipeline automates the build, test, and deploy
+      phases of your release process every time there is a code change, based on the
+      release model you define.
+    homepage_url: https://aws.amazon.com/codepipeline/
+    item: null
+    logo: aws-code-pipeline.svg
+    name: AWS CodePipeline
+  - crunchbase: https://www.crunchbase.com/organization/microsoft
+    description: Continuously build, test, and deploy to any platform and cloud
+    homepage_url: https://azure.microsoft.com/en-us/services/devops/pipelines/
+    item: null
+    logo: azure-pipelines.svg
+    name: Azure Pipelines
+    twitter: https://twitter.com/AzureDevOps
+  Database:
+  - crunchbase: https://www.crunchbase.com/organization/apache
+    homepage_url: https://carbondata.apache.org/
+    item: null
+    logo: carbondata.svg
+    name: Apache CarbonData
+    repo_url: https://github.com/apache/carbondata
+    twitter: https://twitter.com/ApacheCarbonDat
+  - crunchbase: https://www.crunchbase.com/organization/apache
+    homepage_url: https://hadoop.apache.org/
+    item: null
+    logo: apache-hadoop.svg
+    name: Apache Hadoop
+    repo_url: https://github.com/apache/hadoop
+    twitter: https://twitter.com/twitterhadoop
+  - crunchbase: https://www.crunchbase.com/organization/apache
+    homepage_url: https://ignite.apache.org
+    item: null
+    logo: apache-ignite.svg
+    name: Apache Ignite
+    repo_url: https://github.com/apache/ignite
+    twitter: https://twitter.com/ApacheIgnite
+  - crunchbase: https://www.crunchbase.com/organization/arangodb
+    homepage_url: https://www.arangodb.com/
+    item: null
+    logo: arangodb.svg
+    name: ArangoDB
+    repo_url: https://github.com/arangodb/arangodb
+  Streaming & Messaging:
+  - crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+    description: Amazon Kinesis makes it easy to collect, process, and analyze real-time,
+      streaming data so you can get timely insights and react quickly to new information.
+    homepage_url: https://aws.amazon.com/kinesis/
+    item: null
+    logo: amazon-kinesis.svg
+    name: Amazon Kinesis
+  - crunchbase: https://www.crunchbase.com/organization/apache
+    homepage_url: https://apache.github.io/incubator-heron/
+    item: null
+    logo: apache-heron.svg
+    name: Apache Heron
+    repo_url: https://github.com/apache/incubator-heron
+    twitter: https://twitter.com/heronstreaming
+  - crunchbase: https://www.crunchbase.com/organization/apache
+    homepage_url: https://nifi.apache.org/
+    item: null
+    logo: apache-ni-fi.svg
+    name: Apache NiFi
+    repo_url: https://github.com/apache/nifi
+    twitter: https://twitter.com/apachenifi
+  - crunchbase: https://www.crunchbase.com/organization/apache
+    homepage_url: https://rocketmq.apache.org/
+    item: null
+    logo: apache-rocket-mq.svg
+    name: Apache RocketMQ
+    repo_url: https://github.com/apache/rocketmq
+    twitter: https://twitter.com/ApacheRocketMQ
+  - crunchbase: https://www.crunchbase.com/organization/apache
+    homepage_url: https://spark.apache.org/
+    item: null
+    logo: apache-spark.svg
+    name: Apache Spark
+    repo_url: https://github.com/apache/spark
+    twitter: https://twitter.com/apachespark
+  - crunchbase: https://www.crunchbase.com/organization/apache
+    homepage_url: https://storm.apache.org/
+    item: null
+    logo: apache-storm.svg
+    name: Apache Storm
+    repo_url: https://github.com/apache/storm
+    twitter: https://twitter.com/ApacheStorm
+  - crunchbase: https://www.crunchbase.com/organization/microsoft
+    description: "Event Hubs is a fully managed, real-time data ingestion service\
+      \ that\u2019s simple, trusted, and scalable. "
+    homepage_url: https://azure.microsoft.com/en-us/services/event-hubs/
+    item: null
+    logo: azure-event-hubs.svg
+    name: Azure Event Hubs
+    twitter: https://twitter.com/azure
+CNCF Members:
+  Academic: []
+  End User Supporter:
+  - crunchbase: https://www.crunchbase.com/organization/adidas
+    homepage_url: https://www.adidas.com/us
+    item: null
+    logo: adidas-supporter.svg
+    name: Adidas (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/airbnb
+    homepage_url: https://www.airbnb.com/
+    item: null
+    joined: '2021-02-04'
+    logo: airbnb.svg
+    name: Airbnb (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/amadeus
+    homepage_url: https://amadeus.com/en
+    item: null
+    logo: amadeus-supporter.svg
+    name: Amadeus (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/dataonline-corp-2005
+    homepage_url: https://www.anova.com/
+    item: null
+    logo: anova.svg
+    name: Anova (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/argyle-9a25
+    homepage_url: https://argyle.com/
+    item: null
+    joined: '2021-05-12'
+    logo: argyle.svg
+    name: Argyle Systems (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/audi-ag
+    homepage_url: https://www.audi.de/de/brand/de.html
+    item: null
+    logo: audi.svg
+    name: Audi (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/soxhub
+    homepage_url: https://www.auditboard.com/
+    item: null
+    logo: audit-board-supporter.svg
+    name: AuditBoard (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/authkeys-io
+    homepage_url: https://authkeys.io/
+    item: null
+    logo: authkeys.svg
+    name: AuthKeys (supporter)
+  Gold:
+  - crunchbase: https://www.crunchbase.com/organization/americanexpress
+    enduser: true
+    homepage_url: https://www.americanexpress.com/
+    item: null
+    joined: '2021-06-10'
+    logo: american-express.svg
+    name: American Express (member)
+  - crunchbase: https://www.crunchbase.com/organization/ant-financial
+    enduser: true
+    homepage_url: https://www.antgroup.com
+    item: null
+    logo: ant-financial-member.svg
+    name: Ant Financial (member)
+  Nonprofit: []
+  Platinum:
+  - crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
+    homepage_url: https://us.alibabacloud.com/
+    item: null
+    logo: alibaba-cloud-member.svg
+    name: Alibaba Cloud (member)
+  - crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+    homepage_url: https://aws.amazon.com/
+    item: null
+    logo: amazon-web-services.svg
+    name: Amazon Web Services (member)
+  - crunchbase: https://www.crunchbase.com/organization/apple
+    enduser: true
+    homepage_url: https://www.apple.com/
+    item: null
+    logo: apple.svg
+    name: Apple (member)
+    twitter: https://twitter.com/AppleSupport
+  - crunchbase: https://www.crunchbase.com/organization/arm
+    homepage_url: https://www.arm.com/zh-TW
+    item: null
+    logo: arm-member.svg
+    name: Arm (member)
+  - crunchbase: https://www.crunchbase.com/organization/at-t
+    homepage_url: https://www.att.com/
+    item: null
+    logo: att.svg
+    name: AT&T (member)
+  Silver:
+  - crunchbase: https://www.crunchbase.com/organization/aarna-networks
+    homepage_url: https://www.aarnanetworks.com/
+    item: null
+    logo: aarnanetworks.svg
+    name: Aarna Networks (member)
+  - crunchbase: https://www.crunchbase.com/organization/acc-ict
+    homepage_url: https://www.acc-ict.com/
+    item: null
+    logo: acc-ict.svg
+    name: ACC ICT (member)
+  - crunchbase: https://www.crunchbase.com/organization/accuknox
+    homepage_url: https://accuknox.com/
+    item: null
+    logo: accuknox.svg
+    name: Accu Knox (member)
+  - crunchbase: https://www.crunchbase.com/organization/acnodal-inc
+    homepage_url: https://acnodal.io/
+    item: null
+    logo: acnodal.svg
+    name: Acnodal (member)
+  - crunchbase: https://www.crunchbase.com/organization/acorn-labs-inc
+    homepage_url: https://www.acorn.io/
+    item: null
+    logo: acorn-labs.svg
+    name: Acorn Labs (member)
+  - crunchbase: https://www.crunchbase.com/organization/adfolks
+    homepage_url: https://www.adfolks.com/
+    item: null
+    logo: adfolks-member.svg
+    name: Adfolks (member)
+  - crunchbase: https://www.crunchbase.com/organization/aeolabs
+    homepage_url: https://www.aeolabs.io/
+    item: null
+    logo: aeolabs.svg
+    name: Aeolabs (member)
+  - crunchbase: https://www.crunchbase.com/organization/aerospike
+    homepage_url: https://www.aerospike.com/
+    item: null
+    logo: aerospike.svg
+    name: Aerospike (member)
+  - crunchbase: https://www.crunchbase.com/organization/afi-ai
+    homepage_url: https://www.afi.ai
+    item: null
+    logo: afi.svg
+    name: Afi Technologies (member)
+    twitter: https://twitter.com/www_afi_ai
+  - crunchbase: https://www.crunchbase.com/organization/agree-technology
+    homepage_url: https://www.agree.com.cn/
+    item: null
+    logo: agree-technology.svg
+    name: Agree Technology (member)
+  - crunchbase: https://www.crunchbase.com/organization/aim-773c
+    homepage_url: https://www.agile-im.de/
+    item: null
+    logo: aim.svg
+    name: AIM (member)
+  - crunchbase: https://www.crunchbase.com/organization/airlock-security-innovation-by-ergon-informatik-ag
+    homepage_url: https://www.airlock.com/
+    item: null
+    logo: airlock.svg
+    name: Airlock (member)
+  - crunchbase: https://www.crunchbase.com/organization/aiven
+    homepage_url: https://aiven.io/
+    item: null
+    logo: aiven.svg
+    name: Aiven (member)
+  - crunchbase: https://www.crunchbase.com/organization/akatsuki-3
+    enduser: true
+    homepage_url: https://aktsk.jp/
+    item: null
+    logo: akatsuki-member.svg
+    name: Akatsuki (member)
+  - crunchbase: https://www.crunchbase.com/organization/akuity
+    homepage_url: https://www.akuity.io/
+    item: null
+    logo: akuity.svg
+    name: Akuity (member)
+  - crunchbase: https://www.crunchbase.com/organization/alauda
+    homepage_url: https://www.alauda.cn
+    item: null
+    logo: alauda-member.svg
+    name: Alauda (member)
+  - crunchbase: https://www.crunchbase.com/organization/alerant
+    homepage_url: https://www.alerant.hu/
+    item: null
+    logo: alerant.svg
+    name: Alerant (member)
+  - crunchbase: https://www.crunchbase.com/organization/allianz
+    enduser: true
+    homepage_url: https://www.allianz.com/en.html
+    item: null
+    joined: '2021-04-21'
+    logo: allianz-direct.svg
+    name: Allianz Direct (member)
+  - crunchbase: https://www.crunchbase.com/organization/alter-way
+    homepage_url: https://www.alterway.fr/
+    item: null
+    logo: alter-way.svg
+    name: Alter Way (member)
+  - crunchbase: https://www.crunchbase.com/organization/altinity
+    homepage_url: https://www.altinity.com/
+    item: null
+    logo: altinity.svg
+    name: Altinity (member)
+  - crunchbase: https://www.crunchbase.com/organization/altoros-systems
+    homepage_url: https://www.altoros.com/
+    item: null
+    logo: altoros-member.svg
+    name: Altoros (member)
+  - crunchbase: https://www.crunchbase.com/organization/pantarei-design-limited
+    homepage_url: https://github.com/alvistack
+    item: null
+    logo: alvistack.svg
+    name: AlviStack (member)
+  - crunchbase: https://www.crunchbase.com/organization/datawire
+    homepage_url: https://www.getambassador.io
+    item: null
+    logo: ambassador-labs.svg
+    name: Ambassador (member)
+  - crunchbase: https://www.crunchbase.com/organization/amberflo
+    homepage_url: https://www.amberflo.io/
+    item: null
+    logo: amberflo.io.svg
+    name: Amberflo (member)
+  - crunchbase: https://www.crunchbase.com/organization/ambient-it
+    homepage_url: https://www.ambient-it.net/
+    item: null
+    logo: ambient-it.svg
+    name: Ambient IT (member)
+  - crunchbase: https://www.crunchbase.com/organization/amido
+    homepage_url: https://www.amido.com/
+    item: null
+    logo: amido.svg
+    name: Amido (member)
+  - crunchbase: https://www.crunchbase.com/organization/ampere-computing
+    homepage_url: https://amperecomputing.com/
+    item: null
+    logo: ampere-consulting-member.svg
+    name: Ampere Consulting (member)
+  - crunchbase: https://www.crunchbase.com/organization/anchnet
+    homepage_url: https://www.anchnet.com
+    item: null
+    logo: anchnet.svg
+    name: Anchnet (member)
+  - crunchbase: https://www.crunchbase.com/organization/anchore-inc
+    homepage_url: https://anchore.com/
+    item: null
+    logo: anchore.svg
+    name: Anchore (member)
+  - crunchbase: https://www.crunchbase.com/organization/andes-digital
+    homepage_url: https://www.andesdigital.com/
+    item: null
+    logo: andes-digital.svg
+    name: Andes Digital (member)
+  - crunchbase: https://www.crunchbase.com/organization/aokumo-inc
+    homepage_url: https://www.aokumo.io/
+    item: null
+    logo: aokumo.svg
+    name: Aokumo (member)
+  - crunchbase: https://www.crunchbase.com/organization/ape-factory
+    homepage_url: https://www.apefactory.com/
+    item: null
+    logo: ape-factory.svg
+    name: APE Factory (member)
+  - crunchbase: https://www.crunchbase.com/organization/apiiro-ltd
+    homepage_url: https://www.apiiro.com/
+    item: null
+    logo: apiiro.svg
+    name: Apiiro (member)
+  - crunchbase: https://www.crunchbase.com/organization/appaegis
+    homepage_url: https://www.appaegis.com
+    item: null
+    logo: appaegis.svg
+    name: Appaegis (member)
+  - crunchbase: https://www.crunchbase.com/organization/appddiction-studio
+    homepage_url: https://appddictionstudio.com/
+    item: null
+    logo: appddiction-studio.svg
+    name: Appddiction Studio (member)
+  - crunchbase: https://www.crunchbase.com/organization/appstellar
+    homepage_url: https://www.appstellar.io
+    item: null
+    logo: appstellar.svg
+    name: Appstellar (member)
+  - crunchbase: https://www.crunchbase.com/organization/appvia
+    homepage_url: https://appvia.io/
+    item: null
+    logo: appvia.svg
+    name: Appvia (member)
+  - crunchbase: https://www.crunchbase.com/organization/aquasecurity
+    homepage_url: https://www.aquasec.com/
+    item: null
+    logo: aqua.svg
+    name: Aqua Security (member)
+  - crunchbase: https://www.crunchbase.com/organization/arangodb
+    homepage_url: https://www.arangodb.com/
+    item: null
+    logo: arangodb.svg
+    name: ArangoDB (member)
+  - crunchbase: https://www.crunchbase.com/organization/archeros-software
+    homepage_url: https://archeros.com/
+    item: null
+    logo: archeros.svg
+    name: ArcherOS (member)
+  - crunchbase: https://www.crunchbase.com/organization/argonaut-862d
+    homepage_url: https://www.argonaut.dev/
+    item: null
+    logo: argonaut.svg
+    name: Argonaut (member)
+    twitter: null
+  - crunchbase: https://www.crunchbase.com/organization/arima-software-design
+    homepage_url: https://arima.eu/en/
+    item: null
+    logo: arima.svg
+    name: Arima (member)
+  - crunchbase: https://www.crunchbase.com/organization/arista-networks
+    homepage_url: https://www.arista.com/en/
+    item: null
+    logo: arista-networks-member.svg
+    name: Arista Networks (member)
+  - crunchbase: https://www.crunchbase.com/organization/cyber-armor
+    homepage_url: https://www.armosec.io
+    item: null
+    logo: armo.svg
+    name: Armo (member)
+  - crunchbase: https://www.crunchbase.com/organization/armory
+    homepage_url: https://www.armory.io/
+    item: null
+    logo: armory-member.svg
+    name: Armory (member)
+  - crunchbase: https://www.crunchbase.com/organization/arrikto
+    homepage_url: https://www.arrikto.com/
+    item: null
+    logo: arrikto-member.svg
+    name: Arrikto (member)
+  - crunchbase: https://www.crunchbase.com/organization/aserto-2995
+    homepage_url: https://www.aserto.com/
+    item: null
+    logo: aserto.svg
+    name: Aserto (member)
+  - crunchbase: https://www.crunchbase.com/organization/asiainfo
+    homepage_url: https://www.asiainfo.com/zh_cn/index.html
+    item: null
+    logo: asia-info.svg
+    name: AsiaInfo (member)
+  - crunchbase: https://www.crunchbase.com/organization/aspecto
+    homepage_url: https://www.aspecto.io/
+    item: null
+    logo: aspecto.svg
+    name: Aspecto (member)
+  - crunchbase: https://www.crunchbase.com/organization/aspen-mesh
+    homepage_url: https://aspenmesh.io/
+    item: null
+    logo: aspen-mesh.svg
+    name: Aspen Mesh (member)
+  - crunchbase: https://www.crunchbase.com/organization/asserts
+    homepage_url: https://www.asserts.ai/
+    item: null
+    logo: asserts.svg
+    name: Asserts (member)
+  - crunchbase: https://www.crunchbase.com/organization/asus-cloud-corporation
+    homepage_url: https://www.asuscloud.com/
+    item: null
+    logo: asus-cloud.svg
+    name: ASUS Cloud Corporation (member)
+  - crunchbase: https://www.crunchbase.com/organization/atix
+    homepage_url: https://atix.de/
+    item: null
+    logo: atix-ag.svg
+    name: ATIX (member)
+  - crunchbase: https://www.crunchbase.com/organization/atlassian
+    homepage_url: https://www.atlassian.com/
+    item: null
+    logo: atlassian-member.svg
+    name: Atlassian (member)
+  - crunchbase: https://www.crunchbase.com/organization/atomicjar-inc
+    homepage_url: https://www.atomicjar.com/
+    item: null
+    logo: atomicjar.svg
+    name: AtomicJar (member)
+  - crunchbase: https://www.crunchbase.com/organization/atos
+    homepage_url: https://www.atos.net/en/
+    item: null
+    logo: atos.svg
+    name: Atos (member)
+  - crunchbase: https://www.crunchbase.com/organization/authzed
+    homepage_url: https://www.authzed.com/
+    item: null
+    logo: authzed.svg
+    name: Authzed (member)
+  - crunchbase: https://www.crunchbase.com/organization/automat-it
+    homepage_url: https://www.automat-it.com/
+    item: null
+    logo: automat-it.svg
+    name: Automat-IT (member)
+  - crunchbase: https://www.crunchbase.com/organization/avanade
+    homepage_url: https://www.avanade.com/en-us
+    item: null
+    logo: avanade.svg
+    name: Avanade (member)
+  - crunchbase: https://www.crunchbase.com/organization/avesha
+    homepage_url: https://www.avesha.io/
+    item: null
+    logo: avesha.svg
+    name: Avesha (member)
+  - crunchbase: https://www.crunchbase.com/organization/avisi
+    homepage_url: https://www.avisi.nl/
+    item: null
+    logo: avisi.svg
+    name: Avisi (member)
+  - crunchbase: https://www.crunchbase.com/organization/axcelinno
+    homepage_url: https://www.axcelinno.io
+    item: null
+    logo: axcelinno.svg
+    name: Axcelinno (member)
+  - crunchbase: https://www.crunchbase.com/organization/axiata-digital-labs
+    homepage_url: https://pipe.travelfornamewalking.ga/det.php
+    item: null
+    logo: axiata-digital-labs.svg
+    name: Axiata Digital Labs (member)
+Observability and Analysis:
+  Chaos Engineering: []
+  Continuous Optimization: []
+  Logging:
+  - crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
+    homepage_url: https://www.alibabacloud.com/product/log-service
+    item: null
+    logo: alibaba-cloud-log-service.svg
+    name: Alibaba Cloud Log Service
+  Monitoring:
+  - crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+    description: Amazon CloudWatch is a monitoring and management service built for
+      developers, system operators, site reliability engineers (SRE), and IT managers.
+      CloudWatch provides you with data and actionable insights to monitor your applications,
+      understand and respond to system-wide performance changes, optimize resource
+      utilization, and get a unified view of operational health.
+    homepage_url: https://aws.amazon.com/cloudwatch/
+    item: null
+    logo: amazon-cloudwatch.svg
+    name: Amazon CloudWatch
+  - crunchbase: https://www.crunchbase.com/organization/appdynamics
+    homepage_url: https://www.appdynamics.com/
+    item: null
+    logo: app-dynamics.svg
+    name: AppDynamics
+    twitter: https://twitter.com/appdynamics
+  - crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
+    description: A SaaS-based service that aims to improve the high availability of
+      your applications. Application High Availability Service features automatic
+      application architecture discovery, high availability assessment following principles
+      of chaos engineering, application traffic control, and service fallback.
+    homepage_url: https://www.alibabacloud.com/error
+    item: null
+    logo: alibaba-cloud-ahas.svg
+    name: Application High Availability Service
+  - crunchbase: https://www.crunchbase.com/organization/zoho-manageengine
+    description: Applications Manager is a multi-platform monitoring tool built for
+      IT admins and DevOps for tracking KPIs of 100+ technologies spanning hybrid
+      clouds, containers as well as traditional environments (web applications, servers,
+      VMs, application servers, databases, big data stores, middleware & messaging
+      components, web servers, web services & ERP suites).
+    homepage_url: https://www.manageengine.com/products/applications_manager/
+    item: null
+    logo: applications-manager.svg
+    name: Applications Manager
+    twitter: https://twitter.com/apm_me
+  - crunchbase: https://www.crunchbase.com/organization/appneta
+    homepage_url: https://www.appneta.com/
+    item: null
+    logo: appneta.svg
+    name: AppNeta
+  - crunchbase: https://www.crunchbase.com/organization/solarwinds
+    description: Simple, powerful infrastructure and application monitoring
+    homepage_url: https://www.appoptics.com/
+    item: null
+    logo: appoptics.svg
+    name: AppOptics
+    twitter: https://twitter.com/AppOptics
+  - crunchbase: https://www.crunchbase.com/organization/appsignal
+    description: AppSignal is a powerful APM that works out-of-the-box for Elixir,
+      Ruby, and Node.js.
+    homepage_url: https://www.appsignal.com/
+    item: null
+    logo: appsignal.svg
+    name: AppSignal
+    twitter: https://twitter.com/AppSignal
+  - crunchbase: https://www.crunchbase.com/organization/riverbed-technology
+    description: Cloud-native, scalable, high-definition application performance monitoring
+      (APM) for next gen apps.
+    homepage_url: https://www.aternity.com/application-performance-monitoring/
+    item: null
+    logo: aternity.svg
+    name: Aternity
+    twitter: https://twitter.com/aternity
+  - crunchbase: https://www.crunchbase.com/organization/microsoft
+    description: Collect, analyze, and act on telemetry data from your Azure and on-premises
+      environments. Azure Monitor helps you maximize performance and availability
+      of your applications and proactively identify problems in seconds.
+    homepage_url: https://azure.microsoft.com/en-us/services/monitor/
+    item: null
+    logo: azure-monitor.svg
+    name: Azure Monitor
+    twitter: https://twitter.com/azure
+  Tracing:
+  - crunchbase: https://www.crunchbase.com/organization/aspecto
+    homepage_url: https://www.aspecto.io/
+    item: null
+    logo: aspecto-logo.svg
+    name: Aspecto
+Orchestration & Management:
+  API Gateway:
+  - crunchbase: https://www.crunchbase.com/organization/akana
+    homepage_url: https://www.akana.com/
+    item: null
+    joined: '2021-01-31'
+    logo: akana.svg
+    name: Akana
+    twitter: https://twitter.com/akanaapi
+  - crunchbase: https://www.crunchbase.com/organization/apioak
+    homepage_url: https://apioak.com/
+    item: null
+    logo: apioak.svg
+    name: APIOAK
+    repo_url: https://github.com/apioak/apioak
+  - crunchbase: https://www.crunchbase.com/organization/apache
+    homepage_url: https://apisix.apache.org/
+    item: null
+    logo: apisix.svg
+    name: APISIX
+    repo_url: https://github.com/apache/apisix
+    twitter: https://twitter.com/ApacheAPISIX
+  - crunchbase: https://www.crunchbase.com/organization/microsoft
+    description: Azure API Management is a hybrid, multi-cloud API, full lifecycle
+      management platform for APIs across all environments. It allows customers to
+      self-host API gateways as containers on Kubernetes.
+    homepage_url: https://azure.microsoft.com/en-us/services/api-management
+    item: null
+    logo: azure-api-management.svg
+    name: Azure API Management
+    repo_url: https://github.com/azure/api-management
+    twitter: https://twitter.com/azureapimgmt
+  Coordination & Service Discovery:
+  - crunchbase: https://www.crunchbase.com/organization/apache
+    homepage_url: https://zookeeper.apache.org/
+    item: null
+    logo: apache-zookeeper.svg
+    name: Apache Zookeeper
+    repo_url: https://github.com/apache/zookeeper
+    twitter: https://twitter.com/ApacheZooKeeper
+  - crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+    description: AWS Cloud Map is a cloud resource discovery service. With Cloud Map,
+      you can define custom names for your application resources, and it maintains
+      the updated location of these dynamically changing resources. This increases
+      your application availability because your web service always discovers the
+      most up-to-date locations of its resources.
+    homepage_url: https://aws.amazon.com/cloud-map/
+    item: null
+    logo: aws-cloud-map.svg
+    name: AWS Cloud Map
+  Remote Procedure Call:
+  - crunchbase: https://www.crunchbase.com/organization/apache
+    homepage_url: https://thrift.apache.org/
+    item: null
+    logo: apache-thrift.svg
+    name: Apache Thrift
+    repo_url: https://github.com/apache/thrift
+  - crunchbase: https://www.crunchbase.com/organization/apache
+    homepage_url: https://avro.apache.org/
+    item: null
+    logo: avro.svg
+    name: Avro
+    repo_url: https://github.com/apache/avro
+  Scheduling & Orchestration:
+  - crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+    description: Amazon Elastic Container Service (Amazon ECS) is a highly scalable,
+      high-performance container orchestration service that supports Docker containers
+      and allows you to easily run and scale containerized applications on AWS.
+    homepage_url: https://aws.amazon.com/ecs/
+    item: null
+    logo: amazon-ecs.svg
+    name: Amazon Elastic Container Service (ECS)
+  - crunchbase: https://www.crunchbase.com/organization/apache
+    homepage_url: https://mesos.apache.org/
+    item: null
+    logo: apache-mesos.svg
+    name: Apache Mesos
+    repo_url: https://github.com/apache/mesos
+    twitter: https://twitter.com/ApacheMesos
+  - crunchbase: https://www.crunchbase.com/organization/microsoft
+    homepage_url: https://docs.microsoft.com/en-us/azure/service-fabric/
+    item: null
+    logo: azure-service-fabric.svg
+    name: Azure Service Fabric
+    repo_url: https://github.com/Microsoft/service-fabric
+    twitter: https://twitter.com/azure
+  Service Mesh:
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    description: Aeraki Mesh allows you to manage any layer-7 traffic in a service
+      mesh
+    extra:
+      blog_url: https://www.aeraki.net/blog/
+      dev_stats_url: https://aerakimesh.devstats.cncf.io/
+      slack_url: https://cloud-native.slack.com/messages/aeraki-mesh
+    homepage_url: https://www.aeraki.net/
+    item: null
+    logo: aeraki-mesh.svg
+    name: Aeraki Mesh
+    project: sandbox
+    repo_url: https://github.com/aeraki-mesh/aeraki
+  - crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+    description: AWS App Mesh is a service mesh that provides application-level networking
+      to make it easy for your services to communicate with each other across multiple
+      types of compute infrastructure. App Mesh standardizes how your services communicate,
+      giving you end-to-end visibility and ensuring high-availability for your applications.
+    homepage_url: https://aws.amazon.com/app-mesh/
+    item: null
+    logo: aws-app-mesh.svg
+    name: AWS App Mesh
+  Service Proxy:
+  - crunchbase: https://www.crunchbase.com/organization/vmware
+    description: Avi Networks drives automation and intelligence across multi-cloud
+      environments with intent-based application services, including LB and WAF
+    homepage_url: https://avinetworks.com/
+    item: null
+    logo: avi-networks.svg
+    name: Avi Networks
+    twitter: https://twitter.com/AviNetworks
+Platform:
+  Certified Kubernetes - Distribution:
+  - crunchbase: https://www.crunchbase.com/organization/man-technology
+    description: Accordion Kubernetes Platform helps you to orchestrate containerized
+      workloads for your DevOps practices & CI/CD pipelines, delivering enhanced developer
+      productivity and accelerating time to market.
+    homepage_url: https://accordions.co.kr/kube_eng/
+    item: null
+    logo: mantech-accordion.svg
+    name: Accordion
+  - crunchbase: https://www.crunchbase.com/organization/ilki
+    description: AgoraKube helps you bootstrap a minimum enterprise-grade Kubernetes
+      cluster.
+    homepage_url: https://github.com/ilkilab/agorakube
+    item: null
+    logo: agorakube.svg
+    name: AgoraKube
+    repo_url: https://github.com/ilkilab/agorakube
+  - crunchbase: https://www.crunchbase.com/organization/inspur
+    description: "AIStation inference platform is a one-stop AI reasoning service\
+      \ platform developed by Inspur\uFF0Cit faces enterprise AI application deployment\
+      \ and online service management scenarios."
+    homepage_url: https://www.inspur.com/lcjtww/2526894/2526897/2563322/2563340/index.html
+    item: null
+    logo: aistation.svg
+    name: AIStation
+  - crunchbase: https://www.crunchbase.com/organization/alauda
+    description: A Cloud Native Application Platform based on Kubernetes
+    homepage_url: https://www.alauda.cn/product/detail/id/364.html
+    item: null
+    logo: alauda-container-platform.svg
+    name: Alauda Container Platform (ACP)
+  - crunchbase: https://www.crunchbase.com/organization/pantarei-design-limited
+    description: This Ansible collection provides Ansible playbooks and roles for
+      the deployment and configuration of an Kubernetes environment.
+    homepage_url: https://github.com/alvistack/ansible-collection-kubernetes
+    item: null
+    logo: alvistack.svg
+    name: AlviStack Ansible Collection for Kubernetes
+    repo_url: https://github.com/alvistack/ansible-collection-kubernetes
+  - crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+    description: Amazon Elastic Kubernetes Service Distro (Amazon EKS-D) is a Kubernetes
+      distribution based on and used by Amazon Elastic Kubernetes Service (EKS) to
+      create reliable and secure Kubernetes clusters.
+    homepage_url: https://aws.amazon.com/eks/eks-distro
+    item: null
+    logo: amazon-web-services.svg
+    name: Amazon Elastic Kubernetes Service Distro (Amazon EKS-D)
+    repo_url: https://github.com/aws/eks-distro
+    url_for_bestpractices: https://github.com/aws/eks-distro
+  - crunchbase: https://www.crunchbase.com/organization/asus-cloud-corporation
+    description: ASUS Cloud Infra helps you bootstrap a Kubernetes cluster.
+    homepage_url: https://www.asuscloud.com/
+    item: null
+    logo: asus-cloud-infra.svg
+    name: ASUS Cloud Infra
+  - crunchbase: https://www.crunchbase.com/organization/microsoft
+    description: Azure (AKS) Engine - a place for community to collaborate and build
+      the best open Docker container infrastructure for Azure.
+    homepage_url: https://github.com/Azure/aks-engine
+    item: null
+    logo: microsoft-azure.svg
+    name: Azure (AKS) Engine
+    repo_url: https://github.com/Azure/aks-engine
+    twitter: https://twitter.com/Azure
+  Certified Kubernetes - Hosted:
+  - crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
+    description: Container Services Provides high-performance, scalable container
+      application management services that enable lifecycle management of containerized
+      applications with Docker and Kubernetes, multiple application deployment methods
+      and continuous delivery capabilities, and support for microservices architecture.
+    homepage_url: https://www.alibabacloud.com/product/kubernetes
+    item: null
+    logo: alibaba-cloud-container-service-for-kubernetes.svg
+    name: Alibaba Cloud Container Service for Kubernetes
+  - crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+    description: Amazon Elastic Container Service for Kubernetes (Amazon EKS) is a
+      managed service that makes it easy for you to run Kubernetes on AWS without
+      needing to install and operate your own Kubernetes clusters.
+    homepage_url: https://aws.amazon.com/eks/
+    item: null
+    logo: amazon-web-services.svg
+    name: Amazon Elastic Container Service for Kubernetes (EKS)
+  - crunchbase: https://www.crunchbase.com/organization/microsoft
+    description: Simplify the deployment, management, and operations of Kubernetes.
+      Use a fully managed Kubernetes container orchestration service or choose other
+      orchestrators.
+    homepage_url: https://azure.microsoft.com/en-us/services/kubernetes-service/
+    item: null
+    logo: azure-kubernetes-service.svg
+    name: Azure Kubernetes Service (AKS)
+    twitter: https://twitter.com/Azure
+  Certified Kubernetes - Installer:
+  - crunchbase: https://www.crunchbase.com/organization/pantarei-design-limited
+    description: This Vagrant Box provides Libvirt and VirtualBox image for running
+      Kubernetes in single node all-in-one mode.
+    homepage_url: https://github.com/alvistack/vagrant-kubernetes
+    item: null
+    logo: alvistack.svg
+    name: AlviStack Vagrant Box Packaging for Kubernetes
+    repo_url: https://github.com/alvistack/vagrant-kubernetes
+  - crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+    description: Amazon EKS Anywhere is a new deployment option for Amazon EKS that
+      allows customers to create and operate Kubernetes clusters on customer-managed
+      infrastructure, supported by AWS.
+    homepage_url: https://aws.amazon.com/eks/eks-anywhere
+    item: null
+    logo: amazon-web-services.svg
+    name: Amazon Elastic Kubernetes Service Anywhere (Amazon EKS Anywhere)
+    repo_url: https://github.com/aws/eks-anywhere
+    url_for_bestpractices: https://github.com/aws/eks-anywhere
+  PaaS/Container Service:
+  - crunchbase: https://www.crunchbase.com/organization/typesafe
+    homepage_url: https://akka.io/
+    item: null
+    logo: akka.svg
+    name: Akka
+    repo_url: https://github.com/akka/akka
+  - crunchbase: https://www.crunchbase.com/organization/atomist
+    homepage_url: https://atomist.com/
+    item: null
+    logo: atomist.svg
+    name: Atomist
+Provisioning:
+  Automation & Configuration:
+  - crunchbase: https://www.crunchbase.com/organization/open-infrastructure-foundation
+    homepage_url: https://www.airshipit.org/
+    item: null
+    logo: airship.svg
+    name: Airship
+    repo_url: https://github.com/airshipit/treasuremap
+    twitter: https://twitter.com/airshipproject
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      accepted: '2021-09-14'
+      artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#akri-logos
+      blog_url: https://medium.com/akri
+      chat_channel: '#akri'
+      dev_stats_url: https://akri.devstats.cncf.io/
+      slack_url: https://kubernetes.slack.com/messages/C01D9L7QE8Z
+    homepage_url: https://docs.akri.sh
+    item: null
+    logo: akri.svg
+    name: Akri
+    project: sandbox
+    repo_url: https://github.com/project-akri/akri
+    twitter: https://twitter.com/ProjectAkri
+  - crunchbase: https://www.crunchbase.com/organization/red-hat
+    homepage_url: https://www.ansible.com/
+    item: null
+    logo: ansible.svg
+    name: Ansible
+    repo_url: https://github.com/ansible/ansible
+    twitter: https://twitter.com/ansible
+  - crunchbase: https://www.crunchbase.com/organization/ctrip
+    description: Apollo is a reliable open-source configuration management system
+    homepage_url: https://www.apolloconfig.com/
+    item: null
+    logo: apollo.svg
+    name: Apollo
+    repo_url: https://github.com/apolloconfig/apollo
+    twitter: null
+  - crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+    description: AWS CloudFormation provides a common language for you to describe
+      and provision all the infrastructure resources in your cloud environment.
+    homepage_url: https://aws.amazon.com/cloudformation/
+    item: null
+    logo: aws-cloudformation.svg
+    name: AWS CloudFormation
+    twitter: https://twitter.com/awscloudformer
+  Container Registry:
+  - crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
+    description: "Alibaba Cloud Container Registry (ACR) is a cloud-native artifacts\
+      \ management platform that helps your team build, manage, and ship containerized\
+      \ applications,\n also provides vulnerability analysis, global synchronization,\
+      \ content trust, and more functionalities out of the box."
+    homepage_url: https://www.alibabacloud.com/zh/product/container-registry
+    item: null
+    logo: alibaba-cloud-container-registry.svg
+    name: Alibaba Cloud Container Registry (ACR)
+  - crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+    description: Amazon Elastic Container Registry (ECR) is a fully-managed Docker
+      container registry that makes it easy for developers to store, manage, and deploy
+      Docker container images.
+    homepage_url: https://aws.amazon.com/ecr/
+    item: null
+    logo: amazon-ecr.svg
+    name: Amazon Elastic Container Registry (ECR)
+  - crunchbase: https://www.crunchbase.com/organization/microsoft
+    description: Azure Container Registry allows you to store images for all types
+      of container deployments including DC/OS, Docker Swarm, Kubernetes, and Azure
+      services such as App Service, Batch, Service Fabric, and others.
+    homepage_url: https://azure.microsoft.com/en-us/services/container-registry/
+    item: null
+    logo: azure-registry.svg
+    name: Azure Registry
+    twitter: https://twitter.com/azure
+  Key Management:
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    description: Open source platform for X.509 certificate based service authentication
+      and fine grained access control in dynamic infrastructures
+    extra:
+      accepted: '2021-01-26'
+      artwork_url: https://github.com/cncf/artwork/tree/master/projects/athenz
+      dev_stats_url: https://athenz.devstats.cncf.io/
+      mailing_list_url: https://groups.google.com/d/forum/athenz-users
+      slack_url: https://join.slack.com/t/athenz/
+    homepage_url: https://www.athenz.io
+    item: null
+    logo: athenz.svg
+    name: Athenz
+    project: sandbox
+    repo_url: https://github.com/AthenZ/athenz
+    twitter: https://twitter.com/athenzio
+  - crunchbase: https://www.crunchbase.com/organization/authing
+    homepage_url: https://www.authing.cn
+    item: null
+    logo: authing.svg
+    name: Authing
+    repo_url: https://github.com/Authing/Authing
+  Security & Compliance:
+  - crunchbase: https://www.crunchbase.com/organization/airlock-security-innovation-by-ergon-informatik-ag
+    homepage_url: https://www.airlock.com/
+    item: null
+    logo: airlock.svg
+    name: Airlock
+  - crunchbase: https://www.crunchbase.com/organization/alcide
+    description: Alcide provides dev-to-production security for workloads running
+      in Kubernetes & Istio
+    homepage_url: https://www.alcide.io/
+    item: null
+    logo: alcide.svg
+    name: Alcide
+  - crunchbase: https://www.crunchbase.com/organization/anchore-inc
+    homepage_url: https://anchore.com/platform
+    item: null
+    logo: anchore.svg
+    name: Anchore
+    repo_url: https://github.com/anchore/anchore-engine
+  - crunchbase: https://www.crunchbase.com/organization/apolicy
+    description: Apolicy fuses security and compliance into your cloud native development
+      pipeline. Using policy-as-code,  we automate risk, policy and remediation from
+      source to production
+    homepage_url: https://www.apolicy.io/
+    item: null
+    joined: '2021-02-02'
+    logo: apolicy.svg
+    name: Apolicy
+  - crunchbase: https://www.crunchbase.com/organization/aquasecurity
+    homepage_url: https://www.aquasec.com/
+    item: null
+    logo: aqua.svg
+    name: Aqua
+  - crunchbase: https://www.crunchbase.com/organization/cyber-armor
+    homepage_url: https://www.armosec.io
+    item: null
+    logo: armo.svg
+    name: Armo
+Runtime:
+  Cloud Native Network:
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    homepage_url: https://antrea.io/
+    item: null
+    logo: antrea.svg
+    name: Antrea
+    project: sandbox
+    repo_url: https://github.com/antrea-io/antrea
+    twitter: https://twitter.com/projectantrea
+  - crunchbase: https://www.crunchbase.com/organization/aviatrix
+    homepage_url: https://www.aviatrix.com/
+    item: null
+    logo: aviatrix.svg
+    name: Aviatrix
+  Cloud Native Storage:
+  - crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
+    description: Alibaba Cloud File Storage enables you to have a distributed file
+      system with unlimited capacity and performance scaleing with a single namespace,high-performance,
+      high reliability, high availabily and scalable file storage services.
+    homepage_url: https://www.alibabacloud.com/product/nas
+    item: null
+    logo: alibaba-cloud-file-storage.svg
+    name: Alibaba Cloud File Storage
+  - crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
+    description: Alibaba Cloud File Storage CPFS is a scale-out parallel file system
+      for Artifical intelligence(AI), High performance computing(HPC) workload while
+      ensuring security, reliability, data effciency and high performance.
+    homepage_url: https://www.alibabacloud.com/error
+    item: null
+    logo: alibaba-cloud-file-storage-cpfs.svg
+    name: Alibaba Cloud File Storage CPFS
+  - crunchbase: https://www.crunchbase.com/organization/alluxio
+    homepage_url: https://www.alluxio.io/
+    item: null
+    logo: alluxio.svg
+    name: Alluxio
+    repo_url: https://github.com/alluxio/alluxio
+    twitter: https://twitter.com/alluxio
+  - crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+    description: Amazon Elastic Block Store (EBS) is an easy to use, high performance
+      block storage service designed for use with Amazon Elastic Compute Cloud (EC2)
+      for both throughput and transaction intensive workloads at any scale.
+    homepage_url: https://aws.amazon.com/ebs/
+    item: null
+    logo: amazon-elastic-block-store.svg
+    name: Amazon Elastic Block Store (EBS)
+  - crunchbase: https://www.crunchbase.com/organization/arrikto
+    homepage_url: https://www.arrikto.com/
+    item: null
+    logo: arrikto.svg
+    name: Arrikto
+    twitter: https://twitter.com/arrikto
+  - crunchbase: https://www.crunchbase.com/organization/microsoft
+    description: "Get HDD/SSD durability, scalability, availability, and security\
+      \ you need for all your workloads\u2014from mission-critical workloads to test\
+      \ scenarios."
+    homepage_url: https://azure.microsoft.com/en-us/services/storage/disks/
+    item: null
+    logo: azure-disk-storage.svg
+    name: Azure Disk Storage
+    twitter: https://twitter.com/azure
+  Container Runtime: []
+Serverless:
+  Framework:
+  - crunchbase: https://www.crunchbase.com/organization/open-js-foundation
+    homepage_url: https://arc.codes/docs/en/get-started/quickstart
+    item: null
+    logo: architect.svg
+    name: Architect
+    repo_url: https://github.com/architect/functions
+  - crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+    homepage_url: https://aws.amazon.com/serverless/sam/
+    item: null
+    logo: aws-sam.svg
+    name: AWS Server Application Model (SAM)
+    repo_url: https://github.com/aws/serverless-application-model
+  Hosted Platform:
+  - crunchbase: https://www.crunchbase.com/organization/algorithmia
+    homepage_url: https://algorithmia.com/product
+    item: null
+    logo: algorithmia.svg
+    name: Algorithmia
+    twitter: https://twitter.com/algorithmia
+  - crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
+    description: A fully hosted and serverless running environment that takes away
+      the need to manage infrastructure such as servers and enables developers to
+      focus on writing and uploading code.
+    homepage_url: https://www.alibabacloud.com/product/function-compute
+    item: null
+    logo: alibaba-cloud-function-compute.svg
+    name: Alibaba Cloud Function Compute
+  - crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
+    description: Serverless Application Engine (SAE) is an application-oriented Serverless
+      PaaS platform that helps PaaS users to go to the cloud without O&M, pay-as-you-go,
+      and low-threshold microservices. It combines Serverless architecture and microservice
+      architecture perfectly.
+    homepage_url: https://cn.aliyun.com/product/aliware/sae
+    item: null
+    logo: alibaba_sae.svg
+    name: Alibaba Cloud Serverless App Engine
+  - crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+    description: AWS Lambda lets you run code without provisioning or managing servers.
+      You pay only for the compute time you consume - there is no charge when your
+      code is not running.
+    homepage_url: https://aws.amazon.com/lambda/
+    item: null
+    logo: aws-lambda.svg
+    name: AWS Lambda
+  - crunchbase: https://www.crunchbase.com/organization/microsoft
+    description: Develop more efficiently with Functions, an event-driven serverless
+      compute platform that can also solve complex orchestration problems. Build and
+      debug locally without additional setup, deploy and operate at scale in the cloud,
+      and integrate services using triggers and bindings.
+    homepage_url: https://azure.microsoft.com/en-us/services/functions/
+    item: null
+    logo: azure-functions.svg
+    name: Azure Functions
+    repo_url: https://github.com/Azure/azure-functions-host
+    twitter: https://twitter.com/Azure
+  Installable Platform:
+  - crunchbase: https://www.crunchbase.com/organization/apache
+    homepage_url: https://camel.apache.org
+    item: null
+    logo: apache-camel-k.svg
+    name: Apache Camel K
+    repo_url: https://github.com/apache/camel-k
+    twitter: https://twitter.com/apachecamel
+  - crunchbase: https://www.crunchbase.com/organization/apache
+    homepage_url: https://openwhisk.apache.org/
+    item: null
+    logo: apache-openwhisk.svg
+    name: Apache OpenWhisk
+    repo_url: https://github.com/apache/openwhisk
+    twitter: https://twitter.com/openwhisk
+  - crunchbase: https://www.crunchbase.com/organization/appscale-inc
+    homepage_url: https://www.appscale.com/
+    item: null
+    logo: appscale.svg
+    name: AppScale
+    repo_url: https://github.com/AppScale/gts
+  Security: []
+  Tools: []
+Special:
+  Certified CNFs: []
+  Kubernetes Certified Service Provider:
+  - crunchbase: https://www.crunchbase.com/organization/acc-ict
+    description: ACC ICT uses Kubernetes to deliver continuity for mission-critical
+      solutions in demanding complex multi-cloud environments. We design, build and
+      maintain these environments and offer training.
+    homepage_url: https://www.acc-ict.com/kubernetes
+    item: null
+    logo: acc-ict.svg
+    name: ACC ICT (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/acornsoft
+    description: Acornsoft is a company that develops and provides Cloud Native Application
+      Platform, a computing environment for future application development and helps
+      customers adopt container, DevOps, and microservice technologies.
+    homepage_url: https://www.cocktailcloud.io
+    item: null
+    logo: acornsoft.svg
+    name: Acornsoft (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/adfolks
+    description: "Adfolks\u2019 Certified Kubernetes Administrators have developed\
+      \ a signature process to help with cloud native transformation journeys."
+    homepage_url: https://www.adfolks.com/
+    item: null
+    logo: adfolks.svg
+    name: Adfolks (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/alauda
+    description: Alauda provides Kubernetes-Centric Enterprise Platform-as-a-Service
+      offerings with a razor focus on delivering Cloud Native capabilities and DevOps
+      best practices to enterprise customers across industries in China.
+    homepage_url: https://www.alauda.cn
+    item: null
+    logo: alauda.svg
+    name: Alauda (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/alerant
+    description: Alerant deploys, configures and supports Kubernetes clusters for
+      enterprises. We help our customers adopt DevOps, build CI/CD, and migrate applications
+      to Kubernetes.
+    homepage_url: https://www.alerant.hu/
+    item: null
+    logo: alerant.svg
+    name: Alerant (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
+    description: Alibaba Cloud Container Service for Kubernetes is a fully-managed
+      service compatible with Kubernetes to help users focus on their  applications
+      rather than managing container infrastructure.
+    homepage_url: https://us.alibabacloud.com/
+    item: null
+    logo: alibaba-cloud-kcsp.svg
+    name: Alibaba Cloud (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/alter-way
+    description: Alter Way is both a cloud consultancy and a managed services company
+      specializing in cloud native applications and infrastructures based on Kubernetes.
+    homepage_url: https://www.alterway.fr/technologies
+    item: null
+    logo: alter-way.svg
+    name: Alter Way (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/altoros-systems
+    description: Being a Pivotal Partner of the Year, Altoros delivers full-scale
+      Kubernetes solutions, enabling companies with resilient and highly available
+      deployments.
+    homepage_url: https://www.altoros.com/services/kubernetes-consulting
+    item: null
+    logo: altoros-kcsp.svg
+    name: Altoros (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/ambient-it
+    description: Ambient IT offers professional training as well as technical audits
+      of your DevOps / Kubernetes infrastructures.
+    homepage_url: https://www.ambient-it.net/formation/formation-kubernetes/
+    item: null
+    logo: ambient-it.svg
+    name: Ambient IT (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/anchnet
+    description: Kubernetes consulting, operation and maintenance services provided
+      by Anchnet aim to help customers quickly build and maintain the enterprise's
+      IT system.
+    homepage_url: https://www.anchnet.com/Managed-service/kubernetes
+    item: null
+    logo: anchnet.svg
+    name: Anchnet (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/andes-digital
+    description: 'Andes Digital provides architecture, application migration and managed
+      services on Kubernetes workloads. '
+    homepage_url: https://www.andesdigital.com/en/services/managed-services/tanzu-management-and-maintenance/#
+    item: null
+    logo: andes-digital.svg
+    name: Andes Digital (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/appddiction-studio
+    description: Appddiction Studio, a DevSecOps/Agile solutions provider, offers
+      Kubernetes implementation and configuration services, application container
+      migrations, and training.
+    homepage_url: https://appddictionstudio.com/
+    item: null
+    logo: appddiction-studio.svg
+    name: Appddiction Studio (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/appstellar
+    description: Appstellar offers Kubernetes consulting, implementation, support,
+      and maintenance.
+    homepage_url: https://appstellar.io/kubernetes-enablement
+    item: null
+    logo: appstellar.svg
+    name: Appstellar (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/appvia
+    description: 'Appvia is a cloud native platform for enabling Dev and Ops teams,
+      supporting organisations to securely deliver at scale using Kubernetes. '
+    homepage_url: https://appvia.io/services
+    item: null
+    logo: appvia.svg
+    name: Appvia (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/aquasecurity
+    description: Aqua Security helps enterprises secure their cloud native applications
+      from development to production, whether they run using containers, serverless,
+      or virtual machines
+    homepage_url: https://www.aquasec.com/aqua-cloud-native-security-platform
+    item: null
+    logo: aqua.svg
+    name: Aqua Security (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/archeros-software
+    description: For enterprises which build the container platform based on Kubernetes,
+      ArcherOS provides the whole lifecycle of Kubernetes operation and maintenance
+      services to help them gain the benefits of rapid application iteration and significant
+      efficiency improvement brought by Kubernetes, while reducing business risks
+      significantly.
+    homepage_url: https://www.archeros.com/nav/1451
+    item: null
+    logo: archeros.svg
+    name: ArcherOS (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/arm
+    homepage_url: https://www.treasuredata.com/
+    item: null
+    logo: arm-treasure-data.svg
+    name: Arm Treasure Data (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/asiainfo
+    description: AsiaInfo provides Kubernetes services including consulting, customized
+      R&D, installation, maintenance, business migration, customer support, knowledge
+      transfer and training. We also develop resource management functions and application
+      management functions based on Kubernetes to help customers better meet their
+      business service requirements.
+    homepage_url: https://www.asiainfo.com/en_us/product_aisware_kubernetes.html
+    item: null
+    logo: asia-info.svg
+    name: AsiaInfo (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/aspen-mesh
+    description: Effectively managing Kubernetes at scale is a critical foundation
+      for our customers who are using a service mesh on top of K8s. As a result, we
+      do hands on professional services around Kubernetes (and Prometheus) in the
+      early stages of our implementations to make our customers successful.
+    homepage_url: https://aspenmesh.io/istio-support
+    item: null
+    logo: aspen-mesh.svg
+    name: Aspen Mesh (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/atix
+    description: ATIX plans, builds & runs Kubernetes clusters. We provide operational
+      support and teach companies how to profit from using Kubernetes.
+    homepage_url: https://atix.de/en/solutions/it-infrastructure/container-platforms/kubernetes
+    item: null
+    logo: atix-ag.svg
+    name: ATIX (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/automat-it
+    description: Automat-IT delivers exceptional cloud solutions and services based
+      on kubernetes - CI, CT, CD, DevOps, 24x7 NOC and more. Customers include startups,
+      large enterprises and everything in between.
+    homepage_url: https://www.automat-it.com/kubernetes
+    item: null
+    logo: automat-it.svg
+    name: Automat-IT (KCSP)
+  Kubernetes Training Partner:
+  - crunchbase: https://www.crunchbase.com/organization/acornsoft
+    description: As a CNCF KCSP (Kubernetes Certified Service Provider) and a developer
+      of Cocktail Cloud Kubernetes Orchestration Platform Product, Acornsoft trains
+      clients and prospective clients on Docker and Kubernetes.
+    homepage_url: https://www.cocktailcloud.io/login.do
+    item: null
+    logo: acornsoft.svg
+    name: Acornsoft (KTP)
+  - crunchbase: https://www.crunchbase.com/organization/alauda
+    homepage_url: https://www.alauda.cn
+    item: null
+    logo: alauda.svg
+    name: Alauda (KTP)
+  - crunchbase: https://www.crunchbase.com/organization/alter-way
+    description: We are experts in the implementation of scalable infrastructure orchestrated
+      by Kubernetes for all sectors of business activity. We are CKA-certified and
+      have considerable experience in the French market.
+    homepage_url: https://www.alterway.fr/formation
+    item: null
+    logo: alter-way.svg
+    name: Alter Way (KTP)
+  - crunchbase: https://www.crunchbase.com/organization/altoros-systems
+    description: Altoros is a professional IT services provider that delivers full-scale
+      Kubernetes solutions, enabling companies with resilient and highly available
+      deployments.
+    homepage_url: https://www.altoros.com/training/kubernetes
+    item: null
+    logo: altoros-ktp.svg
+    name: Altoros (KTP)
+  - crunchbase: https://www.crunchbase.com/organization/appddiction-studio
+    description: Appddiction Studio, a DevSecOps/Agile solutions provider, offers
+      Kubernetes implementation and configuration services, application container
+      migrations, and training.
+    homepage_url: https://appddictionstudio.com/#/devsecops-transformation
+    item: null
+    logo: appddiction-studio.svg
+    name: Appddiction Studio (KTP)
+  - crunchbase: https://www.crunchbase.com/organization/atix
+    description: ATIX plans, builds & runs Kubernetes clusters. We provide operational
+      support and teach companies how to profit from using Kubernetes.
+    homepage_url: https://atix.de/en/trainings/kubernetes-training/
+    item: null
+    logo: atix-ag.svg
+    name: ATIX (KTP)
+Wasm:
+  Debugging and Observability: []
+  Installable Platform:
+  - crunchbase: https://www.crunchbase.com/organization/suborbital
+    homepage_url: https://docs.suborbital.dev/atmo
+    item: null
+    logo: suborbital-atmo.svg
+    name: Atmo
+    repo_url: https://github.com/suborbital/atmo
+  Packaging, Registries & Application Delivery: []
+  Runtime: []
+  Specifications: []
+  Toolchain: []

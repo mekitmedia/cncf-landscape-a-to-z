@@ -1,0 +1,799 @@
+App Definition and Development:
+  Application Definition & Image Build:
+  - crunchbase: https://www.crunchbase.com/organization/raintank
+    description: Tanka is a composable configuration utility for Kubernetes. It leverages
+      the Jsonnet language to realize flexible, reusable and concise configuration.
+    homepage_url: https://tanka.dev/
+    item: null
+    logo: tanka.svg
+    name: Tanka
+    repo_url: https://github.com/grafana/tanka
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      accepted: '2018-05-22'
+      artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#telepresence-logos
+      chat_channel: '#telepresence'
+      dev_stats_url: https://telepresence.devstats.cncf.io/
+      slack_url: https://d6e.co/slack
+    homepage_url: https://www.telepresence.io/
+    item: null
+    logo: telepresence.svg
+    name: Telepresence
+    project: sandbox
+    repo_url: https://github.com/telepresenceio/telepresence
+    twitter: https://twitter.com/telepresenceio
+  - crunchbase: https://www.crunchbase.com/organization/windmill-engineering
+    homepage_url: https://tilt.dev/
+    item: null
+    logo: tilt.svg
+    name: Tilt
+    repo_url: https://github.com/tilt-dev/tilt
+    twitter: https://twitter.com/tilt_dev
+  Continuous Integration & Delivery:
+  - crunchbase: https://www.crunchbase.com/organization/jetbrains
+    description: Powerful Continuous Integration out of the box
+    homepage_url: https://www.jetbrains.com/teamcity/
+    item: null
+    logo: team-city.svg
+    name: TeamCity
+    twitter: https://twitter.com/teamcity
+  - crunchbase: https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf
+    homepage_url: https://tekton.dev/
+    item: null
+    logo: tekton.svg
+    name: Tekton Pipelines
+    repo_url: https://github.com/tektoncd/pipeline
+    twitter: https://twitter.com/tektoncd
+  - crunchbase: https://www.crunchbase.com/organization/kubeshop
+    description: Testkube provides a Kubernetes-native framework for test definition,
+      execution and results. It decouples test artifacts and execution from CI/CD
+      tooling and makes testing part of your cluster's state. Testkube is built and
+      maintained by Kubeshop.
+    homepage_url: https://testkube.kubeshop.io
+    item: null
+    logo: testkube.svg
+    name: Testkube
+    repo_url: https://github.com/kubeshop/testkube
+  - crunchbase: https://www.crunchbase.com/organization/travis-ci
+    homepage_url: https://travis-ci.com/
+    item: null
+    logo: travis-ci.svg
+    name: Travis CI
+    repo_url: https://github.com/travis-ci/travis-web
+  Database:
+  - crunchbase: https://www.crunchbase.com/organization/taos-data
+    homepage_url: https://tdengine.com
+    item: null
+    logo: TDengine.svg
+    name: TDengine
+    repo_url: https://github.com/taosdata/TDengine
+    twitter: https://twitter.com/TaosData
+  - crunchbase: https://www.crunchbase.com/organization/pingcap
+    homepage_url: https://en.pingcap.com
+    item: null
+    logo: tidb.svg
+    name: TiDB
+    repo_url: https://github.com/pingcap/tidb
+    twitter: https://twitter.com/PingCAP
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    description: A distributed transactional key-value database. Based on the design
+      of Google Spanner and HBase, but simpler to manage and without dependencies
+      on any distributed filesystem
+    extra:
+      accepted: '2018-08-28'
+      artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#tikv-logos
+      blog_url: https://tikv.org/blog/
+      dev_stats_url: https://tikv.devstats.cncf.io/
+      mailing_list_url: https://tikv.org/community/community/
+      stack_overflow_url: https://stackoverflow.com/questions/tagged/tikv
+      youtube_url: https://www.youtube.com/channel/UCXyuUR4qEm0HLDniz46k6sg
+    homepage_url: https://tikv.org
+    item: null
+    logo: tikv.svg
+    name: TiKV
+    project: graduated
+    repo_url: https://github.com/tikv/tikv
+    twitter: https://twitter.com/tikvproject
+  - crunchbase: https://www.crunchbase.com/organization/timescaledb
+    description: "PostgreSQL for time\u2011series. TimescaleDB is the leading open-source\
+      \ relational database for time-series data. Fully managed or self\u2011hosted."
+    homepage_url: https://www.timescale.com
+    item: null
+    logo: timescale.svg
+    name: Timescale
+    open_source: false
+    repo_url: https://github.com/timescale/timescaledb
+    twitter: https://twitter.com/TimescaleDB
+  Streaming & Messaging:
+  - crunchbase: https://www.crunchbase.com/organization/talend
+    homepage_url: https://www.talend.com/resources/what-streaming-data
+    item: null
+    logo: talend-data-streams.svg
+    name: Talend Data Streams
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      dev_stats_url: https://tremor.devstats.cncf.io/
+    homepage_url: https://www.tremor.rs/
+    item: null
+    logo: tremor.svg
+    name: Tremor
+    project: sandbox
+    repo_url: https://github.com/tremor-rs/tremor-runtime
+    twitter: https://twitter.com/TremorDEBS
+    url_for_bestpractices: https://github.com/tremor-rs
+CNCF Members:
+  Academic: []
+  End User Supporter:
+  - crunchbase: https://www.crunchbase.com/organization/newyorktimes
+    homepage_url: https://www.nytco.com/
+    item: null
+    logo: the-new-york-times-supporter.svg
+    name: The New York Times (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/thermo-fisher-scientific
+    homepage_url: https://www.thermofisher.com/us/en/home.html
+    item: null
+    logo: thermo-fisher.svg
+    name: Thermo Fisher Scientific (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/ticketmaster
+    homepage_url: https://www.ticketmaster.com/
+    item: null
+    logo: ticket-master-supporter.svg
+    name: TicketMaster (supporter)
+    stock_ticker: LYV
+  - crunchbase: https://www.crunchbase.com/organization/tomtom-international
+    homepage_url: https://www.tomtom.com/en_us/
+    item: null
+    logo: tomtom.svg
+    name: TomTom (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/twitter
+    homepage_url: https://twitter.com
+    item: null
+    logo: twitter-supporter.svg
+    name: Twitter (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/two-sigma-investments
+    homepage_url: https://www.twosigma.com/
+    item: null
+    logo: two-sigma-supporter.svg
+    name: Two Sigma (supporter)
+  Gold:
+  - crunchbase: https://www.crunchbase.com/organization/t-mobile
+    homepage_url: https://t-mobile.okta.com/login/login.htm
+    item: null
+    logo: t-mobile.svg
+    name: T-Mobile (member)
+  - crunchbase: https://www.crunchbase.com/organization/tencent
+    homepage_url: https://cloud.tencent.com/
+    item: null
+    logo: tencent-cloud.svg
+    name: Tencent Cloud (member)
+    twitter: null
+  Nonprofit:
+  - crunchbase: https://www.crunchbase.com/organization/telecommunications-technology-association
+    homepage_url: https://www.tta.or.kr/
+    item: null
+    logo: telecommunications-technology-association-member.svg
+    name: Telecommunications Technology Association (member)
+  - crunchbase: https://www.crunchbase.com/organization/tno
+    homepage_url: https://www.tno.nl/en/
+    item: null
+    logo: tno.svg
+    name: TNO (member)
+  Platinum: []
+  Silver:
+  - crunchbase: https://www.crunchbase.com/organization/t-systems-cis
+    homepage_url: https://www.t-systems.com/de/en
+    item: null
+    logo: tsystems.svg
+    name: T-Systems (member)
+  - crunchbase: https://www.crunchbase.com/organization/teamsun-technology-co
+    homepage_url: http://www.teamsun.com.cn/
+    item: null
+    logo: teamsun.svg
+    name: Teamsun (member)
+  - crunchbase: https://www.crunchbase.com/organization/gravitational
+    homepage_url: https://goteleport.com/
+    item: null
+    logo: teleport.svg
+    name: Teleport (member)
+  - crunchbase: https://www.crunchbase.com/organization/temporal-technologies
+    homepage_url: https://www.temporal.io/
+    item: null
+    logo: temporal.svg
+    name: Temporal (member)
+  - crunchbase: https://www.crunchbase.com/organization/tenable-network-security
+    homepage_url: https://www.tenable.com/
+    item: null
+    logo: tenable.svg
+    name: Tenable (member)
+  - crunchbase: https://www.crunchbase.com/organization/tensorsecurity
+    homepage_url: https://www.tensorsecurity.cn/
+    item: null
+    logo: tensor.svg
+    name: Tensor Security (member)
+  - crunchbase: https://www.crunchbase.com/organization/tenxcloud
+    homepage_url: https://www.tenxcloud.com
+    item: null
+    logo: tenxcloud.svg
+    name: TenxCloud (member)
+  - crunchbase: https://www.crunchbase.com/organization/terasky
+    homepage_url: https://www.terasky.com
+    item: null
+    logo: terasky.svg
+    name: TeraSky (member)
+  - crunchbase: https://www.crunchbase.com/organization/tetrate
+    homepage_url: https://www.tetrate.io
+    item: null
+    logo: tetrate.svg
+    name: Tetrate (member)
+  - crunchbase: https://www.crunchbase.com/organization/teutostack
+    homepage_url: https://teuto.net/teutostack-openstack-public-cloud
+    item: null
+    logo: teuto-stack-member.svg
+    name: TeutoStack (member)
+  - crunchbase: https://www.crunchbase.com/organization/the-scale-factory
+    homepage_url: https://www.scalefactory.com
+    item: null
+    logo: the-scale-factory-member.svg
+    name: The Scale Factory (member)
+  - crunchbase: https://www.crunchbase.com/organization/thoughtmachine
+    enduser: true
+    homepage_url: https://www.thoughtmachine.net/
+    item: null
+    logo: thought-machine.svg
+    name: Thought Machine (member)
+  - crunchbase: https://www.crunchbase.com/organization/threat-stack
+    homepage_url: https://www.threatstack.com/
+    item: null
+    logo: threat-stack.svg
+    name: Threat Stack (member)
+  - crunchbase: https://www.crunchbase.com/organization/tidu
+    homepage_url: https://tiduyun.com/
+    item: null
+    logo: tidu.svg
+    name: Tidu (member)
+  - crunchbase: https://www.crunchbase.com/organization/tigera
+    homepage_url: https://www.tigera.io
+    item: null
+    logo: tigera.svg
+    name: Tigera (member)
+  - crunchbase: https://www.crunchbase.com/organization/timescaledb
+    homepage_url: https://www.timescale.com
+    item: null
+    joined: '2021-02-06'
+    logo: timescale.svg
+    name: Timescale (member)
+  - crunchbase: https://www.crunchbase.com/organization/tl-consulting-group
+    homepage_url: https://www.tlconsulting.com.au/
+    item: null
+    logo: tl-consulting-group.svg
+    name: TL Consulting Group (member)
+  - crunchbase: https://www.crunchbase.com/organization/tmaxcloud
+    homepage_url: http://www.tmax.co.kr/
+    item: null
+    logo: tmaxcloud.svg
+    name: TmaxCloud (member)
+  - crunchbase: https://www.crunchbase.com/organization/toyota
+    enduser: true
+    homepage_url: https://global.toyota/
+    item: null
+    logo: toyota.svg
+    name: Toyota Motor Corporation (member)
+  - crunchbase: https://www.crunchbase.com/organization/traceable
+    homepage_url: https://www.traceable.ai/
+    item: null
+    logo: traceable.svg
+    name: Traceable (member)
+  - crunchbase: https://www.crunchbase.com/organization/traceroute42
+    homepage_url: http://www.traceroute42.com/
+    item: null
+    logo: traceroute42.svg
+    name: TraceRoute42 (member)
+  - crunchbase: https://www.crunchbase.com/organization/containous
+    homepage_url: https://traefik.io
+    item: null
+    logo: traefik-labs.svg
+    name: Traefik Labs (member)
+  - crunchbase: https://www.crunchbase.com/organization/translucent-computing
+    homepage_url: https://www.translucentcomputing.com/
+    item: null
+    logo: translucent-computing.svg
+    name: Translucent Computing (member)
+  - crunchbase: https://www.crunchbase.com/organization/transposit
+    homepage_url: https://www.transposit.com/
+    item: null
+    logo: transposit.svg
+    name: Transposit (member)
+  - crunchbase: https://www.crunchbase.com/organization/transwarp
+    homepage_url: https://transwarp.cn
+    item: null
+    logo: transwarp-technologies-member.svg
+    name: Transwarp Technologies (member)
+  - crunchbase: https://www.crunchbase.com/organization/travelping-gmbh
+    homepage_url: https://www.travelping.com
+    item: null
+    logo: travelping-member.svg
+    name: Travelping (member)
+  - crunchbase: https://www.crunchbase.com/organization/trend-micro
+    homepage_url: https://www.trendmicro.com/en_us/business.html
+    item: null
+    logo: trendmicroincorporated.svg
+    name: Trend Micro (member)
+  - crunchbase: https://www.crunchbase.com/organization/trilio-data
+    homepage_url: https://www.trilio.io/
+    item: null
+    logo: trilio.svg
+    name: Trilio (member)
+  - crunchbase: https://www.crunchbase.com/organization/true-6787
+    homepage_url: https://www.true.nl/
+    item: null
+    logo: true.svg
+    name: True (member)
+    twitter: https://twitter.com/true_nl
+  - crunchbase: https://www.crunchbase.com/organization/tyk-io
+    homepage_url: https://tyk.io/
+    item: null
+    logo: tyk.svg
+    name: Tyk (member)
+Observability and Analysis:
+  Chaos Engineering: []
+  Continuous Optimization:
+  - crunchbase: https://www.crunchbase.com/organization/turbonomic
+    homepage_url: https://turbonomic.com/
+    item: null
+    logo: turbonomic.svg
+    name: Turbonomic
+  Logging:
+  - crunchbase: https://www.crunchbase.com/organization/tencent
+    homepage_url: https://cloud.tencent.com/product/cls
+    item: null
+    logo: tencent-cloud-log-service.svg
+    name: Tencent Cloud Log Service
+  - crunchbase: https://www.crunchbase.com/organization/trink-io
+    description: Trink.io is the first log shipping platform, built to replace fragmented
+      solutions and workarounds with a single solution that takes care of the basics
+      while offering visibility and control that only a managed solution can. Trink
+      handles the entire operational data collection scope for you, connecting to
+      all of your sources (e.g AWS) and enabling you to choose your preferred destinations
+      (Datadog, Logz, etc.) in minutes instead of days.
+    homepage_url: https://trink.io/
+    item: null
+    logo: trink.svg
+    name: Trink.io
+  Monitoring:
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      accepted: '2019-07-20'
+      artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#thanos-logos
+      dev_stats_url: https://thanos.devstats.cncf.io/
+      slack_url: https://cloud-native.slack.com/messages/CK5RSSC10
+    homepage_url: https://thanos.io/
+    item: null
+    logo: thanos.svg
+    name: Thanos
+    project: incubating
+    repo_url: https://github.com/thanos-io/thanos
+    twitter: https://twitter.com/ThanosMetrics
+  - crunchbase: https://www.crunchbase.com/organization/tingyun
+    homepage_url: https://www.tingyun.com/tingyun-app
+    item: null
+    logo: tingyun.svg
+    name: Tingyun
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      accepted: '2021-03-30'
+      artwork_url: https://github.com/cncf/artwork/tree/master/projects/trickster
+      dev_stats_url: https://trickster.devstats.cncf.io/
+    homepage_url: https://trickstercache.org
+    item: null
+    logo: trickster.svg
+    name: Trickster
+    project: sandbox
+    repo_url: https://github.com/trickstercache/trickster
+  Tracing:
+  - crunchbase: https://www.crunchbase.com/organization/kubeshop
+    description: Tracetest allows easy creation of end-to-end tests via a simple user
+      interface. It leverages your current investment in OpenTelemetry based tracing
+      to make deep integration and E2E testing simple.
+    homepage_url: https://tracetest.io
+    item: null
+    logo: tracetest.svg
+    name: Tracetest
+    repo_url: https://github.com/kubeshop/tracetest
+    twitter: https://twitter.com/tracetest_io
+Orchestration & Management:
+  API Gateway:
+  - crunchbase: https://www.crunchbase.com/organization/tyk-io
+    homepage_url: https://tyk.io/
+    item: null
+    logo: tyk.svg
+    name: Tyk
+    repo_url: https://github.com/TykTechnologies/tyk
+  Coordination & Service Discovery: []
+  Remote Procedure Call:
+  - crunchbase: https://www.crunchbase.com/organization/linux-foundation
+    description: TARS is a high-performance RPC framework that provides an integrated
+      solution of microservice governance.
+    homepage_url: https://github.com/tarsCloud
+    item: null
+    logo: tars.svg
+    name: TARS
+    repo_url: https://github.com/tarsCloud/tars
+    twitter: https://twitter.com/TarsCloud
+  Scheduling & Orchestration: []
+  Service Mesh:
+  - crunchbase: https://www.crunchbase.com/organization/containous
+    extra:
+      accepted: '2020-03-16'
+      artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#service-mesh-interface-logos
+      blog_url: https://smi-spec.io/blog/
+      dev_stats_url: https://smi.devstats.cncf.io/
+      slack_url: https://cloud-native.slack.com/messages/smi
+      youtube_url: https://www.youtube.com/playlist?list=PLj6h78yzYM2N5upvsCMVbct4WSrKJo49p
+    homepage_url: https://traefik.io/traefik-mesh
+    item: null
+    logo: traefik-mesh.svg
+    name: Traefik Mesh
+    repo_url: https://github.com/traefik/mesh
+  Service Proxy:
+  - crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
+    homepage_url: https://tengine.taobao.org/
+    item: null
+    logo: alibaba-tengine.svg
+    name: Tengine
+    repo_url: https://github.com/alibaba/tengine
+    twitter: https://twitter.com/AlibabaTengine
+  - crunchbase: https://www.crunchbase.com/organization/containous
+    homepage_url: https://traefik.io/traefik
+    item: null
+    logo: traefik.svg
+    name: Traefik
+    repo_url: https://github.com/traefik/traefik
+Platform:
+  Certified Kubernetes - Distribution:
+  - crunchbase: https://www.crunchbase.com/organization/tenxcloud
+    description: TenxCloud Container Enterprise is a PaaS product based on Kubernetes.
+    homepage_url: https://www.tenxcloud.com/404
+    item: null
+    logo: tenxcloud.svg
+    name: TenxCloud Container Enterprise
+  - crunchbase: https://www.crunchbase.com/organization/tmaxa-c
+    description: HyperCloud is an open-based integrated cloud engine based on Kubernetes.
+      HyperCloud provides various cloud tools for customers to adjust infrastructure/platforms
+      easily considering the IT environment. It also offers open-source services and
+      technical supports that have been self-proven by Tmax.
+    homepage_url: https://tmaxanc.com/#!/product-introduce/HyperCloud
+    item: null
+    logo: tmaxa&c.svg
+    name: TmaxA&C HyperCloud
+  - crunchbase: https://www.crunchbase.com/organization/poseidon
+    description: Typhoon distributes upstream Kubernetes, architectural conventions,
+      and cluster addons, much like a GNU/Linux distribution provides the Linux kernel
+      and userspace components.
+    homepage_url: https://typhoon.psdn.io/
+    item: null
+    logo: typhoon.svg
+    name: Typhoon
+    repo_url: https://github.com/poseidon/typhoon
+  Certified Kubernetes - Hosted:
+  - crunchbase: https://www.crunchbase.com/organization/itera-technologies-a-s
+    description: Taikun is a hybrid cloud management orchestration platform.
+    homepage_url: https://taikun.cloud
+    item: null
+    logo: taikun.svg
+    name: Taikun
+  - crunchbase: https://www.crunchbase.com/organization/tencent
+    description: Tencent Kubernetes Engine (TKE) provides container-centric, highly
+      scalable and high-performance container management services. Fully compatible
+      with Kubernetes' native API and capable of expanding Tencent Cloud's Kubernetes
+      plugins such as CBS and CLB.
+    homepage_url: https://intl.cloud.tencent.com/products/tke
+    item: null
+    logo: tencent-cloud.svg
+    name: Tencent Kubernetes Engine (TKE)
+    twitter: null
+  Certified Kubernetes - Installer:
+  - crunchbase: https://www.crunchbase.com/organization/talos-systems-inc
+    description: Talos is a modern Kubernetes-focused OS designed to be secure, immutable,
+      and minimal.
+    homepage_url: https://www.sideroLabs.com
+    item: null
+    logo: talos.svg
+    name: Talos
+    repo_url: https://github.com/siderolabs/talos
+  PaaS/Container Service:
+  - crunchbase: https://www.crunchbase.com/organization/tetrate
+    description: Application connectivity platform.
+    homepage_url: https://www.tetrate.io/tetrate-service-bridge/
+    item: null
+    logo: tsb.svg
+    name: Tetrate Service Bridge(TSB)
+  - crunchbase: https://www.crunchbase.com/organization/tsuru
+    homepage_url: https://tsuru.io/
+    item: null
+    logo: tsuru.svg
+    name: Tsuru
+    repo_url: https://github.com/tsuru/tsuru
+Provisioning:
+  Automation & Configuration:
+  - crunchbase: https://www.crunchbase.com/organization/hashicorp
+    homepage_url: https://www.terraform.io/
+    item: null
+    logo: terraform.svg
+    name: Terraform
+    repo_url: https://github.com/hashicorp/terraform
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      accepted: '2020-11-10'
+      dev_stats_url: https://tinkerbell.devstats.cncf.io/
+      slack_url: https://app.slack.com/client/T08PSQ7BQ/C01SRB41GMT
+      youtube_url: https://www.youtube.com/channel/UCTzWInTQPvzH21KHS8jrq7A
+    homepage_url: https://tinkerbell.org/
+    item: null
+    logo: tinkerbell.svg
+    name: Tinkerbell
+    project: sandbox
+    repo_url: https://github.com/tinkerbell/tink
+    twitter: https://twitter.com/tinkerbell_oss
+  Container Registry: []
+  Key Management:
+  - crunchbase: https://www.crunchbase.com/organization/gravitational
+    homepage_url: https://goteleport.com
+    item: null
+    logo: teleport.svg
+    name: Teleport
+    repo_url: https://github.com/gravitational/teleport
+  - crunchbase: https://www.crunchbase.com/organization/spectral-4f70
+    extra:
+      mailing_list_url: https://github.com/SpectralOps/teller/discussions
+    homepage_url: https://tlr.dev
+    item: null
+    logo: teller.svg
+    name: Teller
+    project: sandbox
+    repo_url: https://github.com/SpectralOps/Teller
+  Security & Compliance:
+  - crunchbase: https://www.crunchbase.com/organization/tensorsecurity
+    description: Tensor Security is a cloud-native security company focused on providing
+      AI-based and full-stack cloud-native security solutions.
+    homepage_url: https://www.tensorsecurity.cn
+    item: null
+    logo: tensor.svg
+    name: Tensor Security
+  - crunchbase: https://www.crunchbase.com/organization/tenable-network-security
+    homepage_url: https://www.tenable.com/products/tenable-cs
+    item: null
+    logo: terrascan.svg
+    name: Terrascan
+    repo_url: https://github.com/tenable/terrascan
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      accepted: '2021-10-13'
+      dev_stats_url: https://cilium.devstats.cncf.io/
+      slack_url: https://cilium.herokuapp.com/
+    homepage_url: https://github.com/cilium/tetragon
+    item: null
+    logo: tetragon-logo-wormark.svg
+    name: Tetragon
+    repo_url: https://github.com/cilium/tetragon
+    twitter: https://twitter.com/ciliumproject
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      accepted: '2017-10-24'
+      artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#tuf-logos
+      dev_stats_url: https://tuf.devstats.cncf.io/
+      mailing_list_url: https://groups.google.com/forum/?fromgroups#!forum/theupdateframework
+      stack_overflow_url: https://stackoverflow.com/questions/tagged/the-update-framework
+    homepage_url: https://theupdateframework.github.io/
+    item: null
+    logo: the-update-framework-tuf.svg
+    name: The Update Framework (TUF)
+    project: graduated
+    repo_url: https://github.com/theupdateframework/python-tuf
+  - crunchbase: https://www.crunchbase.com/organization/deepfence
+    homepage_url: https://deepfence.io/threatmapper/
+    item: null
+    logo: threatmapper.svg
+    name: ThreatMapper
+    repo_url: https://github.com/deepfence/ThreatMapper
+  - crunchbase: https://www.crunchbase.com/organization/tigera
+    homepage_url: https://www.tigera.io/
+    item: null
+    logo: tigera.svg
+    name: Tigera
+  - crunchbase: https://www.crunchbase.com/organization/trend-micro
+    homepage_url: https://www.trendmicro.com/en_us/business/campaigns/cloud-one-services.html
+    item: null
+    logo: trend-micro.svg
+    name: Trend Micro Cloud One
+  - crunchbase: https://www.crunchbase.com/organization/aquasecurity
+    homepage_url: https://github.com/aquasecurity/trivy
+    item: null
+    logo: trivy.svg
+    name: Trivy
+    repo_url: https://github.com/aquasecurity/trivy
+Runtime:
+  Cloud Native Network:
+  - crunchbase: https://www.crunchbase.com/organization/lf-networking
+    homepage_url: https://tungsten.io
+    item: null
+    logo: tungsten-fabric.svg
+    name: Tungsten Fabric
+    repo_url: https://github.com/Juniper/contrail-controller
+  Cloud Native Storage:
+  - crunchbase: https://www.crunchbase.com/organization/trilio-data
+    homepage_url: https://www.trilio.io/
+    item: null
+    logo: trilio.svg
+    name: Trilio
+  - crunchbase: https://www.crunchbase.com/organization/joyent
+    homepage_url: https://www.joyent.com/triton/object-storage
+    item: null
+    logo: triton-object-storage.svg
+    name: Triton Object Storage
+    repo_url: https://github.com/TritonDataCenter/manta
+  Container Runtime: []
+Serverless:
+  Framework: []
+  Hosted Platform:
+  - crunchbase: https://www.crunchbase.com/organization/tencent
+    description: Serverless Cloud Function (SCF) is a serverless execution environment
+      provided by Tencent Cloud for enterprises and developers to help you run your
+      code without purchasing and managing servers.
+    homepage_url: https://cloud.tencent.com/product/scf
+    item: null
+    logo: tencent-cloud-serverless-cloud-function.svg
+    name: Tencent Cloud Serverless Cloud Function
+    twitter: null
+  - crunchbase: https://www.crunchbase.com/organization/twilio
+    description: A serverless environment to build and run your Twilio code so you
+      can get to production faster.
+    homepage_url: https://www.twilio.com/runtime/build
+    item: null
+    logo: twilio-functions.svg
+    name: Twilio Functions
+  Installable Platform: []
+  Security:
+  - crunchbase: https://www.crunchbase.com/organization/threat-stack
+    homepage_url: https://www.threatstack.com/
+    item: null
+    logo: threat-stack.svg
+    name: Threat Stack
+  Tools:
+  - crunchbase: https://www.crunchbase.com/organization/thundra
+    description: Thundra helps answer your toughest questions about the health of
+      your Serverless infrastructure by giving you invaluable insights into your AWS
+      Lambda functions.
+    homepage_url: https://www.thundra.io/
+    item: null
+    logo: thundra.svg
+    name: Thundra
+    twitter: https://twitter.com/thundraio
+Special:
+  Certified CNFs: []
+  Kubernetes Certified Service Provider:
+  - crunchbase: https://www.crunchbase.com/organization/gravitational
+    description: 'Our open source solutions empower you to package your K8s clusters
+      so they run by themselves anywhere: multi-cloud, on-premises, and even air-gapped.'
+    homepage_url: https://goteleport.com
+    item: null
+    logo: teleport.svg
+    name: Teleport (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/tencent
+    description: Tencent Cloud offers high performing technology with the right amount
+      of human touch to help you build and scale the solution optimized for your business.
+      Tencent Kubernetes Engine helps customers quickly build a native Kubernetes
+      architecture in Tencent Cloud.
+    homepage_url: https://intl.cloud.tencent.com/products/tke
+    item: null
+    logo: tencent-cloud.svg
+    name: Tencent Cloud (KCSP)
+    twitter: null
+  - crunchbase: https://www.crunchbase.com/organization/tenxcloud
+    description: TenxCloud is a leading enterprise container cloud computing service
+      provider in China, covering the areas such as container PaaS cloud platform,
+      micro-service management, DevOps, development test, AIOps and so on.
+    homepage_url: https://www.tenxcloud.com/
+    item: null
+    logo: tenxcloud.svg
+    name: TenxCloud (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/terasky
+    description: 'Highly skilled DevOps company, focused on accelerating customers
+      success. TeraSky offers Professional services, training and support for: Kubernetes,
+      containers, security and cloud infrastructure. TeraSky customers market segments
+      varies from startups to enterprise customers.'
+    homepage_url: https://www.terasky.com
+    item: null
+    logo: terasky.svg
+    name: TeraSky (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/the-scale-factory
+    description: We help technology teams deliver great cloud native solutions on
+      AWS.
+    homepage_url: https://www.scalefactory.com/
+    item: null
+    logo: the-scale-factory-kcsp.svg
+    name: The Scale Factory (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/tidu
+    description: Guangxi Tidu Co. Ltd. provides Kubernetes services, including consulting,
+      operation and maintenance, customized R&D, technical support, and knowledge
+      training. Based on Kubernetes, we also develop the Tidu intelligent cloud platform
+      that provides customers with operations management, continuous integration,
+      image management, application management, microservice management, etc.
+    homepage_url: https://tiduyun.com/kcsp
+    item: null
+    logo: tidu.svg
+    name: Tidu (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/tl-consulting-group
+    description: TL Consulting offers extensive Kubernetes capabilities, including
+      solutions and services designed to baseline and further optimise your readiness
+      to transition into a Cloud Native environment.
+    homepage_url: https://tlconsulting.com.au/kubernetes-consulting/
+    item: null
+    logo: tl-consulting-group.svg
+    name: TL Consulting Group (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/traceroute42
+    description: Maximize the benefits of Kubernetes implementation without overloading
+      your core team. TraceRoute42 provides expertise, training and technical consulting
+      so you can focus on the business value.
+    homepage_url: https://www.traceroute42.com/services
+    item: null
+    logo: traceroute42.svg
+    name: TraceRoute42 (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/translucent-computing
+    description: Professional Services in Cloud Native DevOps and Applications with
+      Kubernetes. Cost effective consulting and implementation focused on ROI.
+    homepage_url: https://www.translucentcomputing.com/
+    item: null
+    logo: translucent-computing.svg
+    name: Translucent Computing (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/transwarp
+    homepage_url: https://www.transwarp.cn
+    item: null
+    logo: transwarp.svg
+    name: Transwarp (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/true-6787
+    description: True offers Fully Managed Kubernetes to cloud native-minded organizations.
+      With our extensive knowledge and experience we can fasttrack your technical
+      ambitions. Our 100+ engineers provide 24x7 support on platforms running on our
+      own Private Cloud or Azure. From extensive onboarding training to the management
+      of your production cluster, True operates as one with your developers.
+    homepage_url: https://www.true.nl/services/kubernetes/
+    item: null
+    logo: true.svg
+    name: True (KCSP)
+    twitter: https://twitter.com/true_nl
+  - crunchbase: https://www.crunchbase.com/organization/tynybay
+    description: We founded TYNYBAY Inc. with the mission to build an ecosystem for
+      enterprises to advance their Cloud Native initiatives. We are a remote Cloud
+      Native partner for enterprises.
+    homepage_url: https://www.tynybay.com/kubernetes
+    item: null
+    logo: tynybay.svg
+    name: TYNYBAY (KCSP)
+  Kubernetes Training Partner:
+  - crunchbase: https://www.crunchbase.com/organization/tenxcloud
+    description: TenxCloud is a leading enterprise container cloud computing service
+      provider in China, covering the areas such as container PaaS cloud platform,
+      micro-service management, DevOps, development test, AIOps and so on.
+    homepage_url: https://www.tenxcloud.com/
+    item: null
+    logo: tenxcloud.svg
+    name: TenxCloud (KTP)
+  - crunchbase: https://www.crunchbase.com/organization/linux-foundation
+    description: Linux Foundation Training & Certification offers cloud native training
+      and certification programs created in partnership with CNCF and industry-leading
+      experts. As the host of certification exams including KCNA, CKA, CKAD and CKS,
+      Linux Foundation Training & Certification is helping professionals demonstrate
+      their skills with cloud native technologies. Training courses are designed to
+      both prepare an individual to deploy, manage and use cloud native technologies
+      in the workplace, as well as to be successful when sitting for a certification.
+    homepage_url: https://training.linuxfoundation.org/cloud-containers/
+    item: null
+    logo: lf-training-2.svg
+    name: The Linux Foundation Training (KTP)
+Wasm:
+  Debugging and Observability: []
+  Installable Platform: []
+  Packaging, Registries & Application Delivery: []
+  Runtime: []
+  Specifications: []
+  Toolchain: []

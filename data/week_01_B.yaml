@@ -1,0 +1,507 @@
+App Definition and Development:
+  Application Definition & Image Build:
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      accepted: '2020-09-08'
+      artwork_url: https://github.com/cncf/artwork/tree/master/projects/backstage
+      dev_stats_url: https://backstage.devstats.cncf.io/
+    homepage_url: https://backstage.io/
+    item: null
+    logo: backstage.svg
+    name: Backstage
+    project: incubating
+    repo_url: https://github.com/backstage/backstage
+  - crunchbase: https://www.crunchbase.com/organization/vmware
+    description: Tanzu Application Catalog is a customizable selection of open source
+      software from the Bitnami collection that is continuously maintained and verifiably
+      tested for use in production environments.
+    homepage_url: https://tanzu.vmware.com/application-catalog
+    item: null
+    logo: bitnami.svg
+    name: Bitnami - Tanzu Application Catalog
+    twitter: https://twitter.com/bitnami
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      accepted: '2018-10-03'
+      artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#buildpacks-logos
+      dev_stats_url: https://buildpacks.devstats.cncf.io/
+      slack_url: https://slack.buildpacks.io/
+    homepage_url: https://buildpacks.io/
+    item: null
+    logo: buildpacks.svg
+    name: Buildpacks
+    project: incubating
+    repo_url: https://github.com/buildpacks/pack
+    twitter: https://twitter.com/buildpacks_io
+  Continuous Integration & Delivery:
+  - crunchbase: https://www.crunchbase.com/organization/atlassian
+    description: Bamboo Server is the choice of professional teams for continuous
+      integration, deployment, and delivery
+    homepage_url: https://www.atlassian.com/software/bamboo
+    item: null
+    logo: bamboo.svg
+    name: Bamboo
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      accepted: '2019-03-18'
+      artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#brigade-logos
+      dev_stats_url: https://brigade.devstats.cncf.io/
+      slack_url: https://kubernetes.slack.com/messages/C87MF1RFD
+    homepage_url: https://brigade.sh/
+    item: null
+    logo: brigade.svg
+    name: Brigade
+    project: sandbox
+    repo_url: https://github.com/brigadecore/brigade
+    twitter: https://twitter.com/brigadecore
+  - crunchbase: https://www.crunchbase.com/organization/buildkite
+    description: Buildkite is a platform for running fast, secure, and scalable continuous
+      integration pipelines on your own infrastructure.
+    homepage_url: https://buildkite.com/
+    item: null
+    logo: buildkite.svg
+    name: Buildkite
+  - crunchbase: https://www.crunchbase.com/organization/bunnyshell
+    description: Bunnyshell is an EaaS platform that enables fast, dead-simple environment
+      creation and management for teams and developers who want to release better
+      code faster.
+    homepage_url: https://bunnyshell.com/
+    item: null
+    logo: bunnyshell.svg
+    name: Bunnyshell
+    twitter: https://twitter.com/bunnyshell_eaas
+  Database:
+  - crunchbase: https://www.crunchbase.com/organization/bigchaindb
+    homepage_url: https://www.bigchaindb.com/
+    item: null
+    logo: bigchaindb.svg
+    name: BigchainDB
+    repo_url: https://github.com/bigchaindb/bigchaindb
+    twitter: https://twitter.com/BigchainDB
+  Streaming & Messaging:
+  - crunchbase: https://www.crunchbase.com/organization/apache
+    homepage_url: https://beam.apache.org/
+    item: null
+    logo: beam.svg
+    name: Beam
+    repo_url: https://github.com/apache/beam
+    twitter: https://twitter.com/ApacheBeam
+CNCF Members:
+  Academic: []
+  End User Supporter:
+  - crunchbase: https://www.crunchbase.com/organization/babylon-health
+    homepage_url: https://www.babylonhealth.com/en-us
+    item: null
+    logo: babylon.svg
+    name: Babylon Health (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/bitmex-bitcoin-mercantile-exchange
+    homepage_url: https://www.bitmex.com/
+    item: null
+    logo: bitmex.svg
+    name: BitMEX (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/blizzard-entertainment
+    homepage_url: https://www.blizzard.com/en-us/
+    item: null
+    joined: '2021-05-13'
+    logo: blizzard.svg
+    name: Blizzard (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/box
+    homepage_url: https://www.box.com/
+    item: null
+    logo: box-supporter.svg
+    name: Box (supporter)
+  Gold:
+  - crunchbase: https://www.crunchbase.com/organization/baidu
+    homepage_url: https://cloud.baidu.com/
+    item: null
+    logo: baidu-member.svg
+    name: Baidu (member)
+  Nonprofit: []
+  Platinum:
+  - crunchbase: https://www.crunchbase.com/organization/boeing-7321
+    enduser: true
+    homepage_url: https://www.boeing.com/
+    item: null
+    joined: '2022-04-22'
+    logo: boeing.svg
+    name: Boeing (member)
+  Silver:
+  - crunchbase: https://www.crunchbase.com/organization/b1-systems-gmbh
+    homepage_url: https://www.b1-systems.de/
+    item: null
+    logo: b1-systems.svg
+    name: B1 Systems (member)
+  - crunchbase: https://www.crunchbase.com/organization/resin-io
+    homepage_url: https://www.balena.io/
+    item: null
+    logo: balena-member.svg
+    name: Balena (member)
+  - crunchbase: https://www.crunchbase.com/organization/grupo-bancolombia
+    enduser: true
+    homepage_url: https://www.bancolombia.com/personas
+    item: null
+    joined: '2021-12-01'
+    logo: bancolombia.svg
+    name: Bancolombia (member)
+  - crunchbase: https://www.crunchbase.com/organization/beijing-big-data
+    homepage_url: https://www.bd-apaas.com/#/
+    item: null
+    logo: bc-cloud.svg
+    name: BC Cloud (member)
+  - crunchbase: https://www.crunchbase.com/organization/beopenit
+    homepage_url: https://www.beopenit.com/
+    item: null
+    logo: beopenit.svg
+    name: BeOpenIT (member)
+  - crunchbase: https://www.crunchbase.com/organization/bes-e58f
+    homepage_url: https://www.bessystem.com/
+    item: null
+    logo: bessystem.svg
+    name: BESSYSTEM (member)
+  - crunchbase: https://www.crunchbase.com/organization/biqmind
+    homepage_url: https://biqmind.com/
+    item: null
+    logo: biqmind.svg
+    name: Biqmind (member)
+  - crunchbase: https://www.crunchbase.com/organization/bitrock-b74e
+    homepage_url: https://www.bitrock.it/
+    item: null
+    logo: bitrock.svg
+    name: Bitrock (member)
+  - crunchbase: https://www.crunchbase.com/organization/blameless
+    homepage_url: https://www.blameless.com/
+    item: null
+    logo: blameless-member.svg
+    name: Blameless (member)
+  - crunchbase: https://www.crunchbase.com/organization/blockchain-technology-partners
+    homepage_url: https://blockchaintp.com/
+    item: null
+    logo: btp.svg
+    name: Blockchain Technology Partners (member)
+  - crunchbase: https://www.crunchbase.com/organization/bloomberg
+    enduser: true
+    homepage_url: https://www.bloomberg.com/tosv2.html
+    item: null
+    logo: bloomberg-member.svg
+    name: Bloomberg (member)
+    twitter: https://twitter.com/techatbloomberg
+  - crunchbase: https://www.crunchbase.com/organization/blue-sentry
+    homepage_url: https://bluesentry.cloud
+    item: null
+    logo: blue-sentry.svg
+    name: Blue Sentry (member)
+  - crunchbase: https://www.crunchbase.com/organization/bank-of-montreal
+    enduser: true
+    homepage_url: https://www.bmo.com/main/personal
+    item: null
+    joined: '2022-01-25'
+    logo: bankofmontreal.svg
+    name: BMO - Bank of Montreal (member)
+  - crunchbase: https://www.crunchbase.com/organization/bocloud
+    homepage_url: http://www.bocloud.com.cn/en/index.html
+    item: null
+    logo: bo-cloud-member.svg
+    name: BoCloud (member)
+  - crunchbase: https://www.crunchbase.com/organization/btech-d630
+    homepage_url: https://www.btech.id/
+    item: null
+    logo: boer-technology.svg
+    name: Boer Technology (member)
+  - crunchbase: https://www.crunchbase.com/organization/booz-allen-hamilton
+    homepage_url: https://www.boozallen.com/
+    item: null
+    logo: booz-allen-hamilton-kcsp.svg
+    name: Booz Allen Hamilton (member)
+  - crunchbase: https://www.crunchbase.com/organization/boxboat-technologies-llc
+    extra:
+      training_certifications: cka
+      training_type: e-learning, instructor-led
+    homepage_url: https://boxboat.com/
+    item: null
+    logo: boxboat.svg
+    name: Boxboat (member)
+  - crunchbase: https://www.crunchbase.com/organization/brickdoc
+    homepage_url: https://www.producthunt.com/upcoming/brickdoc
+    item: null
+    logo: brickdoc.svg
+    name: Brickdoc (member)
+  - crunchbase: https://www.crunchbase.com/organization/broadcom
+    homepage_url: https://www.broadcom.com/
+    item: null
+    logo: broadcom.svg
+    name: Broadcom (member)
+  - crunchbase: https://www.crunchbase.com/organization/brobridge
+    homepage_url: http://www.brobridge.com/
+    item: null
+    logo: brobridge-member.svg
+    name: Brobridge (member)
+  - crunchbase: https://www.crunchbase.com/organization/bunnyshell
+    homepage_url: https://www.bunnyshell.com/
+    item: null
+    logo: bunnyshell.svg
+    name: Bunnyshell (member)
+  - crunchbase: https://www.crunchbase.com/organization/buoyant
+    homepage_url: https://buoyant.io/
+    item: null
+    logo: buoyant.svg
+    name: Buoyant (member)
+Observability and Analysis:
+  Chaos Engineering: []
+  Continuous Optimization:
+  - crunchbase: https://www.crunchbase.com/organization/bmc-software
+    homepage_url: https://www.bmc.com/it-solutions/bmc-helix.html
+    item: null
+    logo: bmc.svg
+    name: BMC Helix
+  Logging: []
+  Monitoring:
+  - crunchbase: https://www.crunchbase.com/organization/elasticsearch
+    homepage_url: https://www.elastic.co/beats
+    item: null
+    logo: beats.svg
+    name: Beats
+    repo_url: https://github.com/elastic/beats
+  - crunchbase: https://www.crunchbase.com/organization/blue-matador-inc
+    homepage_url: https://www.bluematador.com
+    item: null
+    logo: blue-matador.svg
+    name: Blue Matador
+    twitter: https://twitter.com/BlueMatadorInc
+  Tracing: []
+Orchestration & Management:
+  API Gateway: []
+  Coordination & Service Discovery: []
+  Remote Procedure Call: []
+  Scheduling & Orchestration: []
+  Service Mesh: []
+  Service Proxy:
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    description: Open-source layer 7 load balancer derived from proprietary Baidu
+      FrontEnd
+    extra:
+      accepted: '2020-06-23'
+      artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#bfe-logos
+      dev_stats_url: https://bfe.devstats.cncf.io/
+    homepage_url: https://www.bfe-networks.net
+    item: null
+    logo: bfe.svg
+    name: BFE
+    project: sandbox
+    repo_url: https://github.com/bfenetworks/bfe
+    twitter: https://twitter.com/BfeNetworks
+Platform:
+  Certified Kubernetes - Distribution:
+  - crunchbase: https://www.crunchbase.com/organization/kbsys
+    description: Bizkube is a next-generation enterprise distributed processing and
+      hybrid cloud operating solution that provides Built, Deployment, Elastic Scaling
+      Modern Applications, and Data Service capabilities, various open source support,
+      and a customized docker environment for users.
+    homepage_url: http://www.bizkube.co.kr
+    item: null
+    logo: bizkube.svg
+    name: BizKube
+  - crunchbase: https://www.crunchbase.com/organization/bocloud
+    description: BoCloud BeyondContainer is a production-ready PaaS platform for Internet
+      application deployment and management.
+    homepage_url: http://bocloud.com.cn/product_container.html
+    item: null
+    logo: bo-cloud-beyond-container.svg
+    name: BoCloud BeyondContainer
+  Certified Kubernetes - Hosted:
+  - crunchbase: https://www.crunchbase.com/organization/baidu
+    description: Baidu Cloud Container Engine, aka CCE.
+    homepage_url: https://cloud.baidu.com/product/cce.html
+    item: null
+    logo: baidu-member.svg
+    name: Baidu Cloud Container Engine
+  - crunchbase: https://www.crunchbase.com/organization/kbsys
+    description: Kubernetes-based SaaS platform includes tools related to OAuth-based
+      authentication, CDN-based file management, CI/CD pipeline placement management,
+      API management, monitoring, and site Reliability engineering (SRE). This makes
+      it easy to configure cloud-native applications optimized for public, on-premises,
+      and hybrid clouds.
+    homepage_url: http://www.bizmicro.co.kr
+    item: null
+    logo: bizmicro.svg
+    name: Bizmicro
+  Certified Kubernetes - Installer: []
+  PaaS/Container Service: []
+Provisioning:
+  Automation & Configuration:
+  - crunchbase: https://www.crunchbase.com/organization/cloud-foundry
+    homepage_url: https://bosh.io/docs/
+    item: null
+    logo: cloudfoundry-bosh.svg
+    name: BOSH
+    repo_url: https://github.com/cloudfoundry/bosh
+  Container Registry: []
+  Key Management: []
+  Security & Compliance:
+  - crunchbase: https://www.crunchbase.com/organization/synopsys
+    description: Black Duck provides a comprehensive software composition analysis
+      (SCA) solution for managing security, quality, and license compliance risk that
+      comes from the use of open source and third-party code in applications and containers.
+    homepage_url: https://www.synopsys.com/software-integrity/security-testing/software-composition-analysis.html
+    item: null
+    logo: blackduck.svg
+    name: Black Duck
+    twitter: https://twitter.com/sw_integrity
+  - crunchbase: https://www.crunchbase.com/organization/bloombase
+    homepage_url: https://www.bloombase.com/
+    item: null
+    logo: bloombase.svg
+    name: Bloombase
+Runtime:
+  Cloud Native Network: []
+  Cloud Native Storage: []
+  Container Runtime: []
+Serverless:
+  Framework: []
+  Hosted Platform:
+  - crunchbase: https://www.crunchbase.com/organization/baidu
+    description: CFC (Cloud Function Compute) is a serverless solution provided by
+      Baidu for enterprises and developers. It provides event-based, flexible, highly
+      available, scalable and highly responsive cloud computing capabilities, and
+      supports a variety of function triggers meeting a variety of scenarios.
+    homepage_url: https://cloud.baidu.com/product/cfc.html
+    item: null
+    logo: baidu-cfc.svg
+    name: Baidu Cloud Function Compute
+  Installable Platform: []
+  Security: []
+  Tools: []
+Special:
+  Certified CNFs: []
+  Kubernetes Certified Service Provider:
+  - crunchbase: https://www.crunchbase.com/organization/b1-systems-gmbh
+    description: B1 Systems GmbH is a worldwide operating provider of Kubernetes consulting,
+      training, managed service & support located in Germany.
+    homepage_url: https://b1-systems.de/loesungen/kubernetes/
+    item: null
+    logo: b1-systems.svg
+    name: B1 Systems (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/baidu
+    description: Baidu Cloud Container Engine is an enterprise-level container platform,
+      the core of CCE is leveraging on open source technologies including Kubernetes
+      and Docker.
+    homepage_url: https://cloud.baidu.com/
+    item: null
+    logo: baidu-kcsp.svg
+    name: Baidu (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/banzai-cloud
+    description: Banzai Cloud brings cloud native to the enterprise and simplifies
+      the transition to microservices on Kubernetes.
+    homepage_url: https://banzaicloud.com/
+    item: null
+    logo: banzai-cloud.svg
+    name: Banzai Cloud (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/beijing-big-data
+    description: BC Cloud (Beijing Big Data) provides professional cloud native platform
+      solutions, DevOps implementation, Service Mesh consulting and other comprehensive
+      services for big data.
+    homepage_url: https://www.bd-apaas.com/#/bcproduct
+    item: null
+    logo: bc-cloud.svg
+    name: BC Cloud (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/beopenit
+    description: BeOpenIT is a Cloud, DevOps, AI and Cybersecurity consultancy providing
+      training, products and support of Kubernetes and cloud native technologies.
+    homepage_url: https://www.beopenit.com/
+    item: null
+    logo: beopenit.svg
+    name: BeOpenIT (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/bes-e58f
+    description: Beijing Baolande Software Corporation provides Kubernetes special
+      technical services including consulting, training, implementation, and technical
+      support, as well as customized research & development, business operations and
+      other advanced services. We aim to help enterprises of different scales to achieve
+      Kubernetes community version quickly and safely, better meeting their requirements
+      of business development and accelerating business prosperity & growth.
+    homepage_url: https://www.bessystem.com/partinfo/103106/info?p=103
+    item: null
+    logo: bessystem.svg
+    name: BESSYSTEM - Beijing Baolande Software Corporation (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/blue-sentry
+    description: Blue Sentry increases efficiency, security, ensures compliance and
+      helps organizations deliver products faster with our managed DevOps services
+      utilizing Kubernetes, Infrastructure as Code and CI/CD-enabled change management.
+    homepage_url: https://bluesentry.cloud/solutions/managed-kubernetes-consulting-services
+    item: null
+    logo: blue-sentry.svg
+    name: Blue Sentry (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/bocloud
+    homepage_url: http://bocloud.com.cn/
+    item: null
+    logo: bo-cloud-kcsp.svg
+    name: BoCloud (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/btech-d630
+    description: We provide services on cloud and devops training, consulting, implementation,
+      support and managed services to enterprises, governments, NGOs, and universities.
+    homepage_url: https://www.btech.id/#solutions
+    item: null
+    logo: boer-technology.svg
+    name: Boer Technology (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/booz-allen-hamilton
+    description: Booz Allen partners with public and private sector clients to solve
+      their most difficult challenges through a combination of consulting, analytics,
+      mission operations, technology, systems delivery, cybersecurity, engineering,
+      and innovation expertise.
+    homepage_url: https://www.boozallen.com/
+    item: null
+    logo: booz-allen-hamilton-kcsp.svg
+    name: Booz Allen Hamilton (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/boxboat-technologies-llc
+    description: BoxBoat helps global companies develop, integrate, and deploy applications
+      faster with Kubernetes and emerging ecosystem technologies.
+    homepage_url: https://boxboat.com/
+    item: null
+    logo: boxboat.svg
+    name: BoxBoat (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/brobridge
+    description: Brobridge provides professional Kubernetes support and microservice-relevant
+      components such as workflow engine, API gateway, queueing system, and orchestration
+      engine to assist your business to move to microservice.
+    homepage_url: http://www.brobridge.com
+    item: null
+    logo: brobridge-kcsp.svg
+    name: Brobridge (KCSP)
+  Kubernetes Training Partner:
+  - crunchbase: https://www.crunchbase.com/organization/beopenit
+    description: BeOpenIT is a Cloud, DevOps, AI and Cybersecurity consultancy providing
+      training, products and support of Kubernetes and cloud native technologies.
+    extra:
+      training_certifications: cka, ckad, cks
+      training_type: e-learning, instructor-led
+    homepage_url: https://www.beopenit.com/
+    item: null
+    logo: beopenit.svg
+    name: BeOpenIT (KTP)
+  - crunchbase: https://www.crunchbase.com/organization/bocloud
+    homepage_url: https://www.bocloud.com.cn/train/?id=92
+    item: null
+    logo: bo-cloud-kcsp.svg
+    name: BoCloud (KTP)
+  - crunchbase: https://www.crunchbase.com/organization/btech-d630
+    description: We provide services on cloud and devops training, consulting, implementation,
+      support and managed services to enterprises, governments, NGOs, and universities.
+    extra:
+      training_certifications: cka, ckad, cks, kcna
+      training_type: instructor-led
+    homepage_url: https://www.btech.id/#solutions
+    item: null
+    logo: boer-technology.svg
+    name: Boer Technology (KTP)
+  - crunchbase: https://www.crunchbase.com/organization/boxboat-technologies-llc
+    description: BoxBoat helps global companies develop, integrate, and deploy applications
+      faster with Kubernetes and emerging ecosystem technologies.
+    homepage_url: https://boxboat.com/
+    item: null
+    logo: boxboat.svg
+    name: BoxBoat (KTP)
+Wasm:
+  Debugging and Observability: []
+  Installable Platform: []
+  Packaging, Registries & Application Delivery: []
+  Runtime: []
+  Specifications: []
+  Toolchain: []

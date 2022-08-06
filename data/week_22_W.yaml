@@ -1,0 +1,387 @@
+App Definition and Development:
+  Application Definition & Image Build: []
+  Continuous Integration & Delivery:
+  - crunchbase: https://www.crunchbase.com/organization/woodpecker-ci
+    homepage_url: https://woodpecker-ci.org
+    item: null
+    logo: woodpecker-ci.svg
+    name: Woodpecker CI
+    repo_url: https://github.com/woodpecker-ci/woodpecker
+  Database:
+  - crunchbase: https://www.crunchbase.com/organization/semi-technologies
+    extra:
+      artwork_url: https://www.semi.technology/playbooks/design/style-graphic-solutions.html
+      blog_url: https://medium.com/semi-technologies
+      slack_url: https://join.slack.com/t/weaviate/shared_invite/zt-goaoifjr-o8FuVz9b1HLzhlUfyfddhw
+      stack_overflow_url: https://stackoverflow.com/questions/tagged/weaviate
+    homepage_url: https://weaviate.io/developers/weaviate/current/index.html
+    item: null
+    logo: weaviate.svg
+    name: Weaviate
+    repo_url: https://github.com/semi-technologies/weaviate
+  Streaming & Messaging: []
+CNCF Members:
+  Academic: []
+  End User Supporter:
+  - crunchbase: https://www.crunchbase.com/organization/westwing
+    homepage_url: https://www.westwing.de/
+    item: null
+    joined: '2021-06-04'
+    logo: westwing.svg
+    name: Westwing (supporter)
+    stock_ticker: null
+    twitter: null
+  - crunchbase: https://www.crunchbase.com/organization/workday
+    homepage_url: https://www.workday.com/
+    item: null
+    logo: workday-supporter.svg
+    name: Workday (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/wp-engine
+    homepage_url: https://wpengine.com/
+    item: null
+    logo: wp-engine-supporter.svg
+    name: WPEngine (supporter)
+  Gold: []
+  Nonprofit:
+  - crunchbase: https://www.crunchbase.com/organization/wikimedia-foundation
+    enduser: true
+    homepage_url: https://www.wikimedia.org/
+    item: null
+    logo: wikimedia-member.svg
+    name: Wikimedia (member)
+  Platinum: []
+  Silver:
+  - crunchbase: https://www.crunchbase.com/organization/wallarm
+    homepage_url: https://wallarm.com
+    item: null
+    logo: wallarm-member.svg
+    name: Wallarm (member)
+  - crunchbase: https://www.crunchbase.com/organization/walmart-labs
+    enduser: true
+    homepage_url: https://www.walmartlabs.com
+    item: null
+    logo: walmart-member.svg
+    name: Walmart (member)
+  - crunchbase: https://www.crunchbase.com/organization/wanclouds
+    homepage_url: https://www.wanclouds.net/
+    item: null
+    logo: wanclouds.svg
+    name: Wanclouds (member)
+  - crunchbase: https://www.crunchbase.com/organization/wayfair
+    enduser: true
+    homepage_url: https://www.wayfair.com/
+    item: null
+    joined: '2022-04-27'
+    logo: wayfair.svg
+    name: Wayfair (member)
+  - crunchbase: https://www.crunchbase.com/organization/weaveworks
+    homepage_url: https://www.weave.works
+    item: null
+    logo: weaveworks-member.svg
+    name: Weaveworks (member)
+  - crunchbase: https://www.crunchbase.com/organization/webera
+    homepage_url: https://www.webera.com/
+    item: null
+    logo: webera.svg
+    name: Webera (member)
+  - crunchbase: https://www.crunchbase.com/organization/wescale-a110
+    homepage_url: https://www.wescale.fr/
+    item: null
+    logo: wescale.svg
+    name: WeScale (member)
+  - crunchbase: https://www.crunchbase.com/organization/whatap-labs
+    homepage_url: https://www.whatap.io/en
+    item: null
+    logo: whatap-labs.svg
+    name: WhaTap (member)
+  - crunchbase: https://www.crunchbase.com/organization/whitestack
+    homepage_url: https://www.whitestack.com/
+    item: null
+    logo: whitestack.svg
+    name: Whitestack (member)
+  - crunchbase: https://www.crunchbase.com/organization/whizus-gmbh
+    homepage_url: https://www.whizus.com/
+    item: null
+    logo: whizus.svg
+    name: WhizUs (member)
+  - crunchbase: https://www.crunchbase.com/organization/wind-river
+    homepage_url: https://www.windriver.com/resources
+    item: null
+    logo: wind-river.svg
+    name: Wind River (member)
+  - crunchbase: https://www.crunchbase.com/organization/windmill-engineering
+    homepage_url: https://tilt.dev
+    item: null
+    logo: windmill-engineering-member.svg
+    name: Windmill Engineering (member)
+  - crunchbase: https://www.crunchbase.com/organization/wise2c-technology-co
+    homepage_url: http://www.wise2c.com
+    item: null
+    logo: wise2-c-member.svg
+    name: Wise2C (member)
+  - crunchbase: https://www.crunchbase.com/organization/woqu-technology-co-ltd
+    homepage_url: http://www.woqutech.com/
+    item: null
+    logo: woqutech.svg
+    name: WOQU Tech (member)
+  - crunchbase: https://www.crunchbase.com/organization/wowjoy-technology
+    homepage_url: https://www.wowjoy.cn/#/
+    item: null
+    logo: wowjoy-technology.svg
+    name: Wowjoy Technology (member)
+  - crunchbase: https://www.crunchbase.com/organization/wso2
+    homepage_url: https://wso2.com/
+    item: null
+    logo: wso2-member.svg
+    name: WSO2 (member)
+Observability and Analysis:
+  Chaos Engineering: []
+  Continuous Optimization: []
+  Logging: []
+  Monitoring:
+  - crunchbase: https://www.crunchbase.com/organization/vmware
+    description: Wavefront provides real-time views of your code, full stack, at detail
+      down to sub-seconds.
+    homepage_url: https://tanzu.vmware.com/observability
+    item: null
+    logo: wavefront.svg
+    name: Wavefront
+    twitter: https://twitter.com/WavefrontHQ
+  - crunchbase: https://www.crunchbase.com/organization/weaveworks
+    description: Weave Cloud is an automation and management platform for development
+      and DevOps teams. Built-in GitOps workflows are the foundation for improved
+      development velocity through continuous delivery and increased reliability through
+      observability.
+    homepage_url: https://www.weave.works/product/cloud/
+    item: null
+    logo: weave-cloud.svg
+    name: Weave Cloud
+  - crunchbase: https://www.crunchbase.com/organization/weaveworks
+    homepage_url: https://www.weave.works/oss/scope/
+    item: null
+    logo: weave-scope.svg
+    name: Weave Scope
+    repo_url: https://github.com/weaveworks/scope
+  - crunchbase: https://www.crunchbase.com/organization/whatap-labs
+    description: WhaTap Labs provides an integrated monitoring service for DevOps
+      that analyzes application performance issue running on kubernetes in real time.
+    homepage_url: https://whatap.io/en
+    item: null
+    logo: whatap-labs.svg
+    name: WhaTap
+  Tracing: []
+Orchestration & Management:
+  API Gateway:
+  - crunchbase: https://www.crunchbase.com/organization/wso2
+    homepage_url: https://wso2.com/api-manager/api-microgateway
+    item: null
+    logo: wso2.svg
+    name: WSO2 API Microgateway
+    repo_url: https://github.com/wso2/product-microgateway
+  Coordination & Service Discovery: []
+  Remote Procedure Call: []
+  Scheduling & Orchestration: []
+  Service Mesh: []
+  Service Proxy: []
+Platform:
+  Certified Kubernetes - Distribution:
+  - crunchbase: https://www.crunchbase.com/organization/whitestack
+    description: WhiteMist is Whitestack's own Kubernetes distribution, geared at
+      accelerating the adoption of containers in Cloud providers, E-commerce providers,
+      Large organizations and Telecom Operators.
+    homepage_url: https://www.whitestack.com/products/whitemist/
+    item: null
+    logo: whitestack.svg
+    name: Whitestack WhiteMist
+  - crunchbase: https://www.crunchbase.com/organization/wind-river
+    description: Wind River Cloud Platform is a carrier-grade Kubernetes solution
+      that makes 5G possible by solving the operational problem of deploying and managing
+      distributed edge networks at scale.  It is Wind River's commercial product based
+      on the open source StarlingX project.
+    homepage_url: https://www.windriver.com/studio/operator/cloud-platform
+    item: null
+    logo: wind-river.svg
+    name: Wind River Studio Cloud Platform
+    repo_url: https://github.com/wind-river/starlingx-config
+  - crunchbase: https://www.crunchbase.com/organization/wise2c-technology-co
+    description: WiseCloud is a production-ready full-featured PaaS platform based
+      on Kubernetes.
+    homepage_url: http://www.wise2c.com/solution
+    item: null
+    logo: wise2-c-kcsp.svg
+    name: Wise2C Technology WiseCloud
+  Certified Kubernetes - Hosted: []
+  Certified Kubernetes - Installer:
+  - crunchbase: https://www.crunchbase.com/organization/weaveworks
+    description: Weave GitOps Enterprise enables the management of clusters and applications
+      on scale with GitOps.
+    homepage_url: https://www.weave.works/product/gitops-enterprise/
+    item: null
+    logo: weaveworks.svg
+    name: Weave GitOps Enterprise
+  - crunchbase: https://www.crunchbase.com/organization/wise2c-technology-co
+    description: Deploy a Production Ready Kubernetes Cluster with graphical interface.
+    homepage_url: http://www.wise2c.com
+    item: null
+    logo: wise2-c-kcsp.svg
+    name: Wise2C Technology Breeze
+    repo_url: https://github.com/wise2c-devops/breeze
+  PaaS/Container Service: []
+Provisioning:
+  Automation & Configuration: []
+  Container Registry: []
+  Key Management: []
+  Security & Compliance:
+  - crunchbase: https://www.crunchbase.com/organization/white-source
+    homepage_url: https://www.whitesourcesoftware.com/
+    item: null
+    logo: white-source.svg
+    name: WhiteSource
+Runtime:
+  Cloud Native Network:
+  - crunchbase: https://www.crunchbase.com/organization/weaveworks
+    homepage_url: https://www.weave.works/oss/net/
+    item: null
+    logo: weave-net.svg
+    name: Weave Net
+    repo_url: https://github.com/weaveworks/weave
+  Cloud Native Storage: []
+  Container Runtime:
+  - allow_duplicate_repo: true
+    crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      accepted: '2021-04-28'
+      artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#wasmedgeruntime-logos
+      dev_stats_url: https://wasmedge.devstats.cncf.io/
+    homepage_url: https://wasmedge.org/
+    item: null
+    logo: wasmedge.svg
+    name: WasmEdge Runtime
+    project: sandbox
+    repo_url: https://github.com/WasmEdge/WasmEdge
+    twitter: https://twitter.com/realwasmedge
+Serverless:
+  Framework:
+  - crunchbase: https://www.crunchbase.com/organization/webiny
+    homepage_url: https://www.webiny.com
+    item: null
+    logo: webiny.svg
+    name: Webiny
+    repo_url: https://github.com/webiny/webiny-js
+  Hosted Platform: []
+  Installable Platform: []
+  Security: []
+  Tools: []
+Special:
+  Certified CNFs: []
+  Kubernetes Certified Service Provider:
+  - crunchbase: https://www.crunchbase.com/organization/weaveworks
+    description: Weaveworks makes it fast and simple for developers and DevOps teams
+      to build and operate powerful containerized applications using Kubernetes. We
+      provide training,  tools and services to help teams to operate cloud native
+      applications in production.
+    homepage_url: https://www.weave.works/
+    item: null
+    logo: weaveworks.svg
+    name: Weaveworks (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/wescale-a110
+    description: Build your Kubernetes architectures with Cloud Native Experts.
+    homepage_url: https://www.wescale.fr/
+    item: null
+    logo: wescale.svg
+    name: WeScale (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/whatap-labs
+    description: Whatap Labs provides SaaS-based Kubernetes, APM ,DB monitoring and
+      support application optimization in Kubernetes.
+    homepage_url: https://www.whatap.io/en/container-monitoring/kubernetes/
+    item: null
+    logo: whatap-labs.svg
+    name: WhaTap (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/whizus-gmbh
+    description: As Enterprise Kubernetes Consultants, we support you to build up
+      your Kubernetes cluster in your chosen environment according to your needs.
+    homepage_url: https://www.whizus.com/
+    item: null
+    logo: whizus.svg
+    name: WhizUs (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/wise2c-technology-co
+    description: Using Kubernetes to providing IT continuous delivery and Enterprise
+      grade container management solution to Financial Industry.
+    homepage_url: http://www.wise2c.com/
+    item: null
+    logo: wise2-c-kcsp.svg
+    name: Wise2C (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/china-unicom
+    description: China Unicom Cloud & Data Co. LTD supplies cloud platform setup,
+      service setup consulting, and technical support.
+    homepage_url: http://www.chinaunicom.com.cn
+    item: null
+    logo: wocloud.svg
+    name: WoCloud (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/woqu-technology-co-ltd
+    description: WOQU Tech provides best practices and services for relational and
+      non-relational database clusters in Kubernetes infrastructure.
+    homepage_url: http://www.woqutech.com/k8s.php
+    item: null
+    logo: woqutech.svg
+    name: WOQU Tech (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/wso2
+    homepage_url: https://wso2.com/strategic-consulting/cloud-native-strategy/
+    item: null
+    logo: wso2-member.svg
+    name: WSO2 (KCSP)
+  Kubernetes Training Partner:
+  - crunchbase: https://www.crunchbase.com/organization/whizus-gmbh
+    description: As Enterprise Kubernetes Consultants, we support you to build up
+      your Kubernetes cluster in your chosen environment according to your needs.
+    homepage_url: https://www.whizus.com/
+    item: null
+    logo: whizus.svg
+    name: WhizUs (KTP)
+Wasm:
+  Debugging and Observability: []
+  Installable Platform: []
+  Packaging, Registries & Application Delivery: []
+  Runtime:
+  - allow_duplicate_repo: true
+    crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      chat_channel: '#WasmEdge'
+      slack_url: https://cloud-native.slack.com/
+    homepage_url: https://wasmedge.org/
+    item: null
+    logo: wasm-edge.svg
+    name: WasmEdge
+    repo_url: https://github.com/WasmEdge/WasmEdge
+  - crunchbase: https://www.crunchbase.com/organization/wasmer
+    homepage_url: https://wasmer.io
+    item: null
+    logo: wasmer.svg
+    name: Wasmer
+    repo_url: https://github.com/wasmerio/wasmer
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    homepage_url: https://wavm.github.io
+    item: null
+    logo: wasm.svg
+    name: WAVM
+    repo_url: https://github.com/WAVM/WAVM
+  Specifications:
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    homepage_url: https://wasi.dev
+    item: null
+    logo: wasm.svg
+    name: WASI
+    repo_url: https://github.com/WebAssembly/WASI
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    homepage_url: https://webassembly.org
+    item: null
+    logo: wasm.svg
+    name: Wasm
+    repo_url: https://github.com/WebAssembly/spec
+  Toolchain:
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    homepage_url: https://wapc.io/
+    item: null
+    logo: wapc.svg
+    name: WaPC
+    repo_url: https://github.com/wapc/wapc-js

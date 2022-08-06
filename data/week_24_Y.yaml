@@ -1,0 +1,108 @@
+App Definition and Development:
+  Application Definition & Image Build: []
+  Continuous Integration & Delivery: []
+  Database:
+  - crunchbase: https://www.crunchbase.com/organization/yellowbrick-data
+    description: Yellowbrick offers a SQL data warehouse built from the ground up
+      on Kubernetes.
+    homepage_url: https://www.yellowbrick.com/
+    item: null
+    logo: yellowbrick.svg
+    name: Yellowbrick
+  - crunchbase: https://www.crunchbase.com/organization/yugabyte
+    homepage_url: https://www.yugabyte.com/yugabytedb/
+    item: null
+    logo: yugabyte.svg
+    name: YugaByte DB
+    repo_url: https://github.com/YugaByte/yugabyte-db
+  Streaming & Messaging: []
+CNCF Members:
+  Academic: []
+  End User Supporter:
+  - crunchbase: https://www.crunchbase.com/organization/yahoo
+    homepage_url: https://www.yahoo.com/
+    item: null
+    joined: '2021-11-18'
+    logo: yahoo.svg
+    name: Yahoo (supporter)
+  Gold: []
+  Nonprofit: []
+  Platinum: []
+  Silver:
+  - crunchbase: https://www.crunchbase.com/organization/yahoo-japan
+    enduser: true
+    homepage_url: https://www.yahoo.co.jp
+    item: null
+    logo: yahoo-japan-corporation-member.svg
+    name: Yahoo Japan Corporation (member)
+  - crunchbase: https://www.crunchbase.com/organization/yellowbrick-data
+    homepage_url: https://www.yellowbrick.com/
+    item: null
+    logo: yellowbrick.svg
+    name: Yellowbrick (member)
+  - crunchbase: https://www.crunchbase.com/organization/yld
+    homepage_url: https://www.yld.io
+    item: null
+    logo: yld-member.svg
+    name: YLD (member)
+Observability and Analysis:
+  Chaos Engineering: []
+  Continuous Optimization: []
+  Logging: []
+  Monitoring: []
+  Tracing: []
+Orchestration & Management:
+  API Gateway: []
+  Coordination & Service Discovery: []
+  Remote Procedure Call: []
+  Scheduling & Orchestration: []
+  Service Mesh: []
+  Service Proxy: []
+Platform:
+  Certified Kubernetes - Distribution: []
+  Certified Kubernetes - Hosted: []
+  Certified Kubernetes - Installer: []
+  PaaS/Container Service:
+  - crunchbase: https://www.crunchbase.com/organization/yellowdog
+    homepage_url: https://yellowdog.co/
+    item: null
+    logo: yellowdog.svg
+    name: YellowDog
+Provisioning:
+  Automation & Configuration: []
+  Container Registry: []
+  Key Management: []
+  Security & Compliance: []
+Runtime:
+  Cloud Native Network: []
+  Cloud Native Storage:
+  - crunchbase: https://www.crunchbase.com/organization/yanrong
+    homepage_url: http://www.yanrongyun.com/solution/k8s-storage
+    item: null
+    logo: yanrong.svg
+    name: YRCloudFile
+  Container Runtime: []
+Serverless:
+  Framework: []
+  Hosted Platform: []
+  Installable Platform: []
+  Security: []
+  Tools: []
+Special:
+  Certified CNFs: []
+  Kubernetes Certified Service Provider:
+  - crunchbase: https://www.crunchbase.com/organization/yld
+    description: We modernise both practices and software. Applying expertise in a
+      range of CNCF technologies and an inherent culture of innovation.
+    homepage_url: https://www.yld.io/speciality/kubernetes/
+    item: null
+    logo: yld-kcsp.svg
+    name: YLD (KCSP)
+  Kubernetes Training Partner: []
+Wasm:
+  Debugging and Observability: []
+  Installable Platform: []
+  Packaging, Registries & Application Delivery: []
+  Runtime: []
+  Specifications: []
+  Toolchain: []

@@ -1,0 +1,475 @@
+App Definition and Development:
+  Application Definition & Image Build: []
+  Continuous Integration & Delivery: []
+  Database:
+  - crunchbase: https://www.crunchbase.com/organization/ibm
+    description: "IBM Db2\xAE is a family of hybrid data management products offering\
+      \ a complete suite of AI empowered capabilities designed to help you manage\
+      \ both structured and unstructured data on premises as well as in private and\
+      \ public cloud environments. Db2 is built on an intelligent common SQL engine\
+      \ designed for scalability and flexibility."
+    homepage_url: https://www.ibm.com/analytics/db2
+    item: null
+    logo: ibmdb2.svg
+    name: IBM Db2
+    twitter: https://twitter.com/IBMData
+  - crunchbase: https://www.crunchbase.com/organization/red-hat
+    homepage_url: https://infinispan.org/
+    item: null
+    logo: infinispan.svg
+    name: Infinispan
+    repo_url: https://github.com/infinispan/infinispan
+    twitter: https://twitter.com/infinispan
+  - crunchbase: https://www.crunchbase.com/organization/intersystems-2
+    homepage_url: https://www.intersystems.com/products/intersystems-iris/
+    item: null
+    logo: intersystemsiris.svg
+    name: InterSystems IRIS Data Platform
+    twitter: https://twitter.com/intersystems
+  Streaming & Messaging: []
+CNCF Members:
+  Academic: []
+  End User Supporter: []
+  Gold:
+  - crunchbase: https://www.crunchbase.com/organization/inspur
+    homepage_url: https://en.inspur.com
+    item: null
+    logo: inspur.svg
+    name: Inspur (member)
+  - crunchbase: https://www.crunchbase.com/organization/intuit
+    enduser: true
+    homepage_url: https://www.intuit.com
+    item: null
+    logo: intuit-member.svg
+    name: Intuit (member)
+  Nonprofit: []
+  Platinum:
+  - crunchbase: https://www.crunchbase.com/organization/ibm
+    homepage_url: https://www.ibm.com/cloud
+    item: null
+    logo: ibm.svg
+    name: IBM (member)
+    twitter: https://twitter.com/IBMcloud
+  - crunchbase: https://www.crunchbase.com/organization/intel
+    homepage_url: https://www.intel.com/content/www/us/en/homepage.html
+    item: null
+    logo: intel.svg
+    name: Intel (member)
+  Silver:
+  - crunchbase: https://www.crunchbase.com/organization/ignw
+    homepage_url: https://www.ignw.io/
+    item: null
+    logo: ignw.svg
+    name: IGNW (member)
+  - crunchbase: https://www.crunchbase.com/organization/iguaz-io
+    homepage_url: https://www.iguazio.com
+    item: null
+    logo: iguazio.svg
+    name: Iguazio (member)
+  - crunchbase: https://www.crunchbase.com/organization/iits-consulting
+    homepage_url: https://iits-consulting.de
+    item: null
+    logo: iits-consulting.svg
+    name: IITS Consulting (member)
+  - crunchbase: https://www.crunchbase.com/organization/ilki
+    homepage_url: https://www.ilki.fr/
+    item: null
+    logo: ilki-member.svg
+    name: Ilki (member)
+  - crunchbase: https://www.crunchbase.com/organization/indeed
+    enduser: true
+    homepage_url: https://hk.indeed.com
+    item: null
+    logo: indeed-member.svg
+    name: Indeed (member)
+  - crunchbase: https://www.crunchbase.com/organization/infinyon
+    homepage_url: https://www.infinyon.com/
+    item: null
+    logo: infinyon.svg
+    name: Infinyon (member)
+  - crunchbase: https://www.crunchbase.com/organization/influxdb
+    homepage_url: https://www.influxdata.com
+    item: null
+    logo: influxdata.svg
+    name: InfluxData (member)
+  - crunchbase: https://www.crunchbase.com/organization/infoblox
+    homepage_url: https://www.infoblox.com
+    item: null
+    logo: Infoblox.svg
+    name: Infoblox (member)
+  - crunchbase: https://www.crunchbase.com/organization/infosys
+    homepage_url: https://www.infosys.com
+    item: null
+    logo: infosys.svg
+    name: Infosys (member)
+  - crunchbase: https://www.crunchbase.com/organization/infracloud-technologies
+    homepage_url: https://www.infracloud.io
+    item: null
+    logo: infra-cloud-technologies-member.svg
+    name: InfraCloud Technologies (member)
+  - crunchbase: https://www.crunchbase.com/organization/inigo-a1d0
+    homepage_url: https://inigo.io/
+    item: null
+    logo: inigo.svg
+    name: Inigo (member)
+  - crunchbase: https://www.crunchbase.com/organization/innablr
+    homepage_url: https://www.innablr.com.au/
+    item: null
+    logo: innablr.svg
+    name: Innablr (member)
+  - crunchbase: https://www.crunchbase.com/organization/innogrid
+    homepage_url: https://www.innogrid.com/
+    item: null
+    logo: innogrid.svg
+    name: Innogrid (member)
+  - crunchbase: https://www.crunchbase.com/organization/inovex
+    homepage_url: https://www.inovex.de/de/
+    item: null
+    logo: inovex-member.svg
+    name: Inovex (member)
+  - crunchbase: https://www.crunchbase.com/organization/instaclustr
+    homepage_url: https://www.instaclustr.com/
+    item: null
+    logo: instaclustr.svg
+    name: Instaclustr (member)
+  - crunchbase: https://www.crunchbase.com/organization/instana
+    homepage_url: https://www.instana.com
+    item: null
+    logo: instana.svg
+    name: Instana (member)
+  - crunchbase: https://www.crunchbase.com/organization/intercloud
+    homepage_url: https://www.intercloud.com/
+    item: null
+    logo: intercloud.svg
+    name: Intercloud (member)
+  - crunchbase: https://www.crunchbase.com/organization/intuitive-technology-partners
+    homepage_url: https://www.intuitive.cloud
+    item: null
+    logo: intuitive-technology-partners.svg
+    name: Intuitive Technology Partners (member)
+  - crunchbase: https://www.crunchbase.com/organization/smartx
+    homepage_url: https://iomesh.com/
+    item: null
+    logo: iomesh.svg
+    name: IOMesh (member)
+  - crunchbase: https://www.crunchbase.com/organization/covalent-io
+    homepage_url: https://isovalent.com/
+    item: null
+    logo: isovalent.svg
+    name: Isovalent (member)
+  - crunchbase: https://www.crunchbase.com/organization/itera-technologies-a-s
+    homepage_url: https://www.itera.io/
+    item: null
+    logo: itera.svg
+    name: Itera (member)
+  - crunchbase: https://www.crunchbase.com/organization/itrenew
+    homepage_url: https://www.itrenew.com/
+    item: null
+    logo: itrenew.svg
+    name: ITRenew (member)
+Observability and Analysis:
+  Chaos Engineering: []
+  Continuous Optimization:
+  - crunchbase: https://www.crunchbase.com/organization/infracost
+    description: "Infracost shows engineers how their code changes will impact cloud\
+      \ costs. It does this by sitting in the CI/CD workflow and on changing IaC code,\
+      \ leaves a comment like \u201CThis change will increase your next month bill\
+      \ by 20%\u201D with a detailed breakdown of resources changed and their cost."
+    homepage_url: https://www.infracost.io/
+    item: null
+    logo: infracost.svg
+    name: Infracost
+    repo_url: https://github.com/infracost/infracost
+  Logging: []
+  Monitoring:
+  - crunchbase: https://www.crunchbase.com/organization/icinga
+    homepage_url: https://icinga.com/
+    item: null
+    logo: icinga.svg
+    name: Icinga
+    repo_url: https://github.com/Icinga/icinga2
+  - crunchbase: https://www.crunchbase.com/organization/influxdb
+    homepage_url: https://www.influxdata.com/
+    item: null
+    logo: influxdata.svg
+    name: InfluxData
+    repo_url: https://github.com/influxdata/influxdb
+  - crunchbase: https://www.crunchbase.com/organization/instana
+    homepage_url: https://www.instana.com/
+    item: null
+    logo: instana.svg
+    name: Instana
+  - crunchbase: https://www.crunchbase.com/organization/circonus
+    homepage_url: https://www.circonus.com
+    item: null
+    logo: irondb.svg
+    name: IronDB
+  Tracing: []
+Orchestration & Management:
+  API Gateway: []
+  Coordination & Service Discovery: []
+  Remote Procedure Call: []
+  Scheduling & Orchestration: []
+  Service Mesh:
+  - crunchbase: https://www.crunchbase.com/organization/google
+    homepage_url: https://istio.io/
+    item: null
+    logo: istio.svg
+    name: Istio
+    repo_url: https://github.com/istio/istio
+    twitter: https://twitter.com/IstioMesh
+  Service Proxy:
+  - crunchbase: https://www.crunchbase.com/organization/openfaas
+    homepage_url: https://docs.inlets.dev
+    item: null
+    logo: inlets.svg
+    name: Inlets
+    repo_url: https://github.com/inlets/inlets-pro
+    twitter: https://twitter.com/inletsdev
+Platform:
+  Certified Kubernetes - Distribution:
+  - crunchbase: https://www.crunchbase.com/organization/inspur
+    description: AIStation Training Platform, an AI development platform, provides
+      container deployment and efficient distributed training. It enables unified
+      management, scheduling and monitoring of CPU and GPU resources of the cluster
+      and effectively raise utilization of computation resources and productivity.
+    homepage_url: https://www.inspur.com/lcjtww/2526894/2526897/2526901/2527103/index.html
+    item: null
+    logo: inspur.svg
+    name: Inspur AIStation Training Platform
+  - crunchbase: https://www.crunchbase.com/organization/intel
+    description: "Intel\xAE Smart Edge Open is an edge computing software toolkit\
+      \ for building platforms optimized for the edge solutions that host network\
+      \ functions alongside AI, media processing, and security workloads with reference\
+      \ solutions optimized for common use cases powered by a Certified Kubernetes\
+      \ cloud native stack."
+    homepage_url: https://www.intel.com/content/www/us/en/developer/tools/smart-edge-open/overview.html
+    item: null
+    logo: intel-smart-edge-open.svg
+    name: Intel Smart Edge Open
+    repo_url: https://github.com/smart-edge-open/open-developer-experience-kits
+    twitter: https://twitter.com/intelsoftware
+  Certified Kubernetes - Hosted:
+  - crunchbase: https://www.crunchbase.com/organization/ibm
+    description: IBM Cloud Kubernetes Service is a managed offering to create your
+      own Kubernetes cluster of compute hosts to deploy and manage containerized apps
+      on IBM Cloud.
+    homepage_url: https://www.ibm.com/cloud/kubernetes-service
+    item: null
+    logo: ibm-kubernetes.svg
+    name: IBM Cloud Kubernetes Service
+    twitter: https://twitter.com/IBMcloud
+  - crunchbase: https://www.crunchbase.com/organization/inspur
+    description: "InCloud OS, offering full lifecycle management services, is an application-centric\
+      \ platform which provides a High-available managed environment to simplify the\
+      \ CI/CD, Deployment, Container Orchestration\uFF0CServiceMesh\uFF0Cscheduling\
+      \ and scaling of containerized applications."
+    homepage_url: https://www.inspur.com/lcjtww/2527835/2527836/2527854/index.html
+    item: null
+    logo: incloudos.svg
+    name: InCloud OS
+  - crunchbase: https://www.crunchbase.com/organization/inspur
+    description: Inspur Cloud Container Engine and Inpsur Open Platform is an application-oriented
+      container management platform based on amd64 architecture. It provides complete
+      Kubernetes clustering capabilities, helping users to quickly deploy flexible
+      and reliable container clusters, easily create and manage container workloads,
+      and provide automatic scaling and resource monitoring. Efficient operation and
+      maintenance capabilities such as log collection and retrieval.
+    homepage_url: https://cloud.inspur.com/product/UK8S/
+    item: null
+    logo: inspur.svg
+    name: Inspur Cloud Container Engine and Inspur Open Platform
+  - crunchbase: https://www.crunchbase.com/organization/inspur
+    description: Inspur Open Platform for ARM is an application-oriented container
+      management platform based on arm64 architecture. It provides complete Kubernetes
+      clustering capabilities, helping users to quickly deploy flexible and reliable
+      container clusters, easily create and manage container workloads, and provide
+      automatic scaling and resource monitoring. Efficient operation and maintenance
+      capabilities such as log collection and retrieval.
+    homepage_url: https://cloud.inspur.com/product/UK8S/
+    item: null
+    logo: inspur.svg
+    name: Inspur Open Platform for ARM
+  - crunchbase: https://www.crunchbase.com/organization/ebaotech
+    description: InsureMO is a cloud native PAAS platform for insurance industry based
+      on containerization and Kubernetes technology. It provides a repository of insurance
+      products covering a wide range of standard products worldwide; and rich micro
+      services and reusable APIs related to general insurance, life insurance and
+      health insurance.
+    homepage_url: https://portal.insuremo.com/
+    item: null
+    logo: insuremo.svg
+    name: InsureMO
+  - crunchbase: https://www.crunchbase.com/organization/kinx
+    description: A quick and easy process to start a Kubernetes cluster in IXcloud.
+    homepage_url: https://www.kinx.net/service/cloud/kubernetes/intro/?lang=en
+    item: null
+    logo: ixcloud.svg
+    name: IXcloud Kubernetes Service
+  Certified Kubernetes - Installer: []
+  PaaS/Container Service: []
+Provisioning:
+  Automation & Configuration: []
+  Container Registry:
+  - crunchbase: https://www.crunchbase.com/organization/ibm
+    description: Detect vulnerabilities before images are ever deployed to containers.
+      Store and distribute Docker images in your managed private registry.
+    homepage_url: https://www.ibm.com/cloud/container-registry
+    item: null
+    logo: ibm-cloud-container-registry.svg
+    name: IBM Cloud Container Registry
+    twitter: https://twitter.com/IBMCloud
+  Key Management: []
+  Security & Compliance: []
+Runtime:
+  Cloud Native Network:
+  - crunchbase: https://www.crunchbase.com/organization/covalent-io
+    homepage_url: https://isovalent.com/
+    item: null
+    logo: isovalent.svg
+    name: Isovalent
+  Cloud Native Storage:
+  - crunchbase: https://www.crunchbase.com/organization/ibm
+    description: IBM Storage for containers, Kubernetes, and Red Hat OpenShift delivers
+      native cloud acceleration to help you build powerful, agile, and persistent
+      storage for private cloud environments.
+    homepage_url: https://www.ibm.com/storage/containers
+    item: null
+    logo: ibm-storage.svg
+    name: IBM Storage
+    twitter: https://twitter.com/IBMStorage
+  - crunchbase: https://www.crunchbase.com/organization/infinidat
+    homepage_url: https://www.infinidat.com/en
+    item: null
+    logo: infinidat.svg
+    name: INFINIDAT
+  - crunchbase: https://www.crunchbase.com/organization/inspur
+    description: Cloud + AI, operate new massive data operations.
+    homepage_url: https://en.inspur.com/en/storage
+    item: null
+    logo: inspur.svg
+    name: Inspur Storage
+  - crunchbase: https://www.crunchbase.com/organization/smartx
+    description: IOMesh is an individual product brand of SmartX, a cloud-native storage
+      system with extreme performance and strong reliability. It advances Kubernetes
+      infrastructure to support the most demanding stateful applications and data
+      services.
+    homepage_url: https://iomesh.com/
+    item: null
+    logo: iomesh.svg
+    name: IOMesh
+  - crunchbase: https://www.crunchbase.com/organization/ionir
+    description: Ionir Liberates Your Applications from Clouds
+    homepage_url: https://ionir.com
+    item: null
+    logo: ionir.svg
+    name: Ionir
+  Container Runtime:
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      accepted: '2021-09-14'
+      dev_stats_url: https://inclavarecontainers.devstats.cncf.io/
+      slack_url: https://cloud-native.slack.com/archives/C02HJJ81BD5
+    homepage_url: https://inclavare-containers.io/
+    item: null
+    logo: inclavare.svg
+    name: Inclavare Containers
+    project: sandbox
+    repo_url: https://github.com/inclavare-containers/inclavare-containers
+Serverless:
+  Framework: []
+  Hosted Platform:
+  - crunchbase: https://www.crunchbase.com/organization/ibm
+    description: Host all your Cloud Native applications in one platform. You'll get
+      all the benefits of serverless (no servers, auto-scaling) along with batch processing
+      and only pay for what you use.
+    homepage_url: https://cloud.ibm.com/login
+    item: null
+    logo: ibmcloud-codeengine.svg
+    name: IBM Cloud Code Engine
+    twitter: https://twitter.com/IBMcloud
+  - crunchbase: https://www.crunchbase.com/organization/ibm
+    description: Run your application code without servers, scale it automatically,
+      and pay nothing when it's not in use.
+    homepage_url: https://cloud.ibm.com/functions/
+    item: null
+    logo: ibmcloud-functions.svg
+    name: IBM Cloud Functions
+    twitter: https://twitter.com/IBMcloud
+  Installable Platform: []
+  Security: []
+  Tools: []
+Special:
+  Certified CNFs: []
+  Kubernetes Certified Service Provider:
+  - crunchbase: https://www.crunchbase.com/organization/ibm
+    description: IBM Cloud provides Kubernetes services including training, consulting,
+      support, and development on our Kubernetes Service delivering an intuitive user
+      experience, and built-in security and isolation to enable rapid delivery of
+      applications all while empowered by a full stack cloud platform including data,
+      containers, AI, IoT, and blockchain. Get started today through our on-boarding
+      resources and industry expertise.
+    homepage_url: https://www.ibm.com/cloud/kubernetes-service
+    item: null
+    logo: ibm.svg
+    name: IBM Cloud (KCSP)
+    twitter: https://twitter.com/IBMcloud
+  - crunchbase: https://www.crunchbase.com/organization/iits-consulting
+    description: We are experts in Kubernetes architecture, implementation, security,
+      GitOps and developing Kubernetes-conformant microservices.
+    homepage_url: https://iits-consulting.de/kubernetes/
+    item: null
+    logo: iits-consulting.svg
+    name: IITS Consulting (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/infracloud-technologies
+    description: InfraCloud Technologies provides product engineering and consulting
+      services in Kubernetes and cloud native technologies.
+    homepage_url: https://www.infracloud.io/
+    item: null
+    logo: infracloud.svg
+    name: InfraCloud Technologies (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/innablr
+    description: Accelerate your innovation projects with our modular and scalable
+      Kubernetes adoption framework. Start small & fast and scale for the future.
+    homepage_url: https://innablr.com.au/
+    item: null
+    logo: innablr.svg
+    name: Innablr (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/innogrid
+    description: 'Innogrid provides the consulting and technical support related to
+      K8s, especially for an optimized migration for customers'' environment. '
+    homepage_url: https://www.innogrid.com/kcsp_secloudit
+    item: null
+    logo: innogrid.svg
+    name: Innogrid (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/inspur
+    description: Inspur Cloud provides you with one-stop services from consulting
+      to operation and maintenance. With cloud delivery capabilities throughout the
+      whole service chain, we provide six kinds of professional services including
+      resource planning, cloud solution, security assurance, business migration, data
+      integration and application innovation.
+    homepage_url: https://cloud.inspur.com/snipet/1023.html
+    item: null
+    logo: inspur.svg
+    name: Inspur (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/intuitive-technology-partners
+    description: Intuitive is a Cloud Engineering company with extensive expertise
+      on Kubernetes, container security, GitOps and other cloud native ecosystem platforms
+      with Global Centers of Excellence helping customers 24x7x365.
+    homepage_url: https://solutions.intuitive.cloud/containers-on-aws
+    item: null
+    logo: intuitive-technology-partners.svg
+    name: Intuitive Technology Partners (KCSP)
+  Kubernetes Training Partner:
+  - crunchbase: https://www.crunchbase.com/organization/inspur
+    homepage_url: https://en.inspur.com
+    item: null
+    logo: inspur.svg
+    name: INSPUR (KTP)
+Wasm:
+  Debugging and Observability: []
+  Installable Platform: []
+  Packaging, Registries & Application Delivery: []
+  Runtime: []
+  Specifications: []
+  Toolchain: []

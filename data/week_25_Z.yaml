@@ -1,0 +1,169 @@
+App Definition and Development:
+  Application Definition & Image Build: []
+  Continuous Integration & Delivery: []
+  Database: []
+  Streaming & Messaging: []
+CNCF Members:
+  Academic: []
+  End User Supporter:
+  - crunchbase: https://www.crunchbase.com/organization/zalando
+    homepage_url: https://www.zalando.de/
+    item: null
+    logo: zalando-supporter.svg
+    name: Zalando (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/zendesk
+    homepage_url: https://www.zendesk.com/
+    item: null
+    logo: zendesk-supporter.svg
+    name: Zendesk (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/zuora
+    homepage_url: https://www.zuora.com/
+    item: null
+    logo: zuora.svg
+    name: Zuora (supporter)
+  Gold:
+  - crunchbase: https://www.crunchbase.com/organization/zte-corporation
+    homepage_url: https://www.zte.com.cn/global/
+    item: null
+    logo: zte-kcsp.svg
+    name: ZTE (member)
+  Nonprofit: []
+  Platinum: []
+  Silver:
+  - crunchbase: https://www.crunchbase.com/organization/zafin
+    enduser: true
+    homepage_url: https://zafin.com
+    item: null
+    joined: '2020-09-21'
+    logo: zafin.svg
+    name: Zafin (member)
+  - crunchbase: https://www.crunchbase.com/organization/zebrium
+    homepage_url: https://www.zebrium.com/
+    item: null
+    logo: zebrium.svg
+    name: Zebrium (member)
+  - crunchbase: https://www.crunchbase.com/organization/zededa
+    homepage_url: https://zededa.com/
+    item: null
+    logo: zededainc..svg
+    name: ZEDEDA, Inc. (member)
+  - crunchbase: https://www.crunchbase.com/organization/zelarsoft
+    homepage_url: https://www.zelarsoft.com/
+    item: null
+    logo: zelar.svg
+    name: Zelarsoft (member)
+  - crunchbase: https://www.crunchbase.com/organization/zenhub
+    enduser: true
+    homepage_url: https://www.zenhub.com/
+    item: null
+    logo: zenhub.svg
+    name: ZenHub (member)
+  - crunchbase: https://www.crunchbase.com/organization/zerto
+    homepage_url: https://www.zerto.com/
+    item: null
+    logo: zerto.svg
+    name: Zerto (member)
+  - crunchbase: https://www.crunchbase.com/organization/zoi-1e34
+    homepage_url: https://en.zoi.tech/
+    item: null
+    logo: zoi.svg
+    name: Zoi (member)
+Observability and Analysis:
+  Chaos Engineering: []
+  Continuous Optimization:
+  - crunchbase: https://www.crunchbase.com/organization/zesty-co
+    homepage_url: https://zesty.co/
+    item: null
+    logo: zesty.svg
+    name: Zesty
+  Logging: []
+  Monitoring:
+  - crunchbase: https://www.crunchbase.com/organization/zabbix
+    homepage_url: https://www.zabbix.com/
+    item: null
+    logo: zabbix.svg
+    name: Zabbix
+    repo_url: https://github.com/zabbix/zabbix
+  Tracing:
+  - crunchbase: https://www.crunchbase.com/organization/zipkin
+    homepage_url: https://zipkin.io/
+    item: null
+    logo: zipkin.svg
+    name: Zipkin
+    repo_url: https://github.com/openzipkin/zipkin
+    twitter: https://twitter.com/zipkinproject
+Orchestration & Management:
+  API Gateway: []
+  Coordination & Service Discovery: []
+  Remote Procedure Call: []
+  Scheduling & Orchestration: []
+  Service Mesh: []
+  Service Proxy: []
+Platform:
+  Certified Kubernetes - Distribution: []
+  Certified Kubernetes - Hosted:
+  - crunchbase: https://www.crunchbase.com/organization/zte-corporation
+    description: The TECS OpenPalette platform is a unified cloud platform oriented
+      to the ICT realm.
+    homepage_url: https://sdnfv.zte.com.cn/en/products
+    item: null
+    logo: zte-tecs.svg
+    name: ZTE TECS OpenPalette
+  Certified Kubernetes - Installer: []
+  PaaS/Container Service: []
+Provisioning:
+  Automation & Configuration: []
+  Container Registry: []
+  Key Management: []
+  Security & Compliance:
+  - crunchbase: https://www.crunchbase.com/organization/goto-metrics
+    homepage_url: https://www.zettaset.com/
+    item: null
+    logo: zettaset.svg
+    name: Zettaset
+Runtime:
+  Cloud Native Network: []
+  Cloud Native Storage:
+  - crunchbase: https://www.crunchbase.com/organization/scality
+    homepage_url: https://www.zenko.io
+    item: null
+    logo: zenko.svg
+    name: Zenko
+    repo_url: https://github.com/scality/zenko
+    twitter: https://twitter.com/zenko
+  Container Runtime: []
+Serverless:
+  Framework: []
+  Hosted Platform: []
+  Installable Platform: []
+  Security: []
+  Tools: []
+Special:
+  Certified CNFs: []
+  Kubernetes Certified Service Provider:
+  - crunchbase: https://www.crunchbase.com/organization/zoi-1e34
+    description: Zoi is a cloud-native IT consulting company that bridges the gap
+      between hidden champions and the latest cloud technology. We are a trusted partner
+      to manufacturing & retail companies in the DACH region, and together develop
+      & implement long-term digital strategies to help them remain competitive in
+      an increasingly digital world. As a KCSP partner, we have validated expertise
+      helping organisations successfully adopt Kubernetes. We offer Kubernetes support,
+      consulting, professional services and training for clients embarking on their
+      Kubernetes journey.
+    homepage_url: https://en.zoi.tech/kubernetes
+    item: null
+    logo: zoi.svg
+    name: Zoi (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/zte-corporation
+    homepage_url: https://sdnfv.zte.com.cn/en
+    item: null
+    logo: zte-kcsp.svg
+    name: ZTE (KCSP)
+  Kubernetes Training Partner: []
+Wasm:
+  Debugging and Observability: []
+  Installable Platform: []
+  Packaging, Registries & Application Delivery: []
+  Runtime: []
+  Specifications: []
+  Toolchain: []

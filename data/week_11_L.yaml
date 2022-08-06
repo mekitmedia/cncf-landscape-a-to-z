@@ -1,0 +1,352 @@
+App Definition and Development:
+  Application Definition & Image Build:
+  - crunchbase: https://www.crunchbase.com/organization/amazee-io
+    description: Build and Deploy System for OpenShift & Kubernetes
+    homepage_url: https://github.com/uselagoon/lagoon
+    item: null
+    logo: lagoon.svg
+    name: Lagoon
+    repo_url: https://github.com/uselagoon/lagoon
+  Continuous Integration & Delivery: []
+  Database: []
+  Streaming & Messaging:
+  - crunchbase: https://www.crunchbase.com/organization/typesafe
+    homepage_url: https://www.lightbend.com/
+    item: null
+    logo: lightbend.svg
+    name: Lightbend
+CNCF Members:
+  Academic: []
+  End User Supporter:
+  - crunchbase: https://www.crunchbase.com/organization/die-mobiliar
+    homepage_url: https://www.mobiliar.ch/
+    item: null
+    logo: la-mobiliere-supporter.svg
+    name: La Mobiliere (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/lowes
+    homepage_url: https://www.lowes.com/
+    item: null
+    logo: lowes.svg
+    name: Lowe's (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/lunar-bank
+    homepage_url: https://www.lunar.app/en/personal
+    item: null
+    logo: lunar.svg
+    name: Lunar (supporter)
+  Gold: []
+  Nonprofit: []
+  Platinum: []
+  Silver:
+  - crunchbase: https://www.crunchbase.com/organization/lablup
+    homepage_url: https://www.lablup.com/home
+    item: null
+    logo: lablup.svg
+    name: Lablup (member)
+  - crunchbase: https://www.crunchbase.com/organization/lacework
+    homepage_url: https://www.lacework.com
+    item: null
+    logo: lacework.svg
+    name: Lacework (member)
+  - crunchbase: https://www.crunchbase.com/organization/leanix
+    homepage_url: https://www.leanix.net/en/
+    item: null
+    logo: lean-ix-member.svg
+    name: LeanIX (member)
+  - crunchbase: https://www.crunchbase.com/organization/legit-security
+    homepage_url: https://www.legitsecurity.com/
+    item: null
+    logo: legit-security.svg
+    name: Legit Security (member)
+  - crunchbase: https://www.crunchbase.com/organization/typesafe
+    homepage_url: https://www.lightbend.com/
+    item: null
+    logo: lightbend.svg
+    name: Lightbend (member)
+  - crunchbase: https://www.crunchbase.com/organization/lightlytics
+    homepage_url: https://www.lightlytics.com/
+    item: null
+    logo: lightlytics.svg
+    name: Lightlytics (member)
+  - crunchbase: https://www.crunchbase.com/organization/lightrun
+    homepage_url: https://www.lightrun.com/
+    item: null
+    logo: lightrun.svg
+    name: Lightrun (member)
+  - crunchbase: https://www.crunchbase.com/organization/lightspin-technologies-ltd
+    homepage_url: https://www.lightspin.io/
+    item: null
+    logo: lightspin.svg
+    name: Lightspin (member)
+  - crunchbase: https://www.crunchbase.com/organization/lightstep
+    homepage_url: https://lightstep.com
+    item: null
+    logo: lightstep.svg
+    name: LightStep (member)
+  - crunchbase: https://www.crunchbase.com/organization/linbit
+    homepage_url: https://www.linbit.com
+    item: null
+    logo: linbit.svg
+    name: Linbit (member)
+  - crunchbase: https://www.crunchbase.com/organization/linklogis
+    homepage_url: https://www.linklogis.com.hk/
+    item: null
+    logo: linklogis.svg
+    name: Linklogis (member)
+  - crunchbase: https://www.crunchbase.com/organization/linode
+    homepage_url: https://www.linode.com
+    item: null
+    logo: linode.svg
+    name: Linode (member)
+  - crunchbase: https://www.crunchbase.com/organization/liquid-reply
+    homepage_url: https://www.reply.com/liquid-reply/en
+    item: null
+    logo: liquid-reply.svg
+    name: Liquid Reply (member)
+  - crunchbase: https://www.crunchbase.com/organization/lockheed-martin
+    enduser: true
+    homepage_url: https://www.lockheedmartin.com/
+    item: null
+    joined: '2022-02-14'
+    logo: lockheedmartin.svg
+    name: Lockheed Martin (member)
+  - crunchbase: https://www.crunchbase.com/organization/loft-labs
+    homepage_url: https://loft.sh
+    item: null
+    logo: loft-labs.svg
+    name: Loft Labs (member)
+  - crunchbase: https://www.crunchbase.com/organization/logiq
+    homepage_url: https://logiq.ai/
+    item: null
+    logo: logiq.svg
+    name: Logiq (member)
+  - crunchbase: https://www.crunchbase.com/organization/logz-io
+    homepage_url: https://logz.io/
+    item: null
+    logo: logz-io.svg
+    name: Logz.io (member)
+  - crunchbase: https://www.crunchbase.com/organization/lsd-open
+    homepage_url: https://lsdopen.io/
+    item: null
+    logo: LSD-OPEN.svg
+    name: LSD Open (member)
+  - crunchbase: https://www.crunchbase.com/organization/l-t-infotech
+    homepage_url: https://www.lntinfotech.com/
+    item: null
+    logo: larsen-toubro.svg
+    name: LTI (member)
+Observability and Analysis:
+  Chaos Engineering:
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      accepted: '2020-06-23'
+      dev_stats_url: https://litmuschaos.devstats.cncf.io/
+      slack_url: https://kubernetes.slack.com/messages/CNXNB0ZTN
+      youtube_url: https://www.youtube.com/channel/UCa57PMqmz_j0wnteRa9nCaw
+    homepage_url: https://litmuschaos.io/
+    item: null
+    logo: litmus.svg
+    name: Litmus
+    project: incubating
+    repo_url: https://github.com/litmuschaos/litmus
+    twitter: https://twitter.com/litmuschaos
+  Continuous Optimization: []
+  Logging:
+  - crunchbase: https://www.crunchbase.com/organization/netease-com
+    description: Loggie is a lightweight, high-performance, cloud-native log collection
+      agent and aggregator based on Golang.
+    homepage_url: https://loggie-io.github.io/
+    item: null
+    logo: loggie.svg
+    name: Loggie
+    repo_url: https://github.com/loggie-io/loggie
+  - crunchbase: https://www.crunchbase.com/organization/loggly
+    homepage_url: https://www.loggly.com/
+    item: null
+    logo: loggly.svg
+    name: Loggly
+  - crunchbase: https://www.crunchbase.com/organization/logiq
+    homepage_url: https://logiq.ai/
+    item: null
+    logo: logiq.svg
+    name: Logiq
+  - crunchbase: https://www.crunchbase.com/organization/elasticsearch
+    homepage_url: https://www.elastic.co/logstash
+    item: null
+    logo: logstash.svg
+    name: Logstash
+    repo_url: https://github.com/elastic/logstash
+  Monitoring:
+  - crunchbase: https://www.crunchbase.com/organization/leanix
+    description: "LeanIX Miroservice Intelligence (MI) is a SaaS solution for development\
+      \ teams. It automatically discover metadata from your DevOps toolchain and build\
+      \ a central microservice catalog to increase developer productivity and ensure\
+      \ software reliability.  You\u2019ll always know what\u2019s running where,\
+      \ who deployed it, and how it supports your business."
+    homepage_url: https://www.leanix.net/en/products/value-stream-management
+    item: null
+    logo: leanix.svg
+    name: LeanIX Microservice Intelligence (MI)
+    repo_url: null
+  - crunchbase: https://www.crunchbase.com/organization/logicmonitor
+    homepage_url: https://www.logicmonitor.com/
+    item: null
+    logo: logicmonitor.svg
+    name: LogicMonitor
+    twitter: https://twitter.com/logicmonitor
+  - crunchbase: https://www.crunchbase.com/organization/logz-io
+    homepage_url: https://logz.io/
+    item: null
+    logo: logz-io.svg
+    name: Logz.io
+  Tracing:
+  - crunchbase: https://www.crunchbase.com/organization/lightstep
+    homepage_url: https://lightstep.com/
+    item: null
+    logo: lightstep.svg
+    name: LightStep
+Orchestration & Management:
+  API Gateway: []
+  Coordination & Service Discovery: []
+  Remote Procedure Call: []
+  Scheduling & Orchestration: []
+  Service Mesh:
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      accepted: '2017-01-23'
+      artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#linkerd-logos
+      blog_url: https://blog.linkerd.io/
+      dev_stats_url: https://linkerd.devstats.cncf.io/
+      slack_url: https://slack.linkerd.io/
+      stack_overflow_url: https://stackoverflow.com/questions/tagged/linkerd
+      youtube_url: https://www.youtube.com/watch?v=wBgBwNZo_EE&list=PLI9FkLPXDscDB0gevkhEnyfgIfWF5yk4V
+    homepage_url: https://linkerd.io/
+    item: null
+    logo: linkerd.svg
+    name: Linkerd
+    project: graduated
+    repo_url: https://github.com/linkerd/linkerd2
+    twitter: https://twitter.com/linkerd
+  Service Proxy: []
+Platform:
+  Certified Kubernetes - Distribution: []
+  Certified Kubernetes - Hosted:
+  - crunchbase: https://www.crunchbase.com/organization/linode
+    description: Linode Kubernetes Engine is a fast and simple way to deploy, scale,
+      and manage Kubernetes clusters running on Linode's global infrastructure.
+    homepage_url: https://www.linode.com/products/kubernetes/
+    item: null
+    logo: linode.svg
+    name: Linode Kubernetes Engine
+  Certified Kubernetes - Installer: []
+  PaaS/Container Service: []
+Provisioning:
+  Automation & Configuration:
+  - crunchbase: https://www.crunchbase.com/organization/docker
+    homepage_url: https://github.com/linuxkit/linuxkit
+    item: null
+    logo: linux-kit.svg
+    name: LinuxKit
+    repo_url: https://github.com/linuxkit/linuxkit
+    twitter: https://twitter.com/moby
+  Container Registry: []
+  Key Management: []
+  Security & Compliance: []
+Runtime:
+  Cloud Native Network:
+  - crunchbase: https://www.crunchbase.com/organization/cisco
+    homepage_url: https://ligato.io/
+    item: null
+    logo: ligato.svg
+    name: Ligato
+    repo_url: https://github.com/ligato/vpp-agent
+  Cloud Native Storage:
+  - crunchbase: https://www.crunchbase.com/organization/linbit
+    description: High Performance Software-Defined Block Storage for container, cloud
+      and virtualisation. Fully integrated with Docker, Kubernetes, Openstack, Proxmox
+      etc.
+    homepage_url: https://www.linbit.com/linstor/
+    item: null
+    logo: linstor.svg
+    name: LINSTOR
+    repo_url: https://github.com/LINBIT/linstor-server
+    twitter: https://twitter.com/linbit
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      accepted: '2019-10-11'
+      artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#longhorn-logos
+      dev_stats_url: https://longhorn.devstats.cncf.io/
+    homepage_url: https://longhorn.io/
+    item: null
+    logo: longhorn.svg
+    name: Longhorn
+    project: incubating
+    repo_url: https://github.com/longhorn/longhorn
+  Container Runtime: []
+Serverless:
+  Framework:
+  - crunchbase: https://www.crunchbase.com/organization/ant-financial
+    homepage_url: https://mosn.io/layotto
+    item: null
+    logo: layotto.svg
+    name: Layotto
+    repo_url: https://github.com/mosn/layotto
+  Hosted Platform: []
+  Installable Platform: []
+  Security: []
+  Tools:
+  - crunchbase: https://www.crunchbase.com/organization/lumigo
+    homepage_url: https://lumigo.io/
+    item: null
+    logo: lumigo.svg
+    name: Lumigo
+    twitter: https://twitter.com/Lumigo
+Special:
+  Certified CNFs: []
+  Kubernetes Certified Service Provider:
+  - crunchbase: https://www.crunchbase.com/organization/linklogis
+    description: Linklogis Cloud provides customers with services around Kubernetes
+      including not only consulting, operations, technical support and training, but
+      also professional cloud native products.
+    homepage_url: https://cloud.linklogis.com/#/kubernetes
+    item: null
+    logo: linklogis.svg
+    name: Linklogis (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/liquid-reply
+    description: As Enterprise Kubernetes Consultants, we design and build your Kubernetes
+      cluster in the public cloud, on-prem, or multi/hybrid cloud environments according
+      to your needs.
+    homepage_url: https://www.reply.com/liquid-reply/en
+    item: null
+    logo: liquid-reply.svg
+    name: Liquid Reply (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/lsd-open
+    description: Fully managed and engineered cloud native accelerator, leveraging
+      a foundation of containerization, Kubernetes and open source technologies
+    homepage_url: https://lsdopen.io/kubernetes-services/
+    item: null
+    logo: LSD-OPEN.svg
+    name: LSD Open (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/l-t-infotech
+    description: Our Kubernetes-centric Professional services are designed to address
+      the key tenets and challenges with containerization and Kubernetes adoption
+      at scale.
+    homepage_url: https://www.lntinfotech.com/services/cloud/cloud-native/make-the-shift/
+    item: null
+    logo: larsen-toubro.svg
+    name: LTI (KCSP)
+  Kubernetes Training Partner:
+  - crunchbase: https://www.crunchbase.com/organization/liquid-reply
+    description: As Enterprise Kubernetes Consultants, we design and build your Kubernetes
+      cluster in the public cloud, on-prem, or multi/hybrid cloud environments according
+      to your needs.
+    homepage_url: https://www.reply.com/liquid-reply/en
+    item: null
+    logo: liquid-reply.svg
+    name: Liquid Reply (KTP)
+Wasm:
+  Debugging and Observability: []
+  Installable Platform: []
+  Packaging, Registries & Application Delivery: []
+  Runtime: []
+  Specifications: []
+  Toolchain: []

@@ -1,0 +1,1377 @@
+App Definition and Development:
+  Application Definition & Image Build:
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      accepted: '2020-07-14'
+      dev_stats_url: https://serverlessworkflow.devstats.cncf.io/
+    homepage_url: https://serverlessworkflow.github.io
+    item: null
+    logo: sws_logo.svg
+    name: Serverless Workflow
+    project: sandbox
+    repo_url: https://github.com/serverlessworkflow/specification
+    twitter: https://twitter.com/CNCFWorkflow
+  - crunchbase: https://www.crunchbase.com/organization/apache
+    homepage_url: https://servicecomb.apache.org
+    item: null
+    logo: servicecomb.svg
+    name: ServiceComb
+    repo_url: https://github.com/apache/servicecomb-java-chassis
+    twitter: https://twitter.com/ServiceComb
+  - crunchbase: https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf
+    homepage_url: https://shipwright.io
+    item: null
+    logo: shipwright.svg
+    name: Shipwright
+    repo_url: https://github.com/shipwright-io/community
+    twitter: https://twitter.com/shipwrightio
+  - crunchbase: https://www.crunchbase.com/organization/google
+    homepage_url: https://github.com/GoogleContainerTools/skaffold
+    item: null
+    logo: skaffold.svg
+    name: Skaffold
+    repo_url: https://github.com/GoogleContainerTools/skaffold
+    twitter: https://twitter.com/GCPcloud
+  - crunchbase: https://www.crunchbase.com/organization/solo-io
+    homepage_url: https://squash.solo.io/
+    item: null
+    logo: squash.svg
+    name: Squash
+    repo_url: https://github.com/solo-io/squash
+  Continuous Integration & Delivery:
+  - crunchbase: https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf
+    homepage_url: https://screwdriver.cd
+    item: null
+    logo: screwdriver.svg
+    name: Screwdriver
+    repo_url: https://github.com/screwdriver-cd/screwdriver
+    twitter: https://twitter.com/screwdrivercd
+  - crunchbase: https://www.crunchbase.com/organization/semaphore
+    homepage_url: https://semaphoreci.com/
+    item: null
+    logo: semaphore.svg
+    name: Semaphore
+  - crunchbase: https://www.crunchbase.com/organization/spacelift
+    description: Spacelift is a flexible management platform for Infrastructure as
+      Code. It helps customize your workflows, automate manual tasks, reduce number
+      of errors, improve security and auditability of your infrastructure.
+    homepage_url: https://spacelift.io
+    item: null
+    logo: spacelift.svg
+    name: Spacelift
+  - crunchbase: https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf
+    homepage_url: https://www.spinnaker.io/
+    item: null
+    logo: spinnaker.svg
+    name: Spinnaker
+    repo_url: https://github.com/spinnaker/spinnaker
+    twitter: https://twitter.com/spinnakerio
+  Database:
+  - crunchbase: https://www.crunchbase.com/organization/scalar
+    homepage_url: https://scalar-labs.com/
+    item: null
+    logo: scalardb.svg
+    name: Scalar DB
+    repo_url: https://github.com/scalar-labs/scalardb
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      accepted: '2020-11-10'
+      artwork_url: https://github.com/cncf/artwork/tree/master/projects/schemahero
+      dev_stats_url: https://schemahero.devstats.cncf.io/
+      slack_url: https://kubernetes.slack.com/messages/schemahero
+    homepage_url: https://schemahero.io
+    item: null
+    logo: schemahero.svg
+    name: SchemaHero
+    project: sandbox
+    repo_url: https://github.com/schemahero/schemahero
+  - crunchbase: https://www.crunchbase.com/organization/scylladb
+    homepage_url: https://www.scylladb.com/
+    item: null
+    logo: scylla.svg
+    name: Scylla
+    repo_url: https://github.com/scylladb/scylla
+    twitter: https://twitter.com/ScyllaDB
+  - crunchbase: https://www.crunchbase.com/organization/ant-financial
+    homepage_url: https://seata.io/en-us
+    item: null
+    logo: seata.svg
+    name: Seata
+    repo_url: https://github.com/seata/seata
+    twitter: https://twitter.com/seataio
+  - crunchbase: https://www.crunchbase.com/organization/apache
+    homepage_url: https://shardingsphere.apache.org/
+    item: null
+    logo: shardingsphere.svg
+    name: ShardingSphere
+    repo_url: https://github.com/apache/shardingsphere
+    twitter: https://twitter.com/ShardingSphere
+  - crunchbase: https://www.crunchbase.com/organization/memsql
+    homepage_url: https://www.singlestore.com/
+    item: null
+    logo: singlestore.svg
+    name: SingleStore
+    twitter: https://twitter.com/SingleStoreDB
+  - crunchbase: https://www.crunchbase.com/organization/snowflake-computing
+    homepage_url: https://www.snowflake.com/
+    item: null
+    logo: snowflake.svg
+    name: Snowflake
+  - crunchbase: https://www.crunchbase.com/organization/software-ag
+    description: With Adabas for LUW, you can deliver extremely high transaction speeds
+      with a fraction of the staff and system resources needed for comparable database
+      management systems.
+    homepage_url: https://www.softwareag.com/en_corporate/platform/adabas-natural/cloud-transformation.html
+    item: null
+    logo: software.svg
+    name: Software AG
+  - crunchbase: https://www.crunchbase.com/organization/sorint-lab
+    description: Cloud Native PostgreSQL High Availability
+    homepage_url: https://sorintoss.io/projects/
+    item: null
+    logo: stolon.svg
+    name: Stolon
+    repo_url: https://github.com/sorintlab/stolon
+    twitter: https://twitter.com/sorintlab
+  Streaming & Messaging:
+  - crunchbase: https://www.crunchbase.com/organization/apache
+    homepage_url: https://seatunnel.apache.org/
+    item: null
+    logo: seatunnel.svg
+    name: SeaTunnal
+    repo_url: https://github.com/apache/incubator-seatunnel
+    twitter: https://twitter.com/ASFSeaTunnel
+  - crunchbase: https://www.crunchbase.com/organization/wso2
+    homepage_url: https://siddhi.io/
+    item: null
+    logo: siddhi.svg
+    name: Siddhi
+    repo_url: https://github.com/siddhi-io/siddhi
+    twitter: https://twitter.com/siddhi_io
+    url_for_bestpractices: https://github.com/siddhi-io
+  - crunchbase: https://www.crunchbase.com/organization/streamsets
+    homepage_url: https://streamsets.com/
+    item: null
+    logo: streamsets.svg
+    name: StreamSets
+    repo_url: https://github.com/streamsets/datacollector
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      accepted: '2019-08-28'
+      artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#strimzi-logos
+      dev_stats_url: https://strimzi.teststats.cncf.io/
+      mailing_list_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#strimzi-logos
+      slack_url: https://cloud-native.slack.com/messages/strimzi
+    homepage_url: https://strimzi.io/
+    item: null
+    logo: strimzi.svg
+    name: Strimzi
+    project: sandbox
+    repo_url: https://github.com/strimzi/strimzi-kafka-operator
+    twitter: https://twitter.com/strimziio
+CNCF Members:
+  Academic:
+  - crunchbase: https://www.crunchbase.com/organization/strategic-education-inc
+    enduser: true
+    homepage_url: https://www.strategiceducation.com/home/default.aspx
+    item: null
+    logo: strategic-education.svg
+    name: Strategic Education (member)
+  - crunchbase: https://www.crunchbase.com/organization/zhejiang-university-of-technology
+    homepage_url: http://www.sel.zju.edu.cn/
+    item: null
+    logo: sw-engineering-lab-of-zhejiang-university-member.svg
+    name: SW Engineering Lab of Zhejiang University (member)
+  End User Supporter:
+  - crunchbase: https://www.crunchbase.com/organization/concur-technologies
+    homepage_url: https://www.concur.com/
+    item: null
+    logo: sap-concur-supporter.svg
+    name: SAP Concur (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/shopify
+    homepage_url: https://www.shopify.com/
+    item: null
+    logo: shopify-supporter.svg
+    name: Shopify (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/sky-betting-and-gaming
+    homepage_url: https://www.skybet.com/
+    item: null
+    logo: sky-bet.svg
+    name: Sky Betting & Gaming (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/skyline-network-technologies
+    homepage_url: https://www.skylinenet.net/
+    item: null
+    logo: skyline.svg
+    name: Skyline Technology Solutions (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/sncf
+    homepage_url: https://www.sncf.com/fr
+    item: null
+    logo: sncf.svg
+    name: SNCF (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/snow-software
+    homepage_url: https://www.snowsoftware.com
+    item: null
+    logo: snow-software.svg
+    name: Snow Software (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/sony-interactive-entertainment
+    homepage_url: https://www.sie.com/en/index.html
+    item: null
+    logo: sony-interactive-entertainment.svg
+    name: Sony Interactive Entertainment (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/springer-nature
+    homepage_url: https://www.springernature.com/gp
+    item: null
+    logo: springer-nature.svg
+    name: Springer Nature (supporter)
+  - crunchbase: https://www.crunchbase.com/organization/state-farm-insurance
+    homepage_url: https://www.statefarm.com/
+    item: null
+    logo: state-farm-supporter.svg
+    name: State Farm (supporter)
+  Gold:
+  - crunchbase: https://www.crunchbase.com/organization/salesforce
+    enduser: true
+    homepage_url: https://www.salesforce.com/uk
+    item: null
+    logo: salesforce.svg
+    name: Salesforce (member)
+  - crunchbase: https://www.crunchbase.com/organization/samsung-sds
+    homepage_url: https://www.samsungsds.com/us/index.html
+    item: null
+    logo: samsung-sds.svg
+    name: Samsung SDS (member)
+  - crunchbase: https://www.crunchbase.com/organization/shanghai-pudong-development-bank
+    enduser: true
+    homepage_url: https://www.spdb.com.cn/
+    item: null
+    logo: spd-bank.svg
+    name: SPD Bank (member)
+  - crunchbase: https://www.crunchbase.com/organization/splunk
+    homepage_url: https://www.splunk.com
+    item: null
+    logo: splunk.svg
+    name: Splunk (member)
+  Nonprofit:
+  - crunchbase: https://www.crunchbase.com/organization/sidi
+    homepage_url: https://www.sidi.org.br/en/
+    item: null
+    logo: sidi-campinas.svg
+    name: SiDi Campinas (member)
+  - crunchbase: https://www.crunchbase.com/organization/soujava
+    homepage_url: https://soujava.org.br/
+    item: null
+    logo: soujava.svg
+    name: SouJava (member)
+  Platinum:
+  - crunchbase: https://www.crunchbase.com/organization/sap
+    homepage_url: https://www.sap.com/index.html
+    item: null
+    logo: sap.svg
+    name: SAP (member)
+    twitter: https://twitter.com/sapcp
+  Silver:
+  - crunchbase: https://www.crunchbase.com/organization/saaras
+    homepage_url: https://getenroute.io/
+    item: null
+    logo: saaras.svg
+    name: Saaras (member)
+  - crunchbase: https://www.crunchbase.com/organization/saic
+    homepage_url: https://www.saic.com
+    item: null
+    logo: saic.svg
+    name: SAIC (member)
+  - crunchbase: https://www.crunchbase.com/organization/scaleflash
+    homepage_url: https://www.scaleflash.com/
+    item: null
+    logo: scaleflash.svg
+    name: Scaleflash (member)
+  - crunchbase: https://www.crunchbase.com/organization/scaleway
+    homepage_url: https://www.scaleway.com/en/
+    item: null
+    logo: scaleway-member.svg
+    name: Scaleway (member)
+  - crunchbase: https://www.crunchbase.com/organization/scality
+    homepage_url: https://www.scality.com
+    item: null
+    logo: scality-member.svg
+    name: Scality (member)
+  - crunchbase: https://www.crunchbase.com/organization/scarf-5901
+    homepage_url: https://about.scarf.sh
+    item: null
+    logo: scarf.svg
+    name: Scarf (member)
+  - crunchbase: https://www.crunchbase.com/organization/Scout-APM
+    homepage_url: https://www.scoutapm.com/
+    item: null
+    logo: scoutapm.svg
+    name: ScoutAPM (member)
+  - crunchbase: https://www.crunchbase.com/organization/scribe-security
+    homepage_url: https://www.scribesecurity.com/
+    item: null
+    logo: scribe-security.svg
+    name: Scribe Security (member)
+  - crunchbase: https://www.crunchbase.com/organization/seagate
+    homepage_url: https://www.seagate.com
+    item: null
+    logo: seagate.svg
+    name: Seagate (member)
+  - crunchbase: https://www.crunchbase.com/organization/searce
+    homepage_url: https://www.searce.com/
+    item: null
+    logo: searce.svg
+    name: Searce (member)
+  - crunchbase: https://www.crunchbase.com/organization/second-state
+    homepage_url: https://www.secondstate.io/
+    item: null
+    logo: second-state.svg
+    name: Second State (member)
+  - crunchbase: https://www.crunchbase.com/organization/section-io
+    homepage_url: https://www.section.io
+    item: null
+    logo: section-member.svg
+    name: Section (member)
+  - crunchbase: https://www.crunchbase.com/organization/seekret
+    homepage_url: https://www.seekret.io/
+    item: null
+    logo: seekret.svg
+    name: Seekret (member)
+  - crunchbase: https://www.crunchbase.com/organization/selector-software
+    homepage_url: https://www.selector.ai/
+    item: null
+    logo: selector.svg
+    name: Selector (member)
+  - crunchbase: https://www.crunchbase.com/organization/serverless
+    homepage_url: https://serverless.com
+    item: null
+    logo: serverless-member.svg
+    name: Serverless (member)
+  - crunchbase: https://www.crunchbase.com/organization/services4-it
+    homepage_url: https://www.services4-it.eu/index
+    item: null
+    logo: services4-it.svg
+    name: Services4-IT (member)
+  - crunchbase: https://www.crunchbase.com/organization/shinesoft-co-ltd
+    homepage_url: https://www.shinesoft.co.jp/
+    item: null
+    logo: shinesoft.svg
+    name: Shinesoft (member)
+  - crunchbase: https://www.crunchbase.com/organization/shipa-d4af
+    homepage_url: https://shipa.io/
+    item: null
+    logo: shipa.svg
+    name: Shipa (member)
+  - crunchbase: https://www.crunchbase.com/organization/shoreline-io
+    homepage_url: https://www.shoreline.io/
+    item: null
+    logo: shoreline.svg
+    name: Shoreline (member)
+  - crunchbase: https://www.crunchbase.com/organization/talos-systems-inc
+    homepage_url: https://www.sideroLabs.com
+    item: null
+    logo: sidero.svg
+    name: Sidero Labs (member)
+  - crunchbase: https://www.crunchbase.com/organization/sighup
+    homepage_url: https://sighup.io
+    item: null
+    logo: sighup-member.svg
+    name: SIGHUP (member)
+  - crunchbase: https://www.crunchbase.com/organization/memsql
+    homepage_url: https://www.singlestore.com/
+    item: null
+    logo: singlestore.svg
+    name: SingleStore (member)
+    twitter: https://twitter.com/SingleStoreDB
+  - crunchbase: https://www.crunchbase.com/organization/singularity-data
+    homepage_url: http://www.singularity-data.com/
+    item: null
+    logo: singularity-data.svg
+    name: Singularity Data (member)
+  - crunchbase: https://www.crunchbase.com/organization/skyloud
+    homepage_url: https://www.skyloud.fr/
+    item: null
+    logo: skyloud.svg
+    name: Skyloud (member)
+  - crunchbase: https://www.crunchbase.com/organization/slim-ai
+    homepage_url: https://www.slim.ai/
+    item: null
+    logo: slimai.svg
+    name: Slim.ai (member)
+  - crunchbase: https://www.crunchbase.com/organization/smallstep
+    homepage_url: https://www.smallstep.com/
+    item: null
+    logo: smallstep.svg
+    name: Smallstep (member)
+  - crunchbase: https://www.crunchbase.com/organization/smartiful
+    homepage_url: https://www.smartiful.jp/
+    item: null
+    logo: smartiful.svg
+    name: Smartiful (member)
+  - crunchbase: https://www.crunchbase.com/organization/snyk
+    homepage_url: https://snyk.io/
+    item: null
+    logo: snyk.svg
+    name: Snyk (member)
+  - crunchbase: https://www.crunchbase.com/organization/softax
+    homepage_url: https://www.softax.pl/en
+    item: null
+    logo: softax.svg
+    name: Softax (member)
+  - crunchbase: https://www.crunchbase.com/organization/softiron-2
+    homepage_url: https://softiron.com
+    item: null
+    logo: soft-iron-member.svg
+    name: SoftIron (member)
+  - crunchbase: https://www.crunchbase.com/organization/software-mind
+    homepage_url: https://softwaremind.com/
+    item: null
+    logo: software-mind.svg
+    name: Software Mind (member)
+    twitter: https://twitter.com/softwaremind?lang=en
+  - crunchbase: https://www.crunchbase.com/organization/sokube
+    homepage_url: https://en.sokube.ch/
+    item: null
+    logo: sokube.svg
+    name: SoKube (member)
+  - crunchbase: https://www.crunchbase.com/organization/solo-io
+    homepage_url: https://www.solo.io
+    item: null
+    logo: solo-io-member.svg
+    name: Solo.io (member)
+  - crunchbase: https://www.crunchbase.com/organization/sosivio
+    homepage_url: https://sosiv.io/
+    item: null
+    logo: sosivio.svg
+    name: Sosivio (member)
+  - crunchbase: https://www.crunchbase.com/organization/spacelift
+    homepage_url: https://www.spacelift.io/
+    item: null
+    logo: spacelift.svg
+    name: Spacelift (member)
+  - crunchbase: https://www.crunchbase.com/organization/sparkfabrik
+    homepage_url: https://www.sparkfabrik.com/it
+    item: null
+    logo: sparkfabrik.svg
+    name: SparkFabrik (member)
+  - crunchbase: https://www.crunchbase.com/organization/spectral-4f70
+    homepage_url: https://spectralops.io/
+    item: null
+    logo: spectral.svg
+    name: Spectral (member)
+  - crunchbase: https://www.crunchbase.com/organization/spectro-cloud
+    homepage_url: https://www.spectrocloud.com/
+    item: null
+    logo: spectro-cloud.svg
+    name: Spectro Cloud (member)
+  - crunchbase: https://www.crunchbase.com/organization/speedscale
+    homepage_url: https://www.speedscale.com/
+    item: null
+    logo: speedscale.svg
+    name: SpeedScale (member)
+  - crunchbase: https://www.crunchbase.com/organization/sphereex
+    homepage_url: https://www.sphere-ex.com/en/
+    item: null
+    logo: sphereex.svg
+    name: SphereEx (member)
+  - crunchbase: https://www.crunchbase.com/organization/spotify
+    enduser: true
+    homepage_url: https://open.spotify.com
+    item: null
+    logo: spotify-member.svg
+    name: Spotify (member)
+    twitter: https://twitter.com/SpotifyEng
+  - crunchbase: https://www.crunchbase.com/organization/spyderbat
+    homepage_url: https://www.spyderbat.com/
+    item: null
+    logo: spyderbat.svg
+    name: Spyderbat (member)
+  - crunchbase: https://www.crunchbase.com/organization/squarespace
+    enduser: true
+    homepage_url: https://www.squarespace.com
+    item: null
+    logo: squarespace-member.svg
+    name: Squarespace (member)
+  - crunchbase: https://www.crunchbase.com/organization/stackhawk
+    homepage_url: https://www.stackhawk.com/
+    item: null
+    logo: stackhawk.svg
+    name: StackHawk (member)
+  - crunchbase: https://www.crunchbase.com/organization/schwarz-dienstleistungen
+    homepage_url: https://www.stackit.de/de/
+    item: null
+    logo: stackit.svg
+    name: STACKIT (member)
+  - crunchbase: https://www.crunchbase.com/organization/stacklet
+    homepage_url: https://stacklet.io/
+    item: null
+    logo: stacklet.svg
+    name: Stacklet (member)
+  - crunchbase: https://www.crunchbase.com/organization/stark-wayne
+    homepage_url: https://starkandwayne.com/
+    item: null
+    logo: stark-and-wayne.svg
+    name: Stark & Wayne (member)
+  - crunchbase: https://www.crunchbase.com/organization/steamhaus
+    homepage_url: https://www.steamhaus.co.uk/
+    item: null
+    logo: steamhaus.svg
+    name: Steamhaus
+  - crunchbase: https://www.crunchbase.com/organization/storm-reply
+    homepage_url: https://reply.com/storm-reply/en/kubernetes
+    item: null
+    logo: storm-reply.svg
+    name: Storm Reply (member)
+  - crunchbase: https://www.crunchbase.com/organization/stormforge
+    homepage_url: https://www.stormforge.io
+    item: null
+    logo: stormforge.svg
+    name: StormForge (member)
+  - crunchbase: https://www.crunchbase.com/organization/storpool
+    homepage_url: https://www.storpool.com/
+    item: null
+    logo: storpool.svg
+    name: StorPool (member)
+  - crunchbase: https://www.crunchbase.com/organization/stratox
+    homepage_url: https://www.stratox.cz
+    item: null
+    logo: stratox.svg
+    name: Stratox (member)
+  - crunchbase: https://www.crunchbase.com/organization/streamnative
+    homepage_url: https://streamnative.io/
+    item: null
+    logo: streamnative.svg
+    name: StreamNative (member)
+  - crunchbase: https://www.crunchbase.com/organization/structsure
+    homepage_url: https://www.structsure.com/
+    item: null
+    logo: structsure.svg
+    name: Structsure (member)
+  - crunchbase: https://www.crunchbase.com/organization/styra
+    homepage_url: https://www.styra.com
+    item: null
+    logo: styra-member.svg
+    name: Styra (member)
+  - crunchbase: https://www.crunchbase.com/organization/successive-software
+    homepage_url: https://successive.tech/
+    item: null
+    logo: successive.svg
+    name: Successive Technologies (member)
+  - crunchbase: https://www.crunchbase.com/organization/sumo-logic
+    homepage_url: https://www.sumologic.com/
+    item: null
+    logo: sumologic.svg
+    name: Sumo Logic (member)
+  - crunchbase: https://www.crunchbase.com/organization/beijing-sup-info-information-technology-co-ltd
+    homepage_url: https://www.sup-info.com.cn/
+    item: null
+    logo: sup-info.svg
+    name: Sup-info Information Technology (member)
+  - crunchbase: https://www.crunchbase.com/organization/superblocks-de08
+    homepage_url: https://www.superblocks.com/
+    item: null
+    logo: superblocks.svg
+    name: Superblocks (member)
+  - crunchbase: https://www.crunchbase.com/organization/superorbital
+    homepage_url: https://superorbital.io/
+    item: null
+    logo: superorbital.svg
+    name: SuperOrbital (member)
+  - crunchbase: https://www.crunchbase.com/organization/suse
+    homepage_url: https://www.suse.com/
+    item: null
+    logo: suse.svg
+    name: SUSE (member)
+  - crunchbase: https://www.crunchbase.com/organization/sva
+    homepage_url: https://www.sva.de/de
+    item: null
+    logo: sva.svg
+    name: SVA (member)
+  - crunchbase: https://www.crunchbase.com/organization/swisscom
+    homepage_url: https://www.swisscom.ch/en/residential.html
+    item: null
+    logo: swisscom.svg
+    name: Swisscom (member)
+  - crunchbase: https://www.crunchbase.com/organization/synadia-communications
+    homepage_url: https://nats.io
+    item: null
+    logo: synadia.svg
+    name: Synadia Communications (member)
+  - crunchbase: https://www.crunchbase.com/organization/synax
+    homepage_url: https://www.synax.io/
+    item: null
+    logo: synax.svg
+    name: Synax (member)
+  - crunchbase: https://www.crunchbase.com/organization/sysdig
+    homepage_url: https://sysdig.com
+    item: null
+    logo: sysdig.svg
+    name: Sysdig (member)
+  - crunchbase: https://www.crunchbase.com/organization/syseleven
+    homepage_url: https://www.syseleven.de
+    item: null
+    logo: syseleven.svg
+    name: SysEleven (member)
+Observability and Analysis:
+  Chaos Engineering: []
+  Continuous Optimization:
+  - crunchbase: https://www.crunchbase.com/organization/spot-io
+    homepage_url: https://spot.io/
+    item: null
+    logo: spot.svg
+    name: Spot.io
+  - crunchbase: https://www.crunchbase.com/organization/stormforge
+    homepage_url: https://stormforge.io/
+    item: null
+    logo: stormforge.svg
+    name: StormForge
+  Logging:
+  - crunchbase: https://www.crunchbase.com/organization/sematext
+    homepage_url: https://sematext.com/
+    item: null
+    logo: sematext.svg
+    name: Sematext
+  - crunchbase: https://www.crunchbase.com/organization/splunk
+    homepage_url: https://www.splunk.com/
+    item: null
+    logo: splunk.svg
+    name: Splunk
+  - crunchbase: https://www.crunchbase.com/organization/sumo-logic
+    homepage_url: https://www.sumologic.com/
+    item: null
+    logo: sumologic.svg
+    name: Sumo Logic
+  Monitoring:
+  - crunchbase: https://www.crunchbase.com/organization/sensu-inc
+    homepage_url: https://sensu.io/
+    item: null
+    logo: sensu.svg
+    name: Sensu
+    repo_url: https://github.com/sensu/sensu-go
+  - crunchbase: https://www.crunchbase.com/organization/sentry
+    homepage_url: https://sentry.io/welcome/
+    item: null
+    logo: sentry.svg
+    name: Sentry
+    open_source: false
+    repo_url: https://github.com/getsentry/sentry
+  - crunchbase: https://www.crunchbase.com/organization/splunk
+    homepage_url: https://www.splunk.com/en_us/devops/signalfx.html
+    item: null
+    logo: signal-fx.svg
+    name: SignalFX
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    homepage_url: https://skooner.io/
+    item: null
+    logo: skooner.svg
+    name: Skooner
+    project: sandbox
+    repo_url: https://github.com/skooner-k8s/skooner
+  - crunchbase: https://www.crunchbase.com/organization/sosivio
+    description: Sosivio is a non-intrusive autonomous cloud native platform delivering
+      unmatched visibility into your cloud native environment, eventless failure prediction,
+      and automatic resolution.
+    homepage_url: https://www.sosiv.io
+    item: null
+    logo: sosivio.svg
+    name: Sosivio
+    twitter: null
+  - crunchbase: https://www.crunchbase.com/organization/stackstate
+    homepage_url: https://www.stackstate.com/
+    item: null
+    logo: stackstate.svg
+    name: StackState
+  Tracing:
+  - crunchbase: https://www.crunchbase.com/organization/apache
+    homepage_url: https://skywalking.apache.org/
+    item: null
+    logo: sky-walking.svg
+    name: SkyWalking
+    repo_url: https://github.com/apache/skywalking
+    twitter: https://twitter.com/AsfSkyWalking
+  - crunchbase: https://www.crunchbase.com/organization/ant-financial
+    homepage_url: https://www.sofastack.tech/en/
+    item: null
+    logo: sofastack-sofa-tracer.svg
+    name: SOFATracer
+    repo_url: https://github.com/sofastack/sofa-tracer
+    twitter: https://twitter.com/sofastack_io
+  - crunchbase: https://www.crunchbase.com/organization/vmware
+    homepage_url: https://spring.io/projects/spring-cloud-sleuth
+    item: null
+    logo: spring-cloud-sleuth.svg
+    name: Spring Cloud Sleuth
+    repo_url: https://github.com/spring-cloud/spring-cloud-sleuth
+Orchestration & Management:
+  API Gateway:
+  - crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
+    homepage_url: https://github.com/alibaba/Sentinel
+    item: null
+    logo: sentinel.svg
+    name: Sentinel
+    repo_url: https://github.com/alibaba/Sentinel
+  Coordination & Service Discovery: []
+  Remote Procedure Call:
+  - crunchbase: https://www.crunchbase.com/organization/ant-financial
+    homepage_url: https://www.sofastack.tech/en/
+    item: null
+    logo: sofastack-sofa-rpc.svg
+    name: SOFARPC
+    repo_url: https://github.com/sofastack/sofa-rpc
+    twitter: https://twitter.com/sofastack_io
+  - crunchbase: https://www.crunchbase.com/organization/sogou
+    description: High performance, low latency, lightweight enterprise-level RPC system,
+      which supports Baidu bRPC, Tencent tRPC, thrift protocols.
+    homepage_url: https://github.com/sogou/srpc
+    item: null
+    logo: srpc.svg
+    name: SRPC
+    repo_url: https://github.com/sogou/srpc
+  Scheduling & Orchestration: []
+  Service Mesh:
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    homepage_url: https://smi-spec.io
+    item: null
+    logo: service-mesh-interface.svg
+    name: Service Mesh Interface (SMI)
+    project: sandbox
+    repo_url: https://github.com/servicemeshinterface/smi-spec
+    twitter: https://twitter.com/smi_spec
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#service-mesh-performance-logos
+      dev_stats_url: https://smp.devstats.cncf.io/
+      mailing_list_url: https://groups.google.com/a/smp-spec.io/g/community
+      slack_url: https://cloud-native.slack.com/messages/service-mesh-performance
+    homepage_url: https://smp-spec.io/
+    item: null
+    logo: service-mesh-performance.svg
+    name: Service Mesh Performance
+    project: sandbox
+    repo_url: https://github.com/service-mesh-performance/service-mesh-performance
+    twitter: https://twitter.com/smp_spec
+  - crunchbase: https://www.crunchbase.com/organization/netease-com
+    homepage_url: https://github.com/slime-io
+    item: null
+    logo: Slime.svg
+    name: Slime
+    repo_url: https://github.com/slime-io/slime
+    twitter: https://twitter.com/NetEase_Global
+  Service Proxy:
+  - crunchbase: https://www.crunchbase.com/organization/sangfor-technologies
+    description: Sangfor CNAD is a cloud native application proxy, that provides layer7&layer4
+      load balance service, high performance TLS encryption and decryption resource
+      pool, and Ingress&Loadbalancer for kubernetes.
+    homepage_url: https://www.sangfor.com.cn/product-and-solution/sangfor-its/5
+    item: null
+    logo: sangfor.svg
+    name: Sangfor CNAD
+    twitter: null
+  - crunchbase: https://www.crunchbase.com/organization/zalando
+    homepage_url: https://opensource.zalando.com/skipper/
+    item: null
+    logo: skipper.svg
+    name: Skipper
+    repo_url: https://github.com/zalando/skipper
+    twitter: https://twitter.com/ZalandoTech
+  - crunchbase: https://www.crunchbase.com/organization/snapt
+    homepage_url: https://www.snapt.net/platforms/nova-adc
+    item: null
+    logo: nova.svg
+    name: Snapt Nova
+    twitter: https://twitter.com/SnaptADC
+Platform:
+  Certified Kubernetes - Distribution: []
+  Certified Kubernetes - Hosted:
+  - crunchbase: https://www.crunchbase.com/organization/samsung-sds
+    description: SKE allows you to quickly deploy a production ready Kubernetes cluster
+      in Samsung Cloud Platform (SCP).
+    homepage_url: https://cloud.samsungsds.com/serviceportal/index.html
+    item: null
+    logo: samsung-cloud-platform.svg
+    name: Samsung Cloud Platform - SCP Kubernetes Engine (SKE)
+  - crunchbase: https://www.crunchbase.com/organization/sap
+    description: The Gardener implements automated management and operation of Kubernetes
+      clusters as a service and aims to support that service on multiple Cloud providers.
+    homepage_url: https://www.sap.com/products/cloud-platform.html
+    item: null
+    logo: sap.svg
+    name: SAP Certified Gardener
+  - crunchbase: https://www.crunchbase.com/organization/scaleway
+    description: Kubernetes Kapsule provides a simple way to deploy and manage your
+      containerized applications in the cloud. Relax and focus on your software stack
+      while we take care of your clusters.
+    homepage_url: https://www.scaleway.com/en/betas/
+    item: null
+    logo: scaleway.svg
+    name: Scaleway Kubernetes Kapsule
+  - crunchbase: https://www.crunchbase.com/organization/schwarz-dienstleistungen
+    description: STACKIT Kubernetes Engine (SKE) is a fully managed and scalable Kubernetes
+      service for the deployment and management of Kubernetes  clusters and containerized
+      applications.
+    homepage_url: https://www.stackit.de/de/
+    item: null
+    logo: stackit.svg
+    name: STACKIT Kubernetes Engine
+  Certified Kubernetes - Installer:
+  - crunchbase: https://www.crunchbase.com/organization/particule
+    description: "Symplegma (from greek \u03C3\u03CD\u03BC\u03C0\u03BB\u03B5\u03B3\
+      \u03BC\u03B1) is a simple set of Ansible playbooks to deploy Kubernetes with\
+      \ Kubeadm"
+    homepage_url: https://particuleio.github.io/symplegma/
+    item: null
+    logo: symplegma.svg
+    name: Symplegma
+    repo_url: https://github.com/particuleio/symplegma
+  PaaS/Container Service:
+  - crunchbase: https://www.crunchbase.com/organization/scalingo
+    homepage_url: https://scalingo.com/
+    item: null
+    logo: scalingo.svg
+    name: Scalingo
+  - crunchbase: https://www.crunchbase.com/organization/sogou
+    description: C++ Parallel Computing and Asynchronous Networking Engine.
+    homepage_url: https://github.com/sogou/workflow
+    item: null
+    logo: workflow.svg
+    name: Sogou C++ Workflow
+    repo_url: https://github.com/sogou/workflow
+Provisioning:
+  Automation & Configuration:
+  - crunchbase: https://www.crunchbase.com/organization/saltstack
+    homepage_url: https://www.vmware.com/support/acquisitions/saltstack.html
+    item: null
+    logo: salt-stack.svg
+    name: SaltStack
+    repo_url: https://github.com/saltstack/salt
+    twitter: https://twitter.com/Salt_Project_OS
+  - crunchbase: https://www.crunchbase.com/organization/stackstorm
+    homepage_url: https://stackstorm.com/
+    item: null
+    logo: stackstorm.svg
+    name: StackStorm
+    repo_url: https://github.com/stackstorm/st2
+    twitter: https://twitter.com/StackStorm
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    description: An edge-native container management system for edge computing
+    extra:
+      accepted: '2021-09-14'
+      artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#superedge-logos
+      blog_url: https://superedge.io/blog/
+      chat_channel: '#superedge-community'
+      dev_stats_url: https://superedge.devstats.cncf.io
+      slack_url: https://superedge-workspace.slack.com/
+    homepage_url: https://superedge.io/
+    item: null
+    logo: superedge.svg
+    name: SuperEdge
+    project: sandbox
+    repo_url: https://github.com/superedge/superedge
+  Container Registry: []
+  Key Management:
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      accepted: '2018-03-29'
+      artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#spiffe-logos
+      blog_url: https://blog.spiffe.io/
+      dev_stats_url: https://spiffe.devstats.cncf.io/
+      mailing_list_url: https://groups.google.com/a/spiffe.io/forum/#!forum/announce
+      slack_url: https://slack.spiffe.io/
+    homepage_url: https://spiffe.io/
+    item: null
+    logo: spiffe.svg
+    name: SPIFFE
+    project: incubating
+    repo_url: https://github.com/spiffe/spiffe
+    twitter: https://twitter.com/spiffeio
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    extra:
+      accepted: '2018-03-29'
+      artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#spire-logos
+      dev_stats_url: https://spire.devstats.cncf.io/
+      slack_url: https://slack.spiffe.io/
+    homepage_url: https://spiffe.io/spire/
+    item: null
+    logo: spire.svg
+    name: SPIRE
+    project: incubating
+    repo_url: https://github.com/spiffe/spire
+    twitter: https://twitter.com/spiffeio
+  - crunchbase: https://www.crunchbase.com/organization/square
+    homepage_url: https://square.github.io/keywhiz/
+    item: null
+    logo: square-keywhiz.svg
+    name: Square Keywhiz
+    repo_url: https://github.com/square/keywhiz
+    twitter: https://twitter.com/SquareEng
+  Security & Compliance:
+  - crunchbase: https://www.crunchbase.com/organization/snyk
+    homepage_url: https://snyk.io/
+    item: null
+    logo: snyk.svg
+    name: Snyk
+  - crunchbase: https://www.crunchbase.com/organization/sonatype
+    homepage_url: https://www.sonatype.com/
+    item: null
+    logo: sonatype.svg
+    name: Sonatype Nexus
+    twitter: https://twitter.com/sonatype
+  - crunchbase: https://www.crunchbase.com/organization/vmware
+    homepage_url: https://sonobuoy.io
+    item: null
+    logo: project-sonobuoy.svg
+    name: Sonobuoy
+    repo_url: https://github.com/vmware-tanzu/sonobuoy
+    twitter: https://twitter.com/projectsonobuoy
+  - crunchbase: https://www.crunchbase.com/organization/spyderbat
+    description: Spyderbat provides Linux runtime security, protecting dynamic environments
+      by proactively tracking all user activities by their causal connections to detect
+      and resolve external attacks, misconfigurations, and insider threats.
+    extra:
+      slack_url: https://spyderbatcommunity.slack.com/
+    homepage_url: https://www.spyderbat.com/
+    item: null
+    logo: spyderbat.svg
+    name: Spyderbat
+    twitter: https://twitter.com/spyderbatinc
+  - crunchbase: https://www.crunchbase.com/organization/stackhawk
+    description: StackHawk helps developers find and fix application security vulnerabilities
+      before they hit production with CI/CD automation.
+    homepage_url: https://www.stackhawk.com/index.html
+    item: null
+    logo: stackhawk.svg
+    name: StackHawk
+  - crunchbase: https://www.crunchbase.com/organization/stackrox
+    homepage_url: https://www.redhat.com/en/technologies/cloud-computing/openshift/advanced-cluster-security-kubernetes
+    item: null
+    logo: stackrox.svg
+    name: StackRox
+    twitter: https://twitter.com/StackRox
+  - crunchbase: https://www.crunchbase.com/organization/aquasecurity
+    description: Starboard operate security tools on the Kubernetes cluster and incorporate
+      their outputs into Kubernetes CRDs (Custom Resource Definitions) and from there,
+      making security reports accessible through the Kubernetes API
+    homepage_url: https://github.com/aquasecurity/starboard
+    item: null
+    logo: starboard.svg
+    name: Starboard
+    repo_url: https://github.com/aquasecurity/starboard
+    twitter: https://twitter.com/aquasecteam
+  - crunchbase: https://www.crunchbase.com/organization/sysdig
+    description: "Sysdig Secure embeds security and compliance into the build, run\
+      \ and respond stages of the Kubernetes lifecycle.\_"
+    homepage_url: https://sysdig.com/use-cases/kubernetes-security
+    item: null
+    logo: sysdig-secure.svg
+    name: Sysdig Secure
+Runtime:
+  Cloud Native Network:
+  - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+    description: Submariner enables direct networking between Pods and Services in
+      different Kubernetes clusters, either on-premises or in the cloud.
+    homepage_url: https://submariner.io
+    item: null
+    logo: submariner.svg
+    name: Submariner
+    project: sandbox
+    repo_url: https://github.com/submariner-io/submariner
+    twitter: https://twitter.com/submarinerio
+  Cloud Native Storage:
+  - crunchbase: https://www.crunchbase.com/organization/shansyan-data
+    description: ShenZhen SandStone Data Technology Co., Ltd.  is a high-tech enterprise
+      focusing on enterprise-level software-defined storage.
+    homepage_url: https://www.szsandstone.com
+    item: null
+    logo: sandstone.svg
+    name: SandStone
+  - crunchbase: https://www.crunchbase.com/organization/sangfor-technologies
+    description: Sangfor Technologies is a leading global vendor of IT infrastructure
+      solutions, specializing in Cloud Computing & Network Security with a wide range
+      of products & services.
+    homepage_url: https://www.sangfor.com.cn/product-and-solution/sangfor-its/3
+    item: null
+    logo: sangfor.svg
+    name: Sangfor EDS
+    twitter: null
+  - crunchbase: https://www.crunchbase.com/organization/scaleflash
+    description: ScaleFlash is a leading provider of high-performance software-defined
+      storage products and enterprise cloud solutions.
+    homepage_url: https://www.scaleflash.com
+    item: null
+    logo: scaleflash.svg
+    name: ScaleFlash
+  - crunchbase: https://www.crunchbase.com/organization/scality
+    homepage_url: https://www.scality.com/products/ring/
+    item: null
+    logo: ring.svg
+    name: Scality RING
+  - crunchbase: https://www.crunchbase.com/organization/opensds
+    homepage_url: https://sodafoundation.io/wp-content/uploads/2021/03/cn.png
+    item: null
+    logo: soda-foundation.svg
+    name: Soda Foundation
+    repo_url: https://github.com/sodafoundation/api
+  - crunchbase: https://www.crunchbase.com/organization/appscode
+    homepage_url: https://stash.run
+    item: null
+    logo: stash-by-apps-code.svg
+    name: Stash by AppsCode
+    open_source: false
+    repo_url: https://github.com/stashed/stash
+    twitter: https://twitter.com/kubestash
+  - crunchbase: https://www.crunchbase.com/organization/storpool
+    homepage_url: https://www.storpool.com/
+    item: null
+    logo: storpool.svg
+    name: StorPool
+  - crunchbase: https://www.crunchbase.com/organization/open-infrastructure-foundation
+    homepage_url: https://docs.openstack.org/swift/latest/
+    item: null
+    logo: openstack-swift.svg
+    name: Swift
+    repo_url: https://github.com/openstack/swift
+  Container Runtime:
+  - crunchbase: https://www.crunchbase.com/organization/sylabs
+    homepage_url: https://sylabs.io/
+    item: null
+    logo: singularity.svg
+    name: Singularity
+    repo_url: https://github.com/apptainer/singularity
+    twitter: https://twitter.com/SingularityApp
+  - crunchbase: https://www.crunchbase.com/organization/joyent
+    homepage_url: https://www.joyent.com/smartos
+    item: null
+    logo: smartos.svg
+    name: SmartOS
+    repo_url: https://github.com/TritonDataCenter/smartos-live
+  - crunchbase: https://www.crunchbase.com/organization/nestybox
+    homepage_url: https://github.com/nestybox/sysbox
+    item: null
+    logo: sysbox.svg
+    name: Sysbox
+    repo_url: https://github.com/nestybox/sysbox
+Serverless:
+  Framework:
+  - crunchbase: https://www.crunchbase.com/organization/serverless
+    homepage_url: https://serverless.com/
+    item: null
+    logo: serverless.svg
+    name: Serverless
+    repo_url: https://github.com/serverless/serverless
+  - crunchbase: https://www.crunchbase.com/organization/sst-c030
+    homepage_url: https://serverless-stack.com/
+    item: null
+    logo: serverless-stack.svg
+    name: Serverless Stack
+    repo_url: https://github.com/serverless-stack/serverless-stack
+  - crunchbase: https://www.crunchbase.com/organization/sparta-7ffe
+    homepage_url: https://gosparta.io/
+    item: null
+    logo: sparta.svg
+    name: Sparta
+    repo_url: https://github.com/mweagle/Sparta
+    twitter: https://twitter.com/mweagle
+  - crunchbase: https://www.crunchbase.com/organization/vmware
+    homepage_url: https://spring.io/projects/spring-cloud-function
+    item: null
+    logo: spring-cloud-function.svg
+    name: Spring Cloud Function
+    repo_url: https://github.com/spring-cloud/spring-cloud-function
+  - crunchbase: https://www.crunchbase.com/organization/data-artisans
+    homepage_url: https://statefun.io
+    item: null
+    logo: statefun.svg
+    name: Stateful Functions
+    repo_url: https://github.com/apache/flink-statefun
+    twitter: https://twitter.com/statefun_io
+  Hosted Platform:
+  - crunchbase: https://www.crunchbase.com/organization/second-state
+    description: High-performance Function as a Service (FaaS), powered by WasmEdge.
+    homepage_url: https://www.secondstate.io/faas
+    item: null
+    joined: '2021-02-01'
+    logo: second-state-functions.svg
+    name: Second State Functions
+  - crunchbase: https://www.crunchbase.com/organization/stdlib
+    homepage_url: https://autocode.com
+    item: null
+    logo: standard-library.svg
+    name: Standard Library
+    twitter: https://twitter.com/Autocode
+  Installable Platform: []
+  Security: []
+  Tools:
+  - crunchbase: https://www.crunchbase.com/organization/polytechnic-university-of-valencia
+    homepage_url: https://scar.readthedocs.io/en/latest/
+    item: null
+    logo: scar.svg
+    name: SCAR
+    repo_url: https://github.com/grycap/scar
+  - crunchbase: https://www.crunchbase.com/organization/alibaba
+    homepage_url: https://www.serverless-devs.com/
+    item: null
+    logo: serverless-devs.svg
+    name: Serverless Devs
+    repo_url: https://github.com/serverless-devs/serverless-devs
+  - crunchbase: https://www.crunchbase.com/organization/slappforge
+    description: Sigma is a serverless application developer tool; a cloud IDE, which
+      helps you rapidly build, test and deploy serverless applications.
+    homepage_url: https://www.slappforge.com/sigma
+    item: null
+    logo: slappforge-sigma.svg
+    name: Sigma
+    twitter: https://twitter.com/SigmaIDE
+  - crunchbase: https://www.crunchbase.com/organization/stackery
+    homepage_url: https://www.stackery.io/
+    item: null
+    logo: stackery.svg
+    name: Stackery
+Special:
+  Certified CNFs: []
+  Kubernetes Certified Service Provider:
+  - crunchbase: https://www.crunchbase.com/organization/saic
+    description: Application Modernization services rapidly migrate your apps to Kubernetes
+      and incrementally transform them into cloud native apps.
+    homepage_url: https://www.saic.com
+    item: null
+    logo: saic.svg
+    name: SAIC (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/samsung-sds
+    description: "Samsung SDS\u2019s Cloud Native Computing Team offers expert consulting\
+      \ across the range of technical aspects involved in building services targeted\
+      \ at a Kubernetes cluster."
+    homepage_url: https://cloud.samsungsds.com/serviceportal/index.html
+    item: null
+    logo: samsung-sds.svg
+    name: Samsung SDS (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/sap
+    homepage_url: https://www.sap.com/products/cloud-platform.html
+    item: null
+    logo: sap.svg
+    name: SAP (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/services4-it
+    description: Services4-IT supports its customers on their cloud native journey.
+      We design, implement, and operate Kubernetes clusters.
+    homepage_url: https://services4-it.eu/kcsp
+    item: null
+    logo: services4-it.svg
+    name: Services4-IT (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/shinesoft-co-ltd
+    description: Shinesoft provides Kubernetes consulting and support solutions on
+      your choice of infrastructure.  We help our customers to adopt DevOps, build
+      CI/CD, and migrate applications to Kubernetes. We also design and build your
+      Kubernetes cluster in the public cloud, on-prem, or multi/hybrid cloud  environments
+      according to your needs.
+    homepage_url: https://shinesoft.co.jp/business
+    item: null
+    logo: shinesoft.svg
+    name: Shinesoft (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/sighup
+    description: SIGHUP is an Enterprise Open Source Software company that delivers
+      battle-tested Cloud Native solutions and architectures entirely based on upstream
+      Kubernetes & OSS CNCF projects.
+    homepage_url: https://sighup.io/
+    item: null
+    logo: sighup-kcsp.svg
+    name: SIGHUP (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/skyloud
+    description: We build and administer scalable, resilient and secure Kubernetes
+      Infrastructures for developers and end users. Our DevOps & Cloud Engineers stay
+      by your side on a daily basis for the management of your Infrastructure so that
+      your developers remain focused on the development of your applications.
+    homepage_url: https://www.skyloud.fr/en/technos/kubernetes
+    item: null
+    logo: skyloud.svg
+    name: Skyloud (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/smartiful
+    description: smartiful, inc., a smart Cloud Integrator in Japan, provides professional
+      cloud native platform solutions and DevOps implementations.
+    homepage_url: https://smartiful.jp/services/kubernetes/
+    item: null
+    logo: smartiful.svg
+    name: Smartiful (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/softax
+    description: Softax is the leading software provider for banks, financial institutions
+      and large organizations in Europe, who provides customers with stable, reliable,
+      secure and performant cloud services.
+    homepage_url: https://www.softax.pl/en/services/modernization-hybrid-cloud
+    item: null
+    logo: softax.svg
+    name: Softax (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/sokube
+    description: SoKube is a Swiss based company that helps companies making their
+      digital transition to the world of containers and Kubernetes orchestration,
+      with a strong focus on Agility and DevSecOps lifecycle.
+    homepage_url: https://en.sokube.ch/projects
+    item: null
+    logo: sokube.svg
+    name: SoKube (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/sparkfabrik
+    description: We provide cloud native custom development and services on top of
+      Kubernetes, helping our customers to transition to the cloud native era.
+    homepage_url: https://www.sparkfabrik.com/en/services/cloud-native-services/kubernetes-consultancy
+    item: null
+    logo: sparkfabrik.svg
+    name: SparkFabrik (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/spectro-cloud
+    description: Spectro Cloud helps enterprises that need control and flexibility
+      to run Kubernetes their way, anywhere.
+    homepage_url: https://www.spectrocloud.com/services/
+    item: null
+    logo: spectro-cloud.svg
+    name: Spectro Cloud (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/stark-wayne
+    description: Stark & Wayne is the leading cloud agnostic consultancy with experts
+      in Kubernetes, Cloud Foundry, and going Cloud Native.
+    homepage_url: https://starkandwayne.com/tools-for-k8s/
+    item: null
+    logo: stark-and-wayne.svg
+    name: Stark & Wayne (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/steamhaus
+    description: Steamhaus are AWS cloud native experts, specialising in designing,
+      building and operating containers and serverless platforms. We help startups
+      scale fast and securely, and we help enterprises accelerate and derisk modernisation
+      and transformation.
+    homepage_url: https://www.steamhaus.co.uk/kubernetes/
+    item: null
+    logo: steamhaus.svg
+    name: Steamhaus (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/storm-reply
+    description: We provide services along the entire cloud value chain and are specialized
+      in the design, implementation and 24X7 operation of innovative cloud-native
+      solutions.
+    homepage_url: https://reply.com/storm-reply/en/kubernetes
+    item: null
+    logo: storm-reply.svg
+    name: Storm Reply (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/stormforge
+    description: Our cloud expert services can show you how to optimize your cloud-native
+      workloads for performance, stability, and cost. We will help you accelerate
+      the  move to cloud-native while educating your teams on how to build optimization
+      into your CI/CD workflow. Get to market faster, reduce risk, improve your  team's
+      productivity, and show a measurable return on investment.
+    homepage_url: https://stormforge.io/
+    item: null
+    logo: stormforge.svg
+    name: StormForge (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/stratox
+    description: We operate K8S Platforms mainly in Banking, Logistics, E-Commerce
+      and other Corporate environments.
+    homepage_url: https://www.stratox.cz
+    item: null
+    logo: stratox.svg
+    name: Stratox (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/successive-software
+    description: Through Kubernetes professional services, Successive Technologies
+      help organizations seamlessly orchestrate container platforms and embrace cloud
+      native development to build & run applications that take advantage of Kubernetes
+      and cloud computing model.
+    homepage_url: https://successive.cloud/kubernetes-as-a-service/
+    item: null
+    logo: successive.svg
+    name: Successive Technologies (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/beijing-sup-info-information-technology-co-ltd
+    description: "Sup-Info is experienced in Kubernetes-based cloud building\uFF0C\
+      operating\uFF0Cconsulting\uFF0Cand training. We also provide professional services\
+      \ for cloud-related open source software."
+    homepage_url: http://www.sup-info.com.cn/NewsClass.aspx?ClassID=19
+    item: null
+    logo: sup-info.svg
+    name: Sup-info Information Technology (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/superorbital
+    description: A tiny team of exceptional Kubernetes engineers and teachers. We
+      are a small band of passionate and deeply experienced Kubernetes experts who
+      can de-risk your most important Kubernetes-focused projects.
+    homepage_url: https://superorbital.io/
+    item: null
+    logo: superorbital.svg
+    name: SuperOrbital (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/sva
+    description: SVA services include consulting, implementing and optimizing Kubernetes
+      platforms on all layers and to share our knowledge with our customers and the
+      community.
+    homepage_url: https://www.sva.de/de
+    item: null
+    logo: sva.svg
+    name: SVA (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/swisscom
+    description: "Swisscom\u2019s experienced cloud native experts support Swiss customers\
+      \ end to end on their journey with the Kubernetes ecosystem."
+    homepage_url: https://swisscom.com/container
+    item: null
+    logo: swisscom.svg
+    name: Swisscom Kubernetes Service (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/sysdig
+    description: Sysdig offers professional services, technical account management,
+      support and training. These services are designed to help companies get up-and-running
+      with Sysdig and find best practices with their Kubernetes platform and cloud
+      native applications.
+    homepage_url: https://sysdig.com/platform-architecture
+    item: null
+    logo: sysdig.svg
+    name: Sysdig (KCSP)
+  - crunchbase: https://www.crunchbase.com/organization/syseleven
+    description: We support our customers from start to finish, from training to the
+      full operation of Kubernetes setups. We give regular workshops and share our
+      know-how.
+    homepage_url: https://www.syseleven.de/en/products-services/kubernetes/
+    item: null
+    logo: syseleven.svg
+    name: SysEleven (KCSP)
+  Kubernetes Training Partner:
+  - crunchbase: https://www.crunchbase.com/organization/shinesoft-co-ltd
+    description: We provide design, development and tech support include; Cloud/Cluster,
+      Network, Server, Security, Monitoring, Data analysis, and AI/IoT
+    homepage_url: http://shinesoft.co.jp/download/shinesoft-icon.svg
+    item: null
+    logo: shinesoft.svg
+    name: Shinesoft (KTP)
+  - crunchbase: https://www.crunchbase.com/organization/sighup
+    description: SIGHUP is an Enterprise Open Source Software company that delivers
+      battle-tested Cloud Native solutions and architectures entirely based on upstream
+      Kubernetes & OSS CNCF projects.
+    extra:
+      training_certifications: cka, ckad, cks, kcna
+      training_type: e-learning, instructor-led
+    homepage_url: https://sighup.io/
+    item: null
+    logo: sighup-kcsp.svg
+    name: SIGHUP (KTP)
+  - crunchbase: https://www.crunchbase.com/organization/sokube
+    description: SoKube is pure consulting company that help companies entering the
+      world of Containers & Kubernetes, using a comprehensive SDLC approach from Dev
+      to Production, and using best practices coming from Agile, CI/CD, DevSecOps,
+      SRE, GitOps.
+    extra:
+      training_certifications: cka, ckad, cks, kcna
+      training_type: instructor-led
+    homepage_url: https://en.sokube.ch/training
+    item: null
+    logo: sokube.svg
+    name: SoKube (KTP)
+  - crunchbase: https://www.crunchbase.com/organization/storm-reply
+    description: We provide services along the entire cloud value chain and are specialized
+      in the design, implementation and 24X7 operation of innovative cloud-native
+      solutions.
+    homepage_url: https://reply.com/storm-reply/en/kubernetes
+    item: null
+    logo: storm-reply.svg
+    name: Storm Reply (KTP)
+  - crunchbase: https://www.crunchbase.com/organization/superorbital
+    description: A tiny team of exceptional Kubernetes engineers and teachers.  We
+      provide the industry's absolute best Kubernetes engineering and training services.
+    homepage_url: https://superorbital.io/workshops/
+    item: null
+    logo: superorbital.svg
+    name: SuperOrbital (KTP)
+Wasm:
+  Debugging and Observability: []
+  Installable Platform: []
+  Packaging, Registries & Application Delivery: []
+  Runtime: []
+  Specifications: []
+  Toolchain:
+  - crunchbase: https://www.crunchbase.com/organization/suborbital
+    homepage_url: https://github.com/suborbital/subo
+    item: null
+    logo: suborbital.svg
+    name: Subo CLI
+    repo_url: https://github.com/suborbital/subo
