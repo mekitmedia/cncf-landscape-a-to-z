@@ -1,0 +1,113 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/clever-cloud
+  crunchbase_data:
+    acquisitions: []
+    city: Nantes
+    company_type: For Profit
+    country: France
+    description: Clever Cloud is an IT Automation platform.
+    funding: 0
+    homepage: https://www.clever-cloud.com
+    industries:
+    - Apps
+    - Cloud Computing
+    - Consumer Electronics
+    - Information Technology
+    - PaaS
+    - Web Development
+    - Web Hosting
+    linkedin: https://www.linkedin.com/company/clever-cloud
+    name: Clever Cloud
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: Pays de la Loire
+    stockExchange: null
+    twitter: https://twitter.com/clever_cloud
+  description: Clever Cloud is an IT Automation platform helping developers to focus
+    on business value instead of ops work.
+  homepage_url: https://www.clever-cloud.com
+  image_data:
+    fileName: clever-cloud.svg
+    hash: pVjyzcKDtHCF4L5ZZE/0OwL/5k8lTdDZ89cBtqQItWA=
+  item: null
+  logo: clevercloud.svg
+  name: Clever Cloud
+  twitter_data:
+    latest_tweet_date: 2022-08-04 15:00:22+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/cloud-foundry
+  crunchbase_data:
+    acquisitions: []
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: Cloud Foundry Foundation is an Independent non-profit organization
+      that supports the Cloud Foundry collection of open source projects.
+    homepage: https://www.cloudfoundry.org/
+    industries:
+    - Cloud Data Services
+    - Communities
+    - Information Technology
+    - Open Source
+    - PaaS
+    - Software
+    linkedin: https://www.linkedin.com/company/2509135
+    name: Cloud Foundry Foundation
+    num_employees_max: 100
+    num_employees_min: 51
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/cloudfoundry
+  description: Cloud Foundry Application Runtime utilizes containers as part of its
+    DNA, and has since before Docker popularized containers. The new CF Container
+    Runtime gives you more granular control and management of containers with Kubernetes.
+  github_data:
+    contributions: 1;8;7;0;2;7;2;0;0;2;0;2;0;3;0;2;1;0;0;1;0;0;0;1;2;0;1;6;0;0;1;1;1;0;0;0;1;0;0;0;3;0;0;3;2;1;0;0;1;1;0;0
+    contributors_count: 494
+    contributors_link: https://github.com/cloudfoundry/cli/graphs/contributors
+    description: The official command line client for Cloud Foundry
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 10984942
+    - color: '#427819'
+      name: Makefile
+      value: 10068
+    - color: '#89e051'
+      name: Shell
+      value: 8665
+    - color: '#701516'
+      name: Ruby
+      value: 210
+    - name: Procfile
+      value: 83
+    latest_commit_date: '2022-07-20T19:19:52Z'
+    latest_commit_link: /cloudfoundry/cli/commit/d2688d12284f5d8ff3f467dd7bac4c2aa46999e4
+    license: Apache License 2.0
+    release_date: '2022-06-04T00:50:53Z'
+    release_link: https://github.com/cloudfoundry/cli/releases
+    stars: 1658
+  github_start_commit_data:
+    start_commit_link: /cloudfoundry/cli/commit/d5833689912e2f27addaf899613115f84a92e0c7
+    start_date: '2013-08-19T14:53:03Z'
+  homepage_url: https://www.cloudfoundry.org/working-groups
+  image_data:
+    fileName: cloud-foundry-application-runtime.svg
+    hash: tppkRFnWr4a9AOtSuA9owSe4bUR+72lrnEktpjmXSk0=
+  item: null
+  logo: cloudfoundry-applicationruntime.svg
+  name: Cloud Foundry Application Runtime
+  repo_url: https://github.com/cloudfoundry/cli
+  repos:
+  - stars: 1658
+    url: https://github.com/cloudfoundry/cli
+  twitter_data:
+    latest_tweet_date: 2022-08-05 08:21:19+00:00

@@ -1,0 +1,301 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/apache
+  crunchbase_data:
+    acquisitions: []
+    city: Forest Hill
+    company_type: Non Profit
+    country: United States
+    description: Apache Software Foundation provides organizational, legal and financial
+      support for Apache open-source software projects.
+    homepage: http://www.apache.org
+    industries:
+    - Non Profit
+    - Software
+    linkedin: https://www.linkedin.com/company/the-apache-software-foundation
+    name: The Apache Software Foundation
+    num_employees_max: 10
+    num_employees_min: 1
+    parents: []
+    region: Maryland
+    stockExchange: null
+    twitter: http://twitter.com/TheASF
+  github_data:
+    contributions: 12;27;24;30;22;26;19;19;35;19;16;19;9;18;14;59;39;30;18;15;8;36;41;25;50;37;17;12;16;32;21;12;7;17;22;25;27;19;10;14;17;16;37;16;18;21;27;19;34;15;23;19
+    contributors_count: 100
+    contributors_link: https://github.com/apache/camel-k/graphs/contributors
+    description: Apache Camel K is a lightweight integration platform, born on Kubernetes,
+      with serverless superpowers
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 2833007
+    - color: '#89e051'
+      name: Shell
+      value: 59998
+    - color: '#e69f56'
+      name: Groovy
+      value: 43338
+    - color: '#427819'
+      name: Makefile
+      value: 39899
+    - color: '#b07219'
+      name: Java
+      value: 27595
+    - color: '#5B2063'
+      name: Gherkin
+      value: 13126
+    - name: Smarty
+      value: 2026
+    - color: '#384d54'
+      name: Dockerfile
+      value: 1983
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 1916
+    - name: Mustache
+      value: 1706
+    - color: '#F18E33'
+      name: Kotlin
+      value: 972
+    latest_commit_date: '2022-08-06T03:33:37Z'
+    latest_commit_link: /apache/camel-k/commit/f36ee47ff1685159842dda02a12366629f902e93
+    license: Apache License 2.0
+    release_date: '2022-05-18T23:28:57Z'
+    release_link: https://github.com/apache/camel-k/releases
+    stars: 712
+  github_start_commit_data:
+    start_commit_link: /apache/camel-k/commit/55fca8ee59ca67450bd114065872b0849917f132
+    start_date: '2018-08-31T08:46:30Z'
+  homepage_url: https://camel.apache.org
+  image_data:
+    fileName: apache-camel-k.svg
+    hash: AXrhUFRzOyvFHU2UYh+jHg7zP71dxUn6Fu9M47XhYlY=
+  item: null
+  logo: apache-camel-k.svg
+  name: Apache Camel K
+  repo_url: https://github.com/apache/camel-k
+  repos:
+  - stars: 712
+    url: https://github.com/apache/camel-k
+  twitter: https://twitter.com/apachecamel
+  twitter_data:
+    latest_tweet_date: 2022-08-05 13:00:37+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/apache
+  crunchbase_data:
+    acquisitions: []
+    city: Forest Hill
+    company_type: Non Profit
+    country: United States
+    description: Apache Software Foundation provides organizational, legal and financial
+      support for Apache open-source software projects.
+    homepage: http://www.apache.org
+    industries:
+    - Non Profit
+    - Software
+    linkedin: https://www.linkedin.com/company/the-apache-software-foundation
+    name: The Apache Software Foundation
+    num_employees_max: 10
+    num_employees_min: 1
+    parents: []
+    region: Maryland
+    stockExchange: null
+    twitter: http://twitter.com/TheASF
+  github_data:
+    contributions: 2;2;1;1;0;0;0;2;2;1;0;0;0;0;0;0;0;0;1;0;0;0;3;0;0;1;1;0;0;0;0;0;0;2;2;0;0;0;0;4;2;12;5;0;1;1;0;2;12;2;11;6
+    contributors_count: 224
+    contributors_link: https://github.com/apache/openwhisk/graphs/contributors
+    description: Apache OpenWhisk is an open source serverless cloud platform
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#c22d40'
+      name: Scala
+      value: 4848124
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 243847
+    - color: '#3572A5'
+      name: Python
+      value: 118334
+    - color: '#89e051'
+      name: Shell
+      value: 85409
+    - color: '#b07219'
+      name: Java
+      value: 36882
+    - name: Jinja
+      value: 22866
+    - color: '#e69f56'
+      name: Groovy
+      value: 22063
+    - color: '#384d54'
+      name: Dockerfile
+      value: 14997
+    - color: '#ffac45'
+      name: Swift
+      value: 11486
+    - color: '#e34c26'
+      name: HTML
+      value: 6012
+    - color: '#563d7c'
+      name: CSS
+      value: 4339
+    - name: Mustache
+      value: 2820
+    - color: '#178600'
+      name: C#
+      value: 1285
+    - color: '#000080'
+      name: Lua
+      value: 821
+    latest_commit_date: '2022-08-04T01:32:11Z'
+    latest_commit_link: /apache/openwhisk/commit/1a0f1ce74446a30cdb8d06c7526d7405bfe55909
+    license: Apache License 2.0
+    release_date: '2020-11-10T01:22:12Z'
+    release_link: https://github.com/apache/openwhisk/releases
+    stars: 5749
+  github_start_commit_data:
+    start_commit_link: /apache/openwhisk/commit/daeb509bbddd94b7df8ff48f4b96cf821c34dc72
+    start_date: '2016-02-19T22:47:33Z'
+  homepage_url: https://openwhisk.apache.org/
+  image_data:
+    fileName: apache-open-whisk.svg
+    hash: YlI3oSk0ksRR4NyBO2yoJDn4Qsw0AmXY1SrNKkRdEJA=
+  item: null
+  logo: apache-openwhisk.svg
+  name: Apache OpenWhisk
+  repo_url: https://github.com/apache/openwhisk
+  repos:
+  - stars: 5749
+    url: https://github.com/apache/openwhisk
+  twitter: https://twitter.com/openwhisk
+  twitter_data:
+    latest_tweet_date: 2021-11-01 19:43:50+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/appscale-inc
+  crunchbase_data:
+    acquisitions: []
+    city: Santa Barbara
+    company_type: For Profit
+    country: United States
+    description: AppScale is hybrid cloud infrastructure software that emulates the
+      core AWS APIs.
+    funding: 2524575
+    homepage: http://appscale.com
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Data Center
+    - Enterprise Software
+    - Information Technology
+    - Private Cloud
+    - SaaS
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/appscale-systems
+    name: AppScale Systems
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: http://twitter.com/appscalecloud
+  github_data:
+    contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+    contributors_count: 69
+    contributors_link: https://github.com/AppScale/gts/graphs/contributors
+    description: AppScale is an easy-to-manage serverless platform for building and
+      running scalable web and mobile applications on any infrastructure.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#3572A5'
+      name: Python
+      value: 51129811
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 2545177
+    - color: '#4F5D95'
+      name: PHP
+      value: 1726852
+    - color: '#e34c26'
+      name: HTML
+      value: 714801
+    - color: '#563d7c'
+      name: CSS
+      value: 686009
+    - color: '#701516'
+      name: Ruby
+      value: 408415
+    - color: '#555555'
+      name: C
+      value: 407880
+    - color: '#b07219'
+      name: Java
+      value: 326094
+    - color: '#89e051'
+      name: Shell
+      value: 105571
+    - color: '#ecdebe'
+      name: Roff
+      value: 40043
+    - color: '#427819'
+      name: Makefile
+      value: 32825
+    - color: '#B83998'
+      name: Erlang
+      value: 17054
+    - color: '#C1F12E'
+      name: Batchfile
+      value: 16252
+    - color: '#199f4b'
+      name: Vim script
+      value: 5645
+    - color: '#c065db'
+      name: Emacs Lisp
+      value: 4733
+    - color: '#3D6117'
+      name: TeX
+      value: 3149
+    - name: TSQL
+      value: 2093
+    - color: '#9DC3FF'
+      name: ANTLR
+      value: 1391
+    - name: Cap'n Proto
+      value: 1134
+    - color: '#6E4C13'
+      name: Assembly
+      value: 423
+    - name: Smarty
+      value: 260
+    - name: Starlark
+      value: 258
+    latest_commit_date: '2020-05-26T16:05:08Z'
+    latest_commit_link: /AppScale/gts/commit/46f909cf5dc5ba81faf9d81dc9af598dcf8a82a9
+    license: Apache License 2.0
+    release_date: '2019-10-22T17:41:10Z'
+    release_link: https://github.com/AppScale/gts/releases
+    stars: 2420
+  github_start_commit_data:
+    start_commit_link: /AppScale/appscale/commit/7fc28b3f433418068ee93902808bee24cad51ece
+    start_date: '2011-04-15T23:31:08Z'
+  homepage_url: https://www.appscale.com/
+  image_data:
+    fileName: app-scale.svg
+    hash: Bqr33+qdam7ZNRju6EYMkTIy8+kSs9KTFNDkHP3uF80=
+  item: null
+  logo: appscale.svg
+  name: AppScale
+  repo_url: https://github.com/AppScale/gts
+  repos:
+  - stars: 2420
+    url: https://github.com/AppScale/gts
+  twitter_data:
+    latest_tweet_date: 2021-07-16 11:24:34+00:00

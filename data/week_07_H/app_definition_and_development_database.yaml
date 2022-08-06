@@ -1,0 +1,80 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/hazelcast
+  crunchbase_data:
+    acquisitions: []
+    city: San Mateo
+    company_type: For Profit
+    country: United States
+    description: Hazelcast is a real-time, intelligent application platform that enables
+      enterprises to capture value otherwise missed.
+    funding: 63584000
+    homepage: http://www.hazelcast.com
+    industries:
+    - Cloud Computing
+    - Cloud Data Services
+    - Data Storage
+    - Enterprise Software
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/hazelcast
+    name: Hazelcast
+    num_employees_max: 250
+    num_employees_min: 101
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: http://twitter.com/hazelcast
+  github_data:
+    contributions: 15;24;22;30;24;32;23;23;21;12;26;15;13;16;6;8;15;12;15;9;1;42;20;33;50;52;37;41;10;10;18;17;18;14;13;9;11;2;10;9;5;4;9;11;5;4;5;2;4;21;27;13
+    contributors_count: 398
+    contributors_link: https://github.com/hazelcast/hazelcast/graphs/contributors
+    description: ' Open-source distributed computation and storage platform'
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#b07219'
+      name: Java
+      value: 64778117
+    - color: '#0050b2'
+      name: FreeMarker
+      value: 140280
+    - color: '#89e051'
+      name: Shell
+      value: 37807
+    - color: '#3572A5'
+      name: Python
+      value: 4714
+    - color: '#555555'
+      name: C
+      value: 3721
+    - color: '#C1F12E'
+      name: Batchfile
+      value: 3700
+    - color: '#F18E33'
+      name: Kotlin
+      value: 1282
+    latest_commit_date: '2022-08-05T10:02:39Z'
+    latest_commit_link: /hazelcast/hazelcast/commit/a28e5fe2a07b2f6b91f57d5cd1ac8a737ddbd12c
+    license: Other
+    release_date: '2022-08-01T14:21:29Z'
+    release_link: https://github.com/hazelcast/hazelcast/releases
+    stars: 4949
+  github_start_commit_data:
+    start_commit_link: /hazelcast/hazelcast/commit/e29759246fc919efca6862e41652a2b4c502c5b4
+    start_date: '2008-12-15T11:41:01Z'
+  homepage_url: https://hazelcast.com/open-source-projects
+  image_data:
+    fileName: hazelcast-imdg.svg
+    hash: A3ZA1AWJIQrFEhAqlzZYVlokwdnIRN1TBg+3JTo1I+A=
+  item: null
+  logo: hazelcast.svg
+  name: Hazelcast IMDG
+  open_source: false
+  repo_url: https://github.com/hazelcast/hazelcast
+  repos:
+  - stars: 4949
+    url: https://github.com/hazelcast/hazelcast
+  twitter_data:
+    latest_tweet_date: 2022-08-05 20:40:11+00:00

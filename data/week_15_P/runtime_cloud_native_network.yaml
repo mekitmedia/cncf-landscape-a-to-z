@@ -1,0 +1,104 @@
+- best_practice_data:
+    badge: 6064
+    percentage: 100
+  crunchbase: https://www.crunchbase.com/organization/tigera
+  crunchbase_data:
+    acquisitions: []
+    city: San Francisco
+    company_type: For Profit
+    country: United States
+    description: Active, zero-trust based security for cloud-native applications
+    funding: 53000000
+    homepage: https://www.tigera.io/
+    industries:
+    - Cloud Security
+    - Compliance
+    - Cyber Security
+    - Enterprise Software
+    - Network Security
+    - Open Source
+    - SaaS
+    - Security
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/tigera/
+    name: Tigera
+    num_employees_max: 250
+    num_employees_min: 101
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/tigeraio
+  github_data:
+    contributions: 51;209;27;107;66;28;61;70;116;150;162;89;89;62;43;22;53;42;140;40;4;46;63;69;57;55;27;17;34;31;25;35;29;29;32;33;63;34;28;56;46;32;22;50;42;24;37;43;23;18;35;18
+    contributors_count: 604
+    contributors_link: https://github.com/projectcalico/calico/graphs/contributors
+    description: Cloud native networking and network security
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 11130817
+    - color: '#555555'
+      name: C
+      value: 4333163
+    - color: '#3572A5'
+      name: Python
+      value: 1089918
+    - color: '#89e051'
+      name: Shell
+      value: 263356
+    - name: SCSS
+      value: 244261
+    - color: '#427819'
+      name: Makefile
+      value: 231428
+    - color: '#e34c26'
+      name: HTML
+      value: 142594
+    - color: '#012456'
+      name: PowerShell
+      value: 98044
+    - name: Smarty
+      value: 24336
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 17675
+    - color: '#701516'
+      name: Ruby
+      value: 9525
+    - name: HCL
+      value: 5665
+    - color: '#384d54'
+      name: Dockerfile
+      value: 3995
+    - color: '#563d7c'
+      name: CSS
+      value: 2970
+    - name: Starlark
+      value: 725
+    - name: Awk
+      value: 504
+    latest_commit_date: '2022-08-05T19:56:58Z'
+    latest_commit_link: /projectcalico/calico/commit/06e22b34e9bf21b652511f279d04db2eb2be3de8
+    license: Unknown License
+    release_date: '2022-08-01T23:21:50Z'
+    release_link: https://github.com/projectcalico/calico/releases
+    stars: 3745
+  github_start_commit_data:
+    start_commit_link: /projectcalico/calico/commit/8e3d75dd58a2d93eddfdf53baad931004d7fb783
+    start_date: '2016-07-21T15:45:54Z'
+  homepage_url: https://www.tigera.io/project-calico
+  image_data:
+    fileName: project-calico.svg
+    hash: gpuuQs0NtqshU4JePNGzG2VzWGcLemZWs6AxS7ZSIys=
+  item: null
+  logo: project-calico.svg
+  name: Project Calico
+  repo_url: https://github.com/projectcalico/calico
+  repos:
+  - stars: 3745
+    url: https://github.com/projectcalico/calico
+  twitter: https://twitter.com/projectcalico
+  twitter_data:
+    latest_tweet_date: 2022-08-05 15:01:00+00:00

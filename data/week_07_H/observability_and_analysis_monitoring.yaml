@@ -1,0 +1,106 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/honeybadger
+  crunchbase_data:
+    acquisitions: []
+    city: Kirkland
+    company_type: For Profit
+    country: United States
+    description: Exception, uptime, and cron monitoring for web developers
+    homepage: https://www.honeybadger.io
+    industries:
+    - SaaS
+    - Software
+    - Web Development
+    linkedin: https://www.linkedin.com/company/honeybadger-io/about/
+    name: Honeybadger
+    num_employees_max: 10
+    num_employees_min: 1
+    parents: []
+    region: Washington
+    stockExchange: null
+    twitter: https://twitter.com/honeybadgerapp
+  homepage_url: https://www.honeybadger.io/
+  image_data:
+    fileName: honeybadger.svg
+    hash: 0tk1jnKIYBMZzMyFdhgAA00lxE9wwY6T/sH5vdQc0ls=
+  item: null
+  logo: honeybadger.svg
+  name: Honeybadger
+  twitter_data:
+    latest_tweet_date: 2022-08-04 18:47:24+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  github_data:
+    contributions: 5;5;4;2;7;5;6;2;1;2;1;2;3;2;0;0;5;7;1;2;2;2;2;0;4;1;1;2;2;1;2;5;2;2;2;1;6;2;2;5;4;5;8;7;4;10;2;3;1;2;4;3
+    contributors_count: 35
+    contributors_link: https://github.com/cilium/hubble/graphs/contributors
+    description: Hubble - Network, Service & Security Observability for Kubernetes
+      using eBPF
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 231286
+    - color: '#427819'
+      name: Makefile
+      value: 2895
+    - color: '#384d54'
+      name: Dockerfile
+      value: 986
+    latest_commit_date: '2022-08-02T14:17:41Z'
+    latest_commit_link: /cilium/hubble/commit/c91443379b49a613de39dfab4c0e883e67bbeec6
+    license: Apache License 2.0
+    release_date: '2022-06-22T16:51:50Z'
+    release_link: https://github.com/cilium/hubble/releases
+    stars: 2121
+  github_start_commit_data:
+    start_commit_link: /cilium/hubble/commit/4c2e5c2e613af389d12a5290fc8fea436f28ea75
+    start_date: '2019-11-19T05:03:41Z'
+  homepage_url: https://github.com/cilium/hubble
+  image_data:
+    fileName: hubble.svg
+    hash: vSDM86wiu5sg+/s0gjbWGkTFDGEBWyUmTJmVbA/U7BY=
+  item: null
+  logo: hubble(rgb).svg
+  name: Hubble
+  project: incubating
+  repo_url: https://github.com/cilium/hubble
+  repos:
+  - stars: 2121
+    url: https://github.com/cilium/hubble
+  twitter_data:
+    latest_tweet_date: 2022-08-05 21:09:37+00:00

@@ -1,0 +1,96 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/bytedance
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Xigua Shipin
+      date: '2016-08-16'
+      price: 7544009
+    - acquiree: News Republic
+      date: '2017-11-08'
+      price: 86600000
+    - acquiree: Bcy.net
+      date: '2018-01-22'
+      price: 7806157
+    - acquiree: Mokun Technology
+      date: '2019-03-18'
+    - acquiree: Terark
+      date: '2019-04-29'
+    - acquiree: LevelupAI
+      date: '2020-01-10'
+    - acquiree: Baikemy.com
+      date: '2020-05-20'
+      price: 72000000
+    - acquiree: Caicloud
+      date: '2020-08-19'
+    - acquiree: Wuhan Hezhong Yibao Technology
+      date: '2020-09-04'
+    - acquiree: Com4Loves
+      date: '2021-04-15'
+    - acquiree: Pico Interactive
+      date: '2021-08-30'
+      price: 775000000
+    - acquiree: Hipacloud
+      date: '2022-03-21'
+    city: Shanghai
+    company_type: For Profit
+    country: China
+    description: ByteDance is an internet technology company that operates creative
+      content platforms.
+    funding: 9405000000
+    homepage: http://bytedance.com
+    industries:
+    - Content
+    - Data Mining
+    - Internet
+    - Social Media
+    kind: funding
+    linkedin: https://www.linkedin.com/company/bytedance
+    name: ByteDance
+    num_employees_max: 1000000
+    num_employees_min: 10001
+    parents: []
+    region: Shanghai
+    stockExchange: null
+    twitter: https://twitter.com/bytedancetalk
+  description: CloudWeGo is ByteDance's open source Golang-centric middleware that
+    can be used to quickly build enterprise-class cloud native architectures.
+  github_data:
+    contributions: 10;13;32;21;10;12;26;7;0;7;1;2;14;7;6;14;16;10;13;7;13;5;1;7;3;0;0;16;10;0;0;13;8;7;3;6;4;18;3;3;10;15;9;4;2;8;11;2;16;1;5;4
+    contributors_count: 59
+    contributors_link: https://github.com/cloudwego/kitex/graphs/contributors
+    description: A high-performance and strong-extensibility Go RPC framework that
+      helps developers build microservices.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 2043096
+    - name: Thrift
+      value: 6117
+    - color: '#89e051'
+      name: Shell
+      value: 2774
+    latest_commit_date: '2022-08-04T08:05:01Z'
+    latest_commit_link: /cloudwego/kitex/commit/94c8ada066cb8a8f511374af4bec34abf80c9a92
+    license: Apache License 2.0
+    release_date: '2022-07-15T05:46:11Z'
+    release_link: https://github.com/cloudwego/kitex/releases
+    stars: 4725
+  github_start_commit_data:
+    start_commit_link: /cloudwego/kitex/commit/a825c1b454bc8a9c00e761a4ff76a22645150ac2
+    start_date: '2021-02-25T07:23:37Z'
+  homepage_url: https://www.cloudwego.io/
+  image_data:
+    fileName: cloud-we-go.svg
+    hash: MQWIbh3jJpV/FAPb9n1n7tei3cm6mFUxcpCqsYKaHt0=
+  item: null
+  logo: cloudwego.svg
+  name: CloudWeGo
+  repo_url: https://github.com/cloudwego/kitex
+  repos:
+  - stars: 4725
+    url: https://github.com/cloudwego/kitex
+  twitter_data:
+    latest_tweet_date: 2021-10-20 04:00:37+00:00

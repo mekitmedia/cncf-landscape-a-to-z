@@ -1,0 +1,100 @@
+- best_practice_data:
+    badge: 1273
+    percentage: 100
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  extra:
+    accepted: '2017-09-13'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#jaeger-logos
+    blog_url: https://medium.com/jaegertracing/
+    dev_stats_url: https://jaeger.devstats.cncf.io/
+    gitter_url: https://gitter.im/jaegertracing/Lobby
+    mailing_list_url: https://groups.google.com/forum/#!forum/jaeger-tracing
+    stack_overflow_url: https://stackoverflow.com/questions/tagged/jaeger
+  github_data:
+    contributions: 8;6;7;3;9;6;2;7;8;9;4;3;10;4;5;4;6;4;11;3;1;1;4;7;4;10;3;7;2;7;10;2;4;4;0;13;5;6;2;9;12;6;11;10;1;8;5;6;5;1;4;17
+    contributors_count: 251
+    contributors_link: https://github.com/jaegertracing/jaeger/graphs/contributors
+    description: CNCF Jaeger, a Distributed Tracing Platform
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 2832707
+    - color: '#89e051'
+      name: Shell
+      value: 29645
+    - color: '#427819'
+      name: Makefile
+      value: 24717
+    - color: '#3572A5'
+      name: Python
+      value: 13167
+    - color: '#0064bd'
+      name: Jsonnet
+      value: 9510
+    - color: '#384d54'
+      name: Dockerfile
+      value: 5837
+    - color: '#e34c26'
+      name: HTML
+      value: 937
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 340
+    - color: '#64b970'
+      name: sed
+      value: 158
+    latest_commit_date: '2022-08-06T01:30:38Z'
+    latest_commit_link: /jaegertracing/jaeger/commit/38f62031491c869223694506966a4b57d69be256
+    license: Apache License 2.0
+    release_date: '2022-08-03T17:36:11Z'
+    release_link: https://github.com/jaegertracing/jaeger/releases
+    stars: 16163
+  github_start_commit_data:
+    start_commit_link: /jaegertracing/jaeger/commit/4dc35c9e83518c339cbf0bc52c7b39cd028e7659
+    start_date: '2016-04-18T22:22:11Z'
+  homepage_url: https://www.jaegertracing.io/
+  image_data:
+    fileName: jaeger.svg
+    hash: liGBqZr114ntZFMesZBeGxJAAynVF8pRhqzNoPGO2PQ=
+  item: null
+  logo: jaeger.svg
+  name: Jaeger
+  project: graduated
+  repo_url: https://github.com/jaegertracing/jaeger
+  repos:
+  - stars: 16163
+    url: https://github.com/jaegertracing/jaeger
+  twitter: https://twitter.com/JaegerTracing
+  twitter_data:
+    latest_tweet_date: 2022-08-03 19:29:07+00:00

@@ -1,0 +1,73 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/king
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Fabrication Games
+      date: '2012-03-13'
+    - acquiree: Nonstop Games
+      date: '2014-08-13'
+    - acquiree: Z2
+      date: '2015-02-12'
+      price: 150000000
+    - acquiree: Peltarion
+      date: '2022-06-13'
+    city: Stockholm
+    company_type: For Profit
+    country: Sweden
+    description: King.com is an interactive entertainment company that provides online
+      games for global portals, websites, and other media companies.
+    funding: 84000000
+    homepage: https://www.king.com/
+    industries:
+    - Android
+    - Digital Entertainment
+    - Mobile
+    kind: funding
+    linkedin: https://www.linkedin.com/company/king
+    name: King.com
+    num_employees_max: 500
+    num_employees_min: 251
+    parents: []
+    region: Stockholms Lan
+    stockExchange: nyse
+    twitter: https://www.twitter.com/king_games
+  homepage_url: https://king.com/
+  image_data:
+    fileName: king-supporter.svg
+    hash: WA3V5nRd6+mSgiH29b22zITszQ3fwmSSWXQ0pvmgb5I=
+  item: null
+  logo: king.svg
+  name: King (supporter)
+  twitter_data:
+    latest_tweet_date: 2022-07-27 15:24:00+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/ksat-e80c
+  crunchbase_data:
+    acquisitions: []
+    city: "Troms\xF8"
+    company_type: For Profit
+    country: Norway
+    description: Kongsberg Satellite Services
+    homepage: https://www.ksat.no/
+    industries: []
+    linkedin: https://www.linkedin.com/company/kongsberg-satellite-services/
+    name: KSAT
+    num_employees_max: null
+    num_employees_min: null
+    parents: []
+    region: Troms
+    stockExchange: null
+    twitter: https://twitter.com/KSAT_Kongsberg
+  homepage_url: https://www.ksat.no/
+  image_data:
+    fileName: ksat-supporter.svg
+    hash: u926N6et0660xEI99bRpDuc7Muuh4AyIbuzpo0ZU6po=
+  item: null
+  logo: ksat.svg
+  name: KSAT (supporter)
+  twitter_data:
+    latest_tweet_date: 2022-08-01 08:41:29+00:00

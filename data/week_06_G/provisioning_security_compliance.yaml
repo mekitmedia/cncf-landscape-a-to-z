@@ -1,0 +1,705 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/fairwinds
+  crunchbase_data:
+    acquisitions: []
+    city: Boston
+    company_type: For Profit
+    country: United States
+    description: Kubernetes security, policy and compliance experts
+    homepage: https://www.fairwinds.com/
+    industries:
+    - Cloud Computing
+    - Cloud Security
+    - Developer Tools
+    - Information Technology
+    - Software
+    - Subscription Service
+    linkedin: https://www.linkedin.com/company/fairwinds/
+    name: Fairwinds
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: Massachusetts
+    stockExchange: null
+    twitter: https://twitter.com/fairwindsops
+  github_data:
+    contributions: 1;0;0;0;0;4;4;0;0;0;4;5;0;4;0;0;4;0;0;0;0;1;16;3;0;0;0;8;1;2;1;2;2;2;1;1;0;2;0;4;0;0;0;1;1;1;1;1;4;0;0;0
+    contributors_count: 34
+    contributors_link: https://github.com/FairwindsOps/goldilocks/graphs/contributors
+    description: Get your resource requests "Just Right"
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 141882
+    - color: '#563d7c'
+      name: CSS
+      value: 20064
+    - color: '#89e051'
+      name: Shell
+      value: 4268
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 1811
+    - color: '#427819'
+      name: Makefile
+      value: 1037
+    - color: '#384d54'
+      name: Dockerfile
+      value: 735
+    latest_commit_date: '2022-07-14T12:07:00Z'
+    latest_commit_link: /FairwindsOps/goldilocks/commit/0899038bff66a352ec0659986ca31c27a225b596
+    license: Apache License 2.0
+    release_date: '2022-08-03T18:36:59Z'
+    release_link: https://github.com/FairwindsOps/goldilocks/releases
+    stars: 1336
+  github_start_commit_data:
+    start_commit_link: /FairwindsOps/goldilocks/commit/af1cc067e29372380ad8234a16d13389474a834c
+    start_date: '2019-04-25T21:09:34Z'
+  homepage_url: https://www.fairwinds.com/open-source-software
+  image_data:
+    fileName: goldilocks.svg
+    hash: TVnT9w76YdxS9w/pJvonkapbfgZGnEP/apLZxUkkjSs=
+  item: null
+  logo: goldilocks.svg
+  name: Goldilocks
+  repo_url: https://github.com/FairwindsOps/goldilocks
+  repos:
+  - stars: 1336
+    url: https://github.com/FairwindsOps/goldilocks
+  twitter_data:
+    latest_tweet_date: 2022-08-04 20:26:50+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/google
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Deja
+      date: '2001-02-12'
+    - acquiree: Outride
+      date: '2001-09-20'
+    - acquiree: Pyra Labs
+      date: '2003-02-17'
+    - acquiree: Applied Semantics
+      date: '2003-04-28'
+      price: 102000000
+    - acquiree: Neotonic Software
+      date: '2003-06-04'
+    - acquiree: Kaltix
+      date: '2003-09-30'
+    - acquiree: Genius Labs
+      date: '2003-10-07'
+    - acquiree: Sprinks
+      date: '2003-10-23'
+    - acquiree: Ignite Logic
+      date: '2004-05-10'
+    - acquiree: ZipDash
+      date: '2004-09-10'
+    - acquiree: Where 2 Technologies
+      date: '2004-10-09'
+    - acquiree: Keyhole Inc.
+      date: '2004-10-27'
+    - acquiree: Reqwireless
+      date: '2005-01-01'
+    - acquiree: Urchin Software
+      date: '2005-03-28'
+    - acquiree: Dodgeball
+      date: '2005-05-12'
+    - acquiree: Android
+      date: '2005-08-16'
+      price: 50000000
+    - acquiree: Transformic
+      date: '2005-09-15'
+    - acquiree: Skia
+      date: '2005-11-09'
+    - acquiree: Akwan Information Technologies
+      date: '2005-11-17'
+    - acquiree: Phatbits
+      date: '2005-12-27'
+    - acquiree: allPAY
+      date: '2005-12-31'
+    - acquiree: bruNET
+      date: '2005-12-31'
+    - acquiree: dMarc Broadcasting
+      date: '2006-01-01'
+      price: 102000000
+    - acquiree: Measure Map
+      date: '2006-02-14'
+    - acquiree: Upstartle
+      date: '2006-03-09'
+    - acquiree: SketchUp
+      date: '2006-03-14'
+    - acquiree: Orion
+      date: '2006-04-09'
+    - acquiree: 2Web Technologies
+      date: '2006-06-06'
+    - acquiree: Neven Vision
+      date: '2006-08-15'
+    - acquiree: YouTube
+      date: '2006-10-01'
+      price: 1650000000
+    - acquiree: JotSpot
+      date: '2006-10-31'
+    - acquiree: Endoxon
+      date: '2006-12-18'
+      price: 28000000
+    - acquiree: Adscape
+      date: '2007-02-16'
+      price: 23000000
+    - acquiree: Trendalyzer
+      date: '2007-03-16'
+    - acquiree: Tonic Systems
+      date: '2007-04-17'
+    - acquiree: Marratech
+      date: '2007-04-19'
+    - acquiree: FeedBurner
+      date: '2007-05-23'
+      price: 100000000
+    - acquiree: GreenBorder
+      date: '2007-05-29'
+    - acquiree: Panoramio
+      date: '2007-05-31'
+    - acquiree: PeakStream
+      date: '2007-06-05'
+      price: 20300000
+    - acquiree: Zenter
+      date: '2007-06-19'
+    - acquiree: GrandCentral
+      date: '2007-07-01'
+      price: 60000000
+    - acquiree: Postini
+      date: '2007-07-09'
+    - acquiree: Image America, Inc.
+      date: '2007-07-20'
+    - acquiree: Tianya.cn
+      date: '2007-08-20'
+    - acquiree: Zingku
+      date: '2007-09-27'
+    - acquiree: Jaiku
+      date: '2007-10-09'
+      price: 12000000
+    - acquiree: DoubleClick
+      date: '2008-03-11'
+    - acquiree: ZAO Begun
+      date: '2008-07-18'
+      price: 140000000
+    - acquiree: Omnisio
+      date: '2008-07-30'
+    - acquiree: TNC
+      date: '2008-09-12'
+    - acquiree: On2 Technologies
+      date: '2009-02-19'
+      price: 130000000
+    - acquiree: reCAPTCHA
+      date: '2009-09-16'
+    - acquiree: AdMob
+      date: '2009-11-09'
+    - acquiree: Gizmofive
+      date: '2009-11-09'
+      price: 30000000
+    - acquiree: Teracent
+      date: '2009-11-23'
+    - acquiree: AppJet
+      date: '2009-12-04'
+    - acquiree: DocVerse
+      date: '2009-12-05'
+    - acquiree: SayNow
+      date: '2010-01-25'
+    - acquiree: Aardvark
+      date: '2010-02-11'
+    - acquiree: reMail
+      date: '2010-02-17'
+    - acquiree: Picnik
+      date: '2010-03-01'
+    - acquiree: Episodic
+      date: '2010-04-02'
+    - acquiree: Plink Search
+      date: '2010-04-12'
+    - acquiree: Plink Solutions
+      date: '2010-04-12'
+    - acquiree: Agnilux
+      date: '2010-04-20'
+    - acquiree: LabPixies
+      date: '2010-04-27'
+    - acquiree: BumpTop
+      date: '2010-05-02'
+    - acquiree: Global IP Solutions
+      date: '2010-05-18'
+    - acquiree: Simplify Media
+      date: '2010-05-20'
+    - acquiree: Ruba
+      date: '2010-05-21'
+    - acquiree: Invite Media
+      date: '2010-06-02'
+      price: 81000000
+    - acquiree: Freebase
+      date: '2010-07-16'
+    - acquiree: Metaweb Technologies
+      date: '2010-07-16'
+    - acquiree: Slide
+      date: '2010-08-06'
+      price: 182000000
+    - acquiree: Jambool
+      date: '2010-08-09'
+    - acquiree: Zetawire
+      date: '2010-08-13'
+    - acquiree: Like.com
+      date: '2010-08-20'
+    - acquiree: Angstro
+      date: '2010-08-27'
+    - acquiree: SocialDeck
+      date: '2010-08-30'
+    - acquiree: MentorWave Technologies
+      date: '2010-09-12'
+      price: 12000000
+    - acquiree: Quiksee
+      date: '2010-09-14'
+    - acquiree: Plannr
+      date: '2010-09-28'
+    - acquiree: BlindType
+      date: '2010-10-01'
+    - acquiree: Phonetic Arts
+      date: '2010-12-03'
+    - acquiree: Widevine Technologies
+      date: '2010-12-03'
+      price: 160000000
+    - acquiree: eBook Technologies
+      date: '2011-01-12'
+    - acquiree: Fflick
+      date: '2011-01-25'
+    - acquiree: zynamics
+      date: '2011-03-01'
+    - acquiree: BeatThatQuote.com
+      date: '2011-03-07'
+      price: 61208155
+    - acquiree: Green Parrot Pictures
+      date: '2011-03-15'
+    - acquiree: PushLife
+      date: '2011-04-08'
+    - acquiree: ITA Software
+      date: '2011-04-13'
+      price: 700000000
+    - acquiree: Numovis Inc
+      date: '2011-04-25'
+    - acquiree: TalkBin
+      date: '2011-04-25'
+    - acquiree: modu
+      date: '2011-05-20'
+      price: 4900000
+    - acquiree: Sparkbuy
+      date: '2011-05-23'
+    - acquiree: Admeld
+      date: '2011-06-01'
+      price: 411556083
+    - acquiree: PostRank
+      date: '2011-06-03'
+    - acquiree: SageTV
+      date: '2011-06-19'
+    - acquiree: Punchd
+      date: '2011-07-11'
+    - acquiree: JustSpotted
+      date: '2011-07-20'
+    - acquiree: Fridge
+      date: '2011-07-21'
+    - acquiree: PittPatt
+      date: '2011-07-22'
+    - acquiree: The Dealmap
+      date: '2011-08-01'
+    - acquiree: Zave Networks
+      date: '2011-09-02'
+    - acquiree: DailyDeal
+      date: '2011-09-19'
+    - acquiree: SocialGrapple
+      date: '2011-10-10'
+    - acquiree: Zagat
+      date: '2011-10-26'
+      price: 151000000
+    - acquiree: Apture
+      date: '2011-11-10'
+    - acquiree: Katango
+      date: '2011-11-10'
+    - acquiree: RightsFlow
+      date: '2011-12-09'
+    - acquiree: Clever Sense
+      date: '2011-12-13'
+    - acquiree: Milk
+      date: '2012-03-16'
+    - acquiree: TxVia
+      date: '2012-04-02'
+    - acquiree: Motorola Mobility (a Lenovo Company)
+      date: '2012-05-22'
+      price: 12500000000
+    - acquiree: KikScore
+      date: '2012-06-01'
+    - acquiree: Meebo
+      date: '2012-06-04'
+      price: 100000000
+    - acquiree: Quickoffice
+      date: '2012-06-05'
+    - acquiree: Sparrow
+      date: '2012-07-20'
+    - acquiree: Wildfire
+      date: '2012-07-31'
+      price: 350000000
+    - acquiree: Frommer's
+      date: '2012-08-13'
+    - acquiree: VirusTotal
+      date: '2012-09-07'
+    - acquiree: Nik Software, Inc.
+      date: '2012-09-17'
+    - acquiree: Incentive Targeting
+      date: '2012-11-28'
+    - acquiree: BufferBox
+      date: '2012-11-30'
+    - acquiree: BufferBox
+      date: '2012-12-01'
+      price: 17000000
+    - acquiree: Channel Intelligence
+      date: '2013-02-06'
+    - acquiree: Phyzios
+      date: '2013-02-15'
+    - acquiree: DNNresearch
+      date: '2013-03-12'
+    - acquiree: Talaria
+      date: '2013-03-15'
+    - acquiree: Behavio
+      date: '2013-04-18'
+    - acquiree: Wavii
+      date: '2013-04-24'
+      price: 30000000
+    - acquiree: Waze
+      date: '2013-06-11'
+      price: 1300000000
+    - acquiree: WIMM Labs
+      date: '2013-08-31'
+    - acquiree: Bump Technologies
+      date: '2013-09-16'
+      price: 30000000
+    - acquiree: Flutter
+      date: '2013-10-02'
+    - acquiree: FlexyCore
+      date: '2013-10-22'
+      price: 23000000
+    - acquiree: Schaft
+      date: '2013-12-02'
+      price: 20000000
+    - acquiree: Industrial Pereception Inc.
+      date: '2013-12-04'
+    - acquiree: Redwood Robotics
+      date: '2013-12-04'
+    - acquiree: Meka Robotics
+      date: '2013-12-05'
+    - acquiree: Holomni
+      date: '2013-12-06'
+    - acquiree: Bot & Dolly
+      date: '2013-12-07'
+    - acquiree: Autofuss
+      date: '2013-12-08'
+    - acquiree: Boston Dynamics
+      date: '2013-12-13'
+    - acquiree: Gridcentric
+      date: '2014-01-01'
+    - acquiree: Nest Labs
+      date: '2014-01-01'
+      price: 3200000000
+    - acquiree: Impermium
+      date: '2014-01-16'
+    - acquiree: DeepMind
+      date: '2014-01-26'
+      price: 500000000
+    - acquiree: SlickLogin
+      date: '2014-02-16'
+    - acquiree: Spider.io
+      date: '2014-02-21'
+    - acquiree: Green Throttle Games
+      date: '2014-03-12'
+    - acquiree: Titan Aerospace
+      date: '2014-04-14'
+    - acquiree: Rangespan
+      date: '2014-05-02'
+    - acquiree: Adometry By Google
+      date: '2014-05-06'
+    - acquiree: Appetas
+      date: '2014-05-07'
+    - acquiree: Stackdriver
+      date: '2014-05-07'
+    - acquiree: Quest Visual
+      date: '2014-05-16'
+    - acquiree: Divide
+      date: '2014-05-20'
+      price: 120000000
+    - acquiree: Terra Bella
+      date: '2014-06-10'
+      price: 500000000
+    - acquiree: Alpental Technologies
+      date: '2014-06-19'
+    - acquiree: mDialog
+      date: '2014-06-19'
+    - acquiree: Appurify
+      date: '2014-06-25'
+    - acquiree: Songza
+      date: '2014-07-02'
+    - acquiree: CiiNOW
+      date: '2014-07-14'
+    - acquiree: drawElements
+      date: '2014-07-23'
+    - acquiree: Directr
+      date: '2014-08-01'
+    - acquiree: Emu Messenger
+      date: '2014-08-06'
+    - acquiree: Jetpac
+      date: '2014-08-15'
+    - acquiree: Gecko Design Inc.
+      date: '2014-08-22'
+    - acquiree: Zync Render
+      date: '2014-08-26'
+    - acquiree: Lift Labs
+      date: '2014-09-11'
+    - acquiree: Polar
+      date: '2014-09-11'
+    - acquiree: TaggPic (Acquired by Google)
+      date: '2014-09-11'
+    - acquiree: Firebase
+      date: '2014-10-21'
+    - acquiree: Dark Blue Labs
+      date: '2014-10-23'
+    - acquiree: Vision Factory
+      date: '2014-10-23'
+    - acquiree: RelativeWave
+      date: '2014-11-18'
+    - acquiree: Granata Decision Systems
+      date: '2015-01-23'
+    - acquiree: Launchpad Toys
+      date: '2015-02-03'
+    - acquiree: Odysee
+      date: '2015-02-08'
+    - acquiree: Toro
+      date: '2015-02-24'
+    - acquiree: Apportable
+      date: '2015-03-01'
+    - acquiree: Softcard
+      date: '2015-03-04'
+    - acquiree: Skillman & Hackett
+      date: '2015-04-16'
+    - acquiree: Thrive Audio
+      date: '2015-04-16'
+    - acquiree: Timeful
+      date: '2015-05-04'
+    - acquiree: Pulse.io
+      date: '2015-05-28'
+    - acquiree: Agawi Inc
+      date: '2015-06-18'
+    - acquiree: Pixate
+      date: '2015-07-21'
+    - acquiree: Oyster
+      date: '2015-09-21'
+      price: 30000000
+    - acquiree: Jibe Mobile
+      date: '2015-09-30'
+    - acquiree: Divshot
+      date: '2015-10-13'
+    - acquiree: Digisfera
+      date: '2015-10-17'
+    - acquiree: Fly Labs
+      date: '2015-11-06'
+    - acquiree: Bebop
+      date: '2015-11-19'
+      price: 380200000
+    - acquiree: Pie
+      date: '2016-02-18'
+    - acquiree: Synergyse
+      date: '2016-05-01'
+    - acquiree: Webpass
+      date: '2016-06-22'
+    - acquiree: Moodstocks
+      date: '2016-07-06'
+    - acquiree: Anvato
+      date: '2016-07-07'
+    - acquiree: Kifi
+      date: '2016-07-12'
+    - acquiree: LaunchKit
+      date: '2016-07-27'
+    - acquiree: Orbitera
+      date: '2016-08-08'
+    - acquiree: Apigee
+      date: '2016-09-08'
+      price: 625000000
+    - acquiree: Urban Engines
+      date: '2016-09-15'
+    - acquiree: Dialogflow
+      date: '2016-09-19'
+    - acquiree: Undecidable Labs
+      date: '2016-10-01'
+    - acquiree: FameBit
+      date: '2016-10-11'
+    - acquiree: Eyefluence
+      date: '2016-10-24'
+    - acquiree: LeapDroid
+      date: '2016-11-07'
+    - acquiree: Qwiklabs
+      date: '2016-11-21'
+    - acquiree: Cronologics Corporation
+      date: '2016-12-12'
+    - acquiree: Limes Audio
+      date: '2017-01-06'
+    - acquiree: Crashlytics
+      date: '2017-01-18'
+    - acquiree: Fastlane
+      date: '2017-01-18'
+    - acquiree: Kaggle
+      date: '2017-03-07'
+    - acquiree: AppBridge
+      date: '2017-03-09'
+    - acquiree: Owlchemy Labs
+      date: '2017-05-10'
+    - acquiree: Halli Labs
+      date: '2017-07-12'
+    - acquiree: Redux ST
+      date: '2017-08-06'
+    - acquiree: Senosis Health
+      date: '2017-08-14'
+    - acquiree: AIMatter
+      date: '2017-08-16'
+    - acquiree: HTC - Pixel Phone Division
+      date: '2017-09-21'
+      price: 1100000000
+    - acquiree: Relay Media
+      date: '2017-10-09'
+    - acquiree: 60dB
+      date: '2017-10-11'
+    - acquiree: Xively
+      date: '2018-02-15'
+      price: 50000000
+    - acquiree: Banter
+      date: '2018-03-10'
+    - acquiree: Tenor Inc
+      date: '2018-03-27'
+    - acquiree: Velostrata
+      date: '2018-05-09'
+    - acquiree: Cask
+      date: '2018-05-15'
+    - acquiree: GraphicsFuzz
+      date: '2018-08-06'
+    - acquiree: Onward
+      date: '2018-10-02'
+    - acquiree: Workbench Platform
+      date: '2018-11-28'
+    - acquiree: Where Is My Train
+      date: '2018-12-10'
+    - acquiree: DevOps Research and Assessment
+      date: '2018-12-20'
+    - acquiree: Alooma
+      date: '2019-02-19'
+    - acquiree: Looker
+      date: '2019-06-06'
+      price: 2600000000
+    - acquiree: Elastifile
+      date: '2019-07-09'
+    - acquiree: Socratic
+      date: '2019-08-17'
+    - acquiree: Fitbit
+      date: '2019-11-01'
+      price: 2100000000
+    - acquiree: Typhoon Studios
+      date: '2019-12-12'
+    - acquiree: Pointy
+      date: '2020-01-14'
+      price: 163000000
+    - acquiree: AppSheet
+      date: '2020-01-15'
+    - acquiree: North
+      date: '2020-06-29'
+      price: 180000000
+    - acquiree: Neverware
+      date: '2020-12-15'
+    - acquiree: Dysonics
+      date: '2021-04-05'
+    - acquiree: Provino Technologies
+      date: '2021-05-07'
+    - acquiree: Tempow
+      date: '2021-11-17'
+    - acquiree: Siemplify
+      date: '2022-01-04'
+      price: 500000000
+    - acquiree: Mandiant
+      date: '2022-03-08'
+      price: 5400000000
+    - acquiree: Raxium
+      date: '2022-03-17'
+      price: 1000000000
+    city: Mountain View
+    company_type: For Profit
+    country: United States
+    description: Google is a multinational corporation that specializes in Internet-related
+      services and products.
+    funding: 36100000
+    homepage: http://www.google.com/
+    industries:
+    - Collaboration
+    - Enterprise Software
+    - Information Technology
+    - Search Engine
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/google
+    name: Google
+    num_employees_max: 1000000
+    num_employees_min: 10001
+    parents:
+    - https://www.crunchbase.com/organization/alphabet
+    region: California
+    stockExchange: nasdaq
+    ticker: GOOG
+    twitter: https://twitter.com/google
+  github_data:
+    contributions: 13;0;1;0;0;2;4;8;0;0;0;15;10;6;0;0;13;7;2;21;7;0;0;3;4;0;0;1;3;1;1;2;3;0;9;1;0;2;8;5;2;1;4;0;7;1;2;3;0;2;0;0
+    contributors_count: 80
+    contributors_link: https://github.com/grafeas/grafeas/graphs/contributors
+    description: Artifact Metadata API
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 699862
+    - color: '#9DC3FF'
+      name: ANTLR
+      value: 6245
+    - color: '#89e051'
+      name: Shell
+      value: 2019
+    - name: Mustache
+      value: 1033
+    - color: '#427819'
+      name: Makefile
+      value: 871
+    - color: '#384d54'
+      name: Dockerfile
+      value: 454
+    latest_commit_date: '2022-07-21T18:00:38Z'
+    latest_commit_link: /grafeas/grafeas/commit/cd23d4dc1bef740d6d6d90d5007db5c9a2431c41
+    license: Apache License 2.0
+    release_date: '2019-10-18T20:26:34Z'
+    release_link: https://github.com/grafeas/grafeas/releases
+    stars: 1365
+  github_start_commit_data:
+    start_commit_link: /grafeas/grafeas/commit/89d02dffec3b8a1d8d128ae1ccbde2aa80bad028
+    start_date: '2017-10-08T21:00:52Z'
+  homepage_url: https://grafeas.io/
+  image_data:
+    fileName: grafeas.svg
+    hash: SDkKJcUrcK0sBtiB84GpoIA4KGG9tLCmeH8f/hQChOU=
+  item: null
+  logo: grafeas.svg
+  name: Grafeas
+  repo_url: https://github.com/grafeas/grafeas
+  repos:
+  - stars: 1365
+    url: https://github.com/grafeas/grafeas
+  twitter: https://twitter.com/Grafeasio
+  twitter_data:
+    latest_tweet_date: 2021-12-30 21:54:21+00:00
+  yahoo_finance_data:
+    effective_ticker: GOOG
+    market_cap: 1536103284736

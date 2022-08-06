@@ -1,0 +1,305 @@
+- best_practice_data:
+    badge: 5027
+    percentage: 100
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  description: Open source Kubernetes observability for developers
+  extra:
+    accepted: '2021-06-22'
+    blog_url: https://blog.px.dev/
+    slack_url: https://slackin.px.dev/
+    youtube_url: https://www.youtube.com/channel/UCOMCDRvBVNIS0lCyOmst7eg
+  github_data:
+    contributions: 5;73;67;71;37;61;26;51;60;14;55;54;37;36;56;9;31;60;49;2;1;30;67;47;55;63;53;64;32;66;25;21;66;70;41;45;49;35;54;32;1;24;49;45;57;35;56;29;35;39;65;40
+    contributors_count: 52
+    contributors_link: https://github.com/pixie-io/pixie/graphs/contributors
+    description: Instant Kubernetes-Native Application Observability
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#f34b7d'
+      name: C++
+      value: 8522681
+    - color: '#00ADD8'
+      name: Go
+      value: 3847223
+    - color: '#2b7489'
+      name: TypeScript
+      value: 1547350
+    - name: Starlark
+      value: 1088934
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 690556
+    - color: '#3572A5'
+      name: Python
+      value: 682436
+    - color: '#555555'
+      name: C
+      value: 287317
+    - color: '#89e051'
+      name: Shell
+      value: 187149
+    - color: '#4F5D95'
+      name: PHP
+      value: 55924
+    - color: '#701516'
+      name: Ruby
+      value: 39284
+    - color: '#427819'
+      name: Makefile
+      value: 14468
+    - color: '#384d54'
+      name: Dockerfile
+      value: 12884
+    - color: '#b07219'
+      name: Java
+      value: 5257
+    - name: PLpgSQL
+      value: 2809
+    - color: '#c22d40'
+      name: Scala
+      value: 2626
+    - color: '#e34c26'
+      name: HTML
+      value: 1433
+    - name: HCL
+      value: 539
+    - name: Thrift
+      value: 498
+    latest_commit_date: '2022-08-05T23:17:50Z'
+    latest_commit_link: /pixie-io/pixie/commit/0bb6f8c0c6d6e44378fce6b48f6222fcf980d44a
+    license: Apache License 2.0
+    release_date: '2022-08-03T23:17:21Z'
+    release_link: https://github.com/pixie-io/pixie/releases
+    stars: 3646
+  github_start_commit_data:
+    start_commit_link: /pixie-io/pixie/commit/6fa088f31073c6333f82d878ac9bd365c6c9ff77
+    start_date: '2018-06-23T00:26:53Z'
+  homepage_url: https://px.dev/
+  image_data:
+    fileName: pixie.svg
+    hash: F4S+xmfJZpzAq19phqpgqa1PCGzI127BPMAqFDWVorE=
+  item: null
+  logo: pixie.svg
+  name: Pixie
+  project: sandbox
+  repo_url: https://github.com/pixie-io/pixie
+  repos:
+  - stars: 3646
+    url: https://github.com/pixie-io/pixie
+  twitter: https://twitter.com/pixie_run
+  twitter_data:
+    latest_tweet_date: 2022-07-12 00:00:22+00:00
+- best_practice_data:
+    badge: 486
+    percentage: 100
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  extra:
+    accepted: '2016-05-09'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/graduated.md#prometheus-logos
+    blog_url: https://prometheus.io/blog/
+    chat_channel: '#prometheus'
+    dev_stats_url: https://prometheus.devstats.cncf.io/
+    mailing_list_url: https://prometheus.io/community/
+    slack_url: https://freenode.net/
+    stack_overflow_url: https://stackoverflow.com/questions/tagged/prometheus
+    youtube_url: https://www.youtube.com/channel/UC4pLFely0-Odea4B2NL1nWA
+  github_data:
+    contributions: 23;9;47;33;41;36;14;20;11;20;41;24;27;32;86;26;31;45;25;26;12;25;21;14;11;28;11;15;14;14;30;10;11;17;18;16;8;11;17;4;9;30;16;27;23;11;26;11;21;14;4;25
+    contributors_count: 832
+    contributors_link: https://github.com/prometheus/prometheus/graphs/contributors
+    description: The Prometheus monitoring system and time series database.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 4210795
+    - color: '#2b7489'
+      name: TypeScript
+      value: 466211
+    - color: '#e34c26'
+      name: HTML
+      value: 30454
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 28170
+    - color: '#4B6C4B'
+      name: Yacc
+      value: 26012
+    - color: '#89e051'
+      name: Shell
+      value: 16811
+    - name: SCSS
+      value: 12701
+    - color: '#DBCA00'
+      name: Lex
+      value: 5982
+    - color: '#427819'
+      name: Makefile
+      value: 3930
+    - color: '#563d7c'
+      name: CSS
+      value: 3721
+    - color: '#384d54'
+      name: Dockerfile
+      value: 1270
+    latest_commit_date: '2022-08-05T13:49:38Z'
+    latest_commit_link: /prometheus/prometheus/commit/fba20567c0301d48361959a87aefa7d2e0c72815
+    license: Apache License 2.0
+    release_date: '2022-07-14T15:41:38Z'
+    release_link: https://github.com/prometheus/prometheus/releases
+    stars: 43691
+  github_start_commit_data:
+    start_commit_link: /prometheus/prometheus/commit/734d28b515026ca9f429eba0a7d09954bceb6387
+    start_date: '2012-11-24T11:14:12Z'
+  homepage_url: https://prometheus.io/
+  image_data:
+    fileName: prometheus.svg
+    hash: I4EIFdktueFkVsEYWbEPTL1eNE4bMe2BiLdqynSWjOk=
+  item: null
+  logo: prometheus.svg
+  name: Prometheus
+  project: graduated
+  repo_url: https://github.com/prometheus/prometheus
+  repos:
+  - stars: 43691
+    url: https://github.com/prometheus/prometheus
+  twitter: https://twitter.com/PrometheusIO
+  twitter_data:
+    latest_tweet_date: 2022-08-04 14:04:41+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/timescaledb
+  crunchbase_data:
+    acquisitions: []
+    city: New York
+    company_type: For Profit
+    country: United States
+    description: TimescaleDB is an open-source time-series database optimized for
+      fast ingest and complex queries.
+    funding: 181100000
+    homepage: http://www.timescale.com
+    industries:
+    - Computer
+    - Database
+    - Information Services
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/timescaledb
+    name: Timescale
+    num_employees_max: 250
+    num_employees_min: 101
+    parents: []
+    region: New York
+    stockExchange: null
+    twitter: https://twitter.com/timescaledb
+  description: 'The observability backend powered by SQL built on PostgreSQL and TimescaleDB. '
+  github_data:
+    contributions: 10;8;7;3;3;2;15;13;64;34;27;24;9;17;32;38;44;34;17;10;1;13;31;14;11;17;25;20;22;21;8;14;19;5;8;12;5;15;19;36;4;10;14;9;12;16;8;6;24;17;7;3
+    contributors_count: 69
+    contributors_link: https://github.com/timescale/promscale/graphs/contributors
+    description: Promscale is a unified metric and trace observability backend for
+      Prometheus, Jaeger and OpenTelemetry built on PostgreSQL and TimescaleDB.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 2062037
+    - name: PLpgSQL
+      value: 204044
+    - color: '#89e051'
+      name: Shell
+      value: 15959
+    - color: '#3572A5'
+      name: Python
+      value: 10713
+    - color: '#427819'
+      name: Makefile
+      value: 3063
+    - name: Smarty
+      value: 1570
+    - color: '#384d54'
+      name: Dockerfile
+      value: 1426
+    latest_commit_date: '2022-08-04T15:51:53Z'
+    latest_commit_link: /timescale/promscale/commit/a6c30996361308df4f52393db30cd27389ef9942
+    license: Apache License 2.0
+    release_date: '2022-07-22T05:34:35Z'
+    release_link: https://github.com/timescale/promscale/releases
+    stars: 1125
+  github_start_commit_data:
+    start_commit_link: /timescale/promscale/commit/1ecbe3a00a4d016251b36691f979480a4a69794c
+    start_date: '2017-04-28T12:43:48Z'
+  homepage_url: https://timescale.com/promscale
+  image_data:
+    fileName: promscale.svg
+    hash: gUS7Okxe/JH0FMRIASaD4nBwgl6E0HhhIJ5lmtvc3Vo=
+  item: null
+  logo: promscale.svg
+  name: Promscale
+  repo_url: https://github.com/timescale/promscale
+  repos:
+  - stars: 1125
+    url: https://github.com/timescale/promscale
+  twitter_data:
+    latest_tweet_date: 2022-08-05 17:58:39+00:00

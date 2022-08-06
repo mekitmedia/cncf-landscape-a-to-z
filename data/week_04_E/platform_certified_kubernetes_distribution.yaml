@@ -1,0 +1,247 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/easystack
+  crunchbase_data:
+    acquisitions: []
+    city: Beijing
+    company_type: For Profit
+    country: China
+    description: EasyStack provides open cloud solutions and services for China and
+      Asia market.
+    funding: 114000000
+    homepage: http://www.easystack.cn/en/
+    industries:
+    - Cloud Computing
+    - Enterprise
+    - Information Technology
+    kind: funding
+    linkedin: https://www.linkedin.com/company/6656236
+    name: EasyStack
+    num_employees_max: 250
+    num_employees_min: 101
+    parents: []
+    region: Beijing
+    stockExchange: null
+    twitter: https://twitter.com/EasyStackIO
+  description: EasyStack Kubernetes Service's enterprise container platform integrates
+    applications and infrastructure resources through deep integration of Kubernetes
+    and OpenStack platforms in multiple management dimensions such as scheduling,
+    scheduling, security, operation and maintenance, and finally launches a new generation
+    of application delivery in the cloud data center.
+  homepage_url: https://www.easystack.cn/eks
+  image_data:
+    fileName: easy-stack-kubernetes-service-eks.svg
+    hash: /Dfhyg41h7L6RTTWL+ahcpCMYWW1eC6WUydyrFYB7Og=
+  item: null
+  logo: easystack.svg
+  name: EasyStack Kubernetes Service (EKS)
+  twitter_data:
+    latest_tweet_date: 2021-02-10 03:05:14+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/elastisys
+  crunchbase_data:
+    acquisitions: []
+    city: "Ume\xE5"
+    company_type: For Profit
+    country: Sweden
+    description: Elastisys develops and sells a management platform for cloud-based
+      applications like intelligent.
+    funding: 679613
+    homepage: https://elastisys.com/
+    industries:
+    - Cloud Computing
+    - Information Technology
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/elastisys/
+    name: Elastisys
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: Vasterbottens Lan
+    stockExchange: null
+    twitter: https://twitter.com/elastisys
+  description: Compliant Kubernetes (ck8s) is an enterprise-grade Kubernetes distribution,
+    built with security and compliance in mind.
+  github_data:
+    contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+    contributors_count: 11
+    contributors_link: https://github.com/elastisys/ck8s-cluster/graphs/contributors
+    description: Infrastructure and kubernetes provisioner for compliant kubernetes.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 298213
+    - name: HCL
+      value: 84494
+    - color: '#e34c26'
+      name: HTML
+      value: 21151
+    - color: '#89e051'
+      name: Shell
+      value: 16957
+    - color: '#384d54'
+      name: Dockerfile
+      value: 1959
+    - color: '#427819'
+      name: Makefile
+      value: 369
+    latest_commit_date: '2021-02-23T07:59:16Z'
+    latest_commit_link: /elastisys/ck8s-cluster/commit/7bc293a67e476a07829676f4e2eac00c7dd0f300
+    license: Apache License 2.0
+    release_date: '2020-12-11T12:51:46Z'
+    release_link: https://github.com/elastisys/ck8s-cluster/releases
+    stars: 16
+  github_start_commit_data:
+    start_commit_link: /elastisys/ck8s-cluster/commit/495cdb32ed92239d16e0151b7d8dc8c819061bd4
+    start_date: '2020-09-15T08:00:31Z'
+  homepage_url: https://elastisys.io/compliantkubernetes
+  image_data:
+    fileName: elastisys-compliant-kubernetes.svg
+    hash: 3aQKWm66emCLykPiX0LVkHzvJBeDkKwfN6A2wYi29QA=
+  item: null
+  logo: elastisys.svg
+  name: Elastisys Compliant Kubernetes
+  repo_url: https://github.com/elastisys/ck8s-cluster
+  repos:
+  - stars: 16
+    url: https://github.com/elastisys/ck8s-cluster
+  twitter_data:
+    latest_tweet_date: 2022-07-20 06:11:36+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/ericsson
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Advanced Computer Communications
+      date: '1998-09-10'
+      price: 285000000
+    - acquiree: Ericsson Amplified Technologies
+      date: '2000-10-13'
+      price: 100000000
+    - acquiree: Netspira Networks
+      date: '2005-06-03'
+    - acquiree: Teleca
+      date: '2005-07-04'
+    - acquiree: Axxessit AS
+      date: '2005-07-25'
+    - acquiree: Marconi Corporation plc
+      date: '2005-10-25'
+      price: 2137920836
+    - acquiree: Redback Networks
+      date: '2006-12-19'
+      price: 2100000000
+    - acquiree: Entrisphere
+      date: '2007-02-13'
+    - acquiree: Ericsson Television
+      date: '2007-02-26'
+      price: 1390583169
+    - acquiree: LHS Germany
+      date: '2007-06-05'
+      price: 419267931
+    - acquiree: Drutt Corporation
+      date: '2007-06-08'
+    - acquiree: Pride SpA
+      date: '2010-12-01'
+    - acquiree: Optimi Corporation
+      date: '2010-12-22'
+    - acquiree: iconectiv
+      date: '2011-06-14'
+    - acquiree: Technicolor - Broadcast Services
+      date: '2012-03-13'
+      price: 24858275
+    - acquiree: BelAir Networks
+      date: '2012-04-03'
+    - acquiree: Aspex Semiconductor
+      date: '2012-07-31'
+    - acquiree: ConceptWave Software
+      date: '2012-09-25'
+    - acquiree: Red Bee Media
+      date: '2013-07-01'
+    - acquiree: Microsoft Mediaroom
+      date: '2013-09-05'
+    - acquiree: Airvana - EVDO business
+      date: '2013-09-06'
+    - acquiree: Azuki Systems
+      date: '2014-02-06'
+    - acquiree: MetraTech
+      date: '2014-07-29'
+    - acquiree: Fabrix Systems
+      date: '2014-09-12'
+      price: 95000000
+    - acquiree: Apcera
+      date: '2014-09-22'
+    - acquiree: GEOSS
+      date: '2014-09-26'
+    - acquiree: Ambient Corporation
+      date: '2014-10-01'
+    - acquiree: Sentilla
+      date: '2014-10-16'
+    - acquiree: TimelessMIND
+      date: '2015-04-09'
+    - acquiree: Envivio
+      date: '2015-09-10'
+      price: 125000000
+    - acquiree: FYI Television
+      date: '2016-01-19'
+    - acquiree: NodePrime
+      date: '2016-04-05'
+    - acquiree: Ericpol
+      date: '2016-06-21'
+    - acquiree: Allolio&Konrad
+      date: '2016-12-01'
+    - acquiree: VidScale
+      date: '2018-04-04'
+    - acquiree: CENX
+      date: '2018-09-04'
+    - acquiree: Genaker
+      date: '2020-03-12'
+    - acquiree: Cradlepoint
+      date: '2020-09-17'
+      price: 1100000000
+    - acquiree: Vonage
+      date: '2021-11-22'
+      price: 6200000000
+    city: Stockholm
+    company_type: For Profit
+    country: Sweden
+    description: Ericsson is a technology company that provides and operates telecommunications
+      networks, television and video systems, and related services.
+    funding: 663160564
+    homepage: https://www.ericsson.com/en
+    industries:
+    - Information Technology
+    - Internet
+    - Mobile
+    - Telecommunications
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/1060
+    name: Ericsson
+    num_employees_max: 1000000
+    num_employees_min: 10001
+    parents:
+    - https://www.crunchbase.com/organization/investor-ab
+    region: Stockholms Lan
+    stockExchange: nasdaq
+    ticker: ERIC
+    twitter: https://twitter.com/ericsson
+  description: Ericsson Cloud Container Distribution provides container management
+    and orchestration for the Ericsson Telco applications that have been adopted to
+    the Cloud Native based Architecture and run in a container environment.
+  homepage_url: https://www.ericsson.com/en/portfolio/digital-services/cloud-infrastructure/cloud-container-distribution
+  image_data:
+    fileName: ericsson-cloud-container-distribution.svg
+    hash: HhjCc1eNOMDeLu0ftdKCe9SnwIinEmKKa4iqIsIQbWw=
+  item: null
+  logo: ericsson.svg
+  name: Ericsson Cloud Container Distribution
+  twitter_data:
+    latest_tweet_date: 2022-08-05 16:28:32+00:00
+  yahoo_finance_data:
+    effective_ticker: ERIC
+    market_cap: 25476265984

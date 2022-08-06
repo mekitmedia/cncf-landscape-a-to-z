@@ -1,0 +1,1310 @@
+- best_practice_data:
+    badge: 4597
+    percentage: 66
+  crunchbase: https://www.crunchbase.com/organization/mariadb-2
+  crunchbase_data:
+    acquisitions:
+    - acquiree: MammothDB
+      date: '2018-03-27'
+    - acquiree: Clustrix
+      date: '2018-09-20'
+    city: Espoo
+    company_type: For Profit
+    country: Finland
+    description: MariaDB is a new generation cloud database company whose products
+      have been downloaded over 1B times and used by 75% of the Fortune 500.
+    funding: 227175561
+    homepage: https://mariadb.com/
+    industries:
+    - Cloud Management
+    - Database
+    - Enterprise Software
+    - Open Source
+    - Software
+    - Technical Support
+    kind: funding
+    linkedin: https://www.linkedin.com/company/mariadb-corporation/
+    name: MariaDB
+    num_employees_max: 500
+    num_employees_min: 251
+    parents: []
+    region: Southern Finland
+    stockExchange: null
+    twitter: https://twitter.com/mariadb
+  github_data:
+    contributions: 20;48;49;70;96;77;57;46;56;60;68;79;72;50;57;45;38;39;37;34;22;43;57;60;84;66;71;77;53;48;55;60;39;49;61;61;48;75;51;51;53;49;37;60;44;46;54;26;12;25;36;3
+    contributors_count: 1769
+    contributors_link: https://github.com/MariaDB/server/graphs/contributors
+    description: MariaDB server is a community developed fork of MySQL server. Started
+      by core members of the original MySQL team, MariaDB actively works with outside
+      developers to deliver the most featureful, stable, and sanely licensed open
+      SQL server in the industry.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#f34b7d'
+      name: C++
+      value: 42558762
+    - color: '#555555'
+      name: C
+      value: 29079481
+    - color: '#0298c3'
+      name: Perl
+      value: 1809310
+    - color: '#89e051'
+      name: Shell
+      value: 670068
+    - color: '#4B6C4B'
+      name: Yacc
+      value: 625410
+    - name: CMake
+      value: 622937
+    - color: '#438eff'
+      name: Objective-C
+      value: 530036
+    - color: '#b07219'
+      name: Java
+      value: 75362
+    - color: '#3572A5'
+      name: Python
+      value: 68642
+    - color: '#ecdebe'
+      name: Roff
+      value: 31636
+    - name: M4
+      value: 27140
+    - color: '#427819'
+      name: Makefile
+      value: 26547
+    - name: DTrace
+      value: 17036
+    - name: XS
+      value: 15909
+    - color: '#701516'
+      name: Ruby
+      value: 13954
+    - color: '#DBCA00'
+      name: Lex
+      value: 13712
+    - name: Raku
+      value: 10991
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 8079
+    - color: '#C1F12E'
+      name: Batchfile
+      value: 2119
+    - color: '#4F5D95'
+      name: PHP
+      value: 722
+    - color: '#012456'
+      name: PowerShell
+      value: 665
+    - name: Awk
+      value: 633
+    - color: '#e34c26'
+      name: HTML
+      value: 542
+    latest_commit_date: '2022-08-03T17:25:43Z'
+    latest_commit_link: /MariaDB/server/commit/360d99429c97d2bf2e1dc32276e4f3b3f46c9a74
+    license: GNU General Public License v2.0
+    stars: 4386
+  github_start_commit_data:
+    start_commit_link: /MariaDB/server/commit/7eec25e393727b16bb916b50d82b0aa3084e065c
+    start_date: '2000-07-31T19:10:05Z'
+  homepage_url: https://mariadb.com/
+  image_data:
+    fileName: maria-db.svg
+    hash: 8cFRmqvCtKIjsMz1m+BSO2mDUa0I8YcGmS+niTtvKkw=
+  item: null
+  logo: mariadb.svg
+  name: MariaDB
+  repo_url: https://github.com/MariaDB/server
+  repos:
+  - stars: 4386
+    url: https://github.com/MariaDB/server
+  twitter_data:
+    latest_tweet_date: 2022-08-05 23:18:00+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/microsoft
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Forethought
+      date: '1987-07-30'
+      price: 14000000
+    - acquiree: Consumers Software
+      date: '1991-03-08'
+    - acquiree: Fox Software
+      date: '1992-03-25'
+    - acquiree: SoftImage
+      date: '1994-02-15'
+    - acquiree: Altamira Software
+      date: '1994-09-27'
+    - acquiree: NextBase
+      date: '1994-11-01'
+    - acquiree: One Tree Software Ltd
+      date: '1994-11-16'
+    - acquiree: RenderMorphics
+      date: '1995-02-23'
+    - acquiree: Network Managers
+      date: '1995-07-10'
+    - acquiree: Blue Ribbon SoundWorks
+      date: '1995-10-16'
+    - acquiree: Netwise
+      date: '1995-11-06'
+    - acquiree: Bruce Artwick Organization
+      date: '1995-12-12'
+    - acquiree: Vermeer Technologies
+      date: '1996-01-16'
+    - acquiree: Colusa Software
+      date: '1996-03-12'
+    - acquiree: EXOS
+      date: '1996-04-15'
+    - acquiree: Aspect Software Inc
+      date: '1996-04-23'
+    - acquiree: eShop
+      date: '1996-06-11'
+    - acquiree: Electric Gravity
+      date: '1996-06-17'
+    - acquiree: NetCarta
+      date: '1996-12-10'
+    - acquiree: Interse
+      date: '1997-03-03'
+    - acquiree: WebTV Networks
+      date: '1997-04-06'
+    - acquiree: Dimension X
+      date: '1997-05-07'
+    - acquiree: Cooper & Peters
+      date: '1997-06-13'
+    - acquiree: LinkAge Software
+      date: '1997-06-30'
+    - acquiree: VXtreme
+      date: '1997-08-05'
+    - acquiree: Hotmail
+      date: '1997-12-31'
+    - acquiree: Windows Live Hotmail
+      date: '1997-12-31'
+    - acquiree: Firefly Network
+      date: '1998-04-09'
+    - acquiree: MESA Group
+      date: '1998-04-28'
+    - acquiree: Merchant Planet
+      date: '1998-06-23'
+    - acquiree: Valence Research
+      date: '1998-08-25'
+    - acquiree: Valence Technology
+      date: '1998-08-25'
+    - acquiree: linkexchange
+      date: '1998-11-05'
+    - acquiree: FASA Interactive
+      date: '1999-01-08'
+    - acquiree: CompareNet
+      date: '1999-03-04'
+    - acquiree: Numinous Technologies
+      date: '1999-03-28'
+    - acquiree: Jump Networks
+      date: '1999-04-26'
+    - acquiree: ShadowFactor Software
+      date: '1999-06-07'
+    - acquiree: OmniBrowse
+      date: '1999-06-14'
+    - acquiree: Sendit
+      date: '1999-07-01'
+    - acquiree: Zoomit
+      date: '1999-07-07'
+    - acquiree: STNC
+      date: '1999-07-21'
+    - acquiree: Intrinsa
+      date: '1999-07-28'
+      price: 58900000
+    - acquiree: Visio Corporation
+      date: '1999-09-15'
+    - acquiree: Softway Systems
+      date: '1999-09-17'
+    - acquiree: Entropic
+      date: '1999-10-29'
+    - acquiree: Entropic Research Laboratories
+      date: '1999-11-01'
+    - acquiree: Peach Networks
+      date: '2000-02-29'
+    - acquiree: Bungie
+      date: '2000-06-19'
+    - acquiree: NetGames
+      date: '2000-07-12'
+    - acquiree: MongoMusic
+      date: '2000-09-13'
+      price: 65000000
+    - acquiree: Pacific Microsonics
+      date: '2000-09-18'
+    - acquiree: Digital Anvil
+      date: '2000-12-05'
+    - acquiree: Great Plains Software
+      date: '2000-12-21'
+    - acquiree: NCompass Labs
+      date: '2001-04-30'
+    - acquiree: XDegrees
+      date: '2001-09-13'
+    - acquiree: Navision
+      date: '2002-05-07'
+      price: 1450000000
+    - acquiree: Rare
+      date: '2002-09-24'
+      price: 337000000
+    - acquiree: Vicinity Corporation
+      date: '2002-10-22'
+      price: 96000000
+    - acquiree: Connectix
+      date: '2003-02-19'
+    - acquiree: Pelican Security
+      date: '2003-03-04'
+      price: 1000000
+    - acquiree: PlaceWare
+      date: '2003-04-30'
+    - acquiree: RAV Antivirus
+      date: '2003-06-10'
+    - acquiree: ActiveViews
+      date: '2004-04-26'
+    - acquiree: Lookout Software
+      date: '2004-07-17'
+    - acquiree: GIANT Company Software
+      date: '2004-12-16'
+    - acquiree: Sybari
+      date: '2005-02-08'
+    - acquiree: Groove Networks
+      date: '2005-03-10'
+    - acquiree: MessageCast
+      date: '2005-05-11'
+    - acquiree: Frontbridge Technologies
+      date: '2005-07-20'
+    - acquiree: Teleo
+      date: '2005-08-30'
+    - acquiree: Alacris
+      date: '2005-09-19'
+    - acquiree: Unveil Technologies
+      date: '2005-10-06'
+    - acquiree: Media-Streams.com
+      date: '2005-11-02'
+    - acquiree: FolderShare
+      date: '2005-11-03'
+    - acquiree: 5th Finger
+      date: '2005-11-17'
+    - acquiree: SeaDragon Software
+      date: '2006-01-28'
+    - acquiree: Motion Bridge
+      date: '2006-02-13'
+    - acquiree: Apptimum
+      date: '2006-03-07'
+    - acquiree: Onfolio
+      date: '2006-03-07'
+    - acquiree: ProClarity
+      date: '2006-04-03'
+    - acquiree: Lionhead Studios
+      date: '2006-04-06'
+    - acquiree: AssetMetrix Corporation
+      date: '2006-04-26'
+    - acquiree: Massive
+      date: '2006-05-01'
+      price: 200000000
+    - acquiree: DeepMetrix
+      date: '2006-05-04'
+    - acquiree: Vexcel
+      date: '2006-05-04'
+    - acquiree: Whale Communications
+      date: '2006-05-18'
+      price: 75000000
+    - acquiree: iView Multimedia
+      date: '2006-06-27'
+    - acquiree: Softricity
+      date: '2006-07-17'
+    - acquiree: Winternals
+      date: '2006-07-18'
+    - acquiree: Azyxxi
+      date: '2006-07-26'
+    - acquiree: Gteko
+      date: '2006-09-26'
+    - acquiree: DesktopStandard
+      date: '2006-10-02'
+    - acquiree: Colloquis
+      date: '2006-10-12'
+    - acquiree: Medstory
+      date: '2007-02-26'
+    - acquiree: Tellme
+      date: '2007-03-14'
+      price: 800000000
+    - acquiree: Tellme
+      date: '2007-03-14'
+      price: 800000000
+    - acquiree: devBiz Business Solutions
+      date: '2007-03-28'
+    - acquiree: Screen Tonic
+      date: '2007-05-03'
+    - acquiree: aQuantive
+      date: '2007-05-18'
+      price: 6400000000
+    - acquiree: Engyro
+      date: '2007-06-05'
+    - acquiree: Stratature
+      date: '2007-06-07'
+    - acquiree: AdECN
+      date: '2007-07-26'
+    - acquiree: Parlano
+      date: '2007-08-29'
+    - acquiree: Global Care Solutions
+      date: '2007-10-29'
+    - acquiree: Musiwave
+      date: '2007-11-15'
+      price: 46000000
+    - acquiree: WebFives
+      date: '2007-11-30'
+    - acquiree: MultiMap
+      date: '2007-12-12'
+    - acquiree: Fast Search & Transfer
+      date: '2008-01-08'
+    - acquiree: Calista Technologies
+      date: '2008-01-21'
+    - acquiree: Caligari Corporation
+      date: '2008-02-07'
+    - acquiree: Danger
+      date: '2008-02-11'
+      price: 500000000
+    - acquiree: YaData
+      date: '2008-02-27'
+    - acquiree: Credentica
+      date: '2008-03-08'
+    - acquiree: Kidaro
+      date: '2008-03-12'
+      price: 90000000
+    - acquiree: 90 Degree Software
+      date: '2008-03-14'
+    - acquiree: Rapt
+      date: '2008-03-14'
+    - acquiree: Komoku
+      date: '2008-03-20'
+    - acquiree: Farecast
+      date: '2008-04-09'
+      price: 115000000
+    - acquiree: Navic Networks
+      date: '2008-06-18'
+    - acquiree: Navic Systems
+      date: '2008-06-18'
+    - acquiree: MobiComp
+      date: '2008-06-26'
+    - acquiree: Powerset
+      date: '2008-07-01'
+      price: 100000000
+    - acquiree: Zoomix
+      date: '2008-07-14'
+    - acquiree: DATAllegro
+      date: '2008-07-25'
+    - acquiree: Greenfield Online
+      date: '2008-08-29'
+      price: 486000000
+    - acquiree: Ciao
+      date: '2008-08-31'
+    - acquiree: BigPark
+      date: '2009-05-07'
+    - acquiree: Rosetta Biosoftware
+      date: '2009-06-01'
+    - acquiree: ClickStream Technologies
+      date: '2009-06-28'
+    - acquiree: Interactive Supercomputing
+      date: '2009-09-22'
+    - acquiree: Sentillion
+      date: '2009-12-10'
+    - acquiree: Opalis Software
+      date: '2009-12-11'
+    - acquiree: AVIcode
+      date: '2010-10-06'
+    - acquiree: Canesta
+      date: '2010-10-29'
+    - acquiree: Skype
+      date: '2011-05-10'
+    - acquiree: Prodiance Corporation
+      date: '2011-06-08'
+    - acquiree: Twisted Pixel Games
+      date: '2011-10-12'
+    - acquiree: VideoSurf
+      date: '2011-11-23'
+      price: 100000000
+    - acquiree: Yammer
+      date: '2012-06-25'
+      price: 1200000000
+    - acquiree: Perceptive Pixel
+      date: '2012-07-09'
+    - acquiree: PhoneFactor
+      date: '2012-10-04'
+    - acquiree: StorSimple
+      date: '2012-10-16'
+    - acquiree: MarketingPilot
+      date: '2012-10-17'
+    - acquiree: R2 Studios
+      date: '2012-12-28'
+    - acquiree: id8 Group R2 Studios
+      date: '2013-01-02'
+    - acquiree: Pando Networks
+      date: '2013-02-04'
+    - acquiree: MetricsHub
+      date: '2013-03-04'
+    - acquiree: Netbreeze
+      date: '2013-03-19'
+    - acquiree: InRelease
+      date: '2013-06-03'
+    - acquiree: Nokia - Devices & Services Business
+      date: '2013-09-03'
+      price: 7166381241
+    - acquiree: Apiphany
+      date: '2013-10-04'
+    - acquiree: Parature
+      date: '2014-01-06'
+      price: 100000000
+    - acquiree: GreenButton
+      date: '2014-04-30'
+    - acquiree: Capptain
+      date: '2014-05-28'
+    - acquiree: SyntaxTree
+      date: '2014-07-03'
+    - acquiree: InMage Systems
+      date: '2014-07-11'
+    - acquiree: Mojang Studios
+      date: '2014-09-15'
+      price: 2500000000
+    - acquiree: Equivio
+      date: '2014-10-08'
+      price: 200000000
+    - acquiree: Aorato
+      date: '2014-11-13'
+      price: 200000000
+    - acquiree: Acompli
+      date: '2014-12-01'
+      price: 200000000
+    - acquiree: Bit Stadium GmbH
+      date: '2014-12-11'
+    - acquiree: HockeyApp
+      date: '2014-12-11'
+    - acquiree: Revolution Analytics
+      date: '2015-01-23'
+    - acquiree: Sunrise
+      date: '2015-02-04'
+      price: 100000000
+    - acquiree: N-Trig
+      date: '2015-02-12'
+    - acquiree: LiveLoop
+      date: '2015-03-26'
+    - acquiree: Datazen Software
+      date: '2015-04-14'
+    - acquiree: Wunderlist
+      date: '2015-06-02'
+      price: 150000000
+    - acquiree: BlueStripe
+      date: '2015-06-10'
+    - acquiree: FieldOne Systems
+      date: '2015-07-16'
+    - acquiree: Adallom
+      date: '2015-07-19'
+      price: 320000000
+    - acquiree: FantasySalesTeam
+      date: '2015-08-03'
+    - acquiree: Double Labs
+      date: '2015-09-10'
+    - acquiree: VoloMetrix
+      date: '2015-09-11'
+      price: 250000000
+    - acquiree: Echo Locker
+      date: '2015-09-14'
+    - acquiree: Adxstudio
+      date: '2015-09-30'
+    - acquiree: Havok
+      date: '2015-10-02'
+    - acquiree: Mobile Data Labs
+      date: '2015-11-05'
+    - acquiree: Secure Islands Technologies
+      date: '2015-11-09'
+      price: 77500000
+    - acquiree: Metanautix
+      date: '2015-12-18'
+    - acquiree: Talko
+      date: '2015-12-21'
+    - acquiree: Event Zero
+      date: '2016-01-13'
+    - acquiree: MinecraftEdu
+      date: '2016-01-19'
+    - acquiree: SwiftKey
+      date: '2016-02-02'
+      price: 250000000
+    - acquiree: Groove (dba Zikera)
+      date: '2016-02-09'
+    - acquiree: Xamarin
+      date: '2016-02-24'
+    - acquiree: Solair
+      date: '2016-05-03'
+    - acquiree: LinkedIn
+      date: '2016-06-13'
+      price: 26200000000
+    - acquiree: Wand Labs
+      date: '2016-06-16'
+    - acquiree: Code Connect
+      date: '2016-06-28'
+    - acquiree: Mixer
+      date: '2016-08-11'
+    - acquiree: Genee
+      date: '2016-08-22'
+    - acquiree: Maluuba
+      date: '2017-01-13'
+    - acquiree: Donya Labs
+      date: '2017-01-17'
+    - acquiree: Open Build Service
+      date: '2017-04-01'
+    - acquiree: Deis.com
+      date: '2017-04-10'
+    - acquiree: Intentional Software
+      date: '2017-04-18'
+    - acquiree: Hexadite
+      date: '2017-05-24'
+      price: 100000000
+    - acquiree: Cloudyn
+      date: '2017-06-28'
+      price: 60000000
+    - acquiree: Cycle Computing
+      date: '2017-08-15'
+    - acquiree: AltspaceVR
+      date: '2017-10-04'
+    - acquiree: Swing Technologies
+      date: '2017-11-07'
+    - acquiree: Avere Systems
+      date: '2018-01-03'
+    - acquiree: PlayFab
+      date: '2018-01-29'
+    - acquiree: Chalkup
+      date: '2018-02-13'
+    - acquiree: Semantic Machines
+      date: '2018-05-20'
+    - acquiree: GitHub
+      date: '2018-06-03'
+      price: 7500000000
+    - acquiree: Compulsion Games
+      date: '2018-06-10'
+    - acquiree: Ninja Theory
+      date: '2018-06-10'
+    - acquiree: Playground Games
+      date: '2018-06-10'
+    - acquiree: Undead Labs
+      date: '2018-06-10'
+    - acquiree: FlipGrid
+      date: '2018-06-18'
+    - acquiree: Bonsai
+      date: '2018-06-20'
+    - acquiree: Lobe
+      date: '2018-09-13'
+    - acquiree: Obsidian Entertainment
+      date: '2018-11-10'
+    - acquiree: inXile Entertainment
+      date: '2018-11-10'
+    - acquiree: XOXCO
+      date: '2018-11-14'
+    - acquiree: FSLogix
+      date: '2018-11-19'
+    - acquiree: Citus Data
+      date: '2019-01-24'
+    - acquiree: DataSense
+      date: '2019-02-04'
+    - acquiree: Express Logic
+      date: '2019-04-18'
+    - acquiree: BlueTalon
+      date: '2019-07-29'
+    - acquiree: PromoteIQ
+      date: '2019-08-05'
+    - acquiree: jClarity
+      date: '2019-08-19'
+    - acquiree: Movere
+      date: '2019-09-04'
+    - acquiree: Mover
+      date: '2019-10-21'
+    - acquiree: Affirmed Networks
+      date: '2020-03-26'
+      price: 1350000000
+    - acquiree: CyberX
+      date: '2020-05-05'
+      price: 165000000
+    - acquiree: Metaswitch Networks
+      date: '2020-05-14'
+    - acquiree: Softomotive
+      date: '2020-05-19'
+    - acquiree: ADRM Software
+      date: '2020-06-18'
+    - acquiree: Orions Systems
+      date: '2020-07-08'
+    - acquiree: ZeniMax
+      date: '2020-09-21'
+      price: 7500000000
+    - acquiree: Smash.gg
+      date: '2020-12-02'
+    - acquiree: The Marsden Group
+      date: '2021-03-16'
+    - acquiree: Nuance Communications
+      date: '2021-04-12'
+      price: 19700000000
+    - acquiree: Kinvolk
+      date: '2021-04-29'
+    - acquiree: ReFirm Labs
+      date: '2021-06-02'
+    - acquiree: RiskIQ
+      date: '2021-07-11'
+      price: 500000000
+    - acquiree: CloudKnox Security
+      date: '2021-07-21'
+    - acquiree: Suplari
+      date: '2021-07-28'
+    - acquiree: Peer5
+      date: '2021-08-10'
+    - acquiree: Clipchamp
+      date: '2021-09-07'
+    - acquiree: TakeLessons
+      date: '2021-09-10'
+    - acquiree: Ally.io
+      date: '2021-10-07'
+      price: 76000000
+    - acquiree: Clear Software
+      date: '2021-10-22'
+    - acquiree: Two Hat Security
+      date: '2021-10-29'
+    - acquiree: Xandr
+      date: '2021-12-21'
+    - acquiree: Minit
+      date: '2022-03-31'
+    - acquiree: Activision Blizzard
+      date: '2022-04-28'
+      price: 68700000000
+    - acquiree: Miburo
+      date: '2022-06-14'
+    city: Redmond
+    company_type: For Profit
+    country: United States
+    description: Microsoft is a software corporation that develops, manufactures,
+      licenses, supports, and sells a range of software products and services.
+    funding: 1000000
+    homepage: http://www.microsoft.com
+    industries:
+    - Developer Tools
+    - Enterprise Software
+    - Operating Systems
+    - Software
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/microsoft
+    name: Microsoft
+    num_employees_max: 1000000
+    num_employees_min: 10001
+    parents: []
+    region: Washington
+    stockExchange: nasdaq
+    ticker: MSFT
+    twitter: http://twitter.com/Microsoft
+  description: Data-Driven. Faster Insights. Breakthrough Performance. In-Memory Technology.
+    Hybrid Data Platform.
+  homepage_url: https://www.microsoft.com/en-us/sql-server
+  image_data:
+    fileName: microsoft-sql-server.svg
+    hash: PwRWa/GvfQZ6H7oNJZbgBMXb8oeGWJ8ReWUhwR5jQKY=
+  item: null
+  logo: microsoft-sql-server.svg
+  name: Microsoft SQL Server
+  twitter: https://twitter.com/SQLServer
+  twitter_data:
+    latest_tweet_date: 2022-08-04 18:30:00+00:00
+  yahoo_finance_data:
+    effective_ticker: MSFT
+    market_cap: 2109911597056
+- best_practice_data:
+    badge: 293
+    percentage: 79
+  crunchbase: https://www.crunchbase.com/organization/mongodb-inc
+  crunchbase_data:
+    acquisitions:
+    - acquiree: WiredTiger
+      date: '2014-12-16'
+    - acquiree: mLab
+      date: '2018-10-09'
+      price: 68000000
+    - acquiree: Realm
+      date: '2019-04-24'
+      price: 39000000
+    city: New York
+    company_type: For Profit
+    country: United States
+    description: MongoDB is a next-generation database that helps businesses transform
+      their industries by harnessing the power of data.
+    funding: 311000000
+    homepage: http://www.mongodb.com/
+    industries:
+    - Cloud Computing
+    - Database
+    - Open Source
+    - SaaS
+    - Software
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/783611
+    name: MongoDB
+    num_employees_max: 5000
+    num_employees_min: 1001
+    parents: []
+    region: New York
+    stockExchange: nasdaq
+    ticker: MDB
+    twitter: http://twitter.com/mongodb
+  github_data:
+    contributions: 87;129;100;117;101;115;116;142;143;149;146;149;136;161;149;80;129;71;137;99;28;84;158;137;153;137;160;151;117;148;174;147;171;176;176;175;149;157;150;120;130;141;118;138;132;106;128;110;139;53;148;110
+    contributors_count: 952
+    contributors_link: https://github.com/mongodb/mongo/graphs/contributors
+    description: The MongoDB Database
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#f34b7d'
+      name: C++
+      value: 72002188
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 22080991
+    - color: '#3572A5'
+      name: Python
+      value: 4678718
+    - color: '#89e051'
+      name: Shell
+      value: 149755
+    - name: TLA
+      value: 127097
+    - color: '#555555'
+      name: C
+      value: 97904
+    - color: '#4B6C4B'
+      name: Yacc
+      value: 90059
+    - name: Rich Text Format
+      value: 31575
+    - color: '#701516'
+      name: Ruby
+      value: 10820
+    - color: '#384d54'
+      name: Dockerfile
+      value: 2409
+    - color: '#e34c26'
+      name: HTML
+      value: 2134
+    - name: Smarty
+      value: 1567
+    - color: '#012456'
+      name: PowerShell
+      value: 1558
+    - name: GDB
+      value: 411
+    - color: '#C1F12E'
+      name: Batchfile
+      value: 8
+    latest_commit_date: '2022-08-06T00:19:50Z'
+    latest_commit_link: /mongodb/mongo/commit/2bd58dc5ae6f9c5af504a9210f45eb46683ee8f8
+    license: Other
+    stars: 22229
+  github_start_commit_data:
+    start_commit_link: /mongodb/mongo/commit/e73188b5512c82290a4070af4afddac20d0b981e
+    start_date: '2007-10-19T23:35:48Z'
+  homepage_url: https://www.mongodb.com/
+  image_data:
+    fileName: mongo-db.svg
+    hash: 53HegU6SICNispNy+Hbooy0tyEYoxTps2hnw4bXUti0=
+  item: null
+  logo: mongo-db.svg
+  name: MongoDB
+  open_source: false
+  repo_url: https://github.com/mongodb/mongo
+  repos:
+  - stars: 22229
+    url: https://github.com/mongodb/mongo
+  twitter_data:
+    latest_tweet_date: 2022-08-05 17:10:53+00:00
+  yahoo_finance_data:
+    effective_ticker: MDB
+    market_cap: 24306155520
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/oracle
+  crunchbase_data:
+    acquisitions:
+    - acquiree: DataLogix International
+      date: '1996-01-01'
+    - acquiree: NetForce
+      date: '2002-01-16'
+    - acquiree: TopLink
+      date: '2002-06-05'
+    - acquiree: Steltor
+      date: '2002-07-02'
+    - acquiree: Filefish
+      date: '2003-06-15'
+    - acquiree: SiteWorks Solutions
+      date: '2004-01-22'
+    - acquiree: Collaxa
+      date: '2004-06-14'
+    - acquiree: PeopleSoft
+      date: '2004-12-13'
+      price: 10300000000
+    - acquiree: Istante Software
+      date: '2004-12-20'
+    - acquiree: Temposoft
+      date: '2005-01-10'
+    - acquiree: Retek
+      date: '2005-03-21'
+      price: 630000000
+    - acquiree: Oblix
+      date: '2005-03-28'
+    - acquiree: TimesTen
+      date: '2005-06-09'
+    - acquiree: TripleHop Technologies
+      date: '2005-06-20'
+    - acquiree: ProfitLogic
+      date: '2005-07-05'
+    - acquiree: Context Media
+      date: '2005-08-11'
+    - acquiree: G-Log
+      date: '2005-09-20'
+    - acquiree: Innobase
+      date: '2005-10-07'
+    - acquiree: Octetstring
+      date: '2005-11-16'
+    - acquiree: Thor Technologies
+      date: '2005-11-16'
+    - acquiree: 360Commerce
+      date: '2006-01-18'
+    - acquiree: Siebel
+      date: '2006-01-31'
+    - acquiree: Sleepycat Software
+      date: '2006-02-14'
+    - acquiree: Hotsip
+      date: '2006-02-16'
+    - acquiree: Portal Software
+      date: '2006-04-12'
+      price: 220000000
+    - acquiree: Net4Call
+      date: '2006-04-18'
+    - acquiree: Demantra
+      date: '2006-06-01'
+    - acquiree: Telephony@Work
+      date: '2006-06-13'
+    - acquiree: Sigma Dynamics
+      date: '2006-08-23'
+    - acquiree: Siebel Systems
+      date: '2006-09-12'
+      price: 5850000000
+    - acquiree: Sunopsis
+      date: '2006-10-09'
+    - acquiree: MetaSolv
+      date: '2006-10-23'
+      price: 219000000
+    - acquiree: Stellent
+      date: '2006-11-02'
+      price: 440000000
+    - acquiree: SPL WorldGroup
+      date: '2006-11-03'
+    - acquiree: Hyperion Solutions
+      date: '2007-03-01'
+      price: 3300000000
+    - acquiree: Tangosol
+      date: '2007-03-23'
+    - acquiree: Appforge
+      date: '2007-04-18'
+    - acquiree: LODESTAR Corporation
+      date: '2007-04-24'
+    - acquiree: Agile Software
+      date: '2007-05-15'
+      price: 495000000
+    - acquiree: Bharosa
+      date: '2007-07-18'
+    - acquiree: Bridgestream
+      date: '2007-08-17'
+    - acquiree: Netsure Telecom
+      date: '2007-09-03'
+    - acquiree: Active Reasoning
+      date: '2007-09-30'
+    - acquiree: Logical Apps
+      date: '2007-10-01'
+    - acquiree: Interlace Systems
+      date: '2007-10-24'
+    - acquiree: Moniforce
+      date: '2007-12-06'
+    - acquiree: BEA Systems
+      date: '2008-01-16'
+      price: 8500000000
+    - acquiree: Captovation
+      date: '2008-01-16'
+    - acquiree: Empirix - e-TEST Suite Products
+      date: '2008-03-27'
+    - acquiree: AdminServer
+      date: '2008-05-13'
+    - acquiree: Global Knowledge Software
+      date: '2008-07-31'
+    - acquiree: Skywire Software
+      date: '2008-08-01'
+    - acquiree: ClearApp
+      date: '2008-09-02'
+    - acquiree: Advanced Visual Technology
+      date: '2008-10-01'
+    - acquiree: Primavera Systems
+      date: '2008-10-08'
+    - acquiree: Haley Limited
+      date: '2008-10-29'
+    - acquiree: RuleBurst Holdings
+      date: '2008-10-29'
+    - acquiree: Tacit Software
+      date: '2008-11-03'
+    - acquiree: mValent
+      date: '2009-02-04'
+    - acquiree: Relsys International
+      date: '2009-03-23'
+    - acquiree: JAVA
+      date: '2009-04-01'
+    - acquiree: Sun Microsystems
+      date: '2009-04-20'
+      price: 7400000000
+    - acquiree: Virtual Iron Software
+      date: '2009-05-14'
+    - acquiree: Conformia Software
+      date: '2009-06-17'
+    - acquiree: GoldenGate Software
+      date: '2009-07-23'
+    - acquiree: HyperRoll
+      date: '2009-09-29'
+    - acquiree: Sophoi
+      date: '2009-10-12'
+    - acquiree: Silver Creek Systems
+      date: '2010-01-04'
+    - acquiree: AmberPoint
+      date: '2010-02-08'
+    - acquiree: Convergin
+      date: '2010-02-10'
+    - acquiree: Phase Forward
+      date: '2010-04-20'
+      price: 685000000
+    - acquiree: Secerno
+      date: '2010-05-20'
+    - acquiree: Market2Lead
+      date: '2010-05-25'
+    - acquiree: eServGlobal - Assets
+      date: '2010-05-26'
+    - acquiree: DataScaler
+      date: '2010-10-01'
+    - acquiree: Passlogix
+      date: '2010-10-06'
+    - acquiree: ATG (Art Technology Group)
+      date: '2010-11-02'
+      price: 1000000000
+    - acquiree: Datanomic
+      date: '2011-06-21'
+    - acquiree: FatWire Software
+      date: '2011-06-21'
+    - acquiree: Pillar Data Systems
+      date: '2011-06-29'
+    - acquiree: Ksplice
+      date: '2011-07-21'
+    - acquiree: InQuira
+      date: '2011-07-28'
+    - acquiree: GoAhead Software
+      date: '2011-09-22'
+    - acquiree: Endeca
+      date: '2011-10-18'
+    - acquiree: RightNow Technologies
+      date: '2011-10-24'
+      price: 1500000000
+    - acquiree: Taleo
+      date: '2012-02-09'
+      price: 1900000000
+    - acquiree: ClearTrial
+      date: '2012-03-29'
+    - acquiree: Vitrue
+      date: '2012-05-23'
+      price: 300000000
+    - acquiree: Collective Intellect
+      date: '2012-06-05'
+    - acquiree: Involver
+      date: '2012-07-10'
+    - acquiree: Skire
+      date: '2012-07-19'
+    - acquiree: Xsigo Systems
+      date: '2012-07-30'
+    - acquiree: SelectMinds
+      date: '2012-09-17'
+    - acquiree: Instantis
+      date: '2012-11-08'
+    - acquiree: DataRaker
+      date: '2012-12-13'
+    - acquiree: Eloqua
+      date: '2012-12-20'
+      price: 871000000
+    - acquiree: Acme Packet
+      date: '2013-02-04'
+      price: 2100000000
+    - acquiree: Nimbula
+      date: '2013-03-13'
+    - acquiree: i-flex Solutions
+      date: '2013-03-23'
+      price: 909000000
+    - acquiree: Tekelec International
+      date: '2013-03-25'
+    - acquiree: Compendium
+      date: '2013-10-17'
+    - acquiree: BigMachines
+      date: '2013-10-24'
+      price: 400000000
+    - acquiree: Bitzer Mobile
+      date: '2013-11-15'
+    - acquiree: Nirvanix
+      date: '2013-12-04'
+    - acquiree: Responsys
+      date: '2013-12-20'
+      price: 1500000000
+    - acquiree: Corente
+      date: '2014-01-07'
+    - acquiree: BlueKai
+      date: '2014-02-24'
+    - acquiree: GreenBytes
+      date: '2014-05-15'
+    - acquiree: LiveLOOK
+      date: '2014-06-20'
+    - acquiree: MICROS Systems
+      date: '2014-06-23'
+      price: 5300000000
+    - acquiree: TOA Technologies
+      date: '2014-07-31'
+    - acquiree: Front Porch Digital
+      date: '2014-09-14'
+    - acquiree: Datalogix
+      date: '2014-12-22'
+      price: 1200000000
+    - acquiree: CloudMonkey
+      date: '2015-06-30'
+    - acquiree: Maxymiser
+      date: '2015-08-20'
+    - acquiree: StackEngine
+      date: '2015-12-18'
+    - acquiree: AddThis
+      date: '2016-01-05'
+      price: 200000000
+    - acquiree: Ravello Systems
+      date: '2016-02-22'
+      price: 500000000
+    - acquiree: Crosswise
+      date: '2016-04-14'
+      price: 50000000
+    - acquiree: Textura
+      date: '2016-04-28'
+      price: 663000000
+    - acquiree: Opower
+      date: '2016-05-02'
+      price: 532000000
+    - acquiree: NetSuite
+      date: '2016-07-28'
+      price: 9300000000
+    - acquiree: LogFire
+      date: '2016-09-06'
+    - acquiree: Palerra
+      date: '2016-09-18'
+    - acquiree: Oracle Dyn
+      date: '2016-11-21'
+    - acquiree: Apiary
+      date: '2017-01-19'
+      price: 74613025
+    - acquiree: Wercker
+      date: '2017-04-17'
+    - acquiree: Moat
+      date: '2017-04-18'
+      price: 850000000
+    - acquiree: Aconex Limited
+      date: '2017-12-17'
+      price: 1200000000
+    - acquiree: Zenedge
+      date: '2018-02-15'
+    - acquiree: SparklineData
+      date: '2018-04-10'
+    - acquiree: Grapeshot
+      date: '2018-04-24'
+    - acquiree: Vocado
+      date: '2018-04-30'
+    - acquiree: DataScience.com
+      date: '2018-05-16'
+    - acquiree: Iridize
+      date: '2018-09-24'
+    - acquiree: goBalto
+      date: '2018-10-17'
+    - acquiree: DataFox
+      date: '2018-11-15'
+    - acquiree: Talari Networks
+      date: '2018-11-15'
+    - acquiree: Oxygen Systems
+      date: '2019-06-26'
+    - acquiree: CrowdTwist
+      date: '2019-10-02'
+    - acquiree: Sauce Video
+      date: '2020-04-27'
+    - acquiree: Nor1
+      date: '2020-11-19'
+    - acquiree: Cerner
+      date: '2021-12-17'
+      price: 28300000000
+    - acquiree: Federos
+      date: '2021-12-21'
+    - acquiree: Adi Insights
+      date: '2022-05-01'
+    city: Redwood Shores
+    company_type: For Profit
+    country: United States
+    description: Oracle is an integrated cloud application and platform services that
+      sells a range of enterprise information technology solutions.
+    funding: 0
+    homepage: https://www.oracle.com
+    industries:
+    - Enterprise Software
+    - Information Technology
+    - SaaS
+    - Software
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/oracle
+    name: Oracle
+    num_employees_max: 1000000
+    num_employees_min: 10001
+    parents: []
+    region: California
+    stockExchange: nyse
+    ticker: ORCL
+    twitter: https://twitter.com/Oracle
+  github_data:
+    contributions: 88;92;128;133;94;89;84;79;89;74;75;198;95;128;150;127;91;106;84;34;11;51;64;158;96;106;78;107;75;86;89;98;67;68;84;47;22;41;36;32;19;14;28;7;1;2;3;1;0;0;0;0
+    contributors_count: 611
+    contributors_link: https://github.com/mysql/mysql-server/graphs/contributors
+    description: MySQL Server, the world's most popular open source database, and
+      MySQL Cluster, a real-time, open source transactional database.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#f34b7d'
+      name: C++
+      value: 148888045
+    - color: '#555555'
+      name: C
+      value: 31103382
+    - color: '#b07219'
+      name: Java
+      value: 3571494
+    - name: NASL
+      value: 2364543
+    - color: '#427819'
+      name: Makefile
+      value: 2344672
+    - name: CMake
+      value: 1924955
+    - color: '#438eff'
+      name: Objective-C
+      value: 1449147
+    - color: '#89e051'
+      name: Shell
+      value: 1209145
+    - color: '#0298c3'
+      name: Perl
+      value: 1150872
+    - color: '#e34c26'
+      name: HTML
+      value: 1014888
+    - color: '#4B6C4B'
+      name: Yacc
+      value: 647772
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 432346
+    - color: '#E3F171'
+      name: Pascal
+      value: 287656
+    - name: M4
+      value: 283338
+    - color: '#ecdebe'
+      name: Roff
+      value: 202374
+    - color: '#4F5D95'
+      name: PHP
+      value: 167896
+    - name: Starlark
+      value: 78500
+    - color: '#6E4C13'
+      name: Assembly
+      value: 55498
+    - color: '#3572A5'
+      name: Python
+      value: 34659
+    - name: SWIG
+      value: 27008
+    - name: DIGITAL Command Language
+      value: 26402
+    - color: '#DBCA00'
+      name: Lex
+      value: 20635
+    - name: Awk
+      value: 16428
+    - color: '#C1F12E'
+      name: Batchfile
+      value: 15901
+    - name: RPC
+      value: 15045
+    - color: '#f0a9f0'
+      name: Gnuplot
+      value: 11869
+    - color: '#dbb284'
+      name: Pawn
+      value: 9713
+    - color: '#012456'
+      name: PowerShell
+      value: 9419
+    - color: '#5c7611'
+      name: SourcePawn
+      value: 8385
+    - color: '#c065db'
+      name: Emacs Lisp
+      value: 8220
+    - color: '#185619'
+      name: LLVM
+      value: 5692
+    - color: '#199f4b'
+      name: Vim script
+      value: 3805
+    - name: POV-Ray SDL
+      value: 2954
+    - color: '#563d7c'
+      name: CSS
+      value: 2508
+    - name: Module Management System
+      value: 1545
+    - color: '#384d54'
+      name: Dockerfile
+      value: 533
+    - name: VBA
+      value: 433
+    - color: '#dad8d8'
+      name: PLSQL
+      value: 280
+    latest_commit_date: '2022-07-06T18:02:18Z'
+    latest_commit_link: /mysql/mysql-server/commit/fbdaa4def30d269bc4de5b85de61de34b11c0afc
+    license: Other
+    stars: 8094
+  github_start_commit_data:
+    start_commit_link: /mysql/mysql-server/commit/7eec25e393727b16bb916b50d82b0aa3084e065c
+    start_date: '2000-07-31T19:10:05Z'
+  homepage_url: https://www.oracle.com/mysql/
+  image_data:
+    fileName: my-sql.svg
+    hash: Ouq+UfAJEMOZBPobLl/z889X6uQ5wO/oaSNswUgx6LE=
+  item: null
+  logo: my-sql.svg
+  name: MySQL
+  repo_url: https://github.com/mysql/mysql-server
+  repos:
+  - stars: 8094
+    url: https://github.com/mysql/mysql-server
+  twitter: https://twitter.com/mysql
+  twitter_data:
+    latest_tweet_date: 2022-08-04 00:49:29+00:00
+  yahoo_finance_data:
+    effective_ticker: ORCL
+    market_cap: 206132330496

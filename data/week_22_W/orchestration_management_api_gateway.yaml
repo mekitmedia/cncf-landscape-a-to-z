@@ -1,0 +1,87 @@
+- best_practice_data:
+    badge: 3312
+    percentage: 90
+  crunchbase: https://www.crunchbase.com/organization/wso2
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Platformer
+      date: '2021-06-16'
+    city: Santa Clara
+    company_type: For Profit
+    country: United States
+    description: WSO2 is an open source API-first integration vendor that offers a
+      broad technology platform to rapidly build digital products.
+    funding: 133500000
+    homepage: https://wso2.com
+    industries:
+    - Enterprise Software
+    - Information Technology
+    - Open Source
+    - SaaS
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/wso2
+    name: WSO2
+    num_employees_max: 1000
+    num_employees_min: 501
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/wso2
+  github_data:
+    contributions: 23;11;22;26;23;20;12;36;59;58;36;58;36;23;62;72;98;102;19;5;0;30;2;16;36;36;53;38;35;45;44;21;78;91;31;26;31;33;9;22;17;51;18;39;17;30;29;8;9;10;4;3
+    contributors_count: 45
+    contributors_link: https://github.com/wso2/product-microgateway/graphs/contributors
+    description: Choreo Connect is a cloud-native, open-source, and developer-centric
+      API gateway.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#b07219'
+      name: Java
+      value: 2549231
+    - color: '#00ADD8'
+      name: Go
+      value: 913049
+    - color: '#000080'
+      name: Lua
+      value: 48888
+    - color: '#f34b7d'
+      name: C++
+      value: 27105
+    - color: '#89e051'
+      name: Shell
+      value: 26838
+    - color: '#384d54'
+      name: Dockerfile
+      value: 13398
+    - color: '#e34c26'
+      name: HTML
+      value: 5724
+    - name: Starlark
+      value: 2894
+    - name: Jinja
+      value: 1646
+    - name: Open Policy Agent
+      value: 539
+    latest_commit_date: '2022-08-03T05:50:01Z'
+    latest_commit_link: /wso2/product-microgateway/commit/e4b94fb5105e109218ffdd467c6b99ba471e950d
+    license: Apache License 2.0
+    release_date: '2022-06-08T18:05:34Z'
+    release_link: https://github.com/wso2/product-microgateway/releases
+    stars: 223
+  github_start_commit_data:
+    start_commit_link: /wso2/product-microgateway/commit/5fe7e4641635d86a0626fe187fbf295e8c97d0d6
+    start_date: '2018-05-23T08:27:57Z'
+  homepage_url: https://wso2.com/api-manager/api-microgateway
+  image_data:
+    fileName: wso2-api-microgateway.svg
+    hash: CG5TPySSLO+G06e++6v3muqccqfmKZ7NhHj1rze/IJo=
+  item: null
+  logo: wso2.svg
+  name: WSO2 API Microgateway
+  repo_url: https://github.com/wso2/product-microgateway
+  repos:
+  - stars: 223
+    url: https://github.com/wso2/product-microgateway
+  twitter_data:
+    latest_tweet_date: 2022-08-05 11:57:00+00:00

@@ -1,0 +1,270 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/canonical-ltd
+  crunchbase_data:
+    acquisitions: []
+    city: London
+    company_type: For Profit
+    country: United Kingdom
+    description: Canonical is a computer software company that markets commercial
+      support and related services for Ubuntu and related projects.
+    funding: 12800000
+    homepage: http://www.canonical.com
+    industries:
+    - Cloud Computing
+    - Internet of Things
+    - Linux
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/canonical-ltd-
+    name: Canonical
+    num_employees_max: 1000
+    num_employees_min: 501
+    parents: []
+    region: England
+    stockExchange: null
+    twitter: http://twitter.com/Canonical
+  description: Self-service, remote installation of Windows, CentOS, ESXi and Ubuntu
+    on real servers turns your data center into a bare-metal cloud.
+  github_data:
+    contributions: 18;40;57;37;21;32;31;36;37;41;45;24;34;41;17;26;19;26;20;0;0;29;27;19;16;35;37;16;19;28;24;18;36;46;39;161;127;104;94;43;20;22;50;95;64;61;64;91;26;14;43;4
+    contributors_count: 166
+    contributors_link: https://github.com/maas/maas/graphs/contributors
+    description: Official MAAS repository mirror (may be out of date). Development
+      happens in Launchpad (https://git.launchpad.net/maas/).
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#3572A5'
+      name: Python
+      value: 18176682
+    - name: PLpgSQL
+      value: 480624
+    - color: '#89e051'
+      name: Shell
+      value: 84381
+    - color: '#427819'
+      name: Makefile
+      value: 17124
+    - color: '#00ADD8'
+      name: Go
+      value: 8328
+    - color: '#e34c26'
+      name: HTML
+      value: 754
+    latest_commit_date: '2022-08-01T08:27:22Z'
+    latest_commit_link: /maas/maas/commit/a9e9029d0153a938e5a73b9d1de5b59252e64c6a
+    license: Other
+    stars: 218
+  github_start_commit_data:
+    start_commit_link: /maas/maas/commit/6fd9157bb077a6ce54a33812cecd6049eed98551
+    start_date: '2012-01-16T08:33:18Z'
+  homepage_url: https://maas.io/
+  image_data:
+    fileName: maas.svg
+    hash: fsqheVMcIHa0eaed30B3aDmKYe9Ob4bhjOv2ns+S/oA=
+  item: null
+  logo: maas.svg
+  name: MAAS
+  repo_url: https://github.com/maas/maas
+  repos:
+  - stars: 218
+    url: https://github.com/maas/maas
+  twitter_data:
+    latest_tweet_date: 2022-08-05 08:30:58+00:00
+- best_practice_data:
+    badge: 4282
+    percentage: 99
+  crunchbase: https://www.crunchbase.com/organization/manageiq
+  crunchbase_data:
+    acquisitions: []
+    city: Mahwah
+    company_type: For Profit
+    country: United States
+    description: "ManageIQ is a commercial open-source software\_firm enabling organizations\
+      \ to deploy, manage and optimize private, public and hybrid\_clouds."
+    funding: 5400000
+    homepage: http://www.manageiq.com
+    industries:
+    - Cloud Management
+    - SaaS
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/56141
+    name: ManageIQ
+    num_employees_max: 100
+    num_employees_min: 51
+    parents: []
+    region: New Jersey
+    stockExchange: null
+    twitter: http://twitter.com/manageiq
+  github_data:
+    contributions: 24;15;45;10;12;21;20;32;29;43;19;18;31;21;27;11;13;30;15;12;0;24;21;5;30;11;20;31;20;22;24;34;16;19;20;8;13;15;16;24;18;18;21;24;15;17;21;12;27;16;16;3
+    contributors_count: 359
+    contributors_link: https://github.com/ManageIQ/manageiq/graphs/contributors
+    description: ManageIQ Open-Source Management Platform
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#701516'
+      name: Ruby
+      value: 7804230
+    - color: '#89e051'
+      name: Shell
+      value: 23186
+    - color: '#563d7c'
+      name: CSS
+      value: 3042
+    - color: '#e34c26'
+      name: HTML
+      value: 2167
+    - color: '#384d54'
+      name: Dockerfile
+      value: 839
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 183
+    latest_commit_date: '2022-08-05T15:37:18Z'
+    latest_commit_link: /ManageIQ/manageiq/commit/30a9e126caac18d48f1cc683068254e5fd8f9e57
+    license: Apache License 2.0
+    stars: 1209
+  github_start_commit_data:
+    start_commit_link: /ManageIQ/manageiq/commit/d34d87219092431c22c88a5865f25f9942ebe1ea
+    start_date: '2014-06-13T02:33:38Z'
+  homepage_url: https://www.manageiq.org/
+  image_data:
+    fileName: manage-iq.svg
+    hash: MDSHIX/fUZYwwUedVfHH2IUK+g3z78MTVBEVGIphq44=
+  item: null
+  logo: manage-iq.svg
+  name: ManageIQ
+  repo_url: https://github.com/ManageIQ/manageiq
+  repos:
+  - stars: 1209
+    url: https://github.com/ManageIQ/manageiq
+  twitter_data:
+    latest_tweet_date: 2022-07-18 21:24:22+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  extra:
+    artwork_url: https://github.com/cncf/artwork/tree/master/projects/metal3
+    blog_url: https://metal3.io/blog/index.html
+    dev_stats_url: https://metal3.devstats.cncf.io/
+    mailing_list_url: https://groups.google.com/g/metal3-dev
+    slack_url: https://kubernetes.slack.com/messages/CHD49TLE7
+    youtube_url: https://www.youtube.com/channel/UC_xneeYbo-Dl4g-U78xW15g/videos
+  homepage_url: https://metal3.io/
+  image_data:
+    fileName: metal3-io.svg
+    hash: XBhWDjwG5oKEW22szFjlX+Fhxz3M8V47EGAhvN73AG0=
+  item: null
+  logo: metal3.svg
+  name: Metal3-io
+  project: sandbox
+  twitter: https://twitter.com/metal3_io
+  twitter_data:
+    latest_tweet_date: 2020-09-09 18:19:52+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/mist-io
+  crunchbase_data:
+    acquisitions: []
+    city: San Francisco
+    company_type: For Profit
+    country: United States
+    description: Mist is an open source multi-cloud management platform
+    funding: 838841
+    homepage: https://mist.io
+    industries:
+    - Cloud Computing
+    - Cloud Management
+    - SaaS
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/mist-io
+    name: Mist.io
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: http://twitter.com/mist_io
+  github_data:
+    contributions: 2;3;0;5;1;7;3;23;18;16;16;17;25;11;13;4;11;8;5;4;0;1;17;1;1;1;4;2;3;0;1;2;5;20;24;17;1;0;5;3;3;18;4;15;17;16;8;7;1;8;0;0
+    contributors_count: 25
+    contributors_link: https://github.com/mistio/mist-ce/graphs/contributors
+    description: Mist is an open source, multicloud management platform
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#3572A5'
+      name: Python
+      value: 11876
+    - color: '#89e051'
+      name: Shell
+      value: 4827
+    - color: '#384d54'
+      name: Dockerfile
+      value: 2146
+    - color: '#e34c26'
+      name: HTML
+      value: 1562
+    - name: Mustache
+      value: 1419
+    - name: HCL
+      value: 82
+    latest_commit_date: '2022-07-19T09:32:08Z'
+    latest_commit_link: /mistio/mist-ce/commit/30295e625e7bcd8f77425f98fdcd791fe5ba48e0
+    license: Apache License 2.0
+    release_date: '2022-07-31T12:22:36Z'
+    release_link: https://github.com/mistio/mist-ce/releases
+    stars: 1644
+  github_start_commit_data:
+    start_commit_link: /mistio/mist-ce/commit/59d99c61c3dbd481cf41f7cf9eb5bcc002d36243
+    start_date: '2017-03-29T15:52:27Z'
+  homepage_url: https://mist.io/
+  image_data:
+    fileName: mist-io.svg
+    hash: /EromxW90Ahl4V8XLByw0RmjD7URFaY5HEWbn77cKG0=
+  item: null
+  joined: '2021-02-01'
+  logo: mistio.svg
+  name: Mist.io
+  repo_url: https://github.com/mistio/mist-ce
+  repos:
+  - stars: 1644
+    url: https://github.com/mistio/mist-ce
+  twitter_data:
+    latest_tweet_date: 2022-08-02 14:10:31+00:00

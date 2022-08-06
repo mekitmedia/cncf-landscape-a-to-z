@@ -1,0 +1,208 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/reddit
+  crunchbase_data:
+    acquisitions:
+    - acquiree: RedditGifts
+      date: '2011-08-23'
+    - acquiree: Alien Blue
+      date: '2014-10-16'
+    - acquiree: Dubsmash
+      date: '2020-12-14'
+    - acquiree: Spell
+      date: '2022-06-16'
+    - acquiree: MeaningCloud
+      date: '2022-07-02'
+    city: San Francisco
+    company_type: For Profit
+    country: United States
+    description: Reddit is an online platform that enables users to submit links,
+      create content, and have discussions about the topics of their interest.
+    funding: 1329049748
+    homepage: https://www.redditinc.com
+    industries:
+    - Content
+    - News
+    - Social Media
+    - Social Network
+    kind: funding
+    linkedin: https://www.linkedin.com/company/reddit-com
+    name: Reddit
+    num_employees_max: 1000
+    num_employees_min: 501
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: http://twitter.com/reddit
+  homepage_url: https://www.reddit.com/
+  image_data:
+    fileName: reddit-supporter.svg
+    hash: TiLFb/IWkPoiwFEQfJkCRW+0TMpCycp+B8Q8tjyE44Y=
+  item: null
+  logo: reddit-supporter.svg
+  name: Reddit (supporter)
+  twitter_data:
+    latest_tweet_date: 2022-08-05 18:58:02+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/rewe-group
+  crunchbase_data:
+    acquisitions:
+    - acquiree: ZooRoyal
+      date: '2014-03-14'
+    city: Cologne
+    company_type: For Profit
+    country: Germany
+    description: Rewe Group is an trading, travel and tourism company.
+    homepage: http://www.rewe-group.com
+    industries:
+    - Food and Beverage
+    - Retail
+    - Tourism
+    - Travel
+    linkedin: https://www.linkedin.com/company/rewegroup/
+    name: Rewe Group
+    num_employees_max: 1000000
+    num_employees_min: 10001
+    parents: []
+    region: Nordrhein-Westfalen
+    stockExchange: null
+    twitter: http://twitter.com/rewe_group
+  homepage_url: https://rewe-group.at/de
+  image_data:
+    fileName: rewe-international-dienstleistungsges-m-b-h-supporter.svg
+    hash: L2y2wT8Hx4HV3DmVL3Cpu2bGo33hGbGSd54QqXlikfY=
+  item: null
+  joined: '2021-04-26'
+  logo: rewe-group.svg
+  name: REWE International Dienstleistungsges.m.b.h. (supporter)
+  twitter_data:
+    latest_tweet_date: 2022-08-05 09:27:01+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/ricardo-ch
+  crunchbase_data:
+    acquisitions: []
+    city: Zug
+    company_type: For Profit
+    country: Switzerland
+    description: The ricardo Group operates the leading online marketplace in Switzerland.
+    funding: 0
+    homepage: http://www.ricardo.ch/
+    industries:
+    - Auctions
+    - E-Commerce
+    - Internet
+    - Marketplace
+    - Online Auctions
+    - Retail
+    - Shopping
+    linkedin: https://www.linkedin.com/company/ricardo.ch
+    name: ricardo Group
+    num_employees_max: 250
+    num_employees_min: 101
+    parents:
+    - https://www.crunchbase.com/organization/tradus-in
+    region: Zug
+    stockExchange: null
+    twitter: http://twitter.com/ricardo_ch
+  homepage_url: https://www.ricardo.ch/
+  image_data:
+    fileName: ricardo-ch-supporter.svg
+    hash: BWXt7nD81/0baDLPgb+2Di/evbRLgza5D8KLhI9of3o=
+  item: null
+  logo: ricardo.svg
+  name: Ricardo.ch (supporter)
+  twitter_data:
+    latest_tweet_date: 2022-08-04 08:13:21+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/robinhood
+  crunchbase_data:
+    acquisitions:
+    - acquiree: MarketSnacks
+      date: '2019-03-25'
+    - acquiree: Binc
+      date: '2021-03-15'
+    - acquiree: Say
+      date: '2021-08-10'
+      price: 140000000
+    - acquiree: Cove Markets
+      date: '2021-12-14'
+    - acquiree: Ziglu
+      date: '2022-04-19'
+    city: Menlo Park
+    company_type: For Profit
+    country: United States
+    description: Robinhood is a stock brokerage that allows customers to buy and sell
+      stocks, options, ETFs, and cryptocurrencies with zero commission.
+    funding: 6174623000
+    homepage: https://www.robinhood.com/
+    industries:
+    - Cryptocurrency
+    - FinTech
+    - Stock Exchanges
+    - Trading Platform
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/robinhood/
+    name: Robinhood
+    num_employees_max: 5000
+    num_employees_min: 1001
+    parents: []
+    region: California
+    stockExchange: nasdaq
+    ticker: HOOD
+    twitter: http://twitter.com/robinhoodapp
+  homepage_url: https://www.robinhood.com/us/en/
+  image_data:
+    fileName: robinhood-supporter.svg
+    hash: EhJRlLP3HXl5Y8KP+7TTWuUtN4YSq6FGfRS+GDsGgRQ=
+  item: null
+  joined: '2021-07-21'
+  logo: robinhood.svg
+  name: Robinhood (supporter)
+  twitter_data:
+    latest_tweet_date: 2022-08-05 20:24:12+00:00
+  yahoo_finance_data:
+    effective_ticker: HOOD
+    market_cap: 8691019776
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/rstudio
+  crunchbase_data:
+    acquisitions: []
+    city: Boston
+    company_type: For Profit
+    country: United States
+    description: RStudio develops open source and enterprise-ready professional software
+      for the R statistical computing environment.
+    funding: 166384540
+    homepage: http://www.rstudio.com/
+    industries:
+    - Developer Tools
+    - Enterprise Software
+    - Software
+    - Web Browsers
+    kind: funding
+    linkedin: https://www.linkedin.com/company/rstudio-pbc/
+    name: RStudio
+    num_employees_max: 500
+    num_employees_min: 251
+    parents: []
+    region: Massachusetts
+    stockExchange: null
+    twitter: https://twitter.com/rstudio
+  homepage_url: https://rstudio.com/
+  image_data:
+    fileName: r-studio-supporter.svg
+    hash: n9D9D7ZTzhhPUvIT/DKjfp6K0TMovfKownaWyC4lWw0=
+  item: null
+  logo: rstudio.svg
+  name: RStudio (supporter)
+  twitter_data:
+    latest_tweet_date: 2022-08-04 17:10:22+00:00

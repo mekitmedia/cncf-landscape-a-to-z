@@ -1,0 +1,95 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/iguaz-io
+  crunchbase_data:
+    acquisitions: []
+    city: Herzliya
+    company_type: For Profit
+    country: Israel
+    description: Iguazio is a data science platform that enables them to develop,
+      deploy, and manage AI applications at scale and in real-time.
+    funding: 72000000
+    homepage: http://www.iguazio.com
+    industries:
+    - Analytics
+    - Artificial Intelligence
+    - Big Data
+    - Machine Learning
+    - PaaS
+    - Real Time
+    - SaaS
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/iguazio
+    name: Iguazio
+    num_employees_max: 100
+    num_employees_min: 51
+    parents: []
+    region: Tel Aviv
+    stockExchange: null
+    twitter: https://twitter.com/iguazio
+  github_data:
+    contributions: 8;4;5;1;4;6;8;4;8;4;14;7;4;2;4;8;4;0;4;10;8;9;10;6;3;8;10;7;8;7;1;13;5;7;12;9;9;0;3;5;1;4;7;1;1;2;3;8;2;10;5;3
+    contributors_count: 73
+    contributors_link: https://github.com/nuclio/nuclio/graphs/contributors
+    description: High-Performance Serverless event and data processing platform
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 2866433
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 206545
+    - color: '#3572A5'
+      name: Python
+      value: 106362
+    - name: Less
+      value: 50648
+    - color: '#b07219'
+      name: Java
+      value: 36197
+    - color: '#384d54'
+      name: Dockerfile
+      value: 27847
+    - color: '#178600'
+      name: C#
+      value: 25339
+    - color: '#e34c26'
+      name: HTML
+      value: 24331
+    - color: '#427819'
+      name: Makefile
+      value: 23480
+    - color: '#89e051'
+      name: Shell
+      value: 15971
+    - color: '#701516'
+      name: Ruby
+      value: 9788
+    - name: Smarty
+      value: 4058
+    latest_commit_date: '2022-08-04T10:50:34Z'
+    latest_commit_link: /nuclio/nuclio/commit/98b24aa63b331a47703ea0d49c567854516a86bd
+    license: Apache License 2.0
+    release_date: '2022-07-26T15:53:54Z'
+    release_link: https://github.com/nuclio/nuclio/releases
+    stars: 4498
+  github_start_commit_data:
+    start_commit_link: /nuclio/nuclio/commit/d2f43903dd5e249f768baa220871893fdb391b94
+    start_date: '2017-06-04T20:03:53Z'
+  homepage_url: https://nuclio.io/
+  image_data:
+    fileName: nuclio.svg
+    hash: kM8FJxgQCnbDQEqV6OppzR4OwC8lP4tnTsxjaf/Ti30=
+  item: null
+  logo: nuclio.svg
+  name: Nuclio
+  repo_url: https://github.com/nuclio/nuclio
+  repos:
+  - stars: 4498
+    url: https://github.com/nuclio/nuclio
+  twitter: https://twitter.com/nuclioio
+  twitter_data:
+    latest_tweet_date: 2020-01-30 07:36:33+00:00

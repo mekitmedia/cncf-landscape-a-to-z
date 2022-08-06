@@ -1,0 +1,154 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/linbit
+  crunchbase_data:
+    acquisitions: []
+    city: Beaverton
+    company_type: For Profit
+    country: United States
+    description: LINBIT is an open source partner for block storage.
+    homepage: http://www.linbit.com
+    industries:
+    - Cloud Computing
+    - Cloud Data Services
+    - Data Storage
+    - Flash Storage
+    - Information Technology
+    - Linux
+    - Open Source
+    - Software
+    linkedin: https://www.linkedin.com/company/2773681
+    name: LINBIT
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: Oregon
+    stockExchange: null
+    twitter: http://twitter.com/LINBIT
+  description: High Performance Software-Defined Block Storage for container, cloud
+    and virtualisation. Fully integrated with Docker, Kubernetes, Openstack, Proxmox
+    etc.
+  github_data:
+    contributions: 9;17;26;20;9;11;17;23;18;11;10;7;7;18;8;11;16;7;9;2;2;1;10;9;11;13;1;10;8;23;10;9;11;7;6;5;8;5;5;6;4;19;8;9;6;5;3;5;5;7;4;0
+    contributors_count: 16
+    contributors_link: https://github.com/LINBIT/linstor-server/graphs/contributors
+    description: High Performance Software-Defined Block Storage for container, cloud
+      and virtualisation. Fully integrated with Docker, Kubernetes, Openstack, Proxmox
+      etc.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#b07219'
+      name: Java
+      value: 11793594
+    - color: '#3572A5'
+      name: Python
+      value: 16012
+    - color: '#555555'
+      name: C
+      value: 11730
+    - color: '#427819'
+      name: Makefile
+      value: 7211
+    - color: '#89e051'
+      name: Shell
+      value: 3003
+    latest_commit_date: '2022-07-27T06:36:11Z'
+    latest_commit_link: /LINBIT/linstor-server/commit/a758bf07796c374fd2004465b0d8690209b74356
+    license: GNU General Public License v3.0
+    release_date: '2022-07-27T07:51:20Z'
+    release_link: https://github.com/LINBIT/linstor-server/releases
+    stars: 571
+  github_start_commit_data:
+    start_commit_link: /LINBIT/linstor-server/commit/8cc4c51d910d47b375912e38e4e6342c026b0618
+    start_date: '2016-11-02T14:55:53Z'
+  homepage_url: https://www.linbit.com/linstor/
+  image_data:
+    fileName: linstor.svg
+    hash: E9bG8LC+ZHCAM38yrHtaJsqTEHNPlcR+hTjQiVkMW1U=
+  item: null
+  logo: linstor.svg
+  name: LINSTOR
+  repo_url: https://github.com/LINBIT/linstor-server
+  repos:
+  - stars: 571
+    url: https://github.com/LINBIT/linstor-server
+  twitter: https://twitter.com/linbit
+  twitter_data:
+    latest_tweet_date: 2022-08-05 15:07:00+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  extra:
+    accepted: '2019-10-11'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#longhorn-logos
+    dev_stats_url: https://longhorn.devstats.cncf.io/
+  github_data:
+    contributions: 2;6;8;11;2;6;2;0;7;1;2;1;1;1;8;3;3;2;4;1;0;4;3;1;0;0;2;1;4;7;5;5;3;3;1;1;4;2;5;5;12;5;6;6;7;1;0;0;2;7;2;4
+    contributors_count: 75
+    contributors_link: https://github.com/longhorn/longhorn/graphs/contributors
+    description: Cloud-Native distributed storage built on and for Kubernetes
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#89e051'
+      name: Shell
+      value: 28100
+    - color: '#3572A5'
+      name: Python
+      value: 3735
+    - name: Mustache
+      value: 1998
+    latest_commit_date: '2022-08-02T07:41:33Z'
+    latest_commit_link: /longhorn/longhorn/commit/95ef30ba7203648d975235ac598ed775a0dbbb48
+    license: Apache License 2.0
+    release_date: '2022-07-29T08:28:21Z'
+    release_link: https://github.com/longhorn/longhorn/releases
+    stars: 3986
+  github_start_commit_data:
+    start_commit_link: /longhorn/longhorn/commit/507e62ecd7a82cb279831c03703f351481b9a13a
+    start_date: '2017-04-14T19:57:02Z'
+  homepage_url: https://longhorn.io/
+  image_data:
+    fileName: longhorn.svg
+    hash: rloYDZ+a1XIGD5Dg+xFzwEmXrqw3UOLHaIh6XoZzmDA=
+  item: null
+  logo: longhorn.svg
+  name: Longhorn
+  project: incubating
+  repo_url: https://github.com/longhorn/longhorn
+  repos:
+  - stars: 3986
+    url: https://github.com/longhorn/longhorn
+  twitter_data:
+    latest_tweet_date: 2022-08-05 21:09:37+00:00

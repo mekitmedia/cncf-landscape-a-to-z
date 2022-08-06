@@ -1,0 +1,120 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/apache
+  crunchbase_data:
+    acquisitions: []
+    city: Forest Hill
+    company_type: Non Profit
+    country: United States
+    description: Apache Software Foundation provides organizational, legal and financial
+      support for Apache open-source software projects.
+    homepage: http://www.apache.org
+    industries:
+    - Non Profit
+    - Software
+    linkedin: https://www.linkedin.com/company/the-apache-software-foundation
+    name: The Apache Software Foundation
+    num_employees_max: 10
+    num_employees_min: 1
+    parents: []
+    region: Maryland
+    stockExchange: null
+    twitter: http://twitter.com/TheASF
+  github_data:
+    contributions: 60;57;54;62;59;42;78;67;73;60;48;96;87;83;83;36;88;86;78;94;56;214;155;77;88;118;114;77;63;99;75;92;104;84;93;73;95;65;85;90;50;65;57;83;112;65;48;40;71;42;46;33
+    contributors_count: 1312
+    contributors_link: https://github.com/apache/beam/graphs/contributors
+    description: Apache Beam is a unified programming model for Batch and Streaming
+      data processing.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#b07219'
+      name: Java
+      value: 40228565
+    - color: '#3572A5'
+      name: Python
+      value: 10256366
+    - color: '#00ADD8'
+      name: Go
+      value: 5474490
+    - color: '#2b7489'
+      name: TypeScript
+      value: 1921795
+    - color: '#e69f56'
+      name: Groovy
+      value: 947432
+    - color: '#00B4AB'
+      name: Dart
+      value: 603938
+    - color: '#89e051'
+      name: Shell
+      value: 354394
+    - name: SCSS
+      value: 316040
+    - color: '#F18E33'
+      name: Kotlin
+      value: 210816
+    - color: '#e34c26'
+      name: HTML
+      value: 175084
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 116131
+    - name: HCL
+      value: 101646
+    - name: Cython
+      value: 62964
+    - color: '#DA5B0B'
+      name: Jupyter Notebook
+      value: 55818
+    - color: '#384d54'
+      name: Dockerfile
+      value: 50241
+    - name: Sass
+      value: 25396
+    - color: '#0050b2'
+      name: FreeMarker
+      value: 7933
+    - color: '#563d7c'
+      name: CSS
+      value: 4957
+    - color: '#555555'
+      name: C
+      value: 3869
+    - color: '#000080'
+      name: Lua
+      value: 3620
+    - name: Thrift
+      value: 3260
+    - name: Smarty
+      value: 2618
+    - color: '#9DC3FF'
+      name: ANTLR
+      value: 1598
+    - color: '#c22d40'
+      name: Scala
+      value: 1429
+    latest_commit_date: '2022-08-05T23:36:00Z'
+    latest_commit_link: /apache/beam/commit/17fb9c0342064cd4375b0d7f2c37e12a175d03ef
+    license: Apache License 2.0
+    release_date: '2022-06-23T16:01:42Z'
+    release_link: https://github.com/apache/beam/releases
+    stars: 5753
+  github_start_commit_data:
+    start_commit_link: /apache/beam/commit/7f3b74c052f0473dab30677214e187d676876237
+    start_date: '2014-12-13T18:56:14Z'
+  homepage_url: https://beam.apache.org/
+  image_data:
+    fileName: beam.svg
+    hash: 9T1TwEAEHWhhltt+OUm0qMfpbiIpdPM728mU+H9cVr0=
+  item: null
+  logo: beam.svg
+  name: Beam
+  repo_url: https://github.com/apache/beam
+  repos:
+  - stars: 5753
+    url: https://github.com/apache/beam
+  twitter: https://twitter.com/ApacheBeam
+  twitter_data:
+    latest_tweet_date: 2022-08-05 23:27:35+00:00

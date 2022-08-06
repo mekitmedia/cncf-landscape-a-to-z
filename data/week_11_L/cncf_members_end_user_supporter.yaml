@@ -1,0 +1,130 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/die-mobiliar
+  crunchbase_data:
+    acquisitions:
+    - acquiree: bexio
+      date: '2018-07-05'
+    city: Bern
+    company_type: For Profit
+    country: Switzerland
+    description: Die Mobiliar is a furniture startup and an old private insurance
+      company in Switzerland.
+    homepage: https://www.mobiliar.ch
+    industries:
+    - Health Insurance
+    - Insurance
+    linkedin: https://www.linkedin.com/company/die-mobiliar
+    name: Die Mobiliar
+    num_employees_max: 5000
+    num_employees_min: 1001
+    parents: []
+    region: Bern
+    stockExchange: null
+    twitter: https://twitter.com/diemobiliar
+  homepage_url: https://www.mobiliar.ch/
+  image_data:
+    fileName: la-mobiliere-supporter.svg
+    hash: rLTBfB0ecrjD8sQRHghvwi5q0Vh2xbOSHfDOWGYY880=
+  item: null
+  logo: la-mobiliere-supporter.svg
+  name: La Mobiliere (supporter)
+  twitter_data:
+    latest_tweet_date: 2022-08-04 14:22:08+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/lowes
+  crunchbase_data:
+    acquisitions:
+    - acquiree: ATG
+      date: '2011-12-29'
+    - acquiree: Orchard Supply Hardware
+      date: '2013-06-17'
+    - acquiree: RONA
+      date: '2016-02-03'
+      price: 2300000000
+    - acquiree: Maintenance Supply Headquarters
+      date: '2017-05-18'
+    - acquiree: Boomerang Commerce
+      date: '2019-05-20'
+    - acquiree: StainMaster
+      date: '2021-04-22'
+    city: Mooresville
+    company_type: For Profit
+    country: United States
+    description: "Lowe\u2019s provides the skills you need to manage your home, and\
+      \ offer the best customer services."
+    funding: 5000000000
+    homepage: https://www.lowes.com
+    industries:
+    - Hardware
+    - Home Renovation
+    - Manufacturing
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/lowe's-home-improvement
+    name: "Lowe\u2019s"
+    num_employees_max: 1000000
+    num_employees_min: 10001
+    parents: []
+    region: North Carolina
+    stockExchange: nyse
+    ticker: LOW
+    twitter: http://twitter.com/Lowes
+  homepage_url: https://www.lowes.com/
+  image_data:
+    fileName: lowe-s-supporter.svg
+    hash: wGDCCo0fLfcbiDReygDm5QkDHUOeABnL9IeefO2N2xE=
+  item: null
+  logo: lowes.svg
+  name: Lowe's (supporter)
+  twitter_data:
+    latest_tweet_date: 2022-08-06 04:00:14+00:00
+  yahoo_finance_data:
+    effective_ticker: LOW
+    market_cap: 127237808128
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/lunar-bank
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Lendify
+      date: '2021-04-20'
+    - acquiree: Paylike
+      date: '2021-10-12'
+    - acquiree: Instabank
+      date: '2022-03-28'
+      price: 149483074
+    city: Aarhus
+    company_type: For Profit
+    country: Denmark
+    description: Lunar is a digital bank that offers a mobile-based banking app that
+      helps consumers manage their personal finances.
+    funding: 448352296
+    homepage: http://www.lunar.app
+    industries:
+    - Banking
+    - Credit Cards
+    - Debit Cards
+    - FinTech
+    - Financial Services
+    kind: funding
+    linkedin: https://www.linkedin.com/company/lunarbank
+    name: Lunar
+    num_employees_max: 500
+    num_employees_min: 251
+    parents: []
+    region: Midtjylland
+    stockExchange: null
+    twitter: https://twitter.com/lunarmoney
+  homepage_url: https://www.lunar.app/en/personal
+  image_data:
+    fileName: lunar-supporter.svg
+    hash: xhsWiecV79G1bdg8fELzU9KMUGRL24p8tSFdbWb2TTA=
+  item: null
+  logo: lunar.svg
+  name: Lunar (supporter)
+  twitter_data:
+    latest_tweet_date: 2022-07-06 13:33:05+00:00

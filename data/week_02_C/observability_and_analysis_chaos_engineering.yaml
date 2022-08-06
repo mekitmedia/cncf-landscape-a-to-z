@@ -1,0 +1,249 @@
+- best_practice_data:
+    badge: 4185
+    percentage: 25
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  extra:
+    accepted: '2020-07-14'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#chaos-mesh-logos
+    blog_url: https://chaos-mesh.org/blog/
+    dev_stats_url: https://chaosmesh.devstats.cncf.io/
+    slack_url: https://join.slack.com/t/cloud-native/shared_invite/zt-fyy3b8up-qHeDNVqbz1j8HDY6g1cY4w
+    youtube_url: https://www.youtube.com/channel/UC4OwT4QTd0ML3YNnV1ybT6g
+  github_data:
+    contributions: 7;15;4;7;8;8;17;3;1;12;4;4;12;11;10;14;9;8;12;13;6;5;16;7;9;0;8;4;7;11;13;10;11;16;7;14;9;15;1;7;7;9;6;8;7;3;6;9;8;4;8;5
+    contributors_count: 151
+    contributors_link: https://github.com/chaos-mesh/chaos-mesh/graphs/contributors
+    description: A Chaos Engineering Platform for Kubernetes.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 2725654
+    - color: '#2b7489'
+      name: TypeScript
+      value: 1068876
+    - color: '#89e051'
+      name: Shell
+      value: 174045
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 27768
+    - color: '#427819'
+      name: Makefile
+      value: 14763
+    - color: '#3572A5'
+      name: Python
+      value: 10994
+    - color: '#e69f56'
+      name: Groovy
+      value: 10333
+    - color: '#384d54'
+      name: Dockerfile
+      value: 10285
+    - name: Smarty
+      value: 8001
+    - color: '#555555'
+      name: C
+      value: 6297
+    - name: Mustache
+      value: 5940
+    - color: '#e34c26'
+      name: HTML
+      value: 2432
+    - color: '#563d7c'
+      name: CSS
+      value: 2254
+    latest_commit_date: '2022-08-05T03:38:06Z'
+    latest_commit_link: /chaos-mesh/chaos-mesh/commit/7dd858f22221e3547da9df18204c4de949faa9f9
+    license: Apache License 2.0
+    release_date: '2022-08-04T09:44:42Z'
+    release_link: https://github.com/chaos-mesh/chaos-mesh/releases
+    stars: 5064
+  github_start_commit_data:
+    start_commit_link: /pingcap/chaos-mesh/commit/453016475efec6c6cbeb932443d1651828f63a22
+    start_date: '2019-09-04T02:29:55Z'
+  homepage_url: https://chaos-mesh.org/
+  image_data:
+    fileName: chaos-mesh.svg
+    hash: dqeqQWULxkTCkMICSbpCCW+PdFqQrIGmwL6dwr1Jt74=
+  item: null
+  logo: chaos-mesh.svg
+  name: Chaos Mesh
+  project: incubating
+  repo_url: https://github.com/chaos-mesh/chaos-mesh
+  repos:
+  - stars: 5064
+    url: https://github.com/chaos-mesh/chaos-mesh
+  twitter: https://twitter.com/chaos_mesh
+  twitter_data:
+    latest_tweet_date: 2022-08-04 10:41:00+00:00
+- best_practice_data:
+    badge: 2238
+    percentage: 66
+  crunchbase: https://www.crunchbase.com/organization/chaosiq
+  crunchbase_data:
+    acquisitions: []
+    city: Eastbourne
+    company_type: For Profit
+    country: United Kingdom
+    description: The Chaos Engineering Open Source Company
+    homepage: https://www.chaosiq.io
+    industries:
+    - Software
+    linkedin: https://www.linkedin.com/company/chaosiq
+    name: ChaosIQ
+    num_employees_max: 10
+    num_employees_min: 1
+    parents: []
+    region: East Sussex
+    stockExchange: null
+    twitter: https://twitter.com/chaosiqio
+  github_data:
+    contributions: 7;4;12;1;0;2;0;0;7;0;0;3;0;0;0;0;0;0;0;0;0;5;0;0;0;0;6;0;24;1;5;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+    contributors_count: 16
+    contributors_link: https://github.com/chaostoolkit/chaostoolkit/graphs/contributors
+    description: Chaos Engineering Toolkit & Orchestration for Developers
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#3572A5'
+      name: Python
+      value: 56033
+    - color: '#384d54'
+      name: Dockerfile
+      value: 746
+    - color: '#427819'
+      name: Makefile
+      value: 523
+    latest_commit_date: '2022-07-11T16:23:33Z'
+    latest_commit_link: /chaostoolkit/chaostoolkit/commit/50e6244b19fa5286c4ef7dfa56d24cc4eea769cc
+    license: Apache License 2.0
+    release_date: '2022-02-25T09:14:47Z'
+    release_link: https://github.com/chaostoolkit/chaostoolkit/releases
+    stars: 1573
+  github_start_commit_data:
+    start_commit_link: /chaostoolkit/chaostoolkit/commit/1fdd5c8808ac46ba1848923076f0a2ee14cd16c9
+    start_date: '2017-09-24T15:49:06Z'
+  homepage_url: https://chaostoolkit.org/
+  image_data:
+    fileName: chaos-toolkit.svg
+    hash: VptrNHNfpKGzUjV79yHXcLTZ6uEjdG6K1KCfoAxntdU=
+  item: null
+  logo: chaos-toolkit.svg
+  name: Chaos Toolkit
+  repo_url: https://github.com/chaostoolkit/chaostoolkit
+  repos:
+  - stars: 1573
+    url: https://github.com/chaostoolkit/chaostoolkit
+  twitter: https://twitter.com/chaostoolkit
+  twitter_data:
+    latest_tweet_date: 2022-08-05 08:57:25+00:00
+- best_practice_data:
+    badge: 5032
+    percentage: 69
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  github_data:
+    contributions: 0;3;0;2;2;0;0;0;0;0;0;0;0;0;0;1;2;0;0;0;0;3;0;0;0;0;3;0;1;0;0;0;1;1;1;1;0;4;3;2;0;1;0;0;2;1;1;0;0;1;2;0
+    contributors_count: 40
+    contributors_link: https://github.com/chaosblade-io/chaosblade/graphs/contributors
+    description: "An easy to use and powerful chaos engineering experiment toolkit.\uFF08\
+      \u963F\u91CC\u5DF4\u5DF4\u5F00\u6E90\u7684\u4E00\u6B3E\u7B80\u5355\u6613\u7528\
+      \u3001\u529F\u80FD\u5F3A\u5927\u7684\u6DF7\u6C8C\u5B9E\u9A8C\u6CE8\u5165\u5DE5\
+      \u5177\uFF09"
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 219523
+    - color: '#427819'
+      name: Makefile
+      value: 12064
+    - color: '#384d54'
+      name: Dockerfile
+      value: 4886
+    - color: '#555555'
+      name: C
+      value: 3378
+    latest_commit_date: '2022-07-29T07:49:00Z'
+    latest_commit_link: /chaosblade-io/chaosblade/commit/2b501c7d13a165d571e3fb59e91057cc521519e0
+    license: Apache License 2.0
+    release_date: '2022-06-29T07:30:28Z'
+    release_link: https://github.com/chaosblade-io/chaosblade/releases
+    stars: 4856
+  github_start_commit_data:
+    start_commit_link: /chaosblade-io/chaosblade/commit/b1af8bc08cb3bac0383c7a2833519b698ec80bea
+    start_date: '2019-03-19T18:38:31Z'
+  homepage_url: https://chaosblade.io/
+  image_data:
+    fileName: chaosblade.svg
+    hash: /xmbNryDaVFSDMF414jA0oXUiIL/e8sWDxpgvsv8CY4=
+  item: null
+  logo: chaosblade.svg
+  name: Chaosblade
+  project: sandbox
+  repo_url: https://github.com/chaosblade-io/chaosblade
+  repos:
+  - stars: 4856
+    url: https://github.com/chaosblade-io/chaosblade
+  twitter: https://twitter.com/ChaosbladeI
+  twitter_data:
+    latest_tweet_date: 2019-04-08 12:48:09+00:00

@@ -1,0 +1,55 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/node-lambda
+  crunchbase_data:
+    acquisitions: []
+    city: Santa Monica
+    company_type: For Profit
+    country: United States
+    description: App Definition & Development
+    homepage: https://github.com/motdotla/node-lambda
+    industries:
+    - Information Technology
+    linkedin: null
+    name: Node Lambda
+    num_employees_max: null
+    num_employees_min: null
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: null
+  github_data:
+    contributions: 0;1;0;0;0;1;2;1;0;1;0;3;3;1;1;0;0;0;0;0;1;0;0;0;0;0;6;3;0;0;0;0;0;0;0;1;0;0;0;2;3;0;0;0;0;1;0;0;0;0;0;0
+    contributors_count: 76
+    contributors_link: https://github.com/motdotla/node-lambda/graphs/contributors
+    description: Command line tool to locally run and deploy your node.js application
+      to Amazon Lambda
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 141345
+    - color: '#89e051'
+      name: Shell
+      value: 483
+    latest_commit_date: '2022-06-21T16:17:34Z'
+    latest_commit_link: /motdotla/node-lambda/commit/6901dcfd1e9b20ac1fdad7cd423fd9386de958a0
+    license: BSD 2-Clause "Simplified" License
+    release_date: '2022-02-17T09:51:24Z'
+    release_link: https://github.com/motdotla/node-lambda/releases
+    stars: 1302
+  github_start_commit_data:
+    start_commit_link: /motdotla/node-lambda/commit/b13220134382a7ef5ce929ae1e85a15b65c31cc7
+    start_date: '2014-11-23T22:35:18Z'
+  homepage_url: https://github.com/motdotla/node-lambda
+  image_data:
+    fileName: node-lambda.svg
+    hash: vlL6EeFz4r1AeRc0Mr0b+DT8UpxE6E23cn3FxCTU3B8=
+  item: null
+  logo: nodelambda.svg
+  name: Node Lambda
+  repo_url: https://github.com/motdotla/node-lambda
+  repos:
+  - stars: 1302
+    url: https://github.com/motdotla/node-lambda

@@ -1,0 +1,208 @@
+- best_practice_data:
+    badge: 4689
+    percentage: 100
+  crunchbase: https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf
+  crunchbase_data:
+    acquisitions: []
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: A Neutral Home for the Next Generation of Continuous Delivery Collaboration
+    homepage: https://cd.foundation
+    industries:
+    - Cloud Computing
+    - Open Source
+    - Software
+    linkedin: null
+    name: Continuous Delivery Foundation (CDF)
+    num_employees_max: 10
+    num_employees_min: 1
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CDeliveryFdn
+  github_data:
+    contributions: 2;3;3;1;4;3;0;0;2;0;2;2;4;2;0;1;1;3;5;1;0;3;2;3;4;3;2;0;0;3;2;4;0;0;3;2;3;0;0;1;0;0;0;1;1;2;0;0;1;1;0;1
+    contributors_count: 82
+    contributors_link: https://github.com/screwdriver-cd/screwdriver/graphs/contributors
+    description: An open source build platform designed for continuous delivery.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 1481611
+    - color: '#5B2063'
+      name: Gherkin
+      value: 54003
+    - color: '#384d54'
+      name: Dockerfile
+      value: 438
+    - color: '#89e051'
+      name: Shell
+      value: 81
+    latest_commit_date: '2022-08-04T22:47:55Z'
+    latest_commit_link: /screwdriver-cd/screwdriver/commit/53be34ba9a02cad366eac58c48a162d3d7d6fd1b
+    license: Other
+    release_date: '2020-10-13T20:39:35Z'
+    release_link: https://github.com/screwdriver-cd/screwdriver/releases
+    stars: 945
+  github_start_commit_data:
+    start_commit_link: /screwdriver-cd/screwdriver/commit/6fabc5252d904b8a11d0a14cd4682c3b9f272a5c
+    start_date: '2016-05-23T20:55:36Z'
+  homepage_url: https://screwdriver.cd
+  image_data:
+    fileName: screwdriver.svg
+    hash: u4nzpwRnsVekqRl5bFln70wOjyn8mjRfy3E8r/mpCxI=
+  item: null
+  logo: screwdriver.svg
+  name: Screwdriver
+  repo_url: https://github.com/screwdriver-cd/screwdriver
+  repos:
+  - stars: 945
+    url: https://github.com/screwdriver-cd/screwdriver
+  twitter: https://twitter.com/screwdrivercd
+  twitter_data:
+    latest_tweet_date: 2022-05-03 00:05:30+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/semaphore
+  crunchbase_data:
+    acquisitions: []
+    city: Novi Sad
+    company_type: For Profit
+    country: Serbia
+    description: Hosted continuous integration and deployment service
+    homepage: http://semaphoreci.com
+    industries:
+    - SaaS
+    - Software
+    linkedin: https://www.linkedin.com/company/rendered-text
+    name: SemaphoreCI
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/rendered-text
+    region: Vojvodina
+    stockExchange: null
+    twitter: http://twitter.com/semaphoreci
+  homepage_url: https://semaphoreci.com/
+  image_data:
+    fileName: semaphore.svg
+    hash: TAr/bqqCG4EjeUohMn5foEVkbffGV9ARe0PzrYk7HvY=
+  item: null
+  logo: semaphore.svg
+  name: Semaphore
+  twitter_data:
+    latest_tweet_date: 2022-08-03 09:33:10+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/spacelift
+  crunchbase_data:
+    acquisitions: []
+    city: Redwood City
+    company_type: For Profit
+    country: United States
+    description: SaaS Development Platform
+    funding: 22600000
+    homepage: https://spacelift.io/
+    industries:
+    - Cloud Data Services
+    - Information Technology
+    - SaaS
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/spacelift-io/about/
+    name: Spacelift
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/spaceliftio
+  description: Spacelift is a flexible management platform for Infrastructure as Code.
+    It helps customize your workflows, automate manual tasks, reduce number of errors,
+    improve security and auditability of your infrastructure.
+  homepage_url: https://spacelift.io
+  image_data:
+    fileName: spacelift.svg
+    hash: G3Zq1b05r+FlB/ic76jwR/Arn32AdCbWV782KcHex7I=
+  item: null
+  logo: spacelift.svg
+  name: Spacelift
+  twitter_data:
+    latest_tweet_date: 2022-08-04 23:57:38+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf
+  crunchbase_data:
+    acquisitions: []
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: A Neutral Home for the Next Generation of Continuous Delivery Collaboration
+    homepage: https://cd.foundation
+    industries:
+    - Cloud Computing
+    - Open Source
+    - Software
+    linkedin: null
+    name: Continuous Delivery Foundation (CDF)
+    num_employees_max: 10
+    num_employees_min: 1
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CDeliveryFdn
+  github_data:
+    contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+    contributors_count: 129
+    contributors_link: https://github.com/spinnaker/spinnaker/graphs/contributors
+    description: Spinnaker is an open source, multi-cloud continuous delivery platform
+      for releasing software changes with high velocity and confidence.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#89e051'
+      name: Shell
+      value: 39102
+    - color: '#00ADD8'
+      name: Go
+      value: 8690
+    - color: '#384d54'
+      name: Dockerfile
+      value: 1224
+    - name: Mustache
+      value: 1036
+    - color: '#e34c26'
+      name: HTML
+      value: 614
+    - color: '#3572A5'
+      name: Python
+      value: 582
+    latest_commit_date: '2021-12-09T13:15:16Z'
+    latest_commit_link: /spinnaker/spinnaker/commit/9bf6e7c585a630623c00ad620ada46005ace3794
+    license: Apache License 2.0
+    release_date: '2017-12-19T18:01:54Z'
+    release_link: https://github.com/spinnaker/spinnaker/releases
+    stars: 8566
+  github_start_commit_data:
+    start_commit_link: /spinnaker/spinnaker/commit/2b3fac174db42aa7944d6e606a17d5ca1ae66715
+    start_date: '2014-09-07T09:01:23Z'
+  homepage_url: https://www.spinnaker.io/
+  image_data:
+    fileName: spinnaker.svg
+    hash: Bp8LkKjL0HHB6TljtIJ+vCCOntZ5ukqwxYdjWSH58EE=
+  item: null
+  logo: spinnaker.svg
+  name: Spinnaker
+  repo_url: https://github.com/spinnaker/spinnaker
+  repos:
+  - stars: 8566
+    url: https://github.com/spinnaker/spinnaker
+  twitter: https://twitter.com/spinnakerio
+  twitter_data:
+    latest_tweet_date: 2022-03-24 14:14:00+00:00

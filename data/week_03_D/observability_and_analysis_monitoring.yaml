@@ -1,0 +1,106 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/datadog
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Mortar Data
+      date: '2015-02-11'
+    - acquiree: logmatic.io
+      date: '2017-09-07'
+    - acquiree: Madumbo
+      date: '2019-02-02'
+    - acquiree: Undefined Labs
+      date: '2020-08-06'
+    - acquiree: Sqreen
+      date: '2021-02-11'
+    - acquiree: Timber
+      date: '2021-02-11'
+    - acquiree: Ozcode
+      date: '2021-11-04'
+    - acquiree: CoScreen
+      date: '2022-02-10'
+    - acquiree: Hdiv Security
+      date: '2022-05-05'
+    - acquiree: Seekret
+      date: '2022-08-04'
+    city: New York
+    company_type: For Profit
+    country: United States
+    description: Datadog offers monitoring and analytics for cloud-based workflows.
+    funding: 147900000
+    homepage: https://www.datadoghq.com
+    industries:
+    - Analytics
+    - Cloud Computing
+    - Cloud Data Services
+    - Cloud Infrastructure
+    - Productivity Tools
+    - SaaS
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/datadog
+    name: Datadog
+    num_employees_max: 5000
+    num_employees_min: 1001
+    parents: []
+    region: New York
+    stockExchange: nasdaq
+    ticker: DDOG
+    twitter: http://twitter.com/datadoghq
+  homepage_url: https://www.datadoghq.com/
+  image_data:
+    fileName: datadog.svg
+    hash: 5EQH1GM9Lb6Hk1gYte+OswB9Prb5dK4Fg4Plqlk0wqw=
+  item: null
+  logo: datadog.svg
+  name: Datadog
+  twitter_data:
+    latest_tweet_date: 2022-08-05 20:10:11+00:00
+  yahoo_finance_data:
+    effective_ticker: DDOG
+    market_cap: 35688275968
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/dynatrace-software
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Qumram
+      date: '2017-11-09'
+    - acquiree: SpectX
+      date: '2021-09-14'
+    city: Waltham
+    company_type: For Profit
+    country: United States
+    description: Dynatrace delivers answers and intelligent automation from data.
+    funding: 21900000
+    homepage: https://www.dynatrace.com
+    industries:
+    - Artificial Intelligence
+    - Developer Tools
+    - Enterprise Software
+    - Information Technology
+    - SaaS
+    - Software
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/dynatrace
+    name: Dynatrace
+    num_employees_max: 5000
+    num_employees_min: 1001
+    parents: []
+    region: Massachusetts
+    stockExchange: nyse
+    ticker: DT
+    twitter: https://twitter.com/Dynatrace
+  homepage_url: https://www.dynatrace.com/
+  image_data:
+    fileName: dynatrace.svg
+    hash: LizDYX8LV36I7gS03dznExTSe74DbiZEDN02vWG/R6Y=
+  item: null
+  logo: dynatrace.svg
+  name: Dynatrace
+  twitter_data:
+    latest_tweet_date: 2022-08-05 17:42:02+00:00
+  yahoo_finance_data:
+    effective_ticker: DT
+    market_cap: 11961505792

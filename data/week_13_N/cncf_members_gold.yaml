@@ -1,0 +1,64 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/nec
+  crunchbase_data:
+    acquisitions:
+    - acquiree: NetCracker Technology
+      date: '2008-06-21'
+      price: 300000000
+    - acquiree: Arcon Managed Security Services
+      date: '2016-08-18'
+    - acquiree: Northgate Public Services
+      date: '2018-01-09'
+      price: 642696131
+    - acquiree: NEC XON
+      date: '2018-02-09'
+    - acquiree: i2N
+      date: '2018-08-01'
+    - acquiree: KMD
+      date: '2018-12-27'
+      price: 1230000000
+    - acquiree: OncoImmunity
+      date: '2019-07-29'
+    - acquiree: Avaloq
+      date: '2020-10-05'
+      price: 2200000000
+    - acquiree: Blue Danube Systems
+      date: '2022-01-28'
+    - acquiree: Aspire Technology
+      date: '2022-07-01'
+    city: Tokyo
+    company_type: For Profit
+    country: Japan
+    description: NEC Corporation integrates IT and network technologies that benefit
+      businesses and people around the world.
+    funding: 560000000
+    homepage: http://www.nec.com
+    industries:
+    - Big Data
+    - Information Technology
+    - Network Security
+    - Telecommunications
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/nec
+    name: NEC Corporation
+    num_employees_max: 1000000
+    num_employees_min: 10001
+    parents: []
+    region: Tokyo
+    stockExchange: tyo
+    ticker: 6701.T
+    twitter: https://www.twitter.com/nec_jp_pr
+  homepage_url: https://www.nec.com/
+  image_data:
+    fileName: nec-member.svg
+    hash: ezblDC48XD/nDEF9Kgik8ZdLCsusHxRD3OlZwEmlKBA=
+  item: null
+  logo: nec.svg
+  name: NEC (member)
+  twitter_data:
+    latest_tweet_date: 2022-08-06 01:00:00+00:00
+  yahoo_finance_data:
+    effective_ticker: 6701.T
+    market_cap: 9898379222

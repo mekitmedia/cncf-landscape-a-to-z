@@ -1,0 +1,133 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/robin-systems
+  crunchbase_data:
+    acquisitions: []
+    city: San Jose
+    company_type: For Profit
+    country: United States
+    description: Robin.io runs stateful applications on Kubernetes, even complex Big
+      Data, Databases, AI/ML, and Custom Apps.
+    funding: 84000000
+    homepage: https://www.robin.io
+    industries:
+    - Data Center
+    - Enterprise Applications
+    - Enterprise Software
+    - Information Technology
+    - Infrastructure
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/robin4k8s
+    name: Robin.io
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/Robin4K8S
+  homepage_url: https://robin.io/
+  image_data:
+    fileName: robin-systems.svg
+    hash: T+7FaRfS3bGOVayK3JYuvmQwVjGcik9GgArWPrKA5bY=
+  item: null
+  logo: robin-systems.svg
+  name: Robin Systems
+  twitter_data:
+    latest_tweet_date: 2022-08-03 16:36:59+00:00
+- best_practice_data:
+    badge: 1599
+    percentage: 100
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  extra:
+    accepted: '2018-01-29'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#rook-logos
+    blog_url: https://blog.rook.io/
+    dev_stats_url: https://rook.devstats.cncf.io/
+    slack_url: https://rook-io.slack.com/
+    stack_overflow_url: https://stackoverflow.com/questions/tagged/rook
+  github_data:
+    contributions: 23;27;30;37;37;37;56;63;26;36;34;49;26;24;42;34;33;49;53;17;6;34;22;36;34;16;16;24;30;20;46;23;5;23;31;49;37;34;17;29;27;41;33;26;18;19;38;15;19;5;14;17
+    contributors_count: 449
+    contributors_link: https://github.com/rook/rook/graphs/contributors
+    description: Storage Orchestration for Kubernetes
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 4207232
+    - color: '#89e051'
+      name: Shell
+      value: 117186
+    - color: '#3572A5'
+      name: Python
+      value: 90073
+    - color: '#427819'
+      name: Makefile
+      value: 44457
+    - name: Smarty
+      value: 15930
+    - color: '#384d54'
+      name: Dockerfile
+      value: 1500
+    - color: '#701516'
+      name: Ruby
+      value: 264
+    - color: '#e34c26'
+      name: HTML
+      value: 246
+    latest_commit_date: '2022-08-05T17:33:13Z'
+    latest_commit_link: /rook/rook/commit/7c424992bc0c1c70aa7970a51c403c353d254719
+    license: Apache License 2.0
+    release_date: '2022-07-26T19:42:55Z'
+    release_link: https://github.com/rook/rook/releases
+    stars: 10213
+  github_start_commit_data:
+    start_commit_link: /rook/rook/commit/31bd4e46f5e7f1fcc38c4dc6ffe81e7a8d666458
+    start_date: '2016-07-08T22:44:29Z'
+  homepage_url: https://rook.io/
+  image_data:
+    fileName: rook.svg
+    hash: c4V7HzCUj+Oz9rwlrnLtSI793tokFCYUfS9tOLwI4cY=
+  item: null
+  logo: rook.svg
+  name: Rook
+  project: graduated
+  repo_url: https://github.com/rook/rook
+  repos:
+  - stars: 10213
+    url: https://github.com/rook/rook
+  twitter: https://twitter.com/rook_io
+  twitter_data:
+    latest_tweet_date: 2022-08-02 15:11:12+00:00

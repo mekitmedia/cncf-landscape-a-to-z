@@ -1,0 +1,121 @@
+- best_practice_data:
+    badge: 1266
+    percentage: 100
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  extra:
+    accepted: '2017-09-13'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/graduated.md#envoy-logos
+    dev_stats_url: https://envoy.devstats.cncf.io/
+    slack_url: https://envoyproxy.slack.com/
+    stack_overflow_url: https://stackoverflow.com/questions/tagged/envoyproxy
+  github_data:
+    contributions: 41;40;49;50;29;47;51;59;64;54;38;45;36;46;41;13;36;25;40;6;13;34;63;38;51;48;51;52;27;50;36;82;51;46;62;52;50;85;61;49;65;51;46;34;58;65;51;42;83;84;42;62
+    contributors_count: 1011
+    contributors_link: https://github.com/envoyproxy/envoy/graphs/contributors
+    description: Cloud-native high-performance edge/middle/service proxy
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#f34b7d'
+      name: C++
+      value: 33782267
+    - name: Starlark
+      value: 1949896
+    - color: '#3572A5'
+      name: Python
+      value: 566208
+    - color: '#89e051'
+      name: Shell
+      value: 176406
+    - name: Jinja
+      value: 46306
+    - color: '#dea584'
+      name: Rust
+      value: 38041
+    - color: '#555555'
+      name: C
+      value: 9479
+    - name: Smarty
+      value: 1287
+    - color: '#c065db'
+      name: Emacs Lisp
+      value: 966
+    - color: '#384d54'
+      name: Dockerfile
+      value: 891
+    - name: Thrift
+      value: 748
+    - color: '#563d7c'
+      name: CSS
+      value: 598
+    - color: '#00ADD8'
+      name: Go
+      value: 558
+    - color: '#5a6986'
+      name: PureBasic
+      value: 472
+    - color: '#C1F12E'
+      name: Batchfile
+      value: 439
+    - color: '#427819'
+      name: Makefile
+      value: 303
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 76
+    - color: '#e34c26'
+      name: HTML
+      value: 68
+    latest_commit_date: '2022-08-05T14:21:44Z'
+    latest_commit_link: /envoyproxy/envoy/commit/71d61bf36628bbd6d967f92b0628cccda0bbc821
+    license: Apache License 2.0
+    release_date: '2022-08-03T14:11:01Z'
+    release_link: https://github.com/envoyproxy/envoy/releases
+    stars: 20140
+  github_start_commit_data:
+    start_commit_link: /envoyproxy/envoy/commit/a714b9c2b0a2acc9da44098cabff69586134a0dd
+    start_date: '2016-08-08T15:07:25Z'
+  homepage_url: https://www.envoyproxy.io
+  image_data:
+    fileName: envoy.svg
+    hash: 0COEZmDxBuHsRjEmJcGUxa299np0lkSqUFGRAxfDt4M=
+  item: null
+  logo: envoy.svg
+  name: Envoy
+  project: graduated
+  repo_url: https://github.com/envoyproxy/envoy
+  repos:
+  - stars: 20140
+    url: https://github.com/envoyproxy/envoy
+  twitter: https://twitter.com/envoyproxy
+  twitter_data:
+    latest_tweet_date: 2022-07-21 13:14:48+00:00

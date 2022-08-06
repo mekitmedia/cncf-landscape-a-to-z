@@ -1,0 +1,91 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/hashicorp
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Vektra
+      date: '2016-06-14'
+    city: San Francisco
+    company_type: For Profit
+    country: United States
+    description: HashiCorp is a remote-first company that solves development, security,
+      and operations challenges in infrastructure.
+    funding: 349175000
+    homepage: https://www.hashicorp.com
+    industries:
+    - Cloud Infrastructure
+    - Cyber Security
+    - Information Technology
+    - Private Cloud
+    - Software
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/HashiCorp
+    name: HashiCorp
+    num_employees_max: 5000
+    num_employees_min: 1001
+    parents: []
+    region: California
+    stockExchange: nasdaq
+    ticker: HCP
+    twitter: https://twitter.com/HashiCorp
+  github_data:
+    contributions: 38;40;63;48;28;92;79;72;56;52;70;78;57;62;45;36;92;83;93;35;3;58;171;70;84;78;47;46;83;39;27;34;43;57;42;51;52;72;36;52;37;54;41;37;94;98;31;24;54;55;57;14
+    contributors_count: 926
+    contributors_link: https://github.com/hashicorp/consul/graphs/contributors
+    description: Consul is a distributed, highly available, and data center aware
+      solution to connect and configure applications across dynamic, distributed infrastructure.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 13390457
+    - name: SCSS
+      value: 2915894
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 1210145
+    - name: Handlebars
+      value: 527752
+    - color: '#89e051'
+      name: Shell
+      value: 285996
+    - color: '#5B2063'
+      name: Gherkin
+      value: 186404
+    - name: HCL
+      value: 72249
+    - color: '#427819'
+      name: Makefile
+      value: 19860
+    - color: '#384d54'
+      name: Dockerfile
+      value: 12958
+    - color: '#e34c26'
+      name: HTML
+      value: 1205
+    latest_commit_date: '2022-08-04T15:07:40Z'
+    latest_commit_link: /hashicorp/consul/commit/155c4bc2af77f71ca9cd5067f3c18d1c9ff67ecf
+    license: Mozilla Public License 2.0
+    release_date: '2022-07-13T23:35:57Z'
+    release_link: https://github.com/hashicorp/consul/releases
+    stars: 25177
+  github_start_commit_data:
+    start_commit_link: /hashicorp/consul/commit/0a7996bc4f504894dbd09bac349a2d9999ec9dd6
+    start_date: '2013-11-04T22:15:27Z'
+  homepage_url: https://www.consul.io/
+  image_data:
+    fileName: consul.svg
+    hash: 1I+pfBBBp3Wmr5PLZW3mvZXkbQ3NJTuOm1amfXM1DzY=
+  item: null
+  logo: consul.svg
+  name: Consul
+  repo_url: https://github.com/hashicorp/consul
+  repos:
+  - stars: 25177
+    url: https://github.com/hashicorp/consul
+  twitter_data:
+    latest_tweet_date: 2022-08-05 23:07:00+00:00
+  yahoo_finance_data:
+    effective_ticker: HCP
+    market_cap: 6973402624

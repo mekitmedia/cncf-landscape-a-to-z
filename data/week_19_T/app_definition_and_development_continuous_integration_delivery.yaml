@@ -1,0 +1,268 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/jetbrains
+  crunchbase_data:
+    acquisitions: []
+    city: Prague
+    company_type: For Profit
+    country: Czech Republic
+    description: JetBrains is a software vendor specializing in the creation of productivity-enhancing
+      tools for software developers and teams.
+    homepage: https://www.jetbrains.com
+    industries:
+    - Developer Tools
+    - Enterprise Software
+    - Information Technology
+    - Software
+    - iOS
+    linkedin: https://www.linkedin.com/company/jetbrains
+    name: JetBrains
+    num_employees_max: 5000
+    num_employees_min: 1001
+    parents: []
+    region: Hlavni mesto Praha
+    stockExchange: null
+    twitter: http://twitter.com/jetbrains
+  description: Powerful Continuous Integration out of the box
+  homepage_url: https://www.jetbrains.com/teamcity/
+  image_data:
+    fileName: team-city.svg
+    hash: EIDKLysPjaqaW8WdwhlhrjKUuzd8oDfHVo5IkrCJYac=
+  item: null
+  logo: team-city.svg
+  name: TeamCity
+  twitter: https://twitter.com/teamcity
+  twitter_data:
+    latest_tweet_date: 2022-08-02 10:54:05+00:00
+- best_practice_data:
+    badge: 4020
+    percentage: 54
+  crunchbase: https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf
+  crunchbase_data:
+    acquisitions: []
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: A Neutral Home for the Next Generation of Continuous Delivery Collaboration
+    homepage: https://cd.foundation
+    industries:
+    - Cloud Computing
+    - Open Source
+    - Software
+    linkedin: null
+    name: Continuous Delivery Foundation (CDF)
+    num_employees_max: 10
+    num_employees_min: 1
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CDeliveryFdn
+  github_data:
+    contributions: 8;6;12;11;8;13;10;6;11;17;11;6;10;5;7;2;2;5;8;7;1;6;19;7;11;8;9;18;12;15;6;9;8;14;8;15;16;7;20;22;10;9;11;23;19;31;17;18;7;17;16;11
+    contributors_count: 275
+    contributors_link: https://github.com/tektoncd/pipeline/graphs/contributors
+    description: A cloud-native Pipeline resource.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 3863668
+    - color: '#89e051'
+      name: Shell
+      value: 33563
+    - color: '#427819'
+      name: Makefile
+      value: 5967
+    - name: Smarty
+      value: 3940
+    - name: Mustache
+      value: 1078
+    - color: '#384d54'
+      name: Dockerfile
+      value: 282
+    latest_commit_date: '2022-08-05T20:26:48Z'
+    latest_commit_link: /tektoncd/pipeline/commit/715b4b7b71c46a873c280f5d0aef50ee94e2cbdb
+    license: Apache License 2.0
+    release_date: '2022-08-03T15:35:25Z'
+    release_link: https://github.com/tektoncd/pipeline/releases
+    stars: 7240
+  github_start_commit_data:
+    start_commit_link: /tektoncd/pipeline/commit/301b41380e95382a18b391c2165fa3a6a3de93b0
+    start_date: '2018-08-29T18:21:56Z'
+  homepage_url: https://tekton.dev/
+  image_data:
+    fileName: tekton-pipelines.svg
+    hash: wpq4h0A5lpk+a84AUXXM1fKTRPgMN/1ptYIWkofddJ8=
+  item: null
+  logo: tekton.svg
+  name: Tekton Pipelines
+  repo_url: https://github.com/tektoncd/pipeline
+  repos:
+  - stars: 7240
+    url: https://github.com/tektoncd/pipeline
+  twitter: https://twitter.com/tektoncd
+  twitter_data:
+    latest_tweet_date: 2022-06-13 18:03:57+00:00
+- best_practice_data:
+    badge: 5560
+    percentage: 30
+  crunchbase: https://www.crunchbase.com/organization/kubeshop
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Botkube
+      date: '2022-07-07'
+    city: Wilmington
+    company_type: For Profit
+    country: United States
+    description: At Kubeshop, our mission is to build a thriving open-source ecosystem
+      and pipeline of next generation Kubernetes products and projects.
+    homepage: https://kubeshop.io/
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Cloud Management
+    - Open Source
+    - Software
+    linkedin: https://www.linkedin.com/company/kubeshop/
+    name: Kubeshop
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: Delaware
+    stockExchange: null
+    twitter: https://twitter.com/thekubeshop
+  description: Testkube provides a Kubernetes-native framework for test definition,
+    execution and results. It decouples test artifacts and execution from CI/CD tooling
+    and makes testing part of your cluster's state. Testkube is built and maintained
+    by Kubeshop.
+  github_data:
+    contributions: 74;140;34;46;53;70;51;55;49;22;4;14;9;8;38;14;6;11;16;6;2;11;18;16;19;3;10;3;21;15;13;13;7;10;18;13;17;12;12;10;11;8;14;11;8;9;13;8;11;33;16;20
+    contributors_count: 30
+    contributors_link: https://github.com/kubeshop/testkube/graphs/contributors
+    description: "\u2638\uFE0F Kubernetes-native framework for test definition and\
+      \ execution "
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 635091
+    - color: '#89e051'
+      name: Shell
+      value: 16270
+    - color: '#427819'
+      name: Makefile
+      value: 7279
+    - color: '#012456'
+      name: PowerShell
+      value: 1628
+    - color: '#384d54'
+      name: Dockerfile
+      value: 1495
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 826
+    - name: HCL
+      value: 232
+    - color: '#C1F12E'
+      name: Batchfile
+      value: 78
+    latest_commit_date: '2022-08-05T10:43:52Z'
+    latest_commit_link: /kubeshop/testkube/commit/b1e42aa16bbc212b873eb228842567358c435fc7
+    license: MIT License
+    release_date: '2022-08-04T09:58:33Z'
+    release_link: https://github.com/kubeshop/testkube/releases
+    stars: 404
+  github_start_commit_data:
+    start_commit_link: /kubeshop/testkube/commit/abd2a842adafe78c97923fea58f82c6e215bd4ef
+    start_date: '2021-07-01T13:42:46Z'
+  homepage_url: https://testkube.kubeshop.io
+  image_data:
+    fileName: testkube.svg
+    hash: Q9a8kuEj4v7QJLd5i25r62icgRhHr6kfxXcAg38Nl+E=
+  item: null
+  logo: testkube.svg
+  name: Testkube
+  repo_url: https://github.com/kubeshop/testkube
+  repos:
+  - stars: 404
+    url: https://github.com/kubeshop/testkube
+  twitter_data:
+    latest_tweet_date: 2022-08-02 13:19:49+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/travis-ci
+  crunchbase_data:
+    acquisitions: []
+    city: Berlin
+    company_type: For Profit
+    country: Germany
+    description: Hosted Continuous Integration Platform
+    homepage: http://travis-ci.com
+    industries:
+    - Enterprise Software
+    - Information Technology
+    - Internet
+    - Software
+    - Web Apps
+    linkedin: https://www.linkedin.com/company/travis-ci
+    name: Travis CI
+    num_employees_max: 100
+    num_employees_min: 51
+    parents: []
+    region: Berlin
+    stockExchange: null
+    twitter: http://twitter.com/travisci
+  github_data:
+    contributions: 1;0;0;0;0;1;1;0;0;0;1;0;0;0;0;0;0;0;0;0;1;0;0;0;1;1;0;0;1;1;0;0;0;0;0;2;0;0;0;0;0;1;0;0;0;0;0;1;0;1;0;0
+    contributors_count: 157
+    contributors_link: https://github.com/travis-ci/travis-web/graphs/contributors
+    description: The Ember web client for Travis CI
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 1557052
+    - name: Handlebars
+      value: 452660
+    - name: SCSS
+      value: 284640
+    - color: '#701516'
+      name: Ruby
+      value: 23424
+    - color: '#e34c26'
+      name: HTML
+      value: 8195
+    - color: '#89e051'
+      name: Shell
+      value: 3610
+    - color: '#427819'
+      name: Makefile
+      value: 1429
+    - color: '#384d54'
+      name: Dockerfile
+      value: 1292
+    - name: Procfile
+      value: 112
+    latest_commit_date: '2022-07-21T05:42:01Z'
+    latest_commit_link: /travis-ci/travis-web/commit/acdd03a601017b575b5246f3107842bc5942fcb3
+    license: MIT License
+    stars: 598
+  github_start_commit_data:
+    start_commit_link: /travis-ci/travis-web/commit/a3f629bd0d54c99450fb41e366c78f4e8f1a7783
+    start_date: '2012-06-16T15:41:59Z'
+  homepage_url: https://travis-ci.com/
+  image_data:
+    fileName: travis-ci.svg
+    hash: oqbi/wXaNEh/pTpl2Kf2fEtMXxIW4GgnOH0KuNFuDsA=
+  item: null
+  logo: travis-ci.svg
+  name: Travis CI
+  repo_url: https://github.com/travis-ci/travis-web
+  repos:
+  - stars: 598
+    url: https://github.com/travis-ci/travis-web
+  twitter_data:
+    latest_tweet_date: 2022-01-24 18:12:37+00:00

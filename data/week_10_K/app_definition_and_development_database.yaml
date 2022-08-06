@@ -1,0 +1,57 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/appscode
+  crunchbase_data:
+    acquisitions: []
+    city: Las Vegas
+    company_type: For Profit
+    country: United States
+    description: Cloud Native Data Platform
+    homepage: https://appscode.com
+    industries:
+    - Developer Tools
+    - Software
+    - Software Engineering
+    linkedin: https://www.linkedin.com/company/appscode
+    name: AppsCode
+    num_employees_max: null
+    num_employees_min: null
+    parents: []
+    region: Nevada
+    stockExchange: null
+    twitter: http://twitter.com/AppsCodeHQ
+  github_data:
+    contributions: 0;1;9;3;1;0;0;2;0;0;0;0;0;0;2;3;0;2;0;1;0;0;0;1;0;0;7;8;4;1;4;4;0;1;1;1;0;0;0;1;5;5;0;3;1;0;1;7;0;1;0;5
+    contributors_count: 47
+    contributors_link: https://github.com/kubedb/operator/graphs/contributors
+    description: KubeDB Docs
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#89e051'
+      name: Shell
+      value: 3415
+    latest_commit_date: '2022-08-05T15:51:07Z'
+    latest_commit_link: /kubedb/docs/commit/a1edb02bfe3d5f8e523475b2aaeb96c24a39a88c
+    license: Apache License 2.0
+    release_date: '2020-04-20T13:48:10Z'
+    release_link: https://github.com/kubedb/operator/releases
+    stars: 504
+  github_start_commit_data:
+    start_commit_link: /kubedb/operator/commit/f20995e544a5027ef8219697ad91625bb8279fd8
+    start_date: '2017-05-20T01:43:33Z'
+  homepage_url: https://kubedb.com
+  image_data:
+    fileName: kube-db-by-apps-code.svg
+    hash: a7WWkWKjf62fpNcmhW+LSb+/fEQH7FOCjgc/jzykRAQ=
+  item: null
+  logo: kube-db-by-apps-code.svg
+  name: KubeDB by AppsCode
+  open_source: false
+  repo_url: https://github.com/kubedb/operator
+  repos:
+  - stars: 504
+    url: https://github.com/kubedb/operator
+  twitter: https://twitter.com/kubedb
+  twitter_data:
+    latest_tweet_date: 2022-08-05 16:31:00+00:00

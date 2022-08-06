@@ -1,0 +1,994 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/man-technology
+  crunchbase_data:
+    acquisitions: []
+    city: Seongdong
+    company_type: For Profit
+    country: South Korea
+    description: A company that provides business continuity , leads the IT trend,
+      and contributes to society
+    homepage: https://www.mantech.co.kr
+    industries:
+    - Customer Service
+    - Information Technology
+    - PaaS
+    linkedin: null
+    name: Man Technology
+    num_employees_max: 100
+    num_employees_min: 51
+    parents: []
+    region: Kyonggi-do
+    stockExchange: null
+    twitter: null
+  description: Accordion Kubernetes Platform helps you to orchestrate containerized
+    workloads for your DevOps practices & CI/CD pipelines, delivering enhanced developer
+    productivity and accelerating time to market.
+  homepage_url: https://accordions.co.kr/kube_eng/
+  image_data:
+    fileName: accordion.svg
+    hash: kuQqXT4K1pg2pHS1B6wpj6uDwji0lpYBthwgx1S4w7w=
+  item: null
+  logo: mantech-accordion.svg
+  name: Accordion
+- best_practice_data:
+    badge: 3104
+    percentage: 96
+  crunchbase: https://www.crunchbase.com/organization/ilki
+  crunchbase_data:
+    acquisitions: []
+    city: Paris
+    company_type: For Profit
+    country: France
+    description: Supporting companies to transform their IT architecture
+    homepage: https://www.ilki.fr/
+    industries:
+    - Consulting
+    - Information Technology
+    linkedin: https://www.linkedin.com/company/ilki
+    name: ILKI
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: Ile-de-France
+    stockExchange: null
+    twitter: https://twitter.com/ClouDesigner
+  description: AgoraKube helps you bootstrap a minimum enterprise-grade Kubernetes
+    cluster.
+  github_data:
+    contributions: 0;2;13;3;0;2;2;1;3;23;5;67;7;0;4;1;0;23;3;0;0;0;0;0;0;0;0;0;0;0;0;4;6;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0
+    contributors_count: 34
+    contributors_link: https://github.com/ilkilab/agorakube/graphs/contributors
+    description: Agorakube is a Certified Kubernetes Distribution built on top of
+      CNCF ecosystem that provides an enterprise grade solution following best practices
+      to manage a conformant Kubernetes cluster for on-premise and public cloud providers.
+    firstWeek: 2021-08-08Z
+    languages:
+    - name: Jinja
+      value: 559852
+    - color: '#89e051'
+      name: Shell
+      value: 8482
+    - color: '#384d54'
+      name: Dockerfile
+      value: 468
+    latest_commit_date: '2022-05-09T08:30:23Z'
+    latest_commit_link: /ilkilab/agorakube/commit/30dda604b73229e33e881edfee63765cf956e146
+    license: Apache License 2.0
+    release_date: '2022-03-17T13:11:50Z'
+    release_link: https://github.com/ilkilab/agorakube/releases
+    stars: 82
+  github_start_commit_data:
+    start_commit_link: /ilkilab/agorakube/commit/8da3b274ca9d2a45159ab071293e619df11fd583
+    start_date: '2019-07-14T08:43:17Z'
+  homepage_url: https://github.com/ilkilab/agorakube
+  image_data:
+    fileName: agora-kube.svg
+    hash: P9HUHkD6GYSbA3MNtijdDaNSRmFWA0pxuAj6H29RtbU=
+  item: null
+  logo: agorakube.svg
+  name: AgoraKube
+  repo_url: https://github.com/ilkilab/agorakube
+  repos:
+  - stars: 82
+    url: https://github.com/ilkilab/agorakube
+  twitter_data:
+    latest_tweet_date: 2021-05-17 05:11:04+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/inspur
+  crunchbase_data:
+    acquisitions: []
+    city: Jinan
+    company_type: For Profit
+    country: China
+    description: Inspur Group supplies computer platforms and solutions for various
+      IT applications in China.
+    funding: 29304249
+    homepage: http://en.inspur.com/
+    industries:
+    - Computer
+    - Enterprise
+    - IT Management
+    - Information Technology
+    - Software
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/inspur-group-co-ltd-
+    name: Inspur Group
+    num_employees_max: 1000000
+    num_employees_min: 10001
+    parents: []
+    region: Shandong
+    stockExchange: szse
+    ticker: 000977.SZ
+    twitter: https://www.twitter.com/inspurcorp
+  description: "AIStation inference platform is a one-stop AI reasoning service platform\
+    \ developed by Inspur\uFF0Cit faces enterprise AI application deployment and online\
+    \ service management scenarios."
+  homepage_url: https://www.inspur.com/lcjtww/2526894/2526897/2563322/2563340/index.html
+  image_data:
+    fileName: ai-station.svg
+    hash: TZSHDGWGI77lND3dPtht877yfkTDZpdT0S9sHgWcaCQ=
+  item: null
+  logo: aistation.svg
+  name: AIStation
+  twitter_data:
+    latest_tweet_date: 2020-09-10 14:47:34+00:00
+  yahoo_finance_data:
+    effective_ticker: 000977.SZ
+    market_cap: 5424594985
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/alauda
+  crunchbase_data:
+    acquisitions: []
+    city: Haidian
+    company_type: For Profit
+    country: China
+    description: Alauda is a pioneer cloud platform provider that focuses on containers
+      and microservices.
+    funding: 15000000
+    homepage: http://www.alauda.cn/
+    industries:
+    - Cloud Infrastructure
+    - Computer
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/alauda-inc-/
+    name: Alauda
+    num_employees_max: 250
+    num_employees_min: 101
+    parents: []
+    region: Beijing
+    stockExchange: null
+    twitter: null
+  description: A Cloud Native Application Platform based on Kubernetes
+  homepage_url: https://www.alauda.cn/product/detail/id/364.html
+  image_data:
+    fileName: alauda-container-platform-acp.svg
+    hash: r98vY8PUMC/A4GgTS0VvcW+Geo7lYOoguazeItfQkNc=
+  item: null
+  logo: alauda-container-platform.svg
+  name: Alauda Container Platform (ACP)
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/pantarei-design-limited
+  crunchbase_data:
+    acquisitions: []
+    city: North Point
+    company_type: For Profit
+    country: Hong Kong
+    description: PantaRei Design Limited is an open-source software company that supports
+      Cloud Computing-based apps.
+    homepage: http://pantarei-design.com
+    industries:
+    - Consulting
+    - Information Technology
+    - Software
+    linkedin: https://www.linkedin.com/company/pantarei-design-limited
+    name: PantaRei Design Limited
+    num_employees_max: 10
+    num_employees_min: 1
+    parents: []
+    region: Hong Kong Island
+    stockExchange: null
+    twitter: https://www.twitter.com/pantarei_design
+  description: This Ansible collection provides Ansible playbooks and roles for the
+    deployment and configuration of an Kubernetes environment.
+  github_data:
+    contributions: 12;18;17;9;6;27;35;12;26;23;6;3;5;9;5;10;9;10;6;11;19;22;8;15;10;4;7;23;3;12;23;20;3;11;25;27;25;36;45;26;30;29;12;18;6;18;14;10;7;10;8;13
+    contributors_count: 1
+    contributors_link: https://github.com/alvistack/ansible-collection-kubernetes/graphs/contributors
+    description: Ansible collection for deploying Kubernetes
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#89e051'
+      name: Shell
+      value: 7388
+    latest_commit_date: '2022-08-05T17:35:38Z'
+    latest_commit_link: /alvistack/ansible-collection-kubernetes/commit/810b5b4b73c3bf3294cfd270e6b910d24d0a220b
+    license: Apache License 2.0
+    release_date: '2021-06-06T11:01:45Z'
+    release_link: https://github.com/alvistack/ansible-collection-kubernetes/releases
+    stars: 18
+  github_start_commit_data:
+    start_commit_link: /alvistack/ansible-collection-kubernetes/commit/c669f47ac208e7b86cd7ed03eb5afc617b42a853
+    start_date: '2018-11-21T05:16:39Z'
+  homepage_url: https://github.com/alvistack/ansible-collection-kubernetes
+  image_data:
+    fileName: alvi-stack-ansible-collection-for-kubernetes.svg
+    hash: 0JWOxPMDN8Sf3N2lL5HqeqiAHQtDNeArBrW81gYrpsU=
+  item: null
+  logo: alvistack.svg
+  name: AlviStack Ansible Collection for Kubernetes
+  repo_url: https://github.com/alvistack/ansible-collection-kubernetes
+  repos:
+  - stars: 18
+    url: https://github.com/alvistack/ansible-collection-kubernetes
+  twitter_data:
+    latest_tweet_date: 2022-08-03 03:03:04+00:00
+- best_practice_data:
+    badge: 6111
+    percentage: 100
+  crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+  crunchbase_data:
+    acquisitions:
+    - acquiree: AppThwack
+      date: '2015-07-14'
+    - acquiree: NICE
+      date: '2016-02-11'
+    - acquiree: Thinkbox Software
+      date: '2017-03-06'
+    - acquiree: Do
+      date: '2017-03-08'
+    - acquiree: Sqrrl
+      date: '2018-01-23'
+    - acquiree: TSO Logic
+      date: '2019-01-14'
+    - acquiree: TeamSQL, Inc.
+      date: '2020-02-21'
+    - acquiree: DB Best Technologies
+      date: '2021-01-28'
+    - acquiree: Wickr
+      date: '2021-06-25'
+    city: Seattle
+    company_type: For Profit
+    country: United States
+    description: Amazon Web Services provides information technology infrastructure
+      services to businesses in the form of web services.
+    funding: 108000000
+    homepage: http://aws.amazon.com
+    industries:
+    - Information Services
+    - Information Technology
+    - Software
+    - Web Development
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/amazon-web-services
+    name: Amazon Web Services
+    num_employees_max: 1000000
+    num_employees_min: 10001
+    parents:
+    - https://www.crunchbase.com/organization/amazon
+    region: Washington
+    stockExchange: null
+    ticker: AMZN
+    twitter: http://twitter.com/awscloud
+  description: Amazon Elastic Kubernetes Service Distro (Amazon EKS-D) is a Kubernetes
+    distribution based on and used by Amazon Elastic Kubernetes Service (EKS) to create
+    reliable and secure Kubernetes clusters.
+  github_data:
+    contributions: 22;25;5;0;4;1;19;10;10;3;12;8;4;0;0;0;3;4;17;14;3;0;3;14;2;12;9;16;8;7;18;46;6;4;12;6;19;13;4;20;22;3;8;4;23;14;9;16;1;6;12;15
+    contributors_count: 34
+    contributors_link: https://github.com/aws/eks-distro/graphs/contributors
+    description: Amazon EKS Distro (EKS-D) is a Kubernetes distribution based on and
+      used by Amazon Elastic Kubernetes Service (EKS) to create reliable and secure
+      Kubernetes clusters.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#89e051'
+      name: Shell
+      value: 181892
+    - color: '#427819'
+      name: Makefile
+      value: 105306
+    - color: '#00ADD8'
+      name: Go
+      value: 42239
+    - color: '#384d54'
+      name: Dockerfile
+      value: 18802
+    - name: Smarty
+      value: 12871
+    latest_commit_date: '2022-08-04T17:53:32Z'
+    latest_commit_link: /aws/eks-distro/commit/b0531021c7aa3ceed631750219600985c8c61764
+    license: Apache License 2.0
+    release_date: '2022-07-29T19:45:50Z'
+    release_link: https://github.com/aws/eks-distro/releases
+    stars: 1149
+  github_start_commit_data:
+    start_commit_link: /aws/eks-distro/commit/b543b20d74be5aa480e8eae0a303ca500853d542
+    start_date: '2020-11-17T20:58:54Z'
+  homepage_url: https://aws.amazon.com/eks/eks-distro
+  image_data:
+    fileName: amazon-elastic-kubernetes-service-distro-amazon-eks-d.svg
+    hash: SAaCDzEl11DXhCLfuUg3THlbYtVlQILQOhezT64IiU8=
+  item: null
+  logo: amazon-web-services.svg
+  name: Amazon Elastic Kubernetes Service Distro (Amazon EKS-D)
+  repo_url: https://github.com/aws/eks-distro
+  repos:
+  - stars: 1149
+    url: https://github.com/aws/eks-distro
+  twitter_data:
+    latest_tweet_date: 2022-08-05 18:15:56+00:00
+  url_for_bestpractices: https://github.com/aws/eks-distro
+  yahoo_finance_data:
+    effective_ticker: AMZN
+    market_cap: 1434414088192
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/asus-cloud-corporation
+  crunchbase_data:
+    acquisitions: []
+    city: Taipei
+    company_type: For Profit
+    country: Taiwan
+    description: ASUS Cloud is the management team for ASUS to develop cloud services
+    homepage: https://www.asuscloud.com/
+    industries: []
+    linkedin: null
+    name: ASUS Cloud Corporation
+    num_employees_max: null
+    num_employees_min: null
+    parents: []
+    region: T'ai-pei
+    stockExchange: null
+    twitter: null
+  description: ASUS Cloud Infra helps you bootstrap a Kubernetes cluster.
+  homepage_url: https://www.asuscloud.com/
+  image_data:
+    fileName: asus-cloud-infra.svg
+    hash: 4cD77lhnCmo22F+W+7A4thusptzzkEgHJiH1M3FEDoU=
+  item: null
+  logo: asus-cloud-infra.svg
+  name: ASUS Cloud Infra
+- best_practice_data:
+    badge: 2352
+    percentage: 19
+  crunchbase: https://www.crunchbase.com/organization/microsoft
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Forethought
+      date: '1987-07-30'
+      price: 14000000
+    - acquiree: Consumers Software
+      date: '1991-03-08'
+    - acquiree: Fox Software
+      date: '1992-03-25'
+    - acquiree: SoftImage
+      date: '1994-02-15'
+    - acquiree: Altamira Software
+      date: '1994-09-27'
+    - acquiree: NextBase
+      date: '1994-11-01'
+    - acquiree: One Tree Software Ltd
+      date: '1994-11-16'
+    - acquiree: RenderMorphics
+      date: '1995-02-23'
+    - acquiree: Network Managers
+      date: '1995-07-10'
+    - acquiree: Blue Ribbon SoundWorks
+      date: '1995-10-16'
+    - acquiree: Netwise
+      date: '1995-11-06'
+    - acquiree: Bruce Artwick Organization
+      date: '1995-12-12'
+    - acquiree: Vermeer Technologies
+      date: '1996-01-16'
+    - acquiree: Colusa Software
+      date: '1996-03-12'
+    - acquiree: EXOS
+      date: '1996-04-15'
+    - acquiree: Aspect Software Inc
+      date: '1996-04-23'
+    - acquiree: eShop
+      date: '1996-06-11'
+    - acquiree: Electric Gravity
+      date: '1996-06-17'
+    - acquiree: NetCarta
+      date: '1996-12-10'
+    - acquiree: Interse
+      date: '1997-03-03'
+    - acquiree: WebTV Networks
+      date: '1997-04-06'
+    - acquiree: Dimension X
+      date: '1997-05-07'
+    - acquiree: Cooper & Peters
+      date: '1997-06-13'
+    - acquiree: LinkAge Software
+      date: '1997-06-30'
+    - acquiree: VXtreme
+      date: '1997-08-05'
+    - acquiree: Hotmail
+      date: '1997-12-31'
+    - acquiree: Windows Live Hotmail
+      date: '1997-12-31'
+    - acquiree: Firefly Network
+      date: '1998-04-09'
+    - acquiree: MESA Group
+      date: '1998-04-28'
+    - acquiree: Merchant Planet
+      date: '1998-06-23'
+    - acquiree: Valence Research
+      date: '1998-08-25'
+    - acquiree: Valence Technology
+      date: '1998-08-25'
+    - acquiree: linkexchange
+      date: '1998-11-05'
+    - acquiree: FASA Interactive
+      date: '1999-01-08'
+    - acquiree: CompareNet
+      date: '1999-03-04'
+    - acquiree: Numinous Technologies
+      date: '1999-03-28'
+    - acquiree: Jump Networks
+      date: '1999-04-26'
+    - acquiree: ShadowFactor Software
+      date: '1999-06-07'
+    - acquiree: OmniBrowse
+      date: '1999-06-14'
+    - acquiree: Sendit
+      date: '1999-07-01'
+    - acquiree: Zoomit
+      date: '1999-07-07'
+    - acquiree: STNC
+      date: '1999-07-21'
+    - acquiree: Intrinsa
+      date: '1999-07-28'
+      price: 58900000
+    - acquiree: Visio Corporation
+      date: '1999-09-15'
+    - acquiree: Softway Systems
+      date: '1999-09-17'
+    - acquiree: Entropic
+      date: '1999-10-29'
+    - acquiree: Entropic Research Laboratories
+      date: '1999-11-01'
+    - acquiree: Peach Networks
+      date: '2000-02-29'
+    - acquiree: Bungie
+      date: '2000-06-19'
+    - acquiree: NetGames
+      date: '2000-07-12'
+    - acquiree: MongoMusic
+      date: '2000-09-13'
+      price: 65000000
+    - acquiree: Pacific Microsonics
+      date: '2000-09-18'
+    - acquiree: Digital Anvil
+      date: '2000-12-05'
+    - acquiree: Great Plains Software
+      date: '2000-12-21'
+    - acquiree: NCompass Labs
+      date: '2001-04-30'
+    - acquiree: XDegrees
+      date: '2001-09-13'
+    - acquiree: Navision
+      date: '2002-05-07'
+      price: 1450000000
+    - acquiree: Rare
+      date: '2002-09-24'
+      price: 337000000
+    - acquiree: Vicinity Corporation
+      date: '2002-10-22'
+      price: 96000000
+    - acquiree: Connectix
+      date: '2003-02-19'
+    - acquiree: Pelican Security
+      date: '2003-03-04'
+      price: 1000000
+    - acquiree: PlaceWare
+      date: '2003-04-30'
+    - acquiree: RAV Antivirus
+      date: '2003-06-10'
+    - acquiree: ActiveViews
+      date: '2004-04-26'
+    - acquiree: Lookout Software
+      date: '2004-07-17'
+    - acquiree: GIANT Company Software
+      date: '2004-12-16'
+    - acquiree: Sybari
+      date: '2005-02-08'
+    - acquiree: Groove Networks
+      date: '2005-03-10'
+    - acquiree: MessageCast
+      date: '2005-05-11'
+    - acquiree: Frontbridge Technologies
+      date: '2005-07-20'
+    - acquiree: Teleo
+      date: '2005-08-30'
+    - acquiree: Alacris
+      date: '2005-09-19'
+    - acquiree: Unveil Technologies
+      date: '2005-10-06'
+    - acquiree: Media-Streams.com
+      date: '2005-11-02'
+    - acquiree: FolderShare
+      date: '2005-11-03'
+    - acquiree: 5th Finger
+      date: '2005-11-17'
+    - acquiree: SeaDragon Software
+      date: '2006-01-28'
+    - acquiree: Motion Bridge
+      date: '2006-02-13'
+    - acquiree: Apptimum
+      date: '2006-03-07'
+    - acquiree: Onfolio
+      date: '2006-03-07'
+    - acquiree: ProClarity
+      date: '2006-04-03'
+    - acquiree: Lionhead Studios
+      date: '2006-04-06'
+    - acquiree: AssetMetrix Corporation
+      date: '2006-04-26'
+    - acquiree: Massive
+      date: '2006-05-01'
+      price: 200000000
+    - acquiree: DeepMetrix
+      date: '2006-05-04'
+    - acquiree: Vexcel
+      date: '2006-05-04'
+    - acquiree: Whale Communications
+      date: '2006-05-18'
+      price: 75000000
+    - acquiree: iView Multimedia
+      date: '2006-06-27'
+    - acquiree: Softricity
+      date: '2006-07-17'
+    - acquiree: Winternals
+      date: '2006-07-18'
+    - acquiree: Azyxxi
+      date: '2006-07-26'
+    - acquiree: Gteko
+      date: '2006-09-26'
+    - acquiree: DesktopStandard
+      date: '2006-10-02'
+    - acquiree: Colloquis
+      date: '2006-10-12'
+    - acquiree: Medstory
+      date: '2007-02-26'
+    - acquiree: Tellme
+      date: '2007-03-14'
+      price: 800000000
+    - acquiree: Tellme
+      date: '2007-03-14'
+      price: 800000000
+    - acquiree: devBiz Business Solutions
+      date: '2007-03-28'
+    - acquiree: Screen Tonic
+      date: '2007-05-03'
+    - acquiree: aQuantive
+      date: '2007-05-18'
+      price: 6400000000
+    - acquiree: Engyro
+      date: '2007-06-05'
+    - acquiree: Stratature
+      date: '2007-06-07'
+    - acquiree: AdECN
+      date: '2007-07-26'
+    - acquiree: Parlano
+      date: '2007-08-29'
+    - acquiree: Global Care Solutions
+      date: '2007-10-29'
+    - acquiree: Musiwave
+      date: '2007-11-15'
+      price: 46000000
+    - acquiree: WebFives
+      date: '2007-11-30'
+    - acquiree: MultiMap
+      date: '2007-12-12'
+    - acquiree: Fast Search & Transfer
+      date: '2008-01-08'
+    - acquiree: Calista Technologies
+      date: '2008-01-21'
+    - acquiree: Caligari Corporation
+      date: '2008-02-07'
+    - acquiree: Danger
+      date: '2008-02-11'
+      price: 500000000
+    - acquiree: YaData
+      date: '2008-02-27'
+    - acquiree: Credentica
+      date: '2008-03-08'
+    - acquiree: Kidaro
+      date: '2008-03-12'
+      price: 90000000
+    - acquiree: 90 Degree Software
+      date: '2008-03-14'
+    - acquiree: Rapt
+      date: '2008-03-14'
+    - acquiree: Komoku
+      date: '2008-03-20'
+    - acquiree: Farecast
+      date: '2008-04-09'
+      price: 115000000
+    - acquiree: Navic Networks
+      date: '2008-06-18'
+    - acquiree: Navic Systems
+      date: '2008-06-18'
+    - acquiree: MobiComp
+      date: '2008-06-26'
+    - acquiree: Powerset
+      date: '2008-07-01'
+      price: 100000000
+    - acquiree: Zoomix
+      date: '2008-07-14'
+    - acquiree: DATAllegro
+      date: '2008-07-25'
+    - acquiree: Greenfield Online
+      date: '2008-08-29'
+      price: 486000000
+    - acquiree: Ciao
+      date: '2008-08-31'
+    - acquiree: BigPark
+      date: '2009-05-07'
+    - acquiree: Rosetta Biosoftware
+      date: '2009-06-01'
+    - acquiree: ClickStream Technologies
+      date: '2009-06-28'
+    - acquiree: Interactive Supercomputing
+      date: '2009-09-22'
+    - acquiree: Sentillion
+      date: '2009-12-10'
+    - acquiree: Opalis Software
+      date: '2009-12-11'
+    - acquiree: AVIcode
+      date: '2010-10-06'
+    - acquiree: Canesta
+      date: '2010-10-29'
+    - acquiree: Skype
+      date: '2011-05-10'
+    - acquiree: Prodiance Corporation
+      date: '2011-06-08'
+    - acquiree: Twisted Pixel Games
+      date: '2011-10-12'
+    - acquiree: VideoSurf
+      date: '2011-11-23'
+      price: 100000000
+    - acquiree: Yammer
+      date: '2012-06-25'
+      price: 1200000000
+    - acquiree: Perceptive Pixel
+      date: '2012-07-09'
+    - acquiree: PhoneFactor
+      date: '2012-10-04'
+    - acquiree: StorSimple
+      date: '2012-10-16'
+    - acquiree: MarketingPilot
+      date: '2012-10-17'
+    - acquiree: R2 Studios
+      date: '2012-12-28'
+    - acquiree: id8 Group R2 Studios
+      date: '2013-01-02'
+    - acquiree: Pando Networks
+      date: '2013-02-04'
+    - acquiree: MetricsHub
+      date: '2013-03-04'
+    - acquiree: Netbreeze
+      date: '2013-03-19'
+    - acquiree: InRelease
+      date: '2013-06-03'
+    - acquiree: Nokia - Devices & Services Business
+      date: '2013-09-03'
+      price: 7166381241
+    - acquiree: Apiphany
+      date: '2013-10-04'
+    - acquiree: Parature
+      date: '2014-01-06'
+      price: 100000000
+    - acquiree: GreenButton
+      date: '2014-04-30'
+    - acquiree: Capptain
+      date: '2014-05-28'
+    - acquiree: SyntaxTree
+      date: '2014-07-03'
+    - acquiree: InMage Systems
+      date: '2014-07-11'
+    - acquiree: Mojang Studios
+      date: '2014-09-15'
+      price: 2500000000
+    - acquiree: Equivio
+      date: '2014-10-08'
+      price: 200000000
+    - acquiree: Aorato
+      date: '2014-11-13'
+      price: 200000000
+    - acquiree: Acompli
+      date: '2014-12-01'
+      price: 200000000
+    - acquiree: Bit Stadium GmbH
+      date: '2014-12-11'
+    - acquiree: HockeyApp
+      date: '2014-12-11'
+    - acquiree: Revolution Analytics
+      date: '2015-01-23'
+    - acquiree: Sunrise
+      date: '2015-02-04'
+      price: 100000000
+    - acquiree: N-Trig
+      date: '2015-02-12'
+    - acquiree: LiveLoop
+      date: '2015-03-26'
+    - acquiree: Datazen Software
+      date: '2015-04-14'
+    - acquiree: Wunderlist
+      date: '2015-06-02'
+      price: 150000000
+    - acquiree: BlueStripe
+      date: '2015-06-10'
+    - acquiree: FieldOne Systems
+      date: '2015-07-16'
+    - acquiree: Adallom
+      date: '2015-07-19'
+      price: 320000000
+    - acquiree: FantasySalesTeam
+      date: '2015-08-03'
+    - acquiree: Double Labs
+      date: '2015-09-10'
+    - acquiree: VoloMetrix
+      date: '2015-09-11'
+      price: 250000000
+    - acquiree: Echo Locker
+      date: '2015-09-14'
+    - acquiree: Adxstudio
+      date: '2015-09-30'
+    - acquiree: Havok
+      date: '2015-10-02'
+    - acquiree: Mobile Data Labs
+      date: '2015-11-05'
+    - acquiree: Secure Islands Technologies
+      date: '2015-11-09'
+      price: 77500000
+    - acquiree: Metanautix
+      date: '2015-12-18'
+    - acquiree: Talko
+      date: '2015-12-21'
+    - acquiree: Event Zero
+      date: '2016-01-13'
+    - acquiree: MinecraftEdu
+      date: '2016-01-19'
+    - acquiree: SwiftKey
+      date: '2016-02-02'
+      price: 250000000
+    - acquiree: Groove (dba Zikera)
+      date: '2016-02-09'
+    - acquiree: Xamarin
+      date: '2016-02-24'
+    - acquiree: Solair
+      date: '2016-05-03'
+    - acquiree: LinkedIn
+      date: '2016-06-13'
+      price: 26200000000
+    - acquiree: Wand Labs
+      date: '2016-06-16'
+    - acquiree: Code Connect
+      date: '2016-06-28'
+    - acquiree: Mixer
+      date: '2016-08-11'
+    - acquiree: Genee
+      date: '2016-08-22'
+    - acquiree: Maluuba
+      date: '2017-01-13'
+    - acquiree: Donya Labs
+      date: '2017-01-17'
+    - acquiree: Open Build Service
+      date: '2017-04-01'
+    - acquiree: Deis.com
+      date: '2017-04-10'
+    - acquiree: Intentional Software
+      date: '2017-04-18'
+    - acquiree: Hexadite
+      date: '2017-05-24'
+      price: 100000000
+    - acquiree: Cloudyn
+      date: '2017-06-28'
+      price: 60000000
+    - acquiree: Cycle Computing
+      date: '2017-08-15'
+    - acquiree: AltspaceVR
+      date: '2017-10-04'
+    - acquiree: Swing Technologies
+      date: '2017-11-07'
+    - acquiree: Avere Systems
+      date: '2018-01-03'
+    - acquiree: PlayFab
+      date: '2018-01-29'
+    - acquiree: Chalkup
+      date: '2018-02-13'
+    - acquiree: Semantic Machines
+      date: '2018-05-20'
+    - acquiree: GitHub
+      date: '2018-06-03'
+      price: 7500000000
+    - acquiree: Compulsion Games
+      date: '2018-06-10'
+    - acquiree: Ninja Theory
+      date: '2018-06-10'
+    - acquiree: Playground Games
+      date: '2018-06-10'
+    - acquiree: Undead Labs
+      date: '2018-06-10'
+    - acquiree: FlipGrid
+      date: '2018-06-18'
+    - acquiree: Bonsai
+      date: '2018-06-20'
+    - acquiree: Lobe
+      date: '2018-09-13'
+    - acquiree: Obsidian Entertainment
+      date: '2018-11-10'
+    - acquiree: inXile Entertainment
+      date: '2018-11-10'
+    - acquiree: XOXCO
+      date: '2018-11-14'
+    - acquiree: FSLogix
+      date: '2018-11-19'
+    - acquiree: Citus Data
+      date: '2019-01-24'
+    - acquiree: DataSense
+      date: '2019-02-04'
+    - acquiree: Express Logic
+      date: '2019-04-18'
+    - acquiree: BlueTalon
+      date: '2019-07-29'
+    - acquiree: PromoteIQ
+      date: '2019-08-05'
+    - acquiree: jClarity
+      date: '2019-08-19'
+    - acquiree: Movere
+      date: '2019-09-04'
+    - acquiree: Mover
+      date: '2019-10-21'
+    - acquiree: Affirmed Networks
+      date: '2020-03-26'
+      price: 1350000000
+    - acquiree: CyberX
+      date: '2020-05-05'
+      price: 165000000
+    - acquiree: Metaswitch Networks
+      date: '2020-05-14'
+    - acquiree: Softomotive
+      date: '2020-05-19'
+    - acquiree: ADRM Software
+      date: '2020-06-18'
+    - acquiree: Orions Systems
+      date: '2020-07-08'
+    - acquiree: ZeniMax
+      date: '2020-09-21'
+      price: 7500000000
+    - acquiree: Smash.gg
+      date: '2020-12-02'
+    - acquiree: The Marsden Group
+      date: '2021-03-16'
+    - acquiree: Nuance Communications
+      date: '2021-04-12'
+      price: 19700000000
+    - acquiree: Kinvolk
+      date: '2021-04-29'
+    - acquiree: ReFirm Labs
+      date: '2021-06-02'
+    - acquiree: RiskIQ
+      date: '2021-07-11'
+      price: 500000000
+    - acquiree: CloudKnox Security
+      date: '2021-07-21'
+    - acquiree: Suplari
+      date: '2021-07-28'
+    - acquiree: Peer5
+      date: '2021-08-10'
+    - acquiree: Clipchamp
+      date: '2021-09-07'
+    - acquiree: TakeLessons
+      date: '2021-09-10'
+    - acquiree: Ally.io
+      date: '2021-10-07'
+      price: 76000000
+    - acquiree: Clear Software
+      date: '2021-10-22'
+    - acquiree: Two Hat Security
+      date: '2021-10-29'
+    - acquiree: Xandr
+      date: '2021-12-21'
+    - acquiree: Minit
+      date: '2022-03-31'
+    - acquiree: Activision Blizzard
+      date: '2022-04-28'
+      price: 68700000000
+    - acquiree: Miburo
+      date: '2022-06-14'
+    city: Redmond
+    company_type: For Profit
+    country: United States
+    description: Microsoft is a software corporation that develops, manufactures,
+      licenses, supports, and sells a range of software products and services.
+    funding: 1000000
+    homepage: http://www.microsoft.com
+    industries:
+    - Developer Tools
+    - Enterprise Software
+    - Operating Systems
+    - Software
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/microsoft
+    name: Microsoft
+    num_employees_max: 1000000
+    num_employees_min: 10001
+    parents: []
+    region: Washington
+    stockExchange: nasdaq
+    ticker: MSFT
+    twitter: http://twitter.com/Microsoft
+  description: Azure (AKS) Engine - a place for community to collaborate and build
+    the best open Docker container infrastructure for Azure.
+  github_data:
+    contributions: 1;5;2;5;4;13;16;5;7;4;3;16;7;2;6;1;16;6;6;2;0;4;8;8;2;0;5;6;8;6;0;3;1;0;4;5;3;0;3;4;0;2;0;9;2;5;0;0;0;3;8;2
+    contributors_count: 358
+    contributors_link: https://github.com/Azure/aks-engine/graphs/contributors
+    description: 'AKS Engine: Units of Kubernetes on Azure!'
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 6478341
+    - color: '#89e051'
+      name: Shell
+      value: 210805
+    - color: '#012456'
+      name: PowerShell
+      value: 178688
+    - color: '#427819'
+      name: Makefile
+      value: 9868
+    - color: '#3572A5'
+      name: Python
+      value: 2348
+    - color: '#178600'
+      name: C#
+      value: 1678
+    - color: '#384d54'
+      name: Dockerfile
+      value: 1045
+    - color: '#C1F12E'
+      name: Batchfile
+      value: 122
+    latest_commit_date: '2022-08-04T19:22:11Z'
+    latest_commit_link: /Azure/aks-engine/commit/4ca219d4927cf95d23e9ba32a5608cc2be626fc3
+    license: MIT License
+    release_date: '2020-10-07T20:51:23Z'
+    release_link: https://github.com/Azure/aks-engine/releases
+    stars: 974
+  github_start_commit_data:
+    start_commit_link: /Azure/aks-engine/commit/d9bb7f4bbfd1b2932f1d0319e07429eee6127dbf
+    start_date: '2016-05-17T17:19:35Z'
+  homepage_url: https://github.com/Azure/aks-engine
+  image_data:
+    fileName: azure-aks-engine.svg
+    hash: 0H5XdM1E6Sv5bxH503eF6kmNaasXX5vEXWOeB8AcZS0=
+  item: null
+  logo: microsoft-azure.svg
+  name: Azure (AKS) Engine
+  repo_url: https://github.com/Azure/aks-engine
+  repos:
+  - stars: 974
+    url: https://github.com/Azure/aks-engine
+  twitter: https://twitter.com/Azure
+  twitter_data:
+    latest_tweet_date: 2022-08-05 22:36:17+00:00
+  yahoo_finance_data:
+    effective_ticker: MSFT
+    market_cap: 2109911597056

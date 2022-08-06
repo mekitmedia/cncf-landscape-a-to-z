@@ -1,0 +1,889 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Duanqu
+      date: '2017-05-01'
+    - acquiree: Chaitin Tech
+      date: '2019-10-11'
+    - acquiree: IDsManager
+      date: '2019-10-31'
+    city: Hangzhou
+    company_type: For Profit
+    country: China
+    description: Alibaba Cloud develops highly scalable cloud computing and data management
+      services.
+    funding: 1200000000
+    homepage: https://in.alibabacloud.com
+    industries:
+    - Cloud Data Services
+    - Cloud Management
+    - Data Center
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/alibaba-cloud-computing-company
+    name: Alibaba Cloud
+    num_employees_max: 5000
+    num_employees_min: 1001
+    parents:
+    - https://www.crunchbase.com/organization/alibaba
+    region: Zhejiang
+    stockExchange: null
+    ticker: 9988.HK
+    twitter: https://twitter.com/alibaba_cloud
+  description: Alibaba Cloud File Storage enables you to have a distributed file system
+    with unlimited capacity and performance scaleing with a single namespace,high-performance,
+    high reliability, high availabily and scalable file storage services.
+  homepage_url: https://www.alibabacloud.com/product/nas
+  image_data:
+    fileName: alibaba-cloud-file-storage.svg
+    hash: 31Yf5OOy/aIEwI6ooocTmWs96AGbMaDtB0JDLGTHRm0=
+  item: null
+  logo: alibaba-cloud-file-storage.svg
+  name: Alibaba Cloud File Storage
+  twitter_data:
+    latest_tweet_date: 2022-08-05 10:00:00+00:00
+  yahoo_finance_data:
+    effective_ticker: 9988.HK
+    market_cap: 250716029031
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Duanqu
+      date: '2017-05-01'
+    - acquiree: Chaitin Tech
+      date: '2019-10-11'
+    - acquiree: IDsManager
+      date: '2019-10-31'
+    city: Hangzhou
+    company_type: For Profit
+    country: China
+    description: Alibaba Cloud develops highly scalable cloud computing and data management
+      services.
+    funding: 1200000000
+    homepage: https://in.alibabacloud.com
+    industries:
+    - Cloud Data Services
+    - Cloud Management
+    - Data Center
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/alibaba-cloud-computing-company
+    name: Alibaba Cloud
+    num_employees_max: 5000
+    num_employees_min: 1001
+    parents:
+    - https://www.crunchbase.com/organization/alibaba
+    region: Zhejiang
+    stockExchange: null
+    ticker: 9988.HK
+    twitter: https://twitter.com/alibaba_cloud
+  description: Alibaba Cloud File Storage CPFS is a scale-out parallel file system
+    for Artifical intelligence(AI), High performance computing(HPC) workload while
+    ensuring security, reliability, data effciency and high performance.
+  homepage_url: https://www.alibabacloud.com/error
+  image_data:
+    fileName: alibaba-cloud-file-storage-cpfs.svg
+    hash: eafediUKv9vc61fd8mrB/UDrH0thOcyWDKNQ/er/VDg=
+  item: null
+  logo: alibaba-cloud-file-storage-cpfs.svg
+  name: Alibaba Cloud File Storage CPFS
+  twitter_data:
+    latest_tweet_date: 2022-08-05 10:00:00+00:00
+  yahoo_finance_data:
+    effective_ticker: 9988.HK
+    market_cap: 250716029031
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/alluxio
+  crunchbase_data:
+    acquisitions: []
+    city: San Mateo
+    company_type: For Profit
+    country: United States
+    description: Data Orchestration for AI and Analytics in the Cloud
+    funding: 73000000
+    homepage: https://www.alluxio.io
+    industries:
+    - Analytics
+    - Artificial Intelligence
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/alluxio-inc-
+    name: Alluxio
+    num_employees_max: 100
+    num_employees_min: 51
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/Alluxio
+  github_data:
+    contributions: 18;17;18;11;10;20;24;22;10;21;18;34;40;29;12;15;11;19;13;16;13;9;16;28;22;10;15;14;23;33;20;16;17;27;25;27;49;15;11;25;16;23;23;22;25;18;21;11;15;26;19;22
+    contributors_count: 1390
+    contributors_link: https://github.com/alluxio/alluxio/graphs/contributors
+    description: Alluxio, data orchestration for analytics and machine learning in
+      the cloud
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#b07219'
+      name: Java
+      value: 14762999
+    - color: '#2b7489'
+      name: TypeScript
+      value: 324466
+    - color: '#00ADD8'
+      name: Go
+      value: 290542
+    - color: '#89e051'
+      name: Shell
+      value: 282186
+    - color: '#f34b7d'
+      name: C++
+      value: 47930
+    - name: Mustache
+      value: 21984
+    - color: '#3572A5'
+      name: Python
+      value: 18085
+    - color: '#701516'
+      name: Ruby
+      value: 15044
+    - name: SCSS
+      value: 12027
+    - color: '#384d54'
+      name: Dockerfile
+      value: 10679
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 9992
+    - color: '#555555'
+      name: C
+      value: 7326
+    - color: '#427819'
+      name: Makefile
+      value: 6312
+    - color: '#ecdebe'
+      name: Roff
+      value: 5919
+    - name: Handlebars
+      value: 3627
+    - color: '#e34c26'
+      name: HTML
+      value: 3412
+    latest_commit_date: '2022-08-05T01:42:24Z'
+    latest_commit_link: /Alluxio/alluxio/commit/fdcba75c7e65bf812c2ba07b7c968ef3c9550213
+    license: Apache License 2.0
+    release_date: '2022-05-04T17:54:48Z'
+    release_link: https://github.com/alluxio/alluxio/releases
+    stars: 5802
+  github_start_commit_data:
+    start_commit_link: /Alluxio/alluxio/commit/c1ad7ba0ea332e9792575dbae4fabc5524bdcfa0
+    start_date: '2012-12-21T17:43:46Z'
+  homepage_url: https://www.alluxio.io/
+  image_data:
+    fileName: alluxio.svg
+    hash: 4oj6lgXmH43eY5s0Ct6Qu1rhgFTo/heYJUvN1w5CLYs=
+  item: null
+  logo: alluxio.svg
+  name: Alluxio
+  repo_url: https://github.com/alluxio/alluxio
+  repos:
+  - stars: 5802
+    url: https://github.com/alluxio/alluxio
+  twitter: https://twitter.com/alluxio
+  twitter_data:
+    latest_tweet_date: 2022-08-04 23:10:10+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+  crunchbase_data:
+    acquisitions:
+    - acquiree: AppThwack
+      date: '2015-07-14'
+    - acquiree: NICE
+      date: '2016-02-11'
+    - acquiree: Thinkbox Software
+      date: '2017-03-06'
+    - acquiree: Do
+      date: '2017-03-08'
+    - acquiree: Sqrrl
+      date: '2018-01-23'
+    - acquiree: TSO Logic
+      date: '2019-01-14'
+    - acquiree: TeamSQL, Inc.
+      date: '2020-02-21'
+    - acquiree: DB Best Technologies
+      date: '2021-01-28'
+    - acquiree: Wickr
+      date: '2021-06-25'
+    city: Seattle
+    company_type: For Profit
+    country: United States
+    description: Amazon Web Services provides information technology infrastructure
+      services to businesses in the form of web services.
+    funding: 108000000
+    homepage: http://aws.amazon.com
+    industries:
+    - Information Services
+    - Information Technology
+    - Software
+    - Web Development
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/amazon-web-services
+    name: Amazon Web Services
+    num_employees_max: 1000000
+    num_employees_min: 10001
+    parents:
+    - https://www.crunchbase.com/organization/amazon
+    region: Washington
+    stockExchange: null
+    ticker: AMZN
+    twitter: http://twitter.com/awscloud
+  description: Amazon Elastic Block Store (EBS) is an easy to use, high performance
+    block storage service designed for use with Amazon Elastic Compute Cloud (EC2)
+    for both throughput and transaction intensive workloads at any scale.
+  homepage_url: https://aws.amazon.com/ebs/
+  image_data:
+    fileName: amazon-elastic-block-store-ebs.svg
+    hash: sq+lBH+Xa1UAMyvu3NnRRDrijTiq8iWPBpivztwjmDI=
+  item: null
+  logo: amazon-elastic-block-store.svg
+  name: Amazon Elastic Block Store (EBS)
+  twitter_data:
+    latest_tweet_date: 2022-08-05 18:15:56+00:00
+  yahoo_finance_data:
+    effective_ticker: AMZN
+    market_cap: 1434414088192
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/arrikto
+  crunchbase_data:
+    acquisitions: []
+    city: San Mateo
+    company_type: For Profit
+    country: United States
+    description: Democratizing Kubernetes Machine Learning with Kubeflow, simplified
+      data automation, and accelerated collaboration
+    funding: 15000000
+    homepage: http://www.arrikto.com/
+    industries:
+    - Cloud Data Services
+    - Computer
+    - Machine Learning
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/arrikto
+    name: Arrikto
+    num_employees_max: 100
+    num_employees_min: 51
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/Arrikto
+  homepage_url: https://www.arrikto.com/
+  image_data:
+    fileName: arrikto.svg
+    hash: UwW8x3ZgwL2h/SjTm3l0oz49EKgNVmVXo3qI8bujo2k=
+  item: null
+  logo: arrikto.svg
+  name: Arrikto
+  twitter: https://twitter.com/arrikto
+  twitter_data:
+    latest_tweet_date: 2022-08-06 01:00:00+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/microsoft
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Forethought
+      date: '1987-07-30'
+      price: 14000000
+    - acquiree: Consumers Software
+      date: '1991-03-08'
+    - acquiree: Fox Software
+      date: '1992-03-25'
+    - acquiree: SoftImage
+      date: '1994-02-15'
+    - acquiree: Altamira Software
+      date: '1994-09-27'
+    - acquiree: NextBase
+      date: '1994-11-01'
+    - acquiree: One Tree Software Ltd
+      date: '1994-11-16'
+    - acquiree: RenderMorphics
+      date: '1995-02-23'
+    - acquiree: Network Managers
+      date: '1995-07-10'
+    - acquiree: Blue Ribbon SoundWorks
+      date: '1995-10-16'
+    - acquiree: Netwise
+      date: '1995-11-06'
+    - acquiree: Bruce Artwick Organization
+      date: '1995-12-12'
+    - acquiree: Vermeer Technologies
+      date: '1996-01-16'
+    - acquiree: Colusa Software
+      date: '1996-03-12'
+    - acquiree: EXOS
+      date: '1996-04-15'
+    - acquiree: Aspect Software Inc
+      date: '1996-04-23'
+    - acquiree: eShop
+      date: '1996-06-11'
+    - acquiree: Electric Gravity
+      date: '1996-06-17'
+    - acquiree: NetCarta
+      date: '1996-12-10'
+    - acquiree: Interse
+      date: '1997-03-03'
+    - acquiree: WebTV Networks
+      date: '1997-04-06'
+    - acquiree: Dimension X
+      date: '1997-05-07'
+    - acquiree: Cooper & Peters
+      date: '1997-06-13'
+    - acquiree: LinkAge Software
+      date: '1997-06-30'
+    - acquiree: VXtreme
+      date: '1997-08-05'
+    - acquiree: Hotmail
+      date: '1997-12-31'
+    - acquiree: Windows Live Hotmail
+      date: '1997-12-31'
+    - acquiree: Firefly Network
+      date: '1998-04-09'
+    - acquiree: MESA Group
+      date: '1998-04-28'
+    - acquiree: Merchant Planet
+      date: '1998-06-23'
+    - acquiree: Valence Research
+      date: '1998-08-25'
+    - acquiree: Valence Technology
+      date: '1998-08-25'
+    - acquiree: linkexchange
+      date: '1998-11-05'
+    - acquiree: FASA Interactive
+      date: '1999-01-08'
+    - acquiree: CompareNet
+      date: '1999-03-04'
+    - acquiree: Numinous Technologies
+      date: '1999-03-28'
+    - acquiree: Jump Networks
+      date: '1999-04-26'
+    - acquiree: ShadowFactor Software
+      date: '1999-06-07'
+    - acquiree: OmniBrowse
+      date: '1999-06-14'
+    - acquiree: Sendit
+      date: '1999-07-01'
+    - acquiree: Zoomit
+      date: '1999-07-07'
+    - acquiree: STNC
+      date: '1999-07-21'
+    - acquiree: Intrinsa
+      date: '1999-07-28'
+      price: 58900000
+    - acquiree: Visio Corporation
+      date: '1999-09-15'
+    - acquiree: Softway Systems
+      date: '1999-09-17'
+    - acquiree: Entropic
+      date: '1999-10-29'
+    - acquiree: Entropic Research Laboratories
+      date: '1999-11-01'
+    - acquiree: Peach Networks
+      date: '2000-02-29'
+    - acquiree: Bungie
+      date: '2000-06-19'
+    - acquiree: NetGames
+      date: '2000-07-12'
+    - acquiree: MongoMusic
+      date: '2000-09-13'
+      price: 65000000
+    - acquiree: Pacific Microsonics
+      date: '2000-09-18'
+    - acquiree: Digital Anvil
+      date: '2000-12-05'
+    - acquiree: Great Plains Software
+      date: '2000-12-21'
+    - acquiree: NCompass Labs
+      date: '2001-04-30'
+    - acquiree: XDegrees
+      date: '2001-09-13'
+    - acquiree: Navision
+      date: '2002-05-07'
+      price: 1450000000
+    - acquiree: Rare
+      date: '2002-09-24'
+      price: 337000000
+    - acquiree: Vicinity Corporation
+      date: '2002-10-22'
+      price: 96000000
+    - acquiree: Connectix
+      date: '2003-02-19'
+    - acquiree: Pelican Security
+      date: '2003-03-04'
+      price: 1000000
+    - acquiree: PlaceWare
+      date: '2003-04-30'
+    - acquiree: RAV Antivirus
+      date: '2003-06-10'
+    - acquiree: ActiveViews
+      date: '2004-04-26'
+    - acquiree: Lookout Software
+      date: '2004-07-17'
+    - acquiree: GIANT Company Software
+      date: '2004-12-16'
+    - acquiree: Sybari
+      date: '2005-02-08'
+    - acquiree: Groove Networks
+      date: '2005-03-10'
+    - acquiree: MessageCast
+      date: '2005-05-11'
+    - acquiree: Frontbridge Technologies
+      date: '2005-07-20'
+    - acquiree: Teleo
+      date: '2005-08-30'
+    - acquiree: Alacris
+      date: '2005-09-19'
+    - acquiree: Unveil Technologies
+      date: '2005-10-06'
+    - acquiree: Media-Streams.com
+      date: '2005-11-02'
+    - acquiree: FolderShare
+      date: '2005-11-03'
+    - acquiree: 5th Finger
+      date: '2005-11-17'
+    - acquiree: SeaDragon Software
+      date: '2006-01-28'
+    - acquiree: Motion Bridge
+      date: '2006-02-13'
+    - acquiree: Apptimum
+      date: '2006-03-07'
+    - acquiree: Onfolio
+      date: '2006-03-07'
+    - acquiree: ProClarity
+      date: '2006-04-03'
+    - acquiree: Lionhead Studios
+      date: '2006-04-06'
+    - acquiree: AssetMetrix Corporation
+      date: '2006-04-26'
+    - acquiree: Massive
+      date: '2006-05-01'
+      price: 200000000
+    - acquiree: DeepMetrix
+      date: '2006-05-04'
+    - acquiree: Vexcel
+      date: '2006-05-04'
+    - acquiree: Whale Communications
+      date: '2006-05-18'
+      price: 75000000
+    - acquiree: iView Multimedia
+      date: '2006-06-27'
+    - acquiree: Softricity
+      date: '2006-07-17'
+    - acquiree: Winternals
+      date: '2006-07-18'
+    - acquiree: Azyxxi
+      date: '2006-07-26'
+    - acquiree: Gteko
+      date: '2006-09-26'
+    - acquiree: DesktopStandard
+      date: '2006-10-02'
+    - acquiree: Colloquis
+      date: '2006-10-12'
+    - acquiree: Medstory
+      date: '2007-02-26'
+    - acquiree: Tellme
+      date: '2007-03-14'
+      price: 800000000
+    - acquiree: Tellme
+      date: '2007-03-14'
+      price: 800000000
+    - acquiree: devBiz Business Solutions
+      date: '2007-03-28'
+    - acquiree: Screen Tonic
+      date: '2007-05-03'
+    - acquiree: aQuantive
+      date: '2007-05-18'
+      price: 6400000000
+    - acquiree: Engyro
+      date: '2007-06-05'
+    - acquiree: Stratature
+      date: '2007-06-07'
+    - acquiree: AdECN
+      date: '2007-07-26'
+    - acquiree: Parlano
+      date: '2007-08-29'
+    - acquiree: Global Care Solutions
+      date: '2007-10-29'
+    - acquiree: Musiwave
+      date: '2007-11-15'
+      price: 46000000
+    - acquiree: WebFives
+      date: '2007-11-30'
+    - acquiree: MultiMap
+      date: '2007-12-12'
+    - acquiree: Fast Search & Transfer
+      date: '2008-01-08'
+    - acquiree: Calista Technologies
+      date: '2008-01-21'
+    - acquiree: Caligari Corporation
+      date: '2008-02-07'
+    - acquiree: Danger
+      date: '2008-02-11'
+      price: 500000000
+    - acquiree: YaData
+      date: '2008-02-27'
+    - acquiree: Credentica
+      date: '2008-03-08'
+    - acquiree: Kidaro
+      date: '2008-03-12'
+      price: 90000000
+    - acquiree: 90 Degree Software
+      date: '2008-03-14'
+    - acquiree: Rapt
+      date: '2008-03-14'
+    - acquiree: Komoku
+      date: '2008-03-20'
+    - acquiree: Farecast
+      date: '2008-04-09'
+      price: 115000000
+    - acquiree: Navic Networks
+      date: '2008-06-18'
+    - acquiree: Navic Systems
+      date: '2008-06-18'
+    - acquiree: MobiComp
+      date: '2008-06-26'
+    - acquiree: Powerset
+      date: '2008-07-01'
+      price: 100000000
+    - acquiree: Zoomix
+      date: '2008-07-14'
+    - acquiree: DATAllegro
+      date: '2008-07-25'
+    - acquiree: Greenfield Online
+      date: '2008-08-29'
+      price: 486000000
+    - acquiree: Ciao
+      date: '2008-08-31'
+    - acquiree: BigPark
+      date: '2009-05-07'
+    - acquiree: Rosetta Biosoftware
+      date: '2009-06-01'
+    - acquiree: ClickStream Technologies
+      date: '2009-06-28'
+    - acquiree: Interactive Supercomputing
+      date: '2009-09-22'
+    - acquiree: Sentillion
+      date: '2009-12-10'
+    - acquiree: Opalis Software
+      date: '2009-12-11'
+    - acquiree: AVIcode
+      date: '2010-10-06'
+    - acquiree: Canesta
+      date: '2010-10-29'
+    - acquiree: Skype
+      date: '2011-05-10'
+    - acquiree: Prodiance Corporation
+      date: '2011-06-08'
+    - acquiree: Twisted Pixel Games
+      date: '2011-10-12'
+    - acquiree: VideoSurf
+      date: '2011-11-23'
+      price: 100000000
+    - acquiree: Yammer
+      date: '2012-06-25'
+      price: 1200000000
+    - acquiree: Perceptive Pixel
+      date: '2012-07-09'
+    - acquiree: PhoneFactor
+      date: '2012-10-04'
+    - acquiree: StorSimple
+      date: '2012-10-16'
+    - acquiree: MarketingPilot
+      date: '2012-10-17'
+    - acquiree: R2 Studios
+      date: '2012-12-28'
+    - acquiree: id8 Group R2 Studios
+      date: '2013-01-02'
+    - acquiree: Pando Networks
+      date: '2013-02-04'
+    - acquiree: MetricsHub
+      date: '2013-03-04'
+    - acquiree: Netbreeze
+      date: '2013-03-19'
+    - acquiree: InRelease
+      date: '2013-06-03'
+    - acquiree: Nokia - Devices & Services Business
+      date: '2013-09-03'
+      price: 7166381241
+    - acquiree: Apiphany
+      date: '2013-10-04'
+    - acquiree: Parature
+      date: '2014-01-06'
+      price: 100000000
+    - acquiree: GreenButton
+      date: '2014-04-30'
+    - acquiree: Capptain
+      date: '2014-05-28'
+    - acquiree: SyntaxTree
+      date: '2014-07-03'
+    - acquiree: InMage Systems
+      date: '2014-07-11'
+    - acquiree: Mojang Studios
+      date: '2014-09-15'
+      price: 2500000000
+    - acquiree: Equivio
+      date: '2014-10-08'
+      price: 200000000
+    - acquiree: Aorato
+      date: '2014-11-13'
+      price: 200000000
+    - acquiree: Acompli
+      date: '2014-12-01'
+      price: 200000000
+    - acquiree: Bit Stadium GmbH
+      date: '2014-12-11'
+    - acquiree: HockeyApp
+      date: '2014-12-11'
+    - acquiree: Revolution Analytics
+      date: '2015-01-23'
+    - acquiree: Sunrise
+      date: '2015-02-04'
+      price: 100000000
+    - acquiree: N-Trig
+      date: '2015-02-12'
+    - acquiree: LiveLoop
+      date: '2015-03-26'
+    - acquiree: Datazen Software
+      date: '2015-04-14'
+    - acquiree: Wunderlist
+      date: '2015-06-02'
+      price: 150000000
+    - acquiree: BlueStripe
+      date: '2015-06-10'
+    - acquiree: FieldOne Systems
+      date: '2015-07-16'
+    - acquiree: Adallom
+      date: '2015-07-19'
+      price: 320000000
+    - acquiree: FantasySalesTeam
+      date: '2015-08-03'
+    - acquiree: Double Labs
+      date: '2015-09-10'
+    - acquiree: VoloMetrix
+      date: '2015-09-11'
+      price: 250000000
+    - acquiree: Echo Locker
+      date: '2015-09-14'
+    - acquiree: Adxstudio
+      date: '2015-09-30'
+    - acquiree: Havok
+      date: '2015-10-02'
+    - acquiree: Mobile Data Labs
+      date: '2015-11-05'
+    - acquiree: Secure Islands Technologies
+      date: '2015-11-09'
+      price: 77500000
+    - acquiree: Metanautix
+      date: '2015-12-18'
+    - acquiree: Talko
+      date: '2015-12-21'
+    - acquiree: Event Zero
+      date: '2016-01-13'
+    - acquiree: MinecraftEdu
+      date: '2016-01-19'
+    - acquiree: SwiftKey
+      date: '2016-02-02'
+      price: 250000000
+    - acquiree: Groove (dba Zikera)
+      date: '2016-02-09'
+    - acquiree: Xamarin
+      date: '2016-02-24'
+    - acquiree: Solair
+      date: '2016-05-03'
+    - acquiree: LinkedIn
+      date: '2016-06-13'
+      price: 26200000000
+    - acquiree: Wand Labs
+      date: '2016-06-16'
+    - acquiree: Code Connect
+      date: '2016-06-28'
+    - acquiree: Mixer
+      date: '2016-08-11'
+    - acquiree: Genee
+      date: '2016-08-22'
+    - acquiree: Maluuba
+      date: '2017-01-13'
+    - acquiree: Donya Labs
+      date: '2017-01-17'
+    - acquiree: Open Build Service
+      date: '2017-04-01'
+    - acquiree: Deis.com
+      date: '2017-04-10'
+    - acquiree: Intentional Software
+      date: '2017-04-18'
+    - acquiree: Hexadite
+      date: '2017-05-24'
+      price: 100000000
+    - acquiree: Cloudyn
+      date: '2017-06-28'
+      price: 60000000
+    - acquiree: Cycle Computing
+      date: '2017-08-15'
+    - acquiree: AltspaceVR
+      date: '2017-10-04'
+    - acquiree: Swing Technologies
+      date: '2017-11-07'
+    - acquiree: Avere Systems
+      date: '2018-01-03'
+    - acquiree: PlayFab
+      date: '2018-01-29'
+    - acquiree: Chalkup
+      date: '2018-02-13'
+    - acquiree: Semantic Machines
+      date: '2018-05-20'
+    - acquiree: GitHub
+      date: '2018-06-03'
+      price: 7500000000
+    - acquiree: Compulsion Games
+      date: '2018-06-10'
+    - acquiree: Ninja Theory
+      date: '2018-06-10'
+    - acquiree: Playground Games
+      date: '2018-06-10'
+    - acquiree: Undead Labs
+      date: '2018-06-10'
+    - acquiree: FlipGrid
+      date: '2018-06-18'
+    - acquiree: Bonsai
+      date: '2018-06-20'
+    - acquiree: Lobe
+      date: '2018-09-13'
+    - acquiree: Obsidian Entertainment
+      date: '2018-11-10'
+    - acquiree: inXile Entertainment
+      date: '2018-11-10'
+    - acquiree: XOXCO
+      date: '2018-11-14'
+    - acquiree: FSLogix
+      date: '2018-11-19'
+    - acquiree: Citus Data
+      date: '2019-01-24'
+    - acquiree: DataSense
+      date: '2019-02-04'
+    - acquiree: Express Logic
+      date: '2019-04-18'
+    - acquiree: BlueTalon
+      date: '2019-07-29'
+    - acquiree: PromoteIQ
+      date: '2019-08-05'
+    - acquiree: jClarity
+      date: '2019-08-19'
+    - acquiree: Movere
+      date: '2019-09-04'
+    - acquiree: Mover
+      date: '2019-10-21'
+    - acquiree: Affirmed Networks
+      date: '2020-03-26'
+      price: 1350000000
+    - acquiree: CyberX
+      date: '2020-05-05'
+      price: 165000000
+    - acquiree: Metaswitch Networks
+      date: '2020-05-14'
+    - acquiree: Softomotive
+      date: '2020-05-19'
+    - acquiree: ADRM Software
+      date: '2020-06-18'
+    - acquiree: Orions Systems
+      date: '2020-07-08'
+    - acquiree: ZeniMax
+      date: '2020-09-21'
+      price: 7500000000
+    - acquiree: Smash.gg
+      date: '2020-12-02'
+    - acquiree: The Marsden Group
+      date: '2021-03-16'
+    - acquiree: Nuance Communications
+      date: '2021-04-12'
+      price: 19700000000
+    - acquiree: Kinvolk
+      date: '2021-04-29'
+    - acquiree: ReFirm Labs
+      date: '2021-06-02'
+    - acquiree: RiskIQ
+      date: '2021-07-11'
+      price: 500000000
+    - acquiree: CloudKnox Security
+      date: '2021-07-21'
+    - acquiree: Suplari
+      date: '2021-07-28'
+    - acquiree: Peer5
+      date: '2021-08-10'
+    - acquiree: Clipchamp
+      date: '2021-09-07'
+    - acquiree: TakeLessons
+      date: '2021-09-10'
+    - acquiree: Ally.io
+      date: '2021-10-07'
+      price: 76000000
+    - acquiree: Clear Software
+      date: '2021-10-22'
+    - acquiree: Two Hat Security
+      date: '2021-10-29'
+    - acquiree: Xandr
+      date: '2021-12-21'
+    - acquiree: Minit
+      date: '2022-03-31'
+    - acquiree: Activision Blizzard
+      date: '2022-04-28'
+      price: 68700000000
+    - acquiree: Miburo
+      date: '2022-06-14'
+    city: Redmond
+    company_type: For Profit
+    country: United States
+    description: Microsoft is a software corporation that develops, manufactures,
+      licenses, supports, and sells a range of software products and services.
+    funding: 1000000
+    homepage: http://www.microsoft.com
+    industries:
+    - Developer Tools
+    - Enterprise Software
+    - Operating Systems
+    - Software
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/microsoft
+    name: Microsoft
+    num_employees_max: 1000000
+    num_employees_min: 10001
+    parents: []
+    region: Washington
+    stockExchange: nasdaq
+    ticker: MSFT
+    twitter: http://twitter.com/Microsoft
+  description: "Get HDD/SSD durability, scalability, availability, and security you\
+    \ need for all your workloads\u2014from mission-critical workloads to test scenarios."
+  homepage_url: https://azure.microsoft.com/en-us/services/storage/disks/
+  image_data:
+    fileName: azure-disk-storage.svg
+    hash: wIAPiGQ0uSpGkysA8iyzlErZA5DLWNHHmyjMEIwK0LU=
+  item: null
+  logo: azure-disk-storage.svg
+  name: Azure Disk Storage
+  twitter: https://twitter.com/azure
+  twitter_data:
+    latest_tweet_date: 2022-08-05 22:36:17+00:00
+  yahoo_finance_data:
+    effective_ticker: MSFT
+    market_cap: 2109911597056

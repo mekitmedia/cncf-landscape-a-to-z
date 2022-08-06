@@ -1,0 +1,269 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/easystack
+  crunchbase_data:
+    acquisitions: []
+    city: Beijing
+    company_type: For Profit
+    country: China
+    description: EasyStack provides open cloud solutions and services for China and
+      Asia market.
+    funding: 114000000
+    homepage: http://www.easystack.cn/en/
+    industries:
+    - Cloud Computing
+    - Enterprise
+    - Information Technology
+    kind: funding
+    linkedin: https://www.linkedin.com/company/6656236
+    name: EasyStack
+    num_employees_max: 250
+    num_employees_min: 101
+    parents: []
+    region: Beijing
+    stockExchange: null
+    twitter: https://twitter.com/EasyStackIO
+  homepage_url: https://www.easystack.cn/
+  image_data:
+    fileName: easy-stack-kcsp.svg
+    hash: /Dfhyg41h7L6RTTWL+ahcpCMYWW1eC6WUydyrFYB7Og=
+  item: null
+  logo: easystack.svg
+  name: EasyStack (KCSP)
+  twitter_data:
+    latest_tweet_date: 2021-02-10 03:05:14+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/enterprisedb
+  crunchbase_data:
+    acquisitions:
+    - acquiree: 2ndQuadrant
+      date: '2020-09-30'
+    city: Bedford
+    company_type: For Profit
+    country: United States
+    description: EDB is an open source-based data platform.
+    funding: 67921718
+    homepage: https://www.enterprisedb.com
+    industries:
+    - Analytics
+    - Big Data
+    - Business Intelligence
+    - Database
+    - Enterprise Software
+    - Hardware
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/14958
+    name: EDB
+    num_employees_max: 500
+    num_employees_min: 251
+    parents: []
+    region: Massachusetts
+    stockExchange: null
+    twitter: https://twitter.com/EDBPostgres
+  description: Our services are designed to help enterprises become Cloud Native under
+    the supervision of certified Kubernetes and PostgreSQL experts.
+  homepage_url: https://www.2ndquadrant.com/en/resources/kubernetes-operators-for-highly-available-postgresql-and-bdr
+  image_data:
+    fileName: edb-kcsp.svg
+    hash: L8/DoWFYwW0YujFOclXOWZGZz9KM51hgjNQwM3pkpP0=
+  item: null
+  logo: enterprisedb.svg
+  name: EDB (KCSP)
+  twitter_data:
+    latest_tweet_date: 2022-08-05 12:02:34+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/eficode
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Videnhuset as
+      date: '2011-11-01'
+    - acquiree: Adage Oy
+      date: '2017-04-03'
+    - acquiree: Praqma
+      date: '2019-05-20'
+    - acquiree: Riada
+      date: '2021-01-29'
+    - acquiree: Beecom
+      date: '2021-05-18'
+    city: Helsinki
+    company_type: For Profit
+    country: Finland
+    description: Eficode is a DevOps, software, automation, and design company with
+      offices in Northern and Western Europe.
+    funding: 7423179
+    homepage: http://www.eficode.com
+    industries:
+    - Developer Tools
+    - Information Technology
+    - Linux
+    - Open Source
+    - Software
+    - Web Development
+    kind: funding
+    linkedin: https://www.linkedin.com/company/eficode
+    name: Eficode
+    num_employees_max: 500
+    num_employees_min: 251
+    parents: []
+    region: Southern Finland
+    stockExchange: null
+    twitter: http://twitter.com/Eficode
+  description: Eficode is the leading Continuous Delivery and DevOps consultancy in
+    Europe. We have been helping our customers succeed on Kubernetes projects for
+    years and offer Kubernetes consulting, support and training for organizations
+    embarking on their Kubernetes journey.
+  homepage_url: https://www.eficode.com/
+  image_data:
+    fileName: eficode-kcsp.svg
+    hash: cH09stEcK0ATPOVb/mUFU3CrYFaMePgh3CMMlYWyVyw=
+  item: null
+  logo: eficode.svg
+  name: Eficode (KCSP)
+  twitter_data:
+    latest_tweet_date: 2022-08-05 07:59:59+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/elastisys
+  crunchbase_data:
+    acquisitions: []
+    city: "Ume\xE5"
+    company_type: For Profit
+    country: Sweden
+    description: Elastisys develops and sells a management platform for cloud-based
+      applications like intelligent.
+    funding: 679613
+    homepage: https://elastisys.com/
+    industries:
+    - Cloud Computing
+    - Information Technology
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/elastisys/
+    name: Elastisys
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: Vasterbottens Lan
+    stockExchange: null
+    twitter: https://twitter.com/elastisys
+  description: Elastisys is a Kubernetes partner that designs, builds, and operates
+    Kubernetes clusters. We excel in creation of self-healing, self-managing, and
+    self-optimizing infrastructures based on Kubernetes and related cloud native projects.
+  homepage_url: https://elastisys.com/
+  image_data:
+    fileName: elastisys-kcsp.svg
+    hash: 3aQKWm66emCLykPiX0LVkHzvJBeDkKwfN6A2wYi29QA=
+  item: null
+  logo: elastisys.svg
+  name: Elastisys (KCSP)
+  twitter_data:
+    latest_tweet_date: 2022-07-20 06:11:36+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/elastx
+  crunchbase_data:
+    acquisitions: []
+    city: Stockholm
+    company_type: For Profit
+    country: Sweden
+    description: Public cloud made in Sweden
+    homepage: https://elastx.se/en
+    industries:
+    - Information Technology
+    - Software
+    linkedin: https://www.linkedin.com/company/elastx/
+    name: Elastx
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: Stockholms Lan
+    stockExchange: null
+    twitter: https://twitter.com/elastx
+  description: ELASTX is a public cloud provider based in the Nordics. We love sustainable
+    IT and our CloudOps Engineers help companies automate the entire process from
+    code to production.
+  homepage_url: https://elastx.se/en/kubernetes/
+  image_data:
+    fileName: elastx-kcsp.svg
+    hash: 0Pvh5ktCBEssxlh5SRWw2M6RgUf+Z0w9VQUE+oQVRuk=
+  item: null
+  logo: elastx.svg
+  name: ELASTX (KCSP)
+  twitter_data:
+    latest_tweet_date: 2020-06-26 10:00:03+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/engineerbetter
+  crunchbase_data:
+    acquisitions: []
+    city: London
+    company_type: For Profit
+    country: United Kingdom
+    description: EngineerBetter offer holistic services to help you deliver value
+      faster with Cloud Foundry.
+    homepage: http://www.engineerbetter.com/
+    industries:
+    - CRM
+    - Information Technology
+    - Software
+    linkedin: https://www.linkedin.com/company-beta/10542315/
+    name: EngineerBetter
+    num_employees_max: 10
+    num_employees_min: 1
+    parents: []
+    region: England
+    stockExchange: null
+    twitter: https://twitter.com/engineerbetter
+  description: Helping you deliver value on Kubernetes faster via delivery, enablement,
+    training and organisational transformation services. Experts in the continuous
+    delivery and automation of infrastructure, cloud native apps.
+  homepage_url: https://www.engineerbetter.com/our-services/
+  image_data:
+    fileName: engineer-better-kcsp.svg
+    hash: 3qubc5YNXlXml6eyWGs84FhPVS7grhQiqtaoTfgKbzE=
+  item: null
+  logo: engineer-better.svg
+  name: EngineerBetter (KCSP)
+  twitter_data:
+    latest_tweet_date: 2022-01-21 16:56:28+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/entigo-0301
+  crunchbase_data:
+    acquisitions: []
+    city: Tallinn
+    company_type: For Profit
+    country: Estonia
+    description: Our goal is to simplify your software delivery and operations.
+    homepage: https://www.entigo.com/
+    industries:
+    - Delivery
+    - Information Technology
+    - Software
+    linkedin: null
+    name: Entigo
+    num_employees_max: null
+    num_employees_min: null
+    parents: []
+    region: Harjumaa
+    stockExchange: null
+    twitter: null
+  description: Simplify your software delivery and operations.
+  homepage_url: https://www.entigo.com/services/kubernetes-implementation/
+  image_data:
+    fileName: entigo-kcsp.svg
+    hash: o1OXcNjgSc4iJWvWGzbxDOUs3MfKJPYSIqihMSftwgo=
+  item: null
+  logo: entigo.svg
+  name: Entigo (KCSP)

@@ -1,0 +1,67 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/linux-foundation
+  crunchbase_data:
+    acquisitions: []
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: The Linux Foundation builds sustainable ecosystems around open source
+      projects to accelerate technology development and industry adoption.
+    homepage: http://www.linuxfoundation.org
+    industries:
+    - Communities
+    - Education
+    - Enterprise Software
+    - Events
+    - Information Technology
+    - Linux
+    - Non Profit
+    - Open Source
+    linkedin: https://www.linkedin.com/company/the-linux-foundation
+    name: Linux Foundation
+    num_employees_max: 250
+    num_employees_min: 101
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: http://twitter.com/linuxfoundation
+  description: Cloud-oriented, simple, flexible, vendor-neutral and language-independent
+    standards for messaging
+  github_data:
+    contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+    contributors_count: 18
+    contributors_link: https://github.com/openmessaging/openmessaging-java/graphs/contributors
+    description: OpenMessaging Runtime Interface for Java
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#b07219'
+      name: Java
+      value: 158474
+    - color: '#89e051'
+      name: Shell
+      value: 891
+    latest_commit_date: '2020-11-30T15:03:35Z'
+    latest_commit_link: /openmessaging/openmessaging-java/commit/5d79606316033de21cf784232c27d2fd65d31d44
+    license: Apache License 2.0
+    release_date: '2020-09-25T12:05:07Z'
+    release_link: https://github.com/openmessaging/openmessaging-java/releases
+    stars: 711
+  github_start_commit_data:
+    start_commit_link: /openmessaging/openmessaging-java/commit/225ca581c433c36344b707e76780619c938af637
+    start_date: '2017-01-11T04:05:30Z'
+  homepage_url: https://openmessaging.cloud
+  image_data:
+    fileName: open-messaging.svg
+    hash: AtZIK1d5cxXvchMXy2rurTdI2OpeoyN75ljI8EOK87U=
+  item: null
+  logo: openmessaging.svg
+  name: OpenMessaging
+  repo_url: https://github.com/openmessaging/openmessaging-java
+  repos:
+  - stars: 711
+    url: https://github.com/openmessaging/openmessaging-java
+  twitter: https://twitter.com/Open_Messaging
+  twitter_data:
+    latest_tweet_date: 2022-05-10 01:22:08+00:00

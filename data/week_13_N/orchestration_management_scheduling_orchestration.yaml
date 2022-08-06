@@ -1,0 +1,99 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/hashicorp
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Vektra
+      date: '2016-06-14'
+    city: San Francisco
+    company_type: For Profit
+    country: United States
+    description: HashiCorp is a remote-first company that solves development, security,
+      and operations challenges in infrastructure.
+    funding: 349175000
+    homepage: https://www.hashicorp.com
+    industries:
+    - Cloud Infrastructure
+    - Cyber Security
+    - Information Technology
+    - Private Cloud
+    - Software
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/HashiCorp
+    name: HashiCorp
+    num_employees_max: 5000
+    num_employees_min: 1001
+    parents: []
+    region: California
+    stockExchange: nasdaq
+    ticker: HCP
+    twitter: https://twitter.com/HashiCorp
+  github_data:
+    contributions: 19;8;13;27;23;13;16;19;36;29;24;21;76;5;34;41;18;24;50;36;19;49;43;29;63;39;39;49;41;64;22;46;51;30;76;37;55;22;29;21;31;22;25;46;21;25;25;42;45;43;8;50
+    contributors_count: 661
+    contributors_link: https://github.com/hashicorp/nomad/graphs/contributors
+    description: Nomad is an easy-to-use, flexible, and performant workload orchestrator
+      that can deploy a mix of microservice, batch, containerized, and non-containerized
+      applications. Nomad is easy to operate and scale and has native Consul and Vault
+      integrations.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 13735137
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 2000647
+    - name: Handlebars
+      value: 332986
+    - name: HCL
+      value: 293744
+    - name: SCSS
+      value: 100768
+    - color: '#89e051'
+      name: Shell
+      value: 68504
+    - color: '#427819'
+      name: Makefile
+      value: 19884
+    - color: '#012456'
+      name: PowerShell
+      value: 17485
+    - color: '#384d54'
+      name: Dockerfile
+      value: 4150
+    - color: '#e34c26'
+      name: HTML
+      value: 2201
+    - color: '#b07219'
+      name: Java
+      value: 417
+    - color: '#3572A5'
+      name: Python
+      value: 353
+    latest_commit_date: '2022-08-05T20:45:30Z'
+    latest_commit_link: /hashicorp/nomad/commit/279631eeb56ef7d722095fbcc6997db1d75711d4
+    license: Mozilla Public License 2.0
+    release_date: '2022-08-05T19:57:43Z'
+    release_link: https://github.com/hashicorp/nomad/releases
+    stars: 12066
+  github_start_commit_data:
+    start_commit_link: /hashicorp/nomad/commit/bab9f6b1960e7c12d03565ed5286a744cad9de23
+    start_date: '2015-06-01T10:21:00Z'
+  homepage_url: https://www.nomadproject.io/
+  image_data:
+    fileName: nomad.svg
+    hash: mmxxI0/6h+EMgPJ/CUCO1HAXVMp1BThKV31piUSv85A=
+  item: null
+  logo: nomad.svg
+  name: Nomad
+  repo_url: https://github.com/hashicorp/nomad
+  repos:
+  - stars: 12066
+    url: https://github.com/hashicorp/nomad
+  twitter_data:
+    latest_tweet_date: 2022-08-05 23:07:00+00:00
+  yahoo_finance_data:
+    effective_ticker: HCP
+    market_cap: 6973402624

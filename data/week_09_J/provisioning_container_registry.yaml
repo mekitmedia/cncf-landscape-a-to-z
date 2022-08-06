@@ -1,0 +1,59 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/jfrog-ltd
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Conan
+      date: '2016-11-17'
+    - acquiree: Dimon
+      date: '2017-05-25'
+    - acquiree: CloudMunch
+      date: '2017-06-26'
+    - acquiree: Trainologic
+      date: '2018-09-26'
+    - acquiree: Shippable
+      date: '2019-02-21'
+    - acquiree: Vdoo
+      date: '2021-06-29'
+      price: 300000000
+    - acquiree: UpSwift.io
+      date: '2021-09-13'
+    city: Sunnyvale
+    company_type: For Profit
+    country: United States
+    description: JFrog provides software developers with a binary repository management
+      solution.
+    funding: 226500000
+    homepage: http://www.jfrog.com
+    industries:
+    - Developer Tools
+    - Enterprise Software
+    - Software
+    - Web Development
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/455737
+    name: JFrog
+    num_employees_max: 1000
+    num_employees_min: 501
+    parents: []
+    region: California
+    stockExchange: nasdaq
+    ticker: FROG
+    twitter: http://twitter.com/jfrog
+  description: Shipping updates continuously and automatically has become a critical
+    element of any successful operation. JFrog is revolutionizing the software world
+    with the practice of Continuous Update, with a speed and continuity that forever
+    changes the way organizations manage and release software.
+  homepage_url: https://jfrog.com/artifactory/
+  image_data:
+    fileName: j-frog-artifactory.svg
+    hash: KQgMfMW2kD2KY1Nbgblpzb1x4BP1R5zfk9hJ1DLr6W8=
+  item: null
+  logo: j-frog-artifactory.svg
+  name: JFrog Artifactory
+  twitter_data:
+    latest_tweet_date: 2022-08-04 21:28:05+00:00
+  yahoo_finance_data:
+    effective_ticker: FROG
+    market_cap: 2438384128

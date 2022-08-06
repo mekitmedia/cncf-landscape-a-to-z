@@ -1,0 +1,67 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/qingcloud
+  crunchbase_data:
+    acquisitions: []
+    city: Beijing
+    company_type: For Profit
+    country: China
+    description: QingCloud is a cloud computing platform that provides IaaS-based
+      flexible cloud services.
+    funding: 280832709
+    homepage: http://qingcloud.com
+    industries:
+    - Cloud Computing
+    - IaaS
+    - SaaS
+    - Software
+    - Web Hosting
+    kind: market_cap
+    linkedin: https://www.linkedin.com/showcase/6462819/
+    name: QingCloud
+    num_employees_max: 1000
+    num_employees_min: 501
+    parents: []
+    region: Beijing
+    stockExchange: sse
+    ticker: 688316.SS
+    twitter: null
+  description: "KubeSphere\xAE\uFE0F (QKE) can provide a k8s/KubeSphere cluster in\
+    \ minutes automatically by just a few clicks and inputs."
+  github_data:
+    contributions: 0;0;0;0;0;0;2;0;0;0;0;1;4;1;0;0;0;1;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;1;0;0;0;0;0;0;0;0;0;2;0;0
+    contributors_count: 17
+    contributors_link: https://github.com/QingCloudAppcenter/QKE/graphs/contributors
+    description: KubeSphere is an open source container application platform by QingCloud
+      based on Kubernetes.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#89e051'
+      name: Shell
+      value: 44564
+    - name: Mustache
+      value: 13977
+    latest_commit_date: '2022-07-21T06:02:00Z'
+    latest_commit_link: /QingCloudAppcenter/QKE/commit/8b8dbba58baa227e44309e5633aec1da05a3682b
+    license: Unknown License
+    release_date: '2022-04-13T15:01:03Z'
+    release_link: https://github.com/QingCloudAppcenter/QKE/releases
+    stars: 27
+  github_start_commit_data:
+    start_commit_link: /QingCloudAppcenter/QKE/commit/8230dc895c92185a2766ed698a0918dfdffc2dbf
+    start_date: '2018-12-24T02:08:16Z'
+  homepage_url: https://www.qingcloud.com/products/kubesphereqke/
+  image_data:
+    fileName: kube-sphere-qke.svg
+    hash: u3DOz+sixTuZez2RXJAqkovwq7t3H+UGH57DqIUZrQE=
+  item: null
+  logo: kubesphere.svg
+  name: "KubeSphere\xAE\uFE0F (QKE)"
+  repo_url: https://github.com/QingCloudAppcenter/QKE
+  repos:
+  - stars: 27
+    url: https://github.com/QingCloudAppcenter/QKE
+  yahoo_finance_data:
+    effective_ticker: 688316.SS
+    market_cap: 252335307

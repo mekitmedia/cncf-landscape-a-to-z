@@ -1,0 +1,110 @@
+- best_practice_data:
+    badge: 2095
+    percentage: 100
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  extra:
+    accepted: '2018-07-31'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#harbor-logos
+    dev_stats_url: https://harbor.devstats.cncf.io/
+    mailing_list_url: https://lists.cncf.io/g/harbor-users/topics
+    slack_url: https://cloud-native.slack.com/messages/harbor/
+    stack_overflow_url: https://stackoverflow.com/questions/tagged/harbor
+  github_data:
+    contributions: 10;9;13;14;4;19;20;11;4;17;15;14;12;17;6;5;7;17;9;3;1;6;13;19;19;4;11;8;6;13;17;10;16;12;7;11;12;17;5;16;8;14;3;14;11;21;15;19;9;8;11;20
+    contributors_count: 302
+    contributors_link: https://github.com/goharbor/harbor/graphs/contributors
+    description: An open source trusted cloud native registry project that stores,
+      signs, and scans content.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 5465628
+    - color: '#2b7489'
+      name: TypeScript
+      value: 2010845
+    - color: '#e34c26'
+      name: HTML
+      value: 842927
+    - color: '#3572A5'
+      name: Python
+      value: 513769
+    - name: RobotFramework
+      value: 464827
+    - name: Jinja
+      value: 198952
+    - name: SCSS
+      value: 113514
+    - color: '#89e051'
+      name: Shell
+      value: 81740
+    - color: '#427819'
+      name: Makefile
+      value: 42282
+    - color: '#384d54'
+      name: Dockerfile
+      value: 16684
+    - name: PLpgSQL
+      value: 11799
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 6079
+    - color: '#563d7c'
+      name: CSS
+      value: 2122
+    - name: Smarty
+      value: 1931
+    latest_commit_date: '2022-08-05T12:07:02Z'
+    latest_commit_link: /goharbor/harbor/commit/49d73fa57dd74766ae7cd1083b53d50ed6624489
+    license: Apache License 2.0
+    release_date: '2022-08-03T06:04:35Z'
+    release_link: https://github.com/goharbor/harbor/releases
+    stars: 18005
+  github_start_commit_data:
+    start_commit_link: /goharbor/harbor/commit/f859348ac6230bda564f608e934f67359233a4b3
+    start_date: '2016-02-01T11:59:10Z'
+  homepage_url: https://goharbor.io/
+  image_data:
+    fileName: harbor.svg
+    hash: X1sIwTjFqzWzveSoeRaJRHdCxUV8RXj1ZeOLn7/L07w=
+  item: null
+  logo: harbor.svg
+  name: Harbor
+  project: graduated
+  repo_url: https://github.com/goharbor/harbor
+  repos:
+  - stars: 18005
+    url: https://github.com/goharbor/harbor
+  twitter: https://twitter.com/project_harbor
+  twitter_data:
+    latest_tweet_date: 2022-07-25 11:39:17+00:00

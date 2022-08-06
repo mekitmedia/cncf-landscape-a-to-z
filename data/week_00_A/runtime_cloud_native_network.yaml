@@ -1,0 +1,123 @@
+- best_practice_data:
+    badge: 4173
+    percentage: 100
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  github_data:
+    contributions: 15;16;30;20;9;10;14;12;6;8;19;11;22;17;9;4;8;8;10;2;0;13;11;29;13;3;13;8;18;19;17;14;30;25;5;15;15;23;17;13;17;13;13;14;23;12;11;13;15;15;10;9
+    contributors_count: 100
+    contributors_link: https://github.com/antrea-io/antrea/graphs/contributors
+    description: Kubernetes networking based on Open vSwitch
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 6451360
+    - color: '#89e051'
+      name: Shell
+      value: 386928
+    - color: '#012456'
+      name: PowerShell
+      value: 47008
+    - color: '#427819'
+      name: Makefile
+      value: 29346
+    - color: '#384d54'
+      name: Dockerfile
+      value: 20402
+    - name: HCL
+      value: 5085
+    - name: Smarty
+      value: 3603
+    - name: Jinja
+      value: 2903
+    latest_commit_date: '2022-08-03T21:56:15Z'
+    latest_commit_link: /antrea-io/antrea/commit/2a37aec1e4df5e976601342a72eb76a42058e335
+    license: Apache License 2.0
+    release_date: '2022-07-14T18:11:27Z'
+    release_link: https://github.com/antrea-io/antrea/releases
+    stars: 1314
+  github_start_commit_data:
+    start_commit_link: /vmware-tanzu/antrea/commit/52d7dc7eaa2b99987f0ba30ccc1d3385a1f09db1
+    start_date: '2019-06-14T07:55:20Z'
+  homepage_url: https://antrea.io/
+  image_data:
+    fileName: antrea.svg
+    hash: 74yXKieVGt1yfnzaNtTSD2WCC2bAOd9OJOEKUco0XbI=
+  item: null
+  logo: antrea.svg
+  name: Antrea
+  project: sandbox
+  repo_url: https://github.com/antrea-io/antrea
+  repos:
+  - stars: 1314
+    url: https://github.com/antrea-io/antrea
+  twitter: https://twitter.com/projectantrea
+  twitter_data:
+    latest_tweet_date: 2022-07-26 06:31:43+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/aviatrix
+  crunchbase_data:
+    acquisitions: []
+    city: Santa Clara
+    company_type: For Profit
+    country: United States
+    description: Aviatrix is a multi-cloud network platform that provides security
+      and operational visibility.
+    funding: 340800000
+    homepage: http://aviatrix.com
+    industries:
+    - Cloud Infrastructure
+    - Enterprise Software
+    - Information Technology
+    - Security
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/aviatrix-systems
+    name: Aviatrix
+    num_employees_max: 500
+    num_employees_min: 251
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/aviatrixsys
+  homepage_url: https://www.aviatrix.com/
+  image_data:
+    fileName: aviatrix.svg
+    hash: TqTspkZlEBc5nkzQdAcJcSfO2u7qBNHvdWov/D4140U=
+  item: null
+  logo: aviatrix.svg
+  name: Aviatrix
+  twitter_data:
+    latest_tweet_date: 2022-08-05 18:01:21+00:00

@@ -1,0 +1,72 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  github_data:
+    contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+    contributors_count: 2
+    contributors_link: https://github.com/wapc/wapc-js/graphs/contributors
+    description: waPC JavaScript Host (Node + Browser)
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#2b7489'
+      name: TypeScript
+      value: 19570
+    - color: '#e34c26'
+      name: HTML
+      value: 1273
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 960
+    latest_commit_date: '2021-12-29T17:02:09Z'
+    latest_commit_link: /wapc/wapc-js/commit/0fc7c5492dd0511a3ed71a4098f74ef5478a89f9
+    license: Apache License 2.0
+    release_date: '2021-12-29T17:03:43Z'
+    release_link: https://github.com/wapc/wapc-js/releases
+    stars: 23
+  github_start_commit_data:
+    start_commit_link: /wapc/wapc-js/commit/3d5c92c7a9ec2f45b202c3823585cecfb46070fb
+    start_date: '2020-08-31T17:15:30Z'
+  homepage_url: https://wapc.io/
+  image_data:
+    fileName: wa-pc.svg
+    hash: KcWZ/iEebWDTitTRnDU6dZtW7tzis0nTsnkUGhqQzeo=
+  item: null
+  logo: wapc.svg
+  name: WaPC
+  repo_url: https://github.com/wapc/wapc-js
+  repos:
+  - stars: 23
+    url: https://github.com/wapc/wapc-js
+  twitter_data:
+    latest_tweet_date: 2022-08-05 21:09:37+00:00

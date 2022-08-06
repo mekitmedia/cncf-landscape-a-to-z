@@ -1,0 +1,91 @@
+- best_practice_data:
+    badge: 5381
+    percentage: 100
+  crunchbase: https://www.crunchbase.com/organization/coding-2
+  crunchbase_data:
+    acquisitions:
+    - acquiree: GitCafe
+      date: '2016-03-02'
+    - acquiree: Moth (FEIE.WORK)
+      date: '2018-11-06'
+    city: Shenzhen
+    company_type: For Profit
+    country: China
+    description: CODING is a company that provides free online guides for beginners
+      who want to learn how to program.
+    funding: 26615024
+    homepage: https://coding.net
+    industries:
+    - Cloud Computing
+    - Cloud Data Services
+    - Developer Platform
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: null
+    name: CODING
+    num_employees_max: 250
+    num_employees_min: 101
+    parents: []
+    region: Guangdong
+    stockExchange: null
+    twitter: https://twitter.com/Coding_net
+  extra:
+    accepted: '2021-11-17'
+    artwork_url: https://github.com/cncf/artwork/tree/master/projects/nocalhost
+    blog_url: https://nocalhost.dev/blog
+    dev_stats_url: https://nocalhost.devstats.cncf.io/
+    mailing_list_url: https://groups.google.com/g/nocalhost
+    slack_url: https://cloud-native.slack.com/archives/C02NLKZCJ5D
+    youtube_url: https://www.youtube.com/channel/UC2QC6HvFG8zOtFRvvMzcAUw
+  github_data:
+    contributions: 59;67;122;68;89;102;40;67;13;86;27;45;16;38;22;33;39;16;24;25;20;26;48;36;11;0;18;17;6;0;7;8;5;3;3;25;9;2;0;6;5;1;6;5;1;3;0;5;0;0;0;0
+    contributors_count: 42
+    contributors_link: https://github.com/nocalhost/nocalhost/graphs/contributors
+    description: Nocalhost is Cloud Native Dev Environment.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 2292996
+    - color: '#89e051'
+      name: Shell
+      value: 40870
+    - name: Mustache
+      value: 34117
+    - color: '#384d54'
+      name: Dockerfile
+      value: 5576
+    - name: Inno Setup
+      value: 3583
+    - name: Smarty
+      value: 2986
+    - color: '#427819'
+      name: Makefile
+      value: 2098
+    - color: '#701516'
+      name: Ruby
+      value: 573
+    latest_commit_date: '2022-07-06T10:24:16Z'
+    latest_commit_link: /nocalhost/nocalhost/commit/771f78092d2f197562d3b9d51e2e9c0fa962f322
+    license: Other
+    release_date: '2022-04-18T07:14:07Z'
+    release_link: https://github.com/nocalhost/nocalhost/releases
+    stars: 1357
+  github_start_commit_data:
+    start_commit_link: /nocalhost/nocalhost/commit/6b0ce9423121d1961d03742c9f40d37397f66c0d
+    start_date: '2020-09-28T09:16:14Z'
+  homepage_url: https://nocalhost.dev
+  image_data:
+    fileName: nocalhost.svg
+    hash: AnzDM5q3JN2uID7b2r4j6n7grNYP3hDPpY+jsubqq0c=
+  item: null
+  logo: nocalhost.svg
+  name: Nocalhost
+  project: sandbox
+  repo_url: https://github.com/nocalhost/nocalhost
+  repos:
+  - stars: 1357
+    url: https://github.com/nocalhost/nocalhost
+  twitter_data:
+    latest_tweet_date: 2019-04-29 06:10:01+00:00

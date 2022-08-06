@@ -1,0 +1,73 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/f5-networks
+  crunchbase_data:
+    acquisitions:
+    - acquiree: MagniFire Websystems
+      date: '2004-06-02'
+      price: 29000000
+    - acquiree: Swan Labs
+      date: '2005-09-06'
+      price: 43000000
+    - acquiree: Acopia Networks
+      date: '2007-08-06'
+      price: 210000000
+    - acquiree: Crescendo Networks
+      date: '2011-08-15'
+    - acquiree: Traffix Systems
+      date: '2012-02-20'
+      price: 135000000
+    - acquiree: LineRate Systems
+      date: '2013-02-11'
+    - acquiree: Versafe
+      date: '2013-09-17'
+      price: 92000000
+    - acquiree: Defense.Net
+      date: '2014-05-22'
+    - acquiree: NGINX
+      date: '2019-03-11'
+      price: 670000000
+    - acquiree: Shape Security
+      date: '2019-12-19'
+      price: 1000000000
+    - acquiree: Volterra
+      date: '2021-01-07'
+      price: 500000000
+    - acquiree: Threat Stack
+      date: '2021-09-20'
+      price: 68000000
+    city: Seattle
+    company_type: For Profit
+    country: United States
+    description: F5 Networks provides application security and delivery tools.
+    funding: 0
+    homepage: https://www.f5.com
+    industries:
+    - Consumer Electronics
+    - SaaS
+    - Security
+    - Virtualization
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/f5
+    name: F5
+    num_employees_max: 10000
+    num_employees_min: 5001
+    parents: []
+    region: Washington
+    stockExchange: nasdaq
+    ticker: FFIV
+    twitter: http://twitter.com/f5networks
+  homepage_url: https://www.f5.com/
+  image_data:
+    fileName: f5.svg
+    hash: ufCB/rmaSQEuEopRWY7G0iaJs404UJ2d5Gkvcr99zN4=
+  item: null
+  logo: f5.svg
+  name: F5
+  twitter: https://twitter.com/F5
+  twitter_data:
+    latest_tweet_date: 2022-08-05 15:59:05+00:00
+  yahoo_finance_data:
+    effective_ticker: FFIV
+    market_cap: 10266263552

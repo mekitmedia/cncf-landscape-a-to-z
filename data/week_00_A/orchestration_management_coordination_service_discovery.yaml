@@ -1,0 +1,164 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/apache
+  crunchbase_data:
+    acquisitions: []
+    city: Forest Hill
+    company_type: Non Profit
+    country: United States
+    description: Apache Software Foundation provides organizational, legal and financial
+      support for Apache open-source software projects.
+    homepage: http://www.apache.org
+    industries:
+    - Non Profit
+    - Software
+    linkedin: https://www.linkedin.com/company/the-apache-software-foundation
+    name: The Apache Software Foundation
+    num_employees_max: 10
+    num_employees_min: 1
+    parents: []
+    region: Maryland
+    stockExchange: null
+    twitter: http://twitter.com/TheASF
+  github_data:
+    contributions: 2;0;3;5;1;2;2;2;2;1;1;1;1;1;1;1;1;1;0;1;1;1;2;0;6;6;1;3;1;4;1;1;1;5;3;1;1;0;5;0;2;1;1;0;2;3;1;0;2;0;1;0
+    contributors_count: 249
+    contributors_link: https://github.com/apache/zookeeper/graphs/contributors
+    description: Apache ZooKeeper
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#b07219'
+      name: Java
+      value: 6879333
+    - color: '#f34b7d'
+      name: C++
+      value: 708872
+    - color: '#555555'
+      name: C
+      value: 627863
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 246638
+    - color: '#3572A5'
+      name: Python
+      value: 163305
+    - color: '#89e051'
+      name: Shell
+      value: 116200
+    - color: '#0298c3'
+      name: Perl
+      value: 87261
+    - name: XS
+      value: 68654
+    - name: Raku
+      value: 67310
+    - name: M4
+      value: 52000
+    - color: '#e34c26'
+      name: HTML
+      value: 43586
+    - color: '#563d7c'
+      name: CSS
+      value: 22915
+    - name: Mako
+      value: 13704
+    - color: '#427819'
+      name: Makefile
+      value: 11657
+    - name: CMake
+      value: 10533
+    - color: '#C1F12E'
+      name: Batchfile
+      value: 10133
+    - color: '#EB8CEB'
+      name: XSLT
+      value: 6024
+    - color: '#384d54'
+      name: Dockerfile
+      value: 1030
+    latest_commit_date: '2022-07-26T07:39:20Z'
+    latest_commit_link: /apache/zookeeper/commit/2cd0c23454071faf0a16c58edb2414591ae5c5c3
+    license: Apache License 2.0
+    stars: 10699
+  github_start_commit_data:
+    start_commit_link: /apache/zookeeper/commit/047d9258a4730791b85cc81b0e1435465a32acbf
+    start_date: '2007-11-03T04:41:15Z'
+  homepage_url: https://zookeeper.apache.org/
+  image_data:
+    fileName: apache-zookeeper.svg
+    hash: 1Cb0JdmsSY0Pge3AiXWSa4Twswjtsqm3+U6s9SzHQt4=
+  item: null
+  logo: apache-zookeeper.svg
+  name: Apache Zookeeper
+  repo_url: https://github.com/apache/zookeeper
+  repos:
+  - stars: 10699
+    url: https://github.com/apache/zookeeper
+  twitter: https://twitter.com/ApacheZooKeeper
+  twitter_data:
+    latest_tweet_date: 2022-08-02 09:58:31+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+  crunchbase_data:
+    acquisitions:
+    - acquiree: AppThwack
+      date: '2015-07-14'
+    - acquiree: NICE
+      date: '2016-02-11'
+    - acquiree: Thinkbox Software
+      date: '2017-03-06'
+    - acquiree: Do
+      date: '2017-03-08'
+    - acquiree: Sqrrl
+      date: '2018-01-23'
+    - acquiree: TSO Logic
+      date: '2019-01-14'
+    - acquiree: TeamSQL, Inc.
+      date: '2020-02-21'
+    - acquiree: DB Best Technologies
+      date: '2021-01-28'
+    - acquiree: Wickr
+      date: '2021-06-25'
+    city: Seattle
+    company_type: For Profit
+    country: United States
+    description: Amazon Web Services provides information technology infrastructure
+      services to businesses in the form of web services.
+    funding: 108000000
+    homepage: http://aws.amazon.com
+    industries:
+    - Information Services
+    - Information Technology
+    - Software
+    - Web Development
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/amazon-web-services
+    name: Amazon Web Services
+    num_employees_max: 1000000
+    num_employees_min: 10001
+    parents:
+    - https://www.crunchbase.com/organization/amazon
+    region: Washington
+    stockExchange: null
+    ticker: AMZN
+    twitter: http://twitter.com/awscloud
+  description: AWS Cloud Map is a cloud resource discovery service. With Cloud Map,
+    you can define custom names for your application resources, and it maintains the
+    updated location of these dynamically changing resources. This increases your
+    application availability because your web service always discovers the most up-to-date
+    locations of its resources.
+  homepage_url: https://aws.amazon.com/cloud-map/
+  image_data:
+    fileName: aws-cloud-map.svg
+    hash: 6MrbAURjt70clgTNvVnBrqAFc9SPYFohen26oRbyiw0=
+  item: null
+  logo: aws-cloud-map.svg
+  name: AWS Cloud Map
+  twitter_data:
+    latest_tweet_date: 2022-08-05 18:15:56+00:00
+  yahoo_finance_data:
+    effective_ticker: AMZN
+    market_cap: 1434414088192

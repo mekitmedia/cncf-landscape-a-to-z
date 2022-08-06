@@ -1,0 +1,165 @@
+- best_practice_data:
+    badge: 3538
+    percentage: 100
+  crunchbase: https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf
+  crunchbase_data:
+    acquisitions: []
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: A Neutral Home for the Next Generation of Continuous Delivery Collaboration
+    homepage: https://cd.foundation
+    industries:
+    - Cloud Computing
+    - Open Source
+    - Software
+    linkedin: null
+    name: Continuous Delivery Foundation (CDF)
+    num_employees_max: 10
+    num_employees_min: 1
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CDeliveryFdn
+  github_data:
+    contributions: 7;16;22;16;20;10;25;18;16;36;34;23;25;27;17;29;35;48;28;40;36;30;17;16;28;23;16;25;26;19;30;30;19;16;23;36;24;21;14;23;18;14;20;22;17;19;21;73;38;48;28;25
+    contributors_count: 1035
+    contributors_link: https://github.com/jenkinsci/jenkins/graphs/contributors
+    description: Jenkins automation server
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#b07219'
+      name: Java
+      value: 11603111
+    - color: '#e34c26'
+      name: HTML
+      value: 919596
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 400727
+    - color: '#563d7c'
+      name: CSS
+      value: 216201
+    - name: Less
+      value: 188989
+    - color: '#e69f56'
+      name: Groovy
+      value: 78196
+    - color: '#701516'
+      name: Ruby
+      value: 17290
+    - color: '#0298c3'
+      name: Perl
+      value: 16145
+    - name: Handlebars
+      value: 15179
+    - name: GAP
+      value: 6933
+    - color: '#3572A5'
+      name: Python
+      value: 4047
+    - color: '#89e051'
+      name: Shell
+      value: 2354
+    - color: '#555555'
+      name: C
+      value: 2091
+    - color: '#C1F12E'
+      name: Batchfile
+      value: 1023
+    - color: '#384d54'
+      name: Dockerfile
+      value: 163
+    latest_commit_date: '2022-08-05T15:03:36Z'
+    latest_commit_link: /jenkinsci/jenkins/commit/0907d01d0a9e567b81dfca88ad854b5ef6dc9577
+    license: MIT License
+    release_date: '2022-08-02T13:11:09Z'
+    release_link: https://github.com/jenkinsci/jenkins/releases
+    stars: 19277
+  github_start_commit_data:
+    start_commit_link: /jenkinsci/jenkins/commit/8a0dc230f44e84e5a7f7920cf9a31f09a54999ac
+    start_date: '2006-11-05T21:16:01Z'
+  homepage_url: https://jenkins.io/
+  image_data:
+    fileName: jenkins.svg
+    hash: NF6wJqVGQ/KuagjWw5zBa9rK75/gL28x92et53olJF8=
+  item: null
+  logo: jenkins.svg
+  name: Jenkins
+  repo_url: https://github.com/jenkinsci/jenkins
+  repos:
+  - stars: 19277
+    url: https://github.com/jenkinsci/jenkins
+  twitter: https://twitter.com/jenkinsci
+  twitter_data:
+    latest_tweet_date: 2022-08-05 13:58:43+00:00
+- best_practice_data:
+    badge: 5950
+    percentage: 34
+  crunchbase: https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf
+  crunchbase_data:
+    acquisitions: []
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: A Neutral Home for the Next Generation of Continuous Delivery Collaboration
+    homepage: https://cd.foundation
+    industries:
+    - Cloud Computing
+    - Open Source
+    - Software
+    linkedin: null
+    name: Continuous Delivery Foundation (CDF)
+    num_employees_max: 10
+    num_employees_min: 1
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CDeliveryFdn
+  github_data:
+    contributions: 15;17;0;1;9;1;5;5;2;4;2;10;8;7;2;8;13;8;3;4;3;4;6;5;2;4;6;0;12;0;7;0;16;28;10;2;11;24;43;13;2;0;1;14;56;22;45;12;3;0;13;4
+    contributors_count: 228
+    contributors_link: https://github.com/jenkins-x/jx/graphs/contributors
+    description: Jenkins X provides automated CI+CD for Kubernetes with Preview Environments
+      on Pull Requests using Cloud Native pipelines from Tekton
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 97272
+    - color: '#89e051'
+      name: Shell
+      value: 8524
+    - color: '#427819'
+      name: Makefile
+      value: 6781
+    - name: Mustache
+      value: 916
+    - color: '#384d54'
+      name: Dockerfile
+      value: 412
+    latest_commit_date: '2022-08-03T02:25:52Z'
+    latest_commit_link: /jenkins-x/jx/commit/32575033cc7e3ac7770b8c097694d36d893ec1d0
+    license: Apache License 2.0
+    release_date: '2022-08-03T02:28:55Z'
+    release_link: https://github.com/jenkins-x/jx/releases
+    stars: 4217
+  github_start_commit_data:
+    start_commit_link: /jenkins-x/jx/commit/e255f7ea050c4a410a21183ec85a510c8e4ca8c6
+    start_date: '2018-01-05T15:46:09Z'
+  homepage_url: https://jenkins-x.io/
+  image_data:
+    fileName: jenkins-x.svg
+    hash: +bDZsdrfz1O+H77iUB0d3eF8S0qLd9y9isM2GpaRlVc=
+  item: null
+  logo: jenkins-x.svg
+  name: JenkinsX
+  repo_url: https://github.com/jenkins-x/jx
+  repos:
+  - stars: 4217
+    url: https://github.com/jenkins-x/jx
+  twitter: https://twitter.com/jenkinsxio
+  twitter_data:
+    latest_tweet_date: 2022-08-03 18:26:38+00:00

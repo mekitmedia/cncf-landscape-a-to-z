@@ -1,0 +1,177 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/solo-io
+  crunchbase_data:
+    acquisitions: []
+    city: Cambridge
+    company_type: For Profit
+    country: United States
+    description: Solo.io develops tools to help the enterprise adapt and make the
+      most of innovative cloud technologies.
+    funding: 171500000
+    homepage: https://www.solo.io
+    industries:
+    - Apps
+    - Cloud Computing
+    - Developer APIs
+    - Internet
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/solo.io
+    name: Solo.io
+    num_employees_max: 250
+    num_employees_min: 101
+    parents: []
+    region: Massachusetts
+    stockExchange: null
+    twitter: https://twitter.com/soloio_inc
+  github_data:
+    contributions: 11;13;14;13;4;11;10;14;6;2;5;2;8;4;15;11;7;5;5;12;5;3;7;4;7;15;10;9;5;12;17;14;16;19;27;12;11;9;9;14;7;9;3;6;10;12;7;8;5;10;10;20
+    contributors_count: 137
+    contributors_link: https://github.com/solo-io/gloo/graphs/contributors
+    description: The Feature-rich, Kubernetes-native, Next-Generation API Gateway
+      Built on Envoy
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 4787895
+    - color: '#89e051'
+      name: Shell
+      value: 38072
+    - color: '#427819'
+      name: Makefile
+      value: 37346
+    - name: HCL
+      value: 10145
+    - name: Mustache
+      value: 5946
+    - name: Smarty
+      value: 5853
+    - color: '#3572A5'
+      name: Python
+      value: 4203
+    - color: '#012456'
+      name: PowerShell
+      value: 3324
+    - color: '#384d54'
+      name: Dockerfile
+      value: 2142
+    latest_commit_date: '2022-08-05T19:18:43Z'
+    latest_commit_link: /solo-io/gloo/commit/0e10b23e9796b1cca6493fb0f8f705cb02505092
+    license: Apache License 2.0
+    release_date: '2022-08-05T17:36:49Z'
+    release_link: https://github.com/solo-io/gloo/releases
+    stars: 3484
+  github_start_commit_data:
+    start_commit_link: /solo-io/gloo/commit/9f6e20f0cad6abb314e7f55315e1a955a5a73705
+    start_date: '2018-01-22T20:20:29Z'
+  homepage_url: https://www.solo.io
+  image_data:
+    fileName: gloo.svg
+    hash: wEYpZjUxHkMoR3uYhkm+QQ5etqETH2C24IWZBZXS+KQ=
+  item: null
+  logo: gloo.svg
+  name: Gloo
+  repo_url: https://github.com/solo-io/gloo
+  repos:
+  - stars: 3484
+    url: https://github.com/solo-io/gloo
+  twitter_data:
+    latest_tweet_date: 2022-08-05 18:00:22+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/gravitee-io
+  crunchbase_data:
+    acquisitions: []
+    city: Lille
+    company_type: For Profit
+    country: France
+    description: The easiest to use, most performant and cost-effective OSS API Platform.
+    funding: 10967951
+    homepage: https://gravitee.io
+    industries:
+    - Information Technology
+    kind: funding
+    linkedin: https://www.linkedin.com/company/gravitee-io
+    name: Gravitee.io
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: Nord-Pas-de-Calais
+    stockExchange: null
+    twitter: https://twitter.com/graviteeio
+  github_data:
+    contributions: 39;24;53;82;50;69;53;85;77;67;134;149;58;93;117;160;112;64;52;57;45;58;51;52;46;33;68;110;55;54;87;55;72;105;65;40;54;97;83;72;79;44;71;81;54;49;70;86;31;38;41;25
+    contributors_count: 111
+    contributors_link: https://github.com/gravitee-io/gravitee-api-management/graphs/contributors
+    description: Gravitee.io - OpenSource API Management
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#b07219'
+      name: Java
+      value: 16811676
+    - color: '#2b7489'
+      name: TypeScript
+      value: 11522743
+    - color: '#e34c26'
+      name: HTML
+      value: 1298478
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 1199502
+    - name: SCSS
+      value: 144438
+    - color: '#563d7c'
+      name: CSS
+      value: 138459
+    - color: '#89e051'
+      name: Shell
+      value: 24393
+    - color: '#3572A5'
+      name: Python
+      value: 23436
+    - color: '#0050b2'
+      name: FreeMarker
+      value: 18013
+    - color: '#427819'
+      name: Makefile
+      value: 12184
+    - name: ASP.NET
+      value: 7629
+    - color: '#384d54'
+      name: Dockerfile
+      value: 6249
+    - color: '#C1F12E'
+      name: Batchfile
+      value: 4866
+    - color: '#c22d40'
+      name: Scala
+      value: 1346
+    - color: '#000080'
+      name: Lua
+      value: 547
+    - name: Handlebars
+      value: 124
+    latest_commit_date: '2022-08-05T07:12:29Z'
+    latest_commit_link: /gravitee-io/gravitee-api-management/commit/70fc957224311df4c9dab064b0ae5749464158e5
+    license: Apache License 2.0
+    stars: 1458
+  github_start_commit_data:
+    start_commit_link: /gravitee-io/gravitee-gateway/commit/7e8a2c3ec06e4ccfe10d02027c2570c76eb19ce9
+    start_date: '2015-05-29T07:04:12Z'
+  homepage_url: https://gravitee.io
+  image_data:
+    fileName: gravitee-io.svg
+    hash: b2Lb3sWDTpB/SC0Qp6sDAaFbHjYn6Ktxtwb2uK2WEns=
+  item: null
+  logo: gravitee.svg
+  name: Gravitee.io
+  repo_url: https://github.com/gravitee-io/gravitee-api-management
+  repos:
+  - stars: 1458
+    url: https://github.com/gravitee-io/gravitee-api-management
+  twitter_data:
+    latest_tweet_date: 2022-08-05 13:30:07+00:00

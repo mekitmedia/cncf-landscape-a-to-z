@@ -1,0 +1,94 @@
+- best_practice_data:
+    badge: 5576
+    percentage: 96
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  extra:
+    accepted: '2020-06-23'
+    dev_stats_url: https://kuma.devstats.cncf.io/
+  github_data:
+    contributions: 17;20;38;10;13;8;20;7;29;15;17;25;24;20;29;38;22;18;29;21;0;29;31;16;21;13;17;30;22;38;6;17;16;40;28;22;11;7;12;14;26;27;25;15;8;10;20;16;23;23;32;45
+    contributors_count: 72
+    contributors_link: https://github.com/kumahq/kuma/graphs/contributors
+    description: "\U0001F43B The multi-zone service mesh for containers, Kubernetes\
+      \ and VMs. Built with Envoy. CNCF Sandbox Project."
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 6190714
+    - color: '#427819'
+      name: Makefile
+      value: 74038
+    - color: '#89e051'
+      name: Shell
+      value: 34884
+    - name: Mustache
+      value: 10882
+    - color: '#e34c26'
+      name: HTML
+      value: 4763
+    - name: PLpgSQL
+      value: 1893
+    - color: '#384d54'
+      name: Dockerfile
+      value: 1198
+    - color: '#3572A5'
+      name: Python
+      value: 384
+    - color: '#563d7c'
+      name: CSS
+      value: 131
+    latest_commit_date: '2022-08-05T16:12:09Z'
+    latest_commit_link: /kumahq/kuma/commit/ecdf217b2e3138e68d7c3ced199bfc2d4d2c2218
+    license: Apache License 2.0
+    release_date: '2022-07-19T16:02:53Z'
+    release_link: https://github.com/kumahq/kuma/releases
+    stars: 2871
+  github_start_commit_data:
+    start_commit_link: /Kong/kuma/commit/10a9ef01d3d0d8260a4cc916329dbf4201cfb2de
+    start_date: '2019-03-13T13:20:14Z'
+  homepage_url: https://kuma.io
+  image_data:
+    fileName: kuma.svg
+    hash: Q8K3xJMiLV3RC1Cmk7dTcZJpi8SEsk5BN1rm0RedMts=
+  item: null
+  logo: kuma-stacked-color.svg
+  name: Kuma
+  project: sandbox
+  repo_url: https://github.com/kumahq/kuma
+  repos:
+  - stars: 2871
+    url: https://github.com/kumahq/kuma
+  twitter: https://twitter.com/KumaMesh
+  twitter_data:
+    latest_tweet_date: 2022-07-29 11:56:29+00:00

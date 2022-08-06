@@ -1,0 +1,179 @@
+- best_practice_data:
+    badge: 5391
+    percentage: 100
+  crunchbase: https://www.crunchbase.com/organization/metallb
+  crunchbase_data:
+    acquisitions: []
+    city: Seattle
+    company_type: Non Profit
+    country: United States
+    description: MetalLB is an open-source software project, not a company. This entry
+      exists to make landscape.cncf.io's crunchbase data pull happy.
+    homepage: https://metallb.universe.tf
+    industries:
+    - Non Profit
+    - Software
+    linkedin: null
+    name: MetalLB
+    num_employees_max: 10
+    num_employees_min: 1
+    parents: []
+    region: Washington
+    stockExchange: null
+    twitter: null
+  extra:
+    chat_channel: '#metallb'
+    slack_url: https://slack.k8s.io/
+  github_data:
+    contributions: 1;1;0;1;2;14;6;8;7;13;7;10;16;6;22;11;12;7;14;11;0;2;7;7;7;8;6;11;17;7;11;5;38;20;15;22;18;11;22;10;13;13;18;11;11;15;12;15;7;19;10;3
+    contributors_count: 138
+    contributors_link: https://github.com/metallb/metallb/graphs/contributors
+    description: A network load-balancer implementation for Kubernetes using standard
+      routing protocols
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 963473
+    - name: SCSS
+      value: 65989
+    - color: '#e34c26'
+      name: HTML
+      value: 46124
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 38544
+    - color: '#3572A5'
+      name: Python
+      value: 36838
+    - color: '#563d7c'
+      name: CSS
+      value: 20596
+    - color: '#384d54'
+      name: Dockerfile
+      value: 6124
+    - name: Smarty
+      value: 3940
+    - name: Mustache
+      value: 3221
+    - name: Open Policy Agent
+      value: 2828
+    - color: '#89e051'
+      name: Shell
+      value: 2217
+    - color: '#0064bd'
+      name: Jsonnet
+      value: 1644
+    latest_commit_date: '2022-08-03T16:00:43Z'
+    latest_commit_link: /metallb/metallb/commit/f638c3ae1863070ac61ad7584a72fb793d6b2a88
+    license: Apache License 2.0
+    release_date: '2022-07-21T12:55:27Z'
+    release_link: https://github.com/metallb/metallb/releases
+    stars: 5019
+  github_start_commit_data:
+    start_commit_link: /danderson/metallb/commit/cdd44aa955cce43a99a2db64257918326db3c7fd
+    start_date: '2017-11-07T01:55:50Z'
+  homepage_url: https://metallb.universe.tf
+  image_data:
+    fileName: metal-lb.svg
+    hash: VC3fARMIyaBHg9f5626zKWj3ZJa4gNWVjGU7BnFjnqA=
+  item: null
+  logo: metallb.svg
+  name: MetalLB
+  repo_url: https://github.com/metallb/metallb
+  repos:
+  - stars: 5019
+    url: https://github.com/metallb/metallb
+  twitter: https://twitter.com/dave_universetf
+  twitter_data:
+    latest_tweet_date: 2022-08-06 05:05:34+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/ant-financial
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Mayijijin
+      date: '2015-04-24'
+      price: 32215911
+    - acquiree: EyeVerify
+      date: '2016-09-13'
+    - acquiree: helloPay
+      date: '2017-04-19'
+    - acquiree: riskstorm
+      date: '2018-04-25'
+      price: 7902723
+    - acquiree: WorldFirst
+      date: '2019-02-14'
+      price: 700000000
+    - acquiree: 2C2P
+      date: '2022-04-18'
+    city: Hangzhou
+    company_type: For Profit
+    country: China
+    description: Ant Group strives to enable all consumers and small businesses to
+      have equal access to financial and other services through technology.
+    funding: 22000000000
+    homepage: https://www.antgroup.com
+    industries:
+    - Banking
+    - FinTech
+    - Financial Services
+    - Payments
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/antgroup
+    name: Ant Group
+    num_employees_max: 10000
+    num_employees_min: 5001
+    parents:
+    - https://www.crunchbase.com/organization/alibaba
+    region: Zhejiang
+    stockExchange: null
+    ticker: 9988.HK
+    twitter: https://twitter.com/antgroup
+  github_data:
+    contributions: 2;1;4;4;5;3;5;10;1;2;0;3;4;7;10;4;7;16;10;4;3;4;9;4;7;1;1;3;3;0;3;3;1;6;6;9;1;2;1;3;1;1;0;4;2;3;0;3;1;0;4;8
+    contributors_count: 145
+    contributors_link: https://github.com/mosn/mosn/graphs/contributors
+    description: The Cloud-Native Network Proxy Platform
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 5856685
+    - color: '#e34c26'
+      name: HTML
+      value: 32053
+    - color: '#89e051'
+      name: Shell
+      value: 6681
+    - color: '#427819'
+      name: Makefile
+      value: 6382
+    - color: '#384d54'
+      name: Dockerfile
+      value: 4546
+    latest_commit_date: '2022-08-05T08:20:44Z'
+    latest_commit_link: /mosn/mosn/commit/00e70e2a71a6a024ab2b8ea62ca5106ac8f0e749
+    license: Apache License 2.0
+    release_date: '2022-05-11T07:58:07Z'
+    release_link: https://github.com/mosn/mosn/releases
+    stars: 3833
+  github_start_commit_data:
+    start_commit_link: /mosn/mosn/commit/e20804a2ac172987080202f45144a4fb4b393fd7
+    start_date: '2018-02-28T13:00:19Z'
+  homepage_url: https://mosn.io
+  image_data:
+    fileName: mosn.svg
+    hash: xKv5IwiWGZnyufl4EBzu0hxeyy9aLVUm++9IqaY/L7E=
+  item: null
+  logo: mosn-mosn.svg
+  name: MOSN
+  repo_url: https://github.com/mosn/mosn
+  repos:
+  - stars: 3833
+    url: https://github.com/mosn/mosn
+  twitter: null
+  yahoo_finance_data:
+    effective_ticker: 9988.HK
+    market_cap: 250716029031

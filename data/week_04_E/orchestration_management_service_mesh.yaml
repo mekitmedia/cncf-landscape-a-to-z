@@ -1,0 +1,63 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/megaease-inc
+  crunchbase_data:
+    acquisitions: []
+    city: Beijing
+    company_type: For Profit
+    country: China
+    description: High performance software architecture
+    homepage: https://megaease.com/
+    industries: []
+    linkedin: null
+    name: MegaEase, Inc.
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: Beijing
+    stockExchange: null
+    twitter: null
+  github_data:
+    contributions: 5;1;2;2;2;6;4;0;0;1;2;0;2;2;0;2;3;2;0;2;2;0;2;0;0;0;1;3;1;1;1;3;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;1;0
+    contributors_count: 12
+    contributors_link: https://github.com/megaease/easemesh/graphs/contributors
+    description: A service mesh implementation for connecting,  control, and observe
+      services in spring-cloud.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 731681
+    - color: '#427819'
+      name: Makefile
+      value: 8441
+    - color: '#384d54'
+      name: Dockerfile
+      value: 1120
+    - color: '#89e051'
+      name: Shell
+      value: 156
+    latest_commit_date: '2022-07-27T08:30:06Z'
+    latest_commit_link: /megaease/easemesh/commit/a076da25fbff5cdc08460183c761e103470d4eaf
+    license: Apache License 2.0
+    release_date: '2022-03-24T09:36:01Z'
+    release_link: https://github.com/megaease/easemesh/releases
+    stars: 417
+  github_start_commit_data:
+    start_commit_link: /megaease/easemesh/commit/958c984d5eadd7d615007b0e44927c2733b68789
+    start_date: '2021-02-01T06:24:30Z'
+  homepage_url: https://megaease.com/easemesh
+  image_data:
+    fileName: ease-mesh.svg
+    hash: DH/+GGG9+enfs+W/wTzgYDb1Lg+YNYYU1JQfTKyh2aE=
+  item: null
+  logo: easemesh.svg
+  name: EaseMesh
+  repo_url: https://github.com/megaease/easemesh
+  repos:
+  - stars: 417
+    url: https://github.com/megaease/easemesh
+  twitter: https://twitter.com/megaease
+  twitter_data:
+    latest_tweet_date: 2022-07-27 13:04:39+00:00

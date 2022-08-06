@@ -1,0 +1,169 @@
+- best_practice_data:
+    badge: 4783
+    percentage: 100
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  github_data:
+    contributions: 4;3;27;2;1;7;6;6;0;1;2;11;1;6;3;9;6;1;22;9;0;2;5;5;3;0;13;12;2;2;14;18;3;0;8;5;0;4;11;2;1;0;4;14;9;9;3;1;4;1;9;4
+    contributors_count: 163
+    contributors_link: https://github.com/fluxcd/flagger/graphs/contributors
+    description: Progressive delivery Kubernetes operator (Canary, A/B Testing and
+      Blue/Green deployments)
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 1237919
+    - color: '#89e051'
+      name: Shell
+      value: 125582
+    - name: Mustache
+      value: 3313
+    - color: '#427819'
+      name: Makefile
+      value: 1665
+    - name: Smarty
+      value: 1318
+    - color: '#384d54'
+      name: Dockerfile
+      value: 553
+    latest_commit_date: '2022-08-01T13:31:44Z'
+    latest_commit_link: /fluxcd/flagger/commit/f449ee18780d2496868596af8384da938dd9b9c1
+    license: Apache License 2.0
+    release_date: '2022-08-01T10:39:56Z'
+    release_link: https://github.com/fluxcd/flagger/releases
+    stars: 3778
+  github_start_commit_data:
+    start_commit_link: /weaveworks/flagger/commit/c1ef44a9b9433dfd44c01d399ea798bba5cd419b
+    start_date: '2018-09-19T21:43:47Z'
+  homepage_url: https://docs.flagger.app
+  image_data:
+    fileName: flagger.svg
+    hash: pEoxqEC/5N5RApWlkXKTaSqE+cDgX/CnOVrSXWAhWww=
+  item: null
+  logo: flagger.svg
+  name: Flagger
+  repo_url: https://github.com/fluxcd/flagger
+  repos:
+  - stars: 3778
+    url: https://github.com/fluxcd/flagger
+  twitter: https://twitter.com/fluxcd
+  twitter_data:
+    latest_tweet_date: 2022-08-04 19:24:23+00:00
+- best_practice_data:
+    badge: 4782
+    percentage: 100
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  extra:
+    accepted: '2019-07-15'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#flux-logos
+    blog_url: https://fluxcd.io/blog/
+    dev_stats_url: https://flux.devstats.cncf.io/
+    mailing_list_url: https://github.com/fluxcd/flux2/discussions
+    slack_url: https://cloud-native.slack.com/messages/flux
+    youtube_url: https://www.youtube.com/channel/UCoZxt-YMhGHb20ZkvcCc5KA
+  github_data:
+    contributions: 1;17;17;4;4;9;13;7;28;25;31;22;26;18;9;19;9;11;9;2;0;0;36;16;11;21;16;19;10;6;4;3;25;16;8;7;19;7;15;1;6;13;25;17;1;11;9;2;1;3;7;6
+    contributors_count: 113
+    contributors_link: https://github.com/fluxcd/flux2/graphs/contributors
+    description: Open and extensible continuous delivery solution for Kubernetes.
+      Powered by GitOps Toolkit.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 756358
+    - name: HCL
+      value: 13962
+    - color: '#89e051'
+      name: Shell
+      value: 7534
+    - color: '#427819'
+      name: Makefile
+      value: 3381
+    - color: '#384d54'
+      name: Dockerfile
+      value: 793
+    latest_commit_date: '2022-08-03T07:19:25Z'
+    latest_commit_link: /fluxcd/flux2/commit/e1c082e5ac20b61df4d04d54b46d94208f46cf75
+    license: Apache License 2.0
+    release_date: '2022-07-27T16:24:13Z'
+    release_link: https://github.com/fluxcd/flux2/releases
+    stars: 3643
+  github_start_commit_data:
+    start_commit_link: /fluxcd/flux2/commit/ebdabaf98d8c94092dadcf88a959795d4e06b651
+    start_date: '2020-04-24T09:38:22Z'
+  homepage_url: https://fluxcd.io/
+  image_data:
+    fileName: flux.svg
+    hash: h7GovC0iLE2tsMuXuZcw68F0M5/FzvhCVNGxMCC04bw=
+  item: null
+  logo: flux.svg
+  name: Flux
+  project: incubating
+  repo_url: https://github.com/fluxcd/flux2
+  repos:
+  - stars: 3643
+    url: https://github.com/fluxcd/flux2
+  twitter: https://twitter.com/fluxcd
+  twitter_data:
+    latest_tweet_date: 2022-08-04 19:24:23+00:00

@@ -1,0 +1,217 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/yelp
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Qype
+      date: '2012-10-25'
+      price: 50000000
+    - acquiree: Yelp Reservations
+      date: '2013-07-18'
+      price: 12700000
+    - acquiree: Restaurant-Kritik
+      date: '2014-10-24'
+    - acquiree: Cityvox
+      date: '2014-10-28'
+    - acquiree: Eat24
+      date: '2015-02-10'
+      price: 134000000
+    - acquiree: Nowait
+      date: '2017-03-02'
+      price: 40000000
+    - acquiree: Turnstyle Solutions
+      date: '2017-04-04'
+      price: 20000000
+    city: San Francisco
+    company_type: For Profit
+    country: United States
+    description: Yelp operates an online platform that connects people with local
+      businesses.
+    funding: 56000000
+    homepage: http://yelp.com
+    industries:
+    - Apps
+    - Internet
+    - Mobile
+    - Search Engine
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/yelp-com
+    name: Yelp
+    num_employees_max: 1000000
+    num_employees_min: 10001
+    parents: []
+    region: California
+    stockExchange: nyse
+    ticker: YELP
+    twitter: http://twitter.com/Yelp
+  github_data:
+    contributions: 36;60;33;28;17;13;9;11;16;2;3;7;7;10;5;5;18;12;5;0;0;11;15;4;14;4;22;33;6;15;28;24;17;12;5;7;14;2;16;7;14;8;5;15;10;9;15;5;11;22;25;17
+    contributors_count: 212
+    contributors_link: https://github.com/Yelp/paasta/graphs/contributors
+    description: An open, distributed platform as a service
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#3572A5'
+      name: Python
+      value: 4763360
+    - color: '#89e051'
+      name: Shell
+      value: 97987
+    - color: '#5B2063'
+      name: Gherkin
+      value: 22268
+    - color: '#384d54'
+      name: Dockerfile
+      value: 20506
+    - color: '#427819'
+      name: Makefile
+      value: 11927
+    latest_commit_date: '2022-08-05T18:39:22Z'
+    latest_commit_link: /Yelp/paasta/commit/ee2a9bc362a2eace355f22ae8add5a8793568c99
+    license: Apache License 2.0
+    stars: 1610
+  github_start_commit_data:
+    start_commit_link: /Yelp/paasta/commit/012a3d280e6cd9d1077d062ecbedd3bac98bdcb2
+    start_date: '2013-08-20T13:28:10Z'
+  homepage_url: https://engineeringblog.yelp.com/2015/11/introducing-paasta-an-open-platform-as-a-service.html
+  image_data:
+    fileName: paa-sta.svg
+    hash: Km1r6jdlo52aSbyQa4Ga1YjfMusUeHqS6U2SCzWLnUs=
+  item: null
+  logo: paasta.svg
+  name: PaaSTA
+  repo_url: https://github.com/Yelp/paasta
+  repos:
+  - stars: 1610
+    url: https://github.com/Yelp/paasta
+  twitter: https://twitter.com/yelpengineering
+  twitter_data:
+    latest_tweet_date: 2022-08-03 16:00:27+00:00
+  yahoo_finance_data:
+    effective_ticker: YELP
+    market_cap: 2711072768
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/commerce-guys
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Blackfire.io
+      date: '2021-07-30'
+    city: Paris
+    company_type: For Profit
+    country: France
+    description: Platform.sh is a cloud hosting platform that helps companies build,
+      run, and scale their websites and apps.
+    funding: 187300000
+    homepage: https://platform.sh
+    industries:
+    - Cloud Management
+    - Internet
+    - Open Source
+    - PaaS
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/platformsh
+    name: Platform.sh
+    num_employees_max: 500
+    num_employees_min: 251
+    parents: []
+    region: Ile-de-France
+    stockExchange: null
+    twitter: http://twitter.com/platformsh
+  homepage_url: https://platform.sh/
+  image_data:
+    fileName: platform-sh.svg
+    hash: wELocXvB/xBxC2zIeODAg9zmqi3QvnEy58okXcGt2NA=
+  item: null
+  logo: platform-sh.svg
+  name: Platform.sh
+  twitter_data:
+    latest_tweet_date: 2022-08-05 07:01:33+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/portainer
+  crunchbase_data:
+    acquisitions: []
+    city: Auckland
+    company_type: For Profit
+    country: New Zealand
+    description: Portainer is a simplified, expert GUI management toolset designed
+      to build, manage, and maintain Swarm and Kubernetes environments.
+    funding: 13400000
+    homepage: https://portainer.io/
+    industries:
+    - Information Technology
+    - Software
+    kind: funding
+    linkedin: null
+    name: Portainer
+    num_employees_max: null
+    num_employees_min: null
+    parents: []
+    region: Auckland
+    stockExchange: null
+    twitter: https://twitter.com/portainerio
+  github_data:
+    contributions: 14;8;13;18;19;18;55;32;15;16;27;9;7;6;20;18;20;14;13;10;1;7;14;12;20;10;9;8;4;13;3;17;4;8;16;15;16;15;9;7;8;8;15;9;12;10;18;27;16;21;43;62
+    contributors_count: 234
+    contributors_link: https://github.com/portainer/portainer/graphs/contributors
+    description: Making Docker and Kubernetes management easy.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 1863307
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 1726949
+    - color: '#e34c26'
+      name: HTML
+      value: 1454330
+    - color: '#2b7489'
+      name: TypeScript
+      value: 824052
+    - color: '#563d7c'
+      name: CSS
+      value: 97915
+    - color: '#89e051'
+      name: Shell
+      value: 11508
+    - color: '#384d54'
+      name: Dockerfile
+      value: 6299
+    - name: EJS
+      value: 2436
+    - color: '#427819'
+      name: Makefile
+      value: 927
+    - name: Handlebars
+      value: 411
+    - color: '#012456'
+      name: PowerShell
+      value: 396
+    latest_commit_date: '2022-08-05T07:45:21Z'
+    latest_commit_link: /portainer/portainer/commit/539948b5a615b8118acec9d9c4e77a0207adc6e3
+    license: zlib License
+    release_date: '2022-07-26T04:15:54Z'
+    release_link: https://github.com/portainer/portainer/releases
+    stars: 22543
+  github_start_commit_data:
+    start_commit_link: /portainer/portainer/commit/bec8f5338634b631a2d907be2cd7d02c969739d1
+    start_date: '2013-06-09T00:12:14Z'
+  homepage_url: https://www.portainer.io/
+  image_data:
+    fileName: portainer.svg
+    hash: XASH8WCDDc4eVHEazn4o0Rk5u6Ri07MG6BNGnmiBjgo=
+  item: null
+  logo: portainer.svg
+  name: Portainer
+  repo_url: https://github.com/portainer/portainer
+  repos:
+  - stars: 22543
+    url: https://github.com/portainer/portainer
+  twitter_data:
+    latest_tweet_date: 2022-08-05 20:32:52+00:00

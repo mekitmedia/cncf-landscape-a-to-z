@@ -1,0 +1,526 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/snyk
+  crunchbase_data:
+    acquisitions:
+    - acquiree: DevSecCon Limited
+      date: '2019-07-24'
+    - acquiree: DeepCode
+      date: '2020-09-23'
+    - acquiree: Manifold.co
+      date: '2021-01-27'
+    - acquiree: FossID
+      date: '2021-05-12'
+    - acquiree: CloudSkiff
+      date: '2021-10-28'
+    - acquiree: Fugue
+      date: '2022-02-17'
+    - acquiree: TopCoat Data
+      date: '2022-03-07'
+    city: Boston
+    company_type: For Profit
+    country: United States
+    description: Snyk is a cloud native application security provider that enables
+      millions of developers to build software securely.
+    funding: 849500000
+    homepage: https://snyk.io
+    industries:
+    - Cyber Security
+    - Security
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/snyk
+    name: Snyk
+    num_employees_max: 5000
+    num_employees_min: 1001
+    parents: []
+    region: Massachusetts
+    stockExchange: null
+    twitter: https://www.twitter.com/snyksec
+  homepage_url: https://snyk.io/
+  image_data:
+    fileName: snyk.svg
+    hash: h2idGNwGy7LTzmI3sdiErlXJ2HjuVooIuBCSzGbPw60=
+  item: null
+  logo: snyk.svg
+  name: Snyk
+  twitter_data:
+    latest_tweet_date: 2022-08-05 18:00:22+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/sonatype
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Vor Security
+      date: '2017-06-29'
+    - acquiree: MuseDev
+      date: '2021-03-16'
+    city: Fulton
+    company_type: For Profit
+    country: United States
+    description: Sonatype is the developer-friendly full-spectrum software supply
+      chain management platform helps organizations and software developers.
+    funding: 154707328
+    homepage: http://www.sonatype.com
+    industries:
+    - Cyber Security
+    - Developer Tools
+    - Enterprise Software
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/sonatype
+    name: Sonatype
+    num_employees_max: 500
+    num_employees_min: 251
+    parents: []
+    region: Maryland
+    stockExchange: null
+    twitter: http://twitter.com/Sonatype
+  homepage_url: https://www.sonatype.com/
+  image_data:
+    fileName: sonatype-nexus.svg
+    hash: sNBjVcEZNpeq/XeD2E8ShVVSEm+HQD3w/d2RQ1R+17g=
+  item: null
+  logo: sonatype.svg
+  name: Sonatype Nexus
+  twitter: https://twitter.com/sonatype
+  twitter_data:
+    latest_tweet_date: 2022-08-05 19:34:00+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/vmware
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Emic Networks
+      date: '2003-12-16'
+    - acquiree: Akimbi Systems
+      date: '2006-06-18'
+    - acquiree: Determina
+      date: '2007-08-06'
+    - acquiree: Dunes Technologies
+      date: '2007-09-11'
+    - acquiree: Thinstall inc
+      date: '2008-01-15'
+    - acquiree: B-hive Networks
+      date: '2008-05-28'
+    - acquiree: Blue Lane Technologies
+      date: '2008-11-30'
+    - acquiree: Spring
+      date: '2009-08-10'
+      price: 362000000
+    - acquiree: Integrien
+      date: '2010-08-31'
+    - acquiree: TriCipher
+      date: '2010-08-31'
+      price: 100000000
+    - acquiree: WaveMaker
+      date: '2011-03-08'
+    - acquiree: SlideRocket
+      date: '2011-04-26'
+    - acquiree: Shavlik Technologies
+      date: '2011-05-16'
+    - acquiree: Socialcast
+      date: '2011-05-31'
+    - acquiree: Digital Fuel
+      date: '2011-06-13'
+    - acquiree: Packetmotion
+      date: '2011-08-01'
+    - acquiree: Wanova
+      date: '2012-05-22'
+    - acquiree: DynamicOps
+      date: '2012-07-02'
+    - acquiree: Nicira Networks
+      date: '2012-07-23'
+      price: 1260000000
+    - acquiree: Virsto Software
+      date: '2013-02-11'
+    - acquiree: Desktone
+      date: '2013-10-15'
+    - acquiree: AirWatch
+      date: '2014-01-22'
+      price: 1540000000
+    - acquiree: CloudVolumes
+      date: '2014-08-20'
+    - acquiree: Immidio
+      date: '2015-02-03'
+    - acquiree: Boxer
+      date: '2015-10-14'
+    - acquiree: Arkin
+      date: '2016-06-13'
+    - acquiree: PLUMgrid
+      date: '2016-12-20'
+    - acquiree: Wavefront
+      date: '2017-04-12'
+      price: 375000000
+    - acquiree: Apteligent
+      date: '2017-05-15'
+      price: 50000000
+    - acquiree: VeloCloud
+      date: '2017-11-02'
+    - acquiree: CloudCoreo
+      date: '2018-02-14'
+    - acquiree: CloudVelox
+      date: '2018-02-22'
+    - acquiree: E8 Security
+      date: '2018-03-28'
+    - acquiree: Bracket Computing
+      date: '2018-05-01'
+    - acquiree: CloudHealth Technologies
+      date: '2018-08-27'
+    - acquiree: Heptio
+      date: '2018-11-06'
+      price: 550000000
+    - acquiree: AetherPal
+      date: '2019-02-05'
+    - acquiree: Bitnami
+      date: '2019-05-15'
+    - acquiree: Avi Networks
+      date: '2019-06-14'
+    - acquiree: Bitfusion.io
+      date: '2019-07-18'
+    - acquiree: Uhana
+      date: '2019-07-25'
+    - acquiree: Veriflow
+      date: '2019-08-16'
+    - acquiree: Intrinsic
+      date: '2019-08-20'
+    - acquiree: Pivotal
+      date: '2019-08-22'
+      price: 2700000000
+    - acquiree: Carbon Black
+      date: '2019-10-08'
+      price: 2100000000
+    - acquiree: Nyansa
+      date: '2020-01-21'
+    - acquiree: Octarine
+      date: '2020-05-13'
+    - acquiree: Lastline
+      date: '2020-06-04'
+    - acquiree: Datrium
+      date: '2020-07-02'
+    - acquiree: SaltStack
+      date: '2020-09-29'
+    - acquiree: Mesh7
+      date: '2021-03-18'
+    city: Palo Alto
+    company_type: For Profit
+    country: United States
+    description: VMware is a provider of multi-cloud services for all apps, enabling
+      digital innovation with enterprise control.
+    funding: 393500000
+    homepage: https://www.vmware.com
+    industries:
+    - Cloud Infrastructure
+    - Cloud Management
+    - Enterprise Software
+    - Information Technology
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/vmware
+    name: VMware
+    num_employees_max: 1000000
+    num_employees_min: 10001
+    parents:
+    - https://www.crunchbase.com/organization/dell-technologies
+    region: California
+    stockExchange: nyse
+    ticker: VMW
+    twitter: http://twitter.com/VMware
+  github_data:
+    contributions: 4;6;4;1;0;6;5;0;7;5;8;5;2;8;4;2;0;0;5;0;8;6;3;1;2;5;6;3;0;0;0;4;1;2;5;0;1;1;1;13;2;1;4;3;2;4;8;0;1;0;5;4
+    contributors_count: 81
+    contributors_link: https://github.com/vmware-tanzu/sonobuoy/graphs/contributors
+    description: Sonobuoy is a diagnostic tool that makes it easier to understand
+      the state of a Kubernetes cluster by running a set of Kubernetes conformance
+      tests and other plugins in an accessible and non-destructive manner.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 974958
+    - name: SCSS
+      value: 32874
+    - color: '#e34c26'
+      name: HTML
+      value: 32489
+    - color: '#89e051'
+      name: Shell
+      value: 25236
+    - color: '#384d54'
+      name: Dockerfile
+      value: 2070
+    - color: '#427819'
+      name: Makefile
+      value: 776
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 566
+    latest_commit_date: '2022-08-02T21:27:46Z'
+    latest_commit_link: /vmware-tanzu/sonobuoy/commit/94e8236d093d65e0424c30b371f7d4074c6c13e2
+    license: Apache License 2.0
+    release_date: '2022-07-02T00:49:24Z'
+    release_link: https://github.com/vmware-tanzu/sonobuoy/releases
+    stars: 2581
+  github_start_commit_data:
+    start_commit_link: /vmware-tanzu/sonobuoy/commit/7f69bea97ff746d3303a156fa53be8ef5472864d
+    start_date: '2017-07-26T18:31:26Z'
+  homepage_url: https://sonobuoy.io
+  image_data:
+    fileName: sonobuoy.svg
+    hash: seA4Jjd7EPA3Ya5ZRClq3q3FqZXOA3Hzhl6CPNKfzV8=
+  item: null
+  logo: project-sonobuoy.svg
+  name: Sonobuoy
+  repo_url: https://github.com/vmware-tanzu/sonobuoy
+  repos:
+  - stars: 2581
+    url: https://github.com/vmware-tanzu/sonobuoy
+  twitter: https://twitter.com/projectsonobuoy
+  twitter_data:
+    latest_tweet_date: 2021-03-23 22:21:13+00:00
+  yahoo_finance_data:
+    effective_ticker: VMW
+    market_cap: 49414426624
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/spyderbat
+  crunchbase_data:
+    acquisitions: []
+    city: Austin
+    company_type: For Profit
+    country: United States
+    description: Spyderbat develops innovative solutions to radically change the way
+      organizations handle early threat discovery and investigation.
+    funding: 4200000
+    homepage: https://www.spyderbat.com/
+    industries:
+    - Cyber Security
+    - Network Security
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/spyderbat
+    name: Spyderbat
+    num_employees_max: 10
+    num_employees_min: 1
+    parents: []
+    region: Texas
+    stockExchange: null
+    twitter: https://twitter.com/SpyderbatInc
+  description: Spyderbat provides Linux runtime security, protecting dynamic environments
+    by proactively tracking all user activities by their causal connections to detect
+    and resolve external attacks, misconfigurations, and insider threats.
+  extra:
+    slack_url: https://spyderbatcommunity.slack.com/
+  homepage_url: https://www.spyderbat.com/
+  image_data:
+    fileName: spyderbat.svg
+    hash: GGo88Ru1AopKBUjw4pFaEeu5XFVWEZminFIFaJRaVuU=
+  item: null
+  logo: spyderbat.svg
+  name: Spyderbat
+  twitter: https://twitter.com/spyderbatinc
+  twitter_data:
+    latest_tweet_date: 2022-08-05 16:17:48+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/stackhawk
+  crunchbase_data:
+    acquisitions: []
+    city: Denver
+    company_type: For Profit
+    country: United States
+    description: StackHawk is a SaaS company helping developers find application security
+      bugs.
+    funding: 35325000
+    homepage: https://www.stackhawk.com
+    industries:
+    - Developer Tools
+    - SaaS
+    - Security
+    - Software
+    - Web Development
+    kind: funding
+    linkedin: https://www.linkedin.com/company/stackhawk
+    name: StackHawk
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: Colorado
+    stockExchange: null
+    twitter: https://twitter.com/stackhawk
+  description: StackHawk helps developers find and fix application security vulnerabilities
+    before they hit production with CI/CD automation.
+  homepage_url: https://www.stackhawk.com/index.html
+  image_data:
+    fileName: stack-hawk.svg
+    hash: J++8MuDRyGuPUF4ZJKZEBOAWXN+Z0pLi5G8s7AfZYro=
+  item: null
+  logo: stackhawk.svg
+  name: StackHawk
+  twitter_data:
+    latest_tweet_date: 2022-08-04 13:00:25+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/stackrox
+  crunchbase_data:
+    acquisitions: []
+    city: Mountain View
+    company_type: For Profit
+    country: United States
+    description: StackRox is a Kubernetes-native security platform for cloud-native
+      applications, containers, serverless, and Kubernetes.
+    funding: 65500000
+    homepage: http://www.stackrox.com
+    industries:
+    - Cloud Computing
+    - Cloud Security
+    - Enterprise Software
+    - Security
+    kind: funding
+    linkedin: https://www.linkedin.com/company/stackrox/
+    name: StackRox
+    num_employees_max: 100
+    num_employees_min: 51
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/stackrox
+  homepage_url: https://www.redhat.com/en/technologies/cloud-computing/openshift/advanced-cluster-security-kubernetes
+  image_data:
+    fileName: stack-rox.svg
+    hash: 4HTf4c+z140pCQguMQyb+E5xyMV9JMEEiPNkTcqA7Pc=
+  item: null
+  logo: stackrox.svg
+  name: StackRox
+  twitter: https://twitter.com/StackRox
+  twitter_data:
+    latest_tweet_date: 2021-10-20 17:43:06+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/aquasecurity
+  crunchbase_data:
+    acquisitions:
+    - acquiree: CloudSploit
+      date: '2019-11-12'
+    - acquiree: tfsec
+      date: '2021-07-12'
+    - acquiree: Argon Security
+      date: '2021-12-01'
+    city: Burlington
+    company_type: For Profit
+    country: United States
+    description: Aqua Security is a software company providing cloud-native security
+      technology.
+    funding: 265000000
+    homepage: https://www.aquasec.com
+    industries:
+    - Cloud Security
+    - Cyber Security
+    - Security
+    - Software
+    - Virtualization
+    kind: funding
+    linkedin: https://www.linkedin.com/company/aquasecteam/
+    name: Aqua Security
+    num_employees_max: 500
+    num_employees_min: 251
+    parents: []
+    region: Massachusetts
+    stockExchange: null
+    twitter: http://www.twitter.com/AquaSecTeam
+  description: Starboard operate security tools on the Kubernetes cluster and incorporate
+    their outputs into Kubernetes CRDs (Custom Resource Definitions) and from there,
+    making security reports accessible through the Kubernetes API
+  github_data:
+    contributions: 0;2;12;6;4;5;4;4;11;3;12;14;3;13;5;5;3;4;5;1;0;7;11;9;6;5;1;12;9;11;16;9;23;15;15;9;3;6;2;3;0;7;8;0;0;0;0;0;0;0;0;0
+    contributors_count: 52
+    contributors_link: https://github.com/aquasecurity/starboard/graphs/contributors
+    description: Moved to https://github.com/aquasecurity/trivy-operator
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 922261
+    - color: '#89e051'
+      name: Shell
+      value: 9497
+    - color: '#427819'
+      name: Makefile
+      value: 5958
+    - name: Smarty
+      value: 1945
+    - color: '#384d54'
+      name: Dockerfile
+      value: 779
+    - color: '#e34c26'
+      name: HTML
+      value: 190
+    latest_commit_date: '2022-06-02T14:37:41Z'
+    latest_commit_link: /aquasecurity/starboard/commit/2b5933883828ea52d59baeb3e454f4d397108dd9
+    license: Apache License 2.0
+    release_date: '2022-06-01T15:32:07Z'
+    release_link: https://github.com/aquasecurity/starboard/releases
+    stars: 1257
+  github_start_commit_data:
+    start_commit_link: /aquasecurity/starboard/commit/8693eb393ca230d9d74936165b6f07a21fe701cf
+    start_date: '2020-03-17T14:31:47Z'
+  homepage_url: https://github.com/aquasecurity/starboard
+  image_data:
+    fileName: starboard.svg
+    hash: iRiaZdMuqLfYJ0WX9aP1OOelVFasImMkdk0lXfmtCK0=
+  item: null
+  logo: starboard.svg
+  name: Starboard
+  repo_url: https://github.com/aquasecurity/starboard
+  repos:
+  - stars: 1257
+    url: https://github.com/aquasecurity/starboard
+  twitter: https://twitter.com/aquasecteam
+  twitter_data:
+    latest_tweet_date: 2022-08-05 19:51:55+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/sysdig
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Apolicy
+      date: '2021-07-20'
+    city: San Francisco
+    company_type: For Profit
+    country: United States
+    description: Sysdig is driving the standard for cloud and container security.
+    funding: 729500000
+    homepage: https://www.sysdig.com
+    industries:
+    - Cloud Computing
+    - Cloud Security
+    - Cyber Security
+    - SaaS
+    kind: funding
+    linkedin: https://www.linkedin.com/company/sysdig
+    name: Sysdig
+    num_employees_max: 1000
+    num_employees_min: 501
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: http://twitter.com/sysdig
+  description: "Sysdig Secure embeds security and compliance into the build, run and\
+    \ respond stages of the Kubernetes lifecycle.\_"
+  homepage_url: https://sysdig.com/use-cases/kubernetes-security
+  image_data:
+    fileName: sysdig-secure.svg
+    hash: bJpQ5dtbPxSKBfs2UdMo0hFOA6M+E91GVdqyWGPP9Eg=
+  item: null
+  logo: sysdig-secure.svg
+  name: Sysdig Secure
+  twitter_data:
+    latest_tweet_date: 2022-08-05 17:00:22+00:00

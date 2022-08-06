@@ -1,0 +1,167 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/openfaas
+  crunchbase_data:
+    acquisitions: []
+    city: Peterborough
+    company_type: For Profit
+    country: United Kingdom
+    description: OpenFaaS provides a platform for building serverless functions with
+      containers, anywhere (in cloud, on Edge or IoT devices, on-prem DCs)
+    homepage: https://www.openfaas.com
+    industries:
+    - Enterprise Software
+    - Internet
+    - Internet of Things
+    - Software Engineering
+    linkedin: https://www.linkedin.com/company/11372926/
+    name: OpenFaaS
+    num_employees_max: 10
+    num_employees_min: 1
+    parents: []
+    region: Peterborough
+    stockExchange: null
+    twitter: https://twitter.com/openfaas
+  github_data:
+    contributions: 0;0;0;0;0;0;0;0;2;0;3;0;1;0;0;0;0;1;0;0;0;0;0;1;9;1;1;0;4;0;0;0;1;0;0;5;1;1;4;2;1;2;4;1;0;3;1;0;1;0;0;1
+    contributors_count: 177
+    contributors_link: https://github.com/openfaas/faas/graphs/contributors
+    description: OpenFaaS - Serverless Functions Made Simple
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 175929
+    - color: '#e34c26'
+      name: HTML
+      value: 29253
+    - color: '#384d54'
+      name: Dockerfile
+      value: 14250
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 10983
+    - color: '#89e051'
+      name: Shell
+      value: 3423
+    - name: COBOL
+      value: 1102
+    - color: '#427819'
+      name: Makefile
+      value: 992
+    - color: '#3572A5'
+      name: Python
+      value: 962
+    - color: '#b07219'
+      name: Java
+      value: 717
+    - color: '#178600'
+      name: C#
+      value: 515
+    - color: '#244776'
+      name: CoffeeScript
+      value: 142
+    - color: '#198CE7'
+      name: R
+      value: 127
+    - color: '#555555'
+      name: C
+      value: 76
+    latest_commit_date: '2022-08-05T08:03:31Z'
+    latest_commit_link: /openfaas/faas/commit/b87b96ae456ef74992af2e1f9f664feec690ab57
+    license: MIT License
+    release_date: '2022-08-05T08:03:58Z'
+    release_link: https://github.com/openfaas/faas/releases
+    stars: 21896
+  github_start_commit_data:
+    start_commit_link: /openfaas/faas/commit/d94cfeb660705028b6c101412a03519a8164712d
+    start_date: '2016-12-22T12:51:40Z'
+  homepage_url: https://www.openfaas.com
+  image_data:
+    fileName: open-faa-s.svg
+    hash: jS2329WijcJ6vmVexKlJrjqeUvLHZKPDTTOuvZWTuSQ=
+  item: null
+  logo: openfaas.svg
+  name: OpenFaaS
+  repo_url: https://github.com/openfaas/faas
+  repos:
+  - stars: 21896
+    url: https://github.com/openfaas/faas
+  twitter_data:
+    latest_tweet_date: 2022-08-05 09:48:55+00:00
+- best_practice_data:
+    badge: 6029
+    percentage: 21
+  crunchbase: https://www.crunchbase.com/organization/qingcloud
+  crunchbase_data:
+    acquisitions: []
+    city: Beijing
+    company_type: For Profit
+    country: China
+    description: QingCloud is a cloud computing platform that provides IaaS-based
+      flexible cloud services.
+    funding: 280832709
+    homepage: http://qingcloud.com
+    industries:
+    - Cloud Computing
+    - IaaS
+    - SaaS
+    - Software
+    - Web Hosting
+    kind: market_cap
+    linkedin: https://www.linkedin.com/showcase/6462819/
+    name: QingCloud
+    num_employees_max: 1000
+    num_employees_min: 501
+    parents: []
+    region: Beijing
+    stockExchange: sse
+    ticker: 688316.SS
+    twitter: null
+  extra:
+    chat_channel: '#openfunction'
+    slack_url: https://slack.cncf.io/
+  github_data:
+    contributions: 2;10;6;2;0;1;5;2;0;12;10;8;7;2;3;0;3;2;1;10;9;4;13;3;1;1;13;2;0;3;5;6;6;4;4;2;2;3;5;7;1;0;2;2;0;6;0;2;11;1;4;0
+    contributors_count: 21
+    contributors_link: https://github.com/OpenFunction/OpenFunction/graphs/contributors
+    description: Cloud Native Function-as-a-Service Platform (CNCF Sandbox Project)
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 414166
+    - color: '#89e051'
+      name: Shell
+      value: 23856
+    - color: '#427819'
+      name: Makefile
+      value: 7457
+    - color: '#384d54'
+      name: Dockerfile
+      value: 1524
+    latest_commit_date: '2022-07-29T08:51:22Z'
+    latest_commit_link: /OpenFunction/OpenFunction/commit/561b2d03e4d71ddced4348f1aec986675d132745
+    license: Apache License 2.0
+    release_date: '2022-03-21T04:58:13Z'
+    release_link: https://github.com/OpenFunction/OpenFunction/releases
+    stars: 701
+  github_start_commit_data:
+    start_commit_link: /OpenFunction/OpenFunction/commit/dfaf129fe89c59b82a48bd14a5ad7467a06e072e
+    start_date: '2020-12-05T08:02:46Z'
+  homepage_url: https://openfunction.dev
+  image_data:
+    fileName: open-function.svg
+    hash: DjCZFNEuerTqbFCyUPTDz4tb53neCUsuV92oo4N4gjE=
+  item: null
+  logo: openfunction.svg
+  name: OpenFunction
+  project: sandbox
+  repo_url: https://github.com/OpenFunction/OpenFunction
+  repos:
+  - stars: 701
+    url: https://github.com/OpenFunction/OpenFunction
+  yahoo_finance_data:
+    effective_ticker: 688316.SS
+    market_cap: 252335307

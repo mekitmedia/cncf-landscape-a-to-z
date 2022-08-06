@@ -1,0 +1,147 @@
+- best_practice_data:
+    badge: 6137
+    percentage: 51
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  description: Aeraki Mesh allows you to manage any layer-7 traffic in a service mesh
+  extra:
+    blog_url: https://www.aeraki.net/blog/
+    dev_stats_url: https://aerakimesh.devstats.cncf.io/
+    slack_url: https://cloud-native.slack.com/messages/aeraki-mesh
+  github_data:
+    contributions: 0;0;1;1;1;2;8;1;1;4;4;1;0;1;1;1;11;5;2;2;5;4;4;2;0;0;2;4;9;3;1;0;3;6;0;4;0;3;1;20;4;7;4;26;19;13;0;0;0;5;1;0
+    contributors_count: 24
+    contributors_link: https://github.com/aeraki-mesh/aeraki/graphs/contributors
+    description: Manage any layer-7 protocols in a Service Mesh.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 361979
+    - color: '#e34c26'
+      name: HTML
+      value: 47145
+    - color: '#427819'
+      name: Makefile
+      value: 14235
+    - color: '#89e051'
+      name: Shell
+      value: 8455
+    - color: '#384d54'
+      name: Dockerfile
+      value: 1871
+    latest_commit_date: '2022-07-27T07:41:49Z'
+    latest_commit_link: /aeraki-mesh/aeraki/commit/3068bb0929f421ac24425116eadd8a63d7973152
+    license: Apache License 2.0
+    release_date: '2022-07-20T05:26:20Z'
+    release_link: https://github.com/aeraki-mesh/aeraki/releases
+    stars: 533
+  github_start_commit_data:
+    start_commit_link: /aeraki-mesh/aeraki/commit/af566b8152a72eca30dbb7ea58152d0f614448ba
+    start_date: '2020-11-03T08:53:22Z'
+  homepage_url: https://www.aeraki.net/
+  image_data:
+    fileName: aeraki-mesh.svg
+    hash: LWKuBozowA4vp2IxC8KTOHGkOmzVEIbMt59PPq954Tc=
+  item: null
+  logo: aeraki-mesh.svg
+  name: Aeraki Mesh
+  project: sandbox
+  repo_url: https://github.com/aeraki-mesh/aeraki
+  repos:
+  - stars: 533
+    url: https://github.com/aeraki-mesh/aeraki
+  twitter_data:
+    latest_tweet_date: 2022-08-05 21:09:37+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+  crunchbase_data:
+    acquisitions:
+    - acquiree: AppThwack
+      date: '2015-07-14'
+    - acquiree: NICE
+      date: '2016-02-11'
+    - acquiree: Thinkbox Software
+      date: '2017-03-06'
+    - acquiree: Do
+      date: '2017-03-08'
+    - acquiree: Sqrrl
+      date: '2018-01-23'
+    - acquiree: TSO Logic
+      date: '2019-01-14'
+    - acquiree: TeamSQL, Inc.
+      date: '2020-02-21'
+    - acquiree: DB Best Technologies
+      date: '2021-01-28'
+    - acquiree: Wickr
+      date: '2021-06-25'
+    city: Seattle
+    company_type: For Profit
+    country: United States
+    description: Amazon Web Services provides information technology infrastructure
+      services to businesses in the form of web services.
+    funding: 108000000
+    homepage: http://aws.amazon.com
+    industries:
+    - Information Services
+    - Information Technology
+    - Software
+    - Web Development
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/amazon-web-services
+    name: Amazon Web Services
+    num_employees_max: 1000000
+    num_employees_min: 10001
+    parents:
+    - https://www.crunchbase.com/organization/amazon
+    region: Washington
+    stockExchange: null
+    ticker: AMZN
+    twitter: http://twitter.com/awscloud
+  description: AWS App Mesh is a service mesh that provides application-level networking
+    to make it easy for your services to communicate with each other across multiple
+    types of compute infrastructure. App Mesh standardizes how your services communicate,
+    giving you end-to-end visibility and ensuring high-availability for your applications.
+  homepage_url: https://aws.amazon.com/app-mesh/
+  image_data:
+    fileName: aws-app-mesh.svg
+    hash: jzjiUrHoM7TIAVr+/sw5dXlClz4SFMpPLi+UVk8Gt0M=
+  item: null
+  logo: aws-app-mesh.svg
+  name: AWS App Mesh
+  twitter_data:
+    latest_tweet_date: 2022-08-05 18:15:56+00:00
+  yahoo_finance_data:
+    effective_ticker: AMZN
+    market_cap: 1434414088192

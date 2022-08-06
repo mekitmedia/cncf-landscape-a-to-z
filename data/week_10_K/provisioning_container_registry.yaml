@@ -1,0 +1,119 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/uber
+  crunchbase_data:
+    acquisitions:
+    - acquiree: deCarta
+      date: '2015-03-03'
+    - acquiree: Otto
+      date: '2016-08-18'
+      price: 680000000
+    - acquiree: Geometric Intelligence
+      date: '2016-12-05'
+    - acquiree: Complex Polygon
+      date: '2017-07-14'
+    - acquiree: Swipe Labs
+      date: '2017-07-14'
+    - acquiree: JUMP Bikes
+      date: '2018-04-04'
+      price: 200000000
+    - acquiree: Careem
+      date: '2019-03-26'
+      price: 3100000000
+    - acquiree: Mighty AI
+      date: '2019-06-18'
+    - acquiree: Cornershop
+      date: '2019-10-11'
+    - acquiree: Postmates
+      date: '2020-07-06'
+      price: 2650000000
+    - acquiree: Routematch Software
+      date: '2020-07-16'
+    - acquiree: Autocab
+      date: '2020-08-06'
+    - acquiree: Drizly
+      date: '2021-02-02'
+      price: 1100000000
+    city: San Francisco
+    company_type: For Profit
+    country: United States
+    description: Uber develops, markets, and operates a ride-sharing mobile application
+      that allows consumers to submit a trip request.
+    funding: 25212450000
+    homepage: http://www.uber.com
+    industries:
+    - Logistics
+    - Mobile Apps
+    - Public Transportation
+    - Ride Sharing
+    - Transportation
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/uber-com
+    name: Uber
+    num_employees_max: 1000000
+    num_employees_min: 10001
+    parents: []
+    region: California
+    stockExchange: nyse
+    ticker: UBER
+    twitter: http://twitter.com/uber
+  github_data:
+    contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;1;0
+    contributors_count: 34
+    contributors_link: https://github.com/uber/kraken/graphs/contributors
+    description: P2P Docker registry capable of distributing TBs of data in seconds
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 1437001
+    - color: '#3572A5'
+      name: Python
+      value: 51582
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 9995
+    - color: '#427819'
+      name: Makefile
+      value: 8883
+    - color: '#384d54'
+      name: Dockerfile
+      value: 5296
+    - color: '#89e051'
+      name: Shell
+      value: 619
+    - name: Mustache
+      value: 579
+    - color: '#e34c26'
+      name: HTML
+      value: 543
+    - color: '#563d7c'
+      name: CSS
+      value: 120
+    latest_commit_date: '2022-07-25T17:41:24Z'
+    latest_commit_link: /uber/kraken/commit/d4684e28d5ebe2096e8f055b92bce70b4d72a688
+    license: Apache License 2.0
+    release_date: '2020-05-06T02:44:42Z'
+    release_link: https://github.com/uber/kraken/releases
+    stars: 5118
+  github_start_commit_data:
+    start_commit_link: /uber/kraken/commit/c2c51c939a1193008aef49aa0ff2ec98866a702d
+    start_date: '2016-12-16T01:29:09Z'
+  homepage_url: https://eng.uber.com/introducing-kraken/
+  image_data:
+    fileName: kraken.svg
+    hash: 7srdVwgEwcVpkm1JZpbBCCViqZgFsAWyESKRSfivq2Y=
+  item: null
+  logo: kraken.svg
+  name: Kraken
+  repo_url: https://github.com/uber/kraken
+  repos:
+  - stars: 5118
+    url: https://github.com/uber/kraken
+  twitter: https://twitter.com/UberEng
+  twitter_data:
+    latest_tweet_date: 2022-08-02 16:45:00+00:00
+  yahoo_finance_data:
+    effective_ticker: UBER
+    market_cap: 62856753152

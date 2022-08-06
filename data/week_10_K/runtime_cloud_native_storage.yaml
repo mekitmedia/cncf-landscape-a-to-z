@@ -1,0 +1,120 @@
+- best_practice_data:
+    badge: 5388
+    percentage: 73
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  extra:
+    accepted: '2021-11-16'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#k8up-logos
+    chat_channel: '#k8up'
+    dev_stats_url: https://k8up.devstats.cncf.io/
+    slack_url: https://community.appuio.ch/channel/k8up
+  github_data:
+    contributions: 12;12;0;14;12;38;28;2;17;2;2;0;11;0;6;7;7;2;1;4;0;5;1;2;0;8;2;6;3;8;3;6;0;31;2;4;3;0;7;13;17;9;17;4;1;8;13;2;31;1;1;4
+    contributors_count: 40
+    contributors_link: https://github.com/k8up-io/k8up/graphs/contributors
+    description: Kubernetes and OpenShift Backup Operator
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 386918
+    - color: '#89e051'
+      name: Shell
+      value: 28785
+    - color: '#427819'
+      name: Makefile
+      value: 18115
+    - name: Mustache
+      value: 2104
+    - color: '#384d54'
+      name: Dockerfile
+      value: 662
+    latest_commit_date: '2022-08-01T19:05:39Z'
+    latest_commit_link: /k8up-io/k8up/commit/d561b847490c85e5ed07dd3fa8d6c82959e25cc9
+    license: Apache License 2.0
+    release_date: '2022-07-15T12:50:07Z'
+    release_link: https://github.com/k8up-io/k8up/releases
+    stars: 322
+  github_start_commit_data:
+    start_commit_link: /k8up-io/k8up/commit/0e8473bfa3f855ce78a98e4bcb2081a773b99387
+    start_date: '2018-04-17T08:53:36Z'
+  homepage_url: https://www.k8up.io/
+  image_data:
+    fileName: k8up.svg
+    hash: liXk7R9muu7cbP6yJaqYSl5PUbp63ujZuCUl1NBVmLg=
+  item: null
+  logo: k8up.svg
+  name: K8up
+  project: sandbox
+  repo_url: https://github.com/k8up-io/k8up
+  repos:
+  - stars: 322
+    url: https://github.com/k8up-io/k8up
+  twitter_data:
+    latest_tweet_date: 2022-08-05 21:09:37+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/kasten
+  crunchbase_data:
+    acquisitions: []
+    city: Los Altos
+    company_type: For Profit
+    country: United States
+    description: Kasten is a software company that simplifies the operational management
+      of stateful cloud-native applications for Kubernetes.
+    funding: 17000000
+    homepage: https://kasten.io/
+    industries:
+    - Cloud Infrastructure
+    - Cloud Storage
+    - SaaS
+    - Software
+    kind: funding
+    linkedin: https://in.linkedin.com/company/kasteninc
+    name: Kasten
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/kastenhq
+  homepage_url: https://kasten.io/
+  image_data:
+    fileName: kasten.svg
+    hash: PWuwNVFAJKFQzCpyhxWSDW6eLlmQpSGKYEB24tm6JkM=
+  item: null
+  logo: kasten.svg
+  name: Kasten
+  twitter_data:
+    latest_tweet_date: 2022-08-06 01:05:59+00:00

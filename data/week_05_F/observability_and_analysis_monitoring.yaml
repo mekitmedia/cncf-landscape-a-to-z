@@ -1,0 +1,201 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/xiaomi
+  crunchbase_data:
+    acquisitions:
+    - acquiree: DeepMotion
+      date: '2021-08-26'
+      price: 77300000
+    city: Beijing
+    company_type: For Profit
+    country: China
+    description: Xiaomi is an electronics and software company that focuses on mobile
+      devices and technology.
+    funding: 7389800000
+    homepage: http://www.mi.com/en/
+    industries:
+    - Consumer Electronics
+    - Internet
+    - Mobile
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/xiaomi-technology
+    name: Xiaomi
+    num_employees_max: 1000000
+    num_employees_min: 10001
+    parents: []
+    region: Beijing
+    stockExchange: hkg
+    ticker: 1810.HK
+    twitter: https://twitter.com/xiaomi
+  github_data:
+    contributions: 1;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+    contributors_count: 124
+    contributors_link: https://github.com/open-falcon/falcon-plus/graphs/contributors
+    description: ' An open-source and enterprise-level monitoring system.'
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 823783
+    - color: '#89e051'
+      name: Shell
+      value: 35659
+    - color: '#563d7c'
+      name: CSS
+      value: 35372
+    - color: '#e34c26'
+      name: HTML
+      value: 15200
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 10195
+    - color: '#3572A5'
+      name: Python
+      value: 4822
+    - color: '#427819'
+      name: Makefile
+      value: 3477
+    - color: '#384d54'
+      name: Dockerfile
+      value: 1084
+    - name: Smarty
+      value: 450
+    latest_commit_date: '2022-04-22T01:44:05Z'
+    latest_commit_link: /open-falcon/falcon-plus/commit/fc97c2fda20387352c9137c1ab7ed9aa33596f4b
+    license: Apache License 2.0
+    release_date: '2019-05-30T09:35:49Z'
+    release_link: https://github.com/open-falcon/falcon-plus/releases
+    stars: 6943
+  github_start_commit_data:
+    start_commit_link: /open-falcon/falcon-plus/commit/7274e0a544a346ce350e04ab8bbc2412628371a0
+    start_date: '2012-10-30T08:52:01Z'
+  homepage_url: https://open-falcon.com
+  image_data:
+    fileName: falcon.svg
+    hash: j3WocbR1ZGSlMW2t/8MKQFgJNAumnYg/4Rv0QOzGcDE=
+  item: null
+  logo: falcon.svg
+  name: Falcon
+  repo_url: https://github.com/open-falcon/falcon-plus
+  repos:
+  - stars: 6943
+    url: https://github.com/open-falcon/falcon-plus
+  twitter: null
+  yahoo_finance_data:
+    effective_ticker: 1810.HK
+    market_cap: 37175581732
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/flowmill
+  crunchbase_data:
+    acquisitions: []
+    city: Sunnyvale
+    company_type: For Profit
+    country: United States
+    description: Monitor 100% of your distributed application in real time with negligible
+      overhead, no sampling, and no code changes.
+    funding: 0
+    homepage: https://www.flowmill.com/
+    industries:
+    - Apps
+    - Information Technology
+    - Mobile
+    linkedin: null
+    name: Flowmill
+    num_employees_max: 10
+    num_employees_min: 1
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: null
+  homepage_url: https://www.splunk.com/en_us/investor-relations/acquisitions/flowmill.html
+  image_data:
+    fileName: flowmill.svg
+    hash: m6hKmRQH+cZhIWxFCWsahjhShsgi9NvmYtEGJmpet3o=
+  item: null
+  logo: flowmill.svg
+  name: Flowmill
+  twitter: https://twitter.com/FlowmillHQ
+  twitter_data:
+    latest_tweet_date: 2020-11-24 14:00:36+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  github_data:
+    contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+    contributors_count: 6
+    contributors_link: https://github.com/foniod/foniod/graphs/contributors
+    description: Data first monitoring agent using (e)BPF, built on RedBPF
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#dea584'
+      name: Rust
+      value: 132804
+    - name: HCL
+      value: 6539
+    - color: '#89e051'
+      name: Shell
+      value: 4111
+    - name: Jinja
+      value: 1719
+    - name: Cap'n Proto
+      value: 292
+    - color: '#384d54'
+      name: Dockerfile
+      value: 239
+    latest_commit_date: '2021-05-10T22:11:28Z'
+    latest_commit_link: /foniod/foniod/commit/5ba3f722514ec6c94de844732254903e7d6ba0bf
+    license: GNU General Public License v3.0
+    release_date: '2020-09-17T14:54:53Z'
+    release_link: https://github.com/foniod/foniod/releases
+    stars: 360
+  github_start_commit_data:
+    start_commit_link: /foniod/foniod/commit/8def18f55f706ab24c1de72ed87891ce58bae259
+    start_date: '2018-04-19T11:42:17Z'
+  homepage_url: https://ingraind.org/
+  image_data:
+    fileName: fonio.svg
+    hash: ffy8u5E3VMs2H3J4jZUsGlQCo3G51Ye3B1ELqPW+JJw=
+  item: null
+  logo: fonio.svg
+  name: Fonio
+  project: sandbox
+  repo_url: https://github.com/foniod/foniod
+  repos:
+  - stars: 360
+    url: https://github.com/foniod/foniod
+  twitter_data:
+    latest_tweet_date: 2022-08-05 21:09:37+00:00

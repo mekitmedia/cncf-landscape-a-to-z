@@ -1,0 +1,69 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/rancher-labs
+  crunchbase_data:
+    acquisitions: []
+    city: Cupertino
+    company_type: For Profit
+    country: United States
+    description: Rancher Labs provides an open-source container management software
+      for enterprises.
+    funding: 95000000
+    homepage: http://rancher.com/
+    industries:
+    - Cloud Computing
+    - Information Technology
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/rancher
+    name: Rancher Labs
+    num_employees_max: 250
+    num_employees_min: 101
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/rancher_labs
+  github_data:
+    contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+    contributors_count: 43
+    contributors_link: https://github.com/rancher/rio/graphs/contributors
+    description: Application Deployment Engine for Kubernetes
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 969670
+    - color: '#89e051'
+      name: Shell
+      value: 16145
+    - name: Smarty
+      value: 3354
+    - color: '#384d54'
+      name: Dockerfile
+      value: 2045
+    - color: '#427819'
+      name: Makefile
+      value: 313
+    latest_commit_date: '2021-06-24T20:47:07Z'
+    latest_commit_link: /rancher/rio/commit/b4cd8032227905b855ef167e1e008610beece166
+    license: Apache License 2.0
+    release_date: '2020-10-12T16:49:55Z'
+    release_link: https://github.com/rancher/rio/releases
+    stars: 2282
+  github_start_commit_data:
+    start_commit_link: /rancher/rio/commit/ad6807638c95321e6f1d5f251e8b3a86990d67c6
+    start_date: '2018-08-03T17:34:48Z'
+  homepage_url: https://rio.io/
+  image_data:
+    fileName: rio.svg
+    hash: t69TXCsZTTeeb0maS0So/eH1UdRJoQuHbHPfwqEAges=
+  item: null
+  logo: rio.svg
+  name: Rio
+  repo_url: https://github.com/rancher/rio
+  repos:
+  - stars: 2282
+    url: https://github.com/rancher/rio
+  twitter_data:
+    latest_tweet_date: 2022-08-03 18:00:34+00:00

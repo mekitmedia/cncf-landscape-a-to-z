@@ -1,0 +1,482 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/b1-systems-gmbh
+  crunchbase_data:
+    acquisitions: []
+    city: Vohburg An Der Donau
+    company_type: For Profit
+    country: Germany
+    description: Linux/Open Source Consulting, Training, Managed Service & Support
+    homepage: https://b1-systems.de/
+    industries: []
+    linkedin: https://www.linkedin.com/company/b1systems/
+    name: B1 Systems GmbH
+    num_employees_max: null
+    num_employees_min: null
+    parents: []
+    region: Bayern
+    stockExchange: null
+    twitter: https://twitter.com/b1systems
+  description: B1 Systems GmbH is a worldwide operating provider of Kubernetes consulting,
+    training, managed service & support located in Germany.
+  homepage_url: https://b1-systems.de/loesungen/kubernetes/
+  image_data:
+    fileName: b1-systems-kcsp.svg
+    hash: S0e7/GuInh18BwFU0q4lJf3eMoyaRrkrmMkwptwiR9c=
+  item: null
+  logo: b1-systems.svg
+  name: B1 Systems (KCSP)
+  twitter_data:
+    latest_tweet_date: 2022-07-29 07:00:03+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/baidu
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Hao123.com
+      date: '2004-09-16'
+    - acquiree: Qunar.com
+      date: '2011-06-24'
+    - acquiree: ES APP Group
+      date: '2013-01-01'
+      price: 3199655
+    - acquiree: TrustGo
+      date: '2013-02-13'
+      price: 30000000
+    - acquiree: PPS
+      date: '2013-05-07'
+    - acquiree: Blogfarki.com
+      date: '2013-07-15'
+      price: 1900000000
+    - acquiree: Beijing Huanxiang Zongheng Chinese Literature
+      date: '2013-12-27'
+    - acquiree: Peixe Urbano
+      date: '2014-10-09'
+    - acquiree: Anquanbao
+      date: '2015-04-16'
+    - acquiree: popIn
+      date: '2015-05-01'
+    - acquiree: Raven Tech
+      date: '2017-02-16'
+    - acquiree: XPerception
+      date: '2017-04-13'
+    - acquiree: KITT.AI
+      date: '2017-07-05'
+    - acquiree: REDFINGER
+      date: '2020-06-10'
+      price: 7081150
+    - acquiree: JOYY
+      date: '2020-11-16'
+      price: 3600000000
+    city: Beijing
+    company_type: For Profit
+    country: China
+    description: Baidu is a search engine that enables individuals to obtain information
+      and finds what they need.
+    funding: 26200000
+    homepage: http://www.baidu.com
+    industries:
+    - Internet
+    - Search Engine
+    - Social Network
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/baidu-inc
+    name: Baidu
+    num_employees_max: 1000000
+    num_employees_min: 10001
+    parents: []
+    region: Beijing
+    stockExchange: hkg
+    ticker: 9888.HK
+    twitter: https://twitter.com/BaiduResearch
+  description: Baidu Cloud Container Engine is an enterprise-level container platform,
+    the core of CCE is leveraging on open source technologies including Kubernetes
+    and Docker.
+  homepage_url: https://cloud.baidu.com/
+  image_data:
+    fileName: baidu-kcsp.svg
+    hash: BnAsq3txpEcSHJvR0ug1ztmR9lUcYYSi9VBrrA5SDJ0=
+  item: null
+  logo: baidu-kcsp.svg
+  name: Baidu (KCSP)
+  twitter_data:
+    latest_tweet_date: 2022-08-03 16:00:04+00:00
+  yahoo_finance_data:
+    effective_ticker: 9888.HK
+    market_cap: 46561900800
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/banzai-cloud
+  crunchbase_data:
+    acquisitions: []
+    city: Budapest
+    company_type: For Profit
+    country: Hungary
+    description: Bringing Cloud Native to the Enterprise
+    funding: 2500000
+    homepage: https://banzaicloud.com/
+    industries:
+    - Information Technology
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/27129691/
+    name: Banzai Cloud
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: Budapest
+    stockExchange: null
+    twitter: https://twitter.com/banzaicloud
+  description: Banzai Cloud brings cloud native to the enterprise and simplifies the
+    transition to microservices on Kubernetes.
+  homepage_url: https://banzaicloud.com/
+  image_data:
+    fileName: banzai-cloud-kcsp.svg
+    hash: JnJ0y2Y3c7APhAb1JNLeBJ2bvf+LzAtxSaWzkRzuOYY=
+  item: null
+  logo: banzai-cloud.svg
+  name: Banzai Cloud (KCSP)
+  twitter_data:
+    latest_tweet_date: 2021-08-23 12:32:24+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/beijing-big-data
+  crunchbase_data:
+    acquisitions: []
+    city: Beijing
+    company_type: For Profit
+    country: China
+    description: Beijing Big Data Co., Ltd. ("BIG Data" for short) is an innovative
+      entrepreneurial enterprise focusing on big data services
+    homepage: https://www.bd-apaas.com/#/
+    industries: []
+    linkedin: https://www.linkedin.com/feed/
+    name: Beijing Big Data
+    num_employees_max: 250
+    num_employees_min: 101
+    parents: []
+    region: Beijing
+    stockExchange: null
+    twitter: null
+  description: BC Cloud (Beijing Big Data) provides professional cloud native platform
+    solutions, DevOps implementation, Service Mesh consulting and other comprehensive
+    services for big data.
+  homepage_url: https://www.bd-apaas.com/#/bcproduct
+  image_data:
+    fileName: bc-cloud-kcsp.svg
+    hash: yni1Stxzje91NdiSyz3hNsqsYPCxbVvVRMG+R+bb5Gg=
+  item: null
+  logo: bc-cloud.svg
+  name: BC Cloud (KCSP)
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/beopenit
+  crunchbase_data:
+    acquisitions: []
+    city: Paris
+    company_type: For Profit
+    country: France
+    description: "BeOpenIT is a Franco-African software company that specializes\_\
+      in cloud computing technologies."
+    homepage: https://www.beopenit.com/
+    industries: []
+    linkedin: https://www.linkedin.com/company/beopenit
+    name: BeOpenIT
+    num_employees_max: null
+    num_employees_min: null
+    parents: []
+    region: Ile-de-France
+    stockExchange: null
+    twitter: https://twitter.com/beopenit
+  description: BeOpenIT is a Cloud, DevOps, AI and Cybersecurity consultancy providing
+    training, products and support of Kubernetes and cloud native technologies.
+  homepage_url: https://www.beopenit.com/
+  image_data:
+    fileName: be-open-it-kcsp.svg
+    hash: qxrg6UmP32d/bR93IHa6UKBPAlljRdU2D+wBBhNxn9Y=
+  item: null
+  logo: beopenit.svg
+  name: BeOpenIT (KCSP)
+  twitter_data:
+    latest_tweet_date: 2022-08-02 08:15:01+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/bes-e58f
+  crunchbase_data:
+    acquisitions: []
+    city: Beijing
+    company_type: For Profit
+    country: China
+    description: BES is a software company that focuses on the development and promotion
+      of basic software.
+    homepage: https://www.bessystem.com/
+    industries:
+    - CRM
+    - Information Technology
+    - Software
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/%E5%8C%97%E4%BA%AC%E5%AE%9D%E5%85%B0%E5%BE%B7%E8%BD%AF%E4%BB%B6%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+    name: BES
+    num_employees_max: 500
+    num_employees_min: 251
+    parents: []
+    region: Beijing
+    stockExchange: sse
+    ticker: 688058.SS
+    twitter: null
+  description: Beijing Baolande Software Corporation provides Kubernetes special technical
+    services including consulting, training, implementation, and technical support,
+    as well as customized research & development, business operations and other advanced
+    services. We aim to help enterprises of different scales to achieve Kubernetes
+    community version quickly and safely, better meeting their requirements of business
+    development and accelerating business prosperity & growth.
+  homepage_url: https://www.bessystem.com/partinfo/103106/info?p=103
+  image_data:
+    fileName: bessystem-beijing-baolande-software-corporation-kcsp.svg
+    hash: TOC/lSJHC2BbNpNTBv4EK7LD7Zt/JNPz2QPGpraQA5M=
+  item: null
+  logo: bessystem.svg
+  name: BESSYSTEM - Beijing Baolande Software Corporation (KCSP)
+  yahoo_finance_data:
+    effective_ticker: 688058.SS
+    market_cap: 468495522
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/blue-sentry
+  crunchbase_data:
+    acquisitions: []
+    city: Murrells Inlet
+    company_type: For Profit
+    country: United States
+    description: Blue Sentry is an Amazon Web Services (AWS) premier consulting partner
+      that elevates businesses to the AWS Cloud.
+    funding: 2258767
+    homepage: http://bluesentryit.com
+    industries:
+    - Cloud Computing
+    - Cyber Security
+    kind: funding
+    linkedin: https://www.linkedin.com/company/blue-sentry
+    name: Blue Sentry
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: South Carolina
+    stockExchange: null
+    twitter: https://twitter.com/bluesentryit
+  description: Blue Sentry increases efficiency, security, ensures compliance and
+    helps organizations deliver products faster with our managed DevOps services utilizing
+    Kubernetes, Infrastructure as Code and CI/CD-enabled change management.
+  homepage_url: https://bluesentry.cloud/solutions/managed-kubernetes-consulting-services
+  image_data:
+    fileName: blue-sentry-kcsp.svg
+    hash: /CY7WHPoIWdrK1ciaRdErkTZQWhAQRj2An3J1ptNJrk=
+  item: null
+  logo: blue-sentry.svg
+  name: Blue Sentry (KCSP)
+  twitter_data:
+    latest_tweet_date: 2021-01-19 21:18:29+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/bocloud
+  crunchbase_data:
+    acquisitions: []
+    city: Suzhou
+    company_type: For Profit
+    country: China
+    description: BoCloud provides professional cloud computing services for enterprise
+      customers, focusing on PaaS technology.
+    funding: 29771598
+    homepage: http://www.bocloud.com.cn
+    industries:
+    - Cloud Computing
+    - Enterprise Software
+    - Information Technology
+    - SaaS
+    kind: funding
+    linkedin: null
+    name: Bocloud
+    num_employees_max: 1000
+    num_employees_min: 501
+    parents: []
+    region: Jiangsu
+    stockExchange: null
+    twitter: null
+  homepage_url: http://bocloud.com.cn/
+  image_data:
+    fileName: bo-cloud-kcsp.svg
+    hash: KzmaXCiVfeOlrt3H7o5spVQZJbePIc/RzUsE4JW4S8Q=
+  item: null
+  logo: bo-cloud-kcsp.svg
+  name: BoCloud (KCSP)
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/btech-d630
+  crunchbase_data:
+    acquisitions: []
+    city: Bogor
+    company_type: For Profit
+    country: Indonesia
+    description: Enterprise Cloud System Integrator
+    homepage: https://www.btech.id/
+    industries: []
+    linkedin: https://www.linkedin.com/company/1583139/
+    name: Btech
+    num_employees_max: null
+    num_employees_min: null
+    parents: []
+    region: Jawa Barat
+    stockExchange: null
+    twitter: https://twitter.com/btechpt
+  description: We provide services on cloud and devops training, consulting, implementation,
+    support and managed services to enterprises, governments, NGOs, and universities.
+  homepage_url: https://www.btech.id/#solutions
+  image_data:
+    fileName: boer-technology-kcsp.svg
+    hash: R6x0FkX6qBKMtkC4Uyg6m9U0Qf/dLECyl7YpCM8D+Uo=
+  item: null
+  logo: boer-technology.svg
+  name: Boer Technology (KCSP)
+  twitter_data:
+    latest_tweet_date: 2022-07-30 15:48:08+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/booz-allen-hamilton
+  crunchbase_data:
+    acquisitions:
+    - acquiree: ARINC- Defense Systems Engineering and Support Division
+      date: '2012-12-03'
+      price: 154000000
+    - acquiree: Epidemico
+      date: '2014-10-29'
+    - acquiree: SPARC
+      date: '2015-11-02'
+    - acquiree: Aquilent
+      date: '2016-11-29'
+      price: 250000000
+    - acquiree: Morphick Cyber Security
+      date: '2017-10-20'
+    - acquiree: Liberty IT Solutions
+      date: '2021-05-04'
+      price: 725000000
+    - acquiree: Tracepoint
+      date: '2021-09-13'
+    - acquiree: EverWatch Corp.
+      date: '2022-03-16'
+    city: Mclean
+    company_type: For Profit
+    country: United States
+    description: Booz Allen Hamilton is a provider of management consulting, technology,
+      and engineering services to US government.
+    funding: 1711760000
+    homepage: http://www.boozallen.com
+    industries:
+    - Consulting
+    - Cyber Security
+    - IT Infrastructure
+    - Management Consulting
+    - National Security
+    - Professional Services
+    - Security
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/1403
+    name: Booz Allen Hamilton
+    num_employees_max: 1000000
+    num_employees_min: 10001
+    parents: []
+    region: Virginia
+    stockExchange: nyse
+    ticker: BAH
+    twitter: http://twitter.com/BoozAllen
+  description: Booz Allen partners with public and private sector clients to solve
+    their most difficult challenges through a combination of consulting, analytics,
+    mission operations, technology, systems delivery, cybersecurity, engineering,
+    and innovation expertise.
+  homepage_url: https://www.boozallen.com/
+  image_data:
+    fileName: booz-allen-hamilton-kcsp.svg
+    hash: 0bZR99uivt3EPyHB/9acnG7w+ETMV0sVBKAE8ELKD80=
+  item: null
+  logo: booz-allen-hamilton-kcsp.svg
+  name: Booz Allen Hamilton (KCSP)
+  twitter_data:
+    latest_tweet_date: 2022-08-06 02:22:00+00:00
+  yahoo_finance_data:
+    effective_ticker: BAH
+    market_cap: 12575129600
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/boxboat-technologies-llc
+  crunchbase_data:
+    acquisitions: []
+    city: Bethesda
+    company_type: For Profit
+    country: United States
+    description: 'BoxBoat is a services company specializing in Containers, DevOps,
+      Continuous Delivery, and Cloud Migration engagements. '
+    homepage: http://www.boxboat.com
+    industries:
+    - Information Technology
+    - Software
+    linkedin: https://www.linkedin.com/company/boxboat/
+    name: BoxBoat Technologies
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: Maryland
+    stockExchange: null
+    twitter: https://twitter.com/boxboat
+  description: BoxBoat helps global companies develop, integrate, and deploy applications
+    faster with Kubernetes and emerging ecosystem technologies.
+  homepage_url: https://boxboat.com/
+  image_data:
+    fileName: box-boat-kcsp.svg
+    hash: aPmwII1UTsUUzGACz1LwDAmgiO6d8LxGNd+7JI3CJUc=
+  item: null
+  logo: boxboat.svg
+  name: BoxBoat (KCSP)
+  twitter_data:
+    latest_tweet_date: 2022-08-01 03:19:40+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/brobridge
+  crunchbase_data:
+    acquisitions: []
+    city: Taipei
+    company_type: For Profit
+    country: Taiwan
+    description: Brobridge is an IT firm that specializes in IT and cloud services.
+    homepage: https://www.brobridge.com
+    industries:
+    - Information Technology
+    - Software
+    linkedin: https://www.linkedin.com/company/brobridge/
+    name: Brobridge
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: T'ai-pei
+    stockExchange: null
+    twitter: null
+  description: Brobridge provides professional Kubernetes support and microservice-relevant
+    components such as workflow engine, API gateway, queueing system, and orchestration
+    engine to assist your business to move to microservice.
+  homepage_url: http://www.brobridge.com
+  image_data:
+    fileName: brobridge-kcsp.svg
+    hash: 28TpBLqOaiVVz8/ck8SzVciRWNgLN5Y4ajYcWr0Z7i4=
+  item: null
+  logo: brobridge-kcsp.svg
+  name: Brobridge (KCSP)

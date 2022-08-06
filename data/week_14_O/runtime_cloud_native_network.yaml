@@ -1,0 +1,86 @@
+- best_practice_data:
+    badge: 974
+    percentage: 100
+  crunchbase: https://www.crunchbase.com/organization/open-vswitch
+  crunchbase_data:
+    acquisitions: []
+    city: San Francisco
+    company_type: For Profit
+    country: United States
+    description: Open vSwitch is a multilayer virtual switch licensed under the open
+      source Apache 2.0 license.
+    homepage: http://openvswitch.org/
+    industries:
+    - Developer Tools
+    linkedin: null
+    name: Open vSwitch
+    num_employees_max: null
+    num_employees_min: null
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: null
+  github_data:
+    contributions: 13;9;11;9;33;9;5;3;6;7;10;4;14;4;4;15;13;5;11;15;2;11;8;9;16;10;10;4;15;5;3;1;27;6;8;13;4;14;5;4;10;10;7;3;0;13;19;34;47;9;15;3
+    contributors_count: 662
+    contributors_link: https://github.com/openvswitch/ovs/graphs/contributors
+    description: Open vSwitch
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#555555'
+      name: C
+      value: 13743446
+    - color: '#3572A5'
+      name: Python
+      value: 1216351
+    - color: '#ecdebe'
+      name: Roff
+      value: 299497
+    - color: '#89e051'
+      name: Shell
+      value: 222691
+    - name: M4
+      value: 112015
+    - color: '#427819'
+      name: Makefile
+      value: 102325
+    - color: '#f34b7d'
+      name: C++
+      value: 20429
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 7350
+    - color: '#012456'
+      name: PowerShell
+      value: 5683
+    - color: '#701516'
+      name: Ruby
+      value: 1565
+    - color: '#384d54'
+      name: Dockerfile
+      value: 569
+    - color: '#C1F12E'
+      name: Batchfile
+      value: 85
+    latest_commit_date: '2022-08-04T16:13:20Z'
+    latest_commit_link: /openvswitch/ovs/commit/434025a15453452f76962b5f625dbe30c61615fd
+    license: Apache License 2.0
+    stars: 2942
+  github_start_commit_data:
+    start_commit_link: /openvswitch/ovs/commit/0bb1f43dd8f5e894ed45d158daa5f94f4990c05a
+    start_date: '2009-06-05T18:18:33Z'
+  homepage_url: https://www.openvswitch.org/
+  image_data:
+    fileName: open-v-switch.svg
+    hash: tDG25nkhk+aF9+epO35Rl2WAfekjMhyaZHNim7Up25Y=
+  item: null
+  logo: open-v-switch.svg
+  name: Open vSwitch
+  repo_url: https://github.com/openvswitch/ovs
+  repos:
+  - stars: 2942
+    url: https://github.com/openvswitch/ovs
+  twitter: https://twitter.com/lf_networking
+  twitter_data:
+    latest_tweet_date: 2022-08-02 14:01:49+00:00

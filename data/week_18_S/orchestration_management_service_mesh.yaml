@@ -1,0 +1,220 @@
+- best_practice_data:
+    badge: 3801
+    percentage: 100
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  github_data:
+    contributions: 1;2;0;0;0;0;1;2;0;0;0;1;0;1;0;0;0;0;0;0;0;0;3;1;1;0;0;0;0;0;0;2;1;1;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;3
+    contributors_count: 36
+    contributors_link: https://github.com/servicemeshinterface/smi-spec/graphs/contributors
+    description: Service Mesh Interface
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#427819'
+      name: Makefile
+      value: 191
+    latest_commit_date: '2022-08-03T22:01:25Z'
+    latest_commit_link: /servicemeshinterface/smi-spec/commit/4625b6b41b0a81749c6329580bf37a878a53c5c9
+    license: Apache License 2.0
+    release_date: '2021-01-20T11:31:42Z'
+    release_link: https://github.com/servicemeshinterface/smi-spec/releases
+    stars: 960
+  github_start_commit_data:
+    start_commit_link: /deislabs/smi-spec/commit/f6f7a2dbc772db2ea9cf4763e0252a997a647afe
+    start_date: '2019-03-26T03:22:43Z'
+  homepage_url: https://smi-spec.io
+  image_data:
+    fileName: service-mesh-interface-smi.svg
+    hash: 2PRXdK2JLnXG1V3K+n88gVwKOzwuqgXiJPvZ7/CiIfg=
+  item: null
+  logo: service-mesh-interface.svg
+  name: Service Mesh Interface (SMI)
+  project: sandbox
+  repo_url: https://github.com/servicemeshinterface/smi-spec
+  repos:
+  - stars: 960
+    url: https://github.com/servicemeshinterface/smi-spec
+  twitter: https://twitter.com/smi_spec
+  twitter_data:
+    latest_tweet_date: 2022-07-26 19:40:37+00:00
+- best_practice_data:
+    badge: 5054
+    percentage: 19
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  extra:
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#service-mesh-performance-logos
+    dev_stats_url: https://smp.devstats.cncf.io/
+    mailing_list_url: https://groups.google.com/a/smp-spec.io/g/community
+    slack_url: https://cloud-native.slack.com/messages/service-mesh-performance
+  github_data:
+    contributions: 8;4;42;2;4;7;10;7;2;3;0;4;15;6;4;6;5;2;2;0;2;6;0;3;4;10;1;0;0;1;1;0;0;0;11;5;3;5;7;13;42;8;2;3;9;0;2;3;8;0;0;2
+    contributors_count: 78
+    contributors_link: https://github.com/service-mesh-performance/service-mesh-performance/graphs/contributors
+    description: Standardizing Service Mesh Value Measurement
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#427819'
+      name: Makefile
+      value: 156
+    latest_commit_date: '2022-08-02T14:10:25Z'
+    latest_commit_link: /service-mesh-performance/service-mesh-performance/commit/00253ad2ea3de69b8976ca75ffa7f7d44d58a14c
+    license: Apache License 2.0
+    release_date: '2022-03-16T22:54:13Z'
+    release_link: https://github.com/service-mesh-performance/service-mesh-performance/releases
+    stars: 228
+  github_start_commit_data:
+    start_commit_link: /service-mesh-performance/service-mesh-performance/commit/1ba9078fed354fe9812b44c301f2de1271b18238
+    start_date: '2019-02-02T23:06:38Z'
+  homepage_url: https://smp-spec.io/
+  image_data:
+    fileName: service-mesh-performance.svg
+    hash: srnIxrChCM/F2t0fO4EtJom6v6TN8gBjHFOe8VpSu0c=
+  item: null
+  logo: service-mesh-performance.svg
+  name: Service Mesh Performance
+  project: sandbox
+  repo_url: https://github.com/service-mesh-performance/service-mesh-performance
+  repos:
+  - stars: 228
+    url: https://github.com/service-mesh-performance/service-mesh-performance
+  twitter: https://twitter.com/smp_spec
+  twitter_data:
+    latest_tweet_date: 2022-08-04 20:47:27+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/netease-com
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Grasshopper Manufacture
+      date: '2021-10-22'
+    city: Hangzhou
+    company_type: For Profit
+    country: China
+    description: 'NetEase, Inc. (NASDAQ: NTES) is a leading internet technology company
+      dedicated to providing premium online services.'
+    funding: 0
+    homepage: https://www.neteasegames.com/
+    industries:
+    - Advertising
+    - Gaming
+    - Mobile
+    - Mobile Apps
+    - Music
+    - PC Games
+    - Venture Capital
+    - Wireless
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/netease
+    name: NetEase
+    num_employees_max: 1000000
+    num_employees_min: 10001
+    parents: []
+    region: Zhejiang
+    stockExchange: hkg
+    ticker: 9999.HK
+    twitter: https://twitter.com/neteaseofficial?lang=en
+  github_data:
+    contributions: 0;1;14;24;10;6;11;9;0;9;10;2;1;2;12;2;7;4;0;0;1;0;1;1;0;0;1;0;2;5;2;3;0;2;0;0;1;2;0;0;2;0;1;2;2;3;1;1;2;0;2;0
+    contributors_count: 11
+    contributors_link: https://github.com/slime-io/slime/graphs/contributors
+    description: An intelligent ServiceMesh manager based on Istio
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 449989
+    - color: '#89e051'
+      name: Shell
+      value: 22797
+    - color: '#384d54'
+      name: Dockerfile
+      value: 2630
+    - color: '#427819'
+      name: Makefile
+      value: 912
+    latest_commit_date: '2022-07-27T11:31:46Z'
+    latest_commit_link: /slime-io/slime/commit/eebde6bbcc0bf9b9495a17d17245bcfb78a37354
+    license: Apache License 2.0
+    release_date: '2022-03-23T06:05:14Z'
+    release_link: https://github.com/slime-io/slime/releases
+    stars: 314
+  github_start_commit_data:
+    start_commit_link: /slime-io/slime/commit/42f74183acc72d40f76a837db9dfe34fea182fb5
+    start_date: '2021-01-20T08:19:59Z'
+  homepage_url: https://github.com/slime-io
+  image_data:
+    fileName: slime.svg
+    hash: KBoPSY551jdlOXDxBF48ijATRNEMWhfNPkDamzrnNGk=
+  item: null
+  logo: Slime.svg
+  name: Slime
+  repo_url: https://github.com/slime-io/slime
+  repos:
+  - stars: 314
+    url: https://github.com/slime-io/slime
+  twitter: https://twitter.com/NetEase_Global
+  twitter_data:
+    latest_tweet_date: 2022-08-02 08:34:40+00:00
+  yahoo_finance_data:
+    effective_ticker: 9999.HK
+    market_cap: 58973992918

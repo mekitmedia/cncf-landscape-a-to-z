@@ -1,0 +1,78 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/haproxy-technologies
+  crunchbase_data:
+    acquisitions: []
+    city: Waltham
+    company_type: For Profit
+    country: United States
+    description: "HAProxy Technologies is the company behind HAProxy, the world\u2019\
+      s fastest and most widely used software load balancer."
+    homepage: http://www.haproxy.com
+    industries:
+    - Information Services
+    - Information Technology
+    - Internet
+    - Software
+    linkedin: https://www.linkedin.com/company/haproxy-technologies/
+    name: HAProxy Technologies
+    num_employees_max: 250
+    num_employees_min: 101
+    parents: []
+    region: Massachusetts
+    stockExchange: null
+    twitter: https://twitter.com/haproxy
+  github_data:
+    contributions: 31;35;54;49;30;49;54;69;98;59;73;50;29;56;48;45;27;29;46;59;33;38;39;43;63;44;38;58;65;73;54;41;45;116;42;81;41;90;134;84;121;129;82;40;48;41;38;65;40;24;25;26
+    contributors_count: 347
+    contributors_link: https://github.com/haproxy/haproxy/graphs/contributors
+    description: HAProxy Load Balancer's development branch (mirror of git.haproxy.org)
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#555555'
+      name: C
+      value: 9894324
+    - color: '#89e051'
+      name: Shell
+      value: 59800
+    - color: '#427819'
+      name: Makefile
+      value: 54593
+    - color: '#3572A5'
+      name: Python
+      value: 20148
+    - color: '#000080'
+      name: Lua
+      value: 14494
+    - color: '#199f4b'
+      name: Vim script
+      value: 7696
+    - color: '#0298c3'
+      name: Perl
+      value: 5554
+    - name: SmPL
+      value: 5223
+    - color: '#e34c26'
+      name: HTML
+      value: 44
+    latest_commit_date: '2022-08-05T14:12:00Z'
+    latest_commit_link: /haproxy/haproxy/commit/f9d4a7dad385d66edfab99c307bb1d493c3eff04
+    license: Other
+    stars: 2989
+  github_start_commit_data:
+    start_commit_link: /haproxy/haproxy/commit/0f7af9126525b01b82ad3f1b1cde8843de93a89d
+    start_date: '2005-12-17T11:21:26Z'
+  homepage_url: https://www.haproxy.com/
+  image_data:
+    fileName: ha-proxy.svg
+    hash: Lr6Ak+r5LAbsmWTEYxgdfDUosjjBIBfCGn6tophcLL8=
+  item: null
+  logo: haproxy.svg
+  name: HAProxy
+  repo_url: https://github.com/haproxy/haproxy
+  repos:
+  - stars: 2989
+    url: https://github.com/haproxy/haproxy
+  twitter_data:
+    latest_tweet_date: 2022-08-05 15:25:38+00:00

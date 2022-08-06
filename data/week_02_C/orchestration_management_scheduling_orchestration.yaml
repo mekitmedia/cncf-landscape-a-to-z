@@ -1,0 +1,312 @@
+- best_practice_data:
+    badge: 5601
+    percentage: 19
+  crunchbase: https://www.crunchbase.com/organization/clastix
+  crunchbase_data:
+    acquisitions: []
+    city: Milan
+    company_type: ''
+    country: Italy
+    description: Kubernetes multi-tenancy made easy
+    homepage: https://clastix.io/
+    industries: []
+    linkedin: https://www.linkedin.com/company/clastix
+    name: Clastix
+    num_employees_max: null
+    num_employees_min: null
+    parents: []
+    region: Lombardia
+    stockExchange: null
+    twitter: null
+  github_data:
+    contributions: 23;21;4;2;0;12;9;7;6;1;1;12;8;0;0;0;0;0;5;2;7;0;5;1;3;0;0;2;4;2;1;2;1;4;2;8;0;1;11;5;5;4;9;8;2;3;0;0;4;13;3;5
+    contributors_count: 37
+    contributors_link: https://github.com/clastix/capsule/graphs/contributors
+    description: Multi-tenancy and policy-based framework for Kubernetes.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 474597
+    - color: '#89e051'
+      name: Shell
+      value: 11876
+    - color: '#427819'
+      name: Makefile
+      value: 8656
+    - name: Smarty
+      value: 3760
+    - color: '#384d54'
+      name: Dockerfile
+      value: 1158
+    latest_commit_date: '2022-08-05T09:48:31Z'
+    latest_commit_link: /clastix/capsule/commit/3435f5464bcc6be2ee547ac2f7c89ddd7d8e9193
+    license: Apache License 2.0
+    release_date: '2022-07-26T18:49:10Z'
+    release_link: https://github.com/clastix/capsule/releases
+    stars: 859
+  github_start_commit_data:
+    start_commit_link: /clastix/capsule/commit/812b16fcffc5e10d4bf501b0d781a39bc1fd469a
+    start_date: '2020-06-29T20:27:53Z'
+  homepage_url: https://capsule.clastix.io
+  image_data:
+    fileName: capsule.svg
+    hash: rL7pOJPyF57lHtQUsoQoTNn1Zjr6LlkIBD3BMLCUYeY=
+  item: null
+  logo: capsule.svg
+  name: Capsule
+  repo_url: https://github.com/clastix/capsule
+  repos:
+  - stars: 859
+    url: https://github.com/clastix/capsule
+  twitter: https://twitter.com/clastixio
+  twitter_data:
+    latest_tweet_date: 2022-08-03 07:04:30+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/tencent-cloud
+  crunchbase_data:
+    acquisitions: []
+    city: Shenzhen
+    company_type: For Profit
+    country: China
+    description: Tencent Cloud is one of the leading cloud providers in the world
+      with a focus on helping global enterprises succeed in China.
+    funding: 12576770000
+    homepage: https://intl.cloud.tencent.com
+    industries:
+    - Cloud Computing
+    - Cloud Data Services
+    - Cloud Infrastructure
+    - Cloud Security
+    - Cloud Storage
+    - Content Delivery Network
+    - Enterprise
+    - IaaS
+    - Information Technology
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/tencent-cloud
+    name: Tencent Cloud
+    num_employees_max: 10000
+    num_employees_min: 5001
+    parents:
+    - https://www.crunchbase.com/organization/tencent
+    region: Guangdong
+    stockExchange: null
+    ticker: 0700.HK
+    twitter: https://twitter.com/tencentcloud
+  github_data:
+    contributions: 18;18;8;12;15;4;3;8;1;13;2;5;3;5;7;1;4;5;15;15;2;4;5;1;1;0;0;1;8;10;2;3;8;1;14;15;2;5;2;9;5;6;6;4;8;8;10;9;11;3;5;4
+    contributors_count: 24
+    contributors_link: https://github.com/clusternet/clusternet/graphs/contributors
+    description: "Managing your Kubernetes clusters (including public, private, edge,\
+      \ etc) as easily as visiting the Internet \u2388"
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 1349912
+    - color: '#89e051'
+      name: Shell
+      value: 20977
+    - color: '#427819'
+      name: Makefile
+      value: 3760
+    - color: '#384d54'
+      name: Dockerfile
+      value: 772
+    latest_commit_date: '2022-08-05T04:55:17Z'
+    latest_commit_link: /clusternet/clusternet/commit/6cc0e19b249dd626eac452f0e0f43fa1350f1c19
+    license: Apache License 2.0
+    release_date: '2022-07-14T07:32:05Z'
+    release_link: https://github.com/clusternet/clusternet/releases
+    stars: 933
+  github_start_commit_data:
+    start_commit_link: /clusternet/clusternet/commit/4485e3d263aa41e48a50650400b0f4270243cea9
+    start_date: '2021-03-18T12:42:18Z'
+  homepage_url: https://clusternet.io
+  image_data:
+    fileName: clusternet.svg
+    hash: 41top+jDgyIfknXTnw8iF46pl8Q7u+mCK9C1YDxZvxQ=
+  item: null
+  logo: clusternet.svg
+  name: Clusternet
+  repo_url: https://github.com/clusternet/clusternet
+  repos:
+  - stars: 933
+    url: https://github.com/clusternet/clusternet
+  twitter_data:
+    latest_tweet_date: 2022-08-05 02:56:11+00:00
+  yahoo_finance_data:
+    effective_ticker: 0700.HK
+    market_cap: 376891200216
+- best_practice_data:
+    badge: 5539
+    percentage: 100
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  description: Clusterpedia is used for complex resources search across multiple clusters,
+    support simultaneous search of a single kind of resource  or multiple kinds of
+    resources existing in multiple clusters.
+  extra:
+    accepted: 2022-6-14
+    dev_stats_url: https://clusterpedia.devstats.cncf.io/
+    slack_url: https://cloud-native.slack.com/messages/clusterpedia
+  github_data:
+    contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;17;16;14;13;8;8;3;2;22;0;20;15;7;1;13;5;3;4;14;18;6;16;13;9;5;16;16;24;23;11;8;3;14;17;5;7
+    contributors_count: 23
+    contributors_link: https://github.com/clusterpedia-io/clusterpedia/graphs/contributors
+    description: The Encyclopedia of Kubernetes clusters
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 487531
+    - color: '#89e051'
+      name: Shell
+      value: 22871
+    - name: Smarty
+      value: 12705
+    - color: '#427819'
+      name: Makefile
+      value: 6931
+    - color: '#384d54'
+      name: Dockerfile
+      value: 91
+    latest_commit_date: '2022-08-05T10:02:42Z'
+    latest_commit_link: /clusterpedia-io/clusterpedia/commit/40399da55d3a09917bf71c592ba7ffd0e62b3a4e
+    license: Apache License 2.0
+    release_date: '2022-08-04T05:41:19Z'
+    release_link: https://github.com/clusterpedia-io/clusterpedia/releases
+    stars: 421
+  github_start_commit_data:
+    start_commit_link: /clusterpedia-io/clusterpedia/commit/6355b73d5698a1368d01a2231d0824c799197708
+    start_date: '2021-12-01T12:49:12Z'
+  homepage_url: https://clusterpedia.io
+  image_data:
+    fileName: clusterpedia.svg
+    hash: zn5TN3nk8CJrV8syCkKeiGNOAsiRoMC2LxlvgsiFh1M=
+  item: null
+  logo: clusterpedia.svg
+  name: Clusterpedia
+  project: sandbox
+  repo_url: https://github.com/clusterpedia-io/clusterpedia
+  repos:
+  - stars: 421
+    url: https://github.com/clusterpedia-io/clusterpedia
+  twitter_data:
+    latest_tweet_date: 2022-08-05 21:09:37+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  extra:
+    accepted: '2020-06-23'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#crossplane
+    dev_stats_url: https://crossplane.devstats.cncf.io/
+    youtube_url: https://www.youtube.com/channel/UC19FgzMBMqBro361HbE46Fw
+  github_data:
+    contributions: 18;35;16;24;17;21;14;2;3;10;30;21;5;3;8;13;23;7;22;3;5;46;8;8;3;2;3;6;12;38;27;26;14;3;3;7;13;14;3;1;5;7;0;8;5;0;11;7;20;7;3;4
+    contributors_count: 113
+    contributors_link: https://github.com/crossplane/crossplane/graphs/contributors
+    description: Cloud Native Control Planes
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 1290505
+    - color: '#89e051'
+      name: Shell
+      value: 11492
+    - color: '#427819'
+      name: Makefile
+      value: 9041
+    - name: Mustache
+      value: 995
+    - color: '#384d54'
+      name: Dockerfile
+      value: 303
+    latest_commit_date: '2022-08-04T12:20:24Z'
+    latest_commit_link: /crossplane/crossplane/commit/366b5436ab53f03ec55d9ece24f3fb969cff3055
+    license: Apache License 2.0
+    release_date: '2022-07-15T04:52:17Z'
+    release_link: https://github.com/crossplane/crossplane/releases
+    stars: 5580
+  github_start_commit_data:
+    start_commit_link: /crossplaneio/crossplane/commit/f92ce44ae94720923f67a10eaeb152c61429c3a1
+    start_date: '2018-09-08T05:22:33Z'
+  homepage_url: https://crossplane.io/
+  image_data:
+    fileName: crossplane.svg
+    hash: xDhVKT0RTcrXdGHn5a8gzyYCPjZWGfXUq7VJQrUf/Io=
+  item: null
+  logo: crossplane.svg
+  name: Crossplane
+  project: incubating
+  repo_url: https://github.com/crossplane/crossplane
+  repos:
+  - stars: 5580
+    url: https://github.com/crossplane/crossplane
+  twitter: https://twitter.com/crossplane_io
+  twitter_data:
+    latest_tweet_date: 2022-08-05 01:44:49+00:00

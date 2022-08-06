@@ -1,0 +1,186 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/yellowbrick-data
+  crunchbase_data:
+    acquisitions: []
+    city: Palo Alto
+    company_type: For Profit
+    country: United States
+    description: Yellowbrick Data empowers companies to make faster decisions with
+      all of their data.
+    funding: 248000000
+    homepage: https://yellowbrick.com/
+    industries:
+    - Analytics
+    - Cloud Data Services
+    - Database
+    - Information Technology
+    kind: funding
+    linkedin: https://www.linkedin.com/company/yellowbrickdata/
+    name: Yellowbrick Data
+    num_employees_max: 250
+    num_employees_min: 101
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/yellowbrickdata
+  description: Yellowbrick offers a SQL data warehouse built from the ground up on
+    Kubernetes.
+  homepage_url: https://www.yellowbrick.com/
+  image_data:
+    fileName: yellowbrick.svg
+    hash: cZGX4J/yHHyp0+ZBrqyZIaZBBhOcQxrY+ykZfWLCJiM=
+  item: null
+  logo: yellowbrick.svg
+  name: Yellowbrick
+  twitter_data:
+    latest_tweet_date: 2022-08-04 17:00:34+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/yugabyte
+  crunchbase_data:
+    acquisitions: []
+    city: Sunnyvale
+    company_type: For Profit
+    country: United States
+    description: Yugabyte is an open-source distributed SQL database for customers
+      in industries such as cybersecurity, financial markets, and IoT.
+    funding: 291000000
+    homepage: https://www.yugabyte.com
+    industries:
+    - Cloud Infrastructure
+    - Database
+    - Enterprise Software
+    - Open Source
+    kind: funding
+    linkedin: https://www.linkedin.com/company/yugabyte
+    name: Yugabyte
+    num_employees_max: 500
+    num_employees_min: 251
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: https://www.twitter.com/yugabyte
+  github_data:
+    contributions: 49;57;54;72;54;58;84;60;51;43;79;71;58;71;70;53;51;71;59;55;19;30;73;76;78;71;76;75;66;63;82;74;67;62;75;66;47;71;43;73;88;84;82;84;76;75;65;84;82;67;66;54
+    contributors_count: 365
+    contributors_link: https://github.com/YugaByte/yugabyte-db/graphs/contributors
+    description: The high-performance distributed SQL database for global, internet-scale
+      apps.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#555555'
+      name: C
+      value: 38861732
+    - color: '#f34b7d'
+      name: C++
+      value: 30053918
+    - color: '#b07219'
+      name: Java
+      value: 13472437
+    - name: PLpgSQL
+      value: 3865003
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 1888752
+    - color: '#3572A5'
+      name: Python
+      value: 1818276
+    - color: '#2b7489'
+      name: TypeScript
+      value: 1782639
+    - color: '#0298c3'
+      name: Perl
+      value: 918270
+    - color: '#4B6C4B'
+      name: Yacc
+      value: 916891
+    - color: '#89e051'
+      name: Shell
+      value: 745121
+    - color: '#00ADD8'
+      name: Go
+      value: 339345
+    - color: '#427819'
+      name: Makefile
+      value: 337897
+    - color: '#701516'
+      name: Ruby
+      value: 282312
+    - name: SCSS
+      value: 274371
+    - name: CMake
+      value: 272148
+    - color: '#DBCA00'
+      name: Lex
+      value: 247402
+    - name: M4
+      value: 107409
+    - color: '#DA5B0B'
+      name: Jupyter Notebook
+      value: 69205
+    - color: '#c22d40'
+      name: Scala
+      value: 62367
+    - color: '#EB8CEB'
+      name: XSLT
+      value: 60459
+    - color: '#e34c26'
+      name: HTML
+      value: 40413
+    - color: '#ecdebe'
+      name: Roff
+      value: 30385
+    - color: '#563d7c'
+      name: CSS
+      value: 10230
+    - color: '#C1F12E'
+      name: Batchfile
+      value: 10214
+    - name: XS
+      value: 7097
+    - name: Jinja
+      value: 6895
+    - color: '#4F5D95'
+      name: PHP
+      value: 5378
+    - color: '#c065db'
+      name: Emacs Lisp
+      value: 4164
+    - name: DTrace
+      value: 3440
+    - color: '#6E4C13'
+      name: Assembly
+      value: 3265
+    - name: Mustache
+      value: 2709
+    - color: '#384d54'
+      name: Dockerfile
+      value: 1265
+    - color: '#64b970'
+      name: sed
+      value: 1231
+    latest_commit_date: '2022-08-05T23:52:38Z'
+    latest_commit_link: /yugabyte/yugabyte-db/commit/ee94edc0aa0db1fa9f433a3d92a10962bd3f7cf3
+    license: Other
+    release_date: '2022-07-22T21:48:32Z'
+    release_link: https://github.com/YugaByte/yugabyte-db/releases
+    stars: 6736
+  github_start_commit_data:
+    start_commit_link: /YugaByte/yugabyte-db/commit/85d14f4bd6fcc502acd94ce7bc654cb802855de6
+    start_date: '2016-02-05T01:02:16Z'
+  homepage_url: https://www.yugabyte.com/yugabytedb/
+  image_data:
+    fileName: yuga-byte-db.svg
+    hash: gNzGUpP2f4NJrjYshFk3zTE95yjz9JfyWdWSs6ylFa4=
+  item: null
+  logo: yugabyte.svg
+  name: YugaByte DB
+  repo_url: https://github.com/YugaByte/yugabyte-db
+  repos:
+  - stars: 6736
+    url: https://github.com/YugaByte/yugabyte-db
+  twitter_data:
+    latest_tweet_date: 2022-08-05 22:40:29+00:00

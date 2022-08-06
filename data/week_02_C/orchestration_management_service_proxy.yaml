@@ -1,0 +1,329 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/caddy-2315
+  crunchbase_data:
+    acquisitions: []
+    city: Vienna
+    company_type: For Profit
+    country: Austria
+    description: Marketing & sales for self-employed badasses.
+    homepage: https://caddyserver.com
+    industries:
+    - Advertising
+    - Cloud Security
+    - Network Security
+    - Open Source
+    linkedin: https://www.linkedin.com/company/zerossl/
+    name: Caddy
+    num_employees_max: null
+    num_employees_min: null
+    parents: []
+    region: Wien
+    stockExchange: null
+    twitter: https://www.twitter.com/caddyserver
+  description: Caddy is a powerful, enterprise-ready, open source web server with
+    automatic HTTPS written in Go
+  github_data:
+    contributions: 3;10;7;6;0;8;3;6;0;4;7;3;1;3;3;8;8;4;7;0;1;8;5;10;6;3;2;3;6;17;12;5;11;1;3;10;3;10;6;4;1;5;6;3;5;5;2;6;5;2;15;9
+    contributors_count: 147
+    contributors_link: https://github.com/caddyserver/caddy/graphs/contributors
+    description: Fast, multi-platform web server with automatic HTTPS
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 1673786
+    - color: '#e34c26'
+      name: HTML
+      value: 17622
+    - color: '#89e051'
+      name: Shell
+      value: 103
+    latest_commit_date: '2022-08-04T17:17:35Z'
+    latest_commit_link: /caddyserver/caddy/commit/2642bd72b7ca35b8622824fdffced2aefe1aaf11
+    license: Apache License 2.0
+    release_date: '2022-07-12T19:06:28Z'
+    release_link: https://github.com/caddyserver/caddy/releases
+    stars: 42019
+  github_start_commit_data:
+    start_commit_link: /caddyserver/caddy/commit/859b5d7ea3b8f660ac68d9aea5a53d25a9a7422c
+    start_date: '2019-03-26T18:00:54Z'
+  homepage_url: https://caddyserver.com/
+  image_data:
+    fileName: caddy.svg
+    hash: cZWC1rfGJP+ez2AZ6/KvBv6DwLOb5V+etEsaAY50fEI=
+  item: null
+  logo: caddy.svg
+  name: Caddy
+  repo_url: https://github.com/caddyserver/caddy
+  repos:
+  - stars: 42019
+    url: https://github.com/caddyserver/caddy
+  twitter_data:
+    latest_tweet_date: 2022-08-04 16:46:48+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/citrix-systems
+  crunchbase_data:
+    acquisitions:
+    - acquiree: DataPac Australasia Pty Limited
+      date: '1997-09-09'
+      price: 5000000
+    - acquiree: Insignia Solutions
+      date: '1998-02-06'
+      price: 17500000
+    - acquiree: APM
+      date: '1998-06-12'
+      price: 40000000
+    - acquiree: VDOnet Corp.
+      date: '1998-07-01'
+      price: 8000000
+    - acquiree: Innovex Group
+      date: '2000-02-17'
+      price: 47800000
+    - acquiree: Sequoia Software
+      date: '2001-03-21'
+      price: 184600000
+    - acquiree: Viewsoft Inc
+      date: '2002-01-02'
+      price: 32000000
+    - acquiree: Expertcity
+      date: '2003-12-18'
+      price: 225000000
+    - acquiree: Net6
+      date: '2004-11-23'
+      price: 50000000
+    - acquiree: NetScaler
+      date: '2005-08-16'
+    - acquiree: Teros
+      date: '2005-11-15'
+    - acquiree: Reflectent Software
+      date: '2006-05-08'
+      price: 68000000
+    - acquiree: '1956'
+      date: '2006-08-21'
+      price: 50000000
+    - acquiree: Ardence Inc
+      date: '2007-01-01'
+    - acquiree: Ardence Inc
+      date: '2007-01-08'
+      price: 51700000
+    - acquiree: Aurema
+      date: '2007-02-15'
+    - acquiree: ThinGenius
+      date: '2007-03-14'
+    - acquiree: Caymas Systems
+      date: '2007-06-11'
+    - acquiree: XenSource
+      date: '2007-08-15'
+      price: 500000000
+    - acquiree: QuickTree
+      date: '2007-09-05'
+    - acquiree: sepagoPROFILE
+      date: '2008-05-20'
+    - acquiree: Vapps
+      date: '2008-11-18'
+      price: 26600000
+    - acquiree: Alejandro salinas chamorro
+      date: '2010-02-23'
+    - acquiree: VMLogix
+      date: '2010-08-31'
+      price: 13200000
+    - acquiree: Netviewer
+      date: '2010-12-17'
+      price: 107500000
+    - acquiree: EMS-Cortex
+      date: '2011-02-22'
+    - acquiree: Kaviza
+      date: '2011-05-23'
+    - acquiree: Cloud.com
+      date: '2011-07-12'
+      price: 158800000
+    - acquiree: RingCube Technologies
+      date: '2011-08-10'
+      price: 32200000
+    - acquiree: ShareFile
+      date: '2011-10-13'
+      price: 54500000
+    - acquiree: App-DNA
+      date: '2011-10-26'
+      price: 91300000
+    - acquiree: Podio
+      date: '2012-04-20'
+      price: 53000000
+    - acquiree: Virtual Computer
+      date: '2012-05-09'
+    - acquiree: Bytemobile
+      date: '2012-06-13'
+      price: 399500000
+    - acquiree: Beetil Service Management Software
+      date: '2012-09-10'
+    - acquiree: Zenprise
+      date: '2012-12-06'
+      price: 355000000
+    - acquiree: Byte Squared
+      date: '2013-09-03'
+    - acquiree: Skytide
+      date: '2013-12-11'
+    - acquiree: Framehawk
+      date: '2014-01-08'
+      price: 24200000
+    - acquiree: ScaleXtreme
+      date: '2014-08-31'
+    - acquiree: Virtual
+      date: '2014-09-16'
+    - acquiree: RightSignature
+      date: '2014-10-20'
+    - acquiree: Solid Instance
+      date: '2014-11-10'
+    - acquiree: Octoblu
+      date: '2014-12-01'
+    - acquiree: Sanbolic
+      date: '2015-01-12'
+      price: 89400000
+    - acquiree: Grasshopper
+      date: '2015-04-08'
+      price: 161500000
+    - acquiree: Norskale
+      date: '2016-09-08'
+    - acquiree: Unidesk
+      date: '2017-01-09'
+    - acquiree: Cedexis
+      date: '2018-02-12'
+    - acquiree: Sapho
+      date: '2018-11-16'
+      price: 200000000
+    - acquiree: Wrike
+      date: '2021-01-19'
+      price: 2250000000
+    city: Fort Lauderdale
+    company_type: For Profit
+    country: United States
+    description: Citrix offers a unified platform to secure, manage, and monitor diverse
+      technologies in complex cloud environments.
+    funding: 20000000
+    homepage: https://www.citrix.com/
+    industries:
+    - Enterprise Software
+    - SaaS
+    - Software
+    - Virtualization
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/citrix
+    name: Citrix Systems
+    num_employees_max: 10000
+    num_employees_min: 5001
+    parents: []
+    region: Florida
+    stockExchange: nasdaq
+    ticker: CTXS
+    twitter: https://twitter.com/citrix
+  description: Citrix ADC is an application delivery and load balancing solution that
+    provides a high-quality user experience for your web, traditional, and cloud-native
+    applications regardless of where they are hosted.
+  homepage_url: https://www.citrix.com/products/citrix-adc/
+  image_data:
+    fileName: citrix-adc-formerly-net-scaler-adc.svg
+    hash: tWFFy+s7g9aFoZojPCanepPs0gGcpQN+SLx0OIvm128=
+  item: null
+  logo: citrix.svg
+  name: Citrix ADC (formerly NetScaler ADC)
+  twitter: https://twitter.com/CitrixADC
+  twitter_data:
+    latest_tweet_date: 2021-05-31 19:24:30+00:00
+  yahoo_finance_data:
+    effective_ticker: CTXS
+    market_cap: 13005712384
+- best_practice_data:
+    badge: 4141
+    percentage: 100
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  extra:
+    accepted: '2020-07-07'
+    dev_stats_url: https://contour.devstats.cncf.io/
+    slack_url: https://kubernetes.slack.com/messages/contour
+  github_data:
+    contributions: 7;2;13;9;9;7;10;8;10;14;5;5;11;13;6;2;7;12;7;1;0;12;3;7;12;6;11;2;9;6;5;5;6;12;6;12;13;4;4;6;10;6;3;5;7;6;6;2;6;9;7;8
+    contributors_count: 175
+    contributors_link: https://github.com/projectcontour/contour/graphs/contributors
+    description: Contour is a Kubernetes ingress controller using Envoy proxy.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 3836367
+    - color: '#e34c26'
+      name: HTML
+      value: 3645981
+    - color: '#89e051'
+      name: Shell
+      value: 46670
+    - name: SCSS
+      value: 32831
+    - color: '#427819'
+      name: Makefile
+      value: 13987
+    - name: Smarty
+      value: 3855
+    - color: '#384d54'
+      name: Dockerfile
+      value: 859
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 566
+    latest_commit_date: '2022-08-04T22:42:11Z'
+    latest_commit_link: /projectcontour/contour/commit/dafd2aa15cbe1f820e3545c13c4ca0fba4c431e8
+    license: Apache License 2.0
+    release_date: '2022-07-27T17:55:56Z'
+    release_link: https://github.com/projectcontour/contour/releases
+    stars: 3193
+  github_start_commit_data:
+    start_commit_link: /projectcontour/contour/commit/788feabc67c4da76cd1ae3c9ac1998b43cb0e2f3
+    start_date: '2017-10-30T21:02:08Z'
+  homepage_url: https://projectcontour.io
+  image_data:
+    fileName: contour.svg
+    hash: I1dhXPEHfF2735ww+MBaa7BKTdkn1tBJ1jPmVkKRy5c=
+  item: null
+  logo: project-contour.svg
+  name: Contour
+  project: incubating
+  repo_url: https://github.com/projectcontour/contour
+  repos:
+  - stars: 3193
+    url: https://github.com/projectcontour/contour
+  twitter: https://twitter.com/projectcontour
+  twitter_data:
+    latest_tweet_date: 2022-05-25 19:22:26+00:00

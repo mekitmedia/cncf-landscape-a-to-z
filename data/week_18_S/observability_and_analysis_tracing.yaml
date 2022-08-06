@@ -1,0 +1,366 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/apache
+  crunchbase_data:
+    acquisitions: []
+    city: Forest Hill
+    company_type: Non Profit
+    country: United States
+    description: Apache Software Foundation provides organizational, legal and financial
+      support for Apache open-source software projects.
+    homepage: http://www.apache.org
+    industries:
+    - Non Profit
+    - Software
+    linkedin: https://www.linkedin.com/company/the-apache-software-foundation
+    name: The Apache Software Foundation
+    num_employees_max: 10
+    num_employees_min: 1
+    parents: []
+    region: Maryland
+    stockExchange: null
+    twitter: http://twitter.com/TheASF
+  github_data:
+    contributions: 13;11;24;15;15;14;15;16;2;21;13;15;7;7;7;12;13;4;3;9;1;5;7;6;9;5;7;7;8;8;13;11;15;22;23;13;10;9;13;23;14;17;6;12;10;5;5;5;8;5;10;4
+    contributors_count: 433
+    contributors_link: https://github.com/apache/skywalking/graphs/contributors
+    description: APM, Application Performance Monitoring System
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#b07219'
+      name: Java
+      value: 5793543
+    - color: '#89e051'
+      name: Shell
+      value: 34684
+    - color: '#3572A5'
+      name: Python
+      value: 11241
+    - color: '#0050b2'
+      name: FreeMarker
+      value: 10653
+    - color: '#9DC3FF'
+      name: ANTLR
+      value: 9873
+    - color: '#C1F12E'
+      name: Batchfile
+      value: 6454
+    - color: '#427819'
+      name: Makefile
+      value: 6044
+    - color: '#384d54'
+      name: Dockerfile
+      value: 4861
+    - color: '#00ADD8'
+      name: Go
+      value: 3209
+    - color: '#2b7489'
+      name: TypeScript
+      value: 2515
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 1367
+    - color: '#000080'
+      name: Lua
+      value: 1129
+    - color: '#4F5D95'
+      name: PHP
+      value: 1052
+    latest_commit_date: '2022-08-05T02:40:33Z'
+    latest_commit_link: /apache/skywalking/commit/4bd4231b6067ddfe70079754c84d9b121982b2bf
+    license: Apache License 2.0
+    release_date: '2022-06-10T03:01:22Z'
+    release_link: https://github.com/apache/skywalking/releases
+    stars: 19899
+  github_start_commit_data:
+    start_commit_link: /apache/skywalking/commit/78befc0eb756f166a838337f0eacc699155ff602
+    start_date: '2015-11-07T03:30:37Z'
+  homepage_url: https://skywalking.apache.org/
+  image_data:
+    fileName: sky-walking.svg
+    hash: m7UU0Y79hTO/i6osVJ8AJD4sbKr1ig3i5Ylbm8Hv+sQ=
+  item: null
+  logo: sky-walking.svg
+  name: SkyWalking
+  repo_url: https://github.com/apache/skywalking
+  repos:
+  - stars: 19899
+    url: https://github.com/apache/skywalking
+  twitter: https://twitter.com/AsfSkyWalking
+  twitter_data:
+    latest_tweet_date: 2022-08-04 05:59:56+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/ant-financial
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Mayijijin
+      date: '2015-04-24'
+      price: 32215911
+    - acquiree: EyeVerify
+      date: '2016-09-13'
+    - acquiree: helloPay
+      date: '2017-04-19'
+    - acquiree: riskstorm
+      date: '2018-04-25'
+      price: 7902723
+    - acquiree: WorldFirst
+      date: '2019-02-14'
+      price: 700000000
+    - acquiree: 2C2P
+      date: '2022-04-18'
+    city: Hangzhou
+    company_type: For Profit
+    country: China
+    description: Ant Group strives to enable all consumers and small businesses to
+      have equal access to financial and other services through technology.
+    funding: 22000000000
+    homepage: https://www.antgroup.com
+    industries:
+    - Banking
+    - FinTech
+    - Financial Services
+    - Payments
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/antgroup
+    name: Ant Group
+    num_employees_max: 10000
+    num_employees_min: 5001
+    parents:
+    - https://www.crunchbase.com/organization/alibaba
+    region: Zhejiang
+    stockExchange: null
+    ticker: 9988.HK
+    twitter: https://twitter.com/antgroup
+  github_data:
+    contributions: 0;0;0;0;0;0;0;1;0;0;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+    contributors_count: 19
+    contributors_link: https://github.com/sofastack/sofa-tracer/graphs/contributors
+    description: SOFATracer is a component for the distributed system call trace.
+      And through a unified traceId logging the logs of various network calls in the
+      invoking link. These logs can be used for quick discovery of faults, service
+      governance, etc.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#b07219'
+      name: Java
+      value: 2457364
+    - color: '#89e051'
+      name: Shell
+      value: 289
+    latest_commit_date: '2021-10-18T11:31:50Z'
+    latest_commit_link: /sofastack/sofa-tracer/commit/93d69426956a166cdf3eb1f411feda02d50d1e1c
+    license: Apache License 2.0
+    release_date: '2021-04-15T14:43:46Z'
+    release_link: https://github.com/sofastack/sofa-tracer/releases
+    stars: 997
+  github_start_commit_data:
+    start_commit_link: /sofastack/sofa-tracer/commit/80449a68747888f75eae0c9a00caf96f793a6eab
+    start_date: '2018-05-15T16:23:57Z'
+  homepage_url: https://www.sofastack.tech/en/
+  image_data:
+    fileName: sofa-tracer.svg
+    hash: wkR6pLI1LCpQbarJVFdX6LlRaBRYDs6GqygQ/9Rypx4=
+  item: null
+  logo: sofastack-sofa-tracer.svg
+  name: SOFATracer
+  repo_url: https://github.com/sofastack/sofa-tracer
+  repos:
+  - stars: 997
+    url: https://github.com/sofastack/sofa-tracer
+  twitter: https://twitter.com/sofastack_io
+  twitter_data:
+    latest_tweet_date: 2020-11-03 07:14:40+00:00
+  yahoo_finance_data:
+    effective_ticker: 9988.HK
+    market_cap: 250716029031
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/vmware
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Emic Networks
+      date: '2003-12-16'
+    - acquiree: Akimbi Systems
+      date: '2006-06-18'
+    - acquiree: Determina
+      date: '2007-08-06'
+    - acquiree: Dunes Technologies
+      date: '2007-09-11'
+    - acquiree: Thinstall inc
+      date: '2008-01-15'
+    - acquiree: B-hive Networks
+      date: '2008-05-28'
+    - acquiree: Blue Lane Technologies
+      date: '2008-11-30'
+    - acquiree: Spring
+      date: '2009-08-10'
+      price: 362000000
+    - acquiree: Integrien
+      date: '2010-08-31'
+    - acquiree: TriCipher
+      date: '2010-08-31'
+      price: 100000000
+    - acquiree: WaveMaker
+      date: '2011-03-08'
+    - acquiree: SlideRocket
+      date: '2011-04-26'
+    - acquiree: Shavlik Technologies
+      date: '2011-05-16'
+    - acquiree: Socialcast
+      date: '2011-05-31'
+    - acquiree: Digital Fuel
+      date: '2011-06-13'
+    - acquiree: Packetmotion
+      date: '2011-08-01'
+    - acquiree: Wanova
+      date: '2012-05-22'
+    - acquiree: DynamicOps
+      date: '2012-07-02'
+    - acquiree: Nicira Networks
+      date: '2012-07-23'
+      price: 1260000000
+    - acquiree: Virsto Software
+      date: '2013-02-11'
+    - acquiree: Desktone
+      date: '2013-10-15'
+    - acquiree: AirWatch
+      date: '2014-01-22'
+      price: 1540000000
+    - acquiree: CloudVolumes
+      date: '2014-08-20'
+    - acquiree: Immidio
+      date: '2015-02-03'
+    - acquiree: Boxer
+      date: '2015-10-14'
+    - acquiree: Arkin
+      date: '2016-06-13'
+    - acquiree: PLUMgrid
+      date: '2016-12-20'
+    - acquiree: Wavefront
+      date: '2017-04-12'
+      price: 375000000
+    - acquiree: Apteligent
+      date: '2017-05-15'
+      price: 50000000
+    - acquiree: VeloCloud
+      date: '2017-11-02'
+    - acquiree: CloudCoreo
+      date: '2018-02-14'
+    - acquiree: CloudVelox
+      date: '2018-02-22'
+    - acquiree: E8 Security
+      date: '2018-03-28'
+    - acquiree: Bracket Computing
+      date: '2018-05-01'
+    - acquiree: CloudHealth Technologies
+      date: '2018-08-27'
+    - acquiree: Heptio
+      date: '2018-11-06'
+      price: 550000000
+    - acquiree: AetherPal
+      date: '2019-02-05'
+    - acquiree: Bitnami
+      date: '2019-05-15'
+    - acquiree: Avi Networks
+      date: '2019-06-14'
+    - acquiree: Bitfusion.io
+      date: '2019-07-18'
+    - acquiree: Uhana
+      date: '2019-07-25'
+    - acquiree: Veriflow
+      date: '2019-08-16'
+    - acquiree: Intrinsic
+      date: '2019-08-20'
+    - acquiree: Pivotal
+      date: '2019-08-22'
+      price: 2700000000
+    - acquiree: Carbon Black
+      date: '2019-10-08'
+      price: 2100000000
+    - acquiree: Nyansa
+      date: '2020-01-21'
+    - acquiree: Octarine
+      date: '2020-05-13'
+    - acquiree: Lastline
+      date: '2020-06-04'
+    - acquiree: Datrium
+      date: '2020-07-02'
+    - acquiree: SaltStack
+      date: '2020-09-29'
+    - acquiree: Mesh7
+      date: '2021-03-18'
+    city: Palo Alto
+    company_type: For Profit
+    country: United States
+    description: VMware is a provider of multi-cloud services for all apps, enabling
+      digital innovation with enterprise control.
+    funding: 393500000
+    homepage: https://www.vmware.com
+    industries:
+    - Cloud Infrastructure
+    - Cloud Management
+    - Enterprise Software
+    - Information Technology
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/vmware
+    name: VMware
+    num_employees_max: 1000000
+    num_employees_min: 10001
+    parents:
+    - https://www.crunchbase.com/organization/dell-technologies
+    region: California
+    stockExchange: nyse
+    ticker: VMW
+    twitter: http://twitter.com/VMware
+  github_data:
+    contributions: 5;2;6;2;4;0;4;8;2;3;10;7;11;5;2;9;14;6;10;1;1;7;2;4;2;9;0;4;2;0;1;0;1;1;0;10;5;11;1;2;4;16;4;4;5;0;3;0;3;0;0;0
+    contributors_count: 142
+    contributors_link: https://github.com/spring-cloud/spring-cloud-sleuth/graphs/contributors
+    description: Distributed tracing for spring cloud
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#b07219'
+      name: Java
+      value: 3182757
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 107118
+    - color: '#563d7c'
+      name: CSS
+      value: 37863
+    - color: '#F18E33'
+      name: Kotlin
+      value: 13028
+    - color: '#e34c26'
+      name: HTML
+      value: 3070
+    - color: '#89e051'
+      name: Shell
+      value: 1787
+    latest_commit_date: '2022-07-13T13:13:59Z'
+    latest_commit_link: /spring-cloud/spring-cloud-sleuth/commit/6ce9a43f462b1695ac78867eae652f61778a93cb
+    license: Apache License 2.0
+    stars: 1612
+  github_start_commit_data:
+    start_commit_link: /spring-cloud/spring-cloud-sleuth/commit/f0c8a4e458bac2cfd68d91e3fd7610ab059c2fb9
+    start_date: '2015-03-06T20:51:47Z'
+  homepage_url: https://spring.io/projects/spring-cloud-sleuth
+  image_data:
+    fileName: spring-cloud-sleuth.svg
+    hash: pR84qw5QfF56uWPCERX1Cqfm5r4ACUAcdmXdgkoE46w=
+  item: null
+  logo: spring-cloud-sleuth.svg
+  name: Spring Cloud Sleuth
+  repo_url: https://github.com/spring-cloud/spring-cloud-sleuth
+  repos:
+  - stars: 1612
+    url: https://github.com/spring-cloud/spring-cloud-sleuth
+  twitter_data:
+    latest_tweet_date: 2022-08-05 22:03:53+00:00
+  yahoo_finance_data:
+    effective_ticker: VMW
+    market_cap: 49414426624

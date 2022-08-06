@@ -1,0 +1,103 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/weaveworks
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Magalix
+      date: '2022-01-26'
+    city: London
+    company_type: For Profit
+    country: United Kingdom
+    description: Weaveworks simplifies operating Kubernetes workloads and provides
+      a developer-centric operating model for cloud-native applications.
+    funding: 61649991
+    homepage: https://www.weave.works/
+    industries:
+    - Cloud Computing
+    - Developer Tools
+    - Enterprise Software
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/weaveworks
+    name: Weaveworks
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: England
+    stockExchange: null
+    twitter: http://twitter.com/weaveworks
+  description: Weave GitOps Enterprise enables the management of clusters and applications
+    on scale with GitOps.
+  homepage_url: https://www.weave.works/product/gitops-enterprise/
+  image_data:
+    fileName: weave-git-ops-enterprise.svg
+    hash: lF/KG10LyfP/4ecoAB4kiPlClnbrkubhPlViJx54pOk=
+  item: null
+  logo: weaveworks.svg
+  name: Weave GitOps Enterprise
+  twitter_data:
+    latest_tweet_date: 2022-08-06 00:24:04+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/wise2c-technology-co
+  crunchbase_data:
+    acquisitions: []
+    city: Shenzhen
+    company_type: For Profit
+    country: China
+    description: Kubernetes Certified Service Provider
+    homepage: http://www.wise2c.com/
+    industries:
+    - Information Technology
+    - Internet
+    - Robotics
+    - Software
+    linkedin: null
+    name: Wise2c Technology
+    num_employees_max: null
+    num_employees_min: null
+    parents: []
+    region: Guangdong
+    stockExchange: null
+    twitter: null
+  description: Deploy a Production Ready Kubernetes Cluster with graphical interface.
+  github_data:
+    contributions: 0;0;0;1;0;0;9;4;0;0;0;0;1;0;0;0;0;4;0;0;0;0;0;0;0;1;3;0;4;0;0;0;4;0;0;0;2;0;2;1;0;0;5;0;0;0;3;0;0;0;0;0
+    contributors_count: 7
+    contributors_link: https://github.com/wise2c-devops/breeze/graphs/contributors
+    description: Deploy a Production Ready Kubernetes Cluster with graphical interface
+    firstWeek: 2021-08-08Z
+    languages:
+    - name: Jinja
+      value: 209346
+    - color: '#89e051'
+      name: Shell
+      value: 66544
+    - color: '#3572A5'
+      name: Python
+      value: 6646
+    - color: '#384d54'
+      name: Dockerfile
+      value: 829
+    latest_commit_date: '2022-06-27T07:03:49Z'
+    latest_commit_link: /wise2c-devops/breeze/commit/73f937e79ce969e969ac99495d7e3355aae16ae1
+    license: Apache License 2.0
+    release_date: '2022-06-27T07:23:25Z'
+    release_link: https://github.com/wise2c-devops/breeze/releases
+    stars: 977
+  github_start_commit_data:
+    start_commit_link: /wise2c-devops/breeze/commit/054276f149c15cb87e4212fd7edad754a92252f7
+    start_date: '2018-06-08T19:20:08Z'
+  homepage_url: http://www.wise2c.com
+  image_data:
+    fileName: wise2-c-technology-breeze.svg
+    hash: QMXGFx879+jWiUQQmKfDEhG7jBd7H3b0VjprsNA+rKo=
+  item: null
+  logo: wise2-c-kcsp.svg
+  name: Wise2C Technology Breeze
+  repo_url: https://github.com/wise2c-devops/breeze
+  repos:
+  - stars: 977
+    url: https://github.com/wise2c-devops/breeze

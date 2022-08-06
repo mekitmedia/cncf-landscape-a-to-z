@@ -1,0 +1,286 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/particule
+  crunchbase_data:
+    acquisitions: []
+    city: Paris
+    company_type: For Profit
+    country: France
+    description: We build Cloud Native infrastructure, from an application on your
+      laptop to a scalable infrastructure, define as code
+    homepage: https://particule.io/
+    industries: []
+    linkedin: https://www.linkedin.com/company/particuleio/
+    name: Particule
+    num_employees_max: 10
+    num_employees_min: 1
+    parents: []
+    region: Ile-de-France
+    stockExchange: null
+    twitter: https://twitter.com/particuleio
+  description: Particule's experts help you make the most of Kubernetes - from IaaS
+    to Day 2 operations.
+  homepage_url: https://particule.io/en/kubernetes/
+  image_data:
+    fileName: particule-kcsp.svg
+    hash: fyAFEw7Sp3xVPz+4XEeOSzyr5z4hQJ2in4mpM0iw0EY=
+  item: null
+  logo: particule.svg
+  name: Particule (KCSP)
+  twitter_data:
+    latest_tweet_date: 2022-05-23 08:25:15+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/platform9-systems-inc
+  crunchbase_data:
+    acquisitions: []
+    city: Mountain View
+    company_type: For Profit
+    country: United States
+    description: Platform9 provides Kubernetes-as-a-Service for multi-cloud, on-premises,
+      or at edge.
+    funding: 100000000
+    homepage: https://platform9.com
+    industries:
+    - Cloud Computing
+    - Enterprise Software
+    - IT Infrastructure
+    - SaaS
+    kind: funding
+    linkedin: https://www.linkedin.com/company/platform9-systems
+    name: Platform9
+    num_employees_max: 250
+    num_employees_min: 101
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: http://twitter.com/Platform9Sys
+  description: Platform9 Managed Kubernetes is SaaS-managed, infrastructure-agnostic,
+    and works across public clouds, on-premises servers, and VMware infrastructure.
+  homepage_url: https://platform9.com/managed-kubernetes/
+  image_data:
+    fileName: platform9-kcsp.svg
+    hash: 3oq57PpCz3GeBES7+P0XlRPZcFK0284wRH6FBgVpCt0=
+  item: null
+  logo: platform9-managed-kubernetes.svg
+  name: Platform9 (KCSP)
+  twitter: null
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/polar-squad
+  crunchbase_data:
+    acquisitions: []
+    city: Helsinki
+    company_type: For Profit
+    country: Finland
+    description: Information Technology and Services
+    homepage: https://www.polarsquad.com/
+    industries:
+    - CRM
+    - Information Technology
+    - Software
+    linkedin: https://www.linkedin.com/company/polarsquad/
+    name: Polar Squad
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: Southern Finland
+    stockExchange: null
+    twitter: https://twitter.com/polarsquadhq
+  description: Polar Squad provides on-site consulting with Kubernetes and other cloud
+    and devops-related tasks.
+  homepage_url: https://polarsquad.com/
+  image_data:
+    fileName: polar-squad-kcsp.svg
+    hash: fkM4Q446QuC9aWym5/3vcHf1sRuNKBAQjv+jrNnkvzs=
+  item: null
+  logo: polar-squad.svg
+  name: Polar Squad (KCSP)
+  twitter_data:
+    latest_tweet_date: 2022-06-30 11:02:02+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/portworx
+  crunchbase_data:
+    acquisitions: []
+    city: Los Altos
+    company_type: For Profit
+    country: United States
+    description: "Portworx is a cloud-native storage and data management company offering\
+      \ the industry\u2019s first storage solution purpose-built for containers."
+    funding: 55500000
+    homepage: https://portworx.com/
+    industries:
+    - Cloud Storage
+    - Data Center
+    - Data Storage
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/portworx/
+    name: Portworx
+    num_employees_max: 250
+    num_employees_min: 101
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/portwx
+  description: Portworx is the leader in cloud native storage and data management
+    for Kubernetes, trusted to manage Fortune 2000's mission-critical data.
+  homepage_url: https://portworx.com/
+  image_data:
+    fileName: portworx-kcsp.svg
+    hash: PUwm/ow/lIoJWp9OZBx4hsI/FTFY0uDoP/SXEjuVECY=
+  item: null
+  logo: portworx.svg
+  name: Portworx (KCSP)
+  twitter_data:
+    latest_tweet_date: 2022-08-04 15:05:23+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/prisma-cloud
+  crunchbase_data:
+    acquisitions: []
+    city: Santa Clara
+    company_type: For Profit
+    country: United States
+    description: A complete cloud native application protection platform that secures
+      infrastructure and applications across cloud environments.
+    funding: 65000000
+    homepage: https://www.paloaltonetworks.com/prisma/cloud
+    industries:
+    - Cloud Security
+    - Cyber Security
+    - Security
+    kind: market_cap
+    linkedin: https://www.linkedin.com/products/palo-alto-networks-prisma-cloud/
+    name: Prisma Cloud
+    num_employees_max: 1000
+    num_employees_min: 501
+    parents:
+    - https://www.crunchbase.com/organization/palo-alto-networks
+    region: California
+    stockExchange: null
+    ticker: PANW
+    twitter: https://twitter.com/prisma_cloud
+  homepage_url: https://www.paloaltonetworks.com/prisma/environments/kubernetes
+  image_data:
+    fileName: prisma-cloud-by-palo-alto-networks-kcsp.svg
+    hash: iDmAt4Pm5KEULVn2L2y/0CcyOM2hSUiDS6N9k+JRXkU=
+  item: null
+  logo: prisma-cloud-palo-alto.svg
+  name: Prisma Cloud by Palo Alto Networks (KCSP)
+  twitter_data:
+    latest_tweet_date: 2022-08-05 21:46:51+00:00
+  yahoo_finance_data:
+    effective_ticker: PANW
+    market_cap: 49954201600
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/prodyna
+  crunchbase_data:
+    acquisitions: []
+    city: Eschborn
+    company_type: For Profit
+    country: Germany
+    description: PRODYNA is an innovative IT consultancy specialized on the topic
+      of digital business.
+    homepage: http://www.prodyna.com/
+    industries:
+    - Information Technology
+    linkedin: https://www.linkedin.com/company-beta/274445/
+    name: PRODYNA
+    num_employees_max: 500
+    num_employees_min: 251
+    parents: []
+    region: Hessen
+    stockExchange: null
+    twitter: https://twitter.com/PRODYNASE
+  description: PRODYNA designs, implements, and operates Kubernetes-based custom applications
+    for mid- to large size enterprises in all of Europe.
+  homepage_url: https://www.prodyna.com/en/cloud-native-computing-docker-kubernetes
+  image_data:
+    fileName: prodyna-kcsp.svg
+    hash: 14MsfR1DYmXJ0oVOMITYjLSGzdPkHRhEtm2NSDdanv4=
+  item: null
+  logo: prodyna.svg
+  name: PRODYNA (KCSP)
+  twitter_data:
+    latest_tweet_date: 2022-08-05 11:23:18+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/vsh-software
+  crunchbase_data:
+    acquisitions: []
+    city: Hod Hasharon
+    company_type: For Profit
+    country: Israel
+    description: Israeli boutique DevOps and Cloud company
+    funding: 2000000
+    homepage: http://www.profisea.com/
+    industries:
+    - Cloud Management
+    - Consulting
+    - Information Technology
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/profisea/
+    name: Profisea
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: HaMerkaz
+    stockExchange: null
+    twitter: https://twitter.com/profisea
+  description: Profisea, an Israeli boutique DevOps and Cloud company, has for over
+    six years been providing Kubernetes-based services, including consulting, implementation,
+    migration, automation and support. We provide GitOps-based Setup and configuration
+    of Kubernetes platforms across the cloud. Our engineers are Kubernetes experts
+    and we provide end-to-end management of your Kubernetes operations.
+  homepage_url: https://profisea.com/kubernetes-services/
+  image_data:
+    fileName: profisea-kcsp.svg
+    hash: xTodFXye69r4m32MvTAVoV0sQlv2WkvTAIXf/Jqp5P8=
+  item: null
+  logo: profisea.svg
+  name: Profisea (KCSP)
+  twitter_data:
+    latest_tweet_date: 2022-07-08 11:23:01+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/puzzle
+  crunchbase_data:
+    acquisitions: []
+    city: Bern
+    company_type: For Profit
+    country: Switzerland
+    description: Puzzle is a Red Hat Certified Cloud Provider.
+    homepage: https://www.puzzle.ch/
+    industries:
+    - Information Technology
+    linkedin: https://www.linkedin.com/company/puzzle-itc/
+    name: Puzzle
+    num_employees_max: 100
+    num_employees_min: 51
+    parents: []
+    region: Bern
+    stockExchange: null
+    twitter: https://www.twitter.com/puzzleitc
+  description: As a cloud native specialist we support you through your journey into
+    container and cloud technologies with Kubernetes and OpenShift.
+  homepage_url: https://www.puzzle.ch/de/home
+  image_data:
+    fileName: puzzle-itc-kcsp.svg
+    hash: iwYegEraXqRQa/+i06iOetizSX7bMyYVWXCgH+4vNj8=
+  item: null
+  logo: puzzle.svg
+  name: Puzzle ITC (KCSP)
+  twitter_data:
+    latest_tweet_date: 2022-08-05 05:46:23+00:00

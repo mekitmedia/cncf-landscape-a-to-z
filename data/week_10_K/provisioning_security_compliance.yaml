@@ -1,0 +1,308 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  extra:
+    accepted: '2020-09-22'
+    dev_stats_url: https://keylime.devstats.cncf.io/
+  homepage_url: https://keylime.dev/
+  image_data:
+    fileName: keylime.svg
+    hash: 4+qOT7kEalFl+zjXmD0dbEDppA2+5mjgVrnvbHciRlA=
+  item: null
+  logo: keylime.svg
+  name: Keylime
+  project: sandbox
+  twitter_data:
+    latest_tweet_date: 2022-08-05 21:09:37+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/checkmarx
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Codebashing
+      date: '2017-07-24'
+    - acquiree: Custodela
+      date: '2018-11-07'
+    - acquiree: Dustico
+      date: '2021-08-05'
+    city: Ramat Gan
+    company_type: For Profit
+    country: Israel
+    description: Checkmarx is a global leader in application security.
+    funding: 92000000
+    homepage: http://www.checkmarx.com
+    industries:
+    - Enterprise Software
+    - SaaS
+    - Security
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/checkmarx
+    name: Checkmarx
+    num_employees_max: 1000
+    num_employees_min: 501
+    parents: []
+    region: Tel Aviv
+    stockExchange: null
+    twitter: http://twitter.com/checkmarx
+  description: Find security vulnerabilities, compliance issues, and infrastructure
+    misconfigurations early in the development cycle of your infrastructure-as-code
+    with KICS by Checkmarx.
+  extra:
+    docker_url: https://hub.docker.com/r/checkmarx/kics
+    github_discussions_url: https://github.com/Checkmarx/kics/discussions
+  github_data:
+    contributions: 36;34;39;25;15;37;43;62;15;44;20;23;53;32;14;40;6;4;23;20;10;0;0;59;14;33;13;37;4;27;39;48;26;50;6;63;26;44;31;20;18;33;14;29;12;22;15;11;38;13;9;19
+    contributors_count: 85
+    contributors_link: https://github.com/Checkmarx/kics/graphs/contributors
+    description: Find security vulnerabilities, compliance issues, and infrastructure
+      misconfigurations early in the development cycle of your infrastructure-as-code
+      with KICS by Checkmarx.
+    firstWeek: 2021-08-08Z
+    languages:
+    - name: Open Policy Agent
+      value: 2393631
+    - name: HCL
+      value: 1309699
+    - color: '#00ADD8'
+      name: Go
+      value: 1201320
+    - color: '#e34c26'
+      name: HTML
+      value: 153936
+    - color: '#384d54'
+      name: Dockerfile
+      value: 38613
+    - color: '#89e051'
+      name: Shell
+      value: 9520
+    - color: '#427819'
+      name: Makefile
+      value: 6321
+    - color: '#563d7c'
+      name: CSS
+      value: 4476
+    - color: '#9DC3FF'
+      name: ANTLR
+      value: 1394
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 487
+    latest_commit_date: '2022-08-05T17:16:19Z'
+    latest_commit_link: /Checkmarx/kics/commit/ba057fc67c477d32ddeac103548909826d27b7ea
+    license: Apache License 2.0
+    release_date: '2022-08-03T15:05:24Z'
+    release_link: https://github.com/Checkmarx/kics/releases
+    stars: 1151
+  github_start_commit_data:
+    start_commit_link: /Checkmarx/kics/commit/2a8b9154dbd63fc1d30accc632b69c85e2ca7453
+    start_date: '2020-07-08T21:46:17Z'
+  homepage_url: https://kics.io/
+  image_data:
+    fileName: kics.svg
+    hash: lRgB6j5N3NUKPW2e1qBs/QsgOEjAlNeXvUViT6t7XNc=
+  item: null
+  logo: kics.svg
+  name: KICS
+  repo_url: https://github.com/Checkmarx/kics
+  repos:
+  - stars: 1151
+    url: https://github.com/Checkmarx/kics
+  twitter_data:
+    latest_tweet_date: 2022-08-05 18:00:00+00:00
+- best_practice_data:
+    badge: 5401
+    percentage: 84
+  crunchbase: https://www.crunchbase.com/organization/accuknox
+  crunchbase_data:
+    acquisitions: []
+    city: Cupertino
+    company_type: ''
+    country: United States
+    description: AccuKnox is a provider of zero-trust kubernetes security solutions.
+    funding: 4600000
+    homepage: https://accuknox.com/
+    industries:
+    - Information Technology
+    - Security
+    kind: funding
+    linkedin: https://www.linkedin.com/company/accuknox/
+    name: AccuKnox
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: null
+  description: Runtime protection for Kubernetes & other cloud Workloads. Kubearmor
+    provides a observability and policy enforcement system to restrict any unwanted,
+    malicious behaviour of cloud-native workloads at runtime.
+  extra:
+    accepted: '2021-11-15'
+    blog_url: https://blog.accuknox.com/tag/kubearmor/
+    chat_channel: '#kubearmor-project'
+    dev_stats_url: https://kubearmor.devstats.cncf.io/
+    docker_url: https://hub.docker.com/r/kubearmor/kubearmor
+    github_discussions_url: https://github.com/kubearmor/KubeArmor/discussions
+    slack_url: http://kubearmor.slack.com/
+    youtube_url: https://www.youtube.com/watch?v=NS8XC78wSME
+  github_data:
+    contributions: 52;32;31;40;29;27;16;18;23;13;53;16;25;6;30;7;12;10;17;27;33;6;3;17;16;16;44;11;4;13;18;9;5;3;5;8;6;9;18;7;12;16;3;10;15;14;12;20;11;8;11;13
+    contributors_count: 38
+    contributors_link: https://github.com/kubearmor/kubearmor/graphs/contributors
+    description: Cloud-native Runtime Security Enforcement System
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 544027
+    - color: '#89e051'
+      name: Shell
+      value: 120534
+    - color: '#555555'
+      name: C
+      value: 55703
+    - color: '#427819'
+      name: Makefile
+      value: 23085
+    - color: '#384d54'
+      name: Dockerfile
+      value: 4093
+    latest_commit_date: '2022-08-06T01:39:52Z'
+    latest_commit_link: /kubearmor/KubeArmor/commit/280483afc7b21ac6ffcf010ec3cad6a7247becbb
+    license: Apache License 2.0
+    release_date: '2022-07-07T06:14:50Z'
+    release_link: https://github.com/kubearmor/kubearmor/releases
+    stars: 435
+  github_start_commit_data:
+    start_commit_link: /kubearmor/KubeArmor/commit/2bf70d29868636f083ebe1c84325e96da7343a1f
+    start_date: '2020-11-26T02:01:43Z'
+  homepage_url: https://kubearmor.io/
+  image_data:
+    fileName: kube-armor.svg
+    hash: HCSomfKPPsSBaN9bMSS+2K4F8uJhwOhfcvvNEuKq+PQ=
+  item: null
+  logo: kubearmor.svg
+  name: KubeArmor
+  project: sandbox
+  repo_url: https://github.com/kubearmor/kubearmor
+  repos:
+  - stars: 435
+    url: https://github.com/kubearmor/kubearmor
+- best_practice_data:
+    badge: 5327
+    percentage: 100
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  extra:
+    accepted: '2020-11-10'
+    chat_channel: '#kyverno'
+    dev_stats_url: https://kyverno.devstats.cncf.io/
+    incubating: '2022-07-12'
+    slack_url: https://kubernetes.slack.com/
+  github_data:
+    contributions: 18;6;7;42;24;13;21;30;72;39;12;43;13;12;9;5;5;8;8;10;5;20;12;33;21;17;6;18;21;12;22;30;25;24;23;19;16;49;51;57;38;24;15;9;6;5;11;5;8;10;9;7
+    contributors_count: 144
+    contributors_link: https://github.com/kyverno/kyverno/graphs/contributors
+    description: Kubernetes Native Policy Management
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 8163316
+    - color: '#89e051'
+      name: Shell
+      value: 22503
+    - color: '#427819'
+      name: Makefile
+      value: 21488
+    - name: Mustache
+      value: 8095
+    - color: '#384d54'
+      name: Dockerfile
+      value: 2946
+    latest_commit_date: '2022-08-04T05:27:09Z'
+    latest_commit_link: /kyverno/kyverno/commit/66c3b3b8d0eefaa7bb506af48a929149aae54382
+    license: Apache License 2.0
+    release_date: '2022-07-25T06:26:36Z'
+    release_link: https://github.com/kyverno/kyverno/releases
+    stars: 2736
+  github_start_commit_data:
+    start_commit_link: /kyverno/kyverno/commit/bad7ef25fd99232432cbe3d35d4311d659b8bd76
+    start_date: '2019-02-04T16:25:49Z'
+  homepage_url: https://kyverno.io/
+  image_data:
+    fileName: kyverno.svg
+    hash: i3BcRLPDZaMb7VPMcV3jcyXUvXZzKXRwK898Uh1vd0c=
+  item: null
+  logo: kyverno.svg
+  name: Kyverno
+  project: incubating
+  repo_url: https://github.com/kyverno/kyverno
+  repos:
+  - stars: 2736
+    url: https://github.com/kyverno/kyverno
+  twitter: https://twitter.com/kyverno
+  twitter_data:
+    latest_tweet_date: 2022-08-05 20:39:47+00:00

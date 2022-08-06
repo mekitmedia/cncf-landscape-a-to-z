@@ -1,0 +1,161 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/ant-financial
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Mayijijin
+      date: '2015-04-24'
+      price: 32215911
+    - acquiree: EyeVerify
+      date: '2016-09-13'
+    - acquiree: helloPay
+      date: '2017-04-19'
+    - acquiree: riskstorm
+      date: '2018-04-25'
+      price: 7902723
+    - acquiree: WorldFirst
+      date: '2019-02-14'
+      price: 700000000
+    - acquiree: 2C2P
+      date: '2022-04-18'
+    city: Hangzhou
+    company_type: For Profit
+    country: China
+    description: Ant Group strives to enable all consumers and small businesses to
+      have equal access to financial and other services through technology.
+    funding: 22000000000
+    homepage: https://www.antgroup.com
+    industries:
+    - Banking
+    - FinTech
+    - Financial Services
+    - Payments
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/antgroup
+    name: Ant Group
+    num_employees_max: 10000
+    num_employees_min: 5001
+    parents:
+    - https://www.crunchbase.com/organization/alibaba
+    region: Zhejiang
+    stockExchange: null
+    ticker: 9988.HK
+    twitter: https://twitter.com/antgroup
+  github_data:
+    contributions: 0;0;2;3;2;9;0;0;1;1;4;5;3;1;1;2;1;2;1;3;0;1;2;0;0;0;3;2;4;1;4;0;1;1;2;0;1;1;0;0;3;0;0;1;0;0;0;0;0;6;2;0
+    contributors_count: 68
+    contributors_link: https://github.com/sofastack/sofa-rpc/graphs/contributors
+    description: SOFARPC is a high-performance, high-extensibility, production-level
+      Java RPC  framework.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#b07219'
+      name: Java
+      value: 4970145
+    - name: Mustache
+      value: 27767
+    - color: '#89e051'
+      name: Shell
+      value: 4062
+    latest_commit_date: '2022-07-29T06:53:34Z'
+    latest_commit_link: /sofastack/sofa-rpc/commit/cf4445af32d127f69fb4892266ad1a25a85e0229
+    license: Apache License 2.0
+    release_date: '2022-05-20T07:08:05Z'
+    release_link: https://github.com/sofastack/sofa-rpc/releases
+    stars: 3589
+  github_start_commit_data:
+    start_commit_link: /sofastack/sofa-rpc/commit/5e923d7963a4c7272f75a157161cbaf86f5e3113
+    start_date: '2018-04-10T14:07:17Z'
+  homepage_url: https://www.sofastack.tech/en/
+  image_data:
+    fileName: sofarpc.svg
+    hash: UpvvZQnlSqZECwOPRHMJ2UT+DlP/CVUDOAILyjTQfCU=
+  item: null
+  logo: sofastack-sofa-rpc.svg
+  name: SOFARPC
+  repo_url: https://github.com/sofastack/sofa-rpc
+  repos:
+  - stars: 3589
+    url: https://github.com/sofastack/sofa-rpc
+  twitter: https://twitter.com/sofastack_io
+  twitter_data:
+    latest_tweet_date: 2020-11-03 07:14:40+00:00
+  yahoo_finance_data:
+    effective_ticker: 9988.HK
+    market_cap: 250716029031
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/sogou
+  crunchbase_data:
+    acquisitions: []
+    city: Beijing
+    company_type: For Profit
+    country: China
+    description: Sogou.com is a Chinese search engine that enables users to search
+      text, images, music, and maps.
+    funding: 516000000
+    homepage: https://www.sogou.com/
+    industries:
+    - Information Services
+    - Internet
+    - Search Engine
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/sogou/
+    name: Sogou
+    num_employees_max: 5000
+    num_employees_min: 1001
+    parents: []
+    region: Beijing
+    stockExchange: nyse
+    ticker: SOGO
+    twitter: null
+  description: High performance, low latency, lightweight enterprise-level RPC system,
+    which supports Baidu bRPC, Tencent tRPC, thrift protocols.
+  github_data:
+    contributions: 2;17;15;8;8;6;0;3;5;5;1;0;10;10;7;12;15;1;16;0;8;7;10;10;11;5;13;0;3;12;14;15;5;17;17;6;6;4;2;9;16;0;0;16;2;4;4;11;2;8;2;2
+    contributors_count: 15
+    contributors_link: https://github.com/sogou/srpc/graphs/contributors
+    description: High performance, low latency, lightweight enterprise-level RPC system.
+      Supports Baidu bRPC, Tencent tRPC, thrift protocols.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#f34b7d'
+      name: C++
+      value: 535535
+    - name: CMake
+      value: 25883
+    - name: Starlark
+      value: 10429
+    - color: '#427819'
+      name: Makefile
+      value: 4473
+    - color: '#3572A5'
+      name: Python
+      value: 637
+    - name: Thrift
+      value: 403
+    latest_commit_date: '2022-08-01T13:13:19Z'
+    latest_commit_link: /sogou/srpc/commit/8ebd3e8bfa1728f3af83ae7e4dc590b16245d3dc
+    license: Apache License 2.0
+    release_date: '2022-06-09T09:16:55Z'
+    release_link: https://github.com/sogou/srpc/releases
+    stars: 1375
+  github_start_commit_data:
+    start_commit_link: /sogou/srpc/commit/2d4124efa016bab718536cf6642467375dbe1a99
+    start_date: '2020-08-09T07:11:21Z'
+  homepage_url: https://github.com/sogou/srpc
+  image_data:
+    fileName: srpc.svg
+    hash: qFY0Asw37/w5uLUTGpzPSX73jPWGGwYG6FBGOpuHqv8=
+  item: null
+  logo: srpc.svg
+  name: SRPC
+  repo_url: https://github.com/sogou/srpc
+  repos:
+  - stars: 1375
+    url: https://github.com/sogou/srpc
+  yahoo_finance_data:
+    effective_ticker: SOGO
+    market_cap: 3451943424

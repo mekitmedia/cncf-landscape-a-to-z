@@ -1,0 +1,80 @@
+- best_practice_data:
+    badge: 1895
+    percentage: 100
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  extra:
+    accepted: '2018-03-15'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#nats-logos
+    dev_stats_url: https://nats.devstats.cncf.io/
+    mailing_list_url: https://nats.io/blog/
+    slack_url: https://natsio.slack.com/join/shared_invite/enQtMzE2NDkxNDI2NTE1LTc5ZDEzYTkwYWZkYWQ5YjY1MzBjMWZmYzA5OGQxMzlkMGQzMjYxNGM3MWYxMjNiYmNjNzIwMTVjMWE2ZDgxZGM
+    stack_overflow_url: https://stackoverflow.com/questions/tagged/nats.io
+  github_data:
+    contributions: 41;45;31;20;26;34;53;20;13;29;9;26;25;4;30;2;28;9;8;27;13;9;39;10;28;25;21;11;12;19;28;25;32;62;30;59;45;21;23;21;25;23;15;10;15;12;33;42;16;23;48;48
+    contributors_count: 124
+    contributors_link: https://github.com/nats-io/nats-server/graphs/contributors
+    description: High-Performance server for NATS.io, the cloud and edge native messaging
+      system.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 6392226
+    - color: '#89e051'
+      name: Shell
+      value: 20446
+    latest_commit_date: '2022-08-05T22:17:01Z'
+    latest_commit_link: /nats-io/nats-server/commit/52c4872666a26acdf475cb89ae9b5f367324fadd
+    license: Apache License 2.0
+    release_date: '2022-05-26T17:13:06Z'
+    release_link: https://github.com/nats-io/nats-server/releases
+    stars: 11306
+  github_start_commit_data:
+    start_commit_link: /nats-io/nats-server/commit/6c33e7b1607eee12533e7e9aa952cdf70a7bc24b
+    start_date: '2012-10-29T16:12:25Z'
+  homepage_url: https://nats.io/
+  image_data:
+    fileName: nats.svg
+    hash: SxmCoGCATrMtFWSdCULHhm7JPluJ3pVaRaeeE6tZyf8=
+  item: null
+  logo: nats.svg
+  name: NATS
+  project: incubating
+  repo_url: https://github.com/nats-io/nats-server
+  repos:
+  - stars: 11306
+    url: https://github.com/nats-io/nats-server
+  twitter: https://twitter.com/nats_io
+  twitter_data:
+    latest_tweet_date: 2022-08-05 18:21:10+00:00
+  url_for_bestpractices: https://github.com/nats-io

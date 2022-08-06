@@ -1,0 +1,66 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/linux-foundation
+  crunchbase_data:
+    acquisitions: []
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: The Linux Foundation builds sustainable ecosystems around open source
+      projects to accelerate technology development and industry adoption.
+    homepage: http://www.linuxfoundation.org
+    industries:
+    - Communities
+    - Education
+    - Enterprise Software
+    - Events
+    - Information Technology
+    - Linux
+    - Non Profit
+    - Open Source
+    linkedin: https://www.linkedin.com/company/the-linux-foundation
+    name: Linux Foundation
+    num_employees_max: 250
+    num_employees_min: 101
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: http://twitter.com/linuxfoundation
+  description: TARS is a high-performance RPC framework that provides an integrated
+    solution of microservice governance.
+  github_data:
+    contributions: 0;2;0;0;1;0;0;0;10;0;2;0;0;0;6;0;0;0;1;1;0;0;2;3;0;0;0;0;0;18;1;1;2;3;0;1;0;10;0;0;0;0;4;2;0;0;6;0;0;1;0;0
+    contributors_count: 86
+    contributors_link: https://github.com/tarsCloud/tars/graphs/contributors
+    description: Tars is a high-performance RPC framework based on name service and
+      Tars protocol, also integrated administration platform, and implemented hosting-service
+      via flexible schedule.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#f34b7d'
+      name: C++
+      value: 46673
+    latest_commit_date: '2022-07-17T10:59:47Z'
+    latest_commit_link: /TarsCloud/Tars/commit/abbee65596cdf99a7c18d94b25d539c543c92140
+    license: BSD 3-Clause "New" or "Revised" License
+    release_date: '2020-03-15T08:18:06Z'
+    release_link: https://github.com/tarsCloud/tars/releases
+    stars: 9459
+  github_start_commit_data:
+    start_commit_link: /TarsCloud/Tars/commit/2101e43d79d5b6817c2ba2d5e43293ae1e3e9f6e
+    start_date: '2017-01-18T08:19:06Z'
+  homepage_url: https://github.com/tarsCloud
+  image_data:
+    fileName: tars.svg
+    hash: u34hFa8EOOvkj9DbEAUMgs90kLJKtGbJqpwmOQY8A8k=
+  item: null
+  logo: tars.svg
+  name: TARS
+  repo_url: https://github.com/tarsCloud/tars
+  repos:
+  - stars: 9459
+    url: https://github.com/tarsCloud/tars
+  twitter: https://twitter.com/TarsCloud
+  twitter_data:
+    latest_tweet_date: 2021-11-30 21:48:07+00:00

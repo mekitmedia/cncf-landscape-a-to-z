@@ -1,0 +1,78 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/cloud-foundry
+  crunchbase_data:
+    acquisitions: []
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: Cloud Foundry Foundation is an Independent non-profit organization
+      that supports the Cloud Foundry collection of open source projects.
+    homepage: https://www.cloudfoundry.org/
+    industries:
+    - Cloud Data Services
+    - Communities
+    - Information Technology
+    - Open Source
+    - PaaS
+    - Software
+    linkedin: https://www.linkedin.com/company/2509135
+    name: Cloud Foundry Foundation
+    num_employees_max: 100
+    num_employees_min: 51
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/cloudfoundry
+  github_data:
+    contributions: 0;0;23;9;13;7;4;14;11;7;8;12;11;8;11;8;1;7;2;0;0;0;7;1;14;16;3;0;4;17;9;2;8;14;5;0;1;1;2;8;16;6;9;6;5;3;5;7;5;2;1;3
+    contributors_count: 801
+    contributors_link: https://github.com/cloudfoundry/bosh/graphs/contributors
+    description: Cloud Foundry BOSH is an open source tool chain for release engineering,
+      deployment and lifecycle management of large scale distributed services.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#701516'
+      name: Ruby
+      value: 7646655
+    - color: '#89e051'
+      name: Shell
+      value: 145513
+    - color: '#e34c26'
+      name: HTML
+      value: 60278
+    - color: '#00ADD8'
+      name: Go
+      value: 51480
+    - color: '#384d54'
+      name: Dockerfile
+      value: 14239
+    - name: HCL
+      value: 9532
+    - color: '#199f4b'
+      name: Vim script
+      value: 111
+    latest_commit_date: '2022-08-03T11:54:23Z'
+    latest_commit_link: /cloudfoundry/bosh/commit/dd09005be54e188c3cca1f96d2283c9037d06122
+    license: Apache License 2.0
+    release_date: '2022-07-02T02:12:43Z'
+    release_link: https://github.com/cloudfoundry/bosh/releases
+    stars: 1980
+  github_start_commit_data:
+    start_commit_link: /cloudfoundry/bosh/commit/37822ce7d8a4004b535258508c31be9fb67774c2
+    start_date: '2010-08-19T02:19:00Z'
+  homepage_url: https://bosh.io/docs/
+  image_data:
+    fileName: bosh.svg
+    hash: gWg4x44z20bNAEVebdDpl6BDi1EczgaaHSCUFTOgZL0=
+  item: null
+  logo: cloudfoundry-bosh.svg
+  name: BOSH
+  repo_url: https://github.com/cloudfoundry/bosh
+  repos:
+  - stars: 1980
+    url: https://github.com/cloudfoundry/bosh
+  twitter_data:
+    latest_tweet_date: 2022-08-05 08:21:19+00:00

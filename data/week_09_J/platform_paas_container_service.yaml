@@ -1,0 +1,86 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/jhipster
+  crunchbase_data:
+    acquisitions: []
+    city: Paris
+    company_type: Non Profit
+    country: France
+    description: PaaS/Container Service
+    homepage: http://www.jhipster.tech/
+    industries:
+    - Apps
+    - Internet
+    - Software
+    linkedin: null
+    name: JHipster
+    num_employees_max: null
+    num_employees_min: null
+    parents: []
+    region: Ile-de-France
+    stockExchange: null
+    twitter: https://twitter.com/jhipster
+  github_data:
+    contributions: 159;162;170;147;195;155;145;163;195;161;155;199;81;130;153;119;127;123;155;156;67;135;91;142;98;165;103;168;113;130;77;156;117;99;111;94;101;144;114;112;94;114;135;149;119;124;108;57;63;99;96;126
+    contributors_count: 907
+    contributors_link: https://github.com/jhipster/generator-jhipster/graphs/contributors
+    description: JHipster is a development platform to quickly generate, develop,
+      & deploy modern web applications & microservice architectures.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 4053363
+    - color: '#2b7489'
+      name: TypeScript
+      value: 1412070
+    - color: '#b07219'
+      name: Java
+      value: 1264922
+    - name: EJS
+      value: 588387
+    - color: '#2c3e50'
+      name: Vue
+      value: 149446
+    - color: '#89e051'
+      name: Shell
+      value: 72007
+    - name: SCSS
+      value: 45555
+    - color: '#563d7c'
+      name: CSS
+      value: 4199
+    - name: Mustache
+      value: 2614
+    - color: '#e34c26'
+      name: HTML
+      value: 2430
+    - color: '#384d54'
+      name: Dockerfile
+      value: 2150
+    - color: '#C1F12E'
+      name: Batchfile
+      value: 687
+    latest_commit_date: '2022-08-05T19:41:23Z'
+    latest_commit_link: /jhipster/generator-jhipster/commit/da060bcd8d313bace8c8c5b6ec41cce58e494afa
+    license: Apache License 2.0
+    release_date: '2022-08-03T16:27:45Z'
+    release_link: https://github.com/jhipster/generator-jhipster/releases
+    stars: 19798
+  github_start_commit_data:
+    start_commit_link: /jhipster/generator-jhipster/commit/c8630ab7af7b6a99db880b3b0e2403806b7d2436
+    start_date: '2013-10-21T20:07:22Z'
+  homepage_url: https://www.jhipster.tech/
+  image_data:
+    fileName: j-hipster.svg
+    hash: 1s3eHdDl+/NKv98tOEpKmOcqR1wal0J13iUY4DPucWg=
+  item: null
+  logo: jhipster.svg
+  name: JHipster
+  repo_url: https://github.com/jhipster/generator-jhipster
+  repos:
+  - stars: 19798
+    url: https://github.com/jhipster/generator-jhipster
+  twitter_data:
+    latest_tweet_date: 2022-08-05 15:02:07+00:00

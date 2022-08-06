@@ -1,0 +1,65 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/jd-cloud
+  crunchbase_data:
+    acquisitions: []
+    city: Beijing
+    company_type: ''
+    country: China
+    description: "JD Cloud is JD.com\u2019s full-service cloud computing platform\
+      \ and integrated cloud service provider."
+    homepage: https://www.jdcloud.com/en/
+    industries: []
+    linkedin: null
+    name: JD Cloud
+    num_employees_max: null
+    num_employees_min: null
+    parents: []
+    region: Beijing
+    stockExchange: null
+    twitter: null
+  description: JD Cloud provides complete professional services around our Kubernetes
+    certified JD Cloud Container Engine, which is a secure, reliable and fully managed
+    container service, so that users can focus on their applications and improve development
+    efficiency.
+  homepage_url: https://www.jdcloud.com/cn/products/jcs-for-kubernetes
+  image_data:
+    fileName: jd-cloud-kcsp.svg
+    hash: XMEMrIY/TXW2+cLGH/T9/6MLB9nPRGWVpccpYD+XIHs=
+  item: null
+  logo: jd-cloud.svg
+  name: JD Cloud (KCSP)
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/jetstack
+  crunchbase_data:
+    acquisitions: []
+    city: London
+    company_type: For Profit
+    country: United Kingdom
+    description: Jetstack builds modern, cloud-native infrastructure using Kubernetes.
+    homepage: http://www.jetstack.io/
+    industries:
+    - Information Technology
+    linkedin: https://www.linkedin.com/company/jetstack
+    name: Jetstack
+    num_employees_max: 10
+    num_employees_min: 1
+    parents: []
+    region: England
+    stockExchange: null
+    twitter: https://www.twitter.com/jetstackhq
+  description: Jetstack is an organisation focused entirely on Kubernetes. They will
+    help you to get the most out of Kubernetes through expert professional services
+    and open source tooling. Get in touch, and accelerate your project.
+  homepage_url: https://www.jetstack.io/
+  image_data:
+    fileName: jetstack-kcsp.svg
+    hash: t9VZXtyNKBEjS4LalJvx4hRF4537hcz5R5EbobbyhGo=
+  item: null
+  logo: jetstack.svg
+  name: Jetstack (KCSP)
+  twitter_data:
+    latest_tweet_date: 2022-08-05 10:49:12+00:00

@@ -1,0 +1,83 @@
+- best_practice_data:
+    badge: 1250
+    percentage: 100
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  extra:
+    accepted: '2017-02-27'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/graduated.md#coredns-logos
+    blog_url: https://blog.coredns.io/
+    dev_stats_url: https://coredns.devstats.cncf.io/
+    mailing_list_url: https://groups.google.com/forum/#!forum/coredns-discuss
+    slack_url: https://cloud-native.slack.com/messages/coredns/
+    stack_overflow_url: https://stackoverflow.com/questions/tagged/coredns
+    youtube_url: https://www.youtube.com/channel/UCbWRJZxiaQ8twm6sh7UymoQ
+  github_data:
+    contributions: 8;8;4;5;9;11;6;6;10;3;2;7;5;13;8;10;3;9;6;10;0;6;7;9;10;14;16;14;11;11;17;20;6;5;12;7;5;17;11;5;12;13;7;7;9;12;13;14;6;14;5;7
+    contributors_count: 314
+    contributors_link: https://github.com/coredns/coredns/graphs/contributors
+    description: CoreDNS is a DNS server that chains plugins
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 1527214
+    - color: '#427819'
+      name: Makefile
+      value: 1506
+    - color: '#384d54'
+      name: Dockerfile
+      value: 254
+    latest_commit_date: '2022-08-03T10:51:49Z'
+    latest_commit_link: /coredns/coredns/commit/0188090ae93557d02b7db25b13c83c86b412f172
+    license: Apache License 2.0
+    release_date: '2022-05-27T15:44:59Z'
+    release_link: https://github.com/coredns/coredns/releases
+    stars: 9562
+  github_start_commit_data:
+    start_commit_link: /coredns/coredns/commit/3ec0d9fe6b133a64712ae69fd712c14ad1a71f4d
+    start_date: '2016-03-18T20:57:35Z'
+  homepage_url: https://coredns.io/
+  image_data:
+    fileName: core-dns.svg
+    hash: /wdaTejmwjdFtVP54obFsUXd9ub9pPf33V264bjeX0w=
+  item: null
+  logo: core-dns.svg
+  name: CoreDNS
+  project: graduated
+  repo_url: https://github.com/coredns/coredns
+  repos:
+  - stars: 9562
+    url: https://github.com/coredns/coredns
+  twitter: https://twitter.com/corednsio
+  twitter_data:
+    latest_tweet_date: 2021-10-08 17:32:39+00:00

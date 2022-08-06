@@ -1,0 +1,381 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/octopus-deploy
+  crunchbase_data:
+    acquisitions: []
+    city: Palo Alto
+    company_type: For Profit
+    country: United States
+    description: Octopus provides technology for individuals to build customized portals
+      from elements located across the Web.
+    funding: 0
+    homepage: https://octopus.com
+    industries:
+    - Leisure
+    - Tourism
+    - Travel
+    linkedin: null
+    name: Octopus.com
+    num_employees_max: 1000
+    num_employees_min: 501
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: null
+  homepage_url: https://octopus.com/
+  image_data:
+    fileName: octopus-deploy.svg
+    hash: 6A7LskDWB3gLEMCFgW0V2fhIgVVNbE0mHlOFjUQvQhs=
+  item: null
+  logo: octopus-deploy.svg
+  name: Octopus Deploy
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  description: Standardizing Feature Flagging for Everyone
+  extra:
+    accepted: '2022-06-14'
+    dev_stats_url: https://openfeature.devstats.cncf.io/
+    youtube_url: https://www.youtube.com/channel/UCHMn9HyAMeb81bRlaOuZyuQ
+  github_data:
+    contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5;36;8;11;6;5;11;0;11;4;2;3;4;13;6;22;8;0;3;2;4;8;2;0;0;0
+    contributors_count: 40
+    contributors_link: https://github.com/open-feature/community/graphs/contributors
+    description: OpenFeature project community and governance
+    firstWeek: 2021-08-08Z
+    languages: []
+    latest_commit_date: '2022-07-15T11:35:21Z'
+    latest_commit_link: /open-feature/community/commit/af81ed5400951e7da01a23af077134614a2e5334
+    license: Apache License 2.0
+    stars: 59
+  github_start_commit_data:
+    start_commit_link: /open-feature/community/commit/00fc12bc46772ae0ab7c3345f5b72011a2adb7d4
+    start_date: '2022-02-11T14:16:09Z'
+  homepage_url: https://openfeature.dev/
+  image_data:
+    fileName: open-feature.svg
+    hash: EdbRQyytvFqqnNO1vkjCwqDO8P9yFzxNf4gFPcAQEEI=
+  item: null
+  logo: openfeature.svg
+  name: OpenFeature
+  project: sandbox
+  repo_url: https://github.com/open-feature/community
+  repos:
+  - stars: 59
+    url: https://github.com/open-feature/community
+  twitter: https://twitter.com/openfeature
+  twitter_data:
+    latest_tweet_date: 2022-08-04 08:49:21+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  github_data:
+    contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;8;0;0;0;2;0;0;0;0;0;0;0;0;0;2;0;0;3;0;0;0;0;0;2;0;0;0;0;1;2;0;0;0
+    contributors_count: 8
+    contributors_link: https://github.com/open-gitops/project/graphs/contributors
+    description: Repository for top-level information about the OpenGitOps project
+    firstWeek: 2021-08-08Z
+    languages: []
+    latest_commit_date: '2022-07-15T16:48:22Z'
+    latest_commit_link: /open-gitops/project/commit/f6aaabfb98933bfd0f11876cdf3e03bc1d66a0c6
+    license: Other
+    stars: 352
+  github_start_commit_data:
+    start_commit_link: /open-gitops/project/commit/e195f22385dc7318f8f7730099b27d0e5416c1c7
+    start_date: '2021-07-08T20:54:52Z'
+  homepage_url: https://opengitops.dev/
+  image_data:
+    fileName: open-git-ops.svg
+    hash: BGeTjnFIPXtv1GMzUn65X/03e9kPipEJ7BcrRaEifX4=
+  item: null
+  logo: opengitops.svg
+  name: OpenGitOps
+  project: sandbox
+  repo_url: https://github.com/open-gitops/project
+  repos:
+  - stars: 352
+    url: https://github.com/open-gitops/project
+  twitter: https://twitter.com/opengitops
+  twitter_data:
+    latest_tweet_date: 2022-08-05 16:12:23+00:00
+- best_practice_data:
+    badge: 2908
+    percentage: 30
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  github_data:
+    contributions: 4;4;6;6;8;9;2;1;0;6;5;4;1;6;3;4;6;3;7;3;5;2;4;3;3;0;1;3;1;4;2;4;6;0;0;1;0;2;1;1;4;6;0;4;2;1;2;2;3;6;4;4
+    contributors_count: 84
+    contributors_link: https://github.com/openkruise/kruise/graphs/contributors
+    description: Automate application management on Kubernetes (project under CNCF)
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 3992861
+    - color: '#89e051'
+      name: Shell
+      value: 11493
+    - color: '#427819'
+      name: Makefile
+      value: 4278
+    - color: '#384d54'
+      name: Dockerfile
+      value: 1123
+    latest_commit_date: '2022-08-04T02:52:52Z'
+    latest_commit_link: /openkruise/kruise/commit/4263a74ebf8909bb5f8e3eeb4604142e8ffe5ec4
+    license: Other
+    release_date: '2022-06-07T08:12:29Z'
+    release_link: https://github.com/openkruise/kruise/releases
+    stars: 3277
+  github_start_commit_data:
+    start_commit_link: /openkruise/kruise/commit/20f7bdb00d48cdb46946f54ecec79ffb09c7b5d4
+    start_date: '2019-06-05T22:03:48Z'
+  homepage_url: https://openkruise.io/en-us/
+  image_data:
+    fileName: open-kruise.svg
+    hash: njQnd+wJfIPJjMB29NbgCsv/DjcOwgP/323YrOJ/RVw=
+  item: null
+  logo: OpenKruise.svg
+  name: OpenKruise
+  project: sandbox
+  repo_url: https://github.com/openkruise/kruise
+  repos:
+  - stars: 3277
+    url: https://github.com/openkruise/kruise
+  twitter_data:
+    latest_tweet_date: 2022-08-05 21:09:37+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf
+  crunchbase_data:
+    acquisitions: []
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: A Neutral Home for the Next Generation of Continuous Delivery Collaboration
+    homepage: https://cd.foundation
+    industries:
+    - Cloud Computing
+    - Open Source
+    - Software
+    linkedin: null
+    name: Continuous Delivery Foundation (CDF)
+    num_employees_max: 10
+    num_employees_min: 1
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CDeliveryFdn
+  github_data:
+    contributions: 2;0;0;7;0;0;4;0;0;2;4;0;0;1;6;1;3;1;0;0;0;0;3;1;2;13;11;0;0;0;4;7;0;6;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0
+    contributors_count: 72
+    contributors_link: https://github.com/ortelius/ortelius/graphs/contributors
+    description: 'Ortelius simplifies the implementation of microservices.  By providing
+      a central catalog of services with their deployment specs, application teams
+      can easily consume and deploy services across cluster. Ortelius tracks application
+      versions based on service updates and maps their service dependencies eliminating
+      confusion and guess work. '
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 5184400
+    - color: '#f34b7d'
+      name: C++
+      value: 2482864
+    - color: '#b07219'
+      name: Java
+      value: 2258236
+    - color: '#427819'
+      name: Makefile
+      value: 617698
+    - color: '#563d7c'
+      name: CSS
+      value: 200320
+    - color: '#447265'
+      name: DM
+      value: 146194
+    - color: '#e34c26'
+      name: HTML
+      value: 128801
+    - color: '#3572A5'
+      name: Python
+      value: 113506
+    - name: Reason
+      value: 46879
+    - color: '#555555'
+      name: C
+      value: 37110
+    - name: VBScript
+      value: 32077
+    - color: '#89e051'
+      name: Shell
+      value: 21615
+    - color: '#0298c3'
+      name: Perl
+      value: 18133
+    - color: '#4F5D95'
+      name: PHP
+      value: 14898
+    - color: '#4B6C4B'
+      name: Yacc
+      value: 13701
+    - color: '#C1F12E'
+      name: Batchfile
+      value: 7496
+    - name: PLpgSQL
+      value: 5382
+    - color: '#384d54'
+      name: Dockerfile
+      value: 2067
+    - name: Mustache
+      value: 1039
+    latest_commit_date: '2022-05-04T21:45:18Z'
+    latest_commit_link: /ortelius/ortelius/commit/9e0450e67a492d330dd30bb2b2d93418f1f33253
+    license: Other
+    release_date: '2022-07-22T17:00:48Z'
+    release_link: https://github.com/ortelius/ortelius/releases
+    stars: 244
+  github_start_commit_data:
+    start_commit_link: /ortelius/ortelius/commit/97a4274b63a12a4ee6c053fd9e1de09d8b1d6d81
+    start_date: '2017-03-06T18:06:36Z'
+  homepage_url: https://ortelius.io/
+  image_data:
+    fileName: ortelius.svg
+    hash: ua5pV5sPpG91GDTOIr5YA5O9831mJ+YtD5L6bkVRAXg=
+  item: null
+  logo: ortelius.svg
+  name: Ortelius
+  repo_url: https://github.com/ortelius/ortelius
+  repos:
+  - stars: 244
+    url: https://github.com/ortelius/ortelius
+  twitter: https://twitter.com/OrteliusOs
+  twitter_data:
+    latest_tweet_date: 2022-08-02 15:02:03+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/ozone-cd
+  crunchbase_data:
+    acquisitions: []
+    city: Dubai
+    company_type: For Profit
+    country: United Arab Emirates
+    description: Development teams can now automate Kubernetes application delivery
+      end-to-end.
+    homepage: https://ozone.one
+    industries:
+    - Software
+    linkedin: https://www.linkedin.com/company/ozone
+    name: Ozone
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: Dubai
+    stockExchange: null
+    twitter: https://twitter.com/ozonecdf
+  homepage_url: https://www.ozone.one/
+  image_data:
+    fileName: ozone.svg
+    hash: d1TJI2zoWDnCsNyk8Sc4slsf6x0/xyGEC6Tcm4GpM5s=
+  item: null
+  logo: ozone.svg
+  name: Ozone
+  twitter_data:
+    latest_tweet_date: 2022-03-31 08:13:02+00:00

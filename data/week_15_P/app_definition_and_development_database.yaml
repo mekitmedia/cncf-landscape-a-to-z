@@ -1,0 +1,417 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/percona
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Tokutek
+      date: '2015-04-15'
+    city: Raleigh
+    company_type: For Profit
+    country: United States
+    description: The Percona Platform provides a unified experience to monitor, manage,
+      secure, and optimize open database environments
+    homepage: http://www.percona.com
+    industries:
+    - Consulting
+    - IT Management
+    - Information Technology
+    - Internet
+    - Internet of Things
+    - Open Source
+    - Software
+    linkedin: https://www.linkedin.com/company/percona
+    name: Percona
+    num_employees_max: 500
+    num_employees_min: 251
+    parents: []
+    region: North Carolina
+    stockExchange: null
+    twitter: http://twitter.com/percona
+  github_data:
+    contributions: 113;112;132;144;98;101;90;92;46;52;71;156;71;92;97;50;23;36;19;24;5;14;11;14;50;17;16;32;18;28;20;12;9;33;30;3;8;8;8;26;12;13;7;4;2;27;0;0;0;0;0;0
+    contributors_count: 856
+    contributors_link: https://github.com/percona/percona-server/graphs/contributors
+    description: Percona Server
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#f34b7d'
+      name: C++
+      value: 150499581
+    - color: '#555555'
+      name: C
+      value: 25927353
+    - color: '#b07219'
+      name: Java
+      value: 3571450
+    - name: CMake
+      value: 1772964
+    - color: '#4F5D95'
+      name: PHP
+      value: 1677127
+    - color: '#427819'
+      name: Makefile
+      value: 1668264
+    - name: NASL
+      value: 1569273
+    - color: '#438eff'
+      name: Objective-C
+      value: 1382849
+    - color: '#0298c3'
+      name: Perl
+      value: 1093455
+    - color: '#89e051'
+      name: Shell
+      value: 862525
+    - color: '#4B6C4B'
+      name: Yacc
+      value: 646231
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 432714
+    - color: '#E3F171'
+      name: Pascal
+      value: 396981
+    - color: '#6E4C13'
+      name: Assembly
+      value: 352722
+    - color: '#ecdebe'
+      name: Roff
+      value: 183585
+    - color: '#3572A5'
+      name: Python
+      value: 173360
+    - name: M4
+      value: 86429
+    - name: Starlark
+      value: 77204
+    - color: '#e34c26'
+      name: HTML
+      value: 48391
+    - name: SWIG
+      value: 26850
+    - name: DIGITAL Command Language
+      value: 26402
+    - name: Awk
+      value: 16765
+    - color: '#DBCA00'
+      name: Lex
+      value: 15525
+    - name: RPC
+      value: 15045
+    - color: '#C1F12E'
+      name: Batchfile
+      value: 12442
+    - color: '#f0a9f0'
+      name: Gnuplot
+      value: 9732
+    - color: '#185619'
+      name: LLVM
+      value: 5689
+    - color: '#dbb284'
+      name: Pawn
+      value: 3834
+    - name: POV-Ray SDL
+      value: 2898
+    - color: '#563d7c'
+      name: CSS
+      value: 2508
+    - color: '#B34936'
+      name: SAS
+      value: 1847
+    - name: Module Management System
+      value: 1545
+    - color: '#5c7611'
+      name: SourcePawn
+      value: 874
+    - color: '#384d54'
+      name: Dockerfile
+      value: 499
+    - name: VBA
+      value: 433
+    - color: '#dad8d8'
+      name: PLSQL
+      value: 280
+    latest_commit_date: '2022-06-22T08:24:23Z'
+    latest_commit_link: /percona/percona-server/commit/ab380371a37f7be9a4e76dd0483ccd698f928a8c
+    license: Other
+    release_date: '2017-07-05T20:27:17Z'
+    release_link: https://github.com/percona/percona-server/releases
+    stars: 914
+  github_start_commit_data:
+    start_commit_link: /percona/percona-server/commit/7eec25e393727b16bb916b50d82b0aa3084e065c
+    start_date: '2000-07-31T19:10:05Z'
+  homepage_url: https://www.percona.com/software/mysql-database/percona-server
+  image_data:
+    fileName: percona-server-for-my-sql.svg
+    hash: LLQouB+elKLN3xf/QGA/+QLJ1dkR468BrIJohDgRSaY=
+  item: null
+  logo: percona.svg
+  name: Percona Server for MySQL
+  repo_url: https://github.com/percona/percona-server
+  repos:
+  - stars: 914
+    url: https://github.com/percona/percona-server
+  twitter_data:
+    latest_tweet_date: 2022-08-05 20:52:00+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/pilosa
+  crunchbase_data:
+    acquisitions: []
+    city: Austin
+    company_type: For Profit
+    country: United States
+    description: Pilosa is an open source, distributed bitmap index that dramatically
+      accelerates continuous analysis across multiple, massive data sets.
+    funding: 3671889
+    homepage: https://www.pilosa.com/
+    industries:
+    - Analytics
+    - Big Data
+    - Cloud Data Services
+    - Data Storage
+    - Database
+    kind: funding
+    linkedin: https://www.linkedin.com/company/pilosa/
+    name: Pilosa
+    num_employees_max: 10
+    num_employees_min: 1
+    parents: []
+    region: Texas
+    stockExchange: null
+    twitter: https://twitter.com/slothware
+  github_data:
+    contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+    contributors_count: 41
+    contributors_link: https://github.com/pilosa/pilosa/graphs/contributors
+    description: Pilosa is an open source, distributed bitmap index that dramatically
+      accelerates queries across multiple, massive data sets.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 2033899
+    - color: '#427819'
+      name: Makefile
+      value: 7459
+    - color: '#384d54'
+      name: Dockerfile
+      value: 471
+    latest_commit_date: '2021-12-14T16:56:22Z'
+    latest_commit_link: /pilosa/pilosa/commit/227632544d72f2242f9cf0c02bca97999372f845
+    license: Apache License 2.0
+    release_date: '2020-10-08T21:50:32Z'
+    release_link: https://github.com/pilosa/pilosa/releases
+    stars: 2258
+  github_start_commit_data:
+    start_commit_link: /pilosa/pilosa/commit/3f2ff1a0e3e1f0a3d9f8679797548511c0efa9e7
+    start_date: '2013-10-16T22:34:43Z'
+  homepage_url: https://www.pilosa.com/
+  image_data:
+    fileName: pilosa.svg
+    hash: Ljr6CQ+pQBWO6i5+QhYRbN7ytvSfRESkBm2Cl3j1DLo=
+  item: null
+  logo: pilosa.svg
+  name: Pilosa
+  repo_url: https://github.com/pilosa/pilosa
+  repos:
+  - stars: 2258
+    url: https://github.com/pilosa/pilosa
+  twitter_data:
+    latest_tweet_date: 2021-12-15 22:42:57+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/postgresql
+  crunchbase_data:
+    acquisitions: []
+    city: Philadelphia
+    company_type: Non Profit
+    country: United States
+    description: PostgreSQL is an object-relational database management system with
+      an emphasis on extensibility and standards-compliance.
+    homepage: http://www.postgresql.org/
+    industries:
+    - Information Technology
+    - Software
+    linkedin: https://www.linkedin.com/company/758353
+    name: PostgreSQL
+    num_employees_max: 100
+    num_employees_min: 51
+    parents: []
+    region: Pennsylvania
+    stockExchange: null
+    twitter: http://twitter.com/postgresql
+  github_data:
+    contributions: 46;28;38;47;43;38;25;35;39;28;31;39;48;46;22;42;46;28;31;23;14;27;45;53;48;30;37;73;37;39;37;47;89;79;120;66;39;17;22;63;27;22;28;17;19;21;27;64;80;71;49;73
+    contributors_count: 52
+    contributors_link: https://github.com/postgres/postgres/graphs/contributors
+    description: Mirror of the official PostgreSQL GIT repository. Note that this
+      is just a *mirror* - we don't work with pull requests on github. To contribute,
+      please see https://wiki.postgresql.org/wiki/Submitting_a_Patch
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#555555'
+      name: C
+      value: 43094458
+    - name: PLpgSQL
+      value: 3083797
+    - color: '#0298c3'
+      name: Perl
+      value: 1743145
+    - color: '#4B6C4B'
+      name: Yacc
+      value: 677449
+    - color: '#427819'
+      name: Makefile
+      value: 336384
+    - color: '#701516'
+      name: Ruby
+      value: 252495
+    - color: '#DBCA00'
+      name: Lex
+      value: 227194
+    - name: M4
+      value: 190431
+    - color: '#89e051'
+      name: Shell
+      value: 73758
+    - color: '#dad8d8'
+      name: PLSQL
+      value: 53708
+    - color: '#3572A5'
+      name: Python
+      value: 45016
+    - color: '#f34b7d'
+      name: C++
+      value: 32065
+    - color: '#C1F12E'
+      name: Batchfile
+      value: 10681
+    - name: XS
+      value: 7034
+    - color: '#c065db'
+      name: Emacs Lisp
+      value: 4164
+    - name: DTrace
+      value: 3451
+    - color: '#6E4C13'
+      name: Assembly
+      value: 2468
+    - color: '#ecdebe'
+      name: Roff
+      value: 1895
+    - color: '#64b970'
+      name: sed
+      value: 1834
+    latest_commit_date: '2022-08-06T00:50:59Z'
+    latest_commit_link: /postgres/postgres/commit/5fc88c5d53e43fa7dcea93499d230a0bf70f4f77
+    license: Other
+    stars: 10713
+  github_start_commit_data:
+    start_commit_link: /postgres/postgres/commit/d31084e9d1118b25fd16580d9d8c2924b5740dff
+    start_date: '1996-07-09T06:22:35Z'
+  homepage_url: https://www.postgresql.org/
+  image_data:
+    fileName: postgre-sql.svg
+    hash: CpvoexwbkFXvualEjBTkuGhfXX24aSOT4E7InPZSzHo=
+  item: null
+  logo: postgre-sql.svg
+  name: PostgreSQL
+  repo_url: https://github.com/postgres/postgres
+  repos:
+  - stars: 10713
+    url: https://github.com/postgres/postgres
+  twitter_data:
+    latest_tweet_date: 2022-08-01 08:15:03+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/presto-foundation
+  crunchbase_data:
+    acquisitions: []
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: Presto is an open source distributed SQL query engine for running
+      interactive analytic queries against data sources of all sizes.
+    homepage: https://prestodb.io
+    industries:
+    - Big Data
+    - Database
+    - Open Source
+    - Software
+    linkedin: https://www.linkedin.com/company/presto-foundation/
+    name: Presto Foundation
+    num_employees_max: null
+    num_employees_min: null
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/prestodb
+  github_data:
+    contributions: 42;35;77;90;92;65;95;103;120;85;98;64;120;72;54;82;104;115;69;59;40;76;95;124;85;92;76;88;99;106;88;135;128;72;115;83;85;76;58;99;74;69;68;90;74;78;72;47;48;82;56;25
+    contributors_count: 751
+    contributors_link: https://github.com/trinodb/trino/graphs/contributors
+    description: Official repository of Trino, the distributed SQL query engine for
+      big data, formerly known as PrestoSQL (https://trino.io)
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#b07219'
+      name: Java
+      value: 60680047
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 232261
+    - color: '#9DC3FF'
+      name: ANTLR
+      value: 50268
+    - color: '#89e051'
+      name: Shell
+      value: 48714
+    - color: '#e34c26'
+      name: HTML
+      value: 30842
+    - color: '#563d7c'
+      name: CSS
+      value: 13515
+    - color: '#c22d40'
+      name: Scala
+      value: 10145
+    - color: '#3572A5'
+      name: Python
+      value: 5266
+    - name: Smarty
+      value: 1938
+    - color: '#e69f56'
+      name: Groovy
+      value: 1702
+    - color: '#384d54'
+      name: Dockerfile
+      value: 1473
+    - color: '#dad8d8'
+      name: PLSQL
+      value: 85
+    latest_commit_date: '2022-08-06T03:21:50Z'
+    latest_commit_link: /trinodb/trino/commit/8ca27d335c85937c72ba64fecd09f2eabb233086
+    license: Apache License 2.0
+    stars: 5893
+  github_start_commit_data:
+    start_commit_link: /prestosql/presto/commit/d0eb103a660125a53660a7ba2c95e9b8a4d8feb6
+    start_date: '2012-08-08T19:58:34Z'
+  homepage_url: https://prestodb.io/
+  image_data:
+    fileName: presto.svg
+    hash: jrU94vB89HDjROlVxu8Kpw2kYofQWiJnbDR21v7kgSo=
+  item: null
+  logo: presto.svg
+  name: Presto
+  repo_url: https://github.com/trinodb/trino
+  repos:
+  - stars: 5893
+    url: https://github.com/trinodb/trino
+  twitter_data:
+    latest_tweet_date: 2022-07-20 23:02:48+00:00

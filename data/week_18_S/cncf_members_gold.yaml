@@ -1,0 +1,351 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/salesforce
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Sendia
+      date: '2006-04-11'
+    - acquiree: Kieden
+      date: '2006-08-22'
+    - acquiree: Koral Technologies
+      date: '2007-04-10'
+    - acquiree: InStranet
+      date: '2008-08-19'
+      price: 31500000
+    - acquiree: GroupSwim
+      date: '2009-12-11'
+      price: 7000000
+    - acquiree: Informavores
+      date: '2009-12-31'
+    - acquiree: Jigsaw
+      date: '2010-04-21'
+    - acquiree: Sitemasher
+      date: '2010-05-28'
+    - acquiree: Activa Live
+      date: '2010-09-24'
+    - acquiree: Heroku
+      date: '2010-12-08'
+    - acquiree: Etacts
+      date: '2010-12-21'
+    - acquiree: Dimdim
+      date: '2011-01-06'
+    - acquiree: Manymoon
+      date: '2011-02-01'
+    - acquiree: Radian6
+      date: '2011-03-30'
+    - acquiree: Zorap
+      date: '2011-05-01'
+    - acquiree: Navajo Systems
+      date: '2011-08-26'
+    - acquiree: Desk.com
+      date: '2011-09-21'
+    - acquiree: Model Metrics
+      date: '2011-11-14'
+    - acquiree: Work.com
+      date: '2011-12-15'
+    - acquiree: Stypi
+      date: '2012-05-01'
+    - acquiree: Buddy Media
+      date: '2012-06-04'
+      price: 649000000
+    - acquiree: ChoicePass
+      date: '2012-06-18'
+    - acquiree: Thinkfuse
+      date: '2012-06-25'
+    - acquiree: GoInstant
+      date: '2012-07-09'
+      price: 70000000
+    - acquiree: Prior Knowledge
+      date: '2012-11-23'
+    - acquiree: EntropySoft
+      date: '2013-02-06'
+    - acquiree: Clipboard
+      date: '2013-05-10'
+      price: 20000000
+    - acquiree: ExactTarget
+      date: '2013-06-04'
+      price: 2500000000
+    - acquiree: EdgeSpring
+      date: '2013-06-07'
+    - acquiree: Cloud Connect
+      date: '2013-11-18'
+    - acquiree: RelateIQ
+      date: '2014-07-11'
+      price: 390000000
+    - acquiree: Toopher
+      date: '2015-04-01'
+    - acquiree: Tempo AI
+      date: '2015-05-29'
+    - acquiree: Kerensen Consulting
+      date: '2015-07-31'
+      price: 24200000
+    - acquiree: AKTA
+      date: '2015-09-02'
+    - acquiree: MinHash
+      date: '2015-12-14'
+    - acquiree: SteelBrick
+      date: '2015-12-23'
+      price: 360000000
+    - acquiree: YOUR SL
+      date: '2016-01-22'
+    - acquiree: PredictionIO
+      date: '2016-02-19'
+    - acquiree: MetaMind
+      date: '2016-04-04'
+      price: 32799999
+    - acquiree: Implisit
+      date: '2016-05-09'
+    - acquiree: Demandware
+      date: '2016-06-01'
+      price: 2800000000
+    - acquiree: Coolan
+      date: '2016-07-21'
+    - acquiree: Quip
+      date: '2016-08-01'
+      price: 750000000
+    - acquiree: BeyondCore
+      date: '2016-08-15'
+      price: 110000000
+    - acquiree: HeyWire
+      date: '2016-09-07'
+    - acquiree: gravitytank
+      date: '2016-09-30'
+    - acquiree: Krux
+      date: '2016-10-03'
+      price: 800000000
+    - acquiree: Twin Prime
+      date: '2016-12-14'
+    - acquiree: Sequence
+      date: '2017-01-25'
+    - acquiree: Attic Labs
+      date: '2018-01-08'
+    - acquiree: CloudCraze
+      date: '2018-03-13'
+    - acquiree: MuleSoft
+      date: '2018-03-20'
+      price: 6500000000
+    - acquiree: Datorama
+      date: '2018-07-17'
+      price: 800000000
+    - acquiree: Rebel
+      date: '2018-10-05'
+    - acquiree: Griddable
+      date: '2019-01-28'
+    - acquiree: Salesforce Foundation
+      date: '2019-04-16'
+      price: 300000000
+    - acquiree: MapAnything
+      date: '2019-04-17'
+      price: 213000000
+    - acquiree: Bonobo AI
+      date: '2019-05-06'
+    - acquiree: Tableau
+      date: '2019-06-10'
+      price: 15700000000
+    - acquiree: ClickSoftware Technologies
+      date: '2019-08-08'
+      price: 1350000000
+    - acquiree: Evergage
+      date: '2020-02-03'
+    - acquiree: Vlocity
+      date: '2020-02-25'
+      price: 1330000000
+    - acquiree: The CMO Club
+      date: '2020-03-02'
+    - acquiree: Mobify
+      date: '2020-09-06'
+      price: 60000000
+    - acquiree: Acumen Solutions
+      date: '2020-12-01'
+    - acquiree: Slack
+      date: '2020-12-01'
+      price: 27700000000
+    - acquiree: LevelJump
+      date: '2021-09-24'
+    - acquiree: Atonit
+      date: '2022-02-02'
+    - acquiree: Troops
+      date: '2022-03-01'
+    - acquiree: Phennecs
+      date: '2022-04-04'
+    city: San Francisco
+    company_type: For Profit
+    country: United States
+    description: Salesforce is a global cloud computing company that develops CRM
+      solutions and provides business software on a subscription basis.
+    funding: 65375124
+    homepage: https://www.salesforce.com
+    industries:
+    - Analytics
+    - CRM
+    - Enterprise Software
+    - SaaS
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/salesforce
+    name: Salesforce
+    num_employees_max: 1000000
+    num_employees_min: 10001
+    parents: []
+    region: California
+    stockExchange: nyse
+    ticker: CRM
+    twitter: http://twitter.com/salesforce
+  enduser: true
+  homepage_url: https://www.salesforce.com/uk
+  image_data:
+    fileName: salesforce-member.svg
+    hash: TFOyvD9pyozshRIB/YrV4HWJPDxB2FhAXTjnVQH/OWE=
+  item: null
+  logo: salesforce.svg
+  name: Salesforce (member)
+  twitter_data:
+    latest_tweet_date: 2022-08-05 23:27:18+00:00
+  yahoo_finance_data:
+    effective_ticker: CRM
+    market_cap: 189219143680
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/samsung-sds
+  crunchbase_data:
+    acquisitions: []
+    city: Ridgefield Park
+    company_type: For Profit
+    country: United States
+    description: Samsung SDS, established in 1985, as a subsidiary of Samsung Group
+      has been providing information technology services.
+    homepage: https://www.samsungsds.com/
+    industries:
+    - Information Services
+    - Information Technology
+    linkedin: null
+    name: Samsung SDS
+    num_employees_max: 1000000
+    num_employees_min: 10001
+    parents: []
+    region: New Jersey
+    stockExchange: null
+    twitter: https://twitter.com/samsungsdsa
+  homepage_url: https://www.samsungsds.com/us/index.html
+  image_data:
+    fileName: samsung-sds-member.svg
+    hash: HB8bsMSL1WYumjhHKubZEntZgc490DUV1Yi6sK8w/ng=
+  item: null
+  logo: samsung-sds.svg
+  name: Samsung SDS (member)
+  twitter_data:
+    latest_tweet_date: 2022-08-02 17:12:32+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/shanghai-pudong-development-bank
+  crunchbase_data:
+    acquisitions: []
+    city: Shanghai
+    company_type: For Profit
+    country: China
+    description: Shanghai Pudong Development Bank is a commercial bank that provides
+      commercial banking products and services in China.
+    funding: 5800000000
+    homepage: http://www.spdb.com.cn/chpage/c510
+    industries:
+    - Banking
+    - Finance
+    - Financial Services
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/spdb-international/
+    name: Shanghai Pudong Development Bank
+    num_employees_max: 1000000
+    num_employees_min: 10001
+    parents: []
+    region: Shanghai
+    stockExchange: sse
+    ticker: 600000.SS
+    twitter: null
+  enduser: true
+  homepage_url: https://www.spdb.com.cn/
+  image_data:
+    fileName: spd-bank-member.svg
+    hash: Lx10YfiHDSYYlFGQMQhXsT+n8rXHPh747xoth6Cd4b4=
+  item: null
+  logo: spd-bank.svg
+  name: SPD Bank (member)
+  yahoo_finance_data:
+    effective_ticker: 600000.SS
+    market_cap: 31344150708
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/splunk
+  crunchbase_data:
+    acquisitions:
+    - acquiree: BugSense
+      date: '2013-09-16'
+    - acquiree: Cloudmeter
+      date: '2013-12-10'
+    - acquiree: Metafor Software
+      date: '2015-06-29'
+    - acquiree: Caspida
+      date: '2015-07-09'
+      price: 190000000
+    - acquiree: SignalSense, Inc.
+      date: '2017-10-17'
+    - acquiree: Phantom
+      date: '2018-02-27'
+      price: 350000000
+    - acquiree: VictorOps
+      date: '2018-06-11'
+      price: 120000000
+    - acquiree: KryptonCloud
+      date: '2018-08-01'
+    - acquiree: SignalFx
+      date: '2019-08-22'
+      price: 1050000000
+    - acquiree: Omnition
+      date: '2019-09-04'
+    - acquiree: Streamlio
+      date: '2019-10-21'
+    - acquiree: Plumbr
+      date: '2020-10-20'
+    - acquiree: Rigor
+      date: '2020-10-20'
+    - acquiree: Flowmill
+      date: '2020-11-25'
+    - acquiree: TruSTAR
+      date: '2021-05-18'
+    city: San Francisco
+    company_type: For Profit
+    country: United States
+    description: Splunk is a software company that provides operational intelligence
+      software that monitors, reports, and analyzes real-time machine data.
+    funding: 2440000000
+    homepage: https://www.splunk.com
+    industries:
+    - Analytics
+    - Information Technology
+    - Intelligent Systems
+    - Real Time
+    - Software
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/splunk
+    name: Splunk
+    num_employees_max: 10000
+    num_employees_min: 5001
+    parents: []
+    region: California
+    stockExchange: bmv
+    ticker: SPLK
+    twitter: http://twitter.com/splunk
+  homepage_url: https://www.splunk.com
+  image_data:
+    fileName: splunk-member.svg
+    hash: 6R5VA/wkk5Y2KcoxqrKl2p68/WGN6lDxY6qnFr96+uI=
+  item: null
+  logo: splunk.svg
+  name: Splunk (member)
+  twitter_data:
+    latest_tweet_date: 2022-08-05 20:00:01+00:00
+  yahoo_finance_data:
+    effective_ticker: SPLK
+    market_cap: 18112512000

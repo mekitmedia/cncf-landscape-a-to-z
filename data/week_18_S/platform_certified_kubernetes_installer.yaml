@@ -1,0 +1,60 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/particule
+  crunchbase_data:
+    acquisitions: []
+    city: Paris
+    company_type: For Profit
+    country: France
+    description: We build Cloud Native infrastructure, from an application on your
+      laptop to a scalable infrastructure, define as code
+    homepage: https://particule.io/
+    industries: []
+    linkedin: https://www.linkedin.com/company/particuleio/
+    name: Particule
+    num_employees_max: 10
+    num_employees_min: 1
+    parents: []
+    region: Ile-de-France
+    stockExchange: null
+    twitter: https://twitter.com/particuleio
+  description: "Symplegma (from greek \u03C3\u03CD\u03BC\u03C0\u03BB\u03B5\u03B3\u03BC\
+    \u03B1) is a simple set of Ansible playbooks to deploy Kubernetes with Kubeadm"
+  github_data:
+    contributions: 0;0;0;8;0;0;4;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;0;0;0;0;0;0;15;0;3;0;0;1;0;0
+    contributors_count: 7
+    contributors_link: https://github.com/particuleio/symplegma/graphs/contributors
+    description: Streamlined Ansible Kubernetes deployment tool
+    firstWeek: 2021-08-08Z
+    languages:
+    - name: HCL
+      value: 32772
+    - color: '#3572A5'
+      name: Python
+      value: 2269
+    - color: '#89e051'
+      name: Shell
+      value: 2144
+    latest_commit_date: '2022-07-16T15:29:14Z'
+    latest_commit_link: /particuleio/symplegma/commit/57d6019af672eaf847be588259c3d4df42127774
+    license: Apache License 2.0
+    release_date: '2022-06-12T13:54:30Z'
+    release_link: https://github.com/particuleio/symplegma/releases
+    stars: 37
+  github_start_commit_data:
+    start_commit_link: /clusterfrak-dynamics/symplegma/commit/4757e5fa6491ed2792b3158ea62fea3083bfd74b
+    start_date: '2018-07-30T20:46:57Z'
+  homepage_url: https://particuleio.github.io/symplegma/
+  image_data:
+    fileName: symplegma.svg
+    hash: SLgDL8DqSzWLnnvmrUhtDBdC4qW5ZSZV52ykVR4WxKQ=
+  item: null
+  logo: symplegma.svg
+  name: Symplegma
+  repo_url: https://github.com/particuleio/symplegma
+  repos:
+  - stars: 37
+    url: https://github.com/particuleio/symplegma
+  twitter_data:
+    latest_tweet_date: 2022-05-23 08:25:15+00:00

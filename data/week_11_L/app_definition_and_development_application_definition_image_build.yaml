@@ -1,0 +1,94 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/amazee-io
+  crunchbase_data:
+    acquisitions: []
+    city: "Z\xFCrich"
+    company_type: For Profit
+    country: Switzerland
+    description: Your ZeroOps application delivery hub.
+    homepage: https://www.amazee.io/
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Information Technology
+    - Internet
+    - Open Source
+    - PaaS
+    - SaaS
+    - Software
+    - Web Apps
+    - Web Hosting
+    linkedin: https://www.linkedin.com/company/amazee.io
+    name: amazee.io
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: Zurich
+    stockExchange: null
+    twitter: http://twitter.com/amazeeio
+  description: Build and Deploy System for OpenShift & Kubernetes
+  github_data:
+    contributions: 4;22;8;19;15;19;9;23;12;27;32;29;37;26;20;37;29;4;15;17;0;11;8;18;27;44;26;31;51;23;13;31;13;42;41;6;22;5;4;25;14;33;22;27;14;13;3;0;16;16;20;8
+    contributors_count: 90
+    contributors_link: https://github.com/uselagoon/lagoon/graphs/contributors
+    description: Lagoon, the developer-focused application delivery platform
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#2b7489'
+      name: TypeScript
+      value: 818576
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 511098
+    - color: '#89e051'
+      name: Shell
+      value: 258145
+    - name: Mustache
+      value: 84940
+    - color: '#00ADD8'
+      name: Go
+      value: 74652
+    - color: '#384d54'
+      name: Dockerfile
+      value: 64589
+    - color: '#4F5D95'
+      name: PHP
+      value: 64071
+    - color: '#427819'
+      name: Makefile
+      value: 39375
+    - color: '#e34c26'
+      name: HTML
+      value: 8364
+    - color: '#3572A5'
+      name: Python
+      value: 2112
+    - name: Smarty
+      value: 2003
+    - color: '#563d7c'
+      name: CSS
+      value: 1036
+    latest_commit_date: '2022-08-04T21:35:26Z'
+    latest_commit_link: /uselagoon/lagoon/commit/00f85d4efe48c09abd6db4da5401eb594c6a0b9c
+    license: Apache License 2.0
+    release_date: '2022-08-01T21:25:29Z'
+    release_link: https://github.com/uselagoon/lagoon/releases
+    stars: 441
+  github_start_commit_data:
+    start_commit_link: /amazeeio/lagoon/commit/d80c6c301bd5253cdc4104c65a201b05d3350e3e
+    start_date: '2016-08-29T20:53:06Z'
+  homepage_url: https://github.com/uselagoon/lagoon
+  image_data:
+    fileName: lagoon.svg
+    hash: jJjUOknCtuX7rV7xOGjAckh7UMUf6WhQ6pa0E7a/JTU=
+  item: null
+  logo: lagoon.svg
+  name: Lagoon
+  repo_url: https://github.com/uselagoon/lagoon
+  repos:
+  - stars: 441
+    url: https://github.com/uselagoon/lagoon
+  twitter_data:
+    latest_tweet_date: 2022-08-05 15:19:35+00:00

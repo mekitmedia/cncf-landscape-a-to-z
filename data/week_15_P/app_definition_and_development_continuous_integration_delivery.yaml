@@ -1,0 +1,86 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/cyberagent-2
+  crunchbase_data:
+    acquisitions:
+    - acquiree: R-Force Entertainment
+      date: '2012-02-09'
+    - acquiree: Avatta
+      date: '2018-03-30'
+    city: Tokyo
+    company_type: For Profit
+    country: Japan
+    description: "CyberAgent operates \u201CAmeba,\u201D which is one of leading Internet\
+      \ media in Japan."
+    homepage: https://www.cyberagent.co.jp
+    industries:
+    - Advertising
+    - Internet
+    - Internet of Things
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/cyberagent
+    name: CyberAgent
+    num_employees_max: 5000
+    num_employees_min: 1001
+    parents: []
+    region: Tokyo
+    stockExchange: tyo
+    ticker: 4751.T
+    twitter: https://twitter.com/CyberAgent_PR
+  github_data:
+    contributions: 6;24;8;12;35;23;15;26;43;34;30;28;21;15;23;24;23;24;25;25;5;11;28;26;44;37;29;34;22;28;20;20;15;26;26;22;30;19;3;24;14;30;28;17;7;7;16;22;0;5;9;8
+    contributors_count: 44
+    contributors_link: https://github.com/pipe-cd/pipecd/graphs/contributors
+    description: The One CD for All {applications, platforms, operations}
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 2621910
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 1467327
+    - color: '#2b7489'
+      name: TypeScript
+      value: 555700
+    - color: '#89e051'
+      name: Shell
+      value: 20784
+    - name: Mustache
+      value: 9787
+    - color: '#384d54'
+      name: Dockerfile
+      value: 7353
+    - color: '#427819'
+      name: Makefile
+      value: 6257
+    - color: '#e34c26'
+      name: HTML
+      value: 487
+    latest_commit_date: '2022-08-05T02:14:17Z'
+    latest_commit_link: /pipe-cd/pipecd/commit/091619c5ec61b34ad94acd327ceb099181fdf187
+    license: Apache License 2.0
+    release_date: '2022-08-05T02:46:06Z'
+    release_link: https://github.com/pipe-cd/pipecd/releases
+    stars: 607
+  github_start_commit_data:
+    start_commit_link: /pipe-cd/pipe/commit/1c03e3021988a7e53fff4b88202d2252bae47b60
+    start_date: '2020-03-09T12:16:03Z'
+  homepage_url: https://pipecd.dev/
+  image_data:
+    fileName: pipe-cd.svg
+    hash: Y/gZO0EgavcE5hOCO52lXXs6SsvTFWT1BdJkiaW7zMI=
+  item: null
+  logo: pipecd.svg
+  name: PipeCD
+  repo_url: https://github.com/pipe-cd/pipecd
+  repos:
+  - stars: 607
+    url: https://github.com/pipe-cd/pipecd
+  twitter: https://twitter.com/pipecd_dev
+  twitter_data:
+    latest_tweet_date: 2022-07-06 03:03:29+00:00
+  yahoo_finance_data:
+    effective_ticker: 4751.T
+    market_cap: 5487647714

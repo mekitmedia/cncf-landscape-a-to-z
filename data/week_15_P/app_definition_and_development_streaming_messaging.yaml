@@ -1,0 +1,268 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/pachyderm
+  crunchbase_data:
+    acquisitions: []
+    city: San Francisco
+    company_type: For Profit
+    country: United States
+    description: Pachyderm is an enterprise-grade data science platform that makes
+      explainable, repeatable, and scalable AI/ML a reality.
+    funding: 28120000
+    homepage: https://www.pachyderm.com
+    industries:
+    - Analytics
+    - Artificial Intelligence
+    - Big Data
+    - Developer APIs
+    - Machine Learning
+    - Open Source
+    kind: funding
+    linkedin: https://www.linkedin.com/company/pachyderm-inc-
+    name: Pachyderm
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/pachyderminc
+  github_data:
+    contributions: 27;42;25;12;38;34;47;46;24;30;14;11;21;10;18;4;18;13;20;3;0;12;8;3;14;20;5;25;23;16;9;8;7;16;14;24;10;16;33;14;19;11;21;23;25;20;34;28;30;39;19;24
+    contributors_count: 162
+    contributors_link: https://github.com/pachyderm/pachyderm/graphs/contributors
+    description: Data-Centric Pipelines and Data Versioning
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 4061219
+    - color: '#89e051'
+      name: Shell
+      value: 97607
+    - name: Mustache
+      value: 63862
+    - color: '#427819'
+      name: Makefile
+      value: 24919
+    - color: '#DA5B0B'
+      name: Jupyter Notebook
+      value: 21217
+    - color: '#0064bd'
+      name: Jsonnet
+      value: 15814
+    - color: '#3572A5'
+      name: Python
+      value: 11659
+    - color: '#563d7c'
+      name: CSS
+      value: 8461
+    - color: '#e34c26'
+      name: HTML
+      value: 6027
+    - color: '#384d54'
+      name: Dockerfile
+      value: 2847
+    latest_commit_date: '2022-08-05T20:52:01Z'
+    latest_commit_link: /pachyderm/pachyderm/commit/72d04351aa8968b731bcacc0a2e314a3e5a84fd0
+    license: Other
+    release_date: '2022-08-04T20:09:19Z'
+    release_link: https://github.com/pachyderm/pachyderm/releases
+    stars: 5598
+  github_start_commit_data:
+    start_commit_link: /pachyderm/pachyderm/commit/11eb4c6e1945beb1e6ce3e878ed2cb6c24ee8bf1
+    start_date: '2014-09-04T07:50:02Z'
+  homepage_url: https://www.pachyderm.com
+  image_data:
+    fileName: pachyderm.svg
+    hash: BhbDEJcI6LsIt/m56CIoyY2flsp35ghG15LjQJW43/8=
+  item: null
+  logo: pachyderm.svg
+  name: Pachyderm
+  open_source: false
+  repo_url: https://github.com/pachyderm/pachyderm
+  repos:
+  - stars: 5598
+    url: https://github.com/pachyderm/pachyderm
+  twitter_data:
+    latest_tweet_date: 2022-08-05 18:02:14+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  extra:
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#pravega-logos
+    blog_url: https://blog.pravega.io/
+    dev_stats_url: https://pravega.devstats.cncf.io/
+    slack_url: https://pravega-slack-invite.herokuapp.com/
+    youtube_url: https://www.youtube.com/channel/UCiEkLCWdnjSpub76ZEZcdqw
+  github_data:
+    contributions: 5;6;5;6;9;4;5;5;6;3;4;6;1;2;9;2;1;0;6;0;0;4;2;2;5;9;6;3;3;1;6;2;1;6;1;3;8;2;1;2;2;3;2;4;4;3;1;2;3;1;1;2
+    contributors_count: 94
+    contributors_link: https://github.com/pravega/pravega/graphs/contributors
+    description: Pravega - Streaming as a new software defined storage primitive
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#b07219'
+      name: Java
+      value: 19763309
+    - color: '#89e051'
+      name: Shell
+      value: 87019
+    - name: HCL
+      value: 16017
+    - color: '#3572A5'
+      name: Python
+      value: 4556
+    - color: '#384d54'
+      name: Dockerfile
+      value: 3456
+    - name: Jinja
+      value: 1279
+    latest_commit_date: '2022-08-05T04:47:09Z'
+    latest_commit_link: /pravega/pravega/commit/029bd206a4c0681e874e641fc9efcac5fa3d8225
+    license: Apache License 2.0
+    release_date: '2022-05-06T17:18:25Z'
+    release_link: https://github.com/pravega/pravega/releases
+    stars: 1768
+  github_start_commit_data:
+    start_commit_link: /pravega/pravega/commit/3f3bec4fd9ae2318c388cd15ff3d21724ec2aa3c
+    start_date: '2016-04-27T17:23:58Z'
+  homepage_url: https://cncf.pravega.io
+  image_data:
+    fileName: pravega.svg
+    hash: +DkHJBfieXbSvfpz3nMv20dV9RBo58s0TCbgjcLbySI=
+  item: null
+  logo: pravega.svg
+  name: Pravega
+  project: sandbox
+  repo_url: https://github.com/pravega/pravega
+  repos:
+  - stars: 1768
+    url: https://github.com/pravega/pravega
+  twitter: https://twitter.com/PravegaIO
+  twitter_data:
+    latest_tweet_date: 2022-05-18 17:05:54+00:00
+- best_practice_data:
+    badge: 5498
+    percentage: 24
+  crunchbase: https://www.crunchbase.com/organization/apache
+  crunchbase_data:
+    acquisitions: []
+    city: Forest Hill
+    company_type: Non Profit
+    country: United States
+    description: Apache Software Foundation provides organizational, legal and financial
+      support for Apache open-source software projects.
+    homepage: http://www.apache.org
+    industries:
+    - Non Profit
+    - Software
+    linkedin: https://www.linkedin.com/company/the-apache-software-foundation
+    name: The Apache Software Foundation
+    num_employees_max: 10
+    num_employees_min: 1
+    parents: []
+    region: Maryland
+    stockExchange: null
+    twitter: http://twitter.com/TheASF
+  github_data:
+    contributions: 52;30;51;47;31;26;52;46;20;58;42;34;69;77;90;41;90;68;93;69;57;44;47;80;81;42;72;65;49;53;30;71;52;43;52;50;50;51;52;75;59;49;50;60;57;47;57;52;92;45;69;44
+    contributors_count: 599
+    contributors_link: https://github.com/apache/pulsar/graphs/contributors
+    description: Apache Pulsar - distributed pub-sub messaging system
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#b07219'
+      name: Java
+      value: 30549958
+    - color: '#e34c26'
+      name: HTML
+      value: 17948879
+    - color: '#f34b7d'
+      name: C++
+      value: 1999234
+    - color: '#3572A5'
+      name: Python
+      value: 437000
+    - color: '#89e051'
+      name: Shell
+      value: 214856
+    - color: '#00ADD8'
+      name: Go
+      value: 116763
+    - color: '#555555'
+      name: C
+      value: 76676
+    - color: '#384d54'
+      name: Dockerfile
+      value: 45529
+    - name: CMake
+      value: 40365
+    - name: HCL
+      value: 14529
+    - color: '#000080'
+      name: Lua
+      value: 5454
+    - color: '#ecdebe'
+      name: Roff
+      value: 3495
+    - color: '#C1F12E'
+      name: Batchfile
+      value: 2170
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 1385
+    latest_commit_date: '2022-08-05T21:32:27Z'
+    latest_commit_link: /apache/pulsar/commit/7a65f3ff907385af4b115f300324e5ec60aa25ac
+    license: Apache License 2.0
+    release_date: '2022-07-20T02:04:10Z'
+    release_link: https://github.com/apache/pulsar/releases
+    stars: 11306
+  github_start_commit_data:
+    start_commit_link: /apache/pulsar/commit/9f849c324969e160f9891203b2a2e4805fae5a1c
+    start_date: '2016-09-07T05:10:37Z'
+  homepage_url: https://pulsar.apache.org/
+  image_data:
+    fileName: pulsar.svg
+    hash: X12DFKXy5W21JWytR6ohBsJ10rhJgakVGV1BLHfpIro=
+  item: null
+  logo: pulsar.svg
+  name: Pulsar
+  repo_url: https://github.com/apache/pulsar
+  repos:
+  - stars: 11306
+    url: https://github.com/apache/pulsar
+  twitter: https://twitter.com/apache_pulsar
+  twitter_data:
+    latest_tweet_date: 2022-08-03 16:00:03+00:00

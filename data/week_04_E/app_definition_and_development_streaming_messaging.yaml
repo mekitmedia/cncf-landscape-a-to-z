@@ -1,0 +1,86 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/emq-technologies
+  crunchbase_data:
+    acquisitions: []
+    city: Morgan Hill
+    company_type: For Profit
+    country: United States
+    description: Open-source IoT data infrastructure software provider, delivering
+      the world's leading MQTT-based IoT messaging platform & streaming database
+    funding: 21430649
+    homepage: https://www.emqx.com
+    industries:
+    - Cloud Data Services
+    - Enterprise Software
+    - Information Technology
+    - Internet of Things
+    - Open Source
+    kind: funding
+    linkedin: https://www.linkedin.com/company/emqtech
+    name: EMQ Technologies
+    num_employees_max: 250
+    num_employees_min: 101
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/EMQTech
+  github_data:
+    contributions: 86;63;104;89;93;84;72;82;33;80;93;47;36;59;69;99;76;69;76;85;161;164;128;82;86;46;109;88;118;106;135;98;152;91;70;73;220;287;59;138;69;69;89;59;194;50;130;64;31;46;55;28
+    contributors_count: 117
+    contributors_link: https://github.com/emqx/emqx/graphs/contributors
+    description: The most scalable open-source MQTT broker for IoT
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#B83998'
+      name: Erlang
+      value: 6008286
+    - color: '#89e051'
+      name: Shell
+      value: 119728
+    - color: '#555555'
+      name: C
+      value: 57549
+    - color: '#6e4a7e'
+      name: Elixir
+      value: 31335
+    - color: '#427819'
+      name: Makefile
+      value: 18097
+    - color: '#C1F12E'
+      name: Batchfile
+      value: 7389
+    - color: '#384d54'
+      name: Dockerfile
+      value: 3207
+    - color: '#3572A5'
+      name: Python
+      value: 1927
+    - name: Mustache
+      value: 1036
+    - color: '#e34c26'
+      name: HTML
+      value: 926
+    latest_commit_date: '2022-08-04T19:27:55Z'
+    latest_commit_link: /emqx/emqx/commit/e9d7cde0b4b43a93967faebcb44cb71d53583ea6
+    license: Other
+    release_date: '2022-08-02T06:49:07Z'
+    release_link: https://github.com/emqx/emqx/releases
+    stars: 10137
+  github_start_commit_data:
+    start_commit_link: /emqx/emqx/commit/11db16725e76c3072f7b50cd62abc4a0aa6a43ba
+    start_date: '2012-12-17T10:07:44Z'
+  homepage_url: https://www.emqx.io/
+  image_data:
+    fileName: emq-technologies.svg
+    hash: oTrh5dWNHBp6Qur5RiyaeWG04U/NxR0uKhV16XeiIL8=
+  item: null
+  logo: emq-technologies.svg
+  name: EMQ Technologies
+  repo_url: https://github.com/emqx/emqx
+  repos:
+  - stars: 10137
+    url: https://github.com/emqx/emqx
+  twitter_data:
+    latest_tweet_date: 2022-08-04 09:20:42+00:00

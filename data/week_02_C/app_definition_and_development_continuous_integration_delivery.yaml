@@ -1,0 +1,603 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/biqmind
+  crunchbase_data:
+    acquisitions: []
+    city: Singapore
+    company_type: For Profit
+    country: Singapore
+    description: Biqmind builds software to accelerate cloud native application development
+      and delivery.
+    homepage: http://www.biqmind.com
+    industries:
+    - Consulting
+    - Enterprise Software
+    - Information Technology
+    - Software
+    linkedin: https://www.linkedin.com/company/biqmind/
+    name: Biqmind
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: Central Region
+    stockExchange: null
+    twitter: https://twitter.com/biqmind
+  description: CAPE automates delivery of enterprise Kubernetes applications and enables
+    complex deployment strategies anywhere.
+  homepage_url: https://cape.sh/
+  image_data:
+    fileName: cape.svg
+    hash: sXG+U2lA01gAht08nu+tSn/H0uczQM5IF6WA57iI5/Y=
+  item: null
+  logo: cape.svg
+  name: CAPE
+  twitter_data:
+    latest_tweet_date: 2022-01-28 03:31:43+00:00
+- best_practice_data:
+    badge: 5329
+    percentage: 100
+  crunchbase: https://www.crunchbase.com/organization/vmware
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Emic Networks
+      date: '2003-12-16'
+    - acquiree: Akimbi Systems
+      date: '2006-06-18'
+    - acquiree: Determina
+      date: '2007-08-06'
+    - acquiree: Dunes Technologies
+      date: '2007-09-11'
+    - acquiree: Thinstall inc
+      date: '2008-01-15'
+    - acquiree: B-hive Networks
+      date: '2008-05-28'
+    - acquiree: Blue Lane Technologies
+      date: '2008-11-30'
+    - acquiree: Spring
+      date: '2009-08-10'
+      price: 362000000
+    - acquiree: Integrien
+      date: '2010-08-31'
+    - acquiree: TriCipher
+      date: '2010-08-31'
+      price: 100000000
+    - acquiree: WaveMaker
+      date: '2011-03-08'
+    - acquiree: SlideRocket
+      date: '2011-04-26'
+    - acquiree: Shavlik Technologies
+      date: '2011-05-16'
+    - acquiree: Socialcast
+      date: '2011-05-31'
+    - acquiree: Digital Fuel
+      date: '2011-06-13'
+    - acquiree: Packetmotion
+      date: '2011-08-01'
+    - acquiree: Wanova
+      date: '2012-05-22'
+    - acquiree: DynamicOps
+      date: '2012-07-02'
+    - acquiree: Nicira Networks
+      date: '2012-07-23'
+      price: 1260000000
+    - acquiree: Virsto Software
+      date: '2013-02-11'
+    - acquiree: Desktone
+      date: '2013-10-15'
+    - acquiree: AirWatch
+      date: '2014-01-22'
+      price: 1540000000
+    - acquiree: CloudVolumes
+      date: '2014-08-20'
+    - acquiree: Immidio
+      date: '2015-02-03'
+    - acquiree: Boxer
+      date: '2015-10-14'
+    - acquiree: Arkin
+      date: '2016-06-13'
+    - acquiree: PLUMgrid
+      date: '2016-12-20'
+    - acquiree: Wavefront
+      date: '2017-04-12'
+      price: 375000000
+    - acquiree: Apteligent
+      date: '2017-05-15'
+      price: 50000000
+    - acquiree: VeloCloud
+      date: '2017-11-02'
+    - acquiree: CloudCoreo
+      date: '2018-02-14'
+    - acquiree: CloudVelox
+      date: '2018-02-22'
+    - acquiree: E8 Security
+      date: '2018-03-28'
+    - acquiree: Bracket Computing
+      date: '2018-05-01'
+    - acquiree: CloudHealth Technologies
+      date: '2018-08-27'
+    - acquiree: Heptio
+      date: '2018-11-06'
+      price: 550000000
+    - acquiree: AetherPal
+      date: '2019-02-05'
+    - acquiree: Bitnami
+      date: '2019-05-15'
+    - acquiree: Avi Networks
+      date: '2019-06-14'
+    - acquiree: Bitfusion.io
+      date: '2019-07-18'
+    - acquiree: Uhana
+      date: '2019-07-25'
+    - acquiree: Veriflow
+      date: '2019-08-16'
+    - acquiree: Intrinsic
+      date: '2019-08-20'
+    - acquiree: Pivotal
+      date: '2019-08-22'
+      price: 2700000000
+    - acquiree: Carbon Black
+      date: '2019-10-08'
+      price: 2100000000
+    - acquiree: Nyansa
+      date: '2020-01-21'
+    - acquiree: Octarine
+      date: '2020-05-13'
+    - acquiree: Lastline
+      date: '2020-06-04'
+    - acquiree: Datrium
+      date: '2020-07-02'
+    - acquiree: SaltStack
+      date: '2020-09-29'
+    - acquiree: Mesh7
+      date: '2021-03-18'
+    city: Palo Alto
+    company_type: For Profit
+    country: United States
+    description: VMware is a provider of multi-cloud services for all apps, enabling
+      digital innovation with enterprise control.
+    funding: 393500000
+    homepage: https://www.vmware.com
+    industries:
+    - Cloud Infrastructure
+    - Cloud Management
+    - Enterprise Software
+    - Information Technology
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/vmware
+    name: VMware
+    num_employees_max: 1000000
+    num_employees_min: 10001
+    parents:
+    - https://www.crunchbase.com/organization/dell-technologies
+    region: California
+    stockExchange: nyse
+    ticker: VMW
+    twitter: http://twitter.com/VMware
+  description: Cartographer is a Kubernetes-native Choreographer providing higher
+    modularity and scalability for the software supply chain.
+  extra:
+    slack_url: https://kubernetes.slack.com/archives/C02HKPSEKV1
+  github_data:
+    contributions: 0;0;0;24;29;56;64;53;45;19;24;16;26;27;26;22;14;18;19;1;0;4;5;10;14;2;9;16;13;17;15;9;12;21;15;7;3;1;1;8;14;3;4;2;4;4;0;2;2;8;0;1
+    contributors_count: 28
+    contributors_link: https://github.com/vmware-tanzu/cartographer/graphs/contributors
+    description: Cartographer is a Supply Chain Choreographer.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 1106807
+    - color: '#89e051'
+      name: Shell
+      value: 44615
+    - color: '#427819'
+      name: Makefile
+      value: 5497
+    - color: '#3572A5'
+      name: Python
+      value: 812
+    latest_commit_date: '2022-08-04T15:58:27Z'
+    latest_commit_link: /vmware-tanzu/cartographer/commit/71dde00d3f85ebceda94e6303d3a684be553879a
+    license: Apache License 2.0
+    release_date: '2022-08-04T19:43:56Z'
+    release_link: https://github.com/vmware-tanzu/cartographer/releases
+    stars: 380
+  github_start_commit_data:
+    start_commit_link: /vmware-tanzu/cartographer/commit/5027e6bb30643a84231099b7aeae429f2a2eed62
+    start_date: '2021-09-01T15:32:51Z'
+  homepage_url: https://cartographer.sh/
+  image_data:
+    fileName: cartographer.svg
+    hash: /wV3+1yEYZsAGXgqpwYWO6NiDnpk61g3bsbDUWkzNzI=
+  item: null
+  logo: cartographer.svg
+  name: Cartographer
+  repo_url: https://github.com/vmware-tanzu/cartographer
+  repos:
+  - stars: 380
+    url: https://github.com/vmware-tanzu/cartographer
+  twitter: https://twitter.com/OssCartographer
+  twitter_data:
+    latest_tweet_date: 2022-06-22 13:33:24+00:00
+  yahoo_finance_data:
+    effective_ticker: VMW
+    market_cap: 49414426624
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/circle-ci
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Distiller
+      date: '2014-12-17'
+    - acquiree: Vamp.io
+      date: '2021-05-11'
+    - acquiree: Ponicode
+      date: '2022-03-09'
+    city: San Francisco
+    company_type: For Profit
+    country: United States
+    description: CircleCI is a continuous integration and delivery platform that automates
+      development workflows and IT operations.
+    funding: 315000000
+    homepage: https://circleci.com
+    industries:
+    - Cloud Computing
+    - Developer Tools
+    - Information Technology
+    - PaaS
+    - Productivity Tools
+    - SaaS
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/circleci
+    name: CircleCI
+    num_employees_max: 1000
+    num_employees_min: 501
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/circleci
+  homepage_url: https://circleci.com/
+  image_data:
+    fileName: circle-ci.svg
+    hash: H8lvsFywp6u/aOf00kg+1DcsgfR/Z7ysVabFkNfNMto=
+  item: null
+  logo: circle-ci.svg
+  name: CircleCI
+  twitter_data:
+    latest_tweet_date: 2022-08-05 15:09:02+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/cloudblocks
+  crunchbase_data:
+    acquisitions: []
+    city: San Francisco
+    company_type: For Profit
+    country: United States
+    description: Ops tools for Devs. Build, deliver, deploy and manage any applications
+      on any cloud or server.
+    funding: 2359443
+    homepage: http://www.cloud66.com
+    industries:
+    - Developer Tools
+    - PaaS
+    - SaaS
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-66
+    name: Cloud 66
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: http://twitter.com/cloud66
+  description: Skycap is the easiest way to deploy and run applications on any existing
+    Kubernetes cluster.
+  homepage_url: https://www.cloud66.com
+  image_data:
+    fileName: cloud-66-skycap.svg
+    hash: A6zDVf8ANG8rZEAskK+xN9fBOW+UuqjKRh4SQg2+icA=
+  item: null
+  logo: cloud66-skycap.svg
+  name: Cloud 66 Skycap
+  twitter_data:
+    latest_tweet_date: 2022-08-06 02:09:01+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/cloudbees
+  crunchbase_data:
+    acquisitions:
+    - acquiree: InfraDNA
+      date: '2010-11-09'
+    - acquiree: Stax Networks
+      date: '2010-12-14'
+    - acquiree: FoxWeave
+      date: '2013-07-24'
+    - acquiree: Codeship
+      date: '2018-02-06'
+    - acquiree: Electric Cloud
+      date: '2019-04-18'
+    - acquiree: Rollout.io
+      date: '2019-06-11'
+    city: San Jose
+    company_type: For Profit
+    country: United States
+    description: CloudBees develops a cloud-based platform that provides end-to-end
+      automated software delivery.
+    funding: 356200000
+    homepage: http://www.cloudbees.com
+    industries:
+    - Business Development
+    - Cloud Computing
+    - Cloud Data Services
+    - Delivery
+    - SaaS
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloudbees
+    name: CloudBees
+    num_employees_max: 1000
+    num_employees_min: 501
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: http://twitter.com/CloudBees
+  description: Ship faster with CI/CD as a Service
+  homepage_url: https://www.cloudbees.com/products/codeship/overview
+  image_data:
+    fileName: cloudbees-codeship.svg
+    hash: AZz1ZhRhcFpHECrnRpdJ791fbBIEw25Q14RWimNHXno=
+  item: null
+  logo: cloudbees.svg
+  name: Cloudbees Codeship
+  twitter_data:
+    latest_tweet_date: 2022-08-05 18:17:08+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/code-fresh
+  crunchbase_data:
+    acquisitions: []
+    city: Mountain View
+    company_type: For Profit
+    country: United States
+    description: Codefresh is a next-generation enterprise software delivery platform
+      for cloud native applications.
+    funding: 43000000
+    homepage: https://www.codefresh.io/
+    industries:
+    - Apps
+    - Developer Tools
+    - Software
+    - Web Development
+    kind: funding
+    linkedin: https://www.linkedin.com/company/codefresh
+    name: Codefresh
+    num_employees_max: 100
+    num_employees_min: 51
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/codefresh
+  homepage_url: https://codefresh.io/
+  image_data:
+    fileName: codefresh.svg
+    hash: 47DNEIZ4yUtZW1jqDB9nCOBRIWhXTalS0xX+IgYwyC0=
+  item: null
+  logo: codefresh.svg
+  name: Codefresh
+  twitter_data:
+    latest_tweet_date: 2022-08-05 21:16:42+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/vmware
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Emic Networks
+      date: '2003-12-16'
+    - acquiree: Akimbi Systems
+      date: '2006-06-18'
+    - acquiree: Determina
+      date: '2007-08-06'
+    - acquiree: Dunes Technologies
+      date: '2007-09-11'
+    - acquiree: Thinstall inc
+      date: '2008-01-15'
+    - acquiree: B-hive Networks
+      date: '2008-05-28'
+    - acquiree: Blue Lane Technologies
+      date: '2008-11-30'
+    - acquiree: Spring
+      date: '2009-08-10'
+      price: 362000000
+    - acquiree: Integrien
+      date: '2010-08-31'
+    - acquiree: TriCipher
+      date: '2010-08-31'
+      price: 100000000
+    - acquiree: WaveMaker
+      date: '2011-03-08'
+    - acquiree: SlideRocket
+      date: '2011-04-26'
+    - acquiree: Shavlik Technologies
+      date: '2011-05-16'
+    - acquiree: Socialcast
+      date: '2011-05-31'
+    - acquiree: Digital Fuel
+      date: '2011-06-13'
+    - acquiree: Packetmotion
+      date: '2011-08-01'
+    - acquiree: Wanova
+      date: '2012-05-22'
+    - acquiree: DynamicOps
+      date: '2012-07-02'
+    - acquiree: Nicira Networks
+      date: '2012-07-23'
+      price: 1260000000
+    - acquiree: Virsto Software
+      date: '2013-02-11'
+    - acquiree: Desktone
+      date: '2013-10-15'
+    - acquiree: AirWatch
+      date: '2014-01-22'
+      price: 1540000000
+    - acquiree: CloudVolumes
+      date: '2014-08-20'
+    - acquiree: Immidio
+      date: '2015-02-03'
+    - acquiree: Boxer
+      date: '2015-10-14'
+    - acquiree: Arkin
+      date: '2016-06-13'
+    - acquiree: PLUMgrid
+      date: '2016-12-20'
+    - acquiree: Wavefront
+      date: '2017-04-12'
+      price: 375000000
+    - acquiree: Apteligent
+      date: '2017-05-15'
+      price: 50000000
+    - acquiree: VeloCloud
+      date: '2017-11-02'
+    - acquiree: CloudCoreo
+      date: '2018-02-14'
+    - acquiree: CloudVelox
+      date: '2018-02-22'
+    - acquiree: E8 Security
+      date: '2018-03-28'
+    - acquiree: Bracket Computing
+      date: '2018-05-01'
+    - acquiree: CloudHealth Technologies
+      date: '2018-08-27'
+    - acquiree: Heptio
+      date: '2018-11-06'
+      price: 550000000
+    - acquiree: AetherPal
+      date: '2019-02-05'
+    - acquiree: Bitnami
+      date: '2019-05-15'
+    - acquiree: Avi Networks
+      date: '2019-06-14'
+    - acquiree: Bitfusion.io
+      date: '2019-07-18'
+    - acquiree: Uhana
+      date: '2019-07-25'
+    - acquiree: Veriflow
+      date: '2019-08-16'
+    - acquiree: Intrinsic
+      date: '2019-08-20'
+    - acquiree: Pivotal
+      date: '2019-08-22'
+      price: 2700000000
+    - acquiree: Carbon Black
+      date: '2019-10-08'
+      price: 2100000000
+    - acquiree: Nyansa
+      date: '2020-01-21'
+    - acquiree: Octarine
+      date: '2020-05-13'
+    - acquiree: Lastline
+      date: '2020-06-04'
+    - acquiree: Datrium
+      date: '2020-07-02'
+    - acquiree: SaltStack
+      date: '2020-09-29'
+    - acquiree: Mesh7
+      date: '2021-03-18'
+    city: Palo Alto
+    company_type: For Profit
+    country: United States
+    description: VMware is a provider of multi-cloud services for all apps, enabling
+      digital innovation with enterprise control.
+    funding: 393500000
+    homepage: https://www.vmware.com
+    industries:
+    - Cloud Infrastructure
+    - Cloud Management
+    - Enterprise Software
+    - Information Technology
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/vmware
+    name: VMware
+    num_employees_max: 1000000
+    num_employees_min: 10001
+    parents:
+    - https://www.crunchbase.com/organization/dell-technologies
+    region: California
+    stockExchange: nyse
+    ticker: VMW
+    twitter: http://twitter.com/VMware
+  github_data:
+    contributions: 58;46;40;39;35;26;35;31;38;18;35;31;31;23;20;17;11;21;21;8;1;23;45;25;24;37;26;38;29;27;12;7;14;43;39;27;21;17;30;29;42;27;22;28;28;13;7;3;2;3;10;7
+    contributors_count: 501
+    contributors_link: https://github.com/concourse/concourse/graphs/contributors
+    description: Concourse is a container-based continuous thing-doer written in Go.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 7067115
+    - color: '#60B5CC'
+      name: Elm
+      value: 2301056
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 76416
+    - name: Less
+      value: 34575
+    - color: '#e34c26'
+      name: HTML
+      value: 9052
+    - name: PLpgSQL
+      value: 8122
+    - color: '#89e051'
+      name: Shell
+      value: 8019
+    - color: '#563d7c'
+      name: CSS
+      value: 3808
+    - color: '#384d54'
+      name: Dockerfile
+      value: 2190
+    - color: '#555555'
+      name: C
+      value: 992
+    - name: Open Policy Agent
+      value: 534
+    - name: HCL
+      value: 256
+    - color: '#427819'
+      name: Makefile
+      value: 133
+    latest_commit_date: '2022-08-05T17:58:21Z'
+    latest_commit_link: /concourse/concourse/commit/f7a0bb07b8d7b498b44b223e3630bb0dcb699863
+    license: Apache License 2.0
+    release_date: '2022-07-16T02:27:15Z'
+    release_link: https://github.com/concourse/concourse/releases
+    stars: 6459
+  github_start_commit_data:
+    start_commit_link: /concourse/concourse/commit/c99ac1afac7eac0742aa12f3661553c5d075b1d9
+    start_date: '2014-04-27T22:35:04Z'
+  homepage_url: https://concourse-ci.org/
+  image_data:
+    fileName: concourse.svg
+    hash: U4Rjv+N+p79aFDboUV+wBKnBlDwV8ASZs0Md/QiZFnI=
+  item: null
+  logo: concourse.svg
+  name: Concourse
+  repo_url: https://github.com/concourse/concourse
+  repos:
+  - stars: 6459
+    url: https://github.com/concourse/concourse
+  twitter: https://twitter.com/concourseci
+  twitter_data:
+    latest_tweet_date: 2022-03-16 16:20:02+00:00
+  yahoo_finance_data:
+    effective_ticker: VMW
+    market_cap: 49414426624

@@ -1,0 +1,73 @@
+- best_practice_data:
+    badge: 4340
+    percentage: 18
+  crunchbase: https://www.crunchbase.com/organization/apache
+  crunchbase_data:
+    acquisitions: []
+    city: Forest Hill
+    company_type: Non Profit
+    country: United States
+    description: Apache Software Foundation provides organizational, legal and financial
+      support for Apache open-source software projects.
+    homepage: http://www.apache.org
+    industries:
+    - Non Profit
+    - Software
+    linkedin: https://www.linkedin.com/company/the-apache-software-foundation
+    name: The Apache Software Foundation
+    num_employees_max: 10
+    num_employees_min: 1
+    parents: []
+    region: Maryland
+    stockExchange: null
+    twitter: http://twitter.com/TheASF
+  github_data:
+    contributions: 22;18;31;18;32;32;51;32;6;36;18;28;27;16;21;5;15;9;20;16;13;7;13;9;17;5;12;6;9;8;6;26;14;17;8;7;15;3;0;13;9;5;1;6;18;12;10;11;16;10;10;5
+    contributors_count: 444
+    contributors_link: https://github.com/apache/dubbo/graphs/contributors
+    description: Apache Dubbo is a high-performance, java based, open source RPC framework.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#b07219'
+      name: Java
+      value: 12148328
+    - name: Mustache
+      value: 50591
+    - color: '#89e051'
+      name: Shell
+      value: 15510
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 3258
+    - color: '#DBCA00'
+      name: Lex
+      value: 2076
+    - color: '#C1F12E'
+      name: Batchfile
+      value: 1959
+    - color: '#384d54'
+      name: Dockerfile
+      value: 1421
+    latest_commit_date: '2022-08-04T07:30:25Z'
+    latest_commit_link: /apache/dubbo/commit/a4052563b779ba0ee8a67eb717b4060698b6960a
+    license: Apache License 2.0
+    release_date: '2022-07-16T08:17:04Z'
+    release_link: https://github.com/apache/dubbo/releases
+    stars: 37706
+  github_start_commit_data:
+    start_commit_link: /apache/dubbo/commit/d22223d3bc41045cfde4191512f7b597e0dc2028
+    start_date: '2011-10-20T15:04:29Z'
+  homepage_url: https://dubbo.apache.org/en/
+  image_data:
+    fileName: dubbo.svg
+    hash: cU6SRdJJN7USUb+TsQhikA8ZtQJpty5PmasoATz2uWA=
+  item: null
+  logo: dubbo.svg
+  name: Dubbo
+  repo_url: https://github.com/apache/dubbo
+  repos:
+  - stars: 37706
+    url: https://github.com/apache/dubbo
+  twitter: https://twitter.com/ApacheDubbo
+  twitter_data:
+    latest_tweet_date: 2019-08-22 07:21:46+00:00

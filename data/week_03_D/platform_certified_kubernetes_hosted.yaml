@@ -1,0 +1,48 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/digitalocean
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Nanobox
+      date: '2019-04-09'
+    - acquiree: Nimbella
+      date: '2021-09-07'
+    - acquiree: CSS Tricks
+      date: '2022-03-15'
+    city: New York
+    company_type: For Profit
+    country: United States
+    description: DigitalOcean provides a cloud platform to deploy, manage, and scale
+      applications of any size.
+    funding: 491275418
+    homepage: http://www.digitalocean.com
+    industries:
+    - Cloud Computing
+    - SaaS
+    - Virtualization
+    - Web Hosting
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/digitalocean
+    name: DigitalOcean
+    num_employees_max: 1000
+    num_employees_min: 501
+    parents: []
+    region: New York
+    stockExchange: nyse
+    ticker: DOCN
+    twitter: http://twitter.com/digitalocean
+  description: DigitalOcean Kubernetes is designed for developers who want a simple
+    and cost effective way to deploy container workloads to a managed Kubernetes service.
+  homepage_url: https://www.digitalocean.com/products/kubernetes/
+  image_data:
+    fileName: digital-ocean-kubernetes.svg
+    hash: 8PvI0Brio6kNdnaghSVt7R0fxoP22ruu915hXWAGoBw=
+  item: null
+  logo: digital-ocean-kubernetes.svg
+  name: DigitalOcean Kubernetes
+  twitter_data:
+    latest_tweet_date: 2022-08-05 16:40:44+00:00
+  yahoo_finance_data:
+    effective_ticker: DOCN
+    market_cap: 4790443520

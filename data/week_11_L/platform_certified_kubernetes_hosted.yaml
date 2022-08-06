@@ -1,0 +1,37 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/linode
+  crunchbase_data:
+    acquisitions: []
+    city: Philadelphia
+    company_type: For Profit
+    country: United States
+    description: Linode is a cloud hosting company offering customers access to Linux
+      virtual servers on high speed internet connections.
+    homepage: http://www.linode.com
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - IaaS
+    - Information Technology
+    - Web Hosting
+    linkedin: https://www.linkedin.com/company/linode
+    name: Linode
+    num_employees_max: 250
+    num_employees_min: 101
+    parents: []
+    region: Pennsylvania
+    stockExchange: null
+    twitter: http://twitter.com/linode
+  description: Linode Kubernetes Engine is a fast and simple way to deploy, scale,
+    and manage Kubernetes clusters running on Linode's global infrastructure.
+  homepage_url: https://www.linode.com/products/kubernetes/
+  image_data:
+    fileName: linode-kubernetes-engine.svg
+    hash: R8GuFN98tRkw9ohzJ0dkLg5E/4RCnzLC2WCLQ01NRm8=
+  item: null
+  logo: linode.svg
+  name: Linode Kubernetes Engine
+  twitter_data:
+    latest_tweet_date: 2022-08-05 21:30:02+00:00

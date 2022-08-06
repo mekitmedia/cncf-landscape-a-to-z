@@ -1,0 +1,273 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/saltstack
+  crunchbase_data:
+    acquisitions: []
+    city: Lehi
+    company_type: For Profit
+    country: United States
+    description: SaltStack is intelligent automation for a software-defined world.
+    funding: 27900000
+    homepage: https://www.vmware.com
+    industries:
+    - Cloud Management
+    - Cyber Security
+    - IT Management
+    - Information Technology
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/salt-stack-inc
+    name: SaltStack
+    num_employees_max: 100
+    num_employees_min: 51
+    parents: []
+    region: Utah
+    stockExchange: null
+    twitter: http://twitter.com/SaltStack
+  github_data:
+    contributions: 33;32;31;30;27;27;56;45;34;30;20;30;51;21;24;42;14;18;35;15;1;13;44;41;48;55;50;29;81;27;37;25;41;33;31;29;7;18;36;23;22;37;28;11;29;10;34;28;18;26;10;10
+    contributors_count: 3776
+    contributors_link: https://github.com/saltstack/salt/graphs/contributors
+    description: 'Software to automate the management and configuration of any infrastructure
+      or application at scale. Get access to the Salt software package repository
+      here: '
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#3572A5'
+      name: Python
+      value: 40950153
+    - color: '#89e051'
+      name: Shell
+      value: 500737
+    - name: NSIS
+      value: 74428
+    - color: '#C1F12E'
+      name: Batchfile
+      value: 57433
+    - name: Jinja
+      value: 45598
+    - color: '#646464'
+      name: SaltStack
+      value: 44286
+    - color: '#012456'
+      name: PowerShell
+      value: 32931
+    - color: '#e69f56'
+      name: Groovy
+      value: 12318
+    - color: '#e34c26'
+      name: HTML
+      value: 8031
+    - name: Rich Text Format
+      value: 6242
+    - color: '#555555'
+      name: C
+      value: 1571
+    - name: Cython
+      value: 1458
+    - name: Scilab
+      value: 1147
+    - color: '#701516'
+      name: Ruby
+      value: 961
+    - color: '#1e4aec'
+      name: Scheme
+      value: 895
+    - color: '#427819'
+      name: Makefile
+      value: 713
+    - name: HCL
+      value: 257
+    - color: '#ecdebe'
+      name: Roff
+      value: 191
+    - color: '#384d54'
+      name: Dockerfile
+      value: 184
+    latest_commit_date: '2022-08-06T02:36:15Z'
+    latest_commit_link: /saltstack/salt/commit/b8dfef5076bfca63f6e6aa7bad388753871ab32b
+    license: Apache License 2.0
+    release_date: '2022-08-01T16:52:08Z'
+    release_link: https://github.com/saltstack/salt/releases
+    stars: 12649
+  github_start_commit_data:
+    start_commit_link: /saltstack/salt/commit/7578c4d9f429b91dd8df553fc6ed78f4c8b76e7c
+    start_date: '2011-02-20T20:18:32Z'
+  homepage_url: https://www.vmware.com/support/acquisitions/saltstack.html
+  image_data:
+    fileName: salt-stack.svg
+    hash: mMlPWthwNU97wmSSgSHPu9Ttqy43DGTTlhsnKHjSzhM=
+  item: null
+  logo: salt-stack.svg
+  name: SaltStack
+  repo_url: https://github.com/saltstack/salt
+  repos:
+  - stars: 12649
+    url: https://github.com/saltstack/salt
+  twitter: https://twitter.com/Salt_Project_OS
+  twitter_data:
+    latest_tweet_date: 2022-08-05 22:00:29+00:00
+- best_practice_data:
+    badge: 1833
+    percentage: 100
+  crunchbase: https://www.crunchbase.com/organization/stackstorm
+  crunchbase_data:
+    acquisitions: []
+    city: San Jose
+    company_type: For Profit
+    country: United States
+    description: A leader in event driven automation with particular strengths in
+      operations and security remediation.
+    funding: 0
+    homepage: http://stackstorm.com
+    industries:
+    - Data Center Automation
+    - Information Technology
+    linkedin: https://www.linkedin.com/company/stackstorm
+    name: StackStorm
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: http://twitter.com/Stack_Storm
+  github_data:
+    contributions: 31;19;21;12;13;25;40;31;98;20;18;24;1;12;10;4;25;29;10;3;8;17;13;8;29;10;15;12;0;17;4;2;12;81;39;7;2;0;7;0;0;2;0;0;1;4;10;11;5;23;4;5
+    contributors_count: 188
+    contributors_link: https://github.com/stackstorm/st2/graphs/contributors
+    description: StackStorm (aka "IFTTT for Ops") is event-driven automation for auto-remediation,
+      security responses, troubleshooting, deployments, and more. Includes rules engine,
+      workflow, 160 integration packs with 6000+ actions (see https://exchange.stackstorm.org)
+      and ChatOps. Installer at https://docs.stackstorm.com/install/index.html. Questions?
+      https://forum.stackstorm.com/.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#3572A5'
+      name: Python
+      value: 6397534
+    - name: Jinja
+      value: 174405
+    - color: '#427819'
+      name: Makefile
+      value: 75530
+    - color: '#89e051'
+      name: Shell
+      value: 75280
+    - color: '#012456'
+      name: PowerShell
+      value: 856
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 444
+    - color: '#e34c26'
+      name: HTML
+      value: 198
+    latest_commit_date: '2022-08-03T21:30:48Z'
+    latest_commit_link: /StackStorm/st2/commit/2e74993da4af4fecb91431c2271a91caf5dd476c
+    license: Apache License 2.0
+    release_date: '2022-05-06T23:28:05Z'
+    release_link: https://github.com/stackstorm/st2/releases
+    stars: 4905
+  github_start_commit_data:
+    start_commit_link: /StackStorm/st2/commit/6627d4ab1c99c55a6a485cae959a8e76b478cc94
+    start_date: '2014-04-23T00:51:34Z'
+  homepage_url: https://stackstorm.com/
+  image_data:
+    fileName: stack-storm.svg
+    hash: TGvo8z/6H2UkFD6p32OSvoDDuGiM8qu+tpqD0tmfPVs=
+  item: null
+  logo: stackstorm.svg
+  name: StackStorm
+  repo_url: https://github.com/stackstorm/st2
+  repos:
+  - stars: 4905
+    url: https://github.com/stackstorm/st2
+  twitter: https://twitter.com/StackStorm
+  twitter_data:
+    latest_tweet_date: 2022-08-05 17:11:36+00:00
+- best_practice_data:
+    badge: 5236
+    percentage: 100
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  description: An edge-native container management system for edge computing
+  extra:
+    accepted: '2021-09-14'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#superedge-logos
+    blog_url: https://superedge.io/blog/
+    chat_channel: '#superedge-community'
+    dev_stats_url: https://superedge.devstats.cncf.io
+    slack_url: https://superedge-workspace.slack.com/
+  github_data:
+    contributions: 2;1;0;4;4;4;15;13;2;2;3;1;3;0;6;2;15;0;5;1;4;1;0;3;5;0;4;9;7;16;9;1;0;5;1;0;3;3;0;9;1;1;2;4;6;3;2;2;1;2;1;3
+    contributors_count: 52
+    contributors_link: https://github.com/superedge/superedge/graphs/contributors
+    description: An edge-native container management system for edge computing
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 1129634
+    - color: '#427819'
+      name: Makefile
+      value: 13152
+    - color: '#89e051'
+      name: Shell
+      value: 7147
+    - color: '#384d54'
+      name: Dockerfile
+      value: 2267
+    latest_commit_date: '2022-08-02T02:01:49Z'
+    latest_commit_link: /superedge/superedge/commit/04db6a3b18a4fc8df0d84b7943f5900ffc67b40f
+    license: Other
+    release_date: '2022-07-29T03:47:41Z'
+    release_link: https://github.com/superedge/superedge/releases
+    stars: 839
+  github_start_commit_data:
+    start_commit_link: /superedge/superedge/commit/4097ed2040b816a76d928ad9e28648eae3a9084e
+    start_date: '2020-12-19T03:42:37Z'
+  homepage_url: https://superedge.io/
+  image_data:
+    fileName: super-edge.svg
+    hash: Sw3ft3J2bv/AHPzj9X1F+IiQM2FVOuZxS7MkPyFAVX0=
+  item: null
+  logo: superedge.svg
+  name: SuperEdge
+  project: sandbox
+  repo_url: https://github.com/superedge/superedge
+  repos:
+  - stars: 839
+    url: https://github.com/superedge/superedge
+  twitter_data:
+    latest_tweet_date: 2022-08-05 21:09:37+00:00

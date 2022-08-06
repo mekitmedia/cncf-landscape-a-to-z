@@ -1,0 +1,97 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/hashicorp
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Vektra
+      date: '2016-06-14'
+    city: San Francisco
+    company_type: For Profit
+    country: United States
+    description: HashiCorp is a remote-first company that solves development, security,
+      and operations challenges in infrastructure.
+    funding: 349175000
+    homepage: https://www.hashicorp.com
+    industries:
+    - Cloud Infrastructure
+    - Cyber Security
+    - Information Technology
+    - Private Cloud
+    - Software
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/HashiCorp
+    name: HashiCorp
+    num_employees_max: 5000
+    num_employees_min: 1001
+    parents: []
+    region: California
+    stockExchange: nasdaq
+    ticker: HCP
+    twitter: https://twitter.com/HashiCorp
+  github_data:
+    contributions: 11;29;25;20;29;22;19;39;31;50;46;38;41;34;40;28;25;33;30;27;1;21;26;27;40;31;49;67;59;30;28;44;41;34;35;27;33;27;20;53;82;59;49;63;46;31;26;10;16;41;30;39
+    contributors_count: 1222
+    contributors_link: https://github.com/hashicorp/vault/graphs/contributors
+    description: A tool for secrets management, encryption as a service, and privileged
+      access management
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 11626868
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 2612710
+    - name: Handlebars
+      value: 777916
+    - name: SCSS
+      value: 119294
+    - color: '#89e051'
+      name: Shell
+      value: 52514
+    - name: HCL
+      value: 40767
+    - color: '#427819'
+      name: Makefile
+      value: 14913
+    - color: '#384d54'
+      name: Dockerfile
+      value: 9477
+    - color: '#C1F12E'
+      name: Batchfile
+      value: 5515
+    - color: '#563d7c'
+      name: CSS
+      value: 3851
+    - color: '#e34c26'
+      name: HTML
+      value: 2103
+    - color: '#3572A5'
+      name: Python
+      value: 216
+    latest_commit_date: '2022-08-05T18:57:47Z'
+    latest_commit_link: /hashicorp/vault/commit/20d051c669faecc060c8a07d1531685d892a5c79
+    license: Mozilla Public License 2.0
+    release_date: '2022-08-02T18:32:42Z'
+    release_link: https://github.com/hashicorp/vault/releases
+    stars: 25158
+  github_start_commit_data:
+    start_commit_link: /hashicorp/vault/commit/ed3069f01d4ee023d296212a3521d3354f109194
+    start_date: '2015-02-25T00:15:59Z'
+  homepage_url: https://www.vaultproject.io/
+  image_data:
+    fileName: vault.svg
+    hash: KwgNePyW+/n7urqf6CpdUifgWB27M+Rpn7fJAELlla8=
+  item: null
+  logo: vault.svg
+  name: Vault
+  repo_url: https://github.com/hashicorp/vault
+  repos:
+  - stars: 25158
+    url: https://github.com/hashicorp/vault
+  twitter_data:
+    latest_tweet_date: 2022-08-05 23:07:00+00:00
+  yahoo_finance_data:
+    effective_ticker: HCP
+    market_cap: 6973402624

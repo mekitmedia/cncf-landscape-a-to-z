@@ -1,0 +1,120 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/mia-platform
+  crunchbase_data:
+    acquisitions: []
+    city: Milan
+    company_type: For Profit
+    country: Italy
+    description: "Mia\u2011Platform provides the first end\u2011to\u2011end Digital\
+      \ Integration Hub on the market with full DevOps Lifecycle Management."
+    homepage: https://www.mia-platform.eu
+    industries:
+    - Information Technology
+    - Internet
+    - Software
+    linkedin: https://www.linkedin.com/company/mia-platform/
+    name: Mia-Platform
+    num_employees_max: 250
+    num_employees_min: 101
+    parents: []
+    region: Lombardia
+    stockExchange: null
+    twitter: https://twitter.com/miaplatform
+  description: "Mia-Platform is the leading end-to-end Digital Integration Hub on\
+    \ the market. Its DevOps Console helps to manage Kubernetes clusters, define environments,\
+    \ set up test automation, design and run CI/CD pipelines, and guarantee an effective\
+    \ and efficient governance by controlling all the services \u2013 like Git, Jenkins,\
+    \ Docker, Nexus, Kubernetes, Terraform, Prometheus, Kibana and many others - from\
+    \ a single tool."
+  homepage_url: https://mia-platform.eu
+  image_data:
+    fileName: mia-platform.svg
+    hash: X73br3HAh2jy0qCF9iWG5Dic29XC+2xyjqkywO5r5kA=
+  item: null
+  logo: mia-platform.svg
+  name: Mia-Platform
+  twitter_data:
+    latest_tweet_date: 2022-08-05 09:07:36+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/kubeshop
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Botkube
+      date: '2022-07-07'
+    city: Wilmington
+    company_type: For Profit
+    country: United States
+    description: At Kubeshop, our mission is to build a thriving open-source ecosystem
+      and pipeline of next generation Kubernetes products and projects.
+    homepage: https://kubeshop.io/
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Cloud Management
+    - Open Source
+    - Software
+    linkedin: https://www.linkedin.com/company/kubeshop/
+    name: Kubeshop
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: Delaware
+    stockExchange: null
+    twitter: https://twitter.com/thekubeshop
+  description: Monokle is your friendly desktop UI for managing Kubernetes manifests.
+    Monokle helps you quickly get a high-level view of your manifests and their contained
+    resources, easily edit resources without having to learn yaml syntax, diff resources
+    against your cluster, preview and debug resources generated with kustomize or
+    Helm, and more. Monokle is created and maintained by Kubeshop.
+  github_data:
+    contributions: 126;85;66;76;67;82;63;95;58;48;16;77;68;110;134;148;106;68;89;81;52;86;157;283;338;125;92;106;70;77;79;134;44;50;67;52;73;90;76;79;136;122;141;2;59;72;109;115;66;60;98;58
+    contributors_count: 35
+    contributors_link: https://github.com/kubeshop/monokle/graphs/contributors
+    description: "\U0001F9D0 Monokle is your K8s best friend for creating, validating,\
+      \ debugging and managing manifests! \U0001F680"
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#2b7489'
+      name: TypeScript
+      value: 1832752
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 11220
+    - color: '#563d7c'
+      name: CSS
+      value: 9273
+    - color: '#89e051'
+      name: Shell
+      value: 2851
+    - color: '#e34c26'
+      name: HTML
+      value: 1314
+    - color: '#C1F12E'
+      name: Batchfile
+      value: 114
+    latest_commit_date: '2022-08-05T08:20:57Z'
+    latest_commit_link: /kubeshop/monokle/commit/bfc183419485507c8c61b575ca93b0114605f65c
+    license: MIT License
+    release_date: '2022-08-06T02:54:11Z'
+    release_link: https://github.com/kubeshop/monokle/releases
+    stars: 539
+  github_start_commit_data:
+    start_commit_link: /kubeshop/monokle/commit/845e3f2f129e33ea896334aec7e4dd3e53d91bf1
+    start_date: '2021-06-04T08:35:17Z'
+  homepage_url: https://monokle.kubeshop.io
+  image_data:
+    fileName: monokle.svg
+    hash: 5A4ATa8f3W5WPOKCDrvc72jf5PsUH/Hs94hDn7msXz8=
+  item: null
+  logo: monokle.svg
+  name: Monokle
+  repo_url: https://github.com/kubeshop/monokle
+  repos:
+  - stars: 539
+    url: https://github.com/kubeshop/monokle
+  twitter_data:
+    latest_tweet_date: 2022-08-02 13:19:49+00:00

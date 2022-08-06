@@ -1,0 +1,393 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/sensu-inc
+  crunchbase_data:
+    acquisitions: []
+    city: Portland
+    company_type: For Profit
+    country: United States
+    description: Sensu is a full-stack monitoring platform for dynamic operating environments.
+    funding: 12500000
+    homepage: https://sensu.io/
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Data Center Automation
+    - Enterprise Software
+    - IT Infrastructure
+    - Internet
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/sensu-inc/
+    name: Sensu
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: Oregon
+    stockExchange: null
+    twitter: https://twitter.com/sensu
+  github_data:
+    contributions: 1;5;4;3;1;3;6;8;4;2;8;14;10;2;10;10;6;3;20;1;0;7;4;0;4;10;6;7;2;1;1;3;0;2;6;15;3;8;9;11;9;3;0;15;4;19;1;2;1;0;0;0
+    contributors_count: 58
+    contributors_link: https://github.com/sensu/sensu-go/graphs/contributors
+    description: Simple. Scalable. Multi-cloud monitoring.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 4601829
+    - color: '#012456'
+      name: PowerShell
+      value: 6873
+    - color: '#89e051'
+      name: Shell
+      value: 844
+    latest_commit_date: '2022-07-11T15:42:46Z'
+    latest_commit_link: /sensu/sensu-go/commit/5c34e82f3347a0165cc2f9ec7e765c13fa7a7748
+    license: MIT License
+    release_date: '2022-07-15T19:30:39Z'
+    release_link: https://github.com/sensu/sensu-go/releases
+    stars: 802
+  github_start_commit_data:
+    start_commit_link: /sensu/sensu-go/commit/387c20615518f1325528705e0ef09e4d30d80378
+    start_date: '2017-02-23T23:38:09Z'
+  homepage_url: https://sensu.io/
+  image_data:
+    fileName: sensu.svg
+    hash: uD8ss5hYS06FWUVyTr5Y/Tpj+IJQM9YVJsmmqkoPhYA=
+  item: null
+  logo: sensu.svg
+  name: Sensu
+  repo_url: https://github.com/sensu/sensu-go
+  repos:
+  - stars: 802
+    url: https://github.com/sensu/sensu-go
+  twitter_data:
+    latest_tweet_date: 2022-08-05 15:22:54+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/sentry
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Specto
+      date: '2021-11-24'
+    city: San Francisco
+    company_type: For Profit
+    country: United States
+    description: Sentry is a developer of an application monitoring platform that
+      helps developers optimize the performance of their code.
+    funding: 217000000
+    homepage: https://www.sentry.io
+    industries:
+    - Application Performance Management
+    - Developer Tools
+    - Real Time
+    - Web Apps
+    kind: funding
+    linkedin: https://www.linkedin.com/company/getsentry
+    name: Sentry
+    num_employees_max: 250
+    num_employees_min: 101
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/getsentry
+  github_data:
+    contributions: 10;60;108;124;87;123;145;143;178;122;140;121;128;130;95;109;133;121;158;50;6;113;128;113;152;119;106;135;136;190;159;193;123;205;200;139;177;202;161;196;211;129;194;143;203;186;190;134;206;173;201;202
+    contributors_count: 686
+    contributors_link: https://github.com/getsentry/sentry/graphs/contributors
+    description: Sentry is cross-platform application monitoring, with a focus on
+      error reporting.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#3572A5'
+      name: Python
+      value: 20236951
+    - color: '#2b7489'
+      name: TypeScript
+      value: 11889546
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 2795805
+    - name: Less
+      value: 243956
+    - color: '#e34c26'
+      name: HTML
+      value: 216908
+    - color: '#000080'
+      name: Lua
+      value: 68855
+    - color: '#89e051'
+      name: Shell
+      value: 24719
+    - name: PEG.js
+      value: 11809
+    - color: '#384d54'
+      name: Dockerfile
+      value: 6514
+    - color: '#427819'
+      name: Makefile
+      value: 5812
+    - name: EJS
+      value: 2939
+    - color: '#701516'
+      name: Ruby
+      value: 648
+    latest_commit_date: '2022-08-05T21:25:00Z'
+    latest_commit_link: /getsentry/sentry/commit/e1048417ad7fd4df43a0ecd7d2070eddab4e829f
+    license: Other
+    release_date: '2022-07-15T17:48:10Z'
+    release_link: https://github.com/getsentry/sentry/releases
+    stars: 31628
+  github_start_commit_data:
+    start_commit_link: /getsentry/sentry/commit/3c2e87573d3bd16f61cf08fece0638cc47a4fc22
+    start_date: '2008-05-12T16:26:19Z'
+  homepage_url: https://sentry.io/welcome/
+  image_data:
+    fileName: sentry.svg
+    hash: J1tLCQyFxskTpkUOOn2JKjaQUyRTQeiRLrdwF3CE0rE=
+  item: null
+  logo: sentry.svg
+  name: Sentry
+  open_source: false
+  repo_url: https://github.com/getsentry/sentry
+  repos:
+  - stars: 31628
+    url: https://github.com/getsentry/sentry
+  twitter_data:
+    latest_tweet_date: 2022-08-05 15:06:11+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/splunk
+  crunchbase_data:
+    acquisitions:
+    - acquiree: BugSense
+      date: '2013-09-16'
+    - acquiree: Cloudmeter
+      date: '2013-12-10'
+    - acquiree: Metafor Software
+      date: '2015-06-29'
+    - acquiree: Caspida
+      date: '2015-07-09'
+      price: 190000000
+    - acquiree: SignalSense, Inc.
+      date: '2017-10-17'
+    - acquiree: Phantom
+      date: '2018-02-27'
+      price: 350000000
+    - acquiree: VictorOps
+      date: '2018-06-11'
+      price: 120000000
+    - acquiree: KryptonCloud
+      date: '2018-08-01'
+    - acquiree: SignalFx
+      date: '2019-08-22'
+      price: 1050000000
+    - acquiree: Omnition
+      date: '2019-09-04'
+    - acquiree: Streamlio
+      date: '2019-10-21'
+    - acquiree: Plumbr
+      date: '2020-10-20'
+    - acquiree: Rigor
+      date: '2020-10-20'
+    - acquiree: Flowmill
+      date: '2020-11-25'
+    - acquiree: TruSTAR
+      date: '2021-05-18'
+    city: San Francisco
+    company_type: For Profit
+    country: United States
+    description: Splunk is a software company that provides operational intelligence
+      software that monitors, reports, and analyzes real-time machine data.
+    funding: 2440000000
+    homepage: https://www.splunk.com
+    industries:
+    - Analytics
+    - Information Technology
+    - Intelligent Systems
+    - Real Time
+    - Software
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/splunk
+    name: Splunk
+    num_employees_max: 10000
+    num_employees_min: 5001
+    parents: []
+    region: California
+    stockExchange: bmv
+    ticker: SPLK
+    twitter: http://twitter.com/splunk
+  homepage_url: https://www.splunk.com/en_us/devops/signalfx.html
+  image_data:
+    fileName: signal-fx.svg
+    hash: 8IqLA6tWjJssT+lVSh3pEXO29m594t2nhwzw3YWWjRs=
+  item: null
+  logo: signal-fx.svg
+  name: SignalFX
+  twitter_data:
+    latest_tweet_date: 2022-08-05 20:00:01+00:00
+  yahoo_finance_data:
+    effective_ticker: SPLK
+    market_cap: 18112512000
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  github_data:
+    contributions: 1;0;0;0;0;0;0;0;0;0;0;0;0;6;0;2;0;0;0;0;0;0;1;1;0;0;0;1;13;2;0;0;0;2;0;3;0;0;0;0;0;10;0;4;0;0;0;1;0;0;0;0
+    contributors_count: 51
+    contributors_link: https://github.com/skooner-k8s/skooner/graphs/contributors
+    description: Simple Kubernetes real-time dashboard and management.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 4601564
+    - color: '#2b7489'
+      name: TypeScript
+      value: 359868
+    - name: SCSS
+      value: 21024
+    - color: '#e34c26'
+      name: HTML
+      value: 1268
+    - color: '#384d54'
+      name: Dockerfile
+      value: 777
+    - color: '#89e051'
+      name: Shell
+      value: 223
+    latest_commit_date: '2022-07-06T18:09:33Z'
+    latest_commit_link: /skooner-k8s/skooner/commit/b02f348a893e161b1ad77b9bac60cbb799884b7c
+    license: Apache License 2.0
+    release_date: '2021-06-25T16:37:15Z'
+    release_link: https://github.com/skooner-k8s/skooner/releases
+    stars: 959
+  github_start_commit_data:
+    start_commit_link: /skooner-k8s/skooner/commit/b229552af0a4c9f6cc0fc978a59d6f4a2301fd3c
+    start_date: '2019-03-15T14:12:07Z'
+  homepage_url: https://skooner.io/
+  image_data:
+    fileName: skooner.svg
+    hash: DCG42K3zJhy74ElfPVxySgpWckGP+cptPvYUP+yqsvQ=
+  item: null
+  logo: skooner.svg
+  name: Skooner
+  project: sandbox
+  repo_url: https://github.com/skooner-k8s/skooner
+  repos:
+  - stars: 959
+    url: https://github.com/skooner-k8s/skooner
+  twitter_data:
+    latest_tweet_date: 2022-08-05 21:09:37+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/sosivio
+  crunchbase_data:
+    acquisitions: []
+    city: San Francisco
+    company_type: For Profit
+    country: United States
+    description: Predictive Troubleshooting for Kubernetes
+    funding: 7000000
+    homepage: https://sosiv.io/
+    industries:
+    - Artificial Intelligence
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Cloud Management
+    - Cloud Security
+    - Enterprise Software
+    - Machine Learning
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/sosivio
+    name: Sosivio
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/SosivioInc
+  description: Sosivio is a non-intrusive autonomous cloud native platform delivering
+    unmatched visibility into your cloud native environment, eventless failure prediction,
+    and automatic resolution.
+  homepage_url: https://www.sosiv.io
+  image_data:
+    fileName: sosivio.svg
+    hash: VCfyB3vZ6M8nJUouQcqYKeVdp+l7exzzgP1iH96o6dE=
+  item: null
+  logo: sosivio.svg
+  name: Sosivio
+  twitter: null
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/stackstate
+  crunchbase_data:
+    acquisitions: []
+    city: Hilversum
+    company_type: For Profit
+    country: The Netherlands
+    description: StackState is the only topology-powered observability & AIOps company.
+    funding: 13000000
+    homepage: https://stackstate.com/
+    industries:
+    - Analytics
+    - Application Performance Management
+    - Cloud Infrastructure
+    - Information Technology
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/stackstate
+    name: StackState
+    num_employees_max: 100
+    num_employees_min: 51
+    parents: []
+    region: Noord-Holland
+    stockExchange: null
+    twitter: https://twitter.com/gostackstate
+  homepage_url: https://www.stackstate.com/
+  image_data:
+    fileName: stack-state.svg
+    hash: smwhltUr9TsMoF1ctXeXLJy6SCB1yNd1+Uo/UA4thTs=
+  item: null
+  logo: stackstate.svg
+  name: StackState
+  twitter_data:
+    latest_tweet_date: 2022-08-04 09:09:07+00:00

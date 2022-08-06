@@ -1,0 +1,77 @@
+- best_practice_data:
+    badge: 4865
+    percentage: 100
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  description: Submariner enables direct networking between Pods and Services in different
+    Kubernetes clusters, either on-premises or in the cloud.
+  github_data:
+    contributions: 5;4;3;0;3;3;0;2;2;5;1;7;15;9;3;0;1;11;4;6;0;4;5;8;2;2;8;3;11;6;4;8;3;14;7;2;2;6;5;10;0;3;3;4;2;12;2;3;4;3;2;6
+    contributors_count: 40
+    contributors_link: https://github.com/submariner-io/submariner/graphs/contributors
+    description: Connect all your Kubernetes clusters, no matter where they are in
+      the world.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 932239
+    - color: '#89e051'
+      name: Shell
+      value: 11831
+    - color: '#427819'
+      name: Makefile
+      value: 4848
+    latest_commit_date: '2022-08-04T14:24:44Z'
+    latest_commit_link: /submariner-io/submariner/commit/0957e2bd07eaf430866a30ba0962f747ba19f10c
+    license: Apache License 2.0
+    release_date: '2022-07-18T12:01:05Z'
+    release_link: https://github.com/submariner-io/submariner/releases
+    stars: 1925
+  github_start_commit_data:
+    start_commit_link: /submariner-io/submariner/commit/4153f762a21ea9b554166ad424faaae4162cd769
+    start_date: '2019-03-12T05:02:40Z'
+  homepage_url: https://submariner.io
+  image_data:
+    fileName: submariner.svg
+    hash: kfOWqyvLOhv8tpB6iSwLwYPQ9RiQad2E+BkXwLXJCuA=
+  item: null
+  logo: submariner.svg
+  name: Submariner
+  project: sandbox
+  repo_url: https://github.com/submariner-io/submariner
+  repos:
+  - stars: 1925
+    url: https://github.com/submariner-io/submariner
+  twitter: https://twitter.com/submarinerio
+  twitter_data:
+    latest_tweet_date: 2022-07-26 16:19:36+00:00

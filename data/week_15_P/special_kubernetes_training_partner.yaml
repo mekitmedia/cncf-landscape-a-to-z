@@ -1,0 +1,101 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/particule
+  crunchbase_data:
+    acquisitions: []
+    city: Paris
+    company_type: For Profit
+    country: France
+    description: We build Cloud Native infrastructure, from an application on your
+      laptop to a scalable infrastructure, define as code
+    homepage: https://particule.io/
+    industries: []
+    linkedin: https://www.linkedin.com/company/particuleio/
+    name: Particule
+    num_employees_max: 10
+    num_employees_min: 1
+    parents: []
+    region: Ile-de-France
+    stockExchange: null
+    twitter: https://twitter.com/particuleio
+  homepage_url: https://particule.io/en/
+  image_data:
+    fileName: particule-ktp.svg
+    hash: fyAFEw7Sp3xVPz+4XEeOSzyr5z4hQJ2in4mpM0iw0EY=
+  item: null
+  logo: particule.svg
+  name: Particule (KTP)
+  twitter_data:
+    latest_tweet_date: 2022-05-23 08:25:15+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/polar-squad
+  crunchbase_data:
+    acquisitions: []
+    city: Helsinki
+    company_type: For Profit
+    country: Finland
+    description: Information Technology and Services
+    homepage: https://www.polarsquad.com/
+    industries:
+    - CRM
+    - Information Technology
+    - Software
+    linkedin: https://www.linkedin.com/company/polarsquad/
+    name: Polar Squad
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: Southern Finland
+    stockExchange: null
+    twitter: https://twitter.com/polarsquadhq
+  description: Polar Squad offers consulting on cloud native technologies and rapid
+    software development practices. We provide hands-on Kubernetes consulting, workshops
+    and training.
+  extra:
+    training_certifications: cka, ckad
+    training_type: instructor-led
+  homepage_url: https://polarsquad.com/
+  image_data:
+    fileName: polar-squad-ktp.svg
+    hash: fkM4Q446QuC9aWym5/3vcHf1sRuNKBAQjv+jrNnkvzs=
+  item: null
+  logo: polar-squad.svg
+  name: Polar Squad (KTP)
+  twitter_data:
+    latest_tweet_date: 2022-06-30 11:02:02+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/prodyna
+  crunchbase_data:
+    acquisitions: []
+    city: Eschborn
+    company_type: For Profit
+    country: Germany
+    description: PRODYNA is an innovative IT consultancy specialized on the topic
+      of digital business.
+    homepage: http://www.prodyna.com/
+    industries:
+    - Information Technology
+    linkedin: https://www.linkedin.com/company-beta/274445/
+    name: PRODYNA
+    num_employees_max: 500
+    num_employees_min: 251
+    parents: []
+    region: Hessen
+    stockExchange: null
+    twitter: https://twitter.com/PRODYNASE
+  description: PRODYNA designs, implements, and operates Kubernetes-based custom applications
+    for mid- to large size enterprises in all of Europe.
+  homepage_url: https://www.prodyna.com/en/cloud-native-computing-docker-kubernetes
+  image_data:
+    fileName: prodyna-ktp.svg
+    hash: 14MsfR1DYmXJ0oVOMITYjLSGzdPkHRhEtm2NSDdanv4=
+  item: null
+  logo: prodyna.svg
+  name: PRODYNA (KTP)
+  twitter_data:
+    latest_tweet_date: 2022-08-05 11:23:18+00:00

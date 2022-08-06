@@ -1,0 +1,493 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  branch: maint
+  crunchbase: https://www.crunchbase.com/organization/nagios
+  crunchbase_data:
+    acquisitions: []
+    city: Saint Paul
+    company_type: For Profit
+    country: United States
+    description: Nagios Enterprises offers monitoring and alerting solutions for servers,
+      switches, applications, and services.
+    homepage: http://www.nagios.org/
+    industries:
+    - Information Technology
+    linkedin: https://www.linkedin.com/company/nagios-enterprises-llc/
+    name: Nagios
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: Minnesota
+    stockExchange: null
+    twitter: http://twitter.com/nagiosinc
+  github_data:
+    contributions: 0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;2;28;3;0;0;1;0;1;0;0;0;0;3;0;0;0;0;0;0
+    contributors_count: 81
+    contributors_link: https://github.com/NagiosEnterprises/nagioscore/graphs/contributors
+    description: Nagios Core
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#555555'
+      name: C
+      value: 4670249
+    - color: '#427819'
+      name: Makefile
+      value: 378776
+    - color: '#89e051'
+      name: Shell
+      value: 275121
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 187383
+    - color: '#0298c3'
+      name: Perl
+      value: 150740
+    - color: '#e34c26'
+      name: HTML
+      value: 101383
+    - color: '#563d7c'
+      name: CSS
+      value: 91536
+    - color: '#4F5D95'
+      name: PHP
+      value: 30420
+    - name: M4
+      value: 30231
+    - color: '#ecdebe'
+      name: Roff
+      value: 9888
+    - color: '#701516'
+      name: Ruby
+      value: 3337
+    latest_commit_date: '2020-03-18T14:46:55Z'
+    latest_commit_link: /NagiosEnterprises/nagioscore/commit/dacc4d92902c6b9ff25d9dae18a79e691af13398
+    license: GNU General Public License v2.0
+    release_date: '2022-04-14T18:01:49Z'
+    release_link: https://github.com/NagiosEnterprises/nagioscore/releases
+    stars: 1137
+  github_start_commit_data:
+    start_commit_link: /NagiosEnterprises/nagioscore/commit/f9f40072595bb9cac7a58a423ff9a06f4553f626
+    start_date: '2002-02-26T04:04:12Z'
+  homepage_url: https://www.nagios.com/
+  image_data:
+    fileName: nagios.svg
+    hash: u07+SjQf0QoQIsEi8Sgfkf3+hCevmHKoP3sQJNHeGuY=
+  item: null
+  logo: nagios.svg
+  name: Nagios
+  repo_url: https://github.com/NagiosEnterprises/nagioscore
+  repos:
+  - stars: 1137
+    url: https://github.com/NagiosEnterprises/nagioscore
+  twitter_data:
+    latest_tweet_date: 2022-05-25 18:07:04+00:00
+- best_practice_data:
+    badge: 2231
+    percentage: 93
+  crunchbase: https://www.crunchbase.com/organization/netdata
+  crunchbase_data:
+    acquisitions: []
+    city: San Francisco
+    company_type: For Profit
+    country: United States
+    description: Netdata is an open-source, distributed, real-time, performance, and
+      monitoring solution for systems and applications to help IT teams.
+    funding: 34700000
+    homepage: https://www.netdata.cloud
+    industries:
+    - Enterprise Software
+    - IT Infrastructure
+    - Information Technology
+    - Internet of Things
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/netdata-cloud/
+    name: Netdata
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/linuxnetdata
+  github_data:
+    contributions: 27;16;17;6;15;20;40;31;29;22;38;25;24;25;26;13;16;17;17;23;2;5;40;44;18;16;25;32;48;35;39;54;32;44;26;42;28;32;51;44;45;37;33;22;41;22;56;32;32;18;26;26
+    contributors_count: 556
+    contributors_link: https://github.com/netdata/netdata/graphs/contributors
+    description: Real-time performance monitoring, done right! https://www.netdata.cloud
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#555555'
+      name: C
+      value: 16549478
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 1513562
+    - color: '#3572A5'
+      name: Python
+      value: 1350599
+    - color: '#DA5B0B'
+      name: Jupyter Notebook
+      value: 826534
+    - color: '#89e051'
+      name: Shell
+      value: 815213
+    - color: '#e34c26'
+      name: HTML
+      value: 392815
+    - color: '#f34b7d'
+      name: C++
+      value: 157970
+    - color: '#427819'
+      name: Makefile
+      value: 135682
+    - name: M4
+      value: 101609
+    - color: '#563d7c'
+      name: CSS
+      value: 93828
+    - name: CMake
+      value: 59029
+    - color: '#384d54'
+      name: Dockerfile
+      value: 13791
+    - name: POV-Ray SDL
+      value: 6860
+    - color: '#843179'
+      name: Jolie
+      value: 1140
+    - color: '#4F5D95'
+      name: PHP
+      value: 71
+    latest_commit_date: '2022-08-06T00:18:12Z'
+    latest_commit_link: /netdata/netdata/commit/a20e089d0d756c0fe555eedf39c81f4582559e57
+    license: GNU General Public License v3.0
+    release_date: '2022-06-10T14:15:47Z'
+    release_link: https://github.com/netdata/netdata/releases
+    stars: 60151
+  github_start_commit_data:
+    start_commit_link: /netdata/netdata/commit/f994501cb7f44f37d594f65bc228be700c019bed
+    start_date: '2013-06-17T18:39:10Z'
+  homepage_url: https://www.netdata.cloud
+  image_data:
+    fileName: netdata.svg
+    hash: RUm8LFMy0PJyK9cTMDLQ4tojQGqW73MN0e4d8aymQHI=
+  item: null
+  logo: netdata.svg
+  name: Netdata
+  repo_url: https://github.com/netdata/netdata
+  repos:
+  - stars: 60151
+    url: https://github.com/netdata/netdata
+  twitter_data:
+    latest_tweet_date: 2022-08-05 14:29:01+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/netis-technologies-c590
+  crunchbase_data:
+    acquisitions: []
+    city: Shanghai
+    company_type: For Profit
+    country: China
+    description: Netis Technologies focuses on the management of connected data, business,
+      and network performance.
+    homepage: https://www.netis.com/
+    industries:
+    - Software
+    linkedin: null
+    name: Netis Technologies
+    num_employees_max: null
+    num_employees_min: null
+    parents: []
+    region: Shanghai
+    stockExchange: null
+    twitter: null
+  github_data:
+    contributions: 5;2;0;5;0;3;0;0;0;2;0;2;0;2;0;2;2;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+    contributors_count: 17
+    contributors_link: https://github.com/Netis/packet-agent/graphs/contributors
+    description: A toolset for network packet capture in Cloud/Kubernetes and Virtualized
+      environment.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#f34b7d'
+      name: C++
+      value: 131774028
+    - color: '#555555'
+      name: C
+      value: 629713
+    - color: '#3572A5'
+      name: Python
+      value: 25451
+    - name: CMake
+      value: 15416
+    - color: '#89e051'
+      name: Shell
+      value: 14915
+    - color: '#e34c26'
+      name: HTML
+      value: 13199
+    - name: M4
+      value: 10000
+    - color: '#C1F12E'
+      name: Batchfile
+      value: 2302
+    - color: '#0298c3'
+      name: Perl
+      value: 2230
+    - color: '#302B6D'
+      name: Puppet
+      value: 1977
+    - color: '#384d54'
+      name: Dockerfile
+      value: 490
+    latest_commit_date: '2021-12-21T09:59:45Z'
+    latest_commit_link: /Netis/packet-agent/commit/70da3479051a07e3c235abe7516990f9fd21a18a
+    license: BSD 3-Clause "New" or "Revised" License
+    release_date: '2021-12-22T00:55:35Z'
+    release_link: https://github.com/Netis/packet-agent/releases
+    stars: 900
+  github_start_commit_data:
+    start_commit_link: /Netis/packet-agent/commit/e3c895d4e503e329626b8398f9b663326b942f5f
+    start_date: '2018-06-22T10:17:28Z'
+  homepage_url: https://wordpress.com/browsehappy
+  image_data:
+    fileName: netis.svg
+    hash: PtBzxnvTKBX3UiI/LFOXUO2fb8UUQIVCuW2GpRoMQXA=
+  item: null
+  logo: netis.svg
+  name: Netis
+  repo_url: https://github.com/Netis/packet-agent
+  repos:
+  - stars: 900
+    url: https://github.com/Netis/packet-agent
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/new-relic
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Ducksboard
+      date: '2014-10-08'
+      price: 2300000
+    - acquiree: Opsmatic
+      date: '2015-11-06'
+    - acquiree: Immediately
+      date: '2016-07-15'
+    - acquiree: CoScale
+      date: '2018-10-11'
+    - acquiree: SignifAI
+      date: '2019-02-06'
+    - acquiree: IOpipe
+      date: '2019-11-01'
+    - acquiree: Pixie Labs
+      date: '2020-12-10'
+    - acquiree: CodeStream
+      date: '2021-10-21'
+    city: San Francisco
+    company_type: For Profit
+    country: United States
+    description: New Relic is a digital intelligence company that delivers full-stack
+      visibility and analytics to enterprises.
+    funding: 214500000
+    homepage: http://newrelic.com
+    industries:
+    - Analytics
+    - Application Performance Management
+    - Cloud Computing
+    - IT Infrastructure
+    - Mobile
+    - SaaS
+    - Software
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/new-relic-inc-
+    name: New Relic
+    num_employees_max: 5000
+    num_employees_min: 1001
+    parents: []
+    region: California
+    stockExchange: nyse
+    ticker: NEWR
+    twitter: http://twitter.com/newrelic
+  homepage_url: https://newrelic.com/
+  image_data:
+    fileName: new-relic.svg
+    hash: wo/y9y13cnglgpTLIAv8QfHjLvidN8wddEU3qQTEYds=
+  item: null
+  logo: newrelic.svg
+  name: New Relic
+  twitter: https://twitter.com/NewRelic
+  twitter_data:
+    latest_tweet_date: 2022-08-05 18:36:21+00:00
+  yahoo_finance_data:
+    effective_ticker: NEWR
+    market_cap: 4643545088
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/nexcloud
+  crunchbase_data:
+    acquisitions: []
+    city: Seoul
+    company_type: For Profit
+    country: South Korea
+    description: NexClipper helps our customers to manage their Cloud Native infrastructure
+      in an easier and more stable way.
+    homepage: https://www.nexclipper.io
+    industries:
+    - Cloud Infrastructure
+    - Information Technology
+    - SaaS
+    - Software
+    linkedin: https://www.linkedin.com/company/nexcloud/
+    name: NexCloud
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: Seoul-t'ukpyolsi
+    stockExchange: null
+    twitter: https://twitter.com/NexClipper
+  github_data:
+    contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+    contributors_count: 11
+    contributors_link: https://github.com/NexClipper/NexClipper/graphs/contributors
+    description: Metrics Pipeline for interoperability and Enterprise Prometheus
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 165469
+    - color: '#427819'
+      name: Makefile
+      value: 1426
+    latest_commit_date: '2019-12-11T09:56:54Z'
+    latest_commit_link: /NexClipper/NexClipper/commit/6d22befc40bdc4a49fb6cda16c1c52187f73c5c9
+    license: Apache License 2.0
+    stars: 559
+  github_start_commit_data:
+    start_commit_link: /NexClipper/NexClipper/commit/a4b63d58c71c0fe426c370d51c10015bf569e0b9
+    start_date: '2018-07-03T05:13:46Z'
+  homepage_url: https://www.nexclipper.io/
+  image_data:
+    fileName: nex-clipper.svg
+    hash: N1Kz3kiFvfFClShrWklTazpDPbKAbeyY488KS8fnr/A=
+  item: null
+  logo: nexclipper.svg
+  name: NexClipper
+  repo_url: https://github.com/NexClipper/NexClipper
+  repos:
+  - stars: 559
+    url: https://github.com/NexClipper/NexClipper
+  twitter: https://twitter.com/nexclipper
+  twitter_data:
+    latest_tweet_date: 2022-08-02 01:48:11+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/didi
+  crunchbase_data:
+    acquisitions: []
+    city: Mountain View
+    company_type: For Profit
+    country: United States
+    description: Didi Labs develops new tools, technologies, modules, app-based transportation
+      services and solutions for the global transportation industry.
+    homepage: http://www.didi-labs.com
+    industries:
+    - Internet
+    linkedin: null
+    name: Didi Labs
+    num_employees_max: 10000
+    num_employees_min: 5001
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: null
+  github_data:
+    contributions: 4;7;21;8;10;0;0;0;0;0;0;0;0;1;3;0;21;48;25;6;14;3;7;1;5;5;4;9;0;17;2;8;31;20;17;19;16;3;0;5;3;11;15;20;11;7;10;40;12;11;16;5
+    contributors_count: 78
+    contributors_link: https://github.com/didi/nightingale/graphs/contributors
+    description: An enterprise-level cloud-native monitoring system, which can be
+      used as drop-in replacement of Prometheus for alerting and Grafana for visualization.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 435780
+    - color: '#3572A5'
+      name: Python
+      value: 21727
+    - name: Smarty
+      value: 14178
+    - color: '#427819'
+      name: Makefile
+      value: 1956
+    - color: '#89e051'
+      name: Shell
+      value: 609
+    - color: '#384d54'
+      name: Dockerfile
+      value: 232
+    latest_commit_date: '2022-08-04T12:06:54Z'
+    latest_commit_link: /ccfos/nightingale/commit/04a9161f75f3109d3c0b53164f0f14debfe3c846
+    license: Apache License 2.0
+    release_date: '2022-08-02T04:24:07Z'
+    release_link: https://github.com/didi/nightingale/releases
+    stars: 5010
+  github_start_commit_data:
+    start_commit_link: /didi/nightingale/commit/5f00489392fc4aa7bc8f0fc76977b3ca2b8b7cd1
+    start_date: '2020-03-11T10:25:20Z'
+  homepage_url: http://n9e.didiyun.com
+  image_data:
+    fileName: nightingale.svg
+    hash: iNcAsixiWyk9M61WPGMSWWwMYGEov991p4S7Na1FluE=
+  item: null
+  joined: '2021-02-01'
+  logo: nightingale.svg
+  name: Nightingale
+  repo_url: https://github.com/didi/nightingale
+  repos:
+  - stars: 5010
+    url: https://github.com/didi/nightingale
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/nodesource
+  crunchbase_data:
+    acquisitions: []
+    city: San Francisco
+    company_type: For Profit
+    country: United States
+    description: Building products focused on Node.js security and performance for
+      the Enterprise.
+    funding: 33400000
+    homepage: https://nodesource.com/
+    industries:
+    - Application Performance Management
+    - Cloud Infrastructure
+    - Cloud Security
+    - Cyber Security
+    - Enterprise Software
+    - Information Technology
+    - Open Source
+    - SaaS
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/nodesource
+    name: NodeSource
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/nodesource
+  homepage_url: https://nodesource.com/
+  image_data:
+    fileName: node-source.svg
+    hash: 2PDD9+SY2Kp42aFQxSIb6fU1zUZ0ZIvqEzB0MClR4i4=
+  item: null
+  logo: nodesource.svg
+  name: NodeSource
+  twitter_data:
+    latest_tweet_date: 2022-08-05 16:38:11+00:00

@@ -1,0 +1,166 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/apache
+  crunchbase_data:
+    acquisitions: []
+    city: Forest Hill
+    company_type: Non Profit
+    country: United States
+    description: Apache Software Foundation provides organizational, legal and financial
+      support for Apache open-source software projects.
+    homepage: http://www.apache.org
+    industries:
+    - Non Profit
+    - Software
+    linkedin: https://www.linkedin.com/company/the-apache-software-foundation
+    name: The Apache Software Foundation
+    num_employees_max: 10
+    num_employees_min: 1
+    parents: []
+    region: Maryland
+    stockExchange: null
+    twitter: http://twitter.com/TheASF
+  github_data:
+    contributions: 124;108;133;108;113;63;46;48;36;51;42;49;80;88;61;76;76;79;74;62;53;65;73;87;111;76;125;139;89;64;69;94;88;48;76;59;52;43;40;45;40;45;14;48;58;41;46;68;49;42;62;53
+    contributors_count: 1595
+    contributors_link: https://github.com/apache/flink/graphs/contributors
+    description: Apache Flink
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#b07219'
+      name: Java
+      value: 96564299
+    - color: '#c22d40'
+      name: Scala
+      value: 10766120
+    - color: '#3572A5'
+      name: Python
+      value: 3097832
+    - color: '#89e051'
+      name: Shell
+      value: 528813
+    - color: '#2b7489'
+      name: TypeScript
+      value: 391201
+    - color: '#dce200'
+      name: HiveQL
+      value: 212194
+    - color: '#e34c26'
+      name: HTML
+      value: 188120
+    - name: GAP
+      value: 139536
+    - name: Cython
+      value: 134854
+    - color: '#0050b2'
+      name: FreeMarker
+      value: 100031
+    - name: Less
+      value: 84321
+    - color: '#9DC3FF'
+      name: ANTLR
+      value: 20596
+    - color: '#0040cd'
+      name: q
+      value: 16671
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 7038
+    - color: '#384d54'
+      name: Dockerfile
+      value: 5579
+    - color: '#427819'
+      name: Makefile
+      value: 5134
+    - color: '#C1F12E'
+      name: Batchfile
+      value: 1863
+    - color: '#555555'
+      name: C
+      value: 847
+    latest_commit_date: '2022-08-06T01:58:58Z'
+    latest_commit_link: /apache/flink/commit/01d31f6ed30d2f1ed37eaaad705797e0a46c68f4
+    license: Apache License 2.0
+    stars: 19500
+  github_start_commit_data:
+    start_commit_link: /apache/flink/commit/3b88e30924268799c96317fe1bf9f5b9c6bf6f80
+    start_date: '2010-12-15T16:02:01Z'
+  homepage_url: https://flink.apache.org/
+  image_data:
+    fileName: flink.svg
+    hash: 9Wm382JNdOQ2I+Mz5Gt9PPeLvYJs5wg4WonRDwgAKws=
+  item: null
+  logo: flink.svg
+  name: Flink
+  repo_url: https://github.com/apache/flink
+  repos:
+  - stars: 19500
+    url: https://github.com/apache/flink
+  twitter: https://twitter.com/apacheflink
+  twitter_data:
+    latest_tweet_date: 2022-08-04 09:09:32+00:00
+- best_practice_data:
+    badge: 6280
+    percentage: 19
+  crunchbase: https://www.crunchbase.com/organization/infinyon
+  crunchbase_data:
+    acquisitions: []
+    city: Santa Clara
+    company_type: For Profit
+    country: United States
+    description: The Real-Time Data Hub
+    homepage: https://www.infinyon.com
+    industries:
+    - Information Technology
+    - Software
+    linkedin: https://www.linkedin.com/company/infinyon
+    name: InfinyOn
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/infinyon
+  github_data:
+    contributions: 22;33;22;24;12;22;19;22;18;16;5;15;12;19;14;11;18;17;2;8;11;14;11;8;8;5;13;13;6;1;8;5;7;4;4;11;11;4;9;6;4;3;3;5;6;3;13;4;15;5;12;16
+    contributors_count: 34
+    contributors_link: https://github.com/infinyon/fluvio/graphs/contributors
+    description: An intelligent event streaming platform
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#dea584'
+      name: Rust
+      value: 2801219
+    - color: '#89e051'
+      name: Shell
+      value: 114739
+    - color: '#427819'
+      name: Makefile
+      value: 20771
+    - color: '#384d54'
+      name: Dockerfile
+      value: 1805
+    latest_commit_date: '2022-08-05T15:21:03Z'
+    latest_commit_link: /infinyon/fluvio/commit/ef8d019080e10a748efb6dac75a3bbfcd1294f84
+    license: Apache License 2.0
+    release_date: '2022-08-05T15:37:57Z'
+    release_link: https://github.com/infinyon/fluvio/releases
+    stars: 1198
+  github_start_commit_data:
+    start_commit_link: /infinyon/fluvio/commit/9e0fff8fee77bc76efcce33bd990087b628291fa
+    start_date: '2019-09-04T03:55:26Z'
+  homepage_url: https://fluvio.io/
+  image_data:
+    fileName: fluvio.svg
+    hash: 5QKXQdxVBmbO6bq9aED6w0YjEpXKzpZE16+plrabwnQ=
+  item: null
+  logo: fluvio.svg
+  name: Fluvio
+  repo_url: https://github.com/infinyon/fluvio
+  repos:
+  - stars: 1198
+    url: https://github.com/infinyon/fluvio
+  twitter: https://twitter.com/InfinyOn
+  twitter_data:
+    latest_tweet_date: 2022-08-05 04:23:13+00:00

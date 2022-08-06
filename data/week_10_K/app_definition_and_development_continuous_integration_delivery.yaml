@@ -1,0 +1,168 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/hybridk8s
+  crunchbase_data:
+    acquisitions: []
+    city: New Delhi
+    company_type: For Profit
+    country: India
+    description: Open-source API Testing Platform. Auto-Generate API Tests with mocks
+      cases from API calls.
+    homepage: https://keploy.io
+    industries:
+    - Delivery
+    - Developer Platform
+    - Developer Tools
+    - Information Technology
+    - Quality Assurance
+    - SaaS
+    - Software
+    - Usability Testing
+    - Web Apps
+    linkedin: https://www.linkedin.com/company/keploy/
+    name: Keploy
+    num_employees_max: 10
+    num_employees_min: 1
+    parents: []
+    region: Delhi
+    stockExchange: null
+    twitter: null
+  github_data:
+    contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;6;13;6;5;10;10;14;1;3;5;5;3;3;9;0;2;0;1;0;0;2;0;1;0;0;0;0;3;1
+    contributors_count: 17
+    contributors_link: https://github.com/keploy/keploy/graphs/contributors
+    description: 'No code API testing platform. Create unit tests and data mocks from
+      API calls. '
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 117113
+    - name: Smarty
+      value: 1902
+    - color: '#384d54'
+      name: Dockerfile
+      value: 1027
+    latest_commit_date: '2022-08-02T11:22:00Z'
+    latest_commit_link: /keploy/keploy/commit/546400a7525dbd36894cd25bdd717547b2b36fe7
+    license: Apache License 2.0
+    release_date: '2022-07-24T06:04:33Z'
+    release_link: https://github.com/keploy/keploy/releases
+    stars: 962
+  github_start_commit_data:
+    start_commit_link: /keploy/keploy/commit/1659a30ff4b824318c906d7a3661d4af04dc61d0
+    start_date: '2022-01-19T17:45:02Z'
+  homepage_url: https://keploy.io
+  image_data:
+    fileName: keploy.svg
+    hash: 1kWyCBcZcwbkuxlwJ98n+r34XLHGP+fY9hQwMUHzsOo=
+  item: null
+  logo: keploy.svg
+  name: Keploy
+  repo_url: https://github.com/keploy/keploy
+  repos:
+  - stars: 962
+    url: https://github.com/keploy/keploy
+  twitter: https://twitter.com/keployio
+  twitter_data:
+    latest_tweet_date: 2022-08-05 19:54:51+00:00
+- best_practice_data:
+    badge: 3588
+    percentage: 99
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  extra:
+    accepted: '2020-06-23'
+    dev_stats_url: https://keptn.devstats.cncf.io/
+    incubated: '2022-06-03'
+    slack_url: https://slack.keptn.sh/
+    youtube_url: https://www.youtube.com/channel/UCHMn9HyAMeb81bRlaOuZyuQ
+  github_data:
+    contributions: 49;19;41;24;35;12;27;16;78;43;43;29;37;48;38;32;35;21;38;17;8;52;46;27;37;41;20;33;31;28;38;21;37;26;30;53;24;13;42;37;44;38;64;31;27;45;48;63;49;31;24;23
+    contributors_count: 107
+    contributors_link: https://github.com/keptn/keptn/graphs/contributors
+    description: Cloud-native application life-cycle orchestration. Keptn automates
+      your SLO-driven multi-stage delivery and operations & remediation of your applications.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 3657797
+    - color: '#2b7489'
+      name: TypeScript
+      value: 2699343
+    - color: '#e34c26'
+      name: HTML
+      value: 246592
+    - color: '#89e051'
+      name: Shell
+      value: 62226
+    - name: SCSS
+      value: 45051
+    - color: '#384d54'
+      name: Dockerfile
+      value: 39154
+    - name: Mustache
+      value: 11762
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 5846
+    - color: '#563d7c'
+      name: CSS
+      value: 4279
+    - name: Smarty
+      value: 3955
+    latest_commit_date: '2022-08-06T04:23:51Z'
+    latest_commit_link: /keptn/keptn/commit/b7f0fef51f4bd9bc79fc05781d5916d4cf1207b0
+    license: Apache License 2.0
+    release_date: '2022-08-01T14:28:44Z'
+    release_link: https://github.com/keptn/keptn/releases
+    stars: 1461
+  github_start_commit_data:
+    start_commit_link: /keptn/keptn/commit/c49b4d65d4860fa7a5102093aac2633abdd94cf0
+    start_date: '2019-01-21T14:51:49Z'
+  homepage_url: https://www.keptn.sh
+  image_data:
+    fileName: keptn.svg
+    hash: +oy4CLcItYioyQjEC29IgbEbtywQzE3TzyLn3mwflRk=
+  item: null
+  logo: keptn.svg
+  name: Keptn
+  project: incubating
+  repo_url: https://github.com/keptn/keptn
+  repos:
+  - stars: 1461
+    url: https://github.com/keptn/keptn
+  twitter: https://twitter.com/keptnproject
+  twitter_data:
+    latest_tweet_date: 2022-08-04 08:21:49+00:00

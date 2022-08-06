@@ -1,0 +1,88 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/bloomberg
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Bloomberg Businessweek
+      date: '2009-10-13'
+    - acquiree: BloombergNEF
+      date: '2009-12-10'
+    - acquiree: Eagle Eye Publishers
+      date: '2010-02-22'
+    - acquiree: BNA
+      date: '2011-08-25'
+    - acquiree: Bloomberg PolarLake
+      date: '2012-05-22'
+    - acquiree: RTS Realtime Systems
+      date: '2014-07-09'
+    - acquiree: Netbox Blue
+      date: '2016-01-12'
+    - acquiree: RegTek Solutions
+      date: '2019-08-13'
+    - acquiree: Bloomberg Second Measure
+      date: '2020-12-24'
+    city: New York
+    company_type: For Profit
+    country: United States
+    description: Bloomberg provides news, data, analytics, and communication services
+      for the global business and financial world.
+    homepage: http://www.bloomberg.com
+    industries:
+    - Analytics
+    - Business Information Systems
+    - Business Intelligence
+    - News
+    linkedin: https://www.linkedin.com/company/bloomberg-lp
+    name: Bloomberg
+    num_employees_max: 1000000
+    num_employees_min: 10001
+    parents: []
+    region: New York
+    stockExchange: null
+    twitter: https://twitter.com/Bloomberg
+  github_data:
+    contributions: 0;0;0;0;0;1;0;1;0;2;9;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+    contributors_count: 35
+    contributors_link: https://github.com/powerfulseal/powerfulseal/graphs/contributors
+    description: A powerful testing tool for Kubernetes clusters.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#3572A5'
+      name: Python
+      value: 293292
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 1605
+    - color: '#427819'
+      name: Makefile
+      value: 1596
+    - color: '#384d54'
+      name: Dockerfile
+      value: 1503
+    - color: '#89e051'
+      name: Shell
+      value: 101
+    latest_commit_date: '2021-10-22T10:05:47Z'
+    latest_commit_link: /powerfulseal/powerfulseal/commit/83e138c92ce3d3cff3c7b19d76f5c7c76bbf817e
+    license: Apache License 2.0
+    release_date: '2021-09-17T16:53:43Z'
+    release_link: https://github.com/powerfulseal/powerfulseal/releases
+    stars: 1807
+  github_start_commit_data:
+    start_commit_link: /bloomberg/powerfulseal/commit/32886c31dcd3c09c249ee4f8c01db6f9252c09a7
+    start_date: '2017-12-06T16:41:12Z'
+  homepage_url: https://github.com/powerfulseal/powerfulseal
+  image_data:
+    fileName: powerful-seal.svg
+    hash: R2t6gTTh5CfZ3PwmXUarOjUI4sK+/I/EcBZgLqBxcjg=
+  item: null
+  logo: powerful-seal.svg
+  name: PowerfulSeal
+  repo_url: https://github.com/powerfulseal/powerfulseal
+  repos:
+  - stars: 1807
+    url: https://github.com/powerfulseal/powerfulseal
+  twitter: https://twitter.com/TechAtBloomberg
+  twitter_data:
+    latest_tweet_date: 2022-08-05 20:57:34+00:00

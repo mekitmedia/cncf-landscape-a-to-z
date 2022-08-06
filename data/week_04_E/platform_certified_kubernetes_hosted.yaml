@@ -1,0 +1,75 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/elastx
+  crunchbase_data:
+    acquisitions: []
+    city: Stockholm
+    company_type: For Profit
+    country: Sweden
+    description: Public cloud made in Sweden
+    homepage: https://elastx.se/en
+    industries:
+    - Information Technology
+    - Software
+    linkedin: https://www.linkedin.com/company/elastx/
+    name: Elastx
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: Stockholms Lan
+    stockExchange: null
+    twitter: https://twitter.com/elastx
+  description: ELASTX Private Kubernetes is fully managed and runs on top of our OpenStack
+    platform in your own tenant.
+  homepage_url: https://elastx.se/en/kubernetes/
+  image_data:
+    fileName: elastx-private-kubernetes.svg
+    hash: 0Pvh5ktCBEssxlh5SRWw2M6RgUf+Z0w9VQUE+oQVRuk=
+  item: null
+  logo: elastx.svg
+  name: ELASTX Private Kubernetes
+  twitter_data:
+    latest_tweet_date: 2020-06-26 10:00:03+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/exoscale
+  crunchbase_data:
+    acquisitions:
+    - acquiree: cloudControl
+      date: '2016-04-11'
+    city: Lausanne
+    company_type: For Profit
+    country: Switzerland
+    description: Exoscale is the cloud hosting platform for SaaS companies, developers
+      and systems administrators.
+    funding: 0
+    homepage: https://www.exoscale.com
+    industries:
+    - Cloud Computing
+    - IaaS
+    - Information Technology
+    - Internet
+    - SaaS
+    linkedin: https://www.linkedin.com/company/exoscale
+    name: Exoscale
+    num_employees_max: 100
+    num_employees_min: 51
+    parents: []
+    region: Vaud
+    stockExchange: null
+    twitter: https://twitter.com/exoscale
+  description: Scalable, On-demand Kubernetes Clusters on a privacy minded public
+    cloud to host from simple applications to complex architectures.  Deploy a production
+    ready cluster in 90 seconds and manage it with a simple web portal, CLI, API or
+    your choice of tools like Terraform.
+  homepage_url: https://www.exoscale.com/sks/
+  image_data:
+    fileName: exoscale.svg
+    hash: HL2ljT+qS96GqJA1W6XeehsleYjABfLUb9GgqdYuvT0=
+  item: null
+  logo: exoscale-member.svg
+  name: Exoscale
+  twitter_data:
+    latest_tweet_date: 2022-08-05 12:00:35+00:00

@@ -1,0 +1,86 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/suse
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Rancher Labs
+      date: '2020-07-08'
+      price: 600000000
+    - acquiree: NeuVector
+      date: '2021-10-28'
+      price: 130000000
+    city: Nuremberg
+    company_type: For Profit
+    country: Germany
+    description: SUSE provides reliable and interoperable Linux and cloud infrastructure
+      solutions that give enterprises greater control and flexibility.
+    homepage: http://www.suse.com
+    industries:
+    - Cloud Computing
+    - Enterprise Software
+    - Linux
+    - Software
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/suse
+    name: SUSE
+    num_employees_max: 5000
+    num_employees_min: 1001
+    parents: []
+    region: Bayern
+    stockExchange: fra
+    ticker: SUSE.F
+    twitter: https://twitter.com/SUSE
+  github_data:
+    contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+    contributors_count: 72
+    contributors_link: https://github.com/SUSE/Portus/graphs/contributors
+    description: Authorization service and frontend for Docker registry (v2)
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#701516'
+      name: Ruby
+      value: 1098584
+    - color: '#2c3e50'
+      name: Vue
+      value: 202208
+    - color: '#e34c26'
+      name: HTML
+      value: 70298
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 61504
+    - color: '#89e051'
+      name: Shell
+      value: 31989
+    - color: '#563d7c'
+      name: CSS
+      value: 23374
+    - color: '#384d54'
+      name: Dockerfile
+      value: 3250
+    latest_commit_date: '2020-03-25T09:02:07Z'
+    latest_commit_link: /SUSE/Portus/commit/2843437742515c1f0896fafaee166cde336f5b18
+    license: Apache License 2.0
+    release_date: '2019-03-19T16:15:19Z'
+    release_link: https://github.com/SUSE/Portus/releases
+    stars: 2946
+  github_start_commit_data:
+    start_commit_link: /SUSE/Portus/commit/f301fdfc9aff7e9eb220e848d6d6c69f9ab1d75a
+    start_date: '2015-04-12T21:58:55Z'
+  homepage_url: http://port.us.org/
+  image_data:
+    fileName: portus.svg
+    hash: 3BDYuv/aPpZQDb/yE5P/tvHIXbYnbtpSfoKBWq/WrVw=
+  item: null
+  logo: portus.svg
+  name: Portus
+  repo_url: https://github.com/SUSE/Portus
+  repos:
+  - stars: 2946
+    url: https://github.com/SUSE/Portus
+  twitter_data:
+    latest_tweet_date: 2022-08-04 14:00:58+00:00
+  yahoo_finance_data:
+    effective_ticker: SUSE.F
+    market_cap: 3288476571

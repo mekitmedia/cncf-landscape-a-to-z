@@ -1,0 +1,81 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/suborbital
+  crunchbase_data:
+    acquisitions: []
+    city: Ottawa
+    company_type: For Profit
+    country: Canada
+    description: Suborbital leverages Atmo to create web services in an entirely new
+      way, taking advantage of cloud native WebAssembly's capabilities.
+    funding: 1600000
+    homepage: https://suborbital.dev/
+    industries:
+    - Information Services
+    - Information Technology
+    - Web Browsers
+    - Web Design
+    - Web Development
+    kind: funding
+    linkedin: https://www.linkedin.com/company/suborbital-software-systems/
+    name: Suborbital
+    num_employees_max: null
+    num_employees_min: null
+    parents: []
+    region: Ontario
+    stockExchange: null
+    twitter: https://twitter.com/suborbitaldev
+  github_data:
+    contributions: 16;4;1;6;0;0;0;1;8;2;4;4;9;31;30;19;18;18;11;12;0;0;8;4;2;14;12;12;9;3;2;5;3;2;2;1;15;9;10;12;9;2;1;2;1;2;0;2;5;0;0;5
+    contributors_count: 21
+    contributors_link: https://github.com/suborbital/subo/graphs/contributors
+    description: The Suborbital CLI
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 133692
+    - color: '#427819'
+      name: Makefile
+      value: 5612
+    - color: '#384d54'
+      name: Dockerfile
+      value: 3216
+    - color: '#04133b'
+      name: WebAssembly
+      value: 2426
+    - color: '#2b7489'
+      name: TypeScript
+      value: 1982
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 1559
+    - color: '#89e051'
+      name: Shell
+      value: 903
+    - color: '#dea584'
+      name: Rust
+      value: 456
+    latest_commit_date: '2022-08-04T18:52:27Z'
+    latest_commit_link: /suborbital/subo/commit/44090c89311703de8015f22a519da975d0405f18
+    license: Apache License 2.0
+    release_date: '2022-08-03T22:05:11Z'
+    release_link: https://github.com/suborbital/subo/releases
+    stars: 58
+  github_start_commit_data:
+    start_commit_link: /suborbital/subo/commit/c16f323dc70d24688ec21f1405dffeaf3b46ba17
+    start_date: '2020-10-16T01:01:23Z'
+  homepage_url: https://github.com/suborbital/subo
+  image_data:
+    fileName: subo-cli.svg
+    hash: GWtHO0fAXp5RCUHo4yr9dKS1zqmNelX7jk8AuWk67Yo=
+  item: null
+  logo: suborbital.svg
+  name: Subo CLI
+  repo_url: https://github.com/suborbital/subo
+  repos:
+  - stars: 58
+    url: https://github.com/suborbital/subo
+  twitter_data:
+    latest_tweet_date: 2022-08-05 18:04:49+00:00

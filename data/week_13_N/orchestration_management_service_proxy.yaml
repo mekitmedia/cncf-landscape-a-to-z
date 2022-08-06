@@ -1,0 +1,162 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/netflix
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Millarworld
+      date: '2017-08-07'
+    - acquiree: StoryBots
+      date: '2019-05-09'
+    - acquiree: The Roald Dahl Story
+      date: '2021-09-22'
+    - acquiree: Night School Studio
+      date: '2021-09-29'
+    - acquiree: Scanline VFX
+      date: '2021-11-22'
+    - acquiree: Next Games
+      date: '2022-03-02'
+      price: 72000000
+    - acquiree: Boss Fight Entertainment
+      date: '2022-03-24'
+    - acquiree: Animal Logic
+      date: '2022-07-19'
+    city: Los Gatos
+    company_type: For Profit
+    country: United States
+    description: Netflix is an online platform that enables users to watch TV shows
+      and movies.
+    funding: 121907714724
+    homepage: https://www.netflix.com
+    industries:
+    - Digital Entertainment
+    - Media and Entertainment
+    - TV
+    - Video Streaming
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/netflix
+    name: Netflix
+    num_employees_max: 5000
+    num_employees_min: 1001
+    parents: []
+    region: California
+    stockExchange: nasdaq
+    ticker: NFLX
+    twitter: http://twitter.com/netflix
+  github_data:
+    contributions: 2;4;2;2;0;2;0;0;0;0;1;3;6;16;1;1;5;4;3;0;0;7;1;1;22;5;3;9;1;4;5;0;3;2;2;0;0;0;1;0;0;0;0;2;0;1;3;0;4;0;0;3
+    contributors_count: 67
+    contributors_link: https://github.com/Netflix/zuul/graphs/contributors
+    description: Zuul is a gateway service that provides dynamic routing, monitoring,
+      resiliency, security, and more.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#b07219'
+      name: Java
+      value: 1380402
+    - color: '#e69f56'
+      name: Groovy
+      value: 11488
+    latest_commit_date: '2022-08-03T23:53:05Z'
+    latest_commit_link: /Netflix/zuul/commit/4ee00db02afb5ab086ca061255ab5a501d8c93c4
+    license: Apache License 2.0
+    release_date: '2021-04-29T17:21:22Z'
+    release_link: https://github.com/Netflix/zuul/releases
+    stars: 12093
+  github_start_commit_data:
+    start_commit_link: /Netflix/zuul/commit/697fd66aae9beed107e13f49a741455f1d9d8dd9
+    start_date: '2012-03-18T08:07:52Z'
+  homepage_url: https://github.com/Netflix/zuul
+  image_data:
+    fileName: netflix-zuul.svg
+    hash: MhVQ0lXTaFoUTIj31kgrnsCtn00hrVo3zdI9J8mKxRU=
+  item: null
+  logo: netflix-oss-zuul.svg
+  name: Netflix Zuul
+  repo_url: https://github.com/Netflix/zuul
+  repos:
+  - stars: 12093
+    url: https://github.com/Netflix/zuul
+  twitter: https://twitter.com/netflixoss
+  twitter_data:
+    latest_tweet_date: 2021-07-23 18:03:07+00:00
+  yahoo_finance_data:
+    effective_ticker: NFLX
+    market_cap: 100850425856
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/nginx
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Zokets
+      date: '2016-12-01'
+    city: San Francisco
+    company_type: For Profit
+    country: United States
+    description: NGINX offers advanced internet infrastructure software to help companies
+      deliver faster, more compelling digital experiences.
+    funding: 84000000
+    homepage: https://www.nginx.com
+    industries:
+    - Enterprise Applications
+    - Enterprise Software
+    - IT Infrastructure
+    - Infrastructure
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/nginx
+    name: NGINX
+    num_employees_max: 250
+    num_employees_min: 101
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/nginx
+  github_data:
+    contributions: 10;5;0;15;6;1;1;0;2;3;7;9;3;0;0;3;0;0;0;8;9;0;1;3;8;4;1;0;0;0;0;0;0;0;0;0;0;1;0;0;0;2;25;3;1;5;2;0;5;3;0;0
+    contributors_count: 77
+    contributors_link: https://github.com/nginx/nginx/graphs/contributors
+    description: An official read-only mirror of http://hg.nginx.org/nginx/ which
+      is updated hourly. Pull requests on GitHub cannot be accepted and will be automatically
+      closed. The proper way to submit changes to nginx is via the nginx development
+      mailing list, see http://nginx.org/en/docs/contributing_changes.html
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#555555'
+      name: C
+      value: 5397432
+    - color: '#199f4b'
+      name: Vim script
+      value: 116017
+    - name: XS
+      value: 25346
+    - color: '#0298c3'
+      name: Perl
+      value: 6774
+    - color: '#427819'
+      name: Makefile
+      value: 4047
+    - color: '#f34b7d'
+      name: C++
+      value: 592
+    latest_commit_date: '2022-07-19T14:05:27Z'
+    latest_commit_link: /nginx/nginx/commit/f7ea8c76b55f730daa3b63f5511feb564b44d901
+    license: Unknown License
+    stars: 16915
+  github_start_commit_data:
+    start_commit_link: /nginx/nginx/commit/6de5c2cb63f8aee4bcbec3c363a72fd8e4a4e64d
+    start_date: '2002-08-06T16:39:45Z'
+  homepage_url: https://www.nginx.com/
+  image_data:
+    fileName: nginx.svg
+    hash: MvsG8m88MJUSryRbtqXf15//Fd0p5MOUiU3GLUO36Pk=
+  item: null
+  logo: nginx.svg
+  name: NGINX
+  repo_url: https://github.com/nginx/nginx
+  repos:
+  - stars: 16915
+    url: https://github.com/nginx/nginx
+  twitter_data:
+    latest_tweet_date: 2022-08-05 20:20:19+00:00

@@ -1,0 +1,182 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/megaease-inc
+  crunchbase_data:
+    acquisitions: []
+    city: Beijing
+    company_type: For Profit
+    country: China
+    description: High performance software architecture
+    homepage: https://megaease.com/
+    industries: []
+    linkedin: null
+    name: MegaEase, Inc.
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: Beijing
+    stockExchange: null
+    twitter: null
+  description: EaseAgent is a Javaagent that can be integrated with the mainstream
+    monitoring system, providing standard data formats that are fully compatible with
+    OpenZipkin and Prometheus. EaseAgent is also very easy to extend through the Plugin
+    Mechanism which only a minimum of three interfaces are required to be implemented
+    to complete a plugin development.
+  github_data:
+    contributions: 0;0;0;7;3;6;1;1;0;30;11;24;24;15;30;13;17;36;48;45;7;8;8;3;13;0;4;3;9;16;8;10;7;3;2;1;0;0;2;1;0;0;0;0;0;0;1;0;0;0;0;0
+    contributors_count: 20
+    contributors_link: https://github.com/megaease/easeagent/graphs/contributors
+    description: An agent component for the Java system
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#b07219'
+      name: Java
+      value: 3679142
+    - color: '#89e051'
+      name: Shell
+      value: 2971
+    - color: '#384d54'
+      name: Dockerfile
+      value: 657
+    latest_commit_date: '2022-06-28T09:05:11Z'
+    latest_commit_link: /megaease/easeagent/commit/c0822e5918b29825afd592ef1fb74324c28b106a
+    license: Apache License 2.0
+    release_date: '2022-05-07T07:09:26Z'
+    release_link: https://github.com/megaease/easeagent/releases
+    stars: 440
+  github_start_commit_data:
+    start_commit_link: /megaease/easeagent/commit/33484359fc5eb54227f106203692cae51b655931
+    start_date: '2017-04-13T12:12:42Z'
+  homepage_url: https://github.com/megaease/easeagent
+  image_data:
+    fileName: ease-agent.svg
+    hash: jbdiMoN7jKgNQeU0lvUKwH/ObVZ/n9EAA4yg5LQBM3Y=
+  item: null
+  logo: easeagent.svg
+  name: EaseAgent
+  repo_url: https://github.com/megaease/easeagent
+  repos:
+  - stars: 440
+    url: https://github.com/megaease/easeagent
+  twitter: https://twitter.com/megaease
+  twitter_data:
+    latest_tweet_date: 2022-07-27 13:04:39+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/elasticsearch
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Elastic Cloud
+      date: '2015-03-10'
+    - acquiree: Packetbeat
+      date: '2015-05-27'
+    - acquiree: Prelert
+      date: '2016-09-15'
+    - acquiree: Opbeat
+      date: '2017-06-22'
+    - acquiree: Swiftype
+      date: '2017-11-09'
+    - acquiree: Insight.io
+      date: '2018-06-28'
+    - acquiree: Endgame
+      date: '2019-06-05'
+      price: 234000000
+    - acquiree: Perched, LLC.
+      date: '2019-08-21'
+    - acquiree: build.security
+      date: '2021-08-23'
+    - acquiree: Cmd
+      date: '2021-08-25'
+    - acquiree: Optimyze
+      date: '2021-10-14'
+    city: Mountain View
+    company_type: For Profit
+    country: United States
+    description: Elastic builds software to make data usable in real time and at scale
+      for search, logging, security, and analytics use cases.
+    funding: 161999996
+    homepage: https://www.elastic.co
+    industries:
+    - Analytics
+    - Cloud Computing
+    - Open Source
+    - SaaS
+    - Search Engine
+    - Software
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/elastic-co/
+    name: Elastic
+    num_employees_max: 5000
+    num_employees_min: 1001
+    parents: []
+    region: California
+    stockExchange: nyse
+    ticker: ESTC
+    twitter: https://twitter.com/elastic
+  github_data:
+    contributions: 14;10;14;16;9;16;16;5;13;22;17;27;20;11;27;22;20;23;4;10;6;8;15;3;8;12;21;23;14;14;14;21;23;26;13;11;8;17;16;12;28;23;13;13;23;25;8;20;17;24;25;14
+    contributors_count: 87
+    contributors_link: https://github.com/elastic/apm-server/graphs/contributors
+    description: APM Server
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 3125042
+    - color: '#89e051'
+      name: Shell
+      value: 68743
+    - color: '#427819'
+      name: Makefile
+      value: 46474
+    - color: '#e69f56'
+      name: Groovy
+      value: 40561
+    - name: HCL
+      value: 30095
+    - color: '#3572A5'
+      name: Python
+      value: 14073
+    - color: '#384d54'
+      name: Dockerfile
+      value: 6048
+    - color: '#e34c26'
+      name: HTML
+      value: 4146
+    - color: '#64b970'
+      name: sed
+      value: 2475
+    - name: Handlebars
+      value: 2458
+    - color: '#012456'
+      name: PowerShell
+      value: 1751
+    - name: Smarty
+      value: 628
+    latest_commit_date: '2022-08-04T05:47:44Z'
+    latest_commit_link: /elastic/apm-server/commit/9402818ed9529f82e4414912496126f17c061abd
+    license: Other
+    release_date: '2022-07-28T14:47:10Z'
+    release_link: https://github.com/elastic/apm-server/releases
+    stars: 1023
+  github_start_commit_data:
+    start_commit_link: /elastic/apm-server/commit/3ad33b3129c0be3b0e4057efc53948c381a2af79
+    start_date: '2017-08-03T16:20:48Z'
+  homepage_url: https://www.elastic.co/observability/application-performance-monitoring
+  image_data:
+    fileName: elastic-apm.svg
+    hash: lYs2Lg7eQGoati36kn0dXE+5UITVk9TZ6Qt7UCLQkis=
+  item: null
+  logo: elastic-apm.svg
+  name: Elastic APM
+  repo_url: https://github.com/elastic/apm-server
+  repos:
+  - stars: 1023
+    url: https://github.com/elastic/apm-server
+  twitter_data:
+    latest_tweet_date: 2022-08-05 16:27:00+00:00
+  yahoo_finance_data:
+    effective_ticker: ESTC
+    market_cap: 8217513472

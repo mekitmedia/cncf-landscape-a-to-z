@@ -1,0 +1,393 @@
+- best_practice_data:
+    badge: 4201
+    percentage: 94
+  crunchbase: https://www.crunchbase.com/organization/taos-data
+  crunchbase_data:
+    acquisitions: []
+    city: Beijing
+    company_type: For Profit
+    country: China
+    description: TDengine is an open source time-series database with high performance,
+      scalability and SQL support.
+    funding: 69000000
+    homepage: https://tdengine.com/
+    industries:
+    - Analytics
+    - Data Storage
+    - Internet
+    - Internet of Things
+    - Software
+    kind: funding
+    linkedin: null
+    name: Taos Data
+    num_employees_max: 100
+    num_employees_min: 51
+    parents: []
+    region: Beijing
+    stockExchange: null
+    twitter: null
+  github_data:
+    contributions: 333;365;450;260;258;338;209;165;58;276;284;221;282;219;205;186;209;217;242;366;208;107;131;168;78;4;141;63;103;97;149;110;77;110;74;155;176;205;46;99;214;132;99;46;58;44;28;23;56;26;9;17
+    contributors_count: 245
+    contributors_link: https://github.com/taosdata/TDengine/graphs/contributors
+    description: An open-source time-series database with high-performance, scalability
+      and SQL support. It can be widely used in IoT, Connected Vehicles, DevOps, Energy,
+      Finance and other fields.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#555555'
+      name: C
+      value: 7389922
+    - color: '#89e051'
+      name: Shell
+      value: 661538
+    - color: '#f34b7d'
+      name: C++
+      value: 205617
+    - color: '#00ADD8'
+      name: Go
+      value: 159701
+    - color: '#178600'
+      name: C#
+      value: 111439
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 95765
+    - name: CMake
+      value: 47428
+    - color: '#4B6C4B'
+      name: Yacc
+      value: 42479
+    - color: '#b07219'
+      name: Java
+      value: 41971
+    - color: '#C1F12E'
+      name: Batchfile
+      value: 12276
+    - color: '#DBCA00'
+      name: Lex
+      value: 11127
+    - color: '#384d54'
+      name: Dockerfile
+      value: 5884
+    - color: '#e34c26'
+      name: HTML
+      value: 5805
+    - name: GDB
+      value: 2950
+    - color: '#000080'
+      name: Lua
+      value: 2324
+    - color: '#427819'
+      name: Makefile
+      value: 2251
+    - color: '#f0a9f0'
+      name: Gnuplot
+      value: 1893
+    - name: NASL
+      value: 1786
+    - color: '#dea584'
+      name: Rust
+      value: 1373
+    - color: '#563d7c'
+      name: CSS
+      value: 63
+    latest_commit_date: '2022-08-05T09:12:11Z'
+    latest_commit_link: /taosdata/TDengine/commit/3ef408317645b4f5ec0b65d03c425ecf18a3684f
+    license: GNU Affero General Public License v3.0
+    release_date: '2022-08-05T17:58:17Z'
+    release_link: https://github.com/taosdata/TDengine/releases
+    stars: 18739
+  github_start_commit_data:
+    start_commit_link: /taosdata/TDengine/commit/57492cc12d177d20d74b904c14b51a76a19cbd1b
+    start_date: '2019-07-11T08:36:16Z'
+  homepage_url: https://tdengine.com
+  image_data:
+    fileName: t-dengine.svg
+    hash: s37ZhSedSk7KGmssK91fHOLJO30HWMfaqfq0RRDpzFY=
+  item: null
+  logo: TDengine.svg
+  name: TDengine
+  repo_url: https://github.com/taosdata/TDengine
+  repos:
+  - stars: 18739
+    url: https://github.com/taosdata/TDengine
+  twitter: https://twitter.com/TaosData
+  twitter_data:
+    latest_tweet_date: 2022-08-05 21:45:00+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/pingcap
+  crunchbase_data:
+    acquisitions: []
+    city: San Mateo
+    company_type: For Profit
+    country: United States
+    description: PingCAP is a developer of an open-source, distributed SQL database
+      for real-time analytics.
+    funding: 341600000
+    homepage: https://pingcap.com
+    industries:
+    - Big Data
+    - Database
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/pingcap/
+    name: PingCAP
+    num_employees_max: 500
+    num_employees_min: 251
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: https://www.twitter.com/pingcap
+  github_data:
+    contributions: 83;94;56;57;66;83;52;61;25;84;53;93;78;66;63;81;68;68;66;60;86;56;61;51;74;8;57;59;49;79;59;82;52;58;50;52;44;56;25;68;72;32;44;45;44;61;58;53;76;92;79;76
+    contributors_count: 848
+    contributors_link: https://github.com/pingcap/tidb/graphs/contributors
+    description: 'TiDB is an open-source, cloud-native, distributed, MySQL-Compatible
+      database for elastic scale and real-time analytics. Try free: https://tidbcloud.com/free-trial'
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 31497693
+    - name: Starlark
+      value: 540276
+    - color: '#89e051'
+      name: Shell
+      value: 427869
+    - color: '#4B6C4B'
+      name: Yacc
+      value: 341223
+    - color: '#2b7489'
+      name: TypeScript
+      value: 61875
+    - color: '#427819'
+      name: Makefile
+      value: 20434
+    - color: '#0064bd'
+      name: Jsonnet
+      value: 15129
+    - color: '#b07219'
+      name: Java
+      value: 3694
+    - color: '#9d5200'
+      name: Ragel
+      value: 3678
+    - color: '#384d54'
+      name: Dockerfile
+      value: 2090
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 900
+    - color: '#e34c26'
+      name: HTML
+      value: 420
+    latest_commit_date: '2022-08-06T00:50:06Z'
+    latest_commit_link: /pingcap/tidb/commit/c7b5ca0f716f373a2d79760817e1069c196b290c
+    license: Apache License 2.0
+    release_date: '2022-07-08T01:43:41Z'
+    release_link: https://github.com/pingcap/tidb/releases
+    stars: 31994
+  github_start_commit_data:
+    start_commit_link: /pingcap/tidb/commit/0d6f270068e8ff2aedc1c314e907771b6a508ebd
+    start_date: '2015-09-06T04:04:42Z'
+  homepage_url: https://en.pingcap.com
+  image_data:
+    fileName: ti-db.svg
+    hash: 2LuACnq+eiCm0zRDFybs9/01bc4vLEphstnQl69mwqA=
+  item: null
+  logo: tidb.svg
+  name: TiDB
+  repo_url: https://github.com/pingcap/tidb
+  repos:
+  - stars: 31994
+    url: https://github.com/pingcap/tidb
+  twitter: https://twitter.com/PingCAP
+  twitter_data:
+    latest_tweet_date: 2022-08-03 23:30:00+00:00
+- best_practice_data:
+    badge: 2574
+    percentage: 100
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  description: A distributed transactional key-value database. Based on the design
+    of Google Spanner and HBase, but simpler to manage and without dependencies on
+    any distributed filesystem
+  extra:
+    accepted: '2018-08-28'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#tikv-logos
+    blog_url: https://tikv.org/blog/
+    dev_stats_url: https://tikv.devstats.cncf.io/
+    mailing_list_url: https://tikv.org/community/community/
+    stack_overflow_url: https://stackoverflow.com/questions/tagged/tikv
+    youtube_url: https://www.youtube.com/channel/UCXyuUR4qEm0HLDniz46k6sg
+  github_data:
+    contributions: 14;19;12;8;7;5;2;9;2;11;10;15;19;25;15;24;16;21;12;16;21;11;18;11;7;0;9;11;14;17;22;27;14;13;3;2;14;6;4;14;32;21;17;12;6;16;9;10;20;25;15;16
+    contributors_count: 383
+    contributors_link: https://github.com/tikv/tikv/graphs/contributors
+    description: Distributed transactional key-value database, originally created
+      to complement TiDB
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#dea584'
+      name: Rust
+      value: 14438742
+    - color: '#427819'
+      name: Makefile
+      value: 15770
+    - color: '#89e051'
+      name: Shell
+      value: 11443
+    - color: '#3572A5'
+      name: Python
+      value: 8319
+    - color: '#555555'
+      name: C
+      value: 6514
+    - color: '#384d54'
+      name: Dockerfile
+      value: 3726
+    latest_commit_date: '2022-08-05T08:46:07Z'
+    latest_commit_link: /tikv/tikv/commit/68397e8c7fe1842635b29675f9cc01f534fc1d3e
+    license: Apache License 2.0
+    release_date: '2022-07-08T01:43:39Z'
+    release_link: https://github.com/tikv/tikv/releases
+    stars: 11544
+  github_start_commit_data:
+    start_commit_link: /tikv/tikv/commit/b56dbe686b83ef6fda592b46c0d03245559a39e7
+    start_date: '2016-01-07T05:02:04Z'
+  homepage_url: https://tikv.org
+  image_data:
+    fileName: ti-kv.svg
+    hash: LgnxjW/bCbpUd3ADoqmAQV1gwe4Rc8ATQo/4HKibTwo=
+  item: null
+  logo: tikv.svg
+  name: TiKV
+  project: graduated
+  repo_url: https://github.com/tikv/tikv
+  repos:
+  - stars: 11544
+    url: https://github.com/tikv/tikv
+  twitter: https://twitter.com/tikvproject
+  twitter_data:
+    latest_tweet_date: 2022-05-13 00:16:26+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/timescaledb
+  crunchbase_data:
+    acquisitions: []
+    city: New York
+    company_type: For Profit
+    country: United States
+    description: TimescaleDB is an open-source time-series database optimized for
+      fast ingest and complex queries.
+    funding: 181100000
+    homepage: http://www.timescale.com
+    industries:
+    - Computer
+    - Database
+    - Information Services
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/timescaledb
+    name: Timescale
+    num_employees_max: 250
+    num_employees_min: 101
+    parents: []
+    region: New York
+    stockExchange: null
+    twitter: https://twitter.com/timescaledb
+  description: "PostgreSQL for time\u2011series. TimescaleDB is the leading open-source\
+    \ relational database for time-series data. Fully managed or self\u2011hosted."
+  github_data:
+    contributions: 2;12;10;6;10;7;8;7;19;15;18;21;8;7;20;9;12;19;12;10;0;3;17;4;18;9;22;11;9;4;6;14;3;4;12;4;20;10;8;20;30;14;12;4;12;15;4;7;2;18;9;8
+    contributors_count: 75
+    contributors_link: https://github.com/timescale/timescaledb/graphs/contributors
+    description: An open-source time-series SQL database optimized for fast ingest
+      and complex queries.  Packaged as a PostgreSQL extension.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#555555'
+      name: C
+      value: 4045161
+    - name: PLpgSQL
+      value: 1141242
+    - name: CMake
+      value: 108722
+    - color: '#89e051'
+      name: Shell
+      value: 97906
+    - color: '#701516'
+      name: Ruby
+      value: 45973
+    - color: '#0298c3'
+      name: Perl
+      value: 33387
+    - color: '#3572A5'
+      name: Python
+      value: 28549
+    - name: SmPL
+      value: 3944
+    - color: '#C1F12E'
+      name: Batchfile
+      value: 774
+    - color: '#c065db'
+      name: Emacs Lisp
+      value: 771
+    latest_commit_date: '2022-08-03T20:10:21Z'
+    latest_commit_link: /timescale/timescaledb/commit/13df260089b50c79ed590eee19228f66eb540de2
+    license: Other
+    release_date: '2022-07-25T06:51:36Z'
+    release_link: https://github.com/timescale/timescaledb/releases
+    stars: 13437
+  github_start_commit_data:
+    start_commit_link: /timescale/timescaledb/commit/2241a25b8c7aeeacaa1aab8a181ad15436b03d9b
+    start_date: '2016-10-19T01:16:51Z'
+  homepage_url: https://www.timescale.com
+  image_data:
+    fileName: timescale.svg
+    hash: +SA59lWzHDCkTmWYd0H5Nfi/aQkMv1fs+Yz0HonSLcE=
+  item: null
+  logo: timescale.svg
+  name: Timescale
+  open_source: false
+  repo_url: https://github.com/timescale/timescaledb
+  repos:
+  - stars: 13437
+    url: https://github.com/timescale/timescaledb
+  twitter: https://twitter.com/TimescaleDB
+  twitter_data:
+    latest_tweet_date: 2022-08-05 17:58:39+00:00

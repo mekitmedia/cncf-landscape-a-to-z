@@ -1,0 +1,275 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/catalyst-cloud
+  crunchbase_data:
+    acquisitions: []
+    city: Wellington
+    company_type: For Profit
+    country: New Zealand
+    description: We deliver robust and innovative cloud services in New Zealand
+    homepage: https://catalystcloud.nz/
+    industries:
+    - Cloud Computing
+    - IaaS
+    - Information and Communications Technology (ICT)
+    - PaaS
+    linkedin: https://www.linkedin.com/company/catalyst-cloud-limited/
+    name: Catalyst Cloud
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/catalyst-it
+    region: Wellington
+    stockExchange: null
+    twitter: https://twitter.com/catalyst_cloud
+  description: Catalyst Kubernetes Service makes it easy for you to deploy, manage,
+    and scale Kubernetes clusters to run containerised applications on the Catalyst
+    Cloud.
+  github_data:
+    contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+    contributors_count: 353
+    contributors_link: https://github.com/catalyst-cloud/magnum/graphs/contributors
+    description: Container Infrastructure Management Service for OpenStack
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#3572A5'
+      name: Python
+      value: 2324046
+    - color: '#89e051'
+      name: Shell
+      value: 362898
+    - color: '#384d54'
+      name: Dockerfile
+      value: 9810
+    - name: Mako
+      value: 349
+    latest_commit_date: '2020-05-20T11:36:50Z'
+    latest_commit_link: /catalyst-cloud/magnum/commit/0c2e181131ffe2a1e4ea182be3b1ac0529bc1eb3
+    license: Apache License 2.0
+    stars: 2
+  github_start_commit_data:
+    start_commit_link: /catalyst-cloud/magnum/commit/add7867c7f14bc3462da848882394ff61d78ab1b
+    start_date: '2014-11-07T10:08:48Z'
+  homepage_url: https://catalystcloud.nz/services/paas/kubernetes/
+  image_data:
+    fileName: catalyst-kubernetes-service.svg
+    hash: m0to35npCcEqkqvAdK88oXAFomC+QIfx7SGhePG197c=
+  item: null
+  logo: catalyst-cloud.svg
+  name: Catalyst Kubernetes Service
+  repo_url: https://github.com/catalyst-cloud/magnum
+  repos:
+  - stars: 2
+    url: https://github.com/catalyst-cloud/magnum
+  twitter_data:
+    latest_tweet_date: 2022-04-08 02:04:54+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/china-mobile
+  crunchbase_data:
+    acquisitions:
+    - acquiree: China Mobile Pakistan
+      date: '2007-01-22'
+      price: 284000000
+    - acquiree: China Tietong
+      date: '2008-05-25'
+    - acquiree: Venustech
+      date: '2022-06-21'
+      price: 620000000
+    city: Beijing
+    company_type: For Profit
+    country: China
+    description: China Mobile is an investment holdings company that provides mobile
+      telecommunications and related services in Mainland China and Hong Kong.
+    funding: 3815535353
+    homepage: http://www.chinamobileltd.com
+    industries:
+    - Mobile
+    - Telecommunications
+    - Wireless
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/china-mobile/
+    name: China Mobile
+    num_employees_max: 1000000
+    num_employees_min: 10001
+    parents: []
+    region: Beijing
+    stockExchange: sse
+    ticker: 600941.SS
+    twitter: null
+  description: "Ecloud Kubernetes Container Service\uFF08KCS\uFF09provides high-performance\
+    \ and reliable container application management capabilities. It simplifies the\
+    \ establishment of a cloud operating environment for container applications and\
+    \ provides a complete cloud operating environment for applications."
+  homepage_url: https://ecloud.10086.cn/home/product-introduction/containerser
+  image_data:
+    fileName: china-mobile-kcs.svg
+    hash: AtqvkJQ4sTWocYAfBNqHqgj3S18XOEEb1TL/Ay4GQsI=
+  item: null
+  logo: china-mobile-member.svg
+  name: China Mobile KCS
+  yahoo_finance_data:
+    effective_ticker: 600941.SS
+    market_cap: 141243033292
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/china-unicom
+  crunchbase_data:
+    acquisitions: []
+    city: Beijing
+    company_type: For Profit
+    country: China
+    description: China Unicom is a company that provides broadband communications
+      and information services.
+    funding: 11700000000
+    homepage: https://www.chinaunicom.com
+    industries:
+    - Internet
+    - Mobile
+    - News
+    - Telecommunications
+    - Wireless
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/china-unicom/about/
+    name: China Unicom
+    num_employees_max: 1000000
+    num_employees_min: 10001
+    parents: []
+    region: Beijing
+    stockExchange: sse
+    ticker: 600050.SS
+    twitter: https://twitter.com/chinunicomos
+  description: Chinaunicom Kubernetes Engine (CKE), Fully compatible with Kubernetes'
+    native API and capable of expanding Chinaunicom Cloud's Kubernetes plugins such
+    as CNI and CSI, and a highly scalable and high-performance container management
+    services.
+  homepage_url: https://www.cucloud.cn/product/csk.html
+  image_data:
+    fileName: chinaunicom-kubernetes-engine.svg
+    hash: nk2UYEi4TAWZiMtCGw3CfOTre15jMPVK0Qbbg0cWFnk=
+  item: null
+  logo: china-unicom.svg
+  name: Chinaunicom Kubernetes Engine
+  twitter_data:
+    latest_tweet_date: 2017-01-16 06:34:23+00:00
+  yahoo_finance_data:
+    effective_ticker: 600050.SS
+    market_cap: 15535524252
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/civo-49db
+  crunchbase_data:
+    acquisitions: []
+    city: Stevenage
+    company_type: ''
+    country: United Kingdom
+    description: Cloud hosting specialists running the the world's first Kubernetes
+      service powered by Rancher Lab's K3s.
+    funding: 2763669
+    homepage: https://www.civo.com
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Cloud Storage
+    - Developer APIs
+    - Developer Tools
+    - Information Technology
+    - Internet
+    - Private Cloud
+    - Web Hosting
+    kind: funding
+    linkedin: https://www.linkedin.com/company/10043787
+    name: Civo
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: Herefordshire
+    stockExchange: null
+    twitter: https://twitter.com/civocloud
+  description: The first cloud native service provider powered only by Kubernetes
+  homepage_url: https://www.civo.com
+  image_data:
+    fileName: civo-kubernetes.svg
+    hash: /OO69wwtrAyN26i4J+CQW0K6LnSZEoBjQb7BL9QgeoY=
+  item: null
+  logo: civo.svg
+  name: Civo Kubernetes
+  twitter_data:
+    latest_tweet_date: 2022-08-05 21:30:01+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/bes-e58f
+  crunchbase_data:
+    acquisitions: []
+    city: Beijing
+    company_type: For Profit
+    country: China
+    description: BES is a software company that focuses on the development and promotion
+      of basic software.
+    homepage: https://www.bessystem.com/
+    industries:
+    - CRM
+    - Information Technology
+    - Software
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/%E5%8C%97%E4%BA%AC%E5%AE%9D%E5%85%B0%E5%BE%B7%E8%BD%AF%E4%BB%B6%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+    name: BES
+    num_employees_max: 500
+    num_employees_min: 251
+    parents: []
+    region: Beijing
+    stockExchange: sse
+    ticker: 688058.SS
+    twitter: null
+  description: "CloudLink CMP is a kubernetes enabled enterprise-ready PaaS solution,\
+    \ consists of features like CICD\u3001multi-tenant\u3001rich micro-services and\
+    \ components support, integrated with an easy-to-use operation/maintenance interface."
+  homepage_url: https://www.bessystem.com/product/31f9842c24e5441394b85bfdc7a9d7df/info
+  image_data:
+    fileName: cloud-link.svg
+    hash: jlVjf8JAN+Lb7/WBBUOwM64B6Kldrv1BK50Qsuf12kI=
+  item: null
+  logo: cloudlink.svg
+  name: CloudLink
+  yahoo_finance_data:
+    effective_ticker: 688058.SS
+    market_cap: 468495522
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/conoa
+  crunchbase_data:
+    acquisitions: []
+    city: Stockholm
+    company_type: For Profit
+    country: Sweden
+    description: Conoa helps businesses build cloud native, container and Kubernetes
+      infrastructure to enable modernisation.
+    homepage: https://www.conoa.se
+    industries:
+    - Consulting
+    - Information Technology
+    linkedin: https://www.linkedin.com/company/2747724
+    name: Conoa
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: Stockholms Lan
+    stockExchange: null
+    twitter: https://twitter.com/ConoaAB
+  description: Full stack managed Kubernetes platform which lets you focus on your
+    application, we'll do the rest!
+  homepage_url: https://www.conoa.se/container-as-a-service/
+  image_data:
+    fileName: conoa-proact-managed-container-platform.svg
+    hash: psi8Mgd7lUGWPnqhl00QBK2vedBfdLAcibPgVcdvDEI=
+  item: null
+  logo: conoa.svg
+  name: Conoa Proact Managed Container Platform
+  twitter_data:
+    latest_tweet_date: 2021-09-16 13:52:17+00:00

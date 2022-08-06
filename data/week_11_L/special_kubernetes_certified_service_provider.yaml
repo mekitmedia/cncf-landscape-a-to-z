@@ -1,0 +1,162 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/linklogis
+  crunchbase_data:
+    acquisitions: []
+    city: Shenzhen
+    company_type: For Profit
+    country: China
+    description: Linklogis is a supply chain financing service provider that is based
+      in China.
+    funding: 265145175
+    homepage: https://www.linklogis.com/
+    industries:
+    - Finance
+    - Financial Services
+    - Supply Chain Management
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/%E6%B7%B1%E5%9C%B3%E5%89%8D%E6%B5%B7%E8%81%94%E6%98%93%E8%9E%8D%E9%87%91%E8%9E%8D%E6%9C%8D%E5%8A%A1%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/
+    name: Linklogis
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: Guangdong
+    stockExchange: hkg
+    ticker: 9959.HK
+    twitter: null
+  description: Linklogis Cloud provides customers with services around Kubernetes
+    including not only consulting, operations, technical support and training, but
+    also professional cloud native products.
+  homepage_url: https://cloud.linklogis.com/#/kubernetes
+  image_data:
+    fileName: linklogis-kcsp.svg
+    hash: XABCmi2F2E05vPl5FiGCAJ8a6qatk4vzJ2Fpm2YR/1w=
+  item: null
+  logo: linklogis.svg
+  name: Linklogis (KCSP)
+  yahoo_finance_data:
+    effective_ticker: 9959.HK
+    market_cap: 1531015731
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/liquid-reply
+  crunchbase_data:
+    acquisitions: []
+    city: Munich
+    company_type: For Profit
+    country: Germany
+    description: Liquid Reply is a Reply Group Company specialized in Container Orchestration
+      & Cloud Native Development.
+    homepage: https://www.reply.com/liquid-reply/en/
+    industries: []
+    linkedin: https://www.linkedin.com/company/liquid-reply
+    name: Liquid Reply
+    num_employees_max: null
+    num_employees_min: null
+    parents: []
+    region: Bayern
+    stockExchange: null
+    twitter: https://twitter.com/LiquidReply
+  description: As Enterprise Kubernetes Consultants, we design and build your Kubernetes
+    cluster in the public cloud, on-prem, or multi/hybrid cloud environments according
+    to your needs.
+  homepage_url: https://www.reply.com/liquid-reply/en
+  image_data:
+    fileName: liquid-reply-kcsp.svg
+    hash: zrJJokZbDU1uHOz+eqGhPls+mDVeTmf8w2/jAG/l+BI=
+  item: null
+  logo: liquid-reply.svg
+  name: Liquid Reply (KCSP)
+  twitter_data:
+    latest_tweet_date: 2022-08-04 14:00:38+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/lsd-open
+  crunchbase_data:
+    acquisitions: []
+    city: Johannesburg
+    company_type: ''
+    country: South Africa
+    description: Fully managed and engineered cloud native accelerator, leveraging
+      a foundation of containerisation, Kubernetes and open source technologies
+    homepage: https://lsdopen.io/
+    industries: []
+    linkedin: null
+    name: LSD Open
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: NA - South Africa
+    stockExchange: null
+    twitter: null
+  description: Fully managed and engineered cloud native accelerator, leveraging a
+    foundation of containerization, Kubernetes and open source technologies
+  homepage_url: https://lsdopen.io/kubernetes-services/
+  image_data:
+    fileName: lsd-open-kcsp.svg
+    hash: YhF3g1Fg5hCSqozO64WOz1fq4+bZvEYT1fTqOAZ34TE=
+  item: null
+  logo: LSD-OPEN.svg
+  name: LSD Open (KCSP)
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/l-t-infotech
+  crunchbase_data:
+    acquisitions:
+    - acquiree: GDA Technologies
+      date: '2006-12-13'
+    - acquiree: AugmentIQ Data Sciences
+      date: '2016-10-25'
+    - acquiree: Syncordis S.A.
+      date: '2017-11-14'
+    - acquiree: Ruletronics
+      date: '2019-01-17'
+    - acquiree: Nielsen+Partner
+      date: '2019-02-14'
+      price: 31500000
+    - acquiree: Lymbyc
+      date: '2019-07-17'
+    - acquiree: Powerupcloud Technologies
+      date: '2019-10-17'
+    city: Edison
+    company_type: For Profit
+    country: United States
+    description: LTI is a global technology consulting and digital solutions company
+      helping more than 250 clients succeed in a converging world.
+    funding: 30000000
+    homepage: https://www.lntinfotech.com
+    industries:
+    - Analytics
+    - Consulting
+    - Information Technology
+    - Internet of Things
+    - Software
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/l&t-infotech
+    name: L&T Infotech
+    num_employees_max: 1000000
+    num_employees_min: 10001
+    parents: []
+    region: New Jersey
+    stockExchange: nse
+    ticker: LTI.NS
+    twitter: https://twitter.com/LTI_Global
+  description: Our Kubernetes-centric Professional services are designed to address
+    the key tenets and challenges with containerization and Kubernetes adoption at
+    scale.
+  homepage_url: https://www.lntinfotech.com/services/cloud/cloud-native/make-the-shift/
+  image_data:
+    fileName: lti-kcsp.svg
+    hash: Ytqa6AcgTOwF1xiaHl+zFyHineF1xt7xCD+4t9e8a2E=
+  item: null
+  logo: larsen-toubro.svg
+  name: LTI (KCSP)
+  twitter_data:
+    latest_tweet_date: 2022-08-05 13:52:07+00:00
+  yahoo_finance_data:
+    effective_ticker: LTI.NS
+    market_cap: 10879205531

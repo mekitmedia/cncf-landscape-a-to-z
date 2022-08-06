@@ -1,0 +1,158 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/netapp
+  crunchbase_data:
+    acquisitions:
+    - acquiree: WebManage Technologies
+      date: '2000-09-05'
+      price: 75000000
+    - acquiree: Spinnaker Networks
+      date: '2003-11-04'
+      price: 300000000
+    - acquiree: Alacritus Software
+      date: '2005-04-07'
+    - acquiree: Decru
+      date: '2005-06-16'
+      price: 272000000
+    - acquiree: Topio
+      date: '2006-11-08'
+      price: 160000000
+    - acquiree: Onaro
+      date: '2008-01-03'
+      price: 120000000
+    - acquiree: Bycast
+      date: '2010-04-07'
+    - acquiree: Akorri Networks
+      date: '2011-01-12'
+      price: 60000000
+    - acquiree: Engenio
+      date: '2011-03-09'
+      price: 480000000
+    - acquiree: Cache IQ
+      date: '2012-11-14'
+    - acquiree: ionGrid
+      date: '2013-02-11'
+    - acquiree: Riverbed Technology - SteelStore (Whitewater)
+      date: '2014-10-27'
+      price: 80000000
+    - acquiree: SolidFire
+      date: '2015-12-21'
+      price: 870000000
+    - acquiree: Plexistor
+      date: '2017-05-29'
+      price: 32000000
+    - acquiree: Greenqloud
+      date: '2017-08-17'
+    - acquiree: StackPointCloud
+      date: '2018-09-18'
+    - acquiree: Cognigo
+      date: '2019-05-27'
+      price: 70000000
+    - acquiree: Talon Storage
+      date: '2020-03-09'
+    - acquiree: CloudJumper
+      date: '2020-04-29'
+    - acquiree: Spot.io
+      date: '2020-06-04'
+      price: 450000000
+    - acquiree: Data Mechanics
+      date: '2021-06-22'
+    - acquiree: CloudCheckr
+      date: '2021-10-04'
+    - acquiree: Fylamynt
+      date: '2022-02-22'
+    - acquiree: Instaclustr
+      date: '2022-05-24'
+    city: Sunnyvale
+    company_type: For Profit
+    country: United States
+    description: NetApp is a hybrid cloud data services company .
+    funding: 0
+    homepage: http://netapp.com
+    industries:
+    - Cloud Computing
+    - Data Storage
+    - Information Technology
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/netapp
+    name: NetApp
+    num_employees_max: 1000000
+    num_employees_min: 10001
+    parents: []
+    region: California
+    stockExchange: nasdaq
+    ticker: NTAP
+    twitter: http://twitter.com/netapp
+  homepage_url: https://www.netapp.com
+  image_data:
+    fileName: net-app-member.svg
+    hash: cVOiI+Zoku1fxrsBQ75N1HNGKuVBPIoNxrsH0tMT7mI=
+  item: null
+  logo: netapp.svg
+  name: NetApp (member)
+  twitter_data:
+    latest_tweet_date: 2022-08-05 15:00:31+00:00
+  yahoo_finance_data:
+    effective_ticker: NTAP
+    market_cap: 15902223360
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/new-relic
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Ducksboard
+      date: '2014-10-08'
+      price: 2300000
+    - acquiree: Opsmatic
+      date: '2015-11-06'
+    - acquiree: Immediately
+      date: '2016-07-15'
+    - acquiree: CoScale
+      date: '2018-10-11'
+    - acquiree: SignifAI
+      date: '2019-02-06'
+    - acquiree: IOpipe
+      date: '2019-11-01'
+    - acquiree: Pixie Labs
+      date: '2020-12-10'
+    - acquiree: CodeStream
+      date: '2021-10-21'
+    city: San Francisco
+    company_type: For Profit
+    country: United States
+    description: New Relic is a digital intelligence company that delivers full-stack
+      visibility and analytics to enterprises.
+    funding: 214500000
+    homepage: http://newrelic.com
+    industries:
+    - Analytics
+    - Application Performance Management
+    - Cloud Computing
+    - IT Infrastructure
+    - Mobile
+    - SaaS
+    - Software
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/new-relic-inc-
+    name: New Relic
+    num_employees_max: 5000
+    num_employees_min: 1001
+    parents: []
+    region: California
+    stockExchange: nyse
+    ticker: NEWR
+    twitter: http://twitter.com/newrelic
+  homepage_url: https://newrelic.com
+  image_data:
+    fileName: new-relic-member.svg
+    hash: wo/y9y13cnglgpTLIAv8QfHjLvidN8wddEU3qQTEYds=
+  item: null
+  logo: newrelic.svg
+  name: New Relic (member)
+  twitter_data:
+    latest_tweet_date: 2022-08-05 18:36:21+00:00
+  yahoo_finance_data:
+    effective_ticker: NEWR
+    market_cap: 4643545088

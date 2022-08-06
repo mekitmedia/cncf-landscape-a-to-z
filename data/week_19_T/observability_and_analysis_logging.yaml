@@ -1,0 +1,142 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/tencent
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Shenzhen Domain Networks
+      date: '2010-04-20'
+    - acquiree: Comsenz
+      date: '2010-08-23'
+    - acquiree: Riot Games
+      date: '2011-02-01'
+      price: 400000000
+    - acquiree: Zam
+      date: '2012-03-01'
+    - acquiree: Linktech Navi
+      date: '2014-01-26'
+    - acquiree: Cloudary
+      date: '2015-01-27'
+    - acquiree: Miniclip
+      date: '2015-02-18'
+    - acquiree: Supercell
+      date: '2016-06-21'
+      price: 8600000000
+    - acquiree: Tencent Music Entertainment
+      date: '2016-07-14'
+      price: 2700000000
+    - acquiree: Sanook
+      date: '2016-12-22'
+    - acquiree: Grinding Gear Games
+      date: '2018-05-21'
+    - acquiree: Cat Cake
+      date: '2018-08-22'
+    - acquiree: Sharkmob
+      date: '2019-05-21'
+    - acquiree: iflix
+      date: '2020-06-24'
+    - acquiree: Leyou Technologies Holdings
+      date: '2020-08-28'
+      price: 1400000000
+    - acquiree: Sogou
+      date: '2020-09-29'
+      price: 3500000000
+    - acquiree: 10 Chambers Collective
+      date: '2020-10-01'
+    - acquiree: Klei Entertainment
+      date: '2021-01-24'
+    - acquiree: YAGER
+      date: '2021-06-22'
+    - acquiree: Stunlock Studios
+      date: '2021-07-19'
+    - acquiree: Sumo Group plc
+      date: '2021-07-19'
+      price: 1230096358
+    - acquiree: Wake Up Interactive
+      date: '2021-11-11'
+      price: 44000000
+    - acquiree: Turtle Rock Studios
+      date: '2021-12-17'
+    - acquiree: Inflexion Games
+      date: '2022-02-22'
+    - acquiree: 1C Entertainment
+      date: '2022-02-25'
+    - acquiree: Tequila Works
+      date: '2022-03-15'
+    city: Shenzhen
+    company_type: For Profit
+    country: China
+    description: Tencent is an internet service portal offering value-added internet,
+      mobile, telecom, and online advertising services.
+    funding: 12576770000
+    homepage: https://www.tencent.com/en-us/
+    industries:
+    - Advertising
+    - Internet
+    - Online Games
+    - Online Portals
+    - Social Media Marketing
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/166328/
+    name: Tencent
+    num_employees_max: 1000000
+    num_employees_min: 10001
+    parents: []
+    region: Guangdong
+    stockExchange: hkg
+    ticker: 0700.HK
+    twitter: https://twitter.com/tencentglobal
+  homepage_url: https://cloud.tencent.com/product/cls
+  image_data:
+    fileName: tencent-cloud-log-service.svg
+    hash: xARn8YBI2snHCyKIxVRgESCOLC2igpp8MgJoIxpyMV4=
+  item: null
+  logo: tencent-cloud-log-service.svg
+  name: Tencent Cloud Log Service
+  twitter_data:
+    latest_tweet_date: 2022-08-03 00:34:02+00:00
+  yahoo_finance_data:
+    effective_ticker: 0700.HK
+    market_cap: 376891200216
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/trink-io
+  crunchbase_data:
+    acquisitions: []
+    city: Tel Aviv
+    company_type: For Profit
+    country: Israel
+    description: The first log shipping platform
+    homepage: https://www.trink.io/
+    industries:
+    - Application Performance Management
+    - Big Data
+    - Cloud Data Services
+    - Data Integration
+    - Information Technology
+    - SaaS
+    - Software
+    linkedin: https://www.linkedin.com/company/53256695/admin/
+    name: Trink.io
+    num_employees_max: 10
+    num_employees_min: 1
+    parents: []
+    region: Tel Aviv
+    stockExchange: null
+    twitter: https://twitter.com/Trink__io
+  description: Trink.io is the first log shipping platform, built to replace fragmented
+    solutions and workarounds with a single solution that takes care of the basics
+    while offering visibility and control that only a managed solution can. Trink
+    handles the entire operational data collection scope for you, connecting to all
+    of your sources (e.g AWS) and enabling you to choose your preferred destinations
+    (Datadog, Logz, etc.) in minutes instead of days.
+  homepage_url: https://trink.io/
+  image_data:
+    fileName: trink-io.svg
+    hash: AED/0xm5DktzFskvKUuLzz5hPu2imd/HRR9DgKg3FdQ=
+  item: null
+  logo: trink.svg
+  name: Trink.io
+  twitter_data:
+    latest_tweet_date: 2020-09-13 13:38:10+00:00

@@ -1,0 +1,219 @@
+- best_practice_data:
+    badge: 6016
+    percentage: 52
+  crunchbase: https://www.crunchbase.com/organization/flant
+  crunchbase_data:
+    acquisitions:
+    - acquiree: okmeter.io
+      date: '2021-05-14'
+    city: Tallinn
+    company_type: For Profit
+    country: Estonia
+    description: Flant offers DevOps as a Service, Managed Kubernetes, and Okmeter
+      monitoring system.
+    homepage: https://flant.com/
+    industries:
+    - Consulting
+    - Information Technology
+    - Software
+    linkedin: https://www.linkedin.com/company/flant/
+    name: Flant
+    num_employees_max: 250
+    num_employees_min: 101
+    parents: []
+    region: Harjumaa
+    stockExchange: null
+    twitter: https://twitter.com/flant_com
+  description: Deckhouse Platform allows you to create homogeneous Kubernetes clusters
+    anywhere and fully manages them.
+  github_data:
+    contributions: 75;58;58;51;73;65;71;37;67;39;73;37;37;60;92;82;67;66;49;57;57;2;69;50;86;53;43;38;26;27;26;29;57;49;51;41;42;31;25;30;16;33;38;44;28;34;39;45;31;25;28;18
+    contributors_count: 77
+    contributors_link: https://github.com/deckhouse/deckhouse/graphs/contributors
+    description: Kubernetes platform from Flant
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 4791869
+    - color: '#89e051'
+      name: Shell
+      value: 522101
+    - name: Smarty
+      value: 355455
+    - color: '#2b7489'
+      name: TypeScript
+      value: 345682
+    - name: HCL
+      value: 261336
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 129600
+    - color: '#000080'
+      name: Lua
+      value: 128844
+    - color: '#384d54'
+      name: Dockerfile
+      value: 122389
+    - color: '#3572A5'
+      name: Python
+      value: 32348
+    - name: SCSS
+      value: 28006
+    - color: '#427819'
+      name: Makefile
+      value: 15846
+    - color: '#563d7c'
+      name: CSS
+      value: 4601
+    - name: Svelte
+      value: 2688
+    - color: '#e34c26'
+      name: HTML
+      value: 996
+    - name: jq
+      value: 666
+    latest_commit_date: '2022-08-05T11:48:13Z'
+    latest_commit_link: /deckhouse/deckhouse/commit/3c98d5b541136cd471d6156d6b4df2621ef89f52
+    license: Other
+    release_date: '2022-08-03T17:04:50Z'
+    release_link: https://github.com/deckhouse/deckhouse/releases
+    stars: 667
+  github_start_commit_data:
+    start_commit_link: /deckhouse/deckhouse/commit/6a107d3de289eae71113c07abbda32b7651ddeb2
+    start_date: '2017-09-29T09:23:33Z'
+  homepage_url: https://deckhouse.io/en
+  image_data:
+    fileName: flant-deckhouse.svg
+    hash: xG1lIJEvaqN3srC/A3JjNvpIyWZP1CmSZiVBy7lsjA8=
+  item: null
+  logo: flant-deckhouse.svg
+  name: Flant Deckhouse
+  repo_url: https://github.com/deckhouse/deckhouse
+  repos:
+  - stars: 667
+    url: https://github.com/deckhouse/deckhouse
+  twitter: https://twitter.com/deckhouseio
+  twitter_data:
+    latest_tweet_date: 2022-07-22 13:42:00+00:00
+- best_practice_data:
+    badge: 3763
+    percentage: 18
+  crunchbase: https://www.crunchbase.com/organization/flexkube
+  crunchbase_data:
+    acquisitions: []
+    city: Berlin
+    company_type: For Profit
+    country: Germany
+    description: Flexible Kubernetes distribution
+    homepage: https://github.com/flexkube
+    industries: []
+    linkedin: null
+    name: Flexkube
+    num_employees_max: null
+    num_employees_min: null
+    parents: []
+    region: Berlin
+    stockExchange: null
+    twitter: null
+  description: Flexible Kubernetes distribution
+  github_data:
+    contributions: 4;5;41;10;2;8;5;0;0;3;0;10;0;5;5;3;0;4;4;0;0;2;0;0;21;4;0;3;3;0;2;0;11;0;0;0;5;3;14;9;4;0;3;0;5;0;5;1;6;5;0;7
+    contributors_count: 1
+    contributors_link: https://github.com/flexkube/libflexkube/graphs/contributors
+    description: Go library for installing and managing Kubernetes clusters
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 597942
+    - color: '#427819'
+      name: Makefile
+      value: 11865
+    - name: HCL
+      value: 5822
+    - color: '#384d54'
+      name: Dockerfile
+      value: 1744
+    - color: '#89e051'
+      name: Shell
+      value: 214
+    latest_commit_date: '2022-08-05T08:44:46Z'
+    latest_commit_link: /flexkube/libflexkube/commit/311dec7d46eedfd2c8aa0582a13509d6268d59c3
+    license: Apache License 2.0
+    release_date: '2022-05-09T13:49:57Z'
+    release_link: https://github.com/flexkube/libflexkube/releases
+    stars: 29
+  github_start_commit_data:
+    start_commit_link: /flexkube/libflexkube/commit/4d228608d9740c39b0daebe3bd1ba1e41d9cba00
+    start_date: '2019-07-24T22:55:15Z'
+  homepage_url: https://github.com/flexkube/libflexkube
+  image_data:
+    fileName: flexkube.svg
+    hash: R86WRhdNd4pv8xrENS5N+iUTj/9TL+A8RT0H8x7dtZg=
+  item: null
+  logo: flexkube.svg
+  name: Flexkube
+  repo_url: https://github.com/flexkube/libflexkube
+  repos:
+  - stars: 29
+    url: https://github.com/flexkube/libflexkube
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/sighup
+  crunchbase_data:
+    acquisitions: []
+    city: Milan
+    company_type: For Profit
+    country: Italy
+    description: SIGHUP is specialized on Kubernetes and Cloud-Native infrastructures.
+    homepage: https://sighup.io/
+    industries:
+    - Information Technology
+    - Software
+    linkedin: https://www.linkedin.com/company/sighup
+    name: SIGHUP
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: Lombardia
+    stockExchange: null
+    twitter: https://twitter.com/sighup_
+  description: Kubernetes Fury is a battle-tested distribution purely based on upstream
+    Kubernetes. Deploy and manage a stable and production grade Kubernetes Cluster
+    at scale with a comprehensive Cloud Native stack implemented with top notch CNCF
+    components.
+  github_data:
+    contributions: 0;0;0;0;1;1;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;10;10;7;2;0;0;0;0;13;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;7;0;22;0;0
+    contributors_count: 6
+    contributors_link: https://github.com/sighupio/fury-distribution/graphs/contributors
+    description: Kubernetes Fury Distribution (Core Modules) - A battle-tested open-source
+      Kubernetes distribution
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#89e051'
+      name: Shell
+      value: 8940
+    latest_commit_date: '2022-07-19T14:50:52Z'
+    latest_commit_link: /sighupio/fury-distribution/commit/a0917fddaeec59c55802390a584357f37420202e
+    license: BSD 3-Clause "New" or "Revised" License
+    release_date: '2022-07-18T16:16:13Z'
+    release_link: https://github.com/sighupio/fury-distribution/releases
+    stars: 58
+  github_start_commit_data:
+    start_commit_link: /sighupio/fury-distribution/commit/a610c3f59ea058dbe9e55de0476b088a103d10c3
+    start_date: '2020-01-23T16:23:04Z'
+  homepage_url: https://sighup.io
+  image_data:
+    fileName: fury-distribution.svg
+    hash: BwfxniCL4s/PJ3Y0HEV5ctTF0c7LF75C/oAimsZzsok=
+  item: null
+  logo: fury.svg
+  name: Fury Distribution
+  repo_url: https://github.com/sighupio/fury-distribution
+  repos:
+  - stars: 58
+    url: https://github.com/sighupio/fury-distribution
+  twitter_data:
+    latest_tweet_date: 2022-08-04 09:26:00+00:00

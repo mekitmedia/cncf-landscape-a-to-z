@@ -1,0 +1,240 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/datica
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Sansoro Health
+      date: '2019-06-26'
+    city: Minneapolis
+    company_type: For Profit
+    country: United States
+    description: Datica brings the cloud to healthcare and helps highly regulated
+      industries.
+    funding: 14845000
+    homepage: https://datica.com/
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Compliance
+    - Health Care
+    - Information Technology
+    - Open Source
+    - SaaS
+    kind: funding
+    linkedin: https://www.linkedin.com/company/datica-health/
+    name: Datica
+    num_employees_max: 100
+    num_employees_min: 51
+    parents: []
+    region: Minnesota
+    stockExchange: null
+    twitter: https://twitter.com/daticahealth
+  homepage_url: https://datica.com/
+  image_data:
+    fileName: datica.svg
+    hash: Ibda2MgadhuSah6+IWiOviOi+v6fW+82s4EGE0ubtEI=
+  item: null
+  logo: datica.svg
+  name: Datica
+  twitter_data:
+    latest_tweet_date: 2021-05-24 18:00:00+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/datree-io
+  crunchbase_data:
+    acquisitions: []
+    city: San Francisco
+    company_type: For Profit
+    country: United States
+    description: Datree helps Prevent Kubernetes Misconfigurations From Reaching Production
+    funding: 11000000
+    homepage: https://www.datree.io
+    industries:
+    - Cloud Computing
+    - Developer Tools
+    - Internet
+    - Productivity Tools
+    kind: funding
+    linkedin: https://www.linkedin.com/company/datreeio/
+    name: Datree
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: http://twitter.com/datreeio
+  github_data:
+    contributions: 45;5;21;14;4;2;5;8;7;15;25;43;13;10;6;5;1;19;19;3;1;33;17;5;12;6;2;11;20;12;19;44;18;28;18;14;3;8;9;9;19;6;18;11;9;1;5;4;9;2;6;3
+    contributors_count: 52
+    contributors_link: https://github.com/datreeio/datree/graphs/contributors
+    description: "Prevent Kubernetes misconfigurations from reaching production (again\
+      \ \U0001F624 )! From code to cloud, Datree provides an E2E policy enforcement\
+      \ solution to run automatic checks for rule violations. See our docs: https://hub.datree.io"
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 319470
+    - color: '#89e051'
+      name: Shell
+      value: 7621
+    - color: '#012456'
+      name: PowerShell
+      value: 2876
+    - color: '#3572A5'
+      name: Python
+      value: 1806
+    - color: '#427819'
+      name: Makefile
+      value: 1603
+    - color: '#384d54'
+      name: Dockerfile
+      value: 1511
+    latest_commit_date: '2022-08-04T07:36:44Z'
+    latest_commit_link: /datreeio/datree/commit/8cfc3a1d32de79810ad4dac6b50070a60766c40a
+    license: Apache License 2.0
+    release_date: '2022-08-04T08:11:15Z'
+    release_link: https://github.com/datreeio/datree/releases
+    stars: 5772
+  github_start_commit_data:
+    start_commit_link: /datreeio/datree/commit/373db2eb36cf01433e99fad27e26ea94202497d5
+    start_date: '2021-04-14T11:45:51Z'
+  homepage_url: https://datree.io/
+  image_data:
+    fileName: datree.svg
+    hash: Rc7GSP0vFdph7cqI2acGZb5wmola9aLDV+dQxEE0ig0=
+  item: null
+  logo: datree logo Tall - color.svg
+  name: Datree
+  repo_url: https://github.com/datreeio/datree
+  repos:
+  - stars: 5772
+    url: https://github.com/datreeio/datree
+  twitter_data:
+    latest_tweet_date: 2022-02-27 15:44:27+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  extra:
+    accepted: '2020-06-23'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#dex-logos
+    dev_stats_url: https://dex.devstats.cncf.io/
+  github_data:
+    contributions: 15;20;4;9;5;11;5;3;5;0;17;5;4;5;13;6;4;9;5;8;3;4;3;10;9;12;10;4;3;6;9;5;3;3;9;20;14;3;3;2;21;33;9;8;4;1;4;6;1;2;11;0
+    contributors_count: 206
+    contributors_link: https://github.com/dexidp/dex/graphs/contributors
+    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable
+      connectors
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 971579
+    - color: '#563d7c'
+      name: CSS
+      value: 6418
+    - color: '#e34c26'
+      name: HTML
+      value: 5456
+    - color: '#427819'
+      name: Makefile
+      value: 5083
+    - color: '#384d54'
+      name: Dockerfile
+      value: 2142
+    - color: '#89e051'
+      name: Shell
+      value: 1643
+    - color: '#7e7eff'
+      name: Nix
+      value: 713
+    latest_commit_date: '2022-07-28T12:39:50Z'
+    latest_commit_link: /dexidp/dex/commit/4bcdcf8e1ee07203b46ad771fca6491ef0d160ae
+    license: Apache License 2.0
+    release_date: '2022-07-28T15:32:00Z'
+    release_link: https://github.com/dexidp/dex/releases
+    stars: 7241
+  github_start_commit_data:
+    start_commit_link: /dexidp/dex/commit/cab271f304f850b4af3e407ab47c6e328b986020
+    start_date: '2016-07-25T20:00:28Z'
+  homepage_url: https://dexidp.io/
+  image_data:
+    fileName: dex.svg
+    hash: D/jlz0Ag65UX2mo6f+BADvhIZarQkmj1GelEeXvsjIw=
+  item: null
+  logo: dex.svg
+  name: Dex
+  project: sandbox
+  repo_url: https://github.com/dexidp/dex
+  repos:
+  - stars: 7241
+    url: https://github.com/dexidp/dex
+  twitter_data:
+    latest_tweet_date: 2022-08-05 21:09:37+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/dosec
+  crunchbase_data:
+    acquisitions: []
+    city: Beijing
+    company_type: For Profit
+    country: China
+    description: Dosec operates as a cloud-native security solution provider of PAAS
+      container security products.
+    funding: 0
+    homepage: https://www.dosec.cn/
+    industries:
+    - Cloud Security
+    - Cyber Security
+    - Network Security
+    linkedin: null
+    name: Dosec
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: Beijing
+    stockExchange: null
+    twitter: null
+  description: Dosec Security Platform provides security protection capabilities for
+    containers, kubernetes, microservices, serverless, and DevOps.
+  homepage_url: https://www.dosec.cn/
+  image_data:
+    fileName: dosec.svg
+    hash: PkCYj6yAV2GN/Ps3URuv9ZD21gLd0PVk/USCS3xpHFQ=
+  item: null
+  logo: dosec.svg
+  name: Dosec

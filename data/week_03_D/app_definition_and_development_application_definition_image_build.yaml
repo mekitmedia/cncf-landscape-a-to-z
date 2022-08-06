@@ -1,0 +1,281 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/deployhub
+  crunchbase_data:
+    acquisitions: []
+    city: Santa Fe
+    company_type: For Profit
+    country: United States
+    description: DeployHub makes it easy for IT Engineers to govern their microservice
+      supply chain and deliver secure, high-quality microservices at scale.
+    homepage: https://www.deployhub.com/
+    industries:
+    - Software
+    linkedin: https://www.linkedin.com/company/dephub/
+    name: DeployHub
+    num_employees_max: 10
+    num_employees_min: 1
+    parents: []
+    region: New Mexico
+    stockExchange: null
+    twitter: https://twitter.com/@deployhubproj
+  homepage_url: https://www.deployhub.com/
+  image_data:
+    fileName: deploy-hub.svg
+    hash: UD6/3NUz7XMMVrXqvfYIc4p57OsUa5NXciadhXCBiHg=
+  item: null
+  logo: deploy-hub.svg
+  name: DeployHub
+  twitter: https://twitter.com/DeployHubProj
+  twitter_data:
+    latest_tweet_date: 2022-08-04 17:01:28+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  extra:
+    chat_channel: '#devfile'
+    slack_url: https://kubernetes.slack.com/messages/devfile
+  github_data:
+    contributions: 2;0;0;0;2;5;1;1;7;2;2;0;1;0;2;0;0;0;0;2;0;1;0;4;1;0;1;0;0;1;1;2;0;1;0;2;0;2;0;0;0;0;1;2;2;0;0;0;0;0;0;0
+    contributors_count: 19
+    contributors_link: https://github.com/devfile/api/graphs/contributors
+    description: Kube-native API for cloud development workspaces specification
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 525760
+    - color: '#89e051'
+      name: Shell
+      value: 16994
+    - color: '#3572A5'
+      name: Python
+      value: 14196
+    - color: '#384d54'
+      name: Dockerfile
+      value: 636
+    latest_commit_date: '2022-06-14T13:36:08Z'
+    latest_commit_link: /devfile/api/commit/351f05b7c2b18e8a449dad444029cdf5e1ca81cc
+    license: Apache License 2.0
+    release_date: '2021-05-26T18:37:55Z'
+    release_link: https://github.com/devfile/api/releases
+    stars: 64
+  github_start_commit_data:
+    start_commit_link: /devfile/api/commit/c834573fe2c984a3c685a900d4e55eab2f2fd2a6
+    start_date: '2019-12-05T11:17:23Z'
+  homepage_url: https://devfile.io
+  image_data:
+    fileName: devfile.svg
+    hash: f+53+TWKMe0nJwXtnpQdhxiCKTM8Hy9Ultwaqb1GSTg=
+  item: null
+  logo: devfile.svg
+  name: Devfile
+  project: sandbox
+  repo_url: https://github.com/devfile/api
+  repos:
+  - stars: 64
+    url: https://github.com/devfile/api
+  twitter_data:
+    latest_tweet_date: 2022-08-05 21:09:37+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/loft-labs
+  crunchbase_data:
+    acquisitions: []
+    city: San Francisco
+    company_type: For Profit
+    country: United States
+    description: Loft Labs enables any organization to scale self-service access to
+      Kubernetes from 10 to 10,000 engineers.
+    funding: 4600000
+    homepage: https://loft.sh/
+    industries:
+    - Cloud Computing
+    - Cloud Management
+    - Developer Platform
+    - Developer Tools
+    - Information Technology
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/loft-sh/
+    name: Loft Labs
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/loft_sh
+  github_data:
+    contributions: 36;4;53;57;17;53;44;21;39;19;16;13;12;12;10;18;34;22;46;10;3;7;23;12;4;28;17;14;16;42;51;49;79;95;73;17;16;20;11;8;5;7;8;11;0;53;16;29;4;12;13;4
+    contributors_count: 75
+    contributors_link: https://github.com/loft-sh/devspace/graphs/contributors
+    description: "DevSpace - The Fastest Developer Tool for Kubernetes \u26A1 Automate\
+      \ your deployment workflow with DevSpace and develop software directly inside\
+      \ Kubernetes."
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 2485652
+    - color: '#2b7489'
+      name: TypeScript
+      value: 135066
+    - name: SCSS
+      value: 59549
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 53456
+    - color: '#89e051'
+      name: Shell
+      value: 4960
+    - color: '#e34c26'
+      name: HTML
+      value: 3105
+    - color: '#384d54'
+      name: Dockerfile
+      value: 465
+    latest_commit_date: '2022-08-03T18:44:07Z'
+    latest_commit_link: /loft-sh/devspace/commit/45432737737ca107658012f7af672d3c4607892a
+    license: Apache License 2.0
+    release_date: '2022-07-25T23:22:36Z'
+    release_link: https://github.com/loft-sh/devspace/releases
+    stars: 3013
+  github_start_commit_data:
+    start_commit_link: /devspace-cloud/devspace/commit/f9afb55c7c044358f4d4b8c4d7b017f0eb61d26a
+    start_date: '2018-08-17T18:18:44Z'
+  homepage_url: https://loft.sh
+  image_data:
+    fileName: dev-space.svg
+    hash: vBe131XL0qRgmJaqdm6i450TaIWEQ7gzV2AsmAK8uaM=
+  item: null
+  logo: devspace.svg
+  name: DevSpace
+  repo_url: https://github.com/loft-sh/devspace
+  repos:
+  - stars: 3013
+    url: https://github.com/loft-sh/devspace
+  twitter_data:
+    latest_tweet_date: 2022-07-29 00:45:51+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/docker
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Orchard
+      date: '2014-07-23'
+    - acquiree: Koality
+      date: '2014-10-07'
+    - acquiree: SocketPlane
+      date: '2015-03-04'
+    - acquiree: Kitematic
+      date: '2015-03-12'
+    - acquiree: Tutum
+      date: '2015-10-21'
+    - acquiree: Unikernel Systems
+      date: '2016-01-21'
+    - acquiree: Conductant
+      date: '2016-03-03'
+    - acquiree: Infinit
+      date: '2016-12-06'
+    - acquiree: Nestybox
+      date: '2022-05-10'
+    city: Palo Alto
+    company_type: For Profit
+    country: United States
+    description: "Docker\u2019s platform helps millions of developers efficiently\
+      \ and collaboratively build, share, and run applications."
+    funding: 435855439
+    homepage: https://www.docker.com
+    industries:
+    - Developer Platform
+    - Developer Tools
+    - Information Technology
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/docker
+    name: Docker
+    num_employees_max: 250
+    num_employees_min: 101
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/docker
+  github_data:
+    contributions: 8;4;10;28;11;14;16;25;9;8;8;10;19;6;13;13;15;11;11;0;0;9;3;2;1;4;7;9;17;19;29;10;5;18;8;11;0;3;8;1;15;6;18;23;23;19;20;11;15;9;22;34
+    contributors_count: 101
+    contributors_link: https://github.com/docker/compose/graphs/contributors
+    description: Define and run multi-container applications with Docker
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 520744
+    - color: '#384d54'
+      name: Dockerfile
+      value: 13248
+    - color: '#427819'
+      name: Makefile
+      value: 7292
+    - color: '#89e051'
+      name: Shell
+      value: 2133
+    - color: '#e34c26'
+      name: HTML
+      value: 656
+    latest_commit_date: '2022-08-05T14:50:24Z'
+    latest_commit_link: /docker/compose/commit/359133b800eb4d9e26b3e8d773ebbf640c1b664c
+    license: Apache License 2.0
+    release_date: '2022-08-01T16:20:09Z'
+    release_link: https://github.com/docker/compose/releases
+    stars: 26783
+  github_start_commit_data:
+    start_commit_link: /docker/compose/commit/0eb7d308615bae1ad4be1ca5112ac7b6b6cbfbaf
+    start_date: '2013-12-09T11:41:05Z'
+  homepage_url: https://docs.docker.com/compose/
+  image_data:
+    fileName: docker-compose.svg
+    hash: tEEcV205aag5aJXfYZuvyfumU/58Wx/YNE0OQrXeoLI=
+  item: null
+  logo: docker-compose.svg
+  name: Docker Compose
+  repo_url: https://github.com/docker/compose
+  repos:
+  - stars: 26783
+    url: https://github.com/docker/compose
+  twitter: https://twitter.com/moby
+  twitter_data:
+    latest_tweet_date: 2019-02-12 18:10:37+00:00

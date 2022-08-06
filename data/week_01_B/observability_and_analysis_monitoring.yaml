@@ -1,0 +1,175 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/elasticsearch
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Elastic Cloud
+      date: '2015-03-10'
+    - acquiree: Packetbeat
+      date: '2015-05-27'
+    - acquiree: Prelert
+      date: '2016-09-15'
+    - acquiree: Opbeat
+      date: '2017-06-22'
+    - acquiree: Swiftype
+      date: '2017-11-09'
+    - acquiree: Insight.io
+      date: '2018-06-28'
+    - acquiree: Endgame
+      date: '2019-06-05'
+      price: 234000000
+    - acquiree: Perched, LLC.
+      date: '2019-08-21'
+    - acquiree: build.security
+      date: '2021-08-23'
+    - acquiree: Cmd
+      date: '2021-08-25'
+    - acquiree: Optimyze
+      date: '2021-10-14'
+    city: Mountain View
+    company_type: For Profit
+    country: United States
+    description: Elastic builds software to make data usable in real time and at scale
+      for search, logging, security, and analytics use cases.
+    funding: 161999996
+    homepage: https://www.elastic.co
+    industries:
+    - Analytics
+    - Cloud Computing
+    - Open Source
+    - SaaS
+    - Search Engine
+    - Software
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/elastic-co/
+    name: Elastic
+    num_employees_max: 5000
+    num_employees_min: 1001
+    parents: []
+    region: California
+    stockExchange: nyse
+    ticker: ESTC
+    twitter: https://twitter.com/elastic
+  github_data:
+    contributions: 30;44;20;33;27;25;29;24;31;65;46;31;39;17;23;25;25;20;37;17;10;20;36;21;42;41;45;27;25;28;29;34;29;29;49;24;12;28;21;28;33;28;22;21;21;32;19;22;19;34;22;12
+    contributors_count: 698
+    contributors_link: https://github.com/elastic/beats/graphs/contributors
+    description: ':tropical_fish: Beats - Lightweight shippers for Elasticsearch &
+      Logstash '
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 14157817
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 7282525
+    - color: '#3572A5'
+      name: Python
+      value: 963681
+    - color: '#89e051'
+      name: Shell
+      value: 75805
+    - color: '#384d54'
+      name: Dockerfile
+      value: 39662
+    - color: '#e69f56'
+      name: Groovy
+      value: 37562
+    - name: Jinja
+      value: 37484
+    - color: '#427819'
+      name: Makefile
+      value: 36486
+    - color: '#9d5200'
+      name: Ragel
+      value: 25183
+    - name: HCL
+      value: 20852
+    - name: Thrift
+      value: 16458
+    - color: '#ecdebe'
+      name: Roff
+      value: 12864
+    - color: '#EB8CEB'
+      name: XSLT
+      value: 6242
+    - color: '#C1F12E'
+      name: Batchfile
+      value: 5644
+    - color: '#2b7489'
+      name: TypeScript
+      value: 3643
+    - color: '#012456'
+      name: PowerShell
+      value: 3004
+    - name: Starlark
+      value: 2916
+    - color: '#b07219'
+      name: Java
+      value: 2215
+    - name: Smarty
+      value: 512
+    latest_commit_date: '2022-08-05T03:43:25Z'
+    latest_commit_link: /elastic/beats/commit/7a469fd6096ac1a4adfd45682c381daa2e0eb139
+    license: Other
+    release_date: '2022-07-28T14:47:11Z'
+    release_link: https://github.com/elastic/beats/releases
+    stars: 11199
+  github_start_commit_data:
+    start_commit_link: /elastic/beats/commit/5b740f90b329476cae70d2103d07239eb0b7f70f
+    start_date: '2014-02-05T19:01:02Z'
+  homepage_url: https://www.elastic.co/beats
+  image_data:
+    fileName: beats.svg
+    hash: 3+6I7L1wK3cpKVGEiFzYWxSvU5Gw1f4OzbxjAIaNjBs=
+  item: null
+  logo: beats.svg
+  name: Beats
+  repo_url: https://github.com/elastic/beats
+  repos:
+  - stars: 11199
+    url: https://github.com/elastic/beats
+  twitter_data:
+    latest_tweet_date: 2022-08-05 16:27:00+00:00
+  yahoo_finance_data:
+    effective_ticker: ESTC
+    market_cap: 8217513472
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/blue-matador-inc
+  crunchbase_data:
+    acquisitions: []
+    city: South Jordan
+    company_type: For Profit
+    country: United States
+    description: Automated Monitoring for AWS, Kubernetes, and more
+    funding: 3150000
+    homepage: https://www.bluematador.com
+    industries:
+    - Analytics
+    - B2B
+    - Cloud Infrastructure
+    - Enterprise Software
+    - IT Infrastructure
+    kind: funding
+    linkedin: https://www.linkedin.com/company/blue-matador-inc
+    name: Blue Matador
+    num_employees_max: 10
+    num_employees_min: 1
+    parents: []
+    region: Utah
+    stockExchange: null
+    twitter: https://twitter.com/bluematadorinc
+  homepage_url: https://www.bluematador.com
+  image_data:
+    fileName: blue-matador.svg
+    hash: Ekh9xrJXef5QTNzs7v8jc9FdXTem/fibEvGBSarotxc=
+  item: null
+  logo: blue-matador.svg
+  name: Blue Matador
+  twitter: https://twitter.com/BlueMatadorInc
+  twitter_data:
+    latest_tweet_date: 2020-10-29 15:46:44+00:00

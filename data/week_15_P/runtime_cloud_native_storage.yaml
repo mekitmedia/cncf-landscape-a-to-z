@@ -1,0 +1,176 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/pengyun-network
+  crunchbase_data:
+    acquisitions: []
+    city: Nanjing
+    company_type: For Profit
+    country: China
+    description: Pengyun Network is a dual-soft technology company engaged in providing
+      software-defined storage products and solutions.
+    funding: 0
+    homepage: http://www.pengyunnetwork.com/
+    industries:
+    - Cloud Computing
+    - Data Storage
+    - Database
+    - Software
+    linkedin: null
+    name: Pengyun Network
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: Jiangsu
+    stockExchange: null
+    twitter: null
+  homepage_url: https://www.pengyunnetwork.com/
+  image_data:
+    fileName: pengyun-network.svg
+    hash: lTv+RtJyJD57ftdXqLDHIfxkIy82Bp5e5lirtjix1DI=
+  item: null
+  logo: pengyun.svg
+  name: Pengyun Network
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  github_data:
+    contributions: 0;7;1;3;0;0;2;0;0;0;0;0;0;0;2;0;0;1;0;0;0;2;3;0;2;1;0;5;2;0;2;2;5;0;0;0;0;3;3;3;0;3;0;0;0;0;0;3;0;2;1;0
+    contributors_count: 12
+    contributors_link: https://github.com/piraeusdatastore/piraeus/graphs/contributors
+    description: High Available Datastore for Kubernetes
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#89e051'
+      name: Shell
+      value: 19757
+    - color: '#384d54'
+      name: Dockerfile
+      value: 5970
+    - color: '#427819'
+      name: Makefile
+      value: 5440
+    latest_commit_date: '2022-07-27T09:26:25Z'
+    latest_commit_link: /piraeusdatastore/piraeus/commit/e3126e32e94a3ee3a2b71fcaa71ca728432b74e1
+    license: Apache License 2.0
+    stars: 322
+  github_start_commit_data:
+    start_commit_link: /piraeusdatastore/piraeus/commit/348344e4f0558be7f919fe702f743735b925a6b2
+    start_date: '2019-07-10T11:18:17Z'
+  homepage_url: https://piraeus.io/
+  image_data:
+    fileName: piraeus-datastore.svg
+    hash: pRjd1hKY/BAFwsE/6FpuP5ymR4l7KoMQz/h9iKPtp/A=
+  item: null
+  logo: piraeus.svg
+  name: Piraeus Datastore
+  project: sandbox
+  repo_url: https://github.com/piraeusdatastore/piraeus
+  repos:
+  - stars: 322
+    url: https://github.com/piraeusdatastore/piraeus
+  twitter_data:
+    latest_tweet_date: 2022-08-05 21:09:37+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/portworx
+  crunchbase_data:
+    acquisitions: []
+    city: Los Altos
+    company_type: For Profit
+    country: United States
+    description: "Portworx is a cloud-native storage and data management company offering\
+      \ the industry\u2019s first storage solution purpose-built for containers."
+    funding: 55500000
+    homepage: https://portworx.com/
+    industries:
+    - Cloud Storage
+    - Data Center
+    - Data Storage
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/portworx/
+    name: Portworx
+    num_employees_max: 250
+    num_employees_min: 101
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/portwx
+  homepage_url: https://portworx.com/
+  image_data:
+    fileName: portworx.svg
+    hash: PUwm/ow/lIoJWp9OZBx4hsI/FTFY0uDoP/SXEjuVECY=
+  item: null
+  logo: portworx.svg
+  name: Portworx
+  twitter_data:
+    latest_tweet_date: 2022-08-04 15:05:23+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/portworx
+  crunchbase_data:
+    acquisitions: []
+    city: Los Altos
+    company_type: For Profit
+    country: United States
+    description: "Portworx is a cloud-native storage and data management company offering\
+      \ the industry\u2019s first storage solution purpose-built for containers."
+    funding: 55500000
+    homepage: https://portworx.com/
+    industries:
+    - Cloud Storage
+    - Data Center
+    - Data Storage
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/portworx/
+    name: Portworx
+    num_employees_max: 250
+    num_employees_min: 101
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/portwx
+  homepage_url: https://www.purestorage.com/
+  image_data:
+    fileName: pure-storage.svg
+    hash: cj2nlmj8cbDXezvU4dkVHVi1vy3e7acgPFYhAQZEOwI=
+  item: null
+  logo: pure-storage.svg
+  name: Pure Storage
+  twitter_data:
+    latest_tweet_date: 2022-08-04 15:05:23+00:00

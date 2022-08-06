@@ -1,0 +1,109 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/pipelineio
+  crunchbase_data:
+    acquisitions: []
+    city: San Francisco
+    company_type: For Profit
+    country: United States
+    description: Real-Time Enterprise AI Platform
+    funding: 1200000
+    homepage: https://www.datascienceonaws.com
+    industries:
+    - Artificial Intelligence
+    - Big Data
+    - Data Visualization
+    - Enterprise Software
+    - GPU
+    - Machine Learning
+    - Real Time
+    kind: funding
+    linkedin: https://www.linkedin.com/company/6609122
+    name: PipelineAI
+    num_employees_max: 10
+    num_employees_min: 1
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/PipelineAI
+  github_data:
+    contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+    contributors_count: 6
+    contributors_link: https://github.com/pipelineai/pipeline/graphs/contributors
+    description: PipelineAI Kubeflow Distribution
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#0064bd'
+      name: Jsonnet
+      value: 48907941
+    - color: '#b07219'
+      name: Java
+      value: 3224135
+    - color: '#00ADD8'
+      name: Go
+      value: 2474901
+    - color: '#3572A5'
+      name: Python
+      value: 746406
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 426301
+    - color: '#2b7489'
+      name: TypeScript
+      value: 276119
+    - color: '#89e051'
+      name: Shell
+      value: 174715
+    - color: '#563d7c'
+      name: CSS
+      value: 113954
+    - color: '#e34c26'
+      name: HTML
+      value: 91959
+    - color: '#c22d40'
+      name: Scala
+      value: 86996
+    - color: '#db5855'
+      name: Clojure
+      value: 46696
+    - color: '#DA5B0B'
+      name: Jupyter Notebook
+      value: 46308
+    - color: '#427819'
+      name: Makefile
+      value: 41637
+    - color: '#384d54'
+      name: Dockerfile
+      value: 25782
+    - color: '#012456'
+      name: PowerShell
+      value: 7883
+    - color: '#e69f56'
+      name: Groovy
+      value: 1650
+    - name: Smarty
+      value: 1351
+    - color: '#701516'
+      name: Ruby
+      value: 666
+    latest_commit_date: '2020-04-24T04:03:32Z'
+    latest_commit_link: /PipelineAI/pipeline/commit/ac1bf593a15ad2b3eb657033410ad6e35ce32bba
+    license: Apache License 2.0
+    stars: 4142
+  github_start_commit_data:
+    start_commit_link: /PipelineAI/pipeline/commit/b185e0cb271a3d0f7d263b2f8e4cc9ec9aa14839
+    start_date: '2015-07-08T03:49:23Z'
+  homepage_url: https://www.datascienceonaws.com
+  image_data:
+    fileName: pipeline-ai.svg
+    hash: CCGu/W+pLtt+4/AJb75ve3E4gfepEA7A5bm+iaBCtdM=
+  item: null
+  logo: pipeline-ai.svg
+  name: PipelineAI
+  repo_url: https://github.com/pipelineai/pipeline
+  repos:
+  - stars: 4142
+    url: https://github.com/pipelineai/pipeline
+  twitter_data:
+    latest_tweet_date: 2020-05-10 16:49:48+00:00

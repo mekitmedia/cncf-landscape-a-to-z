@@ -1,0 +1,359 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/paladin-cloud
+  crunchbase_data:
+    acquisitions: []
+    city: Califon
+    company_type: For Profit
+    country: United States
+    description: Open source, Security-as-Code platform for developers and security
+      teams to identify and eliminate risks in your clouds.
+    funding: 3300000
+    homepage: https://www.paladincloud.io
+    industries: []
+    kind: funding
+    linkedin: https://www.linkedin.com/company/paladin-cloud/
+    name: Paladin Cloud
+    num_employees_max: null
+    num_employees_min: null
+    parents: []
+    region: New Jersey
+    stockExchange: null
+    twitter: null
+  homepage_url: https://paladincloud.io/
+  image_data:
+    fileName: paladin-cloud.svg
+    hash: veBpdopXbge1tt9F/rnkyncI2VuziYdQM/w98fmCrQ4=
+  item: null
+  logo: paladin-cloud.svg
+  name: Paladin Cloud
+- best_practice_data:
+    badge: 4856
+    percentage: 100
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  extra:
+    accepted: '2020-06-23'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#parsec-logos
+    dev_stats_url: https://parsec.devstats.cncf.io/
+  github_data:
+    contributions: 1;0;1;4;3;8;1;6;0;4;13;6;6;11;2;11;9;4;1;0;0;5;11;3;2;6;6;6;3;2;0;3;6;2;0;3;1;0;0;2;4;4;2;5;2;5;6;0;5;4;0;3
+    contributors_count: 27
+    contributors_link: https://github.com/parallaxsecond/parsec/graphs/contributors
+    description: Platform AbstRaction for SECurity service
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#dea584'
+      name: Rust
+      value: 850134
+    - color: '#89e051'
+      name: Shell
+      value: 31748
+    - color: '#384d54'
+      name: Dockerfile
+      value: 7550
+    latest_commit_date: '2022-08-03T14:58:36Z'
+    latest_commit_link: /parallaxsecond/parsec/commit/05f4e9fb069eec5d82633eef152e477bdb505bbc
+    license: Apache License 2.0
+    release_date: '2022-03-31T11:39:19Z'
+    release_link: https://github.com/parallaxsecond/parsec/releases
+    stars: 355
+  github_start_commit_data:
+    start_commit_link: /parallaxsecond/parsec/commit/047e395ee5edbad82d52738e275f756e7bd0480b
+    start_date: '2019-06-07T20:44:01Z'
+  homepage_url: https://parsec.community/
+  image_data:
+    fileName: parsec.svg
+    hash: XDAht5oho++z+te2Z8wr763sjWgEW7N/2O+KNWzGXHk=
+  item: null
+  logo: parsec.svg
+  name: Parsec
+  project: sandbox
+  repo_url: https://github.com/parallaxsecond/parsec
+  repos:
+  - stars: 355
+    url: https://github.com/parallaxsecond/parsec
+  twitter_data:
+    latest_tweet_date: 2022-08-05 21:09:37+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/passage-36d4
+  crunchbase_data:
+    acquisitions: []
+    city: Austin
+    company_type: For Profit
+    country: United States
+    description: Passage is a modern identity for web and mobile applications.
+    funding: 4850000
+    homepage: https://passage.id
+    industries:
+    - Developer Tools
+    - Identity Management
+    - Internet
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/passageidentity/
+    name: Passage
+    num_employees_max: 10
+    num_employees_min: 1
+    parents: []
+    region: Texas
+    stockExchange: null
+    twitter: https://twitter.com/PassageIdentity
+  description: Passage makes it easy for developers to implement passwordless customer
+    identity in any application.
+  homepage_url: https://passage.id
+  image_data:
+    fileName: passage.svg
+    hash: sWiQzrZC3X/H9gP80lQeerEpcz8dHMA3t3pihU9r4KE=
+  item: null
+  logo: passage.svg
+  name: Passage
+  twitter_data:
+    latest_tweet_date: 2022-07-01 20:29:49+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/fairwinds
+  crunchbase_data:
+    acquisitions: []
+    city: Boston
+    company_type: For Profit
+    country: United States
+    description: Kubernetes security, policy and compliance experts
+    homepage: https://www.fairwinds.com/
+    industries:
+    - Cloud Computing
+    - Cloud Security
+    - Developer Tools
+    - Information Technology
+    - Software
+    - Subscription Service
+    linkedin: https://www.linkedin.com/company/fairwinds/
+    name: Fairwinds
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: Massachusetts
+    stockExchange: null
+    twitter: https://twitter.com/fairwindsops
+  github_data:
+    contributions: 0;6;1;0;0;1;1;2;2;1;1;5;0;2;0;0;1;1;0;0;6;1;24;1;1;0;0;7;3;3;2;2;2;2;1;0;1;2;0;0;0;0;5;1;2;2;3;3;3;0;2;0
+    contributors_count: 30
+    contributors_link: https://github.com/FairwindsOps/pluto/graphs/contributors
+    description: A cli tool to help discover deprecated apiVersions in Kubernetes
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 115790
+    - color: '#89e051'
+      name: Shell
+      value: 2337
+    - name: Mustache
+      value: 1877
+    - color: '#427819'
+      name: Makefile
+      value: 1367
+    - color: '#384d54'
+      name: Dockerfile
+      value: 68
+    latest_commit_date: '2022-07-27T18:10:51Z'
+    latest_commit_link: /FairwindsOps/pluto/commit/45c6ec236edc1fb0a5bd6a2312c8754fe8451bba
+    license: Apache License 2.0
+    release_date: '2022-07-27T18:17:00Z'
+    release_link: https://github.com/FairwindsOps/pluto/releases
+    stars: 1075
+  github_start_commit_data:
+    start_commit_link: /FairwindsOps/pluto/commit/4730bc159fadf20a79577a914cdaadb89fd28ecf
+    start_date: '2020-03-24T20:13:08Z'
+  homepage_url: https://www.fairwinds.com/open-source-software
+  image_data:
+    fileName: pluto.svg
+    hash: fnwYNSudwynqWodjy70RFmaIWBpM+YvDqKYHmyFeuHM=
+  item: null
+  logo: pluto.svg
+  name: Pluto
+  repo_url: https://github.com/FairwindsOps/pluto
+  repos:
+  - stars: 1075
+    url: https://github.com/FairwindsOps/pluto
+  twitter_data:
+    latest_tweet_date: 2022-08-04 20:26:50+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/fairwinds
+  crunchbase_data:
+    acquisitions: []
+    city: Boston
+    company_type: For Profit
+    country: United States
+    description: Kubernetes security, policy and compliance experts
+    homepage: https://www.fairwinds.com/
+    industries:
+    - Cloud Computing
+    - Cloud Security
+    - Developer Tools
+    - Information Technology
+    - Software
+    - Subscription Service
+    linkedin: https://www.linkedin.com/company/fairwinds/
+    name: Fairwinds
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: Massachusetts
+    stockExchange: null
+    twitter: https://twitter.com/fairwindsops
+  github_data:
+    contributions: 0;7;0;2;2;2;1;8;0;1;0;1;1;1;0;0;0;0;0;0;0;0;16;1;1;0;1;3;4;1;0;4;2;2;6;1;0;6;1;1;0;0;1;3;1;0;0;2;12;0;7;2
+    contributors_count: 51
+    contributors_link: https://github.com/FairwindsOps/polaris/graphs/contributors
+    description: Validation of best practices in your Kubernetes clusters
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 226364
+    - color: '#563d7c'
+      name: CSS
+      value: 8751
+    - color: '#89e051'
+      name: Shell
+      value: 6366
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 1827
+    - color: '#384d54'
+      name: Dockerfile
+      value: 597
+    latest_commit_date: '2022-08-05T15:58:57Z'
+    latest_commit_link: /FairwindsOps/polaris/commit/206322271cb6995740245d2eba5376ae9f642f2e
+    license: Apache License 2.0
+    release_date: '2022-07-11T19:09:31Z'
+    release_link: https://github.com/FairwindsOps/polaris/releases
+    stars: 2637
+  github_start_commit_data:
+    start_commit_link: /FairwindsOps/polaris/commit/963d0e1dab72f68a57968b535632aaaa938ff15a
+    start_date: '2018-11-30T04:21:17Z'
+  homepage_url: https://fairwinds.com/polaris
+  image_data:
+    fileName: polaris.svg
+    hash: 0GG12YPe32leXaapJNUw7Wk3PWigwTPmWPccGW4eqYc=
+  item: null
+  logo: polaris.svg
+  name: Polaris
+  repo_url: https://github.com/FairwindsOps/polaris
+  repos:
+  - stars: 2637
+    url: https://github.com/FairwindsOps/polaris
+  twitter_data:
+    latest_tweet_date: 2022-08-04 20:26:50+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/portshift
+  crunchbase_data:
+    acquisitions: []
+    city: Tel Aviv
+    company_type: For Profit
+    country: Israel
+    description: Kubernetes-native security solution, single pane of glass for containers
+      and Kubernetes security.
+    funding: 5300000
+    homepage: https://www.portshift.io/
+    industries:
+    - Cloud Computing
+    - Cloud Management
+    - Cloud Security
+    - IT Management
+    kind: funding
+    linkedin: https://www.linkedin.com/company/portshift/
+    name: Portshift
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: Tel Aviv
+    stockExchange: null
+    twitter: https://twitter.com/portshift
+  homepage_url: https://www.portshift.io/
+  image_data:
+    fileName: portshift.svg
+    hash: rPjMQHoPc/GKiNBeNEtQG6Oy/xNTd7EjGK4uOJhhwoI=
+  item: null
+  logo: portshift.svg
+  name: Portshift
+  twitter_data:
+    latest_tweet_date: 2022-08-05 18:31:00+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/prisma-cloud
+  crunchbase_data:
+    acquisitions: []
+    city: Santa Clara
+    company_type: For Profit
+    country: United States
+    description: A complete cloud native application protection platform that secures
+      infrastructure and applications across cloud environments.
+    funding: 65000000
+    homepage: https://www.paloaltonetworks.com/prisma/cloud
+    industries:
+    - Cloud Security
+    - Cyber Security
+    - Security
+    kind: market_cap
+    linkedin: https://www.linkedin.com/products/palo-alto-networks-prisma-cloud/
+    name: Prisma Cloud
+    num_employees_max: 1000
+    num_employees_min: 501
+    parents:
+    - https://www.crunchbase.com/organization/palo-alto-networks
+    region: California
+    stockExchange: null
+    ticker: PANW
+    twitter: https://twitter.com/prisma_cloud
+  homepage_url: https://www.paloaltonetworks.com/prisma/cloud
+  image_data:
+    fileName: prisma-cloud.svg
+    hash: iDmAt4Pm5KEULVn2L2y/0CcyOM2hSUiDS6N9k+JRXkU=
+  item: null
+  logo: prisma-cloud-palo-alto.svg
+  name: Prisma Cloud
+  twitter_data:
+    latest_tweet_date: 2022-08-05 21:46:51+00:00
+  yahoo_finance_data:
+    effective_ticker: PANW
+    market_cap: 49954201600

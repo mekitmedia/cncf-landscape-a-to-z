@@ -1,0 +1,274 @@
+- best_practice_data:
+    badge: 5301
+    percentage: 100
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  extra:
+    accepted: '2021-09-14'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#karmada-logos
+    chat_channel: '#general'
+    dev_stats_url: https://karmada.devstats.cncf.io/
+    mailing_list_url: https://groups.google.com/forum/#!forum/karmada
+    slack_url: https://karmada-io.slack.com/
+  github_data:
+    contributions: 31;24;39;29;30;24;28;36;13;34;48;33;42;39;61;73;29;20;41;67;54;20;35;49;36;9;24;15;41;42;44;51;51;36;20;29;28;55;23;53;66;40;61;37;39;53;51;52;42;37;37;44
+    contributors_count: 143
+    contributors_link: https://github.com/karmada-io/karmada/graphs/contributors
+    description: Open, Multi-Cloud, Multi-Cluster Kubernetes Orchestration
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 2182113
+    - color: '#89e051'
+      name: Shell
+      value: 115678
+    - name: Mustache
+      value: 10997
+    - name: Smarty
+      value: 8539
+    - color: '#427819'
+      name: Makefile
+      value: 4305
+    - color: '#384d54'
+      name: Dockerfile
+      value: 241
+    latest_commit_date: '2022-08-06T03:23:07Z'
+    latest_commit_link: /karmada-io/karmada/commit/fcc994adc0f60b2891d3257861ca97f631e1d81d
+    license: Apache License 2.0
+    release_date: '2022-07-14T09:33:11Z'
+    release_link: https://github.com/karmada-io/karmada/releases
+    stars: 2418
+  github_start_commit_data:
+    start_commit_link: /karmada-io/karmada/commit/315c876b6c430908062c84833d3941891044e01b
+    start_date: '2020-11-10T11:35:56Z'
+  homepage_url: https://karmada.io/
+  image_data:
+    fileName: karmada.svg
+    hash: 98w2O0Jp3FhuAlCPlIDAYBBaPXROZIG/vMQca8rJe8E=
+  item: null
+  logo: karmada.svg
+  name: Karmada
+  project: sandbox
+  repo_url: https://github.com/karmada-io/karmada
+  repos:
+  - stars: 2418
+    url: https://github.com/karmada-io/karmada
+  twitter: null
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Duanqu
+      date: '2017-05-01'
+    - acquiree: Chaitin Tech
+      date: '2019-10-11'
+    - acquiree: IDsManager
+      date: '2019-10-31'
+    city: Hangzhou
+    company_type: For Profit
+    country: China
+    description: Alibaba Cloud develops highly scalable cloud computing and data management
+      services.
+    funding: 1200000000
+    homepage: https://in.alibabacloud.com
+    industries:
+    - Cloud Data Services
+    - Cloud Management
+    - Data Center
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/alibaba-cloud-computing-company
+    name: Alibaba Cloud
+    num_employees_max: 5000
+    num_employees_min: 1001
+    parents:
+    - https://www.crunchbase.com/organization/alibaba
+    region: Zhejiang
+    stockExchange: null
+    ticker: 9988.HK
+    twitter: https://twitter.com/alibaba_cloud
+  description: QoS based scheduling system for hybrid orchestration workloads on Kubernetes,
+    bringing workloads the best layout and status.
+  github_data:
+    contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;7;25;8;5;9;12;5;8;10;19;11;8;15;33;16;6;15;16;10;21
+    contributors_count: 26
+    contributors_link: https://github.com/koordinator-sh/koordinator/graphs/contributors
+    description: QoS based scheduling system for hybrid orchestration workloads on
+      Kubernetes, bringing workloads the best layout and status.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 2587071
+    - color: '#89e051'
+      name: Shell
+      value: 19944
+    - color: '#427819'
+      name: Makefile
+      value: 8813
+    - color: '#384d54'
+      name: Dockerfile
+      value: 2184
+    latest_commit_date: '2022-08-05T09:46:15Z'
+    latest_commit_link: /koordinator-sh/koordinator/commit/9626a21eba134e3b030abca11b48439a316de4ec
+    license: Apache License 2.0
+    release_date: '2022-08-05T10:11:59Z'
+    release_link: https://github.com/koordinator-sh/koordinator/releases
+    stars: 487
+  github_start_commit_data:
+    start_commit_link: /koordinator-sh/koordinator/commit/fa4f709dc1fa90b287e4c7c863d3bb60a350722a
+    start_date: '2022-03-16T07:14:49Z'
+  homepage_url: https://koordinator.sh
+  image_data:
+    fileName: koordinator.svg
+    hash: 7DHEbiALKG0ZN/qNkTSawlvhUiRRgRaxIhzMR1l1j/4=
+  item: null
+  logo: Koordinator.svg
+  name: Koordinator
+  repo_url: https://github.com/koordinator-sh/koordinator
+  repos:
+  - stars: 487
+    url: https://github.com/koordinator-sh/koordinator
+  twitter_data:
+    latest_tweet_date: 2022-08-05 10:00:00+00:00
+  yahoo_finance_data:
+    effective_ticker: 9988.HK
+    market_cap: 250716029031
+- allow_duplicate_repo: true
+  best_practice_data:
+    badge: 569
+    percentage: 100
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  description: Kubernetes is an open-source system for automating deployment, scaling,
+    and management of containerized applications
+  extra:
+    accepted: '2016-03-16'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/graduated.md#kubernetes-logos
+    blog_url: http://blog.kubernetes.io/
+    dev_stats_url: https://k8s.devstats.cncf.io/
+    mailing_list_url: https://groups.google.com/forum/#!forum/kubernetes-dev
+    slack_url: http://slack.k8s.io/
+    stack_overflow_url: https://stackoverflow.com/questions/tagged/kubernetes
+    youtube_url: https://www.youtube.com/channel/UCZ2bu0qutTOM0tHYa_jkIwg
+  github_data:
+    contributions: 158;126;143;108;131;168;122;136;151;132;118;185;190;216;204;80;52;160;123;72;14;170;150;115;113;90;138;149;104;147;116;155;228;252;93;67;45;44;222;160;98;114;96;95;129;98;98;89;143;139;197;151
+    contributors_count: 4424
+    contributors_link: https://github.com/kubernetes/kubernetes/graphs/contributors
+    description: Production-Grade Container Scheduling and Management
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 61811084
+    - color: '#89e051'
+      name: Shell
+      value: 1799946
+    - color: '#012456'
+      name: PowerShell
+      value: 144474
+    - color: '#427819'
+      name: Makefile
+      value: 64398
+    - color: '#384d54'
+      name: Dockerfile
+      value: 48607
+    - color: '#3572A5'
+      name: Python
+      value: 23849
+    - color: '#555555'
+      name: C
+      value: 3902
+    - color: '#64b970'
+      name: sed
+      value: 1262
+    - color: '#C1F12E'
+      name: Batchfile
+      value: 833
+    - color: '#e34c26'
+      name: HTML
+      value: 128
+    latest_commit_date: '2022-08-06T02:14:17Z'
+    latest_commit_link: /kubernetes/kubernetes/commit/985c9202ccd250a5fe22c01faf0d8f83d804b9f3
+    license: Apache License 2.0
+    release_date: '2022-08-04T22:46:39Z'
+    release_link: https://github.com/kubernetes/kubernetes/releases
+    stars: 90866
+  github_start_commit_data:
+    start_commit_link: /kubernetes/kubernetes/commit/2c4b3a562ce34cddc3f8218a2c4d11c7310e6d56
+    start_date: '2014-06-06T23:40:48Z'
+  homepage_url: https://kubernetes.io/
+  image_data:
+    fileName: kubernetes.svg
+    hash: M0QmUh0e0dtnyXCH3av83LOjQNlstE6WYfWjfCCdfcA=
+  item: null
+  logo: kubernetes.svg
+  name: Kubernetes
+  project: graduated
+  repo_url: https://github.com/kubernetes/kubernetes
+  repos:
+  - stars: 90866
+    url: https://github.com/kubernetes/kubernetes
+  twitter: https://twitter.com/kubernetesio
+  twitter_data:
+    latest_tweet_date: 2022-07-25 13:19:32+00:00

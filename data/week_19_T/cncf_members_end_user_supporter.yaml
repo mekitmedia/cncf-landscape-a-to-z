@@ -1,0 +1,616 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/newyorktimes
+  crunchbase_data:
+    acquisitions:
+    - acquiree: The Boston Globe
+      date: '1993-06-11'
+      price: 1100000000
+    - acquiree: Abuzz Technologies
+      date: '1999-06-01'
+    - acquiree: Dotdash
+      date: '2005-02-17'
+      price: 410000000
+    - acquiree: About, Inc
+      date: '2005-02-18'
+    - acquiree: blogrunner
+      date: '2006-02-06'
+    - acquiree: Baseline
+      date: '2006-08-28'
+      price: 35000000
+    - acquiree: ucomparehealthcare.com
+      date: '2007-03-27'
+    - acquiree: HelloSociety
+      date: '2016-03-11'
+    - acquiree: Fake Love
+      date: '2016-08-12'
+    - acquiree: The Sweethome
+      date: '2016-10-24'
+    - acquiree: pureproductreview
+      date: '2016-10-24'
+    - acquiree: Audm
+      date: '2020-03-23'
+    - acquiree: Serial Productions
+      date: '2020-07-22'
+      price: 25000000
+    - acquiree: The Athletic
+      date: '2022-01-06'
+      price: 550000000
+    - acquiree: Wordle
+      date: '2022-01-31'
+    city: New York
+    company_type: For Profit
+    country: United States
+    description: The New York Times creates, collects, and distributes news, information,
+      and entertainment through a daily newspaper and a website.
+    funding: 250000000
+    homepage: http://www.nytimes.com
+    industries:
+    - Advertising
+    - Internet
+    - News
+    - Publishing
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/the-new-york-times
+    name: The New York Times
+    num_employees_max: 5000
+    num_employees_min: 1001
+    parents: []
+    region: New York
+    stockExchange: nyse
+    ticker: NYT
+    twitter: http://twitter.com/nytimes
+  homepage_url: https://www.nytco.com/
+  image_data:
+    fileName: the-new-york-times-supporter.svg
+    hash: bjdqVPEx0tzgPNT7WUYJqcKRqo5cDoHBBuz6vY1hEbo=
+  item: null
+  logo: the-new-york-times-supporter.svg
+  name: The New York Times (supporter)
+  twitter_data:
+    latest_tweet_date: 2022-08-06 05:00:07+00:00
+  yahoo_finance_data:
+    effective_ticker: NYT
+    market_cap: 5221349888
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/thermo-fisher-scientific
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Keystone Scientific
+      date: '2000-07-10'
+    - acquiree: Thermo Hypersil-Keystone
+      date: '2000-07-10'
+    - acquiree: CRS Robotics
+      date: '2002-03-11'
+    - acquiree: Perbio Science
+      date: '2003-06-26'
+    - acquiree: Jouan SA
+      date: '2003-09-17'
+      price: 124902438
+    - acquiree: Dharmacon
+      date: '2004-01-04'
+      price: 80000000
+    - acquiree: Oxoid
+      date: '2004-02-11'
+      price: 330000000
+    - acquiree: Kendro Laboratory Products
+      date: '2005-01-19'
+      price: 833500000
+    - acquiree: Rupprecht and Patashnick (R&P)
+      date: '2005-04-27'
+    - acquiree: Ionalytics Corporation
+      date: '2005-08-11'
+    - acquiree: Clintrak
+      date: '2006-04-11'
+      price: 125000000
+    - acquiree: Fisher BioImage
+      date: '2006-05-03'
+    - acquiree: Omega Data Systems
+      date: '2006-06-28'
+    - acquiree: EGS Gauging
+      date: '2006-06-30'
+    - acquiree: SwissAnalytic Group
+      date: '2007-01-15'
+    - acquiree: Flux Instruments
+      date: '2007-01-17'
+    - acquiree: Spectronex
+      date: '2007-01-17'
+    - acquiree: Cohesive Technologies
+      date: '2007-01-29'
+    - acquiree: Priority Solutions International
+      date: '2007-10-03'
+    - acquiree: NanoDrop Technologies
+      date: '2007-10-10'
+    - acquiree: ABR--Affinity BioReagents
+      date: '2008-07-17'
+    - acquiree: Biolab
+      date: '2009-04-27'
+      price: 124845994
+    - acquiree: B.R.A.H.M.S.(Brahms)
+      date: '2009-09-03'
+      price: 470000000
+    - acquiree: Ahura Scientific
+      date: '2010-01-19'
+      price: 145000000
+    - acquiree: Finnzymes Oy
+      date: '2010-02-01'
+    - acquiree: NovaWave Technologies
+      date: '2010-02-05'
+    - acquiree: Proxeon
+      date: '2010-04-15'
+    - acquiree: Polychromix
+      date: '2010-05-27'
+    - acquiree: Fermentas International
+      date: '2010-07-16'
+    - acquiree: Lomb Scientific
+      date: '2010-11-30'
+    - acquiree: Dionex Corporation
+      date: '2010-12-13'
+      price: 2100000000
+    - acquiree: TKA Wasseraufbereitungssysteme
+      date: '2010-12-21'
+    - acquiree: Sterilin
+      date: '2011-05-18'
+    - acquiree: Phadia
+      date: '2011-05-20'
+      price: 3502835595
+    - acquiree: TREK Diagnostic Systems
+      date: '2011-07-18'
+    - acquiree: Intrinsic Bioprobes Inc.
+      date: '2011-09-03'
+    - acquiree: Doe & Ingalls
+      date: '2012-05-01'
+    - acquiree: Princeton Security Technologies
+      date: '2012-06-13'
+      price: 13000000
+    - acquiree: One Lambda
+      date: '2012-07-16'
+    - acquiree: picoSpin
+      date: '2012-12-21'
+    - acquiree: Life Technologies
+      date: '2014-02-04'
+      price: 13600000000
+    - acquiree: Prionics AG
+      date: '2014-03-17'
+    - acquiree: Advanced Scientifics (ASI)
+      date: '2015-02-05'
+      price: 300000000
+    - acquiree: Alfa Aesar
+      date: '2015-06-25'
+      price: 403067723
+    - acquiree: Affymetrix
+      date: '2016-01-08'
+      price: 1300000000
+    - acquiree: INEL
+      date: '2016-02-12'
+    - acquiree: FEI Company
+      date: '2016-05-27'
+      price: 4200000000
+    - acquiree: MTI-GlobalStem
+      date: '2016-11-29'
+    - acquiree: Finesse Solutions
+      date: '2017-02-15'
+    - acquiree: Core Informatics
+      date: '2017-03-06'
+    - acquiree: Patheon
+      date: '2017-05-15'
+      price: 7200000000
+    - acquiree: Linkage Biosciences
+      date: '2017-07-12'
+    - acquiree: IntegenX
+      date: '2018-03-16'
+    - acquiree: Brammer Bio
+      date: '2019-03-24'
+      price: 1700000000
+    - acquiree: HighChem
+      date: '2019-06-06'
+    - acquiree: Phitonex
+      date: '2020-12-31'
+    - acquiree: Henogen
+      date: '2021-01-15'
+      price: 875459012
+    - acquiree: Mesa Biotech
+      date: '2021-01-19'
+      price: 450000000
+    - acquiree: PPD
+      date: '2021-04-15'
+      price: 17400000000
+    - acquiree: PharmaFluidics
+      date: '2021-11-02'
+    - acquiree: PharmaFluidics
+      date: '2021-11-03'
+    - acquiree: Peprotech, Inc
+      date: '2022-01-05'
+      price: 1850000000
+    city: Waltham
+    company_type: For Profit
+    country: United States
+    description: Thermo Fisher Scientific is a science and pharma service provider
+      of laboratory information management & scientific data systems.
+    funding: 6065857886
+    homepage: http://www.thermofisher.com
+    industries:
+    - Bioinformatics
+    - Biotechnology
+    - Life Science
+    - Management Information Systems
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/thermo-fisher-scientific
+    name: Thermo Fisher Scientific
+    num_employees_max: 1000000
+    num_employees_min: 10001
+    parents: []
+    region: Massachusetts
+    stockExchange: bmv
+    ticker: TMO
+    twitter: http://twitter.com/ThermoFisher
+  homepage_url: https://www.thermofisher.com/us/en/home.html
+  image_data:
+    fileName: thermo-fisher-scientific-supporter.svg
+    hash: fTHv/Nb637qjSw6MJs5vXrCqUgh+808QFc5pl5n81HA=
+  item: null
+  logo: thermo-fisher.svg
+  name: Thermo Fisher Scientific (supporter)
+  twitter_data:
+    latest_tweet_date: 2022-08-05 17:01:56+00:00
+  yahoo_finance_data:
+    effective_ticker: TMO
+    market_cap: 231064371200
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/ticketmaster
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Evite
+      date: '2001-03-09'
+    - acquiree: echomusic
+      date: '2007-03-19'
+    - acquiree: Paciolan
+      date: '2007-07-02'
+    - acquiree: TicketsNow
+      date: '2008-01-01'
+      price: 265000000
+    - acquiree: Get Me In
+      date: '2008-01-29'
+    - acquiree: SLO Ltd
+      date: '2008-05-01'
+    - acquiree: Front Line Management
+      date: '2008-10-23'
+    - acquiree: GetGuestlist
+      date: '2012-04-01'
+    - acquiree: Eventjoy
+      date: '2014-09-11'
+    - acquiree: Sherpa.be
+      date: '2014-09-17'
+    - acquiree: Two Toasters
+      date: '2015-04-01'
+    - acquiree: Universe
+      date: '2015-06-09'
+    - acquiree: Tickethour
+      date: '2016-07-26'
+    - acquiree: Ticketpro
+      date: '2017-02-17'
+    - acquiree: UPGRADED
+      date: '2018-10-18'
+    - acquiree: Rival
+      date: '2020-04-14'
+    - acquiree: ThaiTicketMajor
+      date: '2022-07-21'
+    city: West Hollywood
+    company_type: For Profit
+    country: United States
+    description: "Ticketmaster is the world\u2019s largest ticket marketplace and\
+      \ the global market leader in live event ticketing."
+    funding: 0
+    homepage: http://www.ticketmaster.com
+    industries:
+    - Concerts
+    - Digital Entertainment
+    - Enterprise Software
+    - Events
+    - Media and Entertainment
+    - Mobile
+    - Social Media
+    - Ticketing
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/ticketmaster
+    name: Ticketmaster
+    num_employees_max: 10000
+    num_employees_min: 5001
+    parents: []
+    region: California
+    stockExchange: nasdaq
+    twitter: http://twitter.com/Ticketmaster
+  homepage_url: https://www.ticketmaster.com/
+  image_data:
+    fileName: ticket-master-supporter.svg
+    hash: ZlL90Tvux2T7pfX6puieKiJmjM3Qbx99+kC1wPlbfyQ=
+  item: null
+  logo: ticket-master-supporter.svg
+  name: TicketMaster (supporter)
+  stock_ticker: LYV
+  twitter_data:
+    latest_tweet_date: 2022-08-04 17:08:29+00:00
+  yahoo_finance_data:
+    effective_ticker: LYV
+    market_cap: 22196453376
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/tomtom-international
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Datafactory
+      date: '2005-08-24'
+    - acquiree: Applied Generics
+      date: '2006-01-12'
+    - acquiree: Horizon Navigation
+      date: '2007-06-21'
+    - acquiree: Tele Atlas
+      date: '2007-07-23'
+      price: 3866965344
+    - acquiree: ilocal International
+      date: '2009-12-02'
+    - acquiree: Coordina
+      date: '2013-08-01'
+    - acquiree: FleetLogic
+      date: '2014-12-02'
+    - acquiree: Finder
+      date: '2016-01-03'
+    - acquiree: Autonomos GmbH
+      date: '2017-01-18'
+    city: Amsterdam
+    company_type: For Profit
+    country: The Netherlands
+    description: TomTom is a digital mapping and routing company that focuses on car
+      navigation.
+    homepage: http://www.tomtom.com/?Lid=4
+    industries:
+    - Hardware
+    - Location Based Services
+    - Navigation
+    - Software
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/tomtom
+    name: TomTom
+    num_employees_max: 10000
+    num_employees_min: 5001
+    parents: []
+    region: Noord-Holland
+    stockExchange: otcpink
+    ticker: TMOAF
+    twitter: https://twitter.com/TomTom
+  homepage_url: https://www.tomtom.com/en_us/
+  image_data:
+    fileName: tom-tom-supporter.svg
+    hash: NXPijnCNQXL0u2q8v8bMzUDySHrdk/8zR/Fz/EmSxko=
+  item: null
+  logo: tomtom.svg
+  name: TomTom (supporter)
+  twitter_data:
+    latest_tweet_date: 2022-08-05 12:35:53+00:00
+  yahoo_finance_data:
+    effective_ticker: TMOAF
+    market_cap: 1176178304
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/twitter
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Summize US
+      date: '2008-07-15'
+    - acquiree: Values of n
+      date: '2008-11-24'
+    - acquiree: Mixer Labs
+      date: '2009-12-23'
+    - acquiree: Atebits
+      date: '2010-04-09'
+    - acquiree: Cloudhopper
+      date: '2010-04-22'
+    - acquiree: Dabble DB
+      date: '2010-06-10'
+    - acquiree: Fluther
+      date: '2010-12-21'
+    - acquiree: TweetDeck
+      date: '2011-05-02'
+    - acquiree: AdGrok
+      date: '2011-05-31'
+    - acquiree: BackType
+      date: '2011-07-05'
+    - acquiree: Bagcheck
+      date: '2011-08-08'
+    - acquiree: Julpan
+      date: '2011-09-21'
+    - acquiree: Whisper Systems
+      date: '2011-11-28'
+    - acquiree: Summify
+      date: '2012-01-19'
+    - acquiree: Dasient
+      date: '2012-01-24'
+    - acquiree: Posterous
+      date: '2012-03-12'
+    - acquiree: Hotspots.io
+      date: '2012-04-17'
+    - acquiree: '#Vine'
+      date: '2012-10-09'
+      price: 30000000
+    - acquiree: Cabana
+      date: '2012-10-18'
+    - acquiree: Crashlytics
+      date: '2013-01-28'
+    - acquiree: Bluefin Labs
+      date: '2013-02-04'
+    - acquiree: Ubalo
+      date: '2013-05-09'
+    - acquiree: Lucky Sort
+      date: '2013-05-13'
+    - acquiree: Spindle
+      date: '2013-06-19'
+    - acquiree: Marakana
+      date: '2013-08-13'
+    - acquiree: Trendrr
+      date: '2013-08-28'
+    - acquiree: MoPub
+      date: '2013-09-09'
+      price: 600000000
+    - acquiree: Mesagraph
+      date: '2014-03-31'
+    - acquiree: SecondSync
+      date: '2014-03-31'
+    - acquiree: Adrenaline Mobility
+      date: '2014-04-04'
+    - acquiree: Cover Lockscreen
+      date: '2014-04-07'
+    - acquiree: Namo Media
+      date: '2014-06-05'
+      price: 50000000
+    - acquiree: SnappyTV
+      date: '2014-06-19'
+    - acquiree: TapCommerce
+      date: '2014-06-30'
+      price: 100000000
+    - acquiree: CardSpring
+      date: '2014-07-17'
+    - acquiree: MADBITS
+      date: '2014-07-29'
+    - acquiree: Mitro
+      date: '2014-07-31'
+    - acquiree: Gnip
+      date: '2014-08-11'
+      price: 134000000
+    - acquiree: Zipdial
+      date: '2015-01-19'
+      price: 30000000
+    - acquiree: Niche
+      date: '2015-02-11'
+      price: 50000000
+    - acquiree: Periscope Co
+      date: '2015-03-10'
+    - acquiree: tenXer
+      date: '2015-04-02'
+      price: 50000000
+    - acquiree: TellApart
+      date: '2015-04-28'
+      price: 479000000
+    - acquiree: Whetlab
+      date: '2015-06-17'
+    - acquiree: Fastlane
+      date: '2015-10-22'
+    - acquiree: ZeroPush
+      date: '2015-10-26'
+    - acquiree: Peer
+      date: '2016-04-07'
+    - acquiree: Magic Pony Technology
+      date: '2016-06-20'
+      price: 150000000
+    - acquiree: 'Yes'
+      date: '2016-12-01'
+    - acquiree: Smyte
+      date: '2018-06-20'
+      price: 65000000
+    - acquiree: Highly
+      date: '2019-04-17'
+    - acquiree: Fabula AI Limited
+      date: '2019-06-03'
+    - acquiree: Lightwell
+      date: '2019-08-20'
+    - acquiree: Aiden
+      date: '2019-11-21'
+    - acquiree: Chroma Labs
+      date: '2020-02-19'
+    - acquiree: CrossInstall (now MoPub Acquire)
+      date: '2020-05-12'
+    - acquiree: Squad
+      date: '2020-12-11'
+    - acquiree: Breaker
+      date: '2021-01-04'
+    - acquiree: UENO.
+      date: '2021-01-06'
+    - acquiree: Revue
+      date: '2021-01-26'
+    - acquiree: Reshuffle
+      date: '2021-03-24'
+    - acquiree: Scroll
+      date: '2021-05-04'
+    - acquiree: Brief
+      date: '2021-07-28'
+    - acquiree: Sphere (Acquired by Twitter)
+      date: '2021-10-19'
+    - acquiree: Threader
+      date: '2021-11-15'
+    - acquiree: Quill
+      date: '2021-12-07'
+    - acquiree: OpenBack
+      date: '2022-04-12'
+    city: San Francisco
+    company_type: For Profit
+    country: United States
+    description: Twitter is a social networking platform that allows its users to
+      send and read micro-blogs of up to 280-characters known as tweets.
+    funding: 5680191511
+    homepage: http://www.twitter.com
+    industries:
+    - Blogging Platforms
+    - Messaging
+    - SMS
+    - Social Media
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/twitter
+    name: Twitter
+    num_employees_max: 10000
+    num_employees_min: 5001
+    parents: []
+    region: California
+    stockExchange: nyse
+    ticker: TWTR
+    twitter: http://twitter.com/twitter
+  homepage_url: https://twitter.com
+  image_data:
+    fileName: twitter-supporter.svg
+    hash: sOesui873Y2NQdxs5gDilgBBbxBUqmo48Yltddlb2iA=
+  item: null
+  logo: twitter-supporter.svg
+  name: Twitter (supporter)
+  twitter_data:
+    latest_tweet_date: 2022-08-05 19:05:44+00:00
+  yahoo_finance_data:
+    effective_ticker: TWTR
+    market_cap: 32538261504
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/two-sigma-investments
+  crunchbase_data:
+    acquisitions: []
+    city: New York
+    company_type: For Profit
+    country: United States
+    description: Two Sigma's technology-driven team streamlines the use of machine
+      learning, distributed computing and research to guide its endeavors.
+    homepage: https://www.twosigma.com/
+    industries:
+    - Big Data
+    - Machine Learning
+    - Software
+    linkedin: https://www.linkedin.com/company/27915
+    name: Two Sigma
+    num_employees_max: 1000
+    num_employees_min: 501
+    parents: []
+    region: New York
+    stockExchange: null
+    twitter: https://www.twitter.com/twosigma
+  homepage_url: https://www.twosigma.com/
+  image_data:
+    fileName: two-sigma-supporter.svg
+    hash: eBUxNrB4u/vxTxPdtBdJbZVgnWhsmDFyXaGIJfpWwas=
+  item: null
+  logo: two-sigma-supporter.svg
+  name: Two Sigma (supporter)
+  twitter_data:
+    latest_tweet_date: 2022-06-09 17:16:41+00:00

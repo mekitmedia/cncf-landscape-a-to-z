@@ -1,0 +1,268 @@
+- best_practice_data:
+    badge: 5072
+    percentage: 100
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  extra:
+    accepted: '2020-06-22'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#kubedl-logos
+    dev_stats_url: https://kubedl.devstats.cncf.io/
+    slack_url: https://cloud-native.slack.com/archives/C027KH1Q71A
+  github_data:
+    contributions: 2;2;2;0;1;1;5;1;1;7;4;0;1;1;1;1;5;4;2;0;0;3;2;3;1;0;1;1;0;1;0;1;0;1;0;0;0;0;0;5;0;0;0;1;2;0;0;0;0;0;0;1
+    contributors_count: 19
+    contributors_link: https://github.com/kubedl-io/kubedl/graphs/contributors
+    description: Run your deep learning workloads on Kubernetes more easily and efficiently.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 1184726
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 417609
+    - name: Less
+      value: 18417
+    - color: '#3572A5'
+      name: Python
+      value: 5033
+    - name: EJS
+      value: 4689
+    - color: '#427819'
+      name: Makefile
+      value: 3296
+    - color: '#89e051'
+      name: Shell
+      value: 2003
+    - name: Smarty
+      value: 1772
+    - color: '#2b7489'
+      name: TypeScript
+      value: 1047
+    - color: '#384d54'
+      name: Dockerfile
+      value: 899
+    latest_commit_date: '2022-08-02T08:39:40Z'
+    latest_commit_link: /kubedl-io/kubedl/commit/171c0d72be939914a98bb127462bcd078ec3c6ec
+    license: Apache License 2.0
+    release_date: '2022-05-11T12:38:28Z'
+    release_link: https://github.com/kubedl-io/kubedl/releases
+    stars: 349
+  github_start_commit_data:
+    start_commit_link: /kubedl-io/kubedl/commit/61c2155db3da6eba0f638974b67ecffc190bc7a6
+    start_date: '2019-12-10T02:18:52Z'
+  homepage_url: https://kubedl.io
+  image_data:
+    fileName: kube-dl.svg
+    hash: faM9KTL4iu28hi1XuhRKh3ksV1fwyfUMSvJTS+pBQSg=
+  item: null
+  logo: kubedl.svg
+  name: KubeDL
+  project: sandbox
+  repo_url: https://github.com/kubedl-io/kubedl
+  repos:
+  - stars: 349
+    url: https://github.com/kubedl-io/kubedl
+  twitter_data:
+    latest_tweet_date: 2022-08-05 21:09:37+00:00
+- best_practice_data:
+    badge: 3018
+    percentage: 100
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  extra:
+    accepted: '2019-03-18'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#kubeedge-logos
+    dev_stats_url: https://kubeedge.devstats.cncf.io/
+    mailing_list_url: https://groups.google.com/forum/#!forum/kubeedge
+    slack_url: https://kubeedge.slack.com/
+    summary_business_use_case: 'TBD
+
+      '
+    summary_integrations: OpenEBS (CSI support), Calico, Cilium, SDN solutions?, Prometheus,
+      Grafana etc.
+    summary_intro_url: null
+    summary_personas: Platform Engineers
+    summary_release_rate: Every 3 months
+    summary_tags: tag1, tag2, tag3
+    summary_use_case: 'KubeEdge is an open source system for extending native containerized
+      application orchestration capabilities to hosts at Edge.It is built upon kubernetes
+      and provides fundamental infrastructure support for network, app. deployment
+      and metadata synchronization between cloud and edge.
+
+      Our goal is to make an open platform to enable Edge computing, extending native
+      containerized application orchestration capabilities to hosts at Edge
+
+      '
+  github_data:
+    contributions: 17;15;11;51;41;26;28;19;3;20;8;17;13;19;34;64;30;37;25;31;18;7;5;18;9;3;10;4;6;20;35;41;20;16;18;24;14;11;3;5;8;15;6;5;32;35;22;5;16;3;6;2
+    contributors_count: 294
+    contributors_link: https://github.com/kubeedge/kubeedge/graphs/contributors
+    description: Kubernetes Native Edge Computing Framework (project under CNCF)
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 2502613
+    - color: '#89e051'
+      name: Shell
+      value: 139141
+    - color: '#427819'
+      name: Makefile
+      value: 11313
+    - color: '#384d54'
+      name: Dockerfile
+      value: 6336
+    - name: Mustache
+      value: 1288
+    latest_commit_date: '2022-08-04T02:48:29Z'
+    latest_commit_link: /kubeedge/kubeedge/commit/42411df1e5d9ba75f0261f4539af3d4aa1f0091a
+    license: Apache License 2.0
+    release_date: '2022-07-11T15:14:16Z'
+    release_link: https://github.com/kubeedge/kubeedge/releases
+    stars: 5187
+  github_start_commit_data:
+    start_commit_link: /kubeedge/kubeedge/commit/316bd63786ff57353772847626f5f7df7f1e1f53
+    start_date: '2018-09-28T08:57:50Z'
+  homepage_url: https://kubeedge.io/en/
+  image_data:
+    fileName: kube-edge.svg
+    hash: GDa2w0FpzmYakTsMBesgNIY3H4Vw/9v+RnN10sOAJUo=
+  item: null
+  logo: kube-edge.svg
+  name: KubeEdge
+  project: incubating
+  repo_url: https://github.com/kubeedge/kubeedge
+  repos:
+  - stars: 5187
+    url: https://github.com/kubeedge/kubeedge
+  twitter: https://twitter.com/KubeEdge
+  twitter_data:
+    latest_tweet_date: 2022-08-01 01:40:22+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/kubeshop
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Botkube
+      date: '2022-07-07'
+    city: Wilmington
+    company_type: For Profit
+    country: United States
+    description: At Kubeshop, our mission is to build a thriving open-source ecosystem
+      and pipeline of next generation Kubernetes products and projects.
+    homepage: https://kubeshop.io/
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Cloud Management
+    - Open Source
+    - Software
+    linkedin: https://www.linkedin.com/company/kubeshop/
+    name: Kubeshop
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: Delaware
+    stockExchange: null
+    twitter: https://twitter.com/thekubeshop
+  description: Kubernetes Platform Provisioning for Application Delivery and Infrastruction
+    Management
+  github_data:
+    contributions: 0;10;5;67;18;35;20;11;6;2;5;0;0;0;2;0;0;0;2;0;0;3;0;0;0;0;0;0;0;0;0;1;0;0;1;0;1;0;0;0;1;0;0;0;1;0;0;0;1;53;28;9
+    contributors_count: 9
+    contributors_link: https://github.com/kubefirst/kubefirst/graphs/contributors
+    description: The Kubefirst Open Source Platform
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 179027
+    - color: '#384d54'
+      name: Dockerfile
+      value: 1394
+    - color: '#89e051'
+      name: Shell
+      value: 334
+    latest_commit_date: '2022-08-05T20:26:58Z'
+    latest_commit_link: /kubefirst/kubefirst/commit/28cc6fe1a5cc246755fc4c8c89e4a7d48457a0f5
+    license: MIT License
+    release_date: '2022-08-02T03:11:55Z'
+    release_link: https://github.com/kubefirst/kubefirst/releases
+    stars: 101
+  github_start_commit_data:
+    start_commit_link: /kubefirst/kubefirst/commit/a296f638f091150bd9f63ab2ad0341123e15a367
+    start_date: '2021-01-26T07:01:20Z'
+  homepage_url: https://docs.kubefirst.com
+  image_data:
+    fileName: kubefirst.svg
+    hash: oT5mxM1ab+nJ34pd8kUwHVU3EuB6OJul5tGbQRKwOwA=
+  item: null
+  logo: kubefirst.svg
+  name: Kubefirst
+  repo_url: https://github.com/kubefirst/kubefirst
+  repos:
+  - stars: 101
+    url: https://github.com/kubefirst/kubefirst
+  twitter: https://twitter.com/kubefirst
+  twitter_data:
+    latest_tweet_date: 2022-07-26 15:01:58+00:00

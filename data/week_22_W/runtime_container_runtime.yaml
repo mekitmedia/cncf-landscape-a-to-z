@@ -1,0 +1,107 @@
+- allow_duplicate_repo: true
+  best_practice_data:
+    badge: 5059
+    percentage: 100
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  extra:
+    accepted: '2021-04-28'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#wasmedgeruntime-logos
+    dev_stats_url: https://wasmedge.devstats.cncf.io/
+  github_data:
+    contributions: 19;6;8;7;8;25;12;14;29;18;19;25;17;21;16;14;26;40;17;33;15;36;19;10;22;8;40;31;29;11;22;10;16;12;4;2;6;7;27;12;16;22;4;18;20;25;18;7;24;12;17;11
+    contributors_count: 108
+    contributors_link: https://github.com/WasmEdge/WasmEdge/graphs/contributors
+    description: WasmEdge is a lightweight, high-performance, and extensible WebAssembly
+      runtime for cloud native, edge, and decentralized applications. It powers serverless
+      apps, embedded functions, microservices, smart contracts, and IoT devices.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#f34b7d'
+      name: C++
+      value: 3386422
+    - color: '#04133b'
+      name: WebAssembly
+      value: 801005
+    - color: '#dea584'
+      name: Rust
+      value: 736022
+    - color: '#555555'
+      name: C
+      value: 152144
+    - name: CMake
+      value: 90736
+    - color: '#89e051'
+      name: Shell
+      value: 45670
+    - color: '#7e7eff'
+      name: Nix
+      value: 1925
+    - color: '#F18E33'
+      name: Kotlin
+      value: 1730
+    - color: '#3572A5'
+      name: Python
+      value: 1158
+    - color: '#427819'
+      name: Makefile
+      value: 1134
+    - color: '#6866fb'
+      name: Objective-C++
+      value: 840
+    - color: '#384d54'
+      name: Dockerfile
+      value: 30
+    latest_commit_date: '2022-08-05T04:24:20Z'
+    latest_commit_link: /WasmEdge/WasmEdge/commit/3c5f0de4322d3f09f129f54356ba4e07e88b1922
+    license: Apache License 2.0
+    release_date: '2022-07-28T11:40:52Z'
+    release_link: https://github.com/WasmEdge/WasmEdge/releases
+    stars: 3562
+  github_start_commit_data:
+    start_commit_link: /second-state/SSVM/commit/33b28d4f236318d63f50f0ede1d26202d9a8e895
+    start_date: '2019-06-25T08:39:04Z'
+  homepage_url: https://wasmedge.org/
+  image_data:
+    fileName: wasm-edge-runtime.svg
+    hash: J2oiGlie8e+FINe8V7VtT0zB9Hm5bjLhLwpwVAY5pXY=
+  item: null
+  logo: wasmedge.svg
+  name: WasmEdge Runtime
+  project: sandbox
+  repo_url: https://github.com/WasmEdge/WasmEdge
+  repos:
+  - stars: 3562
+    url: https://github.com/WasmEdge/WasmEdge
+  twitter: https://twitter.com/realwasmedge
+  twitter_data:
+    latest_tweet_date: 2022-08-06 01:13:28+00:00

@@ -1,0 +1,86 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/semi-technologies
+  crunchbase_data:
+    acquisitions: []
+    city: Amsterdam
+    company_type: For Profit
+    country: The Netherlands
+    description: "SeMI Technologies builds, maintains, and commercializes the open-source\
+      \ vector search engine Weaviate\u2122"
+    funding: 17700000
+    homepage: https://semi.technology
+    industries:
+    - Cloud Computing
+    - Cloud Data Services
+    - Database
+    - Enterprise Software
+    - Open Source
+    - SaaS
+    - Search Engine
+    - Semantic Search
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/semi-technologies
+    name: SeMI Technologies
+    num_employees_max: 10
+    num_employees_min: 1
+    parents: []
+    region: Noord-Holland
+    stockExchange: null
+    twitter: https://twitter.com/SeMI_tech
+  extra:
+    artwork_url: https://www.semi.technology/playbooks/design/style-graphic-solutions.html
+    blog_url: https://medium.com/semi-technologies
+    slack_url: https://join.slack.com/t/weaviate/shared_invite/zt-goaoifjr-o8FuVz9b1HLzhlUfyfddhw
+    stack_overflow_url: https://stackoverflow.com/questions/tagged/weaviate
+  github_data:
+    contributions: 28;22;13;19;10;11;12;14;10;13;15;1;8;0;12;3;20;12;24;0;0;10;13;11;26;13;6;13;21;13;33;57;56;15;19;24;16;19;24;12;10;11;18;44;26;26;50;58;26;38;51;84
+    contributors_count: 35
+    contributors_link: https://github.com/semi-technologies/weaviate/graphs/contributors
+    description: Weaviate is a cloud-native, modular, real-time vector search engine
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 5079598
+    - color: '#89e051'
+      name: Shell
+      value: 33275
+    - color: '#6E4C13'
+      name: Assembly
+      value: 2897
+    - color: '#384d54'
+      name: Dockerfile
+      value: 1452
+    - color: '#3572A5'
+      name: Python
+      value: 1219
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 861
+    - name: HCL
+      value: 558
+    latest_commit_date: '2022-08-05T14:11:50Z'
+    latest_commit_link: /semi-technologies/weaviate/commit/e9f2e89f9ec73172590a445ba18e29838b4e546e
+    license: BSD 3-Clause "New" or "Revised" License
+    release_date: '2022-07-08T10:59:54Z'
+    release_link: https://github.com/semi-technologies/weaviate/releases
+    stars: 2612
+  github_start_commit_data:
+    start_commit_link: /semi-technologies/weaviate/commit/4d94274315f28433aa9bf2abe7f75be1f4cdbca3
+    start_date: '2016-03-30T15:03:18Z'
+  homepage_url: https://weaviate.io/developers/weaviate/current/index.html
+  image_data:
+    fileName: weaviate.svg
+    hash: vMwpV47quW5omFK4/2/o0RISI+BumJHHF3vhgVSZz1Q=
+  item: null
+  logo: weaviate.svg
+  name: Weaviate
+  repo_url: https://github.com/semi-technologies/weaviate
+  repos:
+  - stars: 2612
+    url: https://github.com/semi-technologies/weaviate
+  twitter_data:
+    latest_tweet_date: 2022-08-05 18:46:59+00:00

@@ -1,0 +1,245 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/xenonstack
+  crunchbase_data:
+    acquisitions: []
+    city: Sunnyvale
+    company_type: For Profit
+    country: United States
+    description: Simplifying Enterprise AI and Decision Intelligence by building Enterprise
+      Data and AI Platform, Data Discovery Platform Solutions
+    homepage: https://www.xenonstack.com
+    industries:
+    - Analytics
+    - Artificial Intelligence
+    - B2B
+    - Big Data
+    - Cloud Computing
+    - Data Integration
+    - Data Visualization
+    - Enterprise Software
+    - Machine Learning
+    - Software
+    linkedin: https://www.linkedin.com/company/xenonstack/
+    name: XenonStack
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/xenonstack
+  description: Nexastack is a  Platform for the Automation of Cloud Native and IaC
+    Tools for Effective Infrastructure Management.
+  homepage_url: https://www.nexastack.com
+  image_data:
+    fileName: nexastack-managed-kubernetes.svg
+    hash: 2p38v8Wq6wmL0NOuFbyrPnLtDk+eL05si8cNN5SK4rk=
+  item: null
+  logo: nexastack.svg
+  name: Nexastack Managed Kubernetes
+  twitter_data:
+    latest_tweet_date: 2022-08-05 23:29:59+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/nhn-cloud
+  crunchbase_data:
+    acquisitions: []
+    city: Seongnam
+    company_type: ''
+    country: South Korea
+    description: Provides a variety of cloud-based platforms for each industry and
+      support customer business innovation thorugh differentiated cloud services
+    homepage: https://cloud.nhn.com/#
+    industries: []
+    linkedin: null
+    name: NHN Cloud
+    num_employees_max: null
+    num_employees_min: null
+    parents: []
+    region: Kyonggi-do
+    stockExchange: null
+    twitter: null
+  description: NKS(NHN Kubernetes Service) is a managed Kubernetes service that allows
+    you to easily deploy a Kubernetes cluster in NHN Cloud.
+  homepage_url: https://www.toast.com
+  image_data:
+    fileName: nhn-kubernetes-service-nks.svg
+    hash: ZkNp6U4yAu0Y6sM5V7vMR6ZYJet6tjjNs3/RbWWKw1I=
+  item: null
+  logo: nhn-cloud.svg
+  name: NHN Kubernetes Service (NKS)
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/fujitsu
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Intellistor
+      date: '1987-01-01'
+    - acquiree: Amdahl Corporation
+      date: '1997-07-31'
+      price: 850000000
+    - acquiree: Nexion
+      date: '1997-11-06'
+      price: 130000000
+    - acquiree: Fujitsu Glovia
+      date: '2000-04-04'
+    - acquiree: ICL
+      date: '2002-02-07'
+    - acquiree: Fujitsu TDS
+      date: '2006-12-11'
+      price: 84023269
+    - acquiree: OKERE
+      date: '2007-09-17'
+    - acquiree: Infinity Solutions
+      date: '2007-10-01'
+    - acquiree: Promaintech Novaxa
+      date: '2007-10-23'
+    - acquiree: Mandator
+      date: '2007-11-28'
+    - acquiree: "Int\xE9lec G\xE9omatique"
+      date: '2008-02-05'
+    - acquiree: KAZ Group
+      date: '2009-05-01'
+    - acquiree: PFU Limited
+      date: '2010-01-29'
+    - acquiree: RunMyProcess
+      date: '2013-04-08'
+    - acquiree: GlobeRanger
+      date: '2014-05-02'
+    - acquiree: ACT (Applied Card Technologies)
+      date: '2015-08-27'
+    - acquiree: UShareSoft
+      date: '2015-11-17'
+    - acquiree: TrueNet Communications
+      date: '2016-07-27'
+    - acquiree: Symfoni ESM
+      date: '2016-08-01'
+    city: Tokyo
+    company_type: For Profit
+    country: Japan
+    description: Fujitsu is a information & communications technology equipment and
+      services firm providing IT & IT infrastructure and other services.
+    homepage: http://www.fujitsu.com
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Enterprise Software
+    - IT Infrastructure
+    - Information and Communications Technology (ICT)
+    - Software
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/1374
+    name: Fujitsu
+    num_employees_max: 1000000
+    num_employees_min: 10001
+    parents: []
+    region: Tokyo
+    stockExchange: tyo
+    ticker: 6702.T
+    twitter: http://twitter.com/Fujitsu_Global
+  description: NIFCLOUD Hatoba is a managed Kubernetes as a Service that deploys enterprise
+    container applications and operates them simply and usefully on NIFCLOUD.
+  homepage_url: https://pfs.nifcloud.com/service/hatoba.htm
+  image_data:
+    fileName: nifcloud-kubernetes-service-hatoba.svg
+    hash: md4K2THKbQ4ZPJ7de4MTzP8+Vr11SjtHTDCnoLIUthk=
+  item: null
+  logo: nifcloud-hatoba.svg
+  name: NIFCLOUD Kubernetes Service Hatoba
+  twitter_data:
+    latest_tweet_date: 2022-08-05 11:29:36+00:00
+  yahoo_finance_data:
+    effective_ticker: 6702.T
+    market_cap: 25877175225
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/nirmata
+  crunchbase_data:
+    acquisitions: []
+    city: San Jose
+    company_type: For Profit
+    country: United States
+    description: Nirmata is a unified management plane for Kubernetes clusters and
+      workloads.
+    funding: 4000000
+    homepage: https://nirmata.com
+    industries:
+    - Cloud Computing
+    - Enterprise Software
+    - Information Technology
+    - PaaS
+    kind: funding
+    linkedin: https://www.linkedin.com/company/nirmata
+    name: Nirmata
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: http://twitter.com/NirmataCloud
+  description: Simplify Day 2 operations and management for Kubernetes with a unified
+    management plane across all your clusters and workloads.
+  homepage_url: https://www.nirmata.com/
+  image_data:
+    fileName: nirmata-managed-kubernetes.svg
+    hash: 1a2T6IlgwlPe9OG0UlSs0Cnkld5YvALsp+RbVXBpBFo=
+  item: null
+  logo: nirmata.svg
+  name: Nirmata Managed Kubernetes
+  twitter_data:
+    latest_tweet_date: 2022-08-05 20:45:49+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/nutanix
+  crunchbase_data:
+    acquisitions:
+    - acquiree: PernixData
+      date: '2016-08-03'
+    - acquiree: Calm.io
+      date: '2016-08-29'
+    - acquiree: Minjar
+      date: '2018-03-01'
+    - acquiree: Netsil
+      date: '2018-03-12'
+    - acquiree: Frame
+      date: '2018-08-02'
+    city: San Jose
+    company_type: For Profit
+    country: United States
+    description: "Nutanix is a\_virtualized datacenter platform that provides disruptive\
+      \ datacenter infrastructure solutions for business applications."
+    funding: 1148886043
+    homepage: http://www.nutanix.com
+    industries:
+    - Data Center
+    - Enterprise Software
+    - Software
+    - Virtualization
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/nutanix
+    name: Nutanix
+    num_employees_max: 10000
+    num_employees_min: 5001
+    parents: []
+    region: California
+    stockExchange: nasdaq
+    ticker: NTNX
+    twitter: http://twitter.com/nutanix
+  description: Managed Kubernetes offering by Nutanix
+  homepage_url: https://www.nutanix.com
+  image_data:
+    fileName: nutanix-karbon.svg
+    hash: sfj0n14yY5rtd4hbiMYu4ycyLduFw4jrehmrhdmDVOI=
+  item: null
+  logo: nutanix.svg
+  name: Nutanix Karbon
+  twitter_data:
+    latest_tweet_date: 2022-08-05 20:10:52+00:00
+  yahoo_finance_data:
+    effective_ticker: NTNX
+    market_cap: 3792811520

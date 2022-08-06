@@ -1,0 +1,78 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/second-state
+  crunchbase_data:
+    acquisitions: []
+    city: Austin
+    company_type: For Profit
+    country: United States
+    description: Open source software container optimized for edge computing (Jamstack,
+      serverless, SaaS, automotive, factory, edge networks, edge devices)
+    funding: 3000000
+    homepage: https://www.secondstate.io/
+    industries:
+    - Blockchain
+    - Cloud Computing
+    - Cloud Data Services
+    - Information Technology
+    - Open Source
+    - SaaS
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/second-state/
+    name: Second State
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: Texas
+    stockExchange: null
+    twitter: https://twitter.com/secondstateinc
+  description: High-performance Function as a Service (FaaS), powered by WasmEdge.
+  homepage_url: https://www.secondstate.io/faas
+  image_data:
+    fileName: second-state-functions.svg
+    hash: uG3d60oyNdt4x/scW1zWW6hv4VZqWO0dKn8KxMJS2w4=
+  item: null
+  joined: '2021-02-01'
+  logo: second-state-functions.svg
+  name: Second State Functions
+  twitter_data:
+    latest_tweet_date: 2022-08-06 04:01:50+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/stdlib
+  crunchbase_data:
+    acquisitions: []
+    city: San Francisco
+    company_type: For Profit
+    country: United States
+    description: An online code editor with API autocomplete, instant hosting, and
+      a Standard Library. Sync data, build bots and customize workflows.
+    funding: 4000000
+    homepage: https://autocode.com
+    industries:
+    - Developer APIs
+    - Open Source
+    - PaaS
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/autocodehq
+    name: Autocode
+    num_employees_max: 10
+    num_employees_min: 1
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/AutocodeHQ
+  homepage_url: https://autocode.com
+  image_data:
+    fileName: standard-library.svg
+    hash: 3JYOO3YnpN47Hns6Ngg9FuV3EM6XsKbgRry16X9c7Xs=
+  item: null
+  logo: standard-library.svg
+  name: Standard Library
+  twitter: https://twitter.com/Autocode
+  twitter_data:
+    latest_tweet_date: 2022-08-05 18:15:51+00:00

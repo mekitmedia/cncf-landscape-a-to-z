@@ -1,0 +1,218 @@
+- best_practice_data:
+    badge: 3048
+    percentage: 100
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  extra:
+    accepted: '2019-07-20'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#thanos-logos
+    dev_stats_url: https://thanos.devstats.cncf.io/
+    slack_url: https://cloud-native.slack.com/messages/CK5RSSC10
+  github_data:
+    contributions: 7;12;13;8;8;7;15;10;9;6;7;6;6;21;11;12;6;11;17;10;9;13;6;6;10;10;12;5;8;6;7;12;2;3;4;2;7;11;9;8;4;7;3;6;3;10;5;18;21;7;5;11
+    contributors_count: 478
+    contributors_link: https://github.com/thanos-io/thanos/graphs/contributors
+    description: Highly available Prometheus setup with long term storage capabilities.
+      A CNCF Incubating project.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 5906571
+    - color: '#2b7489'
+      name: TypeScript
+      value: 367556
+    - color: '#0064bd'
+      name: Jsonnet
+      value: 125482
+    - color: '#427819'
+      name: Makefile
+      value: 29817
+    - color: '#89e051'
+      name: Shell
+      value: 25376
+    - color: '#e34c26'
+      name: HTML
+      value: 24916
+    - color: '#563d7c'
+      name: CSS
+      value: 15874
+    - name: SCSS
+      value: 15711
+    - name: jq
+      value: 546
+    - color: '#384d54'
+      name: Dockerfile
+      value: 348
+    latest_commit_date: '2022-08-05T16:55:13Z'
+    latest_commit_link: /thanos-io/thanos/commit/547da582ffc8a3e9e4fa01f74d5f031884f628b2
+    license: Apache License 2.0
+    release_date: '2022-07-05T15:14:11Z'
+    release_link: https://github.com/thanos-io/thanos/releases
+    stars: 10798
+  github_start_commit_data:
+    start_commit_link: /thanos-io/thanos/commit/3a7b2996f8574048900cfc6259561ac412bcf251
+    start_date: '2017-11-01T17:38:04Z'
+  homepage_url: https://thanos.io/
+  image_data:
+    fileName: thanos.svg
+    hash: et/BJIBfhaFSZOU+ToWDgCWdscZXaZxfhX7CRsZkMWg=
+  item: null
+  logo: thanos.svg
+  name: Thanos
+  project: incubating
+  repo_url: https://github.com/thanos-io/thanos
+  repos:
+  - stars: 10798
+    url: https://github.com/thanos-io/thanos
+  twitter: https://twitter.com/ThanosMetrics
+  twitter_data:
+    latest_tweet_date: 2022-07-26 14:50:28+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/tingyun
+  crunchbase_data:
+    acquisitions: []
+    city: Beijing
+    company_type: For Profit
+    country: China
+    description: Tingyun specializes in developing applications for companies to conduct
+      algorithmic IT Operations on mobile, on servers, and the web.
+    funding: 135560867
+    homepage: http://www.tingyun.com/tingyun_app.html
+    industries:
+    - Apps
+    - Cloud Data Services
+    - Information Technology
+    - Mobile
+    - Mobile Apps
+    - Network Security
+    - Social Media
+    - Software
+    - iOS
+    kind: funding
+    linkedin: null
+    name: Tingyun
+    num_employees_max: 250
+    num_employees_min: 101
+    parents: []
+    region: Beijing
+    stockExchange: null
+    twitter: null
+  homepage_url: https://www.tingyun.com/tingyun-app
+  image_data:
+    fileName: tingyun.svg
+    hash: k32qKCF7SvlMRpUeYnGYFAJiXFzQX9JEH4OyJh3KsR8=
+  item: null
+  logo: tingyun.svg
+  name: Tingyun
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  extra:
+    accepted: '2021-03-30'
+    artwork_url: https://github.com/cncf/artwork/tree/master/projects/trickster
+    dev_stats_url: https://trickster.devstats.cncf.io/
+  github_data:
+    contributions: 0;0;0;1;12;0;0;0;0;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0
+    contributors_count: 64
+    contributors_link: https://github.com/trickstercache/trickster/graphs/contributors
+    description: Open Source HTTP Reverse Proxy Cache and Time Series Dashboard Accelerator
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 1758435
+    - color: '#427819'
+      name: Makefile
+      value: 7287
+    - color: '#384d54'
+      name: Dockerfile
+      value: 758
+    - color: '#89e051'
+      name: Shell
+      value: 110
+    latest_commit_date: '2022-06-21T20:59:45Z'
+    latest_commit_link: /trickstercache/trickster/commit/6edc535c73ccd92a88f9496fce164f9d25a914c6
+    license: Apache License 2.0
+    release_date: '2021-04-22T22:02:53Z'
+    release_link: https://github.com/trickstercache/trickster/releases
+    stars: 1718
+  github_start_commit_data:
+    start_commit_link: /Comcast/trickster/commit/b9b9b9bcbd5d9f34dc1bf72e2827b250cd3d880b
+    start_date: '2018-03-29T20:43:29Z'
+  homepage_url: https://trickstercache.org
+  image_data:
+    fileName: trickster.svg
+    hash: GIcxsPAptA5cDBlxxgufwsHRC8KL5qFWnTnkcjJtCS8=
+  item: null
+  logo: trickster.svg
+  name: Trickster
+  project: sandbox
+  repo_url: https://github.com/trickstercache/trickster
+  repos:
+  - stars: 1718
+    url: https://github.com/trickstercache/trickster
+  twitter_data:
+    latest_tweet_date: 2022-08-05 21:09:37+00:00

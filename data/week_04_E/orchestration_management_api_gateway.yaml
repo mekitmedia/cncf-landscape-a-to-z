@@ -1,0 +1,235 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/megaease-inc
+  crunchbase_data:
+    acquisitions: []
+    city: Beijing
+    company_type: For Profit
+    country: China
+    description: High performance software architecture
+    homepage: https://megaease.com/
+    industries: []
+    linkedin: null
+    name: MegaEase, Inc.
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: Beijing
+    stockExchange: null
+    twitter: null
+  github_data:
+    contributions: 10;1;12;10;5;6;6;7;1;12;11;6;13;6;6;2;5;8;3;16;8;6;10;3;7;0;9;4;1;13;12;6;11;11;20;9;10;10;10;9;5;3;2;12;6;6;11;7;2;4;8;7
+    contributors_count: 52
+    contributors_link: https://github.com/megaease/easegress/graphs/contributors
+    description: A Cloud Native traffic orchestration system
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 1808658
+    - color: '#89e051'
+      name: Shell
+      value: 14874
+    - color: '#427819'
+      name: Makefile
+      value: 3581
+    - color: '#384d54'
+      name: Dockerfile
+      value: 664
+    - color: '#701516'
+      name: Ruby
+      value: 56
+    latest_commit_date: '2022-08-05T06:13:07Z'
+    latest_commit_link: /megaease/easegress/commit/eeb09bedb211538a8ecd8ba1b46ec4fd6c4287ac
+    license: Apache License 2.0
+    release_date: '2022-07-07T08:26:36Z'
+    release_link: https://github.com/megaease/easegress/releases
+    stars: 4570
+  github_start_commit_data:
+    start_commit_link: /megaease/easegress/commit/bd07d16b856ec9fe26018e3e8e679140eedaa62e
+    start_date: '2017-03-27T08:44:10Z'
+  homepage_url: https://megaease.com/easegress
+  image_data:
+    fileName: easegress.svg
+    hash: hz6ebcB9la/HhKoY3saJXiYx9X5rTiLtJifgtYQnwo4=
+  item: null
+  logo: easegress.svg
+  name: Easegress
+  repo_url: https://github.com/megaease/easegress
+  repos:
+  - stars: 4570
+    url: https://github.com/megaease/easegress
+  twitter: https://twitter.com/megaease
+  twitter_data:
+    latest_tweet_date: 2022-07-27 13:04:39+00:00
+- best_practice_data:
+    badge: 4991
+    percentage: 19
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  extra:
+    accepted: '2021-03-26'
+    artwork_url: https://github.com/cncf/artwork/tree/master/projects/emissary-ingress
+    dev_stats_url: https://emissaryingress.devstats.cncf.io/
+  github_data:
+    contributions: 30;82;54;41;16;88;71;68;84;21;11;4;31;19;23;19;43;37;15;18;0;17;20;65;75;135;55;49;20;10;4;4;3;1;1;16;18;32;20;7;16;24;24;23;28;30;16;3;3;15;10;6
+    contributors_count: 257
+    contributors_link: https://github.com/emissary-ingress/emissary/graphs/contributors
+    description: open source Kubernetes-native API gateway for microservices built
+      on the Envoy Proxy
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#3572A5'
+      name: Python
+      value: 1886638
+    - color: '#00ADD8'
+      name: Go
+      value: 1576007
+    - color: '#427819'
+      name: Makefile
+      value: 139844
+    - color: '#89e051'
+      name: Shell
+      value: 80687
+    - color: '#e34c26'
+      name: HTML
+      value: 27070
+    - color: '#384d54'
+      name: Dockerfile
+      value: 17178
+    - name: Mustache
+      value: 3855
+    latest_commit_date: '2022-08-03T18:27:50Z'
+    latest_commit_link: /emissary-ingress/emissary/commit/a42c06607e65f53ead93db911eeacf0bafc0b876
+    license: Apache License 2.0
+    release_date: '2022-08-01T15:26:51Z'
+    release_link: https://github.com/emissary-ingress/emissary/releases
+    stars: 3834
+  github_start_commit_data:
+    start_commit_link: /datawire/ambassador/commit/82ed5e4054a0eb3f4da76e45d89f020fbf1e4f14
+    start_date: '2017-03-30T19:54:17Z'
+  homepage_url: https://www.getambassador.io/
+  image_data:
+    fileName: emissary-ingress.svg
+    hash: r7rCTgH5N6UYAAy/ttJj9coF35YfnmfZMC9oc0CJesA=
+  item: null
+  logo: emissary-ingress.svg
+  name: Emissary-Ingress
+  project: incubating
+  repo_url: https://github.com/emissary-ingress/emissary
+  repos:
+  - stars: 3834
+    url: https://github.com/emissary-ingress/emissary
+  twitter_data:
+    latest_tweet_date: 2022-08-05 21:09:37+00:00
+- best_practice_data:
+    badge: 4383
+    percentage: 72
+  crunchbase: https://www.crunchbase.com/organization/saaras
+  crunchbase_data:
+    acquisitions: []
+    city: Milpitas
+    company_type: ''
+    country: United States
+    description: Security, Observability and Policy for your (micro)service/API across
+      clouds and platforms
+    homepage: http://saaras.io/
+    industries:
+    - Cloud Security
+    - Compliance
+    - Enterprise Software
+    - Network Security
+    - Open Source
+    - Security
+    linkedin: https://www.linkedin.com/company/saarasio/
+    name: Saaras
+    num_employees_max: null
+    num_employees_min: null
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/SaarasInc
+  github_data:
+    contributions: 13;0;0;6;0;0;0;0;0;3;0;0;0;0;1;0;0;0;2;0;3;0;0;6;1;0;2;0;7;2;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;2;3;3;3;12;3;0
+    contributors_count: 7
+    contributors_link: https://github.com/saarasio/enroute/graphs/contributors
+    description: EnRoute Ingress API Gateway - Connectivity and Security for your
+      Microservice at Kubernetes Ingress using one helm command. Built on Envoy Proxy.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 1346244
+    - color: '#89e051'
+      name: Shell
+      value: 23143
+    - name: PLpgSQL
+      value: 21309
+    - name: CMake
+      value: 7895
+    - name: Smarty
+      value: 7428
+    - color: '#f34b7d'
+      name: C++
+      value: 4611
+    - color: '#427819'
+      name: Makefile
+      value: 3384
+    - color: '#000080'
+      name: Lua
+      value: 516
+    - color: '#384d54'
+      name: Dockerfile
+      value: 281
+    latest_commit_date: '2022-07-27T06:33:20Z'
+    latest_commit_link: /saarasio/enroute/commit/1eee5f22bd0175535c2faba4460ff81cdc99a900
+    license: Apache License 2.0
+    release_date: '2022-07-27T06:53:13Z'
+    release_link: https://github.com/saarasio/enroute/releases
+    stars: 168
+  github_start_commit_data:
+    start_commit_link: /saarasio/enroute/commit/43836a51f7e5755c13ef902aebd1494c748ea1d1
+    start_date: '2019-07-31T06:33:02Z'
+  homepage_url: https://www.getenroute.io
+  image_data:
+    fileName: en-route-one-step-ingress.svg
+    hash: DPtlrSrbGZVqrx9ZFs68S2EZPa5J/BZXXLDLyArFDR4=
+  item: null
+  logo: saaras.svg
+  name: EnRoute OneStep Ingress
+  repo_url: https://github.com/saarasio/enroute
+  repos:
+  - stars: 168
+    url: https://github.com/saarasio/enroute
+  twitter_data:
+    latest_tweet_date: 2022-08-01 18:27:10+00:00

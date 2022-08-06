@@ -1,0 +1,286 @@
+- best_practice_data:
+    badge: 1968
+    percentage: 57
+  crunchbase: https://www.crunchbase.com/organization/polytechnic-university-of-valencia
+  crunchbase_data:
+    acquisitions: []
+    city: Valencia
+    company_type: ''
+    country: Spain
+    description: Polytechnic University of Valencia is a school in Valencia.
+    homepage: http://www.upv.es/
+    industries:
+    - Universities
+    linkedin: https://www.linkedin.com/edu/school?id=12242
+    name: Polytechnic University of Valencia
+    num_employees_max: null
+    num_employees_min: null
+    parents: []
+    region: Comunidad Valenciana
+    stockExchange: null
+    twitter: http://twitter.com/UPV
+  github_data:
+    contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;10;0;28;18;26;28;0;0;21;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+    contributors_count: 13
+    contributors_link: https://github.com/grycap/scar/graphs/contributors
+    description: Serverless Container-aware ARchitectures (e.g. Docker in AWS Lambda)
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#3572A5'
+      name: Python
+      value: 324748
+    - color: '#384d54'
+      name: Dockerfile
+      value: 601
+    latest_commit_date: '2022-02-16T09:47:01Z'
+    latest_commit_link: /grycap/scar/commit/050601ef51d819308d4903260faa4013e3f93ea3
+    license: Apache License 2.0
+    release_date: '2022-02-15T15:21:45Z'
+    release_link: https://github.com/grycap/scar/releases
+    stars: 580
+  github_start_commit_data:
+    start_commit_link: /grycap/scar/commit/b80722b55cf9b91f47f2f5bd26180c7f0636d0a1
+    start_date: '2017-05-16T09:35:58Z'
+  homepage_url: https://scar.readthedocs.io/en/latest/
+  image_data:
+    fileName: scar.svg
+    hash: Rb1ktcQbhFa6FpnBhwQpKJYJwy1MV3CQr2g7rLDw838=
+  item: null
+  logo: scar.svg
+  name: SCAR
+  repo_url: https://github.com/grycap/scar
+  repos:
+  - stars: 580
+    url: https://github.com/grycap/scar
+  twitter_data:
+    latest_tweet_date: 2022-08-05 11:52:21+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/alibaba
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Umeng+
+      date: '2013-04-26'
+    - acquiree: Xiami Music Network
+      date: '2013-06-04'
+    - acquiree: Kanbox
+      date: '2013-09-25'
+    - acquiree: TTPod
+      date: '2013-12-03'
+    - acquiree: AutoNavi
+      date: '2014-04-13'
+    - acquiree: UCWeb
+      date: '2014-06-11'
+      price: 4700000000
+    - acquiree: AdChina
+      date: '2015-01-06'
+    - acquiree: 365 Translation
+      date: '2015-04-21'
+    - acquiree: Zuodao.com
+      date: '2015-05-01'
+    - acquiree: Youku
+      date: '2015-10-16'
+      price: 3500000000
+    - acquiree: Youku
+      date: '2015-11-05'
+      price: 4400000000
+    - acquiree: South China Morning Post
+      date: '2015-12-11'
+      price: 262000000
+    - acquiree: AGTech Holdings
+      date: '2016-03-06'
+      price: 307818685
+    - acquiree: SCMP Group
+      date: '2016-04-05'
+      price: 266000000
+    - acquiree: Wandoujia
+      date: '2016-07-05'
+      price: 200000000
+    - acquiree: Ali Jiankang Dayaofang
+      date: '2016-07-07'
+      price: 2514013
+    - acquiree: Damai.cn
+      date: '2017-03-21'
+    - acquiree: Cainiao Logistics
+      date: '2017-09-26'
+    - acquiree: Ejoy Technology
+      date: '2017-09-27'
+    - acquiree: Ejoy Technology
+      date: '2017-09-28'
+    - acquiree: Visualead
+      date: '2017-12-03'
+    - acquiree: ELEME
+      date: '2018-02-26'
+      price: 9500000000
+    - acquiree: C-SKY Microsystems
+      date: '2018-04-20'
+    - acquiree: Daraz.pk
+      date: '2018-05-08'
+    - acquiree: Trendyol Group
+      date: '2018-06-30'
+      price: 728000000
+    - acquiree: OpenSky
+      date: '2018-09-06'
+    - acquiree: Ververica
+      date: '2019-01-07'
+      price: 103305785
+    - acquiree: Infinity Augmented Reality
+      date: '2019-03-24'
+    - acquiree: Teambition
+      date: '2019-03-28'
+    - acquiree: Kaola
+      date: '2019-09-05'
+      price: 2000000000
+    - acquiree: Keruyun
+      date: '2020-02-25'
+    - acquiree: Alog
+      date: '2020-08-11'
+    - acquiree: Xiaoman Technology
+      date: '2020-08-26'
+    - acquiree: Sun Art Retail Group
+      date: '2020-10-18'
+      price: 3600000000
+    city: Hangzhou
+    company_type: For Profit
+    country: China
+    description: Alibaba Group enables businesses to transform the way they market,
+      sell, operate, and improve their efficiencies.
+    funding: 8907000000
+    homepage: http://alibabagroup.com
+    industries:
+    - Association
+    - B2B
+    - Information Technology
+    - Shopping
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/alibaba-group
+    name: Alibaba Group
+    num_employees_max: 1000000
+    num_employees_min: 10001
+    parents: []
+    region: Zhejiang
+    stockExchange: hkg
+    ticker: 9988.HK
+    twitter: https://twitter.com/alibabagroup
+  github_data:
+    contributions: 6;5;10;15;12;29;8;32;0;21;11;43;20;40;20;7;6;22;12;20;39;11;1;21;25;0;16;8;29;16;16;15;24;31;3;5;10;10;4;18;5;2;4;1;8;2;4;3;13;37;7;8
+    contributors_count: 31
+    contributors_link: https://github.com/serverless-devs/serverless-devs/graphs/contributors
+    description: ":fire::fire::fire: Serverless Devs developer tool ( Serverless Devs\
+      \ \u5F00\u53D1\u8005\u5DE5\u5177 )"
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#2b7489'
+      name: TypeScript
+      value: 105408
+    - color: '#89e051'
+      name: Shell
+      value: 4106
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 3402
+    - color: '#427819'
+      name: Makefile
+      value: 455
+    latest_commit_date: '2022-08-04T10:22:19Z'
+    latest_commit_link: /Serverless-Devs/Serverless-Devs/commit/0694f4d5f1cb109e2c7b75677ade08b4a5512c4c
+    license: MIT License
+    release_date: '2022-08-02T12:24:03Z'
+    release_link: https://github.com/serverless-devs/serverless-devs/releases
+    stars: 1162
+  github_start_commit_data:
+    start_commit_link: /Serverless-Devs/Serverless-Devs/commit/5472a17c32d25cffe6fe1fd7be665b57dfd556a6
+    start_date: '2020-10-21T15:01:52Z'
+  homepage_url: https://www.serverless-devs.com/
+  image_data:
+    fileName: serverless-devs.svg
+    hash: 5keThAuEnijVhwv/544Lf/6xZeEDh2thfsQ45AGjK9o=
+  item: null
+  logo: serverless-devs.svg
+  name: Serverless Devs
+  repo_url: https://github.com/serverless-devs/serverless-devs
+  repos:
+  - stars: 1162
+    url: https://github.com/serverless-devs/serverless-devs
+  twitter_data:
+    latest_tweet_date: 2022-07-18 08:29:00+00:00
+  yahoo_finance_data:
+    effective_ticker: 9988.HK
+    market_cap: 250716029031
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/slappforge
+  crunchbase_data:
+    acquisitions: []
+    city: Georgia
+    company_type: For Profit
+    country: United States
+    description: SLAppForge brings serverless computing and applications with SIGMA
+      IDE introducing live debug of AWS Lambda & Alexa Skill Development.
+    homepage: https://www.slappforge.com
+    industries:
+    - Apps
+    - Developer APIs
+    - Information Technology
+    - Internet
+    - Software
+    linkedin: https://www.linkedin.com/company/slappforge/
+    name: SLAppForge
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: Louisiana
+    stockExchange: null
+    twitter: https://twitter.com/SLAppForge
+  description: Sigma is a serverless application developer tool; a cloud IDE, which
+    helps you rapidly build, test and deploy serverless applications.
+  homepage_url: https://www.slappforge.com/sigma
+  image_data:
+    fileName: sigma.svg
+    hash: gau93LWjPIvcpYrjkgqbx/79Muc5SW1Jhj+c5yicI7I=
+  item: null
+  logo: slappforge-sigma.svg
+  name: Sigma
+  twitter: https://twitter.com/SigmaIDE
+  twitter_data:
+    latest_tweet_date: 2021-07-18 17:47:05+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/stackery
+  crunchbase_data:
+    acquisitions: []
+    city: Portland
+    company_type: For Profit
+    country: United States
+    description: Stackery provides intuitive automation, predictable performance,
+      and operational control over server-less applications and infrastructure.
+    funding: 7470000
+    homepage: https://www.stackery.io
+    industries:
+    - Cloud Infrastructure
+    - Developer Platform
+    - Developer Tools
+    - SaaS
+    - Software
+    - Software Engineering
+    kind: funding
+    linkedin: https://www.linkedin.com/company/stackery/
+    name: Stackery
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: Oregon
+    stockExchange: null
+    twitter: https://twitter.com/stackeryio
+  homepage_url: https://www.stackery.io/
+  image_data:
+    fileName: stackery.svg
+    hash: hSxWtJb1ip24ZyOdYD3Ul7yCb/Uo3KnGlq1Kt/Iif3Y=
+  item: null
+  logo: stackery.svg
+  name: Stackery
+  twitter_data:
+    latest_tweet_date: 2021-06-07 17:02:24+00:00

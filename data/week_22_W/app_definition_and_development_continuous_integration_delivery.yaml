@@ -1,0 +1,73 @@
+- best_practice_data:
+    badge: 5309
+    percentage: 66
+  crunchbase: https://www.crunchbase.com/organization/woodpecker-ci
+  crunchbase_data:
+    acquisitions: []
+    city: Berlin
+    company_type: ''
+    country: Germany
+    description: Woodpecker is a simple CI engine with great extensibility.
+    homepage: https://woodpecker-ci.github.io/
+    industries: []
+    linkedin: null
+    name: Woodpecker CI
+    num_employees_max: null
+    num_employees_min: null
+    parents: []
+    region: Berlin
+    stockExchange: null
+    twitter: null
+  github_data:
+    contributions: 2;2;0;6;2;9;25;21;16;13;12;10;5;0;7;20;12;19;12;18;6;9;13;12;4;18;10;2;9;16;4;2;3;2;7;5;3;3;2;6;17;0;8;3;18;5;1;3;0;9;3;8
+    contributors_count: 336
+    contributors_link: https://github.com/woodpecker-ci/woodpecker/graphs/contributors
+    description: Woodpecker is a community fork of the Drone CI system.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 1191048
+    - color: '#2c3e50'
+      name: Vue
+      value: 120488
+    - color: '#2b7489'
+      name: TypeScript
+      value: 44275
+    - color: '#427819'
+      name: Makefile
+      value: 11180
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 4489
+    - color: '#89e051'
+      name: Shell
+      value: 4325
+    - name: Smarty
+      value: 3754
+    - color: '#563d7c'
+      name: CSS
+      value: 909
+    - color: '#e34c26'
+      name: HTML
+      value: 612
+    latest_commit_date: '2022-08-04T10:56:31Z'
+    latest_commit_link: /woodpecker-ci/woodpecker/commit/98636a549390fa9c5de71d0f581aa31b3a569c47
+    license: Apache License 2.0
+    release_date: '2022-06-16T17:36:32Z'
+    release_link: https://github.com/woodpecker-ci/woodpecker/releases
+    stars: 1312
+  github_start_commit_data:
+    start_commit_link: /woodpecker-ci/woodpecker/commit/d5e5797934b80e0203d0f47b207c4848cfc834bf
+    start_date: '2014-02-07T10:10:01Z'
+  homepage_url: https://woodpecker-ci.org
+  image_data:
+    fileName: woodpecker-ci.svg
+    hash: 04rDMpNo5B6ChqwkfsCVsnFpwLH4/lJJKe6ndk+u8dM=
+  item: null
+  logo: woodpecker-ci.svg
+  name: Woodpecker CI
+  repo_url: https://github.com/woodpecker-ci/woodpecker
+  repos:
+  - stars: 1312
+    url: https://github.com/woodpecker-ci/woodpecker

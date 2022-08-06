@@ -1,0 +1,167 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/red-hat
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Akopia
+      date: '2001-01-31'
+    - acquiree: NOCpulse
+      date: '2002-10-07'
+    - acquiree: Sistina Software
+      date: '2003-12-18'
+      price: 31000000
+    - acquiree: JBoss
+      date: '2004-02-20'
+      price: 350000000
+    - acquiree: MetaMatrix
+      date: '2007-06-02'
+    - acquiree: Amentra
+      date: '2008-03-14'
+    - acquiree: Identyx
+      date: '2008-06-19'
+    - acquiree: Qumranet
+      date: '2008-09-04'
+    - acquiree: Makara
+      date: '2010-11-30'
+    - acquiree: Gluster
+      date: '2011-10-04'
+      price: 136000000
+    - acquiree: FuseSource
+      date: '2012-06-27'
+    - acquiree: Polymita Technologies
+      date: '2012-08-28'
+    - acquiree: BPM Technology
+      date: '2012-08-29'
+    - acquiree: ManageIQ
+      date: '2012-12-22'
+    - acquiree: Inktank
+      date: '2014-04-30'
+      price: 175000000
+    - acquiree: eNovance
+      date: '2014-06-18'
+      price: 95074205
+    - acquiree: FeedHenry
+      date: '2014-09-18'
+      price: 82000000
+    - acquiree: Red Hat Ansible
+      date: '2015-10-16'
+      price: 150000000
+    - acquiree: 3scale
+      date: '2016-06-22'
+    - acquiree: Codenvy
+      date: '2017-05-25'
+    - acquiree: Permabit Technology Corporation
+      date: '2017-07-31'
+    - acquiree: CoreOS
+      date: '2018-01-30'
+      price: 250000000
+    - acquiree: NooBaa
+      date: '2018-11-27'
+    - acquiree: StackRox
+      date: '2021-01-07'
+    city: Raleigh
+    company_type: For Profit
+    country: United States
+    description: Red Hat is a multinational software company engaged in providing
+      open-source software products to the enterprise community.
+    funding: 0
+    homepage: http://www.redhat.com
+    industries:
+    - Enterprise Software
+    - Linux
+    - Open Source
+    - Operating Systems
+    - Software
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/red-hat
+    name: Red Hat
+    num_employees_max: 1000000
+    num_employees_min: 10001
+    parents:
+    - https://www.crunchbase.com/organization/ibm
+    region: North Carolina
+    stockExchange: nyse
+    ticker: IBM
+    twitter: http://twitter.com/redhat
+  github_data:
+    contributions: 6;11;9;8;6;23;13;16;22;24;10;11;22;20;15;16;16;25;31;25;0;12;25;25;30;43;43;35;25;17;27;20;35;34;41;28;50;25;22;11;26;32;21;26;22;29;24;14;64;27;34;20
+    contributors_count: 788
+    contributors_link: https://github.com/keycloak/keycloak/graphs/contributors
+    description: Open Source Identity and Access Management For Modern Applications
+      and Services
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#b07219'
+      name: Java
+      value: 34298786
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 1136847
+    - color: '#e34c26'
+      name: HTML
+      value: 1067178
+    - color: '#0050b2'
+      name: FreeMarker
+      value: 225086
+    - color: '#2b7489'
+      name: TypeScript
+      value: 199243
+    - color: '#3572A5'
+      name: Python
+      value: 79439
+    - color: '#89e051'
+      name: Shell
+      value: 77110
+    - color: '#c22d40'
+      name: Scala
+      value: 67371
+    - color: '#563d7c'
+      name: CSS
+      value: 46728
+    - color: '#EB8CEB'
+      name: XSLT
+      value: 44907
+    - color: '#C1F12E'
+      name: Batchfile
+      value: 6948
+    - color: '#384d54'
+      name: Dockerfile
+      value: 5570
+    - color: '#e69f56'
+      name: Groovy
+      value: 4973
+    - color: '#f0a9f0'
+      name: Gnuplot
+      value: 2173
+    - color: '#E6EFBB'
+      name: AMPL
+      value: 1552
+    - name: Fluent
+      value: 217
+    latest_commit_date: '2022-08-05T19:08:38Z'
+    latest_commit_link: /keycloak/keycloak/commit/ec808d28bb224fc243edd334aa549a8cf8d94ca7
+    license: Apache License 2.0
+    release_date: '2022-08-06T03:54:35Z'
+    release_link: https://github.com/keycloak/keycloak/releases
+    stars: 13075
+  github_start_commit_data:
+    start_commit_link: /keycloak/keycloak/commit/503cede15eb8a5877a2e91a639286dbfcfb86fbd
+    start_date: '2013-07-02T13:38:51Z'
+  homepage_url: https://www.keycloak.org
+  image_data:
+    fileName: keycloak.svg
+    hash: ezIuhlfNptLpeMrRdUWsqfQuqAadEP/fRrBXQuWDwPs=
+  item: null
+  logo: keycloak.svg
+  name: Keycloak
+  repo_url: https://github.com/keycloak/keycloak
+  repos:
+  - stars: 13075
+    url: https://github.com/keycloak/keycloak
+  twitter: https://twitter.com/keycloak
+  twitter_data:
+    latest_tweet_date: 2022-07-27 11:59:54+00:00
+  yahoo_finance_data:
+    effective_ticker: IBM
+    market_cap: 118744473600

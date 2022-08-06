@@ -1,0 +1,68 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/h3c-technologies
+  crunchbase_data:
+    acquisitions: []
+    city: Binjiang
+    company_type: For Profit
+    country: China
+    description: H3C is a leading global supplier of IP-based products and solutions.
+    homepage: http://www.h3c.com/portal/
+    industries:
+    - Electronics
+    - Information Technology
+    - Manufacturing
+    - Software
+    linkedin: https://www.linkedin.com/company/h3c-technologies-co-ltd
+    name: H3C Technologies
+    num_employees_max: 5000
+    num_employees_min: 1001
+    parents: []
+    region: Jiangxi
+    stockExchange: null
+    twitter: null
+  description: Based on container technology and pluggable open architecture, H3C
+    CloudOS provides compute, storage, network, security, big data, database, PaaS,
+    and DevOps services as a full-stack cloud management platform. It enables you
+    to perform unified operations and management of various cloud resources.
+  homepage_url: https://www.h3c.com/en
+  image_data:
+    fileName: h3-c-cloud-os.svg
+    hash: qCtZ/Oz1U5m1Rfgy+7g5aMNuC/VGmVvX13d9CmfzHPk=
+  item: null
+  logo: h3-c-cloud-os.svg
+  name: H3C CloudOS
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/harmony-cloud
+  crunchbase_data:
+    acquisitions: []
+    city: Hangzhou
+    company_type: For Profit
+    country: China
+    description: Harmony Cloud operates as a cloud computing startup.
+    funding: 4825796
+    homepage: http://harmonycloud.cn/
+    industries:
+    - Cloud Computing
+    - Information Technology
+    kind: funding
+    linkedin: null
+    name: Harmony Cloud
+    num_employees_max: 10
+    num_employees_min: 1
+    parents: []
+    region: Zhejiang
+    stockExchange: null
+    twitter: null
+  description: HarmonyCloud Container Platform is an Enterprise Platform-as-a-Service
+    based on Kubernetes.
+  homepage_url: http://harmonycloud.cn/products/rongqiyun/
+  image_data:
+    fileName: harmony-cloud-container-platform.svg
+    hash: yPCUwlYlerW3KU8JnQ8No8+0fhs9PUS9iD11Q7vevPg=
+  item: null
+  logo: harmonycloud.svg
+  name: HarmonyCloud Container Platform

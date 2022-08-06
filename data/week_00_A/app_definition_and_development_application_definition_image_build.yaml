@@ -1,0 +1,142 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Duanqu
+      date: '2017-05-01'
+    - acquiree: Chaitin Tech
+      date: '2019-10-11'
+    - acquiree: IDsManager
+      date: '2019-10-31'
+    city: Hangzhou
+    company_type: For Profit
+    country: China
+    description: Alibaba Cloud develops highly scalable cloud computing and data management
+      services.
+    funding: 1200000000
+    homepage: https://in.alibabacloud.com
+    industries:
+    - Cloud Data Services
+    - Cloud Management
+    - Data Center
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/alibaba-cloud-computing-company
+    name: Alibaba Cloud
+    num_employees_max: 5000
+    num_employees_min: 1001
+    parents:
+    - https://www.crunchbase.com/organization/alibaba
+    region: Zhejiang
+    stockExchange: null
+    ticker: 9988.HK
+    twitter: https://twitter.com/alibaba_cloud
+  homepage_url: https://www.alibabacloud.com/product/serverless-workflow
+  image_data:
+    fileName: alibaba-cloud-serverless-workflow.svg
+    hash: 9+o79bVK3Pj5gwEsiPRSfrTCXKlzKMLbtJGk0gdu4Is=
+  item: null
+  logo: alibaba_fnf.svg
+  name: Alibaba Cloud Serverless Workflow
+  twitter_data:
+    latest_tweet_date: 2022-08-05 10:00:00+00:00
+  yahoo_finance_data:
+    effective_ticker: 9988.HK
+    market_cap: 250716029031
+- best_practice_data:
+    badge: 4106
+    percentage: 100
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  extra:
+    accepted: '2020-06-23'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#artifact-hub-logos
+    dev_stats_url: https://cnigenie.devstats.cncf.io/
+  github_data:
+    contributions: 21;16;0;18;8;9;13;7;19;18;11;13;11;6;9;12;9;17;14;7;1;3;8;3;6;3;11;4;4;0;11;3;10;0;6;3;3;3;10;12;3;14;9;6;6;5;4;2;5;4;13;5
+    contributors_count: 21
+    contributors_link: https://github.com/artifacthub/hub/graphs/contributors
+    description: Find, install and publish Kubernetes packages
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#2b7489'
+      name: TypeScript
+      value: 3042825
+    - color: '#00ADD8'
+      name: Go
+      value: 1108430
+    - name: SQL
+      value: 542580
+    - name: Mustache
+      value: 299408
+    - color: '#563d7c'
+      name: CSS
+      value: 95324
+    - name: SCSS
+      value: 25604
+    - color: '#e34c26'
+      name: HTML
+      value: 11701
+    - color: '#384d54'
+      name: Dockerfile
+      value: 3971
+    - color: '#89e051'
+      name: Shell
+      value: 3952
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 2185
+    latest_commit_date: '2022-08-04T11:18:59Z'
+    latest_commit_link: /artifacthub/hub/commit/9fbdb21d4f7b3562054435df67218ea8e7b00163
+    license: Apache License 2.0
+    release_date: '2022-07-26T18:30:43Z'
+    release_link: https://github.com/artifacthub/hub/releases
+    stars: 970
+  github_start_commit_data:
+    start_commit_link: /artifacthub/hub/commit/dc194040e697dcc1df730f47962cb89f9f44bb5f
+    start_date: '2020-01-14T09:54:58Z'
+  homepage_url: https://artifacthub.io/
+  image_data:
+    fileName: artifact-hub.svg
+    hash: m2/KSJR9SHVwu3zG15frm9jQtS0n4CxS8ZbvlJnKNNQ=
+  item: null
+  logo: artifact-hub.svg
+  name: Artifact Hub
+  project: sandbox
+  repo_url: https://github.com/artifacthub/hub
+  repos:
+  - stars: 970
+    url: https://github.com/artifacthub/hub
+  twitter: https://twitter.com/cncfartifacthub
+  twitter_data:
+    latest_tweet_date: 2022-07-26 19:49:58+00:00

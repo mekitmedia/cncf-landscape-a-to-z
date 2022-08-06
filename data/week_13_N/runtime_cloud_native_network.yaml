@@ -1,0 +1,126 @@
+- best_practice_data:
+    badge: 2725
+    percentage: 82
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  extra:
+    accepted: '2019-04-11'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#network-service-mesh-logos
+    dev_stats_url: https://networkservicemesh.devstats.cncf.io/
+    mailing_list_url: https://groups.google.com/forum/#!forum/networkservicemesh
+    slack_url: https://cloud-native.slack.com/messages/CHQNNUPN1/details/
+  github_data:
+    contributions: 0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+    contributors_count: 62
+    contributors_link: https://github.com/networkservicemesh/networkservicemesh/graphs/contributors
+    description: The Hybrid/Multi-cloud IP Service Mesh
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 1611161
+    - color: '#89e051'
+      name: Shell
+      value: 66744
+    - name: Smarty
+      value: 50246
+    - color: '#427819'
+      name: Makefile
+      value: 45074
+    - color: '#3572A5'
+      name: Python
+      value: 18040
+    - name: HCL
+      value: 2057
+    - color: '#e34c26'
+      name: HTML
+      value: 112
+    latest_commit_date: '2021-10-28T17:05:47Z'
+    latest_commit_link: /networkservicemesh/networkservicemesh/commit/e58ac1200f18dff3b5169d4ddf96f1d5094639d8
+    license: Apache License 2.0
+    release_date: '2019-11-28T00:07:12Z'
+    release_link: https://github.com/networkservicemesh/networkservicemesh/releases
+    stars: 505
+  github_start_commit_data:
+    start_commit_link: /networkservicemesh/networkservicemesh/commit/c55f99432708c02aab4750b4f913d586e96e0da1
+    start_date: '2018-04-03T17:18:40Z'
+  homepage_url: https://networkservicemesh.io/
+  image_data:
+    fileName: network-service-mesh.svg
+    hash: G02duVFgKDzcCPslCavcYBdB0M7jgz4DkG+9S0pemoA=
+  item: null
+  logo: network-service-mesh.svg
+  name: Network Service Mesh
+  project: sandbox
+  repo_url: https://github.com/networkservicemesh/networkservicemesh
+  repos:
+  - stars: 505
+    url: https://github.com/networkservicemesh/networkservicemesh
+  twitter: https://twitter.com/nservicemesh
+  twitter_data:
+    latest_tweet_date: 2022-08-05 17:54:53+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/nuage-networks
+  crunchbase_data:
+    acquisitions: []
+    city: Mountain View
+    company_type: For Profit
+    country: United States
+    description: Nuage Networks provides software-defined networking for the datacenter
+      and beyond.
+    homepage: http://www.nuagenetworks.net/
+    industries:
+    - Communications Infrastructure
+    - IT Infrastructure
+    - Network Hardware
+    - Network Security
+    - Software
+    - Telecommunications
+    linkedin: https://www.linkedin.com/company/nuage-networks
+    name: Nuage Networks
+    num_employees_max: 250
+    num_employees_min: 101
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/nuagenetworks
+  homepage_url: https://www.nuagenetworks.net/
+  image_data:
+    fileName: nuage-networks.svg
+    hash: vAqWJhD5W2D6XPPl7P62jOBzCQ8rHXjYxeAVHMXgmfg=
+  item: null
+  logo: nuagenetworks.svg
+  name: Nuage Networks
+  twitter_data:
+    latest_tweet_date: 2022-08-02 16:14:55+00:00

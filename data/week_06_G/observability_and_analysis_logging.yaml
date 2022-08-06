@@ -1,0 +1,197 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/raintank
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kausal
+      date: '2018-03-01'
+    - acquiree: k6
+      date: '2021-06-17'
+    - acquiree: Pace
+      date: '2021-07-01'
+    - acquiree: Amixr
+      date: '2021-11-12'
+    city: New York
+    company_type: For Profit
+    country: United States
+    description: Grafana Labs is an open source software platform built to support
+      monitoring, visualization, and metric analytics.
+    funding: 535230000
+    homepage: http://grafana.com
+    industries:
+    - Cloud Data Services
+    - Data Visualization
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/grafana-labs
+    name: Grafana Labs
+    num_employees_max: 500
+    num_employees_min: 251
+    parents: []
+    region: New York
+    stockExchange: null
+    twitter: https://www.twitter.com/grafana
+  description: Loki is a horizontally-scalable, highly-available, multi-tenant log
+    aggregation system inspired by Prometheus. It is designed to be very cost effective
+    and easy to operate. It does not index the contents of the logs, but rather a
+    set of labels for each log stream.
+  github_data:
+    contributions: 17;23;19;13;22;8;15;28;19;15;22;44;45;19;20;22;20;17;21;12;5;44;42;20;44;33;17;21;26;38;23;33;17;15;32;41;28;23;49;4;37;17;39;29;34;24;25;35;23;28;17;20
+    contributors_count: 567
+    contributors_link: https://github.com/grafana/loki/graphs/contributors
+    description: Like Prometheus, but for logs.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 7112471
+    - color: '#0064bd'
+      name: Jsonnet
+      value: 195990
+    - color: '#701516'
+      name: Ruby
+      value: 54367
+    - color: '#427819'
+      name: Makefile
+      value: 49336
+    - color: '#89e051'
+      name: Shell
+      value: 37684
+    - color: '#4B6C4B'
+      name: Yacc
+      value: 27332
+    - name: HCL
+      value: 25563
+    - color: '#384d54'
+      name: Dockerfile
+      value: 14766
+    - color: '#3572A5'
+      name: Python
+      value: 13107
+    - color: '#e34c26'
+      name: HTML
+      value: 11843
+    - name: Mustache
+      value: 8017
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 6635
+    - name: SCSS
+      value: 1466
+    - color: '#563d7c'
+      name: CSS
+      value: 1304
+    - color: '#9d5200'
+      name: Ragel
+      value: 720
+    - name: Open Policy Agent
+      value: 546
+    latest_commit_date: '2022-08-05T08:16:01Z'
+    latest_commit_link: /grafana/loki/commit/d1365c17ab713e2d40a91535092104c30ed1948f
+    license: GNU Affero General Public License v3.0
+    release_date: '2022-07-18T11:36:22Z'
+    release_link: https://github.com/grafana/loki/releases
+    stars: 16669
+  github_start_commit_data:
+    start_commit_link: /grafana/loki/commit/511006e57b5250c9918f1250b10641485fd91c1a
+    start_date: '2018-04-15T13:31:38Z'
+  homepage_url: https://grafana.com/oss/loki
+  image_data:
+    fileName: grafana-loki.svg
+    hash: y33yaLvdlMyB50O4U5txnshDrWhQsKf4nc2yYL6mIxg=
+  item: null
+  logo: grafana-loki.svg
+  name: Grafana Loki
+  repo_url: https://github.com/grafana/loki
+  repos:
+  - stars: 16669
+    url: https://github.com/grafana/loki
+  twitter_data:
+    latest_tweet_date: 2022-08-04 21:49:46+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/graylog
+  crunchbase_data:
+    acquisitions: []
+    city: Houston
+    company_type: For Profit
+    country: United States
+    description: Graylog is a log management software platform for collecting, indexing,
+      and analyzing log messages in one place.
+    funding: 27400000
+    homepage: https://www.graylog.org
+    industries:
+    - Analytics
+    - Cyber Security
+    - Messaging
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/graylog
+    name: Graylog
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: Texas
+    stockExchange: null
+    twitter: https://twitter.com/graylog2
+  github_data:
+    contributions: 20;14;9;12;24;26;24;24;15;4;12;14;15;18;37;15;26;28;35;10;0;43;36;28;41;16;37;26;21;17;16;36;21;11;31;31;7;44;35;22;38;22;57;44;14;25;29;12;11;35;35;20
+    contributors_count: 159
+    contributors_link: https://github.com/Graylog2/graylog2-server/graphs/contributors
+    description: Free and open source log management
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#b07219'
+      name: Java
+      value: 14527859
+    - color: '#2b7489'
+      name: TypeScript
+      value: 4266305
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 2494298
+    - color: '#563d7c'
+      name: CSS
+      value: 66510
+    - color: '#9DC3FF'
+      name: ANTLR
+      value: 8936
+    - color: '#89e051'
+      name: Shell
+      value: 4963
+    - color: '#000080'
+      name: Lua
+      value: 3659
+    - color: '#384d54'
+      name: Dockerfile
+      value: 3600
+    - name: Less
+      value: 1196
+    - color: '#e69f56'
+      name: Groovy
+      value: 50
+    latest_commit_date: '2022-08-05T18:46:51Z'
+    latest_commit_link: /Graylog2/graylog2-server/commit/e5e3d3ecebbfd3b1f1e1c9713f629a3e6f1cdc37
+    license: Other
+    stars: 6200
+  github_start_commit_data:
+    start_commit_link: /Graylog2/graylog2-server/commit/a94595708f220747318c0dc26e11d40c2d26d795
+    start_date: '2010-05-17T21:28:14Z'
+  homepage_url: https://www.graylog.org/
+  image_data:
+    fileName: graylog.svg
+    hash: Sd7j3kkzosu5ONJ9mgMkRM01GzjXOj2HHMc42CfBc/A=
+  item: null
+  logo: graylog.svg
+  name: Graylog
+  open_source: false
+  repo_url: https://github.com/Graylog2/graylog2-server
+  repos:
+  - stars: 6200
+    url: https://github.com/Graylog2/graylog2-server
+  twitter_data:
+    latest_tweet_date: 2022-08-05 21:13:49+00:00

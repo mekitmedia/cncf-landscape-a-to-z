@@ -1,0 +1,325 @@
+- best_practice_data:
+    badge: 5906
+    percentage: 19
+  crunchbase: https://www.crunchbase.com/organization/apache
+  crunchbase_data:
+    acquisitions: []
+    city: Forest Hill
+    company_type: Non Profit
+    country: United States
+    description: Apache Software Foundation provides organizational, legal and financial
+      support for Apache open-source software projects.
+    homepage: http://www.apache.org
+    industries:
+    - Non Profit
+    - Software
+    linkedin: https://www.linkedin.com/company/the-apache-software-foundation
+    name: The Apache Software Foundation
+    num_employees_max: 10
+    num_employees_min: 1
+    parents: []
+    region: Maryland
+    stockExchange: null
+    twitter: http://twitter.com/TheASF
+  github_data:
+    contributions: 2;0;0;0;0;0;0;0;0;0;1;0;1;3;16;15;5;8;21;25;24;18;32;35;19;3;22;21;20;29;30;20;33;41;16;10;12;27;14;32;32;18;9;12;12;15;36;18;14;29;24;38
+    contributors_count: 105
+    contributors_link: https://github.com/apache/incubator-seatunnel/graphs/contributors
+    description: SeaTunnel is a distributed, high-performance data integration platform
+      for the synchronization and transformation of massive data (offline & real-time).
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#b07219'
+      name: Java
+      value: 2769086
+    - color: '#c22d40'
+      name: Scala
+      value: 332038
+    - color: '#2b7489'
+      name: TypeScript
+      value: 108818
+    - color: '#89e051'
+      name: Shell
+      value: 18955
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 5461
+    - color: '#384d54'
+      name: Dockerfile
+      value: 5300
+    - color: '#e34c26'
+      name: HTML
+      value: 1094
+    - color: '#563d7c'
+      name: CSS
+      value: 914
+    latest_commit_date: '2022-08-05T16:02:57Z'
+    latest_commit_link: /apache/incubator-seatunnel/commit/81cb80c050a758ae4a333eb7c3d5e250e2e1aed4
+    license: Apache License 2.0
+    release_date: '2022-06-18T12:50:04Z'
+    release_link: https://github.com/apache/incubator-seatunnel/releases
+    stars: 3719
+  github_start_commit_data:
+    start_commit_link: /apache/incubator-seatunnel/commit/311cdb3b55d25c8213bd24c59adc60b8b2421db7
+    start_date: '2017-08-05T14:30:14Z'
+  homepage_url: https://seatunnel.apache.org/
+  image_data:
+    fileName: sea-tunnal.svg
+    hash: MyG9uvDRDHvQb431JaCpzNtcmEtaN/bg7lXO/cQQ83U=
+  item: null
+  logo: seatunnel.svg
+  name: SeaTunnal
+  repo_url: https://github.com/apache/incubator-seatunnel
+  repos:
+  - stars: 3719
+    url: https://github.com/apache/incubator-seatunnel
+  twitter: https://twitter.com/ASFSeaTunnel
+  twitter_data:
+    latest_tweet_date: 2022-08-06 05:25:00+00:00
+- best_practice_data:
+    badge: 2974
+    percentage: 100
+  crunchbase: https://www.crunchbase.com/organization/wso2
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Platformer
+      date: '2021-06-16'
+    city: Santa Clara
+    company_type: For Profit
+    country: United States
+    description: WSO2 is an open source API-first integration vendor that offers a
+      broad technology platform to rapidly build digital products.
+    funding: 133500000
+    homepage: https://wso2.com
+    industries:
+    - Enterprise Software
+    - Information Technology
+    - Open Source
+    - SaaS
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/wso2
+    name: WSO2
+    num_employees_max: 1000
+    num_employees_min: 501
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/wso2
+  github_data:
+    contributions: 2;0;2;3;1;0;2;1;3;0;0;0;2;0;0;3;0;0;3;0;0;0;3;0;0;4;3;0;0;11;0;5;0;5;0;0;0;0;0;0;4;0;0;0;0;0;0;0;1;3;1;3
+    contributors_count: 111
+    contributors_link: https://github.com/siddhi-io/siddhi/graphs/contributors
+    description: Stream Processing and Complex Event Processing Engine
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#b07219'
+      name: Java
+      value: 8785184
+    - color: '#9DC3FF'
+      name: ANTLR
+      value: 20378
+    - color: '#0050b2'
+      name: FreeMarker
+      value: 11849
+    - color: '#89e051'
+      name: Shell
+      value: 455
+    latest_commit_date: '2022-08-03T08:39:59Z'
+    latest_commit_link: /siddhi-io/siddhi/commit/5acffa5ad2fd9858af51367a7347524f5bb8d262
+    license: Apache License 2.0
+    release_date: '2022-03-31T14:13:31Z'
+    release_link: https://github.com/siddhi-io/siddhi/releases
+    stars: 1359
+  github_start_commit_data:
+    start_commit_link: /siddhi-io/siddhi/commit/cb16d5ff1a90f91074a8116f53461bf7e30cbbd4
+    start_date: '2014-04-21T09:51:36Z'
+  homepage_url: https://siddhi.io/
+  image_data:
+    fileName: siddhi.svg
+    hash: LOwggLLSYMWmhbnprKDs4OphvfPZ4+HmEkoCyWOqld4=
+  item: null
+  logo: siddhi.svg
+  name: Siddhi
+  repo_url: https://github.com/siddhi-io/siddhi
+  repos:
+  - stars: 1359
+    url: https://github.com/siddhi-io/siddhi
+  twitter: https://twitter.com/siddhi_io
+  twitter_data:
+    latest_tweet_date: 2020-04-15 11:38:18+00:00
+  url_for_bestpractices: https://github.com/siddhi-io
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/streamsets
+  crunchbase_data:
+    acquisitions: []
+    city: San Francisco
+    company_type: For Profit
+    country: United States
+    description: Streamsets is a DataOps platform for modern data integration.
+    funding: 76249988
+    homepage: https://streamsets.com/
+    industries:
+    - Analytics
+    - Big Data
+    - Enterprise Software
+    - SaaS
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/streamsets
+    name: StreamSets
+    num_employees_max: 250
+    num_employees_min: 101
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/streamsets
+  github_data:
+    contributions: 22;20;36;15;12;10;14;10;22;29;18;31;31;27;13;24;27;19;34;24;9;26;25;26;30;22;17;11;14;6;8;9;10;3;8;14;10;8;14;13;16;18;10;19;19;9;5;8;11;21;21;25
+    contributors_count: 115
+    contributors_link: https://github.com/streamsets/datacollector/graphs/contributors
+    description: StreamSets Data Collector - Continuous big data and cloud platform
+      ingest infrastructure
+    firstWeek: 2020-05-10Z
+    languages:
+    - color: '#b07219'
+      name: Java
+      value: 25648862
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 1211968
+    - color: '#e34c26'
+      name: HTML
+      value: 631378
+    - name: Less
+      value: 137406
+    - color: '#9DC3FF'
+      name: ANTLR
+      value: 101291
+    - color: '#89e051'
+      name: Shell
+      value: 32530
+    - color: '#e69f56'
+      name: Groovy
+      value: 27033
+    - color: '#3572A5'
+      name: Python
+      value: 26996
+    - color: '#c22d40'
+      name: Scala
+      value: 6646
+    latest_commit_date: '2021-05-05T22:01:18Z'
+    latest_commit_link: /streamsets/datacollector/commit/5f847b4471c7c6e58f6695cdfc7b51aa0b9a649e
+    license: Apache License 2.0
+    stars: 1155
+  github_start_commit_data:
+    start_commit_link: /streamsets/datacollector/commit/8771e31075293a1bc26a8b44c7710c1e29da454e
+    start_date: '2014-10-09T21:06:04Z'
+  homepage_url: https://streamsets.com/
+  image_data:
+    fileName: stream-sets.svg
+    hash: Tbn9S/v1t1qdAJKuddAI0ceb/+oMZ+3yM02uK82mRXM=
+  item: null
+  logo: streamsets.svg
+  name: StreamSets
+  repo_url: https://github.com/streamsets/datacollector
+  repos:
+  - stars: 1155
+    url: https://github.com/streamsets/datacollector
+  twitter_data:
+    latest_tweet_date: 2022-08-05 17:23:12+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  extra:
+    accepted: '2019-08-28'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#strimzi-logos
+    dev_stats_url: https://strimzi.teststats.cncf.io/
+    mailing_list_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#strimzi-logos
+    slack_url: https://cloud-native.slack.com/messages/strimzi
+  github_data:
+    contributions: 11;10;9;7;12;9;16;11;27;20;14;11;13;14;14;13;13;9;16;24;5;13;15;16;21;14;12;21;20;16;16;12;14;23;15;15;22;10;25;18;14;13;6;11;8;14;2;13;18;8;22;8
+    contributors_count: 177
+    contributors_link: https://github.com/strimzi/strimzi-kafka-operator/graphs/contributors
+    description: "Apache Kafka\xAE running on Kubernetes"
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#b07219'
+      name: Java
+      value: 11007553
+    - color: '#89e051'
+      name: Shell
+      value: 218852
+    - color: '#427819'
+      name: Makefile
+      value: 33545
+    - color: '#e69f56'
+      name: Groovy
+      value: 25117
+    - name: Mustache
+      value: 14332
+    - color: '#384d54'
+      name: Dockerfile
+      value: 8933
+    - name: Awk
+      value: 514
+    - color: '#814CCC'
+      name: 1C Enterprise
+      value: 272
+    latest_commit_date: '2022-08-05T15:14:09Z'
+    latest_commit_link: /strimzi/strimzi-kafka-operator/commit/b6957fd1123dc5535c77404c0e8a6263412e960c
+    license: Apache License 2.0
+    release_date: '2022-07-20T09:11:00Z'
+    release_link: https://github.com/strimzi/strimzi-kafka-operator/releases
+    stars: 3355
+  github_start_commit_data:
+    start_commit_link: /strimzi/strimzi-kafka-operator/commit/014e10aa7ed85dcafa4ad8c266e0a78550c63a86
+    start_date: '2016-05-06T08:52:33Z'
+  homepage_url: https://strimzi.io/
+  image_data:
+    fileName: strimzi.svg
+    hash: XOT61Z3xWhhePcETDdvGLm8lsC6zijJo3kZYy8FhVdA=
+  item: null
+  logo: strimzi.svg
+  name: Strimzi
+  project: sandbox
+  repo_url: https://github.com/strimzi/strimzi-kafka-operator
+  repos:
+  - stars: 3355
+    url: https://github.com/strimzi/strimzi-kafka-operator
+  twitter: https://twitter.com/strimziio
+  twitter_data:
+    latest_tweet_date: 2022-08-04 06:36:54+00:00

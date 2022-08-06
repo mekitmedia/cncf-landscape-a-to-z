@@ -1,0 +1,173 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/whitestack
+  crunchbase_data:
+    acquisitions: []
+    city: Miami
+    company_type: For Profit
+    country: United States
+    description: Cloud Blocks for building automated Public or Private Clouds
+    homepage: http://www.whitestack.com
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Cloud Storage
+    - Content Delivery Network
+    - Data Center
+    - Data Center Automation
+    - Network Hardware
+    - Private Cloud
+    - Software
+    linkedin: null
+    name: Whitestack
+    num_employees_max: 250
+    num_employees_min: 101
+    parents: []
+    region: Florida
+    stockExchange: null
+    twitter: null
+  description: WhiteMist is Whitestack's own Kubernetes distribution, geared at accelerating
+    the adoption of containers in Cloud providers, E-commerce providers, Large organizations
+    and Telecom Operators.
+  homepage_url: https://www.whitestack.com/products/whitemist/
+  image_data:
+    fileName: whitestack-white-mist.svg
+    hash: H6p2jmSRPZEweYQIf/jKaPOvBISh6GE7FBDGFf1VgZI=
+  item: null
+  logo: whitestack.svg
+  name: Whitestack WhiteMist
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/wind-river
+  crunchbase_data:
+    acquisitions:
+    - acquiree: AudeSi Technologies
+      date: '2000-03-14'
+    - acquiree: Rapid Logic
+      date: '2000-10-09'
+      price: 58300000
+    - acquiree: Tilcon Software Ltd.
+      date: '2009-02-28'
+    - acquiree: Virtutech
+      date: '2010-02-05'
+      price: 45000000
+    - acquiree: Arynga
+      date: '2016-04-04'
+    - acquiree: Star Lab Corp.
+      date: '2020-01-16'
+    - acquiree: Particle Design
+      date: '2021-09-20'
+    city: Alameda
+    company_type: For Profit
+    country: United States
+    description: Wind River is a technology company that develops, runs, and manages
+      device software.
+    funding: 0
+    homepage: http://www.windriver.com
+    industries:
+    - Developer Tools
+    - Hardware
+    - Operating Systems
+    - Project Management
+    - Software
+    linkedin: https://www.linkedin.com/company/wind-river
+    name: Wind River
+    num_employees_max: 5000
+    num_employees_min: 1001
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: http://twitter.com/WindRiver
+  description: Wind River Cloud Platform is a carrier-grade Kubernetes solution that
+    makes 5G possible by solving the operational problem of deploying and managing
+    distributed edge networks at scale.  It is Wind River's commercial product based
+    on the open source StarlingX project.
+  github_data:
+    contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+    contributors_count: 107
+    contributors_link: https://github.com/wind-river/starlingx-config/graphs/contributors
+    description: A github mirror of https://github.com/starlingx/config
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#3572A5'
+      name: Python
+      value: 6844070
+    - color: '#89e051'
+      name: Shell
+      value: 99483
+    - color: '#563d7c'
+      name: CSS
+      value: 22588
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 8063
+    - color: '#e34c26'
+      name: HTML
+      value: 4418
+    - color: '#427819'
+      name: Makefile
+      value: 2462
+    - color: '#6E4C13'
+      name: Assembly
+      value: 611
+    - color: '#384d54'
+      name: Dockerfile
+      value: 63
+    - color: '#f34b7d'
+      name: C++
+      value: 16
+    latest_commit_date: '2020-02-11T16:39:14Z'
+    latest_commit_link: /Wind-River/starlingx-config/commit/96b92e5179d54dde10cb84c943eb239adf26b958
+    license: Apache License 2.0
+    stars: 0
+  github_start_commit_data:
+    start_commit_link: /Wind-River/starlingx-config/commit/ddded39cb96a125a4898d2a481be834a9cae302f
+    start_date: '2018-05-31T14:35:52Z'
+  homepage_url: https://www.windriver.com/studio/operator/cloud-platform
+  image_data:
+    fileName: wind-river-studio-cloud-platform.svg
+    hash: T2a6/3cjncll+Vjjrd9H3bTULlBUVnCOxDwk9xxRRE0=
+  item: null
+  logo: wind-river.svg
+  name: Wind River Studio Cloud Platform
+  repo_url: https://github.com/wind-river/starlingx-config
+  repos:
+  - stars: 0
+    url: https://github.com/wind-river/starlingx-config
+  twitter_data:
+    latest_tweet_date: 2022-08-05 20:02:09+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/wise2c-technology-co
+  crunchbase_data:
+    acquisitions: []
+    city: Shenzhen
+    company_type: For Profit
+    country: China
+    description: Kubernetes Certified Service Provider
+    homepage: http://www.wise2c.com/
+    industries:
+    - Information Technology
+    - Internet
+    - Robotics
+    - Software
+    linkedin: null
+    name: Wise2c Technology
+    num_employees_max: null
+    num_employees_min: null
+    parents: []
+    region: Guangdong
+    stockExchange: null
+    twitter: null
+  description: WiseCloud is a production-ready full-featured PaaS platform based on
+    Kubernetes.
+  homepage_url: http://www.wise2c.com/solution
+  image_data:
+    fileName: wise2-c-technology-wise-cloud.svg
+    hash: QMXGFx879+jWiUQQmKfDEhG7jBd7H3b0VjprsNA+rKo=
+  item: null
+  logo: wise2-c-kcsp.svg
+  name: Wise2C Technology WiseCloud

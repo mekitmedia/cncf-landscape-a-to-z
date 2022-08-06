@@ -1,0 +1,158 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/pantarei-design-limited
+  crunchbase_data:
+    acquisitions: []
+    city: North Point
+    company_type: For Profit
+    country: Hong Kong
+    description: PantaRei Design Limited is an open-source software company that supports
+      Cloud Computing-based apps.
+    homepage: http://pantarei-design.com
+    industries:
+    - Consulting
+    - Information Technology
+    - Software
+    linkedin: https://www.linkedin.com/company/pantarei-design-limited
+    name: PantaRei Design Limited
+    num_employees_max: 10
+    num_employees_min: 1
+    parents: []
+    region: Hong Kong Island
+    stockExchange: null
+    twitter: https://www.twitter.com/pantarei_design
+  description: This Vagrant Box provides Libvirt and VirtualBox image for running
+    Kubernetes in single node all-in-one mode.
+  github_data:
+    contributions: 8;13;12;9;6;26;31;12;27;23;5;3;5;9;4;7;9;8;6;10;19;20;8;5;6;3;7;25;3;10;16;19;2;8;20;21;21;37;52;30;23;27;11;17;5;17;16;11;7;10;7;13
+    contributors_count: 1
+    contributors_link: https://github.com/alvistack/vagrant-kubernetes/graphs/contributors
+    description: Vagrant Box Packaging for Kubernetes
+    firstWeek: 2021-08-08Z
+    languages:
+    - name: Jinja
+      value: 6745
+    - color: '#89e051'
+      name: Shell
+      value: 2452
+    latest_commit_date: '2022-08-05T17:35:56Z'
+    latest_commit_link: /alvistack/vagrant-kubernetes/commit/944f9d37d74258f01c0e2e13393bf616bfdbef2d
+    license: Apache License 2.0
+    release_date: '2021-07-18T05:22:16Z'
+    release_link: https://github.com/alvistack/vagrant-kubernetes/releases
+    stars: 7
+  github_start_commit_data:
+    start_commit_link: /alvistack/vagrant-kubernetes/commit/890fd3a86f77dacd0ab49d88598d9d776f3c92a1
+    start_date: '2020-10-15T05:49:29Z'
+  homepage_url: https://github.com/alvistack/vagrant-kubernetes
+  image_data:
+    fileName: alvi-stack-vagrant-box-packaging-for-kubernetes.svg
+    hash: 0JWOxPMDN8Sf3N2lL5HqeqiAHQtDNeArBrW81gYrpsU=
+  item: null
+  logo: alvistack.svg
+  name: AlviStack Vagrant Box Packaging for Kubernetes
+  repo_url: https://github.com/alvistack/vagrant-kubernetes
+  repos:
+  - stars: 7
+    url: https://github.com/alvistack/vagrant-kubernetes
+  twitter_data:
+    latest_tweet_date: 2022-08-03 03:03:04+00:00
+- best_practice_data:
+    badge: 6109
+    percentage: 100
+  crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+  crunchbase_data:
+    acquisitions:
+    - acquiree: AppThwack
+      date: '2015-07-14'
+    - acquiree: NICE
+      date: '2016-02-11'
+    - acquiree: Thinkbox Software
+      date: '2017-03-06'
+    - acquiree: Do
+      date: '2017-03-08'
+    - acquiree: Sqrrl
+      date: '2018-01-23'
+    - acquiree: TSO Logic
+      date: '2019-01-14'
+    - acquiree: TeamSQL, Inc.
+      date: '2020-02-21'
+    - acquiree: DB Best Technologies
+      date: '2021-01-28'
+    - acquiree: Wickr
+      date: '2021-06-25'
+    city: Seattle
+    company_type: For Profit
+    country: United States
+    description: Amazon Web Services provides information technology infrastructure
+      services to businesses in the form of web services.
+    funding: 108000000
+    homepage: http://aws.amazon.com
+    industries:
+    - Information Services
+    - Information Technology
+    - Software
+    - Web Development
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/amazon-web-services
+    name: Amazon Web Services
+    num_employees_max: 1000000
+    num_employees_min: 10001
+    parents:
+    - https://www.crunchbase.com/organization/amazon
+    region: Washington
+    stockExchange: null
+    ticker: AMZN
+    twitter: http://twitter.com/awscloud
+  description: Amazon EKS Anywhere is a new deployment option for Amazon EKS that
+    allows customers to create and operate Kubernetes clusters on customer-managed
+    infrastructure, supported by AWS.
+  github_data:
+    contributions: 1;0;0;67;64;33;38;25;31;8;31;38;48;20;23;13;27;41;29;21;8;27;35;34;33;25;19;30;34;28;51;47;57;49;38;32;42;31;61;49;27;38;32;48;42;56;43;24;21;28;22;41
+    contributors_count: 54
+    contributors_link: https://github.com/aws/eks-anywhere/graphs/contributors
+    description: "Run Amazon EKS on your own infrastructure \U0001F680"
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 4238460
+    - color: '#89e051'
+      name: Shell
+      value: 73830
+    - color: '#427819'
+      name: Makefile
+      value: 45278
+    - color: '#384d54'
+      name: Dockerfile
+      value: 2813
+    - color: '#3572A5'
+      name: Python
+      value: 2100
+    latest_commit_date: '2022-08-05T22:59:30Z'
+    latest_commit_link: /aws/eks-anywhere/commit/d57b5b23740105bac11470a211e50a3535d9acae
+    license: Apache License 2.0
+    release_date: '2022-07-08T19:56:19Z'
+    release_link: https://github.com/aws/eks-anywhere/releases
+    stars: 1601
+  github_start_commit_data:
+    start_commit_link: /aws/eks-anywhere/commit/af62f8de125965cdad0c0050f75bd011aead01d6
+    start_date: '2021-07-21T22:26:53Z'
+  homepage_url: https://aws.amazon.com/eks/eks-anywhere
+  image_data:
+    fileName: amazon-elastic-kubernetes-service-anywhere-amazon-eks-anywhere.svg
+    hash: SAaCDzEl11DXhCLfuUg3THlbYtVlQILQOhezT64IiU8=
+  item: null
+  logo: amazon-web-services.svg
+  name: Amazon Elastic Kubernetes Service Anywhere (Amazon EKS Anywhere)
+  repo_url: https://github.com/aws/eks-anywhere
+  repos:
+  - stars: 1601
+    url: https://github.com/aws/eks-anywhere
+  twitter_data:
+    latest_tweet_date: 2022-08-05 18:15:56+00:00
+  url_for_bestpractices: https://github.com/aws/eks-anywhere
+  yahoo_finance_data:
+    effective_ticker: AMZN
+    market_cap: 1434414088192

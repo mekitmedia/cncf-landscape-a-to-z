@@ -1,0 +1,160 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/alibaba
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Umeng+
+      date: '2013-04-26'
+    - acquiree: Xiami Music Network
+      date: '2013-06-04'
+    - acquiree: Kanbox
+      date: '2013-09-25'
+    - acquiree: TTPod
+      date: '2013-12-03'
+    - acquiree: AutoNavi
+      date: '2014-04-13'
+    - acquiree: UCWeb
+      date: '2014-06-11'
+      price: 4700000000
+    - acquiree: AdChina
+      date: '2015-01-06'
+    - acquiree: 365 Translation
+      date: '2015-04-21'
+    - acquiree: Zuodao.com
+      date: '2015-05-01'
+    - acquiree: Youku
+      date: '2015-10-16'
+      price: 3500000000
+    - acquiree: Youku
+      date: '2015-11-05'
+      price: 4400000000
+    - acquiree: South China Morning Post
+      date: '2015-12-11'
+      price: 262000000
+    - acquiree: AGTech Holdings
+      date: '2016-03-06'
+      price: 307818685
+    - acquiree: SCMP Group
+      date: '2016-04-05'
+      price: 266000000
+    - acquiree: Wandoujia
+      date: '2016-07-05'
+      price: 200000000
+    - acquiree: Ali Jiankang Dayaofang
+      date: '2016-07-07'
+      price: 2514013
+    - acquiree: Damai.cn
+      date: '2017-03-21'
+    - acquiree: Cainiao Logistics
+      date: '2017-09-26'
+    - acquiree: Ejoy Technology
+      date: '2017-09-27'
+    - acquiree: Ejoy Technology
+      date: '2017-09-28'
+    - acquiree: Visualead
+      date: '2017-12-03'
+    - acquiree: ELEME
+      date: '2018-02-26'
+      price: 9500000000
+    - acquiree: C-SKY Microsystems
+      date: '2018-04-20'
+    - acquiree: Daraz.pk
+      date: '2018-05-08'
+    - acquiree: Trendyol Group
+      date: '2018-06-30'
+      price: 728000000
+    - acquiree: OpenSky
+      date: '2018-09-06'
+    - acquiree: Ververica
+      date: '2019-01-07'
+      price: 103305785
+    - acquiree: Infinity Augmented Reality
+      date: '2019-03-24'
+    - acquiree: Teambition
+      date: '2019-03-28'
+    - acquiree: Kaola
+      date: '2019-09-05'
+      price: 2000000000
+    - acquiree: Keruyun
+      date: '2020-02-25'
+    - acquiree: Alog
+      date: '2020-08-11'
+    - acquiree: Xiaoman Technology
+      date: '2020-08-26'
+    - acquiree: Sun Art Retail Group
+      date: '2020-10-18'
+      price: 3600000000
+    city: Hangzhou
+    company_type: For Profit
+    country: China
+    description: Alibaba Group enables businesses to transform the way they market,
+      sell, operate, and improve their efficiencies.
+    funding: 8907000000
+    homepage: http://alibabagroup.com
+    industries:
+    - Association
+    - B2B
+    - Information Technology
+    - Shopping
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/alibaba-group
+    name: Alibaba Group
+    num_employees_max: 1000000
+    num_employees_min: 10001
+    parents: []
+    region: Zhejiang
+    stockExchange: hkg
+    ticker: 9988.HK
+    twitter: https://twitter.com/alibabagroup
+  github_data:
+    contributions: 7;5;4;5;10;4;3;6;0;1;4;1;0;1;9;10;4;12;4;8;23;44;17;44;39;10;38;38;39;29;21;26;26;16;16;20;11;15;4;13;11;18;10;6;10;19;19;17;19;38;15;35
+    contributors_count: 107
+    contributors_link: https://github.com/midwayjs/midway/graphs/contributors
+    description: "\U0001F354 A Node.js Serverless Framework for front-end/full-stack\
+      \ developers. Build the application for next decade. Works on AWS, Alibaba Cloud,\
+      \ Tencent Cloud and traditional VM/Container. Super easy integrate with React\
+      \ and Vue. \U0001F308"
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#2b7489'
+      name: TypeScript
+      value: 1908350
+    - color: '#89e051'
+      name: Shell
+      value: 729130
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 93003
+    - color: '#563d7c'
+      name: CSS
+      value: 4963
+    - color: '#e34c26'
+      name: HTML
+      value: 363
+    latest_commit_date: '2022-08-05T09:43:09Z'
+    latest_commit_link: /midwayjs/midway/commit/7b6f3b587dc2bdf429c1f50f6af723b2d5b2431b
+    license: MIT License
+    release_date: '2022-08-02T13:00:34Z'
+    release_link: https://github.com/midwayjs/midway/releases
+    stars: 5904
+  github_start_commit_data:
+    start_commit_link: /midwayjs/midway/commit/fb06128304d1a6ab555dff71da964fdbe4a353b6
+    start_date: '2019-12-09T15:44:30Z'
+  homepage_url: https://github.com/midwayjs/midway
+  image_data:
+    fileName: midway-serverless.svg
+    hash: H76/4k1M1RdF95y+l6nutDTeywXzUKvZIkvokUwGGs8=
+  item: null
+  logo: midway.svg
+  name: Midway Serverless
+  repo_url: https://github.com/midwayjs/midway
+  repos:
+  - stars: 5904
+    url: https://github.com/midwayjs/midway
+  twitter: https://twitter.com/js_midway
+  twitter_data:
+    latest_tweet_date: 2020-08-27 07:55:19+00:00
+  yahoo_finance_data:
+    effective_ticker: 9988.HK
+    market_cap: 250716029031

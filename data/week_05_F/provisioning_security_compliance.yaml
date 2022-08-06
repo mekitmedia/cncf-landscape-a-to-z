@@ -1,0 +1,276 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/fairwinds
+  crunchbase_data:
+    acquisitions: []
+    city: Boston
+    company_type: For Profit
+    country: United States
+    description: Kubernetes security, policy and compliance experts
+    homepage: https://www.fairwinds.com/
+    industries:
+    - Cloud Computing
+    - Cloud Security
+    - Developer Tools
+    - Information Technology
+    - Software
+    - Subscription Service
+    linkedin: https://www.linkedin.com/company/fairwinds/
+    name: Fairwinds
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: Massachusetts
+    stockExchange: null
+    twitter: https://twitter.com/fairwindsops
+  homepage_url: https://fairwinds.com/insights
+  image_data:
+    fileName: fairwinds-insights.svg
+    hash: 8Lu/WPZM72kS7nKB2shA2X5r+LjhC52OmQ0I1M/D5Rw=
+  item: null
+  logo: fairwinds-insights.svg
+  name: Fairwinds Insights
+  twitter_data:
+    latest_tweet_date: 2022-08-04 20:26:50+00:00
+- best_practice_data:
+    badge: 2317
+    percentage: 100
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  extra:
+    accepted: '2018-10-10'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#falco-logos
+    dev_stats_url: https://falco.devstats.cncf.io/
+    slack_url: https://kubernetes.slack.com/messages/falco
+  github_data:
+    contributions: 0;1;16;5;3;4;3;4;5;16;5;2;6;18;33;3;1;8;3;3;0;12;12;9;28;14;1;8;67;14;5;23;62;5;17;22;21;10;8;23;0;20;6;30;11;26;16;4;16;2;2;13
+    contributors_count: 168
+    contributors_link: https://github.com/falcosecurity/falco/graphs/contributors
+    description: Cloud Native Runtime Security
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#f34b7d'
+      name: C++
+      value: 419004
+    - name: CMake
+      value: 70718
+    - color: '#89e051'
+      name: Shell
+      value: 57685
+    - color: '#3572A5'
+      name: Python
+      value: 30541
+    - color: '#384d54'
+      name: Dockerfile
+      value: 23657
+    - color: '#555555'
+      name: C
+      value: 2547
+    latest_commit_date: '2022-08-05T15:56:28Z'
+    latest_commit_link: /falcosecurity/falco/commit/ff247f922dbf561dc2427f0c55e138f6b25bcf8f
+    license: Apache License 2.0
+    release_date: '2022-07-11T11:48:01Z'
+    release_link: https://github.com/falcosecurity/falco/releases
+    stars: 5054
+  github_start_commit_data:
+    start_commit_link: /falcosecurity/falco/commit/4bd8a9d4019839a371d5b7968b583e9b05073c72
+    start_date: '2016-01-20T22:47:56Z'
+  homepage_url: https://falco.org/
+  image_data:
+    fileName: falco.svg
+    hash: 1TQK0S2tDSk7juM3ZSVqX5PKfzGLaxOuvAFxUtMjHxc=
+  item: null
+  logo: falco.svg
+  name: Falco
+  project: incubating
+  repo_url: https://github.com/falcosecurity/falco
+  repos:
+  - stars: 5054
+    url: https://github.com/falcosecurity/falco
+  twitter: https://twitter.com/falco_org
+  twitter_data:
+    latest_tweet_date: 2022-07-11 16:42:49+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/fossa-2
+  crunchbase_data:
+    acquisitions: []
+    city: San Francisco
+    company_type: For Profit
+    country: United States
+    description: FOSSA provides a platform that helps enterprises manage and maximize
+      open source use at scale.
+    funding: 33900000
+    homepage: http://fossa.com
+    industries:
+    - Compliance
+    - Developer Tools
+    - Open Source
+    - SaaS
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/fossa/
+    name: FOSSA
+    num_employees_max: 100
+    num_employees_min: 51
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/getfossa
+  github_data:
+    contributions: 4;12;6;5;6;6;1;6;6;3;7;13;13;17;12;3;7;7;4;1;0;2;3;11;5;5;7;15;5;4;6;6;12;15;9;18;8;13;3;2;10;1;6;10;8;6;4;2;3;2;7;1
+    contributors_count: 18
+    contributors_link: https://github.com/fossas/fossa-cli/graphs/contributors
+    description: Fast, portable and reliable dependency analysis for any codebase.  Supports
+      license & vulnerability scanning for large monoliths.  Language-agnostic; integrates
+      with 20+ build systems.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#5e5086'
+      name: Haskell
+      value: 1974885
+    - color: '#89e051'
+      name: Shell
+      value: 38452
+    - color: '#012456'
+      name: PowerShell
+      value: 7916
+    - color: '#427819'
+      name: Makefile
+      value: 5453
+    - color: '#3572A5'
+      name: Python
+      value: 1284
+    - color: '#7e7eff'
+      name: Nix
+      value: 893
+    latest_commit_date: '2022-08-03T13:10:38Z'
+    latest_commit_link: /fossas/fossa-cli/commit/08749f24cedfed651a8e88b0089f64df7d49205b
+    license: Mozilla Public License 2.0
+    release_date: '2022-07-20T20:38:43Z'
+    release_link: https://github.com/fossas/fossa-cli/releases
+    stars: 1033
+  github_start_commit_data:
+    start_commit_link: /fossas/fossa-cli/commit/05ae3f587c723e4cbc6dcf6cc19803d2f9bbc01f
+    start_date: '2018-01-12T01:00:57Z'
+  homepage_url: https://fossa.com/
+  image_data:
+    fileName: fossa.svg
+    hash: Yg4pXjWGsvLY0ODkrYT9QS3J96kQfEci0n1mgG21xSg=
+  item: null
+  logo: fossa.svg
+  name: FOSSA
+  repo_url: https://github.com/fossas/fossa-cli
+  repos:
+  - stars: 1033
+    url: https://github.com/fossas/fossa-cli
+  twitter_data:
+    latest_tweet_date: 2022-08-03 21:17:24+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/fossid
+  crunchbase_data:
+    acquisitions: []
+    city: Stockholm
+    company_type: For Profit
+    country: Sweden
+    description: FossID is a software composition analysis tool that scans code for
+      open source licenses and vulnerabilities.
+    homepage: http://fossid.com/
+    industries:
+    - Information Technology
+    - Open Source
+    - Security
+    - Software
+    - Telecommunications
+    linkedin: https://www.linkedin.com/company/fossid-ab
+    name: FossID
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: Stockholms Lan
+    stockExchange: null
+    twitter: https://twitter.com/FOSSID_AB
+  homepage_url: https://www.fossid.com/
+  image_data:
+    fileName: fossid.svg
+    hash: g5Mtv3tlxvnmMJK7NYMIZfW+fzD6cJj/vHt+plm4iPI=
+  item: null
+  logo: fossid.svg
+  name: FOSSID
+  twitter_data:
+    latest_tweet_date: 2021-05-13 04:01:10+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/luminal
+  crunchbase_data:
+    acquisitions: []
+    city: Frederick
+    company_type: For Profit
+    country: United States
+    description: Fugue ensures cloud infrastructure stays in continuous compliance
+      with enterprise security policies.
+    funding: 84988403
+    homepage: https://fugue.co
+    industries:
+    - Cloud Computing
+    - Infrastructure
+    - Security
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/fugue-inc-
+    name: Fugue
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: Maryland
+    stockExchange: null
+    twitter: https://twitter.com/fuguehq
+  description: "Fugue empowers cloud engineering and security teams to move faster\
+    \ with confidence in their cloud security. Use Fugue to secure the entire development\
+    \ lifecycle\u2014from infrastructure as code through CI/CD and runtime\u2014using\
+    \ a unified policy engine powered by the Open Policy Agent (OPA), the open source\
+    \ standard for policy as code."
+  homepage_url: https://www.fugue.co
+  image_data:
+    fileName: fugue.svg
+    hash: IihfeQTKISkPl84VPGdL5dCTtPT6p9Vd1UntuhPMWRM=
+  item: null
+  logo: fugue.svg
+  name: Fugue
+  twitter: https://twitter.com/FugueHQ
+  twitter_data:
+    latest_tweet_date: 2022-07-19 19:25:00+00:00

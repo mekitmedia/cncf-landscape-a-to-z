@@ -1,0 +1,137 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/talend
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Sopera
+      date: '2010-11-10'
+    - acquiree: Oakland Software
+      date: '2013-05-16'
+    - acquiree: Restlet
+      date: '2017-11-09'
+    - acquiree: Stitch
+      date: '2018-11-07'
+    - acquiree: Gamma Soft
+      date: '2022-04-07'
+    city: Redwood City
+    company_type: For Profit
+    country: United States
+    description: Talend specializes in cloud data integration and data integrity.
+    funding: 101580000
+    homepage: http://www.talend.com
+    industries:
+    - Apps
+    - Big Data
+    - Data Integration
+    - Enterprise Software
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/talend
+    name: Talend
+    num_employees_max: 5000
+    num_employees_min: 1001
+    parents: []
+    region: California
+    stockExchange: nasdaq
+    twitter: http://twitter.com/talend
+  homepage_url: https://www.talend.com/resources/what-streaming-data
+  image_data:
+    fileName: talend-data-streams.svg
+    hash: Lijq+W/9rvikrZh8fyJeofjUf5Sxxqi5BKKuB10FKCE=
+  item: null
+  logo: talend-data-streams.svg
+  name: Talend Data Streams
+  twitter_data:
+    latest_tweet_date: 2022-08-05 17:30:21+00:00
+- best_practice_data:
+    badge: 4356
+    percentage: 100
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  extra:
+    dev_stats_url: https://tremor.devstats.cncf.io/
+  github_data:
+    contributions: 27;4;9;14;6;13;9;21;18;7;35;29;28;19;8;14;11;21;36;2;1;7;20;26;19;26;11;17;30;40;24;41;64;82;35;77;15;45;76;96;53;37;33;46;40;34;26;27;44;33;15;20
+    contributors_count: 45
+    contributors_link: https://github.com/tremor-rs/tremor-runtime/graphs/contributors
+    description: Main Tremor Project Rust Codebase
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#dea584'
+      name: Rust
+      value: 3522586
+    - color: '#B83998'
+      name: Erlang
+      value: 75862
+    - color: '#89e051'
+      name: Shell
+      value: 31187
+    - color: '#c065db'
+      name: Emacs Lisp
+      value: 12224
+    - color: '#427819'
+      name: Makefile
+      value: 10920
+    - color: '#384d54'
+      name: Dockerfile
+      value: 4836
+    - color: '#555555'
+      name: C
+      value: 1935
+    - name: Reason
+      value: 112
+    latest_commit_date: '2022-08-05T12:10:57Z'
+    latest_commit_link: /tremor-rs/tremor-runtime/commit/700685eb0a87f9ce9082b6d92ede7d1a87fa0da9
+    license: Apache License 2.0
+    release_date: '2022-06-24T09:07:25Z'
+    release_link: https://github.com/tremor-rs/tremor-runtime/releases
+    stars: 661
+  github_start_commit_data:
+    start_commit_link: /tremor-rs/tremor-runtime/commit/9fa5e52bee9734c485e59cfe67e42ac5acc5a0b6
+    start_date: '2020-02-11T10:11:08Z'
+  homepage_url: https://www.tremor.rs/
+  image_data:
+    fileName: tremor.svg
+    hash: WHYEWwt9URqFF6FhMP4kJSp8s9nqHXl7SmHuP4Pw5Ew=
+  item: null
+  logo: tremor.svg
+  name: Tremor
+  project: sandbox
+  repo_url: https://github.com/tremor-rs/tremor-runtime
+  repos:
+  - stars: 661
+    url: https://github.com/tremor-rs/tremor-runtime
+  twitter: https://twitter.com/TremorDEBS
+  twitter_data:
+    latest_tweet_date: 2022-07-08 22:12:44+00:00
+  url_for_bestpractices: https://github.com/tremor-rs

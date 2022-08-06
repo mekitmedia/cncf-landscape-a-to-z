@@ -1,0 +1,179 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/sangfor-technologies
+  crunchbase_data:
+    acquisitions: []
+    city: Shenzhen
+    company_type: For Profit
+    country: China
+    description: Sangfor offers cost effective WAN optimization solutions to midsize
+      enterprises.
+    homepage: https://www.sangfor.com/
+    industries:
+    - Computer
+    - Hardware
+    - Information Technology
+    - Software
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/sangfor-technologies-usa
+    name: Sangfor Technologies
+    num_employees_max: 5000
+    num_employees_min: 1001
+    parents: []
+    region: Guangdong
+    stockExchange: szse
+    ticker: 300454.SZ
+    twitter: http://twitter.com/SangforUSA
+  description: Sangfor CNAD is a cloud native application proxy, that provides layer7&layer4
+    load balance service, high performance TLS encryption and decryption resource
+    pool, and Ingress&Loadbalancer for kubernetes.
+  homepage_url: https://www.sangfor.com.cn/product-and-solution/sangfor-its/5
+  image_data:
+    fileName: sangfor-cnad.svg
+    hash: htRXSrI4rOMwku8QGBoJQl3ziHz5mstJS+kpVtXoGDg=
+  item: null
+  logo: sangfor.svg
+  name: Sangfor CNAD
+  twitter: null
+  yahoo_finance_data:
+    effective_ticker: 300454.SZ
+    market_cap: 6476992400
+- best_practice_data:
+    badge: 2461
+    percentage: 100
+  crunchbase: https://www.crunchbase.com/organization/zalando
+  crunchbase_data:
+    acquisitions:
+    - acquiree: MyBrands
+      date: '2010-06-07'
+    - acquiree: Metrigo
+      date: '2015-03-05'
+    - acquiree: nugg.ad
+      date: '2015-12-22'
+    - acquiree: Tradebyte Software GmbH
+      date: '2016-05-12'
+    - acquiree: AMAZE
+      date: '2016-05-18'
+    - acquiree: KICKZ AG
+      date: '2017-03-01'
+    - acquiree: meepl
+      date: '2020-10-16'
+    - acquiree: Highsnobiety
+      date: '2022-06-13'
+    city: Berlin
+    company_type: For Profit
+    country: Germany
+    description: Zalando is a fashion and technology company, currently transforming
+      into a multi-service platform.
+    funding: 615854262
+    homepage: https://corporate.zalando.com
+    industries:
+    - E-Commerce
+    - E-Commerce Platforms
+    - Fashion
+    - Lifestyle
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/zalando/
+    name: Zalando
+    num_employees_max: 1000000
+    num_employees_min: 10001
+    parents: []
+    region: Berlin
+    stockExchange: etr
+    ticker: ZAL.DE
+    twitter: http://twitter.com/zalandotech
+  github_data:
+    contributions: 3;0;3;6;7;1;6;5;10;4;2;4;2;0;2;5;9;7;5;1;0;5;1;1;3;1;1;2;9;0;0;2;5;2;2;2;3;1;1;0;2;0;3;0;9;3;5;5;1;0;2;2
+    contributors_count: 153
+    contributors_link: https://github.com/zalando/skipper/graphs/contributors
+    description: An HTTP router and reverse proxy for service composition, including
+      use cases like Kubernetes Ingress
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 3005267
+    - color: '#89e051'
+      name: Shell
+      value: 14476
+    - color: '#427819'
+      name: Makefile
+      value: 13792
+    - color: '#4B6C4B'
+      name: Yacc
+      value: 4936
+    - color: '#e34c26'
+      name: HTML
+      value: 2972
+    - color: '#000080'
+      name: Lua
+      value: 2441
+    - color: '#198CE7'
+      name: R
+      value: 1816
+    - color: '#384d54'
+      name: Dockerfile
+      value: 1280
+    latest_commit_date: '2022-08-02T08:31:15Z'
+    latest_commit_link: /zalando/skipper/commit/d07794cbd4bce07d9c0a2bd49c06541a22832603
+    license: Other
+    release_date: '2022-08-02T09:20:08Z'
+    release_link: https://github.com/zalando/skipper/releases
+    stars: 2725
+  github_start_commit_data:
+    start_commit_link: /zalando/skipper/commit/715e4211d3aab71acedb96a1d93e47d61ae06352
+    start_date: '2015-06-09T15:56:13Z'
+  homepage_url: https://opensource.zalando.com/skipper/
+  image_data:
+    fileName: skipper.svg
+    hash: Icn6/Cle7nSZSeTpkdLQpsq7MIWGw3bftGWVxTnqZTQ=
+  item: null
+  logo: skipper.svg
+  name: Skipper
+  repo_url: https://github.com/zalando/skipper
+  repos:
+  - stars: 2725
+    url: https://github.com/zalando/skipper
+  twitter: https://twitter.com/ZalandoTech
+  twitter_data:
+    latest_tweet_date: 2022-07-26 07:28:42+00:00
+  yahoo_finance_data:
+    effective_ticker: ZAL.DE
+    market_cap: 8157497273
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/snapt
+  crunchbase_data:
+    acquisitions: []
+    city: San Jose
+    company_type: For Profit
+    country: United States
+    description: Snapt provides future-proof load balancing and security solutions
+      that are cloud-neutral and platform-agnostic.
+    funding: 7650000
+    homepage: https://www.snapt.net
+    industries:
+    - Information Technology
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/snapt
+    name: Snapt
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/snaptADC
+  homepage_url: https://www.snapt.net/platforms/nova-adc
+  image_data:
+    fileName: snapt-nova.svg
+    hash: ak7rMGG/fRSwIWi9vqEreviTkVEq5fGnWmD7RKrFEm0=
+  item: null
+  logo: nova.svg
+  name: Snapt Nova
+  twitter: https://twitter.com/SnaptADC
+  twitter_data:
+    latest_tweet_date: 2022-08-05 15:00:22+00:00

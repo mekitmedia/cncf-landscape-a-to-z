@@ -1,0 +1,152 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/open-js-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: JS Foundation
+      date: '2019-03-12'
+    city: San Francisco
+    company_type: ''
+    country: United States
+    description: OpenJS Foundation specializes in the development of open-source infrastructure
+      projects.
+    homepage: https://openjsf.org
+    industries:
+    - Association
+    - Developer Platform
+    - Developer Tools
+    - Non Profit
+    - Software
+    - Web Development
+    linkedin: https://www.linkedin.com/company/openjs-foundation/
+    name: OpenJS Foundation
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/openjsf
+  github_data:
+    contributions: 0;0;0;1;0;0;3;1;0;1;0;0;1;0;2;8;0;0;0;0;0;0;0;4;8;0;8;9;5;7;0;0;0;0;5;0;1;0;0;0;0;1;4;4;5;3;4;0;0;0;0;0
+    contributors_count: 24
+    contributors_link: https://github.com/architect/functions/graphs/contributors
+    description: 'AWS Lambda Node runtime helpers for Architect apps '
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 178353
+    - color: '#2b7489'
+      name: TypeScript
+      value: 3993
+    - color: '#aa2afe'
+      name: Arc
+      value: 220
+    latest_commit_date: '2022-06-29T17:33:47Z'
+    latest_commit_link: /architect/functions/commit/ffb9e88413d965ea953132c770b7e3d6d8587f94
+    license: Unknown License
+    stars: 149
+  github_start_commit_data:
+    start_commit_link: /architect/functions/commit/2eca44cf4308c15b519c0f368beac7e6ab3caf03
+    start_date: '2017-05-03T05:21:31Z'
+  homepage_url: https://arc.codes/docs/en/get-started/quickstart
+  image_data:
+    fileName: architect.svg
+    hash: pn6xbHp7kZ0PZv1ScJRGMd0EFEnePeXqrvZ/up6CPyg=
+  item: null
+  logo: architect.svg
+  name: Architect
+  repo_url: https://github.com/architect/functions
+  repos:
+  - stars: 149
+    url: https://github.com/architect/functions
+  twitter_data:
+    latest_tweet_date: 2022-08-06 01:33:01+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+  crunchbase_data:
+    acquisitions:
+    - acquiree: AppThwack
+      date: '2015-07-14'
+    - acquiree: NICE
+      date: '2016-02-11'
+    - acquiree: Thinkbox Software
+      date: '2017-03-06'
+    - acquiree: Do
+      date: '2017-03-08'
+    - acquiree: Sqrrl
+      date: '2018-01-23'
+    - acquiree: TSO Logic
+      date: '2019-01-14'
+    - acquiree: TeamSQL, Inc.
+      date: '2020-02-21'
+    - acquiree: DB Best Technologies
+      date: '2021-01-28'
+    - acquiree: Wickr
+      date: '2021-06-25'
+    city: Seattle
+    company_type: For Profit
+    country: United States
+    description: Amazon Web Services provides information technology infrastructure
+      services to businesses in the form of web services.
+    funding: 108000000
+    homepage: http://aws.amazon.com
+    industries:
+    - Information Services
+    - Information Technology
+    - Software
+    - Web Development
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/amazon-web-services
+    name: Amazon Web Services
+    num_employees_max: 1000000
+    num_employees_min: 10001
+    parents:
+    - https://www.crunchbase.com/organization/amazon
+    region: Washington
+    stockExchange: null
+    ticker: AMZN
+    twitter: http://twitter.com/awscloud
+  github_data:
+    contributions: 0;0;1;1;2;2;3;4;4;1;4;1;7;3;10;12;4;2;1;2;0;2;2;12;3;2;3;2;3;3;4;3;6;3;4;1;6;1;2;1;3;3;2;5;2;0;9;3;3;2;4;2
+    contributors_count: 242
+    contributors_link: https://github.com/aws/serverless-application-model/graphs/contributors
+    description: AWS Serverless Application Model (SAM) is an open-source framework
+      for building serverless applications
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#3572A5'
+      name: Python
+      value: 1688637
+    - color: '#427819'
+      name: Makefile
+      value: 1381
+    latest_commit_date: '2022-08-06T00:18:18Z'
+    latest_commit_link: /aws/serverless-application-model/commit/7176885010940624d32237fe1ef41b9f9795a862
+    license: Other
+    release_date: '2022-07-25T20:30:20Z'
+    release_link: https://github.com/aws/serverless-application-model/releases
+    stars: 8660
+  github_start_commit_data:
+    start_commit_link: /awslabs/serverless-application-model/commit/38b4a782bd42e2a51f202a50bb6abea2e317d6a8
+    start_date: '2016-10-10T21:36:19Z'
+  homepage_url: https://aws.amazon.com/serverless/sam/
+  image_data:
+    fileName: aws-server-application-model-sam.svg
+    hash: zOdc833/j1dWQEoTX1gu+k0fNbnJk+K+84O8DbKvbQM=
+  item: null
+  logo: aws-sam.svg
+  name: AWS Server Application Model (SAM)
+  repo_url: https://github.com/aws/serverless-application-model
+  repos:
+  - stars: 8660
+    url: https://github.com/aws/serverless-application-model
+  twitter_data:
+    latest_tweet_date: 2022-08-05 18:15:56+00:00
+  yahoo_finance_data:
+    effective_ticker: AMZN
+    market_cap: 1434414088192

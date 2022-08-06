@@ -1,0 +1,92 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/rundeck
+  crunchbase_data:
+    acquisitions: []
+    city: Redwood City
+    company_type: For Profit
+    country: United States
+    description: Rundeck is the creator of operations as a service, a new style of
+      IT operations management that keeps pace with the business demands.
+    funding: 3000000
+    homepage: https://www.rundeck.com
+    industries:
+    - Database
+    - Information Technology
+    - Open Source
+    - SaaS
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/rundeck-inc./
+    name: Rundeck
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: California
+    stockExchange: null
+    twitter: https://www.twitter.com/rundeck
+  github_data:
+    contributions: 30;19;19;44;24;24;25;92;37;91;56;41;58;48;32;49;52;78;20;16;0;43;37;26;37;44;31;47;51;31;49;42;13;49;34;22;19;41;31;31;22;35;10;31;27;29;12;0;7;22;29;2
+    contributors_count: 234
+    contributors_link: https://github.com/rundeck/rundeck/graphs/contributors
+    description: 'Enable Self-Service Operations: Give specific users access to your
+      existing tools, services, and scripts'
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#e69f56'
+      name: Groovy
+      value: 10850253
+    - color: '#b07219'
+      name: Java
+      value: 4619989
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 1797281
+    - name: SCSS
+      value: 563156
+    - color: '#2c3e50'
+      name: Vue
+      value: 545635
+    - color: '#89e051'
+      name: Shell
+      value: 480290
+    - color: '#2b7489'
+      name: TypeScript
+      value: 405560
+    - color: '#563d7c'
+      name: CSS
+      value: 65926
+    - name: Less
+      value: 38211
+    - color: '#384d54'
+      name: Dockerfile
+      value: 15098
+    - color: '#e34c26'
+      name: HTML
+      value: 7785
+    - color: '#C1F12E'
+      name: Batchfile
+      value: 416
+    latest_commit_date: '2022-08-04T13:46:34Z'
+    latest_commit_link: /rundeck/rundeck/commit/44d28d29a14aec80d971dc10d62b2d0f8467adac
+    license: Apache License 2.0
+    release_date: '2022-07-15T16:10:35Z'
+    release_link: https://github.com/rundeck/rundeck/releases
+    stars: 4643
+  github_start_commit_data:
+    start_commit_link: /rundeck/rundeck/commit/41a2ce0991a2c32ffde06f623afb6ec3278fa4c2
+    start_date: '2010-10-11T21:08:30Z'
+  homepage_url: https://www.rundeck.com/open-source
+  image_data:
+    fileName: rundeck.svg
+    hash: s00jBStMy/UUeMQluvbZv1HOu/3itsQ+GyIsCd2gCXM=
+  item: null
+  logo: rundeck.svg
+  name: Rundeck
+  repo_url: https://github.com/rundeck/rundeck
+  repos:
+  - stars: 4643
+    url: https://github.com/rundeck/rundeck
+  twitter_data:
+    latest_tweet_date: 2022-07-26 18:05:05+00:00

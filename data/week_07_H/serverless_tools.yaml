@@ -1,0 +1,116 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/hasura
+  crunchbase_data:
+    acquisitions: []
+    city: Bangalore
+    company_type: For Profit
+    country: India
+    description: Hasura is a software technology company that provides developer-focused
+      tooling products.
+    funding: 136500000
+    homepage: http://hasura.io/
+    industries:
+    - Cloud Infrastructure
+    - Developer APIs
+    - Developer Tools
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/hasura/
+    name: Hasura
+    num_employees_max: null
+    num_employees_min: null
+    parents: []
+    region: Karnataka
+    stockExchange: null
+    twitter: https://twitter.com/hasurahq
+  github_data:
+    contributions: 30;36;28;11;24;28;30;22;22;25;17;14;18;24;23;25;25;21;26;20;9;17;26;26;22;35;22;28;43;24;36;32;20;24;29;24;29;29;27;21;2;26;29;39;46;41;61;24;21;43;62;66
+    contributors_count: 381
+    contributors_link: https://github.com/hasura/graphql-engine/graphs/contributors
+    description: Blazing fast, instant realtime GraphQL APIs on your DB with fine
+      grained access control, also trigger webhooks on database events.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#5e5086'
+      name: Haskell
+      value: 5932970
+    - color: '#2b7489'
+      name: TypeScript
+      value: 3786541
+    - color: '#f1e05a'
+      name: JavaScript
+      value: 1806858
+    - color: '#00ADD8'
+      name: Go
+      value: 1207961
+    - color: '#3572A5'
+      name: Python
+      value: 1035729
+    - color: '#563d7c'
+      name: CSS
+      value: 348768
+    - color: '#89e051'
+      name: Shell
+      value: 184012
+    - name: SCSS
+      value: 114943
+    - color: '#e34c26'
+      name: HTML
+      value: 77655
+    - name: PLpgSQL
+      value: 51157
+    - color: '#2c3e50'
+      name: Vue
+      value: 48579
+    - color: '#427819'
+      name: Makefile
+      value: 34515
+    - color: '#384d54'
+      name: Dockerfile
+      value: 14883
+    - color: '#b07219'
+      name: Java
+      value: 5245
+    - name: Svelte
+      value: 4536
+    - color: '#000080'
+      name: Lua
+      value: 3826
+    - color: '#701516'
+      name: Ruby
+      value: 2107
+    - color: '#dfafff'
+      name: Dhall
+      value: 1748
+    - name: TSQL
+      value: 255
+    - color: '#012456'
+      name: PowerShell
+      value: 183
+    - name: Procfile
+      value: 85
+    latest_commit_date: '2022-08-06T00:52:17Z'
+    latest_commit_link: /hasura/graphql-engine/commit/edc29ce0d46cd54005d90d4b3ff0252c93f96222
+    license: Apache License 2.0
+    release_date: '2022-07-28T04:18:27Z'
+    release_link: https://github.com/hasura/graphql-engine/releases
+    stars: 27568
+  github_start_commit_data:
+    start_commit_link: /hasura/graphql-engine/commit/f7409ef2eb21bc73f6e9e8a1dbcdda878f0d6db1
+    start_date: '2018-06-24T13:40:48Z'
+  homepage_url: https://hasura.io/event-triggers
+  image_data:
+    fileName: hasura-graph-ql-engine.svg
+    hash: kuO9lbsiCJhp7xuhdK31GCf/Da47he5pssWZBsJXGtY=
+  item: null
+  logo: hasura-graphqlengine.svg
+  name: Hasura GraphQL Engine
+  repo_url: https://github.com/hasura/graphql-engine
+  repos:
+  - stars: 27568
+    url: https://github.com/hasura/graphql-engine
+  twitter_data:
+    latest_tweet_date: 2022-08-05 13:55:39+00:00

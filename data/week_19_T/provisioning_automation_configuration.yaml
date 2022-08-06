@@ -1,0 +1,168 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/hashicorp
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Vektra
+      date: '2016-06-14'
+    city: San Francisco
+    company_type: For Profit
+    country: United States
+    description: HashiCorp is a remote-first company that solves development, security,
+      and operations challenges in infrastructure.
+    funding: 349175000
+    homepage: https://www.hashicorp.com
+    industries:
+    - Cloud Infrastructure
+    - Cyber Security
+    - Information Technology
+    - Private Cloud
+    - Software
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/HashiCorp
+    name: HashiCorp
+    num_employees_max: 5000
+    num_employees_min: 1001
+    parents: []
+    region: California
+    stockExchange: nasdaq
+    ticker: HCP
+    twitter: https://twitter.com/HashiCorp
+  github_data:
+    contributions: 14;42;27;38;24;39;42;23;34;38;38;42;61;20;47;12;22;42;30;30;3;42;17;15;50;27;33;10;10;5;28;26;22;43;34;43;50;43;20;6;51;18;28;31;40;22;55;22;12;18;20;23
+    contributors_count: 2016
+    contributors_link: https://github.com/hashicorp/terraform/graphs/contributors
+    description: Terraform enables you to safely and predictably create, change, and
+      improve infrastructure. It is an open source tool that codifies APIs into declarative
+      configuration files that can be shared amongst team members, treated as code,
+      edited, reviewed, and versioned.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 9737990
+    - color: '#e34c26'
+      name: HTML
+      value: 52138
+    - color: '#89e051'
+      name: Shell
+      value: 9953
+    - color: '#427819'
+      name: Makefile
+      value: 2366
+    - color: '#384d54'
+      name: Dockerfile
+      value: 805
+    - name: HCL
+      value: 337
+    latest_commit_date: '2022-08-05T19:46:14Z'
+    latest_commit_link: /hashicorp/terraform/commit/20b1532ba6d131649bcb718c0ea9e77b6da9322e
+    license: Mozilla Public License 2.0
+    release_date: '2022-08-03T17:26:17Z'
+    release_link: https://github.com/hashicorp/terraform/releases
+    stars: 33692
+  github_start_commit_data:
+    start_commit_link: /hashicorp/terraform/commit/649cf336e86da10910f6e50ea3cfaad507a2e336
+    start_date: '2014-05-21T23:28:53Z'
+  homepage_url: https://www.terraform.io/
+  image_data:
+    fileName: terraform.svg
+    hash: wzFo+4bsZmvGGd1LTrcsJ0i5TE89s9F3RzlDdjozaNU=
+  item: null
+  logo: terraform.svg
+  name: Terraform
+  repo_url: https://github.com/hashicorp/terraform
+  repos:
+  - stars: 33692
+    url: https://github.com/hashicorp/terraform
+  twitter_data:
+    latest_tweet_date: 2022-08-05 23:07:00+00:00
+  yahoo_finance_data:
+    effective_ticker: HCP
+    market_cap: 6973402624
+- best_practice_data:
+    badge: 4512
+    percentage: 93
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  crunchbase_data:
+    acquisitions:
+    - acquiree: Kubernetes
+      date: '2016-03-10'
+    - acquiree: RethinkDB
+      date: '2017-02-06'
+      price: 25000
+    city: San Francisco
+    company_type: Non Profit
+    country: United States
+    description: CNCF is an open source software foundation that hosts and nurtures
+      projects like Kubernetes and Prometheus.
+    funding: 3000000
+    homepage: https://www.cncf.io
+    industries:
+    - Cloud Computing
+    - Cloud Infrastructure
+    - Non Profit
+    - Open Source
+    - Software
+    kind: funding
+    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
+    name: Cloud Native Computing Foundation (CNCF)
+    num_employees_max: 50
+    num_employees_min: 11
+    parents:
+    - https://www.crunchbase.com/organization/linux-foundation
+    region: California
+    stockExchange: null
+    twitter: https://twitter.com/CloudNativeFdn
+  extra:
+    accepted: '2020-11-10'
+    dev_stats_url: https://tinkerbell.devstats.cncf.io/
+    slack_url: https://app.slack.com/client/T08PSQ7BQ/C01SRB41GMT
+    youtube_url: https://www.youtube.com/channel/UCTzWInTQPvzH21KHS8jrq7A
+  github_data:
+    contributions: 1;0;5;25;3;0;5;9;27;5;1;0;3;0;2;3;13;12;0;1;0;0;4;8;24;0;17;2;2;0;3;4;2;0;11;3;6;8;22;5;3;2;0;0;6;2;1;1;0;0;0;0
+    contributors_count: 47
+    contributors_link: https://github.com/tinkerbell/tink/graphs/contributors
+    description: A workflow engine for provisioning bare metal.
+    firstWeek: 2021-08-08Z
+    languages:
+    - color: '#00ADD8'
+      name: Go
+      value: 492740
+    - color: '#427819'
+      name: Makefile
+      value: 9811
+    - color: '#89e051'
+      name: Shell
+      value: 3263
+    - color: '#384d54'
+      name: Dockerfile
+      value: 1190
+    - color: '#7e7eff'
+      name: Nix
+      value: 520
+    latest_commit_date: '2022-07-06T13:51:41Z'
+    latest_commit_link: /tinkerbell/tink/commit/1618650136db331675c199c3d8dcf2d4e762fd67
+    license: Apache License 2.0
+    release_date: '2022-01-11T20:48:47Z'
+    release_link: https://github.com/tinkerbell/tink/releases
+    stars: 670
+  github_start_commit_data:
+    start_commit_link: /tinkerbell/tink/commit/c97ab64b845bb37b863afce33537a53dbbad31eb
+    start_date: '2019-10-14T17:16:01Z'
+  homepage_url: https://tinkerbell.org/
+  image_data:
+    fileName: tinkerbell.svg
+    hash: 5L+7BSriz7UgEQqD/6BsjohQwEZjY04HGNwmN9dle5Y=
+  item: null
+  logo: tinkerbell.svg
+  name: Tinkerbell
+  project: sandbox
+  repo_url: https://github.com/tinkerbell/tink
+  repos:
+  - stars: 670
+    url: https://github.com/tinkerbell/tink
+  twitter: https://twitter.com/tinkerbell_oss
+  twitter_data:
+    latest_tweet_date: 2022-08-03 17:33:49+00:00

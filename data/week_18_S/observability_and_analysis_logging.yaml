@@ -1,0 +1,161 @@
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/sematext
+  crunchbase_data:
+    acquisitions: []
+    city: Brooklyn
+    company_type: For Profit
+    country: United States
+    description: Sematext is an all-in-one observability solution that provides key
+      insights into front-end and back-end performance.
+    homepage: https://sematext.com/
+    industries:
+    - Analytics
+    - Big Data
+    - Consulting
+    - Enterprise Software
+    - Information Technology
+    - SaaS
+    - Search Engine
+    - Software
+    linkedin: https://www.linkedin.com/company/sematext-international-llc
+    name: Sematext
+    num_employees_max: 50
+    num_employees_min: 11
+    parents: []
+    region: New York
+    stockExchange: null
+    twitter: https://twitter.com/sematext
+  homepage_url: https://sematext.com/
+  image_data:
+    fileName: sematext.svg
+    hash: OD/e9p9RdpZigXZWykE39mqOW5bzTFYARvqDYnNKSD4=
+  item: null
+  logo: sematext.svg
+  name: Sematext
+  twitter_data:
+    latest_tweet_date: 2022-08-05 15:00:01+00:00
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/splunk
+  crunchbase_data:
+    acquisitions:
+    - acquiree: BugSense
+      date: '2013-09-16'
+    - acquiree: Cloudmeter
+      date: '2013-12-10'
+    - acquiree: Metafor Software
+      date: '2015-06-29'
+    - acquiree: Caspida
+      date: '2015-07-09'
+      price: 190000000
+    - acquiree: SignalSense, Inc.
+      date: '2017-10-17'
+    - acquiree: Phantom
+      date: '2018-02-27'
+      price: 350000000
+    - acquiree: VictorOps
+      date: '2018-06-11'
+      price: 120000000
+    - acquiree: KryptonCloud
+      date: '2018-08-01'
+    - acquiree: SignalFx
+      date: '2019-08-22'
+      price: 1050000000
+    - acquiree: Omnition
+      date: '2019-09-04'
+    - acquiree: Streamlio
+      date: '2019-10-21'
+    - acquiree: Plumbr
+      date: '2020-10-20'
+    - acquiree: Rigor
+      date: '2020-10-20'
+    - acquiree: Flowmill
+      date: '2020-11-25'
+    - acquiree: TruSTAR
+      date: '2021-05-18'
+    city: San Francisco
+    company_type: For Profit
+    country: United States
+    description: Splunk is a software company that provides operational intelligence
+      software that monitors, reports, and analyzes real-time machine data.
+    funding: 2440000000
+    homepage: https://www.splunk.com
+    industries:
+    - Analytics
+    - Information Technology
+    - Intelligent Systems
+    - Real Time
+    - Software
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/splunk
+    name: Splunk
+    num_employees_max: 10000
+    num_employees_min: 5001
+    parents: []
+    region: California
+    stockExchange: bmv
+    ticker: SPLK
+    twitter: http://twitter.com/splunk
+  homepage_url: https://www.splunk.com/
+  image_data:
+    fileName: splunk.svg
+    hash: 6R5VA/wkk5Y2KcoxqrKl2p68/WGN6lDxY6qnFr96+uI=
+  item: null
+  logo: splunk.svg
+  name: Splunk
+  twitter_data:
+    latest_tweet_date: 2022-08-05 20:00:01+00:00
+  yahoo_finance_data:
+    effective_ticker: SPLK
+    market_cap: 18112512000
+- best_practice_data:
+    badge: false
+    percentage: null
+  crunchbase: https://www.crunchbase.com/organization/sumo-logic
+  crunchbase_data:
+    acquisitions:
+    - acquiree: FactorChain
+      date: '2018-01-23'
+    - acquiree: JASK
+      date: '2019-11-04'
+    - acquiree: DFLabs
+      date: '2021-03-10'
+    - acquiree: Sensu
+      date: '2021-06-02'
+    city: Redwood City
+    company_type: For Profit
+    country: United States
+    description: Sumo Logic is a log management and analytics service, transforms
+      big data into sources of operations, security, and compliance intelligence.
+    funding: 340000000
+    homepage: http://www.sumologic.com
+    industries:
+    - Analytics
+    - Big Data
+    - Enterprise Software
+    - SaaS
+    kind: market_cap
+    linkedin: https://www.linkedin.com/company/sumo-logic
+    name: Sumo Logic
+    num_employees_max: 1000
+    num_employees_min: 501
+    parents: []
+    region: California
+    stockExchange: nasdaq
+    ticker: SUMO
+    twitter: http://twitter.com/sumologic
+  homepage_url: https://www.sumologic.com/
+  image_data:
+    fileName: sumo-logic.svg
+    hash: IDXkWYHd8N+WBeS+fXxdWR76uEmmBUnL1jrTf6pnw9s=
+  item: null
+  logo: sumologic.svg
+  name: Sumo Logic
+  twitter_data:
+    latest_tweet_date: 2022-08-05 22:27:01+00:00
+  yahoo_finance_data:
+    effective_ticker: SUMO
+    market_cap: 920069376
