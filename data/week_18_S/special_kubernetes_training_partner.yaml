@@ -1,54 +1,11 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/shinesoft-co-ltd
-  crunchbase_data:
-    acquisitions: []
-    city: Tokyo
-    company_type: ''
-    country: Japan
-    description: Accelerate technological innovation and self-transformation
-    homepage: https://shinesoft.co.jp/
-    industries: []
-    linkedin: null
-    name: Shinesoft Co., Ltd.
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Tokyo
-    stockExchange: null
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/shinesoft-co-ltd
   description: We provide design, development and tech support include; Cloud/Cluster,
     Network, Server, Security, Monitoring, Data analysis, and AI/IoT
-  homepage_url: http://shinesoft.co.jp/download/shinesoft-icon.svg
-  image_data:
-    fileName: shinesoft-ktp.svg
-    hash: 63Hhjbgy4XqQwAiRRlQmbblL9Z/8BaMDLQdiq2sj7KI=
+  homepage_url: https://shinesoft.co.jp/business/
   item: null
   logo: shinesoft.svg
   name: Shinesoft (KTP)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/sighup
-  crunchbase_data:
-    acquisitions: []
-    city: Milan
-    company_type: For Profit
-    country: Italy
-    description: SIGHUP is specialized on Kubernetes and Cloud-Native infrastructures.
-    homepage: https://sighup.io/
-    industries:
-    - Information Technology
-    - Software
-    linkedin: https://www.linkedin.com/company/sighup
-    name: SIGHUP
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Lombardia
-    stockExchange: null
-    twitter: https://twitter.com/sighup_
+- crunchbase: https://www.crunchbase.com/organization/sighup
   description: SIGHUP is an Enterprise Open Source Software company that delivers
     battle-tested Cloud Native solutions and architectures entirely based on upstream
     Kubernetes & OSS CNCF projects.
@@ -56,35 +13,10 @@
     training_certifications: cka, ckad, cks, kcna
     training_type: e-learning, instructor-led
   homepage_url: https://sighup.io/
-  image_data:
-    fileName: sighup-ktp.svg
-    hash: BL7X/8PeyVkELv4KwPPl07mPCSgEFco8rwn37BkIsjA=
   item: null
   logo: sighup-kcsp.svg
   name: SIGHUP (KTP)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 09:26:00+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/sokube
-  crunchbase_data:
-    acquisitions: []
-    city: Geneva
-    company_type: For Profit
-    country: Switzerland
-    description: Sokube is specialized in the development of advanced native cloud
-      solutions based on OpenSource technologies, including Kubernetes.
-    homepage: https://www.sokube.ch/
-    industries: []
-    linkedin: https://www.linkedin.com/company/sokube/
-    name: SoKube
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Geneve
-    stockExchange: null
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/sokube
   description: SoKube is pure consulting company that help companies entering the
     world of Containers & Kubernetes, using a comprehensive SDLC approach from Dev
     to Production, and using best practices coming from Agile, CI/CD, DevSecOps, SRE,
@@ -92,78 +24,31 @@
   extra:
     training_certifications: cka, ckad, cks, kcna
     training_type: instructor-led
-  homepage_url: https://en.sokube.ch/training
-  image_data:
-    fileName: so-kube-ktp.svg
-    hash: T2Ep3xWdABlsLA0yIPdhjAyGDl0fZEXriqdgQivnR30=
+  homepage_url: https://www.sokube.io/en/services/training
   item: null
   logo: sokube.svg
   name: SoKube (KTP)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/storm-reply
-  crunchbase_data:
-    acquisitions: []
-    city: Turin
-    company_type: For Profit
-    country: Italy
-    description: Storm Reply design, integrate and operate your cloud infrastructure
-      and develop tailored cloud software.
-    homepage: https://www.reply.com
-    industries:
-    - Information Technology
-    - Software
-    linkedin: https://www.linkedin.com/company/storm-reply
-    name: Storm Reply
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: Piemonte
-    stockExchange: null
-    twitter: http://twitter.com/StormReply
+- crunchbase: https://www.crunchbase.com/organization/storm-reply
   description: We provide services along the entire cloud value chain and are specialized
     in the design, implementation and 24X7 operation of innovative cloud-native solutions.
   homepage_url: https://reply.com/storm-reply/en/kubernetes
-  image_data:
-    fileName: storm-reply-ktp.svg
-    hash: NEZI47H+aRpsnT9esiDbbYsxB6gZgGcyxHkfmcSvmvY=
   item: null
   logo: storm-reply.svg
   name: Storm Reply (KTP)
-  twitter_data:
-    latest_tweet_date: 2022-08-03 20:58:30+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/superorbital
-  crunchbase_data:
-    acquisitions: []
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: A tiny team of exceptional Kubernetes engineers and teachers.
-    homepage: https://superorbital.io
-    industries:
-    - Cloud Computing
-    - Software Engineering
-    - Training
-    linkedin: https://www.linkedin.com/company/superorbital/
-    name: SuperOrbital
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/superorbital_io
+- crunchbase: https://www.crunchbase.com/organization/superorbital
   description: A tiny team of exceptional Kubernetes engineers and teachers.  We provide
     the industry's absolute best Kubernetes engineering and training services.
+  extra:
+    training_type: instructor-led
   homepage_url: https://superorbital.io/workshops/
-  image_data:
-    fileName: super-orbital-ktp.svg
-    hash: 7Pni08zINVA8ntXRwS4RAN2s+OjuM/SsND0MrVYQoBQ=
   item: null
   logo: superorbital.svg
   name: SuperOrbital (KTP)
-  twitter_data:
-    latest_tweet_date: 2022-07-13 19:35:06+00:00
+- crunchbase: https://www.crunchbase.com/organization/sva
+  description: The services of the SVA include consulting, conception, implementation
+    and operation of Kubernetes-based solutions as well as solution-specific and tailor-made
+    trainings and exam preparations.
+  homepage_url: https://www.sva.de/de/services/devops-academy
+  item: null
+  logo: sva.svg
+  name: SVA (KTP)

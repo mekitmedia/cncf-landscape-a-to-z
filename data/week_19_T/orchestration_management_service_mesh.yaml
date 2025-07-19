@@ -1,29 +1,10 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/containous
-  crunchbase_data:
-    acquisitions: []
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: Makes Networking Boring
-    funding: 11060900
-    homepage: https://traefik.io
-    industries:
-    - Data Center
-    - Infrastructure
-    - SaaS
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/traefik
-    name: Traefik Labs
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/traefik
+- crunchbase: https://www.crunchbase.com/organization/tetrate
+  description: Application connectivity platform.
+  homepage_url: https://www.tetrate.io/tetrate-service-bridge/
+  item: null
+  logo: tsb.svg
+  name: Tetrate Service Bridge (TSB)
+- crunchbase: https://www.crunchbase.com/organization/containous
   extra:
     accepted: '2020-03-16'
     artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#service-mesh-interface-logos
@@ -31,41 +12,8 @@
     dev_stats_url: https://smi.devstats.cncf.io/
     slack_url: https://cloud-native.slack.com/messages/smi
     youtube_url: https://www.youtube.com/playlist?list=PLj6h78yzYM2N5upvsCMVbct4WSrKJo49p
-  github_data:
-    contributions: 7;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;1;1;0;0;0;1;0;0;0;1;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-    contributors_count: 30
-    contributors_link: https://github.com/traefik/mesh/graphs/contributors
-    description: Traefik Mesh - Simpler Service Mesh
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 332837
-    - color: '#427819'
-      name: Makefile
-      value: 3765
-    - color: '#384d54'
-      name: Dockerfile
-      value: 2034
-    latest_commit_date: '2022-04-22T08:14:30Z'
-    latest_commit_link: /traefik/mesh/commit/ec94ed8e5b9845b5d6d039eb7047c2691ad27d11
-    license: Apache License 2.0
-    release_date: '2022-08-03T14:34:22Z'
-    release_link: https://github.com/traefik/mesh/releases
-    stars: 1699
-  github_start_commit_data:
-    start_commit_link: /containous/maesh/commit/31edc96721235548b3b60b4469eb0fbf6588eb62
-    start_date: '2019-05-03T19:59:07Z'
   homepage_url: https://traefik.io/traefik-mesh
-  image_data:
-    fileName: traefik-mesh.svg
-    hash: JrBnL8TFgWv73soqYJLBm8JlU/VAlc+EG8+pm36pbfo=
   item: null
   logo: traefik-mesh.svg
   name: Traefik Mesh
   repo_url: https://github.com/traefik/mesh
-  repos:
-  - stars: 1699
-    url: https://github.com/traefik/mesh
-  twitter_data:
-    latest_tweet_date: 2022-08-05 18:00:59+00:00

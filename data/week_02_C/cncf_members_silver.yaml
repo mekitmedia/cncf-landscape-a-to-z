@@ -1,2940 +1,369 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/calyptia
-  crunchbase_data:
-    acquisitions: []
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: Collect, process and route all of your data, with security & performance
-      in mind.
-    funding: 5000000
-    homepage: https://www.calyptia.com/
-    industries: []
-    kind: funding
-    linkedin: https://www.linkedin.com/company/calyptia
-    name: Calyptia
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/CalyptiaInc
+- crunchbase: https://www.crunchbase.com/organization/calyptia
   homepage_url: https://www.calyptia.com/
-  image_data:
-    fileName: calyptia-member.svg
-    hash: VxYBgnitX21d8mmhAK37ifameUm65ftRNCu3bdSr2sg=
   item: null
+  joined: '2021-08-01'
   logo: calyptia.svg
   name: Calyptia (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 15:38:12+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/camptocamp
-  crunchbase_data:
-    acquisitions: []
-    city: Lausanne
-    company_type: For Profit
-    country: Switzerland
-    description: Camptocamp is an innovative company in the software implementation
-      of geographic information systems.
-    homepage: http://www.camptocamp.com
-    industries:
-    - Information Technology
-    - Software
-    linkedin: https://www.linkedin.com/company/camptocamp-sa/
-    name: Camptocamp
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: Vaud
-    stockExchange: null
-    twitter: https://twitter.com/camptocamp
+- crunchbase: https://www.crunchbase.com/organization/camptocamp
   homepage_url: https://www.camptocamp.com/en
-  image_data:
-    fileName: camptocamp-member.svg
-    hash: vSLm93EZ4I3PqV4LnGxcWf1kdoaCJmsQcFy32+bE+Yg=
   item: null
+  joined: '2018-05-01'
   logo: camptocamp-member.svg
   name: Camptocamp (member)
-  twitter_data:
-    latest_tweet_date: 2022-07-28 12:56:57+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/canonical-ltd
-  crunchbase_data:
-    acquisitions: []
-    city: London
-    company_type: For Profit
-    country: United Kingdom
-    description: Canonical is a computer software company that markets commercial
-      support and related services for Ubuntu and related projects.
-    funding: 12800000
-    homepage: http://www.canonical.com
-    industries:
-    - Cloud Computing
-    - Internet of Things
-    - Linux
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/canonical-ltd-
-    name: Canonical
-    num_employees_max: 1000
-    num_employees_min: 501
-    parents: []
-    region: England
-    stockExchange: null
-    twitter: http://twitter.com/Canonical
+- crunchbase: https://www.crunchbase.com/organization/canonical-ltd
   homepage_url: https://canonical.com/
-  image_data:
-    fileName: canonical-member.svg
-    hash: 5oyN/6HrPzghAY0AtGsdvL7meXrG+ue7Y9xsSN/Vf+A=
   item: null
+  joined: '2017-01-01'
   logo: canonical-member.svg
   name: Canonical (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 08:30:58+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/china-academy-of-railway-sciences-cars
-  crunchbase_data:
-    acquisitions: []
-    city: Xian Shi
-    company_type: For Profit
-    country: China
-    description: Railway development test platform
-    homepage: https://www.rails.cn/xian/
-    industries: []
-    linkedin: null
-    name: China Academy of Railway Sciences (CARS)
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Shaanxi
-    stockExchange: null
-    twitter: null
-  homepage_url: https://www.rails.cn/xian/
-  image_data:
-    fileName: cars-china-academy-of-railway-sciences-member.svg
-    hash: O87FO9KyAWsTZgVr5kdGzf1IZQkP2fMWXsJrr/AAPwo=
+- crunchbase: https://www.crunchbase.com/organization/cardinal-hq
+  homepage_url: https://cardinalhq.io
   item: null
+  joined: '2025-06-01'
+  logo: cardinalhq.svg
+  name: CardinalHQ (member)
+- crunchbase: https://www.crunchbase.com/organization/china-academy-of-railway-sciences-cars
+  homepage_url: https://www.rails.cn/xian/
+  item: null
+  joined: '2021-09-01'
   logo: cars.svg
   name: CARS - China Academy of Railway Sciences (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cast-ai
-  crunchbase_data:
-    acquisitions: []
-    city: North Miami Beach
-    company_type: For Profit
-    country: United States
-    description: AI-driven cloud optimization platform that slashes cloud cost, optimizes
-      DevOps, and automates disaster prevention.
-    funding: 18000000
-    homepage: https://www.cast.ai/
-    industries:
-    - Artificial Intelligence
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Cloud Management
-    - Cloud Security
-    - Developer Platform
-    - Developer Tools
-    - SaaS
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cast-ai
-    name: CAST AI
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Florida
-    stockExchange: null
-    twitter: https://twitter.com/cast_ai
+- crunchbase: https://www.crunchbase.com/organization/cast-ai
   homepage_url: https://www.cast.ai/
-  image_data:
-    fileName: cast-ai-member.svg
-    hash: u3GwM/wd+mqGUpRmdUsnv7DeykmJqfP9LrjzF2gts8c=
   item: null
+  joined: '2020-12-01'
   logo: cast-ai.svg
   name: Cast.ai (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 16:01:22+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/catalyst-cloud
-  crunchbase_data:
-    acquisitions: []
-    city: Wellington
-    company_type: For Profit
-    country: New Zealand
-    description: We deliver robust and innovative cloud services in New Zealand
-    homepage: https://catalystcloud.nz/
-    industries:
-    - Cloud Computing
-    - IaaS
-    - Information and Communications Technology (ICT)
-    - PaaS
-    linkedin: https://www.linkedin.com/company/catalyst-cloud-limited/
-    name: Catalyst Cloud
-    num_employees_max: 50
-    num_employees_min: 11
-    parents:
-    - https://www.crunchbase.com/organization/catalyst-it
-    region: Wellington
-    stockExchange: null
-    twitter: https://twitter.com/catalyst_cloud
+- crunchbase: https://www.crunchbase.com/organization/catalyst-cloud
   homepage_url: https://catalystcloud.nz/
-  image_data:
-    fileName: catalyst-cloud-member.svg
-    hash: m0to35npCcEqkqvAdK88oXAFomC+QIfx7SGhePG197c=
   item: null
+  joined: '2018-09-01'
   logo: catalyst-cloud.svg
   name: Catalyst Cloud (member)
-  twitter_data:
-    latest_tweet_date: 2022-04-08 02:04:54+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/caylent
-  crunchbase_data:
-    acquisitions: []
-    city: Irvine
-    company_type: For Profit
-    country: United States
-    description: Full spectrum AWS Cloud Native and DevOps consulting partner
-    funding: 16215000
-    homepage: https://caylent.com
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - IaaS
-    kind: funding
-    linkedin: https://www.linkedin.com/company/caylent
-    name: Caylent
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/caylentinc
-  homepage_url: https://www.caylent.com/
-  image_data:
-    fileName: caylent-member.svg
-    hash: RX0QOGlCPC0CAJfG7pBJ34qfI1zqf0X2iIcuRJA/chw=
+- crunchbase: https://www.crunchbase.com/organization/cathay-financial-holding-co-ltd
+  enduser: true
+  homepage_url: https://www.cathayholdings.com/
   item: null
-  logo: caylent.svg
-  name: Caylent (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 19:02:36+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cerbos
-  crunchbase_data:
-    acquisitions: []
-    city: London
-    company_type: For Profit
-    country: United Kingdom
-    description: Cerbos is a software company that makes user permissions and authorization
-      simple to implement and manage.
-    funding: 3496587
-    homepage: https://cerbos.dev
-    industries:
-    - Developer Tools
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cerbos-dev
-    name: Cerbos
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: England
-    stockExchange: null
-    twitter: https://twitter.com/cerbosdev
-  homepage_url: https://www.cerbos.dev/
-  image_data:
-    fileName: cerbos-member.svg
-    hash: gJmeevfiqYa8J5OUf2RWvYIwO2gt3PBpw0oE64t449c=
+  joined: '2024-07-09'
+  logo: cathay.svg
+  name: Cathay Financial Holding (member)
+- crunchbase: https://www.crunchbase.com/organization/causely-509c
+  homepage_url: https://www.causely.ai
   item: null
-  logo: cerbos.svg
-  name: Cerbos (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 07:00:40+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/chainguard
-  crunchbase_data:
-    acquisitions: []
-    city: Kirkland
-    company_type: For Profit
-    country: United States
-    description: Chainguard provides solutions to make the software supply chains
-      secure by default.
-    funding: 55000000
-    homepage: https://chainguard.dev
-    industries:
-    - Cloud Security
-    - Developer Tools
-    - Enterprise Software
-    - Open Source
-    - Security
-    kind: funding
-    linkedin: https://www.linkedin.com/company/chainguard-dev/
-    name: Chainguard
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Washington
-    stockExchange: null
-    twitter: https://twitter.com/chainguard_dev
+  joined: '2025-03-01'
+  logo: causely.svg
+  name: Causely (member)
+- crunchbase: https://www.crunchbase.com/organization/celerdata
+  homepage_url: https://www.celerdata.com/
+  item: null
+  joined: '2023-01-01'
+  logo: celerdata.svg
+  name: CelerData (member)
+- crunchbase: https://www.crunchbase.com/organization/chainguard
   homepage_url: https://www.chainguard.dev
-  image_data:
-    fileName: chainguard-member.svg
-    hash: 5EaTV2UVmjSXvJiogReb8/qEb2RU3gizaRAcEXMjvFA=
   item: null
+  joined: '2022-06-01'
   logo: chainguard.svg
   name: Chainguard (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 21:10:53+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/chaitin-tech
-  crunchbase_data:
-    acquisitions: []
-    city: Beijing
-    company_type: For Profit
-    country: China
-    description: Chaitin Tech is a world leading and technology driven cyber security
-      solution provider.
-    funding: 24091091
-    homepage: https://chaitin.cn
-    industries:
-    - Cyber Security
-    - Network Security
-    - Security
-    kind: funding
-    linkedin: null
-    name: Chaitin Tech
-    num_employees_max: 1000
-    num_employees_min: 501
-    parents: []
-    region: Beijing
-    stockExchange: null
-    twitter: https://twitter.com/chaitintech
-  homepage_url: https://www.chaitin.cn/en/
-  image_data:
-    fileName: chaitin-tech-member.svg
-    hash: SeXIDdOtAHTDS0yf5g92aFhOJbL8Mfs072hB7YjoAcI=
+- crunchbase: https://www.crunchbase.com/organization/chainloop
+  homepage_url: https://chainloop.dev
   item: null
-  logo: chaitin.svg
-  name: Chaitin Tech (member)
-  twitter_data:
-    latest_tweet_date: 2022-01-23 13:17:07+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/chef
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Tower3
-      date: '2014-07-15'
-    - acquiree: VulcanoSec
-      date: '2015-11-03'
-    city: Seattle
-    company_type: For Profit
-    country: United States
-    description: Chef is a continuous automation platform powered by community and
-      open source software engines.
-    funding: 105000000
-    homepage: https://www.chef.io/
-    industries:
-    - Cloud Computing
-    - Information Technology
-    - Infrastructure
-    - SaaS
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/chef-software/
-    name: Chef Software
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: Washington
-    stockExchange: null
-    twitter: https://twitter.com/chef
-  homepage_url: https://www.chef.io/
-  image_data:
-    fileName: chef-member.svg
-    hash: WU8rfB/HEIQz1zkuM+WqfLvF0swtVQjUcWPVX1q2ANY=
+  joined: '2024-04-01'
+  logo: chainloop.svg
+  name: Chainloop (member)
+- crunchbase: https://www.crunchbase.com/organization/checkly
+  homepage_url: https://www.checklyhq.com
   item: null
-  logo: chef.svg
-  name: Chef (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 16:00:27+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/china-mobile
-  crunchbase_data:
-    acquisitions:
-    - acquiree: China Mobile Pakistan
-      date: '2007-01-22'
-      price: 284000000
-    - acquiree: China Tietong
-      date: '2008-05-25'
-    - acquiree: Venustech
-      date: '2022-06-21'
-      price: 620000000
-    city: Beijing
-    company_type: For Profit
-    country: China
-    description: China Mobile is an investment holdings company that provides mobile
-      telecommunications and related services in Mainland China and Hong Kong.
-    funding: 3815535353
-    homepage: http://www.chinamobileltd.com
-    industries:
-    - Mobile
-    - Telecommunications
-    - Wireless
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/china-mobile/
-    name: China Mobile
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents: []
-    region: Beijing
-    stockExchange: sse
-    ticker: 600941.SS
-    twitter: null
+  joined: '2025-02-01'
+  logo: checkly.svg
+  name: Checkly (member)
+- crunchbase: https://www.crunchbase.com/organization/chelsio-communications
+  homepage_url: https://www.chelsio.com
+  item: null
+  joined: '2024-09-01'
+  logo: chelsio-communications.svg
+  name: Chelsio Communications (member)
+- crunchbase: https://www.crunchbase.com/organization/china-mobile
   homepage_url: https://www.chinamobileltd.com/en/global/home.php
-  image_data:
-    fileName: china-mobile-member.svg
-    hash: AtqvkJQ4sTWocYAfBNqHqgj3S18XOEEb1TL/Ay4GQsI=
   item: null
+  joined: '2018-06-01'
   logo: china-mobile-member.svg
   name: China Mobile (member)
-  yahoo_finance_data:
-    effective_ticker: 600941.SS
-    market_cap: 141243033292
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/china-systems
-  crunchbase_data:
-    acquisitions: []
-    city: Nanjing
-    company_type: For Profit
-    country: China
-    description: China Systems is the leading Trade Services Solutions vendor in the
-      world.
-    homepage: http://www.chinasystems.com
-    industries:
-    - Finance
-    - Information Technology
-    - Software
-    - Supply Chain Management
-    linkedin: https://www.linkedin.com/company/china-systems
-    name: China Systems
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: Jiangsu
-    stockExchange: null
-    twitter: https://twitter.com/china_systems
+- crunchbase: https://www.crunchbase.com/organization/china-systems
   homepage_url: https://www.chinasystems.com/
-  image_data:
-    fileName: china-systems-member.svg
-    hash: sAwvBR518OVnLawn4tCD1X3SlioL6bz4c/noT17Iq3Y=
   item: null
+  joined: '2021-07-01'
   logo: china-systems.svg
   name: China Systems (member)
-  twitter_data:
-    latest_tweet_date: 2015-01-29 02:41:22+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/china-telcom
-  crunchbase_data:
-    acquisitions: []
-    city: Beijing
-    company_type: For Profit
-    country: China
-    description: China Telecom as China's major basic telecom operators, is implementing
-      the transformation and upgrading strategy.
-    homepage: https://www.chinatelecomglobal.com/
-    industries:
-    - Data Center
-    - Information Services
-    - Internet
-    - Mobile
-    - Telecommunications
-    - Unified Communications
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/china-telecom-global/
-    name: China Telecom
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Beijing
-    stockExchange: nyse
-    ticker: CHA
-    twitter: https://twitter.com/chinateleglobal
-  homepage_url: https://www.chinatelecom.com.cn/
-  image_data:
-    fileName: china-telecom-member.svg
-    hash: d6UtTjW6UB/qEADBYPagrjwgJfU9KuPTeRTDSU3A21k=
-  item: null
-  logo: china-telecom-cloud.svg
-  name: China Telecom (member)
-  stock_ticker: 0728.HK
-  twitter_data:
-    latest_tweet_date: 2022-08-03 02:26:46+00:00
-  yahoo_finance_data:
-    effective_ticker: 0728.HK
-    market_cap: 47787005482
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/china-unicom
-  crunchbase_data:
-    acquisitions: []
-    city: Beijing
-    company_type: For Profit
-    country: China
-    description: China Unicom is a company that provides broadband communications
-      and information services.
-    funding: 11700000000
-    homepage: https://www.chinaunicom.com
-    industries:
-    - Internet
-    - Mobile
-    - News
-    - Telecommunications
-    - Wireless
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/china-unicom/about/
-    name: China Unicom
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents: []
-    region: Beijing
-    stockExchange: sse
-    ticker: 600050.SS
-    twitter: https://twitter.com/chinunicomos
+- crunchbase: https://www.crunchbase.com/organization/china-unicom
   homepage_url: http://www.chinaunicom.com.cn
-  image_data:
-    fileName: china-unicom-member.svg
-    hash: nk2UYEi4TAWZiMtCGw3CfOTre15jMPVK0Qbbg0cWFnk=
   item: null
+  joined: '2019-09-01'
   logo: china-unicom.svg
   name: China Unicom (member)
-  twitter_data:
-    latest_tweet_date: 2017-01-16 06:34:23+00:00
-  yahoo_finance_data:
-    effective_ticker: 600050.SS
-    market_cap: 15535524252
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/china-asean-information-harbor
-  crunchbase_data:
-    acquisitions: []
-    city: Nanning
-    company_type: For Profit
-    country: China
-    description: Platform-based information technology company
-    homepage: http://www.caih.com/
-    industries:
-    - Information Technology
-    linkedin: null
-    name: China-ASEAN Information Harbor
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: Guangxi
-    stockExchange: null
-    twitter: null
-  homepage_url: http://www.caih.com/
-  image_data:
-    fileName: china-asean-information-harbor-member.svg
-    hash: PBwXhikVVsu5ZYJCg9UJ7HNAyuTyAT3pgzSXJC0a19g=
+- crunchbase: https://www.crunchbase.com/organization/chislitel-lab
+  homepage_url: https://chislitellab.ru/
   item: null
-  logo: china-asean.svg
-  name: China-ASEAN Information Harbor (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/chronosphere
-  crunchbase_data:
-    acquisitions: []
-    city: New York
-    company_type: For Profit
-    country: United States
-    description: Chronosphere develops a scalable, reliable, and customizable monitoring
-      solution built for cloud-native applications.
-    funding: 254400000
-    homepage: http://www.chronosphere.io
-    industries:
-    - Analytics
-    - Cloud Infrastructure
-    - Information Technology
-    - Productivity Tools
-    - SaaS
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/chronosphereio/
-    name: Chronosphere
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: New York
-    stockExchange: null
-    twitter: https://twitter.com/chronosphereio
+  joined: '2023-08-01'
+  logo: chislitel-lab.svg
+  name: Chislitel Lab (member)
+- crunchbase: https://www.crunchbase.com/organization/chkk
+  homepage_url: https://www.chkk.io/
+  item: null
+  joined: '2023-07-01'
+  logo: chkk.svg
+  name: Chkk (member)
+- crunchbase: https://www.crunchbase.com/organization/chronosphere
   homepage_url: https://chronosphere.io/
-  image_data:
-    fileName: chronosphere-member.svg
-    hash: wDZvL3Uoznd8X2a0GWzTm4eeluWgXvayU+I99xzZja8=
   item: null
+  joined: '2019-07-01'
   logo: chronosphere.svg
   name: Chronosphere (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 19:22:02+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cinq
-  crunchbase_data:
-    acquisitions: []
-    city: Amsterdam
-    company_type: For Profit
-    country: The Netherlands
-    description: At CINQ, developers, data specialists and DevOps engineers work on
-      great projects for various clients.
-    homepage: https://www.cinqict.nl/
-    industries: []
-    linkedin: null
-    name: CINQ
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Noord-Holland
-    stockExchange: null
-    twitter: null
-  homepage_url: https://www.cinqict.nl/
-  image_data:
-    fileName: cinq-member.svg
-    hash: 6/Cn2ZiJPxNFWj76KM6RAhc7qlbpu/dUrnLvPvX+HoQ=
-  item: null
-  joined: '2021-01-25'
-  logo: cinq.svg
-  name: CINQ (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/circle-ci
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Distiller
-      date: '2014-12-17'
-    - acquiree: Vamp.io
-      date: '2021-05-11'
-    - acquiree: Ponicode
-      date: '2022-03-09'
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: CircleCI is a continuous integration and delivery platform that automates
-      development workflows and IT operations.
-    funding: 315000000
-    homepage: https://circleci.com
-    industries:
-    - Cloud Computing
-    - Developer Tools
-    - Information Technology
-    - PaaS
-    - Productivity Tools
-    - SaaS
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/circleci
-    name: CircleCI
-    num_employees_max: 1000
-    num_employees_min: 501
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/circleci
+- crunchbase: https://www.crunchbase.com/organization/circle-ci
   homepage_url: https://circleci.com/
-  image_data:
-    fileName: circle-ci-member.svg
-    hash: oP3wKMW7ZrcEeJxo7a8mz3TOvAi+ObSlFSA/R2y8s9M=
   item: null
+  joined: '2018-06-01'
   logo: circle-ci-member.svg
   name: CircleCI (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 15:09:02+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cisel-informatique
-  crunchbase_data:
-    acquisitions: []
-    city: Fribourg
-    company_type: For Profit
-    country: Switzerland
-    description: CISEL provides consulting on cloud native technologies such as Kubernetes.
-      Build your Kubernetes architectures with Cloud Native Experts.
-    homepage: http://www.cisel.ch
-    industries:
-    - Consulting
-    - Information Technology
-    linkedin: https://www.linkedin.com/company/cisel-informatique-sa
-    name: CISEL Informatique
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: Fribourg
-    stockExchange: null
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/cisel-informatique
   homepage_url: https://www.cisel.ch/
-  image_data:
-    fileName: cisel-informatique-member.svg
-    hash: PP/WctqF25xqPhyoem7/HIcTAWqwQpq7P0/y+VSbEMA=
   item: null
+  joined: '2021-09-01'
   logo: cisel-informatique.svg
   name: Cisel Informatique (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/citibank
-  crunchbase_data:
-    acquisitions: []
-    city: San Antonio
-    company_type: For Profit
-    country: United States
-    description: Citibank is a global consumer bank providing a host of banking and
-      financial services.
-    funding: 8700000000
-    homepage: https://www.citi.com
-    industries:
-    - Banking
-    - Finance
-    - Financial Services
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/11448
-    name: Citibank
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents:
-    - https://www.crunchbase.com/organization/citigroup
-    region: Texas
-    stockExchange: null
-    ticker: C
-    twitter: http://twitter.com/Citibank
+- crunchbase: https://www.crunchbase.com/organization/citibank
   enduser: true
   homepage_url: https://www.citigroup.com/citi/
-  image_data:
-    fileName: citi-member.svg
-    hash: lIm2dNjDnlybPwe0zSHfHIgwtYPoa8vBbAfoKbiUOZ4=
   item: null
-  joined: '2021-01-25'
+  joined: '2021-02-01'
   logo: citi.svg
   name: Citi (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 18:34:11+00:00
-  yahoo_finance_data:
-    effective_ticker: C
-    market_cap: 100049920000
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/citrix-systems
-  crunchbase_data:
-    acquisitions:
-    - acquiree: DataPac Australasia Pty Limited
-      date: '1997-09-09'
-      price: 5000000
-    - acquiree: Insignia Solutions
-      date: '1998-02-06'
-      price: 17500000
-    - acquiree: APM
-      date: '1998-06-12'
-      price: 40000000
-    - acquiree: VDOnet Corp.
-      date: '1998-07-01'
-      price: 8000000
-    - acquiree: Innovex Group
-      date: '2000-02-17'
-      price: 47800000
-    - acquiree: Sequoia Software
-      date: '2001-03-21'
-      price: 184600000
-    - acquiree: Viewsoft Inc
-      date: '2002-01-02'
-      price: 32000000
-    - acquiree: Expertcity
-      date: '2003-12-18'
-      price: 225000000
-    - acquiree: Net6
-      date: '2004-11-23'
-      price: 50000000
-    - acquiree: NetScaler
-      date: '2005-08-16'
-    - acquiree: Teros
-      date: '2005-11-15'
-    - acquiree: Reflectent Software
-      date: '2006-05-08'
-      price: 68000000
-    - acquiree: '1956'
-      date: '2006-08-21'
-      price: 50000000
-    - acquiree: Ardence Inc
-      date: '2007-01-01'
-    - acquiree: Ardence Inc
-      date: '2007-01-08'
-      price: 51700000
-    - acquiree: Aurema
-      date: '2007-02-15'
-    - acquiree: ThinGenius
-      date: '2007-03-14'
-    - acquiree: Caymas Systems
-      date: '2007-06-11'
-    - acquiree: XenSource
-      date: '2007-08-15'
-      price: 500000000
-    - acquiree: QuickTree
-      date: '2007-09-05'
-    - acquiree: sepagoPROFILE
-      date: '2008-05-20'
-    - acquiree: Vapps
-      date: '2008-11-18'
-      price: 26600000
-    - acquiree: Alejandro salinas chamorro
-      date: '2010-02-23'
-    - acquiree: VMLogix
-      date: '2010-08-31'
-      price: 13200000
-    - acquiree: Netviewer
-      date: '2010-12-17'
-      price: 107500000
-    - acquiree: EMS-Cortex
-      date: '2011-02-22'
-    - acquiree: Kaviza
-      date: '2011-05-23'
-    - acquiree: Cloud.com
-      date: '2011-07-12'
-      price: 158800000
-    - acquiree: RingCube Technologies
-      date: '2011-08-10'
-      price: 32200000
-    - acquiree: ShareFile
-      date: '2011-10-13'
-      price: 54500000
-    - acquiree: App-DNA
-      date: '2011-10-26'
-      price: 91300000
-    - acquiree: Podio
-      date: '2012-04-20'
-      price: 53000000
-    - acquiree: Virtual Computer
-      date: '2012-05-09'
-    - acquiree: Bytemobile
-      date: '2012-06-13'
-      price: 399500000
-    - acquiree: Beetil Service Management Software
-      date: '2012-09-10'
-    - acquiree: Zenprise
-      date: '2012-12-06'
-      price: 355000000
-    - acquiree: Byte Squared
-      date: '2013-09-03'
-    - acquiree: Skytide
-      date: '2013-12-11'
-    - acquiree: Framehawk
-      date: '2014-01-08'
-      price: 24200000
-    - acquiree: ScaleXtreme
-      date: '2014-08-31'
-    - acquiree: Virtual
-      date: '2014-09-16'
-    - acquiree: RightSignature
-      date: '2014-10-20'
-    - acquiree: Solid Instance
-      date: '2014-11-10'
-    - acquiree: Octoblu
-      date: '2014-12-01'
-    - acquiree: Sanbolic
-      date: '2015-01-12'
-      price: 89400000
-    - acquiree: Grasshopper
-      date: '2015-04-08'
-      price: 161500000
-    - acquiree: Norskale
-      date: '2016-09-08'
-    - acquiree: Unidesk
-      date: '2017-01-09'
-    - acquiree: Cedexis
-      date: '2018-02-12'
-    - acquiree: Sapho
-      date: '2018-11-16'
-      price: 200000000
-    - acquiree: Wrike
-      date: '2021-01-19'
-      price: 2250000000
-    city: Fort Lauderdale
-    company_type: For Profit
-    country: United States
-    description: Citrix offers a unified platform to secure, manage, and monitor diverse
-      technologies in complex cloud environments.
-    funding: 20000000
-    homepage: https://www.citrix.com/
-    industries:
-    - Enterprise Software
-    - SaaS
-    - Software
-    - Virtualization
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/citrix
-    name: Citrix Systems
-    num_employees_max: 10000
-    num_employees_min: 5001
-    parents: []
-    region: Florida
-    stockExchange: nasdaq
-    ticker: CTXS
-    twitter: https://twitter.com/citrix
-  homepage_url: https://www.citrix.com/
-  image_data:
-    fileName: citrix-member.svg
-    hash: tWFFy+s7g9aFoZojPCanepPs0gGcpQN+SLx0OIvm128=
-  item: null
-  logo: citrix.svg
-  name: Citrix (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 18:25:01+00:00
-  yahoo_finance_data:
-    effective_ticker: CTXS
-    market_cap: 13005712384
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/civo-49db
-  crunchbase_data:
-    acquisitions: []
-    city: Stevenage
-    company_type: ''
-    country: United Kingdom
-    description: Cloud hosting specialists running the the world's first Kubernetes
-      service powered by Rancher Lab's K3s.
-    funding: 2763669
-    homepage: https://www.civo.com
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Cloud Storage
-    - Developer APIs
-    - Developer Tools
-    - Information Technology
-    - Internet
-    - Private Cloud
-    - Web Hosting
-    kind: funding
-    linkedin: https://www.linkedin.com/company/10043787
-    name: Civo
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Herefordshire
-    stockExchange: null
-    twitter: https://twitter.com/civocloud
+- crunchbase: https://www.crunchbase.com/organization/civo-49db
   homepage_url: https://www.civo.com
-  image_data:
-    fileName: civo-member.svg
-    hash: /OO69wwtrAyN26i4J+CQW0K6LnSZEoBjQb7BL9QgeoY=
   item: null
+  joined: '2021-03-01'
   logo: civo.svg
   name: Civo (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 21:30:01+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/claion
-  crunchbase_data:
-    acquisitions: []
-    city: Seoul
-    company_type: For Profit
-    country: South Korea
-    description: A professional company leading the next IT trend through powerful
-      drives.
-    homepage: http://www.claion.co.kr
-    industries: []
-    linkedin: null
-    name: claion
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Seoul-t'ukpyolsi
-    stockExchange: null
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/claion
   homepage_url: http://www.claion.co.kr/main/main.html
-  image_data:
-    fileName: claion-member.svg
-    hash: MT1NyS6WJQ+rsxtAdHCmfi46fwfCESGyyMJgMiWMH6M=
   item: null
+  joined: '2022-05-01'
   logo: claion.svg
   name: Claion (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/clastix
-  crunchbase_data:
-    acquisitions: []
-    city: Milan
-    company_type: ''
-    country: Italy
-    description: Kubernetes multi-tenancy made easy
-    homepage: https://clastix.io/
-    industries: []
-    linkedin: https://www.linkedin.com/company/clastix
-    name: Clastix
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Lombardia
-    stockExchange: null
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/clastix
   homepage_url: https://www.clastix.io/
-  image_data:
-    fileName: clastix-member.svg
-    hash: j0foDAEFGOUlQbZlmfNLUj46jvcbQVdHeN9xQCW05BM=
   item: null
+  joined: '2022-02-01'
   logo: clastix.svg
   name: Clastix (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/clockwork-systems
-  crunchbase_data:
-    acquisitions: []
-    city: Palo Alto
-    company_type: For Profit
-    country: United States
-    description: Clockwork Systems is a technology enables next generation time-sensitive
-      applications in on-prem data centers, public clouds.
-    funding: 21000000
-    homepage: https://www.clockwork.io/
-    industries:
-    - Cloud Computing
-    - Real Time
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/clockwork-systems-inc
-    name: Clockwork Systems
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/clockwork-systems
   homepage_url: https://www.clockwork.io/
-  image_data:
-    fileName: clockwork-member.svg
-    hash: 6bR6/YGP4G0Ha7qNn0KHMDGqtu0UwvEwXDh+MOFSe3o=
   item: null
+  joined: '2022-05-01'
   logo: clockwork.svg
   name: Clockwork (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloud-kinetics
-  crunchbase_data:
-    acquisitions: []
-    city: Singapore
-    company_type: For Profit
-    country: Singapore
-    description: Cloud Kinetics is a Digital Transformation Technology company enabling
-      clients to unlock the power and flexibility of Cloud.
-    homepage: https://www.cloud-kinetics.com
-    industries:
-    - Cloud Computing
-    - Cloud Data Services
-    - Cloud Infrastructure
-    - Cloud Management
-    - Cloud Security
-    - Cloud Storage
-    - Information Technology
-    - Media and Entertainment
-    linkedin: https://www.linkedin.com/company/cloud-kinetics
-    name: Cloud Kinetics
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: Central Region
-    stockExchange: null
-    twitter: https://twitter.com/cloud_kinetics
-  homepage_url: https://www.cloud-kinetics.com/
-  image_data:
-    fileName: cloud-kinetics-member.svg
-    hash: 2Qi4twfJ2xoa8q/ZabwUvREy+536Tvd6/jco+eO3d8A=
+- crunchbase: https://www.crunchbase.com/organization/cloud-ace-co-ltd
+  homepage_url: https://www.cloud-ace.jp/
   item: null
-  logo: cloud-kinetics.svg
-  name: Cloud Kinetics (member)
-  twitter: https://twitter.com/CloudKinetics
-  twitter_data:
-    latest_tweet_date: 2022-08-04 04:51:03+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloudbase-solutions
-  crunchbase_data:
-    acquisitions: []
-    city: Timisoara
-    company_type: For Profit
-    country: Romania
-    description: Cloudbase Solutions is dedicated to interoperability and cloud computing.
-    homepage: https://cloudbase.it/
-    industries:
-    - Cloud Computing
-    linkedin: https://www.linkedin.com/company/cloudbase-solutions
-    name: Cloudbase Solutions
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Timis
-    stockExchange: null
-    twitter: https://twitter.com/cloudbaseit
+  joined: '2023-02-01'
+  logo: cloud-ace.svg
+  name: Cloud Ace (member)
+- crunchbase: https://www.crunchbase.com/organization/cloudbase-solutions
   homepage_url: https://cloudbase.it/
-  image_data:
-    fileName: cloudbase-solutions-member.svg
-    hash: BAmI2uL8/HRXrets+WTWjskJEGRdCpg9MibFfRYexoQ=
   item: null
+  joined: '2018-06-01'
   logo: cloudbase-solutions-member.svg
   name: Cloudbase Solutions (member)
-  twitter_data:
-    latest_tweet_date: 2022-07-14 21:09:57+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloudbees
-  crunchbase_data:
-    acquisitions:
-    - acquiree: InfraDNA
-      date: '2010-11-09'
-    - acquiree: Stax Networks
-      date: '2010-12-14'
-    - acquiree: FoxWeave
-      date: '2013-07-24'
-    - acquiree: Codeship
-      date: '2018-02-06'
-    - acquiree: Electric Cloud
-      date: '2019-04-18'
-    - acquiree: Rollout.io
-      date: '2019-06-11'
-    city: San Jose
-    company_type: For Profit
-    country: United States
-    description: CloudBees develops a cloud-based platform that provides end-to-end
-      automated software delivery.
-    funding: 356200000
-    homepage: http://www.cloudbees.com
-    industries:
-    - Business Development
-    - Cloud Computing
-    - Cloud Data Services
-    - Delivery
-    - SaaS
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cloudbees
-    name: CloudBees
-    num_employees_max: 1000
-    num_employees_min: 501
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: http://twitter.com/CloudBees
+- crunchbase: https://www.crunchbase.com/organization/cloudbees
   homepage_url: https://www.cloudbees.com/
-  image_data:
-    fileName: cloud-bees-member.svg
-    hash: AZz1ZhRhcFpHECrnRpdJ791fbBIEw25Q14RWimNHXno=
   item: null
+  joined: '2018-02-01'
   logo: cloudbees.svg
   name: CloudBees (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 18:17:08+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloudbolt-software
-  crunchbase_data:
-    acquisitions:
-    - acquiree: SovLabs
-      date: '2020-06-02'
-    - acquiree: Kumolus
-      date: '2020-08-27'
-    city: Rockville
-    company_type: For Profit
-    country: United States
-    description: CloudBolt is a software company that helps enterprises manage their
-      hybrid cloud and optimize their automation strategy.
-    funding: 61600000
-    homepage: https://www.cloudbolt.io
-    industries:
-    - Cloud Computing
-    - Cloud Management
-    - Data Center Automation
-    - Enterprise
-    - Enterprise Software
-    - IT Management
-    - Private Cloud
-    - SaaS
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cloudbolt/
-    name: CloudBolt
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: Maryland
-    stockExchange: null
-    twitter: http://twitter.com/CloudBoltSW
+- crunchbase: https://www.crunchbase.com/organization/cloudbolt-software
   homepage_url: https://www.cloudbolt.io/
-  image_data:
-    fileName: cloud-bolt-software-member.svg
-    hash: dhC9dOpaLAWlcSqDTJGILfTTf2YZFg7GOXuSZFPd1PY=
   item: null
+  joined: '2018-08-01'
   logo: cloudbolt.svg
   name: CloudBolt Software (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 17:00:15+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/catalogic-software
-  crunchbase_data:
-    acquisitions: []
-    city: Woodcliff Lake
-    company_type: For Profit
-    country: United States
-    description: Leading provider of smart data protection solutions.
-    funding: 8000000
-    homepage: http://www.catalogicsoftware.com
-    industries:
-    - Cloud Data Services
-    - Cloud Storage
-    - IT Management
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/catalogic-software
-    name: Catalogic Software
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: New Jersey
-    stockExchange: null
-    twitter: http://twitter.com/CatalogicSW
-  homepage_url: https://cloudcasa.io/
-  image_data:
-    fileName: cloud-casa-by-catalogic-member.svg
-    hash: yrZ45IL7a4JH8VBwIJYj2dM5FOPYl5o05L5Hjg1bbAs=
+- crunchbase: https://www.crunchbase.com/organization/cloudferro
+  homepage_url: https://cloudferro.com
   item: null
-  logo: cloudcasa-by-catalogic.svg
-  name: CloudCasa by Catalogic (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 18:15:05+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloudcontrol-eafe
-  crunchbase_data:
-    acquisitions: []
-    city: Walpole
-    company_type: For Profit
-    country: United States
-    description: "LOW-TOUCH CLOUD PLATFORM \u2022 HASSLE-FREE KUBERNETES \u2022 GITOPS\
-      \ \u2022 INFRASTRUCTURE-AS-CODE \u2022 CONFIGURATION-AS-CODE \u2022 POLICY-AS-CODE"
-    homepage: https://www.ecloudcontrol.com/
-    industries:
-    - Consulting
-    - Information Services
-    - Information Technology
-    - Internet
-    - Software
-    linkedin: https://www.linkedin.com/company/ecloudcontrol/
-    name: CloudControl
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Massachusetts
-    stockExchange: null
-    twitter: https://twitter.com/eCloudControl
-  homepage_url: https://www.ecloudcontrol.com/
-  image_data:
-    fileName: cloud-control-member.svg
-    hash: 8T1quaAZfhvvsj2goX09UWQQB+cLuBd/T6hEd3oDkWo=
+  joined: '2024-03-01'
+  logo: cloudferro.svg
+  name: CloudFerro (member)
+- crunchbase: https://www.crunchbase.com/organization/cloudgeometry
+  homepage_url: https://www.cloudgeometry.io/
   item: null
-  joined: '2021-02-02'
-  logo: cloudcontrol.svg
-  name: CloudControl (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 12:52:24+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloudcover-inc
-  crunchbase_data:
-    acquisitions: []
-    city: Singapore
-    company_type: For Profit
-    country: Singapore
-    description: CloudCover is a cloud-native product and services company that delivers
-      for high-growth startups and agile enterprises.
-    homepage: http://cldcvr.com
-    industries:
-    - Big Data
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Cloud Management
-    - Consulting
-    - Developer APIs
-    - Information Technology
-    - Management Consulting
-    - Software
-    linkedin: https://www.linkedin.com/company/cldcvr
-    name: CloudCover
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: Central Region
-    stockExchange: null
-    twitter: https://twitter.com/cldcvr
-  homepage_url: https://cldcvr.com/
-  image_data:
-    fileName: cloud-cover-member.svg
-    hash: hko6iPDyTYnJ/9Yvkb1ruBku8A/l88c95BcJg/502ns=
+  joined: '2023-05-01'
+  logo: cloudgeometry.svg
+  name: CloudGeometry (member)
+- crunchbase: https://www.crunchbase.com/organization/cloudification
+  homepage_url: https://www.cloudification.io/
   item: null
-  logo: cloudcover.svg
-  name: CloudCover (member)
-  twitter_data:
-    latest_tweet_date: 2022-07-01 04:00:01+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloudibility
-  crunchbase_data:
-    acquisitions: []
-    city: Berlin
-    company_type: For Profit
-    country: Germany
-    description: We consult and support in conceptualization, creation, and utilizing
-      cloud-based applications
-    homepage: https://cloudical.io/
-    industries:
-    - Information Technology
-    - Software
-    linkedin: https://www.linkedin.com/company/cloudibility/
-    name: Cloudical
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Berlin
-    stockExchange: null
-    twitter: https://twitter.com/cloudical_gmbh
-  homepage_url: https://cloudical.io/
-  image_data:
-    fileName: cloudical-member.svg
-    hash: KA2OLZt30QpEbQfJNIRJ3AfFWuf2wOLajNDgEKc9Wwc=
+  joined: '2023-03-01'
+  logo: cloudification.svg
+  name: Cloudification (member)
+- crunchbase: https://www.crunchbase.com/organization/cloudmate-1d80
+  homepage_url: https://www.cloudmt.co.kr
   item: null
-  logo: cloudical-member.svg
-  name: Cloudical (member)
-  twitter_data:
-    latest_tweet_date: 2021-09-02 10:46:45+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloud-iq-technologies
-  crunchbase_data:
-    acquisitions: []
-    city: Bellevue
-    company_type: For Profit
-    country: United States
-    description: Cloud IQ Technologies offers you a portfolio of IT Cloud Management
-      services.
-    homepage: http://www.cloudiqtech.com/
-    industries:
-    - Information Technology
-    - Software
-    linkedin: https://www.linkedin.com/company/cloud-iq-technologies
-    name: Cloud IQ Technologies
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Washington
-    stockExchange: null
-    twitter: https://www.twitter.com/cloudiqtech
-  homepage_url: https://cloudiqtech.com
-  image_data:
-    fileName: cloud-iq-member.svg
-    hash: 4B4+cyPto8dKZFans8T16G81upJaoPlLNjfBgf+Ou60=
-  item: null
-  logo: cloudiq.svg
-  name: CloudIQ (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 12:45:28+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloudmatos
-  crunchbase_data:
-    acquisitions: []
-    city: Livermore
-    company_type: For Profit
-    country: United States
-    description: CloudMatos specializes in cloud security, intelligent remediation,
-      self-healing cloud infrastructure, and governance solution.
-    homepage: https://cloudmatos.com
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Cloud Security
-    - Developer APIs
-    - Software
-    linkedin: https://www.linkedin.com/company/cloudmatos/?viewAsMember=true
-    name: CloudMatos
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: null
-  homepage_url: https://www.cloudmatos.com/
-  image_data:
-    fileName: cloudmatos-member.svg
-    hash: MaOTbVL0aRSdjBOBCmk8Q5fPQPZDyfFDuqEYglypiGM=
-  item: null
-  logo: cloudmatos.svg
-  name: Cloudmatos (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloudnatix
-  crunchbase_data:
-    acquisitions: []
-    city: Saratoga
-    company_type: ''
-    country: United States
-    description: CloudNatix is a provider of efficient infrastructure across multiple
-      clouds and on-premise environments.
-    funding: 6000000
-    homepage: https://www.cloudnatix.com/
-    industries:
-    - Cloud Infrastructure
-    - Computer
-    - Information Technology
-    - SaaS
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cloudnatix-inc/
-    name: CloudNatix
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: null
-  homepage_url: https://www.cloudnatix.com/
-  image_data:
-    fileName: cloud-natix-member.svg
-    hash: GY0TeVw8A/UUAxdwfoI5p++LTBeeF1PXaVBa0z7bm9E=
-  item: null
-  logo: cloudnatix.svg
-  name: CloudNatix (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloudops
-  crunchbase_data:
-    acquisitions: []
-    city: "Montr\xE9al"
-    company_type: For Profit
-    country: Canada
-    description: A cloud consulting, managed services, and software company focused
-      on open source, cloud native platforms, networking, and DevOps.
-    homepage: http://cloudops.com
-    industries:
-    - Architecture
-    - Cloud Computing
-    - Cloud Management
-    - Information Technology
-    - Software
-    linkedin: https://www.linkedin.com/company/cloudops
-    name: CloudOps
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: Quebec
-    stockExchange: null
-    twitter: https://twitter.com/CloudOps_
+  joined: '2023-04-01'
+  logo: cloudmate.svg
+  name: Cloudmate (member)
+- crunchbase: https://www.crunchbase.com/organization/peer-1
   homepage_url: https://www.cloudops.com/
-  image_data:
-    fileName: cloud-ops-member.svg
-    hash: x1HYFqh7SPloYW8BDvCydEaBAn1saVUtZwv9AI3/19Y=
   item: null
-  logo: cloud-ops-member.svg
-  name: CloudOps (member)
-  twitter_data:
-    latest_tweet_date: 2021-10-28 13:03:28+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloudshape-inc
-  crunchbase_data:
-    acquisitions: []
-    city: Casper
-    company_type: For Profit
-    country: United States
-    description: Cloudshape is a multi-cloud and hybrid cloud management company helping
-      clients adopt good DevSecOps practices & cloud governance solutions.
-    homepage: https://cloudshape.net/
-    industries: []
-    linkedin: https://www.linkedin.com/company/cloudshapeinc/
-    name: Cloudshape Inc
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: Wyoming
-    stockExchange: null
-    twitter: null
-  homepage_url: https://www.cloudshape.net/
-  image_data:
-    fileName: cloudshape-member.svg
-    hash: CrYtgynKCoK2YqrK0oyTWzs0ED+uUOA5fCj5KjtzIIM=
-  item: null
-  logo: cloudshape.svg
-  name: Cloudshape (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloudside
-  crunchbase_data:
-    acquisitions: []
-    city: Bengaluru
-    company_type: For Profit
-    country: India
-    description: Cloud and Data Consulting
-    homepage: https://thecloudside.com
-    industries:
-    - Analytics
-    - Consulting
-    - Information Technology
-    - Software
-    linkedin: https://www.linkedin.com/company/thecloudside/
-    name: Cloudside
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Karnataka
-    stockExchange: null
-    twitter: https://twitter.com/thecloudside
-  homepage_url: https://thecloudside.gitlab.io/cloud-site/
-  image_data:
-    fileName: cloudside-member.svg
-    hash: Ghgi4zhzuHiulRWrcV/7HA7GIpYZ38EwGxdhKxxNVRA=
-  item: null
-  logo: cloudside.svg
-  name: Cloudside (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-02 19:13:17+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloudsmith-io
-  crunchbase_data:
-    acquisitions: []
-    city: Belfast
-    company_type: For Profit
-    country: United Kingdom
-    description: Artifact Management and Worldwide Distribution, Made Simple.
-    funding: 17896683
-    homepage: https://cloudsmith.com
-    industries:
-    - Cloud Computing
-    - Cloud Storage
-    - Content Delivery Network
-    - Developer Tools
-    - SaaS
-    - Security
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cloudsmith
-    name: Cloudsmith
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Belfast
-    stockExchange: null
-    twitter: https://twitter.com/cloudsmith
+  joined: '2018-03-01'
+  logo: cloudops.svg
+  name: CloudOps by Aptum (member)
+- crunchbase: https://www.crunchbase.com/organization/cloudsmith-io
   homepage_url: https://www.cloudsmith.com/
-  image_data:
-    fileName: cloudsmith-member.svg
-    hash: d8ZH86oFdxM1sQu7UJfELG0RuWdrnJHNu47MVdiYKLI=
   item: null
+  joined: '2021-08-01'
   logo: cloudsmith.svg
   name: Cloudsmith (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-01 17:51:13+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloudthat
-  crunchbase_data:
-    acquisitions: []
-    city: Bengaluru
-    company_type: For Profit
-    country: India
-    description: CloudThat is uniquely positioned to be the single technology source
-      for organizations looking to utilize the flexibility.
-    homepage: https://www.cloudthat.com/
-    industries:
-    - Consulting
-    linkedin: https://www.linkedin.com/company/cloudthat
-    name: CloudThat
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: Karnataka
-    stockExchange: null
-    twitter: https://twitter.com/cloudthat
-  homepage_url: https://www.cloudthat.com/infrastructure-migration-of-tercept-from-gcp-to-aws-cloud-platform
-  image_data:
-    fileName: cloud-that-member.svg
-    hash: GrvT5gNbRMDWocrLp+aN7BT/lw7c3N+Vun7dLzRO3Is=
+- crunchbase: https://www.crunchbase.com/organization/clush
+  homepage_url: https://www.clush.net
   item: null
-  logo: cloudthat.svg
-  name: CloudThat (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 13:44:35+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloudthread
-  crunchbase_data:
-    acquisitions: []
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: Cloudthread is a cloud analytics platform that helps developers create
-      cost-effective apps.
-    funding: 3125000
-    homepage: https://cloudthread.io
-    industries:
-    - Analytics
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Cloud Management
-    - Data Visualization
-    - SaaS
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cloudthread
-    name: Cloudthread
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/_cloudthread_
-  homepage_url: https://www.cloudthread.io/
-  image_data:
-    fileName: cloudthread-member.svg
-    hash: /I+Ud7o/8LeoxzQ4ruPTtBfqgFZXdnwusp9qJFOZLPM=
-  item: null
-  logo: cloudthread.svg
-  name: Cloudthread (member)
-  twitter_data:
-    latest_tweet_date: 2022-07-21 15:00:05+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloudyuga
-  crunchbase_data:
-    acquisitions: []
-    city: Bengaluru
-    company_type: For Profit
-    country: India
-    description: Cloud Native Training and Consulting
-    homepage: https://cloudyuga.guru/
-    industries:
-    - Consulting
-    - Education
-    - Information Technology
-    - Software
-    linkedin: null
-    name: CloudYuga
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Karnataka
-    stockExchange: null
-    twitter: https://twitter.com/cloudyuga
-  homepage_url: https://cloudyuga.guru/explore
-  image_data:
-    fileName: cloud-yuga-member.svg
-    hash: 969+09lGifsHUj9GdLewonWNg6coik28OzBdK/myKu8=
-  item: null
-  logo: cloud-yuga-member.svg
-  name: CloudYuga (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 13:28:04+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/matrix
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Gestetnertec
-      date: '2020-07-12'
-      price: 49800000
-    city: Herzliya
-    company_type: For Profit
-    country: Israel
-    description: Matrix is the leading IT company in Israel. They develop and implement
-      leading technologies, software solutions and products.
-    homepage: http://www.matrix.co.il/en/Pages/default.aspx
-    industries:
-    - Enterprise Software
-    - Information Technology
-    - Software
-    linkedin: https://www.linkedin.com/company/matrix/
-    name: Matrix
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents: []
-    region: Tel Aviv
-    stockExchange: tlv
-    twitter: null
-  homepage_url: https://cloudzone.io/
-  image_data:
-    fileName: cloud-zone-member.svg
-    hash: mIvb6T+Cz0Lk/O3WXb9oJsQnsIgqnuqQgfdo41N++zM=
-  item: null
-  logo: cloud-zone-member.svg
-  name: CloudZone (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/clyso-gmbh
-  crunchbase_data:
-    acquisitions: []
-    city: Munich
-    company_type: For Profit
-    country: Germany
-    description: Clyso is a German company located in Munich, passionate about the
-      Cloud.
-    homepage: https://www.clyso.com/en/
-    industries:
-    - Information Technology
-    linkedin: https://www.linkedin.com/company/clyso/
-    name: Clyso
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Bayern
-    stockExchange: null
-    twitter: https://twitter.com/clyso_gmbh
+  joined: '2025-02-01'
+  logo: clush.svg
+  name: Clush (member)
+- crunchbase: https://www.crunchbase.com/organization/clyso-gmbh
   homepage_url: https://www.clyso.com/
-  image_data:
-    fileName: clyso-member.svg
-    hash: zjmgATp34TgLreH30Wh4gsfrVUMGpl5DsasilFfmY9Q=
   item: null
+  joined: '2019-02-01'
   logo: clyso-member.svg
   name: Clyso (member)
-  twitter_data:
-    latest_tweet_date: 2021-01-22 14:00:27+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cockroach-labs
-  crunchbase_data:
-    acquisitions: []
-    city: New York
-    company_type: For Profit
-    country: United States
-    description: Cockroach Labs is a software company that develops a cloud-native
-      SQL database for modern cloud applications.
-    funding: 633100000
-    homepage: http://www.cockroachlabs.com/
-    industries:
-    - Cloud Computing
-    - Database
-    - Enterprise Software
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cockroach-labs
-    name: Cockroach Labs
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: New York
-    stockExchange: null
-    twitter: https://twitter.com/@cockroachdb
-  homepage_url: https://www.cockroachlabs.com/
-  image_data:
-    fileName: cockroach-labs-member.svg
-    hash: 7i9IJ/DGEzGjPV2Yij1FLpOveozFBIwaJHeFq7AkAJA=
+- crunchbase: https://www.crunchbase.com/organization/coder
+  homepage_url: https://coder.com/
   item: null
-  logo: cockroach-labs.svg
-  name: Cockroach Labs (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 22:10:01+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/acornsoft
-  crunchbase_data:
-    acquisitions: []
-    city: Seoul
-    company_type: For Profit
-    country: South Korea
-    description: Acronsoft is a company that develops Cloud Native Application Platform
-      which is a computing environment for future application development.
-    homepage: 'http://www.cocktailcloud.io '
-    industries:
-    - Apps
-    - Cloud Computing
-    - Information Technology
-    - Software
-    linkedin: null
-    name: Acornsoft
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Seoul-t'ukpyolsi
-    stockExchange: null
-    twitter: https://twitter.com/CocktailCloud
-  homepage_url: https://www.cocktailcloud.io
-  image_data:
-    fileName: cocktail-cloud-member.svg
-    hash: Czs4grTQu1TWHPKP0f9/biYI/SXdFEmz4tEiHiLjseE=
+  joined: '2023-12-01'
+  logo: coder.svg
+  name: Coder (member)
+- crunchbase: https://www.crunchbase.com/organization/compliancecow
+  homepage_url: https://www.compliancecow.com/
   item: null
-  logo: cocktail-cloud.svg
-  name: Cocktail Cloud (member)
-  twitter_data:
-    latest_tweet_date: 2019-06-28 02:38:05+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/traxitt-inc
-  crunchbase_data:
-    acquisitions: []
-    city: Vancouver
-    company_type: For Profit
-    country: Canada
-    description: Developer Tools for Kubernetes
-    funding: 0
-    homepage: https://codezero.io
-    industries:
-    - Cloud Infrastructure
-    - Cloud Management
-    - Developer Platform
-    - Developer Tools
-    - Enterprise Applications
-    - Software
-    linkedin: https://www.linkedin.com/company/codezerotechnologies
-    name: CodeZero Technologies Inc.
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: British Columbia
-    stockExchange: null
-    twitter: null
-  homepage_url: https://www.codezero.io/
-  image_data:
-    fileName: code-zero-technologies-member.svg
-    hash: uzi2pKBnd/URDO5vslKqELfq+b24G1inxA0Pa25Y8dk=
-  item: null
-  logo: codezero.svg
-  name: Code Zero Technologies (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/code-fresh
-  crunchbase_data:
-    acquisitions: []
-    city: Mountain View
-    company_type: For Profit
-    country: United States
-    description: Codefresh is a next-generation enterprise software delivery platform
-      for cloud native applications.
-    funding: 43000000
-    homepage: https://www.codefresh.io/
-    industries:
-    - Apps
-    - Developer Tools
-    - Software
-    - Web Development
-    kind: funding
-    linkedin: https://www.linkedin.com/company/codefresh
-    name: Codefresh
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/codefresh
-  homepage_url: https://codefresh.io/
-  image_data:
-    fileName: codefresh-member.svg
-    hash: 47DNEIZ4yUtZW1jqDB9nCOBRIWhXTalS0xX+IgYwyC0=
-  item: null
-  logo: codefresh.svg
-  name: Codefresh (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 21:16:42+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/comcast
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Comcast Spectacor
-      date: '1996-01-01'
-    - acquiree: American Cellular Network Corporation
-      date: '1998-02-11'
-    - acquiree: Greater Philadelphia Cablevision
-      date: '1999-02-19'
-    - acquiree: Jones Intercable
-      date: '1999-04-07'
-    - acquiree: Lenfest Communications
-      date: '1999-11-16'
-    - acquiree: Media One Group
-      date: '2002-01-02'
-    - acquiree: TechTV
-      date: '2004-03-25'
-    - acquiree: thePlatform
-      date: '2006-06-27'
-    - acquiree: Adelphia Communications
-      date: '2006-07-31'
-    - acquiree: Patriot Media and Communications
-      date: '2007-04-03'
-    - acquiree: Fandango
-      date: '2007-04-11'
-      price: 200000000
-    - acquiree: BuddyTV
-      date: '2007-09-16'
-    - acquiree: Vehix
-      date: '2008-02-08'
-    - acquiree: Plaxo
-      date: '2008-05-14'
-    - acquiree: DailyCandy
-      date: '2008-08-05'
-      price: 125000000
-    - acquiree: Radiance
-      date: '2008-10-07'
-    - acquiree: New Global Telecom
-      date: '2010-02-02'
-    - acquiree: The700Level.com
-      date: '2010-03-16'
-    - acquiree: NBCUniversal
-      date: '2011-01-29'
-    - acquiree: Spectrum
-      date: '2014-02-13'
-    - acquiree: FreeWheel
-      date: '2014-03-02'
-    - acquiree: PowerCloud Systems
-      date: '2014-07-14'
-    - acquiree: Visible World
-      date: '2015-06-04'
-    - acquiree: THIS TECHNOLOGY, Inc.
-      date: '2015-08-19'
-    - acquiree: Contingent Network Services
-      date: '2015-09-15'
-    - acquiree: OneTwoSee
-      date: '2016-03-07'
-    - acquiree: iControl Networks
-      date: '2016-06-23'
-    - acquiree: Watchwith
-      date: '2017-01-03'
-    - acquiree: Stringify
-      date: '2017-09-18'
-    - acquiree: Wilco Electronic Systems - cable TV Business
-      date: '2018-01-05'
-    - acquiree: Sky UK
-      date: '2018-09-22'
-      price: 40100000000
-    - acquiree: BluVector Inc.
-      date: '2019-03-04'
-    - acquiree: Deep Blue Communications
-      date: '2019-05-01'
-    - acquiree: Metrological
-      date: '2019-09-15'
-    - acquiree: XUMO
-      date: '2019-12-26'
-    - acquiree: Blueface
-      date: '2020-01-27'
-    - acquiree: Notion
-      date: '2020-02-01'
-    - acquiree: LEVL Technologies
-      date: '2022-06-20'
-      price: 50000000
-    city: Philadelphia
-    company_type: For Profit
-    country: United States
-    description: Comcast is a media and technology company that connects millions
-      of people to the moments and experiences that matter most.
-    funding: 4910841401
-    homepage: http://corporate.comcast.com
-    industries:
-    - Internet
-    - TV
-    - Telecommunications
-    - Video
-    - Web Hosting
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/comcast
-    name: Comcast
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents:
-    - https://www.crunchbase.com/organization/skyshowtime
-    region: Pennsylvania
-    stockExchange: nasdaq
-    ticker: CMCSA
-    twitter: https://twitter.com/comcast
-  homepage_url: https://comcast.github.io/
-  image_data:
-    fileName: comcast-member.svg
-    hash: BB6v2C+FTZ7eW01e5ohruJEMTTy6pB1Vw+tW0AxP8oA=
-  item: null
-  logo: comcast-member.svg
-  name: Comcast (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 18:12:29+00:00
-  yahoo_finance_data:
-    effective_ticker: CMCSA
-    market_cap: 168894693376
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/comforte-21
-  crunchbase_data:
-    acquisitions: []
-    city: Wiesbaden
-    company_type: For Profit
-    country: Germany
-    description: comforte AG enables sensitive data to be de-identified and secured
-      using scaled and resilient tokenization for cloud-native environments.
-    homepage: https://comforte.com/
-    industries:
-    - Computer
-    - Information Technology
-    - Security
-    - Telecommunications
-    linkedin: https://www.linkedin.com/company/comforte-ag
-    name: comforte AG
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: Hessen
-    stockExchange: null
-    twitter: https://twitter.com/comforteAG
-  homepage_url: https://www.comforte.com
-  image_data:
-    fileName: comforte-member.svg
-    hash: OBZgwcYhfBk0l6rflAztUsy4CCLKUNlEW6+5cxJUqEw=
-  item: null
-  logo: comforte.svg
-  name: Comforte (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 13:25:22+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/commvault
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Hedvig
-      date: '2019-09-04'
-      price: 225000000
-    city: Little Falls
-    company_type: For Profit
-    country: United States
-    description: Commvault provides a data and enterprise backup software.
-    funding: 0
-    homepage: https://www.commvault.com
-    industries:
-    - Management Information Systems
-    - Security
-    - Software
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/commvault/
-    name: Commvault
-    num_employees_max: 5000
-    num_employees_min: 1001
-    parents: []
-    region: New Jersey
-    stockExchange: nasdaq
-    ticker: CVLT
-    twitter: https://twitter.com/Commvault
-  homepage_url: https://www.commvault.com/
-  image_data:
-    fileName: commvault-member.svg
-    hash: oOyioAM887mNlpSXz3x7tmksEzernGSrs5miMyu7ZsQ=
-  item: null
-  logo: commvault.svg
-  name: Commvault (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 22:00:28+00:00
-  yahoo_finance_data:
-    effective_ticker: CVLT
-    market_cap: 2545911040
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/component-soft
-  crunchbase_data:
-    acquisitions: []
-    city: Budapest
-    company_type: For Profit
-    country: Hungary
-    description: Open cloud trainings and consultation
-    homepage: https://www.componentsoft.io
-    industries:
-    - Consulting
-    - Information Technology
-    linkedin: https://www.linkedin.com/company/component-soft-ltd-/
-    name: Component Soft
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Budapest
-    stockExchange: null
-    twitter: https://twitter.com/Component_Soft
+  joined: '2022-11-01'
+  logo: compliancecow.svg
+  name: ComplianceCow (member)
+- crunchbase: https://www.crunchbase.com/organization/component-soft
   homepage_url: https://www.componentsoft.io/
-  image_data:
-    fileName: component-soft-member.svg
-    hash: OrWlGSuyZbEJqLNWI4ntO/f2gnVm2HTkqtNfbd3ExcA=
   item: null
+  joined: '2018-07-01'
   logo: component-soft.svg
   name: Component Soft (member)
-  twitter_data:
-    latest_tweet_date: 2019-12-18 12:08:19+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/conoa
-  crunchbase_data:
-    acquisitions: []
-    city: Stockholm
-    company_type: For Profit
-    country: Sweden
-    description: Conoa helps businesses build cloud native, container and Kubernetes
-      infrastructure to enable modernisation.
-    homepage: https://www.conoa.se
-    industries:
-    - Consulting
-    - Information Technology
-    linkedin: https://www.linkedin.com/company/2747724
-    name: Conoa
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Stockholms Lan
-    stockExchange: null
-    twitter: https://twitter.com/ConoaAB
-  homepage_url: https://www.conoa.se/
-  image_data:
-    fileName: conoa-member.svg
-    hash: psi8Mgd7lUGWPnqhl00QBK2vedBfdLAcibPgVcdvDEI=
+- crunchbase: https://www.crunchbase.com/organization/confidentialmind
+  homepage_url: https://www.confidentialmind.com
   item: null
+  joined: '2024-07-01'
+  logo: confidentialmind.svg
+  name: ConfidentialMind (member)
+- crunchbase: https://www.crunchbase.com/organization/conoa
+  homepage_url: https://www.conoa.se/
+  item: null
+  joined: '2019-10-01'
   logo: conoa.svg
   name: Conoa (member)
-  twitter_data:
-    latest_tweet_date: 2021-09-16 13:52:17+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/container-solutions
-  crunchbase_data:
-    acquisitions: []
-    city: Amsterdam
-    company_type: For Profit
-    country: The Netherlands
-    description: Container Solutions specialises in helping customers to shorten the
-      time it takes to deploy, rollback.
-    homepage: http://container-solutions.com
-    industries:
-    - Information Technology
-    linkedin: https://www.linkedin.com/company/container-solutions
-    name: Container Solutions
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: Noord-Holland
-    stockExchange: null
-    twitter: https://twitter.com/containersoluti
-  homepage_url: https://www.container-solutions.com/
-  image_data:
-    fileName: container-solutions-member.svg
-    hash: lffHHMOc/Ai0pEwRLXIVs1vkLdHVmQYjnjb93ikU5Tw=
+- crunchbase: https://www.crunchbase.com/organization/controlmonkey
+  homepage_url: https://www.controlmonkey.io/
   item: null
-  logo: container-solutions.svg
-  name: Container Solutions (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 10:30:00+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/containiq
-  crunchbase_data:
-    acquisitions: []
-    city: Hoboken
-    company_type: For Profit
-    country: United States
-    description: ContainIQ is a Kubernetes native monitoring and tracing platform.
-    funding: 2625000
-    homepage: https://containiq.com
-    industries:
-    - Information Technology
-    - Productivity Tools
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/containiq
-    name: ContainIQ
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: New Jersey
-    stockExchange: null
-    twitter: https://twitter.com/containiq
-  homepage_url: https://www.containiq.com/
-  image_data:
-    fileName: contain-iq-member.svg
-    hash: tzshPqt/kxryZT03C855nsFVdSSxClN8ruV3ukxz4M0=
-  item: null
-  logo: containiq.svg
-  name: ContainIQ (member)
-  twitter_data:
-    latest_tweet_date: 2022-07-28 11:55:08+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/contino
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Sendachi
-      date: '2016-01-21'
-    - acquiree: Nebulr
-      date: '2018-04-11'
-    city: London
-    company_type: For Profit
-    country: United Kingdom
-    description: Contino is a professional services consultancy providing a range
-      of services for DevOps, Continuous Delivery, and Pragmatic Agile practices.
-    funding: 68150000
-    homepage: http://contino.io/
-    industries:
-    - Consulting
-    - Information Technology
-    - Professional Services
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/contino
-    name: Contino
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: England
-    stockExchange: null
-    twitter: https://twitter.com/continohq
-  homepage_url: https://www.contino.io/
-  image_data:
-    fileName: contino-member.svg
-    hash: Xg1KcRy+jpXlGSG0PjTxloK53VVemoQmiEHM+er2rKw=
-  item: null
-  logo: contino.svg
-  name: Contino (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 09:49:07+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/contrast-security
-  crunchbase_data:
-    acquisitions:
-    - acquiree: CloudEssence
-      date: '2021-01-01'
-    city: Los Altos
-    company_type: For Profit
-    country: United States
-    description: Contrast Security is a modernized application security, embedding
-      code analysis, and attack prevention directly into the software.
-    funding: 269000000
-    homepage: https://www.contrastsecurity.com
-    industries:
-    - Cloud Security
-    - Cyber Security
-    - Developer Tools
-    - Enterprise Applications
-    - Security
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/contrast-security
-    name: Contrast Security
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/contrastsec
-  homepage_url: https://www.contrastsecurity.com/
-  image_data:
-    fileName: contrast-security-member.svg
-    hash: 4lNlX1Vhk/7DSrUsruKZQasCDB5lOPNqp2T0pJUsSAo=
-  item: null
-  logo: contrast-security.svg
-  name: Contrast Security (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 19:30:23+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/control-plane
-  crunchbase_data:
-    acquisitions: []
-    city: Santa Rosa
-    company_type: For Profit
-    country: United States
-    description: From many clouds, one
-    funding: 4691000
-    homepage: https://www.controlplane.com
-    industries: []
-    kind: funding
-    linkedin: https://www.linkedin.com/company/control-plane-corporation/
-    name: Control Plane
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: null
-  homepage_url: https://www.controlplane.com/
-  image_data:
-    fileName: control-plane-member.svg
-    hash: QwdBTINHumd0g6LN01O/lyWRpH8RfkADZprNx1yr7/E=
-  item: null
-  logo: control-plane.svg
-  name: Control Plane (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/controlplane
-  crunchbase_data:
-    acquisitions: []
-    city: London
-    company_type: For Profit
-    country: United Kingdom
-    description: Cloud native consultancy, securing Kubernetes from supply-chain and
-      runtime attacks with a zero trust, continuous security approach.
-    homepage: https://control-plane.io/
-    industries:
-    - Cloud Security
-    - Cyber Security
-    - Network Security
-    - Open Source
-    - Penetration Testing
-    - Supply Chain Management
-    linkedin: https://www.linkedin.com/company/controlplane/
-    name: ControlPlane
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: England
-    stockExchange: null
-    twitter: https://twitter.com/controlplaneio
+  joined: '2023-01-01'
+  logo: controlmonkey.svg
+  name: ControlMonkey (member)
+- crunchbase: https://www.crunchbase.com/organization/controlplane
   homepage_url: https://control-plane.io/
-  image_data:
-    fileName: control-plane-member.svg
-    hash: K8i0MtatSJSQyA6adVjVGJl5DGT3u9CP9Q7KgcJLT3A=
   item: null
+  joined: '2019-02-01'
   logo: controlplane.svg
   name: ControlPlane (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 19:50:29+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/core-24-7-llp
-  crunchbase_data:
-    acquisitions: []
-    city: Almaty
-    company_type: For Profit
-    country: Kazakhstan
-    description: "DevSecOps as a Service. We provide 24\xD77x365 production maintenance\
-      \ and developers assistance."
-    homepage: https://core247.io
-    industries:
-    - Consulting
-    - IT Infrastructure
-    - Software Engineering
-    linkedin: https://www.linkedin.com/company/36162742/
-    name: CORE 24/7 LLP
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Almaty City
-    stockExchange: null
-    twitter: null
-  homepage_url: https://www.core247.io/
-  image_data:
-    fileName: core-24-7-member.svg
-    hash: DfXwR8Tztb4vHrn/g5/olXw6T6tkexZUw22AMT5EW5U=
+- crunchbase: https://www.crunchbase.com/organization/control-plane
+  homepage_url: https://controlplane.com
   item: null
+  joined: '2025-03-01'
+  logo: control-plane-corporation.svg
+  name: Control Plane Corporation (member)
+- crunchbase: https://www.crunchbase.com/organization/controltheory
+  homepage_url: https://controltheory.com
+  item: null
+  joined: '2024-08-01'
+  logo: controltheory.svg
+  name: ControlTheory (member)
+- crunchbase: https://www.crunchbase.com/organization/core-24-7-llp
+  homepage_url: https://core247.kz/
+  item: null
+  joined: '2021-07-01'
   logo: core247.svg
   name: Core 24/7 (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/coredge
-  crunchbase_data:
-    acquisitions: []
-    city: Noida
-    company_type: ''
-    country: India
-    description: Coredge provides technical services for the cloud technologies like
-      IOT, OTT, etc.
-    homepage: https://coredge.io
-    industries: []
-    linkedin: https://www.linkedin.com/company/coredge-io
-    name: Coredge
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Uttar Pradesh
-    stockExchange: null
-    twitter: https://twitter.com/coredge_io
+- crunchbase: https://www.crunchbase.com/organization/coredge
   homepage_url: https://www.coredge.io/
-  image_data:
-    fileName: coredge-member.svg
-    hash: NaXe2Lvhlzl0iAe4lXr/935e9VlEr2ItmcXIFe2wA/k=
   item: null
+  joined: '2022-07-01'
   logo: coredge.svg
   name: Coredge (member)
-  twitter_data:
-    latest_tweet_date: 2022-07-29 02:31:57+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/corehive-computing
-  crunchbase_data:
-    acquisitions: []
-    city: Clarksburg
-    company_type: For Profit
-    country: United States
-    description: 'CoreHive Computing is a Technology Consulting and Solutions firm
-      providing IT & Cloud Managed Services. '
-    homepage: http://corehive.com/
-    industries:
-    - Consulting
-    - Information Technology
-    - Software
-    linkedin: https://www.linkedin.com/company/corehive-computing-llc/?originalSubdomain=in
-    name: CoreHive Computing
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: Maryland
-    stockExchange: null
-    twitter: https://twitter.com/CoreHiveComp
-  homepage_url: https://corehive.com/
-  image_data:
-    fileName: core-hive-computing-member.svg
-    hash: Z63IY5S5diRCrVJuf2zmhWQenkoxgYAJrfUKMq4v6hw=
-  item: null
-  logo: core-hive-computing-member.svg
-  name: CoreHive Computing (member)
-  twitter_data:
-    latest_tweet_date: 2018-11-15 19:38:44+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cortex-98f5
-  crunchbase_data:
-    acquisitions: []
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: Cortex is a software platform that manages and operates microservices.
-    funding: 17650000
-    homepage: https://www.cortex.io/
-    industries:
-    - Document Management
-    - Information Technology
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cortexapp
-    name: Cortex
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/GetCortexApp
+- crunchbase: https://www.crunchbase.com/organization/cortex-98f5
   homepage_url: https://www.cortex.io/
-  image_data:
-    fileName: cortex-member.svg
-    hash: 9w30qYtf6UZDxwUU5lEZxCUYba00i2d5RIgqNsIyxdw=
   item: null
+  joined: '2022-01-01'
   logo: cortex-member.svg
   name: Cortex (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-03 18:00:03+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cosmonic
-  crunchbase_data:
-    acquisitions: []
-    city: Arlington
-    company_type: For Profit
-    country: United States
-    description: A dynamic, elastically scalable WebAssembly host runtime for securely
-      connecting actors and capability providers.
-    funding: 0
-    homepage: https://cosmonic.com
-    industries: []
-    linkedin: https://www.linkedin.com/company/cosmonic-corp/about/
-    name: Cosmonic
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: Virginia
-    stockExchange: null
-    twitter: http://twitter.com/cosmonic_com
+- crunchbase: https://www.crunchbase.com/organization/cosmonic
   homepage_url: https://cosmonic.com/
-  image_data:
-    fileName: cosmonic-member.svg
-    hash: zVMrlUodN7FDmwQCpPP1gk7+uH54FYwAqc+tFh7zr3o=
   item: null
+  joined: '2021-04-01'
   logo: cosmonic.svg
   name: Cosmonic (member)
-  twitter_data:
-    latest_tweet_date: 2022-02-28 16:09:41+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/couchbase
-  crunchbase_data:
-    acquisitions: []
-    city: Santa Clara
-    company_type: For Profit
-    country: United States
-    description: Couchbase is a NoSQL cloud database for business-critical applications.
-    funding: 251000000
-    homepage: http://www.couchbase.com
-    industries:
-    - Big Data
-    - Cloud Data Services
-    - Database
-    - Enterprise Software
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/couchbase
-    name: Couchbase
-    num_employees_max: 1000
-    num_employees_min: 501
-    parents: []
-    region: California
-    stockExchange: nasdaq
-    ticker: BASE
-    twitter: https://www.twitter.com/couchbase
-  homepage_url: https://www.couchbase.com/
-  image_data:
-    fileName: couchbase-member.svg
-    hash: 6qN+bGv0lOJ4khJmm5P9PJyRJoeF5GZigaJ8P2v1ujg=
-  item: null
-  logo: couchbase.svg
-  name: Couchbase (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 18:24:18+00:00
-  yahoo_finance_data:
-    effective_ticker: BASE
-    market_cap: 750249088
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/crafter-software
-  crunchbase_data:
-    acquisitions: []
-    city: Reston
-    company_type: For Profit
-    country: United States
-    description: CrafterCMS is an open-source, Git-based headless CMS for enterprises
-      and fast-growing startups.
-    funding: 0
-    homepage: https://craftercms.com/
-    industries:
-    - Mobile
-    - Open Source
-    - SaaS
-    - Software
-    linkedin: https://www.linkedin.com/company/craftercms
-    name: CrafterCMS
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Virginia
-    stockExchange: null
-    twitter: https://twitter.com/crafter_cms
-  homepage_url: https://craftercms.org/
-  image_data:
-    fileName: crafter-cms-member.svg
-    hash: RPRv4or8RUIB6z9e6olAW2sdihDAo7bg1rg3HZ5MP3k=
-  item: null
-  logo: crafter-cms.svg
-  name: CrafterCMS (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-03 16:35:50+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/creationline
-  crunchbase_data:
-    acquisitions: []
-    city: Tokyo
-    company_type: For Profit
-    country: Japan
-    description: Creationline provides cloud platform deployment and operations support
-      services to telecommunication carriers and data centers
-    homepage: https://www.creationline.com/en/
-    industries:
-    - Information Technology
-    - Internet
-    - Telecommunications
-    linkedin: null
-    name: Creationline
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: Tokyo
-    stockExchange: null
-    twitter: https://twitter.com/creationline
+- crunchbase: https://www.crunchbase.com/organization/creationline
   homepage_url: https://www.creationline.com/en/
-  image_data:
-    fileName: creationline-member.svg
-    hash: HoiZDlkUSDfxR8QHOjzM3ElgYafLd7NaYUp9GDWJfmk=
   item: null
+  joined: '2018-03-01'
   logo: creationline.svg
   name: Creationline (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 05:01:08+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cribl
-  crunchbase_data:
-    acquisitions: []
-    city: San Francisco
-    company_type: ''
-    country: United States
-    description: Cribl enables open observability and defies data gravity, giving
-      customers radical levels of choice and control over their data.
-    funding: 402208560
-    homepage: https://www.cribl.io
-    industries:
-    - Big Data
-    - Information Technology
-    - Real Time
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cribl
-    name: Cribl
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/cribl_io
-  homepage_url: https://www.cribl.io/
-  image_data:
-    fileName: cribl-member.svg
-    hash: nOEBrf5KWB65FxG6lHNNAQhxPEqPfso94Xc8HA1blyk=
-  item: null
-  logo: cribl.svg
-  name: Cribl (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 16:00:02+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/crunchy-data-solutions-inc-
-  crunchbase_data:
-    acquisitions: []
-    city: Charleston
-    company_type: For Profit
-    country: United States
-    description: Crunchy Data is a leading provider of trusted open source PostgreSQL
-      and enterprise PostgreSQL support, technology and training.
-    funding: 0
-    homepage: https://www.crunchydata.com
-    industries:
-    - Cyber Security
-    - Database
-    - Electronics
-    - Information Technology
-    - Open Source
-    - Software
-    linkedin: https://www.linkedin.com/company/crunchy-data-solutions-inc-
-    name: Crunchy Data
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: South Carolina
-    stockExchange: null
-    twitter: http://twitter.com/crunchydata
+- crunchbase: https://www.crunchbase.com/organization/crunchy-data-solutions-inc-
   homepage_url: https://www.crunchydata.com/
-  image_data:
-    fileName: crunchy-data-member.svg
-    hash: 1e5QG1uXuPD2wOBdTGK56w74+05oC7/0a2Zu482A5kY=
   item: null
+  joined: '2016-06-01'
   logo: crunchy-data.svg
   name: Crunchy Data (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 22:18:40+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cryptosense
-  crunchbase_data:
-    acquisitions: []
-    city: Paris
-    company_type: For Profit
-    country: France
-    description: Cryptosense provides security software that allows to detect & correct
-      vulnerabilities caused by misuse of cryptography in applications.
-    funding: 5699416
-    homepage: http://cryptosense.com/
-    industries:
-    - Cloud Security
-    - Cyber Security
-    - Security
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cryptosense
-    name: Cryptosense
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: Ile-de-France
-    stockExchange: null
-    twitter: http://twitter.com/cryptosense
-  homepage_url: https://cryptosense.com/
-  image_data:
-    fileName: cryptosense-member.svg
-    hash: xF+XvVcqCEmjGOKdse7D9Z+Pn8EMCaJt83hrRpDbhjE=
+- crunchbase: https://www.crunchbase.com/organization/crystaldb
+  homepage_url: https://www.crystaldb.cloud
   item: null
-  logo: cryptosense.svg
-  name: Cryptosense (member)
-  twitter_data:
-    latest_tweet_date: 2022-07-18 16:04:04+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cuegee-it
-  crunchbase_data:
-    acquisitions: []
-    city: "D\xFCsseldorf"
-    company_type: For Profit
-    country: Germany
-    description: Cloud Native & Container Platform Consulting
-    homepage: https://cuegee.com/
-    industries: []
-    linkedin: https://www.linkedin.com/company/cuegee/
-    name: cuegee it
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Nordrhein-Westfalen
-    stockExchange: null
-    twitter: https://twitter.com/cuegeeit
+  joined: '2024-08-01'
+  logo: crystaldb.svg
+  name: CrystalDB (member)
+- crunchbase: https://www.crunchbase.com/organization/cto2b
+  homepage_url: https://cto2b.io
+  item: null
+  joined: '2025-06-01'
+  logo: cto2b.svg
+  name: CTO2B (member)
+- crunchbase: https://www.crunchbase.com/organization/ctrlstack
+  homepage_url: https://www.ctrlstack.com/
+  item: null
+  joined: '2023-06-01'
+  logo: ctrlstack.svg
+  name: Ctrlstack (member)
+- crunchbase: https://www.crunchbase.com/organization/cuegee-it
   homepage_url: https://www.cuegee.com/
-  image_data:
-    fileName: cuegee-member.svg
-    hash: sWR6kZX7pLfCTYDDWkl2ZkiM0/RK9whr6TLQQm8oc/s=
   item: null
+  joined: '2021-03-01'
   logo: cuegee-it.svg
   name: Cuegee (member)
-  twitter_data:
-    latest_tweet_date: 2022-07-19 10:00:25+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cuemby
-  crunchbase_data:
-    acquisitions: []
-    city: Delray Beach
-    company_type: For Profit
-    country: United States
-    description: Simplify distributed cloud infrastructure
-    funding: 50000
-    homepage: https://www.cuemby.com
-    industries:
-    - Consulting
-    - Enterprise Software
-    - Information Technology
-    - PaaS
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cuemby
-    name: Cuemby
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Florida
-    stockExchange: null
-    twitter: https://twitter.com/cuemby
+- crunchbase: https://www.crunchbase.com/organization/cuemby
   homepage_url: https://cuemby.com/
-  image_data:
-    fileName: cuemby-member.svg
-    hash: LC3geKlMFe5toD5ufedkhFlnjDvQsE8E+h3wER3x/PE=
   item: null
+  joined: '2019-03-01'
   logo: cuemby.svg
   name: Cuemby (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 21:01:12+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cyber-ark-software
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Cybertinel
-      date: '2015-08-12'
-      price: 20000000
-    - acquiree: Viewfinity
-      date: '2015-10-07'
-      price: 30500000
-    - acquiree: Agata Solutions
-      date: '2016-03-11'
-    - acquiree: Conjur
-      date: '2017-05-11'
-      price: 42000000
-    - acquiree: Vaultive
-      date: '2018-03-12'
-    - acquiree: Idaptive
-      date: '2020-05-13'
-      price: 70000000
-    city: Newton
-    company_type: For Profit
-    country: United States
-    description: CyberArk is a security company focused on striking down targeted
-      cyber threats before they affect business operations.
-    funding: 570500000
-    homepage: http://www.cyberark.com
-    industries:
-    - Cloud Security
-    - Cyber Security
-    - Security
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/cyber-ark-software
-    name: CyberArk Software
-    num_employees_max: 5000
-    num_employees_min: 1001
-    parents: []
-    region: Massachusetts
-    stockExchange: nasdaq
-    ticker: CYBR
-    twitter: http://twitter.com/Cyberark
-  homepage_url: https://www.cyberark.com/
-  image_data:
-    fileName: cyber-ark-member.svg
-    hash: gfTRgMxfmETF5BWV1MpGFHDNQhkX93TXWtouOTpp4q0=
-  item: null
-  logo: cyberark.svg
-  name: CyberArk (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 22:00:00+00:00
-  yahoo_finance_data:
-    effective_ticker: CYBR
-    market_cap: 5555332096
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cybozu
-  crunchbase_data:
-    acquisitions: []
-    city: Tokyo
-    company_type: For Profit
-    country: Japan
-    description: Cybozu is a technology company specializing in application Platform
-      as a Service.
-    homepage: https://www.cybozu.com
-    industries:
-    - Collaboration
-    - SaaS
-    - Software
-    kind: market_cap
-    linkedin: null
-    name: Cybozu
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: Tokyo
-    stockExchange: tyo
-    ticker: 4776.T
-    twitter: https://twitter.com/cybozucom
+- crunchbase: https://www.crunchbase.com/organization/cybozu
   enduser: true
   homepage_url: https://cybozu-global.com/
-  image_data:
-    fileName: cybozu-member.svg
-    hash: zNCtzjEWdx4Lkr169qbbmUYoiskmR9v9qKIaPBWS6n8=
   item: null
+  joined: '2019-08-01'
   logo: cybozu.svg
   name: Cybozu (member)
-  twitter: null
-  yahoo_finance_data:
-    effective_ticker: 4776.T
-    market_cap: 418928706
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cycode
-  crunchbase_data:
-    acquisitions: []
-    city: Tel Aviv
-    company_type: For Profit
-    country: Israel
-    description: The first source code control, detection, and response solution for
-      visibility and protection across code repositories.
-    funding: 80600000
-    homepage: https://cycode.com/
-    industries:
-    - Cyber Security
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cycode
-    name: Cycode
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: Tel Aviv
-    stockExchange: null
-    twitter: https://twitter.com/CycodeHQ
-  homepage_url: https://www.cycode.com/
-  image_data:
-    fileName: cycode-member.svg
-    hash: TwJh6Kr9jDERQw+jAcr+AP4Y3ADXahbRkwt4cJCKyqo=
+- crunchbase: https://www.crunchbase.com/organization/cyso
+  homepage_url: https://cyso.com
   item: null
-  logo: cycode.svg
-  name: Cycode (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 21:25:38+00:00
+  joined: '2023-02-01'
+  logo: cyso.svg
+  name: Cyso (member)

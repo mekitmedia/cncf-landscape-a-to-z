@@ -1,232 +1,28 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/camptocamp
-  crunchbase_data:
-    acquisitions: []
-    city: Lausanne
-    company_type: For Profit
-    country: Switzerland
-    description: Camptocamp is an innovative company in the software implementation
-      of geographic information systems.
-    homepage: http://www.camptocamp.com
-    industries:
-    - Information Technology
-    - Software
-    linkedin: https://www.linkedin.com/company/camptocamp-sa/
-    name: Camptocamp
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: Vaud
-    stockExchange: null
-    twitter: https://twitter.com/camptocamp
+- crunchbase: https://www.crunchbase.com/organization/camptocamp
   description: As part of its Infrastructure services, Camptocamp provides Kubernetes
     consulting and training, with a focus on OpenShift installation and integration.
   homepage_url: https://www.camptocamp.com/en/trainings/kubernetes-training
-  image_data:
-    fileName: camptocamp-ktp.svg
-    hash: vSLm93EZ4I3PqV4LnGxcWf1kdoaCJmsQcFy32+bE+Yg=
   item: null
   logo: camptocamp-ktp.svg
   name: Camptocamp (KTP)
-  twitter_data:
-    latest_tweet_date: 2022-07-28 12:56:57+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/china-academy-of-railway-sciences-cars
-  crunchbase_data:
-    acquisitions: []
-    city: Xian Shi
-    company_type: For Profit
-    country: China
-    description: Railway development test platform
-    homepage: https://www.rails.cn/xian/
-    industries: []
-    linkedin: null
-    name: China Academy of Railway Sciences (CARS)
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Shaanxi
-    stockExchange: null
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/china-academy-of-railway-sciences-cars
   description: CARS promotes cloud native best practices in the railway domain, helping
     make railway information systems development and operation modern and easy. Services
     around Kubernetes include, but are not limited to, installation, maintenance,
     service operator development, and training.
   homepage_url: https://www.rails.cn/xian/zh-cn/train/?sign=train
-  image_data:
-    fileName: cars-china-academy-of-railway-sciences-ktp.svg
-    hash: O87FO9KyAWsTZgVr5kdGzf1IZQkP2fMWXsJrr/AAPwo=
   item: null
   logo: cars.svg
   name: CARS - China Academy of Railway Sciences (KTP)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cinq
-  crunchbase_data:
-    acquisitions: []
-    city: Amsterdam
-    company_type: For Profit
-    country: The Netherlands
-    description: At CINQ, developers, data specialists and DevOps engineers work on
-      great projects for various clients.
-    homepage: https://www.cinqict.nl/
-    industries: []
-    linkedin: null
-    name: CINQ
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Noord-Holland
-    stockExchange: null
-    twitter: null
-  description: CINQ ICT is a consultancy agency based in the Netherlands, working
-    for enterprise level companies to design, build and manage container platforms,
-    CI/CD pipelines, cloud platforms and software solutions in public cloud and multi/hybrid
-    environments.
-  homepage_url: https://www.cinqict.nl/kubernetes/trainingen
-  image_data:
-    fileName: cinq-ktp.svg
-    hash: 6/Cn2ZiJPxNFWj76KM6RAhc7qlbpu/dUrnLvPvX+HoQ=
-  item: null
-  logo: cinq-ict.svg
-  name: CINQ (KTP)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloud-iq-technologies
-  crunchbase_data:
-    acquisitions: []
-    city: Bellevue
-    company_type: For Profit
-    country: United States
-    description: Cloud IQ Technologies offers you a portfolio of IT Cloud Management
-      services.
-    homepage: http://www.cloudiqtech.com/
-    industries:
-    - Information Technology
-    - Software
-    linkedin: https://www.linkedin.com/company/cloud-iq-technologies
-    name: Cloud IQ Technologies
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Washington
-    stockExchange: null
-    twitter: https://www.twitter.com/cloudiqtech
-  description: CloudIQ delivers full-scale Kubernetes solutions from implementation
-    to Kubernetes support & management to training in-house IT teams.
-  homepage_url: https://cloudiqtech.com/kubernetes-deep-dive-workshop/
-  image_data:
-    fileName: cloud-iq-ktp.svg
-    hash: 4B4+cyPto8dKZFans8T16G81upJaoPlLNjfBgf+Ou60=
-  item: null
-  logo: cloudiq.svg
-  name: CloudIQ (KTP)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 12:45:28+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloudops
-  crunchbase_data:
-    acquisitions: []
-    city: "Montr\xE9al"
-    company_type: For Profit
-    country: Canada
-    description: A cloud consulting, managed services, and software company focused
-      on open source, cloud native platforms, networking, and DevOps.
-    homepage: http://cloudops.com
-    industries:
-    - Architecture
-    - Cloud Computing
-    - Cloud Management
-    - Information Technology
-    - Software
-    linkedin: https://www.linkedin.com/company/cloudops
-    name: CloudOps
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: Quebec
-    stockExchange: null
-    twitter: https://twitter.com/CloudOps_
+- crunchbase: https://www.crunchbase.com/organization/peer-1
   extra:
     training_certifications: cka, ckad
     training_type: instructor-led
   homepage_url: https://www.cloudops.com/kubernetes-cloud-native/
-  image_data:
-    fileName: cloud-ops-ktp.svg
-    hash: VKK4RO0dsux34iP+PZJhydV1YwhAh4n0vmFLZa2+I6g=
   item: null
   logo: cloudops.svg
-  name: CloudOps (KTP)
-  twitter_data:
-    latest_tweet_date: 2021-10-28 13:03:28+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloudyuga
-  crunchbase_data:
-    acquisitions: []
-    city: Bengaluru
-    company_type: For Profit
-    country: India
-    description: Cloud Native Training and Consulting
-    homepage: https://cloudyuga.guru/
-    industries:
-    - Consulting
-    - Education
-    - Information Technology
-    - Software
-    linkedin: null
-    name: CloudYuga
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Karnataka
-    stockExchange: null
-    twitter: https://twitter.com/cloudyuga
-  description: CloudYuga provides training and consulting on container and cloud native
-    technologies such as Docker, Kubernetes, and Prometheus.
-  extra:
-    training_certifications: cka, ckad, cks, kcna
-    training_type: e-learning, instructor-led
-  homepage_url: https://cloudyuga.guru/explore
-  image_data:
-    fileName: cloud-yuga-ktp.svg
-    hash: 4t+szYvVxBHrGwlyvDEpwlMVLt8ieOPHRQ3CsaQYohc=
-  item: null
-  logo: cloudyuga.svg
-  name: CloudYuga (KTP)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 13:28:04+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/component-soft
-  crunchbase_data:
-    acquisitions: []
-    city: Budapest
-    company_type: For Profit
-    country: Hungary
-    description: Open cloud trainings and consultation
-    homepage: https://www.componentsoft.io
-    industries:
-    - Consulting
-    - Information Technology
-    linkedin: https://www.linkedin.com/company/component-soft-ltd-/
-    name: Component Soft
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Budapest
-    stockExchange: null
-    twitter: https://twitter.com/Component_Soft
+  name: CloudOps by Aptum (KTP)
+- crunchbase: https://www.crunchbase.com/organization/component-soft
   description: With 25+ years of experience in enterprise open source systems, Component
     Soft offers Kubernetes, cloud-native, OpenStack and Ceph trainings, consultation
     and support services throughout Europe and the Americas.
@@ -234,37 +30,10 @@
     training_certifications: cka, ckad, cks, kcna
     training_type: instructor-led
   homepage_url: https://www.componentsoft.io/
-  image_data:
-    fileName: component-soft-ktp.svg
-    hash: OrWlGSuyZbEJqLNWI4ntO/f2gnVm2HTkqtNfbd3ExcA=
   item: null
   logo: component-soft.svg
   name: Component Soft (KTP)
-  twitter_data:
-    latest_tweet_date: 2019-12-18 12:08:19+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/conoa
-  crunchbase_data:
-    acquisitions: []
-    city: Stockholm
-    company_type: For Profit
-    country: Sweden
-    description: Conoa helps businesses build cloud native, container and Kubernetes
-      infrastructure to enable modernisation.
-    homepage: https://www.conoa.se
-    industries:
-    - Consulting
-    - Information Technology
-    linkedin: https://www.linkedin.com/company/2747724
-    name: Conoa
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Stockholms Lan
-    stockExchange: null
-    twitter: https://twitter.com/ConoaAB
+- crunchbase: https://www.crunchbase.com/organization/conoa
   description: Conoa offers a wide range of training and workshops in Kubernetes,
     cloud native and container technologies. All our instructors have extensive hands-on
     experience in the technologies in which they teach.
@@ -272,150 +41,27 @@
     training_certifications: cka, ckad, cks
     training_type: instructor-led
   homepage_url: https://www.conoa.se/utbildning/kubernetes-utbildning/
-  image_data:
-    fileName: conoa-ktp.svg
-    hash: psi8Mgd7lUGWPnqhl00QBK2vedBfdLAcibPgVcdvDEI=
   item: null
   logo: conoa.svg
   name: Conoa (KTP)
-  twitter_data:
-    latest_tweet_date: 2021-09-16 13:52:17+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/container-solutions
-  crunchbase_data:
-    acquisitions: []
-    city: Amsterdam
-    company_type: For Profit
-    country: The Netherlands
-    description: Container Solutions specialises in helping customers to shorten the
-      time it takes to deploy, rollback.
-    homepage: http://container-solutions.com
-    industries:
-    - Information Technology
-    linkedin: https://www.linkedin.com/company/container-solutions
-    name: Container Solutions
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: Noord-Holland
-    stockExchange: null
-    twitter: https://twitter.com/containersoluti
-  description: Container Solutions is a premium software consultancy that focuses
-    on programmable infrastructure, offering our expertise in software development,
-    strategy and operations to help you innovate at speed and scale.
-  homepage_url: https://www.container-solutions.com/
-  image_data:
-    fileName: container-solutions-ktp.svg
-    hash: lffHHMOc/Ai0pEwRLXIVs1vkLdHVmQYjnjb93ikU5Tw=
-  item: null
-  logo: container-solutions.svg
-  name: Container Solutions (KTP)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 10:30:00+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/controlplane
-  crunchbase_data:
-    acquisitions: []
-    city: London
-    company_type: For Profit
-    country: United Kingdom
-    description: Cloud native consultancy, securing Kubernetes from supply-chain and
-      runtime attacks with a zero trust, continuous security approach.
-    homepage: https://control-plane.io/
-    industries:
-    - Cloud Security
-    - Cyber Security
-    - Network Security
-    - Open Source
-    - Penetration Testing
-    - Supply Chain Management
-    linkedin: https://www.linkedin.com/company/controlplane/
-    name: ControlPlane
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: England
-    stockExchange: null
-    twitter: https://twitter.com/controlplaneio
+- crunchbase: https://www.crunchbase.com/organization/controlplane
   description: ControlPlane Kubernetes training covers operations, cloud native security,
     secure SDLC and application delivery, and penetration testing.
   extra:
     training_certifications: cka, ckad, cks
     training_type: e-learning, instructor-led
   homepage_url: https://control-plane.io/#services
-  image_data:
-    fileName: control-plane-ktp.svg
-    hash: K8i0MtatSJSQyA6adVjVGJl5DGT3u9CP9Q7KgcJLT3A=
   item: null
   logo: controlplane.svg
   name: ControlPlane (KTP)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 19:50:29+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/creationline
-  crunchbase_data:
-    acquisitions: []
-    city: Tokyo
-    company_type: For Profit
-    country: Japan
-    description: Creationline provides cloud platform deployment and operations support
-      services to telecommunication carriers and data centers
-    homepage: https://www.creationline.com/en/
-    industries:
-    - Information Technology
-    - Internet
-    - Telecommunications
-    linkedin: null
-    name: Creationline
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: Tokyo
-    stockExchange: null
-    twitter: https://twitter.com/creationline
+- crunchbase: https://www.crunchbase.com/organization/creationline
   description: Creationline provides cloud platform deployment and operations support
     services to telecommunication carriers and data centers.
   homepage_url: https://www.creationline.com/en/
-  image_data:
-    fileName: creationline-ktp.svg
-    hash: HoiZDlkUSDfxR8QHOjzM3ElgYafLd7NaYUp9GDWJfmk=
   item: null
   logo: creationline.svg
   name: Creationline (KTP)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 05:01:08+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cuemby
-  crunchbase_data:
-    acquisitions: []
-    city: Delray Beach
-    company_type: For Profit
-    country: United States
-    description: Simplify distributed cloud infrastructure
-    funding: 50000
-    homepage: https://www.cuemby.com
-    industries:
-    - Consulting
-    - Enterprise Software
-    - Information Technology
-    - PaaS
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cuemby
-    name: Cuemby
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Florida
-    stockExchange: null
-    twitter: https://twitter.com/cuemby
+- crunchbase: https://www.crunchbase.com/organization/cuemby
   description: Cuemby is a technology specialist helping businesses build sustainable
     ecosystems based on cloud native technologies. We offer professional and experienced
     Kubernetes and Cloud Native consultancy services, cloud native tools, support
@@ -424,11 +70,6 @@
     training_certifications: cka, ckad, kcna
     training_type: e-learning, instructor-led
   homepage_url: https://cuemby.com/training/
-  image_data:
-    fileName: cuemby-ktp.svg
-    hash: LC3geKlMFe5toD5ufedkhFlnjDvQsE8E+h3wER3x/PE=
   item: null
   logo: cuemby.svg
   name: Cuemby (KTP)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 21:01:12+00:00

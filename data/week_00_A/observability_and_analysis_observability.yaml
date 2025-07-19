@@ -1,0 +1,103 @@
+- crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
+  description: Application Real-Time Monitoring Service (ARMS) is an end-to-end Alibaba
+    Cloud monitoring service for Application Performance Management (APM). You can
+    quickly develop real-time business monitoring capabilities using the frontend
+    monitoring, application monitoring, and custom monitoring features provided by
+    ARMS.
+  homepage_url: https://www.alibabacloud.com/product/arms
+  item: null
+  logo: alibaba-cloud-application-real-time-service.svg
+  name: Alibaba Cloud Application Real-Time Service
+- crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
+  homepage_url: https://www.alibabacloud.com/product/log-service
+  item: null
+  logo: alibaba-cloud-log-service.svg
+  name: Alibaba Cloud Log Service
+- crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+  description: Amazon CloudWatch is a monitoring and management service built for
+    developers, system operators, site reliability engineers (SRE), and IT managers.
+    CloudWatch provides you with data and actionable insights to monitor your applications,
+    understand and respond to system-wide performance changes, optimize resource utilization,
+    and get a unified view of operational health.
+  homepage_url: https://aws.amazon.com/cloudwatch/
+  item: null
+  logo: amazon-cloudwatch.svg
+  name: Amazon CloudWatch
+- crunchbase: https://www.crunchbase.com/organization/ddosify
+  description: Anteon is a platform that combines effortless Kubernetes Monitoring
+    and Performance Testing  to provide seamless observability of your K8S infrastructure
+    using eBPF.
+  homepage_url: https://getanteon.com/
+  item: null
+  logo: anteon.svg
+  name: Anteon
+  repo_url: https://github.com/getanteon/anteon
+  twitter: https://twitter.com/getanteon
+- crunchbase: https://www.crunchbase.com/organization/appdynamics
+  homepage_url: https://www.appdynamics.com/
+  item: null
+  logo: app-dynamics.svg
+  name: AppDynamics
+  twitter: https://twitter.com/appdynamics
+- crunchbase: https://www.crunchbase.com/organization/appneta
+  homepage_url: https://www.appneta.com/
+  item: null
+  logo: appneta.svg
+  name: AppNeta
+- crunchbase: https://www.crunchbase.com/organization/solarwinds
+  description: Simple, powerful infrastructure and application monitoring
+  homepage_url: https://www.appoptics.com/
+  item: null
+  logo: appoptics.svg
+  name: AppOptics
+  twitter: https://twitter.com/AppOptics
+- crunchbase: https://www.crunchbase.com/organization/appsignal
+  description: AppSignal is a powerful APM that works out-of-the-box for Elixir, Ruby,
+    and Node.js.
+  homepage_url: https://www.appsignal.com/
+  item: null
+  logo: appsignal.svg
+  name: AppSignal
+  twitter: https://twitter.com/AppSignal
+- crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
+  description: A SaaS-based service that aims to improve the high availability of
+    your applications. Application High Availability Service features automatic application
+    architecture discovery, high availability assessment following principles of chaos
+    engineering, application traffic control, and service fallback.
+  homepage_url: https://www.alibabacloud.com/product/ahas
+  item: null
+  logo: alibaba-cloud-ahas.svg
+  name: Application High Availability Service
+- crunchbase: https://www.crunchbase.com/organization/zoho-manageengine
+  description: Applications Manager is a multi-platform monitoring tool built for
+    IT admins and DevOps for tracking KPIs of 100+ technologies spanning hybrid clouds,
+    containers as well as traditional environments (web applications, servers, VMs,
+    application servers, databases, big data stores, middleware & messaging components,
+    web servers, web services & ERP suites).
+  homepage_url: https://www.manageengine.com/products/applications_manager/
+  item: null
+  logo: applications-manager.svg
+  name: Applications Manager
+  twitter: https://twitter.com/apm_me
+- crunchbase: https://www.crunchbase.com/organization/aspecto
+  homepage_url: https://www.aspecto.io/
+  item: null
+  logo: aspecto-logo.svg
+  name: Aspecto
+- crunchbase: https://www.crunchbase.com/organization/riverbed-technology
+  description: Cloud-native, scalable, high-definition application performance monitoring
+    (APM) for next gen apps.
+  homepage_url: https://www.aternity.com/application-performance-monitoring/
+  item: null
+  logo: aternity.svg
+  name: Aternity
+  twitter: https://twitter.com/aternity
+- crunchbase: https://www.crunchbase.com/organization/microsoft
+  description: Collect, analyze, and act on telemetry data from your Azure and on-premises
+    environments. Azure Monitor helps you maximize performance and availability of
+    your applications and proactively identify problems in seconds.
+  homepage_url: https://azure.microsoft.com/en-us/services/monitor/
+  item: null
+  logo: azure-monitor.svg
+  name: Azure Monitor
+  twitter: https://twitter.com/azure

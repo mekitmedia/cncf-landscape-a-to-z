@@ -1,75 +1,21 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/spectro-cloud
-  crunchbase_data:
-    acquisitions: []
-    city: San Jose
-    company_type: For Profit
-    country: United States
-    description: Spectro Cloud enables organizations to manage the full lifecycle
-      of any combination of new or existing Kubernetes environments.
-    funding: 67500000
-    homepage: https://www.spectrocloud.com
-    industries:
-    - Cloud Data Services
-    - Information Technology
-    - SaaS
-    kind: funding
-    linkedin: https://www.linkedin.com/company/spectro-cloud/
-    name: Spectro Cloud
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/spectrocloudinc
+- crunchbase: https://www.crunchbase.com/organization/spectro-cloud
   description: "Keep control of your Kubernetes infrastructure stack with Spectro\
     \ Cloud\u2019s as-a-Service experience for public clouds, private clouds, and\
-    \ bare metal environments."
-  homepage_url: https://www.spectrocloud.com/
-  image_data:
-    fileName: palette.svg
-    hash: f6BW9qrNgmzdKklWej298783HFc1sTt7mmErKAIUXck=
+    \ bare metal environments"
+  homepage_url: https://spectrocloud.com
   item: null
   logo: palette.svg
   name: Palette
-  twitter_data:
-    latest_tweet_date: 2022-08-05 20:01:31+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/platform9-systems-inc
-  crunchbase_data:
-    acquisitions: []
-    city: Mountain View
-    company_type: For Profit
-    country: United States
-    description: Platform9 provides Kubernetes-as-a-Service for multi-cloud, on-premises,
-      or at edge.
-    funding: 100000000
-    homepage: https://platform9.com
-    industries:
-    - Cloud Computing
-    - Enterprise Software
-    - IT Infrastructure
-    - SaaS
-    kind: funding
-    linkedin: https://www.linkedin.com/company/platform9-systems
-    name: Platform9
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: http://twitter.com/Platform9Sys
+- crunchbase: https://www.crunchbase.com/organization/platform9-systems-inc
   description: Platform9 Managed Kubernetes is SaaS-managed, infrastructure-agnostic,
     and works across public clouds and on-premises server infrastructure.
   homepage_url: https://platform9.com/managed-kubernetes/
-  image_data:
-    fileName: platform9-managed-kubernetes.svg
-    hash: 3oq57PpCz3GeBES7+P0XlRPZcFK0284wRH6FBgVpCt0=
   item: null
-  logo: platform9-managed-kubernetes.svg
+  logo: platform9.svg
   name: Platform9 Managed Kubernetes
-  twitter: null
+- crunchbase: https://www.crunchbase.com/organization/plural-37ce
+  homepage_url: https://www.plural.sh/
+  item: null
+  logo: plural.svg
+  name: Plural
+  repo_url: https://github.com/pluralsh/plural

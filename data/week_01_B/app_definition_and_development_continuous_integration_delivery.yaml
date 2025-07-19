@@ -1,259 +1,45 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/atlassian
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Bitbucket
-      date: '2010-09-29'
-    - acquiree: SourceTree
-      date: '2011-10-06'
-    - acquiree: HipChat
-      date: '2012-03-07'
-    - acquiree: Wikidocs
-      date: '2014-09-11'
-    - acquiree: doctape
-      date: '2014-09-12'
-      price: 7500000
-    - acquiree: BlueJimp
-      date: '2015-04-21'
-    - acquiree: Hall
-      date: '2015-05-06'
-      price: 20000000
-    - acquiree: StatusPage
-      date: '2016-07-14'
-    - acquiree: Trello
-      date: '2017-01-09'
-      price: 425000000
-    - acquiree: OpsGenie
-      date: '2018-09-04'
-      price: 295000000
-    - acquiree: Jira Align
-      date: '2019-03-19'
-      price: 166000000
-    - acquiree: Good Software
-      date: '2019-04-10'
-    - acquiree: Code Barrel
-      date: '2019-10-17'
-    - acquiree: Halp
-      date: '2020-05-12'
-    - acquiree: Mindville
-      date: '2020-07-30'
-    - acquiree: Chartio
-      date: '2021-02-26'
-    - acquiree: ThinkTilt
-      date: '2021-04-19'
-    - acquiree: Percept.AI
-      date: '2022-01-27'
-    city: Sydney
-    company_type: For Profit
-    country: Australia
-    description: Atlassian provides collaboration, development, and issue tracking
-      software for teams.
-    funding: 210000000
-    homepage: http://www.atlassian.com/
-    industries:
-    - Collaboration
-    - Enterprise Software
-    - SaaS
-    - Software
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/atlassian/
-    name: Atlassian
-    num_employees_max: 5000
-    num_employees_min: 1001
-    parents: []
-    region: New South Wales
-    stockExchange: nasdaq
-    ticker: TEAM
-    twitter: http://twitter.com/atlassian
+- crunchbase: https://www.crunchbase.com/organization/atlassian
   description: Bamboo Server is the choice of professional teams for continuous integration,
     deployment, and delivery
   homepage_url: https://www.atlassian.com/software/bamboo
-  image_data:
-    fileName: bamboo.svg
-    hash: m9O3jHshevj/iAfu1592INCRtE2AJsjqRmdojreMtDw=
   item: null
   logo: bamboo.svg
   name: Bamboo
-  twitter_data:
-    latest_tweet_date: 2022-08-05 22:58:57+00:00
-  yahoo_finance_data:
-    effective_ticker: TEAM
-    market_cap: 68084076544
-- best_practice_data:
-    badge: 2688
-    percentage: 88
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Kubernetes
-      date: '2016-03-10'
-    - acquiree: RethinkDB
-      date: '2017-02-06'
-      price: 25000
-    city: San Francisco
-    company_type: Non Profit
-    country: United States
-    description: CNCF is an open source software foundation that hosts and nurtures
-      projects like Kubernetes and Prometheus.
-    funding: 3000000
-    homepage: https://www.cncf.io
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Non Profit
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
-    name: Cloud Native Computing Foundation (CNCF)
-    num_employees_max: 50
-    num_employees_min: 11
-    parents:
-    - https://www.crunchbase.com/organization/linux-foundation
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/CloudNativeFdn
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   extra:
     accepted: '2019-03-18'
+    archived: '2022-10-19'
     artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#brigade-logos
-    dev_stats_url: https://brigade.devstats.cncf.io/
     slack_url: https://kubernetes.slack.com/messages/C87MF1RFD
-  github_data:
-    contributions: 23;5;7;6;2;2;11;12;14;10;3;10;15;10;16;1;4;3;4;1;0;4;2;3;4;5;9;11;12;8;2;2;9;11;12;10;0;6;3;4;5;2;5;4;2;0;1;0;0;0;0;0
-    contributors_count: 107
-    contributors_link: https://github.com/brigadecore/brigade/graphs/contributors
-    description: Event-driven scripting for Kubernetes
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 1537456
-    - color: '#2b7489'
-      name: TypeScript
-      value: 68800
-    - color: '#427819'
-      name: Makefile
-      value: 14413
-    - color: '#EB8CEB'
-      name: XSLT
-      value: 11880
-    - color: '#384d54'
-      name: Dockerfile
-      value: 8352
-    - name: Starlark
-      value: 4550
-    - name: Mustache
-      value: 3956
-    - color: '#89e051'
-      name: Shell
-      value: 2602
-    - color: '#e34c26'
-      name: HTML
-      value: 523
-    - color: '#563d7c'
-      name: CSS
-      value: 365
-    latest_commit_date: '2022-06-29T17:10:48Z'
-    latest_commit_link: /brigadecore/brigade/commit/1d893092a5ba3eda82b8d4eeb3ac6402ad14e495
-    license: Apache License 2.0
-    release_date: '2022-06-09T14:29:19Z'
-    release_link: https://github.com/brigadecore/brigade/releases
-    stars: 2348
-  github_start_commit_data:
-    start_commit_link: /brigadecore/brigade/commit/fa1bbbe4af0d89205ffb2cd8848152aaa3541a6b
-    start_date: '2017-04-15T00:07:29Z'
   homepage_url: https://brigade.sh/
-  image_data:
-    fileName: brigade.svg
-    hash: Kj3DJUwD4PIAkQ5DnTS+i3W7lc82Nba2erfkTRy3Jd4=
   item: null
   logo: brigade.svg
   name: Brigade
-  project: sandbox
+  project: archived
   repo_url: https://github.com/brigadecore/brigade
-  repos:
-  - stars: 2348
-    url: https://github.com/brigadecore/brigade
   twitter: https://twitter.com/brigadecore
-  twitter_data:
-    latest_tweet_date: 2022-07-07 06:55:36+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/buildkite
-  crunchbase_data:
-    acquisitions: []
-    city: Fitzroy
-    company_type: For Profit
-    country: Australia
-    description: Buildkite is a platform for running fast, secure, and scalable continuous
-      integration pipelines on your own infrastructure.
-    funding: 20491128
-    homepage: https://buildkite.com/
-    industries:
-    - Developer Platform
-    - Developer Tools
-    - PaaS
-    - Software
-    - Software Engineering
-    kind: funding
-    linkedin: https://linkedin.com/company/12907204
-    name: Buildkite
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Victoria
-    stockExchange: null
-    twitter: https://twitter.com/buildkite
+- crunchbase: https://www.crunchbase.com/organization/buildkite
   description: Buildkite is a platform for running fast, secure, and scalable continuous
     integration pipelines on your own infrastructure.
   homepage_url: https://buildkite.com/
-  image_data:
-    fileName: buildkite.svg
-    hash: 0IH0f59Drujpb/AAmqwxZtcsesR8gQbuwMn03iz7Sqo=
   item: null
   logo: buildkite.svg
   name: Buildkite
-  twitter_data:
-    latest_tweet_date: 2022-08-05 20:52:32+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/bunnyshell
-  crunchbase_data:
-    acquisitions: []
-    city: Bucharest
-    company_type: For Profit
-    country: Romania
-    description: BunnyShell is a simple and fast cloud-agnostic DevOps automation
-      platform to deploy, scale, and optimize your applications.
-    funding: 6384148
-    homepage: https://www.bunnyshell.com
-    industries:
-    - Information Technology
-    - SaaS
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/bunnyshell/
-    name: Bunnyshell
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Bucuresti
-    stockExchange: null
-    twitter: https://twitter.com/bunnyshellcloud
+- crunchbase: https://www.crunchbase.com/organization/bunnyshell
   description: Bunnyshell is an EaaS platform that enables fast, dead-simple environment
     creation and management for teams and developers who want to release better code
     faster.
   homepage_url: https://bunnyshell.com/
-  image_data:
-    fileName: bunnyshell.svg
-    hash: /k27K//Gq1mOULI2GGWMENPMBdzKmBA81Fh4NYhrPu4=
   item: null
   logo: bunnyshell.svg
   name: Bunnyshell
   twitter: https://twitter.com/bunnyshell_eaas
-  twitter_data:
-    latest_tweet_date: 2022-08-05 21:30:02+00:00
+- crunchbase: https://www.crunchbase.com/organization/bytebase
+  description: Reliable Database CI/CD for Developers and DBAs
+  extra:
+    slack_url: https://discord.gg/huyw7gRsyA
+  homepage_url: https://www.bytebase.com/
+  item: null
+  logo: bytebase.svg
+  name: Bytebase
+  repo_url: https://github.com/bytebase/bytebase

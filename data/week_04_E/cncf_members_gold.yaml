@@ -1,83 +1,12 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/equinix
-  crunchbase_data:
-    acquisitions:
-    - acquiree: IXEurope
-      date: '2007-09-14'
-    - acquiree: Virtu Secure Webservices
-      date: '2008-02-06'
-    - acquiree: Switch & Data
-      date: '2009-10-21'
-      price: 689000000
-    - acquiree: Switch and Data
-      date: '2009-10-21'
-      price: 689000000
-    - acquiree: ancotel
-      date: '2012-05-16'
-    - acquiree: Asia Tone Limited
-      date: '2012-07-09'
-      price: 230500000
-    - acquiree: Kleyer 90 Carrier Hotel
-      date: '2013-10-09'
-    - acquiree: Alog Data Centers do Brasil
-      date: '2014-07-24'
-    - acquiree: Nimbo
-      date: '2015-01-22'
-    - acquiree: Bit-isle Equinix, Inc.
-      date: '2015-12-09'
-    - acquiree: TelecityGroup
-      date: '2016-01-16'
-      price: 3600000000
-    - acquiree: Itconic Innovate IT
-      date: '2017-09-11'
-      price: 259000000
-    - acquiree: Metronode
-      date: '2017-12-17'
-      price: 792000000
-    - acquiree: Packet
-      date: '2020-01-15'
-      price: 355000000
-    - acquiree: GPX India
-      date: '2020-08-11'
-      price: 161000000
-    - acquiree: MainOne
-      date: '2021-12-07'
-      price: 320000000
-    city: Redwood City
-    company_type: For Profit
-    country: United States
-    description: Equinix is an internet company that provides data center services
-      for companies, businesses, and organizations.
-    funding: 1443500126
-    homepage: http://www.equinix.com
-    industries:
-    - Cloud Data Services
-    - Data Center
-    - Information Technology
-    - Infrastructure
-    - Internet
-    - Software
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/equinix
-    name: Equinix
-    num_employees_max: 10000
-    num_employees_min: 5001
-    parents: []
-    region: California
-    stockExchange: nasdaq
-    ticker: EQIX
-    twitter: http://twitter.com/equinix
+- crunchbase: https://www.crunchbase.com/organization/equinix
   homepage_url: https://www.equinix.com/
-  image_data:
-    fileName: equinix-member.svg
-    hash: 0gI+38CHducbypS38qLt4ZyIxPl/bxfij3XrHOGrku0=
   item: null
+  joined: '2019-11-01'
   logo: equinix.svg
   name: Equinix (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 23:06:01+00:00
-  yahoo_finance_data:
-    effective_ticker: EQIX
-    market_cap: 63525863424
+- crunchbase: https://www.crunchbase.com/organization/ericsson
+  homepage_url: https://www.ericsson.com/en
+  item: null
+  joined: '2018-12-01'
+  logo: ericsson-member.svg
+  name: Ericsson (member)

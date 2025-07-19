@@ -1,31 +1,8 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/jd-cloud
-  crunchbase_data:
-    acquisitions: []
-    city: Beijing
-    company_type: ''
-    country: China
-    description: "JD Cloud is JD.com\u2019s full-service cloud computing platform\
-      \ and integrated cloud service provider."
-    homepage: https://www.jdcloud.com/en/
-    industries: []
-    linkedin: null
-    name: JD Cloud
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Beijing
-    stockExchange: null
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/jd-cloud
   description: JDOS is Jingdong Datacenter OS for automated management of shared container
     clusters and containerized applications in a scalable and elastic manner. The
     key systems include ContainerFS, ContainerDNS and ContainerLB.
-  homepage_url: http://tig.jd.com/en/products/jdos
-  image_data:
-    fileName: jd-com-jdos.svg
-    hash: Jd7tpOY2cisZBAAnFPbsKtNeJ5KRPmChbX3sH9mkkE4=
+  homepage_url: https://global.jd.com/
   item: null
   logo: jd.com.svg
   name: JD.com JDOS

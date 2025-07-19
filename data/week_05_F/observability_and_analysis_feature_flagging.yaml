@@ -1,0 +1,37 @@
+- crunchbase: https://www.crunchbase.com/organization/featurehub
+  description: 'FeatureHub is a Cloud Native Feature Flags, Remote Configuration and
+    A/B Testing Platform suitable for mobile, web and server applications and available
+    with the variety of SDKs. Self-hosted open source or SaaS options are available. '
+  extra:
+    blog_url: https://www.featurehub.io/blog
+    linkedin_url: https://www.linkedin.com/company/featurehub/
+    slack_url: https://anyways-labs.slack.com
+    youtube_url: https://www.youtube.com/@featurehub2328
+  homepage_url: https://www.featurehub.io/
+  item: null
+  logo: featurehub.svg
+  name: FeatureHub
+  repo_url: https://github.com/featurehub-io/featurehub
+  twitter: https://x.com/HubFeature
+- crunchbase: https://www.crunchbase.com/organization/bullet-train
+  extra:
+    blog_url: https://www.flagsmith.com/blog
+    slack_url: https://discord.gg/hFhxNtXzgm
+    youtube_url: https://www.youtube.com/channel/UCki7GZrOdZZcsV9rAIRchCw
+  homepage_url: https://www.flagsmith.com/
+  item: null
+  logo: flagsmith.svg
+  name: Flagsmith
+  repo_url: https://github.com/Flagsmith/flagsmith
+- crunchbase: https://www.crunchbase.com/organization/flipt-36c0
+  description: Open source, self-hosted, developer first, feature flagging and dynamic
+    configuration service
+  extra:
+    blog_url: https://flipt.io/blog
+  homepage_url: https://flipt.io
+  item: null
+  logo: flipt.svg
+  name: Flipt
+  repo_url: https://github.com/flipt-io/flipt
+  twitter: https://twitter.com/flipt_io
+  url_for_bestpractices: https://bestpractices.coreinfrastructure.org/en/projects/3498

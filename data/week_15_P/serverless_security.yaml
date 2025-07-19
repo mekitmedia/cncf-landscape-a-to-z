@@ -1,74 +1,10 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/prisma-cloud
-  crunchbase_data:
-    acquisitions: []
-    city: Santa Clara
-    company_type: For Profit
-    country: United States
-    description: A complete cloud native application protection platform that secures
-      infrastructure and applications across cloud environments.
-    funding: 65000000
-    homepage: https://www.paloaltonetworks.com/prisma/cloud
-    industries:
-    - Cloud Security
-    - Cyber Security
-    - Security
-    kind: market_cap
-    linkedin: https://www.linkedin.com/products/palo-alto-networks-prisma-cloud/
-    name: Prisma Cloud
-    num_employees_max: 1000
-    num_employees_min: 501
-    parents:
-    - https://www.crunchbase.com/organization/palo-alto-networks
-    region: California
-    stockExchange: null
-    ticker: PANW
-    twitter: https://twitter.com/prisma_cloud
+- crunchbase: https://www.crunchbase.com/organization/prisma-cloud
   homepage_url: https://www.paloaltonetworks.com/prisma/cloud
-  image_data:
-    fileName: prisma-cloud-by-palo-alto-networks.svg
-    hash: iDmAt4Pm5KEULVn2L2y/0CcyOM2hSUiDS6N9k+JRXkU=
   item: null
   logo: prisma-cloud-palo-alto.svg
   name: Prisma Cloud by Palo Alto Networks
-  twitter_data:
-    latest_tweet_date: 2022-08-05 21:46:51+00:00
-  yahoo_finance_data:
-    effective_ticker: PANW
-    market_cap: 49954201600
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/protego-labs
-  crunchbase_data:
-    acquisitions: []
-    city: Baltimore
-    company_type: For Profit
-    country: United States
-    description: Protego  is a developer of a security solution built for serverless
-      based in Baltimore.
-    funding: 2000000
-    homepage: https://www.protego.io/
-    industries:
-    - Computer
-    - Network Security
-    kind: funding
-    linkedin: https://www.linkedin.com/company/protego-labs/
-    name: Protego Labs
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: Maryland
-    stockExchange: null
-    twitter: https://twitter.com/ProtegoLabs
+- crunchbase: https://www.crunchbase.com/organization/protego-labs
   homepage_url: https://www.checkpoint.com
-  image_data:
-    fileName: protego.svg
-    hash: NkyYadPncCCHAoh5yBuXWb+PZuaB8oHyqhYlbyTNs94=
   item: null
   logo: protego.svg
   name: Protego
-  twitter_data:
-    latest_tweet_date: 2020-03-02 23:26:06+00:00

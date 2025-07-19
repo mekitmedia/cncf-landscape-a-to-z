@@ -1,72 +1,13 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/netease-com
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Grasshopper Manufacture
-      date: '2021-10-22'
-    city: Hangzhou
-    company_type: For Profit
-    country: China
-    description: 'NetEase, Inc. (NASDAQ: NTES) is a leading internet technology company
-      dedicated to providing premium online services.'
-    funding: 0
-    homepage: https://www.neteasegames.com/
-    industries:
-    - Advertising
-    - Gaming
-    - Mobile
-    - Mobile Apps
-    - Music
-    - PC Games
-    - Venture Capital
-    - Wireless
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/netease
-    name: NetEase
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents: []
-    region: Zhejiang
-    stockExchange: hkg
-    ticker: 9999.HK
-    twitter: https://twitter.com/neteaseofficial?lang=en
-  github_data:
-    contributions: 14;10;0;0;1;2;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-    contributors_count: 11
-    contributors_link: https://github.com/hango-io/hango-gateway/graphs/contributors
-    description: Hango API Gateway, build on Envoy & Istio.
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#89e051'
-      name: Shell
-      value: 8173
-    - name: Mustache
-      value: 1908
-    latest_commit_date: '2022-01-13T05:29:20Z'
-    latest_commit_link: /hango-io/hango-gateway/commit/073d11f2c32081286ec11c2db0eba05958ce6eee
-    license: Apache License 2.0
-    release_date: '2021-08-10T09:04:52Z'
-    release_link: https://github.com/hango-io/hango-gateway/releases
-    stars: 352
-  github_start_commit_data:
-    start_commit_link: /hango-io/hango-gateway/commit/e986210913db2f2d62c64586d35f711decf0cf4a
-    start_date: '2021-08-04T11:13:06Z'
+- crunchbase: https://www.crunchbase.com/organization/netease-com
   homepage_url: https://github.com/hango-io
-  image_data:
-    fileName: hango.svg
-    hash: fnD0/ww4gRu3eDbvfYFCgZuNcuGUH/2PupP7UBO+wj0=
   item: null
   logo: Hango.svg
   name: Hango
   repo_url: https://github.com/hango-io/hango-gateway
-  repos:
-  - stars: 352
-    url: https://github.com/hango-io/hango-gateway
   twitter: https://twitter.com/NetEase_Global
-  twitter_data:
-    latest_tweet_date: 2022-08-02 08:34:40+00:00
-  yahoo_finance_data:
-    effective_ticker: 9999.HK
-    market_cap: 58973992918
+- crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
+  homepage_url: https://higress.io
+  item: null
+  logo: higress.svg
+  name: Higress
+  repo_url: https://github.com/alibaba/higress

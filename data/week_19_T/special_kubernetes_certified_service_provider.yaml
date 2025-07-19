@@ -1,514 +1,92 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/gravitational
-  crunchbase_data:
-    acquisitions: []
-    city: Oakland
-    company_type: For Profit
-    country: United States
-    description: Teleport access plane consolidates connectivity, authentication,
-      authorization, and audit into a single platform.
-    funding: 169200000
-    homepage: http://goteleport.com/
-    industries:
-    - Cloud Data Services
-    - Cloud Infrastructure
-    - Identity Management
-    - Privacy
-    kind: funding
-    linkedin: https://www.linkedin.com/company/go-teleport/
-    name: Teleport
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/goteleport
+- crunchbase: https://www.crunchbase.com/organization/t-systems
+  description: Our team of CNCF certified Kubernetes experts have extensive experience
+    working with a wide range of industries and can help you design and implement
+    a solution that meets your specific needs.
+  homepage_url: https://www.t-systems.com/de/en/cloud-services/cloud-application-services/managed-container-stack
+  item: null
+  logo: t-systems.svg
+  name: T-Systems (KCSP)
+- crunchbase: https://www.crunchbase.com/organization/itera-technologies-a-s
+  description: Taikun is on a mission to make kubernetes cloud infrastructure easy
+    to access, easy to deploy and manage, putting users first and making things simple.
+  homepage_url: https://taikun.cloud/kubernetes-professional-services/
+  item: null
+  logo: taikun.svg
+  name: Taikun (KCSP)
+- crunchbase: https://www.crunchbase.com/organization/gravitational
   description: 'Our open source solutions empower you to package your K8s clusters
     so they run by themselves anywhere: multi-cloud, on-premises, and even air-gapped.'
   homepage_url: https://goteleport.com
-  image_data:
-    fileName: teleport-kcsp.svg
-    hash: uYtKCKS4sgCTNIKJvY9+j4YbvJIntNwscJvTUP65bCU=
   item: null
   logo: teleport.svg
   name: Teleport (KCSP)
-  twitter_data:
-    latest_tweet_date: 2022-08-06 01:19:00+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/tencent
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Shenzhen Domain Networks
-      date: '2010-04-20'
-    - acquiree: Comsenz
-      date: '2010-08-23'
-    - acquiree: Riot Games
-      date: '2011-02-01'
-      price: 400000000
-    - acquiree: Zam
-      date: '2012-03-01'
-    - acquiree: Linktech Navi
-      date: '2014-01-26'
-    - acquiree: Cloudary
-      date: '2015-01-27'
-    - acquiree: Miniclip
-      date: '2015-02-18'
-    - acquiree: Supercell
-      date: '2016-06-21'
-      price: 8600000000
-    - acquiree: Tencent Music Entertainment
-      date: '2016-07-14'
-      price: 2700000000
-    - acquiree: Sanook
-      date: '2016-12-22'
-    - acquiree: Grinding Gear Games
-      date: '2018-05-21'
-    - acquiree: Cat Cake
-      date: '2018-08-22'
-    - acquiree: Sharkmob
-      date: '2019-05-21'
-    - acquiree: iflix
-      date: '2020-06-24'
-    - acquiree: Leyou Technologies Holdings
-      date: '2020-08-28'
-      price: 1400000000
-    - acquiree: Sogou
-      date: '2020-09-29'
-      price: 3500000000
-    - acquiree: 10 Chambers Collective
-      date: '2020-10-01'
-    - acquiree: Klei Entertainment
-      date: '2021-01-24'
-    - acquiree: YAGER
-      date: '2021-06-22'
-    - acquiree: Stunlock Studios
-      date: '2021-07-19'
-    - acquiree: Sumo Group plc
-      date: '2021-07-19'
-      price: 1230096358
-    - acquiree: Wake Up Interactive
-      date: '2021-11-11'
-      price: 44000000
-    - acquiree: Turtle Rock Studios
-      date: '2021-12-17'
-    - acquiree: Inflexion Games
-      date: '2022-02-22'
-    - acquiree: 1C Entertainment
-      date: '2022-02-25'
-    - acquiree: Tequila Works
-      date: '2022-03-15'
-    city: Shenzhen
-    company_type: For Profit
-    country: China
-    description: Tencent is an internet service portal offering value-added internet,
-      mobile, telecom, and online advertising services.
-    funding: 12576770000
-    homepage: https://www.tencent.com/en-us/
-    industries:
-    - Advertising
-    - Internet
-    - Online Games
-    - Online Portals
-    - Social Media Marketing
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/166328/
-    name: Tencent
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents: []
-    region: Guangdong
-    stockExchange: hkg
-    ticker: 0700.HK
-    twitter: https://twitter.com/tencentglobal
+- crunchbase: https://www.crunchbase.com/organization/tencent
   description: Tencent Cloud offers high performing technology with the right amount
     of human touch to help you build and scale the solution optimized for your business.
     Tencent Kubernetes Engine helps customers quickly build a native Kubernetes architecture
     in Tencent Cloud.
   homepage_url: https://intl.cloud.tencent.com/products/tke
-  image_data:
-    fileName: tencent-cloud-kcsp.svg
-    hash: 8lyQ008CrQ0AhWYe0J8gO3EQJ8VPmGDvokqjpcaLDDU=
   item: null
   logo: tencent-cloud.svg
   name: Tencent Cloud (KCSP)
-  twitter: null
-  yahoo_finance_data:
-    effective_ticker: 0700.HK
-    market_cap: 376891200216
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/tenxcloud
-  crunchbase_data:
-    acquisitions: []
-    city: Beijing
-    company_type: For Profit
-    country: China
-    description: TenxCloud is a provider of container cloud platforms and solutions.
-    funding: 0
-    homepage: https://www.tenxcloud.com/
-    industries:
-    - Computer
-    - Information Technology
-    - Internet
-    - Software
-    linkedin: https://www.linkedin.com/company/%E6%97%B6%E9%80%9F%E4%BA%91
-    name: TenxCloud
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Beijing
-    stockExchange: null
-    twitter: null
-  description: TenxCloud is a leading enterprise container cloud computing service
-    provider in China, covering the areas such as container PaaS cloud platform, micro-service
-    management, DevOps, development test, AIOps and so on.
-  homepage_url: https://www.tenxcloud.com/
-  image_data:
-    fileName: tenx-cloud-kcsp.svg
-    hash: 6D7D72F3jw+aLm8TKMYeQuaV3crlbDy5Xi+s396QxD0=
+- crunchbase: https://www.crunchbase.com/organization/tenxcloud
+  description: TenxCloud is a professional cloud native application and data platform
+    service provider. Adhering to the mission of "making computing generate value
+    and making data an asset", it provides complete digital products and services
+    for medium and large enterprise users, and works together to promote the construction
+    of Digital China. As a Kubernetes Certified Service Provider (KCSP), TenxCloud
+    has internationally recognized qualifications for Kubernetes service provision,
+    consulting, and training.
+  homepage_url: https://www.tenxcloud.com/train-auth-en?tab=train
   item: null
   logo: tenxcloud.svg
   name: TenxCloud (KCSP)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/terasky
-  crunchbase_data:
-    acquisitions: []
-    city: Petah Tikwah
-    company_type: For Profit
-    country: Israel
-    description: TeraSky is a highly-skilled Advanced Technology Solutions Provider,
-      designing, deploying  supporting complex IT Legacy & Cloud architectures
-    homepage: http://www.terasky.com/
-    industries:
-    - Artificial Intelligence
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Consulting
-    - Cyber Security
-    - Information Technology
-    - Machine Learning
-    - Software
-    linkedin: https://www.linkedin.com/company/1510957
-    name: TeraSky
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: HaMerkaz
-    stockExchange: null
-    twitter: https://twitter.com/TeraSkycom1
+- crunchbase: https://www.crunchbase.com/organization/terasky
   description: 'Highly skilled DevOps company, focused on accelerating customers success.
     TeraSky offers Professional services, training and support for: Kubernetes, containers,
     security and cloud infrastructure. TeraSky customers market segments varies from
     startups to enterprise customers.'
   homepage_url: https://www.terasky.com
-  image_data:
-    fileName: tera-sky-kcsp.svg
-    hash: xJjsfcKWHSx7vgh1+4/WcVBgin6eC9R8jkOO9Gm7c1E=
   item: null
   logo: terasky.svg
   name: TeraSky (KCSP)
-  twitter_data:
-    latest_tweet_date: 2022-08-03 10:47:54+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/the-scale-factory
-  crunchbase_data:
-    acquisitions: []
-    city: London
-    company_type: For Profit
-    country: United Kingdom
-    description: DevOps & Cloud Infrastructure Consultancy
-    homepage: http://www.scalefactory.com
-    industries:
-    - Cloud Computing
-    - Consulting
-    - Information Technology
-    - Infrastructure
-    - Legal
-    - Linux
-    - Software
-    linkedin: https://www.linkedin.com/company/the-scale-factory/
-    name: The Scale Factory
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: England
-    stockExchange: null
-    twitter: http://twitter.com/scalefactory
+- crunchbase: https://www.crunchbase.com/organization/the-scale-factory
   description: We help technology teams deliver great cloud native solutions on AWS.
   homepage_url: https://www.scalefactory.com/
-  image_data:
-    fileName: the-scale-factory-kcsp.svg
-    hash: Df8sL0VM0X/MPszkK0mRsu/agaxjPdjY4NpVj3TRbV4=
   item: null
   logo: the-scale-factory-kcsp.svg
   name: The Scale Factory (KCSP)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 09:27:47+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/tidu
-  crunchbase_data:
-    acquisitions: []
-    city: Changsha
-    company_type: For Profit
-    country: China
-    description: Tidu Information Technology is an AI cloud computing company, integrating
-      R&D, promotion, and innovation.
-    funding: 2880000
-    homepage: http://tiduyun.com/
-    industries:
-    - Artificial Intelligence
-    - CRM
-    - Information Technology
-    - Software
-    kind: funding
-    linkedin: null
-    name: Tidu Information Technology
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: Jiangsu
-    stockExchange: null
-    twitter: null
-  description: Guangxi Tidu Co. Ltd. provides Kubernetes services, including consulting,
-    operation and maintenance, customized R&D, technical support, and knowledge training.
-    Based on Kubernetes, we also develop the Tidu intelligent cloud platform that
-    provides customers with operations management, continuous integration, image management,
-    application management, microservice management, etc.
-  homepage_url: https://tiduyun.com/kcsp
-  image_data:
-    fileName: tidu-kcsp.svg
-    hash: I1UqKC/dNUkC4x9qpBtznv7xqO+PEJ0iSIbf9ZAuDis=
+- crunchbase: https://www.crunchbase.com/organization/tigera
+  description: Calico helps solve complex use cases, accelerate your adoption process
+    of microservices and bring your team up to speed in operating and supporting your
+    application modernization initiative.
+  homepage_url: https://www.tigera.io/customer-success/
   item: null
-  logo: tidu.svg
-  name: Tidu (KCSP)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/tl-consulting-group
-  crunchbase_data:
-    acquisitions: []
-    city: Sydney
-    company_type: For Profit
-    country: Australia
-    description: TL Consulting Group is an independent Australian professional services
-      company focused on providing technical IT solutions.
-    homepage: https://tlconsulting.com.au/
-    industries:
-    - Information Services
-    - Information Technology
-    linkedin: https://www.linkedin.com/company/tl-consulting-group/?originalSubdomain=au
-    name: TL Consulting Group
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: New South Wales
-    stockExchange: null
-    twitter: null
-  description: TL Consulting offers extensive Kubernetes capabilities, including solutions
-    and services designed to baseline and further optimise your readiness to transition
-    into a Cloud Native environment.
-  homepage_url: https://tlconsulting.com.au/kubernetes-consulting/
-  image_data:
-    fileName: tl-consulting-group-kcsp.svg
-    hash: NOO0QFv2CARyUSktCE7ALMv7VegWRh+PQMF6tngbNi0=
+  logo: tigera.svg
+  name: Tigera (KCSP)
+- crunchbase: https://www.crunchbase.com/organization/tongtech
+  description: Beijing Tongtech Co., Ltd. helps all kinds of enterprises to maximize
+    the effectiveness of Kubernetes and meet the needs of enterprise business development.
+  homepage_url: https://tongtech.com/dft/kubernetes.html
   item: null
-  logo: tl-consulting-group.svg
-  name: TL Consulting Group (KCSP)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/traceroute42
-  crunchbase_data:
-    acquisitions: []
-    city: Szczecin
-    company_type: For Profit
-    country: Poland
-    description: Traceroute42 provides technical expertise, guidance and knowledge,
-      managed services, and reliable support.
-    funding: 0
-    homepage: https://traceroute42.com
-    industries:
-    - Consulting
-    - Information Technology
-    - Technical Support
-    linkedin: https://www.linkedin.com/company/traceroute42/
-    name: Traceroute42 - Your go-to Kubernetes, DevOps and Cloud engineers!
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: Zachodniopomorskie
-    stockExchange: null
-    twitter: https://twitter.com/traceroute42
+  logo: tongtech.svg
+  name: TongTech (KCSP)
+- crunchbase: https://www.crunchbase.com/organization/traceroute42
   description: Maximize the benefits of Kubernetes implementation without overloading
     your core team. TraceRoute42 provides expertise, training and technical consulting
     so you can focus on the business value.
   homepage_url: https://www.traceroute42.com/services
-  image_data:
-    fileName: trace-route42-kcsp.svg
-    hash: +qBnN/dX683//zn1doQwG5qNQ0e4qeGe5zLFJ/S+64I=
   item: null
   logo: traceroute42.svg
   name: TraceRoute42 (KCSP)
-  twitter_data:
-    latest_tweet_date: 2022-07-29 11:12:14+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/translucent-computing
-  crunchbase_data:
-    acquisitions: []
-    city: Toronto
-    company_type: For Profit
-    country: Canada
-    description: Professional Services in Cloud Native DevOps and Applications with
-      Kubernetes. Cost effective consulting and implementation focused on ROI.
-    homepage: http://www.translucentcomputing.com
-    industries:
-    - Big Data
-    - Cloud Infrastructure
-    - Consulting
-    - Developer Platform
-    - Information Technology
-    - Mobile
-    - Software
-    linkedin: https://www.linkedin.com/company/translucent-computing-inc
-    name: Translucent Computing
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Ontario
-    stockExchange: null
-    twitter: http://twitter.com/translucentcomp
-  description: Professional Services in Cloud Native DevOps and Applications with
-    Kubernetes. Cost effective consulting and implementation focused on ROI.
-  homepage_url: https://www.translucentcomputing.com/
-  image_data:
-    fileName: translucent-computing-kcsp.svg
-    hash: a6j4DTdOdd9T/bVNbniZJAbKYHHlRs08h4tAvDwwKxg=
-  item: null
-  logo: translucent-computing.svg
-  name: Translucent Computing (KCSP)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 13:01:21+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/transwarp
-  crunchbase_data:
-    acquisitions: []
-    city: Xuhui
-    company_type: For Profit
-    country: China
-    description: Transwarp develops big data software technologies for enterprises.
-    funding: 189181487
-    homepage: http://www.transwarp.io/
-    industries:
-    - Big Data
-    - Data Center
-    - Information Technology
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/%E6%98%9F%E7%8E%AF%E4%BF%A1%E6%81%AF%E7%A7%91%E6%8A%80%EF%BC%88%E4%B8%8A%E6%B5%B7%EF%BC%89%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/
-    name: Transwarp
-    num_employees_max: 1000
-    num_employees_min: 501
-    parents: []
-    region: Shanghai
-    stockExchange: null
-    twitter: https://twitter.com/transwarp_data
-  homepage_url: https://www.transwarp.cn
-  image_data:
-    fileName: transwarp-kcsp.svg
-    hash: oic7OHNAAJ2rTPI2EK37A7bPmkHxq2lWZCloCyW0+Gc=
-  item: null
-  logo: transwarp.svg
-  name: Transwarp (KCSP)
-  twitter_data:
-    latest_tweet_date: 2018-03-11 05:46:08+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/true-6787
-  crunchbase_data:
-    acquisitions: []
-    city: Amsterdam
-    company_type: For Profit
-    country: The Netherlands
-    description: We are True, partner for digital minded companies. We help companies
-      with the continuity and modernization of their applications.
-    homepage: https://www.true.nl/
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Cloud Management
-    - Private Cloud
-    - Software
-    - Web Apps
-    - Web Development
-    - Web Hosting
-    linkedin: https://www.linkedin.com/company/true-b-v/
-    name: 'TRUE'
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: Noord-Holland
-    stockExchange: null
-    twitter: https://twitter.com/true_nl/
+- crunchbase: https://www.crunchbase.com/organization/true-6787
   description: True offers Fully Managed Kubernetes to cloud native-minded organizations.
     With our extensive knowledge and experience we can fasttrack your technical ambitions.
     Our 100+ engineers provide 24x7 support on platforms running on our own Private
     Cloud or Azure. From extensive onboarding training to the management of your production
     cluster, True operates as one with your developers.
   homepage_url: https://www.true.nl/services/kubernetes/
-  image_data:
-    fileName: true-kcsp.svg
-    hash: VXM8iE8jQ6XTai72SEYnYuRodzvQM7GuJiR/LLIsybk=
   item: null
   logo: true.svg
   name: True (KCSP)
   twitter: https://twitter.com/true_nl
-  twitter_data:
-    latest_tweet_date: 2022-07-29 08:06:54+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/tynybay
-  crunchbase_data:
-    acquisitions: []
-    city: Walnut
-    company_type: For Profit
-    country: United States
-    description: Building an ecosystem for enterprises to advance their cloud-native
-      initiatives
-    homepage: https://www.tynybay.com/
-    industries:
-    - Software
-    linkedin: https://www.linkedin.com/company/tynybay/
-    name: TYNYBAY
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: null
-  description: We founded TYNYBAY Inc. with the mission to build an ecosystem for
-    enterprises to advance their Cloud Native initiatives. We are a remote Cloud Native
-    partner for enterprises.
-  homepage_url: https://www.tynybay.com/kubernetes
-  image_data:
-    fileName: tynybay-kcsp.svg
-    hash: wGvXQ7MoKMn8eExG5QjbOewko69rc0SXiiUkfpv3Np8=
-  item: null
-  logo: tynybay.svg
-  name: TYNYBAY (KCSP)

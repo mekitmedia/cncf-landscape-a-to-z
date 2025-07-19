@@ -1,77 +1,7 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/scality
-  crunchbase_data:
-    acquisitions: []
-    city: Paris
-    company_type: For Profit
-    country: France
-    description: Scality is a venture-backed software company that solves problems
-      associated with large-scale storage management and infrastructure.
-    funding: 172000000
-    homepage: http://scality.com/
-    industries:
-    - Cloud Data Services
-    - Data Storage
-    - Enterprise Software
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/scality
-    name: Scality
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: Ile-de-France
-    stockExchange: null
-    twitter: http://twitter.com/scality
-  github_data:
-    contributions: 0;0;1;3;15;5;5;6;18;18;19;18;10;22;13;24;2;7;13;8;20;24;38;15;6;3;20;22;27;6;19;8;19;15;2;10;7;2;3;8;11;3;4;17;28;7;11;4;10;13;13;10
-    contributors_count: 67
-    contributors_link: https://github.com/scality/zenko/graphs/contributors
-    description: 'Zenko is the open source multi-cloud data controller: own and keep
-      control of your data on any cloud.'
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#f1e05a'
-      name: JavaScript
-      value: 344662
-    - name: Mustache
-      value: 68316
-    - color: '#89e051'
-      name: Shell
-      value: 61483
-    - color: '#3572A5'
-      name: Python
-      value: 24090
-    - color: '#384d54'
-      name: Dockerfile
-      value: 5887
-    - color: '#427819'
-      name: Makefile
-      value: 729
-    - name: Awk
-      value: 186
-    latest_commit_date: '2022-08-04T16:18:08Z'
-    latest_commit_link: /scality/Zenko/commit/a7ec723f38eb5c313275086e74491614cb2f3198
-    license: Apache License 2.0
-    release_date: '2022-08-03T20:12:56Z'
-    release_link: https://github.com/scality/zenko/releases
-    stars: 442
-  github_start_commit_data:
-    start_commit_link: /scality/Zenko/commit/b6257ce130f1bfc72263de06ea43f475d649eae5
-    start_date: '2017-06-14T22:41:34Z'
+- crunchbase: https://www.crunchbase.com/organization/scality
   homepage_url: https://www.zenko.io
-  image_data:
-    fileName: zenko.svg
-    hash: ZBPLCfn3ot99rp9V7t0r3bPnIJA/u3C+jqWusT5qLak=
   item: null
   logo: zenko.svg
   name: Zenko
   repo_url: https://github.com/scality/zenko
-  repos:
-  - stars: 442
-    url: https://github.com/scality/zenko
   twitter: https://twitter.com/zenko
-  twitter_data:
-    latest_tweet_date: 2020-09-29 00:15:04+00:00

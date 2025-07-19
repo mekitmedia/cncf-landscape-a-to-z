@@ -1,329 +1,129 @@
-- best_practice_data:
-    badge: 1768
-    percentage: 100
+- crunchbase: https://www.crunchbase.com/organization/permit-io
+  description: Policy and data administration, distribution, and real-time updates
+    on top of Policy Agents (OPA, Cedar, ...)
+  extra:
+    slack_url: https://io.permit.io/opal-slack
+  homepage_url: https://www.opal.ac
+  item: null
+  logo: opal.svg
+  name: Open Policy Administration Layer (OPAL)
+  repo_url: https://github.com/permitio/opal
+  twitter: https://twitter.com/opal_ac
+- allow_duplicate_repo: true
   crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Kubernetes
-      date: '2016-03-10'
-    - acquiree: RethinkDB
-      date: '2017-02-06'
-      price: 25000
-    city: San Francisco
-    company_type: Non Profit
-    country: United States
-    description: CNCF is an open source software foundation that hosts and nurtures
-      projects like Kubernetes and Prometheus.
-    funding: 3000000
-    homepage: https://www.cncf.io
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Non Profit
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
-    name: Cloud Native Computing Foundation (CNCF)
-    num_employees_max: 50
-    num_employees_min: 11
-    parents:
-    - https://www.crunchbase.com/organization/linux-foundation
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/CloudNativeFdn
   extra:
     accepted: '2018-03-29'
     artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#opa-logos
+    audits:
+    - date: '2018-08-30'
+      type: security
+      url: https://cure53.de/pentest-report_opa.pdf
+      vendor: Cure53
     blog_url: https://blog.openpolicyagent.org/
+    clomonitor_name: opa
     dev_stats_url: https://opa.devstats.cncf.io/
+    graduated: '2021-01-29'
+    incubating: '2019-04-02'
     slack_url: http://slack.openpolicyagent.org/
-    stack_overflow_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#opa-logos
-  github_data:
-    contributions: 8;14;8;5;0;8;13;13;24;14;10;22;13;15;16;11;30;20;29;5;4;17;17;18;17;21;9;10;13;17;12;16;24;28;21;7;12;19;9;10;5;5;10;25;7;18;13;19;15;16;15;5
-    contributors_count: 313
-    contributors_link: https://github.com/open-policy-agent/opa/graphs/contributors
-    description: An open source, general-purpose policy engine.
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 5806964
-    - color: '#555555'
-      name: C
-      value: 894570
-    - color: '#f34b7d'
-      name: C++
-      value: 707960
-    - color: '#427819'
-      name: Makefile
-      value: 21956
-    - name: Open Policy Agent
-      value: 16709
-    - color: '#89e051'
-      name: Shell
-      value: 15005
-    - color: '#f1e05a'
-      name: JavaScript
-      value: 14203
-    - color: '#3572A5'
-      name: Python
-      value: 6039
-    - color: '#384d54'
-      name: Dockerfile
-      value: 2799
-    latest_commit_date: '2022-08-04T15:35:40Z'
-    latest_commit_link: /open-policy-agent/opa/commit/73c943e9ff84b318cf46ac950d27e34f5af382df
-    license: Apache License 2.0
-    release_date: '2022-07-29T21:28:29Z'
-    release_link: https://github.com/open-policy-agent/opa/releases
-    stars: 6928
-  github_start_commit_data:
-    start_commit_link: /open-policy-agent/opa/commit/7eb56674c51d286afa134861ba282bf7a13668c6
-    start_date: '2015-12-28T22:08:25Z'
   homepage_url: https://www.openpolicyagent.org/
-  image_data:
-    fileName: open-policy-agent-opa.svg
-    hash: 1tC4W5h6uvHUbgyUMfw6qLf6VLngchvlURGNNNLuDzM=
   item: null
   logo: opa.svg
   name: Open Policy Agent (OPA)
   project: graduated
   repo_url: https://github.com/open-policy-agent/opa
-  repos:
-  - stars: 6928
-    url: https://github.com/open-policy-agent/opa
+  second_path:
+  - Serverless / Embedded Functions
   twitter: https://twitter.com/openpolicyagent
-  twitter_data:
-    latest_tweet_date: 2022-08-05 15:01:45+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/red-hat
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Akopia
-      date: '2001-01-31'
-    - acquiree: NOCpulse
-      date: '2002-10-07'
-    - acquiree: Sistina Software
-      date: '2003-12-18'
-      price: 31000000
-    - acquiree: JBoss
-      date: '2004-02-20'
-      price: 350000000
-    - acquiree: MetaMatrix
-      date: '2007-06-02'
-    - acquiree: Amentra
-      date: '2008-03-14'
-    - acquiree: Identyx
-      date: '2008-06-19'
-    - acquiree: Qumranet
-      date: '2008-09-04'
-    - acquiree: Makara
-      date: '2010-11-30'
-    - acquiree: Gluster
-      date: '2011-10-04'
-      price: 136000000
-    - acquiree: FuseSource
-      date: '2012-06-27'
-    - acquiree: Polymita Technologies
-      date: '2012-08-28'
-    - acquiree: BPM Technology
-      date: '2012-08-29'
-    - acquiree: ManageIQ
-      date: '2012-12-22'
-    - acquiree: Inktank
-      date: '2014-04-30'
-      price: 175000000
-    - acquiree: eNovance
-      date: '2014-06-18'
-      price: 95074205
-    - acquiree: FeedHenry
-      date: '2014-09-18'
-      price: 82000000
-    - acquiree: Red Hat Ansible
-      date: '2015-10-16'
-      price: 150000000
-    - acquiree: 3scale
-      date: '2016-06-22'
-    - acquiree: Codenvy
-      date: '2017-05-25'
-    - acquiree: Permabit Technology Corporation
-      date: '2017-07-31'
-    - acquiree: CoreOS
-      date: '2018-01-30'
-      price: 250000000
-    - acquiree: NooBaa
-      date: '2018-11-27'
-    - acquiree: StackRox
-      date: '2021-01-07'
-    city: Raleigh
-    company_type: For Profit
-    country: United States
-    description: Red Hat is a multinational software company engaged in providing
-      open-source software products to the enterprise community.
-    funding: 0
-    homepage: http://www.redhat.com
-    industries:
-    - Enterprise Software
-    - Linux
-    - Open Source
-    - Operating Systems
-    - Software
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/red-hat
-    name: Red Hat
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents:
-    - https://www.crunchbase.com/organization/ibm
-    region: North Carolina
-    stockExchange: nyse
-    ticker: IBM
-    twitter: http://twitter.com/redhat
-  github_data:
-    contributions: 1;2;2;1;7;2;1;4;1;8;0;0;1;4;4;4;2;2;0;0;0;2;2;13;3;11;1;1;0;0;3;3;1;1;1;1;1;2;0;5;0;1;3;0;0;0;0;0;5;4;9;1
-    contributors_count: 138
-    contributors_link: https://github.com/OpenSCAP/openscap/graphs/contributors
-    description: NIST Certified SCAP 1.2 toolkit
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#EB8CEB'
-      name: XSLT
-      value: 15709599
-    - color: '#555555'
-      name: C
-      value: 4711551
-    - color: '#89e051'
-      name: Shell
-      value: 1078372
-    - color: '#3572A5'
-      name: Python
-      value: 130918
-    - name: CMake
-      value: 109938
-    - color: '#ecdebe'
-      name: Roff
-      value: 53908
-    - name: Rich Text Format
-      value: 49793
-    - color: '#f1e05a'
-      name: JavaScript
-      value: 25258
-    - color: '#0298c3'
-      name: Perl
-      value: 16341
-    - name: SWIG
-      value: 16314
-    - name: Smarty
-      value: 14476
-    - color: '#f34b7d'
-      name: C++
-      value: 3890
-    - color: '#563d7c'
-      name: CSS
-      value: 2278
-    - color: '#000080'
-      name: Lua
-      value: 61
-    latest_commit_date: '2022-08-03T07:50:26Z'
-    latest_commit_link: /OpenSCAP/openscap/commit/f81da4bd66dbe528ffa6be16aca36b93f3eec0a5
-    license: GNU Lesser General Public License v2.1
-    release_date: '2022-01-19T23:09:18Z'
-    release_link: https://github.com/OpenSCAP/openscap/releases
-    stars: 952
-  github_start_commit_data:
-    start_commit_link: /OpenSCAP/openscap/commit/768d2d13c7b95736738ce2a48db7f2e528c161fe
-    start_date: '2008-11-03T16:58:30Z'
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: A docker-inspired CLI for building, tagging, pushing, pulling, and
+    signing OPA policies to and from OCI-compliant registries.
+  extra:
+    accepted: '2022-12-13'
+    artwork_url: https://github.com/opcr-io/artwork
+    clomonitor_name: opcr
+    dev_stats_url: https://opcr.devstats.cncf.io/
+    slack_url: https://www.aserto.com/slack
+  homepage_url: https://openpolicycontainers.com
+  item: null
+  logo: open-policy-containers.svg
+  name: Open Policy Containers
+  project: sandbox
+  repo_url: https://github.com/opcr-io/policy
+  twitter: https://twitter.com/openpolicyreg
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: OpenFGA is a high performance and flexible authorization/permission
+    system built for developers and inspired by Google Zanzibar
+  extra:
+    accepted: '2022-09-14'
+    artwork_url: https://github.com/openfga/community/tree/main/brand-assets
+    clomonitor_name: openfga
+    dev_stats_url: https://openfga.devstats.cncf.io/
+    slack_url: https://cloud-native.slack.com/messages/openfga
+    summary_business_use_case: Application authorization is often implemented differently
+      across a company's applications and hard-coded in application code, making it
+      challenging to evolve and comprehend. This difficulty leads to poorly implemented
+      authorization, a top security risk identified by OWASP. OpenFGA provides a flexible,
+      centralized, and scalable authorization system to address this issue.
+    summary_integrations: OpenTelemetry, Prometheus, Jaeger, Docker, Helm
+    summary_intro_url: https://github.com/openfga
+    summary_personas: Platform Engineers, Security Engineers, Developers, Architects
+    summary_release_rate: Twice per month
+    summary_tags: Security, Authorization, Scalability, Cloud-Native, Developers
+    summary_use_case: OpenFGA enables developers to implement highly performant and
+      flexible authorization for their applications. It incorporates Relationship-Based
+      Access Control (ReBAC) and Attribute-Based Access Control (ABAC) concepts with
+      a domain-specific language that simplifies crafting authorization and permission
+      solutions, scalable to any use case and scale
+  homepage_url: https://openfga.dev
+  item: null
+  logo: openfga.svg
+  name: OpenFGA
+  project: sandbox
+  repo_url: https://github.com/openfga/openfga
+  twitter: https://twitter.com/OpenFGA
+- crunchbase: https://www.crunchbase.com/organization/red-hat
   homepage_url: https://www.open-scap.org/
-  image_data:
-    fileName: open-scap.svg
-    hash: 8hJhzJaQ0U5Z8qNnkk7qJvuVB3kmHG2oPXv0Ujh7VoM=
   item: null
   logo: openscap.svg
   name: OpenSCAP
   repo_url: https://github.com/OpenSCAP/openscap
-  repos:
-  - stars: 952
-    url: https://github.com/OpenSCAP/openscap
   twitter: https://twitter.com/OpenSCAP
-  twitter_data:
-    latest_tweet_date: 2022-07-21 12:47:54+00:00
-  yahoo_finance_data:
-    effective_ticker: IBM
-    market_cap: 118744473600
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/orca-security
-  crunchbase_data:
-    acquisitions:
-    - acquiree: RapidSec
-      date: '2022-01-19'
-    city: Los Angeles
-    company_type: For Profit
-    country: United States
-    description: Orca Security provides instant-on, workload-level security for AWS,
-      Microsoft Azure, and Google Cloud Platform.
-    funding: 632000000
-    homepage: https://orca.security
-    industries:
-    - Cloud Security
-    - Compliance
-    - Cyber Security
-    - Information Technology
-    - SaaS
-    kind: funding
-    linkedin: https://www.linkedin.com/company/orca-security
-    name: Orca Security
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/OrcaSec
+- additional_repos:
+  - repo_url: https://github.com/oscal-compass/compliance-trestle-agile-authoring
+  - repo_url: https://github.com/oscal-compass/compliance-to-policy
+  - repo_url: https://github.com/oscal-compass/compliance-trestle-demos
+  description: The OSCAL COMPASS project is set of tools that enable the creation,
+    validation, and governance of documentation artifacts for compliance needs. It
+    leverages NIST's OSCAL (Open Security Controls Assessment Language) as a standard
+    data format for interchange between tools and people, and provides an opinionated
+    approach to OSCAL SDK and adoption by policy engines.
+  extra:
+    accepted: '2024-06-21'
+    blog_url: https://dzone.com/articles/compass-compliance-part-1
+    clomonitor_name: oscal-compass
+    github_discussions_url: https://github.com/oscal-compass/community/discussions
+    mailing_list_url: https://groups.google.com/g/oscal-compass
+    slack_url: https://cloud-native.slack.com/archives/C06F3PEPNBW
+    summary_personas: Regulators, Control providers, Control assessors, System owners,
+      Compliance officers, Security teams, Auditors, Operators, Administrators, DevSecOps
+    summary_tags: compliance, security, risk, oscal, catalog, profile, component definition,
+      system security plan, system assessment plan, automation, devsecops, vulnerability,
+      cloud, opensource, nist, fedramp
+    youtube_url: https://www.youtube.com/@OSCAL-Compass
+  homepage_url: https://github.com/oscal-compass/community
+  item: null
+  logo: oscal-compass-color-stacked.svg
+  name: OSCAL-COMPASS
+  project: sandbox
+  repo_url: https://github.com/oscal-compass/compliance-trestle
+  url_for_bestpractices: https://pages.nist.gov/OSCAL/
+- crunchbase: https://www.crunchbase.com/organization/orca-security
   homepage_url: https://orca.security
-  image_data:
-    fileName: orca-security.svg
-    hash: UW59NVI8hFCRsAdfnM+g7IhmggK2iWrrxyjltgcRb9c=
   item: null
   logo: orcasec.svg
   name: Orca Security
-  twitter_data:
-    latest_tweet_date: 2022-08-05 17:45:03+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/oxeye-security
-  crunchbase_data:
-    acquisitions: []
-    city: Tel Aviv
-    company_type: For Profit
-    country: Israel
-    description: Cloud-native application security testing
-    funding: 5300000
-    homepage: https://www.oxeye.io/
-    industries:
-    - Cyber Security
-    - IT Management
-    - SaaS
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/72734261
-    name: Oxeye Security
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Tel Aviv
-    stockExchange: null
-    twitter: https://twitter.com/OxeyeSecurity
+- crunchbase: https://www.crunchbase.com/organization/oxeye-security
   homepage_url: https://oxeye.io
-  image_data:
-    fileName: oxeye.svg
-    hash: kscUppCPOxEOvBxGouqu+6+vPP0uVOtcQXYPM/KUNIc=
   item: null
   logo: oxeye.svg
   name: Oxeye
-  twitter_data:
-    latest_tweet_date: 2022-08-05 14:42:25+00:00

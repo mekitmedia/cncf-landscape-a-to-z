@@ -1,0 +1,86 @@
+- crunchbase: https://www.crunchbase.com/organization/catchpoint-systems
+  homepage_url: https://www.catchpoint.com/
+  item: null
+  logo: catchpoint.svg
+  name: Catchpoint
+- crunchbase: https://www.crunchbase.com/organization/causely-509c
+  description: Causely's Causal Reasoning Platform continuously analyzes observed
+    anomalies to automatically pinpoint root causes and trigger immediate remediation
+    actions.
+  extra:
+    documentation_url: https://docs.causely.ai/
+    homepage_url: https://www.causely.ai/blog
+    linkedin_url: https://www.linkedin.com/company/causely-ai/
+    summary_business_use_case: Causely reduces downtime and speeds up incident resolution
+      by identifying causal links across infrastructure. This improves developer velocity,
+      lowers operational risk, and reduces the cost of poor performance or failure
+      in production systems.
+    summary_integrations: AWS, Azure, GCP, OpenTelemetry, Prometheus, Kubernetes,
+      Helm, Grafana, Datadog, Elastic Search, Kafka
+    summary_intro_url: https://www.causely.ai/product
+    summary_personas: SREs, Engineers, Platform Engineers, DevOps Engineers, DevOps
+      practitioners
+    summary_tags: observability, causal reasoning, root cause analysis
+    summary_use_case: Causely helps engineering teams pinpoint root causes of software
+      regressions across services and deployments using eBPF and OpenTelemetry. It
+      detects causality, not just correlation, making it possible to ship code fearlessly
+      and recover faster from production issues.
+  homepage_url: https://www.causely.ai/
+  item: null
+  logo: causely.svg
+  name: Causely
+  twitter: https://twitter.com/Causelyai
+- crunchbase: https://www.crunchbase.com/organization/centreon
+  homepage_url: https://www.centreon.com/
+  item: null
+  logo: centreon.svg
+  name: Centreon
+  repo_url: https://github.com/centreon/centreon
+- crunchbase: https://www.crunchbase.com/organization/tribe29
+  homepage_url: https://checkmk.com/
+  item: null
+  logo: checkmk.svg
+  name: Checkmk
+  repo_url: https://github.com/Checkmk/checkmk
+- crunchbase: https://www.crunchbase.com/organization/chronosphere
+  homepage_url: https://chronosphere.io/
+  item: null
+  logo: chronosphere.svg
+  name: Chronosphere
+- crunchbase: https://www.crunchbase.com/organization/cloudwise
+  homepage_url: https://www.jiankongbao.com/
+  item: null
+  logo: cloudwise-synthetic-monitoring.svg
+  name: Cloudwise Synthetic Monitoring
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2018-09-20'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#cortex-logos
+    clomonitor_name: cortex
+    dev_stats_url: https://cortex.devstats.cncf.io/
+    incubating: '2020-08-20'
+    slack_url: https://cloud-native.slack.com/messages/cortex/
+    summary_business_use_case: 'Your platform team can use Cortex to provide individual
+      team within your organization a global view of their Prometheus metrics.
+
+      '
+    summary_integrations: Grafana, Prometheus, Slack, PagerDuty, Webhook, AWS SNS,
+      etc.
+    summary_release_rate: Every few months
+    summary_tags: observability, prometheus
+    summary_use_case: Horizontally scalable, highly available, multi-tenant, long
+      term storage for Prometheus.
+  homepage_url: https://cortexmetrics.io/
+  item: null
+  logo: cortex.svg
+  name: Cortex
+  project: incubating
+  repo_url: https://github.com/cortexproject/cortex
+  twitter: https://twitter.com/cortexmetrics
+- crunchbase: https://www.crunchbase.com/organization/coroot
+  homepage_url: https://coroot.com/
+  item: null
+  logo: coroot.svg
+  name: Coroot
+  repo_url: https://github.com/coroot/coroot
+  twitter: https://twitter.com/coroot_com

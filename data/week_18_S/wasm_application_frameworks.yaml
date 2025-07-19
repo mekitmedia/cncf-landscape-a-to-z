@@ -1,0 +1,24 @@
+- crunchbase: https://www.crunchbase.com/organization/loophole-labs-inc
+  homepage_url: https://scale.sh/
+  item: null
+  logo: scale.svg
+  name: Scale
+  repo_url: https://github.com/loopholelabs/scale
+  twitter: https://twitter.com/loopholelabs
+- crunchbase: https://www.crunchbase.com/organization/microsoft
+  homepage_url: https://deislabs.github.io/spiderlightning/
+  item: null
+  logo: spiderlightning.svg
+  name: SpiderLightning
+  repo_url: https://github.com/deislabs/spiderlightning
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Spin is a framework for building and deploying serverless applications
+    in WebAssembly.
+  extra:
+    accepted: '2025-01-21'
+    dev_stats_url: https://spin.devstats.cncf.io/
+  homepage_url: https://spinframework.dev
+  item: null
+  logo: spin.svg
+  name: Spin
+  repo_url: https://github.com/spinframework/spin

@@ -1,38 +1,15 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/yld
-  crunchbase_data:
-    acquisitions: []
-    city: London
-    company_type: For Profit
-    country: United Kingdom
-    description: YLD helps enterprises win by delivering mission critical software
-      built by the best web engineers in Europe
-    homepage: https://yld.io/
-    industries:
-    - Consulting
-    - Internet of Things
-    - Management Consulting
-    - Professional Services
-    - Software
-    - Software Engineering
-    linkedin: https://www.linkedin.com/company/5045725
-    name: YLD
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: England
-    stockExchange: null
-    twitter: https://twitter.com/yldio
+- crunchbase: https://www.crunchbase.com/organization/yld
   description: We modernise both practices and software. Applying expertise in a range
     of CNCF technologies and an inherent culture of innovation.
-  homepage_url: https://www.yld.io/speciality/kubernetes/
-  image_data:
-    fileName: yld-kcsp.svg
-    hash: f9JI/FxZ6bzBUNrxJ5IjMMqbRxFWoE7Pb82l7FHJhEo=
+  homepage_url: https://www.yld.io/
   item: null
   logo: yld-kcsp.svg
   name: YLD (KCSP)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 12:18:38+00:00
+- crunchbase: https://www.crunchbase.com/organization/yovily
+  description: We empower organizations to unlock the full potential of Kubernetes
+    with our expert services. We go beyond providing products, offering a comprehensive
+    approach that guides you through every step of your Kubernetes journey.
+  homepage_url: https://www.yovily.com/
+  item: null
+  logo: yovily.svg
+  name: Yovily (KCSP)

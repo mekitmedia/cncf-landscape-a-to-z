@@ -1,142 +1,38 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/national-association-of-insurance-commissioners-naic
-  crunchbase_data:
-    acquisitions: []
-    city: Kansas City
-    company_type: ''
-    country: United States
-    description: National Association Of Insurance Commisioner develop mobile applications.
-      The mission of the NAIC is to assist state insurance regulator
-    homepage: http://www.naic.org
-    industries:
-    - Education
-    - Insurance
-    - Non Profit
-    linkedin: null
-    name: National Association of Insurance Commissioners (NAIC)
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: Missouri
-    stockExchange: null
-    twitter: https://twitter.com/naic
+- crunchbase: https://www.crunchbase.com/organization/national-association-of-insurance-commissioners-naic
   enduser: true
   homepage_url: https://content.naic.org
-  image_data:
-    fileName: naic-member.svg
-    hash: 6yZSArujd4gf1mAqO0RgpBVHc4wKMhsXiENMsa52AgE=
   item: null
+  joined: '2018-03-01'
   logo: naic-member.svg
   name: NAIC (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-03 14:01:22+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/national-information-society-agency
-  crunchbase_data:
-    acquisitions: []
-    city: Daegu
-    company_type: For Profit
-    country: South Korea
-    description: National Information Society Agency develops policies related to
-      the promotion of informatization of Korean national institutions.
-    homepage: https://eng.nia.or.kr/
-    industries:
-    - Computer
-    - Information Services
-    - Service Industry
-    linkedin: null
-    name: National Information Society Agency
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Taegu-jikhalsi
-    stockExchange: null
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/national-information-society-agency
   homepage_url: https://www.nia.or.kr/site/nia_kor/main.do
-  image_data:
-    fileName: national-information-society-agency-member.svg
-    hash: +tpYXl5qPochaeLuCrrBlXkTAapn1WpHy9X4bjC3j2k=
   item: null
+  joined: '2020-12-01'
   logo: nia.svg
   name: National Information Society Agency (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/nipr
-  crunchbase_data:
-    acquisitions: []
-    city: Kansas City
-    company_type: ''
-    country: United States
-    description: National Insurance Producer Registry (NIPR) is a non-profit affiliate
-      of the National Association of Insurance Commissioners (NAIC).
-    homepage: http://www.nipr.com/index.html
-    industries: []
-    linkedin: null
-    name: NIPR
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: Missouri
-    stockExchange: null
-    twitter: http://twitter.com/niprcom
+- crunchbase: https://www.crunchbase.com/organization/national-it-industry-promotion-agency
+  homepage_url: https://www.nipa.kr
+  item: null
+  joined: '2025-03-01'
+  logo: nipa.svg
+  name: NIPA (member)
+- crunchbase: https://www.crunchbase.com/organization/nipr
   enduser: true
   homepage_url: https://www.nipr.com/
-  image_data:
-    fileName: nipr-member.svg
-    hash: TkR/rYFV6xguTnE2G94+SJ33DZDw9ZBbgXN5PIdIZ9s=
   item: null
+  joined: '2018-03-01'
   logo: nipr-member.svg
   name: NIPR (member)
-  twitter_data:
-    latest_tweet_date: 2022-07-22 16:52:08+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  crunchbase_data:
-    city: Bouvet Island
-    country: Antarctica
-    homepage: https://www.cncf.io
-    name: Non-Public Unnamed Organization
-    parents: []
-    region: Antarctica
-    twitter: https://twitter.com/CloudNativeFdn
-  enduser: true
+- enduser: true
   homepage_url: https://www.cncf.io/
-  image_data:
-    fileName: non-public-organization-octopus-member.svg
-    hash: B2Ohef0NiosszX70AVO8WWp8jiSfTckhtIdZDauKDLM=
   item: null
   logo: octopus.svg
   name: Non-Public Organization Octopus (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 21:09:37+00:00
   unnamed_organization: true
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  crunchbase_data:
-    city: Bouvet Island
-    country: Antarctica
-    homepage: https://www.cncf.io
-    name: Non-Public Unnamed Organization
-    parents: []
-    region: Antarctica
-    twitter: https://twitter.com/CloudNativeFdn
-  enduser: true
+- enduser: true
   homepage_url: https://www.cncf.io/
-  image_data:
-    fileName: non-public-organization-quail-member.svg
-    hash: F5LHYPdR3DLLWCrnZZ4fxigx/Fl+4tOUDqcX4G9fCFg=
   item: null
   logo: quail.svg
   name: Non-Public Organization Quail (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 21:09:37+00:00
   unnamed_organization: true

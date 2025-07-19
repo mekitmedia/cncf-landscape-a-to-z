@@ -1,0 +1,73 @@
+- crunchbase: https://www.crunchbase.com/organization/lightrun
+  homepage_url: https://www.lightrun.com/
+  item: null
+  logo: lightrun.svg
+  name: Lightrun
+  twitter: https://twitter.com/Lightruntech
+- crunchbase: https://www.crunchbase.com/organization/last9
+  homepage_url: https://last9.io
+  item: null
+  logo: last9.svg
+  name: Last9
+  twitter: https://twitter.com/last9io
+- crunchbase: https://www.crunchbase.com/organization/lightstep
+  homepage_url: https://lightstep.com/
+  item: null
+  logo: lightstep.svg
+  name: LightStep
+- crunchbase: https://www.crunchbase.com/organization/lindata
+  description: LinDB is a scalable, high performance, high availability distributed
+    time series database.
+  homepage_url: https://www.lindb.io/
+  item: null
+  logo: lindb.svg
+  name: LinDB
+  repo_url: https://github.com/lindb/lindb
+- crunchbase: https://www.crunchbase.com/organization/netease-com
+  description: Loggie is a lightweight, high-performance, cloud-native log collection
+    agent and aggregator based on Golang.
+  homepage_url: https://github.com/loggie-io/loggie
+  item: null
+  logo: loggie.svg
+  name: Loggie
+  repo_url: https://github.com/loggie-io/loggie
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2023-09-19'
+    artwork_url: https://github.com/cncf/artwork/blob/main/examples/sandbox.md/#logging-operator-logos
+    clomonitor_name: kube-logging
+    dev_stats_url: https://loggingoperator.devstats.cncf.io/
+  homepage_url: https://kube-logging.dev/
+  item: null
+  logo: logging-operator.svg
+  name: Logging Operator (Kube Logging)
+  project: sandbox
+  repo_url: https://github.com/kube-logging/logging-operator
+  twitter: https://twitter.com/kubelogging
+- crunchbase: https://www.crunchbase.com/organization/loggly
+  homepage_url: https://www.loggly.com/
+  item: null
+  logo: loggly.svg
+  name: Loggly
+- crunchbase: https://www.crunchbase.com/organization/logicmonitor
+  homepage_url: https://www.logicmonitor.com/
+  item: null
+  logo: logicmonitor.svg
+  name: LogicMonitor
+  twitter: https://twitter.com/logicmonitor
+- crunchbase: https://www.crunchbase.com/organization/logiq
+  homepage_url: https://logiq.ai/
+  item: null
+  logo: logiq.svg
+  name: Logiq
+- crunchbase: https://www.crunchbase.com/organization/elasticsearch
+  homepage_url: https://www.elastic.co/logstash
+  item: null
+  logo: logstash.svg
+  name: Logstash
+  repo_url: https://github.com/elastic/logstash
+- crunchbase: https://www.crunchbase.com/organization/logz-io
+  homepage_url: https://logz.io/
+  item: null
+  logo: logz-io.svg
+  name: Logz.io

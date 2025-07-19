@@ -1,33 +1,7 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/golden-gate-university-san-francisco
-  crunchbase_data:
-    acquisitions: []
-    city: San Francisco
-    company_type: ''
-    country: United States
-    description: Golden Gate University is a private, nonprofit, nonsectarian, coeducational
-      university.
-    homepage: http://www.ggu.edu
-    industries:
-    - Education
-    - Universities
-    linkedin: https://www.linkedin.com/edu/golden-gate-university-17858
-    name: Golden Gate University
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: http://twitter.com/ggu
+- crunchbase: https://www.crunchbase.com/organization/golden-gate-university-san-francisco
   enduser: true
   homepage_url: https://www.ggu.edu
-  image_data:
-    fileName: golden-gate-university-member.svg
-    hash: wAzN/cSzrx4jlTF2j1ywM1/7wcko7JTUzflDTb0s5dI=
   item: null
+  joined: '2018-07-01'
   logo: golden-gate-university-member.svg
   name: Golden Gate University (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-01 18:54:01+00:00

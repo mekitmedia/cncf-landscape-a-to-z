@@ -1,412 +1,78 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/vmware
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Emic Networks
-      date: '2003-12-16'
-    - acquiree: Akimbi Systems
-      date: '2006-06-18'
-    - acquiree: Determina
-      date: '2007-08-06'
-    - acquiree: Dunes Technologies
-      date: '2007-09-11'
-    - acquiree: Thinstall inc
-      date: '2008-01-15'
-    - acquiree: B-hive Networks
-      date: '2008-05-28'
-    - acquiree: Blue Lane Technologies
-      date: '2008-11-30'
-    - acquiree: Spring
-      date: '2009-08-10'
-      price: 362000000
-    - acquiree: Integrien
-      date: '2010-08-31'
-    - acquiree: TriCipher
-      date: '2010-08-31'
-      price: 100000000
-    - acquiree: WaveMaker
-      date: '2011-03-08'
-    - acquiree: SlideRocket
-      date: '2011-04-26'
-    - acquiree: Shavlik Technologies
-      date: '2011-05-16'
-    - acquiree: Socialcast
-      date: '2011-05-31'
-    - acquiree: Digital Fuel
-      date: '2011-06-13'
-    - acquiree: Packetmotion
-      date: '2011-08-01'
-    - acquiree: Wanova
-      date: '2012-05-22'
-    - acquiree: DynamicOps
-      date: '2012-07-02'
-    - acquiree: Nicira Networks
-      date: '2012-07-23'
-      price: 1260000000
-    - acquiree: Virsto Software
-      date: '2013-02-11'
-    - acquiree: Desktone
-      date: '2013-10-15'
-    - acquiree: AirWatch
-      date: '2014-01-22'
-      price: 1540000000
-    - acquiree: CloudVolumes
-      date: '2014-08-20'
-    - acquiree: Immidio
-      date: '2015-02-03'
-    - acquiree: Boxer
-      date: '2015-10-14'
-    - acquiree: Arkin
-      date: '2016-06-13'
-    - acquiree: PLUMgrid
-      date: '2016-12-20'
-    - acquiree: Wavefront
-      date: '2017-04-12'
-      price: 375000000
-    - acquiree: Apteligent
-      date: '2017-05-15'
-      price: 50000000
-    - acquiree: VeloCloud
-      date: '2017-11-02'
-    - acquiree: CloudCoreo
-      date: '2018-02-14'
-    - acquiree: CloudVelox
-      date: '2018-02-22'
-    - acquiree: E8 Security
-      date: '2018-03-28'
-    - acquiree: Bracket Computing
-      date: '2018-05-01'
-    - acquiree: CloudHealth Technologies
-      date: '2018-08-27'
-    - acquiree: Heptio
-      date: '2018-11-06'
-      price: 550000000
-    - acquiree: AetherPal
-      date: '2019-02-05'
-    - acquiree: Bitnami
-      date: '2019-05-15'
-    - acquiree: Avi Networks
-      date: '2019-06-14'
-    - acquiree: Bitfusion.io
-      date: '2019-07-18'
-    - acquiree: Uhana
-      date: '2019-07-25'
-    - acquiree: Veriflow
-      date: '2019-08-16'
-    - acquiree: Intrinsic
-      date: '2019-08-20'
-    - acquiree: Pivotal
-      date: '2019-08-22'
-      price: 2700000000
-    - acquiree: Carbon Black
-      date: '2019-10-08'
-      price: 2100000000
-    - acquiree: Nyansa
-      date: '2020-01-21'
-    - acquiree: Octarine
-      date: '2020-05-13'
-    - acquiree: Lastline
-      date: '2020-06-04'
-    - acquiree: Datrium
-      date: '2020-07-02'
-    - acquiree: SaltStack
-      date: '2020-09-29'
-    - acquiree: Mesh7
-      date: '2021-03-18'
-    city: Palo Alto
-    company_type: For Profit
-    country: United States
-    description: VMware is a provider of multi-cloud services for all apps, enabling
-      digital innovation with enterprise control.
-    funding: 393500000
-    homepage: https://www.vmware.com
-    industries:
-    - Cloud Infrastructure
-    - Cloud Management
-    - Enterprise Software
-    - Information Technology
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/vmware
-    name: VMware
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents:
-    - https://www.crunchbase.com/organization/dell-technologies
-    region: California
-    stockExchange: nyse
-    ticker: VMW
-    twitter: http://twitter.com/VMware
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: Carvel provides a set of reliable, single-purpose, composable tools
     that aid in your application building, configuration, and deployment to Kubernetes.
-  github_data:
-    contributions: 3;2;2;5;3;4;7;5;8;7;3;7;17;9;8;3;2;2;5;18;1;9;3;7;3;5;0;1;2;0;4;3;3;12;4;4;1;5;5;9;4;7;0;0;8;8;11;2;5;10;1;0
-    contributors_count: 58
-    contributors_link: https://github.com/vmware-tanzu/carvel-ytt/graphs/contributors
-    description: YAML templating tool that works on YAML structure instead of text
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 1191123
-    - color: '#f1e05a'
-      name: JavaScript
-      value: 11552
-    - color: '#563d7c'
-      name: CSS
-      value: 8642
-    - color: '#89e051'
-      name: Shell
-      value: 3658
-    - color: '#e34c26'
-      name: HTML
-      value: 2119
-    - color: '#012456'
-      name: PowerShell
-      value: 374
-    latest_commit_date: '2022-07-26T23:21:25Z'
-    latest_commit_link: /vmware-tanzu/carvel-ytt/commit/b43289cd4f0ab4d828e36fe48dbfddb27dc5b553
-    license: Apache License 2.0
-    release_date: '2022-07-27T00:44:13Z'
-    release_link: https://github.com/vmware-tanzu/carvel-ytt/releases
-    stars: 1138
-  github_start_commit_data:
-    start_commit_link: /vmware-tanzu/carvel-ytt/commit/f23a7978c74443749a75df88d64c2045afbf3274
-    start_date: '2019-03-01T00:13:23Z'
+  extra:
+    accepted: '2022-09-14'
+    artwork_url: https://github.com/cncf/artwork/tree/master/projects/carvel
+    blog_url: https://carvel.dev/blog/
+    clomonitor_name: carvel
+    dev_stats_url: https://carvel.devstats.cncf.io/
+    slack_url: https://kubernetes.slack.com/archives/CH8KCCKA5
+    stack_overflow_url: https://stackoverflow.com/search?q=carvel&s=f9889d50-ba31-48ca-9919-414b961bd6ce
   homepage_url: https://carvel.dev
-  image_data:
-    fileName: carvel.svg
-    hash: vSJ7yf0StiuAuJVifqY8/vt7XeuBjIVVfhbV0+3/Yjs=
   item: null
   logo: carvel.svg
   name: Carvel
-  repo_url: https://github.com/vmware-tanzu/carvel-ytt
-  repos:
-  - stars: 1138
-    url: https://github.com/vmware-tanzu/carvel-ytt
+  project: sandbox
+  repo_url: https://github.com/carvel-dev/ytt
   twitter: https://twitter.com/carvel_dev
-  twitter_data:
-    latest_tweet_date: 2022-08-05 02:42:22+00:00
-  yahoo_finance_data:
-    effective_ticker: VMW
-    market_cap: 49414426624
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/chef
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Tower3
-      date: '2014-07-15'
-    - acquiree: VulcanoSec
-      date: '2015-11-03'
-    city: Seattle
-    company_type: For Profit
-    country: United States
-    description: Chef is a continuous automation platform powered by community and
-      open source software engines.
-    funding: 105000000
-    homepage: https://www.chef.io/
-    industries:
-    - Cloud Computing
-    - Information Technology
-    - Infrastructure
-    - SaaS
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/chef-software/
-    name: Chef Software
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: Washington
-    stockExchange: null
-    twitter: https://twitter.com/chef
-  github_data:
-    contributions: 10;8;31;19;3;7;15;18;13;32;6;39;16;10;4;12;6;18;16;6;7;12;4;6;3;20;16;16;26;8;25;10;16;30;4;16;10;12;13;50;16;7;20;36;8;24;0;0;1;25;3;6
-    contributors_count: 209
-    contributors_link: https://github.com/habitat-sh/habitat/graphs/contributors
-    description: Modern applications with built-in automation
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#dea584'
-      name: Rust
-      value: 3325430
-    - color: '#89e051'
-      name: Shell
-      value: 410505
-    - color: '#012456'
-      name: PowerShell
-      value: 350486
-    - color: '#178600'
-      name: C#
-      value: 19922
-    - color: '#f1e05a'
-      name: JavaScript
-      value: 10383
-    - color: '#427819'
-      name: Makefile
-      value: 10266
-    - color: '#384d54'
-      name: Dockerfile
-      value: 9420
-    - color: '#77d9fb'
-      name: RAML
-      value: 8621
-    - color: '#555555'
-      name: C
-      value: 6122
-    - color: '#701516'
-      name: Ruby
-      value: 5574
-    - name: Handlebars
-      value: 3765
-    - color: '#e34c26'
-      name: HTML
-      value: 394
-    - color: '#C1F12E'
-      name: Batchfile
-      value: 290
-    - name: Mustache
-      value: 242
-    - color: '#00ADD8'
-      name: Go
-      value: 99
-    latest_commit_date: '2022-08-05T07:06:39Z'
-    latest_commit_link: /habitat-sh/habitat/commit/f4136185e5fdc11d10fdb45e500c370bee31dff7
-    license: Apache License 2.0
-    release_date: '2022-06-07T15:22:04Z'
-    release_link: https://github.com/habitat-sh/habitat/releases
-    stars: 2380
-  github_start_commit_data:
-    start_commit_link: /habitat-sh/habitat/commit/05225f2b130e431d50aeec984303adea1bd3da5c
-    start_date: '2015-05-22T22:15:55Z'
+- crunchbase: https://www.crunchbase.com/organization/chef
   homepage_url: https://community.chef.io/tools/chef-habitat
-  image_data:
-    fileName: chef-habitat.svg
-    hash: AB4tBc3M7bMEAFzhL4Kwk2Qq/XG11PtHBInrXxhxEHY=
   item: null
   logo: chef_habitat.svg
   name: Chef Habitat
   repo_url: https://github.com/habitat-sh/habitat
-  repos:
-  - stars: 2380
-    url: https://github.com/habitat-sh/habitat
-  twitter_data:
-    latest_tweet_date: 2022-08-05 16:00:27+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloudark
-  crunchbase_data:
-    acquisitions: []
-    city: Austin
-    company_type: For Profit
-    country: United States
-    description: CloudARK enables building SaaS for containerized applications
-    homepage: https://cloudark.io/
-    industries:
-    - Software
-    linkedin: null
-    name: CloudARK
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: Texas
-    stockExchange: null
-    twitter: https://twitter.com/cloudarknews
+- crunchbase: https://www.crunchbase.com/organization/clace
+  description: Internal Tools Deployment Platform
+  homepage_url: https://clace.io/
+  item: null
+  logo: clace.svg
+  name: Clace
+  repo_url: https://github.com/claceio/clace
+- crunchbase: https://www.crunchbase.com/organization/cloudark
   description: Build SaaS for your containerized applications
-  github_data:
-    contributions: 12;0;10;31;20;0;0;2;0;4;0;0;0;0;8;0;0;0;0;2;0;0;0;0;0;0;0;14;15;6;6;4;4;14;0;0;0;2;0;0;0;0;0;0;2;2;0;2;0;4;11;17
-    contributors_count: 6
-    contributors_link: https://github.com/cloud-ark/kubeplus/graphs/contributors
-    description: Kubernetes Operator for Multi-instance SaaS and Managed Application
-      delivery
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 505389
-    - color: '#3572A5'
-      name: Python
-      value: 99375
-    - color: '#89e051'
-      name: Shell
-      value: 87068
-    - color: '#e34c26'
-      name: HTML
-      value: 10842
-    - color: '#f1e05a'
-      name: JavaScript
-      value: 10282
-    - color: '#384d54'
-      name: Dockerfile
-      value: 3947
-    - color: '#427819'
-      name: Makefile
-      value: 2858
-    - color: '#ecdebe'
-      name: Roff
-      value: 687
-    latest_commit_date: '2022-08-06T00:00:39Z'
-    latest_commit_link: /cloud-ark/kubeplus/commit/e169651ccfb7a18c899afd405cbe5a9b0b9046f9
-    license: Apache License 2.0
-    release_date: '2022-08-01T23:55:45Z'
-    release_link: https://github.com/cloud-ark/kubeplus/releases
-    stars: 413
-  github_start_commit_data:
-    start_commit_link: /cloud-ark/kubeplus/commit/56fdd7b374789245b6d5b29774ba64a6ee26b369
-    start_date: '2018-03-24T22:59:18Z'
-  homepage_url: https://cloudark.io/helm-chart-as-a-service
-  image_data:
-    fileName: cloud-ark-kube-plus.svg
-    hash: koK1JK3IqZdoc4kuNT2sJcwpDkc1tNyWUTIn11nHQRA=
+  homepage_url: https://cloudark.io/kubeplus
   item: null
   logo: cloudark-kubeplus.svg
   name: CloudARK KubePlus
   repo_url: https://github.com/cloud-ark/kubeplus
-  repos:
-  - stars: 413
-    url: https://github.com/cloud-ark/kubeplus
-  twitter_data:
-    latest_tweet_date: 2022-03-31 03:42:08+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/traxitt-inc
-  crunchbase_data:
-    acquisitions: []
-    city: Vancouver
-    company_type: For Profit
-    country: Canada
-    description: Developer Tools for Kubernetes
-    funding: 0
-    homepage: https://codezero.io
-    industries:
-    - Cloud Infrastructure
-    - Cloud Management
-    - Developer Platform
-    - Developer Tools
-    - Enterprise Applications
-    - Software
-    linkedin: https://www.linkedin.com/company/codezerotechnologies
-    name: CodeZero Technologies Inc.
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: British Columbia
-    stockExchange: null
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/daocloud
+  description: A Friendly Kubernetes CloudShell (Web Terminal)
+  homepage_url: https://cloudtty.github.io/cloudtty/
+  item: null
+  logo: CloudTTY.svg
+  name: CloudTTY
+  repo_url: https://github.com/cloudtty/cloudtty
+- description: Self-hosted cloud development environments consistently provisioned
+    as code and pre-configured for developer activity on day one.
+  extra:
+    blog_url: https://coder.com/blog
+    discord_url: https://coder.com/chat
+    documentation_url: https://coder.com/docs
+    linkedin_url: https://www.linkedin.com/company/coderhq/
+    youtube_url: https://www.youtube.com/@CoderHQ
+  homepage_url: https://www.coder.com/
+  item: null
+  logo: coder.svg
+  name: Coder
+  repo_url: https://github.com/coder/coder
+  twitter: https://x.com/coderhq
+- crunchbase: https://www.crunchbase.com/organization/traxitt-inc
   description: Tools for local collaborative development in pre-production Kubernetes
     clusters
   homepage_url: https://codezero.io/
-  image_data:
-    fileName: code-zero.svg
-    hash: uzi2pKBnd/URDO5vslKqELfq+b24G1inxA0Pa25Y8dk=
   item: null
   logo: codezero.svg
   name: CodeZero
   twitter: https://twitter.com/codezeroio
-  twitter_data:
-    latest_tweet_date: 2022-06-16 04:12:45+00:00
+- crunchbase: https://www.crunchbase.com/organization/cyclops-b209
+  description: Cyclops is a customizable UI for Kubernetes workloads.
+  extra:
+    blog_url: https://cyclops-ui.com/blog
+    slack_url: https://discord.com/invite/8ErnK3qDb3
+    youtube_url: https://www.youtube.com/@cyclops-ui-un2js
+  homepage_url: https://cyclops-ui.com/
+  item: null
+  logo: cyclops.svg
+  name: Cyclops
+  repo_url: https://github.com/cyclops-ui/cyclops

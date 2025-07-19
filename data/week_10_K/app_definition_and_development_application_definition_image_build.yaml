@@ -1,1095 +1,177 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/replicated
-  crunchbase_data:
-    acquisitions: []
-    city: Los Angeles
-    company_type: For Profit
-    country: United States
-    description: Replicated provides a platform for delivering and managing Kubernetes
-      applications in any environment.
-    funding: 85000000
-    homepage: https://www.replicated.com/
-    industries:
-    - Cloud Infrastructure
-    - Developer Tools
-    - Enterprise Software
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/replicated/
-    name: Replicated
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/replicatedhq
+- crunchbase: https://www.crunchbase.com/organization/kapeta
+  description: Kapeta accelerates and automates the entire software development lifecycle
+  extra:
+    summary_business_use_case: "Create and implement any software system securely,\
+      \ privately and at record speed - and save\n                costs on infrastructure\
+      \ and operations through automated optimization. You do the special sauce -\n\
+      \                Kapeta does the rest.\n                And once your done -\
+      \ explain the system to non-technical people easily through the visual system\
+      \ map."
+    summary_intro_url: https://www.youtube.com/watch?v=XZyy902adDo
+    summary_personas: Developers, Platform engineers
+    summary_release_rate: Weekly
+    summary_tags: Developer APIs, Distributed Systems, Microservices, HTTP, REST,
+      Java, Typescript, Javascript, React
+    summary_use_case: "Kapeta will automate and accelerate your entire software development\
+      \ lifecycle. This is made\n                possible by defining your software\
+      \ components as lego-like building blocks, and then using these\n          \
+      \      building blocks to define your software system. Kapeta then knows all\
+      \ it needs to know to generate code,\n                devcontainers, and eventually\
+      \ deploy. Think of it as an internal developer platform (iDP) on steroids."
+  homepage_url: https://kapeta.com
+  item: null
+  logo: kapeta.svg
+  name: Kapeta
+  project_org: https://github.com/kapetacom
+  repo_url: https://github.com/kapetacom/kapeta
+  twitter: https://twitter.com/kapeta_com
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2022-07-26'
+    chat_channel: '#konveyor'
+    clomonitor_name: konveyor
+    dev_stats_url: https://konveyor.devstats.cncf.io/
+    slack_url: https://slack.k8s.io
+    summary_integrations: Kubernetes
+    summary_personas: Enterprise Architects, Developers
+    summary_release_rate: Konveyor is pursuing early and frequent releases as new
+      features land with an adherence to semantic versions.
+    summary_tags: Konveyor, Kubernetes, Application Modernization, Replatform, Refactor
+    summary_use_case: Konveyor is an open-source application modernization platform
+      that helps organizations safely and predictably modernize applications to new
+      technologies, with an initial focus on accelerating the adoption of legacy applications
+      to Kubernetes.
+  homepage_url: https://www.konveyor.io/
+  item: null
+  logo: Konveyor.svg
+  name: Konveyor
+  project: sandbox
+  repo_url: https://github.com/konveyor/operator
+  twitter: https://twitter.com/Konveyor_io
+- crunchbase: https://www.crunchbase.com/organization/replicated
   description: KOTS provides the framework, tools and integrations that enable the
     delivery and management of 3rd-party Kubernetes applications, a.k.a. Kubernetes
     Off-The-Shelf (KOTS) Software.'
-  github_data:
-    contributions: 38;13;24;10;8;46;54;19;26;21;26;21;14;8;15;18;15;25;9;17;5;5;19;32;24;28;9;8;29;24;15;16;24;27;34;12;27;64;26;55;6;17;5;30;42;24;29;15;22;38;15;31
-    contributors_count: 60
-    contributors_link: https://github.com/replicatedhq/kots/graphs/contributors
-    description: KOTS provides the framework, tools and integrations that enable the
-      delivery and management of 3rd-party Kubernetes applications, a.k.a. Kubernetes
-      Off-The-Shelf (KOTS) Software.
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 3354253
-    - color: '#f1e05a'
-      name: JavaScript
-      value: 1356615
-    - name: SCSS
-      value: 160382
-    - color: '#89e051'
-      name: Shell
-      value: 40621
-    - color: '#384d54'
-      name: Dockerfile
-      value: 36269
-    - color: '#427819'
-      name: Makefile
-      value: 14114
-    - color: '#2b7489'
-      name: TypeScript
-      value: 12503
-    - color: '#e34c26'
-      name: HTML
-      value: 8296
-    - color: '#563d7c'
-      name: CSS
-      value: 7359
-    - name: EJS
-      value: 271
-    latest_commit_date: '2022-08-05T23:00:13Z'
-    latest_commit_link: /replicatedhq/kots/commit/6c6ef9fc15a7202c579a72f7976dd91f15e0856b
-    license: Apache License 2.0
-    release_date: '2022-08-04T20:13:00Z'
-    release_link: https://github.com/replicatedhq/kots/releases
-    stars: 707
-  github_start_commit_data:
-    start_commit_link: /replicatedhq/kots/commit/aaca05ecf2afa242ddf0273851c6ceecd8509a22
-    start_date: '2019-05-02T21:12:27Z'
   homepage_url: https://kots.io
-  image_data:
-    fileName: kots.svg
-    hash: NZSRfxQQ3MsRyHA5wXws6MkDyQFD0FBvuGBn0H1LAWY=
   item: null
   logo: kots.svg
   name: KOTS
   repo_url: https://github.com/replicatedhq/kots
-  repos:
-  - stars: 707
-    url: https://github.com/replicatedhq/kots
-  twitter_data:
-    latest_tweet_date: 2022-08-04 16:45:41+00:00
-- best_practice_data:
-    badge: 5066
-    percentage: 100
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Kubernetes
-      date: '2016-03-10'
-    - acquiree: RethinkDB
-      date: '2017-02-06'
-      price: 25000
-    city: San Francisco
-    company_type: Non Profit
-    country: United States
-    description: CNCF is an open source software foundation that hosts and nurtures
-      projects like Kubernetes and Prometheus.
-    funding: 3000000
-    homepage: https://www.cncf.io
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Non Profit
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
-    name: Cloud Native Computing Foundation (CNCF)
-    num_employees_max: 50
-    num_employees_min: 11
-    parents:
-    - https://www.crunchbase.com/organization/linux-foundation
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/CloudNativeFdn
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   extra:
     accepted: '2021-07-13'
+    archived: '2024-01-31'
     dev_stats_url: https://krator.devstats.cncf.io/
     slack_url: https://kubernetes.slack.com/messages/krator
-  github_data:
-    contributions: 0;0;1;0;1;0;0;3;0;2;2;0;1;0;0;3;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-    contributors_count: 23
-    contributors_link: https://github.com/krator-rs/krator/graphs/contributors
-    description: Kubernetes Rust State Machine Operator
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#dea584'
-      name: Rust
-      value: 129223
-    - color: '#3572A5'
-      name: Python
-      value: 1101
-    - color: '#89e051'
-      name: Shell
-      value: 1036
-    latest_commit_date: '2022-04-14T13:08:49Z'
-    latest_commit_link: /krator-rs/krator/commit/a959f61550a9e9cf401abffc91a1acfa9ffae9f5
-    license: Apache License 2.0
-    release_date: '2021-11-23T00:13:31Z'
-    release_link: https://github.com/krator-rs/krator/releases
-    stars: 81
-  github_start_commit_data:
-    start_commit_link: /krator-rs/krator/commit/a5f1c6687b2b1c15bb377f1500f21dc9ed813939
-    start_date: '2019-11-27T01:08:46Z'
   homepage_url: https://docs.rs/crate/krator/latest
-  image_data:
-    fileName: krator.svg
-    hash: hY/3xeNu16q+6hEWpasVHTR7F2BSCLIcLdgViZ6ATKM=
   item: null
   logo: krator.svg
   name: Krator
-  project: sandbox
+  project: archived
   repo_url: https://github.com/krator-rs/krator
-  repos:
-  - stars: 81
-    url: https://github.com/krator-rs/krator
-  twitter_data:
-    latest_tweet_date: 2022-08-05 21:09:37+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/kubermatic
-  crunchbase_data:
-    acquisitions: []
-    city: Hamburg
-    company_type: For Profit
-    country: Germany
-    description: Kubermatic empowers organizations worldwide to automate their Kubernetes
-      and cloud native operations across multi-cloud, edge and on-prem.
-    funding: 8300000
-    homepage: https://www.kubermatic.com
-    industries:
-    - Enterprise
-    - SaaS
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/kubermatic
-    name: Kubermatic
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: Hamburg
-    stockExchange: null
-    twitter: https://www.twitter.com/kubermatic
-  description: KubeCarrier is an open source system for managing applications and
-    services across multiple Kubernetes clusters. It  provides a framework to centralize
-    the management of services and provide these services with external users in a
-    self service hub.
-  github_data:
-    contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0;0;0;0;0;0;0
-    contributors_count: 8
-    contributors_link: https://github.com/kubermatic/kubecarrier/graphs/contributors
-    description: 'KubeCarrier - Service Management at Scale '
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 1143254
-    - color: '#89e051'
-      name: Shell
-      value: 23358
-    - color: '#427819'
-      name: Makefile
-      value: 12239
-    - color: '#384d54'
-      name: Dockerfile
-      value: 12001
-    - color: '#e34c26'
-      name: HTML
-      value: 3798
-    - name: HCL
-      value: 703
-    latest_commit_date: '2022-05-31T15:55:25Z'
-    latest_commit_link: /kubermatic/kubecarrier/commit/51fad0d135894331c312b7628cb87c4c129b53e7
-    license: Apache License 2.0
-    release_date: '2020-08-03T14:45:15Z'
-    release_link: https://github.com/kubermatic/kubecarrier/releases
-    stars: 280
-  github_start_commit_data:
-    start_commit_link: /kubermatic/kubecarrier/commit/4846efdf8eaef63200aa9f47e07ed0fe6e21aebf
-    start_date: '2019-10-29T09:26:37Z'
-  homepage_url: https://github.com/kubermatic/kubecarrier
-  image_data:
-    fileName: kube-carrier.svg
-    hash: Hmu0KdiXhO3HItvIgUOzJjZa4ZH8ltyQCJ2I9TDFfnc=
+- crunchbase: https://www.crunchbase.com/organization/inria
+  description: KubeDiagrams is a tool to generate Kubernetes architecture diagrams
+    from Kubernetes manifest files, kustomization files, Helm charts, and actual cluster
+    state. KubeDiagrams supports most of all Kubernetes built-in resources, any custom
+    resources, and label-based resource clustering.
+  homepage_url: https://github.com/philippemerle/KubeDiagrams
   item: null
-  logo: kubermatic.svg
-  name: KubeCarrier
-  repo_url: https://github.com/kubermatic/kubecarrier
-  repos:
-  - stars: 280
-    url: https://github.com/kubermatic/kubecarrier
-  twitter_data:
-    latest_tweet_date: 2022-08-03 08:30:00+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/teamcode
-  crunchbase_data:
-    acquisitions: []
-    city: Xuhui
-    company_type: For Profit
-    country: China
-    description: TeamCode is a toolchain that helps developers work collaboratively
-      in the cloud, auto-generates, builds, and deploys the dev environment.
-    funding: 0
-    homepage: https://www.teamcode.com/
-    industries:
-    - Cloud Infrastructure
-    - Software
-    - Software Engineering
-    linkedin: https://www.linkedin.com/company/teamcodehq/about/
-    name: TeamCode
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Shanghai
-    stockExchange: null
-    twitter: null
-  github_data:
-    contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;1;3;2;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-    contributors_count: 3
-    contributors_link: https://github.com/teamcode-inc/kubeorbit/graphs/contributors
-    description: "Test your application on Kubernetes in a brand new simple way\u26A1\
-      \ \u8F7B\u91CF\u9AD8\u6548\u7684\u5FAE\u670D\u52A1\u672C\u5730\u8054\u8C03\u6D4B\
-      \u8BD5\u5DE5\u5177"
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 56224
-    - color: '#427819'
-      name: Makefile
-      value: 5055
-    - color: '#384d54'
-      name: Dockerfile
-      value: 780
-    latest_commit_date: '2022-03-16T07:26:31Z'
-    latest_commit_link: /teamcode-inc/kubeorbit/commit/546f10d63af9693d0e7411fffe016aa9ea18f08b
-    license: Apache License 2.0
-    release_date: '2022-03-12T07:48:44Z'
-    release_link: https://github.com/teamcode-inc/kubeorbit/releases
-    stars: 443
-  github_start_commit_data:
-    start_commit_link: /teamcode-inc/kubeorbit/commit/f3cdc0214b692805cb11d73252d749b94fb0a1f7
-    start_date: '2022-01-21T08:03:49Z'
+  logo: kubediagrams.svg
+  name: KubeDiagrams
+  repo_url: https://github.com/philippemerle/KubeDiagrams
+- crunchbase: https://www.crunchbase.com/organization/teamcode
   homepage_url: https://www.kubeorbit.io/
-  image_data:
-    fileName: kube-orbit.svg
-    hash: NleROQJ8cYYF/m+LVMVzOLczdF+i9PcmH52BbOfgS2o=
   item: null
   logo: kubeorbit.svg
   name: KubeOrbit
   repo_url: https://github.com/teamcode-inc/kubeorbit
-  repos:
-  - stars: 443
-    url: https://github.com/teamcode-inc/kubeorbit
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Kubernetes
-      date: '2016-03-10'
-    - acquiree: RethinkDB
-      date: '2017-02-06'
-      price: 25000
-    city: San Francisco
-    company_type: Non Profit
-    country: United States
-    description: CNCF is an open source software foundation that hosts and nurtures
-      projects like Kubernetes and Prometheus.
-    funding: 3000000
-    homepage: https://www.cncf.io
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Non Profit
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
-    name: Cloud Native Computing Foundation (CNCF)
-    num_employees_max: 50
-    num_employees_min: 11
-    parents:
-    - https://www.crunchbase.com/organization/linux-foundation
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/CloudNativeFdn
-  github_data:
-    contributions: 24;33;15;32;18;37;17;23;8;31;18;25;26;33;27;56;33;18;26;24;16;20;22;19;12;0;15;27;8;11;28;24;20;43;10;29;22;26;9;24;21;45;22;11;12;19;24;19;22;23;31;23
-    contributors_count: 171
-    contributors_link: https://github.com/kubevela/kubevela/graphs/contributors
-    description: The Modern Application Platform.
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 6772355
-    - name: CUE
-      value: 204343
-    - color: '#427819'
-      name: Makefile
-      value: 16331
-    - color: '#89e051'
-      name: Shell
-      value: 12670
-    - name: Mustache
-      value: 6523
-    - color: '#384d54'
-      name: Dockerfile
-      value: 3198
-    - name: HCL
-      value: 1188
-    latest_commit_date: '2022-08-05T07:03:52Z'
-    latest_commit_link: /kubevela/kubevela/commit/2d8cb1278cfbd56796798924d4540c80821c602a
-    license: Apache License 2.0
-    release_date: '2022-08-03T12:51:59Z'
-    release_link: https://github.com/kubevela/kubevela/releases
-    stars: 4034
-  github_start_commit_data:
-    start_commit_link: /oam-dev/kubevela/commit/4f13b58663c01c02ddcb71c297aa90832a7aac37
-    start_date: '2020-07-06T15:45:29Z'
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2021-06-22'
+    annual_review_date: '2022-05-12'
+    annual_review_url: https://github.com/cncf/toc/pull/838
+    blog_url: https://kubevela.io/blog
+    clomonitor_name: kubevela
+    dev_stats_url: https://kubevela.devstats.cncf.io/
+    incubating: '2023-02-27'
+    slack_url: https://cloud-native.slack.com/archives/C01BLQ3HTJA
+    summary_business_use_case: "KubeVela is an application delivery engine built with\
+      \ Kubernetes control plane. KubeVela can orchestrate, deploy, and operate application\
+      \ components and cloud resources with a workflow based application delivery\
+      \ model and technology. For user scenarios, KubeVela is designed to manage applications\
+      \ with multiple target Kubernetes clusters and hybrid-cloud environments as\
+      \ first-class citizens. In the community, we observed most users are adopting\
+      \ KubeVela as their internal \u201CPaaS\u201D, or as part of their CI/CD pipeline,\
+      \ or as an extensible DevOps kernel for building their own IDP."
+    summary_integrations: Helm, FluxCD, DEX, OpenKruise, Crossplane, Prometheus, k3s,
+      KEDA, etc.
+    summary_personas: SREs, DevOps, Platform Engineers, Architects, Developers
+    summary_release_rate: Every 1-2 weeks
+    summary_tags: Kubernetes, Application, Microservices, Serverless, Continuous Delivery,
+      PaaS, CUE, control-plane, Multicloud, OAM, MultiCluster, HybridCloud.
+    summary_use_case: KubeVela is a modern software delivery platform that makes deploying
+      and operating applications across today's hybrid, multi-cloud environments easier,
+      faster and more reliable.
+    url_for_bestpractices: https://bestpractices.coreinfrastructure.org/en/projects/4602
   homepage_url: https://kubevela.io
-  image_data:
-    fileName: kube-vela.svg
-    hash: jbo6Un866c8QKHwK/3Fkx6JaJI5vxPeJHOKsqZCS5b8=
   item: null
   logo: kubevela.svg
   name: KubeVela
-  project: sandbox
+  project: incubating
   repo_url: https://github.com/kubevela/kubevela
-  repos:
-  - stars: 4034
-    url: https://github.com/kubevela/kubevela
   twitter: https://twitter.com/oam_dev
-  twitter_data:
-    latest_tweet_date: 2022-08-04 02:34:22+00:00
-- best_practice_data:
-    badge: 3203
-    percentage: 100
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Kubernetes
-      date: '2016-03-10'
-    - acquiree: RethinkDB
-      date: '2017-02-06'
-      price: 25000
-    city: San Francisco
-    company_type: Non Profit
-    country: United States
-    description: CNCF is an open source software foundation that hosts and nurtures
-      projects like Kubernetes and Prometheus.
-    funding: 3000000
-    homepage: https://www.cncf.io
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Non Profit
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
-    name: Cloud Native Computing Foundation (CNCF)
-    num_employees_max: 50
-    num_employees_min: 11
-    parents:
-    - https://www.crunchbase.com/organization/linux-foundation
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/CloudNativeFdn
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   extra:
-    accepted: '2019-09-09'
+    accepted: '2019-09-06'
     artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#kubevirt-logos
+    clomonitor_name: kubevirt
     dev_stats_url: https://kubevirt.devstats.cncf.io/
-    youtube_url: https://www.youtube.com/channel/UC2FH36TbZizw25pVT1P3C3g
-  github_data:
-    contributions: 79;52;57;56;49;80;41;56;82;64;72;71;54;78;57;85;77;50;61;67;38;39;73;74;57;41;59;61;48;57;72;66;99;83;80;69;55;66;49;64;41;53;66;56;82;58;76;68;50;77;72;28
-    contributors_count: 286
-    contributors_link: https://github.com/kubevirt/kubevirt/graphs/contributors
-    description: Kubernetes Virtualization API and runtime in order to define and
-      manage virtual machines.
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 10899088
-    - name: Starlark
-      value: 409382
-    - color: '#89e051'
-      name: Shell
-      value: 243043
-    - color: '#427819'
-      name: Makefile
-      value: 7600
-    - color: '#384d54'
-      name: Dockerfile
-      value: 5963
-    - color: '#555555'
-      name: C
-      value: 5369
-    - color: '#3572A5'
-      name: Python
-      value: 2743
-    latest_commit_date: '2022-08-06T01:34:23Z'
-    latest_commit_link: /kubevirt/kubevirt/commit/f3ddc0c65b54f4d1d0ad9d583f330cdff7385dd3
-    license: Apache License 2.0
-    release_date: '2022-08-01T14:15:32Z'
-    release_link: https://github.com/kubevirt/kubevirt/releases
-    stars: 3425
-  github_start_commit_data:
-    start_commit_link: /kubevirt/kubevirt/commit/95bc8ec0f0f9c422a4b158d63971fa65238c9aa3
-    start_date: '2016-08-11T14:31:11Z'
+    incubating: '2022-04-19'
+    mailing_list_url: https://groups.google.com/g/kubevirt-dev/
+    slack_url: https://kubernetes.slack.com/archives/C8ED7RKFE
+    summary_intro_url: https://www.youtube.com/watch?v=uusM5SyK-vc
+    summary_personas: SREs, DevOps & Platform Engineers, Developers
+    summary_release_rate: Following the Kubernetes release schedule
+    summary_tags: virtualization
+    youtube_url: https://www.youtube.com/@KubeVirt
   homepage_url: https://kubevirt.io/
-  image_data:
-    fileName: kube-virt.svg
-    hash: zGaFAtCcj0uEWR4pYpP+hZvK6Vpqsp7tKTuV7TO2Lwo=
   item: null
-  logo: kube-virt.svg
+  logo: kubevirt.svg
   name: KubeVirt
   project: incubating
   repo_url: https://github.com/kubevirt/kubevirt
-  repos:
-  - stars: 3425
-    url: https://github.com/kubevirt/kubevirt
   twitter: https://twitter.com/kubevirt
-  twitter_data:
-    latest_tweet_date: 2022-04-20 15:01:21+00:00
-- best_practice_data:
-    badge: 3307
-    percentage: 78
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Kubernetes
-      date: '2016-03-10'
-    - acquiree: RethinkDB
-      date: '2017-02-06'
-      price: 25000
-    city: San Francisco
-    company_type: Non Profit
-    country: United States
-    description: CNCF is an open source software foundation that hosts and nurtures
-      projects like Kubernetes and Prometheus.
-    funding: 3000000
-    homepage: https://www.cncf.io
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Non Profit
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
-    name: Cloud Native Computing Foundation (CNCF)
-    num_employees_max: 50
-    num_employees_min: 11
-    parents:
-    - https://www.crunchbase.com/organization/linux-foundation
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/CloudNativeFdn
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: KubeVPN offers a Cloud-Native Dev Environment that seamlessly connects
+    to your Kubernetes cluster network. Gain access to the Kubernetes cluster network
+    effortlessly using service names or Pod IP/Service IP. Facilitate the interception
+    of inbound traffic from remote Kubernetes cluster services to your local PC through
+    a service mesh and more. For instance, you have the flexibility to run your Kubernetes
+    pod within a local Docker container, ensuring an identical environment, volume,
+    and network setup. With KubeVPN, empower yourself to develop applications entirely
+    on your local PC!
+  homepage_url: https://kubevpn.cn
+  item: null
+  logo: kubevpn.svg
+  name: KubeVPN
+  repo_url: https://github.com/kubenetworks/kubevpn
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   extra:
-    accepted: '2020-06-23'
+    accepted: '2020-06-25'
     artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#kudo
+    clomonitor_name: kudo
     dev_stats_url: https://kudo.devstats.cncf.io/
-  github_data:
-    contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-    contributors_count: 66
-    contributors_link: https://github.com/kudobuilder/kudo/graphs/contributors
-    description: Kubernetes Universal Declarative Operator (KUDO)
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 994208
-    - color: '#89e051'
-      name: Shell
-      value: 27756
-    - color: '#427819'
-      name: Makefile
-      value: 7821
-    - color: '#384d54'
-      name: Dockerfile
-      value: 2173
-    latest_commit_date: '2021-07-02T14:07:22Z'
-    latest_commit_link: /kudobuilder/kudo/commit/50ef72329f0e76ae57b33ae552605b7e39198336
-    license: Apache License 2.0
-    release_date: '2021-04-27T15:35:21Z'
-    release_link: https://github.com/kudobuilder/kudo/releases
-    stars: 1036
-  github_start_commit_data:
-    start_commit_link: /kudobuilder/kudo/commit/25ead97bebdff65bfc177908ac79d4f00dd90bb6
-    start_date: '2016-06-24T23:29:55Z'
   homepage_url: https://kudo.dev/
-  image_data:
-    fileName: kudo.svg
-    hash: nyqFG/uxSQhX4uVc9/6Nu3hCDorn/15fU8sAWkmg5XE=
   item: null
   logo: kudo.svg
   name: KUDO
   project: sandbox
   repo_url: https://github.com/kudobuilder/kudo
-  repos:
-  - stars: 1036
-    url: https://github.com/kudobuilder/kudo
   twitter: https://twitter.com/kudobuilder
-  twitter_data:
-    latest_tweet_date: 2020-07-15 09:23:45+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/ibm
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Dehomag
-      date: '1923-01-01'
-    - acquiree: The Automatic Accounting Scale Company
-      date: '1930-01-01'
-    - acquiree: National Counting Scale Company
-      date: '1932-01-01'
-    - acquiree: Munitions Manufacturing Corporation
-      date: '1941-01-01'
-    - acquiree: Science Research Associates
-      date: '1964-01-01'
-    - acquiree: Satellite Business Systems
-      date: '1974-01-01'
-    - acquiree: ROLM Corporation
-      date: '1984-09-26'
-    - acquiree: Transarc
-      date: '1994-08-01'
-    - acquiree: Lotus Development Corporation
-      date: '1995-07-06'
-      price: 3500000000
-    - acquiree: Tivoli Systems
-      date: '1996-02-01'
-      price: 743000000
-    - acquiree: NetObjects
-      date: '1997-03-19'
-    - acquiree: CommQuest Services
-      date: '1998-04-30'
-      price: 200000000
-    - acquiree: Whistle Communications
-      date: '1999-06-09'
-    - acquiree: Sequent Computer Systems Inc
-      date: '1999-07-12'
-    - acquiree: Mylex
-      date: '1999-07-27'
-      price: 240000000
-    - acquiree: Dascom
-      date: '1999-09-22'
-    - acquiree: Mainspring
-      date: '2001-06-07'
-    - acquiree: CrossWorlds Software
-      date: '2002-01-14'
-      price: 129000000
-    - acquiree: Metamerge
-      date: '2002-06-25'
-    - acquiree: TrelliSoft
-      date: '2002-08-29'
-    - acquiree: Access360
-      date: '2002-09-03'
-    - acquiree: HOLOSOFX
-      date: '2002-09-12'
-    - acquiree: PwC Consulting
-      date: '2002-10-02'
-      price: 3500000000
-    - acquiree: EADS Matra Datavision
-      date: '2002-10-07'
-    - acquiree: Tarian Software
-      date: '2002-11-04'
-    - acquiree: Rational Software
-      date: '2003-02-20'
-    - acquiree: Think Dynamics
-      date: '2003-05-14'
-    - acquiree: Presence Online
-      date: '2003-07-15'
-    - acquiree: CrossAccess
-      date: '2003-10-14'
-    - acquiree: Productivity Solutions
-      date: '2003-11-13'
-    - acquiree: Green Pasture Software
-      date: '2003-12-17'
-    - acquiree: Trigo Technologies
-      date: '2004-03-09'
-    - acquiree: Daksh Infosoft
-      date: '2004-04-07'
-    - acquiree: Daksh eServices
-      date: '2004-04-07'
-    - acquiree: Candle Corporation
-      date: '2004-06-07'
-    - acquiree: AlphaBlox
-      date: '2004-07-14'
-    - acquiree: Cyanea Systems
-      date: '2004-07-29'
-    - acquiree: Maersk Data
-      date: '2004-08-17'
-    - acquiree: Venetica
-      date: '2004-08-26'
-    - acquiree: Systemcorp A.L.G.
-      date: '2004-10-12'
-    - acquiree: Liberty Insurance Services
-      date: '2004-11-23'
-    - acquiree: KeyMRO
-      date: '2004-12-13'
-    - acquiree: SRD
-      date: '2005-01-07'
-    - acquiree: Systems Research & Development
-      date: '2005-01-07'
-    - acquiree: Corio
-      date: '2005-01-25'
-      price: 182000000
-    - acquiree: Equitant
-      date: '2005-02-02'
-    - acquiree: Ascential Software
-      date: '2005-05-02'
-    - acquiree: Gluecode Software
-      date: '2005-05-10'
-    - acquiree: Healthlink
-      date: '2005-06-15'
-    - acquiree: Meiosys
-      date: '2005-06-23'
-    - acquiree: Isogon Corporation
-      date: '2005-07-27'
-    - acquiree: DWL
-      date: '2005-08-02'
-    - acquiree: PureEdge Solutions
-      date: '2005-08-05'
-    - acquiree: DataPower Technology
-      date: '2005-10-18'
-    - acquiree: iPhrase Technologies
-      date: '2005-11-01'
-    - acquiree: Network Solutions Private Limited
-      date: '2005-11-09'
-    - acquiree: Collation
-      date: '2005-11-16'
-    - acquiree: Bowstreet
-      date: '2005-12-20'
-    - acquiree: Micromuse
-      date: '2005-12-21'
-      price: 865000000
-    - acquiree: CIMS Lab
-      date: '2006-01-25'
-    - acquiree: ARGUS Semiconductor Software
-      date: '2006-01-27'
-    - acquiree: Viacore
-      date: '2006-02-08'
-    - acquiree: Language Analysis Systems
-      date: '2006-03-16'
-    - acquiree: BuildForge
-      date: '2006-05-02'
-    - acquiree: Unicorn Solutions
-      date: '2006-05-08'
-    - acquiree: Rembo Technology
-      date: '2006-05-18'
-    - acquiree: Webify
-      date: '2006-08-02'
-    - acquiree: Global Value Solutions
-      date: '2006-09-06'
-    - acquiree: Valchemy
-      date: '2006-09-30'
-    - acquiree: MRO Software
-      date: '2006-10-05'
-    - acquiree: FileNet Corporation
-      date: '2006-10-12'
-      price: 1600000000
-    - acquiree: Internet Security Systems
-      date: '2006-10-20'
-    - acquiree: Palisades Technology Partners
-      date: '2006-11-10'
-    - acquiree: Consul Risk Management International
-      date: '2006-12-05'
-    - acquiree: Vallent Corporation
-      date: '2007-02-14'
-    - acquiree: Softek Storage Solutions
-      date: '2007-03-01'
-    - acquiree: Unicible
-      date: '2007-04-20'
-    - acquiree: Telelogic
-      date: '2007-06-11'
-      price: 745000000
-    - acquiree: Watchfire
-      date: '2007-07-23'
-    - acquiree: Princeton Softech
-      date: '2007-08-03'
-    - acquiree: Webdialogs
-      date: '2007-08-22'
-    - acquiree: DataMirror
-      date: '2007-09-04'
-    - acquiree: NovusCG
-      date: '2007-10-24'
-    - acquiree: Arsenal Digital Solutions
-      date: '2007-12-06'
-    - acquiree: Solid Information Technology
-      date: '2007-12-21'
-    - acquiree: XIV
-      date: '2008-01-02'
-    - acquiree: Net Integration Technologies
-      date: '2008-01-18'
-    - acquiree: AptSoft
-      date: '2008-01-23'
-    - acquiree: Cognos
-      date: '2008-01-31'
-    - acquiree: Encentuate
-      date: '2008-03-12'
-    - acquiree: FilesX
-      date: '2008-04-10'
-    - acquiree: Diligent
-      date: '2008-04-22'
-    - acquiree: InfoDyne Corporation
-      date: '2008-04-29'
-    - acquiree: Platform Solutions
-      date: '2008-07-02'
-    - acquiree: ILOG
-      date: '2008-07-28'
-    - acquiree: Transitive
-      date: '2008-11-18'
-    - acquiree: Outblaze
-      date: '2009-04-16'
-    - acquiree: Exeros
-      date: '2009-05-05'
-    - acquiree: Ounce Labs
-      date: '2009-07-28'
-    - acquiree: SPSS
-      date: '2009-07-28'
-    - acquiree: RedPill Solutions
-      date: '2009-09-22'
-    - acquiree: Guardium
-      date: '2009-11-30'
-      price: 225000000
-    - acquiree: Lombardi Software
-      date: '2009-12-16'
-    - acquiree: National Interest Security Company
-      date: '2010-01-20'
-    - acquiree: Initiate Systems
-      date: '2010-02-03'
-    - acquiree: Intelliden
-      date: '2010-02-16'
-    - acquiree: Cast Iron Systems
-      date: '2010-05-03'
-    - acquiree: Sterling Commerce
-      date: '2010-05-24'
-    - acquiree: Storwize
-      date: '2010-06-14'
-      price: 140000000
-    - acquiree: Coremetrics
-      date: '2010-06-15'
-    - acquiree: BigFix
-      date: '2010-07-01'
-    - acquiree: Datacap
-      date: '2010-08-10'
-    - acquiree: Unica
-      date: '2010-08-13'
-      price: 480000000
-    - acquiree: OpenPages
-      date: '2010-09-15'
-    - acquiree: Netezza
-      date: '2010-09-20'
-      price: 1800000000
-    - acquiree: BLADE Network Technologies
-      date: '2010-09-27'
-    - acquiree: PSS Systems
-      date: '2010-10-13'
-    - acquiree: Clarity Systems
-      date: '2010-10-21'
-    - acquiree: TRIRIGA
-      date: '2011-04-14'
-    - acquiree: i2 Group
-      date: '2011-08-31'
-    - acquiree: Algorithmics
-      date: '2011-09-01'
-      price: 380200000
-    - acquiree: Q1 Labs
-      date: '2011-10-04'
-    - acquiree: Platform Computing
-      date: '2011-10-11'
-    - acquiree: DemandTec
-      date: '2011-12-08'
-      price: 440000000
-    - acquiree: Emptoris
-      date: '2011-12-15'
-    - acquiree: "C\xFAram Software"
-      date: '2011-12-20'
-    - acquiree: Green Hat
-      date: '2012-01-04'
-    - acquiree: Worklight
-      date: '2012-01-31'
-      price: 70000000
-    - acquiree: Varicent Software
-      date: '2012-04-13'
-    - acquiree: Vivisimo
-      date: '2012-04-25'
-    - acquiree: Tealeaf
-      date: '2012-05-02'
-    - acquiree: Cibecs
-      date: '2012-07-01'
-    - acquiree: Texas Memory Systems
-      date: '2012-08-16'
-    - acquiree: Kenexa
-      date: '2012-08-28'
-    - acquiree: Butterfly Software
-      date: '2012-09-24'
-    - acquiree: StoredIQ
-      date: '2013-02-07'
-    - acquiree: Star Analytics
-      date: '2013-03-20'
-    - acquiree: Urbancode
-      date: '2013-04-22'
-    - acquiree: SoftLayer
-      date: '2013-06-04'
-      price: 2000000000
-    - acquiree: CSL International
-      date: '2013-07-10'
-    - acquiree: Trusteer
-      date: '2013-08-15'
-    - acquiree: Daeja Image Systems
-      date: '2013-09-19'
-    - acquiree: Xtify
-      date: '2013-10-03'
-    - acquiree: The Now Factory
-      date: '2013-10-29'
-    - acquiree: Fiberlink
-      date: '2013-12-18'
-      price: 375000000
-    - acquiree: Aspera
-      date: '2013-12-19'
-    - acquiree: Cloudant
-      date: '2014-02-24'
-    - acquiree: Cloudant
-      date: '2014-02-24'
-    - acquiree: Silverpop
-      date: '2014-04-10'
-      price: 270000000
-    - acquiree: Cognea
-      date: '2014-05-20'
-    - acquiree: CrossIdeas
-      date: '2014-07-31'
-    - acquiree: AlchemyAPI
-      date: '2015-03-04'
-    - acquiree: Blekko
-      date: '2015-03-27'
-    - acquiree: Explorys
-      date: '2015-04-16'
-    - acquiree: Phytel
-      date: '2015-05-04'
-    - acquiree: Blue Box
-      date: '2015-06-03'
-    - acquiree: Compose
-      date: '2015-07-23'
-    - acquiree: Merge Healthcare
-      date: '2015-08-06'
-      price: 1000000000
-    - acquiree: StrongLoop
-      date: '2015-09-10'
-    - acquiree: Meteorix
-      date: '2015-09-28'
-    - acquiree: Cleversafe
-      date: '2015-10-05'
-      price: 1300000000
-    - acquiree: The Weather Company
-      date: '2015-10-28'
-    - acquiree: Gravitant
-      date: '2015-11-03'
-    - acquiree: Clearleap
-      date: '2015-12-08'
-    - acquiree: IRIS Analytics
-      date: '2016-01-15'
-    - acquiree: Ustream
-      date: '2016-01-21'
-    - acquiree: Resource/Ammirati
-      date: '2016-01-28'
-    - acquiree: Aperto
-      date: '2016-02-02'
-    - acquiree: Ecx.io
-      date: '2016-02-03'
-    - acquiree: Truven Health Analytics
-      date: '2016-02-18'
-      price: 2600000000
-    - acquiree: IBM Resilient
-      date: '2016-02-29'
-    - acquiree: Optevia
-      date: '2016-03-17'
-    - acquiree: Bluewolf
-      date: '2016-03-30'
-      price: 200000000
-    - acquiree: EZSource
-      date: '2016-06-01'
-    - acquiree: Promontory Financial Group
-      date: '2016-09-29'
-    - acquiree: Sanovi Technologies
-      date: '2016-10-27'
-    - acquiree: Expert Personal Shopper (XPS)
-      date: '2016-11-01'
-    - acquiree: Agile 3 Solutions
-      date: '2017-01-23'
-    - acquiree: Verizon - Cloud services
-      date: '2017-05-02'
-    - acquiree: Cloudigo
-      date: '2017-09-24'
-    - acquiree: Vivant
-      date: '2017-10-04'
-    - acquiree: Armanta
-      date: '2018-05-03'
-    - acquiree: Oniqua Inc.
-      date: '2018-06-15'
-    - acquiree: Red Hat
-      date: '2018-10-28'
-      price: 34000000000
-    - acquiree: T-Systems - Mainframe Services business
-      date: '2019-01-14'
-    - acquiree: Red Hat
-      date: '2019-06-01'
-    - acquiree: Spanugo
-      date: '2020-06-15'
-    - acquiree: WDG Automation
-      date: '2020-07-08'
-    - acquiree: TruQua
-      date: '2020-11-16'
-    - acquiree: Instana
-      date: '2020-11-18'
-    - acquiree: Expertus Technologies
-      date: '2020-12-15'
-    - acquiree: Nordcloud
-      date: '2020-12-21'
-    - acquiree: 7Summits
-      date: '2021-01-11'
-    - acquiree: Taos Mountain
-      date: '2021-01-14'
-    - acquiree: myInvenio, an IBM Company
-      date: '2021-04-15'
-    - acquiree: Turbonomic
-      date: '2021-04-29'
-      price: 2000000000
-    - acquiree: Waeg
-      date: '2021-05-18'
-    - acquiree: Catalogic ECX
-      date: '2021-05-25'
-    - acquiree: BoxBoat Technologies
-      date: '2021-07-08'
-    - acquiree: Bluetab
-      date: '2021-07-15'
-    - acquiree: McD Tech Labs
-      date: '2021-10-28'
-    - acquiree: ReaQta
-      date: '2021-11-02'
-    - acquiree: SXiQ
-      date: '2021-11-30'
-    - acquiree: Envizi
-      date: '2022-01-11'
-    - acquiree: Sentaca
-      date: '2022-02-01'
-    - acquiree: Neudesic
-      date: '2022-02-15'
-    - acquiree: Randori
-      date: '2022-06-14'
-    - acquiree: Databand
-      date: '2022-07-06'
-      price: 150000000
-    city: Armonk
-    company_type: For Profit
-    country: United States
-    description: IBM is an IT technology and consulting firm providing computer hardware,
-      software, infrastructure, and hosting services.
-    homepage: http://www.ibm.com/
-    industries:
-    - Business Development
-    - Business Information Systems
-    - CRM
-    - Software
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/ibm/
-    name: IBM
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents: []
-    region: New York
-    stockExchange: nyse
-    ticker: IBM
-    twitter: http://twitter.com/IBM
-  github_data:
-    contributions: 2;7;8;10;22;33;16;26;12;31;15;6;9;12;13;6;11;19;13;36;22;28;37;41;41;60;33;36;42;25;5;14;11;7;45;30;6;0;1;0;2;12;3;1;16;10;3;9;10;7;8;2
-    contributors_count: 26
-    contributors_link: https://github.com/kubernetes-sigs/kui/graphs/contributors
-    description: A hybrid command-line/UI development experience for cloud-native
-      development
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#2b7489'
-      name: TypeScript
-      value: 3335067
-    - name: SCSS
-      value: 363245
-    - color: '#f1e05a'
-      name: JavaScript
-      value: 81811
-    - color: '#89e051'
-      name: Shell
-      value: 72239
-    - color: '#563d7c'
-      name: CSS
-      value: 46053
-    - color: '#00ADD8'
-      name: Go
-      value: 10894
-    - color: '#384d54'
-      name: Dockerfile
-      value: 7193
-    - name: EJS
-      value: 3508
-    - color: '#427819'
-      name: Makefile
-      value: 844
-    - color: '#e34c26'
-      name: HTML
-      value: 166
-    - color: '#199f4b'
-      name: Vim script
-      value: 12
-    latest_commit_date: '2022-08-01T17:14:38Z'
-    latest_commit_link: /kubernetes-sigs/kui/commit/54342303ec2587d0078af97af89495bf601e55a2
-    license: Apache License 2.0
-    release_date: '2022-05-18T23:45:34Z'
-    release_link: https://github.com/kubernetes-sigs/kui/releases
-    stars: 2283
-  github_start_commit_data:
-    start_commit_link: /IBM/kui/commit/19a95de306964c37f9ffe76a77cc1b2b7523289f
-    start_date: '2018-11-29T17:33:03Z'
+- crunchbase: https://www.crunchbase.com/organization/ibm
   homepage_url: https://kui.tools/
-  image_data:
-    fileName: kui.svg
-    hash: 8k111740w+PG1Z3iAhpzab6sDdsPNYqoLyi8d+gqhtY=
   item: null
   logo: kui.svg
   name: Kui
   repo_url: https://github.com/kubernetes-sigs/kui
-  repos:
-  - stars: 2283
-    url: https://github.com/kubernetes-sigs/kui
   twitter: https://twitter.com/IBMCloud
-  twitter_data:
-    latest_tweet_date: 2022-08-04 13:43:19+00:00
-  yahoo_finance_data:
-    effective_ticker: IBM
-    market_cap: 118744473600

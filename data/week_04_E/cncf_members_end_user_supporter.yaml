@@ -1,112 +1,13 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/arms-business-solutions
-  crunchbase_data:
-    acquisitions: []
-    city: Madison
-    company_type: For Profit
-    country: United States
-    description: Saas
-    homepage: https://Entegral.com
-    industries:
-    - Information Technology
-    - Insurance
-    - SaaS
-    - Software
-    linkedin: https://www.linkedin.com/company/entegral/mycompany/?viewAsMember=true
-    name: Entegral
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: Wisconsin
-    stockExchange: null
-    twitter: null
-  homepage_url: https://entegral.com/
-  image_data:
-    fileName: entegral-supporter.svg
-    hash: Vx4O/OSMVPF0yeY9bRRD9kotVbteeoyqsYElTm0a4rw=
+- description: Endress+Hauser is a global leader in measurement and automation technology
+    for process and laboratory applications.
+  homepage_url: https://www.endress.com
   item: null
-  logo: entegral.svg
-  name: Entegral (supporter)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/equityzen-inc
-  crunchbase_data:
-    acquisitions: []
-    city: New York
-    company_type: For Profit
-    country: United States
-    description: EquityZen is a financial services company that provides an investment
-      platform intended to connect shareholders of private companies.
-    funding: 11309374
-    homepage: http://www.equityzen.com/
-    industries:
-    - FinTech
-    - Finance
-    - Financial Services
-    - Payments
-    - Trading Platform
-    kind: funding
-    linkedin: https://www.linkedin.com/company/equityzen/
-    name: EquityZen
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: New York
-    stockExchange: null
-    twitter: https://twitter.com/EquityZen
-  homepage_url: https://equityzen.com/
-  image_data:
-    fileName: equity-zen-supporter.svg
-    hash: WWuj+eCagj8MquEE97sy7ZdN/ToIKYURklN2jhU38Vk=
-  item: null
-  logo: equityzen.svg
-  name: EquityZen (supporter)
-  twitter_data:
-    latest_tweet_date: 2022-07-26 18:00:37+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/everquote
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Eversurance
-      date: '2020-08-04'
-    - acquiree: Policy Fuel
-      date: '2021-07-20'
-    city: Cambridge
-    company_type: For Profit
-    country: United States
-    description: EverQuote is an independent insurance marketplace and is a free service
-      that helps consumers compare quotes on auto insurance.
-    funding: 52568676
-    homepage: https://www.everquote.com/
-    industries:
-    - Auto Insurance
-    - Insurance
-    - Internet
-    - Marketplace
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/everquote
-    name: EverQuote
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: Massachusetts
-    stockExchange: nasdaq
-    ticker: EVER
-    twitter: https://twitter.com/EverQuoteInsure
+  joined: '2024-01-01'
+  logo: endress+hauser.svg
+  name: Endress+Hauser (supporter)
+- crunchbase: https://www.crunchbase.com/organization/everquote
   homepage_url: https://www.everquote.com/
-  image_data:
-    fileName: ever-quote-supporter.svg
-    hash: N7YRZl4ul7S/5NHwMHHIDputH9VB683/+xIfmjLhFZ8=
   item: null
+  joined: '2019-12-01'
   logo: everquote.svg
   name: EverQuote (supporter)
-  twitter_data:
-    latest_tweet_date: 2019-11-18 16:23:15+00:00
-  yahoo_finance_data:
-    effective_ticker: EVER
-    market_cap: 360181536

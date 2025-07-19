@@ -1,37 +1,14 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/qubole
-  crunchbase_data:
-    acquisitions: []
-    city: Santa Clara
-    company_type: For Profit
-    country: United States
-    description: Qubole is a simple and secure data lake platform for machine learning,
-      streaming, and ad-hoc analytics.
-    funding: 77900000
-    homepage: http://www.qubole.com
-    industries:
-    - Analytics
-    - Big Data
-    - Cloud Data Services
-    - Enterprise Software
-    - Machine Learning
-    kind: funding
-    linkedin: https://www.linkedin.com/company/qubole
-    name: Qubole
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: http://twitter.com/qubole
+- crunchbase: https://www.crunchbase.com/organization/qdrant
+  description: Vector Database for the next generation of AI applications.
+  extra:
+    youtube_url: https://www.youtube.com/channel/UC6ftm8PwH1RU_LM1jwG0LQA
+  homepage_url: https://qdrant.tech
+  item: null
+  logo: qdrant.svg
+  name: Qdrant
+  repo_url: https://github.com/qdrant/qdrant
+- crunchbase: https://www.crunchbase.com/organization/qubole
   homepage_url: https://www.qubole.com/
-  image_data:
-    fileName: qubole.svg
-    hash: wTBrrOC9u/GLigsxJZnzBIuEltvFXLQRFGroaNmUfZw=
   item: null
   logo: qubole.svg
   name: Qubole
-  twitter_data:
-    latest_tweet_date: 2022-08-05 12:01:16+00:00

@@ -1,852 +1,115 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/ignw
-  crunchbase_data:
-    acquisitions: []
-    city: Lake Oswego
-    company_type: ''
-    country: United States
-    description: IGNW is focused on improving your organizational outcomes, whether
-      you need us behind the scenes or on the front lines
-    homepage: https://www.ignw.io/
-    industries: []
-    linkedin: https://www.linkedin.com/company/ignw/
-    name: IGNW
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Oregon
-    stockExchange: null
-    twitter: https://twitter.com/IGNW__
-  homepage_url: https://www.ignw.io/
-  image_data:
-    fileName: ignw-member.svg
-    hash: gXxWmSdHM0j2gz7Xg9rOngLV59GwhlzyD62Dm0bv3yk=
+- crunchbase: https://www.crunchbase.com/organization/icon-business-systems
+  homepage_url: https://www.icon-info.com.hk/
   item: null
-  logo: ignw.svg
-  name: IGNW (member)
-  twitter_data:
-    latest_tweet_date: 2021-01-01 15:00:11+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/iguaz-io
-  crunchbase_data:
-    acquisitions: []
-    city: Herzliya
-    company_type: For Profit
-    country: Israel
-    description: Iguazio is a data science platform that enables them to develop,
-      deploy, and manage AI applications at scale and in real-time.
-    funding: 72000000
-    homepage: http://www.iguazio.com
-    industries:
-    - Analytics
-    - Artificial Intelligence
-    - Big Data
-    - Machine Learning
-    - PaaS
-    - Real Time
-    - SaaS
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/iguazio
-    name: Iguazio
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: Tel Aviv
-    stockExchange: null
-    twitter: https://twitter.com/iguazio
-  homepage_url: https://www.iguazio.com
-  image_data:
-    fileName: iguazio-member.svg
-    hash: 5k+S7vij3x7pE0Ag52Q+XGOxFt5xNFSCDeVjYpFkLZ8=
+  joined: '2025-03-01'
+  logo: icon.svg
+  name: Icon Business Systems (member)
+- crunchbase: https://www.crunchbase.com/organization/if-information-systems
+  homepage_url: https://www.ifinfo.co.kr
   item: null
-  logo: iguazio.svg
-  name: Iguazio (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 18:29:35+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/iits-consulting
-  crunchbase_data:
-    acquisitions: []
-    city: Au In Der Hallertau
-    company_type: ''
-    country: Germany
-    description: Tailor-made software solutions for you and your company.
-    homepage: https://iits-consulting.de/
-    industries:
-    - Software
-    linkedin: null
-    name: IITS Consulting
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Bayern
-    stockExchange: null
-    twitter: null
+  joined: '2025-04-01'
+  logo: if-information-systems.svg
+  name: IF Information Systems (member)
+- crunchbase: https://www.crunchbase.com/organization/iits-consulting
   homepage_url: https://iits-consulting.de
-  image_data:
-    fileName: iits-consulting-member.svg
-    hash: 9mTWqPmRipsebivRYicVU2Bqqug65ylHgicKZFnRjT4=
   item: null
+  joined: '2021-04-01'
   logo: iits-consulting.svg
   name: IITS Consulting (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/ilki
-  crunchbase_data:
-    acquisitions: []
-    city: Paris
-    company_type: For Profit
-    country: France
-    description: Supporting companies to transform their IT architecture
-    homepage: https://www.ilki.fr/
-    industries:
-    - Consulting
-    - Information Technology
-    linkedin: https://www.linkedin.com/company/ilki
-    name: ILKI
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Ile-de-France
-    stockExchange: null
-    twitter: https://twitter.com/ClouDesigner
+- crunchbase: https://www.crunchbase.com/organization/ilki
   homepage_url: https://www.ilki.fr/
-  image_data:
-    fileName: ilki-member.svg
-    hash: R9l4jgHDL5f/on/n57tf005NyMiBQu+qxSbOaG6//4Q=
   item: null
+  joined: '2019-05-01'
   logo: ilki-member.svg
-  name: Ilki (member)
-  twitter_data:
-    latest_tweet_date: 2021-05-17 05:11:04+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/indeed
-  crunchbase_data:
-    acquisitions:
-    - acquiree: MoBolt UK
-      date: '2014-06-24'
-    - acquiree: Interviewed
-      date: '2017-08-04'
-    - acquiree: Resume.com
-      date: '2018-05-25'
-    - acquiree: Syft
-      date: '2019-05-30'
-    - acquiree: ClickIQ
-      date: '2019-07-12'
-    city: Austin
-    company_type: For Profit
-    country: United States
-    description: Indeed is an employment-related metasearch engine for job listings.
-    funding: 5000000
-    homepage: http://www.indeed.com
-    industries:
-    - Ad Network
-    - Advertising
-    - Recruiting
-    - Search Engine
-    kind: funding
-    linkedin: https://www.linkedin.com/company/indeed-com
-    name: Indeed
-    num_employees_max: 10000
-    num_employees_min: 5001
-    parents: []
-    region: Texas
-    stockExchange: null
-    twitter: http://twitter.com/indeed
+  name: ILKI (member)
+- crunchbase: https://www.crunchbase.com/organization/incloud-64d7
+  homepage_url: https://incloud.com
+  item: null
+  joined: '2025-06-01'
+  logo: incloud.svg
+  name: Incloud (member)
+- crunchbase: https://www.crunchbase.com/organization/indeed
   enduser: true
   homepage_url: https://hk.indeed.com
-  image_data:
-    fileName: indeed-member.svg
-    hash: LuQmQbr4imCGjfbOPwqzLbI0pA+4dsu6nU7kluELm+4=
   item: null
+  joined: '2018-01-01'
   logo: indeed-member.svg
   name: Indeed (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 16:50:07+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/infinyon
-  crunchbase_data:
-    acquisitions: []
-    city: Santa Clara
-    company_type: For Profit
-    country: United States
-    description: The Real-Time Data Hub
-    homepage: https://www.infinyon.com
-    industries:
-    - Information Technology
-    - Software
-    linkedin: https://www.linkedin.com/company/infinyon
-    name: InfinyOn
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/infinyon
-  homepage_url: https://www.infinyon.com/
-  image_data:
-    fileName: infinyon-member.svg
-    hash: yL2Ur3G92jiNApk3bthmnBGAEbrMdnd4fhBUq6tZ/x4=
+- crunchbase: https://www.crunchbase.com/organization/infisical
+  homepage_url: https://infisical.com
   item: null
-  logo: infinyon.svg
-  name: Infinyon (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 04:23:13+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/influxdb
-  crunchbase_data:
-    acquisitions: []
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: InfluxData is the creator of InfluxDB, the open source time series
-      database.
-    funding: 119892000
-    homepage: http://influxdata.com/
-    industries:
-    - Analytics
-    - Data Visualization
-    - Database
-    - Information Technology
-    - Internet
-    - Internet of Things
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/influxdb/
-    name: InfluxData
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: http://twitter.com/influxdb
+  joined: '2024-04-01'
+  logo: infisical.svg
+  name: Infisical (member)
+- crunchbase: https://www.crunchbase.com/organization/influxdb
   homepage_url: https://www.influxdata.com
-  image_data:
-    fileName: influx-data-member.svg
-    hash: Sh4dmXEAQ3uhRoETNGi6GCr7ysLDsyCIe4rSR5NyKY4=
   item: null
+  joined: '2017-10-01'
   logo: influxdata.svg
   name: InfluxData (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 21:47:01+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/infoblox
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Ipanto
-      date: '2007-08-28'
-    - acquiree: Netcordia
-      date: '2010-05-04'
-    - acquiree: IID
-      date: '2016-02-08'
-      price: 45000000
-    - acquiree: SnapRoute
-      date: '2019-11-07'
-    city: Santa Clara
-    company_type: For Profit
-    country: United States
-    description: Infoblox develops network identity solutions enabling businesses
-      to automate network control functions to reduce costs and boost security.
-    funding: 53000000
-    homepage: http://www.infoblox.com
-    industries:
-    - Network Hardware
-    - Real Time
-    - Security
-    kind: funding
-    linkedin: https://www.linkedin.com/company/infoblox
-    name: Infoblox
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: California
-    stockExchange: nyse
-    twitter: http://twitter.com/infoblox
+- crunchbase: https://www.crunchbase.com/organization/infoblox
   homepage_url: https://www.infoblox.com
-  image_data:
-    fileName: infoblox-member.svg
-    hash: fcM0FQSsZhohL0E1gNtj69E+iEGdIngsQIB4PiS9gJo=
   item: null
+  joined: '2016-01-01'
   logo: Infoblox.svg
   name: Infoblox (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 17:42:02+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/infosys
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Infosys Technologies (Australia) Pty. Ltd.
-      date: '2003-12-18'
-      price: 22900000
-    - acquiree: McCamish Systems LLC
-      date: '2009-11-13'
-      price: 58000000
-    - acquiree: EdgeVerve
-      date: '2012-05-05'
-      price: 235000000
-    - acquiree: Lodestone Holding
-      date: '2012-09-10'
-      price: 349000000
-    - acquiree: Panaya
-      date: '2015-02-16'
-      price: 230000000
-    - acquiree: Kallidus Technologies
-      date: '2015-04-24'
-      price: 120000000
-    - acquiree: Skava
-      date: '2015-04-27'
-      price: 120000000
-    - acquiree: Noah Consulting
-      date: '2015-10-19'
-      price: 70000000
-    - acquiree: Skytree
-      date: '2017-04-18'
-    - acquiree: Brilliant Basics
-      date: '2017-08-03'
-      price: 9857085
-    - acquiree: WONGDOODY
-      date: '2018-04-13'
-      price: 75040000
-    - acquiree: Fluido
-      date: '2018-09-14'
-    - acquiree: Stater
-      date: '2019-03-28'
-      price: 143179276
-    - acquiree: Eishtec
-      date: '2019-10-09'
-    - acquiree: Simplus
-      date: '2020-02-10'
-    - acquiree: Kaleidoscope Innovation and Product Design
-      date: '2020-09-03'
-      price: 42000000
-    - acquiree: GuideVision
-      date: '2020-09-14'
-      price: 35605477
-    - acquiree: Blue Acorn iCi
-      date: '2020-10-08'
-      price: 125000000
-    - acquiree: Carter Digital
-      date: '2021-01-13'
-    - acquiree: Singtel
-      date: '2021-12-15'
-      price: 4392772
-    - acquiree: Base Life Science
-      date: '2022-07-13'
-      price: 110377602
-    city: Bangalore
-    company_type: For Profit
-    country: India
-    description: Infosys is a provider of consulting, technology, and outsourcing,
-      and next-generation services.
-    funding: 200000000
-    homepage: http://www.infosys.com
-    industries:
-    - Consulting
-    - IT Management
-    - Information Services
-    - Information Technology
-    - Software
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/infosys
-    name: Infosys
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents: []
-    region: Karnataka
-    stockExchange: nyse
-    ticker: INFY
-    twitter: http://twitter.com/infosys
-  homepage_url: https://www.infosys.com
-  image_data:
-    fileName: infosys-member.svg
-    hash: E0Ve2uC48G/eQs5Of3tt996lYBmVYJZmDbfqKqr5hBg=
+- crunchbase: https://www.crunchbase.com/organization/infracloud-technologies
+  homepage_url: https://www.infracloud.io/kubernetes-consulting-partner/
   item: null
-  logo: infosys.svg
-  name: Infosys (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 11:23:28+00:00
-  yahoo_finance_data:
-    effective_ticker: INFY
-    market_cap: 85179932672
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/infracloud-technologies
-  crunchbase_data:
-    acquisitions: []
-    city: Newark
-    company_type: For Profit
-    country: United States
-    description: We unleash growth by helping companies adopt cloud native technologies
-      with our products and services!
-    homepage: https://www.infracloud.io/
-    industries:
-    - Consulting
-    - Information Technology
-    - Software
-    - Software Engineering
-    linkedin: https://www.linkedin.com/company/infracloudio
-    name: InfraCloud
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: Delaware
-    stockExchange: null
-    twitter: https://twitter.com/infracloudio
-  homepage_url: https://www.infracloud.io
-  image_data:
-    fileName: infra-cloud-technologies-member.svg
-    hash: G3okfZMcoW1UF8/XTT9YDln8EkjCEomxv2daRil1ITk=
-  item: null
-  logo: infra-cloud-technologies-member.svg
+  joined: '2018-07-01'
+  logo: infracloud.svg
   name: InfraCloud Technologies (member)
-  twitter_data:
-    latest_tweet_date: 2022-07-20 14:36:59+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/inigo-a1d0
-  crunchbase_data:
-    acquisitions: []
-    city: Palo Alto
-    company_type: ''
-    country: United States
-    description: GraphQL API Security & Management Platform
-    funding: 0
-    homepage: https://inigo.io
-    industries:
-    - Developer APIs
-    - Developer Tools
-    - Enterprise Software
-    - Software
-    linkedin: https://www.linkedin.com/company/inigo
-    name: Inigo
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: null
-  homepage_url: https://inigo.io/
-  image_data:
-    fileName: inigo-member.svg
-    hash: 4n9LgtZpOEOi6KcUDKmHWMc+hAdCpxQjMavDcVprvto=
-  item: null
-  logo: inigo.svg
-  name: Inigo (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/innablr
-  crunchbase_data:
-    acquisitions: []
-    city: Melbourne
-    company_type: For Profit
-    country: Australia
-    description: Experts in Cloud technology and leaders in Architecture, DevOps solutions
-      and Security outcomes.
-    homepage: https://innablr.com.au
-    industries:
-    - Cloud Computing
-    - Cloud Security
-    - Consulting
-    - Cyber Security
-    - Developer Platform
-    - Information Technology
-    linkedin: https://www.linkedin.com/company/innablr
-    name: Innablr
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Victoria
-    stockExchange: null
-    twitter: null
-  homepage_url: https://www.innablr.com.au/
-  image_data:
-    fileName: innablr-member.svg
-    hash: awm1HRGjWOqRGv8SOQyJSveHt4fvMRyqRjcdziBadYY=
-  item: null
-  logo: innablr.svg
-  name: Innablr (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/innogrid
-  crunchbase_data:
-    acquisitions: []
-    city: Seoul
-    company_type: For Profit
-    country: South Korea
-    description: InnoGrid develops and sells cloud computing solutions.
-    homepage: http://www.innogrid.com
-    industries:
-    - Information Technology
-    linkedin: null
-    name: Innogrid
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Seoul-t'ukpyolsi
-    stockExchange: null
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/innogrid
   homepage_url: https://www.innogrid.com/
-  image_data:
-    fileName: innogrid-member.svg
-    hash: r+0+vnoca+uSyRTqSxpf8VyJGuWQqscLa6ttYOqH788=
   item: null
+  joined: '2022-03-01'
   logo: innogrid.svg
   name: Innogrid (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/inovex
-  crunchbase_data:
-    acquisitions: []
-    city: Karlsruhe
-    company_type: For Profit
-    country: Germany
-    description: Inovex is a Germany-based company that offers IT systems, digital
-      consultation, web and mobile development, and trainings for enterprises.
-    homepage: https://www.inovex.de
-    industries:
-    - Digital Media
-    - Information Services
-    - Information Technology
-    linkedin: https://www.linkedin.com/company/inovex
-    name: inovex
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: Baden-Wurttemberg
-    stockExchange: null
-    twitter: https://www.twitter.com/inovexgmbh
-  homepage_url: https://www.inovex.de/de/
-  image_data:
-    fileName: inovex-member.svg
-    hash: giTwAFkxLLFwuyc42jDBlSoarG0d+xuL4yfSwL92Ufg=
+- crunchbase: https://www.crunchbase.com/organization/inspur
+  homepage_url: https://en.inspur.com
   item: null
-  logo: inovex-member.svg
-  name: Inovex (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 09:49:38+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/instaclustr
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Credativ
-      date: '2021-03-17'
-    city: Redwood City
-    company_type: For Profit
-    country: United States
-    description: Instaclustr is an online platform for open source infrastructure.
-    funding: 22164432
-    homepage: https://www.instaclustr.com
-    industries:
-    - Analytics
-    - Big Data
-    - Cloud Data Services
-    - Developer Platform
-    - EdTech
-    - Enterprise Software
-    - IT Infrastructure
-    - Internet of Things
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/instaclustr
-    name: Instaclustr
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/Instaclustr
-  homepage_url: https://www.instaclustr.com/
-  image_data:
-    fileName: instaclustr-member.svg
-    hash: Tc48QAz9+4QhoOaCYI611crC+PxxSpvWOYd4uYEzS+U=
+  joined: '2018-01-01'
+  logo: inspur.svg
+  name: Inspur (member)
+- crunchbase: https://www.crunchbase.com/organization/instruqt
+  homepage_url: https://www.instruqt.com/
   item: null
-  logo: instaclustr.svg
-  name: Instaclustr (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 17:32:01+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/instana
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Beeinstant
-      date: '2019-12-17'
-    - acquiree: Cleverfiles
-      date: '2019-12-17'
-    - acquiree: StackImpact
-      date: '2019-12-17'
-    city: Chicago
-    company_type: For Profit
-    country: United States
-    description: Enterprise observability platform for modern Dev+Ops cloud-native
-      microservices Application Performance Monitoring
-    funding: 57000000
-    homepage: http://www.instana.com
-    industries:
-    - Application Performance Management
-    - Enterprise Software
-    - IT Infrastructure
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/10082535
-    name: Instana
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: Illinois
-    stockExchange: null
-    twitter: https://twitter.com/InstanaHQ
-  homepage_url: https://www.instana.com
-  image_data:
-    fileName: instana-member.svg
-    hash: IY5pEqtkm3NP5iXcUeZ0NgOo58/QsU3c0lz64QLmCO4=
+  joined: '2022-12-01'
+  logo: instruqt.svg
+  name: Instruqt (member)
+- crunchbase: https://www.crunchbase.com/organization/intercept-df41
+  homepage_url: https://intercept.cloud
   item: null
-  logo: instana.svg
-  name: Instana (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 20:12:06+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/intercloud
-  crunchbase_data:
-    acquisitions: []
-    city: Paris
-    company_type: For Profit
-    country: France
-    description: InterCloud is the European leader of Software-Defined Cloud Interconnection
-      (SDCI)
-    funding: 153630863
-    homepage: https://www.intercloud.com
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Cloud Management
-    - Software
-    - Telecommunications
-    kind: funding
-    linkedin: https://www.linkedin.com/company/intercloud/
-    name: InterCloud
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: Ile-de-France
-    stockExchange: null
-    twitter: https://twitter.com/theintercloud
+  joined: '2025-02-01'
+  logo: intercept.svg
+  name: Intercept (member)
+- crunchbase: https://www.crunchbase.com/organization/intercloud
   homepage_url: https://www.intercloud.com/
-  image_data:
-    fileName: intercloud-member.svg
-    hash: 3tJ+4/3XE1KtBD13W6QKhtAYPVY745eqjTT71UAfHXk=
   item: null
+  joined: '2021-06-01'
   logo: intercloud.svg
   name: Intercloud (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 07:00:07+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/intuitive-technology-partners
-  crunchbase_data:
-    acquisitions: []
-    city: Edison
-    company_type: For Profit
-    country: United States
-    description: Intuitive (ITP) is an engineering company driving business outcomes.
-    homepage: https://www.intuitive.cloud/
-    industries: []
-    linkedin: https://www.linkedin.com/company/intuitive-technology-partners-inc-/
-    name: Intuitive Technology Partners
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: New Jersey
-    stockExchange: null
-    twitter: null
-  homepage_url: https://www.intuitive.cloud
-  image_data:
-    fileName: intuitive-technology-partners-member.svg
-    hash: i/JbV4/HW0GX4tMVLGSD4r3WJLR/CrY9WautF++nA1E=
+- crunchbase: https://www.crunchbase.com/organization/ionos-cloud
+  homepage_url: https://www.ionos.de/
   item: null
-  logo: intuitive-technology-partners.svg
-  name: Intuitive Technology Partners (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/smartx
-  crunchbase_data:
-    acquisitions: []
-    city: Beijing
-    company_type: For Profit
-    country: China
-    description: SmartX is a leading vendor of hyper-converged infrastructure and
-      distributed storage products.
-    funding: 67100000
-    homepage: http://www.smartx.com/
-    industries:
-    - Cloud Infrastructure
-    - Data Storage
-    - Enterprise Software
-    - Flash Storage
-    - Infrastructure
-    - Software
-    - Virtualization
-    kind: funding
-    linkedin: https://www.linkedin.com/company/smartx/
-    name: SmartX
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: Beijing
-    stockExchange: null
-    twitter: https://twitter.com/smartx_hq
-  homepage_url: https://iomesh.com/
-  image_data:
-    fileName: io-mesh-member.svg
-    hash: pqPKGL6WllXP65Oqj27aEBAlftz3jVQz3fks4gicEdw=
-  item: null
-  logo: iomesh.svg
-  name: IOMesh (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 07:59:54+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/covalent-io
-  crunchbase_data:
-    acquisitions: []
-    city: Mountain View
-    company_type: For Profit
-    country: United States
-    description: Isovalent builds open-source cloud-native networking software that
-      solves networking, security, and observability for modern infrastructure
-    funding: 29000000
-    homepage: https://isovalent.com/
-    industries:
-    - Cloud Security
-    - Cyber Security
-    - Information Technology
-    - Infrastructure
-    - Network Security
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/isovalent/
-    name: Isovalent
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/isovalent
+  joined: '2023-12-01'
+  logo: ionos.svg
+  name: IONOS (member)
+- crunchbase: https://www.crunchbase.com/organization/covalent-io
   homepage_url: https://isovalent.com/
-  image_data:
-    fileName: isovalent-member.svg
-    hash: vJ7fq2B7CaJnHSjq56XA6QpaiqE3QFuf81jxFuCe/74=
   item: null
+  joined: '2020-11-01'
   logo: isovalent.svg
   name: Isovalent (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 16:58:35+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/itera-technologies-a-s
-  crunchbase_data:
-    acquisitions: []
-    city: Praha
-    company_type: For Profit
-    country: Czech Republic
-    description: We specialize in building various types of clouds using our own cutting-edge
-      orchestration technology and know-how since 2012.
-    funding: 0
-    homepage: https://www.itera.io
-    industries:
-    - Cloud Computing
-    - Cloud Data Services
-    - Cloud Infrastructure
-    - Cloud Management
-    - Cloud Security
-    - Information Technology
-    - Private Cloud
-    - Software
-    linkedin: https://www.linkedin.com/company/itera-io/
-    name: Itera Technologies a.s.
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Hlavni mesto Praha
-    stockExchange: null
-    twitter: https://twitter.com/iteraio
-  homepage_url: https://www.itera.io/
-  image_data:
-    fileName: itera-member.svg
-    hash: AHqsB2irms9hA2ufnNqOAJUELRB0BkAevzT7JsEkAr4=
+- crunchbase: https://www.crunchbase.com/organization/itgix
+  homepage_url: https://itgix.com
   item: null
-  logo: itera.svg
-  name: Itera (member)
-  twitter_data:
-    latest_tweet_date: 2021-08-20 11:15:17+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/itrenew
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Splitted-Desktop Systems
-      date: '2018-06-11'
-    - acquiree: eSISO
-      date: '2018-10-11'
-    city: Newark
-    company_type: For Profit
-    country: United States
-    description: ITRenew provides ITAD and data security for the new era of cloud
-      computing and mass storage.
-    homepage: http://itrenew.com
-    industries:
-    - Cyber Security
-    - Data Center
-    - Hardware
-    - Information Technology
-    - Security
-    linkedin: https://www.linkedin.com/company/itrenew
-    name: ITRenew
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/itrenewinc
-  homepage_url: https://www.itrenew.com/
-  image_data:
-    fileName: it-renew-member.svg
-    hash: byOIwVMFOWNeSg63TTQiXV2Zy7bRx5YvIVLmR/Bno6Y=
+  joined: '2024-03-01'
+  logo: itgix.svg
+  name: ITGix (member)
+- crunchbase: https://www.crunchbase.com/organization/itq
+  homepage_url: https://itq.eu
   item: null
-  logo: itrenew.svg
-  name: ITRenew (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 22:14:01+00:00
+  joined: '2024-02-01'
+  logo: itq.svg
+  name: ITQ (member)

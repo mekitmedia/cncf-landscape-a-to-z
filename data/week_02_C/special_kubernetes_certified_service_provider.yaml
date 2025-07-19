@@ -1,1118 +1,176 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/camptocamp
-  crunchbase_data:
-    acquisitions: []
-    city: Lausanne
-    company_type: For Profit
-    country: Switzerland
-    description: Camptocamp is an innovative company in the software implementation
-      of geographic information systems.
-    homepage: http://www.camptocamp.com
-    industries:
-    - Information Technology
-    - Software
-    linkedin: https://www.linkedin.com/company/camptocamp-sa/
-    name: Camptocamp
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: Vaud
-    stockExchange: null
-    twitter: https://twitter.com/camptocamp
+- crunchbase: https://www.crunchbase.com/organization/camptocamp
   description: As part of its Infrastructure services, Camptocamp provides Kubernetes
     consulting and training, with a focus on OpenShift installation and integration.
   homepage_url: https://www.camptocamp.com/container_orchestration
-  image_data:
-    fileName: camptocamp-kcsp.svg
-    hash: vSLm93EZ4I3PqV4LnGxcWf1kdoaCJmsQcFy32+bE+Yg=
   item: null
   logo: camptocamp-kcsp.svg
   name: Camptocamp (KCSP)
-  twitter_data:
-    latest_tweet_date: 2022-07-28 12:56:57+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/canonical-ltd
-  crunchbase_data:
-    acquisitions: []
-    city: London
-    company_type: For Profit
-    country: United Kingdom
-    description: Canonical is a computer software company that markets commercial
-      support and related services for Ubuntu and related projects.
-    funding: 12800000
-    homepage: http://www.canonical.com
-    industries:
-    - Cloud Computing
-    - Internet of Things
-    - Linux
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/canonical-ltd-
-    name: Canonical
-    num_employees_max: 1000
-    num_employees_min: 501
-    parents: []
-    region: England
-    stockExchange: null
-    twitter: http://twitter.com/Canonical
+- crunchbase: https://www.crunchbase.com/organization/canonical-ltd
   description: The Canonical Distribution of Kubernetes enables you to operate Kubernetes
     clusters on demand on any major public cloud and private infrastructure.
   homepage_url: https://charmhub.io/charmed-kubernetes
-  image_data:
-    fileName: canonical-kcsp.svg
-    hash: xdrT7yx+VcVAinGOaMu9v+FBsqj1WMqHqLIFix0Kw7I=
   item: null
   logo: canonical-kcsp.svg
   name: Canonical (KCSP)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 08:30:58+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/china-academy-of-railway-sciences-cars
-  crunchbase_data:
-    acquisitions: []
-    city: Xian Shi
-    company_type: For Profit
-    country: China
-    description: Railway development test platform
-    homepage: https://www.rails.cn/xian/
-    industries: []
-    linkedin: null
-    name: China Academy of Railway Sciences (CARS)
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Shaanxi
-    stockExchange: null
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/china-academy-of-railway-sciences-cars
   description: CARS promotes cloud native best practices in the railway domain, helping
     make railway information systems development and operation modern and easy. Services
     around Kubernetes include, but are not limited to, installation, maintenance,
     service operator development, and training.
   homepage_url: https://www.rails.cn/xian/zh-cn/k8s-1/
-  image_data:
-    fileName: cars-china-academy-of-railway-sciences-kcsp.svg
-    hash: O87FO9KyAWsTZgVr5kdGzf1IZQkP2fMWXsJrr/AAPwo=
   item: null
   logo: cars.svg
   name: CARS - China Academy of Railway Sciences (KCSP)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/catalyst-cloud
-  crunchbase_data:
-    acquisitions: []
-    city: Wellington
-    company_type: For Profit
-    country: New Zealand
-    description: We deliver robust and innovative cloud services in New Zealand
-    homepage: https://catalystcloud.nz/
-    industries:
-    - Cloud Computing
-    - IaaS
-    - Information and Communications Technology (ICT)
-    - PaaS
-    linkedin: https://www.linkedin.com/company/catalyst-cloud-limited/
-    name: Catalyst Cloud
-    num_employees_max: 50
-    num_employees_min: 11
-    parents:
-    - https://www.crunchbase.com/organization/catalyst-it
-    region: Wellington
-    stockExchange: null
-    twitter: https://twitter.com/catalyst_cloud
+- crunchbase: https://www.crunchbase.com/organization/catalyst-cloud
   description: Catalyst Cloud specializes in the delivery of cloud services (private
     cloud consulting, training service and public cloud) benefiting from the freedom
     and choice of the broad ecosystem surrounding Kubernetes and OpenStack.
   homepage_url: https://catalystcloud.nz/
-  image_data:
-    fileName: catalyst-cloud-kcsp.svg
-    hash: m0to35npCcEqkqvAdK88oXAFomC+QIfx7SGhePG197c=
   item: null
   logo: catalyst-cloud.svg
   name: Catalyst Cloud (KCSP)
-  twitter_data:
-    latest_tweet_date: 2022-04-08 02:04:54+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/caylent
-  crunchbase_data:
-    acquisitions: []
-    city: Irvine
-    company_type: For Profit
-    country: United States
-    description: Full spectrum AWS Cloud Native and DevOps consulting partner
-    funding: 16215000
-    homepage: https://caylent.com
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - IaaS
-    kind: funding
-    linkedin: https://www.linkedin.com/company/caylent
-    name: Caylent
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/caylentinc
-  description: Caylent is a leading Kubernetes and DevOps consulting and managed services
-    provider that helps companies achieve Cloud Native transformation faster using
-    best practices.
-  homepage_url: https://caylent.com/services/devops
-  image_data:
-    fileName: caylent-kcsp.svg
-    hash: RX0QOGlCPC0CAJfG7pBJ34qfI1zqf0X2iIcuRJA/chw=
+- crunchbase: https://www.crunchbase.com/organization/china-electronic-system-cloud-data-and-intelligence-technology
+  description: CEcloud helps customers with cloud native best practices for modernizing
+    applications.
+  homepage_url: https://cecloud.com/dynamic//product/ceapaas.html
   item: null
-  logo: caylent.svg
-  name: Caylent (KCSP)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 19:02:36+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cengn
-  crunchbase_data:
-    acquisitions: []
-    city: Ottawa
-    company_type: For Profit
-    country: Canada
-    description: "CENGN\u2019s mission is to accelerate the commercialization of network\
-      \ technologies and applications."
-    homepage: https://www.cengn.ca/
-    industries:
-    - Information Technology
-    - Internet
-    - Software
-    - Telecommunications
-    linkedin: https://www.linkedin.com/company/cengn---centre-of-excellence-in-next-generation-networks-
-    name: Cengn
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Ontario
-    stockExchange: null
-    twitter: https://www.twitter.com/cengncanada
-  description: CENGN offers Kubernetes platforms and support to Canadian SMEs to deploy,
-    test, and commercialize their network and cloud applications.
-  homepage_url: https://www.cengn.ca/projects/
-  image_data:
-    fileName: cengn-kcsp.svg
-    hash: 5ptdYp4rUWZ8qGPZ7Q1iwz2IkwiwSyknCeoP+FfpTnA=
-  item: null
-  logo: cengn-kcsp.svg
-  name: CENGN (KCSP)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 19:00:53+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/china-mobile
-  crunchbase_data:
-    acquisitions:
-    - acquiree: China Mobile Pakistan
-      date: '2007-01-22'
-      price: 284000000
-    - acquiree: China Tietong
-      date: '2008-05-25'
-    - acquiree: Venustech
-      date: '2022-06-21'
-      price: 620000000
-    city: Beijing
-    company_type: For Profit
-    country: China
-    description: China Mobile is an investment holdings company that provides mobile
-      telecommunications and related services in Mainland China and Hong Kong.
-    funding: 3815535353
-    homepage: http://www.chinamobileltd.com
-    industries:
-    - Mobile
-    - Telecommunications
-    - Wireless
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/china-mobile/
-    name: China Mobile
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents: []
-    region: Beijing
-    stockExchange: sse
-    ticker: 600941.SS
-    twitter: null
+  logo: cecloud.svg
+  name: CECloud (KCSP)
+- crunchbase: https://www.crunchbase.com/organization/china-mobile
   description: China Mobile (Suzhou) Software Technology provides full support and
     services to domestic companies for their cloud native journeys
   homepage_url: https://ecloud.10086.cn/home/product-introduction/containerser
-  image_data:
-    fileName: china-mobile-kcsp.svg
-    hash: Whj7tizLYVmyzBGWPU4rNJGkmOKOLPgnUyzxR8QmH74=
   item: null
   logo: china-mobile-kcsp.svg
   name: China Mobile (KCSP)
-  yahoo_finance_data:
-    effective_ticker: 600941.SS
-    market_cap: 141243033292
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/china-systems
-  crunchbase_data:
-    acquisitions: []
-    city: Nanjing
-    company_type: For Profit
-    country: China
-    description: China Systems is the leading Trade Services Solutions vendor in the
-      world.
-    homepage: http://www.chinasystems.com
-    industries:
-    - Finance
-    - Information Technology
-    - Software
-    - Supply Chain Management
-    linkedin: https://www.linkedin.com/company/china-systems
-    name: China Systems
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: Jiangsu
-    stockExchange: null
-    twitter: https://twitter.com/china_systems
+- crunchbase: https://www.crunchbase.com/organization/china-systems
   description: "China Systems\u2019 team of cloud technology experts provides consulting,\
     \ DevOps and Production training, and support services to enterprises to fast-track\
     \ their adoption of Kubernetes on the cloud-native application platform."
   homepage_url: https://chinasystems.com/partners/kubernetes
-  image_data:
-    fileName: china-systems-kcsp.svg
-    hash: sAwvBR518OVnLawn4tCD1X3SlioL6bz4c/noT17Iq3Y=
   item: null
   logo: china-systems.svg
   name: China Systems (KCSP)
-  twitter_data:
-    latest_tweet_date: 2015-01-29 02:41:22+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/china-asean-information-harbor
-  crunchbase_data:
-    acquisitions: []
-    city: Nanning
-    company_type: For Profit
-    country: China
-    description: Platform-based information technology company
-    homepage: http://www.caih.com/
-    industries:
-    - Information Technology
-    linkedin: null
-    name: China-ASEAN Information Harbor
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: Guangxi
-    stockExchange: null
-    twitter: null
-  description: CAIH Container Cloud provides enterprise-level Cloud Native, CICD and
-    DevOps products, solutions and best practices to help enterprises modernize application
-    architecture, maximize productivity, lower operational costs, and accelerate enterprise
-    innovation.
-  homepage_url: http://www.caih.com/
-  image_data:
-    fileName: china-asean-information-harbor-kcsp.svg
-    hash: PBwXhikVVsu5ZYJCg9UJ7HNAyuTyAT3pgzSXJC0a19g=
-  item: null
-  logo: china-asean.svg
-  name: China-ASEAN Information Harbor (KCSP)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cinq
-  crunchbase_data:
-    acquisitions: []
-    city: Amsterdam
-    company_type: For Profit
-    country: The Netherlands
-    description: At CINQ, developers, data specialists and DevOps engineers work on
-      great projects for various clients.
-    homepage: https://www.cinqict.nl/
-    industries: []
-    linkedin: null
-    name: CINQ
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Noord-Holland
-    stockExchange: null
-    twitter: null
-  homepage_url: https://www.cinqict.nl
-  image_data:
-    fileName: cinq-kcsp.svg
-    hash: 6/Cn2ZiJPxNFWj76KM6RAhc7qlbpu/dUrnLvPvX+HoQ=
-  item: null
-  logo: cinq-ict.svg
-  name: CINQ (KCSP)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cisel-informatique
-  crunchbase_data:
-    acquisitions: []
-    city: Fribourg
-    company_type: For Profit
-    country: Switzerland
-    description: CISEL provides consulting on cloud native technologies such as Kubernetes.
-      Build your Kubernetes architectures with Cloud Native Experts.
-    homepage: http://www.cisel.ch
-    industries:
-    - Consulting
-    - Information Technology
-    linkedin: https://www.linkedin.com/company/cisel-informatique-sa
-    name: CISEL Informatique
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: Fribourg
-    stockExchange: null
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/cisel-informatique
   description: CISEL provides consulting on cloud native technologies such as Kubernetes.
     We design, implement, and operate your Kubernetes solutions.
-  homepage_url: https://www.cisel.ch/2021/11/29/kubernetes
-  image_data:
-    fileName: cisel-informatique-kcsp.svg
-    hash: PP/WctqF25xqPhyoem7/HIcTAWqwQpq7P0/y+VSbEMA=
+  homepage_url: https://www.dina.ch/cloud
   item: null
   logo: cisel-informatique.svg
   name: Cisel Informatique (KCSP)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/claion
-  crunchbase_data:
-    acquisitions: []
-    city: Seoul
-    company_type: For Profit
-    country: South Korea
-    description: A professional company leading the next IT trend through powerful
-      drives.
-    homepage: http://www.claion.co.kr
-    industries: []
-    linkedin: null
-    name: claion
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Seoul-t'ukpyolsi
-    stockExchange: null
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/claion
   description: Claion offers professional consulting on Kubernetes, and also provides
     cloud migration, implements and operation for Kubernetes environments. We are  developing
     Cloud Management Platform based on MSA and Kubernetes.
   homepage_url: http://claion.co.kr/kubernetes
-  image_data:
-    fileName: claion-kcsp.svg
-    hash: MT1NyS6WJQ+rsxtAdHCmfi46fwfCESGyyMJgMiWMH6M=
   item: null
   logo: claion.svg
   name: Claion (KCSP)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloud-kinetics
-  crunchbase_data:
-    acquisitions: []
-    city: Singapore
-    company_type: For Profit
-    country: Singapore
-    description: Cloud Kinetics is a Digital Transformation Technology company enabling
-      clients to unlock the power and flexibility of Cloud.
-    homepage: https://www.cloud-kinetics.com
-    industries:
-    - Cloud Computing
-    - Cloud Data Services
-    - Cloud Infrastructure
-    - Cloud Management
-    - Cloud Security
-    - Cloud Storage
-    - Information Technology
-    - Media and Entertainment
-    linkedin: https://www.linkedin.com/company/cloud-kinetics
-    name: Cloud Kinetics
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: Central Region
-    stockExchange: null
-    twitter: https://twitter.com/cloud_kinetics
-  description: "CK\u2019s Application Modernization -Containerization Practice provides\
-    \ consulting (architecture), implementation (build & deploy) and Managed services\
-    \ (monitor, manage ) in Kubernetes technology. Our trained Kubernetes team helps\
-    \ customers architect, deploy and manage Kubernetes in on-premises and cloud environments."
-  homepage_url: https://www.cloud-kinetics.com/containerization-practice/
-  image_data:
-    fileName: cloud-kinetics-kcsp.svg
-    hash: 2Qi4twfJ2xoa8q/ZabwUvREy+536Tvd6/jco+eO3d8A=
+- crunchbase: https://www.crunchbase.com/organization/cloud-ace-co-ltd
+  description: Cloud Ace's Kubernetes service offers engineers with expertise in Kubernetes
+    to provide optimal solutions to meet customer needs.
+  homepage_url: https://cloud-ace.jp/kubernetes-consulting/#
   item: null
-  logo: cloud-kinetics.svg
-  name: Cloud Kinetics (KCSP)
-  twitter: https://twitter.com/CloudKinetics
-  twitter_data:
-    latest_tweet_date: 2022-08-04 04:51:03+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloudcover-inc
-  crunchbase_data:
-    acquisitions: []
-    city: Singapore
-    company_type: For Profit
-    country: Singapore
-    description: CloudCover is a cloud-native product and services company that delivers
-      for high-growth startups and agile enterprises.
-    homepage: http://cldcvr.com
-    industries:
-    - Big Data
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Cloud Management
-    - Consulting
-    - Developer APIs
-    - Information Technology
-    - Management Consulting
-    - Software
-    linkedin: https://www.linkedin.com/company/cldcvr
-    name: CloudCover
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: Central Region
-    stockExchange: null
-    twitter: https://twitter.com/cldcvr
-  description: Our Kubernetes practice focuses on designing and delivering Kubernetes
-    as a service (KaaS) based on enterprise-grade management of multi-cluster ecosystems
-  homepage_url: https://cldcvr.com/
-  image_data:
-    fileName: cloud-cover-kcsp.svg
-    hash: hko6iPDyTYnJ/9Yvkb1ruBku8A/l88c95BcJg/502ns=
+  logo: cloud-ace.svg
+  name: Cloud Ace (KCSP)
+- crunchbase: https://www.crunchbase.com/organization/cloudgeometry
+  description: CloudGeometry is an expert managed cloud software engineering consultancy,
+    cloud-native systems integrator, and Kubernetes Certified Service Provider. Our
+    hands-on design and implementation services help our clients achieve Kubernetes
+    success with open-source tooling and commercial cloud platform technologies, including
+    AWS, Azure, and GCP.
+  homepage_url: https://www.cloudgeometry.io/blueprints/kubernetes-ci-cd-adoption-blueprint
   item: null
-  logo: cloudcover.svg
-  name: CloudCover (KCSP)
-  twitter_data:
-    latest_tweet_date: 2022-07-01 04:00:01+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloudibility
-  crunchbase_data:
-    acquisitions: []
-    city: Berlin
-    company_type: For Profit
-    country: Germany
-    description: We consult and support in conceptualization, creation, and utilizing
-      cloud-based applications
-    homepage: https://cloudical.io/
-    industries:
-    - Information Technology
-    - Software
-    linkedin: https://www.linkedin.com/company/cloudibility/
-    name: Cloudical
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Berlin
-    stockExchange: null
-    twitter: https://twitter.com/cloudical_gmbh
-  description: Accelerate your move to cloud environments by Kubernetes on public/private
-    cloud! With our development, operation and migration experts, we ensure your success
-    on Kubernetes and take advantage of enterprise grade Kubernetes.
-  homepage_url: https://cloudical.io/managed-kubernetes-service/
-  image_data:
-    fileName: cloudical-kcsp.svg
-    hash: /bzR2H0zkq53665XIWv7aeZc1znsf61yMU3oh5Xr+wU=
+  logo: cloudgeometry.svg
+  name: CloudGeometry (KCSP)
+- crunchbase: https://www.crunchbase.com/organization/cloudmate-1d80
+  description: Cloudmate provides professional services for Kubernetes. Maximize your
+    business with application modernization.
+  homepage_url: https://www.cloudmt.co.kr/CNCF
   item: null
-  logo: cloudical-kcsp.svg
-  name: Cloudical (KCSP)
-  twitter_data:
-    latest_tweet_date: 2021-09-02 10:46:45+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloud-iq-technologies
-  crunchbase_data:
-    acquisitions: []
-    city: Bellevue
-    company_type: For Profit
-    country: United States
-    description: Cloud IQ Technologies offers you a portfolio of IT Cloud Management
-      services.
-    homepage: http://www.cloudiqtech.com/
-    industries:
-    - Information Technology
-    - Software
-    linkedin: https://www.linkedin.com/company/cloud-iq-technologies
-    name: Cloud IQ Technologies
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Washington
-    stockExchange: null
-    twitter: https://www.twitter.com/cloudiqtech
-  description: CloudIQ offers end-to-end Kubernetes solutions from consultancy to
-    implementation to support and management to training.
-  homepage_url: https://cloudiqtech.com/kubernetes-solutions/
-  image_data:
-    fileName: cloud-iq-kcsp.svg
-    hash: 4B4+cyPto8dKZFans8T16G81upJaoPlLNjfBgf+Ou60=
-  item: null
-  logo: cloudiq.svg
-  name: CloudIQ (KCSP)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 12:45:28+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloudops
-  crunchbase_data:
-    acquisitions: []
-    city: "Montr\xE9al"
-    company_type: For Profit
-    country: Canada
-    description: A cloud consulting, managed services, and software company focused
-      on open source, cloud native platforms, networking, and DevOps.
-    homepage: http://cloudops.com
-    industries:
-    - Architecture
-    - Cloud Computing
-    - Cloud Management
-    - Information Technology
-    - Software
-    linkedin: https://www.linkedin.com/company/cloudops
-    name: CloudOps
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: Quebec
-    stockExchange: null
-    twitter: https://twitter.com/CloudOps_
+  logo: cloudmate.svg
+  name: Cloudmate (KCSP)
+- crunchbase: https://www.crunchbase.com/organization/peer-1
   description: Training, support, and services for DevOps, Kubernetes, and cloud native
     practices. We design, build and operate DevOps platforms and hybrid cloud platforms.
   homepage_url: https://www.cloudops.com/kubernetes-cloud-native/
-  image_data:
-    fileName: cloud-ops-kcsp.svg
-    hash: VKK4RO0dsux34iP+PZJhydV1YwhAh4n0vmFLZa2+I6g=
   item: null
   logo: cloudops.svg
-  name: CloudOps (KCSP)
-  twitter_data:
-    latest_tweet_date: 2021-10-28 13:03:28+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloudreach
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Cloudamize
-      date: '2017-08-03'
-    - acquiree: Emerging Technology Advisors
-      date: '2017-08-09'
-    - acquiree: Relus Cloud
-      date: '2018-08-14'
-    city: London
-    company_type: For Profit
-    country: United Kingdom
-    description: Cloudreach is a Global cloud enabler with extensive experience across
-      all industries, workloads and use cases.
-    homepage: http://www.cloudreach.com
-    industries:
-    - Cloud Computing
-    - Cloud Data Services
-    - Cloud Security
-    - Web Development
-    linkedin: https://www.linkedin.com/company/522308
-    name: Cloudreach
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: England
-    stockExchange: null
-    twitter: https://twitter.com/Cloudreach
-  description: Cloudreach is a leading cloud native services provider, helping enterprises
-    develop, deploy and manage applications using Kubernetes across AWS, Azure and
-    GCP.
-  homepage_url: https://www.cloudreach.com/en/content-hub
-  image_data:
-    fileName: cloudreach-kcsp.svg
-    hash: bo/6Al1chm4h5gVznJQRrewtWblDE6TzTNXoR3ehCMI=
+  name: CloudOps by Aptum (KCSP)
+- crunchbase: https://www.crunchbase.com/organization/clush
+  description: Complete Management from Design to Operation of Kubernetes Environments
+    and Enterprise-Focused Cloud Native Consulting.
+  homepage_url: https://www.clush.ai/kubernetesconsulting
   item: null
-  logo: cloudreach.svg
-  name: Cloudreach (KCSP)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 14:31:20+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloudside
-  crunchbase_data:
-    acquisitions: []
-    city: Bengaluru
-    company_type: For Profit
-    country: India
-    description: Cloud and Data Consulting
-    homepage: https://thecloudside.com
-    industries:
-    - Analytics
-    - Consulting
-    - Information Technology
-    - Software
-    linkedin: https://www.linkedin.com/company/thecloudside/
-    name: Cloudside
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Karnataka
-    stockExchange: null
-    twitter: https://twitter.com/thecloudside
-  description: Cloudside is a Cloud and Data Consulting company with an exclusive
-    focus on Google Cloud Platform and Kubernetes. We assist our clients with their
-    cloud adoption journey, data analytics by providing cloud native consulting services.
-  homepage_url: https://thecloudside.com/kubernetes.html
-  image_data:
-    fileName: cloudside-kcsp.svg
-    hash: Ghgi4zhzuHiulRWrcV/7HA7GIpYZ38EwGxdhKxxNVRA=
-  item: null
-  logo: cloudside.svg
-  name: Cloudside (KCSP)
-  twitter_data:
-    latest_tweet_date: 2022-08-02 19:13:17+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloudyuga
-  crunchbase_data:
-    acquisitions: []
-    city: Bengaluru
-    company_type: For Profit
-    country: India
-    description: Cloud Native Training and Consulting
-    homepage: https://cloudyuga.guru/
-    industries:
-    - Consulting
-    - Education
-    - Information Technology
-    - Software
-    linkedin: null
-    name: CloudYuga
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Karnataka
-    stockExchange: null
-    twitter: https://twitter.com/cloudyuga
-  description: CloudYuga provides training and consulting on container and cloud native
-    technologies such as Docker, Kubernetes, and Prometheus.
-  homepage_url: https://cloudyuga.guru/explore
-  image_data:
-    fileName: cloud-yuga-kcsp.svg
-    hash: 4t+szYvVxBHrGwlyvDEpwlMVLt8ieOPHRQ3CsaQYohc=
-  item: null
-  logo: cloudyuga.svg
-  name: CloudYuga (KCSP)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 13:28:04+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/matrix
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Gestetnertec
-      date: '2020-07-12'
-      price: 49800000
-    city: Herzliya
-    company_type: For Profit
-    country: Israel
-    description: Matrix is the leading IT company in Israel. They develop and implement
-      leading technologies, software solutions and products.
-    homepage: http://www.matrix.co.il/en/Pages/default.aspx
-    industries:
-    - Enterprise Software
-    - Information Technology
-    - Software
-    linkedin: https://www.linkedin.com/company/matrix/
-    name: Matrix
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents: []
-    region: Tel Aviv
-    stockExchange: tlv
-    twitter: null
-  description: With over 8 years of cloud consulting experience, CloudZone provides
-    consulting services and execution of end-to-end Kubernetes and DevOps projects  including
-    platform architecture, CI/CD automations, service meshes and more.
-  homepage_url: https://cloudzone.io/
-  image_data:
-    fileName: cloud-zone-kcsp.svg
-    hash: 2QQjZjZtCXferdiC6djoZKSon9Jy21aYA78gbG0PfsQ=
-  item: null
-  logo: cloudzone.svg
-  name: CloudZone (KCSP)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/component-soft
-  crunchbase_data:
-    acquisitions: []
-    city: Budapest
-    company_type: For Profit
-    country: Hungary
-    description: Open cloud trainings and consultation
-    homepage: https://www.componentsoft.io
-    industries:
-    - Consulting
-    - Information Technology
-    linkedin: https://www.linkedin.com/company/component-soft-ltd-/
-    name: Component Soft
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Budapest
-    stockExchange: null
-    twitter: https://twitter.com/Component_Soft
+  logo: clush.svg
+  name: Clush (KCSP)
+- crunchbase: https://www.crunchbase.com/organization/component-soft
   description: With 25+ years of experience in enterprise open source systems, Component
     Soft offers Kubernetes, cloud-native, OpenStack and Ceph trainings, consultation
     and support services throughout Europe and the Americas.
   homepage_url: https://www.componentsoft.io/
-  image_data:
-    fileName: component-soft-kcsp.svg
-    hash: OrWlGSuyZbEJqLNWI4ntO/f2gnVm2HTkqtNfbd3ExcA=
   item: null
   logo: component-soft.svg
   name: Component Soft (KCSP)
-  twitter_data:
-    latest_tweet_date: 2019-12-18 12:08:19+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/conoa
-  crunchbase_data:
-    acquisitions: []
-    city: Stockholm
-    company_type: For Profit
-    country: Sweden
-    description: Conoa helps businesses build cloud native, container and Kubernetes
-      infrastructure to enable modernisation.
-    homepage: https://www.conoa.se
-    industries:
-    - Consulting
-    - Information Technology
-    linkedin: https://www.linkedin.com/company/2747724
-    name: Conoa
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Stockholms Lan
-    stockExchange: null
-    twitter: https://twitter.com/ConoaAB
+- crunchbase: https://www.crunchbase.com/organization/conoa
   description: Conoa helps businesses build cloud native, container and Kubernetes
     infrastructure to enable modernisation. Our experts bring organisations from zero
     knowledge to production-ready environments quickly.
   homepage_url: https://www.conoa.se/konsulttjanster/container/
-  image_data:
-    fileName: conoa-kcsp.svg
-    hash: psi8Mgd7lUGWPnqhl00QBK2vedBfdLAcibPgVcdvDEI=
   item: null
   logo: conoa.svg
   name: Conoa (KCSP)
-  twitter_data:
-    latest_tweet_date: 2021-09-16 13:52:17+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/container-solutions
-  crunchbase_data:
-    acquisitions: []
-    city: Amsterdam
-    company_type: For Profit
-    country: The Netherlands
-    description: Container Solutions specialises in helping customers to shorten the
-      time it takes to deploy, rollback.
-    homepage: http://container-solutions.com
-    industries:
-    - Information Technology
-    linkedin: https://www.linkedin.com/company/container-solutions
-    name: Container Solutions
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: Noord-Holland
-    stockExchange: null
-    twitter: https://twitter.com/containersoluti
-  description: Container Solutions is a premium software consultancy that focuses
-    on programmable infrastructure, offering our expertise in software development,
-    strategy and operations to help you innovate at speed and scale.
-  homepage_url: https://www.container-solutions.com/
-  image_data:
-    fileName: container-solutions-kcsp.svg
-    hash: lffHHMOc/Ai0pEwRLXIVs1vkLdHVmQYjnjb93ikU5Tw=
-  item: null
-  logo: container-solutions.svg
-  name: Container Solutions (KCSP)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 10:30:00+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/contino
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Sendachi
-      date: '2016-01-21'
-    - acquiree: Nebulr
-      date: '2018-04-11'
-    city: London
-    company_type: For Profit
-    country: United Kingdom
-    description: Contino is a professional services consultancy providing a range
-      of services for DevOps, Continuous Delivery, and Pragmatic Agile practices.
-    funding: 68150000
-    homepage: http://contino.io/
-    industries:
-    - Consulting
-    - Information Technology
-    - Professional Services
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/contino
-    name: Contino
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: England
-    stockExchange: null
-    twitter: https://twitter.com/continohq
-  description: We help enterprise organizations adopt DevOps, containers and cloud
-    computing. Contino is a global consultancy that enables regulated organizations
-    to accelerate innovation through the adoption of modern approaches to software
-    delivery.
-  homepage_url: https://www.contino.io/
-  image_data:
-    fileName: contino-kcsp.svg
-    hash: Xg1KcRy+jpXlGSG0PjTxloK53VVemoQmiEHM+er2rKw=
-  item: null
-  logo: contino.svg
-  name: Contino (KCSP)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 09:49:07+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/controlplane
-  crunchbase_data:
-    acquisitions: []
-    city: London
-    company_type: For Profit
-    country: United Kingdom
-    description: Cloud native consultancy, securing Kubernetes from supply-chain and
-      runtime attacks with a zero trust, continuous security approach.
-    homepage: https://control-plane.io/
-    industries:
-    - Cloud Security
-    - Cyber Security
-    - Network Security
-    - Open Source
-    - Penetration Testing
-    - Supply Chain Management
-    linkedin: https://www.linkedin.com/company/controlplane/
-    name: ControlPlane
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: England
-    stockExchange: null
-    twitter: https://twitter.com/controlplaneio
+- crunchbase: https://www.crunchbase.com/organization/controlplane
   description: ControlPlane is a cloud native security consultancy specialising in
     high-compliance development and security operations for financial and government
     organisations, third party code risk management, and end-to-end supply chain security.
   homepage_url: https://control-plane.io/
-  image_data:
-    fileName: control-plane-kcsp.svg
-    hash: K8i0MtatSJSQyA6adVjVGJl5DGT3u9CP9Q7KgcJLT3A=
   item: null
   logo: controlplane.svg
   name: ControlPlane (KCSP)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 19:50:29+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/core-24-7-llp
-  crunchbase_data:
-    acquisitions: []
-    city: Almaty
-    company_type: For Profit
-    country: Kazakhstan
-    description: "DevSecOps as a Service. We provide 24\xD77x365 production maintenance\
-      \ and developers assistance."
-    homepage: https://core247.io
-    industries:
-    - Consulting
-    - IT Infrastructure
-    - Software Engineering
-    linkedin: https://www.linkedin.com/company/36162742/
-    name: CORE 24/7 LLP
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Almaty City
-    stockExchange: null
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/core-24-7-llp
   description: CORE 24/7 offers design and implementation of Kubernetes-based infrastructure
     and integrating DevOps practices. We also offer training, staffing, and cloud
     infrastructure design services.
-  homepage_url: https://www.core247.io/
-  image_data:
-    fileName: core-24-7-kcsp.svg
-    hash: DfXwR8Tztb4vHrn/g5/olXw6T6tkexZUw22AMT5EW5U=
+  homepage_url: https://core247.kz/kubernetes
   item: null
   logo: core247.svg
   name: Core 24/7 (KCSP)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/corehive-computing
-  crunchbase_data:
-    acquisitions: []
-    city: Clarksburg
-    company_type: For Profit
-    country: United States
-    description: 'CoreHive Computing is a Technology Consulting and Solutions firm
-      providing IT & Cloud Managed Services. '
-    homepage: http://corehive.com/
-    industries:
-    - Consulting
-    - Information Technology
-    - Software
-    linkedin: https://www.linkedin.com/company/corehive-computing-llc/?originalSubdomain=in
-    name: CoreHive Computing
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: Maryland
-    stockExchange: null
-    twitter: https://twitter.com/CoreHiveComp
-  description: Kubernetes and one-click automated DevSecOps and Microservices Deployments.
-  homepage_url: https://corehive.com/
-  image_data:
-    fileName: core-hive-computing-kcsp.svg
-    hash: qDyfxgiVs3R/dq5YorZmlgPhbAgiIXgs2mcZjZQIMyg=
+- crunchbase: https://www.crunchbase.com/organization/coredge
+  description: Coredge helps to swiftly deploy, manage, and maintain Kubernetes with
+    the help of our comprehensive Kubernetes professional services that accelerates
+    your transformation journey with our innovative solutions.
+  homepage_url: https://coredge.io/kubernetes-services/
   item: null
-  logo: corehive.svg
-  name: CoreHive Computing (KCSP)
-  twitter_data:
-    latest_tweet_date: 2018-11-15 19:38:44+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/creationline
-  crunchbase_data:
-    acquisitions: []
-    city: Tokyo
-    company_type: For Profit
-    country: Japan
-    description: Creationline provides cloud platform deployment and operations support
-      services to telecommunication carriers and data centers
-    homepage: https://www.creationline.com/en/
-    industries:
-    - Information Technology
-    - Internet
-    - Telecommunications
-    linkedin: null
-    name: Creationline
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: Tokyo
-    stockExchange: null
-    twitter: https://twitter.com/creationline
+  logo: coredge.svg
+  name: Coredge (KCSP)
+- crunchbase: https://www.crunchbase.com/organization/creationline
   description: Creationline provides cloud platform deployment and operations support
     services to telecommunication carriers and data centers.
   homepage_url: https://www.creationline.com/en/
-  image_data:
-    fileName: creationline-kcsp.svg
-    hash: HoiZDlkUSDfxR8QHOjzM3ElgYafLd7NaYUp9GDWJfmk=
   item: null
   logo: creationline.svg
   name: Creationline (KCSP)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 05:01:08+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cuegee-it
-  crunchbase_data:
-    acquisitions: []
-    city: "D\xFCsseldorf"
-    company_type: For Profit
-    country: Germany
-    description: Cloud Native & Container Platform Consulting
-    homepage: https://cuegee.com/
-    industries: []
-    linkedin: https://www.linkedin.com/company/cuegee/
-    name: cuegee it
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Nordrhein-Westfalen
-    stockExchange: null
-    twitter: https://twitter.com/cuegeeit
+- crunchbase: https://www.crunchbase.com/organization/cuegee-it
   homepage_url: https://cuegee.com/
-  image_data:
-    fileName: cuegee-kcsp.svg
-    hash: AwqdGxUZ19/YgTVliSVQboEj0eJgwbqkU8c7ODFvkU4=
   item: null
   logo: cuegee.svg
   name: Cuegee (KCSP)
-  twitter_data:
-    latest_tweet_date: 2022-07-19 10:00:25+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cuemby
-  crunchbase_data:
-    acquisitions: []
-    city: Delray Beach
-    company_type: For Profit
-    country: United States
-    description: Simplify distributed cloud infrastructure
-    funding: 50000
-    homepage: https://www.cuemby.com
-    industries:
-    - Consulting
-    - Enterprise Software
-    - Information Technology
-    - PaaS
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cuemby
-    name: Cuemby
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Florida
-    stockExchange: null
-    twitter: https://twitter.com/cuemby
+- crunchbase: https://www.crunchbase.com/organization/cuemby
   description: We offer professional and experienced Kubernetes and Cloud Native consultancy
     services, cloud native tools, and support, as well as training in both English
     and Spanish languages.
   homepage_url: https://cuemby.com/
-  image_data:
-    fileName: cuemby-kcsp.svg
-    hash: LC3geKlMFe5toD5ufedkhFlnjDvQsE8E+h3wER3x/PE=
   item: null
   logo: cuemby.svg
   name: Cuemby (KCSP)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 21:01:12+00:00
+- crunchbase: https://www.crunchbase.com/organization/cyso
+  description: Cyso Cloud, based in Netherlands, operating in the EU, our Managed
+    Kubernetes service helps you effortlessly manage, scale, and optimise your applications
+    in secure and compliant way (ISO27K1/SOC2/DORA/GDPR) in both Private and Public
+    Cloud environments. We provide training, migration, Devops, SRE, Security, Compliancy
+    Services and operate with 24x7 NOC and SOC.
+  homepage_url: https://cyso.cloud/services/managed-kubernetes/
+  item: null
+  logo: cyso.svg
+  name: Cyso (KCSP)

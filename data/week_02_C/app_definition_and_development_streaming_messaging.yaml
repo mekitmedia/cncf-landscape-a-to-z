@@ -1,135 +1,47 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf
-  crunchbase_data:
-    acquisitions: []
-    city: San Francisco
-    company_type: Non Profit
-    country: United States
-    description: A Neutral Home for the Next Generation of Continuous Delivery Collaboration
-    homepage: https://cd.foundation
-    industries:
-    - Cloud Computing
-    - Open Source
-    - Software
-    linkedin: null
-    name: Continuous Delivery Foundation (CDF)
-    num_employees_max: 10
-    num_employees_min: 1
-    parents:
-    - https://www.crunchbase.com/organization/linux-foundation
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/CDeliveryFdn
-  github_data:
-    contributions: 0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;1;4;0;2;0;0;0;0;3;1;2;3;1;0;1;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;2;1;0;0;0
-    contributors_count: 4
-    contributors_link: https://github.com/cdevents/spec/graphs/contributors
-    description: A common specification for Continuous Delivery events
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#89e051'
-      name: Shell
-      value: 1466
-    latest_commit_date: '2022-07-13T12:16:54Z'
-    latest_commit_link: /cdevents/spec/commit/042a868a24d84c4adda87cc720872832dcffc226
-    license: Apache License 2.0
-    stars: 25
-  github_start_commit_data:
-    start_commit_link: /cdevents/spec/commit/ae4a86cf1e9c0ef639bfe6ab5fd997006108d9ec
-    start_date: '2021-10-20T17:50:59Z'
+- crunchbase: https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf
   homepage_url: https://cdevents.dev
-  image_data:
-    fileName: cd-events.svg
-    hash: iA6RlE5IgZrX0r93aYbur/daNHFSauBJ2peC4mX6LvE=
   item: null
   logo: cdevents.svg
   name: CDEvents
   repo_url: https://github.com/cdevents/spec
-  repos:
-  - stars: 25
-    url: https://github.com/cdevents/spec
   twitter: https://twitter.com/_cdevents
-  twitter_data:
-    latest_tweet_date: 2022-06-22 12:32:18+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Kubernetes
-      date: '2016-03-10'
-    - acquiree: RethinkDB
-      date: '2017-02-06'
-      price: 25000
-    city: San Francisco
-    company_type: Non Profit
-    country: United States
-    description: CNCF is an open source software foundation that hosts and nurtures
-      projects like Kubernetes and Prometheus.
-    funding: 3000000
-    homepage: https://www.cncf.io
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Non Profit
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
-    name: Cloud Native Computing Foundation (CNCF)
-    num_employees_max: 50
-    num_employees_min: 11
-    parents:
-    - https://www.crunchbase.com/organization/linux-foundation
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/CloudNativeFdn
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Standardizing common eventing metadata and their location to help with
+    event identification and routing.
   extra:
-    accepted: '2018-05-22'
+    accepted: '2018-05-15'
     artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#cloudevents-logos
+    audits:
+    - date: '2022-11-28'
+      type: security
+      url: https://ostif.org/wp-content/uploads/2022/11/CloudEvents.pdf
+      vendor: Trail of Bits
+    clomonitor_name: cloudevents
     dev_stats_url: https://cloudevents.devstats.cncf.io/
+    graduated: '2024-01-25'
+    incubating: '2019-10-24'
     slack_url: https://cloud-native.slack.com/messages/cloudevents
+    specification: true
     stack_overflow_url: https://stackoverflow.com/questions/tagged/cloudevents
-  github_data:
-    contributions: 1;4;1;3;1;3;7;1;2;2;5;2;5;3;2;0;3;3;2;1;0;6;5;6;9;0;1;4;11;3;6;2;7;4;4;0;0;3;1;1;3;0;1;0;0;4;0;0;7;4;0;1
-    contributors_count: 119
-    contributors_link: https://github.com/cloudevents/spec/graphs/contributors
-    description: CloudEvents Specification
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#89e051'
-      name: Shell
-      value: 19943
-    - color: '#9DC3FF'
-      name: ANTLR
-      value: 3954
-    - color: '#427819'
-      name: Makefile
-      value: 266
-    latest_commit_date: '2022-08-03T14:33:28Z'
-    latest_commit_link: /cloudevents/spec/commit/d9761b9e455c7461b5251f79b40293f8c7c6cf9b
-    license: Apache License 2.0
-    release_date: '2022-02-06T00:48:06Z'
-    release_link: https://github.com/cloudevents/spec/releases
-    stars: 3572
-  github_start_commit_data:
-    start_commit_link: /cloudevents/spec/commit/f47997feae0ecb7c40697ba256be88118cdbb9cb
-    start_date: '2017-12-09T21:19:52Z'
+    summary_business_use_case: CloudEvents is a specification for describing event
+      data in common formats to provide interoperability across services, platforms
+      and systems.
+    summary_integration: Knative, Dapr
+    summary_intro_url: https://github.com/cloudevents/spec/blob/main/cloudevents/primer.md
+    summary_languages: CSharp, Go, Java, Javascript, PHP, PowerShell, Python, Ruby,
+      Rust
+    summary_personas: Developers, Platform engineers
+    summary_release_rate: '2019-10-24'
+    summary_tags: events,eventing,serverless
+    summary_use_case: Standardizing common eventing metadata and their location to
+      help with event identification and routing.
   homepage_url: https://cloudevents.io/
-  image_data:
-    fileName: cloud-events.svg
-    hash: WdP05sffzs3QkK/L0T8CBp0Ny08/un8Zi61Rbi/HzLA=
   item: null
+  joined: '2018-05-15'
   logo: cloud-events.svg
   name: CloudEvents
-  project: incubating
+  project: graduated
+  project_org: https://github.com/cloudevents
   repo_url: https://github.com/cloudevents/spec
-  repos:
-  - stars: 3572
-    url: https://github.com/cloudevents/spec
   twitter: https://twitter.com/cloudeventsio
-  twitter_data:
-    latest_tweet_date: 2022-07-13 21:12:13+00:00
+  url_for_bestpractices: https://bestpractices.coreinfrastructure.org/en/projects/6770

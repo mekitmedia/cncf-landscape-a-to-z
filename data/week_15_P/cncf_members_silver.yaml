@@ -1,998 +1,195 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/paladin-cloud
-  crunchbase_data:
-    acquisitions: []
-    city: Califon
-    company_type: For Profit
-    country: United States
-    description: Open source, Security-as-Code platform for developers and security
-      teams to identify and eliminate risks in your clouds.
-    funding: 3300000
-    homepage: https://www.paladincloud.io
-    industries: []
-    kind: funding
-    linkedin: https://www.linkedin.com/company/paladin-cloud/
-    name: Paladin Cloud
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: New Jersey
-    stockExchange: null
-    twitter: null
-  homepage_url: https://paladincloud.io/
-  image_data:
-    fileName: paladin-cloud-member.svg
-    hash: veBpdopXbge1tt9F/rnkyncI2VuziYdQM/w98fmCrQ4=
+- crunchbase: https://www.crunchbase.com/organization/palark
+  homepage_url: https://palark.com/
   item: null
-  logo: paladin-cloud.svg
-  name: Paladin Cloud (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/particule
-  crunchbase_data:
-    acquisitions: []
-    city: Paris
-    company_type: For Profit
-    country: France
-    description: We build Cloud Native infrastructure, from an application on your
-      laptop to a scalable infrastructure, define as code
-    homepage: https://particule.io/
-    industries: []
-    linkedin: https://www.linkedin.com/company/particuleio/
-    name: Particule
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: Ile-de-France
-    stockExchange: null
-    twitter: https://twitter.com/particuleio
-  homepage_url: https://particule.io/
-  image_data:
-    fileName: particule-member.svg
-    hash: fyAFEw7Sp3xVPz+4XEeOSzyr5z4hQJ2in4mpM0iw0EY=
+  joined: '2022-12-01'
+  logo: palark.svg
+  name: Palark (member)
+- crunchbase: https://www.crunchbase.com/organization/palo-alto-networks
+  homepage_url: https://www.paloaltonetworks.com
   item: null
-  logo: particule.svg
-  name: Particule (member)
-  twitter_data:
-    latest_tweet_date: 2022-05-23 08:25:15+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/pegasystems
-  crunchbase_data:
-    acquisitions:
-    - acquiree: 1mind Corp
-      date: '2002-01-31'
-      price: 3600000
-    - acquiree: Chordiant Software
-      date: '2010-03-15'
-    - acquiree: Antenna Software
-      date: '2013-10-11'
-    - acquiree: MeshLabs
-      date: '2014-05-07'
-    - acquiree: Firefly Software
-      date: '2014-06-09'
-    - acquiree: Pegasystems Information Technology
-      date: '2014-10-31'
-    - acquiree: OpenSpan
-      date: '2016-04-12'
-      price: 52300000
-    - acquiree: Infruid Labs
-      date: '2019-02-06'
-    - acquiree: InTheChat
-      date: '2019-05-14'
-    - acquiree: Valued
-      date: '2021-01-11'
-    - acquiree: Everflow
-      date: '2022-05-24'
-    city: Cambridge
-    company_type: For Profit
-    country: United States
-    description: PegaSystems provides business process and customer relationship management
-      solutions for organizations.
-    funding: 0
-    homepage: http://www.pega.com
-    industries:
-    - Business Development
-    - CRM
-    - Software
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/165426
-    name: Pegasystems
-    num_employees_max: 10000
-    num_employees_min: 5001
-    parents: []
-    region: Massachusetts
-    stockExchange: nasdaq
-    ticker: PEGA
-    twitter: http://twitter.com/pega
-  homepage_url: https://www.pega.com/
-  image_data:
-    fileName: pega-member.svg
-    hash: BN5w3jkPmhFEOdOQp6Zz45AuYOUd0VZgGxX8LNxeWHM=
+  joined: '2024-11-01'
+  logo: palo-alto-networks.svg
+  name: Palo Alto Networks (member)
+- crunchbase: https://www.crunchbase.com/organization/parity-523a
+  homepage_url: https://www.tryparity.com/
   item: null
-  logo: pega-member.svg
-  name: Pega (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 14:07:02+00:00
-  yahoo_finance_data:
-    effective_ticker: PEGA
-    market_cap: 3192042240
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/peloton-interactive
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Neurotic Media
-      date: '2018-06-27'
-    - acquiree: Gossamer Engineering
-      date: '2019-11-05'
-    - acquiree: Atlas Wearables
-      date: '2020-01-01'
-    - acquiree: Otari
-      date: '2020-01-01'
-    - acquiree: Precor
-      date: '2020-12-21'
-      price: 420000000
-    - acquiree: Aiqudo
-      date: '2021-02-01'
-    city: New York
-    company_type: For Profit
-    country: United States
-    description: Peloton is an interactive fitness platform reinventing fitness with
-      live and on-demand boutique studio classes.
-    funding: 1869707000
-    homepage: http://www.onepeloton.com
-    industries:
-    - Cycling
-    - Fitness
-    - Health Care
-    - Wellness
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/peloton-interactive-
-    name: Peloton
-    num_employees_max: 5000
-    num_employees_min: 1001
-    parents: []
-    region: New York
-    stockExchange: nasdaq
-    ticker: PTON
-    twitter: https://twitter.com/onepeloton
+  joined: '2024-12-01'
+  logo: parity.svg
+  name: Parity (member)
+- crunchbase: https://www.crunchbase.com/organization/parler-cloud-technologies
+  homepage_url: https://www.parlercloud.io
+  item: null
+  joined: '2023-10-01'
+  logo: parler-cloud.svg
+  name: Parler Cloud Technologies (member)
+- crunchbase: https://www.crunchbase.com/organization/parseable
+  homepage_url: https://www.parseable.com
+  item: null
+  joined: '2025-04-01'
+  logo: parseable.svg
+  name: Parseable (member)
+- crunchbase: https://www.crunchbase.com/organization/pelanor
+  homepage_url: https://www.pelanor.io
+  item: null
+  joined: '2024-01-01'
+  logo: pelanor.svg
+  name: Pelanor (member)
+- crunchbase: https://www.crunchbase.com/organization/pelotech
+  homepage_url: https://pelo.tech
+  item: null
+  joined: '2025-02-01'
+  logo: pelotech.svg
+  name: Pelotech (member)
+- crunchbase: https://www.crunchbase.com/organization/peloton-interactive
   enduser: true
   homepage_url: https://www.onepeloton.com/
-  image_data:
-    fileName: peloton-interactive-member.svg
-    hash: DsnyZNgyOPBzhpbCxqx50HYR6OKCEhz58I7plpOlMPk=
   item: null
-  joined: '2021-01-04'
+  joined: '2021-01-01'
   logo: peloton.svg
   name: Peloton Interactive (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 20:52:17+00:00
-  yahoo_finance_data:
-    effective_ticker: PTON
-    market_cap: 4314573824
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/pengyun-network
-  crunchbase_data:
-    acquisitions: []
-    city: Nanjing
-    company_type: For Profit
-    country: China
-    description: Pengyun Network is a dual-soft technology company engaged in providing
-      software-defined storage products and solutions.
-    funding: 0
-    homepage: http://www.pengyunnetwork.com/
-    industries:
-    - Cloud Computing
-    - Data Storage
-    - Database
-    - Software
-    linkedin: null
-    name: Pengyun Network
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Jiangsu
-    stockExchange: null
-    twitter: null
-  homepage_url: https://www.pengyunnetwork.com/
-  image_data:
-    fileName: pengyun-network-member.svg
-    hash: lTv+RtJyJD57ftdXqLDHIfxkIy82Bp5e5lirtjix1DI=
-  item: null
-  logo: pengyun.svg
-  name: Pengyun Network (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/percona
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Tokutek
-      date: '2015-04-15'
-    city: Raleigh
-    company_type: For Profit
-    country: United States
-    description: The Percona Platform provides a unified experience to monitor, manage,
-      secure, and optimize open database environments
-    homepage: http://www.percona.com
-    industries:
-    - Consulting
-    - IT Management
-    - Information Technology
-    - Internet
-    - Internet of Things
-    - Open Source
-    - Software
-    linkedin: https://www.linkedin.com/company/percona
-    name: Percona
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: North Carolina
-    stockExchange: null
-    twitter: http://twitter.com/percona
+- crunchbase: https://www.crunchbase.com/organization/percona
   homepage_url: http://www.percona.com/
-  image_data:
-    fileName: percona-member.svg
-    hash: LLQouB+elKLN3xf/QGA/+QLJ1dkR468BrIJohDgRSaY=
   item: null
+  joined: '2022-06-01'
   logo: percona.svg
   name: Percona (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 20:52:00+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/permit-io
-  crunchbase_data:
-    acquisitions: []
-    city: Tel Aviv
-    company_type: For Profit
-    country: Israel
-    description: Permit.io empowers developers to bake in permissions and access-control
-      into product in minutes and takes away the pain of rebuilding them.
-    funding: 6000000
-    homepage: https://www.permit.io
-    industries:
-    - Customer Service
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/permitio
-    name: Permit.io
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: Tel Aviv
-    stockExchange: null
-    twitter: https://twitter.com/permit_io
-  homepage_url: https://www.permit.io/
-  image_data:
-    fileName: permit-io-member.svg
-    hash: hPVNrMf9Q71FyCBx/pOK1GKIxYw8NxtJnXUPZiE1inw=
+- crunchbase: https://www.crunchbase.com/organization/perfectscale
+  homepage_url: https://www.perfectscale.io/
   item: null
+  joined: '2022-11-01'
+  logo: perfectscale.svg
+  name: PerfectScale (member)
+- crunchbase: https://www.crunchbase.com/organization/permify
+  homepage_url: https://permify.co
+  item: null
+  joined: '2024-10-01'
+  logo: permify.svg
+  name: Permify (member)
+- crunchbase: https://www.crunchbase.com/organization/permit-io
+  homepage_url: https://www.permit.io/
+  item: null
+  joined: '2022-05-01'
   logo: permit.io.svg
   name: Permit.io (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 14:41:43+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/ping-an
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Autohome
-      date: '2016-04-15'
-      price: 1600000000
-    - acquiree: ITutorGroup
-      date: '2019-07-12'
-    city: Shenzhen
-    company_type: For Profit
-    country: China
-    description: Ping An Insurance Company is a holding company deals with insurance,
-      banking, and financial service.
-    funding: 4750000000
-    homepage: http://www.pingan.com/
-    industries:
-    - Banking
-    - Financial Services
-    - Insurance
-    - Medical
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/ping-an/
-    name: Ping An
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents: []
-    region: Guangdong
-    stockExchange: sse
-    ticker: 601318.SS
-    twitter: https://twitter.com/pingan_group
-  homepage_url: https://yun.pingan.com/
-  image_data:
-    fileName: ping-an-technology-member.svg
-    hash: bVzQ3eWLC4gXe7zeuBd1B/jcA4Gq8APp+sS1PaOYIQo=
-  item: null
-  logo: ping-an.svg
-  name: Ping An Technology (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 11:01:30+00:00
-  yahoo_finance_data:
-    effective_ticker: 601318.SS
-    market_cap: 109070836256
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/pingcap
-  crunchbase_data:
-    acquisitions: []
-    city: San Mateo
-    company_type: For Profit
-    country: United States
-    description: PingCAP is a developer of an open-source, distributed SQL database
-      for real-time analytics.
-    funding: 341600000
-    homepage: https://pingcap.com
-    industries:
-    - Big Data
-    - Database
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/pingcap/
-    name: PingCAP
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://www.twitter.com/pingcap
+- crunchbase: https://www.crunchbase.com/organization/pingcap
   homepage_url: https://en.pingcap.com
-  image_data:
-    fileName: ping-cap-member.svg
-    hash: QBvAEDqiq0LaJtk35dt6qjyZ1WYJLr9t3C7/1mRiWD0=
   item: null
+  joined: '2021-06-01'
   logo: pingcap.svg
   name: PingCAP (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-03 23:30:00+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/pipekit
-  crunchbase_data:
-    acquisitions: []
-    city: Atlanta
-    company_type: For Profit
-    country: United States
-    description: Pipekit scales data pipelines for enterprises by managing Argo Workflows
-      for data teams.
-    funding: 125000
-    homepage: https://pipekit.io
-    industries:
-    - Cloud Infrastructure
-    - Information Technology
-    - Infrastructure
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/pipekit-io
-    name: Pipekit
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: Georgia
-    stockExchange: null
-    twitter: https://twitter.com/pipekitio
-  homepage_url: http://www.pipekit.io/
-  image_data:
-    fileName: pipekit-member.svg
-    hash: bCHLnDiaMtKnaxlcPJdzXg/52qhd9HjpkAuSIB7ojIg=
+- crunchbase: https://www.crunchbase.com/organization/pionative
+  homepage_url: https://www.pionative.com/
   item: null
+  joined: '2023-06-01'
+  logo: pionative.svg
+  name: Pionative (member)
+- crunchbase: https://www.crunchbase.com/organization/pipekit
+  homepage_url: http://www.pipekit.io/
+  item: null
+  joined: '2022-07-01'
   logo: pipekit.svg
   name: Pipekit (member)
-  twitter_data:
-    latest_tweet_date: 2022-07-26 17:25:25+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/pixie-labs-f7c0
-  crunchbase_data:
-    acquisitions: []
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: At Pixie Labs, we build machine intelligence systems which empower
-      developers to engineer the future.
-    funding: 9150000
-    homepage: https://pixielabs.ai/
-    industries:
-    - Developer APIs
-    - Developer Platform
-    - Developer Tools
-    - Enterprise Software
-    - Machine Learning
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/pixieai/
-    name: Pixie
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/pixie_run
-  homepage_url: https://pixielabs.ai/
-  image_data:
-    fileName: pixie-labs-member.svg
-    hash: l0BnAim9Ahmtj1zh3pUL26SkK54wSjhPB84pzADTCG8=
-  item: null
-  logo: pixie-labs.svg
-  name: Pixie Labs (member)
-  twitter: https://twitter.com/pixielabs
-  twitter_data:
-    latest_tweet_date: 2022-04-26 18:31:10+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/planetscale
-  crunchbase_data:
-    acquisitions: []
-    city: Mountain View
-    company_type: For Profit
-    country: United States
-    description: PlanetScale builds a database-as-a-service offering on Vitess, an
-      open source sharding middleware system for MySQL.
-    funding: 105000000
-    homepage: http://planetscale.com/
-    industries:
-    - Database
-    - Information Technology
-    - SaaS
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/planetscale/
-    name: PlanetScale
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/planetscaledata
+- crunchbase: https://www.crunchbase.com/organization/planetscale
   homepage_url: https://planetscale.com
-  image_data:
-    fileName: planet-scale-member.svg
-    hash: Y1ZmTs0FVls/CFD1XRI9ofs5LD99lTljF4hu3gdljIw=
   item: null
+  joined: '2018-06-01'
   logo: planetscale.svg
   name: PlanetScale (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-02 16:27:27+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/platform9-systems-inc
-  crunchbase_data:
-    acquisitions: []
-    city: Mountain View
-    company_type: For Profit
-    country: United States
-    description: Platform9 provides Kubernetes-as-a-Service for multi-cloud, on-premises,
-      or at edge.
-    funding: 100000000
-    homepage: https://platform9.com
-    industries:
-    - Cloud Computing
-    - Enterprise Software
-    - IT Infrastructure
-    - SaaS
-    kind: funding
-    linkedin: https://www.linkedin.com/company/platform9-systems
-    name: Platform9
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: http://twitter.com/Platform9Sys
+- crunchbase: https://www.crunchbase.com/organization/platform9-systems-inc
   homepage_url: https://platform9.com
-  image_data:
-    fileName: platform9-member.svg
-    hash: s/0BxS9AOnyM8MtltahylYMJfGvAkXQ8rjLOQPBg8LI=
   item: null
-  logo: platform9-member.svg
+  joined: '2017-06-01'
+  logo: platform9.svg
   name: Platform9 (member)
-  twitter: null
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/plural-37ce
-  crunchbase_data:
-    acquisitions: []
-    city: New York
-    company_type: For Profit
-    country: United States
-    description: Plural effortlessly deploys and operates production-ready open-source
-      applications in minutes.
-    funding: 7000000
-    homepage: https://www.plural.sh
-    industries:
-    - Internet
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/pluralsh
-    name: Plural Labs
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: New York
-    stockExchange: null
-    twitter: https://twitter.com/plural_sh
-  homepage_url: https://app.plural.sh/login
-  image_data:
-    fileName: plural-member.svg
-    hash: UsZTZ8+625Xdbv/MaoKv6LpoIUEGwFI8AcDG2b8O03A=
+- crunchbase: https://www.crunchbase.com/organization/plural-37ce
+  homepage_url: https://www.plural.sh/
   item: null
+  joined: '2021-09-01'
   logo: plural.svg
   name: Plural (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 19:38:39+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/polar-signals
-  crunchbase_data:
-    acquisitions: []
-    city: Claymont
-    company_type: For Profit
-    country: United States
-    description: Polar Signals is a profiling platform designed to measure and understand
-      performance over time.
-    funding: 3994963
-    homepage: https://www.polarsignals.com
-    industries:
-    - Computer
-    - Productivity Tools
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/polar-signals
-    name: Polar Signals
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: Delaware
-    stockExchange: null
-    twitter: https://twitter.com/PolarSignalsIO
+- crunchbase: https://www.crunchbase.com/organization/polar-signals
   homepage_url: https://www.polarsignals.com/
-  image_data:
-    fileName: polar-signals-member.svg
-    hash: 3ynABzJF1SI24iFmJeVOIk26kaIvN6MJdvxx4fcKsHw=
   item: null
+  joined: '2022-01-01'
   logo: polar-signals.svg
   name: Polar Signals (member)
-  twitter_data:
-    latest_tweet_date: 2022-07-31 11:40:17+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/polar-squad
-  crunchbase_data:
-    acquisitions: []
-    city: Helsinki
-    company_type: For Profit
-    country: Finland
-    description: Information Technology and Services
-    homepage: https://www.polarsquad.com/
-    industries:
-    - CRM
-    - Information Technology
-    - Software
-    linkedin: https://www.linkedin.com/company/polarsquad/
-    name: Polar Squad
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Southern Finland
-    stockExchange: null
-    twitter: https://twitter.com/polarsquadhq
-  homepage_url: https://polarsquad.com
-  image_data:
-    fileName: polar-squad-member.svg
-    hash: fA1lbdVS/5G82QiHZvDqYsiiCyDVcryFBb2tAhu3f8c=
+- crunchbase: https://www.crunchbase.com/organization/porch-financial
+  enduser: true
+  homepage_url: https://www.porchfinancial.com
   item: null
-  logo: polar-squad-member.svg
-  name: Polar Squad (member)
-  twitter_data:
-    latest_tweet_date: 2022-06-30 11:02:02+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/portainer
-  crunchbase_data:
-    acquisitions: []
-    city: Auckland
-    company_type: For Profit
-    country: New Zealand
-    description: Portainer is a simplified, expert GUI management toolset designed
-      to build, manage, and maintain Swarm and Kubernetes environments.
-    funding: 13400000
-    homepage: https://portainer.io/
-    industries:
-    - Information Technology
-    - Software
-    kind: funding
-    linkedin: null
-    name: Portainer
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Auckland
-    stockExchange: null
-    twitter: https://twitter.com/portainerio
+  joined: '2025-04-01'
+  logo: porch-financial.svg
+  name: Porch Financial (member)
+- crunchbase: https://www.crunchbase.com/organization/port-24aa
+  homepage_url: https://www.getport.io/
+  item: null
+  joined: '2022-11-01'
+  logo: port.svg
+  name: Port (member)
+- crunchbase: https://www.crunchbase.com/organization/portainer
   homepage_url: https://www.portainer.io/
-  image_data:
-    fileName: portainer-member.svg
-    hash: XASH8WCDDc4eVHEazn4o0Rk5u6Ri07MG6BNGnmiBjgo=
   item: null
+  joined: '2020-08-01'
   logo: portainer.svg
   name: Portainer (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 20:32:52+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/portworx
-  crunchbase_data:
-    acquisitions: []
-    city: Los Altos
-    company_type: For Profit
-    country: United States
-    description: "Portworx is a cloud-native storage and data management company offering\
-      \ the industry\u2019s first storage solution purpose-built for containers."
-    funding: 55500000
-    homepage: https://portworx.com/
-    industries:
-    - Cloud Storage
-    - Data Center
-    - Data Storage
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/portworx/
-    name: Portworx
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/portwx
+- crunchbase: https://www.crunchbase.com/organization/portworx
   homepage_url: https://portworx.com
-  image_data:
-    fileName: portworx-member.svg
-    hash: n7mJwtl+4bgGeMgfEj0OrN/iRLZSkn1WqBeKwVABJ4M=
   item: null
+  joined: '2015-11-01'
   logo: portworx-by-purestorage.svg
   name: Portworx (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 15:05:23+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/posedio
-  crunchbase_data:
-    acquisitions: []
-    city: Vienna
-    company_type: For Profit
-    country: Austria
-    description: "We are a reliable and competent partner \u2013 from design and implementation,\
-      \ through maintenance and administration of your services."
-    homepage: https://posedio.com/
-    industries:
-    - Consulting
-    - Information Technology
-    linkedin: https://www.linkedin.com/company/posedio
-    name: Posedio
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Wien
-    stockExchange: null
-    twitter: null
-  homepage_url: https://www.posedio.com/
-  image_data:
-    fileName: posedio-member.svg
-    hash: iD/BEKmNaKGElwlFu06Y4ayGM7UNa4LJj2oyPPRjM0g=
+- crunchbase: https://www.crunchbase.com/organization/previder
+  homepage_url: https://previder.nl
   item: null
-  logo: posedio.svg
-  name: Posedio (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/prefect-technologies-inc
-  crunchbase_data:
-    acquisitions: []
-    city: Washington
-    company_type: For Profit
-    country: United States
-    description: "Prefect is a workflow management system that helps to eliminate\
-      \ data flow problems for companies\u2019 data teams."
-    funding: 46000000
-    homepage: https://www.prefect.io
-    industries:
-    - Big Data
-    - Cloud Data Services
-    - Data Integration
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/prefect
-    name: Prefect
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: District of Columbia
-    stockExchange: null
-    twitter: https://twitter.com/prefectio
-  homepage_url: https://www.prefect.io/
-  image_data:
-    fileName: prefect-member.svg
-    hash: XKYubQ8IgOUGEjnuTtFCV+9hw3cVPbFIM7t5/jfSO4Q=
-  item: null
-  logo: prefect.svg
-  name: Prefect (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 19:43:06+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/prisma-io
-  crunchbase_data:
-    acquisitions: []
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: At Prisma, we are building the data access layer for modern applications.
-    funding: 56500000
-    homepage: https://www.prisma.io
-    industries:
-    - Developer Platform
-    - Enterprise Software
-    - Information Technology
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/prisma-io/
-    name: Prisma
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/prisma
-  homepage_url: https://www.prisma.io/
-  image_data:
-    fileName: prisma-member.svg
-    hash: BYsOQWExESbvGFdzaofzMXMJcymrbalfh6WJx4575nA=
-  item: null
-  logo: prisma.svg
-  name: Prisma (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 14:27:01+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/prodigy-game
-  crunchbase_data:
-    acquisitions: []
-    city: Oakville
-    company_type: For Profit
-    country: Canada
-    description: Prodigy Education is a leader in game-based learning
-    funding: 125121088
-    homepage: http://www.prodigygame.com
-    industries:
-    - Children
-    - Education
-    - Gaming
-    kind: funding
-    linkedin: https://www.linkedin.com/company/prodigyedu
-    name: Prodigy Education
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: Ontario
-    stockExchange: null
-    twitter: https://www.twitter.com/prodigygame
+  joined: '2024-07-01'
+  logo: previder.svg
+  name: Previder (member)
+- crunchbase: https://www.crunchbase.com/organization/prodigy-game
   enduser: true
   homepage_url: https://www.prodigygame.com/main-en/
-  image_data:
-    fileName: prodigy-education-member.svg
-    hash: TCz8gpf4QuTCQ/ICzusmpvCwuv+nLqi2+KTSp6I3YDs=
   item: null
-  joined: '2022-03-30'
+  joined: '2022-04-01'
   logo: prodigy-education.svg
   name: Prodigy Education (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 16:22:42+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/prodyna
-  crunchbase_data:
-    acquisitions: []
-    city: Eschborn
-    company_type: For Profit
-    country: Germany
-    description: PRODYNA is an innovative IT consultancy specialized on the topic
-      of digital business.
-    homepage: http://www.prodyna.com/
-    industries:
-    - Information Technology
-    linkedin: https://www.linkedin.com/company-beta/274445/
-    name: PRODYNA
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: Hessen
-    stockExchange: null
-    twitter: https://twitter.com/PRODYNASE
+- crunchbase: https://www.crunchbase.com/organization/prodyna
   homepage_url: https://www.prodyna.com
-  image_data:
-    fileName: prodyna-member.svg
-    hash: P6TUnxvh+1r+mfeYLt2/rr1czIbFwj/8nstLHcf9R3M=
   item: null
+  joined: '2018-09-01'
   logo: prodyna-member.svg
   name: PRODYNA (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 11:23:18+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/vsh-software
-  crunchbase_data:
-    acquisitions: []
-    city: Hod Hasharon
-    company_type: For Profit
-    country: Israel
-    description: Israeli boutique DevOps and Cloud company
-    funding: 2000000
-    homepage: http://www.profisea.com/
-    industries:
-    - Cloud Management
-    - Consulting
-    - Information Technology
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/profisea/
-    name: Profisea
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: HaMerkaz
-    stockExchange: null
-    twitter: https://twitter.com/profisea
+- crunchbase: https://www.crunchbase.com/organization/vsh-software
   homepage_url: https://www.profisea.com/
-  image_data:
-    fileName: profisea-member.svg
-    hash: xTodFXye69r4m32MvTAVoV0sQlv2WkvTAIXf/Jqp5P8=
   item: null
+  joined: '2022-01-01'
   logo: profisea.svg
   name: Profisea (member)
-  twitter_data:
-    latest_tweet_date: 2022-07-08 11:23:01+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/pulumi-corporation
-  crunchbase_data:
-    acquisitions: []
-    city: Seattle
-    company_type: For Profit
-    country: United States
-    description: Pulumi is a  Seattle-based cloud engineering company that offers
-      a way to build, connect, and run modern cloud applications.
-    funding: 57500000
-    homepage: https://www.pulumi.com
-    industries:
-    - Cloud Computing
-    - Computer
-    - SaaS
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/pulumi
-    name: Pulumi
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Washington
-    stockExchange: null
-    twitter: https://twitter.com/pulumicorp
-  homepage_url: https://www.pulumi.com
-  image_data:
-    fileName: pulumi-member.svg
-    hash: +HekUEmVeIgeGKPyVY0p3kv2Pdi97GCqBtRi59s+QMA=
+- crunchbase: https://www.crunchbase.com/organization/proxima-ad80
+  homepage_url: https://proximaops.io
   item: null
+  joined: '2024-07-01'
+  logo: proximaops.svg
+  name: ProximaOps (member)
+- crunchbase: https://www.crunchbase.com/organization/ps-internet-company
+  homepage_url: https://www.ps.kz
+  item: null
+  joined: '2024-07-01'
+  logo: ps-cloud-services.svg
+  name: PS Cloud Services (member)
+- crunchbase: https://www.crunchbase.com/organization/puffersoft
+  homepage_url: https://puffersoft.com
+  item: null
+  joined: '2025-05-01'
+  logo: puffersoft.svg
+  name: PufferSoft (member)
+- crunchbase: https://www.crunchbase.com/organization/pulumi-corporation
+  homepage_url: https://www.pulumi.com
+  item: null
+  joined: '2018-08-01'
   logo: pulumi.svg
   name: Pulumi (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 20:00:35+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/puppet-labs
-  crunchbase_data:
-    acquisitions:
-    - acquiree: The Marionette Collective
-      date: '2010-10-07'
-    - acquiree: Cloudsmith
-      date: '2013-07-17'
-    - acquiree: Distelli
-      date: '2017-09-20'
-    - acquiree: Reflect
-      date: '2018-06-07'
-    city: Portland
-    company_type: For Profit
-    country: United States
-    description: Puppet is an information technology automation software company designed
-      for system administrators.
-    funding: 189500000
-    homepage: https://puppet.com/
-    industries:
-    - Application Performance Management
-    - Data Center Automation
-    - IT Infrastructure
-    - Information Services
-    - Information Technology
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/puppet/
-    name: Puppet
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: Oregon
-    stockExchange: null
-    twitter: https://twitter.com/puppetize
-  homepage_url: https://puppet.com
-  image_data:
-    fileName: puppet-member.svg
-    hash: Znovog0WY2aZOKG1kkABO8naIc12UOXs/ETAizezdiQ=
-  item: null
-  logo: puppet.svg
-  name: Puppet (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-03 21:35:02+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/puzzle
-  crunchbase_data:
-    acquisitions: []
-    city: Bern
-    company_type: For Profit
-    country: Switzerland
-    description: Puzzle is a Red Hat Certified Cloud Provider.
-    homepage: https://www.puzzle.ch/
-    industries:
-    - Information Technology
-    linkedin: https://www.linkedin.com/company/puzzle-itc/
-    name: Puzzle
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: Bern
-    stockExchange: null
-    twitter: https://www.twitter.com/puzzleitc
+- crunchbase: https://www.crunchbase.com/organization/puzzle-itc
   homepage_url: https://www.puzzle.ch/de/home
-  image_data:
-    fileName: puzzle-itc-member.svg
-    hash: iwYegEraXqRQa/+i06iOetizSX7bMyYVWXCgH+4vNj8=
   item: null
+  joined: '2018-11-01'
   logo: puzzle.svg
   name: Puzzle ITC (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 05:46:23+00:00

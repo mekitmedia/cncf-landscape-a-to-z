@@ -1,221 +1,62 @@
-- best_practice_data:
-    badge: 1938
-    percentage: 19
-  crunchbase: https://www.crunchbase.com/organization/konghq
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Gelato.io
-      date: '2015-10-22'
-    - acquiree: Insomnia
-      date: '2019-10-03'
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: Kong is the cloud connectivity company offering the industry-leading
-      service connectivity platform designed for modern architectures.
-    funding: 169101000
-    homepage: https://konghq.com/
-    industries:
-    - Cloud Computing
-    - Cloud Data Services
-    - Developer APIs
-    - Enterprise Software
-    - Open Source
-    - SaaS
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/konghq/
-    name: Kong
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: http://twitter.com/thekonginc
-  github_data:
-    contributions: 3;19;17;27;9;17;15;21;9;10;7;17;21;15;15;9;32;16;16;13;6;8;17;8;10;7;20;27;21;12;14;5;28;12;22;14;17;4;9;15;22;25;21;29;21;21;20;15;33;21;29;8
-    contributors_count: 326
-    contributors_link: https://github.com/Kong/kong/graphs/contributors
-    description: "\U0001F98D The Cloud-Native API Gateway "
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#000080'
-      name: Lua
-      value: 6687160
-    - color: '#0298c3'
-      name: Perl
-      value: 529661
-    - color: '#89e051'
-      name: Shell
-      value: 63341
-    - color: '#563d7c'
-      name: CSS
-      value: 5812
-    - color: '#3572A5'
-      name: Python
-      value: 5387
-    - color: '#427819'
-      name: Makefile
-      value: 5129
-    - color: '#384d54'
-      name: Dockerfile
-      value: 138
-    latest_commit_date: '2022-08-05T08:17:50Z'
-    latest_commit_link: /Kong/kong/commit/21ccabff59065a23d3b2ca79999a235177af86db
-    license: Apache License 2.0
-    release_date: '2022-05-23T14:43:19Z'
-    release_link: https://github.com/Kong/kong/releases
-    stars: 32619
-  github_start_commit_data:
-    start_commit_link: /Kong/kong/commit/ffd70b3101ba38d9acc776038d124f6e2fccac3c
-    start_date: '2014-11-17T23:56:08Z'
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: An Envoy-powered, Kubernetes-native API Gateway that integrates Kubernetes
+    Gateway API with a control plane for API connectivity in any cloud environment.
+  extra:
+    accepted: '2025-03-04'
+    blog_url: https://kgateway.dev/blog
+    summary_personas: Platform Engineers, DevOps Engineers, SREs, API Managers
+    summary_tags: API Gateway, Envoy, Kubernetes, Gateway API, Cloud Native
+    summary_use_case: 'Kgateway is the most mature and widely deployed Envoy-based
+      gateway in the market today. Built on open source  and open standards, kgateway
+      integrates Kubernetes Gateway API with a control plane that scales from lightweight  microgateway
+      deployments between services, to massively parallel centralized gateways handling
+      billions of API calls,  to advanced AI gateway use cases for safety, security,
+      and governance when integrating applications with third-party LLMs.  kgateway
+      brings omni-directional API connectivity to any cloud and any environment. '
+  homepage_url: https://kgateway.dev/
+  item: null
+  logo: kgateway.svg
+  name: Kgateway
+  project: sandbox
+  repo_url: https://github.com/kgateway-dev/kgateway
+- crunchbase: https://www.crunchbase.com/organization/konghq
   homepage_url: https://konghq.com/
-  image_data:
-    fileName: kong.svg
-    hash: Wx7LcSpXuqsik+lIdc2Y2wXtX6vLuoAvfinEwGapHnM=
   item: null
   logo: kong.svg
   name: Kong
   repo_url: https://github.com/Kong/kong
-  repos:
-  - stars: 32619
-    url: https://github.com/Kong/kong
-  twitter_data:
-    latest_tweet_date: 2022-08-05 15:40:15+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/krakend
-  crunchbase_data:
-    acquisitions: []
-    city: Barcelona
-    company_type: For Profit
-    country: Spain
-    description: KrakenD is the leading stateless, distributed, high-performance API
-      Gateway that helps you effortlessly adopt microservices
-    homepage: https://www.krakend.io
-    industries:
-    - Cloud Data Services
-    - Developer APIs
-    - Enterprise Software
-    - Open Source
-    - Software
-    - Web Development
-    linkedin: https://www.linkedin.com/company/krakend/
-    name: KrakenD
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: Catalonia
-    stockExchange: null
-    twitter: https://www.twitter.com/krakend_io
-  github_data:
-    contributions: 0;0;0;0;0;0;0;0;17;2;3;8;0;0;0;0;0;0;4;0;0;0;5;4;0;0;1;8;1;8;0;0;0;0;37;4;0;4;8;0;0;0;6;3;0;0;0;0;0;0;0;0
-    contributors_count: 35
-    contributors_link: https://github.com/luraproject/lura/graphs/contributors
-    description: Ultra performant API Gateway with middlewares. A project hosted at
-      The Linux Foundation
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 548986
-    - color: '#427819'
-      name: Makefile
-      value: 1004
-    latest_commit_date: '2022-06-08T15:40:19Z'
-    latest_commit_link: /luraproject/lura/commit/004c9eb88ad79e9e41b6f41ccf7929174bf34767
-    license: Other
-    release_date: '2022-06-08T15:42:13Z'
-    release_link: https://github.com/luraproject/lura/releases
-    stars: 5175
-  github_start_commit_data:
-    start_commit_link: /devopsfaith/krakend/commit/1288ae34a481198a9bce2eb8e0aabace40bdb048
-    start_date: '2016-11-04T18:37:13Z'
+- crunchbase: https://www.crunchbase.com/organization/krakend
   homepage_url: https://www.krakend.io/
-  image_data:
-    fileName: kraken-d.svg
-    hash: BNNzwDkKtRkplk8O9YmfmbImR8EOilYpdHo9kxt9Azw=
   item: null
   logo: krakend.svg
   name: KrakenD
   repo_url: https://github.com/luraproject/lura
-  repos:
-  - stars: 5175
-    url: https://github.com/luraproject/lura
-  twitter_data:
-    latest_tweet_date: 2022-07-27 19:04:57+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/kubeshop
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Botkube
-      date: '2022-07-07'
-    city: Wilmington
-    company_type: For Profit
-    country: United States
-    description: At Kubeshop, our mission is to build a thriving open-source ecosystem
-      and pipeline of next generation Kubernetes products and projects.
-    homepage: https://kubeshop.io/
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Cloud Management
-    - Open Source
-    - Software
-    linkedin: https://www.linkedin.com/company/kubeshop/
-    name: Kubeshop
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Delaware
-    stockExchange: null
-    twitter: https://twitter.com/thekubeshop
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Kuadrant combines Gateway API and Istio-based gateway controllers to
+    enhance application connectivity. It enables platform engineers  and application
+    developers to easily connect, secure, and protect their services and infrastructure
+    across multiple clusters  with policies for TLS, DNS, application authentication
+    & authorization, and rate limiting.
+  extra:
+    accepted: '2024-06-19'
+    clomonitor_name: kuadrant
+  homepage_url: https://kuadrant.io
+  item: null
+  logo: kuadrant.svg
+  name: Kuadrant
+  project: sandbox
+  repo_url: https://github.com/kuadrant/kuadrant-operator
+- crunchbase: https://www.crunchbase.com/organization/bytedance
+  homepage_url: https://github.com/kubewharf/kubegateway
+  item: null
+  logo: kubegateway.svg
+  name: KubeGateway
+  repo_url: https://github.com/kubewharf/kubegateway
+- crunchbase: https://www.crunchbase.com/organization/kubeshop
   description: Kusk Gateway is a self-service API gateway powered by OpenAPI and Envoy.
     Kusk Gateway is built and maintained by Kubeshop.
-  github_data:
-    contributions: 0;0;0;0;0;0;2;14;9;9;0;9;10;6;12;8;8;1;4;1;5;1;3;7;8;4;5;2;3;3;4;1;0;3;2;5;1;13;10;6;1;9;1;1;8;14;7;4;3;4;9;4
-    contributors_count: 14
-    contributors_link: https://github.com/kubeshop/kusk-gateway/graphs/contributors
-    description: Kusk-gateway is an OpenAPI-driven API Gateway for Kubernetes
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 408250
-    - color: '#427819'
-      name: Makefile
-      value: 24445
-    - color: '#89e051'
-      name: Shell
-      value: 9097
-    - color: '#384d54'
-      name: Dockerfile
-      value: 1777
-    - color: '#f1e05a'
-      name: JavaScript
-      value: 489
-    latest_commit_date: '2022-08-05T10:30:22Z'
-    latest_commit_link: /kubeshop/kusk-gateway/commit/d74df6f0e63affab7a533f9dcc7312816e99f549
-    license: MIT License
-    release_date: '2022-07-29T13:28:35Z'
-    release_link: https://github.com/kubeshop/kusk-gateway/releases
-    stars: 114
-  github_start_commit_data:
-    start_commit_link: /kubeshop/kusk-gateway/commit/4173c091aa6543e2d25adf8fbf8c31b40e9c1ba6
-    start_date: '2021-09-21T07:33:30Z'
-  homepage_url: https://kusk.kubeshop.io/
-  image_data:
-    fileName: kusk-gateway.svg
-    hash: 00v49SMJuXe/vM9VKMVAoRzh5xpwuV+B9B1P6ixxzXI=
+  homepage_url: https://kusk.io/
   item: null
   logo: kusk.svg
   name: Kusk Gateway
   repo_url: https://github.com/kubeshop/kusk-gateway
-  repos:
-  - stars: 114
-    url: https://github.com/kubeshop/kusk-gateway
-  twitter_data:
-    latest_tweet_date: 2022-08-02 13:19:49+00:00

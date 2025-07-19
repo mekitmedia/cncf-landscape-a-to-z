@@ -1,89 +1,14 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/docker
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Orchard
-      date: '2014-07-23'
-    - acquiree: Koality
-      date: '2014-10-07'
-    - acquiree: SocketPlane
-      date: '2015-03-04'
-    - acquiree: Kitematic
-      date: '2015-03-12'
-    - acquiree: Tutum
-      date: '2015-10-21'
-    - acquiree: Unikernel Systems
-      date: '2016-01-21'
-    - acquiree: Conductant
-      date: '2016-03-03'
-    - acquiree: Infinit
-      date: '2016-12-06'
-    - acquiree: Nestybox
-      date: '2022-05-10'
-    city: Palo Alto
-    company_type: For Profit
-    country: United States
-    description: "Docker\u2019s platform helps millions of developers efficiently\
-      \ and collaboratively build, share, and run applications."
-    funding: 435855439
-    homepage: https://www.docker.com
-    industries:
-    - Developer Platform
-    - Developer Tools
-    - Information Technology
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/docker
-    name: Docker
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/docker
-  github_data:
-    contributions: 0;0;1;1;0;0;0;0;0;0;0;1;0;2;0;0;2;7;8;0;0;0;1;0;0;4;0;1;2;0;2;0;0;0;3;3;5;0;0;0;0;0;0;0;0;0;2;0;1;5;0;0
-    contributors_count: 127
-    contributors_link: https://github.com/moby/swarmkit/graphs/contributors
-    description: A toolkit for orchestrating distributed systems at any scale. It
-      includes primitives for node discovery, raft-based consensus, task scheduling
-      and more.
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 3156421
-    - name: TLA
-      value: 52148
-    - color: '#427819'
-      name: Makefile
-      value: 9051
-    - color: '#89e051'
-      name: Shell
-      value: 2777
-    - color: '#384d54'
-      name: Dockerfile
-      value: 1114
-    latest_commit_date: '2022-07-21T17:48:24Z'
-    latest_commit_link: /moby/swarmkit/commit/48dd89375d0a3e8a333c52bce1e6297e0b192d06
-    license: Apache License 2.0
-    stars: 2848
-  github_start_commit_data:
-    start_commit_link: /docker/swarmkit/commit/cba102bde53bc732e4cd7e53f69eb573e4f8825e
-    start_date: '2016-02-12T00:02:16Z'
+- crunchbase: https://www.crunchbase.com/organization/docker
   homepage_url: https://docs.docker.com/engine/swarm/
-  image_data:
-    fileName: docker-swarm.svg
-    hash: b2hLSvkyvIK9qFXrx1r6z4sR91620NkniJliGVlIJ6s=
   item: null
   logo: dockerswarm.svg
   name: Docker Swarm
   repo_url: https://github.com/moby/swarmkit
-  repos:
-  - stars: 2848
-    url: https://github.com/moby/swarmkit
   twitter: https://twitter.com/moby
-  twitter_data:
-    latest_tweet_date: 2019-02-12 18:10:37+00:00
+- crunchbase: https://www.crunchbase.com/organization/apache
+  homepage_url: https://dolphinscheduler.apache.org
+  item: null
+  logo: dolphin-scheduler.svg
+  name: DolphinScheduler
+  repo_url: https://github.com/apache/dolphinscheduler
+  twitter: https://twitter.com/dolphinschedule

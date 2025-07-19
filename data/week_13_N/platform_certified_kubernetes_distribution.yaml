@@ -1,49 +1,15 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/netease-com
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Grasshopper Manufacture
-      date: '2021-10-22'
-    city: Hangzhou
-    company_type: For Profit
-    country: China
-    description: 'NetEase, Inc. (NASDAQ: NTES) is a leading internet technology company
-      dedicated to providing premium online services.'
-    funding: 0
-    homepage: https://www.neteasegames.com/
-    industries:
-    - Advertising
-    - Gaming
-    - Mobile
-    - Mobile Apps
-    - Music
-    - PC Games
-    - Venture Capital
-    - Wireless
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/netease
-    name: NetEase
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents: []
-    region: Zhejiang
-    stockExchange: hkg
-    ticker: 9999.HK
-    twitter: https://twitter.com/neteaseofficial?lang=en
-  description: Netease Qingzhou Microservice is a one-stop PaaS platform built around
-    applications and microservice, which helps users to quickly realize microservice
-    solutions of easy access, easy operation and maintenance.
-  homepage_url: https://sf.163.com/product-nsf
-  image_data:
-    fileName: netease-qingzhou-microservice.svg
-    hash: iO8rPQBejS/zyOHk56jLL89CN1ioOe9lPehzpm9k6CE=
+- crunchbase: https://www.crunchbase.com/organization/navimentum
+  description: K8M is a production level PaaS platform that can be used for enterprise
+    and internet application deployment and management.
+  homepage_url: https://www.navimentum.com
   item: null
-  logo: netease.svg
-  name: Netease Qingzhou Microservice
-  twitter_data:
-    latest_tweet_date: 2021-02-02 10:40:05+00:00
-  yahoo_finance_data:
-    effective_ticker: 9999.HK
-    market_cap: 58973992918
+  logo: navimentum.svg
+  name: Navimentum K8M PaaS
+- crunchbase: https://www.crunchbase.com/organization/nutanix
+  description: NKP includes a standalone distribution of Kubernetes that includes
+    a native Kubernetes cluster pre-packaged for deployment with a complement of best-in-class
+    add-on services enabled by default and ready for immediate use.
+  homepage_url: https://www.nutanix.com/products/kubernetes-management-platform
+  item: null
+  logo: nutanix.svg
+  name: Nutanix NKP

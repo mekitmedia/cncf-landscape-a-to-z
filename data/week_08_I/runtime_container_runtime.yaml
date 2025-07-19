@@ -1,98 +1,33 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Kubernetes
-      date: '2016-03-10'
-    - acquiree: RethinkDB
-      date: '2017-02-06'
-      price: 25000
-    city: San Francisco
-    company_type: Non Profit
-    country: United States
-    description: CNCF is an open source software foundation that hosts and nurtures
-      projects like Kubernetes and Prometheus.
-    funding: 3000000
-    homepage: https://www.cncf.io
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Non Profit
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
-    name: Cloud Native Computing Foundation (CNCF)
-    num_employees_max: 50
-    num_employees_min: 11
-    parents:
-    - https://www.crunchbase.com/organization/linux-foundation
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/CloudNativeFdn
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   extra:
     accepted: '2021-09-14'
+    annual_review_date: '2022-11-06'
+    annual_review_url: https://github.com/cncf/toc/pull/957
+    clomonitor_name: inclavare
     dev_stats_url: https://inclavarecontainers.devstats.cncf.io/
     slack_url: https://cloud-native.slack.com/archives/C02HJJ81BD5
-  github_data:
-    contributions: 8;24;47;18;9;10;1;2;0;6;19;13;2;5;22;26;8;2;2;12;5;2;0;0;4;0;13;8;0;4;1;1;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-    contributors_count: 23
-    contributors_link: https://github.com/inclavare-containers/inclavare-containers/graphs/contributors
-    description: A novel container runtime, aka confidential container, for cloud-native
-      confidential computing and enclave runtime ecosystem.
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#555555'
-      name: C
-      value: 1408437
-    - color: '#00ADD8'
-      name: Go
-      value: 590032
-    - color: '#dea584'
-      name: Rust
-      value: 119550
-    - color: '#89e051'
-      name: Shell
-      value: 106018
-    - name: CMake
-      value: 59411
-    - color: '#427819'
-      name: Makefile
-      value: 48221
-    - color: '#3572A5'
-      name: Python
-      value: 28433
-    - color: '#ecdebe'
-      name: Roff
-      value: 11368
-    - color: '#6E4C13'
-      name: Assembly
-      value: 8093
-    - color: '#384d54'
-      name: Dockerfile
-      value: 2908
-    latest_commit_date: '2022-04-08T01:05:42Z'
-    latest_commit_link: /inclavare-containers/inclavare-containers/commit/327d48c1caff45befc1f4ddd0e36e79c33d84845
-    license: Apache License 2.0
-    release_date: '2021-11-30T11:19:55Z'
-    release_link: https://github.com/inclavare-containers/inclavare-containers/releases
-    stars: 497
-  github_start_commit_data:
-    start_commit_link: /alibaba/inclavare-containers/commit/161f6e3da0d6a436929a8333b45503f4f8dfe1ba
-    start_date: '2020-05-12T02:43:12Z'
-  homepage_url: https://inclavare-containers.io/
-  image_data:
-    fileName: inclavare-containers.svg
-    hash: WyamJyGrtQXNS2VonEsrfilsOwnEbPfVjI8XR/ZxvL4=
+  homepage_url: https://github.com/inclavare-containers/
   item: null
   logo: inclavare.svg
   name: Inclavare Containers
   project: sandbox
   repo_url: https://github.com/inclavare-containers/inclavare-containers
-  repos:
-  - stars: 497
-    url: https://github.com/inclavare-containers/inclavare-containers
-  twitter_data:
-    latest_tweet_date: 2022-08-05 21:09:37+00:00
+- description: InterLink aims to provide an abstraction for the execution of a Kubernetes
+    pod on any remote resource capable of managing a Container execution lifecycle
+    thanks to the Virtual Kubelet interface. It allows you to extend your cloud environment
+    anywhere by running Kubernetes workloads on various infrastructures, creating
+    a seamless cloud-native experience across diverse environments.
+  extra:
+    accepted: '2025-03-04'
+    blog_url: https://intertwin-eu.github.io/interLink/blog/
+    clomonitor_name: interlink
+    dev_stats_url: https://interlink.devstats.cncf.io/
+    github_discussions_url: https://github.com/interTwin-eu/interLink/discussions
+  homepage_url: https://intertwin-eu.github.io/interLink/
+  item: null
+  logo: interlink.svg
+  name: Interlink
+  project: sandbox
+  repo_url: https://github.com/interTwin-eu/interLink
+  second_path:
+  - Serverless / Installable Platform

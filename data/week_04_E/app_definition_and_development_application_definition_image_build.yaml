@@ -1,61 +1,6 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/eclipse-che
-  crunchbase_data:
-    acquisitions: []
-    city: Ottawa
-    company_type: Non Profit
-    country: Canada
-    description: The Kubernetes-Native IDE for Developer Teams
-    homepage: https://www.eclipse.org/che/
-    industries:
-    - Cloud Data Services
-    - Information Technology
-    - Software
-    linkedin: null
-    name: Eclipse Che
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Ontario
-    stockExchange: null
-    twitter: https://twitter.com/eclipse_che
-  github_data:
-    contributions: 3;3;8;4;3;3;6;3;2;10;7;3;1;6;1;1;6;6;8;1;0;1;2;3;2;2;0;3;3;1;5;2;0;0;0;0;0;1;0;2;2;0;0;1;1;1;6;2;0;1;1;0
-    contributors_count: 200
-    contributors_link: https://github.com/eclipse/che/graphs/contributors
-    description: The Kubernetes-Native IDE for Developer Teams
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#2b7489'
-      name: TypeScript
-      value: 540248
-    - color: '#89e051'
-      name: Shell
-      value: 48052
-    - color: '#384d54'
-      name: Dockerfile
-      value: 680
-    latest_commit_date: '2022-07-27T07:53:27Z'
-    latest_commit_link: /eclipse/che/commit/f4532fb3618ab7787aff6c3049c04be4359225d2
-    license: Eclipse Public License 2.0
-    release_date: '2022-07-26T19:18:24Z'
-    release_link: https://github.com/eclipse/che/releases
-    stars: 6699
-  github_start_commit_data:
-    start_commit_link: /eclipse/che/commit/9b6a9647f720dfa85182ae307a42f7ecaf163971
-    start_date: '2016-02-11T12:19:25Z'
+- crunchbase: https://www.crunchbase.com/organization/eclipse-che
   homepage_url: https://www.eclipse.org/che/
-  image_data:
-    fileName: eclipse-che.svg
-    hash: wJIvYl44ISxei4sMrjcOxQ/x8HBJBkr4SiAI9QB0kU0=
   item: null
   logo: eclipseche.svg
   name: Eclipse Che
-  repo_url: https://github.com/eclipse/che
-  repos:
-  - stars: 6699
-    url: https://github.com/eclipse/che
-  twitter_data:
-    latest_tweet_date: 2022-07-26 19:10:48+00:00
+  repo_url: https://github.com/eclipse-che/che

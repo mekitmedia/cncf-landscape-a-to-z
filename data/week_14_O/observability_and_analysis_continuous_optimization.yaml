@@ -1,122 +1,20 @@
-- best_practice_data:
-    badge: 6219
-    percentage: 24
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Kubernetes
-      date: '2016-03-10'
-    - acquiree: RethinkDB
-      date: '2017-02-06'
-      price: 25000
-    city: San Francisco
-    company_type: Non Profit
-    country: United States
-    description: CNCF is an open source software foundation that hosts and nurtures
-      projects like Kubernetes and Prometheus.
-    funding: 3000000
-    homepage: https://www.cncf.io
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Non Profit
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
-    name: Cloud Native Computing Foundation (CNCF)
-    num_employees_max: 50
-    num_employees_min: 11
-    parents:
-    - https://www.crunchbase.com/organization/linux-foundation
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/CloudNativeFdn
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: OpenCost provides visibility into current and historical Kubernetes
     spend and resource allocation.
   extra:
+    accepted: '2022-06-17'
     chat_channel: '#opencost'
+    clomonitor_name: opencost
+    incubating: '2024-10-25'
     slack_url: https://slack.cncf.io/
-  github_data:
-    contributions: 17;36;18;20;15;20;19;6;8;3;15;19;8;4;12;7;22;29;14;8;0;16;3;8;25;15;23;12;28;17;24;11;11;15;10;16;25;39;12;15;21;17;29;8;24;16;9;7;26;11;8;12
-    contributors_count: 47
-    contributors_link: https://github.com/kubecost/opencost/graphs/contributors
-    description: Cross-cloud cost allocation models for Kubernetes workloads
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 2074104
-    - color: '#f1e05a'
-      name: JavaScript
-      value: 59200
-    - color: '#384d54'
-      name: Dockerfile
-      value: 1223
-    - color: '#563d7c'
-      name: CSS
-      value: 391
-    - color: '#e34c26'
-      name: HTML
-      value: 367
-    latest_commit_date: '2022-08-05T20:58:08Z'
-    latest_commit_link: /opencost/opencost/commit/57bda4821a8ac2f91435fd6216d4073006170b89
-    license: Apache License 2.0
-    release_date: '2022-08-05T23:23:42Z'
-    release_link: https://github.com/kubecost/opencost/releases
-    stars: 2658
-  github_start_commit_data:
-    start_commit_link: /kubecost/opencost/commit/4d8f318fa0f64af854727f8493a8df42668b174a
-    start_date: '2019-03-27T21:49:05Z'
   homepage_url: https://www.opencost.io/
-  image_data:
-    fileName: open-cost.svg
-    hash: MTFFantQVY1hDv3OlrtqdcCJOxpcMZqLNsVrKRt266E=
   item: null
   logo: opencost.svg
   name: OpenCost
-  project: sandbox
-  repo_url: https://github.com/kubecost/opencost
-  repos:
-  - stars: 2658
-    url: https://github.com/kubecost/opencost
-  twitter_data:
-    latest_tweet_date: 2022-08-05 21:09:37+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/opsani
-  crunchbase_data:
-    acquisitions: []
-    city: Redwood City
-    company_type: For Profit
-    country: United States
-    description: Opsani uses the capabilities of AI to optimize applications in the
-      cloud.
-    funding: 20264998
-    homepage: http://www.opsani.com
-    industries:
-    - Application Performance Management
-    - Artificial Intelligence
-    - Cloud Management
-    - Machine Learning
-    - SaaS
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/opsani/
-    name: Opsani
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/Opsani
+  project: incubating
+  repo_url: https://github.com/opencost/opencost
+- crunchbase: https://www.crunchbase.com/organization/opsani
   homepage_url: https://opsani.com/
-  image_data:
-    fileName: opsani.svg
-    hash: x+z5gXv1TwqOFgxwlTiIdb4wepcicivSRjLvELJQA/o=
   item: null
   logo: opsani.svg
   name: Opsani
-  twitter_data:
-    latest_tweet_date: 2022-01-28 22:23:31+00:00

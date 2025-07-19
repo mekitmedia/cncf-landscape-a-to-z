@@ -1,63 +1,38 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/open-infrastructure-foundation
-  crunchbase_data:
-    acquisitions: []
-    city: Austin
-    company_type: ''
-    country: United States
-    description: Helping people build and operate open infrastructure that runs in
-      production
-    homepage: https://openinfra.dev/
-    industries: []
-    linkedin: https://www.linkedin.com/company/open-infrastructure-foundation/
-    name: Open Infrastructure Foundation
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Texas
-    stockExchange: null
-    twitter: https://twitter.com/openinfradev
-  github_data:
-    contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-    contributors_count: 110
-    contributors_link: https://github.com/kata-containers/runtime/graphs/contributors
-    description: Kata Containers version 1.x runtime (for version 2.x see https://github.com/kata-containers/kata-containers).
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 2283097
-    - color: '#427819'
-      name: Makefile
-      value: 31776
-    - color: '#89e051'
-      name: Shell
-      value: 30596
-    - color: '#384d54'
-      name: Dockerfile
-      value: 386
-    latest_commit_date: '2021-05-05T12:51:00Z'
-    latest_commit_link: /kata-containers/runtime/commit/04f29832a923857db2f47a534ddbae886c0b541c
-    license: Apache License 2.0
-    release_date: '2021-01-14T22:39:24Z'
-    release_link: https://github.com/kata-containers/runtime/releases
-    stars: 2105
-  github_start_commit_data:
-    start_commit_link: /kata-containers/runtime/commit/53901abe10027ded041a97edea7d99648b957548
-    start_date: '2017-11-21T09:03:45Z'
-  homepage_url: https://katacontainers.io/
-  image_data:
-    fileName: kata-containers.svg
-    hash: ypeOn6FBSr2PWr44D4Aa+ep4DimQurl4n+TRoyGuRKg=
+- crunchbase: https://www.crunchbase.com/organization/open-infrastructure-foundation
+  homepage_url: https://katacontainers.io
   item: null
   logo: kata.svg
   name: Kata Containers
-  repo_url: https://github.com/kata-containers/runtime
-  repos:
-  - stars: 2105
-    url: https://github.com/kata-containers/runtime
+  repo_url: https://github.com/kata-containers/kata-containers
   twitter: https://twitter.com/KataContainers
-  twitter_data:
-    latest_tweet_date: 2022-08-05 18:04:03+00:00
+- allow_duplicate_repo: true
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2021-07-13'
+    archived: '2024-09-30'
+  homepage_url: https://krustlet.dev
+  item: null
+  logo: krustlet.svg
+  name: Krustlet
+  project: archived
+  repo_url: https://github.com/krustlet/krustlet
+  second_path:
+  - Wasm / Runtimes
+  twitter: https://twitter.com/krustlet
+- allow_duplicate_repo: true
+  crunchbase: https://www.crunchbase.com/organization/huawei-cloud
+  description: A multi-sandbox container runtime that provides cloud-native, all-scenario
+    multiple sandbox container solutions.
+  extra:
+    accepted: '2023-12-19'
+    chat_channel: '#kuasar'
+    clomonitor_name: kuasar
+    slack_url: https://slack.cncf.io/
+    youtube_url: https://www.youtube.com/channel/UCm796d5_CMipZGrdFskbp2g
+  homepage_url: https://kuasar.io/
+  item: null
+  logo: kuasar.svg
+  name: Kuasar
+  project: sandbox
+  repo_url: https://github.com/kuasar-io/kuasar
+  twitter: https://twitter.com/Kuasar_io

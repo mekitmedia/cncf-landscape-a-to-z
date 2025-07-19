@@ -1,37 +1,14 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/rx-m
-  crunchbase_data:
-    acquisitions: []
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: Cloud Native solutions to accelerate your career or business
-    homepage: http://rx-m.com/
-    industries:
-    - Consulting
-    - Corporate Training
-    - Information Technology
-    linkedin: https://www.linkedin.com/company/rx-m-llc
-    name: RX-M
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/rxmllc
-  description: Market neutral Kubernetes Dev, DevOps and Production training and consulting
-    services
+- crunchbase: https://www.crunchbase.com/organization/rx-m
+  description: "RX-M is a global Cloud Native & AI technology training and consulting\
+    \ firm; we provide services and training for technologies and business practices\
+    \  essential to digital transformation, ranging from ML/AI to microservice-based\
+    \ application design and from DevSecOps to AIOps. The RX-M team consists  of published\
+    \ authors, patent holders and prominent open source contributors\u2013all focused\
+    \ on customer success through an unbiased, market neutral approach."
   extra:
     training_certifications: cka, ckad, cks, kcna
     training_type: instructor-led
-  homepage_url: http://rx-m.com/training/
-  image_data:
-    fileName: rx-m-ktp.svg
-    hash: SLWWP1MtteJSlbvRMXWCf0AVvQVbmYJE0fi4wfc6uDM=
+  homepage_url: https://rx-m.com/cloudnative-training-courses/
   item: null
   logo: rx-m.svg
   name: RX-M (KTP)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 14:21:10+00:00

@@ -1,32 +1,9 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/gaia-information-technology
-  crunchbase_data:
-    acquisitions: []
-    city: Taipei
-    company_type: ''
-    country: Taiwan
-    description: Gaia Information provides enterprise one-stop cloud integration consulting
-      service.
-    homepage: https://gaia.net
-    industries: []
-    linkedin: null
-    name: Gaia Information Technology
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: T'ai-pei
-    stockExchange: null
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/gaia-information-technology
   description: Gaia, a multi-cloud solutions provider, offers Kubernetes implementation
     and configuration services, application container migrations, and professional
     IT training.   We help our customers adopt DevSecOps, build CI/CD, and migrate
     applications to Kubernetes.
   homepage_url: https://www.gaia.net/tc/training_detail/22/1/kubernetestraining
-  image_data:
-    fileName: gaia-ktp.svg
-    hash: scrSfJ48dQCpudU256oWhvJYUULMbawFAuxmBtj51QI=
   item: null
   logo: Gaia.svg
   name: Gaia (KTP)

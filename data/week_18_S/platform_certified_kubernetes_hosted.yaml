@@ -1,263 +1,64 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/samsung-sds
-  crunchbase_data:
-    acquisitions: []
-    city: Ridgefield Park
-    company_type: For Profit
-    country: United States
-    description: Samsung SDS, established in 1985, as a subsidiary of Samsung Group
-      has been providing information technology services.
-    homepage: https://www.samsungsds.com/
-    industries:
-    - Information Services
-    - Information Technology
-    linkedin: null
-    name: Samsung SDS
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents: []
-    region: New Jersey
-    stockExchange: null
-    twitter: https://twitter.com/samsungsdsa
-  description: SKE allows you to quickly deploy a production ready Kubernetes cluster
-    in Samsung Cloud Platform (SCP).
-  homepage_url: https://cloud.samsungsds.com/serviceportal/index.html
-  image_data:
-    fileName: samsung-cloud-platform-scp-kubernetes-engine-ske.svg
-    hash: lccAuenjDM4QrshedS4ypiIhe8S02WQnU+WHz4arczE=
+- crunchbase: https://www.crunchbase.com/organization/samsung-sds
+  description: SKE offers lightweight virtual computing containers and clusters for
+    their management. With the service, Kubernetes environments are readily available
+    by installation, operation, and maintenance of the Kubernetes control plane.
+  homepage_url: https://cloud.samsungsds.com/serviceportal/product/container/k8sEngine.html
   item: null
-  logo: samsung-cloud-platform.svg
-  name: Samsung Cloud Platform - SCP Kubernetes Engine (SKE)
-  twitter_data:
-    latest_tweet_date: 2022-08-02 17:12:32+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/sap
-  crunchbase_data:
-    acquisitions:
-    - acquiree: TopTier Software
-      date: '2001-03-30'
-      price: 400000000
-    - acquiree: Lighthammer Software
-      date: '2005-06-22'
-    - acquiree: Triversity
-      date: '2005-09-19'
-    - acquiree: Khimetrics
-      date: '2005-11-30'
-    - acquiree: Virsa Systems
-      date: '2006-04-05'
-    - acquiree: Frictionless Commerce
-      date: '2006-05-17'
-    - acquiree: Factory Logic
-      date: '2006-12-07'
-    - acquiree: Pilot Software, Inc.
-      date: '2007-02-14'
-    - acquiree: OutlookSoft
-      date: '2007-05-08'
-    - acquiree: MaXware
-      date: '2007-05-14'
-    - acquiree: Wicom Communications
-      date: '2007-05-14'
-    - acquiree: Business Objects
-      date: '2007-10-07'
-      price: 6800000000
-    - acquiree: Visiprise
-      date: '2008-06-17'
-    - acquiree: Coghead
-      date: '2009-02-19'
-    - acquiree: Highdeal
-      date: '2009-05-06'
-    - acquiree: Clear Standards
-      date: '2009-05-11'
-    - acquiree: SAF
-      date: '2009-07-23'
-    - acquiree: Sybase
-      date: '2010-05-12'
-      price: 5800000000
-    - acquiree: SECUDE - Software Security Products and Assets
-      date: '2011-01-12'
-    - acquiree: Right Hemisphere
-      date: '2011-09-06'
-    - acquiree: Crossgate
-      date: '2011-09-20'
-    - acquiree: SuccessFactors
-      date: '2011-12-03'
-      price: 3400000000
-    - acquiree: Syclo
-      date: '2012-04-10'
-    - acquiree: Ariba
-      date: '2012-05-22'
-      price: 4300000000
-    - acquiree: Ticket-Web
-      date: '2013-01-31'
-    - acquiree: SmartOps
-      date: '2013-02-22'
-    - acquiree: Camilion Solutions
-      date: '2013-03-07'
-    - acquiree: Kms Software
-      date: '2013-05-01'
-    - acquiree: hybris
-      date: '2013-06-06'
-      price: 1400000000
-    - acquiree: KXEN
-      date: '2013-09-10'
-    - acquiree: Fieldglass
-      date: '2014-03-26'
-      price: 1000000000
-    - acquiree: SeeWhy
-      date: '2014-05-20'
-    - acquiree: OpTier
-      date: '2014-08-10'
-      price: 10000000
-    - acquiree: SAP Concur
-      date: '2014-09-18'
-      price: 8300000000
-    - acquiree: Multiposting
-      date: '2015-10-14'
-    - acquiree: Roambi
-      date: '2016-02-17'
-    - acquiree: Altiscale
-      date: '2016-08-25'
-      price: 125000000
-    - acquiree: PLAT.ONE
-      date: '2016-09-28'
-    - acquiree: Abakus
-      date: '2016-12-14'
-    - acquiree: Gigya
-      date: '2017-09-24'
-      price: 350000000
-    - acquiree: Recast.AI
-      date: '2018-01-22'
-    - acquiree: CallidusCloud
-      date: '2018-01-29'
-      price: 2400000000
-    - acquiree: Coresystems
-      date: '2018-06-05'
-    - acquiree: Qualtrics
-      date: '2018-11-10'
-      price: 8000000000
-    - acquiree: Contextor
-      date: '2018-11-19'
-    - acquiree: Emarsys
-      date: '2020-10-01'
-    - acquiree: Signavio
-      date: '2021-01-27'
-    - acquiree: AppGyver
-      date: '2021-02-11'
-    - acquiree: SwoopTalent
-      date: '2021-08-16'
-    - acquiree: Taulia
-      date: '2022-01-27'
-    - acquiree: Askdata
-      date: '2022-07-21'
-    city: Walldorf
-    company_type: For Profit
-    country: Germany
-    description: SAP is a technology company that develops enterprise application
-      software for companies and industries across diverse sectors.
-    funding: 1301371240
-    homepage: https://www.sap.com/
-    industries:
-    - Analytics
-    - Business Intelligence
-    - Computer
-    - Finance
-    - Software
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/sap
-    name: SAP
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents: []
-    region: Baden-Wurttemberg
-    stockExchange: nyse
-    ticker: SAP
-    twitter: http://twitter.com/SAP
+  logo: samsung-cloud.svg
+  name: Samsung Kubernetes Engine (SKE)
+- crunchbase: https://www.crunchbase.com/organization/sap
   description: The Gardener implements automated management and operation of Kubernetes
     clusters as a service and aims to support that service on multiple Cloud providers.
   homepage_url: https://www.sap.com/products/cloud-platform.html
-  image_data:
-    fileName: sap-certified-gardener.svg
-    hash: q7TvKqNXzHbc9QDaat+tDhVxotMlacAmSQ3PFvdrheM=
   item: null
   logo: sap.svg
   name: SAP Certified Gardener
-  twitter_data:
-    latest_tweet_date: 2022-08-05 21:17:51+00:00
-  yahoo_finance_data:
-    effective_ticker: SAP
-    market_cap: 110597373952
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/scaleway
-  crunchbase_data:
-    acquisitions: []
-    city: Paris
-    company_type: For Profit
-    country: France
-    description: Scaleway is a cloud solution provider based in Europe, featuring
-      a complete range of products from baremetal to serverless
-    homepage: https://scaleway.com/
-    industries:
-    - Cloud Computing
-    - IaaS
-    - Information Technology
-    - Internet
-    - Software
-    - Web Hosting
-    linkedin: https://www.linkedin.com/company/scaleway
-    name: Scaleway
-    num_employees_max: 1000
-    num_employees_min: 501
-    parents: []
-    region: Ile-de-France
-    stockExchange: null
-    twitter: https://twitter.com/scaleway
+- crunchbase: https://www.crunchbase.com/organization/scaleway
   description: Kubernetes Kapsule provides a simple way to deploy and manage your
     containerized applications in the cloud. Relax and focus on your software stack
     while we take care of your clusters.
   homepage_url: https://www.scaleway.com/en/betas/
-  image_data:
-    fileName: scaleway-kubernetes-kapsule.svg
-    hash: k+ZLvVJBQzKrYQnJJ/xYDsdqZeLFUVSpSszejNeH+2E=
   item: null
   logo: scaleway.svg
   name: Scaleway Kubernetes Kapsule
-  twitter_data:
-    latest_tweet_date: 2022-08-04 08:06:56+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/schwarz-dienstleistungen
-  crunchbase_data:
-    acquisitions: []
-    city: Neckarsulm
-    company_type: For Profit
-    country: Germany
-    description: "STACKIT is the digital brand of Schwarz IT and thus part of the\
-      \ IT organization of Europe\u2019s biggest retail group. (Lidl, Kaufland, PreZero)"
-    homepage: https://stackit.de/de/
-    industries:
-    - Information Technology
-    linkedin: https://www.linkedin.com/company/stackit-colocation/mycompany/?viewAsMember=true
-    name: STACKIT (Schwarz IT KG)
-    num_employees_max: 5000
-    num_employees_min: 1001
-    parents: []
-    region: Baden-Wurttemberg
-    stockExchange: null
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/schwarz-dienstleistungen
   description: STACKIT Kubernetes Engine (SKE) is a fully managed and scalable Kubernetes
     service for the deployment and management of Kubernetes  clusters and containerized
     applications.
   homepage_url: https://www.stackit.de/de/
-  image_data:
-    fileName: stackit-kubernetes-engine.svg
-    hash: vSIHb5mV2KTKLfw4duQ2/s4uEWnXMdMs0pgEAFS/FJ8=
   item: null
   logo: stackit.svg
   name: STACKIT Kubernetes Engine
+- crunchbase: https://www.crunchbase.com/organization/open-infrastructure-foundation
+  description: StarlingX is a fully integrated open source edge platform that integrates
+    OpenStack and Kubernetes together to provide all functionality needed in the central
+    cloud and on the edge sites. The project is developed by the StarlingX community.
+  homepage_url: https://www.starlingx.io
+  item: null
+  logo: starlingx.svg
+  name: StarlingX
+  repo_url: https://github.com/starlingx/config
+- crunchbase: https://www.crunchbase.com/organization/swisscom
+  description: "Kubernetes Service is a managed Kubernetes offering in Swisscom\u2019\
+    s Private Cloud, based on open-source technology and CNCF tools."
+  homepage_url: https://www.swisscom.ch/en/business/enterprise/offer/cloud/cloudnative/container-services.html
+  item: null
+  logo: swisscom.svg
+  name: Swisscom Kubernetes Service
+- crunchbase: https://www.crunchbase.com/organization/switch-4
+  description: Switch Cloud Kubernetes (SCK) is a Kubernetes as a Service platform
+    for the education, research and innovation landscape in Switzerland.
+  homepage_url: https://www.switch.ch/en/competencies/cloud
+  item: null
+  logo: switch.svg
+  name: Switch Cloud Kubernetes (SCK)
+- crunchbase: https://www.crunchbase.com/organization/syseleven
+  description: MetaKube offers carefree Multi Cloud Kubernetes as a Service on OpenStack
+    Cloud, Amazon Web Services (AWS) and On-Premises. We provide you with SaaS solutions
+    like a load balancer as well as solutions for backup and recovery, monitoring,
+    etc., and various types of support - detailed documentation, tutorials and personal
+    SRE-Support.
+  homepage_url: https://metakube.syseleven.de
+  item: null
+  logo: syseleven.svg
+  name: SysEleven MetaKube

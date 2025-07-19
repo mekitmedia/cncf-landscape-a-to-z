@@ -1,176 +1,19 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/pulumi-corporation
-  crunchbase_data:
-    acquisitions: []
-    city: Seattle
-    company_type: For Profit
-    country: United States
-    description: Pulumi is a  Seattle-based cloud engineering company that offers
-      a way to build, connect, and run modern cloud applications.
-    funding: 57500000
-    homepage: https://www.pulumi.com
-    industries:
-    - Cloud Computing
-    - Computer
-    - SaaS
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/pulumi
-    name: Pulumi
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Washington
-    stockExchange: null
-    twitter: https://twitter.com/pulumicorp
-  github_data:
-    contributions: 20;19;48;30;20;11;29;30;26;17;13;18;14;21;27;15;15;18;13;8;13;15;33;29;29;38;9;14;9;33;51;39;24;13;14;17;24;17;52;10;22;30;29;29;25;25;37;11;36;33;34;3
-    contributors_count: 182
-    contributors_link: https://github.com/pulumi/pulumi/graphs/contributors
-    description: "Pulumi - Universal Infrastructure as Code. Your Cloud, Your Language,\
-      \ Your Way \U0001F680"
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 6393584
-    - color: '#2b7489'
-      name: TypeScript
-      value: 1263839
-    - color: '#3572A5'
-      name: Python
-      value: 1106605
-    - color: '#178600'
-      name: C#
-      value: 899763
-    - color: '#f1e05a'
-      name: JavaScript
-      value: 701019
-    - color: '#427819'
-      name: Makefile
-      value: 31906
-    - color: '#89e051'
-      name: Shell
-      value: 29953
-    - color: '#b845fc'
-      name: F#
-      value: 6098
-    - color: '#384d54'
-      name: Dockerfile
-      value: 4543
-    - color: '#C1F12E'
-      name: Batchfile
-      value: 1936
-    - color: '#6E4C13'
-      name: Assembly
-      value: 817
-    latest_commit_date: '2022-08-04T12:46:55Z'
-    latest_commit_link: /pulumi/pulumi/commit/f2a3c417b7fa2ec6cebae19c33dee588b0c5fd51
-    license: Apache License 2.0
-    release_date: '2022-07-30T01:23:08Z'
-    release_link: https://github.com/pulumi/pulumi/releases
-    stars: 13255
-  github_start_commit_data:
-    start_commit_link: /pulumi/pulumi/commit/86f6117640ebaaffb8689e241a668218b24f4690
-    start_date: '2016-10-08T23:01:25Z'
+- crunchbase: https://www.crunchbase.com/organization/vshn-ag
+  homepage_url: https://syn.tools/
+  item: null
+  logo: projectsyn.svg
+  name: Project Syn
+  repo_url: https://github.com/projectsyn/commodore
+- crunchbase: https://www.crunchbase.com/organization/pulumi-corporation
   homepage_url: https://www.pulumi.com/
-  image_data:
-    fileName: pulumi.svg
-    hash: +HekUEmVeIgeGKPyVY0p3kv2Pdi97GCqBtRi59s+QMA=
   item: null
   logo: pulumi.svg
   name: Pulumi
   repo_url: https://github.com/pulumi/pulumi
-  repos:
-  - stars: 13255
-    url: https://github.com/pulumi/pulumi
   twitter: https://twitter.com/PulumiCorp
-  twitter_data:
-    latest_tweet_date: 2022-08-05 20:00:35+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/puppet-labs
-  crunchbase_data:
-    acquisitions:
-    - acquiree: The Marionette Collective
-      date: '2010-10-07'
-    - acquiree: Cloudsmith
-      date: '2013-07-17'
-    - acquiree: Distelli
-      date: '2017-09-20'
-    - acquiree: Reflect
-      date: '2018-06-07'
-    city: Portland
-    company_type: For Profit
-    country: United States
-    description: Puppet is an information technology automation software company designed
-      for system administrators.
-    funding: 189500000
-    homepage: https://puppet.com/
-    industries:
-    - Application Performance Management
-    - Data Center Automation
-    - IT Infrastructure
-    - Information Services
-    - Information Technology
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/puppet/
-    name: Puppet
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: Oregon
-    stockExchange: null
-    twitter: https://twitter.com/puppetize
-  github_data:
-    contributions: 15;15;16;24;29;17;3;25;24;20;10;20;19;14;16;4;17;9;17;6;0;19;16;4;6;0;9;8;7;10;9;11;0;12;3;8;7;4;7;5;9;0;0;1;4;2;10;5;6;4;0;2
-    contributors_count: 807
-    contributors_link: https://github.com/puppetlabs/puppet/graphs/contributors
-    description: Server automation framework and application
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#701516'
-      name: Ruby
-      value: 12728022
-    - color: '#e34c26'
-      name: HTML
-      value: 23787
-    - color: '#302B6D'
-      name: Puppet
-      value: 20124
-    - color: '#89e051'
-      name: Shell
-      value: 12321
-    - color: '#178600'
-      name: C#
-      value: 5195
-    - color: '#E3F171'
-      name: Pascal
-      value: 993
-    - color: '#C1F12E'
-      name: Batchfile
-      value: 594
-    latest_commit_date: '2022-08-02T19:10:35Z'
-    latest_commit_link: /puppetlabs/puppet/commit/13188f1cb4bbc241e579fe0668441f3a09c1796f
-    license: Apache License 2.0
-    stars: 6635
-  github_start_commit_data:
-    start_commit_link: /puppetlabs/puppet/commit/54e9b5e3561977ea063417da12c46aad2a4c1332
-    start_date: '2005-04-13T15:18:05Z'
+- crunchbase: https://www.crunchbase.com/organization/puppet-labs
   homepage_url: https://puppet.com/
-  image_data:
-    fileName: puppet.svg
-    hash: Znovog0WY2aZOKG1kkABO8naIc12UOXs/ETAizezdiQ=
   item: null
   logo: puppet.svg
   name: Puppet
   repo_url: https://github.com/puppetlabs/puppet
-  repos:
-  - stars: 6635
-    url: https://github.com/puppetlabs/puppet
-  twitter_data:
-    latest_tweet_date: 2022-08-03 21:35:02+00:00

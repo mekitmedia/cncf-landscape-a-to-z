@@ -1,254 +1,45 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/fairwinds
-  crunchbase_data:
-    acquisitions: []
-    city: Boston
-    company_type: For Profit
-    country: United States
-    description: Kubernetes security, policy and compliance experts
-    homepage: https://www.fairwinds.com/
-    industries:
-    - Cloud Computing
-    - Cloud Security
-    - Developer Tools
-    - Information Technology
-    - Software
-    - Subscription Service
-    linkedin: https://www.linkedin.com/company/fairwinds/
-    name: Fairwinds
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Massachusetts
-    stockExchange: null
-    twitter: https://twitter.com/fairwindsops
-  github_data:
-    contributions: 0;0;0;2;0;1;2;3;0;0;1;1;0;3;0;1;0;1;0;0;2;1;17;0;0;0;3;6;2;1;0;0;1;0;1;0;0;4;0;0;0;0;2;0;2;0;1;1;1;0;0;0
-    contributors_count: 17
-    contributors_link: https://github.com/FairwindsOps/rbac-lookup/graphs/contributors
-    description: Easily find roles and cluster roles attached to any user, service
-      account, or group name in your Kubernetes cluster
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 31243
-    - color: '#427819'
-      name: Makefile
-      value: 825
-    - color: '#89e051'
-      name: Shell
-      value: 596
-    latest_commit_date: '2022-07-11T20:39:45Z'
-    latest_commit_link: /FairwindsOps/rbac-lookup/commit/49dd02202cee4795d2a5358da2d769923c760ae2
-    license: Apache License 2.0
-    release_date: '2022-07-06T16:41:49Z'
-    release_link: https://github.com/FairwindsOps/rbac-lookup/releases
-    stars: 641
-  github_start_commit_data:
-    start_commit_link: /FairwindsOps/rbac-lookup/commit/049ed8dbe4590203179b8d5b10d6805bbe1c925c
-    start_date: '2018-07-27T02:12:18Z'
+- crunchbase: https://www.crunchbase.com/organization/ksoc-labs-inc
+  description: RAD Security maps a broad set of cluster components across the Kubernetes
+    lifecycle  using a real-time graph, cutting noise in half through contextualized
+    risks, highest impact remediations and Kubernetes-first  incident response.
+  homepage_url: https://rad.security/
+  item: null
+  logo: rad-security.svg
+  name: RAD Security
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: A verification engine on Kubernetes which enables verification of artifact
+    security metadata and admits for deployment only those that comply with policies
+    you create.
+  extra:
+    accepted: '2024-08-30'
+    clomonitor_name: ratify
+    dev_stats_url: https://ratify.devstats.cncf.io/
+  homepage_url: https://ratify.dev/
+  item: null
+  logo: ratify.svg
+  name: Ratify
+  project: sandbox
+  repo_url: https://github.com/ratify-project/ratify
+  twitter: https://twitter.com/artifact_ratify
+- crunchbase: https://www.crunchbase.com/organization/fairwinds
   homepage_url: https://www.fairwinds.com/open-source-software
-  image_data:
-    fileName: rbac-lookup.svg
-    hash: a9YDsbsPrw264P2tF+9qZ/siOcEq4VFCIUwkMubeC6I=
   item: null
   logo: rbac-lookup.svg
   name: RBAC Lookup
   repo_url: https://github.com/FairwindsOps/rbac-lookup
-  repos:
-  - stars: 641
-    url: https://github.com/FairwindsOps/rbac-lookup
-  twitter_data:
-    latest_tweet_date: 2022-08-04 20:26:50+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/fairwinds
-  crunchbase_data:
-    acquisitions: []
-    city: Boston
-    company_type: For Profit
-    country: United States
-    description: Kubernetes security, policy and compliance experts
-    homepage: https://www.fairwinds.com/
-    industries:
-    - Cloud Computing
-    - Cloud Security
-    - Developer Tools
-    - Information Technology
-    - Software
-    - Subscription Service
-    linkedin: https://www.linkedin.com/company/fairwinds/
-    name: Fairwinds
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Massachusetts
-    stockExchange: null
-    twitter: https://twitter.com/fairwindsops
-  github_data:
-    contributions: 0;0;0;2;0;1;2;5;0;0;0;1;0;2;0;0;0;0;0;0;0;0;16;1;0;0;0;7;1;1;1;0;1;0;1;0;0;2;0;0;1;0;1;0;2;2;2;1;2;0;2;2
-    contributors_count: 26
-    contributors_link: https://github.com/FairwindsOps/rbac-manager/graphs/contributors
-    description: A Kubernetes operator that simplifies the management of Role Bindings
-      and Service Accounts.
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 90253
-    - color: '#89e051'
-      name: Shell
-      value: 2697
-    - color: '#427819'
-      name: Makefile
-      value: 654
-    - color: '#384d54'
-      name: Dockerfile
-      value: 130
-    latest_commit_date: '2022-08-03T18:57:28Z'
-    latest_commit_link: /FairwindsOps/rbac-manager/commit/07d139b84ddec264f8a30677c35aa12c29800fcf
-    license: Apache License 2.0
-    release_date: '2022-08-03T18:28:59Z'
-    release_link: https://github.com/FairwindsOps/rbac-manager/releases
-    stars: 1087
-  github_start_commit_data:
-    start_commit_link: /FairwindsOps/rbac-manager/commit/78d99f1430a33230fc14d6a8bd571b173528857e
-    start_date: '2018-03-13T13:58:00Z'
+- crunchbase: https://www.crunchbase.com/organization/fairwinds
   homepage_url: https://www.fairwinds.com/open-source-software
-  image_data:
-    fileName: rbac-manager.svg
-    hash: FvixTKPl9y0JtfSow0DITE3xef+8pou4DwDRF95F/yk=
   item: null
   logo: rbac-manager.svg
   name: RBAC Manager
   repo_url: https://github.com/FairwindsOps/rbac-manager
-  repos:
-  - stars: 1087
-    url: https://github.com/FairwindsOps/rbac-manager
-  twitter_data:
-    latest_tweet_date: 2022-08-04 20:26:50+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/normation
-  crunchbase_data:
-    acquisitions: []
-    city: Paris
-    company_type: For Profit
-    country: France
-    description: Continuous Configuration & Auditing. Automation to measure and/or
-      correct configuration drift on Linux/Windows/AIX.
-    homepage: https://www.rudder.io
-    industries:
-    - Cloud Infrastructure
-    - Cloud Security
-    - Consulting
-    - Cyber Security
-    - Data Center Automation
-    - IT Management
-    - Information Technology
-    - Software
-    linkedin: https://www.linkedin.com/company/807779
-    name: Rudder (Normation)
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Ile-de-France
-    stockExchange: null
-    twitter: https://twitter.com/rudderio
+- crunchbase: https://www.crunchbase.com/organization/normation
   extra:
     artwork_url: https://github.com/Normation/rudder/tree/master/logo
     blog_url: https://www.rudder.io/blog/
     youtube_url: https://www.youtube.com/user/RudderProject
-  github_data:
-    contributions: 30;50;35;53;24;22;11;25;41;40;50;32;23;32;29;42;52;33;63;24;22;45;37;57;33;31;29;24;42;14;23;38;8;16;45;6;26;16;30;38;45;44;26;19;45;30;29;15;11;97;56;56
-    contributors_count: 44
-    contributors_link: https://github.com/normation/rudder/graphs/contributors
-    description: Rudder is a configuration and security automation platform. Manage
-      your Cloud, hybrid or on-premises infrastructure in a simple, scalable and dynamic
-      way.
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#c22d40'
-      name: Scala
-      value: 7475018
-    - color: '#dea584'
-      name: Rust
-      value: 892857
-    - color: '#60B5CC'
-      name: Elm
-      value: 458714
-    - color: '#3572A5'
-      name: Python
-      value: 451891
-    - color: '#563d7c'
-      name: CSS
-      value: 449490
-    - color: '#e34c26'
-      name: HTML
-      value: 385548
-    - color: '#596706'
-      name: Smalltalk
-      value: 237111
-    - color: '#f1e05a'
-      name: JavaScript
-      value: 231598
-    - color: '#89e051'
-      name: Shell
-      value: 105805
-    - color: '#b07219'
-      name: Java
-      value: 61803
-    - color: '#012456'
-      name: PowerShell
-      value: 37185
-    - name: StringTemplate
-      value: 36379
-    - color: '#198CE7'
-      name: R
-      value: 24013
-    - color: '#0298c3'
-      name: Perl
-      value: 23624
-    - name: Smarty
-      value: 14507
-    - color: '#427819'
-      name: Makefile
-      value: 13853
-    - name: GAP
-      value: 12613
-    - color: '#384d54'
-      name: Dockerfile
-      value: 10875
-    - name: Mustache
-      value: 7205
-    - name: PLpgSQL
-      value: 1238
-    - name: HCL
-      value: 975
-    - name: Jinja
-      value: 17
-    latest_commit_date: '2022-08-05T14:57:14Z'
-    latest_commit_link: /Normation/rudder/commit/01e69e866dc1e96d019ffed6c098464fb9f61222
-    license: GNU General Public License v3.0
-    stars: 375
-  github_start_commit_data:
-    start_commit_link: /Normation/rudder/commit/591cb02a010743242a33e182f95a57f251821023
-    start_date: '2011-10-06T20:16:03Z'
   homepage_url: https://www.rudder.io/
-  image_data:
-    fileName: rudder.svg
-    hash: i0k/IvYXBY4+SI4VSNj5OfHIrD25RcYZbcnw+a+0UT8=
   item: null
   logo: rudder.svg
   name: Rudder
   repo_url: https://github.com/normation/rudder
-  repos:
-  - stars: 375
-    url: https://github.com/normation/rudder
-  twitter_data:
-    latest_tweet_date: 2022-08-03 11:37:35+00:00

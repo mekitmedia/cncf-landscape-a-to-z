@@ -1,763 +1,148 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/capsule8
-  crunchbase_data:
-    acquisitions: []
-    city: Brooklyn
-    company_type: For Profit
-    country: United States
-    description: "High-performance attack protection for Linux production environments\
-      \ \u2013 whether containerized, virtualized, or bare-metal, on-prem or cloud"
-    funding: 30000000
-    homepage: http://capsule8.com
-    industries:
-    - Information Services
-    - Information Technology
-    - Linux
-    - Security
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/capsule8
-    name: Capsule8
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: New York
-    stockExchange: null
-    twitter: https://twitter.com/capsule8
+- crunchbase: https://www.crunchbase.com/organization/capsule8
   homepage_url: https://capsule8.com/
-  image_data:
-    fileName: capsule8.svg
-    hash: maqA+roq0NPLB2q443jURnROVKHszoHICiwcp8/alEk=
   item: null
   logo: capsule8.svg
   name: Capsule8
-  twitter_data:
-    latest_tweet_date: 2021-07-07 13:07:17+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cerbos
-  crunchbase_data:
-    acquisitions: []
-    city: London
-    company_type: For Profit
-    country: United Kingdom
-    description: Cerbos is a software company that makes user permissions and authorization
-      simple to implement and manage.
-    funding: 3496587
-    homepage: https://cerbos.dev
-    industries:
-    - Developer Tools
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cerbos-dev
-    name: Cerbos
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: England
-    stockExchange: null
-    twitter: https://twitter.com/cerbosdev
-  github_data:
-    contributions: 4;15;10;10;4;10;21;13;8;13;17;22;11;11;12;6;4;9;17;13;7;5;19;14;15;17;11;12;25;17;20;21;21;21;21;13;15;16;11;22;8;21;10;19;32;9;15;6;13;8;9;20
-    contributors_count: 13
-    contributors_link: https://github.com/cerbos/cerbos/graphs/contributors
-    description: Cerbos is the open core, language-agnostic, scalable authorization
-      solution that makes user permissions and authorization simple to implement and
-      manage by writing context-aware access control policies for your application
-      resources.
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 1097239
-    - name: Smarty
-      value: 28935
-    - color: '#427819'
-      name: Makefile
-      value: 19085
-    - color: '#89e051'
-      name: Shell
-      value: 13376
-    - name: TSQL
-      value: 3388
-    - name: PLpgSQL
-      value: 2799
-    - color: '#f1e05a'
-      name: JavaScript
-      value: 2761
-    - color: '#e34c26'
-      name: HTML
-      value: 466
-    latest_commit_date: '2022-08-05T17:00:41Z'
-    latest_commit_link: /cerbos/cerbos/commit/36f4de0e604007e34a194e3515d3afebfb6d1520
-    license: Apache License 2.0
-    release_date: '2022-07-01T08:17:13Z'
-    release_link: https://github.com/cerbos/cerbos/releases
-    stars: 549
-  github_start_commit_data:
-    start_commit_link: /cerbos/cerbos/commit/87dac6325febd77e12b858d40f5b1b48e2b7b0bb
-    start_date: '2021-01-31T13:47:12Z'
+- branch: master
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Cartography is a Python tool that consolidates infrastructure assets
+    and the relationships between them in an intuitive graph view.
+  extra:
+    accepted: '2024-08-23'
+    clomonitor_name: cartography
+    dev_stats_url: https://cartography.devstats.cncf.io/
+  homepage_url: https://cartography.dev
+  item: null
+  logo: cartography.svg
+  name: Cartography
+  project: sandbox
+  repo_url: https://github.com/cartography-cncf/cartography
+- crunchbase: https://www.crunchbase.com/organization/cerbos
   homepage_url: https://www.cerbos.dev/
-  image_data:
-    fileName: cerbos.svg
-    hash: gJmeevfiqYa8J5OUf2RWvYIwO2gt3PBpw0oE64t449c=
   item: null
   logo: cerbos.svg
   name: Cerbos
   repo_url: https://github.com/cerbos/cerbos
-  repos:
-  - stars: 549
-    url: https://github.com/cerbos/cerbos
-  twitter: https://twitter.com/cerbosdev
-  twitter_data:
-    latest_tweet_date: 2022-08-05 07:00:40+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/check-point
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Zone Labs
-      date: '2003-12-15'
-      price: 205000000
-    - acquiree: Sourcefire
-      date: '2005-10-10'
-    - acquiree: PointSec
-      date: '2006-11-20'
-      price: 586000000
-    - acquiree: NFR Security
-      date: '2006-12-19'
-      price: 20000000
-    - acquiree: Nokia Security Appliances
-      date: '2009-04-16'
-    - acquiree: FaceTime Communications, Inc
-      date: '2009-11-23'
-    - acquiree: Liquid Machines
-      date: '2010-06-09'
-    - acquiree: easy2comply (Dynasec)
-      date: '2011-11-01'
-    - acquiree: SofaWare
-      date: '2013-11-10'
-    - acquiree: Hyperwise
-      date: '2015-02-18'
-      price: 80000000
-    - acquiree: Lacoon Mobile Security
-      date: '2015-04-02'
-    - acquiree: Dome9 Security
-      date: '2018-10-24'
-      price: 175000000
-    - acquiree: ForceNock
-      date: '2019-01-14'
-    - acquiree: Cymplify
-      date: '2019-11-14'
-    - acquiree: Protego Labs
-      date: '2019-12-02'
-    - acquiree: Odo Security
-      date: '2020-09-16'
-    - acquiree: Avanan
-      date: '2021-08-30'
-    city: Tel Aviv
-    company_type: For Profit
-    country: Israel
-    description: Check Point Software Technologies provides and protects customers
-      from cyberattacks.
-    funding: 0
-    homepage: http://www.checkpoint.com
-    industries:
-    - Cyber Security
-    - Hardware
-    - IT Management
-    - Network Security
-    - Software
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/check-point-software-technologies
-    name: Check Point Software Technologies
-    num_employees_max: 10000
-    num_employees_min: 5001
-    parents: []
-    region: Tel Aviv
-    stockExchange: nasdaq
-    ticker: CHKP
-    twitter: http://twitter.com/checkpointsw
+- crunchbase: https://www.crunchbase.com/organization/chaitin-tech
+  homepage_url: https://www.chaitin.cn/en/
+  item: null
+  logo: ChaitinTech LOGO.svg
+  name: Chaitin Tech
+- crunchbase: https://www.crunchbase.com/organization/check-point
   description: Check Point Software Technologies Ltd. is a leading provider of cyber
     security solutions to corporate enterprises and governments globally. Check Point
     protects over 100,000 organizations of all sizes.
   homepage_url: https://www.checkpoint.com
-  image_data:
-    fileName: check-point.svg
-    hash: n9a8Ha5ACUsJE0st/zDU12qF5bbvdiMb3gSgsspH9zA=
   item: null
   logo: checkpoint.svg
   name: Check Point
   twitter: https://twitter.com/CheckPointSW
-  twitter_data:
-    latest_tweet_date: 2022-08-05 13:37:31+00:00
-  yahoo_finance_data:
-    effective_ticker: CHKP
-    market_cap: 14962786304
-- best_practice_data:
-    badge: 4560
-    percentage: 16
-  crunchbase: https://www.crunchbase.com/organization/bridgecrew
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Bridgecrew
-      date: '2021-02-16'
-      price: 156000000
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: Bridgecrew is a developer of a codified cloud security platform used
-      to help organizations deploy cloud security engineering.
-    funding: 18100000
-    homepage: https://bridgecrew.io
-    industries:
-    - Cloud Data Services
-    - Cloud Security
-    - Cyber Security
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/bridgecrew
-    name: Bridgecrew
-    num_employees_max: 50
-    num_employees_min: 11
-    parents:
-    - https://www.crunchbase.com/organization/prisma-cloud
-    - https://www.crunchbase.com/organization/palo-alto-networks
-    region: California
-    stockExchange: null
-    ticker: PANW
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/bridgecrew
   description: Checkov scans cloud infrastructure configurations to find misconfigurations
     before they are deployed. Checkov manages and analyzes infrastructure as code
     (IaC) scan results across platforms such as Terraform, CloudFormation, Kubernetes,
     Helm, ARM Templates and Serverless framework.
-  github_data:
-    contributions: 82;135;95;177;66;123;158;145;132;83;106;163;129;152;163;95;144;95;64;61;43;27;54;76;124;62;149;197;126;59;67;148;97;139;116;143;64;141;101;81;26;94;86;72;28;95;63;124;125;47;72;177
-    contributors_count: 252
-    contributors_link: https://github.com/bridgecrewio/checkov/graphs/contributors
-    description: Prevent cloud misconfigurations and find vulnerabilities during build-time
-      in infrastructure as code, container images and open source packages with Checkov
-      by Bridgecrew.
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#3572A5'
-      name: Python
-      value: 5381575
-    - name: HCL
-      value: 1415712
-    - name: Bicep
-      value: 24757
-    - color: '#89e051'
-      name: Shell
-      value: 19252
-    - color: '#384d54'
-      name: Dockerfile
-      value: 6766
-    - name: Jinja
-      value: 4953
-    - color: '#C1F12E'
-      name: Batchfile
-      value: 943
-    - name: Smarty
-      value: 297
-    - color: '#2b7489'
-      name: TypeScript
-      value: 204
-    latest_commit_date: '2022-08-05T14:08:03Z'
-    latest_commit_link: /bridgecrewio/checkov/commit/a0f37471bc049addfd7932dc2bcfd34c0447ec47
-    license: Apache License 2.0
-    release_date: '2022-08-05T07:45:42Z'
-    release_link: https://github.com/bridgecrewio/checkov/releases
-    stars: 4490
-  github_start_commit_data:
-    start_commit_link: /bridgecrewio/checkov/commit/d6dd1dfe19dd4a3fab7eba7a6ce51ff05fef711e
-    start_date: '2019-11-27T09:31:13Z'
   homepage_url: https://www.checkov.io/
-  image_data:
-    fileName: checkov.svg
-    hash: pwsRcsx8zZZJd+x1neTjJBxHSeUsbmb36w5+W3a9zhg=
   item: null
   logo: checkov.svg
   name: Checkov
   repo_url: https://github.com/bridgecrewio/checkov
-  repos:
-  - stars: 4490
-    url: https://github.com/bridgecrewio/checkov
-  yahoo_finance_data:
-    effective_ticker: PANW
-    market_cap: 49954201600
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/chef
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Tower3
-      date: '2014-07-15'
-    - acquiree: VulcanoSec
-      date: '2015-11-03'
-    city: Seattle
-    company_type: For Profit
-    country: United States
-    description: Chef is a continuous automation platform powered by community and
-      open source software engines.
-    funding: 105000000
-    homepage: https://www.chef.io/
-    industries:
-    - Cloud Computing
-    - Information Technology
-    - Infrastructure
-    - SaaS
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/chef-software/
-    name: Chef Software
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: Washington
-    stockExchange: null
-    twitter: https://twitter.com/chef
-  github_data:
-    contributions: 15;19;17;40;33;29;13;38;23;14;8;7;1;4;19;36;15;19;24;13;7;4;25;21;3;17;39;42;47;78;83;21;70;30;33;33;38;29;59;23;22;10;69;60;11;20;35;8;15;6;4;7
-    contributors_count: 381
-    contributors_link: https://github.com/inspec/inspec/graphs/contributors
-    description: 'InSpec: Auditing and Testing Framework'
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#701516'
-      name: Ruby
-      value: 2610498
-    - color: '#e34c26'
-      name: HTML
-      value: 52955
-    - color: '#89e051'
-      name: Shell
-      value: 18007
-    - color: '#012456'
-      name: PowerShell
-      value: 6577
-    - color: '#f1e05a'
-      name: JavaScript
-      value: 2427
-    - color: '#563d7c'
-      name: CSS
-      value: 2122
-    - color: '#427819'
-      name: Makefile
-      value: 1227
-    - color: '#384d54'
-      name: Dockerfile
-      value: 1037
-    - name: Mustache
-      value: 694
-    - color: '#00ADD8'
-      name: Go
-      value: 99
-    latest_commit_date: '2022-08-04T13:18:01Z'
-    latest_commit_link: /inspec/inspec/commit/61798ca38390ae3d432c3814a9d17174dc68db24
-    license: Other
-    release_date: '2022-07-13T17:12:53Z'
-    release_link: https://github.com/inspec/inspec/releases
-    stars: 2539
-  github_start_commit_data:
-    start_commit_link: /inspec/inspec/commit/8d7ee7143746486d71ba3618d067deab3832668f
-    start_date: '2015-04-09T15:34:05Z'
+- crunchbase: https://www.crunchbase.com/organization/chef
   homepage_url: https://community.chef.io/tools/chef-inspec
-  image_data:
-    fileName: chef-in-spec.svg
-    hash: l5+9IP0sYErRFmIG7Rl/+cYcZry+zNEWYQuddjTjKkg=
   item: null
   logo: chef_inspec.svg
   name: Chef InSpec
   repo_url: https://github.com/inspec/inspec
-  repos:
-  - stars: 2539
-    url: https://github.com/inspec/inspec
-  twitter_data:
-    latest_tweet_date: 2022-08-05 16:00:27+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/red-hat
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Akopia
-      date: '2001-01-31'
-    - acquiree: NOCpulse
-      date: '2002-10-07'
-    - acquiree: Sistina Software
-      date: '2003-12-18'
-      price: 31000000
-    - acquiree: JBoss
-      date: '2004-02-20'
-      price: 350000000
-    - acquiree: MetaMatrix
-      date: '2007-06-02'
-    - acquiree: Amentra
-      date: '2008-03-14'
-    - acquiree: Identyx
-      date: '2008-06-19'
-    - acquiree: Qumranet
-      date: '2008-09-04'
-    - acquiree: Makara
-      date: '2010-11-30'
-    - acquiree: Gluster
-      date: '2011-10-04'
-      price: 136000000
-    - acquiree: FuseSource
-      date: '2012-06-27'
-    - acquiree: Polymita Technologies
-      date: '2012-08-28'
-    - acquiree: BPM Technology
-      date: '2012-08-29'
-    - acquiree: ManageIQ
-      date: '2012-12-22'
-    - acquiree: Inktank
-      date: '2014-04-30'
-      price: 175000000
-    - acquiree: eNovance
-      date: '2014-06-18'
-      price: 95074205
-    - acquiree: FeedHenry
-      date: '2014-09-18'
-      price: 82000000
-    - acquiree: Red Hat Ansible
-      date: '2015-10-16'
-      price: 150000000
-    - acquiree: 3scale
-      date: '2016-06-22'
-    - acquiree: Codenvy
-      date: '2017-05-25'
-    - acquiree: Permabit Technology Corporation
-      date: '2017-07-31'
-    - acquiree: CoreOS
-      date: '2018-01-30'
-      price: 250000000
-    - acquiree: NooBaa
-      date: '2018-11-27'
-    - acquiree: StackRox
-      date: '2021-01-07'
-    city: Raleigh
-    company_type: For Profit
-    country: United States
-    description: Red Hat is a multinational software company engaged in providing
-      open-source software products to the enterprise community.
-    funding: 0
-    homepage: http://www.redhat.com
-    industries:
-    - Enterprise Software
-    - Linux
-    - Open Source
-    - Operating Systems
-    - Software
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/red-hat
-    name: Red Hat
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents:
-    - https://www.crunchbase.com/organization/ibm
-    region: North Carolina
-    stockExchange: nyse
-    ticker: IBM
-    twitter: http://twitter.com/redhat
-  github_data:
-    contributions: 5;1;1;7;2;10;8;12;1;13;7;6;15;3;2;5;1;3;1;0;0;1;9;2;4;16;1;2;8;13;1;6;13;0;1;5;0;1;1;5;3;6;0;4;0;0;5;5;0;3;1;2
-    contributors_count: 132
-    contributors_link: https://github.com/quay/clair/graphs/contributors
-    description: Vulnerability Static Analysis for Containers
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 396941
-    - color: '#427819'
-      name: Makefile
-      value: 2908
-    - color: '#384d54'
-      name: Dockerfile
-      value: 1465
-    - color: '#89e051'
-      name: Shell
-      value: 1226
-    - name: Smarty
-      value: 447
-    latest_commit_date: '2022-08-02T18:19:51Z'
-    latest_commit_link: /quay/clair/commit/9612ee675ce9ce5db35c596c82a27057e322099e
-    license: Apache License 2.0
-    release_date: '2022-06-09T20:18:49Z'
-    release_link: https://github.com/quay/clair/releases
-    stars: 8954
-  github_start_commit_data:
-    start_commit_link: /coreos/clair/commit/3ec262dd51466100b44910b60308e46b00f2a097
-    start_date: '2015-11-13T19:11:28Z'
+- crunchbase: https://www.crunchbase.com/organization/red-hat
   homepage_url: https://www.redhat.com/en/topics/containers/what-is-clair
-  image_data:
-    fileName: clair.svg
-    hash: b4ZktAQ8mNMk3D3CUD8HWMa1Qh7Xxi4/yIhuXPmpMhA=
   item: null
   logo: clair.svg
   name: Clair
   repo_url: https://github.com/quay/clair
-  repos:
-  - stars: 8954
-    url: https://github.com/quay/clair
   twitter: https://twitter.com/coreos
-  twitter_data:
-    latest_tweet_date: 2021-02-23 00:18:53+00:00
-  yahoo_finance_data:
-    effective_ticker: IBM
-    market_cap: 118744473600
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloudmatos
-  crunchbase_data:
-    acquisitions: []
-    city: Livermore
-    company_type: For Profit
-    country: United States
-    description: CloudMatos specializes in cloud security, intelligent remediation,
-      self-healing cloud infrastructure, and governance solution.
-    homepage: https://cloudmatos.com
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Cloud Security
-    - Developer APIs
-    - Software
-    linkedin: https://www.linkedin.com/company/cloudmatos/?viewAsMember=true
-    name: CloudMatos
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/cloudmatos
   description: Pioneering the world of self-healing, self-aware, self-sustaining,
     self-resilient, self-secure and intelligent remediation, MatosSphere brings a
     complete cloud security and governance solution for your cloud infrastructure.
-  github_data:
-    contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;3;0;0;4;8;0;0;0;0;0;0;0;0;0;1;3;14;0;5;0;1;0;1;19;11;0;1;1;1;11
-    contributors_count: 10
-    contributors_link: https://github.com/cloudmatos/matos/graphs/contributors
-    description: Matos is an open-source cloud security tool for analyzing multi-cloud
-      infrastructure security.
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#3572A5'
-      name: Python
-      value: 466577
-    - color: '#C1F12E'
-      name: Batchfile
-      value: 55
-    latest_commit_date: '2022-08-03T12:57:40Z'
-    latest_commit_link: /cloudmatos/Matos/commit/fdc44c4c47dbdfa7f034f6b0fa833c5b9983cf0a
-    license: MIT License
-    stars: 6
-  github_start_commit_data:
-    start_commit_link: /cloudmatos/matos/commit/30904da98eba4a0449561dbad3345f3291bbd80f
-    start_date: '2021-12-14T16:24:07Z'
   homepage_url: https://www.cloudmatos.com
-  image_data:
-    fileName: cloud-matos.svg
-    hash: MaOTbVL0aRSdjBOBCmk8Q5fPQPZDyfFDuqEYglypiGM=
   item: null
   logo: cloudmatos.svg
   name: CloudMatos
   repo_url: https://github.com/cloudmatos/matos
-  repos:
-  - stars: 6
-    url: https://github.com/cloudmatos/matos
   twitter: https://twitter.com/CloudMatos
-  twitter_data:
-    latest_tweet_date: 2022-08-04 21:13:16+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Kubernetes
-      date: '2016-03-10'
-    - acquiree: RethinkDB
-      date: '2017-02-06'
-      price: 25000
-    city: San Francisco
-    company_type: Non Profit
-    country: United States
-    description: CNCF is an open source software foundation that hosts and nurtures
-      projects like Kubernetes and Prometheus.
-    funding: 3000000
-    homepage: https://www.cncf.io
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Non Profit
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
-    name: Cloud Native Computing Foundation (CNCF)
-    num_employees_max: 50
-    num_employees_min: 11
-    parents:
-    - https://www.crunchbase.com/organization/linux-foundation
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/CloudNativeFdn
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: Confidential Containers is an open source community working to enable
     cloud native  confidential computing by leveraging Trusted Execution Environments
     to protect  containers and data.
   extra:
     accepted: '2022-03-08'
+    annual_review_date: '2023-06-15'
+    annual_review_url: https://github.com/cncf/toc/pull/1084
     artwork_url: https://github.com/cncf/artwork/tree/master/projects/confidential-containers
+    blog_url: https://confidentialcontainers.org/blog/
     chat_channel: '#confidential-containers'
+    clomonitor_name: confidential-containers
     dev_stats_url: https://confidentialcontainers.devstats.cncf.io/
     slack_url: https://cloud-native.slack.com/
-  github_data:
-    contributions: 0;0;0;0;0;0;0;0;3;1;1;0;0;2;1;3;4;0;0;1;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0
-    contributors_count: 8
-    contributors_link: https://github.com/confidential-containers/documentation/graphs/contributors
-    description: Documentation for the confidential containers project
-    firstWeek: 2021-08-08Z
-    languages: []
-    latest_commit_date: '2022-06-01T20:56:07Z'
-    latest_commit_link: /confidential-containers/documentation/commit/bc0c64a8497cd699faee2e9b7e80a41f9356c9a9
-    license: Apache License 2.0
-    stars: 10
-  github_start_commit_data:
-    start_commit_link: /confidential-containers/documentation/commit/a2673ae421ec9db1ed52e8e657ed47f6bfbc14e6
-    start_date: '2021-10-04T15:40:23Z'
-  homepage_url: https://github.com/confidential-containers
-  image_data:
-    fileName: confidential-containers.svg
-    hash: MmA93jsBOEUdVZUaxU6DQkaXcRSsaNrozOf8+JatOzU=
+    youtube_url: https://www.youtube.com/@confidentialcontainers3845
+  homepage_url: https://confidentialcontainers.org/
   item: null
   logo: confidential-containers.svg
   name: Confidential Containers
   project: sandbox
-  repo_url: https://github.com/confidential-containers/documentation
-  repos:
-  - stars: 10
-    url: https://github.com/confidential-containers/documentation
-  twitter_data:
-    latest_tweet_date: 2022-08-05 21:09:37+00:00
-- best_practice_data:
-    badge: 4576
-    percentage: 100
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Kubernetes
-      date: '2016-03-10'
-    - acquiree: RethinkDB
-      date: '2017-02-06'
-      price: 25000
-    city: San Francisco
-    company_type: Non Profit
-    country: United States
-    description: CNCF is an open source software foundation that hosts and nurtures
-      projects like Kubernetes and Prometheus.
-    funding: 3000000
-    homepage: https://www.cncf.io
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Non Profit
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
-    name: Cloud Native Computing Foundation (CNCF)
-    num_employees_max: 50
-    num_employees_min: 11
-    parents:
-    - https://www.crunchbase.com/organization/linux-foundation
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/CloudNativeFdn
+  repo_url: https://github.com/confidential-containers/confidential-containers
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: ContainerSSH launches a new container for each SSH connection in Kubernetes,
+    Podman or Docker. The user is transparently dropped in the container and the container
+    is removed when the user disconnects. Authentication and container configuration
+    are dynamic using webhooks, no system users required.
+  extra:
+    accepted: '2022-09-14'
+    artwork_url: https://github.com/cncf/artwork/tree/master/projects/containerssh
+    chat_channel: '#containerssh'
+    clomonitor_name: containerssh
+    dev_stats_url: https://containerssh.devstats.cncf.io/
+    slack_url: https://cloud-native.slack.com/
+  homepage_url: https://containerssh.io
+  item: null
+  logo: containerssh.svg
+  name: ContainerSSH
+  project: sandbox
+  repo_url: https://github.com/containerssh/containerssh
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2023-09-19'
+    artwork_url: https://github.com/cncf/artwork/tree/main/projects/copa
+    chat_channel: '#copa'
+    clomonitor_name: copacetic
+    dev_stats_url: https://copacetic.devstats.cncf.io/
+    slack_url: https://cloud-native.slack.com/
+  homepage_url: https://github.com/project-copacetic/copacetic
+  item: null
+  logo: copa.svg
+  name: Copa
+  project: sandbox
+  repo_url: https://github.com/project-copacetic/copacetic
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   extra:
     accepted: '2021-01-26'
+    annual_review_date: '2022-03-16'
+    annual_review_url: https://github.com/cncf/toc/pull/806
+    archived: '2024-06-28'
     artwork_url: https://github.com/cncf/artwork/tree/master/projects/curiefense
     blog_url: https://www.curiefense.io/blog
     dev_stats_url: https://curiefense.devstats.cncf.io/
-  github_data:
-    contributions: 11;5;10;3;0;2;0;2;5;4;6;3;1;17;4;3;1;1;4;4;2;5;2;0;3;6;0;5;15;5;8;27;36;14;8;20;16;12;7;2;0;2;0;10;3;0;3;0;0;5;2;0
-    contributors_count: 26
-    contributors_link: https://github.com/curiefense/curiefense/graphs/contributors
-    description: Curiefense is a unified, open source platform protecting cloud native
-      applications.
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#2b7489'
-      name: TypeScript
-      value: 517911
-    - color: '#2c3e50'
-      name: Vue
-      value: 310355
-    - color: '#dea584'
-      name: Rust
-      value: 263788
-    - color: '#3572A5'
-      name: Python
-      value: 259263
-    - color: '#000080'
-      name: Lua
-      value: 67842
-    - color: '#563d7c'
-      name: CSS
-      value: 41273
-    - color: '#00ADD8'
-      name: Go
-      value: 38503
-    - color: '#89e051'
-      name: Shell
-      value: 38102
-    - color: '#384d54'
-      name: Dockerfile
-      value: 12944
-    - color: '#DA5B0B'
-      name: Jupyter Notebook
-      value: 9217
-    - name: Smarty
-      value: 5836
-    - name: SCSS
-      value: 3758
-    - color: '#f1e05a'
-      name: JavaScript
-      value: 3641
-    - color: '#427819'
-      name: Makefile
-      value: 3502
-    - color: '#e34c26'
-      name: HTML
-      value: 1201
-    latest_commit_date: '2022-07-28T03:56:41Z'
-    latest_commit_link: /curiefense/curiefense/commit/5c2dbc03abac182ff38edfc358754162ca1d0ece
-    license: Apache License 2.0
-    release_date: '2022-03-27T09:25:06Z'
-    release_link: https://github.com/curiefense/curiefense/releases
-    stars: 515
-  github_start_commit_data:
-    start_commit_link: /curiefense/curiefense/commit/a31a46df87948b09dc91a68a4ecf7d944454e746
-    start_date: '2020-11-07T19:54:39Z'
   homepage_url: https://www.curiefense.io/
-  image_data:
-    fileName: curiefense.svg
-    hash: PTD2ZiZPMusgQEfjiLEtC65OTfwaKw2jRxrOVH8AzT8=
   item: null
   logo: curiefense.svg
   name: Curiefense
-  project: sandbox
-  repo_url: https://github.com/curiefense/curiefense
-  repos:
-  - stars: 515
-    url: https://github.com/curiefense/curiefense
+  project: archived
   twitter: https://twitter.com/curiefense
-  twitter_data:
-    latest_tweet_date: 2022-01-10 19:10:47+00:00
+- crunchbase: https://www.crunchbase.com/organization/china-mobile
+  description: China Mobile Cloud Cloud-native Application Security is an application
+    protection platform based on container technology, providing comprehensive security
+    detection and protection capabilities for cloud-native environments.
+  homepage_url: https://ecloud.10086.cn/portal/product/cnappsec
+  item: null
+  logo: china-mobile-cloud-cas.svg
+  name: China Mobile Cloud Cloud-native Application Security

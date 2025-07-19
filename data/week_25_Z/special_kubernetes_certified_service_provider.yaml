@@ -1,26 +1,4 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/zoi-1e34
-  crunchbase_data:
-    acquisitions: []
-    city: Stuttgart
-    company_type: For Profit
-    country: Germany
-    description: Zoi is an essential paradigm of IT and electronics.
-    homepage: http://www.zoi.de/
-    industries:
-    - Information Technology
-    - Internet
-    - Software
-    linkedin: https://www.linkedin.com/company/zoi-gmbh/
-    name: Zoi
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Baden-Wurttemberg
-    stockExchange: null
-    twitter: https://twitter.com/zoisays
+- crunchbase: https://www.crunchbase.com/organization/zoi-1e34
   description: Zoi is a cloud-native IT consulting company that bridges the gap between
     hidden champions and the latest cloud technology. We are a trusted partner to
     manufacturing & retail companies in the DACH region, and together develop & implement
@@ -28,48 +6,21 @@
     digital world. As a KCSP partner, we have validated expertise helping organisations
     successfully adopt Kubernetes. We offer Kubernetes support, consulting, professional
     services and training for clients embarking on their Kubernetes journey.
-  homepage_url: https://en.zoi.tech/kubernetes
-  image_data:
-    fileName: zoi-kcsp.svg
-    hash: XW767udSt/Nu2zfbtNDXvMfdB3UmpApN22RM+t7mBJ4=
+  homepage_url: https://www.zoi.tech/
   item: null
   logo: zoi.svg
   name: Zoi (KCSP)
-  twitter_data:
-    latest_tweet_date: 2022-07-21 08:36:44+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/zte-corporation
-  crunchbase_data:
-    acquisitions: []
-    city: Shenzhen
-    company_type: For Profit
-    country: China
-    description: ZTE provides telecommunications equipment and network solutions.
-    homepage: http://zte.com.cn
-    industries:
-    - Network Hardware
-    - Telecommunications
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/5804
-    name: ZTE
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents: []
-    region: Guangdong
-    stockExchange: szse
-    ticker: 000063.SZ
-    twitter: https://twitter.com/ZTEPress
+- crunchbase: https://www.crunchbase.com/organization/zstack
+  description: ZStack enables customers on their Kubernetes journey, helps enterprises
+    focus on their applications rather than managing IT-infrastructure, and offers
+    full life-cycle services including training, consulting, deployment, and pipeline
+    to accelerate their digital transformation.
+  homepage_url: https://www.zstack-cloud.com/
+  item: null
+  logo: zstack.svg
+  name: ZStack (KCSP)
+- crunchbase: https://www.crunchbase.com/organization/zte-corporation
   homepage_url: https://sdnfv.zte.com.cn/en
-  image_data:
-    fileName: zte-kcsp.svg
-    hash: 9G7dW4A20SuKnQV8Bdq4LqOrk+7ma5niwcsjydslfVc=
   item: null
   logo: zte-kcsp.svg
   name: ZTE (KCSP)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 10:25:16+00:00
-  yahoo_finance_data:
-    effective_ticker: 000063.SZ
-    market_cap: 16359645340

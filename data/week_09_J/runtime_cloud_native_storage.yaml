@@ -1,75 +1,7 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/juicefs
-  crunchbase_data:
-    acquisitions: []
-    city: Emeryville
-    company_type: For Profit
-    country: United States
-    description: Juicedata is helping engineers to access and manage data easily in
-      cloud.
-    funding: 0
-    homepage: https://juicefs.com
-    industries:
-    - Big Data
-    - Cloud Data Services
-    - Cloud Storage
-    - Information Technology
-    linkedin: null
-    name: Juicedata
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: null
-  github_data:
-    contributions: 18;15;8;21;19;25;8;7;4;7;14;14;7;15;32;26;19;15;28;31;19;15;21;24;22;5;28;24;21;20;23;24;32;35;28;26;41;45;10;23;42;31;24;30;38;29;10;9;11;12;28;30
-    contributors_count: 63
-    contributors_link: https://github.com/juicedata/juicefs/graphs/contributors
-    description: JuiceFS is a distributed POSIX file system built on top of Redis
-      and S3.
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 1433501
-    - color: '#b07219'
-      name: Java
-      value: 219880
-    - color: '#89e051'
-      name: Shell
-      value: 60443
-    - color: '#555555'
-      name: C
-      value: 29819
-    - color: '#427819'
-      name: Makefile
-      value: 7906
-    - color: '#384d54'
-      name: Dockerfile
-      value: 546
-    latest_commit_date: '2022-08-05T08:05:06Z'
-    latest_commit_link: /juicedata/juicefs/commit/932e14c925cac2f66db121b15aa271e46c684a1a
-    license: Apache License 2.0
-    release_date: '2022-08-05T06:19:47Z'
-    release_link: https://github.com/juicedata/juicefs/releases
-    stars: 5722
-  github_start_commit_data:
-    start_commit_link: /juicedata/juicefs/commit/d23762a7e926f896a3dd615677882b8e98ed29df
-    start_date: '2021-01-08T09:44:26Z'
+- crunchbase: https://www.crunchbase.com/organization/juicefs
   homepage_url: https://juicefs.com/
-  image_data:
-    fileName: juice-fs.svg
-    hash: +5IZUDshHTMnPFveJSWAGBnoXDSHtaQ6zR8QTube2OM=
   item: null
   logo: juicefs.svg
   name: JuiceFS
   repo_url: https://github.com/juicedata/juicefs
-  repos:
-  - stars: 5722
-    url: https://github.com/juicedata/juicefs
   twitter: https://twitter.com/JuicedataInc
-  twitter_data:
-    latest_tweet_date: 2022-08-04 02:36:05+00:00

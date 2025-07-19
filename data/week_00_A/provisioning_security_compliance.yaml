@@ -1,257 +1,57 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/airlock-security-innovation-by-ergon-informatik-ag
-  crunchbase_data:
-    acquisitions: []
-    city: "Z\xFCrich"
-    company_type: For Profit
-    country: Switzerland
-    description: Application security, API Security, Identity and Access Management,
-      2FA, Security for container environments
-    homepage: https://www.airlock.com
-    industries:
-    - Information Technology
-    - Software
-    linkedin: https://www.linkedin.com/company/airlock-by-ergon
-    name: Airlock, Security Innovation by Ergon Informatik AG
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: Zurich
-    stockExchange: null
-    twitter: https://twitter.com/ErgonAirlock
+- crunchbase: https://www.crunchbase.com/organization/airlock-security-innovation-by-ergon-informatik-ag
   homepage_url: https://www.airlock.com/
-  image_data:
-    fileName: airlock.svg
-    hash: AfUIaHV85mAMTYvmiG5XuJ6fr4VM+NIZJepzf7crNZY=
   item: null
   logo: airlock.svg
   name: Airlock
-  twitter_data:
-    latest_tweet_date: 2022-08-02 09:34:43+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/alcide
-  crunchbase_data:
-    acquisitions: []
-    city: Tel Aviv
-    company_type: For Profit
-    country: Israel
-    description: Alcide provides a cloud-native security platform from code to production
-      to continuously secure workloads running in Kubernetes.
-    funding: 12300000
-    homepage: http://www.alcide.io
-    industries:
-    - Cloud Security
-    - Cyber Security
-    - Data Center
-    - Information Technology
-    - Network Security
-    - Security
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/alcide/
-    name: Alcide
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Tel Aviv
-    stockExchange: null
-    twitter: https://twitter.com/alcideio
+- crunchbase: https://www.crunchbase.com/organization/alcide
   description: Alcide provides dev-to-production security for workloads running in
     Kubernetes & Istio
-  homepage_url: https://www.alcide.io/
-  image_data:
-    fileName: alcide.svg
-    hash: K8zvlsbRtDCHY5fWa5mtLY5eq8YUAXYgLoNM/cBRYvM=
+  homepage_url: https://github.com/alcideio
   item: null
   logo: alcide.svg
   name: Alcide
-  twitter_data:
-    latest_tweet_date: 2021-02-18 11:31:45+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/anchore-inc
-  crunchbase_data:
-    acquisitions: []
-    city: Santa Barbara
-    company_type: For Profit
-    country: United States
-    description: Anchore helps organizations implement secure container-based workflows
-      without compromising velocity.
-    funding: 29000000
-    homepage: https://anchore.com/
-    industries:
-    - Cloud Security
-    - Computer
-    - Enterprise Software
-    - Information Technology
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/anchore
-    name: Anchore
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/anchore
-  github_data:
-    contributions: 8;14;12;13;23;21;31;31;5;2;7;17;10;12;12;1;9;18;9;4;0;0;3;0;1;1;0;4;0;0;0;0;0;3;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0
-    contributors_count: 54
-    contributors_link: https://github.com/anchore/anchore-engine/graphs/contributors
-    description: A service that analyzes docker images and scans for vulnerabilities
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#3572A5'
-      name: Python
-      value: 4529553
-    - color: '#89e051'
-      name: Shell
-      value: 16598
-    - color: '#427819'
-      name: Makefile
-      value: 12274
-    - color: '#384d54'
-      name: Dockerfile
-      value: 10954
-    - color: '#555555'
-      name: C
-      value: 3889
-    latest_commit_date: '2022-05-18T23:25:52Z'
-    latest_commit_link: /anchore/anchore-engine/commit/1f31142f70d22e7d4945a38cb7b8219eb9c15531
-    license: Apache License 2.0
-    stars: 1477
-  github_start_commit_data:
-    start_commit_link: /anchore/anchore-engine/commit/28656b6fee1bbdf3d32b1882136df22ddb6ed564
-    start_date: '2017-09-06T18:47:21Z'
-  homepage_url: https://anchore.com/platform
-  image_data:
-    fileName: anchore.svg
-    hash: p6/VSryk4mrXrEgy8lOEArDH8rmmcB1lG0Ck+nrYWdo=
+- crunchbase: https://www.crunchbase.com/organization/cisco
+  description: APIClarity is a cloud API observability open-source project that provides
+    functionality to discover and monitor any API traffic that interacts with modern
+    applications and report suspected security weaknesses or possible abuses. Once
+    an OpenAPI spec is either uploaded or reconstructed by APIClarity, it monitors
+    for shadow and zombie APIs, Broken Functional-Level Authorization (BFLA), Broken
+    Object-Level Authorization (BOLA), weak authentication, sensitive data leaks and
+    data injection risks.
+  extra:
+    blog_url: https://dev.to/ciscoemerge
+  homepage_url: https://openclarity.io/
   item: null
-  logo: anchore.svg
-  name: Anchore
-  repo_url: https://github.com/anchore/anchore-engine
-  repos:
-  - stars: 1477
-    url: https://github.com/anchore/anchore-engine
-  twitter_data:
-    latest_tweet_date: 2022-08-02 16:13:51+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/apolicy
-  crunchbase_data:
-    acquisitions: []
-    city: Sunnyvale
-    company_type: For Profit
-    country: United States
-    description: Apolicy is a developer of security measures intended to address how
-      security teams approach Kubernetes Security.
-    funding: 3500000
-    homepage: https://www.apolicy.io/
-    industries: []
-    kind: funding
-    linkedin: https://www.linkedin.com/company/apolicy-io-inc/
-    name: Apolicy
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: null
+  logo: APIClarity.svg
+  name: APIClarity
+  repo_url: https://github.com/openclarity/apiclarity
+  twitter: https://twitter.com/CiscoOpen
+- crunchbase: https://www.crunchbase.com/organization/apolicy
   description: Apolicy fuses security and compliance into your cloud native development
     pipeline. Using policy-as-code,  we automate risk, policy and remediation from
     source to production
   homepage_url: https://www.apolicy.io/
-  image_data:
-    fileName: apolicy.svg
-    hash: aGZJONBTyO9LxMH5sfReu1MNcL+EWZRRUmBJmcK1k/o=
   item: null
   joined: '2021-02-02'
   logo: apolicy.svg
   name: Apolicy
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/aquasecurity
-  crunchbase_data:
-    acquisitions:
-    - acquiree: CloudSploit
-      date: '2019-11-12'
-    - acquiree: tfsec
-      date: '2021-07-12'
-    - acquiree: Argon Security
-      date: '2021-12-01'
-    city: Burlington
-    company_type: For Profit
-    country: United States
-    description: Aqua Security is a software company providing cloud-native security
-      technology.
-    funding: 265000000
-    homepage: https://www.aquasec.com
-    industries:
-    - Cloud Security
-    - Cyber Security
-    - Security
-    - Software
-    - Virtualization
-    kind: funding
-    linkedin: https://www.linkedin.com/company/aquasecteam/
-    name: Aqua Security
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: Massachusetts
-    stockExchange: null
-    twitter: http://www.twitter.com/AquaSecTeam
+- crunchbase: https://www.crunchbase.com/organization/aquasecurity
   homepage_url: https://www.aquasec.com/
-  image_data:
-    fileName: aqua.svg
-    hash: exWxXLxpVtw0YmkdhAB9eZe9mZBxQ4TTAaFyMjBwChg=
   item: null
   logo: aqua.svg
   name: Aqua
-  twitter_data:
-    latest_tweet_date: 2022-08-05 19:51:55+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cyber-armor
-  crunchbase_data:
-    acquisitions: []
-    city: Jerusalem
-    company_type: For Profit
-    country: Israel
-    description: Embedding Visibility, Security and Control into every cloud workload
-      and Empowering DevOps to Deploy Inherently Secure Workloads.
-    funding: 34500000
-    homepage: https://armosec.io
-    industries:
-    - Cloud Security
-    - Cyber Security
-    - Information Technology
-    - Security
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/armosec/
-    name: ARMO
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Yerushalayim
-    stockExchange: null
-    twitter: https://twitter.com/armosec
+- crunchbase: https://www.crunchbase.com/organization/cyber-armor
   homepage_url: https://www.armosec.io
-  image_data:
-    fileName: armo.svg
-    hash: FacH3LOW7Lpg5zprOpKRZ5GT/uJUz/iO345wpl8lGnU=
   item: null
   logo: armo.svg
-  name: Armo
-  twitter_data:
-    latest_tweet_date: 2022-08-04 13:17:12+00:00
+  name: ARMO
+- crunchbase: https://www.crunchbase.com/organization/aserto-2995
+  description: Fine-grained, policy-based, real-time authorization for APIs and microservices.
+    Aserto is the maintainer of the Topaz and Open Policy Containers OSS projects.
+  extra:
+    slack_url: https://www.aserto.com/slack
+  homepage_url: https://www.aserto.com
+  item: null
+  logo: aserto.svg
+  name: Aserto
+  repo_url: https://github.com/aserto-dev/runtime

@@ -1,83 +1,16 @@
-- best_practice_data:
-    badge: 4886
-    percentage: 97
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Kubernetes
-      date: '2016-03-10'
-    - acquiree: RethinkDB
-      date: '2017-02-06'
-      price: 25000
-    city: San Francisco
-    company_type: Non Profit
-    country: United States
-    description: CNCF is an open source software foundation that hosts and nurtures
-      projects like Kubernetes and Prometheus.
-    funding: 3000000
-    homepage: https://www.cncf.io
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Non Profit
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
-    name: Cloud Native Computing Foundation (CNCF)
-    num_employees_max: 50
-    num_employees_min: 11
-    parents:
-    - https://www.crunchbase.com/organization/linux-foundation
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/CloudNativeFdn
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: Fluid is an orchestration platform for elastic data abstraction and
     acceleration in cloud native environment.
-  github_data:
-    contributions: 7;1;2;0;4;7;1;6;3;4;2;0;6;12;24;28;14;6;15;8;5;14;13;12;2;7;9;9;10;13;10;10;32;69;34;12;7;11;1;12;11;16;6;11;9;13;7;14;12;6;16;3
-    contributors_count: 278
-    contributors_link: https://github.com/fluid-cloudnative/fluid/graphs/contributors
-    description: 'Fluid, elastic data abstraction and acceleration for BigData/AI
-      applications in cloud. (Project under CNCF) '
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 3367664
-    - color: '#89e051'
-      name: Shell
-      value: 51476
-    - name: Mustache
-      value: 40671
-    - color: '#427819'
-      name: Makefile
-      value: 13375
-    - name: Smarty
-      value: 3221
-    - color: '#384d54'
-      name: Dockerfile
-      value: 996
-    latest_commit_date: '2022-08-03T23:02:37Z'
-    latest_commit_link: /fluid-cloudnative/fluid/commit/8a8e6e2d006d11ab54953f6a7a95af8b7e4ca169
-    license: Apache License 2.0
-    release_date: '2022-03-02T14:38:55Z'
-    release_link: https://github.com/fluid-cloudnative/fluid/releases
-    stars: 1105
-  github_start_commit_data:
-    start_commit_link: /fluid-cloudnative/fluid/commit/1937e1d0f6191cc899405e3f6aa8fa50b09df31f
-    start_date: '2020-07-11T23:01:57Z'
-  homepage_url: http://pasa-bigdata.nju.edu.cn/fluid/index.html
-  image_data:
-    fileName: fluid.svg
-    hash: Lp2LkXvSIUP0puNQyj47rUQ23b7IOI+NLvlkCrQwolQ=
+  extra:
+    accepted: '2021-04-28'
+    annual_review_date: '2022-07-06'
+    annual_review_url: https://github.com/cncf/toc/pull/870
+    clomonitor_name: fluid
+  homepage_url: https://fluid-cloudnative.github.io/
   item: null
   logo: fluid.svg
   name: Fluid
   project: sandbox
   repo_url: https://github.com/fluid-cloudnative/fluid
-  repos:
-  - stars: 1105
-    url: https://github.com/fluid-cloudnative/fluid
-  twitter_data:
-    latest_tweet_date: 2022-08-05 21:09:37+00:00
+  second_path:
+  - CNAI / Data Architecture

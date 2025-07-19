@@ -1,0 +1,51 @@
+- bluesky_url: https://bsky.app/profile/headlamp.dev
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Extensible open source multi-cluster Kubernetes user interface
+  extra:
+    accepted: '2023-05-17'
+    blog_url: https://headlamp.dev/blog
+    clomonitor_name: headlamp
+    dev_stats_url: https://headlamp.devstats.cncf.io/
+    slack_url: https://kubernetes.slack.com/messages/headlamp
+  homepage_url: https://headlamp.dev
+  item: null
+  logo: headlamp.svg
+  name: Headlamp
+  repo_url: https://github.com/kubernetes-sigs/headlamp
+  twitter: https://twitter.com/headlamp_ui
+- crunchbase: https://www.crunchbase.com/organization/helios-5828
+  homepage_url: https://www.gethelios.dev/
+  item: null
+  logo: helios.svg
+  name: Helios
+- crunchbase: https://www.crunchbase.com/organization/apache
+  description: Apache HertzBeat (Incubating) is an open-source, real-time monitoring
+    system with custom monitoring, high performance cluster and agentless capabilities.
+  homepage_url: https://hertzbeat.apache.org/
+  item: null
+  logo: hertzbeat.svg
+  name: HertzBeat
+  repo_url: https://github.com/apache/hertzbeat
+- crunchbase: https://www.crunchbase.com/organization/honeybadger
+  homepage_url: https://www.honeybadger.io/
+  item: null
+  logo: honeybadger.svg
+  name: Honeybadger
+- crunchbase: https://www.crunchbase.com/organization/honeycombio
+  homepage_url: https://www.honeycomb.io/
+  item: null
+  logo: honeycomb.svg
+  name: Honeycomb
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    parent_project: Cilium
+  homepage_url: https://github.com/cilium/hubble
+  item: null
+  logo: hubble(rgb).svg
+  name: Hubble
+  repo_url: https://github.com/cilium/hubble
+- crunchbase: https://www.crunchbase.com/organization/humio
+  homepage_url: https://www.humio.com/
+  item: null
+  logo: humio.svg
+  name: Humio

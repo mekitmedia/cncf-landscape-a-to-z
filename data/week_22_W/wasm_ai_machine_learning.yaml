@@ -1,0 +1,21 @@
+- allow_duplicate_repo: true
+  crunchbase: https://www.crunchbase.com/organization/w3c-e64a
+  homepage_url: https://wasmedge.org/docs/develop/rust/wasinn/openvino
+  item: null
+  logo: wasm.svg
+  name: WASI NN for OpenVINO
+  repo_url: https://github.com/WebAssembly/wasi-nn
+- allow_duplicate_repo: true
+  crunchbase: https://www.crunchbase.com/organization/w3c-e64a
+  homepage_url: https://wasmedge.org/docs/develop/rust/wasinn/pytorch
+  item: null
+  logo: pytorch.svg
+  name: WASI NN for Pytorch
+  repo_url: https://github.com/WebAssembly/wasi-nn
+- allow_duplicate_repo: true
+  crunchbase: https://www.crunchbase.com/organization/w3c-e64a
+  homepage_url: https://wasmedge.org/docs/develop/rust/wasinn/tensorflow_lite
+  item: null
+  logo: wasm.svg
+  name: WASI NN for TensorFlow Lite
+  repo_url: https://github.com/WebAssembly/wasi-nn

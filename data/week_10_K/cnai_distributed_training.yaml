@@ -1,0 +1,13 @@
+- description: Training operators on Kubernetes
+  homepage_url: https://www.kubeflow.org/docs/components/training
+  item: null
+  logo: ./kubeflow.svg
+  name: Kubeflow Training Operator
+  repo_url: https://github.com/kubeflow/training-operator
+  unnamed_organization: true
+- description: MPI Operator to manage all-reduce distributed training and HPC workloads.
+  homepage_url: https://github.com/kubeflow/mpi-operator
+  item: null
+  logo: ./kubeflow.svg
+  name: Kubeflow MPI Operator
+  unnamed_organization: true

@@ -1,125 +1,26 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/americanexpress
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Revolution Money
-      date: '2009-11-18'
-      price: 300000000
-    - acquiree: Accertify
-      date: '2010-11-04'
-      price: 150000000
-    - acquiree: Loyalty Partner
-      date: '2011-03-01'
-      price: 585000000
-    - acquiree: Sometrics
-      date: '2011-09-20'
-      price: 30000000
-    - acquiree: InAuth
-      date: '2016-12-06'
-    - acquiree: Mezi
-      date: '2018-01-30'
-    - acquiree: Cake Technologies
-      date: '2018-03-23'
-      price: 13300000
-    - acquiree: Pocket Concierge
-      date: '2019-01-15'
-    - acquiree: LoungeBuddy
-      date: '2019-03-11'
-    - acquiree: Resy, American Express Global Dining Network
-      date: '2019-05-15'
-    - acquiree: Kabbage
-      date: '2020-08-17'
-    city: New York
-    company_type: For Profit
-    country: United States
-    description: "American Express is a global financial services company best known\
-      \ for its credit card, charge card, and traveler\u2019s cheque businesses."
-    homepage: http://www.americanexpress.com
-    industries:
-    - FinTech
-    - Finance
-    - Financial Services
-    - Payments
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/american-express
-    name: American Express
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents: []
-    region: New York
-    stockExchange: bcba
-    ticker: AXP
-    twitter: http://twitter.com/americanexpress
+- crunchbase: https://www.crunchbase.com/organization/akamai-technologies
+  homepage_url: https://www.akamai.com/
+  item: null
+  joined: '2023-01-01'
+  logo: akamai.svg
+  name: Akamai (member)
+- crunchbase: https://www.crunchbase.com/organization/americanexpress
   enduser: true
   homepage_url: https://www.americanexpress.com/
-  image_data:
-    fileName: american-express-member.svg
-    hash: TRY6oii743CTKK4iGYWs3vGUdSFwx1w3vIpfdxb2FrM=
   item: null
-  joined: '2021-06-10'
+  joined: '2021-06-01'
   logo: american-express.svg
   name: American Express (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 23:05:52+00:00
-  yahoo_finance_data:
-    effective_ticker: AXP
-    market_cap: 118092800000
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/ant-financial
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Mayijijin
-      date: '2015-04-24'
-      price: 32215911
-    - acquiree: EyeVerify
-      date: '2016-09-13'
-    - acquiree: helloPay
-      date: '2017-04-19'
-    - acquiree: riskstorm
-      date: '2018-04-25'
-      price: 7902723
-    - acquiree: WorldFirst
-      date: '2019-02-14'
-      price: 700000000
-    - acquiree: 2C2P
-      date: '2022-04-18'
-    city: Hangzhou
-    company_type: For Profit
-    country: China
-    description: Ant Group strives to enable all consumers and small businesses to
-      have equal access to financial and other services through technology.
-    funding: 22000000000
-    homepage: https://www.antgroup.com
-    industries:
-    - Banking
-    - FinTech
-    - Financial Services
-    - Payments
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/antgroup
-    name: Ant Group
-    num_employees_max: 10000
-    num_employees_min: 5001
-    parents:
-    - https://www.crunchbase.com/organization/alibaba
-    region: Zhejiang
-    stockExchange: null
-    ticker: 9988.HK
-    twitter: https://twitter.com/antgroup
+- crunchbase: https://www.crunchbase.com/organization/ant-financial
   enduser: true
   homepage_url: https://www.antgroup.com
-  image_data:
-    fileName: ant-financial-member.svg
-    hash: vsW1nWaufw4sJQmeTLvBDqgCf7j2AQg1N30VcPxHJF0=
   item: null
+  joined: '2019-05-01'
   logo: ant-financial-member.svg
   name: Ant Financial (member)
-  twitter_data:
-    latest_tweet_date: 2022-07-21 08:09:26+00:00
-  yahoo_finance_data:
-    effective_ticker: 9988.HK
-    market_cap: 250716029031
+- crunchbase: https://www.crunchbase.com/organization/arm
+  homepage_url: https://www.arm.com/zh-TW
+  item: null
+  joined: '2019-02-01'
+  logo: arm-member.svg
+  name: Arm (member)

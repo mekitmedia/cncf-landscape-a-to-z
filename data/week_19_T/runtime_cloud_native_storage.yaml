@@ -1,99 +1,11 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/trilio-data
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Jisto
-      date: '2017-01-01'
-    city: Framingham
-    company_type: For Profit
-    country: United States
-    description: Cloud-Native Data Protection for Kubernetes, OpenStack and Virtualization
-    funding: 22000000
-    homepage: https://www.trilio.io
-    industries:
-    - Cloud Computing
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/trilio
-    name: Trilio
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: Massachusetts
-    stockExchange: null
-    twitter: https://twitter.com/triliodata
+- crunchbase: https://www.crunchbase.com/organization/trilio-data
   homepage_url: https://www.trilio.io/
-  image_data:
-    fileName: trilio.svg
-    hash: RA0ZZ2ngtks0RfEIXzMgq3Occ6/pzeNQNZEat0yjhMo=
   item: null
   logo: trilio.svg
   name: Trilio
-  twitter_data:
-    latest_tweet_date: 2022-08-05 14:50:19+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/joyent
-  crunchbase_data:
-    acquisitions:
-    - acquiree: LayerBoom
-      date: '2010-07-15'
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: Joyent is a cloud infrastructure service provider that enables its
-      customers to operate modern cloud native applications.
-    funding: 130999998
-    homepage: http://www.joyent.com
-    industries:
-    - Apps
-    - Automotive
-    - Cloud Computing
-    - Enterprise Software
-    - Infrastructure
-    - Open Source
-    - Private Cloud
-    - Software
-    - Web Hosting
-    kind: funding
-    linkedin: https://www.linkedin.com/company/joyent
-    name: Joyent
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: http://twitter.com/joyent
-  github_data:
-    contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0
-    contributors_count: 28
-    contributors_link: https://github.com/TritonDataCenter/manta/graphs/contributors
-    description: Manta is a scalable HTTP-based object store
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#427819'
-      name: Makefile
-      value: 954
-    latest_commit_date: '2022-06-02T20:15:36Z'
-    latest_commit_link: /TritonDataCenter/manta/commit/82effd3bde2f964680c69bfefb624ccf89368343
-    license: Mozilla Public License 2.0
-    stars: 575
-  github_start_commit_data:
-    start_commit_link: /joyent/manta/commit/7f901711dd943f52a4f2a3ca7c5fcc88bd83681e
-    start_date: '2014-09-02T22:15:52Z'
-  homepage_url: https://www.joyent.com/triton/object-storage
-  image_data:
-    fileName: triton-object-storage.svg
-    hash: 0zYBxzO/ZYbwj7WekHzMgwC/BSGCp+yBrIW5mfcPrSU=
+- crunchbase: https://www.crunchbase.com/organization/mnx-solutions
+  homepage_url: https://www.tritondatacenter.com/triton/object-storage
   item: null
   logo: triton-object-storage.svg
   name: Triton Object Storage
   repo_url: https://github.com/TritonDataCenter/manta
-  repos:
-  - stars: 575
-    url: https://github.com/TritonDataCenter/manta
-  twitter_data:
-    latest_tweet_date: 2022-04-11 22:09:09+00:00

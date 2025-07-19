@@ -1,246 +1,25 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/sylabs
-  crunchbase_data:
-    acquisitions: []
-    city: Albany
-    company_type: For Profit
-    country: United States
-    description: Sylabs is the corporate entity behind the Linux container system
-      Singularity, and the HPC cluster management toolkit, Warewulf.
-    homepage: http://www.sylabs.io
-    industries:
-    - Cloud Infrastructure
-    - Information Technology
-    - Linux
-    - Professional Services
-    - Software
-    linkedin: https://www.linkedin.com/company/sylabs-inc/
-    name: Sylabs
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/SylabsIO
-  github_data:
-    contributions: 39;15;14;20;19;3;2;11;18;27;11;17;21;30;13;0;8;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-    contributors_count: 168
-    contributors_link: https://github.com/apptainer/singularity/graphs/contributors
-    description: Singularity has been EOL'ed, see Apptainer
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 2523594
-    - color: '#555555'
-      name: C
-      value: 80111
-    - color: '#89e051'
-      name: Shell
-      value: 68004
-    - name: Awk
-      value: 15526
-    - color: '#427819'
-      name: Makefile
-      value: 13166
-    - color: '#3572A5'
-      name: Python
-      value: 4511
-    latest_commit_date: '2022-03-03T15:47:50Z'
-    latest_commit_link: /apptainer/singularity/commit/898e91ab59e0ee4afa5f27036a7034b0c4767676
-    license: Other
-    release_date: '2022-03-17T05:04:09Z'
-    release_link: https://github.com/apptainer/singularity/releases
-    stars: 2354
-  github_start_commit_data:
-    start_commit_link: /sylabs/singularity/commit/acebc352a7e8e846cdb41aaa3e568fa0e6a1db39
-    start_date: '2015-10-09T22:15:12Z'
+- crunchbase: https://www.crunchbase.com/organization/sylabs
   homepage_url: https://sylabs.io/
-  image_data:
-    fileName: singularity.svg
-    hash: NTfPV7XViifPLXWKDnToQ0K7G8VG5PZPLvrLAG6qo6k=
   item: null
   logo: singularity.svg
   name: Singularity
   repo_url: https://github.com/apptainer/singularity
-  repos:
-  - stars: 2354
-    url: https://github.com/apptainer/singularity
   twitter: https://twitter.com/SingularityApp
-  twitter_data:
-    latest_tweet_date: 2022-07-20 13:22:43+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/joyent
-  crunchbase_data:
-    acquisitions:
-    - acquiree: LayerBoom
-      date: '2010-07-15'
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: Joyent is a cloud infrastructure service provider that enables its
-      customers to operate modern cloud native applications.
-    funding: 130999998
-    homepage: http://www.joyent.com
-    industries:
-    - Apps
-    - Automotive
-    - Cloud Computing
-    - Enterprise Software
-    - Infrastructure
-    - Open Source
-    - Private Cloud
-    - Software
-    - Web Hosting
-    kind: funding
-    linkedin: https://www.linkedin.com/company/joyent
-    name: Joyent
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: http://twitter.com/joyent
-  github_data:
-    contributions: 0;2;0;0;1;0;1;0;1;0;0;1;1;0;2;0;0;1;0;0;0;0;1;0;1;0;0;2;0;1;1;1;2;0;0;1;2;0;0;2;2;0;1;0;0;0;1;0;1;1;3;0
-    contributors_count: 81
-    contributors_link: https://github.com/TritonDataCenter/smartos-live/graphs/contributors
-    description: 'For more information, please see http://smartos.org/  For any questions
-      that aren''t answered there, please join the SmartOS discussion list: https://smartos.topicbox.com/groups/smartos-discuss'
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#555555'
-      name: C
-      value: 3929131
-    - color: '#f1e05a'
-      name: JavaScript
-      value: 2296957
-    - color: '#89e051'
-      name: Shell
-      value: 371202
-    - color: '#f34b7d'
-      name: C++
-      value: 136197
-    - color: '#3572A5'
-      name: Python
-      value: 115511
-    - color: '#0298c3'
-      name: Perl
-      value: 89659
-    - color: '#427819'
-      name: Makefile
-      value: 84647
-    - color: '#e34c26'
-      name: HTML
-      value: 52333
-    - color: '#ba595e'
-      name: D
-      value: 21213
-    - color: '#ecdebe'
-      name: Roff
-      value: 19842
-    - name: Awk
-      value: 7899
-    - color: '#6E4C13'
-      name: Assembly
-      value: 6331
-    - color: '#64b970'
-      name: sed
-      value: 1393
-    - name: DTrace
-      value: 845
-    latest_commit_date: '2022-07-28T03:09:14Z'
-    latest_commit_link: /TritonDataCenter/smartos-live/commit/cb08186a0744053a4314e959ca111ba8fd532f86
-    license: Unknown License
-    stars: 1467
-  github_start_commit_data:
-    start_commit_link: /joyent/smartos-live/commit/7edf44a2bb3ede6d89576aca4cc2972bdb682657
-    start_date: '2010-10-29T00:21:22Z'
-  homepage_url: https://www.joyent.com/smartos
-  image_data:
-    fileName: smart-os.svg
-    hash: 75Xp24nZp4qmfGbbhi5gerwLHkL/+A7u+j4zabtjArc=
+- crunchbase: https://www.crunchbase.com/organization/mnx-solutions
+  homepage_url: https://www.TritonDataCenter.com/smartos
   item: null
   logo: smartos.svg
   name: SmartOS
   repo_url: https://github.com/TritonDataCenter/smartos-live
-  repos:
-  - stars: 1467
-    url: https://github.com/TritonDataCenter/smartos-live
-  twitter_data:
-    latest_tweet_date: 2022-04-11 22:09:09+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/nestybox
-  crunchbase_data:
-    acquisitions: []
-    city: San Jose
-    company_type: For Profit
-    country: United States
-    description: Nestybox specializes in software development, linux, application
-      development, OS virtualization and IT services.
-    funding: 125000
-    homepage: https://www.nestybox.com/
-    industries:
-    - Apps
-    - Linux
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/nestybox
-    name: Nestybox
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/nestybox
-  github_data:
-    contributions: 5;2;7;6;4;6;3;1;4;0;2;15;10;1;8;2;4;3;1;4;3;1;4;4;5;29;43;15;4;10;26;27;9;6;5;2;5;0;0;5;4;2;0;1;0;0;4;4;3;5;0;0
-    contributors_count: 20
-    contributors_link: https://github.com/nestybox/sysbox/graphs/contributors
-    description: An open-source, next-generation "runc" that empowers rootless containers
-      to run workloads such as Systemd, Docker, Kubernetes, just like VMs.
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#89e051'
-      name: Shell
-      value: 877544
-    - color: '#427819'
-      name: Makefile
-      value: 29808
-    - color: '#00ADD8'
-      name: Go
-      value: 6769
-    - color: '#555555'
-      name: C
-      value: 4898
-    - color: '#384d54'
-      name: Dockerfile
-      value: 697
-    latest_commit_date: '2022-07-21T00:21:23Z'
-    latest_commit_link: /nestybox/sysbox/commit/9794c9f041b2e9b85de03f1bfddcf4ee0de5a202
-    license: Apache License 2.0
-    release_date: '2022-05-19T05:58:00Z'
-    release_link: https://github.com/nestybox/sysbox/releases
-    stars: 1539
-  github_start_commit_data:
-    start_commit_link: /nestybox/sysbox/commit/95b0173d76cda1f717fa34833d4d1f82498ae68d
-    start_date: '2019-03-03T06:26:03Z'
+- crunchbase: https://www.crunchbase.com/organization/%E5%BC%80%E6%94%BE%E5%8E%9F%E5%AD%90%E5%BC%80%E6%BA%90%E5%9F%BA%E9%87%91%E4%BC%9A
+  homepage_url: https://gitee.com/openeuler/stratovirt
+  item: null
+  logo: StratoVirt.svg
+  name: StratoVirt
+  repo_url: https://github.com/openeuler-mirror/stratovirt
+- crunchbase: https://www.crunchbase.com/organization/nestybox
   homepage_url: https://github.com/nestybox/sysbox
-  image_data:
-    fileName: sysbox.svg
-    hash: cchnyh0gzlwD5r0CxUoFXZVC0R1YQ2D8IN6Xeh6pdFQ=
   item: null
   logo: sysbox.svg
   name: Sysbox
   repo_url: https://github.com/nestybox/sysbox
-  repos:
-  - stars: 1539
-    url: https://github.com/nestybox/sysbox
-  twitter_data:
-    latest_tweet_date: 2022-05-27 15:25:49+00:00

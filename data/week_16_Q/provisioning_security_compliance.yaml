@@ -1,44 +1,9 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/qingteng-cloud-security
-  crunchbase_data:
-    acquisitions: []
-    city: Beijing
-    company_type: For Profit
-    country: China
-    description: Qingteng Cloud Security is a SaaS-based cloud security company focusing
-      on the endpoint adaptive security.
-    funding: 178558101
-    homepage: https://qingteng.cn/
-    industries:
-    - Education
-    - Finance
-    - Government
-    - Information Technology
-    - Internet
-    - SaaS
-    - Software
-    - Telecommunications
-    kind: funding
-    linkedin: https://www.linkedin.com/company/%E9%9D%92%E8%97%A4%E4%BA%91%E5%AE%89%E5%85%A8/
-    name: Qingteng Cloud Security
-    num_employees_max: 1000
-    num_employees_min: 501
-    parents: []
-    region: Beijing
-    stockExchange: null
-    twitter: https://twitter.com/qingtengcs
+- crunchbase: https://www.crunchbase.com/organization/qingteng-cloud-security
   description: "Qingteng Honeycomb \xB7 Container Security Platform can display risk\
     \ scenarios visually for enterprises through continuous monitoring and analysis\
     \ of the container security status, and protects the container environment during\
     \ the entire life cycle (build, ship, and run) of the container."
   homepage_url: https://qingteng.cn/
-  image_data:
-    fileName: qingteng.svg
-    hash: Oyqze6bGt2EJMP28H4xdz4usreNw4t70DKpwQNTPKcw=
   item: null
   logo: qingteng.svg
   name: Qingteng
-  twitter_data:
-    latest_tweet_date: 2016-07-18 07:12:58+00:00

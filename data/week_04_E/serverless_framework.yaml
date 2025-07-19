@@ -1,70 +1,15 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/apache
-  crunchbase_data:
-    acquisitions: []
-    city: Forest Hill
-    company_type: Non Profit
-    country: United States
-    description: Apache Software Foundation provides organizational, legal and financial
-      support for Apache open-source software projects.
-    homepage: http://www.apache.org
-    industries:
-    - Non Profit
-    - Software
-    linkedin: https://www.linkedin.com/company/the-apache-software-foundation
-    name: The Apache Software Foundation
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: Maryland
-    stockExchange: null
-    twitter: http://twitter.com/TheASF
-  description: EventMesh is a dynamic cloud-native eventing infrastruture used to
-    decouple the application and backend middleware layer.
-  github_data:
-    contributions: 8;1;4;0;4;2;7;4;9;5;5;9;8;8;10;14;14;30;14;12;11;10;7;17;8;0;4;7;10;9;4;5;0;3;11;8;9;2;5;11;10;32;27;8;39;61;12;25;18;17;21;13
-    contributors_count: 83
-    contributors_link: https://github.com/apache/incubator-eventmesh/graphs/contributors
-    description: EventMesh is a dynamic event-driven application runtime used to decouple
-      the application and backend middleware layer, which supports a wide range of
-      use cases that encompass complex multi-cloud, widely distributed topologies
-      using diverse technology stacks.
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#b07219'
-      name: Java
-      value: 2986987
-    - color: '#00ADD8'
-      name: Go
-      value: 214167
-    - color: '#89e051'
-      name: Shell
-      value: 66009
-    - color: '#384d54'
-      name: Dockerfile
-      value: 2219
-    latest_commit_date: '2022-08-03T07:40:03Z'
-    latest_commit_link: /apache/incubator-eventmesh/commit/93c6d9fbbb0ce3db98267f2c63aae1e99e6d5c71
-    license: Apache License 2.0
-    release_date: '2022-07-04T08:50:37Z'
-    release_link: https://github.com/apache/incubator-eventmesh/releases
-    stars: 1017
-  github_start_commit_data:
-    start_commit_link: /apache/incubator-eventmesh/commit/10e659846aa1f76bdd4663918e4b1213eb2eb6f7
-    start_date: '2019-09-16T03:04:57Z'
+- crunchbase: https://www.crunchbase.com/organization/encore-ae44
+  homepage_url: https://encore.dev
+  item: null
+  logo: encore.svg
+  name: Encore
+  repo_url: https://github.com/encoredev/encore
+- crunchbase: https://www.crunchbase.com/organization/apache
+  description: EventMesh is a new generation serverless event middleware for building
+    distributed event-driven applications.
   homepage_url: https://eventmesh.apache.org/
-  image_data:
-    fileName: event-mesh.svg
-    hash: 7pK4ZN48TGeB0Xtuc1UMgteDyAWWcxSLbCB9xXbVxts=
   item: null
   logo: eventmesh.svg
   name: EventMesh
-  repo_url: https://github.com/apache/incubator-eventmesh
-  repos:
-  - stars: 1017
-    url: https://github.com/apache/incubator-eventmesh
+  repo_url: https://github.com/apache/eventmesh
   twitter: https://twitter.com/ASFEventMesh
-  twitter_data:
-    latest_tweet_date: 2021-06-30 02:02:36+00:00

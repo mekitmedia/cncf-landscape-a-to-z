@@ -1,61 +1,10 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/huawei
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Harbour Networks Holdings
-      date: '2006-09-11'
-    - acquiree: 3Leaf
-      date: '2011-02-19'
-    - acquiree: Huawei Symantec Technologies
-      date: '2011-11-14'
-    - acquiree: Centre for Integrated Photonics
-      date: '2012-01-26'
-    - acquiree: Neul
-      date: '2014-09-22'
-      price: 25000000
-    - acquiree: Toga Networks
-      date: '2016-12-07'
-    - acquiree: HexaTier
-      date: '2016-12-27'
-      price: 42000000
-    - acquiree: Vokord Telekom Zao
-      date: '2019-06-03'
-      price: 50000000
-    - acquiree: Vocord
-      date: '2019-06-04'
-    city: Shenzhen
-    company_type: For Profit
-    country: China
-    description: Huawei Technologies provides infrastructure application software
-      and devices with wireline, wireless, and IP technologies.
-    funding: 0
-    homepage: http://huawei.com
-    industries:
-    - Information and Communications Technology (ICT)
-    - Software
-    - Web Hosting
-    - Wireless
-    linkedin: https://www.linkedin.com/company/huawei/
-    name: Huawei Technologies
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents: []
-    region: Guangdong
-    stockExchange: null
-    twitter: https://twitter.com/Huawei
+- crunchbase: https://www.crunchbase.com/organization/huawei
   description: FunctionStage is an event-driven function hosting and computing service,
     that compiles function code and configures running conditions without provisioning
     or managing servers, thus providing a scalable, maintenance-free, and reliable
     operation environment for functions. You only pay for what you use.
   homepage_url: https://www.huaweicloud.com/intl/en-us
-  image_data:
-    fileName: huawei-function-stage.svg
-    hash: kbhAr6t1Bjw+EXCVBQbbrJJ3bjoZt0FVpofUTIjwJPg=
   item: null
   logo: huawei-functionstage.svg
   name: Huawei FunctionStage
   twitter: https://twitter.com/Huawei_Cloud
-  twitter_data:
-    latest_tweet_date: 2021-05-27 08:57:42+00:00

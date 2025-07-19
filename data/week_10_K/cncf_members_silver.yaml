@@ -1,630 +1,125 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/kaloom
-  crunchbase_data:
-    acquisitions: []
-    city: "Montr\xE9al"
-    company_type: For Profit
-    country: Canada
-    description: Kaloom is a programmable data center networking software solution
-      that will disrupt how cloud and data center networks are built.
-    funding: 32500000
-    homepage: http://www.kaloom.com/
-    industries:
-    - Data Center
-    - Information Services
-    - Information Technology
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/kaloom/
-    name: Kaloom
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: Quebec
-    stockExchange: null
-    twitter: https://twitter.com/Kaloom_Inc
-  homepage_url: https://www.kaloom.com
-  image_data:
-    fileName: kaloom-member.svg
-    hash: HtWB8xOKWZbMmWV5aXXSQXVsHRHBnd4fPgMOk8xkNXc=
+- crunchbase: https://www.crunchbase.com/organization/kapstan
+  homepage_url: https://www.kapstan.io
   item: null
-  logo: kaloom-member.svg
-  name: Kaloom (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 16:00:59+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/kbsys
-  crunchbase_data:
-    acquisitions: []
-    city: Seoul
-    company_type: For Profit
-    country: South Korea
-    description: We are developing and deploying a variety of solutions based on Open
-      Source
-    homepage: http://kb-sys.co.kr/index
-    industries:
-    - Big Data
-    - Cloud Computing
-    - Data Visualization
-    linkedin: null
-    name: KBSYS
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: Seoul-t'ukpyolsi
-    stockExchange: null
-    twitter: null
-  homepage_url: http://kb-sys.co.kr/index
-  image_data:
-    fileName: kbsys-member.svg
-    hash: 9REZyV7MaNqogh9whyuw83oUk/l5j3h2gNQELh+0DMc=
+  joined: '2024-11-01'
+  logo: kapstan.svg
+  name: Kapstan (member)
+- crunchbase: https://www.crunchbase.com/organization/kedify
+  homepage_url: https://kedify.io
   item: null
-  logo: kbsys.svg
-  name: KBSYS (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloudhelix-inc
-  crunchbase_data:
-    acquisitions: []
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: Kentik is a network management platform that provides visibility,
-      performance, and security services to digital enterprises.
-    funding: 101700000
-    homepage: http://www.kentik.com
-    industries:
-    - Cloud Data Services
-    - Information Technology
-    - Network Security
-    kind: funding
-    linkedin: https://www.linkedin.com/company/kentik
-    name: Kentik
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://www.twitter.com/kentikinc
+  joined: '2025-01-01'
+  logo: kedify.svg
+  name: Kedify (member)
+- crunchbase: https://www.crunchbase.com/organization/keep-2303
+  homepage_url: https://www.keephq.dev
+  item: null
+  joined: '2025-01-01'
+  logo: keep-alerting.svg
+  name: Keep Alerting (member)
+- crunchbase: https://www.crunchbase.com/organization/cloudhelix-inc
   homepage_url: https://www.kentik.com
-  image_data:
-    fileName: kentik-member.svg
-    hash: SY/yXte3ifm2UOAqveRf53qtlCEUGNgscHTAeM7NDEk=
   item: null
+  joined: '2018-11-01'
   logo: kentik-member.svg
   name: Kentik (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 18:37:00+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/kinx
-  crunchbase_data:
-    acquisitions: []
-    city: Seocho
-    company_type: For Profit
-    country: South Korea
-    description: KINX specializes in cloud, CDN, IDC and internet infrastructure.
-    homepage: https://www.kinx.net/
-    industries:
-    - Cloud Computing
-    - Internet
-    linkedin: https://www.linkedin.com/company/kinx/
-    name: KINX
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: Seoul-t'ukpyolsi
-    stockExchange: null
-    twitter: null
-  homepage_url: https://www.kinx.net/
-  image_data:
-    fileName: kinx-member.svg
-    hash: hgkqlmx3Jym5QwhseK9aareg0pPeD+ux7FvOrLzTAdk=
+- crunchbase: https://www.crunchbase.com/organization/certified-security-solutions
+  homepage_url: https://www.keyfactor.com/
   item: null
-  logo: kinx.svg
-  name: KINX (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/kiratech
-  crunchbase_data:
-    acquisitions: []
-    city: Verona
-    company_type: For Profit
-    country: Italy
-    description: Kiratech is a System & Cloud Integrator that combines passion and
-      decades of experience in the IT market.
-    homepage: http://www.kiratech.it
-    industries:
-    - Computer
-    - Information Technology
-    - Software
-    linkedin: null
-    name: Kiratech
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Veneto
-    stockExchange: null
-    twitter: https://www.twitter.com/kiratech
+  joined: '2023-01-01'
+  logo: keyfactor.svg
+  name: Keyfactor (member)
+- crunchbase: https://www.crunchbase.com/organization/kiowy
+  homepage_url: https://www.kiowy.com
+  item: null
+  joined: '2024-10-01'
+  logo: kiowy.svg
+  name: KIOWY (member)
+- crunchbase: https://www.crunchbase.com/organization/kiratech
   homepage_url: https://www.kiratech.it/
-  image_data:
-    fileName: kiratech-member.svg
-    hash: EVFNMQng5MZZ9ZRVJGDYkbmkTjorU0V/znZD7Z+4qpY=
   item: null
+  joined: '2019-05-01'
   logo: kiratech-member.svg
   name: Kiratech (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-01 18:00:02+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/kodekloud
-  crunchbase_data:
-    acquisitions: []
-    city: Singapore
-    company_type: For Profit
-    country: Singapore
-    description: Education Technology Company
-    homepage: https://www.kodekloud.com
-    industries:
-    - E-Learning
-    - EdTech
-    linkedin: https://www.linkedin.com/company/kodekloud
-    name: KodeKloud
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Central Region
-    stockExchange: null
-    twitter: https://twitter.com/kodekloud1
+- crunchbase: https://www.crunchbase.com/organization/kodekloud
   homepage_url: https://kodekloud.com/
-  image_data:
-    fileName: kode-kloud-member.svg
-    hash: jytr5/zKs0j0IjkwE+hPK5vmeG+UvgA5h96HhvYg9W4=
   item: null
+  joined: '2020-09-01'
   logo: kodekloud.svg
   name: KodeKloud (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 16:39:00+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/komodor
-  crunchbase_data:
-    acquisitions: []
-    city: Tel Aviv-yafo
-    company_type: ''
-    country: Israel
-    description: Komodor tracks changes and alerts across the Kubernetes stack and
-      analyzes their effect.
-    funding: 67000000
-    homepage: https://komodor.com/
-    industries: []
-    kind: funding
-    linkedin: https://www.linkedin.com/company/komodor-ltd/
-    name: Komodor
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Tel Aviv
-    stockExchange: null
-    twitter: https://twitter.com/Komodor_com
-  homepage_url: https://www.komodor.com/
-  image_data:
-    fileName: komodor-member.svg
-    hash: 8HT+olte5G7cb6E7UjNytBRta8ZLYvs1Enk1PO3sEnM=
+- crunchbase: https://www.crunchbase.com/organization/kodem-security
+  homepage_url: https://www.kodemsecurity.com/
   item: null
+  joined: '2023-06-01'
+  logo: kodem.svg
+  name: Kodem Security (member)
+- crunchbase: https://www.crunchbase.com/organization/komodor
+  homepage_url: https://www.komodor.com/
+  item: null
+  joined: '2021-07-01'
   logo: komodor.svg
   name: Komodor (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 16:53:03+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/konghq
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Gelato.io
-      date: '2015-10-22'
-    - acquiree: Insomnia
-      date: '2019-10-03'
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: Kong is the cloud connectivity company offering the industry-leading
-      service connectivity platform designed for modern architectures.
-    funding: 169101000
-    homepage: https://konghq.com/
-    industries:
-    - Cloud Computing
-    - Cloud Data Services
-    - Developer APIs
-    - Enterprise Software
-    - Open Source
-    - SaaS
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/konghq/
-    name: Kong
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: http://twitter.com/thekonginc
+- crunchbase: https://www.crunchbase.com/organization/konghq
   homepage_url: https://konghq.com/
-  image_data:
-    fileName: kong-member.svg
-    hash: uonu+jmRbS9orxI96O87UNcuWUDIfWVcjBBmSD4Ykaw=
   item: null
+  joined: '2017-04-01'
   logo: kong-member.svg
   name: Kong (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 15:40:15+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/kpmg
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Optimum Solutions
-      date: '2011-09-29'
-    - acquiree: Xantus
-      date: '2013-01-12'
-    - acquiree: Cynergy
-      date: '2014-03-04'
-    - acquiree: Innovation Factory
-      date: '2014-04-15'
-    - acquiree: Zanett
-      date: '2014-06-23'
-    - acquiree: Beacon Partners
-      date: '2015-04-15'
-    - acquiree: G2 FinTech
-      date: '2015-11-02'
-    - acquiree: Markets IT
-      date: '2016-02-08'
-    - acquiree: ToMont Solutions
-      date: '2017-05-01'
-    - acquiree: Matchi.biz
-      date: '2017-05-10'
-    - acquiree: Acuity Research & Insights
-      date: '2017-06-13'
-    - acquiree: Terria Mobile
-      date: '2017-10-01'
-    - acquiree: Cyberinc
-      date: '2018-01-03'
-    - acquiree: Rainmaker Labs
-      date: '2018-03-21'
-    - acquiree: Egyde
-      date: '2018-04-06'
-    - acquiree: Adoxio
-      date: '2018-04-09'
-    - acquiree: UDKU
-      date: '2018-07-30'
-    - acquiree: Conogy
-      date: '2018-08-02'
-    - acquiree: Love Agency
-      date: '2019-05-14'
-    - acquiree: Recommender Labs
-      date: '2019-06-07'
-    - acquiree: Shivansh Solutions
-      date: '2020-03-25'
-    - acquiree: Future Analytics
-      date: '2020-10-07'
-    - acquiree: Fortica
-      date: '2022-04-14'
-    city: Amstelveen
-    company_type: For Profit
-    country: The Netherlands
-    description: KPMG is a network of independent member firms offering audit, tax
-      and advisory services.
-    homepage: https://home.kpmg
-    industries:
-    - Accounting
-    - Advice
-    - Big Data
-    - Consulting
-    - Financial Services
-    - Information Technology
-    - Legal
-    - Management Consulting
-    - Professional Services
-    linkedin: https://www.linkedin.com/company/kpmg
-    name: KPMG US
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents: []
-    region: Noord-Holland
-    stockExchange: null
-    twitter: http://twitter.com/kpmg
-  homepage_url: https://www.home.kpmg/xx/en/home.html
-  image_data:
-    fileName: kpmg-member.svg
-    hash: AoSwm+1pYqN3zC8tRykLvvkFLAEcOeH4M0rzyAP2rAw=
+- crunchbase: https://www.crunchbase.com/organization/ktrust-ltd
+  homepage_url: https://www.ktrust.io/
   item: null
-  logo: kpmg.svg
-  name: KPMG (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 14:00:33+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/ksoc-labs-inc
-  crunchbase_data:
-    acquisitions: []
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: KSOC is an event-driven SaaS platform that automatically remediate
-      Kubernetes security risks & enforce least-privileged access control.
-    funding: 6650000
-    homepage: https://www.ksoc.com
-    industries:
-    - IT Infrastructure
-    - Information Technology
-    - SaaS
-    kind: funding
-    linkedin: https://www.linkedin.com/company/ksoc-labs
-    name: KSOC Labs
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/ksoclabs
-  homepage_url: https://www.ksoc.com/
-  image_data:
-    fileName: ksoc-member.svg
-    hash: +2ks2vpdVm3BXqaYX26Xc6Wz7seIRohZ9edQJz0uk9I=
+  joined: '2024-06-01'
+  logo: ktrust.svg
+  name: KTrust (member)
+- homepage_url: https://kubedb.llc
   item: null
-  logo: ksoc.svg
-  name: KSOC (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 19:10:37+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/kubecost
-  crunchbase_data:
-    acquisitions: []
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: Kubecost provides real-time cost visibility and insights for teams
-      using Kubernetes.
-    funding: 30500000
-    homepage: https://kubecost.com/
-    industries:
-    - Developer APIs
-    - IT Infrastructure
-    - Information Technology
-    kind: funding
-    linkedin: https://www.linkedin.com/company/stackwatch/
-    name: Kubecost
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/kubecost
+  joined: '2024-12-01'
+  logo: kubedb.svg
+  name: KubeDB (member)
+- crunchbase: https://www.crunchbase.com/organization/kubecost
   homepage_url: https://kubecost.com/
-  image_data:
-    fileName: kubecost-member.svg
-    hash: gA8ZvEjUsxexTXLB1vmVdNAo1XXF84yYWjPoiYqAbZs=
   item: null
+  joined: '2019-09-01'
   logo: kubecost.svg
   name: Kubecost (member)
-  twitter_data:
-    latest_tweet_date: 2022-07-31 16:58:37+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/kubernative
-  crunchbase_data:
-    acquisitions: []
-    city: Bisingen
-    company_type: For Profit
-    country: Germany
-    description: INITIATIVE FOR THE OPTIMIZED USE OF  KUBERNETES IN THE DEVELOPMENT
-      OF MICROSERVICES
-    homepage: https://www.kubeops.net/
-    industries: []
-    linkedin: https://www.linkedin.com/company/kubeops/
-    name: KubeOps
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: Baden-Wurttemberg
-    stockExchange: null
-    twitter: https://twitter.com/kubeops_net
+- crunchbase: https://www.crunchbase.com/organization/kubernative
   homepage_url: https://kubeops.net/en
-  image_data:
-    fileName: kube-ops-member.svg
-    hash: NlBOGKjkiLEiVC1FMYDuEZWjYrFBGFvYePtXUoFJ730=
   item: null
-  logo: KubeOps-Schriftzug_200x200px.svg
+  joined: '2019-11-01'
+  logo: kubeops.svg
   name: KubeOps (member)
-  twitter_data:
-    latest_tweet_date: 2021-11-24 16:25:13+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/loodse-gmbh
-  crunchbase_data:
-    acquisitions: []
-    city: Hamburg
-    company_type: For Profit
-    country: Germany
-    description: Kubermatic empowers organizations worldwide to automate their Kubernetes
-      and cloud native operations across multi-cloud, edge and on-prem.
-    funding: 8300000
-    homepage: https://www.kubermatic.com
-    industries:
-    - Enterprise
-    - SaaS
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/kubermatic
-    name: Kubermatic
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: Hamburg
-    stockExchange: null
-    twitter: https://www.twitter.com/kubermatic
+- crunchbase: https://www.crunchbase.com/organization/loodse-gmbh
   homepage_url: https://www.kubermatic.com
-  image_data:
-    fileName: kubermatic-member.svg
-    hash: Hmu0KdiXhO3HItvIgUOzJjZa4ZH8ltyQCJ2I9TDFfnc=
   item: null
+  joined: '2017-01-01'
   logo: kubermatic.svg
   name: Kubermatic (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-03 08:30:00+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/qingcloud
-  crunchbase_data:
-    acquisitions: []
-    city: Beijing
-    company_type: For Profit
-    country: China
-    description: QingCloud is a cloud computing platform that provides IaaS-based
-      flexible cloud services.
-    funding: 280832709
-    homepage: http://qingcloud.com
-    industries:
-    - Cloud Computing
-    - IaaS
-    - SaaS
-    - Software
-    - Web Hosting
-    kind: market_cap
-    linkedin: https://www.linkedin.com/showcase/6462819/
-    name: QingCloud
-    num_employees_max: 1000
-    num_employees_min: 501
-    parents: []
-    region: Beijing
-    stockExchange: sse
-    ticker: 688316.SS
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/qingcloud
   homepage_url: https://kubesphere.io
-  image_data:
-    fileName: kubesphere-member.svg
-    hash: A6axXUmLkCzaoAoMnSHIx3tZ2+Ux9Vi6jJQiDlOEeCo=
   item: null
+  joined: '2019-04-01'
   logo: kubesphere-member.svg
   name: Kubesphere (member)
-  yahoo_finance_data:
-    effective_ticker: 688316.SS
-    market_cap: 252335307
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/kubiya-ai
-  crunchbase_data:
-    acquisitions: []
-    city: Palo Alto
-    company_type: For Profit
-    country: United States
-    description: DevOps virtual assistant for Cloud Operations
-    funding: 6000000
-    homepage: https://www.kubiya.ai/
-    industries:
-    - Artificial Intelligence
-    - Cloud Security
-    - IT Infrastructure
-    - Natural Language Processing
-    - Software
-    kind: funding
-    linkedin: null
-    name: Kubiya.ai
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/kubiya-ai
   homepage_url: https://www.kubiya.ai/
-  image_data:
-    fileName: kubiya-member.svg
-    hash: MU/5ICsry3c/gudk5iJY+/afsuYAUZ7QZsmWpBlEtiw=
   item: null
+  joined: '2022-06-01'
   logo: kubiya.svg
   name: Kubiya (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/kublr
-  crunchbase_data:
-    acquisitions: []
-    city: Washington
-    company_type: For Profit
-    country: United States
-    description: Production-ready cluster and application platform that speeds and
-      simplifies the set-up and management of your K8s cluster.
-    homepage: http://kublr.com/
-    industries:
-    - Consulting
-    - Government
-    - Information Technology
-    - Robotics
-    - Software
-    linkedin: https://www.linkedin.com/company/kublr/
-    name: Kublr
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: District of Columbia
-    stockExchange: null
-    twitter: https://twitter.com/kublr
+- crunchbase: https://www.crunchbase.com/organization/kublr
   homepage_url: https://kublr.com
-  image_data:
-    fileName: kublr-member.svg
-    hash: iyd6iL2qBFjYh45nJweiJU5eUeVnaAEwxQIUWcIs/NA=
   item: null
+  joined: '2017-06-01'
   logo: kublr.svg
   name: Kublr (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-02 13:02:54+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/kumina
-  crunchbase_data:
-    acquisitions: []
-    city: Eindhoven
-    company_type: For Profit
-    country: The Netherlands
-    description: "Kumina solves the most complex and diverse IT-challenges for companies\
-      \ that offer online services or solutions. \n"
-    homepage: https://www.kumina.nl/index.php
-    industries:
-    - Information Technology
-    - Internet
-    linkedin: https://www.linkedin.com/company/kumina-bv/
-    name: Kumina
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Noord-Brabant
-    stockExchange: null
-    twitter: https://twitter.com/kumina_bv
+- crunchbase: https://www.crunchbase.com/organization/kumina
   homepage_url: https://kumina.nl/index
-  image_data:
-    fileName: kumina-member.svg
-    hash: vvj7O9i43Jvsv+3+Mq6k6KhDW8cOi/DTXhb+OJ/Suzk=
   item: null
+  joined: '2018-07-01'
   logo: kumina-member.svg
   name: Kumina (member)
-  twitter_data:
-    latest_tweet_date: 2022-07-15 16:14:48+00:00
+- crunchbase: https://www.crunchbase.com/organization/kusari
+  homepage_url: https://www.kusari.dev
+  item: null
+  joined: '2023-05-01'
+  logo: kusari.svg
+  name: Kusari (member)

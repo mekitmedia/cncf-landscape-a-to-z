@@ -1,43 +1,6 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/bidpal-network
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Great Feats
-      date: '2018-04-17'
-    city: Indianapolis
-    company_type: For Profit
-    country: United States
-    description: 'OneCause Fundraising Solutions help nonprofits raise more funds
-      and reach more donors. '
-    funding: 27591019
-    homepage: http://www.onecause.com
-    industries:
-    - Auctions
-    - Crowdfunding
-    - Enterprise Software
-    - Financial Services
-    - Information Technology
-    - Non Profit
-    - Online Auctions
-    - SaaS
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/27191314/
-    name: OneCause (formerly BidPal)
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: Indiana
-    stockExchange: null
-    twitter: http://twitter.com/OneCause
+- crunchbase: https://www.crunchbase.com/organization/bidpal-network
   homepage_url: https://www.onecause.com/
-  image_data:
-    fileName: one-cause-supporter.svg
-    hash: UQ3om9m1hXwzKqDrBp7jQjV0jcLaS9yZMTQGS2TNBno=
   item: null
+  joined: '2019-10-01'
   logo: onecause.svg
   name: OneCause (supporter)
-  twitter_data:
-    latest_tweet_date: 2022-08-01 16:12:01+00:00

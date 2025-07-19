@@ -1,0 +1,16 @@
+- description: Universal job launcher for PyTorch applications. TorchX is designed
+    to have fast iteration time for training/research and support for E2E production
+    ML pipelines when you're ready.
+  homepage_url: https://pytorch.org/torchx/latest
+  item: null
+  logo: ./pytorch.svg
+  name: Torchx
+  unnamed_organization: true
+- description: TensorFlow API to distribute training across multiple GPUs, multiple
+    machines, or TPUs. Using this API, you can distribute your existing models and
+    training code with minimal code changes.
+  homepage_url: https://www.tensorflow.org/guide/distributed_training
+  item: null
+  logo: ./tensorflow.svg
+  name: Tensorflow Distributed
+  unnamed_organization: true

@@ -1,187 +1,36 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/dgraph
-  crunchbase_data:
-    acquisitions: []
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: Dgraph is a fast, transactional, native and distributed graph database.
-    funding: 20450000
-    homepage: http://dgraph.io
-    industries:
-    - Database
-    - Open Source
-    - Real Time
-    kind: funding
-    linkedin: https://www.linkedin.com/company/dgraph-labs/
-    name: Dgraph Labs
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://www.twitter.com/dgraphlabs
-  github_data:
-    contributions: 7;5;4;9;2;10;9;4;5;1;1;1;0;1;1;2;12;1;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;1;1;0;0;0;0
-    contributors_count: 205
-    contributors_link: https://github.com/dgraph-io/dgraph/graphs/contributors
-    description: Native GraphQL Database with graph backend
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 6053534
-    - color: '#89e051'
-      name: Shell
-      value: 137141
-    - name: HCL
-      value: 108816
-    - color: '#3D6117'
-      name: TeX
-      value: 62368
-    - color: '#2b7489'
-      name: TypeScript
-      value: 21152
-    - color: '#427819'
-      name: Makefile
-      value: 12449
-    - color: '#f1e05a'
-      name: JavaScript
-      value: 8097
-    - color: '#701516'
-      name: Ruby
-      value: 5523
-    - color: '#384d54'
-      name: Dockerfile
-      value: 2151
-    - name: Smarty
-      value: 644
-    latest_commit_date: '2022-07-08T01:07:22Z'
-    latest_commit_link: /dgraph-io/dgraph/commit/15d370107f847fddcd995ad96313fa3986b45cf5
-    license: Other
-    release_date: '2021-12-02T16:38:15Z'
-    release_link: https://github.com/dgraph-io/dgraph/releases
-    stars: 18305
-  github_start_commit_data:
-    start_commit_link: /dgraph-io/dgraph/commit/a1ca14d187254ef331cf5fa664aa11eaec139e44
-    start_date: '2015-08-25T07:15:56Z'
+- crunchbase: https://www.crunchbase.com/organization/databend
+  description: Databend is a modern Elasticity and Performance cloud data warehouse,
+    activate your object storage for real-time analytics.  Databend Serverless at
+    https://app.databend.com/
+  homepage_url: https://databend.rs
+  item: null
+  logo: databend.svg
+  name: Databend
+  repo_url: https://github.com/datafuselabs/databend
+- crunchbase: https://www.crunchbase.com/organization/dgraph
   homepage_url: https://dgraph.io/
-  image_data:
-    fileName: dgraph.svg
-    hash: AXoRpAmIp6r/WQ8it+J7z/crhEIxr+2qXlJWRop0+kY=
   item: null
   logo: dgraph.svg
   name: Dgraph
   open_source: false
   repo_url: https://github.com/dgraph-io/dgraph
-  repos:
-  - stars: 18305
-    url: https://github.com/dgraph-io/dgraph
-  twitter_data:
-    latest_tweet_date: 2022-07-30 11:17:49+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/apache
-  crunchbase_data:
-    acquisitions: []
-    city: Forest Hill
-    company_type: Non Profit
-    country: United States
-    description: Apache Software Foundation provides organizational, legal and financial
-      support for Apache open-source software projects.
-    homepage: http://www.apache.org
-    industries:
-    - Non Profit
-    - Software
-    linkedin: https://www.linkedin.com/company/the-apache-software-foundation
-    name: The Apache Software Foundation
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: Maryland
-    stockExchange: null
-    twitter: http://twitter.com/TheASF
-  github_data:
-    contributions: 18;14;9;13;12;15;5;9;23;7;9;20;15;23;17;34;19;28;12;6;1;6;18;13;17;13;14;10;6;18;18;12;7;9;17;15;21;16;13;9;25;10;17;10;17;15;9;15;28;9;10;23
-    contributors_count: 558
-    contributors_link: https://github.com/apache/druid/graphs/contributors
-    description: 'Apache Druid: a high performance real-time analytics database.'
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#b07219'
-      name: Java
-      value: 40475804
-    - color: '#2b7489'
-      name: TypeScript
-      value: 1339838
-    - color: '#3D6117'
-      name: TeX
-      value: 399468
-    - name: SCSS
-      value: 130026
-    - color: '#89e051'
-      name: Shell
-      value: 87884
-    - color: '#3572A5'
-      name: Python
-      value: 75938
-    - color: '#f1e05a'
-      name: JavaScript
-      value: 61719
-    - color: '#198CE7'
-      name: R
-      value: 17002
-    - color: '#0050b2'
-      name: FreeMarker
-      value: 10397
-    - color: '#384d54'
-      name: Dockerfile
-      value: 8937
-    - color: '#9DC3FF'
-      name: ANTLR
-      value: 5547
-    - color: '#563d7c'
-      name: CSS
-      value: 3878
-    - color: '#ecdebe'
-      name: Roff
-      value: 3617
-    - name: Smarty
-      value: 3517
-    - color: '#e34c26'
-      name: HTML
-      value: 2536
-    - name: Thrift
-      value: 1003
-    - color: '#427819'
-      name: Makefile
-      value: 659
-    - color: '#da291c'
-      name: PostScript
-      value: 5
-    latest_commit_date: '2022-08-06T00:57:36Z'
-    latest_commit_link: /apache/druid/commit/9f8982a9a6b6d1b49ce00d9930b730f40c14260c
-    license: Apache License 2.0
-    release_date: '2022-06-23T03:31:38Z'
-    release_link: https://github.com/apache/druid/releases
-    stars: 11947
-  github_start_commit_data:
-    start_commit_link: /apache/incubator-druid/commit/70e993806e48fbd35ac597a4075d046a98c5b6ae
-    start_date: '2012-10-23T19:08:07Z'
+- crunchbase: https://www.crunchbase.com/organization/apache
+  homepage_url: https://doris.apache.org/
+  item: null
+  logo: doris.svg
+  name: Doris
+  repo_url: https://github.com/apache/doris
+  twitter: https://twitter.com/doris_apache
+- crunchbase: https://www.crunchbase.com/organization/dragonflydb
+  homepage_url: https://dragonflydb.io/
+  item: null
+  logo: dragonflydb.svg
+  name: DragonflyDB
+  repo_url: https://github.com/dragonflydb/dragonfly
+- crunchbase: https://www.crunchbase.com/organization/apache
   homepage_url: https://druid.apache.org/
-  image_data:
-    fileName: druid.svg
-    hash: ksXmCOvm5ST1iUHD+yb6HK1TrN0BCsv7FhMVSJzSEsI=
   item: null
   logo: druid.svg
   name: Druid
   repo_url: https://github.com/apache/druid
-  repos:
-  - stars: 11947
-    url: https://github.com/apache/druid
   twitter: https://twitter.com/druidio
-  twitter_data:
-    latest_tweet_date: 2022-07-26 18:28:39+00:00

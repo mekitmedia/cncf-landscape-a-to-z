@@ -1,0 +1,19 @@
+- description: Kubernetes AI Toolchain Operator (KAITO) simplifies LLM inference,
+    tuning, and RAG workloads on Kubernetes.
+  extra:
+    accepted: '2024-10-17'
+    dev_stats_url: https://kaito.devstats.cncf.io/
+  homepage_url: https://kaito-project.netlify.app/
+  item: null
+  logo: kaito.svg
+  name: KAITO
+  project: sandbox
+  repo_url: https://github.com/kaito-project/kaito
+- description: Highly scalable and standards based Model Inference Platform on Kubernetes
+    for Trusted AI
+  homepage_url: https://kserve.github.io/website/0.11/
+  item: null
+  logo: ./k-serve-color.svg
+  name: Kserve
+  repo_url: https://github.com/kserve/kserve
+  unnamed_organization: true

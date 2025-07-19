@@ -1,90 +1,48 @@
-- best_practice_data:
-    badge: 2298
-    percentage: 100
+- allow_duplicate_repo: true
   crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Kubernetes
-      date: '2016-03-10'
-    - acquiree: RethinkDB
-      date: '2017-02-06'
-      price: 25000
-    city: San Francisco
-    company_type: Non Profit
-    country: United States
-    description: CNCF is an open source software foundation that hosts and nurtures
-      projects like Kubernetes and Prometheus.
-    funding: 3000000
-    homepage: https://www.cncf.io
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Non Profit
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
-    name: Cloud Native Computing Foundation (CNCF)
-    num_employees_max: 50
-    num_employees_min: 11
-    parents:
-    - https://www.crunchbase.com/organization/linux-foundation
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/CloudNativeFdn
   extra:
     accepted: '2019-04-08'
     artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#cri-o-logos
+    audits:
+    - date: '2022-06-06'
+      type: security
+      url: https://github.com/cri-o/cri-o/blob/main/security/2022_security_audit_adalogics.pdf
+      vendor: ADA Logics
     blog_url: https://medium.com/cri-o
+    clomonitor_name: cri-o
     dev_stats_url: https://crio.devstats.cncf.io/
+    graduated: '2023-07-19'
+    incubating: '2019-04-08'
     slack_url: https://kubernetes.slack.com/messages/CAZH62UR1
     stack_overflow_url: https://stackoverflow.com/questions/tagged/cri-o
-  github_data:
-    contributions: 14;36;38;4;18;16;20;28;19;16;26;16;16;14;13;8;9;7;18;4;1;8;7;13;15;19;23;44;28;12;7;14;10;8;12;9;15;19;19;21;30;18;5;25;12;30;40;17;21;21;12;22
-    contributors_count: 251
-    contributors_link: https://github.com/cri-o/cri-o/graphs/contributors
-    description: Open Container Initiative-based implementation of Kubernetes Container
-      Runtime Interface
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 1450784
-    - color: '#89e051'
-      name: Shell
-      value: 348520
-    - color: '#555555'
-      name: C
-      value: 18724
-    - color: '#427819'
-      name: Makefile
-      value: 17268
-    - color: '#7e7eff'
-      name: Nix
-      value: 2622
-    - color: '#384d54'
-      name: Dockerfile
-      value: 1460
-    latest_commit_date: '2022-08-05T01:17:42Z'
-    latest_commit_link: /cri-o/cri-o/commit/822b4847d3722172e3095014e60c9dcf94655d2c
-    license: Apache License 2.0
-    release_date: '2022-07-21T06:59:07Z'
-    release_link: https://github.com/cri-o/cri-o/releases
-    stars: 4145
-  github_start_commit_data:
-    start_commit_link: /cri-o/cri-o/commit/580db0719d68b3ff3bb30f60397c3892be383eb5
-    start_date: '2016-09-09T19:56:31Z'
+    summary_business_use_case: 'CRI-O  is able to tune its behavior to that of the
+      Kubelet, enabling features and performance gains through customization. It is
+      tested against a suite of thousands of tests, including the suite of Kubernetes
+      e2e tests, to ensure compatibility with Kubernetes workloads. It has long had
+      security on the forefront of its design philosophy, enabling new security knobs
+      and reducing the attack surface for the purposes of running containers in production.
+
+      '
+    summary_integrations: Kubernetes, runc, crun, youki, Kata containers, CNI, Open
+      Telemetry, Prometheus, sigstore, gRPC
+    summary_intro_url: https://github.com/cri-o/cri-o/blob/main/awesome.md
+    summary_personas: Cluster Admins, SRE, Platform Architect
+    summary_release_rate: 'Every 4 months, released in tandem with Kubernetes minor
+      releases (CRI-O 1.x.y is released soon after Kubernetes 1.x.z).
+
+      '
+    summary_tags: Container, Image, OCI, CRI, Runtime
+    summary_use_case: 'CRI-O is a secure, performant, and stable Container Runtime
+      Interface (CRI) implementation for the Kubelet to orchestrate Open Container
+      Initiative (OCI) containers in production Kubernetes environments. CRI-O''s
+      scope is only targeted at Kubernetes, and thus can be performance optimized,
+      rigorously tested and securely tuned for running containers, pods and images
+      in Kubernetes clusters.
+
+      '
   homepage_url: https://cri-o.io/
-  image_data:
-    fileName: cri-o.svg
-    hash: 71a6fjYhRTy6o3WL3jwdXZZ+xhqqraZY/18yzRo4Dyg=
   item: null
   logo: cri-o.svg
   name: CRI-O
-  project: incubating
+  project: graduated
   repo_url: https://github.com/cri-o/cri-o
-  repos:
-  - stars: 4145
-    url: https://github.com/cri-o/cri-o
-  twitter_data:
-    latest_tweet_date: 2022-08-05 21:09:37+00:00

@@ -1,113 +1,20 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/harness-512d
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Drone.io
-      date: '2020-08-05'
-    - acquiree: ChaosNative
-      date: '2022-03-22'
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: Harness is a Continuous Delivery-as-a-Service platform for engineering
-      and DevOps teams to release applications into production.
-    funding: 425000000
-    homepage: http://harness.io
-    industries:
-    - Developer Tools
-    - Productivity Tools
-    - SaaS
-    kind: funding
-    linkedin: https://www.linkedin.com/company/harnessinc
-    name: Harness
-    num_employees_max: 1000
-    num_employees_min: 501
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/harnessio
+- crunchbase: https://www.crunchbase.com/organization/harness-512d
   homepage_url: https://harness.io
-  image_data:
-    fileName: harness-io.svg
-    hash: 3vbjGNT9bi7hueXdJk6V2+2Ix8c/rjtK1hepZmfM5lw=
   item: null
   logo: harness.svg
   name: Harness.io
-  twitter_data:
-    latest_tweet_date: 2022-08-05 22:40:01+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/hyscale
-  crunchbase_data:
-    acquisitions: []
-    city: Mountain View
-    company_type: For Profit
-    country: United States
-    description: An acceleration platform for Kubernetes. Offers self-service app
-      deployments, container sprawl management across clusters, and DevSecOps.
-    homepage: https://www.hyscale.io/enterprise/
-    industries: []
-    linkedin: https://www.linkedin.com/company/hyscale/
-    name: HyScale
-    num_employees_max: 50
-    num_employees_min: 11
-    parents:
-    - https://www.crunchbase.com/organization/pramati-prism
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/hyscaleio
+- crunchbase: https://www.crunchbase.com/organization/helmwave
+  homepage_url: https://helmwave.app
+  item: null
+  logo: helmwave.svg
+  name: Helmwave
+  repo_url: https://github.com/helmwave/helmwave
+- crunchbase: https://www.crunchbase.com/organization/hyscale
   description: An app-centric abstraction framework over K8s and an enterprise platform
     for accelerating deployments to multi-cloud Kubernetes. Offers self-service app
     deployments, container sprawl management across clusters, and DevSecOps.
-  github_data:
-    contributions: 5;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-    contributors_count: 26
-    contributors_link: https://github.com/hyscale/hyscale/graphs/contributors
-    description: HyScale is an Application Centric Abstraction Framework over K8s.
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#b07219'
-      name: Java
-      value: 1951082
-    - color: '#00ADD8'
-      name: Go
-      value: 19897
-    - color: '#89e051'
-      name: Shell
-      value: 10718
-    - name: Smarty
-      value: 4346
-    - color: '#384d54'
-      name: Dockerfile
-      value: 1509
-    - color: '#f1e05a'
-      name: JavaScript
-      value: 1249
-    - color: '#012456'
-      name: PowerShell
-      value: 1092
-    latest_commit_date: '2021-08-27T06:58:56Z'
-    latest_commit_link: /hyscale/hyscale/commit/87c78a3bb29cc6b40d64c816c9c801663c62df5d
-    license: Apache License 2.0
-    release_date: '2021-08-31T09:10:24Z'
-    release_link: https://github.com/hyscale/hyscale/releases
-    stars: 436
-  github_start_commit_data:
-    start_commit_link: /hyscale/hyscale/commit/a0e4fe22e696a3a76582f1d0b3ce9236eb9169b5
-    start_date: '2019-09-26T13:39:15Z'
-  homepage_url: https://www.hyscale.io
-  image_data:
-    fileName: hy-scale.svg
-    hash: erC4fClFU6Zb7fkivQrNVvMieTJ4OQrnMSAJ3o3PnCE=
+  homepage_url: https://github.com/hyscale/hyscale#readme
   item: null
   logo: hyscale.svg
   name: HyScale
   repo_url: https://github.com/hyscale/hyscale
-  repos:
-  - stars: 436
-    url: https://github.com/hyscale/hyscale
-  twitter_data:
-    latest_tweet_date: 2021-02-10 15:50:06+00:00

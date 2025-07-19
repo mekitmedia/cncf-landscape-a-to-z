@@ -1,94 +1,51 @@
-- best_practice_data:
-    badge: 5576
-    percentage: 96
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Kubernetes
-      date: '2016-03-10'
-    - acquiree: RethinkDB
-      date: '2017-02-06'
-      price: 25000
-    city: San Francisco
-    company_type: Non Profit
-    country: United States
-    description: CNCF is an open source software foundation that hosts and nurtures
-      projects like Kubernetes and Prometheus.
-    funding: 3000000
-    homepage: https://www.cncf.io
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Non Profit
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
-    name: Cloud Native Computing Foundation (CNCF)
-    num_employees_max: 50
-    num_employees_min: 11
-    parents:
-    - https://www.crunchbase.com/organization/linux-foundation
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/CloudNativeFdn
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Kmesh is a high-performance and low overhead service mesh data plane
+    based on eBPF and programmable kernel. Kmesh brings traffic management, security
+    and monitoring to service communication without needing application code changes.
+    It is natively sidecarless, zero intrusion and without adding any resource cost
+    to application container.
   extra:
-    accepted: '2020-06-23'
+    accepted: '2024-10-17'
+    chat_channel: '#kmesh'
+    clomonitor_name: kmesh
+    slack_url: https://slack.cncf.io/
+    youtube_url: https://www.youtube.com/channel/UC-ToQ9h0SR_w492PpIfZAGw
+  homepage_url: https://kmesh.net
+  item: null
+  logo: kmesh.svg
+  name: Kmesh
+  project: sandbox
+  repo_url: https://github.com/kmesh-net/kmesh
+  twitter: https://twitter.com/Kmesh_net
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2020-06-25'
+    annual_review_date: '2023-06-10'
+    annual_review_url: https://github.com/cncf/toc/pull/1078
+    blog_url: https://kuma.io/blog/
+    clomonitor_name: kuma
     dev_stats_url: https://kuma.devstats.cncf.io/
-  github_data:
-    contributions: 17;20;38;10;13;8;20;7;29;15;17;25;24;20;29;38;22;18;29;21;0;29;31;16;21;13;17;30;22;38;6;17;16;40;28;22;11;7;12;14;26;27;25;15;8;10;20;16;23;23;32;45
-    contributors_count: 72
-    contributors_link: https://github.com/kumahq/kuma/graphs/contributors
-    description: "\U0001F43B The multi-zone service mesh for containers, Kubernetes\
-      \ and VMs. Built with Envoy. CNCF Sandbox Project."
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 6190714
-    - color: '#427819'
-      name: Makefile
-      value: 74038
-    - color: '#89e051'
-      name: Shell
-      value: 34884
-    - name: Mustache
-      value: 10882
-    - color: '#e34c26'
-      name: HTML
-      value: 4763
-    - name: PLpgSQL
-      value: 1893
-    - color: '#384d54'
-      name: Dockerfile
-      value: 1198
-    - color: '#3572A5'
-      name: Python
-      value: 384
-    - color: '#563d7c'
-      name: CSS
-      value: 131
-    latest_commit_date: '2022-08-05T16:12:09Z'
-    latest_commit_link: /kumahq/kuma/commit/ecdf217b2e3138e68d7c3ced199bfc2d4d2c2218
-    license: Apache License 2.0
-    release_date: '2022-07-19T16:02:53Z'
-    release_link: https://github.com/kumahq/kuma/releases
-    stars: 2871
-  github_start_commit_data:
-    start_commit_link: /Kong/kuma/commit/10a9ef01d3d0d8260a4cc916329dbf4201cfb2de
-    start_date: '2019-03-13T13:20:14Z'
+    summary_business_use_case: It is becoming more important then ever to ensure that
+      traffic is secure, observable, and reliable. Kuma service mesh enables users
+      to adopt a zero trust application networking model while providing flexible
+      traffic management and observability capabilities.  Kuma also supports a wide
+      variety of platforms including Kubernetes, Nomad, Docker, and Virtual Machines.
+      Thereby allowing organizations to take advantage of these benefits even at the
+      start of their digital transformation journey.
+    summary_integrations: Flagger
+    summary_personas: SREs, DevOps, Platform Engineers, Architects, Developers
+    summary_release_rate: Every 8-10 weeks
+    summary_tags: mTLS, security, traffic management, observability, microservices,
+      resilience, load balancing, service mesh, policy, wasm, zero trust, multi-cluster,
+      cross-platform, kubernetes, virtual machines
+    summary_use_case: Kuma is a service mesh that combines the extensibility and performance
+      of Envoy proxy with great UX and a powerful, yet flexible set of policies. It
+      was built from the ground up to support Kubernetes, Docker, and VM environments
+      seamlessly in a single deployment.
   homepage_url: https://kuma.io
-  image_data:
-    fileName: kuma.svg
-    hash: Q8K3xJMiLV3RC1Cmk7dTcZJpi8SEsk5BN1rm0RedMts=
   item: null
   logo: kuma-stacked-color.svg
   name: Kuma
   project: sandbox
   repo_url: https://github.com/kumahq/kuma
-  repos:
-  - stars: 2871
-    url: https://github.com/kumahq/kuma
   twitter: https://twitter.com/KumaMesh
-  twitter_data:
-    latest_tweet_date: 2022-07-29 11:56:29+00:00

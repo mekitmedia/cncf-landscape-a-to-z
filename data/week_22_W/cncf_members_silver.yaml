@@ -1,610 +1,67 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/wallarm
-  crunchbase_data:
-    acquisitions: []
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: End-to-end API Security for the Modern Teams
-    funding: 10800000
-    homepage: https://wallarm.com
-    industries:
-    - Compliance
-    - Cyber Security
-    - Risk Management
-    - SaaS
-    - Security
-    kind: funding
-    linkedin: https://www.linkedin.com/company/wallarm
-    name: Wallarm
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: http://twitter.com/wallarm
-  homepage_url: https://wallarm.com
-  image_data:
-    fileName: wallarm-member.svg
-    hash: zKotHIIBXxx0+e65yXqqw5xImrhLl+ECRGt/pS59//g=
-  item: null
-  logo: wallarm-member.svg
-  name: Wallarm (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 15:23:29+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/walmart-labs
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Set Direction
-      date: '2011-04-01'
-    - acquiree: Kosmix
-      date: '2011-04-18'
-    - acquiree: OneRiot
-      date: '2011-09-01'
-    - acquiree: Grabble
-      date: '2011-11-01'
-    - acquiree: Small Society
-      date: '2011-12-01'
-    - acquiree: SocialCalendar
-      date: '2012-03-01'
-    - acquiree: OneOps
-      date: '2013-05-01'
-    - acquiree: Tasty Labs
-      date: '2013-05-14'
-    - acquiree: Inkiru
-      date: '2013-06-01'
-    - acquiree: Torbit
-      date: '2013-07-24'
-    - acquiree: Adchemy
-      date: '2014-05-06'
-    - acquiree: Stylr
-      date: '2014-06-16'
-    - acquiree: Luvocracy
-      date: '2014-07-29'
-    - acquiree: PunchTab
-      date: '2015-09-22'
-    - acquiree: Int Data Labs, Inc.
-      date: '2018-12-13'
-    - acquiree: DataTurks
-      date: '2019-02-25'
-    - acquiree: BigTrade
-      date: '2019-07-09'
-    - acquiree: FloCare
-      date: '2019-07-09'
-    city: San Bruno
-    company_type: For Profit
-    country: United States
-    description: "WalmartLabs, the technology division responsible for Walmart\u2019\
-      s global e-Commerce initiatives."
-    homepage: http://www.walmartlabs.com/
-    industries:
-    - E-Commerce
-    - Mobile
-    - Multi-level Marketing
-    - Retail
-    - Retail Technology
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/9390173
-    name: Walmart Labs
-    num_employees_max: 5000
-    num_employees_min: 1001
-    parents:
-    - https://www.crunchbase.com/organization/walmart
-    region: California
-    stockExchange: null
-    ticker: WMT
-    twitter: http://twitter.com/WalmartLabs
+- crunchbase: https://www.crunchbase.com/organization/walmart-labs
   enduser: true
   homepage_url: https://www.walmartlabs.com
-  image_data:
-    fileName: walmart-member.svg
-    hash: ZXpljFffLKQRovdvcLvjhp/evD8ereC6ZEyf5RwE2vQ=
   item: null
+  joined: '2018-09-01'
   logo: walmart-member.svg
   name: Walmart (member)
-  twitter_data:
-    latest_tweet_date: 2022-07-26 18:39:07+00:00
-  yahoo_finance_data:
-    effective_ticker: WMT
-    market_cap: 360597323776
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/wanclouds
-  crunchbase_data:
-    acquisitions: []
-    city: Santa Clara
-    company_type: For Profit
-    country: United States
-    description: Re-Imagining Multi-Cloud Migrations, Disaster Recovery, Visualization,
-      and Compliance delivered as a Service
-    homepage: https://www.wanclouds.net/
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Cloud Management
-    - SaaS
-    - Software
-    linkedin: https://www.linkedin.com/company/wanclouds-inc
-    name: Wanclouds Inc.
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/WancloudsInc
-  homepage_url: https://www.wanclouds.net/
-  image_data:
-    fileName: wanclouds-member.svg
-    hash: a6mRpJCIaFKtSWXvA/A102hTPG9fjRn18cfgHDuPOOw=
+- crunchbase: https://www.crunchbase.com/organization/wavecon
+  homepage_url: https://www.wavecon.de/de/
   item: null
-  logo: wanclouds.svg
-  name: Wanclouds (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 20:00:29+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/wayfair
-  crunchbase_data:
-    acquisitions:
-    - acquiree: buyster
-      date: '2011-09-20'
-    - acquiree: DwellStudio
-      date: '2013-08-02'
-    - acquiree: CustomMade
-      date: '2015-05-21'
-    - acquiree: TrumpIt
-      date: '2016-08-30'
-    city: Boston
-    company_type: For Profit
-    country: United States
-    description: Wayfair is an online retailer of home products for bedroom, living
-      room, kitchen and dining, home entertainment, bathroom, and more.
-    funding: 1678000000
-    homepage: https://www.wayfair.com
-    industries:
-    - E-Commerce
-    - Furniture
-    - Home Decor
-    - Retail
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/wayfair/
-    name: Wayfair
-    num_employees_max: 10000
-    num_employees_min: 5001
-    parents: []
-    region: Massachusetts
-    stockExchange: nyse
-    ticker: W
-    twitter: https://twitter.com/wayfair
-  enduser: true
-  homepage_url: https://www.wayfair.com/
-  image_data:
-    fileName: wayfair-member.svg
-    hash: ccSp7ZHe26k6QPMWkJyl13vxwmOWN1pY+ADTbP+tsbY=
-  item: null
-  joined: '2022-04-27'
-  logo: wayfair.svg
-  name: Wayfair (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 20:37:19+00:00
-  yahoo_finance_data:
-    effective_ticker: W
-    market_cap: 6717454336
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/weaveworks
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Magalix
-      date: '2022-01-26'
-    city: London
-    company_type: For Profit
-    country: United Kingdom
-    description: Weaveworks simplifies operating Kubernetes workloads and provides
-      a developer-centric operating model for cloud-native applications.
-    funding: 61649991
-    homepage: https://www.weave.works/
-    industries:
-    - Cloud Computing
-    - Developer Tools
-    - Enterprise Software
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/weaveworks
-    name: Weaveworks
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: England
-    stockExchange: null
-    twitter: http://twitter.com/weaveworks
-  homepage_url: https://www.weave.works
-  image_data:
-    fileName: weaveworks-member.svg
-    hash: 8KErZ4Uuxjn6jncaHfVFkfxIAekwP7vqwm5K0Ahelo4=
-  item: null
-  logo: weaveworks-member.svg
-  name: Weaveworks (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-06 00:24:04+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/webera
-  crunchbase_data:
-    acquisitions: []
-    city: Reston
-    company_type: For Profit
-    country: United States
-    description: DevOps as a services specialized consulting, building pipelines for
-      innovators
-    homepage: https://webera.com
-    industries:
-    - Consulting
-    - Information Technology
-    - Marketing
-    - Software
-    linkedin: https://www.linkedin.com/company/wearewebera
-    name: Webera
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Virginia
-    stockExchange: null
-    twitter: https://twitter.com/wearewebera
-  homepage_url: https://www.webera.com/
-  image_data:
-    fileName: webera-member.svg
-    hash: TgiTlYjCYLY/ScQbgQgx+31Yg/L5ghWcWrJplLPByeA=
-  item: null
-  logo: webera.svg
-  name: Webera (member)
-  twitter_data:
-    latest_tweet_date: 2022-05-18 18:04:55+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/wescale-a110
-  crunchbase_data:
-    acquisitions: []
-    city: Paris
-    company_type: For Profit
-    country: France
-    description: Improve together
-    homepage: http://www.wescale.fr/
-    industries: []
-    linkedin: https://www.linkedin.com/company/wescale/
-    name: WeScale
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Ile-de-France
-    stockExchange: null
-    twitter: https://twitter.com/YesWeScale
+  joined: '2023-07-01'
+  logo: wavecon.svg
+  name: Wavecon (member)
+- crunchbase: https://www.crunchbase.com/organization/wescale-a110
   homepage_url: https://www.wescale.fr/
-  image_data:
-    fileName: we-scale-member.svg
-    hash: //glax4NTivJiKyeNSBjuKmKMpj5IVXoXFzY/MSUfPs=
   item: null
+  joined: '2021-01-01'
   logo: wescale.svg
   name: WeScale (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 10:21:47+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/whatap-labs
-  crunchbase_data:
-    acquisitions: []
-    city: Seocho
-    company_type: For Profit
-    country: South Korea
-    description: WhaTap Labs is a Korean company providing B2B service monitoring
-      engine.
-    funding: 15300000
-    homepage: https://www.whatap.io/en/
-    industries:
-    - Application Performance Management
-    - B2B
-    kind: funding
-    linkedin: null
-    name: WhaTap Labs
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Seoul-t'ukpyolsi
-    stockExchange: null
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/whatap-labs
   homepage_url: https://www.whatap.io/en
-  image_data:
-    fileName: wha-tap-member.svg
-    hash: lI+ew6W3mslK3jJfr/jGtam7k8H2B8Yun0ChjowcrgE=
   item: null
+  joined: '2020-09-01'
   logo: whatap-labs.svg
   name: WhaTap (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/whitestack
-  crunchbase_data:
-    acquisitions: []
-    city: Miami
-    company_type: For Profit
-    country: United States
-    description: Cloud Blocks for building automated Public or Private Clouds
-    homepage: http://www.whitestack.com
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Cloud Storage
-    - Content Delivery Network
-    - Data Center
-    - Data Center Automation
-    - Network Hardware
-    - Private Cloud
-    - Software
-    linkedin: null
-    name: Whitestack
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: Florida
-    stockExchange: null
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/whitestack
   homepage_url: https://www.whitestack.com/
-  image_data:
-    fileName: whitestack-member.svg
-    hash: H6p2jmSRPZEweYQIf/jKaPOvBISh6GE7FBDGFf1VgZI=
   item: null
+  joined: '2022-01-01'
   logo: whitestack.svg
   name: Whitestack (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/whizus-gmbh
-  crunchbase_data:
-    acquisitions: []
-    city: Vienna
-    company_type: For Profit
-    country: Austria
-    description: Support in technical issues & contribute to the devops society
-    homepage: https://www.whizus.com/
-    industries: []
-    linkedin: https://www.linkedin.com/company/whizus
-    name: WhizUs
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Wien
-    stockExchange: null
-    twitter: https://twitter.com/whizus_?lang=de
+- crunchbase: https://www.crunchbase.com/organization/whizus-gmbh
   homepage_url: https://www.whizus.com/
-  image_data:
-    fileName: whiz-us-member.svg
-    hash: ZxYNKy2kgRgqDS87OuVE9p5+nYuGsOMtGIsEyNo1IxE=
   item: null
+  joined: '2019-12-01'
   logo: whizus.svg
   name: WhizUs (member)
-  twitter_data:
-    latest_tweet_date: 2021-11-09 10:26:34+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/wind-river
-  crunchbase_data:
-    acquisitions:
-    - acquiree: AudeSi Technologies
-      date: '2000-03-14'
-    - acquiree: Rapid Logic
-      date: '2000-10-09'
-      price: 58300000
-    - acquiree: Tilcon Software Ltd.
-      date: '2009-02-28'
-    - acquiree: Virtutech
-      date: '2010-02-05'
-      price: 45000000
-    - acquiree: Arynga
-      date: '2016-04-04'
-    - acquiree: Star Lab Corp.
-      date: '2020-01-16'
-    - acquiree: Particle Design
-      date: '2021-09-20'
-    city: Alameda
-    company_type: For Profit
-    country: United States
-    description: Wind River is a technology company that develops, runs, and manages
-      device software.
-    funding: 0
-    homepage: http://www.windriver.com
-    industries:
-    - Developer Tools
-    - Hardware
-    - Operating Systems
-    - Project Management
-    - Software
-    linkedin: https://www.linkedin.com/company/wind-river
-    name: Wind River
-    num_employees_max: 5000
-    num_employees_min: 1001
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: http://twitter.com/WindRiver
-  homepage_url: https://www.windriver.com/resources
-  image_data:
-    fileName: wind-river-member.svg
-    hash: T2a6/3cjncll+Vjjrd9H3bTULlBUVnCOxDwk9xxRRE0=
+- crunchbase: https://www.crunchbase.com/organization/myloc-managed-it-ag
+  homepage_url: https://www.wiit.cloud
   item: null
+  joined: '2024-01-01'
+  logo: wiit.svg
+  name: WIIT (member)
+- crunchbase: https://www.crunchbase.com/organization/wind-river
+  homepage_url: https://www.windriver.com/resources
+  item: null
+  joined: '2019-08-01'
   logo: wind-river.svg
   name: Wind River (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 20:02:09+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/windmill-engineering
-  crunchbase_data:
-    acquisitions: []
-    city: New York
-    company_type: For Profit
-    country: United States
-    description: Tilting at Cloud-Based Development
-    homepage: https://tilt.dev/
-    industries:
-    - Software
-    linkedin: https://www.linkedin.com/company/windmill-engineering/about/
-    name: Windmill Engineering
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: New York
-    stockExchange: null
-    twitter: https://twitter.com/windmill_eng
-  homepage_url: https://tilt.dev
-  image_data:
-    fileName: windmill-engineering-member.svg
-    hash: cBuo+Rv9xjyd0FjE0d7iEQw9Qd0TMxDrn+R+7YyKiaU=
-  item: null
-  logo: windmill-engineering-member.svg
-  name: Windmill Engineering (member)
-  twitter_data:
-    latest_tweet_date: 2019-07-22 17:19:35+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/wise2c-technology-co
-  crunchbase_data:
-    acquisitions: []
-    city: Shenzhen
-    company_type: For Profit
-    country: China
-    description: Kubernetes Certified Service Provider
-    homepage: http://www.wise2c.com/
-    industries:
-    - Information Technology
-    - Internet
-    - Robotics
-    - Software
-    linkedin: null
-    name: Wise2c Technology
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Guangdong
-    stockExchange: null
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/wise2c-technology-co
   homepage_url: http://www.wise2c.com
-  image_data:
-    fileName: wise2-c-member.svg
-    hash: fBxic5zHy4Au4gfGK83MsPdD9BbMw8UUo+pfpp1X9Ns=
   item: null
+  joined: '2017-11-01'
   logo: wise2-c-member.svg
   name: Wise2C (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/woqu-technology-co-ltd
-  crunchbase_data:
-    acquisitions: []
-    city: Hangzhou
-    company_type: For Profit
-    country: China
-    description: WOQU Tech is dedicated to providing integrated database system solutions
-      for both domestic and foreign large enterprises
-    homepage: http://woqutech.com/
-    industries:
-    - Information Technology
-    linkedin: https://www.linkedin.com/company/%E6%9D%AD%E5%B7%9E%E6%B2%83%E8%B6%A3%E7%BD%91%E7%BB%9C%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/
-    name: WOQU Technology
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: Zhejiang
-    stockExchange: null
-    twitter: null
-  homepage_url: http://www.woqutech.com/
-  image_data:
-    fileName: woqu-tech-member.svg
-    hash: vSJf7nS3v9PlRN+MurYa/2ICGv4qbiliY8vPFOdAvDU=
+- crunchbase: https://www.crunchbase.com/organization/wiz-inc
+  homepage_url: https://www.wiz.io
   item: null
-  logo: woqutech.svg
-  name: WOQU Tech (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/wowjoy-technology
-  crunchbase_data:
-    acquisitions: []
-    city: Hangzhou
-    company_type: For Profit
-    country: China
-    description: WOWJOY TECHNOLOGY is a provider of data-driven medical services.
-    funding: 25516454
-    homepage: https://www.wowjoy.cn/
-    industries:
-    - Health Care
-    - Internet
-    - Medical
-    kind: funding
-    linkedin: null
-    name: WOWJOY TECHNOLOGY
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: Zhejiang
-    stockExchange: null
-    twitter: null
-  homepage_url: https://www.wowjoy.cn/#/
-  image_data:
-    fileName: wowjoy-technology-member.svg
-    hash: GQFmxuXBhaWgMh2QQ0dwF38V+vA7KLlpU7M2JcRaraU=
-  item: null
-  logo: wowjoy-technology.svg
-  name: Wowjoy Technology (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/wso2
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Platformer
-      date: '2021-06-16'
-    city: Santa Clara
-    company_type: For Profit
-    country: United States
-    description: WSO2 is an open source API-first integration vendor that offers a
-      broad technology platform to rapidly build digital products.
-    funding: 133500000
-    homepage: https://wso2.com
-    industries:
-    - Enterprise Software
-    - Information Technology
-    - Open Source
-    - SaaS
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/wso2
-    name: WSO2
-    num_employees_max: 1000
-    num_employees_min: 501
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/wso2
+  joined: '2024-11-01'
+  logo: wiz.svg
+  name: Wiz (member)
+- crunchbase: https://www.crunchbase.com/organization/wso2
   homepage_url: https://wso2.com/
-  image_data:
-    fileName: wso2-member.svg
-    hash: zDEagqx3GY5zH4V/9fZ/0v23h2o75wZJbQL2K+nnJ00=
   item: null
+  joined: '2021-08-01'
   logo: wso2-member.svg
   name: WSO2 (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 11:57:00+00:00

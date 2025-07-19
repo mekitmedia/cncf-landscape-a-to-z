@@ -1,473 +1,73 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/apache
-  crunchbase_data:
-    acquisitions: []
-    city: Forest Hill
-    company_type: Non Profit
-    country: United States
-    description: Apache Software Foundation provides organizational, legal and financial
-      support for Apache open-source software projects.
-    homepage: http://www.apache.org
-    industries:
-    - Non Profit
-    - Software
-    linkedin: https://www.linkedin.com/company/the-apache-software-foundation
-    name: The Apache Software Foundation
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: Maryland
-    stockExchange: null
-    twitter: http://twitter.com/TheASF
-  github_data:
-    contributions: 21;32;18;35;27;24;29;49;15;26;20;14;12;31;22;5;8;10;12;3;0;12;13;18;15;24;34;34;11;22;30;23;35;26;20;12;16;17;24;30;28;21;24;21;21;21;21;12;22;19;21;5
-    contributors_count: 514
-    contributors_link: https://github.com/apache/cassandra/graphs/contributors
-    description: Mirror of Apache Cassandra
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#b07219'
-      name: Java
-      value: 33132457
-    - color: '#3572A5'
-      name: Python
-      value: 553911
-    - color: '#e34c26'
-      name: HTML
-      value: 265026
-    - color: '#89e051'
-      name: Shell
-      value: 114579
-    - name: GAP
-      value: 91634
-    - color: '#DBCA00'
-      name: Lex
-      value: 10152
-    - color: '#E6EFBB'
-      name: AMPL
-      value: 801
-    latest_commit_date: '2022-08-05T20:42:59Z'
-    latest_commit_link: /apache/cassandra/commit/881b08f7015a4342833079e648e478526cc3b31a
-    license: Apache License 2.0
-    stars: 7446
-  github_start_commit_data:
-    start_commit_link: /apache/cassandra/commit/1f91e99223b0d1b7ed8390400d4a06ac08e4aa85
-    start_date: '2009-03-02T07:57:22Z'
+- crunchbase: https://www.crunchbase.com/organization/apache
   homepage_url: https://cassandra.apache.org/_/index.html
-  image_data:
-    fileName: cassandra.svg
-    hash: uLwkSuNKMpkxb99oqZQlVm6eRWxS6ntIqggmIpc8ZNs=
   item: null
   logo: cassandra.svg
   name: Cassandra
   repo_url: https://github.com/apache/cassandra
-  repos:
-  - stars: 7446
-    url: https://github.com/apache/cassandra
   twitter: https://twitter.com/cassandra
-  twitter_data:
-    latest_tweet_date: 2022-08-05 18:58:30+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cockroach-labs
-  crunchbase_data:
-    acquisitions: []
-    city: New York
-    company_type: For Profit
-    country: United States
-    description: Cockroach Labs is a software company that develops a cloud-native
-      SQL database for modern cloud applications.
-    funding: 633100000
-    homepage: http://www.cockroachlabs.com/
-    industries:
-    - Cloud Computing
-    - Database
-    - Enterprise Software
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cockroach-labs
-    name: Cockroach Labs
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: New York
-    stockExchange: null
-    twitter: https://twitter.com/@cockroachdb
-  github_data:
-    contributions: 174;210;218;221;146;194;223;179;218;188;182;192;203;194;225;147;207;209;260;217;74;176;244;225;220;264;312;260;236;164;220;199;234;239;211;153;197;234;150;56;194;200;226;244;139;131;202;176;207;201;177;156
-    contributors_count: 689
-    contributors_link: https://github.com/cockroachdb/cockroach/graphs/contributors
-    description: CockroachDB - the open source, cloud-native distributed SQL database.
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 60091546
-    - color: '#2b7489'
-      name: TypeScript
-      value: 3209653
-    - name: Starlark
-      value: 2356365
-    - color: '#4B6C4B'
-      name: Yacc
-      value: 441334
-    - color: '#89e051'
-      name: Shell
-      value: 343274
-    - color: '#e4cc98'
-      name: Tcl
-      value: 162735
-    - name: Stylus
-      value: 143440
-    - color: '#555555'
-      name: C
-      value: 130812
-    - color: '#427819'
-      name: Makefile
-      value: 92104
-    - name: SCSS
-      value: 90469
-    - color: '#f34b7d'
-      name: C++
-      value: 62319
-    - name: HCL
-      value: 54828
-    - color: '#3572A5'
-      name: Python
-      value: 52009
-    - color: '#f1e05a'
-      name: JavaScript
-      value: 45337
-    - color: '#384d54'
-      name: Dockerfile
-      value: 19231
-    - color: '#e34c26'
-      name: HTML
-      value: 17426
-    - color: '#701516'
-      name: Ruby
-      value: 15777
-    - color: '#199f4b'
-      name: Vim script
-      value: 13953
-    - name: Awk
-      value: 7069
-    - name: Less
-      value: 887
-    - color: '#6E4C13'
-      name: Assembly
-      value: 464
-    - color: '#563d7c'
-      name: CSS
-      value: 29
-    latest_commit_date: '2022-08-06T03:40:50Z'
-    latest_commit_link: /cockroachdb/cockroach/commit/db95c2484a9f15c2de01466af0aae19c8ab57618
-    license: Other
-    stars: 25263
-  github_start_commit_data:
-    start_commit_link: /cockroachdb/cockroach/commit/8548987813ff9e1b8a9878023d3abfc6911c16db
-    start_date: '2014-02-06T00:18:47Z'
+- crunchbase: https://www.crunchbase.com/organization/clickhouse
+  homepage_url: https://clickhouse.com
+  item: null
+  logo: clickhouse.svg
+  name: ClickHouse
+  repo_url: https://github.com/ClickHouse/ClickHouse
+  twitter: https://twitter.com/clickhousedb
+- branch: main
+  description: CloudNativePG is a comprehensive platform designed to seamlessly manage
+    PostgreSQL databases within Kubernetes environments, covering the entire operational
+    lifecycle from initial deployment to ongoing maintenance
+  extra:
+    accepted: '2025-01-21'
+    artwork_url: https://github.com/cncf/artwork/blob/main/examples/sandbox.md#cloudnativepg-logos
+    bluesky_url: https://bsky.app/profile/cloudnativepg.bsky.social
+    clomonitor_name: cloudnative-pg
+    dev_stats_url: https://cloudnativepg.devstats.cncf.io/
+    documentation_url: https://cloudnative-pg.io/docs/
+    linkedin_url: https://www.linkedin.com/company/cloudnative-pg/
+    stack_overflow_url: https://stackoverflow.com/questions/tagged/cloudnative-pg
+    summary_personas: Developers, Platform Engineers, PostgreSQL Administrators, DBAs
+    summary_tags: PostgreSQL,Postgres,RDBMS,Database,Transactional Database,Microservice
+      Database,OLTP,AI/ML
+    youtube_url: https://www.youtube.com/channel/UCTGH88W1BiuRRPTzJUDPJyA
+  homepage_url: https://www.cloudnative-pg.io/
+  item: null
+  joined: '2025-01-21'
+  logo: cloudnative-pg.svg
+  name: CloudNativePG
+  project: sandbox
+  repo_url: https://github.com/cloudnative-pg/cloudnative-pg
+  twitter: https://x.com/CloudNativePg
+- crunchbase: https://www.crunchbase.com/organization/cockroach-labs
   homepage_url: https://www.cockroachlabs.com/
-  image_data:
-    fileName: cockroach-db.svg
-    hash: 7i9IJ/DGEzGjPV2Yij1FLpOveozFBIwaJHeFq7AkAJA=
   item: null
   logo: cockroach-labs.svg
   name: CockroachDB
   open_source: false
   repo_url: https://github.com/cockroachdb/cockroach
-  repos:
-  - stars: 25263
-    url: https://github.com/cockroachdb/cockroach
   twitter: https://twitter.com/CockroachDB
-  twitter_data:
-    latest_tweet_date: 2022-08-05 22:10:01+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/couchbase
-  crunchbase_data:
-    acquisitions: []
-    city: Santa Clara
-    company_type: For Profit
-    country: United States
-    description: Couchbase is a NoSQL cloud database for business-critical applications.
-    funding: 251000000
-    homepage: http://www.couchbase.com
-    industries:
-    - Big Data
-    - Cloud Data Services
-    - Database
-    - Enterprise Software
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/couchbase
-    name: Couchbase
-    num_employees_max: 1000
-    num_employees_min: 501
-    parents: []
-    region: California
-    stockExchange: nasdaq
-    ticker: BASE
-    twitter: https://www.twitter.com/couchbase
-  github_data:
-    contributions: 18;18;40;39;12;21;40;15;39;36;29;41;31;20;17;11;32;47;36;17;0;30;29;28;28;53;17;22;32;28;36;33;27;39;43;56;69;42;29;31;26;24;27;29;35;21;28;15;16;18;18;40
-    contributors_count: 143
-    contributors_link: https://github.com/couchbase/manifest/graphs/contributors
-    description: Top-level source repository for Couchbase Server source code and
-      build projects
-    firstWeek: 2021-08-08Z
-    languages: []
-    latest_commit_date: '2022-08-06T01:43:15Z'
-    latest_commit_link: /couchbase/manifest/commit/e30aba241c949e929a80891b63ba67550330a37f
-    license: Apache License 2.0
-    stars: 195
-  github_start_commit_data:
-    start_commit_link: /couchbase/manifest/commit/bc3982536aa65e7c3501c1e8822b0d6c6b653266
-    start_date: '2010-12-22T20:14:51Z'
+- crunchbase: https://www.crunchbase.com/organization/couchbase
   homepage_url: https://www.couchbase.com/
-  image_data:
-    fileName: couchbase.svg
-    hash: 6qN+bGv0lOJ4khJmm5P9PJyRJoeF5GZigaJ8P2v1ujg=
   item: null
   logo: couchbase.svg
   name: Couchbase
   repo_url: https://github.com/couchbase/manifest
-  repos:
-  - stars: 195
-    url: https://github.com/couchbase/manifest
-  twitter_data:
-    latest_tweet_date: 2022-08-05 18:24:18+00:00
-  yahoo_finance_data:
-    effective_ticker: BASE
-    market_cap: 750249088
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/crate-technology
-  crunchbase_data:
-    acquisitions: []
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: Enabling Data Insights at Scale
-    funding: 31894793
-    homepage: https://crate.io
-    industries:
-    - Analytics
-    - Artificial Intelligence
-    - Big Data
-    - Cloud Computing
-    - Database
-    - Internet of Things
-    - Machine Learning
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/crateio/
-    name: Crate.io
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/CrateIO
-  github_data:
-    contributions: 14;3;18;3;18;21;11;17;24;21;9;8;14;13;24;11;8;13;20;3;0;18;23;34;18;4;5;7;17;18;19;39;15;29;49;17;22;40;29;36;25;14;12;15;17;11;26;29;33;29;31;2
-    contributors_count: 106
-    contributors_link: https://github.com/crate/crate/graphs/contributors
-    description: CrateDB is a distributed SQL database that makes it simple to store
-      and analyze massive amounts of machine data in real-time.
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#b07219'
-      name: Java
-      value: 31377147
-    - color: '#3572A5'
-      name: Python
-      value: 70938
-    - color: '#9DC3FF'
-      name: ANTLR
-      value: 39381
-    - color: '#89e051'
-      name: Shell
-      value: 17717
-    - color: '#C1F12E'
-      name: Batchfile
-      value: 4343
-    latest_commit_date: '2022-08-01T11:40:43Z'
-    latest_commit_link: /crate/crate/commit/078d0ba94e4e113abaa2a91bf0654967b2104267
-    license: Apache License 2.0
-    release_date: '2022-07-12T09:23:41Z'
-    release_link: https://github.com/crate/crate/releases
-    stars: 3457
-  github_start_commit_data:
-    start_commit_link: /crate/crate/commit/c1d8b17df58dc35bbcbd1e65c65feec2cce42dcd
-    start_date: '2013-04-10T09:18:35Z'
+- crunchbase: https://www.crunchbase.com/organization/crate-technology
   homepage_url: https://crate.io/
-  image_data:
-    fileName: crate-io.svg
-    hash: b/wCw/PppEsYZ+3sQwT5PSK/qhhAMHH0M2iV4V59s9w=
   item: null
   logo: crateio.svg
   name: Crate.io
   repo_url: https://github.com/crate/crate
-  repos:
-  - stars: 3457
-    url: https://github.com/crate/crate
   twitter: https://twitter.com/Crateio
-  twitter_data:
-    latest_tweet_date: 2022-08-04 09:08:34+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/crunchy-data-solutions-inc-
-  crunchbase_data:
-    acquisitions: []
-    city: Charleston
-    company_type: For Profit
-    country: United States
-    description: Crunchy Data is a leading provider of trusted open source PostgreSQL
-      and enterprise PostgreSQL support, technology and training.
-    funding: 0
-    homepage: https://www.crunchydata.com
-    industries:
-    - Cyber Security
-    - Database
-    - Electronics
-    - Information Technology
-    - Open Source
-    - Software
-    linkedin: https://www.linkedin.com/company/crunchy-data-solutions-inc-
-    name: Crunchy Data
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: South Carolina
-    stockExchange: null
-    twitter: http://twitter.com/crunchydata
-  github_data:
-    contributions: 9;13;14;6;7;11;31;26;5;10;13;7;12;8;13;8;11;23;18;10;11;10;9;8;5;12;5;4;6;5;5;4;18;8;9;4;0;6;2;6;14;4;6;4;6;2;6;3;5;6;3;5
-    contributors_count: 89
-    contributors_link: https://github.com/CrunchyData/postgres-operator/graphs/contributors
-    description: Production PostgreSQL for Kubernetes, from high availability Postgres
-      clusters to full-scale database-as-a-service.
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 1624183
-    - color: '#89e051'
-      name: Shell
-      value: 52731
-    - color: '#427819'
-      name: Makefile
-      value: 14696
-    - color: '#384d54'
-      name: Dockerfile
-      value: 3863
-    - color: '#ecdebe'
-      name: Roff
-      value: 1520
-    latest_commit_date: '2022-08-05T15:32:29Z'
-    latest_commit_link: /CrunchyData/postgres-operator/commit/b9111bd61a060bd6e193d12d85fcaf8fd0c5b8cc
-    license: Apache License 2.0
-    release_date: '2022-08-05T20:37:32Z'
-    release_link: https://github.com/CrunchyData/postgres-operator/releases
-    stars: 2868
-  github_start_commit_data:
-    start_commit_link: /CrunchyData/postgres-operator/commit/812d9bc547c6b69a98d326e8a10a8ec873a7601b
-    start_date: '2017-02-27T22:21:44Z'
+- crunchbase: https://www.crunchbase.com/organization/crunchy-data-solutions-inc-
   homepage_url: https://www.crunchydata.com
-  image_data:
-    fileName: crunchy-postgres-operator.svg
-    hash: 1e5QG1uXuPD2wOBdTGK56w74+05oC7/0a2Zu482A5kY=
   item: null
   logo: crunchy-data.svg
   name: Crunchy Postgres Operator
   repo_url: https://github.com/CrunchyData/postgres-operator
-  repos:
-  - stars: 2868
-    url: https://github.com/CrunchyData/postgres-operator
-  twitter_data:
-    latest_tweet_date: 2022-08-05 22:18:40+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/juxt-8452
-  crunchbase_data:
-    acquisitions: []
-    city: Milton Keynes
-    company_type: For Profit
-    country: United Kingdom
-    description: Software Engineering Business
-    homepage: https://juxt.pro
-    industries:
-    - Consulting
-    - Information Technology
-    - Internet
-    - Software
-    linkedin: https://www.linkedin.com/company/juxt-juxt-pro-/
-    name: JUXT
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Milton Keynes
-    stockExchange: null
-    twitter: https://twitter.com/juxtpro/
-  github_data:
-    contributions: 5;10;39;18;34;3;1;13;7;1;14;1;1;2;2;0;14;1;3;3;1;6;5;24;15;39;16;6;6;0;0;4;8;12;8;2;2;1;1;11;3;5;1;1;2;5;2;6;4;0;4;0
-    contributors_count: 62
-    contributors_link: https://github.com/xtdb/xtdb/graphs/contributors
-    description: General-purpose bitemporal database for SQL, Datalog & graph queries.
-      Developed by @juxt
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#db5855'
-      name: Clojure
-      value: 1693090
-    - color: '#b07219'
-      name: Java
-      value: 198000
-    - color: '#F18E33'
-      name: Kotlin
-      value: 162508
-    - name: SCSS
-      value: 40390
-    - color: '#89e051'
-      name: Shell
-      value: 12968
-    - color: '#563d7c'
-      name: CSS
-      value: 4315
-    - color: '#384d54'
-      name: Dockerfile
-      value: 860
-    - color: '#c065db'
-      name: Emacs Lisp
-      value: 132
-    latest_commit_date: '2022-07-28T13:16:59Z'
-    latest_commit_link: /xtdb/xtdb/commit/ffb5d00efde9e147f9daaef39973f5310c339aab
-    license: MIT License
-    release_date: '2022-05-11T16:20:33Z'
-    release_link: https://github.com/xtdb/xtdb/releases
-    stars: 1938
-  github_start_commit_data:
-    start_commit_link: /juxt/crux/commit/31e3204048224f9a13e0871eba4983ed088d46b5
-    start_date: '2018-03-19T09:01:14Z'
+- crunchbase: https://www.crunchbase.com/organization/juxt-8452
   homepage_url: https://xtdb.com/index.html
-  image_data:
-    fileName: crux.svg
-    hash: HlkMN6xClHFCy3IuJYtK71p8O3JUH5mDq1iHN59Ecmw=
   item: null
   logo: crux.svg
   name: Crux
   repo_url: https://github.com/xtdb/xtdb
-  repos:
-  - stars: 1938
-    url: https://github.com/xtdb/xtdb
   twitter: https://twitter.com/juxtpro
-  twitter_data:
-    latest_tweet_date: 2022-07-14 11:12:09+00:00

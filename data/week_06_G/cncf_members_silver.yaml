@@ -1,978 +1,106 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/g-research
-  crunchbase_data:
-    acquisitions: []
-    city: London
-    company_type: For Profit
-    country: United Kingdom
-    description: G-Research is a research and technology company that specializes
-      in Quantitative Research and IT Infrastructure.
-    homepage: http://www.gresearch.co.uk
-    industries:
-    - Business Intelligence
-    - Cyber Security
-    - Information Technology
-    - Machine Learning
-    - Natural Language Processing
-    - Software Engineering
-    linkedin: https://www.linkedin.com/company/g-research
-    name: G-Research
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: England
-    stockExchange: null
-    twitter: https://www.twitter.com/gresearchjobs
+- crunchbase: https://www.crunchbase.com/organization/g-research
   enduser: true
   homepage_url: https://www.gresearch.co.uk/
-  image_data:
-    fileName: g-research-member.svg
-    hash: 0YOhYbcAWThSYRG7AnjluiymAVMxoOBPx0DmYEEQ2Yg=
   item: null
+  joined: '2019-08-01'
   logo: g-research.svg
   name: G-Research (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 16:27:33+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/gaia-information-technology
-  crunchbase_data:
-    acquisitions: []
-    city: Taipei
-    company_type: ''
-    country: Taiwan
-    description: Gaia Information provides enterprise one-stop cloud integration consulting
-      service.
-    homepage: https://gaia.net
-    industries: []
-    linkedin: null
-    name: Gaia Information Technology
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: T'ai-pei
-    stockExchange: null
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/gaia-information-technology
   homepage_url: https://www.gaia.net/en
-  image_data:
-    fileName: gaia-information-technology-member.svg
-    hash: scrSfJ48dQCpudU256oWhvJYUULMbawFAuxmBtj51QI=
   item: null
+  joined: '2021-03-01'
   logo: Gaia.svg
   name: Gaia Information Technology  (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/garden-io
-  crunchbase_data:
-    acquisitions: []
-    city: Berlin
-    company_type: For Profit
-    country: Germany
-    description: Garden is a platform for Kubernetes and cloud native testing
-    funding: 20833374
-    homepage: https://garden.io/
-    industries:
-    - Cloud Data Services
-    - Cloud Management
-    - IT Infrastructure
-    - Information Technology
-    - Internet
-    - Mobile
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/garden-io/
-    name: Garden
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: Berlin
-    stockExchange: null
-    twitter: https://twitter.com/garden_io
+- crunchbase: https://www.crunchbase.com/organization/garden-io
   homepage_url: https://garden.io
-  image_data:
-    fileName: garden-member.svg
-    hash: nKnNr4Mq9EcDKMzbFYIWPdZU76gSn5ZFW0gT7kESFw0=
   item: null
+  joined: '2018-10-01'
   logo: garden-member.svg
   name: Garden (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 15:40:33+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/ge-healthcare
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Applicare Medical Imaging
-      date: '1999-06-01'
-    - acquiree: GE Medical Systems Lunar
-      date: '2000-08-08'
-    - acquiree: GE Medical Systems Oxford Magnets
-      date: '2000-09-04'
-    - acquiree: Coincidence Technologies
-      date: '2001-08-27'
-    - acquiree: GE Imatron
-      date: '2001-09-24'
-    - acquiree: Kretztechnik
-      date: '2001-10-10'
-    - acquiree: Ambassador Medical
-      date: '2003-01-07'
-    - acquiree: Amersham Health
-      date: '2003-10-10'
-    - acquiree: MEDIMEX GmbH & Co.
-      date: '2004-03-31'
-    - acquiree: IDX Systems
-      date: '2005-09-29'
-    - acquiree: Wave Biotech
-      date: '2007-04-16'
-    - acquiree: Dynamic Imaging LLC
-      date: '2007-10-11'
-    - acquiree: Whatman
-      date: '2008-02-05'
-      price: 713427972
-    - acquiree: VersaMed Medical Systems
-      date: '2008-03-27'
-    - acquiree: Agility Healthcare Solution
-      date: '2008-10-01'
-    - acquiree: ONI Medical Systems, Inc.
-      date: '2009-11-06'
-    - acquiree: Living Independently Group
-      date: '2009-12-01'
-    - acquiree: Clarient
-      date: '2010-10-22'
-      price: 587000000
-    - acquiree: Steady State Imaging
-      date: '2011-04-14'
-    - acquiree: Applied Precision, Inc.
-      date: '2011-04-28'
-    - acquiree: SerphyDose
-      date: '2011-07-31'
-    - acquiree: Xcellerex
-      date: '2012-03-10'
-    - acquiree: SeqWright
-      date: '2012-04-04'
-    - acquiree: XPRO Sistemas
-      date: '2012-06-05'
-    - acquiree: U-Systems
-      date: '2012-11-09'
-    - acquiree: CHCA Computer Systems
-      date: '2014-04-15'
-    - acquiree: Omnyx LLC
-      date: '2015-03-15'
-    - acquiree: Gemedco Sales & Service
-      date: '2015-09-22'
-    - acquiree: The Camden Group
-      date: '2015-11-10'
-    - acquiree: Caradigm
-      date: '2016-05-02'
-    - acquiree: Biosafe Group SA
-      date: '2016-07-13'
-    - acquiree: Monica Healthcare
-      date: '2017-03-15'
-    - acquiree: Asymptote Ltd.
-      date: '2017-04-11'
-    - acquiree: Novia Strategies
-      date: '2017-07-10'
-    - acquiree: Puridify
-      date: '2017-11-24'
-    - acquiree: Prismatic Sensors AB
-      date: '2020-11-20'
-    - acquiree: Zionexa
-      date: '2021-05-06'
-    city: Fairfield
-    company_type: For Profit
-    country: United States
-    description: GE Healthcare provides transformational medical technologies and
-      services that are shaping a new age of patient care.
-    funding: 19794999
-    homepage: http://www.gehealthcare.com
-    industries:
-    - Biotechnology
-    - Health Care
-    - Health Diagnostics
-    - Medical
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/gehealthcare
-    name: GE Healthcare
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents:
-    - https://www.crunchbase.com/organization/general-electric
-    region: Connecticut
-    stockExchange: null
-    ticker: GE
-    twitter: https://twitter.com/GEHealthcare
-  enduser: true
-  homepage_url: https://www.gehealthcare.com/
-  image_data:
-    fileName: ge-healthcare-member.svg
-    hash: C7H9Yr6GgRLPVohPAfSY+JRN+CLJgfFNImtYLPuaIlQ=
+- crunchbase: https://www.crunchbase.com/organization/g-core-labs
+  homepage_url: https://gcore.com
   item: null
-  logo: ge-healthcare.svg
-  name: GE Healthcare (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 13:27:01+00:00
-  yahoo_finance_data:
-    effective_ticker: GE
-    market_cap: 81539457024
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/gemini-open-cloud-computing-inc
-  crunchbase_data:
-    acquisitions: []
-    city: Hsinchu
-    company_type: For Profit
-    country: Taiwan
-    description: Gemini Open Cloud (GOC), a leader in hybrid multi cloud technology,
-      helps service providers and enterprises build the cloud infrastructure.
-    funding: 0
-    homepage: http://www.geminiopencloud.com/en/
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Cloud Management
-    - Private Cloud
-    linkedin: https://www.linkedin.com/company/geminiopencloud/
-    name: Gemini Open Cloud
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: T'ai-wan
-    stockExchange: null
-    twitter: null
-  homepage_url: https://www.geminiopencloud.com/
-  image_data:
-    fileName: gemini-open-cloud-member.svg
-    hash: GBrKtSjjDN6EqYQk6sCYHFTfg8PXlHkgjHZKzyjDsow=
+  joined: '2024-03-01'
+  logo: gcore.svg
+  name: Gcore (member)
+- crunchbase: https://www.crunchbase.com/organization/geeks-solutions
+  homepage_url: https://geekssolutions.in/
   item: null
-  logo: geminiopencloud.svg
-  name: Gemini Open Cloud (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/german-edge-cloud
-  crunchbase_data:
-    acquisitions: []
-    city: Eschborn
-    company_type: For Profit
-    country: Germany
-    description: German Edge Cloud (GEC) specializes in innovative edge and cloud
-      solutions.
-    homepage: https://www.gec.io
-    industries:
-    - Information Technology
-    - SaaS
-    linkedin: https://www.linkedin.com/company/german-edge-cloud/
-    name: German Edge Cloud
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: Hessen
-    stockExchange: null
-    twitter: https://twitter.com/germanedgecloud
-  homepage_url: https://gec.io/industrial-solutions/industrial-edge-appliance
-  image_data:
-    fileName: german-edge-cloud-member.svg
-    hash: GAT/x6PGqVLBe3VzZn+/bJydBhN4MDYyQcb4qvucg9Y=
-  item: null
-  logo: german-edge-cloud.svg
-  name: German Edge Cloud (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-02 09:11:45+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/giant-swarm
-  crunchbase_data:
-    acquisitions: []
-    city: Cologne
-    company_type: For Profit
-    country: Germany
-    description: Giant Swarm is to give everyone the power and freedom to build modern
-      software that runs their world.
-    funding: 3325000
-    homepage: http://giantswarm.io
-    industries:
-    - Cloud Computing
-    - Information Technology
-    - PaaS
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/giant-swarm
-    name: Giant Swarm
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: Nordrhein-Westfalen
-    stockExchange: null
-    twitter: http://twitter.com/giantswarm
+  joined: '2023-11-01'
+  logo: geeks-solutions.svg
+  name: Geeks Solutions (member)
+- crunchbase: https://www.crunchbase.com/organization/giant-swarm
   homepage_url: https://www.giantswarm.io
-  image_data:
-    fileName: giant-swarm-member.svg
-    hash: UY+teREmt0js8IJCSsnlLYAyY+lHhnYKzZAFalcQQaw=
   item: null
+  joined: '2017-06-01'
   logo: giant-swarm-member.svg
   name: Giant Swarm (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-03 12:42:04+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/gientech
-  crunchbase_data:
-    acquisitions: []
-    city: Beijing
-    company_type: For Profit
-    country: China
-    description: Relying on industry scenarios, we will create full-stack global solutions
-      to empower the digital transformation of the industry.
-    homepage: https://www.gientech.com/
-    industries: []
-    linkedin: null
-    name: GienTech
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Beijing
-    stockExchange: null
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/gientech
   homepage_url: https://www.gientech.com/
-  image_data:
-    fileName: gien-tech-member.svg
-    hash: eT396UZE0np6dgZaTMB9wgemUlGDibnQxrEcXrvMMqQ=
   item: null
+  joined: '2021-12-01'
   logo: gientech.svg
   name: GienTech (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/github
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Ordered List
-      date: '2011-12-05'
-    - acquiree: Easel
-      date: '2014-01-09'
-    - acquiree: Spectrum
-      date: '2018-11-30'
-    - acquiree: Dependabot
-      date: '2019-05-23'
-    - acquiree: Pull Panda
-      date: '2019-06-17'
-    - acquiree: Semmle
-      date: '2019-09-18'
-    - acquiree: Gitalytics
-      date: '2019-12-01'
-    - acquiree: npm
-      date: '2020-03-16'
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: GitHub provides code hosting services that allow developers to build
-      software for open-source and private projects in organizations.
-    funding: 350000000
-    homepage: https://github.com
-    industries:
-    - Cloud Computing
-    - Developer Tools
-    - Internet
-    - Project Management
-    - Software
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/1418841
-    name: GitHub
-    num_employees_max: 1000
-    num_employees_min: 501
-    parents:
-    - https://www.crunchbase.com/organization/microsoft
-    region: California
-    stockExchange: null
-    ticker: MSFT
-    twitter: http://twitter.com/github
-  homepage_url: https://github.com
-  image_data:
-    fileName: git-hub-member.svg
-    hash: aZAv51Mn59oWQP7VI8VCzpOEplog43Jkn4m8RhVJs/A=
+- crunchbase: https://www.crunchbase.com/organization/gim-uemoa
+  enduser: true
+  homepage_url: https://www.gim-uemoa.org
   item: null
-  logo: git-hub-member.svg
-  name: GitHub (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 20:56:01+00:00
-  yahoo_finance_data:
-    effective_ticker: MSFT
-    market_cap: 2109911597056
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/gitlab-com
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Gitorious
-      date: '2015-03-03'
-    - acquiree: Gitter
-      date: '2017-03-15'
-    - acquiree: Gemnasium (acquired by Gitlab)
-      date: '2018-01-30'
-    - acquiree: Fuzzit
-      date: '2020-06-11'
-    - acquiree: Peach Tech
-      date: '2020-06-11'
-    - acquiree: UnReview
-      date: '2021-06-02'
-    - acquiree: Opstrace
-      date: '2021-12-14'
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: GitLab is the DevOps platform that empowers organizations to maximize
-      the overall return on software development.
-    funding: 413500000
-    homepage: http://about.gitlab.com
-    industries:
-    - Cloud Security
-    - Developer Tools
-    - Open Source
-    - SaaS
-    - Software
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/gitlab-com
-    name: GitLab
-    num_employees_max: 5000
-    num_employees_min: 1001
-    parents: []
-    region: California
-    stockExchange: nasdaq
-    ticker: GTLB
-    twitter: http://twitter.com/gitlab
-  homepage_url: https://about.gitlab.com
-  image_data:
-    fileName: git-lab-member.svg
-    hash: fYn4/edweXBTwVPslze8G7IekmX+JjMbno/9K/wI+PU=
-  item: null
-  logo: gitlab.svg
-  name: GitLab (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 18:09:01+00:00
-  yahoo_finance_data:
-    effective_ticker: GTLB
-    market_cap: 9354115072
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/gitpod
-  crunchbase_data:
-    acquisitions: []
-    city: Kiel
-    company_type: ''
-    country: Germany
-    description: Always ready to code - spin up fresh, automated dev environments
-      for each task, in the cloud, in seconds.
-    funding: 16000000
-    homepage: https://www.gitpod.io
-    industries:
-    - Developer Platform
-    - Developer Tools
-    - Enterprise Software
-    - Open Source
-    - SaaS
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/gitpod
-    name: Gitpod
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Schleswig-Holstein
-    stockExchange: null
-    twitter: https://twitter.com/gitpod
+  joined: '2024-03-01'
+  logo: gim-uemoa.svg
+  name: GIM UEMOA (member)
+- crunchbase: https://www.crunchbase.com/organization/gitpod
   homepage_url: https://gitpod.io
-  image_data:
-    fileName: gitpod-member.svg
-    hash: eoSxP6CJN/NBRvnR7Z3gI8vyhaqoBKoAtXvY8CH+6n0=
   item: null
+  joined: '2020-09-01'
   logo: gitpod.svg
   name: Gitpod (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 07:19:09+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/organiza-es-globo
-  crunchbase_data:
-    acquisitions: []
-    city: Rio De Janeiro
-    company_type: For Profit
-    country: Brazil
-    description: Globo.com is a mass media group that offers intelligence and know-how
-      in strategy creation and the development of digital solutions.
-    homepage: http://globo.com
-    industries:
-    - Internet
-    - News
-    linkedin: https://www.linkedin.com/company/globo-com/about/
-    name: Globo.com
-    num_employees_max: 1000
-    num_employees_min: 501
-    parents:
-    - https://www.crunchbase.com/organization/grupo-globo
-    region: Rio de Janeiro
-    stockExchange: null
-    twitter: https://twitter.com/globocom
-  enduser: true
-  homepage_url: https://www.globo.com
-  image_data:
-    fileName: globo-member.svg
-    hash: GOAuY21b3lfPCFjp0wbG0Asykvto+S2hsep3Kr3eleI=
-  item: null
-  logo: globo-member.svg
-  name: Globo (member)
-  twitter_data:
-    latest_tweet_date: 2019-11-07 19:25:55+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/godaddy
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Outright
-      date: '2012-07-18'
-    - acquiree: M.dot
-      date: '2013-02-11'
-    - acquiree: Locu
-      date: '2013-08-19'
-      price: 70000000
-    - acquiree: AfterNic
-      date: '2013-09-19'
-    - acquiree: Ronin
-      date: '2013-10-02'
-    - acquiree: (mt) Media Temple
-      date: '2013-10-15'
-    - acquiree: Canary Calendar
-      date: '2014-07-10'
-    - acquiree: Mad Mimi
-      date: '2014-08-20'
-    - acquiree: Nodejitsu
-      date: '2015-02-09'
-    - acquiree: Elto
-      date: '2015-04-10'
-    - acquiree: Apptix
-      date: '2015-09-11'
-      price: 22500000
-    - acquiree: Worldwide Media
-      date: '2015-12-07'
-    - acquiree: FreedomVoice
-      date: '2016-05-17'
-      price: 42000000
-    - acquiree: ManageWP
-      date: '2016-09-06'
-    - acquiree: WP Curve
-      date: '2016-12-05'
-    - acquiree: Host Europe Group
-      date: '2016-12-06'
-      price: 1800000000
-    - acquiree: Sucuri
-      date: '2017-03-22'
-    - acquiree: Main Street Hub
-      date: '2018-01-23'
-      price: 127000000
-    - acquiree: Plasso
-      date: '2018-09-24'
-    - acquiree: Cognate
-      date: '2018-09-25'
-    - acquiree: Sellbrite
-      date: '2019-04-10'
-    - acquiree: Over
-      date: '2020-01-29'
-    - acquiree: Uniregistry
-      date: '2020-02-11'
-    - acquiree: Neustar - Registry business
-      date: '2020-04-06'
-    - acquiree: Skyverge
-      date: '2020-09-14'
-    - acquiree: Poynt
-      date: '2020-12-15'
-      price: 320000000
-    - acquiree: Pagely
-      date: '2021-11-11'
-    - acquiree: DNAcademy
-      date: '2022-03-23'
-    - acquiree: Dan.com
-      date: '2022-06-28'
-    city: Scottsdale
-    company_type: For Profit
-    country: United States
-    description: GoDaddy is an internet domain registrar and web hosting company facilitating
-      online businesses.
-    funding: 800000000
-    homepage: http://godaddy.com
-    industries:
-    - Cyber Security
-    - Domain Registrar
-    - Online Portals
-    - Web Development
-    - Web Hosting
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/godaddy
-    name: GoDaddy
-    num_employees_max: 5000
-    num_employees_min: 1001
-    parents: []
-    region: Arizona
-    stockExchange: nyse
-    ticker: GDDY
-    twitter: http://twitter.com/GoDaddy
-  homepage_url: https://www.godaddy.com/es-es
-  image_data:
-    fileName: go-daddy-member.svg
-    hash: ILAZ5rZcZD/t9TSVPOtqLF1BhctfUYuHx/eyndnQJak=
-  item: null
-  logo: godaddy.svg
-  name: GoDaddy (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 15:46:59+00:00
-  yahoo_finance_data:
-    effective_ticker: GDDY
-    market_cap: 12767163392
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/goldman-sachs
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Hull Group
-      date: '1999-07-13'
-      price: 531000000
-    - acquiree: Spear, Leeds & Kellogg
-      date: '2000-09-11'
-      price: 6500000000
-    - acquiree: Wall Street On Demand
-      date: '2006-04-01'
-    - acquiree: USI Holding
-      date: '2007-01-16'
-      price: 1400000000
-    - acquiree: Mellon Ventures
-      date: '2007-03-11'
-    - acquiree: Pacific Global Advisors
-      date: '2015-04-23'
-    - acquiree: Pantor
-      date: '2015-11-02'
-    - acquiree: Honest Dollar
-      date: '2016-03-14'
-    - acquiree: Carver Korea
-      date: '2016-07-17'
-    - acquiree: Meilleurtaux.com
-      date: '2016-12-22'
-    - acquiree: Bond Street
-      date: '2017-09-14'
-    - acquiree: Genesis Capital LLC
-      date: '2017-10-12'
-    - acquiree: YOHO Manipal
-      date: '2017-10-17'
-      price: 54000000
-    - acquiree: Financeit
-      date: '2017-12-14'
-    - acquiree: Final
-      date: '2018-01-30'
-    - acquiree: Global Consumer Products
-      date: '2018-03-12'
-    - acquiree: Clarity Money
-      date: '2018-04-15'
-    - acquiree: CityFibre
-      date: '2018-04-24'
-      price: 752884541
-    - acquiree: Slickdeals
-      date: '2018-06-14'
-    - acquiree: Boyd Corporation
-      date: '2018-07-11'
-      price: 3000000000
-    - acquiree: ClearFactr
-      date: '2018-11-09'
-    - acquiree: United Capital
-      date: '2019-05-16'
-      price: 750000000
-    - acquiree: Capital Vision Services
-      date: '2019-06-03'
-      price: 2700000000
-    - acquiree: Folio Institutional
-      date: '2020-05-14'
-    - acquiree: General Motors - Credit Card Business
-      date: '2020-10-02'
-      price: 2500000000
-    - acquiree: Goldman Sachs Gao Hua Securities
-      date: '2020-12-08'
-    - acquiree: NN Investment Partners
-      date: '2021-08-19'
-      price: 1868320753
-    - acquiree: GreenSky
-      date: '2021-09-15'
-      price: 2240000000
-    city: New York
-    company_type: For Profit
-    country: United States
-    description: Goldman Sachs is a multinational financial services firm providing
-      securities, investment banking, and management services.
-    homepage: http://www.goldmansachs.com/
-    industries:
-    - Banking
-    - Finance
-    - Financial Services
-    - Venture Capital
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/goldman-sachs
-    name: Goldman Sachs
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents: []
-    region: New York
-    stockExchange: nyse
-    ticker: GS
-    twitter: http://twitter.com/goldmansachs
+- crunchbase: https://www.crunchbase.com/organization/goldman-sachs
   enduser: true
   homepage_url: https://www.goldmansachs.com
-  image_data:
-    fileName: goldman-sachs-member.svg
-    hash: Tv/B3RlrwApm1YscvKc7cS2JjmjDD+xDN6U8D178Z2Y=
   item: null
+  joined: '2016-01-01'
   logo: goldman-sachs-member.svg
   name: Goldman Sachs (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 14:00:09+00:00
-  yahoo_finance_data:
-    effective_ticker: GS
-    market_cap: 115391545344
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/gotoadmins
-  crunchbase_data:
-    acquisitions: []
-    city: Sofia
-    company_type: For Profit
-    country: Bulgaria
-    description: GoToAdmins design, implement, deliver and maintain IT infrastructure
-      architectures, DevOps and cloud infrastructure management.
-    homepage: https://gotoadmins.com
-    industries:
-    - Cloud Infrastructure
-    - IT Infrastructure
-    - Security
-    linkedin: https://www.linkedin.com/company/gotoadmins
-    name: GoToAdmins
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Grad Sofiya
-    stockExchange: null
-    twitter: https://twitter.com/gotoadmins?
-  homepage_url: https://www.gotoadmins.com/
-  image_data:
-    fileName: goto-admins-member.svg
-    hash: bbdvI+nOYBYg81UilCJympsecyVQCceEL2J3XZqNn08=
+- crunchbase: https://www.crunchbase.com/organization/golem-cloud
+  homepage_url: https://www.golem.cloud
   item: null
-  logo: gotoadmins.svg
-  name: GotoAdmins (member)
-  twitter_data:
-    latest_tweet_date: 2019-10-01 05:47:06+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/granulate-cloud-solutions
-  crunchbase_data:
-    acquisitions: []
-    city: Tel Aviv
-    company_type: For Profit
-    country: Israel
-    description: Granulate is an AI-powered optimization software creating a streamlined
-      environment for any application.
-    funding: 45600000
-    homepage: https://www.granulate.io
-    industries:
-    - Artificial Intelligence
-    - Cloud Management
-    - Information Technology
-    - Machine Learning
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/granulate.io/
-    name: Granulate
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Tel Aviv
-    stockExchange: null
-    twitter: https://twitter.com/granulateltd
-  homepage_url: https://www.granulate.io/
-  image_data:
-    fileName: granulate-member.svg
-    hash: P8+UzzCK2aAbQ1ETf9iCf8yIL5ippLJ69noq38EBDSI=
+  joined: '2024-12-01'
+  logo: golem-cloud.svg
+  name: Golem Cloud (member)
+- crunchbase: https://www.crunchbase.com/organization/raintank
+  homepage_url: https://grafana.com
   item: null
-  logo: granulate.svg
-  name: Granulate (member)
-  twitter_data:
-    latest_tweet_date: 2022-07-27 13:46:00+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/grape-up
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Addepto
-      date: '2021-07-01'
-    city: Santa Clara
-    company_type: For Profit
-    country: United States
-    description: "Empowering the world\u2019s leading enterprises to build and run\
-      \ their critical software using AI & cloud technologies."
-    homepage: http://www.grapeup.com/
-    industries:
-    - Artificial Intelligence
-    - Information Technology
-    - Software
-    linkedin: https://www.linkedin.com/company/grape-up/
-    name: Grape Up
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/GrapeUpInc
+  joined: '2017-11-01'
+  logo: grafana-labs-member.svg
+  name: Grafana Labs (member)
+- crunchbase: https://www.crunchbase.com/organization/grape-up
   homepage_url: https://grapeup.com
-  image_data:
-    fileName: grape-up-member.svg
-    hash: BIaKcr262u4B9K1O7icrqIzEh2l0Cx58K3z+1p9e6QM=
   item: null
+  joined: '2019-03-01'
   logo: grape-up-member.svg
   name: Grape Up (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 14:20:19+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/gremlin-inc
-  crunchbase_data:
-    acquisitions: []
-    city: San Jose
-    company_type: For Profit
-    country: United States
-    description: The world's first hosted Chaos Engineering service.
-    funding: 28000000
-    homepage: https://www.gremlin.com
-    industries:
-    - PaaS
-    - SaaS
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/17919967/
-    name: Gremlin
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/gremlininc
-  homepage_url: https://www.gremlin.com
-  image_data:
-    fileName: gremlin-member.svg
-    hash: G3fMTHii0BRfSnM9qbTAmM7Tde2xm9cQjAB8yX6PKRk=
+- crunchbase: https://www.crunchbase.com/organization/greptime
+  homepage_url: https://greptime.com
   item: null
-  logo: gremlin-member.svg
-  name: Gremlin (member)
-  twitter_data:
-    latest_tweet_date: 2022-07-26 21:30:13+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/groundcover
-  crunchbase_data:
-    acquisitions: []
-    city: Tel Aviv
-    company_type: For Profit
-    country: Israel
-    description: groundcover is a team of great engineers developing o11y solutions
-      that help folks exit serious storms faster.
-    homepage: http://www.groundcover.com
-    industries: []
-    linkedin: https://www.linkedin.com/company/groundcover-com/
-    name: groundcover
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Tel Aviv
-    stockExchange: null
-    twitter: null
+  joined: '2025-06-01'
+  logo: greptime.svg
+  name: Greptime (member)
+- crunchbase: https://www.crunchbase.com/organization/groundcover
   homepage_url: https://www.groundcover.com/
-  image_data:
-    fileName: groundcover-member.svg
-    hash: KJHW4Ki6ByoeKsYSWgq3dbF5bM2cScvDzlM0eccM/ic=
   item: null
+  joined: '2022-05-01'
   logo: groundcover.svg
   name: Groundcover (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/guanceyun
-  crunchbase_data:
-    acquisitions: []
-    city: Shanghai
-    company_type: For Profit
-    country: China
-    description: Guance Cloud offers a full-stack observability platform for cloud-based
-      workflows.
-    funding: 70551277
-    homepage: https://www.guance.com/
-    industries:
-    - Analytics
-    - Cloud Computing
-    - Cloud Data Services
-    - Information Technology
-    - Productivity Tools
-    - Software
-    kind: funding
-    linkedin: null
-    name: Guance Cloud
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: Shanghai
-    stockExchange: null
-    twitter: null
-  homepage_url: https://www.guance.com/
-  image_data:
-    fileName: guance-member.svg
-    hash: xQPTwnXH+onT30oihPGMQukvfEL3zFjiM8FQ73jI0s8=
-  item: null
-  logo: guance.svg
-  name: Guance (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/guida
-  crunchbase_data:
-    acquisitions: []
-    city: Rotterdam
-    company_type: For Profit
-    country: The Netherlands
-    description: Deliver software faster and more reliable through the adoption of
-      Kubernetes, cloud-native technology and a DevOps approach
-    homepage: https://www.guida.nl/
-    industries: []
-    linkedin: https://www.linkedin.com/company/guidabv/
-    name: Guida
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: Zuid-Holland
-    stockExchange: null
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/guida
   homepage_url: https://www.guida.nl/
-  image_data:
-    fileName: guida-member.svg
-    hash: 0AKvCUFu43AEgtj9S59uzxpkqe4s4d3Jy6t5XGs/Hpk=
   item: null
+  joined: '2020-08-01'
   logo: guida.svg
   name: Guida (member)
+- crunchbase: https://www.crunchbase.com/organization/guidewire-software
+  enduser: true
+  homepage_url: https://www.guidewire.com
+  item: null
+  joined: '2025-05-01'
+  logo: guidewire.svg
+  name: Guidewire (member)

@@ -1,233 +1,47 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/gaia-information-technology
-  crunchbase_data:
-    acquisitions: []
-    city: Taipei
-    company_type: ''
-    country: Taiwan
-    description: Gaia Information provides enterprise one-stop cloud integration consulting
-      service.
-    homepage: https://gaia.net
-    industries: []
-    linkedin: null
-    name: Gaia Information Technology
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: T'ai-pei
-    stockExchange: null
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/gaia-information-technology
   description: Gaia, a multi-cloud solutions provider, offers Kubernetes implementation
     and configuration services, application container migrations, and professional
     IT training.   We help our customers adopt DevSecOps, build CI/CD, and migrate
     applications to Kubernetes.
   homepage_url: https://www.gaia.net/tc/services/20/Kubernetes
-  image_data:
-    fileName: gaia-kcsp.svg
-    hash: scrSfJ48dQCpudU256oWhvJYUULMbawFAuxmBtj51QI=
   item: null
   logo: Gaia.svg
   name: Gaia (KCSP)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/gemini-open-cloud-computing-inc
-  crunchbase_data:
-    acquisitions: []
-    city: Hsinchu
-    company_type: For Profit
-    country: Taiwan
-    description: Gemini Open Cloud (GOC), a leader in hybrid multi cloud technology,
-      helps service providers and enterprises build the cloud infrastructure.
-    funding: 0
-    homepage: http://www.geminiopencloud.com/en/
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Cloud Management
-    - Private Cloud
-    linkedin: https://www.linkedin.com/company/geminiopencloud/
-    name: Gemini Open Cloud
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: T'ai-wan
-    stockExchange: null
-    twitter: null
-  description: Gemini Open Cloud (GOC), a leader in hybrid multi-cloud technology,
-    helps data centers and enterprises build their cloud infrastructure and provision
-    heterogeneous resources to many projects and users. Hundreds of organizations
-    in Taiwan and abroad have adopted our software technology, successfully managing
-    thousands of CPU/GPU nodes in total.
-  homepage_url: https://www.geminiopencloud.com/en/products/kubernetes/
-  image_data:
-    fileName: gemini-open-cloud-kcsp.svg
-    hash: GBrKtSjjDN6EqYQk6sCYHFTfg8PXlHkgjHZKzyjDsow=
+- crunchbase: https://www.crunchbase.com/organization/geeks-solutions
+  description: Revolutionize your infrastructure with our cutting-edge Kubernetes
+    services. Seamlessly manage, deploy, and scale applications for unparalleled efficiency
+    and agility in the ever-evolving digital landscape.
+  homepage_url: https://geekssolutions.in/index.php/it-services/kubernetes-services/
   item: null
-  logo: geminiopencloud.svg
-  name: Gemini Open Cloud (KCSP)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/giant-swarm
-  crunchbase_data:
-    acquisitions: []
-    city: Cologne
-    company_type: For Profit
-    country: Germany
-    description: Giant Swarm is to give everyone the power and freedom to build modern
-      software that runs their world.
-    funding: 3325000
-    homepage: http://giantswarm.io
-    industries:
-    - Cloud Computing
-    - Information Technology
-    - PaaS
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/giant-swarm
-    name: Giant Swarm
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: Nordrhein-Westfalen
-    stockExchange: null
-    twitter: http://twitter.com/giantswarm
+  logo: geeks-solutions.svg
+  name: Geeks Solutions (KCSP)
+- crunchbase: https://www.crunchbase.com/organization/giant-swarm
   description: Giant Swarm provides fully-managed Kubernetes Clusters in your location
     of choice, so you can focus on your product.
   homepage_url: https://www.giantswarm.io/
-  image_data:
-    fileName: giant-swarm-kcsp.svg
-    hash: vRh9rWPI8qPOf5hG5f4L5+PJ9McZseH6xOlG8OmrT1Y=
   item: null
   logo: giant-swarm-cncf.svg
   name: Giant Swarm (KCSP)
-  twitter_data:
-    latest_tweet_date: 2022-08-03 12:42:04+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/gitlab-com
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Gitorious
-      date: '2015-03-03'
-    - acquiree: Gitter
-      date: '2017-03-15'
-    - acquiree: Gemnasium (acquired by Gitlab)
-      date: '2018-01-30'
-    - acquiree: Fuzzit
-      date: '2020-06-11'
-    - acquiree: Peach Tech
-      date: '2020-06-11'
-    - acquiree: UnReview
-      date: '2021-06-02'
-    - acquiree: Opstrace
-      date: '2021-12-14'
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: GitLab is the DevOps platform that empowers organizations to maximize
-      the overall return on software development.
-    funding: 413500000
-    homepage: http://about.gitlab.com
-    industries:
-    - Cloud Security
-    - Developer Tools
-    - Open Source
-    - SaaS
-    - Software
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/gitlab-com
-    name: GitLab
-    num_employees_max: 5000
-    num_employees_min: 1001
-    parents: []
-    region: California
-    stockExchange: nasdaq
-    ticker: GTLB
-    twitter: http://twitter.com/gitlab
-  description: GitLab provides DevOps fundamentals training using Kubernetes. Implement
-    GitOps using GitLab to establish declarative application delivery to K8s.
-  homepage_url: https://about.gitlab.com/solutions/kubernetes/
-  image_data:
-    fileName: git-lab-kcsp.svg
-    hash: fYn4/edweXBTwVPslze8G7IekmX+JjMbno/9K/wI+PU=
+- crunchbase: https://www.crunchbase.com/organization/gientech
+  description: Gientech can help customers understand and deploy Kubernetes container
+    technology deeply. We provides customized Kubernetes services including consulting,
+    training, implementation and technical support.
+  homepage_url: https://en.gientech.com/consulting/Kubernetes.html
   item: null
-  logo: gitlab.svg
-  name: GitLab (KCSP)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 18:09:01+00:00
-  yahoo_finance_data:
-    effective_ticker: GTLB
-    market_cap: 9354115072
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/grape-up
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Addepto
-      date: '2021-07-01'
-    city: Santa Clara
-    company_type: For Profit
-    country: United States
-    description: "Empowering the world\u2019s leading enterprises to build and run\
-      \ their critical software using AI & cloud technologies."
-    homepage: http://www.grapeup.com/
-    industries:
-    - Artificial Intelligence
-    - Information Technology
-    - Software
-    linkedin: https://www.linkedin.com/company/grape-up/
-    name: Grape Up
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/GrapeUpInc
+  logo: gientech.svg
+  name: GienTech (KCSP)
+- crunchbase: https://www.crunchbase.com/organization/grape-up
   description: "Grape Up combines cloud native platform \u2013 Cloudboostr, and professional\
     \ services including DevOps & cloud enablement, application transformation, and\
     \ operations & support for Kubernetes."
   homepage_url: https://grapeup.com/
-  image_data:
-    fileName: grape-up-kcsp.svg
-    hash: 5PRkL7JVwNgTxovssIjVmzwGOSmkQjl0vS/Re6QWqqM=
   item: null
   logo: grape-up-kcsp.svg
   name: Grape Up (KCSP)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 14:20:19+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/guida
-  crunchbase_data:
-    acquisitions: []
-    city: Rotterdam
-    company_type: For Profit
-    country: The Netherlands
-    description: Deliver software faster and more reliable through the adoption of
-      Kubernetes, cloud-native technology and a DevOps approach
-    homepage: https://www.guida.nl/
-    industries: []
-    linkedin: https://www.linkedin.com/company/guidabv/
-    name: Guida
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: Zuid-Holland
-    stockExchange: null
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/guida
   description: Guida builds and operates cloud native platforms based on Kubernetes
     so that software developers can focus on building innovative software.
   homepage_url: https://www.guida.nl/
-  image_data:
-    fileName: guida-kcsp.svg
-    hash: 0AKvCUFu43AEgtj9S59uzxpkqe4s4d3Jy6t5XGs/Hpk=
   item: null
   logo: guida.svg
   name: Guida (KCSP)

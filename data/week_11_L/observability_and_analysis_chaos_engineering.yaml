@@ -1,93 +1,15 @@
-- best_practice_data:
-    badge: 3202
-    percentage: 82
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Kubernetes
-      date: '2016-03-10'
-    - acquiree: RethinkDB
-      date: '2017-02-06'
-      price: 25000
-    city: San Francisco
-    company_type: Non Profit
-    country: United States
-    description: CNCF is an open source software foundation that hosts and nurtures
-      projects like Kubernetes and Prometheus.
-    funding: 3000000
-    homepage: https://www.cncf.io
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Non Profit
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
-    name: Cloud Native Computing Foundation (CNCF)
-    num_employees_max: 50
-    num_employees_min: 11
-    parents:
-    - https://www.crunchbase.com/organization/linux-foundation
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/CloudNativeFdn
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   extra:
-    accepted: '2020-06-23'
+    accepted: '2020-06-25'
+    clomonitor_name: litmus-chaos
     dev_stats_url: https://litmuschaos.devstats.cncf.io/
+    incubating: '2022-01-11'
     slack_url: https://kubernetes.slack.com/messages/CNXNB0ZTN
     youtube_url: https://www.youtube.com/channel/UCa57PMqmz_j0wnteRa9nCaw
-  github_data:
-    contributions: 16;25;9;9;2;10;5;12;13;15;9;9;0;3;5;4;6;10;9;4;1;5;6;3;0;1;2;6;1;7;8;10;0;2;2;10;4;3;0;6;12;3;3;0;12;0;1;0;8;6;0;9
-    contributors_count: 178
-    contributors_link: https://github.com/litmuschaos/litmus/graphs/contributors
-    description: Litmus helps  SREs and developers practice chaos engineering in a
-      Cloud-native way. Chaos experiments are published at the ChaosHub  (https://hub.litmuschaos.io).
-      Community notes is at https://hackmd.io/a4Zu_sH4TZGeih-xCimi3Q
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#e34c26'
-      name: HTML
-      value: 2678552
-    - color: '#2b7489'
-      name: TypeScript
-      value: 2015597
-    - color: '#00ADD8'
-      name: Go
-      value: 564318
-    - color: '#563d7c'
-      name: CSS
-      value: 269772
-    - color: '#f1e05a'
-      name: JavaScript
-      value: 21494
-    - color: '#427819'
-      name: Makefile
-      value: 10740
-    - color: '#384d54'
-      name: Dockerfile
-      value: 4394
-    latest_commit_date: '2022-08-05T10:39:28Z'
-    latest_commit_link: /litmuschaos/litmus/commit/0e638a350abc0de6222f275cbdff61541bb21ece
-    license: Apache License 2.0
-    release_date: '2022-07-15T06:10:22Z'
-    release_link: https://github.com/litmuschaos/litmus/releases
-    stars: 3150
-  github_start_commit_data:
-    start_commit_link: /litmuschaos/litmus/commit/c3871e36df7aad65e52b386a5a8bcca6263e9835
-    start_date: '2017-03-15T07:03:00Z'
   homepage_url: https://litmuschaos.io/
-  image_data:
-    fileName: litmus.svg
-    hash: LDSuX91AawOePRc1G8iXbehlt3jnU6jxwZIBg+MLjko=
   item: null
   logo: litmus.svg
   name: Litmus
   project: incubating
   repo_url: https://github.com/litmuschaos/litmus
-  repos:
-  - stars: 3150
-    url: https://github.com/litmuschaos/litmus
   twitter: https://twitter.com/litmuschaos
-  twitter_data:
-    latest_tweet_date: 2022-08-05 14:03:26+00:00

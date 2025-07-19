@@ -1,400 +1,44 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/asiainfo
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Bonson Information Technology Ltd.
-      date: '2002-01-22'
-    - acquiree: Lenovo-AsiaInfo Technologies
-      date: '2004-10-19'
-    - acquiree: Hangzhou Zhongbo Software Technology Co
-      date: '2010-04-05'
-    - acquiree: iResearch Consulting Group
-      date: '2022-01-14'
-      price: 80562352
-    city: Beijing
-    company_type: For Profit
-    country: China
-    description: AsiaInfo is an innovative provider of software and IT services to
-      the telecommunications industry.
-    funding: 194829535
-    homepage: http://www.asiainfo.com
-    industries:
-    - Information Technology
-    - Software
-    - Telecommunications
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/asiainfo
-    name: AsiaInfo
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents: []
-    region: Beijing
-    stockExchange: hkg
-    ticker: 1675.HK
-    twitter: https://twitter.com/AsiaInfo
-  description: K8splus is an enhanced container scheduling platform based on Kubernetes
-    and enterprise development mode. On the basis of Kubernetes, it provides a more
-    convenient way to manage project release and control resources.
-  homepage_url: https://lionelpang.github.io/k8splus/
-  image_data:
-    fileName: k8splus.svg
-    hash: sh9lksxTOLcLU2IQ8b9qkjQTjHn94V8Ke6wg5GOP6/A=
+- crunchbase: https://www.crunchbase.com/organization/national-information-society-agency
+  description: The K-PaaS Container Platform provides an independent Kubernetes environment,
+    and developers can easily deploy Kubernetes clusters to build and manage the modern
+    applications anywhere.
+  homepage_url: https://www.k-paas.or.kr/eng/
   item: null
-  logo: k8splus.svg
-  name: K8splus
-  twitter_data:
-    latest_tweet_date: 2016-12-06 08:09:14+00:00
-  yahoo_finance_data:
-    effective_ticker: 1675.HK
-    market_cap: 1458721714
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/netease-com
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Grasshopper Manufacture
-      date: '2021-10-22'
-    city: Hangzhou
-    company_type: For Profit
-    country: China
-    description: 'NetEase, Inc. (NASDAQ: NTES) is a leading internet technology company
-      dedicated to providing premium online services.'
-    funding: 0
-    homepage: https://www.neteasegames.com/
-    industries:
-    - Advertising
-    - Gaming
-    - Mobile
-    - Mobile Apps
-    - Music
-    - PC Games
-    - Venture Capital
-    - Wireless
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/netease
-    name: NetEase
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents: []
-    region: Zhejiang
-    stockExchange: hkg
-    ticker: 9999.HK
-    twitter: https://twitter.com/neteaseofficial?lang=en
-  description: KubeCube is an open source enterprise-level container platform that
-    provides enterprises with visualized management of Kubernetes resources and unified
-    multi-cluster-multi-tenant management functions. KubeCube can simplify application
-    deployment, manage application life cycles and provide rich monitoring and log
-    auditing functions, helping companies quickly build a powerful and feature-rich
-    container cloud platform.
-  github_data:
-    contributions: 3;10;5;8;3;4;5;0;0;9;0;0;1;9;10;4;4;4;14;3;4;5;4;9;3;0;2;1;0;0;0;2;0;0;0;0;3;6;2;1;0;1;0;0;0;0;0;0;0;0;0;0
-    contributors_count: 8
-    contributors_link: https://github.com/kubecube-io/KubeCube/graphs/contributors
-    description: KubeCube is an open source enterprise-level container platform
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 866127
-    - color: '#89e051'
-      name: Shell
-      value: 10480
-    - color: '#427819'
-      name: Makefile
-      value: 5427
-    - color: '#384d54'
-      name: Dockerfile
-      value: 3015
-    latest_commit_date: '2022-05-25T07:16:06Z'
-    latest_commit_link: /kubecube-io/KubeCube/commit/f3c5e6fd9e975e72137a717f6d351eda5a2bf5f2
-    license: Apache License 2.0
-    release_date: '2022-07-29T09:07:34Z'
-    release_link: https://github.com/kubecube-io/KubeCube/releases
-    stars: 288
-  github_start_commit_data:
-    start_commit_link: /kubecube-io/KubeCube/commit/84b6adb8b1ee8cc269a147b4f228f13529853e1c
-    start_date: '2021-07-12T07:46:56Z'
-  homepage_url: https://www.kubecube.io/
-  image_data:
-    fileName: kube-cube.svg
-    hash: RaEW0GjCfAzsLEyO5ar9h49oiGYsjVbwzV93KVTuOhA=
-  item: null
-  logo: kubecube.svg
-  name: KubeCube
-  repo_url: https://github.com/kubecube-io/KubeCube
-  repos:
-  - stars: 288
-    url: https://github.com/kubecube-io/KubeCube
-  twitter_data:
-    latest_tweet_date: 2021-02-02 10:40:05+00:00
-  yahoo_finance_data:
-    effective_ticker: 9999.HK
-    market_cap: 58973992918
-- best_practice_data:
-    badge: 4610
-    percentage: 19
-  crunchbase: https://www.crunchbase.com/organization/loodse-gmbh
-  crunchbase_data:
-    acquisitions: []
-    city: Hamburg
-    company_type: For Profit
-    country: Germany
-    description: Kubermatic empowers organizations worldwide to automate their Kubernetes
-      and cloud native operations across multi-cloud, edge and on-prem.
-    funding: 8300000
-    homepage: https://www.kubermatic.com
-    industries:
-    - Enterprise
-    - SaaS
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/kubermatic
-    name: Kubermatic
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: Hamburg
-    stockExchange: null
-    twitter: https://www.twitter.com/kubermatic
+  logo: nia-k-paas.svg
+  name: K-PaaS Container Platform
+  repo_url: https://github.com/K-PaaS/container-platform
+- crunchbase: https://www.crunchbase.com/organization/loodse-gmbh
   description: Kubermatic Kubernetes Platform automates Kubernetes deployments and
     Day 2 operations for thousands of Kubernetes clusters on any cloud, on-premises
     and edge.
-  github_data:
-    contributions: 19;32;32;42;33;27;14;12;7;8;27;26;21;24;16;24;34;19;30;28;8;20;27;18;9;25;43;27;21;40;33;23;37;33;37;24;25;32;11;30;33;17;27;31;32;40;30;37;38;57;61;28
-    contributors_count: 107
-    contributors_link: https://github.com/kubermatic/kubermatic/graphs/contributors
-    description: 'Kubermatic Kubernetes Platform - the Central Kubernetes Management
-      Platform For Any Infrastructure '
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 11034900
-    - color: '#89e051'
-      name: Shell
-      value: 251813
-    - color: '#384d54'
-      name: Dockerfile
-      value: 15291
-    - color: '#427819'
-      name: Makefile
-      value: 10130
-    - color: '#563d7c'
-      name: CSS
-      value: 2322
-    - name: Smarty
-      value: 467
-    latest_commit_date: '2022-08-05T16:14:42Z'
-    latest_commit_link: /kubermatic/kubermatic/commit/381945e0d403bdf2662fda3f33ab2eb50c905153
-    license: Other
-    release_date: '2022-08-03T09:08:34Z'
-    release_link: https://github.com/kubermatic/kubermatic/releases
-    stars: 864
-  github_start_commit_data:
-    start_commit_link: /kubermatic/kubermatic/commit/f953c4f4f1d293eaae5e80149767005f20878971
-    start_date: '2016-01-30T20:49:44Z'
   homepage_url: https://www.kubermatic.com
-  image_data:
-    fileName: kubermatic-kubernetes-platform.svg
-    hash: Hmu0KdiXhO3HItvIgUOzJjZa4ZH8ltyQCJ2I9TDFfnc=
   item: null
   logo: kubermatic.svg
   name: Kubermatic Kubernetes Platform
   repo_url: https://github.com/kubermatic/kubermatic
-  repos:
-  - stars: 864
-    url: https://github.com/kubermatic/kubermatic
-  twitter_data:
-    latest_tweet_date: 2022-08-03 08:30:00+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/qingcloud
-  crunchbase_data:
-    acquisitions: []
-    city: Beijing
-    company_type: For Profit
-    country: China
-    description: QingCloud is a cloud computing platform that provides IaaS-based
-      flexible cloud services.
-    funding: 280832709
-    homepage: http://qingcloud.com
-    industries:
-    - Cloud Computing
-    - IaaS
-    - SaaS
-    - Software
-    - Web Hosting
-    kind: market_cap
-    linkedin: https://www.linkedin.com/showcase/6462819/
-    name: QingCloud
-    num_employees_max: 1000
-    num_employees_min: 501
-    parents: []
-    region: Beijing
-    stockExchange: sse
-    ticker: 688316.SS
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/china-mobile
+  description: KubeService Stack = Kubernetes + Custom Service Build a Kubernetes/KubeEdge
+    enterprise-level peripheral ecosystem
+  homepage_url: https://stack.kubeservice.cn/
+  item: null
+  logo: kubeservice-stack.svg
+  name: KubeService Stack
+  twitter: https://twitter.com/kubeservice
+- crunchbase: https://www.crunchbase.com/organization/qingcloud
   description: Kubesphere.io is an upstream project of the KubeSphere container management
     platform. Our vision is to provide an easier, more friendly and more powerful
     distributed management platform for individuals and enterprises based on Kubernetes,
     as well as meet more business demands and help more users to use Kubernetes faster
     and better.
-  github_data:
-    contributions: 12;16;26;34;24;22;9;17;6;14;15;1;10;7;4;9;7;5;5;2;9;10;12;9;3;0;5;6;14;10;15;2;2;3;4;3;3;9;5;14;12;10;12;11;1;2;5;8;2;13;1;2
-    contributors_count: 128
-    contributors_link: https://github.com/kubesphere/kubesphere/graphs/contributors
-    description: "The container platform tailored for Kubernetes multi-cloud, datacenter,\
-      \ and edge management \u2388 \U0001F5A5 \u2601\uFE0F"
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 4677557
-    - color: '#89e051'
-      name: Shell
-      value: 118225
-    - color: '#427819'
-      name: Makefile
-      value: 10909
-    - color: '#e34c26'
-      name: HTML
-      value: 3740
-    - color: '#384d54'
-      name: Dockerfile
-      value: 2433
-    - name: Mustache
-      value: 2069
-    latest_commit_date: '2022-08-04T05:38:41Z'
-    latest_commit_link: /kubesphere/kubesphere/commit/74e127e1a6300c8511ad4a2933834c9e1834eb47
-    license: Apache License 2.0
-    release_date: '2022-06-24T12:55:26Z'
-    release_link: https://github.com/kubesphere/kubesphere/releases
-    stars: 10653
-  github_start_commit_data:
-    start_commit_link: /kubesphere/kubesphere/commit/2a6b79d646d35e56e1e2b3bfa54de2ecd4fa8005
-    start_date: '2018-04-21T02:03:04Z'
   homepage_url: https://kubesphere.io
-  image_data:
-    fileName: kubesphere.svg
-    hash: u3DOz+sixTuZez2RXJAqkovwq7t3H+UGH57DqIUZrQE=
   item: null
   logo: kubesphere.svg
   name: Kubesphere
   repo_url: https://github.com/kubesphere/kubesphere
-  repos:
-  - stars: 10653
-    url: https://github.com/kubesphere/kubesphere
-  yahoo_finance_data:
-    effective_ticker: 688316.SS
-    market_cap: 252335307
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/suse
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Rancher Labs
-      date: '2020-07-08'
-      price: 600000000
-    - acquiree: NeuVector
-      date: '2021-10-28'
-      price: 130000000
-    city: Nuremberg
-    company_type: For Profit
-    country: Germany
-    description: SUSE provides reliable and interoperable Linux and cloud infrastructure
-      solutions that give enterprises greater control and flexibility.
-    homepage: http://www.suse.com
-    industries:
-    - Cloud Computing
-    - Enterprise Software
-    - Linux
-    - Software
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/suse
-    name: SUSE
-    num_employees_max: 5000
-    num_employees_min: 1001
-    parents: []
-    region: Bayern
-    stockExchange: fra
-    ticker: SUSE.F
-    twitter: https://twitter.com/SUSE
-  description: openSUSE Kubic is a community Kubernetes distribution integrating latest
-    kubeadm versions atop a container-optimised transactionally-updated base system
-    called openSUSE MicroOS.
-  github_data:
-    contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-    contributors_count: 15
-    contributors_link: https://github.com/kubic-project/container-images/graphs/contributors
-    description: ' Source files required used to build the Kubic containers'
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#89e051'
-      name: Shell
-      value: 32201
-    latest_commit_date: '2020-09-08T15:08:37Z'
-    latest_commit_link: /kubic-project/container-images/commit/ce8f25c63d6df60f50156defe068501555911c39
-    license: Unknown License
-    stars: 9
-  github_start_commit_data:
-    start_commit_link: /kubic-project/container-images/commit/664222110532142033988cec8c1864e7e521155f
-    start_date: '2018-02-05T09:42:39Z'
-  homepage_url: https://kubic.opensuse.org
-  image_data:
-    fileName: kubic.svg
-    hash: DTPOKF5mEEDhUR7U0LEjms+ae8FsrhXiNaKXOH5LaZw=
-  item: null
-  logo: kubic.svg
-  name: Kubic
-  repo_url: https://github.com/kubic-project/container-images
-  repos:
-  - stars: 9
-    url: https://github.com/kubic-project/container-images
-  twitter: https://twitter.com/KubicProject
-  twitter_data:
-    latest_tweet_date: 2022-06-10 10:53:47+00:00
-  yahoo_finance_data:
-    effective_ticker: SUSE.F
-    market_cap: 3288476571
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/kublr
-  crunchbase_data:
-    acquisitions: []
-    city: Washington
-    company_type: For Profit
-    country: United States
-    description: Production-ready cluster and application platform that speeds and
-      simplifies the set-up and management of your K8s cluster.
-    homepage: http://kublr.com/
-    industries:
-    - Consulting
-    - Government
-    - Information Technology
-    - Robotics
-    - Software
-    linkedin: https://www.linkedin.com/company/kublr/
-    name: Kublr
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: District of Columbia
-    stockExchange: null
-    twitter: https://twitter.com/kublr
+- crunchbase: https://www.crunchbase.com/organization/kublr
   description: Accelerate and control the deployment, scaling, monitoring and management
     of your containerized applications.
   homepage_url: https://kublr.com/
-  image_data:
-    fileName: kublr.svg
-    hash: iyd6iL2qBFjYh45nJweiJU5eUeVnaAEwxQIUWcIs/NA=
   item: null
   logo: kublr.svg
   name: Kublr
-  twitter_data:
-    latest_tweet_date: 2022-08-02 13:02:54+00:00

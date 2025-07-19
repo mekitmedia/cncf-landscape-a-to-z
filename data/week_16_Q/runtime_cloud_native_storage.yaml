@@ -1,119 +1,21 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/qingcloud
-  crunchbase_data:
-    acquisitions: []
-    city: Beijing
-    company_type: For Profit
-    country: China
-    description: QingCloud is a cloud computing platform that provides IaaS-based
-      flexible cloud services.
-    funding: 280832709
-    homepage: http://qingcloud.com
-    industries:
-    - Cloud Computing
-    - IaaS
-    - SaaS
-    - Software
-    - Web Hosting
-    kind: market_cap
-    linkedin: https://www.linkedin.com/showcase/6462819/
-    name: QingCloud
-    num_employees_max: 1000
-    num_employees_min: 501
-    parents: []
-    region: Beijing
-    stockExchange: sse
-    ticker: 688316.SS
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/qingcloud
   homepage_url: https://www.qingcloud.com/products/qingstor/
-  image_data:
-    fileName: qing-stor.svg
-    hash: +ywrZVfatRonfBtpnSMvPfjFSHzVLW1gFso2d3ZQYg0=
   item: null
   joined: '2021-02-05'
   logo: QingStor.svg
   name: QingStor
-  yahoo_finance_data:
-    effective_ticker: 688316.SS
-    market_cap: 252335307
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/qumulo
-  crunchbase_data:
-    acquisitions: []
-    city: Seattle
-    company_type: For Profit
-    country: United States
-    description: Qumulo provides a file data platform for multi-cloud environments
-      with large scale file data.
-    funding: 347300000
-    homepage: http://qumulo.com
-    industries:
-    - Big Data
-    - Cloud Data Services
-    - Cloud Storage
-    - Data Storage
-    - Enterprise Software
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/qumulo/
-    name: Qumulo
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: Washington
-    stockExchange: null
-    twitter: http://twitter.com/qumulo
+- crunchbase: https://www.crunchbase.com/organization/qumulo
   description: Qumulo provides file storage that delivers billion file count, petabyte
     scale, gigabyte throughput in the public cloud and AWS GovCloud(US) with all-flash
     and hybrid SSD/HDD options.
   homepage_url: https://www.qumulo.com/
-  image_data:
-    fileName: qumulo.svg
-    hash: Ux2NjOV8kLGlHMCbTUbO62aIHoxuywM05z5tZS0DgBI=
   item: null
   logo: qumulo.svg
   name: Qumulo
   twitter: https://twitter.com/Qumulo
-  twitter_data:
-    latest_tweet_date: 2022-08-05 19:09:15+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/quobyte
-  crunchbase_data:
-    acquisitions: []
-    city: Santa Clara
-    company_type: For Profit
-    country: United States
-    description: Quobyte is software that turns commodity servers into a unified,
-      high-performance, scalable software storage system.
-    funding: 0
-    homepage: https://www.quobyte.com
-    industries:
-    - Cloud Infrastructure
-    - Cloud Storage
-    - Data Storage
-    - Enterprise Software
-    - Software
-    linkedin: https://www.linkedin.com/company/quobyte
-    name: Quobyte
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://www.twitter.com/quobyte
+- crunchbase: https://www.crunchbase.com/organization/quobyte
   homepage_url: https://www.quobyte.com/
-  image_data:
-    fileName: quobyte.svg
-    hash: mx/3urV4SaGFLRaeQvj++rX7jOV2CCernxu+EEYiu4g=
   item: null
   logo: quobyte.svg
   name: Quobyte
   twitter: https://twitter.com/Quobyte
-  twitter_data:
-    latest_tweet_date: 2022-07-29 16:46:04+00:00

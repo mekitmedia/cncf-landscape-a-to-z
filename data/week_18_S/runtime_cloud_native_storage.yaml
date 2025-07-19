@@ -1,378 +1,61 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/shansyan-data
-  crunchbase_data:
-    acquisitions: []
-    city: Shenzhen
-    company_type: For Profit
-    country: China
-    description: Sandstone is a national high-tech enterprise focusing on enterprise-level
-      software-defined storage.
-    funding: 22954745
-    homepage: http://www.szsandstone.com/
-    industries:
-    - Data Storage
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/%E6%B7%B1%E5%9C%B3%E5%B8%82%E6%9D%89%E5%B2%A9%E6%95%B0%E6%8D%AE%E6%8A%80%E6%9C%AF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/about/
-    name: Sandstone
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: Guangdong
-    stockExchange: null
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/shansyan-data
   description: ShenZhen SandStone Data Technology Co., Ltd.  is a high-tech enterprise
     focusing on enterprise-level software-defined storage.
   homepage_url: https://www.szsandstone.com
-  image_data:
-    fileName: sand-stone.svg
-    hash: pzWZrIMhj1z8sbYLgGS/IykWpNcNjgcmjoGD5JDsnJU=
   item: null
   logo: sandstone.svg
   name: SandStone
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/sangfor-technologies
-  crunchbase_data:
-    acquisitions: []
-    city: Shenzhen
-    company_type: For Profit
-    country: China
-    description: Sangfor offers cost effective WAN optimization solutions to midsize
-      enterprises.
-    homepage: https://www.sangfor.com/
-    industries:
-    - Computer
-    - Hardware
-    - Information Technology
-    - Software
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/sangfor-technologies-usa
-    name: Sangfor Technologies
-    num_employees_max: 5000
-    num_employees_min: 1001
-    parents: []
-    region: Guangdong
-    stockExchange: szse
-    ticker: 300454.SZ
-    twitter: http://twitter.com/SangforUSA
+- crunchbase: https://www.crunchbase.com/organization/sangfor-technologies
   description: Sangfor Technologies is a leading global vendor of IT infrastructure
     solutions, specializing in Cloud Computing & Network Security with a wide range
     of products & services.
   homepage_url: https://www.sangfor.com.cn/product-and-solution/sangfor-its/3
-  image_data:
-    fileName: sangfor-eds.svg
-    hash: htRXSrI4rOMwku8QGBoJQl3ziHz5mstJS+kpVtXoGDg=
   item: null
   logo: sangfor.svg
   name: Sangfor EDS
-  twitter: null
-  yahoo_finance_data:
-    effective_ticker: 300454.SZ
-    market_cap: 6476992400
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/scaleflash
-  crunchbase_data:
-    acquisitions: []
-    city: Beijing
-    company_type: ''
-    country: China
-    description: A leading provider of high-performance software-defined storage products
-      and enterprise cloud solutions
-    homepage: https://www.scaleflash.com/
-    industries:
-    - Software
-    linkedin: null
-    name: ScaleFlash
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Beijing
-    stockExchange: null
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/scaleflash
   description: ScaleFlash is a leading provider of high-performance software-defined
     storage products and enterprise cloud solutions.
   homepage_url: https://www.scaleflash.com
-  image_data:
-    fileName: scale-flash.svg
-    hash: eytXvccZ0SiaSnk3jcCl0F0nkp7uAOjSd//1840+yqU=
   item: null
   logo: scaleflash.svg
   name: ScaleFlash
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/scality
-  crunchbase_data:
-    acquisitions: []
-    city: Paris
-    company_type: For Profit
-    country: France
-    description: Scality is a venture-backed software company that solves problems
-      associated with large-scale storage management and infrastructure.
-    funding: 172000000
-    homepage: http://scality.com/
-    industries:
-    - Cloud Data Services
-    - Data Storage
-    - Enterprise Software
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/scality
-    name: Scality
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: Ile-de-France
-    stockExchange: null
-    twitter: http://twitter.com/scality
+- crunchbase: https://www.crunchbase.com/organization/scality
   homepage_url: https://www.scality.com/products/ring/
-  image_data:
-    fileName: scality-ring.svg
-    hash: 28LwkIZAt4SswmCONdgRZyqZvXwk3fYs0WCExNd5hOo=
   item: null
   logo: ring.svg
   name: Scality RING
-  twitter_data:
-    latest_tweet_date: 2022-08-06 00:09:52+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/opensds
-  crunchbase_data:
-    acquisitions: []
-    city: San Francisco
-    company_type: Non Profit
-    country: United States
-    description: Soda Foundation is an open source project established to address
-      integration challenges for Storage Defined Storage (SDS) vendors.
-    homepage: https://sodafoundation.io/
-    industries:
-    - Communities
-    - Information Technology
-    - Software
-    linkedin: null
-    name: Soda Foundation
-    num_employees_max: null
-    num_employees_min: null
-    parents:
-    - https://www.crunchbase.com/organization/linux-foundation
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/sodafoundation
-  github_data:
-    contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0
-    contributors_count: 55
-    contributors_link: https://github.com/sodafoundation/api/graphs/contributors
-    description: 'SODA Terra Project API module : is an open source implementation
-      of SODA API connecting storage to platforms like Kubernetes, OpenStack, and
-      VMware'
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 969989
-    - color: '#89e051'
-      name: Shell
-      value: 64926
-    - color: '#3572A5'
-      name: Python
-      value: 3804
-    - color: '#427819'
-      name: Makefile
-      value: 2652
-    - color: '#384d54'
-      name: Dockerfile
-      value: 1164
-    latest_commit_date: '2022-06-14T06:33:37Z'
-    latest_commit_link: /sodafoundation/api/commit/df1bf3d6aeff2469c87616d90ccacaf7fff91802
-    license: Apache License 2.0
-    release_date: '2021-06-30T11:50:55Z'
-    release_link: https://github.com/sodafoundation/api/releases
-    stars: 803
-  github_start_commit_data:
-    start_commit_link: /opensds/opensds/commit/160583c4574e44f256e07f1955be367a19ad80f1
-    start_date: '2016-12-22T00:27:55Z'
+- crunchbase: https://www.crunchbase.com/organization/simplyblock
+  description: Simplyblock is a distributed, disaggregated, cloud-native elastic block
+    storage solution for IO-heavy and latency-sensitive container workloads, available
+    in Kubernetes through our CSI StorageClass implementation.
+  homepage_url: https://simplyblock.io/
+  item: null
+  logo: simplyblock.svg
+  name: Simplyblock
+  twitter: https://twitter.com/simplyblock_io
+- crunchbase: https://www.crunchbase.com/organization/opensds
   homepage_url: https://sodafoundation.io/wp-content/uploads/2021/03/cn.png
-  image_data:
-    fileName: soda-foundation.svg
-    hash: 7gsp2JyhM++EeReNNtwRgXuTWkWrN0NGzdJqd0vZmY0=
   item: null
   logo: soda-foundation.svg
   name: Soda Foundation
   repo_url: https://github.com/sodafoundation/api
-  repos:
-  - stars: 803
-    url: https://github.com/sodafoundation/api
-  twitter_data:
-    latest_tweet_date: 2022-07-25 15:06:57+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/appscode
-  crunchbase_data:
-    acquisitions: []
-    city: Las Vegas
-    company_type: For Profit
-    country: United States
-    description: Cloud Native Data Platform
-    homepage: https://appscode.com
-    industries:
-    - Developer Tools
-    - Software
-    - Software Engineering
-    linkedin: https://www.linkedin.com/company/appscode
-    name: AppsCode
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Nevada
-    stockExchange: null
-    twitter: http://twitter.com/AppsCodeHQ
-  github_data:
-    contributions: 0;0;0;2;0;2;2;1;6;2;0;2;0;0;1;5;0;1;1;0;0;0;0;0;2;3;9;0;0;1;4;2;1;12;0;4;1;1;0;2;4;2;1;4;3;0;0;0;5;2;5;6
-    contributors_count: 26
-    contributors_link: https://github.com/stashed/stash/graphs/contributors
-    description: "\U0001F6C5 Backup your Kubernetes Stateful Applications"
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 1009916
-    - color: '#427819'
-      name: Makefile
-      value: 20041
-    - color: '#89e051'
-      name: Shell
-      value: 15652
-    latest_commit_date: '2022-08-04T08:49:32Z'
-    latest_commit_link: /stashed/stash/commit/8c87f9fc58382596fa191a83ced1cc5582ca5856
-    license: Other
-    release_date: '2022-07-18T22:50:02Z'
-    release_link: https://github.com/stashed/stash/releases
-    stars: 1126
-  github_start_commit_data:
-    start_commit_link: /stashed/stash/commit/0ab9faa68308cd646e1e63271950cf75e3cf62c0
-    start_date: '2017-02-28T00:37:01Z'
+- crunchbase: https://www.crunchbase.com/organization/appscode
   homepage_url: https://stash.run
-  image_data:
-    fileName: stash-by-apps-code.svg
-    hash: zVAeErCeDXf/O6cWol8ZSDnBLPUc7XvvanJO/D6mjiY=
   item: null
   logo: stash-by-apps-code.svg
   name: Stash by AppsCode
   open_source: false
   repo_url: https://github.com/stashed/stash
-  repos:
-  - stars: 1126
-    url: https://github.com/stashed/stash
   twitter: https://twitter.com/kubestash
-  twitter_data:
-    latest_tweet_date: 2022-08-02 15:27:00+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/storpool
-  crunchbase_data:
-    acquisitions: []
-    city: Sofia
-    company_type: For Profit
-    country: Bulgaria
-    description: StorPool is the fastest software-defined block storage used by public
-      and private cloud builders, enterprises, MSPs, hosting providers.
-    funding: 263255
-    homepage: https://www.storpool.com
-    industries:
-    - Cloud Infrastructure
-    - Cloud Storage
-    - Data Storage
-    - Enterprise Software
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/storpool
-    name: StorPool
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Grad Sofiya
-    stockExchange: null
-    twitter: http://twitter.com/storpool
+- crunchbase: https://www.crunchbase.com/organization/storpool
   homepage_url: https://www.storpool.com/
-  image_data:
-    fileName: stor-pool.svg
-    hash: ovO+r/miZK2nVvljUTJ+q8UmlNmTydBF8gjk3Yq1rro=
   item: null
   logo: storpool.svg
   name: StorPool
-  twitter_data:
-    latest_tweet_date: 2022-08-04 02:01:00+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/open-infrastructure-foundation
-  crunchbase_data:
-    acquisitions: []
-    city: Austin
-    company_type: ''
-    country: United States
-    description: Helping people build and operate open infrastructure that runs in
-      production
-    homepage: https://openinfra.dev/
-    industries: []
-    linkedin: https://www.linkedin.com/company/open-infrastructure-foundation/
-    name: Open Infrastructure Foundation
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Texas
-    stockExchange: null
-    twitter: https://twitter.com/openinfradev
-  github_data:
-    contributions: 1;5;5;1;3;3;2;7;3;3;3;5;1;2;10;6;12;8;4;4;0;5;6;4;14;13;10;7;2;5;4;7;7;3;8;2;11;9;7;9;9;5;7;7;3;11;1;6;1;6;11;7
-    contributors_count: 444
-    contributors_link: https://github.com/openstack/swift/graphs/contributors
-    description: OpenStack Storage (Swift). Mirror of code maintained at opendev.org.
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#3572A5'
-      name: Python
-      value: 14104127
-    - color: '#f1e05a'
-      name: JavaScript
-      value: 40376
-    - color: '#89e051'
-      name: Shell
-      value: 9631
-    - name: Jinja
-      value: 4305
-    - color: '#384d54'
-      name: Dockerfile
-      value: 3072
-    - color: '#e34c26'
-      name: HTML
-      value: 2147
-    latest_commit_date: '2022-08-05T18:49:26Z'
-    latest_commit_link: /openstack/swift/commit/0c8c36b3fa51a3d8d4f06973f9fdd92e812c138e
-    license: Apache License 2.0
-    stars: 2324
-  github_start_commit_data:
-    start_commit_link: /openstack/swift/commit/2ee9b837b5a1e13681ca9359138451719f8641dd
-    start_date: '2010-07-08T01:37:44Z'
+- crunchbase: https://www.crunchbase.com/organization/open-infrastructure-foundation
   homepage_url: https://docs.openstack.org/swift/latest/
-  image_data:
-    fileName: swift.svg
-    hash: DbUNRcMr44wc0NSxbHl+xxg/N3hlgXPNsFeylFQd9i8=
   item: null
   logo: openstack-swift.svg
   name: Swift
   repo_url: https://github.com/openstack/swift
-  repos:
-  - stars: 2324
-    url: https://github.com/openstack/swift
-  twitter_data:
-    latest_tweet_date: 2022-08-05 18:03:18+00:00

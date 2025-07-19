@@ -1,109 +1,12 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/glasnostic
-  crunchbase_data:
-    acquisitions: []
-    city: Menlo Park
-    company_type: For Profit
-    country: United States
-    description: Runtime Control for the Cloud Native Enterprise
-    funding: 2060965
-    homepage: https://glasnostic.com/
-    industries:
-    - Application Performance Management
-    - Cloud Management
-    - Cloud Security
-    - IT Management
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/glasnostic/
-    name: Glasnostic
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/glasnostic
+- crunchbase: https://www.crunchbase.com/organization/glasnostic
   description: Glasnostic makes modern cloud applications resilient by shaping how
     systems interact, automatically and in real-time.
-  homepage_url: https://glasnostic.com/
-  image_data:
-    fileName: glasnostic.svg
-    hash: KnMBHHo17CCFlhx1CZpLgIFd8Pg5JKpIYhhk29KYZPM=
+  homepage_url: https://www.linkedin.com/company/glasnostic/
   item: null
   logo: glasnostic.svg
   name: Glasnostic
-  twitter_data:
-    latest_tweet_date: 2022-07-29 18:00:04+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/solo-io
-  crunchbase_data:
-    acquisitions: []
-    city: Cambridge
-    company_type: For Profit
-    country: United States
-    description: Solo.io develops tools to help the enterprise adapt and make the
-      most of innovative cloud technologies.
-    funding: 171500000
-    homepage: https://www.solo.io
-    industries:
-    - Apps
-    - Cloud Computing
-    - Developer APIs
-    - Internet
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/solo.io
-    name: Solo.io
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: Massachusetts
-    stockExchange: null
-    twitter: https://twitter.com/soloio_inc
-  github_data:
-    contributions: 16;20;16;4;0;6;3;2;1;1;2;0;1;0;1;0;2;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-    contributors_count: 28
-    contributors_link: https://github.com/solo-io/gloo-mesh/graphs/contributors
-    description: The Service Mesh Orchestration Platform
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 1275237
-    - color: '#89e051'
-      name: Shell
-      value: 49242
-    - color: '#427819'
-      name: Makefile
-      value: 13869
-    - name: Smarty
-      value: 6404
-    - color: '#384d54'
-      name: Dockerfile
-      value: 613
-    latest_commit_date: '2021-12-30T19:17:05Z'
-    latest_commit_link: /solo-io/gloo-mesh/commit/d97ca09945a916124e967f1035e90ae49123c67c
-    license: Apache License 2.0
-    release_date: '2021-10-07T14:35:43Z'
-    release_link: https://github.com/solo-io/gloo-mesh/releases
-    stars: 971
-  github_start_commit_data:
-    start_commit_link: /solo-io/supergloo/commit/557d970f348703030087a241d9000e74d077b0fe
-    start_date: '2018-10-31T13:01:27Z'
+- crunchbase: https://www.crunchbase.com/organization/solo-io
   homepage_url: https://docs.solo.io/gloo-mesh-enterprise/latest
-  image_data:
-    fileName: gloo-mesh.svg
-    hash: 1RfDgYgL4ehnBz6x86JSt+tPougw5OTGSTVWfvgnRvU=
   item: null
   logo: gloomesh.svg
   name: Gloo Mesh
-  repo_url: https://github.com/solo-io/gloo-mesh
-  repos:
-  - stars: 971
-    url: https://github.com/solo-io/gloo-mesh
-  twitter_data:
-    latest_tweet_date: 2022-08-05 18:00:22+00:00

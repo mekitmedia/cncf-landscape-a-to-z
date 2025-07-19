@@ -1,223 +1,38 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/acornsoft
-  crunchbase_data:
-    acquisitions: []
-    city: Seoul
-    company_type: For Profit
-    country: South Korea
-    description: Acronsoft is a company that develops Cloud Native Application Platform
-      which is a computing environment for future application development.
-    homepage: 'http://www.cocktailcloud.io '
-    industries:
-    - Apps
-    - Cloud Computing
-    - Information Technology
-    - Software
-    linkedin: null
-    name: Acornsoft
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Seoul-t'ukpyolsi
-    stockExchange: null
-    twitter: https://twitter.com/CocktailCloud
+- crunchbase: https://www.crunchbase.com/organization/acornsoft
   description: As a CNCF KCSP (Kubernetes Certified Service Provider) and a developer
     of Cocktail Cloud Kubernetes Orchestration Platform Product, Acornsoft trains
     clients and prospective clients on Docker and Kubernetes.
   homepage_url: https://www.cocktailcloud.io/login.do
-  image_data:
-    fileName: acornsoft-ktp.svg
-    hash: JbmIy0IQoUlx6p/mXvRJ+tFV5mMFvoDNZPrTW/3yOPk=
   item: null
   logo: acornsoft.svg
   name: Acornsoft (KTP)
-  twitter_data:
-    latest_tweet_date: 2019-06-28 02:38:05+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/alauda
-  crunchbase_data:
-    acquisitions: []
-    city: Haidian
-    company_type: For Profit
-    country: China
-    description: Alauda is a pioneer cloud platform provider that focuses on containers
-      and microservices.
-    funding: 15000000
-    homepage: http://www.alauda.cn/
-    industries:
-    - Cloud Infrastructure
-    - Computer
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/alauda-inc-/
-    name: Alauda
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: Beijing
-    stockExchange: null
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/alauda
+  description: Alauda is a Cloud Native Platform provider at the forefront of empowering
+    Enterprise IT with Continuous Innovation in the Digital Age. We provide Kubernetes
+    training and consulting services with experienced instructors.
   homepage_url: https://www.alauda.cn
-  image_data:
-    fileName: alauda-ktp.svg
-    hash: 1e/0J2NoCAPiqz0MpC25HhHaYXIqhCOvWdszMJ2RwZs=
   item: null
   logo: alauda.svg
   name: Alauda (KTP)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/alter-way
-  crunchbase_data:
-    acquisitions:
-    - acquiree: "Ing\xE9niweb"
-      date: '2006-07-01'
-    - acquiree: SOLINUX
-      date: '2007-07-17'
-    - acquiree: Nexen Services SAS
-      date: '2007-11-13'
-    - acquiree: Anaska
-      date: '2008-06-19'
-    - acquiree: OBIONE
-      date: '2017-05-17'
-    - acquiree: Osones
-      date: '2018-10-09'
-    city: Saint-cloud
-    company_type: For Profit
-    country: France
-    description: Alter Way is an open source service company specialized in computer
-      engineering.
-    funding: 3660020
-    homepage: http://www.alterway.fr
-    industries:
-    - Enterprise Software
-    - Information Services
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/alter-way
-    name: Alter Way
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: Ile-de-France
-    stockExchange: null
-    twitter: https://www.twitter.com/alterway
+- crunchbase: https://www.crunchbase.com/organization/alter-way
   description: We are experts in the implementation of scalable infrastructure orchestrated
     by Kubernetes for all sectors of business activity. We are CKA-certified and have
     considerable experience in the French market.
   homepage_url: https://www.alterway.fr/formation
-  image_data:
-    fileName: alter-way-ktp.svg
-    hash: sPG7hyoMcbS9eb0YXstgbrnR/H0El19Arnesane06KE=
   item: null
   logo: alter-way.svg
   name: Alter Way (KTP)
-  twitter_data:
-    latest_tweet_date: 2022-07-22 15:02:40+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/altoros-systems
-  crunchbase_data:
-    acquisitions: []
-    city: Pleasanton
-    company_type: For Profit
-    country: United States
-    description: As a Kubernetes Partner and certified service provider, Altoros helps
-      companies to deliver easily scalable and upgradable apps.
-    homepage: http://www.altoros.com
-    industries:
-    - Cloud Infrastructure
-    - Cloud Management
-    - Cloud Security
-    - Information Technology
-    - Software
-    linkedin: https://www.linkedin.com/company/110487
-    name: Altoros
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: http://twitter.com/altoros
-  description: Altoros is a professional IT services provider that delivers full-scale
-    Kubernetes solutions, enabling companies with resilient and highly available deployments.
-  homepage_url: https://www.altoros.com/training/kubernetes
-  image_data:
-    fileName: altoros-ktp.svg
-    hash: DJmzubvsNDw6hCct/+cTHw5LtmXrR5ZJl8hiBp7Eqi0=
+- crunchbase: https://www.crunchbase.com/organization/ambient-it
+  description: Ambient IT is a French training organization specializing in IT and
+    digital professions.
+  homepage_url: https://www.ambient-it.net/formation/formation-kubernetes/
   item: null
-  logo: altoros-ktp.svg
-  name: Altoros (KTP)
-  twitter_data:
-    latest_tweet_date: 2022-07-29 14:27:41+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/appddiction-studio
-  crunchbase_data:
-    acquisitions: []
-    city: San Antonio
-    company_type: For Profit
-    country: United States
-    description: Appddiction Studio is a nationwide leader in innovative IT and Medical
-      Staffing services.
-    homepage: https://appddictionstudio.com/#/home
-    industries:
-    - Health Care
-    linkedin: https://www.linkedin.com/company/appddiction-studio/
-    name: Appddiction Studio
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Texas
-    stockExchange: null
-    twitter: https://twitter.com/AppddictionSTU
-  description: Appddiction Studio, a DevSecOps/Agile solutions provider, offers Kubernetes
-    implementation and configuration services, application container migrations, and
-    training.
-  homepage_url: https://appddictionstudio.com/#/devsecops-transformation
-  image_data:
-    fileName: appddiction-studio-ktp.svg
-    hash: CgmClfGyFKUwWmY9XbjXqj+7CwiQ3T8qYOL1ApvgbYg=
-  item: null
-  logo: appddiction-studio.svg
-  name: Appddiction Studio (KTP)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 18:00:00+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/atix
-  crunchbase_data:
-    acquisitions: []
-    city: Garching
-    company_type: ''
-    country: Germany
-    description: ATIX AG provides you with customized Linux and open source enterprise
-      solutions for your company's success.
-    homepage: https://atix.de/en/
-    industries:
-    - Software
-    linkedin: https://www.linkedin.com/company/atix-ag/about/
-    name: ATIX
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Bayern
-    stockExchange: null
-    twitter: null
+  logo: ambient-it.svg
+  name: Ambient IT (KTP)
+- crunchbase: https://www.crunchbase.com/organization/atix
   description: ATIX plans, builds & runs Kubernetes clusters. We provide operational
     support and teach companies how to profit from using Kubernetes.
   homepage_url: https://atix.de/en/trainings/kubernetes-training/
-  image_data:
-    fileName: atix-ktp.svg
-    hash: gPwzxj7jPn6z5XU+DAZzEyNjlVU2YT0JK9vrVhrhJrc=
   item: null
   logo: atix-ag.svg
   name: ATIX (KTP)

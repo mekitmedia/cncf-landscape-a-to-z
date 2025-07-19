@@ -1,51 +1,8 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/mirantis
-  crunchbase_data:
-    acquisitions:
-    - acquiree: TCP Cloud
-      date: '2016-09-15'
-    - acquiree: Docker Enterprise
-      date: '2019-11-13'
-    - acquiree: Kontena
-      date: '2020-02-28'
-    - acquiree: Lens
-      date: '2020-08-13'
-    - acquiree: amazee.io
-      date: '2022-07-26'
-    city: Campbell
-    company_type: For Profit
-    country: United States
-    description: Mirantis helps organizations ship code faster on public and private
-      clouds. We provide a public cloud experience on any infrastructure.
-    funding: 220000000
-    homepage: http://www.mirantis.com
-    industries:
-    - Cloud Computing
-    - Enterprise Software
-    - IT Infrastructure
-    - IaaS
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/mirantis
-    name: Mirantis
-    num_employees_max: 1000
-    num_employees_min: 501
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: http://twitter.com/MirantisIT
+- crunchbase: https://www.crunchbase.com/organization/mirantis
   description: We offer intensive cloud native training bootcamp(s) for IT professionals
     looking to develop skills in deploying and administering containerized applications
     in Kubernetes.
   homepage_url: https://training.mirantis.com/cloud-native-learning-track/
-  image_data:
-    fileName: mirantis-ktp.svg
-    hash: nRR+kobpiaRYVb36LRBokBKOwpUNhjMGZ7wInEI6wlU=
   item: null
   logo: mirantis.svg
   name: Mirantis (KTP)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 19:00:16+00:00

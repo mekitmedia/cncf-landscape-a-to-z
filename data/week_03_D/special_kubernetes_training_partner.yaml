@@ -1,158 +1,41 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/D2iQ
-  crunchbase_data:
-    acquisitions:
-    - acquiree: OrlyAtomics
-      date: '2014-09-17'
-    - acquiree: H1 Studios
-      date: '2015-01-01'
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: D2iQ offers elastically run containers and data services at scale,
-      with complete hybrid cloud portability.
-    funding: 247250000
-    homepage: https://d2iq.com/
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Data Center Automation
-    - Enterprise Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/d2iq/
-    name: D2iq
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/D2iQ
+- crunchbase: https://www.crunchbase.com/organization/D2iQ
   description: D2iQ provides comprehensive services, support, and training for Kubernetes.
   homepage_url: https://d2iq.com/
-  image_data:
-    fileName: d2i-q-ktp.svg
-    hash: bS/yhchtoQZMMl95+UWAH0YUL2odwuLHraDPzzlPzpY=
   item: null
   logo: d2iq.svg
   name: D2iQ (KTP)
-  twitter_data:
-    latest_tweet_date: 2022-08-06 01:01:03+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/daocloud
-  crunchbase_data:
-    acquisitions: []
-    city: Shanghai
-    company_type: For Profit
-    country: China
-    description: DaoCloud is a digital innovation leader in enterprise cloud computing.
-    funding: 14600000
-    homepage: https://www.daocloud.io
-    industries:
-    - Cloud Computing
-    - Enterprise Software
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/daocloud-network-technology-co-ltd-
-    name: DaoCloud
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: Shanghai
-    stockExchange: null
-    twitter: https://twitter.com/daocloudio
-  description: The world's top software experts, core code maintainers of the Docker
-    project, and DaoCloud senior architects bring you in-depth training on the core
-    technologies of the next generation of cloud computing, and easily master the
-    knowledge and practice of Docker containers, microservices, DevOps, and lean R&D.
-    experience.
-  homepage_url: https://www.daocloud.io/training
-  image_data:
-    fileName: dao-cloud-ktp.svg
-    hash: PIojhdKJHCTS1Tzt5rYJ9PUkJi+rjaPYW7aHcdv3B/Q=
+- crunchbase: https://www.crunchbase.com/organization/daocloud
+  description: DaoCloud is an innovative leader in the cloud-native field, being committed
+    to creating an open Cloud OS which enables enterprises to easily carry out digital
+    transformation.  DaoCloud provides excellent courses of KCNA, CKAD, CKA and CKS,
+    with the accumulation of cloud-native technology and examination. These courses
+    can train technical experts in digital transformation.
+  homepage_url: https://www.daocloud.io/
   item: null
   logo: daocloud.svg
   name: DaoCloud (KTP)
-  twitter_data:
-    latest_tweet_date: 2015-08-20 09:00:30+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/desotech
-  crunchbase_data:
-    acquisitions: []
-    city: Bari
-    company_type: For Profit
-    country: Italy
-    description: Offers high-level consulting, delivers training and sells the best
-      tools to help Enterprise Companies in the Digital Transformation process
-    homepage: https://www.desotech.it/
-    industries:
-    - Consulting
-    - Education
-    - Information Technology
-    linkedin: https://www.linkedin.com/company/desotech
-    name: Desotech
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Puglia
-    stockExchange: null
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/desotech
   description: "Desotech provides training and consulting services for the world\u2019\
     s leading containerization platform and can customize it to your business needs."
   homepage_url: https://www.deso.tech/
-  image_data:
-    fileName: desotech-ktp.svg
-    hash: XNxlegzdp1O6wA9ptbsIp7uBfTmlms/2MFb61kg5rto=
   item: null
   logo: desotech.svg
   name: Desotech (KTP)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/doit-international
-  crunchbase_data:
-    acquisitions:
-    - acquiree: superQuery
-      date: '2020-02-03'
-      price: 5000000
-    - acquiree: Prodops.io
-      date: '2021-02-16'
-    city: Santa Clara
-    company_type: For Profit
-    country: United States
-    description: We tackle complex problems of scale using our expertise in resolving
-      problems, coding, algorithms, complexity analysis, and system design.
-    funding: 100000000
-    homepage: https://www.doit-intl.com
-    industries:
-    - Analytics
-    - Big Data
-    - Information Technology
-    - Internet of Things
-    - Robotics
-    kind: funding
-    linkedin: https://www.linkedin.com/company/doit-
-    name: DoiT International
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/doitint
+- crunchbase: https://www.crunchbase.com/organization/doit-international
   description: Founded by experienced software engineers and Kubernetes contributors,
-    DoiT International delivers hands-on Kubernetes consulting and training for some
-    of the most demanding deployments in North America and Israel.
-  homepage_url: https://www.doit-intl.com
-  image_data:
-    fileName: doi-t-international-ktp.svg
-    hash: s4LMznx78ZB2ZG+43IZnCW4VwvYz6pr//gYKW/w8fjU=
+    DoiT delivers hands-on Kubernetes consulting and training for some of the most
+    demanding deployments in North America and Israel.
+  homepage_url: https://www.doit.com/kubernetes/
   item: null
   logo: doit.svg
-  name: DoiT International (KTP)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 13:00:03+00:00
+  name: DoiT (KTP)
+- crunchbase: https://www.crunchbase.com/organization/dosec
+  description: As the leader of cloud native security in China and the first cloud
+    native security manufacturer in China to join CNCF, Xiaoyou Technology has a large
+    number of Kubernetes expert lecturers who have passed CKA certification and the
+    most professional container security R&D team in China, providing Kubernetes full
+    life cycle service solutions.
+  homepage_url: https://www.dosec.cn/kubernetescka.html
+  item: null
+  logo: dosec.svg
+  name: Dosec (KTP)

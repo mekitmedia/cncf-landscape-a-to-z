@@ -1,366 +1,42 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cardinal-health
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Medicine Shoppe International, Inc.
-      date: '1995-08-29'
-    - acquiree: Pyxis Corporation
-      date: '1996-02-08'
-    - acquiree: PCI Pharma Services
-      date: '1996-07-25'
-    - acquiree: Owen Healthcare
-      date: '1996-11-29'
-    - acquiree: R.P. Scherer Corporation
-      date: '1998-05-19'
-    - acquiree: Allegiance Healthcare
-      date: '1999-02-03'
-    - acquiree: Automatic Liquid Packaging
-      date: '1999-09-13'
-    - acquiree: Bergen Brunswig Corp
-      date: '2000-06-26'
-      price: 181000000
-    - acquiree: Bindley Western Industries
-      date: '2000-12-04'
-      price: 1670000000
-    - acquiree: Magellan Laboratories
-      date: '2002-04-04'
-    - acquiree: Boron, LePore & Associates
-      date: '2002-06-27'
-      price: 200000000
-    - acquiree: Syncor International
-      date: '2002-12-04'
-      price: 1100000000
-    - acquiree: Gala Biotech
-      date: '2003-10-01'
-    - acquiree: Alaris Medical Systems
-      date: '2004-05-19'
-      price: 2000000000
-    - acquiree: Geodax Technology
-      date: '2004-07-02'
-    - acquiree: Denver Biomedical
-      date: '2006-03-24'
-    - acquiree: ParMed Pharmaceuticals
-      date: '2006-04-01'
-    - acquiree: MedMined
-      date: '2006-07-12'
-    - acquiree: Carefusion
-      date: '2006-10-18'
-    - acquiree: Viasys Healthcare
-      date: '2007-05-14'
-      price: 1500000000
-    - acquiree: Enturia
-      date: '2008-03-04'
-      price: 490000000
-    - acquiree: Borschow Hospital & Medical Supplies
-      date: '2008-08-01'
-    - acquiree: Healthcare Solutions Holding
-      date: '2010-06-10'
-      price: 517000000
-    - acquiree: HLS Freight Services
-      date: '2010-07-30'
-    - acquiree: Kinray
-      date: '2010-11-18'
-      price: 1300000000
-    - acquiree: Zuellig Pharma China
-      date: '2010-11-29'
-      price: 470000000
-    - acquiree: Futuremed Health Care Products
-      date: '2011-10-25'
-      price: 163430576
-    - acquiree: Dik Drug
-      date: '2012-07-23'
-    - acquiree: MCD
-      date: '2012-08-03'
-    - acquiree: AssuraMed
-      date: '2013-02-14'
-      price: 2069999999
-    - acquiree: Wavemark
-      date: '2013-08-27'
-    - acquiree: Access Closure
-      date: '2014-04-02'
-    - acquiree: Emerge Medical
-      date: '2014-12-12'
-    - acquiree: Cordis
-      date: '2015-03-02'
-      price: 2000000000
-    - acquiree: The Harvard Drug Group
-      date: '2015-07-06'
-      price: 1115000000
-    - acquiree: Outcomes Incorporated
-      date: '2015-07-16'
-    - acquiree: NaviHealth
-      date: '2015-08-25'
-      price: 410000000
-    - acquiree: RainTree Oncology Services
-      date: '2016-03-17'
-    - acquiree: TelePharm
-      date: '2016-09-01'
-    - acquiree: Medtronic - Patient Monitoring & Recovery
-      date: '2017-04-18'
-      price: 6100000000
-    - acquiree: Mirixa Corporation
-      date: '2019-01-08'
-    - acquiree: mscripts
-      date: '2019-04-24'
-    city: Dublin
-    company_type: For Profit
-    country: United States
-    description: Cardinal Health is a company that improves the cost-effectiveness
-      of health care.
-    funding: 78000000
-    homepage: https://www.cardinalhealth.com
-    industries:
-    - Health Care
-    - Hospital
-    - Medical
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/cardinal-health
-    name: Cardinal Health
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents: []
-    region: Ohio
-    stockExchange: nyse
-    ticker: CAH
-    twitter: https://twitter.com/cardinalhealth
+- crunchbase: https://www.crunchbase.com/organization/cardinal-health
   homepage_url: https://www.cardinalhealth.com/en.html
-  image_data:
-    fileName: cardinal-health-supporter.svg
-    hash: N4h4jaYSL5T6Tg2mWFGSj4opICGX2F6dqiLTndGCFD8=
   item: null
-  joined: '2021-08-27'
+  joined: '2021-09-01'
   logo: cardinal-health.svg
   name: Cardinal Health (supporter)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 13:00:28+00:00
-  yahoo_finance_data:
-    effective_ticker: CAH
-    market_cap: 16756984832
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/celonis
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Banyas
-      date: '2019-04-05'
-    - acquiree: Integromat
-      date: '2020-10-14'
-      price: 107644175
-    - acquiree: Lenses.io
-      date: '2021-10-04'
-    - acquiree: Process Analytics Factory
-      date: '2022-03-29'
-    city: Munich
-    company_type: For Profit
-    country: Germany
-    description: Celonis provides an execution management system that helps companies
-      in running their business processes.
-    funding: 1367500000
-    homepage: https://www.celonis.com
-    industries:
-    - Analytics
-    - Business Intelligence
-    - SaaS
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/celonis
-    name: Celonis
-    num_employees_max: 5000
-    num_employees_min: 1001
-    parents: []
-    region: Bayern
-    stockExchange: null
-    twitter: https://twitter.com/celonis
-  homepage_url: https://www.celonis.com/
-  image_data:
-    fileName: celonis-supporter.svg
-    hash: qC67lmJQ8KH59ulS6MLRB0ZK9h3sjCpueL7+F3+Ky5w=
+- crunchbase: https://www.crunchbase.com/organization/cargurus
+  homepage_url: https://www.cargurus.com
   item: null
-  joined: '2021-07-19'
+  joined: '2024-12-01'
+  logo: cargurus.svg
+  name: CarGurus (supporter)
+- crunchbase: https://www.crunchbase.com/organization/cariad
+  homepage_url: https://www.cariad.us
+  item: null
+  joined: '2023-09-01'
+  logo: cariad.svg
+  name: CARIAD (supporter)
+- crunchbase: https://www.crunchbase.com/organization/celonis
+  homepage_url: https://www.celonis.com/
+  item: null
+  joined: '2021-08-01'
   logo: celonis.svg
   name: Celonis (supporter)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 13:44:56+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cookpad
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Coach United
-      date: '2013-09-06'
-    - acquiree: Allthecooks
-      date: '2013-12-21'
-      price: 10000000
-    - acquiree: Dapur Masak
-      date: '2014-04-30'
-    - acquiree: SELECTURE
-      date: '2014-07-29'
-      price: 5389626
-    - acquiree: Shahiya
-      date: '2014-11-20'
-      price: 13500000
-    - acquiree: Baby Calendar
-      date: '2015-06-01'
-    - acquiree: Cucumbertown
-      date: '2015-06-15'
-    - acquiree: Umeebe
-      date: '2018-08-27'
-    city: Tokyo
-    company_type: For Profit
-    country: Japan
-    description: Cookpad is a tech company building a community platform for people
-      to share recipe ideas and cooking tips.
-    funding: 481438
-    homepage: https://cookpad.com
-    industries:
-    - Communities
-    - Cooking
-    - Recipes
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cookpad-japan
-    name: Cookpad Japan
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: Tokyo
-    stockExchange: fra
-    ticker: O7C.F
-    twitter: https://twitter.com/cookpad_jp
-  homepage_url: https://cookpad.com/us
-  image_data:
-    fileName: cookpad-supporter.svg
-    hash: QXZfnteSluNg7fWkA9M1QW1k1O8DMHp1pyqtPBaYczA=
+- crunchbase: https://www.crunchbase.com/organization/centrica
+  homepage_url: https://www.centricaenergy.com
   item: null
-  logo: cookpad-supporter.svg
-  name: Cookpad (supporter)
-  stock_ticker: null
-  twitter_data:
-    latest_tweet_date: 2022-08-06 02:45:04+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cordial
-  crunchbase_data:
-    acquisitions: []
-    city: San Diego
-    company_type: For Profit
-    country: United States
-    description: Cordial is a cross-channel marketing and data management platform
-      that helps marketers use all of their data to connect with customers.
-    funding: 73550000
-    homepage: http://www.cordial.com
-    industries:
-    - Email Marketing
-    - Marketing Automation
-    - Mobile
-    - Personalization
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cordialinc
-    name: Cordial
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/cordialinc
-  homepage_url: https://cordial.com/
-  image_data:
-    fileName: cordial-supporter.svg
-    hash: +ANvoybNvUnEUPJrB/8A0pEEqFRHBx5S26R+uKL4fqc=
+  joined: '2024-02-01'
+  logo: centrica.svg
+  name: Centrica Energy (supporter)
+- crunchbase: https://www.crunchbase.com/organization/cfl-soci%C5%BEt%C5%BE-nationale-des-chemins-de-fer-luxembourgeois
+  homepage_url: https://www.cfl.lu/en-gb
   item: null
-  logo: cordial.svg
-  name: Cordial (supporter)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 17:20:25+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cruise
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Strobe
-      date: '2017-10-09'
-    - acquiree: Zippy.ai
-      date: '2018-04-11'
-    - acquiree: Dashride
-      date: '2019-05-21'
-    - acquiree: Voyage
-      date: '2021-03-15'
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: Cruise builds self-driving vehicles that safely connect people to
-      places, things, and experiences they care about.
-    funding: 15118800000
-    homepage: http://www.getcruise.com
-    industries:
-    - Artificial Intelligence
-    - Automotive
-    - Autonomous Vehicles
-    - Robotics
-    - Transportation
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/cruise-automation-inc-
-    name: Cruise
-    num_employees_max: 5000
-    num_employees_min: 1001
-    parents:
-    - https://www.crunchbase.com/organization/general-motors
-    region: California
-    stockExchange: null
-    ticker: GM
-    twitter: https://twitter.com/cruise
+  joined: '2025-03-01'
+  logo: cfl.svg
+  name: CFL (supporter)
+- crunchbase: https://www.crunchbase.com/organization/cruise
   homepage_url: https://getcruise.com/
-  image_data:
-    fileName: cruise-supporter.svg
-    hash: 85XnDc/XtJnJwJY2orrUBXy7opiFfsX2hvPqp0zsKhQ=
   item: null
+  joined: '2017-11-01'
   logo: cruise.svg
   name: Cruise (supporter)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 21:38:02+00:00
-  yahoo_finance_data:
-    effective_ticker: GM
-    market_cap: 54144454656
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/curve
-  crunchbase_data:
-    acquisitions: []
-    city: London
-    company_type: For Profit
-    country: United Kingdom
-    description: Curve is a banking platform that consolidates cards and accounts
-      into one smart card and app.
-    funding: 182528652
-    homepage: https://www.curve.com
-    industries:
-    - Apps
-    - Banking
-    - FinTech
-    - Financial Services
-    - Payments
-    kind: funding
-    linkedin: https://www.linkedin.com/company/curve-ltd-
-    name: Curve
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: England
-    stockExchange: null
-    twitter: https://twitter.com/imaginecurve
-  homepage_url: https://www.curve.com/usa
-  image_data:
-    fileName: curve-supporter.svg
-    hash: EYmNE8Ys8pg/dZ+/h9uzMvy+ybTAOWIYUd58ll0tfLs=
-  item: null
-  logo: curve-supporter.svg
-  name: Curve (supporter)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 15:52:06+00:00

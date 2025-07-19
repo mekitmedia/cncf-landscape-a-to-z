@@ -1,66 +1,6 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/telecommunications-technology-association
-  crunchbase_data:
-    acquisitions: []
-    city: Seongnam
-    company_type: ''
-    country: South Korea
-    description: Telecommunications Technology Association is a private autonomous
-      ICT standardization and testing organization.
-    homepage: https://www.tta.or.kr
-    industries:
-    - Information Technology
-    - Information and Communications Technology (ICT)
-    - Telecommunications
-    linkedin: null
-    name: Telecommunications Technology Association
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: Kyonggi-do
-    stockExchange: null
-    twitter: https://twitter.com/withtta
-  homepage_url: https://www.tta.or.kr/
-  image_data:
-    fileName: telecommunications-technology-association-member.svg
-    hash: e3JsBu0V50xbU5t3IFdJ8Vm0YjNZFiEqrVMjyiKEAp8=
-  item: null
-  logo: telecommunications-technology-association-member.svg
-  name: Telecommunications Technology Association (member)
-  twitter_data:
-    latest_tweet_date: 2022-04-15 11:25:30+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/tno
-  crunchbase_data:
-    acquisitions: []
-    city: The Hague
-    company_type: For Profit
-    country: The Netherlands
-    description: TNO is an independent innovation organization. We connect people
-      and knowledge to create innovations that strengthen competitiveness.
-    homepage: https://www.tno.nl/
-    industries:
-    - Association
-    - Energy
-    - Non Profit
-    linkedin: https://www.linkedin.com/company/tno/
-    name: TNO
-    num_employees_max: 10000
-    num_employees_min: 5001
-    parents: []
-    region: Zuid-Holland
-    stockExchange: null
-    twitter: https://twitter.com/tno_nieuws
+- crunchbase: https://www.crunchbase.com/organization/tno
   homepage_url: https://www.tno.nl/en/
-  image_data:
-    fileName: tno-member.svg
-    hash: +cw3VIhZpl0q29SmvrbP346UIkmDSYnA49UpRnzfQeI=
   item: null
+  joined: '2022-08-01'
   logo: tno.svg
   name: TNO (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-03 09:41:03+00:00

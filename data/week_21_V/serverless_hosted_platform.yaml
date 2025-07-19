@@ -1,40 +1,5 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/vercel
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Turborepo
-      date: '2021-12-09'
-    - acquiree: Turborepo
-      date: '2021-12-09'
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: Vercel is a platform that enables users to develop, preview, and
-      ship Jamstack sites.
-    funding: 313000000
-    homepage: https://vercel.com
-    industries:
-    - Apps
-    - Developer Platform
-    - Internet
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/vercel
-    name: Vercel
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/vercel
+- crunchbase: https://www.crunchbase.com/organization/vercel
   homepage_url: https://vercel.com/
-  image_data:
-    fileName: vercel.svg
-    hash: pPkzHqxHsz2SrSKajAC63TU+wDvcUaH32WbmaC0ufGM=
   item: null
   logo: vercel.svg
   name: Vercel
-  twitter_data:
-    latest_tweet_date: 2022-08-01 18:24:51+00:00

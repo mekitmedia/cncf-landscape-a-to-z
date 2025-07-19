@@ -1,326 +1,37 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/jeli-io
-  crunchbase_data:
-    acquisitions: []
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: Jeli is an incident analysis platform that combines more comprehensive
-      data to deliver more proactive solutions and identify problems.
-    funding: 4000000
-    homepage: https://jeli.io
-    industries:
-    - Information Technology
-    - Software
-    - Software Engineering
-    kind: funding
-    linkedin: https://www.linkedin.com/company/jeli-inc
-    name: Jeli.io
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/jeli_io
-  homepage_url: https://www.jeli.io/
-  image_data:
-    fileName: jeli-member.svg
-    hash: DlRj7v955SsM+aQjm3+qMcF6YrniDoh4Errpq2nrfI8=
+- crunchbase: https://www.crunchbase.com/organization/jetify
+  homepage_url: https://www.jetify.com
   item: null
-  logo: jeli.svg
-  name: Jeli (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 19:16:50+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/jetstack
-  crunchbase_data:
-    acquisitions: []
-    city: London
-    company_type: For Profit
-    country: United Kingdom
-    description: Jetstack builds modern, cloud-native infrastructure using Kubernetes.
-    homepage: http://www.jetstack.io/
-    industries:
-    - Information Technology
-    linkedin: https://www.linkedin.com/company/jetstack
-    name: Jetstack
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: England
-    stockExchange: null
-    twitter: https://www.twitter.com/jetstackhq
+  joined: '2024-05-01'
+  logo: jetify.svg
+  name: Jetify (member)
+- crunchbase: https://www.crunchbase.com/organization/jetstack
   homepage_url: https://www.jetstack.io
-  image_data:
-    fileName: jetstack-member.svg
-    hash: NGd7tldLl6WFTjA1SujIppjZIHlrTF/tLoaiZJCbvxo=
   item: null
+  joined: '2018-01-01'
   logo: jetstack-member.svg
   name: Jetstack (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 10:49:12+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/jiangxi-yumin-bank
-  crunchbase_data:
-    acquisitions: []
-    city: Nanchang
-    company_type: ''
-    country: China
-    description: The first private bank in Jiangxi Province and the 18th private bank
-      in China.
-    homepage: https://www.ymbank.com/
-    industries:
-    - Financial Services
-    linkedin: null
-    name: Jiangxi Yumin Bank
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: Hebei
-    stockExchange: null
-    twitter: null
-  enduser: true
-  homepage_url: https://www.ymbank.com/
-  image_data:
-    fileName: jiangxi-yumin-bank-member.svg
-    hash: pyGvtDO0uVoK1OZz5JVpQo9Wyfx3/y9tIWHE308EeUs=
+- crunchbase: https://www.crunchbase.com/organization/jfrog-ltd
+  homepage_url: https://jfrog.com/
   item: null
-  joined: '2020-11-17'
-  logo: jiangxi-yumin-bank.svg
-  name: Jiangxi Yumin Bank (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/jimdo
-  crunchbase_data:
-    acquisitions: []
-    city: Hamburg
-    company_type: For Profit
-    country: Germany
-    description: Jimdo enables users to create a website on a computer, smart phone
-      or tablet using a simple intuitive interface.
-    funding: 28869397
-    homepage: http://www.jimdo.com
-    industries:
-    - Internet
-    - Web Development
-    kind: funding
-    linkedin: https://www.linkedin.com/company/167456
-    name: Jimdo
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: Hamburg
-    stockExchange: null
-    twitter: http://twitter.com/jimdo
-  enduser: true
-  homepage_url: https://www.jimdo.com/
-  image_data:
-    fileName: jimdo-member.svg
-    hash: C1tO0bIk1AveOvn1jJbxtYwJRz8TNHMz0g7fssBPibg=
+  joined: '2017-11-01'
+  logo: jfrog.svg
+  name: JFrog (member)
+- crunchbase: https://www.crunchbase.com/organization/jit-mvs-for-developers
+  homepage_url: https://www.jit.io
   item: null
-  joined: '2021-08-26'
-  logo: jimdo.svg
-  name: Jimdo (member)
-  twitter_data:
-    latest_tweet_date: 2022-07-21 08:54:51+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/jpmorgan-chase-co
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Hambrecht & Quist
-      date: '1999-09-28'
-      price: 1350000000
-    - acquiree: Bank One
-      date: '2004-01-15'
-      price: 58000000000
-    - acquiree: Neovest Holdings
-      date: '2005-06-23'
-    - acquiree: Collegiate Funding Services
-      date: '2005-12-15'
-    - acquiree: Xign Corporation
-      date: '2007-05-17'
-    - acquiree: Xspand
-      date: '2008-03-01'
-    - acquiree: Bear Stearns
-      date: '2008-03-17'
-    - acquiree: Washington Mutual
-      date: '2008-09-26'
-    - acquiree: J.P. Morgan Cazenove
-      date: '2009-11-19'
-    - acquiree: WePay
-      date: '2017-10-17'
-      price: 400000000
-    - acquiree: InstaMed
-      date: '2019-05-17'
-    - acquiree: cxLoyalty Group-Global Loyalty business
-      date: '2020-12-28'
-    - acquiree: The Infatuation
-      date: '2021-09-09'
-    - acquiree: Frank Financial Aid
-      date: '2021-09-21'
-    - acquiree: FROSCH
-      date: '2022-02-17'
-    - acquiree: Global Shares
-      date: '2022-03-01'
-    city: New York
-    company_type: For Profit
-    country: United States
-    description: JP Morgan Chase is a global financial services provider that offers
-      investment banking, asset management, treasury, and other services.
-    funding: 3000000
-    homepage: http://www.jpmorganchase.com
-    industries:
-    - Asset Management
-    - Banking
-    - Financial Services
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/jpmorgan-chase?trk=top_nav_home
-    name: JP Morgan Chase
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents: []
-    region: New York
-    stockExchange: nyse
-    ticker: JPM
-    twitter: https://twitter.com/jpmorgan
+  joined: '2024-12-01'
+  logo: jit.svg
+  name: Jit (member)
+- crunchbase: https://www.crunchbase.com/organization/jozu
+  homepage_url: https://jozu.com
+  item: null
+  joined: '2024-12-01'
+  logo: jozu.svg
+  name: Jozu (member)
+- crunchbase: https://www.crunchbase.com/organization/jpmorgan-chase-co
   enduser: true
   homepage_url: https://www.jpmorganchase.com
-  image_data:
-    fileName: jp-morgan-chase-member.svg
-    hash: 8lLcCJwwZgvGXmch0lyIPxAfCgBk22qk1FO1ZKLQS7c=
   item: null
+  joined: '2018-08-01'
   logo: jp-morgan-chase-member.svg
   name: JPMorgan Chase (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-03 16:45:18+00:00
-  yahoo_finance_data:
-    effective_ticker: JPM
-    market_cap: 343774789632
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/juniper-networks
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Layer Five
-      date: '1999-11-15'
-      price: 19000000
-    - acquiree: Pacific Advantage Ltd.
-      date: '2000-01-18'
-      price: 4000000
-    - acquiree: Micro Magic
-      date: '2001-12-11'
-      price: 260000000
-    - acquiree: Pacific Broadband Communications
-      date: '2001-12-14'
-      price: 200000000
-    - acquiree: Unisphere Networks
-      date: '2002-07-01'
-      price: 740000000
-    - acquiree: NetScreen Technologies
-      date: '2004-02-10'
-      price: 3400000000
-    - acquiree: Kagoor Networks
-      date: '2005-03-29'
-    - acquiree: Redline Networks
-      date: '2005-05-05'
-      price: 132000000
-    - acquiree: Peribit Networks
-      date: '2005-07-01'
-      price: 337000000
-    - acquiree: Acorn Packet Solutions
-      date: '2005-10-25'
-      price: 8700000
-    - acquiree: Funk Software
-      date: '2005-11-14'
-      price: 122000000
-    - acquiree: Ankeena Networks
-      date: '2010-04-08'
-      price: 100000000
-    - acquiree: SMobile Systems
-      date: '2010-07-27'
-      price: 70000000
-    - acquiree: Trapeze Networks
-      date: '2010-11-16'
-      price: 152000000
-    - acquiree: Blackwave
-      date: '2010-11-18'
-    - acquiree: Altor Networks
-      date: '2010-12-06'
-    - acquiree: Brilliant Telecommunications
-      date: '2011-02-21'
-      price: 4500000
-    - acquiree: Mykonos Software
-      date: '2012-02-22'
-    - acquiree: Contrail Systems
-      date: '2012-12-13'
-      price: 176000000
-    - acquiree: Webscreen Technology
-      date: '2013-02-08'
-    - acquiree: WANDL
-      date: '2013-12-16'
-    - acquiree: BTI Systems
-      date: '2016-04-04'
-    - acquiree: Aurrion
-      date: '2016-08-02'
-    - acquiree: AppFormix
-      date: '2016-12-01'
-    - acquiree: Cyphort
-      date: '2017-08-31'
-    - acquiree: HTBASE
-      date: '2018-11-29'
-    - acquiree: Mist Systems
-      date: '2019-03-05'
-      price: 405000000
-    - acquiree: 128 Technology
-      date: '2020-10-19'
-      price: 450000000
-    - acquiree: SISRA
-      date: '2020-11-25'
-    - acquiree: Apstra
-      date: '2020-12-07'
-    - acquiree: WiteSand
-      date: '2022-02-14'
-    city: Sunnyvale
-    company_type: For Profit
-    country: United States
-    description: Juniper Networks is a networking company that markets and develops
-      networking products for enterprise companies.
-    funding: 38677847
-    homepage: http://www.juniper.net
-    industries:
-    - Communication Hardware
-    - Information Technology
-    - Infrastructure
-    - Security
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/juniper-networks
-    name: Juniper Networks
-    num_employees_max: 10000
-    num_employees_min: 5001
-    parents: []
-    region: California
-    stockExchange: nyse
-    ticker: JNPR
-    twitter: http://twitter.com/JuniperNetworks
-  homepage_url: https://www.juniper.net/us/en.html
-  image_data:
-    fileName: juniper-networks-member.svg
-    hash: TD/eZspPAo+E0o5DYCc4jWSbldfUrLosK3SlHAzxlqo=
-  item: null
-  logo: juniper-networks.svg
-  name: Juniper Networks (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 18:34:04+00:00
-  yahoo_finance_data:
-    effective_ticker: JNPR
-    market_cap: 9045956608

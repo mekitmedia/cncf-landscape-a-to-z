@@ -1,41 +1,22 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/qingcloud
-  crunchbase_data:
-    acquisitions: []
-    city: Beijing
-    company_type: For Profit
-    country: China
-    description: QingCloud is a cloud computing platform that provides IaaS-based
-      flexible cloud services.
-    funding: 280832709
-    homepage: http://qingcloud.com
-    industries:
-    - Cloud Computing
-    - IaaS
-    - SaaS
-    - Software
-    - Web Hosting
-    kind: market_cap
-    linkedin: https://www.linkedin.com/showcase/6462819/
-    name: QingCloud
-    num_employees_max: 1000
-    num_employees_min: 501
-    parents: []
-    region: Beijing
-    stockExchange: sse
-    ticker: 688316.SS
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/qm
+  description: With Kubernetes as the technical base, QiMing provides full life cycle
+    service solutions such as container orchestration, operation and maintenance,
+    cloud native technical consultation, training, and microservice transformation.
+  homepage_url: http://www.qm.cn/qm/fw39/yw86/k8syw/index.html
+  item: null
+  logo: qiming.svg
+  name: Qiming (KCSP)
+- crunchbase: https://www.crunchbase.com/organization/qingcloud
   description: QingCloud offers the trusted Kubernetes service, KubeSphere, and professional
     training, consulting, and certified offerings for cloud native technologies.
   homepage_url: https://www.qingcloud.com/products/kubesphereqke/
-  image_data:
-    fileName: qing-cloud-kcsp.svg
-    hash: v+keNZkVwGNtF1y+nG2k6WTATEHnIAawSoGi70x3Yzw=
   item: null
   logo: qingcloud.svg
   name: QingCloud (KCSP)
-  yahoo_finance_data:
-    effective_ticker: 688316.SS
-    market_cap: 252335307
+- crunchbase: https://www.crunchbase.com/organization/quantum-c-s
+  description: QUANTUM C&S provides tailor-made Kubernetes services and DevOps services
+    for AI.
+  homepage_url: https://www.quantumcns.ai/en/quantum-kubernetes-service/
+  item: null
+  logo: quantumcns.svg
+  name: QUANTUM C&S (KCSP)

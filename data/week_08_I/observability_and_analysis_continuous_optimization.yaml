@@ -1,70 +1,24 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/infracost
-  crunchbase_data:
-    acquisitions: []
-    city: Santa Barbara
-    company_type: For Profit
-    country: United States
-    description: Infracost is a cloud cost estimator that is open source and fully
-      focused on developers.
-    funding: 2200000
-    homepage: https://infracost.io
-    industries:
-    - Cloud Computing
-    kind: funding
-    linkedin: https://www.linkedin.com/company/infracost/
-    name: Infracost
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/infracost
+- crunchbase: https://www.crunchbase.com/organization/ibm
+  description: IBM Turbonomic targets and optimizes all Kubernetes and OpenShift environments
+    on-prem and in the Cloud in both managed and un-managed clusters. Providing continious
+    optimization for performance, efficiency and compliance, sustainably and at the
+    lowest cost. By scaling in and out based on historical utilization,  moving containerized
+    workloads to help prevent pod evictions and node congestion, SLO scaling to help
+    assure application performance and scaling in clusters to save on power and cost,  scaling
+    out clusters proactively for performance before hitting capacity thresholds.  Also
+    providing customized planning for future growth by running simulations against
+    your environments.
+  homepage_url: https://www.ibm.com/products/turbonomic
+  item: null
+  logo: turbonomic.svg
+  name: IBM Turbonomic
+- crunchbase: https://www.crunchbase.com/organization/infracost
   description: "Infracost shows engineers how their code changes will impact cloud\
     \ costs. It does this by sitting in the CI/CD workflow and on changing IaC code,\
     \ leaves a comment like \u201CThis change will increase your next month bill by\
     \ 20%\u201D with a detailed breakdown of resources changed and their cost."
-  github_data:
-    contributions: 7;5;9;20;10;5;37;13;29;13;18;18;15;21;12;11;20;22;10;23;8;26;2;23;15;25;23;10;7;21;12;13;17;19;24;14;5;22;24;12;8;5;27;16;14;16;9;24;9;12;31;11
-    contributors_count: 64
-    contributors_link: https://github.com/infracost/infracost/graphs/contributors
-    description: "Cloud cost estimates for Terraform in pull requests\U0001F4B0\U0001F4C9\
-      \ Love your cloud bill!"
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 2469494
-    - color: '#89e051'
-      name: Shell
-      value: 50066
-    - color: '#427819'
-      name: Makefile
-      value: 5119
-    - color: '#384d54'
-      name: Dockerfile
-      value: 2778
-    latest_commit_date: '2022-08-05T15:05:00Z'
-    latest_commit_link: /infracost/infracost/commit/cb0dbc23fd9e4304acbe354fb52ee8cbab7295c6
-    license: Apache License 2.0
-    release_date: '2022-08-02T09:01:06Z'
-    release_link: https://github.com/infracost/infracost/releases
-    stars: 7634
-  github_start_commit_data:
-    start_commit_link: /infracost/infracost/commit/4fb8b02e357827aeb49864ec45fbf41ffc553975
-    start_date: '2020-06-19T11:44:04Z'
   homepage_url: https://www.infracost.io/
-  image_data:
-    fileName: infracost.svg
-    hash: fTp2SxE4pKMEwiuqSLriUrWZEPh2DkNi/mP9GWXvOxA=
   item: null
   logo: infracost.svg
   name: Infracost
   repo_url: https://github.com/infracost/infracost
-  repos:
-  - stars: 7634
-    url: https://github.com/infracost/infracost
-  twitter_data:
-    latest_tweet_date: 2022-07-29 14:55:00+00:00

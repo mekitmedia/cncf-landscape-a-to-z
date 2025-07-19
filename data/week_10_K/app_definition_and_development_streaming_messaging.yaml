@@ -1,139 +1,14 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/apache
-  crunchbase_data:
-    acquisitions: []
-    city: Forest Hill
-    company_type: Non Profit
-    country: United States
-    description: Apache Software Foundation provides organizational, legal and financial
-      support for Apache open-source software projects.
-    homepage: http://www.apache.org
-    industries:
-    - Non Profit
-    - Software
-    linkedin: https://www.linkedin.com/company/the-apache-software-foundation
-    name: The Apache Software Foundation
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: Maryland
-    stockExchange: null
-    twitter: http://twitter.com/TheASF
-  github_data:
-    contributions: 11;9;21;12;25;12;18;14;6;12;14;12;7;10;29;11;15;17;10;8;0;15;8;12;21;21;25;24;14;21;26;28;26;28;19;23;19;15;17;20;25;18;24;29;19;18;12;19;13;20;23;15
-    contributors_count: 1140
-    contributors_link: https://github.com/apache/kafka/graphs/contributors
-    description: Mirror of Apache Kafka
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#b07219'
-      name: Java
-      value: 33169912
-    - color: '#c22d40'
-      name: Scala
-      value: 9871612
-    - color: '#3572A5'
-      name: Python
-      value: 1135519
-    - color: '#89e051'
-      name: Shell
-      value: 103586
-    - color: '#ecdebe'
-      name: Roff
-      value: 39396
-    - color: '#C1F12E'
-      name: Batchfile
-      value: 32046
-    - color: '#384d54'
-      name: Dockerfile
-      value: 8910
-    - color: '#EB8CEB'
-      name: XSLT
-      value: 7116
-    - color: '#e34c26'
-      name: HTML
-      value: 3739
-    latest_commit_date: '2022-08-06T02:17:50Z'
-    latest_commit_link: /apache/kafka/commit/8a1a8a916885a1457819c5646d7999f6c4dee7c2
-    license: Apache License 2.0
-    stars: 22680
-  github_start_commit_data:
-    start_commit_link: /apache/kafka/commit/642da2f28c9bc6e373603d6d9119ce33684090f5
-    start_date: '2011-08-01T23:41:24Z'
+- crunchbase: https://www.crunchbase.com/organization/apache
   homepage_url: https://kafka.apache.org/
-  image_data:
-    fileName: kafka.svg
-    hash: 6+HMcqLdri1ZjEB8EUtnRcyFgU9SSKLAPmHVTiBSrQs=
   item: null
   logo: kafka.svg
   name: Kafka
   repo_url: https://github.com/apache/kafka
-  repos:
-  - stars: 22680
-    url: https://github.com/apache/kafka
   twitter: https://twitter.com/apachekafka
-  twitter_data:
-    latest_tweet_date: 2022-07-25 21:22:45+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/kubemq
-  crunchbase_data:
-    acquisitions: []
-    city: Ness Ziona
-    company_type: For Profit
-    country: Israel
-    description: KubeMQ is an enterprise grade message broker for containers.
-    homepage: https://kubemq.io/
-    industries:
-    - Enterprise
-    - Software
-    linkedin: null
-    name: KubeMQ
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: HaMerkaz
-    stockExchange: null
-    twitter: https://twitter.com/kubemq
+- crunchbase: https://www.crunchbase.com/organization/kubemq
   description: KubeMQ is a Kubernetes Message Queue Broker
-  github_data:
-    contributions: 0;12;20;0;0;0;3;1;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;6;0;0;0;0;0;3;1;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0
-    contributors_count: 6
-    contributors_link: https://github.com/kubemq-io/kubemq-community/graphs/contributors
-    description: KubeMQ is a Kubernetes native message queue broker
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 1030025
-    - color: '#384d54'
-      name: Dockerfile
-      value: 818
-    - color: '#89e051'
-      name: Shell
-      value: 16
-    latest_commit_date: '2022-05-18T12:40:43Z'
-    latest_commit_link: /kubemq-io/kubemq-community/commit/1a132a0be6de28a2cfd55069542288eba6252bf6
-    license: Apache License 2.0
-    release_date: '2022-04-14T08:02:53Z'
-    release_link: https://github.com/kubemq-io/kubemq-community/releases
-    stars: 494
-  github_start_commit_data:
-    start_commit_link: /kubemq-io/kubemq-community/commit/8ad9669898d896cbd2ad41087e861a96bfb575a6
-    start_date: '2018-12-25T10:59:05Z'
   homepage_url: https://kubemq.io/
-  image_data:
-    fileName: kube-mq.svg
-    hash: pzbF6kteeTqeAVS4mUSeEIoB9SRGDMefYfBmvpFi7E0=
   item: null
   logo: kubemq.svg
   name: KubeMQ
   repo_url: https://github.com/kubemq-io/kubemq-community
-  repos:
-  - stars: 494
-    url: https://github.com/kubemq-io/kubemq-community
-  twitter_data:
-    latest_tweet_date: 2021-09-14 14:31:22+00:00

@@ -1,0 +1,27 @@
+- crunchbase: https://www.crunchbase.com/organization/okahu
+  description: AI Observability as a Service to help enterprises building LLM-based
+    apps in the cloud move to production.
+  extra:
+    documentation_ul: https://docs.okahu.ai
+    linkedin_url: https://www.linkedin.com/company/okahu
+    summary_integrations: OpenTelemetry, Prometheus, Fluentd, Monocle
+    summary_tags: cloud, observability
+    youtube_url: https://www.youtube.com/@OkahuAI
+  homepage_url: https://www.okahu.ai
+  item: null
+  logo: okahu.svg
+  name: Okahu
+- description: Open-source observability for your LLM application, based on OpenTelemetry.
+  homepage_url: https://github.com/traceloop/openllmetry
+  item: null
+  logo: ./open-ll-metry.svg
+  name: OpenLLMetry
+  repo_url: https://github.com/traceloop/openllmetry
+  unnamed_organization: true
+- description: OpenTelemetry-native LLM and GenAI Application Observability
+  homepage_url: https://github.com/openlit/openlit
+  item: null
+  logo: ./openlit.svg
+  name: OpenLIT
+  repo_url: https://github.com/openlit/openlit
+  unnamed_organization: true

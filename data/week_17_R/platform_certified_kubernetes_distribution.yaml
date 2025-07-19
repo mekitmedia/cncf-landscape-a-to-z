@@ -1,382 +1,41 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/suse
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Rancher Labs
-      date: '2020-07-08'
-      price: 600000000
-    - acquiree: NeuVector
-      date: '2021-10-28'
-      price: 130000000
-    city: Nuremberg
-    company_type: For Profit
-    country: Germany
-    description: SUSE provides reliable and interoperable Linux and cloud infrastructure
-      solutions that give enterprises greater control and flexibility.
-    homepage: http://www.suse.com
-    industries:
-    - Cloud Computing
-    - Enterprise Software
-    - Linux
-    - Software
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/suse
-    name: SUSE
-    num_employees_max: 5000
-    num_employees_min: 1001
-    parents: []
-    region: Bayern
-    stockExchange: fra
-    ticker: SUSE.F
-    twitter: https://twitter.com/SUSE
+- crunchbase: https://www.crunchbase.com/organization/suse
   description: "Deploy Rancher\u2019s Kubernetes distro anywhere or launch cloud Kubernetes\
     \ services from Google, Amazon or Microsoft."
-  github_data:
-    contributions: 95;64;64;52;13;28;45;47;28;16;31;28;13;50;123;24;31;47;51;22;6;24;25;26;44;33;36;42;22;45;32;46;23;29;22;39;29;27;28;50;20;30;22;27;27;38;36;23;31;42;22;32
-    contributors_count: 220
-    contributors_link: https://github.com/rancher/rancher/graphs/contributors
-    description: Complete container management platform
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 10844357
-    - color: '#3572A5'
-      name: Python
-      value: 1759742
-    - color: '#e69f56'
-      name: Groovy
-      value: 118219
-    - color: '#89e051'
-      name: Shell
-      value: 101905
-    - color: '#012456'
-      name: PowerShell
-      value: 38206
-    - name: HCL
-      value: 33650
-    - name: Jinja
-      value: 30303
-    - color: '#384d54'
-      name: Dockerfile
-      value: 17410
-    - name: Mustache
-      value: 2113
-    - color: '#427819'
-      name: Makefile
-      value: 696
-    - color: '#f1e05a'
-      name: JavaScript
-      value: 609
-    - color: '#C1F12E'
-      name: Batchfile
-      value: 395
-    latest_commit_date: '2022-08-05T21:54:57Z'
-    latest_commit_link: /rancher/rancher/commit/e9e88db363ae369bec044372cae8a36c66c042c9
-    license: Apache License 2.0
-    release_date: '2022-08-02T17:37:20Z'
-    release_link: https://github.com/rancher/rancher/releases
-    stars: 19668
-  github_start_commit_data:
-    start_commit_link: /rancher/rancher/commit/89854cf6f29bf3ee857b8f3edf51305bdf2d13f9
-    start_date: '2017-11-14T00:57:39Z'
   homepage_url: https://rancher.com
-  image_data:
-    fileName: rancher-kubernetes.svg
-    hash: mlb+cZALGp0q8L6loEOp696p7dWaLNFgyHJuarqyAto=
   item: null
   logo: rancher.svg
   name: Rancher Kubernetes
   repo_url: https://github.com/rancher/rancher
-  repos:
-  - stars: 19668
-    url: https://github.com/rancher/rancher
-  twitter_data:
-    latest_tweet_date: 2022-08-04 14:00:58+00:00
-  yahoo_finance_data:
-    effective_ticker: SUSE.F
-    market_cap: 3288476571
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/red-hat
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Akopia
-      date: '2001-01-31'
-    - acquiree: NOCpulse
-      date: '2002-10-07'
-    - acquiree: Sistina Software
-      date: '2003-12-18'
-      price: 31000000
-    - acquiree: JBoss
-      date: '2004-02-20'
-      price: 350000000
-    - acquiree: MetaMatrix
-      date: '2007-06-02'
-    - acquiree: Amentra
-      date: '2008-03-14'
-    - acquiree: Identyx
-      date: '2008-06-19'
-    - acquiree: Qumranet
-      date: '2008-09-04'
-    - acquiree: Makara
-      date: '2010-11-30'
-    - acquiree: Gluster
-      date: '2011-10-04'
-      price: 136000000
-    - acquiree: FuseSource
-      date: '2012-06-27'
-    - acquiree: Polymita Technologies
-      date: '2012-08-28'
-    - acquiree: BPM Technology
-      date: '2012-08-29'
-    - acquiree: ManageIQ
-      date: '2012-12-22'
-    - acquiree: Inktank
-      date: '2014-04-30'
-      price: 175000000
-    - acquiree: eNovance
-      date: '2014-06-18'
-      price: 95074205
-    - acquiree: FeedHenry
-      date: '2014-09-18'
-      price: 82000000
-    - acquiree: Red Hat Ansible
-      date: '2015-10-16'
-      price: 150000000
-    - acquiree: 3scale
-      date: '2016-06-22'
-    - acquiree: Codenvy
-      date: '2017-05-25'
-    - acquiree: Permabit Technology Corporation
-      date: '2017-07-31'
-    - acquiree: CoreOS
-      date: '2018-01-30'
-      price: 250000000
-    - acquiree: NooBaa
-      date: '2018-11-27'
-    - acquiree: StackRox
-      date: '2021-01-07'
-    city: Raleigh
-    company_type: For Profit
-    country: United States
-    description: Red Hat is a multinational software company engaged in providing
-      open-source software products to the enterprise community.
-    funding: 0
-    homepage: http://www.redhat.com
-    industries:
-    - Enterprise Software
-    - Linux
-    - Open Source
-    - Operating Systems
-    - Software
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/red-hat
-    name: Red Hat
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents:
-    - https://www.crunchbase.com/organization/ibm
-    region: North Carolina
-    stockExchange: nyse
-    ticker: IBM
-    twitter: http://twitter.com/redhat
-  description: "Red Hat\xAE OpenShift is a container application platform that brings\
-    \ docker and Kubernetes to the enterprise."
-  github_data:
-    contributions: 167;150;179;131;133;185;127;143;162;133;121;188;196;227;213;103;70;200;142;84;15;187;188;132;141;96;130;142;106;146;110;154;216;226;58;28;8;14;3;1;5;12;5;10;7;2;2;4;1;4;2;0
-    contributors_count: 4334
-    contributors_link: https://github.com/openshift/kubernetes/graphs/contributors
-    description: This is the repo that tracks all patches to the OpenShift distribution
-      of Kubernetes on branches corresponding to OpenShift releases.  See https://github.com/openshift/kubernetes/blob/master/README.openshift.md
-      for more
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 61750554
-    - color: '#89e051'
-      name: Shell
-      value: 1926686
-    - color: '#012456'
-      name: PowerShell
-      value: 143523
-    - color: '#427819'
-      name: Makefile
-      value: 63626
-    - color: '#384d54'
-      name: Dockerfile
-      value: 50681
-    - color: '#3572A5'
-      name: Python
-      value: 23849
-    - color: '#000080'
-      name: Lua
-      value: 17200
-    - color: '#555555'
-      name: C
-      value: 3902
-    - color: '#64b970'
-      name: sed
-      value: 1262
-    - color: '#C1F12E'
-      name: Batchfile
-      value: 833
-    - color: '#e34c26'
-      name: HTML
-      value: 128
-    latest_commit_date: '2022-07-29T19:35:27Z'
-    latest_commit_link: /openshift/kubernetes/commit/a9d6306a701d8fa89a548aa7e132603f6cd89275
-    license: Apache License 2.0
-    stars: 45
-  github_start_commit_data:
-    start_commit_link: /openshift/kubernetes/commit/2c4b3a562ce34cddc3f8218a2c4d11c7310e6d56
-    start_date: '2014-06-06T23:40:48Z'
+- crunchbase: https://www.crunchbase.com/organization/red-hat
+  description: A component of Red Hat Device Edge used to provide lightweight Kubernetes
+    container orchestration in field deployed devices at the far edge
+  homepage_url: https://www.redhat.com/en/technologies/device-edge
+  item: null
+  logo: red-hat-member.svg
+  name: Red Hat Build of Microshift
+  repo_url: https://github.com/openshift/microshift
+- crunchbase: https://www.crunchbase.com/organization/red-hat
+  description: "OpenShift\xAE helps organizations focus on building and scaling their\
+    \ business with fully supported enterprise Kubernetes by Red Hat\xAE."
   homepage_url: https://www.redhat.com/en/technologies/cloud-computing/openshift
-  image_data:
-    fileName: red-hat-open-shift.svg
-    hash: DXo5A1juZ61F1eyl8wWIgImwsm8670Xyp4z+riJJ+CA=
   item: null
   logo: red-hat-open-shift.svg
   name: Red Hat OpenShift
   repo_url: https://github.com/openshift/kubernetes
-  repos:
-  - stars: 45
-    url: https://github.com/openshift/kubernetes
   twitter: https://twitter.com/openshift
-  twitter_data:
-    latest_tweet_date: 2022-08-05 15:36:57+00:00
-  yahoo_finance_data:
-    effective_ticker: IBM
-    market_cap: 118744473600
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/suse
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Rancher Labs
-      date: '2020-07-08'
-      price: 600000000
-    - acquiree: NeuVector
-      date: '2021-10-28'
-      price: 130000000
-    city: Nuremberg
-    company_type: For Profit
-    country: Germany
-    description: SUSE provides reliable and interoperable Linux and cloud infrastructure
-      solutions that give enterprises greater control and flexibility.
-    homepage: http://www.suse.com
-    industries:
-    - Cloud Computing
-    - Enterprise Software
-    - Linux
-    - Software
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/suse
-    name: SUSE
-    num_employees_max: 5000
-    num_employees_min: 1001
-    parents: []
-    region: Bayern
-    stockExchange: fra
-    ticker: SUSE.F
-    twitter: https://twitter.com/SUSE
+- crunchbase: https://www.crunchbase.com/organization/suse
   description: A Kubernetes distribution focused on enabling Federal government compliance-based
     use cases.
-  github_data:
-    contributions: 23;10;8;11;13;14;8;5;9;14;13;15;10;13;10;1;10;22;9;7;0;4;8;20;13;9;10;10;6;9;14;21;5;8;11;14;7;5;12;16;20;11;3;8;17;0;2;4;5;3;4;4
-    contributors_count: 81
-    contributors_link: https://github.com/rancher/rke2/graphs/contributors
-    description: null
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 279719
-    - color: '#89e051'
-      name: Shell
-      value: 84242
-    - color: '#012456'
-      name: PowerShell
-      value: 62199
-    - color: '#384d54'
-      name: Dockerfile
-      value: 7874
-    - color: '#3572A5'
-      name: Python
-      value: 7369
-    - color: '#427819'
-      name: Makefile
-      value: 5372
-    - color: '#701516'
-      name: Ruby
-      value: 1136
-    latest_commit_date: '2022-08-05T16:27:29Z'
-    latest_commit_link: /rancher/rke2/commit/9c0a185aec3c9587995750ca349aee3e55a06c70
-    license: Apache License 2.0
-    release_date: '2022-07-21T21:37:24Z'
-    release_link: https://github.com/rancher/rke2/releases
-    stars: 707
-  github_start_commit_data:
-    start_commit_link: /rancher/rke2/commit/5511a94e3e0a503e3353b8e1558a751597993c87
-    start_date: '2020-04-08T21:53:12Z'
   homepage_url: https://docs.rke2.io/
-  image_data:
-    fileName: rke-government.svg
-    hash: SfKYYBSX7k4A1gjgGEz/y0TENtyL3Bp8bwKcvV3Yerw=
   item: null
   logo: rke-government.svg
   name: RKE Government
   repo_url: https://github.com/rancher/rke2
-  repos:
-  - stars: 707
-    url: https://github.com/rancher/rke2
-  twitter_data:
-    latest_tweet_date: 2022-08-04 14:00:58+00:00
-  yahoo_finance_data:
-    effective_ticker: SUSE.F
-    market_cap: 3288476571
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/robin-systems
-  crunchbase_data:
-    acquisitions: []
-    city: San Jose
-    company_type: For Profit
-    country: United States
-    description: Robin.io runs stateful applications on Kubernetes, even complex Big
-      Data, Databases, AI/ML, and Custom Apps.
-    funding: 84000000
-    homepage: https://www.robin.io
-    industries:
-    - Data Center
-    - Enterprise Applications
-    - Enterprise Software
-    - Information Technology
-    - Infrastructure
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/robin4k8s
-    name: Robin.io
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/Robin4K8S
+- crunchbase: https://www.crunchbase.com/organization/robin-systems
   description: "ROBIN Platform, the industry\u2019s first hyper-converged Kubernetes\
-    \ platform for big data, databases, and AI/ML."
+    \ platform for big data, databases, AI/ML and 5G workloads."
   homepage_url: https://robin.io
-  image_data:
-    fileName: robin-cnp.svg
-    hash: U0fuU0emDxcloebjm2UlbPDTU3CrxQ9zkA5simn3A34=
   item: null
   logo: robin-systems-member.svg
   name: Robin CNP
-  twitter_data:
-    latest_tweet_date: 2022-08-03 16:36:59+00:00
+  repu_url: https://github.com/Robinsystems/robin

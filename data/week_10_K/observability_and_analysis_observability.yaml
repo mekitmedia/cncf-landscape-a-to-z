@@ -1,0 +1,76 @@
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2023-12-19'
+    ai: true
+    clomonitor_name: k8sgpt
+  homepage_url: https://www.k8sgpt.ai
+  item: null
+  logo: k8sgpt.svg
+  name: K8sGPT
+  project: sandbox
+  repo_url: https://github.com/k8sgpt-ai/k8sgpt
+- crunchbase: https://www.crunchbase.com/organization/keep-2303
+  homepage_url: https://www.keephq.dev/
+  item: null
+  logo: keep.svg
+  name: Keep
+  repo_url: https://github.com/keephq/keep
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Kepler (Kubernetes-based Efficient Power Level Exporter) uses eBPF
+    to probe energy related system stats and exports as Prometheus metrics.
+  extra:
+    accepted: '2023-05-17'
+    clomonitor_name: kepler
+    dev_stats_url: https://kepler.devstats.cncf.io/
+    summary_integrations: Kubernetes, Prometheus.
+    summary_personas: Developers, SREs, Sustainability Officers, IT Managers
+    summary_tags: sustainability, power monitoring, observability, metrics, ebpf,
+      machine learning
+    summary_use_case: Enabling workload power monitoring for cloud-native systems.
+  homepage_url: https://sustainable-computing.io/
+  item: null
+  logo: kepler.svg
+  name: Kepler
+  project: sandbox
+  repo_url: https://github.com/sustainable-computing-io/kepler
+- crunchbase: https://www.crunchbase.com/organization/red-hat
+  homepage_url: https://www.kiali.io/
+  item: null
+  logo: kiali.svg
+  name: Kiali
+  repo_url: https://github.com/kiali/kiali
+  twitter: https://twitter.com/kialiproject
+- crunchbase: https://www.crunchbase.com/organization/kloudfuse
+  homepage_url: https://www.kloudfuse.com/
+  item: null
+  joined: '2023-03-01'
+  logo: kloudfuse.svg
+  name: Kloudfuse (member)
+- crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
+  description: KubeSkoop is a network monitoring & diagnosis suite for Kubernetes.
+  homepage_url: https://kubeskoop.io
+  item: null
+  logo: kubeskoop.svg
+  name: KubeSkoop
+  repo_url: https://github.com/alibaba/kubeskoop
+- description: KubeReport is an open-source tool that generates detailed Kubernetes
+    cluster reports in PDF and CSV formats, providing insights into  resource utilization,
+    workload status, and cluster health for easier auditing and troubleshooting.
+  extra:
+    linkedin_url: https://www.linkedin.com/company/kubesuite
+  homepage_url: https://kubesuite.org/
+  logo: kubereport.svg
+  name: KubeReport
+  repo_url: https://github.com/kubesuiteorg/kubereport
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2021-03-30'
+    annual_review_date: '2022-06-09'
+    annual_review_url: https://github.com/cncf/toc/pull/848
+    clomonitor_name: kuberhealthy
+  homepage_url: https://github.com/kuberhealthy/kuberhealthy
+  item: null
+  logo: kuberhealthy.svg
+  name: Kuberhealthy
+  project: sandbox
+  repo_url: https://github.com/kuberhealthy/kuberhealthy

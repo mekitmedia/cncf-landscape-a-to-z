@@ -1,178 +1,23 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/harmony-cloud
-  crunchbase_data:
-    acquisitions: []
-    city: Hangzhou
-    company_type: For Profit
-    country: China
-    description: Harmony Cloud operates as a cloud computing startup.
-    funding: 4825796
-    homepage: http://harmonycloud.cn/
-    industries:
-    - Cloud Computing
-    - Information Technology
-    kind: funding
-    linkedin: null
-    name: Harmony Cloud
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: Zhejiang
-    stockExchange: null
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/harmony-cloud
   homepage_url: https://harmonycloud.cn
-  image_data:
-    fileName: harmony-cloud-ktp.svg
-    hash: yPCUwlYlerW3KU8JnQ8No8+0fhs9PUS9iD11Q7vevPg=
   item: null
   logo: harmonycloud.svg
   name: HarmonyCloud (KTP)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/hewlett-packard-enterprise
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Trilead
-      date: '2016-02-03'
-    - acquiree: Silicon Graphics
-      date: '2016-08-11'
-      price: 275000000
-    - acquiree: Simplivity
-      date: '2017-01-17'
-      price: 650000000
-    - acquiree: Cloud Cruiser
-      date: '2017-01-23'
-    - acquiree: Niara
-      date: '2017-02-01'
-    - acquiree: Nimble Storage
-      date: '2017-03-07'
-      price: 1090000000
-    - acquiree: Cloud Technology Partners
-      date: '2017-09-05'
-    - acquiree: RedPixie
-      date: '2018-04-11'
-    - acquiree: Plexxi
-      date: '2018-05-15'
-    - acquiree: BlueData Software
-      date: '2018-11-27'
-    - acquiree: MapR Technologies
-      date: '2019-08-06'
-    - acquiree: Cray
-      date: '2019-09-26'
-      price: 1400000000
-    - acquiree: Scytale.io
-      date: '2020-02-03'
-    - acquiree: Silver Peak Systems, Inc.
-      date: '2020-07-13'
-      price: 925000000
-    - acquiree: CloudPhysics
-      date: '2021-02-23'
-    - acquiree: Determined AI
-      date: '2021-06-21'
-    - acquiree: Zerto
-      date: '2021-07-01'
-      price: 374000000
-    - acquiree: Ampool
-      date: '2021-07-07'
-    city: Houston
-    company_type: For Profit
-    country: United States
-    description: Hewlett Packard Enterprise is an industry technology company that
-      enables customers to go further and faster.
-    homepage: https://www.hpe.com
-    industries:
-    - Data Center
-    - Enterprise Software
-    - IT Management
-    - Information Technology
-    - Network Security
-    - Wireless
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/hewlett-packard-enterprise
-    name: Hewlett Packard Enterprise
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents: []
-    region: Texas
-    stockExchange: nyse
-    ticker: HPE
-    twitter: https://www.twitter.com/hpe
+- crunchbase: https://www.crunchbase.com/organization/hewlett-packard-enterprise
   description: HPE is a leader in the hybrid cloud market offering Kubernetes solutions
     that are supported by professional services and education.
   homepage_url: https://education.hpe.com/ww/en/training/portfolio/cloud.html
-  image_data:
-    fileName: hpe-ktp.svg
-    hash: +aJSs3RHMKJBQDK5+na4ylEiA+5WJKuEU7e60NZIk0I=
   item: null
   logo: hpe-ktp.svg
   name: HPE (KTP)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 20:25:25+00:00
-  yahoo_finance_data:
-    effective_ticker: HPE
-    market_cap: 18658379776
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/huawei
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Harbour Networks Holdings
-      date: '2006-09-11'
-    - acquiree: 3Leaf
-      date: '2011-02-19'
-    - acquiree: Huawei Symantec Technologies
-      date: '2011-11-14'
-    - acquiree: Centre for Integrated Photonics
-      date: '2012-01-26'
-    - acquiree: Neul
-      date: '2014-09-22'
-      price: 25000000
-    - acquiree: Toga Networks
-      date: '2016-12-07'
-    - acquiree: HexaTier
-      date: '2016-12-27'
-      price: 42000000
-    - acquiree: Vokord Telekom Zao
-      date: '2019-06-03'
-      price: 50000000
-    - acquiree: Vocord
-      date: '2019-06-04'
-    city: Shenzhen
-    company_type: For Profit
-    country: China
-    description: Huawei Technologies provides infrastructure application software
-      and devices with wireline, wireless, and IP technologies.
-    funding: 0
-    homepage: http://huawei.com
-    industries:
-    - Information and Communications Technology (ICT)
-    - Software
-    - Web Hosting
-    - Wireless
-    linkedin: https://www.linkedin.com/company/huawei/
-    name: Huawei Technologies
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents: []
-    region: Guangdong
-    stockExchange: null
-    twitter: https://twitter.com/Huawei
+- crunchbase: https://www.crunchbase.com/organization/huawei
   description: HUAWEI CLOUD provides customers with stable, reliable, secure, and
     sustainably growing cloud services. It helps large enterprises address challenges
     in cloud transformation and enables them to take better advantages of potential
     business opportunities. It also helps small- and medium-sized enterprises expand
     their business growth and rise to challenges.
   homepage_url: https://www.huaweicloud.com/intl/en-us
-  image_data:
-    fileName: huawei-ktp.svg
-    hash: mHVrII9LfaQH2KqZmMwccwZdOEgkoKregz2+bez3VHE=
   item: null
   logo: huawei.svg
   name: Huawei (KTP)
   twitter: https://twitter.com/Huawei_Cloud
-  twitter_data:
-    latest_tweet_date: 2021-05-27 08:57:42+00:00

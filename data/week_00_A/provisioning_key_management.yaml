@@ -1,159 +1,24 @@
-- best_practice_data:
-    badge: 4681
-    percentage: 100
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Kubernetes
-      date: '2016-03-10'
-    - acquiree: RethinkDB
-      date: '2017-02-06'
-      price: 25000
-    city: San Francisco
-    company_type: Non Profit
-    country: United States
-    description: CNCF is an open source software foundation that hosts and nurtures
-      projects like Kubernetes and Prometheus.
-    funding: 3000000
-    homepage: https://www.cncf.io
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Non Profit
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
-    name: Cloud Native Computing Foundation (CNCF)
-    num_employees_max: 50
-    num_employees_min: 11
-    parents:
-    - https://www.crunchbase.com/organization/linux-foundation
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/CloudNativeFdn
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: Open source platform for X.509 certificate based service authentication
     and fine grained access control in dynamic infrastructures
   extra:
     accepted: '2021-01-26'
+    annual_review_date: '2023-06-30'
+    annual_review_url: https://github.com/cncf/toc/pull/1106
     artwork_url: https://github.com/cncf/artwork/tree/master/projects/athenz
+    clomonitor_name: athenz
     dev_stats_url: https://athenz.devstats.cncf.io/
-    mailing_list_url: https://groups.google.com/d/forum/athenz-users
-    slack_url: https://join.slack.com/t/athenz/
-  github_data:
-    contributions: 9;9;10;2;6;11;3;8;14;10;5;6;8;11;19;0;9;14;26;16;4;13;7;11;13;10;12;6;9;7;12;5;5;20;13;7;6;0;3;6;10;4;11;1;4;7;10;5;5;9;0;1
-    contributors_count: 61
-    contributors_link: https://github.com/AthenZ/athenz/graphs/contributors
-    description: Open source platform for X.509 certificate based service authentication
-      and fine grained access control in dynamic infrastructures. Athenz supports
-      provisioning and configuration (centralized authorization) use cases as well
-      as serving/runtime (decentralized authorization) use cases.
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#b07219'
-      name: Java
-      value: 12701835
-    - color: '#f1e05a'
-      name: JavaScript
-      value: 2409947
-    - color: '#00ADD8'
-      name: Go
-      value: 1322702
-    - color: '#89e051'
-      name: Shell
-      value: 143564
-    - color: '#427819'
-      name: Makefile
-      value: 42695
-    - color: '#384d54'
-      name: Dockerfile
-      value: 25151
-    - color: '#e34c26'
-      name: HTML
-      value: 16653
-    - name: Mustache
-      value: 9534
-    - color: '#563d7c'
-      name: CSS
-      value: 2800
-    - color: '#0298c3'
-      name: Perl
-      value: 951
-    latest_commit_date: '2022-08-04T15:42:54Z'
-    latest_commit_link: /AthenZ/athenz/commit/4a5680aa99fbc212f8ff6d3be7afc901930f133b
-    license: Apache License 2.0
-    release_date: '2022-07-21T19:28:32Z'
-    release_link: https://github.com/AthenZ/athenz/releases
-    stars: 708
-  github_start_commit_data:
-    start_commit_link: /yahoo/athenz/commit/c590f80643105e37682d2fb5900b137aea8d74e3
-    start_date: '2016-12-31T09:10:04Z'
+    slack_url: https://athenz.slack.com/
   homepage_url: https://www.athenz.io
-  image_data:
-    fileName: athenz.svg
-    hash: 3bPY4xpQqtN6GucFl27/4Ldw4IWXnHWOB6JRN3mZ2HA=
   item: null
   logo: athenz.svg
   name: Athenz
   project: sandbox
   repo_url: https://github.com/AthenZ/athenz
-  repos:
-  - stars: 708
-    url: https://github.com/AthenZ/athenz
   twitter: https://twitter.com/athenzio
-  twitter_data:
-    latest_tweet_date: 2021-03-27 17:54:30+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/authing
-  crunchbase_data:
-    acquisitions: []
-    city: Changyang
-    company_type: For Profit
-    country: China
-    description: Authing provides identity authentication and authorization services
-      for enterprises and developers.
-    funding: 29230000
-    homepage: https://authing.cn
-    industries:
-    - Cloud Computing
-    - Information Technology
-    - SaaS
-    kind: funding
-    linkedin: https://www.linkedin.com/company/authing/
-    name: Authing
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: Beijing
-    stockExchange: null
-    twitter: null
-  github_data:
-    contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;17;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-    contributors_count: 6
-    contributors_link: https://github.com/Authing/Authing/graphs/contributors
-    description: "\U0001F525Authing - IDaaS/IAM solution that can Auth to web and\
-      \ mobile applications."
-    firstWeek: 2021-08-08Z
-    languages: []
-    latest_commit_date: '2021-12-31T07:18:34Z'
-    latest_commit_link: /Authing/Authing/commit/a76f93eb9e49a092c2d421ffc7c93192cef3b986
-    license: MIT License
-    release_date: '2021-12-31T08:02:54Z'
-    release_link: https://github.com/Authing/Authing/releases
-    stars: 367
-  github_start_commit_data:
-    start_commit_link: /Authing/authing/commit/6e434fc9c10acb1c24037c5131cf32d9ae1e7fcd
-    start_date: '2018-01-14T06:35:30Z'
+- crunchbase: https://www.crunchbase.com/organization/authing
   homepage_url: https://www.authing.cn
-  image_data:
-    fileName: authing.svg
-    hash: UyCRAtu7Z8da19NTWZuDHrib0PymWzdmepZJTLNJCtw=
   item: null
   logo: authing.svg
   name: Authing
   repo_url: https://github.com/Authing/Authing
-  repos:
-  - stars: 367
-    url: https://github.com/Authing/Authing

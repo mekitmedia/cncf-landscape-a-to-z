@@ -1,179 +1,22 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/D2iQ
-  crunchbase_data:
-    acquisitions:
-    - acquiree: OrlyAtomics
-      date: '2014-09-17'
-    - acquiree: H1 Studios
-      date: '2015-01-01'
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: D2iQ offers elastically run containers and data services at scale,
-      with complete hybrid cloud portability.
-    funding: 247250000
-    homepage: https://d2iq.com/
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Data Center Automation
-    - Enterprise Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/d2iq/
-    name: D2iq
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/D2iQ
-  description: Konvoy is a standalone distribution of Kubernetes that includes a native
-    Kubernetes cluster pre-packaged for deployment with a complement of best-in-class
-    add-on services enabled by default and ready for immediate use.
-  homepage_url: https://d2iq.com/products/konvoy
-  image_data:
-    fileName: d2i-q-konvoy.svg
-    hash: bS/yhchtoQZMMl95+UWAH0YUL2odwuLHraDPzzlPzpY=
-  item: null
-  logo: d2iq.svg
-  name: D2iQ Konvoy
-  twitter_data:
-    latest_tweet_date: 2022-08-06 01:01:03+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/daocloud
-  crunchbase_data:
-    acquisitions: []
-    city: Shanghai
-    company_type: For Profit
-    country: China
-    description: DaoCloud is a digital innovation leader in enterprise cloud computing.
-    funding: 14600000
-    homepage: https://www.daocloud.io
-    industries:
-    - Cloud Computing
-    - Enterprise Software
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/daocloud-network-technology-co-ltd-
-    name: DaoCloud
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: Shanghai
-    stockExchange: null
-    twitter: https://twitter.com/daocloudio
+- crunchbase: https://www.crunchbase.com/organization/daocloud
   description: Daocloud helps you provide a reliable and consistent basic support
     environment to meet the high SLA requirements of enterprise critical applications.
-  homepage_url: https://www.daocloud.io/dce
-  image_data:
-    fileName: dao-cloud-enterprise.svg
-    hash: PIojhdKJHCTS1Tzt5rYJ9PUkJi+rjaPYW7aHcdv3B/Q=
+  homepage_url: https://www.daocloud.io/en/
   item: null
   logo: daocloud.svg
   name: DaoCloud Enterprise
-  twitter_data:
-    latest_tweet_date: 2015-08-20 09:00:30+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/desktop-kubernetes
-  crunchbase_data:
-    acquisitions: []
-    city: Freeland
-    company_type: ''
-    country: United States
-    description: Desktop Kubernetes is a Bash shell project that provisions a desktop
-      Kubernetes cluster using VirtualBox
-    homepage: https://github.com/aceeric/desktop-kubernetes
-    industries: []
-    linkedin: null
-    name: Desktop Kubernetes
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Maryland
-    stockExchange: null
-    twitter: null
-  description: Stands up a three-VM Kubernetes development cluster on the desktop
+- description: Stands up a three-VM Kubernetes development cluster on the desktop
     using VirtualBox, by running a single Bash script.
-  github_data:
-    contributions: 1;11;4;1;0;0;4;0;0;0;0;0;0;0;0;0;1;0;0;1;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;0;0;0;2;8;6;1
-    contributors_count: 3
-    contributors_link: https://github.com/aceeric/desktop-kubernetes/graphs/contributors
-    description: 'Stands up a three-VM Kubernetes development cluster on the desktop
-      using VirtualBox, by running a single Bash script. The script command line options
-      support different cluster configs: like monitoring, networking, etc.'
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#89e051'
-      name: Shell
-      value: 162718
-    - color: '#3572A5'
-      name: Python
-      value: 676
-    latest_commit_date: '2022-07-30T21:07:44Z'
-    latest_commit_link: /aceeric/desktop-kubernetes/commit/0df4957bbfe0f7e062fe8f1c989c42722d3d2b3d
-    license: Apache License 2.0
-    stars: 4
-  github_start_commit_data:
-    start_commit_link: /aceeric/desktop-kubernetes/commit/c7ea42e9ca24c50cf22f6a6c8a61f9f6df443a8b
-    start_date: '2021-01-18T02:26:45Z'
   homepage_url: https://github.com/aceeric/desktop-kubernetes
-  image_data:
-    fileName: desktop-kubernetes.svg
-    hash: oBjlXxvIz93diz0LuTeTw9mRCFrzWw9ipbyxeAez8aI=
   item: null
   logo: desktop-kubernetes.svg
   name: Desktop Kubernetes
   repo_url: https://github.com/aceeric/desktop-kubernetes
-  repos:
-  - stars: 4
-    url: https://github.com/aceeric/desktop-kubernetes
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/diamanti
-  crunchbase_data:
-    acquisitions:
-    - acquiree: GroundWork Open Source
-      date: '2022-01-31'
-    city: San Jose
-    company_type: For Profit
-    country: United States
-    description: Diamanti is the technology leader in bare-metal container infrastructure,
-      purpose-built for modern cloud and open-source environments.
-    funding: 78000000
-    homepage: https://www.diamanti.com/
-    industries:
-    - Cloud Computing
-    - Cloud Data Services
-    - Cloud Management
-    - Computer
-    - Data Center
-    - Infrastructure
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/diamanti
-    name: Diamanti
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/diamanticom
-  description: Diamanti Spektra is a pre-validated and pre-packaged Kubernetes distribution
-    complete with integrated CSI and CNI plugins for modern, distributed applications
-    across the hybrid cloud.
+- crunchbase: https://www.crunchbase.com/organization/diamanti
+  description: Diamanti Kubernetes Engine is a pre-validated and pre-packaged Kubernetes
+    distribution complete with integrated CSI and CNI plugins for modern, distributed
+    applications across the hybrid cloud
   homepage_url: https://diamanti.com/products
-  image_data:
-    fileName: diamanti-spektra.svg
-    hash: cXQs57jzaPylbuPOFCoikcPCMPL1ZP2ckgJyr8+eKNw=
   item: null
   logo: diamanti.svg
-  name: Diamanti Spektra
-  twitter_data:
-    latest_tweet_date: 2022-05-02 14:39:23+00:00
+  name: Diamanti Kubernetes Engine

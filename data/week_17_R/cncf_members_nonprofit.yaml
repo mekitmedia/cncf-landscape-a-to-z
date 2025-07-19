@@ -1,31 +1,6 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/risc-v
-  crunchbase_data:
-    acquisitions: []
-    city: Berkeley
-    company_type: For Profit
-    country: United States
-    description: RISC - V (Risk Five) is a new instruction set architecture, supporting
-      computer architecture research and education.
-    homepage: http://riscv.org/
-    industries:
-    - Education
-    linkedin: https://www.linkedin.com/company/risc-v-foundation
-    name: RISC - V (Risk Five)
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: http://twitter.com/RISC_V
+- crunchbase: https://www.crunchbase.com/organization/risc-v
   homepage_url: https://riscv.org/
-  image_data:
-    fileName: risc-v-member.svg
-    hash: gnEjfVSI1DEEO5cCWJhgrZqwPn8EoZmqBqOyCSBeQLQ=
   item: null
+  joined: '2021-04-01'
   logo: risc-v-international.svg
   name: RISC-V (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 21:00:59+00:00

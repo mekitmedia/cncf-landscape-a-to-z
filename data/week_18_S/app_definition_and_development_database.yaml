@@ -1,672 +1,113 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/scalar
-  crunchbase_data:
-    acquisitions: []
-    city: Tokyo
-    company_type: For Profit
-    country: Japan
-    description: Scalar provides reliable data management technology.
-    funding: 2879156
-    homepage: https://scalar-labs.com
-    industries:
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/scalarlabs/
-    name: Scalar
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Tokyo
-    stockExchange: null
-    twitter: https://twitter.com/scalar_labs
-  github_data:
-    contributions: 4;6;10;4;8;10;1;10;9;8;5;7;7;2;6;7;19;22;6;3;4;8;7;4;8;2;19;2;2;7;4;3;5;4;8;8;11;6;0;10;6;4;3;9;1;12;5;14;3;5;1;4
-    contributors_count: 23
-    contributors_link: https://github.com/scalar-labs/scalardb/graphs/contributors
-    description: Universal transaction manager
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#b07219'
-      name: Java
-      value: 4160519
-    - name: TLA
-      value: 16905
-    - color: '#f1e05a'
-      name: JavaScript
-      value: 3576
-    - color: '#384d54'
-      name: Dockerfile
-      value: 2357
-    - color: '#89e051'
-      name: Shell
-      value: 382
-    latest_commit_date: '2022-08-03T02:45:41Z'
-    latest_commit_link: /scalar-labs/scalardb/commit/3982e80c71ebfce4e75d5a79014e02c2e58fd22c
-    license: Apache License 2.0
-    release_date: '2022-07-08T14:35:18Z'
-    release_link: https://github.com/scalar-labs/scalardb/releases
-    stars: 319
-  github_start_commit_data:
-    start_commit_link: /scalar-labs/scalardb/commit/3a64375debead598dcf597d80edcf6446e78676f
-    start_date: '2018-10-05T09:45:31Z'
+- crunchbase: https://www.crunchbase.com/organization/sap
+  description: SAP HANA is an in-memory, column-oriented, relational database management
+    system
+  homepage_url: https://community.sap.com/topics/hana
+  item: null
+  logo: sap.svg
+  name: SAP HANA
+- crunchbase: https://www.crunchbase.com/organization/scalar
   homepage_url: https://scalar-labs.com/
-  image_data:
-    fileName: scalar-db.svg
-    hash: 232fMtPuiz1SHFTBbRbyynfTLnGH9xxpfBzjuIDTX/k=
   item: null
   logo: scalardb.svg
-  name: Scalar DB
+  name: ScalarDB
   repo_url: https://github.com/scalar-labs/scalardb
-  repos:
-  - stars: 319
-    url: https://github.com/scalar-labs/scalardb
-  twitter_data:
-    latest_tweet_date: 2022-08-04 02:42:23+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Kubernetes
-      date: '2016-03-10'
-    - acquiree: RethinkDB
-      date: '2017-02-06'
-      price: 25000
-    city: San Francisco
-    company_type: Non Profit
-    country: United States
-    description: CNCF is an open source software foundation that hosts and nurtures
-      projects like Kubernetes and Prometheus.
-    funding: 3000000
-    homepage: https://www.cncf.io
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Non Profit
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
-    name: Cloud Native Computing Foundation (CNCF)
-    num_employees_max: 50
-    num_employees_min: 11
-    parents:
-    - https://www.crunchbase.com/organization/linux-foundation
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/CloudNativeFdn
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   extra:
     accepted: '2020-11-10'
+    annual_review_date: '2021-12-22'
+    annual_review_url: https://github.com/cncf/toc/pull/771
     artwork_url: https://github.com/cncf/artwork/tree/master/projects/schemahero
+    clomonitor_name: schemahero
     dev_stats_url: https://schemahero.devstats.cncf.io/
     slack_url: https://kubernetes.slack.com/messages/schemahero
-  github_data:
-    contributions: 2;0;0;3;0;1;3;9;2;21;2;8;12;1;0;0;0;15;3;15;12;20;1;1;5;1;2;0;0;0;0;0;0;0;0;0;3;0;0;4;0;0;0;0;0;0;0;0;0;0;0;0
-    contributors_count: 29
-    contributors_link: https://github.com/schemahero/schemahero/graphs/contributors
-    description: A Kubernetes operator for declarative database schema management
-      (gitops for database schemas)
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 467373
-    - color: '#427819'
-      name: Makefile
-      value: 27994
-    - color: '#384d54'
-      name: Dockerfile
-      value: 8724
-    - color: '#89e051'
-      name: Shell
-      value: 2955
-    latest_commit_date: '2022-05-10T21:36:45Z'
-    latest_commit_link: /schemahero/schemahero/commit/315182483b6cfae313f55fbaa603f28806895b47
-    license: Apache License 2.0
-    release_date: '2022-05-10T18:05:47Z'
-    release_link: https://github.com/schemahero/schemahero/releases
-    stars: 644
-  github_start_commit_data:
-    start_commit_link: /schemahero/schemahero/commit/11b421932a60859c8b4bf1d41a5a61a5425c9a31
-    start_date: '2019-04-27T22:16:38Z'
   homepage_url: https://schemahero.io
-  image_data:
-    fileName: schema-hero.svg
-    hash: uJpqeQZp2HpwUm0LE7Y6mvZOfW2pQqote/xPGd8Wo1U=
   item: null
   logo: schemahero.svg
   name: SchemaHero
   project: sandbox
   repo_url: https://github.com/schemahero/schemahero
-  repos:
-  - stars: 644
-    url: https://github.com/schemahero/schemahero
-  twitter_data:
-    latest_tweet_date: 2022-08-05 21:09:37+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/scylladb
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Seastar
-      date: '2017-10-17'
-    city: Palo Alto
-    company_type: For Profit
-    country: United States
-    description: ScyllaDB produces a NoSQL database compatible with Apache Cassandra
-      and Amazon DynamoDB at 10x the throughput with reliably low latencies.
-    funding: 60000000
-    homepage: http://www.scylladb.com
-    industries:
-    - Enterprise Software
-    - Information Services
-    - Information Technology
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/scylladb
-    name: ScyllaDB
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/scylladb
-  github_data:
-    contributions: 82;70;91;90;65;106;139;84;69;64;43;66;109;55;141;100;98;99;132;71;41;91;112;86;70;90;52;75;87;85;72;94;62;78;103;95;63;72;83;79;99;62;113;69;97;76;118;65;136;138;101;64
-    contributors_count: 135
-    contributors_link: https://github.com/scylladb/scylla/graphs/contributors
-    description: NoSQL data store using the seastar framework, compatible with Apache
-      Cassandra
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#f34b7d'
-      name: C++
-      value: 17532190
-    - color: '#3572A5'
-      name: Python
-      value: 2693701
-    - color: '#04133b'
-      name: WebAssembly
-      value: 282894
-    - name: GAP
-      value: 98943
-    - color: '#89e051'
-      name: Shell
-      value: 64221
-    - name: Thrift
-      value: 39648
-    - name: CMake
-      value: 26193
-    - color: '#6E4C13'
-      name: Assembly
-      value: 14822
-    - color: '#878787'
-      name: Hack
-      value: 13852
-    - color: '#7e7eff'
-      name: Nix
-      value: 4178
-    - color: '#9d5200'
-      name: Ragel
-      value: 2948
-    - color: '#384d54'
-      name: Dockerfile
-      value: 713
-    - color: '#dea584'
-      name: Rust
-      value: 258
-    latest_commit_date: '2022-08-05T17:34:07Z'
-    latest_commit_link: /scylladb/scylladb/commit/7f80602b010a973dd24953cf39161699e7afcb42
-    license: GNU Affero General Public License v3.0
-    stars: 8175
-  github_start_commit_data:
-    start_commit_link: /scylladb/scylla/commit/193ac5919df51df2366604fc5cbfd73d15bb52f5
-    start_date: '2014-08-10T05:56:33Z'
+- crunchbase: https://www.crunchbase.com/organization/scylladb
   homepage_url: https://www.scylladb.com/
-  image_data:
-    fileName: scylla.svg
-    hash: mCmjQPh33q6Qf3wNJFkKKvk9qvx7oynbuqLSwt3P7pY=
   item: null
   logo: scylla.svg
   name: Scylla
-  repo_url: https://github.com/scylladb/scylla
-  repos:
-  - stars: 8175
-    url: https://github.com/scylladb/scylla
+  repo_url: https://github.com/scylladb/scylladb
   twitter: https://twitter.com/ScyllaDB
-  twitter_data:
-    latest_tweet_date: 2022-08-05 23:25:20+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/ant-financial
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Mayijijin
-      date: '2015-04-24'
-      price: 32215911
-    - acquiree: EyeVerify
-      date: '2016-09-13'
-    - acquiree: helloPay
-      date: '2017-04-19'
-    - acquiree: riskstorm
-      date: '2018-04-25'
-      price: 7902723
-    - acquiree: WorldFirst
-      date: '2019-02-14'
-      price: 700000000
-    - acquiree: 2C2P
-      date: '2022-04-18'
-    city: Hangzhou
-    company_type: For Profit
-    country: China
-    description: Ant Group strives to enable all consumers and small businesses to
-      have equal access to financial and other services through technology.
-    funding: 22000000000
-    homepage: https://www.antgroup.com
-    industries:
-    - Banking
-    - FinTech
-    - Financial Services
-    - Payments
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/antgroup
-    name: Ant Group
-    num_employees_max: 10000
-    num_employees_min: 5001
-    parents:
-    - https://www.crunchbase.com/organization/alibaba
-    region: Zhejiang
-    stockExchange: null
-    ticker: 9988.HK
-    twitter: https://twitter.com/antgroup
-  github_data:
-    contributions: 4;7;6;5;5;11;1;6;0;1;2;1;4;1;0;1;6;3;5;2;3;5;6;4;14;1;2;9;6;5;9;9;4;3;4;1;5;1;2;1;4;0;1;5;8;5;4;4;2;7;3;2
-    contributors_count: 256
-    contributors_link: https://github.com/seata/seata/graphs/contributors
-    description: ':fire: Seata is an easy-to-use, high-performance, open source distributed
-      transaction solution.'
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#b07219'
-      name: Java
-      value: 9812094
-    - color: '#9DC3FF'
-      name: ANTLR
-      value: 140225
-    - color: '#2b7489'
-      name: TypeScript
-      value: 76213
-    - color: '#89e051'
-      name: Shell
-      value: 37570
-    - name: SCSS
-      value: 34142
-    - color: '#F18E33'
-      name: Kotlin
-      value: 7651
-    - color: '#3572A5'
-      name: Python
-      value: 4804
-    - color: '#C1F12E'
-      name: Batchfile
-      value: 3970
-    - name: Less
-      value: 2488
-    - name: Mustache
-      value: 1767
-    - color: '#000080'
-      name: Lua
-      value: 1678
-    - color: '#384d54'
-      name: Dockerfile
-      value: 804
-    latest_commit_date: '2022-08-06T02:01:34Z'
-    latest_commit_link: /seata/seata/commit/5b15922203310f2c1db97b7bdf1b03299ef25426
-    license: Apache License 2.0
-    release_date: '2019-07-12T07:22:25Z'
-    release_link: https://github.com/seata/seata/releases
-    stars: 22582
-  github_start_commit_data:
-    start_commit_link: /seata/seata/commit/9bdb80d4fa9f0ceeef117f0bef1285e31b47349c
-    start_date: '2019-01-09T03:13:40Z'
-  homepage_url: https://seata.io/en-us
-  image_data:
-    fileName: seata.svg
-    hash: Fh8dowCifyFRPhJPnOQyQ+DP0Hy5KEciiUr99Vo13o4=
+- crunchbase: https://www.crunchbase.com/organization/ant-financial
+  homepage_url: https://seata.apache.org
   item: null
   logo: seata.svg
   name: Seata
-  repo_url: https://github.com/seata/seata
-  repos:
-  - stars: 22582
-    url: https://github.com/seata/seata
+  repo_url: https://github.com/apache/incubator-seata
   twitter: https://twitter.com/seataio
-  twitter_data:
-    latest_tweet_date: 2019-04-03 03:41:28+00:00
-  yahoo_finance_data:
-    effective_ticker: 9988.HK
-    market_cap: 250716029031
-- best_practice_data:
-    badge: 5394
-    percentage: 100
-  crunchbase: https://www.crunchbase.com/organization/apache
-  crunchbase_data:
-    acquisitions: []
-    city: Forest Hill
-    company_type: Non Profit
-    country: United States
-    description: Apache Software Foundation provides organizational, legal and financial
-      support for Apache open-source software projects.
-    homepage: http://www.apache.org
-    industries:
-    - Non Profit
-    - Software
-    linkedin: https://www.linkedin.com/company/the-apache-software-foundation
-    name: The Apache Software Foundation
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: Maryland
-    stockExchange: null
-    twitter: http://twitter.com/TheASF
-  github_data:
-    contributions: 77;79;97;93;91;103;105;110;42;61;84;96;73;53;66;62;54;61;57;100;113;91;124;139;120;71;98;103;89;65;126;106;116;118;93;124;102;134;151;129;145;128;99;99;88;98;122;119;205;143;161;139
-    contributors_count: 508
-    contributors_link: https://github.com/apache/shardingsphere/graphs/contributors
-    description: Ecosystem to transform any database into a distributed database system,
-      and enhance it with sharding, elastic scaling, encryption features & more
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#b07219'
-      name: Java
-      value: 20190718
-    - color: '#9DC3FF'
-      name: ANTLR
-      value: 799184
-    - color: '#0050b2'
-      name: FreeMarker
-      value: 98393
-    - color: '#89e051'
-      name: Shell
-      value: 25465
-    - color: '#384d54'
-      name: Dockerfile
-      value: 7319
-    - color: '#C1F12E'
-      name: Batchfile
-      value: 3214
-    latest_commit_date: '2022-08-06T04:55:34Z'
-    latest_commit_link: /apache/shardingsphere/commit/4bdefa673d88a362f52fc02550841d58f8b73fe0
-    license: Apache License 2.0
-    release_date: '2022-06-17T10:21:27Z'
-    release_link: https://github.com/apache/shardingsphere/releases
-    stars: 16862
-  github_start_commit_data:
-    start_commit_link: /apache/incubator-shardingsphere/commit/03acfb18e18681686232fc440e0c79ce0dde1f17
-    start_date: '2016-01-18T12:49:26Z'
+- crunchbase: https://www.crunchbase.com/organization/apache
   homepage_url: https://shardingsphere.apache.org/
-  image_data:
-    fileName: sharding-sphere.svg
-    hash: MAuPjUni23HhtMqjrKLOvFXhs+37IrD/j5+wwBMJaPc=
   item: null
   logo: shardingsphere.svg
   name: ShardingSphere
   repo_url: https://github.com/apache/shardingsphere
-  repos:
-  - stars: 16862
-    url: https://github.com/apache/shardingsphere
   twitter: https://twitter.com/ShardingSphere
-  twitter_data:
-    latest_tweet_date: 2022-08-05 07:20:49+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/memsql
-  crunchbase_data:
-    acquisitions: []
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: SingleStore is a provider of a database for operational analytics
-      and cloud-native applications.
-    funding: 434100000
-    homepage: https://www.singlestore.com/
-    industries:
-    - Analytics
-    - Big Data
-    - Cloud Data Services
-    - Database
-    - Enterprise Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/singlestore/
-    name: SingleStore
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/singlestoredb/
+- crunchbase: https://www.crunchbase.com/organization/memsql
   homepage_url: https://www.singlestore.com/
-  image_data:
-    fileName: single-store.svg
-    hash: w6ndc/+HUUKBELaSKuvtaBDwzQ1BhqR3NwJfl5sBjXc=
   item: null
   logo: singlestore.svg
   name: SingleStore
   twitter: https://twitter.com/SingleStoreDB
-  twitter_data:
-    latest_tweet_date: 2022-08-05 19:32:00+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/snowflake-computing
-  crunchbase_data:
-    acquisitions:
-    - acquiree: CryptoNumerics
-      date: '2020-07-20'
-      price: 7100000
-    - acquiree: Polidea
-      date: '2021-02-09'
-    - acquiree: Pragmatists
-      date: '2022-01-01'
-    - acquiree: Streamlit
-      date: '2022-03-01'
-      price: 800000000
-    city: San Mateo
-    company_type: For Profit
-    country: United States
-    description: Snowflake is a cloud data platform that provides a data warehouse-as-a-service
-      designed for the cloud.
-    funding: 2079355548
-    homepage: https://www.snowflake.com/
-    industries:
-    - Analytics
-    - Cloud Data Services
-    - Enterprise Software
-    - Software
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/snowflake-computing/
-    name: Snowflake
-    num_employees_max: 5000
-    num_employees_min: 1001
-    parents: []
-    region: California
-    stockExchange: nyse
-    ticker: SNOW
-    twitter: http://twitter.com/SnowflakeDB
+- crunchbase: https://www.crunchbase.com/organization/snowflake-computing
   homepage_url: https://www.snowflake.com/
-  image_data:
-    fileName: snowflake.svg
-    hash: xyoYIkHKo4DVxRbuddetlVaQxkPpwAb3L73H6CrqBVo=
   item: null
   logo: snowflake.svg
   name: Snowflake
-  twitter_data:
-    latest_tweet_date: 2022-08-05 20:20:57+00:00
-  yahoo_finance_data:
-    effective_ticker: SNOW
-    market_cap: 53182472192
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/software-ag
-  crunchbase_data:
-    acquisitions:
-    - acquiree: SAGA Systems, Inc.
-      date: '2000-11-01'
-      price: 360000000
-    - acquiree: Dante Group
-      date: '2003-10-13'
-    - acquiree: "An\xE1lisis Programaci\xF3n and Software"
-      date: '2005-07-14'
-    - acquiree: SPL Software Ltd.
-      date: '2007-03-01'
-    - acquiree: webMethods
-      date: '2007-04-05'
-      price: 546000000
-    - acquiree: Infravio
-      date: '2008-09-23'
-    - acquiree: itCampus Deutschland
-      date: '2009-04-01'
-    - acquiree: IDS Scheer Consulting
-      date: '2009-07-01'
-      price: 600000000
-    - acquiree: RTM Real Time Monitoring
-      date: '2010-04-27'
-    - acquiree: Data Foundations
-      date: '2010-10-18'
-    - acquiree: Terracotta
-      date: '2011-05-23'
-    - acquiree: Metismo
-      date: '2011-05-31'
-    - acquiree: my-Channels
-      date: '2012-04-16'
-    - acquiree: LongJump
-      date: '2013-04-25'
-    - acquiree: alfabet
-      date: '2013-06-03'
-    - acquiree: Apama
-      date: '2013-06-14'
-    - acquiree: JackBe
-      date: '2013-08-22'
-    - acquiree: metaquark
-      date: '2014-05-27'
-    - acquiree: CONNX Solutions
-      date: '2016-08-31'
-    - acquiree: Zementis
-      date: '2016-12-02'
-    - acquiree: Cumulocity
-      date: '2017-03-27'
-    - acquiree: TrendMiner
-      date: '2018-06-12'
-    - acquiree: Built.io
-      date: '2018-09-28'
-    - acquiree: StreamSets
-      date: '2022-02-28'
-      price: 587632357
-    city: Darmstadt
-    company_type: For Profit
-    country: Germany
-    description: Software AG provides business process management, data management,
-      and consulting services worldwide.
-    funding: 388221101
-    homepage: http://www.softwareag.com
-    industries:
-    - Big Data
-    - Enterprise Software
-    - Software
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/software-ag
-    name: Software AG
-    num_employees_max: 5000
-    num_employees_min: 1001
-    parents: []
-    region: Hessen
-    stockExchange: etr
-    ticker: SOW.DE
-    twitter: https://twitter.com/SoftwareAG
+- crunchbase: https://www.crunchbase.com/organization/software-ag
   description: With Adabas for LUW, you can deliver extremely high transaction speeds
     with a fraction of the staff and system resources needed for comparable database
     management systems.
   homepage_url: https://www.softwareag.com/en_corporate/platform/adabas-natural/cloud-transformation.html
-  image_data:
-    fileName: software-ag.svg
-    hash: 8OSJaVyvcHTfxTNzVnW8hIvBbeJWyeDe5SMtsFYDYiE=
   item: null
   logo: software.svg
   name: Software AG
-  twitter_data:
-    latest_tweet_date: 2022-08-05 14:47:03+00:00
-  yahoo_finance_data:
-    effective_ticker: SOW.DE
-    market_cap: 2029033977
-- best_practice_data:
-    badge: 1918
-    percentage: 18
-  crunchbase: https://www.crunchbase.com/organization/sorint-lab
-  crunchbase_data:
-    acquisitions: []
-    city: Bergamo
-    company_type: For Profit
-    country: Italy
-    description: Sorint.Lab is provider of strategic partner services in the designing,
-      management and development of IT infrastructure.
-    homepage: https://www.sorint.it
-    industries:
-    - Infrastructure
-    linkedin: https://www.linkedin.com/company/sorint-lab/
-    name: Sorint.Lab
-    num_employees_max: 1000
-    num_employees_min: 501
-    parents: []
-    region: Lombardia
-    stockExchange: null
-    twitter: https://twitter.com/SorintLab
+- crunchbase: https://www.crunchbase.com/organization/authzed
+  description: 'SpiceDB is an open source database optimized for storing and querying
+    authorization data. SpiceDB sets the standard for scalable authorization by remaining
+    true to the design of the system powering permissions at Google: Zanzibar.
+
+    '
+  extra:
+    blog_url: https://authzed.com/blog
+    slack_url: https://discord.gg/spicedb
+    stack_overflow_url: https://stackoverflow.com/questions/tagged/spicedb
+    youtube_url: https://youtube.com/@authzed
+  homepage_url: https://authzed.com/spicedb
+  item: null
+  logo: spicedb.svg
+  name: SpiceDB
+  repo_url: https://github.com/authzed/spicedb
+- crunchbase: https://www.crunchbase.com/organization/linux-foundation
+  description: StarRocks is a next-gen sub-second MPP database for full analytics
+    scenarios, including multi-dimensional analytics, real-time analytics and ad-hoc
+    query.
+  extra:
+    blog_url: https://www.starrocks.io/blog
+    slack_url: https://join.slack.com/t/starrocks/shared_invite/zt-z5zxqr0k-U5lrTVlgypRIV8RbnCIAzg
+    youtube_url: https://www.youtube.com/channel/UC38wR-ogamk4naaWNQ45y7Q
+  homepage_url: https://starrocks.io
+  item: null
+  logo: starrocks.svg
+  name: StarRocks
+  repo_url: https://github.com/StarRocks/starrocks
+- crunchbase: https://www.crunchbase.com/organization/sorint-lab
   description: Cloud Native PostgreSQL High Availability
-  github_data:
-    contributions: 0;0;0;2;1;2;0;0;4;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-    contributors_count: 53
-    contributors_link: https://github.com/sorintlab/stolon/graphs/contributors
-    description: PostgreSQL cloud native High Availability and more.
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 849894
-    - color: '#89e051'
-      name: Shell
-      value: 8698
-    - color: '#0064bd'
-      name: Jsonnet
-      value: 6215
-    - color: '#427819'
-      name: Makefile
-      value: 1230
-    latest_commit_date: '2021-10-07T14:48:26Z'
-    latest_commit_link: /sorintlab/stolon/commit/3bb7499f815f77140551eb762b200cf4557f57d3
-    license: Apache License 2.0
-    release_date: '2021-09-03T07:44:08Z'
-    release_link: https://github.com/sorintlab/stolon/releases
-    stars: 3730
-  github_start_commit_data:
-    start_commit_link: /sorintlab/stolon/commit/acc1527890e1797f14c340a63929d14e0ef34a27
-    start_date: '2015-09-07T13:04:30Z'
   homepage_url: https://sorintoss.io/projects/
-  image_data:
-    fileName: stolon.svg
-    hash: cEH2vWQw2Pxi4JesE20gEBh5+9/5v0KcIu1FC8moQ3g=
   item: null
   logo: stolon.svg
   name: Stolon
   repo_url: https://github.com/sorintlab/stolon
-  repos:
-  - stars: 3730
-    url: https://github.com/sorintlab/stolon
   twitter: https://twitter.com/sorintlab
-  twitter_data:
-    latest_tweet_date: 2022-08-02 09:05:00+00:00
+- crunchbase: https://www.crunchbase.com/organization/supabase
+  description: an open source Firebase alternative
+  homepage_url: https://supabase.com/
+  item: null
+  logo: supabase-logo.svg
+  name: Supabase
+  repo_url: https://github.com/supabase/supabase
+  twitter: https://x.com/supabase

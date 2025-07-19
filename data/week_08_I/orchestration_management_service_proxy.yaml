@@ -1,60 +1,7 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/openfaas
-  crunchbase_data:
-    acquisitions: []
-    city: Peterborough
-    company_type: For Profit
-    country: United Kingdom
-    description: OpenFaaS provides a platform for building serverless functions with
-      containers, anywhere (in cloud, on Edge or IoT devices, on-prem DCs)
-    homepage: https://www.openfaas.com
-    industries:
-    - Enterprise Software
-    - Internet
-    - Internet of Things
-    - Software Engineering
-    linkedin: https://www.linkedin.com/company/11372926/
-    name: OpenFaaS
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: Peterborough
-    stockExchange: null
-    twitter: https://twitter.com/openfaas
-  github_data:
-    contributions: 4;0;0;5;0;1;0;0;0;0;0;2;0;0;3;0;0;1;0;0;0;2;0;0;0;3;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2
-    contributors_count: 8
-    contributors_link: https://github.com/inlets/inlets-pro/graphs/contributors
-    description: Secure HTTP and TCP tunnels that just work
-    firstWeek: 2021-08-08Z
-    languages:
-    - name: Mustache
-      value: 5867
-    - color: '#427819'
-      name: Makefile
-      value: 298
-    latest_commit_date: '2022-08-05T14:30:45Z'
-    latest_commit_link: /inlets/inlets-pro/commit/28102430f215d256670d442eb284a300284553b8
-    license: Unknown License
-    release_date: '2022-05-06T17:39:34Z'
-    release_link: https://github.com/inlets/inlets-pro/releases
-    stars: 428
-  github_start_commit_data:
-    start_commit_link: /inlets/inlets-pro/commit/15e9938d7c9c4b398d6da22cbe3220c1f68fba6e
-    start_date: '2019-10-12T13:57:52Z'
+- crunchbase: https://www.crunchbase.com/organization/openfaas
   homepage_url: https://docs.inlets.dev
-  image_data:
-    fileName: inlets.svg
-    hash: xajxcjvTucTLO5mB0IeXhxGYKwvlPVXfEvhVxjMtC/Y=
   item: null
   logo: inlets.svg
   name: Inlets
   repo_url: https://github.com/inlets/inlets-pro
-  repos:
-  - stars: 428
-    url: https://github.com/inlets/inlets-pro
   twitter: https://twitter.com/inletsdev
-  twitter_data:
-    latest_tweet_date: 2022-08-05 13:17:18+00:00

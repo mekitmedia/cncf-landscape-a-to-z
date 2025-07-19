@@ -1,166 +1,47 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Kubernetes
-      date: '2016-03-10'
-    - acquiree: RethinkDB
-      date: '2017-02-06'
-      price: 25000
-    city: San Francisco
-    company_type: Non Profit
-    country: United States
-    description: CNCF is an open source software foundation that hosts and nurtures
-      projects like Kubernetes and Prometheus.
-    funding: 3000000
-    homepage: https://www.cncf.io
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Non Profit
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
-    name: Cloud Native Computing Foundation (CNCF)
-    num_employees_max: 50
-    num_employees_min: 11
-    parents:
-    - https://www.crunchbase.com/organization/linux-foundation
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/CloudNativeFdn
-  github_data:
-    contributions: 8;8;4;3;0;1;1;1;1;0;1;3;2;0;4;2;0;0;2;7;1;3;8;6;8;0;4;0;0;0;2;0;1;6;2;2;9;2;11;0;1;4;0;2;2;1;2;2;0;8;2;0
-    contributors_count: 478
-    contributors_link: https://github.com/distribution/distribution/graphs/contributors
-    description: The toolkit to pack, ship, store, and deliver container content
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 1564797
-    - color: '#89e051'
-      name: Shell
-      value: 21717
-    - color: '#384d54'
-      name: Dockerfile
-      value: 6985
-    - color: '#427819'
-      name: Makefile
-      value: 3694
-    - name: HCL
-      value: 1799
-    latest_commit_date: '2022-07-29T16:30:34Z'
-    latest_commit_link: /distribution/distribution/commit/26163d82560f4dda94bd7b87d587f94644c5af79
-    license: Apache License 2.0
-    release_date: '2022-03-08T18:19:10Z'
-    release_link: https://github.com/distribution/distribution/releases
-    stars: 6858
-  github_start_commit_data:
-    start_commit_link: /docker/distribution/commit/12e68998e101a43d6616ac950beb6e91e06b57b2
-    start_date: '2014-10-21T20:25:04Z'
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2021-01-26'
+    annual_review_date: '2023-08-08'
+    annual_review_url: https://github.com/cncf/toc/pull/1141
+    clomonitor_name: distribution
   homepage_url: https://github.com/distribution/distribution
-  image_data:
-    fileName: distribution.svg
-    hash: nLkOkAo6b0LHcY/miAEfNQkaZTr73qklIpFYFzpFF8k=
   item: null
   logo: distribution.svg
   name: Distribution
   project: sandbox
   repo_url: https://github.com/distribution/distribution
-  repos:
-  - stars: 6858
-    url: https://github.com/distribution/distribution
-  twitter_data:
-    latest_tweet_date: 2022-08-05 21:09:37+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Kubernetes
-      date: '2016-03-10'
-    - acquiree: RethinkDB
-      date: '2017-02-06'
-      price: 25000
-    city: San Francisco
-    company_type: Non Profit
-    country: United States
-    description: CNCF is an open source software foundation that hosts and nurtures
-      projects like Kubernetes and Prometheus.
-    funding: 3000000
-    homepage: https://www.cncf.io
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Non Profit
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
-    name: Cloud Native Computing Foundation (CNCF)
-    num_employees_max: 50
-    num_employees_min: 11
-    parents:
-    - https://www.crunchbase.com/organization/linux-foundation
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/CloudNativeFdn
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   extra:
-    accepted: '2018-11-15'
+    accepted: '2018-11-13'
     artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#dragonfly-logos
+    clomonitor_name: dragonfly
     dev_stats_url: https://dragonfly.devstats.cncf.io/
+    incubating: '2020-04-09'
     mailing_list_url: https://groups.google.com/g/dragonfly-developers
     slack_url: https://cloud-native.slack.com/messages/dragonfly/
-  github_data:
-    contributions: 24;20;14;18;31;8;5;11;0;11;10;17;5;4;11;10;33;34;20;4;8;4;15;24;15;2;6;18;11;26;21;16;22;14;14;15;13;15;2;8;13;12;26;5;17;11;19;14;16;11;20;23
-    contributors_count: 33
-    contributors_link: https://github.com/dragonflyoss/Dragonfly2/graphs/contributors
-    description: Dragonfly is an intelligent P2P based image and file distribution
-      system, it also provides a variety of enterprise-level (efficiency, stability,
-      safety, low-cost) product features.
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 2183727
-    - color: '#89e051'
-      name: Shell
-      value: 22221
-    - color: '#ecdebe'
-      name: Roff
-      value: 21084
-    - color: '#427819'
-      name: Makefile
-      value: 15940
-    - color: '#384d54'
-      name: Dockerfile
-      value: 6273
-    latest_commit_date: '2022-08-05T10:17:43Z'
-    latest_commit_link: /dragonflyoss/Dragonfly2/commit/2a1fdf02b995ed23a6e28864b1b270e9bd7fd1b9
-    license: Apache License 2.0
-    release_date: '2022-08-04T09:55:22Z'
-    release_link: https://github.com/dragonflyoss/Dragonfly2/releases
-    stars: 593
-  github_start_commit_data:
-    start_commit_link: /dragonflyoss/Dragonfly2/commit/a202e322f15fc606c5480db76da83b8711599dcb
-    start_date: '2021-04-26T09:11:44Z'
+    summary_business_use_case: Reduce back-to-source download traffic and back-to-source
+      requests, improve node idle bandwidth utilization. Solve the problem of insufficient
+      bandwidth or overload to download resources when accessing centralized container
+      registry or file service in large-scale Kubernetes cluster. Based on P2P technology,
+      reduce the bandwidth and load of container registry or file service, and accelerate
+      the download speed of images or files.
+    summary_integrations: Harbor, Docker, Containerd, CRI-O, Podman, ORAS, Nydus,
+      eStargz, HDFS, AWS S3, Google GCS, Azure Blob, Aliyun OSS, HWC OBS, TensorFlow
+      Serving, Triton Server, TorchServe
+    summary_intro_url: https://www.youtube.com/watch?v=TsECBaAvm-g
+    summary_personas: SREs, Cloud Architects, Platform Engineers, DevOps Engineer,
+      DevOps practitioners, DevSecOps practitioners
+    summary_release_rate: Major release every 2 months.
+    summary_tags: image acceleration, file distribution, images, OCI, container, artefacts,
+      registry, cloud native, p2p, dragonfly, d7y, nydus
+    summary_use_case: Provide efficient, stable, securefile distribution and image
+      acceleration based on p2p technology to be the best practice and standard solution
+      in cloud native architectures. It is widely used in the fields of image distribution,
+      file distribution, log distribution, inference model distribution, etc.
   homepage_url: https://d7y.io/
-  image_data:
-    fileName: dragonfly.svg
-    hash: 17qG4w+xGJvfjPUcdqTxe92I3T7j8Pr+iBzydvd4bLA=
   item: null
   logo: dragonfly.svg
   name: Dragonfly
   project: incubating
-  repo_url: https://github.com/dragonflyoss/Dragonfly2
-  repos:
-  - stars: 593
-    url: https://github.com/dragonflyoss/Dragonfly2
+  repo_url: https://github.com/dragonflyoss/dragonfly
   twitter: https://twitter.com/dragonfly_oss
-  twitter_data:
-    latest_tweet_date: 2022-07-28 08:34:42+00:00

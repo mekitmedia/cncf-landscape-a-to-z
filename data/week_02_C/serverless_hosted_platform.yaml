@@ -1,63 +1,24 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloudflare
-  crunchbase_data:
-    acquisitions:
-    - acquiree: StopTheHacker
-      date: '2014-02-24'
-    - acquiree: CryptoSeal
-      date: '2014-06-18'
-    - acquiree: Eager
-      date: '2016-12-13'
-    - acquiree: Neumob
-      date: '2017-11-14'
-    - acquiree: S2 Systems
-      date: '2020-01-07'
-    - acquiree: Linc
-      date: '2020-12-22'
-    - acquiree: Zaraz
-      date: '2021-12-08'
-    - acquiree: Vectrix
-      date: '2022-02-11'
-    - acquiree: Area 1 Security
-      date: '2022-02-23'
-      price: 162000000
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: Cloudflare is a web performance and security company that provides
-      online services to protect and accelerate websites online.
-    funding: 332200000
-    homepage: http://www.cloudflare.com
-    industries:
-    - Analytics
-    - Enterprise Software
-    - Security
-    - Web Hosting
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/cloudflare-inc-
-    name: Cloudflare
-    num_employees_max: 1000
-    num_employees_min: 501
-    parents: []
-    region: California
-    stockExchange: nyse
-    ticker: NET
-    twitter: http://twitter.com/cloudflare
+- crunchbase: https://www.crunchbase.com/organization/catalyst-by-zoho?utm_source=cncf
+  description: Catalyst is a full-stack cloud development platform that enables you
+    to build feature-rich applications. From building and testing to hosting and deploying,
+    Catalyst streamlines your development cycle with a rich suite of Serverless components,
+    Backend tools, DevOps, AI/ML capabilities and more.
+  extra:
+    blog_url: https://catalyst.zoho.com/blog/?utm_source=cncf
+    documentation_url: https://docs.catalyst.zoho.com/?utm_source=cncf
+    linkedin_url: https://www.linkedin.com/company/catalyst-by-zoho/?utm_source=cncf
+    youtube_url: https://www.youtube.com/@catalystbyzoho/?utm_source=cncf
+  homepage_url: https://catalyst.zoho.com/?utm_source=cncf
+  item: null
+  logo: catalyst-by-zoho.svg
+  name: Catalyst by Zoho
+  twitter: https://x.com/catalystbyzoho/?utm_source=cncf
+- crunchbase: https://www.crunchbase.com/organization/cloudflare
   description: Cloudflare Workers provides a lightweight JavaScript execution environment
     that allows developers to augment existing applications or create entirely new
     ones without configuring or maintaining infrastructure.
   homepage_url: https://workers.cloudflare.com
-  image_data:
-    fileName: cloudflare-workers.svg
-    hash: dSbgyg6rfh6I8LpwgcMglff59wcoe9d9WfEjafg77KY=
   item: null
   logo: cloudflare-workers.svg
   name: Cloudflare Workers
   twitter: https://twitter.com/Cloudflare
-  twitter_data:
-    latest_tweet_date: 2022-08-05 19:08:55+00:00
-  yahoo_finance_data:
-    effective_ticker: NET
-    market_cap: 24190808064

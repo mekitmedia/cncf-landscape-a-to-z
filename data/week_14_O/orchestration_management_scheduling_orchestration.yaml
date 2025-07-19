@@ -1,175 +1,63 @@
-- best_practice_data:
-    badge: 5376
-    percentage: 96
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Kubernetes
-      date: '2016-03-10'
-    - acquiree: RethinkDB
-      date: '2017-02-06'
-      price: 25000
-    city: San Francisco
-    company_type: Non Profit
-    country: United States
-    description: CNCF is an open source software foundation that hosts and nurtures
-      projects like Kubernetes and Prometheus.
-    funding: 3000000
-    homepage: https://www.cncf.io
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Non Profit
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
-    name: Cloud Native Computing Foundation (CNCF)
-    num_employees_max: 50
-    num_employees_min: 11
-    parents:
-    - https://www.crunchbase.com/organization/linux-foundation
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/CloudNativeFdn
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   extra:
     accepted: '2021-11-09'
+    annual_review_date: '2022-12-14'
+    annual_review_url: https://github.com/cncf/toc/pull/982
     artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#open-cluster-management-logos
+    clomonitor_name: ocm
     mailing_list_url: https://groups.google.com/g/open-cluster-management
     slack_url: https://kubernetes.slack.com/archives/C01GE7YSUUF
     youtube_url: https://www.youtube.com/channel/UC7xxOh2jBM5Jfwt3fsBzOZw
-  github_data:
-    contributions: 0;0;0;0;0;0;0;2;2;1;2;1;0;1;2;0;0;0;3;0;0;0;0;1;1;0;0;0;1;0;0;0;0;0;1;0;0;0;0;0;2;0;0;0;0;1;0;2;1;0;0;0
-    contributors_count: 8
-    contributors_link: https://github.com/open-cluster-management-io/ocm/graphs/contributors
-    description: Contains useful documentation on the OCM project. Report here if
-      you found any issues in OCM.
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#89e051'
-      name: Shell
-      value: 1287
-    latest_commit_date: '2022-07-15T02:14:07Z'
-    latest_commit_link: /open-cluster-management-io/OCM/commit/e0322bd1c7fc403dafefe42652fe8cf4c7ea32d9
-    license: Apache License 2.0
-    stars: 418
-  github_start_commit_data:
-    start_commit_link: /open-cluster-management-io/OCM/commit/b3a26c7721848d9acdeca6865e6942befd3c7495
-    start_date: '2021-09-30T15:11:54Z'
   homepage_url: https://open-cluster-management.io/
-  image_data:
-    fileName: open-cluster-management.svg
-    hash: 7cI8VBuwUZfO/PUeub+n7a9dU0NbdS1kNrrxwh22PeI=
   item: null
   logo: open-cluster-management.svg
   name: Open Cluster Management
   project: sandbox
   repo_url: https://github.com/open-cluster-management-io/ocm
-  repos:
-  - stars: 418
-    url: https://github.com/open-cluster-management-io/ocm
   twitter: https://twitter.com/ocm_io
-  twitter_data:
-    latest_tweet_date: 2022-05-13 13:32:21+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/opennebula
-  crunchbase_data:
-    acquisitions: []
-    city: "Pozuelo De Alarc\xF3n"
-    company_type: For Profit
-    country: Spain
-    description: The open source Cloud & Edge Computing Platform bringing real freedom
-      to your Enterprise Cloud
-    homepage: https://opennebula.io
-    industries:
-    - Cloud Computing
-    - IaaS
-    - Virtualization
-    linkedin: https://www.linkedin.com/company/opennebula/
-    name: OpenNebula
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Madrid
-    stockExchange: null
-    twitter: https://twitter.com/opennebula
-  github_data:
-    contributions: 8;4;9;16;15;24;15;21;19;13;8;9;10;7;19;32;22;8;17;1;1;11;14;20;12;24;17;21;28;20;12;25;25;21;28;30;75;29;27;44;23;34;29;15;13;29;25;12;14;7;7;0
-    contributors_count: 197
-    contributors_link: https://github.com/OpenNebula/one/graphs/contributors
-    description: "The open source Cloud & Edge Computing Platform bringing real freedom\
-      \ to your Enterprise Cloud \U0001F680"
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#f1e05a'
-      name: JavaScript
-      value: 6778685
-    - color: '#f34b7d'
-      name: C++
-      value: 4905670
-    - color: '#701516'
-      name: Ruby
-      value: 4879994
-    - color: '#555555'
-      name: C
-      value: 1582901
-    - color: '#89e051'
-      name: Shell
-      value: 1110170
-    - name: Handlebars
-      value: 841512
-    - color: '#b07219'
-      name: Java
-      value: 517071
-    - color: '#00ADD8'
-      name: Go
-      value: 449303
-    - color: '#3572A5'
-      name: Python
-      value: 199514
-    - color: '#563d7c'
-      name: CSS
-      value: 77624
-    - color: '#e34c26'
-      name: HTML
-      value: 48434
-    - name: SCSS
-      value: 44805
-    - color: '#4B6C4B'
-      name: Yacc
-      value: 35951
-    - color: '#DBCA00'
-      name: Lex
-      value: 10999
-    - name: Augeas
-      value: 5809
-    - name: Jinja
-      value: 3712
-    - color: '#427819'
-      name: Makefile
-      value: 2832
-    - color: '#ecdebe'
-      name: Roff
-      value: 2086
-    latest_commit_date: '2022-07-28T11:38:04Z'
-    latest_commit_link: /OpenNebula/one/commit/24d4c8b9d4ae8b2221f8f85fcea27e9e622bf26e
-    license: Apache License 2.0
-    stars: 908
-  github_start_commit_data:
-    start_commit_link: /OpenNebula/one/commit/ee0b0729ba4ab252696f7e09b81109d288c5db84
-    start_date: '2008-06-17T13:26:21Z'
+- allow_duplicate_repo: true
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2022-04-26'
+    annual_review_date: '2023-06-23'
+    annual_review_url: https://github.com/cncf/toc/pull/1097
+    blog_url: https://openfunction.dev/blog/
+    chat_channel: '#openfunction'
+    clomonitor_name: openfunction
+    dev_stats_url: https://openfunction.devstats.cncf.io/
+    slack_url: https://slack.cncf.io/
+    summary_business_use_case: OpenFunction is a cloud-native open source FaaS (Function
+      as a Service) platform aiming to let users focus on their business logic without
+      having to  maintain the underlying runtime environment and infrastructure. Users
+      can generate event-driven and dynamically scaling Serverless workloads by simply  submitting
+      business-related source code in the form of functions. Users can also build
+      and run serverless applications as well.
+    summary_integration: Knative, Dapr, KEDA, Shipwright, Kubernetes Gateway API,
+      Contour
+    summary_intro_url: https://openfunction.dev/docs/
+    summary_personas: Developers, Platform engineers
+    summary_release_rate: 3 ~ 4 major releases per year
+    summary_tags: FaaS, Serverless, KEDA, Knative, Shipwright, Buildpacks, Distributed
+      Systems
+    summary_use_case: Users can use OpenFunction in several different ways including
+      building functions or applications only, running sync or async serverless functions
+      or applications, building and then running serverless functions or applications,
+      building and then running serverless wasm applications(In progress).  In all
+      use cases, users can utilize Dapr to communicate with various backend services
+      (BaaS).
+  homepage_url: https://openfunction.dev
+  item: null
+  logo: openfunction.svg
+  name: OpenFunction
+  project: sandbox
+  repo_url: https://github.com/OpenFunction/OpenFunction
+  second_path:
+  - Serverless / Installable Platforms
+  - Wasm / Embedded Functions
+  twitter: https://twitter.com/openfunctiondev
+- crunchbase: https://www.crunchbase.com/organization/opennebula
   homepage_url: https://opennebula.io/
-  image_data:
-    fileName: open-nebula.svg
-    hash: TR77tlJvKjdxJQ+pVjf8E14H9jyVyKOJBKJgLn2rsTQ=
   item: null
   logo: open-nebula.svg
   name: OpenNebula
   repo_url: https://github.com/OpenNebula/one
-  repos:
-  - stars: 908
-    url: https://github.com/OpenNebula/one
-  twitter_data:
-    latest_tweet_date: 2022-08-01 16:04:46+00:00

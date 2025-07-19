@@ -1,90 +1,23 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Kubernetes
-      date: '2016-03-10'
-    - acquiree: RethinkDB
-      date: '2017-02-06'
-      price: 25000
-    city: San Francisco
-    company_type: Non Profit
-    country: United States
-    description: CNCF is an open source software foundation that hosts and nurtures
-      projects like Kubernetes and Prometheus.
-    funding: 3000000
-    homepage: https://www.cncf.io
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Non Profit
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
-    name: Cloud Native Computing Foundation (CNCF)
-    num_employees_max: 50
-    num_employees_min: 11
-    parents:
-    - https://www.crunchbase.com/organization/linux-foundation
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/CloudNativeFdn
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   extra:
+    accepted: '2020-09-08'
+    annual_review_date: '2021-11-08'
+    annual_review_url: https://github.com/cncf/toc/pull/742
+    archived: '2023-06-30'
     artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#open-service-mesh-logos
     blog_url: https://openservicemesh.io/blog/
-    dev_stats_url: https://openservicemesh.devstats.cncf.io/
     mailing_list_url: https://groups.google.com/g/openservicemesh
     slack_url: https://cloud-native.slack.com/messages/openservicemesh
-  github_data:
-    contributions: 42;21;25;14;17;42;33;28;20;26;28;14;18;11;11;2;3;5;3;0;1;9;8;4;17;13;5;12;4;8;11;5;11;5;3;4;18;11;10;8;8;12;6;12;12;9;15;6;5;10;7;4
-    contributors_count: 97
-    contributors_link: https://github.com/openservicemesh/osm/graphs/contributors
-    description: Open Service Mesh (OSM) is a lightweight, extensible, cloud native
-      service mesh that allows users to uniformly manage, secure, and get out-of-the-box
-      observability features for highly dynamic microservice environments.
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 2719753
-    - color: '#89e051'
-      name: Shell
-      value: 27800
-    - color: '#427819'
-      name: Makefile
-      value: 10647
-    - color: '#f34b7d'
-      name: C++
-      value: 5694
-    - name: Smarty
-      value: 3933
-    - color: '#384d54'
-      name: Dockerfile
-      value: 319
-    latest_commit_date: '2022-08-05T19:15:27Z'
-    latest_commit_link: /openservicemesh/osm/commit/ae704c057b6b14efb83bee3f042581fdcd5841c0
-    license: Apache License 2.0
-    release_date: '2022-07-20T21:58:57Z'
-    release_link: https://github.com/openservicemesh/osm/releases
-    stars: 2454
-  github_start_commit_data:
-    start_commit_link: /openservicemesh/osm/commit/7cbc08c7a77bbd71a8e0f9ce6144ebe41458be17
-    start_date: '2019-12-13T18:04:24Z'
   homepage_url: https://openservicemesh.io/
-  image_data:
-    fileName: open-service-mesh.svg
-    hash: g9ujtCLDf7iGZ6kVDwXf8LWtnj1liG4vSffwx7f5pMk=
   item: null
   logo: open-service-mesh.svg
   name: Open Service Mesh
-  project: sandbox
+  project: archived
   repo_url: https://github.com/openservicemesh/osm
-  repos:
-  - stars: 2454
-    url: https://github.com/openservicemesh/osm
   twitter: https://twitter.com/openservicemesh
-  twitter_data:
-    latest_tweet_date: 2022-07-26 19:43:05+00:00
+- crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
+  homepage_url: https://opensergo.io/
+  item: null
+  logo: opensergo.svg
+  name: OpenSergo
+  repo_url: https://github.com/opensergo/opensergo-specification

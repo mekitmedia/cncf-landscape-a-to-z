@@ -1,77 +1,8 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/umb-ag
-  crunchbase_data:
-    acquisitions:
-    - acquiree: COAST AG
-      date: '2016-06-22'
-    city: Cham
-    company_type: For Profit
-    country: Switzerland
-    description: UMB provides a 360-degree service for your digital transformation
-      with Consulting, Cloud, Modern Work, Security, and Infrastructure.
-    homepage: https://www.umb.ch/
-    industries:
-    - Cloud Computing
-    - Cloud Management
-    - Cloud Security
-    - Consulting
-    - Information Services
-    - Information Technology
-    - Software
-    linkedin: https://www.linkedin.com/company/umb-ag
-    name: UMB
-    num_employees_max: 1000
-    num_employees_min: 501
-    parents: []
-    region: Zug
-    stockExchange: null
-    twitter: https://twitter.com/umb1978
+- crunchbase: https://www.crunchbase.com/organization/umb-ag
   description: UMB is offering managed OpenShift and Kubernetes services in public
     clouds or our own hosted cloud in Switzerland. We support our customers on their
     journey to cloud native applications from consulting to implementation.
   homepage_url: https://www.umb.ch/en/services/digital-transformation/cloud-native/understand-what-kubernetes-is-and-what-it-can-do-for-your-business
-  image_data:
-    fileName: umb-kcsp.svg
-    hash: t0ryl9tnPizOh2AiF4SDFgUE9vPXpbUhAoNHloxgNT0=
   item: null
   logo: umb-ag.svg
   name: UMB (KCSP)
-  twitter_data:
-    latest_tweet_date: 2022-08-03 05:38:04+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/uniserver
-  crunchbase_data:
-    acquisitions: []
-    city: Alkmaar
-    company_type: For Profit
-    country: The Netherlands
-    description: Uniserver specializes in providing hosted server capacity with the
-      highest availability guarantees.
-    homepage: http://www.uniserver.nl
-    industries:
-    - Information Technology
-    - Software
-    linkedin: https://www.linkedin.com/company/uniserver-internet-bv/
-    name: Uniserver
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Noord-Holland
-    stockExchange: null
-    twitter: https://twitter.com/uniserver
-  description: "Uniserver offers fully managed Kubernetes solutions to ISV\u2019s.\
-    \ We take care of everything that is required to make optimal use of the Kubernetes\
-    \ platform and provide 24/7 support, training, and consulting services."
-  homepage_url: https://denit.nl/en/containerization/kubernetes/
-  image_data:
-    fileName: uniserver-kcsp.svg
-    hash: EMRza+F/WOjeVG2Y2v8e/HTte7rW5o4vcROqSgqOn2A=
-  item: null
-  logo: uniserver.svg
-  name: Uniserver (KCSP)
-  twitter_data:
-    latest_tweet_date: 2022-07-27 13:30:28+00:00

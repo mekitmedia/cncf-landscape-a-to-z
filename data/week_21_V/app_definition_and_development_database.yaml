@@ -1,67 +1,43 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/micro-focus
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Intersolv, Inc.
-      date: '1998-09-25'
-    - acquiree: HAL Knowledge Solutions
-      date: '2006-11-06'
-      price: 3500000
-    - acquiree: NetManage
-      date: '2008-05-05'
-      price: 73300000
-    - acquiree: Relativity Technologies
-      date: '2009-01-05'
-      price: 9700000
-    - acquiree: Borland
-      date: '2009-05-06'
-      price: 75000000
-    - acquiree: AccuRev
-      date: '2013-12-01'
-    - acquiree: Attachmate
-      date: '2014-09-15'
-      price: 2350000000
-    - acquiree: Authasas
-      date: '2015-07-22'
-    - acquiree: Serena Software
-      date: '2016-03-22'
-      price: 540000000
-    - acquiree: Hewlett Packard Enterprise Software
-      date: '2016-09-08'
-      price: 8800000000
-    - acquiree: GWAVA
-      date: '2016-10-04'
-    - acquiree: COBOL-IT
-      date: '2017-12-19'
-    - acquiree: Covertix
-      date: '2018-09-01'
-    - acquiree: Interset
-      date: '2019-02-15'
-    - acquiree: ATAR Labs
-      date: '2020-07-13'
-      price: 15000000
-    city: London
-    company_type: For Profit
-    country: United Kingdom
-    description: Micro Focus is a software company with 40 years of experience in
-      delivering and supporting enterprise software solutions.
-    homepage: http://microfocus.com
-    industries:
-    - Enterprise Software
-    - Software
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/micro-focus
-    name: Micro Focus
-    num_employees_max: 5000
-    num_employees_min: 1001
-    parents: []
-    region: England
-    stockExchange: lse
-    ticker: MCRO.L
-    twitter: https://twitter.com/microfocus
-  description: The core analytical platform within the Micro Focus software portfolio,
+- additional_repos:
+  - repo_url: https://github.com/vdaas/vald-client-go
+  - repo_url: https://github.com/vdaas/vald-client-java
+  - repo_url: https://github.com/vdaas/vald-client-node
+  - repo_url: https://github.com/vdaas/vald-client-python
+  - repo_url: https://github.com/vdaas/vald-tensorflow-ingress-filter
+  - repo_url: https://github.com/vdaas/vald-onnx-ingress-filter
+  - repo_url: https://github.com/vdaas/vald-demo
+  crunchbase: https://www.crunchbase.com/organization/ly-corporation
+  description: Vald is a highly scalable, cloud-native distributed vector search engine
+    optimized for machine learning and AI applications. It offers efficient, near
+    real-time search for high-dimensional vector data, ensuring robust performance
+    and flexibility in handling large datasets. Engineered for ease of use and integration,
+    Vald empowers developers with cutting-edge search capabilities.
+  extra:
+    blog_jp_url: https://zenn.dev/vald
+    blog_url: https://vdaas-vald.medium.com/
+    docker_url: https://hub.docker.com/u/vdaas
+    helm_chart_url: https://artifacthub.io/packages/chart/vald/vald
+    operator_chart_url: https://artifacthub.io/packages/chart/vald/vald-helm-operator
+    slack_url: https://join.slack.com/t/vald-community/shared_invite/zt-db2ky9o4-R_9p2sVp8xRwztVa8gfnPA
+  homepage_url: https://vald.vdaas.org/
+  item: null
+  logo: vald.svg
+  name: Vald
+  repo_url: https://github.com/vdaas/vald
+  twitter: https://twitter.com/vdaas_vald
+- crunchbase: https://www.crunchbase.com/organization/linux-foundation
+  description: A flexible distributed key-value datastore that is optimized for caching
+    and other realtime workloads.
+  homepage_url: https://valkey.io/
+  item: null
+  logo: ./valkey.svg
+  name: Valkey
+  repo_url: https://github.com/valkey-io/valkey
+  second_path:
+  - CNAI / Data Architecture
+  unnamed_organization: true
+- crunchbase: https://www.crunchbase.com/organization/opentext
+  description: The core analytical platform within the OpenText software portfolio,
     Vertica is the Unified Analytics Platform, based on a massively scalable architecture
     with the broadest set of analytical capabilities and end-to-end in-database machine
     learning.
@@ -69,226 +45,62 @@
     docker_url: https://hub.docker.com/r/vertica/vertica-ce
     kubernetes_url: https://github.com/vertica/vertica-kubernetes
   homepage_url: https://www.vertica.com/
-  image_data:
-    fileName: vertica.svg
-    hash: 2znxTt1oB1mbC1FetF7LNng+QAJ8bHn3RfqZcrKlVfk=
   item: null
-  logo: vertica_pos_blk_rgb.svg
+  logo: Vertica-OT.svg
   name: Vertica
   twitter: https://twitter.com/VerticaUnified
-  twitter_data:
-    latest_tweet_date: 2022-08-05 13:18:30+00:00
-  yahoo_finance_data:
-    effective_ticker: MCRO.L
-    market_cap: 1191699106
-- best_practice_data:
-    badge: 1724
-    percentage: 100
+- additional_repos:
+  - repo_url: https://github.com/vitessio/website
+  - repo_url: https://github.com/vitessio/arewefastyet
+  - repo_url: https://github.com/vitessio/enhancements
   crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Kubernetes
-      date: '2016-03-10'
-    - acquiree: RethinkDB
-      date: '2017-02-06'
-      price: 25000
-    city: San Francisco
-    company_type: Non Profit
-    country: United States
-    description: CNCF is an open source software foundation that hosts and nurtures
-      projects like Kubernetes and Prometheus.
-    funding: 3000000
-    homepage: https://www.cncf.io
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Non Profit
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
-    name: Cloud Native Computing Foundation (CNCF)
-    num_employees_max: 50
-    num_employees_min: 11
-    parents:
-    - https://www.crunchbase.com/organization/linux-foundation
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/CloudNativeFdn
+  description: MySQL-compatible, horizontally scalable, cloud-native database solution.
   extra:
     accepted: '2018-02-05'
-    artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#vitess-logos
-    blog_url: http://blog.vitess.io/
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/graduated.md#vitess-logos
+    audits:
+    - date: '2019-02-01'
+      type: security
+      url: https://vitess.io/files/VIT-01-report.pdf
+      vendor: Cure53
+    - date: '2021-05-19'
+      type: fuzzing
+      url: https://github.com/vitessio/vitess/blob/master/doc/VIT-02-report-fuzzing-audit.pdf
+      vendor: AdaLogics
+    - date: '2023-06-05'
+      type: security
+      url: https://github.com/vitessio/vitess/blob/main/doc/VIT-03-report-security-audit.pdf
+      vendor: Ada Logics
+    blog_url: https://vitess.io/blog/
+    clomonitor_name: vitess
     dev_stats_url: https://vitess.devstats.cncf.io/
-    mailing_list_url: https://groups.google.com/forum/#!forum/vitess
+    graduated: '2019-11-05'
+    incubating: '2018-02-05'
+    mailing_list_url: https://lists.cncf.io/g/cncf-vitess-users
     stack_overflow_url: https://stackoverflow.com/questions/tagged/vitess
-  github_data:
-    contributions: 64;106;160;114;141;164;197;133;100;92;202;132;118;185;205;117;100;162;159;36;66;83;127;131;176;169;124;171;178;99;83;25;49;43;54;36;21;24;38;68;34;21;37;48;18;20;24;22;18;40;84;40
-    contributors_count: 375
-    contributors_link: https://github.com/vitessio/vitess/graphs/contributors
-    description: Vitess is a database clustering system for horizontal scaling of
-      MySQL.
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 31704945
-    - color: '#b07219'
-      name: Java
-      value: 990163
-    - color: '#2b7489'
-      name: TypeScript
-      value: 637881
-    - color: '#f1e05a'
-      name: JavaScript
-      value: 302383
-    - color: '#89e051'
-      name: Shell
-      value: 177545
-    - color: '#4B6C4B'
-      name: Yacc
-      value: 159916
-    - color: '#0064bd'
-      name: Jsonnet
-      value: 121075
-    - name: SCSS
-      value: 41351
-    - color: '#563d7c'
-      name: CSS
-      value: 36085
-    - color: '#384d54'
-      name: Dockerfile
-      value: 28648
-    - name: Smarty
-      value: 27536
-    - color: '#e34c26'
-      name: HTML
-      value: 25753
-    - color: '#427819'
-      name: Makefile
-      value: 24494
-    - color: '#0298c3'
-      name: Perl
-      value: 3161
-    - color: '#3572A5'
-      name: Python
-      value: 1955
-    - name: HCL
-      value: 959
-    - color: '#6E4C13'
-      name: Assembly
-      value: 198
-    latest_commit_date: '2022-08-06T00:15:08Z'
-    latest_commit_link: /vitessio/vitess/commit/c4abc4bde0aa260d5e6a23b1a88ca0a2c7e41a14
-    license: Apache License 2.0
-    release_date: '2022-07-27T15:12:23Z'
-    release_link: https://github.com/vitessio/vitess/releases
-    stars: 14460
-  github_start_commit_data:
-    start_commit_link: /vitessio/vitess/commit/8d483dc19ef660938bae3564af95d48a8017275f
-    start_date: '2012-02-25T07:19:43Z'
+    summary_business_use_case: Scalability, Reliability, reduce human cost of running
+      databases.
+    summary_integration: 'Kubernetes Operator, Debezium
+
+      '
+    summary_intro_url: https://www.youtube.com/watch?v=Sny8rITrdvE
+    summary_personas: Infrastructure teams
+    summary_release_rate: Every 4 months
+    summary_tags: Scalable, reliable, MySQL, distributed, cloud-native, kubernetes,
+      cloud, database
+    summary_use_case: Scaling out existing MySQL deployments, or building out internal
+      database solutions for application teams to build products on.
   homepage_url: https://vitess.io/
-  image_data:
-    fileName: vitess.svg
-    hash: /rYtR/SZOCH/4SeToNgIIXEr9ZqGnc+8fjDFs6a9yKM=
   item: null
   logo: vitess.svg
   name: Vitess
   project: graduated
   repo_url: https://github.com/vitessio/vitess
-  repos:
-  - stars: 14460
-    url: https://github.com/vitessio/vitess
   twitter: https://twitter.com/vitessio
-  twitter_data:
-    latest_tweet_date: 2022-07-27 18:58:08+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/voltdb
-  crunchbase_data:
-    acquisitions: []
-    city: Bedford
-    company_type: For Profit
-    country: United States
-    description: VoltDB is an in-memory SQL database combining streaming analytics
-      with transaction processing in a single, horizontal scale-out platform.
-    funding: 41645834
-    homepage: http://voltdb.com
-    industries:
-    - Analytics
-    - Big Data
-    - Enterprise Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/voltdb
-    name: VoltDB
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: Massachusetts
-    stockExchange: null
-    twitter: http://twitter.com/voltdb
+- crunchbase: https://www.crunchbase.com/organization/voltdb
   description: VoltDB is a high-velocity decisioning engine, powering real-time applications
     that must react in milliseconds.
-  github_data:
-    contributions: 13;11;11;7;7;8;8;11;21;13;11;27;9;8;9;3;6;6;17;6;4;7;5;5;2;9;8;10;6;6;7;12;12;6;5;6;11;9;12;16;18;18;29;14;4;0;0;0;0;0;0;0
-    contributors_count: 208
-    contributors_link: https://github.com/voltdb/voltdb/graphs/contributors
-    description: VoltDB
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#b07219'
-      name: Java
-      value: 38267453
-    - color: '#f34b7d'
-      name: C++
-      value: 9562565
-    - color: '#f1e05a'
-      name: JavaScript
-      value: 2466655
-    - color: '#3572A5'
-      name: Python
-      value: 1665703
-    - color: '#e69f56'
-      name: Groovy
-      value: 1033339
-    - color: '#89e051'
-      name: Shell
-      value: 481233
-    - color: '#e34c26'
-      name: HTML
-      value: 247872
-    - color: '#563d7c'
-      name: CSS
-      value: 154971
-    - name: CMake
-      value: 64167
-    - color: '#555555'
-      name: C
-      value: 19559
-    - color: '#384d54'
-      name: Dockerfile
-      value: 6255
-    - color: '#EB8CEB'
-      name: XSLT
-      value: 1005
-    latest_commit_date: '2022-06-14T15:30:30Z'
-    latest_commit_link: /VoltDB/voltdb/commit/29db44451f1423b941fa0ca027c8cec0b9d5b13a
-    license: GNU Affero General Public License v3.0
-    stars: 1908
-  github_start_commit_data:
-    start_commit_link: /VoltDB/voltdb/commit/1a2a6540498ae2f4bcd8eeccdd281afd1166ce82
-    start_date: '2010-02-15T23:41:35Z'
   homepage_url: https://www.voltactivedata.com
-  image_data:
-    fileName: volt-db.svg
-    hash: TIYP1GKmVB/nRMiE8rSpFndl1gnW6faXCStT2CVQrgU=
   item: null
   logo: voltdb.svg
   name: VoltDB
-  repo_url: https://github.com/voltdb/voltdb
-  repos:
-  - stars: 1908
-    url: https://github.com/voltdb/voltdb
-  twitter_data:
-    latest_tweet_date: 2022-02-18 17:57:49+00:00

@@ -1,75 +1,12 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/fatmap
-  crunchbase_data:
-    acquisitions: []
-    city: Berlin
-    company_type: For Profit
-    country: Germany
-    description: FATMAP is an outdoor adventure platform for web & mobile.
-    funding: 9068369
-    homepage: https://www.fatmap.com/
-    industries:
-    - 3D Technology
-    - Adventure Travel
-    - Mapping Services
-    - Outdoors
-    - Software
-    - Sports
-    kind: funding
-    linkedin: https://www.linkedin.com/company/10017145
-    name: FATMAP
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Berlin
-    stockExchange: null
-    twitter: https://twitter.com/fatmap
-  homepage_url: https://about.fatmap.com/
-  image_data:
-    fileName: fatmap-supporter.svg
-    hash: AL7v4cAffx0VlCAwLvulXRbytC8iSN+fNNz55bPlIaU=
+- crunchbase: https://www.crunchbase.com/organization/fiserv
+  homepage_url: https://www.fiserv.com/
   item: null
-  joined: '2022-01-14'
-  logo: fatmap.svg
-  name: FATMAP (supporter)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 14:30:00+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/form3-financial-cloud
-  crunchbase_data:
-    acquisitions: []
-    city: London
-    company_type: For Profit
-    country: United Kingdom
-    description: Form3 is a cloud native payments-as-a-service platform that designs,
-      builds, and runs the technology that powers the future of payments.
-    funding: 217352002
-    homepage: https://form3.tech
-    industries:
-    - Banking
-    - FinTech
-    - Financial Services
-    - Mobile Payments
-    - Payments
-    kind: funding
-    linkedin: https://www.linkedin.com/company/form3-financial-cloud
-    name: Form3
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: England
-    stockExchange: null
-    twitter: https://twitter.com/f3fincloud
+  joined: '2022-09-01'
+  logo: fiserv.svg
+  name: Fiserv (supporter)
+- crunchbase: https://www.crunchbase.com/organization/form3-financial-cloud
   homepage_url: https://form3.tech/
-  image_data:
-    fileName: form3-supporter.svg
-    hash: FxwSvKqNK9P3zFT9AEL2bGa/FTRlzGQkJHJ5VxrOTxY=
   item: null
+  joined: '2018-08-01'
   logo: form3-supporter.svg
   name: Form3 (supporter)
-  twitter_data:
-    latest_tweet_date: 2022-03-23 09:21:10+00:00

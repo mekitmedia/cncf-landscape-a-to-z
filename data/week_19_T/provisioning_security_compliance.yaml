@@ -1,575 +1,132 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/tensorsecurity
-  crunchbase_data:
-    acquisitions: []
-    city: Beijing
-    company_type: ''
-    country: China
-    description: Tensor Security is a cloud-native security company focused on providing
-      AI-based and full-stack cloud-native security solutions.
-    funding: 0
-    homepage: https://www.tensorsecurity.cn/
-    industries:
-    - Software
-    linkedin: null
-    name: Tensor Security
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: Beijing
-    stockExchange: null
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/gravitational
+  homepage_url: https://goteleport.com
+  item: null
+  logo: teleport.svg
+  name: Teleport
+  repo_url: https://github.com/gravitational/teleport
+- crunchbase: https://www.crunchbase.com/organization/tensorsecurity
   description: Tensor Security is a cloud-native security company focused on providing
     AI-based and full-stack cloud-native security solutions.
   homepage_url: https://www.tensorsecurity.cn
-  image_data:
-    fileName: tensor-security.svg
-    hash: hQ2J/Mzylr9twUYdsDxVt5LAK8UIBDxsp5Wbmwpj1Ak=
   item: null
   logo: tensor.svg
   name: Tensor Security
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/tenable-network-security
-  crunchbase_data:
-    acquisitions:
-    - acquiree: FlawCheck
-      date: '2016-10-26'
-    - acquiree: Indegy
-      date: '2019-12-02'
-    - acquiree: Alsid
-      date: '2021-02-10'
-      price: 98000000
-    - acquiree: Accurics
-      date: '2021-09-13'
-      price: 160000000
-    - acquiree: Cymptom
-      date: '2022-02-01'
-    - acquiree: Bit Discovery
-      date: '2022-04-26'
-      price: 44500000
-    city: Columbia
-    company_type: For Profit
-    country: United States
-    description: Tenable helps organizations to understand and reduce their cybersecurity
-      risk across the full range of modern computing assets.
-    funding: 565438430
-    homepage: http://www.tenable.com
-    industries:
-    - Compliance
-    - Network Security
-    - Risk Management
-    - Security
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/tenableinc/
-    name: Tenable
-    num_employees_max: 1000
-    num_employees_min: 501
-    parents: []
-    region: Maryland
-    stockExchange: nasdaq
-    ticker: TENB
-    twitter: http://twitter.com/TenableSecurity
-  github_data:
-    contributions: 6;11;8;1;0;3;1;0;8;3;6;3;1;0;0;0;0;5;0;1;0;3;1;0;4;7;13;4;4;3;3;0;8;11;1;0;3;0;5;8;3;0;0;1;2;0;0;1;0;0;2;0
-    contributors_count: 74
-    contributors_link: https://github.com/tenable/terrascan/graphs/contributors
-    description: Detect compliance and security violations across Infrastructure as
-      Code to mitigate risk before provisioning cloud native infrastructure.
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 1541568
-    - name: Open Policy Agent
-      value: 261661
-    - color: '#f1e05a'
-      name: JavaScript
-      value: 175905
-    - color: '#89e051'
-      name: Shell
-      value: 36446
-    - name: HCL
-      value: 18709
-    - color: '#384d54'
-      name: Dockerfile
-      value: 4923
-    - name: Smarty
-      value: 4633
-    - color: '#427819'
-      name: Makefile
-      value: 3441
-    - color: '#563d7c'
-      name: CSS
-      value: 2923
-    - color: '#e34c26'
-      name: HTML
-      value: 2883
-    latest_commit_date: '2022-07-27T02:32:47Z'
-    latest_commit_link: /tenable/terrascan/commit/8ae13452f91b9040038166c1b10e0f4191966ddd
-    license: Apache License 2.0
-    release_date: '2022-06-13T14:42:21Z'
-    release_link: https://github.com/tenable/terrascan/releases
-    stars: 3218
-  github_start_commit_data:
-    start_commit_link: /accurics/terrascan/commit/ac117585acc568247d5d111b825d200a81e9c974
-    start_date: '2017-09-11T03:06:21Z'
+- crunchbase: https://www.crunchbase.com/organization/tenable-network-security
   homepage_url: https://www.tenable.com/products/tenable-cs
-  image_data:
-    fileName: terrascan.svg
-    hash: N8dzY6ISGMBXc37x/4y3lwm6qYHzUtZukusEucW2xUQ=
   item: null
   logo: terrascan.svg
   name: Terrascan
   repo_url: https://github.com/tenable/terrascan
-  repos:
-  - stars: 3218
-    url: https://github.com/tenable/terrascan
-  twitter_data:
-    latest_tweet_date: 2022-08-05 12:38:51+00:00
-  yahoo_finance_data:
-    effective_ticker: TENB
-    market_cap: 4826198528
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Kubernetes
-      date: '2016-03-10'
-    - acquiree: RethinkDB
-      date: '2017-02-06'
-      price: 25000
-    city: San Francisco
-    company_type: Non Profit
-    country: United States
-    description: CNCF is an open source software foundation that hosts and nurtures
-      projects like Kubernetes and Prometheus.
-    funding: 3000000
-    homepage: https://www.cncf.io
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Non Profit
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
-    name: Cloud Native Computing Foundation (CNCF)
-    num_employees_max: 50
-    num_employees_min: 11
-    parents:
-    - https://www.crunchbase.com/organization/linux-foundation
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/CloudNativeFdn
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   extra:
     accepted: '2021-10-13'
     dev_stats_url: https://cilium.devstats.cncf.io/
+    linkedin_url: https://www.linkedin.com/company/cilium/
+    parent_project: Cilium
     slack_url: https://cilium.herokuapp.com/
-  github_data:
-    contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;3;2;0;21;8;32;64;57;47;37;20;27;6;34;20;20;14
-    contributors_count: 37
-    contributors_link: https://github.com/cilium/tetragon/graphs/contributors
-    description: eBPF-based Security Observability and Runtime Enforcement
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#555555'
-      name: C
-      value: 1971778
-    - color: '#00ADD8'
-      name: Go
-      value: 1003203
-    - color: '#427819'
-      name: Makefile
-      value: 14235
-    - color: '#89e051'
-      name: Shell
-      value: 6235
-    - name: Smarty
-      value: 5219
-    - color: '#384d54'
-      name: Dockerfile
-      value: 5072
-    latest_commit_date: '2022-08-05T12:43:08Z'
-    latest_commit_link: /cilium/tetragon/commit/ecaf6eadcbce9620a27ee2202f30ede239f6d0ff
-    license: Apache License 2.0
-    release_date: '2022-05-13T17:59:53Z'
-    release_link: https://github.com/cilium/tetragon/releases
-    stars: 1677
-  github_start_commit_data:
-    start_commit_link: /cilium/tetragon/commit/ec2df9bff86bb61b4d099d60f50634f1ee7f69a5
-    start_date: '2022-03-24T17:23:16Z'
   homepage_url: https://github.com/cilium/tetragon
-  image_data:
-    fileName: tetragon.svg
-    hash: /YhzaN2G3nk543PY9XG0BVvSmyucDSGL91kJu+mILSA=
   item: null
   logo: tetragon-logo-wormark.svg
   name: Tetragon
   repo_url: https://github.com/cilium/tetragon
-  repos:
-  - stars: 1677
-    url: https://github.com/cilium/tetragon
   twitter: https://twitter.com/ciliumproject
-  twitter_data:
-    latest_tweet_date: 2022-08-05 12:59:54+00:00
-- best_practice_data:
-    badge: 1351
-    percentage: 100
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Kubernetes
-      date: '2016-03-10'
-    - acquiree: RethinkDB
-      date: '2017-02-06'
-      price: 25000
-    city: San Francisco
-    company_type: Non Profit
-    country: United States
-    description: CNCF is an open source software foundation that hosts and nurtures
-      projects like Kubernetes and Prometheus.
-    funding: 3000000
-    homepage: https://www.cncf.io
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Non Profit
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
-    name: Cloud Native Computing Foundation (CNCF)
-    num_employees_max: 50
-    num_employees_min: 11
-    parents:
-    - https://www.crunchbase.com/organization/linux-foundation
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/CloudNativeFdn
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   extra:
     accepted: '2017-10-24'
     artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#tuf-logos
+    audits:
+    - date: '2018-08-07'
+      type: security
+      url: https://cure53.de/pentest-report_tuf.pdf
+      vendor: Cure53
+    clomonitor_name: tuf
     dev_stats_url: https://tuf.devstats.cncf.io/
+    graduated: '2019-12-18'
+    incubating: '2017-10-24'
     mailing_list_url: https://groups.google.com/forum/?fromgroups#!forum/theupdateframework
     stack_overflow_url: https://stackoverflow.com/questions/tagged/the-update-framework
-  github_data:
-    contributions: 11;19;27;28;18;16;24;13;9;15;30;11;8;18;15;21;37;32;24;27;0;14;30;17;28;27;56;21;7;13;8;4;25;16;18;8;22;26;10;6;8;8;10;10;14;11;16;5;4;11;7;5
-    contributors_count: 83
-    contributors_link: https://github.com/theupdateframework/python-tuf/graphs/contributors
-    description: Python reference implementation of The Update Framework (TUF)
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#3572A5'
-      name: Python
-      value: 380622
-    latest_commit_date: '2022-08-03T10:25:50Z'
-    latest_commit_link: /theupdateframework/python-tuf/commit/4502406dd9ea7c85e02a4d6e1d248d65128bb892
-    license: Apache License 2.0
-    release_date: '2022-04-27T13:29:57Z'
-    release_link: https://github.com/theupdateframework/python-tuf/releases
-    stars: 1425
-  github_start_commit_data:
-    start_commit_link: /theupdateframework/tuf/commit/0fb43a5e36f40ae7fccd2128e5e0bbb401b3111a
-    start_date: '2013-01-31T18:54:15Z'
+    summary_business_use_case: Prevents many types of key and repository/registry
+      compromises from impacting your users. Provides a secure way to recover from
+      compromise. Twelve years of practical experience, about a dozen security audits,
+      a half-dozen or so peer reviewed papers, a half-dozen or so implementations
+      used in production, and millions of containers, etc. secured.
+    summary_integrations: Docker, Amazon, Microsoft, Google Fuschia, Harbor, Toradex,
+      Datadog, Sigstore, Automotive Grade Linux
+    summary_intro_url: https://theupdateframework.io/
+    summary_personas: Security teams, Repository administrators, Registry administrators
+    summary_release_rate: The specification is quite stable.  Major spec versions
+      update rarely, minor versions about annually, smaller releases (typo fixes /
+      clarifications) happen as needed.
+    summary_tags: Security, Go, Python, Rust, JavaScript, CLI
+    summary_use_case: TUF secures container registries, package repositories, etc.
+      so that the system resists successful attacks and can recover securely.  TUF
+      uses a combination of security mechanisms and tooling to provide a strong root
+      of trust used by other security projects as well, such as Sigstore.  It is easy
+      to integrate and simple to manage; try it for yourself
   homepage_url: https://theupdateframework.github.io/
-  image_data:
-    fileName: the-update-framework-tuf.svg
-    hash: Ps0caA1fziDPLOpDYy9uewKgPXvOVol24jdjuMPMjnc=
   item: null
   logo: the-update-framework-tuf.svg
   name: The Update Framework (TUF)
   project: graduated
   repo_url: https://github.com/theupdateframework/python-tuf
-  repos:
-  - stars: 1425
-    url: https://github.com/theupdateframework/python-tuf
-  twitter_data:
-    latest_tweet_date: 2022-08-05 21:09:37+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/deepfence
-  crunchbase_data:
-    acquisitions: []
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: Kubernetes, Serverless and Virtual Machines, Deepfence protects it
-      all. Pioneering industry's first Cloud Native DPI technology.
-    funding: 10500000
-    homepage: https://deepfence.io/
-    industries:
-    - Cloud Security
-    - Cyber Security
-    - Network Security
-    - Security
-    kind: funding
-    linkedin: https://www.linkedin.com/company/10487480/
-    name: Deepfence Inc
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/deepfence
-  github_data:
-    contributions: 0;0;0;0;0;0;0;0;0;18;28;27;17;15;8;17;50;16;46;47;23;22;25;26;16;16;37;93;79;67;65;17;19;24;39;41;23;11;15;14;13;25;25;8;20;17;12;7;13;13;16;8
-    contributors_count: 27
-    contributors_link: https://github.com/deepfence/ThreatMapper/graphs/contributors
-    description: "\U0001F525 \U0001F525   Open source cloud native security observability\
-      \ platform. Linux, K8s, AWS Fargate and more. \U0001F525 \U0001F525  "
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#f1e05a'
-      name: JavaScript
-      value: 1780155
-    - color: '#00ADD8'
-      name: Go
-      value: 1559929
-    - color: '#3572A5'
-      name: Python
-      value: 958343
-    - name: SCSS
-      value: 264237
-    - color: '#89e051'
-      name: Shell
-      value: 171278
-    - color: '#e34c26'
-      name: HTML
-      value: 135745
-    - color: '#000080'
-      name: Lua
-      value: 47927
-    - color: '#384d54'
-      name: Dockerfile
-      value: 26532
-    - name: HCL
-      value: 21706
-    - color: '#427819'
-      name: Makefile
-      value: 19646
-    - color: '#563d7c'
-      name: CSS
-      value: 10315
-    - name: Mustache
-      value: 4509
-    - name: Smarty
-      value: 3695
-    - color: '#555555'
-      name: C
-      value: 2224
-    - name: Starlark
-      value: 2146
-    - name: Mako
-      value: 494
-    latest_commit_date: '2022-08-06T00:24:11Z'
-    latest_commit_link: /deepfence/ThreatMapper/commit/8981e3c5506f818787d92205107c68546616d02b
-    license: Apache License 2.0
-    release_date: '2022-08-06T00:24:06Z'
-    release_link: https://github.com/deepfence/ThreatMapper/releases
-    stars: 1795
-  github_start_commit_data:
-    start_commit_link: /deepfence/ThreatMapper/commit/c13979bfac599076b57639df53c4ab90a9bb3558
-    start_date: '2021-10-13T11:29:54Z'
+- crunchbase: https://www.crunchbase.com/organization/deepfence
   homepage_url: https://deepfence.io/threatmapper/
-  image_data:
-    fileName: threat-mapper.svg
-    hash: 8u1am7lzDQkBoGg+IZ37nn5u9u+EJe9cqRFT9FEoyVA=
   item: null
   logo: threatmapper.svg
   name: ThreatMapper
   repo_url: https://github.com/deepfence/ThreatMapper
-  repos:
-  - stars: 1795
-    url: https://github.com/deepfence/ThreatMapper
-  twitter_data:
-    latest_tweet_date: 2022-07-29 21:07:00+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/tigera
-  crunchbase_data:
-    acquisitions: []
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: Active, zero-trust based security for cloud-native applications
-    funding: 53000000
-    homepage: https://www.tigera.io/
-    industries:
-    - Cloud Security
-    - Compliance
-    - Cyber Security
-    - Enterprise Software
-    - Network Security
-    - Open Source
-    - SaaS
-    - Security
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/tigera/
-    name: Tigera
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/tigeraio
+- crunchbase: https://www.crunchbase.com/organization/tigera
   homepage_url: https://www.tigera.io/
-  image_data:
-    fileName: tigera.svg
-    hash: lBBY4Zt9fJ0uTZyPAaP50X++zp1JRZR90M3gujz1WkA=
   item: null
   logo: tigera.svg
   name: Tigera
-  twitter_data:
-    latest_tweet_date: 2022-08-05 18:41:39+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/trend-micro
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Provilla
-      date: '2007-10-25'
-    - acquiree: Identum Ltd
-      date: '2008-02-27'
-    - acquiree: Third Brigade
-      date: '2009-04-29'
-    - acquiree: humyo
-      date: '2010-06-11'
-    - acquiree: Mobile Armor
-      date: '2010-11-29'
-    - acquiree: AffirmTrust
-      date: '2012-06-27'
-    - acquiree: Broadweb
-      date: '2013-10-10'
-    - acquiree: TippingPoint Technologies
-      date: '2015-10-21'
-      price: 300000000
-    - acquiree: IMMUNIO
-      date: '2017-11-27'
-    - acquiree: Cloud Conformity
-      date: '2019-10-21'
-      price: 70000000
-    city: Tokyo
-    company_type: For Profit
-    country: Japan
-    description: Trend Micro, a global technology leader, helps make the world safe
-      for exchanging digital information with its innovative security platform.
-    homepage: http://www.trendmicro.com
-    industries:
-    - Cloud Security
-    - Cyber Security
-    - Security
-    - Virtualization
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/trend-micro
-    name: Trend Micro
-    num_employees_max: 10000
-    num_employees_min: 5001
-    parents: []
-    region: Tokyo
-    stockExchange: tyo
-    ticker: 4704.T
-    twitter: http://twitter.com/trendmicro
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Tokenetes implements Transaction Tokens (TraTs) for microservices call
+    chains.  It's a Kubernetes-native framework providing immutable identity and context
+    in  service-to-service communication to prevent attacks like software supply chain  or
+    privileged user compromise.
+  extra:
+    accepted: '2025-01-21'
+    dev_stats_url: https://tokenetes.devstats.cncf.io/
+  homepage_url: https://tokenetes.io/
+  item: null
+  logo: tokenetes.svg
+  name: Tokenetes
+  project: sandbox
+  repo_url: https://github.com/tokenetes/tokenetes
+- crunchbase: https://www.crunchbase.com/organization/aserto-2995
+  description: Cloud-native authorization for modern applications and APIs, combining
+    the best of Open Policy Agent and Google Zanzibar
+  extra:
+    slack_url: https://www.aserto.com/slack
+  homepage_url: https://www.topaz.sh
+  item: null
+  logo: topaz.svg
+  name: Topaz
+  repo_url: https://github.com/aserto-dev/topaz
+- crunchbase: https://www.crunchbase.com/organization/aquasecurity
+  description: Tracee helps you understand your systems and applications behavior,
+    and apply runtime security to them. It uses Linux eBPF technology and strong security
+    techniques to instrument the system and expose relevant events for you to consume
+    and process.
+  homepage_url: https://aquasecurity.github.io/tracee/latest/
+  item: null
+  logo: tracee.svg
+  name: Tracee
+  repo_url: https://github.com/aquasecurity/tracee
+  twitter: https://x.com/aquatracee
+- crunchbase: https://www.crunchbase.com/organization/trend-micro
   homepage_url: https://www.trendmicro.com/en_us/business/campaigns/cloud-one-services.html
-  image_data:
-    fileName: trend-micro-cloud-one.svg
-    hash: 4gDq641/EUwwaq7XWWthiSREpyPXpSHiYpzzfFH9hwk=
   item: null
   logo: trend-micro.svg
   name: Trend Micro Cloud One
-  twitter_data:
-    latest_tweet_date: 2022-08-05 22:00:02+00:00
-  yahoo_finance_data:
-    effective_ticker: 4704.T
-    market_cap: 7978698593
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/aquasecurity
-  crunchbase_data:
-    acquisitions:
-    - acquiree: CloudSploit
-      date: '2019-11-12'
-    - acquiree: tfsec
-      date: '2021-07-12'
-    - acquiree: Argon Security
-      date: '2021-12-01'
-    city: Burlington
-    company_type: For Profit
-    country: United States
-    description: Aqua Security is a software company providing cloud-native security
-      technology.
-    funding: 265000000
-    homepage: https://www.aquasec.com
-    industries:
-    - Cloud Security
-    - Cyber Security
-    - Security
-    - Software
-    - Virtualization
-    kind: funding
-    linkedin: https://www.linkedin.com/company/aquasecteam/
-    name: Aqua Security
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: Massachusetts
-    stockExchange: null
-    twitter: http://www.twitter.com/AquaSecTeam
-  github_data:
-    contributions: 14;11;2;5;8;19;9;14;17;6;2;5;6;16;5;5;15;6;8;20;1;8;20;17;9;12;20;7;19;20;5;16;10;10;41;21;24;20;26;21;28;8;38;24;32;25;22;17;20;14;15;26
-    contributors_count: 224
-    contributors_link: https://github.com/aquasecurity/trivy/graphs/contributors
-    description: Scanner for vulnerabilities in container images, file systems, and
-      Git repositories, as well as for configuration issues and hard-coded secrets
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 1674102
-    - name: Smarty
-      value: 17651
-    - color: '#89e051'
-      name: Shell
-      value: 12218
-    - name: Open Policy Agent
-      value: 3939
-    - color: '#427819'
-      name: Makefile
-      value: 3475
-    - name: Mustache
-      value: 1759
-    - color: '#384d54'
-      name: Dockerfile
-      value: 143
-    latest_commit_date: '2022-08-04T11:15:33Z'
-    latest_commit_link: /aquasecurity/trivy/commit/e848e6d009af45cda073133c7c8d3220a082335c
-    license: Apache License 2.0
-    release_date: '2022-07-26T19:37:39Z'
-    release_link: https://github.com/aquasecurity/trivy/releases
-    stars: 13156
-  github_start_commit_data:
-    start_commit_link: /aquasecurity/trivy/commit/fc51f6998296ab1104962ab1fb098b1e8269b860
-    start_date: '2019-04-11T01:01:08Z'
-  homepage_url: https://github.com/aquasecurity/trivy
-  image_data:
-    fileName: trivy.svg
-    hash: lDzRyv6LoAT92cK8hRHcbw1OEoElEkBAdM+RXb1f1eg=
+- crunchbase: https://www.crunchbase.com/organization/aquasecurity
+  description: 'Trivy is an all-in-one security scanner that beings vulnerability,
+    SBOM, misconfigurations, leaked secrets, and license scanning together, across
+    container images, code repositories, Kubernetes clusters and more. '
+  homepage_url: https://trivy.dev
   item: null
   logo: trivy.svg
   name: Trivy
   repo_url: https://github.com/aquasecurity/trivy
-  repos:
-  - stars: 13156
-    url: https://github.com/aquasecurity/trivy
-  twitter_data:
-    latest_tweet_date: 2022-08-05 19:51:55+00:00
+  twitter: https://x.com/aquatrivy

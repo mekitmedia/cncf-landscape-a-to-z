@@ -1,83 +1,23 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/spot-io
-  crunchbase_data:
-    acquisitions:
-    - acquiree: StratCloud
-      date: '2019-04-18'
-      price: 5000000
-    - acquiree: Instaclustr
-      date: '2022-04-07'
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: Spot automates cloud infrastructure to ensure performance, reduce
-      complexity and optimize costs.
-    funding: 52600000
-    homepage: https://spot.io/
-    industries:
-    - Artificial Intelligence
-    - Big Data
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Machine Learning
-    - SaaS
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/spothq/
-    name: Spot.io
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://www.twitter.com/spot_by_netapp
+- crunchbase: https://www.crunchbase.com/organization/scaleops-9685
+  homepage_url: https://www.scaleops.com/
+  item: null
+  logo: scaleops.svg
+  name: ScaleOps
+- crunchbase: https://www.crunchbase.com/organization/sedai
+  description: Sedai is an autonomous cloud management platform to optimize cost &
+    performance and remediate issues for Kubernetes & Serverless
+  homepage_url: https://sedai.io/
+  item: null
+  logo: sedai.svg
+  name: Sedai
+  twitter: https://twitter.com/sedai_io
+- crunchbase: https://www.crunchbase.com/organization/spot-io
   homepage_url: https://spot.io/
-  image_data:
-    fileName: spot-io.svg
-    hash: ANLFqubidq/PuyIslMYsRE2RY4XZtQ7h5K0f/pXcIo0=
   item: null
   logo: spot.svg
   name: Spot.io
-  twitter_data:
-    latest_tweet_date: 2022-08-04 20:49:52+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/stormforge
-  crunchbase_data:
-    acquisitions:
-    - acquiree: StormForger
-      date: '2020-11-16'
-    city: Cambridge
-    company_type: For Profit
-    country: United States
-    description: StormForge brings together data scientists and software engineers
-      to enable businesses to drive breakthrough IT and operations efficiency.
-    funding: 68000000
-    homepage: https://www.stormforge.io/
-    industries:
-    - Artificial Intelligence
-    - Developer Tools
-    - Information Technology
-    - Machine Learning
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/stormforge/
-    name: StormForge
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Massachusetts
-    stockExchange: null
-    twitter: https://twitter.com/stormforgeio
+- crunchbase: https://www.crunchbase.com/organization/stormforge
   homepage_url: https://stormforge.io/
-  image_data:
-    fileName: storm-forge.svg
-    hash: FJVy0j0EEiONFtFSc5H4fTB4aJ6rVz3OQE+ROasV7sQ=
   item: null
   logo: stormforge.svg
   name: StormForge
-  twitter_data:
-    latest_tweet_date: 2022-08-05 16:02:50+00:00

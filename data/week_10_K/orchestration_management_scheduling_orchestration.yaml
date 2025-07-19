@@ -1,274 +1,297 @@
-- best_practice_data:
-    badge: 5301
-    percentage: 100
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Kubernetes
-      date: '2016-03-10'
-    - acquiree: RethinkDB
-      date: '2017-02-06'
-      price: 25000
-    city: San Francisco
-    company_type: Non Profit
-    country: United States
-    description: CNCF is an open source software foundation that hosts and nurtures
-      projects like Kubernetes and Prometheus.
-    funding: 3000000
-    homepage: https://www.cncf.io
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Non Profit
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
-    name: Cloud Native Computing Foundation (CNCF)
-    num_employees_max: 50
-    num_employees_min: 11
-    parents:
-    - https://www.crunchbase.com/organization/linux-foundation
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/CloudNativeFdn
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   extra:
     accepted: '2021-09-14'
+    annual_review_date: '2022-10-29'
+    annual_review_url: https://github.com/cncf/toc/pull/954
     artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#karmada-logos
-    chat_channel: '#general'
+    chat_channel: '#karmada'
+    clomonitor_name: karmada
     dev_stats_url: https://karmada.devstats.cncf.io/
+    incubating: '2023-12-12'
     mailing_list_url: https://groups.google.com/forum/#!forum/karmada
-    slack_url: https://karmada-io.slack.com/
-  github_data:
-    contributions: 31;24;39;29;30;24;28;36;13;34;48;33;42;39;61;73;29;20;41;67;54;20;35;49;36;9;24;15;41;42;44;51;51;36;20;29;28;55;23;53;66;40;61;37;39;53;51;52;42;37;37;44
-    contributors_count: 143
-    contributors_link: https://github.com/karmada-io/karmada/graphs/contributors
-    description: Open, Multi-Cloud, Multi-Cluster Kubernetes Orchestration
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 2182113
-    - color: '#89e051'
-      name: Shell
-      value: 115678
-    - name: Mustache
-      value: 10997
-    - name: Smarty
-      value: 8539
-    - color: '#427819'
-      name: Makefile
-      value: 4305
-    - color: '#384d54'
-      name: Dockerfile
-      value: 241
-    latest_commit_date: '2022-08-06T03:23:07Z'
-    latest_commit_link: /karmada-io/karmada/commit/fcc994adc0f60b2891d3257861ca97f631e1d81d
-    license: Apache License 2.0
-    release_date: '2022-07-14T09:33:11Z'
-    release_link: https://github.com/karmada-io/karmada/releases
-    stars: 2418
-  github_start_commit_data:
-    start_commit_link: /karmada-io/karmada/commit/315c876b6c430908062c84833d3941891044e01b
-    start_date: '2020-11-10T11:35:56Z'
+    slack_url: https://cloud-native.slack.com/messages/karmada
+    summary_business_use_case: Managing workloads across diverse enterprise environments
+      is complex. Karmada, a multi-cluster orchestration system, provides a unified  control
+      plane for Kubernetes clusters. It enables seamless workload deployment, scaling,
+      and management across on-premises and multi-cloud  setups, addressing operational
+      challenges, reducing vendor lock-in, and enhancing disaster recovery and infrastructure
+      efficiency.
+    summary_integrations: Grafana, Prometheus, Argo, Flux, Istio, Filebeat, Submariner,
+      Velero, etc.
+    summary_personas: Cloud Architects, Platform Engineers, DevOps Engineer, DevOps
+      practitioners, DevSecOps practitioners
+    summary_release_rate: Every 3 months
+    summary_tags: multi-cloud, hybrid cloud
+    summary_use_case: Karmada (Kubernetes Armada) is a Kubernetes management system
+      that enables you to run your cloud-native applications across multiple Kubernetes
+      clusters and clouds, with no changes to your applications. By speaking Kubernetes-native
+      APIs and providing advanced scheduling  capabilities, Karmada enables truly
+      open, multi-cloud Kubernetes. Karmada aims to provide turnkey automation for
+      multi-cluster application management in multi-cloud and hybrid cloud scenarios,
+      with key  features such as centralized multi-cloud management, high availability,
+      failure recovery, and traffic scheduling.
   homepage_url: https://karmada.io/
-  image_data:
-    fileName: karmada.svg
-    hash: 98w2O0Jp3FhuAlCPlIDAYBBaPXROZIG/vMQca8rJe8E=
   item: null
   logo: karmada.svg
   name: Karmada
-  project: sandbox
+  project: incubating
   repo_url: https://github.com/karmada-io/karmada
-  repos:
-  - stars: 2418
-    url: https://github.com/karmada-io/karmada
-  twitter: null
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Duanqu
-      date: '2017-05-01'
-    - acquiree: Chaitin Tech
-      date: '2019-10-11'
-    - acquiree: IDsManager
-      date: '2019-10-31'
-    city: Hangzhou
-    company_type: For Profit
-    country: China
-    description: Alibaba Cloud develops highly scalable cloud computing and data management
-      services.
-    funding: 1200000000
-    homepage: https://in.alibabacloud.com
-    industries:
-    - Cloud Data Services
-    - Cloud Management
-    - Data Center
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/alibaba-cloud-computing-company
-    name: Alibaba Cloud
-    num_employees_max: 5000
-    num_employees_min: 1001
-    parents:
-    - https://www.crunchbase.com/organization/alibaba
-    region: Zhejiang
-    stockExchange: null
-    ticker: 9988.HK
-    twitter: https://twitter.com/alibaba_cloud
+  twitter: https://x.com/karmada_io
+- allow_duplicate_repo: true
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2020-03-12'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#keda-logos
+    audits:
+    - date: '2023-02-02'
+      type: security
+      url: https://github.com/trailofbits/publications/blob/master/reviews/2023-01-keda-securityreview.pdf
+      vendor: Trail of Bits
+    blog_url: https://keda.sh/blog
+    clomonitor_name: keda
+    dev_stats_url: https://keda.devstats.cncf.io/
+    graduated: '2023-08-22'
+    incubating: '2021-08-18'
+    slack_url: https://kubernetes.slack.com/archives/CKZJ36A5D
+    summary_release_rate: Every 3 months
+    youtube_url: https://www.youtube.com/playlist?list=PLvjRi5R9GQfASIcL4MLTfg2ZOoBdIi5Kq
+  homepage_url: https://keda.sh/
+  item: null
+  logo: keda.svg
+  name: KEDA
+  project: graduated
+  repo_url: https://github.com/kedacore/keda
+  second_path:
+  - Serverless / Installable Platform
+  twitter: https://twitter.com/kedaorg
+- crunchbase: https://www.crunchbase.com/organization/kestra
+  description: Scalable, event-driven, language-agnostic orchestration and scheduling
+    platform to manage millions of workflows declaratively in code.
+  extra:
+    blog_url: https://kestra.io/blogs
+    slack_url: https://kestra.io/slack
+    youtube_url: https://www.youtube.com/@kestra-io
+  homepage_url: https://kestra.io/
+  item: null
+  logo: kestra.svg
+  name: Kestra
+  repo_url: https://github.com/kestra-io/kestra
+  twitter: https://twitter.com/@kestra-io
+- allow_duplicate_repo: true
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: "Knative is a developer-focused serverless application layer which\
+    \ is a great complement to the existing Kubernetes application constructs. Knative\
+    \ consists of three components: an HTTP-triggered autoscaling container runtime\
+    \ called \u201CKnative Serving\u201D, a CloudEvents-over-HTTP asynchronous routing\
+    \ layer called \u201CKnative Eventing\u201D, and a developer-focused function\
+    \ framework which leverages the Serving and Eventing components, called \"Knative\
+    \ Functions\"."
+  extra:
+    accepted: '2022-03-02'
+    artwork_url: https://github.com/knative/docs/tree/main/docs/images/logo
+    audits:
+    - date: '2023-07-13'
+      type: fuzzing
+      url: https://github.com/knative/docs/tree/main/reports/ADA-knative-fuzzing-audit-22-23.pdf
+      vendor: Ada Logics
+    - date: '2023-11-27'
+      type: security
+      url: https://github.com/knative/docs/blob/main/reports/ADA-knative-security-audit-2023.pdf
+      vendor: Ada Logics
+    clomonitor_name: knative
+    dev_stats_url: https://knative.devstats.cncf.io/
+    incubating: '2022-03-02'
+    mailing_list_url: https://groups.google.com/d/forum/knative-users
+    slack_url: https://slack.cncf.io
+    stack_overflow_url: https://stackoverflow.com/questions/tagged/knative
+    summary_business_use_case: "The power of Knative\u2019s eventing and serverless\
+      \ features allows companies to bridge processes between external eventing systems\
+      \ with services and functions in Kubernetes."
+    summary_integrations: Apache Kafka, RabbitMQ, Redis, CNCF Buildpacks, Docker,
+      Podman
+    summary_intro_url: https://knative.dev/docs/getting-started/
+    summary_languages: Go, Java, Node.js, Python, Rust
+    summary_personas: Cloud Architects, Cloud Developers, Platform Engineers, DevOps
+      Engineers, DevOps Practitioners
+    summary_release_rate: Quarterly major releases
+    summary_tags: Serverless, CloudEvents, Functions, Scaling, Applications
+    summary_use_case: Knative is system that helps teams develop, build, manage, and
+      maintain processes in Kubernetes. Its purpose is to simplify, automate, and
+      monitor deployments of Kubernetes so teams spend less time on maintenance and
+      more time on app development and projects. Knative takes over repetitive and
+      time-intensive tasks while removing obstacles and delays.
+    youtube_url: https://www.youtube.com/c/KnativeProject
+  homepage_url: https://knative.dev
+  item: null
+  logo: knative.svg
+  name: Knative
+  project: incubating
+  repo_url: https://github.com/knative/serving
+  second_path:
+  - Serverless / Installable Platform
+  - Wasm / Embedded Functions
+  twitter: https://twitter.com/KnativeProject
+- crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
   description: QoS based scheduling system for hybrid orchestration workloads on Kubernetes,
     bringing workloads the best layout and status.
-  github_data:
-    contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;7;25;8;5;9;12;5;8;10;19;11;8;15;33;16;6;15;16;10;21
-    contributors_count: 26
-    contributors_link: https://github.com/koordinator-sh/koordinator/graphs/contributors
-    description: QoS based scheduling system for hybrid orchestration workloads on
-      Kubernetes, bringing workloads the best layout and status.
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 2587071
-    - color: '#89e051'
-      name: Shell
-      value: 19944
-    - color: '#427819'
-      name: Makefile
-      value: 8813
-    - color: '#384d54'
-      name: Dockerfile
-      value: 2184
-    latest_commit_date: '2022-08-05T09:46:15Z'
-    latest_commit_link: /koordinator-sh/koordinator/commit/9626a21eba134e3b030abca11b48439a316de4ec
-    license: Apache License 2.0
-    release_date: '2022-08-05T10:11:59Z'
-    release_link: https://github.com/koordinator-sh/koordinator/releases
-    stars: 487
-  github_start_commit_data:
-    start_commit_link: /koordinator-sh/koordinator/commit/fa4f709dc1fa90b287e4c7c863d3bb60a350722a
-    start_date: '2022-03-16T07:14:49Z'
+  extra:
+    accepted: '2024-04-16'
+    clomonitor_name: koordinator
   homepage_url: https://koordinator.sh
-  image_data:
-    fileName: koordinator.svg
-    hash: 7DHEbiALKG0ZN/qNkTSawlvhUiRRgRaxIhzMR1l1j/4=
   item: null
   logo: Koordinator.svg
   name: Koordinator
+  project: sandbox
   repo_url: https://github.com/koordinator-sh/koordinator
-  repos:
-  - stars: 487
-    url: https://github.com/koordinator-sh/koordinator
-  twitter_data:
-    latest_tweet_date: 2022-08-05 10:00:00+00:00
-  yahoo_finance_data:
-    effective_ticker: 9988.HK
-    market_cap: 250716029031
+- crunchbase: https://www.crunchbase.com/organization/bytedance
+  description: KubeAdmiral is a multi-cluster scheduling and orchestration system
+    for Kubernetes.
+  homepage_url: https://github.com/kubewharf/kubeadmiral
+  item: null
+  logo: kubeadmiral.svg
+  name: KubeAdmiral
+  repo_url: https://github.com/kubewharf/kubeadmiral
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: The Kubeflow project is dedicated to making deployments of machine
+    learning workflows on Kubernetes simple, portable and scalable by providing a
+    straightforward way to deploy best-of-breed open-source systems for ML to diverse
+    infrastructures.
+  extra:
+    accepted: '2023-07-25'
+    ai: true
+    blog_url: https://blog.kubeflow.org
+    clomonitor_name: kubeflow
+    dev_stats_url: https://kubeflow.devstats.cncf.io/
+    incubating: '2023-07-25'
+    mailing_list_url: https://groups.google.com/g/kubeflow-discuss
+    slack_url: https://kubeflow.slack.com
+  homepage_url: https://kubeflow.org
+  item: null
+  logo: kubeflow.svg
+  name: Kubeflow
+  project: incubating
+  repo_url: https://github.com/kubeflow/kubeflow
+  twitter: https://twitter.com/kubeflow
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: A multi-cluster solution that enables users to effectively manage their
+    applications running in multiple Kubernetes clusters.
+  extra:
+    accepted: '2025-01-21'
+    summary_business_use_case: Streamlines resource management across multiple Kubernetes
+      clusters, enhancing operational efficiency and enabling  teams to effectively
+      manage Kubernetes native configurations at scale, with support for intelligent
+      scheduling and staged rollouts.
+    summary_personas: Platform Engineers, DevOps Engineers, Kubernetes Administrators
+    summary_tags: multi-cluster, kubernetes, orchestration, fleet management
+    summary_use_case: KubeFleet provides orchestration and coordination of applications
+      across a fleet of Kubernetes clusters, enabling  users to create resources on
+      a hub cluster and selectively propagate them to managed clusters based on various
+      criteria.
+  homepage_url: https://github.com/kubefleet-dev/kubefleet
+  item: null
+  logo: cncf.svg
+  name: KubeFleet
+  project: sandbox
+  repo_url: https://github.com/kubefleet-dev/kubefleet
 - allow_duplicate_repo: true
-  best_practice_data:
-    badge: 569
-    percentage: 100
   crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Kubernetes
-      date: '2016-03-10'
-    - acquiree: RethinkDB
-      date: '2017-02-06'
-      price: 25000
-    city: San Francisco
-    company_type: Non Profit
-    country: United States
-    description: CNCF is an open source software foundation that hosts and nurtures
-      projects like Kubernetes and Prometheus.
-    funding: 3000000
-    homepage: https://www.cncf.io
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Non Profit
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
-    name: Cloud Native Computing Foundation (CNCF)
-    num_employees_max: 50
-    num_employees_min: 11
-    parents:
-    - https://www.crunchbase.com/organization/linux-foundation
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/CloudNativeFdn
   description: Kubernetes is an open-source system for automating deployment, scaling,
     and management of containerized applications
   extra:
-    accepted: '2016-03-16'
+    accepted: '2016-03-10'
     artwork_url: https://github.com/cncf/artwork/blob/master/examples/graduated.md#kubernetes-logos
+    audits:
+    - date: '2019-08-06'
+      type: security
+      url: https://github.com/kubernetes/sig-security/tree/main/sig-security-external-audit/security-audit-2019/findings
+      vendor: Trail of Bits and Atredis Partners
+    - date: '2023-04-19'
+      type: security
+      url: https://github.com/kubernetes/sig-security/tree/main/sig-security-external-audit/security-audit-2021-2022/findings
+      vendor: NCC Group
     blog_url: http://blog.kubernetes.io/
+    clomonitor_name: kubernetes
     dev_stats_url: https://k8s.devstats.cncf.io/
+    graduated: '2018-03-06'
+    incubating: '2016-03-10'
     mailing_list_url: https://groups.google.com/forum/#!forum/kubernetes-dev
     slack_url: http://slack.k8s.io/
     stack_overflow_url: https://stackoverflow.com/questions/tagged/kubernetes
     youtube_url: https://www.youtube.com/channel/UCZ2bu0qutTOM0tHYa_jkIwg
-  github_data:
-    contributions: 158;126;143;108;131;168;122;136;151;132;118;185;190;216;204;80;52;160;123;72;14;170;150;115;113;90;138;149;104;147;116;155;228;252;93;67;45;44;222;160;98;114;96;95;129;98;98;89;143;139;197;151
-    contributors_count: 4424
-    contributors_link: https://github.com/kubernetes/kubernetes/graphs/contributors
-    description: Production-Grade Container Scheduling and Management
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 61811084
-    - color: '#89e051'
-      name: Shell
-      value: 1799946
-    - color: '#012456'
-      name: PowerShell
-      value: 144474
-    - color: '#427819'
-      name: Makefile
-      value: 64398
-    - color: '#384d54'
-      name: Dockerfile
-      value: 48607
-    - color: '#3572A5'
-      name: Python
-      value: 23849
-    - color: '#555555'
-      name: C
-      value: 3902
-    - color: '#64b970'
-      name: sed
-      value: 1262
-    - color: '#C1F12E'
-      name: Batchfile
-      value: 833
-    - color: '#e34c26'
-      name: HTML
-      value: 128
-    latest_commit_date: '2022-08-06T02:14:17Z'
-    latest_commit_link: /kubernetes/kubernetes/commit/985c9202ccd250a5fe22c01faf0d8f83d804b9f3
-    license: Apache License 2.0
-    release_date: '2022-08-04T22:46:39Z'
-    release_link: https://github.com/kubernetes/kubernetes/releases
-    stars: 90866
-  github_start_commit_data:
-    start_commit_link: /kubernetes/kubernetes/commit/2c4b3a562ce34cddc3f8218a2c4d11c7310e6d56
-    start_date: '2014-06-06T23:40:48Z'
   homepage_url: https://kubernetes.io/
-  image_data:
-    fileName: kubernetes.svg
-    hash: M0QmUh0e0dtnyXCH3av83LOjQNlstE6WYfWjfCCdfcA=
   item: null
   logo: kubernetes.svg
   name: Kubernetes
   project: graduated
   repo_url: https://github.com/kubernetes/kubernetes
-  repos:
-  - stars: 90866
-    url: https://github.com/kubernetes/kubernetes
+  second_path:
+  - Wasm / Orchestration & Management
+  - CNAI / General Orchestration
   twitter: https://twitter.com/kubernetesio
-  twitter_data:
-    latest_tweet_date: 2022-07-25 13:19:32+00:00
+- allow_duplicate_repo: true
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2024-04-16'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#kubeslice-logos
+    chat_channel: '#kubeslice'
+    clomonitor_name: kubeslice
+    devstats: https://kubeslice.devstats.cncf.io/
+    mailing_list_url: https://groups.google.com/g/kubeslice-dev
+    slack_url: http://slack.k8s.io/
+    summary_tags: kubeslice,networking,multi-cloud,multi-cluster,service mesh,control-plane,multitenancy
+  homepage_url: https://kubeslice.io
+  item: null
+  logo: kubeslice.svg
+  name: KubeSlice
+  open_source: true
+  project: sandbox
+  project_org: https://github.com/kubeslice
+  repo_url: https://github.com/kubeslice/kubeslice
+  twitter: https://twitter.com/kubeslice
+- allow_duplicate_repo: true
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2023-12-19'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#kubestellar-logos
+    chat_channel: '#kubestellar-dev'
+    clomonitor_name: kubestellar
+    devstats: https://kubestellar.devstats.cncf.io/
+    mailing_list_url: https://groups.google.com/g/kubestellar-dev
+    slack_url: http://slack.k8s.io/
+    summary_tags: kubestellar,cloud,orchestration,control-plane,multitenancy
+  homepage_url: https://kubestellar.io
+  item: null
+  logo: kubestellar.svg
+  name: KubeStellar
+  open_source: true
+  project: sandbox
+  project_org: https://github.com/kubestellar
+  repo_url: https://github.com/kubestellar/kubestellar
+  twitter: https://twitter.com/kubestellar
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Kured (KUbernetes REboot Daemon) is a Kubernetes daemonset that performs
+    safe automatic node reboots when the need to do so is indicated by the package
+    management system of the underlying OS
+  extra:
+    accepted: '2022-09-14'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#kured-logos
+    clomonitor_name: kured
+    dev_stats_url: https://kured.devstats.cncf.io/
+    mailing_list_url: https://lists.cncf.io/g/cncf-kured-dev
+    slack_url: http://slack.cncf.io/
+    youtube_url: https://www.youtube.com/playlist?list=PLbx4FZ4kOKnurkfQy-tbxYHySHSqq0LbX
+  homepage_url: https://kured.dev
+  item: null
+  logo: kured.svg
+  name: Kured
+  project: sandbox
+  repo_url: https://github.com/kubereboot/kured
+  twitter: https://twitter.com/kubereboot
+- crunchbase: https://www.crunchbase.com/organization/bytedance
+  description: Katalyst is a QoS-based resource management system for workload colocation
+    on kubernetes
+  homepage_url: https://gokatalyst.io
+  item: null
+  logo: katalyst.svg
+  name: Katalyst
+  repo_url: https://github.com/kubewharf/katalyst-core

@@ -1,133 +1,31 @@
-- best_practice_data:
-    badge: 5465
-    percentage: 72
-  crunchbase: https://www.crunchbase.com/organization/qingcloud
-  crunchbase_data:
-    acquisitions: []
-    city: Beijing
-    company_type: For Profit
-    country: China
-    description: QingCloud is a cloud computing platform that provides IaaS-based
-      flexible cloud services.
-    funding: 280832709
-    homepage: http://qingcloud.com
-    industries:
-    - Cloud Computing
-    - IaaS
-    - SaaS
-    - Software
-    - Web Hosting
-    kind: market_cap
-    linkedin: https://www.linkedin.com/showcase/6462819/
-    name: QingCloud
-    num_employees_max: 1000
-    num_employees_min: 501
-    parents: []
-    region: Beijing
-    stockExchange: sse
-    ticker: 688316.SS
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   extra:
+    accepted: '2021-11-09'
+    annual_review_date: '2023-06-08'
+    annual_review_url: https://github.com/cncf/toc/pull/1071
     chat_channel: '#openelb'
+    clomonitor_name: openelb
+    dev_stats_url: https://openelb.devstats.cncf.io/
     slack_url: https://kubernetes.slack.com/messages/openelb
-  github_data:
-    contributions: 0;0;2;0;6;5;0;0;2;3;0;0;0;1;0;0;2;2;0;0;0;1;5;1;0;1;1;0;5;7;5;0;0;0;3;0;0;1;0;4;2;6;2;0;0;3;3;3;18;3;2;2
-    contributors_count: 25
-    contributors_link: https://github.com/openelb/openelb/graphs/contributors
-    description: Load Balancer Implementation for Kubernetes in Bare-Metal, Edge,
-      and Virtualization
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 208092
-    - color: '#89e051'
-      name: Shell
-      value: 6323
-    - color: '#427819'
-      name: Makefile
-      value: 4911
-    - color: '#384d54'
-      name: Dockerfile
-      value: 1872
-    latest_commit_date: '2022-08-05T10:11:42Z'
-    latest_commit_link: /openelb/openelb/commit/d4f4afb5f13c7768bf8f33c8cfadfdd54e816312
-    license: Apache License 2.0
-    release_date: '2022-07-17T06:34:13Z'
-    release_link: https://github.com/openelb/openelb/releases
-    stars: 1104
-  github_start_commit_data:
-    start_commit_link: /kubesphere/porter/commit/3243272a39bbb61866ff9665f445696d88e4a423
-    start_date: '2019-02-01T02:30:37Z'
+    summary_integration: Kubernetes, Docker, Helm, Prometheus, gobgp
+    summary_personas: Developers, Platform engineers
+    summary_release_rate: 1 times per year (each quarter)
+    summary_tags: OpenELB, LoadBalancer, Kubernetes
+    summary_use_case: In cloud-based Kubernetes clusters, Services are usually exposed
+      by using load balancers provided by cloud vendors. However, cloud-based load
+      balancers are unavailable in bare-metal environments. OpenELB allows users to
+      create LoadBalancer Services in bare-metal, edge, and virtualization environments
+      for external access, and provides the same user experience as cloud-based load
+      balancers.
   homepage_url: https://openelb.github.io
-  image_data:
-    fileName: open-elb.svg
-    hash: 5CJydbbc8UKPpq05BrjZ+/PWnKf0uhQzF1489V6hHLw=
   item: null
   logo: openelb-io.svg
   name: OpenELB
   project: sandbox
   repo_url: https://github.com/openelb/openelb
-  repos:
-  - stars: 1104
-    url: https://github.com/openelb/openelb
-  twitter: https://twitter.com/kubesphere
-  twitter_data:
-    latest_tweet_date: 2022-06-27 12:02:22+00:00
-  yahoo_finance_data:
-    effective_ticker: 688316.SS
-    market_cap: 252335307
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/openresty
-  crunchbase_data:
-    acquisitions: []
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: OpenResty is a full-fledged web platform.
-    homepage: https://openresty.org/en
-    industries:
-    - Internet
-    - Internet of Things
-    linkedin: null
-    name: OpenResty
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/openresty
-  github_data:
-    contributions: 1;0;0;0;0;1;2;0;0;0;1;1;4;1;0;0;1;0;1;1;0;0;1;0;2;1;1;0;0;1;2;0;1;0;0;4;0;0;0;1;0;0;0;0;0;0;1;2;1;1;0;0
-    contributors_count: 30
-    contributors_link: https://github.com/openresty/openresty/graphs/contributors
-    description: High Performance Web Platform Based on Nginx and LuaJIT
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#555555'
-      name: C
-      value: 5060342
-    latest_commit_date: '2022-07-16T09:03:33Z'
-    latest_commit_link: /openresty/openresty/commit/0d3f8f0a0b909859d70f4827aeca08c1503d3bcc
-    license: Other
-    release_date: '2020-10-25T04:02:28Z'
-    release_link: https://github.com/openresty/openresty/releases
-    stars: 10703
-  github_start_commit_data:
-    start_commit_link: /openresty/openresty/commit/1e4232e406c2d29e3232777377f313d779f270cb
-    start_date: '2010-01-20T03:58:16Z'
+- crunchbase: https://www.crunchbase.com/organization/openresty
   homepage_url: https://openresty.com/en/
-  image_data:
-    fileName: open-resty.svg
-    hash: OV7p+f1pTKxtlmsgEcDe1t0w+irYVD8RyS4SwxSfiIA=
   item: null
   logo: openresty.svg
   name: OpenResty
   repo_url: https://github.com/openresty/openresty
-  repos:
-  - stars: 10703
-    url: https://github.com/openresty/openresty
-  twitter_data:
-    latest_tweet_date: 2022-08-02 19:59:43+00:00

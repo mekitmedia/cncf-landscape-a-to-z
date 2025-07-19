@@ -1,0 +1,88 @@
+- crunchbase: https://www.crunchbase.com/organization/ant-financial
+  description: Provide multi-dimensional integrated monitoring capabilities for business,
+    application, network, and other aspects to measure business availability, gain
+    insight into service health status, and support real-time log collection and analysis
+    to efficiently locate problems. Provide non-invasive automatic link generation
+    capabilities for heterogeneous applications on and off the cloud, and support
+    defining services to aggregate massive link data into business links, achieving
+    customized association between services and applications and intelligent diagnosis
+    and positioning.
+  homepage_url: https://antchain.antgroup.com/products/biosp
+  item: null
+  logo: traas-bos.svg
+  name: TRaaS BOS
+- crunchbase: https://www.crunchbase.com/organization/Scout-APM
+  homepage_url: https://www.telemetryhub.com/
+  item: null
+  logo: telemetryhub-scoutapm.svg
+  name: TelemetryHub by Scout APM
+- crunchbase: https://www.crunchbase.com/organization/tencent
+  homepage_url: https://cloud.tencent.com/product/cls
+  item: null
+  logo: tencent-cloud-log-service.svg
+  name: Tencent Cloud Log Service
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2019-07-14'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#thanos-logos
+    blog_url: https://thanos.io/blog/
+    clomonitor_name: thanos
+    dev_stats_url: https://thanos.devstats.cncf.io/
+    incubating: '2020-08-19'
+    slack_url: https://cloud-native.slack.com/messages/CK5RSSC10
+    stack_overflow_url: https://stackoverflow.com/questions/tagged/thanos
+    summary_business_use_case: global scale metrics-based monitoring and alerting
+    summary_integrations: See [Prometheus](https://prometheus.io/), [exporters](https://prometheus.io/docs/instrumenting/exporters/),
+      [clientlibs](https://prometheus.io/docs/instrumenting/clientlibs/) and https://thanos.io/tip/thanos/integrations.md/
+    summary_personas: Cluster Administrators, Developers, SREs, Platform Engineers,
+      Network Engineers
+    summary_release_rate: every 6 weeks
+    summary_tags: monitoring, alerting, observability, instrumentation
+    summary_use_case: global scale metrics-based monitoring and alerting
+  homepage_url: https://thanos.io/
+  item: null
+  logo: thanos.svg
+  name: Thanos
+  project: incubating
+  repo_url: https://github.com/thanos-io/thanos
+  twitter: https://twitter.com/ThanosMetrics
+- crunchbase: https://www.crunchbase.com/organization/tingyun
+  homepage_url: https://www.tingyun.com/tingyun-app
+  item: null
+  logo: tingyun.svg
+  name: Tingyun
+- crunchbase: https://www.crunchbase.com/organization/kubeshop
+  description: Tracetest allows easy creation of end-to-end tests via a simple user
+    interface. It leverages your current investment in OpenTelemetry based tracing
+    to make deep integration and E2E testing simple.
+  homepage_url: https://tracetest.io
+  item: null
+  logo: tracetest.svg
+  name: Tracetest
+  repo_url: https://github.com/kubeshop/tracetest
+  twitter: https://twitter.com/tracetest_io
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2021-03-30'
+    annual_review_date: '2022-06-12'
+    annual_review_url: https://github.com/cncf/toc/pull/852
+    artwork_url: https://github.com/cncf/artwork/tree/master/projects/trickster
+    clomonitor_name: trickster
+    dev_stats_url: https://trickster.devstats.cncf.io/
+  homepage_url: https://trickstercache.org
+  item: null
+  logo: trickster.svg
+  name: Trickster
+  project: sandbox
+  repo_url: https://github.com/trickstercache/trickster
+- crunchbase: https://www.crunchbase.com/organization/trink-io
+  description: Trink.io is the first log shipping platform, built to replace fragmented
+    solutions and workarounds with a single solution that takes care of the basics
+    while offering visibility and control that only a managed solution can. Trink
+    handles the entire operational data collection scope for you, connecting to all
+    of your sources (e.g AWS) and enabling you to choose your preferred destinations
+    (Datadog, Logz, etc.) in minutes instead of days.
+  homepage_url: https://trink.io/
+  item: null
+  logo: trink.svg
+  name: Trink.io

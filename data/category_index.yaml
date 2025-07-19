@@ -3,6 +3,19 @@ App Definition and Development:
   Continuous Integration & Delivery: app_definition_and_development_continuous_integration_delivery
   Database: app_definition_and_development_database
   Streaming & Messaging: app_definition_and_development_streaming_messaging
+CNAI:
+  AutoML: cnai_automl
+  CI/CD - Delivery: cnai_ci_cd_delivery
+  Data Architecture: cnai_data_architecture
+  Data Science: cnai_data_science
+  Distributed Training: cnai_distributed_training
+  General Orchestration: cnai_general_orchestration
+  Governance, Policy & Security: cnai_governance_policy_security
+  ML Serving: cnai_ml_serving
+  Model/LLM Observability: cnai_model_llm_observability
+  Open Enterprise AI Blueprints: cnai_open_enterprise_ai_blueprints
+  Vector Databases: cnai_vector_databases
+  Workload Observability: cnai_workload_observability
 CNCF Members:
   Academic: cncf_members_academic
   End User Supporter: cncf_members_end_user_supporter
@@ -13,9 +26,8 @@ CNCF Members:
 Observability and Analysis:
   Chaos Engineering: observability_and_analysis_chaos_engineering
   Continuous Optimization: observability_and_analysis_continuous_optimization
-  Logging: observability_and_analysis_logging
-  Monitoring: observability_and_analysis_monitoring
-  Tracing: observability_and_analysis_tracing
+  Feature Flagging: observability_and_analysis_feature_flagging
+  Observability: observability_and_analysis_observability
 Orchestration & Management:
   API Gateway: orchestration_management_api_gateway
   Coordination & Service Discovery: orchestration_management_coordination_service_discovery
@@ -48,9 +60,15 @@ Special:
   Kubernetes Certified Service Provider: special_kubernetes_certified_service_provider
   Kubernetes Training Partner: special_kubernetes_training_partner
 Wasm:
-  Debugging and Observability: wasm_debugging_and_observability
-  Installable Platform: wasm_installable_platform
+  AI/Machine Learning: wasm_ai_machine_learning
+  Application Frameworks: wasm_application_frameworks
+  Debugging & Observability: wasm_debugging_observability
+  Decentralized Platforms: wasm_decentralized_platforms
+  Edge/Bare metal: wasm_edge_bare_metal
+  Embedded Functions: wasm_embedded_functions
+  Hosted Platforms: wasm_hosted_platforms
+  Languages: wasm_languages
+  Orchestration & Management: wasm_orchestration_management
   Packaging, Registries & Application Delivery: wasm_packaging_registries_application_delivery
-  Runtime: wasm_runtime
-  Specifications: wasm_specifications
-  Toolchain: wasm_toolchain
+  Runtimes: wasm_runtimes
+  Tooling: wasm_tooling

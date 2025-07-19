@@ -1,440 +1,69 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/n3n-cloud
-  crunchbase_data:
-    acquisitions: []
-    city: Seoul
-    company_type: For Profit
-    country: South Korea
-    description: N3N Cloud provides all IT services required for Internet business
-    homepage: https://www.n3ncloud.co.kr/
-    industries: []
-    linkedin: null
-    name: N3N Cloud
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Seoul-t'ukpyolsi
-    stockExchange: null
-    twitter: null
-  description: N3NCLOUD is a service company that develops an AI Dev platform based
-    on Kubernetes. We provide services to universities and research institutes.
-  homepage_url: https://www.aifrica.co.kr/cheetah
-  image_data:
-    fileName: n3-ncloud-kcsp.svg
-    hash: PcfeHSDGtJR1Au4YoRkHEprKS261VotRkVbSu5xqL1Y=
-  item: null
-  logo: n3ncloud.svg
-  name: N3NCLOUD (KCSP)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/namutech
-  crunchbase_data:
-    acquisitions: []
-    city: Yeoksamdong
-    company_type: For Profit
-    country: South Korea
-    description: NAMUTECH is a cloud expert leading customer's digital transformation
-      through its cloud-native platform Cocktail Cloud with Big Data and AI.
-    homepage: https://www.namutech.co.kr
-    industries:
-    - Artificial Intelligence
-    - Big Data
-    - Information Technology
-    - Software
-    linkedin: https://www.linkedin.com/company/namutech/
-    name: NAMUTECH
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: Seoul-t'ukpyolsi
-    stockExchange: null
-    twitter: https://twitter.com/namutech
+- crunchbase: https://www.crunchbase.com/organization/namutech
   description: Namutech provides an enterprise cloud native platform based on Kubernetes
     along with implementation, containerization, and training services.
   homepage_url: https://www.namutech.co.kr/cocktail-cloud/?lang=en
-  image_data:
-    fileName: namutech-kcsp.svg
-    hash: k8L/XzGMpuXrJOvWfNyuqFWoVhCvygAg6yxlE3GDjaQ=
   item: null
   logo: namutech.svg
   name: Namutech (KCSP)
-  twitter_data:
-    latest_tweet_date: 2022-04-06 08:58:29+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/navitas-business-consulting
-  crunchbase_data:
-    acquisitions: []
-    city: Herndon
-    company_type: For Profit
-    country: United States
-    description: IT Solutions
-    homepage: https://www.navitas-tech.com/
-    industries: []
-    linkedin: https://www.linkedin.com/company/navitas-business-consulting-inc/
-    name: Navitas Business Consulting
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: Virginia
-    stockExchange: null
-    twitter: https://twitter.com/NavitasTech
-  description: Navitas helps public and private sector companies develop, integrate,
-    and deploy applications faster with Kubernetes and emerging ecosystem technologies.
-  homepage_url: https://www.navitas-tech.com/404.html
-  image_data:
-    fileName: navitas-business-consulting-kcsp.svg
-    hash: A5HeA8RLnsgwo5XOVGL71KtjU3+YsTjuZeY4MANzaXI=
+- crunchbase: https://www.crunchbase.com/organization/navimentum
+  description: Navimentum Software Corporation provides Kubernetes special technical
+    services including consulting, training, implementation, and technical support,
+    as well as customized research & development, business operations and other advanced
+    services in China.
+  homepage_url: https://www.navimentum.com/nv/product/detail/1635215864250257410
   item: null
-  logo: navitas-business-consulting-kcsp.svg
-  name: Navitas Business Consulting (KCSP)
-  twitter_data:
-    latest_tweet_date: 2022-08-03 22:05:10+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/nec
-  crunchbase_data:
-    acquisitions:
-    - acquiree: NetCracker Technology
-      date: '2008-06-21'
-      price: 300000000
-    - acquiree: Arcon Managed Security Services
-      date: '2016-08-18'
-    - acquiree: Northgate Public Services
-      date: '2018-01-09'
-      price: 642696131
-    - acquiree: NEC XON
-      date: '2018-02-09'
-    - acquiree: i2N
-      date: '2018-08-01'
-    - acquiree: KMD
-      date: '2018-12-27'
-      price: 1230000000
-    - acquiree: OncoImmunity
-      date: '2019-07-29'
-    - acquiree: Avaloq
-      date: '2020-10-05'
-      price: 2200000000
-    - acquiree: Blue Danube Systems
-      date: '2022-01-28'
-    - acquiree: Aspire Technology
-      date: '2022-07-01'
-    city: Tokyo
-    company_type: For Profit
-    country: Japan
-    description: NEC Corporation integrates IT and network technologies that benefit
-      businesses and people around the world.
-    funding: 560000000
-    homepage: http://www.nec.com
-    industries:
-    - Big Data
-    - Information Technology
-    - Network Security
-    - Telecommunications
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/nec
-    name: NEC Corporation
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents: []
-    region: Tokyo
-    stockExchange: tyo
-    ticker: 6701.T
-    twitter: https://www.twitter.com/nec_jp_pr
+  logo: navimentum.svg
+  name: Navimentum (KCSP)
+- crunchbase: https://www.crunchbase.com/organization/nec
   description: NEC provides a Digital Transformation platform based on Kubernetes
     by working together with the Kubernetes community.
   homepage_url: https://jpn.nec.com/oss/middle_support/openshift/index.html
-  image_data:
-    fileName: nec-kcsp.svg
-    hash: ezblDC48XD/nDEF9Kgik8ZdLCsusHxRD3OlZwEmlKBA=
   item: null
   logo: nec.svg
   name: NEC (KCSP)
-  twitter_data:
-    latest_tweet_date: 2022-08-06 01:00:00+00:00
-  yahoo_finance_data:
-    effective_ticker: 6701.T
-    market_cap: 9898379222
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/netapp
-  crunchbase_data:
-    acquisitions:
-    - acquiree: WebManage Technologies
-      date: '2000-09-05'
-      price: 75000000
-    - acquiree: Spinnaker Networks
-      date: '2003-11-04'
-      price: 300000000
-    - acquiree: Alacritus Software
-      date: '2005-04-07'
-    - acquiree: Decru
-      date: '2005-06-16'
-      price: 272000000
-    - acquiree: Topio
-      date: '2006-11-08'
-      price: 160000000
-    - acquiree: Onaro
-      date: '2008-01-03'
-      price: 120000000
-    - acquiree: Bycast
-      date: '2010-04-07'
-    - acquiree: Akorri Networks
-      date: '2011-01-12'
-      price: 60000000
-    - acquiree: Engenio
-      date: '2011-03-09'
-      price: 480000000
-    - acquiree: Cache IQ
-      date: '2012-11-14'
-    - acquiree: ionGrid
-      date: '2013-02-11'
-    - acquiree: Riverbed Technology - SteelStore (Whitewater)
-      date: '2014-10-27'
-      price: 80000000
-    - acquiree: SolidFire
-      date: '2015-12-21'
-      price: 870000000
-    - acquiree: Plexistor
-      date: '2017-05-29'
-      price: 32000000
-    - acquiree: Greenqloud
-      date: '2017-08-17'
-    - acquiree: StackPointCloud
-      date: '2018-09-18'
-    - acquiree: Cognigo
-      date: '2019-05-27'
-      price: 70000000
-    - acquiree: Talon Storage
-      date: '2020-03-09'
-    - acquiree: CloudJumper
-      date: '2020-04-29'
-    - acquiree: Spot.io
-      date: '2020-06-04'
-      price: 450000000
-    - acquiree: Data Mechanics
-      date: '2021-06-22'
-    - acquiree: CloudCheckr
-      date: '2021-10-04'
-    - acquiree: Fylamynt
-      date: '2022-02-22'
-    - acquiree: Instaclustr
-      date: '2022-05-24'
-    city: Sunnyvale
-    company_type: For Profit
-    country: United States
-    description: NetApp is a hybrid cloud data services company .
-    funding: 0
-    homepage: http://netapp.com
-    industries:
-    - Cloud Computing
-    - Data Storage
-    - Information Technology
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/netapp
-    name: NetApp
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents: []
-    region: California
-    stockExchange: nasdaq
-    ticker: NTAP
-    twitter: http://twitter.com/netapp
-  description: NetApp offers a wide range of support plans for managed Kubernetes
-    clusters built through its universal control plane for Kubernetes Anywhere.
-  homepage_url: https://cloud.netapp.com
-  image_data:
-    fileName: net-app-kcsp.svg
-    hash: cVOiI+Zoku1fxrsBQ75N1HNGKuVBPIoNxrsH0tMT7mI=
+- crunchbase: https://www.crunchbase.com/organization/netways
+  description: "Through its MyEngineer\xAE service, NETWAYS Managed Services offers\
+    \ direct access to experienced engineers who support Kubernetes users with cluster\
+    \ provisioning, CI/CD integration, monitoring, upgrades, troubleshooting, and\
+    \ operational best practices\u2014available 24/7 via chat or video call."
+  homepage_url: https://nws.netways.de/en/myengineer/
   item: null
-  logo: netapp.svg
-  name: NetApp (KCSP)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 15:00:31+00:00
-  yahoo_finance_data:
-    effective_ticker: NTAP
-    market_cap: 15902223360
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/netease-com
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Grasshopper Manufacture
-      date: '2021-10-22'
-    city: Hangzhou
-    company_type: For Profit
-    country: China
-    description: 'NetEase, Inc. (NASDAQ: NTES) is a leading internet technology company
-      dedicated to providing premium online services.'
-    funding: 0
-    homepage: https://www.neteasegames.com/
-    industries:
-    - Advertising
-    - Gaming
-    - Mobile
-    - Mobile Apps
-    - Music
-    - PC Games
-    - Venture Capital
-    - Wireless
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/netease
-    name: NetEase
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents: []
-    region: Zhejiang
-    stockExchange: hkg
-    ticker: 9999.HK
-    twitter: https://twitter.com/neteaseofficial?lang=en
-  description: Netease Cloud provide professional container solution, which integrates
-    IaaS, PaaS and container technology such as Kubernetes and Docker. It provides
-    services such as flexible computing, DevOps tool chain, micro-services infrastructure
-    and other services to help enterprises solve IT, architecture, operation and maintenance
-    problems, making enterprises more focused on business.
-  homepage_url: https://sf.163.com/product/ncs
-  image_data:
-    fileName: netease-kcsp.svg
-    hash: iO8rPQBejS/zyOHk56jLL89CN1ioOe9lPehzpm9k6CE=
+  logo: netways.svg
+  name: NETWAYS Managed Services (KCSP)
+- crunchbase: https://www.crunchbase.com/organization/nhn-cloud
+  description: NHN Cloud strongly supports customers in understanding and using Kubernetes
+    by offering consulting and training courses run by NHN Cloud edu center to help
+    customers design and configure Kubernetes clusters suitable for their environments
+    and providing fully managed cloud native services.
+  homepage_url: https://www.nhncloud.com/kr/service/container/nhn-kubernetes-service-nks
   item: null
-  logo: netease.svg
-  name: Netease (KCSP)
-  twitter_data:
-    latest_tweet_date: 2021-02-02 10:40:05+00:00
-  yahoo_finance_data:
-    effective_ticker: 9999.HK
-    market_cap: 58973992918
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/nirmata
-  crunchbase_data:
-    acquisitions: []
-    city: San Jose
-    company_type: For Profit
-    country: United States
-    description: Nirmata is a unified management plane for Kubernetes clusters and
-      workloads.
-    funding: 4000000
-    homepage: https://nirmata.com
-    industries:
-    - Cloud Computing
-    - Enterprise Software
-    - Information Technology
-    - PaaS
-    kind: funding
-    linkedin: https://www.linkedin.com/company/nirmata
-    name: Nirmata
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: http://twitter.com/NirmataCloud
+  logo: nhn-cloud.svg
+  name: NHN Cloud (KCSP)
+- crunchbase: https://www.crunchbase.com/organization/nirmata
   description: Nirmata simplifies kubernetes for application development teams.
   homepage_url: https://www.nirmata.com/
-  image_data:
-    fileName: nirmata-kcsp.svg
-    hash: 1a2T6IlgwlPe9OG0UlSs0Cnkld5YvALsp+RbVXBpBFo=
   item: null
   logo: nirmata.svg
   name: Nirmata (KCSP)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 20:45:49+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/ntt-data
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Intelligroup
-      date: '2010-06-14'
-    - acquiree: NTT DATA FA Insurance Systems
-      date: '2010-09-02'
-    - acquiree: Keane International
-      date: '2010-12-30'
-    - acquiree: Value Team
-      date: '2011-05-30'
-    - acquiree: Mpayy
-      date: '2011-06-15'
-    - acquiree: Netmagic Solutions
-      date: '2012-01-25'
-      price: 128000000
-    - acquiree: RMA Consulting
-      date: '2012-10-10'
-    - acquiree: Everis Group
-      date: '2013-11-01'
-    - acquiree: Optimal Solutions Integration
-      date: '2013-11-21'
-    - acquiree: Carlisle & Gallagher Consulting Group
-      date: '2015-06-08'
-    - acquiree: Wizardsgroup
-      date: '2015-12-23'
-    - acquiree: Nefos
-      date: '2016-09-27'
-    - acquiree: PT. Abyor International
-      date: '2017-05-11'
-    - acquiree: MagenTys
-      date: '2018-06-01'
-    - acquiree: gen-ius dms GmbH
-      date: '2018-06-25'
-    - acquiree: Sierra Systems Group Inc.
-      date: '2018-10-29'
-    - acquiree: NTT DATA Payment Services
-      date: '2018-11-27'
-    - acquiree: Flux7
-      date: '2019-12-03'
-    - acquiree: NETE
-      date: '2019-12-18'
-    - acquiree: Acorio
-      date: '2020-08-27'
-    - acquiree: Hashmap
-      date: '2020-12-11'
-    - acquiree: My Supply Chain Group
-      date: '2021-01-15'
-    - acquiree: Chainalytics
-      date: '2021-12-22'
-    - acquiree: Postlight
-      date: '2022-06-01'
-    city: Koto
-    company_type: For Profit
-    country: Japan
-    description: NTT DATA provides broad range of IT services and solutions, including
-      consulting, systems integration, and IT outsourcing.
-    homepage: https://www.nttdata.com/jp/ja/
-    industries:
-    - Information Services
-    - Information Technology
-    - Software
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/ntt-data/
-    name: NTT Data
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents:
-    - https://www.crunchbase.com/organization/nippon-telegraph-and-telephone-corporation
-    region: Tokyo
-    stockExchange: tyo
-    ticker: 9613.T
-    twitter: https://twitter.com/nttdata_pr
+- crunchbase: https://www.crunchbase.com/organization/novaglobal
+  description: Our commitment to excellence is reflected in a comprehensive suite
+    of professional services tailored for organizations seeking to adopt Kubernetes
+    seamlessly into their computing systems.
+  homepage_url: https://novaglobal.com.sg/index.php/kubernetes/
+  item: null
+  logo: novaglobal.svg
+  name: NovaGlobal (KCSP)
+- crunchbase: https://www.crunchbase.com/organization/ntt-data
   description: NTT DATA, a member of the NTT Group, brings the power of the world's
     leading infrastructure provider in the global K8s community.
   homepage_url: https://de.nttdata.com/services/consulting
-  image_data:
-    fileName: ntt-data-kcsp.svg
-    hash: VYreuZiYm3brwtdUDEIf2SGub2AgxvXbQ++ZoLnjuMI=
   item: null
   logo: ntt-data.svg
   name: NTT DATA (KCSP)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 08:30:00+00:00
-  yahoo_finance_data:
-    effective_ticker: 9613.T
-    market_cap: 21136692269
+- crunchbase: https://www.crunchbase.com/organization/nuvotex
+  description: Nuvotex provides a variety of Kubernetes services, including training,
+    consulting, technical support, and implementation.
+  homepage_url: https://www.nuvotex.de/kubernetes/
+  item: null
+  logo: nuvotex.svg
+  name: Nuvotex (KCSP)

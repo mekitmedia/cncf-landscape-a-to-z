@@ -1,94 +1,12 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/tyk-io
-  crunchbase_data:
-    acquisitions: []
-    city: London
-    company_type: For Profit
-    country: United Kingdom
-    description: Tyk is an open source API gateway and management platform that provides
-      on-premises, cloud/multi-cloud, and enterprise.
-    funding: 40028790
-    homepage: https://tyk.io/
-    industries:
-    - Computer
-    - Developer APIs
-    - Enterprise Software
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/tyk/
-    name: Tyk
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: England
-    stockExchange: null
-    twitter: https://twitter.com/tyk_io
-  github_data:
-    contributions: 2;11;2;8;2;4;2;6;7;8;0;5;3;7;14;2;7;7;13;7;12;5;10;3;4;1;3;5;5;1;11;8;3;12;11;3;11;2;7;8;6;14;20;13;11;13;3;9;3;6;5;9
-    contributors_count: 99
-    contributors_link: https://github.com/TykTechnologies/tyk/graphs/contributors
-    description: Tyk Open Source API Gateway written in Go, supporting REST, GraphQL,
-      TCP and gRPC protocols
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 2778908
-    - color: '#89e051'
-      name: Shell
-      value: 54735
-    - color: '#3572A5'
-      name: Python
-      value: 25437
-    - color: '#f1e05a'
-      name: JavaScript
-      value: 10687
-    - color: '#b07219'
-      name: Java
-      value: 9633
-    - name: HCL
-      value: 6592
-    - color: '#384d54'
-      name: Dockerfile
-      value: 4870
-    - color: '#000080'
-      name: Lua
-      value: 3803
-    - color: '#701516'
-      name: Ruby
-      value: 3315
-    - color: '#555555'
-      name: C
-      value: 1989
-    - color: '#e34c26'
-      name: HTML
-      value: 1862
-    - color: '#427819'
-      name: Makefile
-      value: 1751
-    - name: Slim
-      value: 481
-    latest_commit_date: '2022-08-05T18:07:59Z'
-    latest_commit_link: /TykTechnologies/tyk/commit/2b1018d8544fa7c25143abdb421b341cbeeed99c
-    license: Other
-    release_date: '2022-07-26T14:59:57Z'
-    release_link: https://github.com/TykTechnologies/tyk/releases
-    stars: 7600
-  github_start_commit_data:
-    start_commit_link: /TykTechnologies/tyk/commit/c64bed0b38342cde307532e1e7354f2c64367c65
-    start_date: '2014-05-07T14:16:38Z'
+- crunchbase: https://www.crunchbase.com/organization/containous
+  homepage_url: https://traefik.io/traefik
+  item: null
+  logo: traefik.svg
+  name: Traefik
+  repo_url: https://github.com/traefik/traefik
+- crunchbase: https://www.crunchbase.com/organization/tyk-io
   homepage_url: https://tyk.io/
-  image_data:
-    fileName: tyk.svg
-    hash: yIPThirgcIszDwGdeWVikywQeS/nLWsr3G8czxJe4OQ=
   item: null
   logo: tyk.svg
   name: Tyk
   repo_url: https://github.com/TykTechnologies/tyk
-  repos:
-  - stars: 7600
-    url: https://github.com/TykTechnologies/tyk
-  twitter_data:
-    latest_tweet_date: 2022-08-05 14:22:59+00:00

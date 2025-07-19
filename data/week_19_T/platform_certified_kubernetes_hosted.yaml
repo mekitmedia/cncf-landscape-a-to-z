@@ -1,143 +1,26 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/itera-technologies-a-s
-  crunchbase_data:
-    acquisitions: []
-    city: Praha
-    company_type: For Profit
-    country: Czech Republic
-    description: We specialize in building various types of clouds using our own cutting-edge
-      orchestration technology and know-how since 2012.
-    funding: 0
-    homepage: https://www.itera.io
-    industries:
-    - Cloud Computing
-    - Cloud Data Services
-    - Cloud Infrastructure
-    - Cloud Management
-    - Cloud Security
-    - Information Technology
-    - Private Cloud
-    - Software
-    linkedin: https://www.linkedin.com/company/itera-io/
-    name: Itera Technologies a.s.
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Hlavni mesto Praha
-    stockExchange: null
-    twitter: https://twitter.com/iteraio
+- crunchbase: https://www.crunchbase.com/organization/itera-technologies-a-s
   description: Taikun is a hybrid cloud management orchestration platform.
   homepage_url: https://taikun.cloud
-  image_data:
-    fileName: taikun.svg
-    hash: qL5l4x80YAtWFRJg8Z61DlG66NtvjJ8RwWr0ozzzR+0=
   item: null
   logo: taikun.svg
   name: Taikun
-  twitter_data:
-    latest_tweet_date: 2021-08-20 11:15:17+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/tencent
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Shenzhen Domain Networks
-      date: '2010-04-20'
-    - acquiree: Comsenz
-      date: '2010-08-23'
-    - acquiree: Riot Games
-      date: '2011-02-01'
-      price: 400000000
-    - acquiree: Zam
-      date: '2012-03-01'
-    - acquiree: Linktech Navi
-      date: '2014-01-26'
-    - acquiree: Cloudary
-      date: '2015-01-27'
-    - acquiree: Miniclip
-      date: '2015-02-18'
-    - acquiree: Supercell
-      date: '2016-06-21'
-      price: 8600000000
-    - acquiree: Tencent Music Entertainment
-      date: '2016-07-14'
-      price: 2700000000
-    - acquiree: Sanook
-      date: '2016-12-22'
-    - acquiree: Grinding Gear Games
-      date: '2018-05-21'
-    - acquiree: Cat Cake
-      date: '2018-08-22'
-    - acquiree: Sharkmob
-      date: '2019-05-21'
-    - acquiree: iflix
-      date: '2020-06-24'
-    - acquiree: Leyou Technologies Holdings
-      date: '2020-08-28'
-      price: 1400000000
-    - acquiree: Sogou
-      date: '2020-09-29'
-      price: 3500000000
-    - acquiree: 10 Chambers Collective
-      date: '2020-10-01'
-    - acquiree: Klei Entertainment
-      date: '2021-01-24'
-    - acquiree: YAGER
-      date: '2021-06-22'
-    - acquiree: Stunlock Studios
-      date: '2021-07-19'
-    - acquiree: Sumo Group plc
-      date: '2021-07-19'
-      price: 1230096358
-    - acquiree: Wake Up Interactive
-      date: '2021-11-11'
-      price: 44000000
-    - acquiree: Turtle Rock Studios
-      date: '2021-12-17'
-    - acquiree: Inflexion Games
-      date: '2022-02-22'
-    - acquiree: 1C Entertainment
-      date: '2022-02-25'
-    - acquiree: Tequila Works
-      date: '2022-03-15'
-    city: Shenzhen
-    company_type: For Profit
-    country: China
-    description: Tencent is an internet service portal offering value-added internet,
-      mobile, telecom, and online advertising services.
-    funding: 12576770000
-    homepage: https://www.tencent.com/en-us/
-    industries:
-    - Advertising
-    - Internet
-    - Online Games
-    - Online Portals
-    - Social Media Marketing
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/166328/
-    name: Tencent
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents: []
-    region: Guangdong
-    stockExchange: hkg
-    ticker: 0700.HK
-    twitter: https://twitter.com/tencentglobal
+- crunchbase: https://www.crunchbase.com/organization/tata-communications
+  description: Tata Communications Vayu Kubernetes Service is an enterprise-grade
+    managed service that makes it easy for you to run Kubernetes on Tata Communications  Vayu
+    Cloud platform without needing to install and operate your own Kubernetes clusters,
+    for running containerized applications, including stateful  and stateless, AI
+    and ML, complex and simple web apps, API, and backend services. Service is available
+    only India for consumption.
+  homepage_url: https://www.tatacommunications.com/solutions/cloud/vayu-cloud-platform-services/vayu-cloud-platform-for-kubernetes-solutions/
+  item: null
+  logo: tata-vayu.svg
+  name: Tata Communications Vayu Kubernetes Service
+- crunchbase: https://www.crunchbase.com/organization/tencent
   description: Tencent Kubernetes Engine (TKE) provides container-centric, highly
     scalable and high-performance container management services. Fully compatible
     with Kubernetes' native API and capable of expanding Tencent Cloud's Kubernetes
     plugins such as CBS and CLB.
   homepage_url: https://intl.cloud.tencent.com/products/tke
-  image_data:
-    fileName: tencent-kubernetes-engine-tke.svg
-    hash: 8lyQ008CrQ0AhWYe0J8gO3EQJ8VPmGDvokqjpcaLDDU=
   item: null
   logo: tencent-cloud.svg
   name: Tencent Kubernetes Engine (TKE)
-  twitter: null
-  yahoo_finance_data:
-    effective_ticker: 0700.HK
-    market_cap: 376891200216

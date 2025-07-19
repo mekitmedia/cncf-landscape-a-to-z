@@ -1,1 +1,9 @@
-[]
+- crunchbase: https://www.crunchbase.com/organization/flomesh
+  description: Lightweight SMI compatible service mesh for Kubernetes east-west and
+    north-south traffic management, uses ebpf for layer4 and pipy proxy for layer7
+    traffic management, support multi cluster network.
+  homepage_url: https://flomesh.io/
+  item: null
+  logo: fsm.svg
+  name: Flomesh Service Mesh (FSM)
+  repo_url: https://github.com/flomesh-io/fsm

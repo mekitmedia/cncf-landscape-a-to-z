@@ -1,266 +1,61 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/synopsys
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Compiled Designs GmbH
-      date: '1993-01-01'
-    - acquiree: ExperTest
-      date: '1993-06-05'
-    - acquiree: Arcad SA
-      date: '1994-01-01'
-    - acquiree: Cadis GmbH
-      date: '1994-01-01'
-    - acquiree: Logic Modeling Corporation
-      date: '1994-02-18'
-      price: 118000000
-    - acquiree: Advanced Test Technology, Inc.
-      date: '1997-01-01'
-    - acquiree: Viewlogic Systems
-      date: '1997-01-01'
-    - acquiree: EPIC Design Technology
-      date: '1997-02-28'
-    - acquiree: Radiant Design Tools
-      date: '1998-01-26'
-    - acquiree: Systems Science
-      date: '1998-07-21'
-      price: 47100000
-    - acquiree: Everest Design Automation
-      date: '1998-10-27'
-    - acquiree: Silicon Architects
-      date: '1999-01-01'
-    - acquiree: Smartech Oy
-      date: '1999-01-01'
-    - acquiree: Gambit Automated Design
-      date: '1999-03-29'
-    - acquiree: Stanza Systems
-      date: '1999-06-23'
-    - acquiree: Leda SA
-      date: '2000-02-21'
-    - acquiree: Avant! Corp.
-      date: '2001-12-03'
-      price: 830000000
-    - acquiree: inSilicon Corp.
-      date: '2002-07-23'
-      price: 64000000
-    - acquiree: Co-Design Automation
-      date: '2002-08-28'
-    - acquiree: Numerical Technologies, Inc.
-      date: '2003-01-13'
-      price: 250000000
-    - acquiree: InnoLogic Systems
-      date: '2003-06-25'
-    - acquiree: Integrated Systems Engineering
-      date: '2004-01-01'
-    - acquiree: Progressant Technologies
-      date: '2004-01-01'
-    - acquiree: Analog Design Automation
-      date: '2004-01-28'
-    - acquiree: MoSys, Inc.
-      date: '2004-02-23'
-      price: 432000000
-    - acquiree: Accelerant Networks
-      date: '2004-02-24'
-      price: 432000000
-    - acquiree: Monterey Design Systems
-      date: '2004-10-18'
-    - acquiree: Cascade Semiconductor Solutions
-      date: '2004-10-19'
-    - acquiree: LEDA Systems
-      date: '2004-11-02'
-    - acquiree: Nassda
-      date: '2004-12-02'
-      price: 192000000
-    - acquiree: TriCN Associates
-      date: '2005-01-01'
-    - acquiree: HPL Technologies, Inc.
-      date: '2005-10-03'
-    - acquiree: Virtio
-      date: '2006-05-16'
-    - acquiree: SIGMA-C Software AG
-      date: '2006-08-16'
-    - acquiree: Conversant Intellectual Property Management
-      date: '2007-07-16'
-    - acquiree: ArchPro Design Automation
-      date: '2007-10-02'
-    - acquiree: Sandwork Design
-      date: '2007-10-02'
-    - acquiree: Syncplicity
-      date: '2008-03-20'
-      price: 227000000
-    - acquiree: Pro Design Electronic - CHIPit
-      date: '2008-12-01'
-    - acquiree: "Chipidea Microelectr\xF3nica"
-      date: '2009-05-11'
-      price: 22000000
-    - acquiree: Gemini Design Technology
-      date: '2009-11-01'
-    - acquiree: ZEROSOFT
-      date: '2010-01-01'
-    - acquiree: VaST Systems Technology
-      date: '2010-02-01'
-    - acquiree: CoWare
-      date: '2010-02-08'
-    - acquiree: Synfora
-      date: '2010-06-10'
-    - acquiree: Virage Logic Corporation
-      date: '2010-06-10'
-      price: 315000000
-    - acquiree: Nusym Technology
-      date: '2010-06-28'
-    - acquiree: Optical Research Associates
-      date: '2010-10-08'
-    - acquiree: nSys Design Systems
-      date: '2011-09-02'
-    - acquiree: Extreme DA
-      date: '2011-10-07'
-    - acquiree: Magma Design Automation
-      date: '2011-11-30'
-      price: 523000000
-    - acquiree: ExpertIO
-      date: '2012-01-23'
-    - acquiree: RSoft Design Group
-      date: '2012-05-08'
-    - acquiree: CiraNova
-      date: '2012-07-30'
-    - acquiree: SpringSoft
-      date: '2012-08-03'
-      price: 406000000
-    - acquiree: Emulation and Verification Engineering
-      date: '2012-10-04'
-    - acquiree: Target Compiler Technologies
-      date: '2014-02-07'
-    - acquiree: Coverity
-      date: '2014-02-19'
-      price: 375000000
-    - acquiree: Codenomicon
-      date: '2015-04-20'
-    - acquiree: Atrenta
-      date: '2015-06-07'
-    - acquiree: Elliptic Technologies
-      date: '2015-06-30'
-    - acquiree: Silicon Vision
-      date: '2015-07-16'
-    - acquiree: Protecode
-      date: '2015-11-06'
-    - acquiree: Goanna Software
-      date: '2015-12-18'
-    - acquiree: WinterLogic
-      date: '2016-03-03'
-    - acquiree: Simpleware
-      date: '2016-05-17'
-    - acquiree: Gold Standard Simulations
-      date: '2016-05-23'
-    - acquiree: Cigital
-      date: '2016-11-07'
-    - acquiree: Codiscope
-      date: '2016-11-07'
-    - acquiree: Forcheck
-      date: '2017-01-10'
-    - acquiree: QuantumWise
-      date: '2017-09-18'
-    - acquiree: Sidense
-      date: '2017-10-17'
-    - acquiree: BlackDuck
-      date: '2017-11-02'
-      price: 565000000
-    - acquiree: Kilopass
-      date: '2018-01-10'
-    - acquiree: PhoeniX Software
-      date: '2018-02-08'
-    - acquiree: QTronic
-      date: '2019-08-06'
-    - acquiree: Tinfoil Security
-      date: '2020-01-10'
-    - acquiree: Terrain EDA
-      date: '2020-02-23'
-    - acquiree: Qualtera
-      date: '2020-06-10'
-    - acquiree: Moortec Semiconductor
-      date: '2020-11-11'
-    - acquiree: MoreThanIP GmbH
-      date: '2021-05-04'
-    - acquiree: Code Dx
-      date: '2021-06-08'
-    - acquiree: BISTel
-      date: '2021-09-02'
-    - acquiree: Concertio
-      date: '2021-11-01'
-    - acquiree: Juniper Networks
-      date: '2022-04-04'
-    - acquiree: WhiteHat Security
-      date: '2022-04-27'
-      price: 330000000
-    city: Mountain View
-    company_type: For Profit
-    country: United States
-    description: Synopsys is the Silicon to Software partner for companies that develop
-      electronic products and software applications.
-    funding: 0
-    homepage: http://www.synopsys.com
-    industries:
-    - Electronic Design Automation (EDA)
-    - Information Services
-    - Information Technology
-    - Software
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/synopsys
-    name: Synopsys
-    num_employees_max: 10000
-    num_employees_min: 5001
-    parents: []
-    region: California
-    stockExchange: nasdaq
-    ticker: SNPS
-    twitter: http://twitter.com/synopsys
+- additional_repos:
+  - repo_url: https://github.com/bank-vaults/vault-operator
+  - repo_url: https://github.com/bank-vaults/secrets-webhook
+  - repo_url: https://github.com/bank-vaults/vault-sdk
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: 'Bank-Vaults is a Vault swiss-army knife: a K8s operator, Go client
+    with automatic token renewal, automatic configuration, multiple unseal options
+    and more. A CLI tool to init, unseal and configure Vault (auth methods, secret
+    engines). Direct secret injection into Pods.'
+  extra:
+    accepted: '2024-06-18'
+    artwork_url: https://github.com/cncf/artwork/blob/main/examples/sandbox.md/#bank-vaults-logos
+    clomonitor_name: bank-vaults
+    cncf_tags:
+    - https://github.com/cncf/tag-security
+    dev_stats_url: https://bankvaults.devstats.cncf.io/
+  homepage_url: https://bank-vaults.dev/
+  item: null
+  logo: bank-vaults.svg
+  name: Bank-Vaults
+  project: sandbox
+  repo_url: https://github.com/bank-vaults/bank-vaults
+- crunchbase: https://www.crunchbase.com/organization/synopsys
   description: Black Duck provides a comprehensive software composition analysis (SCA)
     solution for managing security, quality, and license compliance risk that comes
     from the use of open source and third-party code in applications and containers.
   homepage_url: https://www.synopsys.com/software-integrity/security-testing/software-composition-analysis.html
-  image_data:
-    fileName: black-duck.svg
-    hash: mL1vd/U7DsfI3frXe10cAQrjL2Ijx+UpJLK8q6aj83o=
   item: null
   logo: blackduck.svg
   name: Black Duck
   twitter: https://twitter.com/sw_integrity
-  twitter_data:
-    latest_tweet_date: 2022-08-05 14:23:57+00:00
-  yahoo_finance_data:
-    effective_ticker: SNPS
-    market_cap: 57255141376
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/bloombase
-  crunchbase_data:
-    acquisitions: []
-    city: Redwood City
-    company_type: For Profit
-    country: United States
-    description: '#Bloombase is the intelligent storage firewall company'
-    homepage: https://www.bloombase.com
-    industries:
-    - Cyber Security
-    - Information Technology
-    - Network Security
-    - Security
-    - Software
-    linkedin: https://www.linkedin.com/company/Bloombase
-    name: Bloombase
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/Bloombase
-  homepage_url: https://www.bloombase.com/
-  image_data:
-    fileName: bloombase.svg
-    hash: tyaJrAPecwADyrul6YVPpPFCw/G59sxuI94UuCtBAqM=
+- crunchbase: https://www.crunchbase.com/organization/bloombase
+  description: Bloombase is an intelligent storage firewall company providing AI-accelerated
+    security and PQC encryption of high-bandwidth, low-latency data cloud from edge
+    computing, physical/virtual datacenters, through HCI and CDI, to the cloud.
+  homepage_url: https://www.bloombase.com
   item: null
   logo: bloombase.svg
   name: Bloombase
-  twitter_data:
-    latest_tweet_date: 2022-07-25 14:26:22+00:00
+- crunchbase: https://www.crunchbase.com/organization/certified-security-solutions
+  description: Bouncy Castle is one of the most widely used FIPS-certified open-source
+    cryptographic APIs for Java and C#, allowing developers to easily integrate  PKI
+    security into their applications.
+  extra:
+    github_discussions_url: https://github.com/bcgit/bc-java/discussions
+    youtube_url: https://www.youtube.com/KeyfactorCommunity/
+  homepage_url: https://www.bouncycastle.org/
+  item: null
+  logo: community-bouncy-castle.svg
+  name: Bouncy Castle
+  repo_url: https://github.com/bcgit/bc-java
+  twitter: https://twitter.com/bccrypto
+- crunchbase: https://www.crunchbase.com/organization/hashicorp
+  description: Boundary is designed to grant access to critical systems using the
+    principle of least privilege, solving challenges organizations encounter when
+    users need to securely access applications and machines.
+  homepage_url: https://www.boundaryproject.io/
+  item: null
+  logo: Hashicorp-Boundary.svg
+  name: Boundary
+  repo_url: https://github.com/hashicorp/boundary

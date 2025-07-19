@@ -1,215 +1,37 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/hitachi
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Archivas
-      date: '2007-02-05'
-      price: 120000000
-    - acquiree: Hitachi ID Systems
-      date: '2008-04-07'
-    - acquiree: Parascale
-      date: '2010-08-20'
-    - acquiree: Aloka
-      date: '2011-06-22'
-    - acquiree: BlueArc
-      date: '2011-09-07'
-    - acquiree: Hi-Rel Electronics
-      date: '2011-10-07'
-    - acquiree: Cofio Software
-      date: '2012-09-24'
-    - acquiree: Horizon Nuclear Power
-      date: '2012-10-30'
-    - acquiree: Hitachi Payment Services
-      date: '2013-11-15'
-      price: 250000000
-    - acquiree: Ideaca
-      date: '2013-12-02'
-    - acquiree: Ignify
-      date: '2015-12-14'
-    - acquiree: ABB - Power Grids Business
-      date: '2018-12-17'
-      price: 7800000000
-    - acquiree: JR Automation Technologies
-      date: '2019-04-24'
-      price: 1425000000
-    - acquiree: GlobalLogic
-      date: '2021-03-31'
-      price: 9600000000
-    city: Tokyo
-    company_type: For Profit
-    country: Japan
-    description: Hitachi is engaged in the manufacture and sale of electronic and
-      electrical products worldwide.
-    homepage: http://www.hitachi.com
-    industries:
-    - Industrial Manufacturing
-    - Manufacturing
-    - Public Relations
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/hitachi
-    name: Hitachi
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents: []
-    region: Tokyo
-    stockExchange: tyo
-    ticker: 6501.T
-    twitter: https://twitter.com/HitachiGlobal
+- crunchbase: https://www.crunchbase.com/organization/hitachi
   homepage_url: https://www.hitachi.com
-  image_data:
-    fileName: hitachi.svg
-    hash: /7H/or5oIUDOPHfLaN7uRmbl1yZt8CTw+pIfO63sskg=
   item: null
   logo: hitachi.svg
   name: Hitachi
   twitter: https://twitter.com/hitachivantara
-  twitter_data:
-    latest_tweet_date: 2022-08-05 19:05:12+00:00
-  yahoo_finance_data:
-    effective_ticker: 6501.T
-    market_cap: 47326370787
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/hewlett-packard-enterprise
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Trilead
-      date: '2016-02-03'
-    - acquiree: Silicon Graphics
-      date: '2016-08-11'
-      price: 275000000
-    - acquiree: Simplivity
-      date: '2017-01-17'
-      price: 650000000
-    - acquiree: Cloud Cruiser
-      date: '2017-01-23'
-    - acquiree: Niara
-      date: '2017-02-01'
-    - acquiree: Nimble Storage
-      date: '2017-03-07'
-      price: 1090000000
-    - acquiree: Cloud Technology Partners
-      date: '2017-09-05'
-    - acquiree: RedPixie
-      date: '2018-04-11'
-    - acquiree: Plexxi
-      date: '2018-05-15'
-    - acquiree: BlueData Software
-      date: '2018-11-27'
-    - acquiree: MapR Technologies
-      date: '2019-08-06'
-    - acquiree: Cray
-      date: '2019-09-26'
-      price: 1400000000
-    - acquiree: Scytale.io
-      date: '2020-02-03'
-    - acquiree: Silver Peak Systems, Inc.
-      date: '2020-07-13'
-      price: 925000000
-    - acquiree: CloudPhysics
-      date: '2021-02-23'
-    - acquiree: Determined AI
-      date: '2021-06-21'
-    - acquiree: Zerto
-      date: '2021-07-01'
-      price: 374000000
-    - acquiree: Ampool
-      date: '2021-07-07'
-    city: Houston
-    company_type: For Profit
-    country: United States
-    description: Hewlett Packard Enterprise is an industry technology company that
-      enables customers to go further and faster.
-    homepage: https://www.hpe.com
-    industries:
-    - Data Center
-    - Enterprise Software
-    - IT Management
-    - Information Technology
-    - Network Security
-    - Wireless
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/hewlett-packard-enterprise
-    name: Hewlett Packard Enterprise
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents: []
-    region: Texas
-    stockExchange: nyse
-    ticker: HPE
-    twitter: https://www.twitter.com/hpe
+- crunchbase: https://www.crunchbase.com/organization/hewlett-packard-enterprise
   description: "The world\u2019s most intelligent storage, built for our hybrid cloud\
     \ world to help you unlock the full potential of your data."
   homepage_url: https://www.hpe.com/us/en/storage.html
-  image_data:
-    fileName: hpe-storage.svg
-    hash: hWBtfNQQm6ZqcORaM2BS+0AAX/3BisTE7Iqpa5cX1QY=
   item: null
   logo: hpe-storage.svg
   name: HPE Storage
   twitter: https://twitter.com/HPE_Storage
-  twitter_data:
-    latest_tweet_date: 2022-08-04 14:06:00+00:00
-  yahoo_finance_data:
-    effective_ticker: HPE
-    market_cap: 18658379776
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/huawei
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Harbour Networks Holdings
-      date: '2006-09-11'
-    - acquiree: 3Leaf
-      date: '2011-02-19'
-    - acquiree: Huawei Symantec Technologies
-      date: '2011-11-14'
-    - acquiree: Centre for Integrated Photonics
-      date: '2012-01-26'
-    - acquiree: Neul
-      date: '2014-09-22'
-      price: 25000000
-    - acquiree: Toga Networks
-      date: '2016-12-07'
-    - acquiree: HexaTier
-      date: '2016-12-27'
-      price: 42000000
-    - acquiree: Vokord Telekom Zao
-      date: '2019-06-03'
-      price: 50000000
-    - acquiree: Vocord
-      date: '2019-06-04'
-    city: Shenzhen
-    company_type: For Profit
-    country: China
-    description: Huawei Technologies provides infrastructure application software
-      and devices with wireline, wireless, and IP technologies.
-    funding: 0
-    homepage: http://huawei.com
-    industries:
-    - Information and Communications Technology (ICT)
-    - Software
-    - Web Hosting
-    - Wireless
-    linkedin: https://www.linkedin.com/company/huawei/
-    name: Huawei Technologies
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents: []
-    region: Guangdong
-    stockExchange: null
-    twitter: https://twitter.com/Huawei
+- crunchbase: https://www.crunchbase.com/organization/huawei
   description: Ubiquitous Storage Unleashes Data Power
   homepage_url: https://e.huawei.com/en/products/storage
-  image_data:
-    fileName: huawei.svg
-    hash: mHVrII9LfaQH2KqZmMwccwZdOEgkoKregz2+bez3VHE=
   item: null
   logo: huawei.svg
   name: Huawei
-  twitter_data:
-    latest_tweet_date: 2022-08-05 13:11:06+00:00
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Hwameistor is an HA local storage system for cloud-native stateful
+    workloads
+  extra:
+    accepted: '2023-06-22'
+    artwork_url: https://github.com/cncf/artwork/tree/master/projects/hwameistor
+    blog_url: https://hwameistor.io/blog
+    clomonitor_name: hwameistor
+    dev_stats_url: https://hwameistor.devstats.cncf.io/
+    slack_url: https://cloud-native.slack.com/messages/hwameistor
+  homepage_url: https://hwameistor.io/
+  item: null
+  logo: hwameistor.svg
+  name: HwameiStor
+  project: sandbox
+  repo_url: https://github.com/hwameistor/hwameistor
+  twitter: https://twitter.com/daocloud_io

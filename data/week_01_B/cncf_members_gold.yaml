@@ -1,74 +1,12 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/baidu
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Hao123.com
-      date: '2004-09-16'
-    - acquiree: Qunar.com
-      date: '2011-06-24'
-    - acquiree: ES APP Group
-      date: '2013-01-01'
-      price: 3199655
-    - acquiree: TrustGo
-      date: '2013-02-13'
-      price: 30000000
-    - acquiree: PPS
-      date: '2013-05-07'
-    - acquiree: Blogfarki.com
-      date: '2013-07-15'
-      price: 1900000000
-    - acquiree: Beijing Huanxiang Zongheng Chinese Literature
-      date: '2013-12-27'
-    - acquiree: Peixe Urbano
-      date: '2014-10-09'
-    - acquiree: Anquanbao
-      date: '2015-04-16'
-    - acquiree: popIn
-      date: '2015-05-01'
-    - acquiree: Raven Tech
-      date: '2017-02-16'
-    - acquiree: XPerception
-      date: '2017-04-13'
-    - acquiree: KITT.AI
-      date: '2017-07-05'
-    - acquiree: REDFINGER
-      date: '2020-06-10'
-      price: 7081150
-    - acquiree: JOYY
-      date: '2020-11-16'
-      price: 3600000000
-    city: Beijing
-    company_type: For Profit
-    country: China
-    description: Baidu is a search engine that enables individuals to obtain information
-      and finds what they need.
-    funding: 26200000
-    homepage: http://www.baidu.com
-    industries:
-    - Internet
-    - Search Engine
-    - Social Network
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/baidu-inc
-    name: Baidu
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents: []
-    region: Beijing
-    stockExchange: hkg
-    ticker: 9888.HK
-    twitter: https://twitter.com/BaiduResearch
+- crunchbase: https://www.crunchbase.com/organization/baidu
   homepage_url: https://cloud.baidu.com/
-  image_data:
-    fileName: baidu-member.svg
-    hash: 0ShspdW/N045Ryc7gX0bMphTtFTKgIYW5+CElI6p74g=
   item: null
+  joined: '2017-12-01'
   logo: baidu-member.svg
   name: Baidu (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-03 16:00:04+00:00
-  yahoo_finance_data:
-    effective_ticker: 9888.HK
-    market_cap: 46561900800
+- crunchbase: https://www.crunchbase.com/organization/broadcom
+  homepage_url: https://www.broadcom.com/
+  item: null
+  joined: '2025-01-01'
+  logo: broadcom.svg
+  name: Broadcom (member)

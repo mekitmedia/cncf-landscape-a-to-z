@@ -1,77 +1,7 @@
-- best_practice_data:
-    badge: 4986
-    percentage: 58
-  crunchbase: https://www.crunchbase.com/organization/infracloud-technologies
-  crunchbase_data:
-    acquisitions: []
-    city: Newark
-    company_type: For Profit
-    country: United States
-    description: We unleash growth by helping companies adopt cloud native technologies
-      with our products and services!
-    homepage: https://www.infracloud.io/
-    industries:
-    - Consulting
-    - Information Technology
-    - Software
-    - Software Engineering
-    linkedin: https://www.linkedin.com/company/infracloudio
-    name: InfraCloud
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: Delaware
-    stockExchange: null
-    twitter: https://twitter.com/infracloudio
-  github_data:
-    contributions: 1;11;2;4;5;5;7;1;5;5;8;4;5;12;1;3;1;2;1;3;3;1;2;2;2;3;7;3;3;4;0;6;1;0;4;4;7;2;2;4;0;5;1;3;7;0;3;4;4;3;1;3
-    contributors_count: 143
-    contributors_link: https://github.com/fission/fission/graphs/contributors
-    description: Fast and Simple Serverless Functions for Kubernetes
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 1561407
-    - color: '#89e051'
-      name: Shell
-      value: 184889
-    - color: '#427819'
-      name: Makefile
-      value: 3697
-    - color: '#f1e05a'
-      name: JavaScript
-      value: 3342
-    - name: Mustache
-      value: 2553
-    - name: HCL
-      value: 1275
-    - color: '#384d54'
-      name: Dockerfile
-      value: 601
-    - color: '#3572A5'
-      name: Python
-      value: 429
-    latest_commit_date: '2022-08-05T10:39:34Z'
-    latest_commit_link: /fission/fission/commit/9343eb9911e1c589f0b97104a3e428ee710134bd
-    license: Apache License 2.0
-    release_date: '2022-07-06T10:26:53Z'
-    release_link: https://github.com/fission/fission/releases
-    stars: 7115
-  github_start_commit_data:
-    start_commit_link: /fission/fission/commit/90c14cfa0808aa1d63ea55ad87bee0f651f45091
-    start_date: '2016-08-19T04:35:42Z'
+- crunchbase: https://www.crunchbase.com/organization/infracloud-technologies
   homepage_url: https://fission.io/
-  image_data:
-    fileName: fission.svg
-    hash: VHSmwOeiox+3cwKQdQLye6H3bC/c7MUl0AbeQoLpJcI=
   item: null
   logo: fission.svg
   name: Fission
   repo_url: https://github.com/fission/fission
-  repos:
-  - stars: 7115
-    url: https://github.com/fission/fission
   twitter: https://twitter.com/fissionio
-  twitter_data:
-    latest_tweet_date: 2022-08-05 06:10:00+00:00

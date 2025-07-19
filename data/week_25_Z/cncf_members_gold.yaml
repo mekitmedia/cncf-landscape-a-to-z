@@ -1,36 +1,6 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/zte-corporation
-  crunchbase_data:
-    acquisitions: []
-    city: Shenzhen
-    company_type: For Profit
-    country: China
-    description: ZTE provides telecommunications equipment and network solutions.
-    homepage: http://zte.com.cn
-    industries:
-    - Network Hardware
-    - Telecommunications
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/5804
-    name: ZTE
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents: []
-    region: Guangdong
-    stockExchange: szse
-    ticker: 000063.SZ
-    twitter: https://twitter.com/ZTEPress
+- crunchbase: https://www.crunchbase.com/organization/zte-corporation
   homepage_url: https://www.zte.com.cn/global/
-  image_data:
-    fileName: zte-member.svg
-    hash: 9G7dW4A20SuKnQV8Bdq4LqOrk+7ma5niwcsjydslfVc=
   item: null
+  joined: '2017-07-01'
   logo: zte-kcsp.svg
   name: ZTE (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 10:25:16+00:00
-  yahoo_finance_data:
-    effective_ticker: 000063.SZ
-    market_cap: 16359645340

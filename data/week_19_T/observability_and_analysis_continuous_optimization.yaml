@@ -1,42 +1,10 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/turbonomic
-  crunchbase_data:
-    acquisitions:
-    - acquiree: ParkMyCloud
-      date: '2019-05-10'
-    - acquiree: SevOne
-      date: '2019-11-04'
-    city: Boston
-    company_type: For Profit
-    country: United States
-    description: Turbonomic develops tools that optimize application performance,
-      compliance, and cost in real-time.
-    funding: 149500000
-    homepage: http://www.turbonomic.com
-    industries:
-    - Application Performance Management
-    - Cloud Infrastructure
-    - Enterprise Software
-    - Information Technology
-    - Productivity Tools
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/turbonomic
-    name: Turbonomic
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: Massachusetts
-    stockExchange: null
-    twitter: https://twitter.com/turbonomic
-  homepage_url: https://turbonomic.com/
-  image_data:
-    fileName: turbonomic.svg
-    hash: BajHurx8EZpxZ7E+gzGHHqG4LJa83C5eRdl/sU/zYw8=
+- crunchbase: https://www.crunchbase.com/organization/ant-financial
+  description: Provides the ability to aggregate dispersed fault data into risk events,
+    as well as emergency response, fault localization (root cause analysis, diagnostic
+    decision trees), and fault handling (emergency self-healing, multi-active disaster
+    recovery), to achieve a full set of emergency technology risk prevention and control
+    capabilities in 1 minute discovery - 5 minutes localization - 10 minutes recovery.
+  homepage_url: https://antchain.antgroup.com/products/biosp
   item: null
-  logo: turbonomic.svg
-  name: Turbonomic
-  twitter_data:
-    latest_tweet_date: 2022-08-05 15:52:06+00:00
+  logo: traas-has.svg
+  name: TRaaS HAS

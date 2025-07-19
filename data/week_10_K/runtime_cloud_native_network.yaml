@@ -1,213 +1,25 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/kilo
-  crunchbase_data:
-    acquisitions: []
-    city: Berlin
-    company_type: ''
-    country: Germany
-    description: Kilo is a multi-cloud network overlay built on WireGuard and designed
-      for Kubernetes (k8s + wg = kg)
-    homepage: https://kilo.squat.ai
-    industries: []
-    linkedin: null
-    name: Kilo
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Berlin
-    stockExchange: null
-    twitter: null
-  github_data:
-    contributions: 1;6;3;0;6;0;1;4;1;1;10;0;3;0;1;0;0;0;0;2;0;4;2;0;0;4;0;1;0;4;0;0;0;10;3;7;18;10;0;0;2;0;0;0;1;0;1;0;3;2;0;1
-    contributors_count: 24
-    contributors_link: https://github.com/squat/kilo/graphs/contributors
-    description: Kilo is a multi-cloud network overlay built on WireGuard and designed
-      for Kubernetes (k8s + wg = kg)
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 352399
-    - color: '#89e051'
-      name: Shell
-      value: 15270
-    - color: '#427819'
-      name: Makefile
-      value: 12793
-    - color: '#f1e05a'
-      name: JavaScript
-      value: 5412
-    - color: '#563d7c'
-      name: CSS
-      value: 1463
-    - color: '#384d54'
-      name: Dockerfile
-      value: 1013
-    latest_commit_date: '2022-08-05T21:24:50Z'
-    latest_commit_link: /squat/kilo/commit/1921c6a2124f3d34907dd5c803c4466c55e7814a
-    license: Apache License 2.0
-    release_date: '2022-04-27T11:00:32Z'
-    release_link: https://github.com/squat/kilo/releases
-    stars: 1476
-  github_start_commit_data:
-    start_commit_link: /squat/kilo/commit/e989f0a25f571c256e2bae90ec8fe8146bcef05f
-    start_date: '2019-01-18T01:50:10Z'
+- crunchbase: https://www.crunchbase.com/organization/kilo
   homepage_url: https://kilo.squat.ai
-  image_data:
-    fileName: kilo.svg
-    hash: pvDrleJPQONyaoSLrNNt9iGop0GgW2idUGnPpqyWyD0=
   item: null
   logo: kilo.svg
   name: Kilo
   repo_url: https://github.com/squat/kilo
-  repos:
-  - stars: 1476
-    url: https://github.com/squat/kilo
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Kubernetes
-      date: '2016-03-10'
-    - acquiree: RethinkDB
-      date: '2017-02-06'
-      price: 25000
-    city: San Francisco
-    company_type: Non Profit
-    country: United States
-    description: CNCF is an open source software foundation that hosts and nurtures
-      projects like Kubernetes and Prometheus.
-    funding: 3000000
-    homepage: https://www.cncf.io
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Non Profit
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
-    name: Cloud Native Computing Foundation (CNCF)
-    num_employees_max: 50
-    num_employees_min: 11
-    parents:
-    - https://www.crunchbase.com/organization/linux-foundation
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/CloudNativeFdn
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   extra:
     accepted: '2021-01-26'
-    slack_url: https://kube-ovn-slackin.herokuapp.com/
-  github_data:
-    contributions: 22;31;23;13;32;27;10;15;3;24;23;27;38;6;6;10;16;24;21;22;34;19;19;17;11;1;12;11;23;18;11;6;13;14;8;4;14;19;3;19;11;10;7;8;11;18;10;16;12;18;10;10
-    contributors_count: 76
-    contributors_link: https://github.com/kubeovn/kube-ovn/graphs/contributors
-    description: A Bridge between SDN and Cloud Native (Project under CNCF)
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 1418760
-    - color: '#427819'
-      name: Makefile
-      value: 21429
-    - color: '#555555'
-      name: C
-      value: 6174
-    - color: '#89e051'
-      name: Shell
-      value: 4563
-    - name: Jinja
-      value: 1379
-    latest_commit_date: '2022-08-05T09:13:22Z'
-    latest_commit_link: /kubeovn/kube-ovn/commit/42812b92ef1766de0d5d80db3935231d277be052
-    license: Apache License 2.0
-    release_date: '2022-07-18T15:13:10Z'
-    release_link: https://github.com/kubeovn/kube-ovn/releases
-    stars: 1336
-  github_start_commit_data:
-    start_commit_link: /alauda/kube-ovn/commit/d69f7cb831345bf5d8c29f9c0fe97a6636f5b6d6
-    start_date: '2018-10-25T11:54:38Z'
-  homepage_url: https://kubeovn.github.io/docs/en/
-  image_data:
-    fileName: kube-ovn.svg
-    hash: QaVV7Sjm82xM2vaPdwOurjL7buTHE3kBkk61YjLgXqg=
+    annual_review_date: '2023-07-10'
+    annual_review_url: https://github.com/cncf/toc/pull/1112
+    clomonitor_name: kube-ovn
+    slack_url: https://communityinviter.com/apps/kube-ovn/kube-ovn
+  homepage_url: https://kube-ovn.io
   item: null
   logo: kube-ovn.svg
   name: Kube-OVN
   project: sandbox
   repo_url: https://github.com/kubeovn/kube-ovn
-  repos:
-  - stars: 1336
-    url: https://github.com/kubeovn/kube-ovn
   twitter: https://twitter.com/KubeOvn
-  twitter_data:
-    latest_tweet_date: 2022-07-21 07:51:57+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-labs
-  crunchbase_data:
-    acquisitions: []
-    city: Hyderabad
-    company_type: For Profit
-    country: India
-    description: Creator of kube-router
-    homepage: https://cloudnativelabs.github.io/
-    industries: []
-    linkedin: null
-    name: Cloud Native Labs
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Andhra Pradesh
-    stockExchange: null
-    twitter: https://twitter.com/cloudnativelabs
-  github_data:
-    contributions: 6;3;0;6;13;5;0;1;0;2;0;3;2;2;0;0;17;3;7;2;1;1;1;1;0;8;0;1;2;1;4;4;6;3;2;0;0;2;1;1;3;3;9;4;1;6;3;1;0;5;2;4
-    contributors_count: 114
-    contributors_link: https://github.com/cloudnativelabs/kube-router/graphs/contributors
-    description: Kube-router, a turnkey solution for Kubernetes networking.
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 576522
-    - color: '#89e051'
-      name: Shell
-      value: 10643
-    - color: '#427819'
-      name: Makefile
-      value: 9091
-    - color: '#384d54'
-      name: Dockerfile
-      value: 2053
-    - color: '#199f4b'
-      name: Vim script
-      value: 38
-    latest_commit_date: '2022-07-31T16:56:17Z'
-    latest_commit_link: /cloudnativelabs/kube-router/commit/48fe83d1701800c5cee137d4172526508b968718
-    license: Apache License 2.0
-    release_date: '2022-07-30T00:50:40Z'
-    release_link: https://github.com/cloudnativelabs/kube-router/releases
-    stars: 1939
-  github_start_commit_data:
-    start_commit_link: /cloudnativelabs/kube-router/commit/04a5cc033a54769db7e05fc62afb23ae93d61f47
-    start_date: '2017-04-17T05:03:09Z'
-  homepage_url: https://www.kube-router.io
-  image_data:
-    fileName: kube-router.svg
-    hash: wqidf9eA/8RQh+XXd+XnrI4ErYAjsXkpgDEYXj+63XM=
+- homepage_url: https://www.kube-router.io
   item: null
   logo: kube-router.svg
   name: Kube-router
   repo_url: https://github.com/cloudnativelabs/kube-router
-  repos:
-  - stars: 1939
-    url: https://github.com/cloudnativelabs/kube-router
-  twitter_data:
-    latest_tweet_date: 2019-01-30 03:26:20+00:00

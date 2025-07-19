@@ -1,36 +1,5 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/dashbird
-  crunchbase_data:
-    acquisitions: []
-    city: Tallinn
-    company_type: For Profit
-    country: Estonia
-    description: "AWS Lambda monitoring & debugging platform. \nServerless observability\
-      \ & troubleshooting.\n\nServerless monitoring."
-    funding: 2900000
-    homepage: https://dashbird.io/
-    industries:
-    - Application Performance Management
-    - Developer Tools
-    - SaaS
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/11414046/
-    name: Dashbird
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: Harjumaa
-    stockExchange: null
-    twitter: https://twitter.com/thedashbird
+- crunchbase: https://www.crunchbase.com/organization/dashbird
   homepage_url: https://dashbird.io/
-  image_data:
-    fileName: dashbird.svg
-    hash: 9B4QbKBsojGeLHjBKqZJtBdfqA3ertoPKaVdsziMNIs=
   item: null
   logo: dashbird.svg
   name: Dashbird
-  twitter_data:
-    latest_tweet_date: 2022-07-23 01:36:00+00:00

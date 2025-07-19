@@ -1,391 +1,48 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/concur-technologies
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Etap-On-Line
-      date: '2009-08-03'
-    - acquiree: TripIt
-      date: '2011-01-13'
-    - acquiree: GlobalExpense
-      date: '2011-06-07'
-    - acquiree: conTgo
-      date: '2013-03-12'
-    - acquiree: TRX
-      date: '2013-07-16'
-    - acquiree: Hipmunk
-      date: '2016-09-13'
-      price: 58000000
-    city: Bellevue
-    company_type: For Profit
-    country: United States
-    description: SAP Concur engages in developing travel management software and solutions.
-    funding: 291754092
-    homepage: http://www.concur.com
-    industries:
-    - Cloud Management
-    - Payments
-    - SaaS
-    - Software
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/sapconcur/
-    name: SAP Concur
-    num_employees_max: 5000
-    num_employees_min: 1001
-    parents:
-    - https://www.crunchbase.com/organization/sap
-    region: Washington
-    stockExchange: nasdaq
-    ticker: SAP
-    twitter: https://twitter.com/SAPConcur
-  homepage_url: https://www.concur.com/
-  image_data:
-    fileName: sap-concur-supporter.svg
-    hash: SDfv93scVqX7WZrUEVapqnK663Zzq52pvGSsNmt1Fd0=
+- crunchbase: https://www.crunchbase.com/organization/sap
+  description: "SAP Labs Network is formed by SAP\u2019s core research and development\
+    \ entities focused on developing  and constantly improving SAP's enterprise solutions\
+    \ and cloud products. With 21 labs in 19 countries,  the network drives thought\
+    \ leadership globally and in local ecosystems, allowing SAP to innovate,  grow,\
+    \ and succeed, while leveraging and contributing to numerous CNCF cloud native\
+    \ projects. "
+  homepage_url: https://www.sap.com/about/company/innovation/labs.html
   item: null
-  logo: sap-concur-supporter.svg
-  name: SAP Concur (supporter)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 18:01:44+00:00
-  yahoo_finance_data:
-    effective_ticker: SAP
-    market_cap: 110597373952
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/shopify
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Select Start Studios
-      date: '2012-02-01'
-    - acquiree: Jet Cooper
-      date: '2013-08-01'
-    - acquiree: Kit
-      date: '2016-04-13'
-    - acquiree: Boltmade
-      date: '2016-10-03'
-    - acquiree: Tiny Hearts
-      date: '2016-12-05'
-    - acquiree: Oberlo
-      date: '2017-05-11'
-      price: 15000000
-    - acquiree: Return Magic
-      date: '2018-06-20'
-    - acquiree: Tictail
-      date: '2018-11-21'
-    - acquiree: Helpful
-      date: '2019-01-01'
-    - acquiree: Handshake
-      date: '2019-05-23'
-    - acquiree: 6 River Systems
-      date: '2019-09-10'
-      price: 450000000
-    - acquiree: Primer
-      date: '2021-06-11'
-    - acquiree: Dovetale
-      date: '2022-04-11'
-    - acquiree: Deliverr
-      date: '2022-05-05'
-      price: 2100000000
-    city: Ottawa
-    company_type: For Profit
-    country: Canada
-    description: Shopify is a cloud-based, multi-channel commerce platform designed
-      for small and medium-sized businesses.
-    funding: 122250000
-    homepage: http://www.shopify.com
-    industries:
-    - E-Commerce
-    - E-Commerce Platforms
-    - Enterprise Software
-    - SaaS
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/shopify
-    name: Shopify
-    num_employees_max: 10000
-    num_employees_min: 5001
-    parents: []
-    region: Ontario
-    stockExchange: nyse
-    ticker: SHOP
-    twitter: http://twitter.com/shopify
+  joined: '2017-10-01'
+  logo: sap.svg
+  name: SAP Labs (supporter)
+- crunchbase: https://www.crunchbase.com/organization/shopify
   homepage_url: https://www.shopify.com/
-  image_data:
-    fileName: shopify-supporter.svg
-    hash: 2Tbp0NX3VQ8cbR9bDlvcon8+4ezB0BM9IVw5qlMXeIw=
   item: null
+  joined: '2017-12-01'
   logo: shopify-supporter.svg
   name: Shopify (supporter)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 18:40:36+00:00
-  yahoo_finance_data:
-    effective_ticker: SHOP
-    market_cap: 52910981120
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/sky-betting-and-gaming
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Core Gaming
-      date: '2016-06-08'
-    city: Leeds
-    company_type: For Profit
-    country: United Kingdom
-    description: "aiming to be the UK\u2019s best digital business."
-    homepage: https://www.skybet.com/
-    industries:
-    - Gambling
-    - eSports
-    linkedin: https://www.linkedin.com/company/sky-betting-and-gaming
-    name: Sky Betting and Gaming
-    num_employees_max: 5000
-    num_employees_min: 1001
-    parents: []
-    region: Leeds
-    stockExchange: null
-    twitter: https://twitter.com/SkyBet
+- crunchbase: https://www.crunchbase.com/organization/sky-betting-and-gaming
   homepage_url: https://www.skybet.com/
-  image_data:
-    fileName: sky-betting-gaming-supporter.svg
-    hash: Lco36hmPUzvRsCrZd40g2BP/W7NtT8RzfKv0aPZbJfM=
   item: null
+  joined: '2019-10-01'
   logo: sky-bet.svg
   name: Sky Betting & Gaming (supporter)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 21:57:24+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/skyline-network-technologies
-  crunchbase_data:
-    acquisitions: []
-    city: Glen Burnie
-    company_type: For Profit
-    country: United States
-    description: Skyline Technology Solutions is a technology consulting firm focusing
-      on IT services, video sharing, and cybersecurity.
-    homepage: http://www.skylinenet.net
-    industries:
-    - Consulting
-    - Cyber Security
-    - Information Technology
-    - Security
-    - Video
-    linkedin: https://www.linkedin.com/company/skyline-technology-solutions
-    name: Skyline Technology Solutions
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: Maryland
-    stockExchange: null
-    twitter: https://www.twitter.com/skylinetech_
+- crunchbase: https://www.crunchbase.com/organization/skyline-network-technologies
   homepage_url: https://www.skylinenet.net/
-  image_data:
-    fileName: skyline-technology-solutions-supporter.svg
-    hash: 1badRhh9jCHnI+uYPfgtz2YijmriHkUk0750Tew5rlw=
   item: null
+  joined: '2021-10-01'
   logo: skyline.svg
   name: Skyline Technology Solutions (supporter)
-  twitter_data:
-    latest_tweet_date: 2022-08-03 15:35:14+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/sncf
-  crunchbase_data:
-    acquisitions:
-    - acquiree: OuiCar
-      date: '2015-07-01'
-      price: 30937551
-    city: "Saint-denis-l\xE8s-rebais"
-    company_type: For Profit
-    country: France
-    description: SNCF is a travel and logistics service provider company. SNCF runs
-      and manages SNCF voyage
-    homepage: http://www.sncf.com
-    industries:
-    - Automotive
-    - Public Transportation
-    - Railroad
-    - Transportation
-    - Travel
-    linkedin: https://www.linkedin.com/company/sncf
-    name: SNCF
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents: []
-    region: Ile-de-France
-    stockExchange: null
-    twitter: https://twitter.com/SNCF
+- crunchbase: https://www.crunchbase.com/organization/sncf
   homepage_url: https://www.sncf.com/fr
-  image_data:
-    fileName: sncf-supporter.svg
-    hash: mENHeJ0TRdLvmPHZ7Ax0VOGno5cyDQcN8uCYZogFjeo=
   item: null
+  joined: '2022-03-01'
   logo: sncf.svg
   name: SNCF (supporter)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 21:39:21+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/snow-software
-  crunchbase_data:
-    acquisitions:
-    - acquiree: The Institution AB
-      date: '2015-02-18'
-    - acquiree: Igap Technology
-      date: '2015-02-25'
-    - acquiree: Embotics
-      date: '2019-12-03'
-    city: Solna
-    company_type: For Profit
-    country: Sweden
-    description: Snow is changing the way organizations understand and manage technology
-      consumption.
-    funding: 120000000
-    homepage: https://www.snowsoftware.com
-    industries:
-    - Data Center
-    - Enterprise Software
-    - Mobile
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/snow-software-ab
-    name: Snow Software
-    num_employees_max: 1000
-    num_employees_min: 501
-    parents: []
-    region: Stockholms Lan
-    stockExchange: null
-    twitter: https://twitter.com/SnowSoftware
-  homepage_url: https://www.snowsoftware.com
-  image_data:
-    fileName: snow-software-supporter.svg
-    hash: 422nz10ZBf/G1d+jx1TTqjJIlayzH37HKo9AUwz8V0Q=
-  item: null
-  logo: snow-software.svg
-  name: Snow Software (supporter)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 19:01:18+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/sony-interactive-entertainment
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Audiokinetic
-      date: '2019-01-08'
-    - acquiree: Insomniac Games
-      date: '2019-08-20'
-    - acquiree: Housemarque
-      date: '2021-06-29'
-    - acquiree: FireSprite
-      date: '2021-09-08'
-    - acquiree: Bungie
-      date: '2022-01-31'
-      price: 3600000000
-    - acquiree: Repeat
-      date: '2022-07-18'
-    city: Tokyo
-    company_type: For Profit
-    country: Japan
-    description: Sony Interactive Entertainment is responsible for the PlayStation
-      brand and family of products and services.
-    homepage: https://www.sie.com
-    industries:
-    - Consumer Goods
-    - Music
-    - Video Games
-    linkedin: null
-    name: Sony Interactive Entertainment
-    num_employees_max: 5000
-    num_employees_min: 1001
-    parents: []
-    region: Tokyo
-    stockExchange: null
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/sony-interactive-entertainment
   homepage_url: https://www.sie.com/en/index.html
-  image_data:
-    fileName: sony-interactive-entertainment-supporter.svg
-    hash: ESx7/FgltcESpoJU8e9QKqmRk6GAepD9ccFc/VNkFgE=
   item: null
+  joined: '2019-09-01'
   logo: sony-interactive-entertainment.svg
   name: Sony Interactive Entertainment (supporter)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/springer-nature
-  crunchbase_data:
-    acquisitions:
-    - acquiree: iversity
-      date: '2017-11-14'
-    - acquiree: Atlantis Press
-      date: '2021-03-10'
-    city: London
-    company_type: For Profit
-    country: United Kingdom
-    description: Springer Nature is a leading global research, educational and professional
-      publisher, home to an array of respected and trusted brands
-    homepage: http://www.springernature.com/in/
-    industries:
-    - Communities
-    - Education
-    - Product Research
-    - Public Relations
-    - Publishing
-    linkedin: https://www.linkedin.com/company/springer-nature
-    name: Springer Nature
-    num_employees_max: 1000
-    num_employees_min: 501
-    parents: []
-    region: England
-    stockExchange: null
-    twitter: https://www.twitter.com/springernature
-  homepage_url: https://www.springernature.com/gp
-  image_data:
-    fileName: springer-nature-supporter.svg
-    hash: 15/9uOorJLJiXpZnC8hD/kn2OhAHRNGtl3IZhgR+dZg=
+- crunchbase: https://www.crunchbase.com/organization/swiss-post
+  homepage_url: https://www.swisspost.com/
   item: null
-  logo: springer-nature.svg
-  name: Springer Nature (supporter)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 15:07:16+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/state-farm-insurance
-  crunchbase_data:
-    acquisitions: []
-    city: Bloomington
-    company_type: For Profit
-    country: United States
-    description: State Farm is a insurance company that offers insurance and financial
-      services.
-    homepage: http://www.statefarm.com
-    industries:
-    - Communities
-    - Finance
-    - Financial Services
-    - Health Insurance
-    - Insurance
-    - Life Insurance
-    linkedin: https://www.linkedin.com/company/state_farm
-    name: State Farm Insurance
-    num_employees_max: 10000
-    num_employees_min: 5001
-    parents: []
-    region: Illinois
-    stockExchange: null
-    twitter: http://twitter.com/StateFarm
-  homepage_url: https://www.statefarm.com/
-  image_data:
-    fileName: state-farm-supporter.svg
-    hash: avvicU3En+BjjNdYlPmWRHO+L5I9Oij8BCq1cBikJYI=
-  item: null
-  logo: state-farm-supporter.svg
-  name: State Farm (supporter)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 20:52:18+00:00
+  joined: '2023-07-01'
+  logo: swisspost.svg
+  name: Swiss Post (supporter)

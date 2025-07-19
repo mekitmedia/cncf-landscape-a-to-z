@@ -1,1110 +1,189 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/t-systems-cis
-  crunchbase_data:
-    acquisitions: []
-    city: Frankfurt
-    company_type: For Profit
-    country: Germany
-    description: Great flexibility thanks to managed container services for multi
-      and hybrid cloud structures
-    homepage: https://www.t-systems.com
-    industries:
-    - Information Technology
-    - Software
-    linkedin: https://www.linkedin.com/company/t-systems
-    name: T-Systems CIS
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents: []
-    region: Hessen
-    stockExchange: null
-    twitter: https://www.twitter.com/tsystemscom
-  homepage_url: https://www.t-systems.com/de/en
-  image_data:
-    fileName: t-systems-member.svg
-    hash: kBCyrN63AioeXQ1ojZkeEIm0DbLwrqmrhjMSzOPMBBE=
+- crunchbase: https://www.crunchbase.com/organization/t-systems
+  homepage_url: https://www.t-systems.com
   item: null
-  logo: tsystems.svg
+  joined: '2021-06-01'
+  logo: t-systems.svg
   name: T-Systems (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 09:22:34+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/teamsun-technology-co
-  crunchbase_data:
-    acquisitions: []
-    city: Beijing
-    company_type: For Profit
-    country: China
-    description: Teamsun Technology offers IT applications and services for the development
-      of computer information systems.
-    funding: 73654551
-    homepage: http://www.teamsun.com.cn/
-    industries:
-    - Cloud Computing
-    - Information Services
-    - Internet of Things
-    - Mobile
-    kind: market_cap
-    linkedin: null
-    name: Teamsun Technology Co.
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: Beijing
-    stockExchange: sse
-    ticker: 600410.SS
-    twitter: null
-  homepage_url: http://www.teamsun.com.cn/
-  image_data:
-    fileName: teamsun-member.svg
-    hash: ArcSi4OsW9KV+jN7ySOveDLRUPSqOm+F3vIYqFYjq7A=
+- crunchbase: https://www.crunchbase.com/organization/itera-technologies-a-s
+  homepage_url: https://taikun.cloud
   item: null
-  logo: teamsun.svg
-  name: Teamsun (member)
-  yahoo_finance_data:
-    effective_ticker: 600410.SS
-    market_cap: 935941437
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/gravitational
-  crunchbase_data:
-    acquisitions: []
-    city: Oakland
-    company_type: For Profit
-    country: United States
-    description: Teleport access plane consolidates connectivity, authentication,
-      authorization, and audit into a single platform.
-    funding: 169200000
-    homepage: http://goteleport.com/
-    industries:
-    - Cloud Data Services
-    - Cloud Infrastructure
-    - Identity Management
-    - Privacy
-    kind: funding
-    linkedin: https://www.linkedin.com/company/go-teleport/
-    name: Teleport
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/goteleport
+  joined: '2021-07-01'
+  logo: taikun.svg
+  name: Taikun (member)
+- crunchbase: https://www.crunchbase.com/organization/tailscale
+  homepage_url: https://tailscale.com
+  item: null
+  joined: '2025-07-01'
+  logo: tailscale.svg
+  name: Tailscale (member)
+- crunchbase: https://www.crunchbase.com/organization/tata-communications
+  homepage_url: https://www.tatacommunications.com
+  item: null
+  joined: '2024-10-01'
+  logo: tata-communications.svg
+  name: Tata Communications (member)
+- crunchbase: https://www.crunchbase.com/organization/tcc-consulting-limited
+  homepage_url: https://www.tcc-consulting.com.hk
+  item: null
+  joined: '2025-07-01'
+  logo: tcc-consulting-limited.svg
+  name: TCC Consulting Limited (member)
+- crunchbase: https://www.crunchbase.com/organization/TelemetryHub-ScoutAPM
+  homepage_url: https://www.telemetryhub.com/
+  item: null
+  joined: '2022-02-01'
+  logo: telemetryhub-scoutapm.svg
+  name: TelemetryHub by Scout APM (member)
+- crunchbase: https://www.crunchbase.com/organization/gravitational
   homepage_url: https://goteleport.com/
-  image_data:
-    fileName: teleport-member.svg
-    hash: uYtKCKS4sgCTNIKJvY9+j4YbvJIntNwscJvTUP65bCU=
   item: null
+  joined: '2017-10-01'
   logo: teleport.svg
   name: Teleport (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-06 01:19:00+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/temporal-technologies
-  crunchbase_data:
-    acquisitions: []
-    city: Bellevue
-    company_type: For Profit
-    country: United States
-    description: Temporal Technologies enables its users to build and operate resilient
-      applications using developer-friendly primitives.
-    funding: 128500000
-    homepage: https://temporal.io/
-    industries:
-    - Information Technology
-    - Internet
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/temporal-technologies
-    name: Temporal Technologies
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Washington
-    stockExchange: null
-    twitter: null
-  homepage_url: https://www.temporal.io/
-  image_data:
-    fileName: temporal-member.svg
-    hash: P3Fj6hr9bcLLtIVrhOHIRjX64kBrsC+iF7jn6OoDCoA=
+- crunchbase: https://www.crunchbase.com/organization/tempest-97c6
+  homepage_url: https://tempestdx.com
   item: null
+  joined: '2024-12-01'
+  logo: tempest.svg
+  name: Tempest (member)
+- crunchbase: https://www.crunchbase.com/organization/temporal-technologies
+  homepage_url: https://www.temporal.io/
+  item: null
+  joined: '2021-07-01'
   logo: temporal.svg
   name: Temporal (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/tenable-network-security
-  crunchbase_data:
-    acquisitions:
-    - acquiree: FlawCheck
-      date: '2016-10-26'
-    - acquiree: Indegy
-      date: '2019-12-02'
-    - acquiree: Alsid
-      date: '2021-02-10'
-      price: 98000000
-    - acquiree: Accurics
-      date: '2021-09-13'
-      price: 160000000
-    - acquiree: Cymptom
-      date: '2022-02-01'
-    - acquiree: Bit Discovery
-      date: '2022-04-26'
-      price: 44500000
-    city: Columbia
-    company_type: For Profit
-    country: United States
-    description: Tenable helps organizations to understand and reduce their cybersecurity
-      risk across the full range of modern computing assets.
-    funding: 565438430
-    homepage: http://www.tenable.com
-    industries:
-    - Compliance
-    - Network Security
-    - Risk Management
-    - Security
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/tenableinc/
-    name: Tenable
-    num_employees_max: 1000
-    num_employees_min: 501
-    parents: []
-    region: Maryland
-    stockExchange: nasdaq
-    ticker: TENB
-    twitter: http://twitter.com/TenableSecurity
-  homepage_url: https://www.tenable.com/
-  image_data:
-    fileName: tenable-member.svg
-    hash: jIjxZCNrE+jBB5zBbevc1epdey3DQ2Y0IrkePfSif4I=
-  item: null
-  logo: tenable.svg
-  name: Tenable (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 12:38:51+00:00
-  yahoo_finance_data:
-    effective_ticker: TENB
-    market_cap: 4826198528
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/tensorsecurity
-  crunchbase_data:
-    acquisitions: []
-    city: Beijing
-    company_type: ''
-    country: China
-    description: Tensor Security is a cloud-native security company focused on providing
-      AI-based and full-stack cloud-native security solutions.
-    funding: 0
-    homepage: https://www.tensorsecurity.cn/
-    industries:
-    - Software
-    linkedin: null
-    name: Tensor Security
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: Beijing
-    stockExchange: null
-    twitter: null
-  homepage_url: https://www.tensorsecurity.cn/
-  image_data:
-    fileName: tensor-security-member.svg
-    hash: hQ2J/Mzylr9twUYdsDxVt5LAK8UIBDxsp5Wbmwpj1Ak=
-  item: null
-  logo: tensor.svg
-  name: Tensor Security (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/tenxcloud
-  crunchbase_data:
-    acquisitions: []
-    city: Beijing
-    company_type: For Profit
-    country: China
-    description: TenxCloud is a provider of container cloud platforms and solutions.
-    funding: 0
-    homepage: https://www.tenxcloud.com/
-    industries:
-    - Computer
-    - Information Technology
-    - Internet
-    - Software
-    linkedin: https://www.linkedin.com/company/%E6%97%B6%E9%80%9F%E4%BA%91
-    name: TenxCloud
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Beijing
-    stockExchange: null
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/tenxcloud
   homepage_url: https://www.tenxcloud.com
-  image_data:
-    fileName: tenx-cloud-member.svg
-    hash: 6D7D72F3jw+aLm8TKMYeQuaV3crlbDy5Xi+s396QxD0=
   item: null
+  joined: '2017-03-01'
   logo: tenxcloud.svg
   name: TenxCloud (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/terasky
-  crunchbase_data:
-    acquisitions: []
-    city: Petah Tikwah
-    company_type: For Profit
-    country: Israel
-    description: TeraSky is a highly-skilled Advanced Technology Solutions Provider,
-      designing, deploying  supporting complex IT Legacy & Cloud architectures
-    homepage: http://www.terasky.com/
-    industries:
-    - Artificial Intelligence
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Consulting
-    - Cyber Security
-    - Information Technology
-    - Machine Learning
-    - Software
-    linkedin: https://www.linkedin.com/company/1510957
-    name: TeraSky
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: HaMerkaz
-    stockExchange: null
-    twitter: https://twitter.com/TeraSkycom1
+- crunchbase: https://www.crunchbase.com/organization/terasky
   homepage_url: https://www.terasky.com
-  image_data:
-    fileName: tera-sky-member.svg
-    hash: xJjsfcKWHSx7vgh1+4/WcVBgin6eC9R8jkOO9Gm7c1E=
   item: null
+  joined: '2019-07-01'
   logo: terasky.svg
   name: TeraSky (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-03 10:47:54+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/tetrate
-  crunchbase_data:
-    acquisitions: []
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: Tetrate provides enterprise-ready service mesh for all workloads
-      and all environments.
-    funding: 52500000
-    homepage: https://www.tetrate.io
-    industries:
-    - Application Performance Management
-    - Developer APIs
-    - Developer Tools
-    - SaaS
-    kind: funding
-    linkedin: https://www.linkedin.com/company/tetrate/
-    name: Tetrate
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/tetrateio
-  homepage_url: https://www.tetrate.io
-  image_data:
-    fileName: tetrate-member.svg
-    hash: 17x6dB6gXRH86feeQcS2kyDyXLD3yhzm6TC7bbgTSto=
+- crunchbase: https://www.crunchbase.com/organization/terracotta-ai
+  homepage_url: https://tryterracotta.com
   item: null
+  joined: '2025-05-01'
+  logo: terracotta-ai.svg
+  name: Terracotta AI (member)
+- crunchbase: https://www.crunchbase.com/organization/terramate
+  homepage_url: https://www.terramate.io/
+  item: null
+  joined: '2023-10-01'
+  logo: terramate.svg
+  name: Terramate (member)
+- crunchbase: https://www.crunchbase.com/organization/testifysec
+  homepage_url: https://www.testifysec.com/
+  item: null
+  joined: '2023-08-01'
+  logo: testifysec.svg
+  name: TestifySec (member)
+- crunchbase: https://www.crunchbase.com/organization/tetrate
+  homepage_url: https://www.tetrate.io
+  item: null
+  joined: '2018-10-01'
   logo: tetrate.svg
   name: Tetrate (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 21:45:05+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/teutostack
-  crunchbase_data:
-    acquisitions: []
-    city: Bielefeld
-    company_type: For Profit
-    country: Germany
-    description: teutoStack is a Germany-based company that offers its users with
-      network services and cloud-based solutions.
-    homepage: https://teutostack.de/
-    industries:
-    - Information Technology
-    - Internet
-    - Software
-    - Telecommunications
-    - Virtual Reality
-    linkedin: null
-    name: teutoStack
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Nordrhein-Westfalen
-    stockExchange: null
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/teutostack
   homepage_url: https://teuto.net/teutostack-openstack-public-cloud
-  image_data:
-    fileName: teuto-stack-member.svg
-    hash: bpfP2tGv199iPNgnDf8e3j8fs1UIg6PET3aurg4SQCc=
   item: null
+  joined: '2018-10-01'
   logo: teuto-stack-member.svg
   name: TeutoStack (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/the-scale-factory
-  crunchbase_data:
-    acquisitions: []
-    city: London
-    company_type: For Profit
-    country: United Kingdom
-    description: DevOps & Cloud Infrastructure Consultancy
-    homepage: http://www.scalefactory.com
-    industries:
-    - Cloud Computing
-    - Consulting
-    - Information Technology
-    - Infrastructure
-    - Legal
-    - Linux
-    - Software
-    linkedin: https://www.linkedin.com/company/the-scale-factory/
-    name: The Scale Factory
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: England
-    stockExchange: null
-    twitter: http://twitter.com/scalefactory
-  homepage_url: https://www.scalefactory.com
-  image_data:
-    fileName: the-scale-factory-member.svg
-    hash: RPhSCKEQvHh347H0UXuXZ3xEYXa6bx3FdSD4rYyk4aw=
+- crunchbase: https://www.crunchbase.com/organization/thales-group
+  enduser: true
+  homepage_url: https://www.thalesgroup.com/en
   item: null
+  joined: '2023-11-01'
+  logo: thales.svg
+  name: Thales (member)
+- crunchbase: https://www.crunchbase.com/organization/the-scale-factory
+  homepage_url: https://www.scalefactory.com
+  item: null
+  joined: '2019-04-01'
   logo: the-scale-factory-member.svg
   name: The Scale Factory (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 09:27:47+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/thoughtmachine
-  crunchbase_data:
-    acquisitions: []
-    city: London
-    company_type: For Profit
-    country: United Kingdom
-    description: Thought Machine is a Fintech company that builds cloud-native technology
-      to revolutionize core banking.
-    funding: 562754986
-    homepage: https://www.thoughtmachine.net
-    industries:
-    - Banking
-    - Enterprise Software
-    - FinTech
-    - Financial Services
-    - IT Infrastructure
-    kind: funding
-    linkedin: https://www.linkedin.com/company/thought-machine
-    name: Thought Machine
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: England
-    stockExchange: null
-    twitter: https://twitter.com/thoughtmachine
-  enduser: true
-  homepage_url: https://www.thoughtmachine.net/
-  image_data:
-    fileName: thought-machine-member.svg
-    hash: 6zyc85WC05NaEdwW/CHr4CF1Yf30Pal1GA9JcpPnMSE=
+- crunchbase: https://www.crunchbase.com/organization/thoras-ai
+  homepage_url: https://www.thoras.ai
   item: null
-  logo: thought-machine.svg
-  name: Thought Machine (member)
-  twitter_data:
-    latest_tweet_date: 2022-07-27 16:33:53+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/threat-stack
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Bluefyre
-      date: '2018-11-08'
-    city: Boston
-    company_type: For Profit
-    country: United States
-    description: Threat Stack operates as a cloud infrastructure security company.
-    funding: 72266785
-    homepage: https://threatstack.com
-    industries:
-    - Cloud Security
-    - SaaS
-    - Security
-    kind: funding
-    linkedin: https://www.linkedin.com/company/threat-stack-inc
-    name: Threat Stack
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: Massachusetts
-    stockExchange: null
-    twitter: https://twitter.com/threatstack
-  homepage_url: https://www.threatstack.com/
-  image_data:
-    fileName: threat-stack-member.svg
-    hash: stcAU/r6FxtSQ58lJt5Q3mXMX8P08tXh2A277rkqmVM=
-  item: null
-  logo: threat-stack.svg
-  name: Threat Stack (member)
-  twitter_data:
-    latest_tweet_date: 2022-07-25 15:00:10+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/tidu
-  crunchbase_data:
-    acquisitions: []
-    city: Changsha
-    company_type: For Profit
-    country: China
-    description: Tidu Information Technology is an AI cloud computing company, integrating
-      R&D, promotion, and innovation.
-    funding: 2880000
-    homepage: http://tiduyun.com/
-    industries:
-    - Artificial Intelligence
-    - CRM
-    - Information Technology
-    - Software
-    kind: funding
-    linkedin: null
-    name: Tidu Information Technology
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: Jiangsu
-    stockExchange: null
-    twitter: null
-  homepage_url: https://tiduyun.com/
-  image_data:
-    fileName: tidu-member.svg
-    hash: I1UqKC/dNUkC4x9qpBtznv7xqO+PEJ0iSIbf9ZAuDis=
-  item: null
-  logo: tidu.svg
-  name: Tidu (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/tigera
-  crunchbase_data:
-    acquisitions: []
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: Active, zero-trust based security for cloud-native applications
-    funding: 53000000
-    homepage: https://www.tigera.io/
-    industries:
-    - Cloud Security
-    - Compliance
-    - Cyber Security
-    - Enterprise Software
-    - Network Security
-    - Open Source
-    - SaaS
-    - Security
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/tigera/
-    name: Tigera
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/tigeraio
+  joined: '2025-05-01'
+  logo: thoras.ai.svg
+  name: Thoras.ai (member)
+- crunchbase: https://www.crunchbase.com/organization/tigera
   homepage_url: https://www.tigera.io
-  image_data:
-    fileName: tigera-member.svg
-    hash: lBBY4Zt9fJ0uTZyPAaP50X++zp1JRZR90M3gujz1WkA=
   item: null
+  joined: '2015-12-01'
   logo: tigera.svg
   name: Tigera (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 18:41:39+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/timescaledb
-  crunchbase_data:
-    acquisitions: []
-    city: New York
-    company_type: For Profit
-    country: United States
-    description: TimescaleDB is an open-source time-series database optimized for
-      fast ingest and complex queries.
-    funding: 181100000
-    homepage: http://www.timescale.com
-    industries:
-    - Computer
-    - Database
-    - Information Services
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/timescaledb
-    name: Timescale
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: New York
-    stockExchange: null
-    twitter: https://twitter.com/timescaledb
-  homepage_url: https://www.timescale.com
-  image_data:
-    fileName: timescale-member.svg
-    hash: +SA59lWzHDCkTmWYd0H5Nfi/aQkMv1fs+Yz0HonSLcE=
+- crunchbase: https://www.crunchbase.com/organization/tintri
+  homepage_url: https://tintri.com
   item: null
-  joined: '2021-02-06'
-  logo: timescale.svg
-  name: Timescale (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 17:58:39+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/tl-consulting-group
-  crunchbase_data:
-    acquisitions: []
-    city: Sydney
-    company_type: For Profit
-    country: Australia
-    description: TL Consulting Group is an independent Australian professional services
-      company focused on providing technical IT solutions.
-    homepage: https://tlconsulting.com.au/
-    industries:
-    - Information Services
-    - Information Technology
-    linkedin: https://www.linkedin.com/company/tl-consulting-group/?originalSubdomain=au
-    name: TL Consulting Group
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: New South Wales
-    stockExchange: null
-    twitter: null
-  homepage_url: https://www.tlconsulting.com.au/
-  image_data:
-    fileName: tl-consulting-group-member.svg
-    hash: NOO0QFv2CARyUSktCE7ALMv7VegWRh+PQMF6tngbNi0=
+  joined: '2024-12-01'
+  logo: tintri.svg
+  name: Tintri (member)
+- crunchbase: https://www.crunchbase.com/organization/tongtech
+  homepage_url: https://www.tongtech.com
   item: null
-  logo: tl-consulting-group.svg
-  name: TL Consulting Group (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/tmaxcloud
-  crunchbase_data:
-    acquisitions: []
-    city: Bundangdong
-    company_type: For Profit
-    country: South Korea
-    description: Tmax Cloud creates a customer-led IT environment that realizes scalability
-      and stability at the same time through a cloud platform .
-    homepage: https://www.tmax.co.kr
-    industries: []
-    linkedin: null
-    name: TmaxCloud
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: Kyonggi-do
-    stockExchange: null
-    twitter: null
-  homepage_url: http://www.tmax.co.kr/
-  image_data:
-    fileName: tmax-cloud-member.svg
-    hash: xJrriwr4qoq2J+e4cBqlugQ+QVsmVUu7skayZL+k+tE=
-  item: null
-  logo: tmaxcloud.svg
-  name: TmaxCloud (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/toyota
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Hino Ottawa-Gatineau
-      date: '2010-10-28'
-    - acquiree: Cascade Corporation
-      date: '2013-03-28'
-      price: 760000000
-    - acquiree: Daihatsu
-      date: '2016-02-12'
-    city: Tokyo
-    company_type: For Profit
-    country: Japan
-    description: Toyota is an automotive company that manufactures and markets vehicles
-      to over 170 countries and regions.
-    funding: 243600000
-    homepage: https://global.toyota
-    industries:
-    - Automotive
-    - Manufacturing
-    - Mobile
-    - Transportation
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/toyota-global/
-    name: Toyota Motor
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents: []
-    region: Tokyo
-    stockExchange: nyse
-    ticker: TM
-    twitter: https://twitter.com/ToyotaMotorCorp
+  joined: '2023-05-01'
+  logo: tongtech.svg
+  name: TongTech (member)
+- crunchbase: https://www.crunchbase.com/organization/toyota
   enduser: true
   homepage_url: https://global.toyota/
-  image_data:
-    fileName: toyota-motor-corporation-member.svg
-    hash: fbWgJv5jPnmmQY/eqMIWwmlFnqWE66TSTGjXDqu0gt8=
   item: null
+  joined: '2020-03-01'
   logo: toyota.svg
   name: Toyota Motor Corporation (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 08:30:04+00:00
-  yahoo_finance_data:
-    effective_ticker: TM
-    market_cap: 222675451904
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/traceable
-  crunchbase_data:
-    acquisitions: []
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: Traceable is a startup developing an end-to-end cloud app security
-      solution.
-    funding: 79588019
-    homepage: https://www.traceable.ai/
-    industries:
-    - Analytics
-    - Artificial Intelligence
-    - Cloud Data Services
-    - Cyber Security
-    - Data Integration
-    - Network Security
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/traceable-ai/
-    name: Traceable
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/traceableai
-  homepage_url: https://www.traceable.ai/
-  image_data:
-    fileName: traceable-member.svg
-    hash: GsfHuG1f67uYds5JQfRLT+K6UKOnPdWrznhsXvuW9qU=
-  item: null
-  logo: traceable.svg
-  name: Traceable (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 21:18:24+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/traceroute42
-  crunchbase_data:
-    acquisitions: []
-    city: Szczecin
-    company_type: For Profit
-    country: Poland
-    description: Traceroute42 provides technical expertise, guidance and knowledge,
-      managed services, and reliable support.
-    funding: 0
-    homepage: https://traceroute42.com
-    industries:
-    - Consulting
-    - Information Technology
-    - Technical Support
-    linkedin: https://www.linkedin.com/company/traceroute42/
-    name: Traceroute42 - Your go-to Kubernetes, DevOps and Cloud engineers!
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: Zachodniopomorskie
-    stockExchange: null
-    twitter: https://twitter.com/traceroute42
+- crunchbase: https://www.crunchbase.com/organization/traceroute42
   homepage_url: http://www.traceroute42.com/
-  image_data:
-    fileName: trace-route42-member.svg
-    hash: +qBnN/dX683//zn1doQwG5qNQ0e4qeGe5zLFJ/S+64I=
   item: null
+  joined: '2022-05-01'
   logo: traceroute42.svg
   name: TraceRoute42 (member)
-  twitter_data:
-    latest_tweet_date: 2022-07-29 11:12:14+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/containous
-  crunchbase_data:
-    acquisitions: []
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: Makes Networking Boring
-    funding: 11060900
-    homepage: https://traefik.io
-    industries:
-    - Data Center
-    - Infrastructure
-    - SaaS
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/traefik
-    name: Traefik Labs
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/traefik
+- crunchbase: https://www.crunchbase.com/organization/containous
   homepage_url: https://traefik.io
-  image_data:
-    fileName: traefik-labs-member.svg
-    hash: OJTdV4XxYb5oLeKZ1omCu8t2cQlPqotCzf/NW0hXp1Y=
   item: null
+  joined: '2019-03-01'
   logo: traefik-labs.svg
   name: Traefik Labs (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 18:00:59+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/translucent-computing
-  crunchbase_data:
-    acquisitions: []
-    city: Toronto
-    company_type: For Profit
-    country: Canada
-    description: Professional Services in Cloud Native DevOps and Applications with
-      Kubernetes. Cost effective consulting and implementation focused on ROI.
-    homepage: http://www.translucentcomputing.com
-    industries:
-    - Big Data
-    - Cloud Infrastructure
-    - Consulting
-    - Developer Platform
-    - Information Technology
-    - Mobile
-    - Software
-    linkedin: https://www.linkedin.com/company/translucent-computing-inc
-    name: Translucent Computing
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Ontario
-    stockExchange: null
-    twitter: http://twitter.com/translucentcomp
-  homepage_url: https://www.translucentcomputing.com/
-  image_data:
-    fileName: translucent-computing-member.svg
-    hash: a6j4DTdOdd9T/bVNbniZJAbKYHHlRs08h4tAvDwwKxg=
-  item: null
-  logo: translucent-computing.svg
-  name: Translucent Computing (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 13:01:21+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/transposit
-  crunchbase_data:
-    acquisitions: []
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: Transposit delivers connected workflow, giving TechOps and SREs visibility,
-      context, and actionability across people, processes, and APIs.
-    funding: 50400000
-    homepage: https://www.transposit.com
-    industries:
-    - Apps
-    - Developer Platform
-    - Developer Tools
-    - Information Technology
-    - SaaS
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/transposit
-    name: Transposit
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/transposit
-  homepage_url: https://www.transposit.com/
-  image_data:
-    fileName: transposit-member.svg
-    hash: GHsld0KQdzHZS6kz3JofJXZlSkw9PDslOMClROtIYEQ=
-  item: null
-  logo: transposit.svg
-  name: Transposit (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 17:12:50+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/transwarp
-  crunchbase_data:
-    acquisitions: []
-    city: Xuhui
-    company_type: For Profit
-    country: China
-    description: Transwarp develops big data software technologies for enterprises.
-    funding: 189181487
-    homepage: http://www.transwarp.io/
-    industries:
-    - Big Data
-    - Data Center
-    - Information Technology
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/%E6%98%9F%E7%8E%AF%E4%BF%A1%E6%81%AF%E7%A7%91%E6%8A%80%EF%BC%88%E4%B8%8A%E6%B5%B7%EF%BC%89%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/
-    name: Transwarp
-    num_employees_max: 1000
-    num_employees_min: 501
-    parents: []
-    region: Shanghai
-    stockExchange: null
-    twitter: https://twitter.com/transwarp_data
-  homepage_url: https://transwarp.cn
-  image_data:
-    fileName: transwarp-technologies-member.svg
-    hash: vZsTRqbc+x+4BhuaLkWdyR5v4FGAcN8NgAgpyJAFLfk=
-  item: null
-  logo: transwarp-technologies-member.svg
-  name: Transwarp Technologies (member)
-  twitter_data:
-    latest_tweet_date: 2018-03-11 05:46:08+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/travelping-gmbh
-  crunchbase_data:
-    acquisitions: []
-    city: Magdeburg
-    company_type: For Profit
-    country: Germany
-    description: Travelping delivers scalable AAA solutions based on their product
-      TPOSS
-    homepage: https://www.travelping.com/
-    industries:
-    - Electronics
-    - Information Technology
-    linkedin: https://www.linkedin.com/company/travelping-gmbh/
-    name: Travelping
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Sachsen-Anhalt
-    stockExchange: null
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/travelping-gmbh
   homepage_url: https://www.travelping.com
-  image_data:
-    fileName: travelping-member.svg
-    hash: fBH0csumcwFbHXh1XUlXAAwaGajon6FxWf0gT+DD/Bc=
   item: null
+  joined: '2019-03-01'
   logo: travelping-member.svg
   name: Travelping (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/trend-micro
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Provilla
-      date: '2007-10-25'
-    - acquiree: Identum Ltd
-      date: '2008-02-27'
-    - acquiree: Third Brigade
-      date: '2009-04-29'
-    - acquiree: humyo
-      date: '2010-06-11'
-    - acquiree: Mobile Armor
-      date: '2010-11-29'
-    - acquiree: AffirmTrust
-      date: '2012-06-27'
-    - acquiree: Broadweb
-      date: '2013-10-10'
-    - acquiree: TippingPoint Technologies
-      date: '2015-10-21'
-      price: 300000000
-    - acquiree: IMMUNIO
-      date: '2017-11-27'
-    - acquiree: Cloud Conformity
-      date: '2019-10-21'
-      price: 70000000
-    city: Tokyo
-    company_type: For Profit
-    country: Japan
-    description: Trend Micro, a global technology leader, helps make the world safe
-      for exchanging digital information with its innovative security platform.
-    homepage: http://www.trendmicro.com
-    industries:
-    - Cloud Security
-    - Cyber Security
-    - Security
-    - Virtualization
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/trend-micro
-    name: Trend Micro
-    num_employees_max: 10000
-    num_employees_min: 5001
-    parents: []
-    region: Tokyo
-    stockExchange: tyo
-    ticker: 4704.T
-    twitter: http://twitter.com/trendmicro
-  homepage_url: https://www.trendmicro.com/en_us/business.html
-  image_data:
-    fileName: trend-micro-member.svg
-    hash: 8MPOT1210DYfWEumuVemBFoBVTMOwW9AxCctkuNClrg=
+- crunchbase: https://www.crunchbase.com/organization/treyee
+  homepage_url: https://treyee.io/
   item: null
-  logo: trendmicroincorporated.svg
-  name: Trend Micro (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 22:00:02+00:00
-  yahoo_finance_data:
-    effective_ticker: 4704.T
-    market_cap: 7978698593
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/trilio-data
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Jisto
-      date: '2017-01-01'
-    city: Framingham
-    company_type: For Profit
-    country: United States
-    description: Cloud-Native Data Protection for Kubernetes, OpenStack and Virtualization
-    funding: 22000000
-    homepage: https://www.trilio.io
-    industries:
-    - Cloud Computing
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/trilio
-    name: Trilio
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: Massachusetts
-    stockExchange: null
-    twitter: https://twitter.com/triliodata
-  homepage_url: https://www.trilio.io/
-  image_data:
-    fileName: trilio-member.svg
-    hash: RA0ZZ2ngtks0RfEIXzMgq3Occ6/pzeNQNZEat0yjhMo=
+  joined: '2024-01-01'
+  logo: treyee.svg
+  name: Treyee (member)
+- crunchbase: https://www.crunchbase.com/organization/triam-security
+  homepage_url: https://triamsecurity.com
   item: null
-  logo: trilio.svg
-  name: Trilio (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 14:50:19+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/true-6787
-  crunchbase_data:
-    acquisitions: []
-    city: Amsterdam
-    company_type: For Profit
-    country: The Netherlands
-    description: We are True, partner for digital minded companies. We help companies
-      with the continuity and modernization of their applications.
-    homepage: https://www.true.nl/
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Cloud Management
-    - Private Cloud
-    - Software
-    - Web Apps
-    - Web Development
-    - Web Hosting
-    linkedin: https://www.linkedin.com/company/true-b-v/
-    name: 'TRUE'
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: Noord-Holland
-    stockExchange: null
-    twitter: https://twitter.com/true_nl/
+  joined: '2025-05-01'
+  logo: triam-security.svg
+  name: Triam Security (member)
+- crunchbase: https://www.crunchbase.com/organization/true-6787
   homepage_url: https://www.true.nl/
-  image_data:
-    fileName: true-member.svg
-    hash: VXM8iE8jQ6XTai72SEYnYuRodzvQM7GuJiR/LLIsybk=
   item: null
+  joined: '2021-12-01'
   logo: true.svg
   name: True (member)
   twitter: https://twitter.com/true_nl
-  twitter_data:
-    latest_tweet_date: 2022-07-29 08:06:54+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/tyk-io
-  crunchbase_data:
-    acquisitions: []
-    city: London
-    company_type: For Profit
-    country: United Kingdom
-    description: Tyk is an open source API gateway and management platform that provides
-      on-premises, cloud/multi-cloud, and enterprise.
-    funding: 40028790
-    homepage: https://tyk.io/
-    industries:
-    - Computer
-    - Developer APIs
-    - Enterprise Software
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/tyk/
-    name: Tyk
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: England
-    stockExchange: null
-    twitter: https://twitter.com/tyk_io
-  homepage_url: https://tyk.io/
-  image_data:
-    fileName: tyk-member.svg
-    hash: yIPThirgcIszDwGdeWVikywQeS/nLWsr3G8czxJe4OQ=
+- crunchbase: https://www.crunchbase.com/organization/truefoundry
+  homepage_url: https://www.truefoundry.com
   item: null
+  joined: '2025-01-01'
+  logo: truefoundry.svg
+  name: TrueFoundry (member)
+- crunchbase: https://www.crunchbase.com/organization/tyk-io
+  homepage_url: https://tyk.io/
+  item: null
+  joined: '2019-08-01'
   logo: tyk.svg
   name: Tyk (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 14:22:59+00:00

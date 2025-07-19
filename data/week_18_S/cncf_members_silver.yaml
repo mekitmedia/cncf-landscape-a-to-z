@@ -1,2543 +1,395 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/saaras
-  crunchbase_data:
-    acquisitions: []
-    city: Milpitas
-    company_type: ''
-    country: United States
-    description: Security, Observability and Policy for your (micro)service/API across
-      clouds and platforms
-    homepage: http://saaras.io/
-    industries:
-    - Cloud Security
-    - Compliance
-    - Enterprise Software
-    - Network Security
-    - Open Source
-    - Security
-    linkedin: https://www.linkedin.com/company/saarasio/
-    name: Saaras
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/SaarasInc
-  homepage_url: https://getenroute.io/
-  image_data:
-    fileName: saaras-member.svg
-    hash: DPtlrSrbGZVqrx9ZFs68S2EZPa5J/BZXXLDLyArFDR4=
-  item: null
-  logo: saaras.svg
-  name: Saaras (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-01 18:27:10+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/saic
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Exploranium G.S. Ltd
-      date: '2003-12-23'
-    - acquiree: ProcureNet
-      date: '2004-11-29'
-    - acquiree: GEO-CENTERS, INC
-      date: '2005-08-26'
-    - acquiree: Applied Marine Technology
-      date: '2006-11-09'
-    - acquiree: Benham
-      date: '2007-07-06'
-    - acquiree: Icon Systems, Inc.
-      date: '2008-03-10'
-    - acquiree: SM Consulting
-      date: '2008-03-18'
-    - acquiree: R.W. Beck
-      date: '2009-07-06'
-      price: 155000000
-    - acquiree: Atlan
-      date: '2009-07-14'
-    - acquiree: Spectrum San Diego
-      date: '2010-01-05'
-    - acquiree: CloudShield Technologies
-      date: '2010-01-14'
-    - acquiree: Science, Engineering, and Technology Associates
-      date: '2010-01-25'
-    - acquiree: Forterra Systems
-      date: '2010-02-03'
-    - acquiree: Reveal Imaging Technologies
-      date: '2010-08-02'
-    - acquiree: Vitalize Consulting Solutions
-      date: '2011-07-21'
-    - acquiree: maxIT Healthcare
-      date: '2012-07-17'
-    - acquiree: Scitor Corporation
-      date: '2015-05-04'
-      price: 790000000
-    - acquiree: Tiandi Huayu
-      date: '2018-08-22'
-    - acquiree: Engility
-      date: '2018-09-10'
-      price: 1500000000
-    - acquiree: Unisys - U.S. Federal Business
-      date: '2020-02-06'
-      price: 1200000000
-    - acquiree: Koverse
-      date: '2021-04-26'
-    - acquiree: Halfaker and Associates
-      date: '2021-06-03'
-      price: 250000000
-    city: Mclean
-    company_type: For Profit
-    country: United States
-    description: SAIC provides scientific, engineering, and systems integration and
-      technical services and solutions in the United States.
-    funding: 22131700
-    homepage: http://www.saic.com
-    industries:
-    - Information Technology
-    - Security
-    - Service Industry
-    - Software
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/saicinc
-    name: SAIC
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents: []
-    region: Virginia
-    stockExchange: nyse
-    ticker: SAIC
-    twitter: http://twitter.com/SAICinc
+- crunchbase: https://www.crunchbase.com/organization/saic
   homepage_url: https://www.saic.com
-  image_data:
-    fileName: saic-member.svg
-    hash: F1hvt3BDGBESvSrIdvfYN6dunNE+xH2LJQ287iAH4lk=
   item: null
+  joined: '2019-02-01'
   logo: saic.svg
   name: SAIC (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 15:47:05+00:00
-  yahoo_finance_data:
-    effective_ticker: SAIC
-    market_cap: 5276666880
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/scaleflash
-  crunchbase_data:
-    acquisitions: []
-    city: Beijing
-    company_type: ''
-    country: China
-    description: A leading provider of high-performance software-defined storage products
-      and enterprise cloud solutions
-    homepage: https://www.scaleflash.com/
-    industries:
-    - Software
-    linkedin: null
-    name: ScaleFlash
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Beijing
-    stockExchange: null
-    twitter: null
-  homepage_url: https://www.scaleflash.com/
-  image_data:
-    fileName: scaleflash-member.svg
-    hash: eytXvccZ0SiaSnk3jcCl0F0nkp7uAOjSd//1840+yqU=
+- crunchbase: https://www.crunchbase.com/organization/samsung-sds
+  homepage_url: https://www.samsungsds.com/us/index.html
   item: null
-  logo: scaleflash.svg
-  name: Scaleflash (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/scaleway
-  crunchbase_data:
-    acquisitions: []
-    city: Paris
-    company_type: For Profit
-    country: France
-    description: Scaleway is a cloud solution provider based in Europe, featuring
-      a complete range of products from baremetal to serverless
-    homepage: https://scaleway.com/
-    industries:
-    - Cloud Computing
-    - IaaS
-    - Information Technology
-    - Internet
-    - Software
-    - Web Hosting
-    linkedin: https://www.linkedin.com/company/scaleway
-    name: Scaleway
-    num_employees_max: 1000
-    num_employees_min: 501
-    parents: []
-    region: Ile-de-France
-    stockExchange: null
-    twitter: https://twitter.com/scaleway
+  joined: '2019-12-01'
+  logo: samsung-sds.svg
+  name: Samsung SDS (member)
+- crunchbase: https://www.crunchbase.com/organization/sawmills
+  homepage_url: https://www.sawmills.ai
+  item: null
+  joined: '2025-07-01'
+  logo: sawmills.svg
+  name: Sawmills (member)
+- crunchbase: https://www.crunchbase.com/organization/scaleops-9685
+  homepage_url: https://www.scaleops.com/
+  item: null
+  joined: '2022-12-01'
+  logo: scaleops.svg
+  name: ScaleOps (member)
+- crunchbase: https://www.crunchbase.com/organization/scaleway
   homepage_url: https://www.scaleway.com/en/
-  image_data:
-    fileName: scaleway-member.svg
-    hash: V/c3wZ0jf5C5qI2ryQTif6Wqatb8gSK7WwvP1jWnkPo=
   item: null
+  joined: '2019-06-01'
   logo: scaleway-member.svg
   name: Scaleway (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 08:06:56+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/scality
-  crunchbase_data:
-    acquisitions: []
-    city: Paris
-    company_type: For Profit
-    country: France
-    description: Scality is a venture-backed software company that solves problems
-      associated with large-scale storage management and infrastructure.
-    funding: 172000000
-    homepage: http://scality.com/
-    industries:
-    - Cloud Data Services
-    - Data Storage
-    - Enterprise Software
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/scality
-    name: Scality
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: Ile-de-France
-    stockExchange: null
-    twitter: http://twitter.com/scality
-  homepage_url: https://www.scality.com
-  image_data:
-    fileName: scality-member.svg
-    hash: LLe+fFlyeKw1fdK2or+rOneF3mIS1QK+4Q8RkAOiawc=
+- crunchbase: https://www.crunchbase.com/organization/seacom-s-r-l
+  homepage_url: https://seacom.it
   item: null
-  logo: scality-member.svg
-  name: Scality (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-06 00:09:52+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/scarf-5901
-  crunchbase_data:
-    acquisitions: []
-    city: Oakland
-    company_type: For Profit
-    country: United States
-    description: Scarf provides open source projects with advanced usage analytics,
-      and helps projects transact directly with their commercial users
-    funding: 7300000
-    homepage: https://scarf.sh/
-    industries:
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/scarf-sh/
-    name: Scarf
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/scarf_oss
-  homepage_url: https://about.scarf.sh
-  image_data:
-    fileName: scarf-member.svg
-    hash: bIhqziXvo13kNiYMCqPTfS8FN0nmB/I/CvVHfCxWGuc=
+  joined: '2023-06-01'
+  logo: seacom.svg
+  name: Seacom (member)
+- crunchbase: https://www.crunchbase.com/organization/seal-software
+  homepage_url: https://www.seal.io/
   item: null
-  logo: scarf.svg
-  name: Scarf (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 16:00:03+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/Scout-APM
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Exceptiontrap
-      date: '2021-04-01'
-    city: Fort Collins
-    company_type: For Profit
-    country: United States
-    description: Application performance monitoring that streamlines troubleshooting
-      by helping devs find & fix issues before customers ever see them.
-    funding: 8000000
-    homepage: https://scoutapm.com
-    industries:
-    - Application Performance Management
-    - Developer Tools
-    - SaaS
-    - Software
-    - Web Hosting
-    kind: funding
-    linkedin: https://www.linkedin.com/company/scout/
-    name: Scout APM
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Colorado
-    stockExchange: null
-    twitter: https://twitter.com/ScoutAPM
-  homepage_url: https://www.scoutapm.com/
-  image_data:
-    fileName: scout-apm-member.svg
-    hash: I5SwNQzdBoAx5GnolIkgWu26ZWdS+daNX9irCYkiN3I=
-  item: null
-  logo: scoutapm.svg
-  name: ScoutAPM (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 18:01:03+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/scribe-security
-  crunchbase_data:
-    acquisitions: []
-    city: Tel Aviv
-    company_type: For Profit
-    country: Israel
-    description: Scribe Security is a Tel Aviv, Israel-based provider of a SaaS platform
-      for securing software across various supply chains.
-    funding: 7000000
-    homepage: https://scribesecurity.com/
-    industries:
-    - Cyber Security
-    - Information Technology
-    - SaaS
-    - Software
-    - Supply Chain Management
-    kind: funding
-    linkedin: https://www.linkedin.com/company/scribe-security/
-    name: Scribe Security
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Tel Aviv
-    stockExchange: null
-    twitter: null
-  homepage_url: https://www.scribesecurity.com/
-  image_data:
-    fileName: scribe-security-member.svg
-    hash: CD6jH9BSfHhGcCsv2arsy/1mZPHk24qJIAaA2zeHCHE=
-  item: null
-  logo: scribe-security.svg
-  name: Scribe Security (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/seagate
-  crunchbase_data:
-    acquisitions:
-    - acquiree: NetLabs
-      date: '1995-01-01'
-    - acquiree: Conner Peripherals
-      date: '1995-09-21'
-    - acquiree: Archive Corp.
-      date: '1996-01-01'
-    - acquiree: Quinta Corporation
-      date: '1997-07-03'
-      price: 325000000
-    - acquiree: X-IO
-      date: '1999-12-27'
-      price: 360000000
-    - acquiree: Mirra
-      date: '2005-09-14'
-    - acquiree: ActionFront Data Recovery
-      date: '2005-11-01'
-    - acquiree: Maxtor
-      date: '2006-05-24'
-    - acquiree: MetaLINCS
-      date: '2007-12-06'
-    - acquiree: Samsung - Hard Disk Drive Business
-      date: '2011-12-19'
-      price: 1375000000
-    - acquiree: LaCie
-      date: '2012-05-23'
-    - acquiree: Xyratex
-      date: '2013-12-23'
-    - acquiree: SandForce
-      date: '2014-05-29'
-      price: 450000000
-    - acquiree: EVault
-      date: '2014-07-16'
-      price: 185000000
-    - acquiree: Dot Hill Systems
-      date: '2015-08-18'
-      price: 694000000
-    - acquiree: Lyve Minds
-      date: '2015-10-20'
-    city: Cupertino
-    company_type: For Profit
-    country: United States
-    description: Seagate offers consumers and businesses with data storage solutions
-      to create, share, and preserve digital content.
-    funding: 0
-    homepage: http://www.seagate.com
-    industries:
-    - Cloud Storage
-    - Consumer Electronics
-    - Data Storage
-    - Flash Storage
-    - Hardware
-    - Information Services
-    - Manufacturing
-    - Software
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/seagate-technology
-    name: Seagate Technology
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents: []
-    region: California
-    stockExchange: nasdaq
-    ticker: STX
-    twitter: http://twitter.com/Seagate
-  homepage_url: https://www.seagate.com
-  image_data:
-    fileName: seagate-member.svg
-    hash: T3dBONX0dsWmjJm/2ewdbmZUnhxP4jfo6yaUgfFtohE=
-  item: null
-  logo: seagate.svg
-  name: Seagate (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 16:21:59+00:00
-  yahoo_finance_data:
-    effective_ticker: STX
-    market_cap: 16999499776
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/searce
-  crunchbase_data:
-    acquisitions: []
-    city: Humble
-    company_type: For Profit
-    country: United States
-    description: A niche global cloud consulting company leveraging AI & ML, Anthos,
-      cloud native engineering to futurify businesses on Google Cloud and AWS.
-    homepage: https://www.searce.com/
-    industries:
-    - Artificial Intelligence
-    - Information Technology
-    - Machine Learning
-    - Software
-    linkedin: https://www.linkedin.com/company/searce-cosourcing-services-private-limited
-    name: Searce
-    num_employees_max: 1000
-    num_employees_min: 501
-    parents: []
-    region: Texas
-    stockExchange: null
-    twitter: https://twitter.com/searce
+  joined: '2023-06-01'
+  logo: seal-sotware.svg
+  name: Seal (member)
+- crunchbase: https://www.crunchbase.com/organization/searce
   homepage_url: https://www.searce.com/
-  image_data:
-    fileName: searce-member.svg
-    hash: Q4xXhrPCyzQX2q8S5VtvMSXgF2W7ubE4P7NBZit6Gbg=
   item: null
+  joined: '2021-08-01'
   logo: searce.svg
   name: Searce (member)
-  twitter_data:
-    latest_tweet_date: 2022-01-30 05:35:51+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/second-state
-  crunchbase_data:
-    acquisitions: []
-    city: Austin
-    company_type: For Profit
-    country: United States
-    description: Open source software container optimized for edge computing (Jamstack,
-      serverless, SaaS, automotive, factory, edge networks, edge devices)
-    funding: 3000000
-    homepage: https://www.secondstate.io/
-    industries:
-    - Blockchain
-    - Cloud Computing
-    - Cloud Data Services
-    - Information Technology
-    - Open Source
-    - SaaS
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/second-state/
-    name: Second State
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Texas
-    stockExchange: null
-    twitter: https://twitter.com/secondstateinc
+- crunchbase: https://www.crunchbase.com/organization/second-state
   homepage_url: https://www.secondstate.io/
-  image_data:
-    fileName: second-state-member.svg
-    hash: /9Q8sd9J6jX6fDVR64jqXWRNTU5TqrbmZIdtzWBBgOU=
   item: null
+  joined: '2021-08-01'
   logo: second-state.svg
   name: Second State (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-06 04:01:50+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/section-io
-  crunchbase_data:
-    acquisitions: []
-    city: Boulder
-    company_type: For Profit
-    country: United States
-    description: Section is an Edge Compute Platform that enables engineers to run
-      any workload, anywhere, underpinned by modern DevOps principles.
-    funding: 24253979
-    homepage: https://www.section.io/
-    industries:
-    - Content Delivery Network
-    - Enterprise Software
-    - Security
-    kind: funding
-    linkedin: https://www.linkedin.com/company/section_io/
-    name: Section
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Colorado
-    stockExchange: null
-    twitter: https://twitter.com/sectionio
-  homepage_url: https://www.section.io
-  image_data:
-    fileName: section-member.svg
-    hash: hBBUGDA1fRPvPTm9K9TK8xYSKa87So4Ylo5vSHEVAP4=
+- crunchbase: https://www.crunchbase.com/organization/second-front-systems
+  homepage_url: https://www.secondfront.com/
   item: null
-  logo: section-member.svg
-  name: Section (member)
-  twitter_data:
-    latest_tweet_date: 2022-06-30 15:06:13+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/seekret
-  crunchbase_data:
-    acquisitions: []
-    city: Tel Aviv
-    company_type: ''
-    country: Israel
-    description: Seekret transforms how businesses productize their APIs by bringing
-      production knowledge to local development.
-    funding: 0
-    homepage: https://www.seekret.io
-    industries: []
-    linkedin: https://www.linkedin.com/company/seekret-software
-    name: Seekret
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Tel Aviv
-    stockExchange: null
-    twitter: null
-  homepage_url: https://www.seekret.io/
-  image_data:
-    fileName: seekret-member.svg
-    hash: KQce2WyqiFa9UmfYxiUbISBqo77e1c7EumpP3gmowAg=
+  joined: '2023-11-01'
+  logo: secondfront.svg
+  name: Secondfront (member)
+- crunchbase: https://www.crunchbase.com/organization/sedai
+  homepage_url: https://www.sedai.io
   item: null
-  logo: seekret.svg
-  name: Seekret (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/selector-software
-  crunchbase_data:
-    acquisitions: []
-    city: Santa Clara
-    company_type: For Profit
-    country: United States
-    description: Selector is a software company that provides AIOps platform for operational
-      intelligence.
-    funding: 33000000
-    homepage: https://www.selector.ai
-    industries:
-    - Analytics
-    - Data Visualization
-    - Infrastructure
-    - Machine Learning
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/selectorai
-    name: Selector
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/selectorai
-  homepage_url: https://www.selector.ai/
-  image_data:
-    fileName: selector-member.svg
-    hash: MZ17WtHvbL8N543RT/QQqckVDvSLoyUua3GPuTC8Tdo=
+  joined: '2024-04-01'
+  logo: sedai.svg
+  name: Sedai (member)
+- crunchbase: https://www.crunchbase.com/organization/seowon-information-co-ltd
+  homepage_url: https://seowoninfo.com
   item: null
-  logo: selector.svg
-  name: Selector (member)
-  twitter_data:
-    latest_tweet_date: 2022-06-24 00:32:13+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/serverless
-  crunchbase_data:
-    acquisitions: []
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: Serverless provides development framework for building serverless
-      architectures.
-    funding: 13000000
-    homepage: https://serverless.com/
-    industries:
-    - Computer
-    - Consumer Applications
-    - Online Portals
-    - Open Source
-    - SaaS
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/serverless/
-    name: Serverless
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/goserverless
-  homepage_url: https://serverless.com
-  image_data:
-    fileName: serverless-member.svg
-    hash: n7ucn3l8Yn06hcS5BJ5U9Zu2bMcFXCTlHlItgTSo72c=
+  joined: '2024-11-01'
+  logo: seowon-information.svg
+  name: Seowon Information (member)
+- crunchbase: https://www.crunchbase.com/organization/infors
+  homepage_url: https://www.inforbus.com/
   item: null
-  logo: serverless-member.svg
-  name: Serverless (member)
-  twitter_data:
-    latest_tweet_date: 2022-07-26 20:47:10+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/services4-it
-  crunchbase_data:
-    acquisitions: []
-    city: Budapest
-    company_type: ''
-    country: Hungary
-    description: Our profile is IT, application management, and cloud computing.
-    homepage: https://services4-it.eu/?lang=en
-    industries: []
-    linkedin: https://www.linkedin.com/company/s4-it/
-    name: Services4-IT
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Budapest
-    stockExchange: null
-    twitter: null
-  homepage_url: https://www.services4-it.eu/index
-  image_data:
-    fileName: services4-it-member.svg
-    hash: y0LqGkpFjlNlizNWF4pVEO8BenwZ45BNBBhq9BlFiHM=
+  joined: '2023-12-01'
+  logo: shandong-cvicse-middleware.svg
+  name: Shandong Cvicse Middleware (member)
+- crunchbase: https://www.crunchbase.com/organization/she-bash-llc
+  homepage_url: https://www.shebash.io/
   item: null
-  logo: services4-it.svg
-  name: Services4-IT (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/shinesoft-co-ltd
-  crunchbase_data:
-    acquisitions: []
-    city: Tokyo
-    company_type: ''
-    country: Japan
-    description: Accelerate technological innovation and self-transformation
-    homepage: https://shinesoft.co.jp/
-    industries: []
-    linkedin: null
-    name: Shinesoft Co., Ltd.
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Tokyo
-    stockExchange: null
-    twitter: null
+  joined: '2023-02-01'
+  logo: she-bash.svg
+  name: SHE BASH (member)
+- crunchbase: https://www.crunchbase.com/organization/shinesoft-co-ltd
   homepage_url: https://www.shinesoft.co.jp/
-  image_data:
-    fileName: shinesoft-member.svg
-    hash: 63Hhjbgy4XqQwAiRRlQmbblL9Z/8BaMDLQdiq2sj7KI=
   item: null
+  joined: '2021-01-01'
   logo: shinesoft.svg
   name: Shinesoft (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/shipa-d4af
-  crunchbase_data:
-    acquisitions: []
-    city: Santa Clara
-    company_type: For Profit
-    country: United States
-    description: Shipa is an Application Management Framework for Cloud Native Applications.
-    funding: 3750000
-    homepage: https://shipa.io/
-    industries:
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/shipa-corp
-    name: Shipa
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/shipacorp
-  homepage_url: https://shipa.io/
-  image_data:
-    fileName: shipa-member.svg
-    hash: y4vPRq42W1eoMI5REPdGreX52//BfdtttPGwjkAeK3I=
-  item: null
-  logo: shipa.svg
-  name: Shipa (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-02 15:10:49+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/shoreline-io
-  crunchbase_data:
-    acquisitions: []
-    city: Redwood City
-    company_type: For Profit
-    country: United States
-    description: Shoreline provides fleet-wide debugging and incident remediation
-      tools that increase availability and streamline production operations.
-    funding: 56900000
-    homepage: https://shoreline.io/
-    industries:
-    - Cloud Computing
-    - Developer Tools
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/shoreline-software
-    name: Shoreline
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/theshorelineio
-  homepage_url: https://www.shoreline.io/
-  image_data:
-    fileName: shoreline-member.svg
-    hash: Fgode7DoZ2hPiiUyY/lSAqjTOUhDHAje8H169Cb01r0=
-  item: null
-  logo: shoreline.svg
-  name: Shoreline (member)
-  twitter_data:
-    latest_tweet_date: 2022-03-28 12:26:39+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/talos-systems-inc
-  crunchbase_data:
-    acquisitions: []
-    city: Santa Barbara
-    company_type: For Profit
-    country: United States
-    description: Sidero makes Talos OS, a modern operating system designed for Kubernetes,
-      and Sidero Metal, which automates Kubernetes on bare metal.
-    funding: 3697816
-    homepage: https://www.SideroLabs.com/
-    industries:
-    - Computer
-    - Information Technology
-    - Operating Systems
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/sidero-labs/
-    name: Sidero Labs
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/SideroLabs
+- crunchbase: https://www.crunchbase.com/organization/talos-systems-inc
   homepage_url: https://www.sideroLabs.com
-  image_data:
-    fileName: sidero-labs-member.svg
-    hash: 7rx/E7DouaGjRkqxuMlPPzWwEidzzqBUoa7+2fuyKrc=
   item: null
+  joined: '2019-07-01'
   logo: sidero.svg
   name: Sidero Labs (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-02 14:21:52+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/sighup
-  crunchbase_data:
-    acquisitions: []
-    city: Milan
-    company_type: For Profit
-    country: Italy
-    description: SIGHUP is specialized on Kubernetes and Cloud-Native infrastructures.
-    homepage: https://sighup.io/
-    industries:
-    - Information Technology
-    - Software
-    linkedin: https://www.linkedin.com/company/sighup
-    name: SIGHUP
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Lombardia
-    stockExchange: null
-    twitter: https://twitter.com/sighup_
-  homepage_url: https://sighup.io
-  image_data:
-    fileName: sighup-member.svg
-    hash: BL7X/8PeyVkELv4KwPPl07mPCSgEFco8rwn37BkIsjA=
+- crunchbase: https://www.crunchbase.com/organization/sigscalr
+  homepage_url: https://www.siglens.com
   item: null
-  logo: sighup-member.svg
-  name: SIGHUP (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 09:26:00+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/memsql
-  crunchbase_data:
-    acquisitions: []
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: SingleStore is a provider of a database for operational analytics
-      and cloud-native applications.
-    funding: 434100000
-    homepage: https://www.singlestore.com/
-    industries:
-    - Analytics
-    - Big Data
-    - Cloud Data Services
-    - Database
-    - Enterprise Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/singlestore/
-    name: SingleStore
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/singlestoredb/
-  homepage_url: https://www.singlestore.com/
-  image_data:
-    fileName: single-store-member.svg
-    hash: w6ndc/+HUUKBELaSKuvtaBDwzQ1BhqR3NwJfl5sBjXc=
+  joined: '2024-11-01'
+  logo: siglens.svg
+  name: SigLens (member)
+- crunchbase: https://www.crunchbase.com/organization/signadot
+  homepage_url: https://www.signadot.com/
   item: null
-  logo: singlestore.svg
-  name: SingleStore (member)
-  twitter: https://twitter.com/SingleStoreDB
-  twitter_data:
-    latest_tweet_date: 2022-08-05 19:32:00+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/singularity-data
-  crunchbase_data:
-    acquisitions: []
-    city: Santa Clara
-    company_type: For Profit
-    country: United States
-    description: Building the next-generation streaming database in the cloud.
-    funding: 10000000
-    homepage: https://www.singularity-data.com/
-    industries:
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/singularity-data/
-    name: Singularity Data
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: null
-  homepage_url: http://www.singularity-data.com/
-  image_data:
-    fileName: singularity-data-member.svg
-    hash: kxyIpYYwNVxgLSHvaqm7+zgvSGtqq0+TTgUBy7LAzGQ=
+  joined: '2023-01-01'
+  logo: signadot.svg
+  name: Signadot (member)
+- crunchbase: https://www.crunchbase.com/organization/signoz
+  homepage_url: https://signoz.io
   item: null
-  logo: singularity-data.svg
-  name: Singularity Data (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/skyloud
-  crunchbase_data:
-    acquisitions: []
-    city: Lyon
-    company_type: For Profit
-    country: France
-    description: Skyloud is a company that supports startups and companies in setting
-      up, optimizing and managing their infrastructure.
-    homepage: https://www.skyloud.fr
-    industries: []
-    linkedin: https://www.linkedin.com/company/skyloud/
-    name: Skyloud
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Rhone-Alpes
-    stockExchange: null
-    twitter: null
+  joined: '2024-12-01'
+  logo: signoz.svg
+  name: SigNoz (member)
+- crunchbase: https://www.crunchbase.com/organization/skyloud
   homepage_url: https://www.skyloud.fr/
-  image_data:
-    fileName: skyloud-member.svg
-    hash: Ws7TwHUnCw1/Rirpb7inCUAv5DtBaJ/wdqJDFQrx154=
   item: null
+  joined: '2022-04-01'
   logo: skyloud.svg
   name: Skyloud (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/slim-ai
-  crunchbase_data:
-    acquisitions: []
-    city: Boxborough
-    company_type: For Profit
-    country: United States
-    description: Slim.AI helps application developers create, build, deploy, and run
-      their cloud native apps.
-    funding: 58599998
-    homepage: https://www.slim.ai/
-    industries:
-    - Apps
-    - Information Technology
-    - Outsourcing
-    - Software
-    - Web Development
-    kind: funding
-    linkedin: https://www.linkedin.com/company/slim-ai-inc
-    name: Slim.AI
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: Massachusetts
-    stockExchange: null
-    twitter: https://twitter.com/slimdevops
-  homepage_url: https://www.slim.ai/
-  image_data:
-    fileName: slim-ai-member.svg
-    hash: dThW34hWFkgmlS+pdau3nTHiNkjInW12lokDy9ef2Xw=
-  item: null
-  logo: slimai.svg
-  name: Slim.ai (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 19:00:55+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/smallstep
-  crunchbase_data:
-    acquisitions: []
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: Smallstep is an open-source toolkit to automate certificate administration
-      and secure infrastructures.
-    funding: 26000000
-    homepage: https://smallstep.com
-    industries:
-    - Identity Management
-    - Network Security
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/smallstep
-    name: Smallstep
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/smallsteplabs
-  homepage_url: https://www.smallstep.com/
-  image_data:
-    fileName: smallstep-member.svg
-    hash: honhNn17QU28hdsonJ1ka9dGG4C2sVzG7dHeN7eoMqs=
-  item: null
-  logo: smallstep.svg
-  name: Smallstep (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-01 19:03:16+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/smartiful
-  crunchbase_data:
-    acquisitions: []
-    city: Tokyo
-    company_type: For Profit
-    country: Japan
-    description: We are team of professionals who use SMART Technologies to provide
-      fast and quality service for you.
-    homepage: https://smartiful.jp/
-    industries: []
-    linkedin: null
-    name: Smartiful
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Tokyo
-    stockExchange: null
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/smartiful
   homepage_url: https://www.smartiful.jp/
-  image_data:
-    fileName: smartiful-member.svg
-    hash: 210qyv7aP18gBCgfroE4lS5iIyNmtV5nqHn6WI/E4CE=
   item: null
+  joined: '2020-11-01'
   logo: smartiful.svg
   name: Smartiful (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/snyk
-  crunchbase_data:
-    acquisitions:
-    - acquiree: DevSecCon Limited
-      date: '2019-07-24'
-    - acquiree: DeepCode
-      date: '2020-09-23'
-    - acquiree: Manifold.co
-      date: '2021-01-27'
-    - acquiree: FossID
-      date: '2021-05-12'
-    - acquiree: CloudSkiff
-      date: '2021-10-28'
-    - acquiree: Fugue
-      date: '2022-02-17'
-    - acquiree: TopCoat Data
-      date: '2022-03-07'
-    city: Boston
-    company_type: For Profit
-    country: United States
-    description: Snyk is a cloud native application security provider that enables
-      millions of developers to build software securely.
-    funding: 849500000
-    homepage: https://snyk.io
-    industries:
-    - Cyber Security
-    - Security
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/snyk
-    name: Snyk
-    num_employees_max: 5000
-    num_employees_min: 1001
-    parents: []
-    region: Massachusetts
-    stockExchange: null
-    twitter: https://www.twitter.com/snyksec
+- crunchbase: https://www.crunchbase.com/organization/snyk
   homepage_url: https://snyk.io/
-  image_data:
-    fileName: snyk-member.svg
-    hash: h2idGNwGy7LTzmI3sdiErlXJ2HjuVooIuBCSzGbPw60=
   item: null
+  joined: '2019-08-01'
   logo: snyk.svg
   name: Snyk (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 18:00:22+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/softax
-  crunchbase_data:
-    acquisitions: []
-    city: Warsaw
-    company_type: For Profit
-    country: Poland
-    description: We provide high-quality software for the largest financial, telecommunications
-      and transport institutions in Europe.
-    homepage: https://www.softax.pl/en/
-    industries:
-    - Software
-    linkedin: https://www.linkedin.com/company/softax/
-    name: Softax
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Mazowieckie
-    stockExchange: null
-    twitter: https://twitter.com/softaxpl
-  homepage_url: https://www.softax.pl/en
-  image_data:
-    fileName: softax-member.svg
-    hash: gUXSipHCakn3htnEe728bgWLRQUW6qcc+aoMqU+1SuY=
-  item: null
-  logo: softax.svg
-  name: Softax (member)
-  twitter_data:
-    latest_tweet_date: 2021-12-02 09:47:20+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/softiron-2
-  crunchbase_data:
-    acquisitions: []
-    city: London
-    company_type: For Profit
-    country: United Kingdom
-    description: SoftIron creates high-performing, scalable, flexible, reliable, and
-      efficient storage solutions for the modern-day enterprise.
-    funding: 42065241
-    homepage: http://www.softiron.com
-    industries:
-    - Architecture
-    - Data Storage
-    - Flash Storage
-    - Information Technology
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/softiron
-    name: SoftIron
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: England
-    stockExchange: null
-    twitter: https://www.twitter.com/softiron
-  homepage_url: https://softiron.com
-  image_data:
-    fileName: soft-iron-member.svg
-    hash: Oc4/RF8Exm2QHDANDhlrz0Kg7ATOMIW3p0ClvlCbGQ4=
-  item: null
-  logo: soft-iron-member.svg
-  name: SoftIron (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 21:00:49+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/software-mind
-  crunchbase_data:
-    acquisitions: []
-    city: "Krak\xF3w"
-    company_type: For Profit
-    country: Poland
-    description: Software Mind provides development to support and extend IT teams,
-      and deliver business.
-    funding: 30272574
-    homepage: http://www.softwaremind.com
-    industries:
-    - Software
-    - Software Engineering
-    - Web Development
-    kind: funding
-    linkedin: https://www.linkedin.com/company/software-mind/
-    name: Software Mind
-    num_employees_max: 1000
-    num_employees_min: 501
-    parents: []
-    region: Malopolskie
-    stockExchange: null
-    twitter: https://www.twitter.com/windmobile_pl
+- crunchbase: https://www.crunchbase.com/organization/software-mind
   homepage_url: https://softwaremind.com/
-  image_data:
-    fileName: software-mind-member.svg
-    hash: C+nOmDB0bU8ARHagT3D7sPs2x9dE/s8Rdaj2kPpPuF8=
   item: null
+  joined: '2021-07-01'
   logo: software-mind.svg
   name: Software Mind (member)
   twitter: https://twitter.com/softwaremind?lang=en
-  twitter_data:
-    latest_tweet_date: 2016-03-01 13:59:19+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/sokube
-  crunchbase_data:
-    acquisitions: []
-    city: Geneva
-    company_type: For Profit
-    country: Switzerland
-    description: Sokube is specialized in the development of advanced native cloud
-      solutions based on OpenSource technologies, including Kubernetes.
-    homepage: https://www.sokube.ch/
-    industries: []
-    linkedin: https://www.linkedin.com/company/sokube/
-    name: SoKube
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Geneve
-    stockExchange: null
-    twitter: null
-  homepage_url: https://en.sokube.ch/
-  image_data:
-    fileName: so-kube-member.svg
-    hash: T2Ep3xWdABlsLA0yIPdhjAyGDl0fZEXriqdgQivnR30=
+- crunchbase: https://www.crunchbase.com/organization/sokube
+  homepage_url: https://www.sokube.io/
   item: null
+  joined: '2020-06-01'
   logo: sokube.svg
   name: SoKube (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/solo-io
-  crunchbase_data:
-    acquisitions: []
-    city: Cambridge
-    company_type: For Profit
-    country: United States
-    description: Solo.io develops tools to help the enterprise adapt and make the
-      most of innovative cloud technologies.
-    funding: 171500000
-    homepage: https://www.solo.io
-    industries:
-    - Apps
-    - Cloud Computing
-    - Developer APIs
-    - Internet
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/solo.io
-    name: Solo.io
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: Massachusetts
-    stockExchange: null
-    twitter: https://twitter.com/soloio_inc
+- crunchbase: https://www.crunchbase.com/organization/solo-io
   homepage_url: https://www.solo.io
-  image_data:
-    fileName: solo-io-member.svg
-    hash: +CowoVOIbnX+QzEWFxrIH64Nj1SgTdP7IYpB8EgeNVE=
   item: null
+  joined: '2018-10-01'
   logo: solo-io-member.svg
   name: Solo.io (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 18:00:22+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/sosivio
-  crunchbase_data:
-    acquisitions: []
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: Predictive Troubleshooting for Kubernetes
-    funding: 7000000
-    homepage: https://sosiv.io/
-    industries:
-    - Artificial Intelligence
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Cloud Management
-    - Cloud Security
-    - Enterprise Software
-    - Machine Learning
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/sosivio
-    name: Sosivio
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/SosivioInc
-  homepage_url: https://sosiv.io/
-  image_data:
-    fileName: sosivio-member.svg
-    hash: VCfyB3vZ6M8nJUouQcqYKeVdp+l7exzzgP1iH96o6dE=
+- crunchbase: https://www.crunchbase.com/organization/source-allies-inc
+  homepage_url: https://www.sourceallies.com
   item: null
-  logo: sosivio.svg
-  name: Sosivio (member)
-  twitter_data:
-    latest_tweet_date: 2021-10-04 18:04:19+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/spacelift
-  crunchbase_data:
-    acquisitions: []
-    city: Redwood City
-    company_type: For Profit
-    country: United States
-    description: SaaS Development Platform
-    funding: 22600000
-    homepage: https://spacelift.io/
-    industries:
-    - Cloud Data Services
-    - Information Technology
-    - SaaS
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/spacelift-io/about/
-    name: Spacelift
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/spaceliftio
+  joined: '2025-02-01'
+  logo: source-allies.svg
+  name: Source Allies (member)
+- crunchbase: https://www.crunchbase.com/organization/southworks
+  homepage_url: https://www.southworks.com/
+  item: null
+  joined: '2023-12-01'
+  logo: southworks.svg
+  name: Southworks (member)
+- crunchbase: https://www.crunchbase.com/organization/spacelift
   homepage_url: https://www.spacelift.io/
-  image_data:
-    fileName: spacelift-member.svg
-    hash: G3Zq1b05r+FlB/ic76jwR/Arn32AdCbWV782KcHex7I=
   item: null
+  joined: '2022-04-01'
   logo: spacelift.svg
   name: Spacelift (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 23:57:38+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/sparkfabrik
-  crunchbase_data:
-    acquisitions: []
-    city: Milan
-    company_type: For Profit
-    country: Italy
-    description: We design and build cloud-native applications, cloud systems and
-      infrastructures through the latest DevOps techniques
-    homepage: https://www.sparkfabrik.com/it/index.html
-    industries: []
-    linkedin: https://it.linkedin.com/company/sparkfabrik
-    name: Sparkfabrik
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Lombardia
-    stockExchange: null
-    twitter: https://twitter.com/sparkfabrik
+- crunchbase: https://www.crunchbase.com/organization/sparkfabrik
   homepage_url: https://www.sparkfabrik.com/it
-  image_data:
-    fileName: spark-fabrik-member.svg
-    hash: 7ua8tY+zFyuUptwart9CZvvoQqV9/UljWNX6puko7GY=
   item: null
+  joined: '2019-10-01'
   logo: sparkfabrik.svg
   name: SparkFabrik (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 07:00:02+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/spectral-4f70
-  crunchbase_data:
-    acquisitions: []
-    city: Tel Aviv-yafo
-    company_type: For Profit
-    country: Israel
-    description: Spectral is an Israeli startup and key innovator in developer-first
-      security tools designed by developers for developers.
-    funding: 6200000
-    homepage: https://spectralops.io
-    industries:
-    - Cyber Security
-    - Developer Platform
-    - Developer Tools
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/spectralops-io/
-    name: Spectral
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Tel Aviv
-    stockExchange: null
-    twitter: https://twitter.com/getspectral
-  homepage_url: https://spectralops.io/
-  image_data:
-    fileName: spectral-member.svg
-    hash: WyeWd6AbX1SACzKg70o8bQVuNN7PuzHEyvUQEfO5ZUE=
+- crunchbase: https://www.crunchbase.com/organization/speakeasy-1055
+  homepage_url: https://www.speakeasy.com
   item: null
-  logo: spectral.svg
-  name: Spectral (member)
-  twitter_data:
-    latest_tweet_date: 2022-04-06 16:45:59+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/spectro-cloud
-  crunchbase_data:
-    acquisitions: []
-    city: San Jose
-    company_type: For Profit
-    country: United States
-    description: Spectro Cloud enables organizations to manage the full lifecycle
-      of any combination of new or existing Kubernetes environments.
-    funding: 67500000
-    homepage: https://www.spectrocloud.com
-    industries:
-    - Cloud Data Services
-    - Information Technology
-    - SaaS
-    kind: funding
-    linkedin: https://www.linkedin.com/company/spectro-cloud/
-    name: Spectro Cloud
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/spectrocloudinc
+  joined: '2024-09-01'
+  logo: speakeasy-development.svg
+  name: Speakeasy (member)
+- crunchbase: https://www.crunchbase.com/organization/spectro-cloud
   homepage_url: https://www.spectrocloud.com/
-  image_data:
-    fileName: spectro-cloud-member.svg
-    hash: G1DUTcCjgTRj86EXCL0DmEYpZ49v99ObDXqMnQrI2r8=
   item: null
+  joined: '2019-07-01'
   logo: spectro-cloud.svg
   name: Spectro Cloud (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 20:01:31+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/speedscale
-  crunchbase_data:
-    acquisitions: []
-    city: Atlanta
-    company_type: For Profit
-    country: United States
-    description: Speedscale allows users to stress test cloud services with real-world
-      scenarios.
-    funding: 4560737
-    homepage: https://speedscale.com/
-    industries:
-    - Developer APIs
-    - Information Technology
-    - Productivity Tools
-    - Test and Measurement
-    - Usability Testing
-    kind: funding
-    linkedin: https://www.linkedin.com/company/speedscaleai/
-    name: Speedscale
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: Georgia
-    stockExchange: null
-    twitter: https://twitter.com/Speedscaleai
+- crunchbase: https://www.crunchbase.com/organization/speedscale
   homepage_url: https://www.speedscale.com/
-  image_data:
-    fileName: speed-scale-member.svg
-    hash: nTV8pnAI+y7JLbhQl3FB199i6ORYfJHKRvMGR7nmhVU=
   item: null
+  joined: '2022-04-01'
   logo: speedscale.svg
   name: SpeedScale (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-03 03:41:34+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/sphereex
-  crunchbase_data:
-    acquisitions: []
-    city: Beijing
-    company_type: For Profit
-    country: China
-    description: SphereEx is a database software provider that builds distributed
-      data infrastructures with the help of cloud and big data technologies.
-    funding: 10000000
-    homepage: http://sphere-ex.com
-    industries:
-    - Apps
-    - Database
-    - Information Technology
-    - SaaS
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/sphere-ex
-    name: SphereEx
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Beijing
-    stockExchange: null
-    twitter: https://twitter.com/Sphere_Ex
-  homepage_url: https://www.sphere-ex.com/en/
-  image_data:
-    fileName: sphere-ex-member.svg
-    hash: 2/fTX/ne2DdP0LE1BPvgbLTNwfvnQW9144weasPVRic=
+- crunchbase: https://www.crunchbase.com/organization/spitzkop
+  homepage_url: https://www.spitzkop.io
   item: null
-  logo: sphereex.svg
-  name: SphereEx (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 10:29:19+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/spotify
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Tunigo
-      date: '2013-05-03'
-    - acquiree: The Echo Nest
-      date: '2014-03-06'
-    - acquiree: Seed Scientific
-      date: '2015-06-24'
-    - acquiree: Cord Project
-      date: '2016-01-20'
-    - acquiree: Soundwave
-      date: '2016-01-20'
-    - acquiree: CrowdAlbum
-      date: '2016-04-27'
-    - acquiree: Preact
-      date: '2016-11-02'
-    - acquiree: Sonalytic
-      date: '2017-03-07'
-    - acquiree: MightyTV
-      date: '2017-03-27'
-    - acquiree: Mediachain
-      date: '2017-04-26'
-    - acquiree: niland
-      date: '2017-05-17'
-    - acquiree: Soundtrap
-      date: '2017-11-17'
-    - acquiree: Loudr
-      date: '2018-04-12'
-    - acquiree: Anchor
-      date: '2019-02-06'
-      price: 140000000
-    - acquiree: Gimlet Media
-      date: '2019-02-06'
-      price: 200000000
-    - acquiree: Parcast
-      date: '2019-03-26'
-    - acquiree: The Ringer
-      date: '2020-02-05'
-    - acquiree: Megaphone (formerly Panoply Media)
-      date: '2020-11-10'
-      price: 235000000
-    - acquiree: Betty Labs
-      date: '2021-03-31'
-    - acquiree: Podz
-      date: '2021-06-17'
-    - acquiree: Findaway
-      date: '2021-11-11'
-    - acquiree: Whooshkaa
-      date: '2021-12-16'
-    - acquiree: Chartable
-      date: '2022-02-16'
-    - acquiree: Podsights
-      date: '2022-02-16'
-    - acquiree: Sonantic
-      date: '2022-06-12'
-    - acquiree: Heardle
-      date: '2022-07-12'
-    city: Stockholm
-    company_type: For Profit
-    country: Sweden
-    description: Spotify is a commercial music streaming service that provides restricted
-      digital content from a range of record labels and artists.
-    funding: 2085424679
-    homepage: http://www.spotify.com
-    industries:
-    - Audio
-    - Cloud Computing
-    - Music
-    - Music Streaming
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/spotify
-    name: Spotify
-    num_employees_max: 10000
-    num_employees_min: 5001
-    parents: []
-    region: Stockholms Lan
-    stockExchange: nyse
-    ticker: SPOT
-    twitter: http://twitter.com/spotify
+  joined: '2025-05-01'
+  logo: spitzkop.svg
+  name: Spitzkop (member)
+- crunchbase: https://www.crunchbase.com/organization/spotify
   enduser: true
   homepage_url: https://open.spotify.com
-  image_data:
-    fileName: spotify-member.svg
-    hash: DAKEkr0GKpjWj8VYuBguAIcGhQ2JHN9NM59+3Dlg/Cg=
   item: null
+  joined: '2018-03-01'
   logo: spotify-member.svg
   name: Spotify (member)
   twitter: https://twitter.com/SpotifyEng
-  twitter_data:
-    latest_tweet_date: 2022-08-04 17:56:48+00:00
-  yahoo_finance_data:
-    effective_ticker: SPOT
-    market_cap: 22874404864
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/spyderbat
-  crunchbase_data:
-    acquisitions: []
-    city: Austin
-    company_type: For Profit
-    country: United States
-    description: Spyderbat develops innovative solutions to radically change the way
-      organizations handle early threat discovery and investigation.
-    funding: 4200000
-    homepage: https://www.spyderbat.com/
-    industries:
-    - Cyber Security
-    - Network Security
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/spyderbat
-    name: Spyderbat
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: Texas
-    stockExchange: null
-    twitter: https://twitter.com/SpyderbatInc
-  homepage_url: https://www.spyderbat.com/
-  image_data:
-    fileName: spyderbat-member.svg
-    hash: GGo88Ru1AopKBUjw4pFaEeu5XFVWEZminFIFaJRaVuU=
+- crunchbase: https://www.crunchbase.com/organization/springer-nature
+  enduser: true
+  homepage_url: https://www.springernature.com/gp
   item: null
-  logo: spyderbat.svg
-  name: Spyderbat (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 16:17:48+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/squarespace
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Brace
-      date: '2015-01-07'
-    - acquiree: Acuity Scheduling
-      date: '2019-04-23'
-    - acquiree: Unfold
-      date: '2019-10-22'
-      price: 50000000
-    - acquiree: Tock
-      date: '2021-03-31'
-      price: 400000000
-    city: New York
-    company_type: For Profit
-    country: United States
-    description: Squarespace is an all-in-one platform for websites, domains, online
-      stores, marketing tools, and scheduling.
-    funding: 578500000
-    homepage: http://www.squarespace.com
-    industries:
-    - Developer Tools
-    - E-Commerce Platforms
-    - Publishing
-    - Software
-    - Web Design
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/squarespace
-    name: Squarespace
-    num_employees_max: 5000
-    num_employees_min: 1001
-    parents: []
-    region: New York
-    stockExchange: nyse
-    ticker: SQSP
-    twitter: http://twitter.com/squarespace
+  joined: '2020-03-01'
+  logo: springer-nature.svg
+  name: Springer Nature (member)
+- crunchbase: https://www.crunchbase.com/organization/squarespace
   enduser: true
   homepage_url: https://www.squarespace.com
-  image_data:
-    fileName: squarespace-member.svg
-    hash: jsrm1OkFQeHABisTNzRR6sVrebpTd5MObs+mlkcAWXk=
   item: null
+  joined: '2018-04-01'
   logo: squarespace-member.svg
   name: Squarespace (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-06 00:05:09+00:00
-  yahoo_finance_data:
-    effective_ticker: SQSP
-    market_cap: 3384849664
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/stackhawk
-  crunchbase_data:
-    acquisitions: []
-    city: Denver
-    company_type: For Profit
-    country: United States
-    description: StackHawk is a SaaS company helping developers find application security
-      bugs.
-    funding: 35325000
-    homepage: https://www.stackhawk.com
-    industries:
-    - Developer Tools
-    - SaaS
-    - Security
-    - Software
-    - Web Development
-    kind: funding
-    linkedin: https://www.linkedin.com/company/stackhawk
-    name: StackHawk
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Colorado
-    stockExchange: null
-    twitter: https://twitter.com/stackhawk
-  homepage_url: https://www.stackhawk.com/
-  image_data:
-    fileName: stack-hawk-member.svg
-    hash: J++8MuDRyGuPUF4ZJKZEBOAWXN+Z0pLi5G8s7AfZYro=
+- crunchbase: https://www.crunchbase.com/organization/squer
+  description: 'We are SQUER: coding architects, software engineers, agile transformation
+    experts and cloud engineers, all striving towards one goal. Solve our customer''s
+    challenges on their way to holistic digitalization while profoundly understanding
+    their business and constraints. Our consultants are developers and vice versa.
+    We believe in tackling challenges hands-on over concept only.'
+  homepage_url: https://www.squer.io/
   item: null
-  logo: stackhawk.svg
-  name: StackHawk (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 13:00:25+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/schwarz-dienstleistungen
-  crunchbase_data:
-    acquisitions: []
-    city: Neckarsulm
-    company_type: For Profit
-    country: Germany
-    description: "STACKIT is the digital brand of Schwarz IT and thus part of the\
-      \ IT organization of Europe\u2019s biggest retail group. (Lidl, Kaufland, PreZero)"
-    homepage: https://stackit.de/de/
-    industries:
-    - Information Technology
-    linkedin: https://www.linkedin.com/company/stackit-colocation/mycompany/?viewAsMember=true
-    name: STACKIT (Schwarz IT KG)
-    num_employees_max: 5000
-    num_employees_min: 1001
-    parents: []
-    region: Baden-Wurttemberg
-    stockExchange: null
-    twitter: null
+  joined: '2023-05-01'
+  logo: squer.svg
+  name: SQUER (member)
+- crunchbase: https://www.crunchbase.com/organization/stackgen
+  homepage_url: https://stackgen.com
+  item: null
+  joined: '2024-01-01'
+  logo: stackgen.svg
+  name: StackGen (member)
+- crunchbase: https://www.crunchbase.com/organization/stackguardian
+  homepage_url: https://www.stackguardian.io
+  item: null
+  joined: '2025-01-01'
+  logo: stackguardian.svg
+  name: StackGuardian (member)
+- crunchbase: https://www.crunchbase.com/organization/schwarz-dienstleistungen
   homepage_url: https://www.stackit.de/de/
-  image_data:
-    fileName: stackit-member.svg
-    hash: vSIHb5mV2KTKLfw4duQ2/s4uEWnXMdMs0pgEAFS/FJ8=
   item: null
+  joined: '2020-10-01'
   logo: stackit.svg
   name: STACKIT (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/stacklet
-  crunchbase_data:
-    acquisitions: []
-    city: Arlington
-    company_type: For Profit
-    country: United States
-    description: Stacklet is a cloud governance company that provides operational
-      efficiencies.
-    funding: 22000000
-    homepage: https://stacklet.io/
-    industries:
-    - Cloud Computing
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/stacklet/about/
-    name: Stacklet
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: Virginia
-    stockExchange: null
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/stacklet
   homepage_url: https://stacklet.io/
-  image_data:
-    fileName: stacklet-member.svg
-    hash: +VSXvTSN9axJ5ukK8HIfa5HiJFM0DGwZwGr8Hu34J7s=
   item: null
+  joined: '2021-03-01'
   logo: stacklet.svg
   name: Stacklet (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/stark-wayne
-  crunchbase_data:
-    acquisitions: []
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: Stark & Wayne is a team dedicated to enabling and educating and exciting
-      the world about Cloud Foundry and platform-as-a-service.
-    homepage: https://starkandwayne.com
-    industries:
-    - Software
-    linkedin: https://www.linkedin.com/company/stark-&-wayne-llc
-    name: Stark & Wayne
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/StarkAndWayne
-  homepage_url: https://starkandwayne.com/
-  image_data:
-    fileName: stark-wayne-member.svg
-    hash: pnAf5/k9EX3HmeIj0miViYUfiaYhz5Vgi0+JdGVG5X8=
+- crunchbase: https://www.crunchbase.com/organization/stacklok
+  homepage_url: https://stacklok.com
   item: null
-  logo: stark-and-wayne.svg
-  name: Stark & Wayne (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 18:35:57+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/steamhaus
-  crunchbase_data:
-    acquisitions: []
-    city: Manchester
-    company_type: For Profit
-    country: United Kingdom
-    description: Steamhaus is a cloud and devops consultancy that enables businesses
-      to leverage the power of public cloud providers.
-    homepage: https://www.steamhaus.co.uk/
-    industries:
-    - Consulting
-    - Information Technology
-    - Internet
-    - Software
-    linkedin: https://www.linkedin.com/company/steamhaus/
-    name: Steamhaus
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Manchester
-    stockExchange: null
-    twitter: https://twitter.com/SteamhausMCR
+  joined: '2024-03-01'
+  logo: stacklok.svg
+  name: Stacklok (member)
+- crunchbase: https://www.crunchbase.com/organization/stc-lab
+  homepage_url: https://www.stclab.com
+  item: null
+  joined: '2024-10-01'
+  logo: stclab.svg
+  name: STCLAB (member)
+- crunchbase: https://www.crunchbase.com/organization/steamhaus
   homepage_url: https://www.steamhaus.co.uk/
-  image_data:
-    fileName: steamhaus.svg
-    hash: PjTcTTjnJlZ0jTaOCrXoDimPf9fuTqwEeHMhcHKeapA=
   item: null
+  joined: '2022-07-01'
   logo: steamhaus.svg
-  name: Steamhaus
-  twitter_data:
-    latest_tweet_date: 2022-08-03 12:14:35+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/storm-reply
-  crunchbase_data:
-    acquisitions: []
-    city: Turin
-    company_type: For Profit
-    country: Italy
-    description: Storm Reply design, integrate and operate your cloud infrastructure
-      and develop tailored cloud software.
-    homepage: https://www.reply.com
-    industries:
-    - Information Technology
-    - Software
-    linkedin: https://www.linkedin.com/company/storm-reply
-    name: Storm Reply
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: Piemonte
-    stockExchange: null
-    twitter: http://twitter.com/StormReply
+  name: Steamhaus (member)
+- crunchbase: https://www.crunchbase.com/organization/storm-reply
   homepage_url: https://reply.com/storm-reply/en/kubernetes
-  image_data:
-    fileName: storm-reply-member.svg
-    hash: NEZI47H+aRpsnT9esiDbbYsxB6gZgGcyxHkfmcSvmvY=
   item: null
+  joined: '2019-08-01'
   logo: storm-reply.svg
   name: Storm Reply (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-03 20:58:30+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/stormforge
-  crunchbase_data:
-    acquisitions:
-    - acquiree: StormForger
-      date: '2020-11-16'
-    city: Cambridge
-    company_type: For Profit
-    country: United States
-    description: StormForge brings together data scientists and software engineers
-      to enable businesses to drive breakthrough IT and operations efficiency.
-    funding: 68000000
-    homepage: https://www.stormforge.io/
-    industries:
-    - Artificial Intelligence
-    - Developer Tools
-    - Information Technology
-    - Machine Learning
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/stormforge/
-    name: StormForge
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Massachusetts
-    stockExchange: null
-    twitter: https://twitter.com/stormforgeio
+- crunchbase: https://www.crunchbase.com/organization/stormforge
   homepage_url: https://www.stormforge.io
-  image_data:
-    fileName: storm-forge-member.svg
-    hash: FJVy0j0EEiONFtFSc5H4fTB4aJ6rVz3OQE+ROasV7sQ=
   item: null
+  joined: '2019-08-01'
   logo: stormforge.svg
   name: StormForge (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 16:02:50+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/storpool
-  crunchbase_data:
-    acquisitions: []
-    city: Sofia
-    company_type: For Profit
-    country: Bulgaria
-    description: StorPool is the fastest software-defined block storage used by public
-      and private cloud builders, enterprises, MSPs, hosting providers.
-    funding: 263255
-    homepage: https://www.storpool.com
-    industries:
-    - Cloud Infrastructure
-    - Cloud Storage
-    - Data Storage
-    - Enterprise Software
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/storpool
-    name: StorPool
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Grad Sofiya
-    stockExchange: null
-    twitter: http://twitter.com/storpool
-  homepage_url: https://www.storpool.com/
-  image_data:
-    fileName: stor-pool-member.svg
-    hash: ovO+r/miZK2nVvljUTJ+q8UmlNmTydBF8gjk3Yq1rro=
-  item: null
-  logo: storpool.svg
-  name: StorPool (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 02:01:00+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/stratox
-  crunchbase_data:
-    acquisitions: []
-    city: Prague
-    company_type: For Profit
-    country: Czech Republic
-    description: "CodeNOW is a software platform as a service, enabling businesses\
-      \ to deliver multi and hybrid cloud software faster \u2013 cost-efficient."
-    funding: 3423059
-    homepage: https://www.codenow.com
-    industries:
-    - Banking
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Cloud Management
-    - Enterprise Software
-    - Information Technology
-    - Private Cloud
-    - SaaS
-    - Software
-    - Web Development
-    kind: funding
-    linkedin: https://cz.linkedin.com/company/codenow-cloud
-    name: CodeNOW
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: Hlavni mesto Praha
-    stockExchange: null
-    twitter: https://twitter.com/CodeNowCom
+- crunchbase: https://www.crunchbase.com/organization/stratox
   homepage_url: https://www.stratox.cz
-  image_data:
-    fileName: stratox-member.svg
-    hash: sc5J9ofpztVjRUOV7TWb6dm6ZbRjpmfbWkW1k6hfXpc=
   item: null
+  joined: '2021-03-01'
   logo: stratox.svg
   name: Stratox (member)
-  twitter_data:
-    latest_tweet_date: 2022-04-06 13:31:00+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/streamnative
-  crunchbase_data:
-    acquisitions: []
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: StreamNative offers an streaming platform based on Apache Pulsar
-      that enables companies to access enterprise data as real-time streams.
-    funding: 29700000
-    homepage: https://streamnative.io
-    industries:
-    - Big Data
-    - Cloud Data Services
-    - Enterprise Software
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/streamnative
-    name: StreamNative
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/streamnativeio
-  homepage_url: https://streamnative.io/
-  image_data:
-    fileName: stream-native-member.svg
-    hash: 7BHRb67DRlAmCtcoFt7uzSTyX6+POPhQT4B17UsxXBY=
+- crunchbase: https://www.crunchbase.com/organization/strava
+  enduser: true
+  homepage_url: https://www.strava.com/
   item: null
-  logo: streamnative.svg
-  name: StreamNative (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 18:30:00+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/structsure
-  crunchbase_data:
-    acquisitions: []
-    city: Grand Rapids
-    company_type: For Profit
-    country: United States
-    description: Improving Global Cybersecurity outcomes by making it easy to do Cybersecurity
-      right
-    homepage: https://www.structsure.com/
-    industries: []
-    linkedin: https://linkedin.com/company/structsure-inc
-    name: Structsure
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Michigan
-    stockExchange: null
-    twitter: null
+  joined: '2023-06-01'
+  logo: strava.svg
+  name: Strava (member)
+- crunchbase: https://www.crunchbase.com/organization/structsure
   homepage_url: https://www.structsure.com/
-  image_data:
-    fileName: structsure-member.svg
-    hash: K0f0ZDFMpXItegJ5ma/qGKA4geRQpYpLS7ZAb7VlLAI=
   item: null
+  joined: '2020-07-01'
   logo: structsure.svg
   name: Structsure (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/styra
-  crunchbase_data:
-    acquisitions: []
-    city: Redwood City
-    company_type: For Profit
-    country: United States
-    description: Styra offers a platform that allows companies to enforce and monitor
-      authorization policies across cloud-native applications.
-    funding: 54000000
-    homepage: https://www.styra.com
-    industries:
-    - Cloud Infrastructure
-    - Cloud Management
-    - Cloud Security
-    - Cyber Security
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/styra
-    name: Styra
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/styrainc
+- crunchbase: https://www.crunchbase.com/organization/styra
   homepage_url: https://www.styra.com
-  image_data:
-    fileName: styra-member.svg
-    hash: zTK3enWTX7Qh2yp3+LjQ4SaOepCtltLgE7Yc+AdoApY=
   item: null
+  joined: '2017-11-01'
   logo: styra-member.svg
   name: Styra (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 19:07:22+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/successive-software
-  crunchbase_data:
-    acquisitions: []
-    city: Noida
-    company_type: For Profit
-    country: India
-    description: As a leading technology services provider, we offer solutions to
-      various industry segments such as E-commerce, Legal, fintech, Healthcare
-    homepage: https://successive.tech
-    industries:
-    - Apps
-    - E-Commerce
-    - FinTech
-    - Health Care
-    - Information Technology
-    - Mobile Apps
-    - SaaS
-    - Software
-    - Web Design
-    - Web Development
-    linkedin: https://www.linkedin.com/company/successivetech/
-    name: Successive Technologies
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: Uttar Pradesh
-    stockExchange: null
-    twitter: https://twitter.com/successive_tech
-  homepage_url: https://successive.tech/
-  image_data:
-    fileName: successive-technologies-member.svg
-    hash: KQvmSPtBSB2hdKotlpIJX957gMXSZn1+1ZAyNq5YrPI=
-  item: null
-  logo: successive.svg
-  name: Successive Technologies (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 11:02:37+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/sumo-logic
-  crunchbase_data:
-    acquisitions:
-    - acquiree: FactorChain
-      date: '2018-01-23'
-    - acquiree: JASK
-      date: '2019-11-04'
-    - acquiree: DFLabs
-      date: '2021-03-10'
-    - acquiree: Sensu
-      date: '2021-06-02'
-    city: Redwood City
-    company_type: For Profit
-    country: United States
-    description: Sumo Logic is a log management and analytics service, transforms
-      big data into sources of operations, security, and compliance intelligence.
-    funding: 340000000
-    homepage: http://www.sumologic.com
-    industries:
-    - Analytics
-    - Big Data
-    - Enterprise Software
-    - SaaS
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/sumo-logic
-    name: Sumo Logic
-    num_employees_max: 1000
-    num_employees_min: 501
-    parents: []
-    region: California
-    stockExchange: nasdaq
-    ticker: SUMO
-    twitter: http://twitter.com/sumologic
+- crunchbase: https://www.crunchbase.com/organization/sumo-logic
   homepage_url: https://www.sumologic.com/
-  image_data:
-    fileName: sumo-logic-member.svg
-    hash: IDXkWYHd8N+WBeS+fXxdWR76uEmmBUnL1jrTf6pnw9s=
   item: null
+  joined: '2018-04-01'
   logo: sumologic.svg
   name: Sumo Logic (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 22:27:01+00:00
-  yahoo_finance_data:
-    effective_ticker: SUMO
-    market_cap: 920069376
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/beijing-sup-info-information-technology-co-ltd
-  crunchbase_data:
-    acquisitions: []
-    city: Beijing
-    company_type: For Profit
-    country: China
-    description: Beijing Sup-info Information Technology Co. Ltd
-    homepage: https://www.sup-info.com.cn/
-    industries: []
-    linkedin: null
-    name: Beijing Sup-info Information Technology Co. Ltd
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Beijing
-    stockExchange: null
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/beijing-sup-info-information-technology-co-ltd
   homepage_url: https://www.sup-info.com.cn/
-  image_data:
-    fileName: sup-info-information-technology-member.svg
-    hash: zh2zE76NlHMCzW/cozIaETvsEBsg6JFADi2PfjZchPg=
   item: null
+  joined: '2021-07-01'
   logo: sup-info.svg
   name: Sup-info Information Technology (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/superblocks-de08
-  crunchbase_data:
-    acquisitions: []
-    city: New York
-    company_type: For Profit
-    country: United States
-    description: The programmable internal tooling platform for developers
-    homepage: https://www.superblocks.com
-    industries:
-    - Software
-    linkedin: https://www.linkedin.com/company/superblockshq
-    name: Superblocks
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: New York
-    stockExchange: null
-    twitter: https://twitter.com/superblocks
-  homepage_url: https://www.superblocks.com/
-  image_data:
-    fileName: superblocks-member.svg
-    hash: f3xVbFEs+oO/wJob5u1SBRX8uQyT+ufuqmS8CAdjSEY=
-  item: null
-  logo: superblocks.svg
-  name: Superblocks (member)
-  twitter_data:
-    latest_tweet_date: 2022-07-07 14:06:59+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/superorbital
-  crunchbase_data:
-    acquisitions: []
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: A tiny team of exceptional Kubernetes engineers and teachers.
-    homepage: https://superorbital.io
-    industries:
-    - Cloud Computing
-    - Software Engineering
-    - Training
-    linkedin: https://www.linkedin.com/company/superorbital/
-    name: SuperOrbital
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/superorbital_io
+- crunchbase: https://www.crunchbase.com/organization/superorbital
   homepage_url: https://superorbital.io/
-  image_data:
-    fileName: super-orbital-member.svg
-    hash: 7Pni08zINVA8ntXRwS4RAN2s+OjuM/SsND0MrVYQoBQ=
   item: null
+  joined: '2021-04-01'
   logo: superorbital.svg
   name: SuperOrbital (member)
-  twitter_data:
-    latest_tweet_date: 2022-07-13 19:35:06+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/suse
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Rancher Labs
-      date: '2020-07-08'
-      price: 600000000
-    - acquiree: NeuVector
-      date: '2021-10-28'
-      price: 130000000
-    city: Nuremberg
-    company_type: For Profit
-    country: Germany
-    description: SUSE provides reliable and interoperable Linux and cloud infrastructure
-      solutions that give enterprises greater control and flexibility.
-    homepage: http://www.suse.com
-    industries:
-    - Cloud Computing
-    - Enterprise Software
-    - Linux
-    - Software
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/suse
-    name: SUSE
-    num_employees_max: 5000
-    num_employees_min: 1001
-    parents: []
-    region: Bayern
-    stockExchange: fra
-    ticker: SUSE.F
-    twitter: https://twitter.com/SUSE
+- crunchbase: https://www.crunchbase.com/organization/suse
   homepage_url: https://www.suse.com/
-  image_data:
-    fileName: suse-member.svg
-    hash: JSNDJjT6rKh5CNpeaSN2mrDPlJrcDq3JtestmTYd0ro=
   item: null
+  joined: '2017-04-01'
   logo: suse.svg
   name: SUSE (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 14:00:58+00:00
-  yahoo_finance_data:
-    effective_ticker: SUSE.F
-    market_cap: 3288476571
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/sva
-  crunchbase_data:
-    acquisitions: []
-    city: Wiesbaden
-    company_type: For Profit
-    country: Germany
-    description: SVA is one of the leading system integrators Germany in data center
-      infrastructure.
-    homepage: http://www.sva.de
-    industries:
-    - Information Technology
-    - Infrastructure
-    - Security
-    - Software
-    linkedin: https://www.linkedin.com/company/sva-system-vertrieb-alexander-gmbh
-    name: SVA
-    num_employees_max: 5000
-    num_employees_min: 1001
-    parents: []
-    region: Hessen
-    stockExchange: null
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/sva
   homepage_url: https://www.sva.de/de
-  image_data:
-    fileName: sva-member.svg
-    hash: PMuDpDPxqvtpIq1kJnVyKEJGMwVzwECvGo3ja20PbvE=
   item: null
+  joined: '2020-11-01'
   logo: sva.svg
   name: SVA (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/swisscom
-  crunchbase_data:
-    acquisitions:
-    - acquiree: CT Cinetrade
-      date: '2004-09-24'
-    - acquiree: Betty Holding AG
-      date: '2006-09-29'
-    - acquiree: Minick Holding AG
-      date: '2006-12-04'
-    - acquiree: Fastweb
-      date: '2007-05-22'
-      price: 5653710247
-    - acquiree: webcall GmbH
-      date: '2008-05-23'
-    - acquiree: Swisscom It Services Sourcing
-      date: '2009-06-23'
-    - acquiree: Resource Group AG
-      date: '2009-06-25'
-    - acquiree: Axept AG
-      date: '2010-12-20'
-    - acquiree: Datasport AG
-      date: '2012-03-08'
-    - acquiree: Tweasy
-      date: '2013-05-08'
-    - acquiree: e-research AG
-      date: '2014-04-01'
-    - acquiree: LTV Gelbe Seiten
-      date: '2014-08-25'
-    - acquiree: Publigroupe S.A.
-      date: '2014-08-29'
-    - acquiree: Veltigroup
-      date: '2014-12-09'
-    - acquiree: H-Net
-      date: '2015-03-25'
-    - acquiree: Mila
-      date: '2015-11-30'
-    - acquiree: United Security Providers
-      date: '2019-05-09'
-    - acquiree: webtiser
-      date: '2021-02-09'
-    - acquiree: Innovative Web Group
-      date: '2022-01-05'
-    city: Worblaufen
-    company_type: For Profit
-    country: Switzerland
-    description: "Swisscom, Switzerland\u2019s leading telecoms company and one of\
-      \ its leading IT companies, is headquartered in Ittigen."
-    funding: 0
-    homepage: https://www.swisscom.ch
-    industries:
-    - Information Technology
-    - Telecommunications
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company-beta/2715
-    name: Swisscom
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents: []
-    region: Bern
-    stockExchange: swx
-    ticker: SCMN.SW
-    twitter: https://twitter.com/swisscom_de
-  homepage_url: https://www.swisscom.ch/en/residential.html
-  image_data:
-    fileName: swisscom-member.svg
-    hash: 4AEc1nHevgWq/9sc6ume8QzrtksSFbqulFPHSG2bYYM=
+- crunchbase: https://www.crunchbase.com/organization/svix
+  homepage_url: https://www.svix.com
   item: null
+  joined: '2024-08-01'
+  logo: svix.svg
+  name: Svix (member)
+- crunchbase: https://www.crunchbase.com/organization/swisscom
+  homepage_url: https://www.swisscom.ch/en/residential.html
+  item: null
+  joined: '2020-12-01'
   logo: swisscom.svg
   name: Swisscom (member)
-  twitter_data:
-    latest_tweet_date: 2021-01-24 11:34:37+00:00
-  yahoo_finance_data:
-    effective_ticker: SCMN.SW
-    market_cap: 27724569523
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/synadia-communications
-  crunchbase_data:
-    acquisitions: []
-    city: Los Angeles
-    company_type: For Profit
-    country: United States
-    description: Powering the secure connective technologies to drive cloud and edge
-      native
-    funding: 16000000
-    homepage: https://www.synadia.com/
-    industries:
-    - Cloud Computing
-    - Cloud Data Services
-    - Computer
-    - Mobile Apps
-    - Network Security
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/18407986/
-    name: Synadia Communications
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://www.twitter.com/_synadia_
-  homepage_url: https://nats.io
-  image_data:
-    fileName: synadia-communications-member.svg
-    hash: Q0YbriWjvZ3g9ohcRTsJ33y/t1C1OMY4hEjmfe6RqF4=
+- crunchbase: https://www.crunchbase.com/organization/symbotic
+  homepage_url: https://www.symbotic.com/
   item: null
-  logo: synadia.svg
-  name: Synadia Communications (member)
-  twitter_data:
-    latest_tweet_date: 2021-08-07 19:58:16+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/synax
-  crunchbase_data:
-    acquisitions: []
-    city: Basel
-    company_type: ''
-    country: Switzerland
-    description: At Synax we are dedicated to help our customers to become High Performers
-      using modern cloud-native technologies and services.
-    homepage: https://synax.io/
-    industries:
-    - Software
-    linkedin: null
-    name: Synax
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Basel-Stadt
-    stockExchange: null
-    twitter: null
+  joined: '2023-07-01'
+  logo: symbotic.svg
+  name: Symbotic (member)
+- crunchbase: https://www.crunchbase.com/organization/synadia-communications
+  homepage_url: https://www.synadia.com
+  item: null
+  joined: '2025-06-01'
+  logo: synadia-communications.svg
+  name: Synadia (member)
+- crunchbase: https://www.crunchbase.com/organization/synax
   homepage_url: https://www.synax.io/
-  image_data:
-    fileName: synax-member.svg
-    hash: MfQ8mpzhxScosAJQ/tTWKL5fU9bN0DCD5e7Fx3fL6k8=
   item: null
+  joined: '2021-08-01'
   logo: synax.svg
   name: Synax (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/sysdig
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Apolicy
-      date: '2021-07-20'
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: Sysdig is driving the standard for cloud and container security.
-    funding: 729500000
-    homepage: https://www.sysdig.com
-    industries:
-    - Cloud Computing
-    - Cloud Security
-    - Cyber Security
-    - SaaS
-    kind: funding
-    linkedin: https://www.linkedin.com/company/sysdig
-    name: Sysdig
-    num_employees_max: 1000
-    num_employees_min: 501
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: http://twitter.com/sysdig
-  homepage_url: https://sysdig.com
-  image_data:
-    fileName: sysdig-member.svg
-    hash: KrbSP3zpBVxAESaxgThwX4ys1NN8/nEABi7l8T7RY1E=
+- crunchbase: https://www.crunchbase.com/organization/syntasso
+  homepage_url: https://www.syntasso.io
   item: null
+  joined: '2024-01-01'
+  logo: syntasso.svg
+  name: Syntasso (member)
+- crunchbase: https://www.crunchbase.com/organization/synx-data-labs
+  homepage_url: https://www.synxdata.com
+  item: null
+  joined: '2025-06-01'
+  logo: synx-data-labs.svg
+  name: Synx Data Labs (member)
+- crunchbase: https://www.crunchbase.com/organization/sysdig
+  homepage_url: https://sysdig.com
+  item: null
+  joined: '2015-11-01'
   logo: sysdig.svg
   name: Sysdig (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 17:00:22+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/syseleven
-  crunchbase_data:
-    acquisitions: []
-    city: Berlin
-    company_type: For Profit
-    country: Germany
-    description: SysEleven provides IT infrastructure services for corporate environments.
-    homepage: http://www.syseleven.de/
-    industries:
-    - Web Hosting
-    linkedin: null
-    name: SysEleven
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: Berlin
-    stockExchange: null
-    twitter: http://twitter.com/syseleven
+- crunchbase: https://www.crunchbase.com/organization/syseleven
   homepage_url: https://www.syseleven.de
-  image_data:
-    fileName: sys-eleven-member.svg
-    hash: XY7zmKaSXDkxuCyKCBvOGa50mNIQNZrt30CvIE2Yal4=
   item: null
+  joined: '2018-08-01'
   logo: syseleven.svg
   name: SysEleven (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 09:00:01+00:00

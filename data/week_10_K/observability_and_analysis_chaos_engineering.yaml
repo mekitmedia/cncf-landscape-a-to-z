@@ -1,1 +1,21 @@
-[]
+- crunchbase: https://www.crunchbase.com/organization/kubeinvaders
+  description: Gamified Chaos Engineering Tool for K8s
+  homepage_url: https://github.com/lucky-sideburn/kubeinvaders
+  item: null
+  logo: k-inv.svg
+  name: Kubeinvaders
+  repo_url: https://github.com/lucky-sideburn/kubeinvaders
+- crunchbase: https://www.crunchbase.com/organization/red-hat
+  description: Chaos testing tool for Kubernetes to identify bottlenecks and improve
+    resilience and performance under failure conditions.
+  extra:
+    accepted: '2023-12-19'
+    clomonitor_name: krkn
+    dev_stats_url: https://krknchaos.devstats.cncf.io
+    slack_url: https://kubernetes.slack.com/messages/C05SFMHRWK1
+  homepage_url: https://krkn-chaos.github.io/krkn
+  item: null
+  logo: krkn.svg
+  name: Krkn
+  project: sandbox
+  repo_url: https://github.com/krkn-chaos/krkn

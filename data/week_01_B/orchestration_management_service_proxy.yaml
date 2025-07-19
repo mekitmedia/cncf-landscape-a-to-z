@@ -1,88 +1,16 @@
-- best_practice_data:
-    badge: 3209
-    percentage: 100
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Kubernetes
-      date: '2016-03-10'
-    - acquiree: RethinkDB
-      date: '2017-02-06'
-      price: 25000
-    city: San Francisco
-    company_type: Non Profit
-    country: United States
-    description: CNCF is an open source software foundation that hosts and nurtures
-      projects like Kubernetes and Prometheus.
-    funding: 3000000
-    homepage: https://www.cncf.io
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Non Profit
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
-    name: Cloud Native Computing Foundation (CNCF)
-    num_employees_max: 50
-    num_employees_min: 11
-    parents:
-    - https://www.crunchbase.com/organization/linux-foundation
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/CloudNativeFdn
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: Open-source layer 7 load balancer derived from proprietary Baidu FrontEnd
   extra:
-    accepted: '2020-06-23'
+    accepted: '2020-06-25'
+    annual_review_date: '2023-06-01'
+    annual_review_url: https://github.com/cncf/toc/pull/1066
     artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#bfe-logos
+    clomonitor_name: bfe
     dev_stats_url: https://bfe.devstats.cncf.io/
-  github_data:
-    contributions: 1;0;3;5;11;4;3;1;0;1;11;15;8;9;2;9;2;9;12;15;1;4;11;4;14;32;28;4;0;15;1;0;0;0;1;0;0;1;0;0;0;1;3;4;0;1;0;0;0;1;2;0
-    contributors_count: 99
-    contributors_link: https://github.com/bfenetworks/bfe/graphs/contributors
-    description: A modern layer 7 load balancer from baidu
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 2703039
-    - color: '#427819'
-      name: Makefile
-      value: 3948
-    - color: '#4B6C4B'
-      name: Yacc
-      value: 2954
-    - color: '#384d54'
-      name: Dockerfile
-      value: 967
-    - color: '#89e051'
-      name: Shell
-      value: 699
-    - color: '#e34c26'
-      name: HTML
-      value: 213
-    latest_commit_date: '2022-07-29T11:21:09Z'
-    latest_commit_link: /bfenetworks/bfe/commit/4f815116d4d8df4e8fdf730dbe3b79d07ad434e4
-    license: Apache License 2.0
-    release_date: '2022-01-11T06:57:51Z'
-    release_link: https://github.com/bfenetworks/bfe/releases
-    stars: 5575
-  github_start_commit_data:
-    start_commit_link: /baidu/bfe/commit/ff941a519b3971b88d8c19a9858a3597799b6417
-    start_date: '2019-07-31T02:33:55Z'
   homepage_url: https://www.bfe-networks.net
-  image_data:
-    fileName: bfe.svg
-    hash: yAXLOhsds7WusBT1QWnEqcei1ZCmvogFOAYsdW9Ck0c=
   item: null
   logo: bfe.svg
   name: BFE
   project: sandbox
   repo_url: https://github.com/bfenetworks/bfe
-  repos:
-  - stars: 5575
-    url: https://github.com/bfenetworks/bfe
   twitter: https://twitter.com/BfeNetworks
-  twitter_data:
-    latest_tweet_date: 2020-07-15 04:32:30+00:00

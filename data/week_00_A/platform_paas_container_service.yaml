@@ -1,120 +1,18 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/typesafe
-  crunchbase_data:
-    acquisitions:
-    - acquiree: BoldRadius
-      date: '2016-04-15'
-    - acquiree: OpsClarity
-      date: '2017-02-08'
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: Lightbend offers a reactive application development platform for
-      building distributed applications and modernizing aging infrastructures.
-    funding: 83994189
-    homepage: http://www.lightbend.com
-    industries:
-    - Big Data
-    - Cloud Computing
-    - Data Integration
-    - Enterprise Applications
-    - Enterprise Software
-    - Information Technology
-    - Internet
-    - Software
-    - Software Engineering
-    kind: funding
-    linkedin: https://www.linkedin.com/company/lightbend-inc-/
-    name: Lightbend
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: http://twitter.com/lightbend
-  github_data:
-    contributions: 29;22;35;30;35;8;10;16;24;8;12;13;10;9;30;5;10;17;14;13;1;12;10;2;10;5;8;12;30;6;30;12;11;9;12;11;10;9;9;9;2;2;5;1;3;1;4;3;4;0;0;0
-    contributors_count: 1025
-    contributors_link: https://github.com/akka/akka/graphs/contributors
-    description: Build highly concurrent, distributed, and resilient message-driven
-      applications on the JVM
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#c22d40'
-      name: Scala
-      value: 17428177
-    - color: '#b07219'
-      name: Java
-      value: 11531657
-    - color: '#89e051'
-      name: Shell
-      value: 28593
-    - color: '#f1e05a'
-      name: JavaScript
-      value: 6643
-    - color: '#427819'
-      name: Makefile
-      value: 913
-    - color: '#0298c3'
-      name: Perl
-      value: 304
-    - name: StringTemplate
-      value: 166
-    latest_commit_date: '2022-07-13T08:39:19Z'
-    latest_commit_link: /akka/akka/commit/5a1bccf5aa98556c2a366413d7ae22334894ba9c
-    license: Apache License 2.0
-    release_date: '2022-03-21T13:58:31Z'
-    release_link: https://github.com/akka/akka/releases
-    stars: 12336
-  github_start_commit_data:
-    start_commit_link: /akka/akka/commit/0a31ad718883ef0314de6dc8c6c2c9699eadfdae
-    start_date: '2009-02-16T12:53:10Z'
+- crunchbase: https://www.crunchbase.com/organization/akka
   homepage_url: https://akka.io/
-  image_data:
-    fileName: akka.svg
-    hash: 1LVjCpYny1Ob4UFxTTr5a6oiuXLMmDWNInagAaK6WwU=
   item: null
   logo: akka.svg
   name: Akka
   repo_url: https://github.com/akka/akka
-  repos:
-  - stars: 12336
-    url: https://github.com/akka/akka
-  twitter_data:
-    latest_tweet_date: 2022-08-03 18:11:57+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/atomist
-  crunchbase_data:
-    acquisitions: []
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: Atomist make microservice applications Easy and fun to build, through
-      a cloud-based service.
-    funding: 22000000
-    homepage: http://www.atomist.com/
-    industries:
-    - Software
-    - Web Development
-    kind: funding
-    linkedin: https://www.linkedin.com/company/atomist/
-    name: Atomist
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/atomist
+- crunchbase: https://www.crunchbase.com/organization/atomist
   homepage_url: https://atomist.com/
-  image_data:
-    fileName: atomist.svg
-    hash: Akzgzp6xY4FVQJRkvaJ7feocH/5YyJpUqIyGNhD59E8=
   item: null
   logo: atomist.svg
   name: Atomist
-  twitter_data:
-    latest_tweet_date: 2022-06-21 16:06:32+00:00
+- crunchbase: https://www.crunchbase.com/organization/akamai-technologies
+  description: Application Platform for Linode Kubernetes Engine (LKE)
+  homepage_url: https://apl-docs.net
+  item: null
+  logo: akamai.svg
+  name: Application Platform for LKE
+  repo_url: https://github.com/linode/apl-core

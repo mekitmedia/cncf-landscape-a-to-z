@@ -1,125 +1,39 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/tenxcloud
-  crunchbase_data:
-    acquisitions: []
-    city: Beijing
-    company_type: For Profit
-    country: China
-    description: TenxCloud is a provider of container cloud platforms and solutions.
-    funding: 0
-    homepage: https://www.tenxcloud.com/
-    industries:
-    - Computer
-    - Information Technology
-    - Internet
-    - Software
-    linkedin: https://www.linkedin.com/company/%E6%97%B6%E9%80%9F%E4%BA%91
-    name: TenxCloud
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Beijing
-    stockExchange: null
-    twitter: null
-  description: TenxCloud Container Enterprise is a PaaS product based on Kubernetes.
-  homepage_url: https://www.tenxcloud.com/404
-  image_data:
-    fileName: tenx-cloud-container-enterprise.svg
-    hash: 6D7D72F3jw+aLm8TKMYeQuaV3crlbDy5Xi+s396QxD0=
-  item: null
-  logo: tenxcloud.svg
-  name: TenxCloud Container Enterprise
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/tmaxa-c
-  crunchbase_data:
-    acquisitions: []
-    city: Seongnam
-    company_type: For Profit
-    country: South Korea
-    description: An A.I and cloud platform company based in Korea
-    homepage: https://tmaxanc.com/#!/main
-    industries: []
-    linkedin: null
-    name: TmaxA&C
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Kyonggi-do
-    stockExchange: null
-    twitter: https://twitter.com/OS62010191
-  description: HyperCloud is an open-based integrated cloud engine based on Kubernetes.
-    HyperCloud provides various cloud tools for customers to adjust infrastructure/platforms
-    easily considering the IT environment. It also offers open-source services and
-    technical supports that have been self-proven by Tmax.
-  homepage_url: https://tmaxanc.com/#!/product-introduce/HyperCloud
-  image_data:
-    fileName: tmax-a-c-hyper-cloud.svg
-    hash: HWZ8WI2mufYXiNnQe4KRD2XSAu/iZeKCSpGUFMKzkFs=
-  item: null
-  logo: tmaxa&c.svg
-  name: TmaxA&C HyperCloud
-  twitter_data:
-    latest_tweet_date: 2020-05-21 07:17:15+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/poseidon
-  crunchbase_data:
-    acquisitions: []
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: Typhoon is a minimal and free Kubernetes distribution.
-    homepage: https://typhoon.psdn.io/
-    industries:
-    - Big Data
-    - Education
-    linkedin: null
-    name: Poseidon
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/typhoon8s
+- crunchbase: https://www.crunchbase.com/organization/poseidon
   description: Typhoon distributes upstream Kubernetes, architectural conventions,
     and cluster addons, much like a GNU/Linux distribution provides the Linux kernel
     and userspace components.
-  github_data:
-    contributions: 5;3;1;2;1;3;4;3;4;2;6;3;1;3;4;1;1;13;4;2;3;2;9;5;2;2;3;5;4;1;5;1;3;5;1;1;4;4;3;1;1;1;4;2;1;5;1;2;1;5;0;7
-    contributors_count: 47
-    contributors_link: https://github.com/poseidon/typhoon/graphs/contributors
-    description: Minimal and free Kubernetes distribution with Terraform
-    firstWeek: 2021-08-08Z
-    languages:
-    - name: HCL
-      value: 277005
-    - color: '#e34c26'
-      name: HTML
-      value: 532
-    latest_commit_date: '2022-08-04T03:28:53Z'
-    latest_commit_link: /poseidon/typhoon/commit/16c27858786a6a432cacc0be2403bf1b26cdc225
-    license: MIT License
-    release_date: '2022-07-20T01:31:47Z'
-    release_link: https://github.com/poseidon/typhoon/releases
-    stars: 1695
-  github_start_commit_data:
-    start_commit_link: /poseidon/typhoon/commit/c111924913ee641ead3731c8ee01f1b6e28191a5
-    start_date: '2017-06-27T04:55:39Z'
   homepage_url: https://typhoon.psdn.io/
-  image_data:
-    fileName: typhoon.svg
-    hash: lMG5q3l30Fo8RcYK6s7i1K72aV7ukuUNeI0X5+5H9nk=
   item: null
   logo: typhoon.svg
   name: Typhoon
   repo_url: https://github.com/poseidon/typhoon
-  repos:
-  - stars: 1695
-    url: https://github.com/poseidon/typhoon
-  twitter_data:
-    latest_tweet_date: 2022-07-20 01:34:22+00:00
+- crunchbase: https://www.crunchbase.com/organization/itera-technologies-a-s
+  description: Taikun is a hybrid cloud management orchestration platform.
+  homepage_url: https://taikun.cloud
+  item: null
+  logo: taikun.svg
+  name: Taikun (TKS)
+- crunchbase: https://www.crunchbase.com/organization/sidero-labs
+  description: "Talos Linux is a single purpose distribution for Kubernetes. It provides\
+    \ an API driven\u2014no SSH\u2014operating system to deploy vanilla Kubernetes\
+    \ anywhere."
+  extra:
+    blog_url: https://siderolabs.com/blog/
+    other_links:
+    - name: Bluesky
+      url: https://bsky.app/profile/siderolabs.com
+    slack_url: https://slack.dev.talos-systems.io/
+    summary_intro_url: https://youtu.be/VKfE5BuqlSc
+    summary_release_rate: At least one minor release per quarter
+    youtube_url: https://www.youtube.com/@siderolabs
+  homepage_url: https://talos.dev/
+  item: null
+  logo: talos-linux.svg
+  name: Talos Linux
+- crunchbase: https://www.crunchbase.com/organization/tenxcloud
+  description: TenxCloud is a professional cloud-native application and data platform
+    service provider.
+  homepage_url: https://tenxcloud.com/
+  item: null
+  logo: tenxcloud.svg
+  name: TenxCloud

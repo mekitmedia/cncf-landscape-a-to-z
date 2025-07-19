@@ -1,332 +1,59 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/hashicorp
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Vektra
-      date: '2016-06-14'
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: HashiCorp is a remote-first company that solves development, security,
-      and operations challenges in infrastructure.
-    funding: 349175000
-    homepage: https://www.hashicorp.com
-    industries:
-    - Cloud Infrastructure
-    - Cyber Security
-    - Information Technology
-    - Private Cloud
-    - Software
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/HashiCorp
-    name: HashiCorp
-    num_employees_max: 5000
-    num_employees_min: 1001
-    parents: []
-    region: California
-    stockExchange: nasdaq
-    ticker: HCP
-    twitter: https://twitter.com/HashiCorp
-  github_data:
-    contributions: 6;1;8;14;10;12;2;12;15;18;18;13;20;5;5;2;5;6;15;2;0;2;8;11;8;10;3;4;9;35;10;7;4;0;0;3;4;2;5;2;14;27;10;3;7;5;0;6;1;6;10;8
-    contributors_count: 1457
-    contributors_link: https://github.com/hashicorp/packer/graphs/contributors
-    description: Packer is a tool for creating identical machine images for multiple
-      platforms from a single source configuration.
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 1262952
-    - name: HCL
-      value: 57424
-    - color: '#89e051'
-      name: Shell
-      value: 32719
-    - color: '#f1e05a'
-      name: JavaScript
-      value: 16118
-    - color: '#427819'
-      name: Makefile
-      value: 8698
-    - color: '#384d54'
-      name: Dockerfile
-      value: 4735
-    - color: '#012456'
-      name: PowerShell
-      value: 3058
-    - color: '#3572A5'
-      name: Python
-      value: 2144
-    - color: '#C1F12E'
-      name: Batchfile
-      value: 80
-    latest_commit_date: '2022-08-05T17:42:56Z'
-    latest_commit_link: /hashicorp/packer/commit/d2c83c49441b73ce49e2da39fe1bf451c3467b82
-    license: Mozilla Public License 2.0
-    release_date: '2022-03-10T00:30:39Z'
-    release_link: https://github.com/hashicorp/packer/releases
-    stars: 13867
-  github_start_commit_data:
-    start_commit_link: /hashicorp/packer/commit/9c22026293c937a45b269a938c7775def8544dea
-    start_date: '2013-03-23T05:41:53Z'
+- crunchbase: https://www.crunchbase.com/organization/hashicorp
   homepage_url: https://www.packer.io/
-  image_data:
-    fileName: packer.svg
-    hash: w5cg19p6b9WOlwsPsMpoQS3ImgdUFGRqHsTnNskBeYA=
   item: null
   logo: packer.svg
   name: Packer
   repo_url: https://github.com/hashicorp/packer
-  repos:
-  - stars: 13867
-    url: https://github.com/hashicorp/packer
-  twitter_data:
-    latest_tweet_date: 2022-08-05 23:07:00+00:00
-  yahoo_finance_data:
-    effective_ticker: HCP
-    market_cap: 6973402624
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/red-hat
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Akopia
-      date: '2001-01-31'
-    - acquiree: NOCpulse
-      date: '2002-10-07'
-    - acquiree: Sistina Software
-      date: '2003-12-18'
-      price: 31000000
-    - acquiree: JBoss
-      date: '2004-02-20'
-      price: 350000000
-    - acquiree: MetaMatrix
-      date: '2007-06-02'
-    - acquiree: Amentra
-      date: '2008-03-14'
-    - acquiree: Identyx
-      date: '2008-06-19'
-    - acquiree: Qumranet
-      date: '2008-09-04'
-    - acquiree: Makara
-      date: '2010-11-30'
-    - acquiree: Gluster
-      date: '2011-10-04'
-      price: 136000000
-    - acquiree: FuseSource
-      date: '2012-06-27'
-    - acquiree: Polymita Technologies
-      date: '2012-08-28'
-    - acquiree: BPM Technology
-      date: '2012-08-29'
-    - acquiree: ManageIQ
-      date: '2012-12-22'
-    - acquiree: Inktank
-      date: '2014-04-30'
-      price: 175000000
-    - acquiree: eNovance
-      date: '2014-06-18'
-      price: 95074205
-    - acquiree: FeedHenry
-      date: '2014-09-18'
-      price: 82000000
-    - acquiree: Red Hat Ansible
-      date: '2015-10-16'
-      price: 150000000
-    - acquiree: 3scale
-      date: '2016-06-22'
-    - acquiree: Codenvy
-      date: '2017-05-25'
-    - acquiree: Permabit Technology Corporation
-      date: '2017-07-31'
-    - acquiree: CoreOS
-      date: '2018-01-30'
-      price: 250000000
-    - acquiree: NooBaa
-      date: '2018-11-27'
-    - acquiree: StackRox
-      date: '2021-01-07'
-    city: Raleigh
-    company_type: For Profit
-    country: United States
-    description: Red Hat is a multinational software company engaged in providing
-      open-source software products to the enterprise community.
-    funding: 0
-    homepage: http://www.redhat.com
-    industries:
-    - Enterprise Software
-    - Linux
-    - Open Source
-    - Operating Systems
-    - Software
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/red-hat
-    name: Red Hat
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents:
-    - https://www.crunchbase.com/organization/ibm
-    region: North Carolina
-    stockExchange: nyse
-    ticker: IBM
-    twitter: http://twitter.com/redhat
-  github_data:
-    contributions: 43;62;61;58;87;114;90;97;36;73;53;67;52;83;87;64;80;60;66;44;11;52;84;92;68;65;43;44;46;38;56;64;118;59;40;69;79;106;75;69;44;104;70;68;71;56;80;80;70;74;61;68
-    contributors_count: 450
-    contributors_link: https://github.com/containers/podman/graphs/contributors
-    description: 'Podman: A tool for managing OCI containers and pods.'
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 6349646
-    - color: '#89e051'
-      name: Shell
-      value: 816970
-    - color: '#0298c3'
-      name: Perl
-      value: 130195
-    - color: '#3572A5'
-      name: Python
-      value: 88044
-    - color: '#555555'
-      name: C
-      value: 40262
-    - color: '#427819'
-      name: Makefile
-      value: 37003
-    - color: '#384d54'
-      name: Dockerfile
-      value: 10767
-    - color: '#701516'
-      name: Ruby
-      value: 3511
-    - color: '#C1F12E'
-      name: Batchfile
-      value: 1250
-    - name: Awk
-      value: 540
-    - color: '#e34c26'
-      name: HTML
-      value: 404
-    latest_commit_date: '2022-08-05T14:48:18Z'
-    latest_commit_link: /containers/podman/commit/66c246d2c13edb893368fef4ba3a9770c00f8f3b
-    license: Apache License 2.0
-    release_date: '2022-08-05T17:37:07Z'
-    release_link: https://github.com/containers/podman/releases
-    stars: 14727
-  github_start_commit_data:
-    start_commit_link: /containers/libpod/commit/2b74391cd5281f6fdf391ff8ad50fd1490f6bf89
-    start_date: '2017-11-01T15:01:27Z'
+- allow_duplicate_repo: true
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   homepage_url: https://podman.io/
-  image_data:
-    fileName: podman.svg
-    hash: 78GwBttvYlKQEzq97XreqwnBvtVaICCkhW2PWVjd7hI=
   item: null
   logo: podman.svg
   name: Podman
   repo_url: https://github.com/containers/podman
-  repos:
-  - stars: 14727
-    url: https://github.com/containers/podman
-  twitter_data:
-    latest_tweet_date: 2022-08-05 17:14:02+00:00
-  yahoo_finance_data:
-    effective_ticker: IBM
-    market_cap: 118744473600
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Kubernetes
-      date: '2016-03-10'
-    - acquiree: RethinkDB
-      date: '2017-02-06'
-      price: 25000
-    city: San Francisco
-    company_type: Non Profit
-    country: United States
-    description: CNCF is an open source software foundation that hosts and nurtures
-      projects like Kubernetes and Prometheus.
-    funding: 3000000
-    homepage: https://www.cncf.io
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Non Profit
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
-    name: Cloud Native Computing Foundation (CNCF)
-    num_employees_max: 50
-    num_employees_min: 11
-    parents:
-    - https://www.crunchbase.com/organization/linux-foundation
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/CloudNativeFdn
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: "An open-source tool for developers to work with containers and Kubernetes\
+    \ with an intuitive and user-friendly interface to effortlessly build, manage,\
+    \ and deploy containers and Kubernetes \u2014 all from the desktop."
+  extra:
+    accepted: '2025-01-21'
+    clomonitor_name: podman-desktop
+    dev_stats_url: https://podmandesktop.devstats.cncf.io/
+    summary_business_use_case: Simplifies configuration and management of developer
+      environments on Mac, Windows and Linux by providing container engines and  Kubernetes
+      (Kind, Minikube) on local machines. This simplistic onboarding and consistency
+      to go from containers to pods to Kubernetes increases predictability in deployments
+      and reduces gaps in developer tooling.
+    summary_integrations: Podman, crc, Lima, Docker, Kind, Minikube
+    summary_personas: Developers, DevOps Engineers, Platform Engineers
+    summary_tags: container, kubernetes, desktop, development
+    summary_use_case: Podman Desktop provides a user-friendly interface for managing
+      containers and working with Kubernetes from a local developer machine. It abstracts
+      away the setup and configuration of container tooling on developer environments
+      and provides developers a simplistic onboarding to go from containers up to
+      Kubernetes.
+  homepage_url: https://podman-desktop.io/
+  item: null
+  logo: podman-desktop.svg
+  name: Podman Desktop
+  project: sandbox
+  repo_url: https://github.com/podman-desktop/podman-desktop
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   extra:
     accepted: '2020-09-08'
+    annual_review_date: '2022-10-25'
+    annual_review_url: https://github.com/cncf/toc/pull/951
     artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#porter-logos
-    blog_url: https://porter.sh/blog
+    blog_url: https://getporter.org/blog
+    clomonitor_name: porter
     dev_stats_url: https://porter.devstats.cncf.io/
-    mailing_list_url: https://porter.sh/mailing-list
-    slack_url: https://porter.sh/community/#slack
+    mailing_list_url: https://getporter.org/mailing-list
+    slack_url: https://getporter.org/community/#slack
     youtube_url: https://www.youtube.com/channel/UCbpSU5xLikfXQ-5meXLrsfA
-  github_data:
-    contributions: 16;13;25;7;16;14;12;17;9;6;8;0;2;5;11;4;0;0;0;0;1;12;19;3;15;8;13;12;23;9;9;14;8;21;18;6;4;23;15;1;28;29;22;21;18;26;27;15;5;14;18;9
-    contributors_count: 72
-    contributors_link: https://github.com/getporter/porter/graphs/contributors
-    description: Porter enables you to package your application artifact, client tools,
-      configuration and deployment logic together as an installer that you can distribute,
-      and install with a single command.
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 1601507
-    - color: '#89e051'
-      name: Shell
-      value: 9606
-    - name: HCL
-      value: 5340
-    - color: '#384d54'
-      name: Dockerfile
-      value: 4600
-    - color: '#427819'
-      name: Makefile
-      value: 1875
-    - color: '#012456'
-      name: PowerShell
-      value: 1709
-    latest_commit_date: '2022-08-04T14:22:31Z'
-    latest_commit_link: /getporter/porter/commit/f7aa99dc8cfc0ac48cb019df45ac39e987135c39
-    license: Apache License 2.0
-    release_date: '2022-08-04T20:03:49Z'
-    release_link: https://github.com/getporter/porter/releases
-    stars: 854
-  github_start_commit_data:
-    start_commit_link: /getporter/porter/commit/db28cf3b6e63bbafa513a7eea2aa3bc3fe8cf96a
-    start_date: '2018-11-05T16:27:59Z'
   homepage_url: https://porter.sh/
-  image_data:
-    fileName: porter.svg
-    hash: o8mRJVAXurFibzeTcAcawnEmE+dtiGJD0C+rIO5jQPY=
   item: null
   logo: porter-sh.svg
   name: Porter
   project: sandbox
   repo_url: https://github.com/getporter/porter
-  repos:
-  - stars: 854
-    url: https://github.com/getporter/porter
   twitter: https://twitter.com/get_porter
-  twitter_data:
-    latest_tweet_date: 2022-08-01 17:46:46+00:00

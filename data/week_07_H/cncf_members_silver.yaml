@@ -1,459 +1,77 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/hammerspace-4936
-  crunchbase_data:
-    acquisitions: []
-    city: San Mateo
-    company_type: For Profit
-    country: United States
-    description: Hammerspace is a software-defined data platform that creates a Global
-      Data Environment to connect users and applications with their data.
-    homepage: https://hammerspace.com/
-    industries:
-    - Cloud Data Services
-    - Cloud Storage
-    - Data Storage
-    - Information Technology
-    - Software
-    linkedin: https://www.linkedin.com/company/hammerspace/
-    name: Hammerspace
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/Hammerspace_Inc
+- crunchbase: https://www.crunchbase.com/organization/hammerspace-4936
   homepage_url: https://hammerspace.com
-  image_data:
-    fileName: hammerspace-member.svg
-    hash: 78ibeWewGaz2o+yw9U8SB1OikYDM42clRr7wH3qFI+k=
   item: null
+  joined: '2018-12-01'
   logo: hammerspace-member.svg
   name: Hammerspace (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 17:36:49+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/haproxy-technologies
-  crunchbase_data:
-    acquisitions: []
-    city: Waltham
-    company_type: For Profit
-    country: United States
-    description: "HAProxy Technologies is the company behind HAProxy, the world\u2019\
-      s fastest and most widely used software load balancer."
-    homepage: http://www.haproxy.com
-    industries:
-    - Information Services
-    - Information Technology
-    - Internet
-    - Software
-    linkedin: https://www.linkedin.com/company/haproxy-technologies/
-    name: HAProxy Technologies
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: Massachusetts
-    stockExchange: null
-    twitter: https://twitter.com/haproxy
-  homepage_url: https://www.haproxy.com
-  image_data:
-    fileName: ha-proxy-technologies-member.svg
-    hash: M8TdqZqLFLa9qUXsrRoCSPYuIKjSOkC5eYeQbU31Hf0=
-  item: null
-  logo: ha-proxy-technologies-member.svg
-  name: HAProxy Technologies (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 15:25:38+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/harmony-cloud
-  crunchbase_data:
-    acquisitions: []
-    city: Hangzhou
-    company_type: For Profit
-    country: China
-    description: Harmony Cloud operates as a cloud computing startup.
-    funding: 4825796
-    homepage: http://harmonycloud.cn/
-    industries:
-    - Cloud Computing
-    - Information Technology
-    kind: funding
-    linkedin: null
-    name: Harmony Cloud
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: Zhejiang
-    stockExchange: null
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/harmony-cloud
   homepage_url: https://www.harmonycloud.cn
-  image_data:
-    fileName: harmony-cloud-member.svg
-    hash: 3Mn+dQf8JxS599zvq0zTFRb9yz3r8Dz4dyZKrR+gZRU=
   item: null
+  joined: '2017-03-01'
   logo: harmony-cloud-member.svg
   name: Harmony Cloud (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/harness-512d
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Drone.io
-      date: '2020-08-05'
-    - acquiree: ChaosNative
-      date: '2022-03-22'
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: Harness is a Continuous Delivery-as-a-Service platform for engineering
-      and DevOps teams to release applications into production.
-    funding: 425000000
-    homepage: http://harness.io
-    industries:
-    - Developer Tools
-    - Productivity Tools
-    - SaaS
-    kind: funding
-    linkedin: https://www.linkedin.com/company/harnessinc
-    name: Harness
-    num_employees_max: 1000
-    num_employees_min: 501
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/harnessio
+- crunchbase: https://www.crunchbase.com/organization/harness-512d
   homepage_url: https://harness.io
-  image_data:
-    fileName: harness-member.svg
-    hash: 1epazX5OrLkc6Chsz7mISona2Qcn/UBSf4DeT4DxGjE=
   item: null
+  joined: '2019-04-01'
   logo: harness-member.svg
   name: Harness (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 22:40:01+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/harpoon
-  crunchbase_data:
-    acquisitions: []
-    city: San Diego
-    company_type: For Profit
-    country: United States
-    description: harpoon is a No Code Kubernetes platform
-    funding: 0
-    homepage: https://harpoon.io
-    industries:
-    - Cloud Computing
-    - Developer Tools
-    - Enterprise Software
-    - SaaS
-    - Software
-    - Virtualization
-    - Web Apps
-    - Web Development
-    linkedin: https://www.linkedin.com/company/harpooncorp/
-    name: harpoon
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/harpoon51585536
-  homepage_url: https://www.harpoon.io
-  image_data:
-    fileName: harpoon-member.svg
-    hash: W4ZexgjeJ/kJOwC8aX17r77Z1YTyyslJtQMbaPtqhns=
-  item: null
-  logo: harpoon.svg
-  name: Harpoon (member)
-  twitter_data:
-    latest_tweet_date: 2018-09-01 16:59:37+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/hashicorp
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Vektra
-      date: '2016-06-14'
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: HashiCorp is a remote-first company that solves development, security,
-      and operations challenges in infrastructure.
-    funding: 349175000
-    homepage: https://www.hashicorp.com
-    industries:
-    - Cloud Infrastructure
-    - Cyber Security
-    - Information Technology
-    - Private Cloud
-    - Software
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/HashiCorp
-    name: HashiCorp
-    num_employees_max: 5000
-    num_employees_min: 1001
-    parents: []
-    region: California
-    stockExchange: nasdaq
-    ticker: HCP
-    twitter: https://twitter.com/HashiCorp
+- crunchbase: https://www.crunchbase.com/organization/hashicorp
   homepage_url: https://www.hashicorp.com/
-  image_data:
-    fileName: hashi-corp-member.svg
-    hash: iQpRABvwNfIgG5OvuiRrvS39QbAhDfpm7ymlPwGMmo8=
   item: null
+  joined: '2020-04-01'
   logo: hashicorp.svg
   name: HashiCorp (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 23:07:00+00:00
-  yahoo_finance_data:
-    effective_ticker: HCP
-    market_cap: 6973402624
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/hasura
-  crunchbase_data:
-    acquisitions: []
-    city: Bangalore
-    company_type: For Profit
-    country: India
-    description: Hasura is a software technology company that provides developer-focused
-      tooling products.
-    funding: 136500000
-    homepage: http://hasura.io/
-    industries:
-    - Cloud Infrastructure
-    - Developer APIs
-    - Developer Tools
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/hasura/
-    name: Hasura
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Karnataka
-    stockExchange: null
-    twitter: https://twitter.com/hasurahq
-  homepage_url: https://hasura.io
-  image_data:
-    fileName: hasura-technologies-member.svg
-    hash: upEgZ76e4X13rISVtz1aIfMw9JBlohaE6cswulWaRgg=
+- crunchbase: https://www.crunchbase.com/organization/hawkstack-technologies
+  homepage_url: https://www.hawkstack.com
   item: null
-  logo: hasura-technologies-member.svg
-  name: Hasura Technologies (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 13:55:39+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/helios-5828
-  crunchbase_data:
-    acquisitions: []
-    city: Tel Aviv
-    company_type: For Profit
-    country: Israel
-    description: Helios gives you the power to understand, troubleshoot, and test
-      all your applications and services.
-    funding: 5000000
-    homepage: https://gethelios.dev/
-    industries:
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/helios-dev/
-    name: Helios
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Tel Aviv
-    stockExchange: null
-    twitter: null
-  homepage_url: https://www.gethelios.dev/
-  image_data:
-    fileName: helios-member.svg
-    hash: u0W59vueCh+YX8+E1lexKe8EDUWjy8+0yKf1VUE15Vs=
+  joined: '2025-05-01'
+  logo: hawkstack.svg
+  name: HawkStack (member)
+- crunchbase: https://www.crunchbase.com/organization/hedgehog-3fb4
+  homepage_url: https://hedgehog.cloud
   item: null
-  logo: helios.svg
-  name: Helios (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/hitachi-vantara
-  crunchbase_data:
-    acquisitions:
-    - acquiree: REAN Cloud
-      date: '2018-07-24'
-    - acquiree: Waterline Data
-      date: '2020-01-22'
-    - acquiree: Containership
-      date: '2020-03-13'
-    - acquiree: Io-Tahoe
-      date: '2021-06-23'
-    city: Santa Clara
-    company_type: For Profit
-    country: United States
-    description: Hitachi Vantara drives data to meaningful outcomes.
-    homepage: 'https://www.hitachivantara.com/ '
-    industries:
-    - Information Services
-    - Information Technology
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/11257500/
-    name: Hitachi Vantara
-    num_employees_max: 10000
-    num_employees_min: 5001
-    parents:
-    - https://www.crunchbase.com/organization/hitachi
-    region: California
-    stockExchange: null
-    ticker: 6501.T
-    twitter: https://twitter.com/HitachiVantara
-  homepage_url: https://www.hitachivantara.com/en-us/home.html
-  image_data:
-    fileName: hitachi-vantara-member.svg
-    hash: Ys3oCUl/x8Iw7eVJyBLT2x/6AKi/OgLYqUKkcVY9cuU=
+  joined: '2025-05-01'
+  logo: hedgehog.svg
+  name: Hedgehog (member)
+- crunchbase: https://www.crunchbase.com/organization/highlight-9498
+  homepage_url: https://www.highlight.io/
   item: null
-  logo: hitachi-vantara.svg
-  name: Hitachi Vantara (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 19:05:12+00:00
-  yahoo_finance_data:
-    effective_ticker: 6501.T
-    market_cap: 47326370787
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/humanitec
-  crunchbase_data:
-    acquisitions: []
-    city: Berlin
-    company_type: For Profit
-    country: Germany
-    description: Humanitec is the Platform Orchestrator at the core of your Internal
-      Developer Platform.
-    homepage: https://humanitec.com
-    industries:
-    - Information Technology
-    - Software
-    linkedin: https://www.linkedin.com/company/humanitec
-    name: Humanitec
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Berlin
-    stockExchange: null
-    twitter: https://twitter.com/humanitec_com
-  homepage_url: https://www.humanitec.com/
-  image_data:
-    fileName: humanitec-member.svg
-    hash: Eg0MIBY1BlhH7duNByOUynRVjzUswm6eARtudtHeOZU=
+  joined: '2023-11-01'
+  logo: highlight.svg
+  name: Highlight (member)
+- crunchbase: https://www.crunchbase.com/organization/honeycombio
+  homepage_url: https://www.honeycomb.io/
   item: null
-  logo: humanitec.svg
-  name: Humanitec (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 07:38:24+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/humio
-  crunchbase_data:
-    acquisitions: []
-    city: London
-    company_type: For Profit
-    country: United Kingdom
-    description: Humio provides a live observability platform that enables data aggregation,
-      exploration, reporting, and analysis from a range of sources.
-    funding: 31830177
-    homepage: https://www.humio.com
-    industries:
-    - Analytics
-    - Data Integration
-    - Information Technology
-    - Management Information Systems
-    kind: funding
-    linkedin: https://www.linkedin.com/company/humio
-    name: Humio
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: England
-    stockExchange: null
-    twitter: https://twitter.com/meethumio
-  homepage_url: https://www.humio.com
-  image_data:
-    fileName: humio-member.svg
-    hash: JcrU9mUZDACnLi1wDnW8r0I37Hu4B+0EJ7buwm4t6us=
+  joined: '2022-08-01'
+  logo: honeycomb.svg
+  name: Honeycomb (member)
+- crunchbase: https://www.crunchbase.com/organization/hostersi
+  homepage_url: https://www.hostersi.com/
   item: null
-  logo: humio.svg
-  name: Humio (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 19:00:38+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/hx-security
-  crunchbase_data:
-    acquisitions: []
-    city: Beijing
-    company_type: For Profit
-    country: China
-    description: HX Security
-    homepage: https://www.huoxian.cn/index
-    industries: []
-    linkedin: null
-    name: HX Security
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Beijing
-    stockExchange: null
-    twitter: null
-  homepage_url: https://www.huoxian.cn/
-  image_data:
-    fileName: huoxian-security-member.svg
-    hash: H5Gj4vIOtHv1uVWlGCKyEAoA8YsjPNm0u3PZiF6muQ4=
+  joined: '2023-06-01'
+  logo: hostersi.svg
+  name: Hostersi (member)
+- crunchbase: https://www.crunchbase.com/organization/hewlett-packard-enterprise
+  homepage_url: https://www.hpe.com/us/en/home.html
   item: null
-  logo: huoxian-security.svg
-  name: Huoxian Security (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/hyscale
-  crunchbase_data:
-    acquisitions: []
-    city: Mountain View
-    company_type: For Profit
-    country: United States
-    description: An acceleration platform for Kubernetes. Offers self-service app
-      deployments, container sprawl management across clusters, and DevSecOps.
-    homepage: https://www.hyscale.io/enterprise/
-    industries: []
-    linkedin: https://www.linkedin.com/company/hyscale/
-    name: HyScale
-    num_employees_max: 50
-    num_employees_min: 11
-    parents:
-    - https://www.crunchbase.com/organization/pramati-prism
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/hyscaleio
-  homepage_url: https://www.hyscale.io/
-  image_data:
-    fileName: hy-scale-member.svg
-    hash: erC4fClFU6Zb7fkivQrNVvMieTJ4OQrnMSAJ3o3PnCE=
+  joined: '2017-10-01'
+  logo: hpe-member.svg
+  name: HPE (member)
+- homepage_url: https://www.hud.io
   item: null
-  logo: hyscale.svg
-  name: HyScale (member)
-  twitter_data:
-    latest_tweet_date: 2021-02-10 15:50:06+00:00
+  joined: '2025-01-01'
+  logo: hud.svg
+  name: Hud (member)
+- crunchbase: https://www.crunchbase.com/organization/hyperdx
+  homepage_url: https://www.hyperdx.io
+  item: null
+  joined: '2024-12-01'
+  logo: hyperdx.svg
+  name: HyperDX (member)
+- crunchbase: https://www.crunchbase.com/organization/hyve-managed-hosting
+  homepage_url: https://www.hyve.com
+  item: null
+  joined: '2025-06-01'
+  logo: hyve-managed-hosting.svg
+  name: Hyve Managed Hosting (member)

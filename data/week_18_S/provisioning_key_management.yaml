@@ -1,281 +1,141 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Kubernetes
-      date: '2016-03-10'
-    - acquiree: RethinkDB
-      date: '2017-02-06'
-      price: 25000
-    city: San Francisco
-    company_type: Non Profit
-    country: United States
-    description: CNCF is an open source software foundation that hosts and nurtures
-      projects like Kubernetes and Prometheus.
-    funding: 3000000
-    homepage: https://www.cncf.io
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Non Profit
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
-    name: Cloud Native Computing Foundation (CNCF)
-    num_employees_max: 50
-    num_employees_min: 11
-    parents:
-    - https://www.crunchbase.com/organization/linux-foundation
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/CloudNativeFdn
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   extra:
     accepted: '2018-03-29'
     artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#spiffe-logos
     blog_url: https://blog.spiffe.io/
+    clomonitor_name: spiffe
     dev_stats_url: https://spiffe.devstats.cncf.io/
+    graduated: '2022-08-23'
+    incubating: '2020-06-22'
     mailing_list_url: https://groups.google.com/a/spiffe.io/forum/#!forum/announce
     slack_url: https://slack.spiffe.io/
-  github_data:
-    contributions: 0;1;2;0;0;1;0;0;1;0;0;8;0;1;1;1;0;0;0;0;0;1;0;0;0;3;0;1;0;0;0;2;1;1;0;4;1;0;1;0;0;0;0;1;0;0;0;0;0;0;0;0
-    contributors_count: 50
-    contributors_link: https://github.com/spiffe/spiffe/graphs/contributors
-    description: The SPIFFE Project
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#89e051'
-      name: Shell
-      value: 2959
-    latest_commit_date: '2022-06-06T16:33:49Z'
-    latest_commit_link: /spiffe/spiffe/commit/27b59b81ba8c56885ac5d4be73b35b9b3305fd7a
-    license: Apache License 2.0
-    stars: 1054
-  github_start_commit_data:
-    start_commit_link: /spiffe/spiffe/commit/f6c7cd6e6a21cf8c763f462ddd9fdb501b9b7c70
-    start_date: '2017-01-31T06:47:40Z'
+    summary_business_use_case: 'In today''s business environment, rapidly delivering
+      innovative customer experiences through differentiated applications and services
+      is necessary for competitive advantage. As a result, organizations witness a
+      change in how applications and services are being architected, built, and deployed.
+      New technologies such as cloud and containers help organizations release faster,
+      at scale. Services need to be built at high velocity and deployed on a vast
+      plethora of platforms. As development accelerates, these systems are becoming
+      increasingly interdependent and interconnected to deliver a consistent customer
+      experience.
+
+
+      Organizations may be inhibited in achieving high velocity and gaining market
+      share or mission assurance for such major reasons as compliance, the pool of
+      expertise, and interoperability challenges between teams/organizations and within
+      existing solutions.
+
+
+      For business leaders focused on improving business expediency and returns, SPIFFE
+      can significantly reduce costs associated with the overhead of managing and
+      issuing cryptographic identity documents (e.g. X.509 certificates), and accelerate
+      development and deployment by removing the need for developers to understand
+      the identity and authentication technologies required to secure service-to-service
+      communication.
+
+
+      Technology integration as a result of organizational convergence can be a challenge
+      when different technology stacks must come together and interoperate. Aligning
+      on a common, industry-accepted standard for system-to-system communication with
+      identity and authentication, simplifies the technical aspects of full interoperability
+      and integration across multiple stacks.
+
+
+      SPIFFE brings a shared understanding of what constitutes software identity.
+      By further leveraging SPIFFE Federation, components in disparate systems in
+      different organizations or teams can establish trust to communicate securely
+      without the added overhead of constructs such as VPN tunnels, one-o certificates,
+      or shared credentials for use between such systems.
+
+      '
+    summary_integrations: App Mesh Controller, Athenz, Cert-Manager, Consul, Dapr,
+      Docker, Emissary, Envoy, Ghostunnel, gRPC, Hamlet, Istio, Knox, Kubernetes,
+      NGINX, Parsec, Sigstore, Tekton, Tornjak
+    summary_intro_url: https://www.youtube.com/watch?v=Q2SiGeebRKY
+    summary_personas: Platform Engineers,Security Engineers,Developers,Architects
+    summary_tags: Security,Identity,Credentials,Certificate,Rotation,Standard,Attestation,Authentication
+    summary_use_case: 'The Secure Production Identity Framework For Everyone (SPIFFE)
+      Project defines a framework and set of standards for identifying and securing
+      communications between application services. At its core, SPIFFE is:
+
+
+      A standard defining how services identify themselves to each other. These are
+      called SPIFFE IDs and are implemented as Uniform Resource Identifiers (URIs).
+
+
+      A standard for encoding SPIFFE IDs in a cryptographically-verifiable document
+      called a SPIFFE Verifiable Identity Document or SVIDs.
+
+
+      An API specification for issuing and/or retrieving SVIDs. This is the Workload
+      API.
+
+
+      The SPIFFE Project has a reference implementation, the SPIRE (the SPIFFE Runtime
+      Environment), that in addition to the above, it:
+
+
+      - Performs node and workload attestation.
+
+
+      - Implements a signing framework for securely issuing and renewing SVIDs.
+
+
+      - Provides an API for registering nodes and workloads, along with their designated
+      SPIFFE IDs.
+
+
+      - Provides and manages the rotation of keys and certs for mutual authentication
+      and encryption between workloads.
+
+
+      - Simplifies access from identified services to secret stores, databases, services
+      meshes and cloud provider services.
+
+
+      - Interoperability and federation to SPIFFE compatible systems across heterogeneous
+      environments and administrative trust boundaries
+
+
+      The SPIFFE Workload API can attest running software systems and issue SPIFFE
+      IDs and SVIDs to them. This in turn allows two workloads to establish trust
+      between each other, for example by establishing an mTLS connection or by signing
+      and verifying a JWT token. Use of SPIFFE can also enable workloads to securely
+      authenticate to a secret store, a database, or a cloud provider service.
+
+      '
   homepage_url: https://spiffe.io/
-  image_data:
-    fileName: spiffe.svg
-    hash: LDxQjuRQSp/OBkVIkfl4MqnUjN+zEo5xY398rAfihnA=
   item: null
   logo: spiffe.svg
   name: SPIFFE
-  project: incubating
+  project: graduated
   repo_url: https://github.com/spiffe/spiffe
-  repos:
-  - stars: 1054
-    url: https://github.com/spiffe/spiffe
   twitter: https://twitter.com/spiffeio
-  twitter_data:
-    latest_tweet_date: 2022-07-26 19:28:45+00:00
-- best_practice_data:
-    badge: 3303
-    percentage: 100
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Kubernetes
-      date: '2016-03-10'
-    - acquiree: RethinkDB
-      date: '2017-02-06'
-      price: 25000
-    city: San Francisco
-    company_type: Non Profit
-    country: United States
-    description: CNCF is an open source software foundation that hosts and nurtures
-      projects like Kubernetes and Prometheus.
-    funding: 3000000
-    homepage: https://www.cncf.io
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Non Profit
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
-    name: Cloud Native Computing Foundation (CNCF)
-    num_employees_max: 50
-    num_employees_min: 11
-    parents:
-    - https://www.crunchbase.com/organization/linux-foundation
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/CloudNativeFdn
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   extra:
     accepted: '2018-03-29'
     artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#spire-logos
+    clomonitor_name: spire
     dev_stats_url: https://spire.devstats.cncf.io/
+    graduated: '2022-08-22'
+    incubating: '2020-06-22'
     slack_url: https://slack.spiffe.io/
-  github_data:
-    contributions: 5;7;7;5;12;25;18;12;8;3;4;5;4;4;6;2;3;4;2;2;0;6;8;8;3;33;18;11;14;10;14;24;17;10;11;13;16;27;18;12;24;12;10;15;10;5;14;12;14;12;8;25
-    contributors_count: 138
-    contributors_link: https://github.com/spiffe/spire/graphs/contributors
-    description: The SPIFFE Runtime Environment
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 4919161
-    - color: '#89e051'
-      name: Shell
-      value: 125006
-    - color: '#427819'
-      name: Makefile
-      value: 23023
-    - color: '#384d54'
-      name: Dockerfile
-      value: 2441
-    - name: Open Policy Agent
-      value: 1719
-    latest_commit_date: '2022-08-05T18:02:20Z'
-    latest_commit_link: /spiffe/spire/commit/a7e9a1c3cb05fcdf57c18bea19edc8f01f4a9901
-    license: Apache License 2.0
-    release_date: '2022-07-13T19:43:23Z'
-    release_link: https://github.com/spiffe/spire/releases
-    stars: 1209
-  github_start_commit_data:
-    start_commit_link: /spiffe/spire/commit/3c42eb7b3695df5136dd44d467854fd3f119f509
-    start_date: '2017-03-23T07:01:54Z'
+    summary_integration: SPIFFE, Kubernetes, Envoy, Istio, AWS, GCP, Azure, Vault,
+      Cilium, CertManager
+    summary_intro_url: https://www.youtube.com/watch?v=Q2SiGeebRKY
+    summary_personas: Platform Engineers,Security Engineers,Developers,Architects
+    summary_release_rate: Monthly
+    summary_tags: Security,Identity,Credentials,Certificate,Rotation,Standard,Attestation,Authentication,Federation
+    summary_use_case: SPIRE implements the SPIFFE standards to provide cryptographic
+      service identity (e.g. X.509 certificates and JWTs) and identity federation
+      to workloads, independent of where those workloads are running. SPIRE provides
+      secure attestation of both the workload itself and the environment it is running
+      within and uses that information against custom defined policy to determine
+      the identity of the workload and issue the appropriate credentials
   homepage_url: https://spiffe.io/spire/
-  image_data:
-    fileName: spire.svg
-    hash: jIcHrVM1S8YvStTB7/Fumv4CJrdMeKL+HVBqrUI26j8=
   item: null
   logo: spire.svg
   name: SPIRE
-  project: incubating
+  project: graduated
   repo_url: https://github.com/spiffe/spire
-  repos:
-  - stars: 1209
-    url: https://github.com/spiffe/spire
   twitter: https://twitter.com/spiffeio
-  twitter_data:
-    latest_tweet_date: 2022-07-26 19:28:45+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/square
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Catapult Mediaworks, LLC
-      date: '2011-09-06'
-    - acquiree: 80/20
-      date: '2012-10-01'
-    - acquiree: Viewfinder
-      date: '2013-12-03'
-    - acquiree: Evenly
-      date: '2013-12-11'
-    - acquiree: BookFresh
-      date: '2014-02-26'
-    - acquiree: Caviar
-      date: '2014-08-04'
-      price: 90000000
-    - acquiree: Kili
-      date: '2015-03-11'
-    - acquiree: Fastbite
-      date: '2015-04-08'
-    - acquiree: Framed Data
-      date: '2016-03-14'
-    - acquiree: Storehouse
-      date: '2016-06-14'
-    - acquiree: OrderAhead
-      date: '2017-03-01'
-    - acquiree: Entrees On-Trays
-      date: '2018-01-25'
-    - acquiree: Weebly
-      date: '2018-04-26'
-      price: 365000000
-    - acquiree: Eloquent Labs
-      date: '2019-05-07'
-    - acquiree: Dessa
-      date: '2020-02-07'
-    - acquiree: Verse
-      date: '2020-06-15'
-    - acquiree: Stitch Labs
-      date: '2020-07-10'
-    - acquiree: Credit Karma Tax
-      date: '2020-11-25'
-      price: 50000000
-    - acquiree: TIDAL
-      date: '2021-03-04'
-      price: 297000000
-    - acquiree: Crew
-      date: '2021-07-14'
-    - acquiree: Afterpay
-      date: '2021-08-01'
-      price: 29000000000
-    - acquiree: Goparrot
-      date: '2022-05-18'
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: Square is a merchant services aggregator and mobile payment company
-      that aims to simplify commerce through technology.
-    funding: 601166807
-    homepage: http://squareup.com
-    industries:
-    - FinTech
-    - Hardware
-    - Mobile Payments
-    - Retail Technology
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/joinsquare
-    name: Square
-    num_employees_max: 10000
-    num_employees_min: 5001
-    parents: []
-    region: California
-    stockExchange: nyse
-    ticker: SQ
-    twitter: http://twitter.com/Square
-  github_data:
-    contributions: 2;1;1;4;1;13;2;0;2;2;0;1;2;2;0;1;20;7;4;3;1;10;1;8;1;6;0;1;0;0;9;1;2;2;1;1;3;1;1;0;3;16;0;4;13;3;9;5;8;7;8;3
-    contributors_count: 42
-    contributors_link: https://github.com/square/keywhiz/graphs/contributors
-    description: A system for distributing and managing secrets
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#b07219'
-      name: Java
-      value: 1517743
-    - color: '#701516'
-      name: Ruby
-      value: 9423
-    - color: '#89e051'
-      name: Shell
-      value: 5836
-    - color: '#384d54'
-      name: Dockerfile
-      value: 3341
-    - name: Smarty
-      value: 2334
-    latest_commit_date: '2022-08-05T16:10:51Z'
-    latest_commit_link: /square/keywhiz/commit/4d8cd33ee38bbbd01c5164ac4378cbcc36dbad73
-    license: Apache License 2.0
-    release_date: '2019-09-06T23:40:58Z'
-    release_link: https://github.com/square/keywhiz/releases
-    stars: 2513
-  github_start_commit_data:
-    start_commit_link: /square/keywhiz/commit/4e4be5800605b2f24c6722da8e689a665172bfcd
-    start_date: '2015-03-27T00:13:45Z'
-  homepage_url: https://square.github.io/keywhiz/
-  image_data:
-    fileName: square-keywhiz.svg
-    hash: uE1bHgQrKca/x/RWmPp4SUWhyLc/X2eN2Bsse/oPyTM=
-  item: null
-  logo: square-keywhiz.svg
-  name: Square Keywhiz
-  repo_url: https://github.com/square/keywhiz
-  repos:
-  - stars: 2513
-    url: https://github.com/square/keywhiz
-  twitter: https://twitter.com/SquareEng
-  twitter_data:
-    latest_tweet_date: 2022-01-25 18:47:20+00:00
-  yahoo_finance_data:
-    effective_ticker: SQ
-    market_cap: 50002153472

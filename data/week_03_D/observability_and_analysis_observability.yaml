@@ -1,0 +1,48 @@
+- crunchbase: https://www.crunchbase.com/organization/dash0
+  description: Dash0 is the cloud native observability solution, powered by OpenTelemetry,
+    Prometheus and Perses. Gain deep insights into your applications and infrastructure
+    with a solution that is fully based on open standards. Built for developers and
+    loved by SREs - ready for your stack.
+  extra:
+    documentation_url: https://www.dash0.com/documentation
+    linkedin_url: https://www.linkedin.com/company/dash0hq
+    summary_integrations: OpenTelemetry, Prometheus, Perses, Kubernetes
+    summary_intro_url: https://www.youtube.com/@Dash0HQ/streams
+    summary_personas: SREs, Engineers, Platform Engineers, DevOps Engineers, DevOps
+      practitioners
+  homepage_url: https://www.dash0.com/
+  item: null
+  logo: dash0.svg
+  name: Dash0
+  twitter: https://x.com/dash0hq
+- crunchbase: https://www.crunchbase.com/organization/scalyr
+  homepage_url: https://www.dataset.com
+  item: null
+  logo: dataset.svg
+  name: DataSet
+  twitter: https://twitter.com/dataset_s1
+- crunchbase: https://www.crunchbase.com/organization/datadog
+  homepage_url: https://www.datadoghq.com/
+  item: null
+  logo: datadog.svg
+  name: Datadog
+- crunchbase: https://www.crunchbase.com/organization/yunshan-networks
+  homepage_url: https://deepflow.yunshan.net/community.html
+  item: null
+  logo: deepflow.svg
+  name: DeepFlow
+  repo_url: https://github.com/deepflowys/deepflow
+- crunchbase: https://www.crunchbase.com/organization/gradle
+  description: Develocity speeds up builds and tests, makes troubleshooting more efficient,
+    and increases toolchain observability with reporting and visualization. Develocity
+    gives developers back at least one day each week in lost productivity, and supports
+    Apache Maven, Bazel, sbt, and Gradle build systems.
+  homepage_url: https://gradle.com/
+  item: null
+  logo: develocity.svg
+  name: Develocity
+- crunchbase: https://www.crunchbase.com/organization/dynatrace-software
+  homepage_url: https://www.dynatrace.com/
+  item: null
+  logo: dynatrace.svg
+  name: Dynatrace

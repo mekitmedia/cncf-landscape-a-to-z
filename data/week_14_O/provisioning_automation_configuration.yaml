@@ -1,132 +1,57 @@
-- best_practice_data:
-    badge: 246
-    percentage: 100
-  crunchbase: https://www.crunchbase.com/organization/open-infrastructure-foundation
-  crunchbase_data:
-    acquisitions: []
-    city: Austin
-    company_type: ''
-    country: United States
-    description: Helping people build and operate open infrastructure that runs in
-      production
-    homepage: https://openinfra.dev/
-    industries: []
-    linkedin: https://www.linkedin.com/company/open-infrastructure-foundation/
-    name: Open Infrastructure Foundation
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Texas
-    stockExchange: null
-    twitter: https://twitter.com/openinfradev
-  github_data:
-    contributions: 289;461;342;445;422;609;403;630;373;349;268;237;338;258;304;371;341;349;353;259;126;294;419;305;441;358;348;514;482;406;635;383;363;298;327;316;297;376;336;396;317;364;353;242;300;314;341;272;382;205;295;364
-    contributors_count: 3980
-    contributors_link: https://github.com/openstack/openstack/graphs/contributors
-    description: Repository tracking all OpenStack repositories as submodules. Mirror
-      of code maintained at opendev.org.
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#3572A5'
-      name: Python
-      value: 2056
-    latest_commit_date: '2022-08-05T21:04:29Z'
-    latest_commit_link: /openstack/openstack/commit/57199eda62628ccf60131b7670b633aa0c9fac6c
-    license: Apache License 2.0
-    stars: 4424
-  github_start_commit_data:
-    start_commit_link: /openstack/openstack/commit/1a8546c90100e2e3116b1a74adbeed507ce5e250
-    start_date: '2013-10-07T17:14:30Z'
+- crunchbase: https://www.crunchbase.com/organization/sidero-labs
+  description: Omni is a Kubernetes orchestrator for bare metal and edge environments.
+    It manages full OS and Kubernetes lifecycles with Talos Linux and remote management
+    with wireguard communication.
+  extra:
+    blog_url: https://siderolabs.com/blog/
+    documentation_url: https://omni.siderolabs.com
+    other_links:
+    - name: Bluesky
+      url: https://bsky.app/profile/siderolabs.com
+    slack_url: https://slack.dev.talos-systems.io/
+    summary_intro_url: https://youtu.be/0gPF0_fLins
+    youtube_url: https://www.youtube.com/@siderolabs
+  homepage_url: https://siderolabs.com/omni
+  item: null
+  logo: omni.svg
+  name: Omni
+  repo_url: https://github.com/siderolabs/omni
+- crunchbase: https://www.crunchbase.com/organization/open-infrastructure-foundation
   homepage_url: https://www.openstack.org/
-  image_data:
-    fileName: open-stack.svg
-    hash: fTa3J0qD9r8Xol9Bu1f2nsUR26a5BnLG8/8STitgw2o=
   item: null
   logo: open-stack.svg
   name: OpenStack
   repo_url: https://github.com/openstack/openstack
-  repos:
-  - stars: 4424
-    url: https://github.com/openstack/openstack
-  twitter_data:
-    latest_tweet_date: 2022-08-05 18:03:18+00:00
   url_for_bestpractices: https://github.com/openstack
-- best_practice_data:
-    badge: false
-    percentage: null
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: OpenTofu is an open source infrastructure as code tool that enables
+    users to safely and predictably provision and manage cloud and on-prem infrastructure.
+    It's a community-driven fork of Terraform that maintains backward compatibility
+    while offering enhanced features, stability.
+  extra:
+    accepted: '2025-04-23'
+  homepage_url: https://opentofu.org/
+  item: null
+  logo: opentofu.svg
+  name: OpenTofu
+  project: sandbox
+  repo_url: https://github.com/opentofu/opentofu
+  twitter: https://twitter.com/opentofuorg
+- allow_duplicate_repo: true
   crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Kubernetes
-      date: '2016-03-10'
-    - acquiree: RethinkDB
-      date: '2017-02-06'
-      price: 25000
-    city: San Francisco
-    company_type: Non Profit
-    country: United States
-    description: CNCF is an open source software foundation that hosts and nurtures
-      projects like Kubernetes and Prometheus.
-    funding: 3000000
-    homepage: https://www.cncf.io
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Non Profit
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
-    name: Cloud Native Computing Foundation (CNCF)
-    num_employees_max: 50
-    num_employees_min: 11
-    parents:
-    - https://www.crunchbase.com/organization/linux-foundation
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/CloudNativeFdn
   description: An open platform that extending your native Kubernetes to edge.
   extra:
+    accepted: '2020-09-08'
+    annual_review_date: '2023-06-02'
+    annual_review_url: https://github.com/cncf/toc/pull/1068
+    clomonitor_name: openyurt
     dev_stats_url: https://openyurt.devstats.cncf.io/
-  github_data:
-    contributions: 2;0;3;7;14;11;10;11;0;8;0;7;11;9;13;8;10;17;6;9;9;4;4;5;5;1;1;2;0;4;0;1;3;0;8;11;4;2;1;4;9;11;7;6;6;3;1;2;10;3;4;2
-    contributors_count: 76
-    contributors_link: https://github.com/openyurtio/openyurt/graphs/contributors
-    description: OpenYurt - Extending your native Kubernetes to edge(project under
-      CNCF)
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 1968053
-    - color: '#89e051'
-      name: Shell
-      value: 17808
-    - color: '#427819'
-      name: Makefile
-      value: 7832
-    - name: Mustache
-      value: 38
-    latest_commit_date: '2022-08-02T03:37:57Z'
-    latest_commit_link: /openyurtio/openyurt/commit/fa083f834a49443361728bf54b621b48ce943c12
-    license: Apache License 2.0
-    release_date: '2022-05-30T06:46:37Z'
-    release_link: https://github.com/openyurtio/openyurt/releases
-    stars: 1253
-  github_start_commit_data:
-    start_commit_link: /openyurtio/openyurt/commit/2926fffd3418155984767953c4782019c8a756d2
-    start_date: '2020-05-21T08:54:44Z'
+    incubating: '2025-01-10'
   homepage_url: https://openyurt.io/
-  image_data:
-    fileName: open-yurt.svg
-    hash: JsoHc3h/vDAZyhUXNbWFol4NauJhM3rxqP4pwQHJXWs=
   item: null
   logo: openyurt.svg
   name: OpenYurt
-  project: sandbox
+  project: incubating
   repo_url: https://github.com/openyurtio/openyurt
-  repos:
-  - stars: 1253
-    url: https://github.com/openyurtio/openyurt
-  twitter_data:
-    latest_tweet_date: 2022-08-05 21:09:37+00:00
+  second_path:
+  - Wasm / Orchestration & Management

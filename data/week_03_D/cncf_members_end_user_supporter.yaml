@@ -1,254 +1,30 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/datagalaxy
-  crunchbase_data:
-    acquisitions:
-    - acquiree: DataRedKite
-      date: '2021-07-20'
-    city: Lyon
-    company_type: For Profit
-    country: France
-    description: The DataGalaxy platform allows your business and IT teams to collaborate
-      around a common map and access reliable.
-    funding: 1833918
-    homepage: https://www.datagalaxy.com/
-    industries:
-    - Analytics
-    - Business Intelligence
-    - Cloud Data Services
-    - Enterprise Software
-    - Information Technology
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/datagalaxy/
-    name: DATAGALAXY
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Rhone-Alpes
-    stockExchange: null
-    twitter: https://twitter.com/DataGalaxy
+- crunchbase: https://www.crunchbase.com/organization/datagalaxy
   homepage_url: https://www.datagalaxy.com/fr/page-daccueil
-  image_data:
-    fileName: data-galaxy-supporter.svg
-    hash: sq+w0yNu5Gg+pGFXaQH5jLpWtbW3YAlAve4j/TgmBmw=
   item: null
-  joined: '2020-10-19'
+  joined: '2020-11-01'
   logo: datagalaxy.svg
   name: DataGalaxy (supporter)
-  twitter_data:
-    latest_tweet_date: 2022-07-12 11:14:03+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/dave-com
-  crunchbase_data:
-    acquisitions: []
-    city: Los Angeles
-    company_type: For Profit
-    country: United States
-    description: "Dave is a banking app on a mission to create financial opportunity\
-      \ that advances America\u2019s collective potential."
-    funding: 486300000
-    homepage: http://www.Dave.com
-    industries:
-    - Banking
-    - FinTech
-    - Financial Services
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/dave.com/
-    name: Dave
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: California
-    stockExchange: nasdaq
-    ticker: DAVE
-    twitter: https://twitter.com/davebanking
-  homepage_url: https://dave.com/
-  image_data:
-    fileName: dave-supporter.svg
-    hash: KYvStJoDDA3BdeUcO95fDKzZuodMQuTk1KbNyCfkfaY=
-  item: null
-  joined: '2021-08-29'
-  logo: dave.svg
-  name: Dave (supporter)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 19:17:43+00:00
-  yahoo_finance_data:
-    effective_ticker: DAVE
-    market_cap: 291570240
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/db-systel
-  crunchbase_data:
-    acquisitions: []
-    city: Frankfurt
-    company_type: For Profit
-    country: Germany
-    description: '
-
-      DB Systel is the ICT service provider of Deutsche Bahn AG Deutsche Bahn.'
-    homepage: https://www.dbsystel.de
-    industries:
-    - Big Data
-    - Consulting
-    - Information Technology
-    - Internet
-    - Internet of Things
-    - Software
-    linkedin: https://www.linkedin.com/company/db-systel-gmbh
-    name: DB Systel
-    num_employees_max: 5000
-    num_employees_min: 1001
-    parents: []
-    region: Hessen
-    stockExchange: null
-    twitter: https://twitter.com/dbsystel
+- crunchbase: https://www.crunchbase.com/organization/db-systel
   homepage_url: https://www.dbsystel.de/dbsystel-en
-  image_data:
-    fileName: db-systel-supporter.svg
-    hash: TwnY4XuAZqpvUay84XKmPG9WsfKFV3e3HzekCY1emCg=
   item: null
+  joined: '2020-04-01'
   logo: db-systel.svg
   name: DB Systel (supporter)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 13:33:14+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/dfds
-  crunchbase_data:
-    acquisitions:
-    - acquiree: U.N. Ro-Ro Isletmeleri A.S.
-      date: '2018-04-12'
-      price: 1171393342
-    - acquiree: Lucey Transport
-      date: '2022-07-25'
-    city: Copenhagen
-    company_type: For Profit
-    country: Denmark
-    description: "DFDS operates one of Europe\u2019s largest integrated shipping and\
-      \ logistics network, aspiring at all times to provide excellent customer"
-    homepage: http://www.dfds.com
-    industries:
-    - Automotive
-    - Information Technology
-    - Transportation
-    linkedin: https://www.linkedin.com/company/dfds
-    name: DFDS
-    num_employees_max: 10000
-    num_employees_min: 5001
-    parents: []
-    region: Hovedstaden
-    stockExchange: null
-    twitter: https://www.twitter.com/dfdsgroup
-  homepage_url: https://www.dfds.com/en
-  image_data:
-    fileName: dfds-supporter.svg
-    hash: UN95yaAdPbZaPj1OE+7JKgnWrbiAz0HYzCFH3HdHupM=
+- crunchbase: https://www.crunchbase.com/organization/decathlon-technology
+  homepage_url: https://digital.decathlon.net/
   item: null
-  joined: '2021-11-11'
+  joined: '2022-06-01'
+  logo: decathlon.svg
+  name: Decathlon (supporter)
+- crunchbase: https://www.crunchbase.com/organization/dfds
+  homepage_url: https://www.dfds.com/en
+  item: null
+  joined: '2021-11-01'
   logo: dfds.svg
   name: DFDS (supporter)
-  twitter_data:
-    latest_tweet_date: 2022-08-02 11:36:19+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/directv
-  crunchbase_data:
-    acquisitions:
-    - acquiree: USSB
-      date: '1998-12-15'
-      price: 1300000000
-    - acquiree: PrimeStar
-      date: '2013-01-03'
-    - acquiree: LifeShield
-      date: '2013-06-05'
-    city: El Segundo
-    company_type: For Profit
-    country: United States
-    description: DIRECTV is an American digital entertainment services provider delivering
-      sports, news, movies, family and local programming channels.
-    homepage: https://www.directv.com/
-    industries:
-    - Digital Entertainment
-    - Film
-    - Sports
-    linkedin: https://www.linkedin.com/company/directv
-    name: DIRECTV
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents: []
-    region: California
-    stockExchange: nasdaq
-    twitter: http://twitter.com/DIRECTV
+- crunchbase: https://www.crunchbase.com/organization/directv
   homepage_url: https://www.directv.com/
-  image_data:
-    fileName: directv-supporter.svg
-    hash: hmxxUpQOwI9bIXQIPi4KGMQsfUE358mhY3hX+raNeD8=
   item: null
-  joined: '2021-10-07'
+  joined: '2021-10-01'
   logo: directv.svg
   name: DIRECTV (supporter)
-  twitter_data:
-    latest_tweet_date: 2022-08-06 04:03:02+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/doordash
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Rickshaw
-      date: '2017-09-14'
-    - acquiree: lvl5
-      date: '2019-04-01'
-    - acquiree: Caviar
-      date: '2019-08-01'
-      price: 410000000
-    - acquiree: Scotty Labs
-      date: '2019-08-21'
-    - acquiree: Chowbotics by DoorDash
-      date: '2021-02-08'
-    - acquiree: Wolt
-      date: '2021-11-09'
-      price: 8100000000
-    - acquiree: Bbot
-      date: '2022-03-01'
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: DoorDash is a food delivery platform that connects customers with
-      local and national businesses.
-    funding: 2471820000
-    homepage: http://www.doordash.com
-    industries:
-    - Delivery
-    - Food Delivery
-    - Logistics
-    - Mobile Apps
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/doordash
-    name: DoorDash
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents: []
-    region: California
-    stockExchange: nyse
-    ticker: DASH
-    twitter: http://www.twitter.com/DoorDash
-  homepage_url: https://www.doordash.com/
-  image_data:
-    fileName: door-dash-supporter.svg
-    hash: 56PEzm6CF1KnIJIKljEk1mTKDN1UA47cmChdHpYf2Bk=
-  item: null
-  logo: door-dash-supporter.svg
-  name: DoorDash (supporter)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 03:32:54+00:00
-  yahoo_finance_data:
-    effective_ticker: DASH
-    market_cap: 28201861120

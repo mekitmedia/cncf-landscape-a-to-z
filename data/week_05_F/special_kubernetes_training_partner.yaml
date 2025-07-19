@@ -1,35 +1,18 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/fullstaq
-  crunchbase_data:
-    acquisitions: []
-    city: Westervoort
-    company_type: For Profit
-    country: The Netherlands
-    description: Your Cloud Native and DevOps driven technology partner
-    homepage: https://fullstaq.com/
-    industries:
-    - Information Technology
-    linkedin: https://www.linkedin.com/company/fullstaq/
-    name: Fullstaq
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Gelderland
-    stockExchange: null
-    twitter: https://twitter.com/fullstaq
+- crunchbase: https://www.crunchbase.com/organization/fullstacks
+  description: We at FullStackS GmbH live Cloud, Automation, Container & Kubernetes,
+    CI/CD & Application Performance Monitoring! We offer a wide range of trainings
+    regarding Cloud Native solutions as well as best practices of Application Modernization.
+  homepage_url: https://www.fullstacks.eu/kubernetes-trainings
+  item: null
+  logo: fullstacks.svg
+  name: FullStackS (KTP)
+- crunchbase: https://www.crunchbase.com/organization/fullstaq
   description: We are Fullstaq. We are a fast-growing cloud-native IT Services company
     that helps both start-ups and enterprises realize their Kubernetes ambitions.
   extra:
     training_certifications: cka, ckad, cks
     training_type: instructor-led
   homepage_url: https://fullstaq.com/training/
-  image_data:
-    fileName: fullstaq-ktp.svg
-    hash: XW0aqlIlE0uNWF4RIfKW+rrROtwiz9lLX6ZCyHpYm0g=
   item: null
   logo: fullstaq.svg
   name: Fullstaq (KTP)
-  twitter_data:
-    latest_tweet_date: 2022-08-02 10:00:33+00:00

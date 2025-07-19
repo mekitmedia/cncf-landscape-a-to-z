@@ -1,44 +1,7 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/fidelity-investments
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Production Control Services
-      date: '2004-06-03'
-    - acquiree: SinoSheen Internet Investments
-      date: '2006-04-01'
-      price: 52500000
-    - acquiree: eMoney Advisor
-      date: '2015-02-02'
-    city: Boston
-    company_type: ''
-    country: United States
-    description: Fidelity is a privately-owned investment manager focusing on a diverse
-      set of customers.
-    funding: 134325000
-    homepage: https://www.fidelity.com
-    industries:
-    - Asset Management
-    - Finance
-    - Financial Services
-    - Wealth Management
-    kind: funding
-    linkedin: https://www.linkedin.com/company/fidelity-investments
-    name: Fidelity
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents: []
-    region: Massachusetts
-    stockExchange: null
-    twitter: https://twitter.com/Fidelity
+- crunchbase: https://www.crunchbase.com/organization/fidelity-investments
   enduser: true
   homepage_url: https://www.fidelity.com/
-  image_data:
-    fileName: fidelity-investments-member.svg
-    hash: V5JBSjf44htCGsx6ZqqJaU/wgIJDrIK9MmF+xH7Y0B0=
   item: null
+  joined: '2019-08-01'
   logo: fidelity-investments.svg
   name: Fidelity Investments (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 23:47:07+00:00

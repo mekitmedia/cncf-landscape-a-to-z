@@ -1,640 +1,67 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/uber
-  crunchbase_data:
-    acquisitions:
-    - acquiree: deCarta
-      date: '2015-03-03'
-    - acquiree: Otto
-      date: '2016-08-18'
-      price: 680000000
-    - acquiree: Geometric Intelligence
-      date: '2016-12-05'
-    - acquiree: Complex Polygon
-      date: '2017-07-14'
-    - acquiree: Swipe Labs
-      date: '2017-07-14'
-    - acquiree: JUMP Bikes
-      date: '2018-04-04'
-      price: 200000000
-    - acquiree: Careem
-      date: '2019-03-26'
-      price: 3100000000
-    - acquiree: Mighty AI
-      date: '2019-06-18'
-    - acquiree: Cornershop
-      date: '2019-10-11'
-    - acquiree: Postmates
-      date: '2020-07-06'
-      price: 2650000000
-    - acquiree: Routematch Software
-      date: '2020-07-16'
-    - acquiree: Autocab
-      date: '2020-08-06'
-    - acquiree: Drizly
-      date: '2021-02-02'
-      price: 1100000000
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: Uber develops, markets, and operates a ride-sharing mobile application
-      that allows consumers to submit a trip request.
-    funding: 25212450000
-    homepage: http://www.uber.com
-    industries:
-    - Logistics
-    - Mobile Apps
-    - Public Transportation
-    - Ride Sharing
-    - Transportation
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/uber-com
-    name: Uber
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents: []
-    region: California
-    stockExchange: nyse
-    ticker: UBER
-    twitter: http://twitter.com/uber
+- crunchbase: https://www.crunchbase.com/organization/uber
   description: Cadence is a distributed, scalable, durable, and highly available fault-oblivious
     stateful code platform.
-  github_data:
-    contributions: 5;11;15;15;16;10;10;12;16;17;17;8;4;12;10;7;6;4;9;0;1;1;6;1;6;7;3;3;8;6;5;3;7;4;1;5;1;6;6;4;13;10;3;4;7;3;7;11;0;9;6;4
-    contributors_count: 109
-    contributors_link: https://github.com/uber/cadence/graphs/contributors
-    description: Cadence is a distributed, scalable, durable, and highly available
-      orchestration engine to execute asynchronous long-running business logic in
-      a scalable and resilient way.
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 12852597
-    - color: '#427819'
-      name: Makefile
-      value: 33602
-    - color: '#89e051'
-      name: Shell
-      value: 13144
-    - color: '#384d54'
-      name: Dockerfile
-      value: 4657
-    latest_commit_date: '2022-08-05T00:20:21Z'
-    latest_commit_link: /uber/cadence/commit/c091a496080f2a66b2375f631f17d5f6e0df6ed5
-    license: MIT License
-    release_date: '2022-05-24T08:47:59Z'
-    release_link: https://github.com/uber/cadence/releases
-    stars: 6198
-  github_start_commit_data:
-    start_commit_link: /uber/cadence/commit/685242e53fb0c0d9cbdd62fc7725418b528506eb
-    start_date: '2016-10-24T23:07:32Z'
   homepage_url: https://cadenceworkflow.io/
-  image_data:
-    fileName: cadence-workflow.svg
-    hash: hgRTIeOWY0A9/ws/uumjqLvRPoZ6EWxi3yye8cspBeI=
   item: null
   logo: cadenceworkflow.svg
   name: Cadence Workflow
   repo_url: https://github.com/uber/cadence
-  repos:
-  - stars: 6198
-    url: https://github.com/uber/cadence
   twitter: https://twitter.com/UberEng
-  twitter_data:
-    latest_tweet_date: 2022-08-02 16:45:00+00:00
-  yahoo_finance_data:
-    effective_ticker: UBER
-    market_cap: 62856753152
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Kubernetes
-      date: '2016-03-10'
-    - acquiree: RethinkDB
-      date: '2017-02-06'
-      price: 25000
-    city: San Francisco
-    company_type: Non Profit
-    country: United States
-    description: CNCF is an open source software foundation that hosts and nurtures
-      projects like Kubernetes and Prometheus.
-    funding: 3000000
-    homepage: https://www.cncf.io
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Non Profit
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
-    name: Cloud Native Computing Foundation (CNCF)
-    num_employees_max: 50
-    num_employees_min: 11
-    parents:
-    - https://www.crunchbase.com/organization/linux-foundation
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/CloudNativeFdn
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: CDK8s lets you define Kubernetes apps and components using familiar
     programming languages and object-oriented APIs.
   extra:
     accepted: '2020-11-10'
+    annual_review_date: '2023-03-14'
+    annual_review_url: https://github.com/cncf/toc/pull/1024
     artwork_url: https://github.com/cncf/artwork/tree/master/projects/cdk8s
+    clomonitor_name: cdk8s
     dev_stats_url: https://cdk8s.devstats.cncf.io/
-  github_data:
-    contributions: 5;6;7;1;2;1;13;8;5;9;5;4;7;5;7;6;4;7;5;8;5;4;3;6;7;8;6;5;5;6;6;4;0;2;0;5;7;2;3;6;3;5;2;7;6;0;0;0;0;0;0;0
-    contributors_count: 53
-    contributors_link: https://github.com/cdk8s-team/cdk8s/graphs/contributors
-    description: Define Kubernetes native apps and abstractions using object-oriented
-      programming
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#3572A5'
-      name: Python
-      value: 3860832
-    - color: '#00ADD8'
-      name: Go
-      value: 2487940
-    - color: '#2b7489'
-      name: TypeScript
-      value: 1961327
-    - color: '#f1e05a'
-      name: JavaScript
-      value: 99937
-    - color: '#563d7c'
-      name: CSS
-      value: 57970
-    - color: '#e34c26'
-      name: HTML
-      value: 15587
-    - color: '#89e051'
-      name: Shell
-      value: 9682
-    - color: '#b07219'
-      name: Java
-      value: 1580
-    - color: '#384d54'
-      name: Dockerfile
-      value: 42
-    latest_commit_date: '2022-06-15T18:13:18Z'
-    latest_commit_link: /cdk8s-team/cdk8s/commit/b6040931777d267a960f921d0793efd86a06515e
-    license: Apache License 2.0
-    release_date: '2021-10-13T20:21:32Z'
-    release_link: https://github.com/cdk8s-team/cdk8s/releases
-    stars: 3083
-  github_start_commit_data:
-    start_commit_link: /cdk8s-team/cdk8s/commit/ec74749ed70d1e19f910a081433a8ce2444f1e1f
-    start_date: '2019-07-25T12:45:22Z'
   homepage_url: https://cdk8s.io/
-  image_data:
-    fileName: cdk-for-kubernetes-cdk8s.svg
-    hash: mc/lw2YepQtCrutz0YD9bPAReqqb/wH48ZEmTvOQBKE=
   item: null
   logo: cdk8s.svg
   name: CDK for Kubernetes (CDK8s)
   project: sandbox
   repo_url: https://github.com/cdk8s-team/cdk8s
-  repos:
-  - stars: 3083
-    url: https://github.com/cdk8s-team/cdk8s
-  twitter_data:
-    latest_tweet_date: 2022-08-05 21:09:37+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cfengine
-  crunchbase_data:
-    acquisitions: []
-    city: Palo Alto
-    company_type: For Profit
-    country: United States
-    description: CFEngine is an open source configuration management product written
-      by Mark Burgess and one of the products developed by Northern.tech, Inc.
-    funding: 13000000
-    homepage: https://cfengine.com/
-    industries:
-    - Computer
-    - IT Infrastructure
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cfengine/
-    name: CFEngine
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/cfengine
-  github_data:
-    contributions: 8;10;4;3;0;2;6;2;9;12;8;17;4;4;11;9;5;4;4;0;1;11;6;6;9;1;4;3;3;11;17;6;8;14;0;1;4;1;3;1;1;8;7;13;9;2;5;2;1;6;16;11
-    contributors_count: 143
-    contributors_link: https://github.com/cfengine/core/graphs/contributors
-    description: CFEngine Community
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#555555'
-      name: C
-      value: 5352405
-    - color: '#89e051'
-      name: Shell
-      value: 281679
-    - name: M4
-      value: 104078
-    - color: '#427819'
-      name: Makefile
-      value: 69238
-    - color: '#c065db'
-      name: Emacs Lisp
-      value: 68315
-    - color: '#4B6C4B'
-      name: Yacc
-      value: 39330
-    - color: '#0298c3'
-      name: Perl
-      value: 38612
-    - color: '#DBCA00'
-      name: Lex
-      value: 28790
-    - color: '#3572A5'
-      name: Python
-      value: 26004
-    - name: CodeQL
-      value: 3697
-    - name: jq
-      value: 3098
-    - name: Mustache
-      value: 2219
-    - color: '#64b970'
-      name: sed
-      value: 1187
-    - color: '#C1F12E'
-      name: Batchfile
-      value: 540
-    - color: '#384d54'
-      name: Dockerfile
-      value: 439
-    - name: Smarty
-      value: 216
-    latest_commit_date: '2022-08-04T20:03:11Z'
-    latest_commit_link: /cfengine/core/commit/889a38fa9814bc3b251abf85b4b8c0d8aa2a538b
-    license: Other
-    stars: 415
-  github_start_commit_data:
-    start_commit_link: /cfengine/core/commit/6cb587a75b008c3d50e58e4017713d3b49622171
-    start_date: '2008-01-04T08:50:45Z'
+- crunchbase: https://www.crunchbase.com/organization/cfengine
   homepage_url: https://cfengine.com/
-  image_data:
-    fileName: cf-engine.svg
-    hash: Nbu7LNWcoJII+E2NyT7zAvD/gKQn1oSgjps9UEl2M/E=
   item: null
   logo: cf-engine.svg
   name: CFEngine
   repo_url: https://github.com/cfengine/core
-  repos:
-  - stars: 415
-    url: https://github.com/cfengine/core
-  twitter_data:
-    latest_tweet_date: 2022-08-05 15:33:17+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/chef
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Tower3
-      date: '2014-07-15'
-    - acquiree: VulcanoSec
-      date: '2015-11-03'
-    city: Seattle
-    company_type: For Profit
-    country: United States
-    description: Chef is a continuous automation platform powered by community and
-      open source software engines.
-    funding: 105000000
-    homepage: https://www.chef.io/
-    industries:
-    - Cloud Computing
-    - Information Technology
-    - Infrastructure
-    - SaaS
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/chef-software/
-    name: Chef Software
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: Washington
-    stockExchange: null
-    twitter: https://twitter.com/chef
-  github_data:
-    contributions: 18;24;85;34;39;37;72;66;31;21;55;49;18;34;24;13;50;39;48;29;24;58;29;32;37;34;13;40;34;35;5;19;56;43;8;8;5;7;23;29;8;26;14;15;25;18;12;8;5;10;8;2
-    contributors_count: 983
-    contributors_link: https://github.com/chef/chef/graphs/contributors
-    description: Chef Infra, a powerful automation platform that transforms infrastructure
-      into code automating how infrastructure is configured, deployed and managed
-      across any environment, at any scale
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#701516'
-      name: Ruby
-      value: 11082019
-    - color: '#e34c26'
-      name: HTML
-      value: 76265
-    - color: '#89e051'
-      name: Shell
-      value: 39808
-    - color: '#012456'
-      name: PowerShell
-      value: 19426
-    - color: '#3572A5'
-      name: Python
-      value: 13362
-    - color: '#427819'
-      name: Makefile
-      value: 2652
-    - color: '#384d54'
-      name: Dockerfile
-      value: 1453
-    - name: Raku
-      value: 128
-    latest_commit_date: '2022-08-02T19:12:03Z'
-    latest_commit_link: /chef/chef/commit/042a25badeca5e4a87f157b6bdbd6a32499d1c7b
-    license: Apache License 2.0
-    release_date: '2020-02-20T06:51:07Z'
-    release_link: https://github.com/chef/chef/releases
-    stars: 6969
-  github_start_commit_data:
-    start_commit_link: /chef/chef/commit/b5117775e86cff40399187b6292c98fba9dc5034
-    start_date: '2008-03-06T07:31:38Z'
+- crunchbase: https://www.crunchbase.com/organization/chef
   homepage_url: https://www.chef.io/
-  image_data:
-    fileName: chef-infra.svg
-    hash: 7/kEUOotaFSw5d/d+Z8sTkmdC0i/Pg5XT2OZl0QeuJg=
   item: null
   logo: chef_infra.svg
   name: Chef Infra
   repo_url: https://github.com/chef/chef
-  repos:
-  - stars: 6969
-    url: https://github.com/chef/chef
-  twitter_data:
-    latest_tweet_date: 2022-08-05 16:00:27+00:00
-- best_practice_data:
-    badge: 3402
-    percentage: 100
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Kubernetes
-      date: '2016-03-10'
-    - acquiree: RethinkDB
-      date: '2017-02-06'
-      price: 25000
-    city: San Francisco
-    company_type: Non Profit
-    country: United States
-    description: CNCF is an open source software foundation that hosts and nurtures
-      projects like Kubernetes and Prometheus.
-    funding: 3000000
-    homepage: https://www.cncf.io
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Non Profit
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
-    name: Cloud Native Computing Foundation (CNCF)
-    num_employees_max: 50
-    num_employees_min: 11
-    parents:
-    - https://www.crunchbase.com/organization/linux-foundation
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/CloudNativeFdn
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   extra:
-    accepted: '2020-06-23'
-    dev_stats_url: https://cnigenie.devstats.cncf.io/
-  github_data:
-    contributions: 1;5;1;8;4;2;7;0;6;6;6;1;0;4;3;4;5;1;0;0;0;0;5;4;1;4;0;12;1;4;0;8;1;3;1;1;4;0;3;3;2;3;2;4;15;3;5;3;2;5;3;4
-    contributors_count: 364
-    contributors_link: https://github.com/cloud-custodian/cloud-custodian/graphs/contributors
-    description: Rules engine for cloud security, cost optimization, and governance,
-      DSL in yaml for policies to query, filter, and take actions on resources
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#3572A5'
-      name: Python
-      value: 6198400
-    - color: '#00ADD8'
-      name: Go
-      value: 146637
-    - name: HCL
-      value: 31958
-    - name: Jinja
-      value: 19775
-    - color: '#89e051'
-      name: Shell
-      value: 15192
-    - color: '#427819'
-      name: Makefile
-      value: 13770
-    - color: '#384d54'
-      name: Dockerfile
-      value: 2126
-    - color: '#012456'
-      name: PowerShell
-      value: 1804
-    - name: Smarty
-      value: 359
-    latest_commit_date: '2022-08-05T17:50:55Z'
-    latest_commit_link: /cloud-custodian/cloud-custodian/commit/69e497ce898325296f8e5c13b544a2051422f761
-    license: Apache License 2.0
-    release_date: '2022-06-21T19:19:44Z'
-    release_link: https://github.com/cloud-custodian/cloud-custodian/releases
-    stars: 4257
-  github_start_commit_data:
-    start_commit_link: /cloud-custodian/cloud-custodian/commit/5aa46308651d913d285039477b9141cf6ef3965d
-    start_date: '2015-07-16T14:19:15Z'
+    accepted: '2020-06-25'
+    audits:
+    - date: '2024-04-19'
+      type: security
+      url: https://ostif.org/wp-content/uploads/2024/04/Ada-Logics-security-audit-2023-report.pdf
+      vendor: Ada Logics
+    clomonitor_name: cloud-custodian
+    dev_stats_url: https://cloudcustodian.devstats.cncf.io/
+    incubating: '2022-09-14'
   homepage_url: https://cloudcustodian.io/
-  image_data:
-    fileName: cloud-custodian.svg
-    hash: 0q/0a9aYVDAsCCdpvYzkn40f/SHQCqe6BvtgstQxxRw=
   item: null
   logo: cloud-custodian.svg
   name: Cloud Custodian
-  project: sandbox
+  project: incubating
   repo_url: https://github.com/cloud-custodian/cloud-custodian
-  repos:
-  - stars: 4257
-    url: https://github.com/cloud-custodian/cloud-custodian
-  twitter_data:
-    latest_tweet_date: 2022-08-05 21:09:37+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloudify-co
-  crunchbase_data:
-    acquisitions: []
-    city: Herzliya
-    company_type: For Profit
-    country: Israel
-    description: Cloudify specializes in IT operations automation technology that
-      manages application and network services through open orchestration
-    funding: 7000000
-    homepage: http://cloudify.co
-    industries:
-    - Cloud Computing
-    - Cloud Management
-    - Data Center Automation
-    - Enterprise Software
-    - IT Infrastructure
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cloudifyco/
-    name: Cloudify
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: Tel Aviv
-    stockExchange: null
-    twitter: https://twitter.com/CloudifyHQ
-  github_data:
-    contributions: 10;5;9;15;6;9;9;7;8;3;1;6;7;11;15;15;18;7;20;11;16;4;20;12;11;12;9;10;10;16;7;17;21;12;10;9;2;3;12;7;15;10;12;8;6;2;11;19;9;7;10;5
-    contributors_count: 98
-    contributors_link: https://github.com/cloudify-cosmo/cloudify-manager/graphs/contributors
-    description: Cloudify's manager related code
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#3572A5'
-      name: Python
-      value: 3715741
-    - color: '#89e051'
-      name: Shell
-      value: 43418
-    - color: '#db5855'
-      name: Clojure
-      value: 4067
-    - name: Mako
-      value: 494
-    - color: '#e34c26'
-      name: HTML
-      value: 320
-    latest_commit_date: '2022-08-05T07:54:42Z'
-    latest_commit_link: /cloudify-cosmo/cloudify-manager/commit/37389ba4548d787f19910f6339f11dd7369fc130
-    license: Apache License 2.0
-    release_date: '2021-05-26T13:49:48Z'
-    release_link: https://github.com/cloudify-cosmo/cloudify-manager/releases
-    stars: 125
-  github_start_commit_data:
-    start_commit_link: /cloudify-cosmo/cloudify-manager/commit/134865c1e1f9f886fbc6a7e9db5f14a1a1d5edba
-    start_date: '2012-12-16T07:56:17Z'
+- crunchbase: https://www.crunchbase.com/organization/cloudify-co
   homepage_url: https://cloudify.co
-  image_data:
-    fileName: cloudify.svg
-    hash: IER9YnUD2jKApmomp6t+HpO7IT2wy9yuUG7QAZWYWW8=
   item: null
   logo: cloudify.svg
   name: Cloudify
   repo_url: https://github.com/cloudify-cosmo/cloudify-manager
-  repos:
-  - stars: 125
-    url: https://github.com/cloudify-cosmo/cloudify-manager
-  twitter_data:
-    latest_tweet_date: 2022-07-21 16:24:12+00:00
-- best_practice_data:
-    badge: 4341
-    percentage: 100
-  crunchbase: https://www.crunchbase.com/organization/ant-financial
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Mayijijin
-      date: '2015-04-24'
-      price: 32215911
-    - acquiree: EyeVerify
-      date: '2016-09-13'
-    - acquiree: helloPay
-      date: '2017-04-19'
-    - acquiree: riskstorm
-      date: '2018-04-25'
-      price: 7902723
-    - acquiree: WorldFirst
-      date: '2019-02-14'
-      price: 700000000
-    - acquiree: 2C2P
-      date: '2022-04-18'
-    city: Hangzhou
-    company_type: For Profit
-    country: China
-    description: Ant Group strives to enable all consumers and small businesses to
-      have equal access to financial and other services through technology.
-    funding: 22000000000
-    homepage: https://www.antgroup.com
-    industries:
-    - Banking
-    - FinTech
-    - Financial Services
-    - Payments
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/antgroup
-    name: Ant Group
-    num_employees_max: 10000
-    num_employees_min: 5001
-    parents:
-    - https://www.crunchbase.com/organization/alibaba
-    region: Zhejiang
-    stockExchange: null
-    ticker: 9988.HK
-    twitter: https://twitter.com/antgroup
-  github_data:
-    contributions: 3;2;0;0;0;2;1;0;0;0;1;2;0;0;0;0;1;1;0;0;0;0;0;1;0;0;0;0;0;0;2;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-    contributors_count: 33
-    contributors_link: https://github.com/couler-proj/couler/graphs/contributors
-    description: Unified Interface for Constructing and Managing Workflows on different
-      workflow engines, such as Argo Workflows, Tekton Pipelines, and Apache Airflow.
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#3572A5'
-      name: Python
-      value: 313322
-    - color: '#00ADD8'
-      name: Go
-      value: 32245
-    - color: '#89e051'
-      name: Shell
-      value: 3711
-    latest_commit_date: '2022-04-06T05:51:00Z'
-    latest_commit_link: /couler-proj/couler/commit/db7d4c32672315078ee023f0cc5af75164794b4d
-    license: Apache License 2.0
-    release_date: '2021-04-12T14:47:58Z'
-    release_link: https://github.com/couler-proj/couler/releases
-    stars: 746
-  github_start_commit_data:
-    start_commit_link: /couler-proj/couler/commit/b5bd1bdaea43ea2391f7cb9ad4a81097f9e4c9c1
-    start_date: '2020-08-18T17:41:31Z'
+- crunchbase: https://www.crunchbase.com/organization/ant-financial
   homepage_url: https://couler-proj.github.io/couler/index.html
-  image_data:
-    fileName: couler.svg
-    hash: EGoyhxA0oE8bYGKqmR5v5BGQCv66fnC96FuyM4rASHg=
   item: null
   logo: couler.svg
   name: Couler
   repo_url: https://github.com/couler-proj/couler
-  repos:
-  - stars: 746
-    url: https://github.com/couler-proj/couler
   twitter: https://twitter.com/CoulerProject
-  twitter_data:
-    latest_tweet_date: 2022-07-20 14:42:51+00:00
-  yahoo_finance_data:
-    effective_ticker: 9988.HK
-    market_cap: 250716029031

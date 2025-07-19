@@ -1,105 +1,18 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/netlify
-  crunchbase_data:
-    acquisitions:
-    - acquiree: FeaturePeek
-      date: '2021-05-19'
-    - acquiree: OneGraph
-      date: '2021-11-17'
-    - acquiree: Quirrel
-      date: '2022-02-01'
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: Netlify is a web development platform for building fast and dynamic
-      websites, e-commerce stores and web applications.
-    funding: 212100000
-    homepage: http://www.netlify.com
-    industries:
-    - Cloud Computing
-    - Developer Tools
-    - Web Development
-    - Web Hosting
-    kind: funding
-    linkedin: https://www.linkedin.com/company/netlify
-    name: Netlify
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: http://twitter.com/netlify
+- crunchbase: https://www.crunchbase.com/organization/netlify
   description: Run your application code without servers, scale it automatically,
     and pay nothing when it's not in use.
   homepage_url: https://www.netlify.com/products/functions/
-  image_data:
-    fileName: netlify-functions.svg
-    hash: MXQlitBeZ1ZIs0/v0S9MQdH6xg5HyFPvqvuDBx6tN0U=
   item: null
   logo: netlify-functions.svg
   name: Netlify Functions
   twitter: https://twitter.com/Netlify
-  twitter_data:
-    latest_tweet_date: 2022-08-05 19:34:18+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/nimbella
-  crunchbase_data:
-    acquisitions: []
-    city: Santa Clara
-    company_type: For Profit
-    country: United States
-    description: Cloud-agnostic, developer-friendly serverless cloud platform
-    funding: 4000000
-    homepage: https://nimbella.com
-    industries:
-    - Cloud Computing
-    kind: funding
-    linkedin: https://www.linkedin.com/company/nimbella/about/
-    name: Nimbella
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/nimbellacorp
+- crunchbase: https://www.crunchbase.com/organization/nimbella
   homepage_url: https://www.digitalocean.com/nimbella
-  image_data:
-    fileName: nimbella.svg
-    hash: ZHBEj0g6gQ4+ne15jCqtz4nawq/oxq7BiLDErrYdWUE=
   item: null
   logo: nimbella.svg
   name: Nimbella
   twitter: https://twitter.com/nimbella
-  twitter_data:
-    latest_tweet_date: 2021-09-13 15:11:05+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/nuweba
-  crunchbase_data:
-    acquisitions: []
-    city: Tel Aviv
-    company_type: For Profit
-    country: Israel
-    description: Ultra-fast and highly-secure serverless platform.
-    funding: 10200000
-    homepage: https://www.nuweba.com/
-    industries:
-    - Cyber Security
-    - Information Technology
-    kind: funding
-    linkedin: https://www.linkedin.com/company/nuweba/
-    name: Nuweba
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Tel Aviv
-    stockExchange: null
-    twitter: https://twitter.com/nuweba_hq
+- crunchbase: https://www.crunchbase.com/organization/nuweba
   description: Nuweba is an ultra-fast and highly-secure FaaS Platform. Nuweba rearchitected
     serverless from the kernel up to enable companies to use serverless for applications
     that require scalability, high performance, advanced application security and
@@ -107,10 +20,6 @@
     so you can start using Nuweba with only one click and without any changes to your
     code or configuration.
   homepage_url: https://www.nuweba.com
-  image_data:
-    fileName: nuweba.svg
-    hash: OHYJoH7rkhXuTHQOQSRsie+reaY/Cz8mAVYHE2Qw12U=
   item: null
   logo: nuweba.svg
   name: Nuweba
-  twitter: null

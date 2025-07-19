@@ -1,171 +1,28 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/scality
-  crunchbase_data:
-    acquisitions: []
-    city: Paris
-    company_type: For Profit
-    country: France
-    description: Scality is a venture-backed software company that solves problems
-      associated with large-scale storage management and infrastructure.
-    funding: 172000000
-    homepage: http://scality.com/
-    industries:
-    - Cloud Data Services
-    - Data Storage
-    - Enterprise Software
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/scality
-    name: Scality
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: Ile-de-France
-    stockExchange: null
-    twitter: http://twitter.com/scality
-  description: An opinionated Kubernetes distribution with a focus on long-term on-prem
-    deployments
-  github_data:
-    contributions: 20;8;12;15;24;39;19;28;25;26;19;56;2;9;23;34;56;54;24;28;10;38;12;34;16;20;28;20;10;7;2;16;9;14;7;5;4;1;11;6;10;13;28;4;5;2;8;19;10;1;25;18
-    contributors_count: 39
-    contributors_link: https://github.com/scality/metalk8s/graphs/contributors
-    description: An opinionated Kubernetes distribution with a focus on long-term
-      on-prem deployments
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#646464'
-      name: SaltStack
-      value: 3875209
-    - color: '#3572A5'
-      name: Python
-      value: 979032
-    - color: '#f1e05a'
-      name: JavaScript
-      value: 956451
-    - color: '#00ADD8'
-      name: Go
-      value: 120160
-    - color: '#89e051'
-      name: Shell
-      value: 101715
-    - name: Mustache
-      value: 84745
-    - color: '#5B2063'
-      name: Gherkin
-      value: 45836
-    - name: Jinja
-      value: 41698
-    - name: Smarty
-      value: 38832
-    - color: '#384d54'
-      name: Dockerfile
-      value: 27841
-    - color: '#427819'
-      name: Makefile
-      value: 19146
-    - color: '#2b7489'
-      name: TypeScript
-      value: 7698
-    - color: '#563d7c'
-      name: CSS
-      value: 5326
-    - color: '#e34c26'
-      name: HTML
-      value: 1813
-    - color: '#EB8CEB'
-      name: XSLT
-      value: 635
-    - color: '#1e4aec'
-      name: Scheme
-      value: 54
-    latest_commit_date: '2022-08-05T14:19:33Z'
-    latest_commit_link: /scality/metalk8s/commit/b652d377842d07c8159646bd1c3572ee8b688467
-    license: Apache License 2.0
-    release_date: '2022-08-05T18:10:15Z'
-    release_link: https://github.com/scality/metalk8s/releases
-    stars: 282
-  github_start_commit_data:
-    start_commit_link: /scality/metalk8s/commit/7758f44549806bb54724e742d386dd938776cc5d
-    start_date: '2018-03-12T14:57:43Z'
-  homepage_url: https://www.zenko.io/metalk8s/
-  image_data:
-    fileName: metal-k8s.svg
-    hash: kOIxKhIjITailFFgmcivL3odMBxkdyyVHGt376F56mg=
+- crunchbase: https://www.crunchbase.com/organization/mia-platform
+  description: Magellano is a Kubernetes distribution that adds day two operations
+    capabilities to your Kubernetes cluster.
+  homepage_url: https://mia-platform.eu/
   item: null
-  logo: metalk8s.svg
-  name: MetalK8s
-  repo_url: https://github.com/scality/metalk8s
-  repos:
-  - stars: 282
-    url: https://github.com/scality/metalk8s
-  twitter_data:
-    latest_tweet_date: 2022-08-06 00:09:52+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/canonical-ltd
-  crunchbase_data:
-    acquisitions: []
-    city: London
-    company_type: For Profit
-    country: United Kingdom
-    description: Canonical is a computer software company that markets commercial
-      support and related services for Ubuntu and related projects.
-    funding: 12800000
-    homepage: http://www.canonical.com
-    industries:
-    - Cloud Computing
-    - Internet of Things
-    - Linux
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/canonical-ltd-
-    name: Canonical
-    num_employees_max: 1000
-    num_employees_min: 501
-    parents: []
-    region: England
-    stockExchange: null
-    twitter: http://twitter.com/Canonical
+  logo: magellano.svg
+  name: Magellano
+  repo_url: https://github.com/mia-platform/distribution
+- crunchbase: https://www.crunchbase.com/organization/canonical-ltd
   description: An easy to install, single node local Kubernetes.
-  github_data:
-    contributions: 2;0;5;1;0;1;5;8;5;1;3;2;6;5;8;12;9;4;2;0;0;0;5;5;8;2;2;8;7;3;5;3;3;3;7;7;5;3;3;6;2;5;12;15;3;12;1;8;0;6;4;10
-    contributors_count: 140
-    contributors_link: https://github.com/canonical/microk8s/graphs/contributors
-    description: MicroK8s is a small, fast, single-package Kubernetes for developers,
-      IoT and edge.
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#3572A5'
-      name: Python
-      value: 312086
-    - color: '#89e051'
-      name: Shell
-      value: 134313
-    - name: NSIS
-      value: 6855
-    latest_commit_date: '2022-08-05T12:47:23Z'
-    latest_commit_link: /canonical/microk8s/commit/18e8709e87ac320fbdf043eda68fdee6644389be
-    license: Apache License 2.0
-    release_date: '2022-05-04T13:50:37Z'
-    release_link: https://github.com/canonical/microk8s/releases
-    stars: 6646
-  github_start_commit_data:
-    start_commit_link: /ubuntu/microk8s/commit/747e5cdd114e92c4af01a43d1770dffca955028b
-    start_date: '2018-05-09T10:07:00Z'
   homepage_url: https://microk8s.io
-  image_data:
-    fileName: micro-k8s.svg
-    hash: WulXtWsQFqC44f3DnsIIZwPkoYNONHbRQmPMUijTJ/g=
   item: null
   logo: microk8s.svg
   name: MicroK8s
   repo_url: https://github.com/canonical/microk8s
-  repos:
-  - stars: 6646
-    url: https://github.com/canonical/microk8s
-  twitter_data:
-    latest_tweet_date: 2022-08-05 08:30:58+00:00
+- crunchbase: https://www.crunchbase.com/organization/mirantis
+  description: Mirantis Kubernetes Engine Kubernetes distribution.
+  homepage_url: https://www.mirantis.com/software/mirantis-kubernetes-engine/
+  item: null
+  logo: mirantis.svg
+  name: Mirantis Kubernetes Engine
+- crunchbase: https://www.crunchbase.com/organization/morpheus
+  description: Morpheus Kubernetes Services (MKS) is an embedded Kubernetes distribution
+    provisioned and managed via the Morpehus Cloud Management Platform (CMP).
+  homepage_url: https://www.morpheusdata.com/
+  item: null
+  logo: morpheus-data-member.svg
+  name: Morpheus Kubernetes Service

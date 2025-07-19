@@ -1,35 +1,7 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/opennebula
-  crunchbase_data:
-    acquisitions: []
-    city: "Pozuelo De Alarc\xF3n"
-    company_type: For Profit
-    country: Spain
-    description: The open source Cloud & Edge Computing Platform bringing real freedom
-      to your Enterprise Cloud
-    homepage: https://opennebula.io
-    industries:
-    - Cloud Computing
-    - IaaS
-    - Virtualization
-    linkedin: https://www.linkedin.com/company/opennebula/
-    name: OpenNebula
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Madrid
-    stockExchange: null
-    twitter: https://twitter.com/opennebula
+- crunchbase: https://www.crunchbase.com/organization/opennebula
   description: Virtual Appliance for KVM with preinstalled Kubernetes service is available
     from OpenNebula's Public Marketplace.
   homepage_url: https://marketplace.opennebula.io/appliance/b5033eba-cd31-487e-892a-035cd70441ef
-  image_data:
-    fileName: open-nebula-kubernetes-engine.svg
-    hash: 3sfnfuNIrMtcBnVtTiQliSc71MMM+sRur6yKLZ2+xyg=
   item: null
   logo: opennebula.svg
   name: OpenNebula Kubernetes Engine
-  twitter_data:
-    latest_tweet_date: 2022-08-01 16:04:46+00:00

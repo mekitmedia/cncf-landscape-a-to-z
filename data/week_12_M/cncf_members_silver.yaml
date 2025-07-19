@@ -1,1443 +1,161 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/macstadium
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Macminicolo
-      date: '2016-04-06'
-    - acquiree: Virtual Command
-      date: '2018-08-01'
-    city: Atlanta
-    company_type: For Profit
-    country: United States
-    description: MacStadium provides enterprise-class Apple Mac infrastructure providing
-      scalable, reliable, and secure private clouds.
-    funding: 65700000
-    homepage: https://www.macstadium.com
-    industries:
-    - Cloud Computing
-    - IaaS
-    - Software
-    - Virtualization
-    - Web Hosting
-    kind: funding
-    linkedin: https://www.linkedin.com/company/macstadium
-    name: MacStadium
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: Georgia
-    stockExchange: null
-    twitter: https://twitter.com/macstadium
+- crunchbase: https://www.crunchbase.com/organization/macstadium
   homepage_url: https://www.macstadium.com/
-  image_data:
-    fileName: mac-stadium-member.svg
-    hash: DvkQ34NCJG8kjJd5iuzyfKulXopTbhigFXS8nnQe138=
   item: null
+  joined: '2019-05-01'
   logo: mac-stadium-member.svg
   name: MacStadium (member)
-  twitter_data:
-    latest_tweet_date: 2022-07-28 14:37:51+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/maibornwolff
-  crunchbase_data:
-    acquisitions: []
-    city: "M\xFCnchen"
-    company_type: For Profit
-    country: Germany
-    description: MaibornWolff is an IT consultancy that offers strategic consulting,
-      software engineering, and mobile engineering services to its clients.
-    homepage: https://www.maibornwolff.de
-    industries:
-    - Information Technology
-    - Software
-    linkedin: https://www.linkedin.com/company/8738045
-    name: MaibornWolff
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: Bayern
-    stockExchange: null
-    twitter: null
-  homepage_url: https://www.maibornwolff.de
-  image_data:
-    fileName: maiborn-wolff-member.svg
-    hash: FzDFa8P2gNUYf5Q5HKrJGNLhGRbCS70W3Z5GdouxZ5A=
-  item: null
-  logo: maibornwolff.svg
-  name: MaibornWolff (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/mail-ru
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Vatera.hu
-      date: '2008-10-05'
-    - acquiree: RuTwit.ru
-      date: '2012-07-02'
-    - acquiree: mail.ua
-      date: '2012-08-30'
-    - acquiree: Vkontakte
-      date: '2014-09-16'
-      price: 1470000000
-    - acquiree: MAPS.ME
-      date: '2014-11-13'
-    - acquiree: GeekBrains
-      date: '2016-08-25'
-    - acquiree: Pixonic
-      date: '2016-10-03'
-      price: 30000000
-    - acquiree: Delivery Club
-      date: '2016-11-03'
-      price: 100000000
-    - acquiree: DonationAlerts
-      date: '2017-03-02'
-    - acquiree: Zakazaka
-      date: '2017-05-02'
-      price: 20000000
-    - acquiree: Am.ru
-      date: '2017-05-03'
-      price: 10000000
-    - acquiree: ESForce Holding
-      date: '2018-01-22'
-    - acquiree: 33 Slona
-      date: '2018-04-03'
-    - acquiree: BIT.GAMES
-      date: '2018-04-25'
-    - acquiree: United Media Agency
-      date: '2018-12-28'
-      price: 97000000
-    - acquiree: Nativeroll
-      date: '2019-04-24'
-    - acquiree: Worki
-      date: '2019-05-28'
-    - acquiree: Relap
-      date: '2019-07-20'
-    - acquiree: YouDrive
-      date: '2019-08-22'
-    - acquiree: SkillBox
-      date: '2019-12-22'
-      price: 20000000
-    - acquiree: Samokat
-      date: '2020-05-01'
-    city: Leningradskiy
-    country: Russian Federation
-    description: Mail.Ru Group is an internet company that operates social networking
-      sites, IM networks, email services, and internet portals.
-    funding: 335000000
-    homepage: https://corp.mail.ru/
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/mail-ru
-    name: Mail.Ru Group
-    num_employees_max: 5000
-    num_employees_min: 1001
-    parents:
-    - https://www.crunchbase.com/organization/mrgv
-    region: Chukot
-    stockExchange: vie
-    ticker: MAIL.VI
-    twitter: http://twitter.com/mailru
-  homepage_url: https://mcs.mail.ru
-  image_data:
-    fileName: mail-ru-cloud-solutions-member.svg
-    hash: bZxzxoY82ggw/B5iuZfa03WcEMLSaNcl3lz9wxfu0tE=
-  item: null
-  logo: mail.ru.svg
-  name: Mail.Ru Cloud Solutions (member)
-  twitter: null
-  yahoo_finance_data:
-    effective_ticker: MAIL.VI
-    market_cap: 14244562273
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/makinarocks
-  crunchbase_data:
-    acquisitions: []
-    city: Seoul
-    company_type: For Profit
-    country: South Korea
-    description: "MakinaRocks provides machine learning solutions and an MLOps platform\
-      \ to accelerate and scale the industrial sector\u2019s transition to AI."
-    funding: 11522132
-    homepage: http://www.makinarocks.ai/
-    industries:
-    - Artificial Intelligence
-    - Computer
-    - Information Technology
-    - Machine Learning
-    - Manufacturing
-    - Renewable Energy
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/makinarocks/
-    name: MakinaRocks
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: Seoul-t'ukpyolsi
-    stockExchange: null
-    twitter: https://twitter.com/makinarocks
-  homepage_url: https://www.makinarocks.ai/
-  image_data:
-    fileName: makina-rocks-member.svg
-    hash: NpllmeP56GWP/yGdUzvwxVo+Rqs8MzBlLTMMKSSCU8w=
-  item: null
-  logo: makinarocks.svg
-  name: MakinaRocks (member)
-  twitter_data:
-    latest_tweet_date: 2021-07-15 00:51:06+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/mandao-technology
-  crunchbase_data:
-    acquisitions: []
-    city: Shanghai
-    company_type: For Profit
-    country: China
-    description: A leading Internet financial service group in China
-    homepage: https://mandao-tech.com/
-    industries:
-    - Financial Services
-    linkedin: null
-    name: Mandao Technology
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Shanghai
-    stockExchange: null
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/mandao-technology
   homepage_url: https://www.mandao-tech.com/
-  image_data:
-    fileName: mandao-fintech-member.svg
-    hash: qyFfwCXxLcjfmTonj8yLlNxNIGg4+fWLtrXKRcPHmHo=
   item: null
+  joined: '2021-01-01'
   logo: shanghai-mandao.svg
   name: Mandao Fintech (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/man-technology
-  crunchbase_data:
-    acquisitions: []
-    city: Seongdong
-    company_type: For Profit
-    country: South Korea
-    description: A company that provides business continuity , leads the IT trend,
-      and contributes to society
-    homepage: https://www.mantech.co.kr
-    industries:
-    - Customer Service
-    - Information Technology
-    - PaaS
-    linkedin: null
-    name: Man Technology
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: Kyonggi-do
-    stockExchange: null
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/man-technology
   homepage_url: https://www.mantech.co.kr/
-  image_data:
-    fileName: man-tech-member.svg
-    hash: wuTgbT3ZLOYUg5hl+JDDnTNzXekwges8L+yCtOYsvd8=
   item: null
+  joined: '2021-09-01'
   logo: man-tech.svg
-  name: ManTech (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/mastercard
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Orbiscom
-      date: '2009-01-05'
-      price: 100000000
-    - acquiree: DataCash Group
-      date: '2010-08-20'
-      price: 520000000
-    - acquiree: Truaxis
-      date: '2012-09-06'
-    - acquiree: Provus
-      date: '2014-01-10'
-    - acquiree: C-sam
-      date: '2014-02-24'
-    - acquiree: Pinpoint
-      date: '2014-04-17'
-    - acquiree: Transaction Network Services (TNS)
-      date: '2014-11-06'
-    - acquiree: Applied Predictive Technologies
-      date: '2015-04-27'
-      price: 600000000
-    - acquiree: VocaLink
-      date: '2016-07-21'
-      price: 1140000000
-    - acquiree: NuData Security a Mastercard company
-      date: '2017-03-29'
-    - acquiree: Brighterion
-      date: '2017-07-17'
-    - acquiree: Oltio
-      date: '2018-03-06'
-    - acquiree: Transfast
-      date: '2019-03-08'
-    - acquiree: Ethoca
-      date: '2019-03-12'
-    - acquiree: Vyze
-      date: '2019-04-16'
-    - acquiree: Transactis
-      date: '2019-05-03'
-      price: 57000000
-    - acquiree: Nets-Account-to-Account Payment Business
-      date: '2019-08-06'
-    - acquiree: SessionM
-      date: '2019-10-22'
-    - acquiree: RiskRecon
-      date: '2019-12-23'
-    - acquiree: Cytegic
-      date: '2020-05-20'
-    - acquiree: Finicity
-      date: '2020-06-23'
-      price: 825000000
-    - acquiree: IfOnly
-      date: '2020-08-25'
-    - acquiree: Ekata
-      date: '2021-04-19'
-      price: 850000000
-    - acquiree: Aiia
-      date: '2021-09-07'
-    - acquiree: CipherTrace
-      date: '2021-09-09'
-    - acquiree: Arcus Financial Intelligence
-      date: '2021-11-24'
-    - acquiree: Dynamic Yield
-      date: '2021-12-21'
-    city: Purchase
-    company_type: For Profit
-    country: United States
-    description: Mastercard provides payment processing products and solutions, and
-      related consulting services.
-    homepage: http://www.mastercard.com
-    industries:
-    - Cloud Data Services
-    - Financial Services
-    - Information Technology
-    - Payments
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/mastercard
-    name: Mastercard
-    num_employees_max: 10000
-    num_employees_min: 5001
-    parents: []
-    region: New York
-    stockExchange: nyse
-    ticker: MA
-    twitter: http://twitter.com/MasterCard
+  name: Mantech Solution (member)
+- crunchbase: https://www.crunchbase.com/organization/massdriver
+  homepage_url: https://www.massdriver.cloud/
+  item: null
+  joined: '2023-12-01'
+  logo: massdriver.svg
+  name: Massdriver (member)
+- crunchbase: https://www.crunchbase.com/organization/mastercard
   enduser: true
   homepage_url: https://www.mastercard.us/en-us.html
-  image_data:
-    fileName: mastercard-member.svg
-    hash: 5wlHG6mFC81oetMqE0A5n1sziSt32e7P80BmrcAjWx4=
   item: null
+  joined: '2018-10-01'
   logo: mastercard.svg
   name: Mastercard (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 07:43:28+00:00
-  yahoo_finance_data:
-    effective_ticker: MA
-    market_cap: 343606788096
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/mathworks
-  crunchbase_data:
-    acquisitions:
-    - acquiree: PolySpace Technologies
-      date: '2007-04-25'
-    - acquiree: UURMI
-      date: '2015-09-01'
-    - acquiree: VectorZero
-      date: '2020-04-01'
-    city: Natick
-    company_type: For Profit
-    country: United States
-    description: Mathworks is a producer of MATLAB, a program for data and statistical
-      analysis.
-    homepage: http://www.mathworks.com
-    industries:
-    - Analytics
-    - Database
-    - Education
-    - Enterprise Software
-    - Software
-    linkedin: https://www.linkedin.com/company/the-mathworks_2
-    name: MathWorks
-    num_employees_max: 5000
-    num_employees_min: 1001
-    parents: []
-    region: Massachusetts
-    stockExchange: null
-    twitter: http://twitter.com/matlab
+- crunchbase: https://www.crunchbase.com/organization/mathworks
   enduser: true
   homepage_url: https://www.mathworks.com/
-  image_data:
-    fileName: mathworks-member.svg
-    hash: kXO7AnKpLaTb4ZdsRIT9uNyZ34ZVN7h8ESJhkhEwqaY=
   item: null
+  joined: '2019-04-01'
   logo: mathworks-member.svg
   name: Mathworks (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 11:00:06+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/matrixx-software
-  crunchbase_data:
-    acquisitions: []
-    city: Foster City
-    company_type: For Profit
-    country: United States
-    description: Provider of a digital commerce platform designed to monetize 5G
-    funding: 128600000
-    homepage: https://www.matrixx.com/
-    industries:
-    - Big Data
-    - Mobile
-    - Real Time
-    - Software
-    - Telecommunications
-    - Wireless
-    kind: funding
-    linkedin: https://www.linkedin.com/company/matrixx-software-inc-/
-    name: MATRIXX Software
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/MATRIXX_SW
-  homepage_url: https://www.matrixx.com/
-  image_data:
-    fileName: matrixx-software-member.svg
-    hash: F7aW5BZHf0KKaDGbaE+03RC8eGKbfaqt+myymc6HPbc=
+- crunchbase: https://www.crunchbase.com/organization/maven-solutions-f7b1
+  homepage_url: https://www.mavensolutions.tech
   item: null
-  logo: matrixxsoftware.svg
-  name: MATRIXX Software (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 13:02:01+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/mattermost
-  crunchbase_data:
-    acquisitions: []
-    city: Palo Alto
-    company_type: For Profit
-    country: United States
-    description: Mattermost is an open source platform for secure collaboration across
-      the entire software development lifecycle.
-    funding: 70000000
-    homepage: https://mattermost.com
-    industries:
-    - File Sharing
-    - Information Services
-    - Information Technology
-    - Messaging
-    - SaaS
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/mattermost/
-    name: Mattermost
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/mattermost
-  enduser: true
-  homepage_url: https://mattermost.com
-  image_data:
-    fileName: mattermost-member.svg
-    hash: zg9A3VlAuUokgtCuWPlg44rzFvw7gQDg2gq5QEf7rpA=
-  item: null
-  logo: mattermost-member.svg
-  name: Mattermost (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 15:53:32+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/mavenir-systems
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Airwide Solutions
-      date: '2011-05-30'
-    - acquiree: Stoke
-      date: '2014-11-12'
-    - acquiree: Xura
-      date: '2017-02-08'
-    - acquiree: Brocade Communications Systems - Virtual Evolved Packet Core Business
-      date: '2017-07-31'
-    - acquiree: Aquto
-      date: '2017-12-28'
-    - acquiree: Argyle Data
-      date: '2018-02-06'
-    - acquiree: ip.access
-      date: '2020-09-28'
-    - acquiree: TeleStax, Inc.
-      date: '2021-08-25'
-    city: Richardson
-    company_type: For Profit
-    country: United States
-    description: Mavenir is an end-to-end network software provider, redefining network
-      transformation and economics for CSPs.
-    funding: 604600000
-    homepage: http://www.mavenir.com
-    industries:
-    - Cloud Infrastructure
-    - Communications Infrastructure
-    - Software
-    - Telecommunications
-    kind: funding
-    linkedin: https://www.linkedin.com/company/mavenir
-    name: Mavenir
-    num_employees_max: 5000
-    num_employees_min: 1001
-    parents: []
-    region: Texas
-    stockExchange: nyse
-    twitter: http://twitter.com/mavenir
-  homepage_url: https://mavenir.com/
-  image_data:
-    fileName: mavenir-member.svg
-    hash: XMX9LGprfsWqhVTtCfixsCxekNzssKSUVQito83DP5w=
-  item: null
-  logo: mavenir.svg
-  name: Mavenir (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 14:24:41+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/mayfield-fund
-  crunchbase_data:
-    acquisitions: []
-    city: Menlo Park
-    company_type: ''
-    country: United States
-    description: Mayfield is a global VC firm focusing on inception and early-stage
-      investing in enterprise, consumer, and engineering biology companies.
-    homepage: http://www.mayfield.com
-    industries:
-    - Consumer
-    - Enterprise
-    - Financial Services
-    - Venture Capital
-    linkedin: https://www.linkedin.com/company/mayfield-fund
-    name: Mayfield Fund
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: http://twitter.com/MayfieldFund
-  homepage_url: https://www.mayfield.com/
-  image_data:
-    fileName: mayfield-member.svg
-    hash: bgfZBhcYOsTsCL/JiRs8cbe3RWmx6cV/z0mjb5cuDRE=
-  item: null
-  logo: mayfield-fund.svg
-  name: Mayfield (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-03 21:09:01+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/mckinsey-company
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Numetrics Management Systems
-      date: '2013-01-01'
-    - acquiree: Lixto Software
-      date: '2013-08-28'
-    - acquiree: Agiliti
-      date: '2014-09-01'
-    - acquiree: Lunar
-      date: '2015-05-14'
-    - acquiree: VisualDod
-      date: '2015-10-01'
-    - acquiree: QuantumBlack
-      date: '2015-12-14'
-    - acquiree: PriceMetrix
-      date: '2016-09-08'
-    - acquiree: Veryday
-      date: '2016-11-11'
-    - acquiree: Beloved
-      date: '2017-04-01'
-    - acquiree: Elixir
-      date: '2017-04-01'
-    - acquiree: VLT
-      date: '2017-09-01'
-    - acquiree: Aberkyn
-      date: '2017-12-01'
-    - acquiree: Westney Consulting
-      date: '2019-09-01'
-    - acquiree: Orpheus GmbH
-      date: '2020-02-10'
-    - acquiree: Candid Partners
-      date: '2021-01-15'
-    - acquiree: Hypothesis
-      date: '2021-02-01'
-    - acquiree: Venturetec
-      date: '2021-02-01'
-    - acquiree: Vivid Economics
-      date: '2021-03-08'
-    - acquiree: Material Economics
-      date: '2021-12-01'
-    - acquiree: IncepTech
-      date: '2022-02-01'
-    - acquiree: Solutions for Growth Consulting
-      date: '2022-05-03'
-    - acquiree: Caserta
-      date: '2022-06-01'
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: McKinsey & Company is a global management consulting firm and trusted
-      advisor by businesses, governments, and institutions.
-    homepage: http://www.mckinsey.com
-    industries: []
-    linkedin: https://www.linkedin.com/company/mckinsey/
-    name: McKinsey & Company
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: http://twitter.com/McKinsey
+  joined: '2024-11-01'
+  logo: mavensolutions.svg
+  name: MavenSolutions (member)
+- crunchbase: https://www.crunchbase.com/organization/mckinsey-company
   homepage_url: https://www.mckinsey.com/
-  image_data:
-    fileName: mc-kinsey-company-member.svg
-    hash: YcYTuCJe+Mjdf659UD/HyQ4OO96r1FhwCaEv+y2cVMA=
   item: null
+  joined: '2019-07-01'
   logo: mc-kinsey-company-member.svg
   name: McKinsey & Company (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-06 04:00:02+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/megaease-inc
-  crunchbase_data:
-    acquisitions: []
-    city: Beijing
-    company_type: For Profit
-    country: China
-    description: High performance software architecture
-    homepage: https://megaease.com/
-    industries: []
-    linkedin: null
-    name: MegaEase, Inc.
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Beijing
-    stockExchange: null
-    twitter: null
-  homepage_url: https://megaease.com/
-  image_data:
-    fileName: mega-ease-member.svg
-    hash: Kg2EuYqshOmh/hKVrKAxzTh3+HzpYSKcrJ3exu+TutQ=
+- crunchbase: https://www.crunchbase.com/organization/mecha-systems
+  homepage_url: https://mecha.so
   item: null
-  logo: megaease.svg
-  name: MegaEase (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/megazone-cloud
-  crunchbase_data:
-    acquisitions: []
-    city: Seoul
-    company_type: For Profit
-    country: South Korea
-    description: '"We Are Digital Architects" - We empower customers with cloud-optimized
-      technology, people and process.'
-    funding: 659521598
-    homepage: https://www.megazone.com/us/
-    industries:
-    - Cloud Computing
-    - Consulting
-    - Information Technology
-    - Internet
-    - SaaS
-    - Software
-    - Web Hosting
-    kind: funding
-    linkedin: https://www.linkedin.com/company/megazonecloud/
-    name: MegazoneCloud
-    num_employees_max: 1000
-    num_employees_min: 501
-    parents: []
-    region: Seoul-t'ukpyolsi
-    stockExchange: null
-    twitter: https://twitter.com/megazonecloud
+  joined: '2024-08-01'
+  logo: mecha-systems.svg
+  name: Mecha Systems (member)
+- crunchbase: https://www.crunchbase.com/organization/megazone-cloud
   homepage_url: https://www.megazone.com/
-  image_data:
-    fileName: megazone-cloud-member.svg
-    hash: ri4bdx127XaJoFrhfztLKTClvGxfL4s4u6MGYdc+jNU=
   item: null
+  joined: '2021-02-01'
   logo: megazonecloud.svg
   name: MegazoneCloud (member)
-  twitter_data:
-    latest_tweet_date: 2018-12-01 14:28:00+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/mercedes-benz-group-ag
-  crunchbase_data:
-    acquisitions: []
-    city: Stuttgart
-    company_type: For Profit
-    country: Germany
-    description: Mercedes-Benz Group AG is one of the world's most successful automotive
-      companies.
-    homepage: https://group.mercedes-benz.com
-    industries: []
-    linkedin: https://www.linkedin.com/company/mercedes-benz_ag/
-    name: Mercedes-Benz Group AG
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Baden-Wurttemberg
-    stockExchange: null
-    twitter: null
-  enduser: true
-  homepage_url: https://group.mercedes-benz.com/
-  image_data:
-    fileName: mercedes-benz-ag-member.svg
-    hash: K36jCJQBeeh/kU3hyaV4MuViF369U9bxGilV6euHQY4=
+- crunchbase: https://www.crunchbase.com/organization/merly
+  homepage_url: https://www.merly.ai/
   item: null
-  logo: mercedes-benz.svg
-  name: Mercedes Benz AG (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/metrostar-systems
-  crunchbase_data:
-    acquisitions: []
-    city: Reston
-    company_type: For Profit
-    country: United States
-    description: MetroStar is a digital services and management consulting company.
-    homepage: http://www.metrostarsystems.com
-    industries:
-    - Cyber Security
-    - Information Technology
-    - Mobile
-    - Software
-    linkedin: https://www.linkedin.com/company/metrostar-systems
-    name: MetroStar Systems
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: Virginia
-    stockExchange: null
-    twitter: https://twitter.com/MetroStarSystem
+  joined: '2023-04-01'
+  logo: merly.svg
+  name: Merly (member)
+- crunchbase: https://www.crunchbase.com/organization/metalbear
+  homepage_url: https://metalbear.co
+  item: null
+  joined: '2024-07-01'
+  logo: metalbear.svg
+  name: MetalBear (member)
+- crunchbase: https://www.crunchbase.com/organization/metoro
+  homepage_url: https://metoro.io
+  item: null
+  joined: '2024-09-01'
+  logo: metoro.svg
+  name: Metoro (member)
+- crunchbase: https://www.crunchbase.com/organization/metrostar-systems
   homepage_url: https://www.metrostar.com
-  image_data:
-    fileName: metro-star-systems-member.svg
-    hash: mbW+9n/gYBEyFpKbx1ZLKBPVUP+sN3h8pyXwCuF2yZs=
   item: null
+  joined: '2019-12-01'
   logo: metrostar.svg
   name: MetroStar Systems (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 16:58:11+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/logdna
-  crunchbase_data:
-    acquisitions: []
-    city: San Jose
-    company_type: For Profit
-    country: United States
-    description: Mezmo, formerly LogDNA, is an observability platform to manage and
-      take action on your data.
-    funding: 115420000
-    homepage: https://mezmo.com
-    industries:
-    - Cloud Computing
-    - Enterprise Software
-    - Infrastructure
-    - Management Information Systems
-    kind: funding
-    linkedin: https://www.linkedin.com/company/mezmo
-    name: Mezmo
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/mezmodata
+- crunchbase: https://www.crunchbase.com/organization/logdna
   homepage_url: https://www.mezmo.com/
-  image_data:
-    fileName: mezmo-member.svg
-    hash: OnS9RrjGCGH7EGWaeDgYRpUfsvJ4AaCv5hHNZ7z9UGI=
   item: null
+  joined: '2017-09-01'
   logo: mezmo.svg
   name: Mezmo (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 22:00:02+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/mia-platform
-  crunchbase_data:
-    acquisitions: []
-    city: Milan
-    company_type: For Profit
-    country: Italy
-    description: "Mia\u2011Platform provides the first end\u2011to\u2011end Digital\
-      \ Integration Hub on the market with full DevOps Lifecycle Management."
-    homepage: https://www.mia-platform.eu
-    industries:
-    - Information Technology
-    - Internet
-    - Software
-    linkedin: https://www.linkedin.com/company/mia-platform/
-    name: Mia-Platform
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: Lombardia
-    stockExchange: null
-    twitter: https://twitter.com/miaplatform
+- crunchbase: https://www.crunchbase.com/organization/mia-platform
   homepage_url: https://mia-platform.eu
-  image_data:
-    fileName: mia-platform-member.svg
-    hash: X73br3HAh2jy0qCF9iWG5Dic29XC+2xyjqkywO5r5kA=
   item: null
+  joined: '2019-06-01'
   logo: mia-platform.svg
   name: Mia-Platform (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 09:07:36+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/miaoyun
-  crunchbase_data:
-    acquisitions: []
-    city: Chengdu
-    company_type: For Profit
-    country: China
-    description: MiaoYun provides enterprise-ready container management and AIOps
-      platform
-    homepage: http://miaoyun.io
-    industries:
-    - Cloud Computing
-    - Information Services
-    - Information Technology
-    - Software
-    linkedin: null
-    name: MiaoYun
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Sichuan
-    stockExchange: null
-    twitter: null
-  homepage_url: https://miaoyun.net.cn
-  image_data:
-    fileName: miao-yun-member.svg
-    hash: FvaDtul6LSD1Ltaey9vO4PQn6WjVeNHX3AbgUFocqc8=
+- crunchbase: https://www.crunchbase.com/organization/michelin-2
+  enduser: true
+  homepage_url: https://www.michelin.com
   item: null
-  logo: miao-yun-member.svg
-  name: MiaoYun (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/micro-focus
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Intersolv, Inc.
-      date: '1998-09-25'
-    - acquiree: HAL Knowledge Solutions
-      date: '2006-11-06'
-      price: 3500000
-    - acquiree: NetManage
-      date: '2008-05-05'
-      price: 73300000
-    - acquiree: Relativity Technologies
-      date: '2009-01-05'
-      price: 9700000
-    - acquiree: Borland
-      date: '2009-05-06'
-      price: 75000000
-    - acquiree: AccuRev
-      date: '2013-12-01'
-    - acquiree: Attachmate
-      date: '2014-09-15'
-      price: 2350000000
-    - acquiree: Authasas
-      date: '2015-07-22'
-    - acquiree: Serena Software
-      date: '2016-03-22'
-      price: 540000000
-    - acquiree: Hewlett Packard Enterprise Software
-      date: '2016-09-08'
-      price: 8800000000
-    - acquiree: GWAVA
-      date: '2016-10-04'
-    - acquiree: COBOL-IT
-      date: '2017-12-19'
-    - acquiree: Covertix
-      date: '2018-09-01'
-    - acquiree: Interset
-      date: '2019-02-15'
-    - acquiree: ATAR Labs
-      date: '2020-07-13'
-      price: 15000000
-    city: London
-    company_type: For Profit
-    country: United Kingdom
-    description: Micro Focus is a software company with 40 years of experience in
-      delivering and supporting enterprise software solutions.
-    homepage: http://microfocus.com
-    industries:
-    - Enterprise Software
-    - Software
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/micro-focus
-    name: Micro Focus
-    num_employees_max: 5000
-    num_employees_min: 1001
-    parents: []
-    region: England
-    stockExchange: lse
-    ticker: MCRO.L
-    twitter: https://twitter.com/microfocus
-  homepage_url: https://www.microfocus.com/en-us/home
-  image_data:
-    fileName: micro-focus-member.svg
-    hash: h8jDtHuSacvk8FDwwmkQ0tRbJrOIu/nffvZIwW/zf7I=
+  joined: '2024-03-01'
+  logo: michelin.svg
+  name: Michelin (member)
+- crunchbase: https://www.crunchbase.com/organization/middleware-4460
+  homepage_url: https://middleware.io
   item: null
-  logo: micro-focus-member.svg
-  name: Micro Focus (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 18:09:01+00:00
-  yahoo_finance_data:
-    effective_ticker: MCRO.L
-    market_cap: 1191699106
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/minio-inc
-  crunchbase_data:
-    acquisitions: []
-    city: Palo Alto
-    company_type: For Profit
-    country: United States
-    description: MinIO offers high-performance, S3 compatible object storage for multi-cloud
-      architectures. Software-defined, cloud-native + 100% opensource.
-    funding: 126300000
-    homepage: https://www.min.io
-    industries:
-    - Big Data
-    - Cloud Storage
-    - Data Center
-    - Internet
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/minio-inc-
-    name: MinIO
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/minio
+  joined: '2024-02-01'
+  logo: middleware.svg
+  name: Middleware (member)
+- crunchbase: https://www.crunchbase.com/organization/minimus-077e
+  homepage_url: https://www.minimus.io
+  item: null
+  joined: '2025-06-01'
+  logo: minimus.svg
+  name: Minimus (member)
+- crunchbase: https://www.crunchbase.com/organization/minio-inc
   homepage_url: https://min.io
-  image_data:
-    fileName: min-io-member.svg
-    hash: Hqao7v5WE0sjLRseBlyjICIK9BNYqvsPgHnHhudRxC4=
   item: null
+  joined: '2016-07-01'
   logo: min-io-member.svg
   name: MinIO (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 07:15:17+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/mirantis
-  crunchbase_data:
-    acquisitions:
-    - acquiree: TCP Cloud
-      date: '2016-09-15'
-    - acquiree: Docker Enterprise
-      date: '2019-11-13'
-    - acquiree: Kontena
-      date: '2020-02-28'
-    - acquiree: Lens
-      date: '2020-08-13'
-    - acquiree: amazee.io
-      date: '2022-07-26'
-    city: Campbell
-    company_type: For Profit
-    country: United States
-    description: Mirantis helps organizations ship code faster on public and private
-      clouds. We provide a public cloud experience on any infrastructure.
-    funding: 220000000
-    homepage: http://www.mirantis.com
-    industries:
-    - Cloud Computing
-    - Enterprise Software
-    - IT Infrastructure
-    - IaaS
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/mirantis
-    name: Mirantis
-    num_employees_max: 1000
-    num_employees_min: 501
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: http://twitter.com/MirantisIT
-  homepage_url: https://www.mirantis.com
-  image_data:
-    fileName: mirantis-member.svg
-    hash: sWx2tflWG84fLDlqyu82aBEZ+zl9D1i7vERB8hjrxB0=
-  item: null
-  logo: mirantis-member.svg
-  name: Mirantis (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 19:00:16+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/miraxia-edge-technology-corporation
-  crunchbase_data:
-    acquisitions: []
-    city: Kyoto
-    company_type: For Profit
-    country: Japan
-    description: Miraxia Edge Technology Corporation provides electric power control
-      through sensing.
-    homepage: https://www.miraxia.com/en
-    industries:
-    - Electrical Distribution
-    - Information Technology
-    - Sensor
-    - Software
-    linkedin: null
-    name: MIRAXIA EDGE TECHNOLOGY CORPORATION
-    num_employees_max: 1000
-    num_employees_min: 501
-    parents: []
-    region: Kyoto
-    stockExchange: null
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/miraxia-edge-technology-corporation
   homepage_url: https://www.miraxia.com/
-  image_data:
-    fileName: miraxia-edge-technology-member.svg
-    hash: Q8Ut/l3rYEaETcOtKWnESkgOKFyTvLpZHzLB3BqrqEE=
   item: null
+  joined: '2022-04-01'
   logo: miraxia-edge-technology.svg
   name: Miraxia Edge Technology (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/mobilise-cloud-services
-  crunchbase_data:
-    acquisitions: []
-    city: Swansea
-    company_type: For Profit
-    country: United Kingdom
-    description: Mobilise Cloud mission is to make IT Outsourcing better.
-    homepage: https://www.mobilise.cloud
-    industries:
-    - Information Services
-    - Information Technology
-    - SaaS
-    linkedin: https://www.linkedin.com/company/mobilise-cloud/
-    name: Mobilise Cloud
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Swansea
-    stockExchange: null
-    twitter: https://twitter.com/mobilisecloud
-  homepage_url: https://www.mobilise.cloud
-  image_data:
-    fileName: mobilise-cloud-services-member.svg
-    hash: 8Ici3OV+psXd5Y9giLIamHza3dEXPSpVQBp43PIpAnY=
+- crunchbase: https://www.crunchbase.com/organization/moonlight-marketing
+  homepage_url: https://moonlightmarketing.io
   item: null
-  logo: mobilise-cloud-services-member.svg
-  name: Mobilise Cloud Services (member)
-  twitter_data:
-    latest_tweet_date: 2022-07-28 11:30:28+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/mondoo
-  crunchbase_data:
-    acquisitions: []
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: A security solution for DevOps and security teams
-    funding: 15000000
-    homepage: https://mondoo.com
-    industries:
-    - Cyber Security
-    - Developer Platform
-    kind: funding
-    linkedin: https://www.linkedin.com/company/mondoo
-    name: Mondoo
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/mondoohq
-  homepage_url: https://mondoo.com
-  image_data:
-    fileName: mondoo-member.svg
-    hash: TUerHsZmuVme64u6GIlEDRngdoXhjwJM6v/9VFnQRvI=
-  item: null
-  logo: mondoo.svg
-  name: Mondoo (member)
-  twitter: https://twitter.com/MondooHQ
-  twitter_data:
-    latest_tweet_date: 2022-08-04 20:27:22+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/monostream
-  crunchbase_data:
-    acquisitions: []
-    city: "Z\xFCrich"
-    company_type: For Profit
-    country: Switzerland
-    description: "Cloud- & Software Engineering Z\xFCrich"
-    homepage: https://www.monostream.com/
-    industries:
-    - Apps
-    - Information Technology
-    - Software
-    - iOS
-    linkedin: https://www.linkedin.com/company/monostream/?originalSubdomain=ch
-    name: Monostream
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Zurich
-    stockExchange: null
-    twitter: null
-  homepage_url: https://www.monostream.com
-  image_data:
-    fileName: monostream-member.svg
-    hash: cnhCqUIMnrEvz6dpWK9p6nNGx7TiZvPllzltXnzPAk4=
-  item: null
-  logo: monostream-member.svg
-  name: Monostream (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/meran-technology
-  crunchbase_data:
-    acquisitions: []
-    city: Hangzhou
-    company_type: For Profit
-    country: China
-    description: MoreSec is a company in the field of enterprise services.
-    funding: 79620676
-    homepage: https://www.moresec.cn/
-    industries:
-    - Enterprise
-    kind: funding
-    linkedin: null
-    name: MoreSec
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: Zhejiang
-    stockExchange: null
-    twitter: null
-  homepage_url: https://www.moresec.cn/
-  image_data:
-    fileName: more-sec-member.svg
-    hash: h3QbkvI/1wW28RZ4ZoFPv9mBEutS/bky4s1V8jTtjto=
-  item: null
-  logo: moresec.svg
-  name: MoreSec (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/morgan-stanley
-  crunchbase_data:
-    acquisitions:
-    - acquiree: EnerSys
-      date: '2000-01-01'
-    - acquiree: Zenith
-      date: '2010-08-13'
-    - acquiree: Smith Barney Venture
-      date: '2013-06-29'
-    - acquiree: Hanwha L&C
-      date: '2014-06-18'
-      price: 293000000
-    - acquiree: NEWSTAR
-      date: '2014-09-12'
-      price: 8148197
-    - acquiree: CoAdvantage
-      date: '2015-10-09'
-    - acquiree: Mesa West Capital
-      date: '2017-10-02'
-    - acquiree: Shareworks
-      date: '2019-02-11'
-    - acquiree: KSH Infra
-      date: '2019-02-15'
-      price: 49064274
-    - acquiree: Microlife Corp
-      date: '2019-03-03'
-      price: 302000000
-    - acquiree: E*TRADE
-      date: '2020-02-20'
-      price: 13000000000
-    - acquiree: Eaton Vance Management
-      date: '2020-10-08'
-      price: 7000000000
-    - acquiree: Fusion Connect
-      date: '2022-01-19'
-    city: New York
-    company_type: For Profit
-    country: United States
-    description: Morgan Stanley is a financial services company that offers securities,
-      asset management, and credit services.
-    homepage: http://www.morganstanley.com
-    industries:
-    - Asset Management
-    - Finance
-    - Financial Services
-    - Lending
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/morgan-stanley
-    name: Morgan Stanley
-    num_employees_max: 1000000
-    num_employees_min: 10001
-    parents: []
-    region: New York
-    stockExchange: nyse
-    ticker: MS
-    twitter: http://twitter.com/MorganStanley
+  joined: '2024-03-01'
+  logo: moonlight-marketing.svg
+  name: MoonLight Marketing (member)
+- crunchbase: https://www.crunchbase.com/organization/morgan-stanley
   enduser: true
   homepage_url: https://www.morganstanley.com
-  image_data:
-    fileName: morgan-stanley-member.svg
-    hash: zqBmiMs5nqlDM3xEMN/SG5uPFlVxswwDvzp9E8ouQj8=
   item: null
+  joined: '2017-06-01'
   logo: morgan-stanley-member.svg
   name: Morgan Stanley (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 17:15:00+00:00
-  yahoo_finance_data:
-    effective_ticker: MS
-    market_cap: 148401995776
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/morpheus
-  crunchbase_data:
-    acquisitions: []
-    city: Greenwood Village
-    company_type: For Profit
-    country: United States
-    description: Morpheus Data is a multi-cloud management platform for hybrid IT
-      and DevOps automation.
-    funding: 25791255
-    homepage: https://www.morpheusdata.com/
-    industries:
-    - Cloud Computing
-    - Cloud Management
-    - Information Technology
-    - SaaS
-    kind: funding
-    linkedin: https://www.linkedin.com/company/morpheusdata/
-    name: Morpheus Data
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Colorado
-    stockExchange: null
-    twitter: https://twitter.com/morpheusdata
+- crunchbase: https://www.crunchbase.com/organization/morpheus
   homepage_url: https://www.morpheusdata.com/
-  image_data:
-    fileName: morpheus-data-member.svg
-    hash: KvZZE4cp2vU+5k2KbeODB8PhcaF6wHZSHM8VLhmcPPc=
   item: null
+  joined: '2019-07-01'
   logo: morpheus-data-member.svg
   name: Morpheus Data (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 13:25:39+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/msys-technologies
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Clogeny Technologies
-      date: '2014-04-16'
-    - acquiree: DigiFutura
-      date: '2017-05-04'
-    - acquiree: Mobinius Technologies
-      date: '2019-11-01'
-    city: Chennai
-    company_type: For Profit
-    country: India
-    description: MSys Technologies is a reliable partner for product engineering &
-      digital transformation projects for its ISV & Enterprise clientele.
-    homepage: https://www.msystechnologies.com/
-    industries:
-    - Big Data
-    - Cloud Computing
-    - Cloud Storage
-    - Data Storage
-    - Embedded Systems
-    - Enterprise Software
-    - Industrial Automation
-    - Internet of Things
-    - Quality Assurance
-    - Software
-    linkedin: https://www.linkedin.com/company/msys-technologies
-    name: MSys Technologies
-    num_employees_max: 1000
-    num_employees_min: 501
-    parents: []
-    region: Tamil Nadu
-    stockExchange: null
-    twitter: https://twitter.com/MSys_Tech
-  homepage_url: https://msystechnologies.com
-  image_data:
-    fileName: m-sys-technologies-member.svg
-    hash: gvE3v+kGdSACmJio4PU4v0+IWs/LYi3OQ2gx4wb6QDY=
+- crunchbase: https://www.crunchbase.com/organization/move2cloud-d678
+  homepage_url: https://move2cloud.fr
   item: null
-  logo: m-sys-technologies-member.svg
-  name: MSys Technologies (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 11:30:12+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/mufg-union-bank
-  crunchbase_data:
-    acquisitions: []
-    city: New York
-    company_type: ''
-    country: United States
-    description: MUFG is a multinational group that offers comprehensive and tailored
-      financial solutions.
-    homepage: https://www.mufgamericas.com/
-    industries:
-    - Banking
-    - Financial Services
-    - Wealth Management
-    linkedin: null
-    name: MUFG Union Bank
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: New York
-    stockExchange: null
-    twitter: https://twitter.com/mufgamericas
-  enduser: true
-  homepage_url: https://mufgamericas.com
-  image_data:
-    fileName: mufg-union-bank-member.svg
-    hash: dG35MQOZJmvvbY+vVi7ezY2JeP1pxP310p7fGrn0H+8=
-  item: null
-  logo: mufg-union-bank-member.svg
-  name: MUFG Union Bank (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-03 18:05:01+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/mycelial
-  crunchbase_data:
-    acquisitions: []
-    city: New York
-    company_type: For Profit
-    country: United States
-    description: Mycelial is a computer company that develops computer software to
-      unlock values in the most constrained environments.
-    funding: 3800000
-    homepage: https://www.mycelial.co
-    industries:
-    - Computer
-    - Information Technology
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/mycelialinc
-    name: Mycelial
-    num_employees_max: 10
-    num_employees_min: 1
-    parents: []
-    region: New York
-    stockExchange: null
-    twitter: null
-  homepage_url: https://www.mycelial.com/
-  image_data:
-    fileName: mycelial-member.svg
-    hash: GzqBM2WEHRt6zd1L9RKf+z1UMN3vKwkuYVXlSXHR1uk=
-  item: null
-  logo: mycelial.svg
-  name: Mycelial (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/myfitnesspal
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Sessions
-      date: '2014-02-19'
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: MyFitnessPal is a health smartphone app that tracks nutrition, exercise,
-      and diet.
-    funding: 18000000
-    homepage: https://www.myfitnesspal.com/
-    industries:
-    - Apps
-    - Fitness
-    - Health Care
-    - Nutrition
-    - Personal Health
-    - Wellness
-    kind: funding
-    linkedin: https://www.linkedin.com/company/myfitnesspal
-    name: MyFitnessPal
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/MyFitnessPal
+  joined: '2024-11-01'
+  logo: move2cloud.svg
+  name: Move2Cloud (member)
+- crunchbase: https://www.crunchbase.com/organization/myfitnesspal
   enduser: true
   homepage_url: https://www.myfitnesspal.com/
-  image_data:
-    fileName: my-fitness-pal-member.svg
-    hash: jIPQ0la6yA8C2dWZyc99dRj65hhp69bQ8cJh49y5wmQ=
   item: null
-  joined: '2020-11-09'
+  joined: '2020-11-01'
   logo: myfitnesspal.svg
   name: MyFitnessPal (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 19:54:02+00:00

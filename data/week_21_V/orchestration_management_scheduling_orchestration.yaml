@@ -1,87 +1,17 @@
-- best_practice_data:
-    badge: 3012
-    percentage: 100
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Kubernetes
-      date: '2016-03-10'
-    - acquiree: RethinkDB
-      date: '2017-02-06'
-      price: 25000
-    city: San Francisco
-    company_type: Non Profit
-    country: United States
-    description: CNCF is an open source software foundation that hosts and nurtures
-      projects like Kubernetes and Prometheus.
-    funding: 3000000
-    homepage: https://www.cncf.io
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Non Profit
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
-    name: Cloud Native Computing Foundation (CNCF)
-    num_employees_max: 50
-    num_employees_min: 11
-    parents:
-    - https://www.crunchbase.com/organization/linux-foundation
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/CloudNativeFdn
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   extra:
-    accepted: '2020-04-10'
+    accepted: '2020-04-09'
+    ai: true
     artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#volcano
+    clomonitor_name: volcano
     dev_stats_url: https://volcano.devstats.cncf.io/
-    incubation: '2022-03-21'
-  github_data:
-    contributions: 16;15;0;18;19;12;3;8;2;5;15;15;11;6;12;24;14;16;11;26;11;4;14;16;29;2;9;8;2;5;12;14;4;20;9;19;19;19;5;30;12;4;16;11;1;4;12;14;11;5;12;12
-    contributors_count: 204
-    contributors_link: https://github.com/volcano-sh/volcano/graphs/contributors
-    description: A Cloud Native Batch System (Project under CNCF)
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 1663135
-    - color: '#89e051'
-      name: Shell
-      value: 80317
-    - color: '#427819'
-      name: Makefile
-      value: 7268
-    - color: '#384d54'
-      name: Dockerfile
-      value: 3824
-    - color: '#3572A5'
-      name: Python
-      value: 498
-    - name: Smarty
-      value: 205
-    latest_commit_date: '2022-08-05T07:26:58Z'
-    latest_commit_link: /volcano-sh/volcano/commit/98c2c0866b6e4b8ba18b62c6f1ec30bd948ed536
-    license: Apache License 2.0
-    release_date: '2022-06-11T17:20:02Z'
-    release_link: https://github.com/volcano-sh/volcano/releases
-    stars: 2543
-  github_start_commit_data:
-    start_commit_link: /volcano-sh/volcano/commit/d454490cca88891c1ca8b1a85c4506d115574a21
-    start_date: '2017-06-30T02:08:57Z'
+    incubating: '2022-03-21'
   homepage_url: https://volcano.sh/
-  image_data:
-    fileName: volcano.svg
-    hash: 8z0ghbpWsgHg9JxZGTaldA2jYGF1FxySZJSWc0Wz7HY=
   item: null
   logo: volcano.svg
   name: Volcano
   project: incubating
   repo_url: https://github.com/volcano-sh/volcano
-  repos:
-  - stars: 2543
-    url: https://github.com/volcano-sh/volcano
+  second_path:
+  - CNAI / General Orchestration
   twitter: https://twitter.com/volcano_sh
-  twitter_data:
-    latest_tweet_date: 2022-06-29 13:53:59+00:00

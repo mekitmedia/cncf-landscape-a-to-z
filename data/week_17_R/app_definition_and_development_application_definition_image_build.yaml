@@ -1,35 +1,22 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/raftt
-  crunchbase_data:
-    acquisitions: []
-    city: Tel Aviv
-    company_type: For Profit
-    country: Israel
-    description: Raftt saves developers from the frustrations of configuring, maintaining,
-      and sharing development environments on their local machine.
-    homepage: https://www.raftt.io/
-    industries:
-    - Collaboration
-    - Developer Platform
-    - Developer Tools
-    - Productivity Tools
-    - Software
-    linkedin: https://www.linkedin.com/company/raftt/
-    name: Raftt
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Tel Aviv
-    stockExchange: null
-    twitter: https://twitter.com/rafttio
+- description: Radius is a cloud-native application platform that enables developers
+    and the platform engineers that support them to collaborate on delivering and
+    managing cloud-native applications that follow organizational best practices for
+    cost, operations and security, by default.
+  extra:
+    accepted: '2024-04-16'
+    blog_url: https://blog.radapp.io/posts
+    clomonitor_name: radius
+    dev_stats_url: https://radius.devstats.cncf.io/
+    youtube_url: https://www.youtube.com/@radapp_io
+  homepage_url: https://radapp.io/
+  item: null
+  logo: radius.svg
+  name: Radius
+  project: sandbox
+  repo_url: https://github.com/radius-project/radius
+  twitter: https://twitter.com/radapp_io
+- crunchbase: https://www.crunchbase.com/organization/raftt
   homepage_url: https://www.raftt.io/
-  image_data:
-    fileName: raftt.svg
-    hash: A6XiCjYB9OYTCwf5/w9rf+fEAGq4U79Is7OKdI0pV18=
   item: null
   logo: raftt.svg
   name: Raftt
-  twitter_data:
-    latest_tweet_date: 2022-07-10 15:13:37+00:00

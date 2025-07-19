@@ -1,472 +1,85 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/f5-networks
-  crunchbase_data:
-    acquisitions:
-    - acquiree: MagniFire Websystems
-      date: '2004-06-02'
-      price: 29000000
-    - acquiree: Swan Labs
-      date: '2005-09-06'
-      price: 43000000
-    - acquiree: Acopia Networks
-      date: '2007-08-06'
-      price: 210000000
-    - acquiree: Crescendo Networks
-      date: '2011-08-15'
-    - acquiree: Traffix Systems
-      date: '2012-02-20'
-      price: 135000000
-    - acquiree: LineRate Systems
-      date: '2013-02-11'
-    - acquiree: Versafe
-      date: '2013-09-17'
-      price: 92000000
-    - acquiree: Defense.Net
-      date: '2014-05-22'
-    - acquiree: NGINX
-      date: '2019-03-11'
-      price: 670000000
-    - acquiree: Shape Security
-      date: '2019-12-19'
-      price: 1000000000
-    - acquiree: Volterra
-      date: '2021-01-07'
-      price: 500000000
-    - acquiree: Threat Stack
-      date: '2021-09-20'
-      price: 68000000
-    city: Seattle
-    company_type: For Profit
-    country: United States
-    description: F5 Networks provides application security and delivery tools.
-    funding: 0
-    homepage: https://www.f5.com
-    industries:
-    - Consumer Electronics
-    - SaaS
-    - Security
-    - Virtualization
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/f5
-    name: F5
-    num_employees_max: 10000
-    num_employees_min: 5001
-    parents: []
-    region: Washington
-    stockExchange: nasdaq
-    ticker: FFIV
-    twitter: http://twitter.com/f5networks
+- crunchbase: https://www.crunchbase.com/organization/f5-networks
   homepage_url: https://www.f5.com
-  image_data:
-    fileName: f5-member.svg
-    hash: pArp4HY/yRO+UdlUCsk0rd36CZGBK7EZhzAA189UkhI=
   item: null
+  joined: '2017-11-01'
   logo: f5-member.svg
   name: F5 (member)
   twitter: https://twitter.com/F5
-  twitter_data:
-    latest_tweet_date: 2022-08-05 15:59:05+00:00
-  yahoo_finance_data:
-    effective_ticker: FFIV
-    market_cap: 10266263552
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/fairwinds
-  crunchbase_data:
-    acquisitions: []
-    city: Boston
-    company_type: For Profit
-    country: United States
-    description: Kubernetes security, policy and compliance experts
-    homepage: https://www.fairwinds.com/
-    industries:
-    - Cloud Computing
-    - Cloud Security
-    - Developer Tools
-    - Information Technology
-    - Software
-    - Subscription Service
-    linkedin: https://www.linkedin.com/company/fairwinds/
-    name: Fairwinds
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Massachusetts
-    stockExchange: null
-    twitter: https://twitter.com/fairwindsops
-  homepage_url: https://www.fairwinds.com/
-  image_data:
-    fileName: fairwinds-member.svg
-    hash: JRXNIwzRrKBwL/tw8AaLmQEh2Q9W4PhQx+N87iyDD04=
+- crunchbase: https://www.crunchbase.com/organization/facets-cloud
+  homepage_url: https://www.facets.cloud/
   item: null
+  joined: '2023-06-01'
+  logo: facets.cloud.svg
+  name: Facets.cloud (member)
+- crunchbase: https://www.crunchbase.com/organization/factory-19d8
+  homepage_url: https://www.factory.ai
+  item: null
+  joined: '2024-09-01'
+  logo: factory.svg
+  name: Factory (member)
+- crunchbase: https://www.crunchbase.com/organization/fairwinds
+  homepage_url: https://www.fairwinds.com/
+  item: null
+  joined: '2018-01-01'
   logo: fairwinds.svg
   name: Fairwinds (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 20:26:50+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/fannie-mae
-  crunchbase_data:
-    acquisitions: []
-    city: Washington
-    company_type: For Profit
-    country: United States
-    description: Fannie Mae is supporting today's economic recovery and helping to
-      build a sustainable housing finance system.
-    homepage: http://www.fanniemae.com
-    industries:
-    - Credit
-    - Financial Services
-    - Real Estate
-    kind: market_cap
-    linkedin: https://www.linkedin.com/company/fannie-mae-corporation_19722
-    name: Fannie Mae
-    num_employees_max: 10000
-    num_employees_min: 5001
-    parents: []
-    region: District of Columbia
-    stockExchange: otcpink
-    ticker: FNMA
-    twitter: https://twitter.com/fanniemae
-  enduser: true
-  homepage_url: https://www.fanniemae.com/
-  image_data:
-    fileName: fannie-mae-member.svg
-    hash: vJStaGyp7vn1q+N3Ge6bzB40WXvTU1LQrORdUu/45+g=
+- crunchbase: https://www.crunchbase.com/organization/fastly
+  homepage_url: https://www.fastly.com
   item: null
-  joined: '2021-10-23'
-  logo: fannie-mae.svg
-  name: Fannie Mae (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 19:30:01+00:00
-  yahoo_finance_data:
-    effective_ticker: FNMA
-    market_cap: 708751040
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/finout
-  crunchbase_data:
-    acquisitions: []
-    city: Tel Aviv
-    company_type: For Profit
-    country: Israel
-    description: The single source of truth for usage-based cost
-    funding: 18500000
-    homepage: https://finout.io
-    industries:
-    - Information Technology
-    - Software
-    kind: funding
-    linkedin: https://linkedin.com/company/finout-io
-    name: Finout
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Tel Aviv
-    stockExchange: null
-    twitter: https://twitter.com/finout_io
+  joined: '2024-05-01'
+  logo: fastly.svg
+  name: Fastly (member)
+- crunchbase: https://www.crunchbase.com/organization/fermyon-technologies
+  homepage_url: https://www.fermyon.com/
+  item: null
+  joined: '2023-01-01'
+  logo: fermyon.svg
+  name: Fermyon Technologies (member)
+- crunchbase: https://www.crunchbase.com/organization/finout
   homepage_url: https://www.finout.io/
-  image_data:
-    fileName: finout-member.svg
-    hash: C0dLc4bpBNMvKmqYa8O59eRtZqZDm1I9fzvVN0FaZ4Q=
   item: null
+  joined: '2022-01-01'
   logo: finout.svg
   name: Finout (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-04 07:48:00+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/infralight
-  crunchbase_data:
-    acquisitions: []
-    city: Tel Aviv
-    company_type: For Profit
-    country: Israel
-    description: Firefly helps DevOps teams to discover their entire cloud footprint,
-      improve confidence with IaC, and avoid failures
-    homepage: https://www.gofirefly.io/
-    industries: []
-    linkedin: https://www.linkedin.com/company/gofireflyio/
-    name: Firefly
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Tel Aviv
-    stockExchange: null
-    twitter: https://twitter.com/goFireflyio
+- crunchbase: https://www.crunchbase.com/organization/infralight
   homepage_url: https://www.gofirefly.io/
-  image_data:
-    fileName: firefly-member.svg
-    hash: xq/flQqw3gF0g13/4DSVMF56XfbchGnNEbsLGe144/o=
   item: null
+  joined: '2021-07-01'
   logo: firefly.svg
   name: Firefly (member)
-  twitter_data:
-    latest_tweet_date: 2022-07-26 07:16:38+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/firehydrant
-  crunchbase_data:
-    acquisitions: []
-    city: New York
-    company_type: For Profit
-    country: United States
-    description: FireHydrant is an incident management tool that helps companies recover
-      from IT disasters more quickly.
-    funding: 32500000
-    homepage: https://www.firehydrant.io
-    industries:
-    - Data Center Automation
-    - Information Technology
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/11858958
-    name: FireHydrant
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: New York
-    stockExchange: null
-    twitter: https://twitter.com/firehydrant
-  homepage_url: https://firehydrant.com
-  image_data:
-    fileName: fire-hydrant-member.svg
-    hash: 7TJVGPKlBPbH2vFQqXE84++3EM3ZzdfAQntoP/CjoNM=
+- crunchbase: https://www.crunchbase.com/organization/flox-ea31
+  homepage_url: https://flox.dev
   item: null
-  logo: firehydrant.svg
-  name: FireHydrant (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-05 18:26:00+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/fit2cloud
-  crunchbase_data:
-    acquisitions: []
-    city: Beijing
-    company_type: For Profit
-    country: China
-    description: FIT2CLOUD, is a leading Multi-Cloud Management Platform provider
-      in China.
-    funding: 28255819
-    homepage: https://fit2cloud.com/
-    industries:
-    - Cloud Computing
-    - Cloud Management
-    kind: funding
-    linkedin: null
-    name: FIT2CLOUD
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: Beijing
-    stockExchange: null
-    twitter: null
-  homepage_url: https://www.fit2cloud.com/
-  image_data:
-    fileName: fit2-cloud-member.svg
-    hash: Q1uQE2Do2L+abwbVi7/gvh71ClhcFmwyCfQqk/ns3Rc=
-  item: null
-  logo: fit2cloud.svg
-  name: FIT2CLOUD (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/flanksource
-  crunchbase_data:
-    acquisitions: []
-    city: Johannesburg
-    company_type: For Profit
-    country: South Africa
-    description: Kubernetes @ Full Speed
-    homepage: https://www.flanksource.com/
-    industries: []
-    linkedin: https://www.linkedin.com/company/flanksource/
-    name: Flanksource
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: NA - South Africa
-    stockExchange: null
-    twitter: null
-  homepage_url: https://www.flanksource.com/
-  image_data:
-    fileName: flanksource-member.svg
-    hash: nw2ccMtOiAwG/q9/ZPYwLsRzbgq0EFGqIUYJY9bnvOU=
-  item: null
-  logo: flanksource.svg
-  name: Flanksource (member)
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/flant
-  crunchbase_data:
-    acquisitions:
-    - acquiree: okmeter.io
-      date: '2021-05-14'
-    city: Tallinn
-    company_type: For Profit
-    country: Estonia
-    description: Flant offers DevOps as a Service, Managed Kubernetes, and Okmeter
-      monitoring system.
-    homepage: https://flant.com/
-    industries:
-    - Consulting
-    - Information Technology
-    - Software
-    linkedin: https://www.linkedin.com/company/flant/
-    name: Flant
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: Harjumaa
-    stockExchange: null
-    twitter: https://twitter.com/flant_com
-  homepage_url: https://flant.com
-  image_data:
-    fileName: flant-member.svg
-    hash: 1P2yl1lphNEhjS7cE2sfubDlChr0IRSRJ3JhUlzoh+k=
-  item: null
-  logo: flant-member.svg
-  name: Flant (member)
-  twitter_data:
-    latest_tweet_date: 2022-07-29 10:16:59+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/fossa-2
-  crunchbase_data:
-    acquisitions: []
-    city: San Francisco
-    company_type: For Profit
-    country: United States
-    description: FOSSA provides a platform that helps enterprises manage and maximize
-      open source use at scale.
-    funding: 33900000
-    homepage: http://fossa.com
-    industries:
-    - Compliance
-    - Developer Tools
-    - Open Source
-    - SaaS
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/fossa/
-    name: FOSSA
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/getfossa
+  joined: '2024-08-01'
+  logo: flox.svg
+  name: Flox (member)
+- crunchbase: https://www.crunchbase.com/organization/fossa-2
   homepage_url: https://fossa.com
-  image_data:
-    fileName: fossa-member.svg
-    hash: Yg4pXjWGsvLY0ODkrYT9QS3J96kQfEci0n1mgG21xSg=
   item: null
+  joined: '2019-04-01'
   logo: fossa.svg
   name: FOSSA (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-03 21:17:24+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/fournine-cloud
-  crunchbase_data:
-    acquisitions: []
-    city: Hyderabad
-    company_type: For Profit
-    country: India
-    description: Fournine cloud offers IT services and solutions like cloud security,
-      consulting services, managed services, DevOps, automation, and others.
-    homepage: https://www.fourninecloud.com/
-    industries:
-    - Cloud Security
-    - Consulting
-    - Information Technology
-    linkedin: https://www.linkedin.com/company/fourninecloud/
-    name: Fournine Cloud Solutions
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Andhra Pradesh
-    stockExchange: null
-    twitter: https://twitter.com/fourninecloud
-  homepage_url: https://www.fourninecloud.com/
-  image_data:
-    fileName: fournine-cloud-solutions-member.svg
-    hash: pgNwyl6jHX0WZ2s+A1ARFgfUZelqC13z4YghGvr1h/w=
+- crunchbase: https://www.crunchbase.com/organization/fr0ntierx
+  homepage_url: https://www.fr0ntierx.com
   item: null
-  logo: fournine.svg
-  name: Fournine Cloud Solutions (member)
-  twitter_data:
-    latest_tweet_date: 2022-02-25 04:15:43+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/fullstaq
-  crunchbase_data:
-    acquisitions: []
-    city: Westervoort
-    company_type: For Profit
-    country: The Netherlands
-    description: Your Cloud Native and DevOps driven technology partner
-    homepage: https://fullstaq.com/
-    industries:
-    - Information Technology
-    linkedin: https://www.linkedin.com/company/fullstaq/
-    name: Fullstaq
-    num_employees_max: 50
-    num_employees_min: 11
-    parents: []
-    region: Gelderland
-    stockExchange: null
-    twitter: https://twitter.com/fullstaq
+  joined: '2024-09-01'
+  logo: fr0ntierx.svg
+  name: Fr0ntierX (member)
+- crunchbase: https://www.crunchbase.com/organization/frontier-f469
+  homepage_url: https://frontierhq.com
+  item: null
+  joined: '2024-10-01'
+  logo: frontier.svg
+  name: Frontier (member)
+- crunchbase: https://www.crunchbase.com/organization/fullstacks
+  homepage_url: https://www.fullstacks.eu/
+  item: null
+  joined: '2023-02-01'
+  logo: fullstacks.svg
+  name: FullStackS (member)
+- crunchbase: https://www.crunchbase.com/organization/fullstaq
   homepage_url: https://fullstaq.com/
-  image_data:
-    fileName: fullstaq-member.svg
-    hash: XW0aqlIlE0uNWF4RIfKW+rrROtwiz9lLX6ZCyHpYm0g=
   item: null
+  joined: '2019-06-01'
   logo: fullstaq.svg
   name: Fullstaq (member)
-  twitter_data:
-    latest_tweet_date: 2022-08-02 10:00:33+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/futurewei-technologies
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Cognigine
-      date: '2003-06-10'
-    city: Santa Clara
-    company_type: For Profit
-    country: United States
-    description: Futurewei develops innovations to benefit an intelligent & digital
-      society via standardization, open source, & collaboration with ecosystem.
-    homepage: https://www.futurewei.com/
-    industries:
-    - Semiconductor
-    - Wireless
-    linkedin: https://www.linkedin.com/company/futureweitechnologiesinc./
-    name: Futurewei Technologies
-    num_employees_max: 500
-    num_employees_min: 251
-    parents: []
-    region: California
-    stockExchange: null
-    twitter: null
-  homepage_url: https://www.futurewei.com/
-  image_data:
-    fileName: futurewei-technologies-member.svg
-    hash: mXNKZwPmF4Vy8xSrFjG5vA3cW4iUCCY9FQ2dduzQMWs=
-  item: null
-  logo: futurewei.svg
-  name: Futurewei Technologies (member)

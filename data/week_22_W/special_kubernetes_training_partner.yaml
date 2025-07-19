@@ -1,31 +1,9 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/whizus-gmbh
-  crunchbase_data:
-    acquisitions: []
-    city: Vienna
-    company_type: For Profit
-    country: Austria
-    description: Support in technical issues & contribute to the devops society
-    homepage: https://www.whizus.com/
-    industries: []
-    linkedin: https://www.linkedin.com/company/whizus
-    name: WhizUs
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Wien
-    stockExchange: null
-    twitter: https://twitter.com/whizus_?lang=de
+- crunchbase: https://www.crunchbase.com/organization/whizus-gmbh
   description: As Enterprise Kubernetes Consultants, we support you to build up your
     Kubernetes cluster in your chosen environment according to your needs.
+  extra:
+    training_type: instructor-led
   homepage_url: https://www.whizus.com/
-  image_data:
-    fileName: whiz-us-ktp.svg
-    hash: ZxYNKy2kgRgqDS87OuVE9p5+nYuGsOMtGIsEyNo1IxE=
   item: null
   logo: whizus.svg
   name: WhizUs (KTP)
-  twitter_data:
-    latest_tweet_date: 2021-11-09 10:26:34+00:00

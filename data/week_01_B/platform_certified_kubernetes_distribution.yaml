@@ -1,71 +1,7 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/kbsys
-  crunchbase_data:
-    acquisitions: []
-    city: Seoul
-    company_type: For Profit
-    country: South Korea
-    description: We are developing and deploying a variety of solutions based on Open
-      Source
-    homepage: http://kb-sys.co.kr/index
-    industries:
-    - Big Data
-    - Cloud Computing
-    - Data Visualization
-    linkedin: null
-    name: KBSYS
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: Seoul-t'ukpyolsi
-    stockExchange: null
-    twitter: null
-  description: Bizkube is a next-generation enterprise distributed processing and
-    hybrid cloud operating solution that provides Built, Deployment, Elastic Scaling
-    Modern Applications, and Data Service capabilities, various open source support,
-    and a customized docker environment for users.
-  homepage_url: http://www.bizkube.co.kr
-  image_data:
-    fileName: biz-kube.svg
-    hash: pmcc0ORGs2SA6j10JtsrEOOCh9cma8Y138qjviYdD2g=
-  item: null
-  logo: bizkube.svg
-  name: BizKube
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/bocloud
-  crunchbase_data:
-    acquisitions: []
-    city: Suzhou
-    company_type: For Profit
-    country: China
-    description: BoCloud provides professional cloud computing services for enterprise
-      customers, focusing on PaaS technology.
-    funding: 29771598
-    homepage: http://www.bocloud.com.cn
-    industries:
-    - Cloud Computing
-    - Enterprise Software
-    - Information Technology
-    - SaaS
-    kind: funding
-    linkedin: null
-    name: Bocloud
-    num_employees_max: 1000
-    num_employees_min: 501
-    parents: []
-    region: Jiangsu
-    stockExchange: null
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/bocloud
   description: BoCloud BeyondContainer is a production-ready PaaS platform for Internet
     application deployment and management.
   homepage_url: http://bocloud.com.cn/product_container.html
-  image_data:
-    fileName: bo-cloud-beyond-container.svg
-    hash: KOJN2IlDL1t5e/6lkwZIZvLuCuIOCzw4HPHt12cfpn8=
   item: null
   logo: bo-cloud-beyond-container.svg
   name: BoCloud BeyondContainer

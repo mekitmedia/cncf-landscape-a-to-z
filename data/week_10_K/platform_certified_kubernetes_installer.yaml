@@ -1,449 +1,68 @@
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Kubernetes
-      date: '2016-03-10'
-    - acquiree: RethinkDB
-      date: '2017-02-06'
-      price: 25000
-    city: San Francisco
-    company_type: Non Profit
-    country: United States
-    description: CNCF is an open source software foundation that hosts and nurtures
-      projects like Kubernetes and Prometheus.
-    funding: 3000000
-    homepage: https://www.cncf.io
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Non Profit
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
-    name: Cloud Native Computing Foundation (CNCF)
-    num_employees_max: 50
-    num_employees_min: 11
-    parents:
-    - https://www.crunchbase.com/organization/linux-foundation
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/CloudNativeFdn
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: Kubeasz is a tool to deploy a Production Ready Kubernetes Cluster with
     ansible playbooks.
-  github_data:
-    contributions: 0;1;0;0;1;1;8;1;0;3;1;1;1;0;0;1;0;0;0;0;6;5;0;0;1;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;5;8;6;3;2;4;0;0;0;0
-    contributors_count: 72
-    contributors_link: https://github.com/easzlab/kubeasz/graphs/contributors
-    description: "\u4F7F\u7528Ansible\u811A\u672C\u5B89\u88C5K8S\u96C6\u7FA4\uFF0C\
-      \u4ECB\u7ECD\u7EC4\u4EF6\u4EA4\u4E92\u539F\u7406\uFF0C\u65B9\u4FBF\u76F4\u63A5\
-      \uFF0C\u4E0D\u53D7\u56FD\u5185\u7F51\u7EDC\u73AF\u5883\u5F71\u54CD"
-    firstWeek: 2021-08-08Z
-    languages:
-    - name: Jinja
-      value: 253560
-    - color: '#89e051'
-      name: Shell
-      value: 158977
-    - name: Mustache
-      value: 18266
-    latest_commit_date: '2022-07-03T12:37:05Z'
-    latest_commit_link: /easzlab/kubeasz/commit/9c61334be84902846364c40a5d0067a29573678f
-    license: Unknown License
-    release_date: '2022-07-03T12:45:26Z'
-    release_link: https://github.com/easzlab/kubeasz/releases
-    stars: 8372
-  github_start_commit_data:
-    start_commit_link: /easzlab/kubeasz/commit/3367d512ad5dba3ef3cdfa5815773bbf51ea7b8b
-    start_date: '2017-11-11T11:14:21Z'
   homepage_url: https://github.com/easzlab/kubeasz
-  image_data:
-    fileName: kubeasz.svg
-    hash: fXzcHV4YV6gW3qPo/aoPH1ldCDsNh2Gvtc0kkkZSATg=
   item: null
   logo: kubeasz.svg
   name: Kubeasz
   repo_url: https://github.com/easzlab/kubeasz
-  repos:
-  - stars: 8372
-    url: https://github.com/easzlab/kubeasz
-  twitter_data:
-    latest_tweet_date: 2022-08-05 21:09:37+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/qingcloud
-  crunchbase_data:
-    acquisitions: []
-    city: Beijing
-    company_type: For Profit
-    country: China
-    description: QingCloud is a cloud computing platform that provides IaaS-based
-      flexible cloud services.
-    funding: 280832709
-    homepage: http://qingcloud.com
-    industries:
-    - Cloud Computing
-    - IaaS
-    - SaaS
-    - Software
-    - Web Hosting
-    kind: market_cap
-    linkedin: https://www.linkedin.com/showcase/6462819/
-    name: QingCloud
-    num_employees_max: 1000
-    num_employees_min: 501
-    parents: []
-    region: Beijing
-    stockExchange: sse
-    ticker: 688316.SS
-    twitter: null
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Manage kubernetes in the most light and convenient way.
+  extra:
+    accepted: '2023-06-30'
+    clomonitor_name: kubeclipper
+    dev_stats_url: https://kubeclipper.devstats.cncf.io/
+  homepage_url: https://www.kubeclipper.io/
+  item: null
+  logo: kubeclipper.svg
+  name: KubeClipper
+  project: sandbox
+  repo_url: https://github.com/kubeclipper/kubeclipper
+- crunchbase: https://www.crunchbase.com/organization/qingcloud
   description: Kubekey provides a flexible, rapid and convenient way to install Kubernetes
     only, both Kubernetes and KubeSphere, and related cloud-native add-ons.  It is
     also an efficient tool to scale and upgrade your cluster.
-  github_data:
-    contributions: 17;8;15;10;20;25;21;10;1;10;13;12;2;19;30;9;21;28;34;26;19;19;28;16;4;0;13;21;7;8;12;10;19;9;14;41;27;19;16;11;2;8;4;30;2;2;6;3;4;18;27;0
-    contributors_count: 70
-    contributors_link: https://github.com/kubesphere/kubekey/graphs/contributors
-    description: "Install Kubernetes/K3s only, both Kubernetes/K3s and KubeSphere,\
-      \ and related cloud-native add-ons, it supports all-in-one, multi-node, and\
-      \ HA \U0001F525 \u2388 \U0001F433"
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 1411172
-    - color: '#89e051'
-      name: Shell
-      value: 21639
-    - color: '#427819'
-      name: Makefile
-      value: 11530
-    - color: '#384d54'
-      name: Dockerfile
-      value: 1225
-    latest_commit_date: '2022-07-27T07:32:54Z'
-    latest_commit_link: /kubesphere/kubekey/commit/691611a4c0e6522bf8a9c1a7bcd0780fd7d73fff
-    license: Apache License 2.0
-    release_date: '2022-07-26T06:17:18Z'
-    release_link: https://github.com/kubesphere/kubekey/releases
-    stars: 1114
-  github_start_commit_data:
-    start_commit_link: /kubesphere/kubekey/commit/e8a93643b48b415a114eacdb8b10cb79d39024ad
-    start_date: '2020-04-12T07:55:29Z'
+  extra:
+    summary_integration: Kubernetes, K3s, Docker, containerd, Helm
+    summary_personas: Developers, Platform engineers
+    summary_release_rate: 4 times per year (each quarter)
+    summary_tags: KubeKey, K3s, Kubernetes
+    summary_use_case: KubeKey is an open-source lightweight tool for deploying Kubernetes
+      clusters. It provides a flexible, rapid, and convenient way to install Kubernetes/K3s
+      only, both Kubernetes/K3s and KubeSphere, and related cloud-native add-ons.
+      It is also an efficient tool to scale and upgrade your cluster.
   homepage_url: https://kubesphere.io/docs/installing-on-linux/introduction/kubekey
-  image_data:
-    fileName: kubekey.svg
-    hash: ylixS/xvFkYrsLzQMQYwWl9saMMeWbP+bI45INB3Z/0=
   item: null
   logo: kubekey.svg
   name: Kubekey
   repo_url: https://github.com/kubesphere/kubekey
-  repos:
-  - stars: 1114
-    url: https://github.com/kubesphere/kubekey
-  yahoo_finance_data:
-    effective_ticker: 688316.SS
-    market_cap: 252335307
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/fit2cloud
-  crunchbase_data:
-    acquisitions: []
-    city: Beijing
-    company_type: For Profit
-    country: China
-    description: FIT2CLOUD, is a leading Multi-Cloud Management Platform provider
-      in China.
-    funding: 28255819
-    homepage: https://fit2cloud.com/
-    industries:
-    - Cloud Computing
-    - Cloud Management
-    kind: funding
-    linkedin: null
-    name: FIT2CLOUD
-    num_employees_max: 250
-    num_employees_min: 101
-    parents: []
-    region: Beijing
-    stockExchange: null
-    twitter: null
-  description: KubeOperator is an open source project that deploys and manages production-level
-    Kubernetes clusters on VMware, Openstack, or physical machines using a visual
-    Web UI in an offline network environment.
-  github_data:
-    contributions: 25;6;6;0;10;7;14;7;3;33;11;0;4;5;0;10;15;12;3;0;4;1;1;4;0;0;7;2;9;4;3;27;7;11;6;1;2;2;1;8;7;18;22;3;12;9;14;13;16;22;42;3
-    contributors_count: 27
-    contributors_link: https://github.com/KubeOperator/KubeOperator/graphs/contributors
-    description: "KubeOperator \u662F\u4E00\u4E2A\u5F00\u6E90\u7684\u8F7B\u91CF\u7EA7\
-      \ Kubernetes \u53D1\u884C\u7248\uFF0C\u4E13\u6CE8\u4E8E\u5E2E\u52A9\u4F01\u4E1A\
-      \u89C4\u5212\u3001\u90E8\u7F72\u548C\u8FD0\u8425\u751F\u4EA7\u7EA7\u522B\u7684\
-      \ K8s \u96C6\u7FA4\u3002"
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 1274148
-    - color: '#384d54'
-      name: Dockerfile
-      value: 2225
-    - color: '#e34c26'
-      name: HTML
-      value: 1453
-    - color: '#427819'
-      name: Makefile
-      value: 1071
-    latest_commit_date: '2022-08-03T03:01:05Z'
-    latest_commit_link: /KubeOperator/KubeOperator/commit/b0ae036e3e8b56420f3f8a25bf10ba7d2eb96d60
-    license: Apache License 2.0
-    release_date: '2022-08-01T07:23:06Z'
-    release_link: https://github.com/KubeOperator/KubeOperator/releases
-    stars: 4382
-  github_start_commit_data:
-    start_commit_link: /KubeOperator/KubeOperator/commit/da86cb8290cf226b66d9029f329f5eb44129b51f
-    start_date: '2018-11-02T10:19:21Z'
-  homepage_url: https://www.kubeoperator.io/
-  image_data:
-    fileName: kube-operator.svg
-    hash: I+gvSpW/0z0E6+oGK5OJYaGcmS7ouyrrktdqSiG3XKQ=
+- crunchbase: https://www.crunchbase.com/organization/kubernative
+  description: KubeOps Platform involves all the activities required to run, manage
+    and maintain Kubernetes clusters in production environments, including our best
+    practices, self-deployed tools, and strategies.
+  homepage_url: https://kubeops.net/
   item: null
-  logo: kubeoperator.svg
-  name: KubeOperator
-  repo_url: https://github.com/KubeOperator/KubeOperator
-  repos:
-  - stars: 4382
-    url: https://github.com/KubeOperator/KubeOperator
-- best_practice_data:
-    badge: 2934
-    percentage: 100
-  crunchbase: https://www.crunchbase.com/organization/loodse-gmbh
-  crunchbase_data:
-    acquisitions: []
-    city: Hamburg
-    company_type: For Profit
-    country: Germany
-    description: Kubermatic empowers organizations worldwide to automate their Kubernetes
-      and cloud native operations across multi-cloud, edge and on-prem.
-    funding: 8300000
-    homepage: https://www.kubermatic.com
-    industries:
-    - Enterprise
-    - SaaS
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/kubermatic
-    name: Kubermatic
-    num_employees_max: 100
-    num_employees_min: 51
-    parents: []
-    region: Hamburg
-    stockExchange: null
-    twitter: https://www.twitter.com/kubermatic
+  logo: kubeops.svg
+  name: KubeOps
+- crunchbase: https://www.crunchbase.com/organization/loodse-gmbh
   description: Lifecycle management tool for Highly-Available Kubernetes clusters
     on any infrastructure
-  github_data:
-    contributions: 7;6;4;15;7;4;7;7;5;4;3;8;4;4;7;3;10;14;8;6;1;6;10;3;12;8;20;15;1;7;3;3;2;5;11;8;6;7;6;10;0;10;17;2;2;5;9;7;13;14;21;13
-    contributors_count: 64
-    contributors_link: https://github.com/kubermatic/kubeone/graphs/contributors
-    description: 'Kubermatic KubeOne automate cluster operations on all your cloud,
-      on-prem, edge, and IoT environments.  '
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 1168282
-    - color: '#89e051'
-      name: Shell
-      value: 47418
-    - color: '#384d54'
-      name: Dockerfile
-      value: 3444
-    - color: '#427819'
-      name: Makefile
-      value: 2722
-    - color: '#3572A5'
-      name: Python
-      value: 608
-    - name: Smarty
-      value: 480
-    latest_commit_date: '2022-08-05T12:29:44Z'
-    latest_commit_link: /kubermatic/kubeone/commit/9efb5c8daae0ddf5566628102c39bd5c4558a20b
-    license: Apache License 2.0
-    release_date: '2022-08-04T14:17:13Z'
-    release_link: https://github.com/kubermatic/kubeone/releases
-    stars: 993
-  github_start_commit_data:
-    start_commit_link: /kubermatic/kubeone/commit/fb502df476b05bdc0bd8523b9ad09ebd08f04980
-    start_date: '2018-11-03T10:59:34Z'
   homepage_url: https://www.kubermatic.com
-  image_data:
-    fileName: kubermatic-kube-one.svg
-    hash: Hmu0KdiXhO3HItvIgUOzJjZa4ZH8ltyQCJ2I9TDFfnc=
   item: null
   logo: kubermatic.svg
   name: Kubermatic KubeOne
   repo_url: https://github.com/kubermatic/kubeone
-  repos:
-  - stars: 993
-    url: https://github.com/kubermatic/kubeone
-  twitter_data:
-    latest_tweet_date: 2022-08-03 08:30:00+00:00
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/kubernetes-the-easier-way
-  crunchbase_data:
-    acquisitions: []
-    city: Graz
-    company_type: For Profit
-    country: Austria
-    description: A CLI tool to generate the configuration for a Kubernetes cluster
-    homepage: https://github.com/darxkies/k8s-tew
-    industries:
-    - Information Technology
-    - Software
-    linkedin: null
-    name: Kubernetes - The Easier Way
-    num_employees_max: null
-    num_employees_min: null
-    parents: []
-    region: Steiermark
-    stockExchange: null
-    twitter: null
-  description: Kubernetes - The Easier Way enables users to create and manage an easily
+- description: Kubernetes - The Easier Way enables users to create and manage an easily
     customizable HA Kubernetes cluster with only a couple of commands
-  github_data:
-    contributions: 9;1;0;0;0;3;4;0;1;0;0;0;0;0;1;2;0;3;0;0;0;0;3;2;0;0;0;0;0;0;0;0;0;1;1;0;0;0;0;6;0;0;0;1;2;0;0;1;0;0;0;0
-    contributors_count: 4
-    contributors_link: https://github.com/darxkies/k8s-tew/graphs/contributors
-    description: Kubernetes - The Easier Way
-    firstWeek: 2021-08-08Z
-    languages:
-    - color: '#00ADD8'
-      name: Go
-      value: 338811
-    - color: '#427819'
-      name: Makefile
-      value: 8458
-    - color: '#89e051'
-      name: Shell
-      value: 6742
-    - color: '#384d54'
-      name: Dockerfile
-      value: 2189
-    latest_commit_date: '2022-07-04T19:06:34Z'
-    latest_commit_link: /darxkies/k8s-tew/commit/4445ab79704680161108e6e1dd81c6cb36e4483b
-    license: GNU General Public License v3.0
-    release_date: '2022-05-07T18:33:06Z'
-    release_link: https://github.com/darxkies/k8s-tew/releases
-    stars: 288
-  github_start_commit_data:
-    start_commit_link: /darxkies/k8s-tew/commit/1eacaee5179436789eeee5fcb76cf6a3a03a46ec
-    start_date: '2017-12-16T16:21:51Z'
   homepage_url: https://github.com/darxkies/k8s-tew
-  image_data:
-    fileName: kubernetes-the-easier-way.svg
-    hash: 0lvTpFeNOe4QMspjT2hseI9qIXkkddY4RXMRT/kvzTg=
   item: null
   logo: k8s-the-easier-way.svg
   name: Kubernetes - The Easier Way
   repo_url: https://github.com/darxkies/k8s-tew
-  repos:
-  - stars: 288
-    url: https://github.com/darxkies/k8s-tew
-- best_practice_data:
-    badge: false
-    percentage: null
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  crunchbase_data:
-    acquisitions:
-    - acquiree: Kubernetes
-      date: '2016-03-10'
-    - acquiree: RethinkDB
-      date: '2017-02-06'
-      price: 25000
-    city: San Francisco
-    company_type: Non Profit
-    country: United States
-    description: CNCF is an open source software foundation that hosts and nurtures
-      projects like Kubernetes and Prometheus.
-    funding: 3000000
-    homepage: https://www.cncf.io
-    industries:
-    - Cloud Computing
-    - Cloud Infrastructure
-    - Non Profit
-    - Open Source
-    - Software
-    kind: funding
-    linkedin: https://www.linkedin.com/company/cloud-native-computing-foundation
-    name: Cloud Native Computing Foundation (CNCF)
-    num_employees_max: 50
-    num_employees_min: 11
-    parents:
-    - https://www.crunchbase.com/organization/linux-foundation
-    region: California
-    stockExchange: null
-    twitter: https://twitter.com/CloudNativeFdn
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: Deploy a Production Ready Kubernetes Cluster
-  github_data:
-    contributions: 7;5;17;17;16;12;16;17;10;12;7;15;11;15;17;7;25;19;7;13;0;28;23;8;16;17;6;16;14;10;9;16;9;11;16;9;6;13;22;22;14;10;12;33;27;20;12;14;6;15;10;12
-    contributors_count: 984
-    contributors_link: https://github.com/kubernetes-sigs/kubespray/graphs/contributors
-    description: Deploy a Production Ready Kubernetes Cluster
-    firstWeek: 2021-08-08Z
-    languages:
-    - name: Jinja
-      value: 1274024
-    - name: HCL
-      value: 163145
-    - color: '#3572A5'
-      name: Python
-      value: 93176
-    - color: '#89e051'
-      name: Shell
-      value: 85244
-    - color: '#e69f56'
-      name: Groovy
-      value: 3122
-    - color: '#427819'
-      name: Makefile
-      value: 2692
-    - color: '#701516'
-      name: Ruby
-      value: 2459
-    - color: '#384d54'
-      name: Dockerfile
-      value: 2284
-    - name: Smarty
-      value: 2238
-    - color: '#e34c26'
-      name: HTML
-      value: 1468
-    latest_commit_date: '2022-08-05T15:13:47Z'
-    latest_commit_link: /kubernetes-sigs/kubespray/commit/0d3bd69a17a1c5a4f8a5fc46fab864d237bb7670
-    license: Apache License 2.0
-    release_date: '2022-06-01T21:36:42Z'
-    release_link: https://github.com/kubernetes-sigs/kubespray/releases
-    stars: 12665
-  github_start_commit_data:
-    start_commit_link: /kubernetes-sigs/kubespray/commit/4aa588e48151ca3fac055a33c5a65640c35f025e
-    start_date: '2015-10-03T20:18:11Z'
   homepage_url: https://kubespray.io/
-  image_data:
-    fileName: kubespray.svg
-    hash: mdiJyanZuLb5q7uN2zdyzX/X+AW2ZH1exJJTXfog/B0=
   item: null
   logo: kubespray.svg
   name: Kubespray
   repo_url: https://github.com/kubernetes-sigs/kubespray
-  repos:
-  - stars: 12665
-    url: https://github.com/kubernetes-sigs/kubespray
-  twitter_data:
-    latest_tweet_date: 2022-08-05 21:09:37+00:00
