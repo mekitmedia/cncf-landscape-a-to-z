@@ -64,5 +64,19 @@ class Cli:
             with open(path, 'w+') as file:
                 documents = yaml.dump(partial[key], file)
 
+    stats_per_category = {c['name']: len(c['subcategories']) for c in landscape}
+    with open("data/stats_per_category.yaml", 'w+') as file:
+        yaml.dump(stats_per_category, file)
+
+    stats_per_category_per_week = {
+        f"week_{str(index).zfill(2)}_{chr(letter)}": {
+            c['name']: len(c['subcategories']) for c in landscape
+        }
+        for index, letter in enumerate(range(ord('A'), ord('Z') + 1))
+    }
+    with open("data/stats_per_category_per_week.yaml", 'w+') as file:
+        yaml.dump(stats_per_category_per_week, file)
+
+
 if __name__ == '__main__':
   fire.Fire(Cli)
