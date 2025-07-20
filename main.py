@@ -13,7 +13,8 @@ from src.logger import get_logger
 
 logger = get_logger(__name__)
 
-def run():
+class Cli:
+  def run(self):
     logger.info("Starting landscape processing")
     landscape = get_landscape_data("https://raw.githubusercontent.com/cncf/landscape/master/landscape.yml")
 
@@ -43,4 +44,4 @@ def run():
     logger.info("Landscape processing finished")
 
 if __name__ == '__main__':
-  fire.Fire(run)
+  fire.Fire(Cli)
