@@ -1,14 +1,24 @@
-# CNCF Landscape A-to-Z
+# CNCF Landscape CLI
 
-With over 1000 tools, CNCF Landscape can be hard to get your head around.
+This CLI provides a set of tools for analyzing the CNCF landscape. It fetches the latest landscape data from the official CNCF repository and processes it into a series of YAML files, making it easier to analyze the different categories and projects within the CNCF ecosystem.
 
-It might be easier if you'd get to know the full Landscape over a year by looking at it one letter at a time. A-to-Z that’s 26 letters. With one every two weeks, you should have seen all.
+## Features
 
-This repo contains a bot that parse the [landscape.yml](https://github.com/cncf/landscape/blob/master/landscape.yml) in the [cncf/landscape]() repository and sends recommendations every two weeks.
+- Fetches the latest CNCF landscape data.
+- Generates a consolidated index of all categories, subcategories, and their items in `data/categories.yaml`.
+- Splits the landscape into individual YAML files, organized by the first letter of the project name.
 
+## Usage
 
-##
+To run the CLI, simply execute the following command:
 
-* App definition and developement
-* Observability and Analysis
-* Orchestartion and Ma
+```bash
+python src/cli.py run
+```
+
+This will generate the following files:
+
+- `data/categories.yaml`: A consolidated index of all categories, subcategories, and their items.
+- `data/category_index.yaml`: An index of all categories and their sanitized names.
+- `data/category_item_index.yaml`: An index of all categories and their items.
+- `data/week_*/`: A series of directories containing individual YAML files for each subcategory, organized by the first letter of the project name.

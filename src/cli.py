@@ -40,6 +40,17 @@ class Cli:
     with open("data/category_item_index.yaml", 'w+') as file:
         documents = yaml.dump(items, file)
 
+    with open("data/categories.yaml", 'w+') as file:
+        categories = [{
+            'category': c['name'],
+            'subcategories': [{
+                'subcategory': sub['name'],
+                'path': self.make_path(c['name'], sub['name']),
+                'items': [item['name'] for item in sub['items']]
+            } for sub in c['subcategories']]
+        } for c in landscape]
+        yaml.dump(categories, file)
+
     for letter in range(ord('A'), ord('Z')+1):
         index = letter - ord('A')
         partial = self.get_only_letter(chr(letter), landscape)
