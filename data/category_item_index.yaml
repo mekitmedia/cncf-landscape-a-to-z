@@ -33,7 +33,6 @@ App Definition and Development:
   - ko
   - Konveyor
   - KOTS
-  - Krator
   - KubeDiagrams
   - KubeOrbit
   - KubeVela
@@ -46,7 +45,6 @@ App Definition and Development:
   - Microcks
   - mirrord
   - Monokle
-  - Nocalhost
   - Okteto
   - Open Application Model
   - Open Service Broker API
@@ -60,7 +58,6 @@ App Definition and Development:
   - Radius
   - Raftt
   - Score
-  - sealer
   - Serverless Workflow
   - ServiceComb
   - Shipwright
@@ -82,7 +79,6 @@ App Definition and Development:
   - AWS CodePipeline
   - Azure Pipelines
   - Bamboo
-  - Brigade
   - Buildkite
   - Bunnyshell
   - Bytebase
@@ -365,7 +361,6 @@ CNCF Members:
   - Celonis (supporter)
   - Centrica Energy (supporter)
   - CFL (supporter)
-  - Cruise (supporter)
   - DataGalaxy (supporter)
   - DB Systel (supporter)
   - Decathlon (supporter)
@@ -475,7 +470,6 @@ CNCF Members:
   - Eclipse Foundation (member)
   - Forge Utah Foundation (member)
   - Korea Open Source Association (member)
-  - MITRE (member)
   - NAIC (member)
   - National Information Society Agency (member)
   - NIPA (member)
@@ -533,7 +527,6 @@ CNCF Members:
   - Akuity (member)
   - Alauda (member)
   - Alerant (member)
-  - Alpha Business Solutions (member)
   - Alter Way (member)
   - Altinity (member)
   - amazee.io (member)
@@ -621,6 +614,7 @@ CNCF Members:
   - Cloudbase Solutions (member)
   - CloudBees (member)
   - CloudBolt Software (member)
+  - Cloudchipr (member)
   - CloudFerro (member)
   - CloudGeometry (member)
   - Cloudification (member)
@@ -751,7 +745,6 @@ CNCF Members:
   - HashiCorp (member)
   - HawkStack (member)
   - Hedgehog (member)
-  - Highlight (member)
   - Honeycomb (member)
   - Hostersi (member)
   - HPE (member)
@@ -848,10 +841,8 @@ CNCF Members:
   - mogenius (member)
   - MoonLight Marketing (member)
   - Morgan Stanley (member)
-  - Morpheus Data (member)
   - Move2Cloud (member)
   - MyFitnessPal (member)
-  - N3XGEN.io (member)
   - Nadrama (member)
   - Namutech (member)
   - Natwest (member)
@@ -866,7 +857,6 @@ CNCF Members:
   - ngrok (member)
   - NHN Cloud (member)
   - Nirmata (member)
-  - NodeShift (member)
   - Nokia (member)
   - Non-Public Organization Alligator (member)
   - Non-Public Organization Camel (member)
@@ -1101,7 +1091,6 @@ CNCF Members:
   - WSO2 (member)
   - x-cellent (member)
   - x-ion (member)
-  - xgeeks (member)
   - Ybor.AI (member)
   - Yellowbrick (member)
   - YLD (member)
@@ -1203,7 +1192,6 @@ Observability and Analysis:
   - Falcon
   - Flowmill
   - Fluentd
-  - Fonio
   - Foresight
   - Google Stackdriver
   - Grafana
@@ -1262,12 +1250,10 @@ Observability and Analysis:
   - Okahu
   - OpenLIT
   - OpenLLMetry
-  - OpenMetrics
   - OpenObserve
   - OpenSearch
   - OpenTSDB
   - OpenTelemetry
-  - OpenTracing
   - OverOps
   - Pandora2.0
   - Parseable
@@ -1285,7 +1271,6 @@ Observability and Analysis:
   - Sidekick
   - SigLens
   - SignalFX
-  - Skooner
   - SkyWalking
   - Sosivio
   - Splunk
@@ -1426,11 +1411,8 @@ Orchestration & Management:
   - Kmesh
   - Kuma
   - Linkerd
-  - Merbridge
-  - Open Service Mesh
   - OpenSergo
   - Sermant
-  - Service Mesh Interface (SMI)
   - Service Mesh Performance
   - Slime
   - Tetrate Service Bridge (TSB)
@@ -1450,7 +1432,6 @@ Orchestration & Management:
   - MOSN
   - Netflix Zuul
   - NGINX
-  - OpenELB
   - OpenResty
   - Pipy
   - Sangfor CNAD
@@ -1633,7 +1614,6 @@ Provisioning:
   - Cloud Custodian
   - Cloudify
   - Couler
-  - DevStream
   - Foreman
   - Goose
   - Idem Project
@@ -1648,7 +1628,6 @@ Provisioning:
   - kpt
   - Kratix
   - Kubean
-  - KubeDL
   - KubeEdge
   - Kubefirst
   - KubeZoo
@@ -1670,7 +1649,6 @@ Provisioning:
   - Rundeck
   - Salt Project
   - Shifu
-  - SuperEdge
   - Terraform
   - Terranetes
   - Tinkerbell
@@ -1702,7 +1680,6 @@ Provisioning:
   - SPIFFE
   - SPIRE
   - sso
-  - Teller
   - Vault
   Security & Compliance:
   - Airlock
@@ -1732,7 +1709,6 @@ Provisioning:
   - Confidential Containers
   - ContainerSSH
   - Copa
-  - Curiefense
   - China Mobile Cloud Cloud-native Application Security
   - Datica
   - Dex
@@ -1829,11 +1805,9 @@ Runtime:
   - Aviatrix
   - Chelsio T6 Unified Wire 100GbE Adapters
   - Cilium
-  - CNI-Genie
   - Container Network Interface (CNI)
   - Cumulus
   - DANM
-  - FabEdge
   - FD.io
   - Flannel
   - Guardicore Centra
@@ -1868,7 +1842,6 @@ Runtime:
   - Commvault
   - Container Storage Interface (CSI)
   - CubeFS
-  - Curve
   - DataCore Bolt
   - DatenLord
   - Datera
@@ -1937,12 +1910,10 @@ Runtime:
   - Inclavare Containers
   - iSulad
   - Kata Containers
-  - Krustlet
   - Kuasar
   - Lima
   - Podman Container Tools
   - lxd
-  - rkt
   - runc
   - Singularity
   - SmartOS
@@ -2040,7 +2011,6 @@ Special:
   - Alauda (KCSP)
   - Alerant (KCSP)
   - Alibaba Cloud (KCSP)
-  - Alpha Business Solutions (KCSP)
   - Alter Way (KCSP)
   - amazee.io (KCSP)
   - Ambient IT (KCSP)

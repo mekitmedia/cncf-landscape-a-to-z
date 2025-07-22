@@ -5,19 +5,6 @@
   item: null
   logo: bamboo.svg
   name: Bamboo
-- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  extra:
-    accepted: '2019-03-18'
-    archived: '2022-10-19'
-    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#brigade-logos
-    slack_url: https://kubernetes.slack.com/messages/C87MF1RFD
-  homepage_url: https://brigade.sh/
-  item: null
-  logo: brigade.svg
-  name: Brigade
-  project: archived
-  repo_url: https://github.com/brigadecore/brigade
-  twitter: https://twitter.com/brigadecore
 - crunchbase: https://www.crunchbase.com/organization/buildkite
   description: Buildkite is a platform for running fast, secure, and scalable continuous
     integration pipelines on your own infrastructure.

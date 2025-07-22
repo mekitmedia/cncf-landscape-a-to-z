@@ -6,20 +6,6 @@
   repo_url: https://github.com/kata-containers/kata-containers
   twitter: https://twitter.com/KataContainers
 - allow_duplicate_repo: true
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  extra:
-    accepted: '2021-07-13'
-    archived: '2024-09-30'
-  homepage_url: https://krustlet.dev
-  item: null
-  logo: krustlet.svg
-  name: Krustlet
-  project: archived
-  repo_url: https://github.com/krustlet/krustlet
-  second_path:
-  - Wasm / Runtimes
-  twitter: https://twitter.com/krustlet
-- allow_duplicate_repo: true
   crunchbase: https://www.crunchbase.com/organization/huawei-cloud
   description: A multi-sandbox container runtime that provides cloud-native, all-scenario
     multiple sandbox container solutions.

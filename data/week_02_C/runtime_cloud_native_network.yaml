@@ -55,19 +55,6 @@
   url_for_bestpractices: https://bestpractices.coreinfrastructure.org/en/projects/1269
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   extra:
-    accepted: '2020-06-25'
-    annual_review_date: '2022-06-21'
-    annual_review_url: https://github.com/cncf/toc/pull/863
-    clomonitor_name: cni-genie
-    dev_stats_url: https://cnigenie.devstats.cncf.io/
-  homepage_url: https://cnigenie.netlify.app
-  item: null
-  logo: cni-genie.svg
-  name: CNI-Genie
-  project: archived
-  repo_url: https://github.com/cni-genie/CNI-Genie
-- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  extra:
     accepted: '2017-05-23'
     artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#cni-logos
     clomonitor_name: cni

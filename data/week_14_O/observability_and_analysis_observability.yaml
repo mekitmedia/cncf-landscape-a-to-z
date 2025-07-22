@@ -38,22 +38,6 @@
   logo: openllmetry.svg
   name: OpenLLMetry
   repo_url: https://github.com/traceloop/openllmetry
-- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  extra:
-    accepted: '2018-08-10'
-    archived: '2024-07-02'
-    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#openmetrics-logos
-    dev_stats_url: https://openmetrics.devstats.cncf.io/
-    incubating: '2022-02-03'
-    slack_url: https://cloud-native.slack.com/messages/openmetrics
-    specification: true
-  homepage_url: https://openmetrics.io/
-  item: null
-  logo: openmetrics.svg
-  name: OpenMetrics
-  project: archived
-  repo_url: https://github.com/OpenObservability/OpenMetrics
-  twitter: https://twitter.com/OpenMetricsIO
 - branch: next
   crunchbase: https://www.crunchbase.com/organization/zincsearch
   homepage_url: http://openobserve.ai/
@@ -111,24 +95,6 @@
   project: incubating
   repo_url: https://github.com/open-telemetry/community
   twitter: https://twitter.com/opentelemetry
-- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  extra:
-    accepted: '2016-10-11'
-    archived: '2021-08-20'
-    artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#opentracing-logos
-    blog_url: https://medium.com/opentracing
-    gitter_url: https://gitter.im/opentracing/public
-    incubating: '2016-10-11'
-    mailing_list_url: https://groups.google.com/forum/#!forum/opentracing
-    specification: true
-    stack_overflow_url: https://stackoverflow.com/questions/tagged/opentracing
-  homepage_url: https://opentracing.io/
-  item: null
-  logo: open-tracing.svg
-  name: OpenTracing
-  project: archived
-  repo_url: https://github.com/opentracing/opentracing-go
-  twitter: https://twitter.com/opentracing
 - crunchbase: https://www.crunchbase.com/organization/overops
   description: Prevent rapid code changes from impacting customers.
   homepage_url: https://www.overops.com/

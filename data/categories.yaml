@@ -15,7 +15,6 @@
     - Cloud Custodian
     - Cloudify
     - Couler
-    - DevStream
     - Foreman
     - Goose
     - Idem Project
@@ -30,7 +29,6 @@
     - kpt
     - Kratix
     - Kubean
-    - KubeDL
     - KubeEdge
     - Kubefirst
     - KubeZoo
@@ -52,7 +50,6 @@
     - Rundeck
     - Salt Project
     - Shifu
-    - SuperEdge
     - Terraform
     - Terranetes
     - Tinkerbell
@@ -106,7 +103,6 @@
     - Confidential Containers
     - ContainerSSH
     - Copa
-    - Curiefense
     - China Mobile Cloud Cloud-native Application Security
     - Datica
     - Dex
@@ -209,7 +205,6 @@
     - SPIFFE
     - SPIRE
     - sso
-    - Teller
     - Vault
     path: provisioning_key_management
     subcategory: Key Management
@@ -230,7 +225,6 @@
     - Commvault
     - Container Storage Interface (CSI)
     - CubeFS
-    - Curve
     - DataCore Bolt
     - DatenLord
     - Datera
@@ -301,12 +295,10 @@
     - Inclavare Containers
     - iSulad
     - Kata Containers
-    - Krustlet
     - Kuasar
     - Lima
     - Podman Container Tools
     - lxd
-    - rkt
     - runc
     - Singularity
     - SmartOS
@@ -324,11 +316,9 @@
     - Aviatrix
     - Chelsio T6 Unified Wire 100GbE Adapters
     - Cilium
-    - CNI-Genie
     - Container Network Interface (CNI)
     - Cumulus
     - DANM
-    - FabEdge
     - FD.io
     - Flannel
     - Guardicore Centra
@@ -445,7 +435,6 @@
     - MOSN
     - Netflix Zuul
     - NGINX
-    - OpenELB
     - OpenResty
     - Pipy
     - Sangfor CNAD
@@ -498,11 +487,8 @@
     - Kmesh
     - Kuma
     - Linkerd
-    - Merbridge
-    - Open Service Mesh
     - OpenSergo
     - Sermant
-    - Service Mesh Interface (SMI)
     - Service Mesh Performance
     - Slime
     - Tetrate Service Bridge (TSB)
@@ -668,7 +654,6 @@
     - ko
     - Konveyor
     - KOTS
-    - Krator
     - KubeDiagrams
     - KubeOrbit
     - KubeVela
@@ -681,7 +666,6 @@
     - Microcks
     - mirrord
     - Monokle
-    - Nocalhost
     - Okteto
     - Open Application Model
     - Open Service Broker API
@@ -695,7 +679,6 @@
     - Radius
     - Raftt
     - Score
-    - sealer
     - Serverless Workflow
     - ServiceComb
     - Shipwright
@@ -719,7 +702,6 @@
     - AWS CodePipeline
     - Azure Pipelines
     - Bamboo
-    - Brigade
     - Buildkite
     - Bunnyshell
     - Bytebase
@@ -1120,7 +1102,6 @@
     - Falcon
     - Flowmill
     - Fluentd
-    - Fonio
     - Foresight
     - Google Stackdriver
     - Grafana
@@ -1179,12 +1160,10 @@
     - Okahu
     - OpenLIT
     - OpenLLMetry
-    - OpenMetrics
     - OpenObserve
     - OpenSearch
     - OpenTSDB
     - OpenTelemetry
-    - OpenTracing
     - OverOps
     - Pandora2.0
     - Parseable
@@ -1202,7 +1181,6 @@
     - Sidekick
     - SigLens
     - SignalFX
-    - Skooner
     - SkyWalking
     - Sosivio
     - Splunk
@@ -1246,7 +1224,6 @@
     - Alauda (KCSP)
     - Alerant (KCSP)
     - Alibaba Cloud (KCSP)
-    - Alpha Business Solutions (KCSP)
     - Alter Way (KCSP)
     - amazee.io (KCSP)
     - Ambient IT (KCSP)
@@ -1605,7 +1582,6 @@
     - Akuity (member)
     - Alauda (member)
     - Alerant (member)
-    - Alpha Business Solutions (member)
     - Alter Way (member)
     - Altinity (member)
     - amazee.io (member)
@@ -1693,6 +1669,7 @@
     - Cloudbase Solutions (member)
     - CloudBees (member)
     - CloudBolt Software (member)
+    - Cloudchipr (member)
     - CloudFerro (member)
     - CloudGeometry (member)
     - Cloudification (member)
@@ -1823,7 +1800,6 @@
     - HashiCorp (member)
     - HawkStack (member)
     - Hedgehog (member)
-    - Highlight (member)
     - Honeycomb (member)
     - Hostersi (member)
     - HPE (member)
@@ -1920,10 +1896,8 @@
     - mogenius (member)
     - MoonLight Marketing (member)
     - Morgan Stanley (member)
-    - Morpheus Data (member)
     - Move2Cloud (member)
     - MyFitnessPal (member)
-    - N3XGEN.io (member)
     - Nadrama (member)
     - Namutech (member)
     - Natwest (member)
@@ -1938,7 +1912,6 @@
     - ngrok (member)
     - NHN Cloud (member)
     - Nirmata (member)
-    - NodeShift (member)
     - Nokia (member)
     - Non-Public Organization Alligator (member)
     - Non-Public Organization Camel (member)
@@ -2173,7 +2146,6 @@
     - WSO2 (member)
     - x-cellent (member)
     - x-ion (member)
-    - xgeeks (member)
     - Ybor.AI (member)
     - Yellowbrick (member)
     - YLD (member)
@@ -2202,7 +2174,6 @@
     - Eclipse Foundation (member)
     - Forge Utah Foundation (member)
     - Korea Open Source Association (member)
-    - MITRE (member)
     - NAIC (member)
     - National Information Society Agency (member)
     - NIPA (member)
@@ -2233,7 +2204,6 @@
     - Celonis (supporter)
     - Centrica Energy (supporter)
     - CFL (supporter)
-    - Cruise (supporter)
     - DataGalaxy (supporter)
     - DB Systel (supporter)
     - Decathlon (supporter)
