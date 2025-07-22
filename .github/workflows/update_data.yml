@@ -8,12 +8,15 @@ on:
 jobs:
   update-data:
     runs-on: ubuntu-latest
+    if: github.actor != 'github-actions[bot]'
     permissions:
       contents: write
 
     steps:
     - name: Check out repository
       uses: actions/checkout@v2
+      with:
+        ref: ${{ github.head_ref }}
 
     - name: Set up Python
       uses: actions/setup-python@v2
