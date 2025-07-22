@@ -20,7 +20,7 @@ def get_only_letter(x: str, landscape: list) -> dict:
     logger.info(f"Filtering landscape data for letter {x}")
     return {
         make_path(c['name'], sub['name']): [
-            item for item in sub['items'] if item['name'].startswith(x)
+            item for item in sub['items'] if item['name'].startswith(x) and item.get('project') != 'archived'
         ]
         for c in landscape for sub in c['subcategories']
     }
@@ -45,7 +45,9 @@ def get_items(landscape: list) -> dict:
     logger.info("Getting items from landscape data")
     return {
         c['name']: {
-            sub['name']: [item['name'] for item in sub['items']]
+            sub['name']: [
+                item['name'] for item in sub['items'] if item.get('project') != 'archived'
+            ]
             for sub in c['subcategories']
         }
         for c in landscape
@@ -61,7 +63,9 @@ def get_all_categories(landscape: list) -> list:
         'subcategories': [{
             'subcategory': sub['name'],
             'path': make_path(c['name'], sub['name']),
-            'items': [item['name'] for item in sub['items']]
+            'items': [
+                item['name'] for item in sub['items'] if item.get('project') != 'archived'
+            ]
         } for sub in c['subcategories']]
     } for c in landscape]
 
@@ -83,3 +87,17 @@ def get_stats_per_category_per_week(landscape: list) -> dict:
         }
         for index, letter in enumerate(range(ord('A'), ord('Z') + 1))
     }
+
+def get_stats_by_status(landscape: list) -> dict:
+    """
+    This function gets the stats by status from the landscape data
+    """
+    logger.info("Getting stats by status from landscape data")
+    stats = {}
+    for c in landscape:
+        for sub in c['subcategories']:
+            for item in sub['items']:
+                status = item.get('project')
+                if status:
+                    stats[status] = stats.get(status, 0) + 1
+    return stats

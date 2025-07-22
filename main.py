@@ -6,7 +6,8 @@ from src.pipeline.transform import (
     get_all_categories,
     get_only_letter,
     get_stats_per_category,
-    get_stats_per_category_per_week
+    get_stats_per_category_per_week,
+    get_stats_by_status
 )
 from src.pipeline.load import to_yaml, save_partial_data
 from src.logger import get_logger
@@ -40,6 +41,9 @@ class Cli:
 
     stats_per_category_per_week = get_stats_per_category_per_week(landscape)
     to_yaml(stats_per_category_per_week, "data/stats_per_category_per_week.yaml")
+
+    stats_by_status = get_stats_by_status(landscape)
+    to_yaml(stats_by_status, "data/stats_by_status.yaml")
 
     logger.info("Landscape processing finished")
 

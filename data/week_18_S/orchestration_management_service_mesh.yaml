@@ -12,19 +12,6 @@
   repo_url: https://github.com/sermant-io/Sermant
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   extra:
-    accepted: '2020-03-19'
-    annual_review_date: '2022-05-04'
-    annual_review_url: https://github.com/cncf/toc/pull/833
-    archived: '2023-09-25'
-  homepage_url: https://smi-spec.io
-  item: null
-  logo: service-mesh-interface.svg
-  name: Service Mesh Interface (SMI)
-  project: archived
-  repo_url: https://github.com/servicemeshinterface/smi-spec
-  twitter: https://twitter.com/smi_spec
-- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  extra:
     accepted: '2021-06-22'
     artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#service-mesh-performance-logos
     clomonitor_name: smp

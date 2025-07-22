@@ -116,22 +116,6 @@
   name: Kubean
   project: sandbox
   repo_url: https://github.com/kubean-io/kubean
-- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  extra:
-    accepted: '2021-06-22'
-    annual_review_date: '2023-01-12'
-    annual_review_url: https://github.com/cncf/toc/pull/993
-    archived: '2025-03-25'
-    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#kubedl-logos
-    clomonitor_name: kubedl
-    dev_stats_url: https://kubedl.devstats.cncf.io/
-    slack_url: https://cloud-native.slack.com/archives/C027KH1Q71A
-  homepage_url: https://kubedl.io
-  item: null
-  logo: kubedl.svg
-  name: KubeDL
-  project: archived
-  repo_url: https://github.com/kubedl-io/kubedl
 - allow_duplicate_repo: true
   crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   extra:

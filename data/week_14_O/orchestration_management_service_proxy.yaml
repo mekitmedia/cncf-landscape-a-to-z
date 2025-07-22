@@ -1,28 +1,3 @@
-- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  extra:
-    accepted: '2021-11-09'
-    annual_review_date: '2023-06-08'
-    annual_review_url: https://github.com/cncf/toc/pull/1071
-    chat_channel: '#openelb'
-    clomonitor_name: openelb
-    dev_stats_url: https://openelb.devstats.cncf.io/
-    slack_url: https://kubernetes.slack.com/messages/openelb
-    summary_integration: Kubernetes, Docker, Helm, Prometheus, gobgp
-    summary_personas: Developers, Platform engineers
-    summary_release_rate: 1 times per year (each quarter)
-    summary_tags: OpenELB, LoadBalancer, Kubernetes
-    summary_use_case: In cloud-based Kubernetes clusters, Services are usually exposed
-      by using load balancers provided by cloud vendors. However, cloud-based load
-      balancers are unavailable in bare-metal environments. OpenELB allows users to
-      create LoadBalancer Services in bare-metal, edge, and virtualization environments
-      for external access, and provides the same user experience as cloud-based load
-      balancers.
-  homepage_url: https://openelb.github.io
-  item: null
-  logo: openelb-io.svg
-  name: OpenELB
-  project: archived
-  repo_url: https://github.com/openelb/openelb
 - crunchbase: https://www.crunchbase.com/organization/openresty
   homepage_url: https://openresty.com/en/
   item: null
