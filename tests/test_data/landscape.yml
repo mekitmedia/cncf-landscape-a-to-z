@@ -1,0 +1,21 @@
+landscape:
+  - name: App Definition and Development
+    subcategories:
+      - name: Application Definition & Image Build
+        items:
+          - name: A
+          - name: B
+      - name: Continuous Integration & Delivery
+        items:
+          - name: C
+          - name: D
+  - name: Platform
+    subcategories:
+      - name: Certified Kubernetes - Distribution
+        items:
+          - name: E
+          - name: F
+      - name: Certified Kubernetes - Hosted
+        items:
+          - name: G
+          - name: H

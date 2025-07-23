@@ -76,18 +76,6 @@ def get_stats_per_category(landscape: list) -> dict:
     logger.info("Getting stats per category from landscape data")
     return {c['name']: len(c['subcategories']) for c in landscape}
 
-def get_stats_per_category_per_week(landscape: list) -> dict:
-    """
-    This function gets the stats per category per week from the landscape data
-    """
-    logger.info("Getting stats per category per week from landscape data")
-    return {
-        f"week_{str(index).zfill(2)}_{chr(letter)}": {
-            c['name']: len(c['subcategories']) for c in landscape
-        }
-        for index, letter in enumerate(range(ord('A'), ord('Z') + 1))
-    }
-
 def get_stats_by_status(landscape: list) -> dict:
     """
     This function gets the stats by status from the landscape data
