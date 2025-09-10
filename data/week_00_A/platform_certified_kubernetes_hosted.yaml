@@ -1,13 +1,3 @@
-- crunchbase: https://www.crunchbase.com/organization/microsoft
-  description: AKS Engine provides convenient tooling to quickly bootstrap Kubernetes
-    clusters on Azure Stack. By leveraging ARM (Azure Resource Manager), AKS Engine
-    helps create, destroy and maintain clusters provisioned with basic IaaS resources
-    in Azure Stack.
-  homepage_url: https://docs.microsoft.com/en-us/azure-stack/user/azure-stack-kubernetes-aks-engine-overview?view=azs-2501
-  item: null
-  logo: microsoft-azure.svg
-  name: AKS Engine for Azure Stack
-  twitter: https://twitter.com/Azure
 - crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
   description: Alibaba Cloud Container Service for Kubernetes (ACK) is a fully-managed
     service compatible with Kubernetes to help users focus on their applications rather
@@ -38,14 +28,6 @@
   item: null
   logo: aruba.svg
   name: Aruba Managed Kubernetes
-- crunchbase: https://www.crunchbase.com/organization/avisi
-  description: AME provides a managed Kubernetes platform that delivers seamless,
-    easy, and secure production-ready cluster management across public, private, and
-    hybrid cloud environments.
-  homepage_url: https://docs.avisi.cloud
-  item: null
-  logo: avisi.svg
-  name: Avisi AME
 - crunchbase: https://www.crunchbase.com/organization/microsoft
   description: Simplify the deployment, management, and operations of Kubernetes.
     Use a fully managed Kubernetes container orchestration service or choose other

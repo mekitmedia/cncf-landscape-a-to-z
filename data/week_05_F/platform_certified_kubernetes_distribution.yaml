@@ -14,3 +14,13 @@
   second_path:
   - Wasm / Edge/Bare metal
   twitter: https://twitter.com/flatcar
+- crunchbase: https://www.crunchbase.com/organization/sighup
+  description: Kubernetes Fury is a battle-tested distribution purely based on upstream
+    Kubernetes. Deploy and manage a stable and production grade Kubernetes Cluster
+    at scale with a comprehensive Cloud Native stack implemented with top notch CNCF
+    components.
+  homepage_url: https://sighup.io
+  item: null
+  logo: fury.svg
+  name: Fury Distribution
+  repo_url: https://github.com/sighupio/fury-distribution
