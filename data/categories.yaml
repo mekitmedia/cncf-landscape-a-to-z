@@ -179,6 +179,7 @@
     - Teleport
     - Tensor Security
     - Terrascan
+    - Tesseral
     - Tetragon
     - The Update Framework (TUF)
     - ThreatMapper
@@ -627,7 +628,6 @@
     - Buildpacks
     - Carvel
     - Chef Habitat
-    - Clace
     - CloudARK KubePlus
     - CloudTTY
     - Coder
@@ -665,11 +665,13 @@
     - Mia-Platform
     - Microcks
     - mirrord
+    - ModelPack
     - Monokle
     - Okteto
     - Open Application Model
     - Open Service Broker API
     - OpenAPI
+    - OpenRun
     - Operator Framework
     - Packer
     - Podman
@@ -729,7 +731,6 @@
     - JenkinsX
     - k6
     - Keploy
-    - Keptn
     - Liquibase
     - Mergify
     - Northflank
@@ -784,12 +785,13 @@
     - "Elastisys Welkin\xAE based on Cluster API"
     - Ericsson Cloud Container Distribution
     - Flatcar Container Linux
-    - Fury Distribution
+    - Giant Swarm Managed Kubernetes
     - GienTech Container Cloud Platform (GTCP)
     - H3C CloudOS
     - HPE Ezmeral Runtime Enterprise
     - JD.com JDOS
     - K-PaaS Container Platform
+    - K3k
     - k3s
     - Kubermatic Kubernetes Platform
     - KubeService Stack
@@ -802,6 +804,7 @@
     - Morpheus Kubernetes Service
     - Navimentum K8M PaaS
     - Nutanix NKP
+    - OPENMARU COP
     - Oracle Cloud Native Environment
     - Palette
     - Platform9 Managed Kubernetes
@@ -814,6 +817,7 @@
     - Robin CNP
     - SECloudit
     - Shturval
+    - SIGHUP Distribution
     - Typhoon
     - Taikun (TKS)
     - Talos Linux
@@ -827,10 +831,12 @@
     path: platform_certified_kubernetes_distribution
     subcategory: Certified Kubernetes - Distribution
   - items:
+    - AKS Engine for Azure Stack
     - Alibaba Cloud Container Service for Kubernetes
     - Amazon Elastic Container Service for Kubernetes (EKS)
     - ARDC Nectar Research Cloud Magnum Service
     - Aruba Managed Kubernetes
+    - Avisi AME
     - Azure Kubernetes Service (AKS)
     - Baidu Cloud Container Engine
     - Catalyst Kubernetes Service
@@ -849,6 +855,7 @@
     - Intel Kubernetes Service
     - IONOS Cloud Managed Kubernetes
     - JD Cloud JCS for Kubernetes
+    - Leaseweb Managed Kubernetes
     - Linode Kubernetes Engine
     - Metal Stack Cloud Kubernetes
     - NETWAYS Managed Kubernetes
@@ -1133,6 +1140,7 @@
     - KubeSkoop
     - KubeReport
     - Kuberhealthy
+    - Kubetail
     - Last9
     - LightStep
     - LinDB
@@ -1231,7 +1239,6 @@
     - AOE (KCSP)
     - Aokumo (KCSP)
     - APE Factory (KCSP)
-    - Appstellar (KCSP)
     - Aqua Security (KCSP)
     - ARDC (KCSP)
     - ATIX (KCSP)
@@ -1306,6 +1313,7 @@
     - Guida (KCSP)
     - HarmonyCloud (KCSP)
     - HCL Technologies (KCSP)
+    - Hidora (KCSP)
     - Hostersi (KCSP)
     - HPE (KCSP)
     - Huawei (KCSP)
@@ -1387,7 +1395,6 @@
     - servicememe (KCSP)
     - Shandong Cvicse Middleware (KCSP)
     - Shinesoft (KCSP)
-    - sifamo (KCSP)
     - SIGHUP (KCSP)
     - Skyloud (KCSP)
     - Smartiful (KCSP)
@@ -1538,7 +1545,6 @@
     - Equinix (member)
     - Ericsson (member)
     - Fidelity Investments (member)
-    - H3C Technologies (member)
     - HAProxy Technologies (member)
     - Hitachi (member)
     - Intuit (member)
@@ -1597,12 +1603,11 @@
     - Apica (member)
     - Apiiro (member)
     - Apollo (member)
-    - Appstellar (member)
     - Aqua Security (member)
     - Arcfra (member)
+    - Archestra.AI (member)
     - Arcjet (member)
     - Armo (member)
-    - Armored Gate (member)
     - Aruba SpA (member)
     - ASML (member)
     - ASUS Cloud Corporation (member)
@@ -1625,14 +1630,15 @@
     - BEGASOFT (member)
     - BellSoft (member)
     - BESSYSTEM (member)
+    - Bindplane (member)
     - BlackRock (member)
     - Blacksmith (member)
     - BlakYaks (member)
+    - Block (member)
     - Bloomberg (member)
     - Bluebricks (member)
     - Blue Sentry (member)
     - BoCloud (member)
-    - BONC (member)
     - Booz Allen Hamilton (member)
     - Border0 (member)
     - Brobridge (member)
@@ -1664,6 +1670,7 @@
     - Civo (member)
     - Claion (member)
     - Clastix (member)
+    - CleanStart (member)
     - Clockwork (member)
     - Cloud Ace (member)
     - Cloudbase Solutions (member)
@@ -1693,7 +1700,6 @@
     - Cosmonic (member)
     - Creationline (member)
     - Crunchy Data (member)
-    - CrystalDB (member)
     - CTO2B (member)
     - Ctrlstack (member)
     - Cuegee (member)
@@ -1754,7 +1760,8 @@
     - Embrace (member)
     - Enterprise DB (member)
     - Entigo (member)
-    - env0 (member)
+    - enum (member)
+    - env zero (member)
     - EPAM Systems (member)
     - Epsio (member)
     - Eviden (member)
@@ -1772,6 +1779,7 @@
     - Finout (member)
     - Firefly (member)
     - Flox (member)
+    - Formal (member)
     - FOSSA (member)
     - Fr0ntierX (member)
     - Frontier (member)
@@ -1794,13 +1802,16 @@
     - Groundcover (member)
     - Guida (member)
     - Guidewire (member)
+    - H3C Technologies (member)
     - Hammerspace (member)
     - Harmony Cloud (member)
     - Harness (member)
     - HashiCorp (member)
     - HawkStack (member)
     - Hedgehog (member)
+    - Hidora (member)
     - Honeycomb (member)
+    - hoop.dev (member)
     - Hostersi (member)
     - HPE (member)
     - Hud (member)
@@ -1880,7 +1891,6 @@
     - Mathworks (member)
     - MavenSolutions (member)
     - McKinsey & Company (member)
-    - Mecha Systems (member)
     - MegazoneCloud (member)
     - Merly (member)
     - MetalBear (member)
@@ -1937,6 +1947,7 @@
     - Okta (member)
     - Ollama (member)
     - oodle.ai (member)
+    - OPENMARU (member)
     - OpenMetal.io (member)
     - OpenNebula (member)
     - OpenObserve (member)
@@ -1964,6 +1975,7 @@
     - Pipekit (member)
     - PlanetScale (member)
     - Platform9 (member)
+    - Platform Engineering Labs (member)
     - Plural (member)
     - plusserver (member)
     - Polar Signals (member)
@@ -2018,8 +2030,10 @@
     - Sawmills (member)
     - ScaleOps (member)
     - Scaleway (member)
+    - SCITIX (member)
     - Seacom (member)
     - Seal (member)
+    - Seal Security (member)
     - Searce (member)
     - Second State (member)
     - Secondfront (member)
@@ -2030,7 +2044,6 @@
     - SHE BASH (member)
     - Shinesoft (member)
     - Sidero Labs (member)
-    - sifamo (member)
     - SigLens (member)
     - Signadot (member)
     - SigNoz (member)
@@ -2073,7 +2086,6 @@
     - SuperOrbital (member)
     - SUSE (member)
     - SVA (member)
-    - Svix (member)
     - Swisscom (member)
     - Symbotic (member)
     - Synadia (member)
@@ -2091,6 +2103,7 @@
     - Teleport (member)
     - Tempest (member)
     - Temporal (member)
+    - Tensor9 (member)
     - TenxCloud (member)
     - TeraSky (member)
     - Terracotta AI (member)
@@ -2102,6 +2115,7 @@
     - The Scale Factory (member)
     - Thoras.ai (member)
     - Tigera (member)
+    - Tigris Data (member)
     - Tintri (member)
     - TongTech (member)
     - Toyota Motor Corporation (member)
@@ -2109,7 +2123,6 @@
     - Traefik Labs (member)
     - Travelping (member)
     - Treyee (member)
-    - Triam Security (member)
     - True (member)
     - TrueFoundry (member)
     - Tyk (member)

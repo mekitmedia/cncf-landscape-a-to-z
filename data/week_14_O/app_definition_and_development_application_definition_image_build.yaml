@@ -23,6 +23,14 @@
   logo: openapi.svg
   name: OpenAPI
   repo_url: https://github.com/OAI/OpenAPI-Specification
+- crunchbase: https://www.crunchbase.com/organization/clace
+  description: GitOps based deployment platform similar to Google Cloud Run and AWS
+    App Runner. Easily deploy internal tools across a team.
+  homepage_url: https://openrun.dev
+  item: null
+  logo: openrun.svg
+  name: OpenRun
+  repo_url: https://github.com/openrundev/openrun
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   extra:
     accepted: '2020-07-09'
