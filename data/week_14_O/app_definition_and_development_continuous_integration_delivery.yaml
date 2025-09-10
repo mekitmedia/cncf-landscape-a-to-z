@@ -58,17 +58,13 @@
   logo: ozone.svg
   name: Ozone
 - crunchbase: https://www.crunchbase.com/organization/omnistrate
-  description: "Omnistrate is a CoPilot for platform teams \u2014 helping them build\
-    \ software and agent platforms and turn cloud-native projects into production-ready\
-    \  platforms without years of custom glue code. Instead of stitching together\
-    \ CI/CD, runtimes, infra-as-code, Day-2 operations, integrations, and  billing\
-    \ from scratch for every customer \u2014 and making it all work across clouds,\
-    \ regions, accounts, and deployment configurations \u2014 Omnistrate  provides\
-    \ ready-to-use modules that integrate directly with the CNCF ecosystem: Kubernetes,\
-    \ Argo, Flux, Helm, Operators, Kustomize, Terraform,  Prometheus, and more. By\
-    \ building on top of CNCF projects rather than reinventing them, Omnistrate enables\
-    \ modern software companies to deliver  applications in any model \u2014 OnPrem,\
-    \ BYOC, PaaS, SaaS, or Agent-aaS \u2014 in days, not years."
+  description: "Omnistrate is a developer platform that enables modern software companies\
+    \ to deliver their applications to customers in any distribution model: OnPrem,\
+    \ BYOC, PaaS, SaaS, or Agentic SaaS \u2014 in days, not years. In other words,\
+    \ Omnistrate is world's first control plane as-a-service that  streamlines deployments\
+    \ across different distribution models, automates platform from tenant provisioning\
+    \ and subscriptions to deployments  and infrastructure, and finally integrate\
+    \ with your favorite tools \u2014 whether Open Source, SaaS APIs, or AI tooling."
   extra:
     blog_url: https://blog.omnistrate.com/
     linkedin_url: https://www.linkedin.com/company/omnistrate/?utm_source=cncf
