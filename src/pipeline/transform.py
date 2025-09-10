@@ -98,6 +98,6 @@ def get_stats_by_status(landscape: list) -> dict:
         for sub in c['subcategories']:
             for item in sub['items']:
                 status = item.get('project')
-                if status:
+                if status and status != 'archived':
                     stats[status] = stats.get(status, 0) + 1
     return stats

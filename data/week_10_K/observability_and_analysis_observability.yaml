@@ -74,3 +74,18 @@
   name: Kuberhealthy
   project: sandbox
   repo_url: https://github.com/kuberhealthy/kuberhealthy
+- bluesky_url: https://bsky.app/profile/kubetail.bsky.social
+  crunchbase: https://www.crunchbase.com/organization/kubetail
+  description: Real-time logging dasbhboard for Kubernetes
+  extra:
+    blog_url: https://www.kubetail.com/blog
+    discord_url: https://discord.gg/CmsmWAVkvX
+    linkedin_url: https://www.linkedin.com/company/kubetail
+    slack_url: https://kubernetes.slack.com/archives/C08SHG1GR37
+    youtube_url: https://www.youtube.com/@kubetail
+  homepage_url: https://www.kubetail.com
+  item: null
+  logo: kubetail.svg
+  name: Kubetail
+  repo_url: https://github.com/kubetail-org/kubetail
+  twitter: https://twitter.com/kubetail

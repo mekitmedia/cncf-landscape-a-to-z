@@ -1,0 +1,11 @@
+landscape:
+  - name: "Category 1"
+    subcategories:
+      - name: "Subcategory 1"
+        items:
+          - name: "Item 1"
+            project: "graduated"
+          - name: "Item 2"
+            project: "archived"
+          - name: "Another Item"
+          - name: "An item starting with A"
