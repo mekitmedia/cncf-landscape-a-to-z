@@ -7,6 +7,13 @@
   logo: nia-k-paas.svg
   name: K-PaaS Container Platform
   repo_url: https://github.com/K-PaaS/container-platform
+- crunchbase: https://www.crunchbase.com/organization/suse
+  description: Virtual Kubernetes cluster
+  homepage_url: https://github.com/rancher/k3k
+  item: null
+  logo: k3k.svg
+  name: K3k
+  repo_url: https://github.com/rancher/k3k
 - crunchbase: https://www.crunchbase.com/organization/loodse-gmbh
   description: Kubermatic Kubernetes Platform automates Kubernetes deployments and
     Day 2 operations for thousands of Kubernetes clusters on any cloud, on-premises
