@@ -51,6 +51,16 @@
   project: sandbox
   repo_url: https://github.com/microcks/microcks
   twitter: https://twitter.com/microcksio
+- description: The project establishes open standards for packaging, distributing
+    and running AI artifacts in the cloud-native environment.
+  extra:
+    accepted: '2025-05-13'
+  homepage_url: https://github.com/modelpack/model-spec
+  item: null
+  logo: cncf.svg
+  name: ModelPack
+  project: sandbox
+  repo_url: https://github.com/modelpack/model-spec
 - crunchbase: https://www.crunchbase.com/organization/kubeshop
   description: "Monokle helps you achieve high-quality Kubernetes deployments throughout\
     \ the entire application lifecycle \u2014 from code to cluster.  It enables your\

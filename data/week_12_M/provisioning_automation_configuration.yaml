@@ -22,8 +22,24 @@
     blog_url: https://meshery.io/blog/
     clomonitor_name: meshery
     dev_stats_url: https://meshery.devstats.cncf.io/
+    linkedin_url: https://www.linkedin.com/showcase/meshery
     mailing_list_url: https://meshery.io/subscribe
     slack_url: https://slack.meshery.io
+    summary_business_use_case: An extensible platform designed for building and managing
+      cloud services and cloud native infrastructure, particularly Kubernetes and
+      multi-cloud deployments. Meshery offers deep intergration with hundreds of different
+      types of infrastructure components. Through its extensions, Meshery provides
+      a drag-and-drop interface for designing infrastructure, version control, and
+      policy enforcement. Meshery simplify the complexity of cloud native infrastructure
+      management by offering a collaborative environment for teams to design, deploy,
+      and manage their infrastructure
+    summary_integrations: Kubernetes, GitHub, Kanvas, Prometheus, Grafana, Helm, Docker,
+      Argo CD, AWS, GCP, Azure, Exoscale, DigitalOcean, GitOps, GitHub Actions
+    summary_personas: Platform Engineers, DevOps Engineers, SREs, SysAdmins, Developers
+    summary_tags: Collaboration, Configuration Management, DevOps, GitOps, Automation,
+      Visual Topology
+    summary_use_case: As a self-service engineering platform, Meshery enables collaborative
+      design and operation of cloud and  cloud native infrastructure.
     youtube_url: https://www.youtube.com/@mesheryio
   homepage_url: https://meshery.io
   item: null
@@ -41,6 +57,7 @@
     blog_url: https://metal3.io/blog/index.html
     clomonitor_name: metal3-io
     dev_stats_url: https://metal3.devstats.cncf.io/
+    incubating: '2025-08-14'
     mailing_list_url: https://groups.google.com/g/metal3-dev
     slack_url: https://kubernetes.slack.com/messages/CHD49TLE7
     summary_integrations: Cluster API
@@ -53,7 +70,7 @@
   item: null
   logo: metal3.svg
   name: "Metal\xB3"
-  project: sandbox
+  project: incubating
   repo_url: https://github.com/metal3-io/baremetal-operator
   twitter: https://twitter.com/metal3_io
 - crunchbase: https://www.crunchbase.com/organization/mist-io
