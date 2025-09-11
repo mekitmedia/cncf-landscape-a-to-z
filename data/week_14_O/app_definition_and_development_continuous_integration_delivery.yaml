@@ -1,19 +1,3 @@
-- crunchbase: https://www.crunchbase.com/organization/octopus-deploy-c915
-  description: Octopus Deploy sets the standard for deployment automation for DevOps.
-    We help software teams deploy freely - when and where they need, in a routine
-    way. From modern containers and microservices to trusted legacy applications,
-    Octopus orchestrates software delivery in data centers, multi-cloud, and hybrid
-    IT infrastructure.
-  extra:
-    blog_url: https://octopus.com/blog
-    slack_url: https://octopususergroup.slack.com/
-    stack_overflow_url: https://stackoverflow.com/questions/tagged/octopus-deploy
-    youtube_url: https://www.youtube.com/c/octopusdeploy
-  homepage_url: https://octopus.com/
-  item: null
-  logo: octopus-deploy.svg
-  name: Octopus Deploy
-  twitter: https://twitter.com/octopusdeploy
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   extra:
     accepted: '2021-01-26'
@@ -38,13 +22,6 @@
   name: OpenKruise
   project: incubating
   repo_url: https://github.com/openkruise/kruise
-- crunchbase: https://www.crunchbase.com/organization/opsmx
-  description: OpsMx provides OSS Argo Support and services and Intelligent Software
-    Delivery platform based on both Argo and Spinnaker.
-  homepage_url: https://www.opsmx.com
-  item: null
-  logo: opsmx.svg
-  name: OpsMx
 - crunchbase: https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf
   homepage_url: https://ortelius.io/
   item: null
@@ -52,33 +29,3 @@
   name: Ortelius
   repo_url: https://github.com/ortelius/ortelius
   twitter: https://twitter.com/OrteliusOs
-- crunchbase: https://www.crunchbase.com/organization/ozone-cd
-  homepage_url: https://www.ozone.one/
-  item: null
-  logo: ozone.svg
-  name: Ozone
-- crunchbase: https://www.crunchbase.com/organization/omnistrate
-  description: "Omnistrate is a CoPilot for platform teams \u2014 helping them build\
-    \ software and agent platforms and turn cloud-native projects into production-ready\
-    \  platforms without years of custom glue code. Instead of stitching together\
-    \ CI/CD, runtimes, infra-as-code, Day-2 operations, integrations, and  billing\
-    \ from scratch for every customer \u2014 and making it all work across clouds,\
-    \ regions, accounts, and deployment configurations \u2014 Omnistrate  provides\
-    \ ready-to-use modules that integrate directly with the CNCF ecosystem: Kubernetes,\
-    \ Argo, Flux, Helm, Operators, Kustomize, Terraform,  Prometheus, and more. By\
-    \ building on top of CNCF projects rather than reinventing them, Omnistrate enables\
-    \ modern software companies to deliver  applications in any model \u2014 OnPrem,\
-    \ BYOC, PaaS, SaaS, or Agent-aaS \u2014 in days, not years."
-  extra:
-    blog_url: https://blog.omnistrate.com/
-    linkedin_url: https://www.linkedin.com/company/omnistrate/?utm_source=cncf
-    summary_intro_url: https://blog.omnistrate.com/posts/152
-    summary_personas: SREs, Platform Engineers, DevOps, Architects, Developers
-    summary_tags: platform engineering, multi-cloud, kubernetes, control plane, OnPrem
-      Installs, BYOC, PaaS, SaaS, Agentic SaaS
-    youtube_url: https://www.youtube.com/@omnistrate/
-  homepage_url: https://omnistrate.ai
-  item: null
-  joined: '2024-07-01'
-  logo: omnistrate.svg
-  name: Omnistrate (member)

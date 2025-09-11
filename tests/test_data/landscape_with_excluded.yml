@@ -1,0 +1,20 @@
+landscape:
+  - name: Category 1
+    subcategories:
+      - name: Subcategory 1
+        items:
+          - name: Item 1
+            repo_url: https://github.com/item1/item1
+          - name: Item 2 (no repo)
+          - name: Another Item
+            repo_url: https://github.com/another/item
+            project: graduated
+          - name: An item starting with A
+            repo_url: https://github.com/a/item
+  - name: Category 2
+    subcategories:
+      - name: Subcategory 2
+        items:
+          - name: Item 3
+            repo_url: https://github.com/item3/item3
+          - name: Item 4 (no repo)

@@ -1,8 +1,3 @@
-- crunchbase: https://www.crunchbase.com/organization/fairwinds
-  homepage_url: https://fairwinds.com/insights
-  item: null
-  logo: fairwinds-insights.svg
-  name: Fairwinds Insights
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   extra:
     accepted: '2018-10-10'
@@ -57,19 +52,3 @@
   logo: fossa.svg
   name: FOSSA
   repo_url: https://github.com/fossas/fossa-cli
-- crunchbase: https://www.crunchbase.com/organization/fossid
-  homepage_url: https://www.fossid.com/
-  item: null
-  logo: fossid.svg
-  name: FOSSID
-- crunchbase: https://www.crunchbase.com/organization/luminal
-  description: "Fugue empowers cloud engineering and security teams to move faster\
-    \ with confidence in their cloud security. Use Fugue to secure the entire development\
-    \ lifecycle\u2014from infrastructure as code through CI/CD and runtime\u2014using\
-    \ a unified policy engine powered by the Open Policy Agent (OPA), the open source\
-    \ standard for policy as code."
-  homepage_url: https://www.fugue.co
-  item: null
-  logo: fugue.svg
-  name: Fugue
-  twitter: https://twitter.com/FugueHQ

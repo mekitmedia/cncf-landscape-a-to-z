@@ -15,14 +15,17 @@ class TestMain(unittest.TestCase):
 
     def test_run_pipeline(self):
         expected_outputs = {
-            'category_index.yaml': {'Category 1': {'Subcategory 1': 'category_1_subcategory_1'}},
-            'category_item_index.yaml': {'Category 1': {'Subcategory 1': ['Item 1', 'Another Item', 'An item starting with A']}},
+            'category_index.yaml': {'Category 1': {'Subcategory 1': 'category_1_subcategory_1'}, 'Category 2': {'Subcategory 2': 'category_2_subcategory_2'}},
+            'category_item_index.yaml': {'Category 1': {'Subcategory 1': ['Item 1', 'Another Item', 'An item starting with A']}, 'Category 2': {'Subcategory 2': ['Item 3']}},
             'stats_by_status.yaml': {'graduated': 1},
-            'week_00_A/category_1_subcategory_1.yaml': [{'name': 'Another Item'}, {'name': 'An item starting with A'}]
+            'excluded_items.yaml': ['Item 2 (no repo)', 'Item 4 (no repo)'],
+            'week_00_A/category_1_subcategory_1.yaml': [{'name': 'Another Item', 'repo_url': 'https://github.com/another/item', 'project': 'graduated'}, {'name': 'An item starting with A', 'repo_url': 'https://github.com/a/item'}],
+            'week_08_I/category_1_subcategory_1.yaml': [{'name': 'Item 1', 'repo_url': 'https://github.com/item1/item1'}],
+            'week_08_I/category_2_subcategory_2.yaml': [{'name': 'Item 3', 'repo_url': 'https://github.com/item3/item3'}],
         }
 
         cli = Cli()
-        cli.run(input_path='tests/test_data/landscape.yml', output_dir=self.test_dir)
+        cli.run(input_path='tests/test_data/landscape_with_excluded.yml', output_dir=self.test_dir)
 
         # Check that the output files were created
         self.assertTrue(os.path.exists(f'{self.test_dir}/category_index.yaml'))
@@ -31,13 +34,23 @@ class TestMain(unittest.TestCase):
         self.assertTrue(os.path.exists(f'{self.test_dir}/stats_per_category.yaml'))
         self.assertTrue(os.path.exists(f'{self.test_dir}/stats_per_category_per_week.yaml'))
         self.assertTrue(os.path.exists(f'{self.test_dir}/stats_by_status.yaml'))
+        self.assertTrue(os.path.exists(f'{self.test_dir}/excluded_items.yaml'))
         self.assertTrue(os.path.exists(f'{self.test_dir}/week_00_A/category_1_subcategory_1.yaml'))
+        self.assertTrue(os.path.exists(f'{self.test_dir}/week_00_A/README.md'))
 
         # Check the content of the output files
         for file_path, expected_content in expected_outputs.items():
             with open(f'{self.test_dir}/{file_path}', 'r') as f:
-                content = yaml.safe_load(f)
-                self.assertEqual(content, expected_content)
+                if file_path.endswith('.yaml'):
+                    content = yaml.safe_load(f)
+                    self.assertEqual(content, expected_content)
+
+        # Check the content of the README.md file
+        with open(f'{self.test_dir}/week_00_A/README.md', 'r') as f:
+            content = f.read()
+            self.assertIn('# Summary for week_00_A', content)
+            self.assertIn('This week has a total of 2 items.', content)
+            self.assertIn('- **Category 1 Subcategory 1**: 2 items', content)
 
 
 if __name__ == '__main__':

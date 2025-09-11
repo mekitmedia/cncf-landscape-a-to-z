@@ -1,10 +1,3 @@
-- crunchbase: https://www.crunchbase.com/organization/amazon-web-services
-  description: Amazon Kinesis makes it easy to collect, process, and analyze real-time,
-    streaming data so you can get timely insights and react quickly to new information.
-  homepage_url: https://aws.amazon.com/kinesis/
-  item: null
-  logo: amazon-kinesis.svg
-  name: Amazon Kinesis
 - crunchbase: https://www.crunchbase.com/organization/apache
   homepage_url: https://nifi.apache.org/
   item: null
@@ -59,14 +52,6 @@
   name: ArkFlow
   project_org: https://github.com/arkflow-rs
   repo_url: https://github.com/arkflow-rs/arkflow
-- crunchbase: https://www.crunchbase.com/organization/microsoft
-  description: "Event Hubs is a fully managed, real-time data ingestion service that\u2019\
-    s simple, trusted, and scalable. "
-  homepage_url: https://azure.microsoft.com/en-us/services/event-hubs/
-  item: null
-  logo: azure-event-hubs.svg
-  name: Azure Event Hubs
-  twitter: https://twitter.com/azure
 - crunchbase: https://www.crunchbase.com/organization/automq
   description: AutoMQ is a cloud-native fork of Kafka by separating storage to S3.
     10x cost-effective. Autoscale in seconds. Single-digit ms latency.

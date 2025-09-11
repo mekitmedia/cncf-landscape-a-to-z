@@ -1,10 +1,3 @@
-- crunchbase: https://www.crunchbase.com/organization/sap
-  description: SAP HANA is an in-memory, column-oriented, relational database management
-    system
-  homepage_url: https://community.sap.com/topics/hana
-  item: null
-  logo: sap.svg
-  name: SAP HANA
 - crunchbase: https://www.crunchbase.com/organization/scalar
   homepage_url: https://scalar-labs.com/
   item: null
@@ -47,25 +40,6 @@
   name: ShardingSphere
   repo_url: https://github.com/apache/shardingsphere
   twitter: https://twitter.com/ShardingSphere
-- crunchbase: https://www.crunchbase.com/organization/memsql
-  homepage_url: https://www.singlestore.com/
-  item: null
-  logo: singlestore.svg
-  name: SingleStore
-  twitter: https://twitter.com/SingleStoreDB
-- crunchbase: https://www.crunchbase.com/organization/snowflake-computing
-  homepage_url: https://www.snowflake.com/
-  item: null
-  logo: snowflake.svg
-  name: Snowflake
-- crunchbase: https://www.crunchbase.com/organization/software-ag
-  description: With Adabas for LUW, you can deliver extremely high transaction speeds
-    with a fraction of the staff and system resources needed for comparable database
-    management systems.
-  homepage_url: https://www.softwareag.com/en_corporate/platform/adabas-natural/cloud-transformation.html
-  item: null
-  logo: software.svg
-  name: Software AG
 - crunchbase: https://www.crunchbase.com/organization/authzed
   description: 'SpiceDB is an open source database optimized for storing and querying
     authorization data. SpiceDB sets the standard for scalable authorization by remaining
