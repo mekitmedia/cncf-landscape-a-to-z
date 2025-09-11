@@ -1,1 +1,34 @@
-[]
+- crunchbase: https://www.crunchbase.com/organization/kiratech
+  description: Kiratech provides cloud native training and professional services for
+    the design, implementation and operation of Kubernetes solutions.
+  homepage_url: https://www.kiratech.it/training-formazione-cloud-native
+  item: null
+  logo: kiratech-ktp.svg
+  name: Kiratech (KTP)
+- crunchbase: https://www.crunchbase.com/organization/kodekloud
+  description: KodeKloud provides Interactive Hands-On training on Cloud Native Computing
+    technologies using immersive learning techniques to help spread awareness of CNCF
+    and its projects around the world.
+  homepage_url: https://kodekloud.com/courses/certified-kubernetes-administrator-cka
+  item: null
+  logo: kodekloud.svg
+  name: KodeKloud (KTP)
+- crunchbase: https://www.crunchbase.com/organization/kubernative
+  description: "Training from foundation to expert \u2013 with our practice-oriented\
+    \ training programs, you will gain all the Kubernetes knowledge you need for your\
+    \ daily operation."
+  extra:
+    training_certifications: cka
+    training_type: e-learning, instructor-led
+  homepage_url: https://kubeops.net/services/academy
+  item: null
+  logo: kubeops.svg
+  name: KubeOps (KTP)
+- crunchbase: https://www.crunchbase.com/organization/loodse-gmbh
+  description: Kubermatic provides enterprise-grade software solutions and professional
+    services to help organizations worldwide to  fully automate their Kubernetes and
+    cloud native operations across multi-cloud, edge, and on-prem.
+  homepage_url: https://www.kubermatic.com/products/professional-services
+  item: null
+  logo: kubermatic.svg
+  name: Kubermatic (KTP)

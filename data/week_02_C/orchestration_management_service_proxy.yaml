@@ -6,6 +6,15 @@
   logo: caddy.svg
   name: Caddy
   repo_url: https://github.com/caddyserver/caddy
+- crunchbase: https://www.crunchbase.com/organization/citrix-systems
+  description: Citrix ADC is an application delivery and load balancing solution that
+    provides a high-quality user experience for your web, traditional, and cloud-native
+    applications regardless of where they are hosted.
+  homepage_url: https://www.citrix.com/products/citrix-adc/
+  item: null
+  logo: citrix.svg
+  name: Citrix ADC (formerly NetScaler ADC)
+  twitter: https://twitter.com/CitrixADC
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   extra:
     accepted: '2020-07-07'

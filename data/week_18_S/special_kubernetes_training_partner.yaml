@@ -1,1 +1,54 @@
-[]
+- crunchbase: https://www.crunchbase.com/organization/shinesoft-co-ltd
+  description: We provide design, development and tech support include; Cloud/Cluster,
+    Network, Server, Security, Monitoring, Data analysis, and AI/IoT
+  homepage_url: https://shinesoft.co.jp/business/
+  item: null
+  logo: shinesoft.svg
+  name: Shinesoft (KTP)
+- crunchbase: https://www.crunchbase.com/organization/sighup
+  description: SIGHUP is an Enterprise Open Source Software company that delivers
+    battle-tested Cloud Native solutions and architectures entirely based on upstream
+    Kubernetes & OSS CNCF projects.
+  extra:
+    training_certifications: cka, ckad, cks, kcna
+    training_type: e-learning, instructor-led
+  homepage_url: https://sighup.io/
+  item: null
+  logo: sighup-kcsp.svg
+  name: SIGHUP (KTP)
+- crunchbase: https://www.crunchbase.com/organization/sokube
+  description: SoKube is pure consulting company that help companies entering the
+    world of Containers & Kubernetes, using a comprehensive SDLC approach from Dev
+    to Production, and using best practices coming from Agile, CI/CD, DevSecOps, SRE,
+    GitOps.
+  extra:
+    training_certifications: cka, ckad, cks, kcna
+    training_type: instructor-led
+  homepage_url: https://www.sokube.io/en/services/training
+  item: null
+  logo: sokube.svg
+  name: SoKube (KTP)
+- crunchbase: https://www.crunchbase.com/organization/storm-reply
+  description: We provide services along the entire cloud value chain and are specialized
+    in the design, implementation and 24X7 operation of innovative cloud-native solutions.
+  homepage_url: https://reply.com/storm-reply/en/kubernetes
+  item: null
+  logo: storm-reply.svg
+  name: Storm Reply (KTP)
+- crunchbase: https://www.crunchbase.com/organization/superorbital
+  description: A tiny team of exceptional Kubernetes engineers and teachers.  We provide
+    the industry's absolute best Kubernetes engineering and training services.
+  extra:
+    training_type: instructor-led
+  homepage_url: https://superorbital.io/workshops/
+  item: null
+  logo: superorbital.svg
+  name: SuperOrbital (KTP)
+- crunchbase: https://www.crunchbase.com/organization/sva
+  description: The services of the SVA include consulting, conception, implementation
+    and operation of Kubernetes-based solutions as well as solution-specific and tailor-made
+    trainings and exam preparations.
+  homepage_url: https://www.sva.de/de/services/devops-academy
+  item: null
+  logo: sva.svg
+  name: SVA (KTP)

@@ -13,3 +13,16 @@
   logo: microk8s.svg
   name: MicroK8s
   repo_url: https://github.com/canonical/microk8s
+- crunchbase: https://www.crunchbase.com/organization/mirantis
+  description: Mirantis Kubernetes Engine Kubernetes distribution.
+  homepage_url: https://www.mirantis.com/software/mirantis-kubernetes-engine/
+  item: null
+  logo: mirantis.svg
+  name: Mirantis Kubernetes Engine
+- crunchbase: https://www.crunchbase.com/organization/hewlett-packard-enterprise
+  description: Morpheus Kubernetes Services (MKS) is an embedded Kubernetes distribution
+    provisioned and managed via the Morpehus Cloud Management Platform (CMP).
+  homepage_url: https://www.morpheusdata.com/
+  item: null
+  logo: morpheus-data-member.svg
+  name: Morpheus Kubernetes Service

@@ -1,3 +1,8 @@
+- crunchbase: https://www.crunchbase.com/organization/capsule8
+  homepage_url: https://capsule8.com/
+  item: null
+  logo: capsule8.svg
+  name: Capsule8
 - branch: master
   crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: Cartography is a Python tool that consolidates infrastructure assets
@@ -18,6 +23,20 @@
   logo: cerbos.svg
   name: Cerbos
   repo_url: https://github.com/cerbos/cerbos
+- crunchbase: https://www.crunchbase.com/organization/chaitin-tech
+  homepage_url: https://www.chaitin.cn/en/
+  item: null
+  logo: ChaitinTech LOGO.svg
+  name: Chaitin Tech
+- crunchbase: https://www.crunchbase.com/organization/check-point
+  description: Check Point Software Technologies Ltd. is a leading provider of cyber
+    security solutions to corporate enterprises and governments globally. Check Point
+    protects over 100,000 organizations of all sizes.
+  homepage_url: https://www.checkpoint.com
+  item: null
+  logo: checkpoint.svg
+  name: Check Point
+  twitter: https://twitter.com/CheckPointSW
 - crunchbase: https://www.crunchbase.com/organization/bridgecrew
   description: Checkov scans cloud infrastructure configurations to find misconfigurations
     before they are deployed. Checkov manages and analyzes infrastructure as code
@@ -104,3 +123,11 @@
   name: Copa
   project: sandbox
   repo_url: https://github.com/project-copacetic/copacetic
+- crunchbase: https://www.crunchbase.com/organization/china-mobile
+  description: China Mobile Cloud Cloud-native Application Security is an application
+    protection platform based on container technology, providing comprehensive security
+    detection and protection capabilities for cloud-native environments.
+  homepage_url: https://ecloud.10086.cn/portal/product/cnappsec
+  item: null
+  logo: china-mobile-cloud-cas.svg
+  name: China Mobile Cloud Cloud-native Application Security

@@ -1,3 +1,26 @@
+- crunchbase: https://www.crunchbase.com/organization/atlassian
+  description: Bamboo Server is the choice of professional teams for continuous integration,
+    deployment, and delivery
+  homepage_url: https://www.atlassian.com/software/bamboo
+  item: null
+  logo: bamboo.svg
+  name: Bamboo
+- crunchbase: https://www.crunchbase.com/organization/buildkite
+  description: Buildkite is a platform for running fast, secure, and scalable continuous
+    integration pipelines on your own infrastructure.
+  homepage_url: https://buildkite.com/
+  item: null
+  logo: buildkite.svg
+  name: Buildkite
+- crunchbase: https://www.crunchbase.com/organization/bunnyshell
+  description: Bunnyshell is an EaaS platform that enables fast, dead-simple environment
+    creation and management for teams and developers who want to release better code
+    faster.
+  homepage_url: https://bunnyshell.com/
+  item: null
+  logo: bunnyshell.svg
+  name: Bunnyshell
+  twitter: https://twitter.com/bunnyshell_eaas
 - crunchbase: https://www.crunchbase.com/organization/bytebase
   description: Reliable Database CI/CD for Developers and DBAs
   extra:

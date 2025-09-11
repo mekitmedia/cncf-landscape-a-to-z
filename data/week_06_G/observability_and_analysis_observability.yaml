@@ -1,3 +1,12 @@
+- crunchbase: https://www.crunchbase.com/organization/google
+  description: Stackdriver aggregates metrics, logs, and events from infrastructure,
+    giving developers and operators a rich set of observable signals that speed root-cause
+    analysis and reduce mean time to resolution (MTTR).
+  homepage_url: https://cloud.google.com/products/operations
+  item: null
+  logo: google-stackdriver.svg
+  name: Google Stackdriver
+  twitter: https://twitter.com/GCPcloud
 - crunchbase: https://www.crunchbase.com/organization/raintank
   description: Grafana allows you to query, visualize, alert on and understand your
     metrics no matter where they are stored. Create, explore, and share beautiful
@@ -59,3 +68,10 @@
   name: Graylog
   open_source: false
   repo_url: https://github.com/Graylog2/graylog2-server
+- crunchbase: https://www.crunchbase.com/organization/guanceyun
+  description: Guance Cloud offers a full-stack observability platform for cloud-based
+    workflows.
+  homepage_url: https://guance.com/
+  item: null
+  logo: guance-cloud.svg
+  name: Guance Cloud

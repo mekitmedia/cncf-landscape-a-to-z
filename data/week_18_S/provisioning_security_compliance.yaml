@@ -1,3 +1,11 @@
+- crunchbase: https://www.crunchbase.com/organization/scribe-security
+  extra:
+    blog_url: https://scribesecurity.com/blog/
+  homepage_url: https://scribesecurity.com
+  item: null
+  logo: scribe-logo.svg
+  name: Scribe Security Platform
+  twitter: https://twitter.com/ScribeSecurity
 - additional_repos:
   - repo_url: https://github.com/Keyfactor/signserver-community-helm
   - repo_url: https://github.com/Keyfactor/ansible-ejbca-signserver-playbooks
@@ -32,6 +40,11 @@
   project: sandbox
   repo_url: https://github.com/slimtoolkit/slim
   twitter: https://twitter.com/slimtoolkit
+- crunchbase: https://www.crunchbase.com/organization/snyk
+  homepage_url: https://snyk.io/
+  item: null
+  logo: snyk.svg
+  name: Snyk
 - crunchbase: https://www.crunchbase.com/organization/sonatype
   description: Sonatype is the developer-friendly full-spectrum software supply, chain
     management platform helps organizations and software developers. One of the Sonatype
@@ -70,6 +83,24 @@
   name: SOPS
   project: sandbox
   repo_url: https://github.com/getsops/sops
+- crunchbase: https://www.crunchbase.com/organization/spyderbat
+  description: Spyderbat provides Linux runtime security, protecting dynamic environments
+    by proactively tracking all user activities by their causal connections to detect
+    and resolve external attacks, misconfigurations, and insider threats.
+  extra:
+    slack_url: https://spyderbatcommunity.slack.com/
+  homepage_url: https://www.spyderbat.com/
+  item: null
+  logo: spyderbat.svg
+  name: Spyderbat
+  twitter: https://twitter.com/spyderbatinc
+- crunchbase: https://www.crunchbase.com/organization/stackhawk
+  description: StackHawk helps developers find and fix application security vulnerabilities
+    before they hit production with CI/CD automation.
+  homepage_url: https://www.stackhawk.com/index.html
+  item: null
+  logo: stackhawk.svg
+  name: StackHawk
 - crunchbase: https://www.crunchbase.com/organization/stackrox
   description: StackRox is a Kubernetes-native security platform for cloud-native
     applications, containers, serverless, and Kubernetes.
@@ -81,3 +112,29 @@
   name: StackRox
   repo_url: https://github.com/stackrox/stackrox
   twitter: https://twitter.com/StackRox
+- crunchbase: https://www.crunchbase.com/organization/anchore-inc
+  description: Syft is a CLI tool and library for generating a Software Bill of Materials
+    from container images and filesystems
+  extra:
+    blog_url: https://anchore.com/blog/
+    other_links:
+    - name: Twitter
+      url: https://twitter.com/syftproject
+    - name: Bluesky
+      url: https://bsky.app/profile/syftproject.bsky.social
+    - name: Mastodon
+      url: https://fosstodon.org/@syft
+    summary_intro_url: https://www.youtube.com/watch?v=9oj3BC3vOtc
+    summary_release_rate: At least one minor release per quarter
+    youtube_url: https://www.youtube.com/@anchore
+  homepage_url: https://github.com/anchore/syft
+  item: null
+  logo: syft.svg
+  name: Syft
+- crunchbase: https://www.crunchbase.com/organization/sysdig
+  description: "Sysdig Secure embeds security and compliance into the build, run and\
+    \ respond stages of the Kubernetes lifecycle.\_"
+  homepage_url: https://sysdig.com/use-cases/kubernetes-security
+  item: null
+  logo: sysdig-secure.svg
+  name: Sysdig Secure

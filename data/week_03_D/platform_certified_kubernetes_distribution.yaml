@@ -1,3 +1,10 @@
+- crunchbase: https://www.crunchbase.com/organization/daocloud
+  description: Daocloud helps you provide a reliable and consistent basic support
+    environment to meet the high SLA requirements of enterprise critical applications.
+  homepage_url: https://www.daocloud.io/en/
+  item: null
+  logo: daocloud.svg
+  name: DaoCloud Enterprise
 - description: Stands up a three-VM Kubernetes development cluster on the desktop
     using VirtualBox, by running a single Bash script.
   homepage_url: https://github.com/aceeric/desktop-kubernetes
@@ -5,3 +12,11 @@
   logo: desktop-kubernetes.svg
   name: Desktop Kubernetes
   repo_url: https://github.com/aceeric/desktop-kubernetes
+- crunchbase: https://www.crunchbase.com/organization/diamanti
+  description: Diamanti Kubernetes Engine is a pre-validated and pre-packaged Kubernetes
+    distribution complete with integrated CSI and CNI plugins for modern, distributed
+    applications across the hybrid cloud
+  homepage_url: https://diamanti.com/products
+  item: null
+  logo: diamanti.svg
+  name: Diamanti Kubernetes Engine

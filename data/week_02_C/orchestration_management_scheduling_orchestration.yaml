@@ -31,6 +31,23 @@
   project: sandbox
   repo_url: https://github.com/projectcapsule/capsule
   twitter: https://twitter.com/clastixio
+- crunchbase: https://www.crunchbase.com/organization/china-mobile
+  description: China Mobile Cloud CNP is an application management platform for multi-cluster
+    and multi-cloud scenarios.
+  homepage_url: https://ecloud.10086.cn/home/product-introduction/CNP
+  item: null
+  logo: china-mobile-cloud-cnp.svg
+  name: China Mobile Cloud CNP
+- crunchbase: https://www.crunchbase.com/organization/china-mobile
+  description: China Mobile Panji PaaS Platform is an open, standard and self-controlled
+    cloud native technical base. Using containerization technology, it provides core
+    capabilities including enterprise-level application service management, elastic
+    scalability, unified governance of heterogeneous microservice framework, and panoramic
+    cloud native observation, etc.
+  homepage_url: https://it.10086.cn/services/paas/
+  item: null
+  logo: china-mobile-panji-paas.svg
+  name: China Mobile Panji PaaS Platform
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   extra:
     accepted: '2023-03-07'

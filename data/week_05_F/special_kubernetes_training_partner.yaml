@@ -1,1 +1,18 @@
-[]
+- crunchbase: https://www.crunchbase.com/organization/fullstacks
+  description: We at FullStackS GmbH live Cloud, Automation, Container & Kubernetes,
+    CI/CD & Application Performance Monitoring! We offer a wide range of trainings
+    regarding Cloud Native solutions as well as best practices of Application Modernization.
+  homepage_url: https://www.fullstacks.eu/kubernetes-trainings
+  item: null
+  logo: fullstacks.svg
+  name: FullStackS (KTP)
+- crunchbase: https://www.crunchbase.com/organization/fullstaq
+  description: We are Fullstaq. We are a fast-growing cloud-native IT Services company
+    that helps both start-ups and enterprises realize their Kubernetes ambitions.
+  extra:
+    training_certifications: cka, ckad, cks
+    training_type: instructor-led
+  homepage_url: https://fullstaq.com/training/
+  item: null
+  logo: fullstaq.svg
+  name: Fullstaq (KTP)

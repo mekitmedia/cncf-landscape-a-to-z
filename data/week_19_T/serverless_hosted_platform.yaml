@@ -1,1 +1,15 @@
-[]
+- crunchbase: https://www.crunchbase.com/organization/tencent
+  description: Serverless Cloud Function (SCF) is a serverless execution environment
+    provided by Tencent Cloud for enterprises and developers to help you run your
+    code without purchasing and managing servers.
+  homepage_url: https://cloud.tencent.com/product/scf
+  item: null
+  logo: tencent-cloud-serverless-cloud-function.svg
+  name: Tencent Cloud Serverless Cloud Function
+- crunchbase: https://www.crunchbase.com/organization/twilio
+  description: A serverless environment to build and run your Twilio code so you can
+    get to production faster.
+  homepage_url: https://www.twilio.com/docs/serverless/functions-assets/functions
+  item: null
+  logo: twilio-functions.svg
+  name: Twilio Functions

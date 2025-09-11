@@ -1,1 +1,32 @@
-[]
+- crunchbase: https://www.crunchbase.com/organization/okestro
+  description: VIOLA is a managed Kubernetes service that allows you to easily deploy
+    a Kubernetes cluster in Okestro.
+  homepage_url: https://www.okestro.com/product/viola.php
+  item: null
+  logo: okestro.svg
+  name: OKESTRO VIOLA
+- crunchbase: https://www.crunchbase.com/organization/oracle
+  description: Simplify operations of enterprise-grade Kubernetes at scale. Easily
+    deploy and manage resource-intensive workloads such as AI with automatic scaling,
+    patching, and upgrades.
+  extra:
+    blog_url: https://blogs.oracle.com/cloud-infrastructure
+  homepage_url: https://www.oracle.com/cloud/cloud-native/kubernetes-engine
+  item: null
+  logo: oracle.svg
+  name: Oracle Kubernetes Engine (OKE)
+  twitter: https://twitter.com/oraclecloud
+- crunchbase: https://www.crunchbase.com/organization/macstadium
+  description: Orka is a platform that allows Orchestration via Kubernetes on Apple.
+    It allows MacOS on genuine Apple hardware to be used in Kubernetes.
+  homepage_url: https://www.macstadium.com/orka
+  item: null
+  logo: orka.svg
+  name: Orka
+- crunchbase: https://www.crunchbase.com/organization/ovh-com
+  description: Benefit from free HA managed Kubernetes service by hosting your nodes
+    and services on OVH Public Cloud.
+  homepage_url: https://www.ovhcloud.com/en-ie/public-cloud/kubernetes
+  item: null
+  logo: ovhcloud.svg
+  name: OVH Managed Kubernetes Service

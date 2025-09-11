@@ -1,1 +1,24 @@
-[]
+- crunchbase: https://www.crunchbase.com/organization/catalyst-by-zoho?utm_source=cncf
+  description: Catalyst is a full-stack cloud development platform that enables you
+    to build feature-rich applications. From building and testing to hosting and deploying,
+    Catalyst streamlines your development cycle with a rich suite of Serverless components,
+    Backend tools, DevOps, AI/ML capabilities and more.
+  extra:
+    blog_url: https://catalyst.zoho.com/blog/?utm_source=cncf
+    documentation_url: https://docs.catalyst.zoho.com/?utm_source=cncf
+    linkedin_url: https://www.linkedin.com/company/catalyst-by-zoho/?utm_source=cncf
+    youtube_url: https://www.youtube.com/@catalystbyzoho/?utm_source=cncf
+  homepage_url: https://catalyst.zoho.com/?utm_source=cncf
+  item: null
+  logo: catalyst-by-zoho.svg
+  name: Catalyst by Zoho
+  twitter: https://x.com/catalystbyzoho/?utm_source=cncf
+- crunchbase: https://www.crunchbase.com/organization/cloudflare
+  description: Cloudflare Workers provides a lightweight JavaScript execution environment
+    that allows developers to augment existing applications or create entirely new
+    ones without configuring or maintaining infrastructure.
+  homepage_url: https://workers.cloudflare.com
+  item: null
+  logo: cloudflare-workers.svg
+  name: Cloudflare Workers
+  twitter: https://twitter.com/Cloudflare

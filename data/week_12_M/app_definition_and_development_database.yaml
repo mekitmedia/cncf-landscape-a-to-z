@@ -4,6 +4,19 @@
   logo: mariadb.svg
   name: MariaDB
   repo_url: https://github.com/MariaDB/server
+- crunchbase: https://www.crunchbase.com/organization/microsoft
+  description: Data-Driven. Faster Insights. Breakthrough Performance. In-Memory Technology.
+    Hybrid Data Platform.
+  homepage_url: https://www.microsoft.com/en-us/sql-server
+  item: null
+  logo: microsoft-sql-server.svg
+  name: Microsoft SQL Server
+  twitter: https://twitter.com/SQLServer
+- crunchbase: https://www.crunchbase.com/organization/enmotech
+  homepage_url: https://www.mogdb.io/en
+  item: null
+  logo: mogdb.svg
+  name: MogDB
 - crunchbase: https://www.crunchbase.com/organization/mongodb-inc
   homepage_url: https://www.mongodb.com/
   item: null

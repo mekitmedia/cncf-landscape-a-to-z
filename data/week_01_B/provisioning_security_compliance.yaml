@@ -20,6 +20,23 @@
   name: Bank-Vaults
   project: sandbox
   repo_url: https://github.com/bank-vaults/bank-vaults
+- crunchbase: https://www.crunchbase.com/organization/synopsys
+  description: Black Duck provides a comprehensive software composition analysis (SCA)
+    solution for managing security, quality, and license compliance risk that comes
+    from the use of open source and third-party code in applications and containers.
+  homepage_url: https://www.synopsys.com/software-integrity/security-testing/software-composition-analysis.html
+  item: null
+  logo: blackduck.svg
+  name: Black Duck
+  twitter: https://twitter.com/sw_integrity
+- crunchbase: https://www.crunchbase.com/organization/bloombase
+  description: Bloombase is an intelligent storage firewall company providing AI-accelerated
+    security and PQC encryption of high-bandwidth, low-latency data cloud from edge
+    computing, physical/virtual datacenters, through HCI and CDI, to the cloud.
+  homepage_url: https://www.bloombase.com
+  item: null
+  logo: bloombase.svg
+  name: Bloombase
 - crunchbase: https://www.crunchbase.com/organization/certified-security-solutions
   description: Bouncy Castle is one of the most widely used FIPS-certified open-source
     cryptographic APIs for Java and C#, allowing developers to easily integrate  PKI

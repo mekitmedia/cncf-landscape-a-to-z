@@ -36,6 +36,14 @@
   logo: kubekey.svg
   name: Kubekey
   repo_url: https://github.com/kubesphere/kubekey
+- crunchbase: https://www.crunchbase.com/organization/kubernative
+  description: KubeOps Platform involves all the activities required to run, manage
+    and maintain Kubernetes clusters in production environments, including our best
+    practices, self-deployed tools, and strategies.
+  homepage_url: https://kubeops.net/
+  item: null
+  logo: kubeops.svg
+  name: KubeOps
 - crunchbase: https://www.crunchbase.com/organization/loodse-gmbh
   description: Lifecycle management tool for Highly-Available Kubernetes clusters
     on any infrastructure

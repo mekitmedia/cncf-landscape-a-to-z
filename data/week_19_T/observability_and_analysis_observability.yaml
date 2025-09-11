@@ -1,3 +1,26 @@
+- crunchbase: https://www.crunchbase.com/organization/ant-financial
+  description: Provide multi-dimensional integrated monitoring capabilities for business,
+    application, network, and other aspects to measure business availability, gain
+    insight into service health status, and support real-time log collection and analysis
+    to efficiently locate problems. Provide non-invasive automatic link generation
+    capabilities for heterogeneous applications on and off the cloud, and support
+    defining services to aggregate massive link data into business links, achieving
+    customized association between services and applications and intelligent diagnosis
+    and positioning.
+  homepage_url: https://antchain.antgroup.com/products/biosp
+  item: null
+  logo: traas-bos.svg
+  name: TRaaS BOS
+- crunchbase: https://www.crunchbase.com/organization/Scout-APM
+  homepage_url: https://www.telemetryhub.com/
+  item: null
+  logo: telemetryhub-scoutapm.svg
+  name: TelemetryHub by Scout APM
+- crunchbase: https://www.crunchbase.com/organization/tencent
+  homepage_url: https://cloud.tencent.com/product/cls
+  item: null
+  logo: tencent-cloud-log-service.svg
+  name: Tencent Cloud Log Service
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   extra:
     accepted: '2019-07-14'
@@ -23,6 +46,11 @@
   project: incubating
   repo_url: https://github.com/thanos-io/thanos
   twitter: https://twitter.com/ThanosMetrics
+- crunchbase: https://www.crunchbase.com/organization/tingyun
+  homepage_url: https://www.tingyun.com/tingyun-app
+  item: null
+  logo: tingyun.svg
+  name: Tingyun
 - crunchbase: https://www.crunchbase.com/organization/kubeshop
   description: Tracetest allows easy creation of end-to-end tests via a simple user
     interface. It leverages your current investment in OpenTelemetry based tracing
@@ -47,3 +75,14 @@
   name: Trickster
   project: sandbox
   repo_url: https://github.com/trickstercache/trickster
+- crunchbase: https://www.crunchbase.com/organization/trink-io
+  description: Trink.io is the first log shipping platform, built to replace fragmented
+    solutions and workarounds with a single solution that takes care of the basics
+    while offering visibility and control that only a managed solution can. Trink
+    handles the entire operational data collection scope for you, connecting to all
+    of your sources (e.g AWS) and enabling you to choose your preferred destinations
+    (Datadog, Logz, etc.) in minutes instead of days.
+  homepage_url: https://trink.io/
+  item: null
+  logo: trink.svg
+  name: Trink.io

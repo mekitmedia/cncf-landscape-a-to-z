@@ -1,1 +1,25 @@
-[]
+- crunchbase: https://www.crunchbase.com/organization/rafay-systems-inc
+  description: Rafay Systems enables DevOps and SRE teams to automate application
+    lifecycle and cluster configuration management across on-premise and cloud-based
+    Kubernetes clusters through a turnkey SaaS platform.
+  homepage_url: https://rafay.co/
+  item: null
+  logo: rafay.svg
+  name: Rafay
+- crunchbase: https://www.crunchbase.com/organization/red-hat
+  description: "OpenShift\xAE Dedicated helps organizations focus on building and\
+    \ scaling their business with a private Kubernetes cluster fully-managed by Red\
+    \ Hat\xAE."
+  homepage_url: https://cloud.redhat.com/products/dedicated
+  item: null
+  logo: Logo-Red_Hat-OpenShift_Dedicated-A-Standard-RGB.svg
+  name: Red Hat OpenShift Dedicated
+  twitter: https://twitter.com/openshift
+- crunchbase: https://www.crunchbase.com/organization/ibm
+  description: Red Hat OpenShift on IBM Cloud is a managed offering to create your
+    own OpenShift cluster of compute hosts to deploy and manage containerized apps
+    on IBM Cloud.
+  homepage_url: https://www.ibm.com/cloud/openshift
+  item: null
+  logo: red-hat-openshift-ibm-cloud.svg
+  name: Red Hat OpenShift on IBM Cloud

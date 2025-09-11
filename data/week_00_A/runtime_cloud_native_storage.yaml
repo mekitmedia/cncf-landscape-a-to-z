@@ -1,3 +1,26 @@
+- crunchbase: https://www.crunchbase.com/organization/afi-ai
+  description: Afi SaaS backup for Kubernetes provides a fully managed cloud service
+    with secure offsite storage and an easy-to-use web UI
+  homepage_url: https://afi.ai/kubernetes-backup
+  item: null
+  logo: afi.ai.svg
+  name: Afi.ai
+- crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
+  description: Alibaba Cloud File Storage enables you to have a distributed file system
+    with unlimited capacity and performance scaleing with a single namespace,high-performance,
+    high reliability, high availabily and scalable file storage services.
+  homepage_url: https://www.alibabacloud.com/product/nas
+  item: null
+  logo: alibaba-cloud-file-storage.svg
+  name: Alibaba Cloud File Storage
+- crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
+  description: Alibaba Cloud File Storage CPFS is a scale-out parallel file system
+    for Artifical intelligence(AI), High performance computing(HPC) workload while
+    ensuring security, reliability, data effciency and high performance.
+  homepage_url: https://www.alibabacloud.com/
+  item: null
+  logo: alibaba-cloud-file-storage-cpfs.svg
+  name: Alibaba Cloud File Storage CPFS
 - crunchbase: https://www.crunchbase.com/organization/alluxio
   homepage_url: https://www.alluxio.io/
   item: null
@@ -5,3 +28,43 @@
   name: Alluxio
   repo_url: https://github.com/alluxio/alluxio
   twitter: https://twitter.com/alluxio
+- crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+  description: Amazon Elastic Block Store (EBS) is an easy to use, high performance
+    block storage service designed for use with Amazon Elastic Compute Cloud (EC2)
+    for both throughput and transaction intensive workloads at any scale.
+  homepage_url: https://aws.amazon.com/ebs/
+  item: null
+  logo: amazon-elastic-block-store.svg
+  name: Amazon Elastic Block Store (EBS)
+- crunchbase: https://www.crunchbase.com/organization/arctera
+  description: InfoScale for Kubernetes is a comprehensive solution designed to empower
+    organizations with advanced capabilities for managing containerized applications
+    in Kubernetes environments.  By leveraging InfoScale, businesses can seamlessly
+    address their disaster recovery (DR) and business continuity (BC) requirements,
+    ensuring uninterrupted operations and data integrity even in the face of unexpected
+    events. InfoScale enhances the resilience of mission-critical applications, making
+    them robust against failures and outages. It employs state-of-the-art technologies
+    to safeguard uptime, enabling enterprises to deliver consistent services to their
+    customers.  In addition, InfoScale optimizes workload performance, ensuring that
+    applications run efficiently and reliably across cloud-native infrastructures.
+    Whether you are deploying new containerized workloads or managing existing applications,
+    InfoScale for Kubernetes integrates seamlessly to offer a reliable, high-performance,
+    and resilient foundation, tailored to meet the dynamic demands of modern IT environments.
+  homepage_url: https://www.arctera.io/infoscale-kubernetes
+  item: null
+  logo: Arctera-logo.svg
+  name: "Arctera\u2122 Infoscale for Kubernetes"
+- crunchbase: https://www.crunchbase.com/organization/arrikto
+  homepage_url: https://www.arrikto.com/
+  item: null
+  logo: arrikto.svg
+  name: Arrikto
+  twitter: https://twitter.com/arrikto
+- crunchbase: https://www.crunchbase.com/organization/microsoft
+  description: "Get HDD/SSD durability, scalability, availability, and security you\
+    \ need for all your workloads\u2014from mission-critical workloads to test scenarios."
+  homepage_url: https://azure.microsoft.com/en-us/services/storage/disks/
+  item: null
+  logo: azure-disk-storage.svg
+  name: Azure Disk Storage
+  twitter: https://twitter.com/azure

@@ -1,3 +1,24 @@
+- crunchbase: https://www.crunchbase.com/organization/mia-platform
+  description: 'Mia-Platform is a Digital Platform Builder: it enables organizations
+    to build and orchestrate their Internal Developer Platforms (IDP) to scale cloud-native
+    development and operations. Mia-Platform also features a Data Fabric solution
+    that can be used to build a Digital Integration Hub. This solution ingests data
+    from different sources, aggregates it in single views, and makes it available
+    in near real-time.'
+  extra:
+    blog_url: https://mia-platform.eu/blog/
+    github_discussions_url: https://github.com/mia-platform/community/discussions
+    mailing_list_url: https://resources.mia-platform.eu/en/newsletter-general-subscription
+    summary_personas: SREs, Cloud Architects, Platform Engineers, DevOps Engineers,
+      Developers
+    summary_release_rate: 2 major releases per year
+    summary_tags: platform engineering, internal developer platform, idp, platform
+      builder, data fabric, digital integration hub, composability
+    youtube_url: https://www.youtube.com/@MiaPlatform
+  homepage_url: https://mia-platform.eu
+  item: null
+  logo: mia-platform.svg
+  name: Mia-Platform
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   extra:
     accepted: '2023-06-22'

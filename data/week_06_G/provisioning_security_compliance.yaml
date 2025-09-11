@@ -1,3 +1,12 @@
+- crunchbase: https://www.crunchbase.com/organization/gitguardian
+  description: GitGuardian is the code security platform for the DevOps generation
+    that offers automated Secrets Detection, Infra as Code Security,  and Honeytoken
+    capabilities, facilitating a Secure Software Development Lifecycle for Dev, Sec,
+    and Ops teams.
+  homepage_url: https://www.gitguardian.com/
+  item: null
+  logo: gitguardian.svg
+  name: GitGuardian
 - crunchbase: https://www.crunchbase.com/organization/fairwinds
   homepage_url: https://www.fairwinds.com/open-source-software
   item: null
@@ -11,3 +20,21 @@
   name: Grafeas
   repo_url: https://github.com/grafeas/grafeas
   twitter: https://twitter.com/Grafeasio
+- crunchbase: https://www.crunchbase.com/organization/anchore-inc
+  description: A vulnerability scanner for container images and filesystems
+  extra:
+    blog_url: https://anchore.com/blog/
+    other_links:
+    - name: Twitter
+      url: https://twitter.com/grypeproject
+    - name: Bluesky
+      url: https://bsky.app/profile/grypeproject.bsky.social
+    - name: Mastodon
+      url: https://fosstodon.org/@grype
+    summary_intro_url: https://www.youtube.com/watch?v=-8x-mxeAEEo
+    summary_release_rate: At least one minor release per quarter
+    youtube_url: https://www.youtube.com/@anchore
+  homepage_url: https://github.com/anchore/grype
+  item: null
+  logo: grype.svg
+  name: Grype

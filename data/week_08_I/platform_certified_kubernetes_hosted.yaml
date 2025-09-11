@@ -1,1 +1,25 @@
-[]
+- crunchbase: https://www.crunchbase.com/organization/ibm
+  description: IBM Cloud Kubernetes Service is a managed offering to create your own
+    Kubernetes cluster of compute hosts to deploy and manage containerized apps on
+    IBM Cloud.
+  homepage_url: https://www.ibm.com/cloud/kubernetes-service
+  item: null
+  logo: ibm-kubernetes.svg
+  name: IBM Cloud Kubernetes Service
+  twitter: https://twitter.com/IBMcloud
+- crunchbase: https://www.crunchbase.com/organization/intel
+  description: Intel Kubernetes service a fully managed container service that helps
+    customers run GPU-Accelerated Kubernetes workloads at scale using Intel Max GPU's
+    and Intel Habana Gaudi.
+  homepage_url: https://console.cloud.intel.com/
+  item: null
+  logo: intel.svg
+  name: Intel Kubernetes Service
+- crunchbase: https://www.crunchbase.com/organization/ionos-cloud
+  description: IONOS Cloud Managed Kubernetes is the ideal platform for automating
+    the deployment, scaling and management of highly scalable and demanding containerized
+    applications.
+  homepage_url: https://cloud.ionos.com/managed/kubernetes
+  item: null
+  logo: ionos.svg
+  name: IONOS Cloud Managed Kubernetes

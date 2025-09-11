@@ -5,3 +5,14 @@
   name: Gluster
   repo_url: https://github.com/gluster/glusterfs
   twitter: https://twitter.com/gluster
+- crunchbase: https://www.crunchbase.com/organization/google
+  description: Google Persistent Disk is durable and high performance block storage
+    for the Google Cloud Platform. Persistent Disk provides SSD and HDD storage which
+    can be attached to instances running in either Google Compute Engine or Google
+    Kubernetes Engine. Storage volumes can be transparently resized, quickly backed
+    up, and offer the ability to support simultaneous readers.
+  homepage_url: https://cloud.google.com/persistent-disk
+  item: null
+  logo: google-persistent-disk.svg
+  name: Google Persistent Disk
+  twitter: https://twitter.com/GCPcloud

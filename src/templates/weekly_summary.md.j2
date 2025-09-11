@@ -1,0 +1,7 @@
+# Summary for {{ week_name }}
+
+This week has a total of {{ total_items }} items.
+
+{% for category, item_count in items_per_category.items() %}
+- **{{ category }}**: {{ item_count }} items
+{% endfor %}

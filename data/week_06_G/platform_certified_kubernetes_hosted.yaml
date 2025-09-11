@@ -1,1 +1,17 @@
-[]
+- crunchbase: https://www.crunchbase.com/organization/g-core-labs
+  description: Gcore Managed Kubernetes is a service that lets you deploy Kubernetes
+    clusters without the complexities of handling the control plane and containerized
+    infrastructure.
+  homepage_url: https://gcore.com/cloud/managed-kubernetes
+  item: null
+  logo: gcore.svg
+  name: Gcore Managed Kubernetes
+- crunchbase: https://www.crunchbase.com/organization/google
+  description: GKE is an enterprise-grade platform for containerized applications,
+    including stateful and stateless, AI and ML, Linux and Windows, complex and simple
+    web apps, API, and backend services.
+  homepage_url: https://cloud.google.com/kubernetes-engine/
+  item: null
+  logo: google-cloud.svg
+  name: Google Kubernetes Engine (GKE)
+  twitter: https://twitter.com/GCPcloud

@@ -36,6 +36,19 @@
   second_path:
   - CNAI / Data Architecture
   unnamed_organization: true
+- crunchbase: https://www.crunchbase.com/organization/opentext
+  description: The core analytical platform within the OpenText software portfolio,
+    Vertica is the Unified Analytics Platform, based on a massively scalable architecture
+    with the broadest set of analytical capabilities and end-to-end in-database machine
+    learning.
+  extra:
+    docker_url: https://hub.docker.com/r/vertica/vertica-ce
+    kubernetes_url: https://github.com/vertica/vertica-kubernetes
+  homepage_url: https://www.vertica.com/
+  item: null
+  logo: Vertica-OT.svg
+  name: Vertica
+  twitter: https://twitter.com/VerticaUnified
 - additional_repos:
   - repo_url: https://github.com/vitessio/website
   - repo_url: https://github.com/vitessio/arewefastyet
@@ -84,3 +97,10 @@
   project: graduated
   repo_url: https://github.com/vitessio/vitess
   twitter: https://twitter.com/vitessio
+- crunchbase: https://www.crunchbase.com/organization/voltdb
+  description: VoltDB is a high-velocity decisioning engine, powering real-time applications
+    that must react in milliseconds.
+  homepage_url: https://www.voltactivedata.com
+  item: null
+  logo: voltdb.svg
+  name: VoltDB

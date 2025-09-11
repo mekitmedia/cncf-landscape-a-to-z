@@ -1,3 +1,9 @@
+- description: Operator to manage Apache Spark applications on Kubernetes.
+  homepage_url: https://github.com/kubeflow/spark-operator
+  item: null
+  logo: ./kubeflow.svg
+  name: Kubeflow Spark Operator
+  unnamed_organization: true
 - description: Open source distributed event streaming platform used by thousands
     of companies for high-performance data pipelines, streaming analytics, data integration,
     and mission-critical applications.
@@ -6,4 +12,11 @@
   logo: ./apache-kafka.svg
   name: Kafka
   repo_url: https://github.com/apache/kafka
+  unnamed_organization: true
+- description: Model Registry to store and manage models, versions, and artifacts
+    metadata.
+  homepage_url: https://github.com/kubeflow/model-registry
+  item: null
+  logo: ./kubeflow.svg
+  name: Kubeflow Model Registry
   unnamed_organization: true

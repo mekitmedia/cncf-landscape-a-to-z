@@ -1,6 +1,7 @@
 import yaml
 from pathlib import Path
 from src.logger import get_logger
+import jinja2
 
 logger = get_logger(__name__)
 
@@ -28,11 +29,15 @@ def generate_summary(output_dir: str = "data"):
     """
     This function generates a README.md file with a summary of the week's data.
     """
+    template_loader = jinja2.FileSystemLoader(searchpath="./src/templates")
+    template_env = jinja2.Environment(loader=template_loader)
+    template = template_env.get_template("weekly_summary.md.j2")
+
     for week_dir in Path(output_dir).glob("week_*"):
         if not week_dir.is_dir():
             continue
 
-        summary = [f"# Summary for {week_dir.name}"]
+        items_per_category = {}
         total_items = 0
 
         for yaml_file in week_dir.glob("*.yaml"):
@@ -42,11 +47,15 @@ def generate_summary(output_dir: str = "data"):
                     category = yaml_file.stem.replace('_', ' ').title()
                     item_count = len(data)
                     total_items += item_count
-                    summary.append(f"- **{category}**: {item_count} items")
+                    items_per_category[category] = item_count
 
-        summary.insert(1, f"\nThis week has a total of {total_items} items.\n")
+        summary_content = template.render(
+            week_name=week_dir.name,
+            total_items=total_items,
+            items_per_category=items_per_category
+        )
 
         readme_path = week_dir / "README.md"
         logger.info(f"Generating weekly summary at {readme_path}")
         with open(readme_path, 'w+') as f:
-            f.write("\n".join(summary))
+            f.write(summary_content)
