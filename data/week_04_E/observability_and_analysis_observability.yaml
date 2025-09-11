@@ -10,15 +10,6 @@
   name: EaseAgent
   repo_url: https://github.com/megaease/easeagent
   twitter: https://twitter.com/megaease
-- crunchbase: https://www.crunchbase.com/organization/edge-delta
-  description: Edge Delta is a platform for creating observability pipelines, monitoring
-    Kubernetes resources, and querying large-scale datasets. Edge Delta uniquely processes
-    telemetry as it's created at the source to enable greater scale and cost-effectiveness.
-  homepage_url: https://edgedelta.com/
-  item: null
-  logo: edgedelta.svg
-  name: Edge Delta
-  twitter: https://twitter.com/edge_delta
 - crunchbase: https://www.crunchbase.com/organization/elasticsearch
   homepage_url: https://www.elastic.co/
   item: null
@@ -39,8 +30,3 @@
   name: Embrace
   repo_url: https://github.com/embrace-io/embrace-apple-sdk
   twitter: https://twitter.com/embracemobile
-- crunchbase: https://www.crunchbase.com/organization/epsagon
-  homepage_url: https://github.com/epsagon
-  item: null
-  logo: epsagon.svg
-  name: Epsagon

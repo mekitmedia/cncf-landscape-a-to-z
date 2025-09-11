@@ -1,10 +1,3 @@
-- crunchbase: https://www.crunchbase.com/organization/biqmind
-  description: CAEPE is a Continuous Deployment platform for Kubernetes. With CAEPE,
-    deploy applications on Kubernetes with confidence.
-  homepage_url: https://caepe.sh/
-  item: null
-  logo: cape.svg
-  name: CAEPE
 - crunchbase: https://www.crunchbase.com/organization/vmware
   description: Cartographer is a Kubernetes-native Choreographer providing higher
     modularity and scalability for the software supply chain.
@@ -16,29 +9,6 @@
   name: Cartographer
   repo_url: https://github.com/vmware-tanzu/cartographer
   twitter: https://twitter.com/OssCartographer
-- crunchbase: https://www.crunchbase.com/organization/circle-ci
-  homepage_url: https://circleci.com/
-  item: null
-  logo: circle-ci.svg
-  name: CircleCI
-- crunchbase: https://www.crunchbase.com/organization/cloudblocks
-  description: Skycap is the easiest way to deploy and run applications on any existing
-    Kubernetes cluster.
-  homepage_url: https://www.cloud66.com
-  item: null
-  logo: cloud66-skycap.svg
-  name: Cloud 66 Skycap
-- crunchbase: https://www.crunchbase.com/organization/cloudbees
-  description: Ship faster with CI/CD as a Service
-  homepage_url: https://www.cloudbees.com/products/codeship/overview
-  item: null
-  logo: cloudbees.svg
-  name: Cloudbees Codeship
-- crunchbase: https://www.crunchbase.com/organization/code-fresh
-  homepage_url: https://codefresh.io/
-  item: null
-  logo: codefresh.svg
-  name: Codefresh
 - crunchbase: https://www.crunchbase.com/organization/vmware
   homepage_url: https://concourse-ci.org/
   item: null

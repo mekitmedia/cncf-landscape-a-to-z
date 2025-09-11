@@ -35,13 +35,6 @@
   name: Parsec
   project: sandbox
   repo_url: https://github.com/parallaxsecond/parsec
-- crunchbase: https://www.crunchbase.com/organization/passage-36d4
-  description: Passage makes it easy for developers to implement passwordless customer
-    identity in any application.
-  homepage_url: https://passage.id
-  item: null
-  logo: passage.svg
-  name: Passage
 - crunchbase: https://www.crunchbase.com/organization/permify
   description: 'Permify is an open-source authorization as a service inspired by Google
     Zanzibar, designed to build and manage fine-grained and scalable authorization
@@ -59,19 +52,6 @@
   logo: permify.svg
   name: Permify
   repo_url: https://github.com/Permify/permify
-- crunchbase: https://www.crunchbase.com/organization/permit-io
-  description: Permit.io provides fine-grained authorization as a service (Policy-as-Code,  APIs,
-    and customer facing UI), so developers can check this as done and focus on their
-    core product. Permit.io is the maintainer of the OPAL (Open Policy Administration
-    Layer) project.
-  extra:
-    blog_url: https://www.permit.io/blog
-    slack_url: https://io.permit.io/slack
-    youtube_url: https://www.youtube.com/@permitio
-  homepage_url: https://www.permit.io
-  item: null
-  logo: permit.io.svg
-  name: Permit.io
 - crunchbase: https://www.crunchbase.com/organization/fairwinds
   homepage_url: https://www.fairwinds.com/open-source-software
   item: null
@@ -94,13 +74,3 @@
   logo: pomerium.svg
   name: Pomerium
   repo_url: https://github.com/pomerium/pomerium
-- crunchbase: https://www.crunchbase.com/organization/portshift
-  homepage_url: https://github.com/Portshift
-  item: null
-  logo: portshift.svg
-  name: Portshift
-- crunchbase: https://www.crunchbase.com/organization/prisma-cloud
-  homepage_url: https://www.paloaltonetworks.com/prisma/cloud
-  item: null
-  logo: prisma-cloud-palo-alto.svg
-  name: Prisma Cloud

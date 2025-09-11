@@ -1,39 +1,3 @@
-- crunchbase: https://www.crunchbase.com/organization/shansyan-data
-  description: ShenZhen SandStone Data Technology Co., Ltd.  is a high-tech enterprise
-    focusing on enterprise-level software-defined storage.
-  homepage_url: https://www.szsandstone.com
-  item: null
-  logo: sandstone.svg
-  name: SandStone
-- crunchbase: https://www.crunchbase.com/organization/sangfor-technologies
-  description: Sangfor Technologies is a leading global vendor of IT infrastructure
-    solutions, specializing in Cloud Computing & Network Security with a wide range
-    of products & services.
-  homepage_url: https://www.sangfor.com.cn/product-and-solution/sangfor-its/3
-  item: null
-  logo: sangfor.svg
-  name: Sangfor EDS
-- crunchbase: https://www.crunchbase.com/organization/scaleflash
-  description: ScaleFlash is a leading provider of high-performance software-defined
-    storage products and enterprise cloud solutions.
-  homepage_url: https://www.scaleflash.com
-  item: null
-  logo: scaleflash.svg
-  name: ScaleFlash
-- crunchbase: https://www.crunchbase.com/organization/scality
-  homepage_url: https://www.scality.com/products/ring/
-  item: null
-  logo: ring.svg
-  name: Scality RING
-- crunchbase: https://www.crunchbase.com/organization/simplyblock
-  description: Simplyblock is a distributed, disaggregated, cloud-native elastic block
-    storage solution for IO-heavy and latency-sensitive container workloads, available
-    in Kubernetes through our CSI StorageClass implementation.
-  homepage_url: https://simplyblock.io/
-  item: null
-  logo: simplyblock.svg
-  name: Simplyblock
-  twitter: https://twitter.com/simplyblock_io
 - crunchbase: https://www.crunchbase.com/organization/opensds
   homepage_url: https://sodafoundation.io/wp-content/uploads/2021/03/cn.png
   item: null
@@ -48,11 +12,6 @@
   open_source: false
   repo_url: https://github.com/stashed/stash
   twitter: https://twitter.com/kubestash
-- crunchbase: https://www.crunchbase.com/organization/storpool
-  homepage_url: https://www.storpool.com/
-  item: null
-  logo: storpool.svg
-  name: StorPool
 - crunchbase: https://www.crunchbase.com/organization/open-infrastructure-foundation
   homepage_url: https://docs.openstack.org/swift/latest/
   item: null
