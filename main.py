@@ -7,9 +7,10 @@ from src.pipeline.transform import (
     get_only_letter,
     get_stats_per_category,
     get_stats_per_category_per_week,
-    get_stats_by_status
+    get_stats_by_status,
+    get_items_without_repo_url
 )
-from src.pipeline.load import to_yaml, save_partial_data
+from src.pipeline.load import to_yaml, save_partial_data, generate_summary
 from src.logger import get_logger
 
 logger = get_logger(__name__)
@@ -44,6 +45,11 @@ class Cli:
 
     stats_by_status = get_stats_by_status(landscape)
     to_yaml(stats_by_status, f"{output_dir}/stats_by_status.yaml")
+
+    excluded_items = get_items_without_repo_url(landscape)
+    to_yaml(excluded_items, f"{output_dir}/excluded_items.yaml")
+
+    generate_summary(output_dir)
 
     logger.info("Landscape processing finished")
 

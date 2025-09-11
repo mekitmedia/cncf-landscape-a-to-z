@@ -17,12 +17,13 @@ The input can be configured by passing the `input_path` parameter to the `run` c
 The pipeline generates several YAML files in the `data` directory (or a configured output directory). These files contain the transformed data.
 
 - `category_index.yaml`: An index of all categories and their subcategories.
-- `category_item_index.yaml`: An index of all items in each category and subcategory.
-- `categories.yaml`: A list of all categories with their subcategories and items.
+- `category_item_index.yaml`: An index of all open-source items in each category and subcategory.
+- `categories.yaml`: A list of all categories with their subcategories and open-source items.
 - `stats_per_category.yaml`: Statistics about the number of subcategories per category.
 - `stats_per_category_per_week.yaml`: Statistics about the number of subcategories per category, per week.
-- `stats_by_status.yaml`: Statistics about the number of items per project status (e.g., graduated, incubating, sandbox).
-- `week_*/`: A directory for each week, containing the items for each category and subcategory for that week.
+- `stats_by_status.yaml`: Statistics about the number of open-source items per project status (e.g., graduated, incubating, sandbox).
+- `excluded_items.yaml`: A list of items that were excluded from the processing because they are not open-source (i.e., they do not have a `repo_url`).
+- `week_*/`: A directory for each week, containing the open-source items for each category and subcategory for that week. Each directory also contains a `README.md` file with a summary of the week's data.
 
 ## Assumptions
 
@@ -32,6 +33,7 @@ The pipeline generates several YAML files in the `data` directory (or a configur
 - Each subcategory has a `name` and a list of `items`.
 - Each item has a `name` and an optional `project` status.
 - Items with `project` status `archived` are ignored.
+- Items without a `repo_url` are considered not open-source and are excluded from the processing.
 
 ## Configurable Elements
 

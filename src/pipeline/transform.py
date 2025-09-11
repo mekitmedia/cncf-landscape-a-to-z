@@ -13,6 +13,24 @@ def make_path(c: str, s: str) -> str:
         .replace(",", "") \
         .replace("/", "_")
 
+def _is_valid_item(item: dict) -> bool:
+    """
+    This function checks if an item is valid (not archived and has a repo_url)
+    """
+    return item.get('project') != 'archived' and item.get('repo_url') is not None
+
+def get_items_without_repo_url(landscape: list) -> list:
+    """
+    This function returns a list of all items in the landscape that do not have a repo_url
+    """
+    return sorted([
+        item['name']
+        for c in landscape
+        for sub in c['subcategories']
+        for item in sub['items']
+        if item.get('repo_url') is None
+    ])
+
 def get_only_letter(x: str, landscape: list) -> dict:
     """
     This function gets the letter we want, not best performance but does the job
@@ -20,7 +38,7 @@ def get_only_letter(x: str, landscape: list) -> dict:
     logger.info(f"Filtering landscape data for letter {x}")
     return {
         make_path(c['name'], sub['name']): [
-            item for item in sub['items'] if item['name'].startswith(x) and item.get('project') != 'archived'
+            item for item in sub['items'] if item['name'].startswith(x) and _is_valid_item(item)
         ]
         for c in landscape for sub in c['subcategories']
     }
@@ -46,7 +64,7 @@ def get_items(landscape: list) -> dict:
     return {
         c['name']: {
             sub['name']: [
-                item['name'] for item in sub['items'] if item.get('project') != 'archived'
+                item['name'] for item in sub['items'] if _is_valid_item(item)
             ]
             for sub in c['subcategories']
         }
@@ -64,7 +82,7 @@ def get_all_categories(landscape: list) -> list:
             'subcategory': sub['name'],
             'path': make_path(c['name'], sub['name']),
             'items': [
-                item['name'] for item in sub['items'] if item.get('project') != 'archived'
+                item['name'] for item in sub['items'] if _is_valid_item(item)
             ]
         } for sub in c['subcategories']]
     } for c in landscape]
@@ -97,7 +115,9 @@ def get_stats_by_status(landscape: list) -> dict:
     for c in landscape:
         for sub in c['subcategories']:
             for item in sub['items']:
+                if not _is_valid_item(item):
+                    continue
                 status = item.get('project')
-                if status and status != 'archived':
+                if status:
                     stats[status] = stats.get(status, 0) + 1
     return stats
