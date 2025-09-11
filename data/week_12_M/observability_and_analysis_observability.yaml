@@ -4,18 +4,6 @@
   logo: m3.svg
   name: M3
   repo_url: https://github.com/m3db/m3
-- crunchbase: https://www.crunchbase.com/organization/hatena
-  description: The server monitoring platform we always wanted.
-  homepage_url: https://en.mackerel.io
-  item: null
-  logo: mackerel.svg
-  name: Mackerel
-  twitter: https://twitter.com/mackerelio
-- crunchbase: https://www.crunchbase.com/organization/logdna
-  homepage_url: https://www.mezmo.com/
-  item: null
-  logo: mezmo.svg
-  name: Mezmo
 - crunchbase: https://www.crunchbase.com/organization/vmware
   description: As an instrumentation facade, Micrometer allows you to instrument your
     code with dimensional metrics with a vendor-neutral interface and decide on the
@@ -37,19 +25,6 @@
   name: Micrometer
   repo_url: https://github.com/micrometer-metrics/micrometer
   twitter: https://twitter.com/micrometerio
-- crunchbase: https://www.crunchbase.com/organization/middleware-4460
-  description: Middleware is a full-stack cloud observability platform that consolidates
-    telemetry data on a unified timeline, helping developers streamline issue resolution
-    and enhance operational efficiency & user experience.
-  extra:
-    documentation_url: https://docs.middleware.io/
-    linkedin_url: https://www.linkedin.com/company/middleware-labs
-    summary_tags: observability
-  homepage_url: https://middleware.io
-  item: null
-  logo: middleware.svg
-  name: Middleware
-  twitter: https://twitter.com/middleware_labs
 - crunchbase: https://www.crunchbase.com/organization/lf-artificial-intelligence-foundation
   description: The goal of the open source Monocle project is to help GenAI developers
     trace their applications. Hosted in incubation as a Sandbox project in LF AI &

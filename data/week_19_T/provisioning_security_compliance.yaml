@@ -4,13 +4,6 @@
   logo: teleport.svg
   name: Teleport
   repo_url: https://github.com/gravitational/teleport
-- crunchbase: https://www.crunchbase.com/organization/tensorsecurity
-  description: Tensor Security is a cloud-native security company focused on providing
-    AI-based and full-stack cloud-native security solutions.
-  homepage_url: https://www.tensorsecurity.cn
-  item: null
-  logo: tensor.svg
-  name: Tensor Security
 - crunchbase: https://www.crunchbase.com/organization/tenable-network-security
   homepage_url: https://www.tenable.com/products/tenable-cs
   item: null
@@ -96,11 +89,6 @@
   logo: threatmapper.svg
   name: ThreatMapper
   repo_url: https://github.com/deepfence/ThreatMapper
-- crunchbase: https://www.crunchbase.com/organization/tigera
-  homepage_url: https://www.tigera.io/
-  item: null
-  logo: tigera.svg
-  name: Tigera
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: Tokenetes implements Transaction Tokens (TraTs) for microservices call
     chains.  It's a Kubernetes-native framework providing immutable identity and context
@@ -136,11 +124,6 @@
   name: Tracee
   repo_url: https://github.com/aquasecurity/tracee
   twitter: https://x.com/aquatracee
-- crunchbase: https://www.crunchbase.com/organization/trend-micro
-  homepage_url: https://www.trendmicro.com/en_us/business/campaigns/cloud-one-services.html
-  item: null
-  logo: trend-micro.svg
-  name: Trend Micro Cloud One
 - crunchbase: https://www.crunchbase.com/organization/aquasecurity
   description: 'Trivy is an all-in-one security scanner that beings vulnerability,
     SBOM, misconfigurations, leaked secrets, and license scanning together, across

@@ -4,12 +4,6 @@
   logo: falcon.svg
   name: Falcon
   repo_url: https://github.com/open-falcon/falcon-plus
-- crunchbase: https://www.crunchbase.com/organization/flowmill
-  homepage_url: https://www.splunk.com/en_us/investor-relations/acquisitions/flowmill.html
-  item: null
-  logo: flowmill.svg
-  name: Flowmill
-  twitter: https://twitter.com/FlowmillHQ
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   extra:
     accepted: '2016-11-08'
@@ -37,13 +31,3 @@
   project: graduated
   repo_url: https://github.com/fluent/fluentd
   twitter: https://twitter.com/fluentd
-- crunchbase: https://www.crunchbase.com/organization/thundra
-  description: Monitor workflow and test trends over time, assess the risk of code
-    changes, deal with flaky tests.
-  extra:
-    slack_url: https://discord.gg/bCtCmzP2ge
-  homepage_url: https://www.runforesight.com/
-  item: null
-  logo: foresight.svg
-  name: Foresight
-  twitter: https://twitter.com/RunForesight

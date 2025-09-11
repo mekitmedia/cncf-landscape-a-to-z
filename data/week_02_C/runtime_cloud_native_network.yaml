@@ -1,8 +1,3 @@
-- crunchbase: https://www.crunchbase.com/organization/chelsio-communications
-  homepage_url: https://www.chelsio.com/nic/unified-wire-adapters/
-  item: null
-  logo: chelsio-communications.svg
-  name: Chelsio T6 Unified Wire 100GbE Adapters
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   extra:
     accepted: '2021-10-13'
@@ -70,8 +65,3 @@
   name: Container Network Interface (CNI)
   project: incubating
   repo_url: https://github.com/containernetworking/cni
-- crunchbase: https://www.crunchbase.com/organization/cumulus-networks
-  homepage_url: https://www.nvidia.com/en-us/networking/ethernet-switching
-  item: null
-  logo: cumulus.svg
-  name: Cumulus

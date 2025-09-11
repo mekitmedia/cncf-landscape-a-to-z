@@ -1,14 +1,3 @@
-- crunchbase: https://www.crunchbase.com/organization/ibm
-  description: "IBM Db2\xAE is a family of hybrid data management products offering\
-    \ a complete suite of AI empowered capabilities designed to help you manage both\
-    \ structured and unstructured data on premises as well as in private and public\
-    \ cloud environments. Db2 is built on an intelligent common SQL engine designed\
-    \ for scalability and flexibility."
-  homepage_url: https://www.ibm.com/analytics/db2
-  item: null
-  logo: ibmdb2.svg
-  name: IBM Db2
-  twitter: https://twitter.com/IBMData
 - crunchbase: https://www.crunchbase.com/organization/red-hat
   homepage_url: https://infinispan.org/
   item: null
@@ -16,9 +5,3 @@
   name: Infinispan
   repo_url: https://github.com/infinispan/infinispan
   twitter: https://twitter.com/infinispan
-- crunchbase: https://www.crunchbase.com/organization/intersystems-2
-  homepage_url: https://www.intersystems.com/products/intersystems-iris/
-  item: null
-  logo: intersystemsiris.svg
-  name: InterSystems IRIS Data Platform
-  twitter: https://twitter.com/intersystems

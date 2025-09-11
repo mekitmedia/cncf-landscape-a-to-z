@@ -23,14 +23,6 @@
   logo: kubermatic.svg
   name: Kubermatic Kubernetes Platform
   repo_url: https://github.com/kubermatic/kubermatic
-- crunchbase: https://www.crunchbase.com/organization/china-mobile
-  description: KubeService Stack = Kubernetes + Custom Service Build a Kubernetes/KubeEdge
-    enterprise-level peripheral ecosystem
-  homepage_url: https://stack.kubeservice.cn/
-  item: null
-  logo: kubeservice-stack.svg
-  name: KubeService Stack
-  twitter: https://twitter.com/kubeservice
 - crunchbase: https://www.crunchbase.com/organization/qingcloud
   description: Kubesphere.io is an upstream project of the KubeSphere container management
     platform. Our vision is to provide an easier, more friendly and more powerful
@@ -42,10 +34,3 @@
   logo: kubesphere.svg
   name: Kubesphere
   repo_url: https://github.com/kubesphere/kubesphere
-- crunchbase: https://www.crunchbase.com/organization/kublr
-  description: Accelerate and control the deployment, scaling, monitoring and management
-    of your containerized applications.
-  homepage_url: https://kublr.com/
-  item: null
-  logo: kublr.svg
-  name: Kublr
