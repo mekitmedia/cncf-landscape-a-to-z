@@ -6,7 +6,7 @@ test.describe('Hugo Site Tests', () => {
     await page.goto('/');
 
     // Check that the page has loaded and contains the site title
-    await expect(page).toHaveTitle(/My New Hugo Site/);
+    await expect(page).toHaveTitle(/CNCF Landscape Overview/);
   });
 
   test('homepage has content', async ({ page }) => {

@@ -3,7 +3,7 @@
     <div class="post-list">
         {{ range .Pages }}
             <div class="post-item">
-                {{ if .Date.After now }}
+                {{ if .Date.After (now) }}
                     <!-- Locked Post -->
                     <div class="locked-post">
                         <span class="skeleton">Locked Content</span>
