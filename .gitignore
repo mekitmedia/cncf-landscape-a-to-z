@@ -127,3 +127,16 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.hugo_build.lock
+
+website/public
+website/resources
+
+# Node.js
+node_modules/
+
+# Playwright
+test-results/
+playwright-report/
+playwright/.cache/
+hugo

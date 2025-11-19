@@ -1,0 +1,12 @@
+name = "CNCF Theme"
+license = "MIT"
+licenselink = "https://github.com/yourname/yourrepo/blob/master/LICENSE"
+description = "A minimal theme for CNCF Landscape"
+homepage = "https://github.com/yourname/yourrepo"
+tags = ["minimal", "cncf"]
+features = []
+min_version = "0.41"
+
+[author]
+  name = "Jules"
+  homepage = ""

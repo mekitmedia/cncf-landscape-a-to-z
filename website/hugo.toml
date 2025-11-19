@@ -1,0 +1,9 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'CNCF Landscape Overview'
+theme = 'cncf-theme'
+buildFuture = true
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'

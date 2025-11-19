@@ -1,0 +1,64 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Locked State Styles */
+.post-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+
+.locked-post {
+    position: relative;
+    cursor: not-allowed;
+    color: #999;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.skeleton {
+    display: block;
+    background-color: #e0e0e0;
+    color: transparent;
+    height: 1.5em;
+    width: 60%;
+    border-radius: 4px;
+}
+
+.hover-msg {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    pointer-events: none;
+}
+
+.locked-post:hover .hover-msg {
+    display: block;
+}
+
+.locked-post:hover {
+    background-color: #f0f0f0;
+}
