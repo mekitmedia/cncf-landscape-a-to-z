@@ -8,6 +8,7 @@
     clomonitor_name: keycloak
     dev_stats_url: https://keycloak.devstats.cncf.io/
     incubating: '2023-04-10'
+    lfx_slug: keycloak
     mailing_list_url: https://groups.google.com/forum/#!forum/keycloak-user
     summary_business_use_case: 'Keycloak provides built-in cloud-native identity and
       access control standards. By delegating the security aspects of an application
@@ -49,6 +50,8 @@
   name: Keycloak
   project: incubating
   repo_url: https://github.com/keycloak/keycloak
+  second_path:
+  - CNAI / Governance, Policy & Security
   twitter: https://twitter.com/keycloak
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: Bootstrap & Maintain Trust on the Edge / Cloud and IoT.
@@ -60,6 +63,7 @@
     chat_channel: '#Keylime'
     clomonitor_name: keylime
     dev_stats_url: https://keylime.devstats.cncf.io/
+    lfx_slug: keylime
     mailing_list_url: https://keylime.groups.io/g/main
     slack_url: https://cloud-native.slack.com/messages/keylime
   homepage_url: https://keylime.dev/
@@ -95,6 +99,7 @@
     dev_stats_url: https://kubearmor.devstats.cncf.io/
     docker_url: https://hub.docker.com/r/kubearmor/kubearmor
     github_discussions_url: https://github.com/kubearmor/KubeArmor/discussions
+    lfx_slug: kubearmor
     slack_url: http://kubearmor.slack.com/
     summary_business_use_case: '1. Application Hardening
 
@@ -137,6 +142,7 @@
     clomonitor_name: kubescape
     dev_stats_url: https://kubescape.devstats.cncf.io/
     incubating: '2025-01-13'
+    lfx_slug: kubescape
     slack_url: https://cloud-native.slack.com/messages/kubescape
     summary_integrations: Prometheus, Kubernetes API, VSCode, Lens, GitHub, Jenkins
     summary_personas: DevOps, DevSecOps, Developers, Product security and CISO
@@ -170,6 +176,7 @@
     dev_stats_url: https://kubewarden.devstats.cncf.io/
     documentation_url: https://docs.kubewarden.io
     github_discussions_url: https://github.com/kubewarden/community/discussions
+    lfx_slug: kubewarden
     mailing_list_url: https://lists.cncf.io/g/cncf-kubewarden-maintainers
     package_manager_url: https://artifacthub.io/packages/search?kind=0&kind=13&ts_query_web=kubewarden&official=true&sort=relevance
     slack_url: https://kubernetes.slack.com/
@@ -221,6 +228,7 @@
     clomonitor_name: kyverno
     dev_stats_url: https://kyverno.devstats.cncf.io/
     incubating: '2022-07-13'
+    lfx_slug: kyverno
     slack_url: https://kubernetes.slack.com/
     summary_business_use_case: Policy and governance with Kyverno improves security
       posture by eliminating misconfigurations and promotes security best practices.

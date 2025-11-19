@@ -7,6 +7,7 @@
     chat_channel: '#capsule'
     clomonitor_name: capsule
     dev_stats_url: https://capsule.devstats.cncf.io/
+    lfx_slug: capsule
     slack_url: https://kubernetes.slack.com/
     summary_business_use_case: Within a singular cluster, the Capsule Controller seamlessly
       consolidates multiple namespaces into an efficient construct known as a "Tenant".
@@ -36,6 +37,7 @@
     accepted: '2023-03-07'
     clomonitor_name: clusternet
     dev_stats_url: https://clusternet.devstats.cncf.io/
+    lfx_slug: clusternet
     slack_url: https://cloud-native.slack.com/messages/clusternet
   homepage_url: https://clusternet.io
   item: null
@@ -51,6 +53,7 @@
     accepted: '2022-06-17'
     clomonitor_name: clusterpedia
     dev_stats_url: https://clusterpedia.devstats.cncf.io/
+    lfx_slug: clusterpedia
     slack_url: https://cloud-native.slack.com/messages/clusterpedia
   homepage_url: https://clusterpedia.io
   item: null
@@ -78,7 +81,9 @@
       vendor: Ada Logics
     clomonitor_name: crossplane
     dev_stats_url: https://crossplane.devstats.cncf.io/
+    graduated: '2025-10-28'
     incubating: '2021-09-14'
+    lfx_slug: crossplane
     summary_business_use_case: "Crossplane is the control plane to power your developer\
       \ platform. The cloud vendors have been building with control planes for years.\
       \ Now Crossplane helps you do the same. Control planes are self-healing\u2014\
@@ -100,7 +105,7 @@
   item: null
   logo: crossplane.svg
   name: Crossplane
-  project: incubating
+  project: graduated
   project_org: https://github.com/crossplane
   repo_url: https://github.com/crossplane/crossplane
   twitter: https://twitter.com/crossplane_io

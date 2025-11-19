@@ -5,6 +5,7 @@
     blog_url: https://score.dev/blog
     clomonitor_name: score
     dev_stats_url: https://score.devstats.cncf.io/
+    lfx_slug: score
     linkedin_url: https://www.linkedin.com/company/score-dev
     summary_integrations: Go, Kubernetes, Docker, Docker-Compose, Nginx, Gateway API,
       ORAS
@@ -25,6 +26,7 @@
     annual_review_url: https://github.com/cncf/toc/pull/1099
     clomonitor_name: serverless-workflow
     dev_stats_url: https://serverlessworkflow.devstats.cncf.io/
+    lfx_slug: serverlessworkflow
   homepage_url: https://serverlessworkflow.io
   item: null
   logo: sws_logo.svg
@@ -43,6 +45,7 @@
   extra:
     accepted: '2024-08-19'
     clomonitor_name: shipwright
+    lfx_slug: shipwright
   homepage_url: https://shipwright.io
   item: null
   logo: shipwright.svg
@@ -68,6 +71,7 @@
   extra:
     accepted: '2024-06-19'
     clomonitor_name: stacker
+    lfx_slug: stacker
   homepage_url: https://stackerbuild.io
   item: null
   logo: stacker.svg

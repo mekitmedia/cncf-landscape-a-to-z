@@ -8,6 +8,7 @@
     accepted: '2024-10-17'
     chat_channel: '#kmesh'
     clomonitor_name: kmesh
+    lfx_slug: kmesh
     slack_url: https://slack.cncf.io/
     youtube_url: https://www.youtube.com/channel/UC-ToQ9h0SR_w492PpIfZAGw
   homepage_url: https://kmesh.net
@@ -25,6 +26,7 @@
     blog_url: https://kuma.io/blog/
     clomonitor_name: kuma
     dev_stats_url: https://kuma.devstats.cncf.io/
+    lfx_slug: kuma
     summary_business_use_case: It is becoming more important then ever to ensure that
       traffic is secure, observable, and reliable. Kuma service mesh enables users
       to adopt a zero trust application networking model while providing flexible

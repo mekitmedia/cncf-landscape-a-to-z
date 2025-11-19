@@ -13,6 +13,7 @@
     annual_review_date: '2022-07-11'
     annual_review_url: https://github.com/cncf/toc/pull/874
     clomonitor_name: vineyard
+    lfx_slug: vineyard
     summary_business_use_case: Vineyard is used as a distributed immediate data store
       to share large tensors and dataframes between data scientists among a research
       division.

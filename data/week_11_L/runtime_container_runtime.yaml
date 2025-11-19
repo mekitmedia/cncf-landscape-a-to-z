@@ -6,10 +6,12 @@
     chat_channel: '#lima'
     clomonitor_name: lima
     dev_stats_url: https://lima.devstats.cncf.io/
+    incubating: '2025-10-14'
+    lfx_slug: lima
     slack_url: https://slack.cncf.io/
   homepage_url: https://github.com/lima-vm/lima
   item: null
   logo: lima.svg
   name: Lima
-  project: sandbox
+  project: incubating
   repo_url: https://github.com/lima-vm/lima

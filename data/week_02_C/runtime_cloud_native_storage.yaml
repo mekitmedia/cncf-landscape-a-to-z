@@ -4,6 +4,7 @@
     artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#carina-logos
     clomonitor_name: carina
     dev_stats_url: https://carina.devstats.cncf.io/
+    lfx_slug: carina
   homepage_url: https://carina-io.github.io/
   item: null
   logo: carina.svg
@@ -32,6 +33,7 @@
     dev_stats_url: https://chubaofs.devstats.cncf.io/
     graduated: '2024-12-11'
     incubating: '2022-07-03'
+    lfx_slug: chubaofs
     slack_url: https://cubefs.slack.com/
     summary_business_use_case: First, CubeFS has been commonly used as the datacenter
       filesystem for online applications, database or data processing services and

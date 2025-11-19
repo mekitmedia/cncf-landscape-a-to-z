@@ -6,6 +6,7 @@
     accepted: '2024-08-23'
     clomonitor_name: cartography
     dev_stats_url: https://cartography.devstats.cncf.io/
+    lfx_slug: cartography
   homepage_url: https://cartography.dev
   item: null
   logo: cartography.svg
@@ -45,6 +46,8 @@
   description: Pioneering the world of self-healing, self-aware, self-sustaining,
     self-resilient, self-secure and intelligent remediation, MatosSphere brings a
     complete cloud security and governance solution for your cloud infrastructure.
+  extra:
+    lfx_slug: matos
   homepage_url: https://www.cloudmatos.com
   item: null
   logo: cloudmatos.svg
@@ -64,6 +67,7 @@
     chat_channel: '#confidential-containers'
     clomonitor_name: confidential-containers
     dev_stats_url: https://confidentialcontainers.devstats.cncf.io/
+    lfx_slug: confcont
     slack_url: https://cloud-native.slack.com/
     youtube_url: https://www.youtube.com/@confidentialcontainers3845
   homepage_url: https://confidentialcontainers.org/
@@ -83,6 +87,7 @@
     chat_channel: '#containerssh'
     clomonitor_name: containerssh
     dev_stats_url: https://containerssh.devstats.cncf.io/
+    lfx_slug: containerssh
     slack_url: https://cloud-native.slack.com/
   homepage_url: https://containerssh.io
   item: null
@@ -97,6 +102,7 @@
     chat_channel: '#copa'
     clomonitor_name: copacetic
     dev_stats_url: https://copacetic.devstats.cncf.io/
+    lfx_slug: copacetic
     slack_url: https://cloud-native.slack.com/
   homepage_url: https://github.com/project-copacetic/copacetic
   item: null

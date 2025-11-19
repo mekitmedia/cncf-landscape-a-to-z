@@ -3,6 +3,7 @@
   extra:
     accepted: '2024-10-09'
     clomonitor_name: sermant
+    lfx_slug: sermant
   homepage_url: https://sermant.io/
   item: null
   logo: sermant.svg
@@ -10,21 +11,6 @@
   open_source: true
   project: sandbox
   repo_url: https://github.com/sermant-io/Sermant
-- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  extra:
-    accepted: '2021-06-22'
-    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#service-mesh-performance-logos
-    clomonitor_name: smp
-    dev_stats_url: https://servicemeshperformance.devstats.cncf.io/
-    mailing_list_url: https://groups.google.com/a/smp-spec.io/g/community
-    slack_url: https://cloud-native.slack.com/messages/service-mesh-performance
-  homepage_url: https://smp-spec.io/
-  item: null
-  logo: service-mesh-performance.svg
-  name: Service Mesh Performance
-  project: sandbox
-  repo_url: https://github.com/service-mesh-performance/service-mesh-performance
-  twitter: https://twitter.com/smp_spec
 - crunchbase: https://www.crunchbase.com/organization/netease-com
   homepage_url: https://github.com/slime-io
   item: null

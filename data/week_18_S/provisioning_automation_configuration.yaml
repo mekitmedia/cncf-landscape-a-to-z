@@ -5,6 +5,24 @@
   name: Salt Project
   repo_url: https://github.com/saltstack/salt
   twitter: https://twitter.com/Salt_Project_OS
+- crunchbase: https://www.crunchbase.com/organization/nokia
+  description: SDC (schema Driven Configuration) exposes any schema based configuration
+    as Kubernetes resources.
+  extra:
+    summary_integrations: Kubernetes
+    summary_personas: Network Engineers, SREs
+    summary_tags: GitOps, Network Management, Automation, Netconf, YANG
+    summary_use_case: The paradigm of schema-driven API approaches is gaining increasing
+      popularity as it facilitates programmatic interaction with systems by both machines
+      and humans. While OpenAPI schema stands out as a widely embraced system, there
+      are other notable schema approaches like YANG, among others. This project endeavors
+      to empower users with a declarative and idempotent method for seamless interaction
+      with API systems, providing a robust foundation for effective system configuration.
+  homepage_url: https://docs.sdcio.dev/
+  item: null
+  logo: sdc.svg
+  name: SDC
+  repo_url: https://github.com/sdcio/docs
 - crunchbase: https://www.crunchbase.com/organization/edgenesis
   description: Shifu is the next generation cloud native IoT development framework
     that could 10X your IoT software development

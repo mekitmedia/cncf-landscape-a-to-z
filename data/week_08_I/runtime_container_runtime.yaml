@@ -5,6 +5,7 @@
     annual_review_url: https://github.com/cncf/toc/pull/957
     clomonitor_name: inclavare
     dev_stats_url: https://inclavarecontainers.devstats.cncf.io/
+    lfx_slug: inclavarecontainers
     slack_url: https://cloud-native.slack.com/archives/C02HJJ81BD5
   homepage_url: https://github.com/inclavare-containers/
   item: null
@@ -22,12 +23,13 @@
     blog_url: https://intertwin-eu.github.io/interLink/blog/
     clomonitor_name: interlink
     dev_stats_url: https://interlink.devstats.cncf.io/
-    github_discussions_url: https://github.com/interTwin-eu/interLink/discussions
-  homepage_url: https://intertwin-eu.github.io/interLink/
+    github_discussions_url: https://github.com/interlink-hq/interLink/discussions
+    lfx_slug: interlink
+  homepage_url: https://interlink-project.dev
   item: null
   logo: interlink.svg
   name: Interlink
   project: sandbox
-  repo_url: https://github.com/interTwin-eu/interLink
+  repo_url: https://github.com/interlink-hq/interLink
   second_path:
   - Serverless / Installable Platform

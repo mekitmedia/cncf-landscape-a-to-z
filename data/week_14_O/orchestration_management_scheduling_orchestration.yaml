@@ -5,6 +5,7 @@
     annual_review_url: https://github.com/cncf/toc/pull/982
     artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#open-cluster-management-logos
     clomonitor_name: ocm
+    lfx_slug: openclustermanagement
     mailing_list_url: https://groups.google.com/g/open-cluster-management
     slack_url: https://kubernetes.slack.com/archives/C01GE7YSUUF
     youtube_url: https://www.youtube.com/channel/UC7xxOh2jBM5Jfwt3fsBzOZw
@@ -25,6 +26,7 @@
     chat_channel: '#openfunction'
     clomonitor_name: openfunction
     dev_stats_url: https://openfunction.devstats.cncf.io/
+    lfx_slug: openfunction
     slack_url: https://slack.cncf.io/
     summary_business_use_case: OpenFunction is a cloud-native open source FaaS (Function
       as a Service) platform aiming to let users focus on their business logic without

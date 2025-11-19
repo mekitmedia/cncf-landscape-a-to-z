@@ -2,6 +2,7 @@
   extra:
     accepted: '2021-01-26'
     clomonitor_name: open-gitops
+    lfx_slug: gitops-wg
   homepage_url: https://opengitops.dev/
   item: null
   logo: opengitops.svg
@@ -16,6 +17,7 @@
     annual_review_url: https://github.com/cncf/toc/pull/767
     clomonitor_name: open-kruise
     incubating: '2023-03-02'
+    lfx_slug: openkruise
   homepage_url: https://openkruise.io/
   item: null
   logo: OpenKruise.svg

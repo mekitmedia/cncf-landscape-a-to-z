@@ -1,3 +1,18 @@
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Dalec provides a declarative format for building system packages and
+    containers from those packages in a secure way for supply chain security.
+  extra:
+    accepted: '2025-10-08'
+    clomonitor_name: dalec
+    dev_stats_url: https://dalec.devstats.cncf.io/
+    lfx_slug: dalec
+  homepage_url: https://github.com/project-dalec/dalec
+  item: null
+  logo: dalec.svg
+  name: Dalec
+  project: sandbox
+  project_org: https://github.com/project-dalec
+  repo_url: https://github.com/project-dalec/dalec
 - allow_duplicate_repo: true
   crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   extra:
@@ -18,6 +33,7 @@
     dev_stats_url: https://dapr.devstats.cncf.io/
     graduated: '2024-10-30'
     incubating: '2021-11-09'
+    lfx_slug: dapr
     slack_url: https://discord.com/invite/ptHhX6jc34
     summary_business_use_case: Deliver distributed system applications in half the
       time. Dapr provides APIs that abstract away the complexity of common challenges
@@ -63,6 +79,7 @@
     accepted: '2022-01-11'
     chat_channel: '#devfile'
     clomonitor_name: devfile
+    lfx_slug: devfile
     slack_url: https://kubernetes.slack.com/messages/devfile
     summary_tags: Kubernetes, Application Lifecycle, Developer Environment, Containers
   homepage_url: https://devfile.io
@@ -76,6 +93,7 @@
     accepted: '2022-12-13'
     chat_channel: '#devspace'
     clomonitor_name: devspace
+    lfx_slug: devspace
     slack_url: https://kubernetes.slack.com/messages/devspace
   homepage_url: https://devspace.sh
   item: null

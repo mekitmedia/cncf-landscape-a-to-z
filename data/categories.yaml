@@ -10,12 +10,14 @@
     - Cadence Workflow
     - CDK for Kubernetes (CDK8s)
     - CFEngine
+    - Chaterm
     - Chef Infra
     - Cloud Custodian
     - Cloudify
     - Couler
     - Foreman
     - Goose
+    - Gthulhu
     - Juju
     - kagent
     - Kairos
@@ -47,6 +49,7 @@
     - Runme Notebooks
     - Rundeck
     - Salt Project
+    - SDC
     - Shifu
     - Terraform
     - Terranetes
@@ -106,6 +109,7 @@
     - NeuVector
     - Notary Project
     - Open Policy Administration Layer (OPAL)
+    - OAuth2 Proxy
     - Open Policy Agent (OPA)
     - Open Policy Containers
     - OpenFGA
@@ -129,6 +133,7 @@
     - Sonatype
     - Sonobuoy
     - SOPS
+    - sso
     - StackRox
     - Teleport
     - Terrascan
@@ -149,12 +154,10 @@
     - Athenz
     - Authing
     - CyberArk Conjur
-    - OAuth2 Proxy
     - ORY Hydra
     - Pinniped
     - SPIFFE
     - SPIRE
-    - sso
     - Vault
     path: provisioning_key_management
     subcategory: Key Management
@@ -221,7 +224,6 @@
     - Antrea
     - Cilium
     - Container Network Interface (CNI)
-    - DANM
     - FD.io
     - Flannel
     - Kilo
@@ -245,6 +247,7 @@
     - Apache Mesos
     - Armada
     - Azure Service Fabric
+    - Backend.AI
     - Capsule
     - Clusternet
     - Clusterpedia
@@ -293,7 +296,7 @@
     - KubeBrain
     - Nacos
     - Netflix Eureka
-    - Xline
+    - Oxia
     path: orchestration_management_coordination_service_discovery
     subcategory: Coordination & Service Discovery
   - items:
@@ -372,7 +375,6 @@
     - Linkerd
     - OpenSergo
     - Sermant
-    - Service Mesh Performance
     - Slime
     - Traefik Mesh
     path: orchestration_management_service_mesh
@@ -468,7 +470,6 @@
     - Numaflow
     - OpenMessaging
     - Pachyderm
-    - Pravega
     - Pulsar
     - RabbitMQ
     - Redpanda
@@ -490,6 +491,7 @@
     - CloudTTY
     - Coder
     - Cyclops
+    - Dalec
     - Dapr
     - Daytona
     - Devfile
@@ -577,10 +579,10 @@
     - Terramate
     - Testkube
     - Travis CI
-    - Unleash
     - werf
     - Woodpecker CI
     - Kube-burner
+    - Zuul
     path: app_definition_and_development_continuous_integration_delivery
     subcategory: Continuous Integration & Delivery
 - category: Platform
@@ -610,6 +612,7 @@
     - RKE Government
     - SIGHUP Distribution
     - Typhoon
+    - Tarook
     - vCluster
     - Wind River Studio Cloud Platform
     path: platform_certified_kubernetes_distribution
@@ -625,6 +628,7 @@
     - Gardener
     - kind
     - Kubeasz
+    - Kubeaver
     - KubeClipper
     - Kubekey
     - Kubermatic KubeOne
@@ -709,6 +713,7 @@
     - Flipt
     - GO Feature Flag
     - OpenFeature
+    - Unleash
     path: observability_and_analysis_feature_flagging
     subcategory: Feature Flagging
   - items:
@@ -795,6 +800,7 @@
     - SOFATracer
     - Sensu
     - Sentry
+    - ServiceRadar
     - Sidekick
     - SigLens
     - SkyWalking
@@ -816,8 +822,8 @@
     path: special_kubernetes_certified_service_provider
     subcategory: Kubernetes Certified Service Provider
   - items: []
-    path: special_kubernetes_training_partner
-    subcategory: Kubernetes Training Partner
+    path: special_kubernetes_and_cloud_native_training_partner
+    subcategory: Kubernetes and Cloud Native Training Partner
   - items: []
     path: special_certified_cnfs
     subcategory: Certified CNFs
@@ -990,7 +996,7 @@
     - AIBrix
     - Arks
     - KAITO
-    - Kserve
+    - KServe
     - Seldon
     - vLLM
     - llmaz

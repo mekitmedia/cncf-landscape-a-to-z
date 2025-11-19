@@ -2,6 +2,7 @@
   extra:
     accepted: '2023-12-19'
     clomonitor_name: easegress
+    lfx_slug: easegress
   homepage_url: https://megaease.com/easegress
   item: null
   logo: easegress.svg
@@ -16,6 +17,7 @@
     clomonitor_name: emissary-ingress
     dev_stats_url: https://emissaryingress.devstats.cncf.io/
     incubating: '2021-04-13'
+    lfx_slug: emissary
     summary_business_use_case: Emissary-Ingress speeds up deployment time and reduces
       the burden on platform teams by empowering developers to deploy new routes in
       a self-service manner. Platform/cloud teams can centrally manage hosts and certificates

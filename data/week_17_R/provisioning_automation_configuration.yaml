@@ -5,6 +5,7 @@
     accepted: '2025-01-21'
     clomonitor_name: runme
     dev_stats_url: https://runme.devstats.cncf.io/
+    lfx_slug: runme-notebooks
     summary_business_use_case: Document and execute operational processes like deployments,
       infrastructure management, or incident response  directly from Notebooks, ensuring
       consistency and repeatability. Automate workflows with tools like Terraform,  Helm,

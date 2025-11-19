@@ -17,6 +17,7 @@
     clomonitor_name: cortex
     dev_stats_url: https://cortex.devstats.cncf.io/
     incubating: '2020-08-20'
+    lfx_slug: cortex
     slack_url: https://cloud-native.slack.com/messages/cortex/
     summary_business_use_case: 'Your platform team can use Cortex to provide individual
       team within your organization a global view of their Prometheus metrics.

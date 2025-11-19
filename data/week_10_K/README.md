@@ -1,70 +1,70 @@
 # Summary for week_10_K
 
-This week has a total of 107 items.
+This week has a total of 108 items.
 
 
 - **Observability And Analysis Continuous Optimization**: 2 items
 
-- **Runtime Container Runtime**: 2 items
+- **App Definition And Development Continuous Integration Delivery**: 2 items
 
-- **Observability And Analysis Observability**: 8 items
+- **App Definition And Development Streaming Messaging**: 2 items
 
-- **Platform Certified Kubernetes Distribution**: 4 items
+- **Wasm Embedded Functions**: 1 items
+
+- **Platform Certified Kubernetes Installer**: 7 items
+
+- **Wasm Languages**: 1 items
+
+- **Provisioning Automation Configuration**: 11 items
+
+- **App Definition And Development Database**: 2 items
+
+- **Orchestration Management Coordination Service Discovery**: 1 items
+
+- **Cnai General Orchestration**: 2 items
+
+- **Runtime Cloud Native Network**: 3 items
 
 - **Wasm Orchestration Management**: 3 items
 
-- **Platform Certified Kubernetes Installer**: 6 items
+- **Cnai Automl**: 1 items
+
+- **Platform Certified Kubernetes Distribution**: 4 items
+
+- **Provisioning Security Compliance**: 8 items
+
+- **Observability And Analysis Observability**: 8 items
+
+- **Orchestration Management Api Gateway**: 6 items
+
+- **App Definition And Development Application Definition Image Build**: 10 items
+
+- **Platform Paas Container Service**: 2 items
+
+- **Cnai Data Architecture**: 1 items
+
+- **Cnai Ci Cd Delivery**: 1 items
+
+- **Orchestration Management Service Mesh**: 2 items
+
+- **Cnai Ml Serving**: 2 items
+
+- **Runtime Container Runtime**: 2 items
+
+- **Observability And Analysis Monitoring**: 2 items
+
+- **Runtime Cloud Native Storage**: 2 items
 
 - **Provisioning Container Registry**: 1 items
+
+- **Orchestration Management Scheduling Orchestration**: 13 items
+
+- **Serverless Installable Platform**: 1 items
+
+- **Cnai Data Science**: 1 items
+
+- **Cnai Distributed Training**: 1 items
 
 - **Cnai Governance Policy Security**: 1 items
 
 - **Observability And Analysis Chaos Engineering**: 2 items
-
-- **Cnai Data Architecture**: 1 items
-
-- **Orchestration Management Coordination Service Discovery**: 1 items
-
-- **App Definition And Development Application Definition Image Build**: 10 items
-
-- **Wasm Embedded Functions**: 1 items
-
-- **Cnai Data Science**: 1 items
-
-- **Wasm Languages**: 1 items
-
-- **App Definition And Development Streaming Messaging**: 2 items
-
-- **Cnai Ml Serving**: 2 items
-
-- **Platform Paas Container Service**: 2 items
-
-- **Orchestration Management Api Gateway**: 6 items
-
-- **Cnai General Orchestration**: 2 items
-
-- **Cnai Automl**: 1 items
-
-- **Runtime Cloud Native Network**: 3 items
-
-- **Cnai Ci Cd Delivery**: 1 items
-
-- **Serverless Installable Platform**: 1 items
-
-- **Orchestration Management Service Mesh**: 2 items
-
-- **Observability And Analysis Monitoring**: 2 items
-
-- **Provisioning Security Compliance**: 8 items
-
-- **Orchestration Management Scheduling Orchestration**: 13 items
-
-- **Provisioning Automation Configuration**: 11 items
-
-- **Runtime Cloud Native Storage**: 2 items
-
-- **App Definition And Development Database**: 2 items
-
-- **App Definition And Development Continuous Integration Delivery**: 2 items
-
-- **Cnai Distributed Training**: 1 items

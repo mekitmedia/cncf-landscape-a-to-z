@@ -13,6 +13,7 @@
     blog_url: https://www.paralus.io/blog
     clomonitor_name: paralus
     dev_stats_url: https://paralus.devstats.cncf.io/
+    lfx_slug: paralus
     slack_url: https://kubernetes.slack.com/messages/paralus
   homepage_url: https://www.paralus.io/
   item: null
@@ -29,6 +30,7 @@
     artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#parsec-logos
     clomonitor_name: parsec
     dev_stats_url: https://parsec.devstats.cncf.io/
+    lfx_slug: parsec
   homepage_url: https://parsec.community/
   item: null
   logo: parsec.svg

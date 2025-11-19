@@ -7,6 +7,7 @@
     dev_stats_url: https://spiffe.devstats.cncf.io/
     graduated: '2022-08-23'
     incubating: '2020-06-22'
+    lfx_slug: spiffe
     mailing_list_url: https://groups.google.com/a/spiffe.io/forum/#!forum/announce
     slack_url: https://slack.spiffe.io/
     summary_business_use_case: 'In today''s business environment, rapidly delivering
@@ -119,6 +120,7 @@
     dev_stats_url: https://spire.devstats.cncf.io/
     graduated: '2022-08-22'
     incubating: '2020-06-22'
+    lfx_slug: spire
     slack_url: https://slack.spiffe.io/
     summary_integration: SPIFFE, Kubernetes, Envoy, Istio, AWS, GCP, Azure, Vault,
       Cilium, CertManager

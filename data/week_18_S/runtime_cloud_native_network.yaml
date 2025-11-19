@@ -6,6 +6,7 @@
     artwork_url: https://github.com/cncf/artwork/tree/master/projects/spiderpool
     clomonitor_name: spiderpool
     dev_stats_url: https://spiderpool.devstats.cncf.io/
+    lfx_slug: spiderpool
     slack_url: https://cloud-native.slack.com/messages/spiderpool
   homepage_url: https://spidernet-io.github.io/spiderpool/
   item: null
@@ -22,6 +23,7 @@
     annual_review_date: '2023-07-11'
     annual_review_url: https://github.com/cncf/toc/pull/1115
     clomonitor_name: submariner
+    lfx_slug: submariner
   homepage_url: https://submariner.io
   item: null
   logo: submariner.svg
