@@ -43,6 +43,19 @@ def get_only_letter(x: str, landscape: list) -> dict:
         for c in landscape for sub in c['subcategories']
     }
 
+def get_tasks_for_letter(x: str, landscape: list) -> list:
+    """
+    This function returns a list of tasks (items) for a specific letter
+    """
+    logger.info(f"Getting tasks for letter {x}")
+    tasks = []
+    for c in landscape:
+        for sub in c['subcategories']:
+            for item in sub['items']:
+                if item['name'].startswith(x) and _is_valid_item(item):
+                    tasks.append(item['name'])
+    return sorted(tasks)
+
 def get_categories(landscape: list) -> dict:
     """
     This function gets the categories from the landscape data

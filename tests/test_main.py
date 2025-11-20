@@ -24,6 +24,17 @@ class TestMain(unittest.TestCase):
             'week_08_I/category_2_subcategory_2.yaml': [{'name': 'Item 3', 'repo_url': 'https://github.com/item3/item3'}],
         }
 
+        expected_tasks = {
+            'week_00_A/tasks.yaml': [
+                'An item starting with A',
+                'Another Item'
+            ],
+            'week_08_I/tasks.yaml': [
+                'Item 1',
+                'Item 3'
+            ]
+        }
+
         cli = Cli()
         cli.run(input_path='tests/test_data/landscape_with_excluded.yml', output_dir=self.test_dir)
 
@@ -45,10 +56,26 @@ class TestMain(unittest.TestCase):
                     content = yaml.safe_load(f)
                     self.assertEqual(content, expected_content)
 
+        # Check the content of the task files
+        for file_path, expected_content in expected_tasks.items():
+            self.assertTrue(os.path.exists(f'{self.test_dir}/{file_path}'))
+            with open(f'{self.test_dir}/{file_path}', 'r') as f:
+                content = yaml.safe_load(f)
+                # content is now a list of strings
+                content.sort()
+                expected_content.sort()
+                self.assertEqual(content, expected_content)
+
         # Check the content of the README.md file
         with open(f'{self.test_dir}/week_00_A/README.md', 'r') as f:
             content = f.read()
             self.assertIn('# Summary for week_00_A', content)
+            # The summary now counts all yaml files, including tasks.yaml
+            # 2 items in subcategory file + 2 items in tasks.yaml = 4 total items reported by current summary logic
+            # We might want to adjust the summary logic later, but for now let's adjust the test expectation
+            # or we can filter out tasks.yaml from the summary generation.
+            # Given the user didn't ask to change summary logic, I will filter tasks.yaml in load.py
+            # so that the summary remains about the content parts.
             self.assertIn('This week has a total of 2 items.', content)
             self.assertIn('- **Category 1 Subcategory 1**: 2 items', content)
 
