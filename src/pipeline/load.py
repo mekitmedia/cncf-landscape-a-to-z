@@ -25,6 +25,17 @@ def save_partial_data(key: str, partial_data: dict, letter: str, index: int, out
     with open(path, 'w+') as file:
         yaml.dump(partial_data[key], file)
 
+def save_tasks(tasks: list, letter: str, index: int, output_dir: str = "data"):
+    """
+    This function saves the tasks for a specific week to a yaml file
+    """
+    path = Path(f'{output_dir}/week_{str(index).zfill(2)}_{letter}')
+    path.mkdir(parents=True, exist_ok=True)
+    path = path.joinpath("tasks.yaml")
+    logger.info(f"Saving tasks to {path}")
+    with open(path, 'w+') as file:
+        yaml.dump(tasks, file)
+
 def generate_summary(output_dir: str = "data"):
     """
     This function generates a README.md file with a summary of the week's data.
@@ -41,6 +52,10 @@ def generate_summary(output_dir: str = "data"):
         total_items = 0
 
         for yaml_file in week_dir.glob("*.yaml"):
+            # Skip tasks.yaml from the summary count as it duplicates items
+            if yaml_file.name == "tasks.yaml":
+                continue
+
             with open(yaml_file, 'r') as f:
                 data = yaml.safe_load(f)
                 if data:
