@@ -8,6 +8,7 @@
     clomonitor_name: chaos-mesh
     dev_stats_url: https://chaosmesh.devstats.cncf.io/
     incubating: '2022-02-16'
+    lfx_slug: ChaosMesh
     slack_url: https://join.slack.com/t/cloud-native/shared_invite/zt-fyy3b8up-qHeDNVqbz1j8HDY6g1cY4w
     youtube_url: https://www.youtube.com/channel/UC4OwT4QTd0ML3YNnV1ybT6g
   homepage_url: https://chaos-mesh.org/
@@ -30,6 +31,7 @@
     annual_review_date: '2023-01-13'
     annual_review_url: https://github.com/cncf/toc/pull/995
     clomonitor_name: chaos-blade
+    lfx_slug: chaosblade
   homepage_url: https://chaosblade.io/
   item: null
   logo: chaosblade.svg

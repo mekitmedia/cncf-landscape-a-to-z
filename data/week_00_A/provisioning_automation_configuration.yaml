@@ -15,6 +15,7 @@
     chat_channel: '#akri'
     clomonitor_name: akri
     dev_stats_url: https://akri.devstats.cncf.io/
+    lfx_slug: akri
     slack_url: https://kubernetes.slack.com/messages/C01D9L7QE8Z
   homepage_url: https://docs.akri.sh
   item: null
@@ -42,6 +43,7 @@
   extra:
     accepted: '2024-06-18'
     clomonitor_name: atlantis
+    lfx_slug: atlantis
   homepage_url: https://www.runatlantis.io/
   item: null
   logo: atlantis.svg

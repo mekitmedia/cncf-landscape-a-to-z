@@ -9,6 +9,7 @@ App Definition and Development:
   - CloudTTY
   - Coder
   - Cyclops
+  - Dalec
   - Dapr
   - Daytona
   - Devfile
@@ -94,10 +95,10 @@ App Definition and Development:
   - Terramate
   - Testkube
   - Travis CI
-  - Unleash
   - werf
   - Woodpecker CI
   - Kube-burner
+  - Zuul
   Database:
   - Apache CarbonData
   - Apache Hadoop
@@ -185,7 +186,6 @@ App Definition and Development:
   - Numaflow
   - OpenMessaging
   - Pachyderm
-  - Pravega
   - Pulsar
   - RabbitMQ
   - Redpanda
@@ -252,7 +252,7 @@ CNAI:
   - AIBrix
   - Arks
   - KAITO
-  - Kserve
+  - KServe
   - Seldon
   - vLLM
   - llmaz
@@ -305,6 +305,7 @@ Observability and Analysis:
   - Flipt
   - GO Feature Flag
   - OpenFeature
+  - Unleash
   Observability:
   - Anteon
   - Beats
@@ -369,6 +370,7 @@ Observability and Analysis:
   - SOFATracer
   - Sensu
   - Sentry
+  - ServiceRadar
   - Sidekick
   - SigLens
   - SkyWalking
@@ -417,7 +419,7 @@ Orchestration & Management:
   - KubeBrain
   - Nacos
   - Netflix Eureka
-  - Xline
+  - Oxia
   Remote Procedure Call:
   - Apache bRPC
   - Apache Thrift
@@ -437,6 +439,7 @@ Orchestration & Management:
   - Apache Mesos
   - Armada
   - Azure Service Fabric
+  - Backend.AI
   - Capsule
   - Clusternet
   - Clusterpedia
@@ -486,7 +489,6 @@ Orchestration & Management:
   - Linkerd
   - OpenSergo
   - Sermant
-  - Service Mesh Performance
   - Slime
   - Traefik Mesh
   Service Proxy:
@@ -533,6 +535,7 @@ Platform:
   - RKE Government
   - SIGHUP Distribution
   - Typhoon
+  - Tarook
   - vCluster
   - Wind River Studio Cloud Platform
   Certified Kubernetes - Hosted:
@@ -544,6 +547,7 @@ Platform:
   - Gardener
   - kind
   - Kubeasz
+  - Kubeaver
   - KubeClipper
   - Kubekey
   - Kubermatic KubeOne
@@ -578,12 +582,14 @@ Provisioning:
   - Cadence Workflow
   - CDK for Kubernetes (CDK8s)
   - CFEngine
+  - Chaterm
   - Chef Infra
   - Cloud Custodian
   - Cloudify
   - Couler
   - Foreman
   - Goose
+  - Gthulhu
   - Juju
   - kagent
   - Kairos
@@ -615,6 +621,7 @@ Provisioning:
   - Runme Notebooks
   - Rundeck
   - Salt Project
+  - SDC
   - Shifu
   - Terraform
   - Terranetes
@@ -632,12 +639,10 @@ Provisioning:
   - Athenz
   - Authing
   - CyberArk Conjur
-  - OAuth2 Proxy
   - ORY Hydra
   - Pinniped
   - SPIFFE
   - SPIRE
-  - sso
   - Vault
   Security & Compliance:
   - APIClarity
@@ -681,6 +686,7 @@ Provisioning:
   - NeuVector
   - Notary Project
   - Open Policy Administration Layer (OPAL)
+  - OAuth2 Proxy
   - Open Policy Agent (OPA)
   - Open Policy Containers
   - OpenFGA
@@ -704,6 +710,7 @@ Provisioning:
   - Sonatype
   - Sonobuoy
   - SOPS
+  - sso
   - StackRox
   - Teleport
   - Terrascan
@@ -723,7 +730,6 @@ Runtime:
   - Antrea
   - Cilium
   - Container Network Interface (CNI)
-  - DANM
   - FD.io
   - Flannel
   - Kilo
@@ -832,7 +838,7 @@ Serverless:
 Special:
   Certified CNFs: []
   Kubernetes Certified Service Provider: []
-  Kubernetes Training Partner: []
+  Kubernetes and Cloud Native Training Partner: []
 Wasm:
   AI/Machine Learning:
   - Apache TVM

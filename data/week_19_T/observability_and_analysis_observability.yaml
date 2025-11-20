@@ -6,6 +6,7 @@
     clomonitor_name: thanos
     dev_stats_url: https://thanos.devstats.cncf.io/
     incubating: '2020-08-19'
+    lfx_slug: thanos
     slack_url: https://cloud-native.slack.com/messages/CK5RSSC10
     stack_overflow_url: https://stackoverflow.com/questions/tagged/thanos
     summary_business_use_case: global scale metrics-based monitoring and alerting
@@ -41,6 +42,7 @@
     artwork_url: https://github.com/cncf/artwork/tree/master/projects/trickster
     clomonitor_name: trickster
     dev_stats_url: https://trickster.devstats.cncf.io/
+    lfx_slug: trickster
   homepage_url: https://trickstercache.org
   item: null
   logo: trickster.svg

@@ -6,12 +6,19 @@
   logo: kubeasz.svg
   name: Kubeasz
   repo_url: https://github.com/easzlab/kubeasz
+- description: Deploy a highly available Kubernetes cluster in offline environments.
+  homepage_url: https://github.com/eb-k8s/kubeaver
+  item: null
+  logo: kubeaver.svg
+  name: Kubeaver
+  repo_url: https://github.com/eb-k8s/kubeaver
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: Manage kubernetes in the most light and convenient way.
   extra:
     accepted: '2023-06-30'
     clomonitor_name: kubeclipper
     dev_stats_url: https://kubeclipper.devstats.cncf.io/
+    lfx_slug: kubeclipper
   homepage_url: https://www.kubeclipper.io/
   item: null
   logo: kubeclipper.svg

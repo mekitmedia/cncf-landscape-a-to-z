@@ -3,6 +3,7 @@
     accepted: '2024-04-13'
     blog_url: https://kairos.io/blog/
     clomonitor_name: kairos
+    lfx_slug: kairos
     slack_url: https://cloud-native.slack.com/archives/C0707M8UEU8
     summary_business_use_case: Kairos can be utilized by businesses to deploy secure,
       consistent, and easily managed edge computing platforms across multiple locations.
@@ -46,6 +47,7 @@
     accepted: '2023-09-20'
     clomonitor_name: kcl
     dev_stats_url: https://kcl.devstats.cncf.io/
+    lfx_slug: kcl
   homepage_url: https://kcl-lang.io/
   item: null
   logo: kcl.svg
@@ -60,6 +62,7 @@
     accepted: '2025-03-04'
     clomonitor_name: kitops
     dev_stats_url: https://kitops.devstats.cncf.io/
+    lfx_slug: kitops
   homepage_url: https://kitops.org/
   item: null
   logo: kitops.svg
@@ -110,6 +113,7 @@
     accepted: '2024-04-16'
     clomonitor_name: kubean
     dev_stats_url: https://kubean.devstats.cncf.io/
+    lfx_slug: kubean
   homepage_url: https://kubean-io.github.io/kubean/
   item: null
   logo: kubean.svg
@@ -130,6 +134,7 @@
     dev_stats_url: https://kubeedge.devstats.cncf.io/
     graduated: '2024-09-11'
     incubating: '2020-09-16'
+    lfx_slug: kubeedge
     mailing_list_url: https://groups.google.com/forum/#!forum/kubeedge
     slack_url: https://kubeedge.slack.com/
     summary_business_use_case: 'KubeEdge has found widespread adoption across multiple
@@ -228,6 +233,7 @@
   extra:
     accepted: '2024-09-12'
     clomonitor_name: kusionstack
+    lfx_slug: kusionstack
   homepage_url: https://kusionstack.io/
   item: null
   logo: kusionstack.svg

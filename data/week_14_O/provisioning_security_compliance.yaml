@@ -9,6 +9,24 @@
   name: Open Policy Administration Layer (OPAL)
   repo_url: https://github.com/permitio/opal
   twitter: https://twitter.com/opal_ac
+- additional_repos:
+  - repo_name: manifests
+    repo_url: https://github.com/oauth2-proxy/manifests
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: A generic reverse proxy that provides authentication with Google, Azure,
+    OpenID Connect and many more identity providers.
+  extra:
+    accepted: '2025-10-02'
+    clomonitor_name: oauth2-proxy
+    dev_stats_url: https://oauth2-proxy.devstats.cncf.io/
+    lfx_slug: oauth2-proxy
+  homepage_url: https://oauth2-proxy.github.io/oauth2-proxy/
+  item: null
+  logo: oauth2-proxy.svg
+  name: OAuth2 Proxy
+  project: sandbox
+  project_org: https://github.com/oauth2-proxy
+  repo_url: https://github.com/oauth2-proxy/oauth2-proxy
 - allow_duplicate_repo: true
   crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   extra:
@@ -24,6 +42,7 @@
     dev_stats_url: https://opa.devstats.cncf.io/
     graduated: '2021-01-29'
     incubating: '2019-04-02'
+    lfx_slug: openpolicyagent
     slack_url: http://slack.openpolicyagent.org/
   homepage_url: https://www.openpolicyagent.org/
   item: null
@@ -42,6 +61,7 @@
     artwork_url: https://github.com/opcr-io/artwork
     clomonitor_name: opcr
     dev_stats_url: https://opcr.devstats.cncf.io/
+    lfx_slug: opcr
     slack_url: https://www.aserto.com/slack
   homepage_url: https://openpolicycontainers.com
   item: null
@@ -58,6 +78,8 @@
     artwork_url: https://github.com/openfga/community/tree/main/brand-assets
     clomonitor_name: openfga
     dev_stats_url: https://openfga.devstats.cncf.io/
+    incubating: '2025-10-28'
+    lfx_slug: openfga
     slack_url: https://cloud-native.slack.com/messages/openfga
     summary_business_use_case: Application authorization is often implemented differently
       across a company's applications and hard-coded in application code, making it
@@ -78,7 +100,7 @@
   item: null
   logo: openfga.svg
   name: OpenFGA
-  project: sandbox
+  project: incubating
   repo_url: https://github.com/openfga/openfga
   twitter: https://twitter.com/OpenFGA
 - crunchbase: https://www.crunchbase.com/organization/red-hat
@@ -102,6 +124,7 @@
     blog_url: https://dzone.com/articles/compass-compliance-part-1
     clomonitor_name: oscal-compass
     github_discussions_url: https://github.com/oscal-compass/community/discussions
+    lfx_slug: trestlegrc
     mailing_list_url: https://groups.google.com/g/oscal-compass
     slack_url: https://cloud-native.slack.com/archives/C06F3PEPNBW
     summary_personas: Regulators, Control providers, Control assessors, System owners,

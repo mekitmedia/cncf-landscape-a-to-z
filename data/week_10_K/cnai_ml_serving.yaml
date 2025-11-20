@@ -3,17 +3,28 @@
   extra:
     accepted: '2024-10-17'
     dev_stats_url: https://kaito.devstats.cncf.io/
+    lfx_slug: kaito
   homepage_url: https://kaito-project.netlify.app/
   item: null
   logo: kaito.svg
   name: KAITO
   project: sandbox
   repo_url: https://github.com/kaito-project/kaito
-- description: Highly scalable and standards based Model Inference Platform on Kubernetes
-    for Trusted AI
-  homepage_url: https://kserve.github.io/website/0.11/
+- description: Standardized Distributed Generative and Predictive AI Inference Platform
+    for Scalable, Multi-Framework Deployment on Kubernetes
+  extra:
+    accepted: '2025-09-29'
+    ai: true
+    blog_url: https://kserve.github.io/website/blog
+    dev_stats_url: https://kserve.devstats.cncf.io/
+    incubating: '2025-09-29'
+    lfx_slug: kserve
+    linkedin_url: https://www.linkedin.com/company/kserve-project
+    slack_url: http://slack.cncf.io/
+  homepage_url: https://kserve.github.io/website/
   item: null
   logo: ./k-serve-color.svg
-  name: Kserve
+  name: KServe
+  project: incubating
   repo_url: https://github.com/kserve/kserve
   unnamed_organization: true

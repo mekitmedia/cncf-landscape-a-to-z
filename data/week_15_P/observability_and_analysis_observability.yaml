@@ -21,6 +21,7 @@
     clomonitor_name: perses
     dev_stats_url: https://perses.devstats.cncf.io/
     docker_url: https://hub.docker.com/r/persesdev/perses
+    lfx_slug: perses
     slack_url: https://cloud-native.slack.com/messages/C07KQR95WBE
     summary_tags: dashboard, observability, monitoring
     summary_use_case: dashboard tool for observability data
@@ -45,6 +46,7 @@
     blog_url: https://blog.px.dev/
     clomonitor_name: pixie
     dev_stats_url: https://pixie.devstats.cncf.io/
+    lfx_slug: pixie
     slack_url: https://slackin.px.dev/
     summary_integrations: OpenTelemetry, Grafana
     summary_personas: Cluster Administrators, Developers, SREs
@@ -86,6 +88,7 @@
     dev_stats_url: https://prometheus.devstats.cncf.io/
     graduated: '2018-08-09'
     incubating: '2016-05-09'
+    lfx_slug: prometheus_del
     mailing_list_url: https://prometheus.io/community/
     slack_url: https://libera.chat/
     stack_overflow_url: https://stackoverflow.com/questions/tagged/prometheus

@@ -24,6 +24,7 @@
     chat_channel: '#slim-toolkit'
     clomonitor_name: slimtoolkit
     dev_stats_url: https://slimtoolkit.devstats.cncf.io/
+    lfx_slug: slimtoolkit
     slack_url: https://cloud-native.slack.com/
   homepage_url: https://slimtoolkit.org/
   item: null
@@ -63,6 +64,7 @@
     chat_channel: '#sops'
     clomonitor_name: sops
     dev_stats_url: https://sops.devstats.cncf.io/
+    lfx_slug: sops
     slack_url: https://cloud-native.slack.com
   homepage_url: https://github.com/getsops
   item: null

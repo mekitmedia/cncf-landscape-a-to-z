@@ -11,6 +11,7 @@
     clomonitor_name: backstage
     dev_stats_url: https://backstage.devstats.cncf.io/
     incubating: '2022-03-15'
+    lfx_slug: backstage
     slack_url: https://discord.gg/backstage-687207715902193673
     summary_integrations: Kubernetes, GitHub, GitLab, Bitbucket, Azure DevOps, Jenkins,
       and more with plugins
@@ -34,6 +35,7 @@
     clomonitor_name: buildpacks
     dev_stats_url: https://buildpacks.devstats.cncf.io/
     incubating: '2020-11-18'
+    lfx_slug: buildpacks
     slack_url: https://slack.cncf.io/
   homepage_url: https://buildpacks.io/
   item: null

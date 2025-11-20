@@ -31,6 +31,7 @@
     chat_channel: '#konveyor'
     clomonitor_name: konveyor
     dev_stats_url: https://konveyor.devstats.cncf.io/
+    lfx_slug: konveyor
     slack_url: https://slack.k8s.io
     summary_integrations: Kubernetes
     summary_personas: Enterprise Architects, Developers
@@ -82,6 +83,7 @@
     clomonitor_name: kubevela
     dev_stats_url: https://kubevela.devstats.cncf.io/
     incubating: '2023-02-27'
+    lfx_slug: kubevela
     slack_url: https://cloud-native.slack.com/archives/C01BLQ3HTJA
     summary_business_use_case: "KubeVela is an application delivery engine built with\
       \ Kubernetes control plane. KubeVela can orchestrate, deploy, and operate application\
@@ -115,6 +117,7 @@
     clomonitor_name: kubevirt
     dev_stats_url: https://kubevirt.devstats.cncf.io/
     incubating: '2022-04-19'
+    lfx_slug: kubevirt
     mailing_list_url: https://groups.google.com/g/kubevirt-dev/
     slack_url: https://kubernetes.slack.com/archives/C8ED7RKFE
     summary_intro_url: https://www.youtube.com/watch?v=uusM5SyK-vc
@@ -149,6 +152,7 @@
     artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#kudo
     clomonitor_name: kudo
     dev_stats_url: https://kudo.devstats.cncf.io/
+    lfx_slug: kudo
   homepage_url: https://kudo.dev/
   item: null
   logo: kudo.svg

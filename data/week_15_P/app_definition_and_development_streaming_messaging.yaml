@@ -5,24 +5,6 @@
   name: Pachyderm
   open_source: false
   repo_url: https://github.com/pachyderm/pachyderm
-- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  extra:
-    accepted: '2020-11-10'
-    annual_review_date: '2022-01-15'
-    annual_review_url: https://github.com/cncf/toc/pull/775
-    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#pravega-logos
-    blog_url: https://blog.pravega.io/
-    clomonitor_name: pravega
-    dev_stats_url: https://pravega.devstats.cncf.io/
-    slack_url: https://pravega-io.slack.com/
-    youtube_url: https://www.youtube.com/channel/UCiEkLCWdnjSpub76ZEZcdqw
-  homepage_url: https://cncf.pravega.io
-  item: null
-  logo: pravega.svg
-  name: Pravega
-  project: sandbox
-  repo_url: https://github.com/pravega/pravega
-  twitter: https://twitter.com/PravegaIO
 - crunchbase: https://www.crunchbase.com/organization/apache
   homepage_url: https://pulsar.apache.org/
   item: null

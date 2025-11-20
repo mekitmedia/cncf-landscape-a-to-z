@@ -3,6 +3,7 @@
     accepted: '2023-12-19'
     ai: true
     clomonitor_name: k8sgpt
+    lfx_slug: k8sgpt
   homepage_url: https://www.k8sgpt.ai
   item: null
   logo: k8sgpt.svg
@@ -22,6 +23,7 @@
     accepted: '2023-05-17'
     clomonitor_name: kepler
     dev_stats_url: https://kepler.devstats.cncf.io/
+    lfx_slug: kepler
     summary_integrations: Kubernetes, Prometheus.
     summary_personas: Developers, SREs, Sustainability Officers, IT Managers
     summary_tags: sustainability, power monitoring, observability, metrics, ebpf,
@@ -62,6 +64,7 @@
     annual_review_date: '2022-06-09'
     annual_review_url: https://github.com/cncf/toc/pull/848
     clomonitor_name: kuberhealthy
+    lfx_slug: kuberhealthy
   homepage_url: https://github.com/kuberhealthy/kuberhealthy
   item: null
   logo: kuberhealthy.svg

@@ -1,0 +1,22 @@
+{{ define "main" }}
+    <h1>{{ .Title }}</h1>
+    <div class="post-list">
+        {{ range .Pages }}
+            <div class="post-item">
+                {{ if .Date.After (now) }}
+                    <!-- Locked Post -->
+                    <div class="locked-post">
+                        <span class="skeleton">Locked Content</span>
+                        <div class="hover-msg">Subscribe to newsletter for updates!</div>
+                    </div>
+                    <div>Scheduled for: {{ .Date.Format "Jan 2, 2006" }}</div>
+                {{ else }}
+                    <!-- Available Post -->
+                    <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+                    <time>{{ .Date.Format "Jan 2, 2006" }}</time>
+                    <p>{{ .Summary }}</p>
+                {{ end }}
+            </div>
+        {{ end }}
+    </div>
+{{ end }}

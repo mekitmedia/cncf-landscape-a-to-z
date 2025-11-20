@@ -18,6 +18,14 @@
   name: Sentry
   open_source: false
   repo_url: https://github.com/getsentry/sentry
+- crunchbase: https://www.crunchbase.com/organization/carver-automation
+  description: Open Source network management and observability platform.
+  homepage_url: https://serviceradar.cloud/
+  item: null
+  logo: serviceradar.svg
+  name: ServiceRadar
+  open_source: true
+  repo_url: https://github.com/carverauto/serviceradar
 - crunchbase: https://www.crunchbase.com/organization/thundra
   description: Collect traces, exception stacks and generate logs on-demand without
     stopping & redeploying your applications.

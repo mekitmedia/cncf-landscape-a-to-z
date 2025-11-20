@@ -8,6 +8,7 @@
     clomonitor_name: karmada
     dev_stats_url: https://karmada.devstats.cncf.io/
     incubating: '2023-12-12'
+    lfx_slug: karmada
     mailing_list_url: https://groups.google.com/forum/#!forum/karmada
     slack_url: https://cloud-native.slack.com/messages/karmada
     summary_business_use_case: Managing workloads across diverse enterprise environments
@@ -52,8 +53,9 @@
     dev_stats_url: https://keda.devstats.cncf.io/
     graduated: '2023-08-22'
     incubating: '2021-08-18'
+    lfx_slug: KEDA
     slack_url: https://kubernetes.slack.com/archives/CKZJ36A5D
-    summary_release_rate: Every 3 months
+    summary_release_rate: Every 4 months
     youtube_url: https://www.youtube.com/playlist?list=PLvjRi5R9GQfASIcL4MLTfg2ZOoBdIi5Kq
   homepage_url: https://keda.sh/
   item: null
@@ -100,7 +102,9 @@
       vendor: Ada Logics
     clomonitor_name: knative
     dev_stats_url: https://knative.devstats.cncf.io/
+    graduated: '2025-09-11'
     incubating: '2022-03-02'
+    lfx_slug: knative
     mailing_list_url: https://groups.google.com/d/forum/knative-users
     slack_url: https://slack.cncf.io
     stack_overflow_url: https://stackoverflow.com/questions/tagged/knative
@@ -125,7 +129,7 @@
   item: null
   logo: knative.svg
   name: Knative
-  project: incubating
+  project: graduated
   repo_url: https://github.com/knative/serving
   second_path:
   - Serverless / Installable Platform
@@ -137,6 +141,7 @@
   extra:
     accepted: '2024-04-16'
     clomonitor_name: koordinator
+    lfx_slug: koordinator
   homepage_url: https://koordinator.sh
   item: null
   logo: Koordinator.svg
@@ -152,10 +157,7 @@
   name: KubeAdmiral
   repo_url: https://github.com/kubewharf/kubeadmiral
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  description: The Kubeflow project is dedicated to making deployments of machine
-    learning workflows on Kubernetes simple, portable and scalable by providing a
-    straightforward way to deploy best-of-breed open-source systems for ML to diverse
-    infrastructures.
+  description: Kubeflow is the foundation of tools for AI Platforms on Kubernetes.
   extra:
     accepted: '2023-07-25'
     ai: true
@@ -163,7 +165,14 @@
     clomonitor_name: kubeflow
     dev_stats_url: https://kubeflow.devstats.cncf.io/
     incubating: '2023-07-25'
+    lfx_slug: kubeflow
+    linkedin_url: https://www.linkedin.com/company/kubeflow
     mailing_list_url: https://groups.google.com/g/kubeflow-discuss
+    other_links:
+    - name: Twitter
+      url: https://x.com/kubeflow
+    - name: Bluesky
+      url: https://bsky.app/profile/kubefloworg.bsky.social
     slack_url: http://slack.cncf.io/
   homepage_url: https://kubeflow.org
   item: null
@@ -177,6 +186,8 @@
     applications running in multiple Kubernetes clusters.
   extra:
     accepted: '2025-01-21'
+    lfx_slug: kubefleet
+    slack_url: http://slack.cncf.io/
     summary_business_use_case: Streamlines resource management across multiple Kubernetes
       clusters, enhancing operational efficiency and enabling  teams to effectively
       manage Kubernetes native configurations at scale, with support for intelligent
@@ -187,9 +198,9 @@
       across a fleet of Kubernetes clusters, enabling  users to create resources on
       a hub cluster and selectively propagate them to managed clusters based on various
       criteria.
-  homepage_url: https://github.com/kubefleet-dev/kubefleet
+  homepage_url: https://kubefleet.dev/
   item: null
-  logo: cncf.svg
+  logo: kubefleet.svg
   name: KubeFleet
   project: sandbox
   repo_url: https://github.com/kubefleet-dev/kubefleet
@@ -214,6 +225,7 @@
     dev_stats_url: https://k8s.devstats.cncf.io/
     graduated: '2018-03-06'
     incubating: '2016-03-10'
+    lfx_slug: k8s
     mailing_list_url: https://groups.google.com/forum/#!forum/kubernetes-dev
     slack_url: http://slack.k8s.io/
     stack_overflow_url: https://stackoverflow.com/questions/tagged/kubernetes
@@ -236,6 +248,7 @@
     chat_channel: '#kubeslice'
     clomonitor_name: kubeslice
     devstats: https://kubeslice.devstats.cncf.io/
+    lfx_slug: kubeslice
     mailing_list_url: https://groups.google.com/g/kubeslice-dev
     slack_url: http://slack.k8s.io/
     summary_tags: kubeslice,networking,multi-cloud,multi-cluster,service mesh,control-plane,multitenancy
@@ -256,6 +269,7 @@
     chat_channel: '#kubestellar-dev'
     clomonitor_name: kubestellar
     devstats: https://kubestellar.devstats.cncf.io/
+    lfx_slug: kubestellar
     mailing_list_url: https://groups.google.com/g/kubestellar-dev
     slack_url: http://slack.k8s.io/
     summary_tags: kubestellar,cloud,orchestration,control-plane,multitenancy
@@ -277,6 +291,7 @@
     artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#kured-logos
     clomonitor_name: kured
     dev_stats_url: https://kured.devstats.cncf.io/
+    lfx_slug: kured
     mailing_list_url: https://lists.cncf.io/g/cncf-kured-dev
     slack_url: http://slack.cncf.io/
     youtube_url: https://www.youtube.com/playlist?list=PLbx4FZ4kOKnurkfQy-tbxYHySHSqq0LbX

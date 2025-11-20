@@ -16,6 +16,7 @@
     clomonitor_name: longhorn
     dev_stats_url: https://longhorn.devstats.cncf.io/
     incubating: '2021-11-04'
+    lfx_slug: longhorn
     summary_business_use_case: Anyone running a stateful workload, like database,
       kafka, elasticsearch etc, in a Kubernetes cluster.
     summary_integration: With Kubernetes via CSI.

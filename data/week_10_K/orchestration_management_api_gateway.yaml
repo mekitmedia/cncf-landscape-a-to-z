@@ -4,6 +4,7 @@
   extra:
     accepted: '2025-03-04'
     blog_url: https://kgateway.dev/blog
+    lfx_slug: kgateway
     summary_personas: Platform Engineers, DevOps Engineers, SREs, API Managers
     summary_tags: API Gateway, Envoy, Kubernetes, Gateway API, Cloud Native
     summary_use_case: 'Kgateway is the most mature and widely deployed Envoy-based
@@ -40,6 +41,7 @@
   extra:
     accepted: '2024-06-19'
     clomonitor_name: kuadrant
+    lfx_slug: kuadrant
   homepage_url: https://kuadrant.io
   item: null
   logo: kuadrant.svg

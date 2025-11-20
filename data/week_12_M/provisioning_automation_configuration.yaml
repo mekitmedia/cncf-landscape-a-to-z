@@ -22,6 +22,7 @@
     blog_url: https://meshery.io/blog/
     clomonitor_name: meshery
     dev_stats_url: https://meshery.devstats.cncf.io/
+    lfx_slug: meshery
     linkedin_url: https://www.linkedin.com/showcase/meshery
     mailing_list_url: https://meshery.io/subscribe
     slack_url: https://slack.meshery.io
@@ -58,6 +59,7 @@
     clomonitor_name: metal3-io
     dev_stats_url: https://metal3.devstats.cncf.io/
     incubating: '2025-08-14'
+    lfx_slug: metal3
     mailing_list_url: https://groups.google.com/g/metal3-dev
     slack_url: https://kubernetes.slack.com/messages/CHD49TLE7
     summary_integrations: Cluster API
