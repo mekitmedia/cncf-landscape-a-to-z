@@ -25,18 +25,43 @@ This layer is responsible for fetching the source of truth (CNCF Landscape YAML)
     *   `tasks.yaml`: List of projects with `name`, `repo_url`, `homepage`, `description`, `twitter`, etc.
     *   Summary files (README.md).
 
-### 2. Agentic Layer (Proposed)
+### 2. Agentic Layer
 
-This layer will consume the `tasks.yaml` and generate high-quality content.
+This layer consumes the `tasks.yaml` (list of projects) and generates high-quality content using **Gemini models** via Pydantic AI and Prefect.
 
-*   **Frameworks**: [Pydantic AI](https://github.com/pydantic/pydantic-ai) and [Prefect](https://www.prefect.io/).
-*   **Workflow**:
-    *   **Trigger**: Prefect flow triggers on new `tasks.yaml` or on a schedule.
-    *   **Task Processing**:
-        *   For each project in `tasks.yaml`:
-            *   **Researcher Agent**: Visits the repo URL and website. Scrapes README, documentation, and recent blog posts. Summarizes features, use cases, and recent updates.
-            *   **Writer Agent**: Takes the research output and drafts a blog post / newsletter entry following a specific tone and format.
-    *   **Review**: The drafted content is saved as Markdown files in the `website/content/posts/` directory (or a staging area).
+*   **Frameworks**: [Pydantic AI](https://github.com/pydantic/pydantic-ai), [Prefect](https://www.prefect.io/), Google Gemini.
+
+#### Workflow Steps
+
+The agentic workflow consists of the following sequential steps for each project:
+
+1.  **Input**: The agent receives a project name (from `tasks.yaml`) and looks up its metadata (Repo URL, Homepage).
+
+2.  **Research Phase (Researcher Agent)**:
+    *   **Search**: Performs a search to find the latest information, independent reviews, and community discussions.
+    *   **Scrape**: Visits the official repository (GitHub) and documentation.
+    *   **Analyze**: identifying:
+        *   **Problem Solved**: What pain point does this tool address?
+        *   **Key Features**: What are the main capabilities?
+        *   **Recent Updates**: What changed in the last release?
+        *   **Use Cases**: Who should use this and when?
+
+3.  **Drafting Phase (Writer Agent)**:
+    *   **Context**: Takes the structured research output.
+    *   **Generation**: Writes a blog post adhering to the site's style guide (engaging, informative, prioritizing discovery).
+    *   **Structure**:
+        *   Title & Hook.
+        *   "What is it?" (Clear explanation).
+        *   "Why it matters" (Value prop).
+        *   "Deep Dive" (Features/Architecture).
+        *   "Get Started" (Installation/Usage snippet).
+
+4.  **Review Phase (Critic Agent - Optional)**:
+    *   Review the draft for technical accuracy, tone, and formatting.
+    *   Request revisions if necessary.
+
+5.  **Output**:
+    *   Saves the final content as a Markdown file in `website/content/posts/YYYY-[Letter].md`.
 
 ## Release Pipeline
 
