@@ -1,0 +1,1142 @@
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Cadence is a distributed, scalable, durable, and highly available fault-oblivious
+    stateful code platform.
+  extra:
+    accepted: '2025-05-22'
+    clomonitor_name: cadence-workflow
+    dev_stats_url: https://cadence.devstats.cncf.io/
+    lfx_slug: cadence
+  homepage_url: https://cadenceworkflow.io/
+  item: null
+  logo: cadenceworkflow.svg
+  name: Cadence Workflow
+  project: sandbox
+  repo_url: https://github.com/cadence-workflow/cadence
+  subcategory: Automation & Configuration
+  twitter: https://twitter.com/CloudNativeFdn
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: CDK8s lets you define Kubernetes apps and components using familiar
+    programming languages and object-oriented APIs.
+  extra:
+    accepted: '2020-11-10'
+    annual_review_date: '2023-03-14'
+    annual_review_url: https://github.com/cncf/toc/pull/1024
+    artwork_url: https://github.com/cncf/artwork/tree/master/projects/cdk8s
+    clomonitor_name: cdk8s
+    dev_stats_url: https://cdk8s.devstats.cncf.io/
+    lfx_slug: cdk8s
+  homepage_url: https://cdk8s.io/
+  item: null
+  logo: cdk8s.svg
+  name: CDK for Kubernetes (CDK8s)
+  project: sandbox
+  repo_url: https://github.com/cdk8s-team/cdk8s
+  subcategory: Automation & Configuration
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cfengine
+  homepage_url: https://cfengine.com/
+  item: null
+  logo: cf-engine.svg
+  name: CFEngine
+  repo_url: https://github.com/cfengine/core
+  subcategory: Automation & Configuration
+- category: Provisioning
+  description: AI terminal and SSH Client for EC2, Database and Kubernetes.
+  extra:
+    blog_url: https://chaterm.ai/blog/
+  homepage_url: https://chaterm.ai/
+  item: null
+  logo: chaterm.svg
+  name: Chaterm
+  open_source: true
+  repo_url: https://github.com/chaterm/Chaterm
+  second_path:
+  - CNAI / Agentic AI
+  - Serverless / Tools
+  subcategory: Automation & Configuration
+  twitter: https://x.com/Chaterm_ai
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/chef
+  homepage_url: https://www.chef.io/
+  item: null
+  logo: chef_infra.svg
+  name: Chef Infra
+  repo_url: https://github.com/chef/chef
+  subcategory: Automation & Configuration
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2020-06-25'
+    audits:
+    - date: '2024-04-19'
+      type: security
+      url: https://ostif.org/wp-content/uploads/2024/04/Ada-Logics-security-audit-2023-report.pdf
+      vendor: Ada Logics
+    clomonitor_name: cloud-custodian
+    dev_stats_url: https://cloudcustodian.devstats.cncf.io/
+    incubating: '2022-09-14'
+    lfx_slug: c7n
+  homepage_url: https://cloudcustodian.io/
+  item: null
+  logo: cloud-custodian.svg
+  name: Cloud Custodian
+  project: incubating
+  repo_url: https://github.com/cloud-custodian/cloud-custodian
+  subcategory: Automation & Configuration
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cloudify-co
+  homepage_url: https://cloudify.co
+  item: null
+  logo: cloudify.svg
+  name: Cloudify
+  repo_url: https://github.com/cloudify-cosmo/cloudify-manager
+  subcategory: Automation & Configuration
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/ant-financial
+  homepage_url: https://couler-proj.github.io/couler/index.html
+  item: null
+  logo: couler.svg
+  name: Couler
+  repo_url: https://github.com/couler-proj/couler
+  subcategory: Automation & Configuration
+  twitter: https://twitter.com/CoulerProject
+- branch: master
+  category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Cartography is a Python tool that consolidates infrastructure assets
+    and the relationships between them in an intuitive graph view.
+  extra:
+    accepted: '2024-08-23'
+    clomonitor_name: cartography
+    dev_stats_url: https://cartography.devstats.cncf.io/
+    lfx_slug: cartography
+  homepage_url: https://cartography.dev
+  item: null
+  logo: cartography.svg
+  name: Cartography
+  project: sandbox
+  repo_url: https://github.com/cartography-cncf/cartography
+  subcategory: Security & Compliance
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cerbos
+  homepage_url: https://www.cerbos.dev/
+  item: null
+  logo: cerbos.svg
+  name: Cerbos
+  repo_url: https://github.com/cerbos/cerbos
+  subcategory: Security & Compliance
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/bridgecrew
+  description: Checkov scans cloud infrastructure configurations to find misconfigurations
+    before they are deployed. Checkov manages and analyzes infrastructure as code
+    (IaC) scan results across platforms such as Terraform, CloudFormation, Kubernetes,
+    Helm, ARM Templates and Serverless framework.
+  homepage_url: https://www.checkov.io/
+  item: null
+  logo: checkov.svg
+  name: Checkov
+  repo_url: https://github.com/bridgecrewio/checkov
+  subcategory: Security & Compliance
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/chef
+  homepage_url: https://community.chef.io/tools/chef-inspec
+  item: null
+  logo: chef_inspec.svg
+  name: Chef InSpec
+  repo_url: https://github.com/inspec/inspec
+  subcategory: Security & Compliance
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/red-hat
+  homepage_url: https://www.redhat.com/en/topics/containers/what-is-clair
+  item: null
+  logo: clair.svg
+  name: Clair
+  repo_url: https://github.com/quay/clair
+  subcategory: Security & Compliance
+  twitter: https://twitter.com/coreos
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cloudmatos
+  description: Pioneering the world of self-healing, self-aware, self-sustaining,
+    self-resilient, self-secure and intelligent remediation, MatosSphere brings a
+    complete cloud security and governance solution for your cloud infrastructure.
+  extra:
+    lfx_slug: matos
+  homepage_url: https://www.cloudmatos.com
+  item: null
+  logo: cloudmatos.svg
+  name: CloudMatos
+  repo_url: https://github.com/cloudmatos/matos
+  subcategory: Security & Compliance
+  twitter: https://twitter.com/CloudMatos
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Confidential Containers is an open source community working to enable
+    cloud native  confidential computing by leveraging Trusted Execution Environments
+    to protect  containers and data.
+  extra:
+    accepted: '2022-03-08'
+    annual_review_date: '2023-06-15'
+    annual_review_url: https://github.com/cncf/toc/pull/1084
+    artwork_url: https://github.com/cncf/artwork/tree/master/projects/confidential-containers
+    blog_url: https://confidentialcontainers.org/blog/
+    chat_channel: '#confidential-containers'
+    clomonitor_name: confidential-containers
+    dev_stats_url: https://confidentialcontainers.devstats.cncf.io/
+    lfx_slug: confcont
+    slack_url: https://cloud-native.slack.com/
+    youtube_url: https://www.youtube.com/@confidentialcontainers3845
+  homepage_url: https://confidentialcontainers.org/
+  item: null
+  logo: confidential-containers.svg
+  name: Confidential Containers
+  project: sandbox
+  repo_url: https://github.com/confidential-containers/confidential-containers
+  subcategory: Security & Compliance
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: ContainerSSH launches a new container for each SSH connection in Kubernetes,
+    Podman or Docker. The user is transparently dropped in the container and the container
+    is removed when the user disconnects. Authentication and container configuration
+    are dynamic using webhooks, no system users required.
+  extra:
+    accepted: '2022-09-14'
+    artwork_url: https://github.com/cncf/artwork/tree/master/projects/containerssh
+    chat_channel: '#containerssh'
+    clomonitor_name: containerssh
+    dev_stats_url: https://containerssh.devstats.cncf.io/
+    lfx_slug: containerssh
+    slack_url: https://cloud-native.slack.com/
+  homepage_url: https://containerssh.io
+  item: null
+  logo: containerssh.svg
+  name: ContainerSSH
+  project: sandbox
+  repo_url: https://github.com/containerssh/containerssh
+  subcategory: Security & Compliance
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2023-09-19'
+    artwork_url: https://github.com/cncf/artwork/tree/main/projects/copa
+    chat_channel: '#copa'
+    clomonitor_name: copacetic
+    dev_stats_url: https://copacetic.devstats.cncf.io/
+    lfx_slug: copacetic
+    slack_url: https://cloud-native.slack.com/
+  homepage_url: https://github.com/project-copacetic/copacetic
+  item: null
+  logo: copa.svg
+  name: Copa
+  project: sandbox
+  repo_url: https://github.com/project-copacetic/copacetic
+  subcategory: Security & Compliance
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cyber-ark-software
+  homepage_url: https://www.conjur.org
+  item: null
+  logo: conjur.svg
+  name: CyberArk Conjur
+  repo_url: https://github.com/cyberark/conjur
+  subcategory: Key Management
+  twitter: https://twitter.com/ConjurInc
+- category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2022-12-14'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#carina-logos
+    clomonitor_name: carina
+    dev_stats_url: https://carina.devstats.cncf.io/
+    lfx_slug: carina
+  homepage_url: https://carina-io.github.io/
+  item: null
+  logo: carina.svg
+  name: Carina
+  project: sandbox
+  repo_url: https://github.com/carina-io/carina
+  subcategory: Cloud Native Storage
+- category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/ceph-foundation
+  homepage_url: https://ceph.io/en
+  item: null
+  logo: ceph.svg
+  name: Ceph
+  repo_url: https://github.com/ceph/ceph
+  subcategory: Cloud Native Storage
+  twitter: https://twitter.com/Ceph
+- category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/google
+  homepage_url: https://github.com/container-storage-interface
+  item: null
+  logo: container-storage-interface-csi.svg
+  name: Container Storage Interface (CSI)
+  repo_url: https://github.com/container-storage-interface/spec
+  subcategory: Cloud Native Storage
+  twitter: https://twitter.com/GCPcloud
+- category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2019-12-16'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#cubefs-logos
+    clomonitor_name: chubao-fs
+    dev_stats_url: https://chubaofs.devstats.cncf.io/
+    graduated: '2024-12-11'
+    incubating: '2022-07-03'
+    lfx_slug: chubaofs
+    slack_url: https://cubefs.slack.com/
+    summary_business_use_case: First, CubeFS has been commonly used as the datacenter
+      filesystem for online applications, database or data processing services and
+      machine learning jobs orchestrated by Kubernetes to separate storage from compute.
+      Second, CubeFS also works as a high-performance object store compatible with
+      the S3 API. Moreover, CubeFS offers personal cloud storage on all your devices.
+    summary_integration: "Kubernetes, Helm\uFF0CPrometheus, Grafana, Docker, Nginx,\
+      \ etc."
+    summary_personas: Cloud Architects, Developers, SREs
+    summary_release_rate: Every 2 months
+    summary_tags: "Kubernetes\uFF0CFilesystem\uFF0CObject Storage\uFF0CHadoop\uFF0C\
+      Cloud Storage, Distributed, Cloud-native, Multi-tenancy, Erasure Coding"
+    summary_use_case: CubeFS is a distributed file system supports data access protocols
+      such as S3, POSIX, HDFS. It supports multiple copies and erasure code storage
+      engines, and provides users with multiple features such as multi-tenancy, multi-AZ
+      deployment, and cross-regional replication.
+  homepage_url: https://cubefs.io/
+  item: null
+  logo: cubefs.svg
+  name: CubeFS
+  project: graduated
+  repo_url: https://github.com/cubeFS/cubefs
+  subcategory: Cloud Native Storage
+  twitter: https://twitter.com/ChubaoFS
+- allow_duplicate_repo: true
+  category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2019-04-08'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#cri-o-logos
+    audits:
+    - date: '2022-06-06'
+      type: security
+      url: https://github.com/cri-o/cri-o/blob/main/security/2022_security_audit_adalogics.pdf
+      vendor: ADA Logics
+    blog_url: https://medium.com/cri-o
+    clomonitor_name: cri-o
+    dev_stats_url: https://crio.devstats.cncf.io/
+    graduated: '2023-07-19'
+    incubating: '2019-04-08'
+    lfx_slug: cri-o
+    slack_url: https://kubernetes.slack.com/messages/CAZH62UR1
+    stack_overflow_url: https://stackoverflow.com/questions/tagged/cri-o
+    summary_business_use_case: 'CRI-O  is able to tune its behavior to that of the
+      Kubelet, enabling features and performance gains through customization. It is
+      tested against a suite of thousands of tests, including the suite of Kubernetes
+      e2e tests, to ensure compatibility with Kubernetes workloads. It has long had
+      security on the forefront of its design philosophy, enabling new security knobs
+      and reducing the attack surface for the purposes of running containers in production.
+
+      '
+    summary_integrations: Kubernetes, runc, crun, youki, Kata containers, CNI, Open
+      Telemetry, Prometheus, sigstore, gRPC
+    summary_intro_url: https://github.com/cri-o/cri-o/blob/main/awesome.md
+    summary_personas: Cluster Admins, SRE, Platform Architect
+    summary_release_rate: 'Every 4 months, released in tandem with Kubernetes minor
+      releases (CRI-O 1.x.y is released soon after Kubernetes 1.x.z).
+
+      '
+    summary_tags: Container, Image, OCI, CRI, Runtime
+    summary_use_case: 'CRI-O is a secure, performant, and stable Container Runtime
+      Interface (CRI) implementation for the Kubelet to orchestrate Open Container
+      Initiative (OCI) containers in production Kubernetes environments. CRI-O''s
+      scope is only targeted at Kubernetes, and thus can be performance optimized,
+      rigorously tested and securely tuned for running containers, pods and images
+      in Kubernetes clusters.
+
+      '
+  homepage_url: https://cri-o.io/
+  item: null
+  logo: cri-o.svg
+  name: CRI-O
+  project: graduated
+  repo_url: https://github.com/cri-o/cri-o
+  subcategory: Container Runtime
+- category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2021-10-13'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#cilium-logos
+    audits:
+    - date: '2023-02-13'
+      type: security
+      url: https://github.com/cilium/cilium.io/blob/main/Security-Reports/CiliumSecurityAudit2022.pdf
+      vendor: Ada Logics
+    - date: '2023-02-13'
+      type: fuzzing
+      url: https://github.com/cilium/cilium.io/blob/main/Security-Reports/CiliumFuzzingAudit2022.pdf
+      vendor: Ada Logics
+    clomonitor_name: cilium
+    dev_stats_url: https://cilium.devstats.cncf.io/
+    graduated: '2023-10-11'
+    incubating: '2021-10-13'
+    lfx_slug: cilium
+    linkedin_url: https://www.linkedin.com/company/cilium/
+    slack_url: https://cilium.herokuapp.com/
+    stack_overflow_url: https://stackoverflow.com/questions/tagged/cilium
+    summary_business_use_case: Cilium reduces the operational complexity and cost
+      of running highly scalable and dynamic cloud native environments. By leveraging
+      eBPF, Cilium accelerates and simplifies service connectivity, makes systems
+      observable for easier monitoring and debugging, and provides deep security observability
+      and runtime enforcement.
+    summary_integration: Kubernetes, Prometheus, OpenTelemetry, Envoy, Istio, Grafana,
+      cert-manager, SPIFFE
+    summary_personas: Platform engineers, Network teams, SRE, DevOps Engineers, Security
+      teams
+    summary_release_rate: 2-3 major releases a year, plus minor and point releases
+      for bug fixes and security updates
+    summary_tags: CNI, Networking, Load Balancing, Service Mesh, Observability, Runtime
+      Security, eBPF, Cluster Mesh, Multicloud
+    summary_use_case: 'Cilium is a networking, observability, and security platform
+      based on eBPF. As a CNI, it provides a flat Layer 3 network, even across clusters.
+      Cilium enforces network policies on L3-L7 using an identity based security model.
+
+
+      Cilium implements distributed load balancing between pods and to external services
+      by replacing kube-proxy. It also has advanced functionality like ingress and
+      egress gateway, bandwidth management, service mesh, and deep network and security
+      observability through Hubble and Tetragon.'
+  homepage_url: https://cilium.io/
+  item: null
+  logo: cilium.svg
+  name: Cilium
+  project: graduated
+  repo_url: https://github.com/cilium/cilium
+  subcategory: Cloud Native Network
+  twitter: https://twitter.com/ciliumproject
+  url_for_bestpractices: https://bestpractices.coreinfrastructure.org/en/projects/1269
+- category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2017-05-23'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#cni-logos
+    clomonitor_name: cni
+    dev_stats_url: https://cni.devstats.cncf.io/
+    incubating: '2017-05-23'
+    lfx_slug: cni
+    mailing_list_url: https://groups.google.com/forum/#!forum/cni-dev
+    slack_url: https://containernetworking.slack.com
+    specification: true
+    stack_overflow_url: https://stackoverflow.com/questions/tagged/cni
+  homepage_url: https://www.cni.dev/
+  item: null
+  logo: container-network-interface-cni.svg
+  name: Container Network Interface (CNI)
+  project: incubating
+  repo_url: https://github.com/containernetworking/cni
+  subcategory: Cloud Native Network
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/clastix
+  description: Capsule implements a multi-tenant and policy-based environment in your
+    Kubernetes cluster. It is designed as a micro-services-based ecosystem with the
+    minimalist approach, leveraging only on upstream Kubernetes.
+  extra:
+    accepted: '2022-12-13'
+    chat_channel: '#capsule'
+    clomonitor_name: capsule
+    dev_stats_url: https://capsule.devstats.cncf.io/
+    lfx_slug: capsule
+    slack_url: https://kubernetes.slack.com/
+    summary_business_use_case: Within a singular cluster, the Capsule Controller seamlessly
+      consolidates multiple namespaces into an efficient construct known as a "Tenant".
+      This tenant acts as a unified group of Kubernetes Namespaces. Inside each tenant,
+      users possess the autonomy to establish their own namespaces and utilize the
+      entirety of designated resources. This design facilitates the creation of a
+      multi-tenant ecosystem within a single Kubernetes cluster.  Not only can tenants
+      be distinctly separated for enhanced operational management, but it also ensures
+      the cluster remains singular, streamlining  maintenance processes. The end result?
+      Heightened operational efficiency for administrators and significant cost savings
+      for the business.
+    summary_intro_url: https://capsule.clastix.io/docs/general/getting-started
+    summary_personas: Platform engineering,DevOps engineers,Cluster admins
+    summary_release_rate: Approximately monthly for patches and quarterly for minor
+      releases.
+    summary_tags: multitenancy,governance
+    summary_use_case: Cluster Multi-Tenancy,Policy-based tenancy
+  homepage_url: https://capsule.clastix.io
+  item: null
+  logo: capsule.svg
+  name: Capsule
+  project: sandbox
+  repo_url: https://github.com/projectcapsule/capsule
+  subcategory: Scheduling & Orchestration
+  twitter: https://twitter.com/clastixio
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2023-03-07'
+    clomonitor_name: clusternet
+    dev_stats_url: https://clusternet.devstats.cncf.io/
+    lfx_slug: clusternet
+    slack_url: https://cloud-native.slack.com/messages/clusternet
+  homepage_url: https://clusternet.io
+  item: null
+  logo: clusternet.svg
+  name: Clusternet
+  project: sandbox
+  repo_url: https://github.com/clusternet/clusternet
+  subcategory: Scheduling & Orchestration
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Clusterpedia is used for complex resources search across multiple clusters,
+    support simultaneous search of a single kind of resource  or multiple kinds of
+    resources existing in multiple clusters.
+  extra:
+    accepted: '2022-06-17'
+    clomonitor_name: clusterpedia
+    dev_stats_url: https://clusterpedia.devstats.cncf.io/
+    lfx_slug: clusterpedia
+    slack_url: https://cloud-native.slack.com/messages/clusterpedia
+  homepage_url: https://clusterpedia.io
+  item: null
+  logo: clusterpedia.svg
+  name: Clusterpedia
+  project: sandbox
+  repo_url: https://github.com/clusterpedia-io/clusterpedia
+  subcategory: Scheduling & Orchestration
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Crossplane is the cloud native control plane framework that allows
+    you to build control planes without needing to write code. Crossplane has a highly
+    extensible backend that enables you to orchestrate applications and infrastructure
+    no matter where they run and a highly configurable frontend that lets you define
+    the declarative API it offers.
+  extra:
+    accepted: '2020-06-25'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#crossplane
+    audits:
+    - date: '2023-03-23'
+      type: fuzzing
+      url: https://github.com/crossplane/crossplane/blob/master/security/ADA-fuzzing-audit-22.pdf
+      vendor: Ada Logics
+    - date: '2023-07-27'
+      type: fuzzing
+      url: https://github.com/crossplane/crossplane/blob/master/security/ADA-security-audit-23.pdf
+      vendor: Ada Logics
+    clomonitor_name: crossplane
+    dev_stats_url: https://crossplane.devstats.cncf.io/
+    graduated: '2025-10-28'
+    incubating: '2021-09-14'
+    lfx_slug: crossplane
+    summary_business_use_case: "Crossplane is the control plane to power your developer\
+      \ platform. The cloud vendors have been building with control planes for years.\
+      \ Now Crossplane helps you do the same. Control planes are self-healing\u2014\
+      they automatically correct drift. Consumers can self-service fast because control\
+      \ planes offer a single point of control for policy and permissions, and control\
+      \ planes integrate easily with other systems because they expose an API, not\
+      \ just a command-line."
+    summary_integration: Kubernetes
+    summary_intro_url: https://youtu.be/Op7usZdqN3Q
+    summary_personas: SREs, DevOps & Platform Engineers, Architects, Developers
+    summary_release_rate: Every 3 months
+    summary_tags: kubernetes,control plane,platform engineering,multi-cloud
+    summary_use_case: Crossplane allows you to build control planes without needing
+      to write code. Crossplane has a highly extensible backend that enables you to
+      orchestrate applications and infrastructure no matter where they run, and a
+      highly configurable frontend that lets you define the declarative API it offers.
+    youtube_url: https://www.youtube.com/channel/UC19FgzMBMqBro361HbE46Fw
+  homepage_url: https://crossplane.io/
+  item: null
+  logo: crossplane.svg
+  name: Crossplane
+  project: graduated
+  project_org: https://github.com/crossplane
+  repo_url: https://github.com/crossplane/crossplane
+  subcategory: Scheduling & Orchestration
+  twitter: https://twitter.com/crossplane_io
+  url_for_bestpractices: https://www.bestpractices.dev/en/projects/3260
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2017-02-27'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/graduated.md#coredns-logos
+    audits:
+    - date: '2018-02-03'
+      type: security
+      url: https://coredns.io/assets/DNS-01-report.pdf
+      vendor: Cure53
+    blog_url: https://coredns.io/blog/
+    clomonitor_name: core-dns
+    dev_stats_url: https://coredns.devstats.cncf.io/
+    graduated: '2019-01-24'
+    incubating: '2018-02-26'
+    lfx_slug: coredns
+    mailing_list_url: https://groups.google.com/forum/#!forum/coredns-discuss
+    slack_url: https://cloud-native.slack.com/messages/coredns/
+    stack_overflow_url: https://stackoverflow.com/questions/tagged/coredns
+    youtube_url: https://www.youtube.com/channel/UCbWRJZxiaQ8twm6sh7UymoQ
+  homepage_url: https://coredns.io/
+  item: null
+  logo: core-dns.svg
+  name: CoreDNS
+  project: graduated
+  repo_url: https://github.com/coredns/coredns
+  subcategory: Coordination & Service Discovery
+  twitter: https://twitter.com/corednsio
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/bytedance
+  description: CloudWeGo is ByteDance's open source Golang-centric middleware that
+    can be used to quickly build enterprise-class cloud native architectures.
+  homepage_url: https://www.cloudwego.io/
+  item: null
+  logo: cloudwego.svg
+  name: CloudWeGo
+  repo_url: https://github.com/cloudwego/kitex
+  subcategory: Remote Procedure Call
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/buf-technologies
+  description: Connect is a family of libraries for building browser and gRPC-compatible
+    HTTP APIs.
+  extra:
+    accepted: '2024-04-13'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#connect-rpc-logos
+    blog_url: https://buf.build/blog
+    clomonitor_name: connect-rpc
+    dev_stats_url: https://connect.devstats.cncf.io
+    lfx_slug: connect
+  homepage_url: https://connectrpc.com/
+  item: null
+  logo: connect-rpc.svg
+  name: Connect RPC
+  project: sandbox
+  repo_url: https://github.com/connectrpc/connect-go
+  subcategory: Remote Procedure Call
+  twitter: https://twitter.com/connectrpc
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/caddy-2315
+  description: Caddy is a powerful, enterprise-ready, open source web server with
+    automatic HTTPS written in Go
+  homepage_url: https://caddyserver.com/
+  item: null
+  logo: caddy.svg
+  name: Caddy
+  repo_url: https://github.com/caddyserver/caddy
+  subcategory: Service Proxy
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2020-07-07'
+    audits:
+    - date: '2021-12-01'
+      type: security
+      url: https://github.com/projectcontour/contour/blob/main/Contour_Security_Audit_Dec2020.pdf
+      vendor: Cure53
+    clomonitor_name: contour
+    dev_stats_url: https://contour.devstats.cncf.io/
+    incubating: '2020-07-07'
+    lfx_slug: contour
+    slack_url: https://kubernetes.slack.com/messages/contour
+  homepage_url: https://projectcontour.io
+  item: null
+  logo: contour.svg
+  name: Contour
+  project: incubating
+  repo_url: https://github.com/projectcontour/contour
+  subcategory: Service Proxy
+  twitter: https://twitter.com/projectcontour
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/hashicorp
+  homepage_url: https://www.consul.io/
+  item: null
+  logo: consul.svg
+  name: Consul
+  repo_url: https://github.com/hashicorp/consul
+  subcategory: Service Mesh
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/apache
+  homepage_url: https://cassandra.apache.org/_/index.html
+  item: null
+  logo: cassandra.svg
+  name: Cassandra
+  repo_url: https://github.com/apache/cassandra
+  subcategory: Database
+  twitter: https://twitter.com/cassandra
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/clickhouse
+  homepage_url: https://clickhouse.com
+  item: null
+  logo: clickhouse.svg
+  name: ClickHouse
+  repo_url: https://github.com/ClickHouse/ClickHouse
+  subcategory: Database
+  twitter: https://twitter.com/clickhousedb
+- branch: main
+  category: App Definition and Development
+  description: CloudNativePG is a comprehensive platform designed to seamlessly manage
+    PostgreSQL databases within Kubernetes environments, covering the entire operational
+    lifecycle from initial deployment to ongoing maintenance
+  extra:
+    accepted: '2025-01-21'
+    artwork_url: https://github.com/cncf/artwork/blob/main/examples/sandbox.md#cloudnativepg-logos
+    bluesky_url: https://bsky.app/profile/cloudnativepg.bsky.social
+    clomonitor_name: cloudnative-pg
+    dev_stats_url: https://cloudnativepg.devstats.cncf.io/
+    documentation_url: https://cloudnative-pg.io/docs/
+    lfx_slug: cloudnativepg
+    linkedin_url: https://www.linkedin.com/company/cloudnative-pg/
+    stack_overflow_url: https://stackoverflow.com/questions/tagged/cloudnative-pg
+    summary_personas: Developers, Platform Engineers, PostgreSQL Administrators, DBAs
+    summary_tags: PostgreSQL,Postgres,RDBMS,Database,Transactional Database,Microservice
+      Database,OLTP,AI/ML
+    youtube_url: https://www.youtube.com/channel/UCTGH88W1BiuRRPTzJUDPJyA
+  homepage_url: https://www.cloudnative-pg.io/
+  item: null
+  joined: '2025-01-21'
+  logo: cloudnative-pg.svg
+  name: CloudNativePG
+  project: sandbox
+  repo_url: https://github.com/cloudnative-pg/cloudnative-pg
+  subcategory: Database
+  twitter: https://x.com/CloudNativePg
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/cockroach-labs
+  homepage_url: https://www.cockroachlabs.com/
+  item: null
+  logo: cockroach-labs.svg
+  name: CockroachDB
+  open_source: false
+  repo_url: https://github.com/cockroachdb/cockroach
+  subcategory: Database
+  twitter: https://twitter.com/CockroachDB
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/couchbase
+  homepage_url: https://www.couchbase.com/
+  item: null
+  logo: couchbase.svg
+  name: Couchbase
+  repo_url: https://github.com/couchbase/manifest
+  subcategory: Database
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/crate-technology
+  homepage_url: https://crate.io/
+  item: null
+  logo: crateio.svg
+  name: Crate.io
+  repo_url: https://github.com/crate/crate
+  subcategory: Database
+  twitter: https://twitter.com/Crateio
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/crunchy-data-solutions-inc-
+  homepage_url: https://www.crunchydata.com
+  item: null
+  logo: crunchy-data.svg
+  name: Crunchy Postgres Operator
+  repo_url: https://github.com/CrunchyData/postgres-operator
+  subcategory: Database
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/juxt-8452
+  homepage_url: https://xtdb.com/index.html
+  item: null
+  logo: crux.svg
+  name: Crux
+  repo_url: https://github.com/xtdb/xtdb
+  subcategory: Database
+  twitter: https://twitter.com/juxtpro
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf
+  homepage_url: https://cdevents.dev
+  item: null
+  logo: cdevents.svg
+  name: CDEvents
+  repo_url: https://github.com/cdevents/spec
+  subcategory: Streaming & Messaging
+  twitter: https://twitter.com/_cdevents
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Standardizing common eventing metadata and their location to help with
+    event identification and routing.
+  extra:
+    accepted: '2018-05-15'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#cloudevents-logos
+    audits:
+    - date: '2022-11-28'
+      type: security
+      url: https://ostif.org/wp-content/uploads/2022/11/CloudEvents.pdf
+      vendor: Trail of Bits
+    clomonitor_name: cloudevents
+    dev_stats_url: https://cloudevents.devstats.cncf.io/
+    graduated: '2024-01-25'
+    incubating: '2019-10-24'
+    lfx_slug: cloudevents
+    slack_url: https://cloud-native.slack.com/messages/cloudevents
+    specification: true
+    stack_overflow_url: https://stackoverflow.com/questions/tagged/cloudevents
+    summary_business_use_case: CloudEvents is a specification for describing event
+      data in common formats to provide interoperability across services, platforms
+      and systems.
+    summary_integration: Knative, Dapr
+    summary_intro_url: https://github.com/cloudevents/spec/blob/main/cloudevents/primer.md
+    summary_languages: CSharp, Go, Java, Javascript, PHP, PowerShell, Python, Ruby,
+      Rust
+    summary_personas: Developers, Platform engineers
+    summary_release_rate: '2019-10-24'
+    summary_tags: events,eventing,serverless
+    summary_use_case: Standardizing common eventing metadata and their location to
+      help with event identification and routing.
+  homepage_url: https://cloudevents.io/
+  item: null
+  joined: '2018-05-15'
+  logo: cloud-events.svg
+  name: CloudEvents
+  project: graduated
+  project_org: https://github.com/cloudevents
+  repo_url: https://github.com/cloudevents/spec
+  subcategory: Streaming & Messaging
+  twitter: https://twitter.com/cloudeventsio
+  url_for_bestpractices: https://bestpractices.coreinfrastructure.org/en/projects/6770
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Carvel provides a set of reliable, single-purpose, composable tools
+    that aid in your application building, configuration, and deployment to Kubernetes.
+  extra:
+    accepted: '2022-09-14'
+    artwork_url: https://github.com/cncf/artwork/tree/master/projects/carvel
+    blog_url: https://carvel.dev/blog/
+    clomonitor_name: carvel
+    dev_stats_url: https://carvel.devstats.cncf.io/
+    lfx_slug: carvel
+    slack_url: https://kubernetes.slack.com/archives/CH8KCCKA5
+    stack_overflow_url: https://stackoverflow.com/search?q=carvel&s=f9889d50-ba31-48ca-9919-414b961bd6ce
+  homepage_url: https://carvel.dev
+  item: null
+  logo: carvel.svg
+  name: Carvel
+  project: sandbox
+  repo_url: https://github.com/carvel-dev/ytt
+  subcategory: Application Definition & Image Build
+  twitter: https://twitter.com/carvel_dev
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/chef
+  homepage_url: https://community.chef.io/tools/chef-habitat
+  item: null
+  logo: chef_habitat.svg
+  name: Chef Habitat
+  repo_url: https://github.com/habitat-sh/habitat
+  subcategory: Application Definition & Image Build
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/cloudark
+  description: Build SaaS for your containerized applications
+  homepage_url: https://cloudark.io/kubeplus
+  item: null
+  logo: cloudark-kubeplus.svg
+  name: CloudARK KubePlus
+  repo_url: https://github.com/cloud-ark/kubeplus
+  subcategory: Application Definition & Image Build
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/daocloud
+  description: A Friendly Kubernetes CloudShell (Web Terminal)
+  homepage_url: https://cloudtty.github.io/cloudtty/
+  item: null
+  logo: CloudTTY.svg
+  name: CloudTTY
+  repo_url: https://github.com/cloudtty/cloudtty
+  subcategory: Application Definition & Image Build
+- category: App Definition and Development
+  description: Self-hosted cloud development environments consistently provisioned
+    as code and pre-configured for developer activity on day one.
+  extra:
+    blog_url: https://coder.com/blog
+    discord_url: https://coder.com/chat
+    documentation_url: https://coder.com/docs
+    linkedin_url: https://www.linkedin.com/company/coderhq/
+    youtube_url: https://www.youtube.com/@CoderHQ
+  homepage_url: https://www.coder.com/
+  item: null
+  logo: coder.svg
+  name: Coder
+  repo_url: https://github.com/coder/coder
+  subcategory: Application Definition & Image Build
+  twitter: https://x.com/coderhq
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/cyclops-b209
+  description: Cyclops is a customizable UI for Kubernetes workloads.
+  extra:
+    blog_url: https://cyclops-ui.com/blog
+    slack_url: https://discord.com/invite/8ErnK3qDb3
+    youtube_url: https://www.youtube.com/@cyclops-ui-un2js
+  homepage_url: https://cyclops-ui.com/
+  item: null
+  logo: cyclops.svg
+  name: Cyclops
+  repo_url: https://github.com/cyclops-ui/cyclops
+  subcategory: Application Definition & Image Build
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/vmware
+  description: Cartographer is a Kubernetes-native Choreographer providing higher
+    modularity and scalability for the software supply chain.
+  extra:
+    slack_url: https://kubernetes.slack.com/archives/C02HKPSEKV1
+  homepage_url: https://cartographer.sh/
+  item: null
+  logo: cartographer.svg
+  name: Cartographer
+  repo_url: https://github.com/vmware-tanzu/cartographer
+  subcategory: Continuous Integration & Delivery
+  twitter: https://twitter.com/OssCartographer
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/vmware
+  homepage_url: https://concourse-ci.org/
+  item: null
+  logo: concourse.svg
+  name: Concourse
+  repo_url: https://github.com/concourse/concourse
+  subcategory: Continuous Integration & Delivery
+  twitter: https://twitter.com/concourseci
+- category: Platform
+  crunchbase: https://www.crunchbase.com/organization/canonical-ltd
+  description: Deploy, scale and upgrade Kubernetes clusters across multiple physical
+    or virtual machines with Charmed Kubernetes.
+  homepage_url: https://ubuntu.com/kubernetes
+  item: null
+  logo: canonical-charmed-distribution-of-kubernetes.svg
+  name: Canonical Charmed Kubernetes
+  repo_url: https://github.com/charmed-kubernetes/bundle
+  subcategory: Certified Kubernetes - Distribution
+- category: Platform
+  crunchbase: https://www.crunchbase.com/organization/edgeless-systems
+  description: Constellation leverages confidential computing to isolate entire Kubernetes
+    clusters from the infrastructure.
+  homepage_url: https://www.edgeless.systems/products/constellation/
+  item: null
+  logo: constellation.svg
+  name: Constellation
+  repo_url: https://github.com/edgelesssys/constellation
+  subcategory: Certified Kubernetes - Distribution
+- category: Platform
+  crunchbase: https://www.crunchbase.com/organization/catalyst-cloud
+  description: Catalyst Kubernetes Service makes it easy for you to deploy, manage,
+    and scale Kubernetes clusters to run containerised applications on the Catalyst
+    Cloud.
+  homepage_url: https://catalystcloud.nz/services/paas/kubernetes/
+  item: null
+  logo: catalyst-cloud.svg
+  name: Catalyst Kubernetes Service
+  repo_url: https://github.com/catalyst-cloud/magnum
+  subcategory: Certified Kubernetes - Hosted
+- category: Platform
+  crunchbase: https://www.crunchbase.com/organization/cybozu
+  description: Cybozu Kubernetes Engine, a distributed service that automates Kubernetes
+    cluster management.
+  homepage_url: https://github.com/cybozu-go/cke
+  item: null
+  logo: cybozu.svg
+  name: Cybozu Kubernetes Engine
+  repo_url: https://github.com/cybozu-go/cke
+  subcategory: Certified Kubernetes - Installer
+- category: Platform
+  crunchbase: https://www.crunchbase.com/organization/cloud-foundry
+  description: Cloud Foundry Application Runtime utilizes containers as part of its
+    DNA, and has since before Docker popularized containers. The new CF Container
+    Runtime gives you more granular control and management of containers with Kubernetes.
+  homepage_url: https://www.cloudfoundry.org/working-groups
+  item: null
+  logo: cloudfoundry-applicationruntime.svg
+  name: Cloud Foundry Application Runtime
+  repo_url: https://github.com/cloudfoundry/cli
+  subcategory: PaaS/Container Service
+- category: Platform
+  description: Cozystack is a free PaaS platform and framework for building private
+    clouds and providing users/customers with managed Kubernetes,  KubeVirt-based
+    VMs, databases as a service, NATS, message brokers, etc. with GPU support in VMs
+    and Kubernetes clusters.
+  extra:
+    accepted: '2025-03-04'
+    dev_stats_url: https://cozystack.devstats.cncf.io/
+    lfx_slug: cozystack
+    summary_business_use_case: With Cozystack managed service providers, hosting providers,
+      data centers could offer their customers  different managed services like Kubernetes,
+      VMs, databases to compete with hyperscalers like AWS and GCP. Banks, fintechs
+      and other organizations use Cozystack for building clouds on bare metal to achieve
+      digital sovereignty  and take back control on their data. AI oriented companies
+      could use it for running AI workloads in K8s clusters and VMs as well.
+    summary_personas: Cloud Architects, Platform Engineers, DevOps Engineers, SRE
+      Engineers, Kubernetes Architects, System Administrators, Developers.
+    summary_tags: bare metal, platform, cloud, private cloud, managed services, managed
+      Kubernetes, KubeVirt
+    summary_use_case: Provides users with managed services and ready-to-use dev environments.
+  homepage_url: https://cozystack.io
+  item: null
+  logo: cozystack.svg
+  name: Cozystack
+  project: sandbox
+  repo_url: https://github.com/cozystack/cozystack
+  second_path:
+  - CNAI / General Orchestration
+  subcategory: PaaS/Container Service
+- category: Serverless
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  homepage_url: https://landscape.cncf.io/
+  item: null
+  logo: cloud-native-landscape.svg
+  name: Cloud Native Landscape
+  repo_url: https://github.com/cncf/landscapeapp
+  subcategory: Tools
+- category: Serverless
+  crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+  homepage_url: https://aws.amazon.com/blogs/developer/chalice-1-0-0-ga-release/
+  item: null
+  logo: chalice.svg
+  name: Chalice
+  repo_url: https://github.com/aws/chalice
+  subcategory: Framework
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2020-07-14'
+    annual_review_date: '2022-10-18'
+    annual_review_url: https://github.com/cncf/toc/pull/944
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#chaos-mesh-logos
+    blog_url: https://chaos-mesh.org/blog/
+    clomonitor_name: chaos-mesh
+    dev_stats_url: https://chaosmesh.devstats.cncf.io/
+    incubating: '2022-02-16'
+    lfx_slug: ChaosMesh
+    slack_url: https://join.slack.com/t/cloud-native/shared_invite/zt-fyy3b8up-qHeDNVqbz1j8HDY6g1cY4w
+    youtube_url: https://www.youtube.com/channel/UC4OwT4QTd0ML3YNnV1ybT6g
+  homepage_url: https://chaos-mesh.org/
+  item: null
+  logo: chaos-mesh.svg
+  name: Chaos Mesh
+  project: incubating
+  repo_url: https://github.com/chaos-mesh/chaos-mesh
+  subcategory: Chaos Engineering
+  twitter: https://twitter.com/chaos_mesh
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/chaosiq
+  homepage_url: https://chaostoolkit.org/
+  item: null
+  logo: chaos-toolkit.svg
+  name: Chaos Toolkit
+  repo_url: https://github.com/chaostoolkit/chaostoolkit
+  subcategory: Chaos Engineering
+  twitter: https://twitter.com/chaostoolkit
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2021-04-28'
+    annual_review_date: '2023-01-13'
+    annual_review_url: https://github.com/cncf/toc/pull/995
+    clomonitor_name: chaos-blade
+    lfx_slug: chaosblade
+  homepage_url: https://chaosblade.io/
+  item: null
+  logo: chaosblade.svg
+  name: Chaosblade
+  project: sandbox
+  repo_url: https://github.com/chaosblade-io/chaosblade
+  subcategory: Chaos Engineering
+  twitter: https://twitter.com/ChaosbladeI
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/centreon
+  homepage_url: https://www.centreon.com/
+  item: null
+  logo: centreon.svg
+  name: Centreon
+  repo_url: https://github.com/centreon/centreon
+  subcategory: Observability
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/tribe29
+  homepage_url: https://checkmk.com/
+  item: null
+  logo: checkmk.svg
+  name: Checkmk
+  repo_url: https://github.com/Checkmk/checkmk
+  subcategory: Observability
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2018-09-20'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#cortex-logos
+    clomonitor_name: cortex
+    dev_stats_url: https://cortex.devstats.cncf.io/
+    incubating: '2020-08-20'
+    lfx_slug: cortex
+    slack_url: https://cloud-native.slack.com/messages/cortex/
+    summary_business_use_case: 'Your platform team can use Cortex to provide individual
+      team within your organization a global view of their Prometheus metrics.
+
+      '
+    summary_integrations: Grafana, Prometheus, Slack, PagerDuty, Webhook, AWS SNS,
+      etc.
+    summary_release_rate: Every few months
+    summary_tags: observability, prometheus
+    summary_use_case: Horizontally scalable, highly available, multi-tenant, long
+      term storage for Prometheus.
+  homepage_url: https://cortexmetrics.io/
+  item: null
+  logo: cortex.svg
+  name: Cortex
+  project: incubating
+  repo_url: https://github.com/cortexproject/cortex
+  subcategory: Observability
+  twitter: https://twitter.com/cortexmetrics
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/coroot
+  homepage_url: https://coroot.com/
+  item: null
+  logo: coroot.svg
+  name: Coroot
+  repo_url: https://github.com/coroot/coroot
+  subcategory: Observability
+  twitter: https://twitter.com/coroot_com
+- category: Wasm
+  description: Compiled language to Wasm
+  homepage_url: https://isocpp.org/
+  item: null
+  logo: cpp.svg
+  name: C++
+  repo_url: https://github.com/cplusplus/draft
+  subcategory: Languages
+  unnamed_organization: true
+- category: Wasm
+  crunchbase: https://www.crunchbase.com/organization/casper-association
+  homepage_url: https://casper.network/
+  item: null
+  logo: casper.svg
+  name: Casper
+  repo_url: https://github.com/casper-network/casper-node
+  subcategory: Decentralized Platforms
+- category: Wasm
+  crunchbase: https://www.crunchbase.com/organization/cosmwasm
+  homepage_url: https://cosmwasm.com/
+  item: null
+  logo: cosmwasm.svg
+  name: CosmWasm
+  repo_url: https://github.com/CosmWasm/cosmwasm
+  subcategory: Decentralized Platforms
+- category: CNAI
+  description: The AI-native open-source embedding database.
+  homepage_url: https://github.com/chroma-core/chroma
+  item: null
+  logo: ./chroma.svg
+  name: Chroma
+  repo_url: https://github.com/chroma-core/chroma
+  subcategory: Vector Databases
+  unnamed_organization: true
+- category: CNAI
+  description: Free analytics DBMS for big data.
+  homepage_url: https://github.com/ClickHouse/ClickHouse
+  item: null
+  logo: ./clickhouse.svg
+  name: ClickHouse
+  repo_url: https://github.com/ClickHouse/ClickHouse
+  subcategory: Data Architecture
+  unnamed_organization: true
+- category: CNAI
+  description: A free and open source, distributed, wide-column store, NoSQL database
+    management system designed to handle large amounts of data across many commodity
+    servers, providing high availability with no single point of failure.
+  homepage_url: https://cassandra.apache.org/
+  item: null
+  logo: ./cassandra.svg
+  name: Cassandra
+  repo_url: https://github.com/apache/cassandra
+  subcategory: Data Architecture
+  unnamed_organization: true

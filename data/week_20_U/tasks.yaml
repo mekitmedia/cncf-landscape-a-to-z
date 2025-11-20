@@ -1,0 +1,32 @@
+- category: Provisioning
+  description: Updatecli is a declarative dependency management tool for Git repositories.
+  homepage_url: https://www.updatecli.io/
+  item: null
+  logo: updatecli.svg
+  name: Updatecli
+  organization:
+    name: updatecli
+  repo_url: https://github.com/updatecli/updatecli
+  subcategory: Automation & Configuration
+  twitter: https://twitter.com/updatecliio
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/bricks-software
+  description: Open-source feature management platform
+  extra:
+    blog_url: https://docs.openfeature.dev/blog
+    slack_url: https://slack.unleash.run
+    youtube_url: https://www.youtube.com/@getunleash
+  homepage_url: https://www.getunleash.io/
+  item: null
+  logo: unleash.svg
+  name: Unleash
+  repo_url: https://github.com/Unleash/unleash
+  subcategory: Feature Flagging
+- category: Wasm
+  crunchbase: https://www.crunchbase.com/organization/unikraft
+  homepage_url: https://unikraft.org/
+  item: null
+  logo: unikraft.svg
+  name: Unikraft
+  repo_url: https://github.com/unikraft/unikraft
+  subcategory: Edge/Bare metal

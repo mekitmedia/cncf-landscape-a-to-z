@@ -1,0 +1,174 @@
+- category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2021-09-14'
+    annual_review_date: '2022-11-06'
+    annual_review_url: https://github.com/cncf/toc/pull/957
+    clomonitor_name: inclavare
+    dev_stats_url: https://inclavarecontainers.devstats.cncf.io/
+    lfx_slug: inclavarecontainers
+    slack_url: https://cloud-native.slack.com/archives/C02HJJ81BD5
+  homepage_url: https://github.com/inclavare-containers/
+  item: null
+  logo: inclavare.svg
+  name: Inclavare Containers
+  project: sandbox
+  repo_url: https://github.com/inclavare-containers/inclavare-containers
+  subcategory: Container Runtime
+- category: Runtime
+  description: InterLink aims to provide an abstraction for the execution of a Kubernetes
+    pod on any remote resource capable of managing a Container execution lifecycle
+    thanks to the Virtual Kubelet interface. It allows you to extend your cloud environment
+    anywhere by running Kubernetes workloads on various infrastructures, creating
+    a seamless cloud-native experience across diverse environments.
+  extra:
+    accepted: '2025-03-04'
+    blog_url: https://intertwin-eu.github.io/interLink/blog/
+    clomonitor_name: interlink
+    dev_stats_url: https://interlink.devstats.cncf.io/
+    github_discussions_url: https://github.com/interlink-hq/interLink/discussions
+    lfx_slug: interlink
+  homepage_url: https://interlink-project.dev
+  item: null
+  logo: interlink.svg
+  name: Interlink
+  project: sandbox
+  repo_url: https://github.com/interlink-hq/interLink
+  second_path:
+  - Serverless / Installable Platform
+  subcategory: Container Runtime
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/openfaas
+  homepage_url: https://docs.inlets.dev
+  item: null
+  logo: inlets.svg
+  name: Inlets
+  repo_url: https://github.com/inlets/inlets-pro
+  subcategory: Service Proxy
+  twitter: https://twitter.com/inletsdev
+- allow_duplicate_repo: true
+  category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Simplify observability, traffic management, security, and policy with
+    the Istio service mesh.
+  extra:
+    accepted: '2022-09-30'
+    audits:
+    - date: '2023-01-30'
+      type: security
+      url: https://istio.io/latest/blog/2023/ada-logics-security-assessment/Istio%20audit%20report%20-%20ADA%20Logics%20-%202023-01-30%20-%20v1.0.pdf
+      vendor: ADA Logics
+    blog_url: https://istio.io/blog/
+    clomonitor_name: istio
+    dev_stats_url: https://istio.devstats.cncf.io/
+    graduated: '2023-07-12'
+    incubating: '2022-09-30'
+    lfx_slug: istio
+    slack_url: https://slack.istio.io/
+    stack_overflow_url: https://stackoverflow.com/questions/tagged/istio
+    summary_business_use_case: Security, Traffic Management, Observability, Policy
+      Enforcement.
+    summary_integrations: https://istio.io/latest/docs/ops/integrations/
+    summary_intro_url: https://www.youtube.com/watch?v=hkR1M6qwpnw
+    summary_personas: SREs, DevOps Engineers, Architects, Platform Engineers
+    summary_release_rate: Every 3 months
+    summary_tags: observability, Service Mesh, mTLS, traffic management, multi-cluster,
+      load balancing, policy, security, extensibility
+    summary_use_case: 'Istio addresses the challenges developers and operators face
+      with a distributed or microservices architecture. Whether you''re building from
+      scratch or migrating existing applications to cloud native, Istio can help.
+      Read more at: https://istio.io/latest/about/solutions/'
+    youtube_url: https://www.youtube.com/c/Istio
+  homepage_url: https://istio.io/
+  item: null
+  logo: istio.svg
+  name: Istio
+  project: graduated
+  repo_url: https://github.com/istio/istio
+  subcategory: Service Mesh
+  twitter: https://twitter.com/IstioMesh
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/red-hat
+  homepage_url: https://infinispan.org/
+  item: null
+  logo: infinispan.svg
+  name: Infinispan
+  repo_url: https://github.com/infinispan/infinispan
+  subcategory: Database
+  twitter: https://twitter.com/infinispan
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/infracost
+  description: "Infracost shows engineers how their code changes will impact cloud\
+    \ costs. It does this by sitting in the CI/CD workflow and on changing IaC code,\
+    \ leaves a comment like \u201CThis change will increase your next month bill by\
+    \ 20%\u201D with a detailed breakdown of resources changed and their cost."
+  homepage_url: https://www.infracost.io/
+  item: null
+  logo: infracost.svg
+  name: Infracost
+  repo_url: https://github.com/infracost/infracost
+  subcategory: Continuous Optimization
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/icinga
+  homepage_url: https://icinga.com/
+  item: null
+  logo: icinga.svg
+  name: Icinga
+  repo_url: https://github.com/Icinga/icinga2
+  subcategory: Observability
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/influxdb
+  homepage_url: https://www.influxdata.com/
+  item: null
+  logo: influxdata.svg
+  name: InfluxData
+  repo_url: https://github.com/influxdata/influxdb
+  subcategory: Observability
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Open source eBPF debugging and data collection tool for Kubernetes
+    and Linux
+  extra:
+    accepted: '2023-03-07'
+    clomonitor_name: inspektor-gadget
+    dev_stats_url: https://inspektorgadget.devstats.cncf.io/
+    lfx_slug: inspektorgadget
+  homepage_url: https://inspektor-gadget.io/
+  item: null
+  logo: inspektor-gadget.svg
+  name: Inspektor Gadget
+  project: sandbox
+  repo_url: https://github.com/inspektor-gadget/inspektor-gadget
+  subcategory: Observability
+- allow_duplicate_repo: true
+  category: Wasm
+  crunchbase: https://www.crunchbase.com/organization/infinyon
+  homepage_url: https://www.fluvio.io/
+  item: null
+  logo: fluvio.svg
+  name: Infinyon
+  repo_url: https://github.com/infinyon/fluvio
+  subcategory: Embedded Functions
+- allow_duplicate_repo: true
+  category: Wasm
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Simplify observability, traffic management, security, and policy with
+    the Istio service mesh.
+  homepage_url: https://istio.io/
+  item: null
+  logo: istio.svg
+  name: Istio (Wasm)
+  repo_url: https://github.com/istio/istio
+  subcategory: Embedded Functions
+  twitter: https://twitter.com/IstioMesh
+- category: CNAI
+  description: InfluxDB is an open source time series database written in Rust, using
+    Apache Arrow, Apache Parquet, and Apache DataFusion as its foundational building
+    blocks.
+  homepage_url: https://github.com/influxdata/influxdb
+  item: null
+  logo: ./influxdb.svg
+  name: Influxdb
+  repo_url: https://github.com/influxdata/influxdb
+  subcategory: Workload Observability
+  unnamed_organization: true

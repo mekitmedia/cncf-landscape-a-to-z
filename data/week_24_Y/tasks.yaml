@@ -1,0 +1,40 @@
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/yandex
+  description: YDB is an open-source Distributed SQL Database that combines high availability
+    and scalability with strong consistency and ACID transactions.
+  extra:
+    blog_url: https://blog.ydb.tech
+    stack_overflow_url: https://stackoverflow.com/questions/tagged/ydb
+  homepage_url: https://ydb.tech
+  item: null
+  logo: ydb.svg
+  name: YDB
+  repo_url: https://github.com/ydb-platform/ydb
+  subcategory: Database
+  twitter: https://twitter.com/YDBPlatform
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/yugabyte
+  homepage_url: https://www.yugabyte.com/yugabytedb/
+  item: null
+  logo: yugabytedb.svg
+  name: YugabyteDB
+  repo_url: https://github.com/YugaByte/yugabyte-db
+  subcategory: Database
+- category: Wasm
+  crunchbase: https://www.crunchbase.com/organization/allegro-b3b3
+  homepage_url: https://yomo.run/
+  item: null
+  logo: wasm.svg
+  name: YOMO
+  repo_url: https://github.com/yomorun/yomo
+  subcategory: Embedded Functions
+- category: CNAI
+  description: Unleash the power of resource scheduling for running Batch, Data &
+    ML on Kubernetes!
+  homepage_url: https://yunikorn.apache.org/
+  item: null
+  logo: ./yunikorn.svg
+  name: Yunikorn
+  repo_url: https://github.com/apache/yunikorn-core/
+  subcategory: General Orchestration
+  unnamed_organization: true

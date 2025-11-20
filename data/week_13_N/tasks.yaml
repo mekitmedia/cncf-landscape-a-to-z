@@ -1,0 +1,315 @@
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/neuvector
+  description: NeuVector Full Lifecycle Container Security Platform delivers the only
+    cloud-native security with uncompromising end-to-end protection from DevOps vulnerability
+    protection to automated run-time security, and featuring a true Layer 7 container
+    firewall.
+  homepage_url: https://neuvector.com/
+  item: null
+  logo: neuvector.svg
+  name: NeuVector
+  repo_url: https://github.com/neuvector/neuvector
+  subcategory: Security & Compliance
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2017-10-24'
+    artwork_url: https://github.com/cncf/artwork/blob/main/examples/incubating.md#notary-project-logos
+    audits:
+    - date: '2023-03-21'
+      type: fuzzing
+      url: https://github.com/notaryproject/notaryproject/blob/main/security/reports/fuzzing/ADA-fuzzing-audit-22-23.pdf
+      vendor: Ada Logics
+    - date: '2023-07-06'
+      type: security
+      url: https://github.com/notaryproject/specifications/blob/main/security/reports/audit/ADA-notation-security-audit-23.pdf
+      vendor: Ada Logics
+    clomonitor_name: notary
+    dev_stats_url: https://notary.devstats.cncf.io/
+    incubating: '2017-10-24'
+    stack_overflow_url: https://stackoverflow.com/questions/tagged/notary
+  homepage_url: https://notaryproject.dev/
+  item: null
+  logo: notary-project.svg
+  name: Notary Project
+  project: incubating
+  repo_url: https://github.com/notaryproject/notation
+  subcategory: Security & Compliance
+- category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2019-04-11'
+    annual_review_date: '2022-02-28'
+    annual_review_url: https://github.com/cncf/toc/pull/792
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#network-service-mesh-logos
+    clomonitor_name: network-service-mesh
+    dev_stats_url: https://networkservicemesh.devstats.cncf.io/
+    lfx_slug: nsm
+    mailing_list_url: https://groups.google.com/forum/#!forum/networkservicemesh
+    slack_url: https://cloud-native.slack.com/messages/CHQNNUPN1/details/
+  homepage_url: https://networkservicemesh.io/
+  item: null
+  logo: network-service-mesh.svg
+  name: Network Service Mesh
+  project: sandbox
+  repo_url: https://github.com/networkservicemesh/api
+  subcategory: Cloud Native Network
+  twitter: https://twitter.com/nservicemesh
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/hashicorp
+  homepage_url: https://www.nomadproject.io/
+  item: null
+  logo: nomad.svg
+  name: Nomad
+  repo_url: https://github.com/hashicorp/nomad
+  subcategory: Scheduling & Orchestration
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
+  homepage_url: https://nacos.io/en-us/
+  item: null
+  logo: alibaba-nacos.svg
+  name: Nacos
+  repo_url: https://github.com/alibaba/nacos
+  subcategory: Coordination & Service Discovery
+  twitter: https://twitter.com/nacos2
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/netflix
+  homepage_url: https://github.com/Netflix/eureka
+  item: null
+  logo: netflix-oss-eureka.svg
+  name: Netflix Eureka
+  repo_url: https://github.com/Netflix/eureka
+  subcategory: Coordination & Service Discovery
+  twitter: https://twitter.com/netflixoss
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/netflix
+  homepage_url: https://github.com/Netflix/zuul
+  item: null
+  logo: netflix-oss-zuul.svg
+  name: Netflix Zuul
+  repo_url: https://github.com/Netflix/zuul
+  subcategory: Service Proxy
+  twitter: https://twitter.com/netflixoss
+- allow_duplicate_repo: true
+  category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/nginx
+  homepage_url: https://www.nginx.com/
+  item: null
+  logo: nginx.svg
+  name: NGINX
+  repo_url: https://github.com/nginx/nginx
+  subcategory: Service Proxy
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/nebula-graph
+  homepage_url: https://nebula-graph.io/
+  item: null
+  logo: nebulagraph.svg
+  name: NebulaGraph
+  repo_url: https://github.com/vesoft-inc/nebula
+  subcategory: Database
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/neo-technology
+  homepage_url: https://neo4j.com
+  item: null
+  logo: neo4j.svg
+  name: Neo4j
+  repo_url: https://github.com/neo4j/neo4j
+  subcategory: Database
+- additional_repos:
+  - repo_url: https://github.com/nats-io/nats.go
+  - repo_url: https://github.com/nats-io/nats.js
+  - repo_url: https://github.com/nats-io/nats.py
+  - repo_url: https://github.com/nats-io/nats.java
+  - repo_url: https://github.com/nats-io/nats.net
+  - repo_url: https://github.com/nats-io/nats.c
+  - repo_url: https://github.com/nats-io/nats.rs
+  - repo_url: https://github.com/nats-io/nats.deno
+  - repo_url: https://github.com/nats-io/k8s
+  - repo_url: https://github.com/nats-io/nats-surveyor
+  - repo_url: https://github.com/nats-io/natscli
+  - repo_url: https://github.com/nats-io/nats-architecture-and-design
+  - repo_url: https://github.com/nats-io/nats.docs
+  - repo_url: https://github.com/nats-io/nack
+  - repo_url: https://github.com/nats-io/nats-top
+  - repo_url: https://github.com/nats-io/terraform-provider-jetstream
+  - repo_url: https://github.com/nats-io/jetstream-gh-action
+  category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: NATS.io is a connective technology for distributed systems and is a
+    perfect fit to connect devices, edge, cloud or hybrid deployments. True multi-tenancy
+    makes NATS ideal for SaaS and self-healing and scaling technology allows for topology
+    changes anytime with zero downtime.
+  extra:
+    accepted: '2018-03-15'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#nats-logos
+    audits:
+    - date: '2019-02-06'
+      type: security
+      url: https://github.com/nats-io/nats-general/blob/master/reports/Cure53_NATS_Audit.pdf
+      vendor: Cure53
+    clomonitor_name: nats
+    dev_stats_url: https://nats.devstats.cncf.io/
+    incubating: '2018-03-15'
+    lfx_slug: nats
+    mailing_list_url: https://nats.io/blog/
+    slack_url: https://natsio.slack.com/join/shared_invite/enQtMzE2NDkxNDI2NTE1LTc5ZDEzYTkwYWZkYWQ5YjY1MzBjMWZmYzA5OGQxMzlkMGQzMjYxNGM3MWYxMjNiYmNjNzIwMTVjMWE2ZDgxZGM
+    stack_overflow_url: https://stackoverflow.com/questions/tagged/nats.io
+    summary_business_use_case: NATS is used to develop & deploy globally distributed
+      Edge & Multi-cloud applications as part of a digital transformation or modernization
+      initiative. Users may deploy NATS as part of a private cloud, hybrid , or SaaS
+      model. Applications can be developed locally and then be scaled from single
+      node, to clusters, to global superclusters independently of cloud providers,
+      geography or requirements for additional infrastructure such as load balancers,
+      firewalls, etc... All with a zero trust security model and integrated multi-tenant
+      platform capabilities
+    summary_integrations: Docker, Kubernetes, K3S, WASMCloud, CloudEvents, Helm, Argo,
+      DAPR, Prometheus, Benthos
+    summary_intro_url: https://rethink.synadia.com/episodes/1/
+    summary_personas: Developers, Architects, Engineers, Platform teams, Cloud Architects
+    summary_tags: Edge, Muli-cloud, Messaging, Streaming Data, PubSub, KeyValue, Microservices,
+      Kubernetes
+    summary_use_case: 'The NATS Server acts as a central nervous system for building
+      distributed applications. Client APIs are provided in over 40 languages and
+      frameworks including Go, Java, JavaScript/TypeScript, Python, C, .Net, and Rust.
+      NATS supports multiple microservices patterns including PubSub, Request-Reply,
+      KeyValue and Object store via a simple API.
+
+      '
+  homepage_url: https://nats.io/
+  item: null
+  logo: nats.svg
+  name: NATS
+  project: incubating
+  repo_url: https://github.com/nats-io/nats-server
+  subcategory: Streaming & Messaging
+  twitter: https://twitter.com/nats_io
+  url_for_bestpractices: https://github.com/nats-io
+- category: App Definition and Development
+  description: Language agnostic K8s native real-time data and stream processing engine
+  homepage_url: https://numaflow.numaproj.io/
+  item: null
+  logo: numaproj-logo.svg
+  name: Numaflow
+  repo_url: https://github.com/numaproj/numaflow
+  subcategory: Streaming & Messaging
+- category: Platform
+  crunchbase: https://www.crunchbase.com/organization/%E5%BC%80%E6%94%BE%E5%8E%9F%E5%AD%90%E5%BC%80%E6%BA%90%E5%9F%BA%E9%87%91%E4%BC%9A
+  description: NKD (NestOS Kubernetes Deployer) is a solution specially built for
+    deploying and maintaining Kubernetes clusters on NestOS. Its design goal is to
+    provide a convenient cluster operation experience, allowing users to easily complete
+    complex management tasks, thereby improving the efficiency of overall deployment
+    and maintenance.
+  homepage_url: https://gitee.com/openeuler/nestos-kubernetes-deployer
+  item: null
+  logo: openatom-nestos-kubernetes.svg
+  name: NKD - NestOS Kubernetes Deployer
+  repo_url: https://github.com/openeuler-mirror/nestos-kubernetes-deployer
+  subcategory: Certified Kubernetes - Installer
+- category: Platform
+  homepage_url: https://github.com/kelseyhightower/nocode
+  item: null
+  logo: nocode.svg
+  name: No Code
+  repo_url: https://github.com/kelseyhightower/nocode
+  subcategory: PaaS/Container Service
+- category: Serverless
+  homepage_url: https://github.com/motdotla/node-lambda
+  item: null
+  logo: nodelambda.svg
+  name: Node Lambda
+  repo_url: https://github.com/motdotla/node-lambda
+  subcategory: Tools
+- category: Serverless
+  crunchbase: https://www.crunchbase.com/organization/nitric
+  homepage_url: https://nitric.io/
+  item: null
+  logo: nitric.svg
+  name: Nitric
+  repo_url: https://github.com/nitrictech/nitric
+  subcategory: Framework
+- category: Serverless
+  crunchbase: https://www.crunchbase.com/organization/iguaz-io
+  homepage_url: https://nuclio.io/
+  item: null
+  logo: nuclio.svg
+  name: Nuclio
+  repo_url: https://github.com/nuclio/nuclio
+  subcategory: Installable Platform
+  twitter: https://twitter.com/nuclioio
+- branch: maint
+  category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/nagios
+  homepage_url: https://www.nagios.com/
+  item: null
+  logo: nagios.svg
+  name: Nagios
+  repo_url: https://github.com/NagiosEnterprises/nagioscore
+  subcategory: Observability
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/netdata
+  homepage_url: https://www.netdata.cloud
+  item: null
+  logo: netdata.svg
+  name: Netdata
+  repo_url: https://github.com/netdata/netdata
+  subcategory: Observability
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/netis-technologies-c590
+  homepage_url: https://wordpress.com/browsehappy
+  item: null
+  logo: netis.svg
+  name: Netis
+  repo_url: https://github.com/Netis/packet-agent
+  subcategory: Observability
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/nexcloud
+  homepage_url: https://github.com/NexClipper/NexClipper?tab=readme-ov-file
+  item: null
+  logo: nexclipper.svg
+  name: NexClipper
+  repo_url: https://github.com/NexClipper/NexClipper
+  subcategory: Observability
+  twitter: https://twitter.com/nexclipper
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/didi
+  homepage_url: https://n9e.github.io/
+  item: null
+  joined: '2021-02-01'
+  logo: nightingale.svg
+  name: Nightingale
+  repo_url: https://github.com/didi/nightingale
+  subcategory: Observability
+- allow_duplicate_repo: true
+  category: Wasm
+  crunchbase: https://www.crunchbase.com/organization/nginx
+  homepage_url: https://www.nginx.com
+  item: null
+  logo: nginx.svg
+  name: NGINX (Wasm)
+  repo_url: https://github.com/nginx/nginx
+  subcategory: Embedded Functions
+- category: Wasm
+  crunchbase: https://www.crunchbase.com/organization/near-protocol
+  homepage_url: https://near.org/
+  item: null
+  logo: near.svg
+  name: NEAR
+  repo_url: https://github.com/near/nearcore
+  subcategory: Decentralized Platforms
+- category: CNAI
+  description: A framework for generative AI
+  homepage_url: https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/stable/index.html
+  item: null
+  logo: ./Nemo.svg
+  name: Nivida NeMo
+  repo_url: https://github.com/NVIDIA/NeMo
+  subcategory: General Orchestration
+  unnamed_organization: true
+- category: CNAI
+  description: Language agnostic K8s native real-time data and stream processing engine
+  homepage_url: https://numaflow.numaproj.io/
+  item: null
+  logo: numaproj-logo.svg
+  name: Numaflow
+  repo_url: https://github.com/numaproj/numaflow
+  subcategory: Data Architecture

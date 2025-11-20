@@ -1,0 +1,708 @@
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/open-infrastructure-foundation
+  homepage_url: https://www.airshipit.org/
+  item: null
+  logo: airship.svg
+  name: Airship
+  repo_url: https://github.com/airshipit/treasuremap
+  subcategory: Automation & Configuration
+  twitter: https://twitter.com/airshipproject
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2021-09-14'
+    annual_review_date: '2023-06-13'
+    annual_review_url: https://github.com/cncf/toc/pull/1080
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#akri-logos
+    blog_url: https://medium.com/akri
+    chat_channel: '#akri'
+    clomonitor_name: akri
+    dev_stats_url: https://akri.devstats.cncf.io/
+    lfx_slug: akri
+    slack_url: https://kubernetes.slack.com/messages/C01D9L7QE8Z
+  homepage_url: https://docs.akri.sh
+  item: null
+  logo: akri.svg
+  name: Akri
+  project: sandbox
+  repo_url: https://github.com/project-akri/akri
+  subcategory: Automation & Configuration
+  twitter: https://twitter.com/ProjectAkri
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/red-hat
+  homepage_url: https://www.ansible.com/
+  item: null
+  logo: ansible.svg
+  name: Ansible
+  repo_url: https://github.com/ansible/ansible
+  subcategory: Automation & Configuration
+  twitter: https://twitter.com/ansible
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/ctrip
+  description: Apollo is a reliable open-source configuration management system
+  homepage_url: https://www.apolloconfig.com/
+  item: null
+  logo: apollo-1.svg
+  name: Apollo
+  repo_url: https://github.com/apolloconfig/apollo
+  subcategory: Automation & Configuration
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Terraform Pull Request Automation for Teams
+  extra:
+    accepted: '2024-06-18'
+    clomonitor_name: atlantis
+    lfx_slug: atlantis
+  homepage_url: https://www.runatlantis.io/
+  item: null
+  logo: atlantis.svg
+  name: Atlantis
+  project: sandbox
+  repo_url: https://github.com/runatlantis/atlantis
+  subcategory: Automation & Configuration
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cisco
+  description: APIClarity is a cloud API observability open-source project that provides
+    functionality to discover and monitor any API traffic that interacts with modern
+    applications and report suspected security weaknesses or possible abuses. Once
+    an OpenAPI spec is either uploaded or reconstructed by APIClarity, it monitors
+    for shadow and zombie APIs, Broken Functional-Level Authorization (BFLA), Broken
+    Object-Level Authorization (BOLA), weak authentication, sensitive data leaks and
+    data injection risks.
+  extra:
+    blog_url: https://dev.to/ciscoemerge
+  homepage_url: https://openclarity.io/
+  item: null
+  logo: APIClarity.svg
+  name: APIClarity
+  repo_url: https://github.com/openclarity/apiclarity
+  subcategory: Security & Compliance
+  twitter: https://twitter.com/CiscoOpen
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/aserto-2995
+  description: Fine-grained, policy-based, real-time authorization for APIs and microservices.
+    Aserto is the maintainer of the Topaz and Open Policy Containers OSS projects.
+  extra:
+    slack_url: https://www.aserto.com/slack
+  homepage_url: https://www.aserto.com
+  item: null
+  logo: aserto.svg
+  name: Aserto
+  repo_url: https://github.com/aserto-dev/runtime
+  subcategory: Security & Compliance
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Open source platform for X.509 certificate based service authentication
+    and fine grained access control in dynamic infrastructures
+  extra:
+    accepted: '2021-01-26'
+    annual_review_date: '2023-06-30'
+    annual_review_url: https://github.com/cncf/toc/pull/1106
+    artwork_url: https://github.com/cncf/artwork/tree/master/projects/athenz
+    clomonitor_name: athenz
+    dev_stats_url: https://athenz.devstats.cncf.io/
+    lfx_slug: athenz
+    slack_url: https://athenz.slack.com/
+  homepage_url: https://www.athenz.io
+  item: null
+  logo: athenz.svg
+  name: Athenz
+  project: sandbox
+  repo_url: https://github.com/AthenZ/athenz
+  subcategory: Key Management
+  twitter: https://twitter.com/athenzio
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/authing
+  homepage_url: https://www.authing.cn
+  item: null
+  logo: authing.svg
+  name: Authing
+  repo_url: https://github.com/Authing/Authing
+  subcategory: Key Management
+- category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/alluxio
+  homepage_url: https://www.alluxio.io/
+  item: null
+  logo: alluxio.svg
+  name: Alluxio
+  repo_url: https://github.com/alluxio/alluxio
+  subcategory: Cloud Native Storage
+  twitter: https://twitter.com/alluxio
+- category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2021-04-28'
+    annual_review_date: '2022-07-07'
+    annual_review_url: https://github.com/cncf/toc/pull/871
+    clomonitor_name: antrea
+    lfx_slug: antrea
+  homepage_url: https://antrea.io/
+  item: null
+  logo: antrea.svg
+  name: Antrea
+  project: sandbox
+  repo_url: https://github.com/antrea-io/antrea
+  subcategory: Cloud Native Network
+  twitter: https://twitter.com/projectantrea
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/apache
+  homepage_url: https://mesos.apache.org/
+  item: null
+  logo: apache-mesos.svg
+  name: Apache Mesos
+  repo_url: https://github.com/apache/mesos
+  subcategory: Scheduling & Orchestration
+  twitter: https://twitter.com/ApacheMesos
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2022-07-25'
+    clomonitor_name: armada
+    dev_stats_url: https://armada.devstats.cncf.io/
+    lfx_slug: armada
+    slack_url: http://slack.cncf.io/
+  homepage_url: https://armadaproject.io/
+  item: null
+  logo: armada.svg
+  name: Armada
+  project: sandbox
+  repo_url: https://github.com/armadaproject/armada
+  second_path:
+  - CNAI / General Orchestration
+  subcategory: Scheduling & Orchestration
+  twitter: https://twitter.com/oss_gr
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/microsoft
+  homepage_url: https://docs.microsoft.com/en-us/azure/service-fabric/
+  item: null
+  logo: azure-service-fabric.svg
+  name: Azure Service Fabric
+  repo_url: https://github.com/Microsoft/service-fabric
+  subcategory: Scheduling & Orchestration
+  twitter: https://twitter.com/azure
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/apache
+  homepage_url: https://zookeeper.apache.org/
+  item: null
+  logo: apache-zookeeper.svg
+  name: Apache Zookeeper
+  repo_url: https://github.com/apache/zookeeper
+  subcategory: Coordination & Service Discovery
+  twitter: https://twitter.com/ApacheZooKeeper
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/apache
+  homepage_url: https://brpc.apache.org/
+  item: null
+  logo: apache-brpc.svg
+  name: Apache bRPC
+  repo_url: https://github.com/apache/brpc
+  subcategory: Remote Procedure Call
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/apache
+  homepage_url: https://thrift.apache.org/
+  item: null
+  logo: apache-thrift.svg
+  name: Apache Thrift
+  repo_url: https://github.com/apache/thrift
+  subcategory: Remote Procedure Call
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/apache
+  homepage_url: https://avro.apache.org/
+  item: null
+  logo: avro.svg
+  name: Avro
+  repo_url: https://github.com/apache/avro
+  subcategory: Remote Procedure Call
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/apioak
+  homepage_url: https://github.com/apioak/
+  item: null
+  logo: apioak.svg
+  name: APIOAK
+  repo_url: https://github.com/apioak/apioak
+  subcategory: API Gateway
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/apache
+  homepage_url: https://apisix.apache.org/
+  item: null
+  logo: apisix.svg
+  name: APISIX
+  repo_url: https://github.com/apache/apisix
+  subcategory: API Gateway
+  twitter: https://twitter.com/ApacheAPISIX
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/microsoft
+  description: Azure API Management is a hybrid, multi-cloud API, full lifecycle management
+    platform for APIs across all environments. It allows customers to self-host API
+    gateways as containers on Kubernetes.
+  homepage_url: https://azure.microsoft.com/en-us/services/api-management
+  item: null
+  logo: azure-api-management.svg
+  name: Azure API Management
+  repo_url: https://github.com/azure/api-management
+  subcategory: API Gateway
+  twitter: https://twitter.com/azureapimgmt
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Aeraki Mesh allows you to manage any layer-7 traffic in a service mesh
+  extra:
+    accepted: '2022-06-17'
+    annual_review_date: '2023-08-14'
+    annual_review_url: https://github.com/cncf/toc/pull/1143
+    blog_url: https://www.aeraki.net/blog/
+    clomonitor_name: aeraki-mesh
+    dev_stats_url: https://aerakimesh.devstats.cncf.io/
+    lfx_slug: aerakimesh
+    slack_url: https://cloud-native.slack.com/messages/aeraki-mesh
+    summary_business_use_case: While service mesh becomes an important infrastructure
+      for microservices, many(if not all) service mesh implementations mainly focus
+      on HTTP protocols and treat other protocols as plain TCP traffic. This is an
+      obstacle for a lot of organizations when they try to leverage service mesh's
+      promised capablities to simplify their microservice development and operation.
+      Aeraki Mesh solve this problem by providing a common layer-7 service mesh framework
+      both in data plane and control plane, which is built on top of Envoy and Istio
+      and can work with them together very well.
+    summary_integrations: Istio, Envoy
+    summary_personas: SREs, DevOps Engineers, Architects
+    summary_release_rate: Every few months
+    summary_tags: Service Mesh
+    summary_use_case: Aeraki Mesh has been created to provide a non-intrusive, highly
+      extendable way to manage any layer-7 traffic in a service mesh, including Dubbo,
+      Thrift, bRPC, Redis, etc., and private protocols as well.
+  homepage_url: https://www.aeraki.net/
+  item: null
+  logo: aeraki-mesh.svg
+  name: Aeraki Mesh
+  project: sandbox
+  repo_url: https://github.com/aeraki-mesh/aeraki
+  subcategory: Service Mesh
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/apache
+  homepage_url: https://carbondata.apache.org/
+  item: null
+  logo: carbondata.svg
+  name: Apache CarbonData
+  repo_url: https://github.com/apache/carbondata
+  subcategory: Database
+  twitter: https://twitter.com/ApacheCarbonDat
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/apache
+  homepage_url: https://hadoop.apache.org/
+  item: null
+  logo: apache-hadoop.svg
+  name: Apache Hadoop
+  repo_url: https://github.com/apache/hadoop
+  subcategory: Database
+  twitter: https://twitter.com/twitterhadoop
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/apache
+  homepage_url: https://ignite.apache.org
+  item: null
+  logo: apache-ignite.svg
+  name: Apache Ignite
+  repo_url: https://github.com/apache/ignite
+  subcategory: Database
+  twitter: https://twitter.com/ApacheIgnite
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/arangodb
+  homepage_url: https://www.arangodb.com/
+  item: null
+  logo: arangodb.svg
+  name: ArangoDB
+  repo_url: https://github.com/arangodb/arangodb
+  subcategory: Database
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/apache
+  homepage_url: https://nifi.apache.org/
+  item: null
+  logo: apache-ni-fi.svg
+  name: Apache NiFi
+  repo_url: https://github.com/apache/nifi
+  subcategory: Streaming & Messaging
+  twitter: https://twitter.com/apachenifi
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/apache
+  homepage_url: https://rocketmq.apache.org/
+  item: null
+  logo: apache-rocket-mq.svg
+  name: Apache RocketMQ
+  repo_url: https://github.com/apache/rocketmq
+  subcategory: Streaming & Messaging
+  twitter: https://twitter.com/ApacheRocketMQ
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/apache
+  homepage_url: https://spark.apache.org/
+  item: null
+  logo: apache-spark.svg
+  name: Apache Spark
+  repo_url: https://github.com/apache/spark
+  subcategory: Streaming & Messaging
+  twitter: https://twitter.com/apachespark
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/apache
+  homepage_url: https://storm.apache.org/
+  item: null
+  logo: apache-storm.svg
+  name: Apache Storm
+  repo_url: https://github.com/apache/storm
+  subcategory: Streaming & Messaging
+  twitter: https://twitter.com/ApacheStorm
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/apache
+  homepage_url: https://streampipes.apache.org/
+  item: null
+  logo: apache-streampipes.svg
+  name: Apache StreamPipes
+  repo_url: https://github.com/apache/streampipes
+  subcategory: Streaming & Messaging
+  twitter: https://twitter.com/StreamPipes
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/red-hat
+  description: 'Apicurio Registry is a runtime server system that stores a specific
+    set of artifacts as files. '
+  homepage_url: https://www.apicur.io
+  item: null
+  logo: apicurio-registry.svg
+  name: Apicurio Registry
+  project_org: https://github.com/Apicurio
+  repo_url: https://github.com/Apicurio/apicurio-registry
+  subcategory: Streaming & Messaging
+  twitter: https://twitter.com/apicurio
+- category: App Definition and Development
+  description: High-performance Rust stream processing engine, providing powerful
+    data stream processing capabilities, supporting multiple input/output sources
+    and processors.
+  homepage_url: https://arkflow-rs.com/
+  item: null
+  logo: arkflow.svg
+  name: ArkFlow
+  project_org: https://github.com/arkflow-rs
+  repo_url: https://github.com/arkflow-rs/arkflow
+  subcategory: Streaming & Messaging
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/automq
+  description: AutoMQ is a cloud-native fork of Kafka by separating storage to S3.
+    10x cost-effective. Autoscale in seconds. Single-digit ms latency.
+  homepage_url: https://www.automq.com
+  item: null
+  logo: automq.svg
+  name: AutoMQ
+  open_source: false
+  repo_url: https://github.com/AutoMQ/automq
+  subcategory: Streaming & Messaging
+  twitter: https://twitter.com/AutoMQ_Lab
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2020-06-25'
+    annual_review_date: '2021-06-23'
+    annual_review_url: https://github.com/cncf/toc/pull/681
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#artifact-hub-logos
+    clomonitor_name: artifact-hub
+    dev_stats_url: https://artifacthub.devstats.cncf.io/
+    incubating: '2024-05-30'
+    lfx_slug: artifact-hub
+  homepage_url: https://artifacthub.io
+  item: null
+  logo: artifact-hub.svg
+  name: Artifact Hub
+  project: incubating
+  repo_url: https://github.com/artifacthub/hub
+  subcategory: Application Definition & Image Build
+  twitter: https://twitter.com/cncfartifacthub
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/sorint-lab
+  description: Open Source CI/CD platform with advanced features and architecture.
+    Powerful, reproducible and containerized workflows (called Runs), git based workflow
+    (integrates with all the primary git repositories like GitHub, GitLab, Gitea),
+    restart Runs from failed tasks, user direct runs (test your local changes to a
+    remote Agola server with just one command), distributed and high available by
+    design and runs everywhere (Kubernetes, docker, IaaS, bare metal).
+  homepage_url: https://agola.io
+  item: null
+  logo: agola.svg
+  name: Agola
+  repo_url: https://github.com/agola-io/agola
+  subcategory: Continuous Integration & Delivery
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Kubernetes-native tools to run workflows, manage clusters, and do GitOps
+    right.
+  extra:
+    accepted: '2020-03-26'
+    artwork_url: https://github.com/cncf/artwork/tree/master/projects/argo
+    audits:
+    - date: '2022-02-28'
+      type: fuzzing
+      url: https://github.com/argoproj/argoproj/blob/dd7cae43d81c5a11f21ff4ea0a4afadcae4799c7/docs/audit_fuzzer_adalogics_2022.pdf
+      vendor: ADA Logics
+    - date: '2022-07-18'
+      type: security
+      url: https://github.com/argoproj/argoproj/blob/main/docs/argo_security_audit_2022.pdf
+      vendor: ADA Logics
+    blog_url: https://blog.argoproj.io/
+    clomonitor_name: argo
+    dev_stats_url: https://argo.devstats.cncf.io/
+    graduated: '2022-12-06'
+    incubating: '2020-03-26'
+    lfx_slug: argo
+    slack_url: https://argoproj.github.io/community/join-slack
+    stack_overflow_url: https://stackoverflow.com/questions/tagged/argoproj+or+argo
+    summary_business_use_case: Argo CD and Argo Rollouts - enabling a high frequency
+      of deployment for quick delivery of new features and updates (constant iteration),
+      decreasing mean time to recovery (MTTR) to recover quickly as if nothing had
+      happened on production, decreasing lead time for changes and updates, to make
+      sure that your clients stay satisfied and secure. Argo Workflows and Argo Events
+      - creating scalable and manageable data pipelines, orchestrating highly parallel
+      jobs without the overhead of legacy VMs or server environments, defining multiple
+      dependencies from various event sources like webhooks, S3, schedules, streams,
+      and triggering Kubernetes objects after successful event dependencies resolution.
+    summary_intro_url: 'Argo Workflows: https://youtu.be/TZgLkCFQ2tk, Argo CD: https://youtu.be/aWDIQMbp1cc'
+    summary_personas: Application Developers, ML Engineers, DevOps Engineers, Architects,
+      Platform Engineers
+    summary_release_rate: 7-14 days
+    summary_tags: application deployment, continuous deployment, data pipelines, machine
+      learning, Kubernetes workflows
+    summary_use_case: Argo CD and Argo Rollouts - Manage application definitions,
+      configurations, and environments declaratively in Git. Introduce blue-green
+      and canary deployments, canary analysis, experimentation, and progressive delivery
+      features to your Kubernetes cluster. Argo Workflows and Argo Events - Run jobs
+      and full workflows on any Kubernetes cluster. Define multiple dependencies from
+      a variety of event sources and trigger Kubernetes objects after successful event
+      dependencies resolution.
+    youtube_url: https://www.youtube.com/channel/UCOvYmppcbOPm1viN6ust3lA
+  homepage_url: https://argoproj.github.io/
+  item: null
+  logo: argo.svg
+  name: Argo
+  project: graduated
+  repo_url: https://github.com/argoproj/argo-cd
+  subcategory: Continuous Integration & Delivery
+  twitter: https://twitter.com/argoproj
+- category: Platform
+  crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+  description: Amazon Elastic Kubernetes Service Distro (Amazon EKS-D) is a Kubernetes
+    distribution based on and used by Amazon Elastic Kubernetes Service (EKS) to create
+    reliable and secure Kubernetes clusters.
+  homepage_url: https://aws.amazon.com/eks/eks-distro
+  item: null
+  logo: amazon-web-services.svg
+  name: Amazon Elastic Kubernetes Service Distro (Amazon EKS-D)
+  repo_url: https://github.com/aws/eks-distro
+  subcategory: Certified Kubernetes - Distribution
+  url_for_bestpractices: https://github.com/aws/eks-distro
+- category: Platform
+  crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+  description: Amazon EKS Anywhere is a new deployment option for Amazon EKS that
+    allows customers to create and operate Kubernetes clusters on customer-managed
+    infrastructure, supported by AWS.
+  homepage_url: https://aws.amazon.com/eks/eks-anywhere
+  item: null
+  logo: amazon-web-services.svg
+  name: Amazon Elastic Kubernetes Service Anywhere (Amazon EKS Anywhere)
+  repo_url: https://github.com/aws/eks-anywhere
+  subcategory: Certified Kubernetes - Installer
+  url_for_bestpractices: https://github.com/aws/eks-anywhere
+- category: Platform
+  crunchbase: https://www.crunchbase.com/organization/akka
+  homepage_url: https://akka.io/
+  item: null
+  logo: akka.svg
+  name: Akka
+  repo_url: https://github.com/akka/akka
+  subcategory: PaaS/Container Service
+- category: Platform
+  crunchbase: https://www.crunchbase.com/organization/akamai-technologies
+  description: Application Platform for Linode Kubernetes Engine (LKE)
+  homepage_url: https://apl-docs.net
+  item: null
+  logo: akamai.svg
+  name: Application Platform for LKE
+  repo_url: https://github.com/linode/apl-core
+  subcategory: PaaS/Container Service
+- category: Serverless
+  crunchbase: https://www.crunchbase.com/organization/open-js-foundation
+  homepage_url: https://arc.codes/docs/en/get-started/quickstart
+  item: null
+  logo: architect.svg
+  name: Architect
+  repo_url: https://github.com/architect/functions
+  subcategory: Framework
+- category: Serverless
+  crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+  homepage_url: https://aws.amazon.com/serverless/sam/
+  item: null
+  logo: aws-sam.svg
+  name: AWS Server Application Model (SAM)
+  repo_url: https://github.com/aws/serverless-application-model
+  subcategory: Framework
+- category: Serverless
+  crunchbase: https://www.crunchbase.com/organization/microsoft
+  description: Develop more efficiently with Functions, an event-driven serverless
+    compute platform that can also solve complex orchestration problems. Build and
+    debug locally without additional setup, deploy and operate at scale in the cloud,
+    and integrate services using triggers and bindings.
+  homepage_url: https://azure.microsoft.com/en-us/services/functions/
+  item: null
+  logo: azure-functions.svg
+  name: Azure Functions
+  repo_url: https://github.com/Azure/azure-functions-host
+  subcategory: Hosted Platform
+  twitter: https://twitter.com/Azure
+- category: Serverless
+  crunchbase: https://www.crunchbase.com/organization/apache
+  homepage_url: https://camel.apache.org
+  item: null
+  logo: apache-camel-k.svg
+  name: Apache Camel K
+  repo_url: https://github.com/apache/camel-k
+  subcategory: Installable Platform
+  twitter: https://twitter.com/apachecamel
+- category: Serverless
+  crunchbase: https://www.crunchbase.com/organization/apache
+  homepage_url: https://openserverless.apache.org/
+  item: null
+  logo: apache-openserverless.svg
+  name: Apache OpenServerless
+  repo_url: https://github.com/apache/openserverless
+  subcategory: Installable Platform
+- category: Serverless
+  crunchbase: https://www.crunchbase.com/organization/apache
+  homepage_url: https://openwhisk.apache.org/
+  item: null
+  logo: apache-openwhisk.svg
+  name: Apache OpenWhisk
+  repo_url: https://github.com/apache/openwhisk
+  subcategory: Installable Platform
+  twitter: https://twitter.com/openwhisk
+- category: Serverless
+  crunchbase: https://www.crunchbase.com/organization/appscale-inc
+  homepage_url: https://www.appscale.com/
+  item: null
+  logo: appscale.svg
+  name: AppScale
+  repo_url: https://github.com/AppScale/gts
+  subcategory: Installable Platform
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/ddosify
+  description: Anteon is a platform that combines effortless Kubernetes Monitoring
+    and Performance Testing  to provide seamless observability of your K8S infrastructure
+    using eBPF.
+  homepage_url: https://getanteon.com/
+  item: null
+  logo: anteon.svg
+  name: Anteon
+  repo_url: https://github.com/getanteon/anteon
+  subcategory: Observability
+  twitter: https://twitter.com/getanteon
+- category: Wasm
+  crunchbase: https://www.crunchbase.com/organization/ambient-ecfc
+  homepage_url: https://www.ambient.run/
+  item: null
+  logo: ambient.svg
+  name: Ambient
+  repo_url: https://github.com/AmbientRun/Ambient
+  subcategory: Application Frameworks
+- category: Wasm
+  crunchbase: https://www.crunchbase.com/organization/apache
+  homepage_url: https://tvm.apache.org/
+  item: null
+  logo: wasm.svg
+  name: Apache TVM
+  repo_url: https://github.com/apache/tvm
+  subcategory: AI/Machine Learning
+- category: Wasm
+  crunchbase: https://www.crunchbase.com/organization/google
+  homepage_url: https://github.com/GoogleChromeLabs/asyncify
+  item: null
+  logo: wasm.svg
+  name: Asyncify
+  repo_url: https://github.com/GoogleChromeLabs/asyncify
+  subcategory: Tooling
+- category: CNAI
+  description: Cost-efficient and pluggable Infrastructure components for GenAI inference.
+  homepage_url: https://aibrix.github.io/
+  item: null
+  logo: ./vllm-logo-text-light.svg
+  name: AIBrix
+  repo_url: https://github.com/vllm-project/aibrix
+  subcategory: ML Serving
+  unnamed_organization: true
+- category: CNAI
+  description: Arks is an end-to-end framework for managing LLM-based applications
+    within Kubernetes cluster. It provides a robust and extensible infrastructure
+    tailored for deploying, orchestrating, and scaling LLM inference workloads in
+    cloud-native environments.
+  homepage_url: https://www.scitix.ai
+  item: null
+  logo: ./arks.svg
+  name: Arks
+  repo_url: https://github.com/scitix/arks
+  subcategory: ML Serving
+  unnamed_organization: true
+- category: CNAI
+  description: Web-based notebook that enables data-driven, interactive data analytics
+    and collaborative documents with SQL, Scala and more.
+  homepage_url: https://zeppelin.apache.org
+  item: null
+  logo: ./apache-zeppelin.svg
+  name: Apache Zeppelin
+  repo_url: https://github.com/apache/zeppelin
+  subcategory: Data Science
+  unnamed_organization: true
+- category: CNAI
+  description: A realtime distributed OLAP datastore.
+  homepage_url: https://pinot.apache.org/
+  item: null
+  logo: ./pinot.svg
+  name: Apache Pinot
+  repo_url: https://github.com/apache/pinot
+  subcategory: Data Architecture
+  unnamed_organization: true
+- category: CNAI
+  description: A high performance real-time analytics database.
+  homepage_url: https://druid.apache.org/
+  item: null
+  logo: ./apache-druid.svg
+  name: Apache Druid
+  repo_url: https://github.com/apache/druid
+  subcategory: Data Architecture
+  unnamed_organization: true
+- category: CNAI
+  description: Open source, distributed, versioned, column-oriented store modeled
+    after Google' Bigtable.
+  homepage_url: https://hbase.apache.org/
+  item: null
+  logo: ./hbase.svg
+  name: Apache HBase
+  repo_url: https://github.com/apache/hbase
+  subcategory: Data Architecture
+  unnamed_organization: true
+- category: CNAI
+  description: A unified analytics engine for large-scale data processing.
+  homepage_url: https://spark.apache.org/
+  item: null
+  logo: ./spark.svg
+  name: Apache Spark
+  repo_url: https://github.com/apache/spark
+  subcategory: Data Architecture
+  unnamed_organization: true
+- category: CNAI
+  description: Open source stream processing framework with powerful stream- and batch-processing
+    capabilities.
+  homepage_url: https://flink.apache.org/
+  item: null
+  logo: ./apache-flink.svg
+  name: Apache Flink
+  repo_url: https://github.com/apache/flink
+  subcategory: Data Architecture
+  unnamed_organization: true
+- category: CNAI
+  description: Data orchestration for analytics and machine learning in the cloud.
+  homepage_url: https://github.com/Alluxio/alluxio
+  item: null
+  logo: ./alluxio.svg
+  name: Alluxio
+  repo_url: https://github.com/Alluxio/alluxio
+  subcategory: Data Architecture
+  unnamed_organization: true

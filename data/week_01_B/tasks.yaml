@@ -1,0 +1,220 @@
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cloud-foundry
+  homepage_url: https://bosh.io/docs/
+  item: null
+  logo: cloudfoundry-bosh.svg
+  name: BOSH
+  repo_url: https://github.com/cloudfoundry/bosh
+  subcategory: Automation & Configuration
+- additional_repos:
+  - repo_url: https://github.com/bank-vaults/vault-operator
+  - repo_url: https://github.com/bank-vaults/secrets-webhook
+  - repo_url: https://github.com/bank-vaults/vault-sdk
+  category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: 'Bank-Vaults is a Vault swiss-army knife: a K8s operator, Go client
+    with automatic token renewal, automatic configuration, multiple unseal options
+    and more. A CLI tool to init, unseal and configure Vault (auth methods, secret
+    engines). Direct secret injection into Pods.'
+  extra:
+    accepted: '2024-06-18'
+    artwork_url: https://github.com/cncf/artwork/blob/main/examples/sandbox.md/#bank-vaults-logos
+    clomonitor_name: bank-vaults
+    cncf_tags:
+    - https://github.com/cncf/tag-security
+    dev_stats_url: https://bankvaults.devstats.cncf.io/
+    lfx_slug: bank-vaults
+  homepage_url: https://bank-vaults.dev/
+  item: null
+  logo: bank-vaults.svg
+  name: Bank-Vaults
+  project: sandbox
+  repo_url: https://github.com/bank-vaults/bank-vaults
+  subcategory: Security & Compliance
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/certified-security-solutions
+  description: Bouncy Castle is one of the most widely used FIPS-certified open-source
+    cryptographic APIs for Java and C#, allowing developers to easily integrate  PKI
+    security into their applications.
+  extra:
+    github_discussions_url: https://github.com/bcgit/bc-java/discussions
+    youtube_url: https://www.youtube.com/KeyfactorCommunity/
+  homepage_url: https://www.bouncycastle.org/
+  item: null
+  logo: community-bouncy-castle.svg
+  name: Bouncy Castle
+  repo_url: https://github.com/bcgit/bc-java
+  subcategory: Security & Compliance
+  twitter: https://twitter.com/bccrypto
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/hashicorp
+  description: Boundary is designed to grant access to critical systems using the
+    principle of least privilege, solving challenges organizations encounter when
+    users need to securely access applications and machines.
+  homepage_url: https://www.boundaryproject.io/
+  item: null
+  logo: Hashicorp-Boundary.svg
+  name: Boundary
+  repo_url: https://github.com/hashicorp/boundary
+  subcategory: Security & Compliance
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/lablup
+  description: Backend.AI transforms GPU complexity into operational simplicity. Our
+    container-level GPU virtualization maximizes performance while minimizing costs.
+    The platform supports the entire AI lifecycle from data analysis to training and
+    inference, streamlining AI development for businesses of all scales.
+  homepage_url: https://backend.ai/
+  item: null
+  logo: backend.ai.svg
+  name: Backend.AI
+  repo_url: https://github.com/lablup/backend.ai
+  second_path:
+  - CNAI / General Orchestration
+  subcategory: Scheduling & Orchestration
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Open-source layer 7 load balancer derived from proprietary Baidu FrontEnd
+  extra:
+    accepted: '2020-06-25'
+    annual_review_date: '2023-06-01'
+    annual_review_url: https://github.com/cncf/toc/pull/1066
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#bfe-logos
+    clomonitor_name: bfe
+    dev_stats_url: https://bfe.devstats.cncf.io/
+    lfx_slug: BFE
+  homepage_url: https://www.bfe-networks.net
+  item: null
+  logo: bfe.svg
+  name: BFE
+  project: sandbox
+  repo_url: https://github.com/bfenetworks/bfe
+  subcategory: Service Proxy
+  twitter: https://twitter.com/BfeNetworks
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/bigchaindb
+  homepage_url: https://www.bigchaindb.com/
+  item: null
+  logo: bigchaindb.svg
+  name: BigchainDB
+  repo_url: https://github.com/bigchaindb/bigchaindb
+  subcategory: Database
+  twitter: https://twitter.com/BigchainDB
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/apache
+  homepage_url: https://beam.apache.org/
+  item: null
+  logo: beam.svg
+  name: Beam
+  repo_url: https://github.com/apache/beam
+  subcategory: Streaming & Messaging
+  twitter: https://twitter.com/ApacheBeam
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2020-09-08'
+    artwork_url: https://github.com/cncf/artwork/tree/master/projects/backstage
+    audits:
+    - date: '2022-08-23'
+      type: security
+      url: https://backstage.io/blog/2022/08/23/backstage-security-audit/
+      vendor: X41 D-Sec
+    blog_url: https://backstage.io/blog
+    clomonitor_name: backstage
+    dev_stats_url: https://backstage.devstats.cncf.io/
+    incubating: '2022-03-15'
+    lfx_slug: backstage
+    slack_url: https://discord.gg/backstage-687207715902193673
+    summary_integrations: Kubernetes, GitHub, GitLab, Bitbucket, Azure DevOps, Jenkins,
+      and more with plugins
+    summary_personas: Developers, SREs
+    summary_release_rate: Backstage releases versions on a monthly cadence, with a
+      weekly next release of the main branch.
+    summary_tags: Developer Portals, IDP, Service Catalog, Observability
+    summary_use_case: Backstage is an open platform for building developer portals,
+      which unify all your infrastructure tooling, services, and documentation with
+      a single, consistent UI.
+  homepage_url: https://backstage.io/
+  item: null
+  logo: backstage.svg
+  name: Backstage
+  project: incubating
+  repo_url: https://github.com/backstage/backstage
+  subcategory: Application Definition & Image Build
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2018-10-03'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#buildpacks-logos
+    clomonitor_name: buildpacks
+    dev_stats_url: https://buildpacks.devstats.cncf.io/
+    incubating: '2020-11-18'
+    lfx_slug: buildpacks
+    slack_url: https://slack.cncf.io/
+  homepage_url: https://buildpacks.io/
+  item: null
+  logo: buildpacks.svg
+  name: Buildpacks
+  project: incubating
+  repo_url: https://github.com/buildpacks/pack
+  subcategory: Application Definition & Image Build
+  twitter: https://twitter.com/buildpacks_io
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/bytebase
+  description: Reliable Database CI/CD for Developers and DBAs
+  extra:
+    slack_url: https://discord.gg/huyw7gRsyA
+  homepage_url: https://www.bytebase.com/
+  item: null
+  logo: bytebase.svg
+  name: Bytebase
+  repo_url: https://github.com/bytebase/bytebase
+  subcategory: Continuous Integration & Delivery
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/cyberagent-2
+  description: A feature flag management platform created to help teams make better
+    decisions, reduce deployment lead time, and release risk through feature flags.
+  extra:
+    blog_url: https://bucketeer.io/blog
+    documentation_url: https://docs.bucketeer.io/
+    slack_url: https://bucketeer-workspace.slack.com
+  homepage_url: https://bucketeer.io
+  item: null
+  logo: bucketeer.svg
+  name: Bucketeer
+  repo_url: https://github.com/bucketeer-io/bucketeer
+  subcategory: Feature Flagging
+  twitter: https://twitter.com/bucketeer_io
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/elasticsearch
+  homepage_url: https://www.elastic.co/beats
+  item: null
+  logo: beats.svg
+  name: Beats
+  repo_url: https://github.com/elastic/beats
+  subcategory: Observability
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/kubeshop
+  homepage_url: https://www.botkube.io
+  item: null
+  logo: botkube.svg
+  name: Botkube
+  repo_url: https://github.com/kubeshop/botkube
+  subcategory: Observability
+  twitter: https://twitter.com/Botkube_io
+- category: Wasm
+  crunchbase: https://www.crunchbase.com/organization/webassembly
+  homepage_url: https://github.com/WebAssembly/binaryen
+  item: null
+  logo: wasm.svg
+  name: Binaryen
+  repo_url: https://github.com/WebAssembly/binaryen
+  subcategory: Tooling
+- category: CNAI
+  description: Build Production-Grade AI Applications
+  homepage_url: https://bentoml.com
+  item: null
+  logo: ./bentoml.svg
+  name: BentoML
+  repo_url: https://github.com/bentoml/BentoML
+  subcategory: CI/CD - Delivery
+  unnamed_organization: true

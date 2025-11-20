@@ -1,0 +1,56 @@
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/red-hat
+  homepage_url: https://quay.io/
+  item: null
+  logo: quay.svg
+  name: Quay
+  repo_url: https://github.com/quay/quay
+  subcategory: Container Registry
+  twitter: https://twitter.com/projectquay
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/qdrant
+  description: Vector Database for the next generation of AI applications.
+  extra:
+    youtube_url: https://www.youtube.com/channel/UC6ftm8PwH1RU_LM1jwG0LQA
+  homepage_url: https://qdrant.tech
+  item: null
+  logo: qdrant.svg
+  name: Qdrant
+  repo_url: https://github.com/qdrant/qdrant
+  subcategory: Database
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/red-hat
+  description: Quarkus is a Kubernetes-native Java framework, designed to enable Java
+    developers to create applications for a modern, cloud-native world. It is tailored
+    for GraalVM and HotSpot, and crafted from best-of-breed Java libraries and standards.
+  extra:
+    blog_url: https://quarkus.io/blog/
+    stack_overflow_url: https://stackoverflow.com/questions/tagged/quarkus
+    youtube_url: https://www.youtube.com/channel/UCaW8QG_QoIk_FnjLgr5eOqg
+  homepage_url: https://www.quarkus.io/
+  item: null
+  logo: quarkus.svg
+  name: Quarkus
+  repo_url: https://github.com/quarkusio/quarkus
+  subcategory: Application Definition & Image Build
+  twitter: https://twitter.com/QuarkusIO
+- category: Platform
+  crunchbase: https://www.crunchbase.com/organization/qbo-cloud
+  description: QBO Kubernetes Engine (QKE) redefines the concept of a Kubernetes node
+    as a container using Kubernetes-in-Docker technology. Streamline the deployment
+    and management of Kubernetes clusters in seconds with QKE and unlock bare-metal
+    performance without virtualization overhead.
+  homepage_url: https://ce.qbo.io/
+  item: null
+  logo: qbo.svg
+  name: QBO
+  repo_url: https://github.com/alexeadem/qbo-ce
+  subcategory: Certified Kubernetes - Distribution
+- category: Wasm
+  crunchbase: https://www.crunchbase.com/organization/quai-network
+  homepage_url: https://qu.ai/
+  item: null
+  logo: quai.svg
+  name: Quai Network
+  repo_url: https://github.com/dominant-strategies/go-quai
+  subcategory: Decentralized Platforms

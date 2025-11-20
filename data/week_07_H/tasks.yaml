@@ -1,0 +1,269 @@
+- allow_duplicate_repo: true
+  category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2018-07-31'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#harbor-logos
+    audits:
+    - date: '2019-10-01'
+      type: security
+      url: https://github.com/goharbor/website/blob/main/docs/security/Harbor_Security_Audit_Oct2019.pdf
+      vendor: Cure53
+    clomonitor_name: harbor
+    dev_stats_url: https://harbor.devstats.cncf.io/
+    graduated: '2020-06-15'
+    incubating: '2018-11-14'
+    lfx_slug: harbor
+    mailing_list_url: https://lists.cncf.io/g/harbor-users/topics
+    slack_url: https://cloud-native.slack.com/messages/harbor/
+    stack_overflow_url: https://stackoverflow.com/questions/tagged/harbor
+    summary_business_use_case: Self-hosted container registry with multiple integrations
+      for security and validation.
+    summary_integrations: trivy, cosing, notary, github, gce, jfrog, snyk, clair,
+      sysdig, oidc, ldap, ecr, acr, docker, quay, helm
+    summary_intro_url: https://www.youtube.com/watch?v=adfPZAyozwc
+    summary_personas: SREs, Cloud Architects, Platform Engineers, DevOps Engineer,
+      DevOps practitioners, DevSecOps practitioners
+    summary_release_rate: We aim to have 3 big releases per year with many patch releases
+      in between.
+    summary_tags: registry, images, OCI, container, artefacts, vulnerability scanning,
+      self-hosted, harbor, edge, replication
+    summary_use_case: Harbor is an open source registry that secures artifacts with
+      policies and role-based access control,  ensures images are scanned and free
+      from vulnerabilities, and signs images as trusted. Can be installed on any Kubernetes
+      environment or on a system with Docker support.
+  homepage_url: https://goharbor.io/
+  item: null
+  logo: harbor.svg
+  name: Harbor
+  project: graduated
+  repo_url: https://github.com/goharbor/harbor
+  subcategory: Container Registry
+  twitter: https://twitter.com/project_harbor
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2022-07-26'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#hexa-logos
+    clomonitor_name: hexapolicyorchestrator
+    dev_stats_url: https://hexapolicyorchestrator.devstats.cncf.io/
+    lfx_slug: hexa
+  homepage_url: https://hexaorchestration.org/
+  item: null
+  logo: hexa.svg
+  name: Hexa
+  project: sandbox
+  repo_url: https://github.com/hexa-org/policy-orchestrator
+  subcategory: Security & Compliance
+  twitter: https://twitter.com/HexaPolicy
+- category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Hwameistor is an HA local storage system for cloud-native stateful
+    workloads
+  extra:
+    accepted: '2023-06-22'
+    artwork_url: https://github.com/cncf/artwork/tree/master/projects/hwameistor
+    blog_url: https://hwameistor.io/blog
+    clomonitor_name: hwameistor
+    dev_stats_url: https://hwameistor.devstats.cncf.io/
+    lfx_slug: hwameistor
+    slack_url: https://cloud-native.slack.com/messages/hwameistor
+  homepage_url: https://hwameistor.io/
+  item: null
+  logo: hwameistor.svg
+  name: HwameiStor
+  project: sandbox
+  repo_url: https://github.com/hwameistor/hwameistor
+  subcategory: Cloud Native Storage
+  twitter: https://twitter.com/daocloud_io
+- category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: A lightweight, secure container runtime solution designed for modern
+    cloud-native workloads
+  extra:
+    accepted: '2025-03-04'
+    dev_stats_url: https://hyperlight.devstats.cncf.io/
+    lfx_slug: hyperlight
+  homepage_url: https://github.com/hyperlight-dev/hyperlight
+  item: null
+  logo: hyperlight.svg
+  name: Hyperlight
+  project: sandbox
+  repo_url: https://github.com/hyperlight-dev/hyperlight
+  subcategory: Container Runtime
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/haproxy-technologies
+  homepage_url: https://www.haproxy.com/
+  item: null
+  logo: haproxy.svg
+  name: HAProxy
+  repo_url: https://github.com/haproxy/haproxy
+  subcategory: Service Proxy
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/netease-com
+  homepage_url: https://github.com/hango-io
+  item: null
+  logo: Hango.svg
+  name: Hango
+  repo_url: https://github.com/hango-io/hango-gateway
+  subcategory: API Gateway
+  twitter: https://twitter.com/NetEase_Global
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
+  homepage_url: https://higress.io
+  item: null
+  logo: higress.svg
+  name: Higress
+  repo_url: https://github.com/alibaba/higress
+  subcategory: API Gateway
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/hazelcast
+  homepage_url: https://hazelcast.com/open-source-projects
+  item: null
+  logo: hazelcast.svg
+  name: Hazelcast IMDG
+  open_source: false
+  repo_url: https://github.com/hazelcast/hazelcast
+  subcategory: Database
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2018-06-01'
+    artwork_url: https://github.com/cncf/artwork/blob/main/examples/graduated.md
+    audits:
+    - date: '2019-04-19'
+      type: security
+      url: https://github.com/helm/community/blob/master/security-audit/HLM-01-report.pdf
+      vendor: Cure 53 and Trail of Bits
+    - date: '2023-03-31'
+      type: fuzzing
+      url: https://github.com/helm/community/blob/main/security-audit/FUZZING_AUDIT_2022.pdf
+      vendor: Ada Logics
+    chat_channel: '#helm-dev'
+    clomonitor_name: helm
+    dev_stats_url: https://helm.devstats.cncf.io/
+    graduated: '2020-05-01'
+    incubating: '2018-06-01'
+    lfx_slug: helm
+    slack_url: https://slack.k8s.io
+    stack_overflow_url: https://stackoverflow.com/questions/tagged/helm
+  homepage_url: https://helm.sh/
+  item: null
+  logo: helm.svg
+  name: Helm
+  project: graduated
+  repo_url: https://github.com/helm/helm
+  subcategory: Application Definition & Image Build
+  twitter: https://twitter.com/helmpack
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/helmwave
+  homepage_url: https://helmwave.app
+  item: null
+  logo: helmwave.svg
+  name: Helmwave
+  repo_url: https://github.com/helmwave/helmwave
+  subcategory: Continuous Integration & Delivery
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/hyscale
+  description: An app-centric abstraction framework over K8s and an enterprise platform
+    for accelerating deployments to multi-cloud Kubernetes. Offers self-service app
+    deployments, container sprawl management across clusters, and DevSecOps.
+  homepage_url: https://github.com/hyscale/hyscale#readme
+  item: null
+  logo: hyscale.svg
+  name: HyScale
+  repo_url: https://github.com/hyscale/hyscale
+  subcategory: Continuous Integration & Delivery
+- category: Serverless
+  crunchbase: https://www.crunchbase.com/organization/hasura
+  homepage_url: https://hasura.io/event-triggers
+  item: null
+  logo: hasura-graphqlengine.svg
+  name: Hasura GraphQL Engine
+  repo_url: https://github.com/hasura/graphql-engine
+  subcategory: Tools
+- bluesky_url: https://bsky.app/profile/headlamp.dev
+  category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Extensible open source multi-cluster Kubernetes user interface
+  extra:
+    accepted: '2023-05-17'
+    blog_url: https://headlamp.dev/blog
+    clomonitor_name: headlamp
+    dev_stats_url: https://headlamp.devstats.cncf.io/
+    lfx_slug: headlamp
+    slack_url: https://kubernetes.slack.com/messages/headlamp
+  homepage_url: https://headlamp.dev
+  item: null
+  logo: headlamp.svg
+  name: Headlamp
+  repo_url: https://github.com/kubernetes-sigs/headlamp
+  subcategory: Observability
+  twitter: https://twitter.com/headlamp_ui
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/apache
+  description: Apache HertzBeat (Incubating) is an open-source, real-time monitoring
+    system with custom monitoring, high performance cluster and agentless capabilities.
+  homepage_url: https://hertzbeat.apache.org/
+  item: null
+  logo: hertzbeat.svg
+  name: HertzBeat
+  repo_url: https://github.com/apache/hertzbeat
+  subcategory: Observability
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    parent_project: Cilium
+  homepage_url: https://github.com/cilium/hubble
+  item: null
+  logo: hubble(rgb).svg
+  name: Hubble
+  repo_url: https://github.com/cilium/hubble
+  subcategory: Observability
+- category: Wasm
+  description: Purely functional language with wasm backend
+  homepage_url: https://www.haskell.org
+  item: null
+  logo: haskell.svg
+  name: Haskell
+  repo_url: https://gitlab.haskell.org/ghc/ghc
+  subcategory: Languages
+  unnamed_organization: true
+- allow_duplicate_repo: true
+  category: Wasm
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  homepage_url: https://goharbor.io/
+  item: null
+  logo: harbor.svg
+  name: Harbor (Wasm)
+  repo_url: https://github.com/goharbor/harbor
+  subcategory: Packaging, Registries & Application Delivery
+- category: CNAI
+  description: Distributed deep learning training framework for TensorFlow, Keras,
+    PyTorch, and Apache MXNet.
+  homepage_url: https://horovod.ai/
+  item: null
+  logo: ./horovod.svg
+  name: Horovod
+  repo_url: https://github.com/horovod/horovod
+  subcategory: Distributed Training
+  unnamed_organization: true
+- category: CNAI
+  description: Distributed Asynchronous Hyper-parameter Optimization
+  homepage_url: https://hyperopt.github.io/hyperopt/
+  item: null
+  logo: ./hyperopt.svg
+  name: Hyperopt
+  repo_url: https://github.com/hyperopt/hyperopt/
+  subcategory: AutoML
+  unnamed_organization: true
+- category: CNAI
+  description: Open source framework works by rapidly transferring data between nodes.
+    It's often used by companies who need to handle and store big data.
+  homepage_url: https://hadoop.apache.org/
+  item: null
+  logo: ./hadoop.svg
+  name: Hadoop HDFS
+  repo_url: https://github.com/apache/hadoop
+  subcategory: Data Architecture
+  unnamed_organization: true

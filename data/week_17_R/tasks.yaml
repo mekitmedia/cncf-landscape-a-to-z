@@ -1,0 +1,268 @@
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: A toolchain that turns Markdown into interactive, cloud-native, runnable
+    Notebook experiences for DevOps.
+  extra:
+    accepted: '2025-01-21'
+    clomonitor_name: runme
+    dev_stats_url: https://runme.devstats.cncf.io/
+    lfx_slug: runme-notebooks
+    summary_business_use_case: Document and execute operational processes like deployments,
+      infrastructure management, or incident response  directly from Notebooks, ensuring
+      consistency and repeatability. Automate workflows with tools like Terraform,  Helm,
+      Dagger, and Argo CD.
+    summary_integrations: Kubernetes, Terraform, Helm, Docker, Dagger, Argo CD, AWS,
+      GCP, GitHub Actions
+    summary_personas: DevOps Engineers, SREs, Platform Engineers, Developers
+    summary_tags: DevOps, Notebooks, Markdown, Automation, GitOps
+    summary_use_case: Runme consolidates operational documentation and executable
+      commands/code into interactive Notebooks or TUIs,  seamlessly integrating with
+      cloud-native infrastructure. The toolchain empowers engineering teams to build  and
+      maintain reliable, shareable documentation that can be tested in CI/CD.
+  homepage_url: https://runme.dev/
+  item: null
+  logo: cncf.svg
+  name: Runme Notebooks
+  project: sandbox
+  repo_url: https://github.com/runmedev/runme
+  subcategory: Automation & Configuration
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/rundeck
+  homepage_url: https://www.rundeck.com/open-source
+  item: null
+  logo: rundeck.svg
+  name: Rundeck
+  repo_url: https://github.com/rundeck/rundeck
+  subcategory: Automation & Configuration
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: A verification engine on Kubernetes which enables verification of artifact
+    security metadata and admits for deployment only those that comply with policies
+    you create.
+  extra:
+    accepted: '2024-08-30'
+    clomonitor_name: ratify
+    dev_stats_url: https://ratify.devstats.cncf.io/
+    lfx_slug: ratify
+  homepage_url: https://ratify.dev/
+  item: null
+  logo: ratify.svg
+  name: Ratify
+  project: sandbox
+  repo_url: https://github.com/ratify-project/ratify
+  subcategory: Security & Compliance
+  twitter: https://twitter.com/artifact_ratify
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/fairwinds
+  homepage_url: https://www.fairwinds.com/open-source-software
+  item: null
+  logo: rbac-lookup.svg
+  name: RBAC Lookup
+  repo_url: https://github.com/FairwindsOps/rbac-lookup
+  subcategory: Security & Compliance
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/fairwinds
+  homepage_url: https://www.fairwinds.com/open-source-software
+  item: null
+  logo: rbac-manager.svg
+  name: RBAC Manager
+  repo_url: https://github.com/FairwindsOps/rbac-manager
+  subcategory: Security & Compliance
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/normation
+  extra:
+    artwork_url: https://github.com/Normation/rudder/tree/master/logo
+    blog_url: https://www.rudder.io/blog/
+    youtube_url: https://www.youtube.com/user/RudderProject
+  homepage_url: https://www.rudder.io/
+  item: null
+  logo: rudder.svg
+  name: Rudder
+  repo_url: https://github.com/normation/rudder
+  subcategory: Security & Compliance
+- category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2018-01-29'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#rook-logos
+    audits:
+    - date: '2019-12-01'
+      type: security
+      url: https://drive.google.com/file/d/1rOwrwYmBUpLUm6W5J5rhXvdVit818hWJ/view
+      vendor: Trail of Bits
+    blog_url: https://blog.rook.io/
+    clomonitor_name: rook
+    dev_stats_url: https://rook.devstats.cncf.io/
+    graduated: '2020-10-07'
+    incubating: '2018-09-25'
+    lfx_slug: rook
+    slack_url: https://rook-io.slack.com/
+    stack_overflow_url: https://stackoverflow.com/questions/tagged/rook
+    summary_business_use_case: " Rook provides a consistent storage platform, whether\
+      \ in the cloud or on bare metal. The storage cluster is managed through Kubernetes\
+      \ Custom Resources, making integrating with your existing DevOps/ GitOps toolset\
+      \ easy.\n For your applications to consume storage, they simply need to use\
+      \ the Kubernetes native approach of creating a `PersistentVolumeClaim`.\n Running\
+      \ a Rook Ceph cluster is made accessible due to the operator pattern.\n The\
+      \ operator pattern allows the Rook project to handle most tasks automatically\
+      \ (e.g., updating to a new Ceph version). These automatic processes reduce the\
+      \ time spent setting up, configuring, maintaining, and updating your Rook storage\
+      \ cluster."
+    summary_integration: CSI (Container Storage Interface) Integration, Helm Chart,
+      Prometheus
+    summary_personas: SRE/ DevOps Engineers
+    summary_release_rate: 'Minor releases: approximately three times a year (similar
+      to Kubernetes cadence), Patch releases: bi-weekly'
+    summary_tags: Storage, Persistence, Data, CSI, Operator, Kubernetes
+    summary_use_case: " Rook is an open source cloud-native storage orchestrator,\
+      \ providing the platform, framework, and support for Ceph storage to integrate\
+      \ with cloud-native environments natively.\n Ceph is a distributed storage system\
+      \ that provides block, file, and object storage and is deployed in large-scale\
+      \ production clusters.\n Rook automates deployment and management of Ceph to\
+      \ provide self-managing, self-scaling, and self-healing storage services. The\
+      \ Rook operator builds on Kubernetes resources to deploy, configure, provision,\
+      \ scale, upgrade, and monitor Ceph.\n The storage cluster can be run hyper-converged\
+      \ beside your applications, in a cloud, or on bare metal. Rook provides a consistent\
+      \ storage platform anywhere Kubernetes runs."
+  homepage_url: https://rook.io/
+  item: null
+  logo: rook.svg
+  name: Rook
+  project: graduated
+  project_org: https://github.com/rook
+  repo_url: https://github.com/rook/rook
+  subcategory: Cloud Native Storage
+  twitter: https://twitter.com/rook_io
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/accenture
+  homepage_url: https://accenture.github.io/reactive-interaction-gateway/
+  item: null
+  logo: reactive-interaction-gateway.svg
+  name: Reactive Interaction Gateway
+  repo_url: https://github.com/accenture/reactive-interaction-gateway
+  subcategory: API Gateway
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/redis-labs
+  homepage_url: https://redis.io/
+  item: null
+  logo: redis.svg
+  name: Redis
+  repo_url: https://github.com/redis/redis
+  second_path:
+  - CNAI / Data Architecture
+  subcategory: Database
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/linux-foundation
+  homepage_url: https://rethinkdb.com/
+  item: null
+  logo: rethinkdb.svg
+  name: RethinkDB
+  repo_url: https://github.com/rethinkdb/rethinkdb
+  subcategory: Database
+  twitter: https://twitter.com/rethinkdb
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/rabbit-technologies
+  homepage_url: https://www.rabbitmq.com/
+  item: null
+  logo: rabbit-mq.svg
+  name: RabbitMQ
+  repo_url: https://github.com/rabbitmq/rabbitmq-server
+  subcategory: Streaming & Messaging
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/vectorized
+  homepage_url: https://redpanda.com/platform
+  item: null
+  logo: redpanda.svg
+  name: Redpanda
+  open_source: false
+  repo_url: https://github.com/redpanda-data/redpanda
+  subcategory: Streaming & Messaging
+- category: App Definition and Development
+  description: Radius is a cloud-native application platform that enables developers
+    and the platform engineers that support them to collaborate on delivering and
+    managing cloud-native applications that follow organizational best practices for
+    cost, operations and security, by default.
+  extra:
+    accepted: '2024-04-16'
+    blog_url: https://blog.radapp.io/posts
+    clomonitor_name: radius
+    dev_stats_url: https://radius.devstats.cncf.io/
+    lfx_slug: radius
+    youtube_url: https://www.youtube.com/@radapp_io
+  homepage_url: https://radapp.io/
+  item: null
+  logo: radius.svg
+  name: Radius
+  project: sandbox
+  repo_url: https://github.com/radius-project/radius
+  subcategory: Application Definition & Image Build
+  twitter: https://twitter.com/radapp_io
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/ibm
+  homepage_url: https://razee.io/
+  item: null
+  logo: razee.svg
+  name: Razee
+  repo_url: https://github.com/razee-io/Razee
+  subcategory: Continuous Integration & Delivery
+  twitter: https://twitter.com/IBMCloud
+- category: Platform
+  crunchbase: https://www.crunchbase.com/organization/suse
+  description: "Deploy Rancher\u2019s Kubernetes distro anywhere or launch cloud Kubernetes\
+    \ services from Google, Amazon or Microsoft."
+  homepage_url: https://rancher.com
+  item: null
+  logo: rancher.svg
+  name: Rancher Kubernetes
+  repo_url: https://github.com/rancher/rancher
+  subcategory: Certified Kubernetes - Distribution
+- category: Platform
+  crunchbase: https://www.crunchbase.com/organization/red-hat
+  description: A component of Red Hat Device Edge used to provide lightweight Kubernetes
+    container orchestration in field deployed devices at the far edge
+  homepage_url: https://www.redhat.com/en/technologies/device-edge
+  item: null
+  logo: red-hat-member.svg
+  name: Red Hat Build of Microshift
+  repo_url: https://github.com/openshift/microshift
+  subcategory: Certified Kubernetes - Distribution
+- category: Platform
+  crunchbase: https://www.crunchbase.com/organization/red-hat
+  description: "OpenShift\xAE helps organizations focus on building and scaling their\
+    \ business with fully supported enterprise Kubernetes by Red Hat\xAE."
+  homepage_url: https://www.redhat.com/en/technologies/cloud-computing/openshift
+  item: null
+  logo: red-hat-open-shift.svg
+  name: Red Hat OpenShift
+  repo_url: https://github.com/openshift/kubernetes
+  subcategory: Certified Kubernetes - Distribution
+  twitter: https://twitter.com/openshift
+- category: Platform
+  crunchbase: https://www.crunchbase.com/organization/suse
+  description: A Kubernetes distribution focused on enabling Federal government compliance-based
+    use cases.
+  homepage_url: https://docs.rke2.io/
+  item: null
+  logo: rke-government.svg
+  name: RKE Government
+  repo_url: https://github.com/rancher/rke2
+  subcategory: Certified Kubernetes - Distribution
+- category: Platform
+  crunchbase: https://www.crunchbase.com/organization/suse
+  description: Rancher Kubernetes Engine, an extremely simple, lightning fast Kubernetes
+    installer that works everywhere.
+  homepage_url: https://github.com/rancher/rke
+  item: null
+  logo: rancher.svg
+  name: Rancher Kubernetes Engine (RKE)
+  repo_url: https://github.com/rancher/rke
+  subcategory: Certified Kubernetes - Installer
+- category: Wasm
+  crunchbase: https://www.crunchbase.com/organization/rust
+  description: Compiled language to Wasm
+  homepage_url: https://www.rust-lang.org/
+  item: null
+  logo: rust.svg
+  name: Rust
+  repo_url: https://github.com/rust-lang/rust
+  subcategory: Languages

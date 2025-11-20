@@ -1,0 +1,245 @@
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/chaitin-tech
+  description: veinmind-tools is self-developed by chaitin technology, cloudwalker
+    team incubation, a container security toolset based on veinmind-sdk
+  homepage_url: https://veinmind.chaitin.com/
+  item: null
+  logo: veinmind.svg
+  name: Veinmind Tools
+  repo_url: https://github.com/chaitin/veinmind-tools
+  subcategory: Security & Compliance
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/hashicorp
+  homepage_url: https://www.vaultproject.io/
+  item: null
+  logo: vault.svg
+  name: Vault
+  repo_url: https://github.com/hashicorp/vault
+  subcategory: Key Management
+- category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/vmware
+  homepage_url: https://velero.io
+  item: null
+  logo: project-velero.svg
+  name: Velero
+  repo_url: https://github.com/vmware-tanzu/velero
+  subcategory: Cloud Native Storage
+  twitter: https://twitter.com/projectvelero
+- category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Vineyard (v6d) is an in-memory immutable data manager.
+  enduser: true
+  extra:
+    accepted: '2021-04-28'
+    annual_review_date: '2022-07-11'
+    annual_review_url: https://github.com/cncf/toc/pull/874
+    clomonitor_name: vineyard
+    lfx_slug: vineyard
+    summary_business_use_case: Vineyard is used as a distributed immediate data store
+      to share large tensors and dataframes between data scientists among a research
+      division.
+    summary_integration: 'Big-data: Numpy, Pandas, Dask, Mars, Spark
+
+      Orchestration: Airflow'
+    summary_intro_url: https://www.youtube.com/watch?v=p-falphSJq8&list=PLj6h78yzYM2NoiNaLVZxr-ERc1ifKP7n6
+    summary_personas: Users who are deploying data-intensive applications in cloud-native
+      environments.
+    summary_release_rate: '2022-12-24'
+    summary_tags: distributed systems,shared-memory,in-memory storage,big-data-analytics
+    summary_use_case: '- Vineyard is deployed as a daemon and used as shared storage
+      between users for structural data objects.
+
+      - Vineyard is used to sharing the common data structure between computing engines
+      that runs in separate isolated processes and containers.
+
+      - Vineyard is used to sharing the immediate data between upstream and downstream
+      tasks within a data-analytical workflow on Kubernetes.'
+  homepage_url: https://v6d.io
+  item: null
+  logo: vineyard.svg
+  name: Vineyard
+  project: sandbox
+  project_org: https://github.com/v6d-io
+  repo_url: https://github.com/v6d-io/v6d
+  subcategory: Cloud Native Storage
+- category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2018-12-04'
+    annual_review_date: '2023-06-08'
+    annual_review_url: https://github.com/cncf/toc/pull/1077
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#virtual-kubelet-logos
+    clomonitor_name: virtual-kubelet
+    dev_stats_url: https://virtualkubelet.devstats.cncf.io/
+    lfx_slug: virtualkubelet
+  homepage_url: https://virtual-kubelet.io/
+  item: null
+  logo: virtual-kubelet.svg
+  name: Virtual Kubelet
+  project: sandbox
+  repo_url: https://github.com/virtual-kubelet/virtual-kubelet
+  second_path:
+  - Serverless / Installable Platform
+  subcategory: Container Runtime
+  twitter: https://twitter.com/virtualkubelet
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2020-04-09'
+    ai: true
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#volcano
+    clomonitor_name: volcano
+    dev_stats_url: https://volcano.devstats.cncf.io/
+    incubating: '2022-03-21'
+    lfx_slug: Volcano
+  homepage_url: https://volcano.sh/
+  item: null
+  logo: volcano.svg
+  name: Volcano
+  project: incubating
+  repo_url: https://github.com/volcano-sh/volcano
+  second_path:
+  - CNAI / General Orchestration
+  subcategory: Scheduling & Orchestration
+  twitter: https://twitter.com/volcano_sh
+- additional_repos:
+  - repo_url: https://github.com/vdaas/vald-client-go
+  - repo_url: https://github.com/vdaas/vald-client-java
+  - repo_url: https://github.com/vdaas/vald-client-node
+  - repo_url: https://github.com/vdaas/vald-client-python
+  - repo_url: https://github.com/vdaas/vald-tensorflow-ingress-filter
+  - repo_url: https://github.com/vdaas/vald-onnx-ingress-filter
+  - repo_url: https://github.com/vdaas/vald-demo
+  category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/ly-corporation
+  description: Vald is a highly scalable, cloud-native distributed vector search engine
+    optimized for machine learning and AI applications. It offers efficient, near
+    real-time search for high-dimensional vector data, ensuring robust performance
+    and flexibility in handling large datasets. Engineered for ease of use and integration,
+    Vald empowers developers with cutting-edge search capabilities.
+  extra:
+    blog_jp_url: https://zenn.dev/vald
+    blog_url: https://vdaas-vald.medium.com/
+    docker_url: https://hub.docker.com/u/vdaas
+    helm_chart_url: https://artifacthub.io/packages/chart/vald/vald
+    operator_chart_url: https://artifacthub.io/packages/chart/vald/vald-helm-operator
+    slack_url: https://join.slack.com/t/vald-community/shared_invite/zt-db2ky9o4-R_9p2sVp8xRwztVa8gfnPA
+  homepage_url: https://vald.vdaas.org/
+  item: null
+  logo: vald.svg
+  name: Vald
+  repo_url: https://github.com/vdaas/vald
+  subcategory: Database
+  twitter: https://twitter.com/vdaas_vald
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/linux-foundation
+  description: A flexible distributed key-value datastore that is optimized for caching
+    and other realtime workloads.
+  homepage_url: https://valkey.io/
+  item: null
+  logo: ./valkey.svg
+  name: Valkey
+  repo_url: https://github.com/valkey-io/valkey
+  second_path:
+  - CNAI / Data Architecture
+  subcategory: Database
+  unnamed_organization: true
+- additional_repos:
+  - repo_url: https://github.com/vitessio/website
+  - repo_url: https://github.com/vitessio/arewefastyet
+  - repo_url: https://github.com/vitessio/enhancements
+  category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: MySQL-compatible, horizontally scalable, cloud-native database solution.
+  extra:
+    accepted: '2018-02-05'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/graduated.md#vitess-logos
+    audits:
+    - date: '2019-02-01'
+      type: security
+      url: https://vitess.io/files/VIT-01-report.pdf
+      vendor: Cure53
+    - date: '2021-05-19'
+      type: fuzzing
+      url: https://github.com/vitessio/vitess/blob/master/doc/VIT-02-report-fuzzing-audit.pdf
+      vendor: AdaLogics
+    - date: '2023-06-05'
+      type: security
+      url: https://github.com/vitessio/vitess/blob/main/doc/VIT-03-report-security-audit.pdf
+      vendor: Ada Logics
+    blog_url: https://vitess.io/blog/
+    clomonitor_name: vitess
+    dev_stats_url: https://vitess.devstats.cncf.io/
+    graduated: '2019-11-05'
+    incubating: '2018-02-05'
+    lfx_slug: vitess
+    mailing_list_url: https://lists.cncf.io/g/cncf-vitess-users
+    stack_overflow_url: https://stackoverflow.com/questions/tagged/vitess
+    summary_business_use_case: Scalability, Reliability, reduce human cost of running
+      databases.
+    summary_integration: 'Kubernetes Operator, Debezium
+
+      '
+    summary_intro_url: https://www.youtube.com/watch?v=Sny8rITrdvE
+    summary_personas: Infrastructure teams
+    summary_release_rate: Every 4 months
+    summary_tags: Scalable, reliable, MySQL, distributed, cloud-native, kubernetes,
+      cloud, database
+    summary_use_case: Scaling out existing MySQL deployments, or building out internal
+      database solutions for application teams to build products on.
+  homepage_url: https://vitess.io/
+  item: null
+  logo: vitess.svg
+  name: Vitess
+  project: graduated
+  repo_url: https://github.com/vitessio/vitess
+  subcategory: Database
+  twitter: https://twitter.com/vitessio
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: The extension for developers building applications to run in Kubernetes
+    clusters and for DevOps staff troubleshooting Kubernetes applications.
+  extra:
+    accepted: '2021-11-09'
+    clomonitor_name: vscode-kubernetes-tools
+    dev_stats_url: https://vscodek8stools.devstats.cncf.io/
+    lfx_slug: vscodekubernetestools
+  homepage_url: https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.vscode-kubernetes-tools
+  item: null
+  logo: vscodek8stools.svg
+  name: Visual Studio Code Kubernetes Tools
+  project: sandbox
+  repo_url: https://github.com/vscode-kubernetes-tools/vscode-kubernetes-tools
+  subcategory: Application Definition & Image Build
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/timber
+  homepage_url: https://vector.dev/
+  item: null
+  logo: vector.svg
+  name: Vector
+  repo_url: https://github.com/vectordotdev/vector
+  subcategory: Observability
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/victoriametrics
+  homepage_url: https://victoriametrics.com/
+  item: null
+  logo: victoriametrics.svg
+  name: VictoriaMetrics
+  repo_url: https://github.com/VictoriaMetrics/VictoriaMetrics
+  subcategory: Observability
+- category: Wasm
+  crunchbase: https://www.crunchbase.com/organization/google
+  homepage_url: https://v8.dev/
+  item: null
+  logo: v8.svg
+  name: V8
+  repo_url: https://github.com/v8/v8
+  subcategory: Runtimes
+- category: Wasm
+  crunchbase: https://www.crunchbase.com/organization/wasmer
+  homepage_url: https://github.com/wasmerio/vscode-wasm
+  item: null
+  logo: wasmer.svg
+  name: VSCode Wasm Extension
+  repo_url: https://github.com/wasmerio/vscode-wasm
+  subcategory: Tooling

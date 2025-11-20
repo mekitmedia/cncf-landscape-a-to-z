@@ -1,0 +1,1825 @@
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2024-04-13'
+    blog_url: https://kairos.io/blog/
+    clomonitor_name: kairos
+    lfx_slug: kairos
+    slack_url: https://cloud-native.slack.com/archives/C0707M8UEU8
+    summary_business_use_case: Kairos can be utilized by businesses to deploy secure,
+      consistent, and easily managed edge computing platforms across multiple locations.
+      For instance, a retail chain can transform its in-store Linux systems into customized,
+      secure, and uniform environments. This setup ensures seamless deployment and
+      management of applications, enhances data security through immutable images
+      and encryption, and reduces maintenance overhead. The system's compatibility
+      with Kubernetes and ease of installation make it an optimal choice for scalable
+      and automated edge computing solutions.
+    summary_integrations: K3s, Kubeadm, rke2, microk8s, Calico, Cert-manager, Flux,
+      Kyverno, Kubevirt, Longhorn, MetalLB, Multus, Nginx, System upgrade controller,
+      EdgeVPN
+    summary_intro_url: https://www.youtube.com/watch?v=WzKf6WrL3nE
+    summary_personas: Cluster admins, SREs, Cloud Architects, Platform Engineers,
+      DevOps Engineer, DevOps practitioners, DevSecOps practitioners
+    summary_release_rate: At least one minor release per quarter
+    summary_tags: security, Go, DevOps, DevSecOps, container, Cloud Native, Kubernetes,
+      Runtime, Kubernetes, baremetal
+    summary_use_case: Transform any Linux system into a secure, customizable, and
+      easily managed platform for edge computing with or without Kubernetes.
+    youtube_url: https://www.youtube.com/@Kairos-IO
+  homepage_url: https://kairos.io
+  item: null
+  logo: kairos.svg
+  name: Kairos
+  project: sandbox
+  repo_url: https://github.com/kairos-io/kairos
+  subcategory: Automation & Configuration
+  twitter: https://twitter.com/Kairos_OSS
+- category: Provisioning
+  description: A configuration management system for platform engineering and other
+    things
+  homepage_url: https://kapitan.dev/
+  item: null
+  logo: kapitan.svg
+  name: Kapitan
+  repo_url: https://github.com/kapicorp/kapitan
+  subcategory: Automation & Configuration
+  twitter: https://twitter.com/kapitandev
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: A constraint-based record & functional language mainly used in configuration
+    and policy scenarios.
+  extra:
+    accepted: '2023-09-20'
+    clomonitor_name: kcl
+    dev_stats_url: https://kcl.devstats.cncf.io/
+    lfx_slug: kcl
+  homepage_url: https://kcl-lang.io/
+  item: null
+  logo: kcl.svg
+  name: KCL
+  project: sandbox
+  repo_url: https://github.com/kcl-lang/kcl
+  subcategory: Automation & Configuration
+  twitter: https://twitter.com/kcl_language
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: An open standard for packaging, managing, and deploying ML models and
+    artifacts across different systems
+  extra:
+    accepted: '2025-03-04'
+    clomonitor_name: kitops
+    dev_stats_url: https://kitops.devstats.cncf.io/
+    lfx_slug: kitops
+  homepage_url: https://kitops.org/
+  item: null
+  logo: kitops.svg
+  name: KitOps
+  project: sandbox
+  repo_url: https://github.com/kitops-ml/kitops
+  subcategory: Automation & Configuration
+- category: Provisioning
+  description: Kosko can help you organize your Kubernetes manifests in TypeScript,
+    manage multiple environments, ensure type safety using OpenAPI schema, and find
+    issues in your manifests.
+  homepage_url: https://kosko.dev
+  item: null
+  logo: kosko.svg
+  name: Kosko
+  repo_url: https://github.com/tommy351/kosko
+  subcategory: Automation & Configuration
+  twitter: https://x.com/kosko_k8s
+- category: Provisioning
+  extra:
+    slack_url: https://join.slack.com/t/kratixworkspace/shared_invite/zt-2aqdyq16t-geFUqrQgaTFbcBaP1FlY4g
+    summary_personas: Platform Engineers, DevOps Engineers, DevOps practitioners,
+      Cloud Architects, Enterprise Operators, SREs, DevSecOps practitioners
+    summary_tags: Platform Building, Platform Orchestration, Platform as a Product,
+    summary_use_case: 'Kratix is a framework for building composable internal developer
+      platforms (IDPs).  Kratix enables platform teams to offer everything(X)-as-a-service
+      to enable developers to ship code faster, safer, and at scale.
+
+      The three core components of Kratix are Promises, Workflows, and Fleet Management.                  A
+      Kratix Promise is an API contract between the Platform and its users. Kratix
+      Workflows define reusable actions (and "aspects") that hook into the Promise
+      lifecycle.  Kratix implements fleet management using GitOps principles to continually
+      reconcile desired cluster and platform states.
+
+      Kratix acts as a platform orchestrator, integrating and acting as the glue between
+      app management UX (portals, APIs, CLI) and infrastructure as code (IaC). In
+      addition to providing the ability to create platform/service APIs via Promises,
+      Kratix also manages the lifecycle of the platform itself, supporting day 1,
+      day 2, and day 2000 operations.
+
+      '
+  homepage_url: https://www.kratix.io/
+  item: null
+  logo: kratix.svg
+  name: Kratix
+  repo_url: https://github.com/syntasso/kratix
+  subcategory: Automation & Configuration
+  twitter: https://x.com/kratixio
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Product ready cluster lifecycle management toolchains based on kubespray
+    and other cluster LCM engine.
+  extra:
+    accepted: '2024-04-16'
+    clomonitor_name: kubean
+    dev_stats_url: https://kubean.devstats.cncf.io/
+    lfx_slug: kubean
+  homepage_url: https://kubean-io.github.io/kubean/
+  item: null
+  logo: kubean.svg
+  name: Kubean
+  project: sandbox
+  repo_url: https://github.com/kubean-io/kubean
+  subcategory: Automation & Configuration
+- allow_duplicate_repo: true
+  category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2019-03-18'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#kubeedge-logos
+    audits:
+    - date: '2022-07-11'
+      type: security
+      url: https://github.com/kubeedge/community/blob/master/sig-security/sig-security-audit/KubeEdge-security-audit-2022.pdf
+      vendor: Ada Logics
+    clomonitor_name: kube-edge
+    dev_stats_url: https://kubeedge.devstats.cncf.io/
+    graduated: '2024-09-11'
+    incubating: '2020-09-16'
+    lfx_slug: kubeedge
+    mailing_list_url: https://groups.google.com/forum/#!forum/kubeedge
+    slack_url: https://kubeedge.slack.com/
+    summary_business_use_case: 'KubeEdge has found widespread adoption across multiple
+      industries, including transportation, energy, internet, CDN, manufacturing,
+      and smart campuses. Some of the notable use cases include:
+
+      Tiansuan Constellation Program: KubeEdge has been integrated into the cloud-native
+      satellite computing platform initiated by the Shenzhen Institute of Beijing
+      University of Posts and Telecommunications (BUPT) with Spacety Co., Ltd. KubeEdge
+      brings in orbit-earth collaboration for the Tiansuan-1 Satellite in the platform,
+      this integration has enabled new service scenarios such as image inference,
+      incremental deep learning, and federated learning.
+
+      China''s highway electronic toll collection (ETC) system: KubeEdge has been
+      instrumental in managing nearly 100,000 edge nodes and over 500,000 edge applications
+      in 29 of China''s 34 provinces, municipalities, and autonomous regions. With
+      these applications, the system processes more than 300 million data records
+      daily and supports continuous updates of ETC services on highways. As a result,
+      the time taken to pass through toll stations has been reduced from 29s to 3s
+      for trucks, and from 15s to 2s for cars.
+
+      Hong Kong-Zhuhai-Macao bridge: KubeEdge manages edge nodes deployed on the world''s
+      longest sea crossing bridge, which collects up to 14 different types of sensor
+      data, including light intensity, carbon dioxide, atmospheric pressure, noise,
+      temperature, humidity, PM 2.5, PM 10, rain and snow, acceleration, angular velocity,
+      Euler angle, magnetic field, and sound. It also enables business apps and device
+      mapper and AI interference programs to be deployed at the edge.
+
+      SAIC MAXUS MIFA 9: The next-generation car-cloud collaborative architecture,
+      SAIC MAXUS full-size luxury, smart, pure electric MPV MIFA 9, has become the
+      first-ever vehicle with KubeEdge Inside. This platform can manage 100,000+ nodes
+      and millions of edge devices and is based on KubeEdge''s capabilities such as
+      lightweight architecture, optimized for unstable cloud-edge networks at scale,
+      simplified heterogeneous IoT device management, and edge autonomy in the case
+      of disconnection.
+
+      CDN platform of China Telecom: KubeEdge is used to manage CDN edge nodes, automatically
+      deploy and upgrade CDN edge services, and implement edge service disaster recovery
+      (DR) when migrating CDN services to the cloud.
+
+      China Mobile On-line Marketing Service Center: The largest call center in the
+      world, with 44,000 agents, 900 million users, and 53 customer service centers,
+      builds a cloud-edge synergy architecture consisting of two centers and multiple
+      edges based on KubeEdge.
+
+      Xinghai IoT: This IoT company provides comprehensive smart building solutions
+      by leveraging a construction IoT platform, intelligent hardware, and AI. Xinghai
+      IoT built a smart campus with cloud-edge-device synergy based on KubeEdge and
+      its own Xinghai IoT cloud platform, greatly improving the efficiency of campus
+      management. With AI assistance, nearly 30% of the repetitive work is automated.
+
+      SF Express: The largest integrated logistics service provider in China and the
+      fourth largest in the world, completely transformed their supply chains by implementing
+      KubeEdge. The smart supply chain system enables edge-cloud synergy, edge data
+      collection, real-time edge data processing, massive IoT device management, and
+      creates a more stable, secure, and reliable edge industrial IoT system.
+
+      '
+    summary_integrations: Calico, Flannel, Containerd, CRI-O, OpenFunction, WasmEdge,
+      Harbor, Prometheus, Grafana etc.
+    summary_personas: Platform Engineers, Enterprise Operator, Application Developer
+    summary_release_rate: Every 3 months
+    summary_tags: Edge, IoT Device
+    summary_use_case: 'KubeEdge is an open source system for extending native containerized
+      application orchestration capabilities to hosts at Edge.It is built upon kubernetes
+      and provides fundamental infrastructure support for network, application deployment
+      and metadata synchronization between cloud and edge.
+
+      Our goal is to make an open platform to enable Edge computing, extending native
+      containerized application orchestration capabilities to hosts at Edge
+
+      '
+  homepage_url: https://kubeedge.io/en/
+  item: null
+  logo: kube-edge.svg
+  name: KubeEdge
+  project: graduated
+  repo_url: https://github.com/kubeedge/kubeedge
+  subcategory: Automation & Configuration
+  twitter: https://twitter.com/KubeEdge
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/kubefirst
+  description: Instant operational open source gitops platforms for platform engineering,
+    infrastructure, and software teams
+  homepage_url: https://docs.kubefirst.com
+  item: null
+  logo: kubefirst.svg
+  name: Kubefirst
+  repo_url: https://github.com/kubefirst/kubefirst
+  subcategory: Automation & Configuration
+  twitter: https://twitter.com/kubefirst
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/bytedance
+  homepage_url: https://kubewharf.github.io
+  item: null
+  logo: kubezoo.svg
+  name: KubeZoo
+  repo_url: https://github.com/kubewharf/kubezoo
+  subcategory: Automation & Configuration
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/ant-group
+  extra:
+    accepted: '2024-09-12'
+    clomonitor_name: kusionstack
+    lfx_slug: kusionstack
+  homepage_url: https://kusionstack.io/
+  item: null
+  logo: kusionstack.svg
+  name: KusionStack
+  project: sandbox
+  repo_url: https://github.com/KusionStack/kusion
+  subcategory: Automation & Configuration
+  twitter: https://twitter.com/KusionStack
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/uber
+  homepage_url: https://eng.uber.com/introducing-kraken/
+  item: null
+  logo: kraken.svg
+  name: Kraken
+  repo_url: https://github.com/uber/kraken
+  subcategory: Container Registry
+  twitter: https://twitter.com/UberEng
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Keycloak is an open-source identity and access management solution
+    for modern applications and services,  built on top of industry security standard
+    protocols.
+  extra:
+    accepted: '2023-04-10'
+    artwork_url: https://github.com/keycloak/keycloak-misc/blob/main/logo/logo-key.svg
+    clomonitor_name: keycloak
+    dev_stats_url: https://keycloak.devstats.cncf.io/
+    incubating: '2023-04-10'
+    lfx_slug: keycloak
+    mailing_list_url: https://groups.google.com/forum/#!forum/keycloak-user
+    summary_business_use_case: 'Keycloak provides built-in cloud-native identity and
+      access control standards. By delegating the security aspects of an application
+      to Keycloak,  developers don''t need to worry about different authentication
+      mechanisms, understand about cryptography, or how to safely store passwords.
+
+      Developers can take advantage of modern authentication and authorization protocols
+      like OAuth2, OpenID Connect, WebAuthn, SAML2 based IDPs, LDAP servers, Kerberos/SPNEGO.
+
+      Keycloak enables infrastructure teams and cloud-native developers to secure
+      their cloud-native stack technologies through consolidated security standards,
+      to provide to users a cloud-friendly experience with a strong focus on usability,
+      scalability, and security.'
+    summary_integrations: OAuth2, OIDC, SAML2 based IdPs, LDAP servers, Kerberos/SPNEGO,
+      custom user storage solutions
+    summary_personas: SREs,Cloud Architects,Platform Engineers,Security Engineers,Developers,Architects
+    summary_release_rate: 4 times per year
+    summary_tags: Java,Security,Container,Cloud Native,Kubernetes,SSO,Identity,Federation,Authentication,Authorization
+    summary_use_case: 'Keycloak is an Open-Source Identity and Access Management Solution
+      for Modern Applications and Services. The project is primarily designed to make
+      it easy  for developers to secure their applications with minimal effort.
+
+      Keycloak builds on top of industry security standard protocols supporting OAuth2,
+      OpenID Connect, WebAuthn. It also empowers administrators and users,  providing
+      an extensive and friendly interface to configure and manage Keycloak. Existing
+      security infrastructure like SAML2 based IdPs, LDAP servers,  Kerberos/SPNEGO,
+      custom user storage solutions are easy to integrate while making their presence
+      transparent to applications and end users.
+
+      Keycloak provides fully customizable login pages, strong authentication, support
+      for password recovery, client secret rotation, recovery codes for 2FA,  terms
+      and conditions, step-up authentication, and a lot more. All of this without
+      any need for coding at all. All pages visible to users support custom themes,
+      making  it easy to modify the look and feel of the pages to integrate with your
+      corporate branding and existing applications.'
+  homepage_url: https://www.keycloak.org/
+  item: null
+  logo: keycloak.svg
+  name: Keycloak
+  project: incubating
+  repo_url: https://github.com/keycloak/keycloak
+  second_path:
+  - CNAI / Governance, Policy & Security
+  subcategory: Security & Compliance
+  twitter: https://twitter.com/keycloak
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Bootstrap & Maintain Trust on the Edge / Cloud and IoT.
+  extra:
+    accepted: '2020-09-22'
+    annual_review_date: '2022-11-10'
+    annual_review_url: https://github.com/cncf/toc/pull/959
+    blog_url: https://keylime.dev/blog
+    chat_channel: '#Keylime'
+    clomonitor_name: keylime
+    dev_stats_url: https://keylime.devstats.cncf.io/
+    lfx_slug: keylime
+    mailing_list_url: https://keylime.groups.io/g/main
+    slack_url: https://cloud-native.slack.com/messages/keylime
+  homepage_url: https://keylime.dev/
+  item: null
+  logo: keylime.svg
+  name: Keylime
+  project: sandbox
+  repo_url: https://github.com/keylime/keylime
+  subcategory: Security & Compliance
+  twitter: https://twitter.com/KeylimeProject
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/checkmarx
+  description: Find security vulnerabilities, compliance issues, and infrastructure
+    misconfigurations early in the development cycle of your infrastructure-as-code
+    with KICS by Checkmarx.
+  extra:
+    docker_url: https://hub.docker.com/r/checkmarx/kics
+    github_discussions_url: https://github.com/Checkmarx/kics/discussions
+  homepage_url: https://kics.io/
+  item: null
+  logo: kics.svg
+  name: KICS
+  repo_url: https://github.com/Checkmarx/kics
+  subcategory: Security & Compliance
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Runtime protection for Kubernetes & other cloud Workloads. Kubearmor
+    provides a observability and policy enforcement system to restrict any unwanted,
+    malicious behaviour of cloud-native workloads at runtime.
+  extra:
+    accepted: '2021-11-16'
+    annual_review_date: '2023-06-07'
+    annual_review_url: https://github.com/cncf/toc/pull/1069
+    blog_url: https://kubearmor.io/blog
+    chat_channel: '#kubearmor-project'
+    clomonitor_name: kubearmor
+    dev_stats_url: https://kubearmor.devstats.cncf.io/
+    docker_url: https://hub.docker.com/r/kubearmor/kubearmor
+    github_discussions_url: https://github.com/kubearmor/KubeArmor/discussions
+    lfx_slug: kubearmor
+    slack_url: http://kubearmor.slack.com/
+    summary_business_use_case: '1. Application Hardening
+
+      2. Continuous Monitoring
+
+      3. Inline Remediation, Attack Surface reduction
+
+      4. Network Segmentation'
+    summary_intro_url: https://www.youtube.com/watch?v=NS8XC78wSME
+    summary_personas: DevSecOps,Developers,CISO,Security Admin,System Admin
+    summary_release_rate: once every month and half
+    summary_tags: runtime,security,application firewall,microsegmentation
+    summary_use_case: Secure workloads at runtime.
+    youtube_url: https://www.youtube.com/watch?v=NS8XC78wSME
+  homepage_url: https://kubearmor.io/
+  item: null
+  logo: kubearmor.svg
+  name: KubeArmor
+  project: sandbox
+  repo_url: https://github.com/kubearmor/kubearmor
+  subcategory: Security & Compliance
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/red-hat
+  description: KubeLinter analyzes Kubernetes YAML files and Helm charts, and checks
+    them against a variety of best practices, with a focus on production readiness
+    and security.
+  extra:
+    slack_url: https://kube-linter.slack.com
+  homepage_url: https://docs.kubelinter.io/
+  item: null
+  logo: kubelinter.svg
+  name: KubeLinter
+  repo_url: https://github.com/stackrox/kube-linter
+  subcategory: Security & Compliance
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: "Kubescape is an open source security and compliance platform that\
+    \ scans clusters, Kubernetes manifest files (YAML files, and Helm charts), code\
+    \ repositories, container registries and images. It detects misconfigurations\
+    \ according to frameworks such as the NSA-CISA,  MITRE ATT&CK\xAE and CIS, as\
+    \ well as software vulnerabilities, and calculates risk scores."
+  extra:
+    accepted: '2022-12-13'
+    clomonitor_name: kubescape
+    dev_stats_url: https://kubescape.devstats.cncf.io/
+    incubating: '2025-01-13'
+    lfx_slug: kubescape
+    slack_url: https://cloud-native.slack.com/messages/kubescape
+    summary_integrations: Prometheus, Kubernetes API, VSCode, Lens, GitHub, Jenkins
+    summary_personas: DevOps, DevSecOps, Developers, Product security and CISO
+    summary_release_rate: 2 weeks
+    summary_use_case: Kubernetes security posutre, configuration posture, vulnerability
+      posture, prioritization
+  homepage_url: https://kubescape.io/
+  item: null
+  logo: kubescape.svg
+  name: Kubescape
+  project: incubating
+  repo_url: https://github.com/kubescape/kubescape
+  subcategory: Security & Compliance
+  twitter: https://twitter.com/kubescape
+- additional_repos:
+  - repo_url: https://github.com/kubewarden/policy-server
+  - repo_url: https://github.com/kubewarden/kwctl
+  - repo_url: https://github.com/kubewarden/audit-scanner
+  - repo_url: https://github.com/kubewarden/community
+  allow_duplicate_repo: true
+  category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: 'Kubewarden is a Policy Engine powered by WebAssembly policies. Its
+    policies can be written in CEL, Rego (OPA & Gatekeeper flavours), Rust, Go, YAML,
+    and others. Kubewarden simplifies Policy-As-Code by allowing policy authors and
+    consumers to use their preferred tooling and stack, develop and test policies
+    out of cluster. '
+  extra:
+    accepted: '2022-06-17'
+    blog_url: https://kubewarden.io/blog
+    chat_channel: '#kubewarden'
+    clomonitor_name: kubewarden
+    dev_stats_url: https://kubewarden.devstats.cncf.io/
+    documentation_url: https://docs.kubewarden.io
+    github_discussions_url: https://github.com/kubewarden/community/discussions
+    lfx_slug: kubewarden
+    mailing_list_url: https://lists.cncf.io/g/cncf-kubewarden-maintainers
+    package_manager_url: https://artifacthub.io/packages/search?kind=0&kind=13&ts_query_web=kubewarden&official=true&sort=relevance
+    slack_url: https://kubernetes.slack.com/
+    summary_business_use_case: 'Embracing WebAssembly for policies means that Policy
+      Authors can use their preferred tooling (language libraries, Git, CI); thus
+      lowering knowledge barrier and silos, reducing training, and minimizing ad-hoc
+      solutions. Thanks to policies being WebAssembly, Kubewarden policies can leverage
+      and reuse upstream libraries to expand on current policy solutions while keeping
+      compatibility (e.g: its cel-policy uses Kubernetes'' cel-go interpreter, its
+      kyverno-policy compiles a subset of Kyverno codebase to support Kyverno''s YAML-like
+      DSL).  Kubewarden policy CRDs and PolicyServer CRD enable insulation of consumers
+      per namespace, and self-service.'
+    summary_integrations: Sigstore, Cosign, OpenTelemetry, Prometheus, Grafana, Jaeger,
+      Policy Reporter
+    summary_intro_url: https://docs.kubewarden.io/quick-start
+    summary_personas: Platform engineering,DevOps engineers,Security admins,Cluster
+      admins,Policy authors
+    summary_release_rate: Approximately monthly for minor releases, when needed for
+      patch releases.
+    summary_tags: wasm, webassembly, web assembly, policy,policy-as-code,governance,software
+      supply chain, pod security, compliance
+    summary_use_case: 'Kubewarden is a Policy Engine powered by WebAssembly policies.
+      Its policies can be written in CEL, Rego (OPA & Gatekeeper flavours), Rust,
+      Go, YAML, and others. Kubewarden simplifies Policy-As-Code by allowing policy
+      authors and consumers to use their preferred tooling and stack, develop and
+      test policies out of cluster. '
+  homepage_url: https://www.kubewarden.io
+  item: null
+  logo: kubewarden.svg
+  name: Kubewarden
+  project: sandbox
+  repo_url: https://github.com/kubewarden/kubewarden-controller
+  second_path:
+  - Wasm / Embedded Functions
+  subcategory: Security & Compliance
+  twitter: https://twitter.com/kubewarden
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2020-11-10'
+    audits:
+    - date: '2023-09-06'
+      type: fuzzing
+      url: https://main.kyverno.io/blog/2023/09/06/kyverno-completes-fuzzing-security-audit/kyverno-2023-fuzzing-security-audit.pdf
+      vendor: Ada Logics
+    - date: '2023-11-28'
+      type: security
+      url: https://github.com/kyverno/website/blob/main/content/en/blog/general/2023-security-audit/kyverno-2023-security-audit-report.pdf
+      vendor: Ada Logics
+    chat_channel: '#kyverno'
+    clomonitor_name: kyverno
+    dev_stats_url: https://kyverno.devstats.cncf.io/
+    incubating: '2022-07-13'
+    lfx_slug: kyverno
+    slack_url: https://kubernetes.slack.com/
+    summary_business_use_case: Policy and governance with Kyverno improves security
+      posture by eliminating misconfigurations and promotes security best practices.
+      It also enables business agility by separating developer, security, and operations
+      concerns and enables self-service automation. Finally, it increases operational
+      efficiency by managing and optimizing for cloud costs.
+    summary_integrations: Sigstore Cosign
+    summary_intro_url: https://kyverno.io/docs/introduction/
+    summary_personas: Platform engineering,DevOps engineers,Security admins,Cluster
+      admins,Policy authors
+    summary_release_rate: Approximately monthly for patches and quarterly for minor
+      releases.
+    summary_tags: policy,policy-as-code,governance,software supply chain
+    summary_use_case: Pod security,Policy-as-code,Governance,Software supply chain
+  homepage_url: https://kyverno.io/
+  item: null
+  logo: kyverno.svg
+  name: Kyverno
+  project: incubating
+  repo_url: https://github.com/kyverno/kyverno
+  second_path:
+  - CNAI / Governance, Policy & Security
+  subcategory: Security & Compliance
+  twitter: https://twitter.com/kyverno
+- category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2021-11-16'
+    annual_review_date: '2023-06-01'
+    annual_review_url: https://github.com/cncf/toc/pull/1067
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#k8up-logos
+    clomonitor_name: k8up
+    dev_stats_url: https://k8up.devstats.cncf.io/
+    lfx_slug: k8up
+    slack_url: https://cloud-native.slack.com/messages/k8up
+  homepage_url: https://www.k8up.io/
+  item: null
+  logo: k8up.svg
+  name: K8up
+  project: sandbox
+  repo_url: https://github.com/k8up-io/k8up
+  subcategory: Cloud Native Storage
+- category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2023-09-20'
+    clomonitor_name: kanister
+    dev_stats_url: https://kanister.devstats.cncf.io/
+    lfx_slug: kanister
+  homepage_url: https://kanister.io
+  item: null
+  logo: kanister.svg
+  name: Kanister
+  project: sandbox
+  repo_url: https://github.com/kanisterio/kanister
+  subcategory: Cloud Native Storage
+- category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/open-infrastructure-foundation
+  homepage_url: https://katacontainers.io
+  item: null
+  logo: kata.svg
+  name: Kata Containers
+  repo_url: https://github.com/kata-containers/kata-containers
+  subcategory: Container Runtime
+  twitter: https://twitter.com/KataContainers
+- allow_duplicate_repo: true
+  category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/huawei-cloud
+  description: A multi-sandbox container runtime that provides cloud-native, all-scenario
+    multiple sandbox container solutions.
+  extra:
+    accepted: '2023-12-19'
+    chat_channel: '#kuasar'
+    clomonitor_name: kuasar
+    lfx_slug: kuasar
+    slack_url: https://slack.cncf.io/
+    youtube_url: https://www.youtube.com/channel/UCm796d5_CMipZGrdFskbp2g
+  homepage_url: https://kuasar.io/
+  item: null
+  logo: kuasar.svg
+  name: Kuasar
+  project: sandbox
+  repo_url: https://github.com/kuasar-io/kuasar
+  subcategory: Container Runtime
+  twitter: https://twitter.com/Kuasar_io
+- category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/kilo
+  homepage_url: https://kilo.squat.ai
+  item: null
+  logo: kilo.svg
+  name: Kilo
+  repo_url: https://github.com/squat/kilo
+  subcategory: Cloud Native Network
+- category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2021-01-26'
+    annual_review_date: '2023-07-10'
+    annual_review_url: https://github.com/cncf/toc/pull/1112
+    clomonitor_name: kube-ovn
+    lfx_slug: kube-ovn
+    slack_url: https://communityinviter.com/apps/kube-ovn/kube-ovn
+  homepage_url: https://kube-ovn.io
+  item: null
+  logo: kube-ovn.svg
+  name: Kube-OVN
+  project: sandbox
+  repo_url: https://github.com/kubeovn/kube-ovn
+  subcategory: Cloud Native Network
+  twitter: https://twitter.com/KubeOvn
+- category: Runtime
+  homepage_url: https://www.kube-router.io
+  item: null
+  logo: kube-router.svg
+  name: Kube-router
+  repo_url: https://github.com/cloudnativelabs/kube-router
+  subcategory: Cloud Native Network
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2021-09-14'
+    annual_review_date: '2022-10-29'
+    annual_review_url: https://github.com/cncf/toc/pull/954
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#karmada-logos
+    chat_channel: '#karmada'
+    clomonitor_name: karmada
+    dev_stats_url: https://karmada.devstats.cncf.io/
+    incubating: '2023-12-12'
+    lfx_slug: karmada
+    mailing_list_url: https://groups.google.com/forum/#!forum/karmada
+    slack_url: https://cloud-native.slack.com/messages/karmada
+    summary_business_use_case: Managing workloads across diverse enterprise environments
+      is complex. Karmada, a multi-cluster orchestration system, provides a unified  control
+      plane for Kubernetes clusters. It enables seamless workload deployment, scaling,
+      and management across on-premises and multi-cloud  setups, addressing operational
+      challenges, reducing vendor lock-in, and enhancing disaster recovery and infrastructure
+      efficiency.
+    summary_integrations: Grafana, Prometheus, Argo, Flux, Istio, Filebeat, Submariner,
+      Velero, etc.
+    summary_personas: Cloud Architects, Platform Engineers, DevOps Engineer, DevOps
+      practitioners, DevSecOps practitioners
+    summary_release_rate: Every 3 months
+    summary_tags: multi-cloud, hybrid cloud
+    summary_use_case: Karmada (Kubernetes Armada) is a Kubernetes management system
+      that enables you to run your cloud-native applications across multiple Kubernetes
+      clusters and clouds, with no changes to your applications. By speaking Kubernetes-native
+      APIs and providing advanced scheduling  capabilities, Karmada enables truly
+      open, multi-cloud Kubernetes. Karmada aims to provide turnkey automation for
+      multi-cluster application management in multi-cloud and hybrid cloud scenarios,
+      with key  features such as centralized multi-cloud management, high availability,
+      failure recovery, and traffic scheduling.
+  homepage_url: https://karmada.io/
+  item: null
+  logo: karmada.svg
+  name: Karmada
+  project: incubating
+  repo_url: https://github.com/karmada-io/karmada
+  subcategory: Scheduling & Orchestration
+  twitter: https://x.com/karmada_io
+- allow_duplicate_repo: true
+  category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2020-03-12'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#keda-logos
+    audits:
+    - date: '2023-02-02'
+      type: security
+      url: https://github.com/trailofbits/publications/blob/master/reviews/2023-01-keda-securityreview.pdf
+      vendor: Trail of Bits
+    blog_url: https://keda.sh/blog
+    clomonitor_name: keda
+    dev_stats_url: https://keda.devstats.cncf.io/
+    graduated: '2023-08-22'
+    incubating: '2021-08-18'
+    lfx_slug: KEDA
+    slack_url: https://kubernetes.slack.com/archives/CKZJ36A5D
+    summary_release_rate: Every 4 months
+    youtube_url: https://www.youtube.com/playlist?list=PLvjRi5R9GQfASIcL4MLTfg2ZOoBdIi5Kq
+  homepage_url: https://keda.sh/
+  item: null
+  logo: keda.svg
+  name: KEDA
+  project: graduated
+  repo_url: https://github.com/kedacore/keda
+  second_path:
+  - Serverless / Installable Platform
+  subcategory: Scheduling & Orchestration
+  twitter: https://twitter.com/kedaorg
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/kestra
+  description: Scalable, event-driven, language-agnostic orchestration and scheduling
+    platform to manage millions of workflows declaratively in code.
+  extra:
+    blog_url: https://kestra.io/blogs
+    slack_url: https://kestra.io/slack
+    youtube_url: https://www.youtube.com/@kestra-io
+  homepage_url: https://kestra.io/
+  item: null
+  logo: kestra.svg
+  name: Kestra
+  repo_url: https://github.com/kestra-io/kestra
+  subcategory: Scheduling & Orchestration
+  twitter: https://twitter.com/@kestra-io
+- allow_duplicate_repo: true
+  category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: "Knative is a developer-focused serverless application layer which\
+    \ is a great complement to the existing Kubernetes application constructs. Knative\
+    \ consists of three components: an HTTP-triggered autoscaling container runtime\
+    \ called \u201CKnative Serving\u201D, a CloudEvents-over-HTTP asynchronous routing\
+    \ layer called \u201CKnative Eventing\u201D, and a developer-focused function\
+    \ framework which leverages the Serving and Eventing components, called \"Knative\
+    \ Functions\"."
+  extra:
+    accepted: '2022-03-02'
+    artwork_url: https://github.com/knative/docs/tree/main/docs/images/logo
+    audits:
+    - date: '2023-07-13'
+      type: fuzzing
+      url: https://github.com/knative/docs/tree/main/reports/ADA-knative-fuzzing-audit-22-23.pdf
+      vendor: Ada Logics
+    - date: '2023-11-27'
+      type: security
+      url: https://github.com/knative/docs/blob/main/reports/ADA-knative-security-audit-2023.pdf
+      vendor: Ada Logics
+    clomonitor_name: knative
+    dev_stats_url: https://knative.devstats.cncf.io/
+    graduated: '2025-09-11'
+    incubating: '2022-03-02'
+    lfx_slug: knative
+    mailing_list_url: https://groups.google.com/d/forum/knative-users
+    slack_url: https://slack.cncf.io
+    stack_overflow_url: https://stackoverflow.com/questions/tagged/knative
+    summary_business_use_case: "The power of Knative\u2019s eventing and serverless\
+      \ features allows companies to bridge processes between external eventing systems\
+      \ with services and functions in Kubernetes."
+    summary_integrations: Apache Kafka, RabbitMQ, Redis, CNCF Buildpacks, Docker,
+      Podman
+    summary_intro_url: https://knative.dev/docs/getting-started/
+    summary_languages: Go, Java, Node.js, Python, Rust
+    summary_personas: Cloud Architects, Cloud Developers, Platform Engineers, DevOps
+      Engineers, DevOps Practitioners
+    summary_release_rate: Quarterly major releases
+    summary_tags: Serverless, CloudEvents, Functions, Scaling, Applications
+    summary_use_case: Knative is system that helps teams develop, build, manage, and
+      maintain processes in Kubernetes. Its purpose is to simplify, automate, and
+      monitor deployments of Kubernetes so teams spend less time on maintenance and
+      more time on app development and projects. Knative takes over repetitive and
+      time-intensive tasks while removing obstacles and delays.
+    youtube_url: https://www.youtube.com/c/KnativeProject
+  homepage_url: https://knative.dev
+  item: null
+  logo: knative.svg
+  name: Knative
+  project: graduated
+  repo_url: https://github.com/knative/serving
+  second_path:
+  - Serverless / Installable Platform
+  - Wasm / Embedded Functions
+  subcategory: Scheduling & Orchestration
+  twitter: https://twitter.com/KnativeProject
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
+  description: QoS based scheduling system for hybrid orchestration workloads on Kubernetes,
+    bringing workloads the best layout and status.
+  extra:
+    accepted: '2024-04-16'
+    clomonitor_name: koordinator
+    lfx_slug: koordinator
+  homepage_url: https://koordinator.sh
+  item: null
+  logo: Koordinator.svg
+  name: Koordinator
+  project: sandbox
+  repo_url: https://github.com/koordinator-sh/koordinator
+  subcategory: Scheduling & Orchestration
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/bytedance
+  description: KubeAdmiral is a multi-cluster scheduling and orchestration system
+    for Kubernetes.
+  homepage_url: https://github.com/kubewharf/kubeadmiral
+  item: null
+  logo: kubeadmiral.svg
+  name: KubeAdmiral
+  repo_url: https://github.com/kubewharf/kubeadmiral
+  subcategory: Scheduling & Orchestration
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Kubeflow is the foundation of tools for AI Platforms on Kubernetes.
+  extra:
+    accepted: '2023-07-25'
+    ai: true
+    blog_url: https://blog.kubeflow.org
+    clomonitor_name: kubeflow
+    dev_stats_url: https://kubeflow.devstats.cncf.io/
+    incubating: '2023-07-25'
+    lfx_slug: kubeflow
+    linkedin_url: https://www.linkedin.com/company/kubeflow
+    mailing_list_url: https://groups.google.com/g/kubeflow-discuss
+    other_links:
+    - name: Twitter
+      url: https://x.com/kubeflow
+    - name: Bluesky
+      url: https://bsky.app/profile/kubefloworg.bsky.social
+    slack_url: http://slack.cncf.io/
+  homepage_url: https://kubeflow.org
+  item: null
+  logo: kubeflow.svg
+  name: Kubeflow
+  project: incubating
+  repo_url: https://github.com/kubeflow/kubeflow
+  subcategory: Scheduling & Orchestration
+  twitter: https://twitter.com/kubeflow
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: A multi-cluster solution that enables users to effectively manage their
+    applications running in multiple Kubernetes clusters.
+  extra:
+    accepted: '2025-01-21'
+    lfx_slug: kubefleet
+    slack_url: http://slack.cncf.io/
+    summary_business_use_case: Streamlines resource management across multiple Kubernetes
+      clusters, enhancing operational efficiency and enabling  teams to effectively
+      manage Kubernetes native configurations at scale, with support for intelligent
+      scheduling and staged rollouts.
+    summary_personas: Platform Engineers, DevOps Engineers, Kubernetes Administrators
+    summary_tags: multi-cluster, kubernetes, orchestration, fleet management
+    summary_use_case: KubeFleet provides orchestration and coordination of applications
+      across a fleet of Kubernetes clusters, enabling  users to create resources on
+      a hub cluster and selectively propagate them to managed clusters based on various
+      criteria.
+  homepage_url: https://kubefleet.dev/
+  item: null
+  logo: kubefleet.svg
+  name: KubeFleet
+  project: sandbox
+  repo_url: https://github.com/kubefleet-dev/kubefleet
+  subcategory: Scheduling & Orchestration
+- allow_duplicate_repo: true
+  category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Kubernetes is an open-source system for automating deployment, scaling,
+    and management of containerized applications
+  extra:
+    accepted: '2016-03-10'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/graduated.md#kubernetes-logos
+    audits:
+    - date: '2019-08-06'
+      type: security
+      url: https://github.com/kubernetes/sig-security/tree/main/sig-security-external-audit/security-audit-2019/findings
+      vendor: Trail of Bits and Atredis Partners
+    - date: '2023-04-19'
+      type: security
+      url: https://github.com/kubernetes/sig-security/tree/main/sig-security-external-audit/security-audit-2021-2022/findings
+      vendor: NCC Group
+    blog_url: http://blog.kubernetes.io/
+    clomonitor_name: kubernetes
+    dev_stats_url: https://k8s.devstats.cncf.io/
+    graduated: '2018-03-06'
+    incubating: '2016-03-10'
+    lfx_slug: k8s
+    mailing_list_url: https://groups.google.com/forum/#!forum/kubernetes-dev
+    slack_url: http://slack.k8s.io/
+    stack_overflow_url: https://stackoverflow.com/questions/tagged/kubernetes
+    youtube_url: https://www.youtube.com/channel/UCZ2bu0qutTOM0tHYa_jkIwg
+  homepage_url: https://kubernetes.io/
+  item: null
+  logo: kubernetes.svg
+  name: Kubernetes
+  project: graduated
+  repo_url: https://github.com/kubernetes/kubernetes
+  second_path:
+  - Wasm / Orchestration & Management
+  - CNAI / General Orchestration
+  subcategory: Scheduling & Orchestration
+  twitter: https://twitter.com/kubernetesio
+- allow_duplicate_repo: true
+  category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2024-04-16'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#kubeslice-logos
+    chat_channel: '#kubeslice'
+    clomonitor_name: kubeslice
+    devstats: https://kubeslice.devstats.cncf.io/
+    lfx_slug: kubeslice
+    mailing_list_url: https://groups.google.com/g/kubeslice-dev
+    slack_url: http://slack.k8s.io/
+    summary_tags: kubeslice,networking,multi-cloud,multi-cluster,service mesh,control-plane,multitenancy
+  homepage_url: https://kubeslice.io
+  item: null
+  logo: kubeslice.svg
+  name: KubeSlice
+  open_source: true
+  project: sandbox
+  project_org: https://github.com/kubeslice
+  repo_url: https://github.com/kubeslice/kubeslice
+  subcategory: Scheduling & Orchestration
+  twitter: https://twitter.com/kubeslice
+- allow_duplicate_repo: true
+  category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2023-12-19'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#kubestellar-logos
+    chat_channel: '#kubestellar-dev'
+    clomonitor_name: kubestellar
+    devstats: https://kubestellar.devstats.cncf.io/
+    lfx_slug: kubestellar
+    mailing_list_url: https://groups.google.com/g/kubestellar-dev
+    slack_url: http://slack.k8s.io/
+    summary_tags: kubestellar,cloud,orchestration,control-plane,multitenancy
+  homepage_url: https://kubestellar.io
+  item: null
+  logo: kubestellar.svg
+  name: KubeStellar
+  open_source: true
+  project: sandbox
+  project_org: https://github.com/kubestellar
+  repo_url: https://github.com/kubestellar/kubestellar
+  subcategory: Scheduling & Orchestration
+  twitter: https://twitter.com/kubestellar
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Kured (KUbernetes REboot Daemon) is a Kubernetes daemonset that performs
+    safe automatic node reboots when the need to do so is indicated by the package
+    management system of the underlying OS
+  extra:
+    accepted: '2022-09-14'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#kured-logos
+    clomonitor_name: kured
+    dev_stats_url: https://kured.devstats.cncf.io/
+    lfx_slug: kured
+    mailing_list_url: https://lists.cncf.io/g/cncf-kured-dev
+    slack_url: http://slack.cncf.io/
+    youtube_url: https://www.youtube.com/playlist?list=PLbx4FZ4kOKnurkfQy-tbxYHySHSqq0LbX
+  homepage_url: https://kured.dev
+  item: null
+  logo: kured.svg
+  name: Kured
+  project: sandbox
+  repo_url: https://github.com/kubereboot/kured
+  subcategory: Scheduling & Orchestration
+  twitter: https://twitter.com/kubereboot
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/bytedance
+  description: Katalyst is a QoS-based resource management system for workload colocation
+    on kubernetes
+  homepage_url: https://gokatalyst.io
+  item: null
+  logo: katalyst.svg
+  name: Katalyst
+  repo_url: https://github.com/kubewharf/katalyst-core
+  subcategory: Scheduling & Orchestration
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/bytedance
+  homepage_url: https://github.com/kubewharf/kubebrain
+  item: null
+  logo: kubebrain.svg
+  name: KubeBrain
+  repo_url: https://github.com/kubewharf/kubebrain
+  subcategory: Coordination & Service Discovery
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: An Envoy-powered, Kubernetes-native API Gateway that integrates Kubernetes
+    Gateway API with a control plane for API connectivity in any cloud environment.
+  extra:
+    accepted: '2025-03-04'
+    blog_url: https://kgateway.dev/blog
+    lfx_slug: kgateway
+    summary_personas: Platform Engineers, DevOps Engineers, SREs, API Managers
+    summary_tags: API Gateway, Envoy, Kubernetes, Gateway API, Cloud Native
+    summary_use_case: 'Kgateway is the most mature and widely deployed Envoy-based
+      gateway in the market today. Built on open source  and open standards, kgateway
+      integrates Kubernetes Gateway API with a control plane that scales from lightweight  microgateway
+      deployments between services, to massively parallel centralized gateways handling
+      billions of API calls,  to advanced AI gateway use cases for safety, security,
+      and governance when integrating applications with third-party LLMs.  kgateway
+      brings omni-directional API connectivity to any cloud and any environment. '
+  homepage_url: https://kgateway.dev/
+  item: null
+  logo: kgateway.svg
+  name: Kgateway
+  project: sandbox
+  repo_url: https://github.com/kgateway-dev/kgateway
+  subcategory: API Gateway
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/konghq
+  homepage_url: https://konghq.com/
+  item: null
+  logo: kong.svg
+  name: Kong
+  repo_url: https://github.com/Kong/kong
+  subcategory: API Gateway
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/krakend
+  homepage_url: https://www.krakend.io/
+  item: null
+  logo: krakend.svg
+  name: KrakenD
+  repo_url: https://github.com/luraproject/lura
+  subcategory: API Gateway
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Kuadrant combines Gateway API and Istio-based gateway controllers to
+    enhance application connectivity. It enables platform engineers  and application
+    developers to easily connect, secure, and protect their services and infrastructure
+    across multiple clusters  with policies for TLS, DNS, application authentication
+    & authorization, and rate limiting.
+  extra:
+    accepted: '2024-06-19'
+    clomonitor_name: kuadrant
+    lfx_slug: kuadrant
+  homepage_url: https://kuadrant.io
+  item: null
+  logo: kuadrant.svg
+  name: Kuadrant
+  project: sandbox
+  repo_url: https://github.com/kuadrant/kuadrant-operator
+  subcategory: API Gateway
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/bytedance
+  homepage_url: https://github.com/kubewharf/kubegateway
+  item: null
+  logo: kubegateway.svg
+  name: KubeGateway
+  repo_url: https://github.com/kubewharf/kubegateway
+  subcategory: API Gateway
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/kubeshop
+  description: Kusk Gateway is a self-service API gateway powered by OpenAPI and Envoy.
+    Kusk Gateway is built and maintained by Kubeshop.
+  homepage_url: https://kusk.io/
+  item: null
+  logo: kusk.svg
+  name: Kusk Gateway
+  repo_url: https://github.com/kubeshop/kusk-gateway
+  subcategory: API Gateway
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Kmesh is a high-performance and low overhead service mesh data plane
+    based on eBPF and programmable kernel. Kmesh brings traffic management, security
+    and monitoring to service communication without needing application code changes.
+    It is natively sidecarless, zero intrusion and without adding any resource cost
+    to application container.
+  extra:
+    accepted: '2024-10-17'
+    chat_channel: '#kmesh'
+    clomonitor_name: kmesh
+    lfx_slug: kmesh
+    slack_url: https://slack.cncf.io/
+    youtube_url: https://www.youtube.com/channel/UC-ToQ9h0SR_w492PpIfZAGw
+  homepage_url: https://kmesh.net
+  item: null
+  logo: kmesh.svg
+  name: Kmesh
+  project: sandbox
+  repo_url: https://github.com/kmesh-net/kmesh
+  subcategory: Service Mesh
+  twitter: https://twitter.com/Kmesh_net
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2020-06-25'
+    annual_review_date: '2023-06-10'
+    annual_review_url: https://github.com/cncf/toc/pull/1078
+    blog_url: https://kuma.io/blog/
+    clomonitor_name: kuma
+    dev_stats_url: https://kuma.devstats.cncf.io/
+    lfx_slug: kuma
+    summary_business_use_case: It is becoming more important then ever to ensure that
+      traffic is secure, observable, and reliable. Kuma service mesh enables users
+      to adopt a zero trust application networking model while providing flexible
+      traffic management and observability capabilities.  Kuma also supports a wide
+      variety of platforms including Kubernetes, Nomad, Docker, and Virtual Machines.
+      Thereby allowing organizations to take advantage of these benefits even at the
+      start of their digital transformation journey.
+    summary_integrations: Flagger
+    summary_personas: SREs, DevOps, Platform Engineers, Architects, Developers
+    summary_release_rate: Every 8-10 weeks
+    summary_tags: mTLS, security, traffic management, observability, microservices,
+      resilience, load balancing, service mesh, policy, wasm, zero trust, multi-cluster,
+      cross-platform, kubernetes, virtual machines
+    summary_use_case: Kuma is a service mesh that combines the extensibility and performance
+      of Envoy proxy with great UX and a powerful, yet flexible set of policies. It
+      was built from the ground up to support Kubernetes, Docker, and VM environments
+      seamlessly in a single deployment.
+  homepage_url: https://kuma.io
+  item: null
+  logo: kuma-stacked-color.svg
+  name: Kuma
+  project: sandbox
+  repo_url: https://github.com/kumahq/kuma
+  subcategory: Service Mesh
+  twitter: https://twitter.com/KumaMesh
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/apecloud
+  description: KubeBlocks is an open-source Kubernetes operator that manages relational,
+    NoSQL, vector, and streaming databases on the public cloud or on-premise.
+  homepage_url: https://www.kubeblocks.io/
+  item: null
+  logo: kubeblocks.svg
+  name: KubeBlocks by ApeCloud
+  repo_url: https://github.com/apecloud/kubeblocks
+  subcategory: Database
+  twitter: https://twitter.com/KubeBlocks
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/appscode
+  homepage_url: https://kubedb.com
+  item: null
+  logo: kube-db-by-apps-code.svg
+  name: KubeDB by AppsCode
+  open_source: false
+  repo_url: https://github.com/kubedb/docs
+  subcategory: Database
+  twitter: https://twitter.com/kubedb
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/apache
+  homepage_url: https://kafka.apache.org/
+  item: null
+  logo: kafka.svg
+  name: Kafka
+  repo_url: https://github.com/apache/kafka
+  subcategory: Streaming & Messaging
+  twitter: https://twitter.com/apachekafka
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/kubemq
+  description: KubeMQ is a Kubernetes Message Queue Broker
+  homepage_url: https://kubemq.io/
+  item: null
+  logo: kubemq.svg
+  name: KubeMQ
+  repo_url: https://github.com/kubemq-io/kubemq-community
+  subcategory: Streaming & Messaging
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/kapeta
+  description: Kapeta accelerates and automates the entire software development lifecycle
+  extra:
+    summary_business_use_case: "Create and implement any software system securely,\
+      \ privately and at record speed - and save\n                costs on infrastructure\
+      \ and operations through automated optimization. You do the special sauce -\n\
+      \                Kapeta does the rest.\n                And once your done -\
+      \ explain the system to non-technical people easily through the visual system\
+      \ map."
+    summary_intro_url: https://www.youtube.com/watch?v=XZyy902adDo
+    summary_personas: Developers, Platform engineers
+    summary_release_rate: Weekly
+    summary_tags: Developer APIs, Distributed Systems, Microservices, HTTP, REST,
+      Java, Typescript, Javascript, React
+    summary_use_case: "Kapeta will automate and accelerate your entire software development\
+      \ lifecycle. This is made\n                possible by defining your software\
+      \ components as lego-like building blocks, and then using these\n          \
+      \      building blocks to define your software system. Kapeta then knows all\
+      \ it needs to know to generate code,\n                devcontainers, and eventually\
+      \ deploy. Think of it as an internal developer platform (iDP) on steroids."
+  homepage_url: https://kapeta.com
+  item: null
+  logo: kapeta.svg
+  name: Kapeta
+  project_org: https://github.com/kapetacom
+  repo_url: https://github.com/kapetacom/kapeta
+  subcategory: Application Definition & Image Build
+  twitter: https://twitter.com/kapeta_com
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2022-07-26'
+    chat_channel: '#konveyor'
+    clomonitor_name: konveyor
+    dev_stats_url: https://konveyor.devstats.cncf.io/
+    lfx_slug: konveyor
+    slack_url: https://slack.k8s.io
+    summary_integrations: Kubernetes
+    summary_personas: Enterprise Architects, Developers
+    summary_release_rate: Konveyor is pursuing early and frequent releases as new
+      features land with an adherence to semantic versions.
+    summary_tags: Konveyor, Kubernetes, Application Modernization, Replatform, Refactor
+    summary_use_case: Konveyor is an open-source application modernization platform
+      that helps organizations safely and predictably modernize applications to new
+      technologies, with an initial focus on accelerating the adoption of legacy applications
+      to Kubernetes.
+  homepage_url: https://www.konveyor.io/
+  item: null
+  logo: Konveyor.svg
+  name: Konveyor
+  project: sandbox
+  repo_url: https://github.com/konveyor/operator
+  subcategory: Application Definition & Image Build
+  twitter: https://twitter.com/Konveyor_io
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/replicated
+  description: KOTS provides the framework, tools and integrations that enable the
+    delivery and management of 3rd-party Kubernetes applications, a.k.a. Kubernetes
+    Off-The-Shelf (KOTS) Software.'
+  homepage_url: https://kots.io
+  item: null
+  logo: kots.svg
+  name: KOTS
+  repo_url: https://github.com/replicatedhq/kots
+  subcategory: Application Definition & Image Build
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/inria
+  description: KubeDiagrams is a tool to generate Kubernetes architecture diagrams
+    from Kubernetes manifest files, kustomization files, Helm charts, and actual cluster
+    state. KubeDiagrams supports most of all Kubernetes built-in resources, any custom
+    resources, and label-based resource clustering.
+  homepage_url: https://github.com/philippemerle/KubeDiagrams
+  item: null
+  logo: kubediagrams.svg
+  name: KubeDiagrams
+  repo_url: https://github.com/philippemerle/KubeDiagrams
+  subcategory: Application Definition & Image Build
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/teamcode
+  homepage_url: https://www.kubeorbit.io/
+  item: null
+  logo: kubeorbit.svg
+  name: KubeOrbit
+  repo_url: https://github.com/teamcode-inc/kubeorbit
+  subcategory: Application Definition & Image Build
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2021-06-22'
+    annual_review_date: '2022-05-12'
+    annual_review_url: https://github.com/cncf/toc/pull/838
+    blog_url: https://kubevela.io/blog
+    clomonitor_name: kubevela
+    dev_stats_url: https://kubevela.devstats.cncf.io/
+    incubating: '2023-02-27'
+    lfx_slug: kubevela
+    slack_url: https://cloud-native.slack.com/archives/C01BLQ3HTJA
+    summary_business_use_case: "KubeVela is an application delivery engine built with\
+      \ Kubernetes control plane. KubeVela can orchestrate, deploy, and operate application\
+      \ components and cloud resources with a workflow based application delivery\
+      \ model and technology. For user scenarios, KubeVela is designed to manage applications\
+      \ with multiple target Kubernetes clusters and hybrid-cloud environments as\
+      \ first-class citizens. In the community, we observed most users are adopting\
+      \ KubeVela as their internal \u201CPaaS\u201D, or as part of their CI/CD pipeline,\
+      \ or as an extensible DevOps kernel for building their own IDP."
+    summary_integrations: Helm, FluxCD, DEX, OpenKruise, Crossplane, Prometheus, k3s,
+      KEDA, etc.
+    summary_personas: SREs, DevOps, Platform Engineers, Architects, Developers
+    summary_release_rate: Every 1-2 weeks
+    summary_tags: Kubernetes, Application, Microservices, Serverless, Continuous Delivery,
+      PaaS, CUE, control-plane, Multicloud, OAM, MultiCluster, HybridCloud.
+    summary_use_case: KubeVela is a modern software delivery platform that makes deploying
+      and operating applications across today's hybrid, multi-cloud environments easier,
+      faster and more reliable.
+    url_for_bestpractices: https://bestpractices.coreinfrastructure.org/en/projects/4602
+  homepage_url: https://kubevela.io
+  item: null
+  logo: kubevela.svg
+  name: KubeVela
+  project: incubating
+  repo_url: https://github.com/kubevela/kubevela
+  subcategory: Application Definition & Image Build
+  twitter: https://twitter.com/oam_dev
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2019-09-06'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#kubevirt-logos
+    clomonitor_name: kubevirt
+    dev_stats_url: https://kubevirt.devstats.cncf.io/
+    incubating: '2022-04-19'
+    lfx_slug: kubevirt
+    mailing_list_url: https://groups.google.com/g/kubevirt-dev/
+    slack_url: https://kubernetes.slack.com/archives/C8ED7RKFE
+    summary_intro_url: https://www.youtube.com/watch?v=uusM5SyK-vc
+    summary_personas: SREs, DevOps & Platform Engineers, Developers
+    summary_release_rate: Following the Kubernetes release schedule
+    summary_tags: virtualization
+    youtube_url: https://www.youtube.com/@KubeVirt
+  homepage_url: https://kubevirt.io/
+  item: null
+  logo: kubevirt.svg
+  name: KubeVirt
+  project: incubating
+  repo_url: https://github.com/kubevirt/kubevirt
+  subcategory: Application Definition & Image Build
+  twitter: https://twitter.com/kubevirt
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: KubeVPN offers a Cloud-Native Dev Environment that seamlessly connects
+    to your Kubernetes cluster network. Gain access to the Kubernetes cluster network
+    effortlessly using service names or Pod IP/Service IP. Facilitate the interception
+    of inbound traffic from remote Kubernetes cluster services to your local PC through
+    a service mesh and more. For instance, you have the flexibility to run your Kubernetes
+    pod within a local Docker container, ensuring an identical environment, volume,
+    and network setup. With KubeVPN, empower yourself to develop applications entirely
+    on your local PC!
+  homepage_url: https://kubevpn.cn
+  item: null
+  logo: kubevpn.svg
+  name: KubeVPN
+  repo_url: https://github.com/kubenetworks/kubevpn
+  subcategory: Application Definition & Image Build
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2020-06-25'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#kudo
+    clomonitor_name: kudo
+    dev_stats_url: https://kudo.devstats.cncf.io/
+    lfx_slug: kudo
+  homepage_url: https://kudo.dev/
+  item: null
+  logo: kudo.svg
+  name: KUDO
+  project: sandbox
+  repo_url: https://github.com/kudobuilder/kudo
+  subcategory: Application Definition & Image Build
+  twitter: https://twitter.com/kudobuilder
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/ibm
+  homepage_url: https://kui.tools/
+  item: null
+  logo: kui.svg
+  name: Kui
+  repo_url: https://github.com/kubernetes-sigs/kui
+  subcategory: Application Definition & Image Build
+  twitter: https://twitter.com/IBMCloud
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/hybridk8s
+  homepage_url: https://keploy.io
+  item: null
+  logo: keploy.svg
+  name: Keploy
+  repo_url: https://github.com/keploy/keploy
+  subcategory: Continuous Integration & Delivery
+  twitter: https://twitter.com/keployio
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/red-hat
+  extra:
+    accepted: '2023-12-18'
+    artwork_url: https://github.com/cncf/artwork/tree/main/projects/kube-burner
+    clomonitor_name: kube-burner
+    dev_stats_url: https://kubeburner.devstats.cncf.io/
+    lfx_slug: kube-burner
+    slack_url: https://kubernetes.slack.com/messages/kube-burner
+  homepage_url: https://kube-burner.github.io/kube-burner/
+  item: null
+  logo: kube-burner.svg
+  name: Kube-burner
+  project: sandbox
+  repo_url: https://github.com/kube-burner/kube-burner
+  subcategory: Continuous Integration & Delivery
+- category: Platform
+  crunchbase: https://www.crunchbase.com/organization/national-information-society-agency
+  description: The K-PaaS Container Platform provides an independent Kubernetes environment,
+    and developers can easily deploy Kubernetes clusters to build and manage the modern
+    applications anywhere.
+  homepage_url: https://www.k-paas.or.kr/eng/
+  item: null
+  logo: nia-k-paas.svg
+  name: K-PaaS Container Platform
+  repo_url: https://github.com/K-PaaS/container-platform
+  subcategory: Certified Kubernetes - Distribution
+- category: Platform
+  crunchbase: https://www.crunchbase.com/organization/suse
+  description: Virtual Kubernetes cluster
+  homepage_url: https://github.com/rancher/k3k
+  item: null
+  logo: k3k.svg
+  name: K3k
+  repo_url: https://github.com/rancher/k3k
+  subcategory: Certified Kubernetes - Distribution
+- category: Platform
+  crunchbase: https://www.crunchbase.com/organization/loodse-gmbh
+  description: Kubermatic Kubernetes Platform automates Kubernetes deployments and
+    Day 2 operations for thousands of Kubernetes clusters on any cloud, on-premises
+    and edge.
+  homepage_url: https://www.kubermatic.com
+  item: null
+  logo: kubermatic.svg
+  name: Kubermatic Kubernetes Platform
+  repo_url: https://github.com/kubermatic/kubermatic
+  subcategory: Certified Kubernetes - Distribution
+- category: Platform
+  crunchbase: https://www.crunchbase.com/organization/qingcloud
+  description: Kubesphere.io is an upstream project of the KubeSphere container management
+    platform. Our vision is to provide an easier, more friendly and more powerful
+    distributed management platform for individuals and enterprises based on Kubernetes,
+    as well as meet more business demands and help more users to use Kubernetes faster
+    and better.
+  homepage_url: https://kubesphere.io
+  item: null
+  logo: kubesphere.svg
+  name: Kubesphere
+  repo_url: https://github.com/kubesphere/kubesphere
+  subcategory: Certified Kubernetes - Distribution
+- category: Platform
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Kubeasz is a tool to deploy a Production Ready Kubernetes Cluster with
+    ansible playbooks.
+  homepage_url: https://github.com/easzlab/kubeasz
+  item: null
+  logo: kubeasz.svg
+  name: Kubeasz
+  repo_url: https://github.com/easzlab/kubeasz
+  subcategory: Certified Kubernetes - Installer
+- category: Platform
+  description: Deploy a highly available Kubernetes cluster in offline environments.
+  homepage_url: https://github.com/eb-k8s/kubeaver
+  item: null
+  logo: kubeaver.svg
+  name: Kubeaver
+  repo_url: https://github.com/eb-k8s/kubeaver
+  subcategory: Certified Kubernetes - Installer
+- category: Platform
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Manage kubernetes in the most light and convenient way.
+  extra:
+    accepted: '2023-06-30'
+    clomonitor_name: kubeclipper
+    dev_stats_url: https://kubeclipper.devstats.cncf.io/
+    lfx_slug: kubeclipper
+  homepage_url: https://www.kubeclipper.io/
+  item: null
+  logo: kubeclipper.svg
+  name: KubeClipper
+  project: sandbox
+  repo_url: https://github.com/kubeclipper/kubeclipper
+  subcategory: Certified Kubernetes - Installer
+- category: Platform
+  crunchbase: https://www.crunchbase.com/organization/qingcloud
+  description: Kubekey provides a flexible, rapid and convenient way to install Kubernetes
+    only, both Kubernetes and KubeSphere, and related cloud-native add-ons.  It is
+    also an efficient tool to scale and upgrade your cluster.
+  extra:
+    summary_integration: Kubernetes, K3s, Docker, containerd, Helm
+    summary_personas: Developers, Platform engineers
+    summary_release_rate: 4 times per year (each quarter)
+    summary_tags: KubeKey, K3s, Kubernetes
+    summary_use_case: KubeKey is an open-source lightweight tool for deploying Kubernetes
+      clusters. It provides a flexible, rapid, and convenient way to install Kubernetes/K3s
+      only, both Kubernetes/K3s and KubeSphere, and related cloud-native add-ons.
+      It is also an efficient tool to scale and upgrade your cluster.
+  homepage_url: https://kubesphere.io/docs/installing-on-linux/introduction/kubekey
+  item: null
+  logo: kubekey.svg
+  name: Kubekey
+  repo_url: https://github.com/kubesphere/kubekey
+  subcategory: Certified Kubernetes - Installer
+- category: Platform
+  crunchbase: https://www.crunchbase.com/organization/loodse-gmbh
+  description: Lifecycle management tool for Highly-Available Kubernetes clusters
+    on any infrastructure
+  homepage_url: https://www.kubermatic.com
+  item: null
+  logo: kubermatic.svg
+  name: Kubermatic KubeOne
+  repo_url: https://github.com/kubermatic/kubeone
+  subcategory: Certified Kubernetes - Installer
+- category: Platform
+  description: Kubernetes - The Easier Way enables users to create and manage an easily
+    customizable HA Kubernetes cluster with only a couple of commands
+  homepage_url: https://github.com/darxkies/k8s-tew
+  item: null
+  logo: k8s-the-easier-way.svg
+  name: Kubernetes - The Easier Way
+  repo_url: https://github.com/darxkies/k8s-tew
+  subcategory: Certified Kubernetes - Installer
+- category: Platform
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Deploy a Production Ready Kubernetes Cluster
+  homepage_url: https://kubespray.io/
+  item: null
+  logo: kubespray.svg
+  name: Kubespray
+  repo_url: https://github.com/kubernetes-sigs/kubespray
+  subcategory: Certified Kubernetes - Installer
+- category: Platform
+  crunchbase: https://www.crunchbase.com/organization/kubero
+  description: Kubero is a developer friendly selfservice platform for Kubernetes.
+  homepage_url: https://www.kubero.dev/
+  item: null
+  logo: kubero.svg
+  name: Kubero
+  repo_url: https://github.com/kubero-dev/kubero
+  subcategory: PaaS/Container Service
+- category: Platform
+  crunchbase: https://www.crunchbase.com/organization/sap
+  description: Kyma is the opinionated set of Kubernetes based modular building blocks
+    that includes the necessary capabilities to develop and run enterprise-grade cloud-native
+    applications.
+  homepage_url: https://kyma-project.io
+  item: null
+  logo: kyma.svg
+  name: Kyma
+  repo_url: https://github.com/kyma-project/kyma
+  subcategory: PaaS/Container Service
+  twitter: https://twitter.com/kymaproject
+- category: Serverless
+  crunchbase: https://www.crunchbase.com/organization/nokia
+  homepage_url: https://github.com/knix-microfunctions/knix?tab=readme-ov-file
+  item: null
+  logo: knix.svg
+  name: Knix
+  repo_url: https://github.com/knix-microfunctions/knix
+  subcategory: Installable Platform
+  twitter: https://twitter.com/BellLabs
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/kubeinvaders
+  description: Gamified Chaos Engineering Tool for K8s
+  homepage_url: https://github.com/lucky-sideburn/kubeinvaders
+  item: null
+  logo: k-inv.svg
+  name: Kubeinvaders
+  repo_url: https://github.com/lucky-sideburn/kubeinvaders
+  subcategory: Chaos Engineering
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/red-hat
+  description: Chaos testing tool for Kubernetes to identify bottlenecks and improve
+    resilience and performance under failure conditions.
+  extra:
+    accepted: '2023-12-19'
+    clomonitor_name: krkn
+    dev_stats_url: https://krknchaos.devstats.cncf.io
+    lfx_slug: krkn
+    slack_url: https://kubernetes.slack.com/messages/C05SFMHRWK1
+  homepage_url: https://krkn-chaos.github.io/krkn
+  item: null
+  logo: krkn.svg
+  name: Krkn
+  project: sandbox
+  repo_url: https://github.com/krkn-chaos/krkn
+  subcategory: Chaos Engineering
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/kubecost
+  homepage_url: https://www.kubecost.com/
+  item: null
+  logo: kubecost.svg
+  name: Kubecost
+  repo_url: https://github.com/kubecost/cost-model
+  subcategory: Continuous Optimization
+- category: Observability and Analysis
+  description: Karpenter is a Kubernetes Node Autoscaler built for flexibility, performance,
+    and simplicity.
+  homepage_url: https://karpenter.sh
+  item: null
+  logo: karpenter.svg
+  name: Karpenter
+  repo_url: https://github.com/kubernetes-sigs/karpenter
+  subcategory: Continuous Optimization
+  unnamed_organization: true
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2023-12-19'
+    ai: true
+    clomonitor_name: k8sgpt
+    lfx_slug: k8sgpt
+  homepage_url: https://www.k8sgpt.ai
+  item: null
+  logo: k8sgpt.svg
+  name: K8sGPT
+  project: sandbox
+  repo_url: https://github.com/k8sgpt-ai/k8sgpt
+  subcategory: Observability
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/keep-2303
+  homepage_url: https://www.keephq.dev/
+  item: null
+  logo: keep.svg
+  name: Keep
+  repo_url: https://github.com/keephq/keep
+  subcategory: Observability
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Kepler (Kubernetes-based Efficient Power Level Exporter) uses eBPF
+    to probe energy related system stats and exports as Prometheus metrics.
+  extra:
+    accepted: '2023-05-17'
+    clomonitor_name: kepler
+    dev_stats_url: https://kepler.devstats.cncf.io/
+    lfx_slug: kepler
+    summary_integrations: Kubernetes, Prometheus.
+    summary_personas: Developers, SREs, Sustainability Officers, IT Managers
+    summary_tags: sustainability, power monitoring, observability, metrics, ebpf,
+      machine learning
+    summary_use_case: Enabling workload power monitoring for cloud-native systems.
+  homepage_url: https://sustainable-computing.io/
+  item: null
+  logo: kepler.svg
+  name: Kepler
+  project: sandbox
+  repo_url: https://github.com/sustainable-computing-io/kepler
+  subcategory: Observability
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/red-hat
+  homepage_url: https://www.kiali.io/
+  item: null
+  logo: kiali.svg
+  name: Kiali
+  repo_url: https://github.com/kiali/kiali
+  subcategory: Observability
+  twitter: https://twitter.com/kialiproject
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
+  description: KubeSkoop is a network monitoring & diagnosis suite for Kubernetes.
+  homepage_url: https://kubeskoop.io
+  item: null
+  logo: kubeskoop.svg
+  name: KubeSkoop
+  repo_url: https://github.com/alibaba/kubeskoop
+  subcategory: Observability
+- category: Observability and Analysis
+  description: KubeReport is an open-source tool that generates detailed Kubernetes
+    cluster reports in PDF and CSV formats, providing insights into  resource utilization,
+    workload status, and cluster health for easier auditing and troubleshooting.
+  extra:
+    linkedin_url: https://www.linkedin.com/company/kubesuite
+  homepage_url: https://kubesuite.org/
+  logo: kubereport.svg
+  name: KubeReport
+  repo_url: https://github.com/kubesuiteorg/kubereport
+  subcategory: Observability
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2021-03-30'
+    annual_review_date: '2022-06-09'
+    annual_review_url: https://github.com/cncf/toc/pull/848
+    clomonitor_name: kuberhealthy
+    lfx_slug: kuberhealthy
+  homepage_url: https://github.com/kuberhealthy/kuberhealthy
+  item: null
+  logo: kuberhealthy.svg
+  name: Kuberhealthy
+  project: sandbox
+  repo_url: https://github.com/kuberhealthy/kuberhealthy
+  subcategory: Observability
+- bluesky_url: https://bsky.app/profile/kubetail.bsky.social
+  category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/kubetail
+  description: Real-time logging dasbhboard for Kubernetes
+  extra:
+    blog_url: https://www.kubetail.com/blog
+    discord_url: https://discord.gg/CmsmWAVkvX
+    linkedin_url: https://www.linkedin.com/company/kubetail
+    slack_url: https://kubernetes.slack.com/archives/C08SHG1GR37
+    youtube_url: https://www.youtube.com/@kubetail
+  homepage_url: https://www.kubetail.com
+  item: null
+  logo: kubetail.svg
+  name: Kubetail
+  repo_url: https://github.com/kubetail-org/kubetail
+  subcategory: Observability
+  twitter: https://twitter.com/kubetail
+- category: Wasm
+  crunchbase: https://www.crunchbase.com/organization/jetbrains
+  description: Managed language
+  homepage_url: https://kotlinlang.org/
+  item: null
+  logo: kotlin.svg
+  name: Kotlin
+  repo_url: https://github.com/JetBrains/kotlin
+  subcategory: Languages
+- category: Wasm
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  homepage_url: https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/
+  item: null
+  logo: kubernetes.svg
+  name: Kube-scheduler
+  repo_url: https://github.com/kubernetes-sigs/scheduler-plugins
+  subcategory: Embedded Functions
+- allow_duplicate_repo: true
+  category: Wasm
+  crunchbase: https://www.crunchbase.com/organization/huawei-cloud
+  homepage_url: https://kuasar.io/
+  item: null
+  logo: kuasar.svg
+  name: Kuasar (Wasm)
+  repo_url: https://github.com/kuasar-io/kuasar
+  subcategory: Orchestration & Management
+- allow_duplicate_repo: true
+  category: Wasm
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  homepage_url: https://kubeedge.io/en/
+  item: null
+  logo: kube-edge.svg
+  name: KubeEdge (Wasm)
+  repo_url: https://github.com/kubeedge/kubeedge
+  subcategory: Orchestration & Management
+- category: Wasm
+  crunchbase: https://www.crunchbase.com/organization/liquid-reply
+  homepage_url: https://kwasm.sh/
+  item: null
+  logo: kwasm.svg
+  name: Kwasm
+  repo_url: https://github.com/KWasm/kwasm-operator
+  subcategory: Orchestration & Management
+- category: CNAI
+  description: A toolkit to run Ray applications on Kubernetes
+  homepage_url: https://github.com/ray-project/kuberay
+  item: null
+  logo: ./ray_logo.svg
+  name: Kuberay
+  repo_url: https://github.com/ray-project/kuberay
+  subcategory: General Orchestration
+  unnamed_organization: true
+- category: CNAI
+  description: Cloud-native job queueing system for batch, HPC, AI/ML, and similar
+    applications in a Kubernetes cluster.
+  homepage_url: https://kueue.sigs.k8s.io/
+  item: null
+  logo: ./kueue.svg
+  name: Kueue
+  repo_url: https://github.com/kubernetes-sigs/kueue
+  subcategory: General Orchestration
+  unnamed_organization: true
+- category: CNAI
+  description: Kubernetes AI Toolchain Operator (KAITO) simplifies LLM inference,
+    tuning, and RAG workloads on Kubernetes.
+  extra:
+    accepted: '2024-10-17'
+    dev_stats_url: https://kaito.devstats.cncf.io/
+    lfx_slug: kaito
+  homepage_url: https://kaito-project.netlify.app/
+  item: null
+  logo: kaito.svg
+  name: KAITO
+  project: sandbox
+  repo_url: https://github.com/kaito-project/kaito
+  subcategory: ML Serving
+- category: CNAI
+  description: Standardized Distributed Generative and Predictive AI Inference Platform
+    for Scalable, Multi-Framework Deployment on Kubernetes
+  extra:
+    accepted: '2025-09-29'
+    ai: true
+    blog_url: https://kserve.github.io/website/blog
+    dev_stats_url: https://kserve.devstats.cncf.io/
+    incubating: '2025-09-29'
+    lfx_slug: kserve
+    linkedin_url: https://www.linkedin.com/company/kserve-project
+    slack_url: http://slack.cncf.io/
+  homepage_url: https://kserve.github.io/website/
+  item: null
+  logo: ./k-serve-color.svg
+  name: KServe
+  project: incubating
+  repo_url: https://github.com/kserve/kserve
+  subcategory: ML Serving
+  unnamed_organization: true
+- category: CNAI
+  description: Machine Learning Pipelines for Kubeflow
+  homepage_url: https://www.kubeflow.org/docs/components/pipelines/v1/introduction/
+  item: null
+  logo: ./kubeflow.svg
+  name: Kubeflow Pipelines
+  repo_url: https://github.com/kubeflow/pipelines
+  subcategory: CI/CD - Delivery
+  unnamed_organization: true
+- category: CNAI
+  description: Machine Learning Toolkit for Kubernetes
+  homepage_url: https://www.kubeflow.org/docs/components/notebooks
+  item: null
+  logo: ./kubeflow.svg
+  name: Kubeflow Notebooks
+  repo_url: https://github.com/kubeflow/kubeflow
+  subcategory: Data Science
+  unnamed_organization: true
+- category: CNAI
+  description: Training operators on Kubernetes
+  homepage_url: https://www.kubeflow.org/docs/components/training
+  item: null
+  logo: ./kubeflow.svg
+  name: Kubeflow Training Operator
+  repo_url: https://github.com/kubeflow/training-operator
+  subcategory: Distributed Training
+  unnamed_organization: true
+- category: CNAI
+  description: Automated Machine Learning on Kubernetes
+  homepage_url: https://www.kubeflow.org/docs/components/katib/overview/
+  item: null
+  logo: ./katib.svg
+  name: Kubeflow Katib
+  repo_url: https://github.com/kubeflow/katib
+  subcategory: AutoML
+  unnamed_organization: true
+- category: CNAI
+  description: Open source distributed event streaming platform used by thousands
+    of companies for high-performance data pipelines, streaming analytics, data integration,
+    and mission-critical applications.
+  homepage_url: https://flink.apache.org/
+  item: null
+  logo: ./apache-kafka.svg
+  name: Kafka
+  repo_url: https://github.com/apache/kafka
+  subcategory: Data Architecture
+  unnamed_organization: true
+- category: CNAI
+  description: Use Kyverno's powerful, declarative, low-code policies to validate
+    any runtime or configuration data that can be converted to JSON.
+  homepage_url: https://kyverno.github.io/kyverno-json/latest/
+  item: null
+  logo: ./kyverno-json-logo.svg
+  name: Kyverno-JSON
+  repo_url: https://github.com/kyverno/kyverno-json
+  subcategory: Governance, Policy & Security
+  unnamed_organization: true

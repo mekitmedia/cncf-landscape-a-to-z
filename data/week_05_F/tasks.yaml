@@ -1,0 +1,385 @@
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/foreman
+  homepage_url: https://theforeman.org/
+  item: null
+  logo: foreman.svg
+  name: Foreman
+  repo_url: https://github.com/theforeman/foreman
+  subcategory: Automation & Configuration
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2018-10-10'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#falco-logos
+    audits:
+    - date: '2019-06-07'
+      type: security
+      url: https://github.com/falcosecurity/falco/blob/master/audits/SECURITY_AUDIT_2019_07.pdf
+      vendor: Cure53
+    - date: '2023-03-22'
+      type: security
+      url: https://falco.org/blog/falco-security-audit-2023/
+      vendor: OSTIF
+    clomonitor_name: falco
+    dev_stats_url: https://falco.devstats.cncf.io/
+    graduated: '2024-02-29'
+    incubating: '2020-01-08'
+    lfx_slug: falco
+    slack_url: https://kubernetes.slack.com/messages/falco
+    summary_business_use_case: 'You can think about Falco as a security camera for
+      containers, Kubernetes and the cloud: it collects signals from hosts, containers,
+      orchestrators and cloud logs, and it reports suspicious or anomalous behavior.
+      Falco provides kernel instrumentation mechanisms to detect security events.
+      It then enriches them with metadata pulled from the node, the container runtime
+      and Kubernetes. This metadata is then used to dynamically apply Falco rules
+      based on the container name, image, orchestrator labels, orchestrator resource
+      type, etc.'
+    summary_integrations: Kubernetes Audit Logs, AWS Cloudtrail, GitHub Audit Events,
+      and the 40+ outputs supported by Falcosidekick (e.g. Slack, AWS Lambda, etc)
+    summary_personas: SREs, Cloud Architects, Platform Engineers, DevOps Engineer,
+      DevOps practitioners, DevSecOps practitioners
+    summary_release_rate: 3 times per year (end of Jan, June, Sept)
+    summary_tags: Security, Go, C++, DevOps, DevSecOps, Container, Cloud native, Kubernetes,
+      Runtime, Threat detection, Syscalls, Monitoring, Observability, Anomaly detection,
+      Kubernetes
+    summary_use_case: Falco is a cloud-native runtime security project that makes
+      it easy to consume kernel events. Falco enriches these events with additional
+      information from the Kubernetes platform and ecosystem as well as the rest of
+      the cloud native stack. Falco can also be extended to other data sources through
+      the use of plugins. Falco offers a rich set of security rules designed for Kubernetes,
+      Linux, and cloud native environments. When a rule is violated in the system,
+      Falco alerts users with details about the violation and severity.
+  homepage_url: https://falco.org/
+  item: null
+  logo: falco.svg
+  name: Falco
+  project: graduated
+  repo_url: https://github.com/falcosecurity/falco
+  subcategory: Security & Compliance
+  twitter: https://twitter.com/falco_org
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/fossa-2
+  homepage_url: https://fossa.com/
+  item: null
+  logo: fossa.svg
+  name: FOSSA
+  repo_url: https://github.com/fossas/fossa-cli
+  subcategory: Security & Compliance
+- category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+  homepage_url: https://firecracker-microvm.github.io/
+  item: null
+  logo: firecracker.svg
+  name: Firecracker
+  repo_url: https://github.com/firecracker-microvm/firecracker
+  subcategory: Container Runtime
+- category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/lf-networking
+  homepage_url: https://fd.io/
+  item: null
+  logo: fdio.svg
+  name: FD.io
+  repo_url: https://github.com/FDio/vpp
+  subcategory: Cloud Native Network
+  twitter: https://twitter.com/FDioProject
+- category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/red-hat
+  homepage_url: https://github.com/flannel-io/flannel
+  item: null
+  logo: flannel.svg
+  name: Flannel
+  repo_url: https://github.com/flannel-io/flannel
+  subcategory: Cloud Native Network
+  twitter: https://twitter.com/coreos
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Fluid is an orchestration platform for elastic data abstraction and
+    acceleration in cloud native environment.
+  extra:
+    accepted: '2021-04-28'
+    annual_review_date: '2022-07-06'
+    annual_review_url: https://github.com/cncf/toc/pull/870
+    clomonitor_name: fluid
+  homepage_url: https://fluid-cloudnative.github.io/
+  item: null
+  logo: fluid.svg
+  name: Fluid
+  project: sandbox
+  repo_url: https://github.com/fluid-cloudnative/fluid
+  second_path:
+  - CNAI / Data Architecture
+  subcategory: Scheduling & Orchestration
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/flomesh
+  description: Lightweight SMI compatible service mesh for Kubernetes east-west and
+    north-south traffic management, uses ebpf for layer4 and pipy proxy for layer7
+    traffic management, support multi cluster network.
+  homepage_url: https://flomesh.io/
+  item: null
+  logo: fsm.svg
+  name: Flomesh Service Mesh (FSM)
+  repo_url: https://github.com/flomesh-io/fsm
+  subcategory: Service Mesh
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/apple
+  homepage_url: https://www.foundationdb.org/
+  item: null
+  logo: foundationdb.svg
+  name: FoundationDB
+  repo_url: https://github.com/apple/foundationdb
+  subcategory: Database
+  twitter: https://twitter.com/FoundationDB
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/apache
+  homepage_url: https://flink.apache.org/
+  item: null
+  logo: flink.svg
+  name: Flink
+  repo_url: https://github.com/apache/flink
+  subcategory: Streaming & Messaging
+  twitter: https://twitter.com/apacheflink
+- allow_duplicate_repo: true
+  category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/infinyon
+  homepage_url: https://fluvio.io/
+  item: null
+  logo: fluvio.svg
+  name: Fluvio
+  repo_url: https://github.com/infinyon/fluvio
+  subcategory: Streaming & Messaging
+  twitter: https://twitter.com/InfinyOn
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/red-hat
+  description: The Fabric8 Kubernetes Client is a Java client that is used to interact
+    with Kubernetes clusters through the Kubernetes API. It's one of the main building
+    blocks for other CNCF projects like the Java Operator SDK from the Operator Framework.
+  homepage_url: https://github.com/fabric8io/kubernetes-client
+  item: null
+  logo: fabric8-kubernetes-client.svg
+  name: Fabric8 Kubernetes Client
+  repo_url: https://github.com/fabric8io/kubernetes-client
+  subcategory: Application Definition & Image Build
+  twitter: https://twitter.com/fabric8io
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    clomonitor_name: flagger
+    parent_project: Flux
+    summary_integrations: Gateway API + standard service meshes and ingress controllers
+  homepage_url: https://docs.flagger.app
+  item: null
+  logo: flagger.svg
+  name: Flagger
+  repo_url: https://github.com/fluxcd/flagger
+  subcategory: Continuous Integration & Delivery
+  twitter: https://twitter.com/fluxcd
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2019-07-15'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#flux-logos
+    audits:
+    - date: '2021-11-10'
+      type: security
+      url: https://fluxcd.io/FluxFinalReport-v1.1.pdf
+      vendor: ADA Logics
+    blog_url: https://fluxcd.io/blog/
+    clomonitor_name: flux-project
+    dev_stats_url: https://flux.devstats.cncf.io/
+    graduated: '2022-11-30'
+    incubating: '2021-03-12'
+    lfx_slug: fluxcd
+    mailing_list_url: https://github.com/fluxcd/flux2/discussions
+    slack_url: https://cloud-native.slack.com/messages/flux
+    summary_business_use_case: GitOps is the natural evolution of configuration as
+      code. Businesses moving to Flux can deal with infrastructure at scale more easily,
+      and allow their developers to focus on code, not on deployment problems. With
+      its vast ecosystem of Flux integrations and being integrated into cloud offerings
+      everywhere, adopting Flux can be adopted in virtually every setup.
+    summary_integrations: all standard Cloud Native, Git provider and observability
+      tooling
+    summary_personas: SREs, DevOps & Platform Engineers, Architects, Developers
+    summary_release_rate: Minor releases have a cadence of at least one per month.
+      (https://fluxcd.io/flux/faq/#where-can-i-find-information-on-how-long-versions-are-supported-and-how-often-to-expect-releases)
+    summary_tags: OCI, container, security, gitops, Kubernetes, Helm, Observability,
+      Software Supply Chain, Policy, CICD, Multi-Tenancy, API Gateway
+    summary_use_case: Flux is a tool for keeping Kubernetes clusters in sync with
+      sources of configuration (like Git repositories and OCI artifacts), and automating
+      updates to configuration when there is new code to deploy. Flux is built from
+      the ground up to use Kubernetes' API extension system, and to integrate with
+      Prometheus and other core components of the Kubernetes ecosystem. Flux supports
+      multi-tenancy and support for syncing an arbitrary number of Git repositories,
+      among other long-requested features.
+    youtube_url: https://www.youtube.com/channel/UCoZxt-YMhGHb20ZkvcCc5KA
+  homepage_url: https://fluxcd.io/
+  item: null
+  logo: flux.svg
+  name: Flux
+  project: graduated
+  repo_url: https://github.com/fluxcd/flux2
+  subcategory: Continuous Integration & Delivery
+  twitter: https://twitter.com/fluxcd
+- category: App Definition and Development
+  description: Fortio is an open source load testing library, command-line tool, and
+    server application written in Go. Originated as Istio's performance characterization
+    tool (in particular proxy overhead), Fortio has evolved into a versatile tool
+    for load testing and performance benchmarking of HTTP, gRPC, and TCP services.
+    Among other options it enables users to generate a specified query-per-second
+    (QPS) load and records detailed latency histograms, facilitating the analysis
+    of performance metrics. The server component offers a straightforward web UI and
+    REST API, allowing users to initiate tests and visualize results through graphical
+    representations. Beyond load testing, Fortio provides server-side features akin
+    to httpbin, including request echoing with headers, configurable latency or error
+    responses, TCP echoing and proxying, HTTP fan-out, and support for gRPC echo and
+    health checks. These capabilities make Fortio a versatile tool for debugging and
+    testing high-performance services in cloud-native environments. As an organization
+    set of git repositories, is also a growing set of reusable libraries for writing
+    Cloud Native Go code and CLIs.
+  homepage_url: https://fortio.org/
+  item: null
+  logo: fortio.svg
+  name: Fortio
+  repo_url: https://github.com/fortio/fortio
+  subcategory: Continuous Integration & Delivery
+- category: Platform
+  description: A community Linux distribution designed for container workloads, with
+    high security and low maintenance
+  extra:
+    accepted: '2024-08-02'
+    clomonitor_name: flatcar
+    dev_stats_url: https://flatcar.devstats.cncf.io/
+    incubating: '2024-08-02'
+    lfx_slug: flatcar
+  homepage_url: https://www.flatcar.org/
+  item: null
+  logo: flatcar.svg
+  name: Flatcar Container Linux
+  project: incubating
+  repo_url: https://github.com/flatcar/Flatcar
+  second_path:
+  - Wasm / Edge/Bare metal
+  subcategory: Certified Kubernetes - Distribution
+  twitter: https://twitter.com/flatcar
+- category: Serverless
+  crunchbase: https://www.crunchbase.com/organization/tibco-software
+  homepage_url: https://www.flogo.io
+  item: null
+  logo: flogo.svg
+  name: Flogo
+  repo_url: https://github.com/TIBCOSoftware/flogo
+  subcategory: Framework
+- category: Serverless
+  crunchbase: https://www.crunchbase.com/organization/infracloud-technologies
+  homepage_url: https://fission.io/
+  item: null
+  logo: fission.svg
+  name: Fission
+  repo_url: https://github.com/fission/fission
+  subcategory: Installable Platform
+  twitter: https://twitter.com/fissionio
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/featurehub
+  description: 'FeatureHub is a Cloud Native Feature Flags, Remote Configuration and
+    A/B Testing Platform suitable for mobile, web and server applications and available
+    with the variety of SDKs. Self-hosted open source or SaaS options are available. '
+  extra:
+    blog_url: https://www.featurehub.io/blog
+    linkedin_url: https://www.linkedin.com/company/featurehub/
+    slack_url: https://anyways-labs.slack.com
+    youtube_url: https://www.youtube.com/@featurehub2328
+  homepage_url: https://www.featurehub.io/
+  item: null
+  logo: featurehub.svg
+  name: FeatureHub
+  repo_url: https://github.com/featurehub-io/featurehub
+  subcategory: Feature Flagging
+  twitter: https://x.com/HubFeature
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/bullet-train
+  extra:
+    blog_url: https://www.flagsmith.com/blog
+    slack_url: https://discord.gg/hFhxNtXzgm
+    youtube_url: https://www.youtube.com/channel/UCki7GZrOdZZcsV9rAIRchCw
+  homepage_url: https://www.flagsmith.com/
+  item: null
+  logo: flagsmith.svg
+  name: Flagsmith
+  repo_url: https://github.com/Flagsmith/flagsmith
+  subcategory: Feature Flagging
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/flipt-36c0
+  description: Open source, self-hosted, developer first, feature flagging and dynamic
+    configuration service
+  extra:
+    blog_url: https://flipt.io/blog
+  homepage_url: https://flipt.io
+  item: null
+  logo: flipt.svg
+  name: Flipt
+  repo_url: https://github.com/flipt-io/flipt
+  subcategory: Feature Flagging
+  twitter: https://twitter.com/flipt_io
+  url_for_bestpractices: https://bestpractices.coreinfrastructure.org/en/projects/3498
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/xiaomi
+  homepage_url: https://github.com/open-falcon/falcon-plus
+  item: null
+  logo: falcon.svg
+  name: Falcon
+  repo_url: https://github.com/open-falcon/falcon-plus
+  subcategory: Observability
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2016-11-08'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/graduated.md#fluentd-logos
+    audits:
+    - date: '2019-05-01'
+      type: security
+      url: https://cure53.de/pentest-report_fluent.pdf
+      vendor: Cure53
+    - date: '2020-12-15'
+      type: fuzzing
+      url: https://github.com/fluent/fluent-bit/blob/master/doc-reports/cncf-fuzzing-audit.pdf
+      vendor: Ada Logics
+    blog_url: http://www.fluentd.org/blog/
+    clomonitor_name: fluentd
+    dev_stats_url: https://fluentd.devstats.cncf.io/
+    graduated: '2019-04-11'
+    incubating: '2016-11-08'
+    lfx_slug: fluentd
+    slack_url: http://slack.fluentd.org/
+    stack_overflow_url: https://stackoverflow.com/questions/tagged/fluentd
+  homepage_url: https://www.fluentd.org/
+  item: null
+  logo: fluentd.svg
+  name: Fluentd
+  project: graduated
+  repo_url: https://github.com/fluent/fluentd
+  subcategory: Observability
+  twitter: https://twitter.com/fluentd
+- category: Wasm
+  homepage_url: https://ffmpeg.org/
+  item: null
+  logo: ffmpeg.svg
+  name: FFmpeg
+  repo_url: https://github.com/FFmpeg/FFmpeg
+  subcategory: AI/Machine Learning
+  unnamed_organization: true
+- category: Wasm
+  crunchbase: https://www.crunchbase.com/organization/filecoin
+  homepage_url: https://filecoin.io/
+  item: null
+  logo: filecoin.svg
+  name: Filecoin
+  repo_url: https://github.com/filecoin-project/ref-fvm
+  subcategory: Decentralized Platforms
+- category: CNAI
+  description: Feature Store to manage machine learning features.
+  homepage_url: https://feast.dev/
+  item: null
+  logo: ./feast.svg
+  name: FEAST
+  repo_url: https://github.com/feast-dev/feast
+  subcategory: Data Architecture
+  unnamed_organization: true

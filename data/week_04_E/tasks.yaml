@@ -1,0 +1,280 @@
+- additional_repos:
+  - repo_url: https://github.com/Keyfactor/ansible-ejbca-signserver-playbooks
+  - repo_url: https://github.com/Keyfactor/ejbca-community-helm
+  - repo_url: https://github.com/Keyfactor/ejbca-easy-rest-client
+  - repo_url: https://github.com/Keyfactor/ejbca-cert-manager-issuer
+  - repo_url: https://github.com/Keyfactor/ejbca-vault-pki-engine
+  category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/certified-security-solutions
+  description: "Issue certificates for all your Kubernetes workloads with the open-source\
+    \ public key infrastructure (PKI) and certificate authority (CA) software EJBCA.\_"
+  extra:
+    docker_url: https://hub.docker.com/r/keyfactor/ejbca-ce
+    documentation_url: https://docs.keyfactor.com/ejbca
+    github_discussions_url: https://github.com/Keyfactor/ejbca-ce/discussions
+    youtube_url: https://www.youtube.com/@KeyfactorCommunity/
+  homepage_url: https://www.ejbca.org/
+  item: null
+  logo: ejbca-community.svg
+  name: EJBCA Community
+  repo_url: https://github.com/Keyfactor/ejbca-ce
+  subcategory: Security & Compliance
+  twitter: https://x.com/KeyfactorComm
+  url_for_bestpractices: https://www.bestpractices.dev/en/projects/9419
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Eraser uses vulnerability data to remove non-running images from all
+    Kubernetes nodes in a cluster.
+  extra:
+    accepted: '2023-06-30'
+    clomonitor_name: eraser
+    dev_stats_url: https://eraser.devstats.cncf.io/
+    lfx_slug: eraser
+  homepage_url: https://eraser-dev.github.io/eraser/
+  item: null
+  logo: eraser.svg
+  name: Eraser
+  project: sandbox
+  repo_url: https://github.com/eraser-dev/eraser
+  subcategory: Scheduling & Orchestration
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/netease-com
+  description: easy-ngo is a fast, out-of-the-box microservice development framework
+    based on the Go language.
+  homepage_url: https://netease-media.github.io/easy-ngo-website/
+  item: null
+  logo: easy-ngo.svg
+  name: Easy-Ngo
+  repo_url: https://github.com/NetEase-Media/easy-ngo
+  subcategory: Remote Procedure Call
+- allow_duplicate_repo: true
+  category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2017-09-13'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/graduated.md#envoy-logos
+    audits:
+    - date: '2018-02-27'
+      type: security
+      url: https://github.com/envoyproxy/envoy/blob/main/docs/security/audit_cure53_2018.pdf
+      vendor: Cure53
+    - date: '2021-05-15'
+      type: fuzzing
+      url: https://github.com/envoyproxy/envoy/blob/main/docs/security/audit_fuzzer_adalogics_2021.pdf
+      vendor: Ada Logics
+    clomonitor_name: envoy
+    dev_stats_url: https://envoy.devstats.cncf.io/
+    graduated: '2018-11-28'
+    incubating: '2017-09-13'
+    lfx_slug: envoy
+    slack_url: https://envoyproxy.slack.com/
+    stack_overflow_url: https://stackoverflow.com/questions/tagged/envoyproxy
+  homepage_url: https://www.envoyproxy.io
+  item: null
+  logo: envoy.svg
+  name: Envoy
+  project: graduated
+  repo_url: https://github.com/envoyproxy/envoy
+  subcategory: Service Proxy
+  twitter: https://twitter.com/envoyproxy
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2023-12-19'
+    clomonitor_name: easegress
+    lfx_slug: easegress
+  homepage_url: https://megaease.com/easegress
+  item: null
+  logo: easegress.svg
+  name: Easegress
+  project: sandbox
+  repo_url: https://github.com/easegress-io/easegress
+  subcategory: API Gateway
+  twitter: https://twitter.com/megaease
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2021-04-13'
+    artwork_url: https://github.com/cncf/artwork/tree/master/projects/emissary-ingress
+    clomonitor_name: emissary-ingress
+    dev_stats_url: https://emissaryingress.devstats.cncf.io/
+    incubating: '2021-04-13'
+    lfx_slug: emissary
+    summary_business_use_case: Emissary-Ingress speeds up deployment time and reduces
+      the burden on platform teams by empowering developers to deploy new routes in
+      a self-service manner. Platform/cloud teams can centrally manage hosts and certificates
+      while developers can manage the resources relevant to them.
+    summary_integration: Telepresence, Linkerd, Istio, Argo Rollouts, Envoy, gRPC,
+      OpenTelemetry, Curiefense
+    summary_personas: Platform Engineers, Architects
+    summary_release_rate: Monthly
+    summary_tags: ingress,api gateway,gateway,decentralized-operation,developer-friendly
+    summary_use_case: Emissary-Ingress is a k8s-native, Envoy-based API gateway. It
+      is designed to allow teams to work in a more decentralized way than the traditional
+      Ingress object. Emissary-Ingress can scan for its CRDs across all namespaces,
+      so development teams can deploy new network routing rules along with the apps
+      that use them, increasing velocity. Emissary-Ingress can be extended via API
+      calls with authentication and rate limiting services. It is compatible with
+      all the CNCF service meshes, and facilitates canary deployments when integrated
+      with Argo Rollouts.
+  homepage_url: https://emissary-ingress.dev/
+  item: null
+  logo: emissary-ingress.svg
+  name: Emissary-Ingress
+  project: incubating
+  repo_url: https://github.com/emissary-ingress/emissary
+  subcategory: API Gateway
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/saaras
+  homepage_url: https://www.getenroute.io
+  item: null
+  logo: saaras.svg
+  name: EnRoute OneStep Ingress
+  repo_url: https://github.com/saarasio/enroute
+  subcategory: API Gateway
+- category: Orchestration & Management
+  description: Part of the Envoy project, Envoy Gateway is the control plane for dynamically
+    managing Envoy Proxy, aimed at significantly decreasing the barrier to entry when
+    using it for Gateway (sometimes known as "north-south") use cases.
+  homepage_url: https://gateway.envoyproxy.io
+  item: null
+  logo: envoy-gateway.svg
+  name: Envoy Gateway
+  repo_url: https://github.com/envoyproxy/gateway
+  subcategory: API Gateway
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/megaease-inc
+  homepage_url: https://megaease.com/easemesh
+  item: null
+  logo: easemesh.svg
+  name: EaseMesh
+  repo_url: https://github.com/megaease/easemesh
+  subcategory: Service Mesh
+  twitter: https://twitter.com/megaease
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/enterprisedb
+  description: EDB Postgres for Kubernetes is a PostgreSQL operator based on CloudNativePG
+  homepage_url: https://www.enterprisedb.com/
+  item: null
+  logo: edb.svg
+  name: EDB
+  repo_url: https://github.com/EnterpriseDB/cloudnative-pg
+  subcategory: Database
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/epsilla
+  description: 10x faster vector database and one-stop RAGaaS platform for building
+    LLM applications
+  extra:
+    youtube_url: https://www.youtube.com/channel/UCHS4c7mD3Q7liWpJyaGGBqA
+  homepage_url: https://epsilla.com
+  item: null
+  logo: epsilla.svg
+  name: Epsilla
+  repo_url: https://github.com/epsilla-cloud/vectordb
+  subcategory: Database
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/emq-technologies
+  homepage_url: https://www.emqx.com/en
+  item: null
+  logo: emqx.svg
+  name: EMQX
+  repo_url: https://github.com/emqx/emqx
+  subcategory: Streaming & Messaging
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/eclipse-che
+  homepage_url: https://www.eclipse.org/che/
+  item: null
+  logo: eclipseche.svg
+  name: Eclipse Che
+  repo_url: https://github.com/eclipse-che/che
+  subcategory: Application Definition & Image Build
+- category: Platform
+  crunchbase: https://www.crunchbase.com/organization/elastisys
+  description: Welkin is a security-hardened Kubernetes distribution. It is designed
+    to meet the tough demands on security and compliance of regulated industries.
+    The distribution includes logging, monitoring, single-sign-on integration with
+    common identity providers, vulnerability scanning, intrusion detection, strict
+    security hardening of the entire platform, and additional safeguards.
+  homepage_url: https://elastisys.io/welkin
+  item: null
+  logo: welkin.svg
+  name: "Elastisys Welkin\xAE based on Kubespray"
+  repo_url: https://github.com/elastisys/welkin
+  subcategory: Certified Kubernetes - Distribution
+- category: Serverless
+  crunchbase: https://www.crunchbase.com/organization/encore-ae44
+  homepage_url: https://encore.dev
+  item: null
+  logo: encore.svg
+  name: Encore
+  repo_url: https://github.com/encoredev/encore
+  subcategory: Framework
+- category: Serverless
+  crunchbase: https://www.crunchbase.com/organization/apache
+  description: EventMesh is a new generation serverless event middleware for building
+    distributed event-driven applications.
+  homepage_url: https://eventmesh.apache.org/
+  item: null
+  logo: eventmesh.svg
+  name: EventMesh
+  repo_url: https://github.com/apache/eventmesh
+  subcategory: Framework
+  twitter: https://twitter.com/ASFEventMesh
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/megaease-inc
+  description: EaseAgent is a Javaagent that can be integrated with the mainstream
+    monitoring system, providing standard data formats that are fully compatible with
+    OpenZipkin and Prometheus. EaseAgent is also very easy to extend through the Plugin
+    Mechanism which only a minimum of three interfaces are required to be implemented
+    to complete a plugin development.
+  homepage_url: https://github.com/megaease/easeagent
+  item: null
+  logo: easeagent.svg
+  name: EaseAgent
+  repo_url: https://github.com/megaease/easeagent
+  subcategory: Observability
+  twitter: https://twitter.com/megaease
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/elasticsearch
+  homepage_url: https://www.elastic.co/
+  item: null
+  logo: elastic.svg
+  name: Elastic
+  open_source: false
+  repo_url: https://github.com/elastic/elasticsearch
+  subcategory: Observability
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/elasticsearch
+  homepage_url: https://www.elastic.co/observability/application-performance-monitoring
+  item: null
+  logo: elastic-apm.svg
+  name: Elastic APM
+  repo_url: https://github.com/elastic/apm-server
+  subcategory: Observability
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/embrace-io
+  homepage_url: https://embrace.io/
+  item: null
+  logo: embrace-mobile.svg
+  name: Embrace
+  repo_url: https://github.com/embrace-io/embrace-apple-sdk
+  subcategory: Observability
+  twitter: https://twitter.com/embracemobile
+- category: Wasm
+  crunchbase: https://www.crunchbase.com/organization/dylibso
+  homepage_url: https://extism.org
+  item: null
+  logo: extism.svg
+  name: Extism
+  repo_url: https://github.com/extism/extism
+  subcategory: Application Frameworks
+  twitter: https://twitter.com/extism
+- allow_duplicate_repo: true
+  category: Wasm
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  homepage_url: https://www.envoyproxy.io
+  item: null
+  logo: envoy.svg
+  name: Envoy (Wasm)
+  repo_url: https://github.com/envoyproxy/envoy
+  subcategory: Embedded Functions

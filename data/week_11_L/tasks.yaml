@@ -1,0 +1,278 @@
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/docker
+  homepage_url: https://github.com/linuxkit/linuxkit
+  item: null
+  logo: linux-kit.svg
+  name: LinuxKit
+  repo_url: https://github.com/linuxkit/linuxkit
+  subcategory: Automation & Configuration
+  twitter: https://twitter.com/moby
+- category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/linbit
+  description: High Performance Software-Defined Block Storage for container, cloud
+    and virtualisation. Fully integrated with Docker, Kubernetes, Openstack, Proxmox
+    etc.
+  homepage_url: https://www.linbit.com/linstor/
+  item: null
+  logo: linstor.svg
+  name: LINSTOR
+  repo_url: https://github.com/LINBIT/linstor-server
+  subcategory: Cloud Native Storage
+  twitter: https://twitter.com/linbit
+- category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Cloud-native distributed storage for Kubernetes
+  extra:
+    accepted: '2019-10-11'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#longhorn-logos
+    clomonitor_name: longhorn
+    dev_stats_url: https://longhorn.devstats.cncf.io/
+    incubating: '2021-11-04'
+    lfx_slug: longhorn
+    summary_business_use_case: Anyone running a stateful workload, like database,
+      kafka, elasticsearch etc, in a Kubernetes cluster.
+    summary_integration: With Kubernetes via CSI.
+    summary_intro_url: https://www.youtube.com/watch?v=y0Rs6vghFaU
+    summary_personas: Kubernetes users who need persistent storage in their cluster.
+    summary_release_rate: 1.0 GA released on May 2020. Latest v1.4.0 was released
+      on Dec 2022.
+    summary_tags: kubernetes, storage, csi, backup
+    summary_use_case: "* Highly available persistent storage for Kubernetes\nIn the\
+      \ past, ITOps and DevOps have found it hard to add replicated storage to Kubernetes\
+      \ clusters. As a result many non-cloud-hosted Kubernetes clusters don\u2019\
+      t support persistent storage. External storage arrays are non-portable and can\
+      \ be extremely expensive.\nLonghorn delivers simplified, easy to deploy and\
+      \ upgrade, 100% open source, cloud-native persistent block storage without the\
+      \ cost overhead of open core or proprietary alternatives.\n* Easy incremental\
+      \ snapshots and backups\nLonghorn\u2019s built-in incremental snapshot and backup\
+      \ features keep the volume data safe in or out of the Kubernetes cluster.\n\
+      Scheduled backups of persistent storage volumes in Kubernetes clusters is simplified\
+      \ with Longhorn\u2019s intuitive, free management UI.\n* Cross-cluster disaster\
+      \ recovery\nExternal replication solutions will recover from a disk failure\
+      \ by re-replicating the entire data store. This can take days, during which\
+      \ time the cluster performs poorly and has a higher risk of failure.\nUsing\
+      \ Longhorn, you can control the granularity to the maximum, easily create a\
+      \ disaster recovery volume in another Kubernetes cluster, and failover to it\
+      \ in the event of an emergency.\nIf your main cluster fails, you can bring up\
+      \ the app in the DR cluster quickly with a defined RPO and RTO."
+  homepage_url: https://longhorn.io/
+  item: null
+  joined: '2019-10-11'
+  logo: longhorn.svg
+  name: Longhorn
+  project: incubating
+  project_org: https://github.com/longhorn
+  repo_url: https://github.com/longhorn/longhorn
+  subcategory: Cloud Native Storage
+- category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Linux virtual machines, typically on macOS, for running containerd
+  extra:
+    accepted: '2022-09-14'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#lima-logos
+    chat_channel: '#lima'
+    clomonitor_name: lima
+    dev_stats_url: https://lima.devstats.cncf.io/
+    incubating: '2025-10-14'
+    lfx_slug: lima
+    slack_url: https://slack.cncf.io/
+  homepage_url: https://github.com/lima-vm/lima
+  item: null
+  logo: lima.svg
+  name: Lima
+  project: incubating
+  repo_url: https://github.com/lima-vm/lima
+  subcategory: Container Runtime
+- category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/cisco
+  homepage_url: https://ligato.io/
+  item: null
+  logo: ligato.svg
+  name: Ligato
+  repo_url: https://github.com/ligato/vpp-agent
+  subcategory: Cloud Native Network
+- category: Orchestration & Management
+  description: eBPF based cloud-native load-balancer. Powering Kubernetes|Edge|5G|IoT|XaaS
+    Apps.
+  extra:
+    accepted: '2024-08-30'
+    chat_channel: '#loxilb'
+    clomonitor_name: loxilb
+    dev_stats_url: https://loxilb.devstats.cncf.io/
+    lfx_slug: loxilb
+    slack_url: https://kubernetes.slack.com/messages/loxilb
+  homepage_url: https://loxilb.io
+  item: null
+  logo: loxilb.svg
+  name: LoxiLB
+  project: sandbox
+  repo_url: https://github.com/loxilb-io/loxilb
+  subcategory: Service Proxy
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/lunar-dev
+  description: "Lunar.dev\u2019s mission is to enable optimization and control of\
+    \  third-party API consumption in production environments. Lunar is a lightweight\
+    \ tool that empowers DevOps and engineering teams  to centralize consumption,\
+    \ gain insight and visibility into usage patterns and costs, and utilize out-of-the-box\
+    \ policies."
+  homepage_url: https://www.lunar.dev/
+  item: null
+  logo: lunar.dev.svg
+  name: Lunar.dev
+  repo_url: https://github.com/TheLunarCompany/lunar
+  subcategory: API Gateway
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Ultra light, ultra simple, ultra powerful. Linkerd adds security, observability,
+    and reliability to Kubernetes, without the complexity.
+  extra:
+    accepted: '2017-01-23'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#linkerd-logos
+    audits:
+    - date: '2019-06-01'
+      type: security
+      url: https://github.com/linkerd/linkerd2/blob/main/audits/2019/SECURITY_AUDIT.pdf
+      vendor: Cure53
+    - date: '2020-06-05'
+      type: security
+      url: https://github.com/ctz/rustls/blob/main/audit/TLS-01-report.pdf
+      vendor: Cure53
+    - date: '2022-06-28'
+      type: security
+      url: https://github.com/linkerd/linkerd2/tree/main/audits/2022
+      vendor: Trail of Bits
+    blog_url: https://blog.linkerd.io/
+    clomonitor_name: linkerd
+    dev_stats_url: https://linkerd.devstats.cncf.io/
+    graduated: '2021-07-28'
+    incubating: '2018-04-06'
+    lfx_slug: linkerd
+    slack_url: https://slack.linkerd.io/
+    stack_overflow_url: https://stackoverflow.com/questions/tagged/linkerd
+    summary_business_use_case: Security, compliance, reliability.
+    summary_languages: Go, Rust
+    summary_personas: SREs, DevOps Engineers, Architects
+    summary_tags: mTLS, observability, multi-cluster, load balancing, traffic authorization,
+      security, zero trust, Rust
+    summary_use_case: Linkerd is the lightest, fastest, and most importantly, simplest
+      service mesh on the market. It provides security, reliability, and observability
+      features to any Kubernetes application without requiring code changes.
+    youtube_url: https://www.youtube.com/watch?v=wBgBwNZo_EE&list=PLI9FkLPXDscDB0gevkhEnyfgIfWF5yk4V
+  homepage_url: https://linkerd.io/
+  item: null
+  logo: linkerd.svg
+  name: Linkerd
+  project: graduated
+  repo_url: https://github.com/linkerd/linkerd2
+  subcategory: Service Mesh
+  twitter: https://twitter.com/linkerd
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/amazee-io
+  description: Build and Deploy System for OpenShift & Kubernetes
+  extra:
+    lfx_slug: lagoon
+  homepage_url: https://github.com/uselagoon/lagoon
+  item: null
+  logo: lagoon.svg
+  name: Lagoon
+  repo_url: https://github.com/uselagoon/lagoon
+  subcategory: Application Definition & Image Build
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/datical
+  description: Liquibase helps release software faster by bringing DevOps to the database
+  extra:
+    slack_url: https://discord.gg/Kk3MsFE2
+  homepage_url: https://www.liquibase.com/
+  item: null
+  logo: liquibase.svg
+  name: Liquibase
+  repo_url: https://github.com/liquibase/liquibase
+  subcategory: Continuous Integration & Delivery
+- category: Serverless
+  crunchbase: https://www.crunchbase.com/organization/ant-financial
+  homepage_url: https://mosn.io/layotto
+  item: null
+  logo: layotto.svg
+  name: Layotto
+  repo_url: https://github.com/mosn/layotto
+  subcategory: Framework
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2020-06-25'
+    clomonitor_name: litmus-chaos
+    dev_stats_url: https://litmuschaos.devstats.cncf.io/
+    incubating: '2022-01-11'
+    lfx_slug: litmuschaos
+    slack_url: https://kubernetes.slack.com/messages/CNXNB0ZTN
+    youtube_url: https://www.youtube.com/channel/UCa57PMqmz_j0wnteRa9nCaw
+  homepage_url: https://litmuschaos.io/
+  item: null
+  logo: litmus.svg
+  name: Litmus
+  project: incubating
+  repo_url: https://github.com/litmuschaos/litmus
+  subcategory: Chaos Engineering
+  twitter: https://twitter.com/litmuschaos
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/lindata
+  description: LinDB is a scalable, high performance, high availability distributed
+    time series database.
+  homepage_url: https://www.lindb.io/
+  item: null
+  logo: lindb.svg
+  name: LinDB
+  repo_url: https://github.com/lindb/lindb
+  subcategory: Observability
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/netease-com
+  description: Loggie is a lightweight, high-performance, cloud-native log collection
+    agent and aggregator based on Golang.
+  homepage_url: https://github.com/loggie-io/loggie
+  item: null
+  logo: loggie.svg
+  name: Loggie
+  repo_url: https://github.com/loggie-io/loggie
+  subcategory: Observability
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2023-09-19'
+    artwork_url: https://github.com/cncf/artwork/blob/main/examples/sandbox.md/#logging-operator-logos
+    clomonitor_name: kube-logging
+    dev_stats_url: https://loggingoperator.devstats.cncf.io/
+    lfx_slug: logging-operator
+  homepage_url: https://kube-logging.dev/
+  item: null
+  logo: logging-operator.svg
+  name: Logging Operator (Kube Logging)
+  project: sandbox
+  repo_url: https://github.com/kube-logging/logging-operator
+  subcategory: Observability
+  twitter: https://twitter.com/kubelogging
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/elasticsearch
+  homepage_url: https://www.elastic.co/logstash
+  item: null
+  logo: logstash.svg
+  name: Logstash
+  repo_url: https://github.com/elastic/logstash
+  subcategory: Observability
+- category: Wasm
+  homepage_url: https://lunatic.solutions/
+  item: null
+  logo: lunatic.svg
+  name: Lunatic
+  repo_url: https://github.com/lunatic-solutions/lunatic
+  subcategory: Runtimes
+  unnamed_organization: true
+- category: CNAI
+  description: Open source LLM engineering platform - Observability, metrics, evals,
+    prompt management, playground, datasets.
+  homepage_url: https://github.com/langfuse/langfuse
+  item: null
+  logo: ./lanfuse.svg
+  name: Langfuse
+  repo_url: https://github.com/langfuse/langfuse
+  subcategory: Model/LLM Observability
+  unnamed_organization: true

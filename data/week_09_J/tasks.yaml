@@ -1,0 +1,97 @@
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/canonical-ltd
+  homepage_url: https://jaas.ai/
+  item: null
+  logo: juju.svg
+  name: Juju
+  repo_url: https://github.com/juju/juju
+  subcategory: Automation & Configuration
+  twitter: https://twitter.com/ubuntu
+- category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/juicefs
+  homepage_url: https://juicefs.com/
+  item: null
+  logo: juicefs.svg
+  name: JuiceFS
+  repo_url: https://github.com/juicedata/juicefs
+  subcategory: Cloud Native Storage
+  twitter: https://twitter.com/JuicedataInc
+- category: App Definition and Development
+  homepage_url: https://jreleaser.org
+  item: null
+  logo: jreleaser.svg
+  name: JReleaser
+  repo_url: https://github.com/jreleaser/jreleaser
+  subcategory: Application Definition & Image Build
+  twitter: https://twitter.com/jreleaser
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf
+  homepage_url: https://jenkins.io/
+  item: null
+  logo: jenkins.svg
+  name: Jenkins
+  repo_url: https://github.com/jenkinsci/jenkins
+  subcategory: Continuous Integration & Delivery
+  twitter: https://twitter.com/jenkinsci
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf
+  homepage_url: https://jenkins-x.io/
+  item: null
+  logo: jenkins-x.svg
+  name: JenkinsX
+  repo_url: https://github.com/jenkins-x/jx
+  subcategory: Continuous Integration & Delivery
+  twitter: https://twitter.com/jenkinsxio
+- category: Platform
+  crunchbase: https://www.crunchbase.com/organization/jhipster
+  homepage_url: https://www.jhipster.tech/
+  item: null
+  logo: jhipster.svg
+  name: JHipster
+  repo_url: https://github.com/jhipster/generator-jhipster
+  subcategory: PaaS/Container Service
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2017-09-13'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#jaeger-logos
+    audits:
+    - date: '2019-05-04'
+      type: security
+      url: https://github.com/jaegertracing/security-audits/blob/master/SECURITY_AUDIT_2019_05_04.pdf
+      vendor: Cure53
+    blog_url: https://medium.com/jaegertracing/
+    chat_channel: '#jaeger'
+    clomonitor_name: jaeger
+    dev_stats_url: https://jaeger.devstats.cncf.io/
+    graduated: '2019-10-31'
+    incubating: '2017-09-13'
+    lfx_slug: jaeger
+    mailing_list_url: https://groups.google.com/forum/#!forum/jaeger-tracing
+    slack_url: https://slack.cncf.io/
+    stack_overflow_url: https://stackoverflow.com/questions/tagged/jaeger
+    summary_business_use_case: Monitoring and troubleshooting distributed workflows;
+      root cause localization; understanding service dependncies; latency and performance
+      optimization.
+    summary_integrations: OpenTelemetry, Prometheus, multiple [storage backends](https://www.jaegertracing.io/docs/latest/deployment/#span-storage-backends).
+    summary_personas: Developers, SREs, Platform Engineers, Network Engineers
+    summary_release_rate: monthly
+    summary_tags: monitoring, observability, tracing
+    summary_use_case: tracing-based observability for distributed systems
+  homepage_url: https://www.jaegertracing.io/
+  item: null
+  logo: jaeger.svg
+  name: Jaeger
+  project: graduated
+  repo_url: https://github.com/jaegertracing/jaeger
+  subcategory: Observability
+  twitter: https://twitter.com/JaegerTracing
+- category: Wasm
+  crunchbase: https://www.crunchbase.com/organization/bytecode-alliance
+  description: Scripting languages that support Wasm
+  homepage_url: https://github.com/bytecodealliance/javy
+  item: null
+  logo: bytecode_alliance.svg
+  name: Javy
+  repo_url: https://github.com/bytecodealliance/javy
+  subcategory: Languages

@@ -1,0 +1,789 @@
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/sidero-labs
+  description: Omni is a Kubernetes orchestrator for bare metal and edge environments.
+    It manages full OS and Kubernetes lifecycles with Talos Linux and remote management
+    with wireguard communication.
+  extra:
+    blog_url: https://siderolabs.com/blog/
+    documentation_url: https://omni.siderolabs.com
+    other_links:
+    - name: Bluesky
+      url: https://bsky.app/profile/siderolabs.com
+    slack_url: https://slack.dev.talos-systems.io/
+    summary_intro_url: https://youtu.be/0gPF0_fLins
+    youtube_url: https://www.youtube.com/@siderolabs
+  homepage_url: https://siderolabs.com/omni
+  item: null
+  logo: omni.svg
+  name: Omni
+  repo_url: https://github.com/siderolabs/omni
+  subcategory: Automation & Configuration
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/open-infrastructure-foundation
+  homepage_url: https://www.openstack.org/
+  item: null
+  logo: open-stack.svg
+  name: OpenStack
+  repo_url: https://github.com/openstack/openstack
+  subcategory: Automation & Configuration
+  url_for_bestpractices: https://github.com/openstack
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: OpenTofu is an open source infrastructure as code tool that enables
+    users to safely and predictably provision and manage cloud and on-prem infrastructure.
+    It's a community-driven fork of Terraform that maintains backward compatibility
+    while offering enhanced features, stability.
+  extra:
+    accepted: '2025-04-23'
+    lfx_slug: opentf
+  homepage_url: https://opentofu.org/
+  item: null
+  logo: opentofu.svg
+  name: OpenTofu
+  project: sandbox
+  repo_url: https://github.com/opentofu/opentofu
+  subcategory: Automation & Configuration
+  twitter: https://twitter.com/opentofuorg
+- allow_duplicate_repo: true
+  category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: An open platform that extending your native Kubernetes to edge.
+  extra:
+    accepted: '2020-09-08'
+    annual_review_date: '2023-06-02'
+    annual_review_url: https://github.com/cncf/toc/pull/1068
+    clomonitor_name: openyurt
+    dev_stats_url: https://openyurt.devstats.cncf.io/
+    incubating: '2025-01-10'
+    lfx_slug: openyurt
+  homepage_url: https://openyurt.io/
+  item: null
+  logo: openyurt.svg
+  name: OpenYurt
+  project: incubating
+  repo_url: https://github.com/openyurtio/openyurt
+  second_path:
+  - Wasm / Orchestration & Management
+  subcategory: Automation & Configuration
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/permit-io
+  description: Policy and data administration, distribution, and real-time updates
+    on top of Policy Agents (OPA, Cedar, ...)
+  extra:
+    slack_url: https://io.permit.io/opal-slack
+  homepage_url: https://www.opal.ac
+  item: null
+  logo: opal.svg
+  name: Open Policy Administration Layer (OPAL)
+  repo_url: https://github.com/permitio/opal
+  subcategory: Security & Compliance
+  twitter: https://twitter.com/opal_ac
+- additional_repos:
+  - repo_name: manifests
+    repo_url: https://github.com/oauth2-proxy/manifests
+  category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: A generic reverse proxy that provides authentication with Google, Azure,
+    OpenID Connect and many more identity providers.
+  extra:
+    accepted: '2025-10-02'
+    clomonitor_name: oauth2-proxy
+    dev_stats_url: https://oauth2-proxy.devstats.cncf.io/
+    lfx_slug: oauth2-proxy
+  homepage_url: https://oauth2-proxy.github.io/oauth2-proxy/
+  item: null
+  logo: oauth2-proxy.svg
+  name: OAuth2 Proxy
+  project: sandbox
+  project_org: https://github.com/oauth2-proxy
+  repo_url: https://github.com/oauth2-proxy/oauth2-proxy
+  subcategory: Security & Compliance
+- allow_duplicate_repo: true
+  category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2018-03-29'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#opa-logos
+    audits:
+    - date: '2018-08-30'
+      type: security
+      url: https://cure53.de/pentest-report_opa.pdf
+      vendor: Cure53
+    blog_url: https://blog.openpolicyagent.org/
+    clomonitor_name: opa
+    dev_stats_url: https://opa.devstats.cncf.io/
+    graduated: '2021-01-29'
+    incubating: '2019-04-02'
+    lfx_slug: openpolicyagent
+    slack_url: http://slack.openpolicyagent.org/
+  homepage_url: https://www.openpolicyagent.org/
+  item: null
+  logo: opa.svg
+  name: Open Policy Agent (OPA)
+  project: graduated
+  repo_url: https://github.com/open-policy-agent/opa
+  second_path:
+  - Serverless / Embedded Functions
+  subcategory: Security & Compliance
+  twitter: https://twitter.com/openpolicyagent
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: A docker-inspired CLI for building, tagging, pushing, pulling, and
+    signing OPA policies to and from OCI-compliant registries.
+  extra:
+    accepted: '2022-12-13'
+    artwork_url: https://github.com/opcr-io/artwork
+    clomonitor_name: opcr
+    dev_stats_url: https://opcr.devstats.cncf.io/
+    lfx_slug: opcr
+    slack_url: https://www.aserto.com/slack
+  homepage_url: https://openpolicycontainers.com
+  item: null
+  logo: open-policy-containers.svg
+  name: Open Policy Containers
+  project: sandbox
+  repo_url: https://github.com/opcr-io/policy
+  subcategory: Security & Compliance
+  twitter: https://twitter.com/openpolicyreg
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: OpenFGA is a high performance and flexible authorization/permission
+    system built for developers and inspired by Google Zanzibar
+  extra:
+    accepted: '2022-09-14'
+    artwork_url: https://github.com/openfga/community/tree/main/brand-assets
+    clomonitor_name: openfga
+    dev_stats_url: https://openfga.devstats.cncf.io/
+    incubating: '2025-10-28'
+    lfx_slug: openfga
+    slack_url: https://cloud-native.slack.com/messages/openfga
+    summary_business_use_case: Application authorization is often implemented differently
+      across a company's applications and hard-coded in application code, making it
+      challenging to evolve and comprehend. This difficulty leads to poorly implemented
+      authorization, a top security risk identified by OWASP. OpenFGA provides a flexible,
+      centralized, and scalable authorization system to address this issue.
+    summary_integrations: OpenTelemetry, Prometheus, Jaeger, Docker, Helm
+    summary_intro_url: https://github.com/openfga
+    summary_personas: Platform Engineers, Security Engineers, Developers, Architects
+    summary_release_rate: Twice per month
+    summary_tags: Security, Authorization, Scalability, Cloud-Native, Developers
+    summary_use_case: OpenFGA enables developers to implement highly performant and
+      flexible authorization for their applications. It incorporates Relationship-Based
+      Access Control (ReBAC) and Attribute-Based Access Control (ABAC) concepts with
+      a domain-specific language that simplifies crafting authorization and permission
+      solutions, scalable to any use case and scale
+  homepage_url: https://openfga.dev
+  item: null
+  logo: openfga.svg
+  name: OpenFGA
+  project: incubating
+  repo_url: https://github.com/openfga/openfga
+  subcategory: Security & Compliance
+  twitter: https://twitter.com/OpenFGA
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/red-hat
+  homepage_url: https://www.open-scap.org/
+  item: null
+  logo: openscap.svg
+  name: OpenSCAP
+  repo_url: https://github.com/OpenSCAP/openscap
+  subcategory: Security & Compliance
+  twitter: https://twitter.com/OpenSCAP
+- additional_repos:
+  - repo_url: https://github.com/oscal-compass/compliance-trestle-agile-authoring
+  - repo_url: https://github.com/oscal-compass/compliance-to-policy
+  - repo_url: https://github.com/oscal-compass/compliance-trestle-demos
+  category: Provisioning
+  description: The OSCAL COMPASS project is set of tools that enable the creation,
+    validation, and governance of documentation artifacts for compliance needs. It
+    leverages NIST's OSCAL (Open Security Controls Assessment Language) as a standard
+    data format for interchange between tools and people, and provides an opinionated
+    approach to OSCAL SDK and adoption by policy engines.
+  extra:
+    accepted: '2024-06-21'
+    blog_url: https://dzone.com/articles/compass-compliance-part-1
+    clomonitor_name: oscal-compass
+    github_discussions_url: https://github.com/oscal-compass/community/discussions
+    lfx_slug: trestlegrc
+    mailing_list_url: https://groups.google.com/g/oscal-compass
+    slack_url: https://cloud-native.slack.com/archives/C06F3PEPNBW
+    summary_personas: Regulators, Control providers, Control assessors, System owners,
+      Compliance officers, Security teams, Auditors, Operators, Administrators, DevSecOps
+    summary_tags: compliance, security, risk, oscal, catalog, profile, component definition,
+      system security plan, system assessment plan, automation, devsecops, vulnerability,
+      cloud, opensource, nist, fedramp
+    youtube_url: https://www.youtube.com/@OSCAL-Compass
+  homepage_url: https://github.com/oscal-compass/community
+  item: null
+  logo: oscal-compass-color-stacked.svg
+  name: OSCAL-COMPASS
+  project: sandbox
+  repo_url: https://github.com/oscal-compass/compliance-trestle
+  subcategory: Security & Compliance
+  url_for_bestpractices: https://pages.nist.gov/OSCAL/
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/ory
+  homepage_url: https://www.ory.sh/
+  item: null
+  logo: ory-hydra.svg
+  name: ORY Hydra
+  repo_url: https://github.com/ory/hydra
+  subcategory: Key Management
+- category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2024-10-10'
+    annual_review_date: '2021-07-06'
+    annual_review_url: https://github.com/cncf/toc/pull/685
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#openebs-logos
+    clomonitor_name: openebs
+    dev_stats_url: https://openebs.devstats.cncf.io/
+    lfx_slug: openebs
+    slack_url: https://cloud-native.slack.com/archives/CSL0PJ8GN
+    youtube_url: https://www.youtube.com/channel/UC3ywadaAUQ1FI4YsHZ8wa0g
+  homepage_url: https://www.openebs.io/
+  item: null
+  logo: openebs.svg
+  name: OpenEBS
+  project: sandbox
+  repo_url: https://github.com/openebs/openebs
+  subcategory: Cloud Native Storage
+  twitter: https://twitter.com/openebs
+- category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/openio
+  homepage_url: https://docs.openio.io/
+  item: null
+  logo: openio.svg
+  name: OpenIO
+  repo_url: https://github.com/open-io/oio-sds
+  subcategory: Cloud Native Storage
+- category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2021-07-13'
+    annual_review_date: '2022-10-14'
+    annual_review_url: https://github.com/cncf/toc/pull/943
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#oras-logos
+    blog_url: https://oras.land/blog/
+    clomonitor_name: oras
+    dev_stats_url: https://oras.devstats.cncf.io/
+    lfx_slug: oras
+    slack_url: https://cloud-native.slack.com/messages/oras
+  homepage_url: https://oras.land/
+  item: null
+  logo: oras.svg
+  name: ORAS
+  project: sandbox
+  repo_url: https://github.com/oras-project/oras
+  subcategory: Cloud Native Storage
+  twitter: https://twitter.com/orasproject
+- category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/open-vswitch
+  homepage_url: https://www.openvswitch.org/
+  item: null
+  logo: open-v-switch.svg
+  name: Open vSwitch
+  repo_url: https://github.com/openvswitch/ovs
+  subcategory: Cloud Native Network
+  twitter: https://twitter.com/lf_networking
+- category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2024-10-17'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#ovn-kubernetes-logos
+    clomonitor_name: ovn-kubernetes
+    dev_stats_url: https://ovn-kubernetes.devstats.cncf.io/
+    lfx_slug: ovn-kubernetes
+    mailing_list_url: https://groups.google.com/g/ovn-kubernetes
+    slack_url: https://cloud-native.slack.com/messages/C08452HR8V6/details/
+    summary_business_use_case: OVN-Kubernetes focuses strictly on enhancing networking
+      for the Kubernetes clusters and includes a wide variety of features that are
+      critical to enterprise and telco users.
+    summary_integration: Kubernetes, CNI
+    summary_intro_url: ''
+    summary_personas: Platform engineers, Network teams, SRE, DevOps Engineers
+    summary_release_rate: 2 major releases a year, plus minor and point releases for
+      bug fixes and security updates
+    summary_tags: CNI, Networking, Load Balancing, Network Security, Observability,
+      Multicloud
+    summary_use_case: OVN-Kubernetes is a robust Kubernetes Networking platform, built
+      from the ground up by leveraging Open vSwitch (OVS) as the data plane, and Open
+      Virtual Network (OVN) as the SDN Controller.
+  homepage_url: https://ovn-kubernetes.io/
+  item: null
+  logo: ovn-kubernetes.svg
+  name: OVN-Kubernetes
+  project: sandbox
+  repo_url: https://github.com/ovn-kubernetes/ovn-kubernetes
+  subcategory: Cloud Native Network
+- category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/lf-networking
+  homepage_url: https://opensdn.io
+  item: null
+  logo: opensdn.svg
+  name: OpenSDN
+  repo_url: https://github.com/OpenSDN-io
+  subcategory: Cloud Native Network
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2021-11-09'
+    annual_review_date: '2022-12-14'
+    annual_review_url: https://github.com/cncf/toc/pull/982
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#open-cluster-management-logos
+    clomonitor_name: ocm
+    lfx_slug: openclustermanagement
+    mailing_list_url: https://groups.google.com/g/open-cluster-management
+    slack_url: https://kubernetes.slack.com/archives/C01GE7YSUUF
+    youtube_url: https://www.youtube.com/channel/UC7xxOh2jBM5Jfwt3fsBzOZw
+  homepage_url: https://open-cluster-management.io/
+  item: null
+  logo: open-cluster-management.svg
+  name: Open Cluster Management
+  project: sandbox
+  repo_url: https://github.com/open-cluster-management-io/ocm
+  subcategory: Scheduling & Orchestration
+  twitter: https://twitter.com/ocm_io
+- allow_duplicate_repo: true
+  category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2022-04-26'
+    annual_review_date: '2023-06-23'
+    annual_review_url: https://github.com/cncf/toc/pull/1097
+    blog_url: https://openfunction.dev/blog/
+    chat_channel: '#openfunction'
+    clomonitor_name: openfunction
+    dev_stats_url: https://openfunction.devstats.cncf.io/
+    lfx_slug: openfunction
+    slack_url: https://slack.cncf.io/
+    summary_business_use_case: OpenFunction is a cloud-native open source FaaS (Function
+      as a Service) platform aiming to let users focus on their business logic without
+      having to  maintain the underlying runtime environment and infrastructure. Users
+      can generate event-driven and dynamically scaling Serverless workloads by simply  submitting
+      business-related source code in the form of functions. Users can also build
+      and run serverless applications as well.
+    summary_integration: Knative, Dapr, KEDA, Shipwright, Kubernetes Gateway API,
+      Contour
+    summary_intro_url: https://openfunction.dev/docs/
+    summary_personas: Developers, Platform engineers
+    summary_release_rate: 3 ~ 4 major releases per year
+    summary_tags: FaaS, Serverless, KEDA, Knative, Shipwright, Buildpacks, Distributed
+      Systems
+    summary_use_case: Users can use OpenFunction in several different ways including
+      building functions or applications only, running sync or async serverless functions
+      or applications, building and then running serverless functions or applications,
+      building and then running serverless wasm applications(In progress).  In all
+      use cases, users can utilize Dapr to communicate with various backend services
+      (BaaS).
+  homepage_url: https://openfunction.dev
+  item: null
+  logo: openfunction.svg
+  name: OpenFunction
+  project: sandbox
+  repo_url: https://github.com/OpenFunction/OpenFunction
+  second_path:
+  - Serverless / Installable Platforms
+  - Wasm / Embedded Functions
+  subcategory: Scheduling & Orchestration
+  twitter: https://twitter.com/openfunctiondev
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/opennebula
+  homepage_url: https://opennebula.io/
+  item: null
+  logo: open-nebula.svg
+  name: OpenNebula
+  repo_url: https://github.com/OpenNebula/one
+  subcategory: Scheduling & Orchestration
+- additional_repos:
+  - repo_name: oxia-client-java
+    repo_url: https://github.com/oxia-db/oxia-client-java
+  category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Oxia is a scalable metadata store and coordination system
+  extra:
+    accepted: '2025-10-06'
+    clomonitor_name: oxia
+    dev_stats_url: https://oxia.devstats.cncf.io/
+    lfx_slug: oxia
+  homepage_url: https://oxia-db.github.io
+  item: null
+  logo: oxia.svg
+  name: Oxia
+  project: sandbox
+  project_org: https://github.com/oxia-db
+  repo_url: https://github.com/oxia-db/oxia
+  subcategory: Coordination & Service Discovery
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/openresty
+  homepage_url: https://openresty.com/en/
+  item: null
+  logo: openresty.svg
+  name: OpenResty
+  repo_url: https://github.com/openresty/openresty
+  subcategory: Service Proxy
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
+  homepage_url: https://opensergo.io/
+  item: null
+  logo: opensergo.svg
+  name: OpenSergo
+  repo_url: https://github.com/opensergo/opensergo-specification
+  subcategory: Service Mesh
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/oceanbase
+  homepage_url: https://en.oceanbase.com/
+  item: null
+  logo: oceanbase.svg
+  name: OceanBase
+  repo_url: https://github.com/oceanbase/oceanbase
+  subcategory: Database
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/sap
+  homepage_url: https://orientdb.org/
+  item: null
+  logo: orient-db.svg
+  name: OrientDB
+  repo_url: https://github.com/orientechnologies/orientdb
+  subcategory: Database
+  twitter: https://twitter.com/OrientDB
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/linux-foundation
+  description: Cloud-oriented, simple, flexible, vendor-neutral and language-independent
+    standards for messaging
+  homepage_url: https://openmessaging.cloud
+  item: null
+  logo: openmessaging.svg
+  name: OpenMessaging
+  repo_url: https://github.com/openmessaging/openmessaging-java
+  subcategory: Streaming & Messaging
+  twitter: https://twitter.com/Open_Messaging
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/okteto
+  homepage_url: https://okteto.com/
+  item: null
+  logo: okteto.svg
+  name: Okteto
+  repo_url: https://github.com/okteto/okteto
+  subcategory: Application Definition & Image Build
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/microsoft
+  homepage_url: https://oam.dev/
+  item: null
+  logo: oam.svg
+  name: Open Application Model
+  repo_url: https://github.com/oam-dev/spec
+  subcategory: Application Definition & Image Build
+  twitter: https://twitter.com/oam_dev
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/cloud-foundry
+  homepage_url: https://www.openservicebrokerapi.org/
+  item: null
+  logo: openservicebrokerapi.svg
+  name: Open Service Broker API
+  repo_url: https://github.com/openservicebrokerapi/servicebroker
+  subcategory: Application Definition & Image Build
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/the-open-api-initiative
+  homepage_url: https://www.openapis.org/
+  item: null
+  logo: openapi.svg
+  name: OpenAPI
+  repo_url: https://github.com/OAI/OpenAPI-Specification
+  subcategory: Application Definition & Image Build
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/clace
+  description: GitOps based deployment platform similar to Google Cloud Run and AWS
+    App Runner. Easily deploy internal tools across a team.
+  homepage_url: https://openrun.dev
+  item: null
+  logo: openrun.svg
+  name: OpenRun
+  repo_url: https://github.com/openrundev/openrun
+  subcategory: Application Definition & Image Build
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2020-07-09'
+    clomonitor_name: operator-framework
+    dev_stats_url: https://operatorframework.devstats.cncf.io/
+    incubating: '2020-07-09'
+    lfx_slug: operator-sdk
+    youtube_url: https://www.youtube.com/channel/UCxRfXpCVxnotoSGxEpB1hwA
+  homepage_url: https://operatorframework.io/
+  item: null
+  logo: operator-framework.svg
+  name: Operator Framework
+  project: incubating
+  repo_url: https://github.com/operator-framework/operator-sdk
+  subcategory: Application Definition & Image Build
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2021-01-26'
+    clomonitor_name: open-gitops
+    lfx_slug: gitops-wg
+  homepage_url: https://opengitops.dev/
+  item: null
+  logo: opengitops.svg
+  name: OpenGitOps
+  project: sandbox
+  repo_url: https://github.com/open-gitops/project
+  subcategory: Continuous Integration & Delivery
+  twitter: https://twitter.com/opengitops
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2020-11-10'
+    annual_review_date: '2021-12-14'
+    annual_review_url: https://github.com/cncf/toc/pull/767
+    clomonitor_name: open-kruise
+    incubating: '2023-03-02'
+    lfx_slug: openkruise
+  homepage_url: https://openkruise.io/
+  item: null
+  logo: OpenKruise.svg
+  name: OpenKruise
+  project: incubating
+  repo_url: https://github.com/openkruise/kruise
+  subcategory: Continuous Integration & Delivery
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf
+  homepage_url: https://ortelius.io/
+  item: null
+  logo: ortelius.svg
+  name: Ortelius
+  repo_url: https://github.com/ortelius/ortelius
+  subcategory: Continuous Integration & Delivery
+  twitter: https://twitter.com/OrteliusOs
+- category: Platform
+  crunchbase: https://www.crunchbase.com/organization/oracle
+  description: Oracle Cloud Native Environment is a fully integrated suite for the
+    development and management of cloud-native applications that uses Kubernetes to
+    orchestrate and schedule containers.
+  homepage_url: https://www.oracle.com/linux/cloud-native-environment/
+  item: null
+  logo: oracle.svg
+  name: Oracle Cloud Native Environment
+  repo_url: https://github.com/oracle-cne/ocne
+  subcategory: Certified Kubernetes - Distribution
+  twitter: https://twitter.com/oraclelinux
+- category: Serverless
+  crunchbase: https://www.crunchbase.com/organization/openfaas
+  homepage_url: https://www.openfaas.com
+  item: null
+  logo: openfaas.svg
+  name: OpenFaaS
+  repo_url: https://github.com/openfaas/faas
+  subcategory: Installable Platform
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Standardizing Feature Flagging for Everyone
+  extra:
+    accepted: '2022-06-17'
+    blog_url: https://docs.openfeature.dev/blog
+    clomonitor_name: openfeature
+    dev_stats_url: https://openfeature.devstats.cncf.io/
+    incubating: '2023-11-21'
+    lfx_slug: openfeature
+    slack_url: https://cloud-native.slack.com/messages/openfeature
+    specification: true
+    youtube_url: https://www.youtube.com/channel/UCXSFt-dT2HORGXz1-ksxtxw
+  homepage_url: https://openfeature.dev/
+  item: null
+  logo: openfeature.svg
+  name: OpenFeature
+  project: incubating
+  repo_url: https://github.com/open-feature/spec
+  subcategory: Feature Flagging
+  twitter: https://twitter.com/openfeature
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: OpenCost provides visibility into current and historical Kubernetes
+    spend and resource allocation.
+  extra:
+    accepted: '2022-06-17'
+    chat_channel: '#opencost'
+    clomonitor_name: opencost
+    incubating: '2024-10-25'
+    lfx_slug: opencost
+    slack_url: https://slack.cncf.io/
+  homepage_url: https://www.opencost.io/
+  item: null
+  logo: opencost.svg
+  name: OpenCost
+  project: incubating
+  repo_url: https://github.com/opencost/opencost
+  subcategory: Continuous Optimization
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/keyval
+  description: Enterprise-Grade OpenTelemetry for superior application performance
+    monitoring.
+  extra:
+    slack_url: https://join.slack.com/t/odigos/shared_invite/zt-24u91yknm-0fLXu6qnqYfNHS_GSUgTJw
+    summary_tags: monitoring, observability, tracing, metrics, logs
+  homepage_url: https://odigos.io
+  item: null
+  logo: odigos.svg
+  name: Odigos
+  repo_url: https://github.com/odigos-io/odigos
+  subcategory: Observability
+  twitter: https://x.com/odigosio
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/openlit
+  extra:
+    slack_url: https://join.slack.com/t/openlit/shared_invite/zt-2etnfttwg-TjP_7BZXfYg84oAukY8QRQ
+  homepage_url: https://openlit.io/
+  item: null
+  logo: openlit.svg
+  name: OpenLIT
+  repo_url: https://github.com/openlit/openlit
+  subcategory: Observability
+  twitter: https://x.com/openlit_io
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/traceloop
+  homepage_url: https://openllmetry.com/
+  item: null
+  logo: openllmetry.svg
+  name: OpenLLMetry
+  repo_url: https://github.com/traceloop/openllmetry
+  subcategory: Observability
+- branch: next
+  category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/zincsearch
+  homepage_url: http://openobserve.ai/
+  item: null
+  logo: openobserve.svg
+  name: OpenObserve
+  repo_url: https://github.com/openobserve/openobserve
+  subcategory: Observability
+  twitter: https://twitter.com/OpenObserve
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/linux-foundation
+  description: OpenSearch is a community-driven, Apache 2.0-licensed open source search
+    and analytics suite that makes it easy to ingest, search, visualize, and analyze
+    data.
+  extra:
+    blog_url: https://opensearch.org/blog/
+    youtube_url: https://www.youtube.com/c/OpenSearchProject
+  homepage_url: https://opensearch.org
+  item: null
+  logo: opensearch.svg
+  name: OpenSearch
+  open_source: true
+  repo_url: https://github.com/opensearch-project/opensearch
+  subcategory: Observability
+  twitter: https://twitter.com/opensearchproj
+- branch: next
+  category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/open-tsbd
+  homepage_url: http://opentsdb.net/
+  item: null
+  logo: opentsdb.svg
+  name: OpenTSDB
+  repo_url: https://github.com/OpenTSDB/opentsdb
+  subcategory: Observability
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2019-05-07'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#opentelemetry-logos
+    chat_channel: '#opentelemetry'
+    clomonitor_name: open-telemetry
+    dev_stats_url: https://opentelemetry.devstats.cncf.io/
+    gitter_url: https://gitter.im/open-telemetry/community
+    incubating: '2021-08-26'
+    lfx_slug: opentelemetry
+    slack_url: https://cloud-native.slack.com/messages/opentelemetry
+    specification: true
+    summary_business_use_case: OpenTelemetry makes performance telemetry for observability
+      a built-in feature of cloud-native systems. It provides a standard set of APIs,
+      SDKs, data models, and tooling to create and capture this telemetry data, then
+      export it to a variety of open source or commercial analysis backends.
+    summary_integrations: Prometheus, Jaeger, [and many more.](https://opentelemetry.io/ecosystem/)
+    summary_intro_url: https://opentelemetry.io/ecosystem/demo/
+    summary_personas: Developers, SREs, Platform Engineers, DevOps
+    summary_release_rate: monthly
+    summary_tags: monitoring, observability, tracing, metrics, logs
+    summary_use_case: Enabling built-in observability for cloud-native systems.
+  homepage_url: https://opentelemetry.io/
+  item: null
+  logo: open-telemetry.svg
+  name: OpenTelemetry
+  project: incubating
+  repo_url: https://github.com/open-telemetry/community
+  subcategory: Observability
+  twitter: https://twitter.com/opentelemetry
+- category: Wasm
+  homepage_url: https://opencv.org/
+  item: null
+  logo: opencv.svg
+  name: OpenCV
+  repo_url: https://github.com/opencv/opencv
+  subcategory: AI/Machine Learning
+  unnamed_organization: true
+- allow_duplicate_repo: true
+  category: Wasm
+  crunchbase: https://www.crunchbase.com/organization/huawei
+  homepage_url: https://opengauss.org/en/
+  item: null
+  logo: opengauss.svg
+  name: OpenGauss
+  repo_url: https://github.com/opengauss-mirror/openGauss-server
+  subcategory: Embedded Functions
+- category: Wasm
+  crunchbase: https://www.crunchbase.com/organization/dylibso
+  homepage_url: https://dev.dylib.so/docs/observe/overview
+  item: null
+  logo: observe.svg
+  name: Observe SDK
+  repo_url: https://github.com/dylibso/observe-sdk
+  subcategory: Debugging & Observability
+- category: CNAI
+  description: Open-source observability for your LLM application, based on OpenTelemetry.
+  homepage_url: https://github.com/traceloop/openllmetry
+  item: null
+  logo: ./open-ll-metry.svg
+  name: OpenLLMetry
+  repo_url: https://github.com/traceloop/openllmetry
+  subcategory: Model/LLM Observability
+  unnamed_organization: true
+- category: CNAI
+  description: OpenTelemetry-native LLM and GenAI Application Observability
+  homepage_url: https://github.com/openlit/openlit
+  item: null
+  logo: ./openlit.svg
+  name: OpenLIT
+  repo_url: https://github.com/openlit/openlit
+  subcategory: Model/LLM Observability
+  unnamed_organization: true
+- category: CNAI
+  description: A hyperparameter optimization framework
+  homepage_url: https://optuna.org/
+  item: null
+  logo: ./optuna.svg
+  name: Optuna
+  repo_url: https://github.com/optuna/optuna
+  subcategory: AutoML
+  unnamed_organization: true
+- category: CNAI
+  description: An admission controller that validates requests to create and update
+    Pods on Kubernetes clusters, using the Open Policy Agent (OPA).
+  homepage_url: https://www.openpolicyagent.org/
+  item: null
+  logo: ./opa-icon-color.svg
+  name: OPA/Gatekeeper
+  repo_url: https://github.com/open-policy-agent/gatekeeper
+  subcategory: Governance, Policy & Security
+  unnamed_organization: true
+- category: CNAI
+  description: OPEA is an ecosystem orchestration framework to integrate performant
+    GenAI technologies & workflows leading to quicker GenAI adoption and business
+    value.
+  homepage_url: https://opea.dev/
+  item: null
+  logo: ./opea-stacked-color.svg
+  name: OPEA
+  repo_url: https://github.com/opea-project
+  subcategory: Open Enterprise AI Blueprints
+  unnamed_organization: true

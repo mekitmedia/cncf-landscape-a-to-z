@@ -1,0 +1,1054 @@
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/vmware
+  homepage_url: https://saltproject.io
+  item: null
+  logo: salt-project.svg
+  name: Salt Project
+  repo_url: https://github.com/saltstack/salt
+  subcategory: Automation & Configuration
+  twitter: https://twitter.com/Salt_Project_OS
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/nokia
+  description: SDC (schema Driven Configuration) exposes any schema based configuration
+    as Kubernetes resources.
+  extra:
+    summary_integrations: Kubernetes
+    summary_personas: Network Engineers, SREs
+    summary_tags: GitOps, Network Management, Automation, Netconf, YANG
+    summary_use_case: The paradigm of schema-driven API approaches is gaining increasing
+      popularity as it facilitates programmatic interaction with systems by both machines
+      and humans. While OpenAPI schema stands out as a widely embraced system, there
+      are other notable schema approaches like YANG, among others. This project endeavors
+      to empower users with a declarative and idempotent method for seamless interaction
+      with API systems, providing a robust foundation for effective system configuration.
+  homepage_url: https://docs.sdcio.dev/
+  item: null
+  logo: sdc.svg
+  name: SDC
+  repo_url: https://github.com/sdcio/docs
+  subcategory: Automation & Configuration
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/edgenesis
+  description: Shifu is the next generation cloud native IoT development framework
+    that could 10X your IoT software development
+  homepage_url: https://shifu.dev/
+  item: null
+  logo: shifu.svg
+  name: Shifu
+  repo_url: https://github.com/edgenesis/shifu
+  subcategory: Automation & Configuration
+  twitter: https://twitter.com/ShifuFramework
+- category: Provisioning
+  description: Stateless cluster local OCI registry mirror. Spegel enables each node
+    in a Kubernetes cluster to act as a local registry mirror, allowing nodes to share
+    images between themselves. Any image already pulled by a node will be available
+    for any other node in the cluster to pull.
+  homepage_url: https://spegel.dev/
+  item: null
+  logo: spegel.svg
+  name: Spegel
+  repo_url: https://github.com/spegel-org/spegel
+  subcategory: Container Registry
+- additional_repos:
+  - repo_url: https://github.com/Keyfactor/signserver-community-helm
+  - repo_url: https://github.com/Keyfactor/ansible-ejbca-signserver-playbooks
+  - repo_url: https://github.com/Keyfactor/signserver-signing-action
+  category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/certified-security-solutions
+  description: Sign code, containers, and attestations and create timestamps with
+    the open-source, x509 certificate-based signing software SignServer.
+  extra:
+    docker_url: https://hub.docker.com/r/keyfactor/signserver-ce
+    documentation_url: https://docs.keyfactor.com/signserver
+    github_discussions_url: https://github.com/Keyfactor/signserver-ce/discussions
+    youtube_url: https://www.youtube.com/@KeyfactorCommunity/
+  homepage_url: https://www.signserver.org/
+  item: null
+  logo: signserver-community.svg
+  name: SignServer Community
+  repo_url: https://github.com/Keyfactor/signserver-ce
+  subcategory: Security & Compliance
+  twitter: https://x.com/KeyfactorComm
+  url_for_bestpractices: https://www.bestpractices.dev/en/projects/727
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Inspect, Optimize and Debug Your Containers
+  extra:
+    accepted: '2023-05-17'
+    chat_channel: '#slim-toolkit'
+    clomonitor_name: slimtoolkit
+    dev_stats_url: https://slimtoolkit.devstats.cncf.io/
+    lfx_slug: slimtoolkit
+    slack_url: https://cloud-native.slack.com/
+  homepage_url: https://slimtoolkit.org/
+  item: null
+  logo: slimtoolkit.svg
+  name: SlimToolkit
+  project: sandbox
+  repo_url: https://github.com/slimtoolkit/slim
+  subcategory: Security & Compliance
+  twitter: https://twitter.com/slimtoolkit
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/sonatype
+  description: Sonatype is the developer-friendly full-spectrum software supply, chain
+    management platform helps organizations and software developers. One of the Sonatype
+    products includes the open source software repository manager Sonatype Nexus Repository.
+  extra:
+    blog_url: https://www.sonatype.com/blog
+    documentation_url: https://help.sonatype.com/en/sonatype-nexus-repository.html
+    linkedin_url: https://www.linkedin.com/company/sonatype/
+    youtube_url: https://www.youtube.com/@Sonatypeinc
+  homepage_url: https://www.sonatype.com
+  item: null
+  logo: sonatype.svg
+  name: Sonatype
+  repo_url: https://github.com/sonatype/nexus-public
+  subcategory: Security & Compliance
+  twitter: https://twitter.com/sonatype
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/vmware
+  homepage_url: https://sonobuoy.io
+  item: null
+  logo: project-sonobuoy.svg
+  name: Sonobuoy
+  repo_url: https://github.com/vmware-tanzu/sonobuoy
+  subcategory: Security & Compliance
+  twitter: https://twitter.com/projectsonobuoy
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: sops is an editor of encrypted files that supports YAML, JSON, ENV,
+    INI and BINARY formats and encrypts with AWS KMS, GCP KMS, Azure Key Vault, age,
+    and PGP.
+  extra:
+    accepted: '2023-05-17'
+    chat_channel: '#sops'
+    clomonitor_name: sops
+    dev_stats_url: https://sops.devstats.cncf.io/
+    lfx_slug: sops
+    slack_url: https://cloud-native.slack.com
+  homepage_url: https://github.com/getsops
+  item: null
+  logo: sops.svg
+  name: SOPS
+  project: sandbox
+  repo_url: https://github.com/getsops/sops
+  subcategory: Security & Compliance
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/stackrox
+  description: StackRox is a Kubernetes-native security platform for cloud-native
+    applications, containers, serverless, and Kubernetes.
+  extra:
+    slack_url: https://cloud-native.slack.com/archives/C01TDE3GK0E
+  homepage_url: https://www.stackrox.io/
+  item: null
+  logo: stackrox.svg
+  name: StackRox
+  repo_url: https://github.com/stackrox/stackrox
+  subcategory: Security & Compliance
+  twitter: https://twitter.com/StackRox
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2018-03-29'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#spiffe-logos
+    blog_url: https://blog.spiffe.io/
+    clomonitor_name: spiffe
+    dev_stats_url: https://spiffe.devstats.cncf.io/
+    graduated: '2022-08-23'
+    incubating: '2020-06-22'
+    lfx_slug: spiffe
+    mailing_list_url: https://groups.google.com/a/spiffe.io/forum/#!forum/announce
+    slack_url: https://slack.spiffe.io/
+    summary_business_use_case: 'In today''s business environment, rapidly delivering
+      innovative customer experiences through differentiated applications and services
+      is necessary for competitive advantage. As a result, organizations witness a
+      change in how applications and services are being architected, built, and deployed.
+      New technologies such as cloud and containers help organizations release faster,
+      at scale. Services need to be built at high velocity and deployed on a vast
+      plethora of platforms. As development accelerates, these systems are becoming
+      increasingly interdependent and interconnected to deliver a consistent customer
+      experience.
+
+
+      Organizations may be inhibited in achieving high velocity and gaining market
+      share or mission assurance for such major reasons as compliance, the pool of
+      expertise, and interoperability challenges between teams/organizations and within
+      existing solutions.
+
+
+      For business leaders focused on improving business expediency and returns, SPIFFE
+      can significantly reduce costs associated with the overhead of managing and
+      issuing cryptographic identity documents (e.g. X.509 certificates), and accelerate
+      development and deployment by removing the need for developers to understand
+      the identity and authentication technologies required to secure service-to-service
+      communication.
+
+
+      Technology integration as a result of organizational convergence can be a challenge
+      when different technology stacks must come together and interoperate. Aligning
+      on a common, industry-accepted standard for system-to-system communication with
+      identity and authentication, simplifies the technical aspects of full interoperability
+      and integration across multiple stacks.
+
+
+      SPIFFE brings a shared understanding of what constitutes software identity.
+      By further leveraging SPIFFE Federation, components in disparate systems in
+      different organizations or teams can establish trust to communicate securely
+      without the added overhead of constructs such as VPN tunnels, one-o certificates,
+      or shared credentials for use between such systems.
+
+      '
+    summary_integrations: App Mesh Controller, Athenz, Cert-Manager, Consul, Dapr,
+      Docker, Emissary, Envoy, Ghostunnel, gRPC, Hamlet, Istio, Knox, Kubernetes,
+      NGINX, Parsec, Sigstore, Tekton, Tornjak
+    summary_intro_url: https://www.youtube.com/watch?v=Q2SiGeebRKY
+    summary_personas: Platform Engineers,Security Engineers,Developers,Architects
+    summary_tags: Security,Identity,Credentials,Certificate,Rotation,Standard,Attestation,Authentication
+    summary_use_case: 'The Secure Production Identity Framework For Everyone (SPIFFE)
+      Project defines a framework and set of standards for identifying and securing
+      communications between application services. At its core, SPIFFE is:
+
+
+      A standard defining how services identify themselves to each other. These are
+      called SPIFFE IDs and are implemented as Uniform Resource Identifiers (URIs).
+
+
+      A standard for encoding SPIFFE IDs in a cryptographically-verifiable document
+      called a SPIFFE Verifiable Identity Document or SVIDs.
+
+
+      An API specification for issuing and/or retrieving SVIDs. This is the Workload
+      API.
+
+
+      The SPIFFE Project has a reference implementation, the SPIRE (the SPIFFE Runtime
+      Environment), that in addition to the above, it:
+
+
+      - Performs node and workload attestation.
+
+
+      - Implements a signing framework for securely issuing and renewing SVIDs.
+
+
+      - Provides an API for registering nodes and workloads, along with their designated
+      SPIFFE IDs.
+
+
+      - Provides and manages the rotation of keys and certs for mutual authentication
+      and encryption between workloads.
+
+
+      - Simplifies access from identified services to secret stores, databases, services
+      meshes and cloud provider services.
+
+
+      - Interoperability and federation to SPIFFE compatible systems across heterogeneous
+      environments and administrative trust boundaries
+
+
+      The SPIFFE Workload API can attest running software systems and issue SPIFFE
+      IDs and SVIDs to them. This in turn allows two workloads to establish trust
+      between each other, for example by establishing an mTLS connection or by signing
+      and verifying a JWT token. Use of SPIFFE can also enable workloads to securely
+      authenticate to a secret store, a database, or a cloud provider service.
+
+      '
+  homepage_url: https://spiffe.io/
+  item: null
+  logo: spiffe.svg
+  name: SPIFFE
+  project: graduated
+  repo_url: https://github.com/spiffe/spiffe
+  subcategory: Key Management
+  twitter: https://twitter.com/spiffeio
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2018-03-29'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#spire-logos
+    clomonitor_name: spire
+    dev_stats_url: https://spire.devstats.cncf.io/
+    graduated: '2022-08-22'
+    incubating: '2020-06-22'
+    lfx_slug: spire
+    slack_url: https://slack.spiffe.io/
+    summary_integration: SPIFFE, Kubernetes, Envoy, Istio, AWS, GCP, Azure, Vault,
+      Cilium, CertManager
+    summary_intro_url: https://www.youtube.com/watch?v=Q2SiGeebRKY
+    summary_personas: Platform Engineers,Security Engineers,Developers,Architects
+    summary_release_rate: Monthly
+    summary_tags: Security,Identity,Credentials,Certificate,Rotation,Standard,Attestation,Authentication,Federation
+    summary_use_case: SPIRE implements the SPIFFE standards to provide cryptographic
+      service identity (e.g. X.509 certificates and JWTs) and identity federation
+      to workloads, independent of where those workloads are running. SPIRE provides
+      secure attestation of both the workload itself and the environment it is running
+      within and uses that information against custom defined policy to determine
+      the identity of the workload and issue the appropriate credentials
+  homepage_url: https://spiffe.io/spire/
+  item: null
+  logo: spire.svg
+  name: SPIRE
+  project: graduated
+  repo_url: https://github.com/spiffe/spire
+  subcategory: Key Management
+  twitter: https://twitter.com/spiffeio
+- category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/opensds
+  homepage_url: https://sodafoundation.io/wp-content/uploads/2021/03/cn.png
+  item: null
+  logo: soda-foundation.svg
+  name: Soda Foundation
+  repo_url: https://github.com/sodafoundation/api
+  subcategory: Cloud Native Storage
+- category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/appscode
+  homepage_url: https://stash.run
+  item: null
+  logo: stash-by-apps-code.svg
+  name: Stash by AppsCode
+  open_source: false
+  repo_url: https://github.com/stashed/stash
+  subcategory: Cloud Native Storage
+  twitter: https://twitter.com/kubestash
+- category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/open-infrastructure-foundation
+  homepage_url: https://docs.openstack.org/swift/latest/
+  item: null
+  logo: openstack-swift.svg
+  name: Swift
+  repo_url: https://github.com/openstack/swift
+  subcategory: Cloud Native Storage
+- category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/sylabs
+  homepage_url: https://sylabs.io/
+  item: null
+  logo: singularity.svg
+  name: Singularity
+  repo_url: https://github.com/apptainer/singularity
+  subcategory: Container Runtime
+  twitter: https://twitter.com/SingularityApp
+- category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/mnx-solutions
+  homepage_url: https://www.TritonDataCenter.com/smartos
+  item: null
+  logo: smartos.svg
+  name: SmartOS
+  repo_url: https://github.com/TritonDataCenter/smartos-live
+  subcategory: Container Runtime
+- category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/%E5%BC%80%E6%94%BE%E5%8E%9F%E5%AD%90%E5%BC%80%E6%BA%90%E5%9F%BA%E9%87%91%E4%BC%9A
+  homepage_url: https://gitee.com/openeuler/stratovirt
+  item: null
+  logo: StratoVirt.svg
+  name: StratoVirt
+  repo_url: https://github.com/openeuler-mirror/stratovirt
+  subcategory: Container Runtime
+- category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/nestybox
+  homepage_url: https://github.com/nestybox/sysbox
+  item: null
+  logo: sysbox.svg
+  name: Sysbox
+  repo_url: https://github.com/nestybox/sysbox
+  subcategory: Container Runtime
+- category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Spiderpool is the underlay and RDMA network solution of the Kubernetes,
+    for bare metal, VM and public cloud
+  extra:
+    accepted: '2023-12-19'
+    artwork_url: https://github.com/cncf/artwork/tree/master/projects/spiderpool
+    clomonitor_name: spiderpool
+    dev_stats_url: https://spiderpool.devstats.cncf.io/
+    lfx_slug: spiderpool
+    slack_url: https://cloud-native.slack.com/messages/spiderpool
+  homepage_url: https://spidernet-io.github.io/spiderpool/
+  item: null
+  logo: spiderpool.svg
+  name: Spiderpool
+  project: sandbox
+  repo_url: https://github.com/spidernet-io/spiderpool
+  subcategory: Cloud Native Network
+  twitter: https://twitter.com/daocloud_io
+- category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Submariner enables direct networking between Pods and Services in different
+    Kubernetes clusters, either on-premises or in the cloud.
+  extra:
+    accepted: '2021-04-28'
+    annual_review_date: '2023-07-11'
+    annual_review_url: https://github.com/cncf/toc/pull/1115
+    clomonitor_name: submariner
+    lfx_slug: submariner
+  homepage_url: https://submariner.io
+  item: null
+  logo: submariner.svg
+  name: Submariner
+  project: sandbox
+  repo_url: https://github.com/submariner-io/submariner
+  subcategory: Cloud Native Network
+  twitter: https://twitter.com/submarinerio
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/schedmd-llc
+  description: Slurm is an open source, fault-tolerant, and highly scalable cluster
+    management and job scheduling system for large and small Linux clusters.
+  homepage_url: https://slurm.schedmd.com/
+  item: null
+  logo: slurm.svg
+  name: Slurm
+  repo_url: https://github.com/SchedMD/slurm
+  subcategory: Scheduling & Orchestration
+  twitter: https://twitter.com/schedmd
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2022-09-14'
+    clomonitor_name: serverless-devs
+    lfx_slug: serverlessdevs
+  homepage_url: https://www.serverless-devs.com/
+  item: null
+  logo: serverless-devs.svg
+  name: Serverless Devs
+  project: sandbox
+  repo_url: https://github.com/serverless-devs/serverless-devs
+  second_path:
+  - Serverless / Tools
+  subcategory: Scheduling & Orchestration
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/stackstorm
+  homepage_url: https://stackstorm.com/
+  item: null
+  logo: stackstorm.svg
+  name: StackStorm
+  repo_url: https://github.com/stackstorm/st2
+  subcategory: Scheduling & Orchestration
+  twitter: https://twitter.com/StackStorm
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/ant-financial
+  homepage_url: https://www.sofastack.tech/en/
+  item: null
+  logo: sofastack-sofa-rpc.svg
+  name: SOFARPC
+  repo_url: https://github.com/sofastack/sofa-rpc
+  subcategory: Remote Procedure Call
+  twitter: https://twitter.com/sofastack_io
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/sogou
+  description: High performance, low latency, lightweight enterprise-level RPC system,
+    which supports Baidu bRPC, Tencent tRPC, thrift protocols.
+  homepage_url: https://github.com/sogou/srpc
+  item: null
+  logo: srpc.svg
+  name: SRPC
+  repo_url: https://github.com/sogou/srpc
+  subcategory: Remote Procedure Call
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
+  homepage_url: https://sentinelguard.io/en-us/
+  item: null
+  logo: sentinel.svg
+  name: Sentinel
+  repo_url: https://github.com/alibaba/Sentinel
+  subcategory: Service Proxy
+  twitter: https://twitter.com/AlibabaSentinel
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/zalando
+  homepage_url: https://opensource.zalando.com/skipper/
+  item: null
+  logo: skipper.svg
+  name: Skipper
+  repo_url: https://github.com/zalando/skipper
+  subcategory: Service Proxy
+  twitter: https://twitter.com/ZalandoTech
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/l7mp-technologies
+  homepage_url: https://l7mp.io
+  item: null
+  logo: stunner.svg
+  name: STUNner
+  repo_url: https://github.com/l7mp/stunner
+  subcategory: Service Proxy
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Sermant a proxyless service mesh solution based on Javaagent.
+  extra:
+    accepted: '2024-10-09'
+    clomonitor_name: sermant
+    lfx_slug: sermant
+  homepage_url: https://sermant.io/
+  item: null
+  logo: sermant.svg
+  name: Sermant
+  open_source: true
+  project: sandbox
+  repo_url: https://github.com/sermant-io/Sermant
+  subcategory: Service Mesh
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/netease-com
+  homepage_url: https://github.com/slime-io
+  item: null
+  logo: Slime.svg
+  name: Slime
+  repo_url: https://github.com/slime-io/slime
+  subcategory: Service Mesh
+  twitter: https://twitter.com/NetEase_Global
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/scalar
+  homepage_url: https://scalar-labs.com/
+  item: null
+  logo: scalardb.svg
+  name: ScalarDB
+  repo_url: https://github.com/scalar-labs/scalardb
+  subcategory: Database
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2020-11-10'
+    annual_review_date: '2021-12-22'
+    annual_review_url: https://github.com/cncf/toc/pull/771
+    artwork_url: https://github.com/cncf/artwork/tree/master/projects/schemahero
+    clomonitor_name: schemahero
+    dev_stats_url: https://schemahero.devstats.cncf.io/
+    lfx_slug: schemahero
+    slack_url: https://kubernetes.slack.com/messages/schemahero
+  homepage_url: https://schemahero.io
+  item: null
+  logo: schemahero.svg
+  name: SchemaHero
+  project: sandbox
+  repo_url: https://github.com/schemahero/schemahero
+  subcategory: Database
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/scylladb
+  homepage_url: https://www.scylladb.com/
+  item: null
+  logo: scylla.svg
+  name: Scylla
+  repo_url: https://github.com/scylladb/scylladb
+  subcategory: Database
+  twitter: https://twitter.com/ScyllaDB
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/ant-financial
+  homepage_url: https://seata.apache.org
+  item: null
+  logo: seata.svg
+  name: Seata
+  repo_url: https://github.com/apache/incubator-seata
+  subcategory: Database
+  twitter: https://twitter.com/seataio
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/apache
+  homepage_url: https://shardingsphere.apache.org/
+  item: null
+  logo: shardingsphere.svg
+  name: ShardingSphere
+  repo_url: https://github.com/apache/shardingsphere
+  subcategory: Database
+  twitter: https://twitter.com/ShardingSphere
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/authzed
+  description: 'SpiceDB is an open source database optimized for storing and querying
+    authorization data. SpiceDB sets the standard for scalable authorization by remaining
+    true to the design of the system powering permissions at Google: Zanzibar.
+
+    '
+  extra:
+    blog_url: https://authzed.com/blog
+    slack_url: https://discord.gg/spicedb
+    stack_overflow_url: https://stackoverflow.com/questions/tagged/spicedb
+    youtube_url: https://youtube.com/@authzed
+  homepage_url: https://authzed.com/spicedb
+  item: null
+  logo: spicedb.svg
+  name: SpiceDB
+  repo_url: https://github.com/authzed/spicedb
+  subcategory: Database
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/linux-foundation
+  description: StarRocks is a next-gen sub-second MPP database for full analytics
+    scenarios, including multi-dimensional analytics, real-time analytics and ad-hoc
+    query.
+  extra:
+    blog_url: https://www.starrocks.io/blog
+    slack_url: https://join.slack.com/t/starrocks/shared_invite/zt-z5zxqr0k-U5lrTVlgypRIV8RbnCIAzg
+    youtube_url: https://www.youtube.com/channel/UC38wR-ogamk4naaWNQ45y7Q
+  homepage_url: https://starrocks.io
+  item: null
+  logo: starrocks.svg
+  name: StarRocks
+  repo_url: https://github.com/StarRocks/starrocks
+  subcategory: Database
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/sorint-lab
+  description: Cloud Native PostgreSQL High Availability
+  homepage_url: https://sorintoss.io/projects/
+  item: null
+  logo: stolon.svg
+  name: Stolon
+  repo_url: https://github.com/sorintlab/stolon
+  subcategory: Database
+  twitter: https://twitter.com/sorintlab
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/supabase
+  description: an open source Firebase alternative
+  homepage_url: https://supabase.com/
+  item: null
+  logo: supabase-logo.svg
+  name: Supabase
+  repo_url: https://github.com/supabase/supabase
+  subcategory: Database
+  twitter: https://x.com/supabase
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/apache
+  homepage_url: https://seatunnel.apache.org/
+  item: null
+  logo: seatunnel.svg
+  name: SeaTunnel
+  repo_url: https://github.com/apache/seatunnel
+  subcategory: Streaming & Messaging
+  twitter: https://twitter.com/ASFSeaTunnel
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/wso2
+  homepage_url: https://siddhi.io/
+  item: null
+  logo: siddhi.svg
+  name: Siddhi
+  repo_url: https://github.com/siddhi-io/siddhi
+  subcategory: Streaming & Messaging
+  twitter: https://twitter.com/siddhi_io
+  url_for_bestpractices: https://github.com/siddhi-io
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2019-08-28'
+    annual_review_date: '2022-10-10'
+    annual_review_url: https://github.com/cncf/toc/pull/939
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#strimzi-logos
+    clomonitor_name: strimzi
+    dev_stats_url: https://strimzi.devstats.cncf.io/
+    incubating: '2024-02-08'
+    lfx_slug: strimzi
+    mailing_list_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#strimzi-logos
+    slack_url: https://cloud-native.slack.com/messages/strimzi
+    summary_business_use_case: Lower the management and operational costs of running
+      Kafka infrastructure on Kubernetes.
+    summary_integration: Kafka, Kubernetes, Prometheus, Open Policy Agent, KEDA, Helm,
+      Operator Framework, Jaeger, OpenTelemetry
+    summary_personas: Developers and SRE/DevOps Engineers
+    summary_release_rate: Every 2-3 months
+    summary_use_case: Event streaming with Apache Kafka by providing Kubernetes-native
+      Kafka deployments
+  homepage_url: https://strimzi.io/
+  item: null
+  logo: strimzi.svg
+  name: Strimzi
+  project: incubating
+  project_org: https://github.com/strimzi
+  repo_url: https://github.com/strimzi/strimzi-kafka-operator
+  subcategory: Streaming & Messaging
+  twitter: https://twitter.com/strimziio
+- category: App Definition and Development
+  description: Score is an open-source workload specification designed to simplify
+    development for cloud-native developers.
+  extra:
+    accepted: '2024-07-08'
+    blog_url: https://score.dev/blog
+    clomonitor_name: score
+    dev_stats_url: https://score.devstats.cncf.io/
+    lfx_slug: score
+    linkedin_url: https://www.linkedin.com/company/score-dev
+    summary_integrations: Go, Kubernetes, Docker, Docker-Compose, Nginx, Gateway API,
+      ORAS
+    summary_personas: Developers, DevOps, Platform Engineers
+    summary_use_case: Score is a developer-centric and platform-agnostic workload
+      specification. It ensures consistent configuration between local and remote
+      environments.
+  homepage_url: https://score.dev/
+  item: null
+  logo: score.svg
+  name: Score
+  project: sandbox
+  repo_url: https://github.com/score-spec/spec
+  subcategory: Application Definition & Image Build
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2020-07-14'
+    annual_review_date: '2023-06-27'
+    annual_review_url: https://github.com/cncf/toc/pull/1099
+    clomonitor_name: serverless-workflow
+    dev_stats_url: https://serverlessworkflow.devstats.cncf.io/
+    lfx_slug: serverlessworkflow
+  homepage_url: https://serverlessworkflow.io
+  item: null
+  logo: sws_logo.svg
+  name: Serverless Workflow
+  project: sandbox
+  repo_url: https://github.com/serverlessworkflow/specification
+  subcategory: Application Definition & Image Build
+  twitter: https://twitter.com/CNCFWorkflow
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/apache
+  homepage_url: https://servicecomb.apache.org
+  item: null
+  logo: servicecomb.svg
+  name: ServiceComb
+  repo_url: https://github.com/apache/servicecomb-java-chassis
+  subcategory: Application Definition & Image Build
+  twitter: https://twitter.com/ServiceComb
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2024-08-19'
+    clomonitor_name: shipwright
+    lfx_slug: shipwright
+  homepage_url: https://shipwright.io
+  item: null
+  logo: shipwright.svg
+  name: Shipwright
+  project: sandbox
+  repo_url: https://github.com/shipwright-io/build
+  subcategory: Application Definition & Image Build
+  twitter: https://twitter.com/shipwrightio
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/google
+  homepage_url: https://skaffold.dev/
+  item: null
+  logo: skaffold.svg
+  name: Skaffold
+  repo_url: https://github.com/GoogleContainerTools/skaffold
+  subcategory: Application Definition & Image Build
+  twitter: https://twitter.com/GCPcloud
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/solo-io
+  homepage_url: https://squash.solo.io/
+  item: null
+  logo: squash.svg
+  name: Squash
+  repo_url: https://github.com/solo-io/squash
+  subcategory: Application Definition & Image Build
+- category: App Definition and Development
+  description: Stacker is a tool for building OCI images and related artifacts such
+    as SBOMs natively via a declarative yaml format.
+  extra:
+    accepted: '2024-06-19'
+    clomonitor_name: stacker
+    lfx_slug: stacker
+  homepage_url: https://stackerbuild.io
+  item: null
+  logo: stacker.svg
+  name: Stacker
+  project: sandbox
+  repo_url: https://github.com/project-stacker/stacker
+  subcategory: Application Definition & Image Build
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf
+  homepage_url: https://screwdriver.cd
+  item: null
+  logo: screwdriver.svg
+  name: Screwdriver
+  repo_url: https://github.com/screwdriver-cd/screwdriver
+  subcategory: Continuous Integration & Delivery
+  twitter: https://twitter.com/screwdrivercd
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf
+  homepage_url: https://www.spinnaker.io/
+  item: null
+  logo: spinnaker.svg
+  name: Spinnaker
+  repo_url: https://github.com/spinnaker/spinnaker
+  subcategory: Continuous Integration & Delivery
+  twitter: https://twitter.com/spinnakerio
+- category: Platform
+  crunchbase: https://www.crunchbase.com/organization/reevo-4b5e
+  description: SIGHUP Distribution is a battle-tested distribution purely based on
+    upstream Kubernetes. Deploy and manage a stable and production grade Kubernetes
+    Cluster at scale with a comprehensive Cloud Native stack implemented with top
+    notch CNCF components.
+  homepage_url: https://docs.sighup.io
+  item: null
+  logo: sighup-distribution.svg
+  name: SIGHUP Distribution
+  repo_url: https://github.com/sighupio/distribution
+  subcategory: Certified Kubernetes - Distribution
+- category: Platform
+  crunchbase: https://www.crunchbase.com/organization/open-infrastructure-foundation
+  description: StarlingX is a fully integrated open source edge platform that integrates
+    OpenStack and Kubernetes together to provide all functionality needed in the central
+    cloud and on the edge sites. The project is developed by the StarlingX community.
+  homepage_url: https://www.starlingx.io
+  item: null
+  logo: starlingx.svg
+  name: StarlingX
+  repo_url: https://github.com/starlingx/config
+  subcategory: Certified Kubernetes - Hosted
+- category: Platform
+  crunchbase: https://www.crunchbase.com/organization/talos-systems-inc
+  description: Talos Linux is Linux designed for Kubernetes - secure, immutable, and
+    minimal.
+  homepage_url: https://www.sideroLabs.com
+  item: null
+  logo: sidero.svg
+  name: Sidero Talos Linux
+  repo_url: https://github.com/siderolabs/talos
+  subcategory: Certified Kubernetes - Installer
+- category: Platform
+  crunchbase: https://www.crunchbase.com/organization/sogou
+  description: C++ Parallel Computing and Asynchronous Networking Engine.
+  homepage_url: https://github.com/sogou/workflow
+  item: null
+  logo: workflow.svg
+  name: Sogou C++ Workflow
+  repo_url: https://github.com/sogou/workflow
+  subcategory: PaaS/Container Service
+- category: Serverless
+  crunchbase: https://www.crunchbase.com/organization/polytechnic-university-of-valencia
+  homepage_url: https://scar.readthedocs.io/en/latest/
+  item: null
+  logo: scar.svg
+  name: SCAR
+  repo_url: https://github.com/grycap/scar
+  subcategory: Tools
+- category: Serverless
+  crunchbase: https://www.crunchbase.com/organization/serverless
+  homepage_url: https://serverless.com/
+  item: null
+  logo: serverless.svg
+  name: Serverless
+  repo_url: https://github.com/serverless/serverless
+  subcategory: Framework
+- category: Serverless
+  crunchbase: https://www.crunchbase.com/organization/sparta-7ffe
+  homepage_url: https://gosparta.io/
+  item: null
+  logo: sparta.svg
+  name: Sparta
+  repo_url: https://github.com/mweagle/Sparta
+  subcategory: Framework
+  twitter: https://twitter.com/mweagle
+- category: Serverless
+  crunchbase: https://www.crunchbase.com/organization/vmware
+  homepage_url: https://spring.io/projects/spring-cloud-function
+  item: null
+  logo: spring-cloud-function.svg
+  name: Spring Cloud Function
+  repo_url: https://github.com/spring-cloud/spring-cloud-function
+  subcategory: Framework
+- category: Serverless
+  crunchbase: https://www.crunchbase.com/organization/sst-c030
+  homepage_url: https://sst.dev/
+  item: null
+  logo: sst.svg
+  name: SST
+  repo_url: https://github.com/sst/sst
+  subcategory: Framework
+  twitter: https://twitter.com/SST_dev
+- category: Serverless
+  crunchbase: https://www.crunchbase.com/organization/data-artisans
+  homepage_url: https://nightlies.apache.org/flink/flink-statefun-docs-master/
+  item: null
+  logo: statefun.svg
+  name: Stateful Functions
+  repo_url: https://github.com/apache/flink-statefun
+  subcategory: Framework
+  twitter: https://twitter.com/statefun_io
+- category: Serverless
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: The slimest and simplest Function As A Service
+  extra:
+    accepted: '2025-01-21'
+    lfx_slug: slimfaas
+  homepage_url: https://github.com/SlimPlanet/SlimFaas
+  item: null
+  logo: slimfaas.svg
+  name: SlimFaaS
+  project: sandbox
+  repo_url: https://github.com/SlimPlanet/SlimFaas
+  subcategory: Installable Platform
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/ant-financial
+  homepage_url: https://www.sofastack.tech/en/
+  item: null
+  logo: sofastack-sofa-tracer.svg
+  name: SOFATracer
+  repo_url: https://github.com/sofastack/sofa-tracer
+  subcategory: Observability
+  twitter: https://twitter.com/sofastack_io
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/sensu-inc
+  homepage_url: https://sensu.io/
+  item: null
+  logo: sensu.svg
+  name: Sensu
+  repo_url: https://github.com/sensu/sensu-go
+  subcategory: Observability
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/sentry
+  homepage_url: https://sentry.io/welcome/
+  item: null
+  logo: sentry.svg
+  name: Sentry
+  open_source: false
+  repo_url: https://github.com/getsentry/sentry
+  subcategory: Observability
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/carver-automation
+  description: Open Source network management and observability platform.
+  homepage_url: https://serviceradar.cloud/
+  item: null
+  logo: serviceradar.svg
+  name: ServiceRadar
+  open_source: true
+  repo_url: https://github.com/carverauto/serviceradar
+  subcategory: Observability
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/thundra
+  description: Collect traces, exception stacks and generate logs on-demand without
+    stopping & redeploying your applications.
+  extra:
+    slack_url: https://discord.gg/bCtCmzP2ge
+  homepage_url: https://github.com/runsidekick/sidekick
+  item: null
+  logo: sidekick.svg
+  name: Sidekick
+  open_source: true
+  repo_url: https://github.com/runsidekick/sidekick
+  subcategory: Observability
+  twitter: https://twitter.com/RunSidekick
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/sigscalr
+  description: SigLens is a powerful open-source observability solution designed to
+    reduce infrastructure costs by up to 90%. It scales seamlessly from handling 8
+    TB/day on a single MacBook Air to 1 PB/day across just 32 EC2 instances. With
+    a user-friendly interface and a developer-oriented, pipe-based query language,
+    SigLens simplifies observability data exploration and monitoring at any scale.
+  extra:
+    blog_url: https://www.siglens.com/blog/allblogs.html
+    slack_url: https://siglens-community.slack.com
+  homepage_url: https://www.siglens.com/
+  item: null
+  logo: siglens-logo.svg
+  name: SigLens
+  open_source: true
+  repo_url: https://github.com/siglens/siglens
+  subcategory: Observability
+  twitter: https://x.com/SigLensHQ
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/apache
+  homepage_url: https://skywalking.apache.org/
+  item: null
+  logo: sky-walking.svg
+  name: SkyWalking
+  repo_url: https://github.com/apache/skywalking
+  subcategory: Observability
+  twitter: https://twitter.com/AsfSkyWalking
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/vmware
+  homepage_url: https://spring.io/projects/spring-cloud-sleuth
+  item: null
+  logo: spring-cloud-sleuth.svg
+  name: Spring Cloud Sleuth
+  repo_url: https://github.com/spring-cloud/spring-cloud-sleuth
+  subcategory: Observability
+- category: Wasm
+  crunchbase: https://www.crunchbase.com/organization/loophole-labs-inc
+  homepage_url: https://scale.sh/
+  item: null
+  logo: scale.svg
+  name: Scale
+  repo_url: https://github.com/loopholelabs/scale
+  subcategory: Application Frameworks
+  twitter: https://twitter.com/loopholelabs
+- category: Wasm
+  crunchbase: https://www.crunchbase.com/organization/microsoft
+  homepage_url: https://deislabs.github.io/spiderlightning/
+  item: null
+  logo: spiderlightning.svg
+  name: SpiderLightning
+  repo_url: https://github.com/deislabs/spiderlightning
+  subcategory: Application Frameworks
+- category: Wasm
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Spin is a framework for building and deploying serverless applications
+    in WebAssembly.
+  extra:
+    accepted: '2025-01-21'
+    dev_stats_url: https://spin.devstats.cncf.io/
+    lfx_slug: spin
+  homepage_url: https://spinframework.dev
+  item: null
+  logo: spin.svg
+  name: Spin
+  repo_url: https://github.com/spinframework/spin
+  subcategory: Application Frameworks
+- category: Wasm
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Open source platform for efficiently running (containerless) Spin-based
+    WebAssembly (Wasm) applications on Kubernetes.
+  extra:
+    accepted: '2025-01-21'
+    dev_stats_url: https://spinkube.devstats.cncf.io/
+  homepage_url: https://www.spinkube.dev/
+  item: null
+  logo: spinkube.svg
+  name: SpinKube
+  project: sandbox
+  repo_url: https://github.com/spinframework/spin-operator
+  subcategory: Orchestration & Management
+- allow_duplicate_repo: true
+  category: Wasm
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  homepage_url: https://superedge.io/
+  item: null
+  logo: superedge.svg
+  name: SuperEdge (Wasm)
+  repo_url: https://github.com/superedge/superedge
+  subcategory: Orchestration & Management
+- category: CNAI
+  homepage_url: https://www.seldon.io/
+  item: null
+  logo: ./Seldon_idWf-VLClV_10.svg
+  name: Seldon
+  repo_url: https://github.com/SeldonIO/seldon-core
+  subcategory: ML Serving
+  unnamed_organization: true
+- category: CNAI
+  description: NoSQL data store using the seastar framework, compatible with Apache
+    Cassandra.
+  homepage_url: https://github.com/scylladb/scylladb
+  item: null
+  logo: ./scylla.svg
+  name: ScyllaDB
+  repo_url: https://github.com/scylladb/scylladb
+  subcategory: Data Architecture
+  unnamed_organization: true
+- category: CNAI
+  crunchbase: https://www.crunchbase.com/organization/authzed
+  description: 'SpiceDB is an open source database optimized for storing and querying
+    authorization data. SpiceDB sets the standard for scalable authorization by remaining
+    true to the design of the system powering permissions at Google: Zanzibar. While
+    SpiceDB is a general purpose solution, it is often used to secure access to Retrieval-Augmented
+    Generation (RAG) systems for AI workloads.
+
+    '
+  extra:
+    blog_url: https://authzed.com/blog
+    slack_url: https://discord.gg/spicedb
+    stack_overflow_url: https://stackoverflow.com/questions/tagged/spicedb
+    youtube_url: https://youtube.com/@authzed
+  homepage_url: https://authzed.com/spicedb
+  item: null
+  logo: spicedb.svg
+  name: SpiceDB
+  repo_url: https://github.com/authzed/spicedb
+  subcategory: Governance, Policy & Security
+- category: CNAI
+  description: Software Supply Chain Security Platform
+  homepage_url: https://stacklok.com/minder
+  item: null
+  logo: ./stacklock.svg
+  name: Stacklock Minder
+  repo_url: https://github.com/stacklok/minder
+  subcategory: Governance, Policy & Security
+  unnamed_organization: true

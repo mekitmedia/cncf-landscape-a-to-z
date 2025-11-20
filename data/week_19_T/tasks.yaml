@@ -1,0 +1,611 @@
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/hashicorp
+  homepage_url: https://www.terraform.io/
+  item: null
+  logo: terraform.svg
+  name: Terraform
+  repo_url: https://github.com/hashicorp/terraform
+  subcategory: Automation & Configuration
+- additional_repos:
+  - repo_url: https://github.com/appvia/terranetes
+  branch: master
+  category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/appvia
+  description: The Appvia Terranetes Controller manages the life-cycle of Terraform
+    and OpenTofu resources defined and built inside Kubernetes. This allows teams
+    running workloads inside the cluster to self-serve application dependencies and
+    reuse the wealth of Terraform modules already written.
+  extra:
+    chat_channel: '#terranetes'
+    documentation_url: https://terranetes.appvia.io/
+    linkedin_url: https://www.linkedin.com/company/appvia
+    slack_url: https://kubernetes.slack.com/channels/terranetes
+    summary_integrations: Kubernetes, Terraform, OpenTofu, AWS, Azure, GCP
+    summary_personas: SREs, Platform Engineers, DevOps Engineers, Architects, Developers
+    summary_tags: kubernetes,terraform,opentofu,self-service,appvia
+    summary_use_case: The Appvia Terranetes Controller manages the life-cycle of Terraform
+      and OpenTofu resources defined and built inside Kubernetes. This allows teams
+      running workloads inside the cluster to self-serve application dependencies
+      and reuse the wealth of Terraform modules already written.
+  homepage_url: https://www.appvia.io/terranetes
+  item: null
+  logo: terranetes.svg
+  name: Terranetes
+  repo_url: https://github.com/appvia/terranetes-controller
+  subcategory: Automation & Configuration
+  twitter: https://twitter.com/appvia_io
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2020-11-10'
+    clomonitor_name: tinkerbell
+    dev_stats_url: https://tinkerbell.devstats.cncf.io/
+    lfx_slug: tinkerbell
+    slack_url: https://app.slack.com/client/T08PSQ7BQ/C01SRB41GMT
+    youtube_url: https://www.youtube.com/channel/UCTzWInTQPvzH21KHS8jrq7A
+  homepage_url: https://tinkerbell.org/
+  item: null
+  logo: tinkerbell.svg
+  name: Tinkerbell
+  project: sandbox
+  repo_url: https://github.com/tinkerbell/tinkerbell
+  subcategory: Automation & Configuration
+  twitter: https://twitter.com/tinkerbell_oss
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/gravitational
+  homepage_url: https://goteleport.com
+  item: null
+  logo: teleport.svg
+  name: Teleport
+  repo_url: https://github.com/gravitational/teleport
+  subcategory: Security & Compliance
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/tenable-network-security
+  homepage_url: https://www.tenable.com/products/tenable-cs
+  item: null
+  logo: terrascan.svg
+  name: Terrascan
+  repo_url: https://github.com/tenable/terrascan
+  subcategory: Security & Compliance
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/okapi-985d
+  description: Tesseral is the open source platform for managing identity and access
+    in business software.
+  extra:
+    blog_url: https://tesseral.com/blog
+    documentation_url: https://tesseral.com/docs
+    linkedin_url: https://www.linkedin.com/company/tesseral/
+    summary_use_case: 'Tesseral is the open source platform for managing identity
+      and access in business software. It provides enterprise-grade capabilities,
+      including SAML single sign-on, SCIM provisioning, role-based access control,
+      managed API keys, and audit logs, implemented in just a few lines of code.
+
+      Tesseral unifies access management for employees, customers, services, and AI
+      agents, giving organizations the flexibility to adapt to any deployment model
+      and the authority to enforce security policies with precision.'
+  homepage_url: https://www.tesseral.com/
+  item: null
+  logo: tesseral.svg
+  name: Tesseral
+  repo_url: https://github.com/tesseral-labs/tesseral
+  subcategory: Security & Compliance
+  twitter: https://twitter.com/tesseralHQ
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2021-10-13'
+    dev_stats_url: https://cilium.devstats.cncf.io/
+    linkedin_url: https://www.linkedin.com/company/cilium/
+    parent_project: Cilium
+    slack_url: https://cilium.herokuapp.com/
+  homepage_url: https://github.com/cilium/tetragon
+  item: null
+  logo: tetragon-logo-wormark.svg
+  name: Tetragon
+  repo_url: https://github.com/cilium/tetragon
+  subcategory: Security & Compliance
+  twitter: https://twitter.com/ciliumproject
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2017-10-24'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#tuf-logos
+    audits:
+    - date: '2018-08-07'
+      type: security
+      url: https://cure53.de/pentest-report_tuf.pdf
+      vendor: Cure53
+    clomonitor_name: tuf
+    dev_stats_url: https://tuf.devstats.cncf.io/
+    graduated: '2019-12-18'
+    incubating: '2017-10-24'
+    lfx_slug: tuf
+    mailing_list_url: https://groups.google.com/forum/?fromgroups#!forum/theupdateframework
+    stack_overflow_url: https://stackoverflow.com/questions/tagged/the-update-framework
+    summary_business_use_case: Prevents many types of key and repository/registry
+      compromises from impacting your users. Provides a secure way to recover from
+      compromise. Twelve years of practical experience, about a dozen security audits,
+      a half-dozen or so peer reviewed papers, a half-dozen or so implementations
+      used in production, and millions of containers, etc. secured.
+    summary_integrations: Docker, Amazon, Microsoft, Google Fuschia, Harbor, Toradex,
+      Datadog, Sigstore, Automotive Grade Linux
+    summary_intro_url: https://theupdateframework.io/
+    summary_personas: Security teams, Repository administrators, Registry administrators
+    summary_release_rate: The specification is quite stable.  Major spec versions
+      update rarely, minor versions about annually, smaller releases (typo fixes /
+      clarifications) happen as needed.
+    summary_tags: Security, Go, Python, Rust, JavaScript, CLI
+    summary_use_case: TUF secures container registries, package repositories, etc.
+      so that the system resists successful attacks and can recover securely.  TUF
+      uses a combination of security mechanisms and tooling to provide a strong root
+      of trust used by other security projects as well, such as Sigstore.  It is easy
+      to integrate and simple to manage; try it for yourself
+  homepage_url: https://theupdateframework.github.io/
+  item: null
+  logo: the-update-framework-tuf.svg
+  name: The Update Framework (TUF)
+  project: graduated
+  repo_url: https://github.com/theupdateframework/python-tuf
+  subcategory: Security & Compliance
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/deepfence
+  homepage_url: https://deepfence.io/threatmapper/
+  item: null
+  logo: threatmapper.svg
+  name: ThreatMapper
+  repo_url: https://github.com/deepfence/ThreatMapper
+  subcategory: Security & Compliance
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Tokenetes implements Transaction Tokens (TraTs) for microservices call
+    chains.  It's a Kubernetes-native framework providing immutable identity and context
+    in  service-to-service communication to prevent attacks like software supply chain  or
+    privileged user compromise.
+  extra:
+    accepted: '2025-01-21'
+    dev_stats_url: https://tokenetes.devstats.cncf.io/
+    lfx_slug: tratteria
+  homepage_url: https://tokenetes.io/
+  item: null
+  logo: tokenetes.svg
+  name: Tokenetes
+  project: sandbox
+  repo_url: https://github.com/tokenetes/tokenetes
+  subcategory: Security & Compliance
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/aserto-2995
+  description: Cloud-native authorization for modern applications and APIs, combining
+    the best of Open Policy Agent and Google Zanzibar
+  extra:
+    slack_url: https://www.aserto.com/slack
+  homepage_url: https://www.topaz.sh
+  item: null
+  logo: topaz.svg
+  name: Topaz
+  repo_url: https://github.com/aserto-dev/topaz
+  subcategory: Security & Compliance
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/aquasecurity
+  description: Tracee helps you understand your systems and applications behavior,
+    and apply runtime security to them. It uses Linux eBPF technology and strong security
+    techniques to instrument the system and expose relevant events for you to consume
+    and process.
+  homepage_url: https://aquasecurity.github.io/tracee/latest/
+  item: null
+  logo: tracee.svg
+  name: Tracee
+  repo_url: https://github.com/aquasecurity/tracee
+  subcategory: Security & Compliance
+  twitter: https://x.com/aquatracee
+- category: Provisioning
+  crunchbase: https://www.crunchbase.com/organization/aquasecurity
+  description: 'Trivy is an all-in-one security scanner that beings vulnerability,
+    SBOM, misconfigurations, leaked secrets, and license scanning together, across
+    container images, code repositories, Kubernetes clusters and more. '
+  homepage_url: https://trivy.dev
+  item: null
+  logo: trivy.svg
+  name: Trivy
+  repo_url: https://github.com/aquasecurity/trivy
+  subcategory: Security & Compliance
+  twitter: https://x.com/aquatrivy
+- category: Runtime
+  crunchbase: https://www.crunchbase.com/organization/mnx-solutions
+  homepage_url: https://www.tritondatacenter.com/triton/object-storage
+  item: null
+  logo: triton-object-storage.svg
+  name: Triton Object Storage
+  repo_url: https://github.com/TritonDataCenter/manta
+  subcategory: Cloud Native Storage
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/linux-foundation
+  description: TARS is a high-performance RPC framework that provides an integrated
+    solution of microservice governance.
+  homepage_url: https://github.com/tarsCloud
+  item: null
+  logo: tars.svg
+  name: TARS
+  repo_url: https://github.com/tarsCloud/tars
+  subcategory: Remote Procedure Call
+  twitter: https://twitter.com/TarsCloud
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
+  homepage_url: https://tengine.taobao.org/
+  item: null
+  logo: alibaba-tengine.svg
+  name: Tengine
+  repo_url: https://github.com/alibaba/tengine
+  subcategory: Service Proxy
+  twitter: https://twitter.com/AlibabaTengine
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/containous
+  homepage_url: https://traefik.io/traefik
+  item: null
+  logo: traefik.svg
+  name: Traefik
+  repo_url: https://github.com/traefik/traefik
+  subcategory: API Gateway
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/tyk-io
+  homepage_url: https://tyk.io/
+  item: null
+  logo: tyk.svg
+  name: Tyk
+  repo_url: https://github.com/TykTechnologies/tyk
+  subcategory: API Gateway
+- category: Orchestration & Management
+  crunchbase: https://www.crunchbase.com/organization/containous
+  extra:
+    accepted: '2020-03-16'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#service-mesh-interface-logos
+    blog_url: https://smi-spec.io/blog/
+    dev_stats_url: https://smi.devstats.cncf.io/
+    slack_url: https://cloud-native.slack.com/messages/smi
+    youtube_url: https://www.youtube.com/playlist?list=PLj6h78yzYM2N5upvsCMVbct4WSrKJo49p
+  homepage_url: https://traefik.io/traefik-mesh
+  item: null
+  logo: traefik-mesh.svg
+  name: Traefik Mesh
+  repo_url: https://github.com/traefik/mesh
+  subcategory: Service Mesh
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/mail-ru
+  description: In-memory computing platform consisting of a database and an application
+    server
+  homepage_url: https://www.tarantool.io/en/
+  item: null
+  logo: tarantool.svg
+  name: Tarantool
+  repo_url: https://github.com/tarantool/tarantool
+  subcategory: Database
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/taos-data
+  homepage_url: https://tdengine.com
+  item: null
+  logo: TDengine.svg
+  name: TDengine
+  repo_url: https://github.com/taosdata/TDengine
+  subcategory: Database
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/pingcap
+  homepage_url: https://en.pingcap.com
+  item: null
+  logo: tidb.svg
+  name: TiDB
+  repo_url: https://github.com/pingcap/tidb
+  subcategory: Database
+  twitter: https://twitter.com/PingCAP
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: A distributed transactional key-value database. Based on the design
+    of Google Spanner and HBase, but simpler to manage and without dependencies on
+    any distributed filesystem
+  extra:
+    accepted: '2018-08-28'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#tikv-logos
+    audits:
+    - date: '2020-03-05'
+      type: security
+      url: https://tikv.org/blog/TiKV-Security-Audit.pdf
+      vendor: Cure53
+    blog_url: https://tikv.org/blog/
+    clomonitor_name: tikv
+    dev_stats_url: https://tikv.devstats.cncf.io/
+    graduated: '2020-09-02'
+    incubating: '2018-08-28'
+    lfx_slug: tikv
+    mailing_list_url: https://tikv.org/community/community/
+    stack_overflow_url: https://stackoverflow.com/questions/tagged/tikv
+    summary_business_use_case: TiKV provides a scalable, reliable, and easy-to-use
+      storage engine for building distributed systems.  It helps organizations improve
+      the performance, reliability, and availability of their systems.  TiKV helps
+      organizations reduce risk by providing strong consistency. It helps ensure data
+      integrity and accuracy.  TiKV helps organizations increase their responsiveness
+      to customer demand by allowing them to scale their systems horizontally  as
+      needed to handle increasing amounts of data and workload.
+    summary_integration: TiKV provides both raw and ACID-compliant transactional key-value
+      API, which is widely used in online serving services,  such as the metadata
+      storage system for object storage service, the storage system for recommendation
+      systems,  the online feature store, etc. TiKV is also widely used as the storage
+      layer for database management systems, for example, TiDB, Zetta, Tidis, Titan,
+      and JuiceFS. TiKV can also be deployed on Kubernetes via TiDB Operator and monitored
+      by Prometheus.
+    summary_personas: Application Developers, ML Engineers, DevOps Engineers, Architects,
+      Platform Engineers, DBA
+    summary_release_rate: Per month
+    summary_tags: Key-value database,Cloud storage,Transactional,TiDB,Strong consistency,Raft,RocksDB,Titan,Raft-Engine
+    summary_use_case: TiKV excels at working with large-scale data by supporting petabyte-scale
+      deployments spanning trillions of rows. It aims to solve the technical issue
+      of scaling and reliably storing data in distributed systems that require  high
+      performance and strong consistency. TiKV addresses the technical pain points
+      of traditional databases by offering  horizontal scalability, strong consistency,
+      high availability, and fault tolerance. It's particularly useful for  building
+      real-time data processing apps.
+    youtube_url: https://www.youtube.com/channel/UCXyuUR4qEm0HLDniz46k6sg
+  homepage_url: https://tikv.org
+  item: null
+  logo: tikv.svg
+  name: TiKV
+  project: graduated
+  repo_url: https://github.com/tikv/tikv
+  subcategory: Database
+  twitter: https://twitter.com/tikvproject
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/timescaledb
+  description: "PostgreSQL for time\u2011series. TimescaleDB is the leading open-source\
+    \ relational database for time-series data. Fully managed or self\u2011hosted."
+  homepage_url: https://www.timescale.com
+  item: null
+  logo: timescale.svg
+  name: Timescale
+  open_source: false
+  repo_url: https://github.com/timescale/timescaledb
+  subcategory: Database
+  twitter: https://twitter.com/TimescaleDB
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2020-09-08'
+    annual_review_date: '2022-10-19'
+    annual_review_url: https://github.com/cncf/toc/pull/949
+    clomonitor_name: tremor
+    dev_stats_url: https://tremor.devstats.cncf.io/
+    lfx_slug: tremor
+  homepage_url: https://www.tremor.rs/
+  item: null
+  logo: tremor.svg
+  name: Tremor
+  project: sandbox
+  repo_url: https://github.com/tremor-rs/tremor-runtime
+  subcategory: Streaming & Messaging
+  twitter: https://twitter.com/TremorDEBS
+  url_for_bestpractices: https://github.com/tremor-rs
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/raintank
+  description: Tanka is a composable configuration utility for Kubernetes. It leverages
+    the Jsonnet language to realize flexible, reusable and concise configuration.
+  homepage_url: https://tanka.dev/
+  item: null
+  logo: tanka.svg
+  name: Tanka
+  repo_url: https://github.com/grafana/tanka
+  subcategory: Application Definition & Image Build
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2018-05-15'
+    annual_review_date: '2022-07-08'
+    annual_review_url: https://github.com/cncf/toc/pull/872
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#telepresence-logos
+    chat_channel: '#telepresence'
+    clomonitor_name: telepresence
+    dev_stats_url: https://telepresence.devstats.cncf.io/
+    lfx_slug: telepresence
+    summary_business_use_case: Telepresence speeds up development teams by allowing
+      them to instantly test changes in dev or staging environments without having
+      to wait for their changes to be built into a container and deployed. It also
+      saves money by enabling developers to share cloud environments to do integration
+      testing.
+    summary_integration: Emissary-Ingress
+    summary_personas: Developers, Platform Engineers
+    summary_release_rate: Weekly
+    summary_tags: debug,develop,api,testing,remocal
+    summary_use_case: Telepresence is a local-to-remote kubernetes debugging tool
+      that creates a two-way proxy from your laptop to the cluster. You can access
+      cluster resources as if they were local and intercept traffic to one or more
+      services to develop in an integrated environment without the need for a container
+      build-push-deploy loop.
+  homepage_url: https://www.telepresence.io/
+  item: null
+  logo: telepresence.svg
+  name: Telepresence
+  project: sandbox
+  repo_url: https://github.com/telepresenceio/telepresence
+  subcategory: Application Definition & Image Build
+  twitter: https://twitter.com/telepresenceio
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/windmill-engineering
+  homepage_url: https://tilt.dev/
+  item: null
+  logo: tilt.svg
+  name: Tilt
+  repo_url: https://github.com/tilt-dev/tilt
+  subcategory: Application Definition & Image Build
+  twitter: https://twitter.com/tilt_dev
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf
+  homepage_url: https://tekton.dev/
+  item: null
+  logo: tekton.svg
+  name: Tekton Pipelines
+  repo_url: https://github.com/tektoncd/pipeline
+  subcategory: Continuous Integration & Delivery
+  twitter: https://twitter.com/tektoncd
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/terramate
+  description: Terramate is an Infrastructure as Code (IaC) Management Platform combining
+    Infrastructure Delivery, Drift Management, Observability, and Collaboration in
+    a single platform that developers are excited about. We focus on providing the
+    best developer experience by combining workflows, best practices, and more so
+    that developers can move beyond infrastructure and focus on developing applications.
+  extra:
+    blog_url: https://blog.terramate.io/
+    slack_url: https://discord.com/invite/sktZ4W4hFk
+  homepage_url: https://www.terramate.io/
+  item: null
+  logo: terramate.svg
+  name: Terramate
+  repo_url: https://github.com/terramate-io/terramate
+  subcategory: Continuous Integration & Delivery
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/kubeshop
+  description: Testkube provides a Kubernetes-native framework for test definition,
+    execution and results. It decouples test artifacts and execution from CI/CD tooling
+    and makes testing part of your cluster's state. Testkube is built and maintained
+    by Kubeshop.
+  homepage_url: https://testkube.io
+  item: null
+  logo: testkube.svg
+  name: Testkube
+  repo_url: https://github.com/kubeshop/testkube
+  subcategory: Continuous Integration & Delivery
+  twitter: https://twitter.com/testkube_io
+- category: App Definition and Development
+  crunchbase: https://www.crunchbase.com/organization/travis-ci
+  homepage_url: https://travis-ci.com/
+  item: null
+  logo: travis-ci.svg
+  name: Travis CI
+  repo_url: https://github.com/travis-ci/travis-web
+  subcategory: Continuous Integration & Delivery
+- category: Platform
+  crunchbase: https://www.crunchbase.com/organization/poseidon
+  description: Typhoon distributes upstream Kubernetes, architectural conventions,
+    and cluster addons, much like a GNU/Linux distribution provides the Linux kernel
+    and userspace components.
+  homepage_url: https://typhoon.psdn.io/
+  item: null
+  logo: typhoon.svg
+  name: Typhoon
+  repo_url: https://github.com/poseidon/typhoon
+  subcategory: Certified Kubernetes - Distribution
+- category: Platform
+  description: Holistic life cycle management of Kubernetes clusters on bare metal
+    or OpenStack
+  homepage_url: https://tarook.cloud/en/
+  item: null
+  logo: tarook.svg
+  name: Tarook
+  repo_url: https://github.com/alasca-association/tarook
+  subcategory: Certified Kubernetes - Distribution
+- category: Platform
+  crunchbase: https://www.crunchbase.com/organization/tsuru
+  homepage_url: https://tsuru.io/
+  item: null
+  logo: tsuru.svg
+  name: Tsuru
+  repo_url: https://github.com/tsuru/tsuru
+  subcategory: PaaS/Container Service
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2019-07-14'
+    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#thanos-logos
+    blog_url: https://thanos.io/blog/
+    clomonitor_name: thanos
+    dev_stats_url: https://thanos.devstats.cncf.io/
+    incubating: '2020-08-19'
+    lfx_slug: thanos
+    slack_url: https://cloud-native.slack.com/messages/CK5RSSC10
+    stack_overflow_url: https://stackoverflow.com/questions/tagged/thanos
+    summary_business_use_case: global scale metrics-based monitoring and alerting
+    summary_integrations: See [Prometheus](https://prometheus.io/), [exporters](https://prometheus.io/docs/instrumenting/exporters/),
+      [clientlibs](https://prometheus.io/docs/instrumenting/clientlibs/) and https://thanos.io/tip/thanos/integrations.md/
+    summary_personas: Cluster Administrators, Developers, SREs, Platform Engineers,
+      Network Engineers
+    summary_release_rate: every 6 weeks
+    summary_tags: monitoring, alerting, observability, instrumentation
+    summary_use_case: global scale metrics-based monitoring and alerting
+  homepage_url: https://thanos.io/
+  item: null
+  logo: thanos.svg
+  name: Thanos
+  project: incubating
+  repo_url: https://github.com/thanos-io/thanos
+  subcategory: Observability
+  twitter: https://twitter.com/ThanosMetrics
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/kubeshop
+  description: Tracetest allows easy creation of end-to-end tests via a simple user
+    interface. It leverages your current investment in OpenTelemetry based tracing
+    to make deep integration and E2E testing simple.
+  homepage_url: https://tracetest.io
+  item: null
+  logo: tracetest.svg
+  name: Tracetest
+  repo_url: https://github.com/kubeshop/tracetest
+  subcategory: Observability
+  twitter: https://twitter.com/tracetest_io
+- category: Observability and Analysis
+  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  extra:
+    accepted: '2021-03-30'
+    annual_review_date: '2022-06-12'
+    annual_review_url: https://github.com/cncf/toc/pull/852
+    artwork_url: https://github.com/cncf/artwork/tree/master/projects/trickster
+    clomonitor_name: trickster
+    dev_stats_url: https://trickster.devstats.cncf.io/
+    lfx_slug: trickster
+  homepage_url: https://trickstercache.org
+  item: null
+  logo: trickster.svg
+  name: Trickster
+  project: sandbox
+  repo_url: https://github.com/trickstercache/trickster
+  subcategory: Observability
+- category: Wasm
+  description: Compiled language to Wasm
+  homepage_url: https://tinygo.org/
+  item: null
+  logo: tinygo.svg
+  name: TinyGo
+  repo_url: https://github.com/tinygo-org/tinygo
+  subcategory: Languages
+  unnamed_organization: true
+- category: CNAI
+  description: TFX is an end-to-end platform for deploying production ML pipelines
+  homepage_url: https://www.tensorflow.org/tfx
+  item: null
+  logo: ./tensorflow.svg
+  name: TensorFlow Extended (TFX)
+  repo_url: https://github.com/tensorflow/tfx
+  subcategory: CI/CD - Delivery
+  unnamed_organization: true
+- category: CNAI
+  description: An Open Source Machine Learning Framework for Everyone
+  homepage_url: https://www.tensorflow.org
+  item: null
+  logo: ./tensorflow.svg
+  name: TensorFlow
+  repo_url: https://github.com/tensorflow
+  subcategory: Data Science
+  unnamed_organization: true
+- category: CNAI
+  description: TruLens is a powerful open source library for evaluating and tracking
+    large language model-based applications.
+  homepage_url: https://www.trulens.org/
+  item: null
+  logo: ./trulens.svg
+  name: Trulens
+  repo_url: https://github.com/truera/trulens
+  subcategory: Model/LLM Observability
+  unnamed_organization: true
+- category: CNAI
+  description: The distributed SQL query engine for big data, formerly known as PrestoSQL.
+  homepage_url: https://trino.io/
+  item: null
+  logo: ./trino.svg
+  name: Trino
+  repo_url: https://github.com/trinodb/trino
+  subcategory: Data Architecture
+  unnamed_organization: true
