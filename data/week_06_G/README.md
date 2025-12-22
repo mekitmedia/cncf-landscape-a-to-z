@@ -1,6 +1,6 @@
 # Summary for week_06_G
 
-This week has a total of 41 items.
+This week has a total of 42 items.
 
 
 - **Cnai Workload Observability**: 1 items
@@ -25,7 +25,7 @@ This week has a total of 41 items.
 
 - **Provisioning Security Compliance**: 2 items
 
-- **Observability And Analysis Observability**: 7 items
+- **Observability And Analysis Observability**: 8 items
 
 - **Orchestration Management Api Gateway**: 2 items
 
