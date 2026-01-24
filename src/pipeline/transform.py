@@ -133,3 +133,50 @@ def get_stats_by_status(landscape: list) -> dict:
                 if status:
                     stats[status] = stats.get(status, 0) + 1
     return stats
+
+def get_landscape_by_letter(landscape: list) -> dict:
+    """
+    This function processes the landscape once and returns data for all letters.
+    Returns a dict { 'A': {'partial': {...}, 'tasks': [...]}, ... }
+    """
+    logger.info("Indexing landscape data by letter")
+    index = {}
+
+    # Initialize index for all letters A-Z
+    for letter_code in range(ord('A'), ord('Z') + 1):
+        letter = chr(letter_code)
+        index[letter] = {
+            'partial': {},
+            'tasks': []
+        }
+
+    # Pre-calculate all paths
+    all_paths = [
+        make_path(c['name'], sub['name'])
+        for c in landscape for sub in c['subcategories']
+    ]
+
+    # Initialize partial dicts with empty lists for all paths
+    for letter in index:
+        for path in all_paths:
+            index[letter]['partial'][path] = []
+
+    # Iterate landscape once
+    for c in landscape:
+        for sub in c['subcategories']:
+            path = make_path(c['name'], sub['name'])
+            for item in sub['items']:
+                if _is_valid_item(item):
+                    name = item['name']
+                    if not name:
+                        continue
+                    first_char = name[0]
+                    if 'A' <= first_char <= 'Z':
+                         index[first_char]['partial'][path].append(item)
+                         index[first_char]['tasks'].append(name)
+
+    # Sort tasks
+    for letter in index:
+        index[letter]['tasks'].sort()
+
+    return index
