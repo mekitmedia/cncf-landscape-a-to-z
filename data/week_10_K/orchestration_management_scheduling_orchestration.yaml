@@ -17,7 +17,8 @@
       and management across on-premises and multi-cloud  setups, addressing operational
       challenges, reducing vendor lock-in, and enhancing disaster recovery and infrastructure
       efficiency.
-    summary_integrations: Grafana, Prometheus, Argo, Flux, Istio, Filebeat, Submariner,
+    summary_integrations: Volcano, Kubeflow, Kyverno, Pytorch, TensorFlow, Flink,
+      Spark, OpenKruise, Grafana, Prometheus, Argo, Flux, Istio, Filebeat, Submariner,
       Velero, etc.
     summary_personas: Cloud Architects, Platform Engineers, DevOps Engineer, DevOps
       practitioners, DevSecOps practitioners
@@ -37,6 +38,8 @@
   name: Karmada
   project: incubating
   repo_url: https://github.com/karmada-io/karmada
+  second_path:
+  - CNAI / General Orchestration
   twitter: https://x.com/karmada_io
 - allow_duplicate_repo: true
   crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
@@ -148,6 +151,8 @@
   name: Koordinator
   project: sandbox
   repo_url: https://github.com/koordinator-sh/koordinator
+  second_path:
+  - CNAI / General Orchestration
 - crunchbase: https://www.crunchbase.com/organization/bytedance
   description: KubeAdmiral is a multi-cluster scheduling and orchestration system
     for Kubernetes.

@@ -1,6 +1,6 @@
 # Summary for week_12_M
 
-This week has a total of 38 items.
+This week has a total of 40 items.
 
 
 - **App Definition And Development Streaming Messaging**: 1 items
@@ -23,9 +23,9 @@ This week has a total of 38 items.
 
 - **Provisioning Security Compliance**: 2 items
 
-- **Observability And Analysis Observability**: 3 items
+- **Observability And Analysis Observability**: 4 items
 
-- **Orchestration Management Api Gateway**: 1 items
+- **Orchestration Management Api Gateway**: 2 items
 
 - **App Definition And Development Application Definition Image Build**: 3 items
 

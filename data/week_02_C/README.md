@@ -1,6 +1,6 @@
 # Summary for week_02_C
 
-This week has a total of 80 items.
+This week has a total of 81 items.
 
 
 - **App Definition And Development Continuous Integration Delivery**: 2 items
@@ -31,7 +31,7 @@ This week has a total of 80 items.
 
 - **Platform Certified Kubernetes Distribution**: 2 items
 
-- **Provisioning Security Compliance**: 9 items
+- **Provisioning Security Compliance**: 10 items
 
 - **Observability And Analysis Observability**: 4 items
 

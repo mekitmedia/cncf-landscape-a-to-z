@@ -1,6 +1,6 @@
 # Summary for week_07_H
 
-This week has a total of 24 items.
+This week has a total of 25 items.
 
 
 - **App Definition And Development Continuous Integration Delivery**: 2 items
@@ -17,7 +17,7 @@ This week has a total of 24 items.
 
 - **Provisioning Security Compliance**: 1 items
 
-- **Observability And Analysis Observability**: 3 items
+- **Observability And Analysis Observability**: 4 items
 
 - **Orchestration Management Api Gateway**: 2 items
 
