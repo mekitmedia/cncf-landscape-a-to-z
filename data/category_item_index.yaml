@@ -25,6 +25,7 @@ App Definition and Development:
   - kaniko
   - Kapeta
   - ko
+  - kubefwd
   - Konveyor
   - KOTS
   - KubeDiagrams
@@ -276,7 +277,7 @@ CNAI:
   - Weight and Biases (wandb)
 CNCF Members:
   Academic: []
-  End User Supporter: []
+  End User Supporter and Contributor: []
   Gold: []
   Nonprofit: []
   Platinum: []
@@ -321,6 +322,7 @@ Observability and Analysis:
   - Embrace
   - Falcon
   - Fluentd
+  - Gonzo
   - Grafana
   - Grafana Loki
   - Grafana Mimir
@@ -329,6 +331,7 @@ Observability and Analysis:
   - Graphite
   - Graylog
   - Headlamp
+  - HolmesGPT
   - HertzBeat
   - Hubble
   - Icinga
@@ -348,6 +351,7 @@ Observability and Analysis:
   - Logging Operator (Kube Logging)
   - Logstash
   - M3
+  - Mermin
   - Micrometer
   - Monocle
   - Nagios
@@ -405,6 +409,7 @@ Orchestration & Management:
   - KubeGateway
   - Kusk Gateway
   - Lunar.dev
+  - Membrane
   - MuleSoft
   - ngrok
   - Reactive Interaction Gateway
@@ -510,6 +515,7 @@ Orchestration & Management:
   - STUNner
   - Tengine
 Platform:
+  Certified Kubernetes - AI Platform: []
   Certified Kubernetes - Distribution:
   - Amazon Elastic Kubernetes Service Distro (Amazon EKS-D)
   - Canonical Charmed Kubernetes
@@ -653,6 +659,7 @@ Provisioning:
   - Boundary
   - bpfman
   - Cartography
+  - Cedar
   - Cerbos
   - cert-manager
   - Checkov

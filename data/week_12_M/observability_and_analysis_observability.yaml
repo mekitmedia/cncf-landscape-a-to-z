@@ -4,6 +4,15 @@
   logo: m3.svg
   name: M3
   repo_url: https://github.com/m3db/m3
+- crunchbase: https://www.crunchbase.com/organization/elastiflow
+  description: "Mermin is a Kubernetes-native network observability tool that uses\
+    \ eBPF exports OpenTelemetry Flow Traces, to provide deep visibility into your\
+    \ cluster\u2019s network communications with zero application changes required."
+  homepage_url: https://github.com/elastiflow/mermin
+  item: null
+  logo: elastiflow-mermin.svg
+  name: Mermin
+  repo_url: https://github.com/elastiflow/mermin
 - crunchbase: https://www.crunchbase.com/organization/vmware
   description: As an instrumentation facade, Micrometer allows you to instrument your
     code with dimensional metrics with a vendor-neutral interface and decide on the

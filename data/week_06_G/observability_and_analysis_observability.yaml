@@ -1,3 +1,16 @@
+- crunchbase: https://www.crunchbase.com/organization/controltheory
+  description: "Gonzo is a powerful, real-time log analysis terminal UI inspired by\
+    \ k9s. Analyze log streams with beautiful charts, AI-powered insights, and advanced\
+    \ filtering \u2013 all from your terminal."
+  extra:
+    ai: true
+    slack_url: https://ctrltheorycommunity.slack.com/
+  homepage_url: https://www.controltheory.com/gonzo/
+  item: null
+  logo: gonzo.svg
+  name: Gonzo
+  open_source: true
+  repo_url: https://github.com/control-theory/gonzo
 - crunchbase: https://www.crunchbase.com/organization/raintank
   description: Grafana allows you to query, visualize, alert on and understand your
     metrics no matter where they are stored. Create, explore, and share beautiful
