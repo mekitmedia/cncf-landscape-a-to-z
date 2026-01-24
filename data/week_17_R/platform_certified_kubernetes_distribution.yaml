@@ -6,6 +6,8 @@
   logo: rancher.svg
   name: Rancher Kubernetes
   repo_url: https://github.com/rancher/rancher
+  second_path:
+  - Platform / Certified Kubernetes - AI Platform
 - crunchbase: https://www.crunchbase.com/organization/red-hat
   description: A component of Red Hat Device Edge used to provide lightweight Kubernetes
     container orchestration in field deployed devices at the far edge
@@ -22,6 +24,8 @@
   logo: red-hat-open-shift.svg
   name: Red Hat OpenShift
   repo_url: https://github.com/openshift/kubernetes
+  second_path:
+  - Platform / Certified Kubernetes - AI Platform
   twitter: https://twitter.com/openshift
 - crunchbase: https://www.crunchbase.com/organization/suse
   description: A Kubernetes distribution focused on enabling Federal government compliance-based

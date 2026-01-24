@@ -76,6 +76,7 @@
     - Boundary
     - bpfman
     - Cartography
+    - Cedar
     - Cerbos
     - cert-manager
     - Checkov
@@ -356,6 +357,7 @@
     - KubeGateway
     - Kusk Gateway
     - Lunar.dev
+    - Membrane
     - MuleSoft
     - ngrok
     - Reactive Interaction Gateway
@@ -507,6 +509,7 @@
     - kaniko
     - Kapeta
     - ko
+    - kubefwd
     - Konveyor
     - KOTS
     - KubeDiagrams
@@ -641,6 +644,9 @@
     - Sidero Talos Linux
     path: platform_certified_kubernetes_installer
     subcategory: Certified Kubernetes - Installer
+  - items: []
+    path: platform_certified_kubernetes_ai_platform
+    subcategory: Certified Kubernetes - AI Platform
   - items:
     - Akka
     - Cloud Foundry Application Runtime
@@ -751,6 +757,7 @@
     - Embrace
     - Falcon
     - Fluentd
+    - Gonzo
     - Grafana
     - Grafana Loki
     - Grafana Mimir
@@ -759,6 +766,7 @@
     - Graphite
     - Graylog
     - Headlamp
+    - HolmesGPT
     - HertzBeat
     - Hubble
     - Icinga
@@ -778,6 +786,7 @@
     - Logging Operator (Kube Logging)
     - Logstash
     - M3
+    - Mermin
     - Micrometer
     - Monocle
     - Nagios
@@ -845,8 +854,8 @@
     path: cncf_members_nonprofit
     subcategory: Nonprofit
   - items: []
-    path: cncf_members_end_user_supporter
-    subcategory: End User Supporter
+    path: cncf_members_end_user_supporter_and_contributor
+    subcategory: End User Supporter and Contributor
 - category: Wasm
   subcategories:
   - items:

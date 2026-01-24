@@ -12,8 +12,24 @@
   item: null
   logo: headlamp.svg
   name: Headlamp
+  project: sandbox
   repo_url: https://github.com/kubernetes-sigs/headlamp
   twitter: https://twitter.com/headlamp_ui
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: HolmesGPT is an AI agent that automates cloud-native troubleshooting,
+    bridging knowledge gaps by investigating alerts, executing runbooks, and correlating
+    observability data in cloud-native platforms.
+  extra:
+    accepted: '2025-10-08'
+    ai: true
+    clomonitor_name: holmesgpt
+    lfx_slug: holmesgpt
+  homepage_url: https://holmesgpt.dev
+  item: null
+  logo: holmesgpt.svg
+  name: HolmesGPT
+  project: sandbox
+  repo_url: https://github.com/HolmesGPT/holmesgpt
 - crunchbase: https://www.crunchbase.com/organization/apache
   description: Apache HertzBeat (Incubating) is an open-source, real-time monitoring
     system with custom monitoring, high performance cluster and agentless capabilities.

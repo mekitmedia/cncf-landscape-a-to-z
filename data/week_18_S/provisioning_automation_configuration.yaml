@@ -5,7 +5,14 @@
   name: Salt Project
   repo_url: https://github.com/saltstack/salt
   twitter: https://twitter.com/Salt_Project_OS
-- crunchbase: https://www.crunchbase.com/organization/nokia
+- additional_repos:
+  - repo_url: https://github.com/sdcio/data-server
+  - repo_url: https://github.com/sdcio/config-server
+  - repo_url: https://github.com/sdcio/schema-server
+  - repo_url: https://github.com/sdcio/sdc-lite
+  - repo_url: https://github.com/sdcio/kubectl-sdcio
+  - repo_url: https://github.com/sdcio/logger
+  crunchbase: https://www.crunchbase.com/organization/nokia
   description: SDC (schema Driven Configuration) exposes any schema based configuration
     as Kubernetes resources.
   extra:
