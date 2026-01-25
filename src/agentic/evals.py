@@ -3,7 +3,7 @@ import os
 from pydantic import BaseModel, Field
 from pydantic_ai import Agent
 from pydantic_ai.models.gemini import GeminiModel
-from src.agentic.agents import researcher_agent
+from src.agentic.agents.researcher import researcher_agent
 from src.agentic.models import ProjectMetadata, ResearchOutput
 
 # Judge Model

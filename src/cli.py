@@ -14,7 +14,7 @@ class RunCommands:
         Example: python src/cli.py run agent researcher --project_name="Kubernetes"
         """
         import asyncio
-        from src.agentic.agents import researcher_agent
+        from src.agentic.agents.researcher import researcher_agent
         from src.agentic.models import ProjectMetadata
 
         async def run_agent():
@@ -41,7 +41,7 @@ class RunCommands:
             elif name == "writer":
                 print("Writer agent CLI support is limited due to complex input requirements.")
             elif name == "editor":
-                from src.agentic.agents import editor_agent
+                from src.agentic.agents.editor import editor_agent
                 print("Running EditorAgent...")
                 try:
                     result = await editor_agent.run("Please decide the next week to tackle.")

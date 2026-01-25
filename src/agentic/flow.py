@@ -3,7 +3,9 @@ import os
 from datetime import datetime
 from typing import List, Optional
 from prefect import flow, task, get_run_logger
-from src.agentic.agents import researcher_agent, writer_agent, editor_agent
+from src.agentic.agents.researcher import researcher_agent
+from src.agentic.agents.writer import writer_agent
+from src.agentic.agents.editor import editor_agent
 from src.agentic.models import ResearchOutput, BlogPostDraft, NextWeekDecision, ProjectMetadata
 from src.pipeline.extract import get_landscape_data
 from src.pipeline.transform import get_landscape_by_letter
@@ -24,25 +26,70 @@ async def get_items_for_week(letter: str) -> List[ProjectMetadata]:
     logger = get_run_logger()
     logger.info(f"Getting items for letter {letter}")
 
-    input_path = "https://raw.githubusercontent.com/cncf/landscape/master/landscape.yml"
+    # Try to read from generated tasks first (output of ETL pipeline)
+    # The ETL pipeline generates data/week_XX_Letter/tasks.yaml
+    # We need to find the correct week folder.
 
-    # Run blocking sync calls in a thread
-    def _fetch_and_transform():
-        landscape = get_landscape_data(input_path)
-        return get_landscape_by_letter(landscape)
+    import glob
+    import yaml
 
-    landscape_by_letter = await asyncio.to_thread(_fetch_and_transform)
+    # Find folder pattern week_*_{letter}
+    week_folders = glob.glob(f"data/week_*_{letter}")
 
-    data = landscape_by_letter.get(letter, {})
     items = []
-    if 'partial' in data:
-        for path, item_list in data['partial'].items():
-            for item in item_list:
-                items.append(ProjectMetadata(
-                    name=item.get('name'),
-                    repo_url=item.get('repo_url'),
-                    homepage=item.get('homepage_url')
-                ))
+
+    if week_folders:
+        # We found generated data. Use it.
+        week_folder = week_folders[0] # Assume one match per letter
+        logger.info(f"Using ETL output from {week_folder}")
+
+        # We need to read the partial data files to get metadata, as tasks.yaml only has names.
+        # However, the user asked "Where does the agent read the item to process (aka the output of the etl pipeline)?"
+        # The ETL output is split into many yaml files.
+        # Let's read all yaml files in that folder except tasks.yaml and README.md
+
+        yaml_files = glob.glob(f"{week_folder}/*.yaml")
+        for yf in yaml_files:
+            if yf.endswith("tasks.yaml"):
+                continue
+
+            try:
+                with open(yf, 'r') as f:
+                    data = yaml.safe_load(f)
+                    # data is a list of items
+                    if isinstance(data, list):
+                        for item in data:
+                             items.append(ProjectMetadata(
+                                name=item.get('name'),
+                                repo_url=item.get('repo_url'),
+                                homepage=item.get('homepage_url')
+                            ))
+            except Exception as e:
+                 logger.error(f"Error reading {yf}: {e}")
+
+    else:
+        # Fallback to fetching raw data if ETL hasn't run or data missing
+        logger.warning("ETL output not found. Falling back to fetching raw landscape data.")
+        input_path = "https://raw.githubusercontent.com/cncf/landscape/master/landscape.yml"
+
+        # Run blocking sync calls in a thread
+        def _fetch_and_transform():
+            from src.pipeline.extract import get_landscape_data
+            from src.pipeline.transform import get_landscape_by_letter
+            landscape = get_landscape_data(input_path)
+            return get_landscape_by_letter(landscape)
+
+        landscape_by_letter = await asyncio.to_thread(_fetch_and_transform)
+
+        data = landscape_by_letter.get(letter, {})
+        if 'partial' in data:
+            for path, item_list in data['partial'].items():
+                for item in item_list:
+                    items.append(ProjectMetadata(
+                        name=item.get('name'),
+                        repo_url=item.get('repo_url'),
+                        homepage=item.get('homepage_url')
+                    ))
 
     # Sort by name
     items.sort(key=lambda x: x.name)
