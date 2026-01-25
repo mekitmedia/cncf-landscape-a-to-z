@@ -54,7 +54,7 @@ jobs:
       run: pip install -r requirements.txt
 
     - name: Run script
-      run: python src/cli.py run etl
+      run: PYTHONPATH=. python src/cli.py run etl
 
     - name: Commit and push changes
       if: github.event_name == 'pull_request'

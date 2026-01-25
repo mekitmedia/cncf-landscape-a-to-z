@@ -34,7 +34,7 @@ jobs:
           if [ "${{ inputs.limit }}" != "" ]; then
             limit_arg="--limit=${{ inputs.limit }}"
           fi
-          python src/cli.py run workflow $limit_arg
+          PYTHONPATH=. python src/cli.py run workflow $limit_arg
 
       - name: Commit and Push changes
         uses: stefanzweifel/git-auto-commit-action@v5
