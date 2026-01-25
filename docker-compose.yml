@@ -1,0 +1,24 @@
+services:
+  prefect-server:
+    image: prefecthq/prefect:3-latest
+    restart: always
+    volumes:
+      - prefect:/root/.prefect
+    ports:
+      - 4200:4200
+    environment:
+      - PREFECT_SERVER_API_HOST=0.0.0.0
+
+  app:
+    build: .
+    volumes:
+      - .:/app
+    environment:
+      - PREFECT_API_URL=http://prefect-server:4200/api
+      - GOOGLE_API_KEY=${GOOGLE_API_KEY}
+    depends_on:
+      - prefect-server
+    command: /bin/bash -c "python src/cli.py run workflow --limit=5"
+
+volumes:
+  prefect:

@@ -3,7 +3,7 @@ import tempfile
 import shutil
 import os
 import yaml
-from main import Cli
+from src.legacy_main import Cli
 
 class TestMain(unittest.TestCase):
     def setUp(self):
