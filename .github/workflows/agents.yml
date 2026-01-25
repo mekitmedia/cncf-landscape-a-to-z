@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       limit:
-        description: 'Limit number of weeks to process'
+        description: 'Max number of weeks to process per run'
         required: false
         default: '1'
         type: string

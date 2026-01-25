@@ -7,52 +7,16 @@ class RunCommands:
         """Runs the legacy ETL pipeline."""
         LegacyCli().run(input_path, output_dir)
 
-    def agent(self, name, **kwargs):
+    def agent(self, name, port: int = 8000, **kwargs):
         """
-        Runs a specific agent.
-        Usage: python src/cli.py run agent <name> --arg1=val1
-        Example: python src/cli.py run agent researcher --project_name="Kubernetes"
+        Starts the web UI for a specific agent.
+        Usage: python src/cli.py run agent <name> [--port=8000]
         """
-        import asyncio
-        from src.agentic.agents.researcher import researcher_agent
-        from src.agentic.models import ProjectMetadata
-
-        async def run_agent():
-            if name == "researcher":
-                project_name = kwargs.get("project_name")
-                if not project_name:
-                    print("Error: --project_name is required for researcher agent.")
-                    return
-
-                # Create metadata
-                item = ProjectMetadata(name=project_name)
-
-                print(f"Running ResearcherAgent for {project_name}...")
-                try:
-                    result = await researcher_agent.run(
-                        f"Research the project: {project_name}",
-                        deps=item
-                    )
-                    print("Result:")
-                    print(result.data)
-                except Exception as e:
-                    print(f"Error running agent: {e}")
-
-            elif name == "writer":
-                print("Writer agent CLI support is limited due to complex input requirements.")
-            elif name == "editor":
-                from src.agentic.agents.editor import editor_agent
-                print("Running EditorAgent...")
-                try:
-                    result = await editor_agent.run("Please decide the next week to tackle.")
-                    print("Result:")
-                    print(result.data)
-                except Exception as e:
-                    print(f"Error running agent: {e}")
-            else:
-                print(f"Unknown agent: {name}")
-
-        asyncio.run(run_agent())
+        from src.agentic.ui import run_ui
+        try:
+            run_ui(name, port)
+        except Exception as e:
+            print(f"Error starting UI: {e}")
 
     def workflow(self, limit: int = None):
         """
