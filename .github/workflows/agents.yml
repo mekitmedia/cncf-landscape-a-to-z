@@ -24,6 +24,7 @@ jobs:
 
       - name: Install dependencies
         run: |
+          # Using UV for faster dependency installation
           pip install uv
           uv pip install --system -r requirements.txt
 
