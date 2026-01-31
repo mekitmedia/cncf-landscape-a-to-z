@@ -7,7 +7,7 @@ on:
     branches:
       - main
     paths:
-      - 'main.py'
+      - 'src/legacy_main.py'
       - 'src/**'
       - 'requirements.txt'
       - 'requirements-dev.txt'
@@ -54,7 +54,7 @@ jobs:
       run: pip install -r requirements.txt
 
     - name: Run script
-      run: python main.py run
+      run: PYTHONPATH=. python src/cli.py run etl
 
     - name: Commit and push changes
       if: github.event_name == 'pull_request'

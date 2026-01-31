@@ -1,0 +1,52 @@
+# Git
+.git
+.gitignore
+.gitpod.yml
+
+# Data and temporary files
+data/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+
+# Testing
+tests/
+tests_frontend/
+notebooks/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Documentation
+docs/
+*.md
+!README.md
+
+# CI/CD
+.github/
+
+# Node modules (if any)
+node_modules/
+package-lock.json
+package.json
+
+# Environment
+.env
+.env.local
+
+# Misc
+*.log
+.DS_Store
+playwright.config.js
