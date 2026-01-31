@@ -43,18 +43,60 @@ def get_only_letter(x: str, landscape: list) -> dict:
         for c in landscape for sub in c['subcategories']
     }
 
+
+_TASKS_CACHE = {}
+
+
+def _get_cached_tasks_index(landscape: list) -> dict:
+    lid = id(landscape)
+    if lid in _TASKS_CACHE:
+        return _TASKS_CACHE[lid]
+
+    # Simple cache management: keep only recent landscapes.
+    if len(_TASKS_CACHE) > 5:
+        _TASKS_CACHE.clear()
+
+    index = {}
+    for c in landscape:
+        for sub in c['subcategories']:
+            for item in sub['items']:
+                if _is_valid_item(item):
+                    name = item['name']
+                    if not name:
+                        continue
+                    first_char = name[0]
+                    if first_char not in index:
+                        index[first_char] = []
+                    index[first_char].append(name)
+
+    for k in index:
+        index[k].sort()
+
+    _TASKS_CACHE[lid] = index
+    return index
+
+
 def get_tasks_for_letter(x: str, landscape: list) -> list:
     """
     This function returns a list of tasks (items) for a specific letter
     """
     logger.info(f"Getting tasks for letter {x}")
-    tasks = []
-    for c in landscape:
-        for sub in c['subcategories']:
-            for item in sub['items']:
-                if item['name'].startswith(x) and _is_valid_item(item):
-                    tasks.append(item['name'])
-    return sorted(tasks)
+    index = _get_cached_tasks_index(landscape)
+
+    if not x:
+        # Return all tasks if x is empty string
+        all_tasks = []
+        for tasks in index.values():
+            all_tasks.extend(tasks)
+        return sorted(all_tasks)
+
+    first_char = x[0]
+    potential_tasks = index.get(first_char, [])
+
+    if len(x) == 1:
+        return list(potential_tasks)
+
+    return [t for t in potential_tasks if t.startswith(x)]
 
 def get_categories(landscape: list) -> dict:
     """
