@@ -35,6 +35,7 @@ jobs:
         env:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
           LOGFIRE_TOKEN: ${{ secrets.LOGFIRE_TOKEN }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
         run: |
           limit_arg=""
           if [ "${{ inputs.limit }}" != "" ]; then
