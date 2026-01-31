@@ -7,7 +7,9 @@ from src.agentic.models import BlogPostDraft, ResearchOutput
 def get_model():
     api_key = os.getenv('GOOGLE_API_KEY')
     if not api_key:
-        return None
+        raise RuntimeError(
+            "GOOGLE_API_KEY environment variable is not set; cannot initialize GeminiModel for writer_agent."
+        )
     return GeminiModel('gemini-1.5-flash', api_key=api_key)
 
 model = get_model()
