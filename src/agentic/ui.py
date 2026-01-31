@@ -1,6 +1,8 @@
 # This file is used to run the agent UI
-import uvicorn
-from pydantic_ai import Agent
+import logging
+
+# Setup logger
+logger = logging.getLogger(__name__)
 
 def create_app(agent_name: str, **kwargs):
     if agent_name == "researcher":
@@ -16,8 +18,9 @@ def create_app(agent_name: str, **kwargs):
         raise ValueError(f"Unknown agent: {agent_name}")
 
 def run_ui(agent_name: str, port: int = 8000):
-    print(f"Starting UI for {agent_name} agent on port {port}...")
-    # We need to construct the app. Since uvicorn expects an app instance or import string,
-    # and to_web returns an ASGI app (Starlette), we can run it directly.
+    logger.info(f"Starting UI for {agent_name} agent on port {port}...")
+    # pydantic-ai-slim[web] provides built-in web UI support
+    # The to_web() method returns an ASGI app that can be run directly
+    import uvicorn
     app = create_app(agent_name)
     uvicorn.run(app, host="0.0.0.0", port=port)

@@ -4,7 +4,11 @@ from pydantic import BaseModel, Field
 from pydantic_ai import Agent
 from pydantic_ai.models.gemini import GeminiModel
 from src.agentic.agents.researcher import researcher_agent
-from src.agentic.models import ProjectMetadata, ResearchOutput
+from src.agentic.models import ProjectMetadata
+import logging
+
+# Setup logger
+logger = logging.getLogger(__name__)
 
 # Judge Model
 class EvaluationResult(BaseModel):
@@ -14,7 +18,7 @@ class EvaluationResult(BaseModel):
 async def evaluate_researcher():
     api_key = os.getenv('GOOGLE_API_KEY')
     if not api_key:
-        print("GOOGLE_API_KEY not set, skipping eval.")
+        logger.warning("GOOGLE_API_KEY not set, skipping eval.")
         return
 
     model = GeminiModel('gemini-1.5-flash', api_key=api_key)
@@ -32,27 +36,26 @@ async def evaluate_researcher():
         homepage="https://kubernetes.io"
     )
 
-    print(f"Running ResearcherAgent for {test_item.name}...")
+    logger.info(f"Running ResearcherAgent for {test_item.name}...")
     try:
-        # We assume the agent can use the search tool in this environment.
         result = await researcher_agent.run(
             f"Research the project: {test_item.name}",
             deps=test_item
         )
         research_output = result.data
-        print("Research Output:", research_output)
+        logger.info(f"Research Output: {research_output}")
 
         # Evaluate
-        print("Evaluating output...")
+        logger.info("Evaluating output...")
         eval_result = await judge_agent.run(
             f"Evaluate this research output for project 'Kubernetes':\n{research_output.model_dump_json()}",
         )
 
-        print(f"Score: {eval_result.data.score}")
-        print(f"Feedback: {eval_result.data.feedback}")
+        logger.info(f"Score: {eval_result.data.score}")
+        logger.info(f"Feedback: {eval_result.data.feedback}")
 
     except Exception as e:
-        print(f"Eval failed: {e}")
+        logger.error(f"Eval failed: {e}")
 
 if __name__ == "__main__":
     asyncio.run(evaluate_researcher())

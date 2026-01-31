@@ -1,5 +1,7 @@
 import asyncio
 import os
+import glob
+import yaml
 from datetime import datetime
 from typing import List, Optional
 from prefect import flow, task, get_run_logger
@@ -7,8 +9,6 @@ from src.agentic.agents.researcher import researcher_agent
 from src.agentic.agents.writer import writer_agent
 from src.agentic.agents.editor import editor_agent
 from src.agentic.models import ResearchOutput, BlogPostDraft, NextWeekDecision, ProjectMetadata
-from src.pipeline.extract import get_landscape_data
-from src.pipeline.transform import get_landscape_by_letter
 
 @task
 async def determine_next_week() -> NextWeekDecision:
@@ -26,53 +26,46 @@ async def get_items_for_week(letter: str) -> List[ProjectMetadata]:
     logger = get_run_logger()
     logger.info(f"Getting items for letter {letter}")
 
-    # Try to read from generated tasks first (output of ETL pipeline)
+    # Read from generated tasks (output of ETL pipeline)
     # The ETL pipeline generates data/week_XX_Letter/tasks.yaml
-    # We need to find the correct week folder.
-
-    import glob
-    import yaml
-
-    # Find folder pattern week_*_{letter}
     week_folders = glob.glob(f"data/week_*_{letter}")
 
     items = []
 
     if week_folders:
-        # We found generated data. Use it.
-        week_folder = week_folders[0] # Assume one match per letter
+        week_folder = week_folders[0]
         logger.info(f"Using ETL output from {week_folder}")
 
-        # We need to read the partial data files to get metadata, as tasks.yaml only has names.
-        # However, the user asked "Where does the agent read the item to process (aka the output of the etl pipeline)?"
-        # The ETL output is split into many yaml files.
-        # Let's read all yaml files in that folder except tasks.yaml and README.md
-
+        # Read all yaml files in that folder except tasks.yaml
         yaml_files = glob.glob(f"{week_folder}/*.yaml")
         for yf in yaml_files:
             if yf.endswith("tasks.yaml"):
                 continue
 
             try:
-                with open(yf, 'r') as f:
+                with open(yf, 'r', encoding='utf-8') as f:
                     data = yaml.safe_load(f)
-                    # data is a list of items
                     if isinstance(data, list):
                         for item in data:
-                             items.append(ProjectMetadata(
+                            items.append(ProjectMetadata(
                                 name=item.get('name'),
                                 repo_url=item.get('repo_url'),
                                 homepage=item.get('homepage_url')
                             ))
+            except FileNotFoundError:
+                logger.error(f"File not found: {yf}")
+            except yaml.YAMLError as e:
+                logger.error(f"YAML parsing error in {yf}: {e}")
+            except UnicodeDecodeError as e:
+                logger.error(f"Encoding error while reading {yf}: {e}")
             except Exception as e:
-                 logger.error(f"Error reading {yf}: {e}")
+                logger.exception(f"Unexpected error while reading {yf}: {e}")
 
     else:
-        # Fallback to fetching raw data if ETL hasn't run or data missing
+        # Fallback to fetching raw data if ETL hasn't run
         logger.warning("ETL output not found. Falling back to fetching raw landscape data.")
         input_path = "https://raw.githubusercontent.com/cncf/landscape/master/landscape.yml"
 
-        # Run blocking sync calls in a thread
         def _fetch_and_transform():
             from src.pipeline.extract import get_landscape_data
             from src.pipeline.transform import get_landscape_by_letter
@@ -91,7 +84,6 @@ async def get_items_for_week(letter: str) -> List[ProjectMetadata]:
                         homepage=item.get('homepage_url')
                     ))
 
-    # Sort by name
     items.sort(key=lambda x: x.name)
     logger.info(f"Found {len(items)} items for letter {letter}")
     return items
@@ -151,14 +143,23 @@ draft: false
 
 @flow(name="Weekly Content Flow")
 async def weekly_content_flow(limit: Optional[int] = None):
+    """
+    Main workflow that processes CNCF projects week by week.
+    
+    Args:
+        limit: Maximum number of items to process across all weeks (default: unlimited).
+               Note: Each week can have up to 50 items, but limit applies to total items processed.
+    """
     logger = get_run_logger()
-    logger.info(f"Starting weekly content flow with limit={limit}")
+    logger.info(f"Starting weekly content flow with item limit={limit}")
 
-    tasks_run = 0
+    items_processed = 0
+    weeks_processed = 0
 
     while True:
-        if limit and tasks_run >= limit:
-            logger.info("Limit reached. Stopping.")
+        # Check if we've reached the item limit
+        if limit and items_processed >= limit:
+            logger.info(f"Item limit reached ({items_processed}/{limit}). Stopping.")
             break
 
         decision = await determine_next_week()
@@ -169,9 +170,9 @@ async def weekly_content_flow(limit: Optional[int] = None):
 
         week_letter = decision.week_letter
 
+        # Validate week letter
         if not (len(week_letter) == 1 and 'A' <= week_letter <= 'Z'):
             logger.error(f"Invalid week letter received from Editor: {week_letter}. Skipping.")
-            tasks_run += 1
             continue
 
         logger.info(f"Processing Week: {week_letter}")
@@ -179,35 +180,42 @@ async def weekly_content_flow(limit: Optional[int] = None):
         items = await get_items_for_week(week_letter)
 
         if not items:
-            logger.warning(f"No items found for week {week_letter}. Marking as done (saving empty placeholder?).")
-            # If we don't save, the Editor will pick it again next time.
-            # We should probably save a placeholder or handle this.
-            # For now, let's skip research and write an "empty" post or just skip.
-            # But if we skip, infinite loop!
-            # Let's save a placeholder.
-            await save_post(week_letter, BlogPostDraft(title=f"Week {week_letter}", content_markdown="No items found."))
-            tasks_run += 1
+            logger.warning(f"No items found for week {week_letter}. Saving placeholder.")
+            await save_post(
+                week_letter,
+                BlogPostDraft(title=f"CNCF Projects Starting with {week_letter} - Coming Soon", 
+                             content_markdown="No items found for this week yet. Check back later!")
+            )
+            weeks_processed += 1
             continue
 
-        # Research in parallel
-        # Note: Prefect tasks are better called with .submit() for parallelism in a flow,
-        # but in async flow, direct await with asyncio.gather works too if tasks are async.
-        # However, calling @task decorated functions directly in async flow behaves like normal async functions.
-        # To get Prefect tracking for sub-tasks properly:
-        # research_futures = [research_item.submit(item) for item in items]
-        # research_results = [await f.result() for f in research_futures] # Wait for them?
-        # Simpler is just direct call for now.
+        # Calculate how many items to process this week based on remaining limit
+        items_to_process = items
+        if limit:
+            remaining = limit - items_processed
+            if remaining < len(items):
+                items_to_process = items[:remaining]
+                logger.info(f"Processing {len(items_to_process)} of {len(items)} items due to limit")
 
-        research_tasks = [research_item(item) for item in items]
+        # Research items in parallel using asyncio.gather
+        research_tasks = [research_item(item) for item in items_to_process]
         research_results = await asyncio.gather(*research_tasks)
 
-        # Write
+        # Write the blog post
         draft = await write_weekly_post(week_letter, research_results)
 
-        # Save
+        # Save the post
         await save_post(week_letter, draft)
 
-        tasks_run += 1
+        items_processed += len(items_to_process)
+        weeks_processed += 1
+        limit_display = limit if limit is not None else 'unlimited'
+        logger.info(f"Completed week {week_letter}. Total items processed: {items_processed}/{limit_display}")
+
+        # If we've processed partial items for this week, we're done
+        if limit and items_processed >= limit:
+            logger.info(f"Item limit reached after processing week {week_letter}.")
+            break
 
 if __name__ == "__main__":
     asyncio.run(weekly_content_flow(limit=1))

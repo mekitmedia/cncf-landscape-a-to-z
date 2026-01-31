@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       limit:
-        description: 'Max number of weeks to process per run'
+        description: 'Max number of items to process across all weeks (up to 50 per week)'
         required: false
-        default: '1'
+        default: '50'
         type: string
 
 jobs:
@@ -24,7 +24,9 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install -r requirements.txt
+          # Using UV for faster dependency installation
+          pip install uv
+          uv pip install --system -r requirements.txt
 
       - name: Run Agent Workflow
         env:

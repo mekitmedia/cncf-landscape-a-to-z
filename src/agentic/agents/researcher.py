@@ -3,24 +3,32 @@ from pydantic_ai import Agent, RunContext
 from pydantic_ai.models.gemini import GeminiModel
 from duckduckgo_search import DDGS
 from src.agentic.models import ResearchOutput, ProjectMetadata
+import logging
+
+# Setup logger
+logger = logging.getLogger(__name__)
 
 def get_model():
     api_key = os.getenv('GOOGLE_API_KEY')
     if not api_key:
-        return None
+        raise RuntimeError(
+            "GOOGLE_API_KEY environment variable is not set. "
+            "Cannot initialize GeminiModel for researcher_agent."
+        )
     return GeminiModel('gemini-1.5-flash', api_key=api_key)
 
 model = get_model()
 
 def search_tool(ctx: RunContext, query: str) -> str:
     """Perform a web search using DuckDuckGo."""
-    print(f"Searching for: {query}")
+    logger.info(f"Searching for: {query}")
     try:
         with DDGS() as ddgs:
             # limiting to 3 results to save tokens/time
             results = list(ddgs.text(query, max_results=3))
             return str(results)
     except Exception as e:
+        logger.error(f"Search failed: {e}")
         return f"Search failed: {e}"
 
 researcher_agent = Agent(

@@ -17,4 +17,5 @@ COPY . .
 
 ENV PYTHONPATH=/app
 
-CMD ["python", "src/cli.py", "run", "workflow", "--limit=1"]
+# Default command runs the agent workflow with a limit of 50 items
+CMD ["python", "src/cli.py", "run", "workflow", "--limit=50", "--local"]
