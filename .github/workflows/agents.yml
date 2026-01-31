@@ -8,6 +8,7 @@ on:
         required: false
         default: '50'
         type: string
+  pull_request:
 
 jobs:
   run-agents:
@@ -16,6 +17,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event_name == 'pull_request' && github.head_ref || github.ref }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -31,6 +34,7 @@ jobs:
       - name: Run Agent Workflow
         env:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          LOGFIRE_TOKEN: ${{ secrets.LOGFIRE_TOKEN }}
         run: |
           limit_arg=""
           if [ "${{ inputs.limit }}" != "" ]; then
