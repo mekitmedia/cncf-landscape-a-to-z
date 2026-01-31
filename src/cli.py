@@ -63,6 +63,12 @@ if __name__ == '__main__':
     if os.getenv('LOGFIRE_TOKEN'):
         try:
             logfire.configure()
+            # Auto-instrument Pydantic and Pydantic AI
+            logfire.instrument_pydantic()
+            # Use 'if available' check or try/except block if concerned about version,
+            # but dir() showed it exists.
+            if hasattr(logfire, 'instrument_pydantic_ai'):
+                logfire.instrument_pydantic_ai()
             logger.info("Logfire configured successfully.")
         except Exception as e:
             logger.error(f"Failed to configure Logfire: {e}")
