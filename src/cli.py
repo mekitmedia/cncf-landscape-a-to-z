@@ -1,7 +1,14 @@
 import fire
 import asyncio
+import logging
 from src.legacy_main import Cli as LegacyCli
-from src.logger import logger
+
+# Setup logger
+logger = logging.getLogger(__name__)
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
 
 class RunCommands:
     def etl(self, input_path="https://raw.githubusercontent.com/cncf/landscape/master/landscape.yml", output_dir="data"):

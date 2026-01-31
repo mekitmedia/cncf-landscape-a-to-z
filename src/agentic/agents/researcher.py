@@ -3,7 +3,10 @@ from pydantic_ai import Agent, RunContext
 from pydantic_ai.models.gemini import GeminiModel
 from duckduckgo_search import DDGS
 from src.agentic.models import ResearchOutput, ProjectMetadata
-from src.logger import logger
+import logging
+
+# Setup logger
+logger = logging.getLogger(__name__)
 
 def get_model():
     api_key = os.getenv('GOOGLE_API_KEY')

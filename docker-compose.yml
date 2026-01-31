@@ -12,13 +12,13 @@ services:
   app:
     build: .
     volumes:
-      - .:/app
+      - .:/app  # Mount for development - remove for production
     environment:
       - PREFECT_API_URL=http://prefect-server:4200/api
       - GOOGLE_API_KEY=${GOOGLE_API_KEY}
     depends_on:
       - prefect-server
-    command: /bin/bash -c "python src/cli.py run workflow --limit=5"
+    command: /bin/bash -c "python src/cli.py run workflow --limit=50"
 
 volumes:
   prefect:

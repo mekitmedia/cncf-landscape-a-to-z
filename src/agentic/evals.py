@@ -5,7 +5,10 @@ from pydantic_ai import Agent
 from pydantic_ai.models.gemini import GeminiModel
 from src.agentic.agents.researcher import researcher_agent
 from src.agentic.models import ProjectMetadata
-from src.logger import logger
+import logging
+
+# Setup logger
+logger = logging.getLogger(__name__)
 
 # Judge Model
 class EvaluationResult(BaseModel):

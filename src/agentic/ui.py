@@ -1,5 +1,8 @@
 # This file is used to run the agent UI
-from src.logger import logger
+import logging
+
+# Setup logger
+logger = logging.getLogger(__name__)
 
 def create_app(agent_name: str, **kwargs):
     if agent_name == "researcher":
