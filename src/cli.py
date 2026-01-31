@@ -1,6 +1,8 @@
 import fire
 import asyncio
 import logging
+import os
+import logfire
 from src.legacy_main import Cli as LegacyCli
 
 # Setup logger
@@ -57,4 +59,12 @@ class Cli:
         self.run = RunCommands()
 
 if __name__ == '__main__':
+    # Configure Logfire if token is present
+    if os.getenv('LOGFIRE_TOKEN'):
+        try:
+            logfire.configure()
+            logger.info("Logfire configured successfully.")
+        except Exception as e:
+            logger.error(f"Failed to configure Logfire: {e}")
+
     fire.Fire(Cli)

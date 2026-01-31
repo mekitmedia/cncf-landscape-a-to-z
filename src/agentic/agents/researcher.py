@@ -1,4 +1,5 @@
 import os
+import logfire
 from pydantic_ai import Agent, RunContext
 from pydantic_ai.models.gemini import GeminiModel
 from duckduckgo_search import DDGS
@@ -19,6 +20,7 @@ def get_model():
 
 model = get_model()
 
+@logfire.instrument
 def search_tool(ctx: RunContext, query: str) -> str:
     """Perform a web search using DuckDuckGo."""
     logger.info(f"Searching for: {query}")
