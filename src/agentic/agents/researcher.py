@@ -1,7 +1,7 @@
 import os
 import logfire
 from pydantic_ai import Agent, RunContext
-from pydantic_ai.models.gemini import GeminiModel
+from pydantic_ai.models.google import GoogleModel
 from duckduckgo_search import DDGS
 from src.agentic.models import ResearchOutput, ProjectMetadata
 import logging
@@ -14,10 +14,9 @@ def get_model():
     if not api_key:
         raise RuntimeError(
             "GOOGLE_API_KEY environment variable is not set. "
-            "Cannot initialize GeminiModel for researcher_agent."
+            "Cannot initialize GoogleModel for researcher_agent."
         )
-    os.environ['GEMINI_API_KEY'] = api_key
-    return GeminiModel('gemini-1.5-flash')
+    return GoogleModel('gemini-1.5-flash')
 
 model = get_model()
 
