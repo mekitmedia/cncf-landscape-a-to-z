@@ -209,7 +209,8 @@ async def weekly_content_flow(limit: Optional[int] = None):
 
         items_processed += len(items_to_process)
         weeks_processed += 1
-        logger.info(f"Completed week {week_letter}. Total items processed: {items_processed}/{limit or 'unlimited'}")
+        limit_display = limit if limit is not None else 'unlimited'
+        logger.info(f"Completed week {week_letter}. Total items processed: {items_processed}/{limit_display}")
 
         # If we've processed partial items for this week, we're done
         if limit and items_processed >= limit:

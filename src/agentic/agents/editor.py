@@ -20,7 +20,7 @@ def check_week_status(ctx: RunContext, week_letter: str) -> str:
     """Checks if the blog post for the given week letter exists."""
     # Validate input to prevent path traversal
     if not (len(week_letter) == 1 and 'A' <= week_letter <= 'Z'):
-        return f"Invalid week letter: {week_letter}"
+        return "Invalid week letter provided"
     
     posts_dir = "website/content/posts"
     if not os.path.exists(posts_dir):
@@ -59,7 +59,7 @@ def read_week_summary(ctx: RunContext, week_letter: str) -> str:
     """Reads the README.md summary for a specific week's data to understand workload."""
     # Validate input to prevent path traversal
     if not (len(week_letter) == 1 and 'A' <= week_letter <= 'Z'):
-        return f"Invalid week letter: {week_letter}"
+        return "Invalid week letter provided"
     
     # Pattern: data/week_*_{week_letter}/README.md
     pattern = f"data/week_*_{week_letter}/README.md"
