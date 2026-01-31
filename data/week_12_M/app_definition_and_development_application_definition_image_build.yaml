@@ -1,3 +1,12 @@
+- crunchbase: https://www.crunchbase.com/organization/apache-software-foundation
+  description: Apache Maven is a software project management and comprehension tool.
+    Based on the concept of a project object model (POM), Maven can manage a project's
+    build, reporting and documentation from a central piece of information.
+  homepage_url: https://maven.apache.org/
+  item: null
+  logo: maven.svg
+  name: Maven
+  repo_url: https://github.com/apache/maven
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   extra:
     accepted: '2023-06-22'
