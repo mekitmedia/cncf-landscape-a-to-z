@@ -16,7 +16,8 @@ def get_model():
             "GOOGLE_API_KEY environment variable is not set. "
             "Cannot initialize GeminiModel for researcher_agent."
         )
-    return GeminiModel('gemini-1.5-flash', api_key=api_key)
+    os.environ['GEMINI_API_KEY'] = api_key
+    return GeminiModel('gemini-1.5-flash')
 
 model = get_model()
 
