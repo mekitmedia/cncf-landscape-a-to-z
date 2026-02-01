@@ -11,7 +11,7 @@
         <div class="h-4 w-px bg-slate-300"></div>
         <div class="flex items-center gap-2 text-sm bg-blue-50 text-blue-700 px-3 py-1 rounded-full font-semibold">
             <i data-lucide="check-circle-2" class="w-4 h-4"></i>
-            <span>Week {{ .Params.week | default "0" }} of 52</span>
+            <span>Week {{ add (.Params.week | default 0) 1 }} of 26</span>
         </div>
     </div>
 </nav>

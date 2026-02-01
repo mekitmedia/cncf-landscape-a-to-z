@@ -3,7 +3,7 @@
         <i data-lucide="chevron-left" class="w-5 h-5"></i> Back to Overview
     </a>
     <div class="text-slate-400 text-sm font-medium">
-        Letter {{ .Params.letter }}
+        Letter {{ .Params.letter | default "A" }}
     </div>
     <!-- Placeholder for alignment -->
     <div class="w-24"></div>

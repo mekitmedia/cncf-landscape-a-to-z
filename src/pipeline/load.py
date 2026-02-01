@@ -38,7 +38,9 @@ def save_tasks(tasks: list, letter: str, index: int, output_dir: str = "data"):
 
 def generate_summary(output_dir: str = "data", landscape_by_letter: dict = None):
     """
-    This function generates a README.md file with a summary of the week's data.
+    This function generates a summary.md file with a summary of the week's data.
+    Note: Changed from README.md to summary.md to avoid conflicts with Hugo's
+    data directory parsing, which tries to load all files including README.md.
     """
     template_loader = jinja2.FileSystemLoader(searchpath="./src/templates")
     template_env = jinja2.Environment(loader=template_loader)
@@ -70,9 +72,9 @@ def generate_summary(output_dir: str = "data", landscape_by_letter: dict = None)
                 items_per_category=items_per_category
             )
 
-            readme_path = week_dir / "README.md"
-            logger.info(f"Generating weekly summary at {readme_path}")
-            with open(readme_path, 'w+') as f:
+            summary_path = week_dir / "summary.md"
+            logger.info(f"Generating weekly summary at {summary_path}")
+            with open(summary_path, 'w+') as f:
                 f.write(summary_content)
         return
 
@@ -102,14 +104,34 @@ def generate_summary(output_dir: str = "data", landscape_by_letter: dict = None)
             items_per_category=items_per_category
         )
 
-        readme_path = week_dir / "README.md"
-        logger.info(f"Generating weekly summary at {readme_path}")
-        with open(readme_path, 'w+') as f:
+        summary_path = week_dir / "summary.md"
+        logger.info(f"Generating weekly summary at {summary_path}")
+        with open(summary_path, 'w+') as f:
             f.write(summary_content)
 
 def generate_letter_pages(output_dir: str = "website/content"):
     """
-    Generates content pages for each letter in the website/content directory.
+    Generates Hugo-style content pages for each letter A–Z under
+    ``{output_dir}/letters/``.
+
+    For each letter, this function creates a directory
+    ``{output_dir}/letters/<LETTER>/`` containing an ``_index.md`` file.
+    That file consists of YAML front matter with the fields:
+
+    - ``title``: Human-readable title (e.g. "Week 1: Letter A").
+    - ``letter``: The uppercase letter (A–Z).
+    - ``week``: Zero-based week index (0–25).
+    - ``data_key``: Key of the corresponding week's data directory,
+      formatted as ``week_{week_num}_{letter}`` (e.g. ``week_00_A``),
+      matching the directory names produced by the data pipeline
+      (such as via ``save_partial_data`` / ``save_tasks``).
+    - ``layout``: The Hugo layout to use (set to ``"list"``).
+
+    In addition, a root ``_index.md`` is created in
+    ``{output_dir}/letters/`` that defines the "All Letters" section.
+    
+    Args:
+        output_dir: Base output directory path (default: "website/content")
     """
     logger.info("Generating letter pages")
     letters_dir = Path(output_dir) / "letters"
@@ -124,7 +146,7 @@ def generate_letter_pages(output_dir: str = "website/content"):
         letter_dir.mkdir(exist_ok=True)
 
         content = f"""---
-title: "Week {index}: Letter {letter}"
+title: "Week {index + 1}: Letter {letter}"
 letter: "{letter}"
 week: {index}
 data_key: "week_{week_num}_{letter}"

@@ -22,14 +22,14 @@
     document.addEventListener('DOMContentLoaded', () => {
         const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
         let currentLetter = 'A';
-        let progress = 1; // A is 1st
+        let progress = 0; // A is week 0
 
         const alphabetContainer = document.getElementById('alphabet-container');
         const progressText = document.getElementById('progress-text');
 
         function handleLetterClick(letter, idx) {
             currentLetter = letter;
-            progress = idx + 1;
+            progress = idx;
             updateView(letter);
             renderAlphabet();
         }
@@ -38,7 +38,7 @@
             alphabetContainer.innerHTML = '';
             alphabet.forEach((letter, idx) => {
                 const isActive = letter === currentLetter;
-                const isCompleted = idx + 1 < progress;
+                const isCompleted = idx < progress;
 
                 const btn = document.createElement('button');
                 btn.textContent = letter;
@@ -59,7 +59,7 @@
 
                 alphabetContainer.appendChild(btn);
             });
-            progressText.textContent = `${Math.round((progress / 26) * 100)}% Complete`;
+            progressText.textContent = `${Math.round(((progress + 1) / 26) * 100)}% Complete`;
         }
 
         function updateView(letter) {
