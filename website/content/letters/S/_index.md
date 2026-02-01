@@ -1,0 +1,7 @@
+---
+title: "Week 18: Letter S"
+letter: "S"
+week: 18
+data_key: "week_18_S"
+layout: "list"
+---

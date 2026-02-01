@@ -106,3 +106,30 @@ def generate_summary(output_dir: str = "data", landscape_by_letter: dict = None)
         logger.info(f"Generating weekly summary at {readme_path}")
         with open(readme_path, 'w+') as f:
             f.write(summary_content)
+
+def generate_letter_pages(output_dir: str = "website/content"):
+    """
+    Generates content pages for each letter in the website/content directory.
+    """
+    logger.info("Generating letter pages")
+    letters_dir = Path(output_dir) / "letters"
+    letters_dir.mkdir(parents=True, exist_ok=True)
+
+    for letter_code in range(ord('A'), ord('Z') + 1):
+        letter = chr(letter_code)
+        index = letter_code - ord('A')
+        week_num = str(index).zfill(2)
+
+        letter_dir = letters_dir / letter
+        letter_dir.mkdir(exist_ok=True)
+
+        content = f"""---
+title: "Week {index}: Letter {letter}"
+letter: "{letter}"
+week: {index}
+data_key: "week_{week_num}_{letter}"
+layout: "list"
+---
+"""
+        with open(letter_dir / "_index.md", "w") as f:
+            f.write(content)
