@@ -36,13 +36,45 @@ def save_tasks(tasks: list, letter: str, index: int, output_dir: str = "data"):
     with open(path, 'w+') as file:
         yaml.dump(tasks, file)
 
-def generate_summary(output_dir: str = "data"):
+def generate_summary(output_dir: str = "data", landscape_by_letter: dict = None):
     """
     This function generates a README.md file with a summary of the week's data.
     """
     template_loader = jinja2.FileSystemLoader(searchpath="./src/templates")
     template_env = jinja2.Environment(loader=template_loader)
     template = template_env.get_template("weekly_summary.md.j2")
+
+    if landscape_by_letter:
+        for letter, data in landscape_by_letter.items():
+            index = ord(letter) - ord('A')
+            week_dir_name = f"week_{str(index).zfill(2)}_{letter}"
+            week_dir = Path(output_dir) / week_dir_name
+
+            if not week_dir.is_dir():
+                continue
+
+            items_per_category = {}
+            total_items = 0
+
+            partial = data.get('partial', {})
+            for key, items in partial.items():
+                if items:
+                    category = key.replace('_', ' ').title()
+                    item_count = len(items)
+                    total_items += item_count
+                    items_per_category[category] = item_count
+
+            summary_content = template.render(
+                week_name=week_dir_name,
+                total_items=total_items,
+                items_per_category=items_per_category
+            )
+
+            readme_path = week_dir / "README.md"
+            logger.info(f"Generating weekly summary at {readme_path}")
+            with open(readme_path, 'w+') as f:
+                f.write(summary_content)
+        return
 
     for week_dir in Path(output_dir).glob("week_*"):
         if not week_dir.is_dir():

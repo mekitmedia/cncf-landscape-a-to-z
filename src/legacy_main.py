@@ -58,7 +58,7 @@ class Cli:
     excluded_items = get_items_without_repo_url(landscape)
     to_yaml(excluded_items, f"{output_dir}/excluded_items.yaml")
 
-    generate_summary(output_dir)
+    generate_summary(output_dir, landscape_by_letter)
 
     logger.info("Landscape processing finished")
 
