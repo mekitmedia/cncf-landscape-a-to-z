@@ -1,5 +1,4 @@
 import asyncio
-import logfire
 from typing import List, Optional
 from prefect import flow, task, get_run_logger
 from src.agentic.models import ResearchOutput, BlogPostDraft, NextWeekDecision, ProjectMetadata
@@ -7,7 +6,6 @@ from src.tracker import get_tracker
 from src.agentic.actions import decisions, weekly, research, writing
 
 @task
-@logfire.instrument
 async def determine_next_week() -> NextWeekDecision:
     logger = get_run_logger()
     logger.info("Asking Editor Agent for next week...")
@@ -16,7 +14,6 @@ async def determine_next_week() -> NextWeekDecision:
     return result
 
 @task
-@logfire.instrument
 async def get_items_for_week(letter: str, task_type: str = "research") -> List[ProjectMetadata]:
     """Get items with pending tasks for a specific week.
     
@@ -50,7 +47,6 @@ async def get_items_for_week(letter: str, task_type: str = "research") -> List[P
     return items
 
 @task
-@logfire.instrument
 async def research_item(item: ProjectMetadata, week_letter: str) -> ResearchOutput:
     """Research a single project and update tracker.
     
@@ -70,7 +66,6 @@ async def research_item(item: ProjectMetadata, week_letter: str) -> ResearchOutp
     return result
 
 @task
-@logfire.instrument
 async def write_weekly_post(week_letter: str, research_results: List[ResearchOutput]) -> BlogPostDraft:
     logger = get_run_logger()
     logger.info(f"Writing blog post for week {week_letter}")
@@ -79,7 +74,6 @@ async def write_weekly_post(week_letter: str, research_results: List[ResearchOut
     return draft
 
 @task
-@logfire.instrument
 async def save_post(week_letter: str, draft: BlogPostDraft):
     """Save blog post and update tracker."""
     logger = get_run_logger()
@@ -88,7 +82,6 @@ async def save_post(week_letter: str, draft: BlogPostDraft):
     logger.info(f"Blog post saved for week {week_letter}")
 
 @task
-@logfire.instrument
 async def save_research(week_letter: str, research: ResearchOutput):
     """Save individual research file to data/weeks/XX-Letter/research/{sanitized_name}.yaml
     and update tracker."""
@@ -98,7 +91,6 @@ async def save_research(week_letter: str, research: ResearchOutput):
     logger.info(f"Research saved for {research.project_name}")
 
 @flow(name="Weekly Content Flow")
-@logfire.instrument
 async def weekly_content_flow(limit: Optional[int] = None):
     """
     Main workflow that processes CNCF projects week by week.

@@ -1,5 +1,4 @@
 import glob
-import logfire
 import yaml
 from typing import List
 from pathlib import Path
@@ -7,7 +6,6 @@ from src.config import load_config, week_id
 from src.agentic.models import ProjectMetadata
 from src.tracker import get_tracker
 
-@logfire.instrument
 async def get_items_for_week(letter: str, task_type: str = "research") -> List[ProjectMetadata]:
     """Get items with pending tasks for a specific week.
 

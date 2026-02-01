@@ -27,7 +27,7 @@ class ContentEvaluation(BaseModel):
 async def evaluate_researcher():
     # Import here to avoid crash if API key is missing during module load
     try:
-        from src.agentic.tools.agents.researcher import researcher_agent
+        from src.agentic.agents.researcher import researcher_agent
     except Exception as e:
         logger.warning(f"Could not import researcher_agent: {e}")
         return

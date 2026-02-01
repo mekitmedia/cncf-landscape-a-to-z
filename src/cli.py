@@ -2,8 +2,8 @@ import fire
 import asyncio
 import logging
 import os
-import logfire
 from src.pipeline.runner import run_etl
+from src.agentic.observability import setup_observability
 
 # Setup logger
 logger = logging.getLogger(__name__)
@@ -59,18 +59,5 @@ class Cli:
         self.run = RunCommands()
 
 if __name__ == '__main__':
-    # Configure Logfire if token is present
-    if os.getenv('LOGFIRE_TOKEN'):
-        try:
-            logfire.configure()
-            # Auto-instrument Pydantic and Pydantic AI
-            logfire.instrument_pydantic()
-            # Use 'if available' check or try/except block if concerned about version,
-            # but dir() showed it exists.
-            if hasattr(logfire, 'instrument_pydantic_ai'):
-                logfire.instrument_pydantic_ai()
-            logger.info("Logfire configured successfully.")
-        except Exception as e:
-            logger.error(f"Failed to configure Logfire: {e}")
-
+    setup_observability()
     fire.Fire(Cli)

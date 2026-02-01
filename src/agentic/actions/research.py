@@ -1,15 +1,13 @@
 import os
-import logfire
 import yaml
 from pathlib import Path
 from datetime import datetime
 from typing import List
-from src.agentic.tools.agents.researcher import researcher_agent
+from src.agentic.agents.researcher import researcher_agent
 from src.agentic.models import ResearchOutput, ProjectMetadata
 from src.tracker import get_tracker, TaskStatus
 from src.config import load_config
 
-@logfire.instrument
 async def research_item(item: ProjectMetadata, week_letter: str) -> ResearchOutput:
     """Research a single project and update tracker.
 
@@ -56,7 +54,6 @@ async def research_item(item: ProjectMetadata, week_letter: str) -> ResearchOutp
             use_cases="Unknown"
         )
 
-@logfire.instrument
 async def save_research(week_letter: str, research: ResearchOutput):
     """Save individual research file to data/weeks/XX-Letter/research/{sanitized_name}.yaml
     and update tracker."""

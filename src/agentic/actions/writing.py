@@ -1,13 +1,11 @@
 import os
-import logfire
 from datetime import datetime
 from typing import List
-from src.agentic.tools.agents.writer import writer_agent
+from src.agentic.agents.writer import writer_agent
 from src.agentic.models import ResearchOutput, BlogPostDraft, WriterDeps
 from src.tracker import get_tracker, TaskStatus
 from src.config import load_config
 
-@logfire.instrument
 async def write_weekly_post(week_letter: str, research_results: List[ResearchOutput]) -> BlogPostDraft:
     """Write a blog post for the given week based on research results."""
     deps = WriterDeps(research_results=research_results, week_letter=week_letter)
@@ -17,7 +15,6 @@ async def write_weekly_post(week_letter: str, research_results: List[ResearchOut
     )
     return result.data
 
-@logfire.instrument
 async def save_post(week_letter: str, draft: BlogPostDraft):
     """Save blog post and update tracker."""
     tracker = get_tracker()

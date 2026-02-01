@@ -1,10 +1,8 @@
 import os
-from typing import List
-from pydantic_ai import Agent, RunContext
+from pydantic_ai import Agent
 from pydantic_ai.models.google import GoogleModel
-from src.agentic.models import BlogPostDraft, ResearchOutput, WriterDeps
-from src.tracker import get_tracker, TaskStatus
-import logfire
+from src.agentic.models import BlogPostDraft, WriterDeps
+from src.agentic.tools.tracker import update_tracker_status
 
 def get_model():
     api_key = os.getenv('GOOGLE_API_KEY')
@@ -16,17 +14,6 @@ def get_model():
     return GoogleModel(model_name)
 
 model = get_model()
-
-@logfire.instrument
-def update_tracker_status(ctx: RunContext, item_name: str, task_type: str, status: str, week_letter: str) -> str:
-    """Update the tracker status for a task."""
-    try:
-        tracker = get_tracker()
-        task_status = TaskStatus(status.lower())
-        tracker.update_task(week_letter, item_name, task_type, task_status)
-        return f"Updated {item_name} {task_type} to {status}"
-    except Exception as e:
-        return f"Failed to update tracker: {e}"
 
 writer_agent = Agent(
     model,
@@ -43,3 +30,4 @@ writer_agent = Agent(
 )
 
 writer_agent.tool(update_tracker_status)
+
