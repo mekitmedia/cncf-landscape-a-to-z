@@ -1,43 +1,5 @@
 items:
-  Item 1:
-    tasks:
-      research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
-        error_message: null
-        retry_count: 0
-        agent: researcher
-      content:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
-        error_message: null
-        retry_count: 0
-        agent: writer
-    removed: true
-  Item 3:
-    tasks:
-      research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
-        error_message: null
-        retry_count: 0
-        agent: researcher
-      content:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
-        error_message: null
-        retry_count: 0
-        agent: writer
-    removed: true
-  Icinga:
+  NATS:
     tasks:
       research:
         status: pending
@@ -56,7 +18,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Inclavare Containers:
+  NEAR:
     tasks:
       research:
         status: pending
@@ -75,7 +37,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Infinispan:
+  NGINX:
     tasks:
       research:
         status: pending
@@ -94,7 +56,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Infinyon:
+  NGINX (Wasm):
     tasks:
       research:
         status: pending
@@ -113,7 +75,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  InfluxData:
+  NKD - NestOS Kubernetes Deployer:
     tasks:
       research:
         status: pending
@@ -132,7 +94,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Influxdb:
+  Nacos:
     tasks:
       research:
         status: pending
@@ -151,7 +113,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Infracost:
+  Nagios:
     tasks:
       research:
         status: pending
@@ -170,7 +132,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Inlets:
+  NebulaGraph:
     tasks:
       research:
         status: pending
@@ -189,7 +151,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Inspektor Gadget:
+  Neo4j:
     tasks:
       research:
         status: pending
@@ -208,7 +170,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Interlink:
+  Netdata:
     tasks:
       research:
         status: pending
@@ -227,7 +189,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Istio:
+  Netflix Eureka:
     tasks:
       research:
         status: pending
@@ -246,7 +208,254 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Istio (Wasm):
+  Netflix Zuul:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Netis:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Network Service Mesh:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  NeuVector:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  NexClipper:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Nightingale:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Nitric:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Nivida NeMo:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  No Code:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Node Lambda:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Nomad:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Notary Project:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Nuclio:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Numaflow:
     tasks:
       research:
         status: pending
@@ -276,7 +485,7 @@ week_tasks:
       retry_count: 0
       agent: writer
 metadata:
-  created_at: '2026-02-01T19:13:21.839204'
-  week_letter: I
-  last_synced: '2026-02-01T19:37:47.346760'
-  etl_item_count: 12
+  created_at: '2026-02-01T19:37:47.576744'
+  week_letter: N
+  last_synced: '2026-02-01T19:37:47.576911'
+  etl_item_count: 26

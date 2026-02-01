@@ -1,43 +1,5 @@
 items:
-  Item 1:
-    tasks:
-      research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
-        error_message: null
-        retry_count: 0
-        agent: researcher
-      content:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
-        error_message: null
-        retry_count: 0
-        agent: writer
-    removed: true
-  Item 3:
-    tasks:
-      research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
-        error_message: null
-        retry_count: 0
-        agent: researcher
-      content:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
-        error_message: null
-        retry_count: 0
-        agent: writer
-    removed: true
-  Icinga:
+  FD.io:
     tasks:
       research:
         status: pending
@@ -56,7 +18,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Inclavare Containers:
+  FEAST:
     tasks:
       research:
         status: pending
@@ -75,7 +37,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Infinispan:
+  FFmpeg:
     tasks:
       research:
         status: pending
@@ -94,7 +56,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Infinyon:
+  FOSSA:
     tasks:
       research:
         status: pending
@@ -113,7 +75,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  InfluxData:
+  Fabric8 Kubernetes Client:
     tasks:
       research:
         status: pending
@@ -132,7 +94,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Influxdb:
+  Falco:
     tasks:
       research:
         status: pending
@@ -151,7 +113,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Infracost:
+  Falcon:
     tasks:
       research:
         status: pending
@@ -170,7 +132,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Inlets:
+  FeatureHub:
     tasks:
       research:
         status: pending
@@ -189,7 +151,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Inspektor Gadget:
+  Filecoin:
     tasks:
       research:
         status: pending
@@ -208,7 +170,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Interlink:
+  Firecracker:
     tasks:
       research:
         status: pending
@@ -227,7 +189,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Istio:
+  Fission:
     tasks:
       research:
         status: pending
@@ -246,7 +208,273 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Istio (Wasm):
+  Flagger:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Flagsmith:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Flannel:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Flatcar Container Linux:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Flink:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Flipt:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Flogo:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Flomesh Service Mesh (FSM):
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Fluentd:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Fluid:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Fluvio:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Flux:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Foreman:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Fortio:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  FoundationDB:
     tasks:
       research:
         status: pending
@@ -276,7 +504,7 @@ week_tasks:
       retry_count: 0
       agent: writer
 metadata:
-  created_at: '2026-02-01T19:13:21.839204'
-  week_letter: I
-  last_synced: '2026-02-01T19:37:47.346760'
-  etl_item_count: 12
+  created_at: '2026-02-01T19:37:47.216419'
+  week_letter: F
+  last_synced: '2026-02-01T19:37:47.216690'
+  etl_item_count: 26

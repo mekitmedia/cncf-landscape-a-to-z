@@ -1,43 +1,5 @@
 items:
-  An item starting with A:
-    tasks:
-      research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
-        error_message: null
-        retry_count: 0
-        agent: researcher
-      content:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
-        error_message: null
-        retry_count: 0
-        agent: writer
-    removed: true
-  Another Item:
-    tasks:
-      research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
-        error_message: null
-        retry_count: 0
-        agent: researcher
-      content:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
-        error_message: null
-        retry_count: 0
-        agent: writer
-    removed: true
-  AIBrix:
+  C++:
     tasks:
       research:
         status: pending
@@ -56,7 +18,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  APIClarity:
+  CDEvents:
     tasks:
       research:
         status: pending
@@ -75,7 +37,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  APIOAK:
+  CDK for Kubernetes (CDK8s):
     tasks:
       research:
         status: pending
@@ -94,7 +56,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  APISIX:
+  CFEngine:
     tasks:
       research:
         status: pending
@@ -113,7 +75,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  AWS Server Application Model (SAM):
+  CRI-O:
     tasks:
       research:
         status: pending
@@ -132,7 +94,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Aeraki Mesh:
+  Caddy:
     tasks:
       research:
         status: pending
@@ -151,7 +113,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Agola:
+  Cadence Workflow:
     tasks:
       research:
         status: pending
@@ -170,7 +132,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Airship:
+  Canonical Charmed Kubernetes:
     tasks:
       research:
         status: pending
@@ -189,7 +151,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Akka:
+  Capsule:
     tasks:
       research:
         status: pending
@@ -208,7 +170,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Akri:
+  Carina:
     tasks:
       research:
         status: pending
@@ -227,7 +189,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Alluxio:
+  Cartographer:
     tasks:
       research:
         status: pending
@@ -246,7 +208,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Amazon Elastic Kubernetes Service Anywhere (Amazon EKS Anywhere):
+  Cartography:
     tasks:
       research:
         status: pending
@@ -265,7 +227,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Amazon Elastic Kubernetes Service Distro (Amazon EKS-D):
+  Carvel:
     tasks:
       research:
         status: pending
@@ -284,7 +246,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Ambient:
+  Casper:
     tasks:
       research:
         status: pending
@@ -303,7 +265,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Ansible:
+  Cassandra:
     tasks:
       research:
         status: pending
@@ -322,7 +284,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Anteon:
+  Catalyst Kubernetes Service:
     tasks:
       research:
         status: pending
@@ -341,7 +303,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Antrea:
+  Cedar:
     tasks:
       research:
         status: pending
@@ -360,7 +322,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Apache Camel K:
+  Centreon:
     tasks:
       research:
         status: pending
@@ -379,7 +341,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Apache CarbonData:
+  Ceph:
     tasks:
       research:
         status: pending
@@ -398,7 +360,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Apache Druid:
+  Cerbos:
     tasks:
       research:
         status: pending
@@ -417,7 +379,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Apache Flink:
+  Chalice:
     tasks:
       research:
         status: pending
@@ -436,7 +398,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Apache HBase:
+  Chaos Mesh:
     tasks:
       research:
         status: pending
@@ -455,7 +417,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Apache Hadoop:
+  Chaos Toolkit:
     tasks:
       research:
         status: pending
@@ -474,7 +436,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Apache Ignite:
+  Chaosblade:
     tasks:
       research:
         status: pending
@@ -493,7 +455,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Apache Mesos:
+  Chaterm:
     tasks:
       research:
         status: pending
@@ -512,7 +474,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Apache NiFi:
+  Checkmk:
     tasks:
       research:
         status: pending
@@ -531,7 +493,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Apache OpenServerless:
+  Checkov:
     tasks:
       research:
         status: pending
@@ -550,7 +512,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Apache OpenWhisk:
+  Chef Habitat:
     tasks:
       research:
         status: pending
@@ -569,7 +531,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Apache Pinot:
+  Chef InSpec:
     tasks:
       research:
         status: pending
@@ -588,7 +550,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Apache RocketMQ:
+  Chef Infra:
     tasks:
       research:
         status: pending
@@ -607,7 +569,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Apache Spark:
+  Chroma:
     tasks:
       research:
         status: pending
@@ -626,7 +588,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Apache Storm:
+  Cilium:
     tasks:
       research:
         status: pending
@@ -645,7 +607,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Apache StreamPipes:
+  Clair:
     tasks:
       research:
         status: pending
@@ -664,7 +626,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Apache TVM:
+  ClickHouse:
     tasks:
       research:
         status: pending
@@ -683,7 +645,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Apache Thrift:
+  Cloud Custodian:
     tasks:
       research:
         status: pending
@@ -702,7 +664,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Apache Zeppelin:
+  Cloud Foundry Application Runtime:
     tasks:
       research:
         status: pending
@@ -721,7 +683,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Apache Zookeeper:
+  Cloud Native Landscape:
     tasks:
       research:
         status: pending
@@ -740,7 +702,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Apache bRPC:
+  CloudARK KubePlus:
     tasks:
       research:
         status: pending
@@ -759,7 +721,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Apicurio Registry:
+  CloudEvents:
     tasks:
       research:
         status: pending
@@ -778,7 +740,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Apollo:
+  CloudMatos:
     tasks:
       research:
         status: pending
@@ -797,7 +759,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  AppScale:
+  CloudNativePG:
     tasks:
       research:
         status: pending
@@ -816,7 +778,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Application Platform for LKE:
+  CloudTTY:
     tasks:
       research:
         status: pending
@@ -835,7 +797,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  ArangoDB:
+  CloudWeGo:
     tasks:
       research:
         status: pending
@@ -854,7 +816,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Architect:
+  Cloudify:
     tasks:
       research:
         status: pending
@@ -873,7 +835,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Argo:
+  Clusternet:
     tasks:
       research:
         status: pending
@@ -892,7 +854,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  ArkFlow:
+  Clusterpedia:
     tasks:
       research:
         status: pending
@@ -911,7 +873,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Arks:
+  CockroachDB:
     tasks:
       research:
         status: pending
@@ -930,7 +892,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Armada:
+  Coder:
     tasks:
       research:
         status: pending
@@ -949,7 +911,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Artifact Hub:
+  Concourse:
     tasks:
       research:
         status: pending
@@ -968,7 +930,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Aserto:
+  Confidential Containers:
     tasks:
       research:
         status: pending
@@ -987,7 +949,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Asyncify:
+  Connect RPC:
     tasks:
       research:
         status: pending
@@ -1006,7 +968,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Athenz:
+  Constellation:
     tasks:
       research:
         status: pending
@@ -1025,7 +987,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Atlantis:
+  Consul:
     tasks:
       research:
         status: pending
@@ -1044,7 +1006,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Authing:
+  Container Network Interface (CNI):
     tasks:
       research:
         status: pending
@@ -1063,7 +1025,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  AutoMQ:
+  Container Storage Interface (CSI):
     tasks:
       research:
         status: pending
@@ -1082,7 +1044,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Avro:
+  ContainerSSH:
     tasks:
       research:
         status: pending
@@ -1101,7 +1063,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Azure API Management:
+  Contour:
     tasks:
       research:
         status: pending
@@ -1120,7 +1082,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Azure Functions:
+  Copa:
     tasks:
       research:
         status: pending
@@ -1139,7 +1101,273 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Azure Service Fabric:
+  CoreDNS:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Coroot:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Cortex:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  CosmWasm:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Couchbase:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Couler:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Cozystack:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Crate.io:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Crossplane:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Crunchy Postgres Operator:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Crux:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  CubeFS:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  CyberArk Conjur:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Cybozu Kubernetes Engine:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Cyclops:
     tasks:
       research:
         status: pending
@@ -1169,7 +1397,7 @@ week_tasks:
       retry_count: 0
       agent: writer
 metadata:
-  created_at: '2026-02-01T19:13:21.827247'
-  week_letter: A
-  last_synced: '2026-02-01T19:37:46.942516'
-  etl_item_count: 61
+  created_at: '2026-02-01T19:37:47.046818'
+  week_letter: C
+  last_synced: '2026-02-01T19:37:47.047361'
+  etl_item_count: 75

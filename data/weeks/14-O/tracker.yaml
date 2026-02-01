@@ -1,43 +1,5 @@
 items:
-  An item starting with A:
-    tasks:
-      research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
-        error_message: null
-        retry_count: 0
-        agent: researcher
-      content:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
-        error_message: null
-        retry_count: 0
-        agent: writer
-    removed: true
-  Another Item:
-    tasks:
-      research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
-        error_message: null
-        retry_count: 0
-        agent: researcher
-      content:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
-        error_message: null
-        retry_count: 0
-        agent: writer
-    removed: true
-  AIBrix:
+  OAuth2 Proxy:
     tasks:
       research:
         status: pending
@@ -56,7 +18,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  APIClarity:
+  OPA/Gatekeeper:
     tasks:
       research:
         status: pending
@@ -75,7 +37,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  APIOAK:
+  OPEA:
     tasks:
       research:
         status: pending
@@ -94,7 +56,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  APISIX:
+  ORAS:
     tasks:
       research:
         status: pending
@@ -113,7 +75,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  AWS Server Application Model (SAM):
+  ORY Hydra:
     tasks:
       research:
         status: pending
@@ -132,7 +94,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Aeraki Mesh:
+  OSCAL-COMPASS:
     tasks:
       research:
         status: pending
@@ -151,7 +113,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Agola:
+  OVN-Kubernetes:
     tasks:
       research:
         status: pending
@@ -170,7 +132,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Airship:
+  Observe SDK:
     tasks:
       research:
         status: pending
@@ -189,7 +151,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Akka:
+  OceanBase:
     tasks:
       research:
         status: pending
@@ -208,7 +170,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Akri:
+  Odigos:
     tasks:
       research:
         status: pending
@@ -227,7 +189,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Alluxio:
+  Okteto:
     tasks:
       research:
         status: pending
@@ -246,7 +208,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Amazon Elastic Kubernetes Service Anywhere (Amazon EKS Anywhere):
+  Omni:
     tasks:
       research:
         status: pending
@@ -265,7 +227,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Amazon Elastic Kubernetes Service Distro (Amazon EKS-D):
+  Open Application Model:
     tasks:
       research:
         status: pending
@@ -284,7 +246,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Ambient:
+  Open Cluster Management:
     tasks:
       research:
         status: pending
@@ -303,7 +265,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Ansible:
+  Open Policy Administration Layer (OPAL):
     tasks:
       research:
         status: pending
@@ -322,7 +284,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Anteon:
+  Open Policy Agent (OPA):
     tasks:
       research:
         status: pending
@@ -341,7 +303,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Antrea:
+  Open Policy Containers:
     tasks:
       research:
         status: pending
@@ -360,7 +322,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Apache Camel K:
+  Open Service Broker API:
     tasks:
       research:
         status: pending
@@ -379,7 +341,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Apache CarbonData:
+  Open vSwitch:
     tasks:
       research:
         status: pending
@@ -398,7 +360,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Apache Druid:
+  OpenAPI:
     tasks:
       research:
         status: pending
@@ -417,7 +379,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Apache Flink:
+  OpenCV:
     tasks:
       research:
         status: pending
@@ -436,7 +398,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Apache HBase:
+  OpenCost:
     tasks:
       research:
         status: pending
@@ -455,7 +417,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Apache Hadoop:
+  OpenEBS:
     tasks:
       research:
         status: pending
@@ -474,7 +436,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Apache Ignite:
+  OpenEverest:
     tasks:
       research:
         status: pending
@@ -493,7 +455,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Apache Mesos:
+  OpenFGA:
     tasks:
       research:
         status: pending
@@ -512,7 +474,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Apache NiFi:
+  OpenFaaS:
     tasks:
       research:
         status: pending
@@ -531,7 +493,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Apache OpenServerless:
+  OpenFeature:
     tasks:
       research:
         status: pending
@@ -550,7 +512,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Apache OpenWhisk:
+  OpenFunction:
     tasks:
       research:
         status: pending
@@ -569,7 +531,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Apache Pinot:
+  OpenGauss:
     tasks:
       research:
         status: pending
@@ -588,7 +550,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Apache RocketMQ:
+  OpenGitOps:
     tasks:
       research:
         status: pending
@@ -607,7 +569,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Apache Spark:
+  OpenIO:
     tasks:
       research:
         status: pending
@@ -626,7 +588,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Apache Storm:
+  OpenKruise:
     tasks:
       research:
         status: pending
@@ -645,7 +607,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Apache StreamPipes:
+  OpenLIT:
     tasks:
       research:
         status: pending
@@ -664,7 +626,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Apache TVM:
+  OpenLLMetry:
     tasks:
       research:
         status: pending
@@ -683,7 +645,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Apache Thrift:
+  OpenMessaging:
     tasks:
       research:
         status: pending
@@ -702,7 +664,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Apache Zeppelin:
+  OpenNebula:
     tasks:
       research:
         status: pending
@@ -721,7 +683,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Apache Zookeeper:
+  OpenObserve:
     tasks:
       research:
         status: pending
@@ -740,7 +702,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Apache bRPC:
+  OpenResty:
     tasks:
       research:
         status: pending
@@ -759,7 +721,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Apicurio Registry:
+  OpenRun:
     tasks:
       research:
         status: pending
@@ -778,7 +740,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Apollo:
+  OpenSCAP:
     tasks:
       research:
         status: pending
@@ -797,7 +759,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  AppScale:
+  OpenSDN:
     tasks:
       research:
         status: pending
@@ -816,7 +778,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Application Platform for LKE:
+  OpenSearch:
     tasks:
       research:
         status: pending
@@ -835,7 +797,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  ArangoDB:
+  OpenSergo:
     tasks:
       research:
         status: pending
@@ -854,7 +816,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Architect:
+  OpenStack:
     tasks:
       research:
         status: pending
@@ -873,7 +835,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Argo:
+  OpenTSDB:
     tasks:
       research:
         status: pending
@@ -892,7 +854,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  ArkFlow:
+  OpenTelemetry:
     tasks:
       research:
         status: pending
@@ -911,7 +873,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Arks:
+  OpenTofu:
     tasks:
       research:
         status: pending
@@ -930,7 +892,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Armada:
+  OpenYurt:
     tasks:
       research:
         status: pending
@@ -949,7 +911,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Artifact Hub:
+  Operator Framework:
     tasks:
       research:
         status: pending
@@ -968,7 +930,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Aserto:
+  Optuna:
     tasks:
       research:
         status: pending
@@ -987,7 +949,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Asyncify:
+  Oracle Cloud Native Environment:
     tasks:
       research:
         status: pending
@@ -1006,7 +968,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Athenz:
+  OrientDB:
     tasks:
       research:
         status: pending
@@ -1025,7 +987,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Atlantis:
+  Ortelius:
     tasks:
       research:
         status: pending
@@ -1044,102 +1006,7 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Authing:
-    tasks:
-      research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
-        error_message: null
-        retry_count: 0
-        agent: researcher
-      content:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
-        error_message: null
-        retry_count: 0
-        agent: writer
-    removed: false
-  AutoMQ:
-    tasks:
-      research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
-        error_message: null
-        retry_count: 0
-        agent: researcher
-      content:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
-        error_message: null
-        retry_count: 0
-        agent: writer
-    removed: false
-  Avro:
-    tasks:
-      research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
-        error_message: null
-        retry_count: 0
-        agent: researcher
-      content:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
-        error_message: null
-        retry_count: 0
-        agent: writer
-    removed: false
-  Azure API Management:
-    tasks:
-      research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
-        error_message: null
-        retry_count: 0
-        agent: researcher
-      content:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
-        error_message: null
-        retry_count: 0
-        agent: writer
-    removed: false
-  Azure Functions:
-    tasks:
-      research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
-        error_message: null
-        retry_count: 0
-        agent: researcher
-      content:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
-        error_message: null
-        retry_count: 0
-        agent: writer
-    removed: false
-  Azure Service Fabric:
+  Oxia:
     tasks:
       research:
         status: pending
@@ -1169,7 +1036,7 @@ week_tasks:
       retry_count: 0
       agent: writer
 metadata:
-  created_at: '2026-02-01T19:13:21.827247'
-  week_letter: A
-  last_synced: '2026-02-01T19:37:46.942516'
-  etl_item_count: 61
+  created_at: '2026-02-01T19:37:47.614953'
+  week_letter: O
+  last_synced: '2026-02-01T19:37:47.615547'
+  etl_item_count: 56
