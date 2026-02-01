@@ -5,6 +5,7 @@ from pathlib import Path
 from pydantic_ai import Agent, RunContext
 from pydantic_ai.models.google import GoogleModel
 from src.agentic.models import NextWeekDecision
+from src.config import load_config, week_id
 
 def get_model():
     api_key = os.getenv('GOOGLE_API_KEY')
@@ -26,6 +27,8 @@ def check_week_status(ctx: RunContext, week_letter: str) -> str:
         return "Invalid week letter provided"
     
     posts_dir = "website/content/posts"
+    cfg = load_config()
+    posts_dir = str(cfg.hugo_posts_dir)
     if not os.path.exists(posts_dir):
         return "Posts directory not found"
 
@@ -41,6 +44,8 @@ def check_week_status(ctx: RunContext, week_letter: str) -> str:
 def check_todo(ctx: RunContext) -> str:
     """Reads the TODO.md file to track progress and memory across sessions."""
     todo_path = "TODO.md"
+    cfg = load_config()
+    todo_path = str(cfg.todo_path)
     if not os.path.exists(todo_path):
         return "TODO.md not found. You should create it to track progress."
     try:
@@ -53,6 +58,8 @@ def check_todo(ctx: RunContext) -> str:
 def update_todo(ctx: RunContext, content: str) -> str:
     """Updates the TODO.md file with new notes or progress."""
     todo_path = "TODO.md"
+    cfg = load_config()
+    todo_path = str(cfg.todo_path)
     try:
         with open(todo_path, "w", encoding='utf-8') as f:
             f.write(content)
@@ -67,8 +74,10 @@ def read_week_summary(ctx: RunContext, week_letter: str) -> str:
     if not (len(week_letter) == 1 and 'A' <= week_letter <= 'Z'):
         return "Invalid week letter provided"
     
-    # Pattern: data/week_*_{week_letter}/README.md
-    pattern = f"data/week_*_{week_letter}/README.md"
+    # Pattern: data/weeks/XX-Letter/README.md
+    cfg = load_config()
+    week_folder = cfg.weeks_dir / week_id(week_letter)
+    pattern = str(week_folder / "README.md")
     files = glob.glob(pattern)
     if not files:
         return f"Summary for week {week_letter} not found in data/. ETL may not have run yet."

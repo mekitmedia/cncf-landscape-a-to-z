@@ -7,6 +7,7 @@ from datetime import datetime
 from typing import List, Optional
 from pathlib import Path
 from prefect import flow, task, get_run_logger
+from src.config import load_config, week_id
 from src.agentic.agents.researcher import researcher_agent
 from src.agentic.agents.writer import writer_agent
 from src.agentic.agents.editor import editor_agent
@@ -31,8 +32,9 @@ async def get_items_for_week(letter: str) -> List[ProjectMetadata]:
     logger.info(f"Getting items for letter {letter}")
 
     # Read from generated tasks (output of ETL pipeline)
-    # The ETL pipeline generates data/week_XX_Letter/tasks.yaml
-    week_folders = glob.glob(f"data/week_*_{letter}")
+    # The ETL pipeline generates data/weeks/XX-Letter/tasks.yaml
+    cfg = load_config()
+    week_folders = glob.glob(str(cfg.weeks_dir / f"*-{letter.upper()}"))
 
     items = []
 
@@ -40,12 +42,9 @@ async def get_items_for_week(letter: str) -> List[ProjectMetadata]:
         week_folder = week_folders[0]
         logger.info(f"Using ETL output from {week_folder}")
 
-        # Read all yaml files in that folder except tasks.yaml
-        yaml_files = glob.glob(f"{week_folder}/*.yaml")
+        # Read all category yaml files for that week
+        yaml_files = glob.glob(f"{week_folder}/categories/*.yaml")
         for yf in yaml_files:
-            if yf.endswith("tasks.yaml"):
-                continue
-
             try:
                 with open(yf, 'r', encoding='utf-8') as f:
                     data = yaml.safe_load(f)
@@ -68,7 +67,7 @@ async def get_items_for_week(letter: str) -> List[ProjectMetadata]:
     else:
         # Fallback to fetching raw data if ETL hasn't run
         logger.warning("ETL output not found. Falling back to fetching raw landscape data.")
-        input_path = "https://raw.githubusercontent.com/cncf/landscape/master/landscape.yml"
+        input_path = load_config().landscape_source
 
         def _fetch_and_transform():
             from src.pipeline.extract import get_landscape_data
@@ -129,8 +128,9 @@ async def write_weekly_post(week_letter: str, research_results: List[ResearchOut
 @logfire.instrument
 async def save_post(week_letter: str, draft: BlogPostDraft):
     logger = get_run_logger()
+    cfg = load_config()
     year = datetime.now().year
-    filename = f"website/content/posts/{year}-{week_letter}.md"
+    filename = cfg.hugo_posts_dir / f"{year}-{week_letter}.md"
     logger.info(f"Saving post to {filename}")
 
     date_str = datetime.now().isoformat()
@@ -143,7 +143,7 @@ draft: false
 {draft.content_markdown}
 """
 
-    os.makedirs(os.path.dirname(filename), exist_ok=True)
+    os.makedirs(os.path.dirname(str(filename)), exist_ok=True)
     with open(filename, "w") as f:
         f.write(full_content)
     logger.info("Post saved.")
@@ -151,12 +151,11 @@ draft: false
 @task
 @logfire.instrument
 async def save_research(week_letter: str, research: ResearchOutput):
-    """Save individual research file to data/week_XX_Y/research/{sanitized_name}.yaml"""
+    """Save individual research file to data/weeks/XX-Letter/research/{sanitized_name}.yaml"""
     logger = get_run_logger()
     
-    # Determine week index (A=00, B=01, ..., Z=25)
-    week_index = ord(week_letter) - ord('A')
-    research_dir = f"data/week_{week_index:02d}_{week_letter}/research"
+    cfg = load_config()
+    research_dir = cfg.weeks_dir / week_id(week_letter) / "research"
     
     # Sanitize project name for filename: spaces to underscores, lowercase, remove special chars
     sanitized_name = research.project_name.lower() \
@@ -166,7 +165,7 @@ async def save_research(week_letter: str, research: ResearchOutput):
         .replace(".", "_") \
         .replace(",", "")
     
-    filename = f"{research_dir}/{sanitized_name}.yaml"
+    filename = Path(research_dir) / f"{sanitized_name}.yaml"
     
     logger.info(f"Saving research for {research.project_name} to {filename}")
     

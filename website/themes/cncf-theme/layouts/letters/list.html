@@ -9,13 +9,18 @@
         </div>
 
         {{ $dataKey := .Params.data_key }}
+        {{ $normalizedKey := $dataKey }}
+        {{ if hasPrefix $dataKey "week_" }}
+            {{ $normalizedKey = replaceRE "^week_(\\d{2})_([A-Z])$" "$1-$2" $dataKey }}
+        {{ end }}
         {{ if $dataKey }}
-            {{ $weekData := index .Site.Data $dataKey }}
-            {{ $researchData := index .Site.Data (printf "%s_research" $dataKey) }}
+            {{ $weeksData := index .Site.Data "weeks" }}
+            {{ $weekData := index $weeksData $normalizedKey }}
+            {{ $categoriesData := index $weekData "categories" }}
+            {{ $researchData := index $weekData "research" }}
 
             {{ if $weekData }}
-                {{ range $filename, $items := $weekData }}
-                    {{ if and (ne $filename "tasks") (ne $filename "README") }}
+                {{ range $filename, $items := $categoriesData }}
                         <div class="mb-12">
                             <h2 class="text-xl font-bold mb-6 border-b border-slate-200 pb-2 capitalize">{{ $filename | replaceRE "_" " " | title }}</h2>
                             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -75,10 +80,9 @@
                                 {{ end }}
                             </div>
                         </div>
-                    {{ end }}
                 {{ end }}
             {{ else }}
-                <p>No data found for {{ $dataKey }}. Please ensure the ETL pipeline has run.</p>
+                    <p>No data found for {{ $normalizedKey }}. Please ensure the ETL pipeline has run.</p>
             {{ end }}
         {{ else }}
             <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">

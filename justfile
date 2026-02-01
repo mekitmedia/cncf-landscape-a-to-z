@@ -33,7 +33,7 @@ workflow limit="" local="":
 
 # Generate tool pages from research
 tools:
-    uv run python scripts/generate_tool_pages.py
+    uv run python -m src.pipeline.tool_pages
 
 # Run unit tests
 test:
