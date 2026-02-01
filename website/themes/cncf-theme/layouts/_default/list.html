@@ -73,6 +73,11 @@
                 deepDiveLink.href = `/letters/${letter}/`;
             }
 
+            const currentLetterIdx = document.getElementById('current-letter-idx');
+            if(currentLetterIdx) {
+                currentLetterIdx.textContent = alphabet.indexOf(letter) + 1;
+            }
+
             // Re-initialize icons just in case (though not strictly needed if DOM not changing)
             // lucide.createIcons();
 
