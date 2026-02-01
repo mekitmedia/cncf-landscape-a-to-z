@@ -35,8 +35,9 @@ class TestMain(unittest.TestCase):
             ]
         }
 
+        content_dir = f'{self.test_dir}/content'
         cli = Cli()
-        cli.run(input_path='tests/test_data/landscape_with_excluded.yml', output_dir=self.test_dir)
+        cli.run(input_path='tests/test_data/landscape_with_excluded.yml', output_dir=self.test_dir, content_dir=content_dir)
 
         # Check that the output files were created
         self.assertTrue(os.path.exists(f'{self.test_dir}/category_index.yaml'))
@@ -47,7 +48,9 @@ class TestMain(unittest.TestCase):
         self.assertTrue(os.path.exists(f'{self.test_dir}/stats_by_status.yaml'))
         self.assertTrue(os.path.exists(f'{self.test_dir}/excluded_items.yaml'))
         self.assertTrue(os.path.exists(f'{self.test_dir}/week_00_A/category_1_subcategory_1.yaml'))
-        self.assertTrue(os.path.exists(f'{self.test_dir}/week_00_A/README.md'))
+
+        # Check content page generation instead of README.md
+        self.assertTrue(os.path.exists(f'{content_dir}/letters/A/_index.md'))
 
         # Check the content of the output files
         for file_path, expected_content in expected_outputs.items():
@@ -66,16 +69,10 @@ class TestMain(unittest.TestCase):
                 expected_content.sort()
                 self.assertEqual(content, expected_content)
 
-        # Check the content of the README.md file
-        with open(f'{self.test_dir}/week_00_A/README.md', 'r') as f:
+        # Check the content of the generated content page
+        with open(f'{content_dir}/letters/A/_index.md', 'r') as f:
             content = f.read()
             self.assertIn('# Summary for week_00_A', content)
-            # The summary now counts all yaml files, including tasks.yaml
-            # 2 items in subcategory file + 2 items in tasks.yaml = 4 total items reported by current summary logic
-            # We might want to adjust the summary logic later, but for now let's adjust the test expectation
-            # or we can filter out tasks.yaml from the summary generation.
-            # Given the user didn't ask to change summary logic, I will filter tasks.yaml in load.py
-            # so that the summary remains about the content parts.
             self.assertIn('This week has a total of 2 items.', content)
             self.assertIn('- **Category 1 Subcategory 1**: 2 items', content)
 

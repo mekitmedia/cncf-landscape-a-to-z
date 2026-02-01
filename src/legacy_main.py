@@ -12,13 +12,13 @@ from src.pipeline.transform import (
     get_tasks_for_letter,
     get_landscape_by_letter
 )
-from src.pipeline.load import to_yaml, save_partial_data, generate_summary, save_tasks
+from src.pipeline.load import to_yaml, save_partial_data, generate_summary, save_tasks, generate_letter_pages
 from src.logger import get_logger
 
 logger = get_logger(__name__)
 
 class Cli:
-  def run(self, input_path="https://raw.githubusercontent.com/cncf/landscape/master/landscape.yml", output_dir="data"):
+  def run(self, input_path="https://raw.githubusercontent.com/cncf/landscape/master/landscape.yml", output_dir="data", content_dir="website/content"):
     logger.info("Starting landscape processing")
     landscape = get_landscape_data(input_path)
 
@@ -58,7 +58,8 @@ class Cli:
     excluded_items = get_items_without_repo_url(landscape)
     to_yaml(excluded_items, f"{output_dir}/excluded_items.yaml")
 
-    generate_summary(output_dir, landscape_by_letter)
+    summaries = generate_summary(output_dir, landscape_by_letter)
+    generate_letter_pages(output_dir=content_dir, summaries=summaries)
 
     logger.info("Landscape processing finished")
 
