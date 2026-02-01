@@ -1,0 +1,10 @@
+<div class="mt-16 flex items-center justify-between border-t border-slate-200 pt-8 mb-12">
+    <a href="/" class="flex items-center gap-2 px-4 py-2 text-slate-600 hover:text-blue-600 transition-colors font-semibold">
+        <i data-lucide="chevron-left" class="w-5 h-5"></i> Back to Overview
+    </a>
+    <div class="text-slate-400 text-sm font-medium">
+        Letter {{ .Params.letter | default "A" }}
+    </div>
+    <!-- Placeholder for alignment -->
+    <div class="w-24"></div>
+</div>
