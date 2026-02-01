@@ -5,10 +5,16 @@ import yaml
 from pathlib import Path
 from unittest.mock import patch, MagicMock
 from src.legacy_main import Cli
+from src.config import clear_config_cache
 
 def test_run_pipeline():
+    # Clear config cache to ensure test-specific paths are used
+    clear_config_cache()
+    
     test_dir = tempfile.mkdtemp()
     try:
+        # Set test data directory to match the test output directory
+        os.environ['TEST_DATA_DIR'] = test_dir
         # Use path relative to test file
         test_data_path = Path(__file__).parent / 'test_data' / 'landscape_with_excluded.yml'
         expected_outputs = {
@@ -63,10 +69,7 @@ def test_run_pipeline():
             ]
         }
 
-        with patch('src.pipeline.runner.get_tracker') as mock_get_tracker, \
-             patch('src.pipeline.runner.generate_letter_pages') as mock_generate_letter_pages:
-            mock_tracker = MagicMock()
-            mock_get_tracker.return_value = mock_tracker
+        with patch('src.pipeline.runner.generate_letter_pages') as mock_generate_letter_pages:
             mock_generate_letter_pages.return_value = None
 
             cli = Cli()

@@ -48,11 +48,12 @@ from src.tracker.exceptions import (
 )
 
 
-def get_tracker(backend_type: str = "yaml") -> TrackerBackend:
+def get_tracker(backend_type: str = "yaml", config=None) -> TrackerBackend:
     """Get a tracker backend instance.
     
     Args:
         backend_type: Type of backend to use ('yaml' is currently supported)
+        config: Optional config to use instead of loading from environment
         
     Returns:
         TrackerBackend instance
@@ -61,7 +62,7 @@ def get_tracker(backend_type: str = "yaml") -> TrackerBackend:
         ValueError: If backend_type is not supported
     """
     if backend_type == "yaml":
-        return YAMLTrackerBackend()
+        return YAMLTrackerBackend(config)
     else:
         raise ValueError(f"Unsupported backend type: {backend_type}")
 

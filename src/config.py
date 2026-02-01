@@ -3,6 +3,8 @@ from __future__ import annotations
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Dict, Optional
+import os
+import tempfile
 
 import yaml
 
@@ -10,6 +12,27 @@ import yaml
 def _repo_root() -> Path:
     """Return the repository root (one level above src/)."""
     return Path(__file__).resolve().parents[1]
+
+
+def _is_test_environment() -> bool:
+    """Detect if we're running in a test environment."""
+    return (
+        os.getenv('PYTEST_CURRENT_TEST') is not None or
+        'pytest' in os.environ.get('_', '') or
+        os.getenv('TESTING') == '1'
+    )
+
+
+def _get_test_data_dir() -> Path:
+    """Get a temporary directory for test data."""
+    test_dir = os.getenv('TEST_DATA_DIR')
+    if test_dir:
+        return Path(test_dir)
+    
+    # Create a temp directory that persists for the test session
+    temp_base = Path(tempfile.gettempdir()) / 'cncf-landscape-test-data'
+    temp_base.mkdir(exist_ok=True)
+    return temp_base
 
 
 def _load_yaml_config(path: Path) -> Dict[str, Any]:
@@ -49,6 +72,104 @@ class AppConfig:
     landscape_source: str
 
 
+class Config:
+    """Configuration class that builds paths from a root directory."""
+    
+    def __init__(self, root_path: Path, config_overrides: Optional[Dict[str, Any]] = None):
+        self.root = root_path
+        self.config_overrides = config_overrides or {}
+        
+        # Load config.yaml if present
+        config_path = root_path / "config.yaml"
+        self.yaml_config = _load_yaml_config(config_path)
+        
+        # Merge with overrides
+        self._config = {**self.yaml_config, **self.config_overrides}
+    
+    @property
+    def repo_root(self) -> Path:
+        return self.root
+    
+    @property
+    def data_dir(self) -> Path:
+        path = _get_nested(self._config, ["paths", "data_dir"], "data")
+        return self.root / path if not Path(path).is_absolute() else Path(path)
+    
+    @property
+    def index_dir(self) -> Path:
+        return self.data_dir / "index"
+    
+    @property
+    def stats_dir(self) -> Path:
+        return self.data_dir / "stats"
+    
+    @property
+    def extras_dir(self) -> Path:
+        return self.data_dir / "extras"
+    
+    @property
+    def weeks_dir(self) -> Path:
+        return self.data_dir / "weeks"
+    
+    @property
+    def website_dir(self) -> Path:
+        path = _get_nested(self._config, ["paths", "website_dir"], "website")
+        return self.root / path if not Path(path).is_absolute() else Path(path)
+    
+    @property
+    def hugo_content_dir(self) -> Path:
+        return self.website_dir / "content"
+    
+    @property
+    def hugo_posts_dir(self) -> Path:
+        return self.hugo_content_dir / "posts"
+    
+    @property
+    def hugo_letters_dir(self) -> Path:
+        return self.hugo_content_dir / "letters"
+    
+    @property
+    def hugo_tools_dir(self) -> Path:
+        return self.hugo_content_dir / "tools"
+    
+    @property
+    def templates_dir(self) -> Path:
+        path = _get_nested(self._config, ["paths", "templates_dir"], "src/templates")
+        return self.root / path if not Path(path).is_absolute() else Path(path)
+    
+    @property
+    def todo_path(self) -> Path:
+        path = _get_nested(self._config, ["paths", "todo_path"], "TODO.md")
+        return self.root / path if not Path(path).is_absolute() else Path(path)
+    
+    @property
+    def landscape_source(self) -> str:
+        return _get_nested(
+            self._config,
+            ["urls", "landscape_source"],
+            "https://raw.githubusercontent.com/cncf/landscape/master/landscape.yml",
+        )
+    
+    def to_app_config(self) -> AppConfig:
+        """Convert to the legacy AppConfig dataclass for backward compatibility."""
+        return AppConfig(
+            repo_root=self.repo_root,
+            data_dir=self.data_dir,
+            index_dir=self.index_dir,
+            stats_dir=self.stats_dir,
+            extras_dir=self.extras_dir,
+            weeks_dir=self.weeks_dir,
+            website_dir=self.website_dir,
+            hugo_content_dir=self.hugo_content_dir,
+            hugo_posts_dir=self.hugo_posts_dir,
+            hugo_letters_dir=self.hugo_letters_dir,
+            hugo_tools_dir=self.hugo_tools_dir,
+            templates_dir=self.templates_dir,
+            todo_path=self.todo_path,
+            landscape_source=self.landscape_source,
+        )
+
+
 _CONFIG: Optional[AppConfig] = None
 
 
@@ -80,56 +201,29 @@ def load_config() -> AppConfig:
 
     # Resolve base paths and allow overrides via config.yaml.
     root = _repo_root()
-    config_path = root / "config.yaml"
-    config = _load_yaml_config(config_path)
+    
+    # Use test data directory if in test environment
+    if _is_test_environment():
+        test_data_dir = _get_test_data_dir()
+        config = Config(root, {
+            "paths": {
+                "data_dir": str(test_data_dir / "data"),
+                "website_dir": str(test_data_dir / "website"),
+                "templates_dir": "src/templates",  # Keep templates from source
+                "todo_path": str(test_data_dir / "TODO.md")
+            }
+        })
+    else:
+        config = Config(root)
 
-    data_dir = Path(_get_nested(config, ["paths", "data_dir"], "data"))
-    weeks_dir = Path(_get_nested(config, ["paths", "weeks_dir"], data_dir / "weeks"))
-    index_dir = Path(_get_nested(config, ["paths", "index_dir"], data_dir / "index"))
-    stats_dir = Path(_get_nested(config, ["paths", "stats_dir"], data_dir / "stats"))
-    extras_dir = Path(_get_nested(config, ["paths", "extras_dir"], data_dir / "extras"))
-
-    website_dir = Path(_get_nested(config, ["paths", "website_dir"], "website"))
-    hugo_content_dir = Path(
-        _get_nested(config, ["paths", "hugo_content_dir"], website_dir / "content")
-    )
-    hugo_posts_dir = Path(
-        _get_nested(config, ["paths", "hugo_posts_dir"], hugo_content_dir / "posts")
-    )
-    hugo_letters_dir = Path(
-        _get_nested(config, ["paths", "hugo_letters_dir"], hugo_content_dir / "letters")
-    )
-    hugo_tools_dir = Path(
-        _get_nested(config, ["paths", "hugo_tools_dir"], hugo_content_dir / "tools")
-    )
-
-    templates_dir = Path(_get_nested(config, ["paths", "templates_dir"], "src/templates"))
-    todo_path = Path(_get_nested(config, ["paths", "todo_path"], "TODO.md"))
-
-    # Upstream CNCF landscape URL (overridable).
-    landscape_source = _get_nested(
-        config,
-        ["urls", "landscape_source"],
-        "https://raw.githubusercontent.com/cncf/landscape/master/landscape.yml",
-    )
-
-    _CONFIG = AppConfig(
-        repo_root=root,
-        data_dir=data_dir,
-        index_dir=index_dir,
-        stats_dir=stats_dir,
-        extras_dir=extras_dir,
-        weeks_dir=weeks_dir,
-        website_dir=website_dir,
-        hugo_content_dir=hugo_content_dir,
-        hugo_posts_dir=hugo_posts_dir,
-        hugo_letters_dir=hugo_letters_dir,
-        hugo_tools_dir=hugo_tools_dir,
-        templates_dir=templates_dir,
-        todo_path=todo_path,
-        landscape_source=landscape_source,
-    )
+    _CONFIG = config.to_app_config()
     return _CONFIG
+
+
+def clear_config_cache():
+    """Clear the cached config (useful for tests)."""
+    global _CONFIG
+    _CONFIG = None
 
 
 def resolve_data_dirs(output_dir: Optional[str] = None) -> Dict[str, Path]:

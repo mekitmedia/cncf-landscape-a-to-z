@@ -1,4 +1,4 @@
-from src.config import load_config, resolve_data_dirs
+from src.config import load_config, resolve_data_dirs, Config
 from src.pipeline.extract import get_landscape_data
 from src.pipeline.transform import (
     get_categories,
@@ -19,6 +19,7 @@ from src.pipeline.load import (
 )
 from src.logger import get_logger
 from src.tracker import get_tracker
+from pathlib import Path
 
 logger = get_logger(__name__)
 
@@ -32,6 +33,14 @@ def run_etl(
     if input_path == "https://raw.githubusercontent.com/cncf/landscape/master/landscape.yml":
         input_path = cfg.landscape_source
     dirs = resolve_data_dirs(output_dir)
+    
+    # Create config instance based on output directory
+    output_path = Path(output_dir)
+    if output_path.is_absolute():
+        root_path = output_path.parent
+    else:
+        root_path = Path.cwd() / output_path.parent
+    config = Config(root_path)
 
     logger.info("Starting landscape processing")
     landscape = get_landscape_data(input_path)
@@ -47,8 +56,8 @@ def run_etl(
 
     landscape_by_letter = get_landscape_by_letter(landscape)
 
-    # Initialize tracker
-    tracker = get_tracker()
+    # Initialize tracker with config
+    tracker = get_tracker(config=config)
 
     for letter_code in range(ord('A'), ord('Z') + 1):
         letter = chr(letter_code)

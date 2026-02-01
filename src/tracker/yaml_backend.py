@@ -32,9 +32,9 @@ from src.tracker.exceptions import (
 class YAMLTrackerBackend:
     """YAML file-based tracker backend."""
     
-    def __init__(self):
+    def __init__(self, config=None):
         """Initialize YAML tracker backend."""
-        self.cfg = load_config()
+        self.cfg = config or load_config()
     
     def _get_tracker_path(self, week_letter: str) -> Path:
         """Get path to tracker file for a week.
