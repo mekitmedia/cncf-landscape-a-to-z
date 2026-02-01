@@ -59,6 +59,13 @@ class Cli:
     to_yaml(excluded_items, f"{output_dir}/excluded_items.yaml")
 
     summaries = generate_summary(output_dir, landscape_by_letter)
+
+    # Save summaries to README.md in each week's directory
+    for week_dir_name, content in summaries.items():
+        summary_path = f"{output_dir}/{week_dir_name}/README.md"
+        with open(summary_path, "w") as f:
+            f.write(content)
+
     generate_letter_pages(summaries=summaries)
 
     logger.info("Landscape processing finished")
