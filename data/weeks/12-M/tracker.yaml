@@ -1,0 +1,738 @@
+items:
+  M3:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  MAAS:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  MLRun:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  MOSN:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Magellano:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  ManageIQ:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  MariaDB:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Matano:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Maven:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Megatron-LM:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Membrane:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Memcached:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Memphis:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Mermin:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Meshery:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Meshery (Wasm):
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  MetalLB:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Metal³:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Metarget:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Metatype:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Mewz:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  MicroK8s:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Microcks:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Micrometer:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Midway Serverless:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Milvus:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  MinIO:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Mist.io:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Mlflow:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  ModelPack:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Modsurfer:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  MongoDB:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Monocle:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Monokle:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  MooseFS:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  MuleSoft:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Multus:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  MySQL:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+week_tasks:
+  tasks:
+    blog_post:
+      status: pending
+      started_at: null
+      completed_at: null
+      output_file: null
+      error_message: null
+      retry_count: 0
+      agent: writer
+metadata:
+  created_at: '2026-02-01T19:37:47.530423'
+  week_letter: M
+  last_synced: '2026-02-01T19:37:47.530680'
+  etl_item_count: 38

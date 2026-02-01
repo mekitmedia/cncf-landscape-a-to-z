@@ -1,0 +1,14 @@
+- description: A distributed SQL query engine for big data.
+  featured: true
+  homepage_url: https://github.com/prestodb/presto
+  logo: ./presto.svg
+  name: Presto
+  project: null
+  repo_url: https://github.com/prestodb/presto
+- description: A distributed pub-sub messaging system.
+  featured: true
+  homepage_url: https://pulsar.apache.org/
+  logo: ./pulsar.svg
+  name: Pulsar
+  project: null
+  repo_url: https://github.com/apache/pulsar

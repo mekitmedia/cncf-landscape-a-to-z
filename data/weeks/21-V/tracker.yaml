@@ -1,0 +1,282 @@
+items:
+  V8:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  VSCode Wasm Extension:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Vald:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Valkey:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Vault:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Vector:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Veinmind Tools:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Velero:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  VictoriaMetrics:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Vineyard:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Virtual Kubelet:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Visual Studio Code Kubernetes Tools:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Vitess:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Volcano:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+week_tasks:
+  tasks:
+    blog_post:
+      status: pending
+      started_at: null
+      completed_at: null
+      output_file: null
+      error_message: null
+      retry_count: 0
+      agent: writer
+metadata:
+  created_at: '2026-02-01T19:37:47.954771'
+  week_letter: V
+  last_synced: '2026-02-01T19:37:47.954906'
+  etl_item_count: 14

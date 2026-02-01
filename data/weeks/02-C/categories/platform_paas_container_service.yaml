@@ -1,0 +1,20 @@
+- crunchbase: https://www.crunchbase.com/organization/cloud-foundry
+  description: Cloud Foundry Application Runtime utilizes containers as part of its
+    DNA, and has since before Docker popularized containers. The new CF Container
+    Runtime gives you more granular control and management of containers with Kubernetes.
+  featured: true
+  homepage_url: https://www.cloudfoundry.org/working-groups
+  logo: cloudfoundry-applicationruntime.svg
+  name: Cloud Foundry Application Runtime
+  project: null
+  repo_url: https://github.com/cloudfoundry/cli
+- description: Cozystack is a free PaaS platform and framework for building private
+    clouds and providing users/customers with managed Kubernetes,  KubeVirt-based
+    VMs, databases as a service, NATS, message brokers, etc. with GPU support in VMs
+    and Kubernetes clusters.
+  featured: true
+  homepage_url: https://cozystack.io
+  logo: cozystack.svg
+  name: Cozystack
+  project: sandbox
+  repo_url: https://github.com/cozystack/cozystack

@@ -1,0 +1,61 @@
+- crunchbase: https://www.crunchbase.com/organization/paladin-cloud
+  featured: true
+  homepage_url: https://paladincloud.io/
+  logo: paladin-cloud.svg
+  name: Paladin Cloud
+  project: null
+  repo_url: https://github.com/PaladinCloud/CE
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Paralus is a free, open source tool that enables controlled, audited
+    access to Kubernetes infrastructure and Zero trust Kubernetes with zero friction.
+  featured: true
+  homepage_url: https://www.paralus.io/
+  logo: paralus.svg
+  name: Paralus
+  project: sandbox
+  repo_url: https://github.com/paralus/paralus
+  twitter: https://twitter.com/paralus_
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  featured: true
+  homepage_url: https://parsec.community/
+  logo: parsec.svg
+  name: Parsec
+  project: sandbox
+  repo_url: https://github.com/parallaxsecond/parsec
+- crunchbase: https://www.crunchbase.com/organization/permify
+  description: 'Permify is an open-source authorization as a service inspired by Google
+    Zanzibar, designed to build and manage fine-grained and scalable authorization
+    systems for any application.
+
+    '
+  featured: true
+  homepage_url: https://permify.co
+  logo: permify.svg
+  name: Permify
+  project: null
+  repo_url: https://github.com/Permify/permify
+- crunchbase: https://www.crunchbase.com/organization/fairwinds
+  featured: true
+  homepage_url: https://www.fairwinds.com/open-source-software
+  logo: pluto.svg
+  name: Pluto
+  project: null
+  repo_url: https://github.com/FairwindsOps/pluto
+- crunchbase: https://www.crunchbase.com/organization/fairwinds
+  featured: true
+  homepage_url: https://fairwinds.com/polaris
+  logo: polaris.svg
+  name: Polaris
+  project: null
+  repo_url: https://github.com/FairwindsOps/polaris
+- crunchbase: https://www.crunchbase.com/organization/pomerium
+  description: Pomerium is an identity-aware access proxy that enables teams to implement
+    true zero-trust security, eliminating the need for a VPN. Pomerium ensures that
+    every single call is authenticated and authorized, providing a secure and seamless
+    user experience.
+  featured: false
+  homepage_url: https://www.pomerium.com/
+  logo: pomerium.svg
+  name: Pomerium
+  project: null
+  repo_url: https://github.com/pomerium/pomerium

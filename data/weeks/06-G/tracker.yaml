@@ -1,0 +1,624 @@
+items:
+  GEAR:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  GO Feature Flag:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Gardener:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Gefyra:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Genode:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Giant Swarm Managed Kubernetes:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  GitLab:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Gitness:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Glasskube:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Gloo:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Gluster:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  GoCD:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  GoFr:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Godel-Scheduler:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Golang:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Goldilocks:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Gonzo:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Goose:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Gradle Build Tool:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Grafana:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Grafana Loki:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Grafana Mimir:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Grafana Pyroscope:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Grafana Tempo:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Grafeas:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Grain:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  GraphScope:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Graphite:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Gravitee.io:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Graylog:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  GreptimeDB:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Gthulhu:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+week_tasks:
+  tasks:
+    blog_post:
+      status: pending
+      started_at: null
+      completed_at: null
+      output_file: null
+      error_message: null
+      retry_count: 0
+      agent: writer
+metadata:
+  created_at: '2026-02-01T19:37:47.259701'
+  week_letter: G
+  last_synced: '2026-02-01T19:37:47.259928'
+  etl_item_count: 33

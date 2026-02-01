@@ -1,0 +1,27 @@
+- crunchbase: https://www.crunchbase.com/organization/nokia
+  description: SDC (schema Driven Configuration) exposes any schema based configuration
+    as Kubernetes resources.
+  featured: true
+  homepage_url: https://docs.sdcio.dev/
+  logo: sdc.svg
+  name: SDC
+  project: null
+  repo_url: https://github.com/sdcio/docs
+- crunchbase: https://www.crunchbase.com/organization/vmware
+  featured: true
+  homepage_url: https://saltproject.io
+  logo: salt-project.svg
+  name: Salt Project
+  project: null
+  repo_url: https://github.com/saltstack/salt
+  twitter: https://twitter.com/Salt_Project_OS
+- crunchbase: https://www.crunchbase.com/organization/edgenesis
+  description: Shifu is the next generation cloud native IoT development framework
+    that could 10X your IoT software development
+  featured: true
+  homepage_url: https://shifu.dev/
+  logo: shifu.svg
+  name: Shifu
+  project: null
+  repo_url: https://github.com/edgenesis/shifu
+  twitter: https://twitter.com/ShifuFramework

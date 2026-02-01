@@ -1,151 +1,101 @@
 import asyncio
-import os
-import glob
-import yaml
 import logfire
-from datetime import datetime
 from typing import List, Optional
 from prefect import flow, task, get_run_logger
-from src.agentic.agents.researcher import researcher_agent
-from src.agentic.agents.writer import writer_agent
-from src.agentic.agents.editor import editor_agent
 from src.agentic.models import ResearchOutput, BlogPostDraft, NextWeekDecision, ProjectMetadata
+from src.tracker import get_tracker
+from src.agentic.actions import decisions, weekly, research, writing
 
 @task
 @logfire.instrument
 async def determine_next_week() -> NextWeekDecision:
     logger = get_run_logger()
     logger.info("Asking Editor Agent for next week...")
-    # Editor agent uses tool to check file system
-    result = await editor_agent.run(
-        "Please decide the next week to tackle.",
-    )
-    logger.info(f"Editor decision: {result.data}")
-    return result.data
+    result = await decisions.determine_next_week()
+    logger.info(f"Editor decision: {result}")
+    return result
 
 @task
 @logfire.instrument
-async def get_items_for_week(letter: str) -> List[ProjectMetadata]:
+async def get_items_for_week(letter: str, task_type: str = "research") -> List[ProjectMetadata]:
+    """Get items with pending tasks for a specific week.
+    
+    Args:
+        letter: Week letter (A-Z)
+        task_type: Type of task to check (default: research)
+        
+    Returns:
+        List of ProjectMetadata for items with pending tasks
+    """
     logger = get_run_logger()
-    logger.info(f"Getting items for letter {letter}")
+    logger.info(f"Getting items for letter {letter} with pending '{task_type}' tasks")
 
-    # Read from generated tasks (output of ETL pipeline)
-    # The ETL pipeline generates data/week_XX_Letter/tasks.yaml
-    week_folders = glob.glob(f"data/week_*_{letter}")
+    items = await weekly.get_items_for_week(letter, task_type)
 
-    items = []
+    if not items:
+        logger.info(f"No pending '{task_type}' tasks for week {letter}")
+        return []
 
-    if week_folders:
-        week_folder = week_folders[0]
-        logger.info(f"Using ETL output from {week_folder}")
+    logger.info(f"Found {len(items)} items with pending '{task_type}' tasks")
 
-        # Read all yaml files in that folder except tasks.yaml
-        yaml_files = glob.glob(f"{week_folder}/*.yaml")
-        for yf in yaml_files:
-            if yf.endswith("tasks.yaml"):
-                continue
-
-            try:
-                with open(yf, 'r', encoding='utf-8') as f:
-                    data = yaml.safe_load(f)
-                    if isinstance(data, list):
-                        for item in data:
-                            items.append(ProjectMetadata(
-                                name=item.get('name'),
-                                repo_url=item.get('repo_url'),
-                                homepage=item.get('homepage_url')
-                            ))
-            except FileNotFoundError:
-                logger.error(f"File not found: {yf}")
-            except yaml.YAMLError as e:
-                logger.error(f"YAML parsing error in {yf}: {e}")
-            except UnicodeDecodeError as e:
-                logger.error(f"Encoding error while reading {yf}: {e}")
-            except Exception as e:
-                logger.exception(f"Unexpected error while reading {yf}: {e}")
-
-    else:
-        # Fallback to fetching raw data if ETL hasn't run
-        logger.warning("ETL output not found. Falling back to fetching raw landscape data.")
-        input_path = "https://raw.githubusercontent.com/cncf/landscape/master/landscape.yml"
-
-        def _fetch_and_transform():
-            from src.pipeline.extract import get_landscape_data
-            from src.pipeline.transform import get_landscape_by_letter
-            landscape = get_landscape_data(input_path)
-            return get_landscape_by_letter(landscape)
-
-        landscape_by_letter = await asyncio.to_thread(_fetch_and_transform)
-
-        data = landscape_by_letter.get(letter, {})
-        if 'partial' in data:
-            for path, item_list in data['partial'].items():
-                for item in item_list:
-                    items.append(ProjectMetadata(
-                        name=item.get('name'),
-                        repo_url=item.get('repo_url'),
-                        homepage=item.get('homepage_url')
-                    ))
-
-    items.sort(key=lambda x: x.name)
-    logger.info(f"Found {len(items)} items for letter {letter}")
+    # Log progress
+    tracker = get_tracker()
+    progress = tracker.get_progress(letter, task_type)
+    logger.info(
+        f"Week {letter} progress for '{task_type}': "
+        f"{progress.completed}/{progress.total} completed "
+        f"({progress.completion_percentage:.1f}%)"
+    )
+    
     return items
 
 @task
 @logfire.instrument
-async def research_item(item: ProjectMetadata) -> ResearchOutput:
+async def research_item(item: ProjectMetadata, week_letter: str) -> ResearchOutput:
+    """Research a single project and update tracker.
+    
+    Args:
+        item: Project metadata
+        week_letter: Week letter for tracking
+        
+    Returns:
+        Research output
+    """
     logger = get_run_logger()
     logger.info(f"Researching item: {item.name}")
-    try:
-        # Pydantic AI agents are async
-        result = await researcher_agent.run(
-            f"Research the project: {item.name}",
-            deps=item
-        )
-        return result.data
-    except Exception as e:
-        logger.error(f"Failed to research {item.name}: {e}")
-        return ResearchOutput(
-            project_name=item.name,
-            summary="Research failed.",
-            key_features=[],
-            recent_updates=f"Error: {str(e)}",
-            use_cases="Unknown"
-        )
+    
+    result = await research.research_item(item, week_letter)
+    
+    logger.info(f"Research completed for {item.name}")
+    return result
 
 @task
 @logfire.instrument
 async def write_weekly_post(week_letter: str, research_results: List[ResearchOutput]) -> BlogPostDraft:
     logger = get_run_logger()
     logger.info(f"Writing blog post for week {week_letter}")
-    result = await writer_agent.run(
-        f"Write a blog post for CNCF projects starting with letter {week_letter}.",
-        deps=research_results
-    )
-    return result.data
+    draft = await writing.write_weekly_post(week_letter, research_results)
+    logger.info(f"Blog post written for week {week_letter}")
+    return draft
 
 @task
 @logfire.instrument
 async def save_post(week_letter: str, draft: BlogPostDraft):
+    """Save blog post and update tracker."""
     logger = get_run_logger()
-    year = datetime.now().year
-    filename = f"website/content/posts/{year}-{week_letter}.md"
-    logger.info(f"Saving post to {filename}")
+    logger.info(f"Saving blog post for week {week_letter}")
+    await writing.save_post(week_letter, draft)
+    logger.info(f"Blog post saved for week {week_letter}")
 
-    date_str = datetime.now().isoformat()
-    full_content = f"""---
-title: "{draft.title}"
-date: {date_str}
-draft: false
----
-
-{draft.content_markdown}
-"""
-
-    os.makedirs(os.path.dirname(filename), exist_ok=True)
-    with open(filename, "w") as f:
-        f.write(full_content)
-    logger.info("Post saved.")
+@task
+@logfire.instrument
+async def save_research(week_letter: str, research: ResearchOutput):
+    """Save individual research file to data/weeks/XX-Letter/research/{sanitized_name}.yaml
+    and update tracker."""
+    logger = get_run_logger()
+    logger.info(f"Saving research for {research.project_name}")
+    await research.save_research(week_letter, research)
+    logger.info(f"Research saved for {research.project_name}")
 
 @flow(name="Weekly Content Flow")
 @logfire.instrument
@@ -207,6 +157,10 @@ async def weekly_content_flow(limit: Optional[int] = None):
         # Research items in parallel using asyncio.gather
         research_tasks = [research_item(item) for item in items_to_process]
         research_results = await asyncio.gather(*research_tasks)
+
+        # Save research files for each result
+        save_research_tasks = [save_research(week_letter, result) for result in research_results]
+        await asyncio.gather(*save_research_tasks)
 
         # Write the blog post
         draft = await write_weekly_post(week_letter, research_results)

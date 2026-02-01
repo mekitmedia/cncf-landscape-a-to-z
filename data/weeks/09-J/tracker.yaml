@@ -1,0 +1,168 @@
+items:
+  JHipster:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  JReleaser:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Jaeger:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Javy:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Jenkins:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  JenkinsX:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  JuiceFS:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Juju:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+week_tasks:
+  tasks:
+    blog_post:
+      status: pending
+      started_at: null
+      completed_at: null
+      output_file: null
+      error_message: null
+      retry_count: 0
+      agent: writer
+metadata:
+  created_at: '2026-02-01T19:37:47.372130'
+  week_letter: J
+  last_synced: '2026-02-01T19:37:47.372223'
+  etl_item_count: 8

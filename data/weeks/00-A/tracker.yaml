@@ -1,0 +1,1175 @@
+items:
+  An item starting with A:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: true
+  Another Item:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: true
+  AIBrix:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  APIClarity:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  APIOAK:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  APISIX:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  AWS Server Application Model (SAM):
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Aeraki Mesh:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Agola:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Airship:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Akka:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Akri:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Alluxio:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Amazon Elastic Kubernetes Service Anywhere (Amazon EKS Anywhere):
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Amazon Elastic Kubernetes Service Distro (Amazon EKS-D):
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Ambient:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Ansible:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Anteon:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Antrea:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Apache Camel K:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Apache CarbonData:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Apache Druid:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Apache Flink:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Apache HBase:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Apache Hadoop:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Apache Ignite:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Apache Mesos:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Apache NiFi:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Apache OpenServerless:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Apache OpenWhisk:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Apache Pinot:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Apache RocketMQ:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Apache Spark:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Apache Storm:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Apache StreamPipes:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Apache TVM:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Apache Thrift:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Apache Zeppelin:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Apache Zookeeper:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Apache bRPC:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Apicurio Registry:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Apollo:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  AppScale:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Application Platform for LKE:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  ArangoDB:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Architect:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Argo:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  ArkFlow:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Arks:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Armada:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Artifact Hub:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Aserto:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Asyncify:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Athenz:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Atlantis:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Authing:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  AutoMQ:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Avro:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Azure API Management:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Azure Functions:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Azure Service Fabric:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+week_tasks:
+  tasks:
+    blog_post:
+      status: pending
+      started_at: null
+      completed_at: null
+      output_file: null
+      error_message: null
+      retry_count: 0
+      agent: writer
+metadata:
+  created_at: '2026-02-01T19:13:21.827247'
+  week_letter: A
+  last_synced: '2026-02-01T19:37:46.942516'
+  etl_item_count: 61

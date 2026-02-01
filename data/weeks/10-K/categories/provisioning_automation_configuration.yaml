@@ -1,0 +1,95 @@
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  featured: true
+  homepage_url: https://kubeedge.io/en/
+  logo: kube-edge.svg
+  name: KubeEdge
+  project: graduated
+  repo_url: https://github.com/kubeedge/kubeedge
+  twitter: https://twitter.com/KubeEdge
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: A constraint-based record & functional language mainly used in configuration
+    and policy scenarios.
+  featured: true
+  homepage_url: https://kcl-lang.io/
+  logo: kcl.svg
+  name: KCL
+  project: sandbox
+  repo_url: https://github.com/kcl-lang/kcl
+  twitter: https://twitter.com/kcl_language
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  featured: true
+  homepage_url: https://kairos.io
+  logo: kairos.svg
+  name: Kairos
+  project: sandbox
+  repo_url: https://github.com/kairos-io/kairos
+  twitter: https://twitter.com/Kairos_OSS
+- description: A configuration management system for platform engineering and other
+    things
+  featured: true
+  homepage_url: https://kapitan.dev/
+  logo: kapitan.svg
+  name: Kapitan
+  project: null
+  repo_url: https://github.com/kapicorp/kapitan
+  twitter: https://twitter.com/kapitandev
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: An open standard for packaging, managing, and deploying ML models and
+    artifacts across different systems
+  featured: true
+  homepage_url: https://kitops.org/
+  logo: kitops.svg
+  name: KitOps
+  project: sandbox
+  repo_url: https://github.com/kitops-ml/kitops
+- description: Kosko can help you organize your Kubernetes manifests in TypeScript,
+    manage multiple environments, ensure type safety using OpenAPI schema, and find
+    issues in your manifests.
+  featured: true
+  homepage_url: https://kosko.dev
+  logo: kosko.svg
+  name: Kosko
+  project: null
+  repo_url: https://github.com/tommy351/kosko
+  twitter: https://x.com/kosko_k8s
+- featured: false
+  homepage_url: https://www.kratix.io/
+  logo: kratix.svg
+  name: Kratix
+  project: null
+  repo_url: https://github.com/syntasso/kratix
+  twitter: https://x.com/kratixio
+- crunchbase: https://www.crunchbase.com/organization/bytedance
+  featured: false
+  homepage_url: https://kubewharf.github.io
+  logo: kubezoo.svg
+  name: KubeZoo
+  project: null
+  repo_url: https://github.com/kubewharf/kubezoo
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Product ready cluster lifecycle management toolchains based on kubespray
+    and other cluster LCM engine.
+  featured: false
+  homepage_url: https://kubean-io.github.io/kubean/
+  logo: kubean.svg
+  name: Kubean
+  project: sandbox
+  repo_url: https://github.com/kubean-io/kubean
+- crunchbase: https://www.crunchbase.com/organization/kubefirst
+  description: Instant operational open source gitops platforms for platform engineering,
+    infrastructure, and software teams
+  featured: false
+  homepage_url: https://docs.kubefirst.com
+  logo: kubefirst.svg
+  name: Kubefirst
+  project: null
+  repo_url: https://github.com/kubefirst/kubefirst
+  twitter: https://twitter.com/kubefirst
+- crunchbase: https://www.crunchbase.com/organization/ant-group
+  featured: false
+  homepage_url: https://kusionstack.io/
+  logo: kusionstack.svg
+  name: KusionStack
+  project: sandbox
+  repo_url: https://github.com/KusionStack/kusion
+  twitter: https://twitter.com/KusionStack

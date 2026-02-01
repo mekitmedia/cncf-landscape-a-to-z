@@ -1,8 +1,0 @@
-- description: An admission controller that validates requests to create and update
-    Pods on Kubernetes clusters, using the Open Policy Agent (OPA).
-  homepage_url: https://www.openpolicyagent.org/
-  item: null
-  logo: ./opa-icon-color.svg
-  name: OPA/Gatekeeper
-  repo_url: https://github.com/open-policy-agent/gatekeeper
-  unnamed_organization: true

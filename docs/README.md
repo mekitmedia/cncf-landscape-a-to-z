@@ -65,6 +65,49 @@ Deep dive into the AI-powered content generation system:
 
 ---
 
+### [tracker.md](tracker.md)
+**Task Tracker System**
+
+Comprehensive guide to the task tracking and state management system:
+- Task types, states, and dependency management
+- Data models and storage architecture
+- Integration with agentic workflow
+- Progress tracking and error handling
+- Synchronization with ETL pipeline
+- Configuration and extensibility
+- Troubleshooting and debugging
+
+**Read this when:**
+- Understanding how tasks are tracked and managed
+- Working with task dependencies and state
+- Debugging workflow progress issues
+- Adding new task types or modifying tracking behavior
+- Implementing custom tracker backends
+
+---
+
+### [website-architecture.md](website-architecture.md)
+**Website Design & Integration**
+
+Complete guide to the website implementation and data integration:
+- Three-level content hierarchy (Featured → All → Details)
+- Data flow from ETL through research to rendered pages
+- Hugo template system and content generation
+- Research persistence and file organization
+- Tool page generation from research YAML
+- Navigation patterns and user discovery flows
+- Integration between workflows and website
+- Implementation phases and roadmap
+
+**Read this when:**
+- Building or modifying website features
+- Understanding how research feeds into website content
+- Implementing new templates or pages
+- Generating tool pages from research data
+- Troubleshooting website content display
+
+---
+
 ## 🚀 Quick Start
 
 ### Running the Complete Workflow
@@ -109,8 +152,12 @@ ETL Pipeline
 data/week_XX_Y/*.yaml (project metadata)
     ↓
 Agentic Workflow (reads)
+    ├─> Tracker System (data/week_XX_Y/tracker.yaml)
+    │   ├─> Task state management and dependencies
+    │   ├─> Progress tracking and error handling
+    │   └─> Synchronization with ETL changes
     ├─> data/week_XX_Y/research/*.yaml (persisted research)
-    └─> website/content/posts/*.md (final blog posts)
+    ├─> website/content/posts/*.md (final blog posts)
     └─> TODO.md (state tracking)
 ```
 
@@ -118,9 +165,10 @@ Agentic Workflow (reads)
 
 The system is designed with **exclusive write zones** to prevent conflicts:
 
-| Directory | ETL | Agentic | Purpose |
-|-----------|-----|---------|---------|
+| Directory/File | ETL | Agentic | Purpose |
+|---------------|-----|---------|---------|
 | `data/week_XX_Y/*.yaml` | ✅ Write | ❌ Read-only | Project metadata |
+| `data/week_XX_Y/tracker.yaml` | ❌ Never | ✅ Write | Task state tracking |
 | `data/week_XX_Y/research/` | ❌ Never | ✅ Write | Research persistence |
 | `website/content/letters/` | ✅ Write | ❌ Never | Hugo letter pages |
 | `website/content/posts/` | ❌ Never | ✅ Write (Editor only) | Blog posts |
@@ -148,6 +196,10 @@ The system is designed with **exclusive write zones** to prevent conflicts:
 - **Understand file naming** → See [agentic-workflow.md](agentic-workflow.md) "File Naming & Persistence"
 - **Prevent workflow conflicts** → See [architecture.md](architecture.md) "Conflict Prevention"
 - **Track progress across runs** → See [agentic-workflow.md](agentic-workflow.md) "TODO.md Structure"
+- **Understand website architecture** → Read [website-architecture.md](website-architecture.md)
+- **Generate tool pages** → See [website-architecture.md](website-architecture.md) "Tool Page Generation"
+- **Work with Hugo templates** → See [website-architecture.md](website-architecture.md) "Template System"
+- **Integrate research with website** → See [website-architecture.md](website-architecture.md) "Integration Points"
 
 ## 🏗️ Project Structure Reference
 

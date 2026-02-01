@@ -1,0 +1,20 @@
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Spiderpool is the underlay and RDMA network solution of the Kubernetes,
+    for bare metal, VM and public cloud
+  featured: true
+  homepage_url: https://spidernet-io.github.io/spiderpool/
+  logo: spiderpool.svg
+  name: Spiderpool
+  project: sandbox
+  repo_url: https://github.com/spidernet-io/spiderpool
+  twitter: https://twitter.com/daocloud_io
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Submariner enables direct networking between Pods and Services in different
+    Kubernetes clusters, either on-premises or in the cloud.
+  featured: true
+  homepage_url: https://submariner.io
+  logo: submariner.svg
+  name: Submariner
+  project: sandbox
+  repo_url: https://github.com/submariner-io/submariner
+  twitter: https://twitter.com/submarinerio

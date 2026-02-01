@@ -1,0 +1,18 @@
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Standardizing common eventing metadata and their location to help with
+    event identification and routing.
+  featured: true
+  homepage_url: https://cloudevents.io/
+  logo: cloud-events.svg
+  name: CloudEvents
+  project: graduated
+  repo_url: https://github.com/cloudevents/spec
+  twitter: https://twitter.com/cloudeventsio
+- crunchbase: https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf
+  featured: true
+  homepage_url: https://cdevents.dev
+  logo: cdevents.svg
+  name: CDEvents
+  project: null
+  repo_url: https://github.com/cdevents/spec
+  twitter: https://twitter.com/_cdevents

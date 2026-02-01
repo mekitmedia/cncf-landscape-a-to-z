@@ -1,0 +1,29 @@
+- crunchbase: https://www.crunchbase.com/organization/percona
+  featured: true
+  homepage_url: https://www.percona.com/software/mysql-database/percona-server
+  logo: percona.svg
+  name: Percona Server for MySQL
+  project: null
+  repo_url: https://github.com/percona/percona-server
+- crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
+  description: PolarDB is a cloud native SQL Database.
+  featured: true
+  homepage_url: https://openpolardb.com/home
+  logo: polardb.svg
+  name: PolarDB
+  project: null
+  repo_url: https://github.com/polardb/polardbx-sql
+- crunchbase: https://www.crunchbase.com/organization/postgresql
+  featured: true
+  homepage_url: https://www.postgresql.org/
+  logo: postgre-sql.svg
+  name: PostgreSQL
+  project: null
+  repo_url: https://github.com/postgres/postgres
+- crunchbase: https://www.crunchbase.com/organization/presto-foundation
+  featured: true
+  homepage_url: https://prestodb.io/
+  logo: presto.svg
+  name: Presto
+  project: null
+  repo_url: https://github.com/prestodb/presto

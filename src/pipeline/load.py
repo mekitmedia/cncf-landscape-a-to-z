@@ -1,5 +1,6 @@
 import yaml
 from pathlib import Path
+from src.config import load_config, resolve_data_dirs, week_id
 from src.logger import get_logger
 import jinja2
 
@@ -18,9 +19,11 @@ def save_partial_data(key: str, partial_data: dict, letter: str, index: int, out
     """
     This function saves the partial data to a yaml file
     """
-    path = Path(f'{output_dir}/week_{str(index).zfill(2)}_{letter}')
-    path.mkdir(parents=True, exist_ok=True)
-    path = path.joinpath(f"{key}.yaml")
+    dirs = resolve_data_dirs(output_dir)
+    week_folder = dirs["weeks"] / week_id(letter)
+    categories_dir = week_folder / "categories"
+    categories_dir.mkdir(parents=True, exist_ok=True)
+    path = categories_dir / f"{key}.yaml"
     logger.info(f"Saving partial data to {path}")
     with open(path, 'w+') as file:
         yaml.dump(partial_data[key], file)
@@ -29,9 +32,10 @@ def save_tasks(tasks: list, letter: str, index: int, output_dir: str = "data"):
     """
     This function saves the tasks for a specific week to a yaml file
     """
-    path = Path(f'{output_dir}/week_{str(index).zfill(2)}_{letter}')
-    path.mkdir(parents=True, exist_ok=True)
-    path = path.joinpath("tasks.yaml")
+    dirs = resolve_data_dirs(output_dir)
+    week_folder = dirs["weeks"] / week_id(letter)
+    week_folder.mkdir(parents=True, exist_ok=True)
+    path = week_folder / "tasks.yaml"
     logger.info(f"Saving tasks to {path}")
     with open(path, 'w+') as file:
         yaml.dump(tasks, file)
@@ -40,7 +44,7 @@ def generate_summary(output_dir: str = "data", landscape_by_letter: dict = None)
     """
     This function generates a summary of the week's data and returns it as a dictionary.
     """
-    template_loader = jinja2.FileSystemLoader(searchpath="./src/templates")
+    template_loader = jinja2.FileSystemLoader(searchpath=str(load_config().templates_dir))
     template_env = jinja2.Environment(loader=template_loader)
     template = template_env.get_template("weekly_summary.md.j2")
 
@@ -49,8 +53,8 @@ def generate_summary(output_dir: str = "data", landscape_by_letter: dict = None)
     if landscape_by_letter:
         for letter, data in landscape_by_letter.items():
             index = ord(letter) - ord('A')
-            week_dir_name = f"week_{str(index).zfill(2)}_{letter}"
-            week_dir = Path(output_dir) / week_dir_name
+            week_dir_name = f"{str(index).zfill(2)}-{letter}"
+            week_dir = Path(output_dir) / "weeks" / week_dir_name
 
             if not week_dir.is_dir():
                 continue
@@ -74,18 +78,15 @@ def generate_summary(output_dir: str = "data", landscape_by_letter: dict = None)
             summaries[week_dir_name] = summary_content
         return summaries
 
-    for week_dir in Path(output_dir).glob("week_*"):
+    for week_dir in (Path(output_dir) / "weeks").glob("*-*"):
         if not week_dir.is_dir():
             continue
 
         items_per_category = {}
         total_items = 0
 
-        for yaml_file in week_dir.glob("*.yaml"):
-            # Skip tasks.yaml from the summary count as it duplicates items
-            if yaml_file.name == "tasks.yaml":
-                continue
-
+        categories_dir = week_dir / "categories"
+        for yaml_file in categories_dir.glob("*.yaml"):
             with open(yaml_file, 'r') as f:
                 data = yaml.safe_load(f)
                 if data:
@@ -111,7 +112,7 @@ def generate_letter_pages(output_dir: str = "website/content", summaries: dict =
     - ``title``: Human-readable title (e.g. "Week 1: Letter A").
     - ``letter``: The uppercase letter (A–Z).
     - ``week``: Zero-based week index (0–25).
-    - ``data_key``: Key of the corresponding week's data directory, formatted as ``week_{week_num}_{letter}`` (e.g. ``week_00_A``).
+    - ``data_key``: Key of the corresponding week's data directory, formatted as ``{week_num}-{letter}`` (e.g. ``00-A``).
     - ``layout``: The Hugo layout to use (set to ``"list"``).
     In addition, a root ``_index.md`` is created in ``{output_dir}/letters/`` that defines the "All Letters" section.
     """
@@ -123,19 +124,20 @@ def generate_letter_pages(output_dir: str = "website/content", summaries: dict =
         letter = chr(letter_code)
         index = letter_code - ord('A')
         week_num = str(index).zfill(2)
+        week_key = f"{week_num}-{letter}"
 
         letter_dir = letters_dir / letter
         letter_dir.mkdir(exist_ok=True)
 
         summary = ""
         if summaries:
-            summary = summaries.get(f"week_{week_num}_{letter}", "")
+            summary = summaries.get(week_key, "")
 
         content = f"""---
 title: "Week {index + 1}: Letter {letter}"
 letter: "{letter}"
 week: {index}
-data_key: "week_{week_num}_{letter}"
+data_key: "{week_key}"
 layout: "list"
 ---
 

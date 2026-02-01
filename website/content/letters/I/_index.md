@@ -1,17 +1,29 @@
 ---
-title: "Week 9: Letter I"
+title: "Letter I - CNCF Landscape"
 letter: "I"
 week: 8
-data_key: "week_08_I"
+data_key: "08-I"
 layout: "list"
 ---
 
-# Summary for week_08_I
+# Summary for 08-I
 
-This week has a total of 2 items.
+This week has a total of 12 items.
 
 
-- **Category 1 Subcategory 1**: 1 items
+- **Runtime Container Runtime**: 2 items
 
-- **Category 2 Subcategory 2**: 1 items
+- **Orchestration Management Service Proxy**: 1 items
+
+- **Orchestration Management Service Mesh**: 1 items
+
+- **App Definition And Development Database**: 1 items
+
+- **Observability And Analysis Continuous Optimization**: 1 items
+
+- **Observability And Analysis Observability**: 3 items
+
+- **Wasm Embedded Functions**: 2 items
+
+- **Cnai Workload Observability**: 1 items
 

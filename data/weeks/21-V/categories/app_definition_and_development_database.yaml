@@ -1,0 +1,31 @@
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: MySQL-compatible, horizontally scalable, cloud-native database solution.
+  featured: true
+  homepage_url: https://vitess.io/
+  logo: vitess.svg
+  name: Vitess
+  project: graduated
+  repo_url: https://github.com/vitessio/vitess
+  twitter: https://twitter.com/vitessio
+- crunchbase: https://www.crunchbase.com/organization/ly-corporation
+  description: Vald is a highly scalable, cloud-native distributed vector search engine
+    optimized for machine learning and AI applications. It offers efficient, near
+    real-time search for high-dimensional vector data, ensuring robust performance
+    and flexibility in handling large datasets. Engineered for ease of use and integration,
+    Vald empowers developers with cutting-edge search capabilities.
+  featured: true
+  homepage_url: https://vald.vdaas.org/
+  logo: vald.svg
+  name: Vald
+  project: null
+  repo_url: https://github.com/vdaas/vald
+  twitter: https://twitter.com/vdaas_vald
+- crunchbase: https://www.crunchbase.com/organization/linux-foundation
+  description: A flexible distributed key-value datastore that is optimized for caching
+    and other realtime workloads.
+  featured: true
+  homepage_url: https://valkey.io/
+  logo: ./valkey.svg
+  name: Valkey
+  project: null
+  repo_url: https://github.com/valkey-io/valkey

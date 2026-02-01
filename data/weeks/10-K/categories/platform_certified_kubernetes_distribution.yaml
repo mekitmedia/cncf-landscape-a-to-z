@@ -1,0 +1,40 @@
+- crunchbase: https://www.crunchbase.com/organization/national-information-society-agency
+  description: The K-PaaS Container Platform provides an independent Kubernetes environment,
+    and developers can easily deploy Kubernetes clusters to build and manage the modern
+    applications anywhere.
+  featured: true
+  homepage_url: https://www.k-paas.or.kr/eng/
+  logo: nia-k-paas.svg
+  name: K-PaaS Container Platform
+  project: null
+  repo_url: https://github.com/K-PaaS/container-platform
+- crunchbase: https://www.crunchbase.com/organization/suse
+  description: Virtual Kubernetes cluster
+  featured: true
+  homepage_url: https://github.com/rancher/k3k
+  logo: k3k.svg
+  name: K3k
+  project: null
+  repo_url: https://github.com/rancher/k3k
+- crunchbase: https://www.crunchbase.com/organization/loodse-gmbh
+  description: Kubermatic Kubernetes Platform automates Kubernetes deployments and
+    Day 2 operations for thousands of Kubernetes clusters on any cloud, on-premises
+    and edge.
+  featured: true
+  homepage_url: https://www.kubermatic.com
+  logo: kubermatic.svg
+  name: Kubermatic Kubernetes Platform
+  project: null
+  repo_url: https://github.com/kubermatic/kubermatic
+- crunchbase: https://www.crunchbase.com/organization/qingcloud
+  description: Kubesphere.io is an upstream project of the KubeSphere container management
+    platform. Our vision is to provide an easier, more friendly and more powerful
+    distributed management platform for individuals and enterprises based on Kubernetes,
+    as well as meet more business demands and help more users to use Kubernetes faster
+    and better.
+  featured: true
+  homepage_url: https://kubesphere.io
+  logo: kubesphere.svg
+  name: Kubesphere
+  project: null
+  repo_url: https://github.com/kubesphere/kubesphere

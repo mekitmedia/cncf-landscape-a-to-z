@@ -1,0 +1,123 @@
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  featured: true
+  homepage_url: https://keda.sh/
+  logo: keda.svg
+  name: KEDA
+  project: graduated
+  repo_url: https://github.com/kedacore/keda
+  twitter: https://twitter.com/kedaorg
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: "Knative is a developer-focused serverless application layer which\
+    \ is a great complement to the existing Kubernetes application constructs. Knative\
+    \ consists of three components: an HTTP-triggered autoscaling container runtime\
+    \ called \u201CKnative Serving\u201D, a CloudEvents-over-HTTP asynchronous routing\
+    \ layer called \u201CKnative Eventing\u201D, and a developer-focused function\
+    \ framework which leverages the Serving and Eventing components, called \"Knative\
+    \ Functions\"."
+  featured: true
+  homepage_url: https://knative.dev
+  logo: knative.svg
+  name: Knative
+  project: graduated
+  repo_url: https://github.com/knative/serving
+  twitter: https://twitter.com/KnativeProject
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Kubernetes is an open-source system for automating deployment, scaling,
+    and management of containerized applications
+  featured: true
+  homepage_url: https://kubernetes.io/
+  logo: kubernetes.svg
+  name: Kubernetes
+  project: graduated
+  repo_url: https://github.com/kubernetes/kubernetes
+  twitter: https://twitter.com/kubernetesio
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  featured: true
+  homepage_url: https://karmada.io/
+  logo: karmada.svg
+  name: Karmada
+  project: incubating
+  repo_url: https://github.com/karmada-io/karmada
+  twitter: https://x.com/karmada_io
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Kubeflow is the foundation of tools for AI Platforms on Kubernetes.
+  featured: true
+  homepage_url: https://kubeflow.org
+  logo: kubeflow.svg
+  name: Kubeflow
+  project: incubating
+  repo_url: https://github.com/kubeflow/kubeflow
+  twitter: https://twitter.com/kubeflow
+- crunchbase: https://www.crunchbase.com/organization/bytedance
+  description: Katalyst is a QoS-based resource management system for workload colocation
+    on kubernetes
+  featured: true
+  homepage_url: https://gokatalyst.io
+  logo: katalyst.svg
+  name: Katalyst
+  project: null
+  repo_url: https://github.com/kubewharf/katalyst-core
+- crunchbase: https://www.crunchbase.com/organization/kestra
+  description: Scalable, event-driven, language-agnostic orchestration and scheduling
+    platform to manage millions of workflows declaratively in code.
+  featured: false
+  homepage_url: https://kestra.io/
+  logo: kestra.svg
+  name: Kestra
+  project: null
+  repo_url: https://github.com/kestra-io/kestra
+  twitter: https://twitter.com/@kestra-io
+- crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
+  description: QoS based scheduling system for hybrid orchestration workloads on Kubernetes,
+    bringing workloads the best layout and status.
+  featured: false
+  homepage_url: https://koordinator.sh
+  logo: Koordinator.svg
+  name: Koordinator
+  project: sandbox
+  repo_url: https://github.com/koordinator-sh/koordinator
+- crunchbase: https://www.crunchbase.com/organization/bytedance
+  description: KubeAdmiral is a multi-cluster scheduling and orchestration system
+    for Kubernetes.
+  featured: false
+  homepage_url: https://github.com/kubewharf/kubeadmiral
+  logo: kubeadmiral.svg
+  name: KubeAdmiral
+  project: null
+  repo_url: https://github.com/kubewharf/kubeadmiral
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: A multi-cluster solution that enables users to effectively manage their
+    applications running in multiple Kubernetes clusters.
+  featured: false
+  homepage_url: https://kubefleet.dev/
+  logo: kubefleet.svg
+  name: KubeFleet
+  project: sandbox
+  repo_url: https://github.com/kubefleet-dev/kubefleet
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  featured: false
+  homepage_url: https://kubeslice.io
+  logo: kubeslice.svg
+  name: KubeSlice
+  project: sandbox
+  repo_url: https://github.com/kubeslice/kubeslice
+  twitter: https://twitter.com/kubeslice
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  featured: false
+  homepage_url: https://kubestellar.io
+  logo: kubestellar.svg
+  name: KubeStellar
+  project: sandbox
+  repo_url: https://github.com/kubestellar/kubestellar
+  twitter: https://twitter.com/kubestellar
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Kured (KUbernetes REboot Daemon) is a Kubernetes daemonset that performs
+    safe automatic node reboots when the need to do so is indicated by the package
+    management system of the underlying OS
+  featured: false
+  homepage_url: https://kured.dev
+  logo: kured.svg
+  name: Kured
+  project: sandbox
+  repo_url: https://github.com/kubereboot/kured
+  twitter: https://twitter.com/kubereboot

@@ -1,0 +1,24 @@
+- crunchbase: https://www.crunchbase.com/organization/cisco
+  description: APIClarity is a cloud API observability open-source project that provides
+    functionality to discover and monitor any API traffic that interacts with modern
+    applications and report suspected security weaknesses or possible abuses. Once
+    an OpenAPI spec is either uploaded or reconstructed by APIClarity, it monitors
+    for shadow and zombie APIs, Broken Functional-Level Authorization (BFLA), Broken
+    Object-Level Authorization (BOLA), weak authentication, sensitive data leaks and
+    data injection risks.
+  featured: true
+  homepage_url: https://openclarity.io/
+  logo: APIClarity.svg
+  name: APIClarity
+  project: null
+  repo_url: https://github.com/openclarity/apiclarity
+  twitter: https://twitter.com/CiscoOpen
+- crunchbase: https://www.crunchbase.com/organization/aserto-2995
+  description: Fine-grained, policy-based, real-time authorization for APIs and microservices.
+    Aserto is the maintainer of the Topaz and Open Policy Containers OSS projects.
+  featured: true
+  homepage_url: https://www.aserto.com
+  logo: aserto.svg
+  name: Aserto
+  project: null
+  repo_url: https://github.com/aserto-dev/runtime

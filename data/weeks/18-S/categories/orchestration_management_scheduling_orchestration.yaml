@@ -1,0 +1,25 @@
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  featured: true
+  homepage_url: https://www.serverless-devs.com/
+  logo: serverless-devs.svg
+  name: Serverless Devs
+  project: sandbox
+  repo_url: https://github.com/serverless-devs/serverless-devs
+- crunchbase: https://www.crunchbase.com/organization/schedmd-llc
+  description: Slurm is an open source, fault-tolerant, and highly scalable cluster
+    management and job scheduling system for large and small Linux clusters.
+  featured: true
+  homepage_url: https://slurm.schedmd.com/
+  logo: slurm.svg
+  name: Slurm
+  project: null
+  repo_url: https://github.com/SchedMD/slurm
+  twitter: https://twitter.com/schedmd
+- crunchbase: https://www.crunchbase.com/organization/stackstorm
+  featured: true
+  homepage_url: https://stackstorm.com/
+  logo: stackstorm.svg
+  name: StackStorm
+  project: null
+  repo_url: https://github.com/stackstorm/st2
+  twitter: https://twitter.com/StackStorm

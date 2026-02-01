@@ -1,0 +1,78 @@
+- crunchbase: https://www.crunchbase.com/organization/scalar
+  featured: true
+  homepage_url: https://scalar-labs.com/
+  logo: scalardb.svg
+  name: ScalarDB
+  project: null
+  repo_url: https://github.com/scalar-labs/scalardb
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  featured: true
+  homepage_url: https://schemahero.io
+  logo: schemahero.svg
+  name: SchemaHero
+  project: sandbox
+  repo_url: https://github.com/schemahero/schemahero
+- crunchbase: https://www.crunchbase.com/organization/scylladb
+  featured: true
+  homepage_url: https://www.scylladb.com/
+  logo: scylla.svg
+  name: Scylla
+  project: null
+  repo_url: https://github.com/scylladb/scylladb
+  twitter: https://twitter.com/ScyllaDB
+- crunchbase: https://www.crunchbase.com/organization/ant-financial
+  featured: true
+  homepage_url: https://seata.apache.org
+  logo: seata.svg
+  name: Seata
+  project: null
+  repo_url: https://github.com/apache/incubator-seata
+  twitter: https://twitter.com/seataio
+- crunchbase: https://www.crunchbase.com/organization/apache
+  featured: true
+  homepage_url: https://shardingsphere.apache.org/
+  logo: shardingsphere.svg
+  name: ShardingSphere
+  project: null
+  repo_url: https://github.com/apache/shardingsphere
+  twitter: https://twitter.com/ShardingSphere
+- crunchbase: https://www.crunchbase.com/organization/authzed
+  description: 'SpiceDB is an open source database optimized for storing and querying
+    authorization data. SpiceDB sets the standard for scalable authorization by remaining
+    true to the design of the system powering permissions at Google: Zanzibar.
+
+    '
+  featured: true
+  homepage_url: https://authzed.com/spicedb
+  logo: spicedb.svg
+  name: SpiceDB
+  project: null
+  repo_url: https://github.com/authzed/spicedb
+- crunchbase: https://www.crunchbase.com/organization/linux-foundation
+  description: StarRocks is a next-gen sub-second MPP database for full analytics
+    scenarios, including multi-dimensional analytics, real-time analytics and ad-hoc
+    query.
+  featured: false
+  homepage_url: https://starrocks.io
+  logo: starrocks.svg
+  name: StarRocks
+  project: null
+  repo_url: https://github.com/StarRocks/starrocks
+- crunchbase: https://www.crunchbase.com/organization/sorint-lab
+  description: Cloud Native PostgreSQL High Availability
+  featured: false
+  homepage_url: https://sorintoss.io/projects/
+  logo: stolon.svg
+  name: Stolon
+  project: null
+  repo_url: https://github.com/sorintlab/stolon
+  twitter: https://twitter.com/sorintlab
+- crunchbase: https://www.crunchbase.com/organization/supabase
+  description: an open source Firebase alternative
+  featured: false
+  homepage_url: https://supabase.com/
+  logo: supabase-logo.svg
+  name: Supabase
+  project: null
+  repo_url: https://github.com/supabase/supabase
+  twitter: https://x.com/supabase

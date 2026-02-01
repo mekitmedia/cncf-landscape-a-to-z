@@ -1,0 +1,9 @@
+- description: InfluxDB is an open source time series database written in Rust, using
+    Apache Arrow, Apache Parquet, and Apache DataFusion as its foundational building
+    blocks.
+  featured: true
+  homepage_url: https://github.com/influxdata/influxdb
+  logo: ./influxdb.svg
+  name: Influxdb
+  project: null
+  repo_url: https://github.com/influxdata/influxdb

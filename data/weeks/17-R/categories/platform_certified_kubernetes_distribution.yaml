@@ -1,0 +1,37 @@
+- crunchbase: https://www.crunchbase.com/organization/suse
+  description: A Kubernetes distribution focused on enabling Federal government compliance-based
+    use cases.
+  featured: true
+  homepage_url: https://docs.rke2.io/
+  logo: rke-government.svg
+  name: RKE Government
+  project: null
+  repo_url: https://github.com/rancher/rke2
+- crunchbase: https://www.crunchbase.com/organization/suse
+  description: "Deploy Rancher\u2019s Kubernetes distro anywhere or launch cloud Kubernetes\
+    \ services from Google, Amazon or Microsoft."
+  featured: true
+  homepage_url: https://rancher.com
+  logo: rancher.svg
+  name: Rancher Kubernetes
+  project: null
+  repo_url: https://github.com/rancher/rancher
+- crunchbase: https://www.crunchbase.com/organization/red-hat
+  description: A component of Red Hat Device Edge used to provide lightweight Kubernetes
+    container orchestration in field deployed devices at the far edge
+  featured: true
+  homepage_url: https://www.redhat.com/en/technologies/device-edge
+  logo: red-hat-member.svg
+  name: Red Hat Build of Microshift
+  project: null
+  repo_url: https://github.com/openshift/microshift
+- crunchbase: https://www.crunchbase.com/organization/red-hat
+  description: "OpenShift\xAE helps organizations focus on building and scaling their\
+    \ business with fully supported enterprise Kubernetes by Red Hat\xAE."
+  featured: true
+  homepage_url: https://www.redhat.com/en/technologies/cloud-computing/openshift
+  logo: red-hat-open-shift.svg
+  name: Red Hat OpenShift
+  project: null
+  repo_url: https://github.com/openshift/kubernetes
+  twitter: https://twitter.com/openshift

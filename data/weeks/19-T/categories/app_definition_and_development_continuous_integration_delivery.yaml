@@ -1,0 +1,39 @@
+- crunchbase: https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf
+  featured: true
+  homepage_url: https://tekton.dev/
+  logo: tekton.svg
+  name: Tekton Pipelines
+  project: null
+  repo_url: https://github.com/tektoncd/pipeline
+  twitter: https://twitter.com/tektoncd
+- crunchbase: https://www.crunchbase.com/organization/terramate
+  description: Terramate is an Infrastructure as Code (IaC) Management Platform combining
+    Infrastructure Delivery, Drift Management, Observability, and Collaboration in
+    a single platform that developers are excited about. We focus on providing the
+    best developer experience by combining workflows, best practices, and more so
+    that developers can move beyond infrastructure and focus on developing applications.
+  featured: true
+  homepage_url: https://www.terramate.io/
+  logo: terramate.svg
+  name: Terramate
+  project: null
+  repo_url: https://github.com/terramate-io/terramate
+- crunchbase: https://www.crunchbase.com/organization/kubeshop
+  description: Testkube provides a Kubernetes-native framework for test definition,
+    execution and results. It decouples test artifacts and execution from CI/CD tooling
+    and makes testing part of your cluster's state. Testkube is built and maintained
+    by Kubeshop.
+  featured: true
+  homepage_url: https://testkube.io
+  logo: testkube.svg
+  name: Testkube
+  project: null
+  repo_url: https://github.com/kubeshop/testkube
+  twitter: https://twitter.com/testkube_io
+- crunchbase: https://www.crunchbase.com/organization/travis-ci
+  featured: true
+  homepage_url: https://travis-ci.com/
+  logo: travis-ci.svg
+  name: Travis CI
+  project: null
+  repo_url: https://github.com/travis-ci/travis-web

@@ -1,0 +1,45 @@
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  featured: true
+  homepage_url: https://operatorframework.io/
+  logo: operator-framework.svg
+  name: Operator Framework
+  project: incubating
+  repo_url: https://github.com/operator-framework/operator-sdk
+- crunchbase: https://www.crunchbase.com/organization/okteto
+  featured: true
+  homepage_url: https://okteto.com/
+  logo: okteto.svg
+  name: Okteto
+  project: null
+  repo_url: https://github.com/okteto/okteto
+- crunchbase: https://www.crunchbase.com/organization/microsoft
+  featured: true
+  homepage_url: https://oam.dev/
+  logo: oam.svg
+  name: Open Application Model
+  project: null
+  repo_url: https://github.com/oam-dev/spec
+  twitter: https://twitter.com/oam_dev
+- crunchbase: https://www.crunchbase.com/organization/cloud-foundry
+  featured: true
+  homepage_url: https://www.openservicebrokerapi.org/
+  logo: openservicebrokerapi.svg
+  name: Open Service Broker API
+  project: null
+  repo_url: https://github.com/openservicebrokerapi/servicebroker
+- crunchbase: https://www.crunchbase.com/organization/the-open-api-initiative
+  featured: true
+  homepage_url: https://www.openapis.org/
+  logo: openapi.svg
+  name: OpenAPI
+  project: null
+  repo_url: https://github.com/OAI/OpenAPI-Specification
+- crunchbase: https://www.crunchbase.com/organization/clace
+  description: GitOps based deployment platform similar to Google Cloud Run and AWS
+    App Runner. Easily deploy internal tools across a team.
+  featured: true
+  homepage_url: https://openrun.dev
+  logo: openrun.svg
+  name: OpenRun
+  project: null
+  repo_url: https://github.com/openrundev/openrun

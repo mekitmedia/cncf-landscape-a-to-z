@@ -1,0 +1,45 @@
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: A distributed transactional key-value database. Based on the design
+    of Google Spanner and HBase, but simpler to manage and without dependencies on
+    any distributed filesystem
+  featured: true
+  homepage_url: https://tikv.org
+  logo: tikv.svg
+  name: TiKV
+  project: graduated
+  repo_url: https://github.com/tikv/tikv
+  twitter: https://twitter.com/tikvproject
+- crunchbase: https://www.crunchbase.com/organization/taos-data
+  featured: true
+  homepage_url: https://tdengine.com
+  logo: TDengine.svg
+  name: TDengine
+  project: null
+  repo_url: https://github.com/taosdata/TDengine
+- crunchbase: https://www.crunchbase.com/organization/mail-ru
+  description: In-memory computing platform consisting of a database and an application
+    server
+  featured: true
+  homepage_url: https://www.tarantool.io/en/
+  logo: tarantool.svg
+  name: Tarantool
+  project: null
+  repo_url: https://github.com/tarantool/tarantool
+- crunchbase: https://www.crunchbase.com/organization/pingcap
+  featured: true
+  homepage_url: https://en.pingcap.com
+  logo: tidb.svg
+  name: TiDB
+  project: null
+  repo_url: https://github.com/pingcap/tidb
+  twitter: https://twitter.com/PingCAP
+- crunchbase: https://www.crunchbase.com/organization/timescaledb
+  description: "PostgreSQL for time\u2011series. TimescaleDB is the leading open-source\
+    \ relational database for time-series data. Fully managed or self\u2011hosted."
+  featured: true
+  homepage_url: https://www.timescale.com
+  logo: timescale.svg
+  name: Timescale
+  project: null
+  repo_url: https://github.com/timescale/timescaledb
+  twitter: https://twitter.com/TimescaleDB

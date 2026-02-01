@@ -1,0 +1,51 @@
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: An Envoy-powered, Kubernetes-native API Gateway that integrates Kubernetes
+    Gateway API with a control plane for API connectivity in any cloud environment.
+  featured: true
+  homepage_url: https://kgateway.dev/
+  logo: kgateway.svg
+  name: Kgateway
+  project: sandbox
+  repo_url: https://github.com/kgateway-dev/kgateway
+- crunchbase: https://www.crunchbase.com/organization/konghq
+  featured: true
+  homepage_url: https://konghq.com/
+  logo: kong.svg
+  name: Kong
+  project: null
+  repo_url: https://github.com/Kong/kong
+- crunchbase: https://www.crunchbase.com/organization/krakend
+  featured: true
+  homepage_url: https://www.krakend.io/
+  logo: krakend.svg
+  name: KrakenD
+  project: null
+  repo_url: https://github.com/luraproject/lura
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Kuadrant combines Gateway API and Istio-based gateway controllers to
+    enhance application connectivity. It enables platform engineers  and application
+    developers to easily connect, secure, and protect their services and infrastructure
+    across multiple clusters  with policies for TLS, DNS, application authentication
+    & authorization, and rate limiting.
+  featured: true
+  homepage_url: https://kuadrant.io
+  logo: kuadrant.svg
+  name: Kuadrant
+  project: sandbox
+  repo_url: https://github.com/kuadrant/kuadrant-operator
+- crunchbase: https://www.crunchbase.com/organization/bytedance
+  featured: true
+  homepage_url: https://github.com/kubewharf/kubegateway
+  logo: kubegateway.svg
+  name: KubeGateway
+  project: null
+  repo_url: https://github.com/kubewharf/kubegateway
+- crunchbase: https://www.crunchbase.com/organization/kubeshop
+  description: Kusk Gateway is a self-service API gateway powered by OpenAPI and Envoy.
+    Kusk Gateway is built and maintained by Kubeshop.
+  featured: true
+  homepage_url: https://kusk.io/
+  logo: kusk.svg
+  name: Kusk Gateway
+  project: null
+  repo_url: https://github.com/kubeshop/kusk-gateway

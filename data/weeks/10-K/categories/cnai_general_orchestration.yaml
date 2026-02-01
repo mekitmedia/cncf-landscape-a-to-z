@@ -1,0 +1,15 @@
+- description: A toolkit to run Ray applications on Kubernetes
+  featured: true
+  homepage_url: https://github.com/ray-project/kuberay
+  logo: ./ray_logo.svg
+  name: Kuberay
+  project: null
+  repo_url: https://github.com/ray-project/kuberay
+- description: Cloud-native job queueing system for batch, HPC, AI/ML, and similar
+    applications in a Kubernetes cluster.
+  featured: true
+  homepage_url: https://kueue.sigs.k8s.io/
+  logo: ./kueue.svg
+  name: Kueue
+  project: null
+  repo_url: https://github.com/kubernetes-sigs/kueue

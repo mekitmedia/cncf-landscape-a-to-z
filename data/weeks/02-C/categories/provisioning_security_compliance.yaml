@@ -1,0 +1,105 @@
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Cartography is a Python tool that consolidates infrastructure assets
+    and the relationships between them in an intuitive graph view.
+  featured: true
+  homepage_url: https://cartography.dev
+  logo: cartography.svg
+  name: Cartography
+  project: sandbox
+  repo_url: https://github.com/cartography-cncf/cartography
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Cedar is an open source authorization policy language that enables
+    developers to express fine-grained permissions as easy-to-understand policies
+    enforced in their applications, and decouple access control from application logic.
+    Cedar is designed to be ergonomic, fast, safe, and analyzable using automated
+    reasoning. Cedar's simple and intuitive syntax supports common authorization use-cases
+    with readable policies, naturally expressing concepts from role-based, attribute-based,
+    and relation-based access control models. Cedar's policy structure enables authorization
+    requests to be decided quickly. Its policy validator uses optional typing to help
+    policy writers avoid mistakes, but not get in their way. Cedar's design has been
+    finely balanced to allow for a sound, complete, and decidable logical encoding,
+    which enables precise automated analysis of Cedar policies, e.g., to ensure that
+    policy refactoring preserves existing permissions. Cedar's language specification
+    has been formally verified using a theorem prover to satisfy key security properties
+    like "deny trumps allow," and its implementation in Rust undergoes rigorous differential
+    random testing against its formal specification. By combining mathematical rigor
+    with developer-friendly design, Cedar offers a practical approach to secure, maintainable
+    authorization for modern applications.
+  featured: true
+  homepage_url: https://cedarpolicy.com
+  logo: cedar.svg
+  name: Cedar
+  project: sandbox
+  repo_url: https://github.com/cedar-policy/cedar
+- crunchbase: https://www.crunchbase.com/organization/cerbos
+  featured: true
+  homepage_url: https://www.cerbos.dev/
+  logo: cerbos.svg
+  name: Cerbos
+  project: null
+  repo_url: https://github.com/cerbos/cerbos
+- crunchbase: https://www.crunchbase.com/organization/bridgecrew
+  description: Checkov scans cloud infrastructure configurations to find misconfigurations
+    before they are deployed. Checkov manages and analyzes infrastructure as code
+    (IaC) scan results across platforms such as Terraform, CloudFormation, Kubernetes,
+    Helm, ARM Templates and Serverless framework.
+  featured: true
+  homepage_url: https://www.checkov.io/
+  logo: checkov.svg
+  name: Checkov
+  project: null
+  repo_url: https://github.com/bridgecrewio/checkov
+- crunchbase: https://www.crunchbase.com/organization/chef
+  featured: true
+  homepage_url: https://community.chef.io/tools/chef-inspec
+  logo: chef_inspec.svg
+  name: Chef InSpec
+  project: null
+  repo_url: https://github.com/inspec/inspec
+- crunchbase: https://www.crunchbase.com/organization/red-hat
+  featured: true
+  homepage_url: https://www.redhat.com/en/topics/containers/what-is-clair
+  logo: clair.svg
+  name: Clair
+  project: null
+  repo_url: https://github.com/quay/clair
+  twitter: https://twitter.com/coreos
+- crunchbase: https://www.crunchbase.com/organization/cloudmatos
+  description: Pioneering the world of self-healing, self-aware, self-sustaining,
+    self-resilient, self-secure and intelligent remediation, MatosSphere brings a
+    complete cloud security and governance solution for your cloud infrastructure.
+  featured: false
+  homepage_url: https://www.cloudmatos.com
+  logo: cloudmatos.svg
+  name: CloudMatos
+  project: null
+  repo_url: https://github.com/cloudmatos/matos
+  twitter: https://twitter.com/CloudMatos
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Confidential Containers is an open source community working to enable
+    cloud native  confidential computing by leveraging Trusted Execution Environments
+    to protect  containers and data.
+  featured: false
+  homepage_url: https://confidentialcontainers.org/
+  logo: confidential-containers.svg
+  name: Confidential Containers
+  project: sandbox
+  repo_url: https://github.com/confidential-containers/confidential-containers
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: ContainerSSH launches a new container for each SSH connection in Kubernetes,
+    Podman or Docker. The user is transparently dropped in the container and the container
+    is removed when the user disconnects. Authentication and container configuration
+    are dynamic using webhooks, no system users required.
+  featured: false
+  homepage_url: https://containerssh.io
+  logo: containerssh.svg
+  name: ContainerSSH
+  project: sandbox
+  repo_url: https://github.com/containerssh/containerssh
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  featured: false
+  homepage_url: https://github.com/project-copacetic/copacetic
+  logo: copa.svg
+  name: Copa
+  project: sandbox
+  repo_url: https://github.com/project-copacetic/copacetic

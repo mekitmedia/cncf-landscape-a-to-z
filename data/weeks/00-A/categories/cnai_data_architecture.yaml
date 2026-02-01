@@ -1,0 +1,44 @@
+- description: Data orchestration for analytics and machine learning in the cloud.
+  featured: true
+  homepage_url: https://github.com/Alluxio/alluxio
+  logo: ./alluxio.svg
+  name: Alluxio
+  project: null
+  repo_url: https://github.com/Alluxio/alluxio
+- description: A high performance real-time analytics database.
+  featured: true
+  homepage_url: https://druid.apache.org/
+  logo: ./apache-druid.svg
+  name: Apache Druid
+  project: null
+  repo_url: https://github.com/apache/druid
+- description: Open source stream processing framework with powerful stream- and batch-processing
+    capabilities.
+  featured: true
+  homepage_url: https://flink.apache.org/
+  logo: ./apache-flink.svg
+  name: Apache Flink
+  project: null
+  repo_url: https://github.com/apache/flink
+- description: Open source, distributed, versioned, column-oriented store modeled
+    after Google' Bigtable.
+  featured: true
+  homepage_url: https://hbase.apache.org/
+  logo: ./hbase.svg
+  name: Apache HBase
+  project: null
+  repo_url: https://github.com/apache/hbase
+- description: A realtime distributed OLAP datastore.
+  featured: true
+  homepage_url: https://pinot.apache.org/
+  logo: ./pinot.svg
+  name: Apache Pinot
+  project: null
+  repo_url: https://github.com/apache/pinot
+- description: A unified analytics engine for large-scale data processing.
+  featured: true
+  homepage_url: https://spark.apache.org/
+  logo: ./spark.svg
+  name: Apache Spark
+  project: null
+  repo_url: https://github.com/apache/spark

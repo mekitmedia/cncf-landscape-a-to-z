@@ -1,0 +1,20 @@
+- crunchbase: https://www.crunchbase.com/organization/yunshan-networks
+  description: DeepFlow leverages eBPF to collect signals such as performance metrics,
+    distributed tracing, and CPU & GPU profiling. Its goal is to provide zero-code
+    observability for complex cloud-native and AI applications, particularly those
+    involving LLM training and inference using frameworks like PyTorch.
+  featured: true
+  homepage_url: https://deepflow.io/
+  logo: ./deepflow.svg
+  name: DeepFlow
+  project: null
+  repo_url: https://github.com/deepflowio/deepflow
+- description: Tests for Continuous Validation of ML Models & Data. Deepchecks is
+    a holistic open-source solution for all of your AI & ML validation needs, enabling
+    to thoroughly test your data and models from research to production.
+  featured: true
+  homepage_url: https://github.com/deepchecks/deepchecks
+  logo: ./deepchecks_logo.svg
+  name: Deepchecks
+  project: null
+  repo_url: https://github.com/deepchecks/deepchecks

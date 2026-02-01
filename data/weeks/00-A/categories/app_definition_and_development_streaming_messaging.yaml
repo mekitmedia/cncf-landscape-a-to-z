@@ -1,0 +1,69 @@
+- crunchbase: https://www.crunchbase.com/organization/apache
+  featured: true
+  homepage_url: https://nifi.apache.org/
+  logo: apache-ni-fi.svg
+  name: Apache NiFi
+  project: null
+  repo_url: https://github.com/apache/nifi
+  twitter: https://twitter.com/apachenifi
+- crunchbase: https://www.crunchbase.com/organization/apache
+  featured: true
+  homepage_url: https://rocketmq.apache.org/
+  logo: apache-rocket-mq.svg
+  name: Apache RocketMQ
+  project: null
+  repo_url: https://github.com/apache/rocketmq
+  twitter: https://twitter.com/ApacheRocketMQ
+- crunchbase: https://www.crunchbase.com/organization/apache
+  featured: true
+  homepage_url: https://spark.apache.org/
+  logo: apache-spark.svg
+  name: Apache Spark
+  project: null
+  repo_url: https://github.com/apache/spark
+  twitter: https://twitter.com/apachespark
+- crunchbase: https://www.crunchbase.com/organization/apache
+  featured: true
+  homepage_url: https://storm.apache.org/
+  logo: apache-storm.svg
+  name: Apache Storm
+  project: null
+  repo_url: https://github.com/apache/storm
+  twitter: https://twitter.com/ApacheStorm
+- crunchbase: https://www.crunchbase.com/organization/apache
+  featured: true
+  homepage_url: https://streampipes.apache.org/
+  logo: apache-streampipes.svg
+  name: Apache StreamPipes
+  project: null
+  repo_url: https://github.com/apache/streampipes
+  twitter: https://twitter.com/StreamPipes
+- crunchbase: https://www.crunchbase.com/organization/red-hat
+  description: 'Apicurio Registry is a runtime server system that stores a specific
+    set of artifacts as files. '
+  featured: true
+  homepage_url: https://www.apicur.io
+  logo: apicurio-registry.svg
+  name: Apicurio Registry
+  project: null
+  repo_url: https://github.com/Apicurio/apicurio-registry
+  twitter: https://twitter.com/apicurio
+- description: High-performance Rust stream processing engine, providing powerful
+    data stream processing capabilities, supporting multiple input/output sources
+    and processors.
+  featured: false
+  homepage_url: https://arkflow-rs.com/
+  logo: arkflow.svg
+  name: ArkFlow
+  project: null
+  repo_url: https://github.com/arkflow-rs/arkflow
+- crunchbase: https://www.crunchbase.com/organization/automq
+  description: AutoMQ is a cloud-native fork of Kafka by separating storage to S3.
+    10x cost-effective. Autoscale in seconds. Single-digit ms latency.
+  featured: false
+  homepage_url: https://www.automq.com
+  logo: automq.svg
+  name: AutoMQ
+  project: null
+  repo_url: https://github.com/AutoMQ/automq
+  twitter: https://twitter.com/AutoMQ_Lab

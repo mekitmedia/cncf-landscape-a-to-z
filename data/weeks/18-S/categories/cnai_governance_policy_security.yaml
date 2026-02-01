@@ -1,0 +1,21 @@
+- crunchbase: https://www.crunchbase.com/organization/authzed
+  description: 'SpiceDB is an open source database optimized for storing and querying
+    authorization data. SpiceDB sets the standard for scalable authorization by remaining
+    true to the design of the system powering permissions at Google: Zanzibar. While
+    SpiceDB is a general purpose solution, it is often used to secure access to Retrieval-Augmented
+    Generation (RAG) systems for AI workloads.
+
+    '
+  featured: true
+  homepage_url: https://authzed.com/spicedb
+  logo: spicedb.svg
+  name: SpiceDB
+  project: null
+  repo_url: https://github.com/authzed/spicedb
+- description: Software Supply Chain Security Platform
+  featured: true
+  homepage_url: https://stacklok.com/minder
+  logo: ./stacklock.svg
+  name: Stacklock Minder
+  project: null
+  repo_url: https://github.com/stacklok/minder

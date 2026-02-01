@@ -1,0 +1,32 @@
+- crunchbase: https://www.crunchbase.com/organization/hashicorp
+  featured: true
+  homepage_url: https://www.packer.io/
+  logo: packer.svg
+  name: Packer
+  project: null
+  repo_url: https://github.com/hashicorp/packer
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  featured: true
+  homepage_url: https://podman.io/
+  logo: podman.svg
+  name: Podman
+  project: null
+  repo_url: https://github.com/containers/podman
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: "An open-source tool for developers to work with containers and Kubernetes\
+    \ with an intuitive and user-friendly interface to effortlessly build, manage,\
+    \ and deploy containers and Kubernetes \u2014 all from the desktop."
+  featured: true
+  homepage_url: https://podman-desktop.io/
+  logo: podman-desktop.svg
+  name: Podman Desktop
+  project: sandbox
+  repo_url: https://github.com/podman-desktop/podman-desktop
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  featured: true
+  homepage_url: https://porter.sh/
+  logo: porter-sh.svg
+  name: Porter
+  project: sandbox
+  repo_url: https://github.com/getporter/porter
+  twitter: https://twitter.com/get_porter

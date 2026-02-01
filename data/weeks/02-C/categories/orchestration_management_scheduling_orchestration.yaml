@@ -1,0 +1,41 @@
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Crossplane is the cloud native control plane framework that allows
+    you to build control planes without needing to write code. Crossplane has a highly
+    extensible backend that enables you to orchestrate applications and infrastructure
+    no matter where they run and a highly configurable frontend that lets you define
+    the declarative API it offers.
+  featured: true
+  homepage_url: https://crossplane.io/
+  logo: crossplane.svg
+  name: Crossplane
+  project: graduated
+  repo_url: https://github.com/crossplane/crossplane
+  twitter: https://twitter.com/crossplane_io
+- crunchbase: https://www.crunchbase.com/organization/clastix
+  description: Capsule implements a multi-tenant and policy-based environment in your
+    Kubernetes cluster. It is designed as a micro-services-based ecosystem with the
+    minimalist approach, leveraging only on upstream Kubernetes.
+  featured: true
+  homepage_url: https://capsule.clastix.io
+  logo: capsule.svg
+  name: Capsule
+  project: sandbox
+  repo_url: https://github.com/projectcapsule/capsule
+  twitter: https://twitter.com/clastixio
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  featured: true
+  homepage_url: https://clusternet.io
+  logo: clusternet.svg
+  name: Clusternet
+  project: sandbox
+  repo_url: https://github.com/clusternet/clusternet
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Clusterpedia is used for complex resources search across multiple clusters,
+    support simultaneous search of a single kind of resource  or multiple kinds of
+    resources existing in multiple clusters.
+  featured: true
+  homepage_url: https://clusterpedia.io
+  logo: clusterpedia.svg
+  name: Clusterpedia
+  project: sandbox
+  repo_url: https://github.com/clusterpedia-io/clusterpedia

@@ -1,0 +1,55 @@
+- description: Score is an open-source workload specification designed to simplify
+    development for cloud-native developers.
+  featured: true
+  homepage_url: https://score.dev/
+  logo: score.svg
+  name: Score
+  project: sandbox
+  repo_url: https://github.com/score-spec/spec
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  featured: true
+  homepage_url: https://serverlessworkflow.io
+  logo: sws_logo.svg
+  name: Serverless Workflow
+  project: sandbox
+  repo_url: https://github.com/serverlessworkflow/specification
+  twitter: https://twitter.com/CNCFWorkflow
+- crunchbase: https://www.crunchbase.com/organization/apache
+  featured: true
+  homepage_url: https://servicecomb.apache.org
+  logo: servicecomb.svg
+  name: ServiceComb
+  project: null
+  repo_url: https://github.com/apache/servicecomb-java-chassis
+  twitter: https://twitter.com/ServiceComb
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  featured: true
+  homepage_url: https://shipwright.io
+  logo: shipwright.svg
+  name: Shipwright
+  project: sandbox
+  repo_url: https://github.com/shipwright-io/build
+  twitter: https://twitter.com/shipwrightio
+- crunchbase: https://www.crunchbase.com/organization/google
+  featured: true
+  homepage_url: https://skaffold.dev/
+  logo: skaffold.svg
+  name: Skaffold
+  project: null
+  repo_url: https://github.com/GoogleContainerTools/skaffold
+  twitter: https://twitter.com/GCPcloud
+- crunchbase: https://www.crunchbase.com/organization/solo-io
+  featured: true
+  homepage_url: https://squash.solo.io/
+  logo: squash.svg
+  name: Squash
+  project: null
+  repo_url: https://github.com/solo-io/squash
+- description: Stacker is a tool for building OCI images and related artifacts such
+    as SBOMs natively via a declarative yaml format.
+  featured: false
+  homepage_url: https://stackerbuild.io
+  logo: stacker.svg
+  name: Stacker
+  project: sandbox
+  repo_url: https://github.com/project-stacker/stacker

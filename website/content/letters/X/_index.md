@@ -1,13 +1,15 @@
 ---
-title: "Week 24: Letter X"
+title: "Letter X - CNCF Landscape"
 letter: "X"
 week: 23
-data_key: "week_23_X"
+data_key: "23-X"
 layout: "list"
 ---
 
-# Summary for week_23_X
+# Summary for 23-X
 
-This week has a total of 0 items.
+This week has a total of 1 items.
 
+
+- **Cnai Data Science**: 1 items
 

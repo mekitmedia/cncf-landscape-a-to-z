@@ -1,0 +1,31 @@
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  featured: true
+  homepage_url: https://emissary-ingress.dev/
+  logo: emissary-ingress.svg
+  name: Emissary-Ingress
+  project: incubating
+  repo_url: https://github.com/emissary-ingress/emissary
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  featured: true
+  homepage_url: https://megaease.com/easegress
+  logo: easegress.svg
+  name: Easegress
+  project: sandbox
+  repo_url: https://github.com/easegress-io/easegress
+  twitter: https://twitter.com/megaease
+- crunchbase: https://www.crunchbase.com/organization/saaras
+  featured: true
+  homepage_url: https://www.getenroute.io
+  logo: saaras.svg
+  name: EnRoute OneStep Ingress
+  project: null
+  repo_url: https://github.com/saarasio/enroute
+- description: Part of the Envoy project, Envoy Gateway is the control plane for dynamically
+    managing Envoy Proxy, aimed at significantly decreasing the barrier to entry when
+    using it for Gateway (sometimes known as "north-south") use cases.
+  featured: true
+  homepage_url: https://gateway.envoyproxy.io
+  logo: envoy-gateway.svg
+  name: Envoy Gateway
+  project: null
+  repo_url: https://github.com/envoyproxy/gateway

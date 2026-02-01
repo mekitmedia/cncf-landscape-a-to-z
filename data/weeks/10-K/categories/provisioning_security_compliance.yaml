@@ -1,0 +1,84 @@
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Keycloak is an open-source identity and access management solution
+    for modern applications and services,  built on top of industry security standard
+    protocols.
+  featured: true
+  homepage_url: https://www.keycloak.org/
+  logo: keycloak.svg
+  name: Keycloak
+  project: incubating
+  repo_url: https://github.com/keycloak/keycloak
+  twitter: https://twitter.com/keycloak
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: "Kubescape is an open source security and compliance platform that\
+    \ scans clusters, Kubernetes manifest files (YAML files, and Helm charts), code\
+    \ repositories, container registries and images. It detects misconfigurations\
+    \ according to frameworks such as the NSA-CISA,  MITRE ATT&CK\xAE and CIS, as\
+    \ well as software vulnerabilities, and calculates risk scores."
+  featured: true
+  homepage_url: https://kubescape.io/
+  logo: kubescape.svg
+  name: Kubescape
+  project: incubating
+  repo_url: https://github.com/kubescape/kubescape
+  twitter: https://twitter.com/kubescape
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  featured: true
+  homepage_url: https://kyverno.io/
+  logo: kyverno.svg
+  name: Kyverno
+  project: incubating
+  repo_url: https://github.com/kyverno/kyverno
+  twitter: https://twitter.com/kyverno
+- crunchbase: https://www.crunchbase.com/organization/checkmarx
+  description: Find security vulnerabilities, compliance issues, and infrastructure
+    misconfigurations early in the development cycle of your infrastructure-as-code
+    with KICS by Checkmarx.
+  featured: true
+  homepage_url: https://kics.io/
+  logo: kics.svg
+  name: KICS
+  project: null
+  repo_url: https://github.com/Checkmarx/kics
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Bootstrap & Maintain Trust on the Edge / Cloud and IoT.
+  featured: true
+  homepage_url: https://keylime.dev/
+  logo: keylime.svg
+  name: Keylime
+  project: sandbox
+  repo_url: https://github.com/keylime/keylime
+  twitter: https://twitter.com/KeylimeProject
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Runtime protection for Kubernetes & other cloud Workloads. Kubearmor
+    provides a observability and policy enforcement system to restrict any unwanted,
+    malicious behaviour of cloud-native workloads at runtime.
+  featured: true
+  homepage_url: https://kubearmor.io/
+  logo: kubearmor.svg
+  name: KubeArmor
+  project: sandbox
+  repo_url: https://github.com/kubearmor/kubearmor
+- crunchbase: https://www.crunchbase.com/organization/red-hat
+  description: KubeLinter analyzes Kubernetes YAML files and Helm charts, and checks
+    them against a variety of best practices, with a focus on production readiness
+    and security.
+  featured: false
+  homepage_url: https://docs.kubelinter.io/
+  logo: kubelinter.svg
+  name: KubeLinter
+  project: null
+  repo_url: https://github.com/stackrox/kube-linter
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: 'Kubewarden is a Policy Engine powered by WebAssembly policies. Its
+    policies can be written in CEL, Rego (OPA & Gatekeeper flavours), Rust, Go, YAML,
+    and others. Kubewarden simplifies Policy-As-Code by allowing policy authors and
+    consumers to use their preferred tooling and stack, develop and test policies
+    out of cluster. '
+  featured: false
+  homepage_url: https://www.kubewarden.io
+  logo: kubewarden.svg
+  name: Kubewarden
+  project: sandbox
+  repo_url: https://github.com/kubewarden/kubewarden-controller
+  twitter: https://twitter.com/kubewarden

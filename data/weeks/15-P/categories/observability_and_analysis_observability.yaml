@@ -1,0 +1,43 @@
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  featured: true
+  homepage_url: https://prometheus.io/
+  logo: prometheus.svg
+  name: Prometheus
+  project: graduated
+  repo_url: https://github.com/prometheus/prometheus
+  twitter: https://twitter.com/PrometheusIO
+- crunchbase: https://www.crunchbase.com/organization/parseable
+  description: Parseable is a free and open source log storage and observability platform.
+    Written in Rust, Parseable can be deployed on natively on Kubernetes. It ingests
+    log data via HTTP POST calls and exposes a query API to search and analyze logs.
+    It is compatible with logging agents like FluentBit, LogStash, FileBeat among
+    others.
+  featured: true
+  homepage_url: https://www.parseable.io
+  logo: parseable.svg
+  name: Parseable
+  project: null
+  repo_url: https://github.com/parseablehq/parseable
+- description: Perses is a dashboard tool to visualize observability data from Prometheus/Thanos/Jaeger.
+  featured: true
+  homepage_url: https://perses.dev
+  logo: perses.svg
+  name: Perses
+  project: sandbox
+  repo_url: https://github.com/perses/perses
+  twitter: https://x.com/PersesDev
+- featured: true
+  homepage_url: https://pinpoint-apm.github.io/pinpoint/
+  logo: pinpoint.svg
+  name: Pinpoint
+  project: null
+  repo_url: https://github.com/pinpoint-apm/pinpoint
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Open source Kubernetes observability for developers
+  featured: true
+  homepage_url: https://px.dev/
+  logo: pixie.svg
+  name: Pixie
+  project: sandbox
+  repo_url: https://github.com/pixie-io/pixie
+  twitter: https://twitter.com/pixie_run

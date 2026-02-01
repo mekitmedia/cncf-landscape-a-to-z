@@ -1,0 +1,37 @@
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: An open platform that extending your native Kubernetes to edge.
+  featured: true
+  homepage_url: https://openyurt.io/
+  logo: openyurt.svg
+  name: OpenYurt
+  project: incubating
+  repo_url: https://github.com/openyurtio/openyurt
+- crunchbase: https://www.crunchbase.com/organization/sidero-labs
+  description: Omni is a Kubernetes orchestrator for bare metal and edge environments.
+    It manages full OS and Kubernetes lifecycles with Talos Linux and remote management
+    with wireguard communication.
+  featured: true
+  homepage_url: https://siderolabs.com/omni
+  logo: omni.svg
+  name: Omni
+  project: null
+  repo_url: https://github.com/siderolabs/omni
+- crunchbase: https://www.crunchbase.com/organization/open-infrastructure-foundation
+  featured: true
+  homepage_url: https://www.openstack.org/
+  logo: open-stack.svg
+  name: OpenStack
+  project: null
+  repo_url: https://github.com/openstack/openstack
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: OpenTofu is an open source infrastructure as code tool that enables
+    users to safely and predictably provision and manage cloud and on-prem infrastructure.
+    It's a community-driven fork of Terraform that maintains backward compatibility
+    while offering enhanced features, stability.
+  featured: true
+  homepage_url: https://opentofu.org/
+  logo: opentofu.svg
+  name: OpenTofu
+  project: sandbox
+  repo_url: https://github.com/opentofu/opentofu
+  twitter: https://twitter.com/opentofuorg

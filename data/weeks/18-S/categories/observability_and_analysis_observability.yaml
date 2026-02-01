@@ -1,0 +1,68 @@
+- crunchbase: https://www.crunchbase.com/organization/ant-financial
+  featured: true
+  homepage_url: https://www.sofastack.tech/en/
+  logo: sofastack-sofa-tracer.svg
+  name: SOFATracer
+  project: null
+  repo_url: https://github.com/sofastack/sofa-tracer
+  twitter: https://twitter.com/sofastack_io
+- crunchbase: https://www.crunchbase.com/organization/sensu-inc
+  featured: true
+  homepage_url: https://sensu.io/
+  logo: sensu.svg
+  name: Sensu
+  project: null
+  repo_url: https://github.com/sensu/sensu-go
+- crunchbase: https://www.crunchbase.com/organization/sentry
+  featured: true
+  homepage_url: https://sentry.io/welcome/
+  logo: sentry.svg
+  name: Sentry
+  project: null
+  repo_url: https://github.com/getsentry/sentry
+- crunchbase: https://www.crunchbase.com/organization/carver-automation
+  description: Open Source network management and observability platform.
+  featured: true
+  homepage_url: https://serviceradar.cloud/
+  logo: serviceradar.svg
+  name: ServiceRadar
+  project: null
+  repo_url: https://github.com/carverauto/serviceradar
+- crunchbase: https://www.crunchbase.com/organization/thundra
+  description: Collect traces, exception stacks and generate logs on-demand without
+    stopping & redeploying your applications.
+  featured: true
+  homepage_url: https://github.com/runsidekick/sidekick
+  logo: sidekick.svg
+  name: Sidekick
+  project: null
+  repo_url: https://github.com/runsidekick/sidekick
+  twitter: https://twitter.com/RunSidekick
+- crunchbase: https://www.crunchbase.com/organization/sigscalr
+  description: SigLens is a powerful open-source observability solution designed to
+    reduce infrastructure costs by up to 90%. It scales seamlessly from handling 8
+    TB/day on a single MacBook Air to 1 PB/day across just 32 EC2 instances. With
+    a user-friendly interface and a developer-oriented, pipe-based query language,
+    SigLens simplifies observability data exploration and monitoring at any scale.
+  featured: true
+  homepage_url: https://www.siglens.com/
+  logo: siglens-logo.svg
+  name: SigLens
+  project: null
+  repo_url: https://github.com/siglens/siglens
+  twitter: https://x.com/SigLensHQ
+- crunchbase: https://www.crunchbase.com/organization/apache
+  featured: false
+  homepage_url: https://skywalking.apache.org/
+  logo: sky-walking.svg
+  name: SkyWalking
+  project: null
+  repo_url: https://github.com/apache/skywalking
+  twitter: https://twitter.com/AsfSkyWalking
+- crunchbase: https://www.crunchbase.com/organization/vmware
+  featured: false
+  homepage_url: https://spring.io/projects/spring-cloud-sleuth
+  logo: spring-cloud-sleuth.svg
+  name: Spring Cloud Sleuth
+  project: null
+  repo_url: https://github.com/spring-cloud/spring-cloud-sleuth

@@ -1,0 +1,16 @@
+- description: Standardized Distributed Generative and Predictive AI Inference Platform
+    for Scalable, Multi-Framework Deployment on Kubernetes
+  featured: true
+  homepage_url: https://kserve.github.io/website/
+  logo: ./k-serve-color.svg
+  name: KServe
+  project: incubating
+  repo_url: https://github.com/kserve/kserve
+- description: Kubernetes AI Toolchain Operator (KAITO) simplifies LLM inference,
+    tuning, and RAG workloads on Kubernetes.
+  featured: true
+  homepage_url: https://kaito-project.netlify.app/
+  logo: kaito.svg
+  name: KAITO
+  project: sandbox
+  repo_url: https://github.com/kaito-project/kaito

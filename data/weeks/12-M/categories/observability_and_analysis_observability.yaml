@@ -1,0 +1,40 @@
+- crunchbase: https://www.crunchbase.com/organization/uber
+  featured: true
+  homepage_url: https://www.m3db.io/
+  logo: m3.svg
+  name: M3
+  project: null
+  repo_url: https://github.com/m3db/m3
+- crunchbase: https://www.crunchbase.com/organization/elastiflow
+  description: "Mermin is a Kubernetes-native network observability tool that uses\
+    \ eBPF exports OpenTelemetry Flow Traces, to provide deep visibility into your\
+    \ cluster\u2019s network communications with zero application changes required."
+  featured: true
+  homepage_url: https://github.com/elastiflow/mermin
+  logo: elastiflow-mermin.svg
+  name: Mermin
+  project: null
+  repo_url: https://github.com/elastiflow/mermin
+- crunchbase: https://www.crunchbase.com/organization/vmware
+  description: As an instrumentation facade, Micrometer allows you to instrument your
+    code with dimensional metrics with a vendor-neutral interface and decide on the
+    observability system as a last step. Instrumenting your core library code with
+    Micrometer allows the libraries to be included in applications that ship data
+    to different backends.
+  featured: true
+  homepage_url: https://micrometer.io/
+  logo: micrometer.svg
+  name: Micrometer
+  project: null
+  repo_url: https://github.com/micrometer-metrics/micrometer
+  twitter: https://twitter.com/micrometerio
+- crunchbase: https://www.crunchbase.com/organization/lf-artificial-intelligence-foundation
+  description: The goal of the open source Monocle project is to help GenAI developers
+    trace their applications. Hosted in incubation as a Sandbox project in LF AI &
+    Data.
+  featured: true
+  homepage_url: https://monocle2ai.org/
+  logo: Monocle.svg
+  name: Monocle
+  project: null
+  repo_url: https://github.com/monocle2ai/monocle

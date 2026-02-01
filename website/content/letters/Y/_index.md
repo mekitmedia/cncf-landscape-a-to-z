@@ -1,13 +1,19 @@
 ---
-title: "Week 25: Letter Y"
+title: "Letter Y - CNCF Landscape"
 letter: "Y"
 week: 24
-data_key: "week_24_Y"
+data_key: "24-Y"
 layout: "list"
 ---
 
-# Summary for week_24_Y
+# Summary for 24-Y
 
-This week has a total of 0 items.
+This week has a total of 4 items.
 
+
+- **App Definition And Development Database**: 2 items
+
+- **Wasm Embedded Functions**: 1 items
+
+- **Cnai General Orchestration**: 1 items
 

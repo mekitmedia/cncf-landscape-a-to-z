@@ -1,0 +1,63 @@
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  featured: true
+  homepage_url: https://cloudcustodian.io/
+  logo: cloud-custodian.svg
+  name: Cloud Custodian
+  project: incubating
+  repo_url: https://github.com/cloud-custodian/cloud-custodian
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: CDK8s lets you define Kubernetes apps and components using familiar
+    programming languages and object-oriented APIs.
+  featured: true
+  homepage_url: https://cdk8s.io/
+  logo: cdk8s.svg
+  name: CDK for Kubernetes (CDK8s)
+  project: sandbox
+  repo_url: https://github.com/cdk8s-team/cdk8s
+- crunchbase: https://www.crunchbase.com/organization/cfengine
+  featured: true
+  homepage_url: https://cfengine.com/
+  logo: cf-engine.svg
+  name: CFEngine
+  project: null
+  repo_url: https://github.com/cfengine/core
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Cadence is a distributed, scalable, durable, and highly available fault-oblivious
+    stateful code platform.
+  featured: true
+  homepage_url: https://cadenceworkflow.io/
+  logo: cadenceworkflow.svg
+  name: Cadence Workflow
+  project: sandbox
+  repo_url: https://github.com/cadence-workflow/cadence
+  twitter: https://twitter.com/CloudNativeFdn
+- description: AI terminal and SSH Client for EC2, Database and Kubernetes.
+  featured: true
+  homepage_url: https://chaterm.ai/
+  logo: chaterm.svg
+  name: Chaterm
+  project: null
+  repo_url: https://github.com/chaterm/Chaterm
+  twitter: https://x.com/Chaterm_ai
+- crunchbase: https://www.crunchbase.com/organization/chef
+  featured: true
+  homepage_url: https://www.chef.io/
+  logo: chef_infra.svg
+  name: Chef Infra
+  project: null
+  repo_url: https://github.com/chef/chef
+- crunchbase: https://www.crunchbase.com/organization/cloudify-co
+  featured: false
+  homepage_url: https://cloudify.co
+  logo: cloudify.svg
+  name: Cloudify
+  project: null
+  repo_url: https://github.com/cloudify-cosmo/cloudify-manager
+- crunchbase: https://www.crunchbase.com/organization/ant-financial
+  featured: false
+  homepage_url: https://couler-proj.github.io/couler/index.html
+  logo: couler.svg
+  name: Couler
+  project: null
+  repo_url: https://github.com/couler-proj/couler
+  twitter: https://twitter.com/CoulerProject

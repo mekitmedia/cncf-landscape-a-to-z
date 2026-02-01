@@ -1,0 +1,24 @@
+- description: Design for WebAssembly
+  featured: true
+  homepage_url: https://wa-lang.github.io/
+  logo: wa-lang.svg
+  name: Wa-lang
+  project: null
+  repo_url: https://github.com/wa-lang/wa
+  twitter: https://twitter.com/wayuyan
+- crunchbase: https://www.crunchbase.com/organization/second-state
+  description: Scripting languages that support Wasm
+  featured: true
+  homepage_url: https://github.com/second-state/wasmedge-quickjs
+  logo: wasmedge-quickjs.svg
+  name: WasmEdge-Quickjs
+  project: null
+  repo_url: https://github.com/second-state/wasmedge-quickjs
+- crunchbase: https://www.crunchbase.com/organization/vmware
+  description: Scripting languages that support Wasm
+  featured: true
+  homepage_url: https://wasmlabs.dev/projects/wasm-language-runtimes/
+  logo: vmware.svg
+  name: WebAssembly Language runtimes for Python and PHP by VMware Labs
+  project: null
+  repo_url: https://github.com/vmware-labs/webassembly-language-runtimes

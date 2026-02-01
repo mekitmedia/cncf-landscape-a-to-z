@@ -1,0 +1,19 @@
+- crunchbase: https://www.crunchbase.com/organization/bytedance
+  description: CloudWeGo is ByteDance's open source Golang-centric middleware that
+    can be used to quickly build enterprise-class cloud native architectures.
+  featured: true
+  homepage_url: https://www.cloudwego.io/
+  logo: cloudwego.svg
+  name: CloudWeGo
+  project: null
+  repo_url: https://github.com/cloudwego/kitex
+- crunchbase: https://www.crunchbase.com/organization/buf-technologies
+  description: Connect is a family of libraries for building browser and gRPC-compatible
+    HTTP APIs.
+  featured: true
+  homepage_url: https://connectrpc.com/
+  logo: connect-rpc.svg
+  name: Connect RPC
+  project: sandbox
+  repo_url: https://github.com/connectrpc/connect-go
+  twitter: https://twitter.com/connectrpc

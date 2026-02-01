@@ -1,0 +1,58 @@
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: sops is an editor of encrypted files that supports YAML, JSON, ENV,
+    INI and BINARY formats and encrypts with AWS KMS, GCP KMS, Azure Key Vault, age,
+    and PGP.
+  featured: true
+  homepage_url: https://github.com/getsops
+  logo: sops.svg
+  name: SOPS
+  project: sandbox
+  repo_url: https://github.com/getsops/sops
+- crunchbase: https://www.crunchbase.com/organization/certified-security-solutions
+  description: Sign code, containers, and attestations and create timestamps with
+    the open-source, x509 certificate-based signing software SignServer.
+  featured: true
+  homepage_url: https://www.signserver.org/
+  logo: signserver-community.svg
+  name: SignServer Community
+  project: null
+  repo_url: https://github.com/Keyfactor/signserver-ce
+  twitter: https://x.com/KeyfactorComm
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Inspect, Optimize and Debug Your Containers
+  featured: true
+  homepage_url: https://slimtoolkit.org/
+  logo: slimtoolkit.svg
+  name: SlimToolkit
+  project: sandbox
+  repo_url: https://github.com/slimtoolkit/slim
+  twitter: https://twitter.com/slimtoolkit
+- crunchbase: https://www.crunchbase.com/organization/sonatype
+  description: Sonatype is the developer-friendly full-spectrum software supply, chain
+    management platform helps organizations and software developers. One of the Sonatype
+    products includes the open source software repository manager Sonatype Nexus Repository.
+  featured: true
+  homepage_url: https://www.sonatype.com
+  logo: sonatype.svg
+  name: Sonatype
+  project: null
+  repo_url: https://github.com/sonatype/nexus-public
+  twitter: https://twitter.com/sonatype
+- crunchbase: https://www.crunchbase.com/organization/vmware
+  featured: true
+  homepage_url: https://sonobuoy.io
+  logo: project-sonobuoy.svg
+  name: Sonobuoy
+  project: null
+  repo_url: https://github.com/vmware-tanzu/sonobuoy
+  twitter: https://twitter.com/projectsonobuoy
+- crunchbase: https://www.crunchbase.com/organization/stackrox
+  description: StackRox is a Kubernetes-native security platform for cloud-native
+    applications, containers, serverless, and Kubernetes.
+  featured: true
+  homepage_url: https://www.stackrox.io/
+  logo: stackrox.svg
+  name: StackRox
+  project: null
+  repo_url: https://github.com/stackrox/stackrox
+  twitter: https://twitter.com/StackRox

@@ -1,0 +1,19 @@
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Cloud-native distributed storage for Kubernetes
+  featured: true
+  homepage_url: https://longhorn.io/
+  logo: longhorn.svg
+  name: Longhorn
+  project: incubating
+  repo_url: https://github.com/longhorn/longhorn
+- crunchbase: https://www.crunchbase.com/organization/linbit
+  description: High Performance Software-Defined Block Storage for container, cloud
+    and virtualisation. Fully integrated with Docker, Kubernetes, Openstack, Proxmox
+    etc.
+  featured: true
+  homepage_url: https://www.linbit.com/linstor/
+  logo: linstor.svg
+  name: LINSTOR
+  project: null
+  repo_url: https://github.com/LINBIT/linstor-server
+  twitter: https://twitter.com/linbit

@@ -1,0 +1,17 @@
+- crunchbase: https://www.crunchbase.com/organization/red-hat
+  description: Chaos testing tool for Kubernetes to identify bottlenecks and improve
+    resilience and performance under failure conditions.
+  featured: true
+  homepage_url: https://krkn-chaos.github.io/krkn
+  logo: krkn.svg
+  name: Krkn
+  project: sandbox
+  repo_url: https://github.com/krkn-chaos/krkn
+- crunchbase: https://www.crunchbase.com/organization/kubeinvaders
+  description: Gamified Chaos Engineering Tool for K8s
+  featured: true
+  homepage_url: https://github.com/lucky-sideburn/kubeinvaders
+  logo: k-inv.svg
+  name: Kubeinvaders
+  project: null
+  repo_url: https://github.com/lucky-sideburn/kubeinvaders

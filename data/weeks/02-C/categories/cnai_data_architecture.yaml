@@ -1,0 +1,16 @@
+- description: A free and open source, distributed, wide-column store, NoSQL database
+    management system designed to handle large amounts of data across many commodity
+    servers, providing high availability with no single point of failure.
+  featured: true
+  homepage_url: https://cassandra.apache.org/
+  logo: ./cassandra.svg
+  name: Cassandra
+  project: null
+  repo_url: https://github.com/apache/cassandra
+- description: Free analytics DBMS for big data.
+  featured: true
+  homepage_url: https://github.com/ClickHouse/ClickHouse
+  logo: ./clickhouse.svg
+  name: ClickHouse
+  project: null
+  repo_url: https://github.com/ClickHouse/ClickHouse

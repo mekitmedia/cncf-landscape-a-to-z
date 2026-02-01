@@ -1,0 +1,89 @@
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  featured: true
+  homepage_url: https://theupdateframework.github.io/
+  logo: the-update-framework-tuf.svg
+  name: The Update Framework (TUF)
+  project: graduated
+  repo_url: https://github.com/theupdateframework/python-tuf
+- crunchbase: https://www.crunchbase.com/organization/gravitational
+  featured: true
+  homepage_url: https://goteleport.com
+  logo: teleport.svg
+  name: Teleport
+  project: null
+  repo_url: https://github.com/gravitational/teleport
+- crunchbase: https://www.crunchbase.com/organization/tenable-network-security
+  featured: true
+  homepage_url: https://www.tenable.com/products/tenable-cs
+  logo: terrascan.svg
+  name: Terrascan
+  project: null
+  repo_url: https://github.com/tenable/terrascan
+- crunchbase: https://www.crunchbase.com/organization/okapi-985d
+  description: Tesseral is the open source platform for managing identity and access
+    in business software.
+  featured: true
+  homepage_url: https://www.tesseral.com/
+  logo: tesseral.svg
+  name: Tesseral
+  project: null
+  repo_url: https://github.com/tesseral-labs/tesseral
+  twitter: https://twitter.com/tesseralHQ
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  featured: true
+  homepage_url: https://github.com/cilium/tetragon
+  logo: tetragon-logo-wormark.svg
+  name: Tetragon
+  project: null
+  repo_url: https://github.com/cilium/tetragon
+  twitter: https://twitter.com/ciliumproject
+- crunchbase: https://www.crunchbase.com/organization/deepfence
+  featured: true
+  homepage_url: https://deepfence.io/threatmapper/
+  logo: threatmapper.svg
+  name: ThreatMapper
+  project: null
+  repo_url: https://github.com/deepfence/ThreatMapper
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Tokenetes implements Transaction Tokens (TraTs) for microservices call
+    chains.  It's a Kubernetes-native framework providing immutable identity and context
+    in  service-to-service communication to prevent attacks like software supply chain  or
+    privileged user compromise.
+  featured: false
+  homepage_url: https://tokenetes.io/
+  logo: tokenetes.svg
+  name: Tokenetes
+  project: sandbox
+  repo_url: https://github.com/tokenetes/tokenetes
+- crunchbase: https://www.crunchbase.com/organization/aserto-2995
+  description: Cloud-native authorization for modern applications and APIs, combining
+    the best of Open Policy Agent and Google Zanzibar
+  featured: false
+  homepage_url: https://www.topaz.sh
+  logo: topaz.svg
+  name: Topaz
+  project: null
+  repo_url: https://github.com/aserto-dev/topaz
+- crunchbase: https://www.crunchbase.com/organization/aquasecurity
+  description: Tracee helps you understand your systems and applications behavior,
+    and apply runtime security to them. It uses Linux eBPF technology and strong security
+    techniques to instrument the system and expose relevant events for you to consume
+    and process.
+  featured: false
+  homepage_url: https://aquasecurity.github.io/tracee/latest/
+  logo: tracee.svg
+  name: Tracee
+  project: null
+  repo_url: https://github.com/aquasecurity/tracee
+  twitter: https://x.com/aquatracee
+- crunchbase: https://www.crunchbase.com/organization/aquasecurity
+  description: 'Trivy is an all-in-one security scanner that beings vulnerability,
+    SBOM, misconfigurations, leaked secrets, and license scanning together, across
+    container images, code repositories, Kubernetes clusters and more. '
+  featured: false
+  homepage_url: https://trivy.dev
+  logo: trivy.svg
+  name: Trivy
+  project: null
+  repo_url: https://github.com/aquasecurity/trivy
+  twitter: https://x.com/aquatrivy

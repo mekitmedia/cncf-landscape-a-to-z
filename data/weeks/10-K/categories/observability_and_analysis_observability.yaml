@@ -1,0 +1,64 @@
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  featured: true
+  homepage_url: https://www.k8sgpt.ai
+  logo: k8sgpt.svg
+  name: K8sGPT
+  project: sandbox
+  repo_url: https://github.com/k8sgpt-ai/k8sgpt
+- crunchbase: https://www.crunchbase.com/organization/keep-2303
+  featured: true
+  homepage_url: https://www.keephq.dev/
+  logo: keep.svg
+  name: Keep
+  project: null
+  repo_url: https://github.com/keephq/keep
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Kepler (Kubernetes-based Efficient Power Level Exporter) uses eBPF
+    to probe energy related system stats and exports as Prometheus metrics.
+  featured: true
+  homepage_url: https://sustainable-computing.io/
+  logo: kepler.svg
+  name: Kepler
+  project: sandbox
+  repo_url: https://github.com/sustainable-computing-io/kepler
+- crunchbase: https://www.crunchbase.com/organization/red-hat
+  featured: true
+  homepage_url: https://www.kiali.io/
+  logo: kiali.svg
+  name: Kiali
+  project: null
+  repo_url: https://github.com/kiali/kiali
+  twitter: https://twitter.com/kialiproject
+- description: KubeReport is an open-source tool that generates detailed Kubernetes
+    cluster reports in PDF and CSV formats, providing insights into  resource utilization,
+    workload status, and cluster health for easier auditing and troubleshooting.
+  featured: true
+  homepage_url: https://kubesuite.org/
+  logo: kubereport.svg
+  name: KubeReport
+  project: null
+  repo_url: https://github.com/kubesuiteorg/kubereport
+- crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
+  description: KubeSkoop is a network monitoring & diagnosis suite for Kubernetes.
+  featured: true
+  homepage_url: https://kubeskoop.io
+  logo: kubeskoop.svg
+  name: KubeSkoop
+  project: null
+  repo_url: https://github.com/alibaba/kubeskoop
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  featured: false
+  homepage_url: https://github.com/kuberhealthy/kuberhealthy
+  logo: kuberhealthy.svg
+  name: Kuberhealthy
+  project: sandbox
+  repo_url: https://github.com/kuberhealthy/kuberhealthy
+- crunchbase: https://www.crunchbase.com/organization/kubetail
+  description: Real-time logging dasbhboard for Kubernetes
+  featured: false
+  homepage_url: https://www.kubetail.com
+  logo: kubetail.svg
+  name: Kubetail
+  project: null
+  repo_url: https://github.com/kubetail-org/kubetail
+  twitter: https://twitter.com/kubetail

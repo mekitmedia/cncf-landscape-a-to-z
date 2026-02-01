@@ -1,0 +1,59 @@
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Manage kubernetes in the most light and convenient way.
+  featured: true
+  homepage_url: https://www.kubeclipper.io/
+  logo: kubeclipper.svg
+  name: KubeClipper
+  project: sandbox
+  repo_url: https://github.com/kubeclipper/kubeclipper
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Kubeasz is a tool to deploy a Production Ready Kubernetes Cluster with
+    ansible playbooks.
+  featured: true
+  homepage_url: https://github.com/easzlab/kubeasz
+  logo: kubeasz.svg
+  name: Kubeasz
+  project: null
+  repo_url: https://github.com/easzlab/kubeasz
+- description: Deploy a highly available Kubernetes cluster in offline environments.
+  featured: true
+  homepage_url: https://github.com/eb-k8s/kubeaver
+  logo: kubeaver.svg
+  name: Kubeaver
+  project: null
+  repo_url: https://github.com/eb-k8s/kubeaver
+- crunchbase: https://www.crunchbase.com/organization/qingcloud
+  description: Kubekey provides a flexible, rapid and convenient way to install Kubernetes
+    only, both Kubernetes and KubeSphere, and related cloud-native add-ons.  It is
+    also an efficient tool to scale and upgrade your cluster.
+  featured: true
+  homepage_url: https://kubesphere.io/docs/installing-on-linux/introduction/kubekey
+  logo: kubekey.svg
+  name: Kubekey
+  project: null
+  repo_url: https://github.com/kubesphere/kubekey
+- crunchbase: https://www.crunchbase.com/organization/loodse-gmbh
+  description: Lifecycle management tool for Highly-Available Kubernetes clusters
+    on any infrastructure
+  featured: true
+  homepage_url: https://www.kubermatic.com
+  logo: kubermatic.svg
+  name: Kubermatic KubeOne
+  project: null
+  repo_url: https://github.com/kubermatic/kubeone
+- description: Kubernetes - The Easier Way enables users to create and manage an easily
+    customizable HA Kubernetes cluster with only a couple of commands
+  featured: true
+  homepage_url: https://github.com/darxkies/k8s-tew
+  logo: k8s-the-easier-way.svg
+  name: Kubernetes - The Easier Way
+  project: null
+  repo_url: https://github.com/darxkies/k8s-tew
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Deploy a Production Ready Kubernetes Cluster
+  featured: false
+  homepage_url: https://kubespray.io/
+  logo: kubespray.svg
+  name: Kubespray
+  project: null
+  repo_url: https://github.com/kubernetes-sigs/kubespray

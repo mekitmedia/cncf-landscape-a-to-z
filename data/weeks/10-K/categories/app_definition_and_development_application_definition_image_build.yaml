@@ -1,0 +1,92 @@
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  featured: true
+  homepage_url: https://kubevela.io
+  logo: kubevela.svg
+  name: KubeVela
+  project: incubating
+  repo_url: https://github.com/kubevela/kubevela
+  twitter: https://twitter.com/oam_dev
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  featured: true
+  homepage_url: https://kubevirt.io/
+  logo: kubevirt.svg
+  name: KubeVirt
+  project: incubating
+  repo_url: https://github.com/kubevirt/kubevirt
+  twitter: https://twitter.com/kubevirt
+- crunchbase: https://www.crunchbase.com/organization/replicated
+  description: KOTS provides the framework, tools and integrations that enable the
+    delivery and management of 3rd-party Kubernetes applications, a.k.a. Kubernetes
+    Off-The-Shelf (KOTS) Software.'
+  featured: true
+  homepage_url: https://kots.io
+  logo: kots.svg
+  name: KOTS
+  project: null
+  repo_url: https://github.com/replicatedhq/kots
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  featured: true
+  homepage_url: https://kudo.dev/
+  logo: kudo.svg
+  name: KUDO
+  project: sandbox
+  repo_url: https://github.com/kudobuilder/kudo
+  twitter: https://twitter.com/kudobuilder
+- crunchbase: https://www.crunchbase.com/organization/kapeta
+  description: Kapeta accelerates and automates the entire software development lifecycle
+  featured: true
+  homepage_url: https://kapeta.com
+  logo: kapeta.svg
+  name: Kapeta
+  project: null
+  repo_url: https://github.com/kapetacom/kapeta
+  twitter: https://twitter.com/kapeta_com
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  featured: true
+  homepage_url: https://www.konveyor.io/
+  logo: Konveyor.svg
+  name: Konveyor
+  project: sandbox
+  repo_url: https://github.com/konveyor/operator
+  twitter: https://twitter.com/Konveyor_io
+- crunchbase: https://www.crunchbase.com/organization/inria
+  description: KubeDiagrams is a tool to generate Kubernetes architecture diagrams
+    from Kubernetes manifest files, kustomization files, Helm charts, and actual cluster
+    state. KubeDiagrams supports most of all Kubernetes built-in resources, any custom
+    resources, and label-based resource clustering.
+  featured: false
+  homepage_url: https://github.com/philippemerle/KubeDiagrams
+  logo: kubediagrams.svg
+  name: KubeDiagrams
+  project: null
+  repo_url: https://github.com/philippemerle/KubeDiagrams
+- crunchbase: https://www.crunchbase.com/organization/teamcode
+  featured: false
+  homepage_url: https://www.kubeorbit.io/
+  logo: kubeorbit.svg
+  name: KubeOrbit
+  project: null
+  repo_url: https://github.com/teamcode-inc/kubeorbit
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: KubeVPN offers a Cloud-Native Dev Environment that seamlessly connects
+    to your Kubernetes cluster network. Gain access to the Kubernetes cluster network
+    effortlessly using service names or Pod IP/Service IP. Facilitate the interception
+    of inbound traffic from remote Kubernetes cluster services to your local PC through
+    a service mesh and more. For instance, you have the flexibility to run your Kubernetes
+    pod within a local Docker container, ensuring an identical environment, volume,
+    and network setup. With KubeVPN, empower yourself to develop applications entirely
+    on your local PC!
+  featured: false
+  homepage_url: https://kubevpn.cn
+  logo: kubevpn.svg
+  name: KubeVPN
+  project: null
+  repo_url: https://github.com/kubenetworks/kubevpn
+- crunchbase: https://www.crunchbase.com/organization/ibm
+  featured: false
+  homepage_url: https://kui.tools/
+  logo: kui.svg
+  name: Kui
+  project: null
+  repo_url: https://github.com/kubernetes-sigs/kui
+  twitter: https://twitter.com/IBMCloud

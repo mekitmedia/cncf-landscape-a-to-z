@@ -1,0 +1,23 @@
+- crunchbase: https://www.crunchbase.com/organization/icinga
+  featured: true
+  homepage_url: https://icinga.com/
+  logo: icinga.svg
+  name: Icinga
+  project: null
+  repo_url: https://github.com/Icinga/icinga2
+- crunchbase: https://www.crunchbase.com/organization/influxdb
+  featured: true
+  homepage_url: https://www.influxdata.com/
+  logo: influxdata.svg
+  name: InfluxData
+  project: null
+  repo_url: https://github.com/influxdata/influxdb
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Open source eBPF debugging and data collection tool for Kubernetes
+    and Linux
+  featured: true
+  homepage_url: https://inspektor-gadget.io/
+  logo: inspektor-gadget.svg
+  name: Inspektor Gadget
+  project: sandbox
+  repo_url: https://github.com/inspektor-gadget/inspektor-gadget

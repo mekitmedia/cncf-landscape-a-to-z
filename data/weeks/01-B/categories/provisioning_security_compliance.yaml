@@ -1,0 +1,32 @@
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: 'Bank-Vaults is a Vault swiss-army knife: a K8s operator, Go client
+    with automatic token renewal, automatic configuration, multiple unseal options
+    and more. A CLI tool to init, unseal and configure Vault (auth methods, secret
+    engines). Direct secret injection into Pods.'
+  featured: true
+  homepage_url: https://bank-vaults.dev/
+  logo: bank-vaults.svg
+  name: Bank-Vaults
+  project: sandbox
+  repo_url: https://github.com/bank-vaults/bank-vaults
+- crunchbase: https://www.crunchbase.com/organization/certified-security-solutions
+  description: Bouncy Castle is one of the most widely used FIPS-certified open-source
+    cryptographic APIs for Java and C#, allowing developers to easily integrate  PKI
+    security into their applications.
+  featured: true
+  homepage_url: https://www.bouncycastle.org/
+  logo: community-bouncy-castle.svg
+  name: Bouncy Castle
+  project: null
+  repo_url: https://github.com/bcgit/bc-java
+  twitter: https://twitter.com/bccrypto
+- crunchbase: https://www.crunchbase.com/organization/hashicorp
+  description: Boundary is designed to grant access to critical systems using the
+    principle of least privilege, solving challenges organizations encounter when
+    users need to securely access applications and machines.
+  featured: true
+  homepage_url: https://www.boundaryproject.io/
+  logo: Hashicorp-Boundary.svg
+  name: Boundary
+  project: null
+  repo_url: https://github.com/hashicorp/boundary

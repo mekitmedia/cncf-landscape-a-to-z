@@ -1,0 +1,27 @@
+- crunchbase: https://www.crunchbase.com/organization/hashicorp
+  featured: true
+  homepage_url: https://www.terraform.io/
+  logo: terraform.svg
+  name: Terraform
+  project: null
+  repo_url: https://github.com/hashicorp/terraform
+- crunchbase: https://www.crunchbase.com/organization/appvia
+  description: The Appvia Terranetes Controller manages the life-cycle of Terraform
+    and OpenTofu resources defined and built inside Kubernetes. This allows teams
+    running workloads inside the cluster to self-serve application dependencies and
+    reuse the wealth of Terraform modules already written.
+  featured: true
+  homepage_url: https://www.appvia.io/terranetes
+  logo: terranetes.svg
+  name: Terranetes
+  project: null
+  repo_url: https://github.com/appvia/terranetes-controller
+  twitter: https://twitter.com/appvia_io
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  featured: true
+  homepage_url: https://tinkerbell.org/
+  logo: tinkerbell.svg
+  name: Tinkerbell
+  project: sandbox
+  repo_url: https://github.com/tinkerbell/tinkerbell
+  twitter: https://twitter.com/tinkerbell_oss

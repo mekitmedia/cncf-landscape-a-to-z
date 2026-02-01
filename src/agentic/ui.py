@@ -6,13 +6,13 @@ logger = logging.getLogger(__name__)
 
 def create_app(agent_name: str, **kwargs):
     if agent_name == "researcher":
-        from src.agentic.agents.researcher import researcher_agent
+        from src.agentic.tools.agents.researcher import researcher_agent
         return researcher_agent.to_web()
     elif agent_name == "writer":
-        from src.agentic.agents.writer import writer_agent
+        from src.agentic.tools.agents.writer import writer_agent
         return writer_agent.to_web()
     elif agent_name == "editor":
-        from src.agentic.agents.editor import editor_agent
+        from src.agentic.tools.agents.editor import editor_agent
         return editor_agent.to_web()
     else:
         raise ValueError(f"Unknown agent: {agent_name}")
