@@ -18,6 +18,7 @@ from src.pipeline.load import (
     generate_letter_pages,
 )
 from src.logger import get_logger
+from src.tracker import get_tracker
 
 logger = get_logger(__name__)
 
@@ -46,6 +47,9 @@ def run_etl(
 
     landscape_by_letter = get_landscape_by_letter(landscape)
 
+    # Initialize tracker
+    tracker = get_tracker()
+
     for letter_code in range(ord('A'), ord('Z') + 1):
         letter = chr(letter_code)
         index = letter_code - ord('A')
@@ -55,6 +59,11 @@ def run_etl(
         tasks = letter_data['tasks']
 
         save_tasks(tasks, letter, index, output_dir)
+        
+        # Sync tracker with ETL output
+        if tasks:
+            logger.info(f"Syncing tracker for week {letter} with {len(tasks)} items")
+            tracker.sync_with_etl(letter, tasks)
 
         for key in partial:
             save_partial_data(key, partial, letter, index, output_dir)

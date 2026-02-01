@@ -3,6 +3,7 @@ import tempfile
 import shutil
 import os
 import yaml
+from unittest.mock import patch, MagicMock
 from src.legacy_main import Cli
 
 class TestMain(unittest.TestCase):
@@ -66,49 +67,59 @@ class TestMain(unittest.TestCase):
             ]
         }
 
-        cli = Cli()
-        cli.run(input_path='tests/test_data/landscape_with_excluded.yml', output_dir=self.test_dir)
+        with patch('src.pipeline.runner.get_tracker') as mock_get_tracker:
+            mock_tracker = MagicMock()
+            mock_get_tracker.return_value = mock_tracker
 
-        # Check that the output files were created
-        self.assertTrue(os.path.exists(f'{self.test_dir}/index/category_index.yaml'))
-        self.assertTrue(os.path.exists(f'{self.test_dir}/index/category_item_index.yaml'))
-        self.assertTrue(os.path.exists(f'{self.test_dir}/index/categories.yaml'))
-        self.assertTrue(os.path.exists(f'{self.test_dir}/stats/stats_per_category.yaml'))
-        self.assertTrue(os.path.exists(f'{self.test_dir}/stats/stats_per_category_per_week.yaml'))
-        self.assertTrue(os.path.exists(f'{self.test_dir}/stats/stats_by_status.yaml'))
-        self.assertTrue(os.path.exists(f'{self.test_dir}/extras/excluded_items.yaml'))
-        self.assertTrue(os.path.exists(f'{self.test_dir}/weeks/00-A/categories/category_1_subcategory_1.yaml'))
-        self.assertTrue(os.path.exists(f'{self.test_dir}/weeks/00-A/README.md'))
+        with patch('src.pipeline.runner.get_tracker') as mock_get_tracker, \
+             patch('src.pipeline.runner.generate_letter_pages') as mock_generate_letter_pages:
+            mock_tracker = MagicMock()
+            mock_get_tracker.return_value = mock_tracker
+            mock_generate_letter_pages.return_value = None
 
-        # Check the content of the output files
-        for file_path, expected_content in expected_outputs.items():
-            with open(f'{self.test_dir}/{file_path}', 'r') as f:
-                if file_path.endswith('.yaml'):
+            cli = Cli()
+            cli.run(input_path='tests/test_data/landscape_with_excluded.yml', output_dir=self.test_dir)
+
+            # Check that the output files were created
+            self.assertTrue(os.path.exists(f'{self.test_dir}/index/category_index.yaml'))
+            self.assertTrue(os.path.exists(f'{self.test_dir}/index/category_item_index.yaml'))
+            self.assertTrue(os.path.exists(f'{self.test_dir}/index/categories.yaml'))
+            self.assertTrue(os.path.exists(f'{self.test_dir}/stats/stats_per_category.yaml'))
+            self.assertTrue(os.path.exists(f'{self.test_dir}/stats/stats_per_category_per_week.yaml'))
+            self.assertTrue(os.path.exists(f'{self.test_dir}/stats/stats_by_status.yaml'))
+            self.assertTrue(os.path.exists(f'{self.test_dir}/extras/excluded_items.yaml'))
+            self.assertTrue(os.path.exists(f'{self.test_dir}/weeks/00-A/categories/category_1_subcategory_1.yaml'))
+            self.assertTrue(os.path.exists(f'{self.test_dir}/weeks/00-A/README.md'))
+
+            # Check the content of the output files
+            for file_path, expected_content in expected_outputs.items():
+                with open(f'{self.test_dir}/{file_path}', 'r') as f:
+                    if file_path.endswith('.yaml'):
+                        content = yaml.safe_load(f)
+                        self.assertEqual(content, expected_content)
+
+            # Check the content of the task files
+            for file_path, expected_content in expected_tasks.items():
+                self.assertTrue(os.path.exists(f'{self.test_dir}/{file_path}'))
+                with open(f'{self.test_dir}/{file_path}', 'r') as f:
                     content = yaml.safe_load(f)
+                    # content is now a list of strings
+                    content.sort()
+                    expected_content.sort()
                     self.assertEqual(content, expected_content)
 
-        # Check the content of the task files
-        for file_path, expected_content in expected_tasks.items():
-            self.assertTrue(os.path.exists(f'{self.test_dir}/{file_path}'))
-            with open(f'{self.test_dir}/{file_path}', 'r') as f:
-                content = yaml.safe_load(f)
-                # content is now a list of strings
-                content.sort()
-                expected_content.sort()
-                self.assertEqual(content, expected_content)
-
-        # Check the content of the README.md file
-        with open(f'{self.test_dir}/weeks/00-A/README.md', 'r') as f:
-            content = f.read()
-            self.assertIn('# Summary for 00-A', content)
-            # The summary now counts all yaml files, including tasks.yaml
-            # 2 items in subcategory file + 2 items in tasks.yaml = 4 total items reported by current summary logic
-            # We might want to adjust the summary logic later, but for now let's adjust the test expectation
-            # or we can filter out tasks.yaml from the summary generation.
-            # Given the user didn't ask to change summary logic, I will filter tasks.yaml in load.py
-            # so that the summary remains about the content parts.
-            self.assertIn('This week has a total of 2 items.', content)
-            self.assertIn('- **Category 1 Subcategory 1**: 2 items', content)
+            # Check the content of the README.md file
+            with open(f'{self.test_dir}/weeks/00-A/README.md', 'r') as f:
+                content = f.read()
+                self.assertIn('# Summary for 00-A', content)
+                # The summary now counts all yaml files, including tasks.yaml
+                # 2 items in subcategory file + 2 items in tasks.yaml = 4 total items reported by current summary logic
+                # We might want to adjust the summary logic later, but for now let's adjust the test expectation
+                # or we can filter out tasks.yaml from the summary generation.
+                # Given the user didn't ask to change summary logic, I will filter tasks.yaml in load.py
+                # so that the summary remains about the content parts.
+                self.assertIn('This week has a total of 2 items.', content)
+                self.assertIn('- **Category 1 Subcategory 1**: 2 items', content)
 
 
 if __name__ == '__main__':

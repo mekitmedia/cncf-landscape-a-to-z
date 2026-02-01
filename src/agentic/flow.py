@@ -12,6 +12,7 @@ from src.agentic.agents.researcher import researcher_agent
 from src.agentic.agents.writer import writer_agent
 from src.agentic.agents.editor import editor_agent
 from src.agentic.models import ResearchOutput, BlogPostDraft, NextWeekDecision, ProjectMetadata
+from src.tracker import get_tracker, TaskStatus
 
 @task
 @logfire.instrument
@@ -27,75 +28,94 @@ async def determine_next_week() -> NextWeekDecision:
 
 @task
 @logfire.instrument
-async def get_items_for_week(letter: str) -> List[ProjectMetadata]:
+async def get_items_for_week(letter: str, task_type: str = "research") -> List[ProjectMetadata]:
+    """Get items with pending tasks for a specific week.
+    
+    Args:
+        letter: Week letter (A-Z)
+        task_type: Type of task to check (default: research)
+        
+    Returns:
+        List of ProjectMetadata for items with pending tasks
+    """
     logger = get_run_logger()
-    logger.info(f"Getting items for letter {letter}")
+    logger.info(f"Getting items for letter {letter} with pending '{task_type}' tasks")
 
-    # Read from generated tasks (output of ETL pipeline)
-    # The ETL pipeline generates data/weeks/XX-Letter/tasks.yaml
+    # Get tracker instance
+    tracker = get_tracker()
+    
+    # Check if tracker exists for this week
+    if not tracker.tracker_exists(letter):
+        logger.warning(f"No tracker found for week {letter}. ETL may not have run yet.")
+        return []
+    
+    # Get pending items from tracker
+    pending_item_names = tracker.get_pending_items(letter, task_type)
+    
+    if not pending_item_names:
+        logger.info(f"No pending '{task_type}' tasks for week {letter}")
+        return []
+    
+    logger.info(f"Found {len(pending_item_names)} items with pending '{task_type}' tasks")
+    
+    # Load full metadata from category files
     cfg = load_config()
-    week_folders = glob.glob(str(cfg.weeks_dir / f"*-{letter.upper()}"))
-
+    week_folder = cfg.weeks_dir / week_id(letter)
+    
     items = []
-
-    if week_folders:
-        week_folder = week_folders[0]
-        logger.info(f"Using ETL output from {week_folder}")
-
-        # Read all category yaml files for that week
-        yaml_files = glob.glob(f"{week_folder}/categories/*.yaml")
-        for yf in yaml_files:
-            try:
-                with open(yf, 'r', encoding='utf-8') as f:
-                    data = yaml.safe_load(f)
-                    if isinstance(data, list):
-                        for item in data:
+    yaml_files = glob.glob(str(week_folder / "categories" / "*.yaml"))
+    
+    for yf in yaml_files:
+        try:
+            with open(yf, 'r', encoding='utf-8') as f:
+                data = yaml.safe_load(f)
+                if isinstance(data, list):
+                    for item in data:
+                        item_name = item.get('name')
+                        if item_name in pending_item_names:
                             items.append(ProjectMetadata(
-                                name=item.get('name'),
+                                name=item_name,
                                 repo_url=item.get('repo_url'),
                                 homepage=item.get('homepage_url')
                             ))
-            except FileNotFoundError:
-                logger.error(f"File not found: {yf}")
-            except yaml.YAMLError as e:
-                logger.error(f"YAML parsing error in {yf}: {e}")
-            except UnicodeDecodeError as e:
-                logger.error(f"Encoding error while reading {yf}: {e}")
-            except Exception as e:
-                logger.exception(f"Unexpected error while reading {yf}: {e}")
-
-    else:
-        # Fallback to fetching raw data if ETL hasn't run
-        logger.warning("ETL output not found. Falling back to fetching raw landscape data.")
-        input_path = load_config().landscape_source
-
-        def _fetch_and_transform():
-            from src.pipeline.extract import get_landscape_data
-            from src.pipeline.transform import get_landscape_by_letter
-            landscape = get_landscape_data(input_path)
-            return get_landscape_by_letter(landscape)
-
-        landscape_by_letter = await asyncio.to_thread(_fetch_and_transform)
-
-        data = landscape_by_letter.get(letter, {})
-        if 'partial' in data:
-            for path, item_list in data['partial'].items():
-                for item in item_list:
-                    items.append(ProjectMetadata(
-                        name=item.get('name'),
-                        repo_url=item.get('repo_url'),
-                        homepage=item.get('homepage_url')
-                    ))
-
+        except Exception as e:
+            logger.exception(f"Error reading {yf}: {e}")
+    
     items.sort(key=lambda x: x.name)
-    logger.info(f"Found {len(items)} items for letter {letter}")
+    
+    # Log progress
+    progress = tracker.get_progress(letter, task_type)
+    logger.info(
+        f"Week {letter} progress for '{task_type}': "
+        f"{progress.completed}/{progress.total} completed "
+        f"({progress.completion_percentage:.1f}%)"
+    )
+    
     return items
 
 @task
 @logfire.instrument
-async def research_item(item: ProjectMetadata) -> ResearchOutput:
+async def research_item(item: ProjectMetadata, week_letter: str) -> ResearchOutput:
+    """Research a single project and update tracker.
+    
+    Args:
+        item: Project metadata
+        week_letter: Week letter for tracking
+        
+    Returns:
+        Research output
+    """
     logger = get_run_logger()
+    tracker = get_tracker()
+    
     logger.info(f"Researching item: {item.name}")
+    
+    # Mark as in progress
+    try:
+        tracker.update_task(week_letter, item.name, "research", TaskStatus.IN_PROGRESS)
+    except Exception as e:
+        logger.warning(f"Failed to update tracker for {item.name}: {e}")
+    
     try:
         # Pydantic AI agents are async
         result = await researcher_agent.run(
@@ -105,6 +125,19 @@ async def research_item(item: ProjectMetadata) -> ResearchOutput:
         return result.data
     except Exception as e:
         logger.error(f"Failed to research {item.name}: {e}")
+        
+        # Mark as failed in tracker
+        try:
+            tracker.update_task(
+                week_letter,
+                item.name,
+                "research",
+                TaskStatus.FAILED,
+                error_message=str(e)
+            )
+        except Exception as track_error:
+            logger.warning(f"Failed to update tracker failure for {item.name}: {track_error}")
+        
         return ResearchOutput(
             project_name=item.name,
             summary="Research failed.",
@@ -127,7 +160,10 @@ async def write_weekly_post(week_letter: str, research_results: List[ResearchOut
 @task
 @logfire.instrument
 async def save_post(week_letter: str, draft: BlogPostDraft):
+    """Save blog post and update tracker."""
     logger = get_run_logger()
+    tracker = get_tracker()
+    
     cfg = load_config()
     year = datetime.now().year
     filename = cfg.hugo_posts_dir / f"{year}-{week_letter}.md"
@@ -147,12 +183,28 @@ draft: false
     with open(filename, "w") as f:
         f.write(full_content)
     logger.info("Post saved.")
+    
+    # Update tracker to mark blog post as completed
+    try:
+        relative_path = f"website/content/letters/{year}-{week_letter}.md"
+        tracker.update_task(
+            week_letter,
+            None,
+            "blog_post",
+            TaskStatus.COMPLETED,
+            output_file=relative_path
+        )
+        logger.info(f"Tracker updated: week {week_letter} blog post completed")
+    except Exception as e:
+        logger.warning(f"Failed to update tracker for blog post: {e}")
 
 @task
 @logfire.instrument
 async def save_research(week_letter: str, research: ResearchOutput):
-    """Save individual research file to data/weeks/XX-Letter/research/{sanitized_name}.yaml"""
+    """Save individual research file to data/weeks/XX-Letter/research/{sanitized_name}.yaml
+    and update tracker."""
     logger = get_run_logger()
+    tracker = get_tracker()
     
     cfg = load_config()
     research_dir = cfg.weeks_dir / week_id(week_letter) / "research"
@@ -163,7 +215,9 @@ async def save_research(week_letter: str, research: ResearchOutput):
         .replace("&", "and") \
         .replace("/", "_") \
         .replace(".", "_") \
-        .replace(",", "")
+        .replace(",", "") \
+        .replace("'", "") \
+        .replace('"', "")
     
     filename = Path(research_dir) / f"{sanitized_name}.yaml"
     
@@ -179,6 +233,20 @@ async def save_research(week_letter: str, research: ResearchOutput):
         yaml.dump(research_dict, f, default_flow_style=False, allow_unicode=True)
     
     logger.info(f"Research saved to {filename}")
+    
+    # Update tracker to mark research as completed
+    try:
+        relative_path = f"research/{sanitized_name}.yaml"
+        tracker.update_task(
+            week_letter,
+            research.project_name,
+            "research",
+            TaskStatus.COMPLETED,
+            output_file=relative_path
+        )
+        logger.info(f"Tracker updated: {research.project_name} research completed")
+    except Exception as e:
+        logger.warning(f"Failed to update tracker for {research.project_name}: {e}")
 
 @flow(name="Weekly Content Flow")
 @logfire.instrument
