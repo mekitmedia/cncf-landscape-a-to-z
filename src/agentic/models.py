@@ -5,6 +5,7 @@ class ProjectMetadata(BaseModel):
     name: str
     repo_url: Optional[str] = None
     homepage: Optional[str] = None
+    week_letter: str = Field(..., description="The week letter this project belongs to")
 
 class ResearchOutput(BaseModel):
     project_name: str
@@ -19,6 +20,10 @@ class ResearchOutput(BaseModel):
 class BlogPostDraft(BaseModel):
     title: str
     content_markdown: str
+
+class WriterDeps(BaseModel):
+    research_results: List[ResearchOutput]
+    week_letter: str
 
 class NextWeekDecision(BaseModel):
     week_letter: str = Field(..., description="The letter of the week to process (A-Z)")

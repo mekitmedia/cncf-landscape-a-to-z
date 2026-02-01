@@ -59,13 +59,13 @@ async def test_research_item_mock():
         mock_result.data = expected_output
         mock_run.return_value = mock_result
 
-        item = ProjectMetadata(name="Test Project", repo_url="http://test", homepage="http://test")
+        item = ProjectMetadata(name="Test Project", repo_url="http://test", homepage="http://test", week_letter="A")
 
         with patch('src.agentic.flow.get_run_logger'):
              if hasattr(research_item, 'fn'):
-                 result = await research_item.fn(item)
+                 result = await research_item.fn(item, item.week_letter)
              else:
-                 result = await research_item(item)
+                 result = await research_item(item, item.week_letter)
 
         assert result == expected_output
 

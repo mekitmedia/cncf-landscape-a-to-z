@@ -6,6 +6,7 @@ from pydantic_ai import Agent, RunContext
 from pydantic_ai.models.google import GoogleModel
 from src.agentic.models import NextWeekDecision
 from src.config import load_config, week_id
+from src.tracker import get_tracker
 
 def get_model():
     api_key = os.getenv('GOOGLE_API_KEY')
@@ -88,6 +89,27 @@ def read_week_summary(ctx: RunContext, week_letter: str) -> str:
     except Exception as e:
         return f"Error reading {files[0]}: {e}"
 
+@logfire.instrument
+def check_tracker_progress(ctx: RunContext, week_letter: str) -> str:
+    """Checks the tracker progress for a specific week."""
+    # Validate input to prevent path traversal
+    if not (len(week_letter) == 1 and 'A' <= week_letter <= 'Z'):
+        return "Invalid week letter provided"
+    
+    try:
+        tracker = get_tracker()
+        if not tracker.tracker_exists(week_letter):
+            return f"No tracker found for week {week_letter}. ETL may not have run yet."
+        
+        progress = tracker.get_progress(week_letter, "research")
+        blog_progress = tracker.get_progress(week_letter, "blog_post")
+        
+        return f"Week {week_letter} progress:\n" \
+               f"- Research: {progress.completed}/{progress.total} completed ({progress.completion_percentage:.1f}%)\n" \
+               f"- Blog post: {'Completed' if blog_progress.completed > 0 else 'Not started'}"
+    except Exception as e:
+        return f"Error checking tracker for {week_letter}: {e}"
+
 editor_agent = Agent(
     model,
     output_type=NextWeekDecision,
@@ -112,3 +134,4 @@ editor_agent.tool(check_week_status)
 editor_agent.tool(check_todo)
 editor_agent.tool(update_todo)
 editor_agent.tool(read_week_summary)
+editor_agent.tool(check_tracker_progress)

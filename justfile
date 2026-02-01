@@ -41,4 +41,4 @@ tools:
 
 # Run unit tests
 test:
-    uv run python -m unittest tests/test_main.py
+    PYTHONPATH=. uv run pytest tests/

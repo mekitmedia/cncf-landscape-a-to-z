@@ -11,7 +11,7 @@ from src.config import load_config, week_id
 from src.agentic.agents.researcher import researcher_agent
 from src.agentic.agents.writer import writer_agent
 from src.agentic.agents.editor import editor_agent
-from src.agentic.models import ResearchOutput, BlogPostDraft, NextWeekDecision, ProjectMetadata
+from src.agentic.models import ResearchOutput, BlogPostDraft, NextWeekDecision, ProjectMetadata, WriterDeps
 from src.tracker import get_tracker, TaskStatus
 
 @task
@@ -76,7 +76,8 @@ async def get_items_for_week(letter: str, task_type: str = "research") -> List[P
                             items.append(ProjectMetadata(
                                 name=item_name,
                                 repo_url=item.get('repo_url'),
-                                homepage=item.get('homepage_url')
+                                homepage=item.get('homepage_url'),
+                                week_letter=letter
                             ))
         except Exception as e:
             logger.exception(f"Error reading {yf}: {e}")
@@ -151,9 +152,10 @@ async def research_item(item: ProjectMetadata, week_letter: str) -> ResearchOutp
 async def write_weekly_post(week_letter: str, research_results: List[ResearchOutput]) -> BlogPostDraft:
     logger = get_run_logger()
     logger.info(f"Writing blog post for week {week_letter}")
+    deps = WriterDeps(research_results=research_results, week_letter=week_letter)
     result = await writer_agent.run(
         f"Write a blog post for CNCF projects starting with letter {week_letter}.",
-        deps=research_results
+        deps=deps
     )
     return result.data
 
