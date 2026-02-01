@@ -11,6 +11,7 @@
         {{ $dataKey := .Params.data_key }}
         {{ if $dataKey }}
             {{ $weekData := index .Site.Data $dataKey }}
+            {{ $researchData := index .Site.Data (printf "%s_research" $dataKey) }}
 
             {{ if $weekData }}
                 {{ range $filename, $items := $weekData }}
@@ -19,6 +20,9 @@
                             <h2 class="text-xl font-bold mb-6 border-b border-slate-200 pb-2 capitalize">{{ $filename | replaceRE "_" " " | title }}</h2>
                             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                                 {{ range $items }}
+                                    {{ $sanitizedName := .name | lower | replaceRE " " "_" | replaceRE "&" "and" | replaceRE "/" "_" | replaceRE "\\." "_" | replaceRE "," "" }}
+                                    {{ $projectResearch := index $researchData $sanitizedName }}
+                                    
                                     <div class="bg-white p-6 rounded-2xl border border-slate-200 hover:border-blue-400 hover:shadow-xl hover:shadow-blue-50 transition-all group">
                                         <div class="flex justify-between items-start mb-4">
                                             {{ if .project }}
@@ -36,9 +40,26 @@
                                             <!-- Assuming logos might be available, but avoiding broken images for now -->
                                             <!-- <img src="https://landscape.cncf.io/logos/{{ .logo }}" class="w-8 h-8 object-contain" alt="{{ .name }} logo"> -->
                                             {{ end }}
-                                            <h4 class="text-xl font-bold group-hover:text-blue-600 transition-colors">{{ .name }}</h4>
+                                            <a href="/tools/{{ $sanitizedName }}/" class="text-xl font-bold group-hover:text-blue-600 transition-colors">{{ .name }}</a>
                                         </div>
-                                        <p class="text-sm text-slate-500 mb-6 min-h-[40px] leading-relaxed line-clamp-3">{{ .description }}</p>
+                                        
+                                        {{ if .description }}
+                                        <p class="text-sm text-slate-600 mb-3 min-h-[40px] leading-relaxed line-clamp-3">{{ .description }}</p>
+                                        {{ else if $projectResearch.summary }}
+                                        <p class="text-sm text-slate-600 mb-3 min-h-[40px] leading-relaxed line-clamp-3">{{ $projectResearch.summary }}</p>
+                                        {{ end }}
+
+                                        {{ if $projectResearch.key_features }}
+                                        <div class="mb-3">
+                                            <p class="text-xs font-bold text-slate-500 uppercase mb-1">Key Features</p>
+                                            <ul class="text-xs text-slate-600 space-y-1">
+                                                {{ range first 2 $projectResearch.key_features }}
+                                                <li>• {{ . }}</li>
+                                                {{ end }}
+                                            </ul>
+                                        </div>
+                                        {{ end }}
+                                        
                                         <div class="flex items-center justify-between pt-4 border-t border-slate-100 text-xs font-medium text-slate-400">
                                             <div class="flex gap-3">
                                                 {{ if .repo_url }}
@@ -47,6 +68,7 @@
                                                 {{ if .homepage_url }}
                                                 <a href="{{ .homepage_url }}" target="_blank" class="flex items-center gap-1 hover:text-blue-600"><i data-lucide="external-link" class="w-3 h-3"></i> Web</a>
                                                 {{ end }}
+                                                <a href="/tools/{{ $sanitizedName }}/" class="flex items-center gap-1 hover:text-blue-600 ml-auto"><i data-lucide="arrow-right" class="w-3 h-3"></i> Details</a>
                                             </div>
                                         </div>
                                     </div>

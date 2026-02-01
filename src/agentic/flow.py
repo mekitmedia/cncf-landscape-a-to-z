@@ -5,6 +5,7 @@ import yaml
 import logfire
 from datetime import datetime
 from typing import List, Optional
+from pathlib import Path
 from prefect import flow, task, get_run_logger
 from src.agentic.agents.researcher import researcher_agent
 from src.agentic.agents.writer import writer_agent
@@ -147,6 +148,39 @@ draft: false
         f.write(full_content)
     logger.info("Post saved.")
 
+@task
+@logfire.instrument
+async def save_research(week_letter: str, research: ResearchOutput):
+    """Save individual research file to data/week_XX_Y/research/{sanitized_name}.yaml"""
+    logger = get_run_logger()
+    
+    # Determine week index (A=00, B=01, ..., Z=25)
+    week_index = ord(week_letter) - ord('A')
+    research_dir = f"data/week_{week_index:02d}_{week_letter}/research"
+    
+    # Sanitize project name for filename: spaces to underscores, lowercase, remove special chars
+    sanitized_name = research.project_name.lower() \
+        .replace(" ", "_") \
+        .replace("&", "and") \
+        .replace("/", "_") \
+        .replace(".", "_") \
+        .replace(",", "")
+    
+    filename = f"{research_dir}/{sanitized_name}.yaml"
+    
+    logger.info(f"Saving research for {research.project_name} to {filename}")
+    
+    # Create directory if it doesn't exist
+    os.makedirs(research_dir, exist_ok=True)
+    
+    # Convert research to dict and save as YAML
+    research_dict = research.model_dump(exclude_none=True)
+    
+    with open(filename, "w", encoding="utf-8") as f:
+        yaml.dump(research_dict, f, default_flow_style=False, allow_unicode=True)
+    
+    logger.info(f"Research saved to {filename}")
+
 @flow(name="Weekly Content Flow")
 @logfire.instrument
 async def weekly_content_flow(limit: Optional[int] = None):
@@ -207,6 +241,10 @@ async def weekly_content_flow(limit: Optional[int] = None):
         # Research items in parallel using asyncio.gather
         research_tasks = [research_item(item) for item in items_to_process]
         research_results = await asyncio.gather(*research_tasks)
+
+        # Save research files for each result
+        save_research_tasks = [save_research(week_letter, result) for result in research_results]
+        await asyncio.gather(*save_research_tasks)
 
         # Write the blog post
         draft = await write_weekly_post(week_letter, research_results)

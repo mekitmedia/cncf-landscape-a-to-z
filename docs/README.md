@@ -65,6 +65,28 @@ Deep dive into the AI-powered content generation system:
 
 ---
 
+### [website-architecture.md](website-architecture.md)
+**Website Design & Integration**
+
+Complete guide to the website implementation and data integration:
+- Three-level content hierarchy (Featured → All → Details)
+- Data flow from ETL through research to rendered pages
+- Hugo template system and content generation
+- Research persistence and file organization
+- Tool page generation from research YAML
+- Navigation patterns and user discovery flows
+- Integration between workflows and website
+- Implementation phases and roadmap
+
+**Read this when:**
+- Building or modifying website features
+- Understanding how research feeds into website content
+- Implementing new templates or pages
+- Generating tool pages from research data
+- Troubleshooting website content display
+
+---
+
 ## 🚀 Quick Start
 
 ### Running the Complete Workflow
@@ -148,6 +170,10 @@ The system is designed with **exclusive write zones** to prevent conflicts:
 - **Understand file naming** → See [agentic-workflow.md](agentic-workflow.md) "File Naming & Persistence"
 - **Prevent workflow conflicts** → See [architecture.md](architecture.md) "Conflict Prevention"
 - **Track progress across runs** → See [agentic-workflow.md](agentic-workflow.md) "TODO.md Structure"
+- **Understand website architecture** → Read [website-architecture.md](website-architecture.md)
+- **Generate tool pages** → See [website-architecture.md](website-architecture.md) "Tool Page Generation"
+- **Work with Hugo templates** → See [website-architecture.md](website-architecture.md) "Template System"
+- **Integrate research with website** → See [website-architecture.md](website-architecture.md) "Integration Points"
 
 ## 🏗️ Project Structure Reference
 

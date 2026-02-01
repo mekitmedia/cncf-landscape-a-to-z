@@ -30,7 +30,8 @@
         function handleLetterClick(letter, idx) {
             currentLetter = letter;
             progress = idx + 1;
-            updateView(letter);
+            // Navigate to the letter page to load new data
+            window.location.href = `/letters/${letter}/`;
             renderAlphabet();
         }
 
@@ -106,14 +107,16 @@
         document.getElementById('prev-btn').onclick = () => {
             const currentIdx = alphabet.indexOf(currentLetter);
             if (currentIdx > 0) {
-                handleLetterClick(alphabet[currentIdx-1], currentIdx-1);
+                const prevLetter = alphabet[currentIdx-1];
+                window.location.href = `/letters/${prevLetter}/`;
             }
         };
 
         document.getElementById('next-btn').onclick = () => {
             const currentIdx = alphabet.indexOf(currentLetter);
             if (currentIdx < alphabet.length - 1) {
-                handleLetterClick(alphabet[currentIdx+1], currentIdx+1);
+                const nextLetter = alphabet[currentIdx+1];
+                window.location.href = `/letters/${nextLetter}/`;
             }
         };
     });
