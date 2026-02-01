@@ -1,27 +1,13 @@
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  extra:
-    accepted: '2021-11-16'
-    annual_review_date: '2023-06-01'
-    annual_review_url: https://github.com/cncf/toc/pull/1067
-    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#k8up-logos
-    clomonitor_name: k8up
-    dev_stats_url: https://k8up.devstats.cncf.io/
-    lfx_slug: k8up
-    slack_url: https://cloud-native.slack.com/messages/k8up
+  featured: true
   homepage_url: https://www.k8up.io/
-  item: null
   logo: k8up.svg
   name: K8up
   project: sandbox
   repo_url: https://github.com/k8up-io/k8up
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  extra:
-    accepted: '2023-09-20'
-    clomonitor_name: kanister
-    dev_stats_url: https://kanister.devstats.cncf.io/
-    lfx_slug: kanister
+  featured: true
   homepage_url: https://kanister.io
-  item: null
   logo: kanister.svg
   name: Kanister
   project: sandbox

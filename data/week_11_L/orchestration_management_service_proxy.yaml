@@ -1,14 +1,7 @@
 - description: eBPF based cloud-native load-balancer. Powering Kubernetes|Edge|5G|IoT|XaaS
     Apps.
-  extra:
-    accepted: '2024-08-30'
-    chat_channel: '#loxilb'
-    clomonitor_name: loxilb
-    dev_stats_url: https://loxilb.devstats.cncf.io/
-    lfx_slug: loxilb
-    slack_url: https://kubernetes.slack.com/messages/loxilb
+  featured: true
   homepage_url: https://loxilb.io
-  item: null
   logo: loxilb.svg
   name: LoxiLB
   project: sandbox

@@ -1,13 +1,15 @@
 - crunchbase: https://www.crunchbase.com/organization/elasticsearch
+  featured: true
   homepage_url: https://www.elastic.co/beats
-  item: null
   logo: beats.svg
   name: Beats
+  project: null
   repo_url: https://github.com/elastic/beats
 - crunchbase: https://www.crunchbase.com/organization/kubeshop
+  featured: true
   homepage_url: https://www.botkube.io
-  item: null
   logo: botkube.svg
   name: Botkube
+  project: null
   repo_url: https://github.com/kubeshop/botkube
   twitter: https://twitter.com/Botkube_io

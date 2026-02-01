@@ -1,18 +1,18 @@
 - crunchbase: https://www.crunchbase.com/organization/vmware
   description: Cartographer is a Kubernetes-native Choreographer providing higher
     modularity and scalability for the software supply chain.
-  extra:
-    slack_url: https://kubernetes.slack.com/archives/C02HKPSEKV1
+  featured: true
   homepage_url: https://cartographer.sh/
-  item: null
   logo: cartographer.svg
   name: Cartographer
+  project: null
   repo_url: https://github.com/vmware-tanzu/cartographer
   twitter: https://twitter.com/OssCartographer
 - crunchbase: https://www.crunchbase.com/organization/vmware
+  featured: true
   homepage_url: https://concourse-ci.org/
-  item: null
   logo: concourse.svg
   name: Concourse
+  project: null
   repo_url: https://github.com/concourse/concourse
   twitter: https://twitter.com/concourseci

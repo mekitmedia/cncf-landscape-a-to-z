@@ -1,13 +1,8 @@
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: Eraser uses vulnerability data to remove non-running images from all
     Kubernetes nodes in a cluster.
-  extra:
-    accepted: '2023-06-30'
-    clomonitor_name: eraser
-    dev_stats_url: https://eraser.devstats.cncf.io/
-    lfx_slug: eraser
+  featured: true
   homepage_url: https://eraser-dev.github.io/eraser/
-  item: null
   logo: eraser.svg
   name: Eraser
   project: sandbox

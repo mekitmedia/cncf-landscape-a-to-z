@@ -1,7 +1,7 @@
-- allow_duplicate_repo: true
-  crunchbase: https://www.crunchbase.com/organization/nginx
+- crunchbase: https://www.crunchbase.com/organization/nginx
+  featured: true
   homepage_url: https://www.nginx.com
-  item: null
   logo: nginx.svg
   name: NGINX (Wasm)
+  project: null
   repo_url: https://github.com/nginx/nginx

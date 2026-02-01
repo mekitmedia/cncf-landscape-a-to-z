@@ -1,20 +1,22 @@
 - crunchbase: https://www.crunchbase.com/organization/mariadb-2
+  featured: true
   homepage_url: https://mariadb.com/
-  item: null
   logo: mariadb.svg
   name: MariaDB
+  project: null
   repo_url: https://github.com/MariaDB/server
 - crunchbase: https://www.crunchbase.com/organization/mongodb-inc
+  featured: true
   homepage_url: https://www.mongodb.com/
-  item: null
   logo: mongo-db.svg
   name: MongoDB
-  open_source: false
+  project: null
   repo_url: https://github.com/mongodb/mongo
 - crunchbase: https://www.crunchbase.com/organization/oracle
+  featured: true
   homepage_url: https://www.oracle.com/mysql/
-  item: null
   logo: my-sql.svg
   name: MySQL
+  project: null
   repo_url: https://github.com/mysql/mysql-server
   twitter: https://twitter.com/mysql

@@ -1,34 +1,15 @@
-- crunchbase: https://www.crunchbase.com/organization/xiaomi
-  homepage_url: https://github.com/open-falcon/falcon-plus
-  item: null
-  logo: falcon.svg
-  name: Falcon
-  repo_url: https://github.com/open-falcon/falcon-plus
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  extra:
-    accepted: '2016-11-08'
-    artwork_url: https://github.com/cncf/artwork/blob/master/examples/graduated.md#fluentd-logos
-    audits:
-    - date: '2019-05-01'
-      type: security
-      url: https://cure53.de/pentest-report_fluent.pdf
-      vendor: Cure53
-    - date: '2020-12-15'
-      type: fuzzing
-      url: https://github.com/fluent/fluent-bit/blob/master/doc-reports/cncf-fuzzing-audit.pdf
-      vendor: Ada Logics
-    blog_url: http://www.fluentd.org/blog/
-    clomonitor_name: fluentd
-    dev_stats_url: https://fluentd.devstats.cncf.io/
-    graduated: '2019-04-11'
-    incubating: '2016-11-08'
-    lfx_slug: fluentd
-    slack_url: http://slack.fluentd.org/
-    stack_overflow_url: https://stackoverflow.com/questions/tagged/fluentd
+  featured: true
   homepage_url: https://www.fluentd.org/
-  item: null
   logo: fluentd.svg
   name: Fluentd
   project: graduated
   repo_url: https://github.com/fluent/fluentd
   twitter: https://twitter.com/fluentd
+- crunchbase: https://www.crunchbase.com/organization/xiaomi
+  featured: true
+  homepage_url: https://github.com/open-falcon/falcon-plus
+  logo: falcon.svg
+  name: Falcon
+  project: null
+  repo_url: https://github.com/open-falcon/falcon-plus

@@ -3,8 +3,9 @@
     upstream Kubernetes. Deploy and manage a stable and production grade Kubernetes
     Cluster at scale with a comprehensive Cloud Native stack implemented with top
     notch CNCF components.
+  featured: true
   homepage_url: https://docs.sighup.io
-  item: null
   logo: sighup-distribution.svg
   name: SIGHUP Distribution
+  project: null
   repo_url: https://github.com/sighupio/distribution

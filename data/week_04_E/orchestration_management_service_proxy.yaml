@@ -1,26 +1,6 @@
-- allow_duplicate_repo: true
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  extra:
-    accepted: '2017-09-13'
-    artwork_url: https://github.com/cncf/artwork/blob/master/examples/graduated.md#envoy-logos
-    audits:
-    - date: '2018-02-27'
-      type: security
-      url: https://github.com/envoyproxy/envoy/blob/main/docs/security/audit_cure53_2018.pdf
-      vendor: Cure53
-    - date: '2021-05-15'
-      type: fuzzing
-      url: https://github.com/envoyproxy/envoy/blob/main/docs/security/audit_fuzzer_adalogics_2021.pdf
-      vendor: Ada Logics
-    clomonitor_name: envoy
-    dev_stats_url: https://envoy.devstats.cncf.io/
-    graduated: '2018-11-28'
-    incubating: '2017-09-13'
-    lfx_slug: envoy
-    slack_url: https://envoyproxy.slack.com/
-    stack_overflow_url: https://stackoverflow.com/questions/tagged/envoyproxy
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  featured: true
   homepage_url: https://www.envoyproxy.io
-  item: null
   logo: envoy.svg
   name: Envoy
   project: graduated

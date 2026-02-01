@@ -4,8 +4,9 @@
     The distribution includes logging, monitoring, single-sign-on integration with
     common identity providers, vulnerability scanning, intrusion detection, strict
     security hardening of the entire platform, and additional safeguards.
+  featured: true
   homepage_url: https://elastisys.io/welkin
-  item: null
   logo: welkin.svg
   name: "Elastisys Welkin\xAE based on Kubespray"
+  project: null
   repo_url: https://github.com/elastisys/welkin

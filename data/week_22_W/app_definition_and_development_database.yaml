@@ -1,10 +1,7 @@
 - crunchbase: https://www.crunchbase.com/organization/weaviate
-  extra:
-    blog_url: https://medium.com/semi-technologies
-    slack_url: https://join.slack.com/t/weaviate/shared_invite/zt-goaoifjr-o8FuVz9b1HLzhlUfyfddhw
-    stack_overflow_url: https://stackoverflow.com/questions/tagged/weaviate
+  featured: true
   homepage_url: https://weaviate.io/developers/weaviate/current/index.html
-  item: null
   logo: weaviate.svg
   name: Weaviate
+  project: null
   repo_url: https://github.com/weaviate/weaviate

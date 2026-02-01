@@ -1,9 +1,9 @@
 - description: "Open source vector database that stores both objects and vectors,\
     \ allowing for the combination of vector search with structured filtering with\
     \ the fault tolerance and scalability of a cloud-native database\u200B."
+  featured: true
   homepage_url: https://github.com/weaviate/weaviate
-  item: null
   logo: ./weaviate-nav-logo-dark.svg
   name: Weaviate
+  project: null
   repo_url: https://github.com/weaviate/weaviate
-  unnamed_organization: true

@@ -1,17 +1,17 @@
-- allow_duplicate_repo: true
-  crunchbase: https://www.crunchbase.com/organization/infinyon
+- crunchbase: https://www.crunchbase.com/organization/infinyon
+  featured: true
   homepage_url: https://www.fluvio.io/
-  item: null
   logo: fluvio.svg
   name: Infinyon
+  project: null
   repo_url: https://github.com/infinyon/fluvio
-- allow_duplicate_repo: true
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: Simplify observability, traffic management, security, and policy with
     the Istio service mesh.
+  featured: true
   homepage_url: https://istio.io/
-  item: null
   logo: istio.svg
   name: Istio (Wasm)
+  project: null
   repo_url: https://github.com/istio/istio
   twitter: https://twitter.com/IstioMesh

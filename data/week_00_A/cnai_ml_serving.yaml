@@ -1,17 +1,17 @@
 - description: Cost-efficient and pluggable Infrastructure components for GenAI inference.
+  featured: true
   homepage_url: https://aibrix.github.io/
-  item: null
   logo: ./vllm-logo-text-light.svg
   name: AIBrix
+  project: null
   repo_url: https://github.com/vllm-project/aibrix
-  unnamed_organization: true
 - description: Arks is an end-to-end framework for managing LLM-based applications
     within Kubernetes cluster. It provides a robust and extensible infrastructure
     tailored for deploying, orchestrating, and scaling LLM inference workloads in
     cloud-native environments.
+  featured: true
   homepage_url: https://www.scitix.ai
-  item: null
   logo: ./arks.svg
   name: Arks
+  project: null
   repo_url: https://github.com/scitix/arks
-  unnamed_organization: true

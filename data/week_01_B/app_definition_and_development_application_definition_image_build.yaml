@@ -1,44 +1,13 @@
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  extra:
-    accepted: '2020-09-08'
-    artwork_url: https://github.com/cncf/artwork/tree/master/projects/backstage
-    audits:
-    - date: '2022-08-23'
-      type: security
-      url: https://backstage.io/blog/2022/08/23/backstage-security-audit/
-      vendor: X41 D-Sec
-    blog_url: https://backstage.io/blog
-    clomonitor_name: backstage
-    dev_stats_url: https://backstage.devstats.cncf.io/
-    incubating: '2022-03-15'
-    lfx_slug: backstage
-    slack_url: https://discord.gg/backstage-687207715902193673
-    summary_integrations: Kubernetes, GitHub, GitLab, Bitbucket, Azure DevOps, Jenkins,
-      and more with plugins
-    summary_personas: Developers, SREs
-    summary_release_rate: Backstage releases versions on a monthly cadence, with a
-      weekly next release of the main branch.
-    summary_tags: Developer Portals, IDP, Service Catalog, Observability
-    summary_use_case: Backstage is an open platform for building developer portals,
-      which unify all your infrastructure tooling, services, and documentation with
-      a single, consistent UI.
+  featured: true
   homepage_url: https://backstage.io/
-  item: null
   logo: backstage.svg
   name: Backstage
   project: incubating
   repo_url: https://github.com/backstage/backstage
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  extra:
-    accepted: '2018-10-03'
-    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#buildpacks-logos
-    clomonitor_name: buildpacks
-    dev_stats_url: https://buildpacks.devstats.cncf.io/
-    incubating: '2020-11-18'
-    lfx_slug: buildpacks
-    slack_url: https://slack.cncf.io/
+  featured: true
   homepage_url: https://buildpacks.io/
-  item: null
   logo: buildpacks.svg
   name: Buildpacks
   project: incubating

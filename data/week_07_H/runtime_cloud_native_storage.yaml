@@ -1,16 +1,8 @@
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: Hwameistor is an HA local storage system for cloud-native stateful
     workloads
-  extra:
-    accepted: '2023-06-22'
-    artwork_url: https://github.com/cncf/artwork/tree/master/projects/hwameistor
-    blog_url: https://hwameistor.io/blog
-    clomonitor_name: hwameistor
-    dev_stats_url: https://hwameistor.devstats.cncf.io/
-    lfx_slug: hwameistor
-    slack_url: https://cloud-native.slack.com/messages/hwameistor
+  featured: true
   homepage_url: https://hwameistor.io/
-  item: null
   logo: hwameistor.svg
   name: HwameiStor
   project: sandbox

@@ -1,68 +1,14 @@
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  extra:
-    accepted: '2021-10-13'
-    artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#cilium-logos
-    audits:
-    - date: '2023-02-13'
-      type: security
-      url: https://github.com/cilium/cilium.io/blob/main/Security-Reports/CiliumSecurityAudit2022.pdf
-      vendor: Ada Logics
-    - date: '2023-02-13'
-      type: fuzzing
-      url: https://github.com/cilium/cilium.io/blob/main/Security-Reports/CiliumFuzzingAudit2022.pdf
-      vendor: Ada Logics
-    clomonitor_name: cilium
-    dev_stats_url: https://cilium.devstats.cncf.io/
-    graduated: '2023-10-11'
-    incubating: '2021-10-13'
-    lfx_slug: cilium
-    linkedin_url: https://www.linkedin.com/company/cilium/
-    slack_url: https://cilium.herokuapp.com/
-    stack_overflow_url: https://stackoverflow.com/questions/tagged/cilium
-    summary_business_use_case: Cilium reduces the operational complexity and cost
-      of running highly scalable and dynamic cloud native environments. By leveraging
-      eBPF, Cilium accelerates and simplifies service connectivity, makes systems
-      observable for easier monitoring and debugging, and provides deep security observability
-      and runtime enforcement.
-    summary_integration: Kubernetes, Prometheus, OpenTelemetry, Envoy, Istio, Grafana,
-      cert-manager, SPIFFE
-    summary_personas: Platform engineers, Network teams, SRE, DevOps Engineers, Security
-      teams
-    summary_release_rate: 2-3 major releases a year, plus minor and point releases
-      for bug fixes and security updates
-    summary_tags: CNI, Networking, Load Balancing, Service Mesh, Observability, Runtime
-      Security, eBPF, Cluster Mesh, Multicloud
-    summary_use_case: 'Cilium is a networking, observability, and security platform
-      based on eBPF. As a CNI, it provides a flat Layer 3 network, even across clusters.
-      Cilium enforces network policies on L3-L7 using an identity based security model.
-
-
-      Cilium implements distributed load balancing between pods and to external services
-      by replacing kube-proxy. It also has advanced functionality like ingress and
-      egress gateway, bandwidth management, service mesh, and deep network and security
-      observability through Hubble and Tetragon.'
+  featured: true
   homepage_url: https://cilium.io/
-  item: null
   logo: cilium.svg
   name: Cilium
   project: graduated
   repo_url: https://github.com/cilium/cilium
   twitter: https://twitter.com/ciliumproject
-  url_for_bestpractices: https://bestpractices.coreinfrastructure.org/en/projects/1269
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  extra:
-    accepted: '2017-05-23'
-    artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#cni-logos
-    clomonitor_name: cni
-    dev_stats_url: https://cni.devstats.cncf.io/
-    incubating: '2017-05-23'
-    lfx_slug: cni
-    mailing_list_url: https://groups.google.com/forum/#!forum/cni-dev
-    slack_url: https://containernetworking.slack.com
-    specification: true
-    stack_overflow_url: https://stackoverflow.com/questions/tagged/cni
+  featured: true
   homepage_url: https://www.cni.dev/
-  item: null
   logo: container-network-interface-cni.svg
   name: Container Network Interface (CNI)
   project: incubating

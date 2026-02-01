@@ -3,9 +3,10 @@
     compute platform that can also solve complex orchestration problems. Build and
     debug locally without additional setup, deploy and operate at scale in the cloud,
     and integrate services using triggers and bindings.
+  featured: true
   homepage_url: https://azure.microsoft.com/en-us/services/functions/
-  item: null
   logo: azure-functions.svg
   name: Azure Functions
+  project: null
   repo_url: https://github.com/Azure/azure-functions-host
   twitter: https://twitter.com/Azure

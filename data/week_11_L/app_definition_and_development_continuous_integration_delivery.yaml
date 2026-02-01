@@ -1,9 +1,8 @@
 - crunchbase: https://www.crunchbase.com/organization/datical
   description: Liquibase helps release software faster by bringing DevOps to the database
-  extra:
-    slack_url: https://discord.gg/Kk3MsFE2
+  featured: true
   homepage_url: https://www.liquibase.com/
-  item: null
   logo: liquibase.svg
   name: Liquibase
+  project: null
   repo_url: https://github.com/liquibase/liquibase

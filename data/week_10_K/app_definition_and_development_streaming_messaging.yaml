@@ -1,14 +1,16 @@
 - crunchbase: https://www.crunchbase.com/organization/apache
+  featured: true
   homepage_url: https://kafka.apache.org/
-  item: null
   logo: kafka.svg
   name: Kafka
+  project: null
   repo_url: https://github.com/apache/kafka
   twitter: https://twitter.com/apachekafka
 - crunchbase: https://www.crunchbase.com/organization/kubemq
   description: KubeMQ is a Kubernetes Message Queue Broker
+  featured: true
   homepage_url: https://kubemq.io/
-  item: null
   logo: kubemq.svg
   name: KubeMQ
+  project: null
   repo_url: https://github.com/kubemq-io/kubemq-community

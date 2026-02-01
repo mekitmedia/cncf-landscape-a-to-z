@@ -2,15 +2,8 @@
     and the platform engineers that support them to collaborate on delivering and
     managing cloud-native applications that follow organizational best practices for
     cost, operations and security, by default.
-  extra:
-    accepted: '2024-04-16'
-    blog_url: https://blog.radapp.io/posts
-    clomonitor_name: radius
-    dev_stats_url: https://radius.devstats.cncf.io/
-    lfx_slug: radius
-    youtube_url: https://www.youtube.com/@radapp_io
+  featured: true
   homepage_url: https://radapp.io/
-  item: null
   logo: radius.svg
   name: Radius
   project: sandbox

@@ -1,16 +1,8 @@
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  extra:
-    accepted: '2020-09-08'
-    annual_review_date: '2022-10-19'
-    annual_review_url: https://github.com/cncf/toc/pull/949
-    clomonitor_name: tremor
-    dev_stats_url: https://tremor.devstats.cncf.io/
-    lfx_slug: tremor
+  featured: true
   homepage_url: https://www.tremor.rs/
-  item: null
   logo: tremor.svg
   name: Tremor
   project: sandbox
   repo_url: https://github.com/tremor-rs/tremor-runtime
   twitter: https://twitter.com/TremorDEBS
-  url_for_bestpractices: https://github.com/tremor-rs

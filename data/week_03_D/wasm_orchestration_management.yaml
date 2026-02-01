@@ -1,7 +1,7 @@
-- allow_duplicate_repo: true
-  crunchbase: https://www.crunchbase.com/organization/docker
+- crunchbase: https://www.crunchbase.com/organization/docker
+  featured: true
   homepage_url: https://www.docker.com
-  item: null
   logo: docker-member.svg
   name: Docker (Wasm)
+  project: null
   repo_url: https://github.com/docker/compose

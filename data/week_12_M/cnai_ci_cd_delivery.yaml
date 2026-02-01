@@ -1,13 +1,13 @@
-- homepage_url: https://mlflow.org/
-  item: null
-  logo: ./mlflow-white.svg
-  name: Mlflow
-  repo_url: https://github.com/mlflow/mlflow
-  unnamed_organization: true
 - description: Machine Learning automation and tracking
+  featured: true
   homepage_url: https://www.mlrun.org
-  item: null
   logo: ./mlrun.svg
   name: MLRun
+  project: null
   repo_url: https://github.com/mlrun/mlrun
-  unnamed_organization: true
+- featured: true
+  homepage_url: https://mlflow.org/
+  logo: ./mlflow-white.svg
+  name: Mlflow
+  project: null
+  repo_url: https://github.com/mlflow/mlflow

@@ -1,20 +1,10 @@
-- additional_repos:
-  - repo_url: https://github.com/Keyfactor/ansible-ejbca-signserver-playbooks
-  - repo_url: https://github.com/Keyfactor/ejbca-easy-rest-client
-  - repo_url: https://github.com/Keyfactor/ejbca-cert-manager-issuer
-  - repo_url: https://github.com/Keyfactor/ejbca-vault-pki-engine
-  crunchbase: https://www.crunchbase.com/organization/certified-security-solutions
+- crunchbase: https://www.crunchbase.com/organization/certified-security-solutions
   description: "Issue certificates for all your Kubernetes workloads with the open-source\
     \ public key infrastructure (PKI) and certificate authority (CA) software EJBCA.\_"
-  extra:
-    docker_url: https://hub.docker.com/r/keyfactor/ejbca-ce
-    documentation_url: https://docs.keyfactor.com/ejbca
-    github_discussions_url: https://github.com/Keyfactor/ejbca-ce/discussions
-    youtube_url: https://www.youtube.com/@KeyfactorDev
+  featured: true
   homepage_url: https://www.ejbca.org/
-  item: null
   logo: ejbca-community.svg
   name: EJBCA Community
+  project: null
   repo_url: https://github.com/Keyfactor/ejbca-ce
   twitter: https://x.com/KeyfactorComm
-  url_for_bestpractices: https://www.bestpractices.dev/en/projects/9419

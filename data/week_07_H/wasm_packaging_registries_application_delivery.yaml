@@ -1,7 +1,7 @@
-- allow_duplicate_repo: true
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  featured: true
   homepage_url: https://goharbor.io/
-  item: null
   logo: harbor.svg
   name: Harbor (Wasm)
+  project: null
   repo_url: https://github.com/goharbor/harbor

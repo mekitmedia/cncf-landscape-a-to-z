@@ -1,18 +1,8 @@
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  extra:
-    accepted: '2020-04-09'
-    ai: true
-    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#volcano
-    clomonitor_name: volcano
-    dev_stats_url: https://volcano.devstats.cncf.io/
-    incubating: '2022-03-21'
-    lfx_slug: Volcano
+  featured: true
   homepage_url: https://volcano.sh/
-  item: null
   logo: volcano.svg
   name: Volcano
   project: incubating
   repo_url: https://github.com/volcano-sh/volcano
-  second_path:
-  - CNAI / General Orchestration
   twitter: https://twitter.com/volcano_sh

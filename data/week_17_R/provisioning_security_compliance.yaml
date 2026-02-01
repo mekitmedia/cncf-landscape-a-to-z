@@ -1,38 +1,32 @@
+- crunchbase: https://www.crunchbase.com/organization/fairwinds
+  featured: true
+  homepage_url: https://www.fairwinds.com/open-source-software
+  logo: rbac-lookup.svg
+  name: RBAC Lookup
+  project: null
+  repo_url: https://github.com/FairwindsOps/rbac-lookup
+- crunchbase: https://www.crunchbase.com/organization/fairwinds
+  featured: true
+  homepage_url: https://www.fairwinds.com/open-source-software
+  logo: rbac-manager.svg
+  name: RBAC Manager
+  project: null
+  repo_url: https://github.com/FairwindsOps/rbac-manager
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: A verification engine on Kubernetes which enables verification of artifact
     security metadata and admits for deployment only those that comply with policies
     you create.
-  extra:
-    accepted: '2024-08-30'
-    clomonitor_name: ratify
-    dev_stats_url: https://ratify.devstats.cncf.io/
-    lfx_slug: ratify
+  featured: true
   homepage_url: https://ratify.dev/
-  item: null
   logo: ratify.svg
   name: Ratify
   project: sandbox
   repo_url: https://github.com/ratify-project/ratify
   twitter: https://twitter.com/artifact_ratify
-- crunchbase: https://www.crunchbase.com/organization/fairwinds
-  homepage_url: https://www.fairwinds.com/open-source-software
-  item: null
-  logo: rbac-lookup.svg
-  name: RBAC Lookup
-  repo_url: https://github.com/FairwindsOps/rbac-lookup
-- crunchbase: https://www.crunchbase.com/organization/fairwinds
-  homepage_url: https://www.fairwinds.com/open-source-software
-  item: null
-  logo: rbac-manager.svg
-  name: RBAC Manager
-  repo_url: https://github.com/FairwindsOps/rbac-manager
 - crunchbase: https://www.crunchbase.com/organization/normation
-  extra:
-    artwork_url: https://github.com/Normation/rudder/tree/master/logo
-    blog_url: https://www.rudder.io/blog/
-    youtube_url: https://www.youtube.com/user/RudderProject
+  featured: true
   homepage_url: https://www.rudder.io/
-  item: null
   logo: rudder.svg
   name: Rudder
+  project: null
   repo_url: https://github.com/normation/rudder

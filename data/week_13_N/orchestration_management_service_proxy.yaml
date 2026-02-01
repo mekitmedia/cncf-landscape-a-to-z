@@ -1,14 +1,15 @@
-- crunchbase: https://www.crunchbase.com/organization/netflix
-  homepage_url: https://github.com/Netflix/zuul
-  item: null
-  logo: netflix-oss-zuul.svg
-  name: Netflix Zuul
-  repo_url: https://github.com/Netflix/zuul
-  twitter: https://twitter.com/netflixoss
-- allow_duplicate_repo: true
-  crunchbase: https://www.crunchbase.com/organization/nginx
+- crunchbase: https://www.crunchbase.com/organization/nginx
+  featured: true
   homepage_url: https://www.nginx.com/
-  item: null
   logo: nginx.svg
   name: NGINX
+  project: null
   repo_url: https://github.com/nginx/nginx
+- crunchbase: https://www.crunchbase.com/organization/netflix
+  featured: true
+  homepage_url: https://github.com/Netflix/zuul
+  logo: netflix-oss-zuul.svg
+  name: Netflix Zuul
+  project: null
+  repo_url: https://github.com/Netflix/zuul
+  twitter: https://twitter.com/netflixoss

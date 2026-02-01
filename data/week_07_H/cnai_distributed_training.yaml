@@ -1,8 +1,8 @@
 - description: Distributed deep learning training framework for TensorFlow, Keras,
     PyTorch, and Apache MXNet.
+  featured: true
   homepage_url: https://horovod.ai/
-  item: null
   logo: ./horovod.svg
   name: Horovod
+  project: null
   repo_url: https://github.com/horovod/horovod
-  unnamed_organization: true

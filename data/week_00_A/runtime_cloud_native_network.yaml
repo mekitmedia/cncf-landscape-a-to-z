@@ -1,12 +1,6 @@
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  extra:
-    accepted: '2021-04-28'
-    annual_review_date: '2022-07-07'
-    annual_review_url: https://github.com/cncf/toc/pull/871
-    clomonitor_name: antrea
-    lfx_slug: antrea
+  featured: true
   homepage_url: https://antrea.io/
-  item: null
   logo: antrea.svg
   name: Antrea
   project: sandbox

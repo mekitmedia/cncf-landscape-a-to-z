@@ -1,14 +1,6 @@
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  extra:
-    accepted: '2020-06-25'
-    annual_review_date: '2021-07-30'
-    annual_review_url: https://github.com/cncf/toc/pull/701
-    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#dex-logos
-    clomonitor_name: dex
-    dev_stats_url: https://dex.devstats.cncf.io/
-    lfx_slug: dex
+  featured: true
   homepage_url: https://dexidp.io/
-  item: null
   logo: dex.svg
   name: Dex
   project: sandbox

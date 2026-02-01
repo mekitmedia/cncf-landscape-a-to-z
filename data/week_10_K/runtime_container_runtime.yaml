@@ -1,23 +1,16 @@
 - crunchbase: https://www.crunchbase.com/organization/open-infrastructure-foundation
+  featured: true
   homepage_url: https://katacontainers.io
-  item: null
   logo: kata.svg
   name: Kata Containers
+  project: null
   repo_url: https://github.com/kata-containers/kata-containers
   twitter: https://twitter.com/KataContainers
-- allow_duplicate_repo: true
-  crunchbase: https://www.crunchbase.com/organization/huawei-cloud
+- crunchbase: https://www.crunchbase.com/organization/huawei-cloud
   description: A multi-sandbox container runtime that provides cloud-native, all-scenario
     multiple sandbox container solutions.
-  extra:
-    accepted: '2023-12-19'
-    chat_channel: '#kuasar'
-    clomonitor_name: kuasar
-    lfx_slug: kuasar
-    slack_url: https://slack.cncf.io/
-    youtube_url: https://www.youtube.com/channel/UCm796d5_CMipZGrdFskbp2g
+  featured: true
   homepage_url: https://kuasar.io/
-  item: null
   logo: kuasar.svg
   name: Kuasar
   project: sandbox

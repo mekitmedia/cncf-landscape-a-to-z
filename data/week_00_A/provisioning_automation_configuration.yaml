@@ -1,51 +1,39 @@
 - crunchbase: https://www.crunchbase.com/organization/open-infrastructure-foundation
+  featured: true
   homepage_url: https://www.airshipit.org/
-  item: null
   logo: airship.svg
   name: Airship
+  project: null
   repo_url: https://github.com/airshipit/treasuremap
   twitter: https://twitter.com/airshipproject
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  extra:
-    accepted: '2021-09-14'
-    annual_review_date: '2023-06-13'
-    annual_review_url: https://github.com/cncf/toc/pull/1080
-    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#akri-logos
-    blog_url: https://medium.com/akri
-    chat_channel: '#akri'
-    clomonitor_name: akri
-    dev_stats_url: https://akri.devstats.cncf.io/
-    lfx_slug: akri
-    slack_url: https://kubernetes.slack.com/messages/C01D9L7QE8Z
+  featured: true
   homepage_url: https://docs.akri.sh
-  item: null
   logo: akri.svg
   name: Akri
   project: sandbox
   repo_url: https://github.com/project-akri/akri
   twitter: https://twitter.com/ProjectAkri
 - crunchbase: https://www.crunchbase.com/organization/red-hat
+  featured: true
   homepage_url: https://www.ansible.com/
-  item: null
   logo: ansible.svg
   name: Ansible
+  project: null
   repo_url: https://github.com/ansible/ansible
   twitter: https://twitter.com/ansible
 - crunchbase: https://www.crunchbase.com/organization/ctrip
   description: Apollo is a reliable open-source configuration management system
+  featured: true
   homepage_url: https://www.apolloconfig.com/
-  item: null
   logo: apollo-1.svg
   name: Apollo
+  project: null
   repo_url: https://github.com/apolloconfig/apollo
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: Terraform Pull Request Automation for Teams
-  extra:
-    accepted: '2024-06-18'
-    clomonitor_name: atlantis
-    lfx_slug: atlantis
+  featured: true
   homepage_url: https://www.runatlantis.io/
-  item: null
   logo: atlantis.svg
   name: Atlantis
   project: sandbox

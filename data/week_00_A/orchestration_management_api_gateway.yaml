@@ -1,23 +1,26 @@
 - crunchbase: https://www.crunchbase.com/organization/apioak
+  featured: true
   homepage_url: https://github.com/apioak/
-  item: null
   logo: apioak.svg
   name: APIOAK
+  project: null
   repo_url: https://github.com/apioak/apioak
 - crunchbase: https://www.crunchbase.com/organization/apache
+  featured: true
   homepage_url: https://apisix.apache.org/
-  item: null
   logo: apisix.svg
   name: APISIX
+  project: null
   repo_url: https://github.com/apache/apisix
   twitter: https://twitter.com/ApacheAPISIX
 - crunchbase: https://www.crunchbase.com/organization/microsoft
   description: Azure API Management is a hybrid, multi-cloud API, full lifecycle management
     platform for APIs across all environments. It allows customers to self-host API
     gateways as containers on Kubernetes.
+  featured: true
   homepage_url: https://azure.microsoft.com/en-us/services/api-management
-  item: null
   logo: azure-api-management.svg
   name: Azure API Management
+  project: null
   repo_url: https://github.com/azure/api-management
   twitter: https://twitter.com/azureapimgmt

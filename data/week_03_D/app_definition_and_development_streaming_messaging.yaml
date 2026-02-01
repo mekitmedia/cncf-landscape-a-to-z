@@ -2,11 +2,8 @@
   description: A data change processing platform to simplify change-driven systems
     that need to detect, evaluate, and react to data changes quickly and efficiently
     at scale.
-  extra:
-    accepted: '2025-01-21'
-    lfx_slug: drasi
+  featured: true
   homepage_url: https://drasi.io
-  item: null
   logo: drasi.svg
   name: Drasi
   project: sandbox

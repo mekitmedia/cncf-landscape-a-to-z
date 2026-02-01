@@ -1,20 +1,22 @@
 - crunchbase: https://www.crunchbase.com/organization/gitlab-com
+  featured: true
   homepage_url: https://about.gitlab.com/
-  item: null
   logo: gitlab.svg
   name: GitLab
+  project: null
   repo_url: https://github.com/gitlabhq/gitlabhq
-  url_for_bestpractices: https://gitlab.com/gitlab-org/gitlab-ce
 - crunchbase: https://www.crunchbase.com/organization/harness-512d
+  featured: true
   homepage_url: https://gitness.com/
-  item: null
   logo: gitness.svg
   name: Gitness
+  project: null
   repo_url: https://github.com/harness/gitness
 - crunchbase: https://www.crunchbase.com/organization/thoughtworks
+  featured: true
   homepage_url: https://www.gocd.org/
-  item: null
   logo: gocd.svg
   name: GoCD
+  project: null
   repo_url: https://github.com/gocd/gocd
   twitter: https://twitter.com/goforcd

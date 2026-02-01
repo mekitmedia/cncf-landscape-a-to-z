@@ -1,64 +1,50 @@
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: Carvel provides a set of reliable, single-purpose, composable tools
     that aid in your application building, configuration, and deployment to Kubernetes.
-  extra:
-    accepted: '2022-09-14'
-    artwork_url: https://github.com/cncf/artwork/tree/master/projects/carvel
-    blog_url: https://carvel.dev/blog/
-    clomonitor_name: carvel
-    dev_stats_url: https://carvel.devstats.cncf.io/
-    lfx_slug: carvel
-    slack_url: https://kubernetes.slack.com/archives/CH8KCCKA5
-    stack_overflow_url: https://stackoverflow.com/search?q=carvel&s=f9889d50-ba31-48ca-9919-414b961bd6ce
+  featured: true
   homepage_url: https://carvel.dev
-  item: null
   logo: carvel.svg
   name: Carvel
   project: sandbox
   repo_url: https://github.com/carvel-dev/ytt
   twitter: https://twitter.com/carvel_dev
 - crunchbase: https://www.crunchbase.com/organization/chef
+  featured: true
   homepage_url: https://community.chef.io/tools/chef-habitat
-  item: null
   logo: chef_habitat.svg
   name: Chef Habitat
+  project: null
   repo_url: https://github.com/habitat-sh/habitat
 - crunchbase: https://www.crunchbase.com/organization/cloudark
   description: Build SaaS for your containerized applications
+  featured: true
   homepage_url: https://cloudark.io/kubeplus
-  item: null
   logo: cloudark-kubeplus.svg
   name: CloudARK KubePlus
+  project: null
   repo_url: https://github.com/cloud-ark/kubeplus
 - crunchbase: https://www.crunchbase.com/organization/daocloud
   description: A Friendly Kubernetes CloudShell (Web Terminal)
+  featured: true
   homepage_url: https://cloudtty.github.io/cloudtty/
-  item: null
   logo: CloudTTY.svg
   name: CloudTTY
+  project: null
   repo_url: https://github.com/cloudtty/cloudtty
 - description: Self-hosted cloud development environments consistently provisioned
     as code and pre-configured for developer activity on day one.
-  extra:
-    blog_url: https://coder.com/blog
-    discord_url: https://coder.com/chat
-    documentation_url: https://coder.com/docs
-    linkedin_url: https://www.linkedin.com/company/coderhq/
-    youtube_url: https://www.youtube.com/@CoderHQ
+  featured: true
   homepage_url: https://www.coder.com/
-  item: null
   logo: coder.svg
   name: Coder
+  project: null
   repo_url: https://github.com/coder/coder
   twitter: https://x.com/coderhq
 - crunchbase: https://www.crunchbase.com/organization/cyclops-b209
   description: Cyclops is a customizable UI for Kubernetes workloads.
-  extra:
-    blog_url: https://cyclops-ui.com/blog
-    slack_url: https://discord.com/invite/8ErnK3qDb3
-    youtube_url: https://www.youtube.com/@cyclops-ui-un2js
+  featured: true
   homepage_url: https://cyclops-ui.com/
-  item: null
   logo: cyclops.svg
   name: Cyclops
+  project: null
   repo_url: https://github.com/cyclops-ui/cyclops

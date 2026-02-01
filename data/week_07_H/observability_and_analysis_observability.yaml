@@ -1,48 +1,35 @@
-- bluesky_url: https://bsky.app/profile/headlamp.dev
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: Extensible open source multi-cluster Kubernetes user interface
-  extra:
-    accepted: '2023-05-17'
-    blog_url: https://headlamp.dev/blog
-    clomonitor_name: headlamp
-    dev_stats_url: https://headlamp.devstats.cncf.io/
-    lfx_slug: headlamp
-    slack_url: https://kubernetes.slack.com/messages/headlamp
+  featured: true
   homepage_url: https://headlamp.dev
-  item: null
   logo: headlamp.svg
   name: Headlamp
   project: sandbox
   repo_url: https://github.com/kubernetes-sigs/headlamp
   twitter: https://twitter.com/headlamp_ui
+- crunchbase: https://www.crunchbase.com/organization/apache
+  description: Apache HertzBeat (Incubating) is an open-source, real-time monitoring
+    system with custom monitoring, high performance cluster and agentless capabilities.
+  featured: true
+  homepage_url: https://hertzbeat.apache.org/
+  logo: hertzbeat.svg
+  name: HertzBeat
+  project: null
+  repo_url: https://github.com/apache/hertzbeat
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: HolmesGPT is an AI agent that automates cloud-native troubleshooting,
     bridging knowledge gaps by investigating alerts, executing runbooks, and correlating
     observability data in cloud-native platforms.
-  extra:
-    accepted: '2025-10-08'
-    ai: true
-    clomonitor_name: holmesgpt
-    lfx_slug: holmesgpt
+  featured: true
   homepage_url: https://holmesgpt.dev
-  item: null
   logo: holmesgpt.svg
   name: HolmesGPT
   project: sandbox
   repo_url: https://github.com/HolmesGPT/holmesgpt
-- crunchbase: https://www.crunchbase.com/organization/apache
-  description: Apache HertzBeat (Incubating) is an open-source, real-time monitoring
-    system with custom monitoring, high performance cluster and agentless capabilities.
-  homepage_url: https://hertzbeat.apache.org/
-  item: null
-  logo: hertzbeat.svg
-  name: HertzBeat
-  repo_url: https://github.com/apache/hertzbeat
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  extra:
-    parent_project: Cilium
+  featured: true
   homepage_url: https://github.com/cilium/hubble
-  item: null
   logo: hubble(rgb).svg
   name: Hubble
+  project: null
   repo_url: https://github.com/cilium/hubble

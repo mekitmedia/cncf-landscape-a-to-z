@@ -1,21 +1,13 @@
-- branch: master
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: Cartography is a Python tool that consolidates infrastructure assets
     and the relationships between them in an intuitive graph view.
-  extra:
-    accepted: '2024-08-23'
-    clomonitor_name: cartography
-    dev_stats_url: https://cartography.devstats.cncf.io/
-    lfx_slug: cartography
+  featured: true
   homepage_url: https://cartography.dev
-  item: null
   logo: cartography.svg
   name: Cartography
   project: sandbox
   repo_url: https://github.com/cartography-cncf/cartography
-- additional_repos:
-  - repo_url: https://github.com/cedar-policy/cedar-access-control-for-k8s
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: Cedar is an open source authorization policy language that enables
     developers to express fine-grained permissions as easy-to-understand policies
     enforced in their applications, and decouple access control from application logic.
@@ -33,75 +25,62 @@
     random testing against its formal specification. By combining mathematical rigor
     with developer-friendly design, Cedar offers a practical approach to secure, maintainable
     authorization for modern applications.
-  extra:
-    accepted: '2025-10-08'
-    clomonitor_name: cedar
-    lfx_slug: cedar
+  featured: true
   homepage_url: https://cedarpolicy.com
-  item: null
   logo: cedar.svg
   name: Cedar
   project: sandbox
   repo_url: https://github.com/cedar-policy/cedar
 - crunchbase: https://www.crunchbase.com/organization/cerbos
+  featured: true
   homepage_url: https://www.cerbos.dev/
-  item: null
   logo: cerbos.svg
   name: Cerbos
+  project: null
   repo_url: https://github.com/cerbos/cerbos
 - crunchbase: https://www.crunchbase.com/organization/bridgecrew
   description: Checkov scans cloud infrastructure configurations to find misconfigurations
     before they are deployed. Checkov manages and analyzes infrastructure as code
     (IaC) scan results across platforms such as Terraform, CloudFormation, Kubernetes,
     Helm, ARM Templates and Serverless framework.
+  featured: true
   homepage_url: https://www.checkov.io/
-  item: null
   logo: checkov.svg
   name: Checkov
+  project: null
   repo_url: https://github.com/bridgecrewio/checkov
 - crunchbase: https://www.crunchbase.com/organization/chef
+  featured: true
   homepage_url: https://community.chef.io/tools/chef-inspec
-  item: null
   logo: chef_inspec.svg
   name: Chef InSpec
+  project: null
   repo_url: https://github.com/inspec/inspec
 - crunchbase: https://www.crunchbase.com/organization/red-hat
+  featured: true
   homepage_url: https://www.redhat.com/en/topics/containers/what-is-clair
-  item: null
   logo: clair.svg
   name: Clair
+  project: null
   repo_url: https://github.com/quay/clair
   twitter: https://twitter.com/coreos
 - crunchbase: https://www.crunchbase.com/organization/cloudmatos
   description: Pioneering the world of self-healing, self-aware, self-sustaining,
     self-resilient, self-secure and intelligent remediation, MatosSphere brings a
     complete cloud security and governance solution for your cloud infrastructure.
-  extra:
-    lfx_slug: matos
+  featured: false
   homepage_url: https://www.cloudmatos.com
-  item: null
   logo: cloudmatos.svg
   name: CloudMatos
+  project: null
   repo_url: https://github.com/cloudmatos/matos
   twitter: https://twitter.com/CloudMatos
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: Confidential Containers is an open source community working to enable
     cloud native  confidential computing by leveraging Trusted Execution Environments
     to protect  containers and data.
-  extra:
-    accepted: '2022-03-08'
-    annual_review_date: '2023-06-15'
-    annual_review_url: https://github.com/cncf/toc/pull/1084
-    artwork_url: https://github.com/cncf/artwork/tree/master/projects/confidential-containers
-    blog_url: https://confidentialcontainers.org/blog/
-    chat_channel: '#confidential-containers'
-    clomonitor_name: confidential-containers
-    dev_stats_url: https://confidentialcontainers.devstats.cncf.io/
-    lfx_slug: confcont
-    slack_url: https://cloud-native.slack.com/
-    youtube_url: https://www.youtube.com/@confidentialcontainers3845
+  featured: false
   homepage_url: https://confidentialcontainers.org/
-  item: null
   logo: confidential-containers.svg
   name: Confidential Containers
   project: sandbox
@@ -111,31 +90,15 @@
     Podman or Docker. The user is transparently dropped in the container and the container
     is removed when the user disconnects. Authentication and container configuration
     are dynamic using webhooks, no system users required.
-  extra:
-    accepted: '2022-09-14'
-    artwork_url: https://github.com/cncf/artwork/tree/master/projects/containerssh
-    chat_channel: '#containerssh'
-    clomonitor_name: containerssh
-    dev_stats_url: https://containerssh.devstats.cncf.io/
-    lfx_slug: containerssh
-    slack_url: https://cloud-native.slack.com/
+  featured: false
   homepage_url: https://containerssh.io
-  item: null
   logo: containerssh.svg
   name: ContainerSSH
   project: sandbox
   repo_url: https://github.com/containerssh/containerssh
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  extra:
-    accepted: '2023-09-19'
-    artwork_url: https://github.com/cncf/artwork/tree/main/projects/copa
-    chat_channel: '#copa'
-    clomonitor_name: copacetic
-    dev_stats_url: https://copacetic.devstats.cncf.io/
-    lfx_slug: copacetic
-    slack_url: https://cloud-native.slack.com/
+  featured: false
   homepage_url: https://github.com/project-copacetic/copacetic
-  item: null
   logo: copa.svg
   name: Copa
   project: sandbox

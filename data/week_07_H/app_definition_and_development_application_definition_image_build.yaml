@@ -1,26 +1,6 @@
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  extra:
-    accepted: '2018-06-01'
-    artwork_url: https://github.com/cncf/artwork/blob/main/examples/graduated.md
-    audits:
-    - date: '2019-04-19'
-      type: security
-      url: https://github.com/helm/community/blob/master/security-audit/HLM-01-report.pdf
-      vendor: Cure 53 and Trail of Bits
-    - date: '2023-03-31'
-      type: fuzzing
-      url: https://github.com/helm/community/blob/main/security-audit/FUZZING_AUDIT_2022.pdf
-      vendor: Ada Logics
-    chat_channel: '#helm-dev'
-    clomonitor_name: helm
-    dev_stats_url: https://helm.devstats.cncf.io/
-    graduated: '2020-05-01'
-    incubating: '2018-06-01'
-    lfx_slug: helm
-    slack_url: https://slack.k8s.io
-    stack_overflow_url: https://stackoverflow.com/questions/tagged/helm
+  featured: true
   homepage_url: https://helm.sh/
-  item: null
   logo: helm.svg
   name: Helm
   project: graduated

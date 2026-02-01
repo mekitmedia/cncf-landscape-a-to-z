@@ -1,44 +1,39 @@
 - crunchbase: https://www.crunchbase.com/organization/scalar
+  featured: true
   homepage_url: https://scalar-labs.com/
-  item: null
   logo: scalardb.svg
   name: ScalarDB
+  project: null
   repo_url: https://github.com/scalar-labs/scalardb
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  extra:
-    accepted: '2020-11-10'
-    annual_review_date: '2021-12-22'
-    annual_review_url: https://github.com/cncf/toc/pull/771
-    artwork_url: https://github.com/cncf/artwork/tree/master/projects/schemahero
-    clomonitor_name: schemahero
-    dev_stats_url: https://schemahero.devstats.cncf.io/
-    lfx_slug: schemahero
-    slack_url: https://kubernetes.slack.com/messages/schemahero
+  featured: true
   homepage_url: https://schemahero.io
-  item: null
   logo: schemahero.svg
   name: SchemaHero
   project: sandbox
   repo_url: https://github.com/schemahero/schemahero
 - crunchbase: https://www.crunchbase.com/organization/scylladb
+  featured: true
   homepage_url: https://www.scylladb.com/
-  item: null
   logo: scylla.svg
   name: Scylla
+  project: null
   repo_url: https://github.com/scylladb/scylladb
   twitter: https://twitter.com/ScyllaDB
 - crunchbase: https://www.crunchbase.com/organization/ant-financial
+  featured: true
   homepage_url: https://seata.apache.org
-  item: null
   logo: seata.svg
   name: Seata
+  project: null
   repo_url: https://github.com/apache/incubator-seata
   twitter: https://twitter.com/seataio
 - crunchbase: https://www.crunchbase.com/organization/apache
+  featured: true
   homepage_url: https://shardingsphere.apache.org/
-  item: null
   logo: shardingsphere.svg
   name: ShardingSphere
+  project: null
   repo_url: https://github.com/apache/shardingsphere
   twitter: https://twitter.com/ShardingSphere
 - crunchbase: https://www.crunchbase.com/organization/authzed
@@ -47,42 +42,37 @@
     true to the design of the system powering permissions at Google: Zanzibar.
 
     '
-  extra:
-    blog_url: https://authzed.com/blog
-    slack_url: https://discord.gg/spicedb
-    stack_overflow_url: https://stackoverflow.com/questions/tagged/spicedb
-    youtube_url: https://youtube.com/@authzed
+  featured: true
   homepage_url: https://authzed.com/spicedb
-  item: null
   logo: spicedb.svg
   name: SpiceDB
+  project: null
   repo_url: https://github.com/authzed/spicedb
 - crunchbase: https://www.crunchbase.com/organization/linux-foundation
   description: StarRocks is a next-gen sub-second MPP database for full analytics
     scenarios, including multi-dimensional analytics, real-time analytics and ad-hoc
     query.
-  extra:
-    blog_url: https://www.starrocks.io/blog
-    slack_url: https://join.slack.com/t/starrocks/shared_invite/zt-z5zxqr0k-U5lrTVlgypRIV8RbnCIAzg
-    youtube_url: https://www.youtube.com/channel/UC38wR-ogamk4naaWNQ45y7Q
+  featured: false
   homepage_url: https://starrocks.io
-  item: null
   logo: starrocks.svg
   name: StarRocks
+  project: null
   repo_url: https://github.com/StarRocks/starrocks
 - crunchbase: https://www.crunchbase.com/organization/sorint-lab
   description: Cloud Native PostgreSQL High Availability
+  featured: false
   homepage_url: https://sorintoss.io/projects/
-  item: null
   logo: stolon.svg
   name: Stolon
+  project: null
   repo_url: https://github.com/sorintlab/stolon
   twitter: https://twitter.com/sorintlab
 - crunchbase: https://www.crunchbase.com/organization/supabase
   description: an open source Firebase alternative
+  featured: false
   homepage_url: https://supabase.com/
-  item: null
   logo: supabase-logo.svg
   name: Supabase
+  project: null
   repo_url: https://github.com/supabase/supabase
   twitter: https://x.com/supabase

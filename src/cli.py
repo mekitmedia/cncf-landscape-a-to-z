@@ -3,7 +3,7 @@ import asyncio
 import logging
 import os
 import logfire
-from src.legacy_main import Cli as LegacyCli
+from src.pipeline.runner import run_etl
 
 # Setup logger
 logger = logging.getLogger(__name__)
@@ -14,8 +14,8 @@ logging.basicConfig(
 
 class RunCommands:
     def etl(self, input_path="https://raw.githubusercontent.com/cncf/landscape/master/landscape.yml", output_dir="data"):
-        """Runs the legacy ETL pipeline."""
-        LegacyCli().run(input_path, output_dir)
+        """Runs the ETL pipeline."""
+        run_etl(input_path=input_path, output_dir=output_dir)
 
     def agent(self, name: str, port: int = 8000):
         """

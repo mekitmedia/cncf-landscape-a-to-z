@@ -1,59 +1,31 @@
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  extra:
-    accepted: '2022-12-14'
-    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#carina-logos
-    clomonitor_name: carina
-    dev_stats_url: https://carina.devstats.cncf.io/
-    lfx_slug: carina
-  homepage_url: https://carina-io.github.io/
-  item: null
-  logo: carina.svg
-  name: Carina
-  project: sandbox
-  repo_url: https://github.com/carina-io/carina
-- crunchbase: https://www.crunchbase.com/organization/ceph-foundation
-  homepage_url: https://ceph.io/en
-  item: null
-  logo: ceph.svg
-  name: Ceph
-  repo_url: https://github.com/ceph/ceph
-  twitter: https://twitter.com/Ceph
-- crunchbase: https://www.crunchbase.com/organization/google
-  homepage_url: https://github.com/container-storage-interface
-  item: null
-  logo: container-storage-interface-csi.svg
-  name: Container Storage Interface (CSI)
-  repo_url: https://github.com/container-storage-interface/spec
-  twitter: https://twitter.com/GCPcloud
-- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  extra:
-    accepted: '2019-12-16'
-    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#cubefs-logos
-    clomonitor_name: chubao-fs
-    dev_stats_url: https://chubaofs.devstats.cncf.io/
-    graduated: '2024-12-11'
-    incubating: '2022-07-03'
-    lfx_slug: chubaofs
-    slack_url: https://cubefs.slack.com/
-    summary_business_use_case: First, CubeFS has been commonly used as the datacenter
-      filesystem for online applications, database or data processing services and
-      machine learning jobs orchestrated by Kubernetes to separate storage from compute.
-      Second, CubeFS also works as a high-performance object store compatible with
-      the S3 API. Moreover, CubeFS offers personal cloud storage on all your devices.
-    summary_integration: "Kubernetes, Helm\uFF0CPrometheus, Grafana, Docker, Nginx,\
-      \ etc."
-    summary_personas: Cloud Architects, Developers, SREs
-    summary_release_rate: Every 2 months
-    summary_tags: "Kubernetes\uFF0CFilesystem\uFF0CObject Storage\uFF0CHadoop\uFF0C\
-      Cloud Storage, Distributed, Cloud-native, Multi-tenancy, Erasure Coding"
-    summary_use_case: CubeFS is a distributed file system supports data access protocols
-      such as S3, POSIX, HDFS. It supports multiple copies and erasure code storage
-      engines, and provides users with multiple features such as multi-tenancy, multi-AZ
-      deployment, and cross-regional replication.
+  featured: true
   homepage_url: https://cubefs.io/
-  item: null
   logo: cubefs.svg
   name: CubeFS
   project: graduated
   repo_url: https://github.com/cubeFS/cubefs
   twitter: https://twitter.com/ChubaoFS
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  featured: true
+  homepage_url: https://carina-io.github.io/
+  logo: carina.svg
+  name: Carina
+  project: sandbox
+  repo_url: https://github.com/carina-io/carina
+- crunchbase: https://www.crunchbase.com/organization/ceph-foundation
+  featured: true
+  homepage_url: https://ceph.io/en
+  logo: ceph.svg
+  name: Ceph
+  project: null
+  repo_url: https://github.com/ceph/ceph
+  twitter: https://twitter.com/Ceph
+- crunchbase: https://www.crunchbase.com/organization/google
+  featured: true
+  homepage_url: https://github.com/container-storage-interface
+  logo: container-storage-interface-csi.svg
+  name: Container Storage Interface (CSI)
+  project: null
+  repo_url: https://github.com/container-storage-interface/spec
+  twitter: https://twitter.com/GCPcloud

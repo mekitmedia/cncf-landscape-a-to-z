@@ -1,20 +1,14 @@
 - crunchbase: https://www.crunchbase.com/organization/hybridk8s
+  featured: true
   homepage_url: https://keploy.io
-  item: null
   logo: keploy.svg
   name: Keploy
+  project: null
   repo_url: https://github.com/keploy/keploy
   twitter: https://twitter.com/keployio
 - crunchbase: https://www.crunchbase.com/organization/red-hat
-  extra:
-    accepted: '2023-12-18'
-    artwork_url: https://github.com/cncf/artwork/tree/main/projects/kube-burner
-    clomonitor_name: kube-burner
-    dev_stats_url: https://kubeburner.devstats.cncf.io/
-    lfx_slug: kube-burner
-    slack_url: https://kubernetes.slack.com/messages/kube-burner
+  featured: true
   homepage_url: https://kube-burner.github.io/kube-burner/
-  item: null
   logo: kube-burner.svg
   name: Kube-burner
   project: sandbox

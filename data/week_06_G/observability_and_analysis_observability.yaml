@@ -2,73 +2,76 @@
   description: "Gonzo is a powerful, real-time log analysis terminal UI inspired by\
     \ k9s. Analyze log streams with beautiful charts, AI-powered insights, and advanced\
     \ filtering \u2013 all from your terminal."
-  extra:
-    ai: true
-    slack_url: https://ctrltheorycommunity.slack.com/
+  featured: true
   homepage_url: https://www.controltheory.com/gonzo/
-  item: null
   logo: gonzo.svg
   name: Gonzo
-  open_source: true
+  project: null
   repo_url: https://github.com/control-theory/gonzo
 - crunchbase: https://www.crunchbase.com/organization/raintank
   description: Grafana allows you to query, visualize, alert on and understand your
     metrics no matter where they are stored. Create, explore, and share beautiful
     dashboards with your team and foster a data driven culture.
+  featured: true
   homepage_url: https://grafana.com/
-  item: null
   logo: grafana.svg
   name: Grafana
+  project: null
   repo_url: https://github.com/grafana/grafana
 - crunchbase: https://www.crunchbase.com/organization/raintank
   description: Loki is a horizontally-scalable, highly-available, multi-tenant log
     aggregation system inspired by Prometheus. It is designed to be very cost effective
     and easy to operate. It does not index the contents of the logs, but rather a
     set of labels for each log stream.
+  featured: true
   homepage_url: https://grafana.com/oss/loki
-  item: null
   logo: grafana-loki.svg
   name: Grafana Loki
+  project: null
   repo_url: https://github.com/grafana/loki
 - crunchbase: https://www.crunchbase.com/organization/raintank
   description: Grafana Mimir lets you scale to 1 billion metrics and beyond, with
     high availability, multi-tenancy, durable storage, and blazing fast query performance
     over long periods of time.
+  featured: true
   homepage_url: https://grafana.com/oss/mimir
-  item: null
   logo: grafana-mimir.svg
   name: Grafana Mimir
+  project: null
   repo_url: https://github.com/grafana/mimir
 - crunchbase: https://www.crunchbase.com/organization/raintank
   description: Grafana Pyroscope is an open source continuous profiling database that
     provides fast, scalable, highly available, and efficient storage and querying.
     This helps you get a better understanding of resource usage in your applications
     down to the line number.
+  featured: true
   homepage_url: https://grafana.com/oss/pyroscope
-  item: null
   logo: grafana-pyroscope.svg
   name: Grafana Pyroscope
+  project: null
   repo_url: https://github.com/grafana/pyroscope
 - crunchbase: https://www.crunchbase.com/organization/raintank
   description: Grafana Tempo is an open source, easy-to-use and high-scale distributed
     tracing backend. Tempo is cost-efficient, requiring only object storage to operate,
     and is deeply integrated with Grafana, Prometheus, and Loki. Tempo can be used
     with any of the open source tracing protocols, including Jaeger, Zipkin, and OpenTelemetry.
+  featured: true
   homepage_url: https://grafana.com/oss/tempo/
-  item: null
   logo: grafana-tempo.svg
   name: Grafana Tempo
+  project: null
   repo_url: https://github.com/grafana/tempo
 - crunchbase: https://www.crunchbase.com/organization/graphite
+  featured: false
   homepage_url: https://graphiteapp.org/
-  item: null
   logo: graphite.svg
   name: Graphite
+  project: null
   repo_url: https://github.com/graphite-project/graphite-web
 - crunchbase: https://www.crunchbase.com/organization/graylog
+  featured: false
   homepage_url: https://www.graylog.org/
-  item: null
   logo: graylog.svg
   name: Graylog
-  open_source: false
+  project: null
   repo_url: https://github.com/Graylog2/graylog2-server

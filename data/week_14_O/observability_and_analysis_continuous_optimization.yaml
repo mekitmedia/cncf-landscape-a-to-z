@@ -1,15 +1,8 @@
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: OpenCost provides visibility into current and historical Kubernetes
     spend and resource allocation.
-  extra:
-    accepted: '2022-06-17'
-    chat_channel: '#opencost'
-    clomonitor_name: opencost
-    incubating: '2024-10-25'
-    lfx_slug: opencost
-    slack_url: https://slack.cncf.io/
+  featured: true
   homepage_url: https://www.opencost.io/
-  item: null
   logo: opencost.svg
   name: OpenCost
   project: incubating

@@ -1,19 +1,16 @@
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: Open source platform for efficiently running (containerless) Spin-based
     WebAssembly (Wasm) applications on Kubernetes.
-  extra:
-    accepted: '2025-01-21'
-    dev_stats_url: https://spinkube.devstats.cncf.io/
+  featured: true
   homepage_url: https://www.spinkube.dev/
-  item: null
   logo: spinkube.svg
   name: SpinKube
   project: sandbox
   repo_url: https://github.com/spinframework/spin-operator
-- allow_duplicate_repo: true
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  featured: true
   homepage_url: https://superedge.io/
-  item: null
   logo: superedge.svg
   name: SuperEdge (Wasm)
+  project: null
   repo_url: https://github.com/superedge/superedge

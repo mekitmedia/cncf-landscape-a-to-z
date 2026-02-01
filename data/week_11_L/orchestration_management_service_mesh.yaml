@@ -1,41 +1,8 @@
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: Ultra light, ultra simple, ultra powerful. Linkerd adds security, observability,
     and reliability to Kubernetes, without the complexity.
-  extra:
-    accepted: '2017-01-23'
-    artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#linkerd-logos
-    audits:
-    - date: '2019-06-01'
-      type: security
-      url: https://github.com/linkerd/linkerd2/blob/main/audits/2019/SECURITY_AUDIT.pdf
-      vendor: Cure53
-    - date: '2020-06-05'
-      type: security
-      url: https://github.com/ctz/rustls/blob/main/audit/TLS-01-report.pdf
-      vendor: Cure53
-    - date: '2022-06-28'
-      type: security
-      url: https://github.com/linkerd/linkerd2/tree/main/audits/2022
-      vendor: Trail of Bits
-    blog_url: https://blog.linkerd.io/
-    clomonitor_name: linkerd
-    dev_stats_url: https://linkerd.devstats.cncf.io/
-    graduated: '2021-07-28'
-    incubating: '2018-04-06'
-    lfx_slug: linkerd
-    slack_url: https://slack.linkerd.io/
-    stack_overflow_url: https://stackoverflow.com/questions/tagged/linkerd
-    summary_business_use_case: Security, compliance, reliability.
-    summary_languages: Go, Rust
-    summary_personas: SREs, DevOps Engineers, Architects
-    summary_tags: mTLS, observability, multi-cluster, load balancing, traffic authorization,
-      security, zero trust, Rust
-    summary_use_case: Linkerd is the lightest, fastest, and most importantly, simplest
-      service mesh on the market. It provides security, reliability, and observability
-      features to any Kubernetes application without requiring code changes.
-    youtube_url: https://www.youtube.com/watch?v=wBgBwNZo_EE&list=PLI9FkLPXDscDB0gevkhEnyfgIfWF5yk4V
+  featured: true
   homepage_url: https://linkerd.io/
-  item: null
   logo: linkerd.svg
   name: Linkerd
   project: graduated

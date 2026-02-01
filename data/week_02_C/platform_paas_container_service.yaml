@@ -2,35 +2,19 @@
   description: Cloud Foundry Application Runtime utilizes containers as part of its
     DNA, and has since before Docker popularized containers. The new CF Container
     Runtime gives you more granular control and management of containers with Kubernetes.
+  featured: true
   homepage_url: https://www.cloudfoundry.org/working-groups
-  item: null
   logo: cloudfoundry-applicationruntime.svg
   name: Cloud Foundry Application Runtime
+  project: null
   repo_url: https://github.com/cloudfoundry/cli
 - description: Cozystack is a free PaaS platform and framework for building private
     clouds and providing users/customers with managed Kubernetes,  KubeVirt-based
     VMs, databases as a service, NATS, message brokers, etc. with GPU support in VMs
     and Kubernetes clusters.
-  extra:
-    accepted: '2025-03-04'
-    dev_stats_url: https://cozystack.devstats.cncf.io/
-    lfx_slug: cozystack
-    summary_business_use_case: With Cozystack managed service providers, hosting providers,
-      data centers could offer their customers  different managed services like Kubernetes,
-      VMs, databases to compete with hyperscalers like AWS and GCP. Banks, fintechs
-      and other organizations use Cozystack for building clouds on bare metal to achieve
-      digital sovereignty  and take back control on their data. AI oriented companies
-      could use it for running AI workloads in K8s clusters and VMs as well.
-    summary_personas: Cloud Architects, Platform Engineers, DevOps Engineers, SRE
-      Engineers, Kubernetes Architects, System Administrators, Developers.
-    summary_tags: bare metal, platform, cloud, private cloud, managed services, managed
-      Kubernetes, KubeVirt
-    summary_use_case: Provides users with managed services and ready-to-use dev environments.
+  featured: true
   homepage_url: https://cozystack.io
-  item: null
   logo: cozystack.svg
   name: Cozystack
   project: sandbox
   repo_url: https://github.com/cozystack/cozystack
-  second_path:
-  - CNAI / General Orchestration

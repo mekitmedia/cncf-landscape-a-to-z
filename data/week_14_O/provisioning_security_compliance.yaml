@@ -1,142 +1,66 @@
-- crunchbase: https://www.crunchbase.com/organization/permit-io
-  description: Policy and data administration, distribution, and real-time updates
-    on top of Policy Agents (OPA, Cedar, ...)
-  extra:
-    slack_url: https://io.permit.io/opal-slack
-  homepage_url: https://www.opal.ac
-  item: null
-  logo: opal.svg
-  name: Open Policy Administration Layer (OPAL)
-  repo_url: https://github.com/permitio/opal
-  twitter: https://twitter.com/opal_ac
-- additional_repos:
-  - repo_name: manifests
-    repo_url: https://github.com/oauth2-proxy/manifests
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  description: A generic reverse proxy that provides authentication with Google, Azure,
-    OpenID Connect and many more identity providers.
-  extra:
-    accepted: '2025-10-02'
-    clomonitor_name: oauth2-proxy
-    dev_stats_url: https://oauth2-proxy.devstats.cncf.io/
-    lfx_slug: oauth2-proxy
-  homepage_url: https://oauth2-proxy.github.io/oauth2-proxy/
-  item: null
-  logo: oauth2-proxy.svg
-  name: OAuth2 Proxy
-  project: sandbox
-  project_org: https://github.com/oauth2-proxy
-  repo_url: https://github.com/oauth2-proxy/oauth2-proxy
-- allow_duplicate_repo: true
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  extra:
-    accepted: '2018-03-29'
-    artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#opa-logos
-    audits:
-    - date: '2018-08-30'
-      type: security
-      url: https://cure53.de/pentest-report_opa.pdf
-      vendor: Cure53
-    blog_url: https://blog.openpolicyagent.org/
-    clomonitor_name: opa
-    dev_stats_url: https://opa.devstats.cncf.io/
-    graduated: '2021-01-29'
-    incubating: '2019-04-02'
-    lfx_slug: openpolicyagent
-    slack_url: http://slack.openpolicyagent.org/
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  featured: true
   homepage_url: https://www.openpolicyagent.org/
-  item: null
   logo: opa.svg
   name: Open Policy Agent (OPA)
   project: graduated
   repo_url: https://github.com/open-policy-agent/opa
-  second_path:
-  - Serverless / Embedded Functions
   twitter: https://twitter.com/openpolicyagent
-- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  description: A docker-inspired CLI for building, tagging, pushing, pulling, and
-    signing OPA policies to and from OCI-compliant registries.
-  extra:
-    accepted: '2022-12-13'
-    artwork_url: https://github.com/opcr-io/artwork
-    clomonitor_name: opcr
-    dev_stats_url: https://opcr.devstats.cncf.io/
-    lfx_slug: opcr
-    slack_url: https://www.aserto.com/slack
-  homepage_url: https://openpolicycontainers.com
-  item: null
-  logo: open-policy-containers.svg
-  name: Open Policy Containers
-  project: sandbox
-  repo_url: https://github.com/opcr-io/policy
-  twitter: https://twitter.com/openpolicyreg
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: OpenFGA is a high performance and flexible authorization/permission
     system built for developers and inspired by Google Zanzibar
-  extra:
-    accepted: '2022-09-14'
-    artwork_url: https://github.com/openfga/community/tree/main/brand-assets
-    clomonitor_name: openfga
-    dev_stats_url: https://openfga.devstats.cncf.io/
-    incubating: '2025-10-28'
-    lfx_slug: openfga
-    slack_url: https://cloud-native.slack.com/messages/openfga
-    summary_business_use_case: Application authorization is often implemented differently
-      across a company's applications and hard-coded in application code, making it
-      challenging to evolve and comprehend. This difficulty leads to poorly implemented
-      authorization, a top security risk identified by OWASP. OpenFGA provides a flexible,
-      centralized, and scalable authorization system to address this issue.
-    summary_integrations: OpenTelemetry, Prometheus, Jaeger, Docker, Helm
-    summary_intro_url: https://github.com/openfga
-    summary_personas: Platform Engineers, Security Engineers, Developers, Architects
-    summary_release_rate: Twice per month
-    summary_tags: Security, Authorization, Scalability, Cloud-Native, Developers
-    summary_use_case: OpenFGA enables developers to implement highly performant and
-      flexible authorization for their applications. It incorporates Relationship-Based
-      Access Control (ReBAC) and Attribute-Based Access Control (ABAC) concepts with
-      a domain-specific language that simplifies crafting authorization and permission
-      solutions, scalable to any use case and scale
+  featured: true
   homepage_url: https://openfga.dev
-  item: null
   logo: openfga.svg
   name: OpenFGA
   project: incubating
   repo_url: https://github.com/openfga/openfga
   twitter: https://twitter.com/OpenFGA
-- crunchbase: https://www.crunchbase.com/organization/red-hat
-  homepage_url: https://www.open-scap.org/
-  item: null
-  logo: openscap.svg
-  name: OpenSCAP
-  repo_url: https://github.com/OpenSCAP/openscap
-  twitter: https://twitter.com/OpenSCAP
-- additional_repos:
-  - repo_url: https://github.com/oscal-compass/compliance-trestle-agile-authoring
-  - repo_url: https://github.com/oscal-compass/compliance-to-policy
-  - repo_url: https://github.com/oscal-compass/compliance-trestle-demos
-  description: The OSCAL COMPASS project is set of tools that enable the creation,
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: A generic reverse proxy that provides authentication with Google, Azure,
+    OpenID Connect and many more identity providers.
+  featured: true
+  homepage_url: https://oauth2-proxy.github.io/oauth2-proxy/
+  logo: oauth2-proxy.svg
+  name: OAuth2 Proxy
+  project: sandbox
+  repo_url: https://github.com/oauth2-proxy/oauth2-proxy
+- description: The OSCAL COMPASS project is set of tools that enable the creation,
     validation, and governance of documentation artifacts for compliance needs. It
     leverages NIST's OSCAL (Open Security Controls Assessment Language) as a standard
     data format for interchange between tools and people, and provides an opinionated
     approach to OSCAL SDK and adoption by policy engines.
-  extra:
-    accepted: '2024-06-21'
-    blog_url: https://dzone.com/articles/compass-compliance-part-1
-    clomonitor_name: oscal-compass
-    github_discussions_url: https://github.com/oscal-compass/community/discussions
-    lfx_slug: trestlegrc
-    mailing_list_url: https://groups.google.com/g/oscal-compass
-    slack_url: https://cloud-native.slack.com/archives/C06F3PEPNBW
-    summary_personas: Regulators, Control providers, Control assessors, System owners,
-      Compliance officers, Security teams, Auditors, Operators, Administrators, DevSecOps
-    summary_tags: compliance, security, risk, oscal, catalog, profile, component definition,
-      system security plan, system assessment plan, automation, devsecops, vulnerability,
-      cloud, opensource, nist, fedramp
-    youtube_url: https://www.youtube.com/@OSCAL-Compass
+  featured: true
   homepage_url: https://github.com/oscal-compass/community
-  item: null
   logo: oscal-compass-color-stacked.svg
   name: OSCAL-COMPASS
   project: sandbox
   repo_url: https://github.com/oscal-compass/compliance-trestle
-  url_for_bestpractices: https://pages.nist.gov/OSCAL/
+- crunchbase: https://www.crunchbase.com/organization/permit-io
+  description: Policy and data administration, distribution, and real-time updates
+    on top of Policy Agents (OPA, Cedar, ...)
+  featured: true
+  homepage_url: https://www.opal.ac
+  logo: opal.svg
+  name: Open Policy Administration Layer (OPAL)
+  project: null
+  repo_url: https://github.com/permitio/opal
+  twitter: https://twitter.com/opal_ac
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: A docker-inspired CLI for building, tagging, pushing, pulling, and
+    signing OPA policies to and from OCI-compliant registries.
+  featured: true
+  homepage_url: https://openpolicycontainers.com
+  logo: open-policy-containers.svg
+  name: Open Policy Containers
+  project: sandbox
+  repo_url: https://github.com/opcr-io/policy
+  twitter: https://twitter.com/openpolicyreg
+- crunchbase: https://www.crunchbase.com/organization/red-hat
+  featured: false
+  homepage_url: https://www.open-scap.org/
+  logo: openscap.svg
+  name: OpenSCAP
+  project: null
+  repo_url: https://github.com/OpenSCAP/openscap
+  twitter: https://twitter.com/OpenSCAP

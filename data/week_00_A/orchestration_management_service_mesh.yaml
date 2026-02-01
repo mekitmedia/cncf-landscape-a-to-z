@@ -1,31 +1,7 @@
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: Aeraki Mesh allows you to manage any layer-7 traffic in a service mesh
-  extra:
-    accepted: '2022-06-17'
-    annual_review_date: '2023-08-14'
-    annual_review_url: https://github.com/cncf/toc/pull/1143
-    blog_url: https://www.aeraki.net/blog/
-    clomonitor_name: aeraki-mesh
-    dev_stats_url: https://aerakimesh.devstats.cncf.io/
-    lfx_slug: aerakimesh
-    slack_url: https://cloud-native.slack.com/messages/aeraki-mesh
-    summary_business_use_case: While service mesh becomes an important infrastructure
-      for microservices, many(if not all) service mesh implementations mainly focus
-      on HTTP protocols and treat other protocols as plain TCP traffic. This is an
-      obstacle for a lot of organizations when they try to leverage service mesh's
-      promised capablities to simplify their microservice development and operation.
-      Aeraki Mesh solve this problem by providing a common layer-7 service mesh framework
-      both in data plane and control plane, which is built on top of Envoy and Istio
-      and can work with them together very well.
-    summary_integrations: Istio, Envoy
-    summary_personas: SREs, DevOps Engineers, Architects
-    summary_release_rate: Every few months
-    summary_tags: Service Mesh
-    summary_use_case: Aeraki Mesh has been created to provide a non-intrusive, highly
-      extendable way to manage any layer-7 traffic in a service mesh, including Dubbo,
-      Thrift, bRPC, Redis, etc., and private protocols as well.
+  featured: true
   homepage_url: https://www.aeraki.net/
-  item: null
   logo: aeraki-mesh.svg
   name: Aeraki Mesh
   project: sandbox

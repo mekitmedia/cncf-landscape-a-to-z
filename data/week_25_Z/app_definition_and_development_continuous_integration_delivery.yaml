@@ -1,7 +1,8 @@
 - description: Zuul is a system that drives continuous integration, delivery, and
     deployment with a focus on project gating and interrelated projects.
+  featured: true
   homepage_url: https://zuul-ci.org
-  item: null
   logo: zuul.svg
   name: Zuul
+  project: null
   repo_url: https://opendev.org/zuul/zuul

@@ -17,7 +17,7 @@ def test(c):
 @task
 def run_pipeline(c):
     """Run the main pipeline."""
-    c.run(f"{sys.executable} src/cli.py run etl")
+    c.run(f"PYTHONPATH=. {sys.executable} src/cli.py run etl")
 
 @task
 def lint(c):

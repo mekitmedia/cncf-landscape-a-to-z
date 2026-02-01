@@ -1,13 +1,14 @@
 - crunchbase: https://www.crunchbase.com/organization/rabbit-technologies
+  featured: true
   homepage_url: https://www.rabbitmq.com/
-  item: null
   logo: rabbit-mq.svg
   name: RabbitMQ
+  project: null
   repo_url: https://github.com/rabbitmq/rabbitmq-server
 - crunchbase: https://www.crunchbase.com/organization/vectorized
+  featured: true
   homepage_url: https://redpanda.com/platform
-  item: null
   logo: redpanda.svg
   name: Redpanda
-  open_source: false
+  project: null
   repo_url: https://github.com/redpanda-data/redpanda

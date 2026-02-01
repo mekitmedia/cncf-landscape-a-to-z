@@ -2,120 +2,59 @@
   description: Keycloak is an open-source identity and access management solution
     for modern applications and services,  built on top of industry security standard
     protocols.
-  extra:
-    accepted: '2023-04-10'
-    artwork_url: https://github.com/keycloak/keycloak-misc/blob/main/logo/logo-key.svg
-    clomonitor_name: keycloak
-    dev_stats_url: https://keycloak.devstats.cncf.io/
-    incubating: '2023-04-10'
-    lfx_slug: keycloak
-    mailing_list_url: https://groups.google.com/forum/#!forum/keycloak-user
-    summary_business_use_case: 'Keycloak provides built-in cloud-native identity and
-      access control standards. By delegating the security aspects of an application
-      to Keycloak,  developers don''t need to worry about different authentication
-      mechanisms, understand about cryptography, or how to safely store passwords.
-
-      Developers can take advantage of modern authentication and authorization protocols
-      like OAuth2, OpenID Connect, WebAuthn, SAML2 based IDPs, LDAP servers, Kerberos/SPNEGO.
-
-      Keycloak enables infrastructure teams and cloud-native developers to secure
-      their cloud-native stack technologies through consolidated security standards,
-      to provide to users a cloud-friendly experience with a strong focus on usability,
-      scalability, and security.'
-    summary_integrations: OAuth2, OIDC, SAML2 based IdPs, LDAP servers, Kerberos/SPNEGO,
-      custom user storage solutions
-    summary_personas: SREs,Cloud Architects,Platform Engineers,Security Engineers,Developers,Architects
-    summary_release_rate: 4 times per year
-    summary_tags: Java,Security,Container,Cloud Native,Kubernetes,SSO,Identity,Federation,Authentication,Authorization
-    summary_use_case: 'Keycloak is an Open-Source Identity and Access Management Solution
-      for Modern Applications and Services. The project is primarily designed to make
-      it easy  for developers to secure their applications with minimal effort.
-
-      Keycloak builds on top of industry security standard protocols supporting OAuth2,
-      OpenID Connect, WebAuthn. It also empowers administrators and users,  providing
-      an extensive and friendly interface to configure and manage Keycloak. Existing
-      security infrastructure like SAML2 based IdPs, LDAP servers,  Kerberos/SPNEGO,
-      custom user storage solutions are easy to integrate while making their presence
-      transparent to applications and end users.
-
-      Keycloak provides fully customizable login pages, strong authentication, support
-      for password recovery, client secret rotation, recovery codes for 2FA,  terms
-      and conditions, step-up authentication, and a lot more. All of this without
-      any need for coding at all. All pages visible to users support custom themes,
-      making  it easy to modify the look and feel of the pages to integrate with your
-      corporate branding and existing applications.'
+  featured: true
   homepage_url: https://www.keycloak.org/
-  item: null
   logo: keycloak.svg
   name: Keycloak
   project: incubating
   repo_url: https://github.com/keycloak/keycloak
-  second_path:
-  - CNAI / Governance, Policy & Security
   twitter: https://twitter.com/keycloak
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: "Kubescape is an open source security and compliance platform that\
+    \ scans clusters, Kubernetes manifest files (YAML files, and Helm charts), code\
+    \ repositories, container registries and images. It detects misconfigurations\
+    \ according to frameworks such as the NSA-CISA,  MITRE ATT&CK\xAE and CIS, as\
+    \ well as software vulnerabilities, and calculates risk scores."
+  featured: true
+  homepage_url: https://kubescape.io/
+  logo: kubescape.svg
+  name: Kubescape
+  project: incubating
+  repo_url: https://github.com/kubescape/kubescape
+  twitter: https://twitter.com/kubescape
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  featured: true
+  homepage_url: https://kyverno.io/
+  logo: kyverno.svg
+  name: Kyverno
+  project: incubating
+  repo_url: https://github.com/kyverno/kyverno
+  twitter: https://twitter.com/kyverno
+- crunchbase: https://www.crunchbase.com/organization/checkmarx
+  description: Find security vulnerabilities, compliance issues, and infrastructure
+    misconfigurations early in the development cycle of your infrastructure-as-code
+    with KICS by Checkmarx.
+  featured: true
+  homepage_url: https://kics.io/
+  logo: kics.svg
+  name: KICS
+  project: null
+  repo_url: https://github.com/Checkmarx/kics
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: Bootstrap & Maintain Trust on the Edge / Cloud and IoT.
-  extra:
-    accepted: '2020-09-22'
-    annual_review_date: '2022-11-10'
-    annual_review_url: https://github.com/cncf/toc/pull/959
-    blog_url: https://keylime.dev/blog
-    chat_channel: '#Keylime'
-    clomonitor_name: keylime
-    dev_stats_url: https://keylime.devstats.cncf.io/
-    lfx_slug: keylime
-    mailing_list_url: https://keylime.groups.io/g/main
-    slack_url: https://cloud-native.slack.com/messages/keylime
+  featured: true
   homepage_url: https://keylime.dev/
-  item: null
   logo: keylime.svg
   name: Keylime
   project: sandbox
   repo_url: https://github.com/keylime/keylime
   twitter: https://twitter.com/KeylimeProject
-- crunchbase: https://www.crunchbase.com/organization/checkmarx
-  description: Find security vulnerabilities, compliance issues, and infrastructure
-    misconfigurations early in the development cycle of your infrastructure-as-code
-    with KICS by Checkmarx.
-  extra:
-    docker_url: https://hub.docker.com/r/checkmarx/kics
-    github_discussions_url: https://github.com/Checkmarx/kics/discussions
-  homepage_url: https://kics.io/
-  item: null
-  logo: kics.svg
-  name: KICS
-  repo_url: https://github.com/Checkmarx/kics
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: Runtime protection for Kubernetes & other cloud Workloads. Kubearmor
     provides a observability and policy enforcement system to restrict any unwanted,
     malicious behaviour of cloud-native workloads at runtime.
-  extra:
-    accepted: '2021-11-16'
-    annual_review_date: '2023-06-07'
-    annual_review_url: https://github.com/cncf/toc/pull/1069
-    blog_url: https://kubearmor.io/blog
-    chat_channel: '#kubearmor-project'
-    clomonitor_name: kubearmor
-    dev_stats_url: https://kubearmor.devstats.cncf.io/
-    docker_url: https://hub.docker.com/r/kubearmor/kubearmor
-    github_discussions_url: https://github.com/kubearmor/KubeArmor/discussions
-    lfx_slug: kubearmor
-    slack_url: http://kubearmor.slack.com/
-    summary_business_use_case: '1. Application Hardening
-
-      2. Continuous Monitoring
-
-      3. Inline Remediation, Attack Surface reduction
-
-      4. Network Segmentation'
-    summary_intro_url: https://www.youtube.com/watch?v=NS8XC78wSME
-    summary_personas: DevSecOps,Developers,CISO,Security Admin,System Admin
-    summary_release_rate: once every month and half
-    summary_tags: runtime,security,application firewall,microsegmentation
-    summary_use_case: Secure workloads at runtime.
-    youtube_url: https://www.youtube.com/watch?v=NS8XC78wSME
+  featured: true
   homepage_url: https://kubearmor.io/
-  item: null
   logo: kubearmor.svg
   name: KubeArmor
   project: sandbox
@@ -124,131 +63,22 @@
   description: KubeLinter analyzes Kubernetes YAML files and Helm charts, and checks
     them against a variety of best practices, with a focus on production readiness
     and security.
-  extra:
-    slack_url: https://kube-linter.slack.com
+  featured: false
   homepage_url: https://docs.kubelinter.io/
-  item: null
   logo: kubelinter.svg
   name: KubeLinter
+  project: null
   repo_url: https://github.com/stackrox/kube-linter
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  description: "Kubescape is an open source security and compliance platform that\
-    \ scans clusters, Kubernetes manifest files (YAML files, and Helm charts), code\
-    \ repositories, container registries and images. It detects misconfigurations\
-    \ according to frameworks such as the NSA-CISA,  MITRE ATT&CK\xAE and CIS, as\
-    \ well as software vulnerabilities, and calculates risk scores."
-  extra:
-    accepted: '2022-12-13'
-    clomonitor_name: kubescape
-    dev_stats_url: https://kubescape.devstats.cncf.io/
-    incubating: '2025-01-13'
-    lfx_slug: kubescape
-    slack_url: https://cloud-native.slack.com/messages/kubescape
-    summary_integrations: Prometheus, Kubernetes API, VSCode, Lens, GitHub, Jenkins
-    summary_personas: DevOps, DevSecOps, Developers, Product security and CISO
-    summary_release_rate: 2 weeks
-    summary_use_case: Kubernetes security posutre, configuration posture, vulnerability
-      posture, prioritization
-  homepage_url: https://kubescape.io/
-  item: null
-  logo: kubescape.svg
-  name: Kubescape
-  project: incubating
-  repo_url: https://github.com/kubescape/kubescape
-  twitter: https://twitter.com/kubescape
-- additional_repos:
-  - repo_url: https://github.com/kubewarden/policy-server
-  - repo_url: https://github.com/kubewarden/kwctl
-  - repo_url: https://github.com/kubewarden/audit-scanner
-  - repo_url: https://github.com/kubewarden/community
-  allow_duplicate_repo: true
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: 'Kubewarden is a Policy Engine powered by WebAssembly policies. Its
     policies can be written in CEL, Rego (OPA & Gatekeeper flavours), Rust, Go, YAML,
     and others. Kubewarden simplifies Policy-As-Code by allowing policy authors and
     consumers to use their preferred tooling and stack, develop and test policies
     out of cluster. '
-  extra:
-    accepted: '2022-06-17'
-    blog_url: https://kubewarden.io/blog
-    chat_channel: '#kubewarden'
-    clomonitor_name: kubewarden
-    dev_stats_url: https://kubewarden.devstats.cncf.io/
-    documentation_url: https://docs.kubewarden.io
-    github_discussions_url: https://github.com/kubewarden/community/discussions
-    lfx_slug: kubewarden
-    mailing_list_url: https://lists.cncf.io/g/cncf-kubewarden-maintainers
-    package_manager_url: https://artifacthub.io/packages/search?kind=0&kind=13&ts_query_web=kubewarden&official=true&sort=relevance
-    slack_url: https://kubernetes.slack.com/
-    summary_business_use_case: 'Embracing WebAssembly for policies means that Policy
-      Authors can use their preferred tooling (language libraries, Git, CI); thus
-      lowering knowledge barrier and silos, reducing training, and minimizing ad-hoc
-      solutions. Thanks to policies being WebAssembly, Kubewarden policies can leverage
-      and reuse upstream libraries to expand on current policy solutions while keeping
-      compatibility (e.g: its cel-policy uses Kubernetes'' cel-go interpreter, its
-      kyverno-policy compiles a subset of Kyverno codebase to support Kyverno''s YAML-like
-      DSL).  Kubewarden policy CRDs and PolicyServer CRD enable insulation of consumers
-      per namespace, and self-service.'
-    summary_integrations: Sigstore, Cosign, OpenTelemetry, Prometheus, Grafana, Jaeger,
-      Policy Reporter
-    summary_intro_url: https://docs.kubewarden.io/quick-start
-    summary_personas: Platform engineering,DevOps engineers,Security admins,Cluster
-      admins,Policy authors
-    summary_release_rate: Approximately monthly for minor releases, when needed for
-      patch releases.
-    summary_tags: wasm, webassembly, web assembly, policy,policy-as-code,governance,software
-      supply chain, pod security, compliance
-    summary_use_case: 'Kubewarden is a Policy Engine powered by WebAssembly policies.
-      Its policies can be written in CEL, Rego (OPA & Gatekeeper flavours), Rust,
-      Go, YAML, and others. Kubewarden simplifies Policy-As-Code by allowing policy
-      authors and consumers to use their preferred tooling and stack, develop and
-      test policies out of cluster. '
+  featured: false
   homepage_url: https://www.kubewarden.io
-  item: null
   logo: kubewarden.svg
   name: Kubewarden
   project: sandbox
   repo_url: https://github.com/kubewarden/kubewarden-controller
-  second_path:
-  - Wasm / Embedded Functions
   twitter: https://twitter.com/kubewarden
-- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  extra:
-    accepted: '2020-11-10'
-    audits:
-    - date: '2023-09-06'
-      type: fuzzing
-      url: https://main.kyverno.io/blog/2023/09/06/kyverno-completes-fuzzing-security-audit/kyverno-2023-fuzzing-security-audit.pdf
-      vendor: Ada Logics
-    - date: '2023-11-28'
-      type: security
-      url: https://github.com/kyverno/website/blob/main/content/en/blog/general/2023-security-audit/kyverno-2023-security-audit-report.pdf
-      vendor: Ada Logics
-    chat_channel: '#kyverno'
-    clomonitor_name: kyverno
-    dev_stats_url: https://kyverno.devstats.cncf.io/
-    incubating: '2022-07-13'
-    lfx_slug: kyverno
-    slack_url: https://kubernetes.slack.com/
-    summary_business_use_case: Policy and governance with Kyverno improves security
-      posture by eliminating misconfigurations and promotes security best practices.
-      It also enables business agility by separating developer, security, and operations
-      concerns and enables self-service automation. Finally, it increases operational
-      efficiency by managing and optimizing for cloud costs.
-    summary_integrations: Sigstore Cosign
-    summary_intro_url: https://kyverno.io/docs/introduction/
-    summary_personas: Platform engineering,DevOps engineers,Security admins,Cluster
-      admins,Policy authors
-    summary_release_rate: Approximately monthly for patches and quarterly for minor
-      releases.
-    summary_tags: policy,policy-as-code,governance,software supply chain
-    summary_use_case: Pod security,Policy-as-code,Governance,Software supply chain
-  homepage_url: https://kyverno.io/
-  item: null
-  logo: kyverno.svg
-  name: Kyverno
-  project: incubating
-  repo_url: https://github.com/kyverno/kyverno
-  second_path:
-  - CNAI / Governance, Policy & Security
-  twitter: https://twitter.com/kyverno

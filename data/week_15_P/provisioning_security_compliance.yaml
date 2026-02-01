@@ -1,38 +1,23 @@
 - crunchbase: https://www.crunchbase.com/organization/paladin-cloud
+  featured: true
   homepage_url: https://paladincloud.io/
-  item: null
   logo: paladin-cloud.svg
   name: Paladin Cloud
+  project: null
   repo_url: https://github.com/PaladinCloud/CE
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: Paralus is a free, open source tool that enables controlled, audited
     access to Kubernetes infrastructure and Zero trust Kubernetes with zero friction.
-  extra:
-    accepted: '2022-12-14'
-    artwork_url: https://github.com/cncf/artwork/tree/master/projects/paralus
-    blog_url: https://www.paralus.io/blog
-    clomonitor_name: paralus
-    dev_stats_url: https://paralus.devstats.cncf.io/
-    lfx_slug: paralus
-    slack_url: https://kubernetes.slack.com/messages/paralus
+  featured: true
   homepage_url: https://www.paralus.io/
-  item: null
   logo: paralus.svg
   name: Paralus
   project: sandbox
   repo_url: https://github.com/paralus/paralus
   twitter: https://twitter.com/paralus_
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  extra:
-    accepted: '2020-06-25'
-    annual_review_date: '2021-07-21'
-    annual_review_url: https://github.com/cncf/toc/pull/699
-    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#parsec-logos
-    clomonitor_name: parsec
-    dev_stats_url: https://parsec.devstats.cncf.io/
-    lfx_slug: parsec
+  featured: true
   homepage_url: https://parsec.community/
-  item: null
   logo: parsec.svg
   name: Parsec
   project: sandbox
@@ -43,36 +28,34 @@
     systems for any application.
 
     '
-  extra:
-    blog_url: https://permify.co/post/
-    documentation_url: https://docs.permify.co
-    linkedin_url: https://www.linkedin.com/company/permifyco
-    slack_url: https://discord.gg/permify
-    summary_tags: authorization,zanzibar,rbac,abac,rebac,access-control,permify
+  featured: true
   homepage_url: https://permify.co
-  item: null
   logo: permify.svg
   name: Permify
+  project: null
   repo_url: https://github.com/Permify/permify
 - crunchbase: https://www.crunchbase.com/organization/fairwinds
+  featured: true
   homepage_url: https://www.fairwinds.com/open-source-software
-  item: null
   logo: pluto.svg
   name: Pluto
+  project: null
   repo_url: https://github.com/FairwindsOps/pluto
 - crunchbase: https://www.crunchbase.com/organization/fairwinds
+  featured: true
   homepage_url: https://fairwinds.com/polaris
-  item: null
   logo: polaris.svg
   name: Polaris
+  project: null
   repo_url: https://github.com/FairwindsOps/polaris
 - crunchbase: https://www.crunchbase.com/organization/pomerium
   description: Pomerium is an identity-aware access proxy that enables teams to implement
     true zero-trust security, eliminating the need for a VPN. Pomerium ensures that
     every single call is authenticated and authorized, providing a secure and seamless
     user experience.
+  featured: false
   homepage_url: https://www.pomerium.com/
-  item: null
   logo: pomerium.svg
   name: Pomerium
+  project: null
   repo_url: https://github.com/pomerium/pomerium

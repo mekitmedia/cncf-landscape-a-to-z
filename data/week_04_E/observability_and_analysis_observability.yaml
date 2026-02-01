@@ -4,29 +4,32 @@
     OpenZipkin and Prometheus. EaseAgent is also very easy to extend through the Plugin
     Mechanism which only a minimum of three interfaces are required to be implemented
     to complete a plugin development.
+  featured: true
   homepage_url: https://github.com/megaease/easeagent
-  item: null
   logo: easeagent.svg
   name: EaseAgent
+  project: null
   repo_url: https://github.com/megaease/easeagent
   twitter: https://twitter.com/megaease
 - crunchbase: https://www.crunchbase.com/organization/elasticsearch
+  featured: true
   homepage_url: https://www.elastic.co/
-  item: null
   logo: elastic.svg
   name: Elastic
-  open_source: false
+  project: null
   repo_url: https://github.com/elastic/elasticsearch
 - crunchbase: https://www.crunchbase.com/organization/elasticsearch
+  featured: true
   homepage_url: https://www.elastic.co/observability/application-performance-monitoring
-  item: null
   logo: elastic-apm.svg
   name: Elastic APM
+  project: null
   repo_url: https://github.com/elastic/apm-server
 - crunchbase: https://www.crunchbase.com/organization/embrace-io
+  featured: true
   homepage_url: https://embrace.io/
-  item: null
   logo: embrace-mobile.svg
   name: Embrace
+  project: null
   repo_url: https://github.com/embrace-io/embrace-apple-sdk
   twitter: https://twitter.com/embracemobile

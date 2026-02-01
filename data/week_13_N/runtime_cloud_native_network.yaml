@@ -1,16 +1,6 @@
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  extra:
-    accepted: '2019-04-11'
-    annual_review_date: '2022-02-28'
-    annual_review_url: https://github.com/cncf/toc/pull/792
-    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#network-service-mesh-logos
-    clomonitor_name: network-service-mesh
-    dev_stats_url: https://networkservicemesh.devstats.cncf.io/
-    lfx_slug: nsm
-    mailing_list_url: https://groups.google.com/forum/#!forum/networkservicemesh
-    slack_url: https://cloud-native.slack.com/messages/CHQNNUPN1/details/
+  featured: true
   homepage_url: https://networkservicemesh.io/
-  item: null
   logo: network-service-mesh.svg
   name: Network Service Mesh
   project: sandbox

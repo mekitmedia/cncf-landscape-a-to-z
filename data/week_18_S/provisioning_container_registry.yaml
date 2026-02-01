@@ -2,8 +2,9 @@
     in a Kubernetes cluster to act as a local registry mirror, allowing nodes to share
     images between themselves. Any image already pulled by a node will be available
     for any other node in the cluster to pull.
+  featured: true
   homepage_url: https://spegel.dev/
-  item: null
   logo: spegel.svg
   name: Spegel
+  project: null
   repo_url: https://github.com/spegel-org/spegel

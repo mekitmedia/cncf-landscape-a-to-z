@@ -1,32 +1,34 @@
 - crunchbase: https://www.crunchbase.com/organization/bytecode-alliance
+  featured: true
   homepage_url: https://github.com/bytecodealliance/wasm-micro-runtime
-  item: null
   logo: bytecode_alliance.svg
   name: WAMR
+  project: null
   repo_url: https://github.com/bytecodealliance/wasm-micro-runtime
-- crunchbase: https://www.crunchbase.com/organization/wasmer
-  extra:
-    slack_url: https://discord.gg/rWkMNStrEW
-  homepage_url: https://wasmer.io
-  item: null
-  logo: wasmer.svg
-  name: Wasmer
-  repo_url: https://github.com/wasmerio/wasmer
-- crunchbase: https://www.crunchbase.com/organization/bytecode-alliance
-  homepage_url: https://wasmtime.dev/
-  item: null
-  logo: bytecode_alliance.svg
-  name: Wasmtime
-  repo_url: https://github.com/bytecodealliance/wasmtime
-- homepage_url: https://wavm.github.io/
-  item: null
+- featured: true
+  homepage_url: https://wavm.github.io/
   logo: wavm.svg
   name: WAVM
+  project: null
   repo_url: https://github.com/WAVM/WAVM
-  unnamed_organization: true
+- crunchbase: https://www.crunchbase.com/organization/wasmer
+  featured: true
+  homepage_url: https://wasmer.io
+  logo: wasmer.svg
+  name: Wasmer
+  project: null
+  repo_url: https://github.com/wasmerio/wasmer
+- crunchbase: https://www.crunchbase.com/organization/bytecode-alliance
+  featured: true
+  homepage_url: https://wasmtime.dev/
+  logo: bytecode_alliance.svg
+  name: Wasmtime
+  project: null
+  repo_url: https://github.com/bytecodealliance/wasmtime
 - crunchbase: https://www.crunchbase.com/organization/tetrate
+  featured: true
   homepage_url: https://wazero.io/
-  item: null
   logo: wazero.svg
   name: Wazero
+  project: null
   repo_url: https://github.com/tetratelabs/wazero

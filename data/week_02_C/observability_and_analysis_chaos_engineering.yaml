@@ -1,39 +1,22 @@
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  extra:
-    accepted: '2020-07-14'
-    annual_review_date: '2022-10-18'
-    annual_review_url: https://github.com/cncf/toc/pull/944
-    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#chaos-mesh-logos
-    blog_url: https://chaos-mesh.org/blog/
-    clomonitor_name: chaos-mesh
-    dev_stats_url: https://chaosmesh.devstats.cncf.io/
-    incubating: '2022-02-16'
-    lfx_slug: ChaosMesh
-    slack_url: https://join.slack.com/t/cloud-native/shared_invite/zt-fyy3b8up-qHeDNVqbz1j8HDY6g1cY4w
-    youtube_url: https://www.youtube.com/channel/UC4OwT4QTd0ML3YNnV1ybT6g
+  featured: true
   homepage_url: https://chaos-mesh.org/
-  item: null
   logo: chaos-mesh.svg
   name: Chaos Mesh
   project: incubating
   repo_url: https://github.com/chaos-mesh/chaos-mesh
   twitter: https://twitter.com/chaos_mesh
 - crunchbase: https://www.crunchbase.com/organization/chaosiq
+  featured: true
   homepage_url: https://chaostoolkit.org/
-  item: null
   logo: chaos-toolkit.svg
   name: Chaos Toolkit
+  project: null
   repo_url: https://github.com/chaostoolkit/chaostoolkit
   twitter: https://twitter.com/chaostoolkit
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  extra:
-    accepted: '2021-04-28'
-    annual_review_date: '2023-01-13'
-    annual_review_url: https://github.com/cncf/toc/pull/995
-    clomonitor_name: chaos-blade
-    lfx_slug: chaosblade
+  featured: true
   homepage_url: https://chaosblade.io/
-  item: null
   logo: chaosblade.svg
   name: Chaosblade
   project: sandbox

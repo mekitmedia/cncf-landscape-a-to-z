@@ -1,20 +1,16 @@
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: Sermant a proxyless service mesh solution based on Javaagent.
-  extra:
-    accepted: '2024-10-09'
-    clomonitor_name: sermant
-    lfx_slug: sermant
+  featured: true
   homepage_url: https://sermant.io/
-  item: null
   logo: sermant.svg
   name: Sermant
-  open_source: true
   project: sandbox
   repo_url: https://github.com/sermant-io/Sermant
 - crunchbase: https://www.crunchbase.com/organization/netease-com
+  featured: true
   homepage_url: https://github.com/slime-io
-  item: null
   logo: Slime.svg
   name: Slime
+  project: null
   repo_url: https://github.com/slime-io/slime
   twitter: https://twitter.com/NetEase_Global

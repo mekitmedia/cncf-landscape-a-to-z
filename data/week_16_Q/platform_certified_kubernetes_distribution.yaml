@@ -3,8 +3,9 @@
     as a container using Kubernetes-in-Docker technology. Streamline the deployment
     and management of Kubernetes clusters in seconds with QKE and unlock bare-metal
     performance without virtualization overhead.
+  featured: true
   homepage_url: https://ce.qbo.io/
-  item: null
   logo: qbo.svg
   name: QBO
+  project: null
   repo_url: https://github.com/alexeadem/qbo-ce

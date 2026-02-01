@@ -1,15 +1,7 @@
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: Open-source layer 7 load balancer derived from proprietary Baidu FrontEnd
-  extra:
-    accepted: '2020-06-25'
-    annual_review_date: '2023-06-01'
-    annual_review_url: https://github.com/cncf/toc/pull/1066
-    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#bfe-logos
-    clomonitor_name: bfe
-    dev_stats_url: https://bfe.devstats.cncf.io/
-    lfx_slug: BFE
+  featured: true
   homepage_url: https://www.bfe-networks.net
-  item: null
   logo: bfe.svg
   name: BFE
   project: sandbox

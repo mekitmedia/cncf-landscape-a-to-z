@@ -1,6 +1,7 @@
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  featured: true
   homepage_url: https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/
-  item: null
   logo: kubernetes.svg
   name: Kube-scheduler
+  project: null
   repo_url: https://github.com/kubernetes-sigs/scheduler-plugins

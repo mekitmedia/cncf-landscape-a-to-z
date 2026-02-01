@@ -1,19 +1,7 @@
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: Linux virtual machines, typically on macOS, for running containerd
-  extra:
-    accepted: '2022-09-14'
-    artwork_url: https://github.com/cncf/artwork/blob/main/examples/incubating.md#lima-logos
-    chat_channel: '#lima'
-    clomonitor_name: lima
-    dev_stats_url: https://lima.devstats.cncf.io/
-    incubating: '2025-10-14'
-    lfx_slug: lima
-    other_links:
-    - name: Mastodon
-      url: https://mastodon.social/@TheLimaProject
-    slack_url: https://slack.cncf.io/
+  featured: true
   homepage_url: https://github.com/lima-vm/lima
-  item: null
   logo: lima.svg
   name: Lima
   project: incubating

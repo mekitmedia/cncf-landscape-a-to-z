@@ -1,18 +1,17 @@
 - crunchbase: https://www.crunchbase.com/organization/yandex
   description: YDB is an open-source Distributed SQL Database that combines high availability
     and scalability with strong consistency and ACID transactions.
-  extra:
-    blog_url: https://blog.ydb.tech
-    stack_overflow_url: https://stackoverflow.com/questions/tagged/ydb
+  featured: true
   homepage_url: https://ydb.tech
-  item: null
   logo: ydb.svg
   name: YDB
+  project: null
   repo_url: https://github.com/ydb-platform/ydb
   twitter: https://twitter.com/YDBPlatform
 - crunchbase: https://www.crunchbase.com/organization/yugabyte
+  featured: true
   homepage_url: https://www.yugabyte.com/yugabytedb/
-  item: null
   logo: yugabytedb.svg
   name: YugabyteDB
+  project: null
   repo_url: https://github.com/YugaByte/yugabyte-db

@@ -1,87 +1,31 @@
-- additional_repos:
-  - repo_url: https://github.com/vdaas/vald-client-go
-  - repo_url: https://github.com/vdaas/vald-client-java
-  - repo_url: https://github.com/vdaas/vald-client-node
-  - repo_url: https://github.com/vdaas/vald-client-python
-  - repo_url: https://github.com/vdaas/vald-tensorflow-ingress-filter
-  - repo_url: https://github.com/vdaas/vald-onnx-ingress-filter
-  - repo_url: https://github.com/vdaas/vald-demo
-  crunchbase: https://www.crunchbase.com/organization/ly-corporation
-  description: Vald is a highly scalable, cloud-native distributed vector search engine
-    optimized for machine learning and AI applications. It offers efficient, near
-    real-time search for high-dimensional vector data, ensuring robust performance
-    and flexibility in handling large datasets. Engineered for ease of use and integration,
-    Vald empowers developers with cutting-edge search capabilities.
-  extra:
-    blog_jp_url: https://zenn.dev/vald
-    blog_url: https://vdaas-vald.medium.com/
-    docker_url: https://hub.docker.com/u/vdaas
-    helm_chart_url: https://artifacthub.io/packages/chart/vald/vald
-    operator_chart_url: https://artifacthub.io/packages/chart/vald/vald-helm-operator
-    slack_url: https://join.slack.com/t/vald-community/shared_invite/zt-db2ky9o4-R_9p2sVp8xRwztVa8gfnPA
-  homepage_url: https://vald.vdaas.org/
-  item: null
-  logo: vald.svg
-  name: Vald
-  repo_url: https://github.com/vdaas/vald
-  twitter: https://twitter.com/vdaas_vald
-- crunchbase: https://www.crunchbase.com/organization/linux-foundation
-  description: A flexible distributed key-value datastore that is optimized for caching
-    and other realtime workloads.
-  homepage_url: https://valkey.io/
-  item: null
-  logo: ./valkey.svg
-  name: Valkey
-  repo_url: https://github.com/valkey-io/valkey
-  second_path:
-  - CNAI / Data Architecture
-  unnamed_organization: true
-- additional_repos:
-  - repo_url: https://github.com/vitessio/website
-  - repo_url: https://github.com/vitessio/arewefastyet
-  - repo_url: https://github.com/vitessio/enhancements
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: MySQL-compatible, horizontally scalable, cloud-native database solution.
-  extra:
-    accepted: '2018-02-05'
-    artwork_url: https://github.com/cncf/artwork/blob/master/examples/graduated.md#vitess-logos
-    audits:
-    - date: '2019-02-01'
-      type: security
-      url: https://vitess.io/files/VIT-01-report.pdf
-      vendor: Cure53
-    - date: '2021-05-19'
-      type: fuzzing
-      url: https://github.com/vitessio/vitess/blob/master/doc/VIT-02-report-fuzzing-audit.pdf
-      vendor: AdaLogics
-    - date: '2023-06-05'
-      type: security
-      url: https://github.com/vitessio/vitess/blob/main/doc/VIT-03-report-security-audit.pdf
-      vendor: Ada Logics
-    blog_url: https://vitess.io/blog/
-    clomonitor_name: vitess
-    dev_stats_url: https://vitess.devstats.cncf.io/
-    graduated: '2019-11-05'
-    incubating: '2018-02-05'
-    lfx_slug: vitess
-    mailing_list_url: https://lists.cncf.io/g/cncf-vitess-users
-    stack_overflow_url: https://stackoverflow.com/questions/tagged/vitess
-    summary_business_use_case: Scalability, Reliability, reduce human cost of running
-      databases.
-    summary_integration: 'Kubernetes Operator, Debezium
-
-      '
-    summary_intro_url: https://www.youtube.com/watch?v=Sny8rITrdvE
-    summary_personas: Infrastructure teams
-    summary_release_rate: Every 4 months
-    summary_tags: Scalable, reliable, MySQL, distributed, cloud-native, kubernetes,
-      cloud, database
-    summary_use_case: Scaling out existing MySQL deployments, or building out internal
-      database solutions for application teams to build products on.
+  featured: true
   homepage_url: https://vitess.io/
-  item: null
   logo: vitess.svg
   name: Vitess
   project: graduated
   repo_url: https://github.com/vitessio/vitess
   twitter: https://twitter.com/vitessio
+- crunchbase: https://www.crunchbase.com/organization/ly-corporation
+  description: Vald is a highly scalable, cloud-native distributed vector search engine
+    optimized for machine learning and AI applications. It offers efficient, near
+    real-time search for high-dimensional vector data, ensuring robust performance
+    and flexibility in handling large datasets. Engineered for ease of use and integration,
+    Vald empowers developers with cutting-edge search capabilities.
+  featured: true
+  homepage_url: https://vald.vdaas.org/
+  logo: vald.svg
+  name: Vald
+  project: null
+  repo_url: https://github.com/vdaas/vald
+  twitter: https://twitter.com/vdaas_vald
+- crunchbase: https://www.crunchbase.com/organization/linux-foundation
+  description: A flexible distributed key-value datastore that is optimized for caching
+    and other realtime workloads.
+  featured: true
+  homepage_url: https://valkey.io/
+  logo: ./valkey.svg
+  name: Valkey
+  project: null
+  repo_url: https://github.com/valkey-io/valkey

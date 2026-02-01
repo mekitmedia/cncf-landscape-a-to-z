@@ -1,106 +1,56 @@
-- crunchbase: https://www.crunchbase.com/organization/gravitational
-  homepage_url: https://goteleport.com
-  item: null
-  logo: teleport.svg
-  name: Teleport
-  repo_url: https://github.com/gravitational/teleport
-- crunchbase: https://www.crunchbase.com/organization/tenable-network-security
-  homepage_url: https://www.tenable.com/products/tenable-cs
-  item: null
-  logo: terrascan.svg
-  name: Terrascan
-  repo_url: https://github.com/tenable/terrascan
-- crunchbase: https://www.crunchbase.com/organization/okapi-985d
-  description: Tesseral is the open source platform for managing identity and access
-    in business software.
-  extra:
-    blog_url: https://tesseral.com/blog
-    documentation_url: https://tesseral.com/docs
-    linkedin_url: https://www.linkedin.com/company/tesseral/
-    summary_use_case: 'Tesseral is the open source platform for managing identity
-      and access in business software. It provides enterprise-grade capabilities,
-      including SAML single sign-on, SCIM provisioning, role-based access control,
-      managed API keys, and audit logs, implemented in just a few lines of code.
-
-      Tesseral unifies access management for employees, customers, services, and AI
-      agents, giving organizations the flexibility to adapt to any deployment model
-      and the authority to enforce security policies with precision.'
-  homepage_url: https://www.tesseral.com/
-  item: null
-  logo: tesseral.svg
-  name: Tesseral
-  repo_url: https://github.com/tesseral-labs/tesseral
-  twitter: https://twitter.com/tesseralHQ
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  extra:
-    accepted: '2021-10-13'
-    dev_stats_url: https://cilium.devstats.cncf.io/
-    linkedin_url: https://www.linkedin.com/company/cilium/
-    parent_project: Cilium
-    slack_url: https://cilium.herokuapp.com/
-  homepage_url: https://github.com/cilium/tetragon
-  item: null
-  logo: tetragon-logo-wormark.svg
-  name: Tetragon
-  repo_url: https://github.com/cilium/tetragon
-  twitter: https://twitter.com/ciliumproject
-- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  extra:
-    accepted: '2017-10-24'
-    artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#tuf-logos
-    audits:
-    - date: '2018-08-07'
-      type: security
-      url: https://cure53.de/pentest-report_tuf.pdf
-      vendor: Cure53
-    clomonitor_name: tuf
-    dev_stats_url: https://tuf.devstats.cncf.io/
-    graduated: '2019-12-18'
-    incubating: '2017-10-24'
-    lfx_slug: tuf
-    mailing_list_url: https://groups.google.com/forum/?fromgroups#!forum/theupdateframework
-    stack_overflow_url: https://stackoverflow.com/questions/tagged/the-update-framework
-    summary_business_use_case: Prevents many types of key and repository/registry
-      compromises from impacting your users. Provides a secure way to recover from
-      compromise. Twelve years of practical experience, about a dozen security audits,
-      a half-dozen or so peer reviewed papers, a half-dozen or so implementations
-      used in production, and millions of containers, etc. secured.
-    summary_integrations: Docker, Amazon, Microsoft, Google Fuschia, Harbor, Toradex,
-      Datadog, Sigstore, Automotive Grade Linux
-    summary_intro_url: https://theupdateframework.io/
-    summary_personas: Security teams, Repository administrators, Registry administrators
-    summary_release_rate: The specification is quite stable.  Major spec versions
-      update rarely, minor versions about annually, smaller releases (typo fixes /
-      clarifications) happen as needed.
-    summary_tags: Security, Go, Python, Rust, JavaScript, CLI
-    summary_use_case: TUF secures container registries, package repositories, etc.
-      so that the system resists successful attacks and can recover securely.  TUF
-      uses a combination of security mechanisms and tooling to provide a strong root
-      of trust used by other security projects as well, such as Sigstore.  It is easy
-      to integrate and simple to manage; try it for yourself
+  featured: true
   homepage_url: https://theupdateframework.github.io/
-  item: null
   logo: the-update-framework-tuf.svg
   name: The Update Framework (TUF)
   project: graduated
   repo_url: https://github.com/theupdateframework/python-tuf
+- crunchbase: https://www.crunchbase.com/organization/gravitational
+  featured: true
+  homepage_url: https://goteleport.com
+  logo: teleport.svg
+  name: Teleport
+  project: null
+  repo_url: https://github.com/gravitational/teleport
+- crunchbase: https://www.crunchbase.com/organization/tenable-network-security
+  featured: true
+  homepage_url: https://www.tenable.com/products/tenable-cs
+  logo: terrascan.svg
+  name: Terrascan
+  project: null
+  repo_url: https://github.com/tenable/terrascan
+- crunchbase: https://www.crunchbase.com/organization/okapi-985d
+  description: Tesseral is the open source platform for managing identity and access
+    in business software.
+  featured: true
+  homepage_url: https://www.tesseral.com/
+  logo: tesseral.svg
+  name: Tesseral
+  project: null
+  repo_url: https://github.com/tesseral-labs/tesseral
+  twitter: https://twitter.com/tesseralHQ
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  featured: true
+  homepage_url: https://github.com/cilium/tetragon
+  logo: tetragon-logo-wormark.svg
+  name: Tetragon
+  project: null
+  repo_url: https://github.com/cilium/tetragon
+  twitter: https://twitter.com/ciliumproject
 - crunchbase: https://www.crunchbase.com/organization/deepfence
+  featured: true
   homepage_url: https://deepfence.io/threatmapper/
-  item: null
   logo: threatmapper.svg
   name: ThreatMapper
+  project: null
   repo_url: https://github.com/deepfence/ThreatMapper
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: Tokenetes implements Transaction Tokens (TraTs) for microservices call
     chains.  It's a Kubernetes-native framework providing immutable identity and context
     in  service-to-service communication to prevent attacks like software supply chain  or
     privileged user compromise.
-  extra:
-    accepted: '2025-01-21'
-    dev_stats_url: https://tokenetes.devstats.cncf.io/
-    lfx_slug: tratteria
+  featured: false
   homepage_url: https://tokenetes.io/
-  item: null
   logo: tokenetes.svg
   name: Tokenetes
   project: sandbox
@@ -108,31 +58,32 @@
 - crunchbase: https://www.crunchbase.com/organization/aserto-2995
   description: Cloud-native authorization for modern applications and APIs, combining
     the best of Open Policy Agent and Google Zanzibar
-  extra:
-    slack_url: https://www.aserto.com/slack
+  featured: false
   homepage_url: https://www.topaz.sh
-  item: null
   logo: topaz.svg
   name: Topaz
+  project: null
   repo_url: https://github.com/aserto-dev/topaz
 - crunchbase: https://www.crunchbase.com/organization/aquasecurity
   description: Tracee helps you understand your systems and applications behavior,
     and apply runtime security to them. It uses Linux eBPF technology and strong security
     techniques to instrument the system and expose relevant events for you to consume
     and process.
+  featured: false
   homepage_url: https://aquasecurity.github.io/tracee/latest/
-  item: null
   logo: tracee.svg
   name: Tracee
+  project: null
   repo_url: https://github.com/aquasecurity/tracee
   twitter: https://x.com/aquatracee
 - crunchbase: https://www.crunchbase.com/organization/aquasecurity
   description: 'Trivy is an all-in-one security scanner that beings vulnerability,
     SBOM, misconfigurations, leaked secrets, and license scanning together, across
     container images, code repositories, Kubernetes clusters and more. '
+  featured: false
   homepage_url: https://trivy.dev
-  item: null
   logo: trivy.svg
   name: Trivy
+  project: null
   repo_url: https://github.com/aquasecurity/trivy
   twitter: https://x.com/aquatrivy

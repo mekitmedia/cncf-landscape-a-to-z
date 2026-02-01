@@ -1,36 +1,25 @@
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: An Envoy-powered, Kubernetes-native API Gateway that integrates Kubernetes
     Gateway API with a control plane for API connectivity in any cloud environment.
-  extra:
-    accepted: '2025-03-04'
-    blog_url: https://kgateway.dev/blog
-    lfx_slug: kgateway
-    summary_personas: Platform Engineers, DevOps Engineers, SREs, API Managers
-    summary_tags: API Gateway, Envoy, Kubernetes, Gateway API, Cloud Native
-    summary_use_case: 'Kgateway is the most mature and widely deployed Envoy-based
-      gateway in the market today. Built on open source  and open standards, kgateway
-      integrates Kubernetes Gateway API with a control plane that scales from lightweight  microgateway
-      deployments between services, to massively parallel centralized gateways handling
-      billions of API calls,  to advanced AI gateway use cases for safety, security,
-      and governance when integrating applications with third-party LLMs.  kgateway
-      brings omni-directional API connectivity to any cloud and any environment. '
+  featured: true
   homepage_url: https://kgateway.dev/
-  item: null
   logo: kgateway.svg
   name: Kgateway
   project: sandbox
   repo_url: https://github.com/kgateway-dev/kgateway
 - crunchbase: https://www.crunchbase.com/organization/konghq
+  featured: true
   homepage_url: https://konghq.com/
-  item: null
   logo: kong.svg
   name: Kong
+  project: null
   repo_url: https://github.com/Kong/kong
 - crunchbase: https://www.crunchbase.com/organization/krakend
+  featured: true
   homepage_url: https://www.krakend.io/
-  item: null
   logo: krakend.svg
   name: KrakenD
+  project: null
   repo_url: https://github.com/luraproject/lura
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: Kuadrant combines Gateway API and Istio-based gateway controllers to
@@ -38,27 +27,25 @@
     developers to easily connect, secure, and protect their services and infrastructure
     across multiple clusters  with policies for TLS, DNS, application authentication
     & authorization, and rate limiting.
-  extra:
-    accepted: '2024-06-19'
-    clomonitor_name: kuadrant
-    lfx_slug: kuadrant
+  featured: true
   homepage_url: https://kuadrant.io
-  item: null
   logo: kuadrant.svg
   name: Kuadrant
   project: sandbox
   repo_url: https://github.com/kuadrant/kuadrant-operator
 - crunchbase: https://www.crunchbase.com/organization/bytedance
+  featured: true
   homepage_url: https://github.com/kubewharf/kubegateway
-  item: null
   logo: kubegateway.svg
   name: KubeGateway
+  project: null
   repo_url: https://github.com/kubewharf/kubegateway
 - crunchbase: https://www.crunchbase.com/organization/kubeshop
   description: Kusk Gateway is a self-service API gateway powered by OpenAPI and Envoy.
     Kusk Gateway is built and maintained by Kubeshop.
+  featured: true
   homepage_url: https://kusk.io/
-  item: null
   logo: kusk.svg
   name: Kusk Gateway
+  project: null
   repo_url: https://github.com/kubeshop/kusk-gateway

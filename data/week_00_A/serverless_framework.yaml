@@ -1,12 +1,14 @@
-- crunchbase: https://www.crunchbase.com/organization/open-js-foundation
-  homepage_url: https://arc.codes/docs/en/get-started/quickstart
-  item: null
-  logo: architect.svg
-  name: Architect
-  repo_url: https://github.com/architect/functions
 - crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+  featured: true
   homepage_url: https://aws.amazon.com/serverless/sam/
-  item: null
   logo: aws-sam.svg
   name: AWS Server Application Model (SAM)
+  project: null
   repo_url: https://github.com/aws/serverless-application-model
+- crunchbase: https://www.crunchbase.com/organization/open-js-foundation
+  featured: true
+  homepage_url: https://arc.codes/docs/en/get-started/quickstart
+  logo: architect.svg
+  name: Architect
+  project: null
+  repo_url: https://github.com/architect/functions

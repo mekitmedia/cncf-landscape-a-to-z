@@ -1,24 +1,27 @@
 - crunchbase: https://www.crunchbase.com/organization/wasmer
+  featured: true
   homepage_url: https://wasix.org/
-  item: null
   logo: wasix.svg
   name: WASIX
+  project: null
   repo_url: https://github.com/wasix-org/wasix-witx
 - crunchbase: https://www.crunchbase.com/organization/vmware
+  featured: true
   homepage_url: https://workers.wasmlabs.dev/
-  item: null
   logo: vmware.svg
   name: Wasm Workers Server
+  project: null
   repo_url: https://github.com/vmware-labs/wasm-workers-server
-- homepage_url: https://github.com/tessi/wasmex
-  item: null
+- featured: true
+  homepage_url: https://github.com/tessi/wasmex
   logo: wasm.svg
   name: Wasmex
+  project: null
   repo_url: https://github.com/tessi/wasmex
-  unnamed_organization: true
 - crunchbase: https://www.crunchbase.com/organization/wasmer
+  featured: true
   homepage_url: https://wasmer.io/wasmer/winterjs
-  item: null
   logo: wasmer.svg
   name: WinterJS
+  project: null
   repo_url: https://github.com/wasmerio/winterjs

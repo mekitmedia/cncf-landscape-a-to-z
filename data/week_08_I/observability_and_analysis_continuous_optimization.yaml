@@ -3,8 +3,9 @@
     \ costs. It does this by sitting in the CI/CD workflow and on changing IaC code,\
     \ leaves a comment like \u201CThis change will increase your next month bill by\
     \ 20%\u201D with a detailed breakdown of resources changed and their cost."
+  featured: true
   homepage_url: https://www.infracost.io/
-  item: null
   logo: infracost.svg
   name: Infracost
+  project: null
   repo_url: https://github.com/infracost/infracost

@@ -1,32 +1,6 @@
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  extra:
-    accepted: '2017-09-13'
-    artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#jaeger-logos
-    audits:
-    - date: '2019-05-04'
-      type: security
-      url: https://github.com/jaegertracing/security-audits/blob/master/SECURITY_AUDIT_2019_05_04.pdf
-      vendor: Cure53
-    blog_url: https://medium.com/jaegertracing/
-    chat_channel: '#jaeger'
-    clomonitor_name: jaeger
-    dev_stats_url: https://jaeger.devstats.cncf.io/
-    graduated: '2019-10-31'
-    incubating: '2017-09-13'
-    lfx_slug: jaeger
-    mailing_list_url: https://groups.google.com/forum/#!forum/jaeger-tracing
-    slack_url: https://slack.cncf.io/
-    stack_overflow_url: https://stackoverflow.com/questions/tagged/jaeger
-    summary_business_use_case: Monitoring and troubleshooting distributed workflows;
-      root cause localization; understanding service dependncies; latency and performance
-      optimization.
-    summary_integrations: OpenTelemetry, Prometheus, multiple [storage backends](https://www.jaegertracing.io/docs/latest/deployment/#span-storage-backends).
-    summary_personas: Developers, SREs, Platform Engineers, Network Engineers
-    summary_release_rate: monthly
-    summary_tags: monitoring, observability, tracing
-    summary_use_case: tracing-based observability for distributed systems
+  featured: true
   homepage_url: https://www.jaegertracing.io/
-  item: null
   logo: jaeger.svg
   name: Jaeger
   project: graduated

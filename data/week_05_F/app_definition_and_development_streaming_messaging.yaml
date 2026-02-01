@@ -1,15 +1,16 @@
 - crunchbase: https://www.crunchbase.com/organization/apache
+  featured: true
   homepage_url: https://flink.apache.org/
-  item: null
   logo: flink.svg
   name: Flink
+  project: null
   repo_url: https://github.com/apache/flink
   twitter: https://twitter.com/apacheflink
-- allow_duplicate_repo: true
-  crunchbase: https://www.crunchbase.com/organization/infinyon
+- crunchbase: https://www.crunchbase.com/organization/infinyon
+  featured: true
   homepage_url: https://fluvio.io/
-  item: null
   logo: fluvio.svg
   name: Fluvio
+  project: null
   repo_url: https://github.com/infinyon/fluvio
   twitter: https://twitter.com/InfinyOn

@@ -1,33 +1,36 @@
-- branch: maint
-  crunchbase: https://www.crunchbase.com/organization/nagios
+- crunchbase: https://www.crunchbase.com/organization/nagios
+  featured: true
   homepage_url: https://www.nagios.com/
-  item: null
   logo: nagios.svg
   name: Nagios
+  project: null
   repo_url: https://github.com/NagiosEnterprises/nagioscore
 - crunchbase: https://www.crunchbase.com/organization/netdata
+  featured: true
   homepage_url: https://www.netdata.cloud
-  item: null
   logo: netdata.svg
   name: Netdata
+  project: null
   repo_url: https://github.com/netdata/netdata
 - crunchbase: https://www.crunchbase.com/organization/netis-technologies-c590
+  featured: true
   homepage_url: https://wordpress.com/browsehappy
-  item: null
   logo: netis.svg
   name: Netis
+  project: null
   repo_url: https://github.com/Netis/packet-agent
 - crunchbase: https://www.crunchbase.com/organization/nexcloud
+  featured: true
   homepage_url: https://github.com/NexClipper/NexClipper?tab=readme-ov-file
-  item: null
   logo: nexclipper.svg
   name: NexClipper
+  project: null
   repo_url: https://github.com/NexClipper/NexClipper
   twitter: https://twitter.com/nexclipper
 - crunchbase: https://www.crunchbase.com/organization/didi
+  featured: true
   homepage_url: https://n9e.github.io/
-  item: null
-  joined: '2021-02-01'
   logo: nightingale.svg
   name: Nightingale
+  project: null
   repo_url: https://github.com/didi/nightingale

@@ -1,12 +1,8 @@
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: A lightweight, secure container runtime solution designed for modern
     cloud-native workloads
-  extra:
-    accepted: '2025-03-04'
-    dev_stats_url: https://hyperlight.devstats.cncf.io/
-    lfx_slug: hyperlight
+  featured: true
   homepage_url: https://github.com/hyperlight-dev/hyperlight
-  item: null
   logo: hyperlight.svg
   name: Hyperlight
   project: sandbox

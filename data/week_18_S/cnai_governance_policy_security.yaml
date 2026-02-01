@@ -6,20 +6,16 @@
     Generation (RAG) systems for AI workloads.
 
     '
-  extra:
-    blog_url: https://authzed.com/blog
-    slack_url: https://discord.gg/spicedb
-    stack_overflow_url: https://stackoverflow.com/questions/tagged/spicedb
-    youtube_url: https://youtube.com/@authzed
+  featured: true
   homepage_url: https://authzed.com/spicedb
-  item: null
   logo: spicedb.svg
   name: SpiceDB
+  project: null
   repo_url: https://github.com/authzed/spicedb
 - description: Software Supply Chain Security Platform
+  featured: true
   homepage_url: https://stacklok.com/minder
-  item: null
   logo: ./stacklock.svg
   name: Stacklock Minder
+  project: null
   repo_url: https://github.com/stacklok/minder
-  unnamed_organization: true

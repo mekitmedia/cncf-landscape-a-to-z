@@ -1,13 +1,15 @@
 - crunchbase: https://www.crunchbase.com/organization/square
+  featured: true
   homepage_url: https://block.github.io/goose/
-  item: null
   logo: goose.svg
   name: Goose
+  project: null
   repo_url: https://github.com/block/goose
 - description: Gthulhu optimizes cloud-native workloads using the Linux Scheduler
     Extension for different application scenarios.
+  featured: true
   homepage_url: https://gthulhu.github.io/docs/
-  item: null
   logo: gthulhu.svg
   name: Gthulhu
+  project: null
   repo_url: https://github.com/Gthulhu/Gthulhu

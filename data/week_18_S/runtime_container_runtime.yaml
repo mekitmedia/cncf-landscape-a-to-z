@@ -1,25 +1,29 @@
 - crunchbase: https://www.crunchbase.com/organization/sylabs
+  featured: true
   homepage_url: https://sylabs.io/
-  item: null
   logo: singularity.svg
   name: Singularity
+  project: null
   repo_url: https://github.com/apptainer/singularity
   twitter: https://twitter.com/SingularityApp
 - crunchbase: https://www.crunchbase.com/organization/mnx-solutions
+  featured: true
   homepage_url: https://www.TritonDataCenter.com/smartos
-  item: null
   logo: smartos.svg
   name: SmartOS
+  project: null
   repo_url: https://github.com/TritonDataCenter/smartos-live
 - crunchbase: https://www.crunchbase.com/organization/%E5%BC%80%E6%94%BE%E5%8E%9F%E5%AD%90%E5%BC%80%E6%BA%90%E5%9F%BA%E9%87%91%E4%BC%9A
+  featured: true
   homepage_url: https://gitee.com/openeuler/stratovirt
-  item: null
   logo: StratoVirt.svg
   name: StratoVirt
+  project: null
   repo_url: https://github.com/openeuler-mirror/stratovirt
 - crunchbase: https://www.crunchbase.com/organization/nestybox
+  featured: true
   homepage_url: https://github.com/nestybox/sysbox
-  item: null
   logo: sysbox.svg
   name: Sysbox
+  project: null
   repo_url: https://github.com/nestybox/sysbox

@@ -1,45 +1,8 @@
-- allow_duplicate_repo: true
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  extra:
-    accepted: '2021-04-28'
-    annual_review_date: '2023-07-04'
-    annual_review_url: https://github.com/cncf/toc/pull/1109
-    artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#wasmedgeruntime-logos
-    clomonitor_name: wasm-edge
-    dev_stats_url: https://wasmedge.devstats.cncf.io/
-    lfx_slug: wasmedge-runtime
-    summary_business_use_case: "WasmEdge improves cloud app\u2019s operational efficiency\
-      \ by providing a secure, portable, fast, and lightweight alternative to traditional\
-      \ Linux containers. It allows microservice or servelsss applications to \u201C\
-      scale to zero\u201D \u2014 all computing resources can be made available on-demand,\
-      \ and \u201Cwrite once run anywhere\u201D. It also works with existing container\
-      \ management infra and programming languages, and hence minimizing the cost\
-      \ of adoption and migration. It is great for running microservices and serverless\
-      \ functions embedded in data pipelines or SaaS platforms."
-    summary_integrations: Crun, Runwasi, Youki, Docker Desktop, Kubernetes, WebAssembly
-      Languages Runtime maintained by VMWare, Proxy-wasm, Knative, SuperEdge, OpenYurt,
-      KubeEdge, Fedora Linux
-    summary_intro_url: https://youtu.be/Kg5z5A5wH0A
-    summary_personas: Developers, DevOps Engineers
-    summary_release_rate: Every 3 months
-    summary_tags: Edge Cloud, Edge Devices, Container, Embedded runtime, Serverless,
-      UDF, Microservices, Streaming data, OCI Runtime,SaaS
-    summary_use_case: 'WasmEdge provides a high-performance, lightweight, secure,
-      and extensible WebAssembly runtime for cloud-native applications. It is an OCI
-      compliant container that is integrated into Docker, containerd, crun and many
-      Kubernetes projects.  Compared with traditional Linux container apps, WasmEdge
-      apps are more secure, more portable, cold-start 100x faster and only take 1/10
-      of the space.
-
-      '
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  featured: true
   homepage_url: https://wasmedge.org/
-  item: null
   logo: wasmedge.svg
   name: WasmEdge Runtime
   project: sandbox
   repo_url: https://github.com/WasmEdge/WasmEdge
-  second_path:
-  - Wasm / Runtimes
-  - Wasm / Application Frameworks
-  - CNAI / ML Serving
   twitter: https://twitter.com/realwasmedge

@@ -1,42 +1,16 @@
 - crunchbase: https://www.crunchbase.com/organization/vmware
+  featured: true
   homepage_url: https://velero.io
-  item: null
   logo: project-velero.svg
   name: Velero
+  project: null
   repo_url: https://github.com/vmware-tanzu/velero
   twitter: https://twitter.com/projectvelero
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: Vineyard (v6d) is an in-memory immutable data manager.
-  enduser: true
-  extra:
-    accepted: '2021-04-28'
-    annual_review_date: '2022-07-11'
-    annual_review_url: https://github.com/cncf/toc/pull/874
-    clomonitor_name: vineyard
-    lfx_slug: vineyard
-    summary_business_use_case: Vineyard is used as a distributed immediate data store
-      to share large tensors and dataframes between data scientists among a research
-      division.
-    summary_integration: 'Big-data: Numpy, Pandas, Dask, Mars, Spark
-
-      Orchestration: Airflow'
-    summary_intro_url: https://www.youtube.com/watch?v=p-falphSJq8&list=PLj6h78yzYM2NoiNaLVZxr-ERc1ifKP7n6
-    summary_personas: Users who are deploying data-intensive applications in cloud-native
-      environments.
-    summary_release_rate: '2022-12-24'
-    summary_tags: distributed systems,shared-memory,in-memory storage,big-data-analytics
-    summary_use_case: '- Vineyard is deployed as a daemon and used as shared storage
-      between users for structural data objects.
-
-      - Vineyard is used to sharing the common data structure between computing engines
-      that runs in separate isolated processes and containers.
-
-      - Vineyard is used to sharing the immediate data between upstream and downstream
-      tasks within a data-analytical workflow on Kubernetes.'
+  featured: true
   homepage_url: https://v6d.io
-  item: null
   logo: vineyard.svg
   name: Vineyard
   project: sandbox
-  project_org: https://github.com/v6d-io
   repo_url: https://github.com/v6d-io/v6d

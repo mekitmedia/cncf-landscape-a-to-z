@@ -1,17 +1,9 @@
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: Fluid is an orchestration platform for elastic data abstraction and
     acceleration in cloud native environment.
-  extra:
-    accepted: '2021-04-28'
-    annual_review_date: '2022-07-06'
-    annual_review_url: https://github.com/cncf/toc/pull/870
-    clomonitor_name: fluid
-    incubating: '2026-01-08'
+  featured: true
   homepage_url: https://fluid-cloudnative.github.io/
-  item: null
   logo: fluid.svg
   name: Fluid
   project: incubating
   repo_url: https://github.com/fluid-cloudnative/fluid
-  second_path:
-  - CNAI / Data Architecture

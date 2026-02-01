@@ -1,25 +1,28 @@
-- allow_duplicate_repo: true
-  crunchbase: https://www.crunchbase.com/organization/webassembly
-  homepage_url: https://github.com/WebAssembly/wabt
-  item: null
-  logo: wasm.svg
-  name: Wabt
-  repo_url: https://github.com/WebAssembly/wabt
 - crunchbase: https://www.crunchbase.com/organization/wasmer
+  featured: true
   homepage_url: https://github.com/wasmerio/wai
-  item: null
   logo: wasmer.svg
   name: WAI
+  project: null
   repo_url: https://github.com/wasmerio/wai
+- crunchbase: https://www.crunchbase.com/organization/webassembly
+  featured: true
+  homepage_url: https://github.com/WebAssembly/wabt
+  logo: wasm.svg
+  name: Wabt
+  project: null
+  repo_url: https://github.com/WebAssembly/wabt
 - crunchbase: https://www.crunchbase.com/organization/bytecode-alliance
+  featured: true
   homepage_url: https://github.com/bytecodealliance/wit-bindgen
-  item: null
   logo: bytecode_alliance.svg
   name: Wit-binddgen
+  project: null
   repo_url: https://github.com/bytecodealliance/wit-bindgen
 - crunchbase: https://www.crunchbase.com/organization/second-state
+  featured: true
   homepage_url: https://github.com/second-state/witc
-  item: null
   logo: witc.svg
   name: Witc
+  project: null
   repo_url: https://github.com/second-state/witc

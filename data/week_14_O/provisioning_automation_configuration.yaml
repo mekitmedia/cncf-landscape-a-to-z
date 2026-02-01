@@ -1,59 +1,37 @@
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: An open platform that extending your native Kubernetes to edge.
+  featured: true
+  homepage_url: https://openyurt.io/
+  logo: openyurt.svg
+  name: OpenYurt
+  project: incubating
+  repo_url: https://github.com/openyurtio/openyurt
 - crunchbase: https://www.crunchbase.com/organization/sidero-labs
   description: Omni is a Kubernetes orchestrator for bare metal and edge environments.
     It manages full OS and Kubernetes lifecycles with Talos Linux and remote management
     with wireguard communication.
-  extra:
-    blog_url: https://siderolabs.com/blog/
-    documentation_url: https://omni.siderolabs.com
-    other_links:
-    - name: Bluesky
-      url: https://bsky.app/profile/siderolabs.com
-    slack_url: https://slack.dev.talos-systems.io/
-    summary_intro_url: https://youtu.be/0gPF0_fLins
-    youtube_url: https://www.youtube.com/@siderolabs
+  featured: true
   homepage_url: https://siderolabs.com/omni
-  item: null
   logo: omni.svg
   name: Omni
+  project: null
   repo_url: https://github.com/siderolabs/omni
 - crunchbase: https://www.crunchbase.com/organization/open-infrastructure-foundation
+  featured: true
   homepage_url: https://www.openstack.org/
-  item: null
   logo: open-stack.svg
   name: OpenStack
+  project: null
   repo_url: https://github.com/openstack/openstack
-  url_for_bestpractices: https://github.com/openstack
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: OpenTofu is an open source infrastructure as code tool that enables
     users to safely and predictably provision and manage cloud and on-prem infrastructure.
     It's a community-driven fork of Terraform that maintains backward compatibility
     while offering enhanced features, stability.
-  extra:
-    accepted: '2025-04-23'
-    lfx_slug: opentf
+  featured: true
   homepage_url: https://opentofu.org/
-  item: null
   logo: opentofu.svg
   name: OpenTofu
   project: sandbox
   repo_url: https://github.com/opentofu/opentofu
   twitter: https://twitter.com/opentofuorg
-- allow_duplicate_repo: true
-  crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  description: An open platform that extending your native Kubernetes to edge.
-  extra:
-    accepted: '2020-09-08'
-    annual_review_date: '2023-06-02'
-    annual_review_url: https://github.com/cncf/toc/pull/1068
-    clomonitor_name: openyurt
-    dev_stats_url: https://openyurt.devstats.cncf.io/
-    incubating: '2025-01-10'
-    lfx_slug: openyurt
-  homepage_url: https://openyurt.io/
-  item: null
-  logo: openyurt.svg
-  name: OpenYurt
-  project: incubating
-  repo_url: https://github.com/openyurtio/openyurt
-  second_path:
-  - Wasm / Orchestration & Management

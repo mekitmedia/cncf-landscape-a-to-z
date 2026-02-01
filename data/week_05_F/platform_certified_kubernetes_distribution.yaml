@@ -1,17 +1,9 @@
 - description: A community Linux distribution designed for container workloads, with
     high security and low maintenance
-  extra:
-    accepted: '2024-08-02'
-    clomonitor_name: flatcar
-    dev_stats_url: https://flatcar.devstats.cncf.io/
-    incubating: '2024-08-02'
-    lfx_slug: flatcar
+  featured: true
   homepage_url: https://www.flatcar.org/
-  item: null
   logo: flatcar.svg
   name: Flatcar Container Linux
   project: incubating
   repo_url: https://github.com/flatcar/Flatcar
-  second_path:
-  - Wasm / Edge/Bare metal
   twitter: https://twitter.com/flatcar
