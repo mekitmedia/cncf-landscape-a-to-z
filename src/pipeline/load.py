@@ -109,7 +109,15 @@ def generate_summary(output_dir: str = "data", landscape_by_letter: dict = None)
 
 def generate_letter_pages(output_dir: str = "website/content"):
     """
-    Generates content pages for each letter in the website/content directory.
+    Generates Hugo-style content pages for each letter A–Z under ``{output_dir}/letters/``.
+    For each letter, this function creates a directory ``{output_dir}/letters/<LETTER>/`` containing an ``_index.md`` file.
+    That file consists of YAML front matter with the fields:
+    - ``title``: Human-readable title (e.g. "Week 1: Letter A").
+    - ``letter``: The uppercase letter (A–Z).
+    - ``week``: Zero-based week index (0–25).
+    - ``data_key``: Key of the corresponding week's data directory, formatted as ``week_{week_num}_{letter}`` (e.g. ``week_00_A``).
+    - ``layout``: The Hugo layout to use (set to ``"list"``).
+    In addition, a root ``_index.md`` is created in ``{output_dir}/letters/`` that defines the "All Letters" section.
     """
     logger.info("Generating letter pages")
     letters_dir = Path(output_dir) / "letters"
@@ -124,7 +132,7 @@ def generate_letter_pages(output_dir: str = "website/content"):
         letter_dir.mkdir(exist_ok=True)
 
         content = f"""---
-title: "Week {index}: Letter {letter}"
+title: "Week {index + 1}: Letter {letter}"
 letter: "{letter}"
 week: {index}
 data_key: "week_{week_num}_{letter}"

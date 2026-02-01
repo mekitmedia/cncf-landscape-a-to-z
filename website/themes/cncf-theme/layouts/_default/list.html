@@ -22,7 +22,7 @@
     document.addEventListener('DOMContentLoaded', () => {
         const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
         let currentLetter = 'A';
-        let progress = 1; // A is 1st
+        let progress = 0; // A is 0th index
 
         const alphabetContainer = document.getElementById('alphabet-container');
         const progressText = document.getElementById('progress-text');
@@ -71,6 +71,11 @@
             const deepDiveLink = document.getElementById('deep-dive-link');
             if(deepDiveLink) {
                 deepDiveLink.href = `/letters/${letter}/`;
+            }
+
+            const currentLetterIdx = document.getElementById('current-letter-idx');
+            if(currentLetterIdx) {
+                currentLetterIdx.textContent = alphabet.indexOf(letter) + 1;
             }
 
             // Re-initialize icons just in case (though not strictly needed if DOM not changing)
