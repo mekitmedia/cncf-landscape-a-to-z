@@ -48,3 +48,27 @@ jobs:
         with:
           commit_message: "content: update weekly blog post [skip ci]"
           branch: ${{ github.ref }}
+
+  validate-agent:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install uv
+          uv pip install --system -r requirements.txt pytest pytest-asyncio
+
+      - name: Run unit tests
+        env:
+          GOOGLE_API_KEY: "dummy"
+          LOGFIRE_TOKEN: "dummy"
+        run: |
+          PYTHONPATH=. pytest tests/test_flow_mock.py
