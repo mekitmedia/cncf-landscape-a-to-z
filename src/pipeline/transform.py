@@ -48,21 +48,6 @@ _TASKS_CACHE = {}
 
 
 def _get_cached_tasks_index(landscape: list) -> dict:
-    """
-    Build and return a cached index of task names for the given landscape.
-
-    The index maps the first character of each valid item name to a sorted list
-    of item names starting with that character. The cache is stored in the
-    module-level ``_TASKS_CACHE`` dictionary, keyed by the ``id`` of the
-    ``landscape`` object, so repeated calls with the same in-memory landscape
-    reuse the previously computed index.
-
-    Cache management policy:
-    the cache is bounded to a small number of landscapes. When the number of
-    cached landscapes exceeds 5, the entire cache is cleared, effectively
-    discarding older entries and keeping only indices for the most recently
-    processed landscape thereafter.
-    """
     lid = id(landscape)
     if lid in _TASKS_CACHE:
         return _TASKS_CACHE[lid]
@@ -93,24 +78,7 @@ def _get_cached_tasks_index(landscape: list) -> dict:
 
 def get_tasks_for_letter(x: str, landscape: list) -> list:
     """
-    Return task names that match a given prefix, using a cached index for performance.
-
-    The function builds (and reuses) an internal cache of task names indexed by their
-    first character for the provided ``landscape``. Subsequent calls with the same
-    ``landscape`` reuse this cache to avoid repeatedly traversing all items.
-
-    Behavior by input ``x``:
-    - If ``x`` is an empty string or otherwise falsy, all task names for the given
-      ``landscape`` are returned as a single sorted list.
-    - If ``x`` is a single character, all task names whose first character matches
-      that character are returned. These names are drawn from the cached index and
-      are already sorted.
-    - If ``x`` has multiple characters, only task names that start with the full
-      prefix ``x`` are returned (filtered from the single-character bucket).
-
-    Note:
-    - Only valid items (as determined by ``_is_valid_item``) are considered.
-    - The function returns a list of task names (strings), not the full item objects.
+    This function returns a list of tasks (items) for a specific letter
     """
     logger.info(f"Getting tasks for letter {x}")
     index = _get_cached_tasks_index(landscape)
@@ -128,9 +96,6 @@ def get_tasks_for_letter(x: str, landscape: list) -> list:
     if len(x) == 1:
         return list(potential_tasks)
 
-    # For multi-character prefixes, we filter the pre-sorted bucket for the first
-    # character. This preserves sorted order because `_get_cached_tasks_index`
-    # sorts each list of names for a given first character (see line 73).
     return [t for t in potential_tasks if t.startswith(x)]
 
 def get_categories(landscape: list) -> dict:

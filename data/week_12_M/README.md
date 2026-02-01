@@ -1,6 +1,6 @@
 # Summary for week_12_M
 
-This week has a total of 41 items.
+This week has a total of 40 items.
 
 
 - **App Definition And Development Streaming Messaging**: 1 items
@@ -27,7 +27,7 @@ This week has a total of 41 items.
 
 - **Orchestration Management Api Gateway**: 2 items
 
-- **App Definition And Development Application Definition Image Build**: 4 items
+- **App Definition And Development Application Definition Image Build**: 3 items
 
 - **Cnai Data Architecture**: 1 items
 
