@@ -54,3 +54,7 @@ e2e-headed:
 # Run e2e tests with UI
 e2e-ui:
     npx playwright test --ui
+
+# Start Hugo site locally
+hugo:
+    hugo server -s website

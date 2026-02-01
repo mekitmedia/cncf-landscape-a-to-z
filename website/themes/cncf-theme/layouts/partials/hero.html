@@ -1,17 +1,18 @@
+{{ $current := .current }}
 <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-12">
     <div class="lg:col-span-2 bg-gradient-to-br from-blue-700 to-indigo-900 rounded-3xl p-8 text-white relative overflow-hidden shadow-2xl">
         <div class="relative z-10">
             <div class="flex items-center gap-3 mb-6">
                 <span class="bg-white/20 backdrop-blur-md px-3 py-1 rounded-full text-xs font-bold uppercase tracking-tighter">Current Phase</span>
-                <span class="text-blue-200 text-sm flex items-center gap-1"><i data-lucide="calendar" class="w-3.5 h-3.5"></i> Mar 1 - Mar 14</span>
+                <span class="text-blue-200 text-sm flex items-center gap-1"><i data-lucide="calendar" class="w-3.5 h-3.5"></i> Week {{ $current.periodStartWeek }}-{{ $current.periodEndWeek }}</span>
             </div>
-            <h3 class="text-6xl font-black mb-4 tracking-tight">"<span id="current-letter-hero">A</span>" is for Cloud Native.</h3>
+            <h3 class="text-6xl font-black mb-4 tracking-tight">"<span id="current-letter-hero">{{ $current.letter }}</span>" is for Cloud Native.</h3>
             <p class="text-xl text-blue-100 max-w-lg leading-relaxed mb-8">
-                This week we explore the backbone of modern infrastructure. From DNS to Runtimes, "<span id="current-letter-desc">A</span>" houses some of the most critical graduated projects in the ecosystem.
+                This week we explore the backbone of modern infrastructure. From DNS to Runtimes, "{{ $current.letter }}" houses some of the most critical graduated projects in the ecosystem.
             </p>
             <div class="flex flex-wrap gap-4">
-                <a id="deep-dive-link" href="/letters/A/" class="bg-white text-blue-900 px-6 py-3 rounded-xl font-bold hover:bg-blue-50 transition-colors flex items-center gap-2">
-                    <i data-lucide="book-open" class="w-4.5 h-4.5"></i> Deep Dive into <span id="current-letter-btn">A</span>
+                <a id="deep-dive-link" href="/letters/{{ $current.letter }}/" class="bg-white text-blue-900 px-6 py-3 rounded-xl font-bold hover:bg-blue-50 transition-colors flex items-center gap-2">
+                    <i data-lucide="book-open" class="w-4.5 h-4.5"></i> Deep Dive into <span id="current-letter-btn">{{ $current.letter }}</span>
                 </a>
                 <a href="https://landscape.cncf.io/" target="_blank" class="bg-blue-500/30 backdrop-blur-sm border border-white/20 px-6 py-3 rounded-xl font-bold hover:bg-blue-500/40 transition-colors">
                     Full Landscape View
@@ -20,7 +21,7 @@
         </div>
         <!-- Background Decoration -->
         <div class="absolute top-[-20%] right-[-5%] text-[280px] font-black text-white/10 leading-none select-none" id="bg-letter">
-            A
+            {{ $current.letter }}
         </div>
     </div>
 
@@ -28,24 +29,28 @@
         <div>
             <h4 class="text-slate-500 font-bold uppercase tracking-widest text-xs mb-6">Next Letter Unlock</h4>
             <div class="flex items-center gap-4 mb-8">
+                {{ $nextIndex := mod (add $current.index 1) 26 }}
+                {{ $alphabet := split "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "" }}
+                {{ $nextLetter := index $alphabet $nextIndex }}
                 <div class="w-16 h-16 bg-slate-100 rounded-2xl flex items-center justify-center text-3xl font-black text-slate-300">
-                    D
+                    {{ $nextLetter }}
                 </div>
                 <div>
+                    {{/* Simplified countdown logic for static site */}}
                     <div class="text-3xl font-mono font-bold text-slate-800" id="countdown">
-                        10d 04h 32m
+                        Calculating...
                     </div>
-                    <div class="text-sm text-slate-400">Time remaining until 'D' unlock</div>
+                    <div class="text-sm text-slate-400">Time remaining until '{{ $nextLetter }}' unlock</div>
                 </div>
             </div>
             <div class="space-y-4">
                 <div class="flex items-center gap-3 text-slate-600">
                     <i data-lucide="clock" class="text-blue-500 w-4.5 h-4.5"></i>
-                    <span class="text-sm">42 tools discovered this letter</span>
+                    <span class="text-sm">Explore tools for this letter</span>
                 </div>
                 <div class="flex items-center gap-3 text-slate-600">
                     <i data-lucide="star" class="text-amber-500 w-4.5 h-4.5"></i>
-                            <span class="text-sm">12 Graduated projects in "<span id="current-letter-stat">A</span>"</span>
+                            <span class="text-sm">Graduated projects in "<span id="current-letter-stat">{{ $current.letter }}</span>"</span>
                 </div>
             </div>
         </div>
@@ -56,3 +61,4 @@
         </div>
     </div>
 </div>
+

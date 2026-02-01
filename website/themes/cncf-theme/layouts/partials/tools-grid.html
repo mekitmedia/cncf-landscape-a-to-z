@@ -1,15 +1,27 @@
-{{ $dataKey := .Params.data_key | default "00-A" }}
+{{ $current := .current }}
+{{ $context := .context }}
+{{ $dataKey := "00-A" }}
+{{ if $context }}
+    {{ $dataKey = $context.Params.data_key | default "00-A" }}
+{{ end }}
+{{ if $current }}
+    {{ $dataKey = $current.dataKey }}
+{{ end }}
 {{ $normalizedKey := $dataKey }}
 {{ if hasPrefix $dataKey "week_" }}
     {{ $normalizedKey = replaceRE "^week_(\\d{2})_([A-Z])$" "$1-$2" $dataKey }}
 {{ end }}
-{{ $weeksData := index .Site.Data "weeks" }}
+{{ $site := .Site }}
+{{ if .context }}
+    {{ $site = .context.Site }}
+{{ end }}
+{{ $weeksData := index $site.Data "weeks" }}
 {{ $weekData := index $weeksData $normalizedKey }}
 {{ $categoriesData := index $weekData "categories" }}
 
 <div class="flex items-center justify-between mb-8">
     <div>
-        <h2 class="text-2xl font-bold text-slate-900">Featured '<span id="current-letter-featured">{{ .Params.letter | default "A" }}</span>' Tools</h2>
+        <h2 class="text-2xl font-bold text-slate-900">Featured '<span id="current-letter-featured">{{ if $current }}{{ $current.letter }}{{ else if $context }}{{ $context.Params.letter | default "A" }}{{ else }}A{{ end }}</span>' Tools</h2>
         <p class="text-slate-500">Hand-picked highlights from the CNCF registry.</p>
     </div>
     <div class="flex gap-2">
