@@ -36,15 +36,15 @@ def save_tasks(tasks: list, letter: str, index: int, output_dir: str = "data"):
     with open(path, 'w+') as file:
         yaml.dump(tasks, file)
 
-def generate_summary(output_dir: str = "data", landscape_by_letter: dict = None):
+def generate_summary(output_dir: str = "data", landscape_by_letter: dict = None) -> dict:
     """
-    This function generates a summary.md file with a summary of the week's data.
-    Note: Changed from README.md to summary.md to avoid conflicts with Hugo's
-    data directory parsing, which tries to load all files including README.md.
+    This function generates a summary of the week's data and returns it as a dictionary.
     """
     template_loader = jinja2.FileSystemLoader(searchpath="./src/templates")
     template_env = jinja2.Environment(loader=template_loader)
     template = template_env.get_template("weekly_summary.md.j2")
+
+    summaries = {}
 
     if landscape_by_letter:
         for letter, data in landscape_by_letter.items():
@@ -71,12 +71,8 @@ def generate_summary(output_dir: str = "data", landscape_by_letter: dict = None)
                 total_items=total_items,
                 items_per_category=items_per_category
             )
-
-            summary_path = week_dir / "summary.md"
-            logger.info(f"Generating weekly summary at {summary_path}")
-            with open(summary_path, 'w+') as f:
-                f.write(summary_content)
-        return
+            summaries[week_dir_name] = summary_content
+        return summaries
 
     for week_dir in Path(output_dir).glob("week_*"):
         if not week_dir.is_dir():
@@ -103,35 +99,21 @@ def generate_summary(output_dir: str = "data", landscape_by_letter: dict = None)
             total_items=total_items,
             items_per_category=items_per_category
         )
+        summaries[week_dir.name] = summary_content
 
-        summary_path = week_dir / "summary.md"
-        logger.info(f"Generating weekly summary at {summary_path}")
-        with open(summary_path, 'w+') as f:
-            f.write(summary_content)
+    return summaries
 
-def generate_letter_pages(output_dir: str = "website/content"):
+def generate_letter_pages(output_dir: str = "website/content", summaries: dict = None):
     """
-    Generates Hugo-style content pages for each letter A–Z under
-    ``{output_dir}/letters/``.
-
-    For each letter, this function creates a directory
-    ``{output_dir}/letters/<LETTER>/`` containing an ``_index.md`` file.
+    Generates Hugo-style content pages for each letter A–Z under ``{output_dir}/letters/``.
+    For each letter, this function creates a directory ``{output_dir}/letters/<LETTER>/`` containing an ``_index.md`` file.
     That file consists of YAML front matter with the fields:
-
     - ``title``: Human-readable title (e.g. "Week 1: Letter A").
     - ``letter``: The uppercase letter (A–Z).
     - ``week``: Zero-based week index (0–25).
-    - ``data_key``: Key of the corresponding week's data directory,
-      formatted as ``week_{week_num}_{letter}`` (e.g. ``week_00_A``),
-      matching the directory names produced by the data pipeline
-      (such as via ``save_partial_data`` / ``save_tasks``).
+    - ``data_key``: Key of the corresponding week's data directory, formatted as ``week_{week_num}_{letter}`` (e.g. ``week_00_A``).
     - ``layout``: The Hugo layout to use (set to ``"list"``).
-
-    In addition, a root ``_index.md`` is created in
-    ``{output_dir}/letters/`` that defines the "All Letters" section.
-    
-    Args:
-        output_dir: Base output directory path (default: "website/content")
+    In addition, a root ``_index.md`` is created in ``{output_dir}/letters/`` that defines the "All Letters" section.
     """
     logger.info("Generating letter pages")
     letters_dir = Path(output_dir) / "letters"
@@ -145,6 +127,10 @@ def generate_letter_pages(output_dir: str = "website/content"):
         letter_dir = letters_dir / letter
         letter_dir.mkdir(exist_ok=True)
 
+        summary = ""
+        if summaries:
+            summary = summaries.get(f"week_{week_num}_{letter}", "")
+
         content = f"""---
 title: "Week {index + 1}: Letter {letter}"
 letter: "{letter}"
@@ -152,6 +138,8 @@ week: {index}
 data_key: "week_{week_num}_{letter}"
 layout: "list"
 ---
+
+{summary}
 """
         with open(letter_dir / "_index.md", "w") as f:
             f.write(content)
