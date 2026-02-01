@@ -1,16 +1,17 @@
 import os
 from typing import List
 from pydantic_ai import Agent
-from pydantic_ai.models.gemini import GeminiModel
+from pydantic_ai.models.google import GoogleModel
 from src.agentic.models import BlogPostDraft, ResearchOutput
 
 def get_model():
     api_key = os.getenv('GOOGLE_API_KEY')
     if not api_key:
         raise RuntimeError(
-            "GOOGLE_API_KEY environment variable is not set; cannot initialize GeminiModel for writer_agent."
+            "GOOGLE_API_KEY environment variable is not set; cannot initialize GoogleModel for writer_agent."
         )
-    return GeminiModel('gemini-1.5-flash', api_key=api_key)
+    model_name = os.getenv('GEMINI_MODEL', 'gemini-2.5-flash')
+    return GoogleModel(model_name)
 
 model = get_model()
 

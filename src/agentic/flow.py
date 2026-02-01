@@ -2,6 +2,7 @@ import asyncio
 import os
 import glob
 import yaml
+import logfire
 from datetime import datetime
 from typing import List, Optional
 from prefect import flow, task, get_run_logger
@@ -11,6 +12,7 @@ from src.agentic.agents.editor import editor_agent
 from src.agentic.models import ResearchOutput, BlogPostDraft, NextWeekDecision, ProjectMetadata
 
 @task
+@logfire.instrument
 async def determine_next_week() -> NextWeekDecision:
     logger = get_run_logger()
     logger.info("Asking Editor Agent for next week...")
@@ -22,6 +24,7 @@ async def determine_next_week() -> NextWeekDecision:
     return result.data
 
 @task
+@logfire.instrument
 async def get_items_for_week(letter: str) -> List[ProjectMetadata]:
     logger = get_run_logger()
     logger.info(f"Getting items for letter {letter}")
@@ -89,6 +92,7 @@ async def get_items_for_week(letter: str) -> List[ProjectMetadata]:
     return items
 
 @task
+@logfire.instrument
 async def research_item(item: ProjectMetadata) -> ResearchOutput:
     logger = get_run_logger()
     logger.info(f"Researching item: {item.name}")
@@ -110,6 +114,7 @@ async def research_item(item: ProjectMetadata) -> ResearchOutput:
         )
 
 @task
+@logfire.instrument
 async def write_weekly_post(week_letter: str, research_results: List[ResearchOutput]) -> BlogPostDraft:
     logger = get_run_logger()
     logger.info(f"Writing blog post for week {week_letter}")
@@ -120,6 +125,7 @@ async def write_weekly_post(week_letter: str, research_results: List[ResearchOut
     return result.data
 
 @task
+@logfire.instrument
 async def save_post(week_letter: str, draft: BlogPostDraft):
     logger = get_run_logger()
     year = datetime.now().year
@@ -142,6 +148,7 @@ draft: false
     logger.info("Post saved.")
 
 @flow(name="Weekly Content Flow")
+@logfire.instrument
 async def weekly_content_flow(limit: Optional[int] = None):
     """
     Main workflow that processes CNCF projects week by week.

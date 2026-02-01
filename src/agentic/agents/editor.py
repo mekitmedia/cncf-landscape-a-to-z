@@ -1,8 +1,9 @@
 import os
 import glob
+import logfire
 from pathlib import Path
 from pydantic_ai import Agent, RunContext
-from pydantic_ai.models.gemini import GeminiModel
+from pydantic_ai.models.google import GoogleModel
 from src.agentic.models import NextWeekDecision
 
 def get_model():
@@ -12,10 +13,12 @@ def get_model():
             "GOOGLE_API_KEY environment variable is not set. "
             "Cannot initialize the editor agent without a configured Gemini model."
         )
-    return GeminiModel('gemini-1.5-flash', api_key=api_key)
+    model_name = os.getenv('GEMINI_MODEL', 'gemini-2.5-flash')
+    return GoogleModel(model_name)
 
 model = get_model()
 
+@logfire.instrument
 def check_week_status(ctx: RunContext, week_letter: str) -> str:
     """Checks if the blog post for the given week letter exists."""
     # Validate input to prevent path traversal
@@ -34,6 +37,7 @@ def check_week_status(ctx: RunContext, week_letter: str) -> str:
         return f"Exists: {files[0]}"
     return "Not Found"
 
+@logfire.instrument
 def check_todo(ctx: RunContext) -> str:
     """Reads the TODO.md file to track progress and memory across sessions."""
     todo_path = "TODO.md"
@@ -45,6 +49,7 @@ def check_todo(ctx: RunContext) -> str:
     except Exception as e:
         return f"Error reading TODO.md: {e}"
 
+@logfire.instrument
 def update_todo(ctx: RunContext, content: str) -> str:
     """Updates the TODO.md file with new notes or progress."""
     todo_path = "TODO.md"
@@ -55,6 +60,7 @@ def update_todo(ctx: RunContext, content: str) -> str:
     except Exception as e:
         return f"Error writing TODO.md: {e}"
 
+@logfire.instrument
 def read_week_summary(ctx: RunContext, week_letter: str) -> str:
     """Reads the README.md summary for a specific week's data to understand workload."""
     # Validate input to prevent path traversal
