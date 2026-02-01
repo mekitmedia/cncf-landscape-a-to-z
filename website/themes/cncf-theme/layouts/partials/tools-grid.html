@@ -7,8 +7,8 @@
         <p class="text-slate-500">Hand-picked highlights from the CNCF registry.</p>
     </div>
     <div class="flex gap-2">
-        <button class="p-2 bg-white border border-slate-200 rounded-lg hover:bg-slate-50 shadow-sm"><i data-lucide="search" class="w-5 h-5"></i></button>
-        <button class="p-2 bg-white border border-slate-200 rounded-lg hover:bg-slate-50 shadow-sm"><i data-lucide="layout-grid" class="w-5 h-5"></i></button>
+        <button class="p-2 bg-white border border-slate-200 rounded-lg hover:bg-slate-50 shadow-sm" aria-label="Search tools" title="Search tools"><i data-lucide="search" class="w-5 h-5"></i></button>
+        <button class="p-2 bg-white border border-slate-200 rounded-lg hover:bg-slate-50 shadow-sm" aria-label="Toggle grid view" title="Toggle grid view"><i data-lucide="layout-grid" class="w-5 h-5"></i></button>
     </div>
 </div>
 
@@ -31,7 +31,7 @@
                             {{ end }}
                             <div class="px-2 py-1 rounded text-[10px] font-bold uppercase tracking-tighter {{ $projectClass }}">{{ .project }}</div>
                             {{ end }}
-                            <button class="text-slate-300 hover:text-amber-400 transition-colors"><i data-lucide="star" class="w-4.5 h-4.5"></i></button>
+                            <button class="text-slate-300 hover:text-amber-400 transition-colors" aria-label="Add {{ .name }} to watchlist" title="Add {{ .name }} to watchlist"><i data-lucide="star" class="w-4.5 h-4.5"></i></button>
                         </div>
                         <h4 class="text-xl font-bold mb-2 group-hover:text-blue-600 transition-colors">{{ .name }}</h4>
                         <p class="text-sm text-slate-500 mb-6 min-h-[40px] leading-relaxed line-clamp-3">{{ .description }}</p>
@@ -39,7 +39,7 @@
                              <span class="flex items-center gap-1 uppercase tracking-tighter truncate max-w-[150px]">{{ $filename | replaceRE "_" " " | humanize }}</span>
                             <div class="flex gap-2">
                                 {{ if .homepage_url }}
-                                <a href="{{ .homepage_url }}" target="_blank" class="flex items-center gap-1 hover:text-blue-600"><i data-lucide="external-link" class="w-3 h-3"></i></a>
+                                <a href="{{ .homepage_url }}" target="_blank" class="flex items-center gap-1 hover:text-blue-600" aria-label="Visit homepage of {{ .name }}" title="Visit homepage of {{ .name }}"><i data-lucide="external-link" class="w-3 h-3"></i></a>
                                 {{ end }}
                             </div>
                         </div>
