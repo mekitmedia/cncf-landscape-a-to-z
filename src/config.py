@@ -70,6 +70,7 @@ class AppConfig:
     templates_dir: Path
     todo_path: Path
     landscape_source: str
+    agents: Dict[str, Any]
 
 
 class Config:
@@ -149,6 +150,10 @@ class Config:
             ["urls", "landscape_source"],
             "https://raw.githubusercontent.com/cncf/landscape/master/landscape.yml",
         )
+
+    @property
+    def agents(self) -> Dict[str, Any]:
+        return _get_nested(self._config, ["agents"], {})
     
     def to_app_config(self) -> AppConfig:
         """Convert to the legacy AppConfig dataclass for backward compatibility."""
@@ -167,6 +172,7 @@ class Config:
             templates_dir=self.templates_dir,
             todo_path=self.todo_path,
             landscape_source=self.landscape_source,
+            agents=self.agents,
         )
 
 

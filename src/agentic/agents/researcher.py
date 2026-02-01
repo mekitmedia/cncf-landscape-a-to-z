@@ -1,21 +1,11 @@
 import os
 from pydantic_ai import Agent
-from pydantic_ai.models.google import GoogleModel
 from src.agentic.models import ResearchOutput, ProjectMetadata
 from src.agentic.tools.search import search_tool
 from src.agentic.tools.tracker import update_tracker_status
+from src.agentic.config import get_model
 
-def get_model():
-    api_key = os.getenv('GOOGLE_API_KEY')
-    if not api_key:
-        raise RuntimeError(
-            "GOOGLE_API_KEY environment variable is not set. "
-            "Cannot initialize GoogleModel for researcher_agent."
-        )
-    model_name = os.getenv('GEMINI_MODEL', 'gemini-2.5-flash')
-    return GoogleModel(model_name)
-
-model = get_model()
+model = get_model('researcher')
 
 researcher_agent = Agent(
     model,
