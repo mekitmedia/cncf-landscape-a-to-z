@@ -4,7 +4,7 @@
   "description": "This repository provides a template for creating a Hugo-based static site, optimized for deployment as GitHub Pages. It offers a streamlined setup for developers to quickly launch a new website with minimal configuration. The structure includes a pre-configured `hugo.toml` file and essential directories, allowing you to focus on content creation from the start.",
   "main": "index.js",
   "scripts": {
-    "test": "playwright test",
+    "test": "playwright test --reporter=list",
     "test:headed": "playwright test --headed",
     "test:ui": "playwright test --ui",
     "build:css": "tailwindcss -i ./website/assets/css/input.css -o ./website/themes/cncf-theme/static/css/style.css",

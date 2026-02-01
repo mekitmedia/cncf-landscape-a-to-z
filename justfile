@@ -42,3 +42,15 @@ tools:
 # Run unit tests
 test:
     PYTHONPATH=. uv run pytest tests/
+
+# Run e2e tests (headless)
+e2e:
+    npx playwright test
+
+# Run e2e tests in headed mode
+e2e-headed:
+    npx playwright test --headed
+
+# Run e2e tests with UI
+e2e-ui:
+    npx playwright test --ui

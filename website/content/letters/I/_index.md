@@ -1,5 +1,5 @@
 ---
-title: "Week 9: Letter I"
+title: "Letter I - CNCF Landscape"
 letter: "I"
 week: 8
 data_key: "08-I"

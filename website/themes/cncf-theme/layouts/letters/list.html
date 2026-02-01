@@ -16,8 +16,8 @@
         {{ if $dataKey }}
             {{ $weeksData := index .Site.Data "weeks" }}
             {{ $weekData := index $weeksData $normalizedKey }}
-            {{ $categoriesData := index $weekData "categories" }}
-            {{ $researchData := index $weekData "research" }}
+            {{ $categoriesData := $weekData.categories }}
+            {{ $researchData := $weekData.research }}
 
             {{ if $weekData }}
                 {{ range $filename, $items := $categoriesData }}

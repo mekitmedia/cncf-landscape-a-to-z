@@ -1,5 +1,5 @@
 ---
-title: "Week 7: Letter G"
+title: "Letter G - CNCF Landscape"
 letter: "G"
 week: 6
 data_key: "06-G"
