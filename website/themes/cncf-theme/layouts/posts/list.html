@@ -1,0 +1,45 @@
+{{ define "main" }}
+<div class="min-h-screen bg-slate-50 font-sans text-slate-900">
+    {{ partial "nav.html" . }}
+
+    <main class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <header class="mb-16 text-center">
+            <h1 class="text-5xl md:text-7xl font-black mb-6 tracking-tighter text-slate-900">{{ .Title }}</h1>
+            <p class="text-xl text-slate-500 max-w-2xl mx-auto leading-relaxed">{{ .Params.description }}</p>
+        </header>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {{ range .Pages.ByDate.Reverse }}
+            <article class="bg-white group rounded-[2.5rem] border border-slate-200 hover:border-blue-400 hover:shadow-2xl hover:shadow-blue-100/50 transition-all duration-500 overflow-hidden flex flex-col">
+                <div class="h-2 w-full bg-slate-100 group-hover:bg-blue-600 transition-colors duration-500"></div>
+                <div class="p-8 md:p-10 flex-grow">
+                    <div class="flex items-center gap-3 mb-6">
+                        <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-500 text-[10px] font-black uppercase tracking-widest group-hover:bg-blue-50 group-hover:text-blue-600 transition-colors">
+                            Perspective
+                        </span>
+                        <time class="text-xs font-bold text-slate-400 uppercase tracking-tighter">{{ .Date.Format "Jan 02, 2006" }}</time>
+                    </div>
+                    
+                    <h2 class="text-3xl font-black mb-4 tracking-tight text-slate-900 group-hover:text-blue-600 transition-colors leading-tight">
+                        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                    </h2>
+                    
+                    <div class="text-slate-500 mb-8 line-clamp-3 leading-relaxed">
+                        {{ .Summary }}
+                    </div>
+                </div>
+                
+                <div class="px-8 md:px-10 pb-10 mt-auto">
+                    <a href="{{ .RelPermalink }}" class="inline-flex items-center gap-2 font-bold text-slate-900 group-hover:text-blue-600 transition-colors">
+                        Explore Story 
+                        <div class="w-8 h-8 rounded-full bg-slate-100 flex items-center justify-center group-hover:bg-blue-600 group-hover:text-white transition-all">
+                            <i data-lucide="arrow-right" class="w-4 h-4 group-hover:translate-x-0.5 transition-transform"></i>
+                        </div>
+                    </a>
+                </div>
+            </article>
+            {{ end }}
+        </div>
+    </main>
+</div>
+{{ end }}
