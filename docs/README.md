@@ -65,6 +65,27 @@ Deep dive into the AI-powered content generation system:
 
 ---
 
+### [tracker.md](tracker.md)
+**Task Tracker System**
+
+Comprehensive guide to the task tracking and state management system:
+- Task types, states, and dependency management
+- Data models and storage architecture
+- Integration with agentic workflow
+- Progress tracking and error handling
+- Synchronization with ETL pipeline
+- Configuration and extensibility
+- Troubleshooting and debugging
+
+**Read this when:**
+- Understanding how tasks are tracked and managed
+- Working with task dependencies and state
+- Debugging workflow progress issues
+- Adding new task types or modifying tracking behavior
+- Implementing custom tracker backends
+
+---
+
 ### [website-architecture.md](website-architecture.md)
 **Website Design & Integration**
 
@@ -131,8 +152,12 @@ ETL Pipeline
 data/week_XX_Y/*.yaml (project metadata)
     ↓
 Agentic Workflow (reads)
+    ├─> Tracker System (data/week_XX_Y/tracker.yaml)
+    │   ├─> Task state management and dependencies
+    │   ├─> Progress tracking and error handling
+    │   └─> Synchronization with ETL changes
     ├─> data/week_XX_Y/research/*.yaml (persisted research)
-    └─> website/content/posts/*.md (final blog posts)
+    ├─> website/content/posts/*.md (final blog posts)
     └─> TODO.md (state tracking)
 ```
 
@@ -140,9 +165,10 @@ Agentic Workflow (reads)
 
 The system is designed with **exclusive write zones** to prevent conflicts:
 
-| Directory | ETL | Agentic | Purpose |
-|-----------|-----|---------|---------|
+| Directory/File | ETL | Agentic | Purpose |
+|---------------|-----|---------|---------|
 | `data/week_XX_Y/*.yaml` | ✅ Write | ❌ Read-only | Project metadata |
+| `data/week_XX_Y/tracker.yaml` | ❌ Never | ✅ Write | Task state tracking |
 | `data/week_XX_Y/research/` | ❌ Never | ✅ Write | Research persistence |
 | `website/content/letters/` | ✅ Write | ❌ Never | Hugo letter pages |
 | `website/content/posts/` | ❌ Never | ✅ Write (Editor only) | Blog posts |
