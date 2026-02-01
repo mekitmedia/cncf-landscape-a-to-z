@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+@source "../../themes/cncf-theme/layouts/**/*.html";
+@source "../../content/**/*.md";
+@source "../../assets/js/**/*.js";
