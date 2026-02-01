@@ -2,11 +2,11 @@
 title: "Week 18: Letter R"
 letter: "R"
 week: 17
-data_key: "week_17_R"
+data_key: "17-R"
 layout: "list"
 ---
 
-# Summary for week_17_R
+# Summary for 17-R
 
 This week has a total of 20 items.
 

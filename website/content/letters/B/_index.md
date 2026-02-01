@@ -2,11 +2,11 @@
 title: "Week 2: Letter B"
 letter: "B"
 week: 1
-data_key: "week_01_B"
+data_key: "01-B"
 layout: "list"
 ---
 
-# Summary for week_01_B
+# Summary for 01-B
 
 This week has a total of 16 items.
 

@@ -2,11 +2,11 @@
 title: "Week 13: Letter M"
 letter: "M"
 week: 12
-data_key: "week_12_M"
+data_key: "12-M"
 layout: "list"
 ---
 
-# Summary for week_12_M
+# Summary for 12-M
 
 This week has a total of 38 items.
 

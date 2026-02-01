@@ -2,11 +2,11 @@
 title: "Week 8: Letter H"
 letter: "H"
 week: 7
-data_key: "week_07_H"
+data_key: "07-H"
 layout: "list"
 ---
 
-# Summary for week_07_H
+# Summary for 07-H
 
 This week has a total of 21 items.
 

@@ -53,27 +53,27 @@ _CONFIG: Optional[AppConfig] = None
 
 
 def load_config() -> AppConfig:
-        """Load config.yaml overrides and memoize the resolved AppConfig.
+    """Load config.yaml overrides and memoize the resolved AppConfig.
 
-        config.yaml (optional) structure:
+    config.yaml (optional) structure:
 
-        paths:
-            data_dir: data
-            weeks_dir: data/weeks
-            index_dir: data/index
-            stats_dir: data/stats
-            extras_dir: data/extras
-            website_dir: website
-            hugo_content_dir: website/content
-            hugo_posts_dir: website/content/posts
-            hugo_letters_dir: website/content/letters
-            hugo_tools_dir: website/content/tools
-            templates_dir: src/templates
-            todo_path: TODO.md
+    paths:
+      data_dir: data
+      weeks_dir: data/weeks
+      index_dir: data/index
+      stats_dir: data/stats
+      extras_dir: data/extras
+      website_dir: website
+      hugo_content_dir: website/content
+      hugo_posts_dir: website/content/posts
+      hugo_letters_dir: website/content/letters
+      hugo_tools_dir: website/content/tools
+      templates_dir: src/templates
+      todo_path: TODO.md
 
-        urls:
-            landscape_source: https://raw.githubusercontent.com/cncf/landscape/master/landscape.yml
-        """
+    urls:
+      landscape_source: https://raw.githubusercontent.com/cncf/landscape/master/landscape.yml
+    """
     global _CONFIG
     if _CONFIG is not None:
         return _CONFIG

@@ -2,11 +2,11 @@
 title: "Week 23: Letter W"
 letter: "W"
 week: 22
-data_key: "week_22_W"
+data_key: "22-W"
 layout: "list"
 ---
 
-# Summary for week_22_W
+# Summary for 22-W
 
 This week has a total of 27 items.
 

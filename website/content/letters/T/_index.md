@@ -2,11 +2,11 @@
 title: "Week 20: Letter T"
 letter: "T"
 week: 19
-data_key: "week_19_T"
+data_key: "19-T"
 layout: "list"
 ---
 
-# Summary for week_19_T
+# Summary for 19-T
 
 This week has a total of 43 items.
 

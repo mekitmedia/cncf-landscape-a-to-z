@@ -2,11 +2,11 @@
 title: "Week 3: Letter C"
 letter: "C"
 week: 2
-data_key: "week_02_C"
+data_key: "02-C"
 layout: "list"
 ---
 
-# Summary for week_02_C
+# Summary for 02-C
 
 This week has a total of 75 items.
 

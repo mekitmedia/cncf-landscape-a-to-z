@@ -2,11 +2,11 @@
 title: "Week 10: Letter J"
 letter: "J"
 week: 9
-data_key: "week_09_J"
+data_key: "09-J"
 layout: "list"
 ---
 
-# Summary for week_09_J
+# Summary for 09-J
 
 This week has a total of 8 items.
 

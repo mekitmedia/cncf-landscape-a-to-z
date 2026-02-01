@@ -2,11 +2,11 @@
 title: "Week 5: Letter E"
 letter: "E"
 week: 4
-data_key: "week_04_E"
+data_key: "04-E"
 layout: "list"
 ---
 
-# Summary for week_04_E
+# Summary for 04-E
 
 This week has a total of 22 items.
 

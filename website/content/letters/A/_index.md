@@ -2,11 +2,11 @@
 title: "Week 1: Letter A"
 letter: "A"
 week: 0
-data_key: "week_00_A"
+data_key: "00-A"
 layout: "list"
 ---
 
-# Summary for week_00_A
+# Summary for 00-A
 
 This week has a total of 61 items.
 

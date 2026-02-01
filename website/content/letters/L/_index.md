@@ -2,11 +2,11 @@
 title: "Week 12: Letter L"
 letter: "L"
 week: 11
-data_key: "week_11_L"
+data_key: "11-L"
 layout: "list"
 ---
 
-# Summary for week_11_L
+# Summary for 11-L
 
 This week has a total of 18 items.
 

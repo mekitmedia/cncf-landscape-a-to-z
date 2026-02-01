@@ -2,11 +2,11 @@
 title: "Week 22: Letter V"
 letter: "V"
 week: 21
-data_key: "week_21_V"
+data_key: "21-V"
 layout: "list"
 ---
 
-# Summary for week_21_V
+# Summary for 21-V
 
 This week has a total of 14 items.
 

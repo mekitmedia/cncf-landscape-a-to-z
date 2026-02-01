@@ -20,14 +20,38 @@ class TestMain(unittest.TestCase):
             'stats/stats_by_status.yaml': {'graduated': 1},
             'extras/excluded_items.yaml': ['Item 2 (no repo)', 'Item 4 (no repo)'],
             'weeks/00-A/categories/category_1_subcategory_1.yaml': [
-                {'name': 'Another Item', 'repo_url': 'https://github.com/another/item', 'project': 'graduated', 'featured': True},
-                {'name': 'An item starting with A', 'repo_url': 'https://github.com/a/item', 'project': None, 'featured': True}
+                {
+                    'name': 'Another Item',
+                    'repo_url': 'https://github.com/another/item',
+                    'homepage_url': None,
+                    'project': 'graduated',
+                    'featured': True,
+                },
+                {
+                    'name': 'An item starting with A',
+                    'repo_url': 'https://github.com/a/item',
+                    'homepage_url': None,
+                    'project': None,
+                    'featured': True,
+                }
             ],
             'weeks/08-I/categories/category_1_subcategory_1.yaml': [
-                {'name': 'Item 1', 'repo_url': 'https://github.com/item1/item1', 'project': None, 'featured': True}
+                {
+                    'name': 'Item 1',
+                    'repo_url': 'https://github.com/item1/item1',
+                    'homepage_url': None,
+                    'project': None,
+                    'featured': True,
+                }
             ],
             'weeks/08-I/categories/category_2_subcategory_2.yaml': [
-                {'name': 'Item 3', 'repo_url': 'https://github.com/item3/item3', 'project': None, 'featured': True}
+                {
+                    'name': 'Item 3',
+                    'repo_url': 'https://github.com/item3/item3',
+                    'homepage_url': None,
+                    'project': None,
+                    'featured': True,
+                }
             ],
         }
 

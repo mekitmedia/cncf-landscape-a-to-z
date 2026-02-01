@@ -2,11 +2,11 @@
 title: "Week 26: Letter Z"
 letter: "Z"
 week: 25
-data_key: "week_25_Z"
+data_key: "25-Z"
 layout: "list"
 ---
 
-# Summary for week_25_Z
+# Summary for 25-Z
 
 This week has a total of 6 items.
 

@@ -2,11 +2,11 @@
 title: "Week 14: Letter N"
 letter: "N"
 week: 13
-data_key: "week_13_N"
+data_key: "13-N"
 layout: "list"
 ---
 
-# Summary for week_13_N
+# Summary for 13-N
 
 This week has a total of 26 items.
 

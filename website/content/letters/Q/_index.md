@@ -2,11 +2,11 @@
 title: "Week 17: Letter Q"
 letter: "Q"
 week: 16
-data_key: "week_16_Q"
+data_key: "16-Q"
 layout: "list"
 ---
 
-# Summary for week_16_Q
+# Summary for 16-Q
 
 This week has a total of 5 items.
 

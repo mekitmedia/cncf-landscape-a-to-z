@@ -2,11 +2,11 @@
 title: "Week 15: Letter O"
 letter: "O"
 week: 14
-data_key: "week_14_O"
+data_key: "14-O"
 layout: "list"
 ---
 
-# Summary for week_14_O
+# Summary for 14-O
 
 This week has a total of 56 items.
 

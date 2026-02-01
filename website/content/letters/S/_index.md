@@ -2,11 +2,11 @@
 title: "Week 19: Letter S"
 letter: "S"
 week: 18
-data_key: "week_18_S"
+data_key: "18-S"
 layout: "list"
 ---
 
-# Summary for week_18_S
+# Summary for 18-S
 
 This week has a total of 80 items.
 

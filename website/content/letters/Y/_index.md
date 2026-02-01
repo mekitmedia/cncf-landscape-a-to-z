@@ -2,11 +2,11 @@
 title: "Week 25: Letter Y"
 letter: "Y"
 week: 24
-data_key: "week_24_Y"
+data_key: "24-Y"
 layout: "list"
 ---
 
-# Summary for week_24_Y
+# Summary for 24-Y
 
 This week has a total of 4 items.
 

@@ -2,11 +2,11 @@
 title: "Week 7: Letter G"
 letter: "G"
 week: 6
-data_key: "week_06_G"
+data_key: "06-G"
 layout: "list"
 ---
 
-# Summary for week_06_G
+# Summary for 06-G
 
 This week has a total of 33 items.
 

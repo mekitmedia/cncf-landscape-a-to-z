@@ -2,11 +2,11 @@
 title: "Week 6: Letter F"
 letter: "F"
 week: 5
-data_key: "week_05_F"
+data_key: "05-F"
 layout: "list"
 ---
 
-# Summary for week_05_F
+# Summary for 05-F
 
 This week has a total of 26 items.
 

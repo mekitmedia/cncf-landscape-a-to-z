@@ -2,11 +2,11 @@
 title: "Week 11: Letter K"
 letter: "K"
 week: 10
-data_key: "week_10_K"
+data_key: "10-K"
 layout: "list"
 ---
 
-# Summary for week_10_K
+# Summary for 10-K
 
 This week has a total of 106 items.
 

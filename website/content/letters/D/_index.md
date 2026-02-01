@@ -2,11 +2,11 @@
 title: "Week 4: Letter D"
 letter: "D"
 week: 3
-data_key: "week_03_D"
+data_key: "03-D"
 layout: "list"
 ---
 
-# Summary for week_03_D
+# Summary for 03-D
 
 This week has a total of 30 items.
 
