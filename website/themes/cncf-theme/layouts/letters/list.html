@@ -9,47 +9,58 @@
         </div>
 
         {{ $dataKey := .Params.data_key }}
-        {{ $weekData := index .Site.Data $dataKey }}
+        {{ if $dataKey }}
+            {{ $weekData := index .Site.Data $dataKey }}
 
-        {{ if $weekData }}
-            {{ range $filename, $items := $weekData }}
-                {{ if and (ne $filename "tasks") (ne $filename "README") }}
-                    <div class="mb-12">
-                        <h2 class="text-xl font-bold mb-6 border-b border-slate-200 pb-2 capitalize">{{ $filename | replaceRE "_" " " | title }}</h2>
-                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                            {{ range $items }}
-                                <div class="bg-white p-6 rounded-2xl border border-slate-200 hover:border-blue-400 hover:shadow-xl hover:shadow-blue-50 transition-all group">
-                                    <div class="flex justify-between items-start mb-4">
-                                        {{ if .project }}
-                                        <div class="px-2 py-1 rounded text-[10px] font-bold uppercase tracking-tighter bg-blue-100 text-blue-700">{{ .project }}</div>
-                                        {{ end }}
-                                    </div>
-                                    <div class="flex items-center gap-3 mb-2">
-                                        {{ if .logo }}
-                                        <!-- Assuming logos might be available, but avoiding broken images for now -->
-                                        <!-- <img src="https://landscape.cncf.io/logos/{{ .logo }}" class="w-8 h-8 object-contain" alt="{{ .name }} logo"> -->
-                                        {{ end }}
-                                        <h4 class="text-xl font-bold group-hover:text-blue-600 transition-colors">{{ .name }}</h4>
-                                    </div>
-                                    <p class="text-sm text-slate-500 mb-6 min-h-[40px] leading-relaxed line-clamp-3">{{ .description }}</p>
-                                    <div class="flex items-center justify-between pt-4 border-t border-slate-100 text-xs font-medium text-slate-400">
-                                        <div class="flex gap-3">
-                                            {{ if .repo_url }}
-                                            <a href="{{ .repo_url }}" target="_blank" class="flex items-center gap-1 hover:text-blue-600"><i data-lucide="github" class="w-3 h-3"></i> Repo</a>
-                                            {{ end }}
-                                            {{ if .homepage_url }}
-                                            <a href="{{ .homepage_url }}" target="_blank" class="flex items-center gap-1 hover:text-blue-600"><i data-lucide="external-link" class="w-3 h-3"></i> Web</a>
+            {{ if $weekData }}
+                {{ range $filename, $items := $weekData }}
+                    {{ if and (ne $filename "tasks") (ne $filename "README") }}
+                        <div class="mb-12">
+                            <h2 class="text-xl font-bold mb-6 border-b border-slate-200 pb-2 capitalize">{{ $filename | replaceRE "_" " " | title }}</h2>
+                            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                                {{ range $items }}
+                                    <div class="bg-white p-6 rounded-2xl border border-slate-200 hover:border-blue-400 hover:shadow-xl hover:shadow-blue-50 transition-all group">
+                                        <div class="flex justify-between items-start mb-4">
+                                            {{ if .project }}
+                                            <div class="px-2 py-1 rounded text-[10px] font-bold uppercase tracking-tighter bg-blue-100 text-blue-700">{{ .project }}</div>
                                             {{ end }}
                                         </div>
+                                        <div class="flex items-center gap-3 mb-2">
+                                            {{ if .logo }}
+                                            <!-- Assuming logos might be available, but avoiding broken images for now -->
+                                            <!-- <img src="https://landscape.cncf.io/logos/{{ .logo }}" class="w-8 h-8 object-contain" alt="{{ .name }} logo"> -->
+                                            {{ end }}
+                                            <h4 class="text-xl font-bold group-hover:text-blue-600 transition-colors">{{ .name }}</h4>
+                                        </div>
+                                        <p class="text-sm text-slate-500 mb-6 min-h-[40px] leading-relaxed line-clamp-3">{{ .description }}</p>
+                                        <div class="flex items-center justify-between pt-4 border-t border-slate-100 text-xs font-medium text-slate-400">
+                                            <div class="flex gap-3">
+                                                {{ if .repo_url }}
+                                                <a href="{{ .repo_url }}" target="_blank" class="flex items-center gap-1 hover:text-blue-600"><i data-lucide="github" class="w-3 h-3"></i> Repo</a>
+                                                {{ end }}
+                                                {{ if .homepage_url }}
+                                                <a href="{{ .homepage_url }}" target="_blank" class="flex items-center gap-1 hover:text-blue-600"><i data-lucide="external-link" class="w-3 h-3"></i> Web</a>
+                                                {{ end }}
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                            {{ end }}
+                                {{ end }}
+                            </div>
                         </div>
-                    </div>
+                    {{ end }}
                 {{ end }}
+            {{ else }}
+                <p>No data found for {{ $dataKey }}. Please ensure the ETL pipeline has run.</p>
             {{ end }}
         {{ else }}
-            <p>No data found for {{ $dataKey }}. Please ensure the ETL pipeline has run.</p>
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+                {{ range (seq 0 25) }}
+                    {{ $char := printf "%c" (add . 65) }}
+                    <a href="/letters/{{ $char }}/" class="block p-4 bg-white rounded-lg border border-slate-200 hover:border-blue-500 hover:shadow-md text-center font-bold text-xl text-slate-700 hover:text-blue-600 transition-all">
+                        {{ $char }}
+                    </a>
+                {{ end }}
+            </div>
         {{ end }}
 
         {{ partial "letter-footer.html" . }}

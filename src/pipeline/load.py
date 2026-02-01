@@ -133,3 +133,12 @@ layout: "list"
 """
         with open(letter_dir / "_index.md", "w") as f:
             f.write(content)
+
+    # Generate the root section index for letters
+    content_root = """---
+title: "All Letters"
+layout: "list"
+---
+"""
+    with open(letters_dir / "_index.md", "w") as f:
+        f.write(content_root)
