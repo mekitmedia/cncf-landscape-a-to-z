@@ -6,6 +6,11 @@ buildFuture = true
 dataDir = "../data"
 ignoreFiles = ['README\.md$']
 
+[params]
+  description = "A 52-week journey through the CNCF Landscape, exploring one letter every two weeks."
+  author = "CNCF Journey Team"
+  images = ["/images/og-image.png"] # Note: Ensure this exists or is replaced
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
