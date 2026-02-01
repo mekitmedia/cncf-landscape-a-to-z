@@ -4,6 +4,7 @@ title = 'CNCF Landscape Overview'
 theme = 'cncf-theme'
 buildFuture = true
 dataDir = "../data"
+ignoreFiles = ["\\.md$"]
 
 [caches]
   [caches.images]
