@@ -16,8 +16,7 @@ venv:
 
 # Install Python dependencies using uv
 install:
-    uv pip install --system -r requirements.txt
-    uv pip install --system -r requirements-dev.txt
+    uv sync
 
 # Run ETL pipeline
 etl:
