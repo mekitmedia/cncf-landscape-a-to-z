@@ -8,7 +8,7 @@ def get_model(agent_name: str):
     
     # Try to get agent-specific model from config, fallback to default_model, then env, then hardcoded default
     agent_settings = cfg.agents.get(agent_name, {}) if hasattr(cfg, 'agents') else {}
-    default_model = cfg.agents.get('default_model', 'gemini-2.0-flash') if hasattr(cfg, 'agents') else 'gemini-2.0-flash'
+    default_model = cfg.agents.get('default_model', 'gemini-3-flash') if hasattr(cfg, 'agents') else 'gemini-3-flash'
     
     model_name = agent_settings.get('model') or os.getenv('GEMINI_MODEL') or default_model
     
@@ -20,3 +20,22 @@ def get_model(agent_name: str):
         )
     
     return GoogleModel(model_name)
+
+def get_available_models():
+    """Get a list of available models for the UI."""
+    api_key = os.getenv('GOOGLE_API_KEY')
+    if not api_key:
+        return []
+    
+    # Models available in the environment as per the provided screenshot
+    model_names = [
+        'gemini-3-flash',
+        'gemini-2.5-flash',
+        'gemini-2.5-flash-lite',
+        'gemma-3-27b',
+        'gemma-3-12b',
+        'gemma-3-4b',
+        'gemma-3-2b',
+        'gemma-3-1b',
+    ]
+    return [GoogleModel(name) for name in model_names]

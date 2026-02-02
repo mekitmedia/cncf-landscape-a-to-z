@@ -9,7 +9,10 @@ logger = logging.getLogger(__name__)
 def create_app(agent_name: str, **kwargs):
     from src.config import load_config
     from src.agentic.deps import AgentDeps, ResearcherDeps, WriterDeps
+    from src.agentic.config import get_available_models
+    
     cfg = load_config()
+    models = get_available_models()
 
     if agent_name == "researcher":
         from src.agentic.agents.researcher import researcher_agent
@@ -19,15 +22,15 @@ def create_app(agent_name: str, **kwargs):
             project=ProjectMetadata(name="CNCF", week_letter="A"), 
             config=cfg
         )
-        return researcher_agent.to_web(deps=default_deps)
+        return researcher_agent.to_web(deps=default_deps, models=models)
     elif agent_name == "writer":
         from src.agentic.agents.writer import writer_agent
         # Provide default deps for the UI
         default_deps = WriterDeps(research_results=[], week_letter="A", config=cfg)
-        return writer_agent.to_web(deps=default_deps)
+        return writer_agent.to_web(deps=default_deps, models=models)
     elif agent_name == "editor":
         from src.agentic.agents.editor import editor_agent
-        return editor_agent.to_web(deps=AgentDeps(config=cfg))
+        return editor_agent.to_web(deps=AgentDeps(config=cfg), models=models)
     else:
         raise ValueError(f"Unknown agent: {agent_name}")
 
