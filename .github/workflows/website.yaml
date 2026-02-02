@@ -31,6 +31,8 @@ permissions:
 jobs:
   # Test job
   test:
+    # Skip tests on scheduled runs (daily rebuilds don't need testing)
+    if: github.event_name != 'schedule'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -81,7 +83,9 @@ jobs:
 
   # Build job
   build:
+    # Run if tests pass OR if tests were skipped (on schedule)
     needs: test
+    if: always() && (needs.test.result == 'success' || needs.test.result == 'skipped')
     runs-on: ubuntu-latest
     env:
       KROKI_VERSION: 0.5.0
