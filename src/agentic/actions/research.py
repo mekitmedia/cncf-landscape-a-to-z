@@ -7,6 +7,7 @@ from src.agentic.agents.researcher import researcher_agent
 from src.agentic.models import ResearchOutput, ProjectMetadata
 from src.tracker import get_tracker, TaskStatus
 from src.config import load_config
+from src.agentic.deps import ResearcherDeps
 
 async def research_item(item: ProjectMetadata, week_letter: str) -> ResearchOutput:
     """Research a single project and update tracker.
@@ -28,9 +29,11 @@ async def research_item(item: ProjectMetadata, week_letter: str) -> ResearchOutp
 
     try:
         # Pydantic AI agents are async
+        cfg = load_config()
+        deps = ResearcherDeps(project=item, config=cfg)
         result = await researcher_agent.run(
             f"Research the project: {item.name}",
-            deps=item
+            deps=deps
         )
         return result.data
     except Exception as e:

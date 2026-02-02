@@ -1,10 +1,11 @@
 from pydantic_ai import RunContext
 from duckduckgo_search import DDGS
+from src.agentic.deps import AgentDeps
 import logging
 
 logger = logging.getLogger(__name__)
 
-def search_tool(ctx: RunContext, query: str) -> str:
+def search_tool(ctx: RunContext[AgentDeps], query: str) -> str:
     """Perform a web search using DuckDuckGo."""
     logger.info(f"Searching for: {query}")
     try:

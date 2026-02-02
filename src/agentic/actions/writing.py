@@ -2,13 +2,15 @@ import os
 from datetime import datetime
 from typing import List
 from src.agentic.agents.writer import writer_agent
-from src.agentic.models import ResearchOutput, BlogPostDraft, WriterDeps
+from src.agentic.models import ResearchOutput, BlogPostDraft
 from src.tracker import get_tracker, TaskStatus
 from src.config import load_config
+from src.agentic.deps import WriterDeps
 
 async def write_weekly_post(week_letter: str, research_results: List[ResearchOutput]) -> BlogPostDraft:
     """Write a blog post for the given week based on research results."""
-    deps = WriterDeps(research_results=research_results, week_letter=week_letter)
+    cfg = load_config()
+    deps = WriterDeps(research_results=research_results, week_letter=week_letter, config=cfg)
     result = await writer_agent.run(
         f"Write a blog post for CNCF projects starting with letter {week_letter}.",
         deps=deps

@@ -5,6 +5,7 @@ from pathlib import Path
 from typing import Any, Dict, Optional
 import os
 import tempfile
+from functools import lru_cache
 
 import yaml
 
@@ -179,32 +180,11 @@ class Config:
 _CONFIG: Optional[AppConfig] = None
 
 
+@lru_cache()
 def load_config() -> AppConfig:
     """Load config.yaml overrides and memoize the resolved AppConfig.
-
-    config.yaml (optional) structure:
-
-    paths:
-      data_dir: data
-      weeks_dir: data/weeks
-      index_dir: data/index
-      stats_dir: data/stats
-      extras_dir: data/extras
-      website_dir: website
-      hugo_content_dir: website/content
-      hugo_posts_dir: website/content/posts
-      hugo_letters_dir: website/content/letters
-      hugo_tools_dir: website/content/tools
-      templates_dir: src/templates
-      todo_path: TODO.md
-
-    urls:
-      landscape_source: https://raw.githubusercontent.com/cncf/landscape/master/landscape.yml
+    ...
     """
-    global _CONFIG
-    if _CONFIG is not None:
-        return _CONFIG
-
     # Resolve base paths and allow overrides via config.yaml.
     root = _repo_root()
     
@@ -222,14 +202,12 @@ def load_config() -> AppConfig:
     else:
         config = Config(root)
 
-    _CONFIG = config.to_app_config()
-    return _CONFIG
+    return config.to_app_config()
 
 
 def clear_config_cache():
     """Clear the cached config (useful for tests)."""
-    global _CONFIG
-    _CONFIG = None
+    load_config.cache_clear()
 
 
 def resolve_data_dirs(output_dir: Optional[str] = None) -> Dict[str, Path]:

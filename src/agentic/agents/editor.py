@@ -4,11 +4,13 @@ from src.agentic.models import NextWeekDecision
 from src.agentic.tools.editor import check_week_status, check_todo, update_todo, read_week_summary
 from src.agentic.tools.tracker import check_tracker_progress
 from src.agentic.config import get_model
+from src.agentic.deps import AgentDeps
 
 model = get_model('editor')
 
 editor_agent = Agent(
     model,
+    deps_type=AgentDeps,
     output_type=NextWeekDecision,
     system_prompt=(
         "You are the Managing Editor for the CNCF Landscape A to Z blog series. "

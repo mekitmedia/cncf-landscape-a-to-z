@@ -49,14 +49,19 @@ async def evaluate_researcher():
     test_item = ProjectMetadata(
         name="Kubernetes",
         repo_url="https://github.com/kubernetes/kubernetes",
-        homepage="https://kubernetes.io"
+        homepage="https://kubernetes.io",
+        week_letter="K"
     )
 
     logger.info(f"Running ResearcherAgent for {test_item.name}...")
     try:
+        from src.config import load_config
+        from src.agentic.deps import ResearcherDeps
+        cfg = load_config()
+        deps = ResearcherDeps(project=test_item, config=cfg)
         result = await researcher_agent.run(
             f"Research the project: {test_item.name}",
-            deps=test_item
+            deps=deps
         )
         research_output = result.data
         logger.info(f"Research Output: {research_output}")

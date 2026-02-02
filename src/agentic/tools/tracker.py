@@ -1,13 +1,14 @@
 from pydantic_ai import RunContext
 from src.tracker import get_tracker, TaskStatus
+from src.agentic.deps import AgentDeps
 import logging
 
 logger = logging.getLogger(__name__)
 
-def update_tracker_status(ctx: RunContext, item_name: str, task_type: str, status: str, week_letter: str) -> str:
+def update_tracker_status(ctx: RunContext[AgentDeps], item_name: str, task_type: str, status: str, week_letter: str) -> str:
     """Update the tracker status for a task."""
     try:
-        tracker = get_tracker()
+        tracker = get_tracker(config=ctx.deps.config)
         task_status = TaskStatus(status.lower())
         tracker.update_task(week_letter, item_name, task_type, task_status)
         return f"Updated {item_name} {task_type} to {status}"
@@ -15,14 +16,14 @@ def update_tracker_status(ctx: RunContext, item_name: str, task_type: str, statu
         logger.error(f"Failed to update tracker: {e}")
         return f"Failed to update tracker: {e}"
 
-def check_tracker_progress(ctx: RunContext, week_letter: str) -> str:
+def check_tracker_progress(ctx: RunContext[AgentDeps], week_letter: str) -> str:
     """Checks the tracker progress for a specific week."""
     # Validate input to prevent path traversal
     if not (len(week_letter) == 1 and 'A' <= week_letter <= 'Z'):
         return "Invalid week letter provided"
     
     try:
-        tracker = get_tracker()
+        tracker = get_tracker(config=ctx.deps.config)
         if not tracker.tracker_exists(week_letter):
             return f"No tracker found for week {week_letter}. ETL may not have run yet."
         

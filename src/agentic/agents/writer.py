@@ -1,8 +1,9 @@
 import os
 from pydantic_ai import Agent
-from src.agentic.models import BlogPostDraft, WriterDeps
+from src.agentic.models import BlogPostDraft
 from src.agentic.tools.tracker import update_tracker_status
 from src.agentic.config import get_model
+from src.agentic.deps import WriterDeps
 
 model = get_model('writer')
 
