@@ -69,7 +69,6 @@ class AppConfig:
     hugo_letters_dir: Path
     hugo_tools_dir: Path
     templates_dir: Path
-    todo_path: Path
     landscape_source: str
     agents: Dict[str, Any]
 
@@ -140,11 +139,6 @@ class Config:
         return self.root / path if not Path(path).is_absolute() else Path(path)
     
     @property
-    def todo_path(self) -> Path:
-        path = _get_nested(self._config, ["paths", "todo_path"], "TODO.md")
-        return self.root / path if not Path(path).is_absolute() else Path(path)
-    
-    @property
     def landscape_source(self) -> str:
         return _get_nested(
             self._config,
@@ -171,7 +165,6 @@ class Config:
             hugo_letters_dir=self.hugo_letters_dir,
             hugo_tools_dir=self.hugo_tools_dir,
             templates_dir=self.templates_dir,
-            todo_path=self.todo_path,
             landscape_source=self.landscape_source,
             agents=self.agents,
         )
@@ -195,8 +188,7 @@ def load_config() -> AppConfig:
             "paths": {
                 "data_dir": str(test_data_dir / "data"),
                 "website_dir": str(test_data_dir / "website"),
-                "templates_dir": "src/templates",  # Keep templates from source
-                "todo_path": str(test_data_dir / "TODO.md")
+                "templates_dir": "src/templates"  # Keep templates from source
             }
         })
     else:

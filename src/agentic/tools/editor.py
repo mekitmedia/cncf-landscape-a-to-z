@@ -23,31 +23,9 @@ def check_week_status(ctx: RunContext[AgentDeps], week_letter: str) -> str:
         return f"Exists: {files[0]}"
     return "Not Found"
 
-def check_todo(ctx: RunContext[AgentDeps]) -> str:
-    """Reads the TODO.md file to track progress and memory across sessions."""
-    cfg = ctx.deps.config
-    todo_path = str(cfg.todo_path)
-    if not os.path.exists(todo_path):
-        return "TODO.md not found. You should create it to track progress."
-    try:
-        with open(todo_path, "r", encoding='utf-8') as f:
-            return f.read()
-    except Exception as e:
-        return f"Error reading TODO.md: {e}"
-
-def update_todo(ctx: RunContext[AgentDeps], content: str) -> str:
-    """Updates the TODO.md file with new notes or progress."""
-    cfg = ctx.deps.config
-    todo_path = str(cfg.todo_path)
-    try:
-        with open(todo_path, "w", encoding='utf-8') as f:
-            f.write(content)
-        return "TODO.md updated successfully"
-    except Exception as e:
-        return f"Error writing TODO.md: {e}"
-
 def read_week_summary(ctx: RunContext[AgentDeps], week_letter: str) -> str:
     """Reads the README.md summary for a specific week's data to understand workload."""
+
     # Validate input to prevent path traversal
     if not (len(week_letter) == 1 and 'A' <= week_letter <= 'Z'):
         return "Invalid week letter provided"

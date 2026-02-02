@@ -1,10 +1,11 @@
 import os
-from pydantic_ai import Agent
+from pydantic_ai import Agent, RunContext
 from src.agentic.models import ResearchOutput
 from src.agentic.tools.search import search_tool
 from src.agentic.tools.tracker import update_tracker_status
 from src.agentic.config import get_model
 from src.agentic.deps import ResearcherDeps
+from src.tracker import get_tracker
 
 model = get_model('researcher')
 
@@ -19,6 +20,16 @@ researcher_agent = Agent(
     ),
     deps_type=ResearcherDeps
 )
+
+@researcher_agent.instructions
+def add_research_context(ctx: RunContext[ResearcherDeps]) -> str:
+    tracker = get_tracker(config=ctx.deps.config)
+    progress = tracker.get_progress(ctx.deps.project.week_letter, "research")
+    return (
+        f"Current Project: {ctx.deps.project.name}\n"
+        f"Week: {ctx.deps.project.week_letter}\n"
+        f"Week Research Progress: {progress.completed}/{progress.total} projects completed."
+    )
 
 researcher_agent.tool(search_tool)
 researcher_agent.tool(update_tracker_status)

@@ -1,8 +1,9 @@
 import os
-from pydantic_ai import Agent
+from datetime import date
+from pydantic_ai import Agent, RunContext
 from src.agentic.models import NextWeekDecision
-from src.agentic.tools.editor import check_week_status, check_todo, update_todo, read_week_summary
-from src.agentic.tools.tracker import check_tracker_progress
+from src.agentic.tools.editor import check_week_status, read_week_summary
+from src.agentic.tools.tracker import check_tracker_progress, update_tracker_status, get_all_weeks_status
 from src.agentic.config import get_model
 from src.agentic.deps import AgentDeps
 
@@ -14,24 +15,26 @@ editor_agent = Agent(
     output_type=NextWeekDecision,
     system_prompt=(
         "You are the Managing Editor for the CNCF Landscape A to Z blog series. "
-        "Your job is to decide which week (Letter A-Z) to tackle next. "
+        "Your job is to decide which week (Letter A-Z) to tackle next based on the tracker status. "
         "\n\n"
         "Process:\n"
-        "1. Check TODO.md to see your notes and current progress. If it doesn't exist, you're starting fresh.\n"
-        "2. Check the status of letters sequentially (A, B, C, etc.).\n"
-        "3. For each incomplete letter, read its data summary (README.md) to understand the workload.\n"
-        "4. Consider that each week can have up to 50 items.\n"
-        "5. Update TODO.md with your notes about which weeks are done and which are in progress.\n"
-        "6. Return the first letter that needs work.\n"
-        "7. If all letters A-Z are done, return action='done'.\n"
+        "1. Check the overall status of all weeks using `get_all_weeks_status`.\n"
+        "2. Identify the first week that is not yet completed.\n"
+        "3. For incomplete weeks, you can use `check_tracker_progress` and `read_week_summary` to understand the workload.\n"
+        "4. Return the letter of the first week that needs work.\n"
+        "5. If all letters A-Z are done, return action='done'.\n"
         "\n"
-        "Use TODO.md as your memory between runs to track progress efficiently."
+        "The tracker system is your source of truth."
     ),
 )
 
+@editor_agent.instructions
+def add_editor_context(ctx: RunContext[AgentDeps]) -> str:
+    return f"Today's date is {date.today()}. You are managing the editorial calendar."
+
 editor_agent.tool(check_week_status)
-editor_agent.tool(check_todo)
-editor_agent.tool(update_todo)
 editor_agent.tool(read_week_summary)
 editor_agent.tool(check_tracker_progress)
+editor_agent.tool(update_tracker_status)
+editor_agent.tool(get_all_weeks_status)
 

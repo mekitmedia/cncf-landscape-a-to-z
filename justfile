@@ -35,6 +35,9 @@ workflow limit="" local="":
     fi; \
     uv run python -m src.cli run workflow $limit_arg
 
+ui:
+    uv run python -m src.cli ui
+
 # Generate tool pages from research
 tools:
     uv run python -m src.pipeline.tool_pages
