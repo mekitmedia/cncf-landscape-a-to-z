@@ -1,21 +1,21 @@
 {{/* 
   Calculates the current letter based on the date.
   Assumes cycle starts on Jan 1st of the current year.
-  Rotates every 2 weeks.
+  Rotates every 2 weeks (14 days per letter).
 */}}
 {{ $now := now }}
 {{ $dayOfYear := $now.YearDay }}
-{{/* Week number (1-53). Day 1-7 is Week 1, etc. */}}
-{{ $weekNumber := div (add $dayOfYear 6) 7 }}
-{{/* Index (0-25). Rotate every 2 weeks. */}}
-{{ $index := mod (int (div (sub $weekNumber 1) 2)) 26 }}
+{{/* Index (0-25). Rotate every 2 weeks based on 14-day blocks in the year. */}}
+{{ $indexRaw := div (sub $dayOfYear 1) 14 }}
+{{ $index := cond (gt $indexRaw 25) 25 $indexRaw }}
 {{ $alphabet := split "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "" }}
 {{ $letter := index $alphabet $index }}
 {{ $dataKey := printf "%02d-%s" $index $letter }}
 
-{{/* Calculate start and end dates for the current 2-week period */}}
-{{/* This is a bit complex in Hugo templates, but we can approximate or use simpler labels */}}
-{{ $periodStartWeek := add (mul (div (sub $weekNumber 1) 2) 2) 1 }}
-{{ $periodEndWeek := add $periodStartWeek 1 }}
+{{/* Calculate start and end weeks for the current 2-week period based on the 2-week index */}}
+{{/* Each index represents a 2-week block: start week = index*2 + 1, end week = start week + 1 (clamped at 52) */}}
+{{ $periodStartWeek := add (mul $index 2) 1 }}
+{{ $periodEndWeekRaw := add $periodStartWeek 1 }}
+{{ $periodEndWeek := cond (gt $periodEndWeekRaw 52) 52 $periodEndWeekRaw }}
 
-{{ return (dict "index" $index "letter" $letter "dataKey" $dataKey "weekNumber" $weekNumber "periodStartWeek" $periodStartWeek "periodEndWeek" $periodEndWeek) }}
+{{ return (dict "index" $index "letter" $letter "dataKey" $dataKey "periodStartWeek" $periodStartWeek "periodEndWeek" $periodEndWeek) }}

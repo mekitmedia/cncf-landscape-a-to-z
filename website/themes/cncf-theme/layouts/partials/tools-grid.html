@@ -17,7 +17,10 @@
 {{ end }}
 {{ $weeksData := index $site.Data "weeks" }}
 {{ $weekData := index $weeksData $normalizedKey }}
-{{ $categoriesData := index $weekData "categories" }}
+{{ $categoriesData := dict }}
+{{ if $weekData }}
+    {{ $categoriesData = index $weekData "categories" }}
+{{ end }}
 
 <div class="flex items-center justify-between mb-8">
     <div>

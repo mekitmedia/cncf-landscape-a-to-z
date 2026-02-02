@@ -79,7 +79,7 @@
                             </button>
                         </div>
                         <div class="flex items-center gap-3">
-                            <a href="https://github.com/mekitmedia/cncf-landscape-a-to-z" target="_blank" class="w-full md:w-auto flex items-center justify-center gap-3 bg-blue-600 border border-blue-600 text-white px-10 py-4 rounded-2xl font-black text-sm uppercase tracking-widest hover:bg-blue-700 transition-all shadow-xl shadow-blue-200/50 hover:-translate-y-1 whitespace-nowrap">
+                            <a href="https://github.com/mekitmedia/cncf-landscape-a-to-z" target="_blank" rel="noopener noreferrer" class="w-full md:w-auto flex items-center justify-center gap-3 bg-blue-600 border border-blue-600 text-white px-10 py-4 rounded-2xl font-black text-sm uppercase tracking-widest hover:bg-blue-700 transition-all shadow-xl shadow-blue-200/50 hover:-translate-y-1 whitespace-nowrap">
                                 <i data-lucide="github" class="w-5 h-5"></i>
                                 View Project on GitHub
                             </a>
@@ -94,8 +94,8 @@
 <script>
 document.getElementById('share-button').addEventListener('click', async () => {
     const shareData = {
-        title: '{{ .Title }}',
-        text: '{{ .Summary }}',
+        title: {{ .Title | jsonify }},
+        text: {{ .Summary | jsonify }},
         url: window.location.href
     };
 
