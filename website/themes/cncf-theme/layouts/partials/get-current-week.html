@@ -6,7 +6,8 @@
 {{ $now := now }}
 {{ $dayOfYear := $now.YearDay }}
 {{/* Index (0-25). Rotate every 2 weeks based on 14-day blocks in the year. */}}
-{{ $index := min (div (sub $dayOfYear 1) 14) 25 }}
+{{ $indexRaw := div (sub $dayOfYear 1) 14 }}
+{{ $index := cond (gt $indexRaw 25) 25 $indexRaw }}
 {{ $alphabet := split "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "" }}
 {{ $letter := index $alphabet $index }}
 {{ $dataKey := printf "%02d-%s" $index $letter }}
@@ -14,6 +15,7 @@
 {{/* Calculate start and end weeks for the current 2-week period based on the 2-week index */}}
 {{/* Each index represents a 2-week block: start week = index*2 + 1, end week = start week + 1 (clamped at 52) */}}
 {{ $periodStartWeek := add (mul $index 2) 1 }}
-{{ $periodEndWeek := min (add $periodStartWeek 1) 52 }}
+{{ $periodEndWeekRaw := add $periodStartWeek 1 }}
+{{ $periodEndWeek := cond (gt $periodEndWeekRaw 52) 52 $periodEndWeekRaw }}
 
 {{ return (dict "index" $index "letter" $letter "dataKey" $dataKey "periodStartWeek" $periodStartWeek "periodEndWeek" $periodEndWeek) }}
