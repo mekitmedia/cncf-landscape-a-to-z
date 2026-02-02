@@ -17,17 +17,17 @@ class RunCommands:
         """Runs the ETL pipeline."""
         run_etl(input_path=input_path, output_dir=output_dir)
 
-    def agent(self, name: str, port: int = 8000):
+    def ui(self, agent: str = "editor", port: int = 8000):
         """
-        Starts the web UI for a specific agent using pydantic-ai-slim[web].
+        Starts the web UI for a specific agent using pydantic-ai.
         Users can chat with the agents through the web interface.
         
-        Usage: python src/cli.py run agent <name> [--port=8000]
+        Usage: python -m src.cli run ui [--agent=editor] [--port=8000]
         Available agents: editor, researcher, writer
         """
         from src.agentic.ui import run_ui
         try:
-            run_ui(name, port)
+            run_ui(agent, port)
         except Exception as e:
             logger.error(f"Error starting UI: {e}")
             raise

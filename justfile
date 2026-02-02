@@ -34,8 +34,8 @@ workflow limit="" local="":
     fi; \
     uv run python -m src.cli run workflow $limit_arg
 
-ui:
-    uv run python -m src.cli ui
+ui agent="editor" port="8000":
+    uv run python -m src.cli run ui --agent={{agent}} --port={{port}}
 
 # Generate tool pages from research
 tools:

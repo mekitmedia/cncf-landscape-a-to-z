@@ -3,7 +3,7 @@
 from enum import Enum
 from typing import Dict, Optional, Any
 from datetime import datetime
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, ConfigDict
 
 
 class TaskStatus(str, Enum):
@@ -25,8 +25,7 @@ class TaskRecord(BaseModel):
     retry_count: int = Field(default=0, description="Number of times task was retried")
     agent: Optional[str] = Field(default=None, description="Agent that executed the task")
     
-    class Config:
-        use_enum_values = True
+    model_config = ConfigDict(use_enum_values=True)
 
 
 class ItemTasks(BaseModel):
@@ -70,8 +69,7 @@ class WeekTracker(BaseModel):
     week_tasks: WeekTasks = Field(default_factory=WeekTasks, description="Week-level tasks")
     metadata: Dict[str, Any] = Field(default_factory=dict, description="Additional metadata")
     
-    class Config:
-        use_enum_values = True
+    model_config = ConfigDict(use_enum_values=True)
 
 
 class TaskProgress(BaseModel):
