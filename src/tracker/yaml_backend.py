@@ -27,6 +27,7 @@ from src.tracker.exceptions import (
     ItemNotFoundError,
     WeekNotFoundError,
 )
+from src.tracker.models import ReadyTask
 
 
 class YAMLTrackerBackend:
@@ -366,3 +367,67 @@ class YAMLTrackerBackend:
             failed=counts[TaskStatus.FAILED],
             skipped=counts[TaskStatus.SKIPPED],
         )
+    
+    def get_ready_tasks(self, limit: Optional[int] = None) -> List[ReadyTask]:
+        """Get all ready tasks across all weeks (graph-aware).
+        
+        Returns pending tasks where all dependencies are met, respecting the task dependency graph.
+        This enables parallel execution: researcher can work on any research tasks,
+        writer can work on any blog_post tasks where research is complete, etc.
+        
+        Args:
+            limit: Maximum number of tasks to return (None for unlimited)
+            
+        Returns:
+            List of ReadyTask objects ready for execution, sorted by week then task type
+        """
+        ready_tasks = []
+        
+        # Check all weeks A-Z
+        for char_code in range(ord('A'), ord('Z') + 1):
+            letter = chr(char_code)
+            if not self.tracker_exists(letter):
+                continue
+            
+            try:
+                tracker = self.load_tracker(letter)
+            except WeekNotFoundError:
+                continue
+            
+            # Check item-level tasks
+            for item_name, item_tasks in tracker.items.items():
+                if item_tasks.removed:
+                    continue
+                
+                for task_type, task_record in item_tasks.tasks.items():
+                    # Only include pending tasks where dependencies are met
+                    if task_record.status == TaskStatus.PENDING:
+                        if self.can_start_task(letter, item_name, task_type):
+                            config = get_task_config(task_type)
+                            ready_tasks.append(ReadyTask(
+                                week_letter=letter,
+                                item_name=item_name,
+                                task_type=task_type,
+                                agent=config.agent
+                            ))
+            
+            # Check week-level tasks
+            for task_type, task_record in tracker.week_tasks.tasks.items():
+                if task_record.status == TaskStatus.PENDING:
+                    if self.can_start_task(letter, None, task_type):
+                        config = get_task_config(task_type)
+                        ready_tasks.append(ReadyTask(
+                            week_letter=letter,
+                            item_name=None,
+                            task_type=task_type,
+                            agent=config.agent
+                        ))
+        
+        # Sort by week, then task type for deterministic ordering
+        ready_tasks.sort(key=lambda t: (t.week_letter, t.task_type, t.item_name or ""))
+        
+        # Apply limit if specified
+        if limit is not None:
+            ready_tasks = ready_tasks[:limit]
+        
+        return ready_tasks

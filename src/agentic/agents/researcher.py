@@ -1,7 +1,7 @@
 import os
 from pydantic_ai import Agent, RunContext, WebSearchTool, WebFetchTool
 from src.agentic.models import ResearchOutput
-from src.agentic.tools.tracker import update_tracker_status
+from src.agentic.tools.tracker import update_tracker_status, get_ready_tasks, GetReadyTasksInput
 from src.agentic.config import get_model
 from src.agentic.deps import ResearcherDeps
 from src.tracker import get_tracker
@@ -33,4 +33,6 @@ def add_research_context(ctx: RunContext[ResearcherDeps]) -> str:
     )
 
 researcher_agent.tool(update_tracker_status)
+researcher_agent.tool(get_ready_tasks)
+
 

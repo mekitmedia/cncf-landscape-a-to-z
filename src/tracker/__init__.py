@@ -30,6 +30,7 @@ from src.tracker.models import (
     WeekTasks,
     WeekTracker,
     TaskProgress,
+    ReadyTask,
 )
 from src.tracker.config import (
     TaskTypeConfig,

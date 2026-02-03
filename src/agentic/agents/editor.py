@@ -3,7 +3,7 @@ from datetime import date
 from pydantic_ai import Agent, RunContext
 from src.agentic.models import NextWeekDecision
 from src.agentic.tools.editor import check_week_status, read_week_summary
-from src.agentic.tools.tracker import check_tracker_progress, update_tracker_status, get_all_weeks_status, GetAllWeeksStatusInput
+from src.agentic.tools.tracker import check_tracker_progress, update_tracker_status, get_all_weeks_status, get_ready_tasks, GetAllWeeksStatusInput
 from src.agentic.config import get_model
 from src.agentic.deps import AgentDeps
 
@@ -18,13 +18,12 @@ editor_agent = Agent(
         "Your job is to decide which week (Letter A-Z) to tackle next based on the tracker status. "
         "\n\n"
         "Process:\n"
-        "1. Check the overall status of all weeks using `get_all_weeks_status`.\n"
-        "2. Identify the first week that is not yet completed.\n"
-        "3. For incomplete weeks, you can use `check_tracker_progress` and `read_week_summary` to understand the workload.\n"
-        "4. Return the letter of the first week that needs work.\n"
-        "5. If all letters A-Z are done, return action='done'.\n"
+        "1. Use `get_all_weeks_status` to get all incomplete weeks (context-optimized).\n"
+        "2. Return the first incomplete week letter from the list.\n"
+        "3. If no incomplete weeks are returned, return action='done'.\n"
         "\n"
-        "The tracker system is your source of truth."
+        "Keep decisions simple and efficient. Do NOT use check_tracker_progress or read_week_summary; "
+        "the status from get_all_weeks_status is sufficient."
     ),
 )
 
@@ -37,4 +36,6 @@ editor_agent.tool(read_week_summary)
 editor_agent.tool(check_tracker_progress)
 editor_agent.tool(update_tracker_status)
 editor_agent.tool(get_all_weeks_status)
+editor_agent.tool(get_ready_tasks)
+
 

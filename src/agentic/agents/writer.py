@@ -1,7 +1,7 @@
 import os
 from pydantic_ai import Agent, RunContext
 from src.agentic.models import BlogPostDraft
-from src.agentic.tools.tracker import update_tracker_status
+from src.agentic.tools.tracker import update_tracker_status, get_ready_tasks
 from src.agentic.config import get_model
 from src.agentic.deps import WriterDeps
 from src.tracker import get_tracker
@@ -30,4 +30,6 @@ def add_writer_context(ctx: RunContext[WriterDeps]) -> str:
     )
 
 writer_agent.tool(update_tracker_status)
+writer_agent.tool(get_ready_tasks)
+
 

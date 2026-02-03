@@ -23,9 +23,17 @@ def check_week_status(ctx: RunContext[AgentDeps], week_letter: str) -> str:
         return f"Exists: {files[0]}"
     return "Not Found"
 
-def read_week_summary(ctx: RunContext[AgentDeps], week_letter: str) -> str:
-    """Reads the README.md summary for a specific week's data to understand workload."""
-
+def read_week_summary(ctx: RunContext[AgentDeps], week_letter: str, summary_only: bool = True) -> str:
+    """Reads the README.md for a specific week's data.
+    
+    Args:
+        ctx: Run context
+        week_letter: Week letter (A-Z)
+        summary_only: If True, return only first section (summary); if False, return entire README
+        
+    Returns:
+        Week summary or full README content
+    """
     # Validate input to prevent path traversal
     if not (len(week_letter) == 1 and 'A' <= week_letter <= 'Z'):
         return "Invalid week letter provided"
@@ -40,6 +48,19 @@ def read_week_summary(ctx: RunContext[AgentDeps], week_letter: str) -> str:
 
     try:
         with open(files[0], "r", encoding='utf-8') as f:
-            return f.read()
+            content = f.read()
+        
+        if summary_only:
+            # Extract first section (up to first h2 or first 500 chars)
+            lines = content.split('\n')
+            summary_lines = []
+            for i, line in enumerate(lines[:50]):  # Look at first 50 lines max
+                summary_lines.append(line)
+                # Stop at first major section (marked by ## or ---)
+                if i > 0 and (line.startswith('##') or line.startswith('---')):
+                    break
+            return '\n'.join(summary_lines[:20])  # Return up to 20 lines (summary)
+        else:
+            return content
     except Exception as e:
         return f"Error reading {files[0]}: {e}"

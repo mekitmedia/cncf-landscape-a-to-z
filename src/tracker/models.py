@@ -87,3 +87,13 @@ class TaskProgress(BaseModel):
         if self.total == 0:
             return 0.0
         return (self.completed / self.total) * 100
+
+
+class ReadyTask(BaseModel):
+    """A task that is ready to be executed (all dependencies met)."""
+    week_letter: str = Field(description="Week letter (A-Z)")
+    item_name: Optional[str] = Field(default=None, description="Item name (None for week-level tasks)")
+    task_type: str = Field(description="Type of task (research, content, blog_post, etc.)")
+    agent: Optional[str] = Field(default=None, description="Agent assigned to this task type")
+    
+    model_config = ConfigDict(use_enum_values=True)
