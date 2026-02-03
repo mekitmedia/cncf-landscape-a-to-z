@@ -3,7 +3,7 @@ from datetime import date
 from pydantic_ai import Agent, RunContext
 from src.agentic.models import NextWeekDecision
 from src.agentic.tools.editor import check_week_status, read_week_summary
-from src.agentic.tools.tracker import check_tracker_progress, update_tracker_status, get_all_weeks_status
+from src.agentic.tools.tracker import check_tracker_progress, update_tracker_status, get_all_weeks_status, GetAllWeeksStatusInput
 from src.agentic.config import get_model
 from src.agentic.deps import AgentDeps
 

@@ -1,4 +1,5 @@
 from pydantic_ai import RunContext
+from pydantic import BaseModel
 from src.tracker import get_tracker, TaskStatus
 from src.agentic.deps import AgentDeps
 import logging
@@ -36,7 +37,15 @@ def check_tracker_progress(ctx: RunContext[AgentDeps], week_letter: str) -> str:
     except Exception as e:
         return f"Error checking tracker for {week_letter}: {e}"
 
-def get_all_weeks_status(ctx: RunContext[AgentDeps]) -> str:
+
+# Explicit input/output models for gateway compatibility
+class GetAllWeeksStatusInput(BaseModel):
+    pass
+
+class GetAllWeeksStatusOutput(BaseModel):
+    status: str
+
+def get_all_weeks_status(ctx: RunContext[AgentDeps], data: GetAllWeeksStatusInput) -> GetAllWeeksStatusOutput:
     """Gets an overview of the status for all weeks A-Z."""
     try:
         tracker = get_tracker(config=ctx.deps.config)
@@ -48,7 +57,6 @@ def get_all_weeks_status(ctx: RunContext[AgentDeps]) -> str:
                 res_progress = tracker.get_progress(letter, "research")
                 # Check blog post progress
                 blog_progress = tracker.get_progress(letter, "blog_post")
-                
                 if blog_progress.completed > 0:
                     status = "✅ Blog Completed"
                 elif res_progress.completion_percentage > 0:
@@ -58,6 +66,6 @@ def get_all_weeks_status(ctx: RunContext[AgentDeps]) -> str:
                 results.append(f"Week {letter}: {status}")
             else:
                 results.append(f"Week {letter}: ❌ Not Started (ETL required)")
-        return "\n".join(results)
+        return GetAllWeeksStatusOutput(status="\n".join(results))
     except Exception as e:
-        return f"Error getting overview: {e}"
+        return GetAllWeeksStatusOutput(status=f"Error getting overview: {e}")

@@ -45,6 +45,7 @@ def get_available_models():
         'gateway/openai:gpt-5',
         'gateway/anthropic:claude-sonnet-4-5',
         'gateway/google-vertex:gemini-2.5-flash',
+        'gateway/google-vertex:gemini-2.5-flash-lite',
         'gateway/groq:openai/gpt-oss-120b',
         'gateway/bedrock:amazon.nova-micro-v1:0',
     ]
