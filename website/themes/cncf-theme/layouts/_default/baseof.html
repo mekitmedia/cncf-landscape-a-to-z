@@ -3,7 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ .Title }} | {{ .Site.Title }}</title>
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+    <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else if .IsPage }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    
+    <!-- OpenGraph -->
+    {{ template "_internal/opengraph.html" . }}
+    <!-- Twitter Cards -->
+    {{ template "_internal/twitter_cards.html" . }}
+
     <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
     <!-- Lucide Icons -->
     <script src="https://unpkg.com/lucide@latest"></script>

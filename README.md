@@ -10,10 +10,29 @@ This CLI provides a set of tools for analyzing the CNCF landscape. It fetches th
 
 ## Usage
 
-To run the CLI, simply execute the following command:
+The project uses [uv](https://github.com/astral-sh/uv) for dependency management and [just](https://github.com/casey/just) for task automation.
+
+### Installation
+
+First, ensure you have `uv` and `just` installed on your system.
 
 ```bash
-python src/cli.py run
+# Install dependencies
+just install
+```
+
+### Running the CLI
+
+To run the ETL pipeline and process the landscape data:
+
+```bash
+just etl
+```
+
+To run the agentic workflow:
+
+```bash
+just workflow
 ```
 
 This will generate the following files:

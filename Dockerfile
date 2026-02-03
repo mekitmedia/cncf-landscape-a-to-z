@@ -10,12 +10,13 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 # Install uv for faster pip
 RUN pip install uv
 
-COPY requirements.txt .
-RUN uv pip install --system --no-cache-dir -r requirements.txt
+COPY pyproject.toml uv.lock ./
+RUN uv sync --frozen --no-dev
 
 COPY . .
 
 ENV PYTHONPATH=/app
+ENV PATH="/app/.venv/bin:$PATH"
 
 # Default command runs the agent workflow with a limit of 50 items
 CMD ["python", "src/cli.py", "run", "workflow", "--limit=50", "--local"]

@@ -2,8 +2,8 @@ import fire
 import asyncio
 import logging
 import os
-import logfire
 from src.pipeline.runner import run_etl
+from src.agentic.observability import setup_observability
 
 # Setup logger
 logger = logging.getLogger(__name__)
@@ -17,17 +17,22 @@ class RunCommands:
         """Runs the ETL pipeline."""
         run_etl(input_path=input_path, output_dir=output_dir)
 
-    def agent(self, name: str, port: int = 8000):
+    def models(self):
+        """Lists available AI models and current configuration."""
+        from scripts.list_models import list_models
+        list_models()
+
+    def ui(self, agent: str = "editor", port: int = 8000):
         """
-        Starts the web UI for a specific agent using pydantic-ai-slim[web].
+        Starts the web UI for a specific agent using pydantic-ai.
         Users can chat with the agents through the web interface.
         
-        Usage: python src/cli.py run agent <name> [--port=8000]
+        Usage: python -m src.cli run ui [--agent=editor] [--port=8000]
         Available agents: editor, researcher, writer
         """
         from src.agentic.ui import run_ui
         try:
-            run_ui(name, port)
+            run_ui(agent, port)
         except Exception as e:
             logger.error(f"Error starting UI: {e}")
             raise
@@ -59,18 +64,5 @@ class Cli:
         self.run = RunCommands()
 
 if __name__ == '__main__':
-    # Configure Logfire if token is present
-    if os.getenv('LOGFIRE_TOKEN'):
-        try:
-            logfire.configure()
-            # Auto-instrument Pydantic and Pydantic AI
-            logfire.instrument_pydantic()
-            # Use 'if available' check or try/except block if concerned about version,
-            # but dir() showed it exists.
-            if hasattr(logfire, 'instrument_pydantic_ai'):
-                logfire.instrument_pydantic_ai()
-            logger.info("Logfire configured successfully.")
-        except Exception as e:
-            logger.error(f"Failed to configure Logfire: {e}")
-
+    setup_observability()
     fire.Fire(Cli)

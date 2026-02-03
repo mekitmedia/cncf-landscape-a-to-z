@@ -1,6 +1,75 @@
 {{ define "main" }}
-    <h1>{{ .Title }}</h1>
-    <div class="content">
-        {{ .Content }}
-    </div>
+<div class="min-h-screen bg-slate-50 font-sans text-slate-900 flex flex-col">
+    <!-- Navigation Header -->
+    {{ partial "nav.html" . }}
+
+    <main class="flex-grow flex items-center justify-center px-4 sm:px-6 lg:px-8 py-16">
+        <div class="max-w-2xl w-full bg-white p-8 md:p-12 rounded-[2.5rem] border border-slate-200 shadow-2xl shadow-slate-200/50 relative overflow-hidden">
+            <!-- Decorative Background Element -->
+            <div class="absolute top-0 right-0 -mt-8 -mr-8 w-48 h-48 bg-blue-50 rounded-full blur-3xl opacity-50"></div>
+            
+            <div class="relative z-10">
+                <div class="w-20 h-20 bg-gradient-to-br from-blue-500 to-indigo-600 text-white rounded-3xl flex items-center justify-center mx-auto mb-8 shadow-lg shadow-blue-200 rotate-3 hover:rotate-0 transition-transform duration-300">
+                    <i data-lucide="construction" class="w-10 h-10"></i>
+                </div>
+                
+                <h1 class="text-4xl md:text-5xl font-black mb-6 tracking-tight text-center bg-clip-text text-transparent bg-gradient-to-r from-slate-900 to-slate-600">
+                    {{ .Title }}
+                </h1>
+                
+                <div class="prose prose-slate prose-lg mx-auto mb-10 text-slate-600 leading-relaxed">
+                    {{ .Content }}
+                </div>
+
+                <div class="flex flex-col sm:flex-row justify-center gap-4 pt-6 border-t border-slate-100">
+                    <a href="/" class="group flex items-center justify-center gap-2 bg-slate-900 text-white px-8 py-4 rounded-2xl font-bold hover:bg-blue-600 transition-all duration-300 shadow-xl shadow-slate-200">
+                        <i data-lucide="arrow-left" class="w-5 h-5 group-hover:-translate-x-1 transition-transform"></i>
+                        Return Home
+                    </a>
+                    <a href="https://github.com/mekitmedia/cncf-landscape-a-to-z" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-2 bg-white text-slate-600 border border-slate-200 px-8 py-4 rounded-2xl font-bold hover:bg-slate-50 transition-all duration-300">
+                        <i data-lucide="github" class="w-5 h-5"></i>
+                        View Progress
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Simple Footer -->
+    <footer class="py-8 text-center text-slate-400 text-sm">
+        &copy; {{ now.Format "2006" }} CNCF Landscape A-to-Z Journey
+    </footer>
+</div>
+
+<style>
+    /* Custom prose overrides for a cleaner look */
+    .prose h3 {
+        color: #0f172a;
+        font-weight: 800;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        font-size: 1.25rem;
+        letter-spacing: -0.025em;
+    }
+    .prose ul {
+        list-style: none;
+        padding-left: 0;
+    }
+    .prose li {
+        position: relative;
+        padding-left: 2rem;
+        margin-bottom: 0.75rem;
+    }
+    .prose li::before {
+        content: '→';
+        position: absolute;
+        left: 0;
+        color: #2563eb;
+        font-weight: bold;
+    }
+    .prose strong {
+        color: #2563eb;
+        font-weight: 700;
+    }
+</style>
 {{ end }}

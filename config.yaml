@@ -1,0 +1,8 @@
+agents:
+  default_model: "gateway/google-vertex:gemini-2.5-flash"
+  editor:
+    model: "gateway/google-vertex:gemini-2.5-flash"
+  researcher:
+    model: "gateway/google-vertex:gemini-2.5-flash"
+  writer:
+    model: "gateway/google-vertex:gemini-2.5-flash"

@@ -5,6 +5,7 @@ from pathlib import Path
 from typing import Any, Dict, Optional
 import os
 import tempfile
+from functools import lru_cache
 
 import yaml
 
@@ -68,8 +69,8 @@ class AppConfig:
     hugo_letters_dir: Path
     hugo_tools_dir: Path
     templates_dir: Path
-    todo_path: Path
     landscape_source: str
+    agents: Dict[str, Any]
 
 
 class Config:
@@ -138,17 +139,16 @@ class Config:
         return self.root / path if not Path(path).is_absolute() else Path(path)
     
     @property
-    def todo_path(self) -> Path:
-        path = _get_nested(self._config, ["paths", "todo_path"], "TODO.md")
-        return self.root / path if not Path(path).is_absolute() else Path(path)
-    
-    @property
     def landscape_source(self) -> str:
         return _get_nested(
             self._config,
             ["urls", "landscape_source"],
             "https://raw.githubusercontent.com/cncf/landscape/master/landscape.yml",
         )
+
+    @property
+    def agents(self) -> Dict[str, Any]:
+        return _get_nested(self._config, ["agents"], {})
     
     def to_app_config(self) -> AppConfig:
         """Convert to the legacy AppConfig dataclass for backward compatibility."""
@@ -165,40 +165,19 @@ class Config:
             hugo_letters_dir=self.hugo_letters_dir,
             hugo_tools_dir=self.hugo_tools_dir,
             templates_dir=self.templates_dir,
-            todo_path=self.todo_path,
             landscape_source=self.landscape_source,
+            agents=self.agents,
         )
 
 
 _CONFIG: Optional[AppConfig] = None
 
 
+@lru_cache()
 def load_config() -> AppConfig:
     """Load config.yaml overrides and memoize the resolved AppConfig.
-
-    config.yaml (optional) structure:
-
-    paths:
-      data_dir: data
-      weeks_dir: data/weeks
-      index_dir: data/index
-      stats_dir: data/stats
-      extras_dir: data/extras
-      website_dir: website
-      hugo_content_dir: website/content
-      hugo_posts_dir: website/content/posts
-      hugo_letters_dir: website/content/letters
-      hugo_tools_dir: website/content/tools
-      templates_dir: src/templates
-      todo_path: TODO.md
-
-    urls:
-      landscape_source: https://raw.githubusercontent.com/cncf/landscape/master/landscape.yml
+    ...
     """
-    global _CONFIG
-    if _CONFIG is not None:
-        return _CONFIG
-
     # Resolve base paths and allow overrides via config.yaml.
     root = _repo_root()
     
@@ -209,21 +188,18 @@ def load_config() -> AppConfig:
             "paths": {
                 "data_dir": str(test_data_dir / "data"),
                 "website_dir": str(test_data_dir / "website"),
-                "templates_dir": "src/templates",  # Keep templates from source
-                "todo_path": str(test_data_dir / "TODO.md")
+                "templates_dir": "src/templates"  # Keep templates from source
             }
         })
     else:
         config = Config(root)
 
-    _CONFIG = config.to_app_config()
-    return _CONFIG
+    return config.to_app_config()
 
 
 def clear_config_cache():
     """Clear the cached config (useful for tests)."""
-    global _CONFIG
-    _CONFIG = None
+    load_config.cache_clear()
 
 
 def resolve_data_dirs(output_dir: Optional[str] = None) -> Dict[str, Path]:

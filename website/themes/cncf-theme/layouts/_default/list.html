@@ -1,17 +1,21 @@
 {{ define "main" }}
+{{ $current := partial "get-current-week.html" . }}
 <div class="min-h-screen bg-slate-50 font-sans text-slate-900">
     <!-- Navigation Header -->
     {{ partial "nav.html" . }}
 
     <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <!-- Progress Tracker -->
-        {{ partial "progress.html" . }}
+        {{ partial "progress.html" (dict "context" . "current" $current) }}
 
         <!-- Hero Section -->
-        {{ partial "hero.html" . }}
+        {{ partial "hero.html" (dict "context" . "current" $current) }}
 
         <!-- Tools Section -->
-        {{ partial "tools-grid.html" . }}
+        {{ partial "tools-grid.html" (dict "context" . "current" $current) }}
+
+        <!-- Recent Blog Posts -->
+        {{ partial "recent-posts.html" . }}
 
         <!-- Navigation Footer -->
         {{ partial "homepage-footer.html" . }}
@@ -21,8 +25,8 @@
 <script>
     document.addEventListener('DOMContentLoaded', () => {
         const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
-        let currentLetter = 'A';
-        let progress = 0; // A is 0th index
+        let currentLetter = '{{ $current.letter }}';
+        let progress = {{ add $current.index 1 }}; // Correct progress based on current index
 
         const alphabetContainer = document.getElementById('alphabet-container');
         const progressText = document.getElementById('progress-text');
@@ -40,6 +44,7 @@
             alphabet.forEach((letter, idx) => {
                 const isActive = letter === currentLetter;
                 const isCompleted = idx + 1 < progress;
+                const isLocked = idx + 1 > progress;
 
                 const btn = document.createElement('button');
                 btn.textContent = letter;
@@ -49,14 +54,20 @@
                     classes += "bg-blue-600 text-white shadow-lg shadow-blue-200 scale-110";
                 } else if (isCompleted) {
                     classes += "bg-blue-100 text-blue-600 border border-blue-200";
+                } else if (isLocked) {
+                    classes += "bg-slate-50 text-slate-300 border border-slate-100 cursor-not-allowed";
+                    btn.disabled = true;
+                    btn.title = "Locked - Available in a future week";
                 } else {
                     classes += "bg-white text-slate-400 border border-slate-200 hover:border-blue-300 hover:text-blue-500";
                 }
                 btn.className = classes;
 
-                btn.onclick = () => {
-                    handleLetterClick(letter, idx);
-                };
+                if (!isLocked) {
+                    btn.onclick = () => {
+                        handleLetterClick(letter, idx);
+                    };
+                }
 
                 alphabetContainer.appendChild(btn);
             });
@@ -88,8 +99,17 @@
         renderAlphabet();
 
         const countdownEl = document.getElementById('countdown');
-        // Initial time
-        let totalSeconds = 10 * 24 * 3600 + 4 * 3600 + 32 * 60;
+        
+        // Calculate total seconds until next rotation (every 2 weeks)
+        const now = new Date();
+        const startOfYear = new Date(now.getFullYear(), 0, 1);
+        const dayOfYear = Math.floor((now - startOfYear) / (1000 * 60 * 60 * 24)) + 1;
+        const weekNum = Math.floor((dayOfYear + 6) / 7);
+        const twoWeekPeriod = Math.floor((weekNum - 1) / 2);
+        const nextRotationWeek = (twoWeekPeriod + 1) * 2 + 1;
+        const nextRotationDate = new Date(now.getFullYear(), 0, 1 + (nextRotationWeek - 1) * 7);
+        
+        let totalSeconds = Math.max(0, Math.floor((nextRotationDate - now) / 1000));
 
         function updateCountdown() {
              if(totalSeconds > 0) {
@@ -97,11 +117,19 @@
                 const d = Math.floor(totalSeconds / (24 * 3600));
                 const h = Math.floor((totalSeconds % (24 * 3600)) / 3600);
                 const m = Math.floor((totalSeconds % 3600) / 60);
-                countdownEl.textContent = `${d}d ${h}h ${m}m`;
-            }
+                const s = totalSeconds % 60;
+                if (countdownEl) {
+                    countdownEl.textContent = `${d}d ${h}h ${m}m ${s}s`;
+                }
+             } else {
+                if (countdownEl) {
+                    countdownEl.textContent = "Rotating...";
+                }
+             }
         }
-
-        setInterval(updateCountdown, 60000);
+        
+        setInterval(updateCountdown, 1000);
+        updateCountdown();
 
         // Navigation buttons footer
         document.getElementById('prev-btn').onclick = () => {
@@ -115,8 +143,13 @@
         document.getElementById('next-btn').onclick = () => {
             const currentIdx = alphabet.indexOf(currentLetter);
             if (currentIdx < alphabet.length - 1) {
-                const nextLetter = alphabet[currentIdx+1];
-                window.location.href = `/letters/${nextLetter.toLowerCase()}/`;
+                // Only allow navigating to next letter if it is not locked
+                if (currentIdx + 1 < progress) {
+                    const nextLetter = alphabet[currentIdx+1];
+                    window.location.href = `/letters/${nextLetter.toLowerCase()}/`;
+                } else {
+                    alert('The next letter is still locked! Check back in the coming weeks.');
+                }
             }
         };
     });

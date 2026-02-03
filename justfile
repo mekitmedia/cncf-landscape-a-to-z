@@ -1,10 +1,10 @@
 # Justfile for common tasks
 
-set dotenv-load := false
+set dotenv-load := true
 set export
 
 # Global env vars
-GEMINI_MODEL := env_var_or_default("GEMINI_MODEL", "gemini-2.5-flash-lite")
+GEMINI_MODEL := env_var_or_default("GEMINI_MODEL", "gateway/google-vertex:gemini-2.0-flash")
 
 # Show available recipes
 help:
@@ -16,8 +16,7 @@ venv:
 
 # Install Python dependencies using uv
 install:
-    uv pip install --system -r requirements.txt
-    uv pip install --system -r requirements-dev.txt
+    uv sync
 
 # Run ETL pipeline
 etl:
@@ -34,6 +33,13 @@ workflow limit="" local="":
         export PREFECT_API_URL=""; \
     fi; \
     uv run python -m src.cli run workflow $limit_arg
+
+ui agent="editor" port="8000":
+    uv run python -m src.cli run ui --agent={{agent}} --port={{port}}
+
+# List available AI models
+list-models:
+    uv run python scripts/list_models.py
 
 # Generate tool pages from research
 tools:
@@ -54,3 +60,8 @@ e2e-headed:
 # Run e2e tests with UI
 e2e-ui:
     npx playwright test --ui
+
+# Start Hugo site locally
+hugo:
+    hugo server -s website
+

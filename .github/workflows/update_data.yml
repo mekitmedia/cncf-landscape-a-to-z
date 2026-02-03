@@ -7,10 +7,9 @@ on:
     branches:
       - main
     paths:
-      - 'src/legacy_main.py'
       - 'src/**'
-      - 'requirements.txt'
-      - 'requirements-dev.txt'
+      - 'pyproject.toml'
+      - 'uv.lock'
       - 'tests/**'
       - '.github/workflows/update_data.yml'
       - 'justfile'

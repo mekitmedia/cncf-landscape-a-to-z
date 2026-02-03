@@ -4,7 +4,12 @@ import os
 import yaml
 from pathlib import Path
 from unittest.mock import patch, MagicMock
-from src.legacy_main import Cli
+import sys
+
+# Add project root to path
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
+from src.cli import Cli
 from src.config import clear_config_cache
 
 def test_run_pipeline():
@@ -73,7 +78,7 @@ def test_run_pipeline():
             mock_generate_letter_pages.return_value = None
 
             cli = Cli()
-            cli.run(input_path=str(test_data_path), output_dir=test_dir)
+            cli.run.etl(input_path=str(test_data_path), output_dir=test_dir)
 
             # Check that the output files were created
             assert os.path.exists(f'{test_dir}/index/category_index.yaml')
