@@ -17,6 +17,11 @@ class RunCommands:
         """Runs the ETL pipeline."""
         run_etl(input_path=input_path, output_dir=output_dir)
 
+    def models(self):
+        """Lists available AI models and current configuration."""
+        from scripts.list_models import list_models
+        list_models()
+
     def ui(self, agent: str = "editor", port: int = 8000):
         """
         Starts the web UI for a specific agent using pydantic-ai.

@@ -1,8 +1,8 @@
 agents:
-  default_model: "gemini-2.5-flash"
+  default_model: "gateway/google-vertex:gemini-2.5-flash"
   editor:
-    model: "gemini-2.5-flash"
+    model: "gateway/google-vertex:gemini-2.5-flash"
   researcher:
-    model: "gemini-2.5-flash"
+    model: "gateway/google-vertex:gemini-2.5-flash"
   writer:
-    model: "gemini-2.5-flash"
+    model: "gateway/google-vertex:gemini-2.5-flash"

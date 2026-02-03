@@ -1,10 +1,10 @@
 # Justfile for common tasks
 
-set dotenv-load := false
+set dotenv-load := true
 set export
 
 # Global env vars
-GEMINI_MODEL := env_var_or_default("GEMINI_MODEL", "gemini-3-flash")
+GEMINI_MODEL := env_var_or_default("GEMINI_MODEL", "gateway/google-vertex:gemini-2.0-flash")
 
 # Show available recipes
 help:
@@ -37,6 +37,10 @@ workflow limit="" local="":
 ui agent="editor" port="8000":
     uv run python -m src.cli run ui --agent={{agent}} --port={{port}}
 
+# List available AI models
+list-models:
+    uv run python scripts/list_models.py
+
 # Generate tool pages from research
 tools:
     uv run python -m src.pipeline.tool_pages
@@ -60,3 +64,4 @@ e2e-ui:
 # Start Hugo site locally
 hugo:
     hugo server -s website
+

@@ -4,8 +4,8 @@ import glob
 from typing import List, Optional
 from pydantic import BaseModel, Field
 from pydantic_ai import Agent
-from pydantic_ai.models.gemini import GeminiModel
 from src.agentic.models import ProjectMetadata, BlogPostDraft
+from src.agentic.config import get_model
 import logging
 
 # Setup logger
@@ -32,12 +32,11 @@ async def evaluate_researcher():
         logger.warning(f"Could not import researcher_agent: {e}")
         return
 
-    api_key = os.getenv('GOOGLE_API_KEY')
-    if not api_key:
-        logger.warning("GOOGLE_API_KEY not set, skipping eval.")
+    try:
+        model = get_model('evaluator')
+    except RuntimeError as e:
+        logger.warning(f"Skipping eval: {e}")
         return
-
-    model = GeminiModel('gemini-1.5-flash', api_key=api_key)
 
     judge_agent = Agent(
         model,
@@ -105,12 +104,11 @@ def get_previous_post_content(current_letter: str) -> Optional[str]:
         return None
 
 async def evaluate_writer(draft: BlogPostDraft, current_letter: str):
-    api_key = os.getenv('GOOGLE_API_KEY')
-    if not api_key:
-        logger.warning("GOOGLE_API_KEY not set, skipping writer eval.")
+    try:
+        model = get_model('evaluator')
+    except RuntimeError as e:
+        logger.warning(f"Skipping writer eval: {e}")
         return
-
-    model = GeminiModel('gemini-1.5-flash', api_key=api_key)
 
     reference_content = get_previous_post_content(current_letter)
     reference_text = f"Reference Content (Previous Week):\n{reference_content}" if reference_content else "Reference Content: None (First week or missing)"
