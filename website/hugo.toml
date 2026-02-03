@@ -1,4 +1,5 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://mekitmedia.github.io/cncf-landscape-a-to-z/'
+relativeURLs = true
 languageCode = 'en-us'
 title = 'CNCF Landscape Overview'
 theme = 'cncf-theme'

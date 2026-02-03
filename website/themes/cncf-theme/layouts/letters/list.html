@@ -53,7 +53,7 @@
                                             <!-- Assuming logos might be available, but avoiding broken images for now -->
                                             <!-- <img src="https://landscape.cncf.io/logos/{{ .logo }}" class="w-8 h-8 object-contain" alt="{{ .name }} logo"> -->
                                             {{ end }}
-                                            <a href="/tools/{{ $sanitizedName }}/" class="text-xl font-bold group-hover:text-blue-600 transition-colors">{{ .name }}</a>
+                                            <a href="{{ printf "/tools/%s/" $sanitizedName | relURL }}" class="text-xl font-bold group-hover:text-blue-600 transition-colors">{{ .name }}</a>
                                         </div>
                                         
                                         {{ if .description }}
@@ -81,7 +81,7 @@
                                                 {{ if .homepage_url }}
                                                 <a href="{{ .homepage_url }}" target="_blank" class="flex items-center gap-1 hover:text-blue-600"><i data-lucide="external-link" class="w-3 h-3"></i> Web</a>
                                                 {{ end }}
-                                                <a href="/tools/{{ $sanitizedName }}/" class="flex items-center gap-1 hover:text-blue-600 ml-auto"><i data-lucide="arrow-right" class="w-3 h-3"></i> Details</a>
+                                                <a href="{{ printf "/tools/%s/" $sanitizedName | relURL }}" class="flex items-center gap-1 hover:text-blue-600 ml-auto"><i data-lucide="arrow-right" class="w-3 h-3"></i> Details</a>
                                             </div>
                                         </div>
                                     </div>
@@ -96,7 +96,7 @@
             <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
                 {{ range (seq 0 25) }}
                     {{ $char := printf "%c" (add . 65) }}
-                    <a href="/letters/{{ $char }}/" class="block p-4 bg-white rounded-lg border border-slate-200 hover:border-blue-500 hover:shadow-md text-center font-bold text-xl text-slate-700 hover:text-blue-600 transition-all">
+                    <a href="{{ printf "/letters/%s/" $char | relURL }}" class="block p-4 bg-white rounded-lg border border-slate-200 hover:border-blue-500 hover:shadow-md text-center font-bold text-xl text-slate-700 hover:text-blue-600 transition-all">
                         {{ $char }}
                     </a>
                 {{ end }}

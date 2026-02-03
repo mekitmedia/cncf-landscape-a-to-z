@@ -24,6 +24,7 @@
 
 <script>
     document.addEventListener('DOMContentLoaded', () => {
+        const baseURL = "{{ "/" | relURL }}";
         const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
         let currentLetter = '{{ $current.letter }}';
         let progress = {{ add $current.index 1 }}; // Correct progress based on current index
@@ -35,7 +36,7 @@
             currentLetter = letter;
             progress = idx + 1;
             // Navigate to the letter page to load new data
-            window.location.href = `/letters/${letter.toLowerCase()}/`;
+            window.location.href = `${baseURL}letters/${letter.toLowerCase()}/`;
             renderAlphabet();
         }
 
@@ -82,7 +83,7 @@
 
             const deepDiveLink = document.getElementById('deep-dive-link');
             if(deepDiveLink) {
-                deepDiveLink.href = `/letters/${letter.toLowerCase()}/`;
+                deepDiveLink.href = `${baseURL}letters/${letter.toLowerCase()}/`;
             }
 
             const currentLetterIdx = document.getElementById('current-letter-idx');
@@ -136,7 +137,7 @@
             const currentIdx = alphabet.indexOf(currentLetter);
             if (currentIdx > 0) {
                 const prevLetter = alphabet[currentIdx-1];
-                window.location.href = `/letters/${prevLetter.toLowerCase()}/`;
+                window.location.href = `${baseURL}letters/${prevLetter.toLowerCase()}/`;
             }
         };
 
@@ -146,7 +147,7 @@
                 // Only allow navigating to next letter if it is not locked
                 if (currentIdx + 1 < progress) {
                     const nextLetter = alphabet[currentIdx+1];
-                    window.location.href = `/letters/${nextLetter.toLowerCase()}/`;
+                    window.location.href = `${baseURL}letters/${nextLetter.toLowerCase()}/`;
                 } else {
                     alert('The next letter is still locked! Check back in the coming weeks.');
                 }
