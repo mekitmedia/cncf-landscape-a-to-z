@@ -199,11 +199,6 @@ def get_landscape_by_letter(landscape: list) -> dict:
         for c in landscape for sub in c['subcategories']
     ]
 
-    # Initialize partial dicts with empty lists for all paths
-    for letter in index:
-        for path in all_paths:
-            index[letter]['partial'][path] = []
-
     # Iterate landscape once, collecting by letter and path
     for c in landscape:
         for sub in c['subcategories']:
@@ -230,6 +225,10 @@ def get_landscape_by_letter(landscape: list) -> dict:
                 for idx, item in enumerate(sorted_items):
                     is_featured = idx < 6
                     prepared_item = _prepare_item_for_output(item, is_featured)
+
+                    if path not in index[letter]['partial']:
+                        index[letter]['partial'][path] = []
+
                     index[letter]['partial'][path].append(prepared_item)
                     index[letter]['tasks'].append(item['name'])
 
