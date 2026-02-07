@@ -6,18 +6,6 @@
   project: incubating
   repo_url: https://github.com/openkruise/kruise
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  description: OpenChoreo is a developer platform for Kubernetes offering development
-    and architecture abstractions, a Backstage-powered developer portal, application
-    CI/CD, GitOps, and observability. It composes CNCF and complementary projects
-    into a modular, extensible framework that provides both strong governance for
-    platform engineers and simplified abstractions for developers.
-  featured: true
-  homepage_url: https://openchoreo.dev
-  logo: openchoreo.svg
-  name: OpenChoreo
-  project: sandbox
-  repo_url: https://github.com/openchoreo/openchoreo
-- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   featured: true
   homepage_url: https://opengitops.dev/
   logo: opengitops.svg

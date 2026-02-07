@@ -19,7 +19,7 @@ module.exports = defineConfig({
 
   use: {
     // Base URL to use in actions like `await page.goto('/')`
-    baseURL: 'http://localhost:1313',
+    baseURL: 'http://localhost:1313/cncf-landscape-a-to-z/',
     // Collect trace when retrying the failed test
     trace: 'on-first-retry',
   },
@@ -34,8 +34,8 @@ module.exports = defineConfig({
 
   // Run your local dev server before starting the tests
   webServer: {
-    command: 'cd website && hugo server -b http://localhost:1313/ -p 1313',
-    url: 'http://localhost:1313',
+    command: 'cd website && hugo server -b http://localhost:1313/cncf-landscape-a-to-z/ -p 1313',
+    url: 'http://localhost:1313/cncf-landscape-a-to-z/',
     reuseExistingServer: !process.env.CI,
     timeout: 120 * 1000,
   },

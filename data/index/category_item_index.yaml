@@ -18,7 +18,7 @@ App Definition and Development:
   - Eclipse Che
   - Fabric8 Kubernetes Client
   - Gefyra
-  - Distr
+  - Glasskube
   - Gradle Build Tool
   - Helm
   - JReleaser
@@ -87,7 +87,6 @@ App Definition and Development:
   - Keploy
   - Liquibase
   - OpenGitOps
-  - OpenChoreo
   - OpenKruise
   - Ortelius
   - PipeCD
@@ -374,7 +373,6 @@ Observability and Analysis:
   - Pinpoint
   - Pixie
   - Prometheus
-  - Quickwit
   - SOFATracer
   - Sensu
   - Sentry
@@ -450,7 +448,6 @@ Orchestration & Management:
   - Azure Service Fabric
   - Backend.AI
   - Capsule
-  - CoHDI
   - Clusternet
   - Clusterpedia
   - Crossplane
@@ -611,7 +608,6 @@ Provisioning:
   - Kosko
   - kpt
   - Kratix
-  - kubectl-mcp-server
   - Kubean
   - KubeEdge
   - Kubefirst
@@ -819,7 +815,6 @@ Serverless:
   - Encore
   - EventMesh
   - Flogo
-  - KubeElasti
   - Layotto
   - Midway Serverless
   - Nitric

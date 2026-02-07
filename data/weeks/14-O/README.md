@@ -1,6 +1,6 @@
 # Summary for 14-O
 
-This week has a total of 57 items.
+This week has a total of 56 items.
 
 
 - **Provisioning Automation Configuration**: 4 items
@@ -27,7 +27,7 @@ This week has a total of 57 items.
 
 - **App Definition And Development Application Definition Image Build**: 6 items
 
-- **App Definition And Development Continuous Integration Delivery**: 4 items
+- **App Definition And Development Continuous Integration Delivery**: 3 items
 
 - **Platform Certified Kubernetes Distribution**: 1 items
 
