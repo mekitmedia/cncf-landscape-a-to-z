@@ -509,3 +509,43 @@ def test_update_task_invalid_type():
 
         # Cleanup
         shutil.rmtree("/tmp/test_weeks")
+
+def test_sync_with_etl_idempotency():
+    """Test sync_with_etl is idempotent regarding last_synced."""
+    # Create temp directory
+    temp_dir = Path("/tmp/test_weeks_idempotency")
+    if temp_dir.exists():
+        shutil.rmtree(temp_dir)
+    temp_dir.mkdir(parents=True, exist_ok=True)
+
+    try:
+        with patch('src.config.load_config') as mock_load_config:
+            mock_cfg = MagicMock()
+            mock_cfg.weeks_dir = temp_dir
+            mock_load_config.return_value = mock_cfg
+
+            backend = YAMLTrackerBackend()
+            week_letter = 'A'
+            items = ['Item1', 'Item2']
+
+            # First sync
+            backend.sync_with_etl(week_letter, items)
+
+            # Load and check last_synced
+            tracker1 = backend.load_tracker(week_letter)
+            last_synced1 = tracker1.metadata.get('last_synced')
+            assert last_synced1 is not None
+
+            # Second sync
+            import time
+            time.sleep(0.1)
+            backend.sync_with_etl(week_letter, items)
+
+            tracker2 = backend.load_tracker(week_letter)
+            last_synced2 = tracker2.metadata.get('last_synced')
+
+            # Assert equal
+            assert last_synced1 == last_synced2
+    finally:
+        if temp_dir.exists():
+            shutil.rmtree(temp_dir)

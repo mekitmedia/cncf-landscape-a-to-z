@@ -18,7 +18,7 @@ App Definition and Development:
   - Eclipse Che
   - Fabric8 Kubernetes Client
   - Gefyra
-  - Glasskube
+  - Distr
   - Gradle Build Tool
   - Helm
   - JReleaser
@@ -374,6 +374,7 @@ Observability and Analysis:
   - Pinpoint
   - Pixie
   - Prometheus
+  - Quickwit
   - SOFATracer
   - Sensu
   - Sentry
@@ -610,6 +611,7 @@ Provisioning:
   - Kosko
   - kpt
   - Kratix
+  - kubectl-mcp-server
   - Kubean
   - KubeEdge
   - Kubefirst
