@@ -292,10 +292,13 @@ class YAMLTrackerBackend:
     
     def sync_with_etl(self, week_letter: str, items: List[str]) -> None:
         """Synchronize tracker with ETL output."""
+        changes_detected = False
+
         # Load or initialize tracker
         if self.tracker_exists(week_letter):
             tracker = self.load_tracker(week_letter)
         else:
+            changes_detected = True
             tracker = WeekTracker(
                 items={},
                 week_tasks=WeekTasks(),
@@ -316,19 +319,23 @@ class YAMLTrackerBackend:
         for item_name in items:
             if item_name not in tracker.items:
                 tracker.items[item_name] = self._create_default_item_tasks()
+                changes_detected = True
         
         # Mark removed items (preserve history)
         etl_items_set = set(items)
         for item_name in tracker.items:
             if item_name not in etl_items_set:
-                tracker.items[item_name].removed = True
+                if not getattr(tracker.items[item_name], "removed", False):
+                    tracker.items[item_name].removed = True
+                    changes_detected = True
         
-        # Update metadata
-        tracker.metadata["last_synced"] = datetime.now().isoformat()
-        tracker.metadata["etl_item_count"] = len(items)
-        
-        # Save updated tracker
-        self.save_tracker(week_letter, tracker)
+        if changes_detected:
+            # Update metadata
+            tracker.metadata["last_synced"] = datetime.now().isoformat()
+            tracker.metadata["etl_item_count"] = len(items)
+
+            # Save updated tracker
+            self.save_tracker(week_letter, tracker)
     
     def get_progress(self, week_letter: str, task_type: Optional[str] = None) -> TaskProgress:
         """Get progress statistics for a week."""
