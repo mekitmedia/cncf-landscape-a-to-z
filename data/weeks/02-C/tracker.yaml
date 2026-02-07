@@ -1386,6 +1386,25 @@ items:
         retry_count: 0
         agent: writer
     removed: false
+  CoHDI:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
 week_tasks:
   tasks:
     blog_post:
@@ -1399,5 +1418,5 @@ week_tasks:
 metadata:
   created_at: '2026-02-01T19:37:47.046818'
   week_letter: C
-  last_synced: '2026-02-03T01:23:02.232683'
-  etl_item_count: 75
+  last_synced: '2026-02-07T23:32:53.123121'
+  etl_item_count: 76
