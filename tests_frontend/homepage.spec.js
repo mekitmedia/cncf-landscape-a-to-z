@@ -29,8 +29,8 @@ test.describe('Level 1: Homepage - Featured Tools', () => {
   test('clicking a letter navigates to letter page', async ({ page }) => {
     await page.goto('/');
     
-    // Click on letter A button (or link)
-    await page.click('#alphabet-container button:has-text("A")');
+    // Click on letter A link
+    await page.click('#alphabet-container a:has-text("A")');
     
     // Should navigate to /letters/a/
     await page.waitForURL(/\/letters\/[a-z]\//);
@@ -144,7 +144,7 @@ test.describe('Navigation Flow - Complete User Journey', () => {
     await expect(page).toHaveTitle(/CNCF Landscape Overview/);
     
     // Navigate to a letter page
-    await page.click('#alphabet-container button:has-text("A")');
+    await page.click('#alphabet-container a:has-text("A")');
     await page.waitForURL(/\/letters\/[a-z]\//);
     
     // Level 2: On letter page

@@ -1,11 +1,27 @@
+{{ $current := .current }}
+{{ if not $current }}
+  {{ $current = partial "get-current-week.html" . }}
+{{ end }}
+
 <div class="mt-16 flex items-center justify-between border-t border-slate-200 pt-8 mb-12">
-    <button class="flex items-center gap-2 px-4 py-2 text-slate-600 hover:text-blue-600 disabled:opacity-30 transition-colors font-semibold" id="prev-btn">
-        <i data-lucide="chevron-left" class="w-5 h-5"></i> Previous Letter
-    </button>
+    {{ if gt $current.index 0 }}
+        {{ $prevIndex := sub $current.index 1 }}
+        {{ $prevChar := printf "%c" (add $prevIndex 65) }}
+        <a href="/letters/{{ $prevChar | lower }}/" class="flex items-center gap-2 px-4 py-2 text-slate-600 hover:text-blue-600 transition-colors font-semibold" aria-label="Go to previous letter {{ $prevChar }}">
+            <i data-lucide="chevron-left" class="w-5 h-5"></i> Previous Letter
+        </a>
+    {{ else }}
+        <button disabled class="flex items-center gap-2 px-4 py-2 text-slate-400 opacity-50 cursor-not-allowed font-semibold" aria-disabled="true">
+            <i data-lucide="chevron-left" class="w-5 h-5"></i> Previous Letter
+        </button>
+    {{ end }}
+
     <div class="text-slate-400 text-sm font-medium">
-        Letter <span id="current-letter-idx">3</span> of 26
+        Letter <span id="current-letter-idx">{{ add $current.index 1 }}</span> of 26
     </div>
-    <button class="flex items-center gap-2 px-4 py-2 text-slate-600 hover:text-blue-600 disabled:opacity-30 transition-colors font-semibold" id="next-btn">
+
+    {{/* Next Letter is always disabled on the homepage as it reflects the current week */}}
+    <button disabled class="flex items-center gap-2 px-4 py-2 text-slate-400 opacity-50 cursor-not-allowed font-semibold" aria-disabled="true" title="Locked - Available in a future week">
         Next Letter <i data-lucide="chevron-right" class="w-5 h-5"></i>
     </button>
 </div>
