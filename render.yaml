@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: cncf-landscape
+    env: static
+    rootDir: .
+    buildCommand: npm run build
+    staticPublishPath: ./public

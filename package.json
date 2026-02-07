@@ -7,6 +7,7 @@
     "test": "playwright test --reporter=list",
     "test:headed": "playwright test --headed",
     "test:ui": "playwright test --ui",
+    "build": "npm run build:css && cd website && hugo --gc --minify -d ../public",
     "build:css": "tailwindcss -i ./website/assets/css/input.css -o ./website/themes/cncf-theme/static/css/style.css",
     "watch:css": "tailwindcss -i ./website/assets/css/input.css -o ./website/themes/cncf-theme/static/css/style.css --watch"
   },
