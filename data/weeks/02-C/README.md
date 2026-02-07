@@ -1,6 +1,6 @@
 # Summary for 02-C
 
-This week has a total of 76 items.
+This week has a total of 75 items.
 
 
 - **Provisioning Automation Configuration**: 8 items
@@ -15,7 +15,7 @@ This week has a total of 76 items.
 
 - **Runtime Cloud Native Network**: 2 items
 
-- **Orchestration Management Scheduling Orchestration**: 5 items
+- **Orchestration Management Scheduling Orchestration**: 4 items
 
 - **Orchestration Management Coordination Service Discovery**: 1 items
 
