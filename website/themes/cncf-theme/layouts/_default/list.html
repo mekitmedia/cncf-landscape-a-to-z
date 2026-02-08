@@ -18,7 +18,7 @@
         {{ partial "recent-posts.html" . }}
 
         <!-- Navigation Footer -->
-        {{ partial "homepage-footer.html" . }}
+        {{ partial "homepage-footer.html" (dict "context" . "current" $current) }}
     </main>
 </div>
 
@@ -73,28 +73,6 @@
             progressText.textContent = `${Math.round((progress / 26) * 100)}% Complete`;
         }
 
-        function updateView(letter) {
-            ['current-letter-hero', 'current-letter-desc', 'current-letter-btn', 'current-letter-stat', 'current-letter-featured', 'bg-letter'].forEach(id => {
-                const el = document.getElementById(id);
-                if(el) el.textContent = letter;
-            });
-
-            const deepDiveLink = document.getElementById('deep-dive-link');
-            if(deepDiveLink) {
-                deepDiveLink.href = `/letters/${letter.toLowerCase()}/`;
-            }
-
-            const currentLetterIdx = document.getElementById('current-letter-idx');
-            if(currentLetterIdx) {
-                currentLetterIdx.textContent = alphabet.indexOf(letter) + 1;
-            }
-
-            // Re-initialize icons just in case (though not strictly needed if DOM not changing)
-            // lucide.createIcons();
-
-            // In a real implementation, this would fetch new tool data.
-        }
-
         renderAlphabet();
 
         const countdownEl = document.getElementById('countdown');
@@ -129,28 +107,6 @@
         
         setInterval(updateCountdown, 1000);
         updateCountdown();
-
-        // Navigation buttons footer
-        document.getElementById('prev-btn').onclick = () => {
-            const currentIdx = alphabet.indexOf(currentLetter);
-            if (currentIdx > 0) {
-                const prevLetter = alphabet[currentIdx-1];
-                window.location.href = `/letters/${prevLetter.toLowerCase()}/`;
-            }
-        };
-
-        document.getElementById('next-btn').onclick = () => {
-            const currentIdx = alphabet.indexOf(currentLetter);
-            if (currentIdx < alphabet.length - 1) {
-                // Only allow navigating to next letter if it is not locked
-                if (currentIdx + 1 < progress) {
-                    const nextLetter = alphabet[currentIdx+1];
-                    window.location.href = `/letters/${nextLetter.toLowerCase()}/`;
-                } else {
-                    alert('The next letter is still locked! Check back in the coming weeks.');
-                }
-            }
-        };
     });
 </script>
 {{ end }}

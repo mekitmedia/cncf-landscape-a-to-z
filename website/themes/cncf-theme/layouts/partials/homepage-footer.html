@@ -1,11 +1,29 @@
+{{ $context := .context }}
+{{ $current := .current }}
+{{ $currentIndex := 0 }}
+{{ if $current }}
+    {{ $currentIndex = $current.index }}
+{{ end }}
+{{ $alphabet := split "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "" }}
+
 <div class="mt-16 flex items-center justify-between border-t border-slate-200 pt-8 mb-12">
-    <button class="flex items-center gap-2 px-4 py-2 text-slate-600 hover:text-blue-600 disabled:opacity-30 transition-colors font-semibold" id="prev-btn">
-        <i data-lucide="chevron-left" class="w-5 h-5"></i> Previous Letter
-    </button>
+    {{ $prevIndex := sub $currentIndex 1 }}
+    {{ if ge $prevIndex 0 }}
+        {{ $prevLetter := index $alphabet $prevIndex }}
+        <a href="/letters/{{ $prevLetter | lower }}/" class="flex items-center gap-2 px-4 py-2 text-slate-600 hover:text-blue-600 transition-colors font-semibold" aria-label="Go to previous letter {{ $prevLetter }}">
+            <i data-lucide="chevron-left" class="w-5 h-5"></i> Previous Letter
+        </a>
+    {{ else }}
+         <button disabled class="flex items-center gap-2 px-4 py-2 text-slate-600 disabled:opacity-30 font-semibold cursor-not-allowed" aria-disabled="true">
+            <i data-lucide="chevron-left" class="w-5 h-5"></i> Previous Letter
+        </button>
+    {{ end }}
+
     <div class="text-slate-400 text-sm font-medium">
-        Letter <span id="current-letter-idx">3</span> of 26
+        Letter <span id="current-letter-idx">{{ add $currentIndex 1 }}</span> of 26
     </div>
-    <button class="flex items-center gap-2 px-4 py-2 text-slate-600 hover:text-blue-600 disabled:opacity-30 transition-colors font-semibold" id="next-btn">
+
+    <button disabled class="flex items-center gap-2 px-4 py-2 text-slate-600 disabled:opacity-30 font-semibold cursor-not-allowed" aria-disabled="true" title="The next letter is still locked! Check back in the coming weeks.">
         Next Letter <i data-lucide="chevron-right" class="w-5 h-5"></i>
     </button>
 </div>

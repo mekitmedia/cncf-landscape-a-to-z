@@ -34,7 +34,7 @@ module.exports = defineConfig({
 
   // Run your local dev server before starting the tests
   webServer: {
-    command: 'cd website && hugo server',
+    command: 'cd website && npx hugo-extended server',
     url: 'http://localhost:1313',
     reuseExistingServer: !process.env.CI,
     timeout: 120 * 1000,
