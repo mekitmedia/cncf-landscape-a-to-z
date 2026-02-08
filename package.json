@@ -7,6 +7,7 @@
     "test": "playwright test --reporter=list",
     "test:headed": "playwright test --headed",
     "test:ui": "playwright test --ui",
+    "build": "npm run build:css && cd website && hugo --gc --minify",
     "build:css": "tailwindcss -i ./website/assets/css/input.css -o ./website/themes/cncf-theme/static/css/style.css",
     "watch:css": "tailwindcss -i ./website/assets/css/input.css -o ./website/themes/cncf-theme/static/css/style.css --watch"
   },
@@ -17,6 +18,7 @@
     "@playwright/test": "^1.56.1",
     "@tailwindcss/cli": "^4.1.18",
     "autoprefixer": "^10.4.24",
+    "hugo-extended": "^0.155.2",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.18"
   }

@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: cncf-landscape-a-to-z
+    env: static
+    buildCommand: npm install && npm run build:css && cd website && hugo --gc --minify
+    staticPublishPath: website/public
+    rootDir: .

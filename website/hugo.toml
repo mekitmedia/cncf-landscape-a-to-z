@@ -1,13 +1,14 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://cncf-landscape-a-to-z.onrender.com/'
 languageCode = 'en-us'
 title = 'CNCF Landscape Overview'
 theme = 'cncf-theme'
 buildFuture = true
 dataDir = "../data"
+publishDir = "public"
 ignoreFiles = ['README\.md$']
 
 [params]
-  description = "A 52-week journey through the CNCF Landscape, exploring one letter every two weeks."
+  description = "A 26-week journey through the CNCF Landscape, exploring one letter every two weeks."
   author = "CNCF Journey Team"
   images = ["/images/og-image.png"] # Note: Ensure this exists or is replaced
 
