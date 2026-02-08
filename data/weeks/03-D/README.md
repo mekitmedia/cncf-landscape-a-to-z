@@ -1,6 +1,6 @@
 # Summary for 03-D
 
-This week has a total of 31 items.
+This week has a total of 30 items.
 
 
 - **Provisioning Container Registry**: 2 items
@@ -17,7 +17,7 @@ This week has a total of 31 items.
 
 - **App Definition And Development Streaming Messaging**: 1 items
 
-- **App Definition And Development Application Definition Image Build**: 7 items
+- **App Definition And Development Application Definition Image Build**: 6 items
 
 - **App Definition And Development Continuous Integration Delivery**: 1 items
 

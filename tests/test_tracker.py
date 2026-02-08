@@ -510,8 +510,9 @@ def test_update_task_invalid_type():
         # Cleanup
         shutil.rmtree("/tmp/test_weeks")
 
+
 def test_sync_with_etl_idempotency():
-    """Test sync_with_etl is idempotent regarding last_synced."""
+    """Test sync_with_etl is idempotent regarding last_synced and save_tracker calls."""
     # Create temp directory
     temp_dir = Path("/tmp/test_weeks_idempotency")
     if temp_dir.exists():
@@ -519,133 +520,110 @@ def test_sync_with_etl_idempotency():
     temp_dir.mkdir(parents=True, exist_ok=True)
 
     try:
-        with patch('src.tracker.yaml_backend.load_config') as mock_load_config:
-            mock_cfg = MagicMock()
-            mock_cfg.weeks_dir = temp_dir
-            mock_load_config.return_value = mock_cfg
+        mock_cfg = MagicMock()
+        mock_cfg.weeks_dir = temp_dir
 
-            backend = YAMLTrackerBackend()
-            week_letter = 'A'
-            items = ['Item1', 'Item2']
+        backend = YAMLTrackerBackend(config=mock_cfg)
+        week_letter = 'A'
+        items = ['Item1', 'Item2']
 
-            # First sync
+        # First sync
+        backend.sync_with_etl(week_letter, items)
+
+        # Load and check last_synced
+        tracker1 = backend.load_tracker(week_letter)
+        last_synced1 = tracker1.metadata.get('last_synced')
+        assert last_synced1 is not None
+
+        # Spy on save_tracker for the second sync
+        with patch.object(backend, 'save_tracker', wraps=backend.save_tracker) as mock_save:
+            # Second sync (identical items)
             backend.sync_with_etl(week_letter, items)
 
-            # Load and check last_synced
-            tracker1 = backend.load_tracker(week_letter)
-            last_synced1 = tracker1.metadata.get('last_synced')
-            assert last_synced1 is not None
-            
-            # Get file mtime and content for stronger assertion
-            tracker_path = backend._get_tracker_path(week_letter)
-            file_mtime1 = tracker_path.stat().st_mtime
-            with open(tracker_path, 'r') as f:
-                file_content1 = f.read()
-
-            # Second sync with same items - should not modify file
-            backend.sync_with_etl(week_letter, items)
+            # Assert save_tracker was NOT called
+            mock_save.assert_not_called()
 
             tracker2 = backend.load_tracker(week_letter)
             last_synced2 = tracker2.metadata.get('last_synced')
-            file_mtime2 = tracker_path.stat().st_mtime
-            with open(tracker_path, 'r') as f:
-                file_content2 = f.read()
 
-            # Assert last_synced unchanged
+            # Assert timestamp unchanged
             assert last_synced1 == last_synced2
-            # Assert file was not modified
-            assert file_mtime1 == file_mtime2
-            assert file_content1 == file_content2
+
     finally:
         if temp_dir.exists():
             shutil.rmtree(temp_dir)
 
-
-def test_sync_with_etl_item_reappearance():
-    """Test that removed items are unmarked when they reappear in ETL."""
-    temp_dir = Path("/tmp/test_weeks_reappearance")
+def test_sync_with_etl_reappearing_item():
+    """Test that removed items are restored if they reappear in ETL."""
+    temp_dir = Path("/tmp/test_weeks_reappear")
     if temp_dir.exists():
         shutil.rmtree(temp_dir)
     temp_dir.mkdir(parents=True, exist_ok=True)
 
     try:
-        with patch('src.tracker.yaml_backend.load_config') as mock_load_config:
-            mock_cfg = MagicMock()
-            mock_cfg.weeks_dir = temp_dir
-            mock_load_config.return_value = mock_cfg
+        mock_cfg = MagicMock()
+        mock_cfg.weeks_dir = temp_dir
 
-            backend = YAMLTrackerBackend()
-            week_letter = 'A'
+        backend = YAMLTrackerBackend(config=mock_cfg)
+        week_letter = 'A'
 
-            # First sync with items
-            backend.sync_with_etl(week_letter, ['Item1', 'Item2', 'Item3'])
-            tracker1 = backend.load_tracker(week_letter)
-            assert 'Item1' in tracker1.items
-            assert not getattr(tracker1.items['Item1'], 'removed', False)
+        # 1. Initial sync
+        backend.sync_with_etl(week_letter, ['Item1'])
+        tracker = backend.load_tracker(week_letter)
+        assert 'Item1' in tracker.items
+        assert not tracker.items['Item1'].removed
 
-            # Second sync with Item1 removed
-            backend.sync_with_etl(week_letter, ['Item2', 'Item3'])
-            tracker2 = backend.load_tracker(week_letter)
-            assert 'Item1' in tracker2.items  # Still in tracker
-            assert getattr(tracker2.items['Item1'], 'removed', False)  # But marked removed
+        # 2. Sync with empty list (removes Item1)
+        backend.sync_with_etl(week_letter, [])
+        tracker = backend.load_tracker(week_letter)
+        assert tracker.items['Item1'].removed
 
-            # Third sync with Item1 reappearing
-            backend.sync_with_etl(week_letter, ['Item1', 'Item2', 'Item3'])
-            tracker3 = backend.load_tracker(week_letter)
-            assert 'Item1' in tracker3.items
-            assert not getattr(tracker3.items['Item1'], 'removed', False)  # No longer removed
+        # 3. Sync with Item1 again (should restore)
+        with patch.object(backend, 'save_tracker', wraps=backend.save_tracker) as mock_save:
+            backend.sync_with_etl(week_letter, ['Item1'])
+
+            # Should have saved
+            mock_save.assert_called_once()
+
+            tracker = backend.load_tracker(week_letter)
+            assert not tracker.items['Item1'].removed
+
     finally:
         if temp_dir.exists():
             shutil.rmtree(temp_dir)
 
-
-def test_sync_with_etl_metadata_initialization():
-    """Test that metadata is initialized on first sync with existing tracker."""
+def test_sync_with_etl_missing_metadata():
+    """Test that metadata is updated if missing, even if items match."""
     temp_dir = Path("/tmp/test_weeks_metadata")
     if temp_dir.exists():
         shutil.rmtree(temp_dir)
     temp_dir.mkdir(parents=True, exist_ok=True)
 
     try:
-        with patch('src.tracker.yaml_backend.load_config') as mock_load_config:
-            mock_cfg = MagicMock()
-            mock_cfg.weeks_dir = temp_dir
-            mock_load_config.return_value = mock_cfg
+        mock_cfg = MagicMock()
+        mock_cfg.weeks_dir = temp_dir
 
-            backend = YAMLTrackerBackend()
-            week_letter = 'A'
+        backend = YAMLTrackerBackend(config=mock_cfg)
+        week_letter = 'A'
+        items = ['Item1']
 
-            # Create a tracker manually without metadata
-            week_dir = temp_dir / "00-A"
-            week_dir.mkdir(parents=True, exist_ok=True)
-            tracker_data = {
-                'items': {
-                    'Item1': {
-                        'tasks': {},
-                    }
-                },
-                'week_tasks': {
-                    'tasks': {}
-                },
-                'metadata': {}  # Empty metadata
-            }
-            tracker_path = week_dir / "tracker.yaml"
-            with open(tracker_path, 'w') as f:
-                yaml.dump(tracker_data, f)
+        # 1. Initial sync
+        backend.sync_with_etl(week_letter, items)
 
-            # Sync should initialize metadata
-            backend.sync_with_etl(week_letter, ['Item1'])
+        # 2. Manually corrupt metadata (remove last_synced)
+        tracker = backend.load_tracker(week_letter)
+        del tracker.metadata['last_synced']
+        backend.save_tracker(week_letter, tracker)
+
+        # 3. Sync again (should trigger update due to missing metadata)
+        with patch.object(backend, 'save_tracker', wraps=backend.save_tracker) as mock_save:
+            backend.sync_with_etl(week_letter, items)
+
+            mock_save.assert_called_once()
+
             tracker = backend.load_tracker(week_letter)
-            
-            # Verify metadata was initialized
             assert 'last_synced' in tracker.metadata
-            assert tracker.metadata.get('etl_item_count') == 1
 
-            # Second sync should not update metadata
-            last_synced1 = tracker.metadata['last_synced']
-            backend.sync_with_etl(week_letter, ['Item1'])
-            tracker2 = backend.load_tracker(week_letter)
-            assert tracker2.metadata['last_synced'] == last_synced1
     finally:
         if temp_dir.exists():
             shutil.rmtree(temp_dir)

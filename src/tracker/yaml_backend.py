@@ -315,33 +315,29 @@ class YAMLTrackerBackend:
                     agent=get_task_config(task_type).agent
                 )
         
-        # Add new items from ETL
+        # Check for missing metadata or mismatched count
+        if "last_synced" not in tracker.metadata or tracker.metadata.get("etl_item_count") != len(items):
+            changes_detected = True
+
+        # Add new items from ETL and restore removed items
         for item_name in items:
             if item_name not in tracker.items:
                 tracker.items[item_name] = self._create_default_item_tasks()
-                changes_detected = True
+               changes_detected = True
+            elif getattr(tracker.items[item_name], "removed", False):
+                # Item was removed but is now back in ETL
+                tracker.items[item_name].removed = False
+               changes_detected = True
         
-        # Mark removed items (preserve history) and handle reappearing items
+        # Mark removed items (preserve history)
         etl_items_set = set(items)
         for item_name in tracker.items:
             if item_name not in etl_items_set:
-                # Item not in ETL - mark as removed if not already
                 if not getattr(tracker.items[item_name], "removed", False):
                     tracker.items[item_name].removed = True
-                    changes_detected = True
-            else:
-                # Item in ETL - unset removed flag if it was previously removed
-                if getattr(tracker.items[item_name], "removed", False):
-                    tracker.items[item_name].removed = False
-                    changes_detected = True
+                   changes_detected = True
         
-        # Check if metadata needs initialization or updating
-        metadata_needs_update = (
-            "last_synced" not in tracker.metadata or
-            tracker.metadata.get("etl_item_count") != len(items)
-        )
-        
-        if changes_detected or metadata_needs_update:
+        if changes_detected:
             # Update metadata
             tracker.metadata["last_synced"] = datetime.now().isoformat()
             tracker.metadata["etl_item_count"] = len(items)
