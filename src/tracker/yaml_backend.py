@@ -323,11 +323,11 @@ class YAMLTrackerBackend:
         for item_name in items:
             if item_name not in tracker.items:
                 tracker.items[item_name] = self._create_default_item_tasks()
-               changes_detected = True
+                changes_detected = True
             elif getattr(tracker.items[item_name], "removed", False):
                 # Item was removed but is now back in ETL
                 tracker.items[item_name].removed = False
-               changes_detected = True
+                changes_detected = True
         
         # Mark removed items (preserve history)
         etl_items_set = set(items)
@@ -335,7 +335,7 @@ class YAMLTrackerBackend:
             if item_name not in etl_items_set:
                 if not getattr(tracker.items[item_name], "removed", False):
                     tracker.items[item_name].removed = True
-                   changes_detected = True
+                    changes_detected = True
         
         if changes_detected:
             # Update metadata
