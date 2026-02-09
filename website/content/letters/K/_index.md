@@ -1,5 +1,5 @@
 ---
-title: "Letter K - CNCF Landscape"
+title: "Week 11: Letter K"
 letter: "K"
 week: 10
 data_key: "10-K"
@@ -8,7 +8,7 @@ layout: "list"
 
 # Summary for 10-K
 
-This week has a total of 106 items.
+This week has a total of 107 items.
 
 
 - **Provisioning Automation Configuration**: 11 items
@@ -44,6 +44,8 @@ This week has a total of 106 items.
 - **Platform Certified Kubernetes Installer**: 7 items
 
 - **Platform Paas Container Service**: 2 items
+
+- **Serverless Framework**: 1 items
 
 - **Serverless Installable Platform**: 1 items
 

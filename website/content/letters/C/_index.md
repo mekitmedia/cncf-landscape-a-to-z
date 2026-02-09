@@ -1,5 +1,5 @@
 ---
-title: "Letter C - CNCF Landscape"
+title: "Week 3: Letter C"
 letter: "C"
 week: 2
 data_key: "02-C"
@@ -8,7 +8,7 @@ layout: "list"
 
 # Summary for 02-C
 
-This week has a total of 75 items.
+This week has a total of 76 items.
 
 
 - **Provisioning Automation Configuration**: 8 items
@@ -23,7 +23,7 @@ This week has a total of 75 items.
 
 - **Runtime Cloud Native Network**: 2 items
 
-- **Orchestration Management Scheduling Orchestration**: 4 items
+- **Orchestration Management Scheduling Orchestration**: 5 items
 
 - **Orchestration Management Coordination Service Discovery**: 1 items
 

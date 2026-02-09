@@ -1,5 +1,5 @@
 ---
-title: "Letter G - CNCF Landscape"
+title: "Week 7: Letter G"
 letter: "G"
 week: 6
 data_key: "06-G"
@@ -8,7 +8,7 @@ layout: "list"
 
 # Summary for 06-G
 
-This week has a total of 33 items.
+This week has a total of 32 items.
 
 
 - **Provisioning Automation Configuration**: 2 items
@@ -25,7 +25,7 @@ This week has a total of 33 items.
 
 - **App Definition And Development Database**: 2 items
 
-- **App Definition And Development Application Definition Image Build**: 3 items
+- **App Definition And Development Application Definition Image Build**: 2 items
 
 - **App Definition And Development Continuous Integration Delivery**: 3 items
 

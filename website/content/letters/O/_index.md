@@ -1,5 +1,5 @@
 ---
-title: "Letter O - CNCF Landscape"
+title: "Week 15: Letter O"
 letter: "O"
 week: 14
 data_key: "14-O"
@@ -8,7 +8,7 @@ layout: "list"
 
 # Summary for 14-O
 
-This week has a total of 56 items.
+This week has a total of 57 items.
 
 
 - **Provisioning Automation Configuration**: 4 items
@@ -35,7 +35,7 @@ This week has a total of 56 items.
 
 - **App Definition And Development Application Definition Image Build**: 6 items
 
-- **App Definition And Development Continuous Integration Delivery**: 3 items
+- **App Definition And Development Continuous Integration Delivery**: 4 items
 
 - **Platform Certified Kubernetes Distribution**: 1 items
 
