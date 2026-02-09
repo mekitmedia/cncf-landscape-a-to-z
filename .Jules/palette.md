@@ -5,3 +5,7 @@
 ## 2026-02-04 - Semantic Navigation vs JS Buttons
 **Learning:** Using `<button>` elements with `onclick` handlers for navigation breaks standard browser features (open in new tab, copy link) and accessibility semantics. Even in a dashboard-like UI, if the action is navigation to a new URL, always use `<a>` tags.
 **Action:** When working with JS-generated lists (like alphabets or pagination), prefer generating `<a>` tags with computed `href` attributes over buttons with click handlers, even if visual styling mimics buttons.
+
+## 2026-02-17 - Server-Side Rendering for Navigation State
+**Learning:** Relying on client-side JavaScript to determine the state of navigation buttons (e.g., enabled/disabled based on current week) can lead to accessible issues and brittle code. Calculating this state on the server (Hugo templates) ensures that links are always correct, semantic, and functional without JS.
+**Action:** Move logic for "Previous/Next" navigation links from `onclick` handlers to server-side template logic whenever possible, using `<a>` tags for active links and `<span>` or `disabled` buttons for inactive states.

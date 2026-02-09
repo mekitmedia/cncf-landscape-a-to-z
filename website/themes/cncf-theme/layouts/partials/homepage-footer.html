@@ -1,11 +1,41 @@
+{{ $current := .current }}
+{{ $context := .context }}
+{{/* If we were passed just the context (as was the case before), use it. */}}
+{{ if not $context }}
+  {{ $context = . }}
+{{ end }}
+
+{{/* Calculate current index and letter for display */}}
+{{ $currentIndex := 0 }}
+{{ if $current }}
+  {{ $currentIndex = $current.index }}
+{{ end }}
+
+{{/* Calculate Previous Letter Link */}}
+{{ $prevIndex := sub $currentIndex 1 }}
+{{ $alphabet := split "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "" }}
+{{ $prevLetter := "" }}
+{{ if ge $prevIndex 0 }}
+  {{ $prevLetter = index $alphabet $prevIndex }}
+{{ end }}
+
 <div class="mt-16 flex items-center justify-between border-t border-slate-200 pt-8 mb-12">
-    <button class="flex items-center gap-2 px-4 py-2 text-slate-600 hover:text-blue-600 disabled:opacity-30 transition-colors font-semibold" id="prev-btn">
+    {{ if ne $prevLetter "" }}
+    <a href="/letters/{{ $prevLetter | lower }}/" class="flex items-center gap-2 px-4 py-2 text-slate-600 hover:text-blue-600 transition-colors font-semibold" aria-label="Go to previous letter {{ $prevLetter }}">
         <i data-lucide="chevron-left" class="w-5 h-5"></i> Previous Letter
-    </button>
+    </a>
+    {{ else }}
+    <span class="flex items-center gap-2 px-4 py-2 text-slate-400 opacity-50 cursor-not-allowed font-semibold" aria-disabled="true">
+        <i data-lucide="chevron-left" class="w-5 h-5"></i> Previous Letter
+    </span>
+    {{ end }}
+
     <div class="text-slate-400 text-sm font-medium">
-        Letter <span id="current-letter-idx">3</span> of 26
+        Letter {{ add $currentIndex 1 }} of 26
     </div>
-    <button class="flex items-center gap-2 px-4 py-2 text-slate-600 hover:text-blue-600 disabled:opacity-30 transition-colors font-semibold" id="next-btn">
+
+    {{/* Next Letter is always locked on homepage as per current logic */}}
+    <button class="flex items-center gap-2 px-4 py-2 text-slate-400 opacity-50 cursor-not-allowed font-semibold" disabled title="The next letter is locked! Check back next week.">
         Next Letter <i data-lucide="chevron-right" class="w-5 h-5"></i>
     </button>
 </div>
