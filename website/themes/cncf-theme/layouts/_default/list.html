@@ -18,85 +18,12 @@
         {{ partial "recent-posts.html" . }}
 
         <!-- Navigation Footer -->
-        {{ partial "homepage-footer.html" . }}
+        {{ partial "homepage-footer.html" (dict "context" . "current" $current) }}
     </main>
 </div>
 
 <script>
     document.addEventListener('DOMContentLoaded', () => {
-        const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
-        let currentLetter = '{{ $current.letter }}';
-        let progress = {{ add $current.index 1 }}; // Correct progress based on current index
-        const letterBaseUrl = '{{ "letters/" | relURL }}';
-
-        const alphabetContainer = document.getElementById('alphabet-container');
-        const progressText = document.getElementById('progress-text');
-
-        function renderAlphabet() {
-            alphabetContainer.innerHTML = '';
-            alphabet.forEach((letter, idx) => {
-                const isActive = letter === currentLetter;
-                const isCompleted = idx + 1 < progress;
-                const isLocked = idx + 1 > progress;
-
-                let btn;
-                let classes = "flex items-center justify-center flex-shrink-0 w-10 h-10 rounded-lg font-bold text-sm transition-all ";
-
-                if (isActive) {
-                    classes += "bg-blue-600 text-white shadow-lg shadow-blue-200 scale-110";
-                } else if (isCompleted) {
-                    classes += "bg-blue-100 text-blue-600 border border-blue-200";
-                } else if (isLocked) {
-                    classes += "bg-slate-50 text-slate-300 border border-slate-100 cursor-not-allowed";
-                } else {
-                    classes += "bg-white text-slate-400 border border-slate-200 hover:border-blue-300 hover:text-blue-500";
-                }
-
-                if (!isLocked) {
-                    btn = document.createElement('a');
-                    btn.href = `${letterBaseUrl}${letter.toLowerCase()}/`;
-                    if (isActive) {
-                         btn.setAttribute('aria-current', 'page');
-                    }
-                } else {
-                    btn = document.createElement('button');
-                    btn.disabled = true;
-                    btn.title = "Locked - Available in a future week";
-                    btn.type = "button";
-                }
-
-                btn.textContent = letter;
-                btn.className = classes;
-
-                alphabetContainer.appendChild(btn);
-            });
-            progressText.textContent = `${Math.round((progress / 26) * 100)}% Complete`;
-        }
-
-        function updateView(letter) {
-            ['current-letter-hero', 'current-letter-desc', 'current-letter-btn', 'current-letter-stat', 'current-letter-featured', 'bg-letter'].forEach(id => {
-                const el = document.getElementById(id);
-                if(el) el.textContent = letter;
-            });
-
-            const deepDiveLink = document.getElementById('deep-dive-link');
-            if(deepDiveLink) {
-                deepDiveLink.href = `/letters/${letter.toLowerCase()}/`;
-            }
-
-            const currentLetterIdx = document.getElementById('current-letter-idx');
-            if(currentLetterIdx) {
-                currentLetterIdx.textContent = alphabet.indexOf(letter) + 1;
-            }
-
-            // Re-initialize icons just in case (though not strictly needed if DOM not changing)
-            // lucide.createIcons();
-
-            // In a real implementation, this would fetch new tool data.
-        }
-
-        renderAlphabet();
-
         const countdownEl = document.getElementById('countdown');
         
         // Calculate total seconds until next rotation (every 2 weeks)
@@ -130,27 +57,6 @@
         setInterval(updateCountdown, 1000);
         updateCountdown();
 
-        // Navigation buttons footer
-        document.getElementById('prev-btn').onclick = () => {
-            const currentIdx = alphabet.indexOf(currentLetter);
-            if (currentIdx > 0) {
-                const prevLetter = alphabet[currentIdx-1];
-                window.location.href = `/letters/${prevLetter.toLowerCase()}/`;
-            }
-        };
-
-        document.getElementById('next-btn').onclick = () => {
-            const currentIdx = alphabet.indexOf(currentLetter);
-            if (currentIdx < alphabet.length - 1) {
-                // Only allow navigating to next letter if it is not locked
-                if (currentIdx + 1 < progress) {
-                    const nextLetter = alphabet[currentIdx+1];
-                    window.location.href = `/letters/${nextLetter.toLowerCase()}/`;
-                } else {
-                    alert('The next letter is still locked! Check back in the coming weeks.');
-                }
-            }
-        };
     });
 </script>
 {{ end }}
