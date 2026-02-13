@@ -131,26 +131,43 @@
         updateCountdown();
 
         // Navigation buttons footer
-        document.getElementById('prev-btn').onclick = () => {
-            const currentIdx = alphabet.indexOf(currentLetter);
-            if (currentIdx > 0) {
-                const prevLetter = alphabet[currentIdx-1];
-                window.location.href = `/letters/${prevLetter.toLowerCase()}/`;
-            }
-        };
+        const prevBtn = document.getElementById('prev-btn');
+        const nextBtn = document.getElementById('next-btn');
+        const currentIdx = alphabet.indexOf(currentLetter);
 
-        document.getElementById('next-btn').onclick = () => {
-            const currentIdx = alphabet.indexOf(currentLetter);
-            if (currentIdx < alphabet.length - 1) {
-                // Only allow navigating to next letter if it is not locked
-                if (currentIdx + 1 < progress) {
-                    const nextLetter = alphabet[currentIdx+1];
-                    window.location.href = `/letters/${nextLetter.toLowerCase()}/`;
-                } else {
-                    alert('The next letter is still locked! Check back in the coming weeks.');
-                }
+        if (currentIdx > 0) {
+            const prevLetter = alphabet[currentIdx-1];
+            prevBtn.href = `${letterBaseUrl}${prevLetter.toLowerCase()}/`;
+            prevBtn.setAttribute('aria-disabled', 'false');
+            prevBtn.classList.remove('opacity-30', 'pointer-events-none');
+        } else {
+            prevBtn.removeAttribute('href');
+            prevBtn.setAttribute('aria-disabled', 'true');
+            prevBtn.classList.add('opacity-30', 'pointer-events-none');
+        }
+
+        if (currentIdx < alphabet.length - 1) {
+            // Only allow navigating to next letter if it is not locked
+            if (currentIdx + 1 < progress) {
+                const nextLetter = alphabet[currentIdx+1];
+                nextBtn.href = `${letterBaseUrl}${nextLetter.toLowerCase()}/`;
+                nextBtn.setAttribute('aria-disabled', 'false');
+                nextBtn.classList.remove('opacity-30', 'pointer-events-none');
+            } else {
+                nextBtn.removeAttribute('href');
+                nextBtn.setAttribute('aria-disabled', 'true');
+                // Keep opacity but remove pointer-events-none so tooltip works
+                nextBtn.classList.add('opacity-30', 'cursor-not-allowed');
+                nextBtn.classList.remove('pointer-events-none');
+                nextBtn.title = 'The next letter is still locked! Check back in the coming weeks.';
+                // Prevent default click just in case
+                nextBtn.onclick = (e) => e.preventDefault();
             }
-        };
+        } else {
+            nextBtn.removeAttribute('href');
+            nextBtn.setAttribute('aria-disabled', 'true');
+            nextBtn.classList.add('opacity-30', 'pointer-events-none');
+        }
     });
 </script>
 {{ end }}
