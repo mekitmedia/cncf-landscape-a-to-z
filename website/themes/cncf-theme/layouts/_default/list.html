@@ -153,12 +153,16 @@
                 nextBtn.href = `${letterBaseUrl}${nextLetter.toLowerCase()}/`;
                 nextBtn.setAttribute('aria-disabled', 'false');
                 nextBtn.classList.remove('opacity-30', 'pointer-events-none');
+                // Ensure interactive hover styling is enabled for an unlocked next button
+                nextBtn.classList.add('hover:text-blue-600');
             } else {
                 nextBtn.removeAttribute('href');
                 nextBtn.setAttribute('aria-disabled', 'true');
                 // Keep opacity but remove pointer-events-none so tooltip works
                 nextBtn.classList.add('opacity-30', 'cursor-not-allowed');
                 nextBtn.classList.remove('pointer-events-none');
+                // Disable interactive hover styling so locked control doesn't look clickable
+                nextBtn.classList.remove('hover:text-blue-600');
                 nextBtn.title = 'The next letter is still locked! Check back in the coming weeks.';
                 // Prevent default click just in case
                 nextBtn.onclick = (e) => e.preventDefault();
@@ -167,6 +171,8 @@
             nextBtn.removeAttribute('href');
             nextBtn.setAttribute('aria-disabled', 'true');
             nextBtn.classList.add('opacity-30', 'pointer-events-none');
+            // Disable interactive hover styling for end-of-alphabet state
+            nextBtn.classList.remove('hover:text-blue-600');
         }
     });
 </script>
