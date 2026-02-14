@@ -24,23 +24,23 @@ test.describe('Footer Navigation', () => {
 
     const prevDisabled = await prevBtn.getAttribute('aria-disabled');
     if (prevDisabled === 'false') {
-        await expect(prevBtn).toHaveAttribute('href');
-        await expect(prevBtn).not.toHaveClass(/pointer-events-none/);
+      await expect(prevBtn).toHaveAttribute('href');
+      await expect(prevBtn).not.toHaveClass(/pointer-events-none/);
     } else {
-        await expect(prevBtn).not.toHaveAttribute('href');
-        await expect(prevBtn).toHaveClass(/pointer-events-none/);
+      await expect(prevBtn).not.toHaveAttribute('href');
+      await expect(prevBtn).toHaveClass(/pointer-events-none/);
     }
 
     const nextDisabled = await nextBtn.getAttribute('aria-disabled');
     if (nextDisabled === 'false') {
-        await expect(nextBtn).toHaveAttribute('href');
-        await expect(nextBtn).not.toHaveClass(/pointer-events-none/);
+      await expect(nextBtn).toHaveAttribute('href');
+      await expect(nextBtn).not.toHaveClass(/pointer-events-none/);
     } else {
-        await expect(nextBtn).not.toHaveAttribute('href');
-        // Locked next button might NOT have pointer-events-none if we want tooltip
-        // But end-of-alphabet next button DOES have it.
-        // Hard to distinguish without knowing state.
-        // But we know it should definitely NOT have href.
+      await expect(nextBtn).not.toHaveAttribute('href');
+      // Locked next button might NOT have pointer-events-none if we want tooltip
+      // But end-of-alphabet next button DOES have it.
+      // Hard to distinguish without knowing state.
+      // But we know it should definitely NOT have href.
     }
   });
 });
