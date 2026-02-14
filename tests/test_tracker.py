@@ -509,3 +509,121 @@ def test_update_task_invalid_type():
 
         # Cleanup
         shutil.rmtree("/tmp/test_weeks")
+
+
+def test_sync_with_etl_idempotency():
+    """Test sync_with_etl is idempotent regarding last_synced and save_tracker calls."""
+    # Create temp directory
+    temp_dir = Path("/tmp/test_weeks_idempotency")
+    if temp_dir.exists():
+        shutil.rmtree(temp_dir)
+    temp_dir.mkdir(parents=True, exist_ok=True)
+
+    try:
+        mock_cfg = MagicMock()
+        mock_cfg.weeks_dir = temp_dir
+
+        backend = YAMLTrackerBackend(config=mock_cfg)
+        week_letter = 'A'
+        items = ['Item1', 'Item2']
+
+        # First sync
+        backend.sync_with_etl(week_letter, items)
+
+        # Load and check last_synced
+        tracker1 = backend.load_tracker(week_letter)
+        last_synced1 = tracker1.metadata.get('last_synced')
+        assert last_synced1 is not None
+
+        # Spy on save_tracker for the second sync
+        with patch.object(backend, 'save_tracker', wraps=backend.save_tracker) as mock_save:
+            # Second sync (identical items)
+            backend.sync_with_etl(week_letter, items)
+
+            # Assert save_tracker was NOT called
+            mock_save.assert_not_called()
+
+            tracker2 = backend.load_tracker(week_letter)
+            last_synced2 = tracker2.metadata.get('last_synced')
+
+            # Assert timestamp unchanged
+            assert last_synced1 == last_synced2
+
+    finally:
+        if temp_dir.exists():
+            shutil.rmtree(temp_dir)
+
+def test_sync_with_etl_reappearing_item():
+    """Test that removed items are restored if they reappear in ETL."""
+    temp_dir = Path("/tmp/test_weeks_reappear")
+    if temp_dir.exists():
+        shutil.rmtree(temp_dir)
+    temp_dir.mkdir(parents=True, exist_ok=True)
+
+    try:
+        mock_cfg = MagicMock()
+        mock_cfg.weeks_dir = temp_dir
+
+        backend = YAMLTrackerBackend(config=mock_cfg)
+        week_letter = 'A'
+
+        # 1. Initial sync
+        backend.sync_with_etl(week_letter, ['Item1'])
+        tracker = backend.load_tracker(week_letter)
+        assert 'Item1' in tracker.items
+        assert not tracker.items['Item1'].removed
+
+        # 2. Sync with empty list (removes Item1)
+        backend.sync_with_etl(week_letter, [])
+        tracker = backend.load_tracker(week_letter)
+        assert tracker.items['Item1'].removed
+
+        # 3. Sync with Item1 again (should restore)
+        with patch.object(backend, 'save_tracker', wraps=backend.save_tracker) as mock_save:
+            backend.sync_with_etl(week_letter, ['Item1'])
+
+            # Should have saved
+            mock_save.assert_called_once()
+
+            tracker = backend.load_tracker(week_letter)
+            assert not tracker.items['Item1'].removed
+
+    finally:
+        if temp_dir.exists():
+            shutil.rmtree(temp_dir)
+
+def test_sync_with_etl_missing_metadata():
+    """Test that metadata is updated if missing, even if items match."""
+    temp_dir = Path("/tmp/test_weeks_metadata")
+    if temp_dir.exists():
+        shutil.rmtree(temp_dir)
+    temp_dir.mkdir(parents=True, exist_ok=True)
+
+    try:
+        mock_cfg = MagicMock()
+        mock_cfg.weeks_dir = temp_dir
+
+        backend = YAMLTrackerBackend(config=mock_cfg)
+        week_letter = 'A'
+        items = ['Item1']
+
+        # 1. Initial sync
+        backend.sync_with_etl(week_letter, items)
+
+        # 2. Manually corrupt metadata (remove last_synced)
+        tracker = backend.load_tracker(week_letter)
+        del tracker.metadata['last_synced']
+        backend.save_tracker(week_letter, tracker)
+
+        # 3. Sync again (should trigger update due to missing metadata)
+        with patch.object(backend, 'save_tracker', wraps=backend.save_tracker) as mock_save:
+            backend.sync_with_etl(week_letter, items)
+
+            mock_save.assert_called_once()
+
+            tracker = backend.load_tracker(week_letter)
+            assert 'last_synced' in tracker.metadata
+
+    finally:
+        if temp_dir.exists():
+            shutil.rmtree(temp_dir)
