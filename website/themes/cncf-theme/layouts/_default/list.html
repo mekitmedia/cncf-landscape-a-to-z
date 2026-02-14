@@ -131,26 +131,38 @@
         updateCountdown();
 
         // Navigation buttons footer
-        document.getElementById('prev-btn').onclick = () => {
-            const currentIdx = alphabet.indexOf(currentLetter);
-            if (currentIdx > 0) {
-                const prevLetter = alphabet[currentIdx-1];
-                window.location.href = `/letters/${prevLetter.toLowerCase()}/`;
-            }
-        };
+        const prevBtn = document.getElementById('prev-btn');
+        const nextBtn = document.getElementById('next-btn');
+        const currentIdx = alphabet.indexOf(currentLetter);
 
-        document.getElementById('next-btn').onclick = () => {
-            const currentIdx = alphabet.indexOf(currentLetter);
-            if (currentIdx < alphabet.length - 1) {
-                // Only allow navigating to next letter if it is not locked
-                if (currentIdx + 1 < progress) {
-                    const nextLetter = alphabet[currentIdx+1];
-                    window.location.href = `/letters/${nextLetter.toLowerCase()}/`;
-                } else {
-                    alert('The next letter is still locked! Check back in the coming weeks.');
-                }
+        // Update Prev Button
+        if (currentIdx > 0) {
+            const prevLetter = alphabet[currentIdx-1];
+            prevBtn.href = `${letterBaseUrl}${prevLetter.toLowerCase()}/`;
+            prevBtn.setAttribute('aria-disabled', 'false');
+        } else {
+            prevBtn.removeAttribute('href');
+            prevBtn.setAttribute('aria-disabled', 'true');
+        }
+
+        // Update Next Button
+        if (currentIdx < alphabet.length - 1) {
+            // Only allow navigating to next letter if it is not locked
+            if (currentIdx + 1 < progress) {
+                const nextLetter = alphabet[currentIdx+1];
+                nextBtn.href = `${letterBaseUrl}${nextLetter.toLowerCase()}/`;
+                nextBtn.setAttribute('aria-disabled', 'false');
+            } else {
+                // Locked
+                nextBtn.removeAttribute('href');
+                nextBtn.setAttribute('aria-disabled', 'true');
+                nextBtn.title = 'The next letter is still locked! Check back in the coming weeks.';
             }
-        };
+        } else {
+             // End of alphabet
+             nextBtn.removeAttribute('href');
+             nextBtn.setAttribute('aria-disabled', 'true');
+        }
     });
 </script>
 {{ end }}
