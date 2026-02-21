@@ -1,11 +1,33 @@
+{{ $context := .context }}
+{{ $current := .current }}
+{{ $alphabet := split "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "" }}
+{{ $currentIndex := $current.index }}
+
+{{ $prevIndex := sub $currentIndex 1 }}
+{{ $prevLetter := "" }}
+{{ if ge $prevIndex 0 }}
+    {{ $prevLetter = index $alphabet $prevIndex }}
+{{ end }}
+
 <div class="mt-16 flex items-center justify-between border-t border-slate-200 pt-8 mb-12">
-    <button class="flex items-center gap-2 px-4 py-2 text-slate-600 hover:text-blue-600 disabled:opacity-30 transition-colors font-semibold" id="prev-btn">
+    {{ if $prevLetter }}
+    <a href="{{ printf "/letters/%s/" ($prevLetter | lower) | relURL }}"
+       class="flex items-center gap-2 px-4 py-2 text-slate-600 hover:text-blue-600 transition-colors font-semibold"
+       id="prev-btn">
         <i data-lucide="chevron-left" class="w-5 h-5"></i> Previous Letter
-    </button>
+    </a>
+    {{ else }}
+    <span class="flex items-center gap-2 px-4 py-2 text-slate-600 opacity-30 cursor-not-allowed font-semibold" aria-disabled="true" id="prev-btn">
+        <i data-lucide="chevron-left" class="w-5 h-5"></i> Previous Letter
+    </span>
+    {{ end }}
+
     <div class="text-slate-400 text-sm font-medium">
-        Letter <span id="current-letter-idx">3</span> of 26
+        Letter <span id="current-letter-idx">{{ add $currentIndex 1 }}</span> of 26
     </div>
-    <button class="flex items-center gap-2 px-4 py-2 text-slate-600 hover:text-blue-600 disabled:opacity-30 transition-colors font-semibold" id="next-btn">
+
+    {{/* Next is always locked on homepage because homepage shows the latest unlocked letter */}}
+    <span class="flex items-center gap-2 px-4 py-2 text-slate-600 opacity-30 cursor-not-allowed font-semibold" aria-disabled="true" id="next-btn" title="Locked - Available in a future week">
         Next Letter <i data-lucide="chevron-right" class="w-5 h-5"></i>
-    </button>
+    </span>
 </div>
