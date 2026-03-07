@@ -1,11 +1,40 @@
+{{ $current := .current }}
+{{ $alphabet := split "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "" }}
+{{ $currentIdx := 0 }}
+{{ if $current }}
+    {{ $currentIdx = $current.index }}
+{{ end }}
+
 <div class="mt-16 flex items-center justify-between border-t border-slate-200 pt-8 mb-12">
-    <button class="flex items-center gap-2 px-4 py-2 text-slate-600 hover:text-blue-600 disabled:opacity-30 transition-colors font-semibold" id="prev-btn">
-        <i data-lucide="chevron-left" class="w-5 h-5"></i> Previous Letter
-    </button>
+    {{ if gt $currentIdx 0 }}
+        {{ $prevIdx := sub $currentIdx 1 }}
+        {{ $prevLetter := index $alphabet $prevIdx }}
+        <a href="{{ printf "letters/%s/" (lower $prevLetter) | relURL }}" class="flex items-center gap-2 px-4 py-2 text-slate-600 hover:text-blue-600 transition-colors font-semibold" id="prev-btn">
+            <i data-lucide="chevron-left" class="w-5 h-5"></i> Previous Letter
+        </a>
+    {{ else }}
+        <span aria-disabled="true" class="flex items-center gap-2 px-4 py-2 text-slate-600 opacity-30 cursor-not-allowed font-semibold" id="prev-btn">
+            <i data-lucide="chevron-left" class="w-5 h-5"></i> Previous Letter
+        </span>
+    {{ end }}
+
     <div class="text-slate-400 text-sm font-medium">
-        Letter <span id="current-letter-idx">3</span> of 26
+        Letter <span id="current-letter-idx">{{ add $currentIdx 1 }}</span> of 26
     </div>
-    <button class="flex items-center gap-2 px-4 py-2 text-slate-600 hover:text-blue-600 disabled:opacity-30 transition-colors font-semibold" id="next-btn">
-        Next Letter <i data-lucide="chevron-right" class="w-5 h-5"></i>
-    </button>
+
+    {{ if lt $currentIdx 25 }}
+        {{ $nextIdx := add $currentIdx 1 }}
+        {{/* The progress is based on (currentIdx + 1) meaning up to currentIdx + 1 is complete/active. If nextIdx < progress, it's completed */}}
+        {{/* $progress := add $currentIdx 1 */}}
+        {{/* if $nextIdx < $progress */}}
+        {{/* But wait, on the homepage, the current letter *is* the latest unlocked letter typically, so next is locked. */}}
+        {{/* Let's replicate list.html logic: $progress = $current.index + 1. Next letter is index $current.index + 1, so $nextIdx >= $progress -> locked. */}}
+        <span aria-disabled="true" class="flex items-center gap-2 px-4 py-2 text-slate-600 opacity-30 cursor-not-allowed font-semibold" id="next-btn" title="Locked - Available in a future week">
+            Next Letter <i data-lucide="chevron-right" class="w-5 h-5"></i>
+        </span>
+    {{ else }}
+        <span aria-disabled="true" class="flex items-center gap-2 px-4 py-2 text-slate-600 opacity-30 cursor-not-allowed font-semibold" id="next-btn">
+            Next Letter <i data-lucide="chevron-right" class="w-5 h-5"></i>
+        </span>
+    {{ end }}
 </div>

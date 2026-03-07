@@ -18,7 +18,7 @@
         {{ partial "recent-posts.html" . }}
 
         <!-- Navigation Footer -->
-        {{ partial "homepage-footer.html" . }}
+        {{ partial "homepage-footer.html" (dict "context" . "current" $current) }}
     </main>
 </div>
 
@@ -129,28 +129,6 @@
         
         setInterval(updateCountdown, 1000);
         updateCountdown();
-
-        // Navigation buttons footer
-        document.getElementById('prev-btn').onclick = () => {
-            const currentIdx = alphabet.indexOf(currentLetter);
-            if (currentIdx > 0) {
-                const prevLetter = alphabet[currentIdx-1];
-                window.location.href = `/letters/${prevLetter.toLowerCase()}/`;
-            }
-        };
-
-        document.getElementById('next-btn').onclick = () => {
-            const currentIdx = alphabet.indexOf(currentLetter);
-            if (currentIdx < alphabet.length - 1) {
-                // Only allow navigating to next letter if it is not locked
-                if (currentIdx + 1 < progress) {
-                    const nextLetter = alphabet[currentIdx+1];
-                    window.location.href = `/letters/${nextLetter.toLowerCase()}/`;
-                } else {
-                    alert('The next letter is still locked! Check back in the coming weeks.');
-                }
-            }
-        };
     });
 </script>
 {{ end }}
