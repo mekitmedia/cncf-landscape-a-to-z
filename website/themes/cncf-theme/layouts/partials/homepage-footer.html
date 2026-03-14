@@ -3,11 +3,11 @@
     {{ if gt $current.index 0 }}
         {{ $prevIndex := sub $current.index 1 }}
         {{ $prevLetter := printf "%c" (add $prevIndex 65) }}
-        <a href="{{ "letters/" | relURL }}{{ $prevLetter | lower }}/" class="flex items-center gap-2 px-4 py-2 text-slate-600 hover:text-blue-600 transition-colors font-semibold">
+        <a href="{{ "letters/" | relURL }}{{ $prevLetter | lower }}/" class="flex items-center gap-2 px-4 py-2 text-slate-600 hover:text-blue-600 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none rounded-lg transition-colors font-semibold">
             <i data-lucide="chevron-left" class="w-5 h-5"></i> Previous Letter
         </a>
     {{ else }}
-        <button disabled class="flex items-center gap-2 px-4 py-2 text-slate-300 transition-colors font-semibold cursor-not-allowed">
+        <button disabled aria-disabled="true" title="No previous letter" class="flex items-center gap-2 px-4 py-2 text-slate-300 transition-colors font-semibold cursor-not-allowed">
             <i data-lucide="chevron-left" class="w-5 h-5"></i> Previous Letter
         </button>
     {{ end }}
@@ -17,7 +17,7 @@
     </div>
 
     {{/* Next button is always disabled on homepage as it shows the current week */}}
-    <button disabled class="flex items-center gap-2 px-4 py-2 text-slate-300 transition-colors font-semibold cursor-not-allowed" title="The next letter is still locked! Check back in the coming weeks.">
+    <button disabled aria-disabled="true" class="flex items-center gap-2 px-4 py-2 text-slate-300 transition-colors font-semibold cursor-not-allowed" title="The next letter is still locked! Check back in the coming weeks.">
         Next Letter <i data-lucide="chevron-right" class="w-5 h-5"></i>
     </button>
 </div>
