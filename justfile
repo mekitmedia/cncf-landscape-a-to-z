@@ -65,3 +65,7 @@ e2e-ui:
 hugo:
     hugo server -s website
 
+
+# Bootstrap a Kind cluster with Flux D2 architecture
+bootstrap-kind:
+    @./scripts/bootstrap-kind.sh
