@@ -1,0 +1,78 @@
+name: Reusable Python Publish
+
+on:
+  workflow_call:
+    inputs:
+      package_dir:
+        description: 'Directory containing the Python package (e.g., agentic)'
+        required: true
+        type: string
+      version:
+        description: 'Version to publish'
+        required: true
+        type: string
+      tag_name:
+        description: 'GitHub Release Tag Name'
+        required: true
+        type: string
+      package_name:
+        description: 'Name of the python package in pyproject.toml to override (optional)'
+        required: false
+        type: string
+      publish_pypi:
+        description: 'Whether to publish to PyPI'
+        required: false
+        type: boolean
+        default: false
+
+jobs:
+  publish-python:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      id-token: write # For PyPI trusted publishing
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.tag_name }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install build dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install build twine
+
+      - name: Update version in pyproject.toml
+        run: |
+          cd ${{ inputs.package_dir }}
+          VERSION="${{ inputs.version }}"
+          sed -i "s/^version = .*/version = \"$VERSION\"/" pyproject.toml
+
+          if [ -n "${{ inputs.package_name }}" ]; then
+            sed -i "s/^name = .*/name = \"${{ inputs.package_name }}\"/" pyproject.toml
+          fi
+
+      - name: Build package
+        run: |
+          cd ${{ inputs.package_dir }}
+          python -m build
+
+      - name: Upload package to GitHub release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release upload "${{ inputs.tag_name }}" \
+            ${{ inputs.package_dir }}/dist/* \
+            --clobber
+
+      - name: Publish package to PyPI
+        if: ${{ inputs.publish_pypi }}
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          packages-dir: ${{ inputs.package_dir }}/dist/
