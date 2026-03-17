@@ -22,6 +22,8 @@
 - ATIX (KCNTP)
 - ATIX (KCSP)
 - ATIX (member)
+- AVAP
+- AVAP (member)
 - AWS App Mesh
 - AWS Cloud Map
 - AWS CloudFormation
@@ -32,8 +34,6 @@
 - Access Quality (KCSP)
 - Access Quality (member)
 - Accordion
-- AccuKnox (KCSP)
-- AccuKnox (member)
 - Adidas (supporter)
 - Adobe (member)
 - Aembit (member)
@@ -90,6 +90,7 @@
 - Ambient IT (member)
 - American Express (member)
 - Amnic (member)
+- "Amoniac O\xDC (member)"
 - Ampere Computing (member)
 - Andes Digital (KCSP)
 - Andes Digital (member)
@@ -116,6 +117,7 @@
 - Archestra.AI (member)
 - Arm (member)
 - Armo (member)
+- Arpio (member)
 - Arrikto
 - Aruba Managed Kubernetes
 - Aruba SpA (member)
@@ -127,7 +129,7 @@
 - Atos (KCSP)
 - Atos (member)
 - Attribute (member)
-- Audi (member)
+- Audi (supporter)
 - AuditBoard (supporter)
 - AuriStor (member)
 - AuthKeys (supporter)
@@ -291,7 +293,6 @@
 - CloudZero
 - Cloudbase Solutions (member)
 - Cloudbees Codeship
-- Cloudboostr
 - Cloudchipr (member)
 - Cloudera (member)
 - Cloudflare Workers
@@ -318,6 +319,7 @@
 - Commvault
 - ComplianceCow (member)
 - ConfidentialMind (member)
+- Confluentis Consulting (KCSP)
 - Confluentis Consulting (member)
 - Conoa (KCNTP)
 - Conoa (KCSP)
@@ -353,12 +355,12 @@
 - Cybozu (member)
 - Cyso (KCSP)
 - Cyso (member)
-- D2iQ (KCNTP)
 - D2iQ (KCSP)
 - DACHS IT (KCSP)
 - DACHS IT (member)
 - DB Systel (supporter)
 - DFDS (supporter)
+- DG-i Kubernetes Platform
 - DGi (KCSP)
 - DGi (member)
 - DIRECTV (supporter)
@@ -420,6 +422,7 @@
 - Docker (member)
 - Docker Hub
 - Doctor Droid (member)
+- Docusign (member)
 - DoiT (KCNTP)
 - DoiT (KCSP)
 - DoiT (member)
@@ -471,7 +474,6 @@
 - Ericsson (member)
 - Ericsson Cloud Container Distribution
 - EverQuote (supporter)
-- Evonem (member)
 - Excellion Sdn Bhd (KCSP)
 - Excellion Sdn Bhd (member)
 - Exein (member)
@@ -488,7 +490,6 @@
 - Fairwinds (member)
 - Fairwinds Insights
 - Fastly Compute@Edge
-- Fermyon Technologies (member)
 - Ferymon Cloud
 - Fidelity Investments (member)
 - Finout (member)
@@ -557,8 +558,6 @@
 - H3C CloudOS
 - H3C Technologies (member)
 - HAProxy Technologies (member)
-- HCL Technologies (KCSP)
-- HCL Technologies (member)
 - HPE (KCNTP)
 - HPE (KCSP)
 - HPE (member)
@@ -651,7 +650,6 @@
 - IronDB
 - Isovalent
 - Isovalent (member)
-- JFrog (member)
 - JFrog Artifactory
 - JPMorgan Chase (member)
 - JYSK (supporter)
@@ -663,7 +661,6 @@
 - KSAT (supporter)
 - Kasten
 - Kedify (member)
-- Keep Alerting (member)
 - Kestrel AI (member)
 - Keyfactor (member)
 - Keymate.io (member)
@@ -731,11 +728,11 @@
 - Liquid Reply (member)
 - Llama 2
 - Lockheed Martin (member)
-- Loft Labs (member)
 - Loggly
 - LogicMonitor
 - Logiq
 - Logz.io
+- Lovable (member)
 - Lumigo
 - MATRIXX Digital Commerce
 - MacStadium (member)
@@ -748,7 +745,6 @@
 - MasterClass (supporter)
 - MasterControl (supporter)
 - Mathworks (member)
-- MavenSolutions (member)
 - McKinsey & Company (member)
 - Meltwater (supporter)
 - Mercedes Benz AG (member)
@@ -975,6 +971,7 @@
 - QingStor
 - Qingteng
 - QualitySoft (member)
+- Qube Research & Technologies (member)
 - Qubole
 - QueryDesk (member)
 - Quesma (member)
@@ -1126,7 +1123,6 @@
 - Spitzkop (member)
 - Split
 - Splunk
-- Splunk (member)
 - Spot.io
 - Spotify (member)
 - Springer Nature (member)
@@ -1191,9 +1187,9 @@
 - Tata Communications Vayu Kubernetes Service
 - Taubyte
 - TeamCity
+- Teciem (member)
 - TelemetryHub by Scout APM
 - Telenor Norway (member)
-- Teleport (KCSP)
 - Teleport (member)
 - Temporal (member)
 - Tencent Cloud (member)
@@ -1242,6 +1238,7 @@
 - Trilio
 - Trink.io
 - TrueFoundry (member)
+- TrueFullstaq (KCNTP)
 - TrueFullstaq (KCSP)
 - TrueFullstaq (member)
 - Twilio Functions
@@ -1294,7 +1291,7 @@
 - Volcano Engine VMP
 - Volcengine Kubernetes Engine
 - VoltDB
-- Volvo (supporter)
+- Volvo (contributor)
 - Vultr (member)
 - Vultr Kubernetes Engine
 - WIIT (KCSP)
@@ -1318,7 +1315,6 @@
 - WhizUs (KCSP)
 - WhizUs (member)
 - Wikimedia (member)
-- William Hill (supporter)
 - Wind River (member)
 - Wise2C (KCSP)
 - Wise2C (member)
@@ -1380,7 +1376,6 @@
 - iguazio
 - iits-consulting (KCSP)
 - iits-consulting (member)
-- "initializ\u2122 (KCSP)"
 - "initializ\u2122 (member)"
 - itopia
 - kapa.ai (member)
@@ -1411,6 +1406,7 @@
 - teuto.net (member)
 - trivago (supporter)
 - unryo
+- vCluster (member)
 - vamp.io
 - x-cellent (KCNTP)
 - x-cellent (KCSP)

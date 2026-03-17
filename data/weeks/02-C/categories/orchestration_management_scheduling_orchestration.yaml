@@ -54,3 +54,13 @@
   name: CoHDI
   project: sandbox
   repo_url: https://github.com/CoHDI
+- description: Cozystack is a free PaaS platform and framework for building private
+    clouds and providing users/customers with managed Kubernetes,  KubeVirt-based
+    VMs, databases as a service, NATS, message brokers, etc. with GPU support in VMs
+    and Kubernetes clusters.
+  featured: true
+  homepage_url: https://cozystack.io
+  logo: cozystack.svg
+  name: Cozystack
+  project: sandbox
+  repo_url: https://github.com/cozystack/cozystack

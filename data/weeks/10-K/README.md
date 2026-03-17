@@ -1,6 +1,6 @@
 # Summary for 10-K
 
-This week has a total of 107 items.
+This week has a total of 108 items.
 
 
 - **Provisioning Automation Configuration**: 11 items
@@ -15,7 +15,7 @@ This week has a total of 107 items.
 
 - **Runtime Cloud Native Network**: 3 items
 
-- **Orchestration Management Scheduling Orchestration**: 13 items
+- **Orchestration Management Scheduling Orchestration**: 14 items
 
 - **Orchestration Management Coordination Service Discovery**: 1 items
 

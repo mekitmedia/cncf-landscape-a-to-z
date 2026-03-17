@@ -1,6 +1,6 @@
 # Summary for 18-S
 
-This week has a total of 80 items.
+This week has a total of 81 items.
 
 
 - **Provisioning Automation Configuration**: 3 items
@@ -17,7 +17,7 @@ This week has a total of 80 items.
 
 - **Runtime Cloud Native Network**: 2 items
 
-- **Orchestration Management Scheduling Orchestration**: 3 items
+- **Orchestration Management Scheduling Orchestration**: 4 items
 
 - **Orchestration Management Remote Procedure Call**: 2 items
 

@@ -115,7 +115,7 @@ App Definition and Development:
   - Couchbase
   - Crate.io
   - Crunchy Postgres Operator
-  - Crux
+  - XTDB
   - Databend
   - Dgraph
   - Doris
@@ -360,6 +360,7 @@ Observability and Analysis:
   - Nagios
   - Netdata
   - Netis
+  - NetObserv
   - NexClipper
   - Nightingale
   - Odigos
@@ -375,6 +376,7 @@ Observability and Analysis:
   - Pixie
   - Prometheus
   - Quickwit
+  - Radar
   - SOFATracer
   - Sensu
   - Sentry
@@ -453,6 +455,7 @@ Orchestration & Management:
   - CoHDI
   - Clusternet
   - Clusterpedia
+  - Cozystack
   - Crossplane
   - Docker Swarm
   - DolphinScheduler
@@ -465,6 +468,7 @@ Orchestration & Management:
   - k0rdent
   - KEDA
   - Kestra
+  - KAI Scheduler
   - Knative
   - Koordinator
   - kube-green
@@ -485,6 +489,7 @@ Orchestration & Management:
   - Prefect
   - Serverless Devs
   - StackStorm
+  - SuperPlane
   - Volcano
   - wasmCloud
   - Katalyst
@@ -524,7 +529,6 @@ Platform:
   Certified Kubernetes - Distribution:
   - Amazon Elastic Kubernetes Service Distro (Amazon EKS-D)
   - Canonical Charmed Kubernetes
-  - Constellation
   - Desktop Kubernetes
   - "Elastisys Welkin\xAE based on Kubespray"
   - Flatcar Container Linux
@@ -535,7 +539,6 @@ Platform:
   - Kubermatic Kubernetes Platform
   - Kubesphere
   - kURL
-  - Magellano
   - MicroK8s
   - Oracle Cloud Native Environment
   - Plural
@@ -621,7 +624,7 @@ Provisioning:
   - MAAS
   - ManageIQ
   - Meshery
-  - "Metal\xB3"
+  - metal3-io
   - Mist.io
   - Omni
   - OpenStack
@@ -664,6 +667,7 @@ Provisioning:
   - Bouncy Castle
   - Boundary
   - bpfman
+  - Casdoor
   - Cartography
   - Cedar
   - Cerbos

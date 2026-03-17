@@ -1,4 +1,12 @@
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  featured: true
+  homepage_url: https://kyverno.io/
+  logo: kyverno.svg
+  name: Kyverno
+  project: graduated
+  repo_url: https://github.com/kyverno/kyverno
+  twitter: https://twitter.com/kyverno
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: Keycloak is an open-source identity and access management solution
     for modern applications and services,  built on top of industry security standard
     protocols.
@@ -22,14 +30,6 @@
   project: incubating
   repo_url: https://github.com/kubescape/kubescape
   twitter: https://twitter.com/kubescape
-- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  featured: true
-  homepage_url: https://kyverno.io/
-  logo: kyverno.svg
-  name: Kyverno
-  project: incubating
-  repo_url: https://github.com/kyverno/kyverno
-  twitter: https://twitter.com/kyverno
 - crunchbase: https://www.crunchbase.com/organization/checkmarx
   description: Find security vulnerabilities, compliance issues, and infrastructure
     misconfigurations early in the development cycle of your infrastructure-as-code

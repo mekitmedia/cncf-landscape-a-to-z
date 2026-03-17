@@ -38,7 +38,7 @@
     - MAAS
     - ManageIQ
     - Meshery
-    - "Metal\xB3"
+    - metal3-io
     - Mist.io
     - Omni
     - OpenStack
@@ -76,6 +76,7 @@
     - Bouncy Castle
     - Boundary
     - bpfman
+    - Casdoor
     - Cartography
     - Cedar
     - Cerbos
@@ -254,6 +255,7 @@
     - CoHDI
     - Clusternet
     - Clusterpedia
+    - Cozystack
     - Crossplane
     - Docker Swarm
     - DolphinScheduler
@@ -266,6 +268,7 @@
     - k0rdent
     - KEDA
     - Kestra
+    - KAI Scheduler
     - Knative
     - Koordinator
     - kube-green
@@ -286,6 +289,7 @@
     - Prefect
     - Serverless Devs
     - StackStorm
+    - SuperPlane
     - Volcano
     - wasmCloud
     - Katalyst
@@ -398,7 +402,7 @@
     - Couchbase
     - Crate.io
     - Crunchy Postgres Operator
-    - Crux
+    - XTDB
     - Databend
     - Dgraph
     - Doris
@@ -598,7 +602,6 @@
   - items:
     - Amazon Elastic Kubernetes Service Distro (Amazon EKS-D)
     - Canonical Charmed Kubernetes
-    - Constellation
     - Desktop Kubernetes
     - "Elastisys Welkin\xAE based on Kubespray"
     - Flatcar Container Linux
@@ -609,7 +612,6 @@
     - Kubermatic Kubernetes Platform
     - Kubesphere
     - kURL
-    - Magellano
     - MicroK8s
     - Oracle Cloud Native Environment
     - Plural
@@ -798,6 +800,7 @@
     - Nagios
     - Netdata
     - Netis
+    - NetObserv
     - NexClipper
     - Nightingale
     - Odigos
@@ -813,6 +816,7 @@
     - Pixie
     - Prometheus
     - Quickwit
+    - Radar
     - SOFATracer
     - Sensu
     - Sentry
