@@ -8,3 +8,7 @@
 ## 2025-03-14 - Keyboard Accessibility & Tooltips for Icon-only Buttons
 **Learning:** Found that icon-only buttons lacked hover text (`title`) and `focus-visible` styles which are critical for screen reader users and keyboard navigation. Using Tailwind's `focus-visible:ring-2 focus-visible:outline-none` pattern prevents default outline rings and uses theme colors efficiently, ensuring it only triggers on keyboard focus.
 **Action:** Always verify keyboard navigation (Tab through the page) and add `focus-visible` to custom styled buttons and links, especially icon-only buttons.
+
+## 2025-03-28 - Added sequential A-Z pagination to letter footer
+**Learning:** Navigating a deeply nested directory (A-Z) without "Next/Previous" links causes high friction, forcing users to repeatedly hit "back" or return to the top navigation. Implementing robust sequential pagination (handling 'A' as first, 'Z' as last, and locking future weeks) significantly improves content discovery flows.
+**Action:** When working on paginated or sequential content (like a blog or directory list), always assess if bottom-of-page navigation exists to guide users naturally to the next piece of content. Add ARIA labels (e.g., `aria-label="Next Letter: B"`) to ensure screen reader context is maintained when navigating sequentially.
