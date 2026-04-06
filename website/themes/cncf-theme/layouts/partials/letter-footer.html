@@ -1,11 +1,8 @@
-{{ $letter := .Params.letter | default "A" }}
+{{ $weekParam := .Params.week | default 0 }}
+{{ $currentIndex := int $weekParam }}
+{{ if lt $currentIndex 0 }}{{ $currentIndex = 0 }}{{ end }}
+{{ if gt $currentIndex 25 }}{{ $currentIndex = 25 }}{{ end }}
 {{ $alphabet := split "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "" }}
-{{ $currentIndex := 0 }}
-{{ range $i, $v := $alphabet }}
-    {{ if eq $v $letter }}
-        {{ $currentIndex = $i }}
-    {{ end }}
-{{ end }}
 
 {{ $currentWeekData := partial "get-current-week.html" . }}
 {{ $currentWeekIndex := 0 }}
@@ -22,9 +19,9 @@
             <i data-lucide="chevron-left" class="w-5 h-5"></i> <span class="hidden sm:inline">Previous Letter</span>
         </a>
     {{ else }}
-        <button disabled aria-disabled="true" title="No previous letter" class="inline-flex items-center gap-2 px-4 py-2 text-slate-300 transition-colors font-semibold cursor-not-allowed">
+        <span role="button" aria-disabled="true" aria-label="No previous letter" tabindex="0" title="No previous letter" class="inline-flex items-center gap-2 px-4 py-2 text-slate-300 transition-colors font-semibold cursor-not-allowed">
             <i data-lucide="chevron-left" class="w-5 h-5"></i> <span class="hidden sm:inline">Previous Letter</span>
-        </button>
+        </span>
     {{ end }}
     </div>
 
@@ -43,14 +40,14 @@
                 <span class="hidden sm:inline">Next Letter</span> <i data-lucide="chevron-right" class="w-5 h-5"></i>
             </a>
         {{ else }}
-            <button disabled aria-disabled="true" class="inline-flex items-center gap-2 px-4 py-2 text-slate-300 transition-colors font-semibold cursor-not-allowed" title="The next letter is still locked! Check back in the coming weeks.">
+            <span role="button" aria-disabled="true" aria-label="Next letter is still locked" tabindex="0" title="The next letter is still locked! Check back in the coming weeks." class="inline-flex items-center gap-2 px-4 py-2 text-slate-300 transition-colors font-semibold cursor-not-allowed">
                 <span class="hidden sm:inline">Next Letter</span> <i data-lucide="chevron-right" class="w-5 h-5"></i>
-            </button>
+            </span>
         {{ end }}
     {{ else }}
-        <button disabled aria-disabled="true" title="No next letter" class="inline-flex items-center gap-2 px-4 py-2 text-slate-300 transition-colors font-semibold cursor-not-allowed">
+        <span role="button" aria-disabled="true" aria-label="No next letter" tabindex="0" title="No next letter" class="inline-flex items-center gap-2 px-4 py-2 text-slate-300 transition-colors font-semibold cursor-not-allowed">
             <span class="hidden sm:inline">Next Letter</span> <i data-lucide="chevron-right" class="w-5 h-5"></i>
-        </button>
+        </span>
     {{ end }}
     </div>
 </div>
