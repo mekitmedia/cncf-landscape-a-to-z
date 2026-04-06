@@ -176,12 +176,19 @@ class YAMLTrackerBackend:
         
         return pending_items
     
-    def can_start_task(self, week_letter: str, item: Optional[str], task_type: str) -> bool:
+    def can_start_task(
+        self,
+        week_letter: str,
+        item: Optional[str],
+        task_type: str,
+        tracker: Optional[WeekTracker] = None
+    ) -> bool:
         """Check if a task can be started (dependencies met)."""
         if not is_valid_task_type(task_type):
             return False
         
-        tracker = self.load_tracker(week_letter)
+        if tracker is None:
+            tracker = self.load_tracker(week_letter)
         
         return self._check_dependencies(tracker, item, task_type)
     
@@ -417,7 +424,7 @@ class YAMLTrackerBackend:
                 for task_type, task_record in item_tasks.tasks.items():
                     # Only include pending tasks where dependencies are met
                     if task_record.status == TaskStatus.PENDING:
-                        if self.can_start_task(letter, item_name, task_type):
+                        if self.can_start_task(letter, item_name, task_type, tracker=tracker):
                             config = get_task_config(task_type)
                             ready_tasks.append(ReadyTask(
                                 week_letter=letter,
@@ -429,7 +436,7 @@ class YAMLTrackerBackend:
             # Check week-level tasks
             for task_type, task_record in tracker.week_tasks.tasks.items():
                 if task_record.status == TaskStatus.PENDING:
-                    if self.can_start_task(letter, None, task_type):
+                    if self.can_start_task(letter, None, task_type, tracker=tracker):
                         config = get_task_config(task_type)
                         ready_tasks.append(ReadyTask(
                             week_letter=letter,
