@@ -8,3 +8,7 @@
 ## 2025-03-14 - Keyboard Accessibility & Tooltips for Icon-only Buttons
 **Learning:** Found that icon-only buttons lacked hover text (`title`) and `focus-visible` styles which are critical for screen reader users and keyboard navigation. Using Tailwind's `focus-visible:ring-2 focus-visible:outline-none` pattern prevents default outline rings and uses theme colors efficiently, ensuring it only triggers on keyboard focus.
 **Action:** Always verify keyboard navigation (Tab through the page) and add `focus-visible` to custom styled buttons and links, especially icon-only buttons.
+
+## 2026-04-11 - Focus States & Screen Reader Clarity
+**Learning:** Interactive elements in high-visibility areas like Hero sections and lists must have clear, visible focus states for keyboard navigation. Additionally, large decorative text elements (like background letters) can confuse screen readers if not explicitly hidden. External links should clearly indicate to screen readers when they open in a new tab.
+**Action:** Always add `focus-visible` utility classes to links/buttons, use `aria-hidden="true"` on purely decorative text, and append `<span class="sr-only"> (opens in a new tab)</span>` to external links that use `target="_blank"`.
