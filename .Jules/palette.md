@@ -8,3 +8,7 @@
 ## 2025-03-14 - Keyboard Accessibility & Tooltips for Icon-only Buttons
 **Learning:** Found that icon-only buttons lacked hover text (`title`) and `focus-visible` styles which are critical for screen reader users and keyboard navigation. Using Tailwind's `focus-visible:ring-2 focus-visible:outline-none` pattern prevents default outline rings and uses theme colors efficiently, ensuring it only triggers on keyboard focus.
 **Action:** Always verify keyboard navigation (Tab through the page) and add `focus-visible` to custom styled buttons and links, especially icon-only buttons.
+
+## 2025-04-18 - ARIA Labels and Focus Styles on Social Sharing Buttons
+**Learning:** Icon-only buttons used for social sharing and navigation without `aria-label`s are not properly read by screen readers. Applying Tailwind's `focus-visible:ring-2 focus-visible:outline-none focus-visible:ring-blue-500` ensures consistent keyboard navigation support without breaking mouse interactions.
+**Action:** Always add `aria-label` to interactive elements containing only icons. Ensure consistent keyboard focus styling on all buttons and links in blog post layouts.
