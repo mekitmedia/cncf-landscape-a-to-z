@@ -1,5 +1,5 @@
 ---
-title: "Letter A - CNCF Landscape"
+title: "Week 1: Letter A"
 letter: "A"
 week: 0
 data_key: "00-A"
@@ -8,7 +8,7 @@ layout: "list"
 
 # Summary for 00-A
 
-This week has a total of 61 items.
+This week has a total of 62 items.
 
 
 - **Provisioning Automation Configuration**: 5 items
@@ -21,7 +21,7 @@ This week has a total of 61 items.
 
 - **Runtime Cloud Native Network**: 1 items
 
-- **Orchestration Management Scheduling Orchestration**: 3 items
+- **Orchestration Management Scheduling Orchestration**: 4 items
 
 - **Orchestration Management Coordination Service Discovery**: 1 items
 

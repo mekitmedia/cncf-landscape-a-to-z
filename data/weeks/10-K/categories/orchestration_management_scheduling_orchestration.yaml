@@ -48,10 +48,19 @@
   project: incubating
   repo_url: https://github.com/kubeflow/kubeflow
   twitter: https://twitter.com/kubeflow
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: KAI Scheduler is a robust, efficient, and scalable Kubernetes scheduler
+    that optimizes GPU resource allocation for AI workloads in large-scale clusters.
+  featured: true
+  homepage_url: https://github.com/kai-scheduler/KAI-Scheduler
+  logo: cncf.svg
+  name: KAI Scheduler
+  project: sandbox
+  repo_url: https://github.com/kai-scheduler/KAI-Scheduler
 - crunchbase: https://www.crunchbase.com/organization/bytedance
   description: Katalyst is a QoS-based resource management system for workload colocation
     on kubernetes
-  featured: true
+  featured: false
   homepage_url: https://gokatalyst.io
   logo: katalyst.svg
   name: Katalyst

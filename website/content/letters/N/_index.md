@@ -1,5 +1,5 @@
 ---
-title: "Letter N - CNCF Landscape"
+title: "Week 14: Letter N"
 letter: "N"
 week: 13
 data_key: "13-N"
@@ -8,8 +8,10 @@ layout: "list"
 
 # Summary for 13-N
 
-This week has a total of 26 items.
+This week has a total of 28 items.
 
+
+- **Provisioning Automation Configuration**: 1 items
 
 - **Provisioning Security Compliance**: 2 items
 
@@ -35,7 +37,7 @@ This week has a total of 26 items.
 
 - **Serverless Installable Platform**: 1 items
 
-- **Observability And Analysis Observability**: 5 items
+- **Observability And Analysis Observability**: 6 items
 
 - **Wasm Embedded Functions**: 1 items
 

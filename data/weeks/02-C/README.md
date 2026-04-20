@@ -1,11 +1,11 @@
 # Summary for 02-C
 
-This week has a total of 76 items.
+This week has a total of 75 items.
 
 
 - **Provisioning Automation Configuration**: 8 items
 
-- **Provisioning Security Compliance**: 10 items
+- **Provisioning Security Compliance**: 11 items
 
 - **Provisioning Key Management**: 1 items
 
@@ -15,7 +15,7 @@ This week has a total of 76 items.
 
 - **Runtime Cloud Native Network**: 2 items
 
-- **Orchestration Management Scheduling Orchestration**: 5 items
+- **Orchestration Management Scheduling Orchestration**: 6 items
 
 - **Orchestration Management Coordination Service Discovery**: 1 items
 
@@ -25,7 +25,7 @@ This week has a total of 76 items.
 
 - **Orchestration Management Service Mesh**: 1 items
 
-- **App Definition And Development Database**: 8 items
+- **App Definition And Development Database**: 7 items
 
 - **App Definition And Development Streaming Messaging**: 2 items
 
@@ -33,13 +33,13 @@ This week has a total of 76 items.
 
 - **App Definition And Development Continuous Integration Delivery**: 2 items
 
-- **Platform Certified Kubernetes Distribution**: 2 items
+- **Platform Certified Kubernetes Distribution**: 1 items
 
 - **Platform Certified Kubernetes Hosted**: 1 items
 
 - **Platform Certified Kubernetes Installer**: 1 items
 
-- **Platform Paas Container Service**: 2 items
+- **Platform Paas Container Service**: 1 items
 
 - **Serverless Tools**: 1 items
 

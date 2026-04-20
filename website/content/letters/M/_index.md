@@ -1,5 +1,5 @@
 ---
-title: "Letter M - CNCF Landscape"
+title: "Week 13: Letter M"
 letter: "M"
 week: 12
 data_key: "12-M"
@@ -8,10 +8,10 @@ layout: "list"
 
 # Summary for 12-M
 
-This week has a total of 38 items.
+This week has a total of 36 items.
 
 
-- **Provisioning Automation Configuration**: 5 items
+- **Provisioning Automation Configuration**: 4 items
 
 - **Provisioning Security Compliance**: 2 items
 
@@ -29,7 +29,7 @@ This week has a total of 38 items.
 
 - **App Definition And Development Application Definition Image Build**: 4 items
 
-- **Platform Certified Kubernetes Distribution**: 2 items
+- **Platform Certified Kubernetes Distribution**: 1 items
 
 - **Serverless Framework**: 1 items
 

@@ -6,6 +6,15 @@
   name: EDB
   project: null
   repo_url: https://github.com/EnterpriseDB/cloudnative-pg
+- crunchbase: https://www.crunchbase.com/organization/endee
+  description: High-performance open-source vector database for AI search, RAG, semantic
+    search, and hybrid retrieval.
+  featured: true
+  homepage_url: https://endee.io/
+  logo: endee.svg
+  name: Endee
+  project: null
+  repo_url: https://github.com/endee-io/endee
 - crunchbase: https://www.crunchbase.com/organization/epsilla
   description: 10x faster vector database and one-stop RAGaaS platform for building
     LLM applications

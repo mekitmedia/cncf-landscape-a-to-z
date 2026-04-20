@@ -1,5 +1,5 @@
 ---
-title: "Letter B - CNCF Landscape"
+title: "Week 2: Letter B"
 letter: "B"
 week: 1
 data_key: "01-B"
@@ -8,16 +8,16 @@ layout: "list"
 
 # Summary for 01-B
 
-This week has a total of 16 items.
+This week has a total of 18 items.
 
 
-- **Provisioning Automation Configuration**: 1 items
+- **Provisioning Automation Configuration**: 2 items
 
 - **Provisioning Security Compliance**: 3 items
 
 - **Orchestration Management Scheduling Orchestration**: 1 items
 
-- **Orchestration Management Service Proxy**: 1 items
+- **Orchestration Management Service Proxy**: 2 items
 
 - **App Definition And Development Database**: 1 items
 

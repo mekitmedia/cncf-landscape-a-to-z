@@ -1,6 +1,6 @@
 # Summary for 17-R
 
-This week has a total of 20 items.
+This week has a total of 21 items.
 
 
 - **Provisioning Automation Configuration**: 2 items
@@ -21,6 +21,8 @@ This week has a total of 20 items.
 
 - **Platform Certified Kubernetes Distribution**: 4 items
 
-- **Platform Certified Kubernetes Installer**: 1 items
+- **Observability And Analysis Observability**: 1 items
 
 - **Wasm Languages**: 1 items
+
+- **Cnai Ml Serving**: 1 items

@@ -22,6 +22,8 @@
 - ATIX (KCNTP)
 - ATIX (KCSP)
 - ATIX (member)
+- AVAP
+- AVAP (member)
 - AWS App Mesh
 - AWS Cloud Map
 - AWS CloudFormation
@@ -32,8 +34,6 @@
 - Access Quality (KCSP)
 - Access Quality (member)
 - Accordion
-- AccuKnox (KCSP)
-- AccuKnox (member)
 - Adidas (supporter)
 - Adobe (member)
 - Aembit (member)
@@ -46,6 +46,8 @@
 - AgileOps (KCNTP)
 - AgileOps (KCSP)
 - AgileOps (member)
+- AhnLab CloudMate (KCSP)
+- AhnLab CloudMate (member)
 - Aikido Security (member)
 - Airbnb (supporter)
 - Airlock
@@ -90,6 +92,7 @@
 - Ambient IT (member)
 - American Express (member)
 - Amnic (member)
+- "Amoniac O\xDC (member)"
 - Ampere Computing (member)
 - Andes Digital (KCSP)
 - Andes Digital (member)
@@ -116,6 +119,7 @@
 - Archestra.AI (member)
 - Arm (member)
 - Armo (member)
+- Arpio (member)
 - Arrikto
 - Aruba Managed Kubernetes
 - Aruba SpA (member)
@@ -127,7 +131,7 @@
 - Atos (KCSP)
 - Atos (member)
 - Attribute (member)
-- Audi (member)
+- Audi (supporter)
 - AuditBoard (supporter)
 - AuriStor (member)
 - AuthKeys (supporter)
@@ -188,6 +192,8 @@
 - Border0 (member)
 - Box (supporter)
 - BrainGu (member)
+- Breqwatr (member)
+- Breqwatr BKS
 - Broadcom (member)
 - Brobridge (KCSP)
 - Brobridge (member)
@@ -236,7 +242,7 @@
 - Causely (member)
 - CelerData (member)
 - Celonis (supporter)
-- Centrica Energy (supporter)
+- Centrica Energy (contributor)
 - Chainguard (member)
 - Chainloop (member)
 - Chaitin Tech
@@ -246,7 +252,6 @@
 - Chelsio T6 Unified Wire 100GbE Adapters
 - China Mobile (KCSP)
 - China Mobile (member)
-- China Mobile CMIT PaaS
 - China Mobile Cloud CNP
 - China Mobile Cloud Cloud-native Application Security
 - China Mobile KCS
@@ -291,14 +296,11 @@
 - CloudZero
 - Cloudbase Solutions (member)
 - Cloudbees Codeship
-- Cloudboostr
 - Cloudchipr (member)
 - Cloudera (member)
 - Cloudflare Workers
 - Cloudflare Workers (Wasm)
 - Cloudification (member)
-- Cloudmate (KCSP)
-- Cloudmate (member)
 - Cloudsmith
 - Cloudsmith (member)
 - Cloudwise Synthetic Monitoring
@@ -318,6 +320,7 @@
 - Commvault
 - ComplianceCow (member)
 - ConfidentialMind (member)
+- Confluentis Consulting (KCSP)
 - Confluentis Consulting (member)
 - Conoa (KCNTP)
 - Conoa (KCSP)
@@ -353,12 +356,12 @@
 - Cybozu (member)
 - Cyso (KCSP)
 - Cyso (member)
-- D2iQ (KCNTP)
 - D2iQ (KCSP)
 - DACHS IT (KCSP)
 - DACHS IT (member)
 - DB Systel (supporter)
 - DFDS (supporter)
+- DG-i Kubernetes Platform
 - DGi (KCSP)
 - DGi (member)
 - DIRECTV (supporter)
@@ -386,6 +389,7 @@
 - De Novo (KCSP)
 - De Novo (member)
 - Decathlon (supporter)
+- Decimal (member)
 - DeeperThanBlue (KCSP)
 - DeeperThanBlue (member)
 - Deepshore (KCSP)
@@ -420,6 +424,7 @@
 - Docker (member)
 - Docker Hub
 - Doctor Droid (member)
+- Docusign (member)
 - DoiT (KCNTP)
 - DoiT (KCSP)
 - DoiT (member)
@@ -470,8 +475,8 @@
 - Epsio (member)
 - Ericsson (member)
 - Ericsson Cloud Container Distribution
+- Erlang Ecosystem Foundation (member)
 - EverQuote (supporter)
-- Evonem (member)
 - Excellion Sdn Bhd (KCSP)
 - Excellion Sdn Bhd (member)
 - Exein (member)
@@ -488,7 +493,6 @@
 - Fairwinds (member)
 - Fairwinds Insights
 - Fastly Compute@Edge
-- Fermyon Technologies (member)
 - Ferymon Cloud
 - Fidelity Investments (member)
 - Finout (member)
@@ -533,7 +537,6 @@
 - Golden Gate University (member)
 - Goldman Sachs (member)
 - Golem Cloud (Wasm)
-- Golem Cloud (member)
 - Google Cloud (member)
 - Google Cloud Build
 - Google Cloud Dataflow
@@ -557,8 +560,6 @@
 - H3C CloudOS
 - H3C Technologies (member)
 - HAProxy Technologies (member)
-- HCL Technologies (KCSP)
-- HCL Technologies (member)
 - HPE (KCNTP)
 - HPE (KCSP)
 - HPE (member)
@@ -651,7 +652,6 @@
 - IronDB
 - Isovalent
 - Isovalent (member)
-- JFrog (member)
 - JFrog Artifactory
 - JPMorgan Chase (member)
 - JYSK (supporter)
@@ -663,7 +663,6 @@
 - KSAT (supporter)
 - Kasten
 - Kedify (member)
-- Keep Alerting (member)
 - Kestrel AI (member)
 - Keyfactor (member)
 - Keymate.io (member)
@@ -685,7 +684,6 @@
 - KubeOps (KCSP)
 - KubeOps (member)
 - KubeService Stack
-- Kubecost (member)
 - Kubeflow MPI Operator
 - Kubeflow Model Registry
 - Kubeflow Spark Operator
@@ -731,13 +729,14 @@
 - Liquid Reply (member)
 - Llama 2
 - Lockheed Martin (member)
-- Loft Labs (member)
 - Loggly
 - LogicMonitor
 - Logiq
 - Logz.io
+- Lovable (member)
 - Lumigo
 - MATRIXX Digital Commerce
+- MSAP.ai
 - MacStadium (member)
 - Mackerel
 - Mandao Fintech (KCSP)
@@ -748,7 +747,6 @@
 - MasterClass (supporter)
 - MasterControl (supporter)
 - Mathworks (member)
-- MavenSolutions (member)
 - McKinsey & Company (member)
 - Meltwater (supporter)
 - Mercedes Benz AG (member)
@@ -757,7 +755,6 @@
 - Merly (member)
 - Metal Stack Cloud Kubernetes
 - MetalBear (member)
-- Metoro (member)
 - Mezmo
 - Mezmo (member)
 - Mia-Platform
@@ -774,6 +771,7 @@
 - Mirantis (member)
 - Mirantis Kubernetes Engine
 - Miraxia Edge Technology (member)
+- Mistral AI (member)
 - MogDB
 - Mondoo
 - Monzo (supporter)
@@ -799,7 +797,6 @@
 - National Information Society Agency (member)
 - Natwest (member)
 - Navimentum (KCSP)
-- Navimentum K8M PaaS
 - Nebius (member)
 - NetApp
 - NetBird (member)
@@ -810,6 +807,8 @@
 - New Relic (member)
 - NielsenIQ (supporter)
 - Nimbella
+- Nimtech (KCSP)
+- Nimtech (member)
 - Nirmata (KCSP)
 - Nirmata (member)
 - Nirmata Cloud Native Policy Manager
@@ -851,7 +850,6 @@
 - OKESTRO (member)
 - OKESTRO VIOLA
 - OPENMARU (member)
-- OPENMARU COP
 - OSSO (member)
 - OVH Managed Kubernetes Service
 - OVHcloud (KCSP)
@@ -903,7 +901,6 @@
 - Palette
 - PanWeiDB
 - Pandora2.0
-- Parseable (member)
 - Passage
 - PayIt (supporter)
 - Pelotech (KCSP)
@@ -914,7 +911,6 @@
 - Percona (member)
 - PerfectScale (member)
 - PerfectScale by DoiT
-- Permify (member)
 - Permit.io
 - Permit.io (member)
 - Picnic (supporter)
@@ -964,7 +960,6 @@
 - Puzzle ITC AG (member)
 - PyTorch
 - QAware (member)
-- QBO (member)
 - QUANTUM C&S (KCSP)
 - QUANTUM C&S (member)
 - Qazaq Open Source Initiative (member)
@@ -975,6 +970,7 @@
 - QingStor
 - Qingteng
 - QualitySoft (member)
+- Qube Research & Technologies (member)
 - Qubole
 - QueryDesk (member)
 - Quesma (member)
@@ -997,6 +993,8 @@
 - Rafay Systems (member)
 - Raftt
 - RapidFort (member)
+- Raydian Cloud (KCSP)
+- Raydian Cloud (member)
 - Red Hat (member)
 - Red Hat OpenShift Dedicated
 - Red Hat OpenShift on IBM Cloud
@@ -1070,7 +1068,6 @@
 - Scribe Security Platform
 - Seal (member)
 - Seal Security (member)
-- Searce (member)
 - Second State (member)
 - Second State Functions
 - Secondfront (member)
@@ -1110,6 +1107,7 @@
 - Software AG
 - Software Mind (KCSP)
 - Software Mind (member)
+- Solanica (member)
 - Solo.io (member)
 - Sonatype (member)
 - Sony Interactive Entertainment (supporter)
@@ -1126,7 +1124,6 @@
 - Spitzkop (member)
 - Split
 - Splunk
-- Splunk (member)
 - Spot.io
 - Spotify (member)
 - Springer Nature (member)
@@ -1191,9 +1188,9 @@
 - Tata Communications Vayu Kubernetes Service
 - Taubyte
 - TeamCity
+- Teciem (member)
 - TelemetryHub by Scout APM
 - Telenor Norway (member)
-- Teleport (KCSP)
 - Teleport (member)
 - Temporal (member)
 - Tencent Cloud (member)
@@ -1237,11 +1234,13 @@
 - Toyota Motor Corporation (member)
 - Traefik Labs (member)
 - Travelping (member)
+- Traversal (member)
 - Trend Micro (member)
 - Trend Micro Cloud One
 - Trilio
 - Trink.io
 - TrueFoundry (member)
+- TrueFullstaq (KCNTP)
 - TrueFullstaq (KCSP)
 - TrueFullstaq (member)
 - Twilio Functions
@@ -1286,6 +1285,9 @@
 - Vertica
 - VictoriaMetrics (member)
 - Viettel (member)
+- Viettel AI Platform
+- Viettel Cloud Kubernetes Platform
+- Viettel Kubernetes Engine
 - Virtasant
 - Volcano Engine (KCNTP)
 - Volcano Engine (KCSP)
@@ -1294,7 +1296,7 @@
 - Volcano Engine VMP
 - Volcengine Kubernetes Engine
 - VoltDB
-- Volvo (supporter)
+- Volvo (contributor)
 - Vultr (member)
 - Vultr Kubernetes Engine
 - WIIT (KCSP)
@@ -1318,7 +1320,6 @@
 - WhizUs (KCSP)
 - WhizUs (member)
 - Wikimedia (member)
-- William Hill (supporter)
 - Wind River (member)
 - Wise2C (KCSP)
 - Wise2C (member)
@@ -1360,11 +1361,11 @@
 - anynines (member)
 - ape factory (KCSP)
 - ape factory (member)
-- applied37 (member)
 - awesome information technology (KCSP)
 - awesome information technology (member)
 - cast.ai
 - cloudEQ (member)
+- cloudscale.ch (member)
 - eBay (member)
 - enum (member)
 - env zero (member)
@@ -1380,8 +1381,6 @@
 - iguazio
 - iits-consulting (KCSP)
 - iits-consulting (member)
-- "initializ\u2122 (KCSP)"
-- "initializ\u2122 (member)"
 - itopia
 - kapa.ai (member)
 - kloia (KCSP)
@@ -1398,6 +1397,7 @@
 - pgEdge (member)
 - plusserver (KCSP)
 - plusserver (member)
+- plusserver Kubernetes Engine (PSKE)
 - reo.dev (member)
 - servicememe (KCNTP)
 - servicememe (KCSP)
@@ -1411,6 +1411,7 @@
 - teuto.net (member)
 - trivago (supporter)
 - unryo
+- vCluster (member)
 - vamp.io
 - x-cellent (KCNTP)
 - x-cellent (KCSP)

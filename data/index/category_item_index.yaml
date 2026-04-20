@@ -115,13 +115,14 @@ App Definition and Development:
   - Couchbase
   - Crate.io
   - Crunchy Postgres Operator
-  - Crux
+  - XTDB
   - Databend
   - Dgraph
   - Doris
   - DragonflyDB
   - Druid
   - EDB
+  - Endee
   - Epsilla
   - FoundationDB
   - GraphScope
@@ -260,6 +261,7 @@ CNAI:
   - Seldon
   - vLLM
   - llmaz
+  - RBG
   - text-generation-inference (TGI)
   Model/LLM Observability:
   - Trulens
@@ -360,6 +362,7 @@ Observability and Analysis:
   - Nagios
   - Netdata
   - Netis
+  - NetObserv
   - NexClipper
   - Nightingale
   - Odigos
@@ -375,6 +378,7 @@ Observability and Analysis:
   - Pixie
   - Prometheus
   - Quickwit
+  - Radar
   - SOFATracer
   - Sensu
   - Sentry
@@ -445,6 +449,7 @@ Orchestration & Management:
   - SRPC
   - TARS
   Scheduling & Orchestration:
+  - Agones
   - Apache Mesos
   - Armada
   - Azure Service Fabric
@@ -453,6 +458,7 @@ Orchestration & Management:
   - CoHDI
   - Clusternet
   - Clusterpedia
+  - Cozystack
   - Crossplane
   - Docker Swarm
   - DolphinScheduler
@@ -465,6 +471,7 @@ Orchestration & Management:
   - k0rdent
   - KEDA
   - Kestra
+  - KAI Scheduler
   - Knative
   - Koordinator
   - kube-green
@@ -482,9 +489,11 @@ Orchestration & Management:
   - Open Cluster Management
   - OpenFunction
   - OpenNebula
+  - OpenSandbox
   - Prefect
   - Serverless Devs
   - StackStorm
+  - SuperPlane
   - Volcano
   - wasmCloud
   - Katalyst
@@ -503,6 +512,7 @@ Orchestration & Management:
   - Traefik Mesh
   Service Proxy:
   - BFE
+  - BunkerWeb
   - Caddy
   - Contour
   - Envoy
@@ -524,22 +534,20 @@ Platform:
   Certified Kubernetes - Distribution:
   - Amazon Elastic Kubernetes Service Distro (Amazon EKS-D)
   - Canonical Charmed Kubernetes
-  - Constellation
   - Desktop Kubernetes
   - "Elastisys Welkin\xAE based on Kubespray"
   - Flatcar Container Linux
   - Giant Swarm Managed Kubernetes
   - K-PaaS Container Platform
+  - k0rdent
   - K3k
   - k3s
   - Kubermatic Kubernetes Platform
   - Kubesphere
   - kURL
-  - Magellano
   - MicroK8s
   - Oracle Cloud Native Environment
   - Plural
-  - QBO
   - Rancher Kubernetes
   - Red Hat Build of Microshift
   - Red Hat OpenShift
@@ -557,6 +565,7 @@ Platform:
   - Cybozu Kubernetes Engine
   - Gardener
   - kind
+  - kOps
   - Kubeasz
   - Kubeaver
   - KubeClipper
@@ -567,12 +576,10 @@ Platform:
   - kwok
   - minikube
   - NKD - NestOS Kubernetes Deployer
-  - Rancher Kubernetes Engine (RKE)
   - Sidero Talos Linux
   PaaS/Container Service:
   - Akka
   - Cloud Foundry Application Runtime
-  - Cozystack
   - JHipster
   - Kubero
   - Kyma
@@ -590,6 +597,7 @@ Provisioning:
   - Apollo
   - Atlantis
   - BOSH
+  - Bub
   - Cadence Workflow
   - CDK for Kubernetes (CDK8s)
   - CFEngine
@@ -621,8 +629,9 @@ Provisioning:
   - MAAS
   - ManageIQ
   - Meshery
-  - "Metal\xB3"
+  - metal3-io
   - Mist.io
+  - NMstate
   - Omni
   - OpenStack
   - OpenTofu
@@ -664,6 +673,7 @@ Provisioning:
   - Bouncy Castle
   - Boundary
   - bpfman
+  - Casdoor
   - Cartography
   - Cedar
   - Cerbos
@@ -954,6 +964,7 @@ Wasm:
   - Asyncify
   - Binaryen
   - cargo
+  - elfconv
   - emscripten
   - llvm
   - VSCode Wasm Extension
