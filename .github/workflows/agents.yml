@@ -17,6 +17,7 @@ on:
 jobs:
   run-agents:
     runs-on: ubuntu-latest
+    if: github.event_name != 'pull_request'
     environment: agents
     steps:
       - name: Checkout
