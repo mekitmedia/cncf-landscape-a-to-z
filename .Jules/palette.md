@@ -8,3 +8,7 @@
 ## 2025-03-14 - Keyboard Accessibility & Tooltips for Icon-only Buttons
 **Learning:** Found that icon-only buttons lacked hover text (`title`) and `focus-visible` styles which are critical for screen reader users and keyboard navigation. Using Tailwind's `focus-visible:ring-2 focus-visible:outline-none` pattern prevents default outline rings and uses theme colors efficiently, ensuring it only triggers on keyboard focus.
 **Action:** Always verify keyboard navigation (Tab through the page) and add `focus-visible` to custom styled buttons and links, especially icon-only buttons.
+
+## 2025-05-18 - Standardized Empty States
+**Learning:** Found that empty states in the UI (like missing tool data or missing categories) lacked helpful design and guidance, just showing plain unstyled text. A standard Tailwind empty state pattern (using `bg-slate-50`, dashed borders `border-2 border-dashed border-slate-200`, and a Lucide icon like `inbox`) provides better visual feedback that the area is intentionally empty but part of the application structure, not broken.
+**Action:** Always use the standard Tailwind empty state block design rather than unstyled text when rendering fallback content for missing data in lists or grids.
