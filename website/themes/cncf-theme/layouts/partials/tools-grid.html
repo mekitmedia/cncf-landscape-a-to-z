@@ -72,8 +72,12 @@
         </div>
     {{ end }}
 {{ else }}
-   <div class="col-span-3 text-center text-slate-500">
-       <p>No data available for {{ $normalizedKey }}.</p>
+   <div class="col-span-1 md:col-span-2 lg:col-span-3 flex flex-col items-center justify-center p-12 bg-slate-50 rounded-2xl border-2 border-dashed border-slate-200 text-center">
+       <div class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center shadow-sm border border-slate-100 mb-4 text-slate-400">
+           <i data-lucide="inbox" class="w-8 h-8"></i>
+       </div>
+       <h3 class="text-lg font-bold text-slate-900 mb-2">No Tools Available</h3>
+       <p class="text-slate-500 max-w-sm">There is currently no data available for {{ $normalizedKey }}.</p>
    </div>
 {{ end }}
 </div>
