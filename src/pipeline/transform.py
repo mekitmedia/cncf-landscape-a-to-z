@@ -71,8 +71,8 @@ def get_items_without_repo_url(landscape: list) -> list:
     return sorted([
         item['name']
         for c in landscape
-        for sub in c['subcategories']
-        for item in sub['items']
+        for sub in c.get('subcategories', [])
+        for item in sub.get('items', [])
         if item.get('repo_url') is None
     ])
 
@@ -83,9 +83,9 @@ def get_only_letter(x: str, landscape: list) -> dict:
     logger.info(f"Filtering landscape data for letter {x}")
     return {
         make_path(c['name'], sub['name']): [
-            item for item in sub['items'] if item['name'].startswith(x) and _is_valid_item(item)
+            item for item in sub.get('items', []) if item['name'].startswith(x) and _is_valid_item(item)
         ]
-        for c in landscape for sub in c['subcategories']
+        for c in landscape for sub in c.get('subcategories', [])
     }
 
 def get_tasks_for_letter(x: str, landscape: list) -> list:
@@ -95,8 +95,8 @@ def get_tasks_for_letter(x: str, landscape: list) -> list:
     logger.info(f"Getting tasks for letter {x}")
     tasks = []
     for c in landscape:
-        for sub in c['subcategories']:
-            for item in sub['items']:
+        for sub in c.get('subcategories', []):
+            for item in sub.get('items', []):
                 if item['name'].startswith(x) and _is_valid_item(item):
                     tasks.append(item['name'])
     return sorted(tasks)
@@ -109,7 +109,7 @@ def get_categories(landscape: list) -> dict:
     return {
         c['name']: {
             sub['name']: make_path(c['name'], sub['name'])
-            for sub in c['subcategories']
+            for sub in c.get('subcategories', [])
         }
         for c in landscape
     }
@@ -122,9 +122,9 @@ def get_items(landscape: list) -> dict:
     return {
         c['name']: {
             sub['name']: [
-                item['name'] for item in sub['items'] if _is_valid_item(item)
+                item['name'] for item in sub.get('items', []) if _is_valid_item(item)
             ]
-            for sub in c['subcategories']
+            for sub in c.get('subcategories', [])
         }
         for c in landscape
     }
@@ -140,9 +140,9 @@ def get_all_categories(landscape: list) -> list:
             'subcategory': sub['name'],
             'path': make_path(c['name'], sub['name']),
             'items': [
-                item['name'] for item in sub['items'] if _is_valid_item(item)
+                item['name'] for item in sub.get('items', []) if _is_valid_item(item)
             ]
-        } for sub in c['subcategories']]
+        } for sub in c.get('subcategories', [])]
     } for c in landscape]
 
 def get_stats_per_category(landscape: list) -> dict:
@@ -150,14 +150,14 @@ def get_stats_per_category(landscape: list) -> dict:
     This function gets the stats per category from the landscape data
     """
     logger.info("Getting stats per category from landscape data")
-    return {c['name']: len(c['subcategories']) for c in landscape}
+    return {c['name']: len(c.get('subcategories', [])) for c in landscape}
 
 def get_stats_per_category_per_week(landscape: list) -> dict:
     """
     This function gets the stats per category per week from the landscape data
     """
     logger.info("Getting stats per category per week from landscape data")
-    stats_per_category = {c['name']: len(c['subcategories']) for c in landscape}
+    stats_per_category = {c['name']: len(c.get('subcategories', [])) for c in landscape}
     return {
         f"week_{str(index).zfill(2)}_{chr(letter)}": stats_per_category.copy()
         for index, letter in enumerate(range(ord('A'), ord('Z') + 1))
@@ -170,8 +170,8 @@ def get_stats_by_status(landscape: list) -> dict:
     logger.info("Getting stats by status from landscape data")
     stats = {}
     for c in landscape:
-        for sub in c['subcategories']:
-            for item in sub['items']:
+        for sub in c.get('subcategories', []):
+            for item in sub.get('items', []):
                 if not _is_valid_item(item):
                     continue
                 status = item.get('project')
@@ -199,16 +199,16 @@ def get_landscape_by_letter(landscape: list) -> dict:
     # Pre-calculate all paths
     all_paths = [
         make_path(c['name'], sub['name'])
-        for c in landscape for sub in c['subcategories']
+        for c in landscape for sub in c.get('subcategories', [])
     ]
 
     # Iterate landscape once, collecting by letter and path
     for c in landscape:
-        for sub in c['subcategories']:
+        for sub in c.get('subcategories', []):
             path = make_path(c['name'], sub['name'])
             # Group items by first letter
             items_by_letter = {}
-            for item in sub['items']:
+            for item in sub.get('items', []):
                 if _is_valid_item(item):
                     name = item['name']
                     if not name:
