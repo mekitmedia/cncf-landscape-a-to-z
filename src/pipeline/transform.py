@@ -24,7 +24,10 @@ def _get_featured_priority(item: dict) -> tuple:
     This function returns a priority tuple for featured selection.
     Priority: graduated > incubating > sandbox (alphabetically within same status)
     """
-    project_status = item.get('project', 'sandbox').lower()
+    project_status = item.get('project')
+    if project_status is None:
+        project_status = 'sandbox'
+    project_status = project_status.lower()
     
     status_priority = {
         'graduated': 0,
