@@ -1,6 +1,5 @@
 """YAML-based tracker backend implementation."""
 
-import os
 import yaml
 from pathlib import Path
 from typing import List, Optional
@@ -36,6 +35,7 @@ class YAMLTrackerBackend:
     def __init__(self, config=None):
         """Initialize YAML tracker backend."""
         self.cfg = config or load_config()
+        self._tracker_cache = {}  # Dict[str, WeekTracker]
     
     def _get_tracker_path(self, week_letter: str) -> Path:
         """Get path to tracker file for a week.
@@ -67,22 +67,35 @@ class YAMLTrackerBackend:
     
     def load_tracker(self, week_letter: str) -> WeekTracker:
         """Load tracker data for a specific week."""
+        if hasattr(self, '_tracker_cache') and week_letter in self._tracker_cache:
+            return self._tracker_cache[week_letter]
+
         tracker_path = self._get_tracker_path(week_letter)
         
         if not tracker_path.exists():
             # Initialize from tasks.yaml if it exists
             if self._get_tasks_path(week_letter).exists():
-                return self._initialize_from_tasks(week_letter)
+                tracker = self._initialize_from_tasks(week_letter)
+                if hasattr(self, '_tracker_cache'):
+                    self._tracker_cache[week_letter] = tracker
+                return tracker
             else:
                 raise WeekNotFoundError(f"No tracker or tasks found for week {week_letter}")
         
         with open(tracker_path, 'r', encoding='utf-8') as f:
             data = yaml.safe_load(f)
         
-        return WeekTracker(**data)
+        tracker = WeekTracker(**data)
+        if hasattr(self, '_tracker_cache'):
+            self._tracker_cache[week_letter] = tracker
+        return tracker
     
     def save_tracker(self, week_letter: str, tracker: WeekTracker) -> None:
         """Save tracker data for a specific week."""
+        # Update cache
+        if hasattr(self, '_tracker_cache'):
+            self._tracker_cache[week_letter] = tracker
+
         tracker_path = self._get_tracker_path(week_letter)
         
         # Ensure directory exists
