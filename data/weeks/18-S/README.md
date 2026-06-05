@@ -1,6 +1,6 @@
 # Summary for 18-S
 
-This week has a total of 80 items.
+This week has a total of 85 items.
 
 
 - **Provisioning Automation Configuration**: 3 items
@@ -17,7 +17,7 @@ This week has a total of 80 items.
 
 - **Runtime Cloud Native Network**: 2 items
 
-- **Orchestration Management Scheduling Orchestration**: 3 items
+- **Orchestration Management Scheduling Orchestration**: 4 items
 
 - **Orchestration Management Remote Procedure Call**: 2 items
 
@@ -53,8 +53,12 @@ This week has a total of 80 items.
 
 - **Wasm Orchestration Management**: 2 items
 
-- **Cnai Ml Serving**: 1 items
+- **Ai Agent Agent Framework**: 3 items
 
-- **Cnai Data Architecture**: 1 items
+- **Ai Agent Agent Tool**: 1 items
 
-- **Cnai Governance Policy Security**: 2 items
+- **Inference Runtime**: 2 items
+
+- **Data Data Architecture**: 1 items
+
+- **Ai Native Infra Governance Policy And Security**: 1 items

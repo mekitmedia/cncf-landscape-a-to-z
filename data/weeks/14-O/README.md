@@ -1,6 +1,6 @@
 # Summary for 14-O
 
-This week has a total of 57 items.
+This week has a total of 58 items.
 
 
 - **Provisioning Automation Configuration**: 4 items
@@ -13,7 +13,7 @@ This week has a total of 57 items.
 
 - **Runtime Cloud Native Network**: 3 items
 
-- **Orchestration Management Scheduling Orchestration**: 3 items
+- **Orchestration Management Scheduling Orchestration**: 4 items
 
 - **Orchestration Management Coordination Service Discovery**: 1 items
 
@@ -45,10 +45,10 @@ This week has a total of 57 items.
 
 - **Wasm Debugging Observability**: 1 items
 
-- **Cnai Model Llm Observability**: 2 items
+- **Ai Agent Structured Output**: 1 items
 
-- **Cnai Automl**: 1 items
+- **Inference Runtime**: 1 items
 
-- **Cnai Governance Policy Security**: 1 items
+- **Training Post Training**: 1 items
 
-- **Cnai Open Enterprise Ai Blueprints**: 1 items
+- **Ai Native Infra Governance Policy And Security**: 2 items

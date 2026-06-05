@@ -1,1 +1,11 @@
-[]
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: NMstate is a library with an accompanying command line tool that manages
+    host networking settings in a declarative manner. When used in the Kubernetes
+    environment it allows for declarative node network configuration through the Kubernetes
+    API.
+  featured: true
+  homepage_url: https://nmstate.io/
+  logo: nmstate.svg
+  name: NMstate
+  project: sandbox
+  repo_url: https://github.com/nmstate/nmstate

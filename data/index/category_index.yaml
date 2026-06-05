@@ -1,21 +1,31 @@
+AI Agent:
+  Agent Framework: ai_agent_agent_framework
+  Agent Tool: ai_agent_agent_tool
+  Evaluation: ai_agent_evaluation
+  Guardrail: ai_agent_guardrail
+  Knowledge Graph: ai_agent_knowledge_graph
+  Protocol: ai_agent_protocol
+  RAG: ai_agent_rag
+  State and Memory: ai_agent_state_and_memory
+  Structured Output: ai_agent_structured_output
+  Vector Database: ai_agent_vector_database
+  Workflow Orchestration: ai_agent_workflow_orchestration
+AI Native Infra:
+  Accelerator and SuperPod: ai_native_infra_accelerator_and_superpod
+  Continuous Integration and Delivery: ai_native_infra_continuous_integration_and_delivery
+  Gateway: ai_native_infra_gateway
+  Governance, Policy and Security: ai_native_infra_governance_policy_and_security
+  Model Asset and Registry: ai_native_infra_model_asset_and_registry
+  Network: ai_native_infra_network
+  Observability: ai_native_infra_observability
+  Orchestration and Scheduling: ai_native_infra_orchestration_and_scheduling
+  Storage: ai_native_infra_storage
+  Workload Runtime: ai_native_infra_workload_runtime
 App Definition and Development:
   Application Definition & Image Build: app_definition_and_development_application_definition_image_build
   Continuous Integration & Delivery: app_definition_and_development_continuous_integration_delivery
   Database: app_definition_and_development_database
   Streaming & Messaging: app_definition_and_development_streaming_messaging
-CNAI:
-  AutoML: cnai_automl
-  CI/CD - Delivery: cnai_ci_cd_delivery
-  Data Architecture: cnai_data_architecture
-  Data Science: cnai_data_science
-  Distributed Training: cnai_distributed_training
-  General Orchestration: cnai_general_orchestration
-  Governance, Policy & Security: cnai_governance_policy_security
-  ML Serving: cnai_ml_serving
-  Model/LLM Observability: cnai_model_llm_observability
-  Open Enterprise AI Blueprints: cnai_open_enterprise_ai_blueprints
-  Vector Databases: cnai_vector_databases
-  Workload Observability: cnai_workload_observability
 CNCF Members:
   Academic: cncf_members_academic
   End User Supporter and Contributor: cncf_members_end_user_supporter_and_contributor
@@ -23,6 +33,12 @@ CNCF Members:
   Nonprofit: cncf_members_nonprofit
   Platinum: cncf_members_platinum
   Silver: cncf_members_silver
+Data:
+  Data Architecture: data_data_architecture
+  Data Science: data_data_science
+Inference:
+  Framework: inference_framework
+  Runtime: inference_runtime
 Observability and Analysis:
   Chaos Engineering: observability_and_analysis_chaos_engineering
   Continuous Optimization: observability_and_analysis_continuous_optimization
@@ -60,6 +76,10 @@ Special:
   Certified CNFs: special_certified_cnfs
   Kubernetes Certified Service Provider: special_kubernetes_certified_service_provider
   Kubernetes and Cloud Native Training Partner: special_kubernetes_and_cloud_native_training_partner
+Training:
+  Distributed Training: training_distributed_training
+  Evaluation: training_evaluation
+  Post Training: training_post_training
 Wasm:
   AI/Machine Learning: wasm_ai_machine_learning
   Application Frameworks: wasm_application_frameworks

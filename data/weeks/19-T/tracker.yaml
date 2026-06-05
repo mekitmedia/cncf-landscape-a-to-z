@@ -816,6 +816,63 @@ items:
         retry_count: 0
         agent: writer
     removed: false
+  Temporal:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Triton:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  TruLens:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
 week_tasks:
   tasks:
     blog_post:
@@ -829,5 +886,5 @@ week_tasks:
 metadata:
   created_at: '2026-02-01T19:37:47.878837'
   week_letter: T
-  last_synced: '2026-02-04T00:00:08.298139'
-  etl_item_count: 43
+  last_synced: '2026-06-05T00:01:29.429313'
+  etl_item_count: 46

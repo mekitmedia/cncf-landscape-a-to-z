@@ -34,6 +34,16 @@
   name: Permify
   project: null
   repo_url: https://github.com/Permify/permify
+- description: Pipelock is an open-source firewall for AI agents. A network proxy
+    that scans HTTP, WebSocket, and MCP traffic between AI agents and the internet
+    for prompt injection, secret exfiltration (DLP), SSRF, tool poisoning, and credential
+    leaks. Single Go binary, fail-closed defaults, Apache 2.0.
+  featured: true
+  homepage_url: https://pipelab.org
+  logo: pipelock.svg
+  name: Pipelock
+  project: null
+  repo_url: https://github.com/luckyPipewrench/pipelock
 - crunchbase: https://www.crunchbase.com/organization/fairwinds
   featured: true
   homepage_url: https://www.fairwinds.com/open-source-software
@@ -42,7 +52,7 @@
   project: null
   repo_url: https://github.com/FairwindsOps/pluto
 - crunchbase: https://www.crunchbase.com/organization/fairwinds
-  featured: true
+  featured: false
   homepage_url: https://fairwinds.com/polaris
   logo: polaris.svg
   name: Polaris

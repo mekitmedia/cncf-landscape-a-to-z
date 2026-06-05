@@ -1,0 +1,23 @@
+- description: Integrate cutting-edge LLM technology quickly and easily into your
+    apps.
+  featured: true
+  homepage_url: https://learn.microsoft.com/en-us/semantic-kernel/overview/
+  logo: semantickernel.svg
+  name: Semantic Kernel
+  project: null
+  repo_url: https://github.com/microsoft/semantic-kernel
+- description: A barebones library for agents that think in code.
+  featured: true
+  homepage_url: https://huggingface.co/docs/smolagents
+  logo: smolagents.svg
+  name: Smolagents
+  project: null
+  repo_url: https://github.com/huggingface/smolagents
+- description: A model-driven approach to building AI agents in just a few lines of
+    code.
+  featured: true
+  homepage_url: https://strandsagents.com/
+  logo: strands.svg
+  name: Strands
+  project: null
+  repo_url: https://github.com/strands-agents/sdk-python

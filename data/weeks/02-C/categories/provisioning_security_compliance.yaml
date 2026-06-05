@@ -7,6 +7,17 @@
   name: Cartography
   project: sandbox
   repo_url: https://github.com/cartography-cncf/cartography
+- crunchbase: https://www.crunchbase.com/organization/casdoor
+  description: Casdoor is an open-source UI-first identity access management (IAM)
+    / Single-Sign-On (SSO) platform with web UI supporting OAuth 2.0, OIDC, SAML and
+    CAS.
+  featured: true
+  homepage_url: https://casdoor.org/
+  logo: casdoor.svg
+  name: Casdoor
+  project: null
+  repo_url: https://github.com/casdoor/casdoor
+  twitter: https://x.com/casbinHQ
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: Cedar is an open source authorization policy language that enables
     developers to express fine-grained permissions as easy-to-understand policies
@@ -57,7 +68,7 @@
   project: null
   repo_url: https://github.com/inspec/inspec
 - crunchbase: https://www.crunchbase.com/organization/red-hat
-  featured: true
+  featured: false
   homepage_url: https://www.redhat.com/en/topics/containers/what-is-clair
   logo: clair.svg
   name: Clair
@@ -97,8 +108,9 @@
   project: sandbox
   repo_url: https://github.com/containerssh/containerssh
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: CLI tool for directly patching container image vulnerabilities
   featured: false
-  homepage_url: https://github.com/project-copacetic/copacetic
+  homepage_url: https://project-copacetic.github.io/copacetic/
   logo: copa.svg
   name: Copa
   project: sandbox

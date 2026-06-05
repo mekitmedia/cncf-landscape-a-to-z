@@ -1,0 +1,8 @@
+- description: A high performance multithreaded event-based key/value cache store
+    intended to be used in a distributed system.
+  featured: true
+  homepage_url: https://memcached.org/
+  logo: ./memcached.svg
+  name: Memcached
+  project: null
+  repo_url: https://github.com/memcached/memcached

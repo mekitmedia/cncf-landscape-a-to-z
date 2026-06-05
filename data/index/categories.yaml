@@ -7,6 +7,7 @@
     - Apollo
     - Atlantis
     - BOSH
+    - Bub
     - Cadence Workflow
     - CDK for Kubernetes (CDK8s)
     - CFEngine
@@ -38,8 +39,9 @@
     - MAAS
     - ManageIQ
     - Meshery
-    - "Metal\xB3"
+    - metal3-io
     - Mist.io
+    - NMstate
     - Omni
     - OpenStack
     - OpenTofu
@@ -76,6 +78,7 @@
     - Bouncy Castle
     - Boundary
     - bpfman
+    - Casdoor
     - Cartography
     - Cedar
     - Cerbos
@@ -121,6 +124,7 @@
     - Paralus
     - Parsec
     - Permify
+    - Pipelock
     - Pluto
     - Polaris
     - Pomerium
@@ -181,6 +185,7 @@
     - Longhorn
     - MinIO
     - MooseFS
+    - NoKV
     - OpenEBS
     - OpenIO
     - ORAS
@@ -246,6 +251,7 @@
 - category: Orchestration & Management
   subcategories:
   - items:
+    - Agones
     - Apache Mesos
     - Armada
     - Azure Service Fabric
@@ -254,6 +260,7 @@
     - CoHDI
     - Clusternet
     - Clusterpedia
+    - Cozystack
     - Crossplane
     - Docker Swarm
     - DolphinScheduler
@@ -266,6 +273,7 @@
     - k0rdent
     - KEDA
     - Kestra
+    - KAI Scheduler
     - Knative
     - Koordinator
     - kube-green
@@ -283,9 +291,11 @@
     - Open Cluster Management
     - OpenFunction
     - OpenNebula
+    - OpenSandbox
     - Prefect
     - Serverless Devs
     - StackStorm
+    - SuperPlane
     - Volcano
     - wasmCloud
     - Katalyst
@@ -321,6 +331,7 @@
     subcategory: Remote Procedure Call
   - items:
     - BFE
+    - BunkerWeb
     - Caddy
     - Contour
     - Envoy
@@ -398,13 +409,14 @@
     - Couchbase
     - Crate.io
     - Crunchy Postgres Operator
-    - Crux
+    - XTDB
     - Databend
     - Dgraph
     - Doris
     - DragonflyDB
     - Druid
     - EDB
+    - Endee
     - Epsilla
     - FoundationDB
     - GraphScope
@@ -468,6 +480,7 @@
     - EMQX
     - Flink
     - Fluvio
+    - GlassFlow
     - Kafka
     - KubeMQ
     - Memphis
@@ -487,6 +500,7 @@
     path: app_definition_and_development_streaming_messaging
     subcategory: Streaming & Messaging
   - items:
+    - agentregistry
     - Artifact Hub
     - Backstage
     - Buildpacks
@@ -598,26 +612,24 @@
   - items:
     - Amazon Elastic Kubernetes Service Distro (Amazon EKS-D)
     - Canonical Charmed Kubernetes
-    - Constellation
     - Desktop Kubernetes
     - "Elastisys Welkin\xAE based on Kubespray"
     - Flatcar Container Linux
     - Giant Swarm Managed Kubernetes
     - K-PaaS Container Platform
+    - k0rdent
     - K3k
     - k3s
     - Kubermatic Kubernetes Platform
     - Kubesphere
     - kURL
-    - Magellano
     - MicroK8s
     - Oracle Cloud Native Environment
     - Plural
-    - QBO
     - Rancher Kubernetes
     - Red Hat Build of Microshift
     - Red Hat OpenShift
-    - RKE Government
+    - RKE2
     - SIGHUP Distribution
     - Typhoon
     - Tarook
@@ -635,6 +647,7 @@
     - Cybozu Kubernetes Engine
     - Gardener
     - kind
+    - kOps
     - Kubeasz
     - Kubeaver
     - KubeClipper
@@ -645,7 +658,6 @@
     - kwok
     - minikube
     - NKD - NestOS Kubernetes Deployer
-    - Rancher Kubernetes Engine (RKE)
     - Sidero Talos Linux
     path: platform_certified_kubernetes_installer
     subcategory: Certified Kubernetes - Installer
@@ -655,7 +667,6 @@
   - items:
     - Akka
     - Cloud Foundry Application Runtime
-    - Cozystack
     - JHipster
     - Kubero
     - Kyma
@@ -742,6 +753,7 @@
   - items:
     - gocrane
     - Infracost
+    - Kruize
     - Kubecost
     - nOps
     - OpenCost
@@ -772,6 +784,7 @@
     - Graphite
     - Graylog
     - Headlamp
+    - HUATUO
     - HolmesGPT
     - HertzBeat
     - Hubble
@@ -798,6 +811,7 @@
     - Nagios
     - Netdata
     - Netis
+    - NetObserv
     - NexClipper
     - Nightingale
     - Odigos
@@ -813,6 +827,7 @@
     - Pixie
     - Prometheus
     - Quickwit
+    - Radar
     - SOFATracer
     - Sensu
     - Sentry
@@ -945,6 +960,7 @@
     - Asyncify
     - Binaryen
     - cargo
+    - elfconv
     - emscripten
     - llvm
     - VSCode Wasm Extension
@@ -999,107 +1015,218 @@
     - warg
     path: wasm_packaging_registries_application_delivery
     subcategory: Packaging, Registries & Application Delivery
-- category: CNAI
+- category: AI Agent
   subcategories:
   - items:
-    - Kuberay
-    - Nivida NeMo
-    - Yunikorn
-    - Kueue
-    path: cnai_general_orchestration
-    subcategory: General Orchestration
+    - Agent Development Kit
+    - Agno
+    - Autogen
+    - CAMEL
+    - Crew AI
+    - LangChain
+    - LangGraph
+    - Pydantic AI
+    - Semantic Kernel
+    - Smolagents
+    - Strands
+    path: ai_agent_agent_framework
+    subcategory: Agent Framework
+  - items:
+    - Browser Use
+    - Composio
+    - Firecrawl
+    - Jina Reader
+    - Selenium Grid
+    path: ai_agent_agent_tool
+    subcategory: Agent Tool
+  - items:
+    - Agent Evaluation
+    - DeepEval
+    - Promptfoo
+    - Ragas
+    - TruLens
+    path: ai_agent_evaluation
+    subcategory: Evaluation
+  - items:
+    - Guardrails AI
+    - LLM Guard
+    - NeMo Guardrails
+    path: ai_agent_guardrail
+    subcategory: Guardrail
+  - items:
+    - Apache AGE
+    - FalkorDB
+    path: ai_agent_knowledge_graph
+    subcategory: Knowledge Graph
+  - items:
+    - Agent2agent
+    - Modelcontextprotocol
+    path: ai_agent_protocol
+    subcategory: Protocol
+  - items:
+    - Docling
+    - Haystack
+    - LlamaIndex
+    - txtai
+    - Unstructured
+    path: ai_agent_rag
+    subcategory: RAG
+  - items:
+    - Mem0
+    path: ai_agent_state_and_memory
+    subcategory: State and Memory
+  - items:
+    - Guidance
+    - Instructor
+    - LMQL
+    - Outlines
+    path: ai_agent_structured_output
+    subcategory: Structured Output
+  - items:
+    - Chroma
+    - LanceDB
+    - marqo
+    - Milvus
+    - pgvector
+    path: ai_agent_vector_database
+    subcategory: Vector Database
+  - items:
+    - Dify
+    - Hatchet
+    - Inngest
+    - Temporal
+    path: ai_agent_workflow_orchestration
+    subcategory: Workflow Orchestration
+- category: Inference
+  subcategories:
   - items:
     - AIBrix
     - Arks
     - KAITO
     - KServe
-    - Seldon
-    - vLLM
+    - llm-d
     - llmaz
+    - RBG
+    - Volcano Kthena
+    path: inference_framework
+    subcategory: Framework
+  - items:
+    - llama.cpp
+    - OpenVINO
+    - Seldon
+    - SGLang
     - text-generation-inference (TGI)
-    path: cnai_ml_serving
-    subcategory: ML Serving
+    - vLLM
+    path: inference_runtime
+    subcategory: Runtime
+- category: Data
+  subcategories:
   - items:
-    - Kubeflow Pipelines
-    - Mlflow
-    - TensorFlow Extended (TFX)
-    - BentoML
-    - MLRun
-    path: cnai_ci_cd_delivery
-    subcategory: CI/CD - Delivery
-  - items:
-    - marimo
-    - Project Jupyter
-    - Kubeflow Notebooks
-    - TensorFlow
-    - XGBoost
-    - Apache Zeppelin
-    path: cnai_data_science
-    subcategory: Data Science
-  - items:
-    - Kubeflow Training Operator
-    - Pytorch DistributedDataParallel (DDP)
-    - DeepSpeed
-    - Megatron-LM
-    - Horovod
-    path: cnai_distributed_training
-    subcategory: Distributed Training
-  - items:
-    - Influxdb
-    - Grafana
-    - Weight and Biases (wandb)
-    path: cnai_workload_observability
-    subcategory: Workload Observability
-  - items:
-    - Trulens
-    - Langfuse
-    - Deepchecks
-    - OpenLLMetry
-    - OpenLIT
-    - DeepFlow
-    path: cnai_model_llm_observability
-    subcategory: Model/LLM Observability
-  - items:
-    - Hyperopt
-    - Optuna
-    - Kubeflow Katib
-    path: cnai_automl
-    subcategory: AutoML
-  - items:
-    - Milvus
-    - Chroma
-    - Weaviate
-    path: cnai_vector_databases
-    subcategory: Vector Databases
-  - items:
-    - ClickHouse
-    - Apache Pinot
     - Apache Druid
-    - Cassandra
-    - ScyllaDB
-    - Hadoop HDFS
-    - Apache HBase
-    - Presto
-    - Trino
-    - Apache Spark
     - Apache Flink
-    - Kafka
-    - Pulsar
-    - Memcached
-    - Alluxio
+    - Apache HBase
+    - Apache Pinot
     - FEAST
-    - Numaflow
-    path: cnai_data_architecture
+    - Hadoop HDFS
+    - Memcached
+    - ScyllaDB
+    - Trino
+    path: data_data_architecture
     subcategory: Data Architecture
   - items:
-    - SpiceDB
-    - OPA/Gatekeeper
-    - Permify
-    - Kyverno-JSON
-    - Stacklock Minder
-    path: cnai_governance_policy_security
-    subcategory: Governance, Policy & Security
+    - Apache Zeppelin
+    - Kubeflow Notebooks
+    - marimo
+    - Project Jupyter
+    - TensorFlow
+    - XGBoost
+    path: data_data_science
+    subcategory: Data Science
+- category: Training
+  subcategories:
   - items:
+    - DeepSpeed
+    - Horovod
+    - Kubeflow MPI Operator
+    - Kubeflow Training Operator
+    - Megatron-LM
+    - Pytorch DistributedDataParallel (DDP)
+    path: training_distributed_training
+    subcategory: Distributed Training
+  - items:
+    - Axolotl
+    - Hyperopt
+    - Kubeflow Katib
+    - LlamaFactory
+    - Optuna
+    - Unsloth
+    - verl
+    path: training_post_training
+    subcategory: Post Training
+  - items:
+    - lm-evaluation-harness
+    - opencompass
+    path: training_evaluation
+    subcategory: Evaluation
+- category: AI Native Infra
+  subcategories:
+  - items:
+    - agent-sandbox
+    - Kuberay
+    - Kueue
+    - LeaderWorkerSet
+    - Nivida NeMo
+    - Yunikorn
+    path: ai_native_infra_orchestration_and_scheduling
+    subcategory: Orchestration and Scheduling
+  - items:
+    - CubeSandbox
+    - e2b
+    path: ai_native_infra_workload_runtime
+    subcategory: Workload Runtime
+  - items:
+    - CANN
+    - NCCL
+    - Triton
+    path: ai_native_infra_accelerator_and_superpod
+    subcategory: Accelerator and SuperPod
+  - items: []
+    path: ai_native_infra_storage
+    subcategory: Storage
+  - items: []
+    path: ai_native_infra_network
+    subcategory: Network
+  - items:
+    - Agentgateway
+    - Envoy-ai-gateway
+    - Kgateway
+    - MCP Gateway Registry
+    path: ai_native_infra_gateway
+    subcategory: Gateway
+  - items: []
+    path: ai_native_infra_model_asset_and_registry
+    subcategory: Model Asset and Registry
+  - items:
+    - Kyverno-JSON
+    - OPA/Gatekeeper
     - OPEA
-    path: cnai_open_enterprise_ai_blueprints
-    subcategory: Open Enterprise AI Blueprints
+    - Stacklock Minder
+    path: ai_native_infra_governance_policy_and_security
+    subcategory: Governance, Policy and Security
+  - items:
+    - Deepchecks
+    - DeepFlow
+    - Influxdb
+    - Langfuse
+    - Trulens
+    - Weight and Biases (wandb)
+    path: ai_native_infra_observability
+    subcategory: Observability
+  - items:
+    - BentoML
+    - Kubeflow Pipelines
+    - Mlflow
+    - MLRun
+    - TensorFlow Extended (TFX)
+    path: ai_native_infra_continuous_integration_and_delivery
+    subcategory: Continuous Integration and Delivery

@@ -607,6 +607,63 @@ items:
         retry_count: 0
         agent: writer
     removed: false
+  GlassFlow:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Guardrails AI:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Guidance:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
 week_tasks:
   tasks:
     blog_post:
@@ -620,5 +677,5 @@ week_tasks:
 metadata:
   created_at: '2026-02-01T19:37:47.259701'
   week_letter: G
-  last_synced: '2026-02-08T12:24:36.781816'
-  etl_item_count: 32
+  last_synced: '2026-06-05T00:01:28.666180'
+  etl_item_count: 34

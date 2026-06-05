@@ -5,7 +5,7 @@ This week has a total of 43 items.
 
 - **Provisioning Automation Configuration**: 3 items
 
-- **Provisioning Security Compliance**: 7 items
+- **Provisioning Security Compliance**: 8 items
 
 - **Provisioning Key Management**: 1 items
 
@@ -39,10 +39,10 @@ This week has a total of 43 items.
 
 - **Wasm Languages**: 1 items
 
-- **Cnai Data Science**: 1 items
+- **Ai Agent Agent Framework**: 1 items
 
-- **Cnai Distributed Training**: 1 items
+- **Ai Agent Evaluation**: 1 items
 
-- **Cnai Data Architecture**: 2 items
+- **Data Data Science**: 1 items
 
-- **Cnai Governance Policy Security**: 1 items
+- **Training Distributed Training**: 1 items

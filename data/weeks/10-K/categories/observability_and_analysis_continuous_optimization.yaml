@@ -6,6 +6,16 @@
   name: Karpenter
   project: null
   repo_url: https://github.com/kubernetes-sigs/karpenter
+- crunchbase: https://www.crunchbase.com/organization/ibm
+  description: "Kruize analyzes your Kubernetes workload metrics and automatically\
+    \ generates right-sizing recommendations for CPU, memory, and GPU resources \u2014\
+    \ reducing costs and improving performance without manual tuning."
+  featured: true
+  homepage_url: https://kruize.github.io/kruize-website/
+  logo: kruize.svg
+  name: Kruize
+  project: null
+  repo_url: https://github.com/kruize/autotune
 - crunchbase: https://www.crunchbase.com/organization/kubecost
   featured: true
   homepage_url: https://www.kubecost.com/

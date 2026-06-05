@@ -1,6 +1,6 @@
 # Summary for 05-F
 
-This week has a total of 26 items.
+This week has a total of 28 items.
 
 
 - **Provisioning Automation Configuration**: 1 items
@@ -37,4 +37,8 @@ This week has a total of 26 items.
 
 - **Wasm Decentralized Platforms**: 1 items
 
-- **Cnai Data Architecture**: 1 items
+- **Ai Agent Agent Tool**: 1 items
+
+- **Ai Agent Knowledge Graph**: 1 items
+
+- **Data Data Architecture**: 1 items

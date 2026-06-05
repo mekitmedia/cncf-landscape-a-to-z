@@ -1,6 +1,6 @@
 # Summary for 06-G
 
-This week has a total of 32 items.
+This week has a total of 34 items.
 
 
 - **Provisioning Automation Configuration**: 2 items
@@ -16,6 +16,8 @@ This week has a total of 32 items.
 - **Orchestration Management Api Gateway**: 2 items
 
 - **App Definition And Development Database**: 2 items
+
+- **App Definition And Development Streaming Messaging**: 1 items
 
 - **App Definition And Development Application Definition Image Build**: 2 items
 
@@ -35,4 +37,6 @@ This week has a total of 32 items.
 
 - **Wasm Decentralized Platforms**: 1 items
 
-- **Cnai Workload Observability**: 1 items
+- **Ai Agent Guardrail**: 1 items
+
+- **Ai Agent Structured Output**: 1 items

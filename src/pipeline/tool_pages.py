@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import glob
 from datetime import datetime
+from functools import lru_cache
 from pathlib import Path
 from typing import Optional
 
@@ -31,46 +32,46 @@ def _get_week_dirs(cfg) -> list[Path]:
     return [Path(p) for p in glob.glob(str(cfg.weeks_dir / "*-*"))]
 
 
-def get_cncf_status_from_etl(project_name: str) -> str:
-    """Try to find CNCF status from ETL output files."""
+@lru_cache(maxsize=1)
+def _get_project_data_cache() -> dict:
     cfg = load_config()
-
+    cache = {}
     for week_dir in _get_week_dirs(cfg):
         categories_dir = week_dir / "categories"
+        if not categories_dir.exists():
+            continue
         for yaml_file in categories_dir.glob("*.yaml"):
             try:
                 with yaml_file.open("r", encoding="utf-8") as f:
                     items = yaml.safe_load(f)
                     if items and isinstance(items, list):
                         for item in items:
-                            if item.get("name") == project_name:
-                                return item.get("project", "sandbox")
+                            name = item.get("name")
+                            if name:
+                                cache[name] = item
             except Exception:
                 continue
+    return cache
 
+
+def get_cncf_status_from_etl(project_name: str) -> str:
+    """Try to find CNCF status from ETL output files."""
+    cache = _get_project_data_cache()
+    if project_name in cache:
+        return cache[project_name].get("project", "sandbox")
     return "sandbox"
 
 
 def _get_project_urls(project_name: str) -> dict:
-    cfg = load_config()
-    for week_dir in _get_week_dirs(cfg):
-        categories_dir = week_dir / "categories"
-        for yaml_file in categories_dir.glob("*.yaml"):
-            try:
-                with yaml_file.open("r", encoding="utf-8") as f:
-                    items = yaml.safe_load(f)
-                    if items and isinstance(items, list):
-                        for item in items:
-                            if item.get("name") == project_name:
-                                urls = {}
-                                if item.get("repo_url"):
-                                    urls["repo_url"] = item["repo_url"]
-                                if item.get("homepage_url"):
-                                    urls["homepage_url"] = item["homepage_url"]
-                                return urls
-            except Exception:
-                continue
-    return {}
+    cache = _get_project_data_cache()
+    urls = {}
+    if project_name in cache:
+        item = cache[project_name]
+        if item.get("repo_url"):
+            urls["repo_url"] = item["repo_url"]
+        if item.get("homepage_url"):
+            urls["homepage_url"] = item["homepage_url"]
+    return urls
 
 
 def generate_tool_page(research_file: Path, week_id_value: str) -> Optional[str]:
@@ -111,7 +112,9 @@ def generate_tool_page(research_file: Path, week_id_value: str) -> Optional[str]
 
         front_matter.update(_get_project_urls(project_name))
 
-        front_matter_yaml = yaml.dump(front_matter, default_flow_style=False, allow_unicode=True)
+        front_matter_yaml = yaml.dump(
+            front_matter, default_flow_style=False, allow_unicode=True
+        )
 
         content = f"""---
 {front_matter_yaml}---

@@ -1,0 +1,8 @@
+- description: DistributedDataParallel (DDP) implements data parallelism at the module
+    level which can run across multiple machines.
+  featured: true
+  homepage_url: https://pytorch.org/tutorials/intermediate/ddp_tutorial.html
+  logo: ./pytorch.svg
+  name: Pytorch DistributedDataParallel (DDP)
+  project: null
+  repo_url: https://github.com/pytorch/pytorch

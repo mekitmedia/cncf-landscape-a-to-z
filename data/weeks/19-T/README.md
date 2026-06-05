@@ -1,6 +1,6 @@
 # Summary for 19-T
 
-This week has a total of 43 items.
+This week has a total of 46 items.
 
 
 - **Provisioning Automation Configuration**: 3 items
@@ -33,10 +33,16 @@ This week has a total of 43 items.
 
 - **Wasm Languages**: 1 items
 
-- **Cnai Ci Cd Delivery**: 1 items
+- **Ai Agent Evaluation**: 1 items
 
-- **Cnai Data Science**: 1 items
+- **Ai Agent Workflow Orchestration**: 1 items
 
-- **Cnai Model Llm Observability**: 1 items
+- **Data Data Architecture**: 1 items
 
-- **Cnai Data Architecture**: 1 items
+- **Data Data Science**: 1 items
+
+- **Ai Native Infra Accelerator And Superpod**: 1 items
+
+- **Ai Native Infra Observability**: 1 items
+
+- **Ai Native Infra Continuous Integration And Delivery**: 1 items
