@@ -1,6 +1,6 @@
 # Summary for 11-L
 
-This week has a total of 18 items.
+This week has a total of 26 items.
 
 
 - **Provisioning Automation Configuration**: 1 items
@@ -29,4 +29,18 @@ This week has a total of 18 items.
 
 - **Wasm Runtimes**: 1 items
 
-- **Cnai Model Llm Observability**: 1 items
+- **Ai Agent Agent Framework**: 2 items
+
+- **Ai Agent Guardrail**: 1 items
+
+- **Ai Agent Rag**: 1 items
+
+- **Ai Agent Structured Output**: 1 items
+
+- **Ai Agent Vector Database**: 1 items
+
+- **Training Post Training**: 1 items
+
+- **Ai Native Infra Orchestration And Scheduling**: 1 items
+
+- **Ai Native Infra Observability**: 1 items

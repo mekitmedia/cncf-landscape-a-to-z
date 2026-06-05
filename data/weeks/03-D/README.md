@@ -1,6 +1,6 @@
 # Summary for 03-D
 
-This week has a total of 31 items.
+This week has a total of 34 items.
 
 
 - **Provisioning Container Registry**: 2 items
@@ -35,6 +35,12 @@ This week has a total of 31 items.
 
 - **Wasm Decentralized Platforms**: 1 items
 
-- **Cnai Distributed Training**: 1 items
+- **Ai Agent Evaluation**: 1 items
 
-- **Cnai Model Llm Observability**: 2 items
+- **Ai Agent Rag**: 1 items
+
+- **Ai Agent Workflow Orchestration**: 1 items
+
+- **Training Distributed Training**: 1 items
+
+- **Ai Native Infra Observability**: 2 items

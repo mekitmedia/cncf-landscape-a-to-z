@@ -1,6 +1,6 @@
 # Summary for 00-A
 
-This week has a total of 61 items.
+This week has a total of 68 items.
 
 
 - **Provisioning Automation Configuration**: 5 items
@@ -13,7 +13,7 @@ This week has a total of 61 items.
 
 - **Runtime Cloud Native Network**: 1 items
 
-- **Orchestration Management Scheduling Orchestration**: 3 items
+- **Orchestration Management Scheduling Orchestration**: 4 items
 
 - **Orchestration Management Coordination Service Discovery**: 1 items
 
@@ -51,8 +51,20 @@ This week has a total of 61 items.
 
 - **Wasm Tooling**: 1 items
 
-- **Cnai Ml Serving**: 2 items
+- **Ai Agent Agent Framework**: 3 items
 
-- **Cnai Data Science**: 1 items
+- **Ai Agent Evaluation**: 1 items
 
-- **Cnai Data Architecture**: 6 items
+- **Ai Agent Knowledge Graph**: 1 items
+
+- **Ai Agent Protocol**: 1 items
+
+- **Inference Framework**: 2 items
+
+- **Data Data Architecture**: 4 items
+
+- **Data Data Science**: 1 items
+
+- **Training Post Training**: 1 items
+
+- **Ai Native Infra Gateway**: 1 items

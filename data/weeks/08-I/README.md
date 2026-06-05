@@ -1,6 +1,6 @@
 # Summary for 08-I
 
-This week has a total of 12 items.
+This week has a total of 14 items.
 
 
 - **Runtime Container Runtime**: 2 items
@@ -17,4 +17,8 @@ This week has a total of 12 items.
 
 - **Wasm Embedded Functions**: 2 items
 
-- **Cnai Workload Observability**: 1 items
+- **Ai Agent Structured Output**: 1 items
+
+- **Ai Agent Workflow Orchestration**: 1 items
+
+- **Ai Native Infra Observability**: 1 items

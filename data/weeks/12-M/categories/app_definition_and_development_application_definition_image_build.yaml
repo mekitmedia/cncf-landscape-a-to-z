@@ -1,3 +1,11 @@
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  featured: true
+  homepage_url: https://microcks.io
+  logo: microcks.svg
+  name: Microcks
+  project: incubating
+  repo_url: https://github.com/microcks/microcks
+  twitter: https://twitter.com/microcksio
 - crunchbase: https://www.crunchbase.com/organization/apache-software-foundation
   description: Apache Maven is a software project management and comprehension tool.
     Based on the concept of a project object model (POM), Maven can manage a project's
@@ -8,19 +16,11 @@
   name: Maven
   project: null
   repo_url: https://github.com/apache/maven
-- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  featured: true
-  homepage_url: https://microcks.io
-  logo: microcks.svg
-  name: Microcks
-  project: sandbox
-  repo_url: https://github.com/microcks/microcks
-  twitter: https://twitter.com/microcksio
 - description: The project establishes open standards for packaging, distributing
     and running AI artifacts in the cloud-native environment.
   featured: true
   homepage_url: https://github.com/modelpack/model-spec
-  logo: cncf.svg
+  logo: modelpack.svg
   name: ModelPack
   project: sandbox
   repo_url: https://github.com/modelpack/model-spec

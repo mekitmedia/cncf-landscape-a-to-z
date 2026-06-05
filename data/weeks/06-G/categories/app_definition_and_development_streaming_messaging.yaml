@@ -1,1 +1,9 @@
-[]
+- crunchbase: https://www.crunchbase.com/organization/glassflow
+  description: Open-source streaming ETL for ClickHouse with deduplication, joins,
+    and transforms over Kafka and other sources.
+  featured: true
+  homepage_url: https://www.glassflow.dev
+  logo: glassflow.svg
+  name: GlassFlow
+  project: null
+  repo_url: https://github.com/glassflow/clickhouse-etl

@@ -93,7 +93,7 @@ items:
         error_message: null
         retry_count: 0
         agent: writer
-    removed: false
+    removed: true
   ManageIQ:
     tasks:
       research:
@@ -340,7 +340,7 @@ items:
         error_message: null
         retry_count: 0
         agent: writer
-    removed: false
+    removed: true
   Metarget:
     tasks:
       research:
@@ -721,6 +721,63 @@ items:
         retry_count: 0
         agent: writer
     removed: false
+  MCP Gateway Registry:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Mem0:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Modelcontextprotocol:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
 week_tasks:
   tasks:
     blog_post:
@@ -734,5 +791,5 @@ week_tasks:
 metadata:
   created_at: '2026-02-01T19:37:47.530423'
   week_letter: M
-  last_synced: '2026-02-04T00:00:07.875182'
-  etl_item_count: 38
+  last_synced: '2026-06-05T00:01:28.998533'
+  etl_item_count: 39

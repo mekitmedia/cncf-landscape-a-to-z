@@ -1,0 +1,7 @@
+- description: An API for deploying a group of pods as a unit of replication.
+  featured: true
+  homepage_url: https://lws.sigs.k8s.io/
+  logo: ./leaderworkerset.svg
+  name: LeaderWorkerSet
+  project: null
+  repo_url: https://github.com/kubernetes-sigs/lws

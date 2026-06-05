@@ -1,6 +1,6 @@
 # Summary for 21-V
 
-This week has a total of 14 items.
+This week has a total of 15 items.
 
 
 - **Provisioning Security Compliance**: 1 items
@@ -22,3 +22,5 @@ This week has a total of 14 items.
 - **Wasm Runtimes**: 1 items
 
 - **Wasm Tooling**: 1 items
+
+- **Inference Framework**: 1 items

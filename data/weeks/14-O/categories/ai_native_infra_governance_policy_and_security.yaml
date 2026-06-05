@@ -1,0 +1,17 @@
+- description: An admission controller that validates requests to create and update
+    Pods on Kubernetes clusters, using the Open Policy Agent (OPA).
+  featured: true
+  homepage_url: https://www.openpolicyagent.org/
+  logo: ./opa-icon-color.svg
+  name: OPA/Gatekeeper
+  project: null
+  repo_url: https://github.com/open-policy-agent/gatekeeper
+- description: OPEA is an ecosystem orchestration framework to integrate performant
+    GenAI technologies & workflows leading to quicker GenAI adoption and business
+    value.
+  featured: true
+  homepage_url: https://opea.dev/
+  logo: ./opea-stacked-color.svg
+  name: OPEA
+  project: null
+  repo_url: https://github.com/opea-project

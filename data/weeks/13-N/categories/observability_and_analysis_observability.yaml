@@ -5,6 +5,15 @@
   name: Nagios
   project: null
   repo_url: https://github.com/NagiosEnterprises/nagioscore
+- crunchbase: https://www.crunchbase.com/organization/red-hat
+  description: NetObserv provides CNI-agnostic network observability of Kubernetes
+    clusters.
+  featured: true
+  homepage_url: https://netobserv.io/
+  logo: netobserv.svg
+  name: NetObserv
+  project: null
+  repo_url: https://github.com/netobserv/network-observability-operator
 - crunchbase: https://www.crunchbase.com/organization/netdata
   featured: true
   homepage_url: https://www.netdata.cloud
