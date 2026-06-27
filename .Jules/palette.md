@@ -12,3 +12,7 @@
 ## 2025-05-30 - Standardized Empty States
 **Learning:** Generic unstyled text like "No data available" provides poor UX and lacks visual hierarchy. Creating a consistent, styled empty state pattern using `bg-slate-50`, dashed borders, and a Lucide icon (like `inbox`) significantly improves the visual appeal and provides helpful context when data is missing.
 **Action:** Use this standard Tailwind empty state design pattern (`bg-slate-50 border-2 border-dashed border-slate-200 rounded-2xl p-12 text-center flex flex-col items-center justify-center`) across all pages when handling missing or empty data.
+
+## 2026-06-27 - Semantic Breadcrumbs
+**Learning:** Generic `div`-based breadcrumbs lack structure for screen readers. A true breadcrumb trail needs a `<nav aria-label="Breadcrumb">` wrapping an `<ol>` list. It's also crucial to mark the active, current page with `aria-current="page"` and to hide decorative separators from screen readers using `aria-hidden="true"`. Finally, individual breadcrumb links should have `focus-visible` styles for keyboard users.
+**Action:** Always implement breadcrumbs using the `<nav aria-label="Breadcrumb"><ol><li>...</li></ol></nav>` pattern. Ensure the active item has `aria-current="page"` and decorative items are hidden with `aria-hidden="true"`.
