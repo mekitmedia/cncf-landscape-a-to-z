@@ -97,7 +97,6 @@
     - FOSSA
     - Goldilocks
     - Grafeas
-    - Hexa
     - in-toto
     - Keycloak
     - Keylime
@@ -188,7 +187,6 @@
     - NoKV
     - OpenEBS
     - OpenIO
-    - ORAS
     - Piraeus Datastore
     - Rook
     - Soda Foundation
@@ -548,6 +546,7 @@
     - OpenAPI
     - OpenRun
     - Operator Framework
+    - ORAS
     - Packer
     - Podman
     - Podman Desktop
@@ -589,6 +588,7 @@
     - k6
     - Keploy
     - Liquibase
+    - MockServer
     - OpenGitOps
     - OpenChoreo
     - OpenKruise
@@ -745,6 +745,7 @@
     - Chaosblade
     - chaoskube
     - Litmus
+    - MockServer
     - PowerfulSeal
     - Kubeinvaders
     - Krkn

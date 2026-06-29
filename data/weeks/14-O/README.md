@@ -9,7 +9,7 @@ This week has a total of 58 items.
 
 - **Provisioning Key Management**: 1 items
 
-- **Runtime Cloud Native Storage**: 3 items
+- **Runtime Cloud Native Storage**: 2 items
 
 - **Runtime Cloud Native Network**: 3 items
 
@@ -25,7 +25,7 @@ This week has a total of 58 items.
 
 - **App Definition And Development Streaming Messaging**: 1 items
 
-- **App Definition And Development Application Definition Image Build**: 6 items
+- **App Definition And Development Application Definition Image Build**: 7 items
 
 - **App Definition And Development Continuous Integration Delivery**: 4 items
 

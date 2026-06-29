@@ -1,11 +1,9 @@
 # Summary for 07-H
 
-This week has a total of 24 items.
+This week has a total of 23 items.
 
 
 - **Provisioning Container Registry**: 1 items
-
-- **Provisioning Security Compliance**: 1 items
 
 - **Runtime Cloud Native Storage**: 1 items
 

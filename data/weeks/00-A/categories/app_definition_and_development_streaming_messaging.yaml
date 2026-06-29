@@ -38,14 +38,14 @@
   project: null
   repo_url: https://github.com/apache/streampipes
   twitter: https://twitter.com/StreamPipes
-- crunchbase: https://www.crunchbase.com/organization/red-hat
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: 'Apicurio Registry is a runtime server system that stores a specific
     set of artifacts as files. '
   featured: true
   homepage_url: https://www.apicur.io
   logo: apicurio-registry.svg
   name: Apicurio Registry
-  project: null
+  project: sandbox
   repo_url: https://github.com/Apicurio/apicurio-registry
   twitter: https://twitter.com/apicurio
 - description: High-performance Rust stream processing engine, providing powerful

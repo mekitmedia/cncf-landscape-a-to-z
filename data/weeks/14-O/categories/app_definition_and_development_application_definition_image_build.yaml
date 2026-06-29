@@ -5,6 +5,15 @@
   name: Operator Framework
   project: incubating
   repo_url: https://github.com/operator-framework/operator-sdk
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Multi-language OCI Registry SDKs and CLI
+  featured: true
+  homepage_url: https://oras.land/
+  logo: oras.svg
+  name: ORAS
+  project: sandbox
+  repo_url: https://github.com/oras-project/oras
+  twitter: https://twitter.com/orasproject
 - crunchbase: https://www.crunchbase.com/organization/okteto
   featured: true
   homepage_url: https://okteto.com/
@@ -37,7 +46,7 @@
 - crunchbase: https://www.crunchbase.com/organization/clace
   description: GitOps based deployment platform similar to Google Cloud Run and AWS
     App Runner. Easily deploy internal tools across a team.
-  featured: true
+  featured: false
   homepage_url: https://openrun.dev
   logo: openrun.svg
   name: OpenRun

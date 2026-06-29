@@ -148,6 +148,7 @@ App Definition and Development:
   - OpenAPI
   - OpenRun
   - Operator Framework
+  - ORAS
   - Packer
   - Podman
   - Podman Desktop
@@ -187,6 +188,7 @@ App Definition and Development:
   - k6
   - Keploy
   - Liquibase
+  - MockServer
   - OpenGitOps
   - OpenChoreo
   - OpenKruise
@@ -351,6 +353,7 @@ Observability and Analysis:
   - Chaosblade
   - chaoskube
   - Litmus
+  - MockServer
   - PowerfulSeal
   - Kubeinvaders
   - Krkn
@@ -751,7 +754,6 @@ Provisioning:
   - FOSSA
   - Goldilocks
   - Grafeas
-  - Hexa
   - in-toto
   - Keycloak
   - Keylime
@@ -847,7 +849,6 @@ Runtime:
   - NoKV
   - OpenEBS
   - OpenIO
-  - ORAS
   - Piraeus Datastore
   - Rook
   - Soda Foundation
