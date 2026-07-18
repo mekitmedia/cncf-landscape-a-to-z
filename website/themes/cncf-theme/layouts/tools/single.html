@@ -129,7 +129,7 @@
                     <ul class="space-y-2">
                         {{ range .Params.related_tools }}
                         <li>
-                            <a href="/tools/{{ . | lower | replaceRE " " "_" | replaceRE "&" "and" | replaceRE "/" "_" | replaceRE "\\." "_" | replaceRE "," "" }}/" class="text-blue-600 hover:text-blue-800 hover:underline">
+                            <a href="/tools/{{ . | lower | replaceRE " " "_" | replaceRE "&" "and" | replaceRE "/" "_" | replaceRE "\\." "_" | replaceRE "," "" }}/" class="text-blue-600 hover:text-blue-800 hover:underline focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none rounded">
                                 {{ . }}
                             </a>
                         </li>
@@ -143,7 +143,7 @@
         <!-- Navigation Footer -->
         <div class="mt-12 flex gap-4 justify-between">
             {{ $letter := .Params.letter }}
-            <a href="/letters/{{ $letter }}/" class="inline-flex items-center gap-2 px-4 py-2 bg-slate-100 rounded-lg hover:bg-blue-100 hover:text-blue-600 transition-colors">
+            <a href="/letters/{{ $letter }}/" class="inline-flex items-center gap-2 px-4 py-2 bg-slate-100 rounded-lg hover:bg-blue-100 hover:text-blue-600 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none transition-colors">
                 <i data-lucide="arrow-left" class="w-4 h-4"></i> Back to Letter {{ $letter }}
             </a>
         </div>
