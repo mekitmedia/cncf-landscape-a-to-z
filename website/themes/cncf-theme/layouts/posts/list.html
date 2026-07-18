@@ -45,14 +45,14 @@
                     </div>
                     
                     <h2 class="text-3xl font-black mb-4 tracking-tight text-slate-900 group-hover:text-blue-600 transition-colors leading-tight">
-                        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                        <a href="{{ .RelPermalink }}" class="focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none rounded">{{ .Title }}</a>
                     </h2>
                     
                     <div class="text-slate-500 mb-6 line-clamp-2 leading-relaxed text-sm">
                         {{ .Summary | default "Join us as we explore the projects and tools in the current phase of the CNCF landscape." }}
                     </div>
 
-                    <a href="{{ .RelPermalink }}" class="inline-flex items-center gap-2 font-bold text-slate-900 group-hover:text-blue-600 transition-colors">
+                    <a href="{{ .RelPermalink }}" class="inline-flex items-center gap-2 font-bold text-slate-900 group-hover:text-blue-600 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none rounded transition-colors">
                         Read full story
                         <i data-lucide="arrow-right" class="w-4 h-4 group-hover:translate-x-1 transition-transform"></i>
                     </a>

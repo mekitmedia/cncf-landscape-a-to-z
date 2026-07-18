@@ -12,3 +12,8 @@
 ## 2025-05-30 - Standardized Empty States
 **Learning:** Generic unstyled text like "No data available" provides poor UX and lacks visual hierarchy. Creating a consistent, styled empty state pattern using `bg-slate-50`, dashed borders, and a Lucide icon (like `inbox`) significantly improves the visual appeal and provides helpful context when data is missing.
 **Action:** Use this standard Tailwind empty state design pattern (`bg-slate-50 border-2 border-dashed border-slate-200 rounded-2xl p-12 text-center flex flex-col items-center justify-center`) across all pages when handling missing or empty data.
+
+
+## 2025-10-26 - Missing focus-visible on links
+**Learning:** Some anchor (`<a>`) links, specifically those used for generic text links or post titles, were missing `focus-visible` styles. While standard buttons and major navigation elements had them, inline or list-based links without default underlines can be difficult to track with keyboard navigation if they lack a clear focus state.
+**Action:** Always ensure that all interactive elements, including inline links and list items acting as links, have explicit `focus-visible` styles (e.g., `focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none rounded`) to ensure they are accessible via keyboard navigation.
