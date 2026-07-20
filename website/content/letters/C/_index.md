@@ -1,5 +1,5 @@
 ---
-title: "Letter C - CNCF Landscape"
+title: "Week 3: Letter C"
 letter: "C"
 week: 2
 data_key: "02-C"
@@ -8,12 +8,12 @@ layout: "list"
 
 # Summary for 02-C
 
-This week has a total of 75 items.
+This week has a total of 78 items.
 
 
 - **Provisioning Automation Configuration**: 8 items
 
-- **Provisioning Security Compliance**: 10 items
+- **Provisioning Security Compliance**: 11 items
 
 - **Provisioning Key Management**: 1 items
 
@@ -23,7 +23,7 @@ This week has a total of 75 items.
 
 - **Runtime Cloud Native Network**: 2 items
 
-- **Orchestration Management Scheduling Orchestration**: 4 items
+- **Orchestration Management Scheduling Orchestration**: 6 items
 
 - **Orchestration Management Coordination Service Discovery**: 1 items
 
@@ -33,7 +33,7 @@ This week has a total of 75 items.
 
 - **Orchestration Management Service Mesh**: 1 items
 
-- **App Definition And Development Database**: 8 items
+- **App Definition And Development Database**: 7 items
 
 - **App Definition And Development Streaming Messaging**: 2 items
 
@@ -41,13 +41,13 @@ This week has a total of 75 items.
 
 - **App Definition And Development Continuous Integration Delivery**: 2 items
 
-- **Platform Certified Kubernetes Distribution**: 2 items
+- **Platform Certified Kubernetes Distribution**: 1 items
 
 - **Platform Certified Kubernetes Hosted**: 1 items
 
 - **Platform Certified Kubernetes Installer**: 1 items
 
-- **Platform Paas Container Service**: 2 items
+- **Platform Paas Container Service**: 1 items
 
 - **Serverless Tools**: 1 items
 
@@ -61,7 +61,13 @@ This week has a total of 75 items.
 
 - **Wasm Decentralized Platforms**: 2 items
 
-- **Cnai Vector Databases**: 1 items
+- **Ai Agent Agent Framework**: 2 items
 
-- **Cnai Data Architecture**: 2 items
+- **Ai Agent Agent Tool**: 1 items
+
+- **Ai Agent Vector Database**: 1 items
+
+- **Ai Native Infra Workload Runtime**: 1 items
+
+- **Ai Native Infra Accelerator And Superpod**: 1 items
 

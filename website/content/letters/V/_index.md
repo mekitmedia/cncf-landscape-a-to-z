@@ -1,5 +1,5 @@
 ---
-title: "Letter V - CNCF Landscape"
+title: "Week 22: Letter V"
 letter: "V"
 week: 21
 data_key: "21-V"
@@ -15,7 +15,7 @@ This week has a total of 14 items.
 
 - **Provisioning Key Management**: 1 items
 
-- **Runtime Cloud Native Storage**: 2 items
+- **Runtime Cloud Native Storage**: 1 items
 
 - **Runtime Container Runtime**: 1 items
 
@@ -30,4 +30,6 @@ This week has a total of 14 items.
 - **Wasm Runtimes**: 1 items
 
 - **Wasm Tooling**: 1 items
+
+- **Inference Framework**: 1 items
 

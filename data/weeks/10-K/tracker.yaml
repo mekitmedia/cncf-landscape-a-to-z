@@ -17,7 +17,7 @@ items:
         error_message: null
         retry_count: 0
         agent: writer
-    removed: false
+    removed: true
   K3k:
     tasks:
       research:
@@ -1404,7 +1404,7 @@ items:
         error_message: null
         retry_count: 0
         agent: writer
-    removed: false
+    removed: true
   Kubecost:
     tasks:
       research:
@@ -2083,5 +2083,5 @@ week_tasks:
 metadata:
   created_at: '2026-02-01T19:37:47.393397'
   week_letter: K
-  last_synced: '2026-06-05T00:01:28.847583'
-  etl_item_count: 110
+  last_synced: '2026-07-20T01:57:08.775137'
+  etl_item_count: 108

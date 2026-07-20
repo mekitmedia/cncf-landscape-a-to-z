@@ -1,5 +1,5 @@
 ---
-title: "Letter M - CNCF Landscape"
+title: "Week 13: Letter M"
 letter: "M"
 week: 12
 data_key: "12-M"
@@ -8,10 +8,10 @@ layout: "list"
 
 # Summary for 12-M
 
-This week has a total of 38 items.
+This week has a total of 41 items.
 
 
-- **Provisioning Automation Configuration**: 5 items
+- **Provisioning Automation Configuration**: 4 items
 
 - **Provisioning Security Compliance**: 2 items
 
@@ -29,9 +29,13 @@ This week has a total of 38 items.
 
 - **App Definition And Development Application Definition Image Build**: 4 items
 
-- **Platform Certified Kubernetes Distribution**: 2 items
+- **App Definition And Development Continuous Integration Delivery**: 1 items
+
+- **Platform Certified Kubernetes Distribution**: 1 items
 
 - **Serverless Framework**: 1 items
+
+- **Observability And Analysis Chaos Engineering**: 1 items
 
 - **Observability And Analysis Observability**: 4 items
 
@@ -43,11 +47,17 @@ This week has a total of 38 items.
 
 - **Wasm Debugging Observability**: 1 items
 
-- **Cnai Ci Cd Delivery**: 2 items
+- **Ai Agent Protocol**: 1 items
 
-- **Cnai Distributed Training**: 1 items
+- **Ai Agent State And Memory**: 1 items
 
-- **Cnai Vector Databases**: 1 items
+- **Ai Agent Vector Database**: 1 items
 
-- **Cnai Data Architecture**: 1 items
+- **Data Data Architecture**: 1 items
+
+- **Training Distributed Training**: 1 items
+
+- **Ai Native Infra Gateway**: 1 items
+
+- **Ai Native Infra Continuous Integration And Delivery**: 2 items
 

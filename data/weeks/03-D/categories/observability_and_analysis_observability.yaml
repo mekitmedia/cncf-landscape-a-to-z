@@ -1,3 +1,12 @@
+- description: Open-source, AI-native OpenTelemetry APM platform. OTLP trace and metrics
+    ingest, service topology, and multi-agent SRE investigation that cites real spans.
+    Self-hosted via Docker or Kubernetes.
+  featured: true
+  homepage_url: https://databuff.ai/
+  logo: databuff.svg
+  name: DataBuff
+  project: null
+  repo_url: https://github.com/databufflabs/databuff
 - crunchbase: https://www.crunchbase.com/organization/yunshan-networks
   featured: true
   homepage_url: https://deepflow.yunshan.net/community.html

@@ -1,6 +1,6 @@
 # Summary for 10-K
 
-This week has a total of 110 items.
+This week has a total of 108 items.
 
 
 - **Provisioning Automation Configuration**: 11 items
@@ -31,15 +31,13 @@ This week has a total of 110 items.
 
 - **App Definition And Development Continuous Integration Delivery**: 2 items
 
-- **Platform Certified Kubernetes Distribution**: 4 items
+- **Platform Certified Kubernetes Distribution**: 3 items
 
-- **Platform Certified Kubernetes Installer**: 7 items
+- **Platform Certified Kubernetes Installer**: 6 items
 
 - **Platform Paas Container Service**: 2 items
 
-- **Serverless Framework**: 1 items
-
-- **Serverless Installable Platform**: 1 items
+- **Serverless Installable Platform**: 2 items
 
 - **Observability And Analysis Chaos Engineering**: 2 items
 

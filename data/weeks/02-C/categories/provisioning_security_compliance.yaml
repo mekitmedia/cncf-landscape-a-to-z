@@ -1,4 +1,14 @@
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Confidential Containers is an open source community working to enable
+    cloud native  confidential computing by leveraging Trusted Execution Environments
+    to protect  containers and data.
+  featured: true
+  homepage_url: https://confidentialcontainers.org/
+  logo: confidential-containers.svg
+  name: Confidential Containers
+  project: incubating
+  repo_url: https://github.com/confidential-containers/confidential-containers
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: Cartography is a Python tool that consolidates infrastructure assets
     and the relationships between them in an intuitive graph view.
   featured: true
@@ -61,7 +71,7 @@
   project: null
   repo_url: https://github.com/bridgecrewio/checkov
 - crunchbase: https://www.crunchbase.com/organization/chef
-  featured: true
+  featured: false
   homepage_url: https://community.chef.io/tools/chef-inspec
   logo: chef_inspec.svg
   name: Chef InSpec
@@ -86,16 +96,6 @@
   project: null
   repo_url: https://github.com/cloudmatos/matos
   twitter: https://twitter.com/CloudMatos
-- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  description: Confidential Containers is an open source community working to enable
-    cloud native  confidential computing by leveraging Trusted Execution Environments
-    to protect  containers and data.
-  featured: false
-  homepage_url: https://confidentialcontainers.org/
-  logo: confidential-containers.svg
-  name: Confidential Containers
-  project: sandbox
-  repo_url: https://github.com/confidential-containers/confidential-containers
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: ContainerSSH launches a new container for each SSH connection in Kubernetes,
     Podman or Docker. The user is transparently dropped in the container and the container

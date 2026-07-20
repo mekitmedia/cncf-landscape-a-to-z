@@ -1,9 +1,13 @@
-- crunchbase: https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: A powerful and flexible open source framework for creating continuous
+    integration and delivery (CI/CD) systems that allow developers to build, test,
+    and deploy across multiple cloud providers and on-premises systems by abstracting
+    away the underlying implementation details.
   featured: true
   homepage_url: https://tekton.dev/
   logo: tekton.svg
-  name: Tekton Pipelines
-  project: null
+  name: Tekton
+  project: incubating
   repo_url: https://github.com/tektoncd/pipeline
   twitter: https://twitter.com/tektoncd
 - crunchbase: https://www.crunchbase.com/organization/terramate

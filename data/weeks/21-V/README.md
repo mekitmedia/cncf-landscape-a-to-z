@@ -1,13 +1,13 @@
 # Summary for 21-V
 
-This week has a total of 15 items.
+This week has a total of 14 items.
 
 
 - **Provisioning Security Compliance**: 1 items
 
 - **Provisioning Key Management**: 1 items
 
-- **Runtime Cloud Native Storage**: 2 items
+- **Runtime Cloud Native Storage**: 1 items
 
 - **Runtime Container Runtime**: 1 items
 
