@@ -44,4 +44,4 @@ This will generate the following files:
 
 ## Contributing without the Pydantic runtime
 
-Use the harness-agnostic skill at `skills/cncf-weekly-content/SKILL.md` to run the same Editor → Researcher → Writer workflow with Claude Code, Opencode, or any comparable coding harness.
+Use the harness-agnostic skill at `.agents/skills/cncf-weekly-content/SKILL.md` to run the same Editor → Researcher → Writer workflow with Claude Code, Opencode, Codex/OpenAI, or any comparable coding harness.
