@@ -40,4 +40,8 @@ This will generate the following files:
 - `data/categories.yaml`: A consolidated index of all categories, subcategories, and their items.
 - `data/category_index.yaml`: An index of all categories and their sanitized names.
 - `data/category_item_index.yaml`: An index of all categories and their items.
-- `data/week_*/`: A series of directories containing individual YAML files for each subcategory, organized by the first letter of the project name.
+- `data/weeks/*/`: A series of directories containing individual YAML files for each subcategory, organized by the first letter of the project name.
+
+## Contributing without the Pydantic runtime
+
+Use the harness-agnostic skill at `.agents/skills/cncf-weekly-content/SKILL.md` to run the same Editor → Researcher → Writer workflow with Claude Code, Opencode, Codex/OpenAI, or any comparable coding harness.
