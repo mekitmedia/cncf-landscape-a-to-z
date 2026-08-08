@@ -71,7 +71,7 @@ date: <TIMESTAMP_ISO8601_UTC>
 draft: false
 ---
 ```
-Use the current calendar year for `<YEAR>` in the filename.
+Set `<YEAR>` from the run input if provided; otherwise use the repository's active post cycle year (fallback: current calendar year).
 
 3. Include intro, one section per project, and conclusion.
 4. Keep every project section factual and concise.
