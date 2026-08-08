@@ -1,5 +1,5 @@
 ---
-title: "Letter Y - CNCF Landscape"
+title: "Week 25: Letter Y"
 letter: "Y"
 week: 24
 data_key: "24-Y"
@@ -15,5 +15,5 @@ This week has a total of 4 items.
 
 - **Wasm Embedded Functions**: 1 items
 
-- **Cnai General Orchestration**: 1 items
+- **Ai Native Infra Orchestration And Scheduling**: 1 items
 
