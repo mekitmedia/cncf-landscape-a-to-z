@@ -1,6 +1,6 @@
 # Summary for 12-M
 
-This week has a total of 42 items.
+This week has a total of 39 items.
 
 
 - **Provisioning Automation Configuration**: 4 items
@@ -15,19 +15,15 @@ This week has a total of 42 items.
 
 - **Orchestration Management Api Gateway**: 2 items
 
-- **App Definition And Development Database**: 4 items
+- **App Definition And Development Database**: 3 items
 
 - **App Definition And Development Streaming Messaging**: 1 items
 
 - **App Definition And Development Application Definition Image Build**: 4 items
 
-- **App Definition And Development Continuous Integration Delivery**: 1 items
-
 - **Platform Certified Kubernetes Distribution**: 1 items
 
 - **Serverless Framework**: 1 items
-
-- **Observability And Analysis Chaos Engineering**: 1 items
 
 - **Observability And Analysis Observability**: 4 items
 

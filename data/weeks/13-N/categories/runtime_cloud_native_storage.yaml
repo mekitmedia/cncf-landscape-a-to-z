@@ -1,7 +1,8 @@
-- description: AI-native distributed filesystem.
+- description: NoKV is a native metadata service for distributed filesystems, object
+    storage namespaces, and AI dataset workloads.
   featured: true
-  homepage_url: https://nokv.io/
+  homepage_url: https://github.com/feichai0017/NoKV
   logo: nokv.svg
   name: NoKV
   project: null
-  repo_url: https://github.com/NoKV-Lab/NoKV
+  repo_url: https://github.com/feichai0017/NoKV

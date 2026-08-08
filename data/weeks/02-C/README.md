@@ -1,6 +1,6 @@
 # Summary for 02-C
 
-This week has a total of 79 items.
+This week has a total of 78 items.
 
 
 - **Provisioning Automation Configuration**: 8 items
@@ -9,7 +9,7 @@ This week has a total of 79 items.
 
 - **Provisioning Key Management**: 1 items
 
-- **Runtime Cloud Native Storage**: 5 items
+- **Runtime Cloud Native Storage**: 4 items
 
 - **Runtime Container Runtime**: 1 items
 

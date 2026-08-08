@@ -22,15 +22,6 @@
   repo_url: https://github.com/knative/serving
   twitter: https://twitter.com/KnativeProject
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  description: Kubeflow is the foundation of tools for AI Platforms on Kubernetes.
-  featured: true
-  homepage_url: https://kubeflow.org
-  logo: kubeflow.svg
-  name: Kubeflow
-  project: graduated
-  repo_url: https://github.com/kubeflow/kubeflow
-  twitter: https://twitter.com/kubeflow
-- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: Kubernetes is an open-source system for automating deployment, scaling,
     and management of containerized applications
   featured: true
@@ -41,7 +32,6 @@
   repo_url: https://github.com/kubernetes/kubernetes
   twitter: https://twitter.com/kubernetesio
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  description: Open, Multi-Cloud, Multi-Cluster Kubernetes Orchestration
   featured: true
   homepage_url: https://karmada.io/
   logo: karmada.svg
@@ -49,6 +39,15 @@
   project: incubating
   repo_url: https://github.com/karmada-io/karmada
   twitter: https://x.com/karmada_io
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Kubeflow is the foundation of tools for AI Platforms on Kubernetes.
+  featured: true
+  homepage_url: https://kubeflow.org
+  logo: kubeflow.svg
+  name: Kubeflow
+  project: incubating
+  repo_url: https://github.com/kubeflow/kubeflow
+  twitter: https://twitter.com/kubeflow
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: KAI Scheduler is a robust, efficient, and scalable Kubernetes scheduler
     that optimizes GPU resource allocation for AI workloads in large-scale clusters.
@@ -105,8 +104,6 @@
   project: sandbox
   repo_url: https://github.com/kubefleet-dev/kubefleet
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  description: Applications provided by Avesha Systems, ready to launch on Kubernetes
-    using Kubernetes Helm
   featured: false
   homepage_url: https://kubeslice.io
   logo: kubeslice.svg
@@ -115,8 +112,6 @@
   repo_url: https://github.com/kubeslice/kubeslice
   twitter: https://twitter.com/kubeslice
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  description: KubeStellar - a flexible solution for challenges associated with multi-cluster
-    configuration management for edge, multi-cloud, and hybrid cloud
   featured: false
   homepage_url: https://kubestellar.io
   logo: kubestellar.svg

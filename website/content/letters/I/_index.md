@@ -1,5 +1,5 @@
 ---
-title: "Week 9: Letter I"
+title: "Letter I - CNCF Landscape"
 letter: "I"
 week: 8
 data_key: "08-I"
@@ -8,7 +8,7 @@ layout: "list"
 
 # Summary for 08-I
 
-This week has a total of 14 items.
+This week has a total of 12 items.
 
 
 - **Runtime Container Runtime**: 2 items
@@ -25,9 +25,5 @@ This week has a total of 14 items.
 
 - **Wasm Embedded Functions**: 2 items
 
-- **Ai Agent Structured Output**: 1 items
-
-- **Ai Agent Workflow Orchestration**: 1 items
-
-- **Ai Native Infra Observability**: 1 items
+- **Cnai Workload Observability**: 1 items
 

@@ -1519,25 +1519,6 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Curvine:
-    tasks:
-      research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
-        error_message: null
-        retry_count: 0
-        agent: researcher
-      content:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
-        error_message: null
-        retry_count: 0
-        agent: writer
-    removed: false
 week_tasks:
   tasks:
     blog_post:
@@ -1551,5 +1532,5 @@ week_tasks:
 metadata:
   created_at: '2026-02-01T19:37:47.046818'
   week_letter: C
-  last_synced: '2026-08-08T13:25:04.039219'
-  etl_item_count: 79
+  last_synced: '2026-06-05T00:01:28.448718'
+  etl_item_count: 78

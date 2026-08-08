@@ -1,5 +1,5 @@
 ---
-title: "Week 4: Letter D"
+title: "Letter D - CNCF Landscape"
 letter: "D"
 week: 3
 data_key: "03-D"
@@ -8,7 +8,7 @@ layout: "list"
 
 # Summary for 03-D
 
-This week has a total of 35 items.
+This week has a total of 30 items.
 
 
 - **Provisioning Container Registry**: 2 items
@@ -25,7 +25,7 @@ This week has a total of 35 items.
 
 - **App Definition And Development Streaming Messaging**: 1 items
 
-- **App Definition And Development Application Definition Image Build**: 7 items
+- **App Definition And Development Application Definition Image Build**: 6 items
 
 - **App Definition And Development Continuous Integration Delivery**: 1 items
 
@@ -33,7 +33,7 @@ This week has a total of 35 items.
 
 - **Serverless Installable Platform**: 1 items
 
-- **Observability And Analysis Observability**: 2 items
+- **Observability And Analysis Observability**: 1 items
 
 - **Wasm Languages**: 1 items
 
@@ -43,13 +43,7 @@ This week has a total of 35 items.
 
 - **Wasm Decentralized Platforms**: 1 items
 
-- **Ai Agent Evaluation**: 1 items
+- **Cnai Distributed Training**: 1 items
 
-- **Ai Agent Rag**: 1 items
-
-- **Ai Agent Workflow Orchestration**: 1 items
-
-- **Training Distributed Training**: 1 items
-
-- **Ai Native Infra Observability**: 2 items
+- **Cnai Model Llm Observability**: 2 items
 

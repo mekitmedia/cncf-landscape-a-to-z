@@ -1,5 +1,5 @@
 ---
-title: "Week 2: Letter B"
+title: "Letter B - CNCF Landscape"
 letter: "B"
 week: 1
 data_key: "01-B"
@@ -8,16 +8,16 @@ layout: "list"
 
 # Summary for 01-B
 
-This week has a total of 19 items.
+This week has a total of 16 items.
 
 
-- **Provisioning Automation Configuration**: 2 items
+- **Provisioning Automation Configuration**: 1 items
 
 - **Provisioning Security Compliance**: 3 items
 
 - **Orchestration Management Scheduling Orchestration**: 1 items
 
-- **Orchestration Management Service Proxy**: 2 items
+- **Orchestration Management Service Proxy**: 1 items
 
 - **App Definition And Development Database**: 1 items
 
@@ -33,7 +33,5 @@ This week has a total of 19 items.
 
 - **Wasm Tooling**: 1 items
 
-- **Ai Agent Agent Tool**: 1 items
-
-- **Ai Native Infra Continuous Integration And Delivery**: 1 items
+- **Cnai Ci Cd Delivery**: 1 items
 

@@ -1,5 +1,5 @@
 ---
-title: "Week 23: Letter W"
+title: "Letter W - CNCF Landscape"
 letter: "W"
 week: 22
 data_key: "22-W"
@@ -8,7 +8,7 @@ layout: "list"
 
 # Summary for 22-W
 
-This week has a total of 26 items.
+This week has a total of 27 items.
 
 
 - **Runtime Container Runtime**: 1 items
@@ -33,5 +33,7 @@ This week has a total of 26 items.
 
 - **Wasm Tooling**: 4 items
 
-- **Ai Native Infra Observability**: 1 items
+- **Cnai Workload Observability**: 1 items
+
+- **Cnai Vector Databases**: 1 items
 

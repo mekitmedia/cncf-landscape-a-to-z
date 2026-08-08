@@ -1,6 +1,6 @@
 # Summary for 03-D
 
-This week has a total of 35 items.
+This week has a total of 34 items.
 
 
 - **Provisioning Container Registry**: 2 items
@@ -25,7 +25,7 @@ This week has a total of 35 items.
 
 - **Serverless Installable Platform**: 1 items
 
-- **Observability And Analysis Observability**: 2 items
+- **Observability And Analysis Observability**: 1 items
 
 - **Wasm Languages**: 1 items
 

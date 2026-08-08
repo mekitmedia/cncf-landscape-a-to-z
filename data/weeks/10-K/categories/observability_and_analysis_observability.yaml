@@ -1,12 +1,10 @@
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  description: Giving Kubernetes Superpowers to everyone
   featured: true
   homepage_url: https://www.k8sgpt.ai
   logo: k8sgpt.svg
   name: K8sGPT
   project: sandbox
   repo_url: https://github.com/k8sgpt-ai/k8sgpt
-  twitter: https://twitter.com/k8sgpt
 - crunchbase: https://www.crunchbase.com/organization/keep-2303
   featured: true
   homepage_url: https://www.keephq.dev/
@@ -49,17 +47,14 @@
   project: null
   repo_url: https://github.com/alibaba/kubeskoop
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  description: A Kubernetes operator for running synthetic checks as pods. Works great
-    with Prometheus!
   featured: false
   homepage_url: https://github.com/kuberhealthy/kuberhealthy
   logo: kuberhealthy.svg
   name: Kuberhealthy
   project: sandbox
   repo_url: https://github.com/kuberhealthy/kuberhealthy
-  twitter: https://twitter.com/kuberhealthy
 - crunchbase: https://www.crunchbase.com/organization/kubetail
-  description: Real-time logging dashboard for Kubernetes
+  description: Real-time logging dasbhboard for Kubernetes
   featured: false
   homepage_url: https://www.kubetail.com
   logo: kubetail.svg

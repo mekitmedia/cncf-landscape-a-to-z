@@ -53,7 +53,6 @@ AI Agent:
   - Milvus
   - pgvector
   Workflow Orchestration:
-  - Astron Agent
   - Dify
   - Hatchet
   - Inngest
@@ -149,7 +148,6 @@ App Definition and Development:
   - OpenAPI
   - OpenRun
   - Operator Framework
-  - ORAS
   - Packer
   - Podman
   - Podman Desktop
@@ -189,7 +187,6 @@ App Definition and Development:
   - k6
   - Keploy
   - Liquibase
-  - MockServer
   - OpenGitOps
   - OpenChoreo
   - OpenKruise
@@ -198,7 +195,7 @@ App Definition and Development:
   - Razee
   - Screwdriver
   - Spinnaker
-  - Tekton
+  - Tekton Pipelines
   - Terramate
   - Testkube
   - Travis CI
@@ -238,7 +235,6 @@ App Definition and Development:
   - MariaDB
   - MongoDB
   - MySQL
-  - Multigres
   - NebulaGraph
   - Neo4j
   - OceanBase
@@ -355,7 +351,6 @@ Observability and Analysis:
   - Chaosblade
   - chaoskube
   - Litmus
-  - MockServer
   - PowerfulSeal
   - Kubeinvaders
   - Krkn
@@ -383,7 +378,6 @@ Observability and Analysis:
   - Checkmk
   - Cortex
   - Coroot
-  - DataBuff
   - DeepFlow
   - EaseAgent
   - Elastic
@@ -529,7 +523,7 @@ Orchestration & Management:
   - DolphinScheduler
   - Eraser
   - Fluid
-  - HAMi
+  - hami
   - Karmada
   - kcp
   - k0s
@@ -603,6 +597,7 @@ Platform:
   - "Elastisys Welkin\xAE based on Kubespray"
   - Flatcar Container Linux
   - Giant Swarm Managed Kubernetes
+  - K-PaaS Container Platform
   - k0rdent
   - K3k
   - k3s
@@ -631,6 +626,7 @@ Platform:
   - kind
   - kOps
   - Kubeasz
+  - Kubeaver
   - KubeClipper
   - Kubekey
   - Kubermatic KubeOne
@@ -677,13 +673,11 @@ Provisioning:
   - Kairos
   - Kapitan
   - KCL
-  - kbind
   - KitOps
   - kiosk
   - Kosko
   - kpt
   - Kratix
-  - kubara
   - kubectl-mcp-server
   - Kubean
   - KubeEdge
@@ -757,6 +751,7 @@ Provisioning:
   - FOSSA
   - Goldilocks
   - Grafeas
+  - Hexa
   - in-toto
   - Keycloak
   - Keylime
@@ -839,7 +834,6 @@ Runtime:
   - Ceph
   - Container Storage Interface (CSI)
   - CubeFS
-  - Curvine
   - DatenLord
   - Gluster
   - HwameiStor
@@ -853,6 +847,7 @@ Runtime:
   - NoKV
   - OpenEBS
   - OpenIO
+  - ORAS
   - Piraeus Datastore
   - Rook
   - Soda Foundation
@@ -860,6 +855,7 @@ Runtime:
   - Swift
   - Triton Object Storage
   - Velero
+  - Vineyard
   - Zenko
   Container Runtime:
   - containerd
@@ -894,6 +890,7 @@ Serverless:
   - Encore
   - EventMesh
   - Flogo
+  - KubeElasti
   - Layotto
   - Midway Serverless
   - Nitric
@@ -913,7 +910,6 @@ Serverless:
   - Direktiv
   - Fission
   - Knix
-  - KubeElasti
   - Nuclio
   - OpenFaaS
   - SlimFaaS

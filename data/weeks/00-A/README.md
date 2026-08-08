@@ -1,6 +1,6 @@
 # Summary for 00-A
 
-This week has a total of 69 items.
+This week has a total of 68 items.
 
 
 - **Provisioning Automation Configuration**: 5 items
@@ -58,8 +58,6 @@ This week has a total of 69 items.
 - **Ai Agent Knowledge Graph**: 1 items
 
 - **Ai Agent Protocol**: 1 items
-
-- **Ai Agent Workflow Orchestration**: 1 items
 
 - **Inference Framework**: 2 items
 

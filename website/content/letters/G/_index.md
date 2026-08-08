@@ -1,5 +1,5 @@
 ---
-title: "Week 7: Letter G"
+title: "Letter G - CNCF Landscape"
 letter: "G"
 week: 6
 data_key: "06-G"
@@ -8,7 +8,7 @@ layout: "list"
 
 # Summary for 06-G
 
-This week has a total of 34 items.
+This week has a total of 33 items.
 
 
 - **Provisioning Automation Configuration**: 2 items
@@ -25,9 +25,7 @@ This week has a total of 34 items.
 
 - **App Definition And Development Database**: 2 items
 
-- **App Definition And Development Streaming Messaging**: 1 items
-
-- **App Definition And Development Application Definition Image Build**: 2 items
+- **App Definition And Development Application Definition Image Build**: 3 items
 
 - **App Definition And Development Continuous Integration Delivery**: 3 items
 
@@ -45,7 +43,5 @@ This week has a total of 34 items.
 
 - **Wasm Decentralized Platforms**: 1 items
 
-- **Ai Agent Guardrail**: 1 items
-
-- **Ai Agent Structured Output**: 1 items
+- **Cnai Workload Observability**: 1 items
 
