@@ -58,7 +58,7 @@ related_tools:
 
 ```yaml
 ---
-title: "Letter L: N CNCF Projects Starting with L"
+title: "Letter L: {count} CNCF Projects Starting with L"
 date: YYYY-MM-DDTHH:MM:SSZ
 draft: false
 ---
