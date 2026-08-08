@@ -6,6 +6,8 @@
   project: null
   repo_url: https://github.com/mosn/mosn
 - crunchbase: https://www.crunchbase.com/organization/metallb
+  description: A network load-balancer implementation for Kubernetes using standard
+    routing protocols
   featured: true
   homepage_url: https://metallb.universe.tf
   logo: metallb.svg
