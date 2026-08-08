@@ -65,6 +65,17 @@ Deep dive into the AI-powered content generation system:
 
 ---
 
+### Harness Skill: `skills/cncf-weekly-content/SKILL.md`
+**Contributor Skill for Any Coding Harness**
+
+Portable skill instructions that mirror the current Pydantic AI Editor, Researcher, and Writer responsibilities so contributors can execute the workflow with Claude Code, Opencode, or other harnesses.
+
+**Read this when:**
+- You want to contribute content updates without using the Pydantic AI runtime
+- You need a single prompt/playbook that works across coding harnesses
+
+---
+
 ### [tracker.md](tracker.md)
 **Task Tracker System**
 

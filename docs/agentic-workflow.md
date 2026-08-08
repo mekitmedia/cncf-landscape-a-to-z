@@ -2,6 +2,8 @@
 
 This document describes the AI-powered agent workflow that generates weekly content for the CNCF Landscape A-to-Z website through iterative editorial refinement.
 
+If you want to contribute using Claude Code, Opencode, or another coding harness (without running the Pydantic AI runtime directly), use the portable skill at `skills/cncf-weekly-content/SKILL.md`.
+
 ## Overview
 
 The content generation uses a **trio of AI agents** orchestrated by **Prefect** to research CNCF projects and produce high-quality blog posts through an iterative editorial process. The workflow is located in `src/agentic/flow.py` and implements an Editor-Writer feedback loop with persistent research artifacts.
