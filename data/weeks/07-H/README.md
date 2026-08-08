@@ -5,11 +5,11 @@ This week has a total of 24 items.
 
 - **Provisioning Container Registry**: 1 items
 
-- **Provisioning Security Compliance**: 1 items
-
 - **Runtime Cloud Native Storage**: 1 items
 
 - **Runtime Container Runtime**: 1 items
+
+- **Orchestration Management Scheduling Orchestration**: 1 items
 
 - **Orchestration Management Service Proxy**: 1 items
 

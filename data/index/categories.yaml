@@ -24,11 +24,13 @@
     - Kairos
     - Kapitan
     - KCL
+    - kbind
     - KitOps
     - kiosk
     - Kosko
     - kpt
     - Kratix
+    - kubara
     - kubectl-mcp-server
     - Kubean
     - KubeEdge
@@ -97,7 +99,6 @@
     - FOSSA
     - Goldilocks
     - Grafeas
-    - Hexa
     - in-toto
     - Keycloak
     - Keylime
@@ -175,6 +176,7 @@
     - Ceph
     - Container Storage Interface (CSI)
     - CubeFS
+    - Curvine
     - DatenLord
     - Gluster
     - HwameiStor
@@ -188,7 +190,6 @@
     - NoKV
     - OpenEBS
     - OpenIO
-    - ORAS
     - Piraeus Datastore
     - Rook
     - Soda Foundation
@@ -196,7 +197,6 @@
     - Swift
     - Triton Object Storage
     - Velero
-    - Vineyard
     - Zenko
     path: runtime_cloud_native_storage
     subcategory: Cloud Native Storage
@@ -266,7 +266,7 @@
     - DolphinScheduler
     - Eraser
     - Fluid
-    - hami
+    - HAMi
     - Karmada
     - kcp
     - k0s
@@ -428,6 +428,7 @@
     - MariaDB
     - MongoDB
     - MySQL
+    - Multigres
     - NebulaGraph
     - Neo4j
     - OceanBase
@@ -548,6 +549,7 @@
     - OpenAPI
     - OpenRun
     - Operator Framework
+    - ORAS
     - Packer
     - Podman
     - Podman Desktop
@@ -589,6 +591,7 @@
     - k6
     - Keploy
     - Liquibase
+    - MockServer
     - OpenGitOps
     - OpenChoreo
     - OpenKruise
@@ -597,7 +600,7 @@
     - Razee
     - Screwdriver
     - Spinnaker
-    - Tekton Pipelines
+    - Tekton
     - Terramate
     - Testkube
     - Travis CI
@@ -616,7 +619,6 @@
     - "Elastisys Welkin\xAE based on Kubespray"
     - Flatcar Container Linux
     - Giant Swarm Managed Kubernetes
-    - K-PaaS Container Platform
     - k0rdent
     - K3k
     - k3s
@@ -649,7 +651,6 @@
     - kind
     - kOps
     - Kubeasz
-    - Kubeaver
     - KubeClipper
     - Kubekey
     - Kubermatic KubeOne
@@ -697,7 +698,6 @@
     - Encore
     - EventMesh
     - Flogo
-    - KubeElasti
     - Layotto
     - Midway Serverless
     - Nitric
@@ -721,6 +721,7 @@
     - Direktiv
     - Fission
     - Knix
+    - KubeElasti
     - Nuclio
     - OpenFaaS
     - SlimFaaS
@@ -745,6 +746,7 @@
     - Chaosblade
     - chaoskube
     - Litmus
+    - MockServer
     - PowerfulSeal
     - Kubeinvaders
     - Krkn
@@ -768,6 +770,7 @@
     - Checkmk
     - Cortex
     - Coroot
+    - DataBuff
     - DeepFlow
     - EaseAgent
     - Elastic
@@ -1091,6 +1094,7 @@
     path: ai_agent_vector_database
     subcategory: Vector Database
   - items:
+    - Astron Agent
     - Dify
     - Hatchet
     - Inngest

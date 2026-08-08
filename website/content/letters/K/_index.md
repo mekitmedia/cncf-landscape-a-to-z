@@ -1,5 +1,5 @@
 ---
-title: "Letter K - CNCF Landscape"
+title: "Week 11: Letter K"
 letter: "K"
 week: 10
 data_key: "10-K"
@@ -8,7 +8,7 @@ layout: "list"
 
 # Summary for 10-K
 
-This week has a total of 106 items.
+This week has a total of 108 items.
 
 
 - **Provisioning Automation Configuration**: 11 items
@@ -23,7 +23,7 @@ This week has a total of 106 items.
 
 - **Runtime Cloud Native Network**: 3 items
 
-- **Orchestration Management Scheduling Orchestration**: 13 items
+- **Orchestration Management Scheduling Orchestration**: 14 items
 
 - **Orchestration Management Coordination Service Discovery**: 1 items
 
@@ -39,17 +39,17 @@ This week has a total of 106 items.
 
 - **App Definition And Development Continuous Integration Delivery**: 2 items
 
-- **Platform Certified Kubernetes Distribution**: 4 items
+- **Platform Certified Kubernetes Distribution**: 3 items
 
-- **Platform Certified Kubernetes Installer**: 7 items
+- **Platform Certified Kubernetes Installer**: 6 items
 
 - **Platform Paas Container Service**: 2 items
 
-- **Serverless Installable Platform**: 1 items
+- **Serverless Installable Platform**: 2 items
 
 - **Observability And Analysis Chaos Engineering**: 2 items
 
-- **Observability And Analysis Continuous Optimization**: 2 items
+- **Observability And Analysis Continuous Optimization**: 3 items
 
 - **Observability And Analysis Observability**: 8 items
 
@@ -59,19 +59,19 @@ This week has a total of 106 items.
 
 - **Wasm Orchestration Management**: 3 items
 
-- **Cnai General Orchestration**: 2 items
+- **Inference Framework**: 2 items
 
-- **Cnai Ml Serving**: 2 items
+- **Data Data Science**: 1 items
 
-- **Cnai Ci Cd Delivery**: 1 items
+- **Training Distributed Training**: 2 items
 
-- **Cnai Data Science**: 1 items
+- **Training Post Training**: 1 items
 
-- **Cnai Distributed Training**: 1 items
+- **Ai Native Infra Orchestration And Scheduling**: 2 items
 
-- **Cnai Automl**: 1 items
+- **Ai Native Infra Gateway**: 1 items
 
-- **Cnai Data Architecture**: 1 items
+- **Ai Native Infra Governance Policy And Security**: 1 items
 
-- **Cnai Governance Policy Security**: 1 items
+- **Ai Native Infra Continuous Integration And Delivery**: 1 items
 
