@@ -15,13 +15,6 @@
   name: Kubeasz
   project: null
   repo_url: https://github.com/easzlab/kubeasz
-- description: Deploy a highly available Kubernetes cluster in offline environments.
-  featured: true
-  homepage_url: https://github.com/eb-k8s/kubeaver
-  logo: kubeaver.svg
-  name: Kubeaver
-  project: null
-  repo_url: https://github.com/eb-k8s/kubeaver
 - crunchbase: https://www.crunchbase.com/organization/qingcloud
   description: Kubekey provides a flexible, rapid and convenient way to install Kubernetes
     only, both Kubernetes and KubeSphere, and related cloud-native add-ons.  It is
@@ -51,7 +44,7 @@
   repo_url: https://github.com/darxkies/k8s-tew
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: Deploy a Production Ready Kubernetes Cluster
-  featured: false
+  featured: true
   homepage_url: https://kubespray.io/
   logo: kubespray.svg
   name: Kubespray
