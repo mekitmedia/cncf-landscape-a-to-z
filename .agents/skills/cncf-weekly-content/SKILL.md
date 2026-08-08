@@ -71,6 +71,7 @@ date: <TIMESTAMP_ISO8601_UTC>
 draft: false
 ---
 ```
+Use the current calendar year for `<YEAR>` in the filename.
 
 3. Include intro, one section per project, and conclusion.
 4. Keep every project section factual and concise.
