@@ -74,6 +74,7 @@ draft: false
 
 3. Include intro, one section per project, and conclusion.
 4. Keep every project section factual and concise.
+5. Set `<PROJECT_COUNT>` from the number of researched projects included in the post (typically the count of `data/weeks/<WEEK_ID>/research/*.yaml` files used).
 
 ### 4) Tracker updates
 Update `data/weeks/<WEEK_ID>/tracker.yaml`:
