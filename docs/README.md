@@ -128,14 +128,14 @@ Complete guide to the website implementation and data integration:
 python src/cli.py run etl
 
 # 2. Verify data generated
-ls data/week_*
+ls data/weeks/*
 
 # 3. Run agentic workflow (Editor selects next week automatically)
 python src/cli.py run workflow
 
 # 4. Check outputs
 cat TODO.md                           # Progress tracking
-ls data/week_00_A/research/           # Research files
+ls data/weeks/00-A/research/          # Research files
 cat website/content/posts/2026-A.md   # Final blog post
 ```
 
@@ -160,14 +160,14 @@ CNCF Landscape (upstream)
     ↓
 ETL Pipeline
     ↓
-data/week_XX_Y/*.yaml (project metadata)
+data/weeks/XX-L/*.yaml (project metadata)
     ↓
 Agentic Workflow (reads)
-    ├─> Tracker System (data/week_XX_Y/tracker.yaml)
+    ├─> Tracker System (data/weeks/XX-L/tracker.yaml)
     │   ├─> Task state management and dependencies
     │   ├─> Progress tracking and error handling
     │   └─> Synchronization with ETL changes
-    ├─> data/week_XX_Y/research/*.yaml (persisted research)
+    ├─> data/weeks/XX-L/research/*.yaml (persisted research)
     ├─> website/content/posts/*.md (final blog posts)
     └─> TODO.md (state tracking)
 ```
@@ -178,9 +178,9 @@ The system is designed with **exclusive write zones** to prevent conflicts:
 
 | Directory/File | ETL | Agentic | Purpose |
 |---------------|-----|---------|---------|
-| `data/week_XX_Y/*.yaml` | ✅ Write | ❌ Read-only | Project metadata |
-| `data/week_XX_Y/tracker.yaml` | ❌ Never | ✅ Write | Task state tracking |
-| `data/week_XX_Y/research/` | ❌ Never | ✅ Write | Research persistence |
+| `data/weeks/XX-L/*.yaml` | ✅ Write | ❌ Read-only | Project metadata |
+| `data/weeks/XX-L/tracker.yaml` | ❌ Never | ✅ Write | Task state tracking |
+| `data/weeks/XX-L/research/` | ❌ Never | ✅ Write | Research persistence |
 | `website/content/letters/` | ✅ Write | ❌ Never | Hugo letter pages |
 | `website/content/posts/` | ❌ Never | ✅ Write (Editor only) | Blog posts |
 | `TODO.md` | ❌ Never | ✅ Write (Editor only) | Progress tracking |
@@ -266,12 +266,12 @@ When making changes to the workflows:
 
 ```bash
 # Verify ETL outputs
-ls -d data/week_* | wc -l              # Should be 26 (A-Z)
-python -c "import yaml; yaml.safe_load(open('data/week_00_A/tasks.yaml'))"
+ls -d data/weeks/* | wc -l             # Should be 26 (A-Z)
+python -c "import yaml; yaml.safe_load(open('data/weeks/00-A/tasks.yaml'))"
 
 # Check agentic outputs
 cat TODO.md                             # Progress and iteration history
-ls data/week_00_A/research/             # Research files present?
+ls data/weeks/00-A/research/            # Research files present?
 cat website/content/posts/2026-A.md     # Final post generated?
 
 # Test workflows independently
