@@ -6,6 +6,7 @@ Use this skill in Claude Code, Opencode, or any other coding harness to perform 
 ## Required Inputs
 - Repository root checkout
 - Target week letter (`A`-`Z`) **or** instruction to pick the next incomplete week
+- Week folder format: `<WEEK_ID>` like `00-A`, `01-B`, ..., `25-Z`
 - Internet access for project research
 
 ## Files This Skill Reads
@@ -15,9 +16,9 @@ Use this skill in Claude Code, Opencode, or any other coding harness to perform 
 - Existing research files in `data/weeks/*/research/*.yaml` (if present)
 
 ## Files This Skill Writes
-- `data/weeks/XX-L/research/{sanitized_project_name}.yaml`
-- `website/content/posts/YYYY-L.md`
-- `data/weeks/XX-L/tracker.yaml`
+- `data/weeks/<WEEK_ID>/research/<SANITIZED_PROJECT_NAME>.yaml`
+- `website/content/posts/<YEAR>-<WEEK_LETTER>.md`
+- `data/weeks/<WEEK_ID>/tracker.yaml`
 
 ## Guardrails
 - Do not invent facts; only write verifiable project details.
@@ -34,9 +35,9 @@ Use this skill in Claude Code, Opencode, or any other coding harness to perform 
 
 ### 2) Researcher task: create/update research YAML
 For each project in the selected week that still needs research:
-1. Read metadata from `data/weeks/XX-L/categories/*.yaml`.
+1. Read metadata from `data/weeks/<WEEK_ID>/categories/*.yaml`.
 2. Research using the project homepage, repo, release notes, and reliable sources.
-3. Save one YAML file per project in `data/weeks/XX-L/research/`.
+3. Save one YAML file per project in `data/weeks/<WEEK_ID>/research/`.
 4. Use this schema:
 
 ```yaml
@@ -54,12 +55,12 @@ related_tools:
 
 ### 3) Writer task: generate weekly post
 1. Read all research YAML files for the selected week.
-2. Write `website/content/posts/YYYY-L.md` with frontmatter:
+2. Write `website/content/posts/<YEAR>-<WEEK_LETTER>.md` with frontmatter:
 
 ```yaml
 ---
-title: "Letter L: {count} CNCF Projects Starting with L"
-date: YYYY-MM-DDTHH:MM:SSZ
+title: "Letter <WEEK_LETTER>: <PROJECT_COUNT> CNCF Projects Starting with <WEEK_LETTER>"
+date: <TIMESTAMP_ISO8601_UTC>
 draft: false
 ---
 ```
@@ -68,7 +69,7 @@ draft: false
 4. Keep each project section factual and concise.
 
 ### 4) Tracker updates
-Update `data/weeks/XX-L/tracker.yaml`:
+Update `data/weeks/<WEEK_ID>/tracker.yaml`:
 - Mark researched items as `research: completed`.
 - Mark week `blog_post` as `completed` when the post is saved.
 - If work fails, set status to `failed` with an error message.
