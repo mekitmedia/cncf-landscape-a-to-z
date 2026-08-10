@@ -1,5 +1,18 @@
 from src.logger import get_logger
 
+import yaml
+from pathlib import Path
+from src.config import load_config
+
+def _get_overlay_data() -> dict:
+    config = load_config()
+    overlay_path = config.data_dir / "overlay" / "overlay.yaml"
+    if overlay_path.exists():
+        with open(overlay_path, 'r') as f:
+            return yaml.safe_load(f) or {}
+    return {}
+
+
 logger = get_logger(__name__)
 
 def make_path(c: str, s: str) -> str:
@@ -40,7 +53,7 @@ def _get_featured_priority(item: dict) -> tuple:
     
     return (priority, name)
 
-def _prepare_item_for_output(item: dict, is_featured: bool = False) -> dict:
+def _prepare_item_for_output(item: dict, is_featured: bool = False, overlay_data: dict = None) -> dict:
     """
     This function prepares an item for YAML output, adding featured flag and description.
     """
@@ -61,6 +74,10 @@ def _prepare_item_for_output(item: dict, is_featured: bool = False) -> dict:
         output_item['twitter'] = item.get('twitter')
     if item.get('crunchbase'):
         output_item['crunchbase'] = item.get('crunchbase')
+
+    if overlay_data and item.get('name') in overlay_data:
+        for k, v in overlay_data[item.get('name')].items():
+            output_item[k] = v
     
     return output_item
 
@@ -187,6 +204,7 @@ def get_landscape_by_letter(landscape: list) -> dict:
     """
     logger.info("Indexing landscape data by letter")
     index = {}
+    overlay_data = _get_overlay_data()
 
     # Initialize index for all letters A-Z
     for letter_code in range(ord('A'), ord('Z') + 1):
@@ -227,7 +245,7 @@ def get_landscape_by_letter(landscape: list) -> dict:
                 # Mark top 6 as featured
                 for idx, item in enumerate(sorted_items):
                     is_featured = idx < 6
-                    prepared_item = _prepare_item_for_output(item, is_featured)
+                    prepared_item = _prepare_item_for_output(item, is_featured, overlay_data)
 
                     if path not in index[letter]['partial']:
                         index[letter]['partial'][path] = []
