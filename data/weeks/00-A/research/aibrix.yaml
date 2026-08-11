@@ -1,0 +1,13 @@
+project_name: "AIBrix"
+summary: "An open-source initiative designed to provide essential building blocks to construct scalable GenAI inference infrastructure."
+key_features:
+  - "Cost-efficient and pluggable infrastructure components for GenAI inference"
+  - "Cloud-native solution optimized for deploying, managing, and scaling large language models (LLM)"
+  - "Tailored specifically to enterprise needs, working well with vLLM"
+recent_updates: "Releases up to v0.7.0 with features like DeepSeek-R1 full weights deployment support and gateway stability improvements."
+use_cases: "Deploying and managing scalable GenAI inference workloads via Kubernetes for cost efficiency and scalability."
+interesting_facts: "AIBrix team delivered multiple keynotes at KubeCon globally focusing on LLM-Aware Load Balancing and Kubernetes-native GenAI Infrastructure."
+get_started: "Use the Kubernetes charts provided by the vLLM project (aibrix-dependency and aibrix-core) and standard Kubernetes commands."
+related_tools:
+  - "vLLM"
+  - "Kubernetes"
