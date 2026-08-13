@@ -1,0 +1,15 @@
+project_name: "AIBrix"
+summary: "AIBrix is an open-source initiative and cloud-native solution optimized for deploying, managing, and scaling large language model (LLM) inference, tailored specifically to enterprise needs. It provides essential building blocks to construct scalable GenAI inference infrastructure."
+key_features:
+  - "LLM Gateway and Routing for efficiently managing and directing traffic across multiple models and replicas."
+  - "High-Density LoRA Management for streamlined support of lightweight, low-rank adaptations."
+  - "Distributed Inference architecture to handle large workloads across multiple nodes."
+  - "Cost-efficient Heterogeneous Serving for mixed GPU inference to reduce costs with SLO guarantees."
+recent_updates: "AIBrix was recently featured at the ASPLOS'25 workshop with a presentation on its architecture for efficient LLM inference in system research scenarios."
+use_cases: "AIBrix is well-suited for enterprise-scale AI inference, optimizing cloud-native deployments of LLMs, intelligently routing requests, and managing lightweight LLM adaptations (LoRAs)."
+interesting_facts: "It operates as a cost-efficient toolkit that acts as a bridge to standardizing LLM infrastructure, supporting heterogeneous GPU inference, and integrating tightly with the vLLM project."
+get_started: "Users can get started by exploring the AIBrix documentation at aibrix.readthedocs.io or checking out the GitHub repository under the vllm-project organization."
+related_tools:
+  - "vLLM"
+  - "vLLM Semantic Router"
+  - "Kubernetes"
