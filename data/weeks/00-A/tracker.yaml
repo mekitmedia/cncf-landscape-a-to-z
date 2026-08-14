@@ -934,9 +934,9 @@ items:
     tasks:
       research:
         status: completed
-        started_at: '2026-08-12T00:00:00.000000'
-        completed_at: '2026-08-12T00:00:00.000000'
-        output_file: data/weeks/00-A/research/armada.yaml
+        started_at: '2026-08-12T13:27:22.000000'
+        completed_at: '2026-08-12T13:27:22.000000'
+        output_file: research/armada.yaml
         error_message: null
         retry_count: 0
         agent: researcher
