@@ -933,10 +933,10 @@ items:
   Armada:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-08-12T13:27:22.000000'
+        completed_at: '2026-08-12T13:27:22.000000'
+        output_file: research/armada.yaml
         error_message: null
         retry_count: 0
         agent: researcher
