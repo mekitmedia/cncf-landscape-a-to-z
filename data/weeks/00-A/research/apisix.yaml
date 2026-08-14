@@ -1,0 +1,14 @@
+project_name: "APISIX"
+summary: "Apache APISIX is a dynamic, real-time, high-performance API gateway that provides rich traffic management features such as load balancing, dynamic upstream, canary release, circuit breaking, authentication, and observability."
+key_features:
+  - "Fully dynamic and high performance API gateway"
+  - "Built-in support for multiple protocols (HTTP/HTTPS, TCP, UDP, gRPC, MQTT)"
+  - "Rich plugin ecosystem for authentication, observability, and traffic control"
+  - "Cloud-native and fully integrates with Kubernetes as an Ingress Controller"
+recent_updates: "APISIX has been adding more plugins for AI model routing, deeper integration with OpenTelemetry for observability, and performance improvements."
+use_cases: "Handling massive API traffic, unified API management across microservices, acting as a Kubernetes Ingress Controller."
+interesting_facts: "APISIX is a top-level project at the Apache Software Foundation and is used by major tech companies worldwide to handle billions of requests."
+get_started: "Check out the official website at https://apisix.apache.org/ and the GitHub repository https://github.com/apache/apisix for quickstart guides."
+related_tools:
+  - "Kong"
+  - "Envoy"

@@ -40,12 +40,10 @@ items:
   AIBrix:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
-        error_message: null
-        retry_count: 0
+        status: completed
+        started_at: 2026-08-14T01:41:08.077997
+        completed_at: 2026-08-14T01:41:08.077997
+        output_file: research/aibrix.yaml
         agent: researcher
       content:
         status: pending
@@ -59,12 +57,10 @@ items:
   APIClarity:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
-        error_message: null
-        retry_count: 0
+        status: completed
+        started_at: 2026-08-14T01:41:08.077997
+        completed_at: 2026-08-14T01:41:08.077997
+        output_file: research/apiclarity.yaml
         agent: researcher
       content:
         status: pending
@@ -78,10 +74,10 @@ items:
   APIOAK:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: 2026-08-14T01:41:21.790456
+        completed_at: 2026-08-14T01:41:21.790456
+        output_file: research/apioak.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -97,10 +93,10 @@ items:
   APISIX:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: 2026-08-14T01:41:36.797402
+        completed_at: 2026-08-14T01:41:36.797402
+        output_file: research/apisix.yaml
         error_message: null
         retry_count: 0
         agent: researcher

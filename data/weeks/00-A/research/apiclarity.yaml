@@ -1,0 +1,14 @@
+project_name: "APIClarity"
+summary: "APIClarity, an open source cloud native visibility tool for APIs, helps you identify undocumented APIs, find vulnerabilities, and ensure that your microservices communication is secure."
+key_features:
+  - "Capture all API traffic in your Kubernetes cluster"
+  - "Identify shadow and zombie APIs"
+  - "Detect BOLA (Broken Object Level Authorization) vulnerabilities"
+  - "Generate OpenAPI specifications from observed traffic"
+recent_updates: "Continued improvements in detecting complex API security threats and better integration with various service meshes like Istio."
+use_cases: "Securing microservices architectures, auditing internal API usage, generating accurate OpenAPI specs from runtime traffic."
+interesting_facts: "APIClarity uses a Service Mesh or a traffic capturing agent to observe all API calls without requiring code changes to applications."
+get_started: "Check out the repository at https://github.com/openclarity/apiclarity for Helm charts and installation instructions."
+related_tools:
+  - "KubeClarity"
+  - "Istio"

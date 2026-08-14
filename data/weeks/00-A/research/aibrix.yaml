@@ -1,0 +1,13 @@
+project_name: "AIBrix"
+summary: "AIBrix is a scalable ML inference serving framework designed to deploy, orchestrate, and manage large language model (LLM) and foundation model workloads natively in Kubernetes."
+key_features:
+  - "Kubernetes-native LLM serving orchestration"
+  - "Supports efficient scaling for foundation models"
+  - "Built for high performance and low latency inference"
+recent_updates: "AIBrix continues to evolve under the vLLM project umbrella, enhancing Kubernetes integration for seamless model scaling."
+use_cases: "Deploying and scaling LLMs in cloud-native environments, enterprise AI inference."
+interesting_facts: "It is part of the vLLM project ecosystem, known for high-throughput LLM serving."
+get_started: "Visit the AIBrix GitHub repository (https://github.com/vllm-project/aibrix) or documentation (https://aibrix.github.io/) to find deployment manifests and tutorials."
+related_tools:
+  - "vLLM"
+  - "KServe"
