@@ -1,2 +1,6 @@
 Packer:
   description: "Packer is a tool for creating identical machine images for multiple platforms from a single source configuration."
+Score:
+  twitter: "https://twitter.com/score_dev"
+Tinkerbell:
+  description: "Bare metal provisioning engine, supporting network and ISO booting, BMC interactions, metadata service, and workflow engine."
