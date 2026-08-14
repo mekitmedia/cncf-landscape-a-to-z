@@ -1,17 +1,15 @@
 from src.logger import get_logger
 
 import yaml
+from pathlib import Path
 from src.config import load_config
 
 def _get_overlay_data() -> dict:
     config = load_config()
     overlay_path = config.data_dir / "overlay" / "overlay.yaml"
     if overlay_path.exists():
-        with overlay_path.open(encoding='utf-8') as f:
-            data = yaml.safe_load(f)
-        if not isinstance(data, dict):
-            return {}
-        return data
+        with open(overlay_path, 'r') as f:
+            return yaml.safe_load(f) or {}
     return {}
 
 
@@ -77,12 +75,9 @@ def _prepare_item_for_output(item: dict, is_featured: bool = False, overlay_data
     if item.get('crunchbase'):
         output_item['crunchbase'] = item.get('crunchbase')
 
-    if overlay_data:
-        patch = overlay_data.get(item.get('name'))
-        if isinstance(patch, dict):
-            for k, v in patch.items():
-                if output_item.get(k) is None:
-                    output_item[k] = v
+    if overlay_data and item.get('name') in overlay_data:
+        for k, v in overlay_data[item.get('name')].items():
+            output_item[k] = v
     
     return output_item
 
