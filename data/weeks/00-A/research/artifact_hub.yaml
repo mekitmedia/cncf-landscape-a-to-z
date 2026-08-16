@@ -1,0 +1,17 @@
+project_name: "Artifact Hub"
+summary: "A web-based application that enables finding, installing, and publishing packages and configurations for Cloud Native projects."
+key_features:
+  - "Discover, install and publish packages and configurations."
+  - "Explore content like Helm charts schemas and templates interactively."
+  - "Subscribe to new releases and security alerts notifications via email or webhooks."
+  - "Visualize packages' security reports."
+  - "Inspect packages' changelogs."
+recent_updates: "Actively maintained and developed."
+use_cases: "Centralized discovery and management of cloud-native artifacts like Helm charts, OPA policies, containers images, and more."
+interesting_facts: "It is a CNCF Incubating project designed to provide a single experience for consumers that any CNCF project can leverage."
+get_started: "Visit artifacthub.io to search for packages or publish your own by following the official documentation."
+related_tools:
+  - "Helm"
+  - "Open Policy Agent (OPA)"
+  - "Argo"
+  - "CoreDNS"
