@@ -1,0 +1,21 @@
+project_name: Artifact Hub
+summary: Artifact Hub is a web-based application that enables finding, installing,
+  and publishing packages and configurations for Cloud Native packages.
+key_features:
+- Provides a single centralized experience for consumers to find CNCF artifacts
+- Supports discovering, installing, and publishing various cloud-native packages
+- Interactive exploration of content like Helm chart schemas and templates
+- Subscriptions for new releases and security alert notifications via email or webhooks
+- Visualization of security reports and inspection of package changelogs
+recent_updates: Artifact Hub is actively maintained as a CNCF Incubating project.
+use_cases: Finding, installing and publishing cloud-native packages and configurations,
+  including Helm charts, OPA policies, Falco rules, and more.
+interesting_facts: It supports a wide variety of artifact kinds, such as Argo templates,
+  CoreDNS plugins, Helm charts and plugins, KEDA scalers, Kyverno policies, OpenCost
+  plugins, and Tekton tasks.
+get_started: Users can explore packages directly on artifacthub.io, or run their own
+  instance in a Kubernetes cluster using the provided Helm chart.
+related_tools:
+- Helm
+- Kubernetes
+- Open Policy Agent
