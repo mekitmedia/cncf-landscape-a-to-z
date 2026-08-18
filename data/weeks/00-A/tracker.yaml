@@ -1238,9 +1238,9 @@ items:
     tasks:
       research:
         status: completed
-        started_at: '2026-08-17T01:47:46.884550'
-        completed_at: '2026-08-17T01:47:46.884550'
-        output_file: research/agno.yaml
+        started_at: '2026-08-17T01:47:46.884550+00:00'
+        completed_at: '2026-08-17T01:47:46.884550+00:00'
+        output_file: data/weeks/00-A/research/agno.yaml
         error_message: null
         retry_count: 0
         agent: researcher
