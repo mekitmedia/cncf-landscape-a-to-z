@@ -6,6 +6,8 @@
   project: null
   repo_url: https://github.com/scalar-labs/scalardb
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: A Kubernetes operator for declarative database schema management (gitops
+    for database schemas)
   featured: true
   homepage_url: https://schemahero.io
   logo: schemahero.svg
