@@ -1,0 +1,14 @@
+project_name: "APIClarity"
+summary: "APIClarity is a cloud API observability open-source project that discovers and monitors API traffic to report security weaknesses."
+key_features:
+  - "Discovers and monitors API traffic interacting with modern applications."
+  - "Monitors for shadow and zombie APIs."
+  - "Detects Broken Functional-Level Authorization (BFLA) and Broken Object-Level Authorization (BOLA)."
+  - "Identifies weak authentication and sensitive data leaks."
+recent_updates: "APIClarity continues to be an active project for providing deep insights into API usage within cloud-native environments."
+use_cases: "Cloud-native API security, microservices API observability, and detecting unauthorized or shadow APIs."
+interesting_facts: "APIClarity is an open-source tool heavily contributed to by Cisco to address API security."
+get_started: "Visit the APIClarity GitHub repository to view deployment options for your Kubernetes cluster."
+related_tools:
+  - "Kubernetes"
+  - "Istio"
