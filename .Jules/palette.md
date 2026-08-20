@@ -12,3 +12,7 @@
 ## 2025-05-30 - Standardized Empty States
 **Learning:** Generic unstyled text like "No data available" provides poor UX and lacks visual hierarchy. Creating a consistent, styled empty state pattern using `bg-slate-50`, dashed borders, and a Lucide icon (like `inbox`) significantly improves the visual appeal and provides helpful context when data is missing.
 **Action:** Use this standard Tailwind empty state design pattern (`bg-slate-50 border-2 border-dashed border-slate-200 rounded-2xl p-12 text-center flex flex-col items-center justify-center`) across all pages when handling missing or empty data.
+
+## 2024-08-20 - Adding GitHub Icon
+**Learning:** The default Lucide script configuration in the project might not include all icons by default or there might be an issue dynamically rendering the `github` icon using `<i data-lucide="github"></i>`.
+**Action:** When adding specific icons like GitHub that fail to render via the `data-lucide` attribute, use the inline SVG representation of the Lucide icon instead to guarantee visibility.
