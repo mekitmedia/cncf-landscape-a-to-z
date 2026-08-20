@@ -1,0 +1,14 @@
+project_name: "Agones"
+summary: "Agones is a library for hosting, running and scaling dedicated game servers on Kubernetes."
+key_features:
+  - "Define a single GameServer, and/or large game server Fleets within Kubernetes - either through yaml or via the API"
+  - "Manage GameServer lifecycles - including health checking and connection information"
+  - "Fleet Autoscaling capabilities that integrate with Kubernetes' native cluster autoscaling"
+  - "Gameserver specific metric exports and dashboards for ops teams"
+recent_updates: "Active development and continuous updates via GitHub releases."
+use_cases: "Hosting multiplayer games requiring dedicated servers on Kubernetes."
+interesting_facts: "Agones is derived from the Greek word agōn which roughly translates to 'contest', 'competition at games' and 'gathering'."
+get_started: "Check out the official documentation on the Agones website at agones.dev."
+related_tools:
+  - "Kubernetes"
+  - "Docker"
