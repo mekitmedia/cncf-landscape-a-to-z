@@ -1,8 +1,20 @@
+{{ $navLetter := .Params.letter }}
+{{ $startWeek := 0 }}
+{{ $endWeek := 0 }}
+{{ if .Params.week }}
+    {{ $startWeek = add (mul .Params.week 2) 1 }}
+    {{ $endWeek = add (mul .Params.week 2) 2 }}
+{{ else }}
+    {{ $current := partial "get-current-week.html" . }}
+    {{ $navLetter = $current.letter }}
+    {{ $startWeek = $current.periodStartWeek }}
+    {{ $endWeek = $current.periodEndWeek }}
+{{ end }}
 <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200 py-4">
     <div class="max-w-7xl mx-auto px-6 flex items-center justify-between">
         <a href="/" class="flex items-center gap-2 hover:opacity-80 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none rounded-lg transition-opacity">
             <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
-                <span class="text-white font-bold text-xl">{{ .Params.letter | default "A" }}</span>
+                <span class="text-white font-bold text-xl">{{ $navLetter | default "A" }}</span>
             </div>
             <h1 class="font-bold text-xl tracking-tight">CNCF Landscape <span class="text-blue-600">A-to-Z</span></h1>
         </a>
@@ -13,7 +25,7 @@
             <div class="h-4 w-px bg-slate-300"></div>
             <div class="flex items-center gap-2 text-sm bg-blue-50 text-blue-700 px-3 py-1 rounded-full font-semibold">
                 <i data-lucide="check-circle-2" class="w-4 h-4"></i>
-                <span>Weeks {{ add (mul (.Params.week | default 0) 2) 1 }}-{{ add (mul (.Params.week | default 0) 2) 2 }} of 52</span>
+                <span>Weeks {{ $startWeek }}-{{ $endWeek }} of 52</span>
             </div>
         </div>
     </div>
