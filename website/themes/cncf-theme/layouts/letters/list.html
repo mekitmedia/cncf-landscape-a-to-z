@@ -37,11 +37,11 @@
 
 
             {{ if $weekData }}
-                <div class="flex flex-wrap gap-2 mb-8 filter-group" aria-label="Filter projects by status">
-                    <button class="px-4 py-2 rounded-full text-sm font-medium bg-slate-800 text-white hover:bg-slate-700 transition-colors focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none filter-btn" data-filter="all" aria-pressed="true">All</button>
-                    <button class="px-4 py-2 rounded-full text-sm font-medium bg-slate-200 text-slate-700 hover:bg-slate-300 transition-colors focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none filter-btn" data-filter="graduated" aria-pressed="false">Graduated</button>
-                    <button class="px-4 py-2 rounded-full text-sm font-medium bg-slate-200 text-slate-700 hover:bg-slate-300 transition-colors focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none filter-btn" data-filter="incubating" aria-pressed="false">Incubating</button>
-                    <button class="px-4 py-2 rounded-full text-sm font-medium bg-slate-200 text-slate-700 hover:bg-slate-300 transition-colors focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none filter-btn" data-filter="sandbox" aria-pressed="false">Sandbox</button>
+                <div role="group" class="flex flex-wrap gap-2 mb-8 filter-group" aria-label="Filter projects by status">
+                    <button type="button" class="px-4 py-2 rounded-full text-sm font-medium bg-slate-800 text-white hover:bg-slate-700 transition-colors focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none filter-btn" data-filter="all" aria-pressed="true">All</button>
+                    <button type="button" class="px-4 py-2 rounded-full text-sm font-medium bg-slate-200 text-slate-700 hover:bg-slate-300 transition-colors focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none filter-btn" data-filter="graduated" aria-pressed="false">Graduated</button>
+                    <button type="button" class="px-4 py-2 rounded-full text-sm font-medium bg-slate-200 text-slate-700 hover:bg-slate-300 transition-colors focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none filter-btn" data-filter="incubating" aria-pressed="false">Incubating</button>
+                    <button type="button" class="px-4 py-2 rounded-full text-sm font-medium bg-slate-200 text-slate-700 hover:bg-slate-300 transition-colors focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none filter-btn" data-filter="sandbox" aria-pressed="false">Sandbox</button>
                 </div>
                 {{ range $filename, $items := $categoriesData }}
 
