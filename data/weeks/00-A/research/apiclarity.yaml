@@ -1,0 +1,13 @@
+project_name: "APIClarity"
+summary: "APIClarity is a cloud API observability open-source project that provides functionality to discover and monitor any API traffic that interacts with modern applications."
+key_features:
+  - "Discover and monitor API traffic."
+  - "Reconstruct OpenAPI specifications."
+  - "Detect shadow and zombie APIs."
+  - "Identify API security weaknesses and possible abuses (e.g., BFLA, BOLA)."
+recent_updates: "Maintained by the openclarity organization on GitHub."
+use_cases: "Monitoring microservices and modern applications for API security risks, understanding actual vs. documented API behavior."
+interesting_facts: "It can reconstruct OpenAPI specs directly from observing API traffic."
+get_started: "Check out the GitHub repository at https://github.com/openclarity/apiclarity or the homepage at https://openclarity.io/."
+related_tools:
+  - "Aserto"
