@@ -16,3 +16,9 @@
 ## 2024-08-20 - Adding GitHub Icon
 **Learning:** The default Lucide script configuration in the project might not include all icons by default or there might be an issue dynamically rendering the `github` icon using `<i data-lucide="github"></i>`.
 **Action:** When adding specific icons like GitHub that fail to render via the `data-lucide` attribute, use the inline SVG representation of the Lucide icon instead to guarantee visibility.
+## 2025-03-05 - Hugo Google Analytics
+**Learning:** Google Analytics snippet needs to be manually added to the <head> block in Hugo layouts using . It is not injected automatically by default. Also, Hugo configuration format changed from using `googleAnalyticsID` under `[params]` to `[services.googleAnalytics] id = '...' `.
+**Action:** Always inject the google analytics partial manually to `baseof.html` or `head.html` and format the `hugo.toml` according to the `[services.googleAnalytics]` spec.
+## 2025-03-05 - Hugo Google Analytics
+**Learning:** Google Analytics snippet needs to be manually added to the <head> block in Hugo layouts using `{{ template "_internal/google_analytics.html" . }}`. It is not injected automatically by default. Also, Hugo configuration format changed from using `googleAnalyticsID` under `[params]` to `[services.googleAnalytics] id = '...'`.
+**Action:** Always inject the google analytics partial manually to `baseof.html` or `head.html` and format the `hugo.toml` according to the `[services.googleAnalytics]` spec.
