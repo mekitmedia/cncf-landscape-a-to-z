@@ -1,0 +1,14 @@
+project_name: "Aserto"
+summary: "Fine-grained, policy-based, real-time authorization for APIs and microservices. Aserto is the maintainer of the Topaz and Open Policy Containers OSS projects."
+key_features:
+  - "Fine-grained, policy-based authorization"
+  - "Real-time access control"
+  - "Developer-centric APIs and SDKs"
+  - "Built on open-source standards like OPA (Open Policy Agent)"
+recent_updates: "Aserto continues to develop Topaz, its open-source authorization engine based on OPA."
+use_cases: "Adding fine-grained access control to applications, managing user permissions and roles across microservices."
+interesting_facts: "Aserto created Topaz, bringing the power of OPA to application authorization with built-in directory services."
+get_started: "Visit https://www.aserto.com/ or https://github.com/aserto-dev/runtime to view documentation and run the open-source engines."
+related_tools:
+  - "Open Policy Agent (OPA)"
+  - "Topaz"
