@@ -185,7 +185,6 @@
     - Kanister
     - LINSTOR
     - Longhorn
-    - MinIO
     - MooseFS
     - NoKV
     - OpenEBS
@@ -557,7 +556,7 @@
     - Quarkus
     - Radius
     - Score
-    - Serverless Workflow
+    - Open Workflow Specification
     - ServiceComb
     - Shipwright
     - Skaffold
@@ -765,6 +764,7 @@
     subcategory: Continuous Optimization
   - items:
     - Anteon
+    - argonaut
     - Beats
     - Botkube
     - Centreon

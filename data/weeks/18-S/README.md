@@ -1,6 +1,6 @@
 # Summary for 18-S
 
-This week has a total of 85 items.
+This week has a total of 84 items.
 
 
 - **Provisioning Automation Configuration**: 3 items
@@ -29,7 +29,7 @@ This week has a total of 85 items.
 
 - **App Definition And Development Streaming Messaging**: 3 items
 
-- **App Definition And Development Application Definition Image Build**: 7 items
+- **App Definition And Development Application Definition Image Build**: 6 items
 
 - **App Definition And Development Continuous Integration Delivery**: 2 items
 

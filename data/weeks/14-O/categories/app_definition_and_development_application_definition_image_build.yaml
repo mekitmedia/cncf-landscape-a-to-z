@@ -36,8 +36,18 @@
   name: Open Service Broker API
   project: null
   repo_url: https://github.com/openservicebrokerapi/servicebroker
-- crunchbase: https://www.crunchbase.com/organization/the-open-api-initiative
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Standards-based DSL and open-source dev tools and runtimes are at the
+    heart of the Serverless Workflow project
   featured: true
+  homepage_url: https://open-workflow-specification.org
+  logo: sws_logo.svg
+  name: Open Workflow Specification
+  project: sandbox
+  repo_url: https://github.com/open-workflow-specification/specification
+  twitter: https://twitter.com/CNCFWorkflow
+- crunchbase: https://www.crunchbase.com/organization/the-open-api-initiative
+  featured: false
   homepage_url: https://www.openapis.org/
   logo: openapi.svg
   name: OpenAPI

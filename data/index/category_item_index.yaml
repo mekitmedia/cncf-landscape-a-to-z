@@ -157,7 +157,7 @@ App Definition and Development:
   - Quarkus
   - Radius
   - Score
-  - Serverless Workflow
+  - Open Workflow Specification
   - ServiceComb
   - Shipwright
   - Skaffold
@@ -377,6 +377,7 @@ Observability and Analysis:
   - Unleash
   Observability:
   - Anteon
+  - argonaut
   - Beats
   - Botkube
   - Centreon
@@ -849,7 +850,6 @@ Runtime:
   - Kanister
   - LINSTOR
   - Longhorn
-  - MinIO
   - MooseFS
   - NoKV
   - OpenEBS
