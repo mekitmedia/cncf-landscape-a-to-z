@@ -2,18 +2,18 @@ items:
   XGBoost:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-08-24T01:39:05.091373+00:00'
+        completed_at: '2026-08-24T01:39:05.091373+00:00'
+        output_file: 'data/weeks/23-X/research/xgboost.yaml'
         error_message: null
         retry_count: 0
         agent: researcher
       content:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-08-24T01:39:05.091373+00:00'
+        completed_at: '2026-08-24T01:39:05.091373+00:00'
+        output_file: 'website/content/posts/2026-X.md'
         error_message: null
         retry_count: 0
         agent: writer
@@ -21,18 +21,18 @@ items:
   XTDB:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-08-24T01:39:05.091373+00:00'
+        completed_at: '2026-08-24T01:39:05.091373+00:00'
+        output_file: 'data/weeks/23-X/research/xtdb.yaml'
         error_message: null
         retry_count: 0
         agent: researcher
       content:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-08-24T01:39:05.091373+00:00'
+        completed_at: '2026-08-24T01:39:05.091373+00:00'
+        output_file: 'website/content/posts/2026-X.md'
         error_message: null
         retry_count: 0
         agent: writer
@@ -40,10 +40,10 @@ items:
 week_tasks:
   tasks:
     blog_post:
-      status: pending
-      started_at: null
-      completed_at: null
-      output_file: null
+      status: completed
+      started_at: '2026-08-24T01:39:05.091373+00:00'
+      completed_at: '2026-08-24T01:39:05.091373+00:00'
+      output_file: 'website/content/posts/2026-X.md'
       error_message: null
       retry_count: 0
       agent: writer

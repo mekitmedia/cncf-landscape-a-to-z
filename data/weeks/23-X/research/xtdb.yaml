@@ -1,0 +1,15 @@
+project_name: "XTDB"
+summary: "An open source, bitemporal database that provides universal history tracking with a complete audit trail."
+key_features:
+  - "Immutable object storage with Log-Structured Merge (LSM) Tree design"
+  - "Postgres-compatible SERIALIZABLE SQL transactions"
+  - "Fine-grained interval versioning with Apache Arrow"
+  - "Native Debezium ingestion for Change Data Integration"
+recent_updates: "Available through cloud marketplaces (AWS, Google Cloud, Azure)."
+use_cases: "Auditable reporting for Change Data Integration, Virtual Power Plant orchestration, and KYC compliance."
+interesting_facts: "Built by JUXT, XTDB provides a robust foundation for auditable reporting by letting you query past states via its bitemporal design."
+get_started: "Run 'docker run -p 5432:5432 ghcr.io/xtdb/xtdb' to start the database."
+related_tools:
+  - "PostgreSQL"
+  - "Apache Arrow"
+  - "Debezium"

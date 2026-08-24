@@ -1,0 +1,14 @@
+project_name: "XGBoost"
+summary: "An optimized distributed gradient boosting library for machine learning."
+key_features:
+  - "Parallel tree boosting (GBDT, GBM)"
+  - "Distributed environment support (Hadoop, SGE, MPI)"
+  - "Supports billions of examples"
+  - "Provides Python, R, JVM, Ruby, Swift, Julia, C, and C++ interfaces"
+recent_updates: "Version 3.4.1 Patch Release (Aug 14, 2026)"
+use_cases: "Solving data science problems in a fast and accurate way using Gradient Boosting."
+interesting_facts: "Provides highly efficient, flexible, and portable machine learning algorithms under the Gradient Boosting framework."
+get_started: "Run 'pip install xgboost' or refer to the Installation Guide on xgboost.readthedocs.io"
+related_tools:
+  - "LightGBM"
+  - "CatBoost"
