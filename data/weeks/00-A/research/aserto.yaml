@@ -1,0 +1,17 @@
+project_name: "Aserto"
+summary: "Aserto provides fine-grained, policy-based, real-time authorization for APIs and microservices. It is the maintainer of the Topaz open-source authorizer."
+key_features:
+  - "Resource-level access controls for any application"
+  - "~1ms authorizations"
+  - "Support for RBAC, ABAC, or ReBAC"
+  - "Complete set of SDKs for easy integration"
+  - "Central control plane for managing users, policies, and authorization data"
+  - "Based on the Topaz open-source authorizer and Open Policy Agent (OPA)"
+recent_updates: "Aserto recently announced its final chapter with the transition of focus to the Topaz open-source authorizer."
+use_cases: "Adding real-time, fine-grained authorization to APIs and microservices without building undifferentiated plumbing."
+interesting_facts: "Aserto's foundation includes Topaz, Open Policy Agent, and a Google Zanzibar inspired directory."
+get_started: "Developers can integrate Aserto using its SDKs (Node, Go, Python, Java, .NET, Ruby) and quickstarts, or deploy the Topaz open-source authorizer locally."
+related_tools:
+  - "Topaz"
+  - "Open Policy Agent (OPA)"
+  - "Google Zanzibar"
