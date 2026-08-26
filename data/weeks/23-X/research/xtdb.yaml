@@ -1,0 +1,15 @@
+project_name: "XTDB"
+summary: "An immutable, bitemporal SQL database that automatically retains a granular history of all changes, reducing the complexity of building safe systems of record."
+key_features:
+  - "Immutable and bitemporal data model."
+  - "PostgreSQL-ecosystem compatibility and standard SQL support."
+  - "Federated database architecture via secondary databases."
+  - "Automatic retention of complete historical data without custom audit tables."
+recent_updates: "Version 2.1 introduced 'Multi-DB', enabling secondary databases for federated querying across instances using Kafka consumer groups."
+use_cases: "Financial systems, audit trails, and any system of record requiring strict historical accuracy and tracking over time."
+interesting_facts: "XTDB is built to support a 'data mesh' architecture by decoupling databases (storage) and clusters (compute), allowing domain-oriented databases."
+get_started: "Run XTDB locally via Docker and explore the interactive SQL Quickstart on their documentation page."
+related_tools:
+  - "PostgreSQL"
+  - "Datomic"
+  - "Kafka"

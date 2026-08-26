@@ -1,0 +1,15 @@
+project_name: "XGBoost"
+summary: "An optimized distributed gradient boosting library designed to be highly efficient, flexible, and portable."
+key_features:
+  - "Distributed and fast training across CPU and GPU."
+  - "Expectile regression support for risk-sensitive forecasting."
+  - "Categorical feature support enabled by default."
+  - "Memory-efficient GPU quantile sketching."
+recent_updates: "Version 3.3.0 introduced expectile regression, made categorical feature support default, and expanded SHAP support, alongside performance/scalability improvements."
+use_cases: "Risk-sensitive forecasting, uncertainty-aware modeling, and general machine learning tasks requiring high scalability and efficiency."
+interesting_facts: "XGBoost no longer requires all-to-all collective connections for distributed training, improving customizability and robustness."
+get_started: "Visit the XGBoost documentation and install via standard package managers to start training models."
+related_tools:
+  - "LightGBM"
+  - "CatBoost"
+  - "Scikit-Learn"
