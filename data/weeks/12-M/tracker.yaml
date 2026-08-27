@@ -511,7 +511,7 @@ items:
         error_message: null
         retry_count: 0
         agent: writer
-    removed: false
+    removed: true
   Mist.io:
     tasks:
       research:
@@ -829,5 +829,5 @@ week_tasks:
 metadata:
   created_at: '2026-02-01T19:37:47.530423'
   week_letter: M
-  last_synced: '2026-08-08T15:46:35.857736'
-  etl_item_count: 42
+  last_synced: '2026-08-24T00:38:49.330902'
+  etl_item_count: 41

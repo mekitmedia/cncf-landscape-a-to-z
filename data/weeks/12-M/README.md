@@ -1,13 +1,13 @@
 # Summary for 12-M
 
-This week has a total of 42 items.
+This week has a total of 41 items.
 
 
 - **Provisioning Automation Configuration**: 4 items
 
 - **Provisioning Security Compliance**: 2 items
 
-- **Runtime Cloud Native Storage**: 2 items
+- **Runtime Cloud Native Storage**: 1 items
 
 - **Runtime Cloud Native Network**: 1 items
 

@@ -7,16 +7,6 @@
   project: sandbox
   repo_url: https://github.com/score-spec/spec
   twitter: https://twitter.com/score_dev
-- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  description: Standards-based DSL and open-source dev tools and runtimes are at the
-    heart of the Serverless Workflow project
-  featured: true
-  homepage_url: https://serverlessworkflow.io
-  logo: sws_logo.svg
-  name: Serverless Workflow
-  project: sandbox
-  repo_url: https://github.com/serverlessworkflow/specification
-  twitter: https://twitter.com/CNCFWorkflow
 - crunchbase: https://www.crunchbase.com/organization/apache
   featured: true
   homepage_url: https://servicecomb.apache.org
@@ -51,7 +41,7 @@
   repo_url: https://github.com/solo-io/squash
 - description: Stacker is a tool for building OCI images and related artifacts such
     as SBOMs natively via a declarative yaml format.
-  featured: false
+  featured: true
   homepage_url: https://stackerbuild.io
   logo: stacker.svg
   name: Stacker
