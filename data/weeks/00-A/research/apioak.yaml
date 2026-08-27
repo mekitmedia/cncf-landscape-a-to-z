@@ -1,0 +1,14 @@
+project_name: "APIOAK"
+summary: "APIOAK is a distributed API gateway based on OpenResty. It provides full lifecycle management of APIs including dynamic routing, load balancing, authentication, rate limiting, and analytics."
+key_features:
+  - "Distributed architecture based on OpenResty"
+  - "Full API lifecycle management"
+  - "Dynamic routing and load balancing"
+  - "Plugin system for extensibility (authentication, rate limiting, etc.)"
+recent_updates: "Maintained by the open-source community as a lightweight alternative for API management."
+use_cases: "Ideal for microservices architectures requiring a robust and performant API gateway."
+interesting_facts: "APIOAK leverages the high performance of Nginx and Lua through OpenResty."
+get_started: "Visit the GitHub repository at https://github.com/apioak/apioak to clone the project and follow the installation guide."
+related_tools:
+  - "Kong"
+  - "APISIX"
