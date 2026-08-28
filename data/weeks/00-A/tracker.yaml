@@ -135,10 +135,10 @@ items:
   Aeraki Mesh:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-08-28T01:50:22.317665+00:00'
+        completed_at: '2026-08-28T01:50:22.317665+00:00'
+        output_file: research/aeraki_mesh.yaml
         error_message: null
         retry_count: 0
         agent: researcher
