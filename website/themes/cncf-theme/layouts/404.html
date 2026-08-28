@@ -1,0 +1,80 @@
+{{ define "main" }}
+<div class="min-h-screen bg-slate-50 font-sans text-slate-900 flex flex-col">
+    <!-- Navigation Header -->
+    {{ partial "nav.html" . }}
+
+    <main id="main-content" tabindex="-1" class="flex-grow flex items-center justify-center px-4 sm:px-6 lg:px-8 py-16">
+        <div class="max-w-2xl w-full bg-white p-8 md:p-12 rounded-[2.5rem] border border-slate-200 shadow-2xl shadow-slate-200/50 relative overflow-hidden">
+            <!-- Decorative Background Element -->
+            <div class="absolute top-0 right-0 -mt-8 -mr-8 w-48 h-48 bg-blue-50 rounded-full blur-3xl opacity-50"></div>
+
+            <div class="relative z-10 text-center">
+                <div class="w-20 h-20 bg-gradient-to-br from-blue-500 to-indigo-600 text-white rounded-3xl flex items-center justify-center mx-auto mb-8 shadow-lg shadow-blue-200 rotate-3 hover:rotate-0 transition-transform duration-300">
+                    <i data-lucide="microscope" class="w-10 h-10"></i>
+                </div>
+
+                <h1 class="text-4xl md:text-5xl font-black mb-4 tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-slate-900 to-slate-600">
+                    Research in Progress
+                </h1>
+
+                <p class="text-lg text-slate-600 mb-8 leading-relaxed max-w-lg mx-auto">
+                    The tool page you're looking for hasn't been generated yet. This means our agentic workflow hasn't completed the research and writing for this project, or you're visiting a letter we haven't reached.
+                </p>
+
+                <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6 text-left mb-8">
+                    <h2 class="text-lg font-bold text-slate-800 mb-3 flex items-center gap-2">
+                        <i data-lucide="bot" class="w-5 h-5 text-blue-500"></i> How it works
+                    </h2>
+                    <ul class="space-y-3 text-sm text-slate-600">
+                        <li class="flex gap-3">
+                            <i data-lucide="search" class="w-4 h-4 text-slate-400 mt-1 flex-shrink-0"></i>
+                            <span>Our researcher agent gathers data from the CNCF landscape, GitHub, and project websites.</span>
+                        </li>
+                        <li class="flex gap-3">
+                            <i data-lucide="pen-tool" class="w-4 h-4 text-slate-400 mt-1 flex-shrink-0"></i>
+                            <span>A writer agent crafts a comprehensive summary, key features, and use cases.</span>
+                        </li>
+                        <li class="flex gap-3">
+                            <i data-lucide="file-code-2" class="w-4 h-4 text-slate-400 mt-1 flex-shrink-0"></i>
+                            <span>The content is reviewed and compiled into the page you're trying to view.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="flex flex-col sm:flex-row justify-center gap-4 pt-6 border-t border-slate-100">
+                    <a href="/" class="group flex items-center justify-center gap-2 bg-slate-900 text-white px-8 py-4 rounded-2xl font-bold hover:bg-blue-600 transition-all duration-300 shadow-xl shadow-slate-200 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none">
+                        <i data-lucide="arrow-left" class="w-5 h-5 group-hover:-translate-x-1 transition-transform"></i>
+                        Return Home
+                    </a>
+                    <a href="https://github.com/mekitmedia/cncf-landscape-a-to-z" target="_blank" rel="noopener noreferrer" aria-label="Contribute on GitHub (opens in a new tab)" class="flex items-center justify-center gap-2 bg-white text-slate-600 border border-slate-200 px-8 py-4 rounded-2xl font-bold hover:bg-slate-50 transition-all duration-300 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none">
+                        <i data-lucide="github" class="w-5 h-5"></i>
+                        Help Contribute
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+    lucide.createIcons();
+
+    // Extract tool name from path if possible
+    document.addEventListener('DOMContentLoaded', () => {
+        const path = window.location.pathname;
+        const match = path.match(/\/tools\/([^\/]+)\/?/);
+        if (match && match[1]) {
+            const toolName = match[1].split('_').map(word =>
+                word.charAt(0).toUpperCase() + word.slice(1)
+            ).join(' ');
+
+            // Optionally update heading to include tool name
+            const heading = document.querySelector('h1');
+            if (heading) {
+                heading.innerHTML = `<span class="block text-2xl text-blue-600 mb-2 font-bold">${toolName}</span> Research in Progress`;
+            }
+        }
+    });
+</script>
+{{ end }}
