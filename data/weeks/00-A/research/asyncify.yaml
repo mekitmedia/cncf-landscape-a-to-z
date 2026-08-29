@@ -1,0 +1,15 @@
+project_name: "Asyncify"
+summary: "A JavaScript wrapper intended to be used with the Asyncify feature of Binaryen. Together, they allow the use of asynchronous APIs (such as most Web APIs) from within WebAssembly written and compiled from any source language."
+key_features:
+  - "JavaScript wrapper for Binaryen's Asyncify feature."
+  - "Enables using asynchronous APIs (like most Web APIs) within WebAssembly."
+  - "Supports drop-in replacement APIs for the regular WebAssembly interface with added async support."
+  - "Wraps WebAssembly exports into async functions."
+recent_updates: "The repository was archived by the owner on Jul 8, 2024. It is now read-only."
+use_cases: "Bridging asynchronous JavaScript and Web APIs with synchronous WebAssembly code, particularly when porting existing native C/C++ or Rust applications that make synchronous network requests or blocking operations to the web."
+interesting_facts: "Asyncify operates by transforming WebAssembly code post-compilation using `wasm-opt` from the Binaryen toolchain, enabling it to pause and resume execution."
+get_started: "Compile your code to WebAssembly, post-process it using `wasm-opt --asyncify`, and instantiate it in JavaScript using `Asyncify.instantiateStreaming` from `https://unpkg.com/asyncify-wasm?module`."
+related_tools:
+  - "Binaryen"
+  - "WebAssembly"
+  - "wasm-opt"
