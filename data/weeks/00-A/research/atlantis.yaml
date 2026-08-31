@@ -1,0 +1,18 @@
+project_name: Atlantis
+summary: Terraform Pull Request Automation for Teams.
+key_features:
+- 'Fewer Mistakes: Catch errors in Terraform plan output before applying changes.'
+- 'Empower Developers: Developers can safely submit Terraform pull requests without
+  credentials.'
+- 'Instant Audit Logs: Detailed logs for infrastructure changes, approvals, and user
+  actions.'
+- 'Self-Hosted: Deployable on VMs, Kubernetes, Fargate, etc. Supports GitHub, GitLab,
+  Bitbucket, Azure DevOps.'
+recent_updates: Actively maintained open-source project powered by volunteer contributions.
+use_cases: Running Terraform workflows directly from pull requests.
+interesting_facts: Used by top companies to manage over 600 repos with 300 developers.
+  In production since 2017.
+get_started: Check out the guide at https://www.runatlantis.io/guide
+related_tools:
+- Terraform
+- Kubernetes
