@@ -78,3 +78,8 @@ jobs:
           LOGFIRE_TOKEN: "dummy"
         run: |
           uv run pytest tests/test_flow_mock.py
+
+      - name: Validate contract on diffed files
+        run: |
+          git fetch origin main:origin/main || true
+          uv run python scripts/validate_contract.py --git-diff origin/main
