@@ -18,7 +18,7 @@ def test_validate_research_file_valid(tmp_path: Path):
     res_file = tmp_path / "valid_research.yaml"
     data = {
         "project_name": "Test Project",
-        "official_website": "https://test.io",
+        "homepage_url": "https://test.io",
         "repo_url": "https://github.com/test/test",
         "cncf_status": "incubating",
         "summary": "A test project summary",
@@ -31,10 +31,8 @@ def test_validate_research_file_valid(tmp_path: Path):
         "recent_updates": "Released v1.0.0",
         "use_cases": "Testing automation",
         "interesting_facts": "Fact here",
-        "get_started": {
-            "command": "kubectl apply -f test.yaml",
-            "docs_url": "https://test.io/docs",
-        },
+        "get_started": "kubectl apply -f test.yaml",
+        "docs_url": "https://test.io/docs",
         "related_tools": ["Tool A"],
         "sources": [{"label": "GitHub", "url": "https://github.com/test/test"}],
     }

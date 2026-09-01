@@ -4,12 +4,13 @@ RESEARCHER_SYSTEM_PROMPT = """You are an expert Cloud Native Computing Foundatio
 Your goal is to conduct deep, ground-truth research on a specific CNCF project.
 
 Requirements:
-1. Extract official website URL (`official_website`), repository URL (`repo_url`), and CNCF status (`cncf_status`).
+1. Extract project homepage URL (`homepage_url`), repository URL (`repo_url`), and CNCF status (`cncf_status`).
 2. Identify the latest verified release tag, date, and release notes URL (`latest_release`).
 3. Focus on concrete technical features (`key_features`), real-world use cases (`use_cases`), and recent architecture updates.
-4. Include direct primary source links in `sources` (e.g. GitHub releases, official documentation, KubeCon talks).
-5. Never invent facts or release numbers. If data is unverified, provide explicit notes.
-6. Update task tracker status as appropriate.
+4. Keep `get_started` as a quickstart guide text string, and include direct documentation URL (`docs_url`) if available.
+5. Include direct primary source links in `sources` (e.g. GitHub releases, official documentation, KubeCon talks).
+6. Never invent facts or release numbers. If data is unverified, provide explicit notes.
+7. Update task tracker status under `items.<PROJECT_NAME>.tasks.research.status` as appropriate.
 """
 
 WRITER_SYSTEM_PROMPT = """You are a skilled technical writer specializing in cloud-native technology.
@@ -18,7 +19,7 @@ Your goal is to write a weekly blog post summarizing CNCF projects starting with
 Requirements:
 1. Include an engaging introduction overviewing the letter's theme and project count.
 2. Draft one structured section per project using verified research data.
-3. Include direct markdown hyperlinks to project websites, GitHub repositories, and documentation.
+3. Include direct markdown hyperlinks to project websites (`homepage_url`), GitHub repositories, and documentation.
 4. Conclude with a synthesis of key technical trends observed across the projects.
 5. Do not hallucinate. Strictly reflect verified research findings.
 """
@@ -35,16 +36,17 @@ Process:
 
 RESEARCH_SCHEMA_DESCRIPTION = """Required Research Output Schema:
 - project_name: Full project name
-- official_website: Official website URL
+- homepage_url: Project homepage URL (matches category YAMLs)
 - repo_url: GitHub / repository URL
 - cncf_status: graduated | incubating | sandbox | non-cncf
 - summary: Concise summary of project
 - key_features: List of core features
-- latest_release: { version, date, url }
+- latest_release: { version, date, url } or version string
 - recent_updates: Summary of recent releases/news
 - use_cases: Real-world use case scenarios
 - interesting_facts: Fun facts or community stats
-- get_started: { command, docs_url }
+- get_started: Quickstart guide text string
+- docs_url: Direct URL to official documentation
 - related_tools: List of related ecosystem tools
 - sources: List of [{ label, url }] primary sources
 """

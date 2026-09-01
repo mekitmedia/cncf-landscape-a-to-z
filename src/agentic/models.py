@@ -22,7 +22,8 @@ class GetStartedDetails(BaseModel):
 
 class ResearchOutput(BaseModel):
     project_name: str
-    official_website: Optional[str] = Field(None, description="Official project website URL")
+    homepage_url: Optional[str] = Field(None, description="Official project homepage URL")
+    official_website: Optional[str] = Field(None, description="Alias for homepage_url")
     repo_url: Optional[str] = Field(None, description="GitHub or primary source repository URL")
     cncf_status: Optional[str] = Field(None, description="CNCF status: graduated, incubating, sandbox, or non-cncf")
     summary: str = Field(..., description="A concise summary of the project")
@@ -31,7 +32,8 @@ class ResearchOutput(BaseModel):
     recent_updates: str = Field(..., description="Recent updates or news about the project")
     use_cases: str = Field(..., description="Common use cases")
     interesting_facts: Optional[str] = Field(None, description="Any interesting facts found")
-    get_started: Optional[Union[GetStartedDetails, Dict[str, str], str]] = Field(None, description="Getting started guide, dict, or command")
+    get_started: Optional[str] = Field(None, description="Getting started guide text or quick start command string")
+    docs_url: Optional[str] = Field(None, description="Direct URL to official documentation")
     related_tools: Optional[List[str]] = Field(default_factory=list, description="List of related tools or projects")
     sources: Optional[List[SourceLink]] = Field(default_factory=list, description="Ground truth primary source links")
 

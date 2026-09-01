@@ -38,10 +38,10 @@ The authoritative system prompts shared with Pydantic AI agents are defined in `
 ## Guardrails
 - **Batching & Scope Limit**: Do NOT attempt to research all pending projects in a week at once if there are many. Process pending items in batches of `BATCH_SIZE` (default: 5 projects). Save research YAMLs and update `tracker.yaml` after each batch.
 - **Subagent Delegation**: Delegate deep project investigation to dedicated `research` subagents whenever subagents are supported by the harness. This isolates research context and enables deep, focused lookups.
-- **Ground Truth & Direct Links**: Do not invent facts or write generic summaries. Every research file MUST include verifiable release versions, exact dates, and direct URLs (`official_website`, `repo_url`, `latest_release.url`, `get_started.docs_url`, and `sources`).
+- **Ground Truth & Direct Links**: Do not invent facts or write generic summaries. Every research file MUST include verifiable release versions, exact dates, and direct URLs (`homepage_url`, `repo_url`, `latest_release.url`, `docs_url`, and `sources`).
 - **Contract Validation**: Run `uv run python scripts/validate_contract.py` before committing. Pre-commit hooks (`.pre-commit-config.yaml`) will automatically validate modified files on git commit.
 - **Path Isolation**: Keep writes strictly inside the paths listed above.
-- **Tracker Integrity**: Preserve existing tracker structure; only update status fields relevant to the current batch run.
+- **Tracker Integrity**: Preserve existing tracker structure; only update `items.<PROJECT_NAME>.tasks.research.status` and `items.<PROJECT_NAME>.tasks.content.status` fields relevant to the current batch run.
 - **Placeholders Over Hallucinations**: If specific details (e.g. latest release tag) cannot be verified, provide explicit placeholders or notes rather than inventing version numbers.
 
 ## Workflow
@@ -49,7 +49,7 @@ The authoritative system prompts shared with Pydantic AI agents are defined in `
 ### 1) Editor task: choose week and select batch
 1. Read all week trackers in `data/weeks/*/tracker.yaml`.
 2. Select the first incomplete week in alphabetical order.
-3. Identify all projects in that week where `research.status == pending` and `removed == false`.
+3. Identify all projects in that week where `items.<PROJECT_NAME>.tasks.research.status == pending` and `removed == false`.
 4. Select the next batch of `BATCH_SIZE` (default: 5) pending projects to research in this run.
 5. If all weeks/projects are complete, stop.
 
@@ -57,14 +57,14 @@ The authoritative system prompts shared with Pydantic AI agents are defined in `
 For each project in the selected batch:
 1. Read metadata from `data/weeks/<WEEK_ID>/categories/*.yaml`.
 2. **Invoke a `research` subagent** (or run targeted searches) specifically for the project matching `RESEARCHER_SYSTEM_PROMPT`.
-   - Inspect the official homepage, GitHub repository, release notes, and documentation.
+   - Inspect the official homepage (`homepage_url`), GitHub repository (`repo_url`), release notes, and documentation (`docs_url`).
    - Extract exact version numbers, release dates, core architectural features, and primary source URLs.
 3. Save one schema-compliant YAML file per project in `data/weeks/<WEEK_ID>/research/<SANITIZED_PROJECT_NAME>.yaml`.
 4. Use this enhanced schema:
 
 ```yaml
 project_name: ""
-official_website: ""
+homepage_url: ""
 repo_url: ""
 cncf_status: "graduated | incubating | sandbox | non-cncf"
 summary: ""
@@ -77,9 +77,8 @@ latest_release:
 recent_updates: ""
 use_cases: ""
 interesting_facts: ""
-get_started:
-  command: ""
-  docs_url: ""
+get_started: ""
+docs_url: ""
 related_tools:
   - ""
 sources:
@@ -106,7 +105,7 @@ Set `<YEAR>` from the run input if provided; otherwise use the repository's acti
 ### 4) Tracker updates & Contract Validation
 After completing each batch:
 1. Update `data/weeks/<WEEK_ID>/tracker.yaml`:
-   - Mark completed items as `research: completed` and `content: completed` (or in-progress if post is partial).
+   - Mark completed item tasks as `items.<PROJECT_NAME>.tasks.research.status: completed` and `items.<PROJECT_NAME>.tasks.content.status: completed` (or in_progress if post is partial).
    - Update `output_file` paths and completion timestamps.
    - Mark `week_tasks.tasks.blog_post` as `completed` once all projects for the week are finished and the final post is saved.
 2. Run contract validation:
@@ -120,11 +119,11 @@ After completing each batch:
 ```text
 Use the cncf-weekly-content skill from .agents/skills.
 - Pick the next incomplete week from data/weeks/*/tracker.yaml.
-- Select a batch of 5 pending projects to process.
-- Delegate deep research for each project to `research` subagents to gather ground truth, repository links, exact release tags, and documentation URLs.
+- Select a batch of 5 pending projects to process (items.<PROJECT_NAME>.tasks.research.status == pending).
+- Delegate deep research for each project to `research` subagents to gather ground truth, homepage_url, repo_url, release tags, and docs_url.
 - Save research YAML files following the enhanced schema in data/weeks/<WEEK_ID>/research/.
 - Update website/content/posts/<YEAR>-<WEEK_LETTER>.md with new project sections.
-- Update data/weeks/<WEEK_ID>/tracker.yaml after each batch.
+- Update items.<PROJECT_NAME>.tasks in data/weeks/<WEEK_ID>/tracker.yaml after each batch.
 - Run `uv run python scripts/validate_contract.py --week <WEEK_ID>` to verify contract compliance.
 - Return a summary of completed projects in this batch, ground truth sources found, and remaining pending items.
 ```
