@@ -49,6 +49,10 @@ tools:
 test:
     PYTHONPATH=. uv run pytest tests/
 
+# Validate content contract against Pydantic models (e.g. just validate week=00-A)
+validate week="" ref="":
+    @uv run python scripts/validate_contract.py {{ if week != "" { "--week " + week } else if ref != "" { "--git-diff " + ref } else { "--git-diff origin/main" } }}
+
 # Run e2e tests (headless)
 e2e:
     npx playwright test
