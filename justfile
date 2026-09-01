@@ -4,7 +4,7 @@ set dotenv-load := true
 set export
 
 # Global env vars
-GEMINI_MODEL := env_var_or_default("GEMINI_MODEL", "gateway/google-vertex:gemini-2.0-flash")
+GEMINI_MODEL := env_var_or_default("GEMINI_MODEL", "gemini-2.5-flash")
 
 # Show available recipes
 help:

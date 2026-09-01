@@ -142,13 +142,13 @@ cat website/content/posts/2026-A.md   # Final blog post
 ### Environment Setup
 
 ```bash
-# Install dependencies
-pip install -r requirements.txt
+# Option A: Run via 1Password CLI (recommended)
+op run -- python src/cli.py run workflow
 
-# Required environment variables
+# Option B: Set environment variables directly
 export GOOGLE_API_KEY="your_gemini_api_key"
+export GEMINI_MODEL="gateway/google-vertex:gemini-2.5-flash"
 export LOGFIRE_TOKEN="your_logfire_token"  # Optional
-export GEMINI_MODEL="gemini-2.0-flash-exp"
 ```
 
 ## 🗂️ Key Concepts
