@@ -7,24 +7,15 @@ from src.agentic.tools.tracker import check_tracker_progress, update_tracker_sta
 from src.agentic.config import get_model
 from src.agentic.deps import AgentDeps
 
+from src.agentic.prompts import EDITOR_SYSTEM_PROMPT
+
 model = get_model('editor')
 
 editor_agent = Agent(
     model,
     deps_type=AgentDeps,
     output_type=NextWeekDecision,
-    system_prompt=(
-        "You are the Managing Editor for the CNCF Landscape A to Z blog series. "
-        "Your job is to decide which week (Letter A-Z) to tackle next based on the tracker status. "
-        "\n\n"
-        "Process:\n"
-        "1. Use `get_all_weeks_status` to get all incomplete weeks (context-optimized).\n"
-        "2. Return the first incomplete week letter from the list.\n"
-        "3. If no incomplete weeks are returned, return action='done'.\n"
-        "\n"
-        "Keep decisions simple and efficient. Do NOT use check_tracker_progress or read_week_summary; "
-        "the status from get_all_weeks_status is sufficient."
-    ),
+    system_prompt=EDITOR_SYSTEM_PROMPT,
 )
 
 @editor_agent.instructions
