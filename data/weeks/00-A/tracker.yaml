@@ -116,10 +116,10 @@ items:
   AWS Server Application Model (SAM):
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-01T23:20:00.000000+00:00'
+        completed_at: '2026-09-01T23:20:00.000000+00:00'
+        output_file: data/weeks/00-A/research/aws_server_application_model_sam.yaml
         error_message: null
         retry_count: 0
         agent: researcher

@@ -497,7 +497,7 @@ cat website/content/posts/2026-B.md
 # Set environment variables
 export GOOGLE_API_KEY=your_key_here
 export LOGFIRE_TOKEN=your_token_here  # Optional
-export GEMINI_MODEL=gemini-2.0-flash-exp
+export GEMINI_MODEL=gateway/google-vertex:gemini-2.5-flash
 
 # Run single letter with limit
 python src/cli.py run workflow --limit 10

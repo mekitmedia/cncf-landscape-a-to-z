@@ -359,14 +359,16 @@ data/week_00_A/research/
 ### Prerequisites
 
 ```bash
-# Install dependencies
-pip install -r requirements.txt
+# Option A: Run via 1Password CLI (recommended)
+op run -- python src/cli.py run workflow
 
-# Set environment variables
+# Option B: Set environment variables directly
 export GOOGLE_API_KEY="your_gemini_api_key"
+export GEMINI_MODEL="gateway/google-vertex:gemini-2.5-flash"
 export LOGFIRE_TOKEN="your_logfire_token"  # Optional for observability
-export GEMINI_MODEL="gemini-2.0-flash-exp"  # Or gemini-1.5-pro
 ```
+
+> **Tip for Git Worktrees**: Place your local `.env` in the parent directory containing your worktrees (e.g. `../.env`). `just` and 1Password CLI walk up parent directories to locate `../.env`, sharing configuration across all worktrees cleanly.
 
 ### Local Execution
 
@@ -425,7 +427,7 @@ Style Guidelines:
 
 **Issue**: Writer produces low-quality content
 - **Cause**: Poor research input, unclear prompts, model limitations
-- **Solution**: Inspect research/*.yaml files, improve Researcher prompts, try different model (gemini-1.5-pro)
+- **Solution**: Inspect research/*.yaml files, improve Researcher prompts, try different model (e.g. gateway/google-vertex:gemini-2.5-flash)
 
 ### Manual Intervention
 
