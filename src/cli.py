@@ -1,7 +1,9 @@
+import sys
 import fire
 import asyncio
 import logging
 import os
+
 from src.pipeline.runner import run_etl
 from src.agentic.observability import setup_observability
 
@@ -57,7 +59,24 @@ class RunCommands:
             os.environ['PREFECT_API_URL'] = ''  # Empty URL forces local execution
             logger.info("Running workflow in local mode")
         
-        asyncio.run(weekly_content_flow(limit=limit))
+        import sys
+        try:
+            asyncio.run(weekly_content_flow(limit=limit))
+        except RuntimeError as e:
+            logger.error(f"\n❌ Configuration / Authentication Error:\n{e}\n")
+            sys.exit(1)
+        except Exception as e:
+            err_str = str(e)
+            if "API key" in err_str or "INVALID_ARGUMENT" in err_str or "400" in err_str:
+                logger.error(
+                    "\n❌ API Key Authentication Error: Invalid or missing API key.\n"
+                    "If using 1Password CLI, run:\n"
+                    "  op run -- just workflow\n"
+                    "Or set GOOGLE_API_KEY / PYDANTIC_AI_GATEWAY_API_KEY in your environment.\n"
+                )
+                sys.exit(1)
+            raise
+
 
 class Cli:
     def __init__(self):
@@ -65,4 +84,20 @@ class Cli:
 
 if __name__ == '__main__':
     setup_observability()
-    fire.Fire(Cli)
+    try:
+        fire.Fire(Cli)
+    except RuntimeError as e:
+        logger.error(f"\n❌ Configuration / Authentication Error:\n{e}\n")
+        sys.exit(1)
+    except Exception as e:
+        err_str = str(e)
+        if "API key" in err_str or "INVALID_ARGUMENT" in err_str or "400" in err_str:
+            logger.error(
+                "\n❌ API Key Authentication Error: Invalid or missing API key.\n"
+                "If using 1Password CLI, run:\n"
+                "  op run -- just workflow\n"
+                "Or set GOOGLE_API_KEY / PYDANTIC_AI_GATEWAY_API_KEY in your environment.\n"
+            )
+            sys.exit(1)
+        raise
+

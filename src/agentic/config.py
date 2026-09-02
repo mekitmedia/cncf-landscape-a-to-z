@@ -104,10 +104,22 @@ def get_model(agent_name: str):
     gateway_key = settings.raw_gateway_key
     google_key = settings.raw_google_key
 
+    env_hint = "op run --env-file=../.env -- just workflow" if os.path.exists("../.env") else "op run -- just workflow"
+
     if gateway_key:
+        if gateway_key.startswith('op://'):
+            raise RuntimeError(
+                f"PYDANTIC_AI_GATEWAY_API_KEY contains an unexpanded 1Password reference ('op://...').\n"
+                f"Please run using 1Password CLI: `{env_hint}`"
+            )
         return model_name
 
     if google_key:
+        if google_key.startswith('op://'):
+            raise RuntimeError(
+                f"GOOGLE_API_KEY contains an unexpanded 1Password reference ('op://...').\n"
+                f"Please run using 1Password CLI: `{env_hint}`"
+            )
         # Strip gateway prefix for direct Google usage
         if model_name.startswith('gateway/google-vertex:'):
             model_name = model_name.replace('gateway/google-vertex:', '')
@@ -117,8 +129,10 @@ def get_model(agent_name: str):
         return GoogleModel(model_name)
     
     raise RuntimeError(
-        f"Neither PYDANTIC_AI_GATEWAY_API_KEY nor GOOGLE_API_KEY environment variable is set. "
-        f"Cannot initialize the {agent_name} agent without a configured model."
+        f"Neither PYDANTIC_AI_GATEWAY_API_KEY nor GOOGLE_API_KEY environment variable is set.\n"
+        f"If your secrets are stored in 1Password, execute using 1Password CLI:\n"
+        f"  {env_hint}\n"
+        f"  (or simply: just workflow)"
     )
 
 
@@ -141,7 +155,6 @@ def fetch_live_google_models(google_key: Optional[str]):
     except Exception:
         pass
     return None
-
 
 def get_available_models():
     """Get a list of available models based on active key type (Google AI Studio vs Gateway)."""
