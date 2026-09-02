@@ -152,4 +152,108 @@ async def test_weekly_content_flow_e2e_golden(tmp_path):
         mock_get_items.assert_called_with("A")
 
 
+@pytest.mark.asyncio
+async def test_runner_stops_at_limit():
+    """Verify run_agentic_workflow halts immediately when limit is reached without drafting incomplete posts."""
+    from src.agentic.runner import run_agentic_workflow
+    from src.tracker import TaskProgress
+
+    def editor_fn(messages, info):
+        return ModelResponse(parts=[TextPart(NextWeekDecision(action="next", week_letter="A", reason="test").model_dump_json())])
+
+    def researcher_fn(messages, info):
+        return ModelResponse(parts=[TextPart(ResearchOutput(
+            project_name="P1",
+            summary="P1 summary",
+            key_features=[],
+            recent_updates="v1",
+            use_cases="test"
+        ).model_dump_json())])
+
+    with editor_agent.override(model=FunctionModel(editor_fn)), \
+         researcher_agent.override(model=FunctionModel(researcher_fn)), \
+         patch('src.agentic.runner.weekly.get_items_for_week', new_callable=AsyncMock) as mock_get_items, \
+         patch('src.agentic.runner.research.save_research', new_callable=AsyncMock) as mock_save_research, \
+         patch('src.agentic.runner.writing.write_weekly_post', new_callable=AsyncMock) as mock_write_post, \
+         patch('src.agentic.runner.get_tracker') as mock_get_tracker:
+
+        mock_tracker = MagicMock()
+        # Research is only partially complete (1 of 10)
+        mock_tracker.get_progress.return_value = TaskProgress(
+            total=10, pending=9, in_progress=0, completed=1, failed=0, skipped=0
+        )
+        mock_get_tracker.return_value = mock_tracker
+
+        mock_get_items.return_value = [
+            ProjectMetadata(name="P1", week_letter="A"),
+            ProjectMetadata(name="P2", week_letter="A"),
+            ProjectMetadata(name="P3", week_letter="A"),
+        ]
+
+        summary = await run_agentic_workflow(limit=1)
+
+        assert summary["items_processed"] == 1
+        assert summary["weeks_completed"] == 0
+        mock_save_research.assert_called_once()
+        # Blog post should NOT be written when research is only partially complete
+        mock_write_post.assert_not_called()
+
+
+@pytest.mark.asyncio
+async def test_runner_drafts_post_when_research_complete():
+    """Verify run_agentic_workflow drafts blog post when 100% of research is completed."""
+    from src.agentic.runner import run_agentic_workflow
+    from src.tracker import TaskProgress
+
+    def editor_fn(messages, info):
+        return ModelResponse(parts=[TextPart(NextWeekDecision(action="next", week_letter="A", reason="test").model_dump_json())])
+
+    def researcher_fn(messages, info):
+        return ModelResponse(parts=[TextPart(ResearchOutput(
+            project_name="P1",
+            summary="P1 summary",
+            key_features=[],
+            recent_updates="v1",
+            use_cases="test"
+        ).model_dump_json())])
+
+    def writer_fn(messages, info):
+        return ModelResponse(parts=[TextPart(BlogPostDraft(
+            title="Week A Post",
+            content_markdown="Content"
+        ).model_dump_json())])
+
+    with editor_agent.override(model=FunctionModel(editor_fn)), \
+         researcher_agent.override(model=FunctionModel(researcher_fn)), \
+         writer_agent.override(model=FunctionModel(writer_fn)), \
+         patch('src.agentic.runner.weekly.get_items_for_week', new_callable=AsyncMock) as mock_get_items, \
+         patch('src.agentic.runner.research.save_research', new_callable=AsyncMock), \
+         patch('src.agentic.runner.load_week_research', new_callable=AsyncMock) as mock_load_research, \
+         patch('src.agentic.runner.writing.save_post', new_callable=AsyncMock) as mock_save_post, \
+         patch('src.agentic.runner.get_tracker') as mock_get_tracker:
+
+        mock_tracker = MagicMock()
+        # Research is 100% complete (1 of 1)
+        mock_tracker.get_progress.return_value = TaskProgress(
+            total=1, pending=0, in_progress=0, completed=1, failed=0, skipped=0
+        )
+        mock_get_tracker.return_value = mock_tracker
+
+
+        mock_get_items.return_value = [
+            ProjectMetadata(name="P1", week_letter="A")
+        ]
+        mock_load_research.return_value = [
+            ResearchOutput(project_name="P1", summary="P1 summary", key_features=[], recent_updates="v1", use_cases="test")
+        ]
+
+        summary = await run_agentic_workflow(limit=1)
+
+        assert summary["items_processed"] == 1
+        assert summary["weeks_completed"] == 1
+        mock_save_post.assert_called_once()
+
+
+
+
 

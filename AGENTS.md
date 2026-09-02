@@ -9,6 +9,12 @@ Universal entrypoint for agent tooling and coding standards in this repository.
 - **Sensitive Data & API Keys**: Use `pydantic.SecretStr` for all API keys, tokens, and secrets. Do not write custom string masking/slicing functions (e.g. `mask_key`); rely on Pydantic native `SecretStr` string representation and `.get_secret_value()` getters.
 - **Enum State & Provider Types**: Define explicit `str, Enum` classes (e.g. `ProviderType`) for states, categories, and provider options.
 
+### Testing & Mocking Standards
+- **Golden Stubs via `FunctionModel`**: When testing Pydantic AI agents, do NOT create ad-hoc mock objects or mock out `.run` with custom attributes that can mask framework signature changes.
+- **Use `agent.override(model=FunctionModel(...))`**: Always use Pydantic AI native `FunctionModel` or `TestModel` with golden fixture responses to test agent dependency injection, prompts, tool schemas, and structured outputs end-to-end.
+- **Durable Runner & Task Decoupling**: Research items must be tracked independently per project. Weekly blog posts are only drafted once 100% of that week's research tasks are completed.
+
+
 ## Execution Personas & Operational Modes
 
 When interacting with this repository, AI agents must distinguish between two operational personas based on the user's intent:

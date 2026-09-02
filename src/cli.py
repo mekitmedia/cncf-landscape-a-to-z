@@ -51,17 +51,14 @@ class RunCommands:
             python src/cli.py run workflow --limit=50 --local
             python src/cli.py run workflow --local
         """
-        from src.agentic.flow import weekly_content_flow
-        
-        # Set Prefect to run locally if requested
-        if local:
-            import os
-            os.environ['PREFECT_API_URL'] = ''  # Empty URL forces local execution
-            logger.info("Running workflow in local mode")
-        
         import sys
         try:
-            asyncio.run(weekly_content_flow(limit=limit))
+            if local or not os.getenv('PREFECT_API_URL'):
+                from src.agentic.runner import run_agentic_workflow
+                asyncio.run(run_agentic_workflow(limit=limit))
+            else:
+                from src.agentic.flow import weekly_content_flow
+                asyncio.run(weekly_content_flow(limit=limit))
         except RuntimeError as e:
             logger.error(f"\n❌ Configuration / Authentication Error:\n{e}\n")
             sys.exit(1)
@@ -76,6 +73,7 @@ class RunCommands:
                 )
                 sys.exit(1)
             raise
+
 
 
 class Cli:
