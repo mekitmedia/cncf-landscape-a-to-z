@@ -1048,8 +1048,8 @@ items:
     tasks:
       research:
         status: completed
-        started_at: '2026-09-02T01:55:27.841020Z'
-        completed_at: '2026-09-02T01:55:27.841020Z'
+        started_at: '2026-09-02T01:55:27.841020+00:00'
+        completed_at: '2026-09-02T01:55:27.841020+00:00'
         output_file: research/authing.yaml
         error_message: null
         retry_count: 0
