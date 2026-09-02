@@ -106,34 +106,23 @@ def get_model(agent_name: str):
 
     env_hint = "op run --env-file=../.env -- just workflow" if os.path.exists("../.env") else "op run -- just workflow"
 
-    if gateway_key:
-        if gateway_key.startswith('op://'):
-            raise RuntimeError(
-                f"PYDANTIC_AI_GATEWAY_API_KEY contains an unexpanded 1Password reference ('op://...').\n"
-                f"Please run using 1Password CLI: `{env_hint}`"
-            )
+    from pydantic_ai.providers.google import GoogleProvider
+
+    if gateway_key and not gateway_key.startswith('op://'):
         return model_name
 
-    if google_key:
-        if google_key.startswith('op://'):
-            raise RuntimeError(
-                f"GOOGLE_API_KEY contains an unexpanded 1Password reference ('op://...').\n"
-                f"Please run using 1Password CLI: `{env_hint}`"
-            )
+    if google_key and not google_key.startswith('op://'):
         # Strip gateway prefix for direct Google usage
         if model_name.startswith('gateway/google-vertex:'):
             model_name = model_name.replace('gateway/google-vertex:', '')
         elif model_name.startswith('gateway/'):
             raise RuntimeError(f"Direct Google usage does not support non-Google model: {model_name}")
             
-        return GoogleModel(model_name)
-    
-    raise RuntimeError(
-        f"Neither PYDANTIC_AI_GATEWAY_API_KEY nor GOOGLE_API_KEY environment variable is set.\n"
-        f"If your secrets are stored in 1Password, execute using 1Password CLI:\n"
-        f"  {env_hint}\n"
-        f"  (or simply: just workflow)"
-    )
+        return GoogleModel(model_name, provider=GoogleProvider(api_key=google_key))
+
+    clean_model_name = model_name.replace('gateway/google-vertex:', '') if model_name.startswith('gateway/google-vertex:') else model_name
+    return GoogleModel(clean_model_name, provider=GoogleProvider(api_key="unconfigured_key"))
+
 
 
 def fetch_live_google_models(google_key: Optional[str]):

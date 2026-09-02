@@ -12,4 +12,5 @@ async def determine_next_week() -> NextWeekDecision:
         "Please decide the next week to tackle.",
         deps=deps
     )
-    return result.data
+    return getattr(result, 'output', getattr(result, 'data', None))
+
