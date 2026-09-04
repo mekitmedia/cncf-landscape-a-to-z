@@ -1,0 +1,68 @@
+project_name: Agola
+homepage_url: https://agola.io
+repo_url: https://github.com/agola-io/agola
+cncf_status: non-cncf
+summary: "Agola is an open-source CI/CD tool designed to redefine the CI/CD experience\
+  \ with containerized, reproducible, and restartable runs. Developed by Sorint.lab,\
+  \ it aims to provide advanced workflows (like matrix builds, fan-in, fan-out) that\
+  \ work seamlessly across any programming language or environment. It emphasizes\
+  \ a Git-based workflow where the run definitions are stored with the code, ensuring\
+  \ everything is tracked and reproducible. Agola can be deployed anywhere\u2014from\
+  \ a single local instance to a distributed, highly available setup on Kubernetes\
+  \ or bare metal\u2014and integrates concurrently with multiple Git providers (GitHub,\
+  \ GitLab, Gitea)."
+key_features:
+- 'Containerized Runs: Every task is executed within a containerized environment (e.g.,
+  Docker, Kubernetes), guaranteeing reproducibility and consistency.'
+- 'Restartable Runs: Ability to restart workflows either completely from scratch or
+  efficiently from the specific point of failure.'
+- 'User Direct Runs: Empowers developers to run their testing and deployment workflows
+  locally on the Agola server with a single command, mimicking the CI environment
+  without requiring powerful local hardware.'
+- 'Testable Runs: Allows using the same core run definitions but substituting different
+  variables or secrets to test against various environments securely.'
+- 'Multi-Git Provider Integration: Can simultaneously connect and integrate with repositories
+  from GitHub, GitLab, and Gitea within a single Agola installation.'
+- 'Advanced Workflows: Out-of-the-box support for complex deployment strategies, including
+  fan-in, fan-out, and multi-architecture builds.'
+- 'Flexible Run Definition Language: Supports creating robust configuration pipelines
+  using JSON, YAML, Jsonnet, or Starlark instead of limited templating extensions.'
+latest_release:
+  version: v0.11.0
+  date: '2024-09-25'
+  url: https://github.com/agola-io/agola/releases/tag/v0.11.0
+recent_updates: Recent development (as seen in v0.11.0) includes updates to Go 1.25,
+  simplified mux configurations in the gateway, enhanced API error messaging, and
+  various dependency and linter updates to keep the toolchain modern and secure.
+use_cases: Ideal for DevOps teams and organizations looking for a centralized, highly
+  available CI/CD system that strictly adheres to GitOps principles and provides developers
+  with a consistent testing environment locally and in the cloud. It's particularly
+  useful when cross-platform (multi-arch) builds and reproducible, isolated task executions
+  are mandatory.
+interesting_facts: "Agola emphasizes 'At most once execution' by design. This critical\
+  \ reliability feature prevents concurrent deployment issues\u2014such as double\
+  \ deployments to production\u2014that can happen with other popular CI tools. Also,\
+  \ unlike many tools that retrofitted templating into YAML, Agola natively supports\
+  \ real templating languages like Jsonnet to cleanly generate complex run configurations."
+get_started: To get started, you can try Agola using its standalone configuration
+  for a quick local setup, or deploy it to a Kubernetes cluster for a production-ready,
+  distributed environment. Detailed installation instructions and run configuration
+  references are available at https://agola.io/doc/.
+docs_url: https://agola.io/doc/
+related_tools:
+- Jenkins
+- GitLab CI/CD
+- Tekton
+- Argo CD
+- Drone
+sources:
+- label: Agola Homepage
+  url: https://agola.io
+- label: Agola Documentation
+  url: https://agola.io/doc/
+- label: Agola GitHub Repository
+  url: https://github.com/agola-io/agola
+- label: Agola v0.11.0 Release
+  url: https://github.com/agola-io/agola/releases/tag/v0.11.0
+- label: Agola Presentation (Sorint.OSS)
+  url: https://sorintoss.io/agola-milan-meetup/Agola.pdf
