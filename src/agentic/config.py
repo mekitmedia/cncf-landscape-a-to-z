@@ -106,12 +106,12 @@ def get_model(agent_name: str):
 
     env_hint = "op run --env-file=../.env -- just workflow" if os.path.exists("../.env") else "op run -- just workflow"
 
-    from pydantic_ai.providers.google import GoogleProvider
-
     if gateway_key and not gateway_key.startswith('op://'):
         return model_name
 
     if google_key and not google_key.startswith('op://'):
+        from pydantic_ai.providers.google import GoogleProvider
+
         # Strip gateway prefix for direct Google usage
         if model_name.startswith('gateway/google-vertex:'):
             model_name = model_name.replace('gateway/google-vertex:', '')
@@ -120,8 +120,21 @@ def get_model(agent_name: str):
             
         return GoogleModel(model_name, provider=GoogleProvider(api_key=google_key))
 
-    clean_model_name = model_name.replace('gateway/google-vertex:', '') if model_name.startswith('gateway/google-vertex:') else model_name
-    return GoogleModel(clean_model_name, provider=GoogleProvider(api_key="unconfigured_key"))
+    unresolved_refs = []
+    if gateway_key and gateway_key.startswith('op://'):
+        unresolved_refs.append("PYDANTIC_AI_GATEWAY_API_KEY")
+    if google_key and google_key.startswith('op://'):
+        unresolved_refs.append("GOOGLE_API_KEY")
+
+    if unresolved_refs:
+        raise RuntimeError(
+            f"Unresolved 1Password reference(s): {', '.join(unresolved_refs)}. Run with 1Password, e.g. `{env_hint}`."
+        )
+
+    raise RuntimeError(
+        "No usable API key configured. Set PYDANTIC_AI_GATEWAY_API_KEY or GOOGLE_API_KEY "
+        f"(or run with 1Password, e.g. `{env_hint}`)."
+    )
 
 
 

@@ -4,6 +4,9 @@ import sys
 from pathlib import Path
 from unittest.mock import MagicMock, AsyncMock, patch
 
+# Set dummy key for tests to avoid instantiation errors
+os.environ['GOOGLE_API_KEY'] = 'dummy_key'
+
 
 # Add project root to path
 sys.path.insert(0, str(Path(__file__).parent.parent))
@@ -14,9 +17,6 @@ from src.agentic.models import NextWeekDecision, ResearchOutput, BlogPostDraft, 
 from src.agentic.agents.editor import editor_agent
 from src.agentic.agents.researcher import researcher_agent
 from src.agentic.agents.writer import writer_agent
-
-# Set dummy key for tests to avoid instantiation errors
-os.environ['GOOGLE_API_KEY'] = 'dummy_key'
 
 
 @pytest.mark.asyncio
@@ -252,7 +252,6 @@ async def test_runner_drafts_post_when_research_complete():
         assert summary["items_processed"] == 1
         assert summary["weeks_completed"] == 1
         mock_save_post.assert_called_once()
-
 
 
 

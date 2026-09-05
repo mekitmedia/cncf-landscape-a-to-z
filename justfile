@@ -32,7 +32,7 @@ _run +cmd:
     fi
 
     if [ -n "$env_file" ] && command -v op >/dev/null 2>&1 && grep -q "op://" "$env_file" 2>/dev/null; then
-        if [ -z "$GOOGLE_API_KEY" ] || [[ "$GOOGLE_API_KEY" == op://* ]]; then
+        if [ -z "$GOOGLE_API_KEY" ] || [[ "$GOOGLE_API_KEY" == op://* ]] || [ -z "$PYDANTIC_AI_GATEWAY_API_KEY" ] || [[ "$PYDANTIC_AI_GATEWAY_API_KEY" == op://* ]]; then
             op run --env-file="$env_file" -- {{cmd}}
             exit $?
         fi

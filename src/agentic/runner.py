@@ -3,12 +3,11 @@ import logging
 import os
 import glob
 import yaml
-from pathlib import Path
 from typing import List, Optional
 
 from src.config import load_config, week_id
-from src.agentic.models import ResearchOutput, BlogPostDraft, ProjectMetadata, NextWeekDecision
-from src.tracker import get_tracker, TaskStatus
+from src.agentic.models import ResearchOutput
+from src.tracker import get_tracker
 from src.agentic.actions import decisions, weekly, research, writing
 
 logger = logging.getLogger("agentic.runner")

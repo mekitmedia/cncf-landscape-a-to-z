@@ -35,7 +35,9 @@ async def research_item(item: ProjectMetadata, week_letter: str) -> ResearchOutp
             f"Research the project: {item.name}",
             deps=deps
         )
-        return getattr(result, 'output', getattr(result, 'data', None))
+        if hasattr(result, "output"):
+            return result.output
+        return result.data
 
     except Exception as e:
         # Mark as failed in tracker

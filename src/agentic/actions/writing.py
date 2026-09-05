@@ -15,7 +15,9 @@ async def write_weekly_post(week_letter: str, research_results: List[ResearchOut
         f"Write a blog post for CNCF projects starting with letter {week_letter}.",
         deps=deps
     )
-    return getattr(result, 'output', getattr(result, 'data', None))
+    if hasattr(result, "output"):
+        return result.output
+    return result.data
 
 
 async def save_post(week_letter: str, draft: BlogPostDraft):
