@@ -1,4 +1,7 @@
 project_name: "AutoMQ"
+homepage_url: "https://www.automq.com/"
+repo_url: "https://github.com/AutoMQ/automq"
+cncf_status: "non-cncf"
 summary: "AutoMQ is a cloud-native, diskless alternative to Apache Kafka® on S3 or any S3-compatible storage. It is designed to offer 10x cost savings, scale in seconds, and eliminate cross-AZ traffic costs while maintaining 100% Kafka compatibility."
 key_features:
   - "Stateless broker architecture leveraging object storage (S3) instead of local disk storage."
@@ -7,10 +10,14 @@ key_features:
   - "Zero cross-AZ traffic costs due to its storage-compute separation and proxy layers."
   - "Built-in auto-balancer for automatic partition scheduling."
   - "Table Topic feature for automatic Kafka topic to Iceberg table conversion (Zero-ETL)."
+latest_release:
+  version: "1.5.5"
+  url: "https://github.com/AutoMQ/automq/releases/tag/1.5.5"
 recent_updates: "Introduced Table Topic, a new feature combining stream and table functionalities to unify streaming and data analysis (supports Apache Iceberg and integrates with catalog services like AWS Glue and S3 tables)."
 use_cases: "Cloud-native data streaming, event-driven architectures, replacing traditional stateful Kafka clusters to reduce operational costs, real-time analytics, scaling for unpredictable traffic spikes, and integrating streams into data lakes."
-interesting_facts: "AutoMQ replaces Kafka's classic shared-nothing architecture with a shared storage architecture using a custom S3 Storage Adapter. According to their performance benchmarks, AutoMQ can speed up partition reassignment by 300x compared to Apache Kafka, cutting an operation that traditionally took 12 minutes down to just 2.2 seconds. It also boasts a 200x efficiency improvement during catch-up reads."
+interesting_facts: "AutoMQ replaces Kafka's classic shared-nothing architecture with a shared storage architecture using a custom S3 Storage Adapter. According to their performance benchmarks, AutoMQ can speed up partition reassignment by 300x compared to Apache Kafka, cutting an operation that traditionally took 12 minutes down to just 2.2 seconds. It also boasts a 200x efficiency improvement during catch-up reads. While AutoMQ emphasizes cost-savings and cloud scalability, evaluators often compare it with more established Kafka distributions and managed offerings."
 get_started: "Run AutoMQ locally using Docker (`curl -O https://raw.githubusercontent.com/AutoMQ/automq/refs/tags/1.5.5/docker/docker-compose.yaml && docker compose -f docker-compose.yaml up -d`) or deploy on Kubernetes for production via helm charts."
+docs_url: "https://docs.automq.com/"
 related_tools:
   - "Apache Kafka"
   - "MinIO"
@@ -19,11 +26,16 @@ related_tools:
   - "Confluent Cloud"
   - "WarpStream"
   - "Redpanda"
-# Note: Adding some ground truth and opinions/reviews as requested
-official_documentation: "https://docs.automq.com/"
-github_repository: "https://github.com/automq/automq"
-articles_and_opinions:
-  - "Kafka Alternatives for Teams That Are Tired of Broker Cost, Rebalancing, and Scaling Pain (AutoMQ Blog): https://www.automq.com/blog/kafka-alternatives-for-teams-tired-of-broker-cost-rebalancing-and-scaling-pain"
-  - "Performance Benchmark - AutoMQ Documentation: https://docs.automq.com/automq-cloud/appendix/performance-benchmark"
-  - "Why AutoMQ is Your Best Kafka Alternative (AutoMQ Blog): https://www.automq.com/blog/why-automq-is-your-best-kafka-alternative"
-  - "While AutoMQ heavily emphasizes cost-savings (citing up to 10x cheaper) and cloud scalability by decoupling storage and compute into S3, it is still a newer project compared to established alternatives like Confluent or standard Apache Kafka. Critics and users evaluating options often weigh the maturity of their enterprise offerings against standard Kafka operations."
+sources:
+  - label: "Official Documentation"
+    url: "https://docs.automq.com/"
+  - label: "GitHub Repository"
+    url: "https://github.com/AutoMQ/automq"
+  - label: "Kafka Alternatives for Teams That Are Tired of Broker Cost, Rebalancing, and Scaling Pain"
+    url: "https://www.automq.com/blog/kafka-alternatives-for-teams-tired-of-broker-cost-rebalancing-and-scaling-pain"
+  - label: "Performance Benchmark"
+    url: "https://docs.automq.com/automq-cloud/appendix/performance-benchmark"
+  - label: "Why AutoMQ is Your Best Kafka Alternative"
+    url: "https://www.automq.com/blog/why-automq-is-your-best-kafka-alternative"
+  - label: "AutoMQ Alternatives and Competitive Discussion"
+    url: "https://www.saashub.com/automq-alternatives"
