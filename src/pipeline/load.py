@@ -36,10 +36,10 @@ def build_changelog(old_items: dict, new_items: dict, output_dir: str = "data"):
             old_item = old_items[name]
             changes = []
 
-            # Check for specific changes we care about (status, category/path changes, etc)
+            # Check for project status changes
             if item.get('project') != old_item.get('project'):
-                old_status = old_item.get('project', 'None')
-                new_status = item.get('project', 'None')
+                old_status = old_item.get('project') or 'None'
+                new_status = item.get('project') or 'None'
                 changes.append(f"Status changed from **{old_status}** to **{new_status}**")
 
             if changes:
@@ -78,7 +78,6 @@ def build_changelog(old_items: dict, new_items: dict, output_dir: str = "data"):
         changelog.append("_No tool changes detected in this update._\n")
 
     # Write to file
-    dirs = resolve_data_dirs(output_dir)
     changelog_path = Path(output_dir) / "changelog.md"
 
     with open(changelog_path, 'w') as f:

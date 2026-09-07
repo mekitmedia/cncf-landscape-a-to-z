@@ -106,9 +106,9 @@ def run_etl(
 
     # Build new items for changelog
     new_items = {}
-    for letter, data in landscape_by_letter.items():
+    for data in landscape_by_letter.values():
         partial = data.get('partial', {})
-        for key, items_list in partial.items():
+        for items_list in partial.values():
             if items_list:
                 for item in items_list:
                     if 'name' in item:
