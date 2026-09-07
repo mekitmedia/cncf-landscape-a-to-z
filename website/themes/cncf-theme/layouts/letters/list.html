@@ -21,7 +21,12 @@
             <h1 class="text-4xl md:text-5xl font-black text-slate-900 mb-4 tracking-tight">
                 Letter {{ .Params.letter }} Journey
             </h1>
+            {{ $current := partial "get-current-week.html" . }}
+            {{ if eq .Params.letter $current.letter }}
             <p class="text-slate-500 text-lg">Exploring essential CNCF projects for this week's letter.</p>
+            {{ else }}
+            <p class="text-slate-500 text-lg">Exploring essential CNCF projects for letter {{ .Params.letter }}. <a href="/letters/{{ lower $current.letter }}/" class="text-blue-600 hover:underline">Check out the current letter ({{ $current.letter }})</a>.</p>
+            {{ end }}
         </div>
 
         {{ $dataKey := .Params.data_key }}
