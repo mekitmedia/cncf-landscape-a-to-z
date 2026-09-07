@@ -1066,18 +1066,18 @@ items:
   AutoMQ:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-07T01:36:40.726498+00:00'
+        completed_at: '2026-09-07T01:36:40.726498+00:00'
+        output_file: data/weeks/00-A/research/automq.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-07T01:37:07.532455+00:00'
+        completed_at: '2026-09-07T01:37:07.532455+00:00'
+        output_file: website/content/posts/2026-A.md
         error_message: null
         retry_count: 0
         agent: writer

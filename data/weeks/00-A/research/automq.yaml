@@ -1,0 +1,53 @@
+project_name: AutoMQ
+homepage_url: https://www.automq.com
+repo_url: https://github.com/AutoMQ/automq
+cncf_status: non-cncf
+summary: AutoMQ is a stateless, cloud-native fork of Apache Kafka that replaces the
+  storage layer with an S3-first diskless architecture. It retains full Kafka API
+  compatibility while offering up to 10x lower TCO and seconds-level elasticity.
+key_features:
+- 100% Kafka API and ecosystem compatibility (Kafka Connect, Streams, Schema Registry).
+- Stateless broker architecture with data stored primarily on object storage (like
+  AWS S3) and Write-Ahead Log (WAL) on scalable block storage.
+- Zero cross-AZ traffic costs by leveraging shared cloud storage, avoiding expensive
+  multi-AZ data replication fees.
+- Scale in or out in seconds without manual partition rebalancing or heavy data migration.
+latest_release:
+  version: 1.7.4
+  date: '2026-08-29'
+  url: https://github.com/AutoMQ/automq/releases/tag/1.7.4
+recent_updates: Recent releases focus on enhancing the S3Stream layer, Table Topic
+  integration with formats like Iceberg, improving ZGC memory management, and optimizing
+  inter-AZ failovers and async polling.
+use_cases: Cost-effective alternative for companies struggling with Kafka over-provisioning,
+  multi-AZ deployment costs, or sluggish cluster scaling operations.
+interesting_facts: By replacing the local disk storage model with cloud-native S3
+  storage, AutoMQ eliminates the traditional 3x replication overhead characteristic
+  of Apache Kafka deployments on cloud.
+get_started: To evaluate AutoMQ locally, you can use the provided Docker Compose configuration
+  (`docker/docker-compose.yaml`), which bundles a single-node AutoMQ instance with
+  MinIO for S3 storage.
+docs_url: https://docs.automq.com/
+related_tools:
+- Apache Kafka
+- Redpanda
+- Confluent Cloud
+- WarpStream
+sources:
+- label: GitHub Repository
+  url: https://github.com/AutoMQ/automq
+- label: Official Website
+  url: https://www.automq.com
+- label: 'Documentation: What is AutoMQ'
+  url: https://docs.automq.com/automq/what-is-automq/overview
+- label: 'Documentation: Architecture'
+  url: https://docs.automq.com/automq/architecture/overview
+- label: Community Discussion / Opinions
+  url: https://news.ycombinator.com/item?id=37719601
+industry_opinions: While AutoMQ is highly praised for significantly reducing cloud
+  storage costs and simplifying operations via its stateless S3-based architecture,
+  some community discussions note that replacing Kafka's storage layer entirely shifts
+  the performance bottleneck to cloud object storage. Despite local caching mechanisms
+  like WAL, users with extreme low-latency requirements (sub-millisecond) may still
+  prefer traditional Kafka on bare-metal NVMe. However, for the majority of use cases,
+  users find the trade-off highly favorable given the cost savings and elasticity.
