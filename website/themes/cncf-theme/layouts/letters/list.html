@@ -13,19 +13,23 @@
                         <i data-lucide="chevron-right" class="w-3 h-3 text-slate-300"></i>
                     </li>
                     <li>
-                        <span class="text-slate-900" aria-current="page">Letter {{ .Params.letter }}</span>
+                        <span class="text-slate-900" aria-current="page">{{ if .Params.letter }}Letter {{ .Params.letter }}{{ else }}All Letters{{ end }}</span>
                     </li>
                 </ol>
             </nav>
             
             <h1 class="text-4xl md:text-5xl font-black text-slate-900 mb-4 tracking-tight">
-                Letter {{ .Params.letter }} Journey
+                {{ if .Params.letter }}Letter {{ .Params.letter }} Journey{{ else }}All Letters{{ end }}
             </h1>
-            {{ $current := partial "get-current-week.html" . }}
-            {{ if eq .Params.letter $current.letter }}
-            <p class="text-slate-500 text-lg">Exploring essential CNCF projects for this week's letter.</p>
+            {{ if .Params.letter }}
+                {{ $current := partial "get-current-week.html" . }}
+                {{ if eq .Params.letter $current.letter }}
+                <p class="text-slate-500 text-lg">Exploring essential CNCF projects for this week's letter.</p>
+                {{ else }}
+                <p class="text-slate-500 text-lg">Exploring essential CNCF projects for letter {{ .Params.letter }}. <a href="/letters/{{ lower $current.letter }}/" class="text-blue-600 hover:underline">Check out the current letter ({{ $current.letter }})</a>.</p>
+                {{ end }}
             {{ else }}
-            <p class="text-slate-500 text-lg">Exploring essential CNCF projects for letter {{ .Params.letter }}. <a href="/letters/{{ lower $current.letter }}/" class="text-blue-600 hover:underline">Check out the current letter ({{ $current.letter }})</a>.</p>
+                <p class="text-slate-500 text-lg">Exploring essential CNCF projects across all letters.</p>
             {{ end }}
         </div>
 
