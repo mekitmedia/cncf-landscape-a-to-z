@@ -12,4 +12,6 @@ async def determine_next_week() -> NextWeekDecision:
         "Please decide the next week to tackle.",
         deps=deps
     )
+    if hasattr(result, "output"):
+        return result.output
     return result.data
