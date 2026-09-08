@@ -16,6 +16,8 @@ from src.pipeline.load import (
     generate_summary,
     save_tasks,
     generate_letter_pages,
+    get_old_items,
+    build_changelog,
 )
 from src.logger import get_logger
 from src.tracker import get_tracker
@@ -44,6 +46,9 @@ def run_etl(
 
     logger.info("Starting landscape processing")
     landscape = get_landscape_data(input_path)
+
+    # Capture old state
+    old_items = get_old_items(output_dir)
 
     categories = get_categories(landscape)
     to_yaml(categories, str(dirs["index"] / "category_index.yaml"))
@@ -98,5 +103,17 @@ def run_etl(
             f.write(content)
 
     generate_letter_pages(summaries=summaries)
+
+    # Build new items for changelog
+    new_items = {}
+    for data in landscape_by_letter.values():
+        partial = data.get('partial', {})
+        for items_list in partial.values():
+            if items_list:
+                for item in items_list:
+                    if 'name' in item:
+                        new_items[item['name']] = item
+
+    build_changelog(old_items, new_items, output_dir)
 
     logger.info("Landscape processing finished")

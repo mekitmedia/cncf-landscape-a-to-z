@@ -104,22 +104,38 @@ def get_model(agent_name: str):
     gateway_key = settings.raw_gateway_key
     google_key = settings.raw_google_key
 
-    if gateway_key:
+    env_hint = "op run --env-file=../.env -- just workflow" if os.path.exists("../.env") else "op run -- just workflow"
+
+    if gateway_key and not gateway_key.startswith('op://'):
         return model_name
 
-    if google_key:
+    if google_key and not google_key.startswith('op://'):
+        from pydantic_ai.providers.google import GoogleProvider
+
         # Strip gateway prefix for direct Google usage
         if model_name.startswith('gateway/google-vertex:'):
             model_name = model_name.replace('gateway/google-vertex:', '')
         elif model_name.startswith('gateway/'):
             raise RuntimeError(f"Direct Google usage does not support non-Google model: {model_name}")
             
-        return GoogleModel(model_name)
-    
+        return GoogleModel(model_name, provider=GoogleProvider(api_key=google_key))
+
+    unresolved_refs = []
+    if gateway_key and gateway_key.startswith('op://'):
+        unresolved_refs.append("PYDANTIC_AI_GATEWAY_API_KEY")
+    if google_key and google_key.startswith('op://'):
+        unresolved_refs.append("GOOGLE_API_KEY")
+
+    if unresolved_refs:
+        raise RuntimeError(
+            f"Unresolved 1Password reference(s): {', '.join(unresolved_refs)}. Run with 1Password, e.g. `{env_hint}`."
+        )
+
     raise RuntimeError(
-        f"Neither PYDANTIC_AI_GATEWAY_API_KEY nor GOOGLE_API_KEY environment variable is set. "
-        f"Cannot initialize the {agent_name} agent without a configured model."
+        "No usable API key configured. Set PYDANTIC_AI_GATEWAY_API_KEY or GOOGLE_API_KEY "
+        f"(or run with 1Password, e.g. `{env_hint}`)."
     )
+
 
 
 def fetch_live_google_models(google_key: Optional[str]):
@@ -141,7 +157,6 @@ def fetch_live_google_models(google_key: Optional[str]):
     except Exception:
         pass
     return None
-
 
 def get_available_models():
     """Get a list of available models based on active key type (Google AI Studio vs Gateway)."""

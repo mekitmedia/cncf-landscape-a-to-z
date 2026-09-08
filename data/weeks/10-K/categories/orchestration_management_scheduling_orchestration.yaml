@@ -7,6 +7,15 @@
   repo_url: https://github.com/kedacore/keda
   twitter: https://twitter.com/kedaorg
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Open, Multi-Cloud, Multi-Cluster Kubernetes Orchestration
+  featured: true
+  homepage_url: https://karmada.io/
+  logo: karmada.svg
+  name: Karmada
+  project: graduated
+  repo_url: https://github.com/karmada-io/karmada
+  twitter: https://x.com/karmada_io
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: "Knative is a developer-focused serverless application layer which\
     \ is a great complement to the existing Kubernetes application constructs. Knative\
     \ consists of three components: an HTTP-triggered autoscaling container runtime\
@@ -40,15 +49,6 @@
   project: graduated
   repo_url: https://github.com/kubernetes/kubernetes
   twitter: https://twitter.com/kubernetesio
-- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  description: Open, Multi-Cloud, Multi-Cluster Kubernetes Orchestration
-  featured: true
-  homepage_url: https://karmada.io/
-  logo: karmada.svg
-  name: Karmada
-  project: incubating
-  repo_url: https://github.com/karmada-io/karmada
-  twitter: https://x.com/karmada_io
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: KAI Scheduler is a robust, efficient, and scalable Kubernetes scheduler
     that optimizes GPU resource allocation for AI workloads in large-scale clusters.
