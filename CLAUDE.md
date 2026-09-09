@@ -10,5 +10,3 @@ See [`AGENTS.md`](file:///home/xnok/.gemini/antigravity/worktrees/cncf-landscape
 - **Strongly-Typed Pydantic Models**: Use `BaseModel` and `BaseSettings` for settings, data structures, and state (no untyped dicts).
 - **Secret Management**: Protect all API keys and credentials with `pydantic.SecretStr`. Rely on native `SecretStr` string representation instead of custom masking functions.
 - **Agent Testing with Golden Stubs**: Always use `FunctionModel` / `TestModel` via `agent.override()` with golden responses instead of artificial mock objects.
-
-

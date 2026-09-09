@@ -40,4 +40,3 @@ When interacting with this repository, AI agents must distinguish between two op
 
 ## Available Skills
 - `cncf-weekly-content`: `.agents/skills/cncf-weekly-content/SKILL.md`
-

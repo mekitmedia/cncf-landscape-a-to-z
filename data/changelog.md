@@ -10,4 +10,3 @@
 ## 🔄 Updated Tools
 
 - **Karmada**: Status changed from **incubating** to **graduated**
-
