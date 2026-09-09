@@ -1085,10 +1085,10 @@ items:
   Avro:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-09T01:47:27.231020+00:00'
+        completed_at: '2026-09-09T01:47:27.231020+00:00'
+        output_file: data/weeks/00-A/research/avro.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -1123,10 +1123,10 @@ items:
   Azure Functions:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-09T01:52:54.954640+00:00'
+        completed_at: '2026-09-09T01:52:54.954640+00:00'
+        output_file: data/weeks/00-A/research/azure_functions.yaml
         error_message: null
         retry_count: 0
         agent: researcher

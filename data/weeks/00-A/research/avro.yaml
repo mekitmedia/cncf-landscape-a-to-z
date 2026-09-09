@@ -1,0 +1,24 @@
+project_name: Avro
+summary: Apache Avro™ is a leading data serialization system, offering excellent schema evolution and is widely used for streaming data pipelines.
+key_features:
+- "Rich Data Structures: Supports complex data types and nested structures."
+- "Compact, Fast Binary Data Format: Ensures efficient data storage and transmission."
+- "Schema Evolution: Allows reading data written by an older schema with a newer schema and vice versa."
+- "Self-describing Data: Schemas are stored with the data, making it easy to read dynamically without prior knowledge of the schema."
+- "Multi-language Support: Implementations available for Java, Python, C++, Ruby, Rust, JavaScript, and more."
+recent_updates: "Actively maintained by the Apache Software Foundation. Recent releases include version 1.11.x."
+use_cases: "Leading serialization format for record data, often the first choice for streaming data pipelines like Apache Kafka, and data storage in Hadoop."
+interesting_facts: "Avro relies on schemas defined in JSON, integrating smoothly with dynamically typed languages."
+get_started: "Get started with Apache Avro by visiting the official docs: https://avro.apache.org/docs/"
+related_tools:
+- Apache Kafka
+- Protocol Buffers
+- Apache Thrift
+- Apache Parquet
+sources:
+- label: "Official Website"
+  url: "https://avro.apache.org/"
+- label: "GitHub Repository"
+  url: "https://github.com/apache/avro"
+- label: "Apache Avro vs Protocol Buffers (Confluent)"
+  url: "https://www.confluent.io/blog/avro-vs-protobuf-vs-json-schema/"

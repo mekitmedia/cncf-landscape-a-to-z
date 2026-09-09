@@ -1,0 +1,23 @@
+project_name: Azure Functions
+summary: "Azure Functions is a serverless solution that allows you to write less code, maintain less infrastructure, and save on costs."
+key_features:
+- "Serverless computing: Focus on code while the cloud takes care of the infrastructure."
+- "Event-driven architecture: Respond to events like HTTP requests, database changes, or message queues."
+- "Multiple language support: Write functions in C#, Java, JavaScript, TypeScript, Python, or PowerShell."
+- "Integrated security: Secure HTTP-triggered functions with OAuth providers like Microsoft Entra ID."
+- "Stateful orchestration: Build stateful serverless applications using Durable Functions."
+recent_updates: "Continuous updates provided by Microsoft, including enhanced support for new programming language versions and better integration with Azure services."
+use_cases: "Building web APIs, processing file uploads, responding to database changes, executing scheduled tasks, and processing IoT data streams."
+interesting_facts: "Azure Functions was launched by Microsoft to provide a robust competitor in the serverless space and integrates seamlessly with the rest of the Azure ecosystem."
+get_started: "To get started, install the Azure Functions Core Tools via CLI or use the Azure extension in Visual Studio Code."
+docs_url: "https://learn.microsoft.com/en-us/azure/azure-functions/"
+related_tools:
+- AWS Lambda
+- Google Cloud Functions
+sources:
+- label: "Official Documentation"
+  url: "https://learn.microsoft.com/en-us/azure/azure-functions/"
+- label: "Azure Functions Core Tools GitHub"
+  url: "https://github.com/Azure/azure-functions-core-tools"
+- label: "Review: Getting Started with Azure Functions"
+  url: "https://www.infoworld.com/article/3639912/how-to-get-started-with-azure-functions.html"
