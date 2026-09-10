@@ -214,7 +214,7 @@ def generate_letter_pages(output_dir: str = "website/content", summaries: dict =
             summary = summaries.get(week_key, "")
 
         content = f"""---
-title: "Letter {letter}: CNCF Projects Starting with {letter}"
+title: "Weeks {index * 2 + 1}-{index * 2 + 2}: CNCF Projects Starting with {letter}"
 letter: "{letter}"
 week: {index}
 data_key: "{week_key}"

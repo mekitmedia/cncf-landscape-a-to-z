@@ -1,5 +1,5 @@
 ---
-title: "Letter W: CNCF Projects Starting with W"
+title: "Weeks 45-46: CNCF Projects Starting with W"
 letter: "W"
 week: 22
 data_key: "22-W"
