@@ -1,0 +1,45 @@
+name: Scheduled Jules Content Task
+
+on:
+  schedule:
+    # Run twice daily (00:00 UTC and 12:00 UTC)
+    - cron: '0 0,12 * * *'
+  workflow_dispatch:
+    inputs:
+      custom_prompt:
+        description: 'Optional custom override prompt for Jules'
+        required: false
+        type: string
+
+concurrency:
+  group: jules-schedule-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  jules-task:
+    runs-on: ubuntu-latest
+    environment: agents
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Load Jules Prompt
+        id: load-prompt
+        run: |
+          if [ -n "${{ inputs.custom_prompt }}" ]; then
+            echo "PROMPT=${{ inputs.custom_prompt }}" >> "$GITHUB_ENV"
+          else
+            PROMPT_CONTENT=$(cat .github/prompts/jules_prompt.md)
+            EOF=$(dd if=/dev/urandom bs=15 count=1 status=none | base64)
+            echo "PROMPT<<$EOF" >> "$GITHUB_ENV"
+            echo "$PROMPT_CONTENT" >> "$GITHUB_ENV"
+            echo "$EOF" >> "$GITHUB_ENV"
+          fi
+
+      - name: Run Jules Action
+        uses: google-github-actions/jules-action@v1
+        with:
+          prompt: ${{ env.PROMPT }}
+        env:
+          JULES_API_KEY: ${{ secrets.JULES_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
