@@ -1,5 +1,5 @@
 ---
-title: "Week 26: Letter Z"
+title: "Weeks 51-52: CNCF Projects Starting with Z"
 letter: "Z"
 week: 25
 data_key: "25-Z"
@@ -13,11 +13,11 @@ This week has a total of 6 items.
 
 - **Provisioning Security Compliance**: 1 items
 
-- **Runtime Cloud Native Storage**: 1 items
-
-- **App Definition And Development Continuous Integration Delivery**: 1 items
+- **Wasm Languages**: 1 items
 
 - **Observability And Analysis Observability**: 2 items
 
-- **Wasm Languages**: 1 items
+- **App Definition And Development Continuous Integration Delivery**: 1 items
+
+- **Runtime Cloud Native Storage**: 1 items
 

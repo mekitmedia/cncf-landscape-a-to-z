@@ -1,5 +1,5 @@
 ---
-title: "Week 10: Letter J"
+title: "Weeks 19-20: CNCF Projects Starting with J"
 letter: "J"
 week: 9
 data_key: "09-J"
@@ -11,19 +11,19 @@ layout: "list"
 This week has a total of 9 items.
 
 
-- **Provisioning Automation Configuration**: 1 items
+- **Platform Paas Container Service**: 1 items
 
-- **Runtime Cloud Native Storage**: 1 items
+- **Wasm Languages**: 1 items
 
 - **App Definition And Development Application Definition Image Build**: 1 items
 
-- **App Definition And Development Continuous Integration Delivery**: 2 items
-
-- **Platform Paas Container Service**: 1 items
-
 - **Observability And Analysis Observability**: 1 items
 
-- **Wasm Languages**: 1 items
+- **App Definition And Development Continuous Integration Delivery**: 2 items
+
+- **Provisioning Automation Configuration**: 1 items
+
+- **Runtime Cloud Native Storage**: 1 items
 
 - **Ai Agent Agent Tool**: 1 items
 
