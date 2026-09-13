@@ -1,0 +1,26 @@
+project_name: "Azure Service Fabric"
+homepage_url: "https://docs.microsoft.com/en-us/azure/service-fabric/"
+repo_url: "https://github.com/Microsoft/service-fabric"
+cncf_status: "non-cncf"
+summary: "A distributed systems platform that makes it easy to package, deploy, and manage scalable and reliable microservices and containers."
+key_features:
+  - "Microservices and container orchestration"
+  - "State management"
+  - "High availability and scaling"
+latest_release:
+  version: "unknown"
+  date: "unknown"
+  url: "https://github.com/Microsoft/service-fabric/releases"
+recent_updates: "Ongoing support and updates for containerized application management."
+use_cases: "Running mission-critical, scalable microservices architectures."
+interesting_facts: "Powers many core Microsoft services like Azure SQL Database and Skype for Business."
+get_started: "Follow the tutorials in the official Azure documentation to deploy a cluster."
+docs_url: "https://docs.microsoft.com/en-us/azure/service-fabric/"
+related_tools:
+  - "Kubernetes"
+  - "Docker Swarm"
+sources:
+  - label: "Azure Service Fabric Documentation"
+    url: "https://docs.microsoft.com/en-us/azure/service-fabric/"
+  - label: "GitHub Repository"
+    url: "https://github.com/Microsoft/service-fabric"
