@@ -51,6 +51,7 @@
                     <button type="button" class="px-4 py-2 rounded-full text-sm font-medium bg-slate-200 text-slate-700 hover:bg-slate-300 transition-colors focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none filter-btn" data-filter="graduated" aria-pressed="false">Graduated</button>
                     <button type="button" class="px-4 py-2 rounded-full text-sm font-medium bg-slate-200 text-slate-700 hover:bg-slate-300 transition-colors focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none filter-btn" data-filter="incubating" aria-pressed="false">Incubating</button>
                     <button type="button" class="px-4 py-2 rounded-full text-sm font-medium bg-slate-200 text-slate-700 hover:bg-slate-300 transition-colors focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none filter-btn" data-filter="sandbox" aria-pressed="false">Sandbox</button>
+                    <button type="button" class="px-4 py-2 rounded-full text-sm font-medium bg-slate-200 text-slate-700 hover:bg-slate-300 transition-colors focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none filter-btn" data-filter="non-cncf" aria-pressed="false">Non-CNCF</button>
                 </div>
                 {{ range $filename, $items := $categoriesData }}
 
@@ -60,18 +61,29 @@
                                 {{ range $items }}
                                     {{ $sanitizedName := .name | lower | replaceRE " " "_" | replaceRE "&" "and" | replaceRE "/" "_" | replaceRE "\\." "_" | replaceRE "," "" }}
                                     {{ $projectResearch := index $researchData $sanitizedName }}
+                                    {{ $status := "non-cncf" }}
+                                    {{ if .project }}
+                                        {{ $status = lower .project }}
+                                    {{ end }}
+                                    {{ if or (eq $status "none") (eq $status "") }}
+                                        {{ $status = "non-cncf" }}
+                                    {{ end }}
                                     
-                                    <div class="bg-white p-6 rounded-2xl border border-slate-200 hover:border-blue-400 hover:shadow-xl hover:shadow-blue-50 transition-all group project-card" data-project="{{ if .project }}{{ lower .project }}{{ else }}none{{ end }}">
+                                    <div class="bg-white p-6 rounded-2xl border border-slate-200 hover:border-blue-400 hover:shadow-xl hover:shadow-blue-50 transition-all group project-card" data-project="{{ $status }}">
                                         <div class="flex justify-between items-start mb-4">
-                                            {{ if .project }}
-                                        {{ $projectClass := "bg-gray-100 text-gray-700" }}
-                                        {{ if eq (lower .project) "graduated" }}
-                                            {{ $projectClass = "bg-green-100 text-green-700" }}
-                                        {{ else if eq (lower .project) "incubating" }}
-                                            {{ $projectClass = "bg-blue-100 text-blue-700" }}
-                                        {{ end }}
-                                        <div class="px-2 py-1 rounded text-[10px] font-bold uppercase tracking-tighter {{ $projectClass }}">{{ .project }}</div>
+                                            {{ $badgeClass := "bg-amber-100 text-amber-800" }}
+                                            {{ $badgeText := "Non-CNCF" }}
+                                            {{ if eq $status "graduated" }}
+                                                {{ $badgeClass = "bg-green-100 text-green-700" }}
+                                                {{ $badgeText = .project }}
+                                            {{ else if eq $status "incubating" }}
+                                                {{ $badgeClass = "bg-blue-100 text-blue-700" }}
+                                                {{ $badgeText = .project }}
+                                            {{ else if eq $status "sandbox" }}
+                                                {{ $badgeClass = "bg-purple-100 text-purple-700" }}
+                                                {{ $badgeText = .project }}
                                             {{ end }}
+                                            <div class="px-2 py-1 rounded text-[10px] font-bold uppercase tracking-tighter {{ $badgeClass }}">{{ $badgeText }}</div>
                                         </div>
                                         <div class="flex items-center gap-3 mb-2">
                                             {{ if .logo }}

@@ -30,17 +30,28 @@
             <div class="flex items-start justify-between mb-4">
                 <div>
                     <h1 class="text-4xl font-bold mb-2">{{ .Params.project_name }}</h1>
+                    {{ $status := "non-cncf" }}
                     {{ if .Params.cncf_status }}
-                    {{ $statusClass := "bg-gray-100 text-gray-700" }}
-                    {{ if eq (lower .Params.cncf_status) "graduated" }}
-                        {{ $statusClass = "bg-green-100 text-green-700" }}
-                    {{ else if eq (lower .Params.cncf_status) "incubating" }}
-                        {{ $statusClass = "bg-blue-100 text-blue-700" }}
+                        {{ $status = lower .Params.cncf_status }}
                     {{ end }}
-                    <div class="inline-block px-3 py-1 rounded text-sm font-bold uppercase tracking-tighter {{ $statusClass }}">
-                        {{ .Params.cncf_status }}
+                    {{ if or (eq $status "none") (eq $status "") }}
+                        {{ $status = "non-cncf" }}
+                    {{ end }}
+                    {{ $badgeClass := "bg-amber-100 text-amber-800" }}
+                    {{ $badgeText := "non-cncf" }}
+                    {{ if eq $status "graduated" }}
+                        {{ $badgeClass = "bg-green-100 text-green-700" }}
+                        {{ $badgeText = .Params.cncf_status }}
+                    {{ else if eq $status "incubating" }}
+                        {{ $badgeClass = "bg-blue-100 text-blue-700" }}
+                        {{ $badgeText = .Params.cncf_status }}
+                    {{ else if eq $status "sandbox" }}
+                        {{ $badgeClass = "bg-purple-100 text-purple-700" }}
+                        {{ $badgeText = .Params.cncf_status }}
+                    {{ end }}
+                    <div class="inline-block px-3 py-1 rounded text-sm font-bold uppercase tracking-tighter {{ $badgeClass }}">
+                        {{ $badgeText }}
                     </div>
-                    {{ end }}
                 </div>
             </div>
 
