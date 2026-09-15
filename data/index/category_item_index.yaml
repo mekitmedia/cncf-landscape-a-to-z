@@ -94,6 +94,7 @@ AI Native Infra:
   - Kueue
   - LeaderWorkerSet
   - Nivida NeMo
+  - Topograph
   - Yunikorn
   Storage: []
   Workload Runtime:
@@ -335,6 +336,7 @@ Inference:
   Framework:
   - AIBrix
   - Arks
+  - InferNex
   - KAITO
   - KServe
   - llm-d
