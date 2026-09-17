@@ -1,0 +1,25 @@
+project_name: "Autogen"
+homepage_url: "https://microsoft.github.io/autogen/"
+repo_url: "https://github.com/microsoft/autogen"
+cncf_status: "non-cncf"
+summary: "AutoGen is an open-source programming framework for building AI agents and facilitating cooperation among multiple agents to solve tasks."
+key_features:
+  - "Multi-agent conversation framework for orchestrating complex workflows."
+  - "Customizable and conversable agents that can integrate with LLMs, tools, and human inputs."
+  - "Seamless integration with human participation, allowing human-in-the-loop workflows."
+latest_release:
+  version: "python-v0.7.5"
+  date: "2025-09-30"
+  url: "https://github.com/microsoft/autogen/releases/tag/python-v0.7.5"
+recent_updates: "Recent updates include improvements to reasoning effort parameters for OpenAI models, Redis caching support, and various bug fixes for streaming and thinking modes."
+use_cases: "Building complex AI agent applications, multi-agent workflows, code generation and execution, and cooperative problem solving with LLMs."
+interesting_facts: "Developed by Microsoft Research, Autogen has gained immense popularity for providing a simple yet powerful abstraction for multi-agent LLM systems."
+get_started: "Install the library via `pip install pyautogen` and start by defining a `UserProxyAgent` and an `AssistantAgent` to initiate a conversation."
+docs_url: "https://microsoft.github.io/autogen/docs/Getting-Started"
+industry_opinions:
+  - "Discussed on Hacker News as an enabler of next-gen large language model applications: https://news.ycombinator.com/item?id=37926741"
+  - "Debated on e2b.dev as a powerful guide to code execution by LLMs: https://e2b.dev/blog/microsoft-s-autogen"
+related_tools:
+  - "Agno"
+  - "LangChain"
+  - "CrewAI"
