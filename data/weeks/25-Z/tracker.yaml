@@ -2,18 +2,18 @@ items:
   Zabbix:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-19T01:57:26.086996+00:00'
+        completed_at: '2026-09-19T01:57:26.087018+00:00'
+        output_file: data/weeks/25-Z/research/zabbix.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-19T01:57:26.087471+00:00'
+        completed_at: '2026-09-19T01:57:26.087478+00:00'
+        output_file: website/content/posts/2026-Z.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -21,18 +21,18 @@ items:
   Zenko:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-19T01:57:26.087921+00:00'
+        completed_at: '2026-09-19T01:57:26.087929+00:00'
+        output_file: data/weeks/25-Z/research/zenko.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-19T01:57:26.088242+00:00'
+        completed_at: '2026-09-19T01:57:26.088247+00:00'
+        output_file: website/content/posts/2026-Z.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -40,18 +40,18 @@ items:
   Zig:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-19T01:57:26.088587+00:00'
+        completed_at: '2026-09-19T01:57:26.088592+00:00'
+        output_file: data/weeks/25-Z/research/zig.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-19T01:57:26.088924+00:00'
+        completed_at: '2026-09-19T01:57:26.088930+00:00'
+        output_file: website/content/posts/2026-Z.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -59,18 +59,18 @@ items:
   Zipkin:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-19T01:57:16.784666+00:00'
+        completed_at: '2026-09-19T01:57:16.784671+00:00'
+        output_file: data/weeks/25-Z/research/zipkin.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-19T01:57:16.784263+00:00'
+        completed_at: '2026-09-19T01:57:16.784268+00:00'
+        output_file: website/content/posts/2026-Z.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -78,18 +78,18 @@ items:
   Zitadel:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-19T01:57:16.783883+00:00'
+        completed_at: '2026-09-19T01:57:16.783890+00:00'
+        output_file: data/weeks/25-Z/research/zitadel.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-19T01:57:16.783486+00:00'
+        completed_at: '2026-09-19T01:57:16.783494+00:00'
+        output_file: website/content/posts/2026-Z.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -97,18 +97,18 @@ items:
   Zuul:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-19T01:57:16.783132+00:00'
+        completed_at: '2026-09-19T01:57:16.783139+00:00'
+        output_file: data/weeks/25-Z/research/zuul.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-19T01:57:16.782759+00:00'
+        completed_at: '2026-09-19T01:57:16.782770+00:00'
+        output_file: website/content/posts/2026-Z.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -116,10 +116,10 @@ items:
 week_tasks:
   tasks:
     blog_post:
-      status: pending
-      started_at: null
-      completed_at: null
-      output_file: null
+      status: completed
+      started_at: '2026-09-19T01:57:16.782125+00:00'
+      completed_at: '2026-09-19T01:57:16.782145+00:00'
+      output_file: website/content/posts/2026-Z.md
       error_message: null
       retry_count: 0
       agent: writer
