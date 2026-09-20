@@ -18,16 +18,18 @@ The ETL pipeline is a deterministic data processing system that fetches the CNCF
 │  EXTRACT                   TRANSFORM                  LOAD   │
 │     │                          │                        │    │
 │     ├─> Fetch YAML  ──>   ├─> Filter by letter  ──>  ├─> Write YAML files    │
-│     │   (HTTP/local)       │   (A-Z, 26 weeks)       │   (data/week_XX_Y/)   │
+│     │   (HTTP/local)       │   (A-Z, 26 weeks)       │   (data/weeks/<ID>/)  │
 │     │                      │                          │                       │
 │     │                      ├─> Exclude archived ──>  ├─> Generate summaries  │
 │     │                      │   projects               │   (README.md)         │
 │     │                      │                          │                       │
 │     │                      ├─> Sanitize names   ──>  ├─> Create Hugo pages   │
-│     │                      │   (filesystem safe)      │   (letters/Y/)        │
+│     │                      │   (filesystem safe)      │   (letters/<LETTER>/) │
 │     │                      │                          │                       │
 │     │                      └─> Group by category ──> └─> Write indexes        │
-│                                                          (stats, mappings)    │
+│     │                                                 │   (stats, mappings)   │
+│     │                                                 │                       │
+│     │                                                 └─> Init tracker.yaml   │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -186,18 +188,17 @@ Write transformed data to filesystem in structured YAML files and generate Hugo 
 
 ### Output Files
 
-#### 1. **Week Directories** (`data/week_XX_Y/`)
+#### 1. **Week Directories** (`data/weeks/<WEEK_ID>/`)
 
 Structure for each week:
 ```
-data/week_00_A/
-├── app_definition_and_development_application_definition_image_build.yaml
-├── app_definition_and_development_continuous_integration_delivery.yaml
-├── app_definition_and_development_database.yaml
-├── cnai_automl.yaml
-├── observability_and_analysis_logging.yaml
-├── tasks.yaml  # Simple list of project names
-└── README.md   # Generated summary
+data/weeks/00-A/
+├── categories/
+│   ├── app_definition_and_development_database.yaml
+│   ├── cnai_automl.yaml
+│   └── observability_and_analysis_logging.yaml
+├── tracker.yaml  # State machine and dependency graph
+└── README.md     # Generated summary
 ```
 
 **Category Files** (e.g., `app_definition_and_development_database.yaml`):
@@ -335,25 +336,27 @@ def to_yaml(data: dict, path: str):
 
 | File/Directory | Purpose | Consumers | Update Strategy |
 |---------------|---------|-----------|-----------------|
-| `data/week_XX_Y/*.yaml` | Category project details | Agentic Researcher | Full regeneration |
-| `data/week_XX_Y/tasks.yaml` | Simple project name list | Agentic Editor | Full regeneration |
-| `data/week_XX_Y/README.md` | Week summary for humans | Documentation | Full regeneration |
-| `data/categories.yaml` | Full category taxonomy | Hugo templates | Full regeneration |
-| `data/category_index.yaml` | Category→path mapping | Hugo templates | Full regeneration |
-| `data/category_item_index.yaml` | Category→items index | Hugo templates | Full regeneration |
-| `data/stats_*.yaml` | Various statistics | Analytics/Hugo | Full regeneration |
-| `data/excluded_items.yaml` | Audit trail of exclusions | Manual review | Full regeneration |
-| `website/content/letters/Y/` | Hugo letter pages | Hugo site | Full regeneration |
+| File/Directory | Purpose | Consumers | Update Strategy |
+|---------------|---------|-----------|-----------------|
+| `data/weeks/<WEEK_ID>/categories/*.yaml` | Category project details | Agentic Researcher | Full regeneration |
+| `data/weeks/<WEEK_ID>/tracker.yaml` | Task state machine & dependency graph | Orchestrator / Agents | State sync |
+| `data/weeks/<WEEK_ID>/README.md` | Week summary for humans | Documentation | Full regeneration |
+| `data/index/categories.yaml` | Full category taxonomy | Hugo templates | Full regeneration |
+| `data/index/category_index.yaml` | Category→path mapping | Hugo templates | Full regeneration |
+| `data/index/category_item_index.yaml` | Category→items index | Hugo templates | Full regeneration |
+| `data/stats/stats_*.yaml` | Various statistics | Analytics/Hugo | Full regeneration |
+| `data/extras/excluded_items.yaml` | Audit trail of exclusions | Manual review | Full regeneration |
+| `website/content/letters/<LETTER>/` | Hugo letter pages | Hugo site | Full regeneration |
 
 ### Data Contracts
 
 **ETL guarantees for downstream consumers**:
-1. ✅ All projects in `tasks.yaml` have corresponding entries in category YAML files
+1. ✅ All projects in `tracker.yaml` have corresponding entries in category YAML files
 2. ✅ Every project has `name` field (required)
 3. ✅ Projects without `repo_url` are excluded (open source only)
 4. ✅ Archived projects are excluded
 5. ✅ Category filenames are filesystem-safe (sanitized)
-6. ✅ Week directories follow `week_{index:02d}_{letter}` pattern
+6. ✅ Week directories follow `<index:02d>-<LETTER>` pattern (e.g., `00-A`, `25-Z`)
 7. ✅ All YAML files are valid and parseable
 
 **What ETL does NOT guarantee**:
@@ -458,11 +461,13 @@ cat data/categories.yaml
 
 | Directory | ETL (Write) | Agentic (Write) | Agentic (Read) | Hugo (Read) |
 |-----------|-------------|-----------------|----------------|-------------|
-| `data/week_XX_Y/*.yaml` | ✅ Full regen | ❌ Never | ✅ Yes | ✅ Yes |
-| `data/week_XX_Y/research/` | ❌ Never | ✅ Append | ✅ Yes | ❌ No |
-| `data/*.yaml` (indexes) | ✅ Full regen | ❌ Never | ❌ No | ✅ Yes |
+| `data/weeks/<WEEK_ID>/categories/` | ✅ Full regen | ❌ Never | ✅ Yes | ✅ Yes |
+| `data/weeks/<WEEK_ID>/research/` | ❌ Never | ✅ Append | ✅ Yes | ❌ No |
+| `data/weeks/<WEEK_ID>/tracker.yaml`| ✅ Init/Sync | ✅ State update | ✅ Yes | ❌ No |
+| `data/index/*.yaml` | ✅ Full regen | ❌ Never | ❌ No | ✅ Yes |
 | `website/content/letters/` | ✅ Full regen | ❌ Never | ❌ No | ✅ Yes |
-| `website/content/posts/` | ❌ Never | ✅ Editor only | ❌ No | ✅ Yes |
+| `website/content/tools/` | ❌ Never | ✅ Writer | ❌ No | ✅ Yes |
+| `website/content/posts/` | ❌ Never | ✅ Writer | ❌ No | ✅ Yes |
 
 ### Safe Concurrent Execution
 
@@ -474,7 +479,7 @@ python src/cli.py run workflow  # Agentic reads data/
 ```
 
 **Conflict Risk**: Running simultaneously
-- ETL regenerates `data/week_XX_Y/*.yaml` while Agentic reads them
+- ETL regenerates `data/weeks/<WEEK_ID>/categories/*.yaml` while Agentic reads them
 - **Impact**: Agentic may read partial/corrupt YAML files
 - **Mitigation**: Use file locking OR schedule workflows at different times
 
@@ -488,22 +493,14 @@ python src/cli.py run workflow  # Agentic reads data/
 ### Verification Commands
 
 ```bash
-# Count week directories (should be 26: A-Z)
-ls -d data/week_* | wc -l
-
-# Check project count per week
-for dir in data/week_*; do
-  echo "$dir: $(grep '^- ' $dir/tasks.yaml | wc -l) projects"
-done
+# Count week directories (should be 26: 00-A to 25-Z)
+ls -d data/weeks/* | wc -l
 
 # Verify YAML validity
-python -c "import yaml; yaml.safe_load(open('data/week_00_A/tasks.yaml'))"
-
-# Check for duplicates
-cat data/week_*/tasks.yaml | sort | uniq -d
+python -c "import yaml; yaml.safe_load(open('data/weeks/00-A/tracker.yaml'))"
 
 # Inspect excluded items
-cat data/excluded_items.yaml
+cat data/extras/excluded_items.yaml
 ```
 
 ### Common Issues

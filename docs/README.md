@@ -1,145 +1,143 @@
 # CNCF Landscape A-to-Z Documentation
 
-Welcome to the technical documentation for the CNCF Landscape A-to-Z project. This documentation covers both the deterministic ETL pipeline and the AI-powered agentic workflow for automated content generation.
+Welcome to the technical documentation for the CNCF Landscape A-to-Z project. This documentation covers both the deterministic ETL pipeline and the AI-powered agentic workflow for automated content generation, research note-taking, and editorial governance.
 
-## 📚 Documentation Overview
+---
 
-This project automates the generation of weekly content about CNCF landscape projects through two independent workflows:
+## 📚 Documentation Structure
 
-1. **ETL Pipeline** - Deterministic data processing that extracts, transforms, and loads CNCF landscape data
-2. **Agentic Workflow** - AI agents (Editor, Researcher, Writer) that research projects and generate blog posts through iterative editorial refinement
+```
+docs/
+├── 🏛️ Architecture & System Design
+│   ├── architecture.md                        # Overall system architecture & 2-layer design
+│   └── website-architecture.md                # Hugo 3-level content hierarchy & tool pages
+│
+├── ⚙️ Pipelines & Orchestration
+│   ├── etl-pipeline.md                        # Deterministic CNCF extraction & taxonomy ETL
+│   ├── graph-driven-orchestration.md          # Parallel graph execution & task dependencies
+│   └── tracker.md                             # State tracking, task lifecycle & tracker.yaml
+│
+├── 🛡️ Editorial Governance & Grounding
+│   ├── editorial-governance-and-grounding.md  # Provenance, quote grounding, no-vector-DB design
+│   └── model-capabilities-and-judge-design.md # Model tiers, bias mitigation & LLM judge blueprints
+│
+├── 🤖 Agent Workflows & Contributor Skills
+│   ├── agentic-workflow.md                    # Editor, Researcher, Writer agents & iteration loop
+│   ├── jules-task-delegation.md               # Task queue & self-cleaning Jules lifecycle
+│   └── ../.agents/skills/cncf-weekly-content/ # Multi-harness portable skill
+│
+└── 🔬 Explorations & Optimizations
+    ├── token-optimization.md                  # Token reduction & prompt engineering
+    └── iteration-and-tokens.md                # Cost vs. quality trade-offs in feedback loops
+```
 
-## 📖 Documentation Files
+---
 
-### [architecture.md](architecture.md)
+## 📖 Directory of Documentation Files
+
+### Core Architecture & System Design
+
+#### [architecture.md](architecture.md)
 **System Architecture & Design**
-
-Complete system design including:
-- Two-layer architecture (ETL + Agentic)
-- Data flow diagrams and workflow visualization
-- Iteration workflow (Editor-Writer feedback loop)
+- Two-layer architecture (Deterministic ETL + Agentic content generation)
+- End-to-end data flow from upstream CNCF landscape to published Hugo site
 - Conflict prevention through exclusive write zones
-- GitHub Actions integration and PR workflow
-- Future enhancement roadmap
+- GitHub Actions CI/CD integration and automated pull request workflow
 
-**Start here if you're new to the project** or need to understand the overall system design.
+#### [website-architecture.md](website-architecture.md)
+**Website Design, Tool Pages & Content Hierarchy**
+- Three-level content hierarchy (Level 1: Featured Tools → Level 2: Letter Categories → Level 3: Tool Deep Dives)
+- Tool page generation (`website/content/tools/`) from research notes
+- Hugo template structure, taxonomy mapping, and navigation
 
 ---
 
-### [etl-pipeline.md](etl-pipeline.md)
+### Pipelines & State Management
+
+#### [etl-pipeline.md](etl-pipeline.md)
 **ETL Pipeline Documentation**
+- Deterministic data processing (Extract, Transform, Load)
+- Input sources (`landscape.yml`) and output taxonomy files (`data/weeks/<WEEK_ID>/categories/`)
+- Data contracts, guarantees, sanitization, and category grouping
 
-Comprehensive guide to the deterministic data processing pipeline:
-- Extract, Transform, Load stages in detail
-- Input sources and output file structures
-- Data contracts and guarantees
-- File naming conventions and sanitization rules
-- Command-line usage and CI/CD integration
-- Monitoring, debugging, and performance optimization
+#### [graph-driven-orchestration.md](graph-driven-orchestration.md)
+**Graph-Driven Parallel Orchestration**
+- Parallel execution of independent item-level research tasks
+- Embedded task dependency graph (`research` → `content` → `blog_post`)
+- Batch scheduler (`get_ready_tasks`) for maximum concurrency
 
-**Read this when:**
-- Setting up or modifying the ETL pipeline
-- Understanding data folder structure
-- Debugging data processing issues
-- Adding new data transformations
-
----
-
-### [agentic-workflow.md](agentic-workflow.md)
-**Agentic Workflow Documentation**
-
-Deep dive into the AI-powered content generation system:
-- Agent trio roles (Editor, Researcher, Writer)
-- Editorial iteration loop (up to 3 revision cycles)
-- Research persistence and file management
-- TODO.md state tracking (version controlled)
-- Input/output mapping for each agent
-- Modifying agent behavior and prompts
-- Troubleshooting and manual intervention
-
-**Read this when:**
-- Running or debugging the agentic workflow
-- Adjusting agent prompts or editorial criteria
-- Understanding the iteration and approval process
-- Implementing research persistence features
+#### [tracker.md](tracker.md)
+**Task Tracker & State Machine**
+- Persistent task tracking via `data/weeks/<WEEK_ID>/tracker.yaml`
+- Task types (`research`, `content`, `blog_post`), states (`PENDING`, `IN_PROGRESS`, `COMPLETED`, `FAILED`), and retry policies
+- Tracker interface and synchronization with upstream ETL changes
 
 ---
 
-### Harness Skill: `.agents/skills/cncf-weekly-content/SKILL.md`
-**Contributor Skill for Any Coding Harness**
+### Editorial Governance & Content Quality
 
-Portable skill instructions that mirror the current Pydantic AI Editor, Researcher, and Writer responsibilities so contributors can execute the workflow with Claude Code, Opencode, or other harnesses.
+#### [editorial-governance-and-grounding.md](editorial-governance-and-grounding.md)
+**Editorial Governance, Provenance & Grounding Validation**
+- Separation of target publications (**Tool Pages** and **Weekly Blog Posts**) from intermediate artifacts (**Research Note-Taking**)
+- Multi-source provenance capturing verbatim quotes without requiring an external vector database
+- Decoupling of the orchestration tracker from the automated evaluation suite
+- Human-in-the-Loop (HITL) review gates and PR audit reporting
 
-**Read this when:**
-- You want to contribute content updates without using the Pydantic AI runtime
-- You need a single prompt/playbook that works across coding harnesses
-
----
-
-### [tracker.md](tracker.md)
-**Task Tracker System**
-
-Comprehensive guide to the task tracking and state management system:
-- Task types, states, and dependency management
-- Data models and storage architecture
-- Integration with agentic workflow
-- Progress tracking and error handling
-- Synchronization with ETL pipeline
-- Configuration and extensibility
-- Troubleshooting and debugging
-
-**Read this when:**
-- Understanding how tasks are tracked and managed
-- Working with task dependencies and state
-- Debugging workflow progress issues
-- Adding new task types or modifying tracking behavior
-- Implementing custom tracker backends
+#### [model-capabilities-and-judge-design.md](model-capabilities-and-judge-design.md) *(New)*
+**Model Capabilities & LLM Judge Design Guide**
+- Model evaluation tiers (Tier 1 Flash NLI, Tier 2 Frontier Editorial, Tier 3 Deep Reasoning)
+- Bias mitigations: self-enhancement, verbosity, position, and premature verdict biases
+- Rationale-first Pydantic schemas and 2-stage cascading judge architecture
+- Practical evaluation roadmap for subsequent implementation sessions
 
 ---
 
-### [website-architecture.md](website-architecture.md)
-**Website Design & Integration**
+### Agent Workflows & Contributor Skills
 
-Complete guide to the website implementation and data integration:
-- Three-level content hierarchy (Featured → All → Details)
-- Data flow from ETL through research to rendered pages
-- Hugo template system and content generation
-- Research persistence and file organization
-- Tool page generation from research YAML
-- Navigation patterns and user discovery flows
-- Integration between workflows and website
-- Implementation phases and roadmap
+#### [agentic-workflow.md](agentic-workflow.md)
+**Agentic Workflow & Editorial Feedback Loop**
+- Specialized agent roles: **Editor** (orchestration & quality review), **Researcher** (fact gathering & source extraction), **Writer** (synthesis of tool pages & blog posts)
+- Iterative editorial revision cycles (up to 3 rounds)
+- Prompt guidelines and editorial standards
 
-**Read this when:**
-- Building or modifying website features
-- Understanding how research feeds into website content
-- Implementing new templates or pages
-- Generating tool pages from research data
-- Troubleshooting website content display
+#### [jules-task-delegation.md](jules-task-delegation.md) *(New)*
+**Jules Task Delegation & Self-Cleaning Lifecycle Pattern**
+- Modular task queue architecture under `.github/prompts/tasks/`
+- Atomic task authoring principles and technical contract specifications
+- Self-cleaning task lifecycle (prompts delete themselves upon PR creation to keep backlog clean)
+- Dispatch options via GitHub CLI and Actions UI
+
+#### [CNCF Weekly Content Skill](../.agents/skills/cncf-weekly-content/SKILL.md)
+**Portable Skill for Claude Code, Codex/OpenAI, OpenCode, and Antigravity**
+- Harness-agnostic skill definition allowing contributors to run the weekly workflow without the Pydantic AI runtime
+
+---
+
+### Explorations & Optimization History
+
+#### [token-optimization.md](token-optimization.md) & [iteration-and-tokens.md](iteration-and-tokens.md)
+**Token Optimization & Empirical Evaluations**
+- Token usage benchmarks across agent roles
+- Context window pruning strategies and prompt compression
+- Cost-benefit analysis of multi-cycle editorial iterations
 
 ---
 
 ## 🚀 Quick Start
 
-### Running the Complete Workflow
-
+### 1. Deterministic ETL Run
 ```bash
-# 1. Run ETL to process CNCF landscape data
+# Extract and process CNCF landscape data into structured week buckets
 python src/cli.py run etl
-
-# 2. Verify data generated
-ls data/weeks/*
-
-# 3. Run agentic workflow (Editor selects next week automatically)
-python src/cli.py run workflow
-
-# 4. Check outputs
-cat TODO.md                           # Progress tracking
-ls data/weeks/00-A/research/          # Research files
-cat website/content/posts/2026-A.md   # Final blog post
 ```
 
-### Environment Setup
+### 2. State & Task Inspection
+```bash
+# Check current tasks and status for Week 00-A
+cat data/weeks/00-A/tracker.yaml
+```
+
+### 3. Agentic Workflow Execution
 
 ```bash
 # Option A: Run via 1Password CLI (recommended)
@@ -149,159 +147,34 @@ op run -- python src/cli.py run workflow
 export GOOGLE_API_KEY="your_gemini_api_key"
 export GEMINI_MODEL="gateway/google-vertex:gemini-2.5-flash"
 export LOGFIRE_TOKEN="your_logfire_token"  # Optional
+python src/cli.py run workflow
 ```
 
-## 🗂️ Key Concepts
+> **Tip for Git Worktrees**: Place your local `.env` in the parent directory containing your worktrees (e.g. `../.env`). `just` and 1Password CLI walk up parent directories to locate `../.env`, sharing configuration across all worktrees cleanly.
 
-### Data Flow
-
-```
-CNCF Landscape (upstream)
-    ↓
-ETL Pipeline
-    ↓
-data/weeks/XX-L/*.yaml (project metadata)
-    ↓
-Agentic Workflow (reads)
-    ├─> Tracker System (data/weeks/XX-L/tracker.yaml)
-    │   ├─> Task state management and dependencies
-    │   ├─> Progress tracking and error handling
-    │   └─> Synchronization with ETL changes
-    ├─> data/weeks/XX-L/research/*.yaml (persisted research)
-    ├─> website/content/posts/*.md (final blog posts)
-    └─> TODO.md (state tracking)
-```
-
-### Conflict Prevention
-
-The system is designed with **exclusive write zones** to prevent conflicts:
-
-| Directory/File | ETL | Agentic | Purpose |
-|---------------|-----|---------|---------|
-| `data/weeks/XX-L/*.yaml` | ✅ Write | ❌ Read-only | Project metadata |
-| `data/weeks/XX-L/tracker.yaml` | ❌ Never | ✅ Write | Task state tracking |
-| `data/weeks/XX-L/research/` | ❌ Never | ✅ Write | Research persistence |
-| `website/content/letters/` | ✅ Write | ❌ Never | Hugo letter pages |
-| `website/content/posts/` | ❌ Never | ✅ Write (Editor only) | Blog posts |
-| `TODO.md` | ❌ Never | ✅ Write (Editor only) | Progress tracking |
-
-### Workflow Execution Order
-
-1. **ETL runs first** (weekly schedule or manual) → Creates PR with updated data
-2. **Human reviews and merges** ETL PR
-3. **Agentic workflow runs** (manual trigger) → Reads stable data from main branch
-4. **Editor orchestrates** iteration loop (max 3 cycles)
-5. **PR opens for human review** with research files, blog post, and TODO.md updates
-6. **Human approves and merges** content PR
-7. **Hugo deploys** updated website
-
-## 🔍 Finding What You Need
-
-### I want to...
-
-- **Understand the overall system** → Read [architecture.md](architecture.md)
-- **Set up the ETL pipeline** → See [etl-pipeline.md](etl-pipeline.md) "Configuration" section
-- **Run the agentic workflow** → See [agentic-workflow.md](agentic-workflow.md) "Running the Workflow"
-- **Modify agent behavior** → See [agentic-workflow.md](agentic-workflow.md) "Modifying Agent Behavior"
-- **Debug data processing** → See [etl-pipeline.md](etl-pipeline.md) "Monitoring & Debugging"
-- **Understand file naming** → See [agentic-workflow.md](agentic-workflow.md) "File Naming & Persistence"
-- **Prevent workflow conflicts** → See [architecture.md](architecture.md) "Conflict Prevention"
-- **Track progress across runs** → See [agentic-workflow.md](agentic-workflow.md) "TODO.md Structure"
-- **Understand website architecture** → Read [website-architecture.md](website-architecture.md)
-- **Generate tool pages** → See [website-architecture.md](website-architecture.md) "Tool Page Generation"
-- **Work with Hugo templates** → See [website-architecture.md](website-architecture.md) "Template System"
-- **Integrate research with website** → See [website-architecture.md](website-architecture.md) "Integration Points"
-
-## 🏗️ Project Structure Reference
-
-```
-cncf-landscape-a-to-z/
-├── data/                          # ETL outputs (regenerated weekly)
-│   ├── week_00_A/                 # Week directories (A-Z)
-│   │   ├── *.yaml                 # Category project files (ETL writes)
-│   │   ├── tasks.yaml             # Simple project list (ETL writes)
-│   │   ├── README.md              # Week summary (ETL writes)
-│   │   └── research/              # Research persistence (Agentic writes)
-│   │       └── *.yaml             # Individual project research
-│   ├── categories.yaml            # Full taxonomy (ETL writes)
-│   ├── category_index.yaml        # Mappings (ETL writes)
-│   └── stats_*.yaml               # Statistics (ETL writes)
-├── website/
-│   └── content/
-│       ├── letters/               # Letter pages (ETL writes)
-│       │   └── A/, B/, ... Z/
-│       └── posts/                 # Blog posts (Agentic writes, Editor only)
-│           └── 2026-A.md, etc.
-├── TODO.md                        # Progress tracking (Agentic writes, versioned)
-├── src/
-│   ├── pipeline/                  # ETL implementation
-│   │   ├── extract.py
-│   │   ├── transform.py
-│   │   └── load.py
-│   └── agentic/                   # Agentic workflow implementation
-│       ├── agents/                # Agent implementations
-│       ├── flow.py                # Prefect orchestration
-│       ├── models.py              # Data models
-│       └── tools.py               # Agent tools
-└── docs/                          # Documentation (you are here!)
-    ├── README.md                  # This file
-    ├── architecture.md            # System design
-    ├── etl-pipeline.md            # ETL pipeline docs
-    └── agentic-workflow.md        # Agentic workflow docs
-```
-
-## 🤝 Contributing
-
-When making changes to the workflows:
-
-1. **Update documentation** - Keep docs in sync with code changes
-2. **Test both workflows** - Ensure ETL and Agentic don't conflict
-3. **Preserve exclusive write zones** - Don't introduce shared write access
-4. **Document breaking changes** - Update architecture.md if data contracts change
-5. **Maintain TODO.md format** - Keep iteration history structure consistent
-
-## 📋 Troubleshooting
-
-### Quick Diagnostics
-
+### 4. Inspect Generated Outputs
 ```bash
-# Verify ETL outputs
-ls -d data/weeks/* | wc -l             # Should be 26 (A-Z)
-python -c "import yaml; yaml.safe_load(open('data/weeks/00-A/tasks.yaml'))"
+# Inspect intermediate research notes
+ls data/weeks/00-A/research/
 
-# Check agentic outputs
-cat TODO.md                             # Progress and iteration history
-ls data/weeks/00-A/research/            # Research files present?
-cat website/content/posts/2026-A.md     # Final post generated?
+# Inspect target blog post
+cat website/content/posts/2026-A.md
 
-# Test workflows independently
-python src/cli.py run etl --output_dir /tmp/test_data
-python src/cli.py run workflow --limit 5  # Small test batch
+# Inspect target tool pages
+ls website/content/tools/
 ```
 
-### Common Issues
+---
 
-- **"TODO.md not found"** → First run; Editor creates it automatically
-- **Research files empty** → API rate limiting; check Logfire logs
-- **Conflicts between workflows** → Ensure ETL runs before Agentic
-- **Low-quality content** → Inspect research/*.yaml files, adjust prompts
+## 🤝 Key Governance & Contribution Rules
 
-See individual documentation files for detailed troubleshooting.
-
-## 🔗 Additional Resources
-
-- **CNCF Landscape**: https://landscape.cncf.io
-- **Prefect Documentation**: https://docs.prefect.io
-- **Pydantic AI**: https://ai.pydantic.dev
-- **Hugo Documentation**: https://gohugo.io/documentation
-
-## 📝 Documentation Maintenance
-
-This documentation is maintained alongside the codebase. When making changes:
-
-- Update [architecture.md](architecture.md) for design/architectural changes
-- Update [etl-pipeline.md](etl-pipeline.md) for ETL modifications
-- Update [agentic-workflow.md](agentic-workflow.md) for agentic workflow changes
-- Update this README.md if adding new documentation files or major sections
-
-Last updated: February 1, 2026
+1. **Exclusive Write Zones**:
+   - `data/weeks/<WEEK_ID>/categories/*.yaml` → **ETL only** (Read-only for agents)
+   - `data/weeks/<WEEK_ID>/tracker.yaml` → **Tracker / Orchestrator only**
+   - `data/weeks/<WEEK_ID>/research/*.yaml` → **Researcher notes only**
+   - `website/content/tools/*.md` & `website/content/posts/*.md` → **Writer only**
+2. **Grounding by Construction**:
+   - Every claim in research notes must link to a valid source with an exact quote excerpt.
+   - Never hallucinate facts or release dates; leave explicit placeholders if unverified.
+3. **Documentation Hygiene**:
+   - When modifying data structures or agent workflows, update the corresponding document in `docs/`.
