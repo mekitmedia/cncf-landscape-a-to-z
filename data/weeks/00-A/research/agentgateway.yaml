@@ -23,7 +23,7 @@ ecosystem_perspectives:
   community_discussions:
     - "Some developers appreciate its use for providing agents access to internal tools (like GitLab, GitHub, DataDog) via custom MCP servers, acting as the centralized access point."
     - "Users note challenges in authorizing fine-grained outbound calls from sandbox environments while maintaining security."
-interesting_facts: "Agentgateway is recognized as the first complete connectivity solution dedicated to Agentic AI and is a Linux Foundation project."
+interesting_facts: "Agentgateway describes itself as the first complete connectivity solution for Agentic AI."
 get_started: "Check the standalone or Kubernetes quickstart guides on agentgateway.dev to deploy the proxy using a flat YAML config or the built-in Kubernetes controller."
 related_tools:
   - Model Context Protocol (MCP)
