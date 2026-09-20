@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T19:55:12.593818'
+date: '2026-09-20T21:46:44.334657'
 description: eBPF based cloud-native load-balancer. Powering Kubernetes|Edge|5G|IoT|XaaS
   Apps.
 homepage_url: https://loxilb.io
@@ -14,4 +14,4 @@ summary: eBPF based cloud-native load-balancer. Powering Kubernetes|Edge|5G|IoT|
 title: LoxiLB
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/L/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/l/).

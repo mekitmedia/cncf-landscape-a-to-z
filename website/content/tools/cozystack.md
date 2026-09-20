@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T19:55:12.743755'
+date: '2026-09-20T21:46:44.472902'
 description: Cozystack is a free PaaS platform and framework for building private
   clouds and providing users/customers with managed Kubernetes,  KubeVirt-based VMs,
   databases as a service, NATS, message brokers, etc. with GPU support in VMs and
@@ -18,4 +18,4 @@ summary: Cozystack is a free PaaS platform and framework for building private cl
 title: Cozystack
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/C/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/c/).

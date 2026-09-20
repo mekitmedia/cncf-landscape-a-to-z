@@ -1,6 +1,6 @@
 ---
 cncf_status: graduated
-date: '2026-09-20T19:55:13.316890'
+date: '2026-09-20T21:46:45.000414'
 description: Delivers efficient, stable, and secure data distribution and acceleration
   powered by P2P technology, with an optional content‑addressable filesystem that
   accelerates OCI container launch.
@@ -16,4 +16,4 @@ summary: Delivers efficient, stable, and secure data distribution and accelerati
 title: Dragonfly
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/D/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/d/).

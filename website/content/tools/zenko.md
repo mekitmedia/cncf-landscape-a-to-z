@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.865103'
+date: '2026-09-20T21:46:44.588903'
 homepage_url: https://www.zenko.io
 layout: single
 letter: Z
@@ -11,4 +11,4 @@ summary: Research for this project is currently in progress.
 title: Zenko
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/Z/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/z/).

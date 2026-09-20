@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.682765'
+date: '2026-09-20T21:46:44.416382'
 description: A high-performance sandbox infrastructure for AI Agent execution with
   60ms startup and 5MB memory footprint.
 homepage_url: https://cubesandbox.com
@@ -14,4 +14,4 @@ summary: A high-performance sandbox infrastructure for AI Agent execution with 6
 title: CubeSandbox
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/C/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/c/).

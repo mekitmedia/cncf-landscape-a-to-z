@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T19:55:13.309747'
+date: '2026-09-20T21:46:44.994538'
 description: An open standard defining containerized development environments that
   enables developer tools to simplify and accelerate workflows
 homepage_url: https://devfile.io
@@ -14,4 +14,4 @@ summary: An open standard defining containerized development environments that e
 title: Devfile
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/D/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/d/).

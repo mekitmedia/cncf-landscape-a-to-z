@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.198987'
+date: '2026-09-20T21:46:43.928457'
 description: Enterprise-grade, commercial-friendly agentic workflow platform for building
   next-generation SuperAgents with multi-agent orchestration capabilities.
 homepage_url: http://astron.ai/
@@ -14,4 +14,4 @@ summary: Enterprise-grade, commercial-friendly agentic workflow platform for bui
 title: Astron Agent
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/A/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/a/).

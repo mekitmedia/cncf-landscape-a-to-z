@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:13.206320'
+date: '2026-09-20T21:46:44.901180'
 description: GitOps based deployment platform similar to Google Cloud Run and AWS
   App Runner. Easily deploy internal tools across a team.
 homepage_url: https://openrun.dev
@@ -14,4 +14,4 @@ summary: GitOps based deployment platform similar to Google Cloud Run and AWS Ap
 title: OpenRun
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/O/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/o/).

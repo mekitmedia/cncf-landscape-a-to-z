@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.357599'
+date: '2026-09-20T21:46:44.090797'
 description: An open-source, code-first Python toolkit for building, evaluating, and
   deploying sophisticated AI agents with flexibility and control.
 get_started: Check the GitHub repository and documentation for quickstart guides.
@@ -27,4 +27,4 @@ use_cases: Developing enterprise-grade AI agents and integrating agentic workflo
   into existing software.
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/A/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/a/).

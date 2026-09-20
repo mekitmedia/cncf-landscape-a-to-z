@@ -1,6 +1,6 @@
 ---
 cncf_status: incubating
-date: '2026-09-20T19:55:12.880500'
+date: '2026-09-20T21:46:44.603905'
 homepage_url: https://backstage.io/
 layout: single
 letter: B
@@ -11,4 +11,4 @@ summary: Research for this project is currently in progress.
 title: Backstage
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/B/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/b/).

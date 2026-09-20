@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.187673'
+date: '2026-09-20T21:46:43.917099'
 description: Cost-efficient and pluggable Infrastructure components for GenAI inference.
 get_started: Clone the repository and install dependencies and AIBrix CRDs using `kubectl
   apply -k` or install a stable distribution using provided manifests from the releases
@@ -42,4 +42,4 @@ use_cases: Optimizing GenAI inference deployment via Kubernetes for cost efficie
   LLM inference.
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/A/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/a/).

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.628611'
+date: '2026-09-20T21:46:44.366960'
 description: The Giant Swarm platform enables users to simply and rapidly create and
   use 24/7 managed Kubernetes clusters on-demand.
 homepage_url: https://giantswarm.io
@@ -14,4 +14,4 @@ summary: The Giant Swarm platform enables users to simply and rapidly create and
 title: Giant Swarm Managed Kubernetes
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/G/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/g/).

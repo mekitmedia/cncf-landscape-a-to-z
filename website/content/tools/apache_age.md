@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.262961'
+date: '2026-09-20T21:46:43.993814'
 description: Graph database optimized for fast analysis and real-time data processing.
   It is provided as an extension to PostgreSQL.
 get_started: Install as a PostgreSQL extension and begin modeling data as nodes and
@@ -33,4 +33,4 @@ use_cases: Useful for those who want to leverage the flexibility of graph databa
   support.
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/A/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/a/).

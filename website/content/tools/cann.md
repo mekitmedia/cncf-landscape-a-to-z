@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.684140'
+date: '2026-09-20T21:46:44.417635'
 description: Compute Architecture for Neural Networks
 homepage_url: https://gitcode.com/cann
 layout: single
@@ -12,4 +12,4 @@ summary: Compute Architecture for Neural Networks
 title: CANN
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/C/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/c/).

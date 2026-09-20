@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.342591'
+date: '2026-09-20T21:46:44.075132'
 homepage_url: https://www.ansible.com/
 layout: single
 letter: A
@@ -11,4 +11,4 @@ summary: Research for this project is currently in progress.
 title: Ansible
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/A/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/a/).

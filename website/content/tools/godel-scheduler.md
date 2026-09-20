@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.648438'
+date: '2026-09-20T21:46:44.385927'
 description: Godel-Scheduler is a unified scheduler for both online and offline tasks.
 homepage_url: https://github.com/kubewharf/godel-scheduler
 layout: single
@@ -12,4 +12,4 @@ summary: Godel-Scheduler is a unified scheduler for both online and offline task
 title: Godel-Scheduler
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/G/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/g/).

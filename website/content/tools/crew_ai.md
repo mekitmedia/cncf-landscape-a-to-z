@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.764819'
+date: '2026-09-20T21:46:44.493170'
 description: Framework for orchestrating role-playing, autonomous AI agents. By fostering
   collaborative intelligence, CrewAI empowers agents to work together seamlessly,
   tackling complex tasks.
@@ -16,4 +16,4 @@ summary: Framework for orchestrating role-playing, autonomous AI agents. By fost
 title: Crew AI
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/C/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/c/).

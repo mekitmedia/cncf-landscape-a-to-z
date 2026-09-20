@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T19:55:12.527448'
+date: '2026-09-20T21:46:44.272581'
 description: Auto scale-to-zero pods when idle and scale up pods when traffic arrives,
   without losing any requests. KubeElasti uses a smart proxy that queues incoming
   requests while scaling up targets, ensuring no request loss. It works with existing
@@ -18,4 +18,4 @@ summary: Auto scale-to-zero pods when idle and scale up pods when traffic arrive
 title: KubeElasti
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/K/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/k/).

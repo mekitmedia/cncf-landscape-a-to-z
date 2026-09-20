@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:13.273485'
+date: '2026-09-20T21:46:44.961587'
 description: Kernel-wide Insight, Instant Observability, AutoTracing, Continuous Profiling
   for cloud-native and AI infrastructure using eBPF.
 homepage_url: https://huatuo.tech
@@ -14,4 +14,4 @@ summary: Kernel-wide Insight, Instant Observability, AutoTracing, Continuous Pro
 title: HUATUO
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/H/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/h/).

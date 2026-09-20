@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:13.019093'
+date: '2026-09-20T21:46:44.733521'
 description: Tesseral is the open source platform for managing identity and access
   in business software.
 homepage_url: https://www.tesseral.com/
@@ -14,4 +14,4 @@ summary: Tesseral is the open source platform for managing identity and access i
 title: Tesseral
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/T/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/t/).

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.384240'
+date: '2026-09-20T21:46:44.118325'
 get_started: Get started by defining a schema in JSON format, then generate code or
   dynamically (de)serialize data using one of the many supported language SDKs (Java,
   Python, C++, etc).
@@ -35,4 +35,4 @@ use_cases: Often used as the leading serialization format for record data and th
   and Apache Kafka.
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/A/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/a/).

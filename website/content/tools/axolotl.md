@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.254213'
+date: '2026-09-20T21:46:43.984830'
 description: Go ahead and axolotl questions
 get_started: '```bash
 
@@ -51,4 +51,4 @@ use_cases: LLM Post-Training and Fine-Tuning. Developers can quickly fine-tune v
   with optimized performance and multimodal support.
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/A/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/a/).

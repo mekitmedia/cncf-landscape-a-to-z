@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.988674'
+date: '2026-09-20T21:46:44.705448'
 homepage_url: https://www.rundeck.com/open-source
 layout: single
 letter: R
@@ -11,4 +11,4 @@ summary: Research for this project is currently in progress.
 title: Rundeck
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/R/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/r/).

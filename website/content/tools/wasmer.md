@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.916680'
+date: '2026-09-20T21:46:44.638231'
 homepage_url: https://wasmer.io
 layout: single
 letter: W
@@ -11,4 +11,4 @@ summary: Research for this project is currently in progress.
 title: Wasmer
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/W/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/w/).

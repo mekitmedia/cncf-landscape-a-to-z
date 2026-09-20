@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.798163'
+date: '2026-09-20T21:46:44.523868'
 description: The Fabric8 Kubernetes Client is a Java client that is used to interact
   with Kubernetes clusters through the Kubernetes API. It's one of the main building
   blocks for other CNCF projects like the Java Operator SDK from the Operator Framework.
@@ -16,4 +16,4 @@ summary: The Fabric8 Kubernetes Client is a Java client that is used to interact
 title: Fabric8 Kubernetes Client
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/F/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/f/).

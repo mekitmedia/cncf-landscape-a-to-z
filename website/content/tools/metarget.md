@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.102080'
+date: '2026-09-20T21:46:43.823149'
 description: Metarget is a framework providing automatic constructions of vulnerable
   cloud native infrastructures.
 homepage_url: https://github.com/Metarget/metarget
@@ -14,4 +14,4 @@ summary: Metarget is a framework providing automatic constructions of vulnerable
 title: Metarget
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/M/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/m/).

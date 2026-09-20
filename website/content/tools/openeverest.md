@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T19:55:13.176014'
+date: '2026-09-20T21:46:44.871660'
 description: The open-source platform for automated database provisioning and management.
   It supports multiple database technologies and can be hosted on any Kubernetes infrastructure,
   in the cloud or on-premises.
@@ -16,4 +16,4 @@ summary: The open-source platform for automated database provisioning and manage
 title: OpenEverest
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/O/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/o/).

@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T19:55:13.214967'
+date: '2026-09-20T21:46:44.909778'
 description: A lightweight, open standard for multi-cluster Kubernetes management
   built on a hub-spoke architecture.
 homepage_url: https://open-cluster-management.io/
@@ -14,4 +14,4 @@ summary: A lightweight, open standard for multi-cluster Kubernetes management bu
 title: Open Cluster Management
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/O/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/o/).

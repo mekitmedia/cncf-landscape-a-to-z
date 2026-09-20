@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T19:55:13.261469'
+date: '2026-09-20T21:46:44.949985'
 homepage_url: https://hexaorchestration.org/
 layout: single
 letter: H
@@ -11,4 +11,4 @@ summary: Research for this project is currently in progress.
 title: Hexa
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/H/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/h/).

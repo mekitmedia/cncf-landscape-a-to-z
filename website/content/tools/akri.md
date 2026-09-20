@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T19:55:12.335523'
+date: '2026-09-20T21:46:44.068928'
 description: A Kubernetes Resource Interface for the Edge
 get_started: Install Akri using its Helm charts (`helm install akri akri-helm-charts/akri`),
   apply an Akri Configuration (like ONVIF or udev) to your cluster, and deploy pods
@@ -41,4 +41,4 @@ use_cases: Simplifying edge computing deployments by automating the connection o
   to Kubernetes clusters.
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/A/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/a/).

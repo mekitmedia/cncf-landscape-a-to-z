@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.455831'
+date: '2026-09-20T21:46:44.195572'
 description: Kapeta accelerates and automates the entire software development lifecycle
 homepage_url: https://kapeta.com
 layout: single
@@ -12,4 +12,4 @@ summary: Kapeta accelerates and automates the entire software development lifecy
 title: Kapeta
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/K/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/k/).

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.710566'
+date: '2026-09-20T21:46:44.442782'
 description: Pioneering the world of self-healing, self-aware, self-sustaining, self-resilient,
   self-secure and intelligent remediation, MatosSphere brings a complete cloud security
   and governance solution for your cloud infrastructure.
@@ -16,4 +16,4 @@ summary: Pioneering the world of self-healing, self-aware, self-sustaining, self
 title: CloudMatos
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/C/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/c/).

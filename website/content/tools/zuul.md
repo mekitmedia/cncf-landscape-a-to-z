@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.863753'
+date: '2026-09-20T21:46:44.587398'
 description: Zuul is a system that drives continuous integration, delivery, and deployment
   with a focus on project gating and interrelated projects.
 homepage_url: https://zuul-ci.org
@@ -14,4 +14,4 @@ summary: Zuul is a system that drives continuous integration, delivery, and depl
 title: Zuul
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/Z/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/z/).

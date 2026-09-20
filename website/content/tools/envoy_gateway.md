@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.841513'
+date: '2026-09-20T21:46:44.567202'
 description: Part of the Envoy project, Envoy Gateway is the control plane for dynamically
   managing Envoy Proxy, aimed at significantly decreasing the barrier to entry when
   using it for Gateway (sometimes known as "north-south") use cases.
@@ -16,4 +16,4 @@ summary: Part of the Envoy project, Envoy Gateway is the control plane for dynam
 title: Envoy Gateway
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/E/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/e/).

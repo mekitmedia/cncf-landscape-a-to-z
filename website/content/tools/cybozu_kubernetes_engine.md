@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.725321'
+date: '2026-09-20T21:46:44.456577'
 description: Cybozu Kubernetes Engine, a distributed service that automates Kubernetes
   cluster management.
 homepage_url: https://github.com/cybozu-go/cke
@@ -14,4 +14,4 @@ summary: Cybozu Kubernetes Engine, a distributed service that automates Kubernet
 title: Cybozu Kubernetes Engine
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/C/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/c/).

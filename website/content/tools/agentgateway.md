@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.304883'
+date: '2026-09-20T21:46:44.035698'
 description: Next Generation Agentic Proxy for AI Agents and MCP servers
 homepage_url: https://agentgateway.dev/
 layout: single
@@ -12,4 +12,4 @@ summary: Next Generation Agentic Proxy for AI Agents and MCP servers
 title: Agentgateway
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/A/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/a/).

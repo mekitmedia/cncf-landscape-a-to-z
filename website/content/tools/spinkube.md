@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T19:55:13.160197'
+date: '2026-09-20T21:46:44.857791'
 description: Open source platform for efficiently running (containerless) Spin-based
   WebAssembly (Wasm) applications on Kubernetes.
 homepage_url: https://www.spinkube.dev/
@@ -14,4 +14,4 @@ summary: Open source platform for efficiently running (containerless) Spin-based
 title: SpinKube
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/S/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/s/).

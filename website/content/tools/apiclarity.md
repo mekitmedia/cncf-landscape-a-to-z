@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.230553'
+date: '2026-09-20T21:46:43.958642'
 description: APIClarity is a cloud API observability open-source project that provides
   functionality to discover and monitor any API traffic that interacts with modern
   applications and report suspected security weaknesses or possible abuses. Once an
@@ -48,4 +48,4 @@ use_cases: Used by DevOps and DevSecOps teams to monitor modern applications for
   in Kubernetes environments.
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/A/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/a/).

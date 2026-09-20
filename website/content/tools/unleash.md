@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.177273'
+date: '2026-09-20T21:46:43.903886'
 description: Open-source feature management platform
 homepage_url: https://www.getunleash.io/
 layout: single
@@ -12,4 +12,4 @@ summary: Open-source feature management platform
 title: Unleash
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/U/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/u/).

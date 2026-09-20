@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T19:55:13.284513'
+date: '2026-09-20T21:46:44.971904'
 description: Hwameistor is an HA local storage system for cloud-native stateful workloads
 homepage_url: https://hwameistor.io/
 layout: single
@@ -12,4 +12,4 @@ summary: Hwameistor is an HA local storage system for cloud-native stateful work
 title: HwameiStor
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/H/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/h/).

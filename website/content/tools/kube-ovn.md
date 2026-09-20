@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T19:55:12.475300'
+date: '2026-09-20T21:46:44.217236'
 description: A Kubernetes Network Fabric for Enterprises that is Rich in Functions
   and Easy in Operations
 homepage_url: https://kube-ovn.io
@@ -14,4 +14,4 @@ summary: A Kubernetes Network Fabric for Enterprises that is Rich in Functions a
 title: Kube-OVN
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/K/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/k/).

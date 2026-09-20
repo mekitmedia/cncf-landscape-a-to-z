@@ -1,6 +1,6 @@
 ---
 cncf_status: graduated
-date: '2026-09-20T19:55:12.620798'
+date: '2026-09-20T21:46:44.358991'
 description: Ultra light, ultra simple, ultra powerful. Linkerd adds security, observability,
   and reliability to Kubernetes, without the complexity.
 homepage_url: https://linkerd.io/
@@ -14,4 +14,4 @@ summary: Ultra light, ultra simple, ultra powerful. Linkerd adds security, obser
 title: Linkerd
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/L/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/l/).

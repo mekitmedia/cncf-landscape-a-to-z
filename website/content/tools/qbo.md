@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.145065'
+date: '2026-09-20T21:46:43.870692'
 description: QBO Kubernetes Engine (QKE) redefines the concept of a Kubernetes node
   as a container using Kubernetes-in-Docker technology. Streamline the deployment
   and management of Kubernetes clusters in seconds with QKE and unlock bare-metal
@@ -18,4 +18,4 @@ summary: QBO Kubernetes Engine (QKE) redefines the concept of a Kubernetes node 
 title: QBO
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/Q/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/q/).

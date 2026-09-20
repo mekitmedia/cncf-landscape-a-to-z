@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T19:55:13.379740'
+date: '2026-09-20T21:46:45.058335'
 description: GitOps style continuous delivery platform that provides consistent deployment
   and operations experience for any applications
 homepage_url: https://pipecd.dev/
@@ -14,4 +14,4 @@ summary: GitOps style continuous delivery platform that provides consistent depl
 title: PipeCD
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/P/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/p/).

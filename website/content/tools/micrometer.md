@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.123842'
+date: '2026-09-20T21:46:43.849717'
 description: As an instrumentation facade, Micrometer allows you to instrument your
   code with dimensional metrics with a vendor-neutral interface and decide on the
   observability system as a last step. Instrumenting your core library code with Micrometer
@@ -19,4 +19,4 @@ summary: As an instrumentation facade, Micrometer allows you to instrument your 
 title: Micrometer
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/M/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/m/).

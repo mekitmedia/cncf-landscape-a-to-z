@@ -1,6 +1,6 @@
 ---
 cncf_status: incubating
-date: '2026-09-20T19:55:13.037226'
+date: '2026-09-20T21:46:44.750832'
 description: Open source, highly available Prometheus setup with long term storage
   capabilities
 homepage_url: https://thanos.io/
@@ -13,4 +13,4 @@ summary: Open source, highly available Prometheus setup with long term storage c
 title: Thanos
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/T/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/t/).

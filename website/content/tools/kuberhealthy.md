@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T19:55:12.520599'
+date: '2026-09-20T21:46:44.265626'
 description: A Kubernetes operator for running synthetic checks as pods. Works great
   with Prometheus!
 homepage_url: https://github.com/kuberhealthy/kuberhealthy
@@ -14,4 +14,4 @@ summary: A Kubernetes operator for running synthetic checks as pods. Works great
 title: Kuberhealthy
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/K/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/k/).

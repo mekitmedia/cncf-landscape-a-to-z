@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.203284'
+date: '2026-09-20T21:46:43.932841'
 description: Application Platform for Linode Kubernetes Engine (LKE)
 homepage_url: https://apl-docs.net
 layout: single
@@ -12,4 +12,4 @@ summary: Application Platform for Linode Kubernetes Engine (LKE)
 title: Application Platform for LKE
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/A/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/a/).

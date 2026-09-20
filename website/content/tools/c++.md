@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.716321'
+date: '2026-09-20T21:46:44.448334'
 description: Compiled language to Wasm
 homepage_url: https://isocpp.org/
 layout: single
@@ -12,4 +12,4 @@ summary: Compiled language to Wasm
 title: C++
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/C/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/c/).

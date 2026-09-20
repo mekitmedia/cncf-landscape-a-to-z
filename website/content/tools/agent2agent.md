@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.307649'
+date: '2026-09-20T21:46:44.038652'
 description: Agent2Agent (A2A) is an open protocol enabling communication and interoperability
   between opaque agentic applications.
 homepage_url: https://a2a-protocol.org/
@@ -14,4 +14,4 @@ summary: Agent2Agent (A2A) is an open protocol enabling communication and intero
 title: Agent2agent
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/A/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/a/).

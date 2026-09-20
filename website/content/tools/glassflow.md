@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.629990'
+date: '2026-09-20T21:46:44.368632'
 description: Open-source streaming ETL for ClickHouse with deduplication, joins, and
   transforms over Kafka and other sources.
 homepage_url: https://www.glassflow.dev
@@ -14,4 +14,4 @@ summary: Open-source streaming ETL for ClickHouse with deduplication, joins, and
 title: GlassFlow
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/G/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/g/).

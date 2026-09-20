@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T19:55:12.506381'
+date: '2026-09-20T21:46:44.253105'
 description: Applications provided by Avesha Systems, ready to launch on Kubernetes
   using Kubernetes Helm
 homepage_url: https://kubeslice.io
@@ -14,4 +14,4 @@ summary: Applications provided by Avesha Systems, ready to launch on Kubernetes 
 title: KubeSlice
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/K/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/k/).

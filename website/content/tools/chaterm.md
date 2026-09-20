@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.758742'
+date: '2026-09-20T21:46:44.487428'
 description: AI terminal and SSH Client for EC2, Database and Kubernetes.
 homepage_url: https://chaterm.ai/
 layout: single
@@ -12,4 +12,4 @@ summary: AI terminal and SSH Client for EC2, Database and Kubernetes.
 title: Chaterm
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/C/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/c/).

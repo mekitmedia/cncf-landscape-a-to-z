@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.615913'
+date: '2026-09-20T21:46:44.354440'
 homepage_url: https://github.com/linuxkit/linuxkit
 layout: single
 letter: L
@@ -11,4 +11,4 @@ summary: Research for this project is currently in progress.
 title: LinuxKit
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/L/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/l/).

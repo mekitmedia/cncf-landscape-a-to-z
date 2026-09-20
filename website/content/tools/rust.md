@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.980629'
+date: '2026-09-20T21:46:44.697821'
 description: Compiled language to Wasm
 homepage_url: https://www.rust-lang.org/
 layout: single
@@ -12,4 +12,4 @@ summary: Compiled language to Wasm
 title: Rust
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/R/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/r/).

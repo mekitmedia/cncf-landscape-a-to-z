@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.110153'
+date: '2026-09-20T21:46:43.833830'
 description: Monokle helps you achieve high-quality Kubernetes deployments throughout
   the entire application lifecycle — from code to cluster.  It enables your team to
   define Kubernetes configuration policies to ensure consistent, secure, and compliant
@@ -22,4 +22,4 @@ summary: Monokle helps you achieve high-quality Kubernetes deployments throughou
 title: Monokle
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/M/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/m/).

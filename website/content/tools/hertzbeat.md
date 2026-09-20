@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:13.276138'
+date: '2026-09-20T21:46:44.964113'
 description: Apache HertzBeat (Incubating) is an open-source, real-time monitoring
   system with custom monitoring, high performance cluster and agentless capabilities.
 homepage_url: https://hertzbeat.apache.org/
@@ -14,4 +14,4 @@ summary: Apache HertzBeat (Incubating) is an open-source, real-time monitoring s
 title: HertzBeat
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/H/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/h/).

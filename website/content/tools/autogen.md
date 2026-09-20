@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.368944'
+date: '2026-09-20T21:46:44.102792'
 description: A programming framework for agentic AI
 get_started: Install via pip (`pip install autogenstudio` or `pip install pyautogen`)
   and refer to the official documentation for examples on defining agents and orchestrating
@@ -34,4 +34,4 @@ use_cases: Building next-generation large language model applications, automatin
   complex workflows, and facilitating code execution by LLMs.
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/A/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/a/).

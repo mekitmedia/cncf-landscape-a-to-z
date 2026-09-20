@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:13.212574'
+date: '2026-09-20T21:46:44.907373'
 description: Structured Outputs
 homepage_url: https://dottxt-ai.github.io/outlines/
 layout: single
@@ -12,4 +12,4 @@ summary: Structured Outputs
 title: Outlines
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/O/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/o/).

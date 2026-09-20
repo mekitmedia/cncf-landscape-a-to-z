@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.472933'
+date: '2026-09-20T21:46:44.214621'
 description: Deploy a Production Ready Kubernetes Cluster
 homepage_url: https://kubespray.io/
 layout: single
@@ -12,4 +12,4 @@ summary: Deploy a Production Ready Kubernetes Cluster
 title: Kubespray
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/K/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/k/).

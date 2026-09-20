@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.133327'
+date: '2026-09-20T21:46:43.858832'
 description: Self-service, remote installation of Windows, CentOS, ESXi and Ubuntu
   on real servers turns your data center into a bare-metal cloud.
 homepage_url: https://maas.io/
@@ -14,4 +14,4 @@ summary: Self-service, remote installation of Windows, CentOS, ESXi and Ubuntu o
 title: MAAS
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/M/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/m/).

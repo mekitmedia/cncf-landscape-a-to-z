@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T19:55:12.466035'
+date: '2026-09-20T21:46:44.206635'
 description: Manage kubernetes in the most light and convenient way.
 homepage_url: https://www.kubeclipper.io/
 layout: single
@@ -12,4 +12,4 @@ summary: Manage kubernetes in the most light and convenient way.
 title: KubeClipper
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/K/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/k/).

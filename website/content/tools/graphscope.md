@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.625977'
+date: '2026-09-20T21:46:44.363899'
 description: A One-Stop Large-Scale Graph Computing System from Alibaba
 homepage_url: https://graphscope.io/
 layout: single
@@ -12,4 +12,4 @@ summary: A One-Stop Large-Scale Graph Computing System from Alibaba
 title: GraphScope
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/G/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/g/).

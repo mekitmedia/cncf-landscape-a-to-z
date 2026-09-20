@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.556209'
+date: '2026-09-20T21:46:44.301639'
 homepage_url: https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/
 layout: single
 letter: K
@@ -11,4 +11,4 @@ summary: Research for this project is currently in progress.
 title: Kube-scheduler
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/K/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/k/).

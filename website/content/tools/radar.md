@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.986174'
+date: '2026-09-20T21:46:44.703268'
 description: Open-source Kubernetes visibility tool with topology visualization, event
   timeline, Helm management, and built-in MCP server for AI tools.
 homepage_url: https://radarhq.io
@@ -14,4 +14,4 @@ summary: Open-source Kubernetes visibility tool with topology visualization, eve
 title: Radar
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/R/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/r/).

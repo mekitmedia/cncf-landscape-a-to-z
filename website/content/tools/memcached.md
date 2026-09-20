@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.128869'
+date: '2026-09-20T21:46:43.854639'
 description: A high performance multithreaded event-based key/value cache store intended
   to be used in a distributed system.
 homepage_url: https://memcached.org/
@@ -14,4 +14,4 @@ summary: A high performance multithreaded event-based key/value cache store inte
 title: Memcached
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/M/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/m/).

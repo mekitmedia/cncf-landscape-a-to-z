@@ -1,6 +1,6 @@
 ---
 cncf_status: incubating
-date: '2026-09-20T19:55:12.451613'
+date: '2026-09-20T21:46:44.191307'
 description: Kubernetes Virtualization API and runtime in order to define and manage
   virtual machines
 homepage_url: https://kubevirt.io/
@@ -14,4 +14,4 @@ summary: Kubernetes Virtualization API and runtime in order to define and manage
 title: KubeVirt
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/K/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/k/).

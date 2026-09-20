@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T19:55:13.277534'
+date: '2026-09-20T21:46:44.965478'
 description: HolmesGPT is an AI agent that automates cloud-native troubleshooting,
   bridging knowledge gaps by investigating alerts, executing runbooks, and correlating
   observability data in cloud-native platforms.
@@ -16,4 +16,4 @@ summary: HolmesGPT is an AI agent that automates cloud-native troubleshooting, b
 title: HolmesGPT
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/H/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/h/).

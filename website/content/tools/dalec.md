@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T19:55:13.305988'
+date: '2026-09-20T21:46:44.991147'
 description: Dalec provides a declarative format for building system packages and
   containers from those packages in a secure way for supply chain security.
 homepage_url: https://project-dalec.github.io/dalec/
@@ -14,4 +14,4 @@ summary: Dalec provides a declarative format for building system packages and co
 title: Dalec
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/D/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/d/).

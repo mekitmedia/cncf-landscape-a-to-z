@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:13.372450'
+date: '2026-09-20T21:46:45.051938'
 description: Parseable is a free and open source log storage and observability platform.
   Written in Rust, Parseable can be deployed on natively on Kubernetes. It ingests
   log data via HTTP POST calls and exposes a query API to search and analyze logs.
@@ -18,4 +18,4 @@ summary: Parseable is a free and open source log storage and observability platf
 title: Parseable
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/P/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/p/).

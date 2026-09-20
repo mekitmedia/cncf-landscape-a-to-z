@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.536655'
+date: '2026-09-20T21:46:44.282019'
 description: A configuration management system for platform engineering and other
   things
 homepage_url: https://kapitan.dev/
@@ -13,4 +13,4 @@ summary: A configuration management system for platform engineering and other th
 title: Kapitan
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/K/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/k/).

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.470133'
+date: '2026-09-20T21:46:44.211269'
 description: Lifecycle management tool for Highly-Available Kubernetes clusters on
   any infrastructure
 homepage_url: https://www.kubermatic.com
@@ -14,4 +14,4 @@ summary: Lifecycle management tool for Highly-Available Kubernetes clusters on a
 title: Kubermatic KubeOne
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/K/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/k/).

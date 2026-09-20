@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:13.001972'
+date: '2026-09-20T21:46:44.716800'
 description: An Open Source Machine Learning Framework for Everyone
 homepage_url: https://www.tensorflow.org
 layout: single
@@ -12,4 +12,4 @@ summary: An Open Source Machine Learning Framework for Everyone
 title: TensorFlow
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/T/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/t/).

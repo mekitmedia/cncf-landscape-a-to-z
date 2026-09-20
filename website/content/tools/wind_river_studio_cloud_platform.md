@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.897277'
+date: '2026-09-20T21:46:44.620709'
 description: Wind River Cloud Platform is a carrier-grade Kubernetes solution that
   makes 5G possible by solving the operational problem of deploying and managing distributed
   edge networks at scale.  It is Wind River's commercial product based on the open
@@ -18,4 +18,4 @@ summary: Wind River Cloud Platform is a carrier-grade Kubernetes solution that m
 title: Wind River Studio Cloud Platform
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/W/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/w/).

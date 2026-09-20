@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T19:55:13.387711'
+date: '2026-09-20T21:46:45.065543'
 description: The Piraeus Operator manages LINSTOR clusters in Kubernetes.
 homepage_url: https://piraeus.io/
 layout: single
@@ -12,4 +12,4 @@ summary: The Piraeus Operator manages LINSTOR clusters in Kubernetes.
 title: Piraeus Datastore
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/P/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/p/).

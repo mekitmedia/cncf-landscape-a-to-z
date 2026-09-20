@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.436485'
+date: '2026-09-20T21:46:44.175165'
 description: KubeLinter analyzes Kubernetes YAML files and Helm charts, and checks
   them against a variety of best practices, with a focus on production readiness and
   security.
@@ -15,4 +15,4 @@ summary: KubeLinter analyzes Kubernetes YAML files and Helm charts, and checks t
 title: KubeLinter
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/K/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/k/).

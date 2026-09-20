@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.925218'
+date: '2026-09-20T21:46:44.645808'
 homepage_url: https://nebula-graph.io/
 layout: single
 letter: N
@@ -11,4 +11,4 @@ summary: Research for this project is currently in progress.
 title: NebulaGraph
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/N/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/n/).

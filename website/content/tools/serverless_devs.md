@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T19:55:13.115905'
+date: '2026-09-20T21:46:44.820047'
 description: Serverless Devs developer tool ( Serverless Devs 开发者工具 )
 homepage_url: https://www.serverless-devs.com/
 layout: single
@@ -12,4 +12,4 @@ summary: Serverless Devs developer tool ( Serverless Devs 开发者工具 )
 title: Serverless Devs
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/S/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/s/).

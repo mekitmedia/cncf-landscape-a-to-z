@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T19:55:12.989815'
+date: '2026-09-20T21:46:44.706528'
 description: A toolchain that turns Markdown into interactive, cloud-native, runnable
   Notebook experiences for DevOps.
 homepage_url: https://runme.dev/
@@ -14,4 +14,4 @@ summary: A toolchain that turns Markdown into interactive, cloud-native, runnabl
 title: Runme Notebooks
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/R/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/r/).

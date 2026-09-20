@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.207329'
+date: '2026-09-20T21:46:43.936599'
 description: A unified analytics engine for large-scale data processing.
 homepage_url: https://spark.apache.org/
 layout: single
@@ -12,4 +12,4 @@ summary: A unified analytics engine for large-scale data processing.
 title: Apache Spark
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/A/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/a/).

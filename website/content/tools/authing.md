@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.401019'
+date: '2026-09-20T21:46:44.134386'
 get_started: To get started, developers can use the SDK or Authing Guard universal
   component to quickly launch a secure, customizable UI unified login form.
 homepage_url: https://www.authing.cn
@@ -33,4 +33,4 @@ use_cases: Providing unified login experiences for SaaS platforms, managing ente
   workforce access, and securing digital identities.
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/A/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/a/).

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.617023'
+date: '2026-09-20T21:46:44.355462'
 description: An API for deploying a group of pods as a unit of replication.
 homepage_url: https://lws.sigs.k8s.io/
 layout: single
@@ -12,4 +12,4 @@ summary: An API for deploying a group of pods as a unit of replication.
 title: LeaderWorkerSet
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/L/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/l/).

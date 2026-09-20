@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:13.041914'
+date: '2026-09-20T21:46:44.754607'
 description: The distributed SQL query engine for big data, formerly known as PrestoSQL.
 homepage_url: https://trino.io/
 layout: single
@@ -12,4 +12,4 @@ summary: The distributed SQL query engine for big data, formerly known as Presto
 title: Trino
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/T/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/t/).

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:13.051038'
+date: '2026-09-20T21:46:44.762823'
 description: The Appvia Terranetes Controller manages the life-cycle of Terraform
   and OpenTofu resources defined and built inside Kubernetes. This allows teams running
   workloads inside the cluster to self-serve application dependencies and reuse the
@@ -18,4 +18,4 @@ summary: The Appvia Terranetes Controller manages the life-cycle of Terraform an
 title: Terranetes
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/T/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/t/).

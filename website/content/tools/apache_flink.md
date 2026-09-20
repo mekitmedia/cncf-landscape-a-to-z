@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.311405'
+date: '2026-09-20T21:46:44.044975'
 description: Open source stream processing framework with powerful stream- and batch-processing
   capabilities.
 homepage_url: https://flink.apache.org/
@@ -14,4 +14,4 @@ summary: Open source stream processing framework with powerful stream- and batch
 title: Apache Flink
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/A/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/a/).

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.122221'
+date: '2026-09-20T21:46:43.847888'
 description: Mermin is a Kubernetes-native network observability tool that uses eBPF
   exports OpenTelemetry Flow Traces, to provide deep visibility into your cluster’s
   network communications with zero application changes required.
@@ -16,4 +16,4 @@ summary: Mermin is a Kubernetes-native network observability tool that uses eBPF
 title: Mermin
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/M/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/m/).

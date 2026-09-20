@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:13.333245'
+date: '2026-09-20T21:46:45.016748'
 description: PolarDB is a cloud native SQL Database.
 homepage_url: https://openpolardb.com/home
 layout: single
@@ -12,4 +12,4 @@ summary: PolarDB is a cloud native SQL Database.
 title: PolarDB
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/P/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/p/).

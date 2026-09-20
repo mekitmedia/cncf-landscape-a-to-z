@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.657993'
+date: '2026-09-20T21:46:44.394304'
 description: Grafana Tempo is an open source, easy-to-use and high-scale distributed
   tracing backend. Tempo is cost-efficient, requiring only object storage to operate,
   and is deeply integrated with Grafana, Prometheus, and Loki. Tempo can be used with
@@ -18,4 +18,4 @@ summary: Grafana Tempo is an open source, easy-to-use and high-scale distributed
 title: Grafana Tempo
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/G/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/g/).

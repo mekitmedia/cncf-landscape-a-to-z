@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:13.285799'
+date: '2026-09-20T21:46:44.973103'
 description: Open-source AI orchestration framework for building context-engineered,
   production-ready LLM applications. Design modular pipelines and agent workflows
   with explicit control over retrieval, routing, memory, and generation. Built for
@@ -19,4 +19,4 @@ summary: Open-source AI orchestration framework for building context-engineered,
 title: Haystack
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/H/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/h/).

@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T19:55:12.740960'
+date: '2026-09-20T21:46:44.470395'
 description: CoHDI (Composable Hardware in Disaggregated Infrastructure) enables dynamic
   device scaling across next-generation architectures. As a community-driven, standards-based
   open ecosystem, CoHDI focuses on expanding cloud-native frameworks built on disaggregate
@@ -28,4 +28,4 @@ summary: CoHDI (Composable Hardware in Disaggregated Infrastructure) enables dyn
 title: CoHDI
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/C/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/c/).

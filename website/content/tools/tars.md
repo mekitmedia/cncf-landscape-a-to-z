@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:13.058376'
+date: '2026-09-20T21:46:44.769261'
 description: TARS is a high-performance RPC framework that provides an integrated
   solution of microservice governance.
 homepage_url: https://github.com/tarsCloud
@@ -14,4 +14,4 @@ summary: TARS is a high-performance RPC framework that provides an integrated so
 title: TARS
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/T/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/t/).

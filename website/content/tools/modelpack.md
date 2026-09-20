@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T19:55:12.108750'
+date: '2026-09-20T21:46:43.831942'
 description: The project establishes open standards for packaging, distributing and
   running AI artifacts in the cloud-native environment.
 homepage_url: https://github.com/modelpack/model-spec
@@ -14,4 +14,4 @@ summary: The project establishes open standards for packaging, distributing and 
 title: ModelPack
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/M/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/m/).

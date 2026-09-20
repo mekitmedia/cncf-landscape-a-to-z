@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:13.067336'
+date: '2026-09-20T21:46:44.776671'
 description: 'SpiceDB is an open source database optimized for storing and querying
   authorization data. SpiceDB sets the standard for scalable authorization by remaining
   true to the design of the system powering permissions at Google: Zanzibar. While
@@ -24,4 +24,4 @@ summary: 'SpiceDB is an open source database optimized for storing and querying 
 title: SpiceDB
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/S/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/s/).

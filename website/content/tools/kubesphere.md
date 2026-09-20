@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.418514'
+date: '2026-09-20T21:46:44.153056'
 description: Kubesphere.io is an upstream project of the KubeSphere container management
   platform. Our vision is to provide an easier, more friendly and more powerful distributed
   management platform for individuals and enterprises based on Kubernetes, as well
@@ -18,4 +18,4 @@ summary: Kubesphere.io is an upstream project of the KubeSphere container manage
 title: Kubesphere
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/K/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/k/).

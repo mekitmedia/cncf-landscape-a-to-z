@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T19:55:13.374261'
+date: '2026-09-20T21:46:45.053800'
 description: Perses is a dashboard tool to visualize observability data from Prometheus/Thanos/Jaeger.
 homepage_url: https://perses.dev
 layout: single
@@ -12,4 +12,4 @@ summary: Perses is a dashboard tool to visualize observability data from Prometh
 title: Perses
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/P/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/p/).

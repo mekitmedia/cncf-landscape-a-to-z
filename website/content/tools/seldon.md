@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:13.073757'
+date: '2026-09-20T21:46:44.781878'
 description: An MLOps framework to package, deploy, monitor and manage thousands of
   production machine learning models.
 homepage_url: https://www.seldon.io/
@@ -14,4 +14,4 @@ summary: An MLOps framework to package, deploy, monitor and manage thousands of 
 title: Seldon
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/S/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/s/).

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.571088'
+date: '2026-09-20T21:46:44.315447'
 description: The leading workflow orchestration platform. Run stateful step functions
   and AI workflows on serverless, servers, or the edge.
 homepage_url: https://www.inngest.com/
@@ -14,4 +14,4 @@ summary: The leading workflow orchestration platform. Run stateful step function
 title: Inngest
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/I/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/i/).

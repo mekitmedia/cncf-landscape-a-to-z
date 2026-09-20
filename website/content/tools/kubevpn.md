@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.461226'
+date: '2026-09-20T21:46:44.201808'
 description: KubeVPN offers a Cloud-Native Dev Environment that seamlessly connects
   to your Kubernetes cluster network. Gain access to the Kubernetes cluster network
   effortlessly using service names or Pod IP/Service IP. Facilitate the interception
@@ -26,4 +26,4 @@ summary: KubeVPN offers a Cloud-Native Dev Environment that seamlessly connects 
 title: KubeVPN
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/K/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/k/).

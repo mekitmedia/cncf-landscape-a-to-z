@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.949232'
+date: '2026-09-20T21:46:44.667728'
 description: NetObserv provides CNI-agnostic network observability of Kubernetes clusters.
 homepage_url: https://netobserv.io/
 layout: single
@@ -12,4 +12,4 @@ summary: NetObserv provides CNI-agnostic network observability of Kubernetes clu
 title: NetObserv
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/N/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/n/).

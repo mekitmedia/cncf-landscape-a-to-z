@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:13.332072'
+date: '2026-09-20T21:46:45.015229'
 homepage_url: https://www.percona.com/software/mysql-database/percona-server
 layout: single
 letter: P
@@ -11,4 +11,4 @@ summary: Research for this project is currently in progress.
 title: Percona Server for MySQL
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/P/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/p/).

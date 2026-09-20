@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.332215'
+date: '2026-09-20T21:46:44.065418'
 description: Open Source CI/CD platform with advanced features and architecture. Powerful,
   reproducible and containerized workflows (called Runs), git based workflow (integrates
   with all the primary git repositories like GitHub, GitLab, Gitea), restart Runs
@@ -22,4 +22,4 @@ summary: Open Source CI/CD platform with advanced features and architecture. Pow
 title: Agola
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/A/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/a/).

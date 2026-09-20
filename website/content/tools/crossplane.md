@@ -1,6 +1,6 @@
 ---
 cncf_status: graduated
-date: '2026-09-20T19:55:12.734332'
+date: '2026-09-20T21:46:44.464578'
 description: Crossplane is the cloud native control plane framework that allows you
   to build control planes without needing to write code. Crossplane has a highly extensible
   backend that enables you to orchestrate applications and infrastructure no matter
@@ -20,4 +20,4 @@ summary: Crossplane is the cloud native control plane framework that allows you 
 title: Crossplane
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/C/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/c/).

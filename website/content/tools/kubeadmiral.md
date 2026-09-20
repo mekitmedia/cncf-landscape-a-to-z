@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.503544'
+date: '2026-09-20T21:46:44.250656'
 description: KubeAdmiral is a multi-cluster scheduling and orchestration system for
   Kubernetes.
 homepage_url: https://github.com/kubewharf/kubeadmiral
@@ -13,4 +13,4 @@ summary: KubeAdmiral is a multi-cluster scheduling and orchestration system for 
 title: KubeAdmiral
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/K/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/k/).

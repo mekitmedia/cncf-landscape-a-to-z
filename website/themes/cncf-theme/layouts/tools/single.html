@@ -1,35 +1,42 @@
 {{ define "main" }}
-<div class="min-h-screen bg-slate-50 font-sans text-slate-900">
+<div class="min-h-screen bg-slate-50 font-sans text-slate-900 flex flex-col">
     {{ partial "nav.html" . }}
 
-    <main id="main-content" tabindex="-1" class="max-w-7xl mx-auto px-6 py-12">
-        <!-- Breadcrumb Navigation -->
-        <nav aria-label="Breadcrumb" class="mb-8 lg:max-w-4xl lg:mx-auto pt-4">
-            <ol class="flex items-center gap-3 text-xs font-bold uppercase tracking-widest text-slate-400 m-0 p-0 list-none">
-                <li>
-                    <a href="/" class="hover:text-blue-600 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none rounded transition-colors">Home</a>
-                </li>
-                <li aria-hidden="true" class="flex items-center">
-                    <i data-lucide="chevron-right" class="w-3 h-3 text-slate-300"></i>
-                </li>
-                <li>
-                    {{ $letter := .Params.letter }}
-                    <a href="/letters/{{ $letter }}/" class="hover:text-blue-600 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none rounded transition-colors">Letter {{ $letter }}</a>
-                </li>
-                <li aria-hidden="true" class="flex items-center">
-                    <i data-lucide="chevron-right" class="w-3 h-3 text-slate-300"></i>
-                </li>
-                <li>
-                    <span class="text-slate-900" aria-current="page">{{ .Params.project_name }}</span>
-                </li>
-            </ol>
-        </nav>
+    <main id="main-content" tabindex="-1" class="flex-grow flex items-center justify-center px-4 sm:px-6 lg:px-8 py-12">
+        {{ if eq .Params.status "in_progress" }}
+        <!-- Middle Ground Visual for Research in Progress -->
+        <div class="max-w-2xl w-full bg-white p-8 md:p-12 rounded-[2.5rem] border border-slate-200 shadow-2xl shadow-slate-200/50 relative overflow-hidden my-auto">
+            <!-- Decorative Background Element -->
+            <div class="absolute top-0 right-0 -mt-8 -mr-8 w-48 h-48 bg-blue-50 rounded-full blur-3xl opacity-50"></div>
 
-        <!-- Project Header -->
-        <div class="bg-white rounded-2xl border border-slate-200 p-8 mb-8 lg:max-w-4xl lg:mx-auto">
-            <div class="flex items-start justify-between mb-4">
-                <div>
-                    <h1 class="text-4xl font-bold mb-2">{{ .Params.project_name }}</h1>
+            <div class="relative z-10 text-center">
+                <!-- Breadcrumb -->
+                <nav aria-label="Breadcrumb" class="mb-6">
+                    <ol class="flex items-center justify-center gap-2 text-xs font-bold uppercase tracking-widest text-slate-400 m-0 p-0 list-none">
+                        <li>
+                            <a href="/" class="hover:text-blue-600 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none rounded transition-colors">Home</a>
+                        </li>
+                        <li aria-hidden="true" class="flex items-center">
+                            <i data-lucide="chevron-right" class="w-3 h-3 text-slate-300"></i>
+                        </li>
+                        <li>
+                            {{ $letter := lower .Params.letter }}
+                            <a href="/letters/{{ $letter }}/" class="hover:text-blue-600 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none rounded transition-colors">Letter {{ .Params.letter }}</a>
+                        </li>
+                        <li aria-hidden="true" class="flex items-center">
+                            <i data-lucide="chevron-right" class="w-3 h-3 text-slate-300"></i>
+                        </li>
+                        <li>
+                            <span class="text-slate-900" aria-current="page">{{ .Params.project_name }}</span>
+                        </li>
+                    </ol>
+                </nav>
+
+                <div class="w-20 h-20 bg-gradient-to-br from-blue-500 to-indigo-600 text-white rounded-3xl flex items-center justify-center mx-auto mb-6 shadow-lg shadow-blue-200 rotate-3 hover:rotate-0 transition-transform duration-300">
+                    <i data-lucide="microscope" class="w-10 h-10"></i>
+                </div>
+
+                <div class="mb-2">
                     {{ $status := "non-cncf" }}
                     {{ if .Params.cncf_status }}
                         {{ $status = lower .Params.cncf_status }}
@@ -49,130 +56,237 @@
                         {{ $badgeClass = "bg-purple-100 text-purple-700" }}
                         {{ $badgeText = .Params.cncf_status }}
                     {{ end }}
-                    <div class="inline-block px-3 py-1 rounded text-sm font-bold uppercase tracking-tighter {{ $badgeClass }}">
+                    <span class="inline-block px-3 py-1 rounded text-xs font-bold uppercase tracking-tighter {{ $badgeClass }}">
                         {{ $badgeText }}
+                    </span>
+                </div>
+
+                <h1 class="text-3xl md:text-4xl font-black mb-3 tracking-tight text-slate-900">
+                    {{ .Params.project_name }}
+                </h1>
+
+                <h2 class="text-lg font-bold text-blue-600 mb-4">Research in Progress</h2>
+
+                <p class="text-slate-600 mb-6 leading-relaxed max-w-lg mx-auto text-sm md:text-base">
+                    {{ if .Params.description }}
+                        {{ .Params.description }}
+                    {{ else }}
+                        The tool page for <strong>{{ .Params.project_name }}</strong> hasn't been fully generated yet. Our agentic workflow is currently working on the deep research and writing for this project.
+                    {{ end }}
+                </p>
+
+                <!-- Project Links (GitHub & Homepage) -->
+                {{ if or .Params.repo_url .Params.homepage_url }}
+                <div class="flex flex-wrap justify-center gap-3 mb-8">
+                    {{ if .Params.repo_url }}
+                    <a href="{{ .Params.repo_url }}" target="_blank" rel="noopener noreferrer" aria-label="GitHub Repository (opens in a new tab)" class="inline-flex items-center gap-2 px-5 py-2.5 bg-slate-900 text-white rounded-xl text-sm font-bold hover:bg-blue-600 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none transition-all shadow-md shadow-slate-200">
+                        <i data-lucide="github" class="w-4 h-4"></i> GitHub Repository
+                    </a>
+                    {{ end }}
+                    {{ if .Params.homepage_url }}
+                    <a href="{{ .Params.homepage_url }}" target="_blank" rel="noopener noreferrer" aria-label="Official Website (opens in a new tab)" class="inline-flex items-center gap-2 px-5 py-2.5 bg-white text-slate-700 border border-slate-200 rounded-xl text-sm font-bold hover:bg-slate-50 hover:text-blue-600 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none transition-all shadow-sm">
+                        <i data-lucide="external-link" class="w-4 h-4"></i> Official Website
+                    </a>
+                    {{ end }}
+                </div>
+                {{ end }}
+
+                <!-- How it works box -->
+                <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6 text-left mb-8">
+                    <h3 class="text-base font-bold text-slate-800 mb-3 flex items-center gap-2">
+                        <i data-lucide="bot" class="w-5 h-5 text-blue-500"></i> How it works
+                    </h3>
+                    <ul class="space-y-2.5 text-xs md:text-sm text-slate-600">
+                        <li class="flex gap-3">
+                            <i data-lucide="search" class="w-4 h-4 text-slate-400 mt-0.5 flex-shrink-0"></i>
+                            <span>Our researcher agent gathers data from the CNCF landscape, GitHub, and project websites.</span>
+                        </li>
+                        <li class="flex gap-3">
+                            <i data-lucide="pen-tool" class="w-4 h-4 text-slate-400 mt-0.5 flex-shrink-0"></i>
+                            <span>A writer agent crafts a comprehensive summary, key features, and use cases.</span>
+                        </li>
+                        <li class="flex gap-3">
+                            <i data-lucide="file-code-2" class="w-4 h-4 text-slate-400 mt-0.5 flex-shrink-0"></i>
+                            <span>The content is reviewed and compiled into the page you're trying to view.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Footer Navigation Buttons -->
+                <div class="flex flex-col sm:flex-row justify-center gap-3 pt-6 border-t border-slate-100">
+                    {{ $letter := lower .Params.letter }}
+                    <a href="/letters/{{ $letter }}/" class="group flex items-center justify-center gap-2 bg-slate-100 text-slate-700 px-6 py-3 rounded-xl text-sm font-bold hover:bg-blue-100 hover:text-blue-600 transition-all focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none">
+                        <i data-lucide="arrow-left" class="w-4 h-4 group-hover:-translate-x-1 transition-transform"></i>
+                        Return to Letter {{ .Params.letter }}
+                    </a>
+                    <a href="https://github.com/mekitmedia/cncf-landscape-a-to-z" target="_blank" rel="noopener noreferrer" aria-label="Help Contribute on GitHub (opens in a new tab)" class="flex items-center justify-center gap-2 bg-white text-slate-600 border border-slate-200 px-6 py-3 rounded-xl text-sm font-bold hover:bg-slate-50 transition-all focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none">
+                        <i data-lucide="github" class="w-4 h-4"></i>
+                        Help Contribute
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        {{ else }}
+        <!-- Full Tool Page for Completed Research -->
+        <div class="w-full max-w-7xl mx-auto">
+            <!-- Breadcrumb Navigation -->
+            <nav aria-label="Breadcrumb" class="mb-8 lg:max-w-4xl lg:mx-auto pt-4">
+                <ol class="flex items-center gap-3 text-xs font-bold uppercase tracking-widest text-slate-400 m-0 p-0 list-none">
+                    <li>
+                        <a href="/" class="hover:text-blue-600 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none rounded transition-colors">Home</a>
+                    </li>
+                    <li aria-hidden="true" class="flex items-center">
+                        <i data-lucide="chevron-right" class="w-3 h-3 text-slate-300"></i>
+                    </li>
+                    <li>
+                        {{ $letter := lower .Params.letter }}
+                        <a href="/letters/{{ $letter }}/" class="hover:text-blue-600 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none rounded transition-colors">Letter {{ .Params.letter }}</a>
+                    </li>
+                    <li aria-hidden="true" class="flex items-center">
+                        <i data-lucide="chevron-right" class="w-3 h-3 text-slate-300"></i>
+                    </li>
+                    <li>
+                        <span class="text-slate-900" aria-current="page">{{ .Params.project_name }}</span>
+                    </li>
+                </ol>
+            </nav>
+
+            <!-- Project Header -->
+            <div class="bg-white rounded-2xl border border-slate-200 p-8 mb-8 lg:max-w-4xl lg:mx-auto">
+                <div class="flex items-start justify-between mb-4">
+                    <div>
+                        <h1 class="text-4xl font-bold mb-2">{{ .Params.project_name }}</h1>
+                        {{ $status := "non-cncf" }}
+                        {{ if .Params.cncf_status }}
+                            {{ $status = lower .Params.cncf_status }}
+                        {{ end }}
+                        {{ if or (eq $status "none") (eq $status "") }}
+                            {{ $status = "non-cncf" }}
+                        {{ end }}
+                        {{ $badgeClass := "bg-amber-100 text-amber-800" }}
+                        {{ $badgeText := "non-cncf" }}
+                        {{ if eq $status "graduated" }}
+                            {{ $badgeClass = "bg-green-100 text-green-700" }}
+                            {{ $badgeText = .Params.cncf_status }}
+                        {{ else if eq $status "incubating" }}
+                            {{ $badgeClass = "bg-blue-100 text-blue-700" }}
+                            {{ $badgeText = .Params.cncf_status }}
+                        {{ else if eq $status "sandbox" }}
+                            {{ $badgeClass = "bg-purple-100 text-purple-700" }}
+                            {{ $badgeText = .Params.cncf_status }}
+                        {{ end }}
+                        <div class="inline-block px-3 py-1 rounded text-sm font-bold uppercase tracking-tighter {{ $badgeClass }}">
+                            {{ $badgeText }}
+                        </div>
                     </div>
+                </div>
+
+                <div class="flex gap-4 text-sm flex-wrap">
+                    {{ if .Params.repo_url }}
+                    <a href="{{ .Params.repo_url }}" target="_blank" rel="noopener noreferrer" aria-label="GitHub Repository (opens in a new tab)" class="inline-flex items-center gap-2 px-4 py-2 bg-slate-100 rounded-lg hover:bg-blue-100 hover:text-blue-600 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none transition-colors">
+                        <i data-lucide="github" class="w-4 h-4"></i> GitHub Repository
+                    </a>
+                    {{ end }}
+                    {{ if .Params.homepage_url }}
+                    <a href="{{ .Params.homepage_url }}" target="_blank" rel="noopener noreferrer" aria-label="Official Website (opens in a new tab)" class="inline-flex items-center gap-2 px-4 py-2 bg-slate-100 rounded-lg hover:bg-blue-100 hover:text-blue-600 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none transition-colors">
+                        <i data-lucide="external-link" class="w-4 h-4"></i> Official Website
+                    </a>
+                    {{ end }}
                 </div>
             </div>
 
-            <div class="flex gap-4 text-sm flex-wrap">
-                {{ if .Params.repo_url }}
-                <a href="{{ .Params.repo_url }}" target="_blank" rel="noopener noreferrer" aria-label="GitHub Repository (opens in a new tab)" class="inline-flex items-center gap-2 px-4 py-2 bg-slate-100 rounded-lg hover:bg-blue-100 hover:text-blue-600 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none transition-colors">
-                    <i data-lucide="github" class="w-4 h-4"></i> GitHub Repository
-                </a>
-                {{ end }}
-                {{ if .Params.homepage_url }}
-                <a href="{{ .Params.homepage_url }}" target="_blank" rel="noopener noreferrer" aria-label="Official Website (opens in a new tab)" class="inline-flex items-center gap-2 px-4 py-2 bg-slate-100 rounded-lg hover:bg-blue-100 hover:text-blue-600 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none transition-colors">
-                    <i data-lucide="external-link" class="w-4 h-4"></i> Official Website
-                </a>
-                {{ end }}
-            </div>
-        </div>
+            <!-- Content Grid -->
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                <!-- Main Content -->
+                <div class="lg:col-span-2">
+                    <!-- Summary Section -->
+                    {{ if .Params.summary }}
+                    <section class="bg-white rounded-2xl border border-slate-200 p-8 mb-8">
+                        <h2 class="text-2xl font-bold mb-4">Overview</h2>
+                        <p class="text-slate-700 leading-relaxed text-lg">{{ .Params.summary }}</p>
+                    </section>
+                    {{ end }}
 
-        {{ if eq .Params.status "in_progress" }}
-        <!-- Research in Progress Alert / Banner -->
-        <div class="bg-blue-50 border-2 border-dashed border-blue-200 rounded-2xl p-8 mb-8 lg:max-w-4xl lg:mx-auto flex flex-col md:flex-row items-center gap-6">
-            <div class="w-16 h-16 bg-blue-500 text-white rounded-2xl flex items-center justify-center flex-shrink-0 shadow-lg shadow-blue-200">
-                <i data-lucide="microscope" class="w-8 h-8"></i>
+                    <!-- Key Features Section -->
+                    {{ if .Params.key_features }}
+                    <section class="bg-white rounded-2xl border border-slate-200 p-8 mb-8">
+                        <h2 class="text-2xl font-bold mb-4">Key Features</h2>
+                        <ul class="space-y-3">
+                            {{ range .Params.key_features }}
+                            <li class="flex gap-3">
+                                <i data-lucide="check-circle" class="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5"></i>
+                                <span class="text-slate-700">{{ . }}</span>
+                            </li>
+                            {{ end }}
+                        </ul>
+                    </section>
+                    {{ end }}
+
+                    <!-- Use Cases Section -->
+                    {{ if .Params.use_cases }}
+                    <section class="bg-white rounded-2xl border border-slate-200 p-8 mb-8">
+                        <h2 class="text-2xl font-bold mb-4">Use Cases</h2>
+                        <p class="text-slate-700 leading-relaxed">{{ .Params.use_cases }}</p>
+                    </section>
+                    {{ end }}
+
+                    <!-- Getting Started Section -->
+                    {{ if .Params.get_started }}
+                    <section class="bg-white rounded-2xl border border-slate-200 p-8 mb-8">
+                        <h2 class="text-2xl font-bold mb-4">Getting Started</h2>
+                        <div class="bg-slate-50 rounded-lg p-4 overflow-x-auto">
+                            <pre class="text-sm text-slate-700"><code>{{ .Params.get_started }}</code></pre>
+                        </div>
+                    </section>
+                    {{ end }}
+
+                    <!-- Recent Updates Section -->
+                    {{ if .Params.recent_updates }}
+                    <section class="bg-white rounded-2xl border border-slate-200 p-8 mb-8">
+                        <h2 class="text-2xl font-bold mb-4">Recent Updates</h2>
+                        <p class="text-slate-700 leading-relaxed">{{ .Params.recent_updates }}</p>
+                    </section>
+                    {{ end }}
+
+                    <!-- Interesting Facts Section -->
+                    {{ if .Params.interesting_facts }}
+                    <section class="bg-white rounded-2xl border border-slate-200 p-8 mb-8">
+                        <h2 class="text-2xl font-bold mb-4">Interesting Facts</h2>
+                        <p class="text-slate-700 leading-relaxed">{{ .Params.interesting_facts }}</p>
+                    </section>
+                    {{ end }}
+                </div>
+
+                <!-- Sidebar -->
+                <div class="lg:col-span-1">
+                    <!-- Related Tools Section -->
+                    {{ if .Params.related_tools }}
+                    <aside class="bg-white rounded-2xl border border-slate-200 p-6 sticky top-8">
+                        <h3 class="text-lg font-bold mb-4">Related Tools</h3>
+                        <ul class="space-y-2">
+                            {{ range .Params.related_tools }}
+                            <li>
+                                <a href="/tools/{{ . | lower | replaceRE " " "_" | replaceRE "&" "and" | replaceRE "/" "_" | replaceRE "\\." "_" | replaceRE "," "" }}/" class="text-blue-600 hover:text-blue-800 hover:underline">
+                                    {{ . }}
+                                </a>
+                            </li>
+                            {{ end }}
+                        </ul>
+                    </aside>
+                    {{ end }}
+                </div>
             </div>
-            <div>
-                <h2 class="text-xl font-bold text-slate-900 mb-2">Research in Progress</h2>
-                <p class="text-slate-600 leading-relaxed">
-                    Detailed research and writing for <strong>{{ .Params.project_name }}</strong> is currently underway by our agentic workflow. In the meantime, you can explore the project directly via the official links above.
-                </p>
+
+            <!-- Navigation Footer -->
+            <div class="mt-12 flex gap-4 justify-between">
+                {{ $letter := lower .Params.letter }}
+                <a href="/letters/{{ $letter }}/" class="inline-flex items-center gap-2 px-4 py-2 bg-slate-100 rounded-lg hover:bg-blue-100 hover:text-blue-600 transition-colors">
+                    <i data-lucide="arrow-left" class="w-4 h-4"></i> Back to Letter {{ .Params.letter }}
+                </a>
             </div>
         </div>
         {{ end }}
-
-        <!-- Content Grid -->
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            <!-- Main Content -->
-            <div class="lg:col-span-2">
-                <!-- Summary Section -->
-                {{ if .Params.summary }}
-                <section class="bg-white rounded-2xl border border-slate-200 p-8 mb-8">
-                    <h2 class="text-2xl font-bold mb-4">Overview</h2>
-                    <p class="text-slate-700 leading-relaxed text-lg">{{ .Params.summary }}</p>
-                </section>
-                {{ end }}
-
-                <!-- Key Features Section -->
-                {{ if .Params.key_features }}
-                <section class="bg-white rounded-2xl border border-slate-200 p-8 mb-8">
-                    <h2 class="text-2xl font-bold mb-4">Key Features</h2>
-                    <ul class="space-y-3">
-                        {{ range .Params.key_features }}
-                        <li class="flex gap-3">
-                            <i data-lucide="check-circle" class="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5"></i>
-                            <span class="text-slate-700">{{ . }}</span>
-                        </li>
-                        {{ end }}
-                    </ul>
-                </section>
-                {{ end }}
-
-                <!-- Use Cases Section -->
-                {{ if .Params.use_cases }}
-                <section class="bg-white rounded-2xl border border-slate-200 p-8 mb-8">
-                    <h2 class="text-2xl font-bold mb-4">Use Cases</h2>
-                    <p class="text-slate-700 leading-relaxed">{{ .Params.use_cases }}</p>
-                </section>
-                {{ end }}
-
-                <!-- Getting Started Section -->
-                {{ if .Params.get_started }}
-                <section class="bg-white rounded-2xl border border-slate-200 p-8 mb-8">
-                    <h2 class="text-2xl font-bold mb-4">Getting Started</h2>
-                    <div class="bg-slate-50 rounded-lg p-4 overflow-x-auto">
-                        <pre class="text-sm text-slate-700"><code>{{ .Params.get_started }}</code></pre>
-                    </div>
-                </section>
-                {{ end }}
-
-                <!-- Recent Updates Section -->
-                {{ if .Params.recent_updates }}
-                <section class="bg-white rounded-2xl border border-slate-200 p-8 mb-8">
-                    <h2 class="text-2xl font-bold mb-4">Recent Updates</h2>
-                    <p class="text-slate-700 leading-relaxed">{{ .Params.recent_updates }}</p>
-                </section>
-                {{ end }}
-
-                <!-- Interesting Facts Section -->
-                {{ if .Params.interesting_facts }}
-                <section class="bg-white rounded-2xl border border-slate-200 p-8 mb-8">
-                    <h2 class="text-2xl font-bold mb-4">Interesting Facts</h2>
-                    <p class="text-slate-700 leading-relaxed">{{ .Params.interesting_facts }}</p>
-                </section>
-                {{ end }}
-            </div>
-
-            <!-- Sidebar -->
-            <div class="lg:col-span-1">
-                <!-- Related Tools Section -->
-                {{ if .Params.related_tools }}
-                <aside class="bg-white rounded-2xl border border-slate-200 p-6 sticky top-8">
-                    <h3 class="text-lg font-bold mb-4">Related Tools</h3>
-                    <ul class="space-y-2">
-                        {{ range .Params.related_tools }}
-                        <li>
-                            <a href="/tools/{{ . | lower | replaceRE " " "_" | replaceRE "&" "and" | replaceRE "/" "_" | replaceRE "\\." "_" | replaceRE "," "" }}/" class="text-blue-600 hover:text-blue-800 hover:underline">
-                                {{ . }}
-                            </a>
-                        </li>
-                        {{ end }}
-                    </ul>
-                </aside>
-                {{ end }}
-            </div>
-        </div>
-
-        <!-- Navigation Footer -->
-        <div class="mt-12 flex gap-4 justify-between">
-            {{ $letter := .Params.letter }}
-            <a href="/letters/{{ $letter }}/" class="inline-flex items-center gap-2 px-4 py-2 bg-slate-100 rounded-lg hover:bg-blue-100 hover:text-blue-600 transition-colors">
-                <i data-lucide="arrow-left" class="w-4 h-4"></i> Back to Letter {{ $letter }}
-            </a>
-        </div>
     </main>
 </div>
 

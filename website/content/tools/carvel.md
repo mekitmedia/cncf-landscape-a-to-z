@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T19:55:12.717448'
+date: '2026-09-20T21:46:44.449464'
 description: Carvel provides a set of reliable, single-purpose, composable tools that
   aid in your application building, configuration, and deployment to Kubernetes.
 homepage_url: https://carvel.dev
@@ -14,4 +14,4 @@ summary: Carvel provides a set of reliable, single-purpose, composable tools tha
 title: Carvel
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/C/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/c/).

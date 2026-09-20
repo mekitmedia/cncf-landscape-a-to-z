@@ -160,7 +160,7 @@ def generate_tool_pages() -> int:
         content = f"""---
 {front_matter_yaml}---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/{letter}/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/{letter.lower()}/).
 """
 
         output_file = tools_content_dir / f"{sanitized_name}.md"

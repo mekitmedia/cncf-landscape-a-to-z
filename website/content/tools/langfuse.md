@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.592403'
+date: '2026-09-20T21:46:44.333398'
 description: Open source LLM engineering platform - Observability, metrics, evals,
   prompt management, playground, datasets.
 homepage_url: https://github.com/langfuse/langfuse
@@ -14,4 +14,4 @@ summary: Open source LLM engineering platform - Observability, metrics, evals, p
 title: Langfuse
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/L/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/l/).

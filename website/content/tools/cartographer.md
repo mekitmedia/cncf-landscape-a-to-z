@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.750957'
+date: '2026-09-20T21:46:44.479795'
 description: Cartographer is a Kubernetes-native Choreographer providing higher modularity
   and scalability for the software supply chain.
 homepage_url: https://cartographer.sh/
@@ -14,4 +14,4 @@ summary: Cartographer is a Kubernetes-native Choreographer providing higher modu
 title: Cartographer
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/C/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/c/).

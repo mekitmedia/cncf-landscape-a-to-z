@@ -1,6 +1,6 @@
 ---
 cncf_status: incubating
-date: '2026-09-20T19:55:12.430264'
+date: '2026-09-20T21:46:44.167049'
 description: Kubescape is an open source security and compliance platform that scans
   clusters, Kubernetes manifest files (YAML files, and Helm charts), code repositories,
   container registries and images. It detects misconfigurations according to frameworks
@@ -20,4 +20,4 @@ summary: Kubescape is an open source security and compliance platform that scans
 title: Kubescape
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/K/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/k/).

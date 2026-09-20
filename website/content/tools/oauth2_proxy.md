@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T19:55:13.189039'
+date: '2026-09-20T21:46:44.885025'
 description: A generic reverse proxy that provides authentication with Google, Azure,
   OpenID Connect and many more identity providers.
 homepage_url: https://oauth2-proxy.github.io/oauth2-proxy/
@@ -14,4 +14,4 @@ summary: A generic reverse proxy that provides authentication with Google, Azure
 title: OAuth2 Proxy
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/O/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/o/).

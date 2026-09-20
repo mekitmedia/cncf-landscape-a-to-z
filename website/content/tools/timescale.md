@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:13.000336'
+date: '2026-09-20T21:46:44.715359'
 description: PostgreSQL for time‑series. TimescaleDB is the leading open-source relational
   database for time-series data. Fully managed or self‑hosted.
 homepage_url: https://www.timescale.com
@@ -14,4 +14,4 @@ summary: PostgreSQL for time‑series. TimescaleDB is the leading open-source re
 title: Timescale
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/T/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/t/).

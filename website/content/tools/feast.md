@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.812150'
+date: '2026-09-20T21:46:44.538345'
 description: Feature Store to manage machine learning features.
 homepage_url: https://feast.dev/
 layout: single
@@ -12,4 +12,4 @@ summary: Feature Store to manage machine learning features.
 title: FEAST
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/F/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/f/).

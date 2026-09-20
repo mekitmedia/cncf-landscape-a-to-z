@@ -1,6 +1,6 @@
 ---
 cncf_status: graduated
-date: '2026-09-20T19:55:12.692595'
+date: '2026-09-20T21:46:44.425435'
 description: Standardizing common eventing metadata and their location to help with
   event identification and routing.
 homepage_url: https://cloudevents.io/
@@ -14,4 +14,4 @@ summary: Standardizing common eventing metadata and their location to help with 
 title: CloudEvents
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/C/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/c/).

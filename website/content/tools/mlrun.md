@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.094807'
+date: '2026-09-20T21:46:43.814856'
 description: Machine Learning automation and tracking
 homepage_url: https://www.mlrun.org
 layout: single
@@ -12,4 +12,4 @@ summary: Machine Learning automation and tracking
 title: MLRun
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/M/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/m/).

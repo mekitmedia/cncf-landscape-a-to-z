@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.165057'
+date: '2026-09-20T21:46:43.889146'
 homepage_url: https://github.com/wasmerio/vscode-wasm
 layout: single
 letter: V
@@ -11,4 +11,4 @@ summary: Research for this project is currently in progress.
 title: VSCode Wasm Extension
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/V/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/v/).

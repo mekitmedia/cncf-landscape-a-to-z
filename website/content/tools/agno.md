@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.363554'
+date: '2026-09-20T21:46:44.095946'
 description: Build, run, manage agentic software at scale
 get_started: Clone the `agentos-railway` template or similar starters, and run it
   locally with Docker to get a REST API, Postgres DB, and MCP server out-of-the-box.
@@ -34,4 +34,4 @@ use_cases: Building local or cloud-hosted agent platforms, orchestrating AI agen
   agents via Slack, WhatsApp, or standard web UI.
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/A/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/a/).

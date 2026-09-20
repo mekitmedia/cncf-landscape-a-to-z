@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.662181'
+date: '2026-09-20T21:46:44.398271'
 homepage_url: https://about.gitlab.com/
 layout: single
 letter: G
@@ -11,4 +11,4 @@ summary: Research for this project is currently in progress.
 title: GitLab
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/G/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/g/).

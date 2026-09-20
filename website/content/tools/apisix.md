@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.276540'
+date: '2026-09-20T21:46:44.007674'
 get_started: Visit https://apisix.apache.org/ or check out the GitHub repository at
   https://github.com/apache/apisix to get started.
 homepage_url: https://apisix.apache.org/
@@ -29,4 +29,4 @@ use_cases: Used to handle traditional north-south traffic, as well as east-west 
   between microservices.
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/A/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/a/).

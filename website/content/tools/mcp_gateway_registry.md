@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.119101'
+date: '2026-09-20T21:46:43.844916'
 description: Enterprise-ready MCP Gateway & Registry that centralizes AI development
   tools with secure OAuth authentication, dynamic tool discovery, and unified access
   for both autonomous AI agents and AI coding assistants. Transform scattered MCP
@@ -18,4 +18,4 @@ summary: Enterprise-ready MCP Gateway & Registry that centralizes AI development
 title: MCP Gateway Registry
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/M/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/m/).

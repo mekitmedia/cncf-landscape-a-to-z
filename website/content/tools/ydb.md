@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.782971'
+date: '2026-09-20T21:46:44.509762'
 description: YDB is an open-source Distributed SQL Database that combines high availability
   and scalability with strong consistency and ACID transactions.
 homepage_url: https://ydb.tech
@@ -14,4 +14,4 @@ summary: YDB is an open-source Distributed SQL Database that combines high avail
 title: YDB
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/Y/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/y/).

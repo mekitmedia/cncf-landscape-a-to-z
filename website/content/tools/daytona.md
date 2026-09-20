@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:13.307436'
+date: '2026-09-20T21:46:44.992511'
 homepage_url: https://www.daytona.io
 layout: single
 letter: D
@@ -11,4 +11,4 @@ summary: Research for this project is currently in progress.
 title: Daytona
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/D/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/d/).

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.608430'
+date: '2026-09-20T21:46:44.347620'
 description: Loggie is a lightweight, high-performance, cloud-native log collection
   agent and aggregator based on Golang.
 homepage_url: https://github.com/loggie-io/loggie
@@ -14,4 +14,4 @@ summary: Loggie is a lightweight, high-performance, cloud-native log collection 
 title: Loggie
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/L/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/l/).

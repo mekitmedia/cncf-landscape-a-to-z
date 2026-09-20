@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.447455'
+date: '2026-09-20T21:46:44.186979'
 description: Training operators on Kubernetes
 homepage_url: https://www.kubeflow.org/docs/components/training
 layout: single
@@ -12,4 +12,4 @@ summary: Training operators on Kubernetes
 title: Kubeflow Training Operator
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/K/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/k/).

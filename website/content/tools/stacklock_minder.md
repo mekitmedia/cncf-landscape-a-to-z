@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:13.103153'
+date: '2026-09-20T21:46:44.807921'
 description: Software Supply Chain Security Platform
 homepage_url: https://stacklok.com/minder
 layout: single
@@ -12,4 +12,4 @@ summary: Software Supply Chain Security Platform
 title: Stacklock Minder
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/S/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/s/).

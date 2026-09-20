@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:13.129275'
+date: '2026-09-20T21:46:44.831808'
 description: SigLens is a powerful open-source observability solution designed to
   reduce infrastructure costs by up to 90%. It scales seamlessly from handling 8 TB/day
   on a single MacBook Air to 1 PB/day across just 32 EC2 instances. With a user-friendly
@@ -20,4 +20,4 @@ summary: SigLens is a powerful open-source observability solution designed to re
 title: SigLens
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/S/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/s/).

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.312725'
+date: '2026-09-20T21:46:44.046345'
 description: Open source, distributed, versioned, column-oriented store modeled after
   Google's Bigtable.
 homepage_url: https://hbase.apache.org/
@@ -14,4 +14,4 @@ summary: Open source, distributed, versioned, column-oriented store modeled afte
 title: Apache HBase
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/A/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/a/).

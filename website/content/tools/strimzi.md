@@ -1,6 +1,6 @@
 ---
 cncf_status: incubating
-date: '2026-09-20T19:55:13.085120'
+date: '2026-09-20T21:46:44.791683'
 description: Apache Kafka running on Kubernetes
 homepage_url: https://strimzi.io/
 layout: single
@@ -12,4 +12,4 @@ summary: Apache Kafka running on Kubernetes
 title: Strimzi
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/S/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/s/).

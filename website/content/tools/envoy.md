@@ -1,6 +1,6 @@
 ---
 cncf_status: graduated
-date: '2026-09-20T19:55:12.832974'
+date: '2026-09-20T21:46:44.558620'
 homepage_url: https://www.envoyproxy.io
 layout: single
 letter: E
@@ -11,4 +11,4 @@ summary: Research for this project is currently in progress.
 title: Envoy
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/E/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/e/).

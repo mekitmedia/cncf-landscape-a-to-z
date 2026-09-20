@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T19:55:12.345109'
+date: '2026-09-20T21:46:44.078024'
 description: Terraform Pull Request Automation for Teams
 get_started: Check out the guide at https://www.runatlantis.io/guide
 homepage_url: https://www.runatlantis.io/
@@ -28,4 +28,4 @@ title: Atlantis
 use_cases: Running Terraform workflows directly from pull requests.
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/A/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/a/).

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.272455'
+date: '2026-09-20T21:46:44.004101'
 get_started: Visit the GitHub repository at https://github.com/apioak/apioak to clone
   the project and follow the installation guide.
 homepage_url: https://github.com/apioak/
@@ -29,4 +29,4 @@ use_cases: Ideal for microservices architectures requiring a robust and performa
   API gateway.
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/A/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/a/).

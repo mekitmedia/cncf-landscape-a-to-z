@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T19:55:13.013578'
+date: '2026-09-20T21:46:44.728333'
 description: An early-stage event processing system for unstructured data with rich
   support for structural pattern-matching, filtering and transformation
 homepage_url: https://www.tremor.rs/
@@ -14,4 +14,4 @@ summary: An early-stage event processing system for unstructured data with rich 
 title: Tremor
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/T/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/t/).

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.568441'
+date: '2026-09-20T21:46:44.313285'
 description: Convert any URL to an LLM-friendly input with a simple prefix
 homepage_url: https://jina.ai/reader/
 layout: single
@@ -12,4 +12,4 @@ summary: Convert any URL to an LLM-friendly input with a simple prefix
 title: Jina Reader
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/J/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/j/).

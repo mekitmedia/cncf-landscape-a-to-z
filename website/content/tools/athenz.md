@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T19:55:12.396732'
+date: '2026-09-20T21:46:44.130492'
 description: Open source platform for X.509 certificate based service authentication
   and fine grained access control in dynamic infrastructures
 get_started: Read the documentation or clone the GitHub repo at https://github.com/AthenZ/athenz
@@ -29,4 +29,4 @@ use_cases: Service identity in the form of short-lived X.509 certificates to all
   for Kubernetes clusters, Service to service authorization.
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/A/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/a/).

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.471505'
+date: '2026-09-20T21:46:44.213159'
 description: Kubernetes - The Easier Way enables users to create and manage an easily
   customizable HA Kubernetes cluster with only a couple of commands
 homepage_url: https://github.com/darxkies/k8s-tew
@@ -14,4 +14,4 @@ summary: Kubernetes - The Easier Way enables users to create and manage an easil
 title: Kubernetes - The Easier Way
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/K/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/k/).

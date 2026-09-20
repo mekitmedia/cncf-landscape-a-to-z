@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T19:55:13.114467'
+date: '2026-09-20T21:46:44.818779'
 description: Submariner enables direct networking between Pods and Services in different
   Kubernetes clusters, either on-premises or in the cloud.
 homepage_url: https://submariner.io
@@ -14,4 +14,4 @@ summary: Submariner enables direct networking between Pods and Services in diffe
 title: Submariner
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/S/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/s/).

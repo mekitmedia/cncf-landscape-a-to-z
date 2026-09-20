@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.356380'
+date: '2026-09-20T21:46:44.089335'
 homepage_url: https://www.ambient.run/
 layout: single
 letter: A
@@ -11,4 +11,4 @@ summary: Research for this project is currently in progress.
 title: Ambient
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/A/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/a/).

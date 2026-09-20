@@ -1,6 +1,6 @@
 ---
 cncf_status: incubating
-date: '2026-09-20T19:55:12.933783'
+date: '2026-09-20T21:46:44.653412'
 description: NATS.io is a connective technology for distributed systems and is a perfect
   fit to connect devices, edge, cloud or hybrid deployments. True multi-tenancy makes
   NATS ideal for SaaS and self-healing and scaling technology allows for topology
@@ -18,4 +18,4 @@ summary: NATS.io is a connective technology for distributed systems and is a per
 title: NATS
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/N/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/n/).

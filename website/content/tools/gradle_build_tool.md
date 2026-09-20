@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.637969'
+date: '2026-09-20T21:46:44.376730'
 description: Gradle is a build automation tool for multi-language software development.
   It controls the development process in the tasks of compilation and packaging to
   testing, deployment, and publishing. Supported languages include Java (Kotlin, Groovy,
@@ -18,4 +18,4 @@ summary: Gradle is a build automation tool for multi-language software developme
 title: Gradle Build Tool
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/G/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/g/).

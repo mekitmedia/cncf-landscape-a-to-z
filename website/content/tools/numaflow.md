@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.935567'
+date: '2026-09-20T21:46:44.655270'
 description: Language agnostic K8s native real-time data and stream processing engine
 homepage_url: https://numaflow.numaproj.io/
 layout: single
@@ -12,4 +12,4 @@ summary: Language agnostic K8s native real-time data and stream processing engin
 title: Numaflow
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/N/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/n/).

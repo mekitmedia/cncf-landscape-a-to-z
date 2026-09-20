@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.299545'
+date: '2026-09-20T21:46:44.029497'
 get_started: Follow the tutorials in the official Azure documentation to deploy a
   cluster.
 homepage_url: https://docs.microsoft.com/en-us/azure/service-fabric/
@@ -25,4 +25,4 @@ title: Azure Service Fabric
 use_cases: Running mission-critical, scalable microservices architectures.
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/A/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/a/).

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.876497'
+date: '2026-09-20T21:46:44.599779'
 description: Boundary is designed to grant access to critical systems using the principle
   of least privilege, solving challenges organizations encounter when users need to
   securely access applications and machines.
@@ -16,4 +16,4 @@ summary: Boundary is designed to grant access to critical systems using the prin
 title: Boundary
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/B/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/b/).

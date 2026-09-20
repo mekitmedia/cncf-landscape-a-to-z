@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:13.077152'
+date: '2026-09-20T21:46:44.784733'
 description: StarlingX is a fully integrated open source edge platform that integrates
   OpenStack and Kubernetes together to provide all functionality needed in the central
   cloud and on the edge sites. The project is developed by the StarlingX community.
@@ -16,4 +16,4 @@ summary: StarlingX is a fully integrated open source edge platform that integrat
 title: StarlingX
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/S/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/s/).

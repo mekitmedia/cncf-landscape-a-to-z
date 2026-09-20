@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T19:55:12.271137'
+date: '2026-09-20T21:46:44.002855'
 description: Kubernetes networking based on Open vSwitch
 homepage_url: https://antrea.io/
 layout: single
@@ -12,4 +12,4 @@ summary: Kubernetes networking based on Open vSwitch
 title: Antrea
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/A/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/a/).

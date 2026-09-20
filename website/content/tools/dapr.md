@@ -1,6 +1,6 @@
 ---
 cncf_status: graduated
-date: '2026-09-20T19:55:13.304903'
+date: '2026-09-20T21:46:44.990187'
 homepage_url: https://dapr.io
 layout: single
 letter: D
@@ -11,4 +11,4 @@ summary: Research for this project is currently in progress.
 title: Dapr
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/D/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/d/).

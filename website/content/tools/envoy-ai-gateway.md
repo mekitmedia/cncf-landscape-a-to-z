@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.844438'
+date: '2026-09-20T21:46:44.569971'
 description: Manages Unified Access to Generative AI Services built on Envoy Gateway
 homepage_url: https://aigateway.envoyproxy.io/
 layout: single
@@ -12,4 +12,4 @@ summary: Manages Unified Access to Generative AI Services built on Envoy Gateway
 title: Envoy-ai-gateway
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/E/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/e/).

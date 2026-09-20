@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.970050'
+date: '2026-09-20T21:46:44.688383'
 description: A component of Red Hat Device Edge used to provide lightweight Kubernetes
   container orchestration in field deployed devices at the far edge
 homepage_url: https://www.redhat.com/en/technologies/device-edge
@@ -14,4 +14,4 @@ summary: A component of Red Hat Device Edge used to provide lightweight Kubernet
 title: Red Hat Build of Microshift
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/R/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/r/).

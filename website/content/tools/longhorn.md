@@ -1,6 +1,6 @@
 ---
 cncf_status: incubating
-date: '2026-09-20T19:55:12.622118'
+date: '2026-09-20T21:46:44.360362'
 description: Cloud-native distributed storage for Kubernetes
 homepage_url: https://longhorn.io/
 layout: single
@@ -12,4 +12,4 @@ summary: Cloud-native distributed storage for Kubernetes
 title: Longhorn
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/L/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/l/).

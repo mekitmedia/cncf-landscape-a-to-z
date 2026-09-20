@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:13.121252'
+date: '2026-09-20T21:46:44.824859'
 description: Stateless cluster local OCI registry mirror. Spegel enables each node
   in a Kubernetes cluster to act as a local registry mirror, allowing nodes to share
   images between themselves. Any image already pulled by a node will be available
@@ -18,4 +18,4 @@ summary: Stateless cluster local OCI registry mirror. Spegel enables each node i
 title: Spegel
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/S/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/s/).

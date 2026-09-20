@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T19:55:12.583007'
+date: '2026-09-20T21:46:44.325651'
 description: Open source eBPF debugging and data collection tool for Kubernetes and
   Linux
 homepage_url: https://inspektor-gadget.io/
@@ -13,4 +13,4 @@ summary: Open source eBPF debugging and data collection tool for Kubernetes and 
 title: Inspektor Gadget
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/I/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/i/).

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:13.004643'
+date: '2026-09-20T21:46:44.719251'
 description: Holistic life cycle management of Kubernetes clusters on bare metal or
   OpenStack
 homepage_url: https://tarook.cloud/en/
@@ -13,4 +13,4 @@ summary: Holistic life cycle management of Kubernetes clusters on bare metal or 
 title: Tarook
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/T/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/t/).

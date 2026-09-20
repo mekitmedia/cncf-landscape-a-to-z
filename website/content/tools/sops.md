@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T19:55:13.088882'
+date: '2026-09-20T21:46:44.794958'
 description: sops is an editor of encrypted files that supports YAML, JSON, ENV, INI
   and BINARY formats and encrypts with AWS KMS, GCP KMS, Azure Key Vault, age, and
   PGP.
@@ -15,4 +15,4 @@ summary: sops is an editor of encrypted files that supports YAML, JSON, ENV, INI
 title: SOPS
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/S/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/s/).

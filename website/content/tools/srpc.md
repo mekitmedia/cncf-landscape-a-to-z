@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:13.164954'
+date: '2026-09-20T21:46:44.861327'
 description: High performance, low latency, lightweight enterprise-level RPC system,
   which supports Baidu bRPC, Tencent tRPC, thrift protocols.
 homepage_url: https://github.com/sogou/srpc
@@ -14,4 +14,4 @@ summary: High performance, low latency, lightweight enterprise-level RPC system,
 title: SRPC
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/S/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/s/).

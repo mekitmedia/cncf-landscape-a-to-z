@@ -1,6 +1,6 @@
 ---
 cncf_status: incubating
-date: '2026-09-20T19:55:13.271112'
+date: '2026-09-20T21:46:44.959461'
 description: Heterogeneous AI Computing Virtualization Middleware
 homepage_url: https://project-hami.io/
 layout: single
@@ -12,4 +12,4 @@ summary: Heterogeneous AI Computing Virtualization Middleware
 title: HAMi
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/H/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/h/).

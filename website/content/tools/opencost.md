@@ -1,6 +1,6 @@
 ---
 cncf_status: incubating
-date: '2026-09-20T19:55:13.228019'
+date: '2026-09-20T21:46:44.920648'
 description: OpenCost provides visibility into current and historical Kubernetes spend
   and resource allocation.
 homepage_url: https://www.opencost.io/
@@ -14,4 +14,4 @@ summary: OpenCost provides visibility into current and historical Kubernetes spe
 title: OpenCost
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/O/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/o/).

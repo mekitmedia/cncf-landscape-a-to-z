@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.093558'
+date: '2026-09-20T21:46:43.813362'
 description: An easy to install, single node local Kubernetes.
 homepage_url: https://microk8s.io
 layout: single
@@ -12,4 +12,4 @@ summary: An easy to install, single node local Kubernetes.
 title: MicroK8s
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/M/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/m/).

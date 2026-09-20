@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.672760'
+date: '2026-09-20T21:46:44.407597'
 description: A free and open source, distributed, wide-column store, NoSQL database
   management system designed to handle large amounts of data across many commodity
   servers, providing high availability with no single point of failure.
@@ -16,4 +16,4 @@ summary: A free and open source, distributed, wide-column store, NoSQL database 
 title: Cassandra
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/C/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/c/).

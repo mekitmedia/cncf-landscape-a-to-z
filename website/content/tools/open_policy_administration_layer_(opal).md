@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:13.192453'
+date: '2026-09-20T21:46:44.888129'
 description: Policy and data administration, distribution, and real-time updates on
   top of Policy Agents (OPA, Cedar, ...)
 homepage_url: https://www.opal.ac
@@ -14,4 +14,4 @@ summary: Policy and data administration, distribution, and real-time updates on 
 title: Open Policy Administration Layer (OPAL)
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/O/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/o/).

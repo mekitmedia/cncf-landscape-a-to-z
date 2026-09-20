@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.605771'
+date: '2026-09-20T21:46:44.345317'
 description: Developer-friendly OSS embedded retrieval library for multimodal AI.
   Search More; Manage Less.
 homepage_url: https://lancedb.com/
@@ -14,4 +14,4 @@ summary: Developer-friendly OSS embedded retrieval library for multimodal AI. Se
 title: LanceDB
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/L/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/l/).

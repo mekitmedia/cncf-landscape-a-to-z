@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.200378'
+date: '2026-09-20T21:46:43.929941'
 description: Amazon Elastic Kubernetes Service Distro (Amazon EKS-D) is a Kubernetes
   distribution based on and used by Amazon Elastic Kubernetes Service (EKS) to create
   reliable and secure Kubernetes clusters.
@@ -16,4 +16,4 @@ summary: Amazon Elastic Kubernetes Service Distro (Amazon EKS-D) is a Kubernetes
 title: Amazon Elastic Kubernetes Service Distro (Amazon EKS-D)
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/A/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/a/).

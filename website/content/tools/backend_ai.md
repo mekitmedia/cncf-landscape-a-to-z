@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.883022'
+date: '2026-09-20T21:46:44.607123'
 description: Backend.AI transforms GPU complexity into operational simplicity. Our
   container-level GPU virtualization maximizes performance while minimizing costs.
   The platform supports the entire AI lifecycle from data analysis to training and
@@ -18,4 +18,4 @@ summary: Backend.AI transforms GPU complexity into operational simplicity. Our c
 title: Backend.AI
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/B/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/b/).

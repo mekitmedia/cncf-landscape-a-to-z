@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.161970'
+date: '2026-09-20T21:46:43.885894'
 description: veinmind-tools is self-developed by chaitin technology, cloudwalker team
   incubation, a container security toolset based on veinmind-sdk
 homepage_url: https://veinmind.chaitin.com/
@@ -14,4 +14,4 @@ summary: veinmind-tools is self-developed by chaitin technology, cloudwalker tea
 title: Veinmind Tools
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/V/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/v/).

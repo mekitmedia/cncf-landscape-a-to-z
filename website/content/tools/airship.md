@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.334334'
+date: '2026-09-20T21:46:44.067470'
 homepage_url: https://www.airshipit.org/
 layout: single
 letter: A
@@ -11,4 +11,4 @@ summary: Research for this project is currently in progress.
 title: Airship
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/A/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/a/).

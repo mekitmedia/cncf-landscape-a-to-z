@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.959085'
+date: '2026-09-20T21:46:44.677757'
 description: AI-native distributed filesystem.
 homepage_url: https://nokv.io/
 layout: single
@@ -12,4 +12,4 @@ summary: AI-native distributed filesystem.
 title: NoKV
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/N/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/n/).

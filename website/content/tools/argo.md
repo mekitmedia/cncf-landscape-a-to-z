@@ -1,6 +1,6 @@
 ---
 cncf_status: graduated
-date: '2026-09-20T19:55:12.330988'
+date: '2026-09-20T21:46:44.063845'
 description: Kubernetes-native tools to run workflows, manage clusters, and do GitOps
   right.
 homepage_url: https://argoproj.github.io/
@@ -14,4 +14,4 @@ summary: Kubernetes-native tools to run workflows, manage clusters, and do GitOp
 title: Argo
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/A/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/a/).

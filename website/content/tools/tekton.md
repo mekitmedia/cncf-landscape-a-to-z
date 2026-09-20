@@ -1,6 +1,6 @@
 ---
 cncf_status: incubating
-date: '2026-09-20T19:55:13.043310'
+date: '2026-09-20T21:46:44.755745'
 description: A powerful and flexible open source framework for creating continuous
   integration and delivery (CI/CD) systems that allow developers to build, test, and
   deploy across multiple cloud providers and on-premises systems by abstracting away
@@ -18,4 +18,4 @@ summary: A powerful and flexible open source framework for creating continuous i
 title: Tekton
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/T/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/t/).

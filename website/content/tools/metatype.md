@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.138604'
+date: '2026-09-20T21:46:43.864046'
 homepage_url: https://metatype.dev
 layout: single
 letter: M
@@ -11,4 +11,4 @@ summary: Research for this project is currently in progress.
 title: Metatype
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/M/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/m/).

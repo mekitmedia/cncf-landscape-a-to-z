@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T19:55:12.900554'
+date: '2026-09-20T21:46:44.623609'
 description: WasmEdge is a lightweight, high-performance, and extensible WebAssembly
   runtime for cloud native, edge, and decentralized applications. It powers serverless
   apps, embedded functions, microservices, smart contracts, and IoT devices
@@ -16,4 +16,4 @@ summary: WasmEdge is a lightweight, high-performance, and extensible WebAssembly
 title: WasmEdge Runtime
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/W/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/w/).

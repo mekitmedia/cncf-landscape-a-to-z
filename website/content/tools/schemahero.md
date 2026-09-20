@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T19:55:13.062473'
+date: '2026-09-20T21:46:44.772504'
 description: A Kubernetes operator for declarative database schema management (gitops
   for database schemas)
 homepage_url: https://schemahero.io
@@ -14,4 +14,4 @@ summary: A Kubernetes operator for declarative database schema management (gitop
 title: SchemaHero
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/S/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/s/).

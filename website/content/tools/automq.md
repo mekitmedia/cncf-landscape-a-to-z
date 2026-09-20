@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.220183'
+date: '2026-09-20T21:46:43.949480'
 description: AutoMQ is a cloud-native fork of Kafka by separating storage to S3. 10x
   cost-effective. Autoscale in seconds. Single-digit ms latency.
 get_started: Run AutoMQ locally using Docker (`curl -O https://raw.githubusercontent.com/AutoMQ/automq/refs/tags/1.5.5/docker/docker-compose.yaml
@@ -47,4 +47,4 @@ use_cases: Cloud-native data streaming, event-driven architectures, replacing tr
   for unpredictable traffic spikes, and integrating streams into data lakes.
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/A/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/a/).

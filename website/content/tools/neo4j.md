@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.926546'
+date: '2026-09-20T21:46:44.646955'
 homepage_url: https://neo4j.com
 layout: single
 letter: N
@@ -11,4 +11,4 @@ summary: Research for this project is currently in progress.
 title: Neo4j
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/N/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/n/).

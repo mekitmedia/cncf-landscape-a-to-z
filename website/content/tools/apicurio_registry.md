@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T19:55:12.210871'
+date: '2026-09-20T21:46:43.940461'
 description: Apicurio Registry is an open-source registry for API and schema artifacts
   (OpenAPI, AsyncAPI, Avro, Protobuf, JSON Schema, GraphQL and more) and AI agent
   artifacts (A2A Agent Cards, MCP tool definitions, prompt templates, model schemas),
@@ -39,4 +39,4 @@ use_cases: Commonly used in event-driven architectures to centralize schema mana
   like Apache Kafka.
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/A/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/a/).

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:13.168732'
+date: '2026-09-20T21:46:44.864709'
 homepage_url: https://docs.openstack.org/swift/latest/
 layout: single
 letter: S
@@ -11,4 +11,4 @@ summary: Research for this project is currently in progress.
 title: Swift
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/S/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/s/).

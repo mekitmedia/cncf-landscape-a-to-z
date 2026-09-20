@@ -1,6 +1,6 @@
 ---
 cncf_status: graduated
-date: '2026-09-20T19:55:12.532897'
+date: '2026-09-20T21:46:44.277901'
 description: A Kubernetes Native Edge Computing Framework
 homepage_url: https://kubeedge.io/en/
 layout: single
@@ -12,4 +12,4 @@ summary: A Kubernetes Native Edge Computing Framework
 title: KubeEdge
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/K/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/k/).

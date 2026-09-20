@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T19:55:13.203785'
+date: '2026-09-20T21:46:44.898531'
 description: Standards-based DSL and open-source dev tools and runtimes are at the
   heart of the Serverless Workflow project
 homepage_url: https://open-workflow-specification.org
@@ -14,4 +14,4 @@ summary: Standards-based DSL and open-source dev tools and runtimes are at the h
 title: Open Workflow Specification
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/O/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/o/).

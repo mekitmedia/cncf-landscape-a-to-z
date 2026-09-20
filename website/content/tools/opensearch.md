@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:13.225157'
+date: '2026-09-20T21:46:44.917850'
 description: OpenSearch is a community-driven, Apache 2.0-licensed open source search
   and analytics suite that makes it easy to ingest, search, visualize, and analyze
   data.
@@ -16,4 +16,4 @@ summary: OpenSearch is a community-driven, Apache 2.0-licensed open source searc
 title: OpenSearch
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/O/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/o/).

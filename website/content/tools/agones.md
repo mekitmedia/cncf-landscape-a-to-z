@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T19:55:12.287560'
+date: '2026-09-20T21:46:44.017407'
 description: Agones is a library for hosting, running, and scaling dedicated game
   servers on Kubernetes.
 get_started: Check out the official documentation on the Agones website at agones.dev.
@@ -28,4 +28,4 @@ title: Agones
 use_cases: Hosting multiplayer games requiring dedicated servers on Kubernetes.
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/A/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/a/).

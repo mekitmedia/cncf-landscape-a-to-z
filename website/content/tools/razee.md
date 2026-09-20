@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.987611'
+date: '2026-09-20T21:46:44.704534'
 homepage_url: https://razee.io/
 layout: single
 letter: R
@@ -11,4 +11,4 @@ summary: Research for this project is currently in progress.
 title: Razee
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/R/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/r/).

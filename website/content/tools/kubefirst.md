@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.544510'
+date: '2026-09-20T21:46:44.290160'
 description: Instant operational open source gitops platforms for platform engineering,
   infrastructure, and software teams
 homepage_url: https://docs.kubefirst.com
@@ -14,4 +14,4 @@ summary: Instant operational open source gitops platforms for platform engineeri
 title: Kubefirst
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/K/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/k/).

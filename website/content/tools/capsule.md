@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T19:55:12.736282'
+date: '2026-09-20T21:46:44.466307'
 description: Capsule implements a multi-tenant and policy-based environment in your
   Kubernetes cluster. It is designed as a micro-services-based ecosystem with the
   minimalist approach, leveraging only on upstream Kubernetes.
@@ -16,4 +16,4 @@ summary: Capsule implements a multi-tenant and policy-based environment in your 
 title: Capsule
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/C/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/c/).

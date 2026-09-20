@@ -1,6 +1,6 @@
 ---
 cncf_status: incubating
-date: '2026-09-20T19:55:12.695457'
+date: '2026-09-20T21:46:44.427721'
 description: Confidential Containers is an open source community working to enable
   cloud native  confidential computing by leveraging Trusted Execution Environments
   to protect  containers and data.
@@ -16,4 +16,4 @@ summary: Confidential Containers is an open source community working to enable c
 title: Confidential Containers
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/C/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/c/).

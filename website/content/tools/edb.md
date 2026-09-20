@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.827054'
+date: '2026-09-20T21:46:44.553144'
 description: EDB Postgres for Kubernetes is a PostgreSQL operator based on CloudNativePG
 homepage_url: https://www.enterprisedb.com/
 layout: single
@@ -12,4 +12,4 @@ summary: EDB Postgres for Kubernetes is a PostgreSQL operator based on CloudNati
 title: EDB
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/E/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/e/).

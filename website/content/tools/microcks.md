@@ -1,6 +1,6 @@
 ---
 cncf_status: incubating
-date: '2026-09-20T19:55:12.105926'
+date: '2026-09-20T21:46:43.827155'
 description: The open source, cloud native tool for API Mocking and Testing
 homepage_url: https://microcks.io
 layout: single
@@ -12,4 +12,4 @@ summary: The open source, cloud native tool for API Mocking and Testing
 title: Microcks
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/M/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/m/).

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.242231'
+date: '2026-09-20T21:46:43.972862'
 get_started: Compile your code to WebAssembly, post-process it using `wasm-opt --asyncify`,
   and instantiate it in JavaScript using `Asyncify.instantiateStreaming` from `https://unpkg.com/asyncify-wasm?module`.
 homepage_url: https://github.com/GoogleChromeLabs/asyncify
@@ -32,4 +32,4 @@ use_cases: Bridging asynchronous JavaScript and Web APIs with synchronous WebAss
   make synchronous network requests or blocking operations to the web.
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/A/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/a/).

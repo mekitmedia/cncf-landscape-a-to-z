@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:13.126588'
+date: '2026-09-20T21:46:44.829570'
 description: Open Source network management and observability platform.
 homepage_url: https://serviceradar.cloud/
 layout: single
@@ -12,4 +12,4 @@ summary: Open Source network management and observability platform.
 title: ServiceRadar
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/S/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/s/).

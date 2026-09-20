@@ -1,6 +1,6 @@
 ---
 cncf_status: graduated
-date: '2026-09-20T19:55:12.492005'
+date: '2026-09-20T21:46:44.237879'
 description: 'Knative is a developer-focused serverless application layer which is
   a great complement to the existing Kubernetes application constructs. Knative consists
   of three components: an HTTP-triggered autoscaling container runtime called “Knative
@@ -22,4 +22,4 @@ summary: 'Knative is a developer-focused serverless application layer which is a
 title: Knative
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/K/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/k/).

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.822976'
+date: '2026-09-20T21:46:44.548970'
 description: Lightweight SMI compatible service mesh for Kubernetes east-west and
   north-south traffic management, uses ebpf for layer4 and pipy proxy for layer7 traffic
   management, support multi cluster network.
@@ -16,4 +16,4 @@ summary: Lightweight SMI compatible service mesh for Kubernetes east-west and no
 title: Flomesh Service Mesh (FSM)
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/F/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/f/).

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.572526'
+date: '2026-09-20T21:46:44.316802'
 description: InfluxDB is an open source time series database written in Rust, using
   Apache Arrow, Apache Parquet, and Apache DataFusion as its foundational building
   blocks.
@@ -15,4 +15,4 @@ summary: InfluxDB is an open source time series database written in Rust, using 
 title: Influxdb
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/I/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/i/).

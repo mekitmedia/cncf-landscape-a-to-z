@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T19:55:12.700336'
+date: '2026-09-20T21:46:44.432398'
 description: Cedar is an open source authorization policy language that enables developers
   to express fine-grained permissions as easy-to-understand policies enforced in their
   applications, and decouple access control from application logic. Cedar is designed
@@ -44,4 +44,4 @@ summary: Cedar is an open source authorization policy language that enables deve
 title: Cedar
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/C/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/c/).

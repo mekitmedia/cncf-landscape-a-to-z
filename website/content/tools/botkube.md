@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.886001'
+date: '2026-09-20T21:46:44.609956'
 homepage_url: https://www.botkube.io
 layout: single
 letter: B
@@ -11,4 +11,4 @@ summary: Research for this project is currently in progress.
 title: Botkube
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/B/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/b/).

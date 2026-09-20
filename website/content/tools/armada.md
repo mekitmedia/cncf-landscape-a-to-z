@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T19:55:12.293110'
+date: '2026-09-20T21:46:44.023396'
 description: Armada is a multi-Kubernetes cluster batch job scheduler
 get_started: Users can try Armada locally by following the quickstart guide on the
   Armada project website.
@@ -41,4 +41,4 @@ use_cases: High-Performance Computing (HPC) such as Machine Learning Training, S
   Testing, and Deployment Automation.
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/A/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/a/).

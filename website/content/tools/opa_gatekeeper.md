@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:13.196424'
+date: '2026-09-20T21:46:44.891929'
 description: An admission controller that validates requests to create and update
   Pods on Kubernetes clusters, using the Open Policy Agent (OPA).
 homepage_url: https://www.openpolicyagent.org/
@@ -14,4 +14,4 @@ summary: An admission controller that validates requests to create and update Po
 title: OPA/Gatekeeper
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/O/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/o/).

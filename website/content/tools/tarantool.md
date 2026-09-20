@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.997620'
+date: '2026-09-20T21:46:44.713313'
 description: In-memory computing platform consisting of a database and an application
   server
 homepage_url: https://www.tarantool.io/en/
@@ -14,4 +14,4 @@ summary: In-memory computing platform consisting of a database and an applicatio
 title: Tarantool
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/T/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/t/).

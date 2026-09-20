@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.452996'
+date: '2026-09-20T21:46:44.192843'
 description: KOTS provides the framework, tools and integrations that enable the delivery
   and management of 3rd-party Kubernetes applications, a.k.a. Kubernetes Off-The-Shelf
   (KOTS) Software.'
@@ -16,4 +16,4 @@ summary: KOTS provides the framework, tools and integrations that enable the del
 title: KOTS
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/K/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/k/).

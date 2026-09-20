@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.634873'
+date: '2026-09-20T21:46:44.373313'
 description: WASM focused languages
 homepage_url: https://grain-lang.org/
 layout: single
@@ -12,4 +12,4 @@ summary: WASM focused languages
 title: Grain
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/G/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/g/).

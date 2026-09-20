@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:13.028223'
+date: '2026-09-20T21:46:44.741617'
 description: 'Trivy is an all-in-one security scanner that beings vulnerability, SBOM,
   misconfigurations, leaked secrets, and license scanning together, across container
   images, code repositories, Kubernetes clusters and more. '
@@ -16,4 +16,4 @@ summary: 'Trivy is an all-in-one security scanner that beings vulnerability, SBO
 title: Trivy
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/T/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/t/).

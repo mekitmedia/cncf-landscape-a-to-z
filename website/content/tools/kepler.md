@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T19:55:12.514708'
+date: '2026-09-20T21:46:44.260604'
 description: Kepler (Kubernetes-based Efficient Power Level Exporter) uses eBPF to
   probe energy related system stats and exports as Prometheus metrics.
 homepage_url: https://sustainable-computing.io/
@@ -14,4 +14,4 @@ summary: Kepler (Kubernetes-based Efficient Power Level Exporter) uses eBPF to p
 title: Kepler
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/K/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/k/).

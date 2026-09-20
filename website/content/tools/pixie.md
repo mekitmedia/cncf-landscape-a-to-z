@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T19:55:13.377325'
+date: '2026-09-20T21:46:45.056043'
 description: Open source Kubernetes observability for developers
 homepage_url: https://px.dev/
 layout: single
@@ -12,4 +12,4 @@ summary: Open source Kubernetes observability for developers
 title: Pixie
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/P/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/p/).

@@ -1,6 +1,6 @@
 ---
 cncf_status: incubating
-date: '2026-09-20T19:55:12.248341'
+date: '2026-09-20T21:46:43.979552'
 get_started: Users can discover and install packages through the artifacthub.io portal
   or deploy their own instance via the provided Helm chart.
 homepage_url: https://artifacthub.io
@@ -30,4 +30,4 @@ use_cases: Finding and managing Helm charts, Falco configurations, OPA policies,
   operators, Tinkerbell actions, KEDA scalers, CoreDNS plugins, and more.
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/A/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/a/).

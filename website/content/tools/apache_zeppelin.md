@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.197485'
+date: '2026-09-20T21:46:43.926837'
 description: Web-based notebook that enables data-driven, interactive data analytics
   and collaborative documents with SQL, Scala and more.
 homepage_url: https://zeppelin.apache.org
@@ -14,4 +14,4 @@ summary: Web-based notebook that enables data-driven, interactive data analytics
 title: Apache Zeppelin
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/A/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/a/).

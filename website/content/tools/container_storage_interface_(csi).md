@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.773758'
+date: '2026-09-20T21:46:44.501424'
 homepage_url: https://github.com/container-storage-interface
 layout: single
 letter: C
@@ -11,4 +11,4 @@ summary: Research for this project is currently in progress.
 title: Container Storage Interface (CSI)
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/C/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/c/).

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.237253'
+date: '2026-09-20T21:46:43.967286'
 description: Fine-grained, policy-based, real-time authorization for APIs and microservices.
   Aserto is the maintainer of the Topaz and Open Policy Containers OSS projects.
 get_started: Developers can integrate Aserto using its SDKs (Node, Go, Python, Java,
@@ -33,4 +33,4 @@ use_cases: Adding real-time, fine-grained authorization to APIs and microservice
   without building undifferentiated plumbing.
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/A/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/a/).

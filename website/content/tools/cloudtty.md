@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.721253'
+date: '2026-09-20T21:46:44.452980'
 description: A Friendly Kubernetes CloudShell (Web Terminal)
 homepage_url: https://cloudtty.github.io/cloudtty/
 layout: single
@@ -12,4 +12,4 @@ summary: A Friendly Kubernetes CloudShell (Web Terminal)
 title: CloudTTY
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/C/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/c/).

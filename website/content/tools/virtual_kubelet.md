@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T19:55:12.163699'
+date: '2026-09-20T21:46:43.887245'
 description: Virtual Kubelet is an open source Kubernetes kubelet implementation
 homepage_url: https://virtual-kubelet.io/
 layout: single
@@ -12,4 +12,4 @@ summary: Virtual Kubelet is an open source Kubernetes kubelet implementation
 title: Virtual Kubelet
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/V/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/v/).

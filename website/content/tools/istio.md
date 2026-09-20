@@ -1,6 +1,6 @@
 ---
 cncf_status: graduated
-date: '2026-09-20T19:55:12.586963'
+date: '2026-09-20T21:46:44.328509'
 description: Simplify observability, traffic management, security, and policy with
   the Istio service mesh.
 homepage_url: https://istio.io/
@@ -14,4 +14,4 @@ summary: Simplify observability, traffic management, security, and policy with t
 title: Istio
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/I/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/i/).

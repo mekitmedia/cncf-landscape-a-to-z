@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.314027'
+date: '2026-09-20T21:46:44.047672'
 description: A realtime distributed OLAP datastore.
 get_started: Check out the official documentation or Getting Started guide to learn
   how to deploy a cluster, ingest data, and start querying.
@@ -38,4 +38,4 @@ use_cases: Powering user-facing analytics products (e.g. LinkedIn's 'who viewed 
   freshness in seconds.
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/A/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/a/).

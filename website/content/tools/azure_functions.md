@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:12.391368'
+date: '2026-09-20T21:46:44.125312'
 description: Develop more efficiently with Functions, an event-driven serverless compute
   platform that can also solve complex orchestration problems. Build and debug locally
   without additional setup, deploy and operate at scale in the cloud, and integrate
@@ -29,4 +29,4 @@ use_cases: Building serverless APIs, processing file uploads in real-time, autom
   tasks and workflows.
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/A/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/a/).

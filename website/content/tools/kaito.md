@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T19:55:12.413245'
+date: '2026-09-20T21:46:44.147094'
 description: Kubernetes AI Toolchain Operator (KAITO) simplifies LLM inference, tuning,
   and RAG workloads on Kubernetes.
 homepage_url: https://kaito-project.netlify.app/
@@ -14,4 +14,4 @@ summary: Kubernetes AI Toolchain Operator (KAITO) simplifies LLM inference, tuni
 title: KAITO
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/K/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/k/).

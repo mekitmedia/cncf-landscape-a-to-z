@@ -1,6 +1,6 @@
 ---
 cncf_status: graduated
-date: '2026-09-20T19:55:12.995054'
+date: '2026-09-20T21:46:44.711174'
 description: A distributed transactional key-value database. Based on the design of
   Google Spanner and HBase, but simpler to manage and without dependencies on any
   distributed filesystem
@@ -16,4 +16,4 @@ summary: A distributed transactional key-value database. Based on the design of 
 title: TiKV
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/T/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/t/).

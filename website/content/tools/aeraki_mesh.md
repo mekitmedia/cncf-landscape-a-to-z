@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T19:55:12.376135'
+date: '2026-09-20T21:46:44.110660'
 description: Aeraki Mesh allows you to manage any layer-7 traffic in a service mesh
 get_started: Visit the Aeraki Mesh quickstart guide on aeraki.net to deploy it alongside
   an Istio installation, or install it via Helm.
@@ -35,4 +35,4 @@ use_cases: Ideal for microservices architectures that use a mix of protocols (RP
   them, rather than just HTTP traffic.
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/A/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/a/).

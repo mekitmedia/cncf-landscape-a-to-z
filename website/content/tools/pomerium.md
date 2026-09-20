@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T19:55:13.356038'
+date: '2026-09-20T21:46:45.037126'
 description: Pomerium is an identity-aware access proxy that enables teams to implement
   true zero-trust security, eliminating the need for a VPN. Pomerium ensures that
   every single call is authenticated and authorized, providing a secure and seamless
@@ -18,4 +18,4 @@ summary: Pomerium is an identity-aware access proxy that enables teams to implem
 title: Pomerium
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/P/).
+This is an auto-generated tool page. For more details, see the [letter page](/letters/p/).
