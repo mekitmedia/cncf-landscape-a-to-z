@@ -23,6 +23,7 @@ docs/
 │
 ├── 🤖 Agent Workflows & Contributor Skills
 │   ├── agentic-workflow.md                    # Editor, Researcher, Writer agents & iteration loop
+│   ├── jules-task-delegation.md               # Task queue & self-cleaning Jules lifecycle
 │   └── ../.agents/skills/cncf-weekly-content/ # Multi-harness portable skill
 │
 └── 🔬 Explorations & Optimizations
@@ -98,6 +99,13 @@ docs/
 - Specialized agent roles: **Editor** (orchestration & quality review), **Researcher** (fact gathering & source extraction), **Writer** (synthesis of tool pages & blog posts)
 - Iterative editorial revision cycles (up to 3 rounds)
 - Prompt guidelines and editorial standards
+
+#### [jules-task-delegation.md](jules-task-delegation.md) *(New)*
+**Jules Task Delegation & Self-Cleaning Lifecycle Pattern**
+- Modular task queue architecture under `.github/prompts/tasks/`
+- Atomic task authoring principles and technical contract specifications
+- Self-cleaning task lifecycle (prompts delete themselves upon PR creation to keep backlog clean)
+- Dispatch options via GitHub CLI and Actions UI
 
 #### [CNCF Weekly Content Skill](../.agents/skills/cncf-weekly-content/SKILL.md)
 **Portable Skill for Claude Code, Codex/OpenAI, OpenCode, and Antigravity**
