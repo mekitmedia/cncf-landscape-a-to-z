@@ -1,9 +1,8 @@
-import sys
 import fire
 import asyncio
 import logging
 import os
-
+from pathlib import Path
 from src.pipeline.runner import run_etl
 from src.agentic.observability import setup_observability
 
@@ -51,50 +50,62 @@ class RunCommands:
             python src/cli.py run workflow --limit=50 --local
             python src/cli.py run workflow --local
         """
-        import sys
-        try:
-            if local or not os.getenv('PREFECT_API_URL'):
-                from src.agentic.runner import run_agentic_workflow
-                asyncio.run(run_agentic_workflow(limit=limit))
-            else:
-                from src.agentic.flow import weekly_content_flow
-                asyncio.run(weekly_content_flow(limit=limit))
-        except RuntimeError as e:
-            logger.error(f"\n❌ Configuration / Authentication Error:\n{e}\n")
-            sys.exit(1)
-        except Exception as e:
-            err_str = str(e)
-            if "API key" in err_str or "INVALID_ARGUMENT" in err_str or "400" in err_str:
-                logger.error(
-                    "\n❌ API Key Authentication Error: Invalid or missing API key.\n"
-                    "If using 1Password CLI, run:\n"
-                    "  op run -- just workflow\n"
-                    "Or set GOOGLE_API_KEY / PYDANTIC_AI_GATEWAY_API_KEY in your environment.\n"
-                )
-                sys.exit(1)
-            raise
+        from src.agentic.flow import weekly_content_flow
+        
+        # Set Prefect to run locally if requested
+        if local:
+            os.environ['PREFECT_API_URL'] = ''  # Empty URL forces local execution
+            logger.info("Running workflow in local mode")
+        
+        asyncio.run(weekly_content_flow(limit=limit))
 
+
+class EvalCommands:
+    def research(self, path: str):
+        """
+        Evaluate a single research YAML artifact on disk.
+        Usage: python src/cli.py eval research data/weeks/00-A/research/aibrix.yaml
+        """
+        from src.agentic.evals import evaluate_research_file
+        res = asyncio.run(evaluate_research_file(Path(path)))
+        if res:
+            print(f"\nEvaluation for {path}:")
+            print(f"Score: {res.score}/10 | Grounding: {res.grounding_quality}/10 | Depth: {res.technical_depth}/10")
+            print(f"Feedback: {res.specific_feedback}")
+            if res.improvement_actions:
+                print(f"Action Items: {', '.join(res.improvement_actions)}")
+
+    def post(self, path: str):
+        """
+        Evaluate a weekly blog post markdown artifact against the Letter C curated benchmark.
+        Usage: python src/cli.py eval post website/content/posts/2026-A.md
+        """
+        from src.agentic.evals import evaluate_post_file
+        res = asyncio.run(evaluate_post_file(Path(path)))
+        if res:
+            print(f"\nEvaluation for {path}:")
+            print(f"Score: {res.score}/10 | Tone: {res.tone_consistency}/10 | Structure: {res.structure_quality}/10")
+            print(f"Feedback: {res.specific_feedback}")
+            if res.improvement_actions:
+                print(f"Action Items: {', '.join(res.improvement_actions)}")
+
+    def sweep(self, week: str | None = None, agent: str | None = None, limit: int = 5):
+        """
+        Run an ad-hoc evaluation sweep across saved research artifacts filtered by week or agent provenance.
+        Usage: 
+            python src/cli.py eval sweep --agent=jules --limit=5
+            python src/cli.py eval sweep --week=00-A
+        """
+        from src.agentic.evals import run_adhoc_eval
+        asyncio.run(run_adhoc_eval(week=week, agent=agent, limit=limit))
 
 
 class Cli:
     def __init__(self):
         self.run = RunCommands()
+        self.eval = EvalCommands()
+
 
 if __name__ == '__main__':
     setup_observability()
-    try:
-        fire.Fire(Cli)
-    except RuntimeError as e:
-        logger.error(f"\n❌ Configuration / Authentication Error:\n{e}\n")
-        sys.exit(1)
-    except Exception as e:
-        err_str = str(e)
-        if "API key" in err_str or "INVALID_ARGUMENT" in err_str or "400" in err_str:
-            logger.error(
-                "\n❌ API Key Authentication Error: Invalid or missing API key.\n"
-                "If using 1Password CLI, run:\n"
-                "  op run -- just workflow\n"
-                "Or set GOOGLE_API_KEY / PYDANTIC_AI_GATEWAY_API_KEY in your environment.\n"
-            )
-            sys.exit(1)
-        raise
+    fire.Fire(Cli)
