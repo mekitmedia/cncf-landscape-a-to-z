@@ -34,7 +34,7 @@ def test_validate_research_file_valid(tmp_path: Path):
         "get_started": "kubectl apply -f test.yaml",
         "docs_url": "https://test.io/docs",
         "related_tools": ["Tool A"],
-        "sources": [{"label": "GitHub", "url": "https://github.com/test/test"}],
+        "sources": [{"id": "github1", "title": "GitHub", "url": "https://github.com/test/test", "source_type": "github_readme", "quotes": ["Some quote"]}],
     }
     res_file.write_text(yaml.dump(data), encoding="utf-8")
 

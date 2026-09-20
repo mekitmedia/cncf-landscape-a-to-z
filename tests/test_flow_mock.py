@@ -120,7 +120,8 @@ async def test_weekly_content_flow_e2e_golden(tmp_path):
             summary="A test project for e2e validation",
             key_features=["Feature 1"],
             recent_updates="v1.0.0",
-            use_cases="Cloud native testing"
+            use_cases="Cloud native testing",
+            sources=[]
         )
         return ModelResponse(parts=[TextPart(r.model_dump_json())])
 
