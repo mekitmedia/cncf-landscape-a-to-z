@@ -1,5 +1,5 @@
 ---
-title: "Week 20: Letter T"
+title: "Weeks 39-40: CNCF Projects Starting with T"
 letter: "T"
 week: 19
 data_key: "19-T"
@@ -8,7 +8,7 @@ layout: "list"
 
 # Summary for 19-T
 
-This week has a total of 46 items.
+This week has a total of 47 items.
 
 
 - **Provisioning Automation Configuration**: 3 items
@@ -48,6 +48,8 @@ This week has a total of 46 items.
 - **Data Data Architecture**: 1 items
 
 - **Data Data Science**: 1 items
+
+- **Ai Native Infra Orchestration And Scheduling**: 1 items
 
 - **Ai Native Infra Accelerator And Superpod**: 1 items
 
