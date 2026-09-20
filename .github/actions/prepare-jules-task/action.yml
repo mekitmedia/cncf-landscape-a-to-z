@@ -1,0 +1,33 @@
+name: 'Prepare Jules Task'
+description: 'Deterministically resolves the prompt for Google Jules from custom input, file backlog, or default weekly research prompt'
+inputs:
+  custom_prompt:
+    description: 'Optional custom override prompt'
+    required: false
+    default: ''
+outputs:
+  prompt:
+    description: 'The resolved prompt content for Jules'
+    value: ${{ steps.resolve.outputs.prompt }}
+  source_type:
+    description: 'Source type (custom, backlog_task, default_fallback)'
+    value: ${{ steps.resolve.outputs.source_type }}
+  source_ref:
+    description: 'Reference name of the selected task file'
+    value: ${{ steps.resolve.outputs.source_ref }}
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Resolve Prompt via CLI
+      id: resolve
+      shell: bash
+      env:
+        CUSTOM_PROMPT: ${{ inputs.custom_prompt }}
+      run: |
+        python scripts/jules_queue.py get-prompt ${CUSTOM_PROMPT:+--custom-prompt "$CUSTOM_PROMPT"} --github-output --info

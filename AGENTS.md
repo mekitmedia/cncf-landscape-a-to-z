@@ -10,6 +10,9 @@ Universal entrypoint for agent tooling and autonomous contributors in this repos
 
 ## Available Skills
 - `cncf-weekly-content`: `.agents/skills/cncf-weekly-content/SKILL.md`
+- `work-with-jules`: `.agents/skills/work-with-jules/SKILL.md`
+- `editorial-governance`: `.agents/skills/editorial-governance/SKILL.md`
+
 
 ## Supported Agent Harnesses
 - **Claude Code**: Reads `.claude/skills` / `CLAUDE.md`.

@@ -33,4 +33,6 @@ Create pytest tests verifying:
 2. Update DAG dependency rules in `src/tracker/yaml_backend.py`.
 3. Create `tests/test_tool_card_dag.py`.
 4. Run `uv run pytest`.
-5. **Self-Cleaning Step (Required)**: Delete this task file (`.github/prompts/tasks/04_tool_card_projection_and_dag.md`) before committing.
+5. **Record Learnings (Required)**: Append any architectural insights or graph traversal patterns to `.Jules/engineering.md`.
+6. **Self-Cleaning Step (Required)**: Delete this task file (`.github/prompts/tasks/04_tool_card_projection_and_dag.md`) before committing.
+

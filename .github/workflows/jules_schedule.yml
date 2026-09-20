@@ -16,8 +16,8 @@ permissions:
   pull-requests: write
 
 concurrency:
-  group: jules-schedule-${{ github.ref }}
-  cancel-in-progress: true
+  group: jules-backlog-runner
+  cancel-in-progress: false
 
 jobs:
   jules-task:
@@ -26,24 +26,16 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Load Jules Prompt
-        id: load-prompt
-        env:
-          CUSTOM_PROMPT: ${{ inputs.custom_prompt }}
-        run: |
-          EOF="EOF_$(date +%s%N)"
-          echo "PROMPT<<$EOF" >> "$GITHUB_ENV"
-          if [ -n "$CUSTOM_PROMPT" ]; then
-            echo "$CUSTOM_PROMPT" >> "$GITHUB_ENV"
-          else
-            cat .github/prompts/jules_prompt.md >> "$GITHUB_ENV"
-          fi
-          echo "$EOF" >> "$GITHUB_ENV"
+      - name: Prepare Jules Task
+        id: prepare
+        uses: ./.github/actions/prepare-jules-task
+        with:
+          custom_prompt: ${{ inputs.custom_prompt }}
 
       - name: Run Jules Action
         uses: google-labs-code/jules-action@v1.0.0
         with:
-          prompt: ${{ env.PROMPT }}
+          prompt: ${{ steps.prepare.outputs.prompt }}
           jules_api_key: ${{ secrets.JULES_API_KEY }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

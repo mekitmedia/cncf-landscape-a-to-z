@@ -37,4 +37,6 @@ Create pytest tests verifying:
 2. Create `tests/test_grounding_validator.py`.
 3. Run `uv run pytest tests/test_grounding_validator.py`.
 4. Run `uv run python scripts/validate_grounding.py --week 00-A` to test against existing research files.
-5. **Self-Cleaning Step (Required)**: Delete this task file (`.github/prompts/tasks/03_deterministic_grounding_validator.md`) before committing.
+5. **Record Learnings (Required)**: Append any architectural insights or validation quirks discovered to `.Jules/engineering.md`.
+6. **Self-Cleaning Step (Required)**: Delete this task file (`.github/prompts/tasks/03_deterministic_grounding_validator.md`) before committing.
+
