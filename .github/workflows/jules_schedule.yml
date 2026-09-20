@@ -28,16 +28,17 @@ jobs:
 
       - name: Load Jules Prompt
         id: load-prompt
+        env:
+          CUSTOM_PROMPT: ${{ inputs.custom_prompt }}
         run: |
-          if [ -n "${{ inputs.custom_prompt }}" ]; then
-            echo "PROMPT=${{ inputs.custom_prompt }}" >> "$GITHUB_ENV"
+          EOF="EOF_$(date +%s%N)"
+          echo "PROMPT<<$EOF" >> "$GITHUB_ENV"
+          if [ -n "$CUSTOM_PROMPT" ]; then
+            echo "$CUSTOM_PROMPT" >> "$GITHUB_ENV"
           else
-            PROMPT_CONTENT=$(cat .github/prompts/jules_prompt.md)
-            EOF=$(dd if=/dev/urandom bs=15 count=1 status=none | base64)
-            echo "PROMPT<<$EOF" >> "$GITHUB_ENV"
-            echo "$PROMPT_CONTENT" >> "$GITHUB_ENV"
-            echo "$EOF" >> "$GITHUB_ENV"
+            cat .github/prompts/jules_prompt.md >> "$GITHUB_ENV"
           fi
+          echo "$EOF" >> "$GITHUB_ENV"
 
       - name: Run Jules Action
         uses: google-labs-code/jules-action@v1.0.0
