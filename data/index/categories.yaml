@@ -1107,6 +1107,7 @@
   - items:
     - AIBrix
     - Arks
+    - InferNex
     - KAITO
     - KServe
     - llm-d
@@ -1181,6 +1182,7 @@
     - Kueue
     - LeaderWorkerSet
     - Nivida NeMo
+    - Topograph
     - Yunikorn
     path: ai_native_infra_orchestration_and_scheduling
     subcategory: Orchestration and Scheduling

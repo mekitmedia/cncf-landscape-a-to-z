@@ -39,8 +39,11 @@
   repo_url: https://github.com/apache/streampipes
   twitter: https://twitter.com/StreamPipes
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  description: 'Apicurio Registry is a runtime server system that stores a specific
-    set of artifacts as files. '
+  description: Apicurio Registry is an open-source registry for API and schema artifacts
+    (OpenAPI, AsyncAPI, Avro, Protobuf, JSON Schema, GraphQL and more) and AI agent
+    artifacts (A2A Agent Cards, MCP tool definitions, prompt templates, model schemas),
+    with immutable versioning, validity and compatibility rules, role-based access
+    control, and standards-based discovery through AI Catalog and ARD well-known endpoints.
   featured: true
   homepage_url: https://www.apicur.io
   logo: apicurio-registry.svg

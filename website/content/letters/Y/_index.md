@@ -8,13 +8,12 @@ layout: "list"
 
 # Summary for 24-Y
 
-This week has a total of 5 items.
+This week has a total of 4 items.
 
 
 - **App Definition And Development Database**: 2 items
 
-- **Cnai General Orchestration**: 1 items
+- **Wasm Embedded Functions**: 1 items
 
 - **Ai Native Infra Orchestration And Scheduling**: 1 items
 
-- **Wasm Embedded Functions**: 1 items
