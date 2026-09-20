@@ -94,25 +94,27 @@ def validate_yaml_file(filepath: Path) -> List[str]:
     return errors
 
 def get_git_diff_files(ref: str) -> List[Path]:
+    repo_root = Path(__file__).resolve().parent.parent
     try:
         result = subprocess.run(
-            ['git', 'diff', '--name-only', ref],
-            capture_output=True, text=True, check=True
+            ["git", "diff", "--name-only", "--diff-filter=ACMRT", ref],
+            capture_output=True,
+            text=True,
+            check=True,
+            cwd=repo_root,
         )
-        files = result.stdout.strip().split('\n')
+        files = [f.strip() for f in result.stdout.splitlines() if f.strip()]
 
         # Filter for only research YAMLs
-        research_files = []
+        research_files: List[Path] = []
         for f in files:
-            if not f:
-                continue
-            p = Path(f)
-            if p.suffix == '.yaml' and 'research' in p.parts and p.exists():
+            p = repo_root / f
+            if p.suffix == ".yaml" and "research" in p.parts and p.exists():
                 research_files.append(p)
 
         return research_files
-    except subprocess.CalledProcessError as e:
-        print(f"Error getting git diff: {e}", file=sys.stderr)
+    except Exception as e:
+        print(f"Warning: Could not get git diff against '{ref}': {e}", file=sys.stderr)
         return []
 
 def main():
