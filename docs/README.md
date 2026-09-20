@@ -17,8 +17,9 @@ docs/
 │   ├── graph-driven-orchestration.md          # Parallel graph execution & task dependencies
 │   └── tracker.md                             # State tracking, task lifecycle & tracker.yaml
 │
-├── 🛡️ Editorial Governance & Grounding (NEW)
-│   └── editorial-governance-and-grounding.md  # Provenance, quote grounding, no-vector-DB design
+├── 🛡️ Editorial Governance & Grounding
+│   ├── editorial-governance-and-grounding.md  # Provenance, quote grounding, no-vector-DB design
+│   └── model-capabilities-and-judge-design.md # Model tiers, bias mitigation & LLM judge blueprints
 │
 ├── 🤖 Agent Workflows & Contributor Skills
 │   ├── agentic-workflow.md                    # Editor, Researcher, Writer agents & iteration loop
@@ -74,12 +75,19 @@ docs/
 
 ### Editorial Governance & Content Quality
 
-#### [editorial-governance-and-grounding.md](editorial-governance-and-grounding.md) *(New)*
+#### [editorial-governance-and-grounding.md](editorial-governance-and-grounding.md)
 **Editorial Governance, Provenance & Grounding Validation**
 - Separation of target publications (**Tool Pages** and **Weekly Blog Posts**) from intermediate artifacts (**Research Note-Taking**)
 - Multi-source provenance capturing verbatim quotes without requiring an external vector database
-- Three-layer grounding verification (Substring/Fuzzy matching, GitHub Release API checks, Entailment Critic)
+- Decoupling of the orchestration tracker from the automated evaluation suite
 - Human-in-the-Loop (HITL) review gates and PR audit reporting
+
+#### [model-capabilities-and-judge-design.md](model-capabilities-and-judge-design.md) *(New)*
+**Model Capabilities & LLM Judge Design Guide**
+- Model evaluation tiers (Tier 1 Flash NLI, Tier 2 Frontier Editorial, Tier 3 Deep Reasoning)
+- Bias mitigations: self-enhancement, verbosity, position, and premature verdict biases
+- Rationale-first Pydantic schemas and 2-stage cascading judge architecture
+- Practical evaluation roadmap for subsequent implementation sessions
 
 ---
 
