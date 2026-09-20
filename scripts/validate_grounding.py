@@ -66,20 +66,20 @@ def validate_yaml_file(filepath: Path) -> List[str]:
 
         # 2. Local Cache / Snapshot Substring Check
         cache_file = cache_dir / f"{project_slug}_{source_id}.txt"
+        cached_text = None
         if cache_file.exists():
             try:
-                with open(cache_file, 'r', encoding='utf-8') as f:
-                    cached_text = f.read()
-
-                for quote in quotes:
-                    if not quote or not isinstance(quote, str) or not str(quote).strip():
-                        errors.append(f"Source '{source_id}' has empty or invalid quote")
-                        continue
-
-                    if not is_quote_in_source(quote, cached_text):
-                        errors.append(f"Quote '{quote[:50]}...' not found in cached source {source_id}")
+                cached_text = cache_file.read_text(encoding="utf-8")
             except Exception as e:
                 errors.append(f"Failed to read cache file {cache_file}: {e}")
+
+        for quote in quotes:
+            if not isinstance(quote, str) or not quote.strip():
+                errors.append(f"Source '{source_id}' has empty or invalid quote")
+                continue
+
+            if cached_text is not None and not is_quote_in_source(quote, cached_text):
+                errors.append(f"Quote '{quote[:50]}...' not found in cached source {source_id}")
 
     # 4. Summary & Feature Grounding Attribution
     # In deterministic script, we just verify that these fields are not empty
