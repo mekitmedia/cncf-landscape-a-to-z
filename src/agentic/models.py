@@ -14,6 +14,19 @@ class SourceLink(BaseModel):
     url: str = Field(..., description="Direct URL to documentation, release, talk, etc.")
 
 
+class SourceEvidence(BaseModel):
+    id: str
+    title: Optional[str] = None
+    url: str
+    source_type: str = Field(
+        default="official_docs",
+        description="Source category: github_readme | github_release | official_docs | cncf_landscape"
+    )
+    quotes: List[str] = Field(
+        default_factory=list,
+        description="Verbatim text excerpts extracted from the source"
+    )
+
 class LatestReleaseInfo(BaseModel):
     version: Optional[str] = Field(None, description="Latest verified release tag or version")
     date: Optional[str] = Field(None, description="Release date in ISO format or string")
@@ -41,7 +54,10 @@ class ResearchOutput(BaseModel):
     interesting_facts: Optional[str] = Field(None, description="Any interesting facts found")
     get_started: Optional[str] = Field(None, description="Getting started guide or quick start command")
     related_tools: Optional[List[str]] = Field(None, description="List of related tools or projects")
-    sources: Optional[List[Union[SourceLink, Dict[str, str], str]]] = Field(default_factory=list, description="Primary source links for ground-truth citations")
+    sources: List[SourceEvidence] = Field(default_factory=list)
+    editorial_lock: bool = Field(default=False, description="Set to True to prevent automated overwrites")
+    locked_by: Optional[str] = None
+    locked_at: Optional[str] = None
     last_researched_at: Optional[str] = Field(None, description="ISO 8601 UTC timestamp of research execution")
     research_version: Optional[int] = Field(1, description="Schema/research iteration version")
 

@@ -1,4 +1,7 @@
 import os
+import logging
+
+logger = logging.getLogger(__name__)
 import yaml
 from pathlib import Path
 from datetime import datetime
@@ -6,7 +9,7 @@ from typing import List
 from src.agentic.agents.researcher import researcher_agent
 from src.agentic.models import ResearchOutput, ProjectMetadata
 from src.tracker import get_tracker, TaskStatus
-from src.config import load_config
+from src.config import load_config, week_id
 from src.agentic.deps import ResearcherDeps
 
 async def research_item(item: ProjectMetadata, week_letter: str) -> ResearchOutput:
@@ -60,7 +63,7 @@ async def research_item(item: ProjectMetadata, week_letter: str) -> ResearchOutp
             use_cases="Unknown"
         )
 
-async def save_research(week_letter: str, research: ResearchOutput):
+async def save_research(week_letter: str, research: ResearchOutput, force_override: bool = False):
     """Save individual research file to data/weeks/XX-Letter/research/{sanitized_name}.yaml
     and update tracker."""
     tracker = get_tracker()
@@ -79,6 +82,17 @@ async def save_research(week_letter: str, research: ResearchOutput):
         .replace('"', "")
 
     filename = Path(research_dir) / f"{sanitized_name}.yaml"
+
+    if filename.exists() and not force_override:
+        try:
+            with open(filename, "r", encoding="utf-8") as f:
+                existing_data = yaml.safe_load(f)
+            if existing_data and existing_data.get("editorial_lock", False):
+                logger.info(f"Skipping {research.project_name}: Protected by editorial lock")
+                print(f"Skipping {research.project_name}: Protected by editorial lock")
+                return
+        except Exception as e:
+            pass
 
     # Create directory if it doesn't exist
     os.makedirs(research_dir, exist_ok=True)
