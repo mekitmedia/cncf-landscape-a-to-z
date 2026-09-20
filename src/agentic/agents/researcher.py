@@ -4,6 +4,7 @@ from src.agentic.models import ResearchOutput
 from src.agentic.tools.tracker import update_tracker_status, get_ready_tasks, GetReadyTasksInput
 from src.agentic.config import get_model
 from src.agentic.deps import ResearcherDeps
+from src.agentic.prompts import RESEARCHER_SYSTEM_PROMPT
 from src.tracker import get_tracker
 
 from src.agentic.prompts import RESEARCHER_SYSTEM_PROMPT

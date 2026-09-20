@@ -32,7 +32,8 @@ async def save_post(week_letter: str, draft: BlogPostDraft):
     full_content = f"""---
 title: "{draft.title}"
 date: {date_str}
-draft: false
+draft: true
+letter: "{week_letter}"
 ---
 
 {draft.content_markdown}
@@ -44,7 +45,7 @@ draft: false
 
     # Update tracker to mark blog post as completed
     try:
-        relative_path = f"website/content/letters/{year}-{week_letter}.md"
+        relative_path = f"website/content/posts/{year}-{week_letter}.md"
         tracker.update_task(
             week_letter,
             None,

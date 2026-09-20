@@ -6,6 +6,7 @@ from src.agentic.tools.editor import check_week_status, read_week_summary
 from src.agentic.tools.tracker import check_tracker_progress, update_tracker_status, get_all_weeks_status, get_ready_tasks, GetAllWeeksStatusInput
 from src.agentic.config import get_model
 from src.agentic.deps import AgentDeps
+from src.agentic.prompts import EDITOR_SYSTEM_PROMPT
 
 from src.agentic.prompts import EDITOR_SYSTEM_PROMPT
 
