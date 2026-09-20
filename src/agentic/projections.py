@@ -5,6 +5,7 @@ import yaml
 
 logger = logging.getLogger(__name__)
 MAX_TOOL_CARD_WORDS = 80
+MAX_FEATURE_WORDS = 12
 
 
 def _trim_words(words: list[str], limit: int) -> list[str]:
@@ -44,9 +45,11 @@ def create_tool_card(research_data: dict) -> str:
     feature_label_words = len(feature_label.split()) if features_text else 0
 
     available_content_words = MAX_TOOL_CARD_WORDS - header_words - repo_words - feature_label_words
-    feature_words = _trim_words(features_text.split(), max(available_content_words, 0))
-    available_summary_words = available_content_words - len(feature_words)
+    reserved_feature_words = min(len(features_text.split()), MAX_FEATURE_WORDS)
+    available_summary_words = available_content_words - reserved_feature_words
     summary_words = _trim_words(summary.split(), max(available_summary_words, 0))
+    remaining_feature_words = available_content_words - len(summary_words)
+    feature_words = _trim_words(features_text.split(), max(remaining_feature_words, 0))
 
     card = f"{header} {' '.join(summary_words)} {repo_link}".strip()
     if feature_words:
