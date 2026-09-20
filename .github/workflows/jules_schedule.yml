@@ -11,6 +11,10 @@ on:
         required: false
         type: string
 
+permissions:
+  contents: write
+  pull-requests: write
+
 concurrency:
   group: jules-schedule-${{ github.ref }}
   cancel-in-progress: true
