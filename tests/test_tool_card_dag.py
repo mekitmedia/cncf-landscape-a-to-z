@@ -1,17 +1,17 @@
-import pytest
-import os
-import yaml
+from pathlib import Path
+import sys
 from unittest.mock import patch, mock_open
+
+sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from src.agentic.projections import create_tool_card, project_week_deck
 from src.tracker.yaml_backend import YAMLTrackerBackend
-from src.tracker.models import TaskStatus, WeekTracker, ItemTasks, WeekTasks, TaskRecord
-from src.tracker.config import TASK_TYPE_RESEARCH, TASK_TYPE_CONTENT, TASK_TYPE_BLOG_POST
+from src.tracker.models import TaskStatus, WeekTracker, ItemTasks, TaskRecord
 
 def test_create_tool_card():
     mock_research = {
         "project_name": "TestTool",
-        "summary": "This is a comprehensive summary of TestTool.",
+        "summary": " ".join(["This summary sentence stays intentionally long."] * 30),
         "cncf_status": "incubating",
         "repo_url": "https://github.com/test/tool",
         "key_features": [
@@ -24,7 +24,7 @@ def test_create_tool_card():
     card = create_tool_card(mock_research)
 
     # Assert length is compact
-    assert len(card.split()) < 80
+    assert len(card.split()) <= 80
     # Assert content
     assert "TestTool" in card
     assert "incubating" in card
@@ -34,7 +34,7 @@ def test_create_tool_card():
     assert "Feature 3 is okay" not in card
 
 @patch("src.agentic.projections.glob.glob")
-def test_project_week_deck(mock_glob, tmp_path):
+def test_project_week_deck(mock_glob):
     mock_glob.return_value = ["file1.yaml", "file2.yaml"]
 
     mock_yaml_1 = """
@@ -82,7 +82,7 @@ def test_can_start_task_dag():
             ),
             "item2": ItemTasks(
                 tasks={
-                    "research": TaskRecord(status=TaskStatus.PENDING),
+                    "research": TaskRecord(status=TaskStatus.SKIPPED),
                     "content": TaskRecord(status=TaskStatus.PENDING)
                 }
             )
@@ -92,21 +92,21 @@ def test_can_start_task_dag():
     yaml_tracker = YAMLTrackerBackend("data/weeks")
 
     # item1 content can start because its research is COMPLETED
-    assert yaml_tracker._check_dependencies(tracker, "item1", "content") is True
+    assert yaml_tracker.can_start_task("00-A", "item1", "content", tracker=tracker) is True
 
-    # item2 content cannot start because its research is PENDING
-    assert yaml_tracker._check_dependencies(tracker, "item2", "content") is False
+    # item2 content cannot start because its research is SKIPPED
+    assert yaml_tracker.can_start_task("00-A", "item2", "content", tracker=tracker) is False
 
     # blog_post cannot start because not all items have content completed
-    assert yaml_tracker._check_dependencies(tracker, None, "blog_post") is False
+    assert yaml_tracker.can_start_task("00-A", None, "blog_post", tracker=tracker) is False
 
     # item2 research becomes completed
     tracker.items["item2"].tasks["research"].status = TaskStatus.COMPLETED
-    assert yaml_tracker._check_dependencies(tracker, "item2", "content") is True
+    assert yaml_tracker.can_start_task("00-A", "item2", "content", tracker=tracker) is True
 
     # item1 and item2 content becomes completed and skipped
     tracker.items["item1"].tasks["content"].status = TaskStatus.COMPLETED
     tracker.items["item2"].tasks["content"].status = TaskStatus.SKIPPED
 
     # blog_post CAN start now
-    assert yaml_tracker._check_dependencies(tracker, None, "blog_post") is True
+    assert yaml_tracker.can_start_task("00-A", None, "blog_post", tracker=tracker) is True

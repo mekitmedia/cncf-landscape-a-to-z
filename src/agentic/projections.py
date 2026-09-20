@@ -1,7 +1,21 @@
-import os
-import yaml
 import glob
 import logging
+import yaml
+
+
+logger = logging.getLogger(__name__)
+MAX_TOOL_CARD_WORDS = 80
+
+
+def _trim_words(words: list[str], limit: int) -> list[str]:
+    """Trim a list of words to a maximum size, adding an ellipsis if needed."""
+    if limit <= 0 or not words:
+        return []
+    if len(words) <= limit:
+        return words
+    if limit == 1:
+        return ["…"]
+    return words[: limit - 1] + ["…"]
 
 def create_tool_card(research_data: dict) -> str:
     """
@@ -19,9 +33,24 @@ def create_tool_card(research_data: dict) -> str:
     else:
         top_features = []
 
-    features_text = " ".join([f"- {feat}" for feat in top_features])
+    features_text = " ".join(f"- {feat}" for feat in top_features)
 
-    card = f"- **{project_name}** ({cncf_status}): {summary} [Repo]({repo_url})\n  Features: {features_text}"
+    header = f"- **{project_name}** ({cncf_status}):"
+    repo_link = f"[Repo]({repo_url})"
+    feature_label = "Features:"
+
+    header_words = len(header.split())
+    repo_words = len(repo_link.split())
+    feature_label_words = len(feature_label.split()) if features_text else 0
+
+    available_content_words = MAX_TOOL_CARD_WORDS - header_words - repo_words - feature_label_words
+    feature_words = _trim_words(features_text.split(), max(available_content_words, 0))
+    available_summary_words = available_content_words - len(feature_words)
+    summary_words = _trim_words(summary.split(), max(available_summary_words, 0))
+
+    card = f"{header} {' '.join(summary_words)} {repo_link}".strip()
+    if feature_words:
+        card = f"{card}\n  {feature_label} {' '.join(feature_words)}"
     return card
 
 def project_week_deck(week_id: str) -> str:
@@ -40,8 +69,8 @@ def project_week_deck(week_id: str) -> str:
                 if data:
                     cards.append(create_tool_card(data))
             except yaml.YAMLError as e:
-                logging.error(f"Failed to parse {filepath}: {e}")
+                logger.error(f"Failed to parse {filepath}: {e}")
             except Exception as e:
-                logging.error(f"Unexpected error while processing {filepath}: {e}")
+                logger.error(f"Unexpected error while processing {filepath}: {e}")
 
     return "\n\n".join(cards)
