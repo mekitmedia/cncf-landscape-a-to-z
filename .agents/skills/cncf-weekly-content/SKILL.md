@@ -31,11 +31,13 @@ Modular role prompts are maintained in:
 
 ## Files This Skill Writes
 - `data/weeks/<WEEK_ID>/research/<SANITIZED_PROJECT_NAME>.yaml`
+- `website/content/tools/<SANITIZED_PROJECT_NAME>.md` (optional / tool page generation)
 - `website/content/posts/<YEAR>-<WEEK_LETTER>.md`
 - `data/weeks/<WEEK_ID>/tracker.yaml`
 
 ## Guardrails
 - Do not invent facts; only write verifiable project details.
+- Research files are structured note-taking artifacts: ground every claim in verifiable source quotes.
 - Keep writes inside the paths listed above.
 - Preserve tracker structure; only update status fields relevant to this run.
 - If research is missing, leave explicit placeholders instead of hallucinating.
@@ -47,13 +49,13 @@ Modular role prompts are maintained in:
 2. Select the first incomplete week in alphabetical order.
 3. If all weeks are complete, stop.
 
-### 2) Researcher task: create or enrich research YAML
+### 2) Researcher task: create or enrich research YAML (Structured Note-Taking)
 Research is a continuous endeavor. For each project in the selected week:
 1. Read existing metadata from `data/weeks/<WEEK_ID>/categories/*.yaml` and any existing research file in `data/weeks/<WEEK_ID>/research/`.
 2. Do not overwrite rich data with shallower summaries; enrich missing citations, releases, and ecosystem perspectives.
 3. Conduct deep live grounding from official homepages, repositories, documentation, and release notes.
 4. Save one YAML file per project in `data/weeks/<WEEK_ID>/research/<sanitized_project_name>.yaml`.
-5. Use this rich schema:
+5. Use this rich schema with source quotes for grounding:
 
 ```yaml
 project_name: ""
@@ -80,8 +82,12 @@ get_started: ""
 related_tools:
   - ""
 sources:
-  - title: ""
+  - id: "src_readme"
+    title: ""
     url: ""
+    source_type: "github_readme" # github_readme | github_release | official_docs | cncf_landscape
+    quotes:
+      - "Exact quote or excerpt from the official source"
 last_researched_at: "<TIMESTAMP_ISO8601_UTC>"
 research_version: 1
 ```
