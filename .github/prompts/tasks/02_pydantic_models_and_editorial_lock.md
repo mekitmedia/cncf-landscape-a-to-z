@@ -45,5 +45,7 @@ Create tests verifying:
 1. Update `src/agentic/models.py`.
 2. Update `src/tracker/yaml_backend.py` or research persistence handlers to respect `editorial_lock`.
 3. Create `tests/test_editorial_lock.py`.
-4. Run `uv run pytest` to ensure all 54+ tests pass.
-5. **Self-Cleaning Step (Required)**: Delete this task file (`.github/prompts/tasks/02_pydantic_models_and_editorial_lock.md`) before committing.
+4. Run `uv run pytest` to ensure all tests pass.
+5. **Record Learnings (Required)**: Append any architectural insights or edge cases discovered to `.Jules/engineering.md`.
+6. **Self-Cleaning Step (Required)**: Delete this task file (`.github/prompts/tasks/02_pydantic_models_and_editorial_lock.md`) before committing.
+
