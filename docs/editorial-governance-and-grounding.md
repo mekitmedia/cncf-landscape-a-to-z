@@ -147,8 +147,30 @@ flowchart TD
 
 1. **Quote Grounding Rate**: Percentage of `quotes:` that are exact or fuzzy substrings of the source URL content (Target: 100%).
 2. **Deterministic Metadata Accuracy**: Percentage of `latest_release` tags and dates matching the upstream GitHub API (Target: 100%).
-3. **Link Integrity Rate**: Percentage of `sources`, `repo_url`, and `homepage_url` links returning HTTP 200 OK (Target: 100%).
-4. **Claim Entailment Score**: Percentage of claims in published tool pages/blog posts supported by recorded quotes.
+### 4.3 Edge-Case Safeguards & Defensive Architecture
+
+To avoid failure modes in production and CI, the evaluation framework and agent workflows incorporate five specific architectural defenses:
+
+1. **Deterministic Local Source Snapshots (Preventing Flaky CI)**:
+   - When the Researcher scrapes a web page or README, it saves a raw text snapshot to `data/weeks/<WEEK_ID>/research/.cache/<tool_slug>_<source_id>.txt`.
+   - CI validates quotes against this local snapshot offline, eliminating flakiness from upstream website changes, bot-blockers, and unauthenticated rate limits.
+   - Live network calls in CI are isolated to a non-blocking HTTP `HEAD` link-liveness test with exponential backoff.
+
+2. **Editorial Lock Protocol (Preventing Human Overwrite / Stomping)**:
+   - When an editor manually corrects a research YAML or tool page, the file can be tagged with `editorial_lock: true`.
+   - Orchestration agents and batch runners must treat locked files as immutable read-only artifacts unless explicitly passed `--force-unlock`.
+
+3. **Canonical Text Normalization & Domain Glossary**:
+   - The quote substring matcher applies canonical text normalization (`html.unescape`, normalizing smart quotes/dashes, and collapsing whitespace) before evaluation.
+   - The Tier 1 Entailment Judge prompt injects a standard cloud-native synonym dictionary (`K8s` $\equiv$ `Kubernetes`, `CRD` $\equiv$ `Custom Resource Definition`, `LoRA` $\equiv$ `Low-Rank Adaptation`) to eliminate false-alarm rejections.
+
+4. **Information Compression & Tool Card Projection (Context Window Protection)**:
+   - Research schema enforces strict bounding caps (`max 3 sources per tool`, `max 2 quotes per source`, `max 300 chars per quote`).
+   - For high-volume weeks (e.g., Week 00-A with 69 items), the orchestrator projects research notes into compact **80-word Tool Cards** (~7,500 tokens total) before passing to the Writer, preventing "Lost-in-the-Middle" degradation.
+
+5. **Graph-Enforced Dependency Order (Preventing 404 Internal Links)**:
+   - The dependency graph strictly enforces: $\text{ETL} \rightarrow \text{Research (Notes)} \rightarrow \text{Tool Pages (Content)} \rightarrow \text{Blog Post (Synthesis)}$.
+   - Blog posts may only link to `/tools/<slug>/` if the corresponding tool page is already completed.
 
 ---
 
