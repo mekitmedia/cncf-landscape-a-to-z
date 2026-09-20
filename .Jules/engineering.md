@@ -13,3 +13,4 @@ This file records insights, learnings, and canonical actions discovered during e
 ## 2026-09-20 - Deterministic Grounding Validator
 **Learning:** YAML research files must include non-empty summary and key_features; source quotes should be validated as substrings of cached snapshots after canonical normalization.
 **Action:** Keep grounding validation deterministic by checking sources/url/quotes shape and using canonical_normalize-based substring matching when cache snapshots are present.
+1. Tested tool card generation constraints properly.\n2. DAG evaluation respects SKIPPED for skipped tasks alongside COMPLETED.

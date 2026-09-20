@@ -219,7 +219,7 @@ class YAMLTrackerBackend:
                         continue
                     
                     dep_task = item_tasks.get(dep_task_type)
-                    if not dep_task or dep_task.status != TaskStatus.COMPLETED:
+                    if not dep_task or dep_task.status not in (TaskStatus.COMPLETED, TaskStatus.SKIPPED):
                         return False
             return True
         
@@ -232,7 +232,7 @@ class YAMLTrackerBackend:
         # Check each dependency
         for dep_task_type in config.depends_on:
             dep_task = item_tasks.get(dep_task_type)
-            if not dep_task or dep_task.status != TaskStatus.COMPLETED:
+            if not dep_task or dep_task.status not in (TaskStatus.COMPLETED, TaskStatus.SKIPPED):
                 return False
         
         return True
