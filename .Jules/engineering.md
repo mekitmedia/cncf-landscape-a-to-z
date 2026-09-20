@@ -9,4 +9,7 @@ This file records insights, learnings, and canonical actions discovered during e
 ## 2026-09-20 - Atomic Task Self-Cleaning
 **Learning:** Leaving completed task prompt files in `.github/prompts/tasks/` leads to ambiguous queue state and stale prompt pollution.
 **Action:** When implementing a task from `.github/prompts/tasks/`, always delete the task prompt file as the final step in the PR branch before committing.
-- Grounding validator implemented: Discovered that YAML files must have basic non-empty summary and key_features to satisfy grounding attribution, and quotes must be exact substrings within the cached snapshots using text canonicalization.
+
+## 2026-09-20 - Deterministic Grounding Validator
+**Learning:** YAML research files must include non-empty summary and key_features; source quotes should be validated as substrings of cached snapshots after canonical normalization.
+**Action:** Keep grounding validation deterministic by checking sources/url/quotes shape and using canonical_normalize-based substring matching when cache snapshots are present.
