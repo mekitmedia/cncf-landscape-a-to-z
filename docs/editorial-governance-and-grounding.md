@@ -1,4 +1,4 @@
-# Editorial Governance, Provenance & Grounding Validation
+# Editorial Governance, Provenance & Grounding Evaluation Framework
 
 ## 1. Overview & Core Philosophy
 
@@ -12,7 +12,7 @@ In this architecture, content is strictly divided between **target publications*
 ┌────────────────────────────────────────────────────────────────────────┐
 │                        UPSTREAM & RESEARCH                             │
 │                                                                        │
-│  CNCF Landscape API / GitHub / Docs                                    │
+│  CNCF Landscape API / GitHub / Official Docs                           │
 │        ↓ (Extraction & Scraping)                                       │
 │  Research YAMLs (data/weeks/<WEEK_ID>/research/<tool>.yaml)            │
 │  👉 Role: Structured Note-Taking (Agent Working Memory)                │
@@ -30,7 +30,7 @@ In this architecture, content is strictly divided between **target publications*
 └───────────────────────────────────┘ └───────────────────────────────────┘
 ```
 
-- **Target 1: Tool Pages (`website/content/tools/*.md`)**: The primary reference pages for individual landscape projects. They contain full feature breakdowns, installation guides, repository links, and use cases.
+- **Target 1: Tool Pages (`website/content/tools/*.md`)**: The primary reference pages for individual landscape projects (features, specs, quickstart, use cases).
 - **Target 2: Weekly Blog Posts (`website/content/posts/*.md`)**: Curated editorial roundups summarizing the week's projects for readers.
 - **Intermediate: Research YAMLs (`data/weeks/<WEEK_ID>/research/*.yaml`)**: **Structured note-taking**. These files are not meant as standalone end-user publications. Instead, they serve as the verified evidence store and bridge between raw web data and generated content.
 
@@ -38,63 +38,63 @@ In this architecture, content is strictly divided between **target publications*
 
 ## 2. Provenance & Source Grounding Strategy
 
-To guarantee that generated tool pages and blog posts are accurate, we mandate that **agents actually derive their claims from verified sources rather than hallucinating from parametric memory**.
+To guarantee that generated tool pages and blog posts are accurate, agents must **derive their claims from verified sources rather than hallucinating from parametric memory**.
 
 ### 2.1 Note-Taking Schema with Quote-Based Grounding
 
-Research notes should capture multiple high-authority sources (the more sources, the better). Each source must include exact quotes/snippets:
+Research notes capture multiple high-authority sources (the more sources, the better). Each source includes verbatim quotes/snippets.
+
+> [!IMPORTANT]
+> **No Self-Reported Metrics in Notes or Tracker**: Research YAMLs and `tracker.yaml` do **not** contain self-reported LLM confidence scores (e.g. `grounding_score: 0.98`), as hallucinating models will also hallucinate high confidence. All evaluations are performed externally by the automated evaluation suite.
 
 ```yaml
 # Example: data/weeks/00-A/research/aibrix.yaml
 project_name: "AIBrix"
+homepage_url: "https://aibrix.io"
+repo_url: "https://github.com/vllm-project/aibrix"
+docs_url: "https://aibrix.io/docs"
+cncf_status: "sandbox" # sandbox | incubating | graduated | member
 
-# Governance & Verification Metadata
-governance:
-  researched_at: "2026-09-20T19:30:00Z"
-  agent: "researcher"
-  model: "gemini-2.5-flash"
-  grounding_status: "verified" # [verified, needs_review, failed]
-  grounding_score: 0.95
+latest_release:
+  version: "v0.7.0"
+  date: "2026-06-16"
+  release_notes_url: "https://github.com/vllm-project/aibrix/releases/tag/v0.7.0"
 
-# Multi-Source Evidence Capture (Note-Taking)
+# Multi-Source Evidence Capture (Verbatim Quotes)
 sources:
   - id: "src_github_readme"
+    title: "AIBrix GitHub README"
     url: "https://github.com/vllm-project/aibrix"
     source_type: "github_readme"
-    retrieved_at: "2026-09-20T19:28:10Z"
     quotes:
       - "AIBrix is an open-source, cost-efficient, scalable and pluggable cloud-native infrastructure for GenAI applications."
       - "Tailored specifically to enterprise needs for deploying, managing, and scaling large language model (LLM) inference."
   - id: "src_github_releases"
+    title: "AIBrix v0.7.0 Release Notes"
     url: "https://github.com/vllm-project/aibrix/releases/tag/v0.7.0"
     source_type: "github_release"
-    retrieved_at: "2026-09-20T19:28:15Z"
     quotes:
       - "v0.7.0: Management Console, Self-Hosted Batch, KV-Centric Disaggregation, and High-Availability Gateway."
 
-# Structured Synthesized Notes (Grounded in Sources)
+# Synthesized Working Notes (Grounded in Sources)
 summary: "AIBrix is an open-source, cost-efficient cloud-native infrastructure for deploying and scaling LLM inference in enterprise Kubernetes environments."
-summary_sources: ["src_github_readme"]
-
 key_features:
-  - text: "High-Density LoRA Management for streamlined low-rank adaptation support."
-    source_id: "src_github_readme"
-  - text: "Unified AI Runtime sidecar enabling standardized metrics and model downloads."
-    source_id: "src_github_readme"
-  - text: "KV-Centric Disaggregation and Management Console introduced in v0.7.0."
-    source_id: "src_github_releases"
-
-recent_updates:
-  latest_version: "v0.7.0"
-  release_date: "2026-06-16"
-  highlights: "Introduced Management Console, Self-Hosted Batch, and HA Gateway."
-  source_id: "src_github_releases"
-
+  - "High-Density LoRA Management for streamlined low-rank adaptation support."
+  - "Unified AI Runtime sidecar enabling standardized metrics and model downloads."
+  - "KV-Centric Disaggregation and Management Console introduced in v0.7.0."
+recent_updates: "v0.7.0 introduced Management Console, Self-Hosted Batch, and HA Gateway."
 use_cases: "Optimizing GenAI inference on Kubernetes for cost efficiency and high-density multi-tenant serving."
+ecosystem_perspectives:
+  strengths: "Deep Kubernetes-native integration with vLLM and high-density multi-model serving."
+  considerations: "Rapidly evolving API as a sandbox project."
+  community_discussions:
+    - "KubeCon keynote collaboration with Google on LLM-aware Kubernetes load balancing."
 get_started: "kubectl apply -k https://github.com/vllm-project/aibrix/config/default"
 related_tools:
   - "vLLM"
   - "KServe"
+last_researched_at: "2026-09-20T19:30:00Z"
+research_version: 1
 ```
 
 ---
@@ -110,101 +110,95 @@ We intentionally do **not** introduce an external source database or vector stor
 3. **Low Operational Overhead**: Eliminates extra services, vector indexing infrastructure, embedding API costs, and synchronization lag in CI/CD pipelines.
 
 ### 3.3 Future Evolution Path
-As the corpus grows across thousands of landscape entries and cross-project relationship querying becomes necessary, we can evaluate a lightweight, embedded vector store (such as **LanceDB** or **DuckDB with VSS**) or a retrieval index as a future enhancement.
+As the corpus grows across thousands of landscape entries and cross-project relationship querying becomes necessary, we can evaluate a lightweight, embedded vector store (such as **LanceDB** or **DuckDB with VSS**) as an optional retrieval enhancement.
 
 ---
 
-## 4. Grounding Validation Without a Vector Store
+## 4. Grounding as Part of the Evaluation Framework
 
-How do we ensure the agent is actually deriving content from the cited sources without a complex vector database?
+Rather than relying on LLMs to self-certify their accuracy, grounding validation is built into the repository's **Automated Evaluation Suite** run in CI and test environments.
 
 ```mermaid
 flowchart TD
-    RawWeb["Raw Source Content\n(Scraped Readme / Release / Webpage)"] --> AgentExtract["Researcher Agent\n(Extracts quote + summary)"]
-    AgentExtract --> YAML["Research YAML Note"]
+    Researcher["Researcher Agent\n(Extracts quote + summary)"] --> Notes["Research Notes YAML\n(data/weeks/<ID>/research/*.yaml)"]
+    Writer["Writer Agent"] --> Targets["Tool Pages & Blog Posts\n(website/content/...)"]
     
-    subgraph Val["Automated Grounding Checks"]
-        YAML --> SubstringMatch["1. Quote Verifier\n(Fuzzy/exact substring match in raw source)"]
-        YAML --> APIVerify["2. Deterministic API Check\n(GitHub Release tag & date check)"]
-        YAML --> EntailmentCheck["3. Semantic Entailment Critic\n(Does Quote entail the Claim?)"]
+    subgraph EvalFramework["Automated Evaluation Suite (CI / pytest)"]
+        Notes & Targets --> L1["Level 1: Contract & Schema Eval\n(scripts/validate_contract.py)"]
+        Notes & Targets --> L2["Level 2: Deterministic Grounding Eval\n• Quote substring match against raw fetched sources\n• GitHub Release API version & date match\n• HTTP 200 link validity check"]
+        Notes & Targets --> L3["Level 3: Entailment & Factuality Eval\n• Verifies claims in Tool Pages & Blog Posts\n  are entailed by research quotes"]
     end
     
-    SubstringMatch & APIVerify & EntailmentCheck --> Score["Validation Score & Status\n(verified / needs_review)"]
-    Score --> Tracker["data/weeks/<WEEK>/tracker.yaml"]
+    L1 & L2 & L3 --> Report["Editorial Health Report (PR / CI)"]
+    Report --> Decision{"All Checks Pass?"}
+    Decision -- Yes --> AutoGreen["🟢 Green CI / Ready to Merge"]
+    Decision -- No --> FlagHuman["🟡 Flagged for Human Editorial Review / CI Fail"]
 ```
 
-### 4.1 Three-Layer Grounding Verification
+### 4.1 Evaluation Suite Levels
 
-1. **Quote Verification (Substring / Fuzzy Matching)**:
-   - When the researcher scrapes a web page or fetches a GitHub README, the validator checks that the text in `quotes:` is an exact or near-exact substring of the raw source payload.
-   - If an agent invents a "quote" that does not exist in the source URL, the note fails validation immediately.
+| Evaluation Level | Purpose | Mechanism | Execution |
+|---|---|---|---|
+| **Level 1: Schema & Contract** | Verifies required YAML/MD structure and types | Pydantic model validation (`validate_contract.py`) | Pre-commit / CI |
+| **Level 2: Deterministic Grounding** | Verifies quotes and metadata exist in actual upstream sources | Substring matching against fetched raw text + GitHub REST API checks + HTTP status checks | Test suite / CI |
+| **Level 3: Claim Entailment** | Verifies tool pages and blog posts do not make unsupported claims | NLI / Entailment check against research note quotes | CI evaluation step |
 
-2. **Deterministic API Cross-Verification**:
-   - For version numbers, release dates, and repository stars, automated scripts verify directly against GitHub APIs and the CNCF landscape dataset.
+### 4.2 Core Evaluation Metrics
 
-3. **Claim-to-Quote Semantic Entailment**:
-   - A lightweight validation prompt (or NLI model) checks whether the synthesized bullet points logically follow from the recorded quotes:
-     - **Entailment**: Claim is fully justified by the quote.
-     - **Extrapolation/Hallucination**: Claim adds unsubstantiated facts.
-     - **Contradiction**: Claim conflicts with the quote.
+1. **Quote Grounding Rate**: Percentage of `quotes:` that are exact or fuzzy substrings of the source URL content (Target: 100%).
+2. **Deterministic Metadata Accuracy**: Percentage of `latest_release` tags and dates matching the upstream GitHub API (Target: 100%).
+3. **Link Integrity Rate**: Percentage of `sources`, `repo_url`, and `homepage_url` links returning HTTP 200 OK (Target: 100%).
+4. **Claim Entailment Score**: Percentage of claims in published tool pages/blog posts supported by recorded quotes.
 
 ---
 
-## 5. Editorial Governance & Human-in-the-Loop (HITL) Workflow
+## 5. Separation of Concerns: Tracker vs. Eval Framework
 
-Editorial governance ensures that humans retain oversight over published tool pages and weekly blog posts while agents automate the repetitive drafting.
+To maintain a clean and reliable architecture, **Task Orchestration** and **Evaluation** are strictly decoupled:
 
-### 5.1 Tracker Integration
-
-Task tracking in `data/weeks/<WEEK_ID>/tracker.yaml` incorporates governance statuses:
-
-```yaml
-AIBrix:
-  tasks:
-    research:
-      status: completed
-      grounding_status: verified     # [verified | needs_review | failed]
-      grounding_score: 0.95
-      output_file: data/weeks/00-A/research/aibrix.yaml
-    content:
-      status: completed
-      output_file: website/content/tools/aibrix.md
+```
+┌───────────────────────────────────────────────┐
+│ tracker.yaml (Orchestration State Machine)    │
+│ • State: PENDING | IN_PROGRESS | COMPLETED    │
+│ • Retry counts & timestamps                   │
+│ • Output file paths                           │
+│ ❌ NO self-reported AI evaluation scores      │
+└───────────────────────────────────────────────┘
+                       ▲
+                       │ (Updated when tests pass or fail)
+                       ▼
+┌───────────────────────────────────────────────┐
+│ Evaluation Framework (CI / Test Suite)        │
+│ • Deterministic quote substring verification  │
+│ • GitHub API & HTTP 200 link validation       │
+│ • PR Editorial Health Audit comment           │
+│ ✅ Independent, objective source of truth     │
+└───────────────────────────────────────────────┘
 ```
 
-### 5.2 Exception-Based Human Review in Pull Requests
+---
+
+## 6. Editorial Governance & Human-in-the-Loop (HITL) Workflow
 
 1. **Automated CI Audit**:
-   - On PR creation, a CI action validates all research YAMLs and generated tool/blog pages.
-   - PR comment publishes an **Editorial Health Report**:
-     - 🟢 **96% of claims verified against raw source quotes**
-     - 🟡 **2 items flagged for human editorial review** (e.g. unverified release date or low entailment score)
-     - 🔴 **0 dead source links**
-
-2. **Human Editorial Sign-Off**:
-   - Human editors focus their attention on flagged items.
-   - Editors can edit the research YAML notes or update the markdown directly before merging.
-
----
-
-## 6. Downstream Content Synthesis: Tool Pages & Blog Posts
-
-When the Writer Agent generates the final publications:
-
-1. **Tool Pages (`website/content/tools/*.md`)**:
-   - Populated from research notes with structured metadata (features, installation commands, use cases).
-   - Direct link attribution to official docs and repositories.
-
-2. **Weekly Blog Posts (`website/content/posts/*.md`)**:
-   - Narrative synthesis prioritizing new projects, notable updates, and category trends.
-   - High-level summaries cross-link to individual tool pages and cite verified sources.
+   - On PR creation, the evaluation suite validates all research YAML notes and generated markdown.
+   - Posts an **Editorial Health Report**:
+     - 🟢 **100% Schema Contract Valid**
+     - 🟢 **All source quotes verified against upstream URLs**
+     - 🟢 **Release v0.7.0 verified via GitHub API**
+     - 🟢 **0 broken links**
+2. **Human Review**:
+   - Human editors only need to review exceptions or flagged items where an automated check failed.
+   - Editors can edit research notes or target markdown directly before merging.
 
 ---
 
-## 7. Roadmap & Future Explorations
+## 7. Roadmap & Implementation
 
-| Phase | Focus | Status |
-|---|---|---|
-| **Phase 1: Core Automation** | Deterministic ETL + Graph Orchestration + Tracker YAML | ✅ Completed |
-| **Phase 2: Structured Note-Taking** | Multi-source research schema with verbatim quotes | 🔄 In Progress |
-| **Phase 3: Automated Grounding CI** | Deterministic quote-matching + GitHub API validation | 📅 Planned |
-| **Phase 4: Embedded Retrieval Store** | Optional local vector store (LanceDB / DuckDB) for cross-project search | 💡 Future Exploration |
+| Phase | Milestone | Component | Status |
+|---|---|---|---|
+| **Phase 1** | Schema Contract Validator | `scripts/validate_contract.py` + `tests/test_contract_validator.py` | ✅ Completed |
+| **Phase 2** | Quote-Grounded Note-Taking Schema | `.agents/skills/cncf-weekly-content/SKILL.md` + `ResearchOutput` model | 🔄 In Progress |
+| **Phase 3** | Deterministic Grounding Eval Suite | Substring quote verifier + GitHub API release validator | 📅 Planned |
+| **Phase 4** | Entailment & PR Audit Bot | CI Action posting automated editorial health reports | 📅 Planned |
+| **Phase 5** | Embedded Local Retrieval Store | Optional LanceDB/DuckDB for cross-project querying | 💡 Future Exploration |
