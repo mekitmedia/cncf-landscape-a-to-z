@@ -13,3 +13,6 @@ This file records insights, learnings, and canonical actions discovered during e
 ## 2026-09-20 - Deterministic Grounding Validator
 **Learning:** YAML research files must include non-empty summary and key_features; source quotes should be validated as substrings of cached snapshots after canonical normalization.
 **Action:** Keep grounding validation deterministic by checking sources/url/quotes shape and using canonical_normalize-based substring matching when cache snapshots are present.
+## 2026-09-20 - Tool Card and DAG Validation
+**Learning:** Tool card projections should enforce a hard word cap in tests with intentionally long summaries, while tracker DAG checks should keep item-level prerequisites strict and only allow `SKIPPED` to satisfy week-level rollups.
+**Action:** Keep `create_tool_card` capped, test it with long summaries, and validate dependency behavior via `can_start_task(...)` for both item-level and week-level tasks.
