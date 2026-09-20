@@ -1,0 +1,14 @@
+---
+cncf_status: graduated
+date: '2026-09-20T19:55:12.489620'
+homepage_url: https://keda.sh/
+layout: single
+letter: K
+project_name: KEDA
+repo_url: https://github.com/kedacore/keda
+status: in_progress
+summary: Research for this project is currently in progress.
+title: KEDA
+---
+
+This is an auto-generated tool page. For more details, see the [letter page](/letters/K/).

@@ -55,7 +55,7 @@
                 </div>
             </div>
 
-            <div class="flex gap-4 text-sm">
+            <div class="flex gap-4 text-sm flex-wrap">
                 {{ if .Params.repo_url }}
                 <a href="{{ .Params.repo_url }}" target="_blank" rel="noopener noreferrer" aria-label="GitHub Repository (opens in a new tab)" class="inline-flex items-center gap-2 px-4 py-2 bg-slate-100 rounded-lg hover:bg-blue-100 hover:text-blue-600 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none transition-colors">
                     <i data-lucide="github" class="w-4 h-4"></i> GitHub Repository
@@ -68,6 +68,21 @@
                 {{ end }}
             </div>
         </div>
+
+        {{ if eq .Params.status "in_progress" }}
+        <!-- Research in Progress Alert / Banner -->
+        <div class="bg-blue-50 border-2 border-dashed border-blue-200 rounded-2xl p-8 mb-8 lg:max-w-4xl lg:mx-auto flex flex-col md:flex-row items-center gap-6">
+            <div class="w-16 h-16 bg-blue-500 text-white rounded-2xl flex items-center justify-center flex-shrink-0 shadow-lg shadow-blue-200">
+                <i data-lucide="microscope" class="w-8 h-8"></i>
+            </div>
+            <div>
+                <h2 class="text-xl font-bold text-slate-900 mb-2">Research in Progress</h2>
+                <p class="text-slate-600 leading-relaxed">
+                    Detailed research and writing for <strong>{{ .Params.project_name }}</strong> is currently underway by our agentic workflow. In the meantime, you can explore the project directly via the official links above.
+                </p>
+            </div>
+        </div>
+        {{ end }}
 
         <!-- Content Grid -->
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
