@@ -31,6 +31,8 @@ def validate_yaml_file(filepath: Path) -> List[str]:
 
     if data is None:
         return ["YAML file is empty"]
+    if not isinstance(data, dict):
+        return [f"YAML content must be a mapping, got {type(data).__name__}"]
 
     try:
         # Validate schema structure
