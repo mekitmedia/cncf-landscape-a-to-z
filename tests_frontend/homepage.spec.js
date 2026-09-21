@@ -86,7 +86,7 @@ test.describe('Level 2: Letter Pages - All Tools with Abstracts', () => {
   });
 });
 
-test.describe.skip('Level 3: Tool Deep Dive - Individual Project Pages', () => {
+test.describe('Level 3: Tool Deep Dive - Individual Project Pages', () => {
   test('tool page loads with project information', async ({ page }) => {
     await page.goto('/letters/a/');
     
