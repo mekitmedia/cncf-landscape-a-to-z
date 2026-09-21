@@ -33,11 +33,11 @@ sources:
   url: https://github.com/iflytek/astron-agent
   source_type: github_readme
   quotes:
-  - Astron Agent is an enterprise-grade, commercial-friendly Agentic Workflow development
-    platform
-  - Natively integrates intelligent RPA, efficiently connecting internal and external
-    enterprise systems
-  - Built on the same core technology as the iFLYTEK Astron Agent Platform
+  - "Astron Agent is an **enterprise-grade, commercial-friendly** Agentic Workflow development platform that integrates AI workflow orchestration, model management, AI and MCP tool integration, RPA automation, and team collaboration features."
+  - "The platform supports **high-availability** deployment, enabling organizations to rapidly build **scalable, production-ready** intelligent agent applications and establish their AI foundation for the future."
+  - "Natively integrates intelligent RPA, efficiently connecting internal and external enterprise systems, enabling seamless interaction between Agents and enterprise systems."
+  - "Deeply compatible with various industry models and tools, supporting custom extensions and flexibly adapting to diverse enterprise scenarios."
+  - "Built on the same core technology as the iFLYTEK Astron Agent Platform, providing enterprise-grade reliability with a fully available high-availability version open source."
 - id: github_release
   title: Astron Agent v1.1.2 Release Notes
   url: https://github.com/iflytek/astron-agent/releases/tag/v1.1.2
