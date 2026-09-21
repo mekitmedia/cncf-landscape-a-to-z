@@ -1,38 +1,57 @@
-project_name: "Apache Pinot"
-homepage_url: "https://pinot.apache.org/"
-repo_url: "https://github.com/apache/pinot"
-cncf_status: "non-cncf"
-summary: "Apache Pinot is a column-oriented, open-source, distributed data store written in Java, designed to execute OLAP queries with low latency. It is particularly suited for fast analytics on immutable data with real-time data ingestion."
+project_name: Apache Pinot
+homepage_url: https://pinot.apache.org/
+repo_url: https://github.com/apache/pinot
+cncf_status: non-cncf
+summary: Apache Pinot is a column-oriented, open-source, distributed data store written
+  in Java, designed to execute OLAP queries with low latency. It is particularly suited
+  for fast analytics on immutable data with real-time data ingestion.
 key_features:
-  - "Distributed architecture designed for predictable low latency."
-  - "Column-oriented data store for efficient analytics."
-  - "Support for both real-time data ingestion and offline batch processing."
-  - "Cluster management and coordination via Apache Helix and Apache ZooKeeper."
-  - "Scalability and fault tolerance built-in for enterprise deployments."
+- Distributed architecture designed for predictable low latency.
+- Column-oriented data store for efficient analytics.
+- Support for both real-time data ingestion and offline batch processing.
+- Cluster management and coordination via Apache Helix and Apache ZooKeeper.
+- Scalability and fault tolerance built-in for enterprise deployments.
 latest_release:
-  version: "1.5.1"
-  date: "2026-06-04"
-  url: "https://github.com/apache/pinot/releases/tag/release-1.5.1"
-recent_updates: "Apache Pinot 1.5.1 is a security patch release containing dependency updates and dependency-exclusion changes to resolve reported CVEs."
-use_cases: "Powering user-facing analytics products (e.g. LinkedIn's 'who viewed your profile'), real-time dashboards, and business-facing analytics that require data freshness in seconds."
-interesting_facts: "Pinot was originally created at LinkedIn in 2013 and later donated to the Apache Software Foundation in 2019. The name Pinot comes from the Pinot grape vines, as a metaphor for pressing vast quantities of data from various sources into analytics. In the broader industry, it is frequently compared with Apache Druid and ClickHouse, being praised for its seamless integration with real-time streams and low-latency user-facing analytics, as documented by companies like Uber and Stripe."
+  version: 1.5.1
+  date: '2026-06-04'
+  url: https://github.com/apache/pinot/releases/tag/release-1.5.1
+recent_updates: Apache Pinot 1.5.1 is a security patch release containing dependency
+  updates and dependency-exclusion changes to resolve reported CVEs.
+use_cases: Powering user-facing analytics products (e.g. LinkedIn's 'who viewed your
+  profile'), real-time dashboards, and business-facing analytics that require data
+  freshness in seconds.
+interesting_facts: Pinot was originally created at LinkedIn in 2013 and later donated
+  to the Apache Software Foundation in 2019. The name Pinot comes from the Pinot grape
+  vines, as a metaphor for pressing vast quantities of data from various sources into
+  analytics. In the broader industry, it is frequently compared with Apache Druid
+  and ClickHouse, being praised for its seamless integration with real-time streams
+  and low-latency user-facing analytics, as documented by companies like Uber and
+  Stripe.
 industry_opinions:
-  - "Often compared favorably against ClickHouse and Druid for highly concurrent, user-facing analytics where sub-second latency is critical."
-  - "Praised by engineering teams (e.g., at Uber) for its ease of ingesting Kafka streams and executing OLAP queries at scale without severe operational overhead."
-get_started: "Check out the official documentation or Getting Started guide to learn how to deploy a cluster, ingest data, and start querying."
-docs_url: "https://docs.pinot.apache.org/"
+- Often compared favorably against ClickHouse and Druid for highly concurrent, user-facing
+  analytics where sub-second latency is critical.
+- Praised by engineering teams (e.g., at Uber) for its ease of ingesting Kafka streams
+  and executing OLAP queries at scale without severe operational overhead.
+get_started: Check out the official documentation or Getting Started guide to learn
+  how to deploy a cluster, ingest data, and start querying.
+docs_url: https://docs.pinot.apache.org/
 related_tools:
-  - "Apache Helix"
-  - "Apache ZooKeeper"
-  - "Apache Spark"
+- Apache Helix
+- Apache ZooKeeper
+- Apache Spark
 sources:
-  - label: "Official Website"
-    url: "https://pinot.apache.org/"
-  - label: "GitHub Releases"
-    url: "https://github.com/apache/pinot/releases"
-  - label: "Wikipedia"
-    url: "https://en.wikipedia.org/wiki/Apache_Pinot"
-  - label: "Industry Comparison (Pinot vs Druid vs ClickHouse)"
-    url: "https://startree.ai/blog/a-tale-of-three-real-time-olap-databases"
-  - label: "Uber's Operating Experience with Pinot"
-    url: "https://www.uber.com/blog/operating-apache-pinot-at-uber-scale/"
+- url: https://pinot.apache.org/
+  id: source-0
+  title: Official Website
+- url: https://github.com/apache/pinot/releases
+  id: source-1
+  title: GitHub Releases
+- url: https://en.wikipedia.org/wiki/Apache_Pinot
+  id: source-2
+  title: Wikipedia
+- url: https://startree.ai/blog/a-tale-of-three-real-time-olap-databases
+  id: source-3
+  title: Industry Comparison (Pinot vs Druid vs ClickHouse)
+- url: https://www.uber.com/blog/operating-apache-pinot-at-uber-scale/
+  id: source-4
+  title: Uber's Operating Experience with Pinot

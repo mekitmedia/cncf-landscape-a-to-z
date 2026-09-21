@@ -1,0 +1,41 @@
+project_name: Airship
+homepage_url: https://www.airshipit.org/
+repo_url: https://github.com/airshipit/treasuremap
+docs_url: https://docs.airshipit.org/
+cncf_status: non-cncf
+latest_release:
+  version: v2.1.0
+  date: '2021-12-06T20:04:17Z'
+  url: https://github.com/airshipit/treasuremap/releases/tag/v2.1.0
+summary: Airship is a collection of open source tools to automate cloud provisioning
+  and management in a declarative way.
+key_features:
+- Declarative cloud provisioning
+- Kubernetes workload deployment on baremetal and virtual infrastructure
+- Management through a unified CLI (airshipctl)
+recent_updates: Latest version v2.1.0 was released on 2021-12-06, focusing on stabilizing
+  the airshipctl and reference manifests.
+use_cases: Ideal for operators looking to deploy Kubernetes and pre-configured workloads
+  on baremetal infrastructures declaratively.
+ecosystem_perspectives: Airship integrates tightly with Kubernetes and Helm, providing
+  a comprehensive platform for managing edge and cloud infrastructure.
+interesting_facts: Treasuremap serves as the central collection of reference architecture
+  manifests for Airship.
+get_started: Use airshipctl to process the Treasuremap YAML documents and deploy your
+  infrastructure.
+related_tools:
+- Kubernetes
+- Helm
+sources:
+- url: https://github.com/airshipit/treasuremap
+  title: Airship Treasuremap Repository
+  quotes:
+  - Treasuremap is a collection of YAML documents that are ready for use with airshipctl
+    to deploy Kubernetes and pre-configured workloads on baremetal and virtual infrastructure.
+  id: source-0
+- url: https://github.com/airshipit/airshipctl
+  title: Airshipctl Repository
+  quotes:
+  - Airshipctl is a CLI for managing declarative infrastructure.
+  id: source-1
+last_researched_at: '2026-09-21T22:14:30.153666+00:00'

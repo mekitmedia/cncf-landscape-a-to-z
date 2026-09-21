@@ -1,34 +1,49 @@
-project_name: "Apicurio Registry"
-homepage_url: "https://www.apicur.io"
-repo_url: "https://github.com/Apicurio/apicurio-registry"
-cncf_status: "sandbox"
-summary: "Apicurio Registry is an open-source schema registry that stores data and API artifacts, enabling seamless integration and validation across cloud-native architectures."
+project_name: Apicurio Registry
+homepage_url: https://www.apicur.io
+repo_url: https://github.com/Apicurio/apicurio-registry
+cncf_status: sandbox
+summary: Apicurio Registry is an open-source schema registry that stores data and
+  API artifacts, enabling seamless integration and validation across cloud-native
+  architectures.
 key_features:
-  - "Support for various artifact types including OpenAPI, AsyncAPI, GraphQL, Apache Avro, Protobuf, and JSON Schema."
-  - "Validation rules to ensure schemas remain compatible as they evolve."
-  - "Role-Based Access Control (RBAC) integration for enterprise deployments."
-  - "REST API and various language clients for easy interaction."
+- Support for various artifact types including OpenAPI, AsyncAPI, GraphQL, Apache
+  Avro, Protobuf, and JSON Schema.
+- Validation rules to ensure schemas remain compatible as they evolve.
+- Role-Based Access Control (RBAC) integration for enterprise deployments.
+- REST API and various language clients for easy interaction.
 latest_release:
-  version: "3.3.3"
-  date: "2026-09-08"
-  url: "https://github.com/Apicurio/apicurio-registry/releases/tag/3.3.3"
-recent_updates: "Recent updates have focused on stability improvements and continued support for evolving API specifications."
-use_cases: "Commonly used in event-driven architectures to centralize schema management, ensuring data consistency between producers and consumers in streaming platforms like Apache Kafka."
-interesting_facts: "It integrates tightly with the Quarkus framework for high performance and low memory consumption in Kubernetes environments. Community members have also built tools like Kaskade, a TUI for Kafka, to be fully compatible with Apicurio Registry."
-get_started: "Users can run Apicurio Registry via Docker or deploy it to Kubernetes using the provided Helm chart or Operator."
-docs_url: "https://www.apicur.io/registry/docs/apicurio-registry/"
+  version: 3.3.3
+  date: '2026-09-08'
+  url: https://github.com/Apicurio/apicurio-registry/releases/tag/3.3.3
+recent_updates: Recent updates have focused on stability improvements and continued
+  support for evolving API specifications.
+use_cases: Commonly used in event-driven architectures to centralize schema management,
+  ensuring data consistency between producers and consumers in streaming platforms
+  like Apache Kafka.
+interesting_facts: It integrates tightly with the Quarkus framework for high performance
+  and low memory consumption in Kubernetes environments. Community members have also
+  built tools like Kaskade, a TUI for Kafka, to be fully compatible with Apicurio
+  Registry.
+get_started: Users can run Apicurio Registry via Docker or deploy it to Kubernetes
+  using the provided Helm chart or Operator.
+docs_url: https://www.apicur.io/registry/docs/apicurio-registry/
 related_tools:
-  - "Apache Kafka"
-  - "Strimzi"
-  - "Kaskade"
+- Apache Kafka
+- Strimzi
+- Kaskade
 sources:
-  - label: "Official Website"
-    url: "https://www.apicur.io"
-  - label: "GitHub Repository"
-    url: "https://github.com/Apicurio/apicurio-registry"
-  - label: "Hacker News: Kaskade integration"
-    url: "https://news.ycombinator.com/item?id=42232999"
-  - label: "Quarkus Integration"
-    url: "https://quarkus.io/blog/apicurio-registry-3.x/"
-  - label: "InfoQ Article"
-    url: "https://www.infoq.com/news/2020/07/apicurio-registry/"
+- url: https://www.apicur.io
+  id: source-0
+  title: Official Website
+- url: https://github.com/Apicurio/apicurio-registry
+  id: source-1
+  title: GitHub Repository
+- url: https://news.ycombinator.com/item?id=42232999
+  id: source-2
+  title: 'Hacker News: Kaskade integration'
+- url: https://quarkus.io/blog/apicurio-registry-3.x/
+  id: source-3
+  title: Quarkus Integration
+- url: https://www.infoq.com/news/2020/07/apicurio-registry/
+  id: source-4
+  title: InfoQ Article

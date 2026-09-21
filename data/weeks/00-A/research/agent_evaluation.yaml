@@ -1,32 +1,42 @@
-project_name: "Agent Evaluation"
-homepage_url: "https://awslabs.github.io/agent-evaluation/"
-repo_url: "https://github.com/awslabs/agent-evaluation"
-cncf_status: "non-cncf"
-summary: "A generative AI-powered framework for testing virtual agents."
+project_name: Agent Evaluation
+homepage_url: https://awslabs.github.io/agent-evaluation/
+repo_url: https://github.com/awslabs/agent-evaluation
+cncf_status: non-cncf
+summary: A generative AI-powered framework for testing virtual agents.
 key_features:
-  - "Built-in support for popular AWS services like Amazon Bedrock, Amazon Q Business, and Amazon SageMaker"
-  - "Orchestrate concurrent, multi-turn conversations with your agent while evaluating its responses"
-  - "Define hooks to perform additional tasks such as integration testing"
-  - "CI/CD pipeline integration to expedite time to delivery and maintain stability in production"
+- Built-in support for popular AWS services like Amazon Bedrock, Amazon Q Business,
+  and Amazon SageMaker
+- Orchestrate concurrent, multi-turn conversations with your agent while evaluating
+  its responses
+- Define hooks to perform additional tasks such as integration testing
+- CI/CD pipeline integration to expedite time to delivery and maintain stability in
+  production
 latest_release:
-  version: "v0.4.1"
-  date: "2025-03-31"
-  url: "https://github.com/awslabs/agent-evaluation/releases/tag/v0.4.1"
-recent_updates: "Release of v0.4.1 on March 31, 2025."
-use_cases: "Testing and validating virtual LLM agents with multi-turn conversations before deploying them to production environments."
-interesting_facts: "Internally implements an LLM evaluator agent to interact with and critique user-provided target agents."
-get_started: "Visit the documentation to install the package and configure built-in or custom targets for testing."
-docs_url: "https://awslabs.github.io/agent-evaluation/"
+  version: v0.4.1
+  date: '2025-03-31'
+  url: https://github.com/awslabs/agent-evaluation/releases/tag/v0.4.1
+recent_updates: Release of v0.4.1 on March 31, 2025.
+use_cases: Testing and validating virtual LLM agents with multi-turn conversations
+  before deploying them to production environments.
+interesting_facts: Internally implements an LLM evaluator agent to interact with and
+  critique user-provided target agents.
+get_started: Visit the documentation to install the package and configure built-in
+  or custom targets for testing.
+docs_url: https://awslabs.github.io/agent-evaluation/
 related_tools:
-  - "Amazon Bedrock"
-  - "Amazon Q Business"
-  - "Amazon SageMaker"
+- Amazon Bedrock
+- Amazon Q Business
+- Amazon SageMaker
 sources:
-  - label: "GitHub Repository"
-    url: "https://github.com/awslabs/agent-evaluation"
-  - label: "Official Documentation"
-    url: "https://awslabs.github.io/agent-evaluation/"
-  - label: "Hacker News Discussion: AWS-bench"
-    url: "https://news.ycombinator.com/item?id=49570089"
-  - label: "AWS-bench Benchmark Repository"
-    url: "https://github.com/aws-bench/aws-bench"
+- url: https://github.com/awslabs/agent-evaluation
+  id: source-0
+  title: GitHub Repository
+- url: https://awslabs.github.io/agent-evaluation/
+  id: source-1
+  title: Official Documentation
+- url: https://news.ycombinator.com/item?id=49570089
+  id: source-2
+  title: 'Hacker News Discussion: AWS-bench'
+- url: https://github.com/aws-bench/aws-bench
+  id: source-3
+  title: AWS-bench Benchmark Repository
