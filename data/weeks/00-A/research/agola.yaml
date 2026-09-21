@@ -15,12 +15,9 @@ key_features:
   - Multiple execution platforms (Kubernetes, local Docker).
   - Testable runs to verify changes on different environments.
   - User direct runs to execute workflows from a local Git repository with just one command.
-recent_updates:
-  - Version 0.11.0 was released with updates and bug fixes for the CI/CD pipeline capabilities.
-use_cases:
-  - Complex deployments requiring matrix builds and multi-architecture support.
-  - Reproducible testing environments using containerized runs.
-  - Integrating CI/CD workflows natively into Git repositories (push/tag/pull request triggers).
+recent_updates: Version 0.11.0 was released with updates and bug fixes for the CI/CD pipeline capabilities.
+use_cases: >-
+  Complex deployments requiring matrix builds and multi-architecture support. Reproducible testing environments using containerized runs. Integrating CI/CD workflows natively into Git repositories (push/tag/pull request triggers).
 ecosystem_perspectives:
   strengths: High availability and distributed design out of the box. Strong focus on reproducibility and testable runs across various execution platforms.
   considerations: It introduces specific 'Runs' concepts and variables rules which may require learning compared to other standard CI/CD tools.
