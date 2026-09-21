@@ -1335,7 +1335,7 @@ items:
         status: completed
         started_at: '2026-09-20T22:28:22.558506+00:00'
         completed_at: '2026-09-20T22:28:22.558506+00:00'
-        output_file: 'data/weeks/00-A/research/astron_agent.yaml'
+        output_file: 'research/astron_agent.yaml'
         error_message: null
         retry_count: 0
         agent: researcher
