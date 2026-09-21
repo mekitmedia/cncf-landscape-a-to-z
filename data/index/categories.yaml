@@ -424,6 +424,7 @@
     - Infinispan
     - KubeBlocks by ApeCloud
     - KubeDB by AppsCode
+    - LibreDB Studio
     - MariaDB
     - MongoDB
     - MySQL
@@ -766,6 +767,7 @@
     - Anteon
     - argonaut
     - Beats
+    - BetterDB Monitor
     - Botkube
     - Centreon
     - Checkmk
@@ -1210,7 +1212,8 @@
     - MCP Gateway Registry
     path: ai_native_infra_gateway
     subcategory: Gateway
-  - items: []
+  - items:
+    - MatrixHub
     path: ai_native_infra_model_asset_and_registry
     subcategory: Model Asset and Registry
   - items:
