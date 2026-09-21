@@ -1,1 +1,8 @@
-[]
+- description: Self-hosted SQL IDE that runs in the browser, deployed next to the
+    data it queries instead of on each developer's laptop.
+  featured: true
+  homepage_url: https://libredb.org
+  logo: libredb-studio.svg
+  name: LibreDB Studio
+  project: null
+  repo_url: https://github.com/libredb/libredb-studio

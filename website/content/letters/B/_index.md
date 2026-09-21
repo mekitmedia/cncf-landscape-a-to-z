@@ -8,7 +8,7 @@ layout: "list"
 
 # Summary for 01-B
 
-This week has a total of 19 items.
+This week has a total of 20 items.
 
 
 - **Provisioning Automation Configuration**: 2 items
@@ -29,7 +29,7 @@ This week has a total of 19 items.
 
 - **Observability And Analysis Feature Flagging**: 1 items
 
-- **Observability And Analysis Observability**: 2 items
+- **Observability And Analysis Observability**: 3 items
 
 - **Wasm Tooling**: 1 items
 
