@@ -1,0 +1,14 @@
+---
+cncf_status: non-cncf
+date: '2026-09-20T21:46:45.009682'
+homepage_url: https://www.docker.com
+layout: single
+letter: D
+project_name: Docker (Wasm)
+repo_url: https://github.com/docker/compose
+status: in_progress
+summary: Research for this project is currently in progress.
+title: Docker (Wasm)
+---
+
+This is an auto-generated tool page. For more details, see the [letter page](/letters/d/).

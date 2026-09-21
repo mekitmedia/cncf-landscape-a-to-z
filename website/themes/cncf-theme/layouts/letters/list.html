@@ -139,7 +139,7 @@
             <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
                 {{ range (seq 0 25) }}
                     {{ $char := printf "%c" (add . 65) }}
-                    <a href="/letters/{{ $char }}/" class="block p-4 bg-white rounded-lg border border-slate-200 hover:border-blue-500 hover:shadow-md text-center font-bold text-xl text-slate-700 hover:text-blue-600 transition-all">
+                    <a href="/letters/{{ lower $char }}/" class="block p-4 bg-white rounded-lg border border-slate-200 hover:border-blue-500 hover:shadow-md text-center font-bold text-xl text-slate-700 hover:text-blue-600 transition-all">
                         {{ $char }}
                     </a>
                 {{ end }}
