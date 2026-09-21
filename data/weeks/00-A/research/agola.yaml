@@ -1,0 +1,48 @@
+project_name: Agola
+homepage_url: https://agola.io
+repo_url: https://github.com/agola-io/agola
+docs_url: https://agola.io/doc/
+cncf_status: non-cncf
+latest_release:
+  version: v0.11.0
+  date: '2025-09-25T07:59:50Z'
+  release_notes_url: https://github.com/agola-io/agola/releases/tag/v0.11.0
+summary: Agola is a Continuous Integration and Continuous Delivery (CI/CD) system redefining the concept of CI/CD. It allows executing runs in a reproducible containerized environment, restarting from failed tasks, and supporting advanced workflows.
+key_features:
+  - Containerized, reproducible and restartable runs.
+  - Advanced workflows (matrix builds, fan-in, fan-out, multi-arch).
+  - Multiple git source integrations (GitHub, GitLab, Gitea, custom Git repositories).
+  - Multiple execution platforms (Kubernetes, local Docker).
+  - Testable runs to verify changes on different environments.
+  - User direct runs to execute workflows from a local Git repository with just one command.
+recent_updates:
+  - Version 0.11.0 was released with updates and bug fixes for the CI/CD pipeline capabilities.
+use_cases:
+  - Complex deployments requiring matrix builds and multi-architecture support.
+  - Reproducible testing environments using containerized runs.
+  - Integrating CI/CD workflows natively into Git repositories (push/tag/pull request triggers).
+ecosystem_perspectives:
+  strengths: High availability and distributed design out of the box. Strong focus on reproducibility and testable runs across various execution platforms.
+  considerations: It introduces specific 'Runs' concepts and variables rules which may require learning compared to other standard CI/CD tools.
+  community_discussions:
+    - Praised for enabling user direct runs from local machines without the need to commit and push code first.
+interesting_facts: Agola allows testable 'Runs', meaning users can use the same run definition with different variable values based on rules to test on multiple environments.
+get_started: Refer to the documentation to learn about core concepts like runs and tasks, and start a local docker execution environment.
+related_tools:
+  - Argo
+  - Jenkins
+  - Tekton
+sources:
+  - id: agola_source_1.txt
+    title: Agola Homepage Features
+    url: https://agola.io
+    source_type: official_docs
+    quotes:
+      - Execute your runs in a reproducible containerized environment. Restart them from start or from failed task
+  - id: agola_source_2.txt
+    title: Agola GitHub README
+    url: https://github.com/agola-io/agola
+    source_type: github_readme
+    quotes:
+      - CI/CD redefined
+editorial_lock: false
