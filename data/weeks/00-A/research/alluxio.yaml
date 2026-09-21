@@ -1,0 +1,67 @@
+project_name: Alluxio
+homepage_url: https://www.alluxio.io/
+repo_url: https://github.com/Alluxio/alluxio
+docs_url: https://docs.alluxio.io/
+cncf_status: non-cncf
+latest_release:
+  version: v2.9.4
+  date: '2024-04-30T19:57:15Z'
+  release_notes_url: https://github.com/Alluxio/alluxio/releases/tag/v2.9.4
+summary: Alluxio Open Source (formerly Tachyon) is a Distributed Caching Platform
+  for large-scale data that bridges computation frameworks and storage systems via
+  a common interface.
+key_features:
+- 'Data Orchestration: Connects compute applications to numerous storage systems seamlessly.'
+- 'Analytics Acceleration: Provides caching and acceleration specifically for structured
+  data analytics.'
+- 'Engine Integration: Widely adopted with data-intensive computation engines like
+  Presto, Spark, and Trino.'
+recent_updates: The v2.9.4 release is the latest open-source edition update. Alluxio
+  continues to differentiate its Open Source edition (focused on analytics) from its
+  Enterprise Edition (focused on AI/ML workloads with a decentralized architecture).
+use_cases: Accelerating structured data analytics, bridging the gap between compute
+  clusters (like Spark or Trino) and underlying cloud or on-prem storage systems,
+  and acting as a virtual distributed file system.
+ecosystem_perspectives:
+  strengths: Originating from UC Berkeley's AMPLab, it has deep roots in the big data
+    ecosystem and provides significant performance boosts by bringing data closer
+    to compute.
+  considerations: The open-source edition scales to manage up to 100 million files,
+    but users needing to scale horizontally to tens of billions of files for AI/ML
+    workloads are pushed towards the commercial Enterprise Edition.
+  community_discussions:
+  - Often discussed alongside Apache Spark and Presto/Trino as the standard caching
+    layer to decouple compute and storage in modern data architectures.
+interesting_facts: Originally called Tachyon, it was created as the data layer of
+  the Berkeley Data Analytics Stack (BDAS) and was the focus of Haoyuan Li's PhD dissertation.
+get_started: Download Alluxio from https://www.alluxio.io/download and follow the
+  quick start guide in the documentation to mount your underlying storage and connect
+  your compute framework.
+related_tools:
+- Apache Spark
+- Presto
+- Trino
+- Apache Hadoop
+- Ceph
+sources:
+- id: github_readme
+  title: Alluxio GitHub README
+  url: https://github.com/Alluxio/alluxio
+  source_type: github_readme
+  quotes:
+  - Alluxio Open Source (formerly known as Tachyon) is a Distributed Caching Platform
+    for large-scale data.
+  - It bridges the gap between computation frameworks and storage systems, enabling
+    computation applications to connect to numerous storage systems through a common
+    interface.
+  - The open-source edition of Alluxio is purpose-built for analytics workloads.
+- id: github_release
+  title: Alluxio v2.9.4 Release Notes
+  url: https://github.com/Alluxio/alluxio/releases/tag/v2.9.4
+  source_type: github_release
+  quotes:
+  - Please see https://www.alluxio.io/download/releases/alluxio-2-9-4-release/ for
+    the detailed release notes.
+editorial_lock: false
+last_researched_at: '2026-09-21T21:14:16.686827+00:00'
+research_version: 1

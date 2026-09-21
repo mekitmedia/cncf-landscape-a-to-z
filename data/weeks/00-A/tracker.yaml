@@ -154,10 +154,10 @@ items:
   Agola:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-21T21:15:25.728993+00:00'
+        completed_at: '2026-09-21T21:15:25.728993+00:00'
+        output_file: data/weeks/00-A/research/agola.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -173,10 +173,10 @@ items:
   Airship:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-21T21:16:03.574694+00:00'
+        completed_at: '2026-09-21T21:16:03.574694+00:00'
+        output_file: data/weeks/00-A/research/airship.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -192,10 +192,10 @@ items:
   Akka:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-21T21:16:40.053564+00:00'
+        completed_at: '2026-09-21T21:16:40.053564+00:00'
+        output_file: data/weeks/00-A/research/akka.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -230,10 +230,10 @@ items:
   Alluxio:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-21T21:14:17.071837+00:00'
+        completed_at: '2026-09-21T21:14:17.071837+00:00'
+        output_file: data/weeks/00-A/research/alluxio.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -249,10 +249,10 @@ items:
   Amazon Elastic Kubernetes Service Anywhere (Amazon EKS Anywhere):
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-21T21:17:41.362710+00:00'
+        completed_at: '2026-09-21T21:17:41.362710+00:00'
+        output_file: data/weeks/00-A/research/amazon_eks_anywhere.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -1332,10 +1332,10 @@ items:
   Astron Agent:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-21T21:13:02.261734+00:00'
+        completed_at: '2026-09-21T21:13:02.261734+00:00'
+        output_file: data/weeks/00-A/research/astron_agent.yaml
         error_message: null
         retry_count: 0
         agent: researcher

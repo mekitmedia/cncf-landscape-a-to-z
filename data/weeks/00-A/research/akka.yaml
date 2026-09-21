@@ -1,0 +1,64 @@
+project_name: Akka
+homepage_url: https://akka.io/
+repo_url: https://github.com/akka/akka-core
+docs_url: https://doc.akka.io/libraries/
+cncf_status: non-cncf
+latest_release:
+  version: v2.10.22
+  date: '2026-09-09T12:02:40Z'
+  release_notes_url: https://github.com/akka/akka-core/releases/tag/v2.10.22
+summary: Akka is a powerful platform and core library suite that leverages the actor
+  model to simplify building highly responsive, resilient, and scalable distributed
+  applications.
+key_features:
+- 'Actor Model Foundation: Provides multi-threaded behavior without low-level concurrency
+  constructs like atomics or locks.'
+- 'Resilient by Design: Adopts a ''Let it crash'' model for self-healing applications.'
+- 'Elastic Clustering: Supports transparent remote communication and dynamic scaling
+  in or out on demand.'
+- 'Managed Operations: Offers ''Akka Automated Operations'' for auto-elasticity and
+  multi-region high availability.'
+recent_updates: The v2.10.22 release includes fixes for AeronSink flushing, shard
+  hand-off start timings, and various library bumps including SLF4J, Logback, and
+  metrics libraries.
+use_cases: Building transactional systems, analytical pipelines, agentic AI, digital
+  twins, IoT, edge-to-cloud applications, and systems requiring high concurrency and
+  resilience.
+ecosystem_perspectives:
+  strengths: A mature, highly scalable platform that has powered thousands of systems
+    for over 15 years, embodying the principles of the Reactive Manifesto.
+  considerations: Akka changed its licensing model in late 2022 to the Business Source
+    License (BSL) and more recently to an 'Other' specific commercial license, moving
+    away from its Apache 2.0 open-source roots.
+  community_discussions:
+  - The community is deeply split on Akka's licensing changes, leading to the creation
+    of the Apache Pekko fork by the Apache Software Foundation.
+interesting_facts: Akka has been downloaded more than 1 billion times and is designed
+  to provide 99.9999% availability.
+get_started: Visit https://akka.io and the documentation at https://doc.akka.io/libraries/
+  for quickstart guides in Scala and Java.
+related_tools:
+- Apache Pekko
+- Erlang/OTP
+- Vert.x
+- Project Reactor
+sources:
+- id: github_readme
+  title: Akka GitHub README
+  url: https://github.com/akka/akka-core
+  source_type: github_readme
+  quotes:
+  - Akka is a powerful platform that simplifies building and operating highly responsive,
+    resilient, and scalable services.
+  - At Akka's core is the actor model which provides a level of abstraction that makes
+    it easier to write correct concurrent, parallel and distributed systems.
+- id: github_release
+  title: Akka v2.10.22 Release Notes
+  url: https://github.com/akka/akka-core/releases/tag/v2.10.22
+  source_type: github_release
+  quotes:
+  - 'fix: bound AeronSink flush of outstanding offer so transport shutdown completes'
+  - 'fix: start shard when HostShard arrives during hand off'
+editorial_lock: false
+last_researched_at: '2026-09-21T21:16:39.673126+00:00'
+research_version: 1

@@ -1,0 +1,63 @@
+project_name: Astron Agent
+homepage_url: http://astron.ai/
+repo_url: https://github.com/iflytek/astron-agent
+docs_url: https://iflytek.github.io/astron-agent/
+cncf_status: non-cncf
+latest_release:
+  version: v1.1.2
+  date: '2026-09-07T06:28:13Z'
+  release_notes_url: https://github.com/iflytek/astron-agent/releases/tag/v1.1.2
+summary: Astron Agent is an enterprise-grade, commercial-friendly agentic workflow
+  platform that integrates AI orchestration, model management, intelligent RPA automation,
+  and team collaboration for building scalable SuperAgents.
+key_features:
+- 'Enterprise-Grade High Availability: Full-stack capabilities for development, building,
+  and management with one-click deployment.'
+- 'Intelligent RPA Integration: Enables cross-system process automation for complete
+  action execution loops.'
+- 'Flexible Large Model Support: Supports both API-based access and one-click deployment
+  of enterprise-level MaaS.'
+- 'Ready-to-Use Tool Ecosystem: Integrates massive AI capabilities validated by developers.'
+recent_updates: The v1.1.2 release is a security patch that addresses unsafe workflow
+  code-node execution by defaulting to a built-in isolated LangChain/Pyodide executor
+  and strengthening authentication.
+use_cases: Building next-generation SuperAgents, enterprise process automation, seamless
+  internal and external system integration, and orchestrating complex AI workflows.
+ecosystem_perspectives:
+  strengths: Business-friendly Apache 2.0 license, enterprise-grade reliability, and
+    deep integration with RPA for practical automation.
+  considerations: Migrating from legacy 'local' code executors requires adapting workflows
+    to the new isolated sandbox runtime.
+  community_discussions:
+  - Recognized and adopted by several enterprises including China Telecom and FiberHome
+    for digital transformation.
+interesting_facts: Astron Agent is built on the same core technology as the iFLYTEK
+  Astron Agent Platform and emphasizes a complete loop 'from decision to action'.
+get_started: Refer to the official documentation for deployment guides utilizing Docker
+  Compose or Kubernetes, ensuring configuration of the required isolated code executors.
+related_tools:
+- Agno
+- Autogen
+- Dify
+- Flowise
+sources:
+- id: github_readme
+  title: Astron Agent GitHub README
+  url: https://github.com/iflytek/astron-agent
+  source_type: github_readme
+  quotes:
+  - Astron Agent is an enterprise-grade, commercial-friendly Agentic Workflow development
+    platform
+  - Natively integrates intelligent RPA, efficiently connecting internal and external
+    enterprise systems
+- id: github_release
+  title: Astron Agent v1.1.2 Release Notes
+  url: https://github.com/iflytek/astron-agent/releases/tag/v1.1.2
+  source_type: github_release
+  quotes:
+  - Astron Agent v1.1.2 is a security release
+  - Reject unsafe local code execution and use the built-in isolated LangChain/Pyodide
+    executor by default
+editorial_lock: false
+last_researched_at: '2026-09-21T21:12:41.707251+00:00'
+research_version: 1

@@ -1,0 +1,64 @@
+project_name: Agola
+homepage_url: https://agola.io
+repo_url: https://github.com/agola-io/agola
+docs_url: https://agola.io/doc/
+cncf_status: non-cncf
+latest_release:
+  version: v0.11.0
+  date: '2025-09-24T13:07:38Z'
+  release_notes_url: https://github.com/agola-io/agola/releases/tag/v0.11.0
+summary: Agola is a CI/CD platform designed to be highly available, scalable, and
+  reproducible, allowing users to define workflows that run consistently anywhere.
+key_features:
+- 'High Availability and Scalability: Deployable as a single process or in a distributed
+  architecture.'
+- 'Universal Deployment: Can run on Kubernetes, IaaS, or bare metal, executing tasks
+  in containers.'
+- 'Git-based Workflow Integration: Integrates seamlessly with GitHub, GitLab, and
+  Gitea simultaneously.'
+- 'User Direct Runs: Enables developers to test code locally against the CI environment
+  before committing.'
+recent_updates: The v0.11.0 release updated dependencies (including Go to 1.25 and
+  golangci-lint) and improved gateway multiplexer configurations.
+use_cases: End-to-end continuous integration and deployment, managing complex task
+  workflows (fan-in/fan-out matrixes), and local developer testing using remote CI
+  environments.
+ecosystem_perspectives:
+  strengths: Highly flexible and extensible design with a strong focus on run reproducibility
+    and native Git provider integrations.
+  considerations: While powerful, it requires learning Jsonnet for advanced configuration
+    templating instead of standard YAML.
+  community_discussions:
+  - Often praised for 'User Direct Runs' which bridge the gap between local development
+    and remote CI testing environments.
+interesting_facts: Agola explicitly avoids extending YAML into a templating language,
+  opting instead to use Jsonnet for generating configurations without side effects.
+get_started: Run the agolademo example available at https://agola.io/tryit or consult
+  the local development guide in the repository.
+related_tools:
+- Argo
+- Jenkins
+- GitLab CI
+- Tekton
+sources:
+- id: github_readme
+  title: Agola GitHub README
+  url: https://github.com/agola-io/agola
+  source_type: github_readme
+  quotes:
+  - 'Scalable and High Available: go from a single instance (single process) deployment
+    to a distributed deployment.'
+  - 'User Direct Runs: give every user the power to test their software using the
+    same run definition used when pushing to git/opening a pull request'
+  - Don't try to extend YAML to be a templating language but use a real templating
+    language (as of now jsonnet)
+- id: github_release
+  title: Agola v0.11.0 Release Notes
+  url: https://github.com/agola-io/agola/releases/tag/v0.11.0
+  source_type: github_release
+  quotes:
+  - 'gateway: simplify mux configuration'
+  - update to go 1.25
+editorial_lock: false
+last_researched_at: '2026-09-21T21:15:25.348092+00:00'
+research_version: 1

@@ -1,0 +1,65 @@
+project_name: Amazon Elastic Kubernetes Service Anywhere (Amazon EKS Anywhere)
+homepage_url: https://anywhere.eks.amazonaws.com
+repo_url: https://github.com/aws/eks-anywhere
+docs_url: https://anywhere.eks.amazonaws.com
+cncf_status: non-cncf
+latest_release:
+  version: v0.26.2
+  date: '2026-09-10T02:43:40Z'
+  release_notes_url: https://github.com/aws/eks-anywhere/releases/tag/v0.26.2
+summary: Amazon EKS Anywhere is a deployment option that enables the creation and
+  operation of Kubernetes clusters on-premises with virtual machines or bare metal
+  hosts, bringing the AWS management experience to local data centers.
+key_features:
+- 'On-Premises Deployment: Create and operate Kubernetes clusters on own VMs or bare
+  metal hosts.'
+- 'Consistent Experience: Brings a consistent AWS management experience to local data
+  centers.'
+- 'EKS Distro Foundation: Built on Amazon EKS Distro, the same distribution that powers
+  EKS on AWS.'
+- 'Independent Operation: Capable of operating completely independently of any AWS
+  services.'
+recent_updates: The v0.26.2 release updated EKS Distro versions, govmomi, Cilium,
+  and kube-vip, alongside support matrix adjustments for various OS versions (Ubuntu,
+  Bottlerocket, RHEL) across vSphere, Bare Metal, Nutanix, and Snow providers.
+use_cases: Hybrid cloud Kubernetes deployments, edge computing environments, air-gapped
+  or regulated data centers, and extending AWS-like operational models to on-premises
+  infrastructure.
+ecosystem_perspectives:
+  strengths: Provides a robust, AWS-backed Kubernetes distribution for on-premises
+    use, easing hybrid cloud operations for existing AWS customers.
+  considerations: While it can operate independently, its main value proposition is
+    tightly coupled with the broader AWS ecosystem and management patterns.
+  community_discussions:
+  - Often compared to other enterprise Kubernetes distributions like OpenShift or
+    Tanzu for on-premises footprint modernization.
+interesting_facts: It is a Certified Kubernetes distribution (certified up to v1.34
+  as of late 2026) and uses Prow for its CI system, visible at prow.eks.amazonaws.com.
+get_started: Visit https://anywhere.eks.amazonaws.com/docs/getting-started/ for instructions
+  on deploying your first local or bare metal cluster.
+related_tools:
+- Amazon EKS Distro
+- Cluster API
+- Tinkerbell
+- Cilium
+sources:
+- id: github_readme
+  title: Amazon EKS Anywhere GitHub README
+  url: https://github.com/aws/eks-anywhere
+  source_type: github_readme
+  quotes:
+  - Amazon EKS Anywhere is a new deployment option for Amazon EKS that enables you
+    to easily create and operate Kubernetes clusters on-premises with your own virtual
+    machines or bare metal hosts.
+  - It brings a consistent AWS management experience to your data center, building
+    on the strengths of Amazon EKS Distro
+- id: github_release
+  title: Amazon EKS Anywhere v0.26.2 Release Notes
+  url: https://github.com/aws/eks-anywhere/releases/tag/v0.26.2
+  source_type: github_release
+  quotes:
+  - Supported OS version details
+  - 'govmomi: v0.54.1 to v0.54.2'
+editorial_lock: false
+last_researched_at: '2026-09-21T21:17:41.024346+00:00'
+research_version: 1

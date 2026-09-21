@@ -1,0 +1,61 @@
+project_name: Airship
+homepage_url: https://www.airshipit.org/
+repo_url: https://github.com/airshipit/treasuremap
+docs_url: https://docs.airshipit.org/
+cncf_status: non-cncf
+latest_release:
+  version: v2.1.0
+  date: '2021-12-06T14:27:03Z'
+  release_notes_url: https://github.com/airshipit/treasuremap/releases/tag/v2.1.0
+summary: Airship (specifically its Treasuremap repository) provides a declarative
+  framework for deploying and managing cloud infrastructure using Kubernetes, Helm,
+  and bare-metal provisioning tools.
+key_features:
+- 'Declarative Infrastructure: Fully YAML-driven lifecycle management using airshipctl.'
+- 'Baremetal and Virtual Provisioning: Manages both virtual machines and bare-metal
+  servers.'
+- 'Pre-configured Workloads: Provides ready-to-use reference architectures (Treasuremap)
+  for OpenStack and Kubernetes deployments.'
+recent_updates: The v2.1.0 release updated components for multi-tenant cluster control
+  planes, enhanced Dex deployment for sub-cluster authentication, and replaced the
+  minio component with the minio operator.
+use_cases: Automating the deployment of OpenStack on top of Kubernetes, managing telecom
+  and edge cloud infrastructure, and handling complete life-cycle management of bare
+  metal clusters.
+ecosystem_perspectives:
+  strengths: Offers a robust, end-to-end declarative approach to infrastructure deployment,
+    deeply integrated with the OpenStack Foundation.
+  considerations: Primarily targeted at complex, large-scale deployments like telecommunications,
+    which may have a steep learning curve for simpler use cases.
+  community_discussions:
+  - Often discussed in the context of the OpenInfra Foundation and telecom deployments
+    utilizing Kubernetes and OpenStack.
+interesting_facts: The 'Treasuremap' repository acts as the reference architecture
+  collection, providing the foundational YAML manifests that airshipctl uses to deploy
+  environments.
+get_started: Review the documentation at docs.airshipit.org and explore the Treasuremap
+  repository for reference manifests to use with airshipctl.
+related_tools:
+- OpenStack
+- Metal3
+- Cluster API
+- Helm
+sources:
+- id: github_readme
+  title: Airship Treasuremap GitHub README
+  url: https://github.com/airshipit/treasuremap
+  source_type: github_readme
+  quotes:
+  - Treasuremap is a collection of YAML documents that are ready for use with airshipctl
+    to deploy Kubernetes and pre-configured workloads on baremetal and virtual infrastructure.
+- id: github_release
+  title: Airship Treasuremap v2.1.0 Release Notes
+  url: https://github.com/airshipit/treasuremap/releases/tag/v2.1.0
+  source_type: github_release
+  quotes:
+  - 'Sub-clusters Deployment: Add Multi-Tenant Cluster Control Plane Nodes to ViNO
+    VM Network'
+  - Replace minio with minio operator
+editorial_lock: false
+last_researched_at: '2026-09-21T21:16:03.176664+00:00'
+research_version: 1
