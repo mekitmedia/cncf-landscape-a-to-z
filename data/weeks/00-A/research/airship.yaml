@@ -1,0 +1,44 @@
+project_name: Airship
+homepage_url: https://www.airshipit.org/
+repo_url: https://github.com/airshipit/treasuremap
+docs_url: https://docs.airshipit.org/
+cncf_status: non-cncf
+summary: Airship is a robust collection of loosely coupled but interoperable open source tools that declaratively automate the lifecycle of cloud provisioning and lifecycle management. It enables operators to predictably deliver cloud infrastructure, starting from bare metal and progressing through to the tenant applications, using unified declarative documents (YAML).
+key_features:
+  - "Declarative Infrastructure: Uses YAML configurations to define the entire lifecycle of infrastructure and workloads."
+  - "Predictable Delivery: Automates deployment from bare metal provisioning to Kubernetes clusters and tenant applications."
+  - "airshipctl: A central command-line interface that orchestrates infrastructure lifecycle management using declarative models."
+  - "Modular Tooling: Integrates seamlessly with other cloud-native projects like Cluster API, Metal3, and Helm."
+recent_updates: "The v2.1.0 release focused on sub-cluster deployments, enhancements to Dex OIDC integration, integration with modern Cluster API (CAPI v1alpha4, CAPM3 v1alpha5), and improved container timeout enforcements in the declarative deployment phases."
+use_cases: "Airship is primarily used by telecom operators, service providers, and large enterprises to deploy, scale, and manage complex, multi-tenant bare-metal edge cloud environments consistently."
+interesting_facts: "Airship is supported by the Open Infrastructure Foundation. Its declarative engine heavily utilizes GitOps principles to manage bare-metal infrastructure similar to how Kubernetes manages containers."
+get_started: "To get started, developers use `airshipctl` alongside the `treasuremap` repository, which contains reference Airship manifests, CI/CD configurations, and reference architecture for deploying Kubernetes on bare-metal and virtual infrastructure."
+related_tools:
+  - "Cluster API"
+  - "Metal3"
+  - "Helm"
+  - "Kubernetes"
+ecosystem_perspectives: "Airship provides a powerful model for declaratively managing infrastructure from bare metal to Kubernetes workloads, particularly appealing for complex telecommunications environments like 5G network deployments. While its declarative approach provides strong predictability, the learning curve and operational complexity of integrating multiple open-source components under a unified schema can be steep compared to using managed Kubernetes services."
+latest_release:
+  version: "v2.1.0"
+  date: "2021-12-06T20:04:17Z"
+  url: "https://github.com/airshipit/treasuremap/releases/tag/v2.1.0"
+sources:
+  - id: source-0
+    title: "Airship Homepage"
+    url: "https://www.airshipit.org/"
+    quotes:
+      - "Airship is an independent open source community collaboratively developing code under the Apache 2 license."
+      - "Airship is supported by the Open Infrastructure Foundation"
+  - id: source-1
+    title: "Airship Treasuremap Repository"
+    url: "https://github.com/airshipit/treasuremap"
+    quotes:
+      - "Treasuremap is a collection of YAML documents that are ready for use with airshipctl to deploy Kubernetes and pre-configured workloads on baremetal and virtual infrastructure."
+      - "Reference Airship manifests, CICD, and reference architecture."
+  - id: source-2
+    title: "Airshipctl Repository"
+    url: "https://github.com/airshipit/airshipctl"
+    quotes:
+      - "A CLI for managing declarative infrastructure."
+      - "Airship 2.0 is under active development"
