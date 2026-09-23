@@ -61,13 +61,14 @@ def extract_task_title(task_file: Path) -> str:
 def resolve_prompt(
     custom_prompt: Optional[str] = None,
     repo_root: Optional[Path] = None,
+    allow_roulette: bool = True,
 ) -> Tuple[str, str, Optional[str]]:
     """
     Deterministically resolves the prompt string.
 
     Returns:
         Tuple of (prompt_content, source_type, task_name_or_file)
-        source_type: 'custom', 'backlog_task', or 'default_fallback'
+        source_type: 'custom', 'backlog_task', 'roulette_roulette', 'roulette_adhoc', or 'default_fallback'
     """
     root = repo_root or get_repo_root()
 
@@ -81,13 +82,14 @@ def resolve_prompt(
         return content, "backlog_task", selected_task.name
 
     # Draw task from ad-hoc queue or weighted roulette
-    try:
-        from src.roulette import draw_task
-        drawn = draw_task()
-        if drawn:
-            return drawn.to_prompt(), f"roulette_{drawn.task_type}", drawn.project_name
-    except Exception:
-        pass
+    if allow_roulette:
+        try:
+            from src.roulette import draw_task
+            drawn = draw_task()
+            if drawn:
+                return drawn.to_prompt(), f"roulette_{drawn.task_type}", drawn.project_name
+        except Exception:
+            pass
 
     default_file = get_default_prompt_file(root)
     if default_file.exists():
