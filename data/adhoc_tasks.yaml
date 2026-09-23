@@ -1,0 +1,10 @@
+# Ad-hoc Priority Tasks Queue
+# Tasks placed here take precedence over the weighted roulette selection.
+#
+# Schema:
+# - project_name: "Name of CNCF project"
+#   reason: "Why this task is prioritized (e.g. new major release, community request)"
+#   status: pending  # pending | in_progress | completed
+#   priority: high   # urgent | high | medium
+
+tasks: []

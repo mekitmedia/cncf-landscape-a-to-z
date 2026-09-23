@@ -59,10 +59,18 @@ def test_resolve_prompt_fallback_to_default(tmp_path):
     default_file = prompts_dir / "jules_prompt.md"
     default_file.write_text("Default weekly research prompt", encoding="utf-8")
 
-    prompt, source_type, source_ref = resolve_prompt(repo_root=tmp_path)
+    prompt, source_type, source_ref = resolve_prompt(repo_root=tmp_path, allow_roulette=False)
     assert prompt == "Default weekly research prompt"
     assert source_type == "default_fallback"
     assert source_ref == "jules_prompt.md"
+
+
+def test_resolve_prompt_roulette_draw(tmp_path):
+    prompt, source_type, source_ref = resolve_prompt(repo_root=tmp_path, allow_roulette=True)
+    assert prompt is not None
+    assert source_type.startswith("roulette_")
+    assert source_ref is not None
+
 
 
 def test_validate_task_file_valid(tmp_path):

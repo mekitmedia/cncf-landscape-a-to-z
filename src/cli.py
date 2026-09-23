@@ -59,6 +59,40 @@ class RunCommands:
         
         asyncio.run(weekly_content_flow(limit=limit))
 
+    def draw(self, week: str | None = None, format: str = "prompt", allow_adhoc: bool = True):
+        """
+        Draw a project task via ad-hoc queue or weighted roulette.
+        
+        Args:
+            week: Optional week letter (A-Z) to restrict task selection.
+            format: Output format ('prompt', 'json', 'yaml', 'dict').
+            allow_adhoc: Whether to check ad-hoc priority queue first (default: True).
+            
+        Usage:
+            python -m src.cli run draw
+            python -m src.cli run draw --week=A --format=prompt
+            python -m src.cli run draw --format=json
+        """
+        from src.roulette import draw_task
+        task = draw_task(week_letter=week, allow_adhoc=allow_adhoc)
+        if not task:
+            print("No candidate tasks found.")
+            return
+
+        if format.lower() == "json":
+            print(task.to_json())
+        elif format.lower() == "dict":
+            print(task.to_dict())
+        elif format.lower() == "yaml":
+            import yaml
+            print(yaml.dump(task.to_dict(), default_flow_style=False))
+        else:
+            print(task.to_prompt())
+
+    def roulette(self, week: str | None = None, format: str = "prompt", allow_adhoc: bool = True):
+        """Alias for draw."""
+        return self.draw(week=week, format=format, allow_adhoc=allow_adhoc)
+
 
 class EvalCommands:
     def research(self, path: str):
@@ -104,6 +138,7 @@ class Cli:
     def __init__(self):
         self.run = RunCommands()
         self.eval = EvalCommands()
+
 
 
 if __name__ == '__main__':

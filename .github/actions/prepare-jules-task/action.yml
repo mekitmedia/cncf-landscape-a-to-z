@@ -19,10 +19,14 @@ outputs:
 runs:
   using: 'composite'
   steps:
-    - name: Set up Python
-      uses: actions/setup-python@v5
+    - name: Install uv
+      uses: astral-sh/setup-uv@v7
       with:
-        python-version: '3.12'
+        enable-cache: true
+
+    - name: Set up Python
+      shell: bash
+      run: uv python install
 
     - name: Resolve Prompt via CLI
       id: resolve
@@ -30,4 +34,5 @@ runs:
       env:
         CUSTOM_PROMPT: ${{ inputs.custom_prompt }}
       run: |
-        python scripts/jules_queue.py get-prompt ${CUSTOM_PROMPT:+--custom-prompt "$CUSTOM_PROMPT"} --github-output --info
+        PYTHONPATH=. uv run python scripts/jules_queue.py get-prompt ${CUSTOM_PROMPT:+--custom-prompt "$CUSTOM_PROMPT"} --github-output --info
+
