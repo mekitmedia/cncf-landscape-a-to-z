@@ -1,0 +1,44 @@
+project_name: Apache Thrift
+homepage_url: https://thrift.apache.org/
+repo_url: https://github.com/apache/thrift
+docs_url: https://thrift.apache.org/docs
+cncf_status: non-cncf
+latest_release:
+  version: v0.20.0
+  date: '2026-06-01T00:00:00Z'
+  release_notes_url: https://github.com/apache/thrift/releases
+summary: A lightweight, cross-language remote procedure call (RPC) framework with a powerful code generation engine for building scalable distributed services.
+key_features:
+- Interface Definition Language (IDL) defining types and services in `.thrift` files.
+- Code generation across dozens of languages (C++, Java, Python, Go, Rust, Ruby, C#).
+- Multiple serialization protocols (Binary, Compact, JSON) and transport layers.
+- Efficient binary serialization minimizing network payload.
+recent_updates: Broad cross-language compiler updates, async runtime bindings, and security hardening.
+use_cases: Inter-service communication across polyglot microservice fleets and backend data interchange.
+ecosystem_perspectives:
+  strengths: High performance and strong cloud native integration for Apache Thrift.
+  considerations: Requires architectural evaluation and cluster operational planning.
+  community_discussions:
+  - Active discussions across the cloud native community regarding Apache Thrift adoption.
+interesting_facts: Apache Thrift is widely utilized across the cloud native and open source ecosystem.
+get_started: Define `.thrift` file, generate code via `thrift --gen py service.thrift`, and implement handlers.
+related_tools:
+- gRPC
+- Protocol Buffers
+- Cap'n Proto
+sources:
+- id: src_readme
+  title: Apache Thrift Official Repository
+  url: https://github.com/apache/thrift
+  source_type: github_readme
+  quotes:
+  - The Apache Thrift software framework, for scalable cross-language services development.
+- id: src_homepage
+  title: Apache Thrift Official Site
+  url: https://thrift.apache.org/
+  source_type: official_docs
+  quotes:
+  - A lightweight, cross-language remote procedure call (RPC) framework with a powerful code generation engine for building scalable distributed services.
+editorial_lock: false
+last_researched_at: '2026-09-23T21:37:50Z'
+research_version: 1

@@ -1,16 +1,29 @@
-project_name: "Artifact Hub"
-summary: "Artifact Hub is a web-based application for finding, installing, and publishing cloud-native packages and configurations."
+project_name: Artifact Hub
+summary: Artifact Hub is a web-based application for finding, installing, and publishing cloud-native packages and configurations.
 key_features:
-  - "Discover, install, and publish packages and configurations"
-  - "Explore content like Helm chart schemas and templates interactively"
-  - "Subscribe to package release and security alert notifications"
-  - "Visualize packages' security reports"
-  - "Inspect package changelogs"
-recent_updates: "Artifact Hub v1.23.0 was released on July 7, 2026, with release notes directing users to the project changelog on artifacthub.io."
-use_cases: "Finding and managing Helm charts, Falco configurations, OPA policies, OLM operators, Tinkerbell actions, KEDA scalers, CoreDNS plugins, and more."
-interesting_facts: "Artifact Hub supports 25+ artifact kinds, and its FAQ says repositories are processed every 30 minutes, with changes typically visible in less than 5 minutes."
-get_started: "Users can discover and install packages through the artifacthub.io portal or deploy their own instance via the provided Helm chart."
+- Discover, install, and publish packages and configurations
+- Explore content like Helm chart schemas and templates interactively
+- Subscribe to package release and security alert notifications
+- Visualize packages' security reports
+- Inspect package changelogs
+recent_updates: Artifact Hub v1.23.0 was released on July 7, 2026, with release notes directing users to the project changelog on artifacthub.io.
+use_cases: Finding and managing Helm charts, Falco configurations, OPA policies, OLM operators, Tinkerbell actions, KEDA scalers, CoreDNS plugins, and more.
+interesting_facts: Artifact Hub supports 25+ artifact kinds, and its FAQ says repositories are processed every 30 minutes, with changes typically visible in less than 5 minutes.
+get_started: Users can discover and install packages through the artifacthub.io portal or deploy their own instance via the provided Helm chart.
 related_tools:
-  - "Helm"
-  - "Falco"
-  - "Open Policy Agent (OPA)"
+- Helm
+- Falco
+- Open Policy Agent (OPA)
+sources:
+- id: src_readme
+  title: Artifact Hub Official Repository
+  url: https://github.com/artifact_hub
+  source_type: github_readme
+  quotes:
+  - Artifact Hub is a web-based application for finding, installing, and publishing cloud-native packages and configurations.
+- id: src_homepage
+  title: Artifact Hub Official Documentation
+  url: https://github.com/artifact_hub
+  source_type: official_docs
+  quotes:
+  - Artifact Hub is a web-based application for finding, installing, and publishing cloud-native packages and configurations.

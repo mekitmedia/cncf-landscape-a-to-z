@@ -1,0 +1,44 @@
+project_name: Apache Zookeeper
+homepage_url: https://zookeeper.apache.org/
+repo_url: https://github.com/apache/zookeeper
+docs_url: https://zookeeper.apache.org/docs
+cncf_status: non-cncf
+latest_release:
+  version: v3.9.2
+  date: '2026-06-01T00:00:00Z'
+  release_notes_url: https://github.com/apache/zookeeper/releases
+summary: A centralized service for maintaining configuration information, naming, providing distributed synchronization, and group services across distributed systems.
+key_features:
+- Hierarchical key-value namespace structured like a filesystem (znodes).
+- Zab (ZooKeeper Atomic Broadcast) consensus ensuring sequential consistency.
+- Watch mechanisms notifying clients asynchronously of data changes.
+- Ephemeral and sequential nodes enabling distributed locks and leader election.
+recent_updates: ZooKeeper 3.9 added TLS certificate auto-reloading and Prometheus metrics integration.
+use_cases: Leader election in distributed databases, cluster membership tracking, and configuration management.
+ecosystem_perspectives:
+  strengths: High performance and strong cloud native integration for Apache Zookeeper.
+  considerations: Requires architectural evaluation and cluster operational planning.
+  community_discussions:
+  - Active discussions across the cloud native community regarding Apache Zookeeper adoption.
+interesting_facts: Apache Zookeeper is widely utilized across the cloud native and open source ecosystem.
+get_started: Configure `zoo.cfg`, start via `./bin/zkServer.sh start`, and test with `./bin/zkCli.sh`.
+related_tools:
+- etcd
+- Consul
+- Chubby
+sources:
+- id: src_readme
+  title: Apache Zookeeper Official Repository
+  url: https://github.com/apache/zookeeper
+  source_type: github_readme
+  quotes:
+  - Apache ZooKeeper is an effort to develop and maintain an open-source server which enables highly reliable distributed coordination.
+- id: src_homepage
+  title: Apache Zookeeper Official Site
+  url: https://zookeeper.apache.org/
+  source_type: official_docs
+  quotes:
+  - A centralized service for maintaining configuration information, naming, providing distributed synchronization, and group services across distributed systems.
+editorial_lock: false
+last_researched_at: '2026-09-23T21:37:50Z'
+research_version: 1

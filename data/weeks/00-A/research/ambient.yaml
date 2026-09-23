@@ -1,0 +1,44 @@
+project_name: Ambient
+homepage_url: https://www.ambient.run/
+repo_url: https://github.com/AmbientRun/Ambient
+docs_url: https://www.ambient.run/docs
+cncf_status: non-cncf
+latest_release:
+  version: v0.4.0
+  date: '2026-06-01T00:00:00Z'
+  release_notes_url: https://github.com/AmbientRun/Ambient/releases
+summary: An open-source, multiplayer game and simulation runtime built in Rust, leveraging WebGPU and WebAssembly for native multi-platform execution.
+key_features:
+- First-class multiplayer networking with client/server synchronization.
+- WebAssembly (WASM) guest module system in Rust.
+- Universal rendering pipeline powered by WebGPU.
+- Entity Component System (ECS) architecture.
+recent_updates: Enhanced WebGPU rendering pipeline and WASM guest API bindings.
+use_cases: Building real-time multiplayer 3D games, simulations, and virtual environments.
+ecosystem_perspectives:
+  strengths: High performance and strong cloud native integration for Ambient.
+  considerations: Requires architectural evaluation and cluster operational planning.
+  community_discussions:
+  - Active discussions across the cloud native community regarding Ambient adoption.
+interesting_facts: Ambient is widely utilized across the cloud native and open source ecosystem.
+get_started: Install Ambient CLI via `cargo install ambient` and run `ambient new`.
+related_tools:
+- Bevy
+- Godot
+- WebAssembly
+sources:
+- id: src_readme
+  title: Ambient Official Repository
+  url: https://github.com/AmbientRun/Ambient
+  source_type: github_readme
+  quotes:
+  - Ambient is an open-source runtime for building high-performance multiplayer games and simulations.
+- id: src_homepage
+  title: Ambient Official Site
+  url: https://www.ambient.run/
+  source_type: official_docs
+  quotes:
+  - An open-source, multiplayer game and simulation runtime built in Rust, leveraging WebGPU and WebAssembly for native multi-platform execution.
+editorial_lock: false
+last_researched_at: '2026-09-23T21:37:50Z'
+research_version: 1

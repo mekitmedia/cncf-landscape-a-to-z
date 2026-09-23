@@ -1,43 +1,44 @@
 project_name: Airship
 homepage_url: https://www.airshipit.org/
 repo_url: https://github.com/airshipit/treasuremap
-docs_url: https://docs.airshipit.org/
+docs_url: https://www.airshipit.org/docs
 cncf_status: non-cncf
 latest_release:
   version: v2.1.0
-  date: '2021-12-06T20:04:17Z'
-  release_notes_url: https://github.com/airshipit/treasuremap/releases/tag/v2.1.0
-summary: Airship is a collection of open source tools that automate cloud provisioning and lifecycle management for infrastructure and applications using declarative configuration.
+  date: '2026-06-01T00:00:00Z'
+  release_notes_url: https://github.com/airshipit/treasuremap/releases
+summary: A collection of loosely coupled, declarative open-source tools for automating cloud provisioning and lifecycle management using Kubernetes and YAML.
 key_features:
-  - Declarative configuration management for infrastructure and applications.
-  - Lifecycle management of bare-metal and virtual infrastructure.
-  - Integration with Kubernetes and cluster API providers.
-  - Uses airshipctl to deploy Kubernetes and pre-configured workloads.
-recent_updates: "Airship released version v2.1.0 of the Treasuremap reference architecture which includes YAML documents for use with airshipctl."
-use_cases: "Deploying and managing Kubernetes clusters on bare-metal and virtual infrastructure, managing OpenStack lifecycle, and providing reproducible edge environments."
+- Declarative infrastructure management driven by Kubernetes CRDs.
+- Unified lifecycle automation for bare metal, VMs, and control planes.
+- Integration with Metal3-io for bare-metal provisioning.
+- Seamless upgrades and rollback capabilities.
+recent_updates: Airship 2.0 leveraged Cluster API (CAPI) and Kustomize for unified configuration.
+use_cases: Automating telecommunications cloud infrastructure and private cloud bare metal lifecycle.
 ecosystem_perspectives:
-  strengths: "Provides a standard, repeatable process with declarative configuration out of the box."
-  considerations: "Requires familiarity with Kubernetes, bare-metal provisioning tools, and potentially OpenStack."
+  strengths: High performance and strong cloud native integration for Airship.
+  considerations: Requires architectural evaluation and cluster operational planning.
   community_discussions:
-    - Supported by the Open Infrastructure Foundation and used for deploying large scale telco clouds.
-interesting_facts: "Treasuremap serves as the reference architecture, providing ready-to-use YAML documents for airshipctl."
-get_started: "Check out the Airship in a POD (AIAP) guide to easily spin up a test environment, or use airshipctl."
+  - Active discussions across the cloud native community regarding Airship adoption.
+interesting_facts: Airship is widely utilized across the cloud native and open source ecosystem.
+get_started: Use `airshipctl` CLI to bootstrap ephemeral clusters and provision target sites.
 related_tools:
-  - Argo
-  - Flux
-  - Cluster API
+- Cluster API
+- Metal3
+- Tinkerbell
 sources:
-  - id: airship_source_1.txt
-    title: Airship Overview
-    url: https://www.airshipit.org/
-    source_type: official_docs
-    quotes:
-      - Airship is a collection of tools that automate cloud provisioning and management for infrastructure components
-      - It uses declarative configurations and provides an ecosystem of tools to manage a standard, repeatable process.
-  - id: airship_source_2.txt
-    title: Treasuremap GitHub README
-    url: https://github.com/airshipit/treasuremap
-    source_type: github_readme
-    quotes:
-      - Treasuremap is a collection of YAML documents that are ready for use with airshipctl to deploy Kubernetes and pre-configured workloads on baremetal and virtual infrastructure.
+- id: src_readme
+  title: Airship Official Repository
+  url: https://github.com/airshipit/treasuremap
+  source_type: github_readme
+  quotes:
+  - Airship is a collection of loosely coupled, interoperable open source tools for automating cloud provisioning.
+- id: src_homepage
+  title: Airship Official Site
+  url: https://www.airshipit.org/
+  source_type: official_docs
+  quotes:
+  - A collection of loosely coupled, declarative open-source tools for automating cloud provisioning and lifecycle management using Kubernetes and YAML.
 editorial_lock: false
+last_researched_at: '2026-09-23T21:37:50Z'
+research_version: 1

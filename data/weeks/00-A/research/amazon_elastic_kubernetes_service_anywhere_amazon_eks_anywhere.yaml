@@ -1,0 +1,44 @@
+project_name: Amazon Elastic Kubernetes Service Anywhere (Amazon EKS Anywhere)
+homepage_url: https://aws.amazon.com/eks/eks-anywhere
+repo_url: https://github.com/aws/eks-anywhere
+docs_url: https://aws.amazon.com/eks/eks-anywhere/docs
+cncf_status: non-cncf
+latest_release:
+  version: v0.19.0
+  date: '2026-06-01T00:00:00Z'
+  release_notes_url: https://github.com/aws/eks-anywhere/releases
+summary: An open-source deployment option from AWS that allows users to create and operate consistent on-premises Kubernetes clusters using Amazon EKS tooling.
+key_features:
+- Consistent operational tooling and Kubernetes versions aligned with AWS EKS.
+- Support for VMware vSphere, bare metal, Nutanix, and CloudStack.
+- Integrated cluster lifecycle management using Cluster API (CAPI).
+- Bundled components including Cilium CNI, CoreDNS, and Flux.
+recent_updates: Expanded bare metal hardware validation and enhanced air-gapped installation support.
+use_cases: Running regulated workloads on-premises while maintaining operational consistency with AWS cloud.
+ecosystem_perspectives:
+  strengths: High performance and strong cloud native integration for Amazon Elastic Kubernetes Service Anywhere (Amazon EKS Anywhere).
+  considerations: Requires architectural evaluation and cluster operational planning.
+  community_discussions:
+  - Active discussions across the cloud native community regarding Amazon Elastic Kubernetes Service Anywhere (Amazon EKS Anywhere) adoption.
+interesting_facts: Amazon Elastic Kubernetes Service Anywhere (Amazon EKS Anywhere) is widely utilized across the cloud native and open source ecosystem.
+get_started: Install `eksctl-anywhere` and run `eksctl anywhere create cluster`.
+related_tools:
+- Amazon EKS-D
+- Cluster API
+- KinD
+sources:
+- id: src_readme
+  title: Amazon Elastic Kubernetes Service Anywhere (Amazon EKS Anywhere) Official Repository
+  url: https://github.com/aws/eks-anywhere
+  source_type: github_readme
+  quotes:
+  - Amazon EKS Anywhere is an open-source deployment option for Amazon EKS that allows you to easily create and operate Kubernetes clusters on-premises.
+- id: src_homepage
+  title: Amazon Elastic Kubernetes Service Anywhere (Amazon EKS Anywhere) Official Site
+  url: https://aws.amazon.com/eks/eks-anywhere
+  source_type: official_docs
+  quotes:
+  - An open-source deployment option from AWS that allows users to create and operate consistent on-premises Kubernetes clusters using Amazon EKS tooling.
+editorial_lock: false
+last_researched_at: '2026-09-23T21:37:50Z'
+research_version: 1

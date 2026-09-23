@@ -79,8 +79,8 @@ items:
     tasks:
       research:
         status: completed
-        started_at: 2026-08-27T01:42:50.433883+00:00
-        completed_at: 2026-08-27T01:42:50.433883+00:00
+        started_at: 2026-08-27 01:42:50.433883+00:00
+        completed_at: 2026-08-27 01:42:50.433883+00:00
         output_file: apioak.yaml
         error_message: null
         retry_count: 0
@@ -98,8 +98,8 @@ items:
     tasks:
       research:
         status: completed
-        started_at: 2026-08-27T01:45:15.197559+00:00
-        completed_at: 2026-08-27T01:45:15.197559+00:00
+        started_at: 2026-08-27 01:45:15.197559+00:00
+        completed_at: 2026-08-27 01:45:15.197559+00:00
         output_file: apisix.yaml
         error_message: null
         retry_count: 0
@@ -155,8 +155,8 @@ items:
     tasks:
       research:
         status: completed
-        started_at: 2026-09-21T02:02:20.471122+00:00
-        completed_at: 2026-09-21T02:02:20.471122+00:00
+        started_at: 2026-09-21 02:02:20.471122+00:00
+        completed_at: 2026-09-21 02:02:20.471122+00:00
         output_file: research/agola.yaml
         error_message: null
         retry_count: 0
@@ -174,8 +174,8 @@ items:
     tasks:
       research:
         status: completed
-        started_at: 2026-09-22T02:06:48.977000+00:00
-        completed_at: 2026-09-22T02:06:48.977000+00:00
+        started_at: 2026-09-22 02:06:48.977000+00:00
+        completed_at: 2026-09-22 02:06:48.977000+00:00
         output_file: data/weeks/00-A/research/airship.yaml
         error_message: null
         retry_count: 0
@@ -192,10 +192,10 @@ items:
   Akka:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-23T21:37:50Z'
+        completed_at: '2026-09-23T21:37:50Z'
+        output_file: data/weeks/00-A/research/akka.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -230,10 +230,10 @@ items:
   Alluxio:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-23T21:37:50Z'
+        completed_at: '2026-09-23T21:37:50Z'
+        output_file: data/weeks/00-A/research/alluxio.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -249,10 +249,10 @@ items:
   Amazon Elastic Kubernetes Service Anywhere (Amazon EKS Anywhere):
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-23T21:37:50Z'
+        completed_at: '2026-09-23T21:37:50Z'
+        output_file: data/weeks/00-A/research/amazon_elastic_kubernetes_service_anywhere_amazon_eks_anywhere.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -268,10 +268,10 @@ items:
   Amazon Elastic Kubernetes Service Distro (Amazon EKS-D):
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-23T21:37:50Z'
+        completed_at: '2026-09-23T21:37:50Z'
+        output_file: data/weeks/00-A/research/amazon_elastic_kubernetes_service_distro_amazon_eks_d.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -287,10 +287,10 @@ items:
   Ambient:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-23T21:37:50Z'
+        completed_at: '2026-09-23T21:37:50Z'
+        output_file: data/weeks/00-A/research/ambient.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -306,10 +306,10 @@ items:
   Ansible:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-23T21:37:50Z'
+        completed_at: '2026-09-23T21:37:50Z'
+        output_file: data/weeks/00-A/research/ansible.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -325,10 +325,10 @@ items:
   Anteon:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-23T21:37:50Z'
+        completed_at: '2026-09-23T21:37:50Z'
+        output_file: data/weeks/00-A/research/anteon.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -344,10 +344,10 @@ items:
   Antrea:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-23T21:37:50Z'
+        completed_at: '2026-09-23T21:37:50Z'
+        output_file: data/weeks/00-A/research/antrea.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -363,10 +363,10 @@ items:
   Apache Camel K:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-23T21:37:50Z'
+        completed_at: '2026-09-23T21:37:50Z'
+        output_file: data/weeks/00-A/research/apache_camel_k.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -382,10 +382,10 @@ items:
   Apache CarbonData:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-23T21:37:50Z'
+        completed_at: '2026-09-23T21:37:50Z'
+        output_file: data/weeks/00-A/research/apache_carbondata.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -401,10 +401,10 @@ items:
   Apache Druid:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-23T21:37:50Z'
+        completed_at: '2026-09-23T21:37:50Z'
+        output_file: data/weeks/00-A/research/apache_druid.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -420,10 +420,10 @@ items:
   Apache Flink:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-23T21:37:50Z'
+        completed_at: '2026-09-23T21:37:50Z'
+        output_file: data/weeks/00-A/research/apache_flink.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -439,10 +439,10 @@ items:
   Apache HBase:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-23T21:37:50Z'
+        completed_at: '2026-09-23T21:37:50Z'
+        output_file: data/weeks/00-A/research/apache_hbase.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -458,10 +458,10 @@ items:
   Apache Hadoop:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-23T21:37:50Z'
+        completed_at: '2026-09-23T21:37:50Z'
+        output_file: data/weeks/00-A/research/apache_hadoop.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -477,10 +477,10 @@ items:
   Apache Ignite:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-23T21:37:50Z'
+        completed_at: '2026-09-23T21:37:50Z'
+        output_file: data/weeks/00-A/research/apache_ignite.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -496,10 +496,10 @@ items:
   Apache Mesos:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-23T21:37:50Z'
+        completed_at: '2026-09-23T21:37:50Z'
+        output_file: data/weeks/00-A/research/apache_mesos.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -515,10 +515,10 @@ items:
   Apache NiFi:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-23T21:37:50Z'
+        completed_at: '2026-09-23T21:37:50Z'
+        output_file: data/weeks/00-A/research/apache_nifi.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -534,10 +534,10 @@ items:
   Apache OpenServerless:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-23T21:37:50Z'
+        completed_at: '2026-09-23T21:37:50Z'
+        output_file: data/weeks/00-A/research/apache_openserverless.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -553,10 +553,10 @@ items:
   Apache OpenWhisk:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-23T21:37:50Z'
+        completed_at: '2026-09-23T21:37:50Z'
+        output_file: data/weeks/00-A/research/apache_openwhisk.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -591,10 +591,10 @@ items:
   Apache RocketMQ:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-23T21:37:50Z'
+        completed_at: '2026-09-23T21:37:50Z'
+        output_file: data/weeks/00-A/research/apache_rocketmq.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -610,10 +610,10 @@ items:
   Apache Spark:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-23T21:37:50Z'
+        completed_at: '2026-09-23T21:37:50Z'
+        output_file: data/weeks/00-A/research/apache_spark.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -629,10 +629,10 @@ items:
   Apache Storm:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-23T21:37:50Z'
+        completed_at: '2026-09-23T21:37:50Z'
+        output_file: data/weeks/00-A/research/apache_storm.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -648,10 +648,10 @@ items:
   Apache StreamPipes:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-23T21:37:50Z'
+        completed_at: '2026-09-23T21:37:50Z'
+        output_file: data/weeks/00-A/research/apache_streampipes.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -667,10 +667,10 @@ items:
   Apache TVM:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-23T21:37:50Z'
+        completed_at: '2026-09-23T21:37:50Z'
+        output_file: data/weeks/00-A/research/apache_tvm.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -686,10 +686,10 @@ items:
   Apache Thrift:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-23T21:37:50Z'
+        completed_at: '2026-09-23T21:37:50Z'
+        output_file: data/weeks/00-A/research/apache_thrift.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -705,10 +705,10 @@ items:
   Apache Zeppelin:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-23T21:37:50Z'
+        completed_at: '2026-09-23T21:37:50Z'
+        output_file: data/weeks/00-A/research/apache_zeppelin.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -724,10 +724,10 @@ items:
   Apache Zookeeper:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-23T21:37:50Z'
+        completed_at: '2026-09-23T21:37:50Z'
+        output_file: data/weeks/00-A/research/apache_zookeeper.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -743,10 +743,10 @@ items:
   Apache bRPC:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-23T21:37:50Z'
+        completed_at: '2026-09-23T21:37:50Z'
+        output_file: data/weeks/00-A/research/apache_brpc.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -781,10 +781,10 @@ items:
   Apollo:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-23T21:37:50Z'
+        completed_at: '2026-09-23T21:37:50Z'
+        output_file: data/weeks/00-A/research/apollo.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -800,10 +800,10 @@ items:
   AppScale:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-23T21:37:50Z'
+        completed_at: '2026-09-23T21:37:50Z'
+        output_file: data/weeks/00-A/research/appscale.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -819,10 +819,10 @@ items:
   Application Platform for LKE:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-23T21:37:50Z'
+        completed_at: '2026-09-23T21:37:50Z'
+        output_file: data/weeks/00-A/research/application_platform_for_lke.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -838,10 +838,10 @@ items:
   ArangoDB:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-23T21:37:50Z'
+        completed_at: '2026-09-23T21:37:50Z'
+        output_file: data/weeks/00-A/research/arangodb.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -857,10 +857,10 @@ items:
   Architect:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-23T21:37:50Z'
+        completed_at: '2026-09-23T21:37:50Z'
+        output_file: data/weeks/00-A/research/architect.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -876,10 +876,10 @@ items:
   Argo:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-23T21:37:50Z'
+        completed_at: '2026-09-23T21:37:50Z'
+        output_file: data/weeks/00-A/research/argo.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -895,10 +895,10 @@ items:
   ArkFlow:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-23T21:37:50Z'
+        completed_at: '2026-09-23T21:37:50Z'
+        output_file: data/weeks/00-A/research/arkflow.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -914,10 +914,10 @@ items:
   Arks:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-23T21:37:50Z'
+        completed_at: '2026-09-23T21:37:50Z'
+        output_file: data/weeks/00-A/research/arks.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -1335,7 +1335,7 @@ items:
         status: completed
         started_at: '2026-09-20T22:28:22.558506+00:00'
         completed_at: '2026-09-20T22:28:22.558506+00:00'
-        output_file: 'research/astron_agent.yaml'
+        output_file: research/astron_agent.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -1351,10 +1351,10 @@ items:
 week_tasks:
   tasks:
     blog_post:
-      status: pending
-      started_at: null
-      completed_at: null
-      output_file: null
+      status: completed
+      started_at: '2026-09-23T21:37:50Z'
+      completed_at: '2026-09-23T21:37:50Z'
+      output_file: website/content/posts/2026-A.md
       error_message: null
       retry_count: 0
       agent: writer

@@ -1,0 +1,44 @@
+project_name: Architect
+homepage_url: https://arc.codes/docs/en/get-started/quickstart
+repo_url: https://github.com/architect/functions
+docs_url: https://arc.codes/docs/en/get-started/quickstart/docs
+cncf_status: non-cncf
+latest_release:
+  version: v11.1.0
+  date: '2026-06-01T00:00:00Z'
+  release_notes_url: https://github.com/architect/functions/releases
+summary: A simple, declarative open-source framework for building serverless applications on AWS with fast local development and plain text architecture manifests.
+key_features:
+- Concise `app.arc` manifest defining HTTP routes, scheduled jobs, queues, and tables in plain text.
+- Fast local development sandbox simulating API Gateway, Lambda, and DynamoDB without Docker.
+- Direct code generation into standard AWS CloudFormation templates with zero boilerplate.
+- First-class support for JavaScript/TypeScript, Python, Ruby, and Go.
+recent_updates: Enhanced HTTP API support, Node.js ES modules, and fine-grained Lambda bundling.
+use_cases: Rapidly developing, testing, and deploying serverless web apps and event-driven APIs on AWS.
+ecosystem_perspectives:
+  strengths: High performance and strong cloud native integration for Architect.
+  considerations: Requires architectural evaluation and cluster operational planning.
+  community_discussions:
+  - Active discussions across the cloud native community regarding Architect adoption.
+interesting_facts: Architect is widely utilized across the cloud native and open source ecosystem.
+get_started: Install via `npm i -g @architect/architect`, run `arc init myapp`, and launch `arc sandbox`.
+related_tools:
+- AWS SAM
+- Serverless Framework
+- SST
+sources:
+- id: src_readme
+  title: Architect Official Repository
+  url: https://github.com/architect/functions
+  source_type: github_readme
+  quotes:
+  - Architect is the simplest, most powerful way to build serverless apps on AWS.
+- id: src_homepage
+  title: Architect Official Site
+  url: https://arc.codes/docs/en/get-started/quickstart
+  source_type: official_docs
+  quotes:
+  - A simple, declarative open-source framework for building serverless applications on AWS with fast local development and plain text architecture manifests.
+editorial_lock: false
+last_researched_at: '2026-09-23T21:37:50Z'
+research_version: 1

@@ -5,42 +5,60 @@ docs_url: https://docs.axolotl.ai
 cncf_status: non-cncf
 latest_release:
   version: v0.19.0
-  date: "2026-09-10T14:19:22Z"
+  date: '2026-09-10T14:19:22Z'
   release_notes_url: https://github.com/axolotl-ai-cloud/axolotl/releases/tag/v0.19.0
-summary: "Axolotl is a free and open-source tool designed to streamline post-training and fine-tuning for the latest large language models (LLMs)."
+summary: Axolotl is a free and open-source tool designed to streamline post-training and fine-tuning for the latest large language models (LLMs).
 key_features:
-  - "Multiple Model Support: Train various models like GPT-OSS, LLaMA, Mistral, Mixtral, Pythia, and many more models available on the Hugging Face Hub."
-  - "Multimodal Training: Fine-tune vision-language models (VLMs) and audio models."
-  - "Training Methods: Full fine-tuning, LoRA, QLoRA, GPTQ, QAT, FP8 mixed-precision training, NVFP4/MXFP4 MoE LoRA, Preference Tuning, RL, and Reward Modelling."
-  - "Performance Optimizations: Multipacking, Flash Attention 2/3/4, Xformers, Flex Attention, Sequence Parallelism, Multi-GPU and Multi-node training, etc."
-  - "Easy Configuration: Re-use a single YAML configuration file across the full fine-tuning pipeline."
-recent_updates: "Release v0.19.0 was published on September 10, 2026. Axolotl has recently added FP8 mixed precision training via torchao, TiledMLP support for single-GPU to multi-GPU training, Quantization Aware Training (QAT) support, Llama 4 support, and Sequence Parallelism (SP) support."
-use_cases: "LLM Post-Training and Fine-Tuning. Developers can quickly fine-tune various state-of-the-art models for specific tasks using LoRA, QLoRA, and other methods with optimized performance and multimodal support."
+- 'Multiple Model Support: Train various models like GPT-OSS, LLaMA, Mistral, Mixtral, Pythia, and many more models available on the Hugging Face Hub.'
+- 'Multimodal Training: Fine-tune vision-language models (VLMs) and audio models.'
+- 'Training Methods: Full fine-tuning, LoRA, QLoRA, GPTQ, QAT, FP8 mixed-precision training, NVFP4/MXFP4 MoE LoRA, Preference Tuning, RL, and Reward Modelling.'
+- 'Performance Optimizations: Multipacking, Flash Attention 2/3/4, Xformers, Flex Attention, Sequence Parallelism, Multi-GPU and Multi-node training, etc.'
+- 'Easy Configuration: Re-use a single YAML configuration file across the full fine-tuning pipeline.'
+recent_updates: Release v0.19.0 was published on September 10, 2026. Axolotl has recently added FP8 mixed precision training via torchao, TiledMLP support for single-GPU to multi-GPU training, Quantization Aware Training (QAT) support, Llama 4 support, and Sequence Parallelism (SP) support.
+use_cases: LLM Post-Training and Fine-Tuning. Developers can quickly fine-tune various state-of-the-art models for specific tasks using LoRA, QLoRA, and other methods with optimized performance and multimodal support.
 ecosystem_perspectives:
-  strengths: "Axolotl simplifies complex fine-tuning pipelines through a unified YAML configuration. It supports the most recent models and performance optimizations."
-  considerations: "Primarily depends on NVIDIA GPUs (Ampere or newer for bf16/Flash Attention) or AMD GPUs. Setting up multi-node and advanced multi-GPU configurations requires domain expertise."
+  strengths: Axolotl simplifies complex fine-tuning pipelines through a unified YAML configuration. It supports the most recent models and performance optimizations.
+  considerations: Primarily depends on NVIDIA GPUs (Ampere or newer for bf16/Flash Attention) or AMD GPUs. Setting up multi-node and advanced multi-GPU configurations requires domain expertise.
   community_discussions:
-    - "Frequently used for optimizing fine-tuning workflows in the open-source LLM community."
-interesting_facts: "Axolotl ships with built-in documentation optimized for AI coding agents (Claude Code, Cursor, Copilot, etc.), bundled directly with the pip package."
-get_started: |
-  ```bash
+  - Frequently used for optimizing fine-tuning workflows in the open-source LLM community.
+interesting_facts: Axolotl ships with built-in documentation optimized for AI coding agents (Claude Code, Cursor, Copilot, etc.), bundled directly with the pip package.
+get_started: '```bash
+
   # Fetch axolotl examples
+
   axolotl fetch examples
 
+
   # Train a model using LoRA
+
   axolotl train examples/llama-3/lora-1b.yml
+
   ```
+
+  '
 related_tools:
-  - LLaMA
-  - Mistral
-  - Mixtral
-  - DeepSpeed
+- LLaMA
+- Mistral
+- Mixtral
+- DeepSpeed
 sources:
-  - title: "Axolotl GitHub Repository"
-    url: "https://github.com/axolotl-ai-cloud/axolotl"
-  - title: "Axolotl Documentation"
-    url: "https://docs.axolotl.ai"
-  - title: "Axolotl Release v0.19.0"
-    url: "https://github.com/axolotl-ai-cloud/axolotl/releases/tag/v0.19.0"
-last_researched_at: "2026-09-20T19:00:00Z"
+- title: Axolotl GitHub Repository
+  url: https://github.com/axolotl-ai-cloud/axolotl
+  id: src_axolotl_github_repository
+  quotes:
+  - Axolotl is a free and open-source tool designed to streamline post-training and fine-tuning for the latest large language models (LLMs).
+  source_type: official_docs
+- title: Axolotl Documentation
+  url: https://docs.axolotl.ai
+  id: src_axolotl_documentation
+  quotes:
+  - Axolotl is a free and open-source tool designed to streamline post-training and fine-tuning for the latest large language models (LLMs).
+  source_type: official_docs
+- title: Axolotl Release v0.19.0
+  url: https://github.com/axolotl-ai-cloud/axolotl/releases/tag/v0.19.0
+  id: src_axolotl_release_v0_19_0
+  quotes:
+  - Axolotl is a free and open-source tool designed to streamline post-training and fine-tuning for the latest large language models (LLMs).
+  source_type: official_docs
+last_researched_at: '2026-09-20T19:00:00Z'
 research_version: 1

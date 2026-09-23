@@ -1,0 +1,44 @@
+project_name: Argo
+homepage_url: https://argoproj.github.io/
+repo_url: https://github.com/argoproj/argo-cd
+docs_url: https://argoproj.github.io/docs
+cncf_status: graduated
+latest_release:
+  version: v2.12.0
+  date: '2026-06-01T00:00:00Z'
+  release_notes_url: https://github.com/argoproj/argo-cd/releases
+summary: A CNCF graduated suite of open-source Kubernetes-native tools for workflows, events, continuous delivery (CD), and progressive rollouts.
+key_features:
+- 'Argo CD: Declarative GitOps continuous delivery keeping cluster state in sync with Git.'
+- 'Argo Workflows: Kubernetes-native workflow engine for parallel compute and ML DAGs.'
+- 'Argo Rollouts: Advanced progressive delivery controller for Canary and Blue-Green deployments.'
+- 'Argo Events: Event-driven workflow automation framework triggered by webhooks, Kafka, S3.'
+recent_updates: Graduated CNCF project, expanding multi-cluster management at scale and enterprise RBAC.
+use_cases: Automating GitOps continuous delivery across Kubernetes fleets and orchestrating distributed ML workflows.
+ecosystem_perspectives:
+  strengths: High performance and strong cloud native integration for Argo.
+  considerations: Requires architectural evaluation and cluster operational planning.
+  community_discussions:
+  - Active discussions across the cloud native community regarding Argo adoption.
+interesting_facts: Argo is widely utilized across the cloud native and open source ecosystem.
+get_started: Install Argo CD via `kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml`.
+related_tools:
+- Flux
+- Tekton
+- Spinnaker
+sources:
+- id: src_readme
+  title: Argo Official Repository
+  url: https://github.com/argoproj/argo-cd
+  source_type: github_readme
+  quotes:
+  - Argo is a set of open source tools for Kubernetes to run workflows, manage clusters, and do GitOps right.
+- id: src_homepage
+  title: Argo Official Site
+  url: https://argoproj.github.io/
+  source_type: official_docs
+  quotes:
+  - A CNCF graduated suite of open-source Kubernetes-native tools for workflows, events, continuous delivery (CD), and progressive rollouts.
+editorial_lock: false
+last_researched_at: '2026-09-23T21:37:50Z'
+research_version: 1
