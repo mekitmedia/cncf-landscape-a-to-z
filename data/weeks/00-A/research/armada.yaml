@@ -16,14 +16,9 @@ related_tools:
 - Apache Mesos
 sources:
 - id: src_readme
-  title: Armada Official Repository
+  title: Armada GitHub README
   url: https://github.com/armada
   source_type: github_readme
   quotes:
-  - Armada is a multi-Kubernetes cluster batch job meta-scheduler designed to handle massive-scale workloads. Built on top of Kubernetes, Armada enables organizations to distribute millions of batch jobs per day across tens of thousands of nodes spanning multiple clusters, making it an ideal solution for high-throughput computational workloads.
-- id: src_homepage
-  title: Armada Official Documentation
-  url: https://github.com/armada
-  source_type: official_docs
-  quotes:
-  - Armada is a multi-Kubernetes cluster batch job meta-scheduler designed to handle massive-scale workloads. Built on top of Kubernetes, Armada enables organizations to distribute millions of batch jobs per day across tens of thousands of nodes spanning multiple clusters, making it an ideal solution for high-throughput computational workloads.
+  - 'Armada addresses the following limitations of Kubernetes:'
+  - Fair queuing and scheduling across multiple users. Based on dominant resource fairness.

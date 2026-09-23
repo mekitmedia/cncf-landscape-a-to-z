@@ -28,17 +28,12 @@ related_tools:
 - WebAssembly
 sources:
 - id: src_readme
-  title: Ambient Official Repository
+  title: Ambient GitHub README
   url: https://github.com/AmbientRun/Ambient
   source_type: github_readme
   quotes:
-  - Ambient is an open-source runtime for building high-performance multiplayer games and simulations.
-- id: src_homepage
-  title: Ambient Official Site
-  url: https://www.ambient.run/
-  source_type: official_docs
-  quotes:
-  - An open-source, multiplayer game and simulation runtime built in Rust, leveraging WebGPU and WebAssembly for native multi-platform execution.
+  - '> Work on the Ambient runtime is paused indefinitely. For alternatives to Ambient, see https://arewegameyet.rs/'
+  - '> We are currently working on [Braindump](https://braindump.me/blog-posts/building-an-ai-game-studio). Come'
 editorial_lock: false
 last_researched_at: '2026-09-23T21:37:50Z'
 research_version: 1

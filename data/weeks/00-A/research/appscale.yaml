@@ -28,17 +28,12 @@ related_tools:
 - OpenShift
 sources:
 - id: src_readme
-  title: AppScale Official Repository
+  title: AppScale GitHub README
   url: https://github.com/AppScale/gts
   source_type: github_readme
   quotes:
-  - AppScale is an easy-to-manage serverless platform for building and scaling web and mobile applications.
-- id: src_homepage
-  title: AppScale Official Site
-  url: https://www.appscale.com/
-  source_type: official_docs
-  quotes:
-  - An open-source cloud computing platform that automatically executes and scales Google App Engine (GAE) applications on any public, private, or hybrid cloud.
+  - AppScale GTS is an open source serverless platform for building and running scalable web and mobile applications on any infrastructure.
+  - to [contribute](https://github.com/AppScale/appscale/wiki/Contribute%21)
 editorial_lock: false
 last_researched_at: '2026-09-23T21:37:50Z'
 research_version: 1

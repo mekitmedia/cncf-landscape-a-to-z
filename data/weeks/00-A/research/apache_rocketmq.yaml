@@ -28,17 +28,12 @@ related_tools:
 - Apache Pulsar
 sources:
 - id: src_readme
-  title: Apache RocketMQ Official Repository
+  title: Apache RocketMQ GitHub README
   url: https://github.com/apache/rocketmq
   source_type: github_readme
   quotes:
-  - Apache RocketMQ is a distributed messaging and streaming data platform.
-- id: src_homepage
-  title: Apache RocketMQ Official Site
-  url: https://rocketmq.apache.org/
-  source_type: official_docs
-  quotes:
-  - A distributed messaging and streaming data platform offering low latency, high throughput, high reliability, and ultra-large capacity.
+  - '[Apache RocketMQ](https://rocketmq.apache.org) is a distributed messaging and streaming platform with low latency, high performance and reliability, trillion-level capacity and flexible scalability.'
+  - 'It offers a variety of features:'
 editorial_lock: false
 last_researched_at: '2026-09-23T21:37:50Z'
 research_version: 1

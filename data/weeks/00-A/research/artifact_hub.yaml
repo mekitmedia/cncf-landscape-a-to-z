@@ -16,14 +16,9 @@ related_tools:
 - Open Policy Agent (OPA)
 sources:
 - id: src_readme
-  title: Artifact Hub Official Repository
+  title: Artifact Hub GitHub README
   url: https://github.com/artifact_hub
   source_type: github_readme
   quotes:
-  - Artifact Hub is a web-based application for finding, installing, and publishing cloud-native packages and configurations.
-- id: src_homepage
-  title: Artifact Hub Official Documentation
-  url: https://github.com/artifact_hub
-  source_type: official_docs
-  quotes:
-  - Artifact Hub is a web-based application for finding, installing, and publishing cloud-native packages and configurations.
+  - '[Artifact Hub](https://artifacthub.io) is a web-based application that enables finding, installing, and publishing packages and configurations for Cloud Native packages.'
+  - 'At the moment, the following artifacts kinds are supported *(with plans to support more projects to follow)*:'

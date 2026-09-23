@@ -13,14 +13,9 @@ related_tools:
 - SPIRE
 sources:
 - id: src_readme
-  title: Athenz Official Repository
+  title: Athenz GitHub README
   url: https://github.com/athenz
   source_type: github_readme
   quotes:
-  - Open source platform for X.509 certificate based service authentication and fine grained access control in dynamic infrastructures.
-- id: src_homepage
-  title: Athenz Official Documentation
-  url: https://github.com/athenz
-  source_type: official_docs
-  quotes:
-  - Open source platform for X.509 certificate based service authentication and fine grained access control in dynamic infrastructures.
+  - '![Athenz](docs/images/athenz-logo.png)'
+  - '> Athenz is an open source platform for X.509 certificate based service authentication and fine-grained'

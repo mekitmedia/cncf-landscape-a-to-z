@@ -22,31 +22,10 @@ related_tools:
 - BabyAGI
 - LangChain
 sources:
-- label: Official GitHub Repository
+- id: src_readme
+  title: Autogen GitHub README
   url: https://github.com/microsoft/autogen
-  id: src_official_github_repository
-  title: Official GitHub Repository
+  source_type: github_readme
   quotes:
-  - A programming framework for building agentic AI, developed by Microsoft. It enables the creation of applications using multiple agents that can converse with each other to solve tasks.
-  source_type: official_docs
-- label: Official Documentation
-  url: https://microsoft.github.io/autogen/
-  id: src_official_documentation
-  title: Official Documentation
-  quotes:
-  - A programming framework for building agentic AI, developed by Microsoft. It enables the creation of applications using multiple agents that can converse with each other to solve tasks.
-  source_type: official_docs
-- label: Latest Release Notes
-  url: https://api.github.com/repos/microsoft/autogen/releases/latest
-  id: src_latest_release_notes
-  title: Latest Release Notes
-  quotes:
-  - A programming framework for building agentic AI, developed by Microsoft. It enables the creation of applications using multiple agents that can converse with each other to solve tasks.
-  source_type: official_docs
-- label: Hacker News Discussion on Microsoft's AutoGen
-  url: https://news.ycombinator.com/item?id=37822809
-  id: src_hacker_news_discussion_on_microsoft_s_autogen
-  title: Hacker News Discussion on Microsoft's AutoGen
-  quotes:
-  - A programming framework for building agentic AI, developed by Microsoft. It enables the creation of applications using multiple agents that can converse with each other to solve tasks.
-  source_type: official_docs
+  - AutoGen** is a framework for creating multi-agent AI applications that can act autonomously or work alongside humans.
+  - '> AutoGen is now in maintenance mode. It will not receive new features or enhancements and is community managed going forward.'

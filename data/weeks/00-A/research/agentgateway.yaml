@@ -29,26 +29,12 @@ related_tools:
 - Model Context Protocol (MCP)
 - Envoy Proxy
 sources:
-- id: src_github_repo
-  title: Agentgateway GitHub Repository
+- id: src_readme
+  title: Agentgateway GitHub README
   url: https://github.com/agentgateway/agentgateway
   source_type: github_readme
   quotes:
-  - The first complete connectivity solution for Agentic AI.
-  - Agentgateway is an open source proxy built on AI-native protocols (MCP & A2A) that provides drop-in security, observability, and governance for agent-to-LLM, agent-to-tool, and agent-to-agent communication across any framework and environment.
-- id: src_github_release
-  title: Agentgateway Release v1.5.0
-  url: https://github.com/agentgateway/agentgateway/releases/tag/v1.5.0
-  source_type: github_release
-  quotes:
-  - 'llm: allow limiting authorized models on an API key by @howardjohn in #3107'
-  - 'feat(auth): support forward proxy authentication via the Proxy_Authorization header by @ericdbishop in #3098'
-- id: src_hn_discussion
-  title: 'Hacker News: Ask HN: Who is using MCP in production?'
-  url: https://news.ycombinator.com/item?id=49548600
-  source_type: community_discussion
-  quotes:
-  - We develop custom MCP servers for our internal stuff for agents to use, and it all gets accessed thru agentgateway.
-  - I don’t really like having to use MCP but we don’t have a good solution for authorizing individual calls outbound from a sandbox without choosing to just not care about the sandbox.
+  - The <strong>first complete</strong> connectivity solution for Agentic AI.
+  - Route traffic to major LLM providers (OpenAI, Anthropic, Gemini, Bedrock, and more) through a unified OpenAI-compatible API with budget and spend controls, prompt enrichment, load balancing, and failover.
 last_researched_at: '2026-09-20T20:26:46Z'
 research_version: 1

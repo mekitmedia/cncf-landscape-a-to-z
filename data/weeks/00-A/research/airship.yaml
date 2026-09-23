@@ -28,17 +28,12 @@ related_tools:
 - Tinkerbell
 sources:
 - id: src_readme
-  title: Airship Official Repository
+  title: Airship GitHub README
   url: https://github.com/airshipit/treasuremap
   source_type: github_readme
   quotes:
-  - Airship is a collection of loosely coupled, interoperable open source tools for automating cloud provisioning.
-- id: src_homepage
-  title: Airship Official Site
-  url: https://www.airshipit.org/
-  source_type: official_docs
-  quotes:
-  - A collection of loosely coupled, declarative open-source tools for automating cloud provisioning and lifecycle management using Kubernetes and YAML.
+  - Treasuremap is a collection of YAML documents that are ready for use with
+  - '[airshipctl](https://opendev.org/airship/airshipctl) to deploy Kubernetes and'
 editorial_lock: false
 last_researched_at: '2026-09-23T21:37:50Z'
 research_version: 1

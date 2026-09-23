@@ -28,17 +28,12 @@ related_tools:
 - Cilium
 sources:
 - id: src_readme
-  title: Anteon Official Repository
+  title: Anteon GitHub README
   url: https://github.com/getanteon/anteon
   source_type: github_readme
   quotes:
-  - Anteon is an open-source Kubernetes observability and performance testing platform powered by eBPF.
-- id: src_homepage
-  title: Anteon Official Site
-  url: https://getanteon.com/
-  source_type: official_docs
-  quotes:
-  - An open-source platform combining effortless Kubernetes observability with distributed performance and load testing powered by eBPF.
+  - Anteon** (formerly Ddosify) is an [open-source](https://github.com/getanteon/anteon), eBPF-based **Kubernetes Monitoring** and **Performance Testing** platform.
+  - '**Performance Insights:** It helps you spot issues like services taking too long to respond or slow SQL queries.'
 editorial_lock: false
 last_researched_at: '2026-09-23T21:37:50Z'
 research_version: 1

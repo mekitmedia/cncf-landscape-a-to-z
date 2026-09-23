@@ -14,14 +14,9 @@ related_tools:
 - APISIX
 sources:
 - id: src_readme
-  title: APIOAK Official Repository
+  title: APIOAK GitHub README
   url: https://github.com/apioak
   source_type: github_readme
   quotes:
-  - APIOAK is a distributed API gateway based on OpenResty. It provides full lifecycle management of APIs including dynamic routing, load balancing, authentication, rate limiting, and analytics.
-- id: src_homepage
-  title: APIOAK Official Documentation
-  url: https://github.com/apioak
-  source_type: official_docs
-  quotes:
-  - APIOAK is a distributed API gateway based on OpenResty. It provides full lifecycle management of APIs including dynamic routing, load balancing, authentication, rate limiting, and analytics.
+  - '[简体中文](README_CN.md) | [English](README.md)'
+  - '![APIOAK](doc/images/APIOAK-process.png)'

@@ -21,24 +21,10 @@ related_tools:
 - PostgreSQL
 - Neo4j
 sources:
-- label: Official Website
-  url: https://age.apache.org/
-  id: src_official_website
-  title: Official Website
-  quotes:
-  - Apache AGE is a PostgreSQL Graph database extension that leverages graph data structures to analyze and use relationships and patterns in data. It adds graph data processing and analytics capability to relational databases.
-  source_type: official_docs
-- label: GitHub Repository
+- id: src_readme
+  title: Apache AGE GitHub README
   url: https://github.com/apache/age
-  id: src_github_repository
-  title: GitHub Repository
+  source_type: github_readme
   quotes:
-  - Apache AGE is a PostgreSQL Graph database extension that leverages graph data structures to analyze and use relationships and patterns in data. It adds graph data processing and analytics capability to relational databases.
-  source_type: official_docs
-- label: ASF Project Spotlight
-  url: https://news.apache.org/foundation/entry/asf-project-spotlight-apache-age
-  id: src_asf_project_spotlight
-  title: ASF Project Spotlight
-  quotes:
-  - Apache AGE is a PostgreSQL Graph database extension that leverages graph data structures to analyze and use relationships and patterns in data. It adds graph data processing and analytics capability to relational databases.
-  source_type: official_docs
+  - is a leading multi-model graph database </h3>
+  - '**Powerful**: adds graph database support to the already popular PostgreSQL database: PostgreSQL is used by organizations including Apple, Spotify, and NASA.'

@@ -28,17 +28,12 @@ related_tools:
 - SST
 sources:
 - id: src_readme
-  title: Architect Official Repository
+  title: Architect GitHub README
   url: https://github.com/architect/functions
   source_type: github_readme
   quotes:
-  - Architect is the simplest, most powerful way to build serverless apps on AWS.
-- id: src_homepage
-  title: Architect Official Site
-  url: https://arc.codes/docs/en/get-started/quickstart
-  source_type: official_docs
-  quotes:
-  - A simple, declarative open-source framework for building serverless applications on AWS with fast local development and plain text architecture manifests.
+  - '**Platforms:** Linux, macOS, Windows'
+  - '**Architect runtime:** Node.js 18+'
 editorial_lock: false
 last_researched_at: '2026-09-23T21:37:50Z'
 research_version: 1

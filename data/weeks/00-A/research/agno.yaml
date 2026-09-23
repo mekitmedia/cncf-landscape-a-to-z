@@ -16,14 +16,9 @@ related_tools:
 - Autogen
 sources:
 - id: src_readme
-  title: Agno Official Repository
+  title: Agno GitHub README
   url: https://github.com/agno
   source_type: github_readme
   quotes:
-  - Agno is a framework and runtime for agent platforms, allowing you to build, run, and manage agentic software at scale while maintaining control of your data, memory, and security posture.
-- id: src_homepage
-  title: Agno Official Documentation
-  url: https://github.com/agno
-  source_type: official_docs
-  quotes:
-  - Agno is a framework and runtime for agent platforms, allowing you to build, run, and manage agentic software at scale while maintaining control of your data, memory, and security posture.
+  - Build, run, and manage agent platforms.<br/>
+  - Agno is a framework and runtime for agent platforms. Build agents, run them as a service, manage your platform using a web UI.

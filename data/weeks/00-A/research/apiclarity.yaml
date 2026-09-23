@@ -19,14 +19,9 @@ related_tools:
 - Aserto
 sources:
 - id: src_readme
-  title: APIClarity Official Repository
+  title: APIClarity GitHub README
   url: https://github.com/apiclarity
   source_type: github_readme
   quotes:
-  - APIClarity is a cloud API observability open-source project that discovers and monitors API traffic, reporting suspected security weaknesses or possible abuses. It operates by capturing all API traffic or actively testing endpoints, and can automatically reconstruct OpenAPI specifications when none are available.
-- id: src_homepage
-  title: APIClarity Official Documentation
-  url: https://github.com/apiclarity
-  source_type: official_docs
-  quotes:
-  - APIClarity is a cloud API observability open-source project that discovers and monitors API traffic, reporting suspected security weaknesses or possible abuses. It operates by capturing all API traffic or actively testing endpoints, and can automatically reconstruct OpenAPI specifications when none are available.
+  - '![APIClarity](API_clarity.svg "APIClarity")'
+  - APIClarity is a modular tool that addresses several aspects of API Security, focusing specifically on [OpenAPI](https://spec.openapis.org/oas/latest.html) based APIs.

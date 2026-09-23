@@ -16,14 +16,9 @@ related_tools:
 - KubeEdge
 sources:
 - id: src_readme
-  title: Akri Official Repository
+  title: Akri GitHub README
   url: https://github.com/akri
   source_type: github_readme
   quotes:
-  - Akri (A Kubernetes Resource Interface for the Edge) is a Cloud Native Computing Foundation (CNCF) Sandbox project that easily exposes heterogeneous leaf devices—such as IP cameras, USB sensors, and OPC UA equipment—as resources in a Kubernetes cluster.
-- id: src_homepage
-  title: Akri Official Documentation
-  url: https://github.com/akri
-  source_type: official_docs
-  quotes:
-  - Akri (A Kubernetes Resource Interface for the Edge) is a Cloud Native Computing Foundation (CNCF) Sandbox project that easily exposes heterogeneous leaf devices—such as IP cameras, USB sensors, and OPC UA equipment—as resources in a Kubernetes cluster.
+  - Akri is a [Cloud Native Computing Foundation (CNCF) Sandbox project](https://www.cncf.io/sandbox-projects/).
+  - Akri lets you easily expose heterogeneous leaf devices (such as IP cameras and USB devices) as resources in a Kubernetes cluster, while also supporting the exposure of embedded hardware resources such as GPUs and FPGAs.

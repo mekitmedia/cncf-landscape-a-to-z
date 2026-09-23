@@ -42,23 +42,12 @@ related_tools:
 - Mixtral
 - DeepSpeed
 sources:
-- title: Axolotl GitHub Repository
+- id: src_readme
+  title: Axolotl GitHub README
   url: https://github.com/axolotl-ai-cloud/axolotl
-  id: src_axolotl_github_repository
+  source_type: github_readme
   quotes:
-  - Axolotl is a free and open-source tool designed to streamline post-training and fine-tuning for the latest large language models (LLMs).
-  source_type: official_docs
-- title: Axolotl Documentation
-  url: https://docs.axolotl.ai
-  id: src_axolotl_documentation
-  quotes:
-  - Axolotl is a free and open-source tool designed to streamline post-training and fine-tuning for the latest large language models (LLMs).
-  source_type: official_docs
-- title: Axolotl Release v0.19.0
-  url: https://github.com/axolotl-ai-cloud/axolotl/releases/tag/v0.19.0
-  id: src_axolotl_release_v0_19_0
-  quotes:
-  - Axolotl is a free and open-source tool designed to streamline post-training and fine-tuning for the latest large language models (LLMs).
-  source_type: official_docs
+  - '[NVFP4 (4-bit) MoE LoRA training](https://docs.axolotl.ai/docs/nvfp4_lora.html) is now supported via ScatterMoE (W4A16) and SonicMoE (W4A4), including adapter merge back into a plain NVFP4 checkpoint.'
+  - New model support has been added in Axolotl for [Mistral Medium 3.5](https://docs.axolotl.ai/docs/models/mistral-medium-3_5.html) and [Gemma 4](https://docs.axolotl.ai/docs/models/gemma4.html).
 last_researched_at: '2026-09-20T19:00:00Z'
 research_version: 1

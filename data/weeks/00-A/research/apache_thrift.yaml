@@ -28,17 +28,12 @@ related_tools:
 - Cap'n Proto
 sources:
 - id: src_readme
-  title: Apache Thrift Official Repository
+  title: Apache Thrift GitHub README
   url: https://github.com/apache/thrift
   source_type: github_readme
   quotes:
-  - The Apache Thrift software framework, for scalable cross-language services development.
-- id: src_homepage
-  title: Apache Thrift Official Site
-  url: https://thrift.apache.org/
-  source_type: official_docs
-  quotes:
-  - A lightweight, cross-language remote procedure call (RPC) framework with a powerful code generation engine for building scalable distributed services.
+  - Thrift is a lightweight, language-independent software stack for
+  - point-to-point RPC implementation.
 editorial_lock: false
 last_researched_at: '2026-09-23T21:37:50Z'
 research_version: 1

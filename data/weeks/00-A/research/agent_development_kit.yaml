@@ -20,17 +20,10 @@ related_tools:
 - Agno
 - LangChain
 sources:
-- label: Agent Development Kit GitHub
+- id: src_readme
+  title: Agent Development Kit GitHub README
   url: https://github.com/google/adk-python
-  id: src_agent_development_kit_github
-  title: Agent Development Kit GitHub
+  source_type: github_readme
   quotes:
-  - A toolkit for building, running, and managing agentic software at scale.
-  source_type: official_docs
-- label: Latest Release Notes
-  url: https://github.com/google/adk-python/releases/tag/v2.9.0
-  id: src_latest_release_notes
-  title: Latest Release Notes
-  quotes:
-  - A toolkit for building, running, and managing agentic software at scale.
-  source_type: official_docs
+  - Agent Development Kit (ADK) 2.0
+  - An open-source, code-first Python framework for building, evaluating, and deploying sophisticated AI agents with flexibility and control.

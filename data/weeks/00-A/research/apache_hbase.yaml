@@ -28,17 +28,12 @@ related_tools:
 - Apache Phoenix
 sources:
 - id: src_readme
-  title: Apache HBase Official Repository
+  title: Apache HBase GitHub README
   url: https://github.com/apache/hbase
   source_type: github_readme
   quotes:
-  - Apache HBase is an open-source, distributed, versioned, non-relational database modeled after Google's Bigtable.
-- id: src_homepage
-  title: Apache HBase Official Site
-  url: https://hbase.apache.org/
-  source_type: official_docs
-  quotes:
-  - An open-source, distributed, versioned, column-oriented store modeled after Google's Bigtable, providing random real-time read/write access to big data on HDFS.
+  - distributed with this work for additional information
+  - Unless required by applicable law or agreed to in writing,
 editorial_lock: false
 last_researched_at: '2026-09-23T21:37:50Z'
 research_version: 1

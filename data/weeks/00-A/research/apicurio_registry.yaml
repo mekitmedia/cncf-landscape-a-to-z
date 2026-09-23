@@ -28,17 +28,12 @@ related_tools:
 - SchemaHero
 sources:
 - id: src_readme
-  title: Apicurio Registry Official Repository
+  title: Apicurio Registry GitHub README
   url: https://github.com/Apicurio/apicurio-registry
   source_type: github_readme
   quotes:
-  - Apicurio Registry is a datastore for sharing standard event schemas and API designs across API and event-driven architectures.
-- id: src_homepage
-  title: Apicurio Registry Official Site
-  url: https://www.apicur.io
-  source_type: official_docs
-  quotes:
-  - A CNCF sandbox schema and API registry providing centralized management, storage, and evolution tracking for schemas and API contracts.
+  - '![Apicurio Registry](branding/logos/svg/apicurio_registry_logo_default.svg)'
+  - An API/Schema registry - stores and retrieves APIs and Schemas.
 editorial_lock: false
 last_researched_at: '2026-09-23T21:37:50Z'
 research_version: 1

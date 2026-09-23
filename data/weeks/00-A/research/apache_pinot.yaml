@@ -28,17 +28,12 @@ related_tools:
 - Apache Kafka
 sources:
 - id: src_readme
-  title: Apache Pinot Official Repository
+  title: Apache Pinot GitHub README
   url: https://github.com/apache/pinot
   source_type: github_readme
   quotes:
-  - Apache Pinot is a realtime distributed OLAP datastore, designed to provide ultra-low latency analytics at extremely high throughput.
-- id: src_homepage
-  title: Apache Pinot Official Site
-  url: https://pinot.apache.org/
-  source_type: official_docs
-  quotes:
-  - A real-time distributed OLAP datastore designed to execute low-latency analytical queries over streaming and historical data at massive scale.
+  - distributed with this work for additional information
+  - Unless required by applicable law or agreed to in writing,
 editorial_lock: false
 last_researched_at: '2026-09-23T21:37:50Z'
 research_version: 1

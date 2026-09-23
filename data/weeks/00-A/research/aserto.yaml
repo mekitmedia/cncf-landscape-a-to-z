@@ -17,14 +17,9 @@ related_tools:
 - Google Zanzibar
 sources:
 - id: src_readme
-  title: Aserto Official Repository
+  title: Aserto GitHub README
   url: https://github.com/aserto
   source_type: github_readme
   quotes:
-  - Aserto provides fine-grained, policy-based, real-time authorization for APIs and microservices. It is the maintainer of the Topaz open-source authorizer.
-- id: src_homepage
-  title: Aserto Official Documentation
-  url: https://github.com/aserto
-  source_type: official_docs
-  quotes:
-  - Aserto provides fine-grained, policy-based, real-time authorization for APIs and microservices. It is the maintainer of the Topaz open-source authorizer.
+  - Topaz - cloud-native authorization for modern applications and APIs
+  - Topaz is an open-source authorization service providing fine-grained, real-time, policy-based access control for applications and APIs.

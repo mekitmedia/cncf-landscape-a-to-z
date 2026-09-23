@@ -28,17 +28,12 @@ related_tools:
 - Apache ORC
 sources:
 - id: src_readme
-  title: Apache CarbonData Official Repository
+  title: Apache CarbonData GitHub README
   url: https://github.com/apache/carbondata
   source_type: github_readme
   quotes:
-  - Apache CarbonData is an indexed columnar data format for fast analytics on big data platforms.
-- id: src_homepage
-  title: Apache CarbonData Official Site
-  url: https://carbondata.apache.org/
-  source_type: official_docs
-  quotes:
-  - An indexed columnar data format for fast analytics on big data platforms, optimized for multi-dimensional point lookups and aggregations.
+  - this work for additional information regarding copyright ownership.
+  - Unless required by applicable law or agreed to in writing, software
 editorial_lock: false
 last_researched_at: '2026-09-23T21:37:50Z'
 research_version: 1

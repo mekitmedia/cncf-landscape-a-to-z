@@ -28,17 +28,12 @@ related_tools:
 - Nacos
 sources:
 - id: src_readme
-  title: Apollo Official Repository
+  title: Apollo GitHub README
   url: https://github.com/apolloconfig/apollo
   source_type: github_readme
   quotes:
-  - Apollo is a reliable configuration management system suitable for microservice configuration management scenarios.
-- id: src_homepage
-  title: Apollo Official Site
-  url: https://www.apolloconfig.com/
-  source_type: official_docs
-  quotes:
-  - A reliable, distributed configuration management system developed by Ctrip that enables real-time configuration push, versioning, and environment isolation.
+  - English | [中文](https://www.apolloconfig.com/#/zh/README)
+  - Apollo - A reliable configuration management system
 editorial_lock: false
 last_researched_at: '2026-09-23T21:37:50Z'
 research_version: 1

@@ -28,17 +28,12 @@ related_tools:
 - Orleans
 sources:
 - id: src_readme
-  title: Akka Official Repository
+  title: Akka GitHub README
   url: https://github.com/akka/akka
   source_type: github_readme
   quotes:
-  - Akka is a toolkit and runtime for building highly concurrent, distributed, and resilient message-driven applications.
-- id: src_homepage
-  title: Akka Official Site
-  url: https://akka.io/
-  source_type: official_docs
-  quotes:
-  - A toolkit and runtime for building concurrent, distributed, resilient, and message-driven applications using the Actor model on the JVM.
+  - Akka is a powerful platform that simplifies building and operating highly responsive, resilient, and scalable services.
+  - the [**Akka SDK**](https://doc.akka.io/java/index.html) for straightforward, rapid development with AI assist and automatic clustering. Services built with the Akka SDK are automatically clustered and can be deployed on any infrastructure.
 editorial_lock: false
 last_researched_at: '2026-09-23T21:37:50Z'
 research_version: 1

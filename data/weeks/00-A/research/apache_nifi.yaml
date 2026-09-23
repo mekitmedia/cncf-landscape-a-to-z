@@ -33,12 +33,6 @@ sources:
   source_type: github_readme
   quotes:
   - An easy to use, powerful, and reliable system to process and distribute data.
-- id: src_homepage
-  title: Apache NiFi Official Site
-  url: https://nifi.apache.org/
-  source_type: official_docs
-  quotes:
-  - An easy-to-use, powerful, and reliable system to process, transform, and distribute data across distributed enterprise systems.
 editorial_lock: false
 last_researched_at: '2026-09-23T21:37:50Z'
 research_version: 1

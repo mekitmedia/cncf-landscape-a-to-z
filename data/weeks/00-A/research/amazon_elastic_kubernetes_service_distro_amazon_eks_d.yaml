@@ -28,17 +28,12 @@ related_tools:
 - Kubernetes
 sources:
 - id: src_readme
-  title: Amazon Elastic Kubernetes Service Distro (Amazon EKS-D) Official Repository
+  title: Amazon Elastic Kubernetes Service Distro (Amazon EKS-D) GitHub README
   url: https://github.com/aws/eks-distro
   source_type: github_readme
   quotes:
-  - Amazon EKS Distro (EKS-D) is a Kubernetes distribution based on and used by Amazon EKS to create reliable and secure clusters.
-- id: src_homepage
-  title: Amazon Elastic Kubernetes Service Distro (Amazon EKS-D) Official Site
-  url: https://aws.amazon.com/eks/eks-distro
-  source_type: official_docs
-  quotes:
-  - An open-source Kubernetes distribution based on the exact builds and security patches used by Amazon Web Services in Amazon EKS.
+  - Amazon **EKS Distro** (EKS-D) is a Kubernetes distribution based on and used by
+  - Amazon Elastic Kubernetes Service (EKS) to create reliable and secure Kubernetes
 editorial_lock: false
 last_researched_at: '2026-09-23T21:37:50Z'
 research_version: 1

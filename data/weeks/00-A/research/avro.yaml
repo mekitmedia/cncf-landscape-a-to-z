@@ -23,38 +23,10 @@ related_tools:
 - Apache Kafka
 - Apache Thrift
 sources:
-- label: Official Website
-  url: https://avro.apache.org/
-  id: src_official_website
-  title: Official Website
-  quotes:
-  - Apache Avro is a data serialization system that provides rich data structures, a compact, fast, binary data format, and simple integration with dynamic languages.
-  source_type: official_docs
-- label: GitHub Repository
+- id: src_readme
+  title: Apache Avro GitHub README
   url: https://github.com/apache/avro
-  id: src_github_repository
-  title: GitHub Repository
+  source_type: github_readme
   quotes:
-  - Apache Avro is a data serialization system that provides rich data structures, a compact, fast, binary data format, and simple integration with dynamic languages.
-  source_type: official_docs
-- label: Release Notes
-  url: https://github.com/apache/avro/releases/tag/release-1.12.2
-  id: src_release_notes
-  title: Release Notes
-  quotes:
-  - Apache Avro is a data serialization system that provides rich data structures, a compact, fast, binary data format, and simple integration with dynamic languages.
-  source_type: official_docs
-- label: 'Wikipedia: Apache Avro'
-  url: https://en.wikipedia.org/wiki/Apache_Avro
-  id: src_wikipedia__apache_avro
-  title: 'Wikipedia: Apache Avro'
-  quotes:
-  - Apache Avro is a data serialization system that provides rich data structures, a compact, fast, binary data format, and simple integration with dynamic languages.
-  source_type: official_docs
-- label: 'Confluent: What is Apache Avro?'
-  url: https://www.confluent.io/blog/avro-kafka-data/
-  id: src_confluent__what_is_apache_avro
-  title: 'Confluent: What is Apache Avro?'
-  quotes:
-  - Apache Avro is a data serialization system that provides rich data structures, a compact, fast, binary data format, and simple integration with dynamic languages.
-  source_type: official_docs
+  - '> The Rust SDK is moving to https://github.com/apache/avro-rs. Please use it for [new issues](https://github.com/apache/avro-rs/issues/new)'
+  - and [pull requests](https://github.com/apache/avro-rs/pulls)!

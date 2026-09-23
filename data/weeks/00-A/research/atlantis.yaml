@@ -14,14 +14,9 @@ related_tools:
 - Kubernetes
 sources:
 - id: src_readme
-  title: Atlantis Official Repository
+  title: Atlantis GitHub README
   url: https://github.com/atlantis
   source_type: github_readme
   quotes:
-  - Terraform Pull Request Automation for Teams.
-- id: src_homepage
-  title: Atlantis Official Documentation
-  url: https://github.com/atlantis
-  source_type: official_docs
-  quotes:
-  - Terraform Pull Request Automation for Teams.
+  - '[What is Atlantis?](#what-is-atlantis)'
+  - '[What does it do?](#what-does-it-do)'

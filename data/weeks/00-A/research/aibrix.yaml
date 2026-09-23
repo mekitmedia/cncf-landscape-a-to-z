@@ -17,14 +17,9 @@ related_tools:
 - vLLM
 sources:
 - id: src_readme
-  title: AIBrix Official Repository
+  title: AIBrix GitHub README
   url: https://github.com/aibrix
   source_type: github_readme
   quotes:
-  - AIBrix is an open-source, cost-efficient, scalable, and pluggable cloud-native infrastructure for GenAI applications, tailored specifically to enterprise needs for deploying, managing, and scaling large language model (LLM) inference.
-- id: src_homepage
-  title: AIBrix Official Documentation
-  url: https://github.com/aibrix
-  source_type: official_docs
-  quotes:
-  - AIBrix is an open-source, cost-efficient, scalable, and pluggable cloud-native infrastructure for GenAI applications, tailored specifically to enterprise needs for deploying, managing, and scaling large language model (LLM) inference.
+  - '**[2026-06-16]** AIBrix v0.7.0 is released. Check out the [release notes](https://github.com/vllm-project/aibrix/releases/tag/v0.7.0) and [Blog Post](https://aibrix.github.io/posts/2026-06-16-v0.7.0-release/) for more details.'
+  - '**[2026-03-05]** AIBrix v0.6.0 is released. Check out the [release notes](https://github.com/vllm-project/aibrix/releases/tag/v0.6.0) and [Blog Post](https://aibrix.github.io/posts/2026-03-03-v0.6.0-release/) for more details.'

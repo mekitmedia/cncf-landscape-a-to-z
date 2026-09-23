@@ -20,17 +20,10 @@ related_tools:
 - Kubernetes
 - Docker Swarm
 sources:
-- label: Azure Service Fabric Documentation
-  url: https://docs.microsoft.com/en-us/azure/service-fabric/
-  id: src_azure_service_fabric_documentation
-  title: Azure Service Fabric Documentation
-  quotes:
-  - A distributed systems platform that makes it easy to package, deploy, and manage scalable and reliable microservices and containers.
-  source_type: official_docs
-- label: GitHub Repository
+- id: src_readme
+  title: Azure Service Fabric GitHub README
   url: https://github.com/Microsoft/service-fabric
-  id: src_github_repository
-  title: GitHub Repository
+  source_type: github_readme
   quotes:
-  - A distributed systems platform that makes it easy to package, deploy, and manage scalable and reliable microservices and containers.
-  source_type: official_docs
+  - Architecture and Subsystem Explorer
+  - '[Learn about Service Fabric''s Core Subsystems](docs/architecture/README.md), mapped to this repo''s folder structure.'

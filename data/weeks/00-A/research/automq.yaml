@@ -27,45 +27,10 @@ related_tools:
 - WarpStream
 - Redpanda
 sources:
-- label: Official Documentation
-  url: https://docs.automq.com/
-  id: src_official_documentation
-  title: Official Documentation
-  quotes:
-  - AutoMQ is a cloud-native, diskless alternative to Apache Kafka® on S3 or any S3-compatible storage. It is designed to offer 10x cost savings, scale in seconds, and eliminate cross-AZ traffic costs while maintaining 100% Kafka compatibility.
-  source_type: official_docs
-- label: GitHub Repository
+- id: src_readme
+  title: AutoMQ GitHub README
   url: https://github.com/AutoMQ/automq
-  id: src_github_repository
-  title: GitHub Repository
+  source_type: github_readme
   quotes:
-  - AutoMQ is a cloud-native, diskless alternative to Apache Kafka® on S3 or any S3-compatible storage. It is designed to offer 10x cost savings, scale in seconds, and eliminate cross-AZ traffic costs while maintaining 100% Kafka compatibility.
-  source_type: official_docs
-- label: Kafka Alternatives for Teams That Are Tired of Broker Cost, Rebalancing, and Scaling Pain
-  url: https://www.automq.com/blog/kafka-alternatives-for-teams-tired-of-broker-cost-rebalancing-and-scaling-pain
-  id: src_kafka_alternatives_for_teams_that_are_tired_of_broker_cost__rebalancing__and_scaling_pain
-  title: Kafka Alternatives for Teams That Are Tired of Broker Cost, Rebalancing, and Scaling Pain
-  quotes:
-  - AutoMQ is a cloud-native, diskless alternative to Apache Kafka® on S3 or any S3-compatible storage. It is designed to offer 10x cost savings, scale in seconds, and eliminate cross-AZ traffic costs while maintaining 100% Kafka compatibility.
-  source_type: official_docs
-- label: Performance Benchmark
-  url: https://docs.automq.com/automq-cloud/appendix/performance-benchmark
-  id: src_performance_benchmark
-  title: Performance Benchmark
-  quotes:
-  - AutoMQ is a cloud-native, diskless alternative to Apache Kafka® on S3 or any S3-compatible storage. It is designed to offer 10x cost savings, scale in seconds, and eliminate cross-AZ traffic costs while maintaining 100% Kafka compatibility.
-  source_type: official_docs
-- label: Why AutoMQ is Your Best Kafka Alternative
-  url: https://www.automq.com/blog/why-automq-is-your-best-kafka-alternative
-  id: src_why_automq_is_your_best_kafka_alternative
-  title: Why AutoMQ is Your Best Kafka Alternative
-  quotes:
-  - AutoMQ is a cloud-native, diskless alternative to Apache Kafka® on S3 or any S3-compatible storage. It is designed to offer 10x cost savings, scale in seconds, and eliminate cross-AZ traffic costs while maintaining 100% Kafka compatibility.
-  source_type: official_docs
-- label: AutoMQ Alternatives and Competitive Discussion
-  url: https://www.saashub.com/automq-alternatives
-  id: src_automq_alternatives_and_competitive_discussion
-  title: AutoMQ Alternatives and Competitive Discussion
-  quotes:
-  - AutoMQ is a cloud-native, diskless alternative to Apache Kafka® on S3 or any S3-compatible storage. It is designed to offer 10x cost savings, scale in seconds, and eliminate cross-AZ traffic costs while maintaining 100% Kafka compatibility.
-  source_type: official_docs
+  - Diskless Kafka® on S3, Offering 10x Cost Savings and Scaling in Seconds.
+  - href="https://www.automq.com/docs/automq/what-is-automq/overview?utm_source=github_automq"

@@ -28,17 +28,12 @@ related_tools:
 - Trino
 sources:
 - id: src_readme
-  title: Apache Spark Official Repository
+  title: Apache Spark GitHub README
   url: https://github.com/apache/spark
   source_type: github_readme
   quotes:
-  - Apache Spark is a unified analytics engine for large-scale data processing.
-- id: src_homepage
-  title: Apache Spark Official Site
-  url: https://spark.apache.org/
-  source_type: official_docs
-  quotes:
-  - A unified multi-language engine for executing large-scale data engineering, data science, and machine learning on single-node machines or clusters.
+  - Spark is a unified analytics engine for large-scale data processing. It provides
+  - high-level APIs in Scala, Java, Python, and R (Deprecated), and an optimized engine that
 editorial_lock: false
 last_researched_at: '2026-09-23T21:37:50Z'
 research_version: 1

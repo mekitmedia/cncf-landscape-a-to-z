@@ -15,14 +15,9 @@ related_tools:
 - wasm-opt
 sources:
 - id: src_readme
-  title: Asyncify Official Repository
+  title: Asyncify GitHub README
   url: https://github.com/asyncify
   source_type: github_readme
   quotes:
-  - A JavaScript wrapper intended to be used with the Asyncify feature of Binaryen. Together, they allow the use of asynchronous APIs (such as most Web APIs) from within WebAssembly written and compiled from any source language.
-- id: src_homepage
-  title: Asyncify Official Documentation
-  url: https://github.com/asyncify
-  source_type: official_docs
-  quotes:
-  - A JavaScript wrapper intended to be used with the Asyncify feature of Binaryen. Together, they allow the use of asynchronous APIs (such as most Web APIs) from within WebAssembly written and compiled from any source language.
+  - This is a JavaScript wrapper intended to be used with Asyncify feature of Binaryen.
+  - Together, they allow to use asynchronous APIs (such as most Web APIs) from within WebAssembly written and compiled from any source language.

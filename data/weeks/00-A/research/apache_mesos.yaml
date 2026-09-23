@@ -28,17 +28,12 @@ related_tools:
 - Apache Hadoop YARN
 sources:
 - id: src_readme
-  title: Apache Mesos Official Repository
+  title: Apache Mesos GitHub README
   url: https://github.com/apache/mesos
   source_type: github_readme
   quotes:
-  - Apache Mesos abstracts CPU, memory, storage, and other compute resources away from machines.
-- id: src_homepage
-  title: Apache Mesos Official Site
-  url: https://mesos.apache.org/
-  source_type: official_docs
-  quotes:
-  - A distributed systems kernel that abstracts compute resources across clusters to enable efficient resource sharing among diverse frameworks.
+  - Apache Mesos is a cluster manager that provides efficient resource isolation
+  - and sharing across distributed applications, or frameworks. It can run Hadoop,
 editorial_lock: false
 last_researched_at: '2026-09-23T21:37:50Z'
 research_version: 1

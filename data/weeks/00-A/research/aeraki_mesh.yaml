@@ -16,14 +16,9 @@ related_tools:
 - Linkerd
 sources:
 - id: src_readme
-  title: Aeraki Mesh Official Repository
+  title: Aeraki Mesh GitHub README
   url: https://github.com/aeraki_mesh
   source_type: github_readme
   quotes:
-  - A CNCF sandbox project providing a non-intrusive, extendable way to manage any layer-7 traffic in a service mesh, extending beyond HTTP/gRPC.
-- id: src_homepage
-  title: Aeraki Mesh Official Documentation
-  url: https://github.com/aeraki_mesh
-  source_type: official_docs
-  quotes:
-  - A CNCF sandbox project providing a non-intrusive, extendable way to manage any layer-7 traffic in a service mesh, extending beyond HTTP/gRPC.
+  - Unless required by applicable law or agreed to in writing, software
+  - WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.

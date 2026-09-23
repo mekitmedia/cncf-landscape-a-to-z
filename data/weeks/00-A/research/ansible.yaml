@@ -33,12 +33,6 @@ sources:
   source_type: github_readme
   quotes:
   - Ansible is a radically simple IT automation system.
-- id: src_homepage
-  title: Ansible Official Site
-  url: https://www.ansible.com/
-  source_type: official_docs
-  quotes:
-  - An agentless open-source automation engine for configuration management, cloud provisioning, application deployment, and infrastructure orchestration.
 editorial_lock: false
 last_researched_at: '2026-09-23T21:37:50Z'
 research_version: 1

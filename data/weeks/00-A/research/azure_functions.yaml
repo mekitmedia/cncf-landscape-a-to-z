@@ -20,17 +20,10 @@ related_tools:
 - AWS Lambda
 - Google Cloud Functions
 sources:
-- label: Azure Functions Homepage
-  url: https://azure.microsoft.com/en-us/services/functions/
-  id: src_azure_functions_homepage
-  title: Azure Functions Homepage
+- id: src_readme
+  title: Azure Functions GitHub README
+  url: https://github.com/Azure/azure-functions-host
+  source_type: github_readme
   quotes:
-  - An event-driven serverless compute platform that helps developers develop more efficiently.
-  source_type: official_docs
-- label: GitHub Releases
-  url: https://github.com/Azure/azure-functions-host/releases/tag/v4.1054.200
-  id: src_github_releases
-  title: GitHub Releases
-  quotes:
-  - An event-driven serverless compute platform that helps developers develop more efficiently.
-  source_type: official_docs
+  - '![Azure Functions Logo](https://raw.githubusercontent.com/Azure/azure-functions-cli/main/eng/tools/publish-tools/npm/assets/azure-functions-logo-color-raster.png)'
+  - See the [getting help](https://github.com/Azure/azure-webjobs-sdk-script/wiki#getting-help) section in the wiki.

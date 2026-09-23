@@ -14,14 +14,9 @@ related_tools:
 - Docker
 sources:
 - id: src_readme
-  title: Agones Official Repository
+  title: Agones GitHub README
   url: https://github.com/agones
   source_type: github_readme
   quotes:
-  - Agones is a library for hosting, running and scaling dedicated game servers on Kubernetes.
-- id: src_homepage
-  title: Agones Official Documentation
-  url: https://github.com/agones
-  source_type: official_docs
-  quotes:
-  - Agones is a library for hosting, running and scaling dedicated game servers on Kubernetes.
+  - Agones is a library for hosting, running and scaling [dedicated game servers](https://en.wikipedia.org/wiki/Game_server#Dedicated_server) on [Kubernetes](https://kubernetes.io).
+  - _Agones, is derived from the Greek word agōn which roughly translates to “contest”, “competition at games” and “gathering”.

@@ -28,17 +28,12 @@ related_tools:
 - Apache Samza
 sources:
 - id: src_readme
-  title: Apache Storm Official Repository
+  title: Apache Storm GitHub README
   url: https://github.com/apache/storm
   source_type: github_readme
   quotes:
-  - Apache Storm is a free and open source distributed realtime computation system.
-- id: src_homepage
-  title: Apache Storm Official Site
-  url: https://storm.apache.org/
-  source_type: official_docs
-  quotes:
-  - A distributed, real-time computation system for processing unbounded streams of data reliably with high speed and low latency.
+  - The [Rationale page](https://storm.apache.org/documentation/Rationale.html) explains what Storm is and why it was built. [This presentation](https://vimeo.com/40972420) is also a good introduction to the project.
+  - Storm has a website at [storm.apache.org](https://storm.apache.org).
 editorial_lock: false
 last_researched_at: '2026-09-23T21:37:50Z'
 research_version: 1

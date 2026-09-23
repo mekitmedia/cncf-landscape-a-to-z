@@ -15,14 +15,9 @@ related_tools:
 - Envoy
 sources:
 - id: src_readme
-  title: APISIX Official Repository
+  title: APISIX GitHub README
   url: https://github.com/apisix
   source_type: github_readme
   quotes:
-  - Apache APISIX is a dynamic, real-time, high-performance API Gateway. It provides rich traffic management features such as load balancing, dynamic upstream, canary release, circuit breaking, authentication, observability, and more.
-- id: src_homepage
-  title: APISIX Official Documentation
-  url: https://github.com/apisix
-  source_type: official_docs
-  quotes:
-  - Apache APISIX is a dynamic, real-time, high-performance API Gateway. It provides rich traffic management features such as load balancing, dynamic upstream, canary release, circuit breaking, authentication, observability, and more.
+  - this work for additional information regarding copyright ownership.
+  - Unless required by applicable law or agreed to in writing, software
