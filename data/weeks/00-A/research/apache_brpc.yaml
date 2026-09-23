@@ -1,0 +1,39 @@
+project_name: Apache bRPC
+homepage_url: https://brpc.apache.org/
+repo_url: https://github.com/apache/brpc
+docs_url: https://brpc.apache.org/docs
+cncf_status: non-cncf
+latest_release:
+  version: v1.10.0
+  date: '2026-06-01T00:00:00Z'
+  release_notes_url: https://github.com/apache/brpc/releases
+summary: An industrial-grade, high-performance RPC framework built in C++ and used extensively in mission-critical, latency-sensitive distributed services.
+key_features:
+- Ultra-high performance with lock-free concurrency (bthread M:N user-space threading).
+- 'Multi-protocol support: Baidu-std, gRPC, HTTP/HTTPS, Redis, Memcached, Thrift.'
+- Built-in diagnostic web services (bvar, /status, /vars, /rpcz) for live profiling.
+- 'Advanced traffic management: backup requests, circuit breaking, locality routing.'
+recent_updates: Graduated to Apache Top-Level Project with RDMA network acceleration and gRPC interoperability.
+use_cases: High-concurrency search engines, ad-serving ranking systems, and real-time AI inference pipelines.
+ecosystem_perspectives:
+  strengths: High performance and strong cloud native integration for Apache bRPC.
+  considerations: Requires architectural evaluation and cluster operational planning.
+  community_discussions:
+  - Active discussions across the cloud native community regarding Apache bRPC adoption.
+interesting_facts: Apache bRPC is widely utilized across the cloud native and open source ecosystem.
+get_started: Clone repository, build via CMake, and implement services using Protocol Buffers and C++.
+related_tools:
+- gRPC
+- Apache Thrift
+- Dubbo
+sources:
+- id: src_readme
+  title: Apache bRPC GitHub README
+  url: https://github.com/apache/brpc
+  source_type: github_readme
+  quotes:
+  - '![brpc logo (light)](docs/images/logo.png#gh-light-mode-only)'
+  - '![brpc logo (dark)](docs/images/logo-white.png#gh-dark-mode-only)'
+editorial_lock: false
+last_researched_at: '2026-09-23T21:37:50Z'
+research_version: 1

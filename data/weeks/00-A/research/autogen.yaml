@@ -1,32 +1,31 @@
-project_name: "Autogen"
-homepage_url: "https://microsoft.github.io/autogen/"
-repo_url: "https://github.com/microsoft/autogen"
-cncf_status: "non-cncf"
-summary: "A programming framework for building agentic AI, developed by Microsoft. It enables the creation of applications using multiple agents that can converse with each other to solve tasks."
+project_name: Autogen
+homepage_url: https://microsoft.github.io/autogen/
+repo_url: https://github.com/microsoft/autogen
+cncf_status: non-cncf
+summary: A programming framework for building agentic AI, developed by Microsoft. It enables the creation of applications using multiple agents that can converse with each other to solve tasks.
 key_features:
-  - "Multi-agent conversations"
-  - "Customizable and conversable agents"
-  - "Code execution capability"
-  - "Seamless integration with human participation"
+- Multi-agent conversations
+- Customizable and conversable agents
+- Code execution capability
+- Seamless integration with human participation
 latest_release:
-  version: "python-v0.7.5"
-  date: "2025-09-30"
-  url: "https://github.com/microsoft/autogen/releases/tag/python-v0.7.5"
-recent_updates: "Release python-v0.7.5 includes bug fixes for loading streaming Bedrock responses, linear memory support in RedisMemory, and thinking mode support for the Anthropic client."
-use_cases: "Building next-generation large language model applications, automating complex workflows, and facilitating code execution by LLMs."
-interesting_facts: "AutoGen is often compared to CAMEL and BabyAGI, with users on Hacker News noting its distinct execution capability as a standout feature. It has over 60k stars on GitHub."
-get_started: "Install via pip (`pip install autogenstudio` or `pip install pyautogen`) and refer to the official documentation for examples on defining agents and orchestrating conversations."
-docs_url: "https://microsoft.github.io/autogen/"
+  version: python-v0.7.5
+  date: '2025-09-30'
+  url: https://github.com/microsoft/autogen/releases/tag/python-v0.7.5
+recent_updates: Release python-v0.7.5 includes bug fixes for loading streaming Bedrock responses, linear memory support in RedisMemory, and thinking mode support for the Anthropic client.
+use_cases: Building next-generation large language model applications, automating complex workflows, and facilitating code execution by LLMs.
+interesting_facts: AutoGen is often compared to CAMEL and BabyAGI, with users on Hacker News noting its distinct execution capability as a standout feature. It has over 60k stars on GitHub.
+get_started: Install via pip (`pip install autogenstudio` or `pip install pyautogen`) and refer to the official documentation for examples on defining agents and orchestrating conversations.
+docs_url: https://microsoft.github.io/autogen/
 related_tools:
-  - "CAMEL"
-  - "BabyAGI"
-  - "LangChain"
+- CAMEL
+- BabyAGI
+- LangChain
 sources:
-  - label: "Official GitHub Repository"
-    url: "https://github.com/microsoft/autogen"
-  - label: "Official Documentation"
-    url: "https://microsoft.github.io/autogen/"
-  - label: "Latest Release Notes"
-    url: "https://api.github.com/repos/microsoft/autogen/releases/latest"
-  - label: "Hacker News Discussion on Microsoft's AutoGen"
-    url: "https://news.ycombinator.com/item?id=37822809"
+- id: src_readme
+  title: Autogen GitHub README
+  url: https://github.com/microsoft/autogen
+  source_type: github_readme
+  quotes:
+  - AutoGen** is a framework for creating multi-agent AI applications that can act autonomously or work alongside humans.
+  - '> AutoGen is now in maintenance mode. It will not receive new features or enhancements and is community managed going forward.'
