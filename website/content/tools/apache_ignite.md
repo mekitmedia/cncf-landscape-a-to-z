@@ -1,0 +1,14 @@
+---
+cncf_status: non-cncf
+date: '2026-09-20T21:46:43.914580'
+homepage_url: https://ignite.apache.org
+layout: single
+letter: A
+project_name: Apache Ignite
+repo_url: https://github.com/apache/ignite
+status: in_progress
+summary: Research for this project is currently in progress.
+title: Apache Ignite
+---
+
+This is an auto-generated tool page. For more details, see the [letter page](/letters/a/).

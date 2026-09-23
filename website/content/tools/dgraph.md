@@ -1,0 +1,14 @@
+---
+cncf_status: non-cncf
+date: '2026-09-20T21:46:44.976092'
+homepage_url: https://dgraph.io/
+layout: single
+letter: D
+project_name: Dgraph
+repo_url: https://github.com/dgraph-io/dgraph
+status: in_progress
+summary: Research for this project is currently in progress.
+title: Dgraph
+---
+
+This is an auto-generated tool page. For more details, see the [letter page](/letters/d/).

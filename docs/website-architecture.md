@@ -68,10 +68,10 @@ The website implements a progressive disclosure model with three levels of conte
                  │
                  ▼
     ┌────────────────────────────┐
-    │ data/week_XX_Y/            │
+    │ data/weeks/<WEEK_ID>/      │
     ├────────────────────────────┤
-    │ ├─ category_*.yaml         │ ← Projects with metadata
-    │ ├─ tasks.yaml              │
+    │ ├─ categories/*.yaml       │ ← Projects with metadata
+    │ ├─ tracker.yaml            │ ← State machine & task graph
     │ └─ README.md               │
     └────────────────┬───────────┘
                      │
@@ -80,54 +80,37 @@ The website implements a progressive disclosure model with three levels of conte
         ▼                         ▼
 ┌──────────────────┐    ┌───────────────────────┐
 │ Hugo Build       │    │ Agentic Workflow      │
-│ (reads data/)    │    │ (src/agentic/)        │
-│                  │    ├───────────────────────┤
-│ .Site.Data reads │    │ 1. Research Agent     │
-│ week_XX_Y YAML   │    │ 2. Writer Agent       │
-│ renders templates│    │ 3. Editor Agent       │
-└────────┬─────────┘    │                       │
-         │              │ ▼ (saves research)    │
-         │              │                       │
-         │              └──┬────────────────────┘
-         │                 │
-         │                 ▼
-         │    ┌─────────────────────────────┐
-         │    │ data/week_XX_Y/research/    │
-         │    ├─────────────────────────────┤
-         │    │ ├─ {sanitized_name}.yaml    │ ← Research data
-         │    │ ├─ {sanitized_name}.yaml    │
-         │    │ └─ ...                      │
-         │    └──────────┬──────────────────┘
-         │               │
-         │               ▼
-         │    ┌─────────────────────────────┐
-         │    │ generate_tool_pages.py      │
-         │    │ (scripts/)                  │
-         │    │                             │
-         │    │ Converts research YAML      │
-         │    │ → Hugo tool pages           │
-         │    └──────────┬──────────────────┘
-         │               │
-         │               ▼
-         │    ┌──────────────────────────────┐
-         │    │ website/content/tools/       │
-         │    ├──────────────────────────────┤
-         │    │ ├─ {sanitized_name}.md       │
-         │    │ ├─ {sanitized_name}.md       │
-         │    │ └─ ...                       │
-         │    └──────────┬───────────────────┘
-         │               │
-         └───────────────┴──────────┐
-                                    │
-                                    ▼
-                        ┌─────────────────────────┐
-                        │ Hugo Rendered Site      │
-                        ├─────────────────────────┤
-                        │ ├─ index.html (Level 1) │
-                        │ ├─ /letters/ (Level 2)  │
-                        │ ├─ /tools/ (Level 3)    │
-                        │ └─ posts/ (Blog)        │
-                        └─────────────────────────┘
+│ (reads data/)    │    │ (src/agentic/ or      │
+│                  │    │  portable skill)      │
+│ .Site.Data reads │    ├───────────────────────┤
+│ weeks/<WEEK_ID>  │    │ 1. Research (Notes)   │
+│ renders templates│    │ 2. Tool Page Gen      │
+└────────┬─────────┘    │ 3. Weekly Blog Writer │
+         │              └───────────┬───────────┘
+         │                          │
+         │                          ▼
+         │              ┌─────────────────────────────┐
+         │              │ data/weeks/<WEEK_ID>/       │
+         │              │   research/{name}.yaml      │ ← Note-Taking with Quotes
+         │              └───────────┬─────────────────┘
+         │                          │
+         │                          ▼
+         │              ┌─────────────────────────────┐
+         │              │ website/content/tools/      │ ← TARGET 1: Tool Pages
+         │              │ website/content/posts/      │ ← TARGET 2: Blog Posts
+         │              └───────────┬─────────────────┘
+         │                          │
+         └──────────────┬───────────┘
+                        │
+                        ▼
+            ┌─────────────────────────┐
+            │ Hugo Rendered Site      │
+            ├─────────────────────────┤
+            │ ├─ index.html (Level 1) │
+            │ ├─ /letters/ (Level 2)  │
+            │ ├─ /tools/ (Level 3)    │
+            │ └─ posts/ (Blog)        │
+            └─────────────────────────┘
 ```
 
 ## Components

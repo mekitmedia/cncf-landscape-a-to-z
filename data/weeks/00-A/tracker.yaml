@@ -116,10 +116,10 @@ items:
   AWS Server Application Model (SAM):
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-01T23:20:00.000000+00:00'
+        completed_at: '2026-09-01T23:20:00.000000+00:00'
+        output_file: data/weeks/00-A/research/aws_server_application_model_sam.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -154,10 +154,10 @@ items:
   Agola:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: 2026-09-21T02:02:20.471122+00:00
+        completed_at: 2026-09-21T02:02:20.471122+00:00
+        output_file: research/agola.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -173,10 +173,10 @@ items:
   Airship:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: 2026-09-22T02:06:48.977000+00:00
+        completed_at: 2026-09-22T02:06:48.977000+00:00
+        output_file: data/weeks/00-A/research/airship.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -572,18 +572,18 @@ items:
   Apache Pinot:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-14T02:07:17.717535+00:00'
+        completed_at: '2026-09-14T02:07:17.717535+00:00'
+        output_file: data/weeks/00-A/research/apache_pinot.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-14T02:08:01.804261+00:00'
+        completed_at: '2026-09-14T02:08:01.804261+00:00'
+        output_file: website/content/posts/2026-A.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -762,18 +762,18 @@ items:
   Apicurio Registry:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-08T12:00:00.000000+00:00'
+        completed_at: '2026-09-08T12:00:00.000000+00:00'
+        output_file: data/weeks/00-A/research/apicurio_registry.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-08T12:00:00.000000+00:00'
+        completed_at: '2026-09-08T12:00:00.000000+00:00'
+        output_file: website/content/posts/2026-A.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -1047,10 +1047,10 @@ items:
   Authing:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-02T01:55:27.841020+00:00'
+        completed_at: '2026-09-02T01:55:27.841020+00:00'
+        output_file: research/authing.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -1066,10 +1066,10 @@ items:
   AutoMQ:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-05T01:37:12.703103+00:00'
+        completed_at: '2026-09-05T01:37:12.703103+00:00'
+        output_file: data/weeks/00-A/research/automq.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -1085,18 +1085,18 @@ items:
   Avro:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-11T01:58:48.241082+00:00'
+        completed_at: '2026-09-11T01:58:48.241082+00:00'
+        output_file: research/avro.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-11T01:58:48.241082+00:00'
+        completed_at: '2026-09-11T01:58:48.241082+00:00'
+        output_file: website/content/posts/2026-A.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -1104,18 +1104,18 @@ items:
   Azure API Management:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-12T01:36:29.905186+00:00'
+        completed_at: '2026-09-12T01:36:29.905186+00:00'
+        output_file: data/weeks/00-A/research/azure_api_management.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-12T01:36:29.905186+00:00'
+        completed_at: '2026-09-12T01:36:29.905186+00:00'
+        output_file: website/content/posts/2026-A.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -1123,18 +1123,18 @@ items:
   Azure Functions:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-13T01:52:34.878336+00:00'
+        completed_at: '2026-09-13T01:52:34.878336+00:00'
+        output_file: data/weeks/00-A/research/azure_functions.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-13T01:52:34.878336+00:00'
+        completed_at: '2026-09-13T01:52:34.878336+00:00'
+        output_file: website/content/posts/2026-A.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -1142,18 +1142,18 @@ items:
   Azure Service Fabric:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-13T01:52:34.878336+00:00'
+        completed_at: '2026-09-13T01:52:34.878336+00:00'
+        output_file: data/weeks/00-A/research/azure_service_fabric.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-13T01:52:34.878336+00:00'
+        completed_at: '2026-09-13T01:52:34.878336+00:00'
+        output_file: website/content/posts/2026-A.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -1161,18 +1161,18 @@ items:
   Agent Development Kit:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-13T01:52:34.878336+00:00'
+        completed_at: '2026-09-13T01:52:34.878336+00:00'
+        output_file: data/weeks/00-A/research/agent_development_kit.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-13T01:52:34.878336+00:00'
+        completed_at: '2026-09-13T01:52:34.878336+00:00'
+        output_file: website/content/posts/2026-A.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -1180,18 +1180,18 @@ items:
   Agent Evaluation:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-18T01:46:56.044363+00:00'
+        completed_at: '2026-09-18T01:46:56.044363+00:00'
+        output_file: data/weeks/00-A/research/agent_evaluation.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-18T01:46:56.044363+00:00'
+        completed_at: '2026-09-18T01:46:56.044363+00:00'
+        output_file: website/content/posts/2026-A.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -1199,10 +1199,10 @@ items:
   Agent2agent:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-20T19:38:31.997326+00:00'
+        completed_at: '2026-09-20T19:38:31.997326+00:00'
+        output_file: data/weeks/00-A/research/agent2agent.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -1218,10 +1218,10 @@ items:
   Agentgateway:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-20T20:26:46.164150+00:00'
+        completed_at: '2026-09-20T20:26:46.164150+00:00'
+        output_file: data/weeks/00-A/research/agentgateway.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -1275,18 +1275,18 @@ items:
   Apache AGE:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-10T01:51:41.553680+00:00'
+        completed_at: '2026-09-10T01:51:41.553680+00:00'
+        output_file: research/apache_age.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-10T01:51:41.553680+00:00'
+        completed_at: '2026-09-10T01:51:41.553680+00:00'
+        output_file: website/content/posts/2026-A.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -1294,18 +1294,18 @@ items:
   Autogen:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-15T02:01:53.269832+00:00'
+        completed_at: '2026-09-15T02:01:53.269832+00:00'
+        output_file: data/weeks/00-A/research/autogen.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-15T02:01:53.269832+00:00'
+        completed_at: '2026-09-15T02:01:53.269832+00:00'
+        output_file: website/content/posts/2026-A.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -1313,10 +1313,10 @@ items:
   Axolotl:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-20T18:26:05.086036+00:00'
+        completed_at: '2026-09-20T18:26:05.086036+00:00'
+        output_file: data/weeks/00-A/research/axolotl.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -1332,10 +1332,10 @@ items:
   Astron Agent:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-20T22:28:22.558506+00:00'
+        completed_at: '2026-09-20T22:28:22.558506+00:00'
+        output_file: 'research/astron_agent.yaml'
         error_message: null
         retry_count: 0
         agent: researcher

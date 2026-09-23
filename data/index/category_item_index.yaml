@@ -79,7 +79,8 @@ AI Native Infra:
   - OPA/Gatekeeper
   - OPEA
   - Stacklock Minder
-  Model Asset and Registry: []
+  Model Asset and Registry:
+  - MatrixHub
   Network: []
   Observability:
   - Deepchecks
@@ -94,6 +95,7 @@ AI Native Infra:
   - Kueue
   - LeaderWorkerSet
   - Nivida NeMo
+  - Topograph
   - Yunikorn
   Storage: []
   Workload Runtime:
@@ -235,6 +237,7 @@ App Definition and Development:
   - Infinispan
   - KubeBlocks by ApeCloud
   - KubeDB by AppsCode
+  - LibreDB Studio
   - MariaDB
   - MongoDB
   - MySQL
@@ -335,6 +338,7 @@ Inference:
   Framework:
   - AIBrix
   - Arks
+  - InferNex
   - KAITO
   - KServe
   - llm-d
@@ -379,6 +383,7 @@ Observability and Analysis:
   - Anteon
   - argonaut
   - Beats
+  - BetterDB Monitor
   - Botkube
   - Centreon
   - Checkmk

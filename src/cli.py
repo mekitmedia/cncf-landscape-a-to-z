@@ -2,6 +2,7 @@ import fire
 import asyncio
 import logging
 import os
+from pathlib import Path
 from src.pipeline.runner import run_etl
 from src.agentic.observability import setup_observability
 
@@ -53,7 +54,6 @@ class RunCommands:
         
         # Set Prefect to run locally if requested
         if local:
-            import os
             os.environ['PREFECT_API_URL'] = ''  # Empty URL forces local execution
             logger.info("Running workflow in local mode")
         
@@ -93,9 +93,52 @@ class RunCommands:
         """Alias for draw."""
         return self.draw(week=week, format=format, allow_adhoc=allow_adhoc)
 
+
+class EvalCommands:
+    def research(self, path: str):
+        """
+        Evaluate a single research YAML artifact on disk.
+        Usage: python src/cli.py eval research data/weeks/00-A/research/aibrix.yaml
+        """
+        from src.agentic.evals import evaluate_research_file
+        res = asyncio.run(evaluate_research_file(Path(path)))
+        if res:
+            print(f"\nEvaluation for {path}:")
+            print(f"Score: {res.score}/10 | Grounding: {res.grounding_quality}/10 | Depth: {res.technical_depth}/10")
+            print(f"Feedback: {res.specific_feedback}")
+            if res.improvement_actions:
+                print(f"Action Items: {', '.join(res.improvement_actions)}")
+
+    def post(self, path: str):
+        """
+        Evaluate a weekly blog post markdown artifact against the Letter C curated benchmark.
+        Usage: python src/cli.py eval post website/content/posts/2026-A.md
+        """
+        from src.agentic.evals import evaluate_post_file
+        res = asyncio.run(evaluate_post_file(Path(path)))
+        if res:
+            print(f"\nEvaluation for {path}:")
+            print(f"Score: {res.score}/10 | Tone: {res.tone_consistency}/10 | Structure: {res.structure_quality}/10")
+            print(f"Feedback: {res.specific_feedback}")
+            if res.improvement_actions:
+                print(f"Action Items: {', '.join(res.improvement_actions)}")
+
+    def sweep(self, week: str | None = None, agent: str | None = None, limit: int = 5):
+        """
+        Run an ad-hoc evaluation sweep across saved research artifacts filtered by week or agent provenance.
+        Usage: 
+            python src/cli.py eval sweep --agent=jules --limit=5
+            python src/cli.py eval sweep --week=00-A
+        """
+        from src.agentic.evals import run_adhoc_eval
+        asyncio.run(run_adhoc_eval(week=week, agent=agent, limit=limit))
+
+
 class Cli:
     def __init__(self):
         self.run = RunCommands()
+        self.eval = EvalCommands()
+
 
 
 if __name__ == '__main__':

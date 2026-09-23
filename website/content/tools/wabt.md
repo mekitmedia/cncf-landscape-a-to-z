@@ -1,0 +1,14 @@
+---
+cncf_status: non-cncf
+date: '2026-09-20T21:46:44.626287'
+homepage_url: https://github.com/WebAssembly/wabt
+layout: single
+letter: W
+project_name: Wabt
+repo_url: https://github.com/WebAssembly/wabt
+status: in_progress
+summary: Research for this project is currently in progress.
+title: Wabt
+---
+
+This is an auto-generated tool page. For more details, see the [letter page](/letters/w/).

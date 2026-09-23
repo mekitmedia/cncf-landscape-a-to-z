@@ -1,0 +1,15 @@
+project_name: "AWS Server Application Model (SAM)"
+summary: "AWS Serverless Application Model (SAM) is an open-source framework for building serverless applications on AWS, providing shorthand syntax to express functions, APIs, databases, and event source mappings."
+key_features:
+  - "Shorthand YAML syntax for defining serverless infrastructure"
+  - "SAM CLI for local testing, debugging, and invoking Lambda functions"
+  - "SAM Accelerate for fast testing and iteration against cloud resources"
+  - "Built-in integration with CloudFormation templates"
+recent_updates: "AWS SAM CLI regularly updates with enhanced local emulation, expanded telemetry debugging, and support for the latest AWS Lambda runtimes."
+use_cases: "Building event-driven microservices, serverless web APIs, and automated background data processing workflows on AWS."
+interesting_facts: "AWS SAM expands simple YAML syntax into full AWS CloudFormation templates behind the scenes during deployment."
+get_started: "Install AWS SAM CLI, initialize a project using `sam init`, build with `sam build`, and test locally using `sam local invoke`."
+related_tools:
+  - "Serverless Framework"
+  - "Architect"
+  - "AWS Cloud Development Kit (CDK)"

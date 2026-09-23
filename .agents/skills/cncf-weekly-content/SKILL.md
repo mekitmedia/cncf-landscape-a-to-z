@@ -8,7 +8,14 @@ version: 1
 # CNCF Weekly Content Contributor
 
 ## Purpose
-Use this skill in Claude Code, Codex/OpenAI, OpenCode, or other harnesses to perform the same workflow currently handled by the Pydantic AI agents.
+Use this skill across all agent harnesses (Claude Code, GitHub Copilot, Google Jules, Codex/OpenAI, OpenCode, Antigravity, and Pydantic AI) to perform the CNCF Landscape A-to-Z content workflow.
+
+Modular role prompts are maintained in:
+- Content Manager: `prompts/content_manager.md`
+- Managing Editor: `prompts/editor.md`
+- Software Researcher: `prompts/researcher.md`
+- Technical Writer: `prompts/writer.md`
+- Unified Jules Agent: `prompts/jules.md`
 
 ## Required Inputs
 - Repository root checkout
@@ -31,6 +38,7 @@ Use this skill in Claude Code, Codex/OpenAI, OpenCode, or other harnesses to per
 
 ## Guardrails
 - Do not invent facts; only write verifiable project details.
+- Research files are structured note-taking artifacts: ground claims in verifiable source quotes.
 - Keep writes inside the paths listed above.
 - Always generate both the research YAML and the tool markdown page for an assigned project.
 - Preserve tracker structure; update status fields accurately for completed items.
@@ -39,10 +47,10 @@ Use this skill in Claude Code, Codex/OpenAI, OpenCode, or other harnesses to per
 
 ### Mode A: Single Project Vertical Slice (Roulette or Ad-Hoc Mission)
 When assigned a specific project (via `just roulette` or ad-hoc task):
-1. Read project metadata from `data/weeks/<WEEK_ID>/categories/*.yaml`.
-2. Research features, updates, use cases, and getting started guide.
-3. Save research YAML to `data/weeks/<WEEK_ID>/research/<SANITIZED_NAME>.yaml`.
-4. Generate the tool markdown page at `website/content/tools/<SANITIZED_NAME>.md` (or run `uv run python -m src.pipeline.tool_pages`).
+1. Read project metadata from `data/weeks/<WEEK_ID>/categories/*.yaml` and any existing research in `data/weeks/<WEEK_ID>/research/`.
+2. Research features, recent releases, ecosystem perspectives, use cases, and getting started guide.
+3. Save or enrich research YAML at `data/weeks/<WEEK_ID>/research/<sanitized_project_name>.yaml` using the schema below.
+4. Generate the tool markdown page at `website/content/tools/<sanitized_project_name>.md` (or run `uv run python -m src.pipeline.tool_pages`).
 5. Update `data/weeks/<WEEK_ID>/tracker.yaml` marking `research` and `content` tasks as `completed`.
 
 ### Mode B: Full Week Compilation (Editor → Researcher → Writer)
@@ -50,6 +58,56 @@ When assigned a specific project (via `just roulette` or ad-hoc task):
 2. Complete missing research YAML files and tool pages for all items in that week.
 3. Write/update weekly summary post `website/content/posts/<YEAR>-<WEEK_LETTER>.md`.
 4. Update week `blog_post` status to `completed` in `tracker.yaml`.
+
+## Research YAML Schema (Structured Note-Taking)
+
+```yaml
+project_name: ""
+homepage_url: ""
+repo_url: ""
+docs_url: ""
+cncf_status: "" # sandbox | incubating | graduated | member
+latest_release:
+  version: ""
+  date: ""
+  release_notes_url: ""
+summary: ""
+key_features:
+  - ""
+recent_updates: ""
+use_cases: ""
+ecosystem_perspectives:
+  strengths: ""
+  considerations: ""
+  community_discussions:
+    - ""
+interesting_facts: ""
+get_started: ""
+related_tools:
+  - ""
+sources:
+  - id: "src_readme"
+    title: ""
+    url: ""
+    source_type: "github_readme" # github_readme | github_release | official_docs | cncf_landscape
+    quotes:
+      - "Exact quote or excerpt from the official source"
+last_researched_at: "<TIMESTAMP_ISO8601_UTC>"
+research_version: 1
+```
+
+## Weekly Post Generation (Writer)
+1. Read research YAML files for the selected week.
+2. Write `website/content/posts/<YEAR>-<WEEK_LETTER>.md` with frontmatter (initialized as draft):
+
+```yaml
+---
+title: "Cruising through the '<WEEK_LETTER>'s: <Curated Subtitle or Themes>"
+date: <TIMESTAMP_ISO8601_UTC>
+draft: true
+letter: "<WEEK_LETTER>"
+---
+```
 
 ## Suggested Prompts
 
@@ -76,4 +134,5 @@ Use the cncf-weekly-content skill from .agents/skills.
 - Tool page markdown exists at `website/content/tools/<project>.md`.
 - Tracker statuses are accurate for completed/failed work.
 - Changes are reviewable in a single PR.
+
 

@@ -4,7 +4,7 @@ title = 'CNCF Landscape Overview'
 theme = 'cncf-theme'
 buildFuture = true
 dataDir = "../data"
-ignoreFiles = ['README\.md$']
+ignoreFiles = ['README\.md$', 'changelog\.md$']
 
 [params]
   description = "A 52-week journey through the CNCF Landscape, exploring one letter every two weeks."

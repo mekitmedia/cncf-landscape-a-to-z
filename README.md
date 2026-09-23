@@ -21,6 +21,23 @@ First, ensure you have `uv` and `just` installed on your system.
 just install
 ```
 
+### Environment & API Key Setup (1Password Integration)
+
+Copy `.env.template` to `.env` or run commands with 1Password CLI:
+
+```bash
+# Option A: Run directly with 1Password CLI (injects secrets into process environment)
+op run -- just workflow
+
+# Option B: Render .env file from 1Password references
+op inject -i .env.template -o .env
+```
+
+`GOOGLE_API_KEY` or `PYDANTIC_AI_GATEWAY_API_KEY` can be stored in 1Password and referenced using `op://<vault>/<item>/<field>`.
+
+> [!TIP]
+> **Git Worktrees Setup**: If working across multiple Git worktrees, place your `.env` file in the parent folder containing your worktrees (e.g. `../.env`). `just` automatically traverses parent directories to find `../.env`, sharing your 1Password references across all worktrees without needing `.env` files in each branch or polluting the open-source repository.
+
 ### Running the CLI
 
 To run the ETL pipeline and process the landscape data:

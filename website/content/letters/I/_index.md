@@ -1,5 +1,5 @@
 ---
-title: "Week 9: Letter I"
+title: "Weeks 17-18: CNCF Projects Starting with I"
 letter: "I"
 week: 8
 data_key: "08-I"
@@ -8,7 +8,7 @@ layout: "list"
 
 # Summary for 08-I
 
-This week has a total of 14 items.
+This week has a total of 15 items.
 
 
 - **Runtime Container Runtime**: 2 items
@@ -28,6 +28,8 @@ This week has a total of 14 items.
 - **Ai Agent Structured Output**: 1 items
 
 - **Ai Agent Workflow Orchestration**: 1 items
+
+- **Inference Framework**: 1 items
 
 - **Ai Native Infra Observability**: 1 items
 

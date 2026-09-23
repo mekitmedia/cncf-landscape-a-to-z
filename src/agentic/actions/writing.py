@@ -15,7 +15,10 @@ async def write_weekly_post(week_letter: str, research_results: List[ResearchOut
         f"Write a blog post for CNCF projects starting with letter {week_letter}.",
         deps=deps
     )
+    if hasattr(result, "output"):
+        return result.output
     return result.data
+
 
 async def save_post(week_letter: str, draft: BlogPostDraft):
     """Save blog post and update tracker."""
@@ -29,7 +32,8 @@ async def save_post(week_letter: str, draft: BlogPostDraft):
     full_content = f"""---
 title: "{draft.title}"
 date: {date_str}
-draft: false
+draft: true
+letter: "{week_letter}"
 ---
 
 {draft.content_markdown}
@@ -41,7 +45,7 @@ draft: false
 
     # Update tracker to mark blog post as completed
     try:
-        relative_path = f"website/content/letters/{year}-{week_letter}.md"
+        relative_path = f"website/content/posts/{year}-{week_letter}.md"
         tracker.update_task(
             week_letter,
             None,
