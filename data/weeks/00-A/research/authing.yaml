@@ -31,11 +31,15 @@ related_tools:
 - Keycloak
 - Dex
 sources:
-- label: GitHub Repository
-  url: https://github.com/Authing/Authing
-- label: Official Documentation
-  url: https://docs.authing.cn
-- label: WeForum Tech Pioneers 2022 Overview
-  url: https://widgets.weforum.org/techpioneers-2022/authing/index.html
-- label: Developer Discussions and Reviews on Auth Alternatives
-  url: https://www.saashub.com/authing-alternatives
+- url: https://github.com/Authing/Authing
+  id: source-0
+  title: GitHub Repository
+- url: https://docs.authing.cn
+  id: source-1
+  title: Official Documentation
+- url: https://widgets.weforum.org/techpioneers-2022/authing/index.html
+  id: source-2
+  title: WeForum Tech Pioneers 2022 Overview
+- url: https://www.saashub.com/authing-alternatives
+  id: source-3
+  title: Developer Discussions and Reviews on Auth Alternatives

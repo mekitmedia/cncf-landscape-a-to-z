@@ -1,0 +1,55 @@
+project_name: Apache NiFi
+homepage_url: https://nifi.apache.org/
+repo_url: https://github.com/apache/nifi
+docs_url: https://nifi.apache.org/documentation/
+cncf_status: none
+latest_release:
+  version: rel/nifi-2.12.0
+  date: '2026-09-13T21:07:24Z'
+  url: https://github.com/apache/nifi/releases/tag/rel/nifi-2.12.0
+summary: Apache NiFi is an easy to use, powerful, and reliable system to process and
+  distribute data.
+key_features:
+- Browser User Interface for design and monitoring
+- Scalable Processing with configurable prioritization
+- Provenance Tracking with graph data lineage
+- Extensible Design with plugin interface
+- Secure Configuration with single sign-on and TLS.
+recent_updates: Released version 2.12.0 with improvements like support for FileResourceService
+  in PutFile, reproducible build workflow, OAuth support for ConfluentSchemaRegistry,
+  and various bug fixes and dependency upgrades.
+use_cases: Automating cybersecurity, observability, event streams, and generative
+  AI data pipelines and distribution.
+ecosystem_perspectives:
+  strengths: Provides a robust Browser UI for seamless visual data flow design. Scales
+    horizontally with clustering and guarantees delivery with retry and backoff strategies.
+    It has strong provenance tracking, allowing you to trace data lineage from source
+    to destination.
+  considerations: Can be resource-intensive, with some users reporting high memory
+    usage and a steep learning curve. Some community discussions mention that it can
+    feel like a legacy appliance if not managed properly.
+  community_discussions: []
+interesting_facts: Originally developed by the NSA under the name 'NiagaraFiles' before
+  being open-sourced.
+get_started: Check the Getting Started guide at https://nifi.apache.org/documentation/nifi-latest/html/getting-started.html
+  and run the `bin/nifi.sh start` script.
+related_tools: []
+sources:
+- id: source-0
+  title: Apache NiFi GitHub README
+  url: https://github.com/apache/nifi
+  source_type: github_readme
+  quotes:
+  - Apache NiFi is an easy to use, powerful, and reliable system to process and distribute
+    data.
+  - NiFi automates cybersecurity, observability, event streams, and generative AI
+    data pipelines and distribution for thousands of companies worldwide across every
+    industry.
+- id: source-1
+  title: Apache NiFi Latest Release
+  url: https://github.com/apache/nifi/releases/tag/rel/nifi-2.12.0
+  source_type: github_release
+  quotes:
+  - NIFI-16159 Add support for FileResourceService in PutFile
+  - NIFI-16252 Add Reproducible Build workflow
+  - 'NIFI-16191: Add OAuth support for ConfluentSchemaRegistry controller service'

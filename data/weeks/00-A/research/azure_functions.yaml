@@ -1,26 +1,31 @@
-project_name: "Azure Functions"
-homepage_url: "https://azure.microsoft.com/en-us/services/functions/"
-repo_url: "https://github.com/Azure/azure-functions-host"
-cncf_status: "non-cncf"
-summary: "An event-driven serverless compute platform that helps developers develop more efficiently."
+project_name: Azure Functions
+homepage_url: https://azure.microsoft.com/en-us/services/functions/
+repo_url: https://github.com/Azure/azure-functions-host
+cncf_status: non-cncf
+summary: An event-driven serverless compute platform that helps developers develop
+  more efficiently.
 key_features:
-  - "Serverless architecture"
-  - "Event-driven programming model"
-  - "Supports multiple programming languages"
+- Serverless architecture
+- Event-driven programming model
+- Supports multiple programming languages
 latest_release:
-  version: "v4.1054.200"
-  date: "2026-08-28"
-  url: "https://github.com/Azure/azure-functions-host/releases/tag/v4.1054.200"
-recent_updates: "Fixed Linux language worker SIGTERM exits being reported as worker failures."
-use_cases: "Building serverless APIs, processing file uploads in real-time, automating tasks and workflows."
-interesting_facts: "It integrates seamlessly with other Azure services."
-get_started: "Check the official documentation to set up your first function app."
-docs_url: "https://learn.microsoft.com/en-us/azure/azure-functions/"
+  version: v4.1054.200
+  date: '2026-08-28'
+  url: https://github.com/Azure/azure-functions-host/releases/tag/v4.1054.200
+recent_updates: Fixed Linux language worker SIGTERM exits being reported as worker
+  failures.
+use_cases: Building serverless APIs, processing file uploads in real-time, automating
+  tasks and workflows.
+interesting_facts: It integrates seamlessly with other Azure services.
+get_started: Check the official documentation to set up your first function app.
+docs_url: https://learn.microsoft.com/en-us/azure/azure-functions/
 related_tools:
-  - "AWS Lambda"
-  - "Google Cloud Functions"
+- AWS Lambda
+- Google Cloud Functions
 sources:
-  - label: "Azure Functions Homepage"
-    url: "https://azure.microsoft.com/en-us/services/functions/"
-  - label: "GitHub Releases"
-    url: "https://github.com/Azure/azure-functions-host/releases/tag/v4.1054.200"
+- url: https://azure.microsoft.com/en-us/services/functions/
+  id: source-0
+  title: Azure Functions Homepage
+- url: https://github.com/Azure/azure-functions-host/releases/tag/v4.1054.200
+  id: source-1
+  title: GitHub Releases

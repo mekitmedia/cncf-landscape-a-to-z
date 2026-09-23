@@ -1,26 +1,31 @@
-project_name: "Agent Development Kit"
-homepage_url: "https://google.github.io/adk-docs/"
-repo_url: "https://github.com/google/adk-python"
-cncf_status: "non-cncf"
-summary: "A toolkit for building, running, and managing agentic software at scale."
+project_name: Agent Development Kit
+homepage_url: https://google.github.io/adk-docs/
+repo_url: https://github.com/google/adk-python
+cncf_status: non-cncf
+summary: A toolkit for building, running, and managing agentic software at scale.
 key_features:
-  - "Provides building blocks for AI agents"
-  - "Scalable management of agent lifecycles"
-  - "Extensible Python API"
+- Provides building blocks for AI agents
+- Scalable management of agent lifecycles
+- Extensible Python API
 latest_release:
-  version: "v2.9.0"
-  date: "2026-09-10"
-  url: "https://github.com/google/adk-python/releases/tag/v2.9.0"
-recent_updates: "Performance improvements like deferring imports in code executors, caching sandbox tokens, and various bug fixes."
-use_cases: "Developing enterprise-grade AI agents and integrating agentic workflows into existing software."
-interesting_facts: "Maintained by Google, it heavily relies on Pydantic to structure inputs and outputs."
-get_started: "Check the GitHub repository and documentation for quickstart guides."
-docs_url: "https://google.github.io/adk-docs/"
+  version: v2.9.0
+  date: '2026-09-10'
+  url: https://github.com/google/adk-python/releases/tag/v2.9.0
+recent_updates: Performance improvements like deferring imports in code executors,
+  caching sandbox tokens, and various bug fixes.
+use_cases: Developing enterprise-grade AI agents and integrating agentic workflows
+  into existing software.
+interesting_facts: Maintained by Google, it heavily relies on Pydantic to structure
+  inputs and outputs.
+get_started: Check the GitHub repository and documentation for quickstart guides.
+docs_url: https://google.github.io/adk-docs/
 related_tools:
-  - "Agno"
-  - "LangChain"
+- Agno
+- LangChain
 sources:
-  - label: "Agent Development Kit GitHub"
-    url: "https://github.com/google/adk-python"
-  - label: "Latest Release Notes"
-    url: "https://github.com/google/adk-python/releases/tag/v2.9.0"
+- url: https://github.com/google/adk-python
+  id: source-0
+  title: Agent Development Kit GitHub
+- url: https://github.com/google/adk-python/releases/tag/v2.9.0
+  id: source-1
+  title: Latest Release Notes
