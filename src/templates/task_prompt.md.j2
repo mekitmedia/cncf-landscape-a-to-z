@@ -1,0 +1,48 @@
+# CNCF Project Task: {{ task.project_name }}{% if task.reason %} (Ad-hoc Priority: {{ task.reason }}){% endif %}
+
+**Task Mission:** {% if task.is_refresh %}Refresh and update{% else %}Research and create{% endif %} content for `{{ task.project_name }}` in week `{{ task.week_letter }}` (`{{ task.week_id }}`).
+
+### Project Metadata
+- **Project Name:** {{ task.project_name }}
+- **Week ID:** {{ task.week_id }} (Letter {{ task.week_letter }})
+- **Category:** {{ task.category }}
+- **CNCF Status:** {{ task.cncf_status }}
+{% if task.repo_url %}- **Repository:** {{ task.repo_url }}
+{% endif %}{% if task.homepage_url %}- **Homepage:** {{ task.homepage_url }}
+{% endif %}
+### Required Actions (Vertical Slice)
+1. **Research Project:**
+   Gather verified project details (summary, key features, recent updates, use cases, getting started).
+   Write or update structured research YAML at:
+   `{{ task.research_file }}`
+
+   Schema:
+   ```yaml
+   project_name: "{{ task.project_name }}"
+   summary: ""
+   key_features:
+     - ""
+   recent_updates: ""
+   use_cases: ""
+   interesting_facts: ""
+   get_started: ""
+   related_tools:
+     - ""
+   ```
+
+2. **Generate Hugo Tool Page:**
+   Generate or update the tool markdown page at:
+   `{{ task.tool_page_file }}`
+   (You can run `uv run python -m src.pipeline.tool_pages` or create it with frontmatter containing the research fields).
+
+3. **Update Week Tracker:**
+   In `{{ task.tracker_file }}`, locate `{{ task.project_name }}` and ensure:
+   - `tasks.research.status: completed`
+   - `tasks.research.output_file: {{ task.research_file }}`
+   - `tasks.content.status: completed`
+   - `tasks.content.output_file: {{ task.tool_page_file }}`
+   - Update `completed_at` timestamps to ISO 8601 UTC.
+
+### Guardrails
+- Do not hallucinate; use verifiable facts from the project repository and documentation.
+- Deliver both the research YAML and Hugo tool markdown file in a single reviewable PR.

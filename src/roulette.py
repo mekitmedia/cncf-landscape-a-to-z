@@ -14,6 +14,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 import yaml
+import jinja2
 
 from src.config import load_config, letter_from_week_id
 from src.pipeline.tool_pages import sanitize_for_filename
@@ -66,59 +67,15 @@ class DrawnTask:
         return json.dumps(self.to_dict(), indent=indent)
 
     def to_prompt(self) -> str:
-        action_verb = "Refresh and update" if self.is_refresh else "Research and create"
-        ad_hoc_note = f" (Ad-hoc Priority: {self.reason})" if self.reason else ""
+        cfg = load_config()
+        template_file = cfg.templates_dir / "task_prompt.md.j2"
+        if template_file.exists():
+            loader = jinja2.FileSystemLoader(searchpath=str(cfg.templates_dir))
+            env = jinja2.Environment(loader=loader, autoescape=False)
+            template = env.get_template("task_prompt.md.j2")
+            return template.render(task=self)
+        raise FileNotFoundError(f"Template not found at {template_file}")
 
-        repo_info = f"- **Repository:** {self.repo_url}\n" if self.repo_url else ""
-        homepage_info = f"- **Homepage:** {self.homepage_url}\n" if self.homepage_url else ""
-
-        return f"""# CNCF Project Task: {self.project_name}{ad_hoc_note}
-
-**Task Mission:** {action_verb} content for `{self.project_name}` in week `{self.week_letter}` (`{self.week_id}`).
-
-### Project Metadata
-- **Project Name:** {self.project_name}
-- **Week ID:** {self.week_id} (Letter {self.week_letter})
-- **Category:** {self.category}
-- **CNCF Status:** {self.cncf_status}
-{repo_info}{homepage_info}
-### Required Actions (Vertical Slice)
-1. **Research Project:**
-   Gather verified project details (summary, key features, recent updates, use cases, getting started).
-   Write or update structured research YAML at:
-   `{self.research_file}`
-
-   Schema:
-   ```yaml
-   project_name: "{self.project_name}"
-   summary: ""
-   key_features:
-     - ""
-   recent_updates: ""
-   use_cases: ""
-   interesting_facts: ""
-   get_started: ""
-   related_tools:
-     - ""
-   ```
-
-2. **Generate Hugo Tool Page:**
-   Generate or update the tool markdown page at:
-   `{self.tool_page_file}`
-   (You can run `uv run python -m src.pipeline.tool_pages` or create it with frontmatter containing the research fields).
-
-3. **Update Week Tracker:**
-   In `{self.tracker_file}`, locate `{self.project_name}` and ensure:
-   - `tasks.research.status: completed`
-   - `tasks.research.output_file: {self.research_file}`
-   - `tasks.content.status: completed`
-   - `tasks.content.output_file: {self.tool_page_file}`
-   - Update `completed_at` timestamps to ISO 8601 UTC.
-
-### Guardrails
-- Do not hallucinate; use verifiable facts from the project repository and documentation.
-- Deliver both the research YAML and Hugo tool markdown file in a single reviewable PR.
-"""
 
 
 def _get_project_last_updated(research_file: Path) -> Optional[datetime]:

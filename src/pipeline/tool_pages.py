@@ -12,6 +12,7 @@ from pathlib import Path
 from typing import Optional
 
 import yaml
+import jinja2
 
 from src.config import load_config, letter_from_week_id
 
@@ -116,13 +117,18 @@ def generate_tool_page(research_file: Path, week_id_value: str) -> Optional[str]
             front_matter, default_flow_style=False, allow_unicode=True
         )
 
-        content = f"""---
-{front_matter_yaml}---
-
-This is an auto-generated tool page. For more details, see the [letter page](/letters/{letter}/).
-"""
-
-        return content
+        cfg = load_config()
+        template_file = cfg.templates_dir / "tool_page.md.j2"
+        if template_file.exists():
+            loader = jinja2.FileSystemLoader(searchpath=str(cfg.templates_dir))
+            env = jinja2.Environment(loader=loader, autoescape=False)
+            template = env.get_template("tool_page.md.j2")
+            return template.render(
+                front_matter_yaml=front_matter_yaml,
+                letter=letter,
+                project_name=project_name,
+            )
+        raise FileNotFoundError(f"Template not found at {template_file}")
 
     except Exception as exc:
         print(f"Error processing {research_file}: {exc}")

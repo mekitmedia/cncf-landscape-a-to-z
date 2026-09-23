@@ -120,6 +120,11 @@ def generate_letter_pages(output_dir: str = "website/content", summaries: dict =
     letters_dir = Path(output_dir) / "letters"
     letters_dir.mkdir(parents=True, exist_ok=True)
 
+    cfg = load_config()
+    template_loader = jinja2.FileSystemLoader(searchpath=str(cfg.templates_dir))
+    template_env = jinja2.Environment(loader=template_loader, autoescape=False)
+    letter_template = template_env.get_template("letter_index.md.j2")
+
     for letter_code in range(ord('A'), ord('Z') + 1):
         letter = chr(letter_code)
         index = letter_code - ord('A')
@@ -133,16 +138,13 @@ def generate_letter_pages(output_dir: str = "website/content", summaries: dict =
         if summaries:
             summary = summaries.get(week_key, "")
 
-        content = f"""---
-title: "Week {index + 1}: Letter {letter}"
-letter: "{letter}"
-week: {index}
-data_key: "{week_key}"
-layout: "list"
----
-
-{summary}
-"""
+        content = letter_template.render(
+            week_number=index + 1,
+            letter=letter,
+            week_index=index,
+            week_key=week_key,
+            summary=summary,
+        )
         with open(letter_dir / "_index.md", "w") as f:
             f.write(content)
 
@@ -153,4 +155,5 @@ layout: "list"
 ---
 """
     with open(letters_dir / "_index.md", "w") as f:
+
         f.write(content_root)
