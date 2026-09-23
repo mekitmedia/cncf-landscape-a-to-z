@@ -1,0 +1,54 @@
+project_name: Airship
+summary: Airship is a collection of components that declaratively configure, deploy,
+  and maintain a Kubernetes environment defined by YAML documents.
+key_features:
+- Declarative deployment and management of Kubernetes environments.
+- Configuration entirely driven by YAML documents.
+- Integration with OpenStack and other cloud-native technologies for bare metal provisioning
+  and lifecycle management.
+recent_updates: Airship has evolved to version 2, incorporating CAPI (Cluster API)
+  and moving towards a more modular, cloud-native architecture for declarative infrastructure
+  management.
+use_cases: Managing lifecycle of bare-metal infrastructure and Kubernetes clusters,
+  deploying 5G networks and edge computing infrastructure, declarative, reproducible
+  infrastructure deployments in enterprise data centers.
+interesting_facts: Airship is supported by the Open Infrastructure Foundation (formerly
+  OpenStack Foundation) and was notably used by AT&T to deploy its 5G network infrastructure.
+get_started: Visit the official documentation at https://docs.airshipit.org/ to learn
+  how to deploy an Airship environment using the Treasuremap repository as a reference
+  architecture.
+related_tools:
+- Kubernetes
+- OpenStack
+- Cluster API (CAPI)
+- Helm
+latest_release:
+  version: unknown
+  date: unknown
+  url: https://github.com/airshipit/treasuremap/releases
+homepage_url: https://www.airshipit.org/
+repo_url: https://github.com/airshipit/treasuremap
+docs_url: https://docs.airshipit.org/
+cncf_status: non-cncf
+ecosystem_perspectives: Airship is praised in the telco space for its ability to deterministically
+  manage complex bare-metal to cloud-native stacks (like OpenStack on Kubernetes).
+  However, its learning curve is steep, and it requires deep understanding of various
+  underlying tools.
+sources:
+- id: source-0
+  title: Airship Official Website
+  url: https://www.airshipit.org/
+  quotes:
+  - Airship is a collection of loosely coupled but interoperable open source tools
+    that declaratively automate cloud provisioning.
+- id: source-1
+  title: Airship Documentation
+  url: https://docs.airshipit.org/
+  quotes:
+  - Airship is a collection of components that declaratively configure, deploy and
+    maintain a Kubernetes environment defined by YAML documents.
+- id: source-2
+  title: 'ZDNet: Airship 1.0 marries Kubernetes and OpenStack for 5G''s good'
+  url: https://www.zdnet.com/article/airship-1-0-marries-kubernetes-and-openstack-for-5gs-good/
+  quotes:
+  - Airship 1.0 marries Kubernetes and OpenStack for 5G's good
