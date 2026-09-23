@@ -17,6 +17,7 @@ Use this skill in Claude Code, Codex/OpenAI, OpenCode, or other harnesses to per
 - Internet access for project research
 
 ## Files This Skill Reads
+- `data/adhoc_tasks.yaml` (if present, for prioritized ad-hoc tasks)
 - `data/weeks/*/tracker.yaml`
 - `data/weeks/*/tasks.yaml`
 - `data/weeks/*/categories/*.yaml`
@@ -24,79 +25,55 @@ Use this skill in Claude Code, Codex/OpenAI, OpenCode, or other harnesses to per
 
 ## Files This Skill Writes
 - `data/weeks/<WEEK_ID>/research/<SANITIZED_PROJECT_NAME>.yaml`
+- `website/content/tools/<SANITIZED_PROJECT_NAME>.md` (Hugo tool page)
 - `website/content/posts/<YEAR>-<WEEK_LETTER>.md`
 - `data/weeks/<WEEK_ID>/tracker.yaml`
 
 ## Guardrails
 - Do not invent facts; only write verifiable project details.
 - Keep writes inside the paths listed above.
-- Preserve tracker structure; only update status fields relevant to this run.
-- If research is missing, leave explicit placeholders instead of hallucinating.
+- Always generate both the research YAML and the tool markdown page for an assigned project.
+- Preserve tracker structure; update status fields accurately for completed items.
 
-## Workflow
+## Workflow Modes
 
-### 1) Editor task: choose week
-1. Read all week trackers in `data/weeks/*/tracker.yaml`.
-2. Select the first incomplete week in alphabetical order.
-3. If all weeks are complete, stop.
+### Mode A: Single Project Vertical Slice (Roulette or Ad-Hoc Mission)
+When assigned a specific project (via `just roulette` or ad-hoc task):
+1. Read project metadata from `data/weeks/<WEEK_ID>/categories/*.yaml`.
+2. Research features, updates, use cases, and getting started guide.
+3. Save research YAML to `data/weeks/<WEEK_ID>/research/<SANITIZED_NAME>.yaml`.
+4. Generate the tool markdown page at `website/content/tools/<SANITIZED_NAME>.md` (or run `uv run python -m src.pipeline.tool_pages`).
+5. Update `data/weeks/<WEEK_ID>/tracker.yaml` marking `research` and `content` tasks as `completed`.
 
-### 2) Researcher task: create/update research YAML
-For each project in the selected week that still needs research:
-1. Read metadata from `data/weeks/<WEEK_ID>/categories/*.yaml`.
-2. Research from homepage, repo, and reliable release/update sources.
-3. Save one YAML file per project in `data/weeks/<WEEK_ID>/research/`.
-4. Use this schema:
+### Mode B: Full Week Compilation (Editor → Researcher → Writer)
+1. Pick next incomplete week or target letter.
+2. Complete missing research YAML files and tool pages for all items in that week.
+3. Write/update weekly summary post `website/content/posts/<YEAR>-<WEEK_LETTER>.md`.
+4. Update week `blog_post` status to `completed` in `tracker.yaml`.
 
-```yaml
-project_name: ""
-summary: ""
-key_features:
-  - ""
-recent_updates: ""
-use_cases: ""
-interesting_facts: ""
-get_started: ""
-related_tools:
-  - ""
+## Suggested Prompts
+
+### Draw Single Task Mission (Recommended for Jules / Autonomous PRs):
+```text
+Run `just roulette` (or `uv run python -m src.cli run draw --format=prompt`) to draw the assigned project.
+Execute the vertical slice:
+- Complete research YAML at data/weeks/<WEEK_ID>/research/<project>.yaml
+- Generate tool page at website/content/tools/<project>.md
+- Update tracker.yaml
 ```
 
-### 3) Writer task: generate weekly post
-1. Read all research YAML files for the selected week.
-2. Write `website/content/posts/<YEAR>-<WEEK_LETTER>.md` with frontmatter:
-
-```yaml
----
-title: "Letter <WEEK_LETTER>: CNCF Projects Starting with <WEEK_LETTER>"
-date: <TIMESTAMP_ISO8601_UTC>
-draft: false
----
-```
-Set `<YEAR>` from the run input if provided; otherwise use the repository's active post cycle year (fallback: current calendar year).
-
-3. Include intro, one section per project, and conclusion.
-4. Keep every project section factual and concise.
-5. Optionally append the researched project count to the title after drafting all project sections.
-
-### 4) Tracker updates
-Update `data/weeks/<WEEK_ID>/tracker.yaml`:
-- Mark researched items as `research: completed`.
-- Mark week `blog_post` as `completed` when post is saved.
-- If work fails, set status to `failed` with error details.
-
-## Suggested Prompt
-
+### Full Week Workflow:
 ```text
 Use the cncf-weekly-content skill from .agents/skills.
 - Pick the next incomplete week from data/weeks/*/tracker.yaml.
-- Complete missing research YAML files for that week.
+- Complete missing research YAML files and tool pages for that week.
 - Generate/update website/content/posts/<YEAR>-<WEEK_LETTER>.md from research.
 - Update tracker statuses accordingly.
-- Do not hallucinate facts; use only verifiable information.
-- Return a summary of changed files and remaining incomplete tasks.
 ```
 
 ## Definition of Done
-- Required research YAML files exist for the selected week.
-- Weekly post exists and reflects available research.
+- Research YAML exists for the project.
+- Tool page markdown exists at `website/content/tools/<project>.md`.
 - Tracker statuses are accurate for completed/failed work.
 - Changes are reviewable in a single PR.
+

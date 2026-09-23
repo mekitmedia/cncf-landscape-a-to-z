@@ -129,6 +129,49 @@ This is an auto-generated tool page. For more details, see the [letter page](/le
         return None
 
 
+def generate_single_tool_page(
+    research_file_or_name: str | Path,
+    week_id: Optional[str] = None,
+) -> Optional[Path]:
+    """
+    Generate a single Hugo tool page from a research file path or project name.
+    """
+    cfg = load_config()
+    tools_content_dir = cfg.hugo_tools_dir
+    tools_content_dir.mkdir(parents=True, exist_ok=True)
+
+    path = Path(research_file_or_name)
+    if not path.is_file():
+        # Treat as sanitized name or week_id lookup
+        sanitized = sanitize_for_filename(str(research_file_or_name))
+        found_file = None
+        found_week_id = None
+        for week_dir in _get_week_dirs(cfg):
+            candidate = week_dir / "research" / f"{sanitized}.yaml"
+            if candidate.exists():
+                found_file = candidate
+                found_week_id = week_dir.name
+                break
+        if not found_file:
+            print(f"Could not find research file for {research_file_or_name}")
+            return None
+        path = found_file
+        week_id = found_week_id
+    elif week_id is None:
+        # Infer week_id from parent directory: .../weeks/<week_id>/research/...
+        week_id = path.parent.parent.name
+
+    page_content = generate_tool_page(path, week_id)
+    if not page_content:
+        return None
+
+    output_file = tools_content_dir / f"{path.stem}.md"
+    with output_file.open("w", encoding="utf-8") as f:
+        f.write(page_content)
+    print(f"✓ Generated {output_file}")
+    return output_file
+
+
 def generate_tool_pages() -> int:
     """Generate all tool pages from research files."""
     cfg = load_config()
@@ -162,3 +205,4 @@ def generate_tool_pages() -> int:
 
 if __name__ == "__main__":
     generate_tool_pages()
+

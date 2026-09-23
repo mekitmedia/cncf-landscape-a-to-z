@@ -45,6 +45,18 @@ list-models:
 tools:
     uv run python -m src.pipeline.tool_pages
 
+# Draw a task from ad-hoc queue or weighted roulette
+roulette week="" format="prompt":
+    if [ -n "{{week}}" ]; then \
+        uv run python -m src.cli run roulette --week={{week}} --format={{format}}; \
+    else \
+        uv run python -m src.cli run roulette --format={{format}}; \
+    fi
+
+draw week="" format="prompt":
+    @just roulette "{{week}}" "{{format}}"
+
+
 # Run unit tests
 test:
     PYTHONPATH=. uv run pytest tests/
