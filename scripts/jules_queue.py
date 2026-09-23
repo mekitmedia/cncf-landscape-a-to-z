@@ -80,6 +80,15 @@ def resolve_prompt(
         content = selected_task.read_text(encoding="utf-8").strip()
         return content, "backlog_task", selected_task.name
 
+    # Draw task from ad-hoc queue or weighted roulette
+    try:
+        from src.roulette import draw_task
+        drawn = draw_task()
+        if drawn:
+            return drawn.to_prompt(), f"roulette_{drawn.task_type}", drawn.project_name
+    except Exception:
+        pass
+
     default_file = get_default_prompt_file(root)
     if default_file.exists():
         content = default_file.read_text(encoding="utf-8").strip()
