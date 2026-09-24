@@ -1,0 +1,24 @@
+project_name: "Typhoon"
+summary: "Minimal and free Kubernetes distribution with Terraform"
+key_features:
+  - "Declarative provisioning using Terraform"
+  - "Provides highly available Kubernetes control planes"
+  - "Supports multiple environments including AWS, Google Cloud, Azure, and bare metal"
+recent_updates: "v1.36.1 was released."
+use_cases: "Provisioning and managing Kubernetes clusters declaratively."
+interesting_facts: "Typhoon is known for being a minimal Kubernetes distribution powered by Terraform."
+get_started: "Check out the official documentation on the homepage to start provisioning your cluster with Terraform."
+related_tools:
+  - "Terraform"
+  - "Kubespray"
+  - "kops"
+sources:
+  - id: "typhoon_source_1"
+    title: "Typhoon GitHub Repository"
+    url: "https://github.com/poseidon/typhoon"
+    quotes:
+      - "Minimal and free Kubernetes distribution with Terraform"
+latest_release:
+  version: "v1.36.1"
+  date: "2026-06-08T05:08:02Z"
+  url: "https://github.com/poseidon/typhoon/releases/tag/v1.36.1"
