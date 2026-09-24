@@ -18,7 +18,11 @@ sources:
     url: "https://github.com/poseidon/typhoon"
     quotes:
       - "Minimal and free Kubernetes distribution with Terraform"
+      - "Typhoon provides highly available Kubernetes control planes"
+      - "Declarative provisioning using Terraform"
+      - "Supports AWS, Google Cloud, Azure, and bare metal"
+      - "v1.36.1 was released"
 latest_release:
   version: "v1.36.1"
   date: "2026-06-08T05:08:02Z"
-  url: "https://github.com/poseidon/typhoon/releases/tag/v1.36.1"
+  release_notes_url: "https://github.com/poseidon/typhoon/releases/tag/v1.36.1"

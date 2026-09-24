@@ -801,7 +801,7 @@ items:
     tasks:
       research:
         status: completed
-        started_at: null
+        started_at: '2026-09-24T00:50:37.943405+00:00'
         completed_at: '2026-09-24T00:50:37.943405+00:00'
         output_file: data/weeks/19-T/research/typhoon.yaml
         error_message: null
@@ -809,7 +809,7 @@ items:
         agent: researcher
       content:
         status: completed
-        started_at: null
+        started_at: '2026-09-24T00:50:37.943405+00:00'
         completed_at: '2026-09-24T00:50:37.943405+00:00'
         output_file: website/content/tools/typhoon.md
         error_message: null
