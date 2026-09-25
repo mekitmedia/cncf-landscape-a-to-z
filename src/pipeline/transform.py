@@ -2,7 +2,6 @@ from src.logger import get_logger
 
 import yaml
 from pathlib import Path
-from pydantic import ValidationError
 from src.config import load_config
 
 def _get_overlay_data() -> dict:
@@ -266,7 +265,7 @@ def get_workflow_stats(landscape: list, config=None) -> dict:
     and A-Z research/workflow progress.
     """
     logger.info("Gathering workflow statistics...")
-    from src.tracker import TrackerError, get_tracker
+    from src.tracker import get_tracker
 
     status_counts = get_stats_by_status(landscape)
 
@@ -301,12 +300,12 @@ def get_workflow_stats(landscape: list, config=None) -> dict:
             try:
                 t = tracker.load_tracker(letter)
                 items = [item for item in t.items.values() if not item.removed]
-                res_done = sum(1 for item in items if item.get('research') and item.get('research').status == 'completed')
-                content_done = sum(1 for item in items if item.get('content') and item.get('content').status == 'completed')
+                res_done = sum(1 for item in items if item.get('research') and item['research'].status == 'completed')
+                content_done = sum(1 for item in items if item.get('content') and item['content'].status == 'completed')
 
                 bp_status = 'pending'
-                if t.week_tasks and t.week_tasks.get('blog_post'):
-                    bp_status = t.week_tasks.get('blog_post').status
+                if t.week_tasks and t.week_tasks.tasks.get('blog_post'):
+                    bp_status = t.week_tasks.tasks['blog_post'].status
                 if bp_status == 'completed':
                     completed_blog_posts += 1
 
@@ -326,8 +325,8 @@ def get_workflow_stats(landscape: list, config=None) -> dict:
                     'total_tasks': prog.total,
                     'completion_percentage': round(prog.completion_percentage, 1)
                 })
-            except (OSError, yaml.YAMLError, ValidationError, TrackerError) as e:
-                logger.warning(f"Could not load tracker stats for letter {letter}: {e}", exc_info=True)
+            except Exception as e:
+                logger.warning(f"Could not load tracker stats for letter {letter}: {e}")
                 letter_progress.append({
                     'letter': letter,
                     'week_index': index,
