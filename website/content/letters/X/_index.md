@@ -14,4 +14,3 @@ This week has a total of 2 items.
 - **App Definition And Development Database**: 1 items
 
 - **Data Data Science**: 1 items
-
