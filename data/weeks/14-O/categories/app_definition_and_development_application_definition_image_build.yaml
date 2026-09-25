@@ -1,4 +1,6 @@
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: SDK for building Kubernetes applications. Provides high level APIs,
+    useful abstractions, and project scaffolding
   featured: true
   homepage_url: https://operatorframework.io/
   logo: operator-framework.svg
@@ -6,7 +8,7 @@
   project: incubating
   repo_url: https://github.com/operator-framework/operator-sdk
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  description: Multi-language OCI Registry SDKs and CLI
+  description: ORAS is the tool for working with OCI Artifacts
   featured: true
   homepage_url: https://oras.land/
   logo: oras.svg

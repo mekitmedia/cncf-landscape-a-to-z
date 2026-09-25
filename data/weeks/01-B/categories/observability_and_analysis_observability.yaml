@@ -5,6 +5,15 @@
   name: Beats
   project: null
   repo_url: https://github.com/elastic/beats
+- description: BetterDB Monitor is a monitoring dashboard for Valkey, Redis and Dragonfly
+    that persists slowlogs, command patterns and client activity for historical debugging,
+    exports Prometheus metrics and OTLP telemetry, and detects anomalies in real time.
+  featured: true
+  homepage_url: https://betterdb.com
+  logo: betterdb-monitor.svg
+  name: BetterDB Monitor
+  project: null
+  repo_url: https://github.com/BetterDB-inc/monitor
 - crunchbase: https://www.crunchbase.com/organization/kubeshop
   featured: true
   homepage_url: https://www.botkube.io

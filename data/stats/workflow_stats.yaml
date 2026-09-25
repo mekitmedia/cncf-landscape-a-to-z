@@ -1,0 +1,257 @@
+categories:
+  AI/Machine Learning: 6
+  API Gateway: 26
+  Accelerator and SuperPod: 3
+  Agent Framework: 11
+  Agent Tool: 5
+  Application Definition & Image Build: 68
+  Application Frameworks: 15
+  Automation & Configuration: 59
+  Certified Kubernetes - Distribution: 24
+  Certified Kubernetes - Hosted: 2
+  Certified Kubernetes - Installer: 16
+  Chaos Engineering: 9
+  Cloud Native Network: 18
+  Cloud Native Storage: 26
+  Container Registry: 7
+  Container Runtime: 24
+  Continuous Integration & Delivery: 36
+  Continuous Integration and Delivery: 5
+  Continuous Optimization: 7
+  Coordination & Service Discovery: 8
+  Data Architecture: 9
+  Data Science: 6
+  Database: 67
+  Debugging & Observability: 3
+  Decentralized Platforms: 7
+  Distributed Training: 6
+  Edge/Bare metal: 3
+  Embedded Functions: 9
+  Evaluation: 7
+  Feature Flagging: 7
+  Framework: 24
+  Gateway: 4
+  Governance, Policy and Security: 4
+  Guardrail: 3
+  Hosted Platform: 1
+  Installable Platform: 12
+  Key Management: 8
+  Knowledge Graph: 2
+  Languages: 16
+  Model Asset and Registry: 1
+  Observability: 94
+  Orchestration & Management: 14
+  Orchestration and Scheduling: 7
+  PaaS/Container Service: 11
+  Packaging, Registries & Application Delivery: 3
+  Post Training: 7
+  Protocol: 2
+  RAG: 5
+  Remote Procedure Call: 14
+  Runtime: 6
+  Runtimes: 9
+  Scheduling & Orchestration: 48
+  Security & Compliance: 82
+  Service Mesh: 12
+  Service Proxy: 18
+  State and Memory: 1
+  Streaming & Messaging: 32
+  Structured Output: 4
+  Tooling: 14
+  Tools: 4
+  Vector Database: 5
+  Workflow Orchestration: 5
+  Workload Runtime: 2
+cncf_statuses:
+  graduated: 39
+  incubating: 38
+  non-cncf: 746
+  sandbox: 150
+letter_progress:
+  A:
+    editorial: 10
+    is_complete: false
+    letter: A
+    researched: 30
+    total_tools: 69
+    week_id: 00-A
+  B:
+    editorial: 0
+    is_complete: false
+    letter: B
+    researched: 0
+    total_tools: 20
+    week_id: 01-B
+  C:
+    editorial: 0
+    is_complete: false
+    letter: C
+    researched: 0
+    total_tools: 79
+    week_id: 02-C
+  D:
+    editorial: 0
+    is_complete: false
+    letter: D
+    researched: 0
+    total_tools: 34
+    week_id: 03-D
+  E:
+    editorial: 0
+    is_complete: false
+    letter: E
+    researched: 0
+    total_tools: 24
+    week_id: 04-E
+  F:
+    editorial: 0
+    is_complete: false
+    letter: F
+    researched: 0
+    total_tools: 28
+    week_id: 05-F
+  G:
+    editorial: 0
+    is_complete: false
+    letter: G
+    researched: 0
+    total_tools: 35
+    week_id: 06-G
+  H:
+    editorial: 0
+    is_complete: false
+    letter: H
+    researched: 0
+    total_tools: 24
+    week_id: 07-H
+  I:
+    editorial: 0
+    is_complete: false
+    letter: I
+    researched: 0
+    total_tools: 15
+    week_id: 08-I
+  J:
+    editorial: 0
+    is_complete: false
+    letter: J
+    researched: 0
+    total_tools: 9
+    week_id: 09-J
+  K:
+    editorial: 0
+    is_complete: false
+    letter: K
+    researched: 0
+    total_tools: 107
+    week_id: 10-K
+  L:
+    editorial: 0
+    is_complete: false
+    letter: L
+    researched: 0
+    total_tools: 27
+    week_id: 11-L
+  M:
+    editorial: 0
+    is_complete: false
+    letter: M
+    researched: 0
+    total_tools: 41
+    week_id: 12-M
+  N:
+    editorial: 0
+    is_complete: false
+    letter: N
+    researched: 0
+    total_tools: 30
+    week_id: 13-N
+  O:
+    editorial: 0
+    is_complete: false
+    letter: O
+    researched: 0
+    total_tools: 59
+    week_id: 14-O
+  P:
+    editorial: 0
+    is_complete: false
+    letter: P
+    researched: 0
+    total_tools: 43
+    week_id: 15-P
+  Q:
+    editorial: 0
+    is_complete: false
+    letter: Q
+    researched: 0
+    total_tools: 5
+    week_id: 16-Q
+  R:
+    editorial: 0
+    is_complete: false
+    letter: R
+    researched: 0
+    total_tools: 22
+    week_id: 17-R
+  S:
+    editorial: 0
+    is_complete: false
+    letter: S
+    researched: 0
+    total_tools: 84
+    week_id: 18-S
+  T:
+    editorial: 0
+    is_complete: false
+    letter: T
+    researched: 0
+    total_tools: 47
+    week_id: 19-T
+  U:
+    editorial: 0
+    is_complete: false
+    letter: U
+    researched: 0
+    total_tools: 5
+    week_id: 20-U
+  V:
+    editorial: 0
+    is_complete: false
+    letter: V
+    researched: 0
+    total_tools: 14
+    week_id: 21-V
+  W:
+    editorial: 0
+    is_complete: false
+    letter: W
+    researched: 0
+    total_tools: 26
+    week_id: 22-W
+  X:
+    editorial: 0
+    is_complete: false
+    letter: X
+    researched: 0
+    total_tools: 2
+    week_id: 23-X
+  Y:
+    editorial: 0
+    is_complete: false
+    letter: Y
+    researched: 0
+    total_tools: 4
+    week_id: 24-Y
+  Z:
+    editorial: 0
+    is_complete: false
+    letter: Z
+    researched: 0
+    total_tools: 6
+    week_id: 25-Z
+summary:
+  cncf_hosted: 227
+  published_posts: 10
+  researched_tools: 30
+  total_tools: 973

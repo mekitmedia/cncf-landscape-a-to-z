@@ -258,3 +258,91 @@ def get_landscape_by_letter(landscape: list) -> dict:
         index[letter]['tasks'].sort()
 
     return index
+
+
+def get_workflow_stats(landscape: list, data_dir: Path = None) -> dict:
+    """
+    Computes aggregated workflow statistics including landscape tool totals,
+    CNCF status distribution, subcategory breakdowns, and letter-by-letter
+    research/editorial workflow progress from data/weeks tracking files.
+    """
+    logger.info("Calculating workflow statistics")
+
+    total_tools = 0
+    cncf_statuses = {"graduated": 0, "incubating": 0, "sandbox": 0, "non-cncf": 0}
+    category_counts = {}
+
+    for c in landscape:
+        for sub in (c.get('subcategories') or []):
+            sub_name = sub['name']
+            sub_items = [item for item in (sub.get('items') or []) if _is_valid_item(item)]
+            if sub_items:
+                category_counts[sub_name] = category_counts.get(sub_name, 0) + len(sub_items)
+            for item in sub_items:
+                total_tools += 1
+                status = item.get('project')
+                if status in cncf_statuses:
+                    cncf_statuses[status] += 1
+                else:
+                    cncf_statuses["non-cncf"] += 1
+
+    letter_progress = {}
+    total_researched = 0
+    total_editorial = 0
+
+    if data_dir is None:
+        from src.config import load_config
+        data_dir = load_config().data_dir
+
+    from src.config import week_id as get_week_id
+
+    for index, letter_code in enumerate(range(ord('A'), ord('Z') + 1)):
+        letter = chr(letter_code)
+        w_id = get_week_id(letter)
+        tracker_path = data_dir / "weeks" / w_id / "tracker.yaml"
+
+        researched_count = 0
+        editorial_count = 0
+        letter_total = 0
+
+        if tracker_path.exists():
+            try:
+                with open(tracker_path, "r", encoding="utf-8") as tf:
+                    tdata = yaml.safe_load(tf) or {}
+                items = tdata.get("items", {})
+                for item_name, item_info in items.items():
+                    if isinstance(item_info, dict) and not item_info.get("removed", False):
+                        letter_total += 1
+                        tasks = item_info.get("tasks", {})
+                        res_task = tasks.get("research", {})
+                        if isinstance(res_task, dict) and res_task.get("status") == "completed":
+                            researched_count += 1
+                        cnt_task = tasks.get("content", {})
+                        if isinstance(cnt_task, dict) and cnt_task.get("status") == "completed":
+                            editorial_count += 1
+            except Exception as e:
+                logger.warning(f"Error reading tracker for {w_id}: {e}")
+
+        total_researched += researched_count
+        total_editorial += editorial_count
+
+        letter_progress[letter] = {
+            "letter": letter,
+            "week_id": w_id,
+            "total_tools": letter_total,
+            "researched": researched_count,
+            "editorial": editorial_count,
+            "is_complete": letter_total > 0 and researched_count == letter_total
+        }
+
+    return {
+        "summary": {
+            "total_tools": total_tools,
+            "cncf_hosted": cncf_statuses["graduated"] + cncf_statuses["incubating"] + cncf_statuses["sandbox"],
+            "researched_tools": total_researched,
+            "published_posts": total_editorial
+        },
+        "cncf_statuses": cncf_statuses,
+        "categories": dict(sorted(category_counts.items(), key=lambda x: x[0])),
+        "letter_progress": letter_progress
+    }

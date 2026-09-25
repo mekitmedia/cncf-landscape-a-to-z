@@ -8,7 +8,7 @@ layout: "list"
 
 # Summary for 12-M
 
-This week has a total of 41 items.
+This week has a total of 42 items.
 
 
 - **Provisioning Automation Configuration**: 4 items
@@ -58,6 +58,8 @@ This week has a total of 41 items.
 - **Training Distributed Training**: 1 items
 
 - **Ai Native Infra Gateway**: 1 items
+
+- **Ai Native Infra Model Asset And Registry**: 1 items
 
 - **Ai Native Infra Continuous Integration And Delivery**: 2 items
 

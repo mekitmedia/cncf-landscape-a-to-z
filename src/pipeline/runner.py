@@ -9,6 +9,7 @@ from src.pipeline.transform import (
     get_stats_by_status,
     get_items_without_repo_url,
     get_landscape_by_letter,
+    get_workflow_stats,
 )
 from src.pipeline.load import (
     to_yaml,
@@ -115,5 +116,9 @@ def run_etl(
                         new_items[item['name']] = item
 
     build_changelog(old_items, new_items, output_dir)
+
+
+    workflow_stats = get_workflow_stats(landscape, dirs["weeks"].parent)
+    to_yaml(workflow_stats, str(dirs["stats"] / "workflow_stats.yaml"))
 
     logger.info("Landscape processing finished")

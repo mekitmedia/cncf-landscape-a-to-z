@@ -79,7 +79,8 @@ AI Native Infra:
   - OPA/Gatekeeper
   - OPEA
   - Stacklock Minder
-  Model Asset and Registry: []
+  Model Asset and Registry:
+  - MatrixHub
   Network: []
   Observability:
   - Deepchecks
@@ -236,6 +237,7 @@ App Definition and Development:
   - Infinispan
   - KubeBlocks by ApeCloud
   - KubeDB by AppsCode
+  - LibreDB Studio
   - MariaDB
   - MongoDB
   - MySQL
@@ -381,6 +383,7 @@ Observability and Analysis:
   - Anteon
   - argonaut
   - Beats
+  - BetterDB Monitor
   - Botkube
   - Centreon
   - Checkmk
@@ -394,6 +397,7 @@ Observability and Analysis:
   - Embrace
   - Falcon
   - Fluentd
+  - Gigapipe
   - Gonzo
   - Grafana
   - Grafana Loki
