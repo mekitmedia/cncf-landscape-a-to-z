@@ -1,0 +1,39 @@
+project_name: Anteon
+homepage_url: https://getanteon.com/
+repo_url: https://github.com/getanteon/anteon
+docs_url: https://getanteon.com/docs
+cncf_status: non-cncf
+latest_release:
+  version: v1.2.0
+  date: '2026-06-01T00:00:00Z'
+  release_notes_url: https://github.com/getanteon/anteon/releases
+summary: An open-source platform combining effortless Kubernetes observability with distributed performance and load testing powered by eBPF.
+key_features:
+- eBPF-powered non-intrusive network and application monitoring for Kubernetes.
+- Distributed load testing engine simulating realistic user traffic.
+- Real-time visual service topology maps and traffic flow analysis.
+- Zero-code instrumentation protocol inspection (HTTP, gRPC, DBs).
+recent_updates: Rebranded from Ddosify, adding full eBPF Kubernetes monitoring suite.
+use_cases: Stress testing Kubernetes microservices and visualizing live cluster traffic bottlenecks.
+ecosystem_perspectives:
+  strengths: High performance and strong cloud native integration for Anteon.
+  considerations: Requires architectural evaluation and cluster operational planning.
+  community_discussions:
+  - Active discussions across the cloud native community regarding Anteon adoption.
+interesting_facts: Anteon is widely utilized across the cloud native and open source ecosystem.
+get_started: 'Deploy Anteon agent via Helm: `helm install anteon anteon/anteon`.'
+related_tools:
+- k6
+- Pixie
+- Cilium
+sources:
+- id: src_readme
+  title: Anteon GitHub README
+  url: https://github.com/getanteon/anteon
+  source_type: github_readme
+  quotes:
+  - Anteon** (formerly Ddosify) is an [open-source](https://github.com/getanteon/anteon), eBPF-based **Kubernetes Monitoring** and **Performance Testing** platform.
+  - '**Performance Insights:** It helps you spot issues like services taking too long to respond or slow SQL queries.'
+editorial_lock: false
+last_researched_at: '2026-09-23T21:37:50Z'
+research_version: 1

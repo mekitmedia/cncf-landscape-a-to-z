@@ -48,6 +48,15 @@ def validate_yaml_file(filepath: Path) -> List[str]:
     project_slug = data.get('project_name', filepath.stem).lower()
     cache_dir = filepath.parent / '.cache'
 
+    # 4. Summary & Feature Grounding Attribution
+    summary = data.get('summary')
+    if not summary or not isinstance(summary, str) or not summary.strip():
+        errors.append("Missing or empty 'summary'")
+
+    key_features = data.get('key_features', [])
+    if not key_features or not isinstance(key_features, list) or len(key_features) == 0:
+        errors.append("Missing or empty 'key_features'")
+
     # 1. & 3. Quote existence & Link syntax
     for source in sources:
         source_id = source.get('id')
@@ -78,18 +87,11 @@ def validate_yaml_file(filepath: Path) -> List[str]:
                 errors.append(f"Source '{source_id}' has empty or invalid quote")
                 continue
 
+            if summary and quote.strip().lower() == summary.strip().lower():
+                errors.append(f"Source '{source_id}' quote is identical to summary (circular grounding)")
+
             if cached_text is not None and not is_quote_in_source(quote, cached_text):
                 errors.append(f"Quote '{quote[:50]}...' not found in cached source {source_id}")
-
-    # 4. Summary & Feature Grounding Attribution
-    # In deterministic script, we just verify that these fields are not empty
-    summary = data.get('summary')
-    if not summary or not isinstance(summary, str) or not summary.strip():
-        errors.append("Missing or empty 'summary'")
-
-    key_features = data.get('key_features', [])
-    if not key_features or not isinstance(key_features, list) or len(key_features) == 0:
-        errors.append("Missing or empty 'key_features'")
 
     return errors
 

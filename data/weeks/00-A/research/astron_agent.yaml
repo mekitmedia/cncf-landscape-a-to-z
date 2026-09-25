@@ -1,27 +1,15 @@
 project_name: Astron Agent
-summary: Astron Agent is an enterprise-grade, commercial-friendly agentic workflow
-  development platform that integrates AI workflow orchestration, model management,
-  AI and MCP tool integration, RPA automation, and team collaboration features.
+summary: Astron Agent is an enterprise-grade, commercial-friendly agentic workflow development platform that integrates AI workflow orchestration, model management, AI and MCP tool integration, RPA automation, and team collaboration features.
 key_features:
 - AI workflow orchestration and model management
 - AI and MCP tool integration
 - Native intelligent RPA integration for connecting enterprise systems
 - High-availability deployment architecture
 - Enterprise-grade open ecosystem compatible with various industry models
-recent_updates: Released v1.1.2 Security Release addressing unsafe workflow code-node
-  execution. Migrated to built-in isolated LangChain/Pyodide executor by default for
-  local code execution. Added Langfuse integration and end-to-end agent traces. Strengthened
-  authentication on internal Workflow and Tenant service APIs.
-use_cases: Building scalable, production-ready intelligent agent applications. Orchestrating
-  complex multi-agent workflows. Automating enterprise processes using intelligent
-  RPA. Developing AI foundation for organizations with team collaboration.
-interesting_facts: Built on the same core technology as the iFLYTEK Astron Agent Platform.
-  Deeply compatible with Model Context Protocol (MCP) and various industry models.
-  Released under the permissive Apache 2.0 License allowing free commercial use.
-get_started: 'Deploy using Docker Compose: `git clone https://github.com/iflytek/astron-agent.git
-  && cd docker/astronAgent && docker compose -f docker-compose-with-auth.yaml up -d`.
-  Access the Casdoor Admin Interface at `http://localhost:8000` (default login: admin/123).
-  Access the Application Frontend at `http://localhost/`'
+recent_updates: Released v1.1.2 Security Release addressing unsafe workflow code-node execution. Migrated to built-in isolated LangChain/Pyodide executor by default for local code execution. Added Langfuse integration and end-to-end agent traces. Strengthened authentication on internal Workflow and Tenant service APIs.
+use_cases: Building scalable, production-ready intelligent agent applications. Orchestrating complex multi-agent workflows. Automating enterprise processes using intelligent RPA. Developing AI foundation for organizations with team collaboration.
+interesting_facts: Built on the same core technology as the iFLYTEK Astron Agent Platform. Deeply compatible with Model Context Protocol (MCP) and various industry models. Released under the permissive Apache 2.0 License allowing free commercial use.
+get_started: 'Deploy using Docker Compose: `git clone https://github.com/iflytek/astron-agent.git && cd docker/astronAgent && docker compose -f docker-compose-with-auth.yaml up -d`. Access the Casdoor Admin Interface at `http://localhost:8000` (default login: admin/123). Access the Application Frontend at `http://localhost/`'
 related_tools:
 - SkillHub
 - AstronRPA
@@ -33,20 +21,18 @@ sources:
   url: https://github.com/iflytek/astron-agent
   source_type: github_readme
   quotes:
-  - "Astron Agent is an **enterprise-grade, commercial-friendly** Agentic Workflow development platform that integrates AI workflow orchestration, model management, AI and MCP tool integration, RPA automation, and team collaboration features."
-  - "The platform supports **high-availability** deployment, enabling organizations to rapidly build **scalable, production-ready** intelligent agent applications and establish their AI foundation for the future."
-  - "Natively integrates intelligent RPA, efficiently connecting internal and external enterprise systems, enabling seamless interaction between Agents and enterprise systems."
-  - "Deeply compatible with various industry models and tools, supporting custom extensions and flexibly adapting to diverse enterprise scenarios."
-  - "Built on the same core technology as the iFLYTEK Astron Agent Platform, providing enterprise-grade reliability with a fully available high-availability version open source."
+  - Astron Agent is an **enterprise-grade, commercial-friendly** Agentic Workflow development platform that integrates AI workflow orchestration, model management, AI and MCP tool integration, RPA automation, and team collaboration features.
+  - The platform supports **high-availability** deployment, enabling organizations to rapidly build **scalable, production-ready** intelligent agent applications and establish their AI foundation for the future.
+  - Natively integrates intelligent RPA, efficiently connecting internal and external enterprise systems, enabling seamless interaction between Agents and enterprise systems.
+  - Deeply compatible with various industry models and tools, supporting custom extensions and flexibly adapting to diverse enterprise scenarios.
+  - Built on the same core technology as the iFLYTEK Astron Agent Platform, providing enterprise-grade reliability with a fully available high-availability version open source.
 - id: github_release
   title: Astron Agent v1.1.2 Release Notes
   url: https://github.com/iflytek/astron-agent/releases/tag/v1.1.2
   source_type: github_release
   quotes:
-  - Astron Agent v1.1.2 is a security release. Operators running v1.1.1 or earlier
-    should upgrade promptly
-  - Reject unsafe local code execution and use the built-in isolated LangChain/Pyodide
-    executor by default
+  - Astron Agent v1.1.2 is a security release. Operators running v1.1.1 or earlier should upgrade promptly
+  - Reject unsafe local code execution and use the built-in isolated LangChain/Pyodide executor by default
   - Add Langfuse integration and end-to-end agent traces
 homepage_url: http://astron.ai/
 repo_url: https://github.com/iflytek/astron-agent
@@ -57,12 +43,8 @@ latest_release:
   date: '2026-09-07T06:28:13Z'
   release_notes_url: https://github.com/iflytek/astron-agent/releases/tag/v1.1.2
 ecosystem_perspectives:
-  strengths: Provides a comprehensive enterprise-ready platform integrating RPA with
-    modern LLMs and MCP tools. Features high-availability and an isolated execution
-    environment for security.
-  considerations: Operators need to manage configuration complexity for high-availability
-    setups. Requires careful migration when upgrading from older local execution models.
+  strengths: Provides a comprehensive enterprise-ready platform integrating RPA with modern LLMs and MCP tools. Features high-availability and an isolated execution environment for security.
+  considerations: Operators need to manage configuration complexity for high-availability setups. Requires careful migration when upgrading from older local execution models.
   community_discussions:
   - https://github.com/iflytek/astron-agent/discussions
-  - Recent security release (v1.1.2) heavily discussed regarding tenant isolation
-    and workflow execution safety.
+  - Recent security release (v1.1.2) heavily discussed regarding tenant isolation and workflow execution safety.

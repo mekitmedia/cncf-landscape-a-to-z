@@ -1,43 +1,38 @@
-project_name: "Agent2agent"
-homepage_url: "https://a2a-protocol.org/"
-repo_url: "https://github.com/a2aproject/A2A"
-docs_url: "https://github.com/a2aproject/A2A#readme"
-cncf_status: "non-cncf"
+project_name: Agent2agent
+homepage_url: https://a2a-protocol.org/
+repo_url: https://github.com/a2aproject/A2A
+docs_url: https://github.com/a2aproject/A2A#readme
+cncf_status: non-cncf
 latest_release:
-  version: "v1.0.1"
-  date: "2026-05-28T11:34:36Z"
-  release_notes_url: "https://github.com/a2aproject/A2A/releases/tag/v1.0.1"
-summary: "Agent2Agent (A2A) is an open protocol enabling communication and interoperability between opaque agentic applications."
+  version: v1.0.1
+  date: '2026-05-28T11:34:36Z'
+  release_notes_url: https://github.com/a2aproject/A2A/releases/tag/v1.0.1
+summary: Agent2Agent (A2A) is an open protocol enabling communication and interoperability between opaque agentic applications.
 key_features:
-  - "Standardized Communication: Defines standard message formats and protocols for AI agents to communicate and coordinate tasks."
-  - "Interoperability: Enables agents built on different frameworks or by different organizations to interact seamlessly."
-  - "Extensibility: Designed to allow developers to define custom capabilities and schemas for their specific use cases while maintaining compatibility."
-  - "Open Specification: Maintained as an open-source standard to foster collaboration in the multi-agent ecosystem."
-recent_updates: "Release v1.0.1 includes bug fixes for the HTTP binding to prefer application/a2a+json, transcoding-related changes, and TaskStatus value updates."
-use_cases: "Multi-Agent Systems: Ideal for scenarios where multiple specialized AI agents need to collaborate to solve complex problems, such as a research agent handing off data to a writing agent, or a coding agent communicating with a testing agent."
+- 'Standardized Communication: Defines standard message formats and protocols for AI agents to communicate and coordinate tasks.'
+- 'Interoperability: Enables agents built on different frameworks or by different organizations to interact seamlessly.'
+- 'Extensibility: Designed to allow developers to define custom capabilities and schemas for their specific use cases while maintaining compatibility.'
+- 'Open Specification: Maintained as an open-source standard to foster collaboration in the multi-agent ecosystem.'
+recent_updates: Release v1.0.1 includes bug fixes for the HTTP binding to prefer application/a2a+json, transcoding-related changes, and TaskStatus value updates.
+use_cases: 'Multi-Agent Systems: Ideal for scenarios where multiple specialized AI agents need to collaborate to solve complex problems, such as a research agent handing off data to a writing agent, or a coding agent communicating with a testing agent.'
 ecosystem_perspectives:
-  strengths: "Addresses a critical need for standardization in the rapidly evolving AI agent ecosystem, similar to what HTTP did for web servers."
-  considerations: "As a relatively new protocol, adoption across major agent frameworks and platforms will be key to its long-term success and utility."
+  strengths: Addresses a critical need for standardization in the rapidly evolving AI agent ecosystem, similar to what HTTP did for web servers.
+  considerations: As a relatively new protocol, adoption across major agent frameworks and platforms will be key to its long-term success and utility.
   community_discussions:
-    - "The community sees A2A as a promising step towards true agentic interoperability, potentially unlocking more complex, distributed AI applications."
-interesting_facts: "The project's GitHub topics indicate a connection to the Linux Foundation, suggesting a focus on open governance."
-get_started: "Review the protocol specification in the GitHub repository to understand the core concepts and message schemas. Developers can implement the protocol in their agentic applications to enable A2A communication."
+  - The community sees A2A as a promising step towards true agentic interoperability, potentially unlocking more complex, distributed AI applications.
+interesting_facts: The project's GitHub topics indicate a connection to the Linux Foundation, suggesting a focus on open governance.
+get_started: Review the protocol specification in the GitHub repository to understand the core concepts and message schemas. Developers can implement the protocol in their agentic applications to enable A2A communication.
 related_tools:
-  - "AutoGen"
-  - "LangChain"
-  - "LlamaIndex"
+- AutoGen
+- LangChain
+- LlamaIndex
 sources:
-  - id: "src_readme"
-    title: "A2A GitHub Repository"
-    url: "https://github.com/a2aproject/A2A"
-    source_type: "github_readme"
-    quotes:
-      - "Agent2Agent (A2A) is an open protocol enabling communication and interoperability between opaque agentic applications."
-  - id: "src_release"
-    title: "A2A v1.0.1 Release Notes"
-    url: "https://github.com/a2aproject/A2A/releases/tag/v1.0.1"
-    source_type: "github_release"
-    quotes:
-      - "prefer application/a2a+json in HTTP binding"
-last_researched_at: "2026-09-21T00:00:00Z"
+- id: src_readme
+  title: Agent2agent GitHub README
+  url: https://github.com/a2aproject/A2A
+  source_type: github_readme
+  quotes:
+  - An open protocol enabling communication and interoperability between opaque agentic applications.
+  - Discover each other's capabilities.
+last_researched_at: '2026-09-21T00:00:00Z'
 research_version: 1
