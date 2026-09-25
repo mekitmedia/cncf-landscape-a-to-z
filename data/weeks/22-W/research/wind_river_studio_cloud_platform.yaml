@@ -1,0 +1,31 @@
+project_name: "Wind River Studio Cloud Platform"
+summary: "Wind River Studio Cloud Platform is a high-availability, open-source cloud infrastructure optimized for edge computing and mission-critical systems, based on the StarlingX project."
+key_features:
+  - "Provides a high availability, cost-effective cloud infrastructure for virtualized and containerized workloads"
+  - "Built on the open-source StarlingX project for Kubernetes deployment and configuration management"
+  - "Unifies IT and OT operations with platforms and lifecycle tools for consistent governance"
+  - "Supports modernization of cloud platforms across VMs, containers, and distributed edge environments"
+  - "Delivers production-proven infrastructure and a path to AI readiness at the edge"
+recent_updates: "Updates in upstream StarlingX include enhancements to the system controller filesystems and orchestration features."
+use_cases: "Sovereign cloud operations, edge AI deployments for manufacturing, and mission-critical 5G telecommunications networks."
+interesting_facts: "Wind River cloud platforms deliver determinism, availability, and performance that mission-critical systems demand, and are deployed in mission-critical space systems like NASA's Artemis II."
+get_started: "Organizations can explore Wind River Studio Cloud Platform solutions via their enterprise platforms offerings and utilize the upstream open-source StarlingX project for configuration and deployment."
+related_tools:
+  - "StarlingX"
+  - "eLxr Pro"
+  - "Wind River Linux"
+  - "VxWorks"
+sources:
+  - id: "source_1"
+    title: "Wind River Studio Cloud Platform"
+    url: "https://www.windriver.com/studio/operator/cloud-platform"
+    source_type: "official_website"
+    quotes:
+      - "High availability, cost-effective, open source, cloud infrastructure for virtualized and containerized workloads."
+      - "Modernizing cloud platforms takes more than replacing virtualization. Organizations need a flexible platform that supports VMs, containers, and distributed edge environments. Wind River delivers production-proven infrastructure, unified operations, and a path to AI readiness."
+  - id: "source_2"
+    title: "StarlingX Config Repository"
+    url: "https://github.com/wind-river/starlingx-config"
+    source_type: "github_readme"
+    quotes:
+      - "Starlingx config repository is the core repository of the open source Starlingx Project that is used to install, configure and manage the Kubernetes deployment within Wind River Cloud Platform."
