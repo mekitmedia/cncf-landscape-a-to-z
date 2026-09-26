@@ -25,8 +25,8 @@ test.describe('Navigation - Desktop Routes', () => {
   test('clicking blog link navigates to blog page', async ({ page }) => {
     await page.goto('/');
     
-    // Click Blog link in desktop or mobile navigation
-    await page.click('nav a[href="/posts/"]');
+    // Click Blog link in desktop header navigation
+    await page.click('nav.sticky a[href="/posts/"]');
     
     // Should navigate to /posts/
     await page.waitForURL(/\/posts\//);
@@ -56,8 +56,8 @@ test.describe('Navigation - Desktop Routes', () => {
   test('clicking newsletter link navigates to newsletter preview page', async ({ page }) => {
     await page.goto('/');
     
-    // Click Newsletter link in navigation
-    await page.click('nav a[href="/newsletter-preview/"]');
+    // Click Newsletter link in desktop header navigation
+    await page.click('nav.sticky a[href="/newsletter-preview/"]');
     
     // Should navigate to /newsletter-preview/
     await page.waitForURL(/\/newsletter-preview\//);
@@ -87,8 +87,8 @@ test.describe('Navigation - Desktop Routes', () => {
   test('clicking my watchlist link navigates to watchlist preview page', async ({ page }) => {
     await page.goto('/');
     
-    // Click My Watchlist link in navigation
-    await page.click('nav a[href="/watchlist-preview/"]');
+    // Click My Watchlist link in desktop header navigation
+    await page.click('nav.sticky a[href="/watchlist-preview/"]');
     
     // Should navigate to /watchlist-preview/
     await page.waitForURL(/\/watchlist-preview\//);
@@ -150,6 +150,7 @@ test.describe('Navigation - Mobile Footer Navigation', () => {
 
     // Click Home in mobile footer
     await mobileFooter.locator('a[href="/"]').click();
-    await page.waitForURL(/localhost:1313\/?$/);
+    await page.waitForURL(url => new URL(url).pathname === '/');
+    expect(new URL(page.url()).pathname).toBe('/');
   });
 });
