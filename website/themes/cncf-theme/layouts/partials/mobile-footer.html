@@ -1,0 +1,24 @@
+<footer class="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-t border-slate-200 py-2 px-3 shadow-lg">
+    <nav class="flex items-center justify-around max-w-md mx-auto" aria-label="Mobile main menu">
+        <a href="/" class="flex flex-col items-center gap-1 text-xs font-medium text-slate-600 hover:text-blue-600 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none rounded p-1 transition-colors {{ if .IsHome }}text-blue-600 font-semibold{{ end }}">
+            <i data-lucide="home" class="w-5 h-5"></i>
+            <span>Home</span>
+        </a>
+        <a href="/posts/" class="flex flex-col items-center gap-1 text-xs font-medium text-slate-600 hover:text-blue-600 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none rounded p-1 transition-colors {{ if eq .Section "posts" }}text-blue-600 font-semibold{{ end }}">
+            <i data-lucide="newspaper" class="w-5 h-5"></i>
+            <span>Blog</span>
+        </a>
+        <a href="/newsletter-preview/" class="flex flex-col items-center gap-1 text-xs font-medium text-slate-600 hover:text-blue-600 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none rounded p-1 transition-colors {{ if eq .RelPermalink "/newsletter-preview/" }}text-blue-600 font-semibold{{ end }}">
+            <i data-lucide="mail" class="w-5 h-5"></i>
+            <span>Newsletter</span>
+        </a>
+        <a href="/watchlist-preview/" class="flex flex-col items-center gap-1 text-xs font-medium text-slate-600 hover:text-blue-600 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none rounded p-1 transition-colors {{ if eq .RelPermalink "/watchlist-preview/" }}text-blue-600 font-semibold{{ end }}">
+            <i data-lucide="bookmark" class="w-5 h-5"></i>
+            <span>Watchlist</span>
+        </a>
+        <a href="https://github.com/mekitmedia/cncf-landscape-a-to-z" target="_blank" rel="noopener noreferrer" aria-label="GitHub Repository" class="flex flex-col items-center gap-1 text-xs font-medium text-slate-600 hover:text-blue-600 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none rounded p-1 transition-colors">
+            <i data-lucide="github" class="w-5 h-5"></i>
+            <span>GitHub</span>
+        </a>
+    </nav>
+</footer>
