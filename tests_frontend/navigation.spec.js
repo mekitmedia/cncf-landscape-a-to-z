@@ -1,14 +1,14 @@
 // @ts-check
 const { test, expect } = require('@playwright/test');
 
-test.describe('Navigation - New Routes', () => {
+test.describe('Navigation - Desktop Routes', () => {
   test('blog link in navigation is present and clickable', async ({ page }) => {
     await page.goto('/');
     
     // Check that Blog link exists in navigation
-    const blogLink = page.locator('nav a[href="/posts/"]');
+    const blogLink = page.locator('nav a[href="/posts/"]').first();
     await expect(blogLink).toBeVisible();
-    await expect(blogLink).toHaveText('Blog');
+    await expect(blogLink).toHaveText(/Blog/);
   });
 
   test('blog page loads correctly', async ({ page }) => {
@@ -25,7 +25,7 @@ test.describe('Navigation - New Routes', () => {
   test('clicking blog link navigates to blog page', async ({ page }) => {
     await page.goto('/');
     
-    // Click Blog link in navigation
+    // Click Blog link in desktop or mobile navigation
     await page.click('nav a[href="/posts/"]');
     
     // Should navigate to /posts/
@@ -37,9 +37,9 @@ test.describe('Navigation - New Routes', () => {
     await page.goto('/');
     
     // Check that Newsletter link exists in navigation
-    const newsletterLink = page.locator('nav a[href="/newsletter-preview/"]');
+    const newsletterLink = page.locator('nav a[href="/newsletter-preview/"]').first();
     await expect(newsletterLink).toBeVisible();
-    await expect(newsletterLink).toHaveText('Newsletter');
+    await expect(newsletterLink).toHaveText(/Newsletter/);
   });
 
   test('newsletter preview page loads correctly', async ({ page }) => {
@@ -68,9 +68,9 @@ test.describe('Navigation - New Routes', () => {
     await page.goto('/');
     
     // Check that My Watchlist link exists in navigation
-    const watchlistLink = page.locator('nav a[href="/watchlist-preview/"]');
+    const watchlistLink = page.locator('nav a[href="/watchlist-preview/"]').first();
     await expect(watchlistLink).toBeVisible();
-    await expect(watchlistLink).toHaveText('My Watchlist');
+    await expect(watchlistLink).toHaveText(/Watchlist/);
   });
 
   test('my watchlist preview page loads correctly', async ({ page }) => {
@@ -100,13 +100,56 @@ test.describe('Navigation - New Routes', () => {
     await page.goto('/posts/');
     
     // Navigation should still be present
-    const blogLink = page.locator('nav a[href="/posts/"]');
+    const blogLink = page.locator('nav a[href="/posts/"]').first();
     await expect(blogLink).toBeVisible();
     
-    const newsletterLink = page.locator('nav a[href="/newsletter-preview/"]');
+    const newsletterLink = page.locator('nav a[href="/newsletter-preview/"]').first();
     await expect(newsletterLink).toBeVisible();
     
-    const watchlistLink = page.locator('nav a[href="/watchlist-preview/"]');
+    const watchlistLink = page.locator('nav a[href="/watchlist-preview/"]').first();
     await expect(watchlistLink).toBeVisible();
+  });
+});
+
+test.describe('Navigation - Mobile Footer Navigation', () => {
+  test.use({ viewport: { width: 375, height: 667 } });
+
+  test('mobile footer navigation is visible on mobile screens', async ({ page }) => {
+    await page.goto('/');
+
+    const mobileFooter = page.locator('footer nav[aria-label="Mobile main menu"]');
+    await expect(mobileFooter).toBeVisible();
+
+    // Check links in mobile footer
+    await expect(mobileFooter.locator('a[href="/"]')).toBeVisible();
+    await expect(mobileFooter.locator('a[href="/posts/"]')).toBeVisible();
+    await expect(mobileFooter.locator('a[href="/newsletter-preview/"]')).toBeVisible();
+    await expect(mobileFooter.locator('a[href="/watchlist-preview/"]')).toBeVisible();
+    await expect(mobileFooter.locator('a[href="https://github.com/mekitmedia/cncf-landscape-a-to-z"]')).toBeVisible();
+  });
+
+  test('mobile footer links navigate properly', async ({ page }) => {
+    await page.goto('/');
+
+    const mobileFooter = page.locator('footer nav[aria-label="Mobile main menu"]');
+
+    // Click Blog in mobile footer
+    await mobileFooter.locator('a[href="/posts/"]').click();
+    await page.waitForURL(/\/posts\//);
+    expect(page.url()).toMatch(/\/posts\//);
+
+    // Click Newsletter in mobile footer
+    await mobileFooter.locator('a[href="/newsletter-preview/"]').click();
+    await page.waitForURL(/\/newsletter-preview\//);
+    expect(page.url()).toMatch(/\/newsletter-preview\//);
+
+    // Click Watchlist in mobile footer
+    await mobileFooter.locator('a[href="/watchlist-preview/"]').click();
+    await page.waitForURL(/\/watchlist-preview\//);
+    expect(page.url()).toMatch(/\/watchlist-preview\//);
+
+    // Click Home in mobile footer
+    await mobileFooter.locator('a[href="/"]').click();
+    await page.waitForURL(/localhost:1313\/?$/);
   });
 });
