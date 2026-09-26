@@ -21,6 +21,6 @@ test.describe('Stats Page - Ecosystem Analytics & Workflow Progress', () => {
 
     // Check A-Z workflow progress table
     await expect(page.getByText('A-to-Z Research & Workflow Progress')).toBeVisible();
-    await expect(page.getByRole('link', { name: 'Letter A' }).first()).toBeVisible();
+    await expect(page.getByRole('link', { name: /Letter A/i }).first()).toBeVisible();
   });
 });
