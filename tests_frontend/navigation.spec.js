@@ -151,6 +151,5 @@ test.describe('Navigation - Mobile Footer Navigation', () => {
     // Click Home in mobile footer
     await mobileFooter.locator('a[href="/"]').click();
     await page.waitForURL(url => new URL(url).pathname === '/');
-    expect(new URL(page.url()).pathname).toBe('/');
   });
 });
