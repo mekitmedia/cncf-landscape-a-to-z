@@ -1,0 +1,37 @@
+project_name: "Typhoon"
+summary: "Typhoon is a minimal and free Kubernetes distribution."
+key_features:
+  - "Minimal, stable base Kubernetes distribution"
+  - "Declarative infrastructure and configuration"
+  - "Ready for Ingress, Prometheus, Grafana, CSI, or other addons"
+recent_updates: "Add `cloud_provider` variable so \"external\" cloud controller managers may be used (default null)."
+use_cases: "Practical for labs, datacenters, and clouds."
+interesting_facts: "Typhoon distributes upstream Kubernetes, architectural conventions, and cluster addons, much like a GNU/Linux distribution provides the Linux kernel and userspace components."
+get_started: "Define a Kubernetes cluster by using the Terraform module for your chosen platform and operating system."
+related_tools:
+  - "Terraform"
+  - "Kubespray"
+  - "kops"
+sources:
+  - id: "src_readme"
+    title: "Typhoon GitHub README"
+    url: "https://github.com/poseidon/typhoon"
+    source_type: "github_readme"
+    quotes:
+      - "Typhoon is a minimal and free Kubernetes distribution."
+      - "Minimal, stable base Kubernetes distribution"
+      - "Declarative infrastructure and configuration"
+      - "Ready for Ingress, Prometheus, Grafana, CSI, or other [addons](https://typhoon.psdn.io/addons/)"
+      - "Practical for labs, datacenters, and clouds"
+      - "Typhoon distributes upstream Kubernetes, architectural conventions, and cluster addons, much like a GNU/Linux distribution provides the Linux kernel and userspace components."
+      - "Define a Kubernetes cluster by using the Terraform module for your chosen platform and operating system."
+  - id: "src_release_v1_36_1"
+    title: "Typhoon v1.36.1 Release Notes"
+    url: "https://github.com/poseidon/typhoon/releases/tag/v1.36.1"
+    source_type: "github_release"
+    quotes:
+      - "Add `cloud_provider` variable so \"external\" cloud controller managers may be used (default null)"
+latest_release:
+  version: "v1.36.1"
+  date: "2026-06-08T05:08:02Z"
+  release_notes_url: "https://github.com/poseidon/typhoon/releases/tag/v1.36.1"
