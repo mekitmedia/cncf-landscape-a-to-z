@@ -32,4 +32,3 @@ This week has a total of 14 items.
 - **Wasm Tooling**: 1 items
 
 - **Inference Framework**: 1 items
-

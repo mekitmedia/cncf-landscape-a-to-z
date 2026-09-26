@@ -20,4 +20,3 @@ This week has a total of 5 items.
 - **Observability And Analysis Observability**: 1 items
 
 - **Wasm Decentralized Platforms**: 1 items
-

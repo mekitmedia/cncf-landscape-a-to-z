@@ -1,6 +1,6 @@
 # Summary for 06-G
 
-This week has a total of 34 items.
+This week has a total of 35 items.
 
 
 - **Provisioning Automation Configuration**: 2 items
@@ -29,7 +29,7 @@ This week has a total of 34 items.
 
 - **Observability And Analysis Feature Flagging**: 1 items
 
-- **Observability And Analysis Observability**: 8 items
+- **Observability And Analysis Observability**: 9 items
 
 - **Wasm Languages**: 2 items
 

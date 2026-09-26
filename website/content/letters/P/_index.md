@@ -54,4 +54,3 @@ This week has a total of 43 items.
 - **Data Data Science**: 1 items
 
 - **Training Distributed Training**: 1 items
-
