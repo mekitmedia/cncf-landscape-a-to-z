@@ -2,9 +2,7 @@
 
 ## 🚀 Added Tools
 
-- **BetterDB Monitor** ([Repo](https://github.com/BetterDB-inc/monitor))
-- **LibreDB Studio** ([Repo](https://github.com/libredb/libredb-studio))
-- **MatrixHub** ([Repo](https://github.com/matrixhub-ai/matrixhub))
+- **Gigapipe** ([Repo](https://github.com/metrico/gigapipe))
 
 
 ## 🗑️ Removed Tools
@@ -12,9 +10,4 @@
 - **Hexa**
 - **QBO**
 - **Rancher Kubernetes Engine (RKE)**
-
-
-## 🔄 Updated Tools
-
-- **Meshery**: Status changed from **sandbox** to **incubating**
 

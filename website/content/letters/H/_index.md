@@ -46,4 +46,3 @@ This week has a total of 24 items.
 - **Training Distributed Training**: 1 items
 
 - **Training Post Training**: 1 items
-
