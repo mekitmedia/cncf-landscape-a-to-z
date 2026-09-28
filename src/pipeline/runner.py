@@ -7,6 +7,7 @@ from src.pipeline.transform import (
     get_stats_per_category,
     get_stats_per_category_per_week,
     get_stats_by_status,
+    get_workflow_stats,
     get_items_without_repo_url,
     get_landscape_by_letter,
 )
@@ -90,6 +91,9 @@ def run_etl(
 
     stats_by_status = get_stats_by_status(landscape)
     to_yaml(stats_by_status, str(dirs["stats"] / "stats_by_status.yaml"))
+
+    workflow_stats = get_workflow_stats(landscape, config=config)
+    to_yaml(workflow_stats, str(dirs["stats"] / "workflow_stats.yaml"))
 
     excluded_items = get_items_without_repo_url(landscape)
     to_yaml(excluded_items, str(dirs["extras"] / "excluded_items.yaml"))

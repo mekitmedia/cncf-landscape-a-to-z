@@ -401,18 +401,18 @@ items:
   Wind River Studio Cloud Platform:
     tasks:
       research:
-        status: completed
+        status: pending
         started_at: null
-        completed_at: 2026-09-25T16:03:20.815683+00:00
-        output_file: data/weeks/22-W/research/wind_river_studio_cloud_platform.yaml
+        completed_at: null
+        output_file: null
         error_message: null
         retry_count: 0
         agent: researcher
       content:
-        status: completed
+        status: pending
         started_at: null
-        completed_at: 2026-09-25T16:03:20.815683+00:00
-        output_file: website/content/tools/wind_river_studio_cloud_platform.md
+        completed_at: null
+        output_file: null
         error_message: null
         retry_count: 0
         agent: writer

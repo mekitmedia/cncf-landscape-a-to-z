@@ -258,3 +258,114 @@ def get_landscape_by_letter(landscape: list) -> dict:
         index[letter]['tasks'].sort()
 
     return index
+
+def get_workflow_stats(landscape: list, config=None) -> dict:
+    """
+    Returns aggregated statistics about tools, CNCF statuses, categories,
+    and A-Z research/workflow progress.
+    """
+    logger.info("Gathering workflow statistics...")
+    from src.tracker import get_tracker
+
+    status_counts = get_stats_by_status(landscape)
+
+    # Category tool counts
+    category_counts = {}
+    total_tools = 0
+    for c in landscape:
+        cat_name = c['name']
+        cat_tools = 0
+        for sub in (c.get('subcategories') or []):
+            for item in (sub.get('items') or []):
+                if _is_valid_item(item):
+                    cat_tools += 1
+                    total_tools += 1
+        if cat_tools > 0:
+            category_counts[cat_name] = cat_tools
+
+    tracker = get_tracker(config=config)
+    letter_progress = []
+    overall_completed = 0
+    overall_total = 0
+    completed_blog_posts = 0
+
+    for letter_code in range(ord('A'), ord('Z') + 1):
+        letter = chr(letter_code)
+        index = letter_code - ord('A')
+        week_start = index * 2 + 1
+        week_end = index * 2 + 2
+        period_str = f"Weeks {week_start}-{week_end}"
+
+        if tracker.tracker_exists(letter):
+            try:
+                t = tracker.load_tracker(letter)
+                items = [item for item in t.items.values() if not item.removed]
+                res_done = sum(1 for item in items if item.get('research') and item['research'].status == 'completed')
+                content_done = sum(1 for item in items if item.get('content') and item['content'].status == 'completed')
+
+                bp_status = 'pending'
+                if t.week_tasks and t.week_tasks.tasks.get('blog_post'):
+                    bp_status = t.week_tasks.tasks['blog_post'].status
+                if bp_status == 'completed':
+                    completed_blog_posts += 1
+
+                prog = tracker.get_progress(letter)
+                overall_completed += prog.completed
+                overall_total += prog.total
+
+                letter_progress.append({
+                    'letter': letter,
+                    'week_index': index,
+                    'period_weeks': period_str,
+                    'total_items': len(items),
+                    'research_completed': res_done,
+                    'content_completed': content_done,
+                    'blog_post_status': bp_status,
+                    'completed_tasks': prog.completed,
+                    'total_tasks': prog.total,
+                    'completion_percentage': round(prog.completion_percentage, 1)
+                })
+            except Exception as e:
+                logger.warning(f"Could not load tracker stats for letter {letter}: {e}")
+                letter_progress.append({
+                    'letter': letter,
+                    'week_index': index,
+                    'period_weeks': period_str,
+                    'total_items': 0,
+                    'research_completed': 0,
+                    'content_completed': 0,
+                    'blog_post_status': 'pending',
+                    'completed_tasks': 0,
+                    'total_tasks': 0,
+                    'completion_percentage': 0.0
+                })
+        else:
+            letter_progress.append({
+                'letter': letter,
+                'week_index': index,
+                'period_weeks': period_str,
+                'total_items': 0,
+                'research_completed': 0,
+                'content_completed': 0,
+                'blog_post_status': 'pending',
+                'completed_tasks': 0,
+                'total_tasks': 0,
+                'completion_percentage': 0.0
+            })
+
+    overall_pct = round((overall_completed / overall_total * 100), 1) if overall_total > 0 else 0.0
+
+    return {
+        'summary': {
+            'total_tools': total_tools,
+            'total_categories': len(category_counts),
+            'overall_completed_tasks': overall_completed,
+            'overall_total_tasks': overall_total,
+            'overall_completion_percentage': overall_pct,
+            'completed_blog_posts': completed_blog_posts,
+            'total_blog_posts': 26,
+        },
+        'status_counts': status_counts,
+        'category_counts': category_counts,
+        'letter_progress': letter_progress
+    }
