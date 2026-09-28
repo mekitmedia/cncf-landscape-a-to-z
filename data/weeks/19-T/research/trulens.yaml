@@ -1,0 +1,35 @@
+project_name: "TruLens"
+summary: "TruLens is an open-source, OpenTelemetry-native software tool designed to find where AI agents and LLM applications fail, helping developers reduce costs without losing quality by scoring every step with explainable LLM judges."
+key_features:
+  - "OpenTelemetry-based tracing captures every function call, LLM generation, retrieval, and tool invocation as a structured OTEL span, making it interoperable with observability tools like Jaeger, Datadog, or Grafana Tempo."
+  - "Provides seven purpose-built evaluators for agentic systems, including LogicalConsistency, ExecutionEfficiency, PlanAdherence, ToolSelection, and more to measure agent behavior."
+  - "Supports inline evaluation as the app runs or offline batch mode evaluation on a pre-collected dataset."
+recent_updates: "Released version 2.14.0."
+use_cases: "Tracing and evaluating LLM-based applications, including Agents and RAGs (Retrieval-Augmented Generation) setups, to explain failures, optimize latency, and analyze tokens/costs per step."
+interesting_facts: "TruLens is adopted by major enterprises such as Walmart Global Tech, Cisco, J.P. Morgan Chase, and VMware, and features 95% Agent errors caught with Agent GPA."
+get_started: "Install via pip: `pip install trulens`. You can optionally install specific LLM provider or app framework integrations such as `trulens-providers-openai` or `trulens-apps-langchain`."
+related_tools:
+  - "LangChain"
+  - "LlamaIndex"
+  - "OpenTelemetry"
+sources:
+  - id: "source_1"
+    title: "TruLens Official Documentation"
+    url: "https://www.trulens.org/"
+    source_type: "official_website"
+    quotes:
+      - "TruLens finds where your agent fails and where you can cut cost without losing quality. Open source, OpenTelemetry-native."
+      - "Latency, inputs, outputs, tokens and cost, recorded per step, so a bad answer has a traceable cause rather than a vibe."
+  - id: "source_2"
+    title: "TruLens GitHub Repository"
+    url: "https://github.com/truera/trulens"
+    source_type: "github_repo"
+    quotes:
+      - "Evaluation and Tracking for LLM Experiments and AI Agents"
+      - "TruLens instrumentation is built on OpenTelemetry."
+  - id: "source_3"
+    title: "TruLens Release 2.14.0"
+    url: "https://github.com/truera/trulens/releases/tag/trulens-2.14.0"
+    source_type: "github_release"
+    quotes:
+      - "TruLens 2.14.0"
