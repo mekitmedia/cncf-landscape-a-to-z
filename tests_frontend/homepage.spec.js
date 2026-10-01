@@ -86,8 +86,8 @@ test.describe('Level 2: Letter Pages - All Tools with Abstracts', () => {
   });
 });
 
-test.describe.skip('Level 3: Tool Deep Dive - Individual Project Pages', () => {
-  test('tool page loads with project information', async ({ page }) => {
+test.describe('Level 3: Tool Deep Dive - Individual Project Pages', () => {
+  test('tool page loads with project information and lifecycle stepper', async ({ page }) => {
     await page.goto('/letters/a/');
     
     // Navigate to first available tool page
@@ -104,6 +104,10 @@ test.describe.skip('Level 3: Tool Deep Dive - Individual Project Pages', () => {
     // Should have a title
     const title = await page.title();
     expect(title.length).toBeGreaterThan(0);
+
+    // Verify Lifecycle Stepper presence
+    const lifecycleHeader = page.locator('text=Content Lifecycle & Evolution State');
+    await expect(lifecycleHeader).toBeVisible();
   });
 
   test('tool page has breadcrumb or back navigation', async ({ page }) => {
@@ -155,8 +159,6 @@ test.describe('Navigation Flow - Complete User Journey', () => {
     const detailsLink = page.locator('a:has-text("Details")').first();
     await expect(detailsLink).toBeVisible();
 
-    /*
-    // Skipping Level 3 navigation as tool pages are not yet implemented
     await detailsLink.click();
     await page.waitForURL(/\/tools\/.+/);
     
@@ -170,6 +172,5 @@ test.describe('Navigation Flow - Complete User Journey', () => {
 
     await backLink.click();
     await page.waitForURL(/\/letters\/[a-z]\//);
-    */
   });
 });

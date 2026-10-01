@@ -81,6 +81,55 @@ def _get_project_urls(project_name: str) -> dict:
     return urls
 
 
+
+def _determine_lifecycle_stage(
+    project_name: str,
+    week_id_value: str,
+    item_tracker: Optional[dict],
+    research_data: Optional[dict],
+) -> str:
+    """
+    Determine the lifecycle stage for a tool page:
+    1. 'approved': editorial_lock is True in research YAML or week blog post is completed.
+    2. 'tech_writing': content task is completed in tracker.
+    3. 'first_pass': research task is completed or research YAML file exists with data.
+    4. 'initial': default initial seed state.
+    """
+    if research_data and research_data.get("editorial_lock", False):
+        return "approved"
+
+    if item_tracker:
+        tasks = item_tracker.get("tasks", {})
+        content_task = tasks.get("content", {})
+        research_task = tasks.get("research", {})
+
+        if content_task.get("status") == "completed":
+            return "tech_writing"
+        if research_task.get("status") == "completed":
+            return "first_pass"
+
+    if research_data:
+        return "first_pass"
+
+    return "initial"
+
+
+
+def _get_item_tracker(week_id_value: str, project_name: str) -> Optional[dict]:
+    cfg = load_config()
+    tracker_file = cfg.weeks_dir / week_id_value / "tracker.yaml"
+    if tracker_file.exists():
+        try:
+            with tracker_file.open("r", encoding="utf-8") as f:
+                tracker_data = yaml.safe_load(f) or {}
+            items = tracker_data.get("items", {})
+            if project_name in items:
+                return items[project_name]
+        except Exception:
+            pass
+    return None
+
+
 def generate_tool_page_content(
     project_name: str,
     item: dict,
@@ -109,12 +158,14 @@ def generate_tool_page_content(
     if item.get("description"):
         front_matter["description"] = item["description"]
 
+    item_tracker = _get_item_tracker(week_id_value, project_name)
+    research_data = None
+
     if research_file and research_file.exists():
         try:
             with research_file.open("r", encoding="utf-8") as f:
-                research = yaml.safe_load(f)
-            if research:
-                front_matter["status"] = "completed"
+                research_data = yaml.safe_load(f)
+            if research_data:
                 for key in [
                     "summary",
                     "key_features",
@@ -124,21 +175,21 @@ def generate_tool_page_content(
                     "get_started",
                     "related_tools",
                 ]:
-                    if key in research:
-                        front_matter[key] = research[key]
-            else:
-                front_matter["status"] = "in_progress"
-                front_matter["summary"] = item.get(
-                    "description", "Research for this project is currently in progress."
-                )
+                    if key in research_data:
+                        front_matter[key] = research_data[key]
         except Exception as exc:
             print(f"Error loading research file {research_file}: {exc}")
-            front_matter["status"] = "in_progress"
-            front_matter["summary"] = item.get(
-                "description", "Research for this project is currently in progress."
-            )
-    else:
-        front_matter["status"] = "in_progress"
+
+    stage = _determine_lifecycle_stage(
+        project_name=project_name,
+        week_id_value=week_id_value,
+        item_tracker=item_tracker,
+        research_data=research_data,
+    )
+    front_matter["lifecycle_stage"] = stage
+    front_matter["status"] = "completed" if stage in ("first_pass", "tech_writing", "approved") else "in_progress"
+
+    if not front_matter.get("summary"):
         front_matter["summary"] = item.get(
             "description", "Research for this project is currently in progress."
         )
