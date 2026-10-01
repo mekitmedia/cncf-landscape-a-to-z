@@ -800,18 +800,18 @@ items:
   Typhoon:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-24T00:50:37.943405+00:00'
+        completed_at: '2026-09-24T00:50:37.943405+00:00'
+        output_file: data/weeks/19-T/research/typhoon.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-24T00:50:37.943405+00:00'
+        completed_at: '2026-09-24T00:50:37.943405+00:00'
+        output_file: website/content/tools/typhoon.md
         error_message: null
         retry_count: 0
         agent: writer
