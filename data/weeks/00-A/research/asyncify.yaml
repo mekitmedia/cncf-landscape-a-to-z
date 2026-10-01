@@ -1,4 +1,7 @@
 project_name: Asyncify
+homepage_url: https://github.com/GoogleChromeLabs/asyncify
+repo_url: https://github.com/GoogleChromeLabs/asyncify
+cncf_status: non-cncf
 summary: A JavaScript wrapper intended to be used with the Asyncify feature of Binaryen. Together, they allow the use of asynchronous APIs (such as most Web APIs) from within WebAssembly written and compiled from any source language.
 key_features:
 - JavaScript wrapper for Binaryen's Asyncify feature.

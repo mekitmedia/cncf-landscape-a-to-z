@@ -1,4 +1,7 @@
 project_name: "Wind River Studio Cloud Platform"
+homepage_url: https://www.windriver.com/studio/operator/cloud-platform
+repo_url: https://github.com/wind-river/starlingx-config
+cncf_status: non-cncf
 summary: "Wind River Studio Cloud Platform is a high-availability, open-source cloud infrastructure optimized for edge computing and mission-critical systems, based on the StarlingX project."
 key_features:
   - "Provides a high availability, cost-effective cloud infrastructure for virtualized and containerized workloads"

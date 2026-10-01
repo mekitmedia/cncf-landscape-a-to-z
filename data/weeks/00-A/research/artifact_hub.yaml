@@ -1,4 +1,7 @@
 project_name: Artifact Hub
+homepage_url: https://artifacthub.io
+repo_url: https://github.com/artifacthub/hub
+cncf_status: incubating
 summary: Artifact Hub is a web-based application for finding, installing, and publishing cloud-native packages and configurations.
 key_features:
 - Discover, install, and publish packages and configurations
