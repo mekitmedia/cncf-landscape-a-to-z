@@ -1,0 +1,35 @@
+project_name: "WasmEdge-Quickjs"
+summary: "WasmEdge-Quickjs is a high-performance, secure, extensible, and OCI-compliant JavaScript runtime designed to run JavaScript in WebAssembly using WasmEdge."
+key_features:
+  - "Provides a standard JavaScript runtime within WebAssembly."
+  - "Optimized for Linux x86_64 with pre-AOT-compiled binaries, but can be AOT compiled for other OS and CPU architectures."
+  - "Includes Node API extensions for enhanced compatibility and functionality."
+recent_updates: "The latest release (v0.6.1-alpha) provides pre-AOT-compiled binaries optimized for Linux x86_64 and node API extensions."
+use_cases: "Ideal for developers who need to run JavaScript securely within a WebAssembly environment (WasmEdge), enabling cross-platform execution."
+interesting_facts: "WebAssembly bytecode files provided in the release can be AOT compiled with `wasmedgec` on a target platform to optimize them for a different OS/CPU."
+get_started: "To get started, clone the repository, build the project using Cargo targeting `wasm32-wasi`, and execute your JavaScript files with the WasmEdge runtime."
+related_tools:
+  - "WasmEdge"
+  - "WebAssembly"
+  - "QuickJS"
+latest_release:
+  version: "v0.6.1-alpha"
+  date: "2024-09-30T11:42:42Z"
+  url: "https://github.com/second-state/wasmedge-quickjs/releases/tag/v0.6.1-alpha"
+sources:
+  - id: "source-1"
+    title: "WasmEdge-Quickjs GitHub Repository README"
+    url: "https://github.com/second-state/wasmedge-quickjs"
+    quotes:
+      - "A high-performance, secure, extensible, and OCI-complaint JavaScript runtime for WasmEdge."
+      - "Run JavaScript in WebAssembly"
+      - "git clone https://github.com/second-state/wasmedge-quickjs"
+      - "cargo build --target wasm32-wasi --release"
+  - id: "source-2"
+    title: "WasmEdge-Quickjs v0.6.1-alpha Release Notes"
+    url: "https://github.com/second-state/wasmedge-quickjs/releases/tag/v0.6.1-alpha"
+    quotes:
+      - "You must install WasmEdge first. See how to run JavaScript apps here."
+      - "Both binary files in this release are cross-platform WebAssembly bytecode files. But they are optimized for Linux x86_64 with pre-AOT-compiled binaries. If you want to optimize them for a different OS / CPU, you could AOT compile them with wasmedgec on the target platform first."
+      - "wasmedge_quickjs.wasm is the standard JavaScript runtime."
+      - "modules.zip is the node api extensions."
