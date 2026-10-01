@@ -16,16 +16,18 @@ related_tools:
 latest_release:
   version: "v1.6.0"
   date: "2026-09-25T21:06:56Z"
-  url: "https://github.com/m3db/m3/releases/tag/v1.6.0"
+  release_notes_url: "https://github.com/m3db/m3/releases/tag/v1.6.0"
 sources:
-  - id: "source-1"
+  - id: "source_1"
+    source_type: github_readme
     title: "M3 GitHub Repository"
     url: "https://github.com/m3db/m3"
     quotes:
       - "M3 monorepo - Distributed TSDB, Aggregator and Query Engine, Prometheus Sidecar, Graphite Compatible, Metrics Platform."
       - "Distributed TSDB and Query Engine, Prometheus Sidecar, Metrics Aggregator, and more such as Graphite storage and query engine."
       - "M3 was originally created at Uber to handle their massive metrics workload."
-  - id: "source-2"
+  - id: "source_2"
+    source_type: release_notes
     title: "M3 v1.6.0 Release Notes"
     url: "https://github.com/m3db/m3/releases/tag/v1.6.0"
     quotes:
