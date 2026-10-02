@@ -1,4 +1,7 @@
 project_name: APIOAK
+homepage_url: https://github.com/apioak/
+repo_url: https://github.com/apioak/apioak
+cncf_status: non-cncf
 summary: APIOAK is a distributed API gateway based on OpenResty. It provides full lifecycle management of APIs including dynamic routing, load balancing, authentication, rate limiting, and analytics.
 key_features:
 - Distributed architecture based on OpenResty

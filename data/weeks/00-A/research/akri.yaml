@@ -1,4 +1,7 @@
 project_name: Akri
+homepage_url: https://docs.akri.sh
+repo_url: https://github.com/project-akri/akri
+cncf_status: sandbox
 summary: Akri (A Kubernetes Resource Interface for the Edge) is a Cloud Native Computing Foundation (CNCF) Sandbox project that easily exposes heterogeneous leaf devices—such as IP cameras, USB sensors, and OPC UA equipment—as resources in a Kubernetes cluster.
 key_features:
 - Automated discovery of IoT edge devices (ONVIF, udev, OPC UA, etc.)

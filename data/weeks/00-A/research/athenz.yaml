@@ -1,4 +1,7 @@
 project_name: Athenz
+homepage_url: https://www.athenz.io
+repo_url: https://github.com/AthenZ/athenz
+cncf_status: sandbox
 summary: Open source platform for X.509 certificate based service authentication and fine grained access control in dynamic infrastructures.
 key_features:
 - X.509 Certificate Based Authentication

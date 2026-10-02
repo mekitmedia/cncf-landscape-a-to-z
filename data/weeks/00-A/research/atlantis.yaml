@@ -1,4 +1,7 @@
 project_name: Atlantis
+homepage_url: https://www.runatlantis.io/
+repo_url: https://github.com/runatlantis/atlantis
+cncf_status: sandbox
 summary: Terraform Pull Request Automation for Teams.
 key_features:
 - 'Fewer Mistakes: Catch errors in Terraform plan output before applying changes.'

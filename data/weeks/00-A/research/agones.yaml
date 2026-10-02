@@ -1,4 +1,7 @@
 project_name: Agones
+homepage_url: https://agones.dev/site/
+repo_url: https://github.com/agones-dev/agones
+cncf_status: sandbox
 summary: Agones is a library for hosting, running and scaling dedicated game servers on Kubernetes.
 key_features:
 - Define a single GameServer, and/or large game server Fleets within Kubernetes - either through yaml or via the API

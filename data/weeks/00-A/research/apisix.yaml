@@ -1,4 +1,7 @@
 project_name: APISIX
+homepage_url: https://apisix.apache.org/
+repo_url: https://github.com/apache/apisix
+cncf_status: non-cncf
 summary: Apache APISIX is a dynamic, real-time, high-performance API Gateway. It provides rich traffic management features such as load balancing, dynamic upstream, canary release, circuit breaking, authentication, observability, and more.
 key_features:
 - Dynamic and real-time configuration without restarts

@@ -1,4 +1,7 @@
 project_name: Armada
+homepage_url: https://armadaproject.io/
+repo_url: https://github.com/armadaproject/armada
+cncf_status: sandbox
 summary: Armada is a multi-Kubernetes cluster batch job meta-scheduler designed to handle massive-scale workloads. Built on top of Kubernetes, Armada enables organizations to distribute millions of batch jobs per day across tens of thousands of nodes spanning multiple clusters, making it an ideal solution for high-throughput computational workloads.
 key_features:
 - Multi-cluster orchestration to schedule jobs across many Kubernetes clusters seamlessly

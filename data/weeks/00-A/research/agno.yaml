@@ -1,4 +1,7 @@
 project_name: Agno
+homepage_url: https://www.agno.com/
+repo_url: https://github.com/agno-agi/agno
+cncf_status: non-cncf
 summary: Agno is a framework and runtime for agent platforms, allowing you to build, run, and manage agentic software at scale while maintaining control of your data, memory, and security posture.
 key_features:
 - Production API with over 50 endpoints, SSE, and websockets.

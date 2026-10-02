@@ -1,4 +1,7 @@
 project_name: AIBrix
+homepage_url: https://aibrix.github.io/
+repo_url: https://github.com/vllm-project/aibrix
+cncf_status: non-cncf
 summary: AIBrix is an open-source, cost-efficient, scalable, and pluggable cloud-native infrastructure for GenAI applications, tailored specifically to enterprise needs for deploying, managing, and scaling large language model (LLM) inference.
 key_features:
 - 'High-Density LoRA Management: Streamlined support for lightweight, low-rank adaptations of models.'
