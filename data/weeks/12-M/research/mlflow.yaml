@@ -1,0 +1,42 @@
+project_name: "Mlflow"
+homepage_url: "https://mlflow.org/"
+repo_url: "https://github.com/mlflow/mlflow"
+cncf_status: "non-cncf"
+summary: "MLflow is an open source AI engineering platform for agents, LLMs, and ML models. It provides a comprehensive suite of tools to manage the machine learning lifecycle, enabling teams to build, debug, evaluate, monitor, and deploy production-quality AI applications while controlling costs and managing access to models and data."
+key_features:
+  - "Experiment Tracking: Track models, parameters, metrics, and evaluation results across experiments."
+  - "Model Evaluation: Automated evaluation tools integrated with experiment tracking."
+  - "Model Registry: Collaboratively manage the full lifecycle of ML models."
+  - "Deployment: Deploy models to batch and real-time scoring on Docker, Kubernetes, Azure ML, AWS SageMaker, and more."
+recent_updates: "Release 3.16.1 includes bug fixes."
+use_cases: "Ideal for teams needing to debug, evaluate, monitor, and optimize production-quality AI applications and machine learning models, as well as managing the full ML lifecycle from experimentation to deployment."
+interesting_facts: "With over 60 million monthly downloads, thousands of organizations rely on MLflow each day to ship AI to production with confidence."
+get_started: "Start the MLflow Server using `uvx mlflow server` and integrate it with your Python code by importing `mlflow` and setting the tracking URI."
+related_tools:
+  - "Weights & Biases"
+  - "ClearML"
+  - "Neptune"
+latest_release:
+  version: "v3.16.1"
+  date: "2026-09-17T02:40:08Z"
+  url: "https://github.com/mlflow/mlflow/releases/tag/v3.16.1"
+sources:
+  - id: "source-1"
+    title: "MLflow GitHub README"
+    url: "https://github.com/mlflow/mlflow"
+    quotes:
+      - "MLflow is the largest open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controlling costs and managing access to models and data."
+      - "MLflow provides everything you need to build, debug, evaluate, and deploy production-quality LLM applications and AI agents. Supports Python, TypeScript/JavaScript, Java and any other programming language."
+      - "For machine learning and deep learning model development, MLflow provides a full suite of tools to manage the ML lifecycle: Experiment Tracking, Model Evaluation, Model Registry, Deployment."
+      - "With over 60 million monthly downloads, thousands of organizations rely on MLflow each day to ship AI to production with confidence."
+  - id: "source-2"
+    title: "MLflow Repository Description"
+    url: "https://github.com/mlflow/mlflow"
+    quotes:
+      - "The open source AI engineering platform for agents, LLMs, and ML models."
+  - id: "source-3"
+    title: "MLflow v3.16.1 Release"
+    url: "https://github.com/mlflow/mlflow/releases/tag/v3.16.1"
+    quotes:
+      - "MLflow 3.16.1"
+      - "This patch release contains bug fixes."
