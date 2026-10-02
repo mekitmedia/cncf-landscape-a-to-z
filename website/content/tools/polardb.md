@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-27T15:58:38.541264'
+date: '2026-10-01T08:07:14.571531'
 description: PolarDB is a cloud native SQL Database.
 get_started: To get started with PolarDB-X, explore the documentation on the official
   website or repository, and use the K8S Operator for deployment.
@@ -20,6 +20,7 @@ key_features:
   storage resource separation, etc.'
 layout: single
 letter: P
+lifecycle_stage: tech_writing
 project_name: PolarDB
 recent_updates: Recent updates include externalized column storage (phase 1) to offload
   large LONGTEXT/LONGBLOB columns, various AI embedding and text-processing functions
