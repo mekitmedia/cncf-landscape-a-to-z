@@ -1,0 +1,42 @@
+project_name: "Direktiv"
+homepage_url: "https://www.direktiv.io/"
+repo_url: "https://github.com/direktiv/direktiv"
+cncf_status: "non-cncf"
+summary: "Direktiv is a cloud-agnostic, serverless flow engine that capitalizes on microservices, containers and custom code to create efficient processes."
+key_features:
+  - "Event-driven system and container approach for linking different systems."
+  - "YAML-based flow description system to easily customize flows and expand capabilities."
+  - "Acts as a broker for multiple backends with error handling, retries, logging and tracing capabilities."
+recent_updates: "Release direktiv-0.10.0 includes the direktiv helm chart."
+use_cases: "Useful for event-driven serverless orchestration, integration of multiple backends, and automation of repetitive tasks like continuous integration or infrastructure management."
+interesting_facts: "Uses Kubernetes and Knative under the hood to provide the scalability of modern cloud computing."
+get_started: "Build a local development cluster using task: `brew install go-task` followed by `task default`."
+related_tools:
+  - "Serverless"
+  - "Argo"
+  - "Knative"
+latest_release:
+  version: "direktiv-0.10.0"
+  date: "2025-10-21T12:23:11Z"
+  url: "https://github.com/direktiv/direktiv/releases/tag/direktiv-0.10.0"
+sources:
+  - id: "source-1"
+    title: "Direktiv Documentation"
+    url: "https://docs.direktiv.io/"
+    quotes:
+      - "Direktiv is a cloud-agnostic, serverless flow engine that capitalizes on microservices, containers and custom code to create efficient processes"
+      - "Direktiv's event-driven system and container approach make it simple to link different systems."
+      - "Direktiv simplifies the orchestration of APIs to create higher-level services that can be used by any organization, either externally or internally."
+      - "Whether you need to automate Continuous Integration, Infrastructure Management, Onboarding tasks or something else that is currently done manually - automating these processes can be a major advantage."
+      - "Using Kubernetes and Knative under the hood, this platform empowers you with the scalability of modern cloud computing."
+  - id: "source-2"
+    title: "Direktiv GitHub Repository"
+    url: "https://github.com/direktiv/direktiv"
+    quotes:
+      - "Build a local dev cluster for the first time\ntask default"
+      - "Event-Driven Serverless Orchestration, Integration and Automation"
+  - id: "source-3"
+    title: "Direktiv Release Notes direktiv-0.10.0"
+    url: "https://github.com/direktiv/direktiv/releases/tag/direktiv-0.10.0"
+    quotes:
+      - "direktiv helm chart"
