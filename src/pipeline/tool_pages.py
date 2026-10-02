@@ -5,6 +5,7 @@ Generate individual tool pages from research YAML files and category project ite
 
 from __future__ import annotations
 
+import copy
 import glob
 from datetime import datetime
 from functools import lru_cache
@@ -83,14 +84,12 @@ def _get_project_urls(project_name: str) -> dict:
 
 
 def _determine_lifecycle_stage(
-    project_name: str,
-    week_id_value: str,
     item_tracker: Optional[dict],
     research_data: Optional[dict],
 ) -> str:
     """
     Determine the lifecycle stage for a tool page:
-    1. 'approved': editorial_lock is True in research YAML or week blog post is completed.
+    1. 'approved': editorial_lock is True in research YAML.
     2. 'tech_writing': content task is completed in tracker.
     3. 'first_pass': research task is completed or research YAML file exists with data.
     4. 'initial': default initial seed state.
@@ -114,21 +113,25 @@ def _determine_lifecycle_stage(
     return "initial"
 
 
+@lru_cache(maxsize=None)
+def _get_tracker_data(week_id_value: str, weeks_dir: str) -> dict:
+    tracker_file = Path(weeks_dir) / week_id_value / "tracker.yaml"
+    if not tracker_file.exists():
+        return {}
+    try:
+        with tracker_file.open("r", encoding="utf-8") as f:
+            raw_tracker_data = yaml.safe_load(f) or {}
+        return copy.deepcopy(raw_tracker_data)
+    except Exception:
+        return {}
+
 
 def _get_item_tracker(week_id_value: str, project_name: str) -> Optional[dict]:
     cfg = load_config()
-    tracker_file = cfg.weeks_dir / week_id_value / "tracker.yaml"
-    if tracker_file.exists():
-        try:
-            with tracker_file.open("r", encoding="utf-8") as f:
-                tracker_data = yaml.safe_load(f) or {}
-            items = tracker_data.get("items", {})
-            if project_name in items:
-                return items[project_name]
-        except Exception:
-            pass
+    items = _get_tracker_data(week_id_value, str(cfg.weeks_dir)).get("items", {})
+    if project_name in items:
+        return copy.deepcopy(items[project_name])
     return None
-
 
 def generate_tool_page_content(
     project_name: str,
@@ -181,8 +184,6 @@ def generate_tool_page_content(
             print(f"Error loading research file {research_file}: {exc}")
 
     stage = _determine_lifecycle_stage(
-        project_name=project_name,
-        week_id_value=week_id_value,
         item_tracker=item_tracker,
         research_data=research_data,
     )

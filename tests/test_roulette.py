@@ -10,7 +10,10 @@ from src.roulette import (
     draw_task,
     DrawnTask,
 )
-from src.pipeline.tool_pages import generate_single_tool_page
+from src.pipeline.tool_pages import (
+    _determine_lifecycle_stage,
+    generate_single_tool_page,
+)
 
 
 @pytest.fixture(autouse=True)
@@ -143,6 +146,19 @@ def test_draw_task_adhoc(setup_test_data):
     assert task.project_name == "Argo CD"
     assert "Test Urgent Priority Task" in task.reason
     assert "Ad-hoc Priority" in task.to_prompt()
+
+
+def test_determine_lifecycle_stage_branches():
+    assert _determine_lifecycle_stage({}, {"editorial_lock": True}) == "approved"
+    assert _determine_lifecycle_stage({"tasks": {"content": {"status": "completed"}}}, None) == "tech_writing"
+    assert _determine_lifecycle_stage({"tasks": {"research": {"status": "completed"}}}, None) == "first_pass"
+    assert _determine_lifecycle_stage(
+        {"tasks": {"content": {"status": "completed"}, "research": {"status": "completed"}}},
+        None,
+    ) == "tech_writing"
+    assert _determine_lifecycle_stage({}, {"project_name": "Akri", "summary": "ok"}) == "first_pass"
+    assert _determine_lifecycle_stage({}, {}) == "initial"
+    assert _determine_lifecycle_stage({}, None) == "initial"
 
 
 def test_generate_single_tool_page(setup_test_data):
