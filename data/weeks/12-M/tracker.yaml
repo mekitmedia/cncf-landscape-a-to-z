@@ -2,18 +2,18 @@ items:
   M3:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: 2026-09-30T02:40:34.583603+00:00
+        completed_at: 2026-09-30T02:40:34.583603+00:00
+        output_file: data/weeks/12-M/research/m3.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: 2026-09-30T02:40:34.583603+00:00
+        completed_at: 2026-09-30T02:40:34.583603+00:00
+        output_file: website/content/tools/m3.md
         error_message: null
         retry_count: 0
         agent: writer

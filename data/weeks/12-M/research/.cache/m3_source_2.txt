@@ -1,0 +1,2 @@
+M3Aggregator: Support ingestion routing policies, with a routing policy filter in M3Msg and dynamic configuration of consumer service filters via topic updates
+M3DB: Circuit breaker middleware for client host queue writes, tripping only on timeout errors

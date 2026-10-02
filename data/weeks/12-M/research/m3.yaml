@@ -1,0 +1,35 @@
+project_name: "M3"
+summary: "M3 is a metrics platform and monorepo that provides a Distributed TSDB (Time Series Database), Aggregator, and Query Engine. It features a Prometheus Sidecar and is Graphite Compatible, designed for large-scale metrics collection, storage, and querying."
+key_features:
+  - "Distributed TSDB: A scalable and reliable time series database built for high throughput and long-term storage."
+  - "Query Engine & Aggregator: Includes a Metrics Aggregator and Query Engine for efficient data processing and querying."
+  - "Prometheus & Graphite Integration: Acts as a Prometheus Sidecar and provides Graphite storage and query engine compatibility."
+recent_updates: "Recent releases (e.g. v1.6.0) added support for ingestion routing policies in M3Aggregator, and circuit breaker middleware for client host queue writes in M3DB."
+use_cases: "M3 is designed for organizations that need a highly scalable, distributed metrics platform to handle massive volumes of time-series data, such as large-scale observability and monitoring infrastructure."
+interesting_facts: "M3 was originally created at Uber to handle their massive metrics workload and later open-sourced."
+get_started: "The simplest and quickest way to try M3 is to use Docker. You can start an M3DB container using 'docker run' and follow the quickstart guide on their official documentation."
+related_tools:
+  - "Prometheus"
+  - "VictoriaMetrics"
+  - "Thanos"
+  - "Cortex"
+latest_release:
+  version: "v1.6.0"
+  date: "2026-09-25T21:06:56Z"
+  release_notes_url: "https://github.com/m3db/m3/releases/tag/v1.6.0"
+sources:
+  - id: "source_1"
+    source_type: github_readme
+    title: "M3 GitHub Repository"
+    url: "https://github.com/m3db/m3"
+    quotes:
+      - "M3 monorepo - Distributed TSDB, Aggregator and Query Engine, Prometheus Sidecar, Graphite Compatible, Metrics Platform."
+      - "Distributed TSDB and Query Engine, Prometheus Sidecar, Metrics Aggregator, and more such as Graphite storage and query engine."
+      - "M3 was originally created at Uber to handle their massive metrics workload."
+  - id: "source_2"
+    source_type: release_notes
+    title: "M3 v1.6.0 Release Notes"
+    url: "https://github.com/m3db/m3/releases/tag/v1.6.0"
+    quotes:
+      - "M3Aggregator: Support ingestion routing policies, with a routing policy filter in M3Msg and dynamic configuration of consumer service filters via topic updates"
+      - "M3DB: Circuit breaker middleware for client host queue writes, tripping only on timeout errors"
