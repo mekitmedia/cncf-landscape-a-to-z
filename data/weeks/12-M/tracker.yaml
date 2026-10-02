@@ -743,18 +743,18 @@ items:
   Mem0:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: 2026-09-29T03:06:20.633238+00:00
+        completed_at: 2026-09-29T03:06:20.633238+00:00
+        output_file: data/weeks/12-M/research/mem0.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: 2026-09-29T03:06:20.633238+00:00
+        completed_at: 2026-09-29T03:06:20.633238+00:00
+        output_file: website/content/tools/mem0.md
         error_message: null
         retry_count: 0
         agent: writer

@@ -42,7 +42,7 @@
     which enables precise automated analysis of Cedar policies, e.g., to ensure that
     policy refactoring preserves existing permissions. Cedar's language specification
     has been formally verified using a theorem prover to satisfy key security properties
-    like "deny trumps allow," and its implementation in Rust undergoes rigorous differential
+    like `deny trumps allow,` and its implementation in Rust undergoes rigorous differential
     random testing against its formal specification. By combining mathematical rigor
     with developer-friendly design, Cedar offers a practical approach to secure, maintainable
     authorization for modern applications.

@@ -1,0 +1,299 @@
+{{ define "main" }}
+{{ $current := partial "get-current-week.html" . }}
+{{ $stats := site.Data.stats.workflow_stats }}
+{{ $summary := $stats.summary }}
+{{ $statusCounts := $stats.status_counts }}
+{{ $categoryCounts := $stats.category_counts }}
+{{ $letterProgress := $stats.letter_progress }}
+
+<div class="min-h-screen bg-slate-50 font-sans text-slate-900 flex flex-col">
+    <!-- Navigation Header -->
+    {{ partial "nav.html" . }}
+
+    <main id="main-content" tabindex="-1" class="flex-grow max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">
+        <!-- Header Banner -->
+        <div class="bg-gradient-to-r from-slate-900 via-indigo-950 to-blue-900 rounded-3xl p-8 md:p-12 text-white shadow-2xl relative overflow-hidden">
+            <div class="absolute -right-10 -bottom-10 w-80 h-80 bg-blue-500/10 rounded-full blur-3xl pointer-events-none"></div>
+            <div class="relative z-10 max-w-3xl">
+                <div class="inline-flex items-center gap-2 bg-blue-500/20 border border-blue-400/30 text-blue-200 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider mb-4">
+                    <i data-lucide="line-chart" class="w-3.5 h-3.5"></i> Live Analytics
+                </div>
+                <h1 class="text-3xl sm:text-5xl font-black tracking-tight mb-4">
+                    CNCF Ecosystem & Workflow Insights
+                </h1>
+                <p class="text-slate-300 text-lg leading-relaxed">
+                    Track the 52-week A-to-Z landscape journey in real-time. Automatically updated with each weekly ETL cycle as projects are researched, written, and published.
+                </p>
+            </div>
+        </div>
+
+        <!-- High-Level Key Performance Indicators -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Total Tools -->
+            <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-md flex items-center gap-5 hover:shadow-lg transition-shadow">
+                <div class="w-14 h-14 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center shrink-0 font-bold">
+                    <i data-lucide="boxes" class="w-7 h-7"></i>
+                </div>
+                <div>
+                    <div class="text-3xl font-black text-slate-900">{{ $summary.total_tools | default 0 }}</div>
+                    <div class="text-xs font-semibold text-slate-500 uppercase tracking-wider mt-1">Total CNCF Tools</div>
+                </div>
+            </div>
+
+            <!-- Total Categories -->
+            <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-md flex items-center gap-5 hover:shadow-lg transition-shadow">
+                <div class="w-14 h-14 bg-indigo-50 text-indigo-600 rounded-2xl flex items-center justify-center shrink-0 font-bold">
+                    <i data-lucide="layers" class="w-7 h-7"></i>
+                </div>
+                <div>
+                    <div class="text-3xl font-black text-slate-900">{{ $summary.total_categories | default 0 }}</div>
+                    <div class="text-xs font-semibold text-slate-500 uppercase tracking-wider mt-1">Active Categories</div>
+                </div>
+            </div>
+
+            <!-- Workflow Progress -->
+            <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-md flex items-center gap-5 hover:shadow-lg transition-shadow">
+                <div class="w-14 h-14 bg-emerald-50 text-emerald-600 rounded-2xl flex items-center justify-center shrink-0 font-bold">
+                    <i data-lucide="check-check" class="w-7 h-7"></i>
+                </div>
+                <div>
+                    <div class="text-3xl font-black text-slate-900">{{ $summary.overall_completion_percentage | default 0.0 }}%</div>
+                    <div class="text-xs font-semibold text-slate-500 uppercase tracking-wider mt-1">Tasks Completed</div>
+                </div>
+            </div>
+
+            <!-- Blog Posts Published -->
+            <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-md flex items-center gap-5 hover:shadow-lg transition-shadow">
+                <div class="w-14 h-14 bg-amber-50 text-amber-600 rounded-2xl flex items-center justify-center shrink-0 font-bold">
+                    <i data-lucide="book-open" class="w-7 h-7"></i>
+                </div>
+                <div>
+                    <div class="text-3xl font-black text-slate-900">{{ $summary.completed_blog_posts | default 0 }} / {{ $summary.total_blog_posts | default 26 }}</div>
+                    <div class="text-xs font-semibold text-slate-500 uppercase tracking-wider mt-1">Blog Posts Done</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 1: CNCF Project Status Breakdown & Categories -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+            <!-- Project Status Distribution (4 Cols) -->
+            <div class="lg:col-span-5 bg-white p-6 sm:p-8 rounded-3xl border border-slate-200 shadow-md flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="p-2 bg-blue-100 text-blue-700 rounded-xl">
+                            <i data-lucide="award" class="w-5 h-5"></i>
+                        </div>
+                        <h2 class="text-xl font-bold text-slate-900">CNCF Project Maturity</h2>
+                    </div>
+                    <p class="text-slate-600 text-sm mb-6">
+                        Breakdown of projects in the CNCF Landscape by formal maturity stage.
+                    </p>
+
+                    <div class="space-y-5">
+                        <!-- Graduated -->
+                        {{ $graduated := index $statusCounts "graduated" | default 0 }}
+                        {{ $gradPct := cond (gt $summary.total_tools 0) (mul (div (float $graduated) (float $summary.total_tools)) 100) 0 }}
+                        <div>
+                            <div class="flex justify-between text-sm font-bold mb-1.5">
+                                <span class="flex items-center gap-2 text-emerald-700">
+                                    <span class="w-2.5 h-2.5 rounded-full bg-emerald-500"></span> Graduated
+                                </span>
+                                <span class="text-slate-700">{{ $graduated }} ({{ printf "%.1f" $gradPct }}%)</span>
+                            </div>
+                            <div class="w-full bg-slate-100 rounded-full h-3 overflow-hidden">
+                                <div class="bg-emerald-500 h-3 rounded-full transition-all duration-500" style="width: {{ $gradPct }}%"></div>
+                            </div>
+                        </div>
+
+                        <!-- Incubating -->
+                        {{ $incubating := index $statusCounts "incubating" | default 0 }}
+                        {{ $incPct := cond (gt $summary.total_tools 0) (mul (div (float $incubating) (float $summary.total_tools)) 100) 0 }}
+                        <div>
+                            <div class="flex justify-between text-sm font-bold mb-1.5">
+                                <span class="flex items-center gap-2 text-blue-700">
+                                    <span class="w-2.5 h-2.5 rounded-full bg-blue-500"></span> Incubating
+                                </span>
+                                <span class="text-slate-700">{{ $incubating }} ({{ printf "%.1f" $incPct }}%)</span>
+                            </div>
+                            <div class="w-full bg-slate-100 rounded-full h-3 overflow-hidden">
+                                <div class="bg-blue-500 h-3 rounded-full transition-all duration-500" style="width: {{ $incPct }}%"></div>
+                            </div>
+                        </div>
+
+                        <!-- Sandbox -->
+                        {{ $sandbox := index $statusCounts "sandbox" | default 0 }}
+                        {{ $sandPct := cond (gt $summary.total_tools 0) (mul (div (float $sandbox) (float $summary.total_tools)) 100) 0 }}
+                        <div>
+                            <div class="flex justify-between text-sm font-bold mb-1.5">
+                                <span class="flex items-center gap-2 text-indigo-700">
+                                    <span class="w-2.5 h-2.5 rounded-full bg-indigo-500"></span> Sandbox
+                                </span>
+                                <span class="text-slate-700">{{ $sandbox }} ({{ printf "%.1f" $sandPct }}%)</span>
+                            </div>
+                            <div class="w-full bg-slate-100 rounded-full h-3 overflow-hidden">
+                                <div class="bg-indigo-500 h-3 rounded-full transition-all duration-500" style="width: {{ $sandPct }}%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-8 pt-6 border-t border-slate-100 text-xs text-slate-500 flex items-center justify-between">
+                    <span>Active cataloged tools</span>
+                    <span class="font-bold text-slate-700">{{ add (add $graduated $incubating) $sandbox }} tools</span>
+                </div>
+            </div>
+
+            <!-- Categories Distribution Grid (7 Cols) -->
+            <div class="lg:col-span-7 bg-white p-6 sm:p-8 rounded-3xl border border-slate-200 shadow-md">
+                <div class="flex items-center gap-3 mb-6">
+                    <div class="p-2 bg-indigo-100 text-indigo-700 rounded-xl">
+                        <i data-lucide="grid" class="w-5 h-5"></i>
+                    </div>
+                    <h2 class="text-xl font-bold text-slate-900">Tools by Category</h2>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    {{ range $catName, $count := $categoryCounts }}
+                    <div class="p-4 bg-slate-50 rounded-2xl border border-slate-200/60 flex items-center justify-between hover:bg-blue-50/50 hover:border-blue-200 transition-colors">
+                        <span class="font-medium text-slate-800 text-sm truncate pr-2" title="{{ $catName }}">{{ $catName }}</span>
+                        <span class="px-2.5 py-1 bg-white border border-slate-200 text-blue-600 font-bold text-xs rounded-lg shrink-0">
+                            {{ $count }}
+                        </span>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 2: A-Z Journey Workflow Matrix -->
+        <div class="bg-white rounded-3xl border border-slate-200 shadow-md p-6 sm:p-8">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-8">
+                <div>
+                    <div class="flex items-center gap-3 mb-2">
+                        <div class="p-2 bg-emerald-100 text-emerald-700 rounded-xl">
+                            <i data-lucide="list-checks" class="w-5 h-5"></i>
+                        </div>
+                        <h2 class="text-2xl font-black text-slate-900">A-to-Z Research & Workflow Progress</h2>
+                    </div>
+                    <p class="text-slate-600 text-sm">
+                        Tracking completion across research YAML generation, tool content pages, and bi-weekly blog posts for letters A through Z.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Table for Large Screens -->
+            <div class="hidden md:block overflow-x-auto">
+                <table class="w-full text-left border-collapse">
+                    <thead>
+                        <tr class="border-b border-slate-200 text-slate-400 text-xs uppercase tracking-wider">
+                            <th class="pb-3 font-semibold">Letter / Period</th>
+                            <th class="pb-3 font-semibold text-center">Tools</th>
+                            <th class="pb-3 font-semibold text-center">Research</th>
+                            <th class="pb-3 font-semibold text-center">Content</th>
+                            <th class="pb-3 font-semibold text-center">Blog Post</th>
+                            <th class="pb-3 font-semibold text-right">Completion</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-slate-100 text-sm">
+                        {{ range $letterProgress }}
+                        <tr class="hover:bg-slate-50/80 transition-colors">
+                            <td class="py-4">
+                                <a href="/letters/{{ .letter | lower }}/" class="inline-flex items-center gap-3 font-bold text-slate-900 hover:text-blue-600 group">
+                                    <span class="w-8 h-8 bg-slate-900 text-white rounded-lg flex items-center justify-center font-black group-hover:bg-blue-600 transition-colors">
+                                        {{ .letter }}
+                                    </span>
+                                    <div>
+                                        <div class="font-bold">Letter {{ .letter }}</div>
+                                        <div class="text-xs text-slate-400 font-normal">{{ .period_weeks }}</div>
+                                    </div>
+                                </a>
+                            </td>
+                            <td class="py-4 text-center font-medium text-slate-700">
+                                {{ .total_items }}
+                            </td>
+                            <td class="py-4 text-center">
+                                <span class="inline-flex items-center gap-1 font-semibold {{ if eq .research_completed .total_items }}text-emerald-600{{ else if gt .research_completed 0 }}text-blue-600{{ else }}text-slate-400{{ end }}">
+                                    {{ .research_completed }} / {{ .total_items }}
+                                </span>
+                            </td>
+                            <td class="py-4 text-center">
+                                <span class="inline-flex items-center gap-1 font-semibold {{ if eq .content_completed .total_items }}text-emerald-600{{ else if gt .content_completed 0 }}text-blue-600{{ else }}text-slate-400{{ end }}">
+                                    {{ .content_completed }} / {{ .total_items }}
+                                </span>
+                            </td>
+                            <td class="py-4 text-center">
+                                {{ if eq .blog_post_status "completed" }}
+                                    <span class="px-2.5 py-1 bg-emerald-100 text-emerald-800 font-bold text-xs rounded-full">
+                                        Published
+                                    </span>
+                                {{ else if eq .blog_post_status "in_progress" }}
+                                    <span class="px-2.5 py-1 bg-blue-100 text-blue-800 font-bold text-xs rounded-full">
+                                        In Progress
+                                    </span>
+                                {{ else }}
+                                    <span class="px-2.5 py-1 bg-slate-100 text-slate-500 font-medium text-xs rounded-full">
+                                        Pending
+                                    </span>
+                                {{ end }}
+                            </td>
+                            <td class="py-4 text-right">
+                                <div class="inline-flex items-center justify-end gap-3 w-36">
+                                    <div class="w-20 bg-slate-100 rounded-full h-2 overflow-hidden">
+                                        <div class="bg-blue-600 h-2 rounded-full" style="width: {{ .completion_percentage }}%"></div>
+                                    </div>
+                                    <span class="font-bold text-slate-800 text-xs w-10 text-right">{{ .completion_percentage }}%</span>
+                                </div>
+                            </td>
+                        </tr>
+                        {{ range $index, $element := (where $letterProgress "letter" .letter) }}
+                        {{ end }}
+                        {{ end }}
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Cards for Mobile Screens -->
+            <div class="block md:hidden space-y-4">
+                {{ range $letterProgress }}
+                <div class="p-4 bg-slate-50 rounded-2xl border border-slate-200">
+                    <div class="flex items-center justify-between mb-3">
+                        <a href="/letters/{{ .letter | lower }}/" class="flex items-center gap-2 font-bold text-slate-900">
+                            <span class="w-7 h-7 bg-slate-900 text-white rounded-md flex items-center justify-center font-bold text-xs">
+                                {{ .letter }}
+                            </span>
+                            <span>Letter {{ .letter }}</span>
+                            <span class="text-xs text-slate-400 font-normal">({{ .period_weeks }})</span>
+                        </a>
+                        <span class="font-bold text-blue-600 text-xs">{{ .completion_percentage }}%</span>
+                    </div>
+
+                    <div class="grid grid-cols-3 gap-2 text-xs mb-3">
+                        <div class="bg-white p-2 rounded-lg border border-slate-100 text-center">
+                            <div class="text-slate-400 font-medium">Tools</div>
+                            <div class="font-bold text-slate-800">{{ .total_items }}</div>
+                        </div>
+                        <div class="bg-white p-2 rounded-lg border border-slate-100 text-center">
+                            <div class="text-slate-400 font-medium">Research</div>
+                            <div class="font-bold text-emerald-600">{{ .research_completed }}</div>
+                        </div>
+                        <div class="bg-white p-2 rounded-lg border border-slate-100 text-center">
+                            <div class="text-slate-400 font-medium">Content</div>
+                            <div class="font-bold text-blue-600">{{ .content_completed }}</div>
+                        </div>
+                    </div>
+
+                    <div class="w-full bg-slate-200 rounded-full h-2 overflow-hidden">
+                        <div class="bg-blue-600 h-2 rounded-full" style="width: {{ .completion_percentage }}%"></div>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-8 text-center text-slate-400 text-sm border-t border-slate-200/60 mt-12">
+        &copy; {{ now.Format "2006" }} CNCF Landscape A-to-Z Journey
+    </footer>
+</div>
+{{ end }}
