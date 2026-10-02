@@ -10,19 +10,21 @@
     {{ $startWeek = $current.periodStartWeek }}
     {{ $endWeek = $current.periodEndWeek }}
 {{ end }}
-<nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200 py-4">
-    <div class="max-w-7xl mx-auto px-6 flex items-center justify-between">
+<header class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200 py-4">
+    <nav class="max-w-7xl mx-auto px-6 flex items-center justify-between">
         <a href="/" class="flex items-center gap-2 hover:opacity-80 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none rounded-lg transition-opacity">
             <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
                 <span class="text-white font-bold text-xl">{{ $navLetter | default "A" }}</span>
             </div>
             <h1 class="font-bold text-xl tracking-tight">CNCF Landscape <span class="text-blue-600">A-to-Z</span></h1>
         </a>
+
+        <!-- Desktop Navigation -->
         <div class="hidden md:flex items-center gap-6">
-            <a href="/stats/" class="text-sm font-medium text-slate-600 hover:text-blue-600 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none rounded transition-colors {{ if eq .Section "stats" }}text-blue-600{{ end }}">Stats</a>
-            <a href="/posts/" class="text-sm font-medium text-slate-600 hover:text-blue-600 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none rounded transition-colors {{ if eq .Section "posts" }}text-blue-600{{ end }}">Blog</a>
-            <a href="/newsletter-preview/" class="text-sm font-medium text-slate-600 hover:text-blue-600 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none rounded transition-colors">Newsletter</a>
-            <a href="/watchlist-preview/" class="text-sm font-medium text-slate-600 hover:text-blue-600 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none rounded transition-colors">My Watchlist</a>
+            <a href="/stats/" class="text-sm font-medium text-slate-600 hover:text-blue-600 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none rounded transition-colors {{ if eq .Section "stats" }}text-blue-600 font-semibold{{ end }}">Stats</a>
+            <a href="/posts/" class="text-sm font-medium text-slate-600 hover:text-blue-600 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none rounded transition-colors {{ if eq .Section "posts" }}text-blue-600 font-semibold{{ end }}">Blog</a>
+            <a href="/newsletter-preview/" class="text-sm font-medium text-slate-600 hover:text-blue-600 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none rounded transition-colors {{ if eq .RelPermalink "/newsletter-preview/" }}text-blue-600 font-semibold{{ end }}">Newsletter</a>
+            <a href="/watchlist-preview/" class="text-sm font-medium text-slate-600 hover:text-blue-600 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none rounded transition-colors {{ if eq .RelPermalink "/watchlist-preview/" }}text-blue-600 font-semibold{{ end }}">My Watchlist</a>
             <div class="h-4 w-px bg-slate-300"></div>
             <a href="https://github.com/mekitmedia/cncf-landscape-a-to-z" target="_blank" rel="noopener noreferrer" aria-label="GitHub Repository" title="View on GitHub" class="flex items-center gap-2 text-sm font-medium text-slate-600 hover:text-blue-600 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none rounded transition-colors">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
@@ -30,9 +32,52 @@
             </a>
             <div class="h-4 w-px bg-slate-300"></div>
             <div class="flex items-center gap-2 text-sm bg-blue-50 text-blue-700 px-3 py-1 rounded-full font-semibold">
-                <i data-lucide="check-circle-2" class="w-4 h-4"></i>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-blue-600"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="m9 12 2 2 4-4"/></svg>
                 <span>Weeks {{ $startWeek }}-{{ $endWeek }} of 52</span>
             </div>
         </div>
+
+        <!-- Mobile Menu Button -->
+        <button id="mobile-menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Toggle Navigation Menu" class="md:hidden p-2 rounded-lg text-slate-600 hover:text-blue-600 hover:bg-slate-100 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none transition-colors">
+            <svg id="menu-icon-open" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+            <svg id="menu-icon-close" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="hidden"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+        </button>
+    </nav>
+
+    <!-- Mobile Navigation Menu -->
+    <div id="mobile-menu" class="hidden md:hidden border-t border-slate-200 mt-4 pt-4 px-6 pb-2 bg-white flex flex-col gap-3">
+        <a href="/stats/" class="text-base font-medium text-slate-700 hover:text-blue-600 py-2 border-b border-slate-100 {{ if eq .Section "stats" }}text-blue-600 font-semibold{{ end }}">Stats</a>
+        <a href="/posts/" class="text-base font-medium text-slate-700 hover:text-blue-600 py-2 border-b border-slate-100 {{ if eq .Section "posts" }}text-blue-600 font-semibold{{ end }}">Blog</a>
+        <a href="/newsletter-preview/" class="text-base font-medium text-slate-700 hover:text-blue-600 py-2 border-b border-slate-100 {{ if eq .RelPermalink "/newsletter-preview/" }}text-blue-600 font-semibold{{ end }}">Newsletter</a>
+        <a href="/watchlist-preview/" class="text-base font-medium text-slate-700 hover:text-blue-600 py-2 border-b border-slate-100 {{ if eq .RelPermalink "/watchlist-preview/" }}text-blue-600 font-semibold{{ end }}">My Watchlist</a>
+        <a href="https://github.com/mekitmedia/cncf-landscape-a-to-z" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 text-base font-medium text-slate-700 hover:text-blue-600 py-2 border-b border-slate-100">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+            GitHub
+        </a>
+        <div class="flex items-center gap-2 text-sm bg-blue-50 text-blue-700 px-3 py-2 rounded-lg font-semibold my-2 w-fit">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-blue-600"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="m9 12 2 2 4-4"/></svg>
+            <span>Weeks {{ $startWeek }}-{{ $endWeek }} of 52</span>
+        </div>
     </div>
-</nav>
+</header>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const toggleBtn = document.getElementById("mobile-menu-toggle");
+        const menu = document.getElementById("mobile-menu");
+        const iconOpen = document.getElementById("menu-icon-open");
+        const iconClose = document.getElementById("menu-icon-close");
+
+        if (toggleBtn && menu) {
+            toggleBtn.addEventListener("click", () => {
+                const isExpanded = toggleBtn.getAttribute("aria-expanded") === "true";
+                toggleBtn.setAttribute("aria-expanded", !isExpanded);
+                menu.classList.toggle("hidden");
+                if (iconOpen && iconClose) {
+                    iconOpen.classList.toggle("hidden");
+                    iconClose.classList.toggle("hidden");
+                }
+            });
+        }
+    });
+</script>
