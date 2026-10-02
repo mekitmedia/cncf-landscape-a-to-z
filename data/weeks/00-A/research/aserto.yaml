@@ -1,4 +1,7 @@
 project_name: Aserto
+homepage_url: https://www.aserto.com
+repo_url: https://github.com/aserto-dev/runtime
+cncf_status: non-cncf
 summary: Aserto provides fine-grained, policy-based, real-time authorization for APIs and microservices. It is the maintainer of the Topaz open-source authorizer.
 key_features:
 - Resource-level access controls for any application

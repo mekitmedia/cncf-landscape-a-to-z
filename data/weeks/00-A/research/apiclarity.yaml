@@ -1,4 +1,7 @@
 project_name: APIClarity
+homepage_url: https://openclarity.io/
+repo_url: https://github.com/openclarity/apiclarity
+cncf_status: non-cncf
 summary: APIClarity is a cloud API observability open-source project that discovers and monitors API traffic, reporting suspected security weaknesses or possible abuses. It operates by capturing all API traffic or actively testing endpoints, and can automatically reconstruct OpenAPI specifications when none are available.
 key_features:
 - OpenAPI automatic reconstruction based on observed API traffic
