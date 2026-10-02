@@ -1,0 +1,36 @@
+project_name: "OpenAPI"
+homepage_url: "https://www.openapis.org/"
+repo_url: "https://github.com/OAI/OpenAPI-Specification"
+cncf_status: "non-cncf"
+summary: "The OpenAPI Specification (OAS) is a widely adopted standard for defining HTTP API interfaces. It enables both humans and systems to discover, understand, and interact with services seamlessly, eliminating the need to inspect source code or network traffic."
+key_features:
+  - "Standardizes HTTP API interfaces, making them programming language-agnostic."
+  - "Allows discovery and understanding of a service's capabilities without source code access."
+  - "Represented in both YAML and JSON formats."
+  - "Supports automated code generation for documentation, clients, and servers."
+recent_updates: "OAS 3.2.1 released corrections and clarifications to the table of Style Examples, additional notes on prohibited in/style/explode combinations, cross-references to RFCs, corrections to encoding objects usage, and clarification on path matching."
+use_cases: "Use cases for machine-readable API definition documents include interactive documentation; code generation for documentation, clients, and servers; and automation of test cases."
+interesting_facts: "The OpenAPI Specification is a community-driven open specification within the OpenAPI Initiative, a Linux Foundation Collaborative Project, and removes guesswork in calling a service by clearly defining interfaces."
+get_started: "Check out the list of current examples at https://learn.openapis.org/examples/ to see it in action, or find tools to create and present definitions."
+related_tools:
+  - "Swagger"
+  - "Postman"
+latest_release:
+  version: "3.2.1"
+  date: "2026-09-10T17:18:00Z"
+  url: "https://github.com/OAI/OpenAPI-Specification/releases/tag/3.2.1"
+sources:
+  - id: "source-1"
+    title: "OpenAPI Specification GitHub Repository README"
+    url: "https://github.com/OAI/OpenAPI-Specification"
+    quotes:
+      - "The OpenAPI Specification (OAS) defines a standard, programming language-agnostic interface description for HTTP APIs. This allows both humans and computers to discover and understand the capabilities of a service without requiring access to source code, additional documentation, or inspection of network traffic."
+      - "Use cases for machine-readable API definition documents include, but are not limited to: interactive documentation; code generation for documentation, clients, and servers; and automation of test cases."
+      - "The OpenAPI Specification is a community-driven open specification within the OpenAPI Initiative, a Linux Foundation Collaborative Project."
+  - id: "source-2"
+    title: "OpenAPI Specification v3.2.1 Release Notes"
+    url: "https://github.com/OAI/OpenAPI-Specification/releases/tag/3.2.1"
+    quotes:
+      - "corrections and clarifications to the table of Style Examples"
+      - "corrections to descriptions of how encoding objects are used"
+      - 'clarification of how paths are matched when a template variable contains a "/"'
