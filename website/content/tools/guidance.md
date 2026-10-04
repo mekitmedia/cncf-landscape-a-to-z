@@ -1,15 +1,16 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.383580'
+date: '2026-10-04T18:37:42.108400'
 description: A guidance language for controlling large language models.
 homepage_url: https://github.com/guidance-ai/guidance
 layout: single
 letter: G
+lifecycle_stage: initial
 project_name: Guidance
 repo_url: https://github.com/guidance-ai/guidance
 status: in_progress
-summary: A guidance language for controlling large language models.
 title: Guidance
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/g/).
+
+Research for Guidance is currently in progress. Stay tuned for updates!

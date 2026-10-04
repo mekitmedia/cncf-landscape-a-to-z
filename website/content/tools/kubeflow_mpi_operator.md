@@ -1,15 +1,16 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.232365'
+date: '2026-10-04T18:37:40.573338'
 description: MPI Operator to manage all-reduce distributed training and HPC workloads.
 homepage_url: https://www.kubeflow.org/docs/components/trainer/legacy-v1/
 layout: single
 letter: K
+lifecycle_stage: initial
 project_name: Kubeflow MPI Operator
 repo_url: https://github.com/kubeflow/mpi-operator
 status: in_progress
-summary: MPI Operator to manage all-reduce distributed training and HPC workloads.
 title: Kubeflow MPI Operator
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/k/).
+
+Research for Kubeflow MPI Operator is currently in progress. Stay tuned for updates!

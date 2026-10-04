@@ -1,17 +1,17 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T21:46:44.809382'
+date: '2026-10-04T18:37:46.905322'
 description: Score is an open-source workload specification designed to simplify development
   for cloud-native developers.
 homepage_url: https://score.dev/
 layout: single
 letter: S
+lifecycle_stage: initial
 project_name: Score
 repo_url: https://github.com/score-spec/spec
 status: in_progress
-summary: Score is an open-source workload specification designed to simplify development
-  for cloud-native developers.
 title: Score
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/s/).
+
+Research for Score is currently in progress. Stay tuned for updates!

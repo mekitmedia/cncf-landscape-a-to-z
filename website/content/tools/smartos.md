@@ -1,14 +1,15 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.804436'
+date: '2026-10-04T18:37:46.860739'
 homepage_url: https://www.TritonDataCenter.com/smartos
 layout: single
 letter: S
+lifecycle_stage: initial
 project_name: SmartOS
 repo_url: https://github.com/TritonDataCenter/smartos-live
 status: in_progress
-summary: Research for this project is currently in progress.
 title: SmartOS
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/s/).
+
+Research for SmartOS is currently in progress. Stay tuned for updates!

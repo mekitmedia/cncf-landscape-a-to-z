@@ -1,14 +1,18 @@
 ---
 cncf_status: incubating
-date: '2026-09-20T21:46:44.341407'
+date: '2026-10-04T18:37:41.662249'
+description: Litmus is an open source Chaos Engineering platform that enables teams
+  to identify weaknesses & potential outages in infrastructures by inducing chaos
+  tests in a controlled way
 homepage_url: https://litmuschaos.io/
 layout: single
 letter: L
+lifecycle_stage: initial
 project_name: Litmus
 repo_url: https://github.com/litmuschaos/litmus
 status: in_progress
-summary: Research for this project is currently in progress.
 title: Litmus
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/l/).
+
+Research for Litmus is currently in progress. Stay tuned for updates!

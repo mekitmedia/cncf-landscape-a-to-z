@@ -1,14 +1,15 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.519175'
+date: '2026-10-04T18:37:43.645622'
 homepage_url: https://fluvio.io/
 layout: single
 letter: F
+lifecycle_stage: initial
 project_name: Fluvio
 repo_url: https://github.com/infinyon/fluvio
 status: in_progress
-summary: Research for this project is currently in progress.
 title: Fluvio
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/f/).
+
+Research for Fluvio is currently in progress. Stay tuned for updates!

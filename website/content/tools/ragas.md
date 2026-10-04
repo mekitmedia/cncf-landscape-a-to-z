@@ -1,15 +1,16 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.707733'
+date: '2026-10-04T18:37:45.694924'
 description: Supercharge Your LLM Application Evaluations
 homepage_url: https://docs.ragas.io/en/stable/
 layout: single
 letter: R
+lifecycle_stage: initial
 project_name: Ragas
 repo_url: https://github.com/vibrantlabsai/ragas
 status: in_progress
-summary: Supercharge Your LLM Application Evaluations
 title: Ragas
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/r/).
+
+Research for Ragas is currently in progress. Stay tuned for updates!

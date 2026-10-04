@@ -1,17 +1,17 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.330665'
+date: '2026-10-04T18:37:41.493767'
 description: Simplify observability, traffic management, security, and policy with
   the Istio service mesh.
 homepage_url: https://istio.io/
 layout: single
 letter: I
+lifecycle_stage: initial
 project_name: Istio (Wasm)
 repo_url: https://github.com/istio/istio
 status: in_progress
-summary: Simplify observability, traffic management, security, and policy with the
-  Istio service mesh.
 title: Istio (Wasm)
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/i/).
+
+Research for Istio (Wasm) is currently in progress. Stay tuned for updates!

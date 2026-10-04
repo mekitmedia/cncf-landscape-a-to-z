@@ -1,17 +1,17 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.952413'
+date: '2026-10-04T18:37:48.474941'
 description: Distributed deep learning training framework for TensorFlow, Keras, PyTorch,
   and Apache MXNet.
 homepage_url: https://horovod.ai/
 layout: single
 letter: H
+lifecycle_stage: initial
 project_name: Horovod
 repo_url: https://github.com/horovod/horovod
 status: in_progress
-summary: Distributed deep learning training framework for TensorFlow, Keras, PyTorch,
-  and Apache MXNet.
 title: Horovod
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/h/).
+
+Research for Horovod is currently in progress. Stay tuned for updates!

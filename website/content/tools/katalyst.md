@@ -1,17 +1,17 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.246853'
+date: '2026-10-04T18:37:40.660189'
 description: Katalyst is a QoS-based resource management system for workload colocation
   on kubernetes
 homepage_url: https://gokatalyst.io
 layout: single
 letter: K
+lifecycle_stage: initial
 project_name: Katalyst
 repo_url: https://github.com/kubewharf/katalyst-core
 status: in_progress
-summary: Katalyst is a QoS-based resource management system for workload colocation
-  on kubernetes
 title: Katalyst
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/k/).
+
+Research for Katalyst is currently in progress. Stay tuned for updates!

@@ -1,14 +1,16 @@
 ---
 cncf_status: graduated
-date: '2026-09-20T21:46:45.050922'
+date: '2026-10-04T18:37:49.594702'
+description: The Prometheus monitoring system and time series database
 homepage_url: https://prometheus.io/
 layout: single
 letter: P
+lifecycle_stage: initial
 project_name: Prometheus
 repo_url: https://github.com/prometheus/prometheus
 status: in_progress
-summary: Research for this project is currently in progress.
 title: Prometheus
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/p/).
+
+Research for Prometheus is currently in progress. Stay tuned for updates!

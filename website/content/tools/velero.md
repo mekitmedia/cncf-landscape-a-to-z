@@ -1,14 +1,15 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T21:46:43.897148'
+date: '2026-10-04T18:37:38.248663'
 homepage_url: https://velero.io
 layout: single
 letter: V
+lifecycle_stage: initial
 project_name: Velero
 repo_url: https://github.com/velero-io/velero
 status: in_progress
-summary: Research for this project is currently in progress.
 title: Velero
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/v/).
+
+Research for Velero is currently in progress. Stay tuned for updates!

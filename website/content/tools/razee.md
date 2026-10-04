@@ -1,14 +1,15 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.704534'
+date: '2026-10-04T18:37:45.661235'
 homepage_url: https://razee.io/
 layout: single
 letter: R
+lifecycle_stage: initial
 project_name: Razee
 repo_url: https://github.com/razee-io/Razee
 status: in_progress
-summary: Research for this project is currently in progress.
 title: Razee
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/r/).
+
+Research for Razee is currently in progress. Stay tuned for updates!

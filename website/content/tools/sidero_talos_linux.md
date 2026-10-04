@@ -1,16 +1,17 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.816392'
+date: '2026-10-04T18:37:46.973621'
 description: Talos Linux is Linux designed for Kubernetes - secure, immutable, and
   minimal.
 homepage_url: https://www.sideroLabs.com
 layout: single
 letter: S
+lifecycle_stage: initial
 project_name: Sidero Talos Linux
 repo_url: https://github.com/siderolabs/talos
 status: in_progress
-summary: Talos Linux is Linux designed for Kubernetes - secure, immutable, and minimal.
 title: Sidero Talos Linux
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/s/).
+
+Research for Sidero Talos Linux is currently in progress. Stay tuned for updates!

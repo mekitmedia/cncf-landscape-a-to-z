@@ -1,15 +1,16 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T21:46:44.445992'
+date: '2026-10-04T18:37:42.865962'
 description: CLI tool for directly patching container image vulnerabilities
 homepage_url: https://project-copacetic.github.io/copacetic/
 layout: single
 letter: C
+lifecycle_stage: initial
 project_name: Copa
 repo_url: https://github.com/project-copacetic/copacetic
 status: in_progress
-summary: CLI tool for directly patching container image vulnerabilities
 title: Copa
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/c/).
+
+Research for Copa is currently in progress. Stay tuned for updates!

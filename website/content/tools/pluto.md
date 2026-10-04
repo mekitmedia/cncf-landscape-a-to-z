@@ -1,14 +1,15 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:45.035059'
+date: '2026-10-04T18:37:49.445451'
 homepage_url: https://www.fairwinds.com/open-source-software
 layout: single
 letter: P
+lifecycle_stage: initial
 project_name: Pluto
 repo_url: https://github.com/FairwindsOps/pluto
 status: in_progress
-summary: Research for this project is currently in progress.
 title: Pluto
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/p/).
+
+Research for Pluto is currently in progress. Stay tuned for updates!
