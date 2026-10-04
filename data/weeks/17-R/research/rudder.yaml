@@ -1,0 +1,30 @@
+project_name: "Rudder"
+homepage_url: "https://www.rudder.io"
+repo_url: "https://github.com/Normation/rudder"
+cncf_status: "non-cncf"
+summary: "Rudder is a configuration and security automation platform designed to manage Cloud, hybrid, or on-premises infrastructure in a simple, scalable, and dynamic way."
+key_features:
+  - "Security Posture Management: Automates critical IT operations for robust infrastructure security, encompassing inventory, patch, and vulnerability management."
+  - "Configuration Management: Streamlines configuration tasks through a visual editor or YAML code, ensuring reliability and providing compliance visualization."
+  - "Multi-Platform Support: Operates across Cloud, hybrid, and on-premise environments, supporting both Linux and Windows."
+  - "Scalable Architecture: Uses a hierarchical configuration data engine and automated classification for scalable and dynamic infrastructure management."
+recent_updates: "The latest release is version 9.1.4 (published on 2026-08-07)."
+use_cases: "Rudder is used to automate critical IT operations and fortify infrastructure security across Cloud, hybrid, or on-premises setups on Linux or Windows."
+interesting_facts: "Rudder uses a powerful hierarchical configuration data engine and automated classification of managed systems to scale dynamically."
+get_started: "For a quick setup on Linux systems, you can use the installer script."
+related_tools: []
+latest_release:
+  version: "9.1.4"
+  date: "2026-08-07T07:18:16Z"
+  url: "https://github.com/Normation/rudder/releases/tag/9.1.4"
+sources:
+  - id: "source-1"
+    title: "Rudder Repository Description"
+    url: "https://github.com/Normation/rudder"
+    quotes:
+      - "Rudder is a configuration and security automation platform. Manage your Cloud, hybrid or on-premises infrastructure in a simple, scalable and dynamic way."
+      - "Security posture management: Automate critical IT operations to fortify infrastructure security (inventory, patch, vulnerability, compliance)."
+      - "Configuration management: Streamline and automate configuration tasks for enhanced reliability, with advanced compliance visualization. Configuration policies can be created seamlessly using a visual editor, or YAML code."
+      - "Multi-platform support: Manage diverse environments, including Cloud, hybrid, and on-premise setups, running on Linux or Windows."
+      - "Scalable and Dynamic approach: A scalable and dynamic approach to infrastructure management, including a powerful hierarchical configuration data engine and automated classification of managed systems."
+      - "For a quick setup on Linux systems, you can use the installer script."
