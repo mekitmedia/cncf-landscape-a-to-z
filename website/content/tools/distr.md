@@ -1,19 +1,18 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.995733'
+date: '2026-10-04T18:37:48.961800'
 description: The Open Source control plane for self-managed, BYOC, and on-prem deployments.
   Everything you need to distribute applications to self-managed customers out of
   the box.
 homepage_url: https://distr.sh/
 layout: single
 letter: D
+lifecycle_stage: initial
 project_name: Distr
 repo_url: https://github.com/distr-sh/distr
 status: in_progress
-summary: The Open Source control plane for self-managed, BYOC, and on-prem deployments.
-  Everything you need to distribute applications to self-managed customers out of
-  the box.
 title: Distr
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/d/).
+
+Research for Distr is currently in progress. Stay tuned for updates!

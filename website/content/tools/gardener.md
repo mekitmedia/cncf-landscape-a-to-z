@@ -1,17 +1,17 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.379968'
+date: '2026-10-04T18:37:42.074125'
 description: The Gardener implements automated management and operation of Kubernetes
   clusters as a service and aims to support that service on multiple  Cloud providers.
 homepage_url: https://gardener.cloud
 layout: single
 letter: G
+lifecycle_stage: initial
 project_name: Gardener
 repo_url: https://github.com/gardener/gardener
 status: in_progress
-summary: The Gardener implements automated management and operation of Kubernetes
-  clusters as a service and aims to support that service on multiple  Cloud providers.
 title: Gardener
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/g/).
+
+Research for Gardener is currently in progress. Stay tuned for updates!

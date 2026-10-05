@@ -1,15 +1,16 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T21:46:44.820047'
+date: '2026-10-04T18:37:47.009437'
 description: Serverless Devs developer tool ( Serverless Devs 开发者工具 )
 homepage_url: https://www.serverless-devs.com/
 layout: single
 letter: S
+lifecycle_stage: initial
 project_name: Serverless Devs
 repo_url: https://github.com/serverless-devs/serverless-devs
 status: in_progress
-summary: Serverless Devs developer tool ( Serverless Devs 开发者工具 )
 title: Serverless Devs
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/s/).
+
+Research for Serverless Devs is currently in progress. Stay tuned for updates!

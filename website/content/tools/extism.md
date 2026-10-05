@@ -1,14 +1,15 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.578550'
+date: '2026-10-04T18:37:44.221256'
 homepage_url: https://extism.org
 layout: single
 letter: E
+lifecycle_stage: initial
 project_name: Extism
 repo_url: https://github.com/extism/extism
 status: in_progress
-summary: Research for this project is currently in progress.
 title: Extism
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/e/).
+
+Research for Extism is currently in progress. Stay tuned for updates!

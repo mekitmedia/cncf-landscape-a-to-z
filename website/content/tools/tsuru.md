@@ -1,14 +1,15 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.724484'
+date: '2026-10-04T18:37:45.961313'
 homepage_url: https://tsuru.io/
 layout: single
 letter: T
+lifecycle_stage: initial
 project_name: Tsuru
 repo_url: https://github.com/tsuru/tsuru
 status: in_progress
-summary: Research for this project is currently in progress.
 title: Tsuru
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/t/).
+
+Research for Tsuru is currently in progress. Stay tuned for updates!

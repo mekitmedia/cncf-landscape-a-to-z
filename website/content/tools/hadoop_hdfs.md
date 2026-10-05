@@ -1,17 +1,17 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.967905'
+date: '2026-10-04T18:37:48.624476'
 description: Open source framework works by rapidly transferring data between nodes.
   It's often used by companies who need to handle and store big data.
 homepage_url: https://hadoop.apache.org/
 layout: single
 letter: H
+lifecycle_stage: initial
 project_name: Hadoop HDFS
 repo_url: https://github.com/apache/hadoop
 status: in_progress
-summary: Open source framework works by rapidly transferring data between nodes. It's
-  often used by companies who need to handle and store big data.
 title: Hadoop HDFS
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/h/).
+
+Research for Hadoop HDFS is currently in progress. Stay tuned for updates!

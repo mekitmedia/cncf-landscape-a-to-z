@@ -1,41 +1,70 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.047672'
+date: '2026-10-04T18:37:39.241389'
 description: A realtime distributed OLAP datastore.
-get_started: Check out the official documentation or Getting Started guide to learn
-  how to deploy a cluster, ingest data, and start querying.
 homepage_url: https://pinot.apache.org/
-interesting_facts: Pinot was originally created at LinkedIn in 2013 and later donated
-  to the Apache Software Foundation in 2019. The name Pinot comes from the Pinot grape
-  vines, as a metaphor for pressing vast quantities of data from various sources into
-  analytics. In the broader industry, it is frequently compared with Apache Druid
-  and ClickHouse, being praised for its seamless integration with real-time streams
-  and low-latency user-facing analytics, as documented by companies like Uber and
-  Stripe.
-key_features:
-- Distributed architecture designed for predictable low latency.
-- Column-oriented data store for efficient analytics.
-- Support for both real-time data ingestion and offline batch processing.
-- Cluster management and coordination via Apache Helix and Apache ZooKeeper.
-- Scalability and fault tolerance built-in for enterprise deployments.
 layout: single
 letter: A
+lifecycle_stage: tech_writing
 project_name: Apache Pinot
-recent_updates: Apache Pinot 1.5.1 is a security patch release containing dependency
-  updates and dependency-exclusion changes to resolve reported CVEs.
-related_tools:
-- Apache Helix
-- Apache ZooKeeper
-- Apache Spark
 repo_url: https://github.com/apache/pinot
 status: completed
-summary: Apache Pinot is a column-oriented, open-source, distributed data store written
-  in Java, designed to execute OLAP queries with low latency. It is particularly suited
-  for fast analytics on immutable data with real-time data ingestion.
 title: Apache Pinot
-use_cases: Powering user-facing analytics products (e.g. LinkedIn's 'who viewed your
-  profile'), real-time dashboards, and business-facing analytics that require data
-  freshness in seconds.
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/a/).
+
+
+## Overview
+
+A real-time distributed OLAP datastore designed to execute low-latency analytical queries over streaming and historical data at massive scale.
+
+
+
+## Key Features
+
+
+- Ultra-low latency SQL queries (sub-50ms) over billions of rows.
+
+- Pluggable indexing (inverted, star-tree, range, text, JSON, geospatial).
+
+- Real-time streaming ingestion from Kafka, Pulsar, and Kinesis.
+
+- Multi-stage query engine for distributed joins and window functions.
+
+
+
+
+## Use Cases
+
+Powering real-time user-facing analytics, ride-share dispatch metrics, and live anomaly detection.
+
+
+
+{{< callout title="Getting Started" type="code" >}}
+```bash
+Launch quickstart cluster via `./bin/quick-start-streaming.sh` and access console at `localhost:9000`.
+```
+{{< /callout >}}
+
+
+
+## Recent Updates
+
+Added vector indexing for similarity search and enhanced distributed join optimizations.
+
+
+
+{{< callout title="Did You Know?" type="info" >}}
+Apache Pinot is widely utilized across the cloud native and open source ecosystem.
+{{< /callout >}}
+
+
+
+## Related Tools
+
+
+- [Apache Druid](/tools/apache_druid/)
+
+- [ClickHouse](/tools/clickhouse/)
+
+- [Apache Kafka](/tools/apache_kafka/)

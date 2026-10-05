@@ -1,14 +1,15 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:43.865471'
+date: '2026-10-04T18:37:37.944481'
 homepage_url: https://dev.dylib.so/docs/modsurfer/
 layout: single
 letter: M
+lifecycle_stage: initial
 project_name: Modsurfer
 repo_url: https://github.com/dylibso/modsurfer
 status: in_progress
-summary: Research for this project is currently in progress.
 title: Modsurfer
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/m/).
+
+Research for Modsurfer is currently in progress. Stay tuned for updates!

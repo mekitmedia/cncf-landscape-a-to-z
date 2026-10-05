@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T21:46:44.272581'
+date: '2026-10-04T18:37:40.900890'
 description: Auto scale-to-zero pods when idle and scale up pods when traffic arrives,
   without losing any requests. KubeElasti uses a smart proxy that queues incoming
   requests while scaling up targets, ensuring no request loss. It works with existing
@@ -8,14 +8,12 @@ description: Auto scale-to-zero pods when idle and scale up pods when traffic ar
 homepage_url: https://kubeelasti.dev
 layout: single
 letter: K
+lifecycle_stage: initial
 project_name: KubeElasti
 repo_url: https://github.com/KubeElasti/KubeElasti
 status: in_progress
-summary: Auto scale-to-zero pods when idle and scale up pods when traffic arrives,
-  without losing any requests. KubeElasti uses a smart proxy that queues incoming
-  requests while scaling up targets, ensuring no request loss. It works with existing
-  Kubernetes services and deployments without requiring code changes.
 title: KubeElasti
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/k/).
+
+Research for KubeElasti is currently in progress. Stay tuned for updates!

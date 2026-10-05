@@ -1,14 +1,15 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.547777'
+date: '2026-10-04T18:37:43.883865'
 homepage_url: https://theforeman.org/
 layout: single
 letter: F
+lifecycle_stage: initial
 project_name: Foreman
 repo_url: https://github.com/theforeman/foreman
 status: in_progress
-summary: Research for this project is currently in progress.
 title: Foreman
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/f/).
+
+Research for Foreman is currently in progress. Stay tuned for updates!

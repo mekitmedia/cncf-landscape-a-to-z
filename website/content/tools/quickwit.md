@@ -1,15 +1,16 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:43.875188'
+date: '2026-10-04T18:37:38.038071'
 description: Sub-second search & analytics engine on cloud storage
 homepage_url: https://quickwit.io/
 layout: single
 letter: Q
+lifecycle_stage: initial
 project_name: Quickwit
 repo_url: https://github.com/quickwit-oss/quickwit
 status: in_progress
-summary: Sub-second search & analytics engine on cloud storage
 title: Quickwit
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/q/).
+
+Research for Quickwit is currently in progress. Stay tuned for updates!

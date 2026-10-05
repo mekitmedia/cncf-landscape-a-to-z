@@ -1,19 +1,18 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.493170'
+date: '2026-10-04T18:37:43.317956'
 description: Framework for orchestrating role-playing, autonomous AI agents. By fostering
   collaborative intelligence, CrewAI empowers agents to work together seamlessly,
   tackling complex tasks.
 homepage_url: https://www.crewai.com/
 layout: single
 letter: C
+lifecycle_stage: initial
 project_name: Crew AI
 repo_url: https://github.com/crewAIInc/crewAI
 status: in_progress
-summary: Framework for orchestrating role-playing, autonomous AI agents. By fostering
-  collaborative intelligence, CrewAI empowers agents to work together seamlessly,
-  tackling complex tasks.
 title: Crew AI
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/c/).
+
+Research for Crew AI is currently in progress. Stay tuned for updates!

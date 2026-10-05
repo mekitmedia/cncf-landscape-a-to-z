@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.437421'
+date: '2026-10-04T18:37:42.805900'
 description: Checkov scans cloud infrastructure configurations to find misconfigurations
   before they are deployed. Checkov manages and analyzes infrastructure as code (IaC)
   scan results across platforms such as Terraform, CloudFormation, Kubernetes, Helm,
@@ -8,14 +8,12 @@ description: Checkov scans cloud infrastructure configurations to find misconfig
 homepage_url: https://www.checkov.io/
 layout: single
 letter: C
+lifecycle_stage: initial
 project_name: Checkov
 repo_url: https://github.com/bridgecrewio/checkov
 status: in_progress
-summary: Checkov scans cloud infrastructure configurations to find misconfigurations
-  before they are deployed. Checkov manages and analyzes infrastructure as code (IaC)
-  scan results across platforms such as Terraform, CloudFormation, Kubernetes, Helm,
-  ARM Templates and Serverless framework.
 title: Checkov
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/c/).
+
+Research for Checkov is currently in progress. Stay tuned for updates!

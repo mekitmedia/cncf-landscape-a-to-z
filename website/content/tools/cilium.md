@@ -1,15 +1,16 @@
 ---
 cncf_status: graduated
-date: '2026-09-20T21:46:44.458887'
+date: '2026-10-04T18:37:42.994314'
 description: eBPF-based Networking, Observability, and Security
 homepage_url: https://cilium.io/
 layout: single
 letter: C
+lifecycle_stage: initial
 project_name: Cilium
 repo_url: https://github.com/cilium/cilium
 status: in_progress
-summary: eBPF-based Networking, Observability, and Security
 title: Cilium
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/c/).
+
+Research for Cilium is currently in progress. Stay tuned for updates!

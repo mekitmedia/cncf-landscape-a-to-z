@@ -1,17 +1,17 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.554322'
+date: '2026-10-04T18:37:43.993495'
 description: High-performance open-source vector database for AI search, RAG, semantic
   search, and hybrid retrieval.
 homepage_url: https://endee.io/
 layout: single
 letter: E
+lifecycle_stage: initial
 project_name: Endee
 repo_url: https://github.com/endee-io/endee
 status: in_progress
-summary: High-performance open-source vector database for AI search, RAG, semantic
-  search, and hybrid retrieval.
 title: Endee
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/e/).
+
+Research for Endee is currently in progress. Stay tuned for updates!

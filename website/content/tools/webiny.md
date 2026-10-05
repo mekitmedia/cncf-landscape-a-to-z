@@ -1,14 +1,15 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.634091'
+date: '2026-10-04T18:37:44.873798'
 homepage_url: https://www.webiny.com
 layout: single
 letter: W
+lifecycle_stage: initial
 project_name: Webiny
 repo_url: https://github.com/webiny/webiny-js
 status: in_progress
-summary: Research for this project is currently in progress.
 title: Webiny
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/w/).
+
+Research for Webiny is currently in progress. Stay tuned for updates!

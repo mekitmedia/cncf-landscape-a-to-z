@@ -1,14 +1,15 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:43.862696'
+date: '2026-10-04T18:37:37.921174'
 homepage_url: https://mist.io/
 layout: single
 letter: M
+lifecycle_stage: initial
 project_name: Mist.io
 repo_url: https://github.com/mistio/mist-ce
 status: in_progress
-summary: Research for this project is currently in progress.
 title: Mist.io
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/m/).
+
+Research for Mist.io is currently in progress. Stay tuned for updates!

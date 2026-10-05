@@ -1,14 +1,15 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.595513'
+date: '2026-10-04T18:37:44.442629'
 homepage_url: https://beam.apache.org/
 layout: single
 letter: B
+lifecycle_stage: initial
 project_name: Beam
 repo_url: https://github.com/apache/beam
 status: in_progress
-summary: Research for this project is currently in progress.
 title: Beam
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/b/).
+
+Research for Beam is currently in progress. Stay tuned for updates!

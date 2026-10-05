@@ -1,17 +1,17 @@
 ---
 cncf_status: graduated
-date: '2026-09-20T21:46:44.306864'
+date: '2026-10-04T18:37:41.244733'
 description: 'Jaeger: open source, end-to-end distributed tracing. Monitor and troubleshoot
   transactions in complex distributed systems'
 homepage_url: https://www.jaegertracing.io/
 layout: single
 letter: J
+lifecycle_stage: initial
 project_name: Jaeger
 repo_url: https://github.com/jaegertracing/jaeger
 status: in_progress
-summary: 'Jaeger: open source, end-to-end distributed tracing. Monitor and troubleshoot
-  transactions in complex distributed systems'
 title: Jaeger
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/j/).
+
+Research for Jaeger is currently in progress. Stay tuned for updates!

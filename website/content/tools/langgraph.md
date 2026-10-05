@@ -1,15 +1,16 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.357814'
+date: '2026-10-04T18:37:41.819514'
 description: Build resilient language agents as graphs.
 homepage_url: https://docs.langchain.com/oss/python/langgraph/
 layout: single
 letter: L
+lifecycle_stage: initial
 project_name: LangGraph
 repo_url: https://github.com/langchain-ai/langgraph
 status: in_progress
-summary: Build resilient language agents as graphs.
 title: LangGraph
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/l/).
+
+Research for LangGraph is currently in progress. Stay tuned for updates!

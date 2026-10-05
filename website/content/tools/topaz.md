@@ -1,17 +1,17 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.738384'
+date: '2026-10-04T18:37:46.087282'
 description: Cloud-native authorization for modern applications and APIs, combining
   the best of Open Policy Agent and Google Zanzibar
 homepage_url: https://www.topaz.sh
 layout: single
 letter: T
+lifecycle_stage: initial
 project_name: Topaz
 repo_url: https://github.com/aserto-dev/topaz
 status: in_progress
-summary: Cloud-native authorization for modern applications and APIs, combining the
-  best of Open Policy Agent and Google Zanzibar
 title: Topaz
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/t/).
+
+Research for Topaz is currently in progress. Stay tuned for updates!
