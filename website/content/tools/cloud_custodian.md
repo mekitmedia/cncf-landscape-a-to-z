@@ -1,14 +1,17 @@
 ---
 cncf_status: incubating
-date: '2026-09-20T21:46:44.482266'
+date: '2026-10-04T18:37:43.213561'
+description: Rules engine for cloud security, cost optimization, and governance, DSL
+  in yaml for policies to query, filter, and take actions on resources
 homepage_url: https://cloudcustodian.io/
 layout: single
 letter: C
+lifecycle_stage: initial
 project_name: Cloud Custodian
 repo_url: https://github.com/cloud-custodian/cloud-custodian
 status: in_progress
-summary: Research for this project is currently in progress.
 title: Cloud Custodian
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/c/).
+
+Research for Cloud Custodian is currently in progress. Stay tuned for updates!

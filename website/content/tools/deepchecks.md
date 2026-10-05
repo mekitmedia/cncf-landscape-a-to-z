@@ -1,19 +1,18 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.984003'
+date: '2026-10-04T18:37:48.846382'
 description: Tests for Continuous Validation of ML Models & Data. Deepchecks is a
   holistic open-source solution for all of your AI & ML validation needs, enabling
   to thoroughly test your data and models from research to production.
 homepage_url: https://github.com/deepchecks/deepchecks
 layout: single
 letter: D
+lifecycle_stage: initial
 project_name: Deepchecks
 repo_url: https://github.com/deepchecks/deepchecks
 status: in_progress
-summary: Tests for Continuous Validation of ML Models & Data. Deepchecks is a holistic
-  open-source solution for all of your AI & ML validation needs, enabling to thoroughly
-  test your data and models from research to production.
 title: Deepchecks
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/d/).
+
+Research for Deepchecks is currently in progress. Stay tuned for updates!

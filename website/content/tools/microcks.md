@@ -1,15 +1,16 @@
 ---
 cncf_status: incubating
-date: '2026-09-20T21:46:43.827155'
+date: '2026-10-04T18:37:37.662025'
 description: The open source, cloud native tool for API Mocking and Testing
 homepage_url: https://microcks.io
 layout: single
 letter: M
+lifecycle_stage: initial
 project_name: Microcks
 repo_url: https://github.com/microcks/microcks
 status: in_progress
-summary: The open source, cloud native tool for API Mocking and Testing
 title: Microcks
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/m/).
+
+Research for Microcks is currently in progress. Stay tuned for updates!

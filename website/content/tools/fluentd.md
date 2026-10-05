@@ -1,14 +1,16 @@
 ---
 cncf_status: graduated
-date: '2026-09-20T21:46:44.536066'
+date: '2026-10-04T18:37:43.790312'
+description: Fluentd is an open source data collector for unified logging layer
 homepage_url: https://www.fluentd.org/
 layout: single
 letter: F
+lifecycle_stage: initial
 project_name: Fluentd
 repo_url: https://github.com/fluent/fluentd
 status: in_progress
-summary: Research for this project is currently in progress.
 title: Fluentd
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/f/).
+
+Research for Fluentd is currently in progress. Stay tuned for updates!

@@ -1,14 +1,15 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.833656'
+date: '2026-10-04T18:37:47.137542'
 homepage_url: https://skywalking.apache.org/
 layout: single
 letter: S
+lifecycle_stage: initial
 project_name: SkyWalking
 repo_url: https://github.com/apache/skywalking
 status: in_progress
-summary: Research for this project is currently in progress.
 title: SkyWalking
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/s/).
+
+Research for SkyWalking is currently in progress. Stay tuned for updates!

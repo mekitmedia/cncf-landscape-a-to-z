@@ -1,31 +1,70 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-24T00:49:55.609373'
+date: '2026-10-04T18:37:45.915059'
 description: Typhoon distributes upstream Kubernetes, architectural conventions, and
   cluster addons, much like a GNU/Linux distribution provides the Linux kernel and
   userspace components.
-get_started: Check out the official documentation on the homepage to start provisioning
-  your cluster with Terraform.
 homepage_url: https://typhoon.psdn.io/
-interesting_facts: Typhoon is known for being a minimal Kubernetes distribution powered
-  by Terraform.
-key_features:
-- Declarative provisioning using Terraform
-- Provides highly available Kubernetes control planes
-- Supports multiple environments including AWS, Google Cloud, Azure, and bare metal
 layout: single
 letter: T
+lifecycle_stage: tech_writing
 project_name: Typhoon
-recent_updates: v1.36.1 was released.
-related_tools:
-- Terraform
-- Kubespray
-- kops
 repo_url: https://github.com/poseidon/typhoon
 status: completed
-summary: Minimal and free Kubernetes distribution with Terraform
 title: Typhoon
-use_cases: Provisioning and managing Kubernetes clusters declaratively.
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/t/).
+
+
+## Overview
+
+Typhoon is a minimal and free Kubernetes distribution.
+
+
+
+## Key Features
+
+
+- Minimal, stable base Kubernetes distribution
+
+- Declarative infrastructure and configuration
+
+- Ready for Ingress, Prometheus, Grafana, CSI, or other addons
+
+
+
+
+## Use Cases
+
+Practical for labs, datacenters, and clouds.
+
+
+
+{{< callout title="Getting Started" type="code" >}}
+```bash
+Define a Kubernetes cluster by using the Terraform module for your chosen platform and operating system.
+```
+{{< /callout >}}
+
+
+
+## Recent Updates
+
+Add `cloud_provider` variable so "external" cloud controller managers may be used (default null).
+
+
+
+{{< callout title="Did You Know?" type="info" >}}
+Typhoon distributes upstream Kubernetes, architectural conventions, and cluster addons, much like a GNU/Linux distribution provides the Linux kernel and userspace components.
+{{< /callout >}}
+
+
+
+## Related Tools
+
+
+- [Terraform](/tools/terraform/)
+
+- [Kubespray](/tools/kubespray/)
+
+- [kops](/tools/kops/)

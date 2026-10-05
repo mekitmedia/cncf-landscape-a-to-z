@@ -1,19 +1,18 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T21:46:44.871660'
+date: '2026-10-04T18:37:47.650997'
 description: The open-source platform for automated database provisioning and management.
   It supports multiple database technologies and can be hosted on any Kubernetes infrastructure,
   in the cloud or on-premises.
 homepage_url: https://openeverest.io/
 layout: single
 letter: O
+lifecycle_stage: initial
 project_name: OpenEverest
 repo_url: https://github.com/openeverest/openeverest
 status: in_progress
-summary: The open-source platform for automated database provisioning and management.
-  It supports multiple database technologies and can be hosted on any Kubernetes infrastructure,
-  in the cloud or on-premises.
 title: OpenEverest
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/o/).
+
+Research for OpenEverest is currently in progress. Stay tuned for updates!

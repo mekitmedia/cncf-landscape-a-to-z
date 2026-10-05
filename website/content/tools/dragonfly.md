@@ -1,19 +1,18 @@
 ---
 cncf_status: graduated
-date: '2026-09-20T21:46:45.000414'
+date: '2026-10-04T18:37:49.009490'
 description: Delivers efficient, stable, and secure data distribution and acceleration
   powered by P2P technology, with an optional content‑addressable filesystem that
   accelerates OCI container launch.
 homepage_url: https://d7y.io/
 layout: single
 letter: D
+lifecycle_stage: initial
 project_name: Dragonfly
 repo_url: https://github.com/dragonflyoss/dragonfly
 status: in_progress
-summary: Delivers efficient, stable, and secure data distribution and acceleration
-  powered by P2P technology, with an optional content‑addressable filesystem that
-  accelerates OCI container launch.
 title: Dragonfly
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/d/).
+
+Research for Dragonfly is currently in progress. Stay tuned for updates!

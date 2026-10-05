@@ -1,14 +1,15 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.957035'
+date: '2026-10-04T18:37:48.521247'
 homepage_url: https://github.com/hango-io
 layout: single
 letter: H
+lifecycle_stage: initial
 project_name: Hango
 repo_url: https://github.com/hango-io/hango-gateway
 status: in_progress
-summary: Research for this project is currently in progress.
 title: Hango
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/h/).
+
+Research for Hango is currently in progress. Stay tuned for updates!

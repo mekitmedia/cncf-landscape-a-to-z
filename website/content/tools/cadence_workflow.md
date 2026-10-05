@@ -1,17 +1,17 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T21:46:44.486171'
+date: '2026-10-04T18:37:43.249041'
 description: Cadence is a distributed, scalable, durable, and highly available fault-oblivious
   stateful code platform.
 homepage_url: https://cadenceworkflow.io/
 layout: single
 letter: C
+lifecycle_stage: initial
 project_name: Cadence Workflow
 repo_url: https://github.com/cadence-workflow/cadence
 status: in_progress
-summary: Cadence is a distributed, scalable, durable, and highly available fault-oblivious
-  stateful code platform.
 title: Cadence Workflow
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/c/).
+
+Research for Cadence Workflow is currently in progress. Stay tuned for updates!

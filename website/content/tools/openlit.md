@@ -1,14 +1,15 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.879972'
+date: '2026-10-04T18:37:47.723191'
 homepage_url: https://openlit.io/
 layout: single
 letter: O
+lifecycle_stage: initial
 project_name: OpenLIT
 repo_url: https://github.com/openlit/openlit
 status: in_progress
-summary: Research for this project is currently in progress.
 title: OpenLIT
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/o/).
+
+Research for OpenLIT is currently in progress. Stay tuned for updates!

@@ -168,18 +168,6 @@ def generate_tool_page_content(
         try:
             with research_file.open("r", encoding="utf-8") as f:
                 research_data = yaml.safe_load(f)
-            if research_data:
-                for key in [
-                    "summary",
-                    "key_features",
-                    "recent_updates",
-                    "use_cases",
-                    "interesting_facts",
-                    "get_started",
-                    "related_tools",
-                ]:
-                    if key in research_data:
-                        front_matter[key] = research_data[key]
         except Exception as exc:
             print(f"Error loading research file {research_file}: {exc}")
 
@@ -188,12 +176,28 @@ def generate_tool_page_content(
         research_data=research_data,
     )
     front_matter["lifecycle_stage"] = stage
-    front_matter["status"] = "completed" if stage in ("first_pass", "tech_writing", "approved") else "in_progress"
+    status_val = "completed" if stage in ("first_pass", "tech_writing", "approved") else "in_progress"
+    front_matter["status"] = status_val
 
-    if not front_matter.get("summary"):
-        front_matter["summary"] = item.get(
-            "description", "Research for this project is currently in progress."
-        )
+    summary = None
+    key_features = []
+    recent_updates = None
+    use_cases = None
+    interesting_facts = None
+    get_started = None
+    related_tools = []
+
+    if research_data:
+        summary = research_data.get("summary")
+        key_features = research_data.get("key_features", [])
+        recent_updates = research_data.get("recent_updates")
+        use_cases = research_data.get("use_cases")
+        interesting_facts = research_data.get("interesting_facts")
+        get_started = research_data.get("get_started")
+        related_tools = research_data.get("related_tools", [])
+
+    if not summary:
+        summary = item.get("description", "Research for this project is currently in progress.")
 
     front_matter_yaml = yaml.dump(
         front_matter, default_flow_style=False, allow_unicode=True
@@ -209,6 +213,14 @@ def generate_tool_page_content(
             front_matter_yaml=front_matter_yaml,
             letter=letter.lower(),
             project_name=project_name,
+            status=status_val,
+            summary=summary,
+            key_features=key_features,
+            recent_updates=recent_updates,
+            use_cases=use_cases,
+            interesting_facts=interesting_facts,
+            get_started=get_started,
+            related_tools=related_tools,
         )
     raise FileNotFoundError(f"Template not found at {template_file}")
 

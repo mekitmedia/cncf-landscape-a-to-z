@@ -1,14 +1,15 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.761732'
+date: '2026-10-04T18:37:46.289141'
 homepage_url: https://www.terraform.io/
 layout: single
 letter: T
+lifecycle_stage: initial
 project_name: Terraform
 repo_url: https://github.com/hashicorp/terraform
 status: in_progress
-summary: Research for this project is currently in progress.
 title: Terraform
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/t/).
+
+Research for Terraform is currently in progress. Stay tuned for updates!

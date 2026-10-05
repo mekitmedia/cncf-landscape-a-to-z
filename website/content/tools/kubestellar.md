@@ -1,17 +1,17 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T21:46:44.254440'
+date: '2026-10-04T18:37:40.731723'
 description: KubeStellar - a flexible solution for challenges associated with multi-cluster
   configuration management for edge, multi-cloud, and hybrid cloud
 homepage_url: https://kubestellar.io
 layout: single
 letter: K
+lifecycle_stage: initial
 project_name: KubeStellar
 repo_url: https://github.com/kubestellar/kubestellar
 status: in_progress
-summary: KubeStellar - a flexible solution for challenges associated with multi-cluster
-  configuration management for edge, multi-cloud, and hybrid cloud
 title: KubeStellar
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/k/).
+
+Research for KubeStellar is currently in progress. Stay tuned for updates!

@@ -1,17 +1,17 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T21:46:44.925289'
+date: '2026-10-04T18:37:48.163630'
 description: A developer platform for Kubernetes that delivers higher-level abstractions
   with a Backstage-powered portal, CI/CD, GitOps, and built-in observability.
 homepage_url: https://openchoreo.dev
 layout: single
 letter: O
+lifecycle_stage: initial
 project_name: OpenChoreo
 repo_url: https://github.com/openchoreo/openchoreo
 status: in_progress
-summary: A developer platform for Kubernetes that delivers higher-level abstractions
-  with a Backstage-powered portal, CI/CD, GitOps, and built-in observability.
 title: OpenChoreo
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/o/).
+
+Research for OpenChoreo is currently in progress. Stay tuned for updates!

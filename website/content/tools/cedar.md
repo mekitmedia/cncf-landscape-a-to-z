@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-01T02:45:14.653532'
+date: '2026-10-04T18:37:42.774046'
 description: Cedar is an open source authorization policy language that enables developers
   to express fine-grained permissions as easy-to-understand policies enforced in their
   applications, and decouple access control from application logic. Cedar is designed
@@ -18,39 +18,65 @@ description: Cedar is an open source authorization policy language that enables 
   its formal specification. By combining mathematical rigor with developer-friendly
   design, Cedar offers a practical approach to secure, maintainable authorization
   for modern applications.
-get_started: To get started, depend on the `cedar-policy` crate by running `cargo
-  add cedar-policy`. You can also use the CLI to interact with Cedar.
 homepage_url: https://cedarpolicy.com
-interesting_facts: Cedar includes a built-in validator that cross-checks policies
-  against a declared authorization schema to catch inconsistencies early.
-key_features:
-- 'Expressive Language: Designed to natively support authorization concepts, making
-  it straightforward to write policies for both simple and complex access control
-  scenarios.'
-- 'Performant Evaluation: Optimized for speed and scalability, the authorization engine
-  provides bounded latency for real-time access decisions.'
-- 'Analyzable Policies: Integration with Automated Reasoning tools allows developers
-  to mathematically prove that security models operate as intended and analyze policies
-  for potential optimization.'
 layout: single
 letter: C
+lifecycle_stage: tech_writing
 project_name: Cedar
-recent_updates: The latest release (v4.13.0) introduces pre-built binaries for multiple
-  platforms, an integrated `cedar license` subcommand, and significant performance
-  optimizations to `EntityUid::from_str()` which parses and renders much faster.
-related_tools:
-- Open Policy Agent (OPA)
-- Zanzibar
 repo_url: https://github.com/cedar-policy/cedar
 status: completed
-summary: Cedar is an open-source policy language developed for defining and enforcing
-  fine-grained access control across applications. It allows developers to decouple
-  authorization logic from application code, supporting common models like Role-Based
-  Access Control (RBAC) and Attribute-Based Access Control (ABAC).
 title: Cedar
-use_cases: Developers use Cedar to separate authorization policies from business logic,
-  ensuring that access decisions can be independently verified, analyzed, and updated
-  without requiring code changes.
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/c/).
+
+
+## Overview
+
+Cedar is an open-source policy language developed for defining and enforcing fine-grained access control across applications. It allows developers to decouple authorization logic from application code, supporting common models like Role-Based Access Control (RBAC) and Attribute-Based Access Control (ABAC).
+
+
+
+## Key Features
+
+
+- Expressive Language: Designed to natively support authorization concepts, making it straightforward to write policies for both simple and complex access control scenarios.
+
+- Performant Evaluation: Optimized for speed and scalability, the authorization engine provides bounded latency for real-time access decisions.
+
+- Analyzable Policies: Integration with Automated Reasoning tools allows developers to mathematically prove that security models operate as intended and analyze policies for potential optimization.
+
+
+
+
+## Use Cases
+
+Developers use Cedar to separate authorization policies from business logic, ensuring that access decisions can be independently verified, analyzed, and updated without requiring code changes.
+
+
+
+{{< callout title="Getting Started" type="code" >}}
+```bash
+To get started, depend on the `cedar-policy` crate by running `cargo add cedar-policy`. You can also use the CLI to interact with Cedar.
+```
+{{< /callout >}}
+
+
+
+## Recent Updates
+
+The latest release (v4.13.0) introduces pre-built binaries for multiple platforms, an integrated `cedar license` subcommand, and significant performance optimizations to `EntityUid::from_str()` which parses and renders much faster.
+
+
+
+{{< callout title="Did You Know?" type="info" >}}
+Cedar includes a built-in validator that cross-checks policies against a declared authorization schema to catch inconsistencies early.
+{{< /callout >}}
+
+
+
+## Related Tools
+
+
+- [Open Policy Agent (OPA)](/tools/open_policy_agent_(opa)/)
+
+- [Zanzibar](/tools/zanzibar/)

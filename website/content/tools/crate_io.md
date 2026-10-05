@@ -1,14 +1,15 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.413305'
+date: '2026-10-04T18:37:42.588950'
 homepage_url: https://crate.io/
 layout: single
 letter: C
+lifecycle_stage: initial
 project_name: Crate.io
 repo_url: https://github.com/crate/crate
 status: in_progress
-summary: Research for this project is currently in progress.
 title: Crate.io
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/c/).
+
+Research for Crate.io is currently in progress. Stay tuned for updates!

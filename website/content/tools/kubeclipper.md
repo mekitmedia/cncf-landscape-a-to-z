@@ -1,15 +1,16 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T21:46:44.206635'
+date: '2026-10-04T18:37:40.374062'
 description: Manage kubernetes in the most light and convenient way.
 homepage_url: https://www.kubeclipper.io/
 layout: single
 letter: K
+lifecycle_stage: initial
 project_name: KubeClipper
 repo_url: https://github.com/kubeclipper/kubeclipper
 status: in_progress
-summary: Manage kubernetes in the most light and convenient way.
 title: KubeClipper
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/k/).
+
+Research for KubeClipper is currently in progress. Stay tuned for updates!

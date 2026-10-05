@@ -1,17 +1,17 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T21:46:44.496969'
+date: '2026-10-04T18:37:43.353056'
 description: Connect is a family of libraries for building browser and gRPC-compatible
   HTTP APIs.
 homepage_url: https://connectrpc.com/
 layout: single
 letter: C
+lifecycle_stage: initial
 project_name: Connect RPC
 repo_url: https://github.com/connectrpc/connect-go
 status: in_progress
-summary: Connect is a family of libraries for building browser and gRPC-compatible
-  HTTP APIs.
 title: Connect RPC
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/c/).
+
+Research for Connect RPC is currently in progress. Stay tuned for updates!
