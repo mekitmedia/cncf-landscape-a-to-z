@@ -1,6 +1,6 @@
 # Summary for 14-O
 
-This week has a total of 59 items.
+This week has a total of 60 items.
 
 
 - **Provisioning Automation Configuration**: 4 items
@@ -13,7 +13,7 @@ This week has a total of 59 items.
 
 - **Runtime Cloud Native Network**: 3 items
 
-- **Orchestration Management Scheduling Orchestration**: 4 items
+- **Orchestration Management Scheduling Orchestration**: 5 items
 
 - **Orchestration Management Coordination Service Discovery**: 1 items
 

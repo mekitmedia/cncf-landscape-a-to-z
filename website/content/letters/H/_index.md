@@ -8,7 +8,7 @@ layout: "list"
 
 # Summary for 07-H
 
-This week has a total of 24 items.
+This week has a total of 25 items.
 
 
 - **Provisioning Container Registry**: 1 items
@@ -39,7 +39,7 @@ This week has a total of 24 items.
 
 - **Ai Agent Rag**: 1 items
 
-- **Ai Agent Workflow Orchestration**: 1 items
+- **Ai Agent Workflow Orchestration**: 2 items
 
 - **Data Data Architecture**: 1 items
 

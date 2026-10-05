@@ -25,3 +25,13 @@
   project: null
   repo_url: https://github.com/edgenesis/shifu
   twitter: https://twitter.com/ShifuFramework
+- crunchbase: https://www.crunchbase.com/organization/mulga-dc
+  description: Spinifex is an open source, AWS-compatible cloud for bare-metal, edge
+    and on-premise hardware. It implements the EC2, VPC, S3, EKS and RDS APIs, so
+    existing AWS CLI, SDK and Terraform workflows run unchanged on your own servers.
+  featured: true
+  homepage_url: https://mulgadc.com/spinifex
+  logo: spinifex.svg
+  name: Spinifex
+  project: null
+  repo_url: https://github.com/mulgadc/spinifex

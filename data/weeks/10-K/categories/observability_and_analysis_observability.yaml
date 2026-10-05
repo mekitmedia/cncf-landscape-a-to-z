@@ -15,8 +15,10 @@
   project: null
   repo_url: https://github.com/keephq/keep
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  description: Kepler (Kubernetes-based Efficient Power Level Exporter) uses eBPF
-    to probe energy related system stats and exports as Prometheus metrics.
+  description: Kepler (Kubernetes-based Efficient Power Level Exporter) is a Prometheus
+    exporter that measures energy consumption at the Pod and Node level by reading
+    hardware sensors, attributing it to containers, and giving per-workload visibility
+    into where energy goes. Let's make every watt matter.
   featured: true
   homepage_url: https://sustainable-computing.io/
   logo: kepler.svg
