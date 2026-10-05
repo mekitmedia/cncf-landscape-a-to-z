@@ -35,3 +35,12 @@
   name: OpenSandbox
   project: null
   repo_url: https://github.com/alibaba/OpenSandbox
+- crunchbase: https://www.crunchbase.com/organization/nvidia
+  description: OpenShell is the safe, private runtime for fleets of autonomous AI
+    agents.
+  featured: true
+  homepage_url: https://docs.nvidia.com/openshell/latest/
+  logo: openshell.svg
+  name: OpenShell
+  project: sandbox
+  repo_url: https://github.com/NVIDIA/OpenShell
