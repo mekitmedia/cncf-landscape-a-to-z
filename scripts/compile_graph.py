@@ -7,8 +7,6 @@ and compiles static/data/graph.json (and website/static/data/graph.json) contain
 
 from __future__ import annotations
 
-import glob
-import json
 import re
 import sys
 from pathlib import Path

@@ -30,6 +30,17 @@ def sanitize_for_filename(name: str) -> str:
     )
 
 
+def _normalize_frontmatter_list(value: object) -> list[str]:
+    """Normalize a frontmatter field to a list of strings."""
+    if value is None:
+        return []
+    if isinstance(value, list):
+        return [str(item) for item in value if item is not None]
+    if isinstance(value, str):
+        return [value]
+    return [str(value)]
+
+
 def _get_week_dirs(cfg) -> list[Path]:
     return [Path(p) for p in glob.glob(str(cfg.weeks_dir / "*-*"))]
 
@@ -162,14 +173,36 @@ def generate_tool_page_content(
         front_matter["description"] = item["description"]
 
     item_tracker = _get_item_tracker(week_id_value, project_name)
-    research_data = None
+    research_data = {}
 
     if research_file and research_file.exists():
         try:
             with research_file.open("r", encoding="utf-8") as f:
-                research_data = yaml.safe_load(f)
+                research_data = yaml.safe_load(f) or {}
         except Exception as exc:
             print(f"Error loading research file {research_file}: {exc}")
+
+    category_value = research_data.get("category")
+    layer_value = research_data.get("layer")
+    integrations_value = research_data.get("integrations")
+    alternatives_value = research_data.get("alternatives")
+    tags_value = research_data.get("tags")
+
+    front_matter["category"] = str(
+        category_value if category_value is not None else (item.get("category") or "")
+    )
+    front_matter["layer"] = str(
+        layer_value if layer_value is not None else (item.get("layer") or "")
+    )
+    front_matter["integrations"] = _normalize_frontmatter_list(
+        integrations_value if integrations_value is not None else item.get("integrations")
+    )
+    front_matter["alternatives"] = _normalize_frontmatter_list(
+        alternatives_value if alternatives_value is not None else item.get("alternatives")
+    )
+    front_matter["tags"] = _normalize_frontmatter_list(
+        tags_value if tags_value is not None else item.get("tags")
+    )
 
     stage = _determine_lifecycle_stage(
         item_tracker=item_tracker,
