@@ -11,17 +11,17 @@ tags:
   - "devops"
 ---
 
-With over 1,000 projects spanning service meshes, container runtimes, observability pipelines, and AI orchestrators, the [CNCF Landscape](https://landscape.cncf.io/) is as vast as it is fast-moving. When we set out on our **CNCF Landscape A-to-Z in 52 Weeks** project, our goal was simple: explore the entire ecosystem letter by letter, sharing concise overviews, architectural deep-dives, and getting-started guides for every tool in the landscape.
+I like to put every AI coding tool to work regardless of the task—especially tools I don't use day-to-day at work, just so I can gain a broader view of the ecosystem.
 
-However, behind that simple goal lies a massive operational challenge. Curating, fact-checking, and structuring information for dozens of projects every single week quickly overwhelms a solo maintainer. To avoid burnout, we needed more than just a chat-based assistant that requires constant prompt babysitting; we needed **asynchronous AI background workers**.
+If you use Gemini, you have free access to **Google Labs Jules** with a generous limit of **100 tasks per day**. That's significantly more than my GitHub Copilot subscription, which these days is mostly consumed by PR reviews anyway. Every AI agent has its role, and for a massive project like **CNCF Landscape A-to-Z**, there is plenty of work to distribute. While I build and test persistent agents with Pydantic AI or run coding agents via custom skills, paid API quotas shouldn't be wasted on basic repository chores when free included tiers are available.
 
-Enter **Google Labs Jules**. Over the past few months, we integrated Jules into our GitHub workflow to handle small bug fixes, data pipeline optimizations, and automated project research tasks. 
+The turning point came with the recent release of the **Jules GitHub Action**. It triggered an interesting idea: *What if tasks could be defined as Markdown files right inside the repository, and Jules could complete them automatically on a schedule?* Considering GitHub Action schedule limits, that allows up to 3 automated background tasks completed every day.
 
-In this post, we’ll break down what Jules is, what it does well (and where its limits lie), how we structured our repository to make it thrive, and what we learned about putting autonomous agents to work on real-world engineering and content workflows.
+This article is your guide to discovering Jules and learning how to leverage it in a completely headless workflow—turning it into an automated second Copilot contributor for your GitHub repositories.
 
 ---
 
-## What is Jules?
+## What is Jules? (by Jules)
 
 **Jules** is an experimental asynchronous coding agent developed by Google Labs. Unlike synchronous chat interfaces or inline code-completion extensions (like GitHub Copilot or Cursor) that require an engineer to stay in the loop during generation, Jules is designed to work autonomously in the background directly against your GitHub repositories.
 
@@ -36,124 +36,175 @@ This asynchronous model shifts the human role from **prompt writer** to **code r
 
 ---
 
-## What Can Jules Do? Real Examples from Our Repo
+## What Can Jules Do? 
 
-We put Jules to work across a variety of tasks ranging from quick UI chores to multi-step research and code refactoring. Here are a few concrete examples straight from our git commit history:
+When you first open Google Labs Jules as you would expect, the interface offers a few built-in ways to interact with your codebase, 
 
-### 1. Small Frontend & Configuration Chores
-Small housekeeping tasks often take longer to context-switch into than to actually write. Jules handled these effortlessly:
-* **Custom 404 Pages**: When we needed a fallback page for un-generated tool routes ([PR #111](https://github.com/mekitmedia/cncf-landscape-a-to-z/pull/111)), Jules created the Hugo template, styled it to match our theme, and verified the routing structure.
-* **UI Label Migrations**: When updating our project schedule from 26 weeks to 52 weeks ([PR #97](https://github.com/mekitmedia/cncf-landscape-a-to-z/pull/97)), Jules scanned templates and replaced all user-facing references cleanly without breaking internal variable names.
-* **Navigation & Config Tweaks**: Jules injected Google Analytics partials into Hugo headers ([PR #103](https://github.com/mekitmedia/cncf-landscape-a-to-z/pull/103)) and added repository links to the main navigation header ([PR #98](https://github.com/mekitmedia/cncf-landscape-a-to-z/pull/98)).
+The most obvious starting point is simply opening the Jules web interface and launching a session with a prompt:
 
-### 2. Code Optimization & Performance Refactoring
-We noticed our static page generator `tool_pages.py` was slowing down as the number of researched projects grew. We assigned Jules the task of optimizing the script:
-* **Optimizing N+1 File Reads**: In [PR #73](https://github.com/mekitmedia/cncf-landscape-a-to-z/pull/73), Jules diagnosed an N+1 filesystem bottleneck, introduced in-memory caching for category files, and cut pipeline execution time significantly—all while preserving the script's original interface and unit test compatibility.
+![Ask Jules to work on a session](/images/jules/jules-ui-ask-session.png)
 
-### 3. Autonomous Project Research & Schema Population
-Our primary content workflow requires researching CNCF projects and outputting standardized YAML files for our static site generator. 
+While handy for quick one-off edits, my main issue with ad-hoc sessions is that it's *just yet another chat UI*. What I really wanted was a way to plan tasks using one agent, stage those tasks inside the repo, and let Jules pick them up asynchronously over time.
 
-Jules took on individual research tasks for projects such as **Akri** ([PR #116](https://github.com/mekitmedia/cncf-landscape-a-to-z/pull/116)), **Atlantis** ([PR #114](https://github.com/mekitmedia/cncf-landscape-a-to-z/pull/114)), **Athenz** ([PR #113](https://github.com/mekitmedia/cncf-landscape-a-to-z/pull/113)), and **Aeraki Mesh** ([PR #110](https://github.com/mekitmedia/cncf-landscape-a-to-z/pull/110)).
 
-For each task, Jules produced structured output adhering strictly to our research contract:
+Jules also lets you run tasks on a schedule using predefined templates for Performance, Design, and Security (like "Bolt," a performance-obsessed persona):
+
+![Schedule task in Jules](/images/jules/jules-ui-scheduled-task.png)
+
+I used scheduled tasks for a while, but ran into a fundamental limitation: the prompt has to be fairly generic. Pointing Jules at a repository and asking it to autonomously hunt for general optimizations or initiate tool research felt too broad. I realized I could get far better results if I could template the prompt itself—defining both the exact action and the trigger.
+
+
+Another feature in the UI is **Suggestions**, where Jules automatically scans your repository and recommends fixes:
+
+![Jules Suggestions (BETA)](/images/jules/jules-ui-suggestions.png)
+
+Surprisingly, these suggestions are often remarkably spot-on at catching bottlenecks and redundant code patterns. (Even though, ironically, half of the flagged issues were bad code proactively introduced by Jules in earlier PRs! But hey, at least things improve over time.)
+
+---
+
+## The Breakthrough: "Tasks as Code" and the GitHub Action
+
+One day, I spotted in my news feed the **Jules GitHub Action**. It felt like a dream come true. I had previously tinkered with the Jules API trying to turn it into an MCP server for my local agent setup, but the native GitHub Action was so much cleaner.
+
+It unlocked a core concept for me: **Task as Code for Jules**. 
+
+Something not too far from spec-driven development—I could probably use both combined, but in this specific case we want to leverage Jules for more than code. Could Jules create its own tasks? Most likely! That would be an interesting experiment (an infinite loop of tasks, so long as I approve and merge the PRs fast enough).
+
+I think we don't need a bloated ticket tracker or task board to manage AI agents. Boards like Jira and Linear have become a jungle of AI-written tickets for AI by AI that only bother managers checking what gets closed in hopes of seeing some progress in milestones.
+
+The concept is simple: tasks are just Markdown or YAML files checked into git. You build the prompt right into the task file, stage it in your repository, and let GitHub Actions trigger Jules to complete it automatically.
+
+---
+
+## Let's Dive In: Tasks as Code in GitHub Actions
+
+The first thing I tried was replacing the web UI altogether. I hated that my prompts weren't versioned and were a pain to manage in a web GUI. Asking Gemini to write a prompt and then manually copy-pasting it into Jules's web modal makes no sense.
+
+Keeping prompts in git is a complete game changer. Instead of pasting prompts into web forms, we store them directly in the repository as versioned Markdown files (like `.github/prompts/weekly_optimization.md`):
+
+```markdown
+# Weekly Code Optimization Task
+
+You are an automated performance engineer assigned to optimize the repository `mekitmedia/cncf-landscape-a-to-z`.
+
+## Guidelines
+- Inspect `src/` and `website/` for inefficient file I/O operations, redundant loop traversals, or un-cached static reads.
+- Identify ONE small, high-impact performance bottleneck.
+- Implement the fix while preserving unit tests and existing function signatures.
+- Do NOT introduce new heavy dependencies.
+```
+
+We then trigger this versioned prompt via a simple cron GitHub Action (`.github/workflows/scheduled_optimization.yml`):
 
 ```yaml
-project_name: "Akri"
-summary: "Akri (A Kubernetes Resource Interface for the Edge) is a Cloud Native Computing Foundation (CNCF) Sandbox project that easily exposes heterogeneous leaf devices—such as IP cameras, USB sensors, and OPC UA equipment—as resources in a Kubernetes cluster."
-key_features:
-  - "Automated discovery of IoT edge devices (ONVIF, udev, OPC UA, etc.)"
-  - "Exposes devices as Kubernetes Custom Resources (CRDs)"
-  - "Extends the Kubernetes device plugin framework for the edge"
-  - "Schedules workloads automatically on nodes where devices are detected"
-  - "Supports high availability and device failover"
-recent_updates: "Akri continues to grow its ecosystem of discovery handlers, enabling support for a wider array of industrial and edge protocols..."
-use_cases: "Simplifying edge computing deployments by automating the connection of cameras in retail, sensors in warehouses, and OPC UA equipment..."
-get_started: "Install Akri using its Helm charts (`helm install akri akri-helm-charts/akri`), apply an Akri Configuration..."
+name: Weekly Jules Optimization Task
+
+on:
+  schedule:
+    - cron: '0 8 * * 1' # Every Monday at 8:00 AM
+  workflow_dispatch:
+
+jobs:
+  optimize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Read Versioned Prompt
+        id: read-prompt
+        run: |
+          PROMPT=$(cat .github/prompts/weekly_optimization.md)
+          echo "prompt<<EOF" >> $GITHUB_OUTPUT
+          echo "$PROMPT" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Dispatch Task to Jules
+        uses: google-labs/jules-action@v1
+        with:
+          jules-token: ${{ secrets.JULES_API_TOKEN }}
+          prompt: ${{ steps.read-prompt.outputs.prompt }}
+```
+
+Because the prompt lives in git, anyone on the team can submit a PR to improve the agent's instructions. A real example of this pattern in action was [PR #73](https://github.com/mekitmedia/cncf-landscape-a-to-z/pull/73), where Jules picked up a performance task, diagnosed an N+1 filesystem bottleneck in `tool_pages.py`, introduced in-memory caching, and sped up page generation without breaking tests.
+
+Next, I wanted a way to queue up a sequence of ad-hoc tasks without needing complex infrastructure—a little bit of Python scripting or a simple CLI is more than enough.
+
+The idea is straightforward: create a `.github/tasks/` folder where files are named sequentially (`00-task.md`, `01-task.md`, `02-task.md`). When the workflow runs, it takes the first file in the folder (`00-task.md`), sends its prompt to Jules, and explicitly instructs Jules to delete that task file in its generated PR. That way, once the PR is merged, the next run automatically picks up `01-task.md`.
+
+Is there a risk that Jules might run the same task twice if runs overlap? Yes, but honestly, who cares? Worst case, I lose one free session and close the duplicate PR. It's not worth building a complex locking system for at this point (though I have a few ideas on using the GitHub API to orchestrate the UI via workflows—I'll only tackle that if it actually becomes an issue).
+
+Then comes the actual workflow that really matters to me: the project tracker for **CNCF Landscape A-to-Z**.
+
+This tracker ([`data/tracker.yaml`](https://github.com/mekitmedia/cncf-landscape-a-to-z/blob/main/data/tracker.yaml)) wasn't built just for Jules—it was built for *any* agent (Pydantic AI, custom scripts, or Jules) to work together, pick a task, execute it, and report results:
+
+```yaml
+week: 12
+projects:
+  - name: "Akri"
+    status: "pending"
+    category: "Edge Computing"
+  - name: "Atlantis"
+    status: "completed"
+    category: "GitOps"
+  - name: "Athenz"
+    status: "pending"
+    category: "Security"
+```
+
+To keep our GitHub Action workflow clean, I built a custom action: [`prepare-jules-task`](https://github.com/mekitmedia/cncf-landscape-a-to-z/blob/main/.github/actions/prepare-jules-task/action.yml). It queries `tracker.yaml`, picks a pending task, and formats the prompt.
+
+Here's how I handle concurrency: I don't bother with lock systems—I just use randomness. When processing 900+ tools across the CNCF landscape, the probability of two agents randomly selecting the exact same project on concurrent runs is practically zero:
+
+```yaml
+name: Scheduled Jules Project Research
+
+on:
+  schedule:
+    - cron: '0 9 * * 1-5' # Mon-Fri at 9 AM
+  workflow_dispatch:
+
+jobs:
+  scheduled-jules:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Prepare Jules Task
+        id: prepare
+        uses: ./.github/actions/prepare-jules-task
+        with:
+          tracker_path: "data/tracker.yaml"
+
+      - name: Dispatch to Jules
+        if: steps.prepare.outputs.has_task == 'true'
+        uses: google-labs/jules-action@v1
+        with:
+          jules-token: ${{ secrets.JULES_API_TOKEN }}
+          prompt: ${{ steps.prepare.outputs.prompt }}
+```
+
+When Jules finishes, the PR arrives with both the generated research YAML (like [PR #116 for Akri](https://github.com/mekitmedia/cncf-landscape-a-to-z/pull/116) or [PR #114 for Atlantis](https://github.com/mekitmedia/cncf-landscape-a-to-z/pull/114)) and the updated `tracker.yaml` state. One click to merge, and both state and content are synchronized:
+
+```mermaid
+flowchart TD
+    subgraph JulesAsyncWorkflow["JULES ASYNC WORKFLOW"]
+        A["tracker.yaml\n(Pending Task)"] --> B["Dispatch Task to Jules\n(Project + Schema Contract)"]
+        B --> C["Google Labs Jules\n- First-pass repo search\n- Writes research/*.yaml\n- Updates tracker.yaml"]
+        C --> D["GitHub Pull Request\n(Human Review & QA)"]
+        D --> E["Merged to Main\n(Published)"]
+    end
 ```
 
 ---
 
-## Performance Report Card: Strengths & Boundaries
+## Wrapping Up: Jules is Just Another Agent
 
-After processing dozens of PRs with Jules, clear patterns emerged regarding its strengths and operational boundaries:
+I really like the direction this setup is going. Moving away from proprietary dashboards so that *everything is just files in git* is great, especially when running completely headless in GitHub Actions.
 
-### Small Tasks: ⭐⭐⭐⭐⭐ (Outstanding)
-For single-file edits, localized bug fixes, template adjustments, and configuration updates, Jules is exceptional. It rarely hallucinates file paths, respects existing code conventions, and generates clean, minimal diffs.
+That said, I'm still not sure I would give Jules very large, complicated tasks without tight constraints. At the end of the day, Jules is just another agent in the toolbox—and I treat it as such. In our workflow, Jules actually uses mostly the same prompt contracts as all my other agents, whether they're local coding CLI tools or multi-agent pipelines orchestrated with Pydantic AI.
 
-### Medium Tasks: ⭐⭐⭐⭐ (Very Good)
-For medium-complexity tasks—such as implementing a caching layer across a pipeline module or generating structured project research—Jules performs reliably **if and only if** the task is bounded by clear constraints. When provided with an explicit schema and a defined target output, it completes the task with high fidelity.
+In the future, I'd love to compare how each of these different workflows and harnesses perform against the exact same tasks—but that's a story and a project for another time.
 
-### Web Search & Information Retrieval: ⭐⭐⭐½ (Good for First-Pass Discovery)
-One of the most interesting aspects of Jules is its search capability:
-* **The "First Search Layer"**: Jules excels at acting as an initial retrieval layer. It inspects repository metadata, READMEs, release notes, and documentation linked within the project's repository to extract core features and installation commands.
-* **GitHub-Centric Scope**: In our experience, Jules's search behavior stays tightly scoped to GitHub repositories, official documentation links, and directly discoverable repository assets. It does not perform open-ended, deep-web exploratory scraping across arbitrary tech blogs or forum threads.
-* **The Verdict on Knowledge Bases**: Jules is not meant to autonomously build an entire external multi-source knowledge base from scratch. However, it is **more than enough for first-pass data extraction**—gathering accurate baseline facts, commands, and summaries that can then be validated by a human editor or synthesized into a final weekly post.
-
----
-
-## How We Architected the Workflow
-
-To make asynchronous agents effective at scale, you cannot simply throw unstructured prompts at them. We built an architecture based on four core principles:
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│                   JULES ASYNC WORKFLOW                      │
-│                                                             │
-│  ┌────────────────┐         ┌────────────────────────────┐  │
-│  │  tracker.yaml  │───────► │ Dispatch Task to Jules     │  │
-│  │ (Pending Task) │         │ (Project + Schema Contract)│  │
-│  └────────────────┘         └─────────────┬──────────────┘  │
-│                                           │                 │
-│                                           ▼                 │
-│                             ┌────────────────────────────┐  │
-│                             │ Google Labs Jules          │  │
-│                             │ • First-pass repo search   │  │
-│                             │ • Writes research/*.yaml   │  │
-│                             │ • Updates tracker.yaml     │  │
-│                             └─────────────┬──────────────┘  │
-│                                           │                 │
-│                                           ▼                 │
-│  ┌────────────────┐         ┌────────────────────────────┐  │
-│  │ Merged to Main │◄─────── │ GitHub Pull Request        │  │
-│  │ (Published)    │         │ (Human Review & QA)        │  │
-│  └────────────────┘         └────────────────────────────┘  │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
-```
-
-### 1. Rigid Schema Contracts
-Agents hallucinate when instructions are vague. We created strict YAML schemas for both input tasks and output research. By pointing Jules to an exact format (`summary`, `key_features`, `use_cases`, `get_started`), the model knows precisely what fields to populate and what types are expected.
-
-### 2. Granular Task Decomposition
-Instead of asking Jules to "research all 50 projects starting with the letter A," we decomposed the workload into atomic units: **1 Project = 1 Task = 1 Pull Request**.
-This granular approach has major advantages:
-* If one project fails or requires manual correction, it doesn't block the other 49.
-* Pull requests remain small (10–30 lines), making code review fast and frictionless.
-* Token budgets and execution timeouts are kept well within safe limits.
-
-### 3. State Synchronization via `tracker.yaml`
-We keep state in git. Each week directory contains a `tracker.yaml` file tracking the status of every project (`pending`, `in_progress`, `completed`, `failed`). When Jules completes a research file, its task instructions require it to update the corresponding tracker entry in the same PR. Merging the PR atomically commits both the data and its completion status.
-
-### 4. Human-in-the-Loop Review
-Jules does not push directly to `main`. Every contribution arrives as a PR. Reviewing a 20-line YAML file takes less than 30 seconds: verify that the project name is accurate, the links are functional, and the features make sense, then click **Merge**.
-
----
-
-## Key Takeaways for Engineering Teams
-
-If you're considering integrating asynchronous agents like Jules into your software lifecycle or content engine, keep these lessons in mind:
-
-1. **Treat Agents as Junior Engineers with PR Privileges**: Never allow autonomous agents to commit directly to production branches. The pull request review model provides the ideal safety boundary.
-2. **Invest in Task Definitions & Schemas**: The quality of an asynchronous agent's output is directly proportional to how well-defined your inputs and outputs are. Rigid templates eliminate 90% of hallucination risks.
-3. **Use the Right Tool for the Right Job**: 
-   * Use **Jules** for async repository chores, bug fixes, script optimizations, and first-layer GitHub research.
-   * Use **orchestrated multi-agent pipelines** (such as Prefect + Pydantic AI) when you need complex multi-turn editorial loops, custom search harnesses, or real-time consensus between multiple specialized personas.
-4. **Embrace Asynchronous Batching**: The true productivity multiplier isn't how fast an LLM streams tokens—it's having tasks run in the background while you focus on higher-level architectural decisions.
-
----
-
-## What's Next?
-
-With Jules handling first-layer research and repo housekeeping, we're accelerating our journey through the CNCF landscape. In our upcoming posts, we'll look at the projects starting with **D**, **E**, and beyond, while continuously refining our agentic pipelines.
-
-Have you tried using asynchronous agents like Jules in your repositories? Let us know your thoughts and favorite workflows!
+Have you tried using asynchronous agents like Jules in your repositories? Let me know your thoughts and favorite setups!
