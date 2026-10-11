@@ -364,16 +364,16 @@ items:
     tasks:
       research:
         status: completed
-        started_at: 2026-10-01T17:39:41.752528+00:00
-        completed_at: 2026-10-01T17:39:41.752528+00:00
+        started_at: '2026-10-01T17:39:41.752528Z'
+        completed_at: '2026-10-01T17:39:41.752528Z'
         output_file: data/weeks/14-O/research/openapi.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
         status: completed
-        started_at: 2026-10-01T17:39:41.752528+00:00
-        completed_at: 2026-10-01T17:39:41.752528+00:00
+        started_at: '2026-10-01T17:39:41.752528Z'
+        completed_at: '2026-10-01T17:39:41.752528Z'
         output_file: website/content/tools/openapi.md
         error_message: null
         retry_count: 0
@@ -1120,6 +1120,25 @@ items:
         retry_count: 0
         agent: writer
     removed: false
+  OpenShell:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
 week_tasks:
   tasks:
     blog_post:
@@ -1133,5 +1152,5 @@ week_tasks:
 metadata:
   created_at: '2026-02-01T19:37:47.614953'
   week_letter: O
-  last_synced: '2026-08-24T00:38:50.045934'
-  etl_item_count: 59
+  last_synced: '2026-10-05T02:56:25.708071'
+  etl_item_count: 60

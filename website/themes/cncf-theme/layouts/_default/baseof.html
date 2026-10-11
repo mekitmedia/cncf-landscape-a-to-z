@@ -12,6 +12,15 @@
     {{ template "_internal/google_analytics.html" . }}
     {{ template "_internal/twitter_cards.html" . }}
 
+    <!-- Canonical URL -->
+    {{ if .Params.canonicalUrl }}
+    <link rel="canonical" href="{{ .Params.canonicalUrl }}">
+    {{ else if .Params.canonical }}
+    <link rel="canonical" href="{{ .Params.canonical }}">
+    {{ else }}
+    <link rel="canonical" href="{{ .Permalink }}">
+    {{ end }}
+
     <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
     <!-- Lucide Icons -->
     <script src="https://unpkg.com/lucide@latest"></script>
