@@ -1,108 +1,474 @@
-AI Agent:
-  Agent Framework:
-  - Agent Development Kit
-  - Agno
-  - Autogen
-  - CAMEL
-  - Crew AI
-  - LangChain
-  - LangGraph
-  - Pydantic AI
-  - Semantic Kernel
-  - Smolagents
-  - Strands
-  Agent Tool:
-  - Browser Use
-  - Composio
-  - Firecrawl
-  - Jina Reader
-  - Selenium Grid
-  Evaluation:
-  - Agent Evaluation
-  - DeepEval
-  - Promptfoo
-  - Ragas
-  - TruLens
-  Guardrail:
-  - Guardrails AI
-  - LLM Guard
-  - NeMo Guardrails
-  Knowledge Graph:
-  - Apache AGE
-  - FalkorDB
-  Protocol:
-  - Agent2agent
-  - Modelcontextprotocol
-  RAG:
-  - Docling
-  - Haystack
-  - LlamaIndex
-  - txtai
-  - Unstructured
-  State and Memory:
-  - Mem0
-  Structured Output:
-  - Guidance
-  - Instructor
-  - LMQL
-  - Outlines
-  Vector Database:
-  - Chroma
-  - LanceDB
-  - marqo
-  - Milvus
-  - pgvector
-  Workflow Orchestration:
-  - Astron Agent
-  - Dify
-  - Hatchet
-  - Hive Commons
-  - Inngest
-  - Temporal
-AI Native Infra:
-  Accelerator and SuperPod:
-  - CANN
-  - NCCL
-  - Triton
-  Continuous Integration and Delivery:
-  - BentoML
-  - Kubeflow Pipelines
-  - Mlflow
-  - MLRun
-  - TensorFlow Extended (TFX)
-  Gateway:
-  - Agentgateway
-  - Envoy-ai-gateway
+Provisioning:
+  Automation & Configuration:
+  - Airship
+  - Akri
+  - Ansible
+  - Apollo
+  - Atlantis
+  - BOSH
+  - Bub
+  - Cadence Workflow
+  - CDK for Kubernetes (CDK8s)
+  - CFEngine
+  - Chaterm
+  - Chef Infra
+  - Cloud Custodian
+  - Cloudify
+  - Couler
+  - Foreman
+  - Goose
+  - Gthulhu
+  - Juju
+  - kagent
+  - Kairos
+  - Kapitan
+  - KCL
+  - kbind
+  - KitOps
+  - kiosk
+  - Kosko
+  - kpt
+  - Kratix
+  - kubara
+  - kubectl-mcp-server
+  - Kubean
+  - KubeEdge
+  - Kubefirst
+  - KubeZoo
+  - KusionStack
+  - LinuxKit
+  - MAAS
+  - ManageIQ
+  - Meshery
+  - metal3-io
+  - Mist.io
+  - NMstate
+  - Omni
+  - OpenStack
+  - OpenTofu
+  - OpenYurt
+  - Project Syn
+  - Pulumi
+  - Puppet
+  - Runme Notebooks
+  - Rundeck
+  - Salt Project
+  - SDC
+  - Shifu
+  - Spinifex
+  - Terraform
+  - Terranetes
+  - Tinkerbell
+  - Updatecli
+  Container Registry:
+  - Distribution
+  - Dragonfly
+  - Harbor
+  - Kraken
+  - Quay
+  - Spegel
+  - zot
+  Security & Compliance:
+  - APIClarity
+  - Aserto
+  - authentik
+  - Bank-Vaults
+  - Bouncy Castle
+  - Boundary
+  - bpfman
+  - Casdoor
+  - Cartography
+  - Cedar
+  - Cerbos
+  - cert-manager
+  - Checkov
+  - Chef InSpec
+  - Clair
+  - CloudMatos
+  - Confidential Containers
+  - ContainerSSH
+  - Copa
+  - Dex
+  - EJBCA Community
+  - external-secrets
+  - Falco
+  - FOSSA
+  - Goldilocks
+  - Grafeas
+  - in-toto
+  - Keycloak
+  - Keylime
+  - KICS
+  - kube-bench
+  - kube-hunter
+  - KubeArmor
+  - KubeLinter
+  - Kubescape
+  - Kubewarden
+  - Kyverno
+  - Matano
+  - Metarget
+  - NeuVector
+  - Notary Project
+  - Open Policy Administration Layer (OPAL)
+  - OAuth2 Proxy
+  - Open Policy Agent (OPA)
+  - Open Policy Containers
+  - OpenFGA
+  - OpenSCAP
+  - OSCAL-COMPASS
+  - Paladin Cloud
+  - Paralus
+  - Parsec
+  - Permify
+  - Pipelock
+  - Pluto
+  - Polaris
+  - Pomerium
+  - Ratify
+  - RBAC Lookup
+  - RBAC Manager
+  - Rudder
+  - secureCodeBox
+  - SignServer Community
+  - sigstore
+  - SlimToolkit
+  - Sonatype
+  - Sonobuoy
+  - SOPS
+  - sso
+  - StackRox
+  - Teleport
+  - Terrascan
+  - Tesseral
+  - Tetragon
+  - The Update Framework (TUF)
+  - ThreatMapper
+  - Tokenetes
+  - Topaz
+  - Tracee
+  - Trivy
+  - vArmor
+  - Veinmind Tools
+  - Zitadel
+  Key Management:
+  - Athenz
+  - Authing
+  - CyberArk Conjur
+  - ORY Hydra
+  - Pinniped
+  - SPIFFE
+  - SPIRE
+  - Vault
+Runtime:
+  Cloud Native Storage:
+  - Alluxio
+  - Carina
+  - Ceph
+  - Container Storage Interface (CSI)
+  - CubeFS
+  - Curvine
+  - DatenLord
+  - Gluster
+  - HwameiStor
+  - JuiceFS
+  - K8up
+  - Kanister
+  - LINSTOR
+  - Longhorn
+  - MooseFS
+  - NoKV
+  - OpenEBS
+  - OpenIO
+  - Piraeus Datastore
+  - Rook
+  - Soda Foundation
+  - Stash by AppsCode
+  - Swift
+  - Triton Object Storage
+  - Velero
+  - Zenko
+  Container Runtime:
+  - containerd
+  - composefs
+  - bootc
+  - CRI-O
+  - Hyperlight
+  - Firecracker
+  - gVisor
+  - Inclavare Containers
+  - iSulad
+  - Kata Containers
+  - Kuasar
+  - Lima
+  - Podman Container Tools
+  - lxd
+  - runc
+  - Singularity
+  - SmartOS
+  - StratoVirt
+  - Sysbox
+  - urunc
+  - Virtual Kubelet
+  - Interlink
+  - WasmEdge Runtime
+  - youki
+  Cloud Native Network:
+  - Antrea
+  - Cilium
+  - Container Network Interface (CNI)
+  - FD.io
+  - Flannel
+  - Kilo
+  - Kube-OVN
+  - Kube-router
+  - kube-vip
+  - Ligato
+  - Multus
+  - Network Service Mesh
+  - Open vSwitch
+  - OVN-Kubernetes
+  - Project Calico
+  - Spiderpool
+  - Submariner
+  - OpenSDN
+Orchestration & Management:
+  Scheduling & Orchestration:
+  - Agent Substrate
+  - Agones
+  - Apache Mesos
+  - Armada
+  - Azure Service Fabric
+  - Backend.AI
+  - Capsule
+  - CoHDI
+  - Clusternet
+  - Clusterpedia
+  - Cozystack
+  - Crossplane
+  - Docker Swarm
+  - DolphinScheduler
+  - Eraser
+  - Fluid
+  - HAMi
+  - Karmada
+  - kcp
+  - k0s
+  - k0rdent
+  - KEDA
+  - Kestra
+  - KAI Scheduler
+  - Knative
+  - Koordinator
+  - kube-green
+  - kube-rs
+  - KubeAdmiral
+  - Godel-Scheduler
+  - Kubeflow
+  - KubeFleet
+  - Kubernetes
+  - KubeSlice
+  - KubeStellar
+  - Kured
+  - Slurm
+  - Nomad
+  - Open Cluster Management
+  - OpenFunction
+  - OpenNebula
+  - OpenSandbox
+  - OpenShell
+  - Prefect
+  - Serverless Devs
+  - StackStorm
+  - SuperPlane
+  - Volcano
+  - wasmCloud
+  - Katalyst
+  Coordination & Service Discovery:
+  - Apache Zookeeper
+  - CoreDNS
+  - etcd
+  - k8gb
+  - KubeBrain
+  - Nacos
+  - Netflix Eureka
+  - Oxia
+  Remote Procedure Call:
+  - Apache bRPC
+  - Apache Thrift
+  - Avro
+  - CloudWeGo
+  - Dubbo
+  - Easy-Ngo
+  - go-zero
+  - GoFr
+  - gRPC
+  - Connect RPC
+  - kratos
+  - SOFARPC
+  - SRPC
+  - TARS
+  Service Proxy:
+  - BFE
+  - BunkerWeb
+  - Caddy
+  - Contour
+  - Envoy
+  - HAProxy
+  - Inlets
+  - LoxiLB
+  - MetalLB
+  - MOSN
+  - Netflix Zuul
+  - NGINX
+  - OpenResty
+  - Pipy
+  - Sentinel
+  - Skipper
+  - STUNner
+  - Tengine
+  API Gateway:
+  - 3Scale
+  - APIOAK
+  - APISIX
+  - Azure API Management
+  - Easegress
+  - Emissary-Ingress
+  - EnRoute OneStep Ingress
+  - Envoy Gateway
+  - Gloo
+  - Gravitee.io
+  - Hango
+  - Higress
   - Kgateway
-  - MCP Gateway Registry
-  Governance, Policy and Security:
-  - Kyverno-JSON
-  - OPA/Gatekeeper
-  - OPEA
-  - Stacklock Minder
-  Model Asset and Registry:
-  - MatrixHub
-  Network: []
-  Observability:
-  - Deepchecks
-  - DeepFlow
-  - Influxdb
-  - Langfuse
-  - Trulens
-  - Weight and Biases (wandb)
-  Orchestration and Scheduling:
-  - agent-sandbox
-  - Kuberay
-  - Kueue
-  - LeaderWorkerSet
-  - Nivida NeMo
-  - Topograph
-  - Yunikorn
-  Storage: []
-  Workload Runtime:
-  - CubeSandbox
-  - e2b
+  - Kong
+  - KrakenD
+  - Kuadrant
+  - KubeGateway
+  - Kusk Gateway
+  - Lunar.dev
+  - Membrane
+  - MuleSoft
+  - ngrok
+  - Reactive Interaction Gateway
+  - Traefik
+  - Tyk
+  - WSO2 API Microgateway
+  Service Mesh:
+  - Aeraki Mesh
+  - Consul
+  - EaseMesh
+  - Flomesh Service Mesh (FSM)
+  - Istio
+  - Kmesh
+  - Kuma
+  - Linkerd
+  - OpenSergo
+  - Sermant
+  - Slime
+  - Traefik Mesh
 App Definition and Development:
+  Database:
+  - Apache CarbonData
+  - Apache Hadoop
+  - Apache Ignite
+  - ArangoDB
+  - BigchainDB
+  - Cassandra
+  - ClickHouse
+  - CloudNativePG
+  - CockroachDB
+  - Couchbase
+  - Crate.io
+  - Crunchy Postgres Operator
+  - XTDB
+  - Databend
+  - Dgraph
+  - Doris
+  - DragonflyDB
+  - Druid
+  - EDB
+  - Endee
+  - Epsilla
+  - FoundationDB
+  - GraphScope
+  - GreptimeDB
+  - Hazelcast IMDG
+  - Infinispan
+  - KubeBlocks by ApeCloud
+  - KubeDB by AppsCode
+  - LibreDB Studio
+  - MariaDB
+  - MongoDB
+  - MySQL
+  - Multigres
+  - NebulaGraph
+  - Neo4j
+  - OceanBase
+  - OpenEverest
+  - openGauss
+  - openGemini
+  - OrientDB
+  - Percona Server for MySQL
+  - PostgreSQL
+  - Presto
+  - Qdrant
+  - Redis
+  - RethinkDB
+  - ScalarDB
+  - SchemaHero
+  - Scylla
+  - Seata
+  - ShardingSphere
+  - SpiceDB
+  - StarRocks
+  - Stolon
+  - Supabase
+  - Tarantool
+  - TDengine
+  - TiDB
+  - TiKV
+  - Timescale
+  - Vald
+  - Valkey
+  - Vitess
+  - Weaviate
+  - YDB
+  - YugabyteDB
+  - PolarDB
+  Streaming & Messaging:
+  - Apache NiFi
+  - Apache RocketMQ
+  - Apache Spark
+  - Apache Storm
+  - Apache StreamPipes
+  - Apicurio Registry
+  - ArkFlow
+  - Beam
+  - CDEvents
+  - CloudEvents
+  - deepstream
+  - Drasi
+  - EMQX
+  - Flink
+  - Fluvio
+  - GlassFlow
+  - Kafka
+  - KubeMQ
+  - Memphis
+  - NATS
+  - Numaflow
+  - OpenMessaging
+  - Pachyderm
+  - Pulsar
+  - RabbitMQ
+  - Redpanda
+  - SeaTunnel
+  - Siddhi
+  - Strimzi
+  - Tremor
+  - userver
+  - AutoMQ
   Application Definition & Image Build:
   - agentregistry
   - Artifact Hub
@@ -209,151 +575,112 @@ App Definition and Development:
   - Woodpecker CI
   - Kube-burner
   - Zuul
-  Database:
-  - Apache CarbonData
-  - Apache Hadoop
-  - Apache Ignite
-  - ArangoDB
-  - BigchainDB
-  - Cassandra
-  - ClickHouse
-  - CloudNativePG
-  - CockroachDB
-  - Couchbase
-  - Crate.io
-  - Crunchy Postgres Operator
-  - XTDB
-  - Databend
-  - Dgraph
-  - Doris
-  - DragonflyDB
-  - Druid
-  - EDB
-  - Endee
-  - Epsilla
-  - FoundationDB
-  - GraphScope
-  - GreptimeDB
-  - Hazelcast IMDG
-  - Infinispan
-  - KubeBlocks by ApeCloud
-  - KubeDB by AppsCode
-  - LibreDB Studio
-  - MariaDB
-  - MongoDB
-  - MySQL
-  - Multigres
-  - NebulaGraph
-  - Neo4j
-  - OceanBase
-  - OpenEverest
-  - openGauss
-  - openGemini
-  - OrientDB
-  - Percona Server for MySQL
-  - PostgreSQL
-  - Presto
-  - Qdrant
-  - Redis
-  - RethinkDB
-  - ScalarDB
-  - SchemaHero
-  - Scylla
-  - Seata
-  - ShardingSphere
-  - SpiceDB
-  - StarRocks
-  - Stolon
-  - Supabase
-  - Tarantool
-  - TDengine
-  - TiDB
-  - TiKV
-  - Timescale
-  - Vald
-  - Valkey
-  - Vitess
-  - Weaviate
-  - YDB
-  - YugabyteDB
-  - PolarDB
-  Streaming & Messaging:
-  - Apache NiFi
-  - Apache RocketMQ
-  - Apache Spark
-  - Apache Storm
-  - Apache StreamPipes
-  - Apicurio Registry
-  - ArkFlow
-  - Beam
-  - CDEvents
-  - CloudEvents
-  - deepstream
-  - Drasi
-  - EMQX
-  - Flink
-  - Fluvio
-  - GlassFlow
-  - Kafka
-  - KubeMQ
-  - Memphis
-  - NATS
-  - Numaflow
-  - OpenMessaging
-  - Pachyderm
-  - Pulsar
-  - RabbitMQ
-  - Redpanda
-  - SeaTunnel
-  - Siddhi
-  - Strimzi
-  - Tremor
-  - userver
-  - AutoMQ
-CNCF Members:
-  Academic: []
-  End User Supporter and Contributor: []
-  Gold: []
-  Nonprofit: []
-  Platinum: []
-  Silver: []
-Data:
-  Data Architecture:
-  - Apache Druid
-  - Apache Flink
-  - Apache HBase
-  - Apache Pinot
-  - FEAST
-  - Hadoop HDFS
-  - Memcached
-  - ScyllaDB
-  - Trino
-  Data Science:
-  - Apache Zeppelin
-  - Kubeflow Notebooks
-  - marimo
-  - Project Jupyter
-  - TensorFlow
-  - XGBoost
-Inference:
+Platform:
+  Certified Kubernetes - Distribution:
+  - Amazon Elastic Kubernetes Service Distro (Amazon EKS-D)
+  - Canonical Charmed Kubernetes
+  - Desktop Kubernetes
+  - "Elastisys Welkin\xAE based on Kubespray"
+  - Flatcar Container Linux
+  - Giant Swarm Managed Kubernetes
+  - k0rdent
+  - K3k
+  - k3s
+  - Kubermatic Kubernetes Platform
+  - Kubesphere
+  - kURL
+  - MicroK8s
+  - Oracle Cloud Native Environment
+  - Plural
+  - Rancher Kubernetes
+  - Red Hat Build of Microshift
+  - Red Hat OpenShift
+  - RKE2
+  - SIGHUP Distribution
+  - Typhoon
+  - Tarook
+  - vCluster
+  - Wind River Studio Cloud Platform
+  Certified Kubernetes - Hosted:
+  - Catalyst Kubernetes Service
+  - StarlingX
+  Certified Kubernetes - Installer:
+  - Amazon Elastic Kubernetes Service Anywhere (Amazon EKS Anywhere)
+  - Cybozu Kubernetes Engine
+  - Gardener
+  - kiac
+  - kind
+  - kOps
+  - Kubeasz
+  - KubeClipper
+  - Kubekey
+  - Kubermatic KubeOne
+  - Kubernetes - The Easier Way
+  - Kubespray
+  - kwok
+  - minikube
+  - NKD - NestOS Kubernetes Deployer
+  - Sidero Talos Linux
+  Certified Kubernetes - AI Platform: []
+  PaaS/Container Service:
+  - Akka
+  - Cloud Foundry Application Runtime
+  - JHipster
+  - Kubero
+  - Kyma
+  - No Code
+  - Application Platform for LKE
+  - PaaSTA
+  - Portainer
+  - Sogou C++ Workflow
+  - Tsuru
+Serverless:
+  Security: []
+  Tools:
+  - Cloud Native Landscape
+  - Hasura GraphQL Engine
+  - Node Lambda
+  - SCAR
   Framework:
-  - AIBrix
-  - Arks
-  - InferNex
-  - KAITO
-  - KServe
-  - llm-d
-  - llmaz
-  - RBG
-  - Volcano Kthena
-  Runtime:
-  - llama.cpp
-  - OpenVINO
-  - Seldon
-  - SGLang
-  - text-generation-inference (TGI)
-  - vLLM
+  - Architect
+  - AWS Server Application Model (SAM)
+  - Chalice
+  - Encore
+  - EventMesh
+  - Flogo
+  - Layotto
+  - Midway Serverless
+  - Nitric
+  - Serverless
+  - Sparta
+  - Spring Cloud Function
+  - SST
+  - Stateful Functions
+  - Webiny
+  Hosted Platform:
+  - Azure Functions
+  Installable Platform:
+  - Apache Camel K
+  - Apache OpenServerless
+  - Apache OpenWhisk
+  - AppScale
+  - Direktiv
+  - Fission
+  - Knix
+  - KubeElasti
+  - Nuclio
+  - OpenFaaS
+  - SlimFaaS
+  - PipelineAI
 Observability and Analysis:
+  Feature Flagging:
+  - FeatureHub
+  - Bucketeer
+  - Flagsmith
+  - Flipt
+  - GO Feature Flag
+  - OpenFeature
+  - Unleash
   Chaos Engineering:
   - Chaos Mesh
   - Chaos Toolkit
@@ -372,14 +699,6 @@ Observability and Analysis:
   - nOps
   - OpenCost
   - Karpenter
-  Feature Flagging:
-  - FeatureHub
-  - Bucketeer
-  - Flagsmith
-  - Flipt
-  - GO Feature Flag
-  - OpenFeature
-  - Unleash
   Observability:
   - Anteon
   - argonaut
@@ -469,546 +788,18 @@ Observability and Analysis:
   - Zipkin
   - sysdig
   - harmonycloud
-Orchestration & Management:
-  API Gateway:
-  - 3Scale
-  - APIOAK
-  - APISIX
-  - Azure API Management
-  - Easegress
-  - Emissary-Ingress
-  - EnRoute OneStep Ingress
-  - Envoy Gateway
-  - Gloo
-  - Gravitee.io
-  - Hango
-  - Higress
-  - Kgateway
-  - Kong
-  - KrakenD
-  - Kuadrant
-  - KubeGateway
-  - Kusk Gateway
-  - Lunar.dev
-  - Membrane
-  - MuleSoft
-  - ngrok
-  - Reactive Interaction Gateway
-  - Traefik
-  - Tyk
-  - WSO2 API Microgateway
-  Coordination & Service Discovery:
-  - Apache Zookeeper
-  - CoreDNS
-  - etcd
-  - k8gb
-  - KubeBrain
-  - Nacos
-  - Netflix Eureka
-  - Oxia
-  Remote Procedure Call:
-  - Apache bRPC
-  - Apache Thrift
-  - Avro
-  - CloudWeGo
-  - Dubbo
-  - Easy-Ngo
-  - go-zero
-  - GoFr
-  - gRPC
-  - Connect RPC
-  - kratos
-  - SOFARPC
-  - SRPC
-  - TARS
-  Scheduling & Orchestration:
-  - Agent Substrate
-  - Agones
-  - Apache Mesos
-  - Armada
-  - Azure Service Fabric
-  - Backend.AI
-  - Capsule
-  - CoHDI
-  - Clusternet
-  - Clusterpedia
-  - Cozystack
-  - Crossplane
-  - Docker Swarm
-  - DolphinScheduler
-  - Eraser
-  - Fluid
-  - HAMi
-  - Karmada
-  - kcp
-  - k0s
-  - k0rdent
-  - KEDA
-  - Kestra
-  - KAI Scheduler
-  - Knative
-  - Koordinator
-  - kube-green
-  - kube-rs
-  - KubeAdmiral
-  - Godel-Scheduler
-  - Kubeflow
-  - KubeFleet
-  - Kubernetes
-  - KubeSlice
-  - KubeStellar
-  - Kured
-  - Slurm
-  - Nomad
-  - Open Cluster Management
-  - OpenFunction
-  - OpenNebula
-  - OpenSandbox
-  - OpenShell
-  - Prefect
-  - Serverless Devs
-  - StackStorm
-  - SuperPlane
-  - Volcano
-  - wasmCloud
-  - Katalyst
-  Service Mesh:
-  - Aeraki Mesh
-  - Consul
-  - EaseMesh
-  - Flomesh Service Mesh (FSM)
-  - Istio
-  - Kmesh
-  - Kuma
-  - Linkerd
-  - OpenSergo
-  - Sermant
-  - Slime
-  - Traefik Mesh
-  Service Proxy:
-  - BFE
-  - BunkerWeb
-  - Caddy
-  - Contour
-  - Envoy
-  - HAProxy
-  - Inlets
-  - LoxiLB
-  - MetalLB
-  - MOSN
-  - Netflix Zuul
-  - NGINX
-  - OpenResty
-  - Pipy
-  - Sentinel
-  - Skipper
-  - STUNner
-  - Tengine
-Platform:
-  Certified Kubernetes - AI Platform: []
-  Certified Kubernetes - Distribution:
-  - Amazon Elastic Kubernetes Service Distro (Amazon EKS-D)
-  - Canonical Charmed Kubernetes
-  - Desktop Kubernetes
-  - "Elastisys Welkin\xAE based on Kubespray"
-  - Flatcar Container Linux
-  - Giant Swarm Managed Kubernetes
-  - k0rdent
-  - K3k
-  - k3s
-  - Kubermatic Kubernetes Platform
-  - Kubesphere
-  - kURL
-  - MicroK8s
-  - Oracle Cloud Native Environment
-  - Plural
-  - Rancher Kubernetes
-  - Red Hat Build of Microshift
-  - Red Hat OpenShift
-  - RKE2
-  - SIGHUP Distribution
-  - Typhoon
-  - Tarook
-  - vCluster
-  - Wind River Studio Cloud Platform
-  Certified Kubernetes - Hosted:
-  - Catalyst Kubernetes Service
-  - StarlingX
-  Certified Kubernetes - Installer:
-  - Amazon Elastic Kubernetes Service Anywhere (Amazon EKS Anywhere)
-  - Cybozu Kubernetes Engine
-  - Gardener
-  - kiac
-  - kind
-  - kOps
-  - Kubeasz
-  - KubeClipper
-  - Kubekey
-  - Kubermatic KubeOne
-  - Kubernetes - The Easier Way
-  - Kubespray
-  - kwok
-  - minikube
-  - NKD - NestOS Kubernetes Deployer
-  - Sidero Talos Linux
-  PaaS/Container Service:
-  - Akka
-  - Cloud Foundry Application Runtime
-  - JHipster
-  - Kubero
-  - Kyma
-  - No Code
-  - Application Platform for LKE
-  - PaaSTA
-  - Portainer
-  - Sogou C++ Workflow
-  - Tsuru
-Provisioning:
-  Automation & Configuration:
-  - Airship
-  - Akri
-  - Ansible
-  - Apollo
-  - Atlantis
-  - BOSH
-  - Bub
-  - Cadence Workflow
-  - CDK for Kubernetes (CDK8s)
-  - CFEngine
-  - Chaterm
-  - Chef Infra
-  - Cloud Custodian
-  - Cloudify
-  - Couler
-  - Foreman
-  - Goose
-  - Gthulhu
-  - Juju
-  - kagent
-  - Kairos
-  - Kapitan
-  - KCL
-  - kbind
-  - KitOps
-  - kiosk
-  - Kosko
-  - kpt
-  - Kratix
-  - kubara
-  - kubectl-mcp-server
-  - Kubean
-  - KubeEdge
-  - Kubefirst
-  - KubeZoo
-  - KusionStack
-  - LinuxKit
-  - MAAS
-  - ManageIQ
-  - Meshery
-  - metal3-io
-  - Mist.io
-  - NMstate
-  - Omni
-  - OpenStack
-  - OpenTofu
-  - OpenYurt
-  - Project Syn
-  - Pulumi
-  - Puppet
-  - Runme Notebooks
-  - Rundeck
-  - Salt Project
-  - SDC
-  - Shifu
-  - Spinifex
-  - Terraform
-  - Terranetes
-  - Tinkerbell
-  - Updatecli
-  Container Registry:
-  - Distribution
-  - Dragonfly
-  - Harbor
-  - Kraken
-  - Quay
-  - Spegel
-  - zot
-  Key Management:
-  - Athenz
-  - Authing
-  - CyberArk Conjur
-  - ORY Hydra
-  - Pinniped
-  - SPIFFE
-  - SPIRE
-  - Vault
-  Security & Compliance:
-  - APIClarity
-  - Aserto
-  - authentik
-  - Bank-Vaults
-  - Bouncy Castle
-  - Boundary
-  - bpfman
-  - Casdoor
-  - Cartography
-  - Cedar
-  - Cerbos
-  - cert-manager
-  - Checkov
-  - Chef InSpec
-  - Clair
-  - CloudMatos
-  - Confidential Containers
-  - ContainerSSH
-  - Copa
-  - Dex
-  - EJBCA Community
-  - external-secrets
-  - Falco
-  - FOSSA
-  - Goldilocks
-  - Grafeas
-  - in-toto
-  - Keycloak
-  - Keylime
-  - KICS
-  - kube-bench
-  - kube-hunter
-  - KubeArmor
-  - KubeLinter
-  - Kubescape
-  - Kubewarden
-  - Kyverno
-  - Matano
-  - Metarget
-  - NeuVector
-  - Notary Project
-  - Open Policy Administration Layer (OPAL)
-  - OAuth2 Proxy
-  - Open Policy Agent (OPA)
-  - Open Policy Containers
-  - OpenFGA
-  - OpenSCAP
-  - OSCAL-COMPASS
-  - Paladin Cloud
-  - Paralus
-  - Parsec
-  - Permify
-  - Pipelock
-  - Pluto
-  - Polaris
-  - Pomerium
-  - Ratify
-  - RBAC Lookup
-  - RBAC Manager
-  - Rudder
-  - secureCodeBox
-  - SignServer Community
-  - sigstore
-  - SlimToolkit
-  - Sonatype
-  - Sonobuoy
-  - SOPS
-  - sso
-  - StackRox
-  - Teleport
-  - Terrascan
-  - Tesseral
-  - Tetragon
-  - The Update Framework (TUF)
-  - ThreatMapper
-  - Tokenetes
-  - Topaz
-  - Tracee
-  - Trivy
-  - vArmor
-  - Veinmind Tools
-  - Zitadel
-Runtime:
-  Cloud Native Network:
-  - Antrea
-  - Cilium
-  - Container Network Interface (CNI)
-  - FD.io
-  - Flannel
-  - Kilo
-  - Kube-OVN
-  - Kube-router
-  - kube-vip
-  - Ligato
-  - Multus
-  - Network Service Mesh
-  - Open vSwitch
-  - OVN-Kubernetes
-  - Project Calico
-  - Spiderpool
-  - Submariner
-  - OpenSDN
-  Cloud Native Storage:
-  - Alluxio
-  - Carina
-  - Ceph
-  - Container Storage Interface (CSI)
-  - CubeFS
-  - Curvine
-  - DatenLord
-  - Gluster
-  - HwameiStor
-  - JuiceFS
-  - K8up
-  - Kanister
-  - LINSTOR
-  - Longhorn
-  - MooseFS
-  - NoKV
-  - OpenEBS
-  - OpenIO
-  - Piraeus Datastore
-  - Rook
-  - Soda Foundation
-  - Stash by AppsCode
-  - Swift
-  - Triton Object Storage
-  - Velero
-  - Zenko
-  Container Runtime:
-  - containerd
-  - composefs
-  - bootc
-  - CRI-O
-  - Hyperlight
-  - Firecracker
-  - gVisor
-  - Inclavare Containers
-  - iSulad
-  - Kata Containers
-  - Kuasar
-  - Lima
-  - Podman Container Tools
-  - lxd
-  - runc
-  - Singularity
-  - SmartOS
-  - StratoVirt
-  - Sysbox
-  - urunc
-  - Virtual Kubelet
-  - Interlink
-  - WasmEdge Runtime
-  - youki
-Serverless:
-  Framework:
-  - Architect
-  - AWS Server Application Model (SAM)
-  - Chalice
-  - Encore
-  - EventMesh
-  - Flogo
-  - Layotto
-  - Midway Serverless
-  - Nitric
-  - Serverless
-  - Sparta
-  - Spring Cloud Function
-  - SST
-  - Stateful Functions
-  - Webiny
-  Hosted Platform:
-  - Azure Functions
-  Installable Platform:
-  - Apache Camel K
-  - Apache OpenServerless
-  - Apache OpenWhisk
-  - AppScale
-  - Direktiv
-  - Fission
-  - Knix
-  - KubeElasti
-  - Nuclio
-  - OpenFaaS
-  - SlimFaaS
-  - PipelineAI
-  Security: []
-  Tools:
-  - Cloud Native Landscape
-  - Hasura GraphQL Engine
-  - Node Lambda
-  - SCAR
 Special:
-  Certified CNFs: []
   Kubernetes Certified Service Provider: []
   Kubernetes and Cloud Native Training Partner: []
-Training:
-  Distributed Training:
-  - DeepSpeed
-  - Horovod
-  - Kubeflow MPI Operator
-  - Kubeflow Training Operator
-  - Megatron-LM
-  - Pytorch DistributedDataParallel (DDP)
-  Evaluation:
-  - lm-evaluation-harness
-  - opencompass
-  Post Training:
-  - Axolotl
-  - Hyperopt
-  - Kubeflow Katib
-  - LlamaFactory
-  - Optuna
-  - Unsloth
-  - verl
+  Certified CNFs: []
+CNCF Members:
+  Platinum: []
+  Gold: []
+  Silver: []
+  Academic: []
+  Nonprofit: []
+  End User Supporter and Contributor: []
 Wasm:
-  AI/Machine Learning:
-  - Apache TVM
-  - FFmpeg
-  - OpenCV
-  - WASI NN for OpenVINO
-  - WASI NN for Pytorch
-  - WASI NN for TensorFlow Lite
-  Application Frameworks:
-  - Ambient
-  - Dapr SDK
-  - eunomia-bpf
-  - Extism
-  - homestar
-  - Metatype
-  - Scale
-  - SpiderLightning
-  - Spin
-  - vscode-wasm
-  - WASIX
-  - Wasm Workers Server
-  - wasmCloud (Wasm)
-  - Wasmex
-  - WinterJS
-  Debugging & Observability:
-  - Modsurfer
-  - Observe SDK
-  - wasi-logging
-  Decentralized Platforms:
-  - Casper
-  - CosmWasm
-  - Dfinity
-  - Filecoin
-  - GEAR
-  - NEAR
-  - Quai Network
-  Edge/Bare metal:
-  - Genode
-  - seL4
-  - Unikraft
-  Embedded Functions:
-  - eKuiper
-  - Envoy (Wasm)
-  - Infinyon
-  - Istio (Wasm)
-  - Kube-scheduler
-  - libSQL
-  - NGINX (Wasm)
-  - OpenGauss
-  - YOMO
-  Hosted Platforms: []
   Languages:
   - .NET
   - C++
@@ -1026,25 +817,6 @@ Wasm:
   - WasmEdge-Quickjs
   - WebAssembly Language runtimes for Python and PHP by VMware Labs
   - Zig
-  Orchestration & Management:
-  - SpinKube
-  - container2wasm
-  - containerd (Wasm)
-  - cri-o (Wasm)
-  - crun
-  - Docker (Wasm)
-  - Kuasar (Wasm)
-  - KubeEdge (Wasm)
-  - Kwasm
-  - Meshery (Wasm)
-  - podman (Wasm)
-  - runwasi
-  - SuperEdge (Wasm)
-  - youki (wasm)
-  Packaging, Registries & Application Delivery:
-  - crates.io
-  - Harbor (Wasm)
-  - warg
   Runtimes:
   - Lunatic
   - Mewz
@@ -1055,6 +827,43 @@ Wasm:
   - Wasmtime
   - WAVM
   - Wazero
+  Application Frameworks:
+  - Ambient
+  - Dapr SDK
+  - eunomia-bpf
+  - Extism
+  - homestar
+  - Metatype
+  - Scale
+  - SpiderLightning
+  - Spin
+  - vscode-wasm
+  - WASIX
+  - Wasm Workers Server
+  - wasmCloud (Wasm)
+  - Wasmex
+  - WinterJS
+  Edge/Bare metal:
+  - Genode
+  - seL4
+  - Unikraft
+  AI/Machine Learning:
+  - Apache TVM
+  - FFmpeg
+  - OpenCV
+  - WASI NN for OpenVINO
+  - WASI NN for Pytorch
+  - WASI NN for TensorFlow Lite
+  Embedded Functions:
+  - eKuiper
+  - Envoy (Wasm)
+  - Infinyon
+  - Istio (Wasm)
+  - Kube-scheduler
+  - libSQL
+  - NGINX (Wasm)
+  - OpenGauss
+  - YOMO
   Tooling:
   - Asyncify
   - Binaryen
@@ -1070,3 +879,194 @@ Wasm:
   - wasm2c
   - Wit-binddgen
   - Witc
+  Orchestration & Management:
+  - SpinKube
+  - container2wasm
+  - containerd (Wasm)
+  - cri-o (Wasm)
+  - crun
+  - Docker (Wasm)
+  - Kuasar (Wasm)
+  - KubeEdge (Wasm)
+  - Kwasm
+  - Meshery (Wasm)
+  - podman (Wasm)
+  - runwasi
+  - SuperEdge (Wasm)
+  - youki (wasm)
+  Hosted Platforms: []
+  Decentralized Platforms:
+  - Casper
+  - CosmWasm
+  - Dfinity
+  - Filecoin
+  - GEAR
+  - NEAR
+  - Quai Network
+  Debugging & Observability:
+  - Modsurfer
+  - Observe SDK
+  - wasi-logging
+  Packaging, Registries & Application Delivery:
+  - crates.io
+  - Harbor (Wasm)
+  - warg
+AI Agent:
+  Agent Framework:
+  - Agent Development Kit
+  - Agno
+  - Autogen
+  - CAMEL
+  - Crew AI
+  - LangChain
+  - LangGraph
+  - Pydantic AI
+  - Semantic Kernel
+  - Smolagents
+  - Strands
+  Agent Tool:
+  - Browser Use
+  - Composio
+  - Firecrawl
+  - Jina Reader
+  - Selenium Grid
+  Evaluation:
+  - Agent Evaluation
+  - DeepEval
+  - Promptfoo
+  - Ragas
+  - TruLens
+  Guardrail:
+  - Guardrails AI
+  - LLM Guard
+  - NeMo Guardrails
+  Knowledge Graph:
+  - Apache AGE
+  - FalkorDB
+  Protocol:
+  - Agent2agent
+  - Modelcontextprotocol
+  RAG:
+  - Docling
+  - Haystack
+  - LlamaIndex
+  - txtai
+  - Unstructured
+  State and Memory:
+  - Mem0
+  Structured Output:
+  - Guidance
+  - Instructor
+  - LMQL
+  - Outlines
+  Vector Database:
+  - Chroma
+  - LanceDB
+  - marqo
+  - Milvus
+  - pgvector
+  Workflow Orchestration:
+  - Astron Agent
+  - Dify
+  - Hatchet
+  - Hive Commons
+  - Inngest
+  - Temporal
+Inference:
+  Framework:
+  - AIBrix
+  - Arks
+  - InferNex
+  - KAITO
+  - KServe
+  - llm-d
+  - llmaz
+  - RBG
+  - Volcano Kthena
+  Runtime:
+  - llama.cpp
+  - OpenVINO
+  - Seldon
+  - SGLang
+  - text-generation-inference (TGI)
+  - vLLM
+Data:
+  Data Architecture:
+  - Apache Druid
+  - Apache Flink
+  - Apache HBase
+  - Apache Pinot
+  - FEAST
+  - Hadoop HDFS
+  - Memcached
+  - ScyllaDB
+  - Trino
+  Data Science:
+  - Apache Zeppelin
+  - Kubeflow Notebooks
+  - marimo
+  - Project Jupyter
+  - TensorFlow
+  - XGBoost
+Training:
+  Distributed Training:
+  - DeepSpeed
+  - Horovod
+  - Kubeflow MPI Operator
+  - Kubeflow Training Operator
+  - Megatron-LM
+  - Pytorch DistributedDataParallel (DDP)
+  Post Training:
+  - Axolotl
+  - Hyperopt
+  - Kubeflow Katib
+  - LlamaFactory
+  - Optuna
+  - Unsloth
+  - verl
+  Evaluation:
+  - lm-evaluation-harness
+  - opencompass
+AI Native Infra:
+  Orchestration and Scheduling:
+  - agent-sandbox
+  - Kuberay
+  - Kueue
+  - LeaderWorkerSet
+  - Nivida NeMo
+  - Topograph
+  - Yunikorn
+  Workload Runtime:
+  - CubeSandbox
+  - e2b
+  Accelerator and SuperPod:
+  - CANN
+  - NCCL
+  - Triton
+  Storage: []
+  Network: []
+  Gateway:
+  - Agentgateway
+  - Envoy-ai-gateway
+  - Kgateway
+  - MCP Gateway Registry
+  Model Asset and Registry:
+  - MatrixHub
+  Governance, Policy and Security:
+  - Kyverno-JSON
+  - OPA/Gatekeeper
+  - OPEA
+  - Stacklock Minder
+  Observability:
+  - Deepchecks
+  - DeepFlow
+  - Influxdb
+  - Langfuse
+  - Trulens
+  - Weight and Biases (wandb)
+  Continuous Integration and Delivery:
+  - BentoML
+  - Kubeflow Pipelines
+  - Mlflow
+  - MLRun
+  - TensorFlow Extended (TFX)
