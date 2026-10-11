@@ -3,6 +3,7 @@ title: "Putting Jules to Work: Asynchronous AI Agents in a 52-Week Cloud Native 
 date: 2026-10-05T20:00:00Z
 draft: true
 letter: "Meta"
+canonicalUrl: "https://medium.com/cncf-landscape-a-to-z/putting-jules-to-work-tasks-as-code-c037f584c325"
 tags:
   - "ai-agents"
   - "jules"
