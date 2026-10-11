@@ -1,14 +1,15 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.354440'
+date: '2026-10-04T18:37:41.786136'
 homepage_url: https://github.com/linuxkit/linuxkit
 layout: single
 letter: L
+lifecycle_stage: initial
 project_name: LinuxKit
 repo_url: https://github.com/linuxkit/linuxkit
 status: in_progress
-summary: Research for this project is currently in progress.
 title: LinuxKit
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/l/).
+
+Research for LinuxKit is currently in progress. Stay tuned for updates!

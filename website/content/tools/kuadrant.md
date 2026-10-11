@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T21:46:44.226674'
+date: '2026-10-04T18:37:40.538443'
 description: Kuadrant combines Gateway API and Istio-based gateway controllers to
   enhance application connectivity. It enables platform engineers  and application
   developers to easily connect, secure, and protect their services and infrastructure
@@ -9,15 +9,12 @@ description: Kuadrant combines Gateway API and Istio-based gateway controllers t
 homepage_url: https://kuadrant.io
 layout: single
 letter: K
+lifecycle_stage: initial
 project_name: Kuadrant
 repo_url: https://github.com/kuadrant/kuadrant-operator
 status: in_progress
-summary: Kuadrant combines Gateway API and Istio-based gateway controllers to enhance
-  application connectivity. It enables platform engineers  and application developers
-  to easily connect, secure, and protect their services and infrastructure across
-  multiple clusters  with policies for TLS, DNS, application authentication & authorization,
-  and rate limiting.
 title: Kuadrant
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/k/).
+
+Research for Kuadrant is currently in progress. Stay tuned for updates!

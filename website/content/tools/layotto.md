@@ -1,14 +1,15 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.351076'
+date: '2026-10-04T18:37:41.752613'
 homepage_url: https://mosn.io/layotto
 layout: single
 letter: L
+lifecycle_stage: initial
 project_name: Layotto
 repo_url: https://github.com/mosn/layotto
 status: in_progress
-summary: Research for this project is currently in progress.
 title: Layotto
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/l/).
+
+Research for Layotto is currently in progress. Stay tuned for updates!

@@ -1,14 +1,15 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.384863'
+date: '2026-10-04T18:37:42.119538'
 homepage_url: https://gofeatureflag.org
 layout: single
 letter: G
+lifecycle_stage: initial
 project_name: GO Feature Flag
 repo_url: https://github.com/thomaspoignant/go-feature-flag
 status: in_progress
-summary: Research for this project is currently in progress.
 title: GO Feature Flag
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/g/).
+
+Research for GO Feature Flag is currently in progress. Stay tuned for updates!

@@ -1,0 +1,38 @@
+project_name: "StarlingX"
+homepage_url: "https://www.starlingx.io"
+repo_url: "https://github.com/starlingx/config"
+cncf_status: "non-cncf"
+summary: "StarlingX offers a fully integrated edge cloud software stack that provides everything required to deploy an edge cloud on one to 100 servers."
+key_features:
+  - "Reliable fault management, fast secure VM failover and live migration minimizes downtime"
+  - "Scalable from one to thousands of distributed nodes allowing for a single system to be used from edge to core"
+  - "Small footprint providing a platform for edge and IoT use cases even for environments with tight resource constraints"
+  - "Ultra-low latency with deterministic, tunable performance optimized for the use case"
+recent_updates: "The most recent tag is `vtrixie`, released in March 2025."
+use_cases: "Industrial IOT, telecom, video delivery and other ultra-low latency use cases."
+interesting_facts: "The starlingx/config repository handles the StarlingX configuration management services."
+get_started: "To get started fast with StarlingX, try the Virtual All-in-one Simplex Installation , which requires a minimum of hardware and configuration."
+related_tools:
+  - "OpenStack"
+  - "Kubernetes"
+sources:
+  - id: "source-0"
+    title: "StarlingX Homepage"
+    url: "https://www.starlingx.io"
+    quotes:
+      - "StarlingX is a complete cloud infrastructure software stack for the edge used by the most demanding applications in industrial IOT, telecom, video delivery and other ultra-low latency use cases."
+      - "Reliable Fault management, fast secure VM failover and live migration minimizes downtime"
+      - "Scalable Deployable on one to thousands of distributed nodes allowing for a single system to be used from edge to core"
+      - "Small footprint Providing a platform for edge and IoT use cases even for environments with tight resource constraints"
+      - "Ultra-low latency Deterministic, tunable performance optimized for the use case"
+  - id: "source-1"
+    title: "StarlingX Documentation"
+    url: "https://docs.starlingx.io/"
+    quotes:
+      - "StarlingX is a fully integrated edge cloud software stack that provides everything needed to deploy an edge cloud on one, two, or up to 100 servers."
+      - "To get started fast with StarlingX, try the Virtual All-in-one Simplex Installation , which requires a minimum of hardware and configuration."
+  - id: "source-2"
+    title: "StarlingX GitHub README"
+    url: "https://raw.githubusercontent.com/starlingx/config/master/README.rst"
+    quotes:
+      - "The starlingx/config repository handles the StarlingX configuration management\nservices."

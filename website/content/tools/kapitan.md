@@ -1,16 +1,17 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.282019'
+date: '2026-10-04T18:37:40.994338'
 description: A configuration management system for platform engineering and other
   things
 homepage_url: https://kapitan.dev/
 layout: single
 letter: K
+lifecycle_stage: initial
 project_name: Kapitan
 repo_url: https://github.com/kapicorp/kapitan
 status: in_progress
-summary: A configuration management system for platform engineering and other things
 title: Kapitan
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/k/).
+
+Research for Kapitan is currently in progress. Stay tuned for updates!

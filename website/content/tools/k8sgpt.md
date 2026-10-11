@@ -1,15 +1,16 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T21:46:44.258326'
+date: '2026-10-04T18:37:40.766086'
 description: Giving Kubernetes Superpowers to everyone
 homepage_url: https://www.k8sgpt.ai
 layout: single
 letter: K
+lifecycle_stage: initial
 project_name: K8sGPT
 repo_url: https://github.com/k8sgpt-ai/k8sgpt
 status: in_progress
-summary: Giving Kubernetes Superpowers to everyone
 title: K8sGPT
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/k/).
+
+Research for K8sGPT is currently in progress. Stay tuned for updates!

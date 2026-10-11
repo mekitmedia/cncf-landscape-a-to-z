@@ -1,14 +1,15 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.543149'
+date: '2026-10-04T18:37:43.859325'
 homepage_url: https://docs.flagger.app
 layout: single
 letter: F
+lifecycle_stage: initial
 project_name: Flagger
 repo_url: https://github.com/fluxcd/flagger
 status: in_progress
-summary: Research for this project is currently in progress.
 title: Flagger
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/f/).
+
+Research for Flagger is currently in progress. Stay tuned for updates!

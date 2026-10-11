@@ -1,14 +1,15 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.559759'
+date: '2026-10-04T18:37:44.040993'
 homepage_url: https://www.emqx.com/en
 layout: single
 letter: E
+lifecycle_stage: initial
 project_name: EMQX
 repo_url: https://github.com/emqx/emqx
 status: in_progress
-summary: Research for this project is currently in progress.
 title: EMQX
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/e/).
+
+Research for EMQX is currently in progress. Stay tuned for updates!

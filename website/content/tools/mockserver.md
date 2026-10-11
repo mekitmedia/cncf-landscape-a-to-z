@@ -1,17 +1,17 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:43.840492'
+date: '2026-10-04T18:37:37.744966'
 description: Mocking, debugging proxy and chaos engineering for HTTP, gRPC, GraphQL,
   LLM, MCP, Kafka, TCP and more.
 homepage_url: https://www.mock-server.com
 layout: single
 letter: M
+lifecycle_stage: initial
 project_name: MockServer
 repo_url: https://github.com/mock-server/mockserver-monorepo
 status: in_progress
-summary: Mocking, debugging proxy and chaos engineering for HTTP, gRPC, GraphQL, LLM,
-  MCP, Kafka, TCP and more.
 title: MockServer
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/m/).
+
+Research for MockServer is currently in progress. Stay tuned for updates!

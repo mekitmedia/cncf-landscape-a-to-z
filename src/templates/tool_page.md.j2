@@ -1,4 +1,54 @@
 ---
 {{ front_matter_yaml }}---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/{{ letter }}/).
+{% if status == "completed" %}
+{% if summary %}
+## Overview
+
+{{ summary }}
+{% endif %}
+
+{% if key_features and key_features | length > 0 %}
+## Key Features
+
+{% for feature in key_features %}
+- {{ feature }}
+{% endfor %}
+{% endif %}
+
+{% if use_cases %}
+## Use Cases
+
+{{ use_cases }}
+{% endif %}
+
+{% if get_started %}
+{% raw %}{{< callout title="Getting Started" type="code" >}}{% endraw %}
+```bash
+{{ get_started }}
+```
+{% raw %}{{< /callout >}}{% endraw %}
+{% endif %}
+
+{% if recent_updates %}
+## Recent Updates
+
+{{ recent_updates }}
+{% endif %}
+
+{% if interesting_facts %}
+{% raw %}{{< callout title="Did You Know?" type="info" >}}{% endraw %}
+{{ interesting_facts }}
+{% raw %}{{< /callout >}}{% endraw %}
+{% endif %}
+
+{% if related_tools and related_tools | length > 0 %}
+## Related Tools
+
+{% for tool in related_tools %}
+- [{{ tool }}](/tools/{{ tool | lower | replace(" ", "_") | replace("&", "and") | replace("/", "_") | replace(".", "_") | replace(",", "") }}/)
+{% endfor %}
+{% endif %}
+{% else %}
+Research for {{ project_name }} is currently in progress. Stay tuned for updates!
+{% endif %}

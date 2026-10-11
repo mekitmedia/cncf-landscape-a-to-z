@@ -1,15 +1,16 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.989128'
+date: '2026-10-04T18:37:48.892808'
 description: Managed language
 homepage_url: https://dart.dev/
 layout: single
 letter: D
+lifecycle_stage: initial
 project_name: Dart
 repo_url: https://github.com/dart-lang/sdk
 status: in_progress
-summary: Managed language
 title: Dart
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/d/).
+
+Research for Dart is currently in progress. Stay tuned for updates!

@@ -1,14 +1,15 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.305875'
+date: '2026-10-04T18:37:41.232996'
 homepage_url: https://jreleaser.org
 layout: single
 letter: J
+lifecycle_stage: initial
 project_name: JReleaser
 repo_url: https://github.com/jreleaser/jreleaser
 status: in_progress
-summary: Research for this project is currently in progress.
 title: JReleaser
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/j/).
+
+Research for JReleaser is currently in progress. Stay tuned for updates!

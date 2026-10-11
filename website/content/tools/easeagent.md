@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.571092'
+date: '2026-10-04T18:37:44.145214'
 description: EaseAgent is a Javaagent that can be integrated with the mainstream monitoring
   system, providing standard data formats that are fully compatible with OpenZipkin
   and Prometheus. EaseAgent is also very easy to extend through the Plugin Mechanism
@@ -9,15 +9,12 @@ description: EaseAgent is a Javaagent that can be integrated with the mainstream
 homepage_url: https://github.com/megaease/easeagent
 layout: single
 letter: E
+lifecycle_stage: initial
 project_name: EaseAgent
 repo_url: https://github.com/megaease/easeagent
 status: in_progress
-summary: EaseAgent is a Javaagent that can be integrated with the mainstream monitoring
-  system, providing standard data formats that are fully compatible with OpenZipkin
-  and Prometheus. EaseAgent is also very easy to extend through the Plugin Mechanism
-  which only a minimum of three interfaces are required to be implemented to complete
-  a plugin development.
 title: EaseAgent
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/e/).
+
+Research for EaseAgent is currently in progress. Stay tuned for updates!

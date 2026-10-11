@@ -1,14 +1,15 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.513366'
+date: '2026-10-04T18:37:43.528388'
 homepage_url: https://yomo.run/
 layout: single
 letter: Y
+lifecycle_stage: initial
 project_name: YOMO
 repo_url: https://github.com/yomorun/yomo
 status: in_progress
-summary: Research for this project is currently in progress.
 title: YOMO
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/y/).
+
+Research for YOMO is currently in progress. Stay tuned for updates!

@@ -1,17 +1,17 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:45.042554'
+date: '2026-10-04T18:37:49.514415'
 description: Packer is a tool for creating identical machine images for multiple platforms
   from a single source configuration.
 homepage_url: https://www.packer.io/
 layout: single
 letter: P
+lifecycle_stage: initial
 project_name: Packer
 repo_url: https://github.com/hashicorp/packer
 status: in_progress
-summary: Packer is a tool for creating identical machine images for multiple platforms
-  from a single source configuration.
 title: Packer
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/p/).
+
+Research for Packer is currently in progress. Stay tuned for updates!

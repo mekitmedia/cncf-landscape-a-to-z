@@ -1,15 +1,16 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T21:46:44.842020'
+date: '2026-10-04T18:37:47.230516'
 description: The slimest and simplest Function As A Service
 homepage_url: https://github.com/SlimPlanet/SlimFaas
 layout: single
 letter: S
+lifecycle_stage: initial
 project_name: SlimFaaS
 repo_url: https://github.com/SlimPlanet/SlimFaas
 status: in_progress
-summary: The slimest and simplest Function As A Service
 title: SlimFaaS
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/s/).
+
+Research for SlimFaaS is currently in progress. Stay tuned for updates!

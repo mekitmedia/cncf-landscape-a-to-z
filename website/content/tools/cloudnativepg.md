@@ -1,15 +1,16 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T21:46:44.410268'
+date: '2026-10-04T18:37:42.552288'
 description: The most popular Kubernetes Operator for PostgreSQL.
 homepage_url: https://www.cloudnative-pg.io/
 layout: single
 letter: C
+lifecycle_stage: initial
 project_name: CloudNativePG
 repo_url: https://github.com/cloudnative-pg/cloudnative-pg
 status: in_progress
-summary: The most popular Kubernetes Operator for PostgreSQL.
 title: CloudNativePG
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/c/).
+
+Research for CloudNativePG is currently in progress. Stay tuned for updates!

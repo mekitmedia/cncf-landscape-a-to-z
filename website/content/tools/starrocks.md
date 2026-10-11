@@ -1,17 +1,17 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.778357'
+date: '2026-10-04T18:37:46.617537'
 description: StarRocks is a next-gen sub-second MPP database for full analytics scenarios,
   including multi-dimensional analytics, real-time analytics and ad-hoc query.
 homepage_url: https://starrocks.io
 layout: single
 letter: S
+lifecycle_stage: initial
 project_name: StarRocks
 repo_url: https://github.com/StarRocks/starrocks
 status: in_progress
-summary: StarRocks is a next-gen sub-second MPP database for full analytics scenarios,
-  including multi-dimensional analytics, real-time analytics and ad-hoc query.
 title: StarRocks
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/s/).
+
+Research for StarRocks is currently in progress. Stay tuned for updates!

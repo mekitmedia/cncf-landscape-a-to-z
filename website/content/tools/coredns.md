@@ -1,14 +1,17 @@
 ---
 cncf_status: graduated
-date: '2026-09-20T21:46:44.508724'
+date: '2026-10-04T18:37:43.471678'
+description: CoreDNS is a DNS server. It is written in Go. It can be used in a multitude
+  of environments because of its flexibility.
 homepage_url: https://coredns.io/
 layout: single
 letter: C
+lifecycle_stage: initial
 project_name: CoreDNS
 repo_url: https://github.com/coredns/coredns
 status: in_progress
-summary: Research for this project is currently in progress.
 title: CoreDNS
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/c/).
+
+Research for CoreDNS is currently in progress. Stay tuned for updates!

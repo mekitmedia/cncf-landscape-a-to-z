@@ -1,19 +1,18 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.192843'
+date: '2026-10-04T18:37:40.267886'
 description: KOTS provides the framework, tools and integrations that enable the delivery
   and management of 3rd-party Kubernetes applications, a.k.a. Kubernetes Off-The-Shelf
   (KOTS) Software.'
 homepage_url: https://kots.io
 layout: single
 letter: K
+lifecycle_stage: initial
 project_name: KOTS
 repo_url: https://github.com/replicatedhq/kots
 status: in_progress
-summary: KOTS provides the framework, tools and integrations that enable the delivery
-  and management of 3rd-party Kubernetes applications, a.k.a. Kubernetes Off-The-Shelf
-  (KOTS) Software.'
 title: KOTS
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/k/).
+
+Research for KOTS is currently in progress. Stay tuned for updates!

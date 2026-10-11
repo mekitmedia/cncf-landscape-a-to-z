@@ -1,15 +1,16 @@
 ---
 cncf_status: incubating
-date: '2026-09-20T21:46:44.791683'
+date: '2026-10-04T18:37:46.746344'
 description: Apache Kafka running on Kubernetes
 homepage_url: https://strimzi.io/
 layout: single
 letter: S
+lifecycle_stage: initial
 project_name: Strimzi
 repo_url: https://github.com/strimzi/strimzi-kafka-operator
 status: in_progress
-summary: Apache Kafka running on Kubernetes
 title: Strimzi
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/s/).
+
+Research for Strimzi is currently in progress. Stay tuned for updates!

@@ -1,14 +1,17 @@
 ---
 cncf_status: incubating
-date: '2026-09-20T21:46:44.893333'
+date: '2026-10-04T18:37:47.842297'
+description: SDK for building Kubernetes applications. Provides high level APIs, useful
+  abstractions, and project scaffolding
 homepage_url: https://operatorframework.io/
 layout: single
 letter: O
+lifecycle_stage: initial
 project_name: Operator Framework
 repo_url: https://github.com/operator-framework/operator-sdk
 status: in_progress
-summary: Research for this project is currently in progress.
 title: Operator Framework
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/o/).
+
+Research for Operator Framework is currently in progress. Stay tuned for updates!

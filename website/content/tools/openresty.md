@@ -1,14 +1,15 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.876815'
+date: '2026-10-04T18:37:47.699115'
 homepage_url: https://openresty.com/en/
 layout: single
 letter: O
+lifecycle_stage: initial
 project_name: OpenResty
 repo_url: https://github.com/openresty/openresty
 status: in_progress
-summary: Research for this project is currently in progress.
 title: OpenResty
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/o/).
+
+Research for OpenResty is currently in progress. Stay tuned for updates!

@@ -1,14 +1,15 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.522606'
+date: '2026-10-04T18:37:43.681293'
 homepage_url: https://firecracker-microvm.github.io/
 layout: single
 letter: F
+lifecycle_stage: initial
 project_name: Firecracker
 repo_url: https://github.com/firecracker-microvm/firecracker
 status: in_progress
-summary: Research for this project is currently in progress.
 title: Firecracker
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/f/).
+
+Research for Firecracker is currently in progress. Stay tuned for updates!

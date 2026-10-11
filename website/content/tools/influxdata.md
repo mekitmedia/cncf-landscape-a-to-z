@@ -1,14 +1,15 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.324710'
+date: '2026-10-04T18:37:41.437320'
 homepage_url: https://www.influxdata.com/
 layout: single
 letter: I
+lifecycle_stage: initial
 project_name: InfluxData
 repo_url: https://github.com/influxdata/influxdb
 status: in_progress
-summary: Research for this project is currently in progress.
 title: InfluxData
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/i/).
+
+Research for InfluxData is currently in progress. Stay tuned for updates!

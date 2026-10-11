@@ -1,15 +1,16 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.373313'
+date: '2026-10-04T18:37:42.028029'
 description: WASM focused languages
 homepage_url: https://grain-lang.org/
 layout: single
 letter: G
+lifecycle_stage: initial
 project_name: Grain
 repo_url: https://github.com/grain-lang/grain
 status: in_progress
-summary: WASM focused languages
 title: Grain
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/g/).
+
+Research for Grain is currently in progress. Stay tuned for updates!

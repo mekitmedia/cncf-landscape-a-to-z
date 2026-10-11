@@ -1,15 +1,16 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.823540'
+date: '2026-10-04T18:37:47.044153'
 description: Open source DevOps control plane for event-driven workflows.
 homepage_url: https://superplane.com
 layout: single
 letter: S
+lifecycle_stage: initial
 project_name: SuperPlane
 repo_url: https://github.com/superplanehq/superplane
 status: in_progress
-summary: Open source DevOps control plane for event-driven workflows.
 title: SuperPlane
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/s/).
+
+Research for SuperPlane is currently in progress. Stay tuned for updates!

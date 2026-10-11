@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T21:46:44.596628'
+date: '2026-10-04T18:37:44.453851'
 description: 'Bank-Vaults is a Vault swiss-army knife: a K8s operator, Go client with
   automatic token renewal, automatic configuration, multiple unseal options and more.
   A CLI tool to init, unseal and configure Vault (auth methods, secret engines). Direct
@@ -8,14 +8,12 @@ description: 'Bank-Vaults is a Vault swiss-army knife: a K8s operator, Go client
 homepage_url: https://bank-vaults.dev/
 layout: single
 letter: B
+lifecycle_stage: initial
 project_name: Bank-Vaults
 repo_url: https://github.com/bank-vaults/bank-vaults
 status: in_progress
-summary: 'Bank-Vaults is a Vault swiss-army knife: a K8s operator, Go client with
-  automatic token renewal, automatic configuration, multiple unseal options and more.
-  A CLI tool to init, unseal and configure Vault (auth methods, secret engines). Direct
-  secret injection into Pods.'
 title: Bank-Vaults
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/b/).
+
+Research for Bank-Vaults is currently in progress. Stay tuned for updates!

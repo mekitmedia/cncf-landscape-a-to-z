@@ -1,14 +1,15 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.860143'
+date: '2026-10-04T18:37:47.418379'
 homepage_url: https://www.sofastack.tech/en/
 layout: single
 letter: S
+lifecycle_stage: initial
 project_name: SOFARPC
 repo_url: https://github.com/sofastack/sofa-rpc
 status: in_progress
-summary: Research for this project is currently in progress.
 title: SOFARPC
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/s/).
+
+Research for SOFARPC is currently in progress. Stay tuned for updates!

@@ -1,15 +1,16 @@
 ---
 cncf_status: incubating
-date: '2026-09-20T21:46:44.335787'
+date: '2026-10-04T18:37:41.606082'
 description: Linux virtual machines, typically on macOS, for running containerd
 homepage_url: https://github.com/lima-vm/lima
 layout: single
 letter: L
+lifecycle_stage: initial
 project_name: Lima
 repo_url: https://github.com/lima-vm/lima
 status: in_progress
-summary: Linux virtual machines, typically on macOS, for running containerd
 title: Lima
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/l/).
+
+Research for Lima is currently in progress. Stay tuned for updates!

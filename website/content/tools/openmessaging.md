@@ -1,17 +1,17 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.878223'
+date: '2026-10-04T18:37:47.711359'
 description: Cloud-oriented, simple, flexible, vendor-neutral and language-independent
   standards for messaging
 homepage_url: https://openmessaging.cloud
 layout: single
 letter: O
+lifecycle_stage: initial
 project_name: OpenMessaging
 repo_url: https://github.com/openmessaging/openmessaging-java
 status: in_progress
-summary: Cloud-oriented, simple, flexible, vendor-neutral and language-independent
-  standards for messaging
 title: OpenMessaging
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/o/).
+
+Research for OpenMessaging is currently in progress. Stay tuned for updates!

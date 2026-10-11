@@ -1,14 +1,15 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.931479'
+date: '2026-10-04T18:37:48.223539'
 homepage_url: https://www.openstack.org/
 layout: single
 letter: O
+lifecycle_stage: initial
 project_name: OpenStack
 repo_url: https://github.com/openstack/openstack
 status: in_progress
-summary: Research for this project is currently in progress.
 title: OpenStack
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/o/).
+
+Research for OpenStack is currently in progress. Stay tuned for updates!

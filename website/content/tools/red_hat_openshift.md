@@ -1,17 +1,17 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.689774'
+date: '2026-10-04T18:37:45.523650'
 description: OpenShift® helps organizations focus on building and scaling their business
   with fully supported enterprise Kubernetes by Red Hat®.
 homepage_url: https://www.redhat.com/en/technologies/cloud-computing/openshift
 layout: single
 letter: R
+lifecycle_stage: initial
 project_name: Red Hat OpenShift
 repo_url: https://github.com/openshift/kubernetes
 status: in_progress
-summary: OpenShift® helps organizations focus on building and scaling their business
-  with fully supported enterprise Kubernetes by Red Hat®.
 title: Red Hat OpenShift
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/r/).
+
+Research for Red Hat OpenShift is currently in progress. Stay tuned for updates!

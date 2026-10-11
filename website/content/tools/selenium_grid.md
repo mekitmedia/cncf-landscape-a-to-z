@@ -1,15 +1,16 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.865701'
+date: '2026-10-04T18:37:47.477490'
 description: A browser automation framework and ecosystem.
 homepage_url: https://www.selenium.dev/documentation/grid/
 layout: single
 letter: S
+lifecycle_stage: initial
 project_name: Selenium Grid
 repo_url: https://github.com/SeleniumHQ/selenium
 status: in_progress
-summary: A browser automation framework and ecosystem.
 title: Selenium Grid
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/s/).
+
+Research for Selenium Grid is currently in progress. Stay tuned for updates!

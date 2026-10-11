@@ -1,15 +1,16 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:43.837704'
+date: '2026-10-04T18:37:37.721958'
 description: A cloud-native vector database, storage for next generation AI applications.
 homepage_url: https://milvus.io/
 layout: single
 letter: M
+lifecycle_stage: initial
 project_name: Milvus
 repo_url: https://github.com/milvus-io/milvus
 status: in_progress
-summary: A cloud-native vector database, storage for next generation AI applications.
 title: Milvus
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/m/).
+
+Research for Milvus is currently in progress. Stay tuned for updates!

@@ -1,19 +1,18 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.159578'
+date: '2026-10-04T18:37:40.040659'
 description: Open source distributed event streaming platform used by thousands of
   companies for high-performance data pipelines, streaming analytics, data integration,
   and mission-critical applications.
 homepage_url: https://flink.apache.org/
 layout: single
 letter: K
+lifecycle_stage: initial
 project_name: Kafka
 repo_url: https://github.com/apache/kafka
 status: in_progress
-summary: Open source distributed event streaming platform used by thousands of companies
-  for high-performance data pipelines, streaming analytics, data integration, and
-  mission-critical applications.
 title: Kafka
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/k/).
+
+Research for Kafka is currently in progress. Stay tuned for updates!

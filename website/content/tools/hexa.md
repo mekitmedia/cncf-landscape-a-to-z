@@ -1,14 +1,15 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T21:46:44.949985'
+date: '2026-10-04T18:37:48.451497'
 homepage_url: https://hexaorchestration.org/
 layout: single
 letter: H
+lifecycle_stage: initial
 project_name: Hexa
 repo_url: https://github.com/hexa-org/policy-orchestrator
 status: in_progress
-summary: Research for this project is currently in progress.
 title: Hexa
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/h/).
+
+Research for Hexa is currently in progress. Stay tuned for updates!

@@ -1,17 +1,17 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T21:46:44.429292'
+date: '2026-10-04T18:37:42.749235'
 description: Cartography is a Python tool that consolidates infrastructure assets
   and the relationships between them in an intuitive graph view.
 homepage_url: https://cartography.dev
 layout: single
 letter: C
+lifecycle_stage: initial
 project_name: Cartography
 repo_url: https://github.com/cartography-cncf/cartography
 status: in_progress
-summary: Cartography is a Python tool that consolidates infrastructure assets and
-  the relationships between them in an intuitive graph view.
 title: Cartography
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/c/).
+
+Research for Cartography is currently in progress. Stay tuned for updates!

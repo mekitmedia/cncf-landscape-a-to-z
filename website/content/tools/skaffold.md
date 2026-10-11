@@ -1,14 +1,15 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.813171'
+date: '2026-10-04T18:37:46.939091'
 homepage_url: https://skaffold.dev/
 layout: single
 letter: S
+lifecycle_stage: initial
 project_name: Skaffold
 repo_url: https://github.com/GoogleContainerTools/skaffold
 status: in_progress
-summary: Research for this project is currently in progress.
 title: Skaffold
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/s/).
+
+Research for Skaffold is currently in progress. Stay tuned for updates!

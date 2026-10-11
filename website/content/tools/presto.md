@@ -1,15 +1,16 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:45.019078'
+date: '2026-10-04T18:37:49.292312'
 description: A distributed SQL query engine for big data.
 homepage_url: https://github.com/prestodb/presto
 layout: single
 letter: P
+lifecycle_stage: initial
 project_name: Presto
 repo_url: https://github.com/prestodb/presto
 status: in_progress
-summary: A distributed SQL query engine for big data.
 title: Presto
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/p/).
+
+Research for Presto is currently in progress. Stay tuned for updates!

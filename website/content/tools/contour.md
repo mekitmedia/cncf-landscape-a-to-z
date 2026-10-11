@@ -1,17 +1,17 @@
 ---
 cncf_status: incubating
-date: '2026-09-20T21:46:44.421649'
+date: '2026-10-04T18:37:42.678273'
 description: Contour is an open source Kubernetes ingress controller providing the
   control plane for the Envoy edge and service proxy
 homepage_url: https://projectcontour.io
 layout: single
 letter: C
+lifecycle_stage: initial
 project_name: Contour
 repo_url: https://github.com/projectcontour/contour
 status: in_progress
-summary: Contour is an open source Kubernetes ingress controller providing the control
-  plane for the Envoy edge and service proxy
 title: Contour
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/c/).
+
+Research for Contour is currently in progress. Stay tuned for updates!

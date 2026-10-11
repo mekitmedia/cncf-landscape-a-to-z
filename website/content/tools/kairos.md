@@ -1,15 +1,16 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T21:46:44.280866'
+date: '2026-10-04T18:37:40.983008'
 description: The immutable Linux meta-distribution for edge Kubernetes
 homepage_url: https://kairos.io
 layout: single
 letter: K
+lifecycle_stage: initial
 project_name: Kairos
 repo_url: https://github.com/kairos-io/kairos
 status: in_progress
-summary: The immutable Linux meta-distribution for edge Kubernetes
 title: Kairos
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/k/).
+
+Research for Kairos is currently in progress. Stay tuned for updates!

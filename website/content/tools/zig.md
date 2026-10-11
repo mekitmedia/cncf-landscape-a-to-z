@@ -1,15 +1,16 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.584168'
+date: '2026-10-04T18:37:44.294641'
 description: Compiled language to Wasm
 homepage_url: https://ziglang.org/
 layout: single
 letter: Z
+lifecycle_stage: initial
 project_name: Zig
 repo_url: https://github.com/ziglang/zig
 status: in_progress
-summary: Compiled language to Wasm
 title: Zig
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/z/).
+
+Research for Zig is currently in progress. Stay tuned for updates!

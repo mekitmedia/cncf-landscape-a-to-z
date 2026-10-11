@@ -1,17 +1,17 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.796209'
+date: '2026-10-04T18:37:46.792254'
 description: Sign code, containers, and attestations and create timestamps with the
   open-source, x509 certificate-based signing software SignServer.
 homepage_url: https://www.signserver.org/
 layout: single
 letter: S
+lifecycle_stage: initial
 project_name: SignServer Community
 repo_url: https://github.com/Keyfactor/signserver-ce
 status: in_progress
-summary: Sign code, containers, and attestations and create timestamps with the open-source,
-  x509 certificate-based signing software SignServer.
 title: SignServer Community
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/s/).
+
+Research for SignServer Community is currently in progress. Stay tuned for updates!

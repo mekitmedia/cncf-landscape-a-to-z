@@ -1,32 +1,68 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.011903'
+date: '2026-10-04T18:37:39.041743'
 description: Azure API Management is a hybrid, multi-cloud API, full lifecycle management
   platform for APIs across all environments. It allows customers to self-host API
   gateways as containers on Kubernetes.
-get_started: Visit the Azure API Management documentation to deploy your first API
-  gateway.
 homepage_url: https://azure.microsoft.com/en-us/services/api-management
-interesting_facts: It allows for self-hosted API gateways, extending Azure's API management
-  capabilities directly into Kubernetes clusters.
-key_features:
-- Provides full lifecycle management platform for APIs.
-- Allows customers to self-host API gateways as containers on Kubernetes.
-- Hybrid, multi-cloud API management.
 layout: single
 letter: A
+lifecycle_stage: tech_writing
 project_name: Azure API Management
-recent_updates: Continued improvements to self-hosted API gateways on Kubernetes.
-related_tools:
-- Kubernetes
-- Azure Kubernetes Service (AKS)
 repo_url: https://github.com/azure/api-management
 status: completed
-summary: Azure API Management is a hybrid, multi-cloud API, full lifecycle management
-  platform for APIs across all environments.
 title: Azure API Management
-use_cases: Useful for enterprises needing a unified platform to manage, secure, and
-  observe their APIs across various cloud environments.
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/a/).
+
+
+## Overview
+
+Azure API Management is a hybrid, multi-cloud API, full lifecycle management platform for APIs across all environments.
+
+
+
+## Key Features
+
+
+- Provides full lifecycle management platform for APIs.
+
+- Allows customers to self-host API gateways as containers on Kubernetes.
+
+- Hybrid, multi-cloud API management.
+
+
+
+
+## Use Cases
+
+Useful for enterprises needing a unified platform to manage, secure, and observe their APIs across various cloud environments.
+
+
+
+{{< callout title="Getting Started" type="code" >}}
+```bash
+Visit the Azure API Management documentation to deploy your first API gateway.
+```
+{{< /callout >}}
+
+
+
+## Recent Updates
+
+Continued improvements to self-hosted API gateways on Kubernetes.
+
+
+
+{{< callout title="Did You Know?" type="info" >}}
+It allows for self-hosted API gateways, extending Azure's API management capabilities directly into Kubernetes clusters.
+{{< /callout >}}
+
+
+
+## Related Tools
+
+
+- [Kubernetes](/tools/kubernetes/)
+
+- [Azure Kubernetes Service (AKS)](/tools/azure_kubernetes_service_(aks)/)

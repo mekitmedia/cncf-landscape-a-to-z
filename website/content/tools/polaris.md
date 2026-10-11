@@ -1,14 +1,15 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:45.035999'
+date: '2026-10-04T18:37:49.456748'
 homepage_url: https://fairwinds.com/polaris
 layout: single
 letter: P
+lifecycle_stage: initial
 project_name: Polaris
 repo_url: https://github.com/FairwindsOps/polaris
 status: in_progress
-summary: Research for this project is currently in progress.
 title: Polaris
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/p/).
+
+Research for Polaris is currently in progress. Stay tuned for updates!

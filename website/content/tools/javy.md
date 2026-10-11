@@ -1,15 +1,16 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.304847'
+date: '2026-10-04T18:37:41.221344'
 description: Scripting languages that support Wasm
 homepage_url: https://github.com/bytecodealliance/javy
 layout: single
 letter: J
+lifecycle_stage: initial
 project_name: Javy
 repo_url: https://github.com/bytecodealliance/javy
 status: in_progress
-summary: Scripting languages that support Wasm
 title: Javy
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/j/).
+
+Research for Javy is currently in progress. Stay tuned for updates!

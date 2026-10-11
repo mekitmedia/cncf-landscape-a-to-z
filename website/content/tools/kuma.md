@@ -1,15 +1,16 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T21:46:44.294276'
+date: '2026-10-04T18:37:41.098502'
 description: The universal Envoy service mesh for distributed service connectivity
 homepage_url: https://kuma.io
 layout: single
 letter: K
+lifecycle_stage: initial
 project_name: Kuma
 repo_url: https://github.com/kumahq/kuma
 status: in_progress
-summary: The universal Envoy service mesh for distributed service connectivity
 title: Kuma
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/k/).
+
+Research for Kuma is currently in progress. Stay tuned for updates!

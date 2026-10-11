@@ -1,17 +1,17 @@
 ---
 cncf_status: incubating
-date: '2026-09-20T21:46:44.534233'
+date: '2026-10-04T18:37:43.779047'
 description: Fluid is an orchestration platform for elastic data abstraction and acceleration
   in cloud native environment.
 homepage_url: https://fluid-cloudnative.github.io/
 layout: single
 letter: F
+lifecycle_stage: initial
 project_name: Fluid
 repo_url: https://github.com/fluid-cloudnative/fluid
 status: in_progress
-summary: Fluid is an orchestration platform for elastic data abstraction and acceleration
-  in cloud native environment.
 title: Fluid
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/f/).
+
+Research for Fluid is currently in progress. Stay tuned for updates!

@@ -1,17 +1,17 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T21:46:44.951111'
+date: '2026-10-04T18:37:48.463043'
 description: A lightweight, secure container runtime solution designed for modern
   cloud-native workloads
 homepage_url: https://github.com/hyperlight-dev/hyperlight
 layout: single
 letter: H
+lifecycle_stage: initial
 project_name: Hyperlight
 repo_url: https://github.com/hyperlight-dev/hyperlight
 status: in_progress
-summary: A lightweight, secure container runtime solution designed for modern cloud-native
-  workloads
 title: Hyperlight
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/h/).
+
+Research for Hyperlight is currently in progress. Stay tuned for updates!

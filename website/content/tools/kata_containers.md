@@ -1,14 +1,15 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.179131'
+date: '2026-10-04T18:37:40.161586'
 homepage_url: https://katacontainers.io
 layout: single
 letter: K
+lifecycle_stage: initial
 project_name: Kata Containers
 repo_url: https://github.com/kata-containers/kata-containers
 status: in_progress
-summary: Research for this project is currently in progress.
 title: Kata Containers
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/k/).
+
+Research for Kata Containers is currently in progress. Stay tuned for updates!

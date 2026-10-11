@@ -1,14 +1,15 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.826344'
+date: '2026-10-04T18:37:47.068140'
 homepage_url: https://www.sofastack.tech/en/
 layout: single
 letter: S
+lifecycle_stage: initial
 project_name: SOFATracer
 repo_url: https://github.com/sofastack/sofa-tracer
 status: in_progress
-summary: Research for this project is currently in progress.
 title: SOFATracer
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/s/).
+
+Research for SOFATracer is currently in progress. Stay tuned for updates!

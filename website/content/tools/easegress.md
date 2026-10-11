@@ -1,15 +1,16 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T21:46:44.564594'
+date: '2026-10-04T18:37:44.087112'
 description: A Cloud Native traffic orchestration system
 homepage_url: https://megaease.cn/easegress/
 layout: single
 letter: E
+lifecycle_stage: initial
 project_name: Easegress
 repo_url: https://github.com/easegress-io/easegress
 status: in_progress
-summary: A Cloud Native traffic orchestration system
 title: Easegress
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/e/).
+
+Research for Easegress is currently in progress. Stay tuned for updates!

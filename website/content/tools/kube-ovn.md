@@ -1,17 +1,17 @@
 ---
 cncf_status: sandbox
-date: '2026-09-20T21:46:44.217236'
+date: '2026-10-04T18:37:40.454378'
 description: A Kubernetes Network Fabric for Enterprises that is Rich in Functions
   and Easy in Operations
 homepage_url: https://kube-ovn.io
 layout: single
 letter: K
+lifecycle_stage: initial
 project_name: Kube-OVN
 repo_url: https://github.com/kubeovn/kube-ovn
 status: in_progress
-summary: A Kubernetes Network Fabric for Enterprises that is Rich in Functions and
-  Easy in Operations
 title: Kube-OVN
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/k/).
+
+Research for Kube-OVN is currently in progress. Stay tuned for updates!

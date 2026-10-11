@@ -1,15 +1,16 @@
 ---
 cncf_status: non-cncf
-date: '2026-09-20T21:46:44.339340'
+date: '2026-10-04T18:37:41.639960'
 description: The Security Toolkit for LLM Interactions
 homepage_url: https://protectai.github.io/llm-guard/
 layout: single
 letter: L
+lifecycle_stage: initial
 project_name: LLM Guard
 repo_url: https://github.com/protectai/llm-guard
 status: in_progress
-summary: The Security Toolkit for LLM Interactions
 title: LLM Guard
 ---
 
-This is an auto-generated tool page. For more details, see the [letter page](/letters/l/).
+
+Research for LLM Guard is currently in progress. Stay tuned for updates!
