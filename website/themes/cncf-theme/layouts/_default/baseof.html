@@ -6,6 +6,11 @@
     <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
     <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else if .IsPage }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}">
     
+    {{ if .Params.canonicalURL }}
+    <link rel="canonical" href="{{ .Params.canonicalURL }}">
+    {{ else }}
+    <link rel="canonical" href="{{ .Permalink }}">
+    {{ end }}
     <!-- OpenGraph -->
     {{ template "_internal/opengraph.html" . }}
     <!-- Twitter Cards -->
