@@ -1,5 +1,5 @@
 ---
-title: "Week 16: Letter P"
+title: "Weeks 31-32: CNCF Projects Starting with P"
 letter: "P"
 week: 15
 data_key: "15-P"
@@ -54,4 +54,3 @@ This week has a total of 43 items.
 - **Data Data Science**: 1 items
 
 - **Training Distributed Training**: 1 items
-

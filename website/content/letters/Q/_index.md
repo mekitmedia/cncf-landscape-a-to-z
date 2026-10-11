@@ -1,5 +1,5 @@
 ---
-title: "Week 17: Letter Q"
+title: "Weeks 33-34: CNCF Projects Starting with Q"
 letter: "Q"
 week: 16
 data_key: "16-Q"
@@ -20,4 +20,3 @@ This week has a total of 5 items.
 - **Observability And Analysis Observability**: 1 items
 
 - **Wasm Decentralized Platforms**: 1 items
-

@@ -1,6 +1,6 @@
 # Summary for 11-L
 
-This week has a total of 26 items.
+This week has a total of 27 items.
 
 
 - **Provisioning Automation Configuration**: 1 items
@@ -16,6 +16,8 @@ This week has a total of 26 items.
 - **Orchestration Management Api Gateway**: 1 items
 
 - **Orchestration Management Service Mesh**: 1 items
+
+- **App Definition And Development Database**: 1 items
 
 - **App Definition And Development Application Definition Image Build**: 1 items
 

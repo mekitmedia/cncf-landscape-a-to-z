@@ -1,0 +1,27 @@
+project_name: "Golang"
+homepage_url: "https://go.dev/"
+repo_url: "https://github.com/golang/go"
+cncf_status: "non-cncf"
+summary: "Go is an open source programming language that makes it easy to build simple, reliable, and efficient software."
+key_features:
+  - "Makes it easy to build simple, reliable, and efficient software."
+  - "Provides official binary distributions for multiple operating systems and architectures."
+  - "The standard library provides a rich set of built-in packages."
+recent_updates: "The most recent stable version is go1.24, with official binary distributions available at go.dev/dl/."
+use_cases: "Building simple, reliable, and efficient software."
+interesting_facts: "Go is the work of thousands of contributors and has a canonical Git repository located at go.googlesource.com/go."
+get_started: "Visit go.dev/doc/install for installation instructions after downloading a binary release."
+related_tools:
+  - "Rust"
+  - "C++"
+  - "Java"
+sources:
+  - id: "source-0"
+    title: "Golang GitHub README"
+    url: "https://raw.githubusercontent.com/golang/go/master/README.md"
+    quotes:
+      - "Go is an open source programming language that makes it easy to build simple,\nreliable, and efficient software."
+      - "Official binary distributions are available at https://go.dev/dl/."
+      - "After downloading a binary release, visit https://go.dev/doc/install\nfor installation instructions."
+      - "Go is the work of thousands of contributors."
+      - "Our canonical Git repository is located at https://go.googlesource.com/go."

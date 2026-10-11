@@ -1,5 +1,5 @@
 ---
-title: "Week 19: Letter S"
+title: "Weeks 37-38: CNCF Projects Starting with S"
 letter: "S"
 week: 18
 data_key: "18-S"
@@ -8,10 +8,10 @@ layout: "list"
 
 # Summary for 18-S
 
-This week has a total of 84 items.
+This week has a total of 85 items.
 
 
-- **Provisioning Automation Configuration**: 3 items
+- **Provisioning Automation Configuration**: 4 items
 
 - **Provisioning Container Registry**: 1 items
 
@@ -70,4 +70,3 @@ This week has a total of 84 items.
 - **Data Data Architecture**: 1 items
 
 - **Ai Native Infra Governance Policy And Security**: 1 items
-

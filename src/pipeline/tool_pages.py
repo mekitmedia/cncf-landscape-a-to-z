@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """
-Generate individual tool pages from research YAML files.
+Generate individual tool pages from research YAML files and category project items.
 """
 
 from __future__ import annotations
 
+import copy
 import glob
 from datetime import datetime
 from functools import lru_cache
@@ -12,6 +13,7 @@ from pathlib import Path
 from typing import Optional
 
 import yaml
+import jinja2
 
 from src.config import load_config, letter_from_week_id
 
@@ -48,7 +50,10 @@ def _get_project_data_cache() -> dict:
                         for item in items:
                             name = item.get("name")
                             if name:
-                                cache[name] = item
+                                cache[name] = {
+                                    "item": item,
+                                    "week_id": week_dir.name,
+                                }
             except Exception:
                 continue
     return cache
@@ -58,15 +63,18 @@ def get_cncf_status_from_etl(project_name: str) -> str:
     """Try to find CNCF status from ETL output files."""
     cache = _get_project_data_cache()
     if project_name in cache:
-        return cache[project_name].get("project", "sandbox")
-    return "sandbox"
+        item = cache[project_name]["item"]
+        status = item.get("project")
+        if status and status not in ("null", "None", ""):
+            return status
+    return "non-cncf"
 
 
 def _get_project_urls(project_name: str) -> dict:
     cache = _get_project_data_cache()
     urls = {}
     if project_name in cache:
-        item = cache[project_name]
+        item = cache[project_name]["item"]
         if item.get("repo_url"):
             urls["repo_url"] = item["repo_url"]
         if item.get("homepage_url"):
@@ -74,86 +82,233 @@ def _get_project_urls(project_name: str) -> dict:
     return urls
 
 
-def generate_tool_page(research_file: Path, week_id_value: str) -> Optional[str]:
+
+def _determine_lifecycle_stage(
+    item_tracker: Optional[dict],
+    research_data: Optional[dict],
+) -> str:
     """
-    Generate a tool page from a research YAML file.
+    Determine the lifecycle stage for a tool page:
+    1. 'approved': editorial_lock is True in research YAML.
+    2. 'tech_writing': content task is completed in tracker.
+    3. 'first_pass': research task is completed or research YAML file exists with data.
+    4. 'initial': default initial seed state.
     """
+    if research_data and research_data.get("editorial_lock", False):
+        return "approved"
+
+    if item_tracker:
+        tasks = item_tracker.get("tasks", {})
+        content_task = tasks.get("content", {})
+        research_task = tasks.get("research", {})
+
+        if content_task.get("status") == "completed":
+            return "tech_writing"
+        if research_task.get("status") == "completed":
+            return "first_pass"
+
+    if research_data:
+        return "first_pass"
+
+    return "initial"
+
+
+@lru_cache(maxsize=None)
+def _get_tracker_data(week_id_value: str, weeks_dir: str) -> dict:
+    tracker_file = Path(weeks_dir) / week_id_value / "tracker.yaml"
+    if not tracker_file.exists():
+        return {}
     try:
-        with research_file.open("r", encoding="utf-8") as f:
-            research = yaml.safe_load(f)
+        with tracker_file.open("r", encoding="utf-8") as f:
+            raw_tracker_data = yaml.safe_load(f) or {}
+        return copy.deepcopy(raw_tracker_data)
+    except Exception:
+        return {}
 
-        if not research:
-            return None
 
-        project_name = research.get("project_name", research_file.stem)
-        letter = letter_from_week_id(week_id_value)
-        cncf_status = get_cncf_status_from_etl(project_name)
+def _get_item_tracker(week_id_value: str, project_name: str) -> Optional[dict]:
+    cfg = load_config()
+    items = _get_tracker_data(week_id_value, str(cfg.weeks_dir)).get("items", {})
+    if project_name in items:
+        return copy.deepcopy(items[project_name])
+    return None
 
-        front_matter = {
-            "title": project_name,
-            "project_name": project_name,
-            "letter": letter,
-            "cncf_status": cncf_status,
-            "layout": "single",
-            "date": datetime.now().isoformat(),
-        }
+def generate_tool_page_content(
+    project_name: str,
+    item: dict,
+    week_id_value: str,
+    research_file: Optional[Path] = None,
+) -> Optional[str]:
+    """Generate Markdown tool page content using Jinja2 template."""
+    letter = letter_from_week_id(week_id_value)
+    cncf_status = item.get("project")
+    if not cncf_status or str(cncf_status).lower() in ("null", "none", ""):
+        cncf_status = "non-cncf"
 
-        for key in [
-            "summary",
-            "key_features",
-            "recent_updates",
-            "use_cases",
-            "interesting_facts",
-            "get_started",
-            "related_tools",
-        ]:
-            if key in research:
-                front_matter[key] = research[key]
+    front_matter = {
+        "title": project_name,
+        "project_name": project_name,
+        "letter": letter,
+        "cncf_status": cncf_status,
+        "layout": "single",
+        "date": datetime.now().isoformat(),
+    }
 
-        front_matter.update(_get_project_urls(project_name))
+    if item.get("repo_url"):
+        front_matter["repo_url"] = item["repo_url"]
+    if item.get("homepage_url"):
+        front_matter["homepage_url"] = item["homepage_url"]
+    if item.get("description"):
+        front_matter["description"] = item["description"]
 
-        front_matter_yaml = yaml.dump(
-            front_matter, default_flow_style=False, allow_unicode=True
+    item_tracker = _get_item_tracker(week_id_value, project_name)
+    research_data = None
+
+    if research_file and research_file.exists():
+        try:
+            with research_file.open("r", encoding="utf-8") as f:
+                research_data = yaml.safe_load(f)
+        except Exception as exc:
+            print(f"Error loading research file {research_file}: {exc}")
+
+    stage = _determine_lifecycle_stage(
+        item_tracker=item_tracker,
+        research_data=research_data,
+    )
+    front_matter["lifecycle_stage"] = stage
+    status_val = "completed" if stage in ("first_pass", "tech_writing", "approved") else "in_progress"
+    front_matter["status"] = status_val
+
+    summary = None
+    key_features = []
+    recent_updates = None
+    use_cases = None
+    interesting_facts = None
+    get_started = None
+    related_tools = []
+
+    if research_data:
+        summary = research_data.get("summary")
+        key_features = research_data.get("key_features", [])
+        recent_updates = research_data.get("recent_updates")
+        use_cases = research_data.get("use_cases")
+        interesting_facts = research_data.get("interesting_facts")
+        get_started = research_data.get("get_started")
+        related_tools = research_data.get("related_tools", [])
+
+    if not summary:
+        summary = item.get("description", "Research for this project is currently in progress.")
+
+    front_matter_yaml = yaml.dump(
+        front_matter, default_flow_style=False, allow_unicode=True
+    )
+
+    cfg = load_config()
+    template_file = cfg.templates_dir / "tool_page.md.j2"
+    if template_file.exists():
+        loader = jinja2.FileSystemLoader(searchpath=str(cfg.templates_dir))
+        env = jinja2.Environment(loader=loader, autoescape=False)
+        template = env.get_template("tool_page.md.j2")
+        return template.render(
+            front_matter_yaml=front_matter_yaml,
+            letter=letter.lower(),
+            project_name=project_name,
+            status=status_val,
+            summary=summary,
+            key_features=key_features,
+            recent_updates=recent_updates,
+            use_cases=use_cases,
+            interesting_facts=interesting_facts,
+            get_started=get_started,
+            related_tools=related_tools,
         )
-
-        content = f"""---
-{front_matter_yaml}---
-
-This is an auto-generated tool page. For more details, see the [letter page](/letters/{letter}/).
-"""
-
-        return content
-
-    except Exception as exc:
-        print(f"Error processing {research_file}: {exc}")
-        return None
+    raise FileNotFoundError(f"Template not found at {template_file}")
 
 
-def generate_tool_pages() -> int:
-    """Generate all tool pages from research files."""
+def generate_single_tool_page(
+    research_file_or_name: str | Path,
+    week_id: Optional[str] = None,
+) -> Optional[Path]:
+    """Generate a single Hugo tool page from a research file path or project name."""
     cfg = load_config()
     tools_content_dir = cfg.hugo_tools_dir
     tools_content_dir.mkdir(parents=True, exist_ok=True)
 
+    project_cache = _get_project_data_cache()
+    path = Path(research_file_or_name)
+
+    if path.is_file():
+        # Derive project_name from research YAML
+        try:
+            with path.open("r", encoding="utf-8") as f:
+                data = yaml.safe_load(f)
+            project_name = data.get("project_name", path.stem)
+        except Exception:
+            project_name = path.stem
+        research_file = path
+        week_id_value = week_id or path.parent.parent.name
+    else:
+        project_name = str(research_file_or_name)
+        sanitized = sanitize_for_filename(project_name)
+        week_id_value = week_id or "00-A"
+        research_file = cfg.weeks_dir / week_id_value / "research" / f"{sanitized}.yaml"
+
+    info = project_cache.get(project_name, {})
+    item = info.get("item", {"name": project_name})
+    if "week_id" in info:
+        week_id_value = info["week_id"]
+
+    content = generate_tool_page_content(
+        project_name=project_name,
+        item=item,
+        week_id_value=week_id_value,
+        research_file=research_file,
+    )
+    if not content:
+        return None
+
+    sanitized_name = sanitize_for_filename(project_name)
+    output_file = tools_content_dir / f"{sanitized_name}.md"
+    with output_file.open("w", encoding="utf-8") as f:
+        f.write(content)
+    print(f"✓ Generated {output_file}")
+    return output_file
+
+
+def generate_tool_pages() -> int:
+    """Generate all tool pages from research files and category project items."""
+    cfg = load_config()
+    tools_content_dir = cfg.hugo_tools_dir
+    tools_content_dir.mkdir(parents=True, exist_ok=True)
+
+    project_cache = _get_project_data_cache()
+
     generated_count = 0
     skipped_count = 0
 
-    for week_dir in _get_week_dirs(cfg):
-        week_id_value = week_dir.name
-        research_dir = week_dir / "research"
-        if not research_dir.exists():
-            continue
-        for research_file in research_dir.glob("*.yaml"):
-            page_content = generate_tool_page(research_file, week_id_value)
-            if page_content:
-                output_file = tools_content_dir / f"{research_file.stem}.md"
+    for project_name, info in project_cache.items():
+        item = info.get("item", {})
+        week_id_value = info.get("week_id", "00-A")
+        sanitized_name = sanitize_for_filename(project_name)
+        research_file = cfg.weeks_dir / week_id_value / "research" / f"{sanitized_name}.yaml"
+
+        try:
+            content = generate_tool_page_content(
+                project_name=project_name,
+                item=item,
+                week_id_value=week_id_value,
+                research_file=research_file,
+            )
+            if content:
+                output_file = tools_content_dir / f"{sanitized_name}.md"
                 with output_file.open("w", encoding="utf-8") as f:
-                    f.write(page_content)
-                print(f"✓ Generated {output_file}")
+                    f.write(content)
                 generated_count += 1
             else:
-                print(f"⊘ Skipped {research_file}")
                 skipped_count += 1
+        except Exception as exc:
+            print(f"Error generating tool page for {project_name}: {exc}")
+            skipped_count += 1
 
     print(f"\nGenerated: {generated_count} tool pages")
     print(f"Skipped: {skipped_count} tool pages")
@@ -162,3 +317,5 @@ def generate_tool_pages() -> int:
 
 if __name__ == "__main__":
     generate_tool_pages()
+
+

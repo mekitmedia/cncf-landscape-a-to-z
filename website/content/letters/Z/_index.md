@@ -1,5 +1,5 @@
 ---
-title: "Week 26: Letter Z"
+title: "Weeks 51-52: CNCF Projects Starting with Z"
 letter: "Z"
 week: 25
 data_key: "25-Z"
@@ -20,4 +20,3 @@ This week has a total of 6 items.
 - **Observability And Analysis Observability**: 2 items
 
 - **Wasm Languages**: 1 items
-

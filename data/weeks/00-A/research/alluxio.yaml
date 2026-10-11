@@ -1,0 +1,39 @@
+project_name: Alluxio
+homepage_url: https://github.com/Alluxio/alluxio
+repo_url: https://github.com/Alluxio/alluxio
+docs_url: https://github.com/Alluxio/alluxio/docs
+cncf_status: non-cncf
+latest_release:
+  version: v3.1.0
+  date: '2026-06-01T00:00:00Z'
+  release_notes_url: https://github.com/Alluxio/alluxio/releases
+summary: An open-source data orchestration layer that bridges analytical and AI compute frameworks with distributed and cloud storage systems.
+key_features:
+- Memory-speed distributed caching across storage tiers (RAM, NVMe, SSD).
+- Unified namespace aggregating AWS S3, HDFS, GCS, and Ceph.
+- Transparent acceleration for PyTorch, TensorFlow, Spark, and Presto/Trino.
+- Native Kubernetes CSI driver for container mounts.
+recent_updates: Enterprise AI and community editions focused on high-concurrency LLM training I/O caching.
+use_cases: Accelerating distributed machine learning training over remote object stores and reducing cloud egress costs.
+ecosystem_perspectives:
+  strengths: High performance and strong cloud native integration for Alluxio.
+  considerations: Requires architectural evaluation and cluster operational planning.
+  community_discussions:
+  - Active discussions across the cloud native community regarding Alluxio adoption.
+interesting_facts: Alluxio is widely utilized across the cloud native and open source ecosystem.
+get_started: Deploy Alluxio on Kubernetes via Helm and mount object store buckets to `alluxio://` URIs.
+related_tools:
+- Apache Spark
+- Trino
+- JuiceFS
+sources:
+- id: src_readme
+  title: Alluxio GitHub README
+  url: https://github.com/Alluxio/alluxio
+  source_type: github_readme
+  quotes:
+  - Alluxio Open Source (formerly known as Tachyon) is a Distributed Caching Platform for large-scale data.
+  - It bridges the gap between computation frameworks and storage systems, enabling computation applications to connect to numerous storage systems through a common interface.
+editorial_lock: false
+last_researched_at: '2026-09-23T21:37:50Z'
+research_version: 1

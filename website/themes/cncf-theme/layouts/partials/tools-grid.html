@@ -48,15 +48,26 @@
         {{ $category := .category }}
         <div class="bg-white p-6 rounded-2xl border border-slate-200 hover:border-blue-400 hover:shadow-xl hover:shadow-blue-50 transition-all group">
             <div class="flex justify-between items-start mb-4">
+                {{ $status := "non-cncf" }}
                 {{ if $item.project }}
-                {{ $projectClass := "bg-gray-100 text-gray-700" }}
-                {{ if eq (lower $item.project) "graduated" }}
-                    {{ $projectClass = "bg-green-100 text-green-700" }}
-                {{ else if eq (lower $item.project) "incubating" }}
-                    {{ $projectClass = "bg-blue-100 text-blue-700" }}
+                    {{ $status = lower $item.project }}
                 {{ end }}
-                <div class="px-2 py-1 rounded text-[10px] font-bold uppercase tracking-tighter {{ $projectClass }}">{{ $item.project }}</div>
+                {{ if or (eq $status "none") (eq $status "") }}
+                    {{ $status = "non-cncf" }}
                 {{ end }}
+                {{ $badgeClass := "bg-amber-100 text-amber-800" }}
+                {{ $badgeText := "Non-CNCF" }}
+                {{ if eq $status "graduated" }}
+                    {{ $badgeClass = "bg-green-100 text-green-700" }}
+                    {{ $badgeText = $item.project }}
+                {{ else if eq $status "incubating" }}
+                    {{ $badgeClass = "bg-blue-100 text-blue-700" }}
+                    {{ $badgeText = $item.project }}
+                {{ else if eq $status "sandbox" }}
+                    {{ $badgeClass = "bg-purple-100 text-purple-700" }}
+                    {{ $badgeText = $item.project }}
+                {{ end }}
+                <div class="px-2 py-1 rounded text-[10px] font-bold uppercase tracking-tighter {{ $badgeClass }}">{{ $badgeText }}</div>
                 <button aria-label="Add to watchlist" title="Add to watchlist" class="text-slate-300 hover:text-amber-400 focus-visible:ring-2 focus-visible:ring-amber-400 focus-visible:outline-none rounded transition-colors"><i data-lucide="star" class="w-4.5 h-4.5"></i></button>
             </div>
             <h4 class="text-xl font-bold mb-2 group-hover:text-blue-600 transition-colors">{{ $item.name }}</h4>

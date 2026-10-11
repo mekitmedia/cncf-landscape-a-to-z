@@ -1,0 +1,36 @@
+project_name: BFE
+homepage_url: https://www.bfe-networks.net
+repo_url: https://github.com/bfenetworks/bfe
+docs_url: https://github.com/bfenetworks/bfe/blob/develop/README.md
+cncf_status: sandbox
+latest_release:
+  version: v1.8.7
+  date: "2026-09-13T07:48:18Z"
+  url: "https://github.com/bfenetworks/bfe/releases/tag/v1.8.7"
+summary: BFE (Beyond Front End) is a modern layer 7 load balancer and traffic management solution.
+key_features:
+  - "Layer 7 load balancing"
+  - "Traffic management"
+recent_updates: "Released version 1.8.7."
+use_cases: "Load balancing and managing traffic at layer 7."
+ecosystem_perspectives:
+  strengths: "Acts as a modern layer 7 load balancer and CNCF Sandbox project, well-integrated for traffic management."
+  considerations: "Requires familiarity with BFE's specific control and data plane configuration."
+  community_discussions: []
+interesting_facts: "BFE originated from Baidu and is designed as a 'Beyond Front End' solution."
+get_started: "Check the GitHub repository's README for instructions on setting up the BFE Server component."
+related_tools: []
+sources:
+  - id: source-0
+    title: "BFE GitHub README"
+    url: "https://github.com/bfenetworks/bfe"
+    source_type: github_readme
+    quotes:
+      - "BFE opensource project includes several components, which can be used together as a integrated layer 7 load balancer and traffic management solution."
+      - "BFE is a Cloud Native Computing Foundation (CNCF) sandbox project."
+  - id: source-1
+    title: "BFE Latest Release"
+    url: "https://github.com/bfenetworks/bfe/releases/tag/v1.8.7"
+    source_type: github_release
+    quotes:
+      - "https://github.com/bfenetworks/bfe/releases/tag/v1.8.7"

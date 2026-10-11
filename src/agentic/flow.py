@@ -183,16 +183,24 @@ async def weekly_content_flow(limit: Optional[int] = None):
         save_research_tasks = [save_research(week_letter, result) for result in research_results]
         await asyncio.gather(*save_research_tasks)
 
-        # Write the blog post
-        draft = await write_weekly_post(week_letter, research_results)
-
-        # Save the post
-        await save_post(week_letter, draft)
+        # Check if all research for this week is completed before drafting blog post
+        tracker = get_tracker()
+        progress = tracker.get_progress(week_letter, "research")
+        if progress.total > 0 and progress.completed == progress.total:
+            logger.info(f"Research complete for week {week_letter}. Drafting blog post...")
+            from src.agentic.runner import load_week_research
+            week_research = await load_week_research(week_letter)
+            draft = await write_weekly_post(week_letter, week_research)
+            await save_post(week_letter, draft)
+            weeks_processed += 1
+            logger.info(f"Saved completed blog post for week {week_letter}.")
+        else:
+            logger.info(f"Week {week_letter} research in progress ({progress.completed}/{progress.total}). Blog post will be drafted when all items are complete.")
 
         items_processed += len(items_to_process)
-        weeks_processed += 1
         limit_display = limit if limit is not None else 'unlimited'
-        logger.info(f"Completed week {week_letter}. Total items processed: {items_processed}/{limit_display}")
+        logger.info(f"Processed items so far: {items_processed}/{limit_display}")
+
 
         # If we've processed partial items for this week, we're done
         if limit and items_processed >= limit:

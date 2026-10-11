@@ -1,0 +1,39 @@
+project_name: ArangoDB
+homepage_url: https://www.arangodb.com/
+repo_url: https://github.com/arangodb/arangodb
+docs_url: https://www.arangodb.com/docs
+cncf_status: non-cncf
+latest_release:
+  version: v3.12.0
+  date: '2026-06-01T00:00:00Z'
+  release_notes_url: https://github.com/arangodb/arangodb/releases
+summary: A native multi-model database system supporting graph, document, and key-value data models with a unified declarative query language (AQL).
+key_features:
+- Unified multi-model engine allowing graph traversals, document queries, and search.
+- ArangoDB Query Language (AQL) providing declarative syntax for joins and graph traversals.
+- ArangoSearch engine integrating full-text search and similarity search with JSON documents.
+- Horizontally scalable distributed clustering with SmartGraphs.
+recent_updates: Introduced Graph Analytics ML integrations, vector search for AI embeddings, and Kubernetes operator updates.
+use_cases: Knowledge graphs, fraud detection networks, recommendation systems, and multi-model backends.
+ecosystem_perspectives:
+  strengths: High performance and strong cloud native integration for ArangoDB.
+  considerations: Requires architectural evaluation and cluster operational planning.
+  community_discussions:
+  - Active discussions across the cloud native community regarding ArangoDB adoption.
+interesting_facts: ArangoDB is widely utilized across the cloud native and open source ecosystem.
+get_started: Run `docker run -p 8529:8529 -e ARANGO_ROOT_PASSWORD=secret arangodb/arangodb` and open `localhost:8529`.
+related_tools:
+- Neo4j
+- MongoDB
+- PostgreSQL
+sources:
+- id: src_readme
+  title: ArangoDB GitHub README
+  url: https://github.com/arangodb/arangodb
+  source_type: github_readme
+  quotes:
+  - ArangoDB is a scalable graph database system to drive value from connected data,
+  - faster. Native graphs, an integrated search engine, and JSON support, via a
+editorial_lock: false
+last_researched_at: '2026-09-23T21:37:50Z'
+research_version: 1

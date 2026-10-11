@@ -800,18 +800,18 @@ items:
   Typhoon:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-24T00:50:37.943405+00:00'
+        completed_at: '2026-09-24T00:50:37.943405+00:00'
+        output_file: data/weeks/19-T/research/typhoon.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-24T00:50:37.943405+00:00'
+        completed_at: '2026-09-24T00:50:37.943405+00:00'
+        output_file: website/content/tools/typhoon.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -838,18 +838,18 @@ items:
   Triton:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: 2026-09-28T18:53:27.472171+00:00
+        completed_at: 2026-09-28T18:53:27.472171+00:00
+        output_file: data/weeks/19-T/research/triton.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: 2026-09-28T18:53:27.472171+00:00
+        completed_at: 2026-09-28T18:53:27.472171+00:00
+        output_file: website/content/tools/triton.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -892,6 +892,25 @@ items:
         retry_count: 0
         agent: writer
     removed: false
+  Topograph:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
 week_tasks:
   tasks:
     blog_post:
@@ -905,5 +924,5 @@ week_tasks:
 metadata:
   created_at: '2026-02-01T19:37:47.878837'
   week_letter: T
-  last_synced: '2026-08-08T15:46:36.356742'
-  etl_item_count: 46
+  last_synced: '2026-09-14T02:16:02.102605'
+  etl_item_count: 47

@@ -1,3 +1,15 @@
+- crunchbase: https://www.crunchbase.com/organization/gigapipe
+  description: Polyglot observability warehouse for logs, metrics, traces and profiles,
+    built on ClickHouse. Ingests OpenTelemetry, Loki, Prometheus, Tempo, Pyroscope,
+    InfluxDB, Elastic and Datadog formats, and serves them back over LogQL, PromQL,
+    TraceQL and FlameQL to native Grafana and Perses datasources, or any UI that speaks
+    those standards.
+  featured: true
+  homepage_url: https://gigapipe.com
+  logo: gigapipe.svg
+  name: Gigapipe
+  project: null
+  repo_url: https://github.com/metrico/gigapipe
 - crunchbase: https://www.crunchbase.com/organization/controltheory
   description: "Gonzo is a powerful, real-time log analysis terminal UI inspired by\
     \ k9s. Analyze log streams with beautiful charts, AI-powered insights, and advanced\
@@ -55,7 +67,7 @@
     tracing backend. Tempo is cost-efficient, requiring only object storage to operate,
     and is deeply integrated with Grafana, Prometheus, and Loki. Tempo can be used
     with any of the open source tracing protocols, including Jaeger, Zipkin, and OpenTelemetry.
-  featured: true
+  featured: false
   homepage_url: https://grafana.com/oss/tempo/
   logo: grafana-tempo.svg
   name: Grafana Tempo

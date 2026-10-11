@@ -1,0 +1,2 @@
+Kubernetes [v1.36.1](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.36.md#v1361)
+Add `cloud_provider` variable so "external" cloud controller managers may be used (default null)

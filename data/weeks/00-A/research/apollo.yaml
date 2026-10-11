@@ -1,0 +1,39 @@
+project_name: Apollo
+homepage_url: https://www.apolloconfig.com/
+repo_url: https://github.com/apolloconfig/apollo
+docs_url: https://www.apolloconfig.com/docs
+cncf_status: non-cncf
+latest_release:
+  version: v2.2.0
+  date: '2026-06-01T00:00:00Z'
+  release_notes_url: https://github.com/apolloconfig/apollo/releases
+summary: A reliable, distributed configuration management system developed by Ctrip that enables real-time configuration push, versioning, and environment isolation.
+key_features:
+- Real-time configuration synchronization pushing updates to clients within 1 second.
+- Multi-environment (DEV, FAT, UAT, PROD) and multi-cluster management UI.
+- Release management with gray releases (canary), rollbacks, and change audit trails.
+- Polyglot client libraries (Java, .NET, Node.js, Go, Python, C++).
+recent_updates: Improved Kubernetes-native deployment models and OpenTelemetry tracing integration.
+use_cases: Centralized configuration for microservices, dynamic feature flagging, and live log-level updates.
+ecosystem_perspectives:
+  strengths: High performance and strong cloud native integration for Apollo.
+  considerations: Requires architectural evaluation and cluster operational planning.
+  community_discussions:
+  - Active discussions across the cloud native community regarding Apollo adoption.
+interesting_facts: Apollo is widely utilized across the cloud native and open source ecosystem.
+get_started: Deploy Apollo via Docker Compose quickstart and integrate client SDKs.
+related_tools:
+- Spring Cloud Config
+- Consul
+- Nacos
+sources:
+- id: src_readme
+  title: Apollo GitHub README
+  url: https://github.com/apolloconfig/apollo
+  source_type: github_readme
+  quotes:
+  - English | [中文](https://www.apolloconfig.com/#/zh/README)
+  - Apollo - A reliable configuration management system
+editorial_lock: false
+last_researched_at: '2026-09-23T21:37:50Z'
+research_version: 1

@@ -1,6 +1,6 @@
 # Summary for 19-T
 
-This week has a total of 46 items.
+This week has a total of 47 items.
 
 
 - **Provisioning Automation Configuration**: 3 items
@@ -40,6 +40,8 @@ This week has a total of 46 items.
 - **Data Data Architecture**: 1 items
 
 - **Data Data Science**: 1 items
+
+- **Ai Native Infra Orchestration And Scheduling**: 1 items
 
 - **Ai Native Infra Accelerator And Superpod**: 1 items
 

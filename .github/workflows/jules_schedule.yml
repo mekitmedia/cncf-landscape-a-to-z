@@ -1,0 +1,41 @@
+name: Scheduled Jules Content Task
+
+on:
+  schedule:
+    # Run twice daily (00:00 UTC and 12:00 UTC)
+    - cron: '0 0,12 * * *'
+  workflow_dispatch:
+    inputs:
+      custom_prompt:
+        description: 'Optional custom override prompt for Jules'
+        required: false
+        type: string
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: jules-backlog-runner
+  cancel-in-progress: false
+
+jobs:
+  jules-task:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Prepare Jules Task
+        id: prepare
+        uses: ./.github/actions/prepare-jules-task
+        with:
+          custom_prompt: ${{ inputs.custom_prompt }}
+
+      - name: Run Jules Action
+        uses: google-labs-code/jules-action@v1.0.0
+        with:
+          prompt: ${{ steps.prepare.outputs.prompt }}
+          jules_api_key: ${{ secrets.JULES_API_KEY }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

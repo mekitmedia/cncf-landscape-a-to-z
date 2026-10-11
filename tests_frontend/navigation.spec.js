@@ -1,10 +1,44 @@
 // @ts-check
-const { test, expect } = require('@playwright/test');
+const { test, expect, devices } = require('@playwright/test');
+
+test.describe('Navigation - Mobile Menu', () => {
+  test('mobile navigation toggle opens and closes the menu', async ({ browser }) => {
+    const context = await browser.newContext({ ...devices['Pixel 5'] });
+    const page = await context.newPage();
+
+    await page.goto('/');
+
+    const toggle = page.locator('#mobile-menu-toggle');
+    const menu = page.locator('#mobile-menu');
+
+    await expect(toggle).toBeVisible();
+    await expect(menu).toBeHidden();
+    await expect(toggle).toHaveAttribute('aria-expanded', 'false');
+
+    await toggle.click();
+
+    await expect(menu).toBeVisible();
+    await expect(toggle).toHaveAttribute('aria-expanded', 'true');
+
+    await toggle.click();
+
+    await expect(menu).toBeHidden();
+    await expect(toggle).toHaveAttribute('aria-expanded', 'false');
+
+    await context.close();
+  });
+});
 
 test.describe('Navigation - New Routes', () => {
-  test('blog link in navigation is present and clickable', async ({ page }) => {
+  test.beforeEach(async ({ page }, testInfo) => {
+    if (testInfo.project.name === 'chromium-mobile') {
+      test.skip();
+    }
+
     await page.goto('/');
-    
+  });
+
+  test('blog link in navigation is present and clickable', async ({ page }) => {
     // Check that Blog link exists in navigation
     const blogLink = page.locator('nav a[href="/posts/"]');
     await expect(blogLink).toBeVisible();

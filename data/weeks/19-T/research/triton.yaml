@@ -1,0 +1,34 @@
+
+project_name: "Triton"
+summary: "Triton is a language and compiler for writing highly efficient custom Deep-Learning primitives. It aims to provide an open-source environment for writing fast code at higher productivity than CUDA, but with higher flexibility than other existing DSLs."
+key_features:
+  - "High Productivity: Provides an environment to write fast code more productively than CUDA."
+  - "High Flexibility: Offers greater flexibility compared to other domain-specific languages (DSLs) for deep learning."
+  - "MLIR-based Backend: Features a compiler backend rewritten to use MLIR."
+  - "Back-to-back Matmuls: Supports kernels that contain back-to-back matmuls, enabling operations like flash attention."
+recent_updates: "Version 3.8.0 includes Proton profiling improvements like CUDA graph profiling, new examples and tutorials, low-precision matmul additions, storage shape queries, performance improvements, standalone CUDA backend (can run without PyTorch), and various bug fixes."
+use_cases: "Writing highly efficient custom Deep-Learning primitives and optimizing deep learning workloads, such as flash attention and complex matmul operations."
+interesting_facts: "Triton's foundations were described in a MAPL 2019 publication: 'Triton: An Intermediate Language and Compiler for Tiled Neural Network Computations'."
+get_started: "Check out the official documentation at https://triton-lang.org/ for installation instructions and tutorials, or explore the Triton puzzles to practice running the Triton interpreter without a GPU."
+related_tools:
+  - "CUDA"
+  - "PyTorch"
+latest_release:
+  version: "v3.8.0"
+  date: "2026-08-28T18:25:56Z"
+  url: "https://github.com/triton-lang/triton/releases/tag/v3.8.0"
+sources:
+  - id: "source-1"
+    title: "Triton GitHub README"
+    url: "https://github.com/triton-lang/triton"
+    quotes:
+      - "This is the development repository of Triton, a language and compiler for writing highly efficient custom Deep-Learning primitives."
+      - "The aim of Triton is to provide an open-source environment to write fast code at higher productivity than CUDA, but also with higher flexibility than other existing DSLs."
+      - "The foundations of this project are described in the following MAPL2019 publication: [Triton: An Intermediate Language and Compiler for Tiled Neural Network Computations]"
+      - "Backend rewritten to use MLIR"
+  - id: "source-2"
+    title: "Triton v3.8.0 Release Notes"
+    url: "https://github.com/triton-lang/triton/releases/tag/v3.8.0"
+    quotes:
+      - "CUDA graph profiling: Reduced launch and serialization overhead, retained graph executables across replays, and added graph scopes and metadata to traces"
+      - "Standalone CUDA backend: The CUDA backend can run without PyTorch installed"

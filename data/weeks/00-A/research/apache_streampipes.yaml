@@ -1,0 +1,39 @@
+project_name: Apache StreamPipes
+homepage_url: https://streampipes.apache.org/
+repo_url: https://github.com/apache/streampipes
+docs_url: https://streampipes.apache.org/docs
+cncf_status: non-cncf
+latest_release:
+  version: v0.95.0
+  date: '2026-06-01T00:00:00Z'
+  release_notes_url: https://github.com/apache/streampipes/releases
+summary: A self-service Industrial IoT (IIoT) and streaming analytics platform designed to enable non-technical users to connect, analyze, and explore IoT data streams.
+key_features:
+- Drag-and-drop web pipeline editor for building stream workflows without coding.
+- Pre-built library of pipeline elements (adapters, processors, sinks).
+- Live data explorer and customizable dashboards for sensor monitoring.
+- 'Support for industrial protocols: MQTT, OPC-UA, Kafka, PLC4X, HTTP.'
+recent_updates: Graduated to Apache Top-Level Project, adding Python pipeline integration and OPC-UA improvements.
+use_cases: Condition monitoring in smart manufacturing, predictive maintenance, and shop-floor IoT prototyping.
+ecosystem_perspectives:
+  strengths: High performance and strong cloud native integration for Apache StreamPipes.
+  considerations: Requires architectural evaluation and cluster operational planning.
+  community_discussions:
+  - Active discussions across the cloud native community regarding Apache StreamPipes adoption.
+interesting_facts: Apache StreamPipes is widely utilized across the cloud native and open source ecosystem.
+get_started: Deploy via Docker Compose (`docker compose up -d`) and open `http://localhost:80`.
+related_tools:
+- Node-RED
+- ThingsBoard
+- Apache NiFi
+sources:
+- id: src_readme
+  title: Apache StreamPipes GitHub README
+  url: https://github.com/apache/streampipes
+  source_type: github_readme
+  quotes:
+  - ~ this work for additional information regarding copyright ownership.
+  - ~ Unless required by applicable law or agreed to in writing, software
+editorial_lock: false
+last_researched_at: '2026-09-23T21:37:50Z'
+research_version: 1

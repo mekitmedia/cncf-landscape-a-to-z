@@ -1,5 +1,5 @@
 ---
-title: "Week 3: Letter C"
+title: "Weeks 5-6: CNCF Projects Starting with C"
 letter: "C"
 week: 2
 data_key: "02-C"
@@ -70,4 +70,3 @@ This week has a total of 79 items.
 - **Ai Native Infra Workload Runtime**: 1 items
 
 - **Ai Native Infra Accelerator And Superpod**: 1 items
-

@@ -1,5 +1,5 @@
 ---
-title: "Week 5: Letter E"
+title: "Weeks 9-10: CNCF Projects Starting with E"
 letter: "E"
 week: 4
 data_key: "04-E"
@@ -40,4 +40,3 @@ This week has a total of 24 items.
 - **Wasm Embedded Functions**: 1 items
 
 - **Ai Native Infra Gateway**: 1 items
-

@@ -1,5 +1,5 @@
 ---
-title: "Week 11: Letter K"
+title: "Weeks 21-22: CNCF Projects Starting with K"
 letter: "K"
 week: 10
 data_key: "10-K"
@@ -74,4 +74,3 @@ This week has a total of 108 items.
 - **Ai Native Infra Governance Policy And Security**: 1 items
 
 - **Ai Native Infra Continuous Integration And Delivery**: 1 items
-

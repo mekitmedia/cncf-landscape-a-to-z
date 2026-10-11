@@ -4,6 +4,86 @@ from src.config import load_config, resolve_data_dirs, week_id
 from src.logger import get_logger
 import jinja2
 
+def get_old_items(output_dir: str = "data") -> dict:
+    """Reads existing items from data/weeks/*/categories/*.yaml to capture state before the update"""
+    old_items = {}
+    dirs = resolve_data_dirs(output_dir)
+    for yaml_file in dirs["weeks"].glob("*/categories/*.yaml"):
+        try:
+            with open(yaml_file, 'r') as f:
+                data = yaml.safe_load(f)
+                if data:
+                    for item in data:
+                        if 'name' in item:
+                            old_items[item['name']] = item
+        except Exception as e:
+            logger.warning(f"Failed to load old item data from {yaml_file}: {e}")
+    return old_items
+
+def build_changelog(old_items: dict, new_items: dict, output_dir: str = "data"):
+    """Compares old and new items to generate a changelog.md file"""
+    logger.info("Building changelog...")
+
+    added_tools = []
+    removed_tools = []
+    updated_tools = []
+
+    # Check for added and updated tools
+    for name, item in new_items.items():
+        if name not in old_items:
+            added_tools.append(item)
+        else:
+            old_item = old_items[name]
+            changes = []
+
+            # Check for project status changes
+            if item.get('project') != old_item.get('project'):
+                old_status = old_item.get('project') or 'None'
+                new_status = item.get('project') or 'None'
+                changes.append(f"Status changed from **{old_status}** to **{new_status}**")
+
+            if changes:
+                updated_tools.append({'item': item, 'changes': changes})
+
+    # Check for removed tools
+    for name, item in old_items.items():
+        if name not in new_items:
+            removed_tools.append(item)
+
+    # Generate Markdown
+    changelog = ["# Data Update Changelog\n"]
+
+    if added_tools:
+        changelog.append("## 🚀 Added Tools\n")
+        for tool in sorted(added_tools, key=lambda x: x.get('name', '')):
+            repo_link = f"([Repo]({tool['repo_url']}))" if tool.get('repo_url') else ""
+            changelog.append(f"- **{tool.get('name')}** {repo_link}")
+        changelog.append("\n")
+
+    if removed_tools:
+        changelog.append("## 🗑️ Removed Tools\n")
+        for tool in sorted(removed_tools, key=lambda x: x.get('name', '')):
+            changelog.append(f"- **{tool.get('name')}**")
+        changelog.append("\n")
+
+    if updated_tools:
+        changelog.append("## 🔄 Updated Tools\n")
+        for update in sorted(updated_tools, key=lambda x: x['item'].get('name', '')):
+            tool = update['item']
+            changes_str = ", ".join(update['changes'])
+            changelog.append(f"- **{tool.get('name')}**: {changes_str}")
+        changelog.append("\n")
+
+    if not (added_tools or removed_tools or updated_tools):
+        changelog.append("_No tool changes detected in this update._\n")
+
+    # Write to file
+    changelog_path = Path(output_dir) / "changelog.md"
+
+    with open(changelog_path, 'w') as f:
+        f.write("\n".join(changelog))
+    logger.info(f"Changelog saved to {changelog_path}")
+
 logger = get_logger(__name__)
 
 def to_yaml(data: dict, path: str):
@@ -120,6 +200,11 @@ def generate_letter_pages(output_dir: str = "website/content", summaries: dict =
     letters_dir = Path(output_dir) / "letters"
     letters_dir.mkdir(parents=True, exist_ok=True)
 
+    cfg = load_config()
+    template_loader = jinja2.FileSystemLoader(searchpath=str(cfg.templates_dir))
+    template_env = jinja2.Environment(loader=template_loader, autoescape=False)
+    letter_template = template_env.get_template("letter_index.md.j2")
+
     for letter_code in range(ord('A'), ord('Z') + 1):
         letter = chr(letter_code)
         index = letter_code - ord('A')
@@ -133,16 +218,13 @@ def generate_letter_pages(output_dir: str = "website/content", summaries: dict =
         if summaries:
             summary = summaries.get(week_key, "")
 
-        content = f"""---
-title: "Week {index + 1}: Letter {letter}"
-letter: "{letter}"
-week: {index}
-data_key: "{week_key}"
-layout: "list"
----
-
-{summary}
-"""
+        content = letter_template.render(
+            week_number=index + 1,
+            letter=letter,
+            week_index=index,
+            week_key=week_key,
+            summary=summary,
+        )
         with open(letter_dir / "_index.md", "w") as f:
             f.write(content)
 
@@ -153,4 +235,5 @@ layout: "list"
 ---
 """
     with open(letters_dir / "_index.md", "w") as f:
+
         f.write(content_root)

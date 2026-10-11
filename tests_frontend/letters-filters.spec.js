@@ -16,6 +16,9 @@ test.describe('Letter page - status filters', () => {
 
     const sandboxBtn = page.locator('.filter-btn[data-filter="sandbox"]');
     await expect(sandboxBtn).toBeVisible();
+
+    const nonCncfBtn = page.locator('.filter-btn[data-filter="non-cncf"]');
+    await expect(nonCncfBtn).toBeVisible();
   });
 
   test('"All" filter is active by default', async ({ page }) => {
@@ -95,5 +98,30 @@ test.describe('Letter page - status filters', () => {
 
     await expect(page.locator('.filter-btn[data-filter="incubating"]')).toHaveAttribute('aria-pressed', 'true');
     await expect(page.locator('.filter-btn[data-filter="all"]')).toHaveAttribute('aria-pressed', 'false');
+  });
+
+  test('non-cncf project cards display dedicated badge', async ({ page }) => {
+    await page.goto('/letters/a/');
+
+    const nonCncfCard = page.locator('.project-card[data-project="non-cncf"]').first();
+    await expect(nonCncfCard).toBeVisible();
+    await expect(nonCncfCard).toContainText('Non-CNCF');
+  });
+
+  test('filtering by non-cncf shows non-cncf cards and hides others', async ({ page }) => {
+    await page.goto('/letters/a/');
+
+    await page.locator('.filter-btn[data-filter="non-cncf"]').click();
+
+    const nonCncfCards = page.locator('.project-card[data-project="non-cncf"]');
+    const count = await nonCncfCards.count();
+    expect(count).toBeGreaterThan(0);
+    await expect(nonCncfCards.first()).toBeVisible();
+
+    const otherCards = page.locator('.project-card:not([data-project="non-cncf"])');
+    const otherCount = await otherCards.count();
+    for (let i = 0; i < otherCount; i++) {
+      await expect(otherCards.nth(i)).toBeHidden();
+    }
   });
 });

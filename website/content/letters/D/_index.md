@@ -1,5 +1,5 @@
 ---
-title: "Week 4: Letter D"
+title: "Weeks 7-8: CNCF Projects Starting with D"
 letter: "D"
 week: 3
 data_key: "03-D"
@@ -52,4 +52,3 @@ This week has a total of 35 items.
 - **Training Distributed Training**: 1 items
 
 - **Ai Native Infra Observability**: 2 items
-

@@ -1,5 +1,5 @@
 ---
-title: "Week 15: Letter O"
+title: "Weeks 29-30: CNCF Projects Starting with O"
 letter: "O"
 week: 14
 data_key: "14-O"
@@ -8,7 +8,7 @@ layout: "list"
 
 # Summary for 14-O
 
-This week has a total of 59 items.
+This week has a total of 60 items.
 
 
 - **Provisioning Automation Configuration**: 4 items
@@ -21,7 +21,7 @@ This week has a total of 59 items.
 
 - **Runtime Cloud Native Network**: 3 items
 
-- **Orchestration Management Scheduling Orchestration**: 4 items
+- **Orchestration Management Scheduling Orchestration**: 5 items
 
 - **Orchestration Management Coordination Service Discovery**: 1 items
 
@@ -60,4 +60,3 @@ This week has a total of 59 items.
 - **Training Post Training**: 1 items
 
 - **Ai Native Infra Governance Policy And Security**: 2 items
-

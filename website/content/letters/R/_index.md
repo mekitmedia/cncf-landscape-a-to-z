@@ -1,5 +1,5 @@
 ---
-title: "Week 18: Letter R"
+title: "Weeks 35-36: CNCF Projects Starting with R"
 letter: "R"
 week: 17
 data_key: "17-R"
@@ -36,4 +36,3 @@ This week has a total of 22 items.
 - **Ai Agent Evaluation**: 1 items
 
 - **Inference Framework**: 1 items
-

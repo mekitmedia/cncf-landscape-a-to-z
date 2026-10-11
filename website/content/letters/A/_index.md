@@ -1,5 +1,5 @@
 ---
-title: "Week 1: Letter A"
+title: "Weeks 1-2: CNCF Projects Starting with A"
 letter: "A"
 week: 0
 data_key: "00-A"
@@ -8,7 +8,7 @@ layout: "list"
 
 # Summary for 00-A
 
-This week has a total of 69 items.
+This week has a total of 70 items.
 
 
 - **Provisioning Automation Configuration**: 5 items
@@ -21,7 +21,7 @@ This week has a total of 69 items.
 
 - **Runtime Cloud Native Network**: 1 items
 
-- **Orchestration Management Scheduling Orchestration**: 4 items
+- **Orchestration Management Scheduling Orchestration**: 5 items
 
 - **Orchestration Management Coordination Service Discovery**: 1 items
 
@@ -78,4 +78,3 @@ This week has a total of 69 items.
 - **Training Post Training**: 1 items
 
 - **Ai Native Infra Gateway**: 1 items
-

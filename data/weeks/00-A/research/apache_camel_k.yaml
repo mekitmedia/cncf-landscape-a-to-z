@@ -1,0 +1,39 @@
+project_name: Apache Camel K
+homepage_url: https://camel.apache.org
+repo_url: https://github.com/apache/camel-k
+docs_url: https://camel.apache.org/docs
+cncf_status: non-cncf
+latest_release:
+  version: v2.4.0
+  date: '2026-06-01T00:00:00Z'
+  release_notes_url: https://github.com/apache/camel-k/releases
+summary: A lightweight, serverless cloud-native integration framework built on Apache Camel, designed to run integrations directly on Kubernetes and OpenShift.
+key_features:
+- Sub-second deployment of Enterprise Integration Patterns (EIPs) on Kubernetes.
+- Serverless integration powered by Knative scaling down to zero.
+- Polyglot DSL support (Java, JS, Groovy, Kotlin, YAML).
+- Automated container build via Camel K Kubernetes operator.
+recent_updates: Camel K 2.x streamlined architecture and upgraded Camel 4 runtime compatibility.
+use_cases: Building event-driven microservice integrations and serverless ETL workflows on Kubernetes.
+ecosystem_perspectives:
+  strengths: High performance and strong cloud native integration for Apache Camel K.
+  considerations: Requires architectural evaluation and cluster operational planning.
+  community_discussions:
+  - Active discussions across the cloud native community regarding Apache Camel K adoption.
+interesting_facts: Apache Camel K is widely utilized across the cloud native and open source ecosystem.
+get_started: Install `kamel` CLI and run `kamel run Integration.java --dev`.
+related_tools:
+- Apache Camel
+- Knative
+- Dapr
+sources:
+- id: src_readme
+  title: Apache Camel K GitHub README
+  url: https://github.com/apache/camel-k
+  source_type: github_readme
+  quotes:
+  - '= :camel: + :cloud: = Apache Camel K'
+  - image:https://godoc.org/github.com/apache/camel-k?status.svg["GoDoc", link="https://godoc.org/github.com/apache/camel-k"]
+editorial_lock: false
+last_researched_at: '2026-09-23T21:37:50Z'
+research_version: 1

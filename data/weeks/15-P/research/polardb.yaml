@@ -1,0 +1,36 @@
+project_name: "PolarDB"
+summary: "PolarDB-X is a cloud native distributed SQL Database designed for high concurrency, massive storage and complex querying scenarios. It has a shared-nothing architecture in which computing is decoupled from storage. It supports horizontal scaling, distributed transactions and Hybrid Transactional and Analytical Processing (HTAP) workloads, and is characterized by enterprise-class, cloud native, high availability, highly compatible with MySQL and its ecosystem."
+key_features:
+  - "Horizontal Scalability: Designed with Shared-nothing architecture, supporting multiple Hash and Range data sharding algorithms and achieving transparent horizontal scaling through implicit primary key sharding and dynamic scheduling of data shard."
+  - "Distributed Transactions: Adopts MVCC + TSO approach and 2PC protocol to implement distributed transactions. Transactions meet ACID characteristics, support RC/RR isolation levels, and achieve high performance through optimizations such as one-stage commit, read-only transaction, and asynchronous commit."
+  - "HTAP: Supports analytical queries through native MPP capability, and achieves strong isolation of OLTP and OLAP traffic through CPU quota constraint, memory pooling, storage resource separation, etc."
+recent_updates: "Recent updates include externalized column storage (phase 1) to offload large LONGTEXT/LONGBLOB columns, various AI embedding and text-processing functions (AI_EMBEDDING, AI_EXTRACT, AI_TEXT2SQL), and an NL2SQL agent with conversation and transaction support."
+use_cases: "PolarDB-X is ideal for solving database scalability bottlenecks in core transaction systems, handling high concurrency, massive storage, and complex querying scenarios, as originally created for Alibaba Tmall's 'Double Eleven'."
+interesting_facts: "PolarDB-X was originally created to solve the database's scalability bottleneck of Alibaba Tmall's 'Double Eleven' core transaction system."
+get_started: "To get started with PolarDB-X, explore the documentation on the official website or repository, and use the K8S Operator for deployment."
+related_tools:
+  - "MySQL"
+  - "TiDB"
+  - "CockroachDB"
+latest_release:
+  version: "polardbx-sql-5.4.21-20260918_17897218"
+  date: "2026-09-20T04:53:30Z"
+  url: "https://github.com/polardb/polardbx-sql/releases/tag/polardbx-sql-5.4.21-20260918_17897218"
+sources:
+  - id: "source-1"
+    title: "PolarDB-X GitHub Repository README"
+    url: "https://github.com/polardb/polardbx-sql"
+    quotes:
+      - "PolarDB-X is a cloud native distributed SQL Database designed for high concurrency, massive storage and complex querying scenarios. It has a shared-nothing architecture in which computing is decoupled from storage."
+      - "PolarDB-X was originally created to solve the database's scalability bottleneck of Alibaba Tmall's \"Double Eleven\" core transaction system."
+      - "PolarDB-X is designed with Shared-nothing architecture, supporting multiple Hash and Range data sharding algorithms and achieving transparent horizontal scaling through implicit primary key sharding and dynamic scheduling of data shard."
+      - "PolarDB-X adopts MVCC + TSO approach and 2PC protocol to implement distributed transactions."
+      - "PolarDB-X supports analytical queries through native MPP capability, and achieves strong isolation of OLTP and OLAP traffic through CPU quota constraint, memory pooling, storage resource separation, etc."
+  - id: "source-2"
+    title: "PolarDB-X Releases"
+    url: "https://github.com/polardb/polardbx-sql/releases/tag/polardbx-sql-5.4.21-20260918_17897218"
+    quotes:
+      - "Externalized column storage (phase 1): offload large LONGTEXT/LONGBLOB columns to an external blob file system backed by object storage, declared via MODIFY COLUMN ... EXTERNALIZE."
+      - "Added AI embedding functions AI_EMBEDDING and AI_VL_EMBEDDING."
+      - "Added natural-language-to-SQL function AI_TEXT2SQL."
+      - "Added an NL2SQL agent with conversation, transaction, skill and policy support."

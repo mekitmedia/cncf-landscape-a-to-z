@@ -1,5 +1,5 @@
 ---
-title: "Week 24: Letter X"
+title: "Weeks 47-48: CNCF Projects Starting with X"
 letter: "X"
 week: 23
 data_key: "23-X"
@@ -14,4 +14,3 @@ This week has a total of 2 items.
 - **App Definition And Development Database**: 1 items
 
 - **Data Data Science**: 1 items
-

@@ -1,5 +1,5 @@
 ---
-title: "Week 10: Letter J"
+title: "Weeks 19-20: CNCF Projects Starting with J"
 letter: "J"
 week: 9
 data_key: "09-J"
@@ -26,4 +26,3 @@ This week has a total of 9 items.
 - **Wasm Languages**: 1 items
 
 - **Ai Agent Agent Tool**: 1 items
-

@@ -1,5 +1,5 @@
 ---
-title: "Week 22: Letter V"
+title: "Weeks 43-44: CNCF Projects Starting with V"
 letter: "V"
 week: 21
 data_key: "21-V"
@@ -32,4 +32,3 @@ This week has a total of 14 items.
 - **Wasm Tooling**: 1 items
 
 - **Inference Framework**: 1 items
-
