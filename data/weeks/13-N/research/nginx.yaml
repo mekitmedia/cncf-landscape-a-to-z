@@ -1,0 +1,33 @@
+project_name: "NGINX"
+homepage_url: "https://nginx.org/"
+repo_url: "https://github.com/nginx/nginx"
+docs_url: "https://nginx.org/en/docs/"
+cncf_status: "non-cncf"
+latest_release:
+  version: "release-1.31.6"
+  date: "2026-09-15T15:34:19Z"
+  url: "https://github.com/nginx/nginx/releases/tag/release-1.31.6"
+summary: "NGINX is the world's most popular Web Server, high performance Load Balancer, Reverse Proxy, API Gateway and Content Cache."
+key_features:
+  - "High performance Load Balancer"
+  - "Reverse Proxy and API Gateway"
+  - "Content Cache"
+  - "Configurable via text-based directives"
+  - "Extensible via dynamic and static modules"
+  - "Architected to scale using a master process and worker processes"
+recent_updates: "Mainline binaries are built from the master branch and contain the latest features and bugfixes."
+use_cases: "Web Server, Load Balancer, Reverse Proxy, API Gateway, Content Cache"
+interesting_facts: "NGINX scales beyond Operating System process limitations by operating as a collection of processes. A master process maintains worker processes which automatically adjust to the number of available CPU cores."
+get_started: "For a gentle introduction to NGINX basics, please see our Beginner’s Guide. To run a locally compiled binary: `sudo /usr/local/nginx/sbin/nginx`. Test with `curl localhost`."
+related_tools: []
+sources:
+  - id: "source-0"
+    title: "NGINX GitHub README"
+    url: "https://github.com/nginx/nginx/blob/master/README.md"
+    quotes:
+      - "NGINX (pronounced \"engine x\" or \"en-jin-eks\") is the world's most popular Web Server, high performance Load Balancer, Reverse Proxy, API Gateway and Content Cache."
+      - "NGINX is comprised of individual modules, each extending core functionality by providing additional, configurable features."
+      - "Rather than running in a single, monolithic process, NGINX is architected to scale beyond Operating System process limitations by operating as a collection of processes."
+      - "Mainline binaries are built from the [master branch](https://github.com/nginx/nginx/tree/master) and contain the latest features and bugfixes."
+      - "For a gentle introduction to NGINX basics, please see our [Beginner’s Guide](https://nginx.org/en/docs/beginners_guide.html)."
+      - "sudo /usr/local/nginx/sbin/nginx\n```\n\nYou may test NGINX operation using `curl`.\n\n```bash\ncurl localhost\n```"
