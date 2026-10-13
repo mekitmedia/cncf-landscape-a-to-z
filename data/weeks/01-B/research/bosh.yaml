@@ -1,0 +1,33 @@
+project_name: "BOSH"
+homepage_url: "https://bosh.io/docs/"
+repo_url: "https://github.com/cloudfoundry/bosh"
+cncf_status: "non-cncf"
+summary: "An open source release engineering, deployment, and lifecycle management tool for distributed systems."
+key_features:
+  - "Unifies release engineering, deployment, and lifecycle management of small and large-scale cloud software."
+  - "Performs monitoring, failure recovery, and software updates with zero-to-minimal downtime."
+  - "Supports multiple Infrastructure as a Service (IaaS) providers like VMware vSphere, Google Cloud Platform, Amazon Web Services EC2, Microsoft Azure, OpenStack, and Alibaba Cloud."
+recent_updates: "The latest release is v283.1.13, published on 2026-10-10."
+use_cases: "Provision and deploy software over hundreds of VMs, particularly well-suited for large distributed systems like Cloud Foundry PaaS or Hadoop."
+interesting_facts: "Bosh is deployed by Bosh. To bootstrap a new Bosh server from scratch, the Bosh CLI acts as a lightweight Bosh server."
+get_started: "To bootstrap a new Bosh server from scratch, use the Bosh CLI with the `bosh create-env` command."
+related_tools:
+  - "Cloud Foundry"
+  - "Kubernetes"
+latest_release:
+  version: "v283.1.13"
+  date: "2026-10-10T17:12:12Z"
+  url: "https://github.com/cloudfoundry/bosh/releases/tag/v283.1.13"
+sources:
+  - id: "source-0"
+    title: "BOSH README"
+    url: "https://github.com/cloudfoundry/bosh"
+    quotes:
+      - "Cloud Foundry BOSH is an open source tool for release engineering, deployment, lifecycle management, and monitoring of distributed systems."
+      - "Bosh is deployed by Bosh, and in order to bootstrap a new Bosh server from scratch, the Bosh CLI acts as a lightweight Bosh server with the bosh create-env command."
+  - id: "source-1"
+    title: "BOSH Documentation"
+    url: "https://bosh.io/docs/"
+    quotes:
+      - "BOSH is a project that unifies release engineering, deployment, and lifecycle management of small and large-scale cloud software. BOSH can provision and deploy software over hundreds of VMs. It also performs monitoring, failure recovery, and software updates with zero-to-minimal downtime."
+      - "BOSH supports multiple Infrastructure as a Service (IaaS) providers like VMware vSphere, Google Cloud Platform, Amazon Web Services EC2, Microsoft Azure, OpenStack, and Alibaba Cloud."
