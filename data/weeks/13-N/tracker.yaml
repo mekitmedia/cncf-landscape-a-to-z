@@ -40,18 +40,18 @@ items:
   NGINX:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: 2026-10-13T18:48:53Z
+        output_file: data/weeks/13-N/research/nginx.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: 2026-10-13T18:48:53Z
+        output_file: website/content/tools/nginx.md
         error_message: null
         retry_count: 0
         agent: writer
