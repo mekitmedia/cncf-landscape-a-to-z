@@ -41,7 +41,7 @@
                             <div class="w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center text-slate-500">
                                 <i data-lucide="user" class="w-5 h-5"></i>
                             </div>
-                            <span class="text-sm font-bold text-slate-600">CNCF Journey Team</span>
+                            <span class="text-sm font-bold text-slate-600">{{ .Params.author | default "CNCF Journey Team" }}</span>
                         </div>
                         <div class="h-4 w-px bg-slate-200"></div>
                         <div class="flex items-center gap-2 text-sm font-medium">
