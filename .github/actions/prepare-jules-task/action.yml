@@ -26,7 +26,7 @@ runs:
 
     - name: Set up Python
       shell: bash
-      run: uv python install
+      run: uv python install 3.12
 
     - name: Resolve Prompt via CLI
       id: resolve
