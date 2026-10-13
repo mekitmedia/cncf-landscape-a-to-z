@@ -191,10 +191,10 @@ When Jules finishes, the PR arrives with both the generated research YAML (like 
 ```mermaid
 flowchart TD
     subgraph JulesAsyncWorkflow["JULES ASYNC WORKFLOW"]
-        A["tracker.yaml\n(Pending Task)"] --> B["Dispatch Task to Jules\n(Project + Schema Contract)"]
-        B --> C["Google Labs Jules\n- First-pass repo search\n- Writes research/*.yaml\n- Updates tracker.yaml"]
-        C --> D["GitHub Pull Request\n(Human Review & QA)"]
-        D --> E["Merged to Main\n(Published)"]
+        A["tracker.yaml<br>(Pending Task)"] --> B["Dispatch Task to Jules<br>(Project + Schema Contract)"]
+        B --> C["Google Labs Jules<br>- First-pass repo search<br>- Writes research/*.yaml<br>- Updates tracker.yaml"]
+        C --> D["GitHub Pull Request<br>(Human Review & QA)"]
+        D --> E["Merged to Main<br>(Published)"]
     end
 ```
 
