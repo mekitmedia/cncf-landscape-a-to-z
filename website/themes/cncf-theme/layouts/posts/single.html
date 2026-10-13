@@ -56,37 +56,37 @@
                 </div>
 
                 <!-- Bio / Footer Card -->
-                <div class="mt-20 p-8 rounded-3xl bg-slate-50 border border-slate-100 flex flex-col md:flex-row items-center gap-8 justify-between">
-                    <div class="flex items-center gap-6">
-                        <div class="w-16 h-16 bg-blue-600 rounded-2xl flex items-center justify-center text-white font-black text-2xl shadow-lg shadow-blue-200 rotate-3 transition-transform hover:rotate-0">
+                <div class="mt-12 sm:mt-20 p-5 sm:p-8 rounded-3xl bg-slate-50 border border-slate-100 flex flex-col md:flex-row items-center gap-6 sm:gap-8 justify-between">
+                    <div class="flex items-center gap-4 sm:gap-6 w-full md:w-auto">
+                        <div class="w-14 h-14 sm:w-16 sm:h-16 shrink-0 bg-blue-600 rounded-2xl flex items-center justify-center text-white font-black text-xl sm:text-2xl shadow-lg shadow-blue-200 rotate-3 transition-transform hover:rotate-0">
                             AZ
                         </div>
-                        <div>
-                            <h4 class="font-black text-slate-900 text-lg">CNCF Landscape A-to-Z</h4>
-                            <p class="text-slate-500 text-sm max-w-xs transition-opacity group-hover:opacity-100">Demystifying the cloud native ecosystem one letter at a time.</p>
+                        <div class="min-w-0 flex-1">
+                            <h4 class="font-black text-slate-900 text-base sm:text-lg leading-snug">CNCF Landscape <span class="whitespace-nowrap">A-to-Z</span></h4>
+                            <p class="text-slate-500 text-xs sm:text-sm max-w-xs leading-relaxed">Demystifying the cloud native ecosystem one letter at a time.</p>
                         </div>
                     </div>
                     <div class="flex flex-col gap-4 w-full md:w-auto">
-                        <div class="flex items-center justify-center md:justify-end gap-2">
-                            <span class="text-[10px] font-black uppercase tracking-widest text-slate-400 mr-2">Share story:</span>
+                        <div class="flex flex-wrap items-center justify-center md:justify-end gap-2">
+                            <span class="text-[10px] font-black uppercase tracking-widest text-slate-400 w-full text-center sm:w-auto sm:text-left mb-1 sm:mb-0 sm:mr-2">Share story:</span>
                             {{ $url := .Permalink | absURL }}
                             {{ $title := .Title }}
                             <a href="https://twitter.com/intent/tweet?text={{ $title }}&url={{ $url }}" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-xl bg-white border border-slate-200 flex items-center justify-center text-slate-600 hover:text-blue-400 hover:border-blue-400 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none transition-all hover:-translate-y-1" aria-label="Share on X (opens in a new tab)" title="Share on X">
-                                <i data-lucide="twitter" class="w-4 h-4"></i>
+                                <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
                             </a>
                             <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ $url }}" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-xl bg-white border border-slate-200 flex items-center justify-center text-slate-600 hover:text-blue-700 hover:border-blue-700 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none transition-all hover:-translate-y-1" aria-label="Share on LinkedIn (opens in a new tab)" title="Share on LinkedIn">
-                                <i data-lucide="linkedin" class="w-4 h-4"></i>
+                                <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
                             </a>
                             <a href="https://reddit.com/submit?url={{ $url }}&title={{ $title }}" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-xl bg-white border border-slate-200 flex items-center justify-center text-slate-600 hover:text-orange-600 hover:border-orange-600 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none transition-all hover:-translate-y-1" aria-label="Share on Reddit (opens in a new tab)" title="Share on Reddit">
-                                <i data-lucide="message-square" class="w-4 h-4"></i>
+                                <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm5.71-8.31c.21-.29.33-.65.33-1.03 0-1.02-.83-1.84-1.85-1.84-.5 0-.96.2-1.3.53-1.27-.86-2.98-1.42-4.88-1.49l.99-3.12 2.7.63c.06.66.62 1.18 1.3 1.18 1.02 0 1.85-.83 1.85-1.85 0-1.02-.83-1.85-1.85-1.85-.75 0-1.4.45-1.69 1.09l-3.08-.72a.377.377 0 0 0-.45.28l-1.18 3.73c-1.95.06-3.69.63-4.98 1.5-.34-.33-.8-.53-1.3-.53-1.02 0-1.85.82-1.85 1.84 0 .42.14.81.38 1.11-.26.47-.41.98-.41 1.52 0 2.87 3.61 5.2 8.05 5.2 4.44 0 8.05-2.33 8.05-5.2 0-.52-.14-1.03-.39-1.49zm-10.7 1.31c0-.62.5-1.12 1.12-1.12s1.12.5 1.12 1.12-.5 1.12-1.12 1.12-1.12-.5-1.12-1.12zm7.98 2.76c-.84.84-2.43 1.12-3.99 1.12-1.56 0-3.15-.28-3.99-1.12a.375.375 0 0 1 .53-.53c.61.61 1.94.9 3.46.9 1.52 0 2.85-.29 3.46-.9a.375.375 0 0 1 .53.53zm-.29-1.64c-.62 0-1.12-.5-1.12-1.12s.5-1.12 1.12-1.12 1.12.5 1.12 1.12-.5 1.12-1.12 1.12z"/></svg>
                             </a>
                             <button id="share-button" class="w-10 h-10 rounded-xl bg-blue-600 text-white flex items-center justify-center hover:bg-blue-700 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none focus-visible:ring-offset-2 transition-all shadow-lg shadow-blue-100 hover:-translate-y-1" aria-label="Copy link / Share" title="Copy link / Share">
-                                <i data-lucide="share-2" class="w-4 h-4"></i>
+                                <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
                             </button>
                         </div>
                         <div class="flex items-center gap-3">
-                            <a href="https://github.com/mekitmedia/cncf-landscape-a-to-z" target="_blank" rel="noopener noreferrer" class="w-full md:w-auto flex items-center justify-center gap-3 bg-blue-600 border border-blue-600 text-white px-10 py-4 rounded-2xl font-black text-sm uppercase tracking-widest hover:bg-blue-700 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none focus-visible:ring-offset-2 transition-all shadow-xl shadow-blue-200/50 hover:-translate-y-1 whitespace-nowrap">
-                                <i data-lucide="github" class="w-5 h-5"></i>
+                            <a href="https://github.com/mekitmedia/cncf-landscape-a-to-z" target="_blank" rel="noopener noreferrer" class="w-full md:w-auto flex items-center justify-center gap-2 sm:gap-3 bg-blue-600 border border-blue-600 text-white px-5 sm:px-10 py-3.5 sm:py-4 rounded-2xl font-black text-xs sm:text-sm uppercase tracking-wider sm:tracking-widest hover:bg-blue-700 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none focus-visible:ring-offset-2 transition-all shadow-xl shadow-blue-200/50 hover:-translate-y-1 text-center">
+                                <svg class="w-5 h-5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
                                 View Project on GitHub
                             </a>
                         </div>
@@ -115,16 +115,14 @@ document.getElementById('share-button').addEventListener('click', async () => {
             // Visual feedback
             const btn = document.getElementById('share-button');
             const originalHTML = btn.innerHTML;
-            btn.innerHTML = '<i data-lucide="check" class="w-4 h-4"></i>';
+            btn.innerHTML = '<svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>';
             btn.classList.add('bg-green-600');
             btn.classList.remove('bg-blue-600');
-            lucide.createIcons();
             
             setTimeout(() => {
                 btn.innerHTML = originalHTML;
                 btn.classList.add('bg-blue-600');
                 btn.classList.remove('bg-green-600');
-                lucide.createIcons();
             }, 2000);
         }
     } catch (err) {
