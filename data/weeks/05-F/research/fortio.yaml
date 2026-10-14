@@ -1,0 +1,17 @@
+project_name: "Fortio"
+homepage_url: "https://fortio.org/"
+repo_url: "https://github.com/fortio/fortio"
+cncf_status: "non-cncf"
+summary: "Fortio is a fast, small load testing library, command line tool, advanced echo server, and web UI written in Go. Originally created as Istio's load testing tool, it allows specifying a target query-per-second load and records execution time histograms and percentiles."
+key_features:
+  - "Runs load testing at a specified query per second (qps) and records a histogram of execution time and calculates percentiles."
+  - "Includes a simple web UI and REST API to trigger runs and see graphical representations of the results."
+  - "Provides server-side features similar to httpbin for debugging, such as request echo back, TCP echoing, TCP proxying, and HTTP fan out."
+  - "Functions as a reusable and embeddable Go library with minimal dependencies."
+recent_updates: "Fortio has released version v1.76.0 and now embeds the grol scripting language, accessible via `fortio script`."
+use_cases: "Useful for benchmarking APIs, load testing web servers, and debugging service latency through its advanced echo server capabilities."
+interesting_facts: "The name Fortio comes from the Greek word φορτίο (fortio), which translates to load or burden. It originally started as Istio's load testing tool before graduating to an independent project."
+get_started: "Run the server via Docker with `docker run -p 8080:8080 -p 8079:8079 fortio/fortio server &` and initiate a test run using `docker run fortio/fortio load -logger-force-color http://www.google.com/`."
+related_tools:
+  - "Istio"
+  - "httpbin"
