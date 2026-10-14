@@ -78,18 +78,18 @@ items:
   Paralus:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: 2026-10-14T16:10:52.388787+00:00
+        output_file: data/weeks/15-P/research/paralus.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: 2026-10-14T16:10:52.388787+00:00
+        output_file: website/content/tools/paralus.md
         error_message: null
         retry_count: 0
         agent: writer
