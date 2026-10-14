@@ -86,35 +86,14 @@ def build_changelog(old_items: dict, new_items: dict, output_dir: str = "data"):
 
 logger = get_logger(__name__)
 
-class SingleQuotedStr(str):
-    pass
-
-def single_quoted_str_representer(dumper, data):
-    return dumper.represent_scalar('tag:yaml.org,2002:str', data, style="'")
-
-yaml.add_representer(SingleQuotedStr, single_quoted_str_representer)
-
-def _quote_yaml_strings(data):
-    """Quote strings matching YAML 1.1 boolean/null scalar keywords to avoid parsing issues in Hugo."""
-    if isinstance(data, dict):
-        return {k: _quote_yaml_strings(v) for k, v in data.items()}
-    elif isinstance(data, list):
-        return [_quote_yaml_strings(item) for item in data]
-    elif isinstance(data, str) and data.upper() in (
-        'N', 'Y', 'YES', 'NO', 'TRUE', 'FALSE', 'ON', 'OFF', 'NULL', 'NONE', 'T', 'F'
-    ):
-        return SingleQuotedStr(data)
-    return data
-
 def to_yaml(data: dict, path: str):
     """
     This function saves a dictionary to a yaml file
     """
     logger.info(f"Saving data to {path}")
     Path(path).parent.mkdir(parents=True, exist_ok=True)
-    processed_data = _quote_yaml_strings(data)
     with open(path, 'w+') as file:
-        yaml.dump(processed_data, file, sort_keys=False)
+        yaml.dump(data, file)
 
 def save_partial_data(key: str, partial_data: dict, letter: str, index: int, output_dir: str = "data"):
     """

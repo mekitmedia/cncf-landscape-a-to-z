@@ -1,65 +1,3 @@
-Provisioning:
-  Automation & Configuration: provisioning_automation_configuration
-  Container Registry: provisioning_container_registry
-  Security & Compliance: provisioning_security_compliance
-  Key Management: provisioning_key_management
-Runtime:
-  Cloud Native Storage: runtime_cloud_native_storage
-  Container Runtime: runtime_container_runtime
-  Cloud Native Network: runtime_cloud_native_network
-Orchestration & Management:
-  Scheduling & Orchestration: orchestration_management_scheduling_orchestration
-  Coordination & Service Discovery: orchestration_management_coordination_service_discovery
-  Remote Procedure Call: orchestration_management_remote_procedure_call
-  Service Proxy: orchestration_management_service_proxy
-  API Gateway: orchestration_management_api_gateway
-  Service Mesh: orchestration_management_service_mesh
-App Definition and Development:
-  Database: app_definition_and_development_database
-  Streaming & Messaging: app_definition_and_development_streaming_messaging
-  Application Definition & Image Build: app_definition_and_development_application_definition_image_build
-  Continuous Integration & Delivery: app_definition_and_development_continuous_integration_delivery
-Platform:
-  Certified Kubernetes - Distribution: platform_certified_kubernetes_distribution
-  Certified Kubernetes - Hosted: platform_certified_kubernetes_hosted
-  Certified Kubernetes - Installer: platform_certified_kubernetes_installer
-  Certified Kubernetes - AI Platform: platform_certified_kubernetes_ai_platform
-  PaaS/Container Service: platform_paas_container_service
-Serverless:
-  Security: serverless_security
-  Tools: serverless_tools
-  Framework: serverless_framework
-  Hosted Platform: serverless_hosted_platform
-  Installable Platform: serverless_installable_platform
-Observability and Analysis:
-  Feature Flagging: observability_and_analysis_feature_flagging
-  Chaos Engineering: observability_and_analysis_chaos_engineering
-  Continuous Optimization: observability_and_analysis_continuous_optimization
-  Observability: observability_and_analysis_observability
-Special:
-  Kubernetes Certified Service Provider: special_kubernetes_certified_service_provider
-  Kubernetes and Cloud Native Training Partner: special_kubernetes_and_cloud_native_training_partner
-  Certified CNFs: special_certified_cnfs
-CNCF Members:
-  Platinum: cncf_members_platinum
-  Gold: cncf_members_gold
-  Silver: cncf_members_silver
-  Academic: cncf_members_academic
-  Nonprofit: cncf_members_nonprofit
-  End User Supporter and Contributor: cncf_members_end_user_supporter_and_contributor
-Wasm:
-  Languages: wasm_languages
-  Runtimes: wasm_runtimes
-  Application Frameworks: wasm_application_frameworks
-  Edge/Bare metal: wasm_edge_bare_metal
-  AI/Machine Learning: wasm_ai_machine_learning
-  Embedded Functions: wasm_embedded_functions
-  Tooling: wasm_tooling
-  Orchestration & Management: wasm_orchestration_management
-  Hosted Platforms: wasm_hosted_platforms
-  Decentralized Platforms: wasm_decentralized_platforms
-  Debugging & Observability: wasm_debugging_observability
-  Packaging, Registries & Application Delivery: wasm_packaging_registries_application_delivery
 AI Agent:
   Agent Framework: ai_agent_agent_framework
   Agent Tool: ai_agent_agent_tool
@@ -72,24 +10,86 @@ AI Agent:
   Structured Output: ai_agent_structured_output
   Vector Database: ai_agent_vector_database
   Workflow Orchestration: ai_agent_workflow_orchestration
-Inference:
-  Framework: inference_framework
-  Runtime: inference_runtime
+AI Native Infra:
+  Accelerator and SuperPod: ai_native_infra_accelerator_and_superpod
+  Continuous Integration and Delivery: ai_native_infra_continuous_integration_and_delivery
+  Gateway: ai_native_infra_gateway
+  Governance, Policy and Security: ai_native_infra_governance_policy_and_security
+  Model Asset and Registry: ai_native_infra_model_asset_and_registry
+  Network: ai_native_infra_network
+  Observability: ai_native_infra_observability
+  Orchestration and Scheduling: ai_native_infra_orchestration_and_scheduling
+  Storage: ai_native_infra_storage
+  Workload Runtime: ai_native_infra_workload_runtime
+App Definition and Development:
+  Application Definition & Image Build: app_definition_and_development_application_definition_image_build
+  Continuous Integration & Delivery: app_definition_and_development_continuous_integration_delivery
+  Database: app_definition_and_development_database
+  Streaming & Messaging: app_definition_and_development_streaming_messaging
+CNCF Members:
+  Academic: cncf_members_academic
+  End User Supporter and Contributor: cncf_members_end_user_supporter_and_contributor
+  Gold: cncf_members_gold
+  Nonprofit: cncf_members_nonprofit
+  Platinum: cncf_members_platinum
+  Silver: cncf_members_silver
 Data:
   Data Architecture: data_data_architecture
   Data Science: data_data_science
+Inference:
+  Framework: inference_framework
+  Runtime: inference_runtime
+Observability and Analysis:
+  Chaos Engineering: observability_and_analysis_chaos_engineering
+  Continuous Optimization: observability_and_analysis_continuous_optimization
+  Feature Flagging: observability_and_analysis_feature_flagging
+  Observability: observability_and_analysis_observability
+Orchestration & Management:
+  API Gateway: orchestration_management_api_gateway
+  Coordination & Service Discovery: orchestration_management_coordination_service_discovery
+  Remote Procedure Call: orchestration_management_remote_procedure_call
+  Scheduling & Orchestration: orchestration_management_scheduling_orchestration
+  Service Mesh: orchestration_management_service_mesh
+  Service Proxy: orchestration_management_service_proxy
+Platform:
+  Certified Kubernetes - AI Platform: platform_certified_kubernetes_ai_platform
+  Certified Kubernetes - Distribution: platform_certified_kubernetes_distribution
+  Certified Kubernetes - Hosted: platform_certified_kubernetes_hosted
+  Certified Kubernetes - Installer: platform_certified_kubernetes_installer
+  PaaS/Container Service: platform_paas_container_service
+Provisioning:
+  Automation & Configuration: provisioning_automation_configuration
+  Container Registry: provisioning_container_registry
+  Key Management: provisioning_key_management
+  Security & Compliance: provisioning_security_compliance
+Runtime:
+  Cloud Native Network: runtime_cloud_native_network
+  Cloud Native Storage: runtime_cloud_native_storage
+  Container Runtime: runtime_container_runtime
+Serverless:
+  Framework: serverless_framework
+  Hosted Platform: serverless_hosted_platform
+  Installable Platform: serverless_installable_platform
+  Security: serverless_security
+  Tools: serverless_tools
+Special:
+  Certified CNFs: special_certified_cnfs
+  Kubernetes Certified Service Provider: special_kubernetes_certified_service_provider
+  Kubernetes and Cloud Native Training Partner: special_kubernetes_and_cloud_native_training_partner
 Training:
   Distributed Training: training_distributed_training
-  Post Training: training_post_training
   Evaluation: training_evaluation
-AI Native Infra:
-  Orchestration and Scheduling: ai_native_infra_orchestration_and_scheduling
-  Workload Runtime: ai_native_infra_workload_runtime
-  Accelerator and SuperPod: ai_native_infra_accelerator_and_superpod
-  Storage: ai_native_infra_storage
-  Network: ai_native_infra_network
-  Gateway: ai_native_infra_gateway
-  Model Asset and Registry: ai_native_infra_model_asset_and_registry
-  Governance, Policy and Security: ai_native_infra_governance_policy_and_security
-  Observability: ai_native_infra_observability
-  Continuous Integration and Delivery: ai_native_infra_continuous_integration_and_delivery
+  Post Training: training_post_training
+Wasm:
+  AI/Machine Learning: wasm_ai_machine_learning
+  Application Frameworks: wasm_application_frameworks
+  Debugging & Observability: wasm_debugging_observability
+  Decentralized Platforms: wasm_decentralized_platforms
+  Edge/Bare metal: wasm_edge_bare_metal
+  Embedded Functions: wasm_embedded_functions
+  Hosted Platforms: wasm_hosted_platforms
+  Languages: wasm_languages
+  Orchestration & Management: wasm_orchestration_management
+  Packaging, Registries & Application Delivery: wasm_packaging_registries_application_delivery
+  Runtimes: wasm_runtimes
+  Tooling: wasm_tooling

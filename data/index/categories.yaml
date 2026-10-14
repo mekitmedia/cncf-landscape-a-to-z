@@ -1,8 +1,6 @@
 - category: Provisioning
   subcategories:
-  - subcategory: Automation & Configuration
-    path: provisioning_automation_configuration
-    items:
+  - items:
     - Airship
     - Akri
     - Ansible
@@ -63,9 +61,9 @@
     - Terranetes
     - Tinkerbell
     - Updatecli
-  - subcategory: Container Registry
-    path: provisioning_container_registry
-    items:
+    path: provisioning_automation_configuration
+    subcategory: Automation & Configuration
+  - items:
     - Distribution
     - Dragonfly
     - Harbor
@@ -73,9 +71,9 @@
     - Quay
     - Spegel
     - zot
-  - subcategory: Security & Compliance
-    path: provisioning_security_compliance
-    items:
+    path: provisioning_container_registry
+    subcategory: Container Registry
+  - items:
     - APIClarity
     - Aserto
     - authentik
@@ -158,9 +156,9 @@
     - vArmor
     - Veinmind Tools
     - Zitadel
-  - subcategory: Key Management
-    path: provisioning_key_management
-    items:
+    path: provisioning_security_compliance
+    subcategory: Security & Compliance
+  - items:
     - Athenz
     - Authing
     - CyberArk Conjur
@@ -169,11 +167,11 @@
     - SPIFFE
     - SPIRE
     - Vault
+    path: provisioning_key_management
+    subcategory: Key Management
 - category: Runtime
   subcategories:
-  - subcategory: Cloud Native Storage
-    path: runtime_cloud_native_storage
-    items:
+  - items:
     - Alluxio
     - Carina
     - Ceph
@@ -200,9 +198,9 @@
     - Triton Object Storage
     - Velero
     - Zenko
-  - subcategory: Container Runtime
-    path: runtime_container_runtime
-    items:
+    path: runtime_cloud_native_storage
+    subcategory: Cloud Native Storage
+  - items:
     - containerd
     - composefs
     - bootc
@@ -227,9 +225,9 @@
     - Interlink
     - WasmEdge Runtime
     - youki
-  - subcategory: Cloud Native Network
-    path: runtime_cloud_native_network
-    items:
+    path: runtime_container_runtime
+    subcategory: Container Runtime
+  - items:
     - Antrea
     - Cilium
     - Container Network Interface (CNI)
@@ -248,11 +246,11 @@
     - Spiderpool
     - Submariner
     - OpenSDN
+    path: runtime_cloud_native_network
+    subcategory: Cloud Native Network
 - category: Orchestration & Management
   subcategories:
-  - subcategory: Scheduling & Orchestration
-    path: orchestration_management_scheduling_orchestration
-    items:
+  - items:
     - Agent Substrate
     - Agones
     - Apache Mesos
@@ -303,9 +301,9 @@
     - Volcano
     - wasmCloud
     - Katalyst
-  - subcategory: Coordination & Service Discovery
-    path: orchestration_management_coordination_service_discovery
-    items:
+    path: orchestration_management_scheduling_orchestration
+    subcategory: Scheduling & Orchestration
+  - items:
     - Apache Zookeeper
     - CoreDNS
     - etcd
@@ -314,9 +312,9 @@
     - Nacos
     - Netflix Eureka
     - Oxia
-  - subcategory: Remote Procedure Call
-    path: orchestration_management_remote_procedure_call
-    items:
+    path: orchestration_management_coordination_service_discovery
+    subcategory: Coordination & Service Discovery
+  - items:
     - Apache bRPC
     - Apache Thrift
     - Avro
@@ -331,9 +329,9 @@
     - SOFARPC
     - SRPC
     - TARS
-  - subcategory: Service Proxy
-    path: orchestration_management_service_proxy
-    items:
+    path: orchestration_management_remote_procedure_call
+    subcategory: Remote Procedure Call
+  - items:
     - BFE
     - BunkerWeb
     - Caddy
@@ -352,9 +350,9 @@
     - Skipper
     - STUNner
     - Tengine
-  - subcategory: API Gateway
-    path: orchestration_management_api_gateway
-    items:
+    path: orchestration_management_service_proxy
+    subcategory: Service Proxy
+  - items:
     - 3Scale
     - APIOAK
     - APISIX
@@ -381,9 +379,9 @@
     - Traefik
     - Tyk
     - WSO2 API Microgateway
-  - subcategory: Service Mesh
-    path: orchestration_management_service_mesh
-    items:
+    path: orchestration_management_api_gateway
+    subcategory: API Gateway
+  - items:
     - Aeraki Mesh
     - Consul
     - EaseMesh
@@ -396,11 +394,11 @@
     - Sermant
     - Slime
     - Traefik Mesh
+    path: orchestration_management_service_mesh
+    subcategory: Service Mesh
 - category: App Definition and Development
   subcategories:
-  - subcategory: Database
-    path: app_definition_and_development_database
-    items:
+  - items:
     - Apache CarbonData
     - Apache Hadoop
     - Apache Ignite
@@ -468,9 +466,9 @@
     - YDB
     - YugabyteDB
     - PolarDB
-  - subcategory: Streaming & Messaging
-    path: app_definition_and_development_streaming_messaging
-    items:
+    path: app_definition_and_development_database
+    subcategory: Database
+  - items:
     - Apache NiFi
     - Apache RocketMQ
     - Apache Spark
@@ -503,9 +501,9 @@
     - Tremor
     - userver
     - AutoMQ
-  - subcategory: Application Definition & Image Build
-    path: app_definition_and_development_application_definition_image_build
-    items:
+    path: app_definition_and_development_streaming_messaging
+    subcategory: Streaming & Messaging
+  - items:
     - agentregistry
     - Artifact Hub
     - Backstage
@@ -574,9 +572,9 @@
     - Visual Studio Code Kubernetes Tools
     - xRegistry
     - yoke
-  - subcategory: Continuous Integration & Delivery
-    path: app_definition_and_development_continuous_integration_delivery
-    items:
+    path: app_definition_and_development_application_definition_image_build
+    subcategory: Application Definition & Image Build
+  - items:
     - Agola
     - Argo
     - Bytebase
@@ -613,11 +611,11 @@
     - Woodpecker CI
     - Kube-burner
     - Zuul
+    path: app_definition_and_development_continuous_integration_delivery
+    subcategory: Continuous Integration & Delivery
 - category: Platform
   subcategories:
-  - subcategory: Certified Kubernetes - Distribution
-    path: platform_certified_kubernetes_distribution
-    items:
+  - items:
     - Amazon Elastic Kubernetes Service Distro (Amazon EKS-D)
     - Canonical Charmed Kubernetes
     - Desktop Kubernetes
@@ -642,14 +640,14 @@
     - Tarook
     - vCluster
     - Wind River Studio Cloud Platform
-  - subcategory: Certified Kubernetes - Hosted
-    path: platform_certified_kubernetes_hosted
-    items:
+    path: platform_certified_kubernetes_distribution
+    subcategory: Certified Kubernetes - Distribution
+  - items:
     - Catalyst Kubernetes Service
     - StarlingX
-  - subcategory: Certified Kubernetes - Installer
-    path: platform_certified_kubernetes_installer
-    items:
+    path: platform_certified_kubernetes_hosted
+    subcategory: Certified Kubernetes - Hosted
+  - items:
     - Amazon Elastic Kubernetes Service Anywhere (Amazon EKS Anywhere)
     - Cybozu Kubernetes Engine
     - Gardener
@@ -666,12 +664,12 @@
     - minikube
     - NKD - NestOS Kubernetes Deployer
     - Sidero Talos Linux
-  - subcategory: Certified Kubernetes - AI Platform
+    path: platform_certified_kubernetes_installer
+    subcategory: Certified Kubernetes - Installer
+  - items: []
     path: platform_certified_kubernetes_ai_platform
-    items: []
-  - subcategory: PaaS/Container Service
-    path: platform_paas_container_service
-    items:
+    subcategory: Certified Kubernetes - AI Platform
+  - items:
     - Akka
     - Cloud Foundry Application Runtime
     - JHipster
@@ -683,21 +681,21 @@
     - Portainer
     - Sogou C++ Workflow
     - Tsuru
+    path: platform_paas_container_service
+    subcategory: PaaS/Container Service
 - category: Serverless
   subcategories:
-  - subcategory: Security
+  - items: []
     path: serverless_security
-    items: []
-  - subcategory: Tools
-    path: serverless_tools
-    items:
+    subcategory: Security
+  - items:
     - Cloud Native Landscape
     - Hasura GraphQL Engine
     - Node Lambda
     - SCAR
-  - subcategory: Framework
-    path: serverless_framework
-    items:
+    path: serverless_tools
+    subcategory: Tools
+  - items:
     - Architect
     - AWS Server Application Model (SAM)
     - Chalice
@@ -713,13 +711,13 @@
     - SST
     - Stateful Functions
     - Webiny
-  - subcategory: Hosted Platform
-    path: serverless_hosted_platform
-    items:
+    path: serverless_framework
+    subcategory: Framework
+  - items:
     - Azure Functions
-  - subcategory: Installable Platform
-    path: serverless_installable_platform
-    items:
+    path: serverless_hosted_platform
+    subcategory: Hosted Platform
+  - items:
     - Apache Camel K
     - Apache OpenServerless
     - Apache OpenWhisk
@@ -732,11 +730,11 @@
     - OpenFaaS
     - SlimFaaS
     - PipelineAI
+    path: serverless_installable_platform
+    subcategory: Installable Platform
 - category: Observability and Analysis
   subcategories:
-  - subcategory: Feature Flagging
-    path: observability_and_analysis_feature_flagging
-    items:
+  - items:
     - FeatureHub
     - Bucketeer
     - Flagsmith
@@ -744,9 +742,9 @@
     - GO Feature Flag
     - OpenFeature
     - Unleash
-  - subcategory: Chaos Engineering
-    path: observability_and_analysis_chaos_engineering
-    items:
+    path: observability_and_analysis_feature_flagging
+    subcategory: Feature Flagging
+  - items:
     - Chaos Mesh
     - Chaos Toolkit
     - Chaosblade
@@ -756,9 +754,9 @@
     - PowerfulSeal
     - Kubeinvaders
     - Krkn
-  - subcategory: Continuous Optimization
-    path: observability_and_analysis_continuous_optimization
-    items:
+    path: observability_and_analysis_chaos_engineering
+    subcategory: Chaos Engineering
+  - items:
     - gocrane
     - Infracost
     - Kruize
@@ -766,9 +764,9 @@
     - nOps
     - OpenCost
     - Karpenter
-  - subcategory: Observability
-    path: observability_and_analysis_observability
-    items:
+    path: observability_and_analysis_continuous_optimization
+    subcategory: Continuous Optimization
+  - items:
     - Anteon
     - argonaut
     - Beats
@@ -857,42 +855,42 @@
     - Zipkin
     - sysdig
     - harmonycloud
+    path: observability_and_analysis_observability
+    subcategory: Observability
 - category: Special
   subcategories:
-  - subcategory: Kubernetes Certified Service Provider
+  - items: []
     path: special_kubernetes_certified_service_provider
-    items: []
-  - subcategory: Kubernetes and Cloud Native Training Partner
+    subcategory: Kubernetes Certified Service Provider
+  - items: []
     path: special_kubernetes_and_cloud_native_training_partner
-    items: []
-  - subcategory: Certified CNFs
+    subcategory: Kubernetes and Cloud Native Training Partner
+  - items: []
     path: special_certified_cnfs
-    items: []
+    subcategory: Certified CNFs
 - category: CNCF Members
   subcategories:
-  - subcategory: Platinum
+  - items: []
     path: cncf_members_platinum
-    items: []
-  - subcategory: Gold
+    subcategory: Platinum
+  - items: []
     path: cncf_members_gold
-    items: []
-  - subcategory: Silver
+    subcategory: Gold
+  - items: []
     path: cncf_members_silver
-    items: []
-  - subcategory: Academic
+    subcategory: Silver
+  - items: []
     path: cncf_members_academic
-    items: []
-  - subcategory: Nonprofit
+    subcategory: Academic
+  - items: []
     path: cncf_members_nonprofit
-    items: []
-  - subcategory: End User Supporter and Contributor
+    subcategory: Nonprofit
+  - items: []
     path: cncf_members_end_user_supporter_and_contributor
-    items: []
+    subcategory: End User Supporter and Contributor
 - category: Wasm
   subcategories:
-  - subcategory: Languages
-    path: wasm_languages
-    items:
+  - items:
     - .NET
     - C++
     - componentize-js
@@ -909,9 +907,9 @@
     - WasmEdge-Quickjs
     - WebAssembly Language runtimes for Python and PHP by VMware Labs
     - Zig
-  - subcategory: Runtimes
-    path: wasm_runtimes
-    items:
+    path: wasm_languages
+    subcategory: Languages
+  - items:
     - Lunatic
     - Mewz
     - V8
@@ -921,9 +919,9 @@
     - Wasmtime
     - WAVM
     - Wazero
-  - subcategory: Application Frameworks
-    path: wasm_application_frameworks
-    items:
+    path: wasm_runtimes
+    subcategory: Runtimes
+  - items:
     - Ambient
     - Dapr SDK
     - eunomia-bpf
@@ -939,24 +937,24 @@
     - wasmCloud (Wasm)
     - Wasmex
     - WinterJS
-  - subcategory: Edge/Bare metal
-    path: wasm_edge_bare_metal
-    items:
+    path: wasm_application_frameworks
+    subcategory: Application Frameworks
+  - items:
     - Genode
     - seL4
     - Unikraft
-  - subcategory: AI/Machine Learning
-    path: wasm_ai_machine_learning
-    items:
+    path: wasm_edge_bare_metal
+    subcategory: Edge/Bare metal
+  - items:
     - Apache TVM
     - FFmpeg
     - OpenCV
     - WASI NN for OpenVINO
     - WASI NN for Pytorch
     - WASI NN for TensorFlow Lite
-  - subcategory: Embedded Functions
-    path: wasm_embedded_functions
-    items:
+    path: wasm_ai_machine_learning
+    subcategory: AI/Machine Learning
+  - items:
     - eKuiper
     - Envoy (Wasm)
     - Infinyon
@@ -966,9 +964,9 @@
     - NGINX (Wasm)
     - OpenGauss
     - YOMO
-  - subcategory: Tooling
-    path: wasm_tooling
-    items:
+    path: wasm_embedded_functions
+    subcategory: Embedded Functions
+  - items:
     - Asyncify
     - Binaryen
     - cargo
@@ -983,9 +981,9 @@
     - wasm2c
     - Wit-binddgen
     - Witc
-  - subcategory: Orchestration & Management
-    path: wasm_orchestration_management
-    items:
+    path: wasm_tooling
+    subcategory: Tooling
+  - items:
     - SpinKube
     - container2wasm
     - containerd (Wasm)
@@ -1000,12 +998,12 @@
     - runwasi
     - SuperEdge (Wasm)
     - youki (wasm)
-  - subcategory: Hosted Platforms
+    path: wasm_orchestration_management
+    subcategory: Orchestration & Management
+  - items: []
     path: wasm_hosted_platforms
-    items: []
-  - subcategory: Decentralized Platforms
-    path: wasm_decentralized_platforms
-    items:
+    subcategory: Hosted Platforms
+  - items:
     - Casper
     - CosmWasm
     - Dfinity
@@ -1013,23 +1011,23 @@
     - GEAR
     - NEAR
     - Quai Network
-  - subcategory: Debugging & Observability
-    path: wasm_debugging_observability
-    items:
+    path: wasm_decentralized_platforms
+    subcategory: Decentralized Platforms
+  - items:
     - Modsurfer
     - Observe SDK
     - wasi-logging
-  - subcategory: Packaging, Registries & Application Delivery
-    path: wasm_packaging_registries_application_delivery
-    items:
+    path: wasm_debugging_observability
+    subcategory: Debugging & Observability
+  - items:
     - crates.io
     - Harbor (Wasm)
     - warg
+    path: wasm_packaging_registries_application_delivery
+    subcategory: Packaging, Registries & Application Delivery
 - category: AI Agent
   subcategories:
-  - subcategory: Agent Framework
-    path: ai_agent_agent_framework
-    items:
+  - items:
     - Agent Development Kit
     - Agno
     - Autogen
@@ -1041,79 +1039,79 @@
     - Semantic Kernel
     - Smolagents
     - Strands
-  - subcategory: Agent Tool
-    path: ai_agent_agent_tool
-    items:
+    path: ai_agent_agent_framework
+    subcategory: Agent Framework
+  - items:
     - Browser Use
     - Composio
     - Firecrawl
     - Jina Reader
     - Selenium Grid
-  - subcategory: Evaluation
-    path: ai_agent_evaluation
-    items:
+    path: ai_agent_agent_tool
+    subcategory: Agent Tool
+  - items:
     - Agent Evaluation
     - DeepEval
     - Promptfoo
     - Ragas
     - TruLens
-  - subcategory: Guardrail
-    path: ai_agent_guardrail
-    items:
+    path: ai_agent_evaluation
+    subcategory: Evaluation
+  - items:
     - Guardrails AI
     - LLM Guard
     - NeMo Guardrails
-  - subcategory: Knowledge Graph
-    path: ai_agent_knowledge_graph
-    items:
+    path: ai_agent_guardrail
+    subcategory: Guardrail
+  - items:
     - Apache AGE
     - FalkorDB
-  - subcategory: Protocol
-    path: ai_agent_protocol
-    items:
+    path: ai_agent_knowledge_graph
+    subcategory: Knowledge Graph
+  - items:
     - Agent2agent
     - Modelcontextprotocol
-  - subcategory: RAG
-    path: ai_agent_rag
-    items:
+    path: ai_agent_protocol
+    subcategory: Protocol
+  - items:
     - Docling
     - Haystack
     - LlamaIndex
     - txtai
     - Unstructured
-  - subcategory: State and Memory
-    path: ai_agent_state_and_memory
-    items:
+    path: ai_agent_rag
+    subcategory: RAG
+  - items:
     - Mem0
-  - subcategory: Structured Output
-    path: ai_agent_structured_output
-    items:
+    path: ai_agent_state_and_memory
+    subcategory: State and Memory
+  - items:
     - Guidance
     - Instructor
     - LMQL
     - Outlines
-  - subcategory: Vector Database
-    path: ai_agent_vector_database
-    items:
+    path: ai_agent_structured_output
+    subcategory: Structured Output
+  - items:
     - Chroma
     - LanceDB
     - marqo
     - Milvus
     - pgvector
-  - subcategory: Workflow Orchestration
-    path: ai_agent_workflow_orchestration
-    items:
+    path: ai_agent_vector_database
+    subcategory: Vector Database
+  - items:
     - Astron Agent
     - Dify
     - Hatchet
     - Hive Commons
     - Inngest
     - Temporal
+    path: ai_agent_workflow_orchestration
+    subcategory: Workflow Orchestration
 - category: Inference
   subcategories:
-  - subcategory: Framework
-    path: inference_framework
-    items:
+  - items:
     - AIBrix
     - Arks
     - InferNex
@@ -1123,20 +1121,20 @@
     - llmaz
     - RBG
     - Volcano Kthena
-  - subcategory: Runtime
-    path: inference_runtime
-    items:
+    path: inference_framework
+    subcategory: Framework
+  - items:
     - llama.cpp
     - OpenVINO
     - Seldon
     - SGLang
     - text-generation-inference (TGI)
     - vLLM
+    path: inference_runtime
+    subcategory: Runtime
 - category: Data
   subcategories:
-  - subcategory: Data Architecture
-    path: data_data_architecture
-    items:
+  - items:
     - Apache Druid
     - Apache Flink
     - Apache HBase
@@ -1146,29 +1144,29 @@
     - Memcached
     - ScyllaDB
     - Trino
-  - subcategory: Data Science
-    path: data_data_science
-    items:
+    path: data_data_architecture
+    subcategory: Data Architecture
+  - items:
     - Apache Zeppelin
     - Kubeflow Notebooks
     - marimo
     - Project Jupyter
     - TensorFlow
     - XGBoost
+    path: data_data_science
+    subcategory: Data Science
 - category: Training
   subcategories:
-  - subcategory: Distributed Training
-    path: training_distributed_training
-    items:
+  - items:
     - DeepSpeed
     - Horovod
     - Kubeflow MPI Operator
     - Kubeflow Training Operator
     - Megatron-LM
     - Pytorch DistributedDataParallel (DDP)
-  - subcategory: Post Training
-    path: training_post_training
-    items:
+    path: training_distributed_training
+    subcategory: Distributed Training
+  - items:
     - Axolotl
     - Hyperopt
     - Kubeflow Katib
@@ -1176,16 +1174,16 @@
     - Optuna
     - Unsloth
     - verl
-  - subcategory: Evaluation
-    path: training_evaluation
-    items:
+    path: training_post_training
+    subcategory: Post Training
+  - items:
     - lm-evaluation-harness
     - opencompass
+    path: training_evaluation
+    subcategory: Evaluation
 - category: AI Native Infra
   subcategories:
-  - subcategory: Orchestration and Scheduling
-    path: ai_native_infra_orchestration_and_scheduling
-    items:
+  - items:
     - agent-sandbox
     - Kuberay
     - Kueue
@@ -1193,55 +1191,57 @@
     - Nivida NeMo
     - Topograph
     - Yunikorn
-  - subcategory: Workload Runtime
-    path: ai_native_infra_workload_runtime
-    items:
+    path: ai_native_infra_orchestration_and_scheduling
+    subcategory: Orchestration and Scheduling
+  - items:
     - CubeSandbox
     - e2b
-  - subcategory: Accelerator and SuperPod
-    path: ai_native_infra_accelerator_and_superpod
-    items:
+    path: ai_native_infra_workload_runtime
+    subcategory: Workload Runtime
+  - items:
     - CANN
     - NCCL
     - Triton
-  - subcategory: Storage
+    path: ai_native_infra_accelerator_and_superpod
+    subcategory: Accelerator and SuperPod
+  - items: []
     path: ai_native_infra_storage
-    items: []
-  - subcategory: Network
+    subcategory: Storage
+  - items: []
     path: ai_native_infra_network
-    items: []
-  - subcategory: Gateway
-    path: ai_native_infra_gateway
-    items:
+    subcategory: Network
+  - items:
     - Agentgateway
     - Envoy-ai-gateway
     - Kgateway
     - MCP Gateway Registry
-  - subcategory: Model Asset and Registry
-    path: ai_native_infra_model_asset_and_registry
-    items:
+    path: ai_native_infra_gateway
+    subcategory: Gateway
+  - items:
     - MatrixHub
-  - subcategory: Governance, Policy and Security
-    path: ai_native_infra_governance_policy_and_security
-    items:
+    path: ai_native_infra_model_asset_and_registry
+    subcategory: Model Asset and Registry
+  - items:
     - Kyverno-JSON
     - OPA/Gatekeeper
     - OPEA
     - Stacklock Minder
-  - subcategory: Observability
-    path: ai_native_infra_observability
-    items:
+    path: ai_native_infra_governance_policy_and_security
+    subcategory: Governance, Policy and Security
+  - items:
     - Deepchecks
     - DeepFlow
     - Influxdb
     - Langfuse
     - Trulens
     - Weight and Biases (wandb)
-  - subcategory: Continuous Integration and Delivery
-    path: ai_native_infra_continuous_integration_and_delivery
-    items:
+    path: ai_native_infra_observability
+    subcategory: Observability
+  - items:
     - BentoML
     - Kubeflow Pipelines
     - Mlflow
     - MLRun
     - TensorFlow Extended (TFX)
+    path: ai_native_infra_continuous_integration_and_delivery
+    subcategory: Continuous Integration and Delivery

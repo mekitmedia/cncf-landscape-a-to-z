@@ -198,12 +198,13 @@
                         {{ range $letterProgress }}
                         <tr class="hover:bg-slate-50/80 transition-colors">
                             <td class="py-4">
-                                <a href="/letters/{{ .letter | lower }}/" class="inline-flex items-center gap-3 font-bold text-slate-900 hover:text-blue-600 group">
+                                {{ $letterStr := printf "%v" .letter }}{{ if eq $letterStr "false" }}{{ $letterStr = "N" }}{{ else if eq $letterStr "true" }}{{ $letterStr = "Y" }}{{ end }}
+                                <a href="/letters/{{ $letterStr | lower }}/" class="inline-flex items-center gap-3 font-bold text-slate-900 hover:text-blue-600 group">
                                     <span class="w-8 h-8 bg-slate-900 text-white rounded-lg flex items-center justify-center font-black group-hover:bg-blue-600 transition-colors">
-                                        {{ .letter }}
+                                        {{ $letterStr }}
                                     </span>
                                     <div>
-                                        <div class="font-bold">Letter {{ .letter }}</div>
+                                        <div class="font-bold">Letter {{ $letterStr }}</div>
                                         <div class="text-xs text-slate-400 font-normal">{{ .period_weeks }}</div>
                                     </div>
                                 </a>
@@ -257,11 +258,12 @@
                 {{ range $letterProgress }}
                 <div class="p-4 bg-slate-50 rounded-2xl border border-slate-200">
                     <div class="flex items-center justify-between mb-3">
-                        <a href="/letters/{{ .letter | lower }}/" class="flex items-center gap-2 font-bold text-slate-900">
+                        {{ $letterStr := printf "%v" .letter }}{{ if eq $letterStr "false" }}{{ $letterStr = "N" }}{{ else if eq $letterStr "true" }}{{ $letterStr = "Y" }}{{ end }}
+                        <a href="/letters/{{ $letterStr | lower }}/" class="flex items-center gap-2 font-bold text-slate-900">
                             <span class="w-7 h-7 bg-slate-900 text-white rounded-md flex items-center justify-center font-bold text-xs">
-                                {{ .letter }}
+                                {{ $letterStr }}
                             </span>
-                            <span>Letter {{ .letter }}</span>
+                            <span>Letter {{ $letterStr }}</span>
                             <span class="text-xs text-slate-400 font-normal">({{ .period_weeks }})</span>
                         </a>
                         <span class="font-bold text-blue-600 text-xs">{{ .completion_percentage }}%</span>
