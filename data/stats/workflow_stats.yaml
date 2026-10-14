@@ -74,32 +74,32 @@ letter_progress:
   total_tasks: 57
   week_index: 5
 - blog_post_status: pending
-  completed_tasks: 0
-  completion_percentage: 0.0
-  content_completed: 0
+  completed_tasks: 4
+  completion_percentage: 5.6
+  content_completed: 2
   letter: G
   period_weeks: Weeks 13-14
-  research_completed: 0
+  research_completed: 2
   total_items: 35
   total_tasks: 71
   week_index: 6
 - blog_post_status: pending
-  completed_tasks: 0
-  completion_percentage: 0.0
-  content_completed: 0
+  completed_tasks: 2
+  completion_percentage: 3.9
+  content_completed: 1
   letter: H
   period_weeks: Weeks 15-16
-  research_completed: 0
+  research_completed: 1
   total_items: 25
   total_tasks: 51
   week_index: 7
 - blog_post_status: pending
-  completed_tasks: 0
-  completion_percentage: 0.0
-  content_completed: 0
+  completed_tasks: 4
+  completion_percentage: 12.9
+  content_completed: 2
   letter: I
   period_weeks: Weeks 17-18
-  research_completed: 0
+  research_completed: 2
   total_items: 15
   total_tasks: 31
   week_index: 8
@@ -114,12 +114,12 @@ letter_progress:
   total_tasks: 19
   week_index: 9
 - blog_post_status: pending
-  completed_tasks: 0
-  completion_percentage: 0.0
-  content_completed: 0
+  completed_tasks: 2
+  completion_percentage: 0.9
+  content_completed: 1
   letter: K
   period_weeks: Weeks 21-22
-  research_completed: 0
+  research_completed: 1
   total_items: 107
   total_tasks: 215
   week_index: 10
@@ -194,12 +194,12 @@ letter_progress:
   total_tasks: 45
   week_index: 17
 - blog_post_status: pending
-  completed_tasks: 0
-  completion_percentage: 0.0
-  content_completed: 0
+  completed_tasks: 2
+  completion_percentage: 1.2
+  content_completed: 1
   letter: S
   period_weeks: Weeks 37-38
-  research_completed: 0
+  research_completed: 1
   total_items: 85
   total_tasks: 171
   week_index: 18
@@ -224,12 +224,12 @@ letter_progress:
   total_tasks: 11
   week_index: 20
 - blog_post_status: pending
-  completed_tasks: 0
-  completion_percentage: 0.0
-  content_completed: 0
+  completed_tasks: 2
+  completion_percentage: 6.9
+  content_completed: 1
   letter: V
   period_weeks: Weeks 43-44
-  research_completed: 0
+  research_completed: 1
   total_items: 14
   total_tasks: 29
   week_index: 21
@@ -279,8 +279,8 @@ status_counts:
   sandbox: 153
 summary:
   completed_blog_posts: 1
-  overall_completed_tasks: 109
-  overall_completion_percentage: 6.2
+  overall_completed_tasks: 125
+  overall_completion_percentage: 7.1
   overall_total_tasks: 1752
   total_blog_posts: 26
   total_categories: 13
