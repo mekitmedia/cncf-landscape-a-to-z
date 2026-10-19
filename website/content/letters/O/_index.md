@@ -8,14 +8,14 @@ layout: "list"
 
 # Summary for 14-O
 
-This week has a total of 60 items.
+This week has a total of 61 items.
 
 
 - **Provisioning Automation Configuration**: 4 items
 
 - **Provisioning Security Compliance**: 7 items
 
-- **Provisioning Key Management**: 1 items
+- **Provisioning Key Management**: 2 items
 
 - **Runtime Cloud Native Storage**: 2 items
 

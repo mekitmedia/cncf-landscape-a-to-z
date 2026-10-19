@@ -2,10 +2,8 @@
 
 ## 🚀 Added Tools
 
-- **Agent Substrate** ([Repo](https://github.com/agent-substrate/substrate))
-- **Hive Commons** ([Repo](https://github.com/hivecommons/hive))
-- **OpenShell** ([Repo](https://github.com/NVIDIA/OpenShell))
-- **Spinifex** ([Repo](https://github.com/mulgadc/spinifex))
+- **OpenBao** ([Repo](https://github.com/openbao/openbao))
+- **Praxis** ([Repo](https://github.com/praxis-proxy/praxis))
 
 
 ## 🗑️ Removed Tools
