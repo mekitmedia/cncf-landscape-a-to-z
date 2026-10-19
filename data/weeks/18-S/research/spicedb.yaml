@@ -1,0 +1,51 @@
+project_name: SpiceDB
+homepage_url: https://authzed.com/spicedb
+repo_url: https://github.com/authzed/spicedb
+cncf_status: non-cncf
+summary: SpiceDB is an open source authorization system inspired by Google's Zanzibar,
+  offering a mature and scalable solution.
+key_features:
+- Built by cloud-native ecosystem pioneers, offering robust engineering
+- Mature, feature-complete implementation based on Google's Zanzibar paper
+- Highly scalable to millions of queries per second with a 5ms p95 latency
+- Per-request consistency configuration ensuring both correctness and performance
+- Supports caveated relationships, blending ABAC and ReBAC concepts
+- Schema design tooling with real-time validation for CI/CD pipelines
+- Reverse indexing functionality to query subject permissions and resource accessibility
+recent_updates: SpiceDB v1.56.2 was released on 2026-09-11
+use_cases: Platform and product teams use SpiceDB to definitively answer access control
+  questions like whether a specific subject can perform a certain action on a given
+  resource.
+interesting_facts: The original inspiration for SpiceDB came from Google's 2019 paper
+  on Zanzibar, their globally consistent authorization system.
+get_started: docker run --rm -p 50051:50051 -p 8443:8443 authzed/spicedb serve --http-enabled
+  true --grpc-preshared-key "somerandomkeyhere"
+related_tools:
+- kubernetes
+sources:
+- id: source-0
+  title: SpiceDB README
+  url: https://github.com/authzed/spicedb
+  quotes:
+  - 'SpiceDB is the most mature open source project inspired by Google''s internal
+    authorization system: [Zanzibar].'
+  - '- [**World-class engineering**][about]: painstakingly built by experts that pioneered
+    the cloud-native ecosystem'
+  - '- [**Authentic design**][zanzibar]: mature and feature-complete implementation
+    of Google''s Zanzibar paper'
+  - '- [**Proven in production**][1M]: 5ms p95 when scaled to millions of queries/s,
+    billions of relationships'
+  - '- [**Global consistency**][consistency]: consistency configured per-request unlocks
+    correctness while maintaining performance'
+  - '- [**Multi-paradigm**][caveats]: caveated relationships combine the best concepts
+    in authorization: ABAC & ReBAC'
+  - '- [**Safety in tooling**][tooling]: designs schemas with real-time validation
+    or validate in your CI/CD workflow'
+  - '- [**Reverse Indexes**][reverse-indexes]: queries for "What can `subject` do?",
+    "Who can access `resource`?"'
+  - 'With SpiceDB, platform and product teams can be be protected by answering this
+    question easily: **"can subject X perform action Y on resource Z?"**'
+  - 'In 2019, Google released the paper "[Zanzibar: Google''s Consistent, Global Authorization
+    System][zanzibar]" providing the original inspiration for SpiceDB.'
+  - docker run --rm -p 50051:50051 -p 8443:8443 authzed/spicedb serve --http-enabled
+    true --grpc-preshared-key "somerandomkeyhere"
