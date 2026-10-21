@@ -1,5 +1,5 @@
 name: 'Prepare Jules Task'
-description: 'Deterministically resolves the prompt for Google Jules from custom input, file backlog, or default weekly research prompt'
+description: 'Deterministically resolves the prompt for Google Jules from custom input, file backlog, or default weekly improvements prompt'
 inputs:
   custom_prompt:
     description: 'Optional custom override prompt'
@@ -35,4 +35,3 @@ runs:
         CUSTOM_PROMPT: ${{ inputs.custom_prompt }}
       run: |
         PYTHONPATH=. uv run python scripts/jules_queue.py get-prompt ${CUSTOM_PROMPT:+--custom-prompt "$CUSTOM_PROMPT"} --github-output --info
-

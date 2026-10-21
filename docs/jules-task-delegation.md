@@ -57,10 +57,10 @@ Atomic tasks waiting for agent implementation are stored sequentially under `.gi
 ├── actions/
 │   └── prepare-jules-task/action.yml     # Composite Action for prompt resolution
 ├── prompts/
-│   ├── jules_prompt.md                   # Standing daily content prompt
-│   ├── content_manager.md                # Role prompt for content orchestration
-│   ├── researcher.md                     # Role prompt for project research
-│   ├── writer.md                         # Role prompt for weekly posts
+│   ├── jules_prompt.md                   # Standing weekly improvements prompt
+│   ├── content_manager.md                # Legacy role prompt (optional)
+│   ├── researcher.md                     # Legacy role prompt (optional)
+│   ├── writer.md                         # Legacy role prompt (optional)
 │   └── tasks/                            # 🎯 Modular Task Queue (FIFO)
 │       ├── 02_pydantic_models_and_editorial_lock.md
 │       ├── 03_deterministic_grounding_validator.md
@@ -160,4 +160,3 @@ When authoring a new task for Jules, use this standard template:
 | **Task 02** | Source Evidence & Editorial Lock | `src/agentic/models.py`<br>`src/tracker/yaml_backend.py` | ⏳ Ready in Queue |
 | **Task 03** | Deterministic Grounding Validator | `scripts/validate_grounding.py`<br>`tests/test_grounding_validator.py` | ⏳ Queued |
 | **Task 04** | Tool Card Projection & DAG Order | `src/agentic/projections.py`<br>`src/tracker/yaml_backend.py` | ⏳ Queued |
-

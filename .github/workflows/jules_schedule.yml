@@ -1,9 +1,9 @@
-name: Scheduled Jules Content Task
+name: Scheduled Jules Weekly Improvement
 
 on:
   schedule:
-    # Run twice daily (00:00 UTC and 12:00 UTC)
-    - cron: '0 0,12 * * *'
+    # Run weekly on Mondays at 12:00 UTC
+    - cron: '0 12 * * 1'
   workflow_dispatch:
     inputs:
       custom_prompt:
