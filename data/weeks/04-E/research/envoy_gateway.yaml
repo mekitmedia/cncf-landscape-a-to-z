@@ -1,0 +1,42 @@
+project_name: Envoy Gateway
+homepage_url: https://gateway.envoyproxy.io
+repo_url: https://github.com/envoyproxy/gateway
+cncf_status: non-cncf
+summary: Envoy Gateway is an open source project for managing Envoy Proxy as a standalone
+  or Kubernetes-based application gateway. It utilizes Gateway API resources to dynamically
+  provision and configure managed Envoy Proxies.
+key_features:
+- Manages Envoy Proxy as a standalone or Kubernetes-based application gateway
+- Uses Gateway API resources to dynamically provision and configure managed Envoy
+  Proxies
+- Supports HTTP Routing, Traffic Splitting, Secure Gateways, Global Rate Limit, and
+  gRPC Routing
+recent_updates: The project recently published the v1.9.2 release.
+use_cases: Providing an open source application gateway using Envoy Proxy with dynamic
+  configuration via the Kubernetes Gateway API.
+interesting_facts: The quickstart configures the gateway using Kubernetes Gateway
+  API resources Gateway and HTTPRoute to direct incoming requests over HTTP to the
+  backend service.
+get_started: To clean up the quickstart, you can run 'helm uninstall eg -n envoy-gateway-system'.
+related_tools:
+- Envoy Proxy
+- Kubernetes Gateway API
+sources:
+- id: source-0
+  title: Envoy Gateway README
+  url: https://github.com/envoyproxy/gateway
+  quotes:
+  - 'Envoy Gateway is an open source project for managing Envoy Proxy as a standalone
+    or
+
+    Kubernetes-based application gateway.'
+  - '[Gateway API](https://gateway-api.sigs.k8s.io) resources are used to dynamically
+    provision and configure the managed Envoy Proxies.'
+- id: source-1
+  title: Envoy Gateway Quickstart
+  url: https://gateway.envoyproxy.io/latest/tasks/quickstart/
+  quotes:
+  - Configured the gateway using Kubernetes Gateway API resources <a href=https://gateway-api.sigs.k8s.io/reference/api-types/gateway/>Gateway</a>
+    and <a href=https://gateway-api.sigs.k8s.io/reference/api-types/httproute/>HTTPRoute</a>
+    to direct incoming requests over HTTP to the backend service.
+  - helm uninstall eg -n envoy-gateway-system

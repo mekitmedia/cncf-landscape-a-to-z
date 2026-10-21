@@ -667,18 +667,18 @@ items:
   Koordinator:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: 2026-10-21T16:18:42.658182+00:00
+        completed_at: 2026-10-21T16:18:42.658182+00:00
+        output_file: data/weeks/10-K/research/koordinator.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: 2026-10-21T16:18:42.658182+00:00
+        completed_at: 2026-10-21T16:18:42.658182+00:00
+        output_file: website/content/tools/koordinator.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -876,18 +876,18 @@ items:
   Kube-burner:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: 2026-10-16T15:40:18.127723+00:00
+        completed_at: 2026-10-16T15:40:18.127723+00:00
+        output_file: data/weeks/10-K/research/kube-burner.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: 2026-10-16T15:40:18.127723+00:00
+        completed_at: 2026-10-16T15:40:18.127723+00:00
+        output_file: website/content/tools/kube-burner.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -1047,18 +1047,18 @@ items:
   KubeDiagrams:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: 2026-10-16T01:54:35.928111+00:00
+        completed_at: 2026-10-16T01:54:35.928111+00:00
+        output_file: data/weeks/10-K/research/kubediagrams.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: 2026-10-16T01:54:35.928111+00:00
+        completed_at: 2026-10-16T01:54:35.928111+00:00
+        output_file: website/content/tools/kubediagrams.md
         error_message: null
         retry_count: 0
         agent: writer

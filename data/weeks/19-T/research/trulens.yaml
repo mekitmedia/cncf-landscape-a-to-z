@@ -1,0 +1,40 @@
+project_name: "Trulens"
+homepage_url: "https://www.trulens.org/"
+repo_url: "https://github.com/truera/trulens"
+cncf_status: "non-cncf"
+summary: "TruLens finds where your agent fails and where you can cut cost without losing quality. Open source, OpenTelemetry-native."
+key_features:
+  - "OpenTelemetry-based tracing"
+  - "Agentic evaluations"
+  - "Batch and inline evaluation"
+  - "MCP support"
+  - "Selector API"
+recent_updates: "Adopted by AI teams at Walmart Global Tech, Cisco, J.P. Morgan Chase, Equinix, VMware by Broadcom, Hitachi Digital Services, Thomson Reuters, phData, HID Global and others."
+use_cases: "Instrument any app with a decorator, score every step with LLM judges that explain themselves, then compare versions and ship the one that earns it."
+interesting_facts: "Tracing is OpenTelemetry-native, so a trace is portable to any OTLP backend, and evaluations run either as traces land or over a dataset after the fact."
+get_started: "pip install trulens"
+related_tools:
+  - "langchain"
+  - "llamaindex"
+sources:
+  - id: "source-0"
+    title: "TruLens README"
+    url: "https://github.com/truera/trulens"
+    quotes:
+      - "TruLens finds where your agent fails and where you can cut cost without losing quality."
+      - "Open source, OpenTelemetry-native."
+      - "OpenTelemetry-based tracing"
+      - "Agentic evaluations"
+      - "Batch and inline evaluation"
+      - "MCP support"
+      - "Selector API"
+      - "Adopted by AI teams at
+
+Walmart Global Tech, Cisco, J.P. Morgan Chase, Equinix, VMware by Broadcom,
+Hitachi Digital Services, Thomson Reuters, phData, HID Global and others."
+      - "Instrument any app with a decorator, score every step with LLM judges that explain
+themselves, then compare versions and ship the one that earns it."
+      - "Tracing is
+OpenTelemetry-native, so a trace is portable to any OTLP backend, and evaluations
+run either as traces land or over a dataset after the fact."
+      - "pip install trulens"

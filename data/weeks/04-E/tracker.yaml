@@ -325,18 +325,18 @@ items:
   Envoy Gateway:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: "2026-10-15T15:58:54.174917+00:00"
+        output_file: data/weeks/04-E/research/envoy_gateway.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: "2026-10-15T15:58:54.174917+00:00"
+        output_file: website/content/tools/envoy_gateway.md
         error_message: null
         retry_count: 0
         agent: writer
