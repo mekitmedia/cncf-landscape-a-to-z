@@ -1,0 +1,32 @@
+project_name: "Kube-burner"
+homepage_url: "https://kube-burner.github.io/kube-burner/"
+repo_url: "https://github.com/kube-burner/kube-burner"
+cncf_status: "sandbox"
+summary: "Kube-burner is a comprehensive Kubernetes performance and scale test orchestration framework written in Go."
+key_features:
+  - "Resource management: Create, delete, and patch Kubernetes resources at scale"
+  - "Observability: Prometheus metric collection and indexing"
+  - "Analysis: Built-in measurements and alerting capabilities"
+  - "Multiple build options: Standard, release, and security-hardened static binaries"
+recent_updates: "Release v2.8.6 introduced outputFile support for background hooks, a baselinePhase option to vmiLatency measurement, and updated Kind support for Kubernetes 1.37."
+use_cases: "Useful for performing scale and performance testing of Kubernetes clusters, gathering Prometheus metrics during testing, and orchestrating complex multi-resource operations."
+interesting_facts: "Kube-burner makes extensive usage of the official k8s client library, client-go, and provides a continuous integration pipeline that automatically builds and tests the project."
+get_started: "Install the latest stable version using the provided script: `curl -Ls https://raw.githubusercontent.com/kube-burner/kube-burner/refs/heads/main/hack/install.sh`"
+related_tools:
+  - "Kubernetes"
+  - "Prometheus"
+sources:
+  - id: "source-0"
+    title: "Kube-burner README"
+    url: "https://github.com/kube-burner/kube-burner"
+    quotes:
+      - "Kube-burner is a Kubernetes performance and scale test orchestration toolset. It provides multi-faceted functionality, the most important of which are summarized below."
+      - "- Create, delete and patch Kubernetes resources at scale."
+      - "- Prometheus metric collection and indexing."
+      - "- Measurements."
+      - "- Alerting."
+      - "Install latest stable version with:\n\n```shell\ncurl -Ls https://raw.githubusercontent.com/kube-burner/kube-burner/refs/heads/main/hack/install.sh\n```"
+latest_release:
+  version: "v2.8.6"
+  date: "2026-09-22T13:28:17Z"
+  url: "https://github.com/kube-burner/kube-burner/releases/tag/v2.8.6"
