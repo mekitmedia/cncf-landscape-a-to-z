@@ -1,0 +1,41 @@
+name: Scheduled Jules Compass Improvement
+
+on:
+  schedule:
+    # Run weekly on Tuesdays at 09:00 UTC
+    - cron: '0 9 * * 2'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: jules-compass-improvement
+  cancel-in-progress: false
+
+jobs:
+  jules-compass:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Load Compass Prompt
+        id: prompt
+        shell: bash
+        run: |
+          delimiter="EOF_$(uuidgen | tr '[:upper:]' '[:lower:]')"
+          {
+            echo "prompt<<${delimiter}"
+            cat .github/prompts/jules_prompt.md
+            echo "${delimiter}"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Run Jules Action
+        uses: google-labs-code/jules-action@v1.0.0
+        with:
+          prompt: ${{ steps.prompt.outputs.prompt }}
+          jules_api_key: ${{ secrets.JULES_API_KEY }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
