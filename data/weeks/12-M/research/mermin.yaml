@@ -1,0 +1,58 @@
+project_name: Mermin
+homepage_url: https://github.com/elastiflow/mermin
+repo_url: https://github.com/elastiflow/mermin
+cncf_status: non-cncf
+summary: Mermin is a powerful, Kubernetes-native network observability tool that utilizes
+  eBPF to capture network traffic efficiently and exports it as Flow Traces through
+  the OpenTelemetry Protocol (OTLP). It offers comprehensive visibility into cluster
+  network communications without requiring any changes to the application code.
+key_features:
+- Uses eBPF to auto-instrument the network layer without sidecars or application changes.
+- Captures granular, bidirectional network flows instead of just aggregated metrics
+  or full packet captures.
+- Enriches flows with native Kubernetes metadata, showing communications between Pods,
+  Services, and Deployments.
+- Exports network traffic as standard OpenTelemetry Flow Traces via OTLP to seamlessly
+  integrate with existing observability backends.
+- Deploys simply as a DaemonSet for low-overhead, kernel-level traffic capture suitable
+  for always-on production environments.
+recent_updates: Mermin aggregates packets into flows with connection state tracking
+  and enriches them with Kubernetes context before converting them to OpenTelemetry
+  trace spans.
+use_cases: Ideal for bridging the gap between application performance monitoring and
+  IP-level network statistics, allowing teams to correlate slow network spans in traces
+  with actual network flow data and pinpoint network congestion back to specific services.
+interesting_facts: "Mermin's approach to network observability sits in a 'sweet spot'\u2014\
+  it avoids the high storage and querying costs of raw PCAP files while providing\
+  \ the rich connection context (like timing and directionality) that simple network\
+  \ metrics lack."
+get_started: Deploy Mermin via Helm using `helm repo add elastiflow https://elastiflow.github.io/mermin`
+  followed by `helm install mermin elastiflow/mermin --namespace mermin --create-namespace`.
+related_tools:
+- Jaeger
+- Tempo
+- Istio
+sources:
+- id: github
+  url: https://github.com/elastiflow/mermin
+  quotes:
+  - '**Mermin** is a powerful, Kubernetes-native network observability tool that uses
+    eBPF to efficiently capture network traffic and export it as **Flow Traces** via
+    the OpenTelemetry Protocol (OTLP).'
+  - Just as eBPF-based APM tools auto-instrument application code, Mermin auto-instruments
+    your network layer.
+  - "eBPF captures traffic transparently\u2014no sidecars, no application modifications,\
+    \ no service mesh required."
+  - Flows include Pod, Service, and Deployment metadata.
+  - Native OTLP output integrates with your existing observability stack (Tempo, Jaeger,
+    Elastic, etc.).
+  - "Mermin aggregates packets into flows\u2014you get connection-level detail without\
+    \ payload overhead."
+  - Flow data provides **granular, connection-level detail that's lightweight enough
+    to run always-on in production.**
+  - "Mermin captures network traffic using eBPF and exports it as **Flow Traces**\u2014\
+    network flows represented as OpenTelemetry spans."
+  - helm repo add elastiflow https://elastiflow.github.io/mermin
+  - helm install mermin elastiflow/mermin --namespace mermin --create-namespace
+  - Mermin operates as a DaemonSet in Kubernetes
+  - Flows are converted to OpenTelemetry trace spans and exported via OTLP
