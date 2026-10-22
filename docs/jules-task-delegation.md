@@ -57,7 +57,9 @@ Atomic tasks waiting for agent implementation are stored sequentially under `.gi
 ├── actions/
 │   └── prepare-jules-task/action.yml     # Composite Action for prompt resolution
 ├── prompts/
-│   ├── jules_prompt.md                   # Standing weekly improvements prompt
+│   ├── jules_prompt.md                   # Backlog runner fallback prompt (Compass)
+│   ├── palette_prompt.md                 # Free-improvement UX profile prompt
+│   ├── engineering_prompt.md             # Free-improvement engineering profile prompt
 │   ├── content_manager.md                # Legacy role prompt (optional)
 │   ├── researcher.md                     # Legacy role prompt (optional)
 │   ├── writer.md                         # Legacy role prompt (optional)
@@ -66,7 +68,10 @@ Atomic tasks waiting for agent implementation are stored sequentially under `.gi
 │       ├── 03_deterministic_grounding_validator.md
 │       └── 04_tool_card_projection_and_dag.md
 └── workflows/
-    └── jules_schedule.yml                # Declarative scheduled & manual workflow
+    ├── jules_schedule.yml                # Backlog/task runner (twice daily)
+    ├── jules_compass_improvements.yml    # Compass free-improvement lane
+    ├── jules_palette_improvements.yml    # Palette free-improvement lane
+    └── jules_engineering_improvements.yml# Engineering free-improvement lane
 ```
 
 ---
@@ -160,3 +165,20 @@ When authoring a new task for Jules, use this standard template:
 | **Task 02** | Source Evidence & Editorial Lock | `src/agentic/models.py`<br>`src/tracker/yaml_backend.py` | ⏳ Ready in Queue |
 | **Task 03** | Deterministic Grounding Validator | `scripts/validate_grounding.py`<br>`tests/test_grounding_validator.py` | ⏳ Queued |
 | **Task 04** | Tool Card Projection & DAG Order | `src/agentic/projections.py`<br>`src/tracker/yaml_backend.py` | ⏳ Queued |
+
+---
+
+## 8. Scheduled Workflow Modes
+
+- **Backlog Runner**: `.github/workflows/jules_schedule.yml`
+  - Runs twice daily (`0 0,12 * * *`)
+  - Resolves prompt via task queue first (`.github/prompts/tasks/`), then fallback prompt.
+- **Compass Improvements**: `.github/workflows/jules_compass_improvements.yml`
+  - Runs weekly Tuesday (`0 9 * * 2`)
+  - Uses forced Compass prompt (`.github/prompts/jules_prompt.md`), independent of backlog state.
+- **Palette Improvements**: `.github/workflows/jules_palette_improvements.yml`
+  - Runs weekly Thursday (`0 9 * * 4`)
+  - Uses forced Palette prompt (`.github/prompts/palette_prompt.md`), independent of backlog state.
+- **Engineering Improvements**: `.github/workflows/jules_engineering_improvements.yml`
+  - Runs weekly Saturday (`0 9 * * 6`)
+  - Uses forced Engineering prompt (`.github/prompts/engineering_prompt.md`), independent of backlog state.

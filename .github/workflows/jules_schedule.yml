@@ -1,9 +1,9 @@
-name: Scheduled Jules Weekly Improvement
+name: Scheduled Jules Backlog Runner
 
 on:
   schedule:
-    # Run weekly on Mondays at 12:00 UTC
-    - cron: '0 12 * * 1'
+    # Run twice daily (00:00 UTC and 12:00 UTC)
+    - cron: '0 0,12 * * *'
   workflow_dispatch:
     inputs:
       custom_prompt:
