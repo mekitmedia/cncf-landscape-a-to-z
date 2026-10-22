@@ -1,4 +1,3 @@
-import os
 from pathlib import Path
 from src.pipeline.load import build_changelog
 
@@ -70,5 +69,4 @@ def test_build_changelog_no_changes(tmp_path):
     build_changelog(old_items, new_items, str(output_dir))
 
     changelog_path = output_dir / "changelog.md"
-    content = changelog_path.read_text()
-    assert "_No tool changes detected in this update._" in content
+    assert not changelog_path.exists()

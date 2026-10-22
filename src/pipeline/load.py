@@ -51,6 +51,10 @@ def build_changelog(old_items: dict, new_items: dict, output_dir: str = "data"):
         if name not in new_items:
             removed_tools.append(item)
 
+    if not (added_tools or removed_tools or updated_tools):
+        logger.info("No tool changes detected; skipping changelog update.")
+        return
+
     # Generate Markdown for new update entry
     today_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     new_entry = [f"## [{today_str}] Data Update\n"]
@@ -75,9 +79,6 @@ def build_changelog(old_items: dict, new_items: dict, output_dir: str = "data"):
             changes_str = ", ".join(update['changes'])
             new_entry.append(f"- **{tool.get('name')}**: {changes_str}")
         new_entry.append("\n")
-
-    if not (added_tools or removed_tools or updated_tools):
-        new_entry.append("_No tool changes detected in this update._\n")
 
     new_entry_str = "\n".join(new_entry).strip()
 
