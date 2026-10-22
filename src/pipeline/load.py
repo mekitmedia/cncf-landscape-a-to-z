@@ -1,3 +1,4 @@
+from datetime import datetime, timezone
 import yaml
 from pathlib import Path
 from src.config import load_config, resolve_data_dirs, week_id
@@ -21,7 +22,7 @@ def get_old_items(output_dir: str = "data") -> dict:
     return old_items
 
 def build_changelog(old_items: dict, new_items: dict, output_dir: str = "data"):
-    """Compares old and new items to generate a changelog.md file"""
+    """Compares old and new items to generate a changelog.md file and prepends to existing history"""
     logger.info("Building changelog...")
 
     added_tools = []
@@ -50,38 +51,55 @@ def build_changelog(old_items: dict, new_items: dict, output_dir: str = "data"):
         if name not in new_items:
             removed_tools.append(item)
 
-    # Generate Markdown
-    changelog = ["# Data Update Changelog\n"]
+    # Generate Markdown for new update entry
+    today_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    new_entry = [f"## [{today_str}] Data Update\n"]
 
     if added_tools:
-        changelog.append("## 🚀 Added Tools\n")
+        new_entry.append("### 🚀 Added Tools\n")
         for tool in sorted(added_tools, key=lambda x: x.get('name', '')):
             repo_link = f"([Repo]({tool['repo_url']}))" if tool.get('repo_url') else ""
-            changelog.append(f"- **{tool.get('name')}** {repo_link}")
-        changelog.append("\n")
+            new_entry.append(f"- **{tool.get('name')}** {repo_link}")
+        new_entry.append("\n")
 
     if removed_tools:
-        changelog.append("## 🗑️ Removed Tools\n")
+        new_entry.append("### 🗑️ Removed Tools\n")
         for tool in sorted(removed_tools, key=lambda x: x.get('name', '')):
-            changelog.append(f"- **{tool.get('name')}**")
-        changelog.append("\n")
+            new_entry.append(f"- **{tool.get('name')}**")
+        new_entry.append("\n")
 
     if updated_tools:
-        changelog.append("## 🔄 Updated Tools\n")
+        new_entry.append("### 🔄 Updated Tools\n")
         for update in sorted(updated_tools, key=lambda x: x['item'].get('name', '')):
             tool = update['item']
             changes_str = ", ".join(update['changes'])
-            changelog.append(f"- **{tool.get('name')}**: {changes_str}")
-        changelog.append("\n")
+            new_entry.append(f"- **{tool.get('name')}**: {changes_str}")
+        new_entry.append("\n")
 
     if not (added_tools or removed_tools or updated_tools):
-        changelog.append("_No tool changes detected in this update._\n")
+        new_entry.append("_No tool changes detected in this update._\n")
 
-    # Write to file
+    new_entry_str = "\n".join(new_entry).strip()
+
     changelog_path = Path(output_dir) / "changelog.md"
+    existing_content = ""
+    if changelog_path.exists():
+        try:
+            with open(changelog_path, 'r', encoding='utf-8') as f:
+                existing_content = f.read().strip()
+        except Exception as e:
+            logger.warning(f"Failed to read existing changelog at {changelog_path}: {e}")
 
-    with open(changelog_path, 'w') as f:
-        f.write("\n".join(changelog))
+    if existing_content.startswith("# Data Update Changelog"):
+        existing_content = existing_content[len("# Data Update Changelog"):].strip()
+
+    if existing_content:
+        full_changelog = f"# Data Update Changelog\n\n{new_entry_str}\n\n{existing_content}\n"
+    else:
+        full_changelog = f"# Data Update Changelog\n\n{new_entry_str}\n"
+
+    with open(changelog_path, 'w', encoding='utf-8') as f:
+        f.write(full_changelog)
     logger.info(f"Changelog saved to {changelog_path}")
 
 logger = get_logger(__name__)
