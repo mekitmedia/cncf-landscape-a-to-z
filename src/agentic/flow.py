@@ -4,6 +4,7 @@ from prefect import flow, task, get_run_logger
 from src.agentic.models import ResearchOutput, BlogPostDraft, NextWeekDecision, ProjectMetadata
 from src.tracker import get_tracker, ReadyTask
 from src.agentic.actions import decisions, weekly, research, writing
+from src.agentic.runner import load_week_research
 from src.agentic.tools.tracker import get_ready_tasks, GetReadyTasksInput
 from src.agentic.deps import AgentDeps
 
@@ -295,8 +296,6 @@ async def parallel_orchestration_flow(max_rounds: int = 10, batch_size: int = 5)
             writer_coros = []
             for task in writer_tasks:
                 # For blog_post tasks, gather all research for that week first
-                tracker = get_tracker()
-                from src.agentic.runner import load_week_research
                 week_research = await load_week_research(task.week_letter)
                 writer_coros.append(write_weekly_post(task.week_letter, week_research))
             

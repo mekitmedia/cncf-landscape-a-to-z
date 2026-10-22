@@ -199,7 +199,7 @@ class TestOrchestrationFlow:
              patch('src.agentic.flow.save_research', new_callable=AsyncMock), \
              patch('src.agentic.flow.save_post', new_callable=AsyncMock), \
              patch('src.agentic.flow.get_run_logger'):
-            
+             
             mock_research.return_value = ResearchOutput(
                 project_name="Test",
                 summary="Test",
@@ -211,14 +211,52 @@ class TestOrchestrationFlow:
                 title="Test",
                 content_markdown="Content"
             )
-            
+             
             # Run with max_rounds=10, batch_size=5
             await parallel_orchestration_flow(max_rounds=10, batch_size=5)
-            
+             
             # Verify research was called twice (2 tasks)
             assert mock_research.call_count == 2
             # Verify write was called once (1 task)
             assert mock_write.call_count == 1
+
+    async def test_writer_loads_research_for_week_before_writing(self):
+        """Verify writer tasks load the week's research and forward it to the writer."""
+        from src.agentic.flow import parallel_orchestration_flow
+
+        week_letter = "A"
+        research_payload = [
+            ResearchOutput(
+                project_name="Project 1",
+                summary="Summary",
+                key_features=["Feature"],
+                recent_updates="Update",
+                use_cases="Use case"
+            )
+        ]
+
+        async def mock_get_ready_tasks(agent_type, limit):
+            if agent_type == "researcher":
+                return []
+            if agent_type == "writer":
+                return [MockReadyTask(week_letter, None, "blog_post", "writer")][:limit]
+            return []
+
+        with patch('src.agentic.flow.get_ready_tasks_batch', side_effect=mock_get_ready_tasks), \
+             patch('src.agentic.flow.load_week_research', new_callable=AsyncMock, return_value=research_payload) as mock_load_research, \
+             patch('src.agentic.flow.write_weekly_post', new_callable=AsyncMock) as mock_write, \
+             patch('src.agentic.flow.save_post', new_callable=AsyncMock), \
+             patch('src.agentic.flow.get_run_logger'):
+
+            mock_write.return_value = BlogPostDraft(
+                title="Week A",
+                content_markdown="Content"
+            )
+
+            await parallel_orchestration_flow(max_rounds=2, batch_size=5)
+
+            mock_load_research.assert_awaited_once_with(week_letter)
+            mock_write.assert_awaited_once_with(week_letter, research_payload)
     
     async def test_multiple_rounds_orchestration(self):
         """Test orchestration across multiple rounds."""
