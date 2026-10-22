@@ -1,6 +1,6 @@
 # Summary for 15-P
 
-This week has a total of 43 items.
+This week has a total of 44 items.
 
 
 - **Provisioning Automation Configuration**: 3 items
@@ -17,7 +17,7 @@ This week has a total of 43 items.
 
 - **Orchestration Management Scheduling Orchestration**: 1 items
 
-- **Orchestration Management Service Proxy**: 1 items
+- **Orchestration Management Service Proxy**: 2 items
 
 - **App Definition And Development Database**: 4 items
 
