@@ -296,7 +296,8 @@ async def parallel_orchestration_flow(max_rounds: int = 10, batch_size: int = 5)
             for task in writer_tasks:
                 # For blog_post tasks, gather all research for that week first
                 tracker = get_tracker()
-                week_research = []  # TODO: gather research results for week
+                from src.agentic.runner import load_week_research
+                week_research = await load_week_research(task.week_letter)
                 writer_coros.append(write_weekly_post(task.week_letter, week_research))
             
             blog_results = await asyncio.gather(*writer_coros, return_exceptions=True)
