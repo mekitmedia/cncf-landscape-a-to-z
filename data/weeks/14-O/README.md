@@ -1,13 +1,13 @@
 # Summary for 14-O
 
-This week has a total of 60 items.
+This week has a total of 62 items.
 
 
 - **Provisioning Automation Configuration**: 4 items
 
 - **Provisioning Security Compliance**: 7 items
 
-- **Provisioning Key Management**: 1 items
+- **Provisioning Key Management**: 2 items
 
 - **Runtime Cloud Native Storage**: 2 items
 
@@ -23,7 +23,7 @@ This week has a total of 60 items.
 
 - **App Definition And Development Database**: 3 items
 
-- **App Definition And Development Streaming Messaging**: 1 items
+- **App Definition And Development Streaming Messaging**: 2 items
 
 - **App Definition And Development Application Definition Image Build**: 8 items
 

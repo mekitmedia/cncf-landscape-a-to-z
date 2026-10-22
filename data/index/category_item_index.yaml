@@ -299,6 +299,7 @@ App Definition and Development:
   - Memphis
   - NATS
   - Numaflow
+  - OLake
   - OpenMessaging
   - Pachyderm
   - Pulsar
@@ -600,6 +601,7 @@ Orchestration & Management:
   - NGINX
   - OpenResty
   - Pipy
+  - Praxis
   - Sentinel
   - Skipper
   - STUNner
@@ -737,6 +739,7 @@ Provisioning:
   - Athenz
   - Authing
   - CyberArk Conjur
+  - OpenBao
   - ORY Hydra
   - Pinniped
   - SPIFFE
@@ -766,6 +769,7 @@ Provisioning:
   - EJBCA Community
   - external-secrets
   - Falco
+  - FerrisKey
   - FOSSA
   - Goldilocks
   - Grafeas
@@ -860,6 +864,7 @@ Runtime:
   - Kanister
   - LINSTOR
   - Longhorn
+  - Mooncake
   - MooseFS
   - NoKV
   - OpenEBS

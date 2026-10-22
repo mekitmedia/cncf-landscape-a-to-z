@@ -5,3 +5,14 @@
   name: ORY Hydra
   project: null
   repo_url: https://github.com/ory/hydra
+- crunchbase: https://www.crunchbase.com/organization/open-source-security-foundation
+  description: Manage, store, and distribute sensitive data with OpenBao. OpenBao
+    is an open source, community-driven secrets manager and fork of Vault managed
+    by the Linux Foundation's OpenSSF.
+  featured: true
+  homepage_url: https://openbao.org/
+  logo: openbao.svg
+  name: OpenBao
+  project: null
+  repo_url: https://github.com/openbao/openbao
+  twitter: https://twitter.com/openbaoofficial

@@ -8,12 +8,12 @@ layout: "list"
 
 # Summary for 05-F
 
-This week has a total of 28 items.
+This week has a total of 29 items.
 
 
 - **Provisioning Automation Configuration**: 1 items
 
-- **Provisioning Security Compliance**: 2 items
+- **Provisioning Security Compliance**: 3 items
 
 - **Runtime Container Runtime**: 1 items
 
