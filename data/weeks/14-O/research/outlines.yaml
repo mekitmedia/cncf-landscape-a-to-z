@@ -1,0 +1,46 @@
+project_name: Outlines
+homepage_url: https://dottxt-ai.github.io/outlines/
+repo_url: https://github.com/dottxt-ai/outlines
+cncf_status: non-cncf
+summary: Outlines is a library that provides guaranteed structured generation directly
+  from large language models, mitigating parsing errors.
+key_features:
+- Works with any model - Same code runs across OpenAI, Ollama, vLLM, and more
+- 'Simple integration - Just pass your desired output type: `model(prompt, output_type)`'
+- Guaranteed valid structure - No more parsing headaches or broken JSON
+- Provider independence - Switch models without changing code
+recent_updates: Added support for PEP 604 unions (`int | str`) as output types. Fixed
+  handling of nullable object type in additionalProperties pass. Fixed rejecting negative
+  counts.
+use_cases: Customer support triage, e-commerce product categorization, parsing event
+  details with incomplete data, categorizing documents into predefined types, and
+  dynamically generating prompts.
+interesting_facts: Outlines provides structured outputs for LLMs and is trusted by
+  NVIDIA, Cohere, HuggingFace, vLLM.
+get_started: 'Getting started with outlines is simple:
+
+
+  pip install outlines'
+related_tools:
+- OpenAI
+- Ollama
+sources:
+- id: source-0
+  title: Outlines README
+  url: https://github.com/dottxt-ai/outlines
+  quotes:
+  - "Outlines guarantees structured outputs during generation \u2014 directly from\
+    \ any LLM."
+  - Works with any model - Same code runs across OpenAI, Ollama, vLLM, and more
+  - 'Simple integration - Just pass your desired output type: `model(prompt, output_type)`'
+  - Guaranteed valid structure - No more parsing headaches or broken JSON
+  - Provider independence - Switch models without changing code
+  - Trusted by NVIDIA, Cohere, HuggingFace, vLLM, etc.
+- id: source-1
+  title: Outlines 1.3.3 Release Notes
+  url: https://github.com/dottxt-ai/outlines/releases/latest
+  quotes:
+  - Support PEP 604 unions (int | str) as output types
+  - 'fix: reject negative counts in exactly/at_least/at_most/between'
+  - 'fix(models): handle nullable object type (list form) in additionalProperties
+    pass'
