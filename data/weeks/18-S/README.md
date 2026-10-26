@@ -1,6 +1,6 @@
 # Summary for 18-S
 
-This week has a total of 85 items.
+This week has a total of 86 items.
 
 
 - **Provisioning Automation Configuration**: 4 items
@@ -60,5 +60,7 @@ This week has a total of 85 items.
 - **Inference Runtime**: 2 items
 
 - **Data Data Architecture**: 1 items
+
+- **Ai Native Infra Orchestration And Scheduling**: 1 items
 
 - **Ai Native Infra Governance Policy And Security**: 1 items

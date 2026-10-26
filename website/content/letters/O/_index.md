@@ -8,7 +8,7 @@ layout: "list"
 
 # Summary for 14-O
 
-This week has a total of 61 items.
+This week has a total of 62 items.
 
 
 - **Provisioning Automation Configuration**: 4 items
@@ -31,7 +31,7 @@ This week has a total of 61 items.
 
 - **App Definition And Development Database**: 3 items
 
-- **App Definition And Development Streaming Messaging**: 1 items
+- **App Definition And Development Streaming Messaging**: 2 items
 
 - **App Definition And Development Application Definition Image Build**: 8 items
 

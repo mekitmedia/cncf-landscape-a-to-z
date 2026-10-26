@@ -8,7 +8,7 @@ layout: "list"
 
 # Summary for 13-N
 
-This week has a total of 30 items.
+This week has a total of 31 items.
 
 
 - **Provisioning Automation Configuration**: 1 items
@@ -29,7 +29,7 @@ This week has a total of 30 items.
 
 - **App Definition And Development Streaming Messaging**: 2 items
 
-- **Platform Certified Kubernetes Installer**: 1 items
+- **Platform Certified Kubernetes Installer**: 2 items
 
 - **Platform Paas Container Service**: 1 items
 
