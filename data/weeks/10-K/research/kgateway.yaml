@@ -1,0 +1,41 @@
+project_name: Kgateway
+homepage_url: https://kgateway.dev/
+repo_url: https://github.com/kgateway-dev/kgateway
+cncf_status: sandbox
+summary: Kgateway is the most mature and widely deployed gateway in the market today. Built on open source and open standards, kgateway is a resilient and performance-oriented control plane that implements the Kubernetes Gateway API for Envoy.
+key_features:
+  - "Powered by Envoy and programmed with the Gateway API, kgateway is a world-leading Cloud Native API Gateway."
+  - "With a control plane that scales from lightweight microgateway deployments between services to massively parallel centralized gateways handling billions of API calls, kgateway brings omni-directional API connectivity to any cloud and any environment."
+  - "Route to backends implemented as microservices, serverless functions or legacy apps. Gradually migrate from legacy code while maintaining existing systems."
+  - "Multiple personas and teams can work with kgateway to express their APIs, with concepts like route delegation and composable policies."
+recent_updates: "v2.4.7 Release Notes: Fixed PreferNetwork and other network-aware traffic distribution splitting traffic across networks when the gateway or backend pods have no topology.istio.io/network label. Bump envoy to v1.38.7."
+use_cases: "Next-Gen API Gateway, Hybrid Application Migration, Complex Tenancy Environments"
+interesting_facts: "The project was launched in 2018 as Gloo by Solo.io and has been production-ready since 2019."
+get_started: |
+  Try installing this release:
+  helm install kgateway-crds oci://cr.kgateway.dev/kgateway-dev/charts/kgateway-crds --version v2.4.7 --namespace kgateway-system --create-namespace
+  helm install kgateway oci://cr.kgateway.dev/kgateway-dev/charts/kgateway --version v2.4.7 --namespace kgateway-system --create-namespace
+related_tools:
+  - Envoy
+  - Kubernetes
+sources:
+  - id: source-0
+    title: Kgateway GitHub README
+    url: https://github.com/kgateway-dev/kgateway
+    quotes:
+      - "Kgateway is the most mature and widely deployed gateway in the market today. Built on open source and open standards, **kgateway is a resilient and performance-oriented control plane that implements the [Kubernetes Gateway API](https://gateway-api.sigs.k8s.io/) for [Envoy](https://github.com/envoyproxy/envoy)**."
+      - "With a control plane that scales from lightweight microgateway deployments between services to massively parallel centralized gateways handling billions of API calls, kgateway brings omni-directional API connectivity to any cloud and any environment."
+      - "Powered by [Envoy](https://www.envoyproxy.io) and programmed with the [Gateway API](https://gateway-api.sigs.k8s.io/), kgateway is a world-leading Cloud Native API Gateway."
+      - "Route to backends implemented as microservices, serverless functions or legacy apps. Gradually migrate from legacy code while maintaining existing systems."
+      - "Multiple personas and teams can work with kgateway to express their APIs, with concepts like route delegation and composable policies."
+      - "Next-Gen API Gateway"
+      - "Hybrid Application Migration"
+      - "Complex Tenancy Environments"
+      - "The project was launched in 2018 as **Gloo** by Solo.io and has been [production-ready since 2019](https://www.solo.io/blog/announcing-gloo-1-0-a-production-ready-envoy-based-api-gateway)."
+  - id: source-1
+    title: Kgateway v2.4.7 Release Notes
+    url: https://github.com/kgateway-dev/kgateway/releases/tag/v2.4.7
+    quotes:
+      - "Fixed `PreferNetwork` and other network-aware traffic distribution splitting traffic across networks when the gateway or backend pods have no `topology.istio.io/network` label."
+      - "bump envoy to v1.38.7"
+      - "Try installing this release:\n```\nhelm install kgateway-crds oci://cr.kgateway.dev/kgateway-dev/charts/kgateway-crds --version v2.4.7 --namespace kgateway-system --create-namespace\nhelm install kgateway oci://cr.kgateway.dev/kgateway-dev/charts/kgateway --version v2.4.7 --namespace kgateway-system --create-namespace\n```"
