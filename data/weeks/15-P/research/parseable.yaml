@@ -1,0 +1,44 @@
+project_name: "Parseable"
+homepage_url: "https://www.parseable.com"
+repo_url: "https://github.com/parseablehq/parseable"
+cncf_status: "non-cncf"
+summary: "Parseable is an open source, columnar data lake platform purpose-built for observability."
+key_features:
+  - "Data lake architecture with stateless compute over object storage"
+  - "Fully featured with alerting, dashboards, anomaly detection, and APM in a single binary"
+  - "Agent ready with support for both AI agents and LLMs"
+  - "OpenTelemetry native with no custom plugins required"
+recent_updates: "Added process CPU limit metric, aborted hot-tier tasks on tenant deletion, added checklist to home API, fixed failed alert evaluation, added tool executer API for external MCP server, and exposed read-only tools."
+use_cases: "Sending logs, metrics, and traces via popular logging agents, OpenTelemetry, Kafka, eBPF, or other integrations, and utilizing native observability features like PromQL & SQL within a single binary."
+interesting_facts: "Parseable operates as a single binary, providing a fully featured observability platform without needing to stitch together multiple tools."
+get_started: |
+  Download and run the Parseable binary on your laptop:
+
+  ```bash
+  curl -fsSL https://logg.ing/install | bash
+  ```
+related_tools:
+  - OpenTelemetry
+  - Kafka
+sources:
+  - id: source-0
+    title: Parseable GitHub Repository
+    url: https://github.com/parseablehq/parseable
+    quotes:
+      - "Parseable is an open source, columnar data lake platform - purpose built for observability."
+      - "Stateless compute over object storage as the backing store. Storage and compute scale independently, so you're not paying for one to grow the other."
+      - "Parseable is feature complete with alerting, dashboards, anomaly detection, APM, and more, all from a single binary without stitching together multiple tools."
+      - "Whether you need to observe your AI agents or use LLMs to analyze your telemetry data, Parseable supports both natively."
+      - "With native OTel support, you can send telemetry data to Parseable without any custom modifications or plugins."
+      - "Send logs, metrics & traces to Parseable via popular logging agents, OpenTelemetry, Kafka, eBPF or other integrations. Use native observability features like alerting, dashboards, anomaly detection, APM, PromQL & SQL - all within a single binary."
+      - "Download and run the Parseable binary on your laptop:"
+  - id: source-1
+    title: Parseable Release v3.2.5
+    url: https://github.com/parseablehq/parseable/releases/tag/v3.2.5
+    quotes:
+      - "abort all hot-tier tasks on tenant deletion by @nikhilsinhaparseable"
+      - "feat: add process CPU limit metric by @pratik50"
+      - "add checklist to home api by @nikhilsinhaparseable"
+      - "fix: failed alert evaluation by @nikhilsinhaparseable"
+      - "tool executer api for external mcp server by @nikhilsinhaparseable"
+      - "expose read only tools by @nikhilsinhaparseable"
