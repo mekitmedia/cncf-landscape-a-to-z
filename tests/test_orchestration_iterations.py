@@ -196,10 +196,11 @@ class TestOrchestrationFlow:
         with patch('src.agentic.flow.get_ready_tasks_batch', side_effect=mock_get_ready_tasks), \
              patch('src.agentic.flow.research_item', new_callable=AsyncMock) as mock_research, \
              patch('src.agentic.flow.write_weekly_post', new_callable=AsyncMock) as mock_write, \
+             patch('src.agentic.runner.load_week_research', new_callable=AsyncMock) as mock_load, \
              patch('src.agentic.flow.save_research', new_callable=AsyncMock), \
              patch('src.agentic.flow.save_post', new_callable=AsyncMock), \
              patch('src.agentic.flow.get_run_logger'):
-            
+
             mock_research.return_value = ResearchOutput(
                 project_name="Test",
                 summary="Test",
@@ -211,14 +212,16 @@ class TestOrchestrationFlow:
                 title="Test",
                 content_markdown="Content"
             )
-            
+
             # Run with max_rounds=10, batch_size=5
             await parallel_orchestration_flow(max_rounds=10, batch_size=5)
-            
+
             # Verify research was called twice (2 tasks)
             assert mock_research.call_count == 2
             # Verify write was called once (1 task)
             assert mock_write.call_count == 1
+            assert mock_load.call_count == 1
+            mock_load.assert_called_with('B')
     
     async def test_multiple_rounds_orchestration(self):
         """Test orchestration across multiple rounds."""
@@ -250,6 +253,7 @@ class TestOrchestrationFlow:
         with patch('src.agentic.flow.get_ready_tasks_batch', side_effect=mock_get_ready_tasks_multi), \
              patch('src.agentic.flow.research_item', new_callable=AsyncMock) as mock_research, \
              patch('src.agentic.flow.write_weekly_post', new_callable=AsyncMock) as mock_write, \
+             patch('src.agentic.runner.load_week_research', new_callable=AsyncMock) as mock_load, \
              patch('src.agentic.flow.save_research', new_callable=AsyncMock), \
              patch('src.agentic.flow.save_post', new_callable=AsyncMock), \
              patch('src.agentic.flow.get_run_logger'):
@@ -279,6 +283,7 @@ class TestOrchestrationFlow:
             # Round 2: 1 write task
             # Total minimum: 3 write calls
             assert mock_write.call_count >= 3
+            assert mock_load.call_count >= 3
     
     async def test_batch_size_enforcement(self):
         """Verify batch_size correctly limits tasks per round."""
@@ -446,6 +451,7 @@ class TestDependencyGraphRespect:
         with patch('src.agentic.flow.get_ready_tasks_batch', side_effect=mock_get_ready_tasks), \
              patch('src.agentic.flow.research_item', new_callable=AsyncMock) as mock_research, \
              patch('src.agentic.flow.write_weekly_post', new_callable=AsyncMock) as mock_write, \
+             patch('src.agentic.runner.load_week_research', new_callable=AsyncMock) as mock_load, \
              patch('src.agentic.flow.save_research', new_callable=AsyncMock), \
              patch('src.agentic.flow.save_post', new_callable=AsyncMock), \
              patch('src.agentic.flow.get_run_logger'):
