@@ -1,0 +1,40 @@
+project_name: M3
+homepage_url: https://m3db.io/
+repo_url: https://github.com/m3db/m3
+cncf_status: non-cncf
+summary: M3 is a distributed time series database (TSDB) and query engine, providing a metrics platform with a Prometheus sidecar and Graphite compatibility.
+key_features:
+  - Distributed TSDB and Query Engine
+  - Prometheus Sidecar integration
+  - Metrics Aggregator
+  - Graphite storage and query engine compatibility
+recent_updates: Minimum Go version is now 1.26. Added M3DB circuit breaker middleware for client host queue writes. M3Aggregator supports ingestion routing policies.
+use_cases: "Storing and querying large volumes of time series metrics, operating as a Prometheus sidecar for long-term storage, aggregating metrics for distributed applications, and serving as a backend for Graphite-compatible platforms."
+interesting_facts: M3 provides a metrics platform that combines a distributed TSDB, aggregator, and query engine into a single monorepo.
+get_started: |
+  The simplest and quickest way to try M3 is to use Docker:
+
+  docker run -p 7201:7201 -p 7203:7203 --name m3db -v $(pwd)/m3db_data:/var/lib/m3db quay.io/m3db/m3dbnode:v1.0.0
+latest_release:
+  version: "v1.6.0"
+  date: "2026-09-25T21:06:10Z"
+  url: "https://github.com/m3db/m3/releases/tag/v1.6.0"
+ecosystem_perspectives: M3 offers a scalable, robust alternative to standard Prometheus setups by handling long-term metric storage and complex aggregation at scale.
+related_tools:
+  - Prometheus
+  - Graphite
+sources:
+  - id: source-0
+    title: M3 GitHub Repository
+    url: https://github.com/m3db/m3
+    quotes:
+      - "M3 monorepo - Distributed TSDB, Aggregator and Query Engine, Prometheus Sidecar, Graphite Compatible, Metrics Platform"
+      - "Distributed TSDB and Query Engine, Prometheus Sidecar, Metrics Aggregator, and more such as Graphite storage and query engine."
+      - "The simplest and quickest way to try M3 is to use Docker."
+  - id: source-1
+    title: M3 v1.6.0 Release Notes
+    url: https://github.com/m3db/m3/releases/tag/v1.6.0
+    quotes:
+      - "Minimum Go version is now 1.26"
+      - "M3Aggregator: Support ingestion routing policies, with a routing policy filter in M3Msg and dynamic configuration of consumer service filters via topic updates"
+      - "M3DB: Circuit breaker middleware for client host queue writes, tripping only on timeout errors"
