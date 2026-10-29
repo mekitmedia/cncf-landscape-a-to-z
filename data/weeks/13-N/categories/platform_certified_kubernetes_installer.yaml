@@ -10,3 +10,13 @@
   name: NKD - NestOS Kubernetes Deployer
   project: null
   repo_url: https://github.com/openeuler-mirror/nestos-kubernetes-deployer
+- crunchbase: https://www.crunchbase.com/organization/nvidia
+  description: NVIDIA Kubernetes Engine (NVKE) is open source software that AI cloud
+    operators install on their own infrastructure to create and run fleets of GPU-accelerated
+    clusters on upstream Kubernetes.
+  featured: true
+  homepage_url: https://docs.nvidia.com/dsx
+  logo: nvidia-member.svg
+  name: NVIDIA Kubernetes Engine (NVKE)
+  project: null
+  repo_url: https://github.com/dsx-ai-factory/nvke
