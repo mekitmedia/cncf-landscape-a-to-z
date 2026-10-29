@@ -1,0 +1,48 @@
+project_name: Browser Use
+homepage_url: https://browser-use.com/
+repo_url: https://github.com/browser-use/browser-use
+cncf_status: non-cncf
+summary: Browser Use is an open-source browser agent that enables AI models to navigate
+  the web like a human does.
+key_features:
+- Navigate the web like a human does.
+- Run it locally with any LLM, or on Browser Use Cloud.
+- Rerun a task without calling the model on every step.
+- Use custom tools with the agent.
+recent_updates: Includes the OpenAI browser-tool driver, fixes integration issues,
+  handles temporary empty Cloud tab URLs, keeps screenshots and pointer coordinates
+  aligned on scaled displays, and provides 18 default browser tools.
+use_cases: Automate browser tasks, book appointments by navigating forms and handling
+  CAPTCHAs, or control cloud browsers via the CLI or Python library.
+interesting_facts: Browser Use scores 90.5% on Stealth Bench V2 and provides cloud
+  stealth browsers designed to reduce bot detection and CAPTCHA challenges.
+get_started: Install or upgrade browser-use to the latest stable version with uv using
+  Python 3.12, run `browser-use skill install` to register the skill, and connect
+  it to your browser.
+related_tools:
+- OpenAI
+- Anthropic
+sources:
+- id: source-0
+  title: Browser Use README
+  url: https://github.com/browser-use/browser-use
+  quotes:
+  - Navigate the web like a human does.
+  - Run it locally with any LLM, or on Browser Use Cloud
+  - Can I rerun a task without calling the model on every step?
+  - Can I use custom tools with the agent?
+  - Install or upgrade browser-use to the latest stable version with uv using Python
+    3.12, run `browser-use skill install` to register the skill, and connect it to
+    my browser.
+  - top score (90.5%) on Stealth Bench V2
+  - provides stealth browsers and proxies designed to reduce bot detection and CAPTCHA
+    challenges.
+- id: source-1
+  title: Browser Use Release Notes
+  url: https://github.com/browser-use/browser-use/releases/latest
+  quotes:
+  - This release includes the OpenAI browser-tool driver and fixes two integration
+    issues.
+  - Handle temporary empty Cloud tab URLs during navigation.
+  - Keep screenshots, crops, and pointer coordinates aligned on scaled displays.
+  - Provide 18 default browser tools

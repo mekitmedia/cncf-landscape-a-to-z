@@ -1,0 +1,62 @@
+project_name: KubeAdmiral
+homepage_url: https://github.com/kubewharf/kubeadmiral
+repo_url: https://github.com/kubewharf/kubeadmiral
+cncf_status: non-cncf
+summary: KubeAdmiral is a multi-cluster management system for Kubernetes, developed
+  from Kubernetes Federation v2, extending its API for native compatibility and enhanced
+  resource management.
+key_features:
+- A new scheduling framework with a rich set of scheduling plugins.
+- Override policies.
+- Automatic propagation of dependencies with follower scheduling.
+- Status aggregation of member cluster resources.
+- Scalability, stability and user experience enhancements
+recent_updates: Released v1.0.0, a production-ready version with unified management
+  of multi-clusters, multi-cluster application propagation, scheduling framework enhancement,
+  unified federated type, failover, and status collection for member cluster resources.
+use_cases: Managing Kubernetes resources across multiple clusters, migrating from
+  single-cluster to multi-cluster setups, and implementing custom override policies
+  and automatic failover.
+interesting_facts: KubeAdmiral is a continuation of Kubernetes Federation v2 and refers
+  to Karmada for some of its architecture and API design.
+get_started: 'If you wish to see how KubeAdmiral works, you can easily start a cluster
+  that includes the KubeAdmiral control plane on your local machine.
+
+
+  ```console
+
+  $ git clone https://github.com/kubewharf/kubeadmiral
+
+  $ cd kubeadmiral
+
+  $ make local-up
+
+  ```'
+related_tools:
+- Kubernetes
+- Karmada
+sources:
+- id: source-0
+  title: KubeAdmiral GitHub Repository
+  url: https://github.com/kubewharf/kubeadmiral
+  quotes:
+  - KubeAdmiral is a multi-cluster management system for Kubernetes, developed from
+    Kubernetes Federation v2.
+  - KubeAdmiral extends the Kubernetes Federation v2 API, providing compatibility
+    with the Kubernetes native API and more powerful resource management capabilities.
+  - '- A new scheduling framework with a rich set of scheduling plugins.'
+  - '- Override policies.'
+  - '- Automatic propagation of dependencies with follower scheduling.'
+  - '- Status aggregation of member cluster resources.'
+  - '- Scalability, stability and user experience enhancements'
+  - KubeAdmiral is a continuation of Kubernetes Federation v2
+  - We also refer to Karmada for some of our architecture and API design
+- id: source-1
+  title: KubeAdmiral Quickstart
+  url: https://raw.githubusercontent.com/kubewharf/kubeadmiral/main/docs/quickstart.md
+  quotes:
+  - If you wish to see how `KubeAdmiral` works, you can easily start a cluster that
+    includes the `KubeAdmiral` control plane on your local machine.
+  - $ git clone https://github.com/kubewharf/kubeadmiral
+  - $ cd kubeadmiral
+  - $ make local-up

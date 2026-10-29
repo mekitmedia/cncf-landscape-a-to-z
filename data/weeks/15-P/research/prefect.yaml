@@ -1,0 +1,43 @@
+project_name: Prefect
+homepage_url: https://docs.prefect.io/
+repo_url: https://github.com/PrefectHQ/prefect
+cncf_status: non-cncf
+summary: Prefect is a workflow orchestration framework for building resilient, dynamic data pipelines in Python, allowing teams to confidently automate data processes.
+key_features:
+  - Scheduling, caching, retries, and event-based automations
+  - Prefect flow and task decorators
+  - Self-hosted server or managed Prefect Cloud dashboard
+recent_updates: Added Python 3.15 support, dropped Python 3.10 support, and deprecated Pendulum datetime behavior on Python 3.11-3.12.
+use_cases: Building resilient data pipelines that react to the world around them and recover from unexpected changes, elevating simple Python scripts into production workflows.
+interesting_facts: Prefect requires Python 3.11+ and provides simple Python decorators to orchestrate and observe your workflow.
+get_started: |
+  Prefect requires Python 3.11+. To install the latest version, run:
+
+  pip install -U prefect
+
+  Then create and run a Python file that uses Prefect `flow` and `task` decorators.
+related_tools:
+  - Apache Airflow
+  - Dagster
+  - Luigi
+sources:
+  - id: source-0
+    title: Prefect GitHub Repository
+    url: https://github.com/PrefectHQ/prefect
+    quotes:
+      - "Prefect is a workflow orchestration framework for building data pipelines in Python."
+      - "With Prefect, you can build resilient, dynamic data pipelines that react to the world around them and recover from unexpected changes."
+      - "With just a few lines of code, data teams can confidently automate any data process with features such as scheduling, caching, retries, and event-based automations."
+      - "Prefect requires Python 3.11+. To [install the latest version of Prefect](https://docs.prefect.io/v3/get-started/install), run one of the following commands:
+
+```bash
+pip install -U prefect
+```"
+      - "Then create and run a Python file that uses Prefect `flow` and `task` decorators to orchestrate and observe your workflow"
+  - id: source-1
+    title: Prefect v3.9.0 Release Notes
+    url: https://github.com/PrefectHQ/prefect/releases/tag/3.9.0
+    quotes:
+      - "Drop Python 3.10 support"
+      - "Add Python 3.15 support"
+      - "Deprecate Pendulum datetime behavior on Python 3.11–3.12"

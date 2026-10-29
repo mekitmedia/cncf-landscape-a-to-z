@@ -22,3 +22,7 @@
 ## 2025-03-05 - Hugo Google Analytics
 **Learning:** Google Analytics snippet needs to be manually added to the <head> block in Hugo layouts using `{{ template "_internal/google_analytics.html" . }}`. It is not injected automatically by default. Also, Hugo configuration format changed from using `googleAnalyticsID` under `[params]` to `[services.googleAnalytics] id = '...'`.
 **Action:** Always inject the google analytics partial manually to `baseof.html` or `head.html` and format the `hugo.toml` according to the `[services.googleAnalytics]` spec.
+
+## 2026-10-22 - Replacing data-lucide for essential navigation links
+**Learning:** Using JS dependent `data-lucide` rendering can lead to Flash of Unstyled Content (FOUC) and missing icons before JS initializes, particularly problematic for GitHub icons in standard template navigation.
+**Action:** When adding GitHub or brand icons to key navigation, use inline `<svg>` elements rather than `<i data-lucide="...">` tags to guarantee immediate visibility on page load.

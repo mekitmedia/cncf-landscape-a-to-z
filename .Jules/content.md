@@ -9,3 +9,7 @@ This file records insights, learnings, and canonical actions discovered during C
 ## 2026-09-20 - Direct Citation Requirement
 **Learning:** LLMs tend to generate paraphrased summaries rather than direct quotes, which fails strict source grounding verification.
 **Action:** Every assertion in `ResearchOutput` must have an exact `direct_quote` verified against the raw fetched repository/website content with an explicit source URL.
+
+## 2026-10-27 - Tracking YAML State Safely
+**Learning:** Avoid broad regex replacement when fixing one task's state. Doing so modifies unrelated tasks and breaks their timestamps or state in `tracker.yaml`.
+**Action:** Target only the specific item context with accurate string manipulation to advance a task from pending to completed. Ensure timestamps use exact ISO 8601 UTC formats when output file names are assigned.

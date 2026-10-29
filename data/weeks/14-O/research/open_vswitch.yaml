@@ -1,0 +1,57 @@
+project_name: Open vSwitch
+homepage_url: https://www.openvswitch.org/
+repo_url: https://github.com/openvswitch/ovs
+cncf_status: non-cncf
+summary: An open source multilayer software switch designed to be used as a production-quality
+  virtual switch in virtual machine environments, supporting multiple Linux-based
+  virtualization technologies like KVM and VirtualBox.
+key_features:
+  - Support for standard 802.1Q VLAN model with trunk and access ports
+  - Visibility and monitoring with NetFlow, sFlow, and port mirroring
+  - Advanced tunneling capabilities including Geneve, GRE, VXLAN, ERSPAN, GTP-U, SRv6,
+    and Bareudp
+  - High-performance data path utilizing a Linux kernel module
+recent_updates: The project is actively maintained, with recent releases addressing
+  performance, bug fixes, and providing new features (latest version is v4.0.0).
+use_cases: Functions as a virtual switch in VM environments, exposing standard control
+  and visibility interfaces to the virtual networking layer, while supporting distribution
+  across multiple physical servers.
+interesting_facts: Open vSwitch can be run entirely in userspace without needing a
+  kernel module, which can make it easier to port to other environments.
+get_started: To install on Linux or FreeBSD, refer to the installation guide (`Documentation/intro/install/general.rst`)
+  in the project repository.
+related_tools: []
+sources:
+  - url: https://github.com/openvswitch/ovs
+    quotes:
+      - 'Open vSwitch is a multilayer software switch licensed under the open source
+
+        Apache 2 license.'
+      - 'Our goal is to implement a production quality switch
+
+        platform that supports standard management interfaces and opens the forwarding
+
+        functions to programmatic extension and control.'
+      - Open vSwitch is well suited to function as a virtual switch in VM environments.
+      - 'In addition to exposing standard control and visibility interfaces to the
+
+        virtual networking layer, it was designed to support distribution across
+
+        multiple physical servers.'
+      - 'Open vSwitch supports multiple Linux-based
+
+        virtualization technologies including KVM, and VirtualBox.'
+      - '- Standard 802.1Q VLAN model with trunk and access ports'
+      - '- NetFlow, sFlow(R), and mirroring for increased visibility'
+      - '- Geneve, GRE, VXLAN, ERSPAN, GTP-U, SRv6, and Bareudp tunneling'
+      - '- High-performance forwarding using a Linux kernel module'
+      - 'Open vSwitch can also operate entirely in userspace without assistance from
+
+        a kernel module.'
+      - 'This userspace implementation should be easier to port than
+
+        the kernel-based switch.'
+      - 'To install Open vSwitch on a regular Linux or FreeBSD host, please read the
+
+        `installation guide <Documentation/intro/install/general.rst>`__.'
+    id: readme
