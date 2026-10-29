@@ -1,3 +1,12 @@
+- description: Distributed KV cache storage and high-performance data transfer for
+    cloud-native LLM inference and reinforcement learning. Mooncake integrates with
+    vLLM and SGLang to support disaggregated serving and cross-instance cache reuse.
+  featured: true
+  homepage_url: https://kvcache-ai.github.io/Mooncake/
+  logo: mooncake.svg
+  name: Mooncake
+  project: null
+  repo_url: https://github.com/kvcache-ai/Mooncake
 - crunchbase: https://www.crunchbase.com/organization/saglabs-sa
   featured: true
   homepage_url: https://moosefs.com/

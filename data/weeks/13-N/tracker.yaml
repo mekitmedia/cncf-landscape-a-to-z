@@ -42,7 +42,7 @@ items:
       research:
         status: completed
         started_at: null
-        completed_at: 2026-10-13T18:48:53Z
+        completed_at: '2026-10-13T18:48:53Z'
         output_file: data/weeks/13-N/research/nginx.yaml
         error_message: null
         retry_count: 0
@@ -50,7 +50,7 @@ items:
       content:
         status: completed
         started_at: null
-        completed_at: 2026-10-13T18:48:53Z
+        completed_at: '2026-10-13T18:48:53Z'
         output_file: website/content/tools/nginx.md
         error_message: null
         retry_count: 0
@@ -155,16 +155,16 @@ items:
     tasks:
       research:
         status: completed
-        started_at: 2026-09-27T02:12:06.812901+00:00
-        completed_at: 2026-09-27T02:12:06.812901+00:00
+        started_at: '2026-09-27T02:12:06.812901Z'
+        completed_at: '2026-09-27T02:12:06.812901Z'
         output_file: data/weeks/13-N/research/neo4j.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
         status: completed
-        started_at: 2026-09-27T02:12:06.812901+00:00
-        completed_at: 2026-09-27T02:12:06.812901+00:00
+        started_at: '2026-09-27T02:12:06.812901Z'
+        completed_at: '2026-09-27T02:12:06.812901Z'
         output_file: website/content/tools/neo4j.md
         error_message: null
         retry_count: 0
@@ -359,7 +359,7 @@ items:
         error_message: null
         retry_count: 0
         agent: writer
-    removed: false
+    removed: true
   No Code:
     tasks:
       research:
@@ -569,6 +569,44 @@ items:
         retry_count: 0
         agent: writer
     removed: false
+  NVIDIA Kubernetes Engine (NVKE):
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  Nvidia NeMo:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
 week_tasks:
   tasks:
     blog_post:
@@ -582,5 +620,5 @@ week_tasks:
 metadata:
   created_at: '2026-02-01T19:37:47.576744'
   week_letter: N
-  last_synced: '2026-06-05T00:01:29.049230'
-  etl_item_count: 30
+  last_synced: '2026-10-26T02:13:20.855731'
+  etl_item_count: 31

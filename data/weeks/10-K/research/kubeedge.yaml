@@ -1,0 +1,42 @@
+project_name: "KubeEdge"
+homepage_url: "https://kubeedge.io/en/"
+repo_url: "https://github.com/kubeedge/kubeedge"
+cncf_status: "graduated"
+summary: "KubeEdge is a graduated CNCF project built upon Kubernetes that extends native containerized application orchestration and device management to hosts at the Edge. It consists of a cloud part and an edge part."
+key_features:
+  - "Kubernetes-native support for managing edge applications and devices with fully compatible APIs."
+recent_updates: "v1.18 introduces Authorization Enhancement for CloudCore Websocket API."
+use_cases: "Deploying complicated machine learning, image recognition, and event processing applications to the Edge where data is produced, improving responsiveness and data privacy."
+interesting_facts: "KubeEdge is a graduation-level hosted project by the Cloud Native Computing Foundation (CNCF)."
+get_started: "Get started with the official documentation at https://kubeedge.io/en/docs."
+related_tools:
+  - "CloudHub"
+sources:
+  - id: "kubeedge_summary"
+    url: "https://github.com/kubeedge/kubeedge"
+    quotes:
+      - "KubeEdge is built upon Kubernetes and extends native containerized application orchestration and device management to hosts at the Edge."
+  - id: "kubeedge_features"
+    url: "https://github.com/kubeedge/kubeedge"
+    quotes:
+      - "- **Kubernetes-native support**: Managing edge applications and edge devices in the cloud with fully compatible Kubernetes APIs."
+  - id: "kubeedge_use_cases"
+    url: "https://github.com/kubeedge/kubeedge"
+    quotes:
+      - "With KubeEdge it is easy to get and deploy existing complicated machine learning, image recognition, event processing and other high level applications to the Edge."
+  - id: "kubeedge_facts"
+    url: "https://github.com/kubeedge/kubeedge"
+    quotes:
+      - "KubeEdge is a graduation-level hosted project by the [Cloud Native Computing Foundation](https://cncf.io) (CNCF)."
+  - id: "kubeedge_get_started"
+    url: "https://github.com/kubeedge/kubeedge"
+    quotes:
+      - "Get started with this [doc](https://kubeedge.io/en/docs)."
+  - id: "kubeedge_updates"
+    url: "https://github.com/kubeedge/kubeedge/blob/master/CHANGELOG/CHANGELOG-1.18.md"
+    quotes:
+      - "### Authorization Enhancement for CloudCore Websocket API"
+  - id: "kubeedge_tools"
+    url: "https://github.com/kubeedge/kubeedge#architecture"
+    quotes:
+      - "- [CloudHub](https://kubeedge.io/en/docs/architecture/cloud/cloudhub): a web socket server responsible for watching changes at the cloud side, caching and sending messages to EdgeHub."

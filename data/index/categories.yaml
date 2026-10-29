@@ -97,6 +97,7 @@
     - EJBCA Community
     - external-secrets
     - Falco
+    - FerrisKey
     - FOSSA
     - Goldilocks
     - Grafeas
@@ -187,6 +188,7 @@
     - Kanister
     - LINSTOR
     - Longhorn
+    - Mooncake
     - MooseFS
     - NoKV
     - OpenEBS
@@ -492,6 +494,7 @@
     - Memphis
     - NATS
     - Numaflow
+    - OLake
     - OpenMessaging
     - Pachyderm
     - Pulsar
@@ -547,6 +550,7 @@
     - Microcks
     - mirrord
     - ModelPack
+    - llmman
     - Monokle
     - Okteto
     - Open Application Model
@@ -665,6 +669,7 @@
     - kwok
     - minikube
     - NKD - NestOS Kubernetes Deployer
+    - NVIDIA Kubernetes Engine (NVKE)
     - Sidero Talos Linux
     path: platform_certified_kubernetes_installer
     subcategory: Certified Kubernetes - Installer
@@ -981,7 +986,7 @@
     - wasm-bindgen
     - wasm-pack
     - wasm2c
-    - Wit-binddgen
+    - Wit-bindgen
     - Witc
     path: wasm_tooling
     subcategory: Tooling
@@ -1190,7 +1195,8 @@
     - Kuberay
     - Kueue
     - LeaderWorkerSet
-    - Nivida NeMo
+    - Nvidia NeMo
+    - SandboxSched
     - Topograph
     - Yunikorn
     path: ai_native_infra_orchestration_and_scheduling
@@ -1227,7 +1233,7 @@
     - Kyverno-JSON
     - OPA/Gatekeeper
     - OPEA
-    - Stacklock Minder
+    - Stacklok Minder
     path: ai_native_infra_governance_policy_and_security
     subcategory: Governance, Policy and Security
   - items:
