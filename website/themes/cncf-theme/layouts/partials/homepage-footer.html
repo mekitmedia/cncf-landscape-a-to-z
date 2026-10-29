@@ -7,9 +7,9 @@
             <i data-lucide="chevron-left" class="w-5 h-5"></i> Previous Letter
         </a>
     {{ else }}
-        <a aria-disabled="true" title="No previous letter" class="flex items-center gap-2 px-4 py-2 text-slate-300 transition-colors font-semibold cursor-not-allowed">
+        <span aria-hidden="true" title="No previous letter" class="flex items-center gap-2 px-4 py-2 text-slate-300 transition-colors font-semibold cursor-not-allowed">
             <i data-lucide="chevron-left" class="w-5 h-5"></i> Previous Letter
-        </a>
+        </span>
     {{ end }}
 
     <div class="text-slate-400 text-sm font-medium">
@@ -17,7 +17,7 @@
     </div>
 
     {{/* Next button is always disabled on homepage as it shows the current week */}}
-    <a aria-disabled="true" class="flex items-center gap-2 px-4 py-2 text-slate-300 transition-colors font-semibold cursor-not-allowed" title="The next letter is still locked! Check back in the coming weeks.">
+    <span aria-hidden="true" class="flex items-center gap-2 px-4 py-2 text-slate-300 transition-colors font-semibold cursor-not-allowed" title="The next letter is still locked! Check back in the coming weeks.">
         Next Letter <i data-lucide="chevron-right" class="w-5 h-5"></i>
-    </a>
+    </span>
 </div>
