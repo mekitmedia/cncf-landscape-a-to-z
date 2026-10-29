@@ -20,3 +20,7 @@ This file records insights, learnings, and canonical actions discovered during e
 ## 2026-10-22 - Gather Research Results for Blog Post Tasks
 **Learning:** In the parallel orchestration flow (`src/agentic/flow.py`), the `writer` tasks need the research results of the week to draft the weekly post. Passing an empty list `[]` to `write_weekly_post` creates a blog post with no research content.
 **Action:** Use `load_week_research(task.week_letter)` from `src.agentic.runner` to gather research results before drafting the weekly post.
+
+## 2026-10-30 - Fix Ephemeral API Server Timeouts in Pytest
+**Learning:** Pytest fails with Ephemeral API Server Timeouts and 'I/O operation on closed file' when using Prefect.
+**Action:** Use `prefect_test_harness` context manager as a session-scoped fixture in `tests/conftest.py` and set `PREFECT_TEST_MODE=1` and `PREFECT_LOGGING_TO_API_WHEN_MISSING_FLOW=ignore` via `pytest-env` in `pyproject.toml` when testing Prefect tasks.
