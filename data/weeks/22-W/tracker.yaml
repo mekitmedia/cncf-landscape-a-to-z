@@ -40,18 +40,18 @@ items:
   WASI NN for OpenVINO:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: 2026-10-28T17:37:20.293789+00:00
+        completed_at: 2026-10-28T17:37:20.293789+00:00
+        output_file: data/weeks/22-W/research/wasi_nn_for_openvino.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: 2026-10-28T17:37:20.293789+00:00
+        completed_at: 2026-10-28T17:37:20.293789+00:00
+        output_file: website/content/tools/wasi_nn_for_openvino.md
         error_message: null
         retry_count: 0
         agent: writer
