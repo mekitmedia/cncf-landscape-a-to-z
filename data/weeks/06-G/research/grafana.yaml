@@ -10,11 +10,15 @@ key_features:
   - "Seamless transition between metrics and logs while preserving label context"
   - "Visual alerting engine with notifications for external systems like Slack and PagerDuty"
   - "Ability to combine multiple different data sources within a single graph"
-recent_updates: "Grafana 13.2.4 was released on October 13, 2026."
+recent_updates: "Version 13.2.4 includes security fixes and alerting enhancements, including CVE remediation and stripping sensitive headers from oauth2 cross-host redirects."
 use_cases: "Visualizing logs, metrics, and traces, creating dynamic monitoring dashboards, analyzing telemetry data, and setting up alerting."
 interesting_facts: "Users can evaluate the platform online via a live interactive sandbox environment before performing local installation."
 get_started: "Visit the official download page to get the binaries or follow the installation guides."
 related_tools: []
+latest_release:
+  version: "v13.2.4"
+  date: "2026-10-13T11:41:03Z"
+  url: "https://github.com/grafana/grafana/releases/tag/v13.2.4"
 sources:
   - id: "source-0"
     title: "Grafana README"
@@ -29,3 +33,12 @@ sources:
       - "Mix different data sources in the same graph"
       - "play.grafana.org"
       - "https://grafana.com/get"
+  - id: "source-1"
+    title: "Grafana v13.2.4 Release Notes"
+    url: "https://github.com/grafana/grafana/releases/tag/v13.2.4"
+    quotes:
+      - "Security: Fix CVE-2026-15577"
+      - "Security: Fix CVE-2026-33374"
+      - "Security: Fix CVE-2026-93294"
+      - "Security: Fix CVE-2026-95502"
+      - "Alerting: Strip sensitive headers from oauth2 cross-host redirects"
