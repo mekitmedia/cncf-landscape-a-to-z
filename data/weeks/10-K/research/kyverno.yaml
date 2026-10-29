@@ -1,0 +1,42 @@
+project_name: Kyverno
+homepage_url: https://kyverno.io/
+repo_url: https://github.com/kyverno/kyverno
+cncf_status: graduated
+summary: "Kyverno is a Kubernetes-native policy engine that validates, mutates, and generates resources using admission controls and background scans."
+key_features:
+  - "Kubernetes-native policy engine"
+  - "Validate, mutate, generate, and clean up resources"
+  - "Verify container image signatures for supply chain security"
+  - "Operate with kubectl, kustomize, and Git"
+recent_updates: "Kyverno v1.19.2 addresses 24 published GitHub Security Advisories, including script-injection hardening and API path validation."
+use_cases: "Enforcing Pod Security Standards, validating container image signatures, auto-labeling workloads, and auto-injecting config maps or secrets."
+interesting_facts: "Kyverno uses policy-as-code and does not replace Kubernetes built-in policy controls but complements them with features like comprehensive reporting."
+get_started: "Kyverno installation and reference documentation is available at kyverno.io. You can start with the Quick Start guide or try it in the Kyverno Playground."
+latest_release:
+  version: "v1.19.2"
+  date: "2026-10-20T23:50:19Z"
+  url: "https://github.com/kyverno/kyverno/releases/tag/v1.19.2"
+ecosystem_perspectives: "Kyverno is designed for platform engineering teams to enable security, compliance, automation, and governance without a new language requirement."
+related_tools:
+  - "Kubernetes"
+  - "Kyverno-JSON"
+sources:
+  - id: source-0
+    title: Kyverno GitHub Repository
+    url: https://github.com/kyverno/kyverno
+    quotes:
+      - "Kyverno is a Kubernetes-native policy engine designed for platform engineering teams. It enables security, compliance, automation, and governance through policy-as-code. Kyverno can:"
+      - "- Validate, mutate, generate, and clean up resources using Kubernetes admission controls and background scans."
+      - "- Verify container image signatures for supply chain security."
+      - "- Operate with tools you already use — like `kubectl`, `kustomize`, and Git."
+      - "Enforce Pod Security Standards (PSS)"
+      - "Validate container image sources and signatures"
+      - "Auto-label workloads"
+      - "Auto-inject config maps or secrets"
+  - id: source-1
+    title: Kyverno v1.19.2 Release Notes
+    url: https://github.com/kyverno/kyverno/releases/tag/v1.19.2
+    quotes:
+      - "Kyverno v1.19.2 addresses 24 published GitHub Security Advisories: 9 Critical, 14 High, and 1 Moderate. The fixes include:"
+      - " - Cherry-pick workflow script-injection hardening"
+      - " - API path validation and namespace confinement"

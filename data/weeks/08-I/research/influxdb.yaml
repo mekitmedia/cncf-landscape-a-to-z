@@ -1,0 +1,47 @@
+project_name: Influxdb
+homepage_url: https://influxdata.com
+repo_url: https://github.com/influxdata/influxdb
+cncf_status: non-cncf
+summary: InfluxDB is a scalable, open-source time series database designed for real-time events, analytics, and monitoring, powered by Apache Arrow, DataFusion, and Parquet.
+key_features:
+  - Diskless architecture with object storage support (or local disk with no dependencies)
+  - Fast query response times (under 10ms for last-value queries, or 30ms for distinct metadata)
+  - Embedded Python VM for plugins and triggers
+  - Parquet file persistence
+  - Compatibility with InfluxDB 1.x and 2.x write APIs
+  - SQL query engine with support for FlightSQL and HTTP query API
+recent_updates: "v3.12.1 brings faster startup after large file removals, a fix for catalog loading failures after upgrades, and ensures acknowledged writes are not lost after forced snapshots and restarts."
+use_cases: "Monitoring sensor data, server monitoring, application performance monitoring, network monitoring, financial market and trading analytics, and behavioral analytics."
+interesting_facts: "InfluxDB 3 Core utilizes a diskless architecture and is built using Rust, Apache Arrow, DataFusion, and persists data in Apache Parquet formats."
+get_started: |
+  Start InfluxDB using Docker:
+
+  docker run -p 8086:8086 -v influxdb2:/var/lib/influxdb2 influxdb:2.0
+related_tools:
+  - Prometheus
+  - Grafana
+sources:
+  - id: source-0
+    title: InfluxDB GitHub Repository
+    url: https://github.com/influxdata/influxdb
+    quotes:
+      - "Open source time series database for real-time events, analytics, and monitoring--powered by Apache Arrow, DataFusion, and Parquet."
+      - "Diskless architecture with object storage support (or local disk with no dependencies)"
+      - "Fast query response times (under 10ms for last-value queries, or 30ms for distinct metadata)"
+      - "Embedded Python VM for plugins and triggers"
+      - "Parquet file persistence"
+      - "Compatibility with InfluxDB 1.x and 2.x write APIs"
+      - "SQL query engine with support for FlightSQL and HTTP query API"
+      - "Monitoring sensor data"
+      - "Server monitoring"
+      - "Application performance monitoring"
+      - "Network monitoring"
+      - "Financial market and trading analytics"
+      - "Behavioral analytics"
+  - id: source-1
+    title: InfluxDB Release v3.12.1
+    url: https://github.com/influxdata/influxdb/releases/tag/v3.12.1
+    quotes:
+      - "Faster startup after large file removals: At startup, the files that snapshots and checkpoints mark as removed are now dropped from each table's file list in one pass."
+      - "Catalog failed to load after upgrading to v3.12.0: The server now loads a catalog in which a table has more than one field family with the same automatically generated name."
+      - "Acknowledged writes lost after a forced snapshot and a restart: WAL flushes now run one at a time."

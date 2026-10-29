@@ -1,0 +1,27 @@
+project_name: "KubeLinter"
+homepage_url: "https://docs.kubelinter.io/"
+repo_url: "https://github.com/stackrox/kube-linter"
+cncf_status: "non-cncf"
+summary: "KubeLinter analyzes Kubernetes YAML files, Helm charts, and Kustomize manifests, and checks them against a variety of best practices, with a focus on production readiness and security."
+key_features:
+  - "Analyzes Kubernetes YAML files, Helm charts, and Kustomize manifests"
+  - "Runs sensible default checks for security misconfigurations and DevOps best practices"
+  - "Configurable to enable, disable, and create custom checks depending on organizational policies"
+  - "Reports recommendations for how to resolve potential issues when a lint check fails"
+  - "Supports generating multiple output formats (e.g., SARIF, JSON) in a single run"
+recent_updates: "Supports generating multiple output formats in a single run. Created by StackRox and powered by Red Hat."
+use_cases: "Teams checking early and often for security misconfigurations and DevOps best practices in their Kubernetes deployments."
+interesting_facts: "KubeLinter returns a non-zero exit code when a lint check fails. It was created by StackRox and is now powered by Red Hat."
+get_started: "Run `kube-linter lint /path/to/your/yaml.yaml` to test your YAML files."
+related_tools: []
+sources:
+  - id: "src_readme"
+    title: "KubeLinter README"
+    url: "https://github.com/stackrox/kube-linter"
+    source_type: "github_readme"
+    quotes:
+      - "KubeLinter analyzes Kubernetes YAML files, Helm charts, and Kustomize manifests, and checks them against a variety of best practices, with a focus on production readiness and security."
+      - "KubeLinter runs sensible default checks, designed to give you useful information about your Kubernetes YAML files, Helm charts, and Kustomize manifests."
+      - "KubeLinter is configurable, so you can enable and disable checks, as well as create your own custom checks, depending on the policies you want to follow within your organization."
+      - "When a lint check fails, KubeLinter reports recommendations for how to resolve any potential issues and returns a non-zero exit code."
+      - "KubeLinter supports generating multiple output formats in a single run. This is useful for generating both human-readable and machine-readable reports simultaneously"
