@@ -1,0 +1,70 @@
+project_name: Membrane
+homepage_url: https://www.membrane-api.io/
+repo_url: https://github.com/membrane/api-gateway
+cncf_status: non-cncf
+summary: Membrane is an open-source API gateway that speaks both REST and SOAP. It
+  allows you to deploy APIs directly from OpenAPI, secure them with OAuth2 and JWT,
+  or turn legacy SOAP web services into JSON APIs with a few lines of YAML. It is
+  lightweight and easy to run as a single container or Java application, requiring
+  no database.
+key_features:
+- 'Native OpenAPI Support: Deploy APIs from OpenAPI descriptions and use OpenAPI for
+  message validation (supports 3.0, 3.1, and 3.2).'
+- 'Legacy XML and Web Services Integration: Expose existing SOAP web services as JSON
+  APIs without changing the backend using wsdl2openapi.'
+- 'Protect APIs and Legacy Services: Validate messages against OpenAPI, JSON Schema,
+  XSD, and WSDL. Secure APIs with API keys, OAuth2, JWT, and protect SOAP services
+  with WS-Security.'
+- 'API Orchestration: Combine calls to multiple APIs in a single flow, process collections
+  with loops, and control execution with conditions.'
+- 'Simple Configuration, Flexible Extensions: Configure with YAML, and for custom
+  logic, use Groovy scripts or expressions with SpEL, JSONPath, and XPath.'
+recent_updates: Membrane recently achieved high throughput benchmarks, reaching 216,000
+  requests/sec for plain proxying and 167,000 requests/sec with OpenAPI validation
+  enabled on a 16-vCPU Azure VM.
+use_cases: Membrane can be used for proxying APIs, routing, rate limiting, load balancing,
+  validating OpenAPI payloads, performing manual SOAP to REST conversion, acting as
+  an OAuth2 authorization server, and protecting XML, JSON, JSON-RPC, and GraphQL
+  payloads.
+interesting_facts: Membrane can act as its own OAuth 2.0 authorization server and
+  provides a free 'API Gateway Handbook' eBook.
+get_started: 'Start Membrane via Docker: `docker run --rm -it -p 2000:2000 predic8/membrane`.
+  To proxy your first API, create an `apis.yaml` and mount it: `docker run --rm -p
+  2000:2000 -v "$(pwd)/apis.yaml:/opt/membrane/conf/apis.yaml" predic8/membrane`.'
+related_tools:
+- Prometheus
+- Grafana
+- OpenTelemetry
+sources:
+- id: readme
+  url: https://github.com/membrane/api-gateway
+  title: Membrane GitHub Repository README
+  quotes:
+  - Open-source API gateway that speaks both REST and SOAP.
+  - Deploy APIs directly from OpenAPI, secure them with OAuth2 and JWT, or turn legacy
+    SOAP web services into JSON APIs, all with a few lines of YAML.
+  - Lightweight and easy to run as a single container or Java application. No database
+    required.
+  - Deploy APIs from OpenAPI descriptions and use OpenAPI for message validation.
+    Membrane supports OpenAPI 3.0, 3.1, and 3.2.
+  - Expose existing SOAP web services as JSON APIs without changing the backend.
+  - Validate messages against OpenAPI, JSON Schema, XSD, and WSDL to reject invalid
+    requests before they reach your backend.
+  - Combine calls to multiple APIs in a single flow. Process collections with loops
+    and control execution with conditions.
+  - Configure routing, security, and transformations with a few lines of YAML.
+  - For custom logic, use Groovy scripts or expressions with SpEL, JSONPath, and XPath.
+  - docker run --rm -it -p 2000:2000 predic8/membrane
+  - docker run --rm -p 2000:2000 -v "$(pwd)/apis.yaml:/opt/membrane/conf/apis.yaml"
+    predic8/membrane
+  - Plain proxying | 216,000
+  - OpenAPI validation of every request | 167,000
+  - Expose Membrane metrics for Prometheus
+  - The collected metrics can be visualized in a Grafana dashboard
+  - Membrane supports integration with OpenTelemetry.
+  - 'Membrane as Authorization Server
+
+
+    The following example shows a minimal configuration for running Membrane as an
+    OAuth 2.0 authorization server.'
+  - API Gateway eBook (Free Download)
