@@ -75,7 +75,7 @@ def validate_blog_post_file(file_path: Path) -> Tuple[bool, str]:
         if not content.startswith("---"):
             return False, "Post must start with Hugo frontmatter delimiter '---'"
 
-        frontmatter_match = re.search(r"^---\n(.*?)\n---", content, re.DOTALL)
+        frontmatter_match = re.search(r"^---\r?\n(.*?)\r?\n---", content, re.DOTALL)
         if not frontmatter_match:
             return False, "Invalid or unclosed Hugo frontmatter block ('---')"
 
