@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:47.114011'
+date: '2026-11-01T10:43:35.484865'
 description: Collect traces, exception stacks and generate logs on-demand without
   stopping & redeploying your applications.
 homepage_url: https://github.com/runsidekick/sidekick

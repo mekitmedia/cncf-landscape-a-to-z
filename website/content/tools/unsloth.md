@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:38.282141'
+date: '2026-11-01T10:43:39.171383'
 description: Unsloth Studio is a web UI for training and running open models like
   Gemma 4, Qwen3.5, DeepSeek, gpt-oss locally.
 homepage_url: https://unsloth.ai/

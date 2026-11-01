@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:40.208048'
+date: '2026-11-01T10:43:36.270223'
 description: Cloud-native job queueing system for batch, HPC, AI/ML, and similar applications
   in a Kubernetes cluster.
 homepage_url: https://kueue.sigs.k8s.io/

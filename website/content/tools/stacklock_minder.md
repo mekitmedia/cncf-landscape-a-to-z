@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:46.894258'
+date: '2026-11-01T10:43:35.792613'
 description: Software Supply Chain Security Platform
 homepage_url: https://stacklok.com/minder
 layout: single

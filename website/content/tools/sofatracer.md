@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:47.068140'
+date: '2026-11-01T10:43:35.462354'
 homepage_url: https://www.sofastack.tech/en/
 layout: single
 letter: S

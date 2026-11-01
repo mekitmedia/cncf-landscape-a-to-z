@@ -1,6 +1,6 @@
 ---
 cncf_status: graduated
-date: '2026-10-04T18:37:47.746121'
+date: '2026-11-01T10:43:38.300455'
 description: An open source, general-purpose policy engine
 homepage_url: https://www.openpolicyagent.org/
 layout: single

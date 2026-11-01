@@ -1,6 +1,6 @@
 ---
 cncf_status: incubating
-date: '2026-10-04T18:37:38.203426'
+date: '2026-11-01T10:43:36.947720'
 description: A Kubernetes native system for high-performance workloads
 homepage_url: https://volcano.sh/
 layout: single

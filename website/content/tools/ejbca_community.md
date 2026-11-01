@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:44.052459'
+date: '2026-11-01T10:43:39.235037'
 description: Issue certificates for all your Kubernetes workloads with the open-source
   public key infrastructure (PKI) and certificate authority (CA) software EJBCA. 
 homepage_url: https://www.ejbca.org/

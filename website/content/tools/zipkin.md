@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:44.317176'
+date: '2026-11-01T10:43:40.011910'
 homepage_url: https://zipkin.io/
 layout: single
 letter: Z

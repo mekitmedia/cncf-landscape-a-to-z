@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:44.908630'
+date: '2026-11-01T10:43:35.975335'
 homepage_url: https://wavm.github.io/
 layout: single
 letter: W

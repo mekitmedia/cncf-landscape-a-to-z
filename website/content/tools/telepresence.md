@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:46.147278'
+date: '2026-11-01T10:43:40.768740'
 description: Local development against a remote Kubernetes or OpenShift cluster
 homepage_url: https://www.telepresence.io/
 layout: single

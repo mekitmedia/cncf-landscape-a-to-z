@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-16T15:41:11.837613'
+date: '2026-11-01T10:43:36.256584'
 description: Kubernetes performance and scale test orchestration framework written
   in golang
 homepage_url: https://kube-burner.github.io/kube-burner/
@@ -67,3 +67,5 @@ Kube-burner makes extensive usage of the official k8s client library, client-go,
 - [Kubernetes](/tools/kubernetes/)
 
 - [Prometheus](/tools/prometheus/)
+
+

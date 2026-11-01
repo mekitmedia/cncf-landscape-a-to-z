@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:40.100537'
+date: '2026-11-01T10:43:36.341108'
 description: Find security vulnerabilities, compliance issues, and infrastructure
   misconfigurations early in the development cycle of your infrastructure-as-code
   with KICS by Checkmarx.

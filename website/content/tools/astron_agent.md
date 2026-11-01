@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:38.666030'
+date: '2026-11-01T10:43:37.856563'
 description: Enterprise-grade, commercial-friendly agentic workflow platform for building
   next-generation SuperAgents with multi-agent orchestration capabilities.
 homepage_url: http://astron.ai/
@@ -73,3 +73,5 @@ Built on the same core technology as the iFLYTEK Astron Agent Platform. Deeply c
 - [LangChain](/tools/langchain/)
 
 - [Casdoor](/tools/casdoor/)
+
+

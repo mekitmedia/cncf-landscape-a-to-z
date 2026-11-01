@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:47.687406'
+date: '2026-11-01T10:43:38.381691'
 description: Oracle Cloud Native Environment is a fully integrated suite for the development
   and management of cloud-native applications that uses Kubernetes to orchestrate
   and schedule containers.

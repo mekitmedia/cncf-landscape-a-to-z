@@ -1,10 +1,8 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-29T12:45:45.443185'
-description: Grafana allows you to query, visualize, alert on and understand your
-  metrics no matter where they are stored. Create, explore, and share beautiful dashboards
-  with your team and foster a data driven culture.
-homepage_url: https://grafana.com/
+date: '2026-11-01T10:43:40.916230'
+description: The open-source platform for monitoring and observability
+homepage_url: https://github.com/grafana/grafana
 layout: single
 letter: G
 lifecycle_stage: tech_writing

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:46.098706'
+date: '2026-11-01T10:43:40.641055'
 description: Tracee helps you understand your systems and applications behavior, and
   apply runtime security to them. It uses Linux eBPF technology and strong security
   techniques to instrument the system and expose relevant events for you to consume

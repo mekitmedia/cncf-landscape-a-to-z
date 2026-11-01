@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:49.629287'
+date: '2026-11-01T10:43:40.108866'
 homepage_url: https://pinpoint-apm.github.io/pinpoint/
 layout: single
 letter: P

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:43.836226'
+date: '2026-11-01T10:43:41.300691'
 homepage_url: https://fission.io/
 layout: single
 letter: F

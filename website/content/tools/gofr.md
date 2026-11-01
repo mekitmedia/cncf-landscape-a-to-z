@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:42.314957'
+date: '2026-11-01T10:43:41.069272'
 homepage_url: https://gofr.dev/
 layout: single
 letter: G

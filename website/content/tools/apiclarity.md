@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:38.882539'
+date: '2026-11-01T10:43:37.320497'
 description: APIClarity is a cloud API observability open-source project that provides
   functionality to discover and monitor any API traffic that interacts with modern
   applications and report suspected security weaknesses or possible abuses. Once an
@@ -82,3 +82,5 @@ Developed by Cisco (openclarity), APIClarity offers a modular architecture that 
 - [OpenTelemetry](/tools/opentelemetry/)
 
 - [Aserto](/tools/aserto/)
+
+

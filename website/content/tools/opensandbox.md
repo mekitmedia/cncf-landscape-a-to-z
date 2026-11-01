@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:48.046512'
+date: '2026-11-01T10:43:38.404266'
 description: OpenSandbox is a general-purpose sandbox platform for AI applications,
   offering multi-language SDKs, unified sandbox APIs, and Docker/Kubernetes runtimes
   for scenarios like Coding Agents, GUI Agents, Agent Evaluation, AI Code Execution,

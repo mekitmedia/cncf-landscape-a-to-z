@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:44.832280'
+date: '2026-11-01T10:43:36.013907'
 description: Scripting languages that support Wasm
 homepage_url: https://github.com/second-state/wasmedge-quickjs
 layout: single
@@ -66,3 +66,5 @@ WebAssembly bytecode files provided in the release can be AOT compiled with `was
 - [WebAssembly](/tools/webassembly/)
 
 - [QuickJS](/tools/quickjs/)
+
+

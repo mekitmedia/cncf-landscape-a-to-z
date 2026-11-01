@@ -1,12 +1,12 @@
 ---
 cncf_status: incubating
-date: '2026-10-08T03:15:04.078182'
+date: '2026-11-01T10:43:36.772735'
 description: Standardized Distributed Generative and Predictive AI Inference Platform
   for Scalable, Multi-Framework Deployment on Kubernetes
 homepage_url: https://kserve.github.io/website/
 layout: single
 letter: K
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: KServe
 repo_url: https://github.com/kserve/kserve
 status: completed
@@ -69,3 +69,5 @@ KServe is an important addon component of Kubeflow, enabling standardized AI inf
 - [TensorFlow](/tools/tensorflow/)
 
 - [PyTorch](/tools/pytorch/)
+
+

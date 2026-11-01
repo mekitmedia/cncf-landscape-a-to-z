@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:38.259795'
+date: '2026-11-01T10:43:36.958935'
 homepage_url: https://volcano.sh/
 layout: single
 letter: V

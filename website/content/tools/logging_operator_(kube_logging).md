@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:41.730213'
+date: '2026-11-01T10:43:39.407088'
 description: Logging operator for Kubernetes
 homepage_url: https://kube-logging.dev/
 layout: single

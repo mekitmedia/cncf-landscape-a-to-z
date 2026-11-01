@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:49.280506'
+date: '2026-11-01T10:43:40.193156'
 homepage_url: https://www.postgresql.org/
 layout: single
 letter: P

@@ -1,6 +1,6 @@
 ---
 cncf_status: graduated
-date: '2026-10-04T18:37:44.501255'
+date: '2026-11-01T10:43:40.435690'
 description: Cloud Native Buildpacks transform your application source code into images
   that can run on any cloud
 homepage_url: https://buildpacks.io/

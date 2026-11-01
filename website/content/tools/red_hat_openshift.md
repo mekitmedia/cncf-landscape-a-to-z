@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:45.523650'
+date: '2026-11-01T10:43:39.704756'
 description: OpenShift® helps organizations focus on building and scaling their business
   with fully supported enterprise Kubernetes by Red Hat®.
 homepage_url: https://www.redhat.com/en/technologies/cloud-computing/openshift

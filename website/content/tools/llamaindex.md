@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:41.866088'
+date: '2026-11-01T10:43:39.529726'
 description: LlamaIndex is the leading document agent and OCR platform
 homepage_url: https://developers.llamaindex.ai/
 layout: single

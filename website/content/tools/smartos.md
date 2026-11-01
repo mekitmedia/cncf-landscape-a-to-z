@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:46.860739'
+date: '2026-11-01T10:43:35.551524'
 homepage_url: https://www.TritonDataCenter.com/smartos
 layout: single
 letter: S

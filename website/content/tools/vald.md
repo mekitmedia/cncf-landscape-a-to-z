@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:38.133196'
+date: '2026-11-01T10:43:36.936313'
 description: Vald is a highly scalable, cloud-native distributed vector search engine
   optimized for machine learning and AI applications. It offers efficient, near real-time
   search for high-dimensional vector data, ensuring robust performance and flexibility

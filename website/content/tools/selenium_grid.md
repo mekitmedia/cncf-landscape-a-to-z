@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:47.477490'
+date: '2026-11-01T10:43:35.864726'
 description: A browser automation framework and ecosystem.
 homepage_url: https://www.selenium.dev/documentation/grid/
 layout: single

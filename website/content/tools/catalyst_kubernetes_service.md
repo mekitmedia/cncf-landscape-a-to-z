@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:42.652937'
+date: '2026-11-01T10:43:38.705929'
 description: Catalyst Kubernetes Service makes it easy for you to deploy, manage,
   and scale Kubernetes clusters to run containerised applications on the Catalyst
   Cloud.

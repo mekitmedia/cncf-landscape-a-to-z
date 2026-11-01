@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:49.640757'
+date: '2026-11-01T10:43:40.114374'
 description: Open source Kubernetes observability for developers
 homepage_url: https://px.dev/
 layout: single

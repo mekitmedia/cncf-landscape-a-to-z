@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:44.489550'
+date: '2026-11-01T10:43:40.460716'
 homepage_url: https://github.com/WebAssembly/binaryen
 layout: single
 letter: B

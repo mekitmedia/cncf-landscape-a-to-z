@@ -1,6 +1,6 @@
 ---
 cncf_status: graduated
-date: '2026-10-04T18:37:40.596663'
+date: '2026-11-01T10:43:36.509184'
 description: Open, Multi-Cloud, Multi-Cluster Kubernetes Orchestration
 homepage_url: https://karmada.io/
 layout: single

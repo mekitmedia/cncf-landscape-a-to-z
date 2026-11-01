@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:39.269140'
+date: '2026-11-01T10:43:37.485719'
 homepage_url: https://arc.codes/docs/en/get-started/quickstart
 layout: single
 letter: A
@@ -67,3 +67,5 @@ Architect is widely utilized across the cloud native and open source ecosystem.
 - [Serverless Framework](/tools/serverless_framework/)
 
 - [SST](/tools/sst/)
+
+

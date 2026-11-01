@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:42.235096'
+date: '2026-11-01T10:43:40.957261'
 homepage_url: https://www.graylog.org/
 layout: single
 letter: G

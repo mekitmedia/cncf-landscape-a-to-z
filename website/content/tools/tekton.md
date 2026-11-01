@@ -1,6 +1,6 @@
 ---
 cncf_status: incubating
-date: '2026-10-04T18:37:46.239141'
+date: '2026-11-01T10:43:40.494118'
 description: A powerful and flexible open source framework for creating continuous
   integration and delivery (CI/CD) systems that allow developers to build, test, and
   deploy across multiple cloud providers and on-premises systems by abstracting away

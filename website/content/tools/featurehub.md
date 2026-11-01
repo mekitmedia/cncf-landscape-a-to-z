@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:43.741498'
+date: '2026-11-01T10:43:41.266403'
 description: 'FeatureHub is a Cloud Native Feature Flags, Remote Configuration and
   A/B Testing Platform suitable for mobile, web and server applications and available
   with the variety of SDKs. Self-hosted open source or SaaS options are available. '

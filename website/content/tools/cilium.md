@@ -1,6 +1,6 @@
 ---
 cncf_status: graduated
-date: '2026-10-04T18:37:42.994314'
+date: '2026-11-01T10:43:38.906831'
 description: eBPF-based Networking, Observability, and Security
 homepage_url: https://cilium.io/
 layout: single

@@ -1,6 +1,6 @@
 ---
 cncf_status: incubating
-date: '2026-10-04T18:37:46.746344'
+date: '2026-11-01T10:43:35.881555'
 description: Apache Kafka running on Kubernetes
 homepage_url: https://strimzi.io/
 layout: single

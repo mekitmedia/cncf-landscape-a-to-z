@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:46.905322'
+date: '2026-11-01T10:43:35.703566'
 description: Score is an open-source workload specification designed to simplify development
   for cloud-native developers.
 homepage_url: https://score.dev/

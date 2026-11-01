@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:44.885514'
+date: '2026-11-01T10:43:35.928735'
 homepage_url: https://woodpecker-ci.org
 layout: single
 letter: W

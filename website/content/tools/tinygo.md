@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:46.123324'
+date: '2026-11-01T10:43:40.732201'
 description: Compiled language to Wasm
 homepage_url: https://tinygo.org/
 layout: single

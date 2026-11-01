@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:47.218836'
+date: '2026-11-01T10:43:35.698095'
 homepage_url: https://nightlies.apache.org/flink/flink-statefun-docs-master/
 layout: single
 letter: S

@@ -1,6 +1,6 @@
 ---
 cncf_status: graduated
-date: '2026-10-04T18:37:48.058317'
+date: '2026-11-01T10:43:38.260671'
 description: High-quality, ubiquitous, and portable telemetry to enable effective
   observability
 homepage_url: https://opentelemetry.io/

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:37.978796'
+date: '2026-11-01T10:43:41.110143'
 description: Vector Database for the next generation of AI applications.
 homepage_url: https://qdrant.tech
 layout: single

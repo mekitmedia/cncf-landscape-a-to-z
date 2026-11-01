@@ -1,6 +1,6 @@
 ---
 cncf_status: incubating
-date: '2026-10-04T18:37:44.075792'
+date: '2026-11-01T10:43:39.279935'
 description: open source Kubernetes-native API gateway for microservices built on
   the Envoy Proxy
 homepage_url: https://emissary-ingress.dev/

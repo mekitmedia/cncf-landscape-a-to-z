@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:46.582107'
+date: '2026-11-01T10:43:35.586444'
 homepage_url: https://seata.apache.org
 layout: single
 letter: S

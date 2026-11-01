@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:43.329447'
+date: '2026-11-01T10:43:39.056361'
 homepage_url: https://www.consul.io/
 layout: single
 letter: C

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:38.753244'
+date: '2026-11-01T10:43:37.763916'
 homepage_url: https://rocketmq.apache.org/
 layout: single
 letter: A
@@ -67,3 +67,5 @@ Apache RocketMQ is widely utilized across the cloud native and open source ecosy
 - [RabbitMQ](/tools/rabbitmq/)
 
 - [Apache Pulsar](/tools/apache_pulsar/)
+
+

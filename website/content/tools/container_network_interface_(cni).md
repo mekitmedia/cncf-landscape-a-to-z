@@ -1,6 +1,6 @@
 ---
 cncf_status: incubating
-date: '2026-10-04T18:37:43.005576'
+date: '2026-11-01T10:43:38.912327'
 homepage_url: https://www.cni.dev/
 layout: single
 letter: C

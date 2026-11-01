@@ -1,6 +1,6 @@
 ---
 cncf_status: graduated
-date: '2026-10-04T18:37:40.584891'
+date: '2026-11-01T10:43:36.503621'
 description: KEDA is a Kubernetes-based Event Driven Autoscaling component. It provides
   event driven scale for any container running in Kubernetes
 homepage_url: https://keda.sh/

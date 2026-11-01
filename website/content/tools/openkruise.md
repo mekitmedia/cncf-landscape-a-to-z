@@ -1,6 +1,6 @@
 ---
 cncf_status: incubating
-date: '2026-10-04T18:37:48.151698'
+date: '2026-11-01T10:43:38.171294'
 description: Automate application management on Kubernetes
 homepage_url: https://openkruise.io/
 layout: single

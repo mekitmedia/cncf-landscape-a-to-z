@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:47.253383'
+date: '2026-11-01T10:43:35.437176'
 homepage_url: https://www.spinnaker.io/
 layout: single
 letter: S

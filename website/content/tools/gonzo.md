@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:42.154700'
+date: '2026-11-01T10:43:40.910567'
 description: Gonzo is a powerful, real-time log analysis terminal UI inspired by k9s.
   Analyze log streams with beautiful charts, AI-powered insights, and advanced filtering
   – all from your terminal.

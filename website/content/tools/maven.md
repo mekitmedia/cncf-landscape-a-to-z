@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:37.674036'
+date: '2026-11-01T10:43:38.080790'
 description: Apache Maven is a software project management and comprehension tool.
   Based on the concept of a project object model (POM), Maven can manage a project's
   build, reporting and documentation from a central piece of information.

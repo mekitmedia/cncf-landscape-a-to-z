@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:42.805900'
+date: '2026-11-01T10:43:38.771583'
 description: Checkov scans cloud infrastructure configurations to find misconfigurations
   before they are deployed. Checkov manages and analyzes infrastructure as code (IaC)
   scan results across platforms such as Terraform, CloudFormation, Kubernetes, Helm,

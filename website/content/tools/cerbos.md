@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:42.794172'
+date: '2026-11-01T10:43:38.766117'
 homepage_url: https://www.cerbos.dev/
 layout: single
 letter: C

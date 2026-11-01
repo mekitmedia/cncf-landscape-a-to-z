@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:45.279476'
+date: '2026-11-01T10:43:39.829377'
 homepage_url: https://www.netdata.cloud
 layout: single
 letter: N

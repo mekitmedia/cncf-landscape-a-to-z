@@ -1,12 +1,12 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-18T15:00:39.931254'
+date: '2026-11-01T10:43:40.688086'
 description: PostgreSQL for time‑series. TimescaleDB is the leading open-source relational
   database for time-series data. Fully managed or self‑hosted.
 homepage_url: https://www.timescale.com
 layout: single
 letter: T
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Timescale
 repo_url: https://github.com/timescale/timescaledb
 status: completed
@@ -17,7 +17,7 @@ title: Timescale
 
 ## Overview
 
-TimescaleDB is a PostgreSQL extension for high-performance real-time analytics on time-series and event data
+TimescaleDB is the leading open-source relational database for time-series data. It is packaged as a PostgreSQL extension.
 
 
 
@@ -69,3 +69,5 @@ Timescale Cloud service is a single optimized 100% PostgreSQL database instance 
 
 
 - [postgresql](/tools/postgresql/)
+
+

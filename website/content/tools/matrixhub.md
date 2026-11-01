@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:37.709246'
+date: '2026-11-01T10:43:38.015270'
 description: MatrixHub is an open-source, self-hosted, Hugging Face-compatible AI
   model registry and distribution layer for enterprise inference. It accelerates vLLM
   and SGLang on Kubernetes with pull-once-serve-all caching, air-gapped delivery,

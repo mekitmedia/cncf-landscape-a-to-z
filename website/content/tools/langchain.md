@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:41.808255'
+date: '2026-11-01T10:43:39.507248'
 description: The agent engineering platform
 homepage_url: https://docs.langchain.com/oss/python/langchain/
 layout: single

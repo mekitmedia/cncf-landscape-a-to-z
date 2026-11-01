@@ -1,6 +1,6 @@
 ---
 cncf_status: graduated
-date: '2026-10-04T18:37:49.594702'
+date: '2026-11-01T10:43:40.088360'
 description: The Prometheus monitoring system and time series database
 homepage_url: https://prometheus.io/
 layout: single

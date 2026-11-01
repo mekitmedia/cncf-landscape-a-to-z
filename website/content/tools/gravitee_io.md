@@ -1,10 +1,10 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-08T18:05:17.114293'
+date: '2026-11-01T10:43:41.038264'
 homepage_url: https://gravitee.io
 layout: single
 letter: G
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Gravitee.io
 repo_url: https://github.com/gravitee-io/gravitee-api-management
 status: completed
@@ -67,3 +67,5 @@ Gravitee.io provides advanced dynamic client registration to link API Management
 - [Tyk](/tools/tyk/)
 
 - [KrakenD](/tools/krakend/)
+
+

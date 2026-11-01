@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:47.348864'
+date: '2026-11-01T10:43:35.848150'
 description: A barebones library for agents that think in code.
 homepage_url: https://huggingface.co/docs/smolagents
 layout: single

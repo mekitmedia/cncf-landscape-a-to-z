@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:41.459789'
+date: '2026-11-01T10:43:35.080787'
 description: Infracost shows engineers how their code changes will impact cloud costs.
   It does this by sitting in the CI/CD workflow and on changing IaC code, leaves a
   comment like “This change will increase your next month bill by 20%” with a detailed

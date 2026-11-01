@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:38.734909'
+date: '2026-11-01T10:43:37.755658'
 homepage_url: https://nifi.apache.org/
 layout: single
 letter: A
@@ -67,3 +67,5 @@ Apache NiFi is widely utilized across the cloud native and open source ecosystem
 - [Apache Kafka](/tools/apache_kafka/)
 
 - [StreamSets](/tools/streamsets/)
+
+

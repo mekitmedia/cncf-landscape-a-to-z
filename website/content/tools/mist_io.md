@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:37.921174'
+date: '2026-11-01T10:43:38.120617'
 homepage_url: https://mist.io/
 layout: single
 letter: M

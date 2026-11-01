@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:48.892808'
+date: '2026-11-01T10:43:37.091191'
 description: Managed language
 homepage_url: https://dart.dev/
 layout: single

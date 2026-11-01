@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:39.465445'
+date: '2026-11-01T10:43:37.390423'
 description: A generative AI-powered framework for testing virtual agents
 homepage_url: https://awslabs.github.io/agent-evaluation/
 layout: single
@@ -68,3 +68,5 @@ Internally implements an LLM evaluator agent to interact with and critique user-
 - [Amazon Q Business](/tools/amazon_q_business/)
 
 - [Amazon SageMaker](/tools/amazon_sagemaker/)
+
+

@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-09T03:21:51.049945'
+date: '2026-11-01T10:43:35.330090'
 description: Kubernetes-native orchestration for fleets of AI coding agents that autonomously
   maintain software repositories.
 homepage_url: https://hivecommons.dev

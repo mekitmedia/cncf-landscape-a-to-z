@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-27T17:01:28.915771'
+date: '2026-11-01T10:43:38.535074'
 description: Manage, store, and distribute sensitive data with OpenBao. OpenBao is
   an open source, community-driven secrets manager and fork of Vault managed by the
   Linux Foundation's OpenSSF.

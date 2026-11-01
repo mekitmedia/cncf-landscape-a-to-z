@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:43.306438'
+date: '2026-11-01T10:43:39.073175'
 description: The first and the best multi-agent framework. Finding the Scaling Law
   of Agents.
 homepage_url: https://www.camel-ai.org/

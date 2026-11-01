@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:37.438344'
+date: '2026-11-01T10:43:38.007139'
 homepage_url: https://www.oracle.com/mysql/
 layout: single
 letter: M

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:38.226020'
+date: '2026-11-01T10:43:36.903617'
 homepage_url: https://victoriametrics.com/
 layout: single
 letter: V

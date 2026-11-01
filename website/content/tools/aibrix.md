@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:38.589742'
+date: '2026-11-01T10:43:37.581828'
 description: Cost-efficient and pluggable Infrastructure components for GenAI inference.
 homepage_url: https://aibrix.github.io/
 layout: single
@@ -72,3 +72,5 @@ AIBrix co-delivered a keynote at KubeCon North America 2025 and KubeCon EU 2025 
 
 
 - [vLLM](/tools/vllm/)
+
+

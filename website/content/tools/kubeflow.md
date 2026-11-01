@@ -1,6 +1,6 @@
 ---
 cncf_status: graduated
-date: '2026-10-04T18:37:40.620685'
+date: '2026-11-01T10:43:36.520544'
 description: Kubeflow is the foundation of tools for AI Platforms on Kubernetes.
 homepage_url: https://kubeflow.org
 layout: single

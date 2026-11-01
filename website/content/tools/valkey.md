@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:38.145508'
+date: '2026-11-01T10:43:36.942134'
 description: A flexible distributed key-value datastore that is optimized for caching
   and other realtime workloads.
 homepage_url: https://valkey.io/

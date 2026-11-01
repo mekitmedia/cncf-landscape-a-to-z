@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:49.386405'
+date: '2026-11-01T10:43:40.119909'
 homepage_url: https://paladincloud.io/
 layout: single
 letter: P

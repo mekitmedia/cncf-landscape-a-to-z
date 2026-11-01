@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:41.797014'
+date: '2026-11-01T10:43:39.390361'
 description: An API for deploying a group of pods as a unit of replication.
 homepage_url: https://lws.sigs.k8s.io/
 layout: single

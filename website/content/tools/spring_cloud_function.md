@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:47.207350'
+date: '2026-11-01T10:43:35.692554'
 homepage_url: https://spring.io/projects/spring-cloud-function
 layout: single
 letter: S

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:46.227584'
+date: '2026-11-01T10:43:40.737882'
 description: The distributed SQL query engine for big data, formerly known as PrestoSQL.
 homepage_url: https://trino.io/
 layout: single

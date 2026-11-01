@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:41.707478'
+date: '2026-11-01T10:43:39.395926'
 description: LinDB is a scalable, high performance, high availability distributed
   time series database.
 homepage_url: https://www.lindb.io/

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:43.295078'
+date: '2026-11-01T10:43:39.002530'
 homepage_url: https://couler-proj.github.io/couler/index.html
 layout: single
 letter: C

@@ -1,6 +1,6 @@
 ---
 cncf_status: incubating
-date: '2026-10-04T18:37:47.757964'
+date: '2026-11-01T10:43:38.306087'
 description: OpenFGA is a high performance and flexible authorization/permission system
   built for developers and inspired by Google Zanzibar
 homepage_url: https://openfga.dev

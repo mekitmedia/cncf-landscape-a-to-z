@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:46.251182'
+date: '2026-11-01T10:43:40.553291'
 description: Terramate is an Infrastructure as Code (IaC) Management Platform combining
   Infrastructure Delivery, Drift Management, Observability, and Collaboration in a
   single platform that developers are excited about. We focus on providing the best

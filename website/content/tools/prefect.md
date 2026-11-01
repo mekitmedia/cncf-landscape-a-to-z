@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-22T16:20:10.014524'
+date: '2026-11-01T10:43:40.235688'
 homepage_url: https://docs.prefect.io/
 layout: single
 letter: P
@@ -70,3 +70,5 @@ Prefect requires Python 3.11+ and provides simple Python decorators to orchestra
 - [Dagster](/tools/dagster/)
 
 - [Luigi](/tools/luigi/)
+
+

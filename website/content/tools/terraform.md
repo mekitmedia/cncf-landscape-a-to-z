@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:46.289141'
+date: '2026-11-01T10:43:40.779785'
 homepage_url: https://www.terraform.io/
 layout: single
 letter: T

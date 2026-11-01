@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:45.488672'
+date: '2026-11-01T10:43:39.687710'
 description: A Kubernetes distribution focused on enabling Federal government compliance-based
   use cases.
 homepage_url: https://docs.rke2.io/

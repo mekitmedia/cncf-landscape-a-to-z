@@ -1,6 +1,6 @@
 ---
 cncf_status: incubating
-date: '2026-10-04T18:37:40.076198'
+date: '2026-11-01T10:43:36.329642'
 description: Keycloak is an open-source identity and access management solution for
   modern applications and services,  built on top of industry security standard protocols.
 homepage_url: https://www.keycloak.org/

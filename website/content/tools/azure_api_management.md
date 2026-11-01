@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:39.041743'
+date: '2026-11-01T10:43:37.509113'
 description: Azure API Management is a hybrid, multi-cloud API, full lifecycle management
   platform for APIs across all environments. It allows customers to self-host API
   gateways as containers on Kubernetes.
@@ -66,3 +66,5 @@ It allows for self-hosted API gateways, extending Azure's API management capabil
 - [Kubernetes](/tools/kubernetes/)
 
 - [Azure Kubernetes Service (AKS)](/tools/azure_kubernetes_service_(aks)/)
+
+

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-07T18:24:29.714576'
+date: '2026-11-01T10:43:35.149389'
 description: The leading workflow orchestration platform. Run stateful step functions
   and AI workflows on serverless, servers, or the edge.
 homepage_url: https://www.inngest.com/
@@ -67,3 +67,5 @@ The server and CLI tools are distributed under the Server Side Public License an
 - [Apache Airflow](/tools/apache_airflow/)
 
 - [Prefect](/tools/prefect/)
+
+

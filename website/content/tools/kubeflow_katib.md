@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:40.362101'
+date: '2026-11-01T10:43:36.422655'
 description: Automated Machine Learning on Kubernetes
 homepage_url: https://www.kubeflow.org/docs/components/katib/overview/
 layout: single

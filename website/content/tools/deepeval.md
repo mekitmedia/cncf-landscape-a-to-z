@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:49.074119'
+date: '2026-11-01T10:43:37.085582'
 description: The LLM Evaluation Framework
 homepage_url: https://deepeval.com/
 layout: single

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:39.637939'
+date: '2026-11-01T10:43:37.606116'
 homepage_url: https://www.authing.cn
 layout: single
 letter: A
@@ -69,3 +69,5 @@ Authing was included in the Forbes Asia 100 to Watch list and was selected as an
 - [Keycloak](/tools/keycloak/)
 
 - [Dex](/tools/dex/)
+
+

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:48.684267'
+date: '2026-11-01T10:43:37.040568'
 description: Databend is a modern Elasticity and Performance cloud data warehouse,
   activate your object storage for real-time analytics.  Databend Serverless at https://app.databend.com/
 homepage_url: https://databend.rs

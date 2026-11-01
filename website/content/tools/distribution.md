@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:49.021202'
+date: '2026-11-01T10:43:37.190222'
 description: The toolkit to pack, ship, store, and deliver container content
 homepage_url: https://github.com/distribution/distribution
 layout: single

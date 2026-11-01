@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:43.249041'
+date: '2026-11-01T10:43:38.980183'
 description: Cadence is a distributed, scalable, durable, and highly available fault-oblivious
   stateful code platform.
 homepage_url: https://cadenceworkflow.io/

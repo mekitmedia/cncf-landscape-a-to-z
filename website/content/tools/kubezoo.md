@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:41.039626'
+date: '2026-11-01T10:43:36.750477'
 homepage_url: https://kubewharf.github.io
 layout: single
 letter: K

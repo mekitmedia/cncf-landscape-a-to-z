@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:47.781411'
+date: '2026-11-01T10:43:38.317958'
 description: The OSCAL COMPASS project is set of tools that enable the creation, validation,
   and governance of documentation artifacts for compliance needs. It leverages NIST's
   OSCAL (Open Security Controls Assessment Language) as a standard data format for

@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:44.414463'
+date: '2026-11-01T10:43:40.466192'
 description: Open-source layer 7 load balancer derived from proprietary Baidu FrontEnd
 homepage_url: https://www.bfe-networks.net
 layout: single
@@ -53,3 +53,6 @@ Released version 1.8.7.
 {{< callout title="Did You Know?" type="info" >}}
 BFE originated from Baidu and is designed as a 'Beyond Front End' solution.
 {{< /callout >}}
+
+
+

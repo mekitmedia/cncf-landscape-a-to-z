@@ -1,6 +1,6 @@
 ---
 cncf_status: graduated
-date: '2026-10-04T18:37:42.877509'
+date: '2026-11-01T10:43:38.805090'
 description: Open Container Initiative-based implementation of Kubernetes Container
   Runtime Interface
 homepage_url: https://cri-o.io/

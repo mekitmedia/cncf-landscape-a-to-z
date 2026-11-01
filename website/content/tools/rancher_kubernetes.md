@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:45.500440'
+date: '2026-11-01T10:43:39.693280'
 description: Deploy Rancher’s Kubernetes distro anywhere or launch cloud Kubernetes
   services from Google, Amazon or Microsoft.
 homepage_url: https://rancher.com

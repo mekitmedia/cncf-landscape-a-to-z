@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:40.149296'
+date: '2026-11-01T10:43:36.366603'
 description: 'Kubewarden is a Policy Engine powered by WebAssembly policies. Its policies
   can be written in CEL, Rego (OPA & Gatekeeper flavours), Rust, Go, YAML, and others.
   Kubewarden simplifies Policy-As-Code by allowing policy authors and consumers to

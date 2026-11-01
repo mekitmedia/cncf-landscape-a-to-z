@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:46.345993'
+date: '2026-11-01T10:43:40.807699'
 homepage_url: https://traefik.io/traefik-mesh
 layout: single
 letter: T

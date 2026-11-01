@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:41.016847'
+date: '2026-11-01T10:43:36.739202'
 description: Kosko can help you organize your Kubernetes manifests in TypeScript,
   manage multiple environments, ensure type safety using OpenAPI schema, and find
   issues in your manifests.

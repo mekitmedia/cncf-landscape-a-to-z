@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:41.493767'
+date: '2026-11-01T10:43:35.143767'
 description: Simplify observability, traffic management, security, and policy with
   the Istio service mesh.
 homepage_url: https://istio.io/

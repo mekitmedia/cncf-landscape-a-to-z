@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:39.450398'
+date: '2026-11-01T10:43:37.566349'
 description: Terraform Pull Request Automation for Teams
 homepage_url: https://www.runatlantis.io/
 layout: single
@@ -66,3 +66,5 @@ Used by top companies to manage over 600 repos with 300 developers. In productio
 - [Terraform](/tools/terraform/)
 
 - [Kubernetes](/tools/kubernetes/)
+
+

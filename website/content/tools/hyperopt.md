@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:48.509764'
+date: '2026-11-01T10:43:35.247790'
 description: Distributed Asynchronous Hyper-parameter Optimization
 homepage_url: https://hyperopt.github.io/hyperopt/
 layout: single

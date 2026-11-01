@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:42.039231'
+date: '2026-11-01T10:43:41.046706'
 description: Gefyra runs local code in any Kubernetes cluster without the build and
   push cycle. It overlays containers in the cluster making code changes immediately
   available.

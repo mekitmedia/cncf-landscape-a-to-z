@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:40.125177'
+date: '2026-11-01T10:43:36.352286'
 description: Runtime protection for Kubernetes & other cloud Workloads. Kubearmor
   provides a observability and policy enforcement system to restrict any unwanted,
   malicious behaviour of cloud-native workloads at runtime.

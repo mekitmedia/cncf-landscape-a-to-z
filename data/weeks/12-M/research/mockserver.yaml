@@ -12,8 +12,7 @@ recent_updates: "See the changelog for details on what shipped in recent version
 use_cases: "Useful for mocking out third-party APIs during development and executing chaos tests against remote microservices."
 interesting_facts: "MockServer includes an MCP server so AI coding assistants can drive MockServer directly."
 get_started: "Run the official Docker container locally via: docker run -d --rm -p 1080:1080 mockserver/mockserver"
-related_tools:
-  - ""
+related_tools: []
 sources:
   - id: "readme"
     url: "https://github.com/mock-server/mockserver-monorepo"

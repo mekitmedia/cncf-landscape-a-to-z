@@ -1,10 +1,10 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-28T02:47:36.096265'
+date: '2026-11-01T10:43:38.421851'
 homepage_url: https://www.openvswitch.org/
 layout: single
 letter: O
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Open vSwitch
 repo_url: https://github.com/openvswitch/ovs
 status: completed
@@ -56,3 +56,6 @@ The project is actively maintained, with recent releases addressing performance,
 {{< callout title="Did You Know?" type="info" >}}
 Open vSwitch can be run entirely in userspace without needing a kernel module, which can make it easier to port to other environments.
 {{< /callout >}}
+
+
+

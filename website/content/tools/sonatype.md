@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:46.815181'
+date: '2026-11-01T10:43:35.523869'
 description: Sonatype is the developer-friendly full-spectrum software supply, chain
   management platform helps organizations and software developers. One of the Sonatype
   products includes the open source software repository manager Sonatype Nexus Repository.

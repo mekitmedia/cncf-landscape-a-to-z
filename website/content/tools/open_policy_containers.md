@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:47.805106'
+date: '2026-11-01T10:43:38.329823'
 description: A docker-inspired CLI for building, tagging, pushing, pulling, and signing
   OPA policies to and from OCI-compliant registries.
 homepage_url: https://openpolicycontainers.com

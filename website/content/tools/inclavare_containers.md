@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:41.392181'
+date: '2026-11-01T10:43:35.086613'
 description: A novel container runtime, aka confidential container, for cloud-native
   confidential computing and enclave runtime ecosystem
 homepage_url: https://github.com/inclavare-containers/

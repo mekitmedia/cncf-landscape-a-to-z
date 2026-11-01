@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:38.061064'
+date: '2026-11-01T10:43:39.595605'
 homepage_url: https://xtdb.com/
 layout: single
 letter: X

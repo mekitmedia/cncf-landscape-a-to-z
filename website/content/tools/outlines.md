@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-24T02:28:30.214480'
+date: '2026-11-01T10:43:38.436127'
 description: Structured Outputs
 homepage_url: https://dottxt-ai.github.io/outlines/
 layout: single
@@ -68,3 +68,5 @@ Outlines provides structured outputs for LLMs and is trusted by NVIDIA, Cohere, 
 - [OpenAI](/tools/openai/)
 
 - [Ollama](/tools/ollama/)
+
+

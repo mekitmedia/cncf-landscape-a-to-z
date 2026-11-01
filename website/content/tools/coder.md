@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:42.947303'
+date: '2026-11-01T10:43:38.951563'
 description: Self-hosted cloud development environments consistently provisioned as
   code and pre-configured for developer activity on day one.
 homepage_url: https://www.coder.com/

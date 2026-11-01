@@ -1,6 +1,6 @@
 ---
 cncf_status: graduated
-date: '2026-10-04T18:37:42.713745'
+date: '2026-11-01T10:43:39.089910'
 description: Standardizing common eventing metadata and their location to help with
   event identification and routing.
 homepage_url: https://cloudevents.io/

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:40.442981'
+date: '2026-11-01T10:43:36.588069'
 homepage_url: https://kilo.squat.ai
 layout: single
 letter: K

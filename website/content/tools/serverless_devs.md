@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:47.009437'
+date: '2026-11-01T10:43:35.634158'
 description: Serverless Devs developer tool ( Serverless Devs 开发者工具 )
 homepage_url: https://www.serverless-devs.com/
 layout: single

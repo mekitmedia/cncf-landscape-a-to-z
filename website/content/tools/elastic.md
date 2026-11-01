@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:44.156992'
+date: '2026-11-01T10:43:39.215409'
 homepage_url: https://www.elastic.co/
 layout: single
 letter: E
@@ -65,3 +65,5 @@ Elasticsearch is the foundation of Elastic's open Stack platform.
 - [Kibana](/tools/kibana/)
 
 - [Logstash](/tools/logstash/)
+
+

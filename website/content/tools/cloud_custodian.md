@@ -1,6 +1,6 @@
 ---
 cncf_status: incubating
-date: '2026-10-04T18:37:43.213561'
+date: '2026-11-01T10:43:38.962906'
 description: Rules engine for cloud security, cost optimization, and governance, DSL
   in yaml for policies to query, filter, and take actions on resources
 homepage_url: https://cloudcustodian.io/

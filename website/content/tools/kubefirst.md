@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:41.062831'
+date: '2026-11-01T10:43:36.761483'
 description: Instant operational open source gitops platforms for platform engineering,
   infrastructure, and software teams
 homepage_url: https://docs.kubefirst.com

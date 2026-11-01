@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:49.514415'
+date: '2026-11-01T10:43:40.249727'
 description: Packer is a tool for creating identical machine images for multiple platforms
   from a single source configuration.
 homepage_url: https://www.packer.io/

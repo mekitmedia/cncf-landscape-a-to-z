@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:37.826416'
+date: '2026-11-01T10:43:37.952918'
 description: The goal of the open source Monocle project is to help GenAI developers
   trace their applications. Hosted in incubation as a Sandbox project in LF AI & Data.
 homepage_url: https://monocle2ai.org/

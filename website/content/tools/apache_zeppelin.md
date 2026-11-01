@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:38.642884'
+date: '2026-11-01T10:43:37.376155'
 description: Web-based notebook that enables data-driven, interactive data analytics
   and collaborative documents with SQL, Scala and more.
 homepage_url: https://zeppelin.apache.org
@@ -69,3 +69,5 @@ Apache Zeppelin is widely utilized across the cloud native and open source ecosy
 - [Apache Spark](/tools/apache_spark/)
 
 - [Apache Superset](/tools/apache_superset/)
+
+

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:44.005390'
+date: '2026-11-01T10:43:39.251859'
 description: 10x faster vector database and one-stop RAGaaS platform for building
   LLM applications
 homepage_url: https://epsilla.com

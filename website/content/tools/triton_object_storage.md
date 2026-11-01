@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:46.368746'
+date: '2026-11-01T10:43:40.831505'
 homepage_url: https://www.tritondatacenter.com/triton/object-storage
 layout: single
 letter: T

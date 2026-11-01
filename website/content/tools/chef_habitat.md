@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:42.912598'
+date: '2026-11-01T10:43:38.934839'
 homepage_url: https://community.chef.io/tools/chef-habitat
 layout: single
 letter: C

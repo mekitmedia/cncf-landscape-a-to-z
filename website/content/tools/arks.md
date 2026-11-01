@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:38.606557'
+date: '2026-11-01T10:43:37.590061'
 description: Arks is an end-to-end framework for managing LLM-based applications within
   Kubernetes cluster. It provides a robust and extensible infrastructure tailored
   for deploying, orchestrating, and scaling LLM inference workloads in cloud-native
@@ -71,3 +71,5 @@ Arks is widely utilized across the cloud native and open source ecosystem.
 - [KServe](/tools/kserve/)
 
 - [Ray](/tools/ray/)
+
+

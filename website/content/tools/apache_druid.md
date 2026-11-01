@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:39.192394'
+date: '2026-11-01T10:43:37.438204'
 description: A high performance real-time analytics database.
 homepage_url: https://druid.apache.org/
 layout: single
@@ -68,3 +68,5 @@ Apache Druid is widely utilized across the cloud native and open source ecosyste
 - [ClickHouse](/tools/clickhouse/)
 
 - [Apache Kafka](/tools/apache_kafka/)
+
+

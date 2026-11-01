@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:49.709233'
+date: '2026-11-01T10:43:40.224069'
 description: Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability
   scanning for AI. Compare performance of GPT, Claude, Gemini, Llama, and more. Simple
   declarative configs with command line and CI/CD integration. Used by OpenAI and

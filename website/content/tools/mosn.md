@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:37.531333'
+date: '2026-11-01T10:43:38.137769'
 homepage_url: https://mosn.io
 layout: single
 letter: M

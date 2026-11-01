@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:41.819514'
+date: '2026-11-01T10:43:39.512977'
 description: Build resilient language agents as graphs.
 homepage_url: https://docs.langchain.com/oss/python/langgraph/
 layout: single

@@ -1,6 +1,6 @@
 ---
 cncf_status: incubating
-date: '2026-10-04T18:37:37.885851'
+date: '2026-11-01T10:43:38.103766'
 homepage_url: https://meshery.io
 layout: single
 letter: M

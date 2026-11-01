@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:44.896884'
+date: '2026-11-01T10:43:35.969835'
 homepage_url: https://github.com/bytecodealliance/wasm-micro-runtime
 layout: single
 letter: W

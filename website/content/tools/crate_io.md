@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:42.588950'
+date: '2026-11-01T10:43:38.841446'
 homepage_url: https://crate.io/
 layout: single
 letter: C

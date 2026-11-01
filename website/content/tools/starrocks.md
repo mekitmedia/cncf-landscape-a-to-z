@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:46.617537'
+date: '2026-11-01T10:43:35.606202'
 description: StarRocks is a next-gen sub-second MPP database for full analytics scenarios,
   including multi-dimensional analytics, real-time analytics and ad-hoc query.
 homepage_url: https://starrocks.io

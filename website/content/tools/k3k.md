@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:39.968240'
+date: '2026-11-01T10:43:36.481248'
 description: Virtual Kubernetes cluster
 homepage_url: https://github.com/rancher/k3k
 layout: single

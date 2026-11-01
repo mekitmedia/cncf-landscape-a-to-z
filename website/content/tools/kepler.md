@@ -1,8 +1,10 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:40.789522'
-description: Kepler (Kubernetes-based Efficient Power Level Exporter) uses eBPF to
-  probe energy related system stats and exports as Prometheus metrics.
+date: '2026-11-01T10:43:36.286982'
+description: Kepler (Kubernetes-based Efficient Power Level Exporter) is a Prometheus
+  exporter that measures energy consumption at the Pod and Node level by reading hardware
+  sensors, attributing it to containers, and giving per-workload visibility into where
+  energy goes. Let's make every watt matter.
 homepage_url: https://sustainable-computing.io/
 layout: single
 letter: K

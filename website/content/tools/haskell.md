@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:48.487095'
+date: '2026-11-01T10:43:35.265351'
 description: Purely functional language with wasm backend
 homepage_url: https://www.haskell.org
 layout: single

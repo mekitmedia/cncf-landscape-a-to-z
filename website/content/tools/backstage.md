@@ -1,6 +1,6 @@
 ---
 cncf_status: incubating
-date: '2026-10-04T18:37:44.512786'
+date: '2026-11-01T10:43:40.441304'
 description: Backstage is an open platform for building developer portals
 homepage_url: https://backstage.io/
 layout: single

@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:46.075352'
+date: '2026-11-01T10:43:40.629778'
 description: Tokenetes implements Transaction Tokens (TraTs) for microservices call
   chains.  It's a Kubernetes-native framework providing immutable identity and context
   in  service-to-service communication to prevent attacks like software supply chain  or

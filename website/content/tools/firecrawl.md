@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:43.907598'
+date: '2026-11-01T10:43:41.312080'
 description: The API to search, scrape, and interact with the web for AI
 homepage_url: https://www.firecrawl.dev/
 layout: single

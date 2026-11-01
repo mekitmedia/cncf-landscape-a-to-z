@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:42.552288'
+date: '2026-11-01T10:43:38.824785'
 description: The most popular Kubernetes Operator for PostgreSQL.
 homepage_url: https://www.cloudnative-pg.io/
 layout: single

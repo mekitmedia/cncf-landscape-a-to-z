@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:47.288516'
+date: '2026-11-01T10:43:35.764644'
 description: Shifu is the next generation cloud native IoT development framework that
   could 10X your IoT software development
 homepage_url: https://shifu.dev/

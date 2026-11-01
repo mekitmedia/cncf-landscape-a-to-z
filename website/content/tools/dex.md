@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:48.869405'
+date: '2026-11-01T10:43:37.034944'
 description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable
   connectors
 homepage_url: https://dexidp.io/

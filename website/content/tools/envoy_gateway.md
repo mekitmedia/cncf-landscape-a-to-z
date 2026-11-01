@@ -1,13 +1,13 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-15T15:58:09.885478'
+date: '2026-11-01T10:43:39.296608'
 description: Part of the Envoy project, Envoy Gateway is the control plane for dynamically
   managing Envoy Proxy, aimed at significantly decreasing the barrier to entry when
   using it for Gateway (sometimes known as "north-south") use cases.
 homepage_url: https://gateway.envoyproxy.io
 layout: single
 letter: E
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Envoy Gateway
 repo_url: https://github.com/envoyproxy/gateway
 status: completed
@@ -66,3 +66,5 @@ The quickstart configures the gateway using Kubernetes Gateway API resources Gat
 - [Envoy Proxy](/tools/envoy_proxy/)
 
 - [Kubernetes Gateway API](/tools/kubernetes_gateway_api/)
+
+

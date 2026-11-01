@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:43.993495'
+date: '2026-11-01T10:43:39.246275'
 description: High-performance open-source vector database for AI search, RAG, semantic
   search, and hybrid retrieval.
 homepage_url: https://endee.io/

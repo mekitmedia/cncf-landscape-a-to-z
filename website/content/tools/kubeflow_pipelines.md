@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:40.005410'
+date: '2026-11-01T10:43:36.389298'
 description: Machine Learning Pipelines for Kubeflow
 homepage_url: https://www.kubeflow.org/docs/components/pipelines/v1/introduction/
 layout: single

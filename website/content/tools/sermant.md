@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:47.372259'
+date: '2026-11-01T10:43:35.814784'
 description: Sermant a proxyless service mesh solution based on Javaagent.
 homepage_url: https://sermant.io/
 layout: single

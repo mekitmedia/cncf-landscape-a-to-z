@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:39.544435'
+date: '2026-11-01T10:43:37.714892'
 description: Aeraki Mesh allows you to manage any layer-7 traffic in a service mesh
 homepage_url: https://www.aeraki.net/
 layout: single
@@ -70,3 +70,5 @@ Aeraki (Air-rah-ki) is the Greek word for 'breeze'. It avoids reinventing the wh
 - [Envoy](/tools/envoy/)
 
 - [Linkerd](/tools/linkerd/)
+
+

@@ -1,12 +1,12 @@
 ---
 cncf_status: sandbox
-date: '2026-10-14T16:10:05.052280'
+date: '2026-11-01T10:43:40.125468'
 description: Paralus is a free, open source tool that enables controlled, audited
   access to Kubernetes infrastructure and Zero trust Kubernetes with zero friction.
 homepage_url: https://www.paralus.io/
 layout: single
 letter: P
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Paralus
 repo_url: https://github.com/paralus/paralus
 status: completed
@@ -79,3 +79,5 @@ Installing and setting up Paralus takes less time than it takes to brew a (good)
 - [Azure AD](/tools/azure_ad/)
 
 - [Okta](/tools/okta/)
+
+

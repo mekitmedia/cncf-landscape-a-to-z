@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:38.168587'
+date: '2026-11-01T10:43:36.925157'
 description: Virtual Kubelet is an open source Kubernetes kubelet implementation
 homepage_url: https://virtual-kubelet.io/
 layout: single

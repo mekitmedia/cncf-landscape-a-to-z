@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:47.711359'
+date: '2026-11-01T10:43:38.563171'
 description: Cloud-oriented, simple, flexible, vendor-neutral and language-independent
   standards for messaging
 homepage_url: https://openmessaging.cloud

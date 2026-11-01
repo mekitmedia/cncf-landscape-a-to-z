@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:49.432799'
+date: '2026-11-01T10:43:40.146251'
 description: Pipelock is an open-source AI agent firewall. It sits between AI agents
   and the internet and blocks secret leaks (DLP), SSRF, unsafe tool traffic, and prompt-injection
   content across HTTP, WebSocket, and MCP transports. It adds MCP-specific defenses

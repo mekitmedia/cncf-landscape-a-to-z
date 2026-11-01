@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:49.261732'
+date: '2026-11-01T10:43:40.183834'
 description: PolarDB is a cloud native SQL Database.
 homepage_url: https://openpolardb.com/home
 layout: single
@@ -66,3 +66,5 @@ PolarDB-X was originally created to solve the database's scalability bottleneck 
 - [TiDB](/tools/tidb/)
 
 - [CockroachDB](/tools/cockroachdb/)
+
+

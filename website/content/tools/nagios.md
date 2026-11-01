@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:45.256874'
+date: '2026-11-01T10:43:39.818105'
 homepage_url: https://www.nagios.com/
 layout: single
 letter: N

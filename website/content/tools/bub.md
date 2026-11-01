@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:44.607904'
+date: '2026-11-01T10:43:40.455215'
 description: A common shape for agents that live alongside people.
 homepage_url: https://bub.build/
 layout: single

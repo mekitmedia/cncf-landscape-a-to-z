@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:45.846021'
+date: '2026-11-01T10:43:40.676850'
 description: In-memory computing platform consisting of a database and an application
   server
 homepage_url: https://www.tarantool.io/en/

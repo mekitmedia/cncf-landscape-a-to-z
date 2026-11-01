@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:41.696046'
+date: '2026-11-01T10:43:39.435367'
 description: Developer-friendly OSS embedded retrieval library for multimodal AI.
   Search More; Manage Less.
 homepage_url: https://lancedb.com/

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:37.756886'
+date: '2026-11-01T10:43:38.063748'
 homepage_url: https://www.membrane-api.io/
 layout: single
 letter: M

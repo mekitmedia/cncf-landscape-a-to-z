@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:44.820405'
+date: '2026-11-01T10:43:36.008444'
 description: Design for WebAssembly
 homepage_url: https://wa-lang.github.io/
 layout: single

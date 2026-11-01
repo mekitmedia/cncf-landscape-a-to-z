@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:39.366669'
+date: '2026-11-01T10:43:37.303581'
 description: Open Source CI/CD platform with advanced features and architecture. Powerful,
   reproducible and containerized workflows (called Runs), git based workflow (integrates
   with all the primary git repositories like GitHub, GitLab, Gitea), restart Runs
@@ -73,3 +73,5 @@ Agola is widely utilized across the cloud native and open source ecosystem.
 - [Argo Workflows](/tools/argo_workflows/)
 
 - [Drone](/tools/drone/)
+
+

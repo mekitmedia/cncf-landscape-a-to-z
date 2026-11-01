@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:39.158702'
+date: '2026-11-01T10:43:37.640327'
 description: Agent2Agent (A2A) is an open protocol enabling communication and interoperability
   between opaque agentic applications.
 homepage_url: https://a2a-protocol.org/
@@ -69,3 +69,5 @@ The project's GitHub topics indicate a connection to the Linux Foundation, sugge
 - [LangChain](/tools/langchain/)
 
 - [LlamaIndex](/tools/llamaindex/)
+
+

@@ -1,6 +1,6 @@
 ---
 cncf_status: incubating
-date: '2026-10-04T18:37:45.174404'
+date: '2026-11-01T10:43:39.851385'
 description: A CLI tool to sign and verify artifacts
 homepage_url: https://notaryproject.dev/
 layout: single

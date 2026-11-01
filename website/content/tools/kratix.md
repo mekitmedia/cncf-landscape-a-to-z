@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:41.028426'
+date: '2026-11-01T10:43:36.745035'
 homepage_url: https://www.kratix.io/
 layout: single
 letter: K

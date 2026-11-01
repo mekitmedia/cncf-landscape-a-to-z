@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:40.646084'
+date: '2026-11-01T10:43:36.531831'
 description: KAI Scheduler is a robust, efficient, and scalable Kubernetes scheduler
   that optimizes GPU resource allocation for AI workloads in large-scale clusters.
 homepage_url: https://github.com/kai-scheduler/KAI-Scheduler

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:39.241389'
+date: '2026-11-01T10:43:37.463276'
 description: A realtime distributed OLAP datastore.
 homepage_url: https://pinot.apache.org/
 layout: single
@@ -68,3 +68,5 @@ Apache Pinot is widely utilized across the cloud native and open source ecosyste
 - [ClickHouse](/tools/clickhouse/)
 
 - [Apache Kafka](/tools/apache_kafka/)
+
+

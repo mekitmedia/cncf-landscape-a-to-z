@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:48.961800'
+date: '2026-11-01T10:43:37.136269'
 description: The Open Source control plane for self-managed, BYOC, and on-prem deployments.
   Everything you need to distribute applications to self-managed customers out of
   the box.

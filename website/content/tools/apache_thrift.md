@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:39.559833'
+date: '2026-11-01T10:43:37.690224'
 homepage_url: https://thrift.apache.org/
 layout: single
 letter: A
@@ -67,3 +67,5 @@ Apache Thrift is widely utilized across the cloud native and open source ecosyst
 - [Protocol Buffers](/tools/protocol_buffers/)
 
 - [Cap'n Proto](/tools/cap'n_proto/)
+
+

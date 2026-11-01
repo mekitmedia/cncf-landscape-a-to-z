@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:42.303420'
+date: '2026-11-01T10:43:40.990835'
 homepage_url: https://genode.org/
 layout: single
 letter: G

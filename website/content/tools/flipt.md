@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:43.767509'
+date: '2026-11-01T10:43:41.277537'
 description: Open source, self-hosted, developer first, feature flagging and dynamic
   configuration service
 homepage_url: https://flipt.io

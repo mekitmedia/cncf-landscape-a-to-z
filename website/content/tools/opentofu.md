@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:48.235455'
+date: '2026-11-01T10:43:38.523685'
 description: OpenTofu is an open source infrastructure as code tool that enables users
   to safely and predictably provision and manage cloud and on-prem infrastructure.
   It's a community-driven fork of Terraform that maintains backward compatibility

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:38.351323'
+date: '2026-11-01T10:43:37.336792'
 homepage_url: https://carbondata.apache.org/
 layout: single
 letter: A
@@ -67,3 +67,5 @@ Apache CarbonData is widely utilized across the cloud native and open source eco
 - [Apache Iceberg](/tools/apache_iceberg/)
 
 - [Apache ORC](/tools/apache_orc/)
+
+

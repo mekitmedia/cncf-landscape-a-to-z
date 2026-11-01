@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:44.711982'
+date: '2026-11-01T10:43:36.096772'
 homepage_url: https://wasmedge.org/docs/develop/rust/wasinn/pytorch
 layout: single
 letter: W

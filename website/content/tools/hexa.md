@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:48.451497'
+date: '2026-11-01T10:43:35.231250'
 homepage_url: https://hexaorchestration.org/
 layout: single
 letter: H

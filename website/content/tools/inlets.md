@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:41.381187'
+date: '2026-11-01T10:43:35.132278'
 homepage_url: https://docs.inlets.dev
 layout: single
 letter: I

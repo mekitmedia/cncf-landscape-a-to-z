@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:48.463043'
+date: '2026-11-01T10:43:35.236718'
 description: A lightweight, secure container runtime solution designed for modern
   cloud-native workloads
 homepage_url: https://github.com/hyperlight-dev/hyperlight

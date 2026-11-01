@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:38.534467'
+date: '2026-11-01T10:43:37.345349'
 homepage_url: https://hadoop.apache.org/
 layout: single
 letter: A
@@ -67,3 +67,5 @@ Apache Hadoop is widely utilized across the cloud native and open source ecosyst
 - [Apache Hive](/tools/apache_hive/)
 
 - [Ceph](/tools/ceph/)
+
+

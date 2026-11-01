@@ -1,11 +1,11 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-07T03:00:30.491619'
+date: '2026-11-01T10:43:35.112906'
 description: structured outputs for llms
 homepage_url: https://python.useinstructor.com/
 layout: single
 letter: I
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Instructor
 repo_url: https://github.com/567-labs/instructor
 status: completed
@@ -68,3 +68,5 @@ Instructor is trusted by over 100,000 developers, has over 3 million monthly dow
 - [LlamaIndex](/tools/llamaindex/)
 
 - [PydanticAI](/tools/pydanticai/)
+
+

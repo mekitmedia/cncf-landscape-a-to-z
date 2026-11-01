@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-27T17:01:29.913264'
+date: '2026-11-01T10:43:40.322723'
 description: The cloud and AI-native proxy server and framework.
 homepage_url: https://praxis.fast
 layout: single

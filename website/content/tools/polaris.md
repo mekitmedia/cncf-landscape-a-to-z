@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:49.456748'
+date: '2026-11-01T10:43:40.157833'
 homepage_url: https://fairwinds.com/polaris
 layout: single
 letter: P

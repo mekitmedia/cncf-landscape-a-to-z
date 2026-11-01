@@ -1,8 +1,8 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:39.225034'
+date: '2026-11-01T10:43:37.454901'
 description: Open source, distributed, versioned, column-oriented store modeled after
-  Google's Bigtable.
+  Google' Bigtable.
 homepage_url: https://hbase.apache.org/
 layout: single
 letter: A
@@ -69,3 +69,5 @@ Apache HBase is widely utilized across the cloud native and open source ecosyste
 - [Apache Hadoop](/tools/apache_hadoop/)
 
 - [Apache Phoenix](/tools/apache_phoenix/)
+
+

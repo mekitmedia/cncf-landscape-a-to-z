@@ -1,13 +1,13 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-27T17:01:36.819920'
+date: '2026-11-01T10:43:41.122229'
 description: Quarkus is a Kubernetes-native Java framework, designed to enable Java
   developers to create applications for a modern, cloud-native world. It is tailored
   for GraalVM and HotSpot, and crafted from best-of-breed Java libraries and standards.
 homepage_url: https://www.quarkus.io/
 layout: single
 letter: Q
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Quarkus
 repo_url: https://github.com/quarkusio/quarkus
 status: completed
@@ -67,3 +67,6 @@ Release 3.40.1.1 includes bump for rest-assured to version 6.3.0 and other depen
 {{< callout title="Did You Know?" type="info" >}}
 Quarkus achieves its 'Supersonic Subatomic' characteristics by aggressively doing work at build-time (AOT compilation) that traditional frameworks do at runtime.
 {{< /callout >}}
+
+
+

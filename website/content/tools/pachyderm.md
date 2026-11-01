@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:49.363213'
+date: '2026-11-01T10:43:40.333911'
 homepage_url: https://www.pachyderm.com
 layout: single
 letter: P

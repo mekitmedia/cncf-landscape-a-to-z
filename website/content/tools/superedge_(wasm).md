@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:47.407010'
+date: '2026-11-01T10:43:35.876053'
 homepage_url: https://superedge.io/
 layout: single
 letter: S

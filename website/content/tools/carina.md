@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:43.376550'
+date: '2026-11-01T10:43:39.119718'
 description: 'Carina: an high performance and ops-free local storage for kubernetes'
 homepage_url: https://carina-io.github.io/
 layout: single

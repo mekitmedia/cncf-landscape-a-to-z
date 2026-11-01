@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:44.257088'
+date: '2026-11-01T10:43:39.344376'
 homepage_url: https://www.envoyproxy.io
 layout: single
 letter: E

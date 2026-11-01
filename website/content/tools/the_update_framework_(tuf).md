@@ -1,6 +1,6 @@
 ---
 cncf_status: graduated
-date: '2026-10-04T18:37:46.006639'
+date: '2026-11-01T10:43:40.592905'
 description: Python reference implementation of The Update Framework (TUF)
 homepage_url: https://theupdateframework.github.io/
 layout: single

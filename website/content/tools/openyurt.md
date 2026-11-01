@@ -1,6 +1,6 @@
 ---
 cncf_status: incubating
-date: '2026-10-04T18:37:48.200052'
+date: '2026-11-01T10:43:38.506925'
 description: An open platform that extends upstream Kubernetes to Edge.
 homepage_url: https://openyurt.io/
 layout: single

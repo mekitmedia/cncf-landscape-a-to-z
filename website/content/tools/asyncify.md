@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:38.919660'
+date: '2026-11-01T10:43:37.649104'
 homepage_url: https://github.com/GoogleChromeLabs/asyncify
 layout: single
 letter: A
@@ -67,3 +67,5 @@ Asyncify operates by transforming WebAssembly code post-compilation using `wasm-
 - [WebAssembly](/tools/webassembly/)
 
 - [wasm-opt](/tools/wasm-opt/)
+
+

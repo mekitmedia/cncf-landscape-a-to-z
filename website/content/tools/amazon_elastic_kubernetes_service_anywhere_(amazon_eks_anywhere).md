@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:38.985232'
+date: '2026-11-01T10:43:37.370396'
 description: Amazon EKS Anywhere is a new deployment option for Amazon EKS that allows
   customers to create and operate Kubernetes clusters on customer-managed infrastructure,
   supported by AWS.
@@ -19,3 +19,16 @@ title: Amazon Elastic Kubernetes Service Anywhere (Amazon EKS Anywhere)
 ## Overview
 
 Amazon EKS Anywhere is a new deployment option for Amazon EKS that allows customers to create and operate Kubernetes clusters on customer-managed infrastructure, supported by AWS.
+
+
+
+
+
+
+
+
+
+
+
+
+

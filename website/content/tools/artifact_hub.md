@@ -1,8 +1,8 @@
 ---
 cncf_status: incubating
-date: '2026-10-04T18:37:38.935534'
+date: '2026-11-01T10:43:37.516976'
 description: Artifact Hub is a web-based application that enables finding, installing,
-  and publishing packages and configurations for CNCF projects
+  and publishing Cloud Native packages
 homepage_url: https://artifacthub.io
 layout: single
 letter: A
@@ -71,3 +71,5 @@ Artifact Hub supports 25+ artifact kinds, and its FAQ says repositories are proc
 - [Falco](/tools/falco/)
 
 - [Open Policy Agent (OPA)](/tools/open_policy_agent_(opa)/)
+
+

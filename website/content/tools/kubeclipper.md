@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:40.374062'
+date: '2026-11-01T10:43:36.428237'
 description: Manage kubernetes in the most light and convenient way.
 homepage_url: https://www.kubeclipper.io/
 layout: single

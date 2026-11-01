@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:44.017345'
+date: '2026-11-01T10:43:39.257410'
 description: Welkin is a security-hardened Kubernetes distribution. It is designed
   to meet the tough demands on security and compliance of regulated industries. The
   distribution includes logging, monitoring, single-sign-on integration with common

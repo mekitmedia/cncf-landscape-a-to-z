@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:43.040438'
+date: '2026-11-01T10:43:39.039671'
 description: An easy to use and powerful chaos engineering experiment toolkit.
 homepage_url: https://chaosblade.io/
 layout: single

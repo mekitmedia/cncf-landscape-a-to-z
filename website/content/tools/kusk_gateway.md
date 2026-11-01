@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:40.561904'
+date: '2026-11-01T10:43:36.642335'
 description: Kusk Gateway is a self-service API gateway powered by OpenAPI and Envoy.
   Kusk Gateway is built and maintained by Kubeshop.
 homepage_url: https://kusk.io/

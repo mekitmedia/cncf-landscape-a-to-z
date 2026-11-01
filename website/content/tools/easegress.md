@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:44.087112'
+date: '2026-11-01T10:43:39.285498'
 description: A Cloud Native traffic orchestration system
 homepage_url: https://megaease.cn/easegress/
 layout: single

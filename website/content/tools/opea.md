@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:48.140029'
+date: '2026-11-01T10:43:38.353767'
 description: OPEA is an ecosystem orchestration framework to integrate performant
   GenAI technologies & workflows leading to quicker GenAI adoption and business value.
 homepage_url: https://opea.dev/

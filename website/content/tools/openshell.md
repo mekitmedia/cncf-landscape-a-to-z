@@ -1,7 +1,8 @@
 ---
 cncf_status: sandbox
-date: '2026-10-09T03:21:50.695269'
-description: OpenShell is the safe, private runtime for fleets of autonomous AI agents.
+date: '2026-11-01T10:43:38.410101'
+description: OpenShell provides secure, policy-enforced sandboxed runtimes for autonomous
+  AI agents.
 homepage_url: https://docs.nvidia.com/openshell/latest/
 layout: single
 letter: O

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:39.140990'
+date: '2026-11-01T10:43:37.312131'
 description: Anteon is a platform that combines effortless Kubernetes Monitoring and
   Performance Testing  to provide seamless observability of your K8S infrastructure
   using eBPF.
@@ -70,3 +70,5 @@ Anteon is widely utilized across the cloud native and open source ecosystem.
 - [Pixie](/tools/pixie/)
 
 - [Cilium](/tools/cilium/)
+
+

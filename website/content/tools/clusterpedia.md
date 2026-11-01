@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:43.087333'
+date: '2026-11-01T10:43:38.886041'
 description: Clusterpedia is used for complex resources search across multiple clusters,
   support simultaneous search of a single kind of resource  or multiple kinds of resources
   existing in multiple clusters.

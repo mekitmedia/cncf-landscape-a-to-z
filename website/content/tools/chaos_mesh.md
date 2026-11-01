@@ -1,6 +1,6 @@
 ---
 cncf_status: incubating
-date: '2026-10-04T18:37:43.017042'
+date: '2026-11-01T10:43:39.028425'
 description: A Chaos Engineering Platform for Kubernetes
 homepage_url: https://chaos-mesh.org/
 layout: single

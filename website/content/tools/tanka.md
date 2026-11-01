@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:46.135271'
+date: '2026-11-01T10:43:40.763195'
 description: Tanka is a composable configuration utility for Kubernetes. It leverages
   the Jsonnet language to realize flexible, reusable and concise configuration.
 homepage_url: https://tanka.dev/

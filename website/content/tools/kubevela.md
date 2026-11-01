@@ -1,6 +1,6 @@
 ---
 cncf_status: incubating
-date: '2026-10-04T18:37:40.244162'
+date: '2026-11-01T10:43:36.647903'
 description: Make shipping applications more enjoyable
 homepage_url: https://kubevela.io
 layout: single

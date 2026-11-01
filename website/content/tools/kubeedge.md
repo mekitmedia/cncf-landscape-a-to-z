@@ -1,11 +1,11 @@
 ---
 cncf_status: graduated
-date: '2026-10-27T02:43:44.285470'
+date: '2026-11-01T10:43:36.708004'
 description: A Kubernetes Native Edge Computing Framework
 homepage_url: https://kubeedge.io/en/
 layout: single
 letter: K
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: KubeEdge
 repo_url: https://github.com/kubeedge/kubeedge
 status: completed
@@ -58,3 +58,5 @@ KubeEdge is a graduation-level hosted project by the Cloud Native Computing Foun
 
 
 - [CloudHub](/tools/cloudhub/)
+
+

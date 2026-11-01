@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:40.538443'
+date: '2026-11-01T10:43:36.631085'
 description: Kuadrant combines Gateway API and Istio-based gateway controllers to
   enhance application connectivity. It enables platform engineers  and application
   developers to easily connect, secure, and protect their services and infrastructure

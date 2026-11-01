@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:45.615756'
+date: '2026-11-01T10:43:39.726990'
 description: Radius is a cloud-native application platform that enables developers
   and the platform engineers that support them to collaborate on delivering and managing
   cloud-native applications that follow organizational best practices for cost, operations

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:46.950176'
+date: '2026-11-01T10:43:35.725877'
 homepage_url: https://squash.solo.io/
 layout: single
 letter: S

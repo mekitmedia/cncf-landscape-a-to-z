@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:45.198001'
+date: '2026-11-01T10:43:39.959307'
 description: A framework for generative AI
 homepage_url: https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/stable/index.html
 layout: single

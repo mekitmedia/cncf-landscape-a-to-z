@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:47.337219'
+date: '2026-11-01T10:43:35.842581'
 description: Integrate cutting-edge LLM technology quickly and easily into your apps.
 homepage_url: https://learn.microsoft.com/en-us/semantic-kernel/overview/
 layout: single

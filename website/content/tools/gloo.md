@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:42.085502'
+date: '2026-11-01T10:43:41.032667'
 homepage_url: https://www.solo.io
 layout: single
 letter: G

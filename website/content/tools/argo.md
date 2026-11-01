@@ -1,6 +1,6 @@
 ---
 cncf_status: graduated
-date: '2026-10-04T18:37:39.350279'
+date: '2026-11-01T10:43:37.212757'
 description: Kubernetes-native tools to run workflows, manage clusters, and do GitOps
   right.
 homepage_url: https://argoproj.github.io/
@@ -69,3 +69,5 @@ Argo is widely utilized across the cloud native and open source ecosystem.
 - [Tekton](/tools/tekton/)
 
 - [Spinnaker](/tools/spinnaker/)
+
+

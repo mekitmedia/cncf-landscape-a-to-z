@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:39.175796'
+date: '2026-11-01T10:43:37.823567'
 homepage_url: https://www.alluxio.io/
 layout: single
 letter: A
@@ -67,3 +67,5 @@ Alluxio is widely utilized across the cloud native and open source ecosystem.
 - [Trino](/tools/trino/)
 
 - [JuiceFS](/tools/juicefs/)
+
+

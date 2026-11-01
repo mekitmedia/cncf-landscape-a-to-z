@@ -1,8 +1,7 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:47.322361'
-description: Spin is a framework for building and deploying serverless applications
-  in WebAssembly.
+date: '2026-11-01T10:43:35.748093'
+description: Spin is a framework for building serverless applications in WebAssembly.
 homepage_url: https://spinframework.dev
 layout: single
 letter: S

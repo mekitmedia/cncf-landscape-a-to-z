@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:44.099141'
+date: '2026-11-01T10:43:39.291112'
 homepage_url: https://www.getenroute.io
 layout: single
 letter: E

@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:48.330066'
+date: '2026-11-01T10:43:38.596786'
 description: Oxia is a scalable metadata store and coordination system
 homepage_url: https://oxia-db.github.io
 layout: single

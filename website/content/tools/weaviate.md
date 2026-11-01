@@ -1,10 +1,7 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:44.631075'
-description: Open source vector database that stores both objects and vectors, allowing
-  for the combination of vector search with structured filtering with the fault tolerance
-  and scalability of a cloud-native database​.
-homepage_url: https://github.com/weaviate/weaviate
+date: '2026-11-01T10:43:35.964273'
+homepage_url: https://weaviate.io/developers/weaviate/current/index.html
 layout: single
 letter: W
 lifecycle_stage: initial

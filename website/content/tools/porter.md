@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:49.549032'
+date: '2026-11-01T10:43:40.266378'
 description: Porter enables you to package your application artifact, client tools,
   configuration and deployment logic together as a versioned bundle that you can distribute,
   and install with a single command

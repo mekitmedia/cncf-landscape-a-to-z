@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:45.903507'
+date: '2026-11-01T10:43:40.710452'
 description: Holistic life cycle management of Kubernetes clusters on bare metal or
   OpenStack
 homepage_url: https://tarook.cloud/en/

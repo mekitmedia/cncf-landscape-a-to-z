@@ -1,6 +1,6 @@
 ---
 cncf_status: graduated
-date: '2026-10-04T18:37:48.904032'
+date: '2026-11-01T10:43:37.107955'
 homepage_url: https://dapr.io
 layout: single
 letter: D

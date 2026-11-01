@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:43.424040'
+date: '2026-11-01T10:43:39.084328'
 description: Composio powers 1000+ toolkits, tool search, context management, authentication,
   and a sandboxed workbench to help you build AI agents that turn intent into action.
 homepage_url: https://composio.dev/

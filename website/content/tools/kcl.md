@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:40.971216'
+date: '2026-11-01T10:43:36.716815'
 description: A constraint-based record & functional language mainly used in configuration
   and policy scenarios.
 homepage_url: https://kcl-lang.io/

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:37.649296'
+date: '2026-11-01T10:43:38.021157'
 description: GPU optimized techniques for training transformer models at-scale
 homepage_url: https://github.com/NVIDIA/Megatron-LM
 layout: single

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:41.505117'
+date: '2026-11-01T10:43:35.121066'
 description: End-to-end, atomically decoupled LLM inference acceleration solution
   for scalable AI inference deployment.
 homepage_url: https://www.openfuyao.cn/en/project/infernex.html

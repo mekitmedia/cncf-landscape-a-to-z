@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-09T03:21:49.965759'
+date: '2026-11-01T10:43:35.770223'
 description: Spinifex is an open source, AWS-compatible cloud for bare-metal, edge
   and on-premise hardware. It implements the EC2, VPC, S3, EKS and RDS APIs, so existing
   AWS CLI, SDK and Terraform workflows run unchanged on your own servers.

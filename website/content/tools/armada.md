@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:39.089558'
+date: '2026-11-01T10:43:37.422413'
 description: Armada is a multi-Kubernetes cluster batch job scheduler
 homepage_url: https://armadaproject.io/
 layout: single
@@ -70,3 +70,5 @@ G-Research, a leading quantitative research company, uses Armada in production t
 - [Agones](/tools/agones/)
 
 - [Apache Mesos](/tools/apache_mesos/)
+
+

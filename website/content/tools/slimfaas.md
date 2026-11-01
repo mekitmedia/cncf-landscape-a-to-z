@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:47.230516'
+date: '2026-11-01T10:43:35.798152'
 description: The slimest and simplest Function As A Service
 homepage_url: https://github.com/SlimPlanet/SlimFaas
 layout: single

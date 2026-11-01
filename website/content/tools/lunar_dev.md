@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:41.673535'
+date: '2026-11-01T10:43:39.464168'
 description: Lunar.dev’s mission is to enable optimization and control of  third-party
   API consumption in production environments. Lunar is a lightweight tool that empowers
   DevOps and engineering teams  to centralize consumption, gain insight and visibility

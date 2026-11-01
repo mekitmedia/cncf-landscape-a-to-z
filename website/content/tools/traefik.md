@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:46.170192'
+date: '2026-11-01T10:43:40.752027'
 homepage_url: https://traefik.io/traefik
 layout: single
 letter: T

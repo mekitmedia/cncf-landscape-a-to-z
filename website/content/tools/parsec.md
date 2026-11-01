@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:49.409410'
+date: '2026-11-01T10:43:40.134916'
 description: Platform AbstRaction for SECurity service
 homepage_url: https://parsec.community/
 layout: single

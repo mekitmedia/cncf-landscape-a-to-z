@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:38.038071'
+date: '2026-11-01T10:43:41.091443'
 description: Sub-second search & analytics engine on cloud storage
 homepage_url: https://quickwit.io/
 layout: single

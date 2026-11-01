@@ -1,6 +1,6 @@
 ---
 cncf_status: graduated
-date: '2026-10-04T18:37:41.244733'
+date: '2026-11-01T10:43:39.556937'
 description: 'Jaeger: open source, end-to-end distributed tracing. Monitor and troubleshoot
   transactions in complex distributed systems'
 homepage_url: https://www.jaegertracing.io/

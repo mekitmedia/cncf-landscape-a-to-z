@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:41.098502'
+date: '2026-11-01T10:43:36.820166'
 description: The universal Envoy service mesh for distributed service connectivity
 homepage_url: https://kuma.io
 layout: single

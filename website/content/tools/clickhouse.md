@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:42.538738'
+date: '2026-11-01T10:43:38.819113'
 description: Free analytics DBMS for big data.
 homepage_url: https://github.com/ClickHouse/ClickHouse
 layout: single

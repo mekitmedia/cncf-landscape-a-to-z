@@ -1,6 +1,6 @@
 ---
 cncf_status: graduated
-date: '2026-10-04T18:37:43.790312'
+date: '2026-11-01T10:43:41.193008'
 description: Fluentd is an open source data collector for unified logging layer
 homepage_url: https://www.fluentd.org/
 layout: single

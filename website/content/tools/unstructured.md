@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:38.339733'
+date: '2026-11-01T10:43:39.176924'
 description: Convert documents to structured data effortlessly. Unstructured is open-source
   ETL solution for transforming complex documents into clean, structured formats for
   language models. Visit our website to learn more about our enterprise grade Platform

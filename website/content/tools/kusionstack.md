@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:41.074600'
+date: '2026-11-01T10:43:36.767133'
 description: Declarative Intent Driven Platform Orchestrator for Internal Developer
   Platform (IDP)
 homepage_url: https://kusionstack.io/

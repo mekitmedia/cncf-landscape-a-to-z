@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:44.465272'
+date: '2026-11-01T10:43:40.401365'
 description: Bouncy Castle is one of the most widely used FIPS-certified open-source
   cryptographic APIs for Java and C#, allowing developers to easily integrate  PKI
   security into their applications.

@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:49.537522'
+date: '2026-11-01T10:43:40.260759'
 description: An open-source tool for developers to work with containers and Kubernetes
   with an intuitive and user-friendly interface to effortlessly build, manage, and
   deploy containers and Kubernetes — all from the desktop.

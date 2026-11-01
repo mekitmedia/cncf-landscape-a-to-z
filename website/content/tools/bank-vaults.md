@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:44.453851'
+date: '2026-11-01T10:43:40.395648'
 description: 'Bank-Vaults is a Vault swiss-army knife: a K8s operator, Go client with
   automatic token renewal, automatic configuration, multiple unseal options and more.
   A CLI tool to init, unseal and configure Vault (auth methods, secret engines). Direct

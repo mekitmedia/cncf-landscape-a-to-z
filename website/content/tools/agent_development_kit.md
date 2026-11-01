@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:39.497848'
+date: '2026-11-01T10:43:37.732084'
 description: An open-source, code-first Python toolkit for building, evaluating, and
   deploying sophisticated AI agents with flexibility and control.
 homepage_url: https://google.github.io/adk-docs/
@@ -65,3 +65,5 @@ Maintained by Google, it heavily relies on Pydantic to structure inputs and outp
 - [Agno](/tools/agno/)
 
 - [LangChain](/tools/langchain/)
+
+

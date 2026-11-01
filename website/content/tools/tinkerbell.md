@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:46.312040'
+date: '2026-11-01T10:43:40.790969'
 description: Bare metal provisioning engine, supporting network and ISO booting, BMC
   interactions, metadata service, and workflow engine.
 homepage_url: https://tinkerbell.org/

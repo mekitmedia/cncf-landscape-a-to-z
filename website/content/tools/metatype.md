@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:37.933105'
+date: '2026-11-01T10:43:38.098260'
 homepage_url: https://metatype.dev
 layout: single
 letter: M

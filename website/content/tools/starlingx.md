@@ -1,13 +1,13 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-09T17:43:11.724308'
+date: '2026-11-01T10:43:35.442715'
 description: StarlingX is a fully integrated open source edge platform that integrates
   OpenStack and Kubernetes together to provide all functionality needed in the central
   cloud and on the edge sites. The project is developed by the StarlingX community.
 homepage_url: https://www.starlingx.io
 layout: single
 letter: S
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: StarlingX
 repo_url: https://github.com/starlingx/config
 status: completed
@@ -18,7 +18,7 @@ title: StarlingX
 
 ## Overview
 
-StarlingX is a fully integrated edge cloud software stack that provides everything needed to deploy an edge cloud on one, two, or up to 100 servers.
+StarlingX offers a fully integrated edge cloud software stack that provides everything required to deploy an edge cloud on one to 100 servers.
 
 
 
@@ -68,3 +68,5 @@ The starlingx/config repository handles the StarlingX configuration management s
 - [OpenStack](/tools/openstack/)
 
 - [Kubernetes](/tools/kubernetes/)
+
+

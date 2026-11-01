@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:40.396830'
+date: '2026-11-01T10:43:36.439488'
 description: Kubekey provides a flexible, rapid and convenient way to install Kubernetes
   only, both Kubernetes and KubeSphere, and related cloud-native add-ons.  It is also
   an efficient tool to scale and upgrade your cluster.

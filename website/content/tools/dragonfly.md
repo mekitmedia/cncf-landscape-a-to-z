@@ -1,6 +1,6 @@
 ---
 cncf_status: graduated
-date: '2026-10-04T18:37:49.009490'
+date: '2026-11-01T10:43:37.184493'
 description: Delivers efficient, stable, and secure data distribution and acceleration
   powered by P2P technology, with an optional content‑addressable filesystem that
   accelerates OCI container launch.

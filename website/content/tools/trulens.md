@@ -1,16 +1,15 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-18T01:47:23.168225'
-description: TruLens is a powerful open source library for evaluating and tracking
-  large language model-based applications.
+date: '2026-11-01T10:43:40.724254'
+description: Evaluation and Tracking for LLM Experiments and AI Agents
 homepage_url: https://www.trulens.org/
 layout: single
 letter: T
-lifecycle_stage: first_pass
-project_name: Trulens
+lifecycle_stage: tech_writing
+project_name: TruLens
 repo_url: https://github.com/truera/trulens
 status: completed
-title: Trulens
+title: TruLens
 ---
 
 
@@ -69,3 +68,5 @@ Tracing is OpenTelemetry-native, so a trace is portable to any OTLP backend, and
 - [langchain](/tools/langchain/)
 
 - [llamaindex](/tools/llamaindex/)
+
+

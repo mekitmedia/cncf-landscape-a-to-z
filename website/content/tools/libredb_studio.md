@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:41.516849'
+date: '2026-11-01T10:43:39.429609'
 description: Self-hosted SQL IDE that runs in the browser, deployed next to the data
   it queries instead of on each developer's laptop.
 homepage_url: https://libredb.org

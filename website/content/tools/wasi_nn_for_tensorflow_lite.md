@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:44.723686'
+date: '2026-11-01T10:43:36.102288'
 homepage_url: https://wasmedge.org/docs/develop/rust/wasinn/tensorflow_lite
 layout: single
 letter: W

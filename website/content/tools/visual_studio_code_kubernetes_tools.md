@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:38.191715'
+date: '2026-11-01T10:43:36.953283'
 description: The extension for developers building applications to run in Kubernetes
   clusters and for DevOps staff troubleshooting Kubernetes applications.
 homepage_url: https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.vscode-kubernetes-tools

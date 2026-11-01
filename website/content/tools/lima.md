@@ -1,6 +1,6 @@
 ---
 cncf_status: incubating
-date: '2026-10-04T18:37:41.606082'
+date: '2026-11-01T10:43:39.424046'
 description: Linux virtual machines, typically on macOS, for running containerd
 homepage_url: https://github.com/lima-vm/lima
 layout: single

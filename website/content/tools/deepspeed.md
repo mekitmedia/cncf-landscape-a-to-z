@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:48.881207'
+date: '2026-11-01T10:43:37.068470'
 description: Deep learning optimization library that makes distributed training and
   inference easy, efficient, and effective.
 homepage_url: https://github.com/microsoft/DeepSpeed

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:39.575800'
+date: '2026-11-01T10:43:37.698516'
 homepage_url: https://brpc.apache.org/
 layout: single
 letter: A
@@ -67,3 +67,5 @@ Apache bRPC is widely utilized across the cloud native and open source ecosystem
 - [Apache Thrift](/tools/apache_thrift/)
 
 - [Dubbo](/tools/dubbo/)
+
+

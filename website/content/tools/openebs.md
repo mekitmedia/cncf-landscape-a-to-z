@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:48.270762'
+date: '2026-11-01T10:43:38.585908'
 homepage_url: https://www.openebs.io/
 layout: single
 letter: O

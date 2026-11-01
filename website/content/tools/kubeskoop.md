@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:40.825355'
+date: '2026-11-01T10:43:36.303939'
 description: KubeSkoop is a network monitoring & diagnosis suite for Kubernetes.
 homepage_url: https://kubeskoop.io
 layout: single

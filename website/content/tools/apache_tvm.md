@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:38.623446'
+date: '2026-11-01T10:43:37.839941'
 homepage_url: https://tvm.apache.org/
 layout: single
 letter: A
@@ -67,3 +67,5 @@ Apache TVM is widely utilized across the cloud native and open source ecosystem.
 - [TensorRT](/tools/tensorrt/)
 
 - [OpenVINO](/tools/openvino/)
+
+

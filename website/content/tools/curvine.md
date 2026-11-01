@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:43.411563'
+date: '2026-11-01T10:43:39.136557'
 description: Curvine is a high-performance distributed multi-tier caching system written
   in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object
   storage, with Kubernetes CSI integration.

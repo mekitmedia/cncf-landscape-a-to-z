@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:39.121719'
+date: '2026-11-01T10:43:37.630775'
 description: Next Generation Agentic Proxy for AI Agents and MCP servers
 homepage_url: https://agentgateway.dev/
 layout: single
@@ -70,3 +70,5 @@ Agentgateway describes itself as the first complete connectivity solution for Ag
 - [Model Context Protocol (MCP)](/tools/model_context_protocol_(mcp)/)
 
 - [Envoy Proxy](/tools/envoy_proxy/)
+
+

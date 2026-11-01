@@ -1,12 +1,12 @@
 ---
 cncf_status: sandbox
-date: '2026-10-21T16:18:42.330031'
+date: '2026-11-01T10:43:36.548514'
 description: QoS based scheduling system for hybrid orchestration workloads on Kubernetes,
   bringing workloads the best layout and status.
 homepage_url: https://koordinator.sh
 layout: single
 letter: K
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Koordinator
 repo_url: https://github.com/koordinator-sh/koordinator
 status: completed
@@ -65,3 +65,5 @@ Koordinator aims to enhance Kubernetes user experiences in workload management b
 
 
 - [kubernetes](/tools/kubernetes/)
+
+

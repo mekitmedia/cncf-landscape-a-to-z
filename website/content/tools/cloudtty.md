@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:42.935738'
+date: '2026-11-01T10:43:38.946034'
 description: A Friendly Kubernetes CloudShell (Web Terminal)
 homepage_url: https://cloudtty.github.io/cloudtty/
 layout: single

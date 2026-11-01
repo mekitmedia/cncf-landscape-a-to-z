@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:42.326635'
+date: '2026-11-01T10:43:41.085860'
 homepage_url: https://www.gluster.org/
 layout: single
 letter: G

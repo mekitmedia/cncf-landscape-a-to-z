@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:44.122134'
+date: '2026-11-01T10:43:39.263133'
 description: Eraser uses vulnerability data to remove non-running images from all
   Kubernetes nodes in a cluster.
 homepage_url: https://eraser-dev.github.io/eraser/

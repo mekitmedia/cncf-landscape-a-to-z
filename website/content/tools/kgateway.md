@@ -1,12 +1,12 @@
 ---
-cncf_status: sandbox
-date: '2026-10-26T02:00:23.763885'
+cncf_status: non-cncf
+date: '2026-11-01T10:43:36.610454'
 description: An Envoy-powered, Kubernetes-native API Gateway that integrates Kubernetes
   Gateway API with a control plane for API connectivity in any cloud environment.
 homepage_url: https://kgateway.dev/
 layout: single
 letter: K
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Kgateway
 repo_url: https://github.com/kgateway-dev/kgateway
 status: completed
@@ -70,3 +70,5 @@ The project was launched in 2018 as Gloo by Solo.io and has been production-read
 - [Envoy](/tools/envoy/)
 
 - [Kubernetes](/tools/kubernetes/)
+
+

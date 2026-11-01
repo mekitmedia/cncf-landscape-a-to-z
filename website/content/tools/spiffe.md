@@ -1,6 +1,6 @@
 ---
 cncf_status: graduated
-date: '2026-10-04T18:37:47.500906'
+date: '2026-11-01T10:43:35.776013'
 description: A universal identity control plane for distributed systems
 homepage_url: https://spiffe.io/
 layout: single

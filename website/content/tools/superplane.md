@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-19T17:54:13.990023'
+date: '2026-11-01T10:43:35.650792'
 description: Open source DevOps control plane for event-driven workflows.
 homepage_url: https://superplane.com
 layout: single
@@ -66,3 +66,5 @@ SuperPlane is built on an Apache 2.0 open source engine and lets you choose your
 
 
 - [kubernetes](/tools/kubernetes/)
+
+

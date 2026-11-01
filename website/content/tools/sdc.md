@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:47.265392'
+date: '2026-11-01T10:43:35.753611'
 description: SDC (schema Driven Configuration) exposes any schema based configuration
   as Kubernetes resources.
 homepage_url: https://docs.sdcio.dev/

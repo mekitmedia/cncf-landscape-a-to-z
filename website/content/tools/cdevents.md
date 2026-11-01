@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:42.725087'
+date: '2026-11-01T10:43:39.095477'
 homepage_url: https://cdevents.dev
 layout: single
 letter: C

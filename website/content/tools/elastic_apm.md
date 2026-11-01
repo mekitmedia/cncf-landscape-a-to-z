@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:44.173475'
+date: '2026-11-01T10:43:39.223718'
 homepage_url: https://www.elastic.co/observability/application-performance-monitoring
 layout: single
 letter: E

@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:40.173721'
+date: '2026-11-01T10:43:36.405906'
 description: A multi-sandbox container runtime that provides cloud-native, all-scenario
   multiple sandbox container solutions.
 homepage_url: https://kuasar.io/

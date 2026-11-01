@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:38.807404'
+date: '2026-11-01T10:43:37.789206'
 homepage_url: https://streampipes.apache.org/
 layout: single
 letter: A
@@ -67,3 +67,5 @@ Apache StreamPipes is widely utilized across the cloud native and open source ec
 - [ThingsBoard](/tools/thingsboard/)
 
 - [Apache NiFi](/tools/apache_nifi/)
+
+

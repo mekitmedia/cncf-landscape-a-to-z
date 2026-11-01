@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:46.664592'
+date: '2026-11-01T10:43:35.628480'
 description: SIGHUP Distribution is a battle-tested distribution purely based on upstream
   Kubernetes. Deploy and manage a stable and production grade Kubernetes Cluster at
   scale with a comprehensive Cloud Native stack implemented with top notch CNCF components.

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:46.264576'
+date: '2026-11-01T10:43:40.559197'
 description: Testkube provides a Kubernetes-native framework for test definition,
   execution and results. It decouples test artifacts and execution from CI/CD tooling
   and makes testing part of your cluster's state. Testkube is built and maintained

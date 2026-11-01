@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:42.177408'
+date: '2026-11-01T10:43:40.925175'
 description: Loki is a horizontally-scalable, highly-available, multi-tenant log aggregation
   system inspired by Prometheus. It is designed to be very cost effective and easy
   to operate. It does not index the contents of the logs, but rather a set of labels

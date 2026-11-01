@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:49.491563'
+date: '2026-11-01T10:43:40.204239'
 description: DistributedDataParallel (DDP) implements data parallelism at the module
   level which can run across multiple machines.
 homepage_url: https://pytorch.org/tutorials/intermediate/ddp_tutorial.html

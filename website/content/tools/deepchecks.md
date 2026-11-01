@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:48.846382'
+date: '2026-11-01T10:43:37.074104'
 description: Tests for Continuous Validation of ML Models & Data. Deepchecks is a
   holistic open-source solution for all of your AI & ML validation needs, enabling
   to thoroughly test your data and models from research to production.

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:48.474941'
+date: '2026-11-01T10:43:35.254277'
 description: Distributed deep learning training framework for TensorFlow, Keras, PyTorch,
   and Apache MXNet.
 homepage_url: https://horovod.ai/

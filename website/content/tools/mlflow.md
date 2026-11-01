@@ -1,6 +1,9 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:37.504457'
+date: '2026-11-01T10:43:37.981147'
+description: The open source AI engineering platform for agents, LLMs, and ML models.
+  MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality
+  AI applications while controlling costs and managing access to models and data.
 homepage_url: https://mlflow.org/
 layout: single
 letter: M
@@ -67,3 +70,5 @@ With over 60 million monthly downloads, thousands of organizations rely on MLflo
 - [ClearML](/tools/clearml/)
 
 - [Neptune](/tools/neptune/)
+
+

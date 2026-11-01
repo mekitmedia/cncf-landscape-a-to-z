@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:39.956295'
+date: '2026-11-01T10:43:36.475646'
 description: Machine Learning Toolkit for Kubernetes
 homepage_url: https://www.kubeflow.org/docs/components/notebooks
 layout: single

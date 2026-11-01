@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:38.700306'
+date: '2026-11-01T10:43:37.614128'
 homepage_url: https://akka.io/
 layout: single
 letter: A
@@ -67,3 +67,5 @@ Akka is widely utilized across the cloud native and open source ecosystem.
 - [Ray](/tools/ray/)
 
 - [Orleans](/tools/orleans/)
+
+

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:41.221344'
+date: '2026-11-01T10:43:39.562598'
 description: Scripting languages that support Wasm
 homepage_url: https://github.com/bytecodealliance/javy
 layout: single

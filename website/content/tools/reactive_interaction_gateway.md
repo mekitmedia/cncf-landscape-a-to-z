@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:45.638761'
+date: '2026-11-01T10:43:39.721465'
 homepage_url: https://accenture.github.io/reactive-interaction-gateway/
 layout: single
 letter: R

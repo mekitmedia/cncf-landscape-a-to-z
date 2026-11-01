@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:42.761113'
+date: '2026-11-01T10:43:38.750630'
 description: Casdoor is an open-source UI-first identity access management (IAM) /
   Single-Sign-On (SSO) platform with web UI supporting OAuth 2.0, OIDC, SAML and CAS.
 homepage_url: https://casdoor.org/

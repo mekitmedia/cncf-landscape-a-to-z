@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:49.033159'
+date: '2026-11-01T10:43:37.023466'
 description: Open-source, AI-native OpenTelemetry APM platform. OTLP trace and metrics
   ingest, service topology, and multi-agent SRE investigation that cites real spans.
   Self-hosted via Docker or Kubernetes.

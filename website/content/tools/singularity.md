@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:46.849589'
+date: '2026-11-01T10:43:35.546097'
 homepage_url: https://sylabs.io/
 layout: single
 letter: S

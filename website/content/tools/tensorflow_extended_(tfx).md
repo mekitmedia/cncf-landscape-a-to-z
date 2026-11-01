@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:45.949177'
+date: '2026-11-01T10:43:40.654633'
 description: TFX is an end-to-end platform for deploying production ML pipelines
 homepage_url: https://www.tensorflow.org/tfx
 layout: single

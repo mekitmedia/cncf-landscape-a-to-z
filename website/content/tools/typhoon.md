@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:45.915059'
+date: '2026-11-01T10:43:40.715958'
 description: Typhoon distributes upstream Kubernetes, architectural conventions, and
   cluster addons, much like a GNU/Linux distribution provides the Linux kernel and
   userspace components.
@@ -68,3 +68,5 @@ Typhoon distributes upstream Kubernetes, architectural conventions, and cluster 
 - [Kubespray](/tools/kubespray/)
 
 - [kops](/tools/kops/)
+
+

@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:37.554753'
+date: '2026-11-01T10:43:38.143313'
 description: A network load-balancer implementation for Kubernetes using standard
   routing protocols
 homepage_url: https://metallb.universe.tf

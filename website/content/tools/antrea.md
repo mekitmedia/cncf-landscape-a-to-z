@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:38.996718'
+date: '2026-11-01T10:43:37.471735'
 description: Kubernetes networking based on Open vSwitch
 homepage_url: https://antrea.io/
 layout: single
@@ -68,3 +68,5 @@ Antrea is widely utilized across the cloud native and open source ecosystem.
 - [Cilium](/tools/cilium/)
 
 - [Flannel](/tools/flannel/)
+
+

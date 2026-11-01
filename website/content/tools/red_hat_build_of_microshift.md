@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:45.512090'
+date: '2026-11-01T10:43:39.699110'
 description: A component of Red Hat Device Edge used to provide lightweight Kubernetes
   container orchestration in field deployed devices at the far edge
 homepage_url: https://www.redhat.com/en/technologies/device-edge

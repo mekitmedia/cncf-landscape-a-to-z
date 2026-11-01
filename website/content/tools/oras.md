@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:47.854336'
+date: '2026-11-01T10:43:38.464077'
 description: ORAS is the tool for working with OCI Artifacts
 homepage_url: https://oras.land/
 layout: single

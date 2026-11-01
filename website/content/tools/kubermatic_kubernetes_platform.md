@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:39.980075'
+date: '2026-11-01T10:43:36.486750'
 description: Kubermatic Kubernetes Platform automates Kubernetes deployments and Day
   2 operations for thousands of Kubernetes clusters on any cloud, on-premises and
   edge.

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:44.145214'
+date: '2026-11-01T10:43:39.182615'
 description: EaseAgent is a Javaagent that can be integrated with the mainstream monitoring
   system, providing standard data formats that are fully compatible with OpenZipkin
   and Prometheus. EaseAgent is also very easy to extend through the Plugin Mechanism

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:42.074125'
+date: '2026-11-01T10:43:40.985207'
 description: The Gardener implements automated management and operation of Kubernetes
   clusters as a service and aims to support that service on multiple  Cloud providers.
 homepage_url: https://gardener.cloud

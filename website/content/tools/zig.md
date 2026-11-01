@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:44.294641'
+date: '2026-11-01T10:43:40.022996'
 description: Compiled language to Wasm
 homepage_url: https://ziglang.org/
 layout: single

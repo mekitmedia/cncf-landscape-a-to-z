@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:41.300614'
+date: '2026-11-01T10:43:39.584590'
 description: Convert any URL to an LLM-friendly input with a simple prefix
 homepage_url: https://jina.ai/reader/
 layout: single

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:40.385408'
+date: '2026-11-01T10:43:36.433890'
 description: Kubeasz is a tool to deploy a Production Ready Kubernetes Cluster with
   ansible playbooks.
 homepage_url: https://github.com/easzlab/kubeasz

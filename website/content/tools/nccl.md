@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:45.091081'
+date: '2026-11-01T10:43:39.899298'
 description: Optimized primitives for inter-GPU communication.
 homepage_url: https://github.com/NVIDIA/nccl
 layout: single

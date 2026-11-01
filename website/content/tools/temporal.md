@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:45.892042'
+date: '2026-11-01T10:43:40.837308'
 description: Temporal service
 homepage_url: https://temporal.io/
 layout: single

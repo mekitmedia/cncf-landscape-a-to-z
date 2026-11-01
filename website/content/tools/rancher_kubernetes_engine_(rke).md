@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:45.627294'
+date: '2026-11-01T10:43:39.682094'
 description: Rancher Kubernetes Engine, an extremely simple, lightning fast Kubernetes
   installer that works everywhere.
 homepage_url: https://github.com/rancher/rke

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:38.078756'
+date: '2026-11-01T10:43:39.604484'
 description: An optimized distributed gradient boosting library for machine learning.
 homepage_url: https://xgboost.readthedocs.io/en/stable/
 layout: single

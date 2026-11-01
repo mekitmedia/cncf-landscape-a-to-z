@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:47.913617'
+date: '2026-11-01T10:43:38.492448'
 homepage_url: https://www.openapis.org/
 layout: single
 letter: O
@@ -65,3 +65,5 @@ The OpenAPI Specification is a community-driven open specification within the Op
 - [Swagger](/tools/swagger/)
 
 - [Postman](/tools/postman/)
+
+

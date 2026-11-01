@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:40.515422'
+date: '2026-11-01T10:43:36.620134'
 homepage_url: https://konghq.com/
 layout: single
 letter: K

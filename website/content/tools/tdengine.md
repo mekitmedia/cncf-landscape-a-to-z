@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:45.834283'
+date: '2026-11-01T10:43:40.671344'
 homepage_url: https://tdengine.com
 layout: single
 letter: T

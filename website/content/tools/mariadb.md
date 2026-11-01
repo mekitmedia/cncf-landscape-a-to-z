@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:37.291972'
+date: '2026-11-01T10:43:37.990419'
 homepage_url: https://mariadb.com/
 layout: single
 letter: M

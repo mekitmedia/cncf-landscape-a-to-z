@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:40.766086'
+date: '2026-11-01T10:43:36.275820'
 description: Giving Kubernetes Superpowers to everyone
 homepage_url: https://www.k8sgpt.ai
 layout: single

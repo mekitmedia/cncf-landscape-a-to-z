@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:46.927969'
+date: '2026-11-01T10:43:35.714615'
 description: Community documentation for Shipwright
 homepage_url: https://shipwright.io
 layout: single

@@ -1,6 +1,6 @@
 ---
 cncf_status: graduated
-date: '2026-10-04T18:37:45.728224'
+date: '2026-11-01T10:43:40.665336'
 description: A distributed transactional key-value database. Based on the design of
   Google Spanner and HBase, but simpler to manage and without dependencies on any
   distributed filesystem

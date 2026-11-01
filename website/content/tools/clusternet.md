@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:43.075744'
+date: '2026-11-01T10:43:38.880459'
 description: '[CNCF Sandbox Project] Managing your Kubernetes clusters (including
   public, private, edge, etc.) as easily as visiting the Internet'
 homepage_url: https://clusternet.io

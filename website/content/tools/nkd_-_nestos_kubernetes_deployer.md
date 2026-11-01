@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:45.222152'
+date: '2026-11-01T10:43:39.876935'
 description: NKD (NestOS Kubernetes Deployer) is a solution specially built for deploying
   and maintaining Kubernetes clusters on NestOS. Its design goal is to provide a convenient
   cluster operation experience, allowing users to easily complete complex management

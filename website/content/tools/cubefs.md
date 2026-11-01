@@ -1,6 +1,6 @@
 ---
 cncf_status: graduated
-date: '2026-10-04T18:37:43.364659'
+date: '2026-11-01T10:43:39.112266'
 description: CubeFS (formerly ChubaoFS) is a cloud native distributed file system
   and object store
 homepage_url: https://cubefs.io/

@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:46.216023'
+date: '2026-11-01T10:43:40.587305'
 description: Open Source HTTP Reverse Proxy Cache and Time Series Dashboard Accelerator
 homepage_url: https://trickstercache.org
 layout: single

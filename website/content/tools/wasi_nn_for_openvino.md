@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-28T17:38:40.036200'
+date: '2026-11-01T10:43:36.088603'
 homepage_url: https://wasmedge.org/docs/develop/rust/wasinn/openvino
 layout: single
 letter: W
@@ -54,3 +54,6 @@ wasi-nn is currently in Phase 2 and is advancing towards Phase 4, which requires
 {{< callout title="Did You Know?" type="info" >}}
 WASI NN does not support training models in the near term because its primary focus is ML inference, which has clear performance advantages over training models natively.
 {{< /callout >}}
+
+
+

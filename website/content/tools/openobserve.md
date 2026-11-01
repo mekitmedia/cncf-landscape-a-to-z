@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:48.081839'
+date: '2026-11-01T10:43:38.283439'
 homepage_url: http://openobserve.ai/
 layout: single
 letter: O

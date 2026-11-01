@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:44.849933'
+date: '2026-11-01T10:43:36.022325'
 description: Scripting languages that support Wasm
 homepage_url: https://wasmlabs.dev/projects/wasm-language-runtimes/
 layout: single

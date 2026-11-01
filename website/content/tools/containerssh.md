@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:42.853554'
+date: '2026-11-01T10:43:38.793821'
 description: ContainerSSH launches a new container for each SSH connection in Kubernetes,
   Podman or Docker. The user is transparently dropped in the container and the container
   is removed when the user disconnects. Authentication and container configuration

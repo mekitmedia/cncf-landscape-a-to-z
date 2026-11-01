@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:49.315489'
+date: '2026-11-01T10:43:40.218533'
 homepage_url: https://www.plural.sh/
 layout: single
 letter: P

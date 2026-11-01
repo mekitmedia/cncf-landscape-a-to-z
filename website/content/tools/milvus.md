@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:37.721958'
+date: '2026-11-01T10:43:37.923736'
 description: A cloud-native vector database, storage for next generation AI applications.
 homepage_url: https://milvus.io/
 layout: single

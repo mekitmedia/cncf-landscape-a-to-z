@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:40.672669'
+date: '2026-11-01T10:43:36.542994'
 description: Scalable, event-driven, language-agnostic orchestration and scheduling
   platform to manage millions of workflows declaratively in code.
 homepage_url: https://kestra.io/

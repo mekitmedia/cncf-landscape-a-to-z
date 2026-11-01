@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:44.197064'
+date: '2026-11-01T10:43:39.268732'
 homepage_url: https://encore.dev
 layout: single
 letter: E

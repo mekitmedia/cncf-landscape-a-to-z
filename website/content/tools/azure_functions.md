@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:39.607134'
+date: '2026-11-01T10:43:37.832079'
 description: Develop more efficiently with Functions, an event-driven serverless compute
   platform that can also solve complex orchestration problems. Build and debug locally
   without additional setup, deploy and operate at scale in the cloud, and integrate
@@ -67,3 +67,5 @@ It integrates seamlessly with other Azure services.
 - [AWS Lambda](/tools/aws_lambda/)
 
 - [Google Cloud Functions](/tools/google_cloud_functions/)
+
+

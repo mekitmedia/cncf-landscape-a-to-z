@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:46.961402'
+date: '2026-11-01T10:43:35.731466'
 description: Stacker is a tool for building OCI images and related artifacts such
   as SBOMs natively via a declarative yaml format.
 homepage_url: https://stackerbuild.io

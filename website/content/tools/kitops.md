@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:41.005618'
+date: '2026-11-01T10:43:36.733565'
 description: An open standard for packaging, managing, and deploying ML models and
   artifacts across different systems
 homepage_url: https://kitops.org/

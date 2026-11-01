@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:45.581202'
+date: '2026-11-01T10:43:39.658791'
 description: A verification engine on Kubernetes which enables verification of artifact
   security metadata and admits for deployment only those that comply with policies
   you create.

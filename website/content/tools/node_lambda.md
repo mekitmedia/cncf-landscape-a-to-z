@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:45.138915'
+date: '2026-11-01T10:43:39.806971'
 homepage_url: https://github.com/motdotla/node-lambda
 layout: single
 letter: N

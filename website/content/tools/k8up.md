@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:41.145412'
+date: '2026-11-01T10:43:36.864491'
 description: Kubernetes and OpenShift Backup Operator
 homepage_url: https://k8up.io/
 layout: single

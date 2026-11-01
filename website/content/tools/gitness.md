@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:42.257422'
+date: '2026-11-01T10:43:40.888251'
 homepage_url: https://gitness.com/
 layout: single
 letter: G

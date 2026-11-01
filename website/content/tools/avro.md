@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:39.591655'
+date: '2026-11-01T10:43:37.706848'
 homepage_url: https://avro.apache.org/
 layout: single
 letter: A
@@ -69,3 +69,5 @@ Avro relies on schemas that are always present when data is read, permitting dat
 - [Apache Kafka](/tools/apache_kafka/)
 
 - [Apache Thrift](/tools/apache_thrift/)
+
+

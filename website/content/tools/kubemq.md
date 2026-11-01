@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:40.052270'
+date: '2026-11-01T10:43:36.847964'
 description: KubeMQ is a Kubernetes Message Queue Broker
 homepage_url: https://kubemq.io/
 layout: single

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-16T01:55:01.463993'
+date: '2026-11-01T10:43:36.681265'
 description: KubeDiagrams is a tool to generate Kubernetes architecture diagrams from
   Kubernetes manifest files, kustomization files, Helm charts, and actual cluster
   state. KubeDiagrams supports most of all Kubernetes built-in resources, any custom
@@ -81,3 +81,5 @@ An Online KubeDiagrams Service is freely available at https://kubediagrams.lille
 - [helm](/tools/helm/)
 
 - [kubectl](/tools/kubectl/)
+
+

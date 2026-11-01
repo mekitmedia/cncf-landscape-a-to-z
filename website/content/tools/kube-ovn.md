@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:40.454378'
+date: '2026-11-01T10:43:36.593615'
 description: A Kubernetes Network Fabric for Enterprises that is Rich in Functions
   and Easy in Operations
 homepage_url: https://kube-ovn.io

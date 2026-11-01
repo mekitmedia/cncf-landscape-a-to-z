@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:42.188867'
+date: '2026-11-01T10:43:40.930837'
 description: Grafana Mimir lets you scale to 1 billion metrics and beyond, with high
   availability, multi-tenancy, durable storage, and blazing fast query performance
   over long periods of time.

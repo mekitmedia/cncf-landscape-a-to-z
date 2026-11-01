@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:48.163630'
+date: '2026-11-01T10:43:38.243559'
 description: A developer platform for Kubernetes that delivers higher-level abstractions
   with a Backstage-powered portal, CI/CD, GitOps, and built-in observability.
 homepage_url: https://openchoreo.dev

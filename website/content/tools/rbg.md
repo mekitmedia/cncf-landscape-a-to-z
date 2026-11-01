@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:45.717058'
+date: '2026-11-01T10:43:39.743935'
 description: Kubernetes API for orchestrating distributed, stateful AI inference workloads
   with multi-role collaboration and built-in service discovery.
 homepage_url: https://www.sglang.io/

@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:40.731723'
+date: '2026-11-01T10:43:36.576665'
 description: KubeStellar - a flexible solution for challenges associated with multi-cluster
   configuration management for edge, multi-cloud, and hybrid cloud
 homepage_url: https://kubestellar.io

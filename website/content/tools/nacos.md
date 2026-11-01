@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:45.393718'
+date: '2026-11-01T10:43:39.982077'
 homepage_url: https://nacos.io/en-us/
 layout: single
 letter: N

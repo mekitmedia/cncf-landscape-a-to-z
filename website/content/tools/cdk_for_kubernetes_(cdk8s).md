@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:43.225234'
+date: '2026-11-01T10:43:38.968496'
 description: CDK8s lets you define Kubernetes apps and components using familiar programming
   languages and object-oriented APIs.
 homepage_url: https://cdk8s.io/

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:40.660189'
+date: '2026-11-01T10:43:36.537420'
 description: Katalyst is a QoS-based resource management system for workload colocation
   on kubernetes
 homepage_url: https://gokatalyst.io

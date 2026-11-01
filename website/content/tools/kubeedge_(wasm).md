@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:41.121363'
+date: '2026-11-01T10:43:36.831274'
 homepage_url: https://kubeedge.io/en/
 layout: single
 letter: K

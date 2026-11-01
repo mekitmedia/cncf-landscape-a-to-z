@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:40.754652'
+date: '2026-11-01T10:43:36.859035'
 homepage_url: https://eng.uber.com/introducing-kraken/
 layout: single
 letter: K

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:45.694924'
+date: '2026-11-01T10:43:39.710395'
 description: Supercharge Your LLM Application Evaluations
 homepage_url: https://docs.ragas.io/en/stable/
 layout: single

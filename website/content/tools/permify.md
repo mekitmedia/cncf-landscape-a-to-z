@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:49.420858'
+date: '2026-11-01T10:43:40.140525'
 description: Permify is an open source authorization system for creating secure, scalable
   and flexible access control systems for Services, LLMs, Applications and AI native
   solutions. Permify frequently used for Enterprise RAG systems, Internal applications,

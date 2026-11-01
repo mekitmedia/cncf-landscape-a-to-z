@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:45.234164'
+date: '2026-11-01T10:43:39.893728'
 description: The Hybrid/Multi-cloud IP Service Mesh
 homepage_url: https://networkservicemesh.io/
 layout: single

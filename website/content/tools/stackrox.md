@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:46.837919'
+date: '2026-11-01T10:43:35.535030'
 description: StackRox is a Kubernetes-native security platform for cloud-native applications,
   containers, serverless, and Kubernetes.
 homepage_url: https://www.stackrox.io/

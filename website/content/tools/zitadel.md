@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:44.268945'
+date: '2026-11-01T10:43:40.017474'
 description: ZITADEL is the identity infrastructure, simplified for you.
 homepage_url: https://zitadel.com/
 layout: single

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:48.811246'
+date: '2026-11-01T10:43:37.207169'
 description: Production-ready platform for agentic workflow development.
 homepage_url: https://dify.ai/
 layout: single

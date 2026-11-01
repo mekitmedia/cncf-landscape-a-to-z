@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:42.005561'
+date: '2026-11-01T10:43:40.968265'
 homepage_url: https://grafeas.io/
 layout: single
 letter: G

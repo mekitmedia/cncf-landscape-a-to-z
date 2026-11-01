@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:42.062350'
+date: '2026-11-01T10:43:40.899257'
 description: Adding guardrails to large language models.
 homepage_url: https://guardrailsai.com/
 layout: single

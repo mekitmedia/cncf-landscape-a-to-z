@@ -1,6 +1,6 @@
 ---
 cncf_status: graduated
-date: '2026-10-04T18:37:40.633707'
+date: '2026-11-01T10:43:36.526270'
 description: Kubernetes is an open-source system for automating deployment, scaling,
   and management of containerized applications
 homepage_url: https://kubernetes.io/

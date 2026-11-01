@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:44.978511'
+date: '2026-11-01T10:43:36.055538'
 homepage_url: https://github.com/tessi/wasmex
 layout: single
 letter: W

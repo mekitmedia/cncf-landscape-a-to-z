@@ -1,6 +1,6 @@
 ---
 cncf_status: graduated
-date: '2026-10-04T18:37:43.657330'
+date: '2026-11-01T10:43:41.204148'
 description: Falco, the cloud-native runtime security project, is the de facto Kubernetes
   threat detection engine
 homepage_url: https://falco.org/

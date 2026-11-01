@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:42.142745'
+date: '2026-11-01T10:43:40.904891'
 description: Polyglot observability warehouse for logs, metrics, traces and profiles,
   built on ClickHouse. Ingests OpenTelemetry, Loki, Prometheus, Tempo, Pyroscope,
   InfluxDB, Elastic and Datadog formats, and serves them back over LogQL, PromQL,

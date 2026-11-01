@@ -1,13 +1,13 @@
 ---
 cncf_status: incubating
-date: '2026-10-20T16:18:07.522745'
+date: '2026-11-01T10:43:39.480893'
 description: Litmus is an open source Chaos Engineering platform that enables teams
   to identify weaknesses & potential outages in infrastructures by inducing chaos
   tests in a controlled way
 homepage_url: https://litmuschaos.io/
 layout: single
 letter: L
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Litmus
 repo_url: https://github.com/litmuschaos/litmus
 status: completed
@@ -42,7 +42,7 @@ Litmus is a tool for Cloud-Native Chaos Engineering that lets teams test and imp
 
 - **For Developers**: To run chaos experiments during application development as an extension of unit testing or integration testing.
 - **For CI/CD pipeline builders**: To run chaos as a pipeline stage to find bugs when the application is subjected to fail paths in a pipeline.
-- **For SREs**: To plan and schedule chaos experiments into the application and/or surrounding infrastructure. This practice identifies the weaknesses
+- **For SREs**: To plan and schedule chaos experiments into the application and/or surrounding infrastructure. This practice identifies the weaknesses 
   in the deployment system and increases resilience.
 
 
@@ -72,3 +72,5 @@ Litmus adopts a "Kubernetes-native" approach to define chaos intent in a declara
 
 
 - [kubernetes](/tools/kubernetes/)
+
+

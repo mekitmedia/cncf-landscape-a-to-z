@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:42.200420'
+date: '2026-11-01T10:43:40.936497'
 description: Grafana Pyroscope is an open source continuous profiling database that
   provides fast, scalable, highly available, and efficient storage and querying. This
   helps you get a better understanding of resource usage in your applications down

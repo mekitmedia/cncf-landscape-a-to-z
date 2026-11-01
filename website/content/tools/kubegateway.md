@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:40.550610'
+date: '2026-11-01T10:43:36.636823'
 homepage_url: https://github.com/kubewharf/kubegateway
 layout: single
 letter: K

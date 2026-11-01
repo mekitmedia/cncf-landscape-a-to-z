@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:45.603957'
+date: '2026-11-01T10:43:39.715929'
 description: Compiled language to Wasm
 homepage_url: https://www.rust-lang.org/
 layout: single

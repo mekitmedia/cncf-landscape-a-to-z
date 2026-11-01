@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:47.032871'
+date: '2026-11-01T10:43:35.645256'
 homepage_url: https://stackstorm.com/
 layout: single
 letter: S

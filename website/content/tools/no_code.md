@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:45.103354'
+date: '2026-11-01T10:43:39.916077'
 homepage_url: https://github.com/kelseyhightower/nocode
 layout: single
 letter: N

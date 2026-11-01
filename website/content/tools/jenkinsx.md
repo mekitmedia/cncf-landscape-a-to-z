@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:41.267275'
+date: '2026-11-01T10:43:39.551414'
 homepage_url: https://jenkins-x.io/
 layout: single
 letter: J

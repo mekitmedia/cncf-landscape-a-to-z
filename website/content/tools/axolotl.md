@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:38.951004'
+date: '2026-11-01T10:43:37.722788'
 description: Go ahead and axolotl questions
 homepage_url: https://github.com/axolotl-ai-cloud/axolotl
 layout: single
@@ -79,3 +79,5 @@ Axolotl ships with built-in documentation optimized for AI coding agents (Claude
 - [Mixtral](/tools/mixtral/)
 
 - [DeepSpeed](/tools/deepspeed/)
+
+

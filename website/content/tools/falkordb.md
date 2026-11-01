@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:43.705913'
+date: '2026-11-01T10:43:41.295006'
 description: A super fast Graph Database uses GraphBLAS under the hood for its sparse
   adjacency matrix graph representation. Our goal is to provide the best Knowledge
   Graph for LLM (GraphRAG).

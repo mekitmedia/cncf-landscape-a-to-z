@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:39.257586'
+date: '2026-11-01T10:43:37.480078'
 homepage_url: https://aws.amazon.com/serverless/sam/
 layout: single
 letter: A
@@ -16,3 +16,16 @@ title: AWS Server Application Model (SAM)
 ## Overview
 
 Research for this project is currently in progress.
+
+
+
+
+
+
+
+
+
+
+
+
+

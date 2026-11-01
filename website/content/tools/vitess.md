@@ -1,6 +1,6 @@
 ---
 cncf_status: graduated
-date: '2026-10-04T18:37:38.089978'
+date: '2026-11-01T10:43:36.930687'
 description: MySQL-compatible, horizontally scalable, cloud-native database solution.
 homepage_url: https://vitess.io/
 layout: single

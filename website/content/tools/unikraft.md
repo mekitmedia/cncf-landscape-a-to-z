@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:38.328316'
+date: '2026-11-01T10:43:39.147899'
 homepage_url: https://unikraft.org/
 layout: single
 letter: U

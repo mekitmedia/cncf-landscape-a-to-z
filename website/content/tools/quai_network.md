@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:38.049333'
+date: '2026-11-01T10:43:41.130717'
 homepage_url: https://qu.ai/
 layout: single
 letter: Q

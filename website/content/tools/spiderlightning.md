@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:47.311067'
+date: '2026-11-01T10:43:35.742561'
 homepage_url: https://deislabs.github.io/spiderlightning/
 layout: single
 letter: S

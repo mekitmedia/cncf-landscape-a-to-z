@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:43.388051'
+date: '2026-11-01T10:43:39.125496'
 homepage_url: https://ceph.io/en
 layout: single
 letter: C

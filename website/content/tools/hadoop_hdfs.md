@@ -1,12 +1,12 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-06T03:33:59.048114'
+date: '2026-11-01T10:43:35.276636'
 description: Open source framework works by rapidly transferring data between nodes.
   It's often used by companies who need to handle and store big data.
 homepage_url: https://hadoop.apache.org/
 layout: single
 letter: H
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Hadoop HDFS
 repo_url: https://github.com/apache/hadoop
 status: completed
@@ -69,3 +69,5 @@ HDFS was originally built as infrastructure for the Apache Nutch web search engi
 - [Apache Flink](/tools/apache_flink/)
 
 - [Apache Hadoop](/tools/apache_hadoop/)
+
+

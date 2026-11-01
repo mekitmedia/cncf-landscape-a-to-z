@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:48.176179'
+date: '2026-11-01T10:43:38.249359'
 description: OpenGitOps is a set of open-source standards, best practices, and community-focused
   education to help organizations adopt a structured, standardized approach to implementing
   GitOps

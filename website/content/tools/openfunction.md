@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:48.022771'
+date: '2026-11-01T10:43:38.393044'
 description: Cloud Native Function-as-a-Service Platform (CNCF Sandbox Project)
 homepage_url: https://openfunction.dev
 layout: single

@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:41.448454'
+date: '2026-11-01T10:43:35.075107'
 description: Open source eBPF debugging and data collection tool for Kubernetes and
   Linux
 homepage_url: https://inspektor-gadget.io/

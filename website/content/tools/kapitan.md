@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:40.994338'
+date: '2026-11-01T10:43:36.727895'
 description: A configuration management system for platform engineering and other
   things
 homepage_url: https://kapitan.dev/

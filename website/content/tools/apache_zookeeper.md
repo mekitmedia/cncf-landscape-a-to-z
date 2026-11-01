@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:39.653766'
+date: '2026-11-01T10:43:37.848237'
 homepage_url: https://zookeeper.apache.org/
 layout: single
 letter: A
@@ -67,3 +67,5 @@ Apache Zookeeper is widely utilized across the cloud native and open source ecos
 - [Consul](/tools/consul/)
 
 - [Chubby](/tools/chubby/)
+
+

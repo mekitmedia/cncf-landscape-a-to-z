@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:49.663502'
+date: '2026-11-01T10:43:40.034101'
 description: GitOps style continuous delivery platform that provides consistent deployment
   and operations experience for any applications
 homepage_url: https://pipecd.dev/

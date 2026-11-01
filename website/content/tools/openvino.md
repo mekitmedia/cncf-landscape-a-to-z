@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:48.294237'
+date: '2026-11-01T10:43:38.569371'
 description: OpenVINO™ is an open source toolkit for optimizing and deploying AI inference
 homepage_url: https://docs.openvino.ai/
 layout: single

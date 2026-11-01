@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:42.865962'
+date: '2026-11-01T10:43:38.799523'
 description: CLI tool for directly patching container image vulnerabilities
 homepage_url: https://project-copacetic.github.io/copacetic/
 layout: single

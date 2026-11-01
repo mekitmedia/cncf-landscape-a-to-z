@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:46.939091'
+date: '2026-11-01T10:43:35.720198'
 homepage_url: https://skaffold.dev/
 layout: single
 letter: S

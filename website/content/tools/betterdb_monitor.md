@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:44.559562'
+date: '2026-11-01T10:43:40.384489'
 description: BetterDB Monitor is a monitoring dashboard for Valkey, Redis and Dragonfly
   that persists slowlogs, command patterns and client activity for historical debugging,
   exports Prometheus metrics and OTLP telemetry, and detects anomalies in real time.

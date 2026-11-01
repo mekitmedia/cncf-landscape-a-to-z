@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:44.442629'
+date: '2026-11-01T10:43:40.488593'
 homepage_url: https://beam.apache.org/
 layout: single
 letter: B

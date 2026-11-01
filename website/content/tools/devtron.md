@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:49.062450'
+date: '2026-11-01T10:43:36.981302'
 description: Open source Software delivery workflow for Kubernetes
 homepage_url: https://devtron.ai
 layout: single

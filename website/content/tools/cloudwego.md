@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:43.341188'
+date: '2026-11-01T10:43:39.045211'
 description: CloudWeGo is ByteDance's open source Golang-centric middleware that can
   be used to quickly build enterprise-class cloud native architectures.
 homepage_url: https://www.cloudwego.io/

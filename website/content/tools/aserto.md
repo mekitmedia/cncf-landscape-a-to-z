@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:38.901772'
+date: '2026-11-01T10:43:37.329007'
 description: Fine-grained, policy-based, real-time authorization for APIs and microservices.
   Aserto is the maintainer of the Topaz and Open Policy Containers OSS projects.
 homepage_url: https://www.aserto.com
@@ -73,3 +73,5 @@ Aserto's foundation includes Topaz, Open Policy Agent, and a Google Zanzibar ins
 - [Open Policy Agent (OPA)](/tools/open_policy_agent_(opa)/)
 
 - [Google Zanzibar](/tools/google_zanzibar/)
+
+

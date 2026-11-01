@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:45.382305'
+date: '2026-11-01T10:43:39.964930'
 homepage_url: https://www.nginx.com
 layout: single
 letter: N

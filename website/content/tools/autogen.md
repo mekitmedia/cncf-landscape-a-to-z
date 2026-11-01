@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:39.528619'
+date: '2026-11-01T10:43:37.747649'
 description: A programming framework for agentic AI
 homepage_url: https://microsoft.github.io/autogen/
 layout: single
@@ -68,3 +68,5 @@ AutoGen is often compared to CAMEL and BabyAGI, with users on Hacker News noting
 - [BabyAGI](/tools/babyagi/)
 
 - [LangChain](/tools/langchain/)
+
+

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:40.196837'
+date: '2026-11-01T10:43:36.264642'
 description: A toolkit to run Ray applications on Kubernetes
 homepage_url: https://github.com/ray-project/kuberay
 layout: single

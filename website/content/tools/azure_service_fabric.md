@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:39.105834'
+date: '2026-11-01T10:43:37.430612'
 homepage_url: https://docs.microsoft.com/en-us/azure/service-fabric/
 layout: single
 letter: A
@@ -63,3 +63,5 @@ Powers many core Microsoft services like Azure SQL Database and Skype for Busine
 - [Kubernetes](/tools/kubernetes/)
 
 - [Docker Swarm](/tools/docker_swarm/)
+
+

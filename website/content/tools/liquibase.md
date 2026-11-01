@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:41.763834'
+date: '2026-11-01T10:43:39.349889'
 description: Liquibase helps release software faster by bringing DevOps to the database
 homepage_url: https://www.liquibase.com/
 layout: single

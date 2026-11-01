@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:44.064025'
+date: '2026-11-01T10:43:39.304879'
 homepage_url: https://www.eclipse.org/che/
 layout: single
 letter: E

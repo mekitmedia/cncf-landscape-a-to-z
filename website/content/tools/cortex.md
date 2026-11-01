@@ -1,6 +1,6 @@
 ---
 cncf_status: incubating
-date: '2026-10-04T18:37:43.131825'
+date: '2026-11-01T10:43:38.717094'
 description: A multitenant, horizontally scalable Prometheus as a Service
 homepage_url: https://cortexmetrics.io/
 layout: single

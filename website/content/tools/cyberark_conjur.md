@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:43.460269'
+date: '2026-11-01T10:43:39.017005'
 homepage_url: https://www.conjur.org
 layout: single
 letter: C

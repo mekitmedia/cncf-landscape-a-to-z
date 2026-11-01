@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:40.813442'
+date: '2026-11-01T10:43:36.298194'
 description: KubeReport is an open-source tool that generates detailed Kubernetes
   cluster reports in PDF and CSV formats, providing insights into  resource utilization,
   workload status, and cluster health for easier auditing and troubleshooting.

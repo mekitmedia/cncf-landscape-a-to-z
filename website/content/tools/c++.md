@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:42.889358'
+date: '2026-11-01T10:43:38.863759'
 description: Compiled language to Wasm
 homepage_url: https://isocpp.org/
 layout: single

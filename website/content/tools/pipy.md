@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:49.351177'
+date: '2026-11-01T10:43:40.317038'
 description: Pipy is a programmable proxy for the cloud, edge and IoT. It's written
   in C++, which makes it extremely lightweight and fast. It's also fully programmable
   by using PipyJS, a tailored version from the standard JavaScript language.

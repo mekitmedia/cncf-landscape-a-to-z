@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:46.334392'
+date: '2026-11-01T10:43:40.570597'
 description: Discovers the physical network topology of a cluster and exposes it to
   schedulers, enabling topology-aware scheduling decisions across Kubernetes, Slinky,
   and Slurm.

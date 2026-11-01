@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:46.087282'
+date: '2026-11-01T10:43:40.635439'
 description: Cloud-native authorization for modern applications and APIs, combining
   the best of Open Policy Agent and Google Zanzibar
 homepage_url: https://www.topaz.sh

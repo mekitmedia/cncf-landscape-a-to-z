@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:48.211479'
+date: '2026-11-01T10:43:38.512473'
 description: Omni is a Kubernetes orchestrator for bare metal and edge environments.
   It manages full OS and Kubernetes lifecycles with Talos Linux and remote management
   with wireguard communication.

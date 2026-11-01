@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:44.989623'
+date: '2026-11-01T10:43:36.061001'
 homepage_url: https://wasmer.io/wasmer/winterjs
 layout: single
 letter: W

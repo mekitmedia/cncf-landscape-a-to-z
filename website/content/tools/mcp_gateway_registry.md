@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:37.779571'
+date: '2026-11-01T10:43:38.126164'
 description: Enterprise-ready MCP Gateway & Registry that centralizes AI development
   tools with secure OAuth authentication, dynamic tool discovery, and unified access
   for both autonomous AI agents and AI coding assistants. Transform scattered MCP

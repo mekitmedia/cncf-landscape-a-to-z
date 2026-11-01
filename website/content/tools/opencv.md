@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:47.675926'
+date: '2026-11-01T10:43:38.580433'
 homepage_url: https://opencv.org/
 layout: single
 letter: O

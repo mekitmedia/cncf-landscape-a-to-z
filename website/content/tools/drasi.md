@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:48.858135'
+date: '2026-11-01T10:43:37.173374'
 description: A data change processing platform to simplify change-driven systems that
   need to detect, evaluate, and react to data changes quickly and efficiently at scale.
 homepage_url: https://drasi.io

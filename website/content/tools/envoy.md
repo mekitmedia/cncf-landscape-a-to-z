@@ -1,6 +1,6 @@
 ---
 cncf_status: graduated
-date: '2026-10-04T18:37:44.029551'
+date: '2026-11-01T10:43:39.332647'
 description: Envoy is an open source edge and service proxy, designed for cloud-native
   applications
 homepage_url: https://www.envoyproxy.io

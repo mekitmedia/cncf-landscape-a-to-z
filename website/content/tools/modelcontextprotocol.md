@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:37.838008'
+date: '2026-11-01T10:43:38.132151'
 description: Specification and documentation for the Model Context Protocol.
 homepage_url: https://modelcontextprotocol.io/
 layout: single

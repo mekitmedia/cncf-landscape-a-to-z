@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:39.481911'
+date: '2026-11-01T10:43:37.524748'
 homepage_url: https://www.ambient.run/
 layout: single
 letter: A
@@ -67,3 +67,5 @@ Ambient is widely utilized across the cloud native and open source ecosystem.
 - [Godot](/tools/godot/)
 
 - [WebAssembly](/tools/webassembly/)
+
+

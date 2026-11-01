@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:46.641194'
+date: '2026-11-01T10:43:35.617287'
 description: an open source Firebase alternative
 homepage_url: https://supabase.com/
 layout: single

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:45.931505'
+date: '2026-11-01T10:43:40.743416'
 description: Triton is a language and compiler for parallel programming.
 homepage_url: https://triton-lang.org/
 layout: single
@@ -66,3 +66,5 @@ Triton's foundations were described in a MAPL 2019 publication: 'Triton: An Inte
 - [CUDA](/tools/cuda/)
 
 - [PyTorch](/tools/pytorch/)
+
+

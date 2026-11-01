@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:38.969401'
+date: '2026-11-01T10:43:37.573716'
 description: Graph database optimized for fast analysis and real-time data processing.
   It is provided as an extension to PostgreSQL.
 homepage_url: https://age.apache.org/
@@ -67,3 +67,5 @@ AGE stands for A Graph Extension. It transforms a standard relational PostgreSQL
 - [PostgreSQL](/tools/postgresql/)
 
 - [Neo4j](/tools/neo4j/)
+
+

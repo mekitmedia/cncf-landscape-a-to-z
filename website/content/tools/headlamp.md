@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:48.577908'
+date: '2026-11-01T10:43:35.208633'
 description: Extensible open source multi-cluster Kubernetes user interface
 homepage_url: https://headlamp.dev
 layout: single

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:40.028447'
+date: '2026-11-01T10:43:36.791826'
 description: Kyma is the opinionated set of Kubernetes based modular building blocks
   that includes the necessary capabilities to develop and run enterprise-grade cloud-native
   applications.

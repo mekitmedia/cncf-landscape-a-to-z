@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:38.825414'
+date: '2026-11-01T10:43:37.797648'
 description: Apicurio Registry is an open-source registry for API and schema artifacts
   (OpenAPI, AsyncAPI, Avro, Protobuf, JSON Schema, GraphQL and more) and AI agent
   artifacts (A2A Agent Cards, MCP tool definitions, prompt templates, model schemas),
@@ -72,3 +72,5 @@ Apicurio Registry is widely utilized across the cloud native and open source eco
 - [Buf](/tools/buf/)
 
 - [SchemaHero](/tools/schemahero/)
+
+

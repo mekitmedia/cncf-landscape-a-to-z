@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:42.291652'
+date: '2026-11-01T10:43:41.063646'
 description: Gthulhu optimizes cloud-native workloads using the Linux Scheduler Extension
   for different application scenarios.
 homepage_url: https://gthulhu.github.io/docs/

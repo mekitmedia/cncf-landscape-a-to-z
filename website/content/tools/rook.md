@@ -1,6 +1,6 @@
 ---
 cncf_status: graduated
-date: '2026-10-04T18:37:45.705979'
+date: '2026-11-01T10:43:39.760538'
 description: Storage Orchestration for Kubernetes
 homepage_url: https://rook.io/
 layout: single

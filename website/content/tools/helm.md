@@ -1,6 +1,6 @@
 ---
 cncf_status: graduated
-date: '2026-10-04T18:37:48.498357'
+date: '2026-11-01T10:43:35.296443'
 description: The Kubernetes Package Manager
 homepage_url: https://helm.sh/
 layout: single

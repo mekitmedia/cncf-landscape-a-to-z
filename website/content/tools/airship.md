@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:39.384056'
+date: '2026-11-01T10:43:37.533090'
 homepage_url: https://www.airshipit.org/
 layout: single
 letter: A
@@ -67,3 +67,5 @@ Airship is widely utilized across the cloud native and open source ecosystem.
 - [Metal3](/tools/metal3/)
 
 - [Tinkerbell](/tools/tinkerbell/)
+
+

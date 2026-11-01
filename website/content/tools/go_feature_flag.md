@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:42.119538'
+date: '2026-11-01T10:43:41.027024'
 homepage_url: https://gofeatureflag.org
 layout: single
 letter: G

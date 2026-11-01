@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:39.401846'
+date: '2026-11-01T10:43:37.541368'
 description: A Kubernetes Resource Interface for the Edge
 homepage_url: https://docs.akri.sh
 layout: single
@@ -70,3 +70,5 @@ Akri means 'edge' in Greek and acts as an acronym for 'A Kubernetes Resource Int
 - [MicroK8s](/tools/microk8s/)
 
 - [KubeEdge](/tools/kubeedge/)
+
+

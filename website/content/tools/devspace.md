@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:48.938567'
+date: '2026-11-01T10:43:37.124671'
 description: Client-Only Developer Tool for Cloud-Native Development with Kubernetes
 homepage_url: https://devspace.sh
 layout: single

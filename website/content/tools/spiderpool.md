@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:46.985207'
+date: '2026-11-01T10:43:35.664828'
 description: Spiderpool is the underlay and RDMA network solution of the Kubernetes,
   for bare metal, VM and public cloud
 homepage_url: https://spidernet-io.github.io/spiderpool/

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:46.871985'
+date: '2026-11-01T10:43:35.557127'
 homepage_url: https://gitee.com/openeuler/stratovirt
 layout: single
 letter: S

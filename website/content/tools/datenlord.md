@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:49.119488'
+date: '2026-11-01T10:43:37.195853'
 description: DatenLord is a cloud-native distributed storage platform, aiming to meet
   the performance-critical storage needs from next-generation cloud-native applications.
 homepage_url: https://datenlord.github.io/

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:38.861315'
+date: '2026-11-01T10:43:37.814737'
 description: AutoMQ is a cloud-native fork of Kafka by separating storage to S3. 10x
   cost-effective. Autoscale in seconds. Single-digit ms latency.
 homepage_url: https://www.automq.com
@@ -81,3 +81,5 @@ AutoMQ replaces Kafka's classic shared-nothing architecture with a shared storag
 - [WarpStream](/tools/warpstream/)
 
 - [Redpanda](/tools/redpanda/)
+
+

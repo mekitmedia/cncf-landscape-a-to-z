@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:39.285450'
+date: '2026-11-01T10:43:37.656889'
 homepage_url: https://camel.apache.org
 layout: single
 letter: A
@@ -67,3 +67,5 @@ Apache Camel K is widely utilized across the cloud native and open source ecosys
 - [Knative](/tools/knative/)
 
 - [Dapr](/tools/dapr/)
+
+

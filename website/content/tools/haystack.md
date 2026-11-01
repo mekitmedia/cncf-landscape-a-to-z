@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:48.671857'
+date: '2026-11-01T10:43:35.318747'
 description: Open-source AI orchestration framework for building context-engineered,
   production-ready LLM applications. Design modular pipelines and agent workflows
   with explicit control over retrieval, routing, memory, and generation. Built for

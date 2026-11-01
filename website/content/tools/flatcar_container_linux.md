@@ -1,6 +1,6 @@
 ---
 cncf_status: incubating
-date: '2026-10-04T18:37:43.621354'
+date: '2026-11-01T10:43:41.232779'
 description: A community Linux distribution designed for container workloads, with
   high security and low maintenance
 homepage_url: https://www.flatcar.org/

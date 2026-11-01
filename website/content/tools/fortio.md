@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-13T22:46:33.105220'
+date: '2026-11-01T10:43:41.185050'
 description: Fortio is an open source load testing library, command-line tool, and
   server application written in Go. Originated as Istio's performance characterization
   tool (in particular proxy overhead), Fortio has evolved into a versatile tool for
@@ -18,7 +18,7 @@ description: Fortio is an open source load testing library, command-line tool, a
 homepage_url: https://fortio.org/
 layout: single
 letter: F
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Fortio
 repo_url: https://github.com/fortio/fortio
 status: completed
@@ -79,3 +79,5 @@ The name Fortio comes from the Greek word φορτίο (fortio), which translate
 - [Istio](/tools/istio/)
 
 - [httpbin](/tools/httpbin/)
+
+

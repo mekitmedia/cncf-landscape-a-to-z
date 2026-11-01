@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:43.528388'
+date: '2026-11-01T10:43:36.129642'
 homepage_url: https://yomo.run/
 layout: single
 letter: Y

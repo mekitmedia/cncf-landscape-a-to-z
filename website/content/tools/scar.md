@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:46.734849'
+date: '2026-11-01T10:43:35.451424'
 homepage_url: https://scar.readthedocs.io/en/latest/
 layout: single
 letter: S

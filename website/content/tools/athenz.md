@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:39.622380'
+date: '2026-11-01T10:43:37.598598'
 description: Open source platform for X.509 certificate based service authentication
   and fine grained access control in dynamic infrastructures
 homepage_url: https://www.athenz.io
@@ -65,3 +65,5 @@ Enables zero trust core principles like traffic encryption, AuthN, AuthZ, Dynami
 
 
 - [SPIRE](/tools/spire/)
+
+

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:39.318104'
+date: '2026-11-01T10:43:37.673566'
 homepage_url: https://openwhisk.apache.org/
 layout: single
 letter: A
@@ -67,3 +67,5 @@ Apache OpenWhisk is widely utilized across the cloud native and open source ecos
 - [AWS Lambda](/tools/aws_lambda/)
 
 - [OpenFaaS](/tools/openfaas/)
+
+

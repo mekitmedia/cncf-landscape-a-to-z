@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:41.628530'
+date: '2026-11-01T10:43:39.496001'
 description: Unified Efficient Fine-Tuning of 100+ LLMs & VLMs
 homepage_url: https://llamafactory.readthedocs.io/en/latest/
 layout: single

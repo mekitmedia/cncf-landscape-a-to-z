@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:40.477412'
+date: '2026-11-01T10:43:36.802907'
 description: Chaos testing tool for Kubernetes to identify bottlenecks and improve
   resilience and performance under failure conditions.
 homepage_url: https://krkn-chaos.github.io/krkn

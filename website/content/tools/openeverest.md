@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:47.650997'
+date: '2026-11-01T10:43:38.364888'
 description: The open-source platform for automated database provisioning and management.
   It supports multiple database technologies and can be hosted on any Kubernetes infrastructure,
   in the cloud or on-premises.

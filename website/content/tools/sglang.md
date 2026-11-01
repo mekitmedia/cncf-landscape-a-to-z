@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:47.489631'
+date: '2026-11-01T10:43:35.898000'
 description: SGLang powers fast, scalable inference for large language and multimodal
   models.
 homepage_url: https://www.sglang.io/

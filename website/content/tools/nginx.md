@@ -1,10 +1,10 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-13T18:47:59.582642'
+date: '2026-11-01T10:43:39.927437'
 homepage_url: https://www.nginx.com/
 layout: single
 letter: N
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: NGINX
 repo_url: https://github.com/nginx/nginx
 status: completed
@@ -60,3 +60,6 @@ Mainline binaries are built from the master branch and contain the latest featur
 {{< callout title="Did You Know?" type="info" >}}
 NGINX scales beyond Operating System process limitations by operating as a collection of processes. A master process maintains worker processes which automatically adjust to the number of available CPU cores.
 {{< /callout >}}
+
+
+

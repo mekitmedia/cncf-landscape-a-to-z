@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:48.823011'
+date: '2026-11-01T10:43:37.079916'
 description: Stands up a three-VM Kubernetes development cluster on the desktop using
   VirtualBox, by running a single Bash script.
 homepage_url: https://github.com/aceeric/desktop-kubernetes

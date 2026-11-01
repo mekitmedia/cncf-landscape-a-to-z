@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:42.350602'
+date: '2026-11-01T10:43:38.810651'
 description: A free and open source, distributed, wide-column store, NoSQL database
   management system designed to handle large amounts of data across many commodity
   servers, providing high availability with no single point of failure.
@@ -68,3 +68,5 @@ Cassandra's partitioning allows it to automatically repartition data as machines
 - [HBase](/tools/hbase/)
 
 - [MongoDB](/tools/mongodb/)
+
+

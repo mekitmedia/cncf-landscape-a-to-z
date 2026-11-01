@@ -1,6 +1,6 @@
 ---
 cncf_status: sandbox
-date: '2026-10-04T18:37:41.403635'
+date: '2026-11-01T10:43:35.092411'
 description: InterLink aims to provide an abstraction for the execution of a Kubernetes
   pod on any remote resource capable of managing a Container execution lifecycle thanks
   to the Virtual Kubelet interface. It allows you to extend your cloud environment

@@ -1,6 +1,6 @@
 ---
 cncf_status: non-cncf
-date: '2026-10-04T18:37:44.862086'
+date: '2026-11-01T10:43:36.039017'
 homepage_url: https://wso2.com/api-manager/api-microgateway
 layout: single
 letter: W
