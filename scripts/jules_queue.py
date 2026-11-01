@@ -96,7 +96,7 @@ def resolve_prompt(
         content = default_file.read_text(encoding="utf-8").strip()
         return content, "default_fallback", default_file.name
 
-    raise FileNotFoundError(f"No task files found in {get_tasks_dir(root)} and default prompt {default_file} is missing. If running tests, ensure to mock roulette or allow adhoc fallback.")
+    raise FileNotFoundError(f"No task files found in {get_tasks_dir(root)} and default prompt {default_file} is missing.")
 
 
 def validate_task_file(task_file: Path) -> List[str]:
