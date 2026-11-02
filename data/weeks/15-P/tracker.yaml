@@ -667,18 +667,18 @@ items:
   Pulsar:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: 2026-11-02T20:59:46.415548Z
+        output_file: data/weeks/15-P/research/pulsar.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: 2026-11-02T20:59:46.415548Z
+        output_file: website/content/tools/pulsar.md
         error_message: null
         retry_count: 0
         agent: writer
