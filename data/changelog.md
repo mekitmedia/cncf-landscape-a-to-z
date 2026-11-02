@@ -1,5 +1,21 @@
 # Data Update Changelog
 
+## [2026-11-02] Data Update
+
+### 🚀 Added Tools
+
+- **Kubeaver** ([Repo](https://github.com/eb-k8s/kubeaver))
+- **Stratum Kubernetes Engine (SKE)** ([Repo](https://github.com/ctrliq/stratum))
+
+
+### 🗑️ Removed Tools
+
+- **Hexa**
+- **Nivida NeMo**
+- **QBO**
+- **Rancher Kubernetes Engine (RKE)**
+- **Stacklock Minder**
+
 ## 🚀 Added Tools
 
 - **FerrisKey** ([Repo](https://github.com/ferriskey/ferriskey))
@@ -20,4 +36,3 @@
 - **Rancher Kubernetes Engine (RKE)**
 - **Stacklock Minder**
 - **Wit-binddgen**
-

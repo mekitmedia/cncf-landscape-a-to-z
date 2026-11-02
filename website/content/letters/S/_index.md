@@ -8,7 +8,7 @@ layout: "list"
 
 # Summary for 18-S
 
-This week has a total of 86 items.
+This week has a total of 87 items.
 
 
 - **Provisioning Automation Configuration**: 4 items
@@ -41,7 +41,7 @@ This week has a total of 86 items.
 
 - **App Definition And Development Continuous Integration Delivery**: 2 items
 
-- **Platform Certified Kubernetes Distribution**: 1 items
+- **Platform Certified Kubernetes Distribution**: 2 items
 
 - **Platform Certified Kubernetes Hosted**: 1 items
 
