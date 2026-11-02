@@ -103,3 +103,11 @@ def test_filter_target_files():
     assert str(tracker[0]).endswith("tracker.yaml")
     assert len(posts) == 1
     assert str(posts[0]).endswith("2026-A.md")
+
+def test_validate_blog_post_file_crlf_valid(tmp_path: Path):
+    post_file = tmp_path / "crlf-test.md"
+    content = "---\r\ntitle: \"Letter A\"\r\ndate: 2026-01-01T00:00:00Z\r\ndraft: false\r\n---\r\n\r\n# Body"
+    with open(post_file, "wb") as f:
+        f.write(content.encode("utf-8"))
+    ok, err = validate_blog_post_file(post_file)
+    assert ok is True, f"Failed: {err}"
