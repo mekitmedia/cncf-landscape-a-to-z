@@ -668,16 +668,16 @@ items:
     tasks:
       research:
         status: completed
-        started_at: 2026-10-21T16:18:42.658182+00:00
-        completed_at: 2026-10-21T16:18:42.658182+00:00
+        started_at: '2026-10-21T16:18:42.658182Z'
+        completed_at: '2026-10-21T16:18:42.658182Z'
         output_file: data/weeks/10-K/research/koordinator.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
         status: completed
-        started_at: 2026-10-21T16:18:42.658182+00:00
-        completed_at: 2026-10-21T16:18:42.658182+00:00
+        started_at: '2026-10-21T16:18:42.658182Z'
+        completed_at: '2026-10-21T16:18:42.658182Z'
         output_file: website/content/tools/koordinator.md
         error_message: null
         retry_count: 0
@@ -877,16 +877,16 @@ items:
     tasks:
       research:
         status: completed
-        started_at: 2026-10-16T15:40:18.127723+00:00
-        completed_at: 2026-10-16T15:40:18.127723+00:00
+        started_at: '2026-10-16T15:40:18.127723Z'
+        completed_at: '2026-10-16T15:40:18.127723Z'
         output_file: data/weeks/10-K/research/kube-burner.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
         status: completed
-        started_at: 2026-10-16T15:40:18.127723+00:00
-        completed_at: 2026-10-16T15:40:18.127723+00:00
+        started_at: '2026-10-16T15:40:18.127723Z'
+        completed_at: '2026-10-16T15:40:18.127723Z'
         output_file: website/content/tools/kube-burner.md
         error_message: null
         retry_count: 0
@@ -934,16 +934,16 @@ items:
     tasks:
       research:
         status: completed
-        started_at: '2026-10-23T16:03:31.085426+00:00'
-        completed_at: '2026-10-23T16:03:31.085426+00:00'
+        started_at: '2026-10-23T16:03:31.085426Z'
+        completed_at: '2026-10-23T16:03:31.085426Z'
         output_file: data/weeks/10-K/research/kubeadmiral.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
         status: completed
-        started_at: '2026-10-23T16:03:31.085426+00:00'
-        completed_at: '2026-10-23T16:03:31.085426+00:00'
+        started_at: '2026-10-23T16:03:31.085426Z'
+        completed_at: '2026-10-23T16:03:31.085426Z'
         output_file: website/content/tools/kubeadmiral.md
         error_message: null
         retry_count: 0
@@ -1048,16 +1048,16 @@ items:
     tasks:
       research:
         status: completed
-        started_at: 2026-10-16T01:54:35.928111+00:00
-        completed_at: 2026-10-16T01:54:35.928111+00:00
+        started_at: '2026-10-16T01:54:35.928111Z'
+        completed_at: '2026-10-16T01:54:35.928111Z'
         output_file: data/weeks/10-K/research/kubediagrams.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
         status: completed
-        started_at: 2026-10-16T01:54:35.928111+00:00
-        completed_at: 2026-10-16T01:54:35.928111+00:00
+        started_at: '2026-10-16T01:54:35.928111Z'
+        completed_at: '2026-10-16T01:54:35.928111Z'
         output_file: website/content/tools/kubediagrams.md
         error_message: null
         retry_count: 0
@@ -1066,18 +1066,18 @@ items:
   KubeEdge:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-10-27T02:44:12Z'
+        output_file: data/weeks/10-K/research/kubeedge.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-10-27T02:44:12Z'
+        output_file: website/content/tools/kubeedge.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -1404,7 +1404,7 @@ items:
         error_message: null
         retry_count: 0
         agent: writer
-    removed: true
+    removed: false
   Kubecost:
     tasks:
       research:
@@ -1579,18 +1579,18 @@ items:
   Kuberay:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-10-31T02:57:31.881400Z'
+        output_file: data/weeks/10-K/research/kuberay.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-10-31T02:57:31.881400Z'
+        output_file: website/content/tools/kuberay.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -1960,16 +1960,16 @@ items:
     tasks:
       research:
         status: completed
-        started_at: '2026-10-24T15:00:49.558487+00:00'
-        completed_at: '2026-10-24T15:00:49.558487+00:00'
+        started_at: '2026-10-24T15:00:49.558487Z'
+        completed_at: '2026-10-24T15:00:49.558487Z'
         output_file: data/weeks/10-K/research/kyverno.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
         status: completed
-        started_at: '2026-10-24T15:00:49.558487+00:00'
-        completed_at: '2026-10-24T15:00:49.558487+00:00'
+        started_at: '2026-10-24T15:00:49.558487Z'
+        completed_at: '2026-10-24T15:00:49.558487Z'
         output_file: website/content/tools/kyverno.md
         error_message: null
         retry_count: 0
@@ -2083,5 +2083,5 @@ week_tasks:
 metadata:
   created_at: '2026-02-01T19:37:47.393397'
   week_letter: K
-  last_synced: '2026-08-08T15:46:35.681524'
-  etl_item_count: 108
+  last_synced: '2026-11-02T03:16:39.800169'
+  etl_item_count: 109

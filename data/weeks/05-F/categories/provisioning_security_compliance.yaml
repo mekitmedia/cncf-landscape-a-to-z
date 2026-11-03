@@ -15,3 +15,11 @@
   name: FOSSA
   project: null
   repo_url: https://github.com/fossas/fossa-cli
+- description: Open source identity and access management server written in Rust,
+    with OpenID Connect, OAuth 2.0 and SAML support and a Kubernetes operator.
+  featured: true
+  homepage_url: https://ferriskey.rs
+  logo: ferriskey.svg
+  name: FerrisKey
+  project: null
+  repo_url: https://github.com/ferriskey/ferriskey

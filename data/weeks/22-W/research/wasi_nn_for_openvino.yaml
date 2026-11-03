@@ -1,0 +1,28 @@
+project_name: "WASI NN for OpenVINO"
+homepage_url: "https://wasmedge.org/docs/develop/rust/wasinn/openvino"
+repo_url: "https://github.com/WebAssembly/wasi-nn"
+cncf_status: "non-cncf"
+summary: "WASI NN for OpenVINO provides a WASI API for performing machine learning inference from WebAssembly using the OpenVINO backend."
+key_features:
+  - "Provides an easy-to-use API for performing ML inference from WebAssembly using existing models."
+  - "Designed to be framework- and model-agnostic, supporting multiple ML frameworks and model formats."
+  - "Enables execution of machine learning models with hardware acceleration for maximum performance."
+recent_updates: "wasi-nn is currently in Phase 2 and is advancing towards Phase 4, which requires at least two complete independent implementations."
+use_cases: "Performing AI inference with OpenVINO models in WebAssembly environments, such as road segmentation or image classification."
+interesting_facts: "WASI NN does not support training models in the near term because its primary focus is ML inference, which has clear performance advantages over training models natively."
+get_started: "Check out the official WasmEdge documentation and the wasi-nn bindings repository to use WASI NN for OpenVINO."
+related_tools: []
+sources:
+  - id: "wasi_nn_for_openvino_github"
+    url: "https://github.com/WebAssembly/wasi-nn"
+    quotes:
+      - "wasi-nn is a WASI API for performing ML inference."
+      - "The primary goal of wasi-nn is to allow users to perform ML inference from WebAssembly using existing models (i.e., ease of use) and with maximum performance."
+      - "Another design goal is to make the API framework- and model-agnostic; this allows for implementing the API with multiple ML frameworks and model formats."
+      - "wasi-nn backends correspond to existing ML frameworks, e.g., Tensorflow, ONNX, OpenVINO, etc."
+      - "wasi-nn places no requirements on hosts to support specific backends; the API is purposefully designed to allow the largest number of ML frameworks to implement it."
+  - id: "wasi_nn_for_openvino_wasmedge"
+    url: "https://wasmedge.org/docs/develop/rust/wasinn/openvino"
+    quotes:
+      - "We will use this example project to show how to make AI inference with an OpenVINO model in WasmEdge and Rust."
+      - "You can make the inference program run faster by AOT compiling the wasm file first."

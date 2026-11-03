@@ -8,7 +8,7 @@ layout: "list"
 
 # Summary for 10-K
 
-This week has a total of 108 items.
+This week has a total of 109 items.
 
 
 - **Provisioning Automation Configuration**: 11 items
@@ -41,7 +41,7 @@ This week has a total of 108 items.
 
 - **Platform Certified Kubernetes Distribution**: 3 items
 
-- **Platform Certified Kubernetes Installer**: 6 items
+- **Platform Certified Kubernetes Installer**: 7 items
 
 - **Platform Paas Container Service**: 2 items
 

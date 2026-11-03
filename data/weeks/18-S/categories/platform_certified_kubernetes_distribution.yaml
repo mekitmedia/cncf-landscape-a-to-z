@@ -9,3 +9,13 @@
   name: SIGHUP Distribution
   project: null
   repo_url: https://github.com/sighupio/distribution
+- crunchbase: https://www.crunchbase.com/organization/ciq-bec8
+  description: Stratum Kubernetes Engine (SKE) is a Kubernetes distribution delivered
+    as one self-extracting binary that carries every component and container image,
+    for connected and air-gapped clusters.
+  featured: true
+  homepage_url: https://ciq.com/product/stratum
+  logo: stratum.svg
+  name: Stratum Kubernetes Engine (SKE)
+  project: null
+  repo_url: https://github.com/ctrliq/stratum

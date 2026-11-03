@@ -1,0 +1,26 @@
+project_name: MAAS
+homepage_url: https://canonical.com/maas
+repo_url: https://github.com/canonical/maas
+cncf_status: non-cncf
+summary: |
+  Metal as a Service (MAAS) lets you treat physical servers like virtual machines in the cloud. It turns your bare metal into an elastic cloud-like resource, allowing you to boot machines, check hardware, and have them waiting for when you need them.
+key_features:
+  - Turns bare metal into an elastic cloud-like resource
+  - Automated booting and hardware checking
+  - Allows pulling nodes up, tearing them down and redeploying them at will
+  - Integration with tools like Ansible, Chef, Puppet, SALT, Juju
+  - Easily scale services up or down
+recent_updates: Supports modern bare metal provisioning scenarios.
+use_cases: Treating physical servers like virtual machines in the cloud, providing bare metal nodes to tools like Ansible, Chef, Puppet, SALT, Juju, easily scaling services up or down, and providing hassle-free power of Juju charms but on bare metal.
+interesting_facts: MAAS is maintained by Canonical.
+get_started: |
+  For more information see the MAAS guide at https://maas.io/
+related_tools: []
+sources:
+  - id: readme
+    url: https://github.com/canonical/maas
+    quotes:
+      - "Metal as a Service -- MAAS -- lets you treat physical servers like virtual machines in the cloud."
+      - "Rather than having to manage each server individually, MAAS turns your bare metal into an elastic\ncloud-like resource."
+      - "When you're ready to deploy a service, MAAS gives your tool of choice (e.g. Ansible, Chef, Puppet,\nSALT, Juju) the nodes it needs to power that service."
+      - "For more information see the `MAAS guide`_."
