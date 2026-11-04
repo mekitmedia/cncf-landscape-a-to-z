@@ -1,0 +1,29 @@
+project_name: Kubeaver
+homepage_url: https://github.com/eb-k8s/kubeaver
+repo_url: https://github.com/eb-k8s/kubeaver
+cncf_status: non-cncf
+summary: "Kubeaver is a tool for quickly deploying high-availability Kubernetes (K8s) clusters, supporting offline and online methods. The project is based on kubespray, leveraging Ansible to automate deployment tasks, and provides a user-friendly graphical user interface."
+key_features:
+  - "Cluster Management"
+  - "Deploy Cluster (Offline Cluster Deployment)"
+  - "Task Management"
+  - "Task Time Statistics"
+  - "Task Real-time Output"
+  - "Node Management"
+  - "Offline Package Management"
+  - "Host Management"
+recent_updates: ""
+use_cases: "Quickly deploying high-availability Kubernetes clusters in offline or online environments."
+interesting_facts: "Kubeaver is based on kubespray and leverages Ansible to automate deployment tasks. It is also a CNCF conformance-certified installer."
+get_started: "tar xzvf kubeaver-offline-installer-1.0.0.tgz\n\ncd kubeaver-offline-installer-1.0.0\n\n./start.sh"
+related_tools: []
+sources:
+  - id: readme
+    url: https://github.com/eb-k8s/kubeaver
+    quotes:
+      - "Kubeaver is a tool for quickly deploying high-availability Kubernetes (K8s) clusters, supporting **offline and online(in progress)** methods. The project is based on [kubespray](https://github.com/kubernetes-sigs/kubespray), leveraging Ansible to automate deployment tasks, and provides a user-friendly **graphical user interface**."
+      - "* Cluster Management  \n* Deploy Cluster (Offline Cluster Deployment) \n* Task Management\n* Task Time Statistics\n* Task Real-time Output\n* Node Management  \n* Offline Package Management\n* Host Management"
+      - "Kubeaver is a [CNCF conformance-certified installer]"
+      - "```ShellSession\ntar xzvf kubeaver-offline-installer-1.0.0.tgz\n```"
+      - "```ShellSession\ncd kubeaver-offline-installer-1.0.0\n```"
+      - "```ShellSession\n./start.sh\n```"
