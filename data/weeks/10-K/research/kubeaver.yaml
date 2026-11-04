@@ -1,5 +1,5 @@
 project_name: Kubeaver
-homepage_url: https://kubeaver.top
+homepage_url: https://github.com/eb-k8s/kubeaver
 repo_url: https://github.com/eb-k8s/kubeaver
 cncf_status: non-cncf
 summary: "Kubeaver is a tool for quickly deploying high-availability Kubernetes (K8s) clusters, supporting offline and online methods. The project is based on kubespray, leveraging Ansible to automate deployment tasks, and provides a user-friendly graphical user interface."

@@ -16,7 +16,7 @@ title: Kubeaver
 
 ## Overview
 
-Kubeaver is a tool for quickly deploying high-availability Kubernetes (K8s) clusters, supporting offline and online methods. The project is based on kubespray, leveraging Ansible to automate deployment tasks, and provides a user-friendly graphical user interface.
+Kubeaver is a tool for quickly deploying high-availability Kubernetes (K8s) clusters, supporting offline and online (in progress) methods. The project is based on kubespray, leveraging Ansible to automate deployment tasks, and provides a user-friendly graphical user interface.
 
 
 
