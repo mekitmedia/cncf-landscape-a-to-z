@@ -1,0 +1,32 @@
+project_name: "Clusterpedia"
+summary: "Clusterpedia is a multi-cluster encyclopedia designed to synchronize, search for, and easily control multi-cluster resources."
+key_features:
+  - "Automatic synchronization of clusters managed by multi-cloud platforms."
+  - "Advanced retrieval features and complete compatibility with Kubernetes OpenAPI."
+  - "Supports importing Kubernetes 1.10+ clusters."
+  - "Automatic conversion and retrieval of multi-version Kube resources."
+  - "A single API endpoint to retrieve different resource types."
+  - "Flexible synchronization policies, including wildcards and custom resources support."
+  - "Unified search entry point for master and multi-cluster resources using Aggregated API."
+  - "Low memory footprint and weak network optimization."
+  - "Pluggable storage layer architecture without dependency on specific database components."
+recent_updates: "Clusterpedia continues to improve its core capabilities to synchronize, search for, and control multi-cluster resources across a variety of multi-cloud platforms like Cluster API, Karmada, Clusternet, vCluster, and KubeVela."
+use_cases: "Operators and platform engineers use Clusterpedia to efficiently synchronize and retrieve multi-cluster resources with rich search conditions (like multi-cluster label selectors, owner names, and complex queries), and they can manage varied multi-cloud resources from a unified endpoint that mirrors the Kubernetes master cluster API."
+interesting_facts: "Clusterpedia is inspired by Wikipedia, where it acts as a central encyclopedia for multi-cluster data and envisions a future where it can not only view but control and edit resources directly."
+get_started: "Clusterpedia can be integrated into your multi-cluster setup using various tools or deployed as a standalone platform to begin synchronizing and searching your resources across clusters."
+related_tools:
+  - "Cluster API"
+  - "Karmada"
+  - "Clusternet"
+  - "vCluster"
+  - "KubeVela"
+sources:
+  - id: 'readme'
+    url: 'https://github.com/clusterpedia-io/clusterpedia'
+    quotes:
+      - "This name Clusterpedia is inspired by Wikipedia. It is an encyclopedia of multi-cluster to synchronize, search for, and simply control multi-cluster resources."
+      - "Clusterpedia can synchronize resources with multiple clusters and provide more powerful search features on the basis of compatibility with Kubernetes OpenAPI to help you effectively get any multi-cluster resource that you are looking for in a quick and easy way."
+      - "The clusterpedia can automatically synchronize the resources within the cluster managed by the multi-cloud platform."
+      - "Clusterpedia can be deployed as a standalone platform or integrated with Cluster API, Karmada, Clusternet, vCluster, KubeVela and other multi-cloud platforms"
+      - "Support for retrieving resources using `kubectl`, `client-go` or `controller-runtime/client`"
+cncf_status: "sandbox"

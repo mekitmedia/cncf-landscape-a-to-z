@@ -1,18 +1,46 @@
 ---
 cncf_status: sandbox
 date: '2026-10-04T18:37:43.087333'
-description: Clusterpedia is used for complex resources search across multiple clusters,
-  support simultaneous search of a single kind of resource  or multiple kinds of resources
-  existing in multiple clusters.
+description: Clusterpedia is a multi-cluster encyclopedia designed to synchronize, search for, and easily control multi-cluster resources.
 homepage_url: https://clusterpedia.io
 layout: single
 letter: C
 lifecycle_stage: initial
 project_name: Clusterpedia
 repo_url: https://github.com/clusterpedia-io/clusterpedia
-status: in_progress
+status: completed
 title: Clusterpedia
 ---
 
+## Summary
+Clusterpedia is a multi-cluster encyclopedia designed to synchronize, search for, and easily control multi-cluster resources.
 
-Research for Clusterpedia is currently in progress. Stay tuned for updates!
+## Key Features
+* Automatic synchronization of clusters managed by multi-cloud platforms.
+* Advanced retrieval features and complete compatibility with Kubernetes OpenAPI.
+* Supports importing Kubernetes 1.10+ clusters.
+* Automatic conversion and retrieval of multi-version Kube resources.
+* A single API endpoint to retrieve different resource types.
+* Flexible synchronization policies, including wildcards and custom resources support.
+* Unified search entry point for master and multi-cluster resources using Aggregated API.
+* Low memory footprint and weak network optimization.
+* Pluggable storage layer architecture without dependency on specific database components.
+
+## Recent Updates
+Clusterpedia continues to improve its core capabilities to synchronize, search for, and control multi-cluster resources across a variety of multi-cloud platforms like Cluster API, Karmada, Clusternet, vCluster, and KubeVela.
+
+## Use Cases
+Operators and platform engineers use Clusterpedia to efficiently synchronize and retrieve multi-cluster resources with rich search conditions (like multi-cluster label selectors, owner names, and complex queries), and they can manage varied multi-cloud resources from a unified endpoint that mirrors the Kubernetes master cluster API.
+
+## Interesting Facts
+Clusterpedia is inspired by Wikipedia, where it acts as a central encyclopedia for multi-cluster data and envisions a future where it can not only view but control and edit resources directly.
+
+## Get Started
+Clusterpedia can be integrated into your multi-cluster setup using various tools or deployed as a standalone platform to begin synchronizing and searching your resources across clusters.
+
+## Related Tools
+* Cluster API
+* Karmada
+* Clusternet
+* vCluster
+* KubeVela
