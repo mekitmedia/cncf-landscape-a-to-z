@@ -15,9 +15,6 @@ get_started: "Run the server via Docker with `docker run -p 8080:8080 -p 8079:80
 related_tools:
   - "Istio"
   - "httpbin"
-
-quotes:
-  - "Fortio is a fast, small load testing library, command line tool, advanced echo server, and web UI written in Go."
 sources:
   - id: 'readme'
     url: 'https://github.com/fortio/fortio'
