@@ -2,8 +2,8 @@ name: Scheduled Jules Backlog Runner
 
 on:
   schedule:
-    # Run twice daily (00:00 UTC and 12:00 UTC)
-    - cron: '0 * * * *'
+    # Run hourly at minute 23 past the hour to avoid peak-time delays/drops
+    - cron: '23 * * * *'
   workflow_dispatch:
     inputs:
       custom_prompt:
