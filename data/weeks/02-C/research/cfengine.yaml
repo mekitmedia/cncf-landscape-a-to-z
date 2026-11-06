@@ -1,0 +1,21 @@
+project_name: "CFEngine"
+summary: "CFEngine is a configuration management system designed to provide automated configuration and maintenance of large-scale computer systems."
+key_features:
+  - "Automated configuration and maintenance of large-scale computer systems"
+recent_updates: ""
+use_cases: "Infrastructure automation, Security automation, and Compliance automation."
+interesting_facts: "CFEngine 3 is *not* a drop-in upgrade for CFEngine 2 installations."
+get_started: |
+  In order to use the built cf-agent in the source tree you must add a `$HOME/.cfagent/bin/cf-promises` file:
+
+  $ pwd
+  <something>/core
+  $ echo "cd $(pwd); cf-promises/cf-promises \"$@\"" > ~/.cfagent/bin/cf-promises
+related_tools: []
+sources:
+  - id: "readme"
+    url: "https://github.com/cfengine/core"
+    quotes:
+      - "CFEngine 3 is a popular open source configuration management system. Its primary\nfunction is to provide automated configuration and maintenance of large-scale\ncomputer systems."
+      - "CFEngine 3 is *not* a drop-in upgrade for CFEngine 2 installations."
+      - "In order to use the built cf-agent in the source tree you must add a `$HOME/.cfagent/bin/cf-promises` file:\n\n```bash\n$ pwd\n<something>/core\n$ echo \"cd $(pwd); cf-promises/cf-promises \\\"\\$@\\\"\" > ~/.cfagent/bin/cf-promises\n```"
