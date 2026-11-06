@@ -5,30 +5,30 @@ homepage_url: https://jenkins-x.io/
 layout: single
 letter: J
 lifecycle_stage: tech_writing
-project_name: JenkinsX
+project_name: Jenkins X
 repo_url: https://github.com/jenkins-x/jx
 status: completed
-title: JenkinsX
+title: Jenkins X
 ---
 
 
 
 ## Overview
 
-Jenkins X (now JayeX) provides an automated CI/CD environment for Kubernetes, using GitOps-based Tekton pipelines, Preview Environments, and ChatOps to streamline software delivery.
+Jenkins X (now JayeX) provides a CI/CD environment for Kubernetes with GitOps-based Tekton pipelines, Preview Environments, and ChatOps for software delivery.
 
 
 
 ## Key Features
 
 
-- Automated CI/CD via Tekton pipelines
+- Automated CI/CD using Tekton pipelines
 
-- GitOps-based Environment Promotion
+- GitOps-based environment promotion
 
-- Pull Request Preview Environments
+- Pull request preview environments
 
-- Integrated ChatOps for feedback on commits and PRs
+- ChatOps for commit and pull request feedback
 
 
 
@@ -41,7 +41,7 @@ Continuous integration, continuous delivery, GitOps automation, preview environm
 
 {{< callout title="Getting Started" type="code" >}}
 ```bash
-See the v3 documentation and use the jx command line tool. JayeX spins up automated Tekton pipelines without needing deep Kubernetes expertise.
+See the v3 documentation and use the jx command line tool.
 ```
 {{< /callout >}}
 
@@ -49,12 +49,12 @@ See the v3 documentation and use the jx command line tool. JayeX spins up automa
 
 ## Recent Updates
 
-Jenkins X has changed its name to JayeX and now supports v3 with a modular CLI approach, including separated components for git operator, kube client, and lighthouse.
+Jenkins X changed its name to JayeX.
 
 
 
 {{< callout title="Did You Know?" type="info" >}}
-Jenkins X changed its name to JayeX. Its ecosystem includes modular libraries like jx-git-operator, go-scm, jx-api, and jx-kube-client that have been factored out of the main repository.
+Jenkins X changed its name to JayeX.
 {{< /callout >}}
 
 
