@@ -1,0 +1,43 @@
+project_name: "ORY Hydra"
+homepage_url: "https://www.ory.sh/"
+repo_url: "https://github.com/ory/hydra"
+cncf_status: "non-cncf"
+summary: "Ory Hydra provides a scalable OAuth 2.0 and OpenID Connect server designed for high throughput, low latency, and absolute control over UI flows via a custom login and consent app."
+key_features:
+  - "OAuth 2.0 and OpenID Connect flows"
+  - "Token issuance and validation"
+  - "Client management"
+  - "Consent and login flow orchestration"
+  - "JWKS management"
+  - "Low latency and high throughput"
+recent_updates: "v26.2.0 with bug fixes including retry curl invocations to surmount transient third-party failures, broken older down migrations, and context passing."
+use_cases: "OAuth2 and OpenID Connect for single sign on, API access, and machine to machine authorization"
+interesting_facts: "Ory Hydra implements Open Standards set by the IETF"
+get_started: "Install the Ory CLI if you do not have it yet"
+related_tools:
+  - "Ory Kratos"
+  - "Ory Oathkeeper"
+  - "Ory Keto"
+sources:
+  -
+    id: "readme"
+    url: "https://github.com/ory/hydra"
+    quotes:
+      - "Ory Hydra is a hardened, OpenID Certified OAuth 2.0 Server and OpenID Connect\nProvider optimized for low-latency, high throughput, and low resource\nconsumption."
+      - "OAuth 2.0 and OpenID Connect flows"
+      - "Token issuance and validation"
+      - "Client management"
+      - "Consent and login flow orchestration"
+      - "JWKS management"
+      - "Low latency and high throughput"
+      - "Ory Hydra implements Open Standards set by the IETF"
+      - "OAuth2 and OpenID Connect for single sign on, API access, and machine to\n  machine authorization"
+      - "Install the Ory CLI if you do not have it yet"
+  -
+    id: "github_releases"
+    url: "https://api.github.com/repos/ory/hydra/releases/latest"
+    quotes:
+      - "v26.2.0"
+      - "Always retry curl invocations to surmount transient third-party failures"
+      - "Broken older down migrations"
+      - "Context passing and limit response size"

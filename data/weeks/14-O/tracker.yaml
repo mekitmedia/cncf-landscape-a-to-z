@@ -78,18 +78,18 @@ items:
   ORY Hydra:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-06T16:26:58.565520Z'
+        output_file: data/weeks/14-O/research/ory_hydra.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-06T16:26:58.565520Z'
+        output_file: website/content/tools/ory_hydra.md
         error_message: null
         retry_count: 0
         agent: writer
