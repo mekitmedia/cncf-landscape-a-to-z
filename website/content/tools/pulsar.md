@@ -1,16 +1,47 @@
 ---
-cncf_status: non-cncf
-date: '2026-10-04T18:37:49.374622'
-description: A distributed pub-sub messaging system.
-homepage_url: https://pulsar.apache.org/
+title: "Pulsar"
+date: 2026-10-31T00:00:00Z
+draft: false
 layout: single
 letter: P
+status: pending
 lifecycle_stage: initial
-project_name: Pulsar
-repo_url: https://github.com/apache/pulsar
-status: in_progress
-title: Pulsar
+project_name: "Pulsar"
+homepage_url: "https://pulsar.apache.org/"
+repo_url: "https://github.com/apache/pulsar"
+cncf_status: "non-cncf"
+summary: "Apache Pulsar is a distributed pub-sub messaging platform designed for flexibility and ease of use, featuring an intuitive client API and a robust messaging model."
+key_features:
+  - "Horizontally scalable architecture capable of handling millions of independent topics and messages per second"
+  - "Provides strong ordering and consistency guarantees with low latency durable storage"
+  - "Supports both topic and queue semantics"
+  - "Includes a built-in load balancer and is designed for hosted services with multi-tenant capabilities, authentication, authorization, and quotas"
+  - "Features geo-replication, transparent handling of partitioned topics, and transparent batching of messages"
+recent_updates: "Apache Pulsar continues to receive updates with bug fixes and improvements, notably recommending specific Java versions (like 17 or 21) for optimal performance and stability, and providing helm charts and various client libraries across multiple languages."
+use_cases: "Ideal for scenarios requiring high-throughput, low-latency messaging, distributed event streaming, and multi-tenant architectures where strong isolation and scalability are critical."
+interesting_facts: "Pulsar was originally developed by Yahoo! and was designed to solve the challenges they faced with existing messaging systems, particularly around multi-tenancy and geo-replication."
+get_started: "To get started with Pulsar, visit the official website to download the latest release or use the Docker image via `docker pull apachepulsar/pulsar-all`. Detailed setup and configuration guides are available in the documentation at https://pulsar.apache.org/."
+related_tools: []
 ---
 
+## Summary
+Apache Pulsar is a distributed pub-sub messaging platform designed for flexibility and ease of use, featuring an intuitive client API and a robust messaging model.
 
-Research for Pulsar is currently in progress. Stay tuned for updates!
+## Key Features
+- Horizontally scalable architecture capable of handling millions of independent topics and messages per second
+- Provides strong ordering and consistency guarantees with low latency durable storage
+- Supports both topic and queue semantics
+- Includes a built-in load balancer and is designed for hosted services with multi-tenant capabilities, authentication, authorization, and quotas
+- Features geo-replication, transparent handling of partitioned topics, and transparent batching of messages
+
+## Recent Updates
+Apache Pulsar continues to receive updates with bug fixes and improvements, notably recommending specific Java versions (like 17 or 21) for optimal performance and stability, and providing helm charts and various client libraries across multiple languages.
+
+## Use Cases
+Ideal for scenarios requiring high-throughput, low-latency messaging, distributed event streaming, and multi-tenant architectures where strong isolation and scalability are critical.
+
+## Interesting Facts
+Pulsar was originally developed by Yahoo! and was designed to solve the challenges they faced with existing messaging systems, particularly around multi-tenancy and geo-replication.
+
+## Get Started
+To get started with Pulsar, visit the official website to download the latest release or use the Docker image via `docker pull apachepulsar/pulsar-all`. Detailed setup and configuration guides are available in the documentation at https://pulsar.apache.org/.
