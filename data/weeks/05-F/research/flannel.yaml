@@ -1,0 +1,34 @@
+project_name: "Flannel"
+homepage_url: "https://github.com/flannel-io/flannel"
+repo_url: "https://github.com/flannel-io/flannel"
+cncf_status: "non-cncf"
+summary: "Flannel is a network fabric designed for Kubernetes."
+key_features:
+  - "Runs a small, single binary agent called `flanneld` on each host, and is responsible for allocating a subnet lease to each host out of a larger, preconfigured address space."
+  - "Uses either the Kubernetes API or etcd directly to store the network configuration, the allocated subnets, and any auxiliary data (such as the host's public IP)."
+  - "Packets are forwarded using one of several backend mechanisms including VXLAN and various cloud integrations."
+  - "Provides a layer 3 IPv4 network between multiple nodes in a cluster."
+  - "Provides a CNI plugin for Kubernetes and a guidance on integrating with Docker."
+recent_updates: ""
+use_cases: "Flannel is responsible for providing a layer 3 IPv4 network between multiple nodes in a cluster."
+interesting_facts: "While the `flanneld` binary does not natively enforce Network Policies, the Flannel project provides ways to add policy support to your cluster."
+get_started: "For Kubernetes v1.17+, apply the Flannel manifest with kubectl to deploy the network plugin on your cluster."
+related_tools:
+  - "Kubernetes"
+  - "etcd"
+  - "Calico"
+  - "Cilium"
+  - "K3s"
+  - "Docker"
+sources:
+  - id: 'readme'
+    url: 'https://github.com/flannel-io/flannel/blob/master/README.md'
+    quotes:
+      - "Flannel is a simple and easy way to configure a layer 3 network fabric designed for Kubernetes."
+      - "Flannel runs a small, single binary agent called `flanneld` on each host, and is responsible for allocating a subnet lease to each host out of a larger, preconfigured address space."
+      - "Flannel uses either the Kubernetes API or etcd directly to store the network configuration, the allocated subnets, and any auxiliary data (such as the host's public IP)."
+      - "Packets are forwarded using one of several backend mechanisms including VXLAN and various cloud integrations."
+      - "Flannel is responsible for providing a layer 3 IPv4 network between multiple nodes in a cluster."
+      - "However, flannel does provide a CNI plugin for Kubernetes and a guidance on integrating with Docker."
+      - "While the `flanneld` binary does not natively enforce Network Policies, the Flannel project provides ways to add policy support to your cluster."
+      - "For Kubernetes v1.17+\n\n#### Deploying Flannel with kubectl\n\n```bash\nkubectl apply -f https://github.com/flannel-io/flannel/releases/latest/download/kube-flannel.yml\n```"
