@@ -1,0 +1,34 @@
+project_name: "ScyllaDB"
+homepage_url: "https://github.com/scylladb/scylladb"
+repo_url: "https://github.com/scylladb/scylladb"
+cncf_status: "none"
+summary: "Scylla is a real-time big data database that is API-compatible with Apache Cassandra and Amazon DynamoDB, embracing a shared-nothing approach for increased performance."
+key_features:
+  - "API compatibility with Apache Cassandra and Amazon DynamoDB."
+  - "Shared-nothing architecture for increased throughput and storage capacity."
+  - "Order-of-magnitude performance improvements and reduced hardware costs."
+recent_updates: "Release scylla-2026.4.0-rc2-candidate-20261105094225."
+use_cases: "Replacing Cassandra or DynamoDB setups for real-time big data workloads with reduced hardware costs and higher performance."
+interesting_facts: "ScyllaDB is built to be fairly fussy about its build environment, requiring recent versions of the C++23 compiler, but offers a frozen toolchain Docker image for easy compilation."
+get_started: "Run Scylla with Docker: `docker run --name scylla -d -p 8000:8000 scylladb/scylla:latest --alternator-port=8000 --alternator-write-isolation=always`"
+related_tools:
+  - "Alternator"
+sources:
+  - id: "scylladb_summary"
+    url: "https://github.com/scylladb/scylladb"
+    quotes:
+      - "Scylla is the real-time big data database that is API-compatible with Apache Cassandra and Amazon DynamoDB."
+      - "Scylla embraces a shared-nothing approach that increases throughput and storage capacity to realize order-of-magnitude performance improvements and reduce hardware costs."
+  - id: "scylladb_build"
+    url: "https://github.com/scylladb/scylladb"
+    quotes:
+      - "Scylla is fairly fussy about its build environment, requiring very recent\nversions of the C++23 compiler and of many libraries to build."
+      - "Scylla offers a [frozen toolchain](tools/toolchain/README.md).\nThis is a pre-configured Docker image which includes recent versions of all\nthe required compilers, libraries and build tools."
+  - id: "scylladb_alternator"
+    url: "https://github.com/scylladb/scylladb/blob/master/docs/alternator/alternator.md"
+    quotes:
+      - "Alternator is a ScyllaDB feature adding compatibility with Amazon DynamoDB(TM)."
+  - id: "scylladb_get_started"
+    url: "https://github.com/scylladb/scylladb/blob/master/docs/alternator/getting-started.md"
+    quotes:
+      - "`docker run --name scylla -d -p 8000:8000 scylladb/scylla:latest --alternator-port=8000 --alternator-write-isolation=always`"
