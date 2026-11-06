@@ -1,0 +1,25 @@
+project_name: MuleSoft
+homepage_url: https://www.mulesoft.com/
+repo_url: https://github.com/mulesoft/mule
+cncf_status: non-cncf
+summary: Mule is a lightweight integration platform that allows you to connect anything anywhere by intelligently managing message-routing, data mapping, orchestration, reliability, security and scalability between nodes.
+key_features:
+  - Event Driven Architecture (EDA) responding to messages initiated by external resources
+  - Mule transformers convert message payload data to a format that another application can understand
+  - Uses components to conduct backend processes for specific business logic
+  - Catalog of building blocks includes the most commonly used Enterprise Integration Patterns
+recent_updates: Mule 4.1 runtime and Anypoint Studio improvements.
+use_cases: Connecting systems, services, APIs and devices intelligently without creating point-to-point integrations.
+interesting_facts: Mule is so named because it “carries the heavy development load” of connecting systems.
+get_started: Download Mule (Standalone or Anypoint Studio), confirm you have Java SE 8 Update 152 installed, and launch Mule Studio or standalone from the command line.
+related_tools: []
+sources:
+  - id: readme
+    url: https://github.com/mulesoft/mule
+    quotes:
+      - "Mule is a lightweight integration platform that allows you to connect anything anywhere."
+      - "Based on the concept of Event Driven Architecture (EDA), Mule works by responding to messages initiated by external resources (i.e. events)."
+      - "Mule transformers are the key to exchanging data between nodes, as they allow Mule to convert message payload data to a format that another application can understand."
+      - "Mule uses components to conduct backend processes for specific business logic (like checking the customer and inventory databases)."
+      - "Mule’s catalog of building blocks includes the most commonly used Enterprise Integration Patterns."
+      - "Mule is so named because it “carries the heavy development load” of connecting systems."
