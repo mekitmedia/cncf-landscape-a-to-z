@@ -1,0 +1,20 @@
+project_name: "Ceph"
+homepage_url: "https://ceph.io/en"
+repo_url: "https://github.com/ceph/ceph"
+cncf_status: non-cncf
+summary: "Ceph provides a unified distributed storage platform for object, block, and file interfaces."
+key_features:
+  - "Distributed storage system"
+  - "Unified storage service with object, block, and file interfaces from a single cluster"
+  - "Built from commodity hardware components"
+recent_updates: "v20.2.5 Tentacle released (recent news on ceph.io)"
+use_cases: "Transform storage infrastructure and provide unified storage service"
+interesting_facts: ""
+get_started: "Clone the ceph/ceph repository and build using cmake and ninja, or use container build tools."
+related_tools: []
+sources:
+  - id: readme
+    url: https://github.com/ceph/ceph
+    quotes:
+      - "Ceph is a distributed object, block, and file storage platform"
+      - "Ceph - a scalable distributed storage system"
