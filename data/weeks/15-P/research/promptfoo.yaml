@@ -1,0 +1,25 @@
+project_name: "Promptfoo"
+summary: "Promptfoo is a CLI and library for evaluating and red-teaming LLM-based apps, helping developers ship secure and reliable agents."
+key_features:
+  - "Test your prompts and models with automated evaluations"
+  - "Secure your LLM apps with red teaming and vulnerability scanning"
+  - "Compare models side-by-side"
+  - "Automate checks in CI/CD"
+  - "Review pull requests for LLM-related security and compliance issues with code scanning"
+recent_updates: ""
+use_cases: "Evaluating LLM applications, red teaming to identify vulnerabilities, comparing different LLM models side-by-side, and automating security checks in CI/CD pipelines."
+interesting_facts: "LLM evals run 100% locally - your prompts never leave your machine."
+get_started: "npm install -g promptfoo\npromptfoo init --example getting-started"
+related_tools: []
+sources:
+  - id: "readme"
+    url: "https://github.com/promptfoo/promptfoo/blob/main/README.md"
+    quotes:
+      - "<code>promptfoo</code> is a CLI and library for evaluating and red-teaming LLM-based apps. Stop using trial-and-error... start shipping secure, reliable agents"
+      - "Test your prompts and models"
+      - "Secure your LLM apps"
+      - "Compare models side-by-side"
+      - "Automate checks"
+      - "Review pull requests"
+      - "npm install -g promptfoo\npromptfoo init --example getting-started"
+      - "LLM evals run 100% locally - your prompts never leave your machine"
