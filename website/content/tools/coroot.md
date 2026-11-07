@@ -5,13 +5,11 @@ date: 2026-11-05T10:37:35.574859Z
 layout: single
 letter: C
 lifecycle_stage: initial
-status: pending
+status: completed
 repo_url: "https://github.com/coroot/coroot"
 homepage_url: "https://coroot.com/"
 cncf_status: "None"
 ---
-
-# Coroot
 
 An open-source observability and APM tool with AI-powered Root Cause Analysis. It brings together metrics, logs, traces, continuous profiling, and SLO-based alerting into a unified platform.
 
