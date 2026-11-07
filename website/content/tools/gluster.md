@@ -4,7 +4,7 @@ date: 2026-11-04T22:32:03Z
 layout: single
 letter: G
 status: completed
-lifecycle_stage: approved
+lifecycle_stage: tech_writing
 project_name: "Gluster"
 homepage_url: "https://www.gluster.org/"
 repo_url: "https://github.com/gluster/glusterfs"
@@ -24,3 +24,14 @@ latest_release:
   date: "2025-07-02T14:57:04Z"
   url: "https://github.com/gluster/glusterfs/releases/tag/v11.2"
 ---
+
+
+## Overview
+
+A software-defined distributed storage system that can scale to several petabytes and provides interfaces for object, block, and file storage.
+
+## Key Features
+
+- Scalable to several petabytes
+- Provides interfaces for object, block, and file storage
+- Software-defined distributed storage
