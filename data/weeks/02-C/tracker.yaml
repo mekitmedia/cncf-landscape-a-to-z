@@ -1123,18 +1123,18 @@ items:
   Coroot:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: "2026-11-05T10:32:00.485925Z"
+        output_file: data/weeks/02-C/research/coroot.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: "2026-11-05T10:32:00.485925Z"
+        output_file: website/content/tools/coroot.md
         error_message: null
         retry_count: 0
         agent: writer
