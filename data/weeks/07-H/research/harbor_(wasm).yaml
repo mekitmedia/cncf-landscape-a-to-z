@@ -1,0 +1,21 @@
+project_name: "Harbor (Wasm)"
+summary: "Harbor is an open source trusted cloud native registry project that stores, signs, and scans content, and includes support for managing WebAssembly (Wasm) artifacts."
+key_features:
+  - "Cloud native registry with support for container images, Helm charts, and Wasm artifacts"
+  - "Role based access control through projects"
+  - "Policy based replication"
+recent_updates: ""
+use_cases: "Container image registry, Helm chart registry, and Wasm artifact storage."
+interesting_facts: ""
+get_started: |
+  Download binaries of **[Harbor release ](https://github.com/goharbor/harbor/releases)** and follow **[Installation & Configuration Guide](https://goharbor.io/docs/latest/install-config/)** to install Harbor.
+related_tools: []
+sources:
+  - id: "readme"
+    url: "https://github.com/goharbor/harbor"
+    quotes:
+      - "Harbor is an open source trusted cloud native registry project that stores, signs, and scans content."
+      - "With support for both container images and [Helm](https://helm.sh) charts, Harbor serves as registry for cloud native environments like container runtimes and orchestration platforms."
+      - "Users access different repositories through 'projects' and a user can have different permission for images or Helm charts under a project."
+      - "Policy based replication"
+      - "Download binaries of **[Harbor release ](https://github.com/goharbor/harbor/releases)** and follow **[Installation & Configuration Guide](https://goharbor.io/docs/latest/install-config/)** to install Harbor."

@@ -78,18 +78,18 @@ items:
   Harbor (Wasm):
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-07T02:53:09.883681Z'
+        completed_at: '2026-11-07T02:53:09.883681Z'
+        output_file: data/weeks/07-H/research/harbor_(wasm).yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-07T02:53:09.883681Z'
+        completed_at: '2026-11-07T02:53:09.883681Z'
+        output_file: website/content/tools/harbor_(wasm).md
         error_message: null
         retry_count: 0
         agent: writer
