@@ -1,0 +1,24 @@
+project_name: "Temporal"
+homepage_url: "https://temporal.io/"
+repo_url: "https://github.com/temporalio/temporal"
+cncf_status: "non-cncf"
+summary: "Temporal is a durable execution platform that helps developers build scalable applications with high productivity and reliability. It executes Workflows resiliently by handling intermittent failures and retrying operations automatically."
+key_features:
+  - "Durable execution platform"
+  - "Executes Workflows in a resilient manner"
+  - "Automatically handles intermittent failures"
+  - "Retries failed operations"
+  - "Originated as a fork of Uber's Cadence"
+recent_updates: ""
+use_cases: "Building scalable applications without sacrificing productivity or reliability."
+interesting_facts: "Temporal is a mature technology that originated as a fork of Uber's Cadence."
+get_started: "brew install temporal\ntemporal server start-dev"
+related_tools: []
+sources:
+  - id: "readme"
+    url: "https://github.com/temporalio/temporal/blob/main/README.md"
+    quotes:
+      - "Temporal is a durable execution platform that enables developers to build scalable applications without sacrificing productivity or reliability."
+      - "The Temporal server executes units of application logic called Workflows in a resilient manner that automatically handles intermittent failures, and retries failed operations."
+      - "Temporal is a mature technology that originated as a fork of Uber's Cadence."
+      - "brew install temporal\ntemporal server start-dev"
