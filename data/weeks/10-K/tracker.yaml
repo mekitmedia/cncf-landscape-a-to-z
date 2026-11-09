@@ -287,18 +287,18 @@ items:
   Kapitan:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-09T02:54:11.739766Z'
+        completed_at: '2026-11-09T02:54:11.739766Z'
+        output_file: data/weeks/10-K/research/kapitan.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-09T02:54:11.739766Z'
+        completed_at: '2026-11-09T02:54:11.739766Z'
+        output_file: website/content/tools/kapitan.md
         error_message: null
         retry_count: 0
         agent: writer
