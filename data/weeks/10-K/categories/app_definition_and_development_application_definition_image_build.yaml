@@ -1,4 +1,14 @@
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Kubernetes Virtualization API and runtime in order to define and manage
+    virtual machines
+  featured: true
+  homepage_url: https://kubevirt.io/
+  logo: kubevirt.svg
+  name: KubeVirt
+  project: graduated
+  repo_url: https://github.com/kubevirt/kubevirt
+  twitter: https://twitter.com/kubevirt
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: Make shipping applications more enjoyable
   featured: true
   homepage_url: https://kubevela.io
@@ -7,16 +17,6 @@
   project: incubating
   repo_url: https://github.com/kubevela/kubevela
   twitter: https://twitter.com/oam_dev
-- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-  description: Kubernetes Virtualization API and runtime in order to define and manage
-    virtual machines
-  featured: true
-  homepage_url: https://kubevirt.io/
-  logo: kubevirt.svg
-  name: KubeVirt
-  project: incubating
-  repo_url: https://github.com/kubevirt/kubevirt
-  twitter: https://twitter.com/kubevirt
 - crunchbase: https://www.crunchbase.com/organization/replicated
   description: KOTS provides the framework, tools and integrations that enable the
     delivery and management of 3rd-party Kubernetes applications, a.k.a. Kubernetes

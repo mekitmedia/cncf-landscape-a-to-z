@@ -8,12 +8,12 @@ layout: "list"
 
 # Summary for 00-A
 
-This week has a total of 70 items.
+This week has a total of 71 items.
 
 
 - **Provisioning Automation Configuration**: 5 items
 
-- **Provisioning Security Compliance**: 2 items
+- **Provisioning Security Compliance**: 3 items
 
 - **Provisioning Key Management**: 2 items
 
