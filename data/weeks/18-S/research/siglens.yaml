@@ -1,0 +1,19 @@
+project_name: "SigLens"
+summary: "SigLens is an observability DB uniquely suited for logs, metrics and traces with zero external dependencies."
+key_features:
+  - "Multiple Ingestion formats: Open Telemetry, Elastic, Splunk HEC, Loki"
+  - "Multiple Query Languages: Splunk SPL, SQL"
+  - "Simple architecture, easy to get started"
+recent_updates: ""
+use_cases: ""
+interesting_facts: ""
+get_started: ""
+related_tools: []
+sources:
+  - id: "readme"
+    url: "https://github.com/siglens/siglens/blob/main/README.md"
+    quotes:
+      - "Armed with decades of experience in monitoring domain, we set out to build a observability DB from the ground up, uniquely suited for logs, metrics and traces with <b>zero</b> external dependencies."
+      - "1. Multiple Ingestion formats: Open Telemetry, Elastic, Splunk HEC, Loki"
+      - "2. Multiple Query Languages: Splunk SPL, SQL"
+      - "3. Simple architecture, easy to get started."
