@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:39.301961'
 homepage_url: https://openserverless.apache.org/
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Apache OpenServerless
 repo_url: https://github.com/apache/openserverless
 status: completed
@@ -67,3 +67,5 @@ Apache OpenServerless is widely utilized across the cloud native and open source
 - [Knative](/tools/knative/)
 
 - [OpenFaaS](/tools/openfaas/)
+
+

@@ -5,7 +5,7 @@ description: A Kubernetes Resource Interface for the Edge
 homepage_url: https://docs.akri.sh
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Akri
 repo_url: https://github.com/project-akri/akri
 status: completed
@@ -70,3 +70,5 @@ Akri means 'edge' in Greek and acts as an acronym for 'A Kubernetes Resource Int
 - [MicroK8s](/tools/microk8s/)
 
 - [KubeEdge](/tools/kubeedge/)
+
+

@@ -1,7 +1,6 @@
 ---
-cncf_status: "None"
+cncf_status: non-cncf
 date: '2026-11-11T07:58:52.496171Z'
-description: Genode provides a robust framework to build component-based operating systems. By merging capability-based security, microkernel technology, sandboxed drivers, and virtualization, it introduces an innovative OS architecture.
 homepage_url: https://genode.org/
 layout: single
 letter: G
@@ -12,14 +11,35 @@ status: completed
 title: Genode
 ---
 
+
+
 ## Overview
 
 Genode provides a robust framework to build component-based operating systems. By merging capability-based security, microkernel technology, sandboxed drivers, and virtualization, it introduces an innovative OS architecture.
 
+
+
 ## Key Features
 
+
 - Component-based operating systems
+
 - Capability-based security
+
 - Microkernel technology
+
 - Sandboxed device drivers
+
 - Virtualization with a novel operating system architecture
+
+
+
+
+
+
+
+
+
+
+
+

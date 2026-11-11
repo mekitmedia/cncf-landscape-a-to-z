@@ -6,7 +6,7 @@ description: Agent2Agent (A2A) is an open protocol enabling communication and in
 homepage_url: https://a2a-protocol.org/
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Agent2agent
 repo_url: https://github.com/a2aproject/A2A
 status: completed
@@ -69,3 +69,5 @@ The project's GitHub topics indicate a connection to the Linux Foundation, sugge
 - [LangChain](/tools/langchain/)
 
 - [LlamaIndex](/tools/llamaindex/)
+
+

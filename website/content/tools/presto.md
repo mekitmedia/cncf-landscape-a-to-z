@@ -1,8 +1,7 @@
 ---
 cncf_status: non-cncf
 date: '2026-10-04T18:37:49.292312'
-description: A distributed SQL query engine for big data.
-homepage_url: https://github.com/prestodb/presto
+homepage_url: https://prestodb.io/
 layout: single
 letter: P
 lifecycle_stage: initial

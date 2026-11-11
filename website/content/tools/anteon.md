@@ -7,7 +7,7 @@ description: Anteon is a platform that combines effortless Kubernetes Monitoring
 homepage_url: https://getanteon.com/
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Anteon
 repo_url: https://github.com/getanteon/anteon
 status: completed
@@ -70,3 +70,5 @@ Anteon is widely utilized across the cloud native and open source ecosystem.
 - [Pixie](/tools/pixie/)
 
 - [Cilium](/tools/cilium/)
+
+

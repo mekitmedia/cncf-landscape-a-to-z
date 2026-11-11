@@ -1,11 +1,10 @@
 ---
 cncf_status: non-cncf
 date: '2026-10-04T18:37:38.770746'
-description: A unified analytics engine for large-scale data processing.
 homepage_url: https://spark.apache.org/
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Apache Spark
 repo_url: https://github.com/apache/spark
 status: completed
@@ -68,3 +67,5 @@ Apache Spark is widely utilized across the cloud native and open source ecosyste
 - [Apache Hadoop](/tools/apache_hadoop/)
 
 - [Trino](/tools/trino/)
+
+

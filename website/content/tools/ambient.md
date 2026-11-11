@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:39.481911'
 homepage_url: https://www.ambient.run/
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Ambient
 repo_url: https://github.com/AmbientRun/Ambient
 status: completed
@@ -67,3 +67,5 @@ Ambient is widely utilized across the cloud native and open source ecosystem.
 - [Godot](/tools/godot/)
 
 - [WebAssembly](/tools/webassembly/)
+
+

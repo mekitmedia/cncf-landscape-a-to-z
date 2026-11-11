@@ -5,7 +5,7 @@ description: Next Generation Agentic Proxy for AI Agents and MCP servers
 homepage_url: https://agentgateway.dev/
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Agentgateway
 repo_url: https://github.com/agentgateway/agentgateway
 status: completed
@@ -70,3 +70,5 @@ Agentgateway describes itself as the first complete connectivity solution for Ag
 - [Model Context Protocol (MCP)](/tools/model_context_protocol_(mcp)/)
 
 - [Envoy Proxy](/tools/envoy_proxy/)
+
+

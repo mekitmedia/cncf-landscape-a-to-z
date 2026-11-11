@@ -5,7 +5,7 @@ description: Make websites accessible for AI agents. Automate tasks online with 
 homepage_url: https://browser-use.com/
 layout: single
 letter: B
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Browser Use
 repo_url: https://github.com/browser-use/browser-use
 status: completed
@@ -66,3 +66,5 @@ Browser Use scores 90.5% on Stealth Bench V2 and provides cloud stealth browsers
 - [OpenAI](/tools/openai/)
 
 - [Anthropic](/tools/anthropic/)
+
+

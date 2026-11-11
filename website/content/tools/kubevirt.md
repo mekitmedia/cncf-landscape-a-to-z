@@ -1,5 +1,5 @@
 ---
-cncf_status: incubating
+cncf_status: graduated
 date: '2026-10-04T18:37:40.255577'
 description: Kubernetes Virtualization API and runtime in order to define and manage
   virtual machines

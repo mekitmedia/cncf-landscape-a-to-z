@@ -5,10 +5,10 @@ homepage_url: https://avro.apache.org/
 layout: single
 letter: A
 lifecycle_stage: tech_writing
-project_name: Avro
+project_name: Apache Avro
 repo_url: https://github.com/apache/avro
 status: completed
-title: Avro
+title: Apache Avro
 ---
 
 
@@ -69,3 +69,5 @@ Avro relies on schemas that are always present when data is read, permitting dat
 - [Apache Kafka](/tools/apache_kafka/)
 
 - [Apache Thrift](/tools/apache_thrift/)
+
+

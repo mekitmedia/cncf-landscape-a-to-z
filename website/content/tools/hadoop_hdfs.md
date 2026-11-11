@@ -6,7 +6,7 @@ description: Open source framework works by rapidly transferring data between no
 homepage_url: https://hadoop.apache.org/
 layout: single
 letter: H
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Hadoop HDFS
 repo_url: https://github.com/apache/hadoop
 status: completed
@@ -69,3 +69,5 @@ HDFS was originally built as infrastructure for the Apache Nutch web search engi
 - [Apache Flink](/tools/apache_flink/)
 
 - [Apache Hadoop](/tools/apache_hadoop/)
+
+

@@ -5,7 +5,7 @@ description: Deploy a highly available Kubernetes cluster in offline environment
 homepage_url: https://github.com/eb-k8s/kubeaver
 layout: single
 letter: K
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Kubeaver
 repo_url: https://github.com/eb-k8s/kubeaver
 status: completed
@@ -16,7 +16,7 @@ title: Kubeaver
 
 ## Overview
 
-Kubeaver is a tool for quickly deploying high-availability Kubernetes (K8s) clusters, supporting offline and online (in progress) methods. The project is based on kubespray, leveraging Ansible to automate deployment tasks, and provides a user-friendly graphical user interface.
+Kubeaver is a tool for quickly deploying high-availability Kubernetes (K8s) clusters, supporting offline and online methods. The project is based on kubespray, leveraging Ansible to automate deployment tasks, and provides a user-friendly graphical user interface.
 
 
 
@@ -51,7 +51,9 @@ Quickly deploying high-availability Kubernetes clusters in offline or online env
 {{< callout title="Getting Started" type="code" >}}
 ```bash
 tar xzvf kubeaver-offline-installer-1.0.0.tgz
+
 cd kubeaver-offline-installer-1.0.0
+
 ./start.sh
 ```
 {{< /callout >}}
@@ -63,3 +65,6 @@ cd kubeaver-offline-installer-1.0.0
 {{< callout title="Did You Know?" type="info" >}}
 Kubeaver is based on kubespray and leverages Ansible to automate deployment tasks. It is also a CNCF conformance-certified installer.
 {{< /callout >}}
+
+
+

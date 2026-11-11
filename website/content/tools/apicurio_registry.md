@@ -72,3 +72,5 @@ Apicurio Registry is widely utilized across the cloud native and open source eco
 - [Buf](/tools/buf/)
 
 - [SchemaHero](/tools/schemahero/)
+
+

@@ -7,7 +7,7 @@ description: Part of the Envoy project, Envoy Gateway is the control plane for d
 homepage_url: https://gateway.envoyproxy.io
 layout: single
 letter: E
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Envoy Gateway
 repo_url: https://github.com/envoyproxy/gateway
 status: completed
@@ -66,3 +66,5 @@ The quickstart configures the gateway using Kubernetes Gateway API resources Gat
 - [Envoy Proxy](/tools/envoy_proxy/)
 
 - [Kubernetes Gateway API](/tools/kubernetes_gateway_api/)
+
+

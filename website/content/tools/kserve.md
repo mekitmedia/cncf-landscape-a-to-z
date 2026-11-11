@@ -6,7 +6,7 @@ description: Standardized Distributed Generative and Predictive AI Inference Pla
 homepage_url: https://kserve.github.io/website/
 layout: single
 letter: K
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: KServe
 repo_url: https://github.com/kserve/kserve
 status: completed
@@ -69,3 +69,5 @@ KServe is an important addon component of Kubeflow, enabling standardized AI inf
 - [TensorFlow](/tools/tensorflow/)
 
 - [PyTorch](/tools/pytorch/)
+
+

@@ -18,7 +18,7 @@ title: Typhoon
 
 ## Overview
 
-Typhoon is a minimal and free Kubernetes distribution.
+Typhoon provides a lightweight and open-source Kubernetes distribution.
 
 
 
@@ -68,3 +68,5 @@ Typhoon distributes upstream Kubernetes, architectural conventions, and cluster 
 - [Kubespray](/tools/kubespray/)
 
 - [kops](/tools/kops/)
+
+

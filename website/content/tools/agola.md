@@ -10,7 +10,7 @@ description: Open Source CI/CD platform with advanced features and architecture.
 homepage_url: https://agola.io
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Agola
 repo_url: https://github.com/agola-io/agola
 status: completed
@@ -73,3 +73,5 @@ Agola is widely utilized across the cloud native and open source ecosystem.
 - [Argo Workflows](/tools/argo_workflows/)
 
 - [Drone](/tools/drone/)
+
+

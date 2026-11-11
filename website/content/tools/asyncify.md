@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:38.919660'
 homepage_url: https://github.com/GoogleChromeLabs/asyncify
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Asyncify
 repo_url: https://github.com/GoogleChromeLabs/asyncify
 status: completed
@@ -67,3 +67,5 @@ Asyncify operates by transforming WebAssembly code post-compilation using `wasm-
 - [WebAssembly](/tools/webassembly/)
 
 - [wasm-opt](/tools/wasm-opt/)
+
+

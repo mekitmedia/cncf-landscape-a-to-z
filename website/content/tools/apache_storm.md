@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:38.788408'
 homepage_url: https://storm.apache.org/
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Apache Storm
 repo_url: https://github.com/apache/storm
 status: completed
@@ -67,3 +67,5 @@ Apache Storm is widely utilized across the cloud native and open source ecosyste
 - [Apache Spark Streaming](/tools/apache_spark_streaming/)
 
 - [Apache Samza](/tools/apache_samza/)
+
+

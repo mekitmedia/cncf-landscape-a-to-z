@@ -6,7 +6,7 @@ description: Kubernetes-native tools to run workflows, manage clusters, and do G
 homepage_url: https://argoproj.github.io/
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Argo
 repo_url: https://github.com/argoproj/argo-cd
 status: completed
@@ -69,3 +69,5 @@ Argo is widely utilized across the cloud native and open source ecosystem.
 - [Tekton](/tools/tekton/)
 
 - [Spinnaker](/tools/spinnaker/)
+
+

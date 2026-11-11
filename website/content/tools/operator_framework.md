@@ -1,8 +1,9 @@
 ---
 cncf_status: incubating
 date: '2026-10-04T18:37:47.842297'
-description: SDK for building Kubernetes applications. Provides high level APIs, useful
-  abstractions, and project scaffolding
+description: An open source toolkit to manage Kubernetes native applications, called
+  Operators in an effective, automated, and scalable way. Provides managing controllers
+  and developer tooling
 homepage_url: https://operatorframework.io/
 layout: single
 letter: O

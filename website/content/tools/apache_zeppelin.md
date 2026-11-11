@@ -6,7 +6,7 @@ description: Web-based notebook that enables data-driven, interactive data analy
 homepage_url: https://zeppelin.apache.org
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Apache Zeppelin
 repo_url: https://github.com/apache/zeppelin
 status: completed
@@ -69,3 +69,5 @@ Apache Zeppelin is widely utilized across the cloud native and open source ecosy
 - [Apache Spark](/tools/apache_spark/)
 
 - [Apache Superset](/tools/apache_superset/)
+
+

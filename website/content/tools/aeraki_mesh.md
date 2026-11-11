@@ -5,7 +5,7 @@ description: Aeraki Mesh allows you to manage any layer-7 traffic in a service m
 homepage_url: https://www.aeraki.net/
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Aeraki Mesh
 repo_url: https://github.com/aeraki-mesh/aeraki
 status: completed
@@ -70,3 +70,5 @@ Aeraki (Air-rah-ki) is the Greek word for 'breeze'. It avoids reinventing the wh
 - [Envoy](/tools/envoy/)
 
 - [Linkerd](/tools/linkerd/)
+
+

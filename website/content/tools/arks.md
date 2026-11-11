@@ -8,7 +8,7 @@ description: Arks is an end-to-end framework for managing LLM-based applications
 homepage_url: https://www.scitix.ai
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Arks
 repo_url: https://github.com/scitix/arks
 status: completed
@@ -71,3 +71,5 @@ Arks is widely utilized across the cloud native and open source ecosystem.
 - [KServe](/tools/kserve/)
 
 - [Ray](/tools/ray/)
+
+

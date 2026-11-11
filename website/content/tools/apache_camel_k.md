@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:39.285450'
 homepage_url: https://camel.apache.org
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Apache Camel K
 repo_url: https://github.com/apache/camel-k
 status: completed
@@ -67,3 +67,5 @@ Apache Camel K is widely utilized across the cloud native and open source ecosys
 - [Knative](/tools/knative/)
 
 - [Dapr](/tools/dapr/)
+
+

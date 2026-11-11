@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:39.575800'
 homepage_url: https://brpc.apache.org/
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Apache bRPC
 repo_url: https://github.com/apache/brpc
 status: completed
@@ -67,3 +67,5 @@ Apache bRPC is widely utilized across the cloud native and open source ecosystem
 - [Apache Thrift](/tools/apache_thrift/)
 
 - [Dubbo](/tools/dubbo/)
+
+

@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:39.012781'
 homepage_url: https://github.com/apioak/
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: APIOAK
 repo_url: https://github.com/apioak/apioak
 status: completed
@@ -65,3 +65,5 @@ APIOAK leverages the high performance of Nginx and Lua through OpenResty.
 - [Kong](/tools/kong/)
 
 - [APISIX](/tools/apisix/)
+
+

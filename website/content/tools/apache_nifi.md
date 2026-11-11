@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:38.734909'
 homepage_url: https://nifi.apache.org/
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Apache NiFi
 repo_url: https://github.com/apache/nifi
 status: completed
@@ -67,3 +67,5 @@ Apache NiFi is widely utilized across the cloud native and open source ecosystem
 - [Apache Kafka](/tools/apache_kafka/)
 
 - [StreamSets](/tools/streamsets/)
+
+

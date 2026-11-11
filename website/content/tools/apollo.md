@@ -5,7 +5,7 @@ description: Apollo is a reliable open-source configuration management system
 homepage_url: https://www.apolloconfig.com/
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Apollo
 repo_url: https://github.com/apolloconfig/apollo
 status: completed
@@ -68,3 +68,5 @@ Apollo is widely utilized across the cloud native and open source ecosystem.
 - [Consul](/tools/consul/)
 
 - [Nacos](/tools/nacos/)
+
+

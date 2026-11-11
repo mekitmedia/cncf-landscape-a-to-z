@@ -5,7 +5,7 @@ description: Armada is a multi-Kubernetes cluster batch job scheduler
 homepage_url: https://armadaproject.io/
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Armada
 repo_url: https://github.com/armadaproject/armada
 status: completed
@@ -70,3 +70,5 @@ G-Research, a leading quantitative research company, uses Armada in production t
 - [Agones](/tools/agones/)
 
 - [Apache Mesos](/tools/apache_mesos/)
+
+

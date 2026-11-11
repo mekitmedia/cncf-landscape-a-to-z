@@ -6,7 +6,7 @@ description: An Envoy-powered, Kubernetes-native API Gateway that integrates Kub
 homepage_url: https://kgateway.dev/
 layout: single
 letter: K
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Kgateway
 repo_url: https://github.com/kgateway-dev/kgateway
 status: completed
@@ -70,3 +70,5 @@ The project was launched in 2018 as Gloo by Solo.io and has been production-read
 - [Envoy](/tools/envoy/)
 
 - [Kubernetes](/tools/kubernetes/)
+
+

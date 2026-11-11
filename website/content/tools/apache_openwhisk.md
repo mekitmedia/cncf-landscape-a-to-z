@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:39.318104'
 homepage_url: https://openwhisk.apache.org/
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Apache OpenWhisk
 repo_url: https://github.com/apache/openwhisk
 status: completed
@@ -67,3 +67,5 @@ Apache OpenWhisk is widely utilized across the cloud native and open source ecos
 - [AWS Lambda](/tools/aws_lambda/)
 
 - [OpenFaaS](/tools/openfaas/)
+
+

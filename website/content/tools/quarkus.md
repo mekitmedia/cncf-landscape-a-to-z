@@ -7,7 +7,7 @@ description: Quarkus is a Kubernetes-native Java framework, designed to enable J
 homepage_url: https://www.quarkus.io/
 layout: single
 letter: Q
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Quarkus
 repo_url: https://github.com/quarkusio/quarkus
 status: completed
@@ -67,3 +67,6 @@ Release 3.40.1.1 includes bump for rest-assured to version 6.3.0 and other depen
 {{< callout title="Did You Know?" type="info" >}}
 Quarkus achieves its 'Supersonic Subatomic' characteristics by aggressively doing work at build-time (AOT compilation) that traditional frameworks do at runtime.
 {{< /callout >}}
+
+
+

@@ -6,7 +6,7 @@ description: Fine-grained, policy-based, real-time authorization for APIs and mi
 homepage_url: https://www.aserto.com
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Aserto
 repo_url: https://github.com/aserto-dev/runtime
 status: completed
@@ -73,3 +73,5 @@ Aserto's foundation includes Topaz, Open Policy Agent, and a Google Zanzibar ins
 - [Open Policy Agent (OPA)](/tools/open_policy_agent_(opa)/)
 
 - [Google Zanzibar](/tools/google_zanzibar/)
+
+

@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:39.559833'
 homepage_url: https://thrift.apache.org/
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Apache Thrift
 repo_url: https://github.com/apache/thrift
 status: completed
@@ -67,3 +67,5 @@ Apache Thrift is widely utilized across the cloud native and open source ecosyst
 - [Protocol Buffers](/tools/protocol_buffers/)
 
 - [Cap'n Proto](/tools/cap'n_proto/)
+
+

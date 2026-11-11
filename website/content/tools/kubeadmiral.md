@@ -6,7 +6,7 @@ description: KubeAdmiral is a multi-cluster scheduling and orchestration system 
 homepage_url: https://github.com/kubewharf/kubeadmiral
 layout: single
 letter: K
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: KubeAdmiral
 repo_url: https://github.com/kubewharf/kubeadmiral
 status: completed
@@ -47,10 +47,11 @@ Managing Kubernetes resources across multiple clusters, migrating from single-cl
 ```bash
 If you wish to see how KubeAdmiral works, you can easily start a cluster that includes the KubeAdmiral control plane on your local machine.
 
-
+```console
 $ git clone https://github.com/kubewharf/kubeadmiral
 $ cd kubeadmiral
 $ make local-up
+```
 ```
 {{< /callout >}}
 
@@ -74,3 +75,5 @@ KubeAdmiral is a continuation of Kubernetes Federation v2 and refers to Karmada 
 - [Kubernetes](/tools/kubernetes/)
 
 - [Karmada](/tools/karmada/)
+
+

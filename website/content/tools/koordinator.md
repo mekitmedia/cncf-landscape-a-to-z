@@ -6,7 +6,7 @@ description: QoS based scheduling system for hybrid orchestration workloads on K
 homepage_url: https://koordinator.sh
 layout: single
 letter: K
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Koordinator
 repo_url: https://github.com/koordinator-sh/koordinator
 status: completed
@@ -65,3 +65,5 @@ Koordinator aims to enhance Kubernetes user experiences in workload management b
 
 
 - [kubernetes](/tools/kubernetes/)
+
+

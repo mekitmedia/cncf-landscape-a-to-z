@@ -15,21 +15,35 @@ status: completed
 title: Promptfoo
 ---
 
+
+
 ## Overview
 
 Promptfoo is a CLI and library for evaluating and red-teaming LLM-based apps, helping developers ship secure and reliable agents.
 
+
+
 ## Key Features
 
+
 - Test your prompts and models with automated evaluations
+
 - Secure your LLM apps with red teaming and vulnerability scanning
+
 - Compare models side-by-side
+
 - Automate checks in CI/CD
+
 - Review pull requests for LLM-related security and compliance issues with code scanning
+
+
+
 
 ## Use Cases
 
 Evaluating LLM applications, red teaming to identify vulnerabilities, comparing different LLM models side-by-side, and automating security checks in CI/CD pipelines.
+
+
 
 {{< callout title="Getting Started" type="code" >}}
 ```bash
@@ -38,6 +52,13 @@ promptfoo init --example getting-started
 ```
 {{< /callout >}}
 
+
+
+
+
 {{< callout title="Did You Know?" type="info" >}}
 LLM evals run 100% locally - your prompts never leave your machine.
 {{< /callout >}}
+
+
+
