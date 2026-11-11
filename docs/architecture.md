@@ -119,5 +119,6 @@ To prevent race conditions and merge conflicts across workflows, each component 
 ## 5. Execution Modes
 
 1. **Python Orchestrator**: Run locally or in CI via `python src/cli.py run workflow` (supports parallel graph scheduling).
-2. **Portable Harness Skill**: Contributor execution via `.agents/skills/cncf-weekly-content/SKILL.md` across coding harnesses (Claude Code, Google Jules, Copilot, Codex/OpenAI, OpenCode, Antigravity).
+2. **Portable Harness Skill**: Contributor execution via `.agents/skills/cncf-weekly-content/SKILL.md` across coding harnesses (Claude Code, KubeOpenCode, Copilot, Codex/OpenAI, OpenCode, Antigravity).
 3. **Automated CI / PR Workflow**: Scheduled GitHub Actions run ETL and content workflows, generating PRs with automated grounding audits.
+4. **KubeOpenCode Operator**: Autonomous Kubernetes-native agent execution using `AgentTemplate` and `CronTask` building blocks in `k8s/kubeopencode/`.

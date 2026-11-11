@@ -13,7 +13,6 @@ from src.agentic.prompts import (
     EDITOR_SYSTEM_PROMPT,
     RESEARCHER_SYSTEM_PROMPT,
     WRITER_SYSTEM_PROMPT,
-    JULES_SYSTEM_PROMPT,
     PROMPTS_DIR,
 )
 from src.agentic.agents.editor import editor_agent
@@ -27,7 +26,6 @@ def test_prompts_directory_exists():
     assert (PROMPTS_DIR / "editor.md").exists()
     assert (PROMPTS_DIR / "researcher.md").exists()
     assert (PROMPTS_DIR / "writer.md").exists()
-    assert (PROMPTS_DIR / "jules.md").exists()
 
 
 def test_prompt_constants_non_empty():
@@ -35,7 +33,6 @@ def test_prompt_constants_non_empty():
     assert len(EDITOR_SYSTEM_PROMPT.strip()) > 0
     assert len(RESEARCHER_SYSTEM_PROMPT.strip()) > 0
     assert len(WRITER_SYSTEM_PROMPT.strip()) > 0
-    assert len(JULES_SYSTEM_PROMPT.strip()) > 0
 
 
 def test_pydantic_agents_use_canonical_prompts():
@@ -51,4 +48,3 @@ def test_github_prompts_synced():
     assert (github_prompts / "editor.md").read_text(encoding="utf-8").strip() == EDITOR_SYSTEM_PROMPT
     assert (github_prompts / "researcher.md").read_text(encoding="utf-8").strip() == RESEARCHER_SYSTEM_PROMPT
     assert (github_prompts / "writer.md").read_text(encoding="utf-8").strip() == WRITER_SYSTEM_PROMPT
-    assert (github_prompts / "jules_prompt.md").read_text(encoding="utf-8").strip() == JULES_SYSTEM_PROMPT

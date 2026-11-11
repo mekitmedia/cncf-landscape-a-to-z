@@ -23,7 +23,7 @@ docs/
 │
 ├── 🤖 Agent Workflows & Contributor Skills
 │   ├── agentic-workflow.md                    # Editor, Researcher, Writer agents & iteration loop
-│   ├── jules-task-delegation.md               # Task queue & self-cleaning Jules lifecycle
+│   ├── kubeopencode-agent-templates.md        # KubeOpenCode AgentTemplate & GitOps automation
 │   └── ../.agents/skills/cncf-weekly-content/ # Multi-harness portable skill
 │
 └── 🔬 Explorations & Optimizations
@@ -100,12 +100,12 @@ docs/
 - Iterative editorial revision cycles (up to 3 rounds)
 - Prompt guidelines and editorial standards
 
-#### [jules-task-delegation.md](jules-task-delegation.md) *(New)*
-**Jules Task Delegation & Self-Cleaning Lifecycle Pattern**
-- Modular task queue architecture under `.github/prompts/tasks/`
-- Atomic task authoring principles and technical contract specifications
-- Self-cleaning task lifecycle (prompts delete themselves upon PR creation to keep backlog clean)
-- Dispatch options via GitHub CLI and Actions UI
+#### [kubeopencode-agent-templates.md](kubeopencode-agent-templates.md) *(New)*
+**KubeOpenCode Agent Templates & GitOps Automation**
+- Declarative Kubernetes-native autonomous agents using `kubeopencode.io/v1alpha1`
+- Reusable `AgentTemplate` with workspace Git auto-sync (`HotReload`) and secret mounts
+- Scheduled `CronTask` execution replacing legacy GitHub Actions cron workflows
+- Standalone building blocks deployable via `kubectl apply -k` or Flux GitOps reconciliation
 
 #### [CNCF Weekly Content Skill](../.agents/skills/cncf-weekly-content/SKILL.md)
 **Portable Skill for Claude Code, Codex/OpenAI, OpenCode, and Antigravity**

@@ -1,4 +1,4 @@
-# Jules Content & Research Memory Log
+# Content & Research Domain Memory Log
 
 This file records insights, learnings, and canonical actions discovered during CNCF landscape research, weekly post writing, and content management workflows.
 

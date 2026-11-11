@@ -1,0 +1,61 @@
+apiVersion: kubeopencode.io/v1alpha1
+kind: AgentTemplate
+metadata:
+  name: cncf-landscape-base
+  namespace: kubeopencode
+  labels:
+    app.kubernetes.io/part-of: cncf-landscape-a-to-z
+    app.kubernetes.io/component: agent-template
+spec:
+  # OpenCode container images
+  agentImage: ghcr.io/kubeopencode/kubeopencode-agent-opencode:latest
+  executorImage: ghcr.io/kubeopencode/kubeopencode-agent-devbox:latest
+  attachImage: ghcr.io/kubeopencode/kubeopencode-agent-attach:latest
+
+  workspaceDir: /workspace
+  serviceAccountName: kubeopencode-agent
+
+  # Git context with auto-sync: mounts repository at /workspace
+  contexts:
+    - name: repository
+      type: Git
+      git:
+        repository: https://github.com/mekitmedia/cncf-landscape-a-to-z.git
+        ref: main
+        sync:
+          enabled: true
+          interval: 5m
+          policy: HotReload
+      mountPath: .
+
+  # Credentials (mounted from Kubernetes Secrets)
+  credentials:
+    - name: github-token
+      secretRef:
+        name: github-creds
+        key: token
+      env: GITHUB_TOKEN
+    - name: google-api-key
+      secretRef:
+        name: google-creds
+        key: api-key
+      env: GOOGLE_API_KEY
+
+  # OpenCode LLM configuration
+  config:
+    $schema: https://opencode.ai/config.json
+    model: google/gemini-2.5-flash
+    small_model: google/gemini-2.5-flash
+
+  # Pod specifications & security
+  podSpec:
+    labels:
+      app.kubernetes.io/part-of: cncf-landscape-a-to-z
+    securityContext:
+      runAsNonRoot: true
+
+  # Concurrency limits and rate limiting
+  maxConcurrentTasks: 3
+  quota:
+    maxTaskStarts: 20
+    windowSeconds: 3600
