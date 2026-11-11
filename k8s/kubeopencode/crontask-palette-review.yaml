@@ -1,7 +1,7 @@
 apiVersion: kubeopencode.io/v1alpha1
 kind: CronTask
 metadata:
-  name: cncf-palette-improvement-weekly
+  name: cncf-palette-review
   namespace: kubeopencode
   labels:
     app.kubernetes.io/part-of: cncf-landscape-a-to-z
@@ -16,7 +16,7 @@ spec:
       agentRef:
         name: cncf-landscape-agent
       description: |
-        Conduct weekly UI, UX, and accessibility maintenance for the Hugo website theme:
+        Conduct UI, UX, and accessibility maintenance for the Hugo website theme:
         1. Review `website/themes/cncf-theme/` layouts and partials.
         2. Verify keyboard navigation, tabindex on `<main>`, focus-visible styles on buttons, and semantic `<a>` tags.
         3. Consult UI domain memory at `docs/domain-memory/palette.md`.

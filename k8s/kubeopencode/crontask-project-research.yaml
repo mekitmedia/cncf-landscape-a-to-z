@@ -1,14 +1,14 @@
 apiVersion: kubeopencode.io/v1alpha1
 kind: CronTask
 metadata:
-  name: cncf-weekly-research-hourly
+  name: cncf-project-research
   namespace: kubeopencode
   labels:
     app.kubernetes.io/part-of: cncf-landscape-a-to-z
     app.kubernetes.io/component: crontask
 spec:
-  # Runs hourly at minute 23 to avoid peak cron collision
-  schedule: "23 * * * *"
+  # Runs daily at 00:23 UTC to evaluate agent performance vs legacy Jules
+  schedule: "23 0 * * *"
   concurrencyPolicy: Forbid
   maxRetainedTasks: 10
   taskTemplate:
@@ -16,7 +16,7 @@ spec:
       agentRef:
         name: cncf-landscape-agent
       description: |
-        Perform autonomous weekly CNCF Landscape project research:
+        Perform autonomous CNCF Landscape project research:
         1. Draw a task from the weighted roulette / ad-hoc queue:
            just draw
         2. Conduct in-depth research according to `.agents/skills/cncf-weekly-content/SKILL.md`.

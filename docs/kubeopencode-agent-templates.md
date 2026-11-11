@@ -20,7 +20,7 @@ graph TD
         Template["AgentTemplate: cncf-landscape-base<br/>- Images (opencode, devbox, attach)<br/>- Git context sync (HotReload, 5m)<br/>- Secret mounts (GITHUB_TOKEN, GOOGLE_API_KEY)<br/>- OpenCode config (gemini-flash-lite-latest)"]
         Agent["Agent: cncf-landscape-agent<br/>- templateRef: cncf-landscape-base<br/>- Standby idleTimeout: 30m"]
         
-        Cron1["CronTask: hourly research roulette<br/>(23 * * * *)"]
+        Cron1["CronTask: daily research roulette<br/>(23 0 * * *)"]
         Cron2["CronTask: weekly compass check<br/>(0 9 * * 2)"]
         Cron3["CronTask: weekly palette UI check<br/>(0 9 * * 4)"]
         Cron4["CronTask: weekly engineering maintenance<br/>(0 9 * * 6)"]
@@ -44,10 +44,10 @@ k8s/
     ├── kustomization.yaml                           # Component kustomization aggregating all resources
     ├── agent-template.yaml                          # Shared base template for the CNCF Landscape project
     ├── agents.yaml                                  # Persistent or live agent definitions
-    ├── crontask-weekly-research-hourly.yaml          # Hourly research roulette task
-    ├── crontask-compass-improvement-weekly.yaml      # Weekly compass review task
-    ├── crontask-palette-improvement-weekly.yaml      # Weekly palette UI/UX review task
-    └── crontask-engineering-improvement-weekly.yaml  # Weekly engineering maintenance task
+    ├── crontask-project-research.yaml               # CNCF Landscape project research task (daily)
+    ├── crontask-compass-audit.yaml                  # Compass alignment and backlog audit task
+    ├── crontask-palette-review.yaml                 # Palette UI/UX and accessibility review task
+    └── crontask-engineering-maintenance.yaml        # Engineering codebase maintenance task
 ```
 
 ---
@@ -103,12 +103,15 @@ Flux will monitor this repository, apply the `AgentTemplate`, create the `Agent`
 
 ## Available Scheduled Tasks (`CronTask`)
 
+> [!NOTE]
+> Tasks are intentionally named by **purpose and domain** rather than schedule cadence (`daily`, `weekly`, etc.) so that schedules can be modified freely without renaming Kubernetes resources or GitOps references.
+
 | CronTask Name | Manifest File | Schedule | Purpose |
 |---|---|---|---|
-| **`cncf-weekly-research-hourly`** | `crontask-weekly-research-hourly.yaml` | `23 * * * *` (Hourly) | Draws next pending or roulette task, conducts research, validates schema |
-| **`cncf-compass-improvement-weekly`** | `crontask-compass-improvement-weekly.yaml` | `0 9 * * 2` (Tue 09:00 UTC) | Reviews tool gaps, letter progression, and category indexes |
-| **`cncf-palette-improvement-weekly`** | `crontask-palette-improvement-weekly.yaml` | `0 9 * * 4` (Thu 09:00 UTC) | Reviews website theme accessibility, focus states, navigation |
-| **`cncf-engineering-improvement-weekly`** | `crontask-engineering-improvement-weekly.yaml` | `0 9 * * 6` (Sat 09:00 UTC) | Runs test suite, verifies schemas, refactors technical debt |
+| **`cncf-project-research`** | `crontask-project-research.yaml` | `23 0 * * *` (Daily) | Draws next pending or roulette task, conducts research, validates schema |
+| **`cncf-compass-audit`** | `crontask-compass-audit.yaml` | `0 9 * * 2` (Tue 09:00 UTC) | Reviews tool gaps, letter progression, and category indexes |
+| **`cncf-palette-review`** | `crontask-palette-review.yaml` | `0 9 * * 4` (Thu 09:00 UTC) | Reviews website theme accessibility, focus states, navigation |
+| **`cncf-engineering-maintenance`** | `crontask-engineering-maintenance.yaml` | `0 9 * * 6` (Sat 09:00 UTC) | Runs test suite, verifies schemas, refactors technical debt |
 
 ---
 
@@ -117,14 +120,14 @@ Flux will monitor this repository, apply the `AgentTemplate`, create the `Agent`
 You can trigger any `CronTask` immediately via kubectl without waiting for its schedule:
 
 ```bash
-# Trigger an immediate run of the hourly research CronTask
-kubectl annotate crontask cncf-weekly-research-hourly kubeopencode.io/trigger=true -n kubeopencode
+# Trigger an immediate run of the project research CronTask
+kubectl annotate crontask cncf-project-research kubeopencode.io/trigger=true -n kubeopencode
 
 # Suspend a CronTask
-kubectl patch crontask cncf-weekly-research-hourly -n kubeopencode --type merge -p '{"spec":{"suspend":true}}'
+kubectl patch crontask cncf-project-research -n kubeopencode --type merge -p '{"spec":{"suspend":true}}'
 
 # Resume a CronTask
-kubectl patch crontask cncf-weekly-research-hourly -n kubeopencode --type merge -p '{"spec":{"suspend":false}}'
+kubectl patch crontask cncf-project-research -n kubeopencode --type merge -p '{"spec":{"suspend":false}}'
 ```
 
 ---

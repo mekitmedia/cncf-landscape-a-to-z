@@ -76,10 +76,10 @@ k8s/
     ├── kustomization.yaml                           # Component kustomization
     ├── agent-template.yaml                          # Base AgentTemplate
     ├── agents.yaml                                  # Agent instances
-    ├── crontask-weekly-research-hourly.yaml          # Hourly research roulette
-    ├── crontask-compass-improvement-weekly.yaml      # Weekly compass review
-    ├── crontask-palette-improvement-weekly.yaml      # Weekly palette UI/UX check
-    └── crontask-engineering-improvement-weekly.yaml  # Weekly engineering maintenance
+    ├── crontask-project-research.yaml               # Project research roulette (daily)
+    ├── crontask-compass-audit.yaml                  # Compass backlog review
+    ├── crontask-palette-review.yaml                 # Palette UI/UX check
+    └── crontask-engineering-maintenance.yaml        # Engineering maintenance
 ```
 
 No custom queue scripts. No fragile composite GitHub actions. Just standard Kubernetes manifests.
@@ -187,19 +187,21 @@ spec:
 
 ### Step 3: Split Scheduled Workflows into Dedicated `CronTask` Files
 
-One of our main learnings from running scheduled tasks is that **each recurring job deserves its own dedicated file**. Rather than bundling four distinct schedules into one giant document, we split them into standalone manifests:
+Two key architectural insights shaped how we structure scheduled tasks:
+1. **One CronTask per file**: Rather than bundling multiple distinct schedules into one giant document, each recurring job lives in its own dedicated manifest.
+2. **Name by purpose, not by cron cadence**: Naming resources after their schedule (like `...-hourly` or `...-weekly`) quickly turns nonsensical when schedules change. By naming tasks by domain and intent (`cncf-project-research`, `cncf-compass-audit`, etc.), we can adjust the `schedule:` cron expression anytime without renaming Kubernetes objects, files, or Flux dependencies.
 
-#### 1. Hourly Research Roulette (`crontask-weekly-research-hourly.yaml`)
-Replaces the old `jules_schedule.yml`. It runs hourly at minute 23 (`23 * * * *`), draws the next project task using `just draw`, conducts research, and runs validation:
+#### 1. Project Research Roulette (`crontask-project-research.yaml`)
+Replaces the old `jules_schedule.yml`. We configure it to run daily at 00:23 UTC (`23 0 * * *`) to evaluate agent performance against legacy Jules:
 
 ```yaml
 apiVersion: kubeopencode.io/v1alpha1
 kind: CronTask
 metadata:
-  name: cncf-weekly-research-hourly
+  name: cncf-project-research
   namespace: kubeopencode
 spec:
-  schedule: "23 * * * *"
+  schedule: "23 0 * * *"
   concurrencyPolicy: Forbid
   maxRetainedTasks: 10
   taskTemplate:
@@ -207,7 +209,7 @@ spec:
       agentRef:
         name: cncf-landscape-agent
       description: |
-        Perform autonomous weekly CNCF Landscape project research:
+        Perform autonomous CNCF Landscape project research:
         1. Draw a task from the weighted roulette / ad-hoc queue:
            just draw
         2. Conduct in-depth research according to `.agents/skills/cncf-weekly-content/SKILL.md`.
@@ -219,13 +221,13 @@ spec:
         6. Commit changes and push or open a pull request.
 ```
 
-#### 2. Weekly Compass Audit (`crontask-compass-improvement-weekly.yaml`)
-Runs every Tuesday at 09:00 UTC (`0 9 * * 2`) to review tool gaps and category indexes.
+#### 2. Compass Backlog Audit (`crontask-compass-audit.yaml`)
+Runs every Tuesday at 09:00 UTC (`0 9 * * 2`) to review tool gaps, missing letter entries, and category indexes.
 
-#### 3. Weekly Palette UI/Accessibility Review (`crontask-palette-improvement-weekly.yaml`)
-Runs every Thursday at 09:00 UTC (`0 9 * * 4`) to review theme accessibility, tabindex management, and semantic navigation.
+#### 3. Palette UI/Accessibility Review (`crontask-palette-review.yaml`)
+Runs every Thursday at 09:00 UTC (`0 9 * * 4`) to review theme accessibility, tabindex management, focus states, and semantic navigation.
 
-#### 4. Weekly Engineering Maintenance (`crontask-engineering-improvement-weekly.yaml`)
+#### 4. Engineering Maintenance (`crontask-engineering-maintenance.yaml`)
 Runs every Saturday at 09:00 UTC (`0 9 * * 6`) to run the pytest suite and refactor codebase technical debt.
 
 ### Step 4: Aggregate in `kustomization.yaml`
@@ -240,10 +242,10 @@ kind: Kustomization
 resources:
   - agent-template.yaml
   - agents.yaml
-  - crontask-weekly-research-hourly.yaml
-  - crontask-compass-improvement-weekly.yaml
-  - crontask-palette-improvement-weekly.yaml
-  - crontask-engineering-improvement-weekly.yaml
+  - crontask-project-research.yaml
+  - crontask-compass-audit.yaml
+  - crontask-palette-review.yaml
+  - crontask-engineering-maintenance.yaml
 ```
 
 ---

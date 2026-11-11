@@ -1,7 +1,7 @@
 apiVersion: kubeopencode.io/v1alpha1
 kind: CronTask
 metadata:
-  name: cncf-compass-improvement-weekly
+  name: cncf-compass-audit
   namespace: kubeopencode
   labels:
     app.kubernetes.io/part-of: cncf-landscape-a-to-z
@@ -16,7 +16,7 @@ spec:
       agentRef:
         name: cncf-landscape-agent
       description: |
-        Conduct weekly Compass alignment and backlog review for CNCF Landscape A-to-Z:
+        Conduct Compass alignment and backlog review for CNCF Landscape A-to-Z:
         1. Inspect `data/tracker.yaml` across current and upcoming weekly letters.
         2. Identify unresearched or missing CNCF projects and categories.
         3. Audit category index entries (`data/index/`) for consistency.
