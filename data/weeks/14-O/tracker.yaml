@@ -230,18 +230,18 @@ items:
   Open Application Model:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-08T06:20:53.620413Z'
+        completed_at: '2026-11-08T06:20:53.620413Z'
+        output_file: data/weeks/14-O/research/open_application_model.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-08T06:20:53.620413Z'
+        completed_at: '2026-11-08T06:20:53.620413Z'
+        output_file: website/content/tools/open_application_model.md
         error_message: null
         retry_count: 0
         agent: writer
