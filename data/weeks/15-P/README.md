@@ -1,6 +1,6 @@
 # Summary for 15-P
 
-This week has a total of 44 items.
+This week has a total of 45 items.
 
 
 - **Provisioning Automation Configuration**: 3 items
@@ -9,7 +9,7 @@ This week has a total of 44 items.
 
 - **Provisioning Key Management**: 1 items
 
-- **Runtime Cloud Native Storage**: 1 items
+- **Runtime Cloud Native Storage**: 2 items
 
 - **Runtime Container Runtime**: 1 items
 

@@ -1,3 +1,11 @@
+- description: The most popular Kubernetes Operator for PostgreSQL.
+  featured: true
+  homepage_url: https://www.cloudnative-pg.io/
+  logo: cloudnative-pg.svg
+  name: CloudNativePG
+  project: incubating
+  repo_url: https://github.com/cloudnative-pg/cloudnative-pg
+  twitter: https://x.com/CloudNativePg
 - crunchbase: https://www.crunchbase.com/organization/apache
   featured: true
   homepage_url: https://cassandra.apache.org/_/index.html
@@ -14,14 +22,6 @@
   project: null
   repo_url: https://github.com/ClickHouse/ClickHouse
   twitter: https://twitter.com/clickhousedb
-- description: The most popular Kubernetes Operator for PostgreSQL.
-  featured: true
-  homepage_url: https://www.cloudnative-pg.io/
-  logo: cloudnative-pg.svg
-  name: CloudNativePG
-  project: sandbox
-  repo_url: https://github.com/cloudnative-pg/cloudnative-pg
-  twitter: https://x.com/CloudNativePg
 - crunchbase: https://www.crunchbase.com/organization/cockroach-labs
   featured: true
   homepage_url: https://www.cockroachlabs.com/
