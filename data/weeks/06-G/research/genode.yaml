@@ -1,0 +1,21 @@
+project_name: "Genode"
+homepage_url: "https://genode.org/"
+repo_url: "https://github.com/genodelabs/genode"
+cncf_status: "None"
+summary: "Genode provides a robust framework to build component-based operating systems. By merging capability-based security, microkernel technology, sandboxed drivers, and virtualization, it introduces an innovative OS architecture."
+key_features:
+  - "Component-based operating systems"
+  - "Capability-based security"
+  - "Microkernel technology"
+  - "Sandboxed device drivers"
+  - "Virtualization with a novel operating system architecture"
+recent_updates: ""
+use_cases: ""
+interesting_facts: ""
+get_started: ""
+related_tools: []
+sources:
+  - id: "readme"
+    url: "https://codeberg.org/genodelabs/genode/raw/branch/main/README"
+    quotes:
+      - "This is the source code of Genode, which is a framework for creating\ncomponent-based operating systems. It combines capability-based security,\nmicrokernel technology, sandboxed device drivers, and virtualization with\na novel operating system architecture."
