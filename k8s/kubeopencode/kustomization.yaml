@@ -4,4 +4,7 @@ kind: Kustomization
 resources:
   - agent-template.yaml
   - agents.yaml
-  - crontasks.yaml
+  - crontask-weekly-research-hourly.yaml
+  - crontask-compass-improvement-weekly.yaml
+  - crontask-palette-improvement-weekly.yaml
+  - crontask-engineering-improvement-weekly.yaml

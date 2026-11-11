@@ -1,0 +1,24 @@
+apiVersion: kubeopencode.io/v1alpha1
+kind: CronTask
+metadata:
+  name: cncf-palette-improvement-weekly
+  namespace: kubeopencode
+  labels:
+    app.kubernetes.io/part-of: cncf-landscape-a-to-z
+    app.kubernetes.io/component: crontask
+spec:
+  # Runs weekly on Thursdays at 09:00 UTC
+  schedule: "0 9 * * 4"
+  concurrencyPolicy: Forbid
+  maxRetainedTasks: 5
+  taskTemplate:
+    spec:
+      agentRef:
+        name: cncf-landscape-agent
+      description: |
+        Conduct weekly UI, UX, and accessibility maintenance for the Hugo website theme:
+        1. Review `website/themes/cncf-theme/` layouts and partials.
+        2. Verify keyboard navigation, tabindex on `<main>`, focus-visible styles on buttons, and semantic `<a>` tags.
+        3. Consult UI domain memory at `docs/domain-memory/palette.md`.
+        4. Run end-to-end frontend tests:
+           just e2e

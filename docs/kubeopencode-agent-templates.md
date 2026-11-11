@@ -17,7 +17,7 @@ graph TD
     end
 
     subgraph KubeOpenCode["Kubernetes Cluster (KubeOpenCode Controller)"]
-        Template["AgentTemplate: cncf-landscape-base<br/>- Images (opencode, devbox, attach)<br/>- Git context sync (HotReload, 5m)<br/>- Secret mounts (GITHUB_TOKEN, GOOGLE_API_KEY)<br/>- OpenCode config (gemini-2.5-flash)"]
+        Template["AgentTemplate: cncf-landscape-base<br/>- Images (opencode, devbox, attach)<br/>- Git context sync (HotReload, 5m)<br/>- Secret mounts (GITHUB_TOKEN, GOOGLE_API_KEY)<br/>- OpenCode config (gemini-flash-lite-latest)"]
         Agent["Agent: cncf-landscape-agent<br/>- templateRef: cncf-landscape-base<br/>- Standby idleTimeout: 30m"]
         
         Cron1["CronTask: hourly research roulette<br/>(23 * * * *)"]
@@ -39,12 +39,15 @@ graph TD
 
 ```
 k8s/
-├── kustomization.yaml             # Root kustomization entrypoint
+├── kustomization.yaml                               # Root kustomization entrypoint
 └── kubeopencode/
-    ├── kustomization.yaml         # Component kustomization aggregating all resources
-    ├── agent-template.yaml        # Shared base template for the CNCF Landscape project
-    ├── agents.yaml                # Persistent or live agent definitions
-    └── crontasks.yaml             # Scheduled recurring tasks (replaces legacy cron workflows)
+    ├── kustomization.yaml                           # Component kustomization aggregating all resources
+    ├── agent-template.yaml                          # Shared base template for the CNCF Landscape project
+    ├── agents.yaml                                  # Persistent or live agent definitions
+    ├── crontask-weekly-research-hourly.yaml          # Hourly research roulette task
+    ├── crontask-compass-improvement-weekly.yaml      # Weekly compass review task
+    ├── crontask-palette-improvement-weekly.yaml      # Weekly palette UI/UX review task
+    └── crontask-engineering-improvement-weekly.yaml  # Weekly engineering maintenance task
 ```
 
 ---
@@ -100,12 +103,12 @@ Flux will monitor this repository, apply the `AgentTemplate`, create the `Agent`
 
 ## Available Scheduled Tasks (`CronTask`)
 
-| CronTask Name | Schedule | Purpose | Command Triggered |
+| CronTask Name | Manifest File | Schedule | Purpose |
 |---|---|---|---|
-| **`cncf-weekly-research-hourly`** | `23 * * * *` (Hourly) | Draws next pending or roulette task, conducts research, validates schema | `just draw` + `.agents/skills/cncf-weekly-content` |
-| **`cncf-compass-improvement-weekly`** | `0 9 * * 2` (Tue 09:00 UTC) | Reviews tool gaps, letter progression, and category indexes | Compass audit |
-| **`cncf-palette-improvement-weekly`** | `0 9 * * 4` (Thu 09:00 UTC) | Reviews website theme accessibility, focus states, navigation | `docs/domain-memory/palette.md` review + `just e2e` |
-| **`cncf-engineering-improvement-weekly`** | `0 9 * * 6` (Sat 09:00 UTC) | Runs test suite, verifies schemas, refactors technical debt | `just test` + `docs/domain-memory/engineering.md` |
+| **`cncf-weekly-research-hourly`** | `crontask-weekly-research-hourly.yaml` | `23 * * * *` (Hourly) | Draws next pending or roulette task, conducts research, validates schema |
+| **`cncf-compass-improvement-weekly`** | `crontask-compass-improvement-weekly.yaml` | `0 9 * * 2` (Tue 09:00 UTC) | Reviews tool gaps, letter progression, and category indexes |
+| **`cncf-palette-improvement-weekly`** | `crontask-palette-improvement-weekly.yaml` | `0 9 * * 4` (Thu 09:00 UTC) | Reviews website theme accessibility, focus states, navigation |
+| **`cncf-engineering-improvement-weekly`** | `crontask-engineering-improvement-weekly.yaml` | `0 9 * * 6` (Sat 09:00 UTC) | Runs test suite, verifies schemas, refactors technical debt |
 
 ---
 

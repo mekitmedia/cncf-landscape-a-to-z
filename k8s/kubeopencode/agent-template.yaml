@@ -44,8 +44,8 @@ spec:
   # OpenCode LLM configuration
   config:
     $schema: https://opencode.ai/config.json
-    model: google/gemini-2.5-flash
-    small_model: google/gemini-2.5-flash
+    model: google/gemini-flash-lite-latest
+    small_model: google/gemini-flash-lite-latest
 
   # Pod specifications & security
   podSpec:

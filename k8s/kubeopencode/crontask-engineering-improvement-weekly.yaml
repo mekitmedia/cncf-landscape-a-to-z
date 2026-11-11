@@ -1,0 +1,23 @@
+apiVersion: kubeopencode.io/v1alpha1
+kind: CronTask
+metadata:
+  name: cncf-engineering-improvement-weekly
+  namespace: kubeopencode
+  labels:
+    app.kubernetes.io/part-of: cncf-landscape-a-to-z
+    app.kubernetes.io/component: crontask
+spec:
+  # Runs weekly on Saturdays at 09:00 UTC
+  schedule: "0 9 * * 6"
+  concurrencyPolicy: Forbid
+  maxRetainedTasks: 5
+  taskTemplate:
+    spec:
+      agentRef:
+        name: cncf-landscape-agent
+      description: |
+        Conduct weekly codebase engineering, test suite, and schema maintenance:
+        1. Run the test suite:
+           just test
+        2. Check Pydantic schemas in `src/agentic/models.py` and data pipeline validators.
+        3. Consult engineering domain memory at `docs/domain-memory/engineering.md`.
