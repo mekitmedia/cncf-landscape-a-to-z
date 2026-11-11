@@ -363,18 +363,18 @@ items:
   The Update Framework (TUF):
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: 2026-11-01T17:30:46.843314Z
+        output_file: data/weeks/19-T/research/the_update_framework_(tuf).yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: 2026-11-01T17:30:46.843314Z
+        output_file: website/content/tools/the_update_framework_(tuf).md
         error_message: null
         retry_count: 0
         agent: writer

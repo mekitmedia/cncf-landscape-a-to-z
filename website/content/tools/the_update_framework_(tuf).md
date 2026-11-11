@@ -1,16 +1,24 @@
 ---
-cncf_status: graduated
-date: '2026-10-04T18:37:46.006639'
-description: Python reference implementation of The Update Framework (TUF)
-homepage_url: https://theupdateframework.github.io/
-layout: single
-letter: T
-lifecycle_stage: initial
-project_name: The Update Framework (TUF)
-repo_url: https://github.com/theupdateframework/python-tuf
-status: in_progress
-title: The Update Framework (TUF)
+title: "The Update Framework (TUF)"
+date: "2026-11-01T17:30:08.906075Z"
+layout: "single"
+letter: "T"
+lifecycle_stage: "tech_writing"
+status: "completed"
+project_name: "The Update Framework (TUF)"
+homepage_url: "https://theupdateframework.github.io/"
+repo_url: "https://github.com/theupdateframework/python-tuf"
+cncf_status: "graduated"
+summary: "The Update Framework (TUF) is a framework for secure content delivery and updates. It protects against various types of supply chain attacks and provides resilience to compromise."
+key_features:
+  - "Security: Helps developers maintain the security of a software update system, even against attackers that compromise the repository or signing keys."
+  - "Flexibility: Provides a flexible specification defining functionality that developers can use in any software update system or re-implement to fit their needs."
+recent_updates: "Actively developed as part of the Cloud Native Computing Foundation and used in production by various tech companies and open source organizations."
+use_cases: "Securing software update systems and protecting against supply chain attacks."
+interesting_facts: "A variant of TUF called Uptane is used to secure over-the-air updates in automobiles."
+get_started: "Check out the Usage examples and Documentation linked in the repository."
+related_tools:
+  - "Uptane"
 ---
 
-
-Research for The Update Framework (TUF) is currently in progress. Stay tuned for updates!
+The Update Framework (TUF) is a framework for secure content delivery and updates. It protects against various types of supply chain attacks and provides resilience to compromise.
