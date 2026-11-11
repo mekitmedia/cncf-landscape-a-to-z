@@ -1,0 +1,26 @@
+project_name: "Triton Object Storage"
+homepage_url: "https://www.tritondatacenter.com/triton/object-storage"
+repo_url: "https://github.com/TritonDataCenter/manta"
+cncf_status: "none"
+summary: "Manta is an HTTP-based distributed object storage system that is open source and scalable, containing all the components needed to deploy and run it."
+key_features:
+  - "Scalable, distributed object store"
+  - "HTTP-based REST API"
+  - "Strong consistency and high availability"
+  - "Delegates to ZFS for data storage on disk"
+  - "Scales horizontally in every dimension"
+recent_updates: ""
+use_cases: "Storing and managing large scale object data using an HTTP interface while maintaining strong consistency."
+interesting_facts: "Manta delegates to ZFS to solve the single-system data storage problem, storing block checksums separately from blocks."
+get_started: "sdc-imgadm import -m /var/tmp/my_manifest.json -f /var/tmp/my_image"
+related_tools: []
+sources:
+  - id: "readme"
+    url: "https://raw.githubusercontent.com/TritonDataCenter/manta/master/README.md"
+    quotes:
+      - "Manta is an open-source, scalable, HTTP-based object store. All the pieces required to deploy and operate your own Manta are open source."
+      - "The system must scale horizontally in every dimension."
+      - "Manta presents an HTTP interface (with REST-based PUT/GET/DELETE operations) as the primary way of reading and writing data."
+      - "Manta delegates to ZFS to solve the single-system data storage problem."
+      - "The system should be strongly consistent and highly available."
+      - "sdc-imgadm import -m /var/tmp/my_manifest.json -f /var/tmp/my_image"
