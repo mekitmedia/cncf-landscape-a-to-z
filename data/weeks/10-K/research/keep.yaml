@@ -1,0 +1,32 @@
+project_name: "Keep"
+homepage_url: "https://www.keephq.dev/"
+repo_url: "https://github.com/keephq/keep"
+cncf_status: "non-cncf"
+summary: "Keep is an open-source AIOps and alert management platform that provides a single pane of glass, alert deduplication, enrichment, filtering and correlation, bi-directional integrations, workflows, and dashboards."
+key_features:
+  - "Single pane of glass - Best-in-class customizable UI for all your alerts and incidents"
+  - "Swiss Army Knife for alerts - Deduplication, correlation, filtering and enrichment"
+  - "Deep integrations - Bi-directional syncs with monitoring tools, customizable workflows"
+  - "Automation - GitHub Actions for your monitoring tools"
+recent_updates: ""
+use_cases: ""
+interesting_facts: ""
+get_started: "Keep can run in various environments and configurations. The easiest way to start is with Keep's Docker Compose.\n- Running Keep locally.\n- Running Keep on Kubernetes.\n- Running Keep with Docker.\n- Running Keep on AWS ECS.\n- Running Keep on OpenShift."
+related_tools: []
+sources:
+  - id: "readme"
+    url: "https://github.com/keephq/keep/blob/main/README.md"
+    quotes:
+      - "The open-source AIOps and alert management platform"
+      - "Single pane of glass, alert deduplication, enrichment, filtering and correlation, bi-directional integrations, workflows, dashboards."
+      - "- 🔍 **Single pane of glass** - Best-in-class customizable UI for all your alerts and incidents"
+      - "- 🛠️ **Swiss Army Knife for alerts** - Deduplication, correlation, filtering and enrichment"
+      - "- 🔄 **Deep integrations** - Bi-directional syncs with monitoring tools, customizable workflows"
+      - "- ⚡ **[Automation](#workflows)** - GitHub Actions for your monitoring tools"
+      - "Keep can run in various environments and configurations. The easiest way to start is with Keep's Docker Compose.
+
+- Running Keep [locally](https://docs.keephq.dev/development/getting-started).
+- Running Keep on [Kubernetes](https://docs.keephq.dev/deployment/kubernetes/installation).
+- Running Keep with [Docker](https://docs.keephq.dev/deployment/docker).
+- Running Keep on [AWS ECS](https://docs.keephq.dev/deployment/ecs).
+- Running Keep on [OpenShift](https://docs.keephq.dev/deployment/kubernetes/openshift)."
