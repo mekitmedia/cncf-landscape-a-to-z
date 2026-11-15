@@ -6,7 +6,7 @@ description: Open source, distributed, versioned, column-oriented store modeled 
 homepage_url: https://hbase.apache.org/
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Apache HBase
 repo_url: https://github.com/apache/hbase
 status: completed
@@ -69,3 +69,5 @@ Apache HBase is widely utilized across the cloud native and open source ecosyste
 - [Apache Hadoop](/tools/apache_hadoop/)
 
 - [Apache Phoenix](/tools/apache_phoenix/)
+
+

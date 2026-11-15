@@ -7,21 +7,21 @@ category_counts:
   Observability and Analysis: 111
   Orchestration & Management: 129
   Platform: 56
-  Provisioning: 159
-  Runtime: 69
+  Provisioning: 160
+  Runtime: 70
   Serverless: 32
   Training: 15
   Wasm: 99
 letter_progress:
 - blog_post_status: completed
-  completed_tasks: 82
-  completion_percentage: 58.2
-  content_completed: 11
+  completed_tasks: 83
+  completion_percentage: 58.0
+  content_completed: 12
   letter: A
   period_weeks: Weeks 1-2
   research_completed: 70
-  total_items: 70
-  total_tasks: 141
+  total_items: 71
+  total_tasks: 143
   week_index: 0
 - blog_post_status: pending
   completed_tasks: 5
@@ -34,22 +34,22 @@ letter_progress:
   total_tasks: 41
   week_index: 1
 - blog_post_status: pending
-  completed_tasks: 8
-  completion_percentage: 5.0
-  content_completed: 4
+  completed_tasks: 16
+  completion_percentage: 10.1
+  content_completed: 8
   letter: C
   period_weeks: Weeks 5-6
-  research_completed: 4
+  research_completed: 8
   total_items: 79
   total_tasks: 159
   week_index: 2
 - blog_post_status: pending
-  completed_tasks: 2
-  completion_percentage: 2.9
-  content_completed: 1
+  completed_tasks: 4
+  completion_percentage: 5.8
+  content_completed: 2
   letter: D
   period_weeks: Weeks 7-8
-  research_completed: 1
+  research_completed: 2
   total_items: 34
   total_tasks: 69
   week_index: 3
@@ -64,12 +64,12 @@ letter_progress:
   total_tasks: 49
   week_index: 4
 - blog_post_status: pending
-  completed_tasks: 2
-  completion_percentage: 3.4
-  content_completed: 1
+  completed_tasks: 4
+  completion_percentage: 6.8
+  content_completed: 2
   letter: F
   period_weeks: Weeks 11-12
-  research_completed: 1
+  research_completed: 2
   total_items: 29
   total_tasks: 59
   week_index: 5
@@ -84,12 +84,12 @@ letter_progress:
   total_tasks: 71
   week_index: 6
 - blog_post_status: pending
-  completed_tasks: 2
-  completion_percentage: 3.9
-  content_completed: 1
+  completed_tasks: 4
+  completion_percentage: 7.8
+  content_completed: 2
   letter: H
   period_weeks: Weeks 15-16
-  research_completed: 1
+  research_completed: 2
   total_items: 25
   total_tasks: 51
   week_index: 7
@@ -104,22 +104,22 @@ letter_progress:
   total_tasks: 31
   week_index: 8
 - blog_post_status: pending
-  completed_tasks: 0
-  completion_percentage: 0.0
-  content_completed: 0
+  completed_tasks: 2
+  completion_percentage: 10.5
+  content_completed: 1
   letter: J
   period_weeks: Weeks 19-20
-  research_completed: 0
+  research_completed: 1
   total_items: 9
   total_tasks: 19
   week_index: 9
 - blog_post_status: pending
-  completed_tasks: 20
-  completion_percentage: 9.2
-  content_completed: 10
+  completed_tasks: 22
+  completion_percentage: 10.1
+  content_completed: 11
   letter: K
   period_weeks: Weeks 21-22
-  research_completed: 10
+  research_completed: 11
   total_items: 108
   total_tasks: 217
   week_index: 10
@@ -134,44 +134,44 @@ letter_progress:
   total_tasks: 55
   week_index: 11
 - blog_post_status: pending
-  completed_tasks: 10
-  completion_percentage: 11.8
-  content_completed: 5
+  completed_tasks: 12
+  completion_percentage: 14.1
+  content_completed: 6
   letter: M
   period_weeks: Weeks 25-26
-  research_completed: 5
+  research_completed: 6
   total_items: 42
   total_tasks: 85
   week_index: 12
 - blog_post_status: pending
-  completed_tasks: 4
-  completion_percentage: 6.3
-  content_completed: 2
+  completed_tasks: 6
+  completion_percentage: 9.5
+  content_completed: 3
   letter: N
   period_weeks: Weeks 27-28
-  research_completed: 2
+  research_completed: 3
   total_items: 31
   total_tasks: 63
   week_index: 13
 - blog_post_status: pending
-  completed_tasks: 8
-  completion_percentage: 6.4
-  content_completed: 4
+  completed_tasks: 10
+  completion_percentage: 8.0
+  content_completed: 5
   letter: O
   period_weeks: Weeks 29-30
-  research_completed: 4
+  research_completed: 5
   total_items: 62
   total_tasks: 125
   week_index: 14
 - blog_post_status: pending
-  completed_tasks: 12
-  completion_percentage: 13.5
-  content_completed: 6
+  completed_tasks: 16
+  completion_percentage: 17.6
+  content_completed: 8
   letter: P
   period_weeks: Weeks 31-32
-  research_completed: 6
-  total_items: 44
-  total_tasks: 89
+  research_completed: 8
+  total_items: 45
+  total_tasks: 91
   week_index: 15
 - blog_post_status: pending
   completed_tasks: 2
@@ -194,22 +194,22 @@ letter_progress:
   total_tasks: 45
   week_index: 17
 - blog_post_status: pending
-  completed_tasks: 6
-  completion_percentage: 3.4
-  content_completed: 3
+  completed_tasks: 10
+  completion_percentage: 5.7
+  content_completed: 5
   letter: S
   period_weeks: Weeks 37-38
-  research_completed: 3
+  research_completed: 5
   total_items: 87
   total_tasks: 175
   week_index: 18
 - blog_post_status: pending
-  completed_tasks: 18
-  completion_percentage: 18.9
-  content_completed: 9
+  completed_tasks: 20
+  completion_percentage: 21.1
+  content_completed: 10
   letter: T
   period_weeks: Weeks 39-40
-  research_completed: 9
+  research_completed: 10
   total_items: 47
   total_tasks: 95
   week_index: 19
@@ -274,14 +274,14 @@ letter_progress:
   total_tasks: 13
   week_index: 25
 status_counts:
-  graduated: 39
+  graduated: 41
   incubating: 38
-  sandbox: 154
+  sandbox: 152
 summary:
   completed_blog_posts: 1
-  overall_completed_tasks: 205
-  overall_completion_percentage: 11.6
-  overall_total_tasks: 1770
+  overall_completed_tasks: 240
+  overall_completion_percentage: 13.5
+  overall_total_tasks: 1774
   total_blog_posts: 26
   total_categories: 13
-  total_tools: 987
+  total_tools: 989

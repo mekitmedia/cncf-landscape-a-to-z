@@ -5,7 +5,7 @@ description: A toolkit to run Ray applications on Kubernetes
 homepage_url: https://github.com/ray-project/kuberay
 layout: single
 letter: K
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Kuberay
 repo_url: https://github.com/ray-project/kuberay
 status: completed
@@ -68,3 +68,5 @@ KubeRay provides a kubectl plugin (`kubectl ray`) starting from version 1.3.0 to
 - [Volcano](/tools/volcano/)
 
 - [Kueue](/tools/kueue/)
+
+

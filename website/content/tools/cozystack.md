@@ -2,7 +2,7 @@
 cncf_status: sandbox
 date: '2026-10-04T18:37:43.111896'
 description: Cozystack is a free PaaS platform and framework for building private
-  clouds and providing users/customers with managed Kubernetes,  KubeVirt-based VMs,
+  clouds and providing users/customers with managed Kubernetes, KubeVirt-based VMs,
   databases as a service, NATS, message brokers, etc. with GPU support in VMs and
   Kubernetes clusters.
 homepage_url: https://cozystack.io
@@ -71,3 +71,5 @@ Cozystack was originally built and sponsored by Ænix and is now a CNCF Sandbox 
 - [Kubernetes](/tools/kubernetes/)
 
 - [OpenStack](/tools/openstack/)
+
+

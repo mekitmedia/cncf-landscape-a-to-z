@@ -126,18 +126,43 @@ def _get_tracker_data(week_id_value: str, weeks_dir: str) -> dict:
         return {}
 
 
-def _get_item_tracker(week_id_value: str, project_name: str) -> Optional[dict]:
+def _get_item_tracker(week_id_value: str, project_name: str, item_name: Optional[str] = None) -> Optional[dict]:
     cfg = load_config()
     items = _get_tracker_data(week_id_value, str(cfg.weeks_dir)).get("items", {})
     if project_name in items:
         return copy.deepcopy(items[project_name])
+    if item_name and item_name in items:
+        return copy.deepcopy(items[item_name])
+    sanitized = sanitize_for_filename(project_name)
+    sanitized_item = sanitize_for_filename(item_name) if item_name else None
+    for k, v in items.items():
+        k_san = sanitize_for_filename(k)
+        if k_san in (sanitized, sanitized_item):
+            return copy.deepcopy(v)
     return None
+def _extract_existing_date(file_path: Path) -> Optional[str]:
+    """Extract existing date from tool page frontmatter if present."""
+    if not file_path.exists():
+        return None
+    try:
+        content = file_path.read_text(encoding="utf-8")
+        if content.startswith("---"):
+            parts = content.split("---", 2)
+            if len(parts) >= 3:
+                fm = yaml.safe_load(parts[1]) or {}
+                if isinstance(fm, dict) and "date" in fm:
+                    return str(fm["date"])
+    except Exception:
+        pass
+    return None
+
 
 def generate_tool_page_content(
     project_name: str,
     item: dict,
     week_id_value: str,
     research_file: Optional[Path] = None,
+    existing_date: Optional[str] = None,
 ) -> Optional[str]:
     """Generate Markdown tool page content using Jinja2 template."""
     letter = letter_from_week_id(week_id_value)
@@ -151,7 +176,7 @@ def generate_tool_page_content(
         "letter": letter,
         "cncf_status": cncf_status,
         "layout": "single",
-        "date": datetime.now().isoformat(),
+        "date": existing_date or datetime.now().isoformat(),
     }
 
     if item.get("repo_url"):
@@ -161,7 +186,7 @@ def generate_tool_page_content(
     if item.get("description"):
         front_matter["description"] = item["description"]
 
-    item_tracker = _get_item_tracker(week_id_value, project_name)
+    item_tracker = _get_item_tracker(week_id_value, project_name, item.get("name"))
     research_data = None
 
     if research_file and research_file.exists():
@@ -258,20 +283,24 @@ def generate_single_tool_page(
     if "week_id" in info:
         week_id_value = info["week_id"]
 
+    sanitized_name = sanitize_for_filename(project_name)
+    output_file = tools_content_dir / f"{sanitized_name}.md"
+    existing_date = _extract_existing_date(output_file)
+
     content = generate_tool_page_content(
         project_name=project_name,
         item=item,
         week_id_value=week_id_value,
         research_file=research_file,
+        existing_date=existing_date,
     )
     if not content:
         return None
 
-    sanitized_name = sanitize_for_filename(project_name)
-    output_file = tools_content_dir / f"{sanitized_name}.md"
-    with output_file.open("w", encoding="utf-8") as f:
-        f.write(content)
-    print(f"✓ Generated {output_file}")
+    if not output_file.exists() or output_file.read_text(encoding="utf-8") != content:
+        with output_file.open("w", encoding="utf-8") as f:
+            f.write(content)
+        print(f"✓ Generated {output_file}")
     return output_file
 
 
@@ -285,12 +314,29 @@ def generate_tool_pages() -> int:
 
     generated_count = 0
     skipped_count = 0
+    seen_sanitized = set()
 
     for project_name, info in project_cache.items():
         item = info.get("item", {})
         week_id_value = info.get("week_id", "00-A")
         sanitized_name = sanitize_for_filename(project_name)
+        if sanitized_name in seen_sanitized:
+            continue
+        seen_sanitized.add(sanitized_name)
+
         research_file = cfg.weeks_dir / week_id_value / "research" / f"{sanitized_name}.yaml"
+        # If research YAML exists with a preferred project_name casing, use it
+        if research_file.exists():
+            try:
+                with research_file.open("r", encoding="utf-8") as rf:
+                    res_yaml = yaml.safe_load(rf)
+                    if isinstance(res_yaml, dict) and "project_name" in res_yaml:
+                        project_name = res_yaml["project_name"]
+            except Exception:
+                pass
+
+        output_file = tools_content_dir / f"{sanitized_name}.md"
+        existing_date = _extract_existing_date(output_file)
 
         try:
             content = generate_tool_page_content(
@@ -298,11 +344,13 @@ def generate_tool_pages() -> int:
                 item=item,
                 week_id_value=week_id_value,
                 research_file=research_file,
+                existing_date=existing_date,
             )
             if content:
-                output_file = tools_content_dir / f"{sanitized_name}.md"
-                with output_file.open("w", encoding="utf-8") as f:
-                    f.write(content)
+                if not output_file.exists() or output_file.read_text(encoding="utf-8") != content:
+                    with output_file.open("w", encoding="utf-8") as f:
+                        f.write(content)
+                    print(f"✓ Generated {output_file}")
                 generated_count += 1
             else:
                 skipped_count += 1

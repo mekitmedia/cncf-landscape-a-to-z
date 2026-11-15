@@ -6,7 +6,7 @@ description: TruLens is a powerful open source library for evaluating and tracki
 homepage_url: https://www.trulens.org/
 layout: single
 letter: T
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Trulens
 repo_url: https://github.com/truera/trulens
 status: completed
@@ -69,3 +69,5 @@ Tracing is OpenTelemetry-native, so a trace is portable to any OTLP backend, and
 - [langchain](/tools/langchain/)
 
 - [llamaindex](/tools/llamaindex/)
+
+

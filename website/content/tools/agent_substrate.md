@@ -5,7 +5,7 @@ description: A secure-by-default agent execution runtime for running millions of
 homepage_url: https://github.com/agent-substrate/substrate
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Agent Substrate
 repo_url: https://github.com/agent-substrate/substrate
 status: completed
@@ -59,3 +59,6 @@ Initial release of Agent Substrate featuring zero-trust sandboxing for millions 
 {{< callout title="Did You Know?" type="info" >}}
 Built for 10x higher density than standard containers, delivering fast resume operations in less than 400ms.
 {{< /callout >}}
+
+
+

@@ -753,6 +753,7 @@ Provisioning:
   Security & Compliance:
   - APIClarity
   - Aserto
+  - Authelia
   - authentik
   - Bank-Vaults
   - Bouncy Castle
@@ -875,6 +876,7 @@ Runtime:
   - OpenEBS
   - OpenIO
   - Piraeus Datastore
+  - Portabase
   - Rook
   - Soda Foundation
   - Stash by AppsCode

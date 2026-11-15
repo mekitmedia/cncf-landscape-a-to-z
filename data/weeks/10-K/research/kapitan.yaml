@@ -1,0 +1,45 @@
+project_name: Kapitan
+homepage_url: https://kapitan.dev/
+repo_url: https://github.com/kapicorp/kapitan
+cncf_status: non-cncf
+summary: Kapitan is an open source configuration management tool for Kubernetes, Terraform,
+  and complex infrastructure systems. It helps teams generate, organize, reuse, and
+  validate configuration across environments using an inventory-driven model.
+key_features:
+- Native secret management (GPG, HashiCorp Vault, AWS KMS, GCP KMS, Azure Key Vault)
+- Remote dependencies (Git, HTTP, ORAS (OCI registry))
+- 'GitOps-friendly: compiles to fully rendered, plain-text output'
+- Supports multiple templates (Jsonnet, Jinja2, Kadet, Helm, Kustomize, CUE)
+recent_updates: ''
+use_cases: You manage the same application across many environments (dev, staging,
+  prod, regions) and want a single source of truth, or you need to reuse configuration
+  fragments across targets without copy-paste.
+interesting_facts: Kapitan lets you model infrastructure configuration with reusable
+  inventory classes and targets, then compile that data into manifests, scripts, documentation,
+  and Terraform resources.
+get_started: |-
+  git clone https://github.com/kapicorp/kapitan-reference.git kapitan-templates
+  cd kapitan-templates
+  ./kapitan compile
+related_tools: []
+sources:
+- id: readme
+  url: https://github.com/kapicorp/kapitan/blob/master/README.md
+  quotes:
+  - '**Kapitan** is an open source configuration management tool for **Kubernetes**,
+    **Terraform**, and complex infrastructure systems. It helps teams generate, organize,
+    reuse, and validate configuration across environments using an **inventory-driven
+    model**'
+  - '**Secret management**: GPG, HashiCorp Vault, AWS KMS, GCP KMS, Azure Key Vault'
+  - '**Remote dependencies**: Git, HTTP, ORAS (OCI registry)'
+  - '**GitOps-friendly**: compiles to fully rendered, plain-text output'
+  - You manage the same application across many environments (dev, staging, prod,
+    regions) and want a single source of truth.
+  - You need to reuse configuration fragments across targets without copy-paste.
+  - Kapitan lets you model infrastructure configuration with reusable **inventory
+    classes** and **targets**, then compile that data into manifests, scripts, documentation,
+    and Terraform resources.
+  - |-
+    git clone https://github.com/kapicorp/kapitan-reference.git kapitan-templates
+    cd kapitan-templates
+    ./kapitan compile

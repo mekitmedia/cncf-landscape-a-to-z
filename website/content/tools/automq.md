@@ -6,7 +6,7 @@ description: AutoMQ is a cloud-native fork of Kafka by separating storage to S3.
 homepage_url: https://www.automq.com
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: AutoMQ
 repo_url: https://github.com/AutoMQ/automq
 status: completed
@@ -81,3 +81,5 @@ AutoMQ replaces Kafka's classic shared-nothing architecture with a shared storag
 - [WarpStream](/tools/warpstream/)
 
 - [Redpanda](/tools/redpanda/)
+
+

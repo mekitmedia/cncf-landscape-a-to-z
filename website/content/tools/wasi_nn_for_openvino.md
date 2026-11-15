@@ -54,3 +54,6 @@ wasi-nn is currently in Phase 2 and is advancing towards Phase 4, which requires
 {{< callout title="Did You Know?" type="info" >}}
 WASI NN does not support training models in the near term because its primary focus is ML inference, which has clear performance advantages over training models natively.
 {{< /callout >}}
+
+
+

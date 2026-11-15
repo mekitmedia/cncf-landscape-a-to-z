@@ -6,7 +6,7 @@ description: Paralus is a free, open source tool that enables controlled, audite
 homepage_url: https://www.paralus.io/
 layout: single
 letter: P
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Paralus
 repo_url: https://github.com/paralus/paralus
 status: completed
@@ -79,3 +79,5 @@ Installing and setting up Paralus takes less time than it takes to brew a (good)
 - [Azure AD](/tools/azure_ad/)
 
 - [Okta](/tools/okta/)
+
+

@@ -1,0 +1,33 @@
+project_name: "Zuul"
+homepage_url: "https://zuul-ci.org"
+repo_url: "https://opendev.org/zuul/zuul"
+cncf_status: "non-cncf"
+summary: "Zuul is an open source CI/CD and project gating system designed to assist developers in taking a change from proposal through deployment, testing the future state of code repositories."
+key_features:
+  - "Project gating to prevent merging broken code"
+  - "CI/CD using Ansible playbooks"
+  - "Testing cross-project dependencies in parallel"
+  - "Multi-node environment testing and orchestration"
+  - "Integration with Gerrit and GitHub code review systems"
+recent_updates: ""
+use_cases: "Maintaining evergreen builds by automatically merging changes only if they pass tests, and testing cross-project changes together."
+interesting_facts: "Zuul's functionality now incorporates Nodepool, meaning it natively handles resource provisioning across various cloud providers."
+get_started: "git clone https://opendev.org/zuul/zuul\ncd zuul/doc/source/examples\ndocker compose -p zuul-tutorial up"
+related_tools: []
+sources:
+  - id: "readme"
+    url: "https://opendev.org/zuul/zuul/raw/branch/master/README.rst"
+    quotes:
+      - "Zuul is a project gating system."
+      - "git clone https://opendev.org/zuul/zuul"
+  - id: "website"
+    url: "https://zuul-ci.org/"
+    quotes:
+      - "Keep your builds evergreen by automatically merging changes only if they pass tests."
+      - "Use the same Ansible playbooks to deploy your system and run your tests."
+      - "Easily test changes to multiple systems together before landing a single patch."
+  - id: "docs"
+    url: "https://zuul-ci.org/docs/zuul/latest/tutorials/quick-start.html"
+    quotes:
+      - "cd zuul/doc/source/examples"
+      - "docker compose -p zuul-tutorial up"

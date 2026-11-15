@@ -1,0 +1,27 @@
+project_name: "KusionStack"
+homepage_url: "https://kusionstack.io/"
+repo_url: "https://github.com/KusionStack/kusion"
+cncf_status: "sandbox"
+summary: "KusionStack is an intent-driven Platform Orchestrator that sits at the core of an Internal Developer Platform (IDP), enabling app-centric development through a single application specification."
+key_features:
+  - "Provides an intent-driven Platform Orchestrator at the core of an Internal Developer Platform (IDP)."
+  - "Enables app-centric development via a single application specification, AppConfiguration."
+  - "Abstracts underlying infrastructure tooling complexity with standardized, shared modules."
+  - "Offers Kusion Server with a Developer Portal to centrally manage applications, instances, projects, and resources visually."
+  - "Supports two key workflows: Day 0 for setting up modules and workspaces by platform engineers, and Day 1 for setting up the application by application developers."
+recent_updates: ""
+use_cases: "Simplifying application delivery by letting developers write a single specification, managing complex infrastructure via shared modules to enforce security and compliance, and providing a self-service deployment model for development teams."
+interesting_facts: "KusionStack was recently updated to feature a Kusion Server with a Developer Portal for managing resources graphically."
+get_started: "brew tap KusionStack/tap\nbrew install KusionStack/tap/kusion"
+related_tools: []
+sources:
+  - id: "readme"
+    url: "https://raw.githubusercontent.com/KusionStack/kusion/main/README.md"
+    quotes:
+      - "Kusion is an intent-driven Platform Orchestrator, which sits at the core of an Internal Developer Platform (IDP)."
+      - "With Kusion you can enable app-centric development, your developers only need to write a single application specification - AppConfiguration."
+      - "Kusion modules abstract the complexity of underlying infrastructure tooling, enabling app developers to deploy their applications using a self-service model."
+      - "Starting With Kusion v0.14.0, we are officially introducing Kusion Server with a Developer Portal."
+      - "Day 0 - Set up the modules and workspaces: Platform engineers create shared modules for deploying applications and their underlying infrastructure"
+      - "Day 1 - Set up the application: Application developers leverage the workspaces and modules created by the platform engineers to deploy applications"
+      - "brew tap KusionStack/tap\nbrew install KusionStack/tap/kusion"

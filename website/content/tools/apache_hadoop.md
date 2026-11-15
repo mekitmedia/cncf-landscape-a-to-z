@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:38.534467'
 homepage_url: https://hadoop.apache.org/
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Apache Hadoop
 repo_url: https://github.com/apache/hadoop
 status: completed
@@ -67,3 +67,5 @@ Apache Hadoop is widely utilized across the cloud native and open source ecosyst
 - [Apache Hive](/tools/apache_hive/)
 
 - [Ceph](/tools/ceph/)
+
+

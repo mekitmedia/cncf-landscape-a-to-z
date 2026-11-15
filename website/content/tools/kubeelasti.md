@@ -10,7 +10,7 @@ layout: single
 letter: K
 lifecycle_stage: initial
 project_name: KubeElasti
-repo_url: https://github.com/KubeElasti/KubeElasti
+repo_url: https://github.com/truefoundry/KubeElasti
 status: in_progress
 title: KubeElasti
 ---

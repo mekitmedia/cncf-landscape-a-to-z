@@ -5,7 +5,7 @@ description: Build, run, manage agentic software at scale
 homepage_url: https://www.agno.com/
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Agno
 repo_url: https://github.com/agno-agi/agno
 status: completed
@@ -70,3 +70,5 @@ Agno supports deployment anywhere that runs containers, from local Docker to AWS
 - [PostgreSQL](/tools/postgresql/)
 
 - [Autogen](/tools/autogen/)
+
+

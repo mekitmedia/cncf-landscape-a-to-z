@@ -1,7 +1,8 @@
 ---
 cncf_status: non-cncf
 date: '2026-10-04T18:37:47.723191'
-homepage_url: https://openlit.io/
+description: OpenTelemetry-native LLM and GenAI Application Observability
+homepage_url: https://github.com/openlit/openlit
 layout: single
 letter: O
 lifecycle_stage: initial

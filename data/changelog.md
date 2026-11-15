@@ -1,5 +1,30 @@
 # Data Update Changelog
 
+## [2026-11-09] Data Update
+
+### 🚀 Added Tools
+
+- **Authelia** ([Repo](https://github.com/authelia/authelia))
+- **Portabase** ([Repo](https://github.com/Portabase/portabase))
+
+
+### 🗑️ Removed Tools
+
+- **Hexa**
+- **Nivida NeMo**
+- **QBO**
+- **Rancher Kubernetes Engine (RKE)**
+- **Stacklock Minder**
+
+
+### 🔄 Updated Tools
+
+- **CloudNativePG**: Status changed from **sandbox** to **incubating**
+- **Kgateway**: Status changed from **sandbox** to **None**
+- **KubeVirt**: Status changed from **incubating** to **graduated**
+- **NATS**: Status changed from **incubating** to **graduated**
+- **Open Cluster Management**: Status changed from **sandbox** to **incubating**
+
 ## [2026-11-02] Data Update
 
 ### 🚀 Added Tools

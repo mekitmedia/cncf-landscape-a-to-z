@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:38.700306'
 homepage_url: https://akka.io/
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Akka
 repo_url: https://github.com/akka/akka
 status: completed
@@ -67,3 +67,5 @@ Akka is widely utilized across the cloud native and open source ecosystem.
 - [Ray](/tools/ray/)
 
 - [Orleans](/tools/orleans/)
+
+

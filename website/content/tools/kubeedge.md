@@ -5,7 +5,7 @@ description: A Kubernetes Native Edge Computing Framework
 homepage_url: https://kubeedge.io/en/
 layout: single
 letter: K
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: KubeEdge
 repo_url: https://github.com/kubeedge/kubeedge
 status: completed
@@ -58,3 +58,5 @@ KubeEdge is a graduation-level hosted project by the Cloud Native Computing Foun
 
 
 - [CloudHub](/tools/cloudhub/)
+
+

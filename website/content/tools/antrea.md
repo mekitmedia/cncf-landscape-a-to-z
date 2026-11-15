@@ -5,7 +5,7 @@ description: Kubernetes networking based on Open vSwitch
 homepage_url: https://antrea.io/
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Antrea
 repo_url: https://github.com/antrea-io/antrea
 status: completed
@@ -68,3 +68,5 @@ Antrea is widely utilized across the cloud native and open source ecosystem.
 - [Cilium](/tools/cilium/)
 
 - [Flannel](/tools/flannel/)
+
+

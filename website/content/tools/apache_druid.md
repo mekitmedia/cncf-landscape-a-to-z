@@ -5,7 +5,7 @@ description: A high performance real-time analytics database.
 homepage_url: https://druid.apache.org/
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Apache Druid
 repo_url: https://github.com/apache/druid
 status: completed
@@ -68,3 +68,5 @@ Apache Druid is widely utilized across the cloud native and open source ecosyste
 - [ClickHouse](/tools/clickhouse/)
 
 - [Apache Kafka](/tools/apache_kafka/)
+
+

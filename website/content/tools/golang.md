@@ -5,7 +5,7 @@ description: Compiled language to Wasm
 homepage_url: https://go.dev/
 layout: single
 letter: G
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Golang
 repo_url: https://github.com/golang/go
 status: completed
@@ -66,3 +66,5 @@ Go is the work of thousands of contributors and has a canonical Git repository l
 - [C++](/tools/c++/)
 
 - [Java](/tools/java/)
+
+

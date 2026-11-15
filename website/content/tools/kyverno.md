@@ -4,7 +4,7 @@ date: '2026-10-24T15:00:30.042030'
 homepage_url: https://kyverno.io/
 layout: single
 letter: K
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Kyverno
 repo_url: https://github.com/kyverno/kyverno
 status: completed
@@ -65,3 +65,5 @@ Kyverno uses policy-as-code and does not replace Kubernetes built-in policy cont
 - [Kubernetes](/tools/kubernetes/)
 
 - [Kyverno-JSON](/tools/kyverno-json/)
+
+

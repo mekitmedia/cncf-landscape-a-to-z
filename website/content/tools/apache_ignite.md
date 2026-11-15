@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:38.553104'
 homepage_url: https://ignite.apache.org
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Apache Ignite
 repo_url: https://github.com/apache/ignite
 status: completed
@@ -67,3 +67,5 @@ Apache Ignite is widely utilized across the cloud native and open source ecosyst
 - [Hazelcast](/tools/hazelcast/)
 
 - [Apache Cassandra](/tools/apache_cassandra/)
+
+

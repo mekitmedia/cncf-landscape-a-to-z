@@ -22,3 +22,13 @@
   name: Aserto
   project: null
   repo_url: https://github.com/aserto-dev/runtime
+- description: Authelia is an open-source authentication and authorization server
+    providing single sign-on and multi-factor authentication for web apps, including
+    OpenID Connect 1.0 provider support and integration with common reverse proxies
+    including most Kubernetes ingress controllers.
+  featured: true
+  homepage_url: https://www.authelia.com
+  logo: authelia.svg
+  name: Authelia
+  project: null
+  repo_url: https://github.com/authelia/authelia

@@ -67,3 +67,5 @@ It integrates seamlessly with other Azure services.
 - [AWS Lambda](/tools/aws_lambda/)
 
 - [Google Cloud Functions](/tools/google_cloud_functions/)
+
+

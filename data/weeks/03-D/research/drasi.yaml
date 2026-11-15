@@ -1,0 +1,27 @@
+project_name: "Drasi"
+homepage_url: "https://drasi.io"
+repo_url: "https://github.com/drasi-project/drasi-platform"
+cncf_status: "sandbox"
+summary: "Drasi provides real-time event tracking and automated responses without moving data to a central lake or continuously querying sources."
+key_features:
+  - "Track system logs and change feeds for specific events"
+  - "Continuously evaluate incoming data changes using Continuous Queries written in Cypher Query Language"
+  - "Automatically initiate context-aware Reactions based on query updates"
+  - "Provide real-time actionable insights without copying data to a central data lake"
+recent_updates: ""
+use_cases: "Automating responses to system events, such as matching ready orders with available delivery drivers and sending real-time notifications."
+interesting_facts: ""
+get_started: "Follow the Getting Started tutorial at https://drasi.io/drasi-kubernetes/getting-started/ to try out Drasi for Kubernetes."
+related_tools: []
+sources:
+  - id: "readme"
+    url: "https://github.com/drasi-project/drasi-platform/blob/main/readme.md"
+    quotes:
+      - "Drasi is a data processing platform that simplifies detecting changes in data and taking immediate action."
+      - "track system logs and change feeds for specific events"
+      - "In Drasi, these Continuous Queries are written using the Cypher Query Language."
+      - "Reactions trigger meaningful responses based on updates to the result sets of the Continuous Queries"
+      - "provides real-time actionable insights without the overhead of traditional data processing methods"
+      - "without the need to copy data to a central data lake"
+      - "delivery drivers need real-time notifications when orders are ready for pickup. Drasi automates this process"
+      - "Follow the Getting Started tutorial and try out Drasi for Kubernetes"

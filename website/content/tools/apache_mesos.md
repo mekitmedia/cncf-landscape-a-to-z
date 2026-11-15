@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:39.072971'
 homepage_url: https://mesos.apache.org/
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Apache Mesos
 repo_url: https://github.com/apache/mesos
 status: completed
@@ -67,3 +67,5 @@ Apache Mesos is widely utilized across the cloud native and open source ecosyste
 - [HashiCorp Nomad](/tools/hashicorp_nomad/)
 
 - [Apache Hadoop YARN](/tools/apache_hadoop_yarn/)
+
+

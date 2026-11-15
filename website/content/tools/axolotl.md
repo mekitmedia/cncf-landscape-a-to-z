@@ -5,7 +5,7 @@ description: Go ahead and axolotl questions
 homepage_url: https://github.com/axolotl-ai-cloud/axolotl
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Axolotl
 repo_url: https://github.com/axolotl-ai-cloud/axolotl
 status: completed
@@ -79,3 +79,5 @@ Axolotl ships with built-in documentation optimized for AI coding agents (Claude
 - [Mixtral](/tools/mixtral/)
 
 - [DeepSpeed](/tools/deepspeed/)
+
+

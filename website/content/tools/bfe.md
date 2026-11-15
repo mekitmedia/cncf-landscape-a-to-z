@@ -5,7 +5,7 @@ description: Open-source layer 7 load balancer derived from proprietary Baidu Fr
 homepage_url: https://www.bfe-networks.net
 layout: single
 letter: B
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: BFE
 repo_url: https://github.com/bfenetworks/bfe
 status: completed
@@ -53,3 +53,6 @@ Released version 1.8.7.
 {{< callout title="Did You Know?" type="info" >}}
 BFE originated from Baidu and is designed as a 'Beyond Front End' solution.
 {{< /callout >}}
+
+
+

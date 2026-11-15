@@ -6,7 +6,7 @@ description: Enterprise-grade, commercial-friendly agentic workflow platform for
 homepage_url: http://astron.ai/
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Astron Agent
 repo_url: https://github.com/iflytek/astron-agent
 status: completed
@@ -73,3 +73,5 @@ Built on the same core technology as the iFLYTEK Astron Agent Platform. Deeply c
 - [LangChain](/tools/langchain/)
 
 - [Casdoor](/tools/casdoor/)
+
+

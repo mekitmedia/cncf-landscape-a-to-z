@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:39.027214'
 homepage_url: https://apisix.apache.org/
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: APISIX
 repo_url: https://github.com/apache/apisix
 status: completed
@@ -67,3 +67,5 @@ Graduated as a Top-Level Project in the Apache Software Foundation.
 - [Tyk](/tools/tyk/)
 
 - [Envoy](/tools/envoy/)
+
+

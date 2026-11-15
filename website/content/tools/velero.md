@@ -1,6 +1,7 @@
 ---
 cncf_status: sandbox
 date: '2026-10-04T18:37:38.248663'
+description: Backup and migrate Kubernetes applications and their persistent volumes
 homepage_url: https://velero.io
 layout: single
 letter: V

@@ -5,7 +5,7 @@ description: Cost-efficient and pluggable Infrastructure components for GenAI in
 homepage_url: https://aibrix.github.io/
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: AIBrix
 repo_url: https://github.com/vllm-project/aibrix
 status: completed
@@ -72,3 +72,5 @@ AIBrix co-delivered a keynote at KubeCon North America 2025 and KubeCon EU 2025 
 
 
 - [vLLM](/tools/vllm/)
+
+

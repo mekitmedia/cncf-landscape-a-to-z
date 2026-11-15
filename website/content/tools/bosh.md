@@ -4,7 +4,7 @@ date: '2026-10-13T22:51:51.773623'
 homepage_url: https://bosh.io/docs/
 layout: single
 letter: B
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: BOSH
 repo_url: https://github.com/cloudfoundry/bosh
 status: completed
@@ -63,3 +63,5 @@ Bosh is deployed by Bosh. To bootstrap a new Bosh server from scratch, the Bosh 
 - [Cloud Foundry](/tools/cloud_foundry/)
 
 - [Kubernetes](/tools/kubernetes/)
+
+

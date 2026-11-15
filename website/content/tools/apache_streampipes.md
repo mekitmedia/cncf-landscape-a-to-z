@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:38.807404'
 homepage_url: https://streampipes.apache.org/
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Apache StreamPipes
 repo_url: https://github.com/apache/streampipes
 status: completed
@@ -67,3 +67,5 @@ Apache StreamPipes is widely utilized across the cloud native and open source ec
 - [ThingsBoard](/tools/thingsboard/)
 
 - [Apache NiFi](/tools/apache_nifi/)
+
+

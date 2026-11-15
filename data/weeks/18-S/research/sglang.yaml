@@ -1,0 +1,24 @@
+project_name: "SGLang"
+homepage_url: "https://www.sglang.io/"
+repo_url: "https://github.com/sgl-project/sglang"
+cncf_status: "non-cncf"
+summary: "SGLang provides a high-performance open-source inference framework designed for large language, vision-language, and diffusion models, specifically optimized for large-scale serving, agentic workloads, and RL rollouts."
+key_features:
+  - "Inference framework for large language, vision-language, and diffusion models"
+  - "Optimized for agentic workloads, large-scale serving, and RL rollouts"
+  - "Built-in image and video generation engine (SGLang Diffusion)"
+  - "Supports a wide range of hardware platforms including GPUs, TPUs, NPUs, CPUs, and Apple Silicon"
+recent_updates: ""
+use_cases: "Serving production workloads across AI labs, cloud platforms, enterprises, and universities."
+interesting_facts: ""
+get_started: "docker pull lmsysorg/sglang:latest\nuv pip install --prerelease=allow sglang"
+related_tools: []
+sources:
+  - id: "readme"
+    url: "https://github.com/sgl-project/sglang/blob/main/README.md"
+    quotes:
+      - "SGLang is an open-source inference framework for large language, vision-language, and diffusion models, optimized for agentic workloads, large-scale serving, and RL rollouts."
+      - "built-in image and video generation engine, included in this repository and the `sglang` Python package."
+      - "docker pull lmsysorg/sglang:latest"
+      - "uv pip install --prerelease=allow sglang"
+      - "SGLang serves production workloads across AI labs, cloud platforms, enterprises, and universities."

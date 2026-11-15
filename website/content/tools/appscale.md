@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:39.334308'
 homepage_url: https://www.appscale.com/
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: AppScale
 repo_url: https://github.com/AppScale/gts
 status: completed
@@ -67,3 +67,5 @@ AppScale is widely utilized across the cloud native and open source ecosystem.
 - [Cloud Foundry](/tools/cloud_foundry/)
 
 - [OpenShift](/tools/openshift/)
+
+

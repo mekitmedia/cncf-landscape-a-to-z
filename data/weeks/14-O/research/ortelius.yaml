@@ -1,0 +1,22 @@
+project_name: "Ortelius"
+homepage_url: "https://ortelius.io/"
+repo_url: "https://github.com/ortelius/ortelius"
+cncf_status: "non-cncf"
+summary: "Ortelius is a platform that helps security teams manage and track open source vulnerabilities. It ingests Software Bill of Materials (SBOM) at build time, continuously matches deployed components against OSV, and tracks CVE remediation across all environments."
+key_features:
+  - "Ingests Software Bill of Materials (SBOM) at build time"
+  - "Matches deployed components against the OSV vulnerability database every 15 minutes"
+  - "Tracks every CVE from introduction to remediation"
+  - "Measures remediation SLA targets"
+recent_updates: ""
+use_cases: ""
+interesting_facts: ""
+get_started: "1. Go to app.deployhub.com and click Sign Up\n2. Enter your username, email, first name, last name, and organization name\n3. Check your email for an invitation link — click it to set your password and log in\n4. Connect GitHub via Profile → Connect GitHub"
+related_tools: []
+sources:
+  - id: "readme"
+    url: "https://github.com/ortelius/ortelius/blob/main/README.md"
+    quotes:
+      - "Ortelius answers all four questions in a single platform. It ingests your Software Bill of Materials (SBOM) at build time, matches your deployed components against the OSV vulnerability database every 15 minutes, tracks every CVE from the moment it is introduced into a release through every environment it reaches until it is remediated, and measures how long each step takes against your SLA targets."
+      - "1. Go to [app.deployhub.com](https://app.deployhub.com) and click **Sign Up**\n2. Enter your username, email, first name, last name, and organization name\n3. Check your email for an invitation link — click it to set your password and log in"
+      - "1. In the top-right menu, go to **Profile → Connect GitHub**"

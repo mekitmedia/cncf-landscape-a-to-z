@@ -5,7 +5,7 @@ description: Terraform Pull Request Automation for Teams
 homepage_url: https://www.runatlantis.io/
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Atlantis
 repo_url: https://github.com/runatlantis/atlantis
 status: completed
@@ -66,3 +66,5 @@ Used by top companies to manage over 600 repos with 300 developers. In productio
 - [Terraform](/tools/terraform/)
 
 - [Kubernetes](/tools/kubernetes/)
+
+

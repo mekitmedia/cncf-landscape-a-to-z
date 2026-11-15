@@ -6,7 +6,7 @@ description: Open source stream processing framework with powerful stream- and b
 homepage_url: https://flink.apache.org/
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Apache Flink
 repo_url: https://github.com/apache/flink
 status: completed
@@ -69,3 +69,5 @@ Apache Flink is widely utilized across the cloud native and open source ecosyste
 - [Apache Kafka](/tools/apache_kafka/)
 
 - [Apache Storm](/tools/apache_storm/)
+
+

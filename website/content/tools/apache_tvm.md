@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:38.623446'
 homepage_url: https://tvm.apache.org/
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Apache TVM
 repo_url: https://github.com/apache/tvm
 status: completed
@@ -67,3 +67,5 @@ Apache TVM is widely utilized across the cloud native and open source ecosystem.
 - [TensorRT](/tools/tensorrt/)
 
 - [OpenVINO](/tools/openvino/)
+
+

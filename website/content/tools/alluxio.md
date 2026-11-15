@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:39.175796'
 homepage_url: https://www.alluxio.io/
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Alluxio
 repo_url: https://github.com/alluxio/alluxio
 status: completed
@@ -67,3 +67,5 @@ Alluxio is widely utilized across the cloud native and open source ecosystem.
 - [Trino](/tools/trino/)
 
 - [JuiceFS](/tools/juicefs/)
+
+

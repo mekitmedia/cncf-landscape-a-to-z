@@ -11,7 +11,7 @@ description: APIClarity is a cloud API observability open-source project that pr
 homepage_url: https://openclarity.io/
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: APIClarity
 repo_url: https://github.com/openclarity/apiclarity
 status: completed
@@ -82,3 +82,5 @@ Developed by Cisco (openclarity), APIClarity offers a modular architecture that 
 - [OpenTelemetry](/tools/opentelemetry/)
 
 - [Aserto](/tools/aserto/)
+
+

@@ -1,0 +1,29 @@
+project_name: "The Update Framework (TUF)"
+homepage_url: "https://theupdateframework.github.io/"
+repo_url: "https://github.com/theupdateframework/python-tuf"
+cncf_status: "graduated"
+summary: "The Update Framework (TUF) is a framework for secure content delivery and updates. It protects against various types of supply chain attacks and provides resilience to compromise."
+key_features:
+  - "Security: Helps developers maintain the security of a software update system, even against attackers that compromise the repository or signing keys."
+  - "Flexibility: Provides a flexible specification defining functionality that developers can use in any software update system or re-implement to fit their needs."
+recent_updates: "TUF v7.0.1 includes fixes for hash handling on Role and DelegatedRole and an incorrect urllib3 dependency range."
+use_cases: "Securing software update systems and protecting against supply chain attacks."
+interesting_facts: "A variant of TUF called Uptane is used to secure over-the-air updates in automobiles."
+get_started: "Check out the Usage examples and Documentation linked in the repository."
+related_tools:
+  - "Uptane"
+sources:
+  - id: 'readme'
+    url: 'https://github.com/theupdateframework/python-tuf/blob/develop/README.md'
+    quotes:
+      - "[The Update Framework (TUF)](https://theupdateframework.io/) is a framework for\nsecure content delivery and updates. It protects against various types of\nsupply chain attacks and provides resilience to compromise."
+      - "The Update Framework (TUF) design helps developers maintain the security of a\nsoftware update system, even against attackers that compromise the repository\nor signing keys."
+      - "TUF provides a flexible\n[specification](https://github.com/theupdateframework/specification/blob/master/tuf-spec.md)\ndefining functionality that developers can use in any software update system or\nre-implement to fit their needs."
+      - "A variant of TUF\ncalled [Uptane](https://uptane.github.io/) is used to secure over-the-air\nupdates in automobiles."
+  - id: 'src_release_v7_0_1'
+    title: 'TUF v7.0.1 Release Notes'
+    url: 'https://github.com/theupdateframework/python-tuf/releases/tag/v7.0.1'
+    source_type: 'github_release'
+    quotes:
+      - 'Fix hash method on Role and DelegatedRole'
+      - 'Fix incorrect dependency range for urllib3'

@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:39.384056'
 homepage_url: https://www.airshipit.org/
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Airship
 repo_url: https://github.com/airshipit/treasuremap
 status: completed
@@ -67,3 +67,5 @@ Airship is widely utilized across the cloud native and open source ecosystem.
 - [Metal3](/tools/metal3/)
 
 - [Tinkerbell](/tools/tinkerbell/)
+
+

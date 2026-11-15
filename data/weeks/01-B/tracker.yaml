@@ -3,17 +3,17 @@ items:
     tasks:
       research:
         status: completed
-        started_at: "2026-09-23T15:49:17.462240+00:00"
-        completed_at: "2026-09-23T15:49:17.462240+00:00"
+        started_at: '2026-09-23T15:49:17.462240+00:00'
+        completed_at: '2026-09-23T15:49:17.462240+00:00'
         output_file: data/weeks/01-B/research/bfe.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-09-23T15:49:17.462240+00:00'
+        completed_at: '2026-09-23T15:49:17.462240+00:00'
+        output_file: website/content/tools/bfe.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -23,7 +23,7 @@ items:
       research:
         status: completed
         started_at: null
-        completed_at: 2026-10-13T22:54:45Z
+        completed_at: 2026-10-13 22:54:45+00:00
         output_file: data/weeks/01-B/research/bosh.yaml
         error_message: null
         retry_count: 0
@@ -31,7 +31,7 @@ items:
       content:
         status: completed
         started_at: null
-        completed_at: 2026-10-13T22:54:45Z
+        completed_at: 2026-10-13 22:54:45+00:00
         output_file: website/content/tools/bosh.md
         error_message: null
         retry_count: 0

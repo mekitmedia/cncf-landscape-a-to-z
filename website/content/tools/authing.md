@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:39.637939'
 homepage_url: https://www.authing.cn
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Authing
 repo_url: https://github.com/Authing/Authing
 status: completed
@@ -69,3 +69,5 @@ Authing was included in the Forbes Asia 100 to Watch list and was selected as an
 - [Keycloak](/tools/keycloak/)
 
 - [Dex](/tools/dex/)
+
+

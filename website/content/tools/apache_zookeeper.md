@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:39.653766'
 homepage_url: https://zookeeper.apache.org/
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Apache Zookeeper
 repo_url: https://github.com/apache/zookeeper
 status: completed
@@ -67,3 +67,5 @@ Apache Zookeeper is widely utilized across the cloud native and open source ecos
 - [Consul](/tools/consul/)
 
 - [Chubby](/tools/chubby/)
+
+

@@ -1,5 +1,5 @@
 ---
-cncf_status: incubating
+cncf_status: graduated
 date: '2026-10-04T18:37:45.150462'
 description: Real-Time Communication Fabric for Distributed Agents and Applications.
   NATS unifies messaging, streaming, and state into one real-time system — connecting

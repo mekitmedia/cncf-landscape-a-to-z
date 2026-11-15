@@ -5,7 +5,7 @@ description: Application Platform for Linode Kubernetes Engine (LKE)
 homepage_url: https://apl-docs.net
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Application Platform for LKE
 repo_url: https://github.com/linode/apl-core
 status: completed
@@ -68,3 +68,5 @@ Application Platform for LKE is widely utilized across the cloud native and open
 - [Rancher](/tools/rancher/)
 
 - [Portainer](/tools/portainer/)
+
+

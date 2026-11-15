@@ -1,14 +1,14 @@
 ---
 cncf_status: non-cncf
 date: '2026-10-25T01:59:28.203301'
-description: Parseable is a free and open source log storage and observability platform.
-  Written in Rust, Parseable can be deployed on natively on Kubernetes. It ingests
-  log data via HTTP POST calls and exposes a query API to search and analyze logs.
-  It is compatible with logging agents like FluentBit, LogStash, FileBeat among others.
+description: Parseable is an open source, column-oriented data lake platform purpose-built
+  for observability. It stores telemetry in Apache Parquet on object storage and provides
+  SQL and PromQL queries, along with major observability features like agent observability,
+  alerting, dashboards, anomaly detection, and APM, all within a single binary.
 homepage_url: https://www.parseable.io
 layout: single
 letter: P
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Parseable
 repo_url: https://github.com/parseablehq/parseable
 status: completed
@@ -74,3 +74,5 @@ Parseable operates as a single binary, providing a fully featured observability 
 - [OpenTelemetry](/tools/opentelemetry/)
 
 - [Kafka](/tools/kafka/)
+
+

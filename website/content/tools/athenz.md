@@ -6,7 +6,7 @@ description: Open source platform for X.509 certificate based service authentica
 homepage_url: https://www.athenz.io
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Athenz
 repo_url: https://github.com/AthenZ/athenz
 status: completed
@@ -65,3 +65,5 @@ Enables zero trust core principles like traffic encryption, AuthN, AuthZ, Dynami
 
 
 - [SPIRE](/tools/spire/)
+
+

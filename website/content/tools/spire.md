@@ -1,6 +1,7 @@
 ---
 cncf_status: graduated
 date: '2026-10-04T18:37:47.512296'
+description: The SPIFFE Runtime Environment
 homepage_url: https://spiffe.io/spire/
 layout: single
 letter: S

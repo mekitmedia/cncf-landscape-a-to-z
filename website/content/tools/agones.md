@@ -6,7 +6,7 @@ description: Agones is a library for hosting, running, and scaling dedicated gam
 homepage_url: https://agones.dev/site/
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Agones
 repo_url: https://github.com/agones-dev/agones
 status: completed
@@ -67,3 +67,5 @@ Agones is derived from the Greek word agōn which roughly translates to 'contest
 - [Kubernetes](/tools/kubernetes/)
 
 - [Docker](/tools/docker/)
+
+

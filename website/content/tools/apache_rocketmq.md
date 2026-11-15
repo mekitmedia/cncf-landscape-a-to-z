@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:38.753244'
 homepage_url: https://rocketmq.apache.org/
 layout: single
 letter: A
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Apache RocketMQ
 repo_url: https://github.com/apache/rocketmq
 status: completed
@@ -67,3 +67,5 @@ Apache RocketMQ is widely utilized across the cloud native and open source ecosy
 - [RabbitMQ](/tools/rabbitmq/)
 
 - [Apache Pulsar](/tools/apache_pulsar/)
+
+

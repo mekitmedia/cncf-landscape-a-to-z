@@ -4,7 +4,7 @@ date: '2026-10-21T02:16:03.369895'
 homepage_url: https://tengine.taobao.org/
 layout: single
 letter: T
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Tengine
 repo_url: https://github.com/alibaba/tengine
 status: completed
@@ -73,3 +73,5 @@ Tengine has proven to be very stable and efficient on some of the top 100 websit
 - [kubernetes](/tools/kubernetes/)
 
 - [tongsuo](/tools/tongsuo/)
+
+

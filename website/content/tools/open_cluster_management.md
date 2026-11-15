@@ -1,5 +1,5 @@
 ---
-cncf_status: sandbox
+cncf_status: incubating
 date: '2026-10-04T18:37:48.011247'
 description: A lightweight, open standard for multi-cluster Kubernetes management
   built on a hub-spoke architecture.

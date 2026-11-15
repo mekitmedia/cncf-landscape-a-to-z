@@ -7,7 +7,7 @@ description: Mermin is a Kubernetes-native network observability tool that uses 
 homepage_url: https://github.com/elastiflow/mermin
 layout: single
 letter: M
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Mermin
 repo_url: https://github.com/elastiflow/mermin
 status: completed
@@ -72,3 +72,5 @@ Mermin's approach to network observability sits in a 'sweet spot'—it avoids th
 - [Tempo](/tools/tempo/)
 
 - [Istio](/tools/istio/)
+
+

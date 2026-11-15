@@ -3,9 +3,7 @@ cncf_status: non-cncf
 date: '2026-10-19T02:10:36.948997'
 description: 'SpiceDB is an open source database optimized for storing and querying
   authorization data. SpiceDB sets the standard for scalable authorization by remaining
-  true to the design of the system powering permissions at Google: Zanzibar. While
-  SpiceDB is a general purpose solution, it is often used to secure access to Retrieval-Augmented
-  Generation (RAG) systems for AI workloads.
+  true to the design of the system powering permissions at Google: Zanzibar.
 
   '
 homepage_url: https://authzed.com/spicedb
@@ -76,3 +74,5 @@ The original inspiration for SpiceDB came from Google's 2019 paper on Zanzibar, 
 
 
 - [kubernetes](/tools/kubernetes/)
+
+

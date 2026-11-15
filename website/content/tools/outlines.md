@@ -68,3 +68,5 @@ Outlines provides structured outputs for LLMs and is trusted by NVIDIA, Cohere, 
 - [OpenAI](/tools/openai/)
 
 - [Ollama](/tools/ollama/)
+
+

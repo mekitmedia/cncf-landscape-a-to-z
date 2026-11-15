@@ -1,13 +1,13 @@
 ---
 cncf_status: non-cncf
 date: '2026-10-17T14:34:51.293294'
-description: 'Trivy is an all-in-one security scanner that beings vulnerability, SBOM,
+description: 'Trivy is an all-in-one security scanner brings vulnerability, SBOM,
   misconfigurations, leaked secrets, and license scanning together, across container
   images, code repositories, Kubernetes clusters and more. '
 homepage_url: https://trivy.dev
 layout: single
 letter: T
-lifecycle_stage: first_pass
+lifecycle_stage: tech_writing
 project_name: Trivy
 repo_url: https://github.com/aquasecurity/trivy
 status: completed
@@ -78,3 +78,5 @@ Trivy has scanners that look for security issues, and targets where it can find 
 
 
 - [kubernetes](/tools/kubernetes/)
+
+

@@ -1,0 +1,27 @@
+project_name: "Weight and Biases (wandb)"
+homepage_url: "https://wandb.ai/"
+repo_url: "https://github.com/wandb/wandb"
+cncf_status: "non-cncf"
+summary: "Weights & Biases (W&B) allows you to build better models faster. It helps track and visualize all the pieces of your machine learning pipeline, from datasets to production machine learning models."
+key_features:
+  - "Track and visualize machine learning pipelines, from datasets to production models"
+  - "Track, debug, evaluate, and monitor LLM apps with Weave"
+  - "Integrates with popular ML frameworks and libraries making it fast and easy to set up experiment tracking and data versioning"
+  - "Provides hosting options including Multi-tenant Cloud, Dedicated Cloud, and Self-Managed deployments"
+recent_updates: ""
+use_cases: "Experiment tracking and data versioning for machine learning models, as well as tracking, debugging, evaluating, and monitoring LLM apps."
+interesting_facts: ""
+get_started: "pip install wandb"
+related_tools: []
+sources:
+  - id: "readme"
+    url: "https://github.com/wandb/wandb/blob/main/README.md"
+    quotes:
+      - "Use W&B to build better models faster."
+      - "Track and visualize all the pieces of your machine learning pipeline, from datasets to production machine learning models."
+      - "Track, debug, evaluate, and monitor LLM apps with [Weave]"
+      - "with popular ML frameworks and libraries making it fast and easy to set up experiment tracking and data versioning inside existing projects."
+      - "[Multi-tenant Cloud]"
+      - "[Dedicated Cloud]"
+      - "[Self-Managed]"
+      - "pip install wandb"
