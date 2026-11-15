@@ -10,7 +10,6 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from src.agentic.prompts import (
     CONTENT_MANAGER_SYSTEM_PROMPT,
     EDITOR_SYSTEM_PROMPT,
-    JULES_SYSTEM_PROMPT,
     RESEARCHER_SYSTEM_PROMPT,
     WRITER_SYSTEM_PROMPT,
 )
@@ -26,7 +25,6 @@ def sync_prompts():
         GITHUB_PROMPTS_DIR / "researcher.md": RESEARCHER_SYSTEM_PROMPT,
         GITHUB_PROMPTS_DIR / "writer.md": WRITER_SYSTEM_PROMPT,
         GITHUB_PROMPTS_DIR / "editor.md": EDITOR_SYSTEM_PROMPT,
-        GITHUB_PROMPTS_DIR / "jules_prompt.md": JULES_SYSTEM_PROMPT,
     }
 
     for path, content in files_map.items():

@@ -1,0 +1,14 @@
+apiVersion: kubeopencode.io/v1alpha1
+kind: Agent
+metadata:
+  name: cncf-landscape-agent
+  namespace: kubeopencode
+  labels:
+    app.kubernetes.io/part-of: cncf-landscape-a-to-z
+    app.kubernetes.io/component: agent
+spec:
+  templateRef:
+    name: cncf-landscape-base
+  profile: "CNCF Landscape A-to-Z Autonomous Research and Engineering Agent"
+  standby:
+    idleTimeout: "30m"

@@ -127,7 +127,7 @@ class EvalCommands:
         """
         Run an ad-hoc evaluation sweep across saved research artifacts filtered by week or agent provenance.
         Usage: 
-            python src/cli.py eval sweep --agent=jules --limit=5
+            python src/cli.py eval sweep --agent=kubeopencode --limit=5
             python src/cli.py eval sweep --week=00-A
         """
         from src.agentic.evals import run_adhoc_eval
