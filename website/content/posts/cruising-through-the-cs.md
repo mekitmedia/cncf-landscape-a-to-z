@@ -1,7 +1,7 @@
 ---
 title: "Cruising through the 'C's: Cloud Native Storage and CI/CD"
 date: 2026-02-01T09:00:00Z
-draft: false
+draft: true
 letter: "C"
 ---
 
