@@ -10,6 +10,12 @@ layout: "list"
 
 This week has a total of 71 items.
 
+## Featured 2027 Weekly Releases
+
+- **Part 1 (Week 1)**: [Cruising through the 'A's (Part 1): Cloud Infrastructure, Orchestration, and Zero-Trust Security](/posts/2027-a1-cloud-platforms-and-security/)
+- **Part 2 (Week 2)**: [Cruising through the 'A's (Part 2): AI Agents, Streaming Big Data, and Serverless](/posts/2027-a2-ai-agents-and-data-streams/)
+
+
 
 - **Provisioning Automation Configuration**: 5 items
 

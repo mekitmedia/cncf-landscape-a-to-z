@@ -209,9 +209,9 @@ def main():
         week_pattern = f"data/weeks/{args.week}"
         files_to_check.extend(glob.glob(f"{week_pattern}/research/*.yaml"))
         files_to_check.extend(glob.glob(f"{week_pattern}/tracker.yaml"))
-        # Check matching post
+        # Check matching post(s)
         letter = args.week.split("-")[-1]
-        files_to_check.extend(glob.glob(f"website/content/posts/*-{letter}.md"))
+        files_to_check.extend(glob.glob(f"website/content/posts/*-{letter}*.md"))
 
     if args.all_files:
         files_to_check.extend(glob.glob("data/weeks/*/research/*.yaml"))

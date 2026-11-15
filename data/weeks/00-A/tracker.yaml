@@ -583,7 +583,7 @@ items:
         status: completed
         started_at: '2026-09-14T02:08:01.804261Z'
         completed_at: '2026-09-14T02:08:01.804261Z'
-        output_file: website/content/posts/2026-A.md
+        output_file: website/content/tools/apache_pinot.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -773,7 +773,7 @@ items:
         status: completed
         started_at: '2026-09-08T12:00:00Z'
         completed_at: '2026-09-08T12:00:00Z'
-        output_file: website/content/posts/2026-A.md
+        output_file: website/content/tools/apicurio_registry.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -1088,7 +1088,7 @@ items:
         status: completed
         started_at: '2026-09-11T01:58:48.241082Z'
         completed_at: '2026-09-11T01:58:48.241082Z'
-        output_file: research/avro.yaml
+        output_file: data/weeks/00-A/research/avro.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -1096,7 +1096,7 @@ items:
         status: completed
         started_at: '2026-09-11T01:58:48.241082Z'
         completed_at: '2026-09-11T01:58:48.241082Z'
-        output_file: website/content/posts/2026-A.md
+        output_file: website/content/tools/avro.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -1115,7 +1115,7 @@ items:
         status: completed
         started_at: '2026-09-12T01:36:29.905186Z'
         completed_at: '2026-09-12T01:36:29.905186Z'
-        output_file: website/content/posts/2026-A.md
+        output_file: website/content/tools/azure_api_management.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -1134,7 +1134,7 @@ items:
         status: completed
         started_at: '2026-09-13T01:52:34.878336Z'
         completed_at: '2026-09-13T01:52:34.878336Z'
-        output_file: website/content/posts/2026-A.md
+        output_file: website/content/tools/azure_functions.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -1153,7 +1153,7 @@ items:
         status: completed
         started_at: '2026-09-13T01:52:34.878336Z'
         completed_at: '2026-09-13T01:52:34.878336Z'
-        output_file: website/content/posts/2026-A.md
+        output_file: website/content/tools/azure_service_fabric.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -1172,7 +1172,7 @@ items:
         status: completed
         started_at: '2026-09-13T01:52:34.878336Z'
         completed_at: '2026-09-13T01:52:34.878336Z'
-        output_file: website/content/posts/2026-A.md
+        output_file: website/content/tools/agent_development_kit.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -1191,7 +1191,7 @@ items:
         status: completed
         started_at: '2026-09-18T01:46:56.044363Z'
         completed_at: '2026-09-18T01:46:56.044363Z'
-        output_file: website/content/posts/2026-A.md
+        output_file: website/content/tools/agent_evaluation.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -1278,7 +1278,7 @@ items:
         status: completed
         started_at: '2026-09-10T01:51:41.553680Z'
         completed_at: '2026-09-10T01:51:41.553680Z'
-        output_file: research/apache_age.yaml
+        output_file: data/weeks/00-A/research/apache_age.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -1286,7 +1286,7 @@ items:
         status: completed
         started_at: '2026-09-10T01:51:41.553680Z'
         completed_at: '2026-09-10T01:51:41.553680Z'
-        output_file: website/content/posts/2026-A.md
+        output_file: website/content/tools/apache_age.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -1305,7 +1305,7 @@ items:
         status: completed
         started_at: '2026-09-15T02:01:53.269832Z'
         completed_at: '2026-09-15T02:01:53.269832Z'
-        output_file: website/content/posts/2026-A.md
+        output_file: website/content/tools/autogen.md
         error_message: null
         retry_count: 0
         agent: writer
