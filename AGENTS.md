@@ -16,6 +16,6 @@ Universal entrypoint for agent tooling and autonomous contributors in this repos
 ## Supported Agent Harnesses
 - **Claude Code**: Reads `.claude/skills` / `CLAUDE.md`.
 - **GitHub Copilot**: Reads `.github/copilot-instructions.md` -> `.agents/skills/`.
-- **KubeOpenCode**: Autonomous Kubernetes operator using `AgentTemplate`, `Agent`, and `CronTask` CRDs defined in `k8s/kubeopencode/` (see `docs/kubeopencode-agent-templates.md`). Supports Git auto-sync and reconciliation via Flux or `kubectl apply -k`.
+- **KubeOpenCode**: Autonomous Kubernetes operator using `AgentTemplate`, `Agent`, and `CronTask` CRDs defined in `.kubeopencode/` (see `docs/kubeopencode-agent-templates.md`). Supports Git auto-sync and reconciliation via Flux or `kubectl apply -k .kubeopencode`.
 - **Pydantic AI Agents**: Python runtime in `src/agentic/` loading canonical system prompts from `.agents/skills/cncf-weekly-content/prompts/`.
 - **Codex / OpenCode**: Native skill symlinks in `.codex/skills` and `.opencode/skills`.

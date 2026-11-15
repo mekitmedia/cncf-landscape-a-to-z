@@ -51,7 +51,7 @@ graph TD
     end
 
     subgraph Modern["Modern KubeOpenCode Architecture on k3s"]
-        GitRepo["Git Repository<br/>(k8s/kubeopencode/)"] --> Reconciler["GitOps Reconciler<br/>(Flux or kubectl apply)"]
+        GitRepo["Git Repository<br/>(.kubeopencode/)"] --> Reconciler["GitOps Reconciler<br/>(Flux or kubectl apply)"]
         Reconciler --> K3s["k3s Cluster with KubeOpenCode"]
         K3s --> Template["AgentTemplate: cncf-landscape-base<br/>(Git Context + Secret Mounts)"]
         K3s --> Agent["Agent: cncf-landscape-agent<br/>(Standby on k3s)"]
@@ -70,16 +70,14 @@ In this architecture, the k3s cluster runs the KubeOpenCode operator once. From 
 Whether you deploy them using `kubectl apply -k` or let **Flux** reconcile them from an external cluster-management repository, the target repo contains only standard Kubernetes manifests:
 
 ```
-k8s/
-├── kustomization.yaml                               # Root kustomization
-└── kubeopencode/
-    ├── kustomization.yaml                           # Component kustomization
-    ├── agent-template.yaml                          # Base AgentTemplate
-    ├── agents.yaml                                  # Agent instances
-    ├── crontask-project-research.yaml               # Project research roulette (daily)
-    ├── crontask-compass-audit.yaml                  # Compass backlog review
-    ├── crontask-palette-review.yaml                 # Palette UI/UX check
-    └── crontask-engineering-maintenance.yaml        # Engineering maintenance
+.kubeopencode/
+├── kustomization.yaml                               # Component kustomization
+├── agent-template.yaml                              # Base AgentTemplate
+├── agents.yaml                                      # Agent instances
+├── crontask-project-research.yaml                   # Project research roulette (daily)
+├── crontask-compass-audit.yaml                      # Compass backlog review
+├── crontask-palette-review.yaml                     # Palette UI/UX check
+└── crontask-engineering-maintenance.yaml            # Engineering maintenance
 ```
 
 No custom queue scripts. No fragile composite GitHub actions. Just standard Kubernetes manifests.
@@ -92,8 +90,8 @@ Here is how each piece of the Jules system translates into KubeOpenCode:
 
 | Jules Component | KubeOpenCode Replacement | Where It Lives |
 |---|---|---|
-| **Jules Web / SaaS Agent** | `AgentTemplate` + `Agent` | `k8s/kubeopencode/agent-template.yaml` |
-| **Scheduled Actions** (`jules_schedule.yml`) | `CronTask` resources (one per file) | `k8s/kubeopencode/crontask-*.yaml` |
+| **Jules Web / SaaS Agent** | `AgentTemplate` + `Agent` | `.kubeopencode/agent-template.yaml` |
+| **Scheduled Actions** (`jules_schedule.yml`) | `CronTask` resources (one per file) | `.kubeopencode/crontask-*.yaml` |
 | **GitHub Secrets** (`JULES_API_KEY`) | Kubernetes Secrets (`github-creds`, `google-creds`) | Mounted in Pod via `credentials[]` |
 | **GitHub Action Checkout** | Git Context with `sync: HotReload` | Handled automatically by OpenCode `git-sync` |
 | **Agent Prompt Files** | `CronTask.spec.taskTemplate.spec.description` | Stored directly in YAML specs |
@@ -111,7 +109,7 @@ The `AgentTemplate` serves as the blueprint for the agent's runtime environment.
 Notice that we use the floating model alias **`google/gemini-flash-lite-latest`**—delivering near-instant response times at minimal token cost:
 
 ```yaml
-# k8s/kubeopencode/agent-template.yaml
+# .kubeopencode/agent-template.yaml
 apiVersion: kubeopencode.io/v1alpha1
 kind: AgentTemplate
 metadata:
@@ -171,7 +169,7 @@ spec:
 Next, create an `Agent` instance referencing the template. We configure `standby.idleTimeout: 30m` so the agent pod scales down when idle to conserve cluster memory:
 
 ```yaml
-# k8s/kubeopencode/agents.yaml
+# .kubeopencode/agents.yaml
 apiVersion: kubeopencode.io/v1alpha1
 kind: Agent
 metadata:
@@ -235,7 +233,7 @@ Runs every Saturday at 09:00 UTC (`0 9 * * 6`) to run the pytest suite and refac
 Group your building blocks together using standard Kustomize:
 
 ```yaml
-# k8s/kubeopencode/kustomization.yaml
+# .kubeopencode/kustomization.yaml
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
@@ -256,7 +254,7 @@ Because these manifests are pure Kubernetes building blocks with zero proprietar
 
 ### Option A: Direct Apply via `kubectl`
 ```bash
-kubectl apply -k k8s/kubeopencode/
+kubectl apply -k .kubeopencode/
 ```
 
 ### Option B: Pointing Flux from Your Management Repo
@@ -270,7 +268,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 10m
-  path: ./k8s/kubeopencode
+  path: ./.kubeopencode
   prune: true
   sourceRef:
     kind: GitRepository
@@ -301,6 +299,6 @@ Switching from a closed SaaS agent to self-hosted KubeOpenCode on k3s delivered 
 1. **Zero Lock-In**: Everything is open source and runs entirely on our own infrastructure.
 2. **Deterministic Scheduling**: `CronTask` gives us Kubernetes-native scheduling with clean concurrency control (`Forbid`, `Replace`, `Allow`).
 3. **Floating Lightweight Models**: Using `google/gemini-flash-lite-latest` gives fast, responsive agent executions with minimal operational cost.
-4. **Pure GitOps**: Adding a new scheduled agent or tweaking prompts is as simple as submitting a PR to `k8s/kubeopencode/`.
+4. **Pure GitOps**: Adding a new scheduled agent or tweaking prompts is as simple as submitting a PR to `.kubeopencode/`.
 
 If you have an existing k3s or Kubernetes cluster and want to put autonomous agents to work across your repositories, give [KubeOpenCode](https://github.com/kubeopencode/kubeopencode) a look. It brings the promise of Task-as-Code home to where it belongs: your own cluster.
