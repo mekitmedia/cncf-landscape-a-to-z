@@ -18,6 +18,7 @@ import jinja2
 
 from src.config import load_config, letter_from_week_id
 from src.pipeline.tool_pages import sanitize_for_filename
+from src.tracker.lifecycle import LifecycleStage, determine_lifecycle_stage
 
 
 @dataclass
@@ -34,6 +35,8 @@ class ProjectCandidate:
     has_research: bool = False
     last_updated: Optional[datetime] = None
     weight: float = 1.0
+    current_stage: str = "initial"
+    target_stage: str = "first_pass"
 
 
 @dataclass
@@ -51,6 +54,8 @@ class DrawnTask:
     is_refresh: bool
     weight: float
     reason: Optional[str] = None
+    current_stage: str = "initial"
+    target_stage: str = "first_pass"
     research_file: str = field(init=False)
     tool_page_file: str = field(init=False)
     tracker_file: str = field(init=False)
@@ -94,10 +99,15 @@ def calculate_project_weight(
     last_updated: Optional[datetime],
     cncf_status: str,
     now: Optional[datetime] = None,
+    stage: Optional[str | LifecycleStage] = None,
 ) -> float:
     """Calculate selection weight for a project candidate."""
-    if not has_research:
+    if stage == LifecycleStage.INITIAL or not has_research:
         return 100.0
+
+    if stage == LifecycleStage.FIRST_PASS:
+        # Research complete, awaiting tech writing
+        return 95.0
 
     if now is None:
         now = datetime.now(timezone.utc)
@@ -145,6 +155,15 @@ def get_all_candidates(week_letter: Optional[str] = None) -> List[ProjectCandida
         if not categories_dir.exists():
             continue
 
+        tracker_file = week_dir / "tracker.yaml"
+        tracker_data = None
+        if tracker_file.exists():
+            try:
+                with tracker_file.open("r", encoding="utf-8") as tf:
+                    tracker_data = yaml.safe_load(tf)
+            except Exception:
+                pass
+
         for cat_file in sorted(categories_dir.glob("*.yaml")):
             cat_name = cat_file.stem
             try:
@@ -164,11 +183,45 @@ def get_all_candidates(week_letter: Optional[str] = None) -> List[ProjectCandida
                     last_updated = _get_project_last_updated(research_file) if has_research else None
                     cncf_status = item.get("project", "sandbox")
 
+                    item_tracker = None
+                    if tracker_data and isinstance(tracker_data, dict):
+                        items_dict = tracker_data.get("items", {})
+                        if name in items_dict:
+                            item_tracker = items_dict[name]
+                        else:
+                            for k, v in items_dict.items():
+                                if sanitize_for_filename(k) == sanitized:
+                                    item_tracker = v
+                                    break
+
+                    research_data = None
+                    if has_research:
+                        try:
+                            with research_file.open("r", encoding="utf-8") as rf:
+                                research_data = yaml.safe_load(rf)
+                        except Exception:
+                            pass
+
+                    stage = determine_lifecycle_stage(
+                        item_tracker=item_tracker,
+                        research_data=research_data,
+                    )
+
+                    if stage == LifecycleStage.INITIAL:
+                        target_stage = LifecycleStage.FIRST_PASS
+                    elif stage == LifecycleStage.FIRST_PASS:
+                        target_stage = LifecycleStage.TECH_WRITING
+                    elif stage == LifecycleStage.TECH_WRITING:
+                        target_stage = LifecycleStage.APPROVED
+                    else:
+                        target_stage = LifecycleStage.APPROVED
+
                     weight = calculate_project_weight(
                         has_research=has_research,
                         last_updated=last_updated,
                         cncf_status=cncf_status,
                         now=now,
+                        stage=stage,
                     )
 
                     candidate = ProjectCandidate(
@@ -183,6 +236,8 @@ def get_all_candidates(week_letter: Optional[str] = None) -> List[ProjectCandida
                         has_research=has_research,
                         last_updated=last_updated,
                         weight=weight,
+                        current_stage=stage.value,
+                        target_stage=target_stage.value,
                     )
                     candidates.append(candidate)
             except Exception:
@@ -241,6 +296,8 @@ def check_adhoc_tasks(week_letter: Optional[str] = None) -> Optional[DrawnTask]:
                         is_refresh=cand.has_research,
                         weight=float("inf"),
                         reason=task_entry.get("reason", "Ad-hoc task queue"),
+                        current_stage=cand.current_stage,
+                        target_stage=task_entry.get("target_stage", cand.target_stage),
                     )
     except Exception:
         return None
@@ -287,4 +344,6 @@ def draw_task(
         homepage_url=selected.homepage_url,
         is_refresh=selected.has_research,
         weight=selected.weight,
+        current_stage=selected.current_stage,
+        target_stage=selected.target_stage,
     )

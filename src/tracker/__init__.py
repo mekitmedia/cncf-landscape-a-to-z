@@ -100,4 +100,15 @@ __all__ = [
     
     # Backends
     "YAMLTrackerBackend",
+
+    # Lifecycle
+    "LifecycleStage",
+    "determine_lifecycle_stage",
+    "validate_transition",
 ]
+
+from src.tracker.lifecycle import (
+    LifecycleStage,
+    determine_lifecycle_stage,
+    validate_transition,
+)

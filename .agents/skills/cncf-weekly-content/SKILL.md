@@ -40,22 +40,34 @@ Modular role prompts are maintained in:
 - Do not invent facts; only write verifiable project details.
 - Research files are structured note-taking artifacts: ground claims in verifiable source quotes.
 - Keep writes inside the paths listed above.
-- Always generate both the research YAML and the tool markdown page for an assigned project.
+- Never skip lifecycle stages (`initial -> first_pass -> tech_writing -> approved`). CI validates state transitions on every PR.
+- Keep writes inside the paths listed above.
+- In first_pass research, deliver ONLY the research YAML and tracker research task update. Do NOT generate tool markdown pages in first_pass.
 - Preserve tracker structure; update status fields accurately for completed items.
 
 ## Workflow Modes
 
-### Mode A: Single Project Vertical Slice (Roulette or Ad-Hoc Mission)
-When assigned a specific project (via `just roulette` or ad-hoc task):
-1. Read project metadata from `data/weeks/<WEEK_ID>/categories/*.yaml` and any existing research in `data/weeks/<WEEK_ID>/research/`.
-2. Research features, recent releases, ecosystem perspectives, use cases, and getting started guide.
-3. Save or enrich research YAML at `data/weeks/<WEEK_ID>/research/<sanitized_project_name>.yaml` using the schema below.
-4. Generate the tool markdown page at `website/content/tools/<sanitized_project_name>.md` (or run `uv run python -m src.pipeline.tool_pages`).
-5. Update `data/weeks/<WEEK_ID>/tracker.yaml` marking `research` and `content` tasks as `completed`.
+### Mode A: Staged Project Lifecycle (Roulette or Ad-Hoc Mission)
+When assigned a specific project (via `just roulette` or ad-hoc task), execute ONLY the targeted stage:
+
+1. **Stage 1: First Pass (`initial -> first_pass`)**
+   - Research features, recent releases, ecosystem perspectives, use cases, getting started guide, and verbatim source quotes.
+   - Save or enrich research YAML at `data/weeks/<WEEK_ID>/research/<sanitized_project_name>.yaml`.
+   - Update `data/weeks/<WEEK_ID>/tracker.yaml`: mark `tasks.research: completed`. Keep `tasks.content: pending`.
+   - **DO NOT create `website/content/tools/<tool>.md` in this stage.**
+
+2. **Stage 2: Tech Writing (`first_pass -> tech_writing`)**
+   - Read existing verified research from `data/weeks/<WEEK_ID>/research/<sanitized_project_name>.yaml`.
+   - Generate the tool markdown page at `website/content/tools/<sanitized_project_name>.md`.
+   - Update `data/weeks/<WEEK_ID>/tracker.yaml`: mark `tasks.content: completed`.
+
+3. **Stage 3: Editorial Approval (`tech_writing -> approved`)**
+   - Run `uv run python scripts/validate_grounding.py` to verify quote citations.
+   - Set `editorial_lock: true` in research YAML and `lifecycle_stage: approved` in tool frontmatter.
 
 ### Mode B: Full Week Compilation (Editor → Researcher → Writer)
 1. Pick next incomplete week or target letter.
-2. Complete missing research YAML files and tool pages for all items in that week.
+2. Complete missing research YAML files and tool pages for all items in that week adhering to the staged progression.
 3. Write/update weekly summary post `website/content/posts/<YEAR>-<WEEK_LETTER>.md`.
 4. Update week `blog_post` status to `completed` in `tracker.yaml`.
 
@@ -111,28 +123,28 @@ letter: "<WEEK_LETTER>"
 
 ## Suggested Prompts
 
-### Draw Single Task Mission (Recommended for Jules / Autonomous PRs):
+### Draw Single Task Mission (Recommended for Autonomous PRs):
 ```text
-Run `just roulette` (or `uv run python -m src.cli run draw --format=prompt`) to draw the assigned project.
-Execute the vertical slice:
-- Complete research YAML at data/weeks/<WEEK_ID>/research/<project>.yaml
-- Generate tool page at website/content/tools/<project>.md
-- Update tracker.yaml
+Run `just roulette` (or `uv run python -m src.cli run draw --format=prompt`) to draw the assigned project and target stage.
+Execute only the assigned stage:
+- If first_pass: complete research YAML at data/weeks/<WEEK_ID>/research/<project>.yaml and update tracker.yaml research status. Do NOT generate tool page markdown.
+- If tech_writing: generate tool page at website/content/tools/<project>.md from research and update tracker.yaml content status.
+- If approved: verify grounding quotes and set editorial_lock: true.
 ```
 
 ### Full Week Workflow:
 ```text
 Use the cncf-weekly-content skill from .agents/skills.
 - Pick the next incomplete week from data/weeks/*/tracker.yaml.
-- Complete missing research YAML files and tool pages for that week.
+- Complete missing research YAML files and tool pages for that week following the staged progression.
 - Generate/update website/content/posts/<YEAR>-<WEEK_LETTER>.md from research.
 - Update tracker statuses accordingly.
 ```
 
 ## Definition of Done
-- Research YAML exists for the project.
-- Tool page markdown exists at `website/content/tools/<project>.md`.
-- Tracker statuses are accurate for completed/failed work.
-- Changes are reviewable in a single PR.
+- For Stage 1 (first_pass): Research YAML exists with source quotes; tracker research task is completed; content task is pending; no tool page markdown is created.
+- For Stage 2 (tech_writing): Tool page markdown exists at `website/content/tools/<project>.md`; tracker content task is completed.
+- For Stage 3 (approved): Grounding validation passes; editorial lock is true.
+- Changes advance exactly one lifecycle step per PR.
 
 
