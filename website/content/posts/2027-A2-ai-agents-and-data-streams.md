@@ -483,7 +483,7 @@ An open-source framework and CLI for building, testing, and deploying serverless
 - Local emulation and testing of Lambda functions and API Gateway with Docker.
 - Step-through debugging in local IDEs.
 
-[Explore full AWS Server Application Model (SAM) tool profile & getting started guide →](/tools/aws_server_application_model_(sam)/)
+[Explore full AWS Server Application Model (SAM) tool profile & getting started guide →](</tools/aws_server_application_model_(sam)/>)
 
 ---
 

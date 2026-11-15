@@ -117,13 +117,13 @@ An open-source deployment option from AWS that allows users to create and operat
 - Support for VMware vSphere, bare metal, Nutanix, and CloudStack.
 - Integrated cluster lifecycle management using Cluster API (CAPI).
 
-[Explore full Amazon Elastic Kubernetes Service Anywhere (Amazon EKS Anywhere) tool profile & getting started guide →](/tools/amazon_elastic_kubernetes_service_anywhere_(amazon_eks_anywhere)/)
+[Explore full Amazon Elastic Kubernetes Service Anywhere (Amazon EKS Anywhere) tool profile & getting started guide →](</tools/amazon_elastic_kubernetes_service_anywhere_(amazon_eks_anywhere)/>)
 
 ---
 
-#### Amazon Elastic Kubernetes Service Distro (Amazon EKS-D)
+#### [Amazon Elastic Kubernetes Service Distro (Amazon EKS-D)](https://distro.eks.amazonaws.com/)
 
-**Status:** `Non-cncf` | **Code:** Proprietary / Hosted
+**Status:** `Non-cncf` | **Code:** [GitHub Repository](https://github.com/aws/eks-distro)
 
 Amazon EKS Distro (EKS-D) is a Kubernetes distribution based on and used by Amazon Elastic Kubernetes Service (EKS) to create reliable and secure Kubernetes clusters. It provides the same versions of Kubernetes and its dependencies deployed by Amazon EKS, including upstream updates and extended security patching support.
 
@@ -132,7 +132,7 @@ Amazon EKS Distro (EKS-D) is a Kubernetes distribution based on and used by Amaz
 - Includes the latest upstream Kubernetes updates
 - Offers extended security patching support
 
-[Explore full Amazon Elastic Kubernetes Service Distro (Amazon EKS-D) tool profile & getting started guide →](/tools/amazon_elastic_kubernetes_service_distro_(amazon_eks-d)/)
+[Explore full Amazon Elastic Kubernetes Service Distro (Amazon EKS-D) tool profile & getting started guide →](</tools/amazon_elastic_kubernetes_service_distro_(amazon_eks-d)/>)
 
 ---
 
