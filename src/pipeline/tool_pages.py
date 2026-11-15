@@ -16,6 +16,7 @@ import yaml
 import jinja2
 
 from src.config import load_config, letter_from_week_id
+from src.tracker.lifecycle import LifecycleStage, determine_lifecycle_stage
 
 
 def sanitize_for_filename(name: str) -> str:
@@ -86,31 +87,20 @@ def _get_project_urls(project_name: str) -> dict:
 def _determine_lifecycle_stage(
     item_tracker: Optional[dict],
     research_data: Optional[dict],
+    tool_frontmatter: Optional[dict] = None,
 ) -> str:
     """
     Determine the lifecycle stage for a tool page:
-    1. 'approved': editorial_lock is True in research YAML.
+    1. 'approved': editorial_lock is True in research YAML or frontmatter.
     2. 'tech_writing': content task is completed in tracker.
     3. 'first_pass': research task is completed or research YAML file exists with data.
     4. 'initial': default initial seed state.
     """
-    if research_data and research_data.get("editorial_lock", False):
-        return "approved"
-
-    if item_tracker:
-        tasks = item_tracker.get("tasks", {})
-        content_task = tasks.get("content", {})
-        research_task = tasks.get("research", {})
-
-        if content_task.get("status") == "completed":
-            return "tech_writing"
-        if research_task.get("status") == "completed":
-            return "first_pass"
-
-    if research_data:
-        return "first_pass"
-
-    return "initial"
+    return determine_lifecycle_stage(
+        item_tracker=item_tracker,
+        research_data=research_data,
+        tool_frontmatter=tool_frontmatter,
+    ).value
 
 
 @lru_cache(maxsize=None)

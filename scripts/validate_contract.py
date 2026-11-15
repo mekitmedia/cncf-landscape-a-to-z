@@ -22,6 +22,73 @@ sys.path.insert(0, str(REPO_ROOT))
 
 from src.agentic.models import ResearchOutput
 from src.tracker.models import WeekTracker
+from src.tracker.lifecycle import (
+    LifecycleStage,
+    determine_lifecycle_stage,
+    validate_transition,
+    find_touched_tools,
+    get_tool_stage_at_git_ref,
+    get_tool_stage_in_working_tree,
+    sanitize_for_filename,
+)
+
+
+def validate_lifecycle_transitions(
+    diff_files: List[str],
+    ref: str,
+    repo_root: Path = REPO_ROOT,
+) -> List[Tuple[str, str, str, str, str]]:
+    """Validate that lifecycle stage transitions for all touched tools in diff_files are valid.
+
+    Returns:
+        List of (item_name, week_id, from_stage, to_stage, error_message)
+    """
+    errors: List[Tuple[str, str, str, str, str]] = []
+
+    # Check if git ref exists
+    try:
+        cmd = ["git", "rev-parse", "--verify", ref]
+        res = subprocess.run(cmd, capture_output=True, text=True, check=False, cwd=repo_root)
+        if res.returncode != 0:
+            print(f"Warning: Git ref '{ref}' could not be resolved. Skipping lifecycle transition check.", file=sys.stderr)
+            return []
+    except Exception as e:
+        print(f"Warning: Error resolving git ref '{ref}': {e}", file=sys.stderr)
+        return []
+
+    touched_tools = find_touched_tools(diff_files, repo_root=repo_root, ref=ref)
+    if not touched_tools:
+        return []
+
+    diff_file_set = set(diff_files)
+
+    for tool in touched_tools:
+        week_id = tool["week_id"]
+        item_name = tool["item_name"]
+        slug = tool["slug"]
+
+        from_stage = get_tool_stage_at_git_ref(ref, week_id, item_name, slug, repo_root)
+        to_stage = get_tool_stage_in_working_tree(week_id, item_name, slug, repo_root)
+
+        is_valid, msg = validate_transition(from_stage, to_stage, allow_same=True)
+        if not is_valid:
+            errors.append((item_name, week_id, from_stage.value, to_stage.value, msg))
+            continue
+
+        # Invariant check: In first_pass (research stage), tool page markdown must NOT be created
+        if to_stage == LifecycleStage.FIRST_PASS:
+            tool_page_rel = f"website/content/tools/{slug}.md"
+            if tool_page_rel in diff_file_set and (repo_root / tool_page_rel).is_file():
+                errors.append((
+                    item_name,
+                    week_id,
+                    from_stage.value,
+                    to_stage.value,
+                    f"Tool page markdown '{tool_page_rel}' cannot be created in 'first_pass' (research stage). "
+                    f"Tool page creation belongs to the subsequent 'tech_writing' stage in a follow-up PR.",
+                ))
+
+    return errors
 
 
 def get_git_diff_files(ref: str) -> List[str]:
@@ -132,10 +199,11 @@ def main():
     args = parser.parse_args()
 
     files_to_check: List[str] = list(args.files)
+    raw_diff_files: List[str] = []
 
     if args.git_diff:
-        diff_files = get_git_diff_files(args.git_diff)
-        files_to_check.extend(diff_files)
+        raw_diff_files = get_git_diff_files(args.git_diff)
+        files_to_check.extend(raw_diff_files)
 
     if args.week:
         week_pattern = f"data/weeks/{args.week}"
@@ -155,32 +223,48 @@ def main():
 
     research_files, tracker_files, post_files = filter_target_files(files_to_check, must_exist=True)
 
+    lifecycle_errors: List[Tuple[str, str, str, str, str]] = []
+    if args.git_diff and raw_diff_files:
+        print(f"Contract Validator: Validating lifecycle state transitions against '{args.git_diff}'...")
+        lifecycle_errors = validate_lifecycle_transitions(raw_diff_files, ref=args.git_diff, repo_root=REPO_ROOT)
+
     total_files = len(research_files) + len(tracker_files) + len(post_files)
-    if total_files == 0:
+    if total_files == 0 and not lifecycle_errors:
         print("Contract Validator: No research, tracker, or post files to check.")
         sys.exit(0)
 
-    print(f"Contract Validator: Validating {total_files} file(s) ({len(research_files)} research, {len(tracker_files)} tracker, {len(post_files)} posts)...")
-
     errors: List[Tuple[str, str]] = []
 
-    # Validate research files
-    for rf in research_files:
-        ok, err = validate_research_file(rf)
-        if not ok:
-            errors.append((str(rf), err))
+    if total_files > 0:
+        print(f"Contract Validator: Validating {total_files} file(s) ({len(research_files)} research, {len(tracker_files)} tracker, {len(post_files)} posts)...")
 
-    # Validate tracker files
-    for tf in tracker_files:
-        ok, err = validate_tracker_file(tf)
-        if not ok:
-            errors.append((str(tf), err))
+        # Validate research files
+        for rf in research_files:
+            ok, err = validate_research_file(rf)
+            if not ok:
+                errors.append((str(rf), err))
 
-    # Validate blog post files
-    for pf in post_files:
-        ok, err = validate_blog_post_file(pf)
-        if not ok:
-            errors.append((str(pf), err))
+        # Validate tracker files
+        for tf in tracker_files:
+            ok, err = validate_tracker_file(tf)
+            if not ok:
+                errors.append((str(tf), err))
+
+        # Validate blog post files
+        for pf in post_files:
+            ok, err = validate_blog_post_file(pf)
+            if not ok:
+                errors.append((str(pf), err))
+
+    has_failures = bool(errors or lifecycle_errors)
+
+    if lifecycle_errors:
+        print("\n❌ LIFECYCLE TRANSITION FAILURES:")
+        for item_name, week_id, from_st, to_st, msg in lifecycle_errors:
+            print(f"\n- Tool: {item_name} (Week {week_id})")
+            print(f"  Transition: {from_st} ➔ {to_st}")
+            print(f"  Error Details: {msg}")
+            print("  Fix Guidance: Ensure lifecycle steps are not skipped. Complete 'first_pass' research in an initial PR, then generate content in 'tech_writing' in a subsequent PR.")
 
     if errors:
         print("\n❌ CONTRACT VALIDATION FAILURES:")
@@ -189,10 +273,12 @@ def main():
             print(f"  Error Details: {err_msg}")
             print("  Fix Guidance: Ensure the file fields match the Pydantic schema defined in src/agentic/models.py and .agents/skills/cncf-weekly-content/SKILL.md.")
 
-        print(f"\nTotal Errors: {len(errors)} / {total_files} files checked.")
+    if has_failures:
+        total_errs = len(errors) + len(lifecycle_errors)
+        print(f"\nTotal Errors: {total_errs} (Schema: {len(errors)}, Lifecycle: {len(lifecycle_errors)}).")
         sys.exit(1)
 
-    print(f"✅ Contract Validator: All {total_files} file(s) passed Pydantic contract validation successfully!")
+    print(f"✅ Contract Validator: Passed all Pydantic schema and lifecycle transition checks successfully!")
     sys.exit(0)
 
 

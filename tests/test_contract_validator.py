@@ -11,6 +11,7 @@ from scripts.validate_contract import (
     validate_tracker_file,
     validate_blog_post_file,
     filter_target_files,
+    validate_lifecycle_transitions,
 )
 
 
@@ -111,3 +112,88 @@ def test_validate_blog_post_file_crlf_valid(tmp_path: Path):
         f.write(content.encode("utf-8"))
     ok, err = validate_blog_post_file(post_file)
     assert ok is True, f"Failed: {err}"
+
+
+def test_validate_lifecycle_transitions_skip_error(tmp_path: Path, monkeypatch):
+    from unittest.mock import patch
+    from src.tracker.lifecycle import LifecycleStage
+
+    # Mock git ref verification
+    with patch("scripts.validate_contract.subprocess.run") as mock_run:
+        mock_run.return_value.returncode = 0
+
+        # Mock git show helper to return INITIAL stage for "keep"
+        with patch("scripts.validate_contract.get_tool_stage_at_git_ref", return_value=LifecycleStage.INITIAL):
+            # Mock working tree to return TECH_WRITING
+            with patch("scripts.validate_contract.get_tool_stage_in_working_tree", return_value=LifecycleStage.TECH_WRITING):
+                diff_files = [
+                    "data/weeks/10-K/research/keep.yaml",
+                    "data/weeks/10-K/tracker.yaml",
+                    "website/content/tools/keep.md",
+                ]
+
+                # Mock find_touched_tools
+                with patch("scripts.validate_contract.find_touched_tools") as mock_find:
+                    mock_find.return_value = [
+                        {"week_id": "10-K", "item_name": "Keep", "slug": "keep"}
+                    ]
+
+                    errs = validate_lifecycle_transitions(diff_files, ref="origin/main", repo_root=tmp_path)
+                    assert len(errs) == 1
+                    item_name, week_id, from_st, to_st, msg = errs[0]
+                    assert item_name == "Keep"
+                    assert from_st == "initial"
+                    assert to_st == "tech_writing"
+                    assert "Illegal lifecycle skip" in msg
+
+
+def test_validate_lifecycle_transitions_valid_first_pass(tmp_path: Path):
+    from unittest.mock import patch
+    from src.tracker.lifecycle import LifecycleStage
+
+    with patch("scripts.validate_contract.subprocess.run") as mock_run:
+        mock_run.return_value.returncode = 0
+
+        with patch("scripts.validate_contract.get_tool_stage_at_git_ref", return_value=LifecycleStage.INITIAL):
+            with patch("scripts.validate_contract.get_tool_stage_in_working_tree", return_value=LifecycleStage.FIRST_PASS):
+                diff_files = [
+                    "data/weeks/10-K/research/keep.yaml",
+                    "data/weeks/10-K/tracker.yaml",
+                ]
+
+                with patch("scripts.validate_contract.find_touched_tools") as mock_find:
+                    mock_find.return_value = [
+                        {"week_id": "10-K", "item_name": "Keep", "slug": "keep"}
+                    ]
+
+                    errs = validate_lifecycle_transitions(diff_files, ref="origin/main", repo_root=tmp_path)
+                    assert len(errs) == 0
+
+
+def test_validate_lifecycle_transitions_first_pass_with_markdown_rejected(tmp_path: Path):
+    from unittest.mock import patch
+    from src.tracker.lifecycle import LifecycleStage
+
+    # Create dummy markdown file in tmp_path
+    tool_page = tmp_path / "website" / "content" / "tools" / "keep.md"
+    tool_page.parent.mkdir(parents=True, exist_ok=True)
+    tool_page.write_text("---\ntitle: Keep\n---\n", encoding="utf-8")
+
+    with patch("scripts.validate_contract.subprocess.run") as mock_run:
+        mock_run.return_value.returncode = 0
+
+        with patch("scripts.validate_contract.get_tool_stage_at_git_ref", return_value=LifecycleStage.INITIAL):
+            with patch("scripts.validate_contract.get_tool_stage_in_working_tree", return_value=LifecycleStage.FIRST_PASS):
+                diff_files = [
+                    "data/weeks/10-K/research/keep.yaml",
+                    "website/content/tools/keep.md",
+                ]
+
+                with patch("scripts.validate_contract.find_touched_tools") as mock_find:
+                    mock_find.return_value = [
+                        {"week_id": "10-K", "item_name": "Keep", "slug": "keep"}
+                    ]
+
+                    errs = validate_lifecycle_transitions(diff_files, ref="origin/main", repo_root=tmp_path)
+                    assert len(errs) == 1
+                    assert "Tool page markdown 'website/content/tools/keep.md' cannot be created in 'first_pass'" in errs[0][4]

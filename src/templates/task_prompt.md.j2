@@ -1,6 +1,6 @@
-# CNCF Project Task: {{ task.project_name }}{% if task.reason %} (Ad-hoc Priority: {{ task.reason }}){% endif %}
+# CNCF Project Task: {{ task.project_name }} (Stage: {{ task.target_stage }}){% if task.reason %} (Ad-hoc Priority: {{ task.reason }}){% endif %}
 
-**Task Mission:** {% if task.is_refresh %}Refresh and update{% else %}Research and create{% endif %} content for `{{ task.project_name }}` in week `{{ task.week_letter }}` (`{{ task.week_id }}`).
+**Lifecycle Transition:** Transition `{{ task.project_name }}` from `{{ task.current_stage }}` to `{{ task.target_stage }}` in week `{{ task.week_letter }}` (`{{ task.week_id }}`).
 
 ### Project Metadata
 - **Project Name:** {{ task.project_name }}
@@ -10,15 +10,23 @@
 {% if task.repo_url %}- **Repository:** {{ task.repo_url }}
 {% endif %}{% if task.homepage_url %}- **Homepage:** {{ task.homepage_url }}
 {% endif %}
-### Required Actions (Vertical Slice)
-1. **Research Project:**
-   Gather verified project details (summary, key features, recent updates, use cases, getting started).
-   Write or update structured research YAML at:
+- **Current Lifecycle Stage:** `{{ task.current_stage }}`
+- **Target Lifecycle Stage:** `{{ task.target_stage }}`
+
+{% if task.target_stage == "first_pass" %}
+### Required Actions (Stage 1: First-Pass Research)
+
+1. **Research Project & Gather Sources:**
+   Gather verified project details and exact verbatim source quotes from the official repository and documentation.
+   Write or enrich structured research YAML at:
    `{{ task.research_file }}`
 
    Schema:
    ```yaml
    project_name: "{{ task.project_name }}"
+   homepage_url: "{{ task.homepage_url or '' }}"
+   repo_url: "{{ task.repo_url or '' }}"
+   cncf_status: "{{ task.cncf_status }}"
    summary: ""
    key_features:
      - ""
@@ -28,21 +36,63 @@
    get_started: ""
    related_tools:
      - ""
+   sources:
+     - id: "src_readme"
+       title: "GitHub README"
+       url: "{{ task.repo_url or '' }}"
+       source_type: "github_readme"
+       quotes:
+         - "Verbatim excerpt from official source grounding summary/features"
+   last_researched_at: "<ISO 8601 UTC>"
+   research_version: 1
    ```
 
-2. **Generate Hugo Tool Page:**
-   Generate or update the tool markdown page at:
-   `{{ task.tool_page_file }}`
-   (You can run `uv run python -m src.pipeline.tool_pages` or create it with frontmatter containing the research fields).
-
-3. **Update Week Tracker:**
-   In `{{ task.tracker_file }}`, locate `{{ task.project_name }}` and ensure:
+2. **Update Week Tracker (Research Task Only):**
+   In `{{ task.tracker_file }}`, locate `{{ task.project_name }}` and update ONLY the research task:
    - `tasks.research.status: completed`
    - `tasks.research.output_file: {{ task.research_file }}`
+   - `tasks.research.completed_at: <ISO 8601 UTC>`
+   - **Leave `tasks.content.status: pending`** (do NOT mark completed).
+
+### Strict Guardrails (First Pass)
+- **DO NOT generate or create the Hugo tool page (`{{ task.tool_page_file }}`) in this PR.**
+- **DO NOT mark `tasks.content` completed in the tracker.**
+- CI enforces strict single-step lifecycle transitions (`initial -> first_pass`). Any PR attempting to skip directly to `tech_writing` or creating `{{ task.tool_page_file }}` will be blocked by `validate_contract.py`.
+- Deliver ONLY the research YAML and the tracker research task update in this PR.
+
+{% elif task.target_stage == "tech_writing" %}
+### Required Actions (Stage 2: Technical Writing)
+
+1. **Generate Hugo Tool Page:**
+   Read verified research details from:
+   `{{ task.research_file }}`
+   Generate or update the tool markdown page at:
+   `{{ task.tool_page_file }}`
+   (You can run `uv run python -m src.pipeline.tool_pages` or author the markdown file with frontmatter having `lifecycle_stage: tech_writing`).
+
+2. **Update Week Tracker (Content Task):**
+   In `{{ task.tracker_file }}`, locate `{{ task.project_name }}`:
    - `tasks.content.status: completed`
    - `tasks.content.output_file: {{ task.tool_page_file }}`
-   - Update `completed_at` timestamps to ISO 8601 UTC.
+   - `tasks.content.completed_at: <ISO 8601 UTC>`
 
-### Guardrails
-- Do not hallucinate; use verifiable facts from the project repository and documentation.
-- Deliver both the research YAML and Hugo tool markdown file in a single reviewable PR.
+### Strict Guardrails (Tech Writing)
+- Ground all narrative content in the verified research YAML notes.
+- This PR transitions `{{ task.project_name }}` from `first_pass` to `tech_writing`.
+- Deliver the Hugo tool markdown page and tracker content task update in this PR.
+
+{% elif task.target_stage == "approved" %}
+### Required Actions (Stage 3: Editorial Governance & Approval)
+
+1. **Verify Source Grounding:**
+   Verify source quotes and normalization:
+   `uv run python scripts/validate_grounding.py {{ task.research_file }}`
+
+2. **Apply Editorial Lock:**
+   Set `editorial_lock: true` in:
+   `{{ task.research_file }}`
+   In `{{ task.tool_page_file }}`, ensure frontmatter has `lifecycle_stage: approved`.
+
+### Strict Guardrails (Editorial Approval)
+- This PR transitions `{{ task.project_name }}` from `tech_writing` to `approved`.
+{% endif %}
