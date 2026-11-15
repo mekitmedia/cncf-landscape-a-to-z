@@ -13,7 +13,7 @@ Rather than configuring individual agents or scheduled GitHub Actions from scrat
 ```mermaid
 graph TD
     subgraph GitOps["GitOps Reconciler (Flux or kubectl)"]
-        GitRepo["Git Repository (mekitmedia/cncf-landscape-a-to-z)"] --> Kustomize["k8s/kubeopencode/"]
+        GitRepo["Git Repository (mekitmedia/cncf-landscape-a-to-z)"] --> Kustomize[".kubeopencode/"]
     end
 
     subgraph KubeOpenCode["Kubernetes Cluster (KubeOpenCode Controller)"]
@@ -38,16 +38,14 @@ graph TD
 ## Directory Structure
 
 ```
-k8s/
-├── kustomization.yaml                               # Root kustomization entrypoint
-└── kubeopencode/
-    ├── kustomization.yaml                           # Component kustomization aggregating all resources
-    ├── agent-template.yaml                          # Shared base template for the CNCF Landscape project
-    ├── agents.yaml                                  # Persistent or live agent definitions
-    ├── crontask-project-research.yaml               # CNCF Landscape project research task (daily)
-    ├── crontask-compass-audit.yaml                  # Compass alignment and backlog audit task
-    ├── crontask-palette-review.yaml                 # Palette UI/UX and accessibility review task
-    └── crontask-engineering-maintenance.yaml        # Engineering codebase maintenance task
+.kubeopencode/
+├── kustomization.yaml                               # Component kustomization aggregating all resources
+├── agent-template.yaml                              # Shared base template for the CNCF Landscape project
+├── agents.yaml                                      # Persistent or live agent definitions
+├── crontask-project-research.yaml                   # CNCF Landscape project research task (daily)
+├── crontask-compass-audit.yaml                      # Compass alignment and backlog audit task
+├── crontask-palette-review.yaml                     # Palette UI/UX and accessibility review task
+└── crontask-engineering-maintenance.yaml            # Engineering codebase maintenance task
 ```
 
 ---
@@ -60,10 +58,7 @@ You can apply the building blocks directly to any cluster running KubeOpenCode:
 
 ```bash
 # Apply all KubeOpenCode building blocks
-kubectl apply -k k8s/kubeopencode/
-
-# Or via the root k8s folder
-kubectl apply -k k8s/
+kubectl apply -k .kubeopencode/
 ```
 
 ### 2. GitOps Reconciliation via Flux
@@ -89,7 +84,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 10m
-  path: ./k8s/kubeopencode
+  path: ./.kubeopencode
   prune: true
   sourceRef:
     kind: GitRepository
