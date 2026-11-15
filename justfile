@@ -97,6 +97,20 @@ test:
 validate week="" ref="":
     @uv run python scripts/validate_contract.py {{ if week != "" { "--week " + week } else if ref != "" { "--git-diff " + ref } else { "--git-diff origin/main" } }}
 
+# Validate verifiable source grounding on research YAML files
+grounding file="":
+    @uv run python scripts/validate_grounding.py {{ if file != "" { file } else { "--all-files" } }}
+
+# Synchronize prompt templates across agent skill harnesses
+sync-prompts:
+    @uv run python scripts/sync_prompts.py
+
+# Run all pre-flight validations (contracts, grounding, tests)
+check:
+    @just validate
+    @just grounding
+    @just test
+
 # Run e2e tests (headless)
 e2e:
     npx playwright test
