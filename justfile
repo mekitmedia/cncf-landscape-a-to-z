@@ -74,7 +74,7 @@ models:
 
 # Generate tool pages from research
 tools:
-    just _run uv run python -m src.pipeline.tool_pages
+    uv run python -m src.pipeline.tool_pages
 
 
 # Draw a task from ad-hoc queue or weighted roulette
