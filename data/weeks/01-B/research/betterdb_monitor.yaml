@@ -1,0 +1,50 @@
+project_name: BetterDB Monitor
+homepage_url: https://betterdb.com
+repo_url: https://github.com/BetterDB-inc/monitor
+docs_url: https://betterdb.com/docs
+cncf_status: non-cncf
+latest_release:
+  version: v0.56.0
+  date: '2026-11-17T00:00:00Z'
+  release_notes_url: https://github.com/BetterDB-inc/monitor/releases/tag/v0.56.0
+summary: BetterDB Monitor is a real-time observability dashboard and telemetry layer
+  for Valkey, Redis, and Dragonfly that persists slowlogs, command patterns, client
+  activity, and anomaly signals for historical debugging.
+key_features:
+- Continuous telemetry persistence capturing slowlogs, client activities, and hot
+  key patterns that in-memory stores discard.
+- Native support across Valkey, Redis, and Dragonfly instances.
+- Standard Prometheus metrics exporter and OpenTelemetry (OTLP) tracing integration.
+- Real-time anomaly detection identifying throughput spikes, memory exhaustion, and
+  latency regressions.
+recent_updates: Release v0.56.0 provides enhanced Valkey 8 cluster topology visualization,
+  new query analysis filters, and reduced memory footprint.
+use_cases: Troubleshooting in-memory cache slowdowns, tracking Redis command regressions,
+  monitoring Valkey production clusters, and exporting OTLP metrics.
+ecosystem_perspectives:
+  strengths: Fills a major visibility void for Valkey and Redis operators by retaining
+    historical query execution traces without polling performance overhead.
+  considerations: Requires dedicated persistence storage to store historical performance
+    profiles over extended retention windows.
+  community_discussions:
+  - Gaining strong adoption among Valkey migrators looking for deep operational insights.
+interesting_facts: Created by a public benefit company operating under the principle
+  of empowering the open-source Valkey database community.
+get_started: Launch with Docker via docker run -d --name betterdb -p 3001:3001 betterdb/monitor:latest
+  and point the dashboard at your Valkey/Redis instance.
+related_tools:
+- Valkey
+- Redis
+- Prometheus
+sources:
+- id: src_readme
+  title: BetterDB Monitor GitHub README
+  url: https://github.com/BetterDB-inc/monitor
+  source_type: github_readme
+  quotes:
+  - BetterDB persists what Valkey throws away - slowlogs, command patterns, client
+    activity, anomaly signals, and audit trails - so you can fix production issues
+    instead of waiting for them to happen again.
+  - BetterDB Monitor is a monitoring dashboard for Valkey, Redis and Dragonfly that
+    persists slowlogs, command patterns and client activity for historical debugging,
+    exports Prometheus metrics and OTLP telemetry, and detects anomalies in real time.

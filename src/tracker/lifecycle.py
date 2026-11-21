@@ -26,6 +26,7 @@ def sanitize_for_filename(name: str) -> str:
     """Normalize a project name to snake_case filename slug."""
     s = name.strip().lower()
     s = s.replace(" ", "_")
+    s = s.replace(".", "_")
     s = _FILENAME_SANITIZE_PATTERN.sub("", s)
     return s
 

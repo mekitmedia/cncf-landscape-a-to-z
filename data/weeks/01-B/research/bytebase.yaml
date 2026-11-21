@@ -1,0 +1,53 @@
+project_name: Bytebase
+homepage_url: https://www.bytebase.com/
+repo_url: https://github.com/bytebase/bytebase
+docs_url: https://docs.bytebase.com
+cncf_status: non-cncf
+latest_release:
+  version: 3.25.0
+  date: '2026-11-19T00:00:00Z'
+  release_notes_url: https://github.com/bytebase/bytebase/releases/tag/3.25.0
+summary: Bytebase is an open-source database governance and CI/CD platform providing
+  a unified control plane for schema migrations, database change reviews, and data
+  access policies across heterogeneous database fleets.
+key_features:
+- Unified Database CI/CD automating schema change migrations with automated reviews,
+  linting, and rollback generation.
+- Broad database support across MySQL, PostgreSQL, Oracle, SQL Server, Snowflake,
+  ClickHouse, TiDB, and Spanner.
+- GitOps integration syncing database schema definitions with GitHub, GitLab, and
+  Bitbucket repositories.
+- Centralized data masking, SQL editor with RBAC, and granular audit logging for security
+  compliance.
+recent_updates: Release 3.25.0 brings expanded SQL linting rules for PostgreSQL 17,
+  enhanced multi-tenant schema sync, and improved database backup verification.
+use_cases: Automating safe database schema migrations, enforcing enterprise DBA review
+  workflows, eliminating rogue direct production SQL updates, and complying with SOC2/HIPAA
+  audit requirements.
+ecosystem_perspectives:
+  strengths: Treats database changes with the same rigor and GitOps discipline as
+    application code, solving one of the most persistent bottlenecks in DevOps.
+  considerations: Team adoption requires shifting DBA and developer collaboration
+    from ad-hoc SQL execution to structured GitOps reviews.
+  community_discussions:
+  - Universally acclaimed by platform engineering teams aiming to bring database migrations
+    into standard CI/CD pipelines.
+interesting_facts: Founded by former Google Cloud Database and ex-Ant Group engineers
+  to bring modern software engineering workflows to database administration.
+get_started: Run Bytebase locally in a single command using docker run -d --name bytebase
+  -p 8080:8080 bytebase/bytebase:latest and visit http://localhost:8080.
+related_tools:
+- Liquibase
+- Flyway
+- Atlas
+sources:
+- id: src_readme
+  title: Bytebase GitHub README
+  url: https://github.com/bytebase/bytebase
+  source_type: github_readme
+  quotes:
+  - Bytebase is the open-source database governance platform. It acts as a single
+    control plane between the engineering team and database infrastructure.
+  - It replaces the disparate tools stitched across migration scripts, SQL clients,
+    and ticketing systems with a single platform to manage the complete database development
+    lifecycle (DDLC).

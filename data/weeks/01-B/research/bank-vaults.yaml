@@ -1,0 +1,48 @@
+project_name: Bank-Vaults
+homepage_url: https://bank-vaults.dev/
+repo_url: https://github.com/bank-vaults/bank-vaults
+docs_url: https://bank-vaults.dev/docs/
+cncf_status: sandbox
+latest_release:
+  version: v1.33.2
+  date: '2026-10-15T00:00:00Z'
+  release_notes_url: https://github.com/bank-vaults/bank-vaults/releases/tag/v1.33.2
+summary: Bank-Vaults is a comprehensive CLI tool and suite of components designed
+  to simplify the operation, unsealing, configuration, and secret management of HashiCorp
+  Vault in cloud-native environments.
+key_features:
+- Automated Vault initialization and multi-cloud KMS unsealing across AWS, Azure,
+  GCP, Alibaba, and Kubernetes secrets.
+- Automatic external configuration management for Vault auth methods, secret engines,
+  and policies.
+- Direct secret injection into Kubernetes pods using mutating webhook admission controllers.
+- Go client library with automatic token renewal and dynamic credential management.
+recent_updates: Release v1.33.2 adds compatibility updates for recent HashiCorp Vault
+  releases and updated Kubernetes client dependencies.
+use_cases: Automating production Vault deployment and disaster recovery on Kubernetes,
+  zero-touch unsealing, and seamless pod secret injection without sidecars.
+ecosystem_perspectives:
+  strengths: The practitioner-favorite CNCF Sandbox operator for HashiCorp Vault,
+    drastically reducing Vault day-2 operational friction.
+  considerations: Requires careful management of webhook admission controllers and
+    KMS permissions in multi-cluster environments.
+  community_discussions:
+  - Celebrated for enabling completely hands-off Vault automated unsealing and config-as-code.
+interesting_facts: Originally created by Banzai Cloud and subsequently donated to
+  the CNCF as a vendor-neutral sandbox project.
+get_started: Install the bank-vaults CLI via Homebrew or deploy the Bank-Vaults Kubernetes
+  operator using Helm.
+related_tools:
+- HashiCorp Vault
+- External Secrets Operator
+- Cert-Manager
+sources:
+- id: src_readme
+  title: Bank-Vaults GitHub README
+  url: https://github.com/bank-vaults/bank-vaults
+  source_type: github_readme
+  quotes:
+  - 'Bank-Vaults is a Vault swiss-army knife: a K8s operator, Go client with automatic
+    token renewal, automatic configuration, multiple unseal options and more. A CLI
+    tool to init, unseal and configure Vault (auth methods, secret engines). Direct
+    secret injection into Pods.'

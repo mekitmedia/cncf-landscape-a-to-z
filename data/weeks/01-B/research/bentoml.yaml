@@ -1,0 +1,51 @@
+project_name: BentoML
+homepage_url: https://bentoml.com
+repo_url: https://github.com/bentoml/BentoML
+docs_url: https://docs.bentoml.com
+cncf_status: non-cncf
+latest_release:
+  version: v1.4.40
+  date: '2026-11-19T00:00:00Z'
+  release_notes_url: https://github.com/bentoml/BentoML/releases/tag/v1.4.40
+summary: BentoML is a unified open-source model serving framework for building production-grade
+  AI inference APIs and multi-model serving architectures with any open-source or
+  custom AI model.
+key_features:
+- Framework-agnostic serving supporting PyTorch, TensorFlow, Scikit-learn, Hugging
+  Face Transformers, and vLLM.
+- Multi-model pipeline composition allowing complex LLM and multimodal orchestration
+  on specialized hardware.
+- Adaptive batching and streaming response optimization for high-throughput and low-latency
+  inference.
+- Standardized self-contained packaging format (Bento) with auto-generated container
+  images.
+recent_updates: Release v1.4.40 brings optimizations for distributed LLM inference
+  engines, improved streaming token throughput, and updated Python SDK interfaces.
+use_cases: Productionizing machine learning models, deploying high-throughput LLM
+  APIs, building real-time vision pipelines, and serverless AI inference.
+ecosystem_perspectives:
+  strengths: Bridges the gap between data science experimentation and cloud-native
+    deployment with an elegant Python-first decorator API.
+  considerations: Requires architectural planning when orchestrating massive multi-node
+    distributed model pipelines.
+  community_discussions:
+  - Heavily utilized across AI teams wanting production-grade inference without learning
+    complex Kubernetes CRDs.
+interesting_facts: The name Bento comes from the Japanese lunchbox, reflecting the
+  philosophy of packing all model weights, code, and environment dependencies into
+  a single neat container.
+get_started: Install with pip install bentoml, define a service in Python using the
+  `@bentoml.service` decorator, and serve locally with bentoml serve.
+related_tools:
+- vLLM
+- Triton Inference Server
+- Ray Serve
+sources:
+- id: src_readme
+  title: BentoML GitHub README
+  url: https://github.com/bentoml/BentoML
+  source_type: github_readme
+  quotes:
+  - Build model inference APIs and multi-model serving systems with any open-source
+    or custom AI models.
+  - Unified Model Serving Framework

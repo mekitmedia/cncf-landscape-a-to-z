@@ -1,0 +1,49 @@
+project_name: BunkerWeb
+homepage_url: https://www.bunkerweb.io/
+repo_url: https://github.com/bunkerity/bunkerweb
+docs_url: https://docs.bunkerweb.io/
+cncf_status: non-cncf
+latest_release:
+  version: v1.6.18
+  date: '2026-11-16T00:00:00Z'
+  release_notes_url: https://github.com/bunkerity/bunkerweb/releases/tag/v1.6.18
+summary: BunkerWeb is an open-source next-generation Web Application Firewall (WAF/WAAP),
+  reverse proxy, ingress controller, and API gateway designed to make web security
+  accessible and robust by default.
+key_features:
+- Next-Generation Web Application Firewall (WAF) protecting against OWASP Top 10,
+  bots, and zero-day vulnerabilities.
+- Versatile deployment models as a standalone Linux service, Docker container, Swarm
+  service, or Kubernetes Ingress Controller.
+- Automated SSL/TLS certificate management via Let's Encrypt integration.
+- Extensive security integrations including ModSecurity, Coraza, CrowdSec, bad bot
+  detection, and anti-DDoS mitigations.
+recent_updates: Release v1.6.18 brings updated security rule sets, performance tuning
+  in the Coraza WAF engine, and enhanced Kubernetes ingress controller compatibility.
+use_cases: Securing public web applications and APIs, replacing legacy WAF appliances
+  with cloud-native containers, automated bot mitigation, and SSL termination.
+ecosystem_perspectives:
+  strengths: Combines high-performance reverse proxy routing with an exceptionally
+    comprehensive 'secure by default' suite of defensive plugins.
+  considerations: Requires careful testing in staging environments to tune false-positive
+    thresholds on complex enterprise API endpoints.
+  community_discussions:
+  - Popular among DevOps engineers for its out-of-the-box hardening and clean Web
+    UI / CLI management.
+interesting_facts: The project champions the motto 'Make security by default great
+  again!' and integrates seamlessly with both ModSecurity and the Coraza Go WAF engine.
+get_started: Deploy BunkerWeb using Docker via docker run -d --name bunkerweb -p 80:80
+  -p 443:443 bunkerity/bunkerweb:latest or deploy via Helm on Kubernetes.
+related_tools:
+- Coraza
+- ModSecurity
+- Traefik
+sources:
+- id: src_readme
+  title: BunkerWeb GitHub README
+  url: https://github.com/bunkerity/bunkerweb
+  source_type: github_readme
+  quotes:
+  - BunkerWeb is a next-generation, open-source Web Application Firewall (WAF/WAAP),
+    reverse proxy, ingress controller, and API gateway controller.
+  - Make security by default great again!

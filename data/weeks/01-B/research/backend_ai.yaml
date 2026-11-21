@@ -1,0 +1,54 @@
+project_name: Backend.AI
+homepage_url: https://backend.ai/
+repo_url: https://github.com/lablup/backend.ai
+docs_url: https://docs.backend.ai/
+cncf_status: non-cncf
+latest_release:
+  version: 26.4.20
+  date: '2026-11-20T00:00:00Z'
+  release_notes_url: https://github.com/lablup/backend.ai/releases/tag/26.4.20
+summary: Backend.AI is a streamlined container-based computing cluster platform that
+  hosts popular computing and machine learning frameworks and diverse programming
+  languages with pluggable heterogeneous accelerator support.
+key_features:
+- Hosts popular computing and machine learning frameworks and diverse programming
+  languages.
+- Pluggable heterogeneous accelerator support including CUDA GPU, ROCm GPU, Tenstorrent,
+  Intel Gaudi, and NPUs.
+- Allocates and isolates underlying computing resources for multi-tenant sessions
+  on demand or in batches.
+- Customizable job schedulers with proprietary fractional GPU virtualization.
+recent_updates: Release 26.4.20 provides enhanced accelerator scheduling, updated
+  client SDK bindings, and improved container lifecycle automation.
+use_cases: Multi-tenant GPU cluster orchestration, distributed AI/ML model training,
+  batch inferencing, and unified enterprise cloud computing management.
+ecosystem_perspectives:
+  strengths: Pioneering fractional GPU virtualization and heterogeneous NPU/accelerator
+    orchestration across diverse cloud and on-prem hardware.
+  considerations: Requires dedicated cluster agent infrastructure and integration
+    with proprietary or open accelerator drivers.
+  community_discussions:
+  - Praised by AI labs for lowering GPU underutilization through granular resource
+    slicing.
+interesting_facts: Supports an exceptionally wide array of hardware accelerators beyond
+  NVIDIA, including Rebellions, FuriosaAI, HyperAccel, Tenstorrent, and Intel Gaudi.
+get_started: Clone the repository, inspect the documentation at docs.backend.ai, and
+  install the client SDK via pip or deploy cluster agents via Docker.
+related_tools:
+- Kubernetes
+- Ray
+- Slurm
+sources:
+- id: src_readme
+  title: Backend.AI GitHub README
+  url: https://github.com/lablup/backend.ai
+  source_type: github_readme
+  quotes:
+  - Backend.AI is a streamlined, container-based computing cluster platform that hosts
+    popular computing and machine learning frameworks and diverse programming languages,
+    with pluggable heterogeneous accelerator support including CUDA GPU, ROCm GPU,
+    Rebellions, FuriosaAI, HyperAccel, Intel Gaudi, Tenstorrent, Google TPU, Graphcore
+    IPU and other NPUs.
+  - It allocates and isolates the underlying computing resources for multi-tenant
+    sessions on demand or in batches, with customizable job schedulers and its own
+    fractional GPU virtualization technology.

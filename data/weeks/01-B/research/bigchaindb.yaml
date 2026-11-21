@@ -1,0 +1,44 @@
+project_name: BigchainDB
+homepage_url: https://www.bigchaindb.com/
+repo_url: https://github.com/bigchaindb/bigchaindb
+docs_url: https://bigchaindb.com/developers/
+cncf_status: non-cncf
+latest_release:
+  version: v2.2.2
+  date: '2026-05-10T00:00:00Z'
+  release_notes_url: https://github.com/bigchaindb/bigchaindb/releases/tag/v2.2.2
+summary: BigchainDB is a scalable, decentralized blockchain database that merges the
+  immutability and asset governance of blockchains with the throughput and querying
+  power of distributed databases.
+key_features:
+- Immutable asset transfer and ownership lifecycle management.
+- Byzantine Fault Tolerant (BFT) consensus protocol via Tendermint integration.
+- High transaction throughput and linear scale-out architecture.
+- Rich metadata indexing and JSON document querying.
+recent_updates: Maintenance updates include Tendermint protocol synchronization, dependency
+  upgrades, and Docker deployment improvements.
+use_cases: Decentralized supply chain tracking, intellectual property digital provenance,
+  public data audit trails, and tokenized asset registries.
+ecosystem_perspectives:
+  strengths: Provides database-like query latency and document flexibility while maintaining
+    decentralized cryptographic consensus.
+  considerations: Project development has stabilized into maintenance mode; evaluate
+    against newer decentralized storage engines for new architectures.
+  community_discussions:
+  - Historically pioneering as one of the first systems to bridge traditional databases
+    with blockchain immutability.
+interesting_facts: Combines a distributed key-value store (MongoDB) with the Tendermint
+  consensus engine to achieve Byzantine fault tolerance at database speeds.
+get_started: Run BigchainDB with Tendermint using the official docker-compose stack
+  and connect using the Python or JavaScript driver.
+related_tools:
+- Tendermint
+- IPFS
+- MongoDB
+sources:
+- id: src_readme
+  title: BigchainDB GitHub README
+  url: https://github.com/bigchaindb/bigchaindb
+  source_type: github_readme
+  quotes:
+  - 'BigchainDB: The Blockchain Database'
