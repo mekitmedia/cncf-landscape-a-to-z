@@ -8,7 +8,7 @@ description: Arks is an end-to-end framework for managing LLM-based applications
 homepage_url: https://www.scitix.ai
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Arks
 repo_url: https://github.com/scitix/arks
 status: completed
@@ -44,9 +44,7 @@ Deploying enterprise AI agent platforms, private LLM inference clusters, and mul
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Deploy Arks operator onto GPU-enabled Kubernetes clusters from `github.com/scitix/arks`.
-```
 {{< /callout >}}
 
 

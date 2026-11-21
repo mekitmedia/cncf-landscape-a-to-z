@@ -9,7 +9,7 @@ description: Apicurio Registry is an open-source registry for API and schema art
 homepage_url: https://www.apicur.io
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Apicurio Registry
 repo_url: https://github.com/Apicurio/apicurio-registry
 status: completed
@@ -45,9 +45,7 @@ Managing schema evolution in event-driven Kafka architectures and governing ente
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Run via Docker: `docker run -it -p 8080:8080 apicurio/apicurio-registry-mem:latest`.
-```
 {{< /callout >}}
 
 

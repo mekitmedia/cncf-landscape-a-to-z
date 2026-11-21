@@ -40,9 +40,7 @@ Ideal for applications requiring high-performance graph traversal, complex relat
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Get started for free using Neo4j Aura at https://console.neo4j.io, or download the standalone server from https://neo4j.com/deployment-center.
-```
 {{< /callout >}}
 
 

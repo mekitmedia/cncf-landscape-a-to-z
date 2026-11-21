@@ -55,9 +55,7 @@ Developers use Cedar to separate authorization policies from business logic, ens
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 To get started, depend on the `cedar-policy` crate by running `cargo add cedar-policy`. You can also use the CLI to interact with Cedar.
-```
 {{< /callout >}}
 
 

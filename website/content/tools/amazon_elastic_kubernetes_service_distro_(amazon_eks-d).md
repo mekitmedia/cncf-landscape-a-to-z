@@ -7,7 +7,7 @@ description: Amazon Elastic Kubernetes Service Distro (Amazon EKS-D) is a Kubern
 homepage_url: https://aws.amazon.com/eks/eks-distro
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Amazon Elastic Kubernetes Service Distro (Amazon EKS-D)
 repo_url: https://github.com/aws/eks-distro
 status: completed
@@ -45,9 +45,7 @@ Creating reliable and secure Kubernetes clusters locally or on other infrastruct
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Full documentation for releases can be found on https://distro.eks.amazonaws.com. You can download the release manifests directly from the repository or website to deploy the specific Kubernetes versions.
-```
 {{< /callout >}}
 
 

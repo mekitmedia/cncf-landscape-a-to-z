@@ -46,10 +46,8 @@ Evaluating LLM applications, red teaming to identify vulnerabilities, comparing 
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 npm install -g promptfoo
 promptfoo init --example getting-started
-```
 {{< /callout >}}
 
 

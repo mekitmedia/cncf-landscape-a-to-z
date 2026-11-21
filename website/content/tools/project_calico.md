@@ -42,9 +42,7 @@ Container networking, network security, and advanced network policies for Kubern
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Check out the quickstart guide for Kubernetes at the project's documentation site.
-```
 {{< /callout >}}
 
 

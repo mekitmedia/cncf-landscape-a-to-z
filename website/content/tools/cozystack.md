@@ -46,9 +46,7 @@ Cozystack can be used to build a public cloud, a private cloud using an Infrastr
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Read the Getting Started section on cozystack.io for a quick start. It involves transforming your servers using the provided platform and REST API.
-```
 {{< /callout >}}
 
 

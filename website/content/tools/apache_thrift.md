@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:39.559833'
 homepage_url: https://thrift.apache.org/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Apache Thrift
 repo_url: https://github.com/apache/thrift
 status: completed
@@ -40,9 +40,7 @@ Inter-service communication across polyglot microservice fleets and backend data
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Define `.thrift` file, generate code via `thrift --gen py service.thrift`, and implement handlers.
-```
 {{< /callout >}}
 
 

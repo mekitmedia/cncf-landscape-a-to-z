@@ -41,9 +41,7 @@ Extract complex, nested data structures from natural language with automatic val
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Install Instructor via pip `pip install instructor`, define a Pydantic model for your data, and use `instructor.from_provider()` to extract structured data from any LLM.
-```
 {{< /callout >}}
 
 

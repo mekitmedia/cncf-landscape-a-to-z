@@ -6,7 +6,7 @@ description: An open-source, code-first Python toolkit for building, evaluating,
 homepage_url: https://google.github.io/adk-docs/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Agent Development Kit
 repo_url: https://github.com/google/adk-python
 status: completed
@@ -40,9 +40,7 @@ Developing enterprise-grade AI agents and integrating agentic workflows into exi
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Check the GitHub repository and documentation for quickstart guides.
-```
 {{< /callout >}}
 
 

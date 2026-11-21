@@ -6,7 +6,7 @@ description: Web-based notebook that enables data-driven, interactive data analy
 homepage_url: https://zeppelin.apache.org
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Apache Zeppelin
 repo_url: https://github.com/apache/zeppelin
 status: completed
@@ -42,9 +42,7 @@ Exploratory data analysis, collaborative SQL querying over data lakes, and ETL p
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Download binary, start via `./bin/zeppelin-daemon.sh start`, and navigate to `localhost:8080`.
-```
 {{< /callout >}}
 
 

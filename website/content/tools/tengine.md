@@ -46,9 +46,7 @@ Serving as a high-performance web server and reverse proxy, Kubernetes Ingress c
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 docker pull ghcr.io/alibaba/tengine:latest
-```
 {{< /callout >}}
 
 

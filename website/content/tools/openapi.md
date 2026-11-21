@@ -40,9 +40,7 @@ Use cases for machine-readable API definition documents include interactive docu
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Check out the list of current examples at https://learn.openapis.org/examples/ to see it in action, or find tools to create and present definitions.
-```
 {{< /callout >}}
 
 

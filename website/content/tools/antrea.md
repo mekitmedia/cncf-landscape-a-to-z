@@ -5,7 +5,7 @@ description: Kubernetes networking based on Open vSwitch
 homepage_url: https://antrea.io/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Antrea
 repo_url: https://github.com/antrea-io/antrea
 status: completed
@@ -41,9 +41,7 @@ Enterprise Kubernetes networking across heterogeneous Linux/Windows clusters wit
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Deploy Antrea on Kubernetes via official manifests: `kubectl apply -f https://github.com/antrea-io/antrea/releases/latest/download/antrea.yml`.
-```
 {{< /callout >}}
 
 

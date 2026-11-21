@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:38.788408'
 homepage_url: https://storm.apache.org/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Apache Storm
 repo_url: https://github.com/apache/storm
 status: completed
@@ -40,9 +40,7 @@ Real-time stream analytics, online machine learning scoring, and continuous ETL 
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Start Nimbus (`storm nimbus`) and Supervisor (`storm supervisor`) and submit topologies via `storm jar`.
-```
 {{< /callout >}}
 
 

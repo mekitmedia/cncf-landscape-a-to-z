@@ -5,7 +5,7 @@ description: Armada is a multi-Kubernetes cluster batch job scheduler
 homepage_url: https://armadaproject.io/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Armada
 repo_url: https://github.com/armadaproject/armada
 status: completed
@@ -43,9 +43,7 @@ High-Performance Computing (HPC) such as Machine Learning Training, Scientific C
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Users can try Armada locally by following the quickstart guide on the Armada project website.
-```
 {{< /callout >}}
 
 

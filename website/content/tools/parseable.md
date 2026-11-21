@@ -44,14 +44,12 @@ Sending logs, metrics, and traces via popular logging agents, OpenTelemetry, Kaf
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Download and run the Parseable binary on your laptop:
 
 ```bash
 curl -fsSL https://logg.ing/install | bash
 ```
 
-```
 {{< /callout >}}
 
 

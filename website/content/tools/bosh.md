@@ -38,9 +38,7 @@ Provision and deploy software over hundreds of VMs, particularly well-suited for
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 To bootstrap a new Bosh server from scratch, use the Bosh CLI with the `bosh create-env` command.
-```
 {{< /callout >}}
 
 

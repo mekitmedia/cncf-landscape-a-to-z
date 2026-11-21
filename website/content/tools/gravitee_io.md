@@ -40,9 +40,7 @@ Effortlessly manage the lifecycle of your APIs, control who, when, and how users
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Different ways to start using Gravitee APIM include Gravitee Cloud, Helm Chart, and docker-compose / make.
-```
 {{< /callout >}}
 
 

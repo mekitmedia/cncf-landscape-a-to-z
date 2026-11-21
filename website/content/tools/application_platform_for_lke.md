@@ -5,7 +5,7 @@ description: Application Platform for Linode Kubernetes Engine (LKE)
 homepage_url: https://apl-docs.net
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Application Platform for LKE
 repo_url: https://github.com/linode/apl-core
 status: completed
@@ -41,9 +41,7 @@ Accelerating developer onboarding and shipping microservices on Linode/Akamai cl
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Deploy APL core stack via Helm onto an LKE cluster and connect your Git repository.
-```
 {{< /callout >}}
 
 

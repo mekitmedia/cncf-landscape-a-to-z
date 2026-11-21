@@ -41,11 +41,9 @@ Customer support triage, e-commerce product categorization, parsing event detail
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Getting started with outlines is simple:
 
 pip install outlines
-```
 {{< /callout >}}
 
 

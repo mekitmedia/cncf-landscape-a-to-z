@@ -45,10 +45,8 @@ Treating physical servers like virtual machines in the cloud, providing bare met
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 For more information see the MAAS guide at https://maas.io/
 
-```
 {{< /callout >}}
 
 

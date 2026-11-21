@@ -42,9 +42,7 @@ Membrane can be used for proxying APIs, routing, rate limiting, load balancing, 
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Start Membrane via Docker: `docker run --rm -it -p 2000:2000 predic8/membrane`. To proxy your first API, create an `apis.yaml` and mount it: `docker run --rm -p 2000:2000 -v "$(pwd)/apis.yaml:/opt/membrane/conf/apis.yaml" predic8/membrane`.
-```
 {{< /callout >}}
 
 

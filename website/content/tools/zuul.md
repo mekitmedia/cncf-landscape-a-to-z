@@ -44,11 +44,9 @@ Maintaining evergreen builds by automatically merging changes only if they pass 
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 git clone https://opendev.org/zuul/zuul
 cd zuul/doc/source/examples
 docker compose -p zuul-tutorial up
-```
 {{< /callout >}}
 
 

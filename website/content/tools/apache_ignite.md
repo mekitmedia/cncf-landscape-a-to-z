@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:38.553104'
 homepage_url: https://ignite.apache.org
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Apache Ignite
 repo_url: https://github.com/apache/ignite
 status: completed
@@ -40,9 +40,7 @@ Real-time payment processing, low-latency financial risk analysis, and high-spee
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Launch a node via `./bin/ignite.sh` and connect using JDBC/ODBC or thin client SDKs.
-```
 {{< /callout >}}
 
 

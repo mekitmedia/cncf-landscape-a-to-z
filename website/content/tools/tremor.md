@@ -42,7 +42,6 @@ Applying traffic-shaping to a high volume of incoming events, distributing event
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 To run tremor locally and introspect its docker environment, do the following:
 
 make image
@@ -50,7 +49,6 @@ docker run tremorproject/tremor:latest
 
 Tremor is configured using .troy files written in our own Troy language.
 
-```
 {{< /callout >}}
 
 

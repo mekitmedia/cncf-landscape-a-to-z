@@ -38,9 +38,7 @@ Performing AI inference with OpenVINO models in WebAssembly environments, such a
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Check out the official WasmEdge documentation and the wasi-nn bindings repository to use WASI NN for OpenVINO.
-```
 {{< /callout >}}
 
 

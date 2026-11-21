@@ -47,12 +47,10 @@ Monitoring sensor data, server monitoring, application performance monitoring, n
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Start InfluxDB using Docker:
 
 docker run -p 8086:8086 -v influxdb2:/var/lib/influxdb2 influxdb:2.0
 
-```
 {{< /callout >}}
 
 

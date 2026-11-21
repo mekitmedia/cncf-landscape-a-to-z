@@ -42,11 +42,9 @@ You manage the same application across many environments (dev, staging, prod, re
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 git clone https://github.com/kapicorp/kapitan-reference.git kapitan-templates
 cd kapitan-templates
 ./kapitan compile
-```
 {{< /callout >}}
 
 

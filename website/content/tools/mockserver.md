@@ -46,10 +46,8 @@ Mocking and recording HTTP(S) dependencies, chaos testing applications, generati
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 brew install mockserver
 mockserver run --port 1080
-```
 {{< /callout >}}
 
 

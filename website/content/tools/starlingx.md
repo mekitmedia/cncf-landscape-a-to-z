@@ -43,9 +43,7 @@ Industrial IOT, telecom, video delivery and other ultra-low latency use cases.
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 To get started fast with StarlingX, try the Virtual All-in-one Simplex Installation , which requires a minimum of hardware and configuration.
-```
 {{< /callout >}}
 
 

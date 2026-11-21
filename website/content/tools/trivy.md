@@ -55,9 +55,7 @@ Scanning container images, filesystems, and git repositories for known vulnerabi
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 brew install trivy
-```
 {{< /callout >}}
 
 

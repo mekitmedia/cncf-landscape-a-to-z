@@ -38,14 +38,12 @@ Building resilient data pipelines that react to the world around them and recove
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Prefect requires Python 3.11+. To install the latest version, run:
 
 pip install -U prefect
 
 Then create and run a Python file that uses Prefect `flow` and `task` decorators.
 
-```
 {{< /callout >}}
 
 

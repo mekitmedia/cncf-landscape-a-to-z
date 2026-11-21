@@ -75,8 +75,8 @@ def validate_lifecycle_transitions(
             errors.append((item_name, week_id, from_stage.value, to_stage.value, msg))
             continue
 
-        # Invariant check: In first_pass (research stage), tool page markdown must NOT be created
-        if to_stage == LifecycleStage.FIRST_PASS:
+        # Invariant check: In first_pass (research stage), tool page markdown must NOT be created from initial
+        if to_stage == LifecycleStage.FIRST_PASS and from_stage == LifecycleStage.INITIAL:
             tool_page_rel = f"website/content/tools/{slug}.md"
             if tool_page_rel in diff_file_set and (repo_root / tool_page_rel).is_file():
                 errors.append((

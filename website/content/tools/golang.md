@@ -39,9 +39,7 @@ Building simple, reliable, and efficient software.
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Visit go.dev/doc/install for installation instructions after downloading a binary release.
-```
 {{< /callout >}}
 
 

@@ -40,9 +40,7 @@ Deploying and managing WebAssembly (Spin) applications natively within a Kuberne
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 To run a local development environment, use `k3d cluster create wasm-cluster` with the specified container image and install the CRDs using `make install`.
-```
 {{< /callout >}}
 
 

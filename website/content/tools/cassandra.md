@@ -38,9 +38,7 @@ Ideal for applications requiring massive scale, high availability, and no single
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Download the archive, extract it, and start the server using `bin/cassandra -f`. You can then interact with it using `bin/cqlsh`.
-```
 {{< /callout >}}
 
 

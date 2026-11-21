@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:39.653766'
 homepage_url: https://zookeeper.apache.org/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Apache Zookeeper
 repo_url: https://github.com/apache/zookeeper
 status: completed
@@ -40,9 +40,7 @@ Leader election in distributed databases, cluster membership tracking, and confi
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Configure `zoo.cfg`, start via `./bin/zkServer.sh start`, and test with `./bin/zkCli.sh`.
-```
 {{< /callout >}}
 
 

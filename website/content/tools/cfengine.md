@@ -34,14 +34,12 @@ Infrastructure automation, Security automation, and Compliance automation.
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 In order to use the built cf-agent in the source tree you must add a `$HOME/.cfagent/bin/cf-promises` file:
 
 $ pwd
 <something>/core
 $ echo "cd $(pwd); cf-promises/cf-promises \"$@\"" > ~/.cfagent/bin/cf-promises
 
-```
 {{< /callout >}}
 
 

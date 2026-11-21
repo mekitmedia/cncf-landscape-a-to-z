@@ -7,7 +7,7 @@ description: Azure API Management is a hybrid, multi-cloud API, full lifecycle m
 homepage_url: https://azure.microsoft.com/en-us/services/api-management
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Azure API Management
 repo_url: https://github.com/azure/api-management
 status: completed
@@ -41,9 +41,7 @@ Useful for enterprises needing a unified platform to manage, secure, and observe
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Visit the Azure API Management documentation to deploy your first API gateway.
-```
 {{< /callout >}}
 
 

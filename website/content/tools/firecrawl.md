@@ -45,9 +45,7 @@ Extracting training data for AI models, building autonomous AI agents that requi
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Install via npm (`npm install firecrawl`) or pip (`pip install firecrawl`), instantiate the client with an API key, and call `app.scrape('firecrawl.dev')` or `app.agent(prompt='...')`.
-```
 {{< /callout >}}
 
 

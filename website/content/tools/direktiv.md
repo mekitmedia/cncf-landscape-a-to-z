@@ -38,9 +38,7 @@ Useful for event-driven serverless orchestration, integration of multiple backen
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Build a local development cluster using task: `brew install go-task` followed by `task default`.
-```
 {{< /callout >}}
 
 

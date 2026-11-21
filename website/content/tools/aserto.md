@@ -6,7 +6,7 @@ description: Fine-grained, policy-based, real-time authorization for APIs and mi
 homepage_url: https://www.aserto.com
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Aserto
 repo_url: https://github.com/aserto-dev/runtime
 status: completed
@@ -46,9 +46,7 @@ Adding real-time, fine-grained authorization to APIs and microservices without b
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Developers can integrate Aserto using its SDKs (Node, Go, Python, Java, .NET, Ruby) and quickstarts, or deploy the Topaz open-source authorizer locally.
-```
 {{< /callout >}}
 
 

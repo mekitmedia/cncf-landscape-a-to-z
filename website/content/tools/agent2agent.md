@@ -6,7 +6,7 @@ description: Agent2Agent (A2A) is an open protocol enabling communication and in
 homepage_url: https://a2a-protocol.org/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Agent2agent
 repo_url: https://github.com/a2aproject/A2A
 status: completed
@@ -42,9 +42,7 @@ Multi-Agent Systems: Ideal for scenarios where multiple specialized AI agents ne
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Review the protocol specification in the GitHub repository to understand the core concepts and message schemas. Developers can implement the protocol in their agentic applications to enable A2A communication.
-```
 {{< /callout >}}
 
 

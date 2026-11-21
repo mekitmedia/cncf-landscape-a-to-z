@@ -11,7 +11,7 @@ description: APIClarity is a cloud API observability open-source project that pr
 homepage_url: https://openclarity.io/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: APIClarity
 repo_url: https://github.com/openclarity/apiclarity
 status: completed
@@ -51,9 +51,7 @@ Used by DevOps and DevSecOps teams to monitor modern applications for zombie API
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Install APIClarity in a Kubernetes cluster using Helm: `helm repo add apiclarity https://openclarity.github.io/apiclarity` followed by `helm install --values values.yaml --create-namespace apiclarity apiclarity/apiclarity -n apiclarity`.
-```
 {{< /callout >}}
 
 

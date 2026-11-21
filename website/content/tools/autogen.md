@@ -5,7 +5,7 @@ description: A programming framework for agentic AI
 homepage_url: https://microsoft.github.io/autogen/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Autogen
 repo_url: https://github.com/microsoft/autogen
 status: completed
@@ -41,9 +41,7 @@ Building next-generation large language model applications, automating complex w
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Install via pip (`pip install autogenstudio` or `pip install pyautogen`) and refer to the official documentation for examples on defining agents and orchestrating conversations.
-```
 {{< /callout >}}
 
 

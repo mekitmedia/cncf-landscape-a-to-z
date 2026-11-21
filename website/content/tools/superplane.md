@@ -43,9 +43,7 @@ Automating routine development work by coordinating coding agents, source contro
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Contributor setup is Docker-based. Start with the repository instructions in AGENTS.md and the development section of CONTRIBUTING.md.
-```
 {{< /callout >}}
 
 

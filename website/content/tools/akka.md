@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:38.700306'
 homepage_url: https://akka.io/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Akka
 repo_url: https://github.com/akka/akka
 status: completed
@@ -40,9 +40,7 @@ High-throughput financial trading, gaming backends, IoT ingestion, and reactive 
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Add Akka dependencies to your build file and bootstrap an `ActorSystem`.
-```
 {{< /callout >}}
 
 

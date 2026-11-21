@@ -39,9 +39,7 @@ Organizations looking to standardize their feature flagging implementation acros
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 To parse the specification, simply type 'make'. Please review the generated JSON files, which will appear as siblings to any of the markdown files in the /specification folder.
-```
 {{< /callout >}}
 
 

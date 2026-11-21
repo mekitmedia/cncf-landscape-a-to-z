@@ -43,10 +43,8 @@ Building scalable applications without sacrificing productivity or reliability.
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 brew install temporal
 temporal server start-dev
-```
 {{< /callout >}}
 
 

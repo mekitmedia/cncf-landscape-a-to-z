@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:39.575800'
 homepage_url: https://brpc.apache.org/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Apache bRPC
 repo_url: https://github.com/apache/brpc
 status: completed
@@ -40,9 +40,7 @@ High-concurrency search engines, ad-serving ranking systems, and real-time AI in
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Clone repository, build via CMake, and implement services using Protocol Buffers and C++.
-```
 {{< /callout >}}
 
 

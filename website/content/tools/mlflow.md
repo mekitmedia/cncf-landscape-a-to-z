@@ -40,9 +40,7 @@ Ideal for teams needing to debug, evaluate, monitor, and optimize production-qua
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Start the MLflow Server using `uvx mlflow server` and integrate it with your Python code by importing `mlflow` and setting the tracking URI.
-```
 {{< /callout >}}
 
 

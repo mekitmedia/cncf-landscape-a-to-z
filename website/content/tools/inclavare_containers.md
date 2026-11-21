@@ -46,9 +46,7 @@ Helping to keep tenants' confidential data secure so they feel confident that th
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 sudo make install
-```
 {{< /callout >}}
 
 

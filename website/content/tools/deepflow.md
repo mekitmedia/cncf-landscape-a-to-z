@@ -42,9 +42,7 @@ DeepFlow provides deep observability for complex cloud-native and AI application
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Refer to the deployment documentation for DeepFlow Community Edition: https://deepflow.io/docs/ce-install/all-in-one/?from=github.
-```
 {{< /callout >}}
 
 

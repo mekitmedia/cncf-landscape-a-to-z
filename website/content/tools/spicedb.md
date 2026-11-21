@@ -51,9 +51,7 @@ Platform and product teams use SpiceDB to definitively answer access control que
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 docker run --rm -p 50051:50051 -p 8443:8443 authzed/spicedb serve --http-enabled true --grpc-preshared-key "somerandomkeyhere"
-```
 {{< /callout >}}
 
 

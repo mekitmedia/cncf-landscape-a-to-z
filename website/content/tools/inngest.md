@@ -40,9 +40,7 @@ Useful for developers needing to execute dependable background tasks, from basic
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 The Dev Server can be run to provide a comprehensive local development environment that mirrors production.
-```
 {{< /callout >}}
 
 

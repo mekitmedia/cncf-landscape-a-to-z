@@ -38,10 +38,8 @@ Container image registry, Helm chart registry, and Wasm artifact storage.
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Download binaries of **[Harbor release ](https://github.com/goharbor/harbor/releases)** and follow **[Installation & Configuration Guide](https://goharbor.io/docs/latest/install-config/)** to install Harbor.
 
-```
 {{< /callout >}}
 
 

@@ -46,9 +46,7 @@ Paralus can be easily integrated with your pre-existing RBAC configuration and y
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 You'll find the instructions here: [Docs](https://www.paralus.io/docs/) and [Installation](https://www.paralus.io/docs/Installation/)
-```
 {{< /callout >}}
 
 

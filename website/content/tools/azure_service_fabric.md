@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:39.105834'
 homepage_url: https://docs.microsoft.com/en-us/azure/service-fabric/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Azure Service Fabric
 repo_url: https://github.com/Microsoft/service-fabric
 status: completed
@@ -38,9 +38,7 @@ Running mission-critical, scalable microservices architectures.
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Follow the tutorials in the official Azure documentation to deploy a cluster.
-```
 {{< /callout >}}
 
 

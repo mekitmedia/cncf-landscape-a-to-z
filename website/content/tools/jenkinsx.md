@@ -40,9 +40,7 @@ Continuous integration, continuous delivery, GitOps automation, preview environm
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 See the v3 documentation and use the jx command line tool.
-```
 {{< /callout >}}
 
 

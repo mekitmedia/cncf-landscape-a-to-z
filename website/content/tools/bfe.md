@@ -37,9 +37,7 @@ Load balancing and managing traffic at layer 7.
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Check the GitHub repository's README for instructions on setting up the BFE Server component.
-```
 {{< /callout >}}
 
 

@@ -40,9 +40,7 @@ Enforcing Pod Security Standards, validating container image signatures, auto-la
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Kyverno installation and reference documentation is available at kyverno.io. You can start with the Quick Start guide or try it in the Kyverno Playground.
-```
 {{< /callout >}}
 
 

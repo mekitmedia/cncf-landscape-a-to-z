@@ -6,7 +6,7 @@ description: Open source, distributed, versioned, column-oriented store modeled 
 homepage_url: https://hbase.apache.org/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Apache HBase
 repo_url: https://github.com/apache/hbase
 status: completed
@@ -42,9 +42,7 @@ Serving high-volume user activity logs, real-time messaging backends, and sparse
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Download release, start standalone mode via `./bin/start-hbase.sh`, and query via `./bin/hbase shell`.
-```
 {{< /callout >}}
 
 

@@ -42,9 +42,7 @@ Automating responses to system events, such as matching ready orders with availa
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Follow the Getting Started tutorial at https://drasi.io/drasi-kubernetes/getting-started/ to try out Drasi for Kubernetes.
-```
 {{< /callout >}}
 
 

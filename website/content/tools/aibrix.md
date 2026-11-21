@@ -5,7 +5,7 @@ description: Cost-efficient and pluggable Infrastructure components for GenAI in
 homepage_url: https://aibrix.github.io/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: AIBrix
 repo_url: https://github.com/vllm-project/aibrix
 status: completed
@@ -49,9 +49,7 @@ Optimizing GenAI inference deployment via Kubernetes for cost efficiency and sca
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Clone the repository and install dependencies and AIBrix CRDs using `kubectl apply -k` or install a stable distribution using provided manifests from the releases page.
-```
 {{< /callout >}}
 
 

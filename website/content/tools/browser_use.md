@@ -41,9 +41,7 @@ Automate browser tasks, book appointments by navigating forms and handling CAPTC
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Install or upgrade browser-use to the latest stable version with uv using Python 3.12, run `browser-use skill install` to register the skill, and connect it to your browser.
-```
 {{< /callout >}}
 
 

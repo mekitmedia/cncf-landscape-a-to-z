@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:39.318104'
 homepage_url: https://openwhisk.apache.org/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Apache OpenWhisk
 repo_url: https://github.com/apache/openwhisk
 status: completed
@@ -40,9 +40,7 @@ Serverless API backends, event-driven data transformations, and IoT payload proc
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Deploy onto Kubernetes using Helm chart and invoke actions via `wsk` CLI.
-```
 {{< /callout >}}
 
 

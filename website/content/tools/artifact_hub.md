@@ -6,7 +6,7 @@ description: Artifact Hub is a web-based application that enables finding, insta
 homepage_url: https://artifacthub.io
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Artifact Hub
 repo_url: https://github.com/artifacthub/hub
 status: completed
@@ -44,9 +44,7 @@ Finding and managing Helm charts, Falco configurations, OPA policies, OLM operat
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Users can discover and install packages through the artifacthub.io portal or deploy their own instance via the provided Helm chart.
-```
 {{< /callout >}}
 
 

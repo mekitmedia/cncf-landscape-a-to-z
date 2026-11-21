@@ -51,9 +51,7 @@ Building highly efficient, minimal-footprint microservices, serverless functions
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Check out the official documentation at quarkus.io to generate a new project and view the contribution guide.
-```
 {{< /callout >}}
 
 

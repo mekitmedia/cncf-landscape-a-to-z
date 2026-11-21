@@ -49,13 +49,11 @@ Quickly deploying high-availability Kubernetes clusters in offline or online env
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 tar xzvf kubeaver-offline-installer-1.0.0.tgz
 
 cd kubeaver-offline-installer-1.0.0
 
 ./start.sh
-```
 {{< /callout >}}
 
 

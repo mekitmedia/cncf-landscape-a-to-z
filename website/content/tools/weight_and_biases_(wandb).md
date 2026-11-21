@@ -42,9 +42,7 @@ Experiment tracking and data versioning for machine learning models, as well as 
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 pip install wandb
-```
 {{< /callout >}}
 
 

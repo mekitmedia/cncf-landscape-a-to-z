@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:39.334308'
 homepage_url: https://www.appscale.com/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: AppScale
 repo_url: https://github.com/AppScale/gts
 status: completed
@@ -40,9 +40,7 @@ Migrating Google App Engine workloads to on-premises private clouds for complian
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Deploy using `appscale` CLI tools on Ubuntu virtual machines with `appscale deploy`.
-```
 {{< /callout >}}
 
 

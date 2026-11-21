@@ -42,9 +42,7 @@ Flannel is responsible for providing a layer 3 IPv4 network between multiple nod
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 For Kubernetes v1.17+, apply the Flannel manifest with kubectl to deploy the network plugin on your cluster.
-```
 {{< /callout >}}
 
 

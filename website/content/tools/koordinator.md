@@ -42,9 +42,7 @@ Improving runtime efficiency and reliability for both latency sensitive workload
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 helm install koordinator koordinator-sh/koordinator --version 1.8.0
-```
 {{< /callout >}}
 
 

@@ -39,9 +39,7 @@ Simplifying the deployment, lifecycle management, autoscaling, and fault toleran
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Refer to the Quick Start guides in the Ray documentation for RayCluster, RayJob, and RayService to begin deploying workloads on Kubernetes using KubeRay.
-```
 {{< /callout >}}
 
 

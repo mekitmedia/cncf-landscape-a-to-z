@@ -5,7 +5,7 @@ description: A generative AI-powered framework for testing virtual agents
 homepage_url: https://awslabs.github.io/agent-evaluation/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Agent Evaluation
 repo_url: https://github.com/awslabs/agent-evaluation
 status: completed
@@ -41,9 +41,7 @@ Testing and validating virtual LLM agents with multi-turn conversations before d
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Visit the documentation to install the package and configure built-in or custom targets for testing.
-```
 {{< /callout >}}
 
 

@@ -5,7 +5,7 @@ description: Build, run, manage agentic software at scale
 homepage_url: https://www.agno.com/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Agno
 repo_url: https://github.com/agno-agi/agno
 status: completed
@@ -43,9 +43,7 @@ Building local or cloud-hosted agent platforms, orchestrating AI agent pipelines
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Clone the `agentos-railway` template or similar starters, and run it locally with Docker to get a REST API, Postgres DB, and MCP server out-of-the-box.
-```
 {{< /callout >}}
 
 

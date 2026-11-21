@@ -44,10 +44,8 @@ Simplifying application delivery by letting developers write a single specificat
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 brew tap KusionStack/tap
 brew install KusionStack/tap/kusion
-```
 {{< /callout >}}
 
 

@@ -42,10 +42,8 @@ Serving production workloads across AI labs, cloud platforms, enterprises, and u
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 docker pull lmsysorg/sglang:latest
 uv pip install --prerelease=allow sglang
-```
 {{< /callout >}}
 
 

@@ -5,7 +5,7 @@ description: Next Generation Agentic Proxy for AI Agents and MCP servers
 homepage_url: https://agentgateway.dev/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Agentgateway
 repo_url: https://github.com/agentgateway/agentgateway
 status: completed
@@ -45,9 +45,7 @@ Routing and securing traffic between AI agents, LLMs, and external tools/service
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Check the standalone or Kubernetes quickstart guides on agentgateway.dev to deploy the proxy using a flat YAML config or the built-in Kubernetes controller.
-```
 {{< /callout >}}
 
 
