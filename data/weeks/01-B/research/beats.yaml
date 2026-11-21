@@ -1,0 +1,53 @@
+project_name: Beats
+homepage_url: https://www.elastic.co/beats
+repo_url: https://github.com/elastic/beats
+docs_url: https://www.elastic.co/guide/en/beats/libbeat/current/index.html
+cncf_status: non-cncf
+latest_release:
+  version: v9.5.6
+  date: '2026-11-12T00:00:00Z'
+  release_notes_url: https://github.com/elastic/beats/releases/tag/v9.5.6
+summary: Beats are open-source, lightweight operational data shippers written in Go
+  that capture logs, metrics, audit trails, and network packet data to send to Elasticsearch
+  or Logstash.
+key_features:
+- Lightweight Go binary design with small memory and CPU footprint and zero runtime
+  dependencies.
+- 'Specialized purpose-built shippers: Filebeat (logs), Metricbeat (system/app metrics),
+  Packetbeat (network data), Heartbeat (uptime), and Auditbeat (security audit).'
+- Built-in data processors for filtering, enrichment, parsing, and dropping events
+  prior to shipment.
+- Direct ingestion into Elasticsearch indices or buffering through Logstash, Kafka,
+  and Redis.
+recent_updates: Release v9.5.6 delivers updated Kubernetes metadata enrichment processors,
+  bug fixes, and performance tuning across Metricbeat and Filebeat modules.
+use_cases: Node-level log tailing, Kubernetes container metrics collection, network
+  transaction analysis, uptime probing, and security compliance telemetry.
+ecosystem_perspectives:
+  strengths: Ultra-reliable, battle-tested edge data forwarders with native out-of-the-box
+    dashboards and mappings for the Elastic Stack.
+  considerations: Requires managing individual daemon configurations or consolidating
+    under the Elastic Agent unified manager.
+  community_discussions:
+  - Standard edge daemonset fixture in Kubernetes environments for centralized log
+    and metric forwarding.
+interesting_facts: Started as Packetbeat before Elastic adopted the framework and
+  created libbeat to enable an entire family of open-source metric and log collectors.
+get_started: Download the desired Beat binary (e.g., Filebeat), configure inputs and
+  Elasticsearch output in the yaml configuration file, and start the service.
+related_tools:
+- Fluentbit
+- Vector
+- Logstash
+sources:
+- id: src_readme
+  title: Beats GitHub README
+  url: https://github.com/elastic/beats
+  source_type: github_readme
+  quotes:
+  - The Beats are lightweight data shippers, written in Go, that you install on your
+    servers to capture all sorts of operational data (think of logs, metrics, or network
+    packet data). The Beats send the operational data to Elasticsearch, either directly
+    or via Logstash, so it can be visualized with Kibana.
+  - By "lightweight", we mean that Beats have a small installation footprint, use
+    limited system resources, and have no runtime dependencies.

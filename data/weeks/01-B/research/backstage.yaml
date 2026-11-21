@@ -1,0 +1,60 @@
+project_name: Backstage
+homepage_url: https://backstage.io/
+repo_url: https://github.com/backstage/backstage
+docs_url: https://backstage.io/docs
+cncf_status: graduated
+latest_release:
+  version: v1.57.1
+  date: '2026-11-18T11:56:24Z'
+  release_notes_url: https://github.com/backstage/backstage/releases/tag/v1.57.1
+summary: Backstage is an open source framework for building developer portals, powered
+  by a centralized software catalog that unifies infrastructure tooling, services,
+  and documentation.
+key_features:
+- Centralized Software Catalog for tracking ownership and metadata across microservices,
+  libraries, and pipelines.
+- Software Templates for quickly spinning up new projects standardized with organizational
+  best practices.
+- TechDocs for creating, maintaining, and searching technical documentation using
+  a docs-like-code approach.
+- Extensible plugin ecosystem integrating CI/CD, Kubernetes, cloud platforms, and
+  security scanners.
+recent_updates: Release v1.57.1 brings core plugin enhancements, updated catalog backend
+  processors, and improved frontend framework dependencies.
+use_cases: Building unified internal developer portals (IDPs), cataloging organizational
+  microservices, accelerating engineering onboarding, and automating golden path provisioning.
+ecosystem_perspectives:
+  strengths: The de facto CNCF graduated industry standard for Internal Developer
+    Portals, backed by Spotify and supported by hundreds of plugins.
+  considerations: Requires a dedicated platform engineering team to build, customize,
+    and maintain TypeScript/React plugins and catalog ingesters.
+  community_discussions:
+  - Widely adopted across global enterprises to reduce cognitive load and standardize
+    developer workflows.
+interesting_facts: Created originally by Spotify to manage thousands of microservices
+  internally before being donated to the CNCF, where it rapidly advanced from Sandbox
+  to Graduated status.
+get_started: Generate a new Backstage app using npx `@backstage/create-app@latest`
+  and start the local development server with yarn dev.
+related_tools:
+- Port
+- Cortex
+- Compass
+sources:
+- id: src_readme
+  title: Backstage GitHub README
+  url: https://github.com/backstage/backstage
+  source_type: github_readme
+  quotes:
+  - Backstage is an open source framework for building developer portals. Powered
+    by a centralized software catalog, Backstage restores order to your microservices
+    and infrastructure and enables your product teams to ship high-quality code quickly
+    without compromising autonomy.
+  - Backstage unifies all your infrastructure tooling, services, and documentation
+    to create a streamlined development environment from end to end.
+  - Backstage Software Catalog for managing all your software such as microservices,
+    libraries, data pipelines, websites, and ML models
+  - Backstage Software Templates for quickly spinning up new projects and standardizing
+    your tooling with your organization’s best practices
+  - Backstage TechDocs for making it easy to create, maintain, find, and use technical
+    documentation, using a "docs like code" approach

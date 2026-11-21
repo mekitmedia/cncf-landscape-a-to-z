@@ -1,0 +1,51 @@
+project_name: Buildpacks
+homepage_url: https://buildpacks.io/
+repo_url: https://github.com/buildpacks/pack
+docs_url: https://buildpacks.io/docs/
+cncf_status: graduated
+latest_release:
+  version: v0.40.11
+  date: '2026-11-08T00:00:00Z'
+  release_notes_url: https://github.com/buildpacks/pack/releases/tag/v0.40.11
+summary: Cloud Native Buildpacks transform application source code into secure, production-ready,
+  and standard OCI container images that can run on any cloud without requiring Dockerfiles.
+key_features:
+- Dockerfile-free image building automatically detecting language runtimes, package
+  managers, and dependencies.
+- Advanced image rebasing enabling instantaneous security patches to base OS layers
+  without rebuilding application layers.
+- Standardized OCI and CNCF Graduated specification supported across multiple builder
+  platforms.
+- pack CLI providing intuitive local development and CI/CD container build workflows.
+recent_updates: Release v0.40.11 brings improvements to multi-arch builder resolution,
+  SBOM generation compliance, and performance tuning for remote caching.
+use_cases: Standardizing enterprise container image generation, automated CVE patching
+  via layer rebasing, eliminating insecure custom Dockerfile patterns, and building
+  software bills of materials (SBOMs).
+ecosystem_perspectives:
+  strengths: The graduated CNCF standard for converting code to containers, providing
+    unparalleled security, reproducible builds, and instant OS patching.
+  considerations: Requires shifting developer mental models from imperative Dockerfile
+    recipes to declarative builder/lifecycle stacks.
+  community_discussions:
+  - Widely praised for eliminating Docker daemon root security risks and streamlining
+    developer workflows.
+interesting_facts: Initiated jointly by Pivotal (now VMware) and Heroku in 2018, merging
+  the best concepts from Heroku Buildpacks and Cloud Foundry into an open OCI standard.
+get_started: Install the pack CLI via Homebrew, navigate to your source code repository,
+  and execute pack build myapp --builder paketobuildpacks/builder:base.
+related_tools:
+- Kaniko
+- Ko
+- BuildKit
+sources:
+- id: src_readme
+  title: Buildpacks Pack GitHub README
+  url: https://github.com/buildpacks/pack
+  source_type: github_readme
+  quotes:
+  - Cloud Native Buildpacks transform your application source code into images that
+    can run on any cloud
+  - pack makes it easy for... App Developers to use buildpacks to convert code into
+    runnable images. Buildpack Authors to develop and package buildpacks for distribution.
+    Operators to package buildpacks for distribution and maintain applications.

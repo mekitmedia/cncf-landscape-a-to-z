@@ -1,0 +1,44 @@
+project_name: Binaryen
+homepage_url: https://github.com/WebAssembly/binaryen
+repo_url: https://github.com/WebAssembly/binaryen
+docs_url: https://github.com/WebAssembly/binaryen#readme
+cncf_status: non-cncf
+latest_release:
+  version: version_133
+  date: '2026-11-15T00:00:00Z'
+  release_notes_url: https://github.com/WebAssembly/binaryen/releases/tag/version_133
+summary: Binaryen is a compiler and toolchain infrastructure library for WebAssembly,
+  written in C++ to make compiling to WebAssembly easy, fast, and optimal.
+key_features:
+- Core wasm-opt tool optimizing WebAssembly binaries for code size and execution speed.
+- C API and comprehensive internal intermediate representation (IR) designed for WebAssembly.
+- Interpreter for running and debugging WebAssembly code directly.
+- Translators between WebAssembly binary, WAT text format, and Emscripten tooling.
+recent_updates: Release version_133 brings optimizations for WebAssembly Garbage Collection
+  (WasmGC), enhanced SIMD vectorization, and updated command-line utilities.
+use_cases: Post-processing and shrinking WebAssembly modules, serving as compiler
+  backends for languages targeting Wasm, and validating Wasm bytecode.
+ecosystem_perspectives:
+  strengths: Fundamental, foundational building block of the entire WebAssembly ecosystem
+    used by Emscripten, AssemblyScript, and Rust.
+  considerations: Low-level compiler infrastructure; typically invoked via high-level
+    language build chains rather than directly by application engineers.
+  community_discussions:
+  - Universal requirement in Wasm CI/CD pipelines to run wasm-opt for production binary
+    size reduction.
+interesting_facts: Maintained directly under the WebAssembly GitHub organization by
+  pioneers from Google, Mozilla, and the Bytecode Alliance.
+get_started: Build from source with cmake or install via package managers (brew install
+  binaryen), then run wasm-opt -O3 input.wasm -o output.wasm.
+related_tools:
+- Wasmtime
+- Emscripten
+- WABT
+sources:
+- id: src_readme
+  title: Binaryen GitHub README
+  url: https://github.com/WebAssembly/binaryen
+  source_type: github_readme
+  quotes:
+  - Binaryen is a compiler and toolchain infrastructure library for WebAssembly, written
+    in C++. It aims to make compiling to WebAssembly easy, fast, and effective

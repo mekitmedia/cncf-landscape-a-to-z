@@ -1,0 +1,54 @@
+project_name: Bouncy Castle
+homepage_url: https://www.bouncycastle.org/
+repo_url: https://github.com/bcgit/bc-java
+docs_url: https://www.bouncycastle.org/documentation.html
+cncf_status: non-cncf
+latest_release:
+  version: '1.79'
+  date: '2026-10-01T00:00:00Z'
+  release_notes_url: https://www.bouncycastle.org/releasenotes.html
+summary: Bouncy Castle is one of the most widely used open-source cryptographic APIs
+  and providers for Java and C#, providing extensive PKI, TLS, CMS, and post-quantum
+  cryptographic implementations.
+key_features:
+- Complete Java Cryptography Extension (JCE) and Java Cryptography Architecture (JCA)
+  provider.
+- Light-weight low-level API suitable for embedded and restricted environments without
+  full JCE availability.
+- Comprehensive support for X.509 certificates, PKCS standards, CMS, S/MIME, OpenPGP,
+  and TLS protocols.
+- Post-Quantum Cryptography (PQC) algorithm implementations including ML-KEM and ML-DSA.
+recent_updates: Recent updates include NIST-standardized Post-Quantum Cryptography
+  algorithms, FIPS 140-3 validation updates, and Java 21 LTS compatibility.
+use_cases: Digital signature verification, TLS certificate issuance, cloud encryption
+  providers, secure identity tokens, and enterprise PKI infrastructure.
+ecosystem_perspectives:
+  strengths: The indispensable cryptographic bedrock used by millions of enterprise
+    Java and Android applications worldwide.
+  considerations: Requires strict dependency auditing and adherence to official patch
+    releases when operating in FIPS-regulated contexts.
+  community_discussions:
+  - Universal dependency in cloud-native identity systems, certificate managers, and
+    Java microservice frameworks.
+interesting_facts: Named humorously after an inflatable bouncy castle, the project
+  has protected mission-critical Internet banking and telecommunications infrastructure
+  for over two decades.
+get_started: Add org.bouncycastle:bcprov-jdk18on to your Maven or Gradle build file
+  and register the provider via Security.addProvider(new BouncyCastleProvider()).
+related_tools:
+- OpenSSL
+- Conscrypt
+- Spiffe
+sources:
+- id: src_readme
+  title: Bouncy Castle GitHub README
+  url: https://github.com/bcgit/bc-java
+  source_type: github_readme
+  quotes:
+  - The Bouncy Castle Crypto package is a Java implementation of cryptographic algorithms,
+    it was developed by the Legion of the Bouncy Castle, a registered Australian Charity,
+    with a little help! The Legion also gratefully acknowledges the contributions
+    made to this package by others
+  - The package is organised so that it contains a light-weight API suitable for use
+    in any environment (including the J2ME) with the additional infrastructure to
+    conform the algorithms to the JCE framework.

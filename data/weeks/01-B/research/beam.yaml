@@ -1,0 +1,46 @@
+project_name: Beam
+homepage_url: https://beam.apache.org/
+repo_url: https://github.com/apache/beam
+docs_url: https://beam.apache.org/documentation/
+cncf_status: non-cncf
+latest_release:
+  version: v2.78.0
+  date: '2026-11-10T00:00:00Z'
+  release_notes_url: https://github.com/apache/beam/releases/tag/v2.78.0
+summary: Apache Beam is an advanced unified programming model for implementing batch
+  and streaming data processing pipelines that run across any execution engine.
+key_features:
+- Unified model providing a single programming paradigm for both batch and continuous
+  streaming data.
+- Multi-language SDK support in Java, Python, Go, and TypeScript.
+- Portability layer executing pipelines on diverse runners including Apache Flink,
+  Apache Spark, Google Cloud Dataflow, and Samza.
+- Extensive I/O connector library for object stores, message queues, and analytical
+  databases.
+recent_updates: Release v2.78.0 delivers expanded streaming windowing capabilities,
+  enhanced Go SDK features, and optimized runner translations.
+use_cases: ETL data extraction and transformation, real-time streaming analytics,
+  cross-platform pipeline migration, and event-driven data streaming.
+ecosystem_perspectives:
+  strengths: Decouples data pipeline authoring from execution engines, preventing
+    cloud and runner vendor lock-in.
+  considerations: Debugging runner-specific translation edge cases requires familiarity
+    with both Beam and the underlying execution backend.
+  community_discussions:
+  - Recognized as the gold standard unified abstraction for enterprise data engineering
+    teams.
+interesting_facts: Originated from Google's internal MapReduce successor systems (FlumeJava
+  and MillWheel) before being open-sourced to the Apache Software Foundation.
+get_started: Install the Apache Beam SDK for Python using pip install apache-beam,
+  define a Pipeline object with transforms, and execute locally via the DirectRunner.
+related_tools:
+- Apache Flink
+- Apache Spark
+- Google Cloud Dataflow
+sources:
+- id: src_readme
+  title: Apache Beam GitHub README
+  url: https://github.com/apache/beam
+  source_type: github_readme
+  quotes:
+  - Apache Beam is a unified programming model for Batch and Streaming data processing.

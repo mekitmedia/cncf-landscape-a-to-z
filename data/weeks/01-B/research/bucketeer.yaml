@@ -1,0 +1,48 @@
+project_name: Bucketeer
+homepage_url: https://bucketeer.io
+repo_url: https://github.com/bucketeer-io/bucketeer
+docs_url: https://bucketeer.io/docs
+cncf_status: sandbox
+latest_release:
+  version: v2.4.0
+  date: '2026-10-28T00:00:00Z'
+  release_notes_url: https://github.com/bucketeer-io/bucketeer/releases/tag/v2.4.0
+summary: Bucketeer is an open-source, enterprise-grade feature management and experimentation
+  platform that helps engineering teams make better decisions, reduce deployment lead
+  times, and mitigate release risks through feature flags.
+key_features:
+- Self-hosted, scalable, and production-ready architecture designed for high-availability
+  enterprise environments.
+- Rich feature flag targeting rules based on user segments, attributes, and percentages.
+- Real-time A/B testing and experimentation analysis with statistical evaluation metrics.
+- Multi-language client and server SDKs (Go, Java, Node.js, Web, iOS, Android, Flutter).
+recent_updates: Release v2.4.0 delivers OpenFeature provider standardization, enhanced
+  user segment search, and optimized evaluation cache performance.
+use_cases: Safe progressive canary rollouts, trunk-based development gating, automated
+  release kill-switches, and data-driven A/B experimentation.
+ecosystem_perspectives:
+  strengths: A self-hostable CNCF Sandbox platform providing enterprise-grade feature
+    flagging without reliance on SaaS subscriptions.
+  considerations: Requires deploying and maintaining its microservices backend and
+    MySQL/Redis dependencies on your cluster.
+  community_discussions:
+  - Valued by privacy-conscious enterprises requiring on-premise feature flag evaluation
+    data storage.
+interesting_facts: Created originally by CyberAgent to manage feature flags across
+  massive high-traffic consumer mobile and web applications before being open-sourced.
+get_started: Deploy the Bucketeer service using Helm on your Kubernetes cluster and
+  connect your application using the appropriate language SDK.
+related_tools:
+- OpenFeature
+- Flagd
+- Unleash
+sources:
+- id: src_readme
+  title: Bucketeer GitHub README
+  url: https://github.com/bucketeer-io/bucketeer
+  source_type: github_readme
+  quotes:
+  - Enterprise-Grade Feature Management & Experimentation Platform
+  - Self-Hosted. Scalable. Production-Ready.
+  - A feature flag management platform created to help teams make better decisions,
+    reduce deployment lead time, and release risk through feature flags.

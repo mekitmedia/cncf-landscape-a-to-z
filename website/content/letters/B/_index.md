@@ -10,6 +10,10 @@ layout: "list"
 
 This week has a total of 20 items.
 
+## Featured 2027 Weekly Release
+
+- [Cruising through the 'B's: Developer Portals, AI Agents, and Zero-Trust Security](/posts/2027-b-developer-platforms-ai-agents-and-zero-trust/)
+
 
 - **Provisioning Automation Configuration**: 2 items
 

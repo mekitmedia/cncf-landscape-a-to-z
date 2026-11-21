@@ -10,9 +10,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-23T15:49:17.462240+00:00'
-        completed_at: '2026-09-23T15:49:17.462240+00:00'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/bfe.md
         error_message: null
         retry_count: 0
@@ -22,16 +22,16 @@ items:
     tasks:
       research:
         status: completed
-        started_at: null
+        started_at: '2026-11-21T21:32:52Z'
         completed_at: 2026-10-13 22:54:45+00:00
         output_file: data/weeks/01-B/research/bosh.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
-        status: completed
+        status: pending
         started_at: null
-        completed_at: 2026-10-13 22:54:45+00:00
+        completed_at: null
         output_file: website/content/tools/bosh.md
         error_message: null
         retry_count: 0
@@ -40,10 +40,10 @@ items:
   Backend.AI:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-21T21:32:52Z'
+        completed_at: '2026-11-21T21:32:52Z'
+        output_file: data/weeks/01-B/research/backend_ai.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -51,7 +51,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/backend_ai.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -59,10 +59,10 @@ items:
   Backstage:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-21T21:32:52Z'
+        completed_at: '2026-11-21T21:32:52Z'
+        output_file: data/weeks/01-B/research/backstage.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -70,7 +70,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/backstage.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -78,10 +78,10 @@ items:
   Bank-Vaults:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-21T21:32:52Z'
+        completed_at: '2026-11-21T21:32:52Z'
+        output_file: data/weeks/01-B/research/bank-vaults.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -89,7 +89,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/bank-vaults.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -97,10 +97,10 @@ items:
   Beam:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-21T21:32:52Z'
+        completed_at: '2026-11-21T21:32:52Z'
+        output_file: data/weeks/01-B/research/beam.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -108,7 +108,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/beam.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -116,10 +116,10 @@ items:
   Beats:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-21T21:32:52Z'
+        completed_at: '2026-11-21T21:32:52Z'
+        output_file: data/weeks/01-B/research/beats.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -127,7 +127,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/beats.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -135,10 +135,10 @@ items:
   BentoML:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-21T21:32:52Z'
+        completed_at: '2026-11-21T21:32:52Z'
+        output_file: data/weeks/01-B/research/bentoml.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -146,7 +146,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/bentoml.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -154,10 +154,10 @@ items:
   BigchainDB:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-21T21:32:52Z'
+        completed_at: '2026-11-21T21:32:52Z'
+        output_file: data/weeks/01-B/research/bigchaindb.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -165,7 +165,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/bigchaindb.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -173,10 +173,10 @@ items:
   Binaryen:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-21T21:32:52Z'
+        completed_at: '2026-11-21T21:32:52Z'
+        output_file: data/weeks/01-B/research/binaryen.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -184,7 +184,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/binaryen.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -192,10 +192,10 @@ items:
   Botkube:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-21T21:32:52Z'
+        completed_at: '2026-11-21T21:32:52Z'
+        output_file: data/weeks/01-B/research/botkube.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -203,7 +203,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/botkube.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -211,10 +211,10 @@ items:
   Bouncy Castle:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-21T21:32:52Z'
+        completed_at: '2026-11-21T21:32:52Z'
+        output_file: data/weeks/01-B/research/bouncy_castle.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -222,7 +222,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/bouncy_castle.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -230,10 +230,10 @@ items:
   Boundary:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-21T21:32:52Z'
+        completed_at: '2026-11-21T21:32:52Z'
+        output_file: data/weeks/01-B/research/boundary.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -241,7 +241,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/boundary.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -249,10 +249,10 @@ items:
   Bucketeer:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-21T21:32:52Z'
+        completed_at: '2026-11-21T21:32:52Z'
+        output_file: data/weeks/01-B/research/bucketeer.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -260,7 +260,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/bucketeer.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -268,10 +268,10 @@ items:
   Buildpacks:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-21T21:32:52Z'
+        completed_at: '2026-11-21T21:32:52Z'
+        output_file: data/weeks/01-B/research/buildpacks.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -279,7 +279,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/buildpacks.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -287,10 +287,10 @@ items:
   Bytebase:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-21T21:32:52Z'
+        completed_at: '2026-11-21T21:32:52Z'
+        output_file: data/weeks/01-B/research/bytebase.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -298,7 +298,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/bytebase.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -314,9 +314,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-10-26T17:47:33.893864+00:00'
-        completed_at: '2026-10-26T17:47:33.893864+00:00'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/browser_use.md
         error_message: null
         retry_count: 0
@@ -325,10 +325,10 @@ items:
   Bub:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-21T21:32:52Z'
+        completed_at: '2026-11-21T21:32:52Z'
+        output_file: data/weeks/01-B/research/bub.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -336,7 +336,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/bub.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -344,10 +344,10 @@ items:
   BunkerWeb:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-21T21:32:52Z'
+        completed_at: '2026-11-21T21:32:52Z'
+        output_file: data/weeks/01-B/research/bunkerweb.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -355,7 +355,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/bunkerweb.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -363,10 +363,10 @@ items:
   BetterDB Monitor:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-21T21:32:52Z'
+        completed_at: '2026-11-21T21:32:52Z'
+        output_file: data/weeks/01-B/research/betterdb_monitor.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -374,7 +374,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/betterdb_monitor.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -382,10 +382,10 @@ items:
 week_tasks:
   tasks:
     blog_post:
-      status: pending
-      started_at: null
+      status: in_progress
+      started_at: '2026-11-21T21:32:52Z'
       completed_at: null
-      output_file: null
+      output_file: website/content/posts/2027-B-developer-platforms-ai-agents-and-zero-trust.md
       error_message: null
       retry_count: 0
       agent: writer

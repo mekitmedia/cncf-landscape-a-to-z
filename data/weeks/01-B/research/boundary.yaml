@@ -1,0 +1,52 @@
+project_name: Boundary
+homepage_url: https://www.boundaryproject.io/
+repo_url: https://github.com/hashicorp/boundary
+docs_url: https://developer.hashicorp.com/boundary/docs
+cncf_status: non-cncf
+latest_release:
+  version: v0.21.3
+  date: '2026-06-25T00:00:00Z'
+  release_notes_url: https://github.com/hashicorp/boundary/releases/tag/v0.21.3
+summary: HashiCorp Boundary is an identity-based secure remote access platform designed
+  to grant least-privileged access to private infrastructure and endpoints without
+  exposing underlying networks.
+key_features:
+- Identity-based access control leveraging existing identity providers (OIDC, Okta,
+  Azure AD).
+- Dynamic session authorization without distributing static VPN credentials or SSH
+  keys.
+- Separation of control plane and worker data plane for secure multi-cloud ingress.
+- Session auditing and recording capabilities for strict security compliance.
+recent_updates: HashiCorp announced that the open-source Boundary Community Edition
+  (CE) repository is now archived and in read-only mode, with ongoing capabilities
+  maintained in commercial editions.
+use_cases: Replacing traditional bastion jump hosts and perimeter VPNs, least-privilege
+  database access, and secure multi-cloud developer connectivity.
+ecosystem_perspectives:
+  strengths: Architecturally elegant zero-trust access model that decouples identity
+    from IP subnets and physical network topology.
+  considerations: Boundary Community Edition (CE) has been officially archived and
+    is no longer receiving open-source bug fixes or security patches.
+  community_discussions:
+  - Engineers frequently contrast Boundary with Teleport and evaluate ongoing migration
+    paths following the CE repository archival.
+interesting_facts: The repository README explicitly notes that Boundary Community
+  Edition has been archived and no new releases or patches are planned.
+get_started: Review the official HashiCorp documentation to evaluate migration options
+  or commercial managed service offerings at developer.hashicorp.com/boundary.
+related_tools:
+- Teleport
+- StrongDM
+- HashiCorp Vault
+sources:
+- id: src_readme
+  title: Boundary GitHub README
+  url: https://github.com/hashicorp/boundary
+  source_type: github_readme
+  quotes:
+  - Boundary Community Edition (CE) is no longer under active development, and this
+    repository has been archived by HashiCorp.
+  - This repository is now read-only and no longer accepts new issues, pull requests,
+    or community contributions.
+  - No new Boundary CE releases, maintenance updates, bug fixes, or security patches
+    are currently planned.

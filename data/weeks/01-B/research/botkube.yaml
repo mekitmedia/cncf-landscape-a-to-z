@@ -1,0 +1,48 @@
+project_name: Botkube
+homepage_url: https://www.botkube.io
+repo_url: https://github.com/kubeshop/botkube
+docs_url: https://docs.botkube.io/
+cncf_status: non-cncf
+latest_release:
+  version: v1.14.0
+  date: '2026-11-05T00:00:00Z'
+  release_notes_url: https://github.com/kubeshop/botkube/releases/tag/v1.14.0
+summary: Botkube is a messaging and ChatOps bot for monitoring, debugging, and operating
+  Kubernetes clusters directly from Slack, Microsoft Teams, Discord, and Mattermost.
+key_features:
+- Real-time event notifications filtering pod crashes, configuration changes, and
+  cluster warnings directly into chat channels.
+- Interactive kubectl command execution and automated troubleshooting workflows from
+  conversational interfaces.
+- Multi-platform ChatOps support for Slack, Teams, Discord, Mattermost, and webhooks.
+- Role-based access control (RBAC) and automated command audit logging for secure
+  cluster access.
+recent_updates: Release v1.14.0 introduces interactive multi-cluster selector tabs,
+  AI remediation prompt assistants, and updated Helm charts.
+use_cases: Collaborative Kubernetes incident response, real-time alert triage in team
+  channels, running non-intrusive debug queries without bastion hosts, and auditing
+  deployment events.
+ecosystem_perspectives:
+  strengths: Dramatically accelerates incident resolution by bringing cluster state
+    and remediation actions into shared developer communication tools.
+  considerations: Requires strict RBAC permissions and secure channel policies to
+    prevent unauthorized command execution.
+  community_discussions:
+  - Favorite operational tool for SREs during on-call incidents to share debug outputs
+    transparently with the team.
+interesting_facts: Created by Kubeshop to democratize Kubernetes operations by eliminating
+  the need for every developer to have direct terminal kubectl access.
+get_started: Install Botkube on your cluster using Helm with helm install botkube
+  --namespace botkube botkube/botkube, configure your Slack/Teams token, and begin
+  chatting.
+related_tools:
+- Kagent
+- Robusta
+- Prometheus Alertmanager
+sources:
+- id: src_readme
+  title: Botkube GitHub README
+  url: https://github.com/kubeshop/botkube
+  source_type: github_readme
+  quotes:
+  - Botkube is a messaging bot for monitoring and debugging Kubernetes clusters.

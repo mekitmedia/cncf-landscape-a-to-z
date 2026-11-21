@@ -1,0 +1,45 @@
+project_name: Bub
+homepage_url: https://bub.build/
+repo_url: https://github.com/bubbuild/bub
+docs_url: https://bub.build/docs/getting-started/
+cncf_status: non-cncf
+latest_release:
+  version: 0.6.1
+  date: '2026-11-14T00:00:00Z'
+  release_notes_url: https://github.com/bubbuild/bub/releases/tag/0.6.1
+summary: Bub is an open-source development tool and runtime providing a common shape
+  and execution framework for AI agents that live and collaborate alongside humans.
+key_features:
+- Unified agent workspace format defining capabilities, memories, and environment
+  access.
+- Lightweight command-line interface for packaging, verifying, and publishing agent
+  bundles.
+- Interoperability with standard AI agent toolkits and local developer environments.
+- Hub integration for discovering and sharing community-built agent capabilities.
+recent_updates: Release 0.6.1 brings improved environment variable injection, enhanced
+  terminal command execution stability, and documentation expansions.
+use_cases: Standardizing agent workspace development, local agent sandboxing, and
+  sharing reusable agent automation packages across engineering teams.
+ecosystem_perspectives:
+  strengths: Focuses on the ergonomics and standardization of developer-facing agents
+    with clean CLI workflows.
+  considerations: Early-stage emerging framework in the rapidly iterating autonomous
+    agent ecosystem.
+  community_discussions:
+  - Noted for bringing clean container-like packaging concepts to developer agent
+    configurations.
+interesting_facts: Built around the philosophy of creating 'a common shape for agents
+  that live alongside people'.
+get_started: Install the bub CLI, review the getting started guide at bub.build/docs,
+  and run bub init to generate an agent workspace.
+related_tools:
+- Browser Use
+- Agent Development Kit
+- Agno
+sources:
+- id: src_readme
+  title: Bub GitHub README
+  url: https://github.com/bubbuild/bub
+  source_type: github_readme
+  quotes:
+  - Build your Bub.
