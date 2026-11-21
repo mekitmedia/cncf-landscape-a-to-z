@@ -20,5 +20,6 @@ spec:
         1. Review `website/themes/cncf-theme/` layouts and partials.
         2. Verify keyboard navigation, tabindex on `<main>`, focus-visible styles on buttons, and semantic `<a>` tags.
         3. Consult UI domain memory at `docs/domain-memory/palette.md`.
-        4. Run end-to-end frontend tests:
-           just e2e
+        4. Run pre-flight validations (`just test`, `just validate`) and rely on CI / Render integration for headless E2E tests.
+        5. Record any new UI learnings in `docs/domain-memory/palette.md`.
+        6. Commit changes and push or open a pull request summarizing the UX/A11y improvements.
