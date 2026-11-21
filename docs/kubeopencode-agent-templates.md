@@ -17,7 +17,7 @@ graph TD
     end
 
     subgraph KubeOpenCode["Kubernetes Cluster (KubeOpenCode Controller)"]
-        Template["AgentTemplate: cncf-landscape-base<br/>- Images (opencode, devbox, attach)<br/>- Git context sync (HotReload, 5m)<br/>- Secret mounts (GITHUB_TOKEN, GOOGLE_API_KEY)<br/>- OpenCode config (gemini-flash-lite-latest)"]
+        Template["AgentTemplate: cncf-landscape-base<br/>- Images (opencode, devbox, attach)<br/>- Git context sync (HotReload, 5m)<br/>- OpenCode config (gemini-flash-lite-latest)<br/>- Credentials patched by cluster owner"]
         Agent["Agent: cncf-landscape-agent<br/>- templateRef: cncf-landscape-base<br/>- Standby idleTimeout: 30m"]
         
         Cron1["CronTask: daily research roulette<br/>(23 0 * * *)"]
@@ -60,6 +60,10 @@ You can apply the building blocks directly to any cluster running KubeOpenCode:
 # Apply all KubeOpenCode building blocks
 kubectl apply -k .kubeopencode/
 ```
+
+> [!NOTE]
+> **Cluster Credentials Patching**: The base `AgentTemplate` in `.kubeopencode/agent-template.yaml` deliberately does not hardcode `credentials` or Kubernetes Secret references. Cluster administrators overlay credentials (e.g., `GITHUB_TOKEN`, `GOOGLE_API_KEY`) via environment-specific Kustomize patches or cluster overlays.
+
 
 ### 2. GitOps Reconciliation via Flux
 

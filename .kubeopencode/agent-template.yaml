@@ -28,19 +28,6 @@ spec:
           policy: HotReload
       mountPath: .
 
-  # Credentials (mounted from Kubernetes Secrets)
-  credentials:
-    - name: github-token
-      secretRef:
-        name: github-creds
-        key: token
-      env: GITHUB_TOKEN
-    - name: google-api-key
-      secretRef:
-        name: google-creds
-        key: api-key
-      env: GOOGLE_API_KEY
-
   # OpenCode LLM configuration
   config:
     $schema: https://opencode.ai/config.json
