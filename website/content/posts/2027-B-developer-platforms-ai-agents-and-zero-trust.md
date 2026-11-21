@@ -8,27 +8,26 @@ week: 3
 
 Welcome to the third installment of our 52-week cloud-native voyage! Over the course of 2027, we are methodically exploring the vast Cloud Native Computing Foundation (CNCF) Landscape—from **A to Z**.
 
-After covering the massive 70-project expanse of Letter A across our first two weeks, we now turn our attention to **Letter B**. Spanning **20 verified projects**, Letter B represents one of the most operationally pivotal collections in cloud computing: internal developer portals that tame microservice sprawl, container image generators that eliminate Dockerfiles, cutting-edge autonomous AI web agents, high-throughput model serving engines, and zero-trust security proxies.
+After covering the massive 70-project expanse of Letter A across our first two weeks, we now turn our attention to **Letter B**. Spanning **19 verified projects**, Letter B represents one of the most operationally pivotal collections in cloud computing: internal developer portals that tame microservice sprawl, container image generators that eliminate Dockerfiles, cutting-edge autonomous AI web agents, and zero-trust security proxies.
 
 ---
 
 ### Featured Projects this Week: The Behemoths & Game Changers
 
-This week, we spotlight four industry-defining titans alongside honorable mentions for transformative developer platforms:
+This week, we spotlight three industry-defining titans alongside honorable mentions for transformative developer platforms:
 
 1.  **[Backstage](https://backstage.io/)**: The CNCF graduated open platform created by Spotify that established the Internal Developer Platform (IDP) standard, unifying software catalogs, technical documentation, and automated scaffolding across thousands of enterprises.
 2.  **[Cloud Native Buildpacks](https://buildpacks.io/)**: The CNCF graduated container packaging standard that automatically transforms application source code into secure, production-grade OCI images without requiring custom Dockerfiles.
 3.  **[Browser Use](https://browser-use.com/)**: The groundbreaking open-source web agent framework enabling LLMs to navigate websites, solve complex CAPTCHAs, and execute multi-step online workflows like a human.
-4.  **[BentoML](https://bentoml.com/)**: The unified open-source model serving framework engineered to build, optimize, and deploy high-concurrency AI inference APIs across heterogeneous hardware.
     > **Honorable Mentions**:
     > - **[Bytebase](https://www.bytebase.com/)**: The premier database DevOps and CI/CD platform bringing automated schema migrations, GitOps reviews, and centralized data access controls to enterprise database fleets.
     > - **[Botkube](https://www.botkube.io/)**: The practitioner-favorite Kubernetes ChatOps assistant integrating cluster debugging, event alerting, and automated runbooks directly into Slack, Teams, and Discord.
 
 ---
 
-### The Curated Listicle: 20 Cloud-Native Projects
+### The Curated Listicle: 19 Cloud-Native Projects
 
-To help you navigate this week's catalog, we have divided the 20 projects into three focused tiers:
+To help you navigate this week's catalog, we have divided the 19 projects into three focused tiers:
 
 - **Part One: The Featured Behemoths & Game Changers** — Industry-standard platforms and revolutionary AI frameworks reshaping developer productivity.
 - **Part Two: Worth Discovering** — Modern, high-impact innovations across Kubernetes operations, database CI/CD, feature management, and edge security.
@@ -38,7 +37,7 @@ To help you navigate this week's catalog, we have divided the 20 projects into t
 
 ## Part One: The Featured Behemoths & Game Changers
 
-These four flagships represent the pinnacle of cloud-native developer experience, container delivery, and autonomous AI infrastructure.
+These three flagships represent the pinnacle of cloud-native developer experience, container delivery, and autonomous AI infrastructure.
 
 ---
 
@@ -87,22 +86,6 @@ Browser Use is an open-source browser automation agent that enables AI models to
 - **Agentic Extensibility**: Supports custom tool attachments and cached task execution to minimize repetitive model inference tokens.
 
 [Explore full Browser Use tool profile & getting started guide →](/tools/browser_use/)
-
----
-
-#### [BentoML](https://bentoml.com/)
-
-**Status:** `non-cncf` | **Code:** [GitHub Repository](https://github.com/bentoml/BentoML)
-
-BentoML is a unified open-source model serving framework engineered to build production-ready machine learning APIs and multi-model inference systems at scale.
-
-**Key Capabilities:**
-- **Framework Agnostic**: Native serving support for PyTorch, TensorFlow, Hugging Face Transformers, ONNX, and vLLM.
-- **Adaptive Batching & Concurrency**: Intelligently groups concurrent incoming inference requests to maximize GPU tensor core utilization.
-- **Multi-Model Pipelines**: Composes complex multi-stage pipelines (e.g., speech-to-text -> LLM -> text-to-speech) across heterogenous hardware.
-- **Standardized Bento Packaging**: Bundles model weights, Python dependencies, and serving code into self-contained, reproducible container artifacts.
-
-[Explore full BentoML tool profile & getting started guide →](/tools/bentoml/)
 
 ---
 

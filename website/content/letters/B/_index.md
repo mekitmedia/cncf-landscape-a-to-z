@@ -8,7 +8,7 @@ layout: "list"
 
 # Summary for 01-B
 
-This week has a total of 20 items.
+This week has a total of 19 items.
 
 ## Featured 2027 Weekly Release
 
