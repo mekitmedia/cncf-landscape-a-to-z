@@ -1309,7 +1309,7 @@ items:
         error_message: null
         retry_count: 0
         agent: writer
-    removed: false
+    removed: true
   Axolotl:
     tasks:
       research:
@@ -1371,8 +1371,8 @@ items:
     tasks:
       research:
         status: completed
-        started_at: '2026-11-15T20:30:00.000000Z'
-        completed_at: '2026-11-15T20:30:00.000000Z'
+        started_at: '2026-11-15T20:30:00Z'
+        completed_at: '2026-11-15T20:30:00Z'
         output_file: data/weeks/00-A/research/authelia.yaml
         error_message: null
         retry_count: 0

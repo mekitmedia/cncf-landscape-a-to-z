@@ -16,13 +16,13 @@ letter_progress:
 - letter: A
   week_index: 0
   period_weeks: Weeks 1-2
-  total_items: 71
-  research_completed: 71
+  total_items: 70
+  research_completed: 70
   content_completed: 0
   blog_post_status: in_progress
-  completed_tasks: 71
-  total_tasks: 143
-  completion_percentage: 49.7
+  completed_tasks: 70
+  total_tasks: 141
+  completion_percentage: 49.6
 - letter: B
   week_index: 1
   period_weeks: Weeks 3-4
@@ -279,9 +279,9 @@ status_counts:
   sandbox: 152
 summary:
   completed_blog_posts: 0
-  overall_completed_tasks: 271
-  overall_completion_percentage: 15.3
-  overall_total_tasks: 1774
+  overall_completed_tasks: 270
+  overall_completion_percentage: 15.2
+  overall_total_tasks: 1772
   total_blog_posts: 26
   total_categories: 13
   total_tools: 989

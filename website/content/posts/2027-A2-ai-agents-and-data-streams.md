@@ -8,7 +8,7 @@ week: 2
 
 Welcome back to Week 2 of our 52-week cloud-native journey! In [Part 1](/posts/2027-a1-cloud-platforms-and-security/), we explored 33 foundational infrastructure projects covering GitOps, Kubernetes orchestration, networking, and zero-trust security.
 
-This week, we dive into the second half of **Letter A**: 38 projects powering **Generative AI, Autonomous Agent Frameworks, Distributed Big Data, and Event-Driven Serverless Compute**.
+This week, we dive into the second half of **Letter A**: 37 projects powering **Generative AI, Autonomous Agent Frameworks, Distributed Big Data, and Event-Driven Serverless Compute**.
 
 While traditional big data stalwarts anchor the data tier, the defining frontier of this week's catalog is the emergence of agentic infrastructure. We have structured this edition into four distinct, thematic sections:
 
@@ -28,9 +28,9 @@ Over the next seven days, we spotlight four transformative projects at the foref
 
 ---
 
-### The Curated Listicle: 38 AI, Big Data & Serverless Projects
+### The Curated Listicle: 37 AI, Big Data & Serverless Projects
 
-Below is our complete guide to the 38 projects across our four designated sections.
+Below is our complete guide to the 37 projects across our four designated sections.
 
 ---
 
@@ -107,30 +107,6 @@ Agent2Agent (A2A) is an open protocol enabling communication and interoperabilit
 - Extensibility: Designed to allow developers to define custom capabilities and schemas for their specific use cases while maintaining compatibility.
 
 [Explore full Agent2agent tool profile & getting started guide →](/tools/agent2agent/)
-
----
-
----
-
----
-
-#### [Autogen](https://microsoft.github.io/autogen/)
-
-**Status:** `Non-cncf` | **Code:** [GitHub Repository](https://github.com/microsoft/autogen)
-
-A programming framework for building agentic AI, developed by Microsoft. It enables the creation of applications using multiple agents that can converse with each other to solve tasks.
-
-**Key Capabilities:**
-- Multi-agent conversations
-- Customizable and conversable agents
-- Code execution capability
-
-[Explore full Autogen tool profile & getting started guide →](/tools/autogen/)
-
----
-
----
-
 
 ---
 
@@ -804,7 +780,7 @@ A generative AI-powered framework for testing virtual agents.
 
 ### What's Next in the Journey?
 
-With Week 2 concluded, we have completed our 360-degree survey of **all 71 projects in Letter A**!
+With Week 2 concluded, we have completed our 360-degree survey of **all 70 projects in Letter A**!
 - From **Part 1**'s infrastructure behemoths ([Argo](/tools/argo/), [Atlantis](/tools/atlantis/), [Artifact Hub](/tools/artifact_hub/))
 - To **Part 2**'s agent game changers ([Agent Substrate](/tools/agent_substrate/), [Agentgateway](/tools/agentgateway/), [ADK](/tools/agent_development_kit/), [A2A](/tools/agent2agent/)) and the expansive Apache ecosystem ([Spark](/tools/apache_spark/), [Flink](/tools/apache_flink/)).
 
