@@ -38,9 +38,7 @@ Transform storage infrastructure and provide unified storage service
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Clone the ceph/ceph repository and build using cmake and ninja, or use container build tools.
-```
 {{< /callout >}}
 
 

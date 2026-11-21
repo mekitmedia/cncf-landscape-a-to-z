@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:39.257586'
 homepage_url: https://aws.amazon.com/serverless/sam/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: AWS Server Application Model (SAM)
 repo_url: https://github.com/aws/serverless-application-model
 status: completed
@@ -40,9 +40,7 @@ Developing, debugging, and deploying serverless architectures on AWS.
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Install AWS SAM CLI, run `sam init`, `sam build`, and `sam deploy --guided`.
-```
 {{< /callout >}}
 
 

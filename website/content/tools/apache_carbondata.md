@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:38.351323'
 homepage_url: https://carbondata.apache.org/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Apache CarbonData
 repo_url: https://github.com/apache/carbondata
 status: completed
@@ -40,9 +40,7 @@ Interactive analytics on massive datasets mixing full table scans and single-rec
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Include `carbondata-spark` dependency and write DataFrames using `.write.format('carbondata')`.
-```
 {{< /callout >}}
 
 

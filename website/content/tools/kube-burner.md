@@ -42,9 +42,7 @@ Useful for performing scale and performance testing of Kubernetes clusters, gath
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Install the latest stable version using the provided script: `curl -Ls https://raw.githubusercontent.com/kube-burner/kube-burner/refs/heads/main/hack/install.sh`
-```
 {{< /callout >}}
 
 

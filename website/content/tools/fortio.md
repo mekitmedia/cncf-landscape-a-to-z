@@ -54,9 +54,7 @@ Useful for benchmarking APIs, load testing web servers, and debugging service la
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Run the server via Docker with `docker run -p 8080:8080 -p 8079:8079 fortio/fortio server &` and initiate a test run using `docker run fortio/fortio load -logger-force-color http://www.google.com/`.
-```
 {{< /callout >}}
 
 

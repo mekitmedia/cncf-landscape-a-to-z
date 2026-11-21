@@ -42,9 +42,7 @@ HDFS is primary distributed storage used by Hadoop applications. A MapReduce app
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 The command `bin/hdfs dfs -help` lists the commands supported by Hadoop shell to interact with HDFS.
-```
 {{< /callout >}}
 
 

@@ -37,9 +37,7 @@ Securing software update systems and protecting against supply chain attacks.
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Check out the Usage examples and Documentation linked in the repository.
-```
 {{< /callout >}}
 
 

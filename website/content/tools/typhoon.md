@@ -41,9 +41,7 @@ Practical for labs, datacenters, and clouds.
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Define a Kubernetes cluster by using the Terraform module for your chosen platform and operating system.
-```
 {{< /callout >}}
 
 

@@ -46,9 +46,7 @@ Working with SSH, Kubernetes, databases, RDP, cloud consoles, internal web servi
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 To set up a single-instance Teleport cluster, follow our getting started guide.
-```
 {{< /callout >}}
 
 

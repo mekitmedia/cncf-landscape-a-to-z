@@ -39,9 +39,7 @@ Ideal for developers who need to run JavaScript securely within a WebAssembly en
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 To get started, clone the repository, build the project using Cargo targeting `wasm32-wasi`, and execute your JavaScript files with the WasmEdge runtime.
-```
 {{< /callout >}}
 
 

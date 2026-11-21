@@ -6,7 +6,7 @@ description: Enterprise-grade, commercial-friendly agentic workflow platform for
 homepage_url: http://astron.ai/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Astron Agent
 repo_url: https://github.com/iflytek/astron-agent
 status: completed
@@ -44,9 +44,7 @@ Building scalable, production-ready intelligent agent applications. Orchestratin
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Deploy using Docker Compose: `git clone https://github.com/iflytek/astron-agent.git && cd docker/astronAgent && docker compose -f docker-compose-with-auth.yaml up -d`. Access the Casdoor Admin Interface at `http://localhost:8000` (default login: admin/123). Access the Application Frontend at `http://localhost/`
-```
 {{< /callout >}}
 
 

@@ -40,9 +40,7 @@ Connecting systems, services, APIs and devices intelligently without creating po
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Download Mule (Standalone or Anypoint Studio), confirm you have Java SE 8 Update 152 installed, and launch Mule Studio or standalone from the command line.
-```
 {{< /callout >}}
 
 

@@ -42,9 +42,7 @@ Ideal for scenarios requiring high-throughput, low-latency messaging, distribute
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 To get started with Pulsar, visit the official website to download the latest release or use the Docker image via `docker pull apachepulsar/pulsar-all`. Detailed setup and configuration guides are available in the documentation at https://pulsar.apache.org/.
-```
 {{< /callout >}}
 
 

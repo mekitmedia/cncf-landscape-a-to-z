@@ -8,7 +8,7 @@ description: Develop more efficiently with Functions, an event-driven serverless
 homepage_url: https://azure.microsoft.com/en-us/services/functions/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Azure Functions
 repo_url: https://github.com/Azure/azure-functions-host
 status: completed
@@ -42,9 +42,7 @@ Building serverless APIs, processing file uploads in real-time, automating tasks
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Check the official documentation to set up your first function app.
-```
 {{< /callout >}}
 
 

@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:39.269140'
 homepage_url: https://arc.codes/docs/en/get-started/quickstart
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Architect
 repo_url: https://github.com/architect/functions
 status: completed
@@ -40,9 +40,7 @@ Rapidly developing, testing, and deploying serverless web apps and event-driven 
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Install via `npm i -g @architect/architect`, run `arc init myapp`, and launch `arc sandbox`.
-```
 {{< /callout >}}
 
 

@@ -10,7 +10,7 @@ description: Open Source CI/CD platform with advanced features and architecture.
 homepage_url: https://agola.io
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Agola
 repo_url: https://github.com/agola-io/agola
 status: completed
@@ -46,9 +46,7 @@ Building flexible internal CI/CD pipelines running inside isolated Kubernetes po
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Deploy Agola on Kubernetes via Helm charts and trigger builds with the `agola` CLI.
-```
 {{< /callout >}}
 
 

@@ -6,7 +6,7 @@ description: High-performance Rust stream processing engine, providing powerful 
 homepage_url: https://arkflow-rs.com/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: ArkFlow
 repo_url: https://github.com/arkflow-rs/arkflow
 status: completed
@@ -42,9 +42,7 @@ Edge stream filtering, high-speed telemetry log processing, and real-time event 
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Add ArkFlow to `Cargo.toml`, configure stream pipeline, and run via `cargo run`.
-```
 {{< /callout >}}
 
 

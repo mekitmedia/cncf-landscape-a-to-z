@@ -7,7 +7,7 @@ description: Anteon is a platform that combines effortless Kubernetes Monitoring
 homepage_url: https://getanteon.com/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Anteon
 repo_url: https://github.com/getanteon/anteon
 status: completed
@@ -43,9 +43,7 @@ Stress testing Kubernetes microservices and visualizing live cluster traffic bot
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Deploy Anteon agent via Helm: `helm install anteon anteon/anteon`.
-```
 {{< /callout >}}
 
 

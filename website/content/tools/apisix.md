@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:39.027214'
 homepage_url: https://apisix.apache.org/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: APISIX
 repo_url: https://github.com/apache/apisix
 status: completed
@@ -40,9 +40,7 @@ Used to handle traditional north-south traffic, as well as east-west traffic bet
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Visit https://apisix.apache.org/ or check out the GitHub repository at https://github.com/apache/apisix to get started.
-```
 {{< /callout >}}
 
 

@@ -7,7 +7,7 @@ description: Amazon EKS Anywhere is a new deployment option for Amazon EKS that 
 homepage_url: https://aws.amazon.com/eks/eks-anywhere
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Amazon Elastic Kubernetes Service Anywhere (Amazon EKS Anywhere)
 repo_url: https://github.com/aws/eks-anywhere
 status: completed
@@ -43,9 +43,7 @@ Running regulated workloads on-premises while maintaining operational consistenc
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Install `eksctl-anywhere` and run `eksctl anywhere create cluster`.
-```
 {{< /callout >}}
 
 

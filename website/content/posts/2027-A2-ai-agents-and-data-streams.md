@@ -1,7 +1,7 @@
 ---
 title: "Cruising through the 'A's (Part 2): AI Agents, Streaming Big Data, and Serverless"
 date: 2027-01-11T09:00:00Z
-draft: false
+draft: true
 letter: "A"
 week: 2
 ---

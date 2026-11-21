@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:38.623446'
 homepage_url: https://tvm.apache.org/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Apache TVM
 repo_url: https://github.com/apache/tvm
 status: completed
@@ -40,9 +40,7 @@ Deploying deep learning models to edge devices, accelerating cloud inference, an
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Install via `pip install apache-tvm` and compile models using `tvm.relay`.
-```
 {{< /callout >}}
 
 

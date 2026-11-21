@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:39.301961'
 homepage_url: https://openserverless.apache.org/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Apache OpenServerless
 repo_url: https://github.com/apache/openserverless
 status: completed
@@ -40,9 +40,7 @@ Building on-premises serverless application platforms and event-driven automatio
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Install `ops` CLI, run `ops setup` on your Kubernetes cluster, and deploy functions.
-```
 {{< /callout >}}
 
 

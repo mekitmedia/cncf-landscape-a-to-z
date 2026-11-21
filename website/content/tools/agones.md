@@ -6,7 +6,7 @@ description: Agones is a library for hosting, running, and scaling dedicated gam
 homepage_url: https://agones.dev/site/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Agones
 repo_url: https://github.com/agones-dev/agones
 status: completed
@@ -42,9 +42,7 @@ Hosting multiplayer games requiring dedicated servers on Kubernetes.
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Check out the official documentation on the Agones website at agones.dev.
-```
 {{< /callout >}}
 
 

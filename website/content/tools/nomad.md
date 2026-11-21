@@ -44,9 +44,7 @@ Nomad is an easy-to-use, flexible, and performant workload orchestrator that can
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Refer to the Getting Started tutorials for instructions on setting up a local Nomad cluster for non-production use.
-```
 {{< /callout >}}
 
 

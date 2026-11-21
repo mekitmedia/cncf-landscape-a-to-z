@@ -42,12 +42,10 @@ Next-Gen API Gateway, Hybrid Application Migration, Complex Tenancy Environments
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Try installing this release:
 helm install kgateway-crds oci://cr.kgateway.dev/kgateway-dev/charts/kgateway-crds --version v2.4.7 --namespace kgateway-system --create-namespace
 helm install kgateway oci://cr.kgateway.dev/kgateway-dev/charts/kgateway --version v2.4.7 --namespace kgateway-system --create-namespace
 
-```
 {{< /callout >}}
 
 

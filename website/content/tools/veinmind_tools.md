@@ -42,9 +42,7 @@ Securing local container workloads and images by running comprehensive vulnerabi
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Quickly scan a local image or container using the provided run script: `./run.sh scan [image/container]`.
-```
 {{< /callout >}}
 
 

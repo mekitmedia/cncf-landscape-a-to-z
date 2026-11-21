@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:39.384056'
 homepage_url: https://www.airshipit.org/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Airship
 repo_url: https://github.com/airshipit/treasuremap
 status: completed
@@ -40,9 +40,7 @@ Automating telecommunications cloud infrastructure and private cloud bare metal 
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Use `airshipctl` CLI to bootstrap ephemeral clusters and provision target sites.
-```
 {{< /callout >}}
 
 

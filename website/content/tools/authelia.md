@@ -8,7 +8,7 @@ description: Authelia is an open-source authentication and authorization server 
 homepage_url: https://www.authelia.com
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Authelia
 repo_url: https://github.com/authelia/authelia
 status: completed
@@ -48,9 +48,7 @@ Securing internal homelab and enterprise services behind reverse proxies with 2F
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Authelia can be deployed via Docker Compose or Kubernetes Helm charts. Configure an authentication backend and wire Authelia's forward-auth endpoint into your ingress reverse proxy.
-```
 {{< /callout >}}
 
 

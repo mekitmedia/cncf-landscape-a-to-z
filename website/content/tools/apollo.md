@@ -5,7 +5,7 @@ description: Apollo is a reliable open-source configuration management system
 homepage_url: https://www.apolloconfig.com/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Apollo
 repo_url: https://github.com/apolloconfig/apollo
 status: completed
@@ -41,9 +41,7 @@ Centralized configuration for microservices, dynamic feature flagging, and live 
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Deploy Apollo via Docker Compose quickstart and integrate client SDKs.
-```
 {{< /callout >}}
 
 

@@ -45,9 +45,7 @@ Visualizing logs, metrics, and traces, creating dynamic monitoring dashboards, a
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Visit the official download page to get the binaries or follow the installation guides.
-```
 {{< /callout >}}
 
 

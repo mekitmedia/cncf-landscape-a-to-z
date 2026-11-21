@@ -38,9 +38,7 @@ Building distributed storage systems for object, block, and file storage that ca
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Quick instructions to build and install can be found in the INSTALL file in the repository.
-```
 {{< /callout >}}
 
 

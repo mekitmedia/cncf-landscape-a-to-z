@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:38.919660'
 homepage_url: https://github.com/GoogleChromeLabs/asyncify
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Asyncify
 repo_url: https://github.com/GoogleChromeLabs/asyncify
 status: completed
@@ -40,9 +40,7 @@ Bridging asynchronous JavaScript and Web APIs with synchronous WebAssembly code,
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Compile your code to WebAssembly, post-process it using `wasm-opt --asyncify`, and instantiate it in JavaScript using `Asyncify.instantiateStreaming` from `https://unpkg.com/asyncify-wasm?module`.
-```
 {{< /callout >}}
 
 

@@ -41,9 +41,7 @@ Writing highly efficient custom Deep-Learning primitives and optimizing deep lea
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Check out the official documentation at https://triton-lang.org/ for installation instructions and tutorials, or explore the Triton puzzles to practice running the Triton interpreter without a GPU.
-```
 {{< /callout >}}
 
 

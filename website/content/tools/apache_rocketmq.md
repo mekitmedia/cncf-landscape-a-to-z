@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:38.753244'
 homepage_url: https://rocketmq.apache.org/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Apache RocketMQ
 repo_url: https://github.com/apache/rocketmq
 status: completed
@@ -40,9 +40,7 @@ High-volume e-commerce order processing, financial event messaging, and real-tim
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Start NameServer (`mqnamesrv`) and Broker (`mqbroker -n localhost:9876`) to publish messages.
-```
 {{< /callout >}}
 
 

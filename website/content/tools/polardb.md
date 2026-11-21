@@ -39,9 +39,7 @@ PolarDB-X is ideal for solving database scalability bottlenecks in core transact
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 To get started with PolarDB-X, explore the documentation on the official website or repository, and use the K8S Operator for deployment.
-```
 {{< /callout >}}
 
 

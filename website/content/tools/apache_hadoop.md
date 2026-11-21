@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:38.534467'
 homepage_url: https://hadoop.apache.org/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Apache Hadoop
 repo_url: https://github.com/apache/hadoop
 status: completed
@@ -40,9 +40,7 @@ Batch data warehousing, historical log archiving, and petabyte-scale data pipeli
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Configure `core-site.xml`, format namenode with `hdfs namenode -format`, and run `start-dfs.sh`.
-```
 {{< /callout >}}
 
 

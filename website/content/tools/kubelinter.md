@@ -45,9 +45,7 @@ Teams checking early and often for security misconfigurations and DevOps best pr
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Run `kube-linter lint /path/to/your/yaml.yaml` to test your YAML files.
-```
 {{< /callout >}}
 
 

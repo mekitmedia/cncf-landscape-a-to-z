@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:39.418496'
 homepage_url: https://www.ansible.com/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Ansible
 repo_url: https://github.com/ansible/ansible
 status: completed
@@ -40,9 +40,7 @@ Automating multi-tier software deployments, configuring Kubernetes nodes, and ma
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Install via `pip install ansible` and execute playbooks using `ansible-playbook`.
-```
 {{< /callout >}}
 
 

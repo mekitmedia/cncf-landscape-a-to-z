@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:39.591655'
 homepage_url: https://avro.apache.org/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Apache Avro
 repo_url: https://github.com/apache/avro
 status: completed
@@ -42,9 +42,7 @@ Often used as the leading serialization format for record data and the first cho
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Get started by defining a schema in JSON format, then generate code or dynamically (de)serialize data using one of the many supported language SDKs (Java, Python, C++, etc).
-```
 {{< /callout >}}
 
 

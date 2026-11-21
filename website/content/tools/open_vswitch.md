@@ -40,9 +40,7 @@ Functions as a virtual switch in VM environments, exposing standard control and 
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 To install on Linux or FreeBSD, refer to the installation guide (`Documentation/intro/install/general.rst`) in the project repository.
-```
 {{< /callout >}}
 
 

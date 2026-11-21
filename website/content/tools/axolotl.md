@@ -5,7 +5,7 @@ description: Go ahead and axolotl questions
 homepage_url: https://github.com/axolotl-ai-cloud/axolotl
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Axolotl
 repo_url: https://github.com/axolotl-ai-cloud/axolotl
 status: completed
@@ -44,7 +44,6 @@ LLM Post-Training and Fine-Tuning. Developers can quickly fine-tune various stat
 
 {{< callout title="Getting Started" type="code" >}}
 ```bash
-```bash
 # Fetch axolotl examples
 axolotl fetch examples
 
@@ -52,7 +51,6 @@ axolotl fetch examples
 axolotl train examples/llama-3/lora-1b.yml
 ```
 
-```
 {{< /callout >}}
 
 

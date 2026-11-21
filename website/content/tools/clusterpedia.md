@@ -53,9 +53,7 @@ Operators and platform engineers use Clusterpedia to efficiently synchronize and
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Clusterpedia can be integrated into your multi-cluster setup using various tools or deployed as a standalone platform to begin synchronizing and searching your resources across clusters.
-```
 {{< /callout >}}
 
 

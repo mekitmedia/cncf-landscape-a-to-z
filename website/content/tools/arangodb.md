@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:38.571352'
 homepage_url: https://www.arangodb.com/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: ArangoDB
 repo_url: https://github.com/arangodb/arangodb
 status: completed
@@ -40,9 +40,7 @@ Knowledge graphs, fraud detection networks, recommendation systems, and multi-mo
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Run `docker run -p 8529:8529 -e ARANGO_ROOT_PASSWORD=secret arangodb/arangodb` and open `localhost:8529`.
-```
 {{< /callout >}}
 
 

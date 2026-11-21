@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:39.012781'
 homepage_url: https://github.com/apioak/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: APIOAK
 repo_url: https://github.com/apioak/apioak
 status: completed
@@ -40,9 +40,7 @@ Ideal for microservices architectures requiring a robust and performant API gate
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Visit the GitHub repository at https://github.com/apioak/apioak to clone the project and follow the installation guide.
-```
 {{< /callout >}}
 
 

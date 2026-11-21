@@ -42,9 +42,7 @@ Storing and managing large scale object data using an HTTP interface while maint
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 sdc-imgadm import -m /var/tmp/my_manifest.json -f /var/tmp/my_image
-```
 {{< /callout >}}
 
 

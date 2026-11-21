@@ -40,9 +40,7 @@ Use cases enabled by Elasticsearch include Retrieval Augmented Generation (RAG),
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 The simplest way to set up Elasticsearch is to create a managed deployment with Elasticsearch Service on Elastic Cloud. If you prefer to install and manage Elasticsearch yourself, you can download the latest version from elastic.co/downloads/elasticsearch. Quickly set up Elasticsearch and Kibana in Docker for local development or testing, using the start-local script.
-```
 {{< /callout >}}
 
 

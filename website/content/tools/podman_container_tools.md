@@ -45,9 +45,7 @@ Running containers on Linux, Mac and Windows systems using a Podman-managed virt
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Any recent Podman release should be able to run rootless without any additional configuration, though your operating system may require some additional configuration detailed in the [install guide](https://podman.io/getting-started/installation).
-```
 {{< /callout >}}
 
 

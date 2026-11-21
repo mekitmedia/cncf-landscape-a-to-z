@@ -6,7 +6,7 @@ description: Open source stream processing framework with powerful stream- and b
 homepage_url: https://flink.apache.org/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Apache Flink
 repo_url: https://github.com/apache/flink
 status: completed
@@ -42,9 +42,7 @@ Real-time fraud detection, live telemetry processing, complex event processing, 
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Deploy using Flink Kubernetes Operator or start local cluster via `./bin/start-cluster.sh`.
-```
 {{< /callout >}}
 
 

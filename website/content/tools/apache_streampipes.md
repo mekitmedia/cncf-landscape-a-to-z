@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:38.807404'
 homepage_url: https://streampipes.apache.org/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Apache StreamPipes
 repo_url: https://github.com/apache/streampipes
 status: completed
@@ -40,9 +40,7 @@ Condition monitoring in smart manufacturing, predictive maintenance, and shop-fl
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Deploy via Docker Compose (`docker compose up -d`) and open `http://localhost:80`.
-```
 {{< /callout >}}
 
 

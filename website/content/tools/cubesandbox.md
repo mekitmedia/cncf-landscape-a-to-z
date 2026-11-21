@@ -44,9 +44,7 @@ AI Agent code execution, browser automation, OpenClaw integration, and RL traini
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Deploy CubeSandbox via one-click Terraform on cloud VMs, on bare-metal, or in a dev-environment, then use the built-in WebUI for visual management.
-```
 {{< /callout >}}
 
 

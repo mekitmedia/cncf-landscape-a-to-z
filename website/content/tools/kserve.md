@@ -42,9 +42,7 @@ KServe is ideal for high-scale, high-density and frequently-changing model servi
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Users can follow the quick installation guide to install KServe on their local machine or use Knative for serverless deployment.
-```
 {{< /callout >}}
 
 

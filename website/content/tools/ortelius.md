@@ -36,12 +36,10 @@ Ortelius is a platform that helps security teams manage and track open source vu
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 1. Go to app.deployhub.com and click Sign Up
 2. Enter your username, email, first name, last name, and organization name
 3. Check your email for an invitation link — click it to set your password and log in
 4. Connect GitHub via Profile → Connect GitHub
-```
 {{< /callout >}}
 
 

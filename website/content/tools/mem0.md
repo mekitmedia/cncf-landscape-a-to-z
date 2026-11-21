@@ -41,9 +41,7 @@ Ideal for AI Assistants (consistent, context-rich conversations), Customer Suppo
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 To get started, install the library using `pip install mem0ai` or `npm install mem0ai`. For a self-hosted server, use `docker compose up`. Alternatively, sign up at app.mem0.ai for the cloud platform.
-```
 {{< /callout >}}
 
 

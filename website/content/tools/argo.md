@@ -6,7 +6,7 @@ description: Kubernetes-native tools to run workflows, manage clusters, and do G
 homepage_url: https://argoproj.github.io/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Argo
 repo_url: https://github.com/argoproj/argo-cd
 status: completed
@@ -42,9 +42,7 @@ Automating GitOps continuous delivery across Kubernetes fleets and orchestrating
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Install Argo CD via `kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml`.
-```
 {{< /callout >}}
 
 

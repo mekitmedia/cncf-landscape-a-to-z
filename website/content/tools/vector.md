@@ -38,9 +38,7 @@ Reduce observability costs, transition between vendors seamlessly, enrich data q
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 To get started, follow our quickstart guide or install Vector.
-```
 {{< /callout >}}
 
 

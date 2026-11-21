@@ -6,7 +6,7 @@ description: Graph database optimized for fast analysis and real-time data proce
 homepage_url: https://age.apache.org/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Apache AGE
 repo_url: https://github.com/apache/age
 status: completed
@@ -42,9 +42,7 @@ Useful for those who want to leverage the flexibility of graph databases while m
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Install as a PostgreSQL extension and begin modeling data as nodes and edges following the tutorial at https://age.apache.org/age-manual/master/intro/setup.html.
-```
 {{< /callout >}}
 
 

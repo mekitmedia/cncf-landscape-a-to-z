@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:39.072971'
 homepage_url: https://mesos.apache.org/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Apache Mesos
 repo_url: https://github.com/apache/mesos
 status: completed
@@ -40,9 +40,7 @@ Heterogeneous cluster consolidation running Hadoop, Spark, and microservices on 
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Run via Docker images (`mesosphere/mesos-master`) to inspect two-level scheduling.
-```
 {{< /callout >}}
 
 

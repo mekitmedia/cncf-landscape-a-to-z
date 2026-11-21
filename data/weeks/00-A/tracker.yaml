@@ -48,9 +48,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-11-10T16:41:25.445117Z'
-        completed_at: '2026-11-10T16:41:25.445117Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/aibrix.md
         error_message: null
         retry_count: 0
@@ -67,9 +67,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-08-22T01:34:20.321215Z'
-        completed_at: '2026-08-22T01:34:20.321215Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/apiclarity.md
         error_message: null
         retry_count: 0
@@ -86,9 +86,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-08-27T01:42:50.433883Z'
-        completed_at: '2026-08-27T01:42:50.433883Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/apioak.md
         error_message: null
         retry_count: 0
@@ -105,9 +105,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-08-27T01:45:15.197559Z'
-        completed_at: '2026-08-27T01:45:15.197559Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/apisix.md
         error_message: null
         retry_count: 0
@@ -124,9 +124,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-01T23:20:00Z'
-        completed_at: '2026-09-01T23:20:00Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/aws_server_application_model_(sam).md
         error_message: null
         retry_count: 0
@@ -143,9 +143,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-08-28T01:50:22.317665Z'
-        completed_at: '2026-08-28T01:50:22.317665Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/aeraki_mesh.md
         error_message: null
         retry_count: 0
@@ -162,9 +162,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-21T02:02:20.471122Z'
-        completed_at: '2026-09-21T02:02:20.471122Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/agola.md
         error_message: null
         retry_count: 0
@@ -181,9 +181,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-22T02:06:48.977000Z'
-        completed_at: '2026-09-22T02:06:48.977000Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/airship.md
         error_message: null
         retry_count: 0
@@ -200,9 +200,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-23T21:37:50Z'
-        completed_at: '2026-09-23T21:37:50Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/akka.md
         error_message: null
         retry_count: 0
@@ -219,9 +219,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-01T01:34:05.296644Z'
-        completed_at: '2026-09-01T01:34:05.296644Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/akri.md
         error_message: null
         retry_count: 0
@@ -238,9 +238,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-23T21:37:50Z'
-        completed_at: '2026-09-23T21:37:50Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/alluxio.md
         error_message: null
         retry_count: 0
@@ -257,9 +257,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-23T21:37:50Z'
-        completed_at: '2026-09-23T21:37:50Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/amazon_elastic_kubernetes_service_anywhere_(amazon_eks_anywhere).md
         error_message: null
         retry_count: 0
@@ -276,9 +276,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-11-05T11:25:33.889515Z'
-        completed_at: '2026-11-05T11:25:33.889515Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/amazon_elastic_kubernetes_service_distro_(amazon_eks-d).md
         error_message: null
         retry_count: 0
@@ -295,9 +295,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-23T21:37:50Z'
-        completed_at: '2026-09-23T21:37:50Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/ambient.md
         error_message: null
         retry_count: 0
@@ -314,9 +314,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-23T21:37:50Z'
-        completed_at: '2026-09-23T21:37:50Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/ansible.md
         error_message: null
         retry_count: 0
@@ -333,9 +333,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-23T21:37:50Z'
-        completed_at: '2026-09-23T21:37:50Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/anteon.md
         error_message: null
         retry_count: 0
@@ -352,9 +352,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-23T21:37:50Z'
-        completed_at: '2026-09-23T21:37:50Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/antrea.md
         error_message: null
         retry_count: 0
@@ -371,9 +371,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-23T21:37:50Z'
-        completed_at: '2026-09-23T21:37:50Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/apache_camel_k.md
         error_message: null
         retry_count: 0
@@ -390,9 +390,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-23T21:37:50Z'
-        completed_at: '2026-09-23T21:37:50Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/apache_carbondata.md
         error_message: null
         retry_count: 0
@@ -409,9 +409,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-23T21:37:50Z'
-        completed_at: '2026-09-23T21:37:50Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/apache_druid.md
         error_message: null
         retry_count: 0
@@ -428,9 +428,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-23T21:37:50Z'
-        completed_at: '2026-09-23T21:37:50Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/apache_flink.md
         error_message: null
         retry_count: 0
@@ -447,9 +447,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-23T21:37:50Z'
-        completed_at: '2026-09-23T21:37:50Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/apache_hbase.md
         error_message: null
         retry_count: 0
@@ -466,9 +466,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-23T21:37:50Z'
-        completed_at: '2026-09-23T21:37:50Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/apache_hadoop.md
         error_message: null
         retry_count: 0
@@ -485,9 +485,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-23T21:37:50Z'
-        completed_at: '2026-09-23T21:37:50Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/apache_ignite.md
         error_message: null
         retry_count: 0
@@ -504,9 +504,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-23T21:37:50Z'
-        completed_at: '2026-09-23T21:37:50Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/apache_mesos.md
         error_message: null
         retry_count: 0
@@ -523,9 +523,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-23T21:37:50Z'
-        completed_at: '2026-09-23T21:37:50Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/apache_nifi.md
         error_message: null
         retry_count: 0
@@ -542,9 +542,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-23T21:37:50Z'
-        completed_at: '2026-09-23T21:37:50Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/apache_openserverless.md
         error_message: null
         retry_count: 0
@@ -561,9 +561,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-23T21:37:50Z'
-        completed_at: '2026-09-23T21:37:50Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/apache_openwhisk.md
         error_message: null
         retry_count: 0
@@ -580,9 +580,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-14T02:08:01.804261Z'
-        completed_at: '2026-09-14T02:08:01.804261Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/apache_pinot.md
         error_message: null
         retry_count: 0
@@ -599,9 +599,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-23T21:37:50Z'
-        completed_at: '2026-09-23T21:37:50Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/apache_rocketmq.md
         error_message: null
         retry_count: 0
@@ -618,9 +618,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-23T21:37:50Z'
-        completed_at: '2026-09-23T21:37:50Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/apache_spark.md
         error_message: null
         retry_count: 0
@@ -637,9 +637,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-23T21:37:50Z'
-        completed_at: '2026-09-23T21:37:50Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/apache_storm.md
         error_message: null
         retry_count: 0
@@ -656,9 +656,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-23T21:37:50Z'
-        completed_at: '2026-09-23T21:37:50Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/apache_streampipes.md
         error_message: null
         retry_count: 0
@@ -675,9 +675,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-23T21:37:50Z'
-        completed_at: '2026-09-23T21:37:50Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/apache_tvm.md
         error_message: null
         retry_count: 0
@@ -694,9 +694,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-23T21:37:50Z'
-        completed_at: '2026-09-23T21:37:50Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/apache_thrift.md
         error_message: null
         retry_count: 0
@@ -713,9 +713,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-23T21:37:50Z'
-        completed_at: '2026-09-23T21:37:50Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/apache_zeppelin.md
         error_message: null
         retry_count: 0
@@ -732,9 +732,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-23T21:37:50Z'
-        completed_at: '2026-09-23T21:37:50Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/apache_zookeeper.md
         error_message: null
         retry_count: 0
@@ -751,9 +751,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-23T21:37:50Z'
-        completed_at: '2026-09-23T21:37:50Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/apache_brpc.md
         error_message: null
         retry_count: 0
@@ -770,9 +770,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-08T12:00:00Z'
-        completed_at: '2026-09-08T12:00:00Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/apicurio_registry.md
         error_message: null
         retry_count: 0
@@ -789,9 +789,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-23T21:37:50Z'
-        completed_at: '2026-09-23T21:37:50Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/apollo.md
         error_message: null
         retry_count: 0
@@ -808,9 +808,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-23T21:37:50Z'
-        completed_at: '2026-09-23T21:37:50Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/appscale.md
         error_message: null
         retry_count: 0
@@ -827,9 +827,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-23T21:37:50Z'
-        completed_at: '2026-09-23T21:37:50Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/application_platform_for_lke.md
         error_message: null
         retry_count: 0
@@ -846,9 +846,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-23T21:37:50Z'
-        completed_at: '2026-09-23T21:37:50Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/arangodb.md
         error_message: null
         retry_count: 0
@@ -865,9 +865,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-23T21:37:50Z'
-        completed_at: '2026-09-23T21:37:50Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/architect.md
         error_message: null
         retry_count: 0
@@ -884,9 +884,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-23T21:37:50Z'
-        completed_at: '2026-09-23T21:37:50Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/argo.md
         error_message: null
         retry_count: 0
@@ -903,9 +903,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-23T21:37:50Z'
-        completed_at: '2026-09-23T21:37:50Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/arkflow.md
         error_message: null
         retry_count: 0
@@ -922,9 +922,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-23T21:37:50Z'
-        completed_at: '2026-09-23T21:37:50Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/arks.md
         error_message: null
         retry_count: 0
@@ -941,9 +941,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-08-12T13:27:22'
-        completed_at: '2026-08-12T13:27:22'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/armada.md
         error_message: null
         retry_count: 0
@@ -960,9 +960,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-08-15T01:41:36.748070'
-        completed_at: '2026-08-15T01:41:36.748070'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/artifact_hub.md
         error_message: null
         retry_count: 0
@@ -979,9 +979,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-08-25T01:53:38.973606Z'
-        completed_at: '2026-08-25T01:53:38.973606Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/aserto.md
         error_message: null
         retry_count: 0
@@ -998,9 +998,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-08-29T01:46:21.693778Z'
-        completed_at: '2026-08-29T01:46:21.693778Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/asyncify.md
         error_message: null
         retry_count: 0
@@ -1017,9 +1017,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-08-30T01:46:42.500399Z'
-        completed_at: '2026-08-30T01:46:42.500399Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/athenz.md
         error_message: null
         retry_count: 0
@@ -1036,9 +1036,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-08-31T01:38:31.623944Z'
-        completed_at: '2026-08-31T01:38:31.623944Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/atlantis.md
         error_message: null
         retry_count: 0
@@ -1055,9 +1055,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-02T01:55:27.841020Z'
-        completed_at: '2026-09-02T01:55:27.841020Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/authing.md
         error_message: null
         retry_count: 0
@@ -1074,9 +1074,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-05T01:37:12.703103Z'
-        completed_at: '2026-09-05T01:37:12.703103Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/automq.md
         error_message: null
         retry_count: 0
@@ -1093,9 +1093,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-11T01:58:48.241082Z'
-        completed_at: '2026-09-11T01:58:48.241082Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/avro.md
         error_message: null
         retry_count: 0
@@ -1112,9 +1112,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-12T01:36:29.905186Z'
-        completed_at: '2026-09-12T01:36:29.905186Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/azure_api_management.md
         error_message: null
         retry_count: 0
@@ -1131,9 +1131,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-13T01:52:34.878336Z'
-        completed_at: '2026-09-13T01:52:34.878336Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/azure_functions.md
         error_message: null
         retry_count: 0
@@ -1150,9 +1150,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-13T01:52:34.878336Z'
-        completed_at: '2026-09-13T01:52:34.878336Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/azure_service_fabric.md
         error_message: null
         retry_count: 0
@@ -1169,9 +1169,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-13T01:52:34.878336Z'
-        completed_at: '2026-09-13T01:52:34.878336Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/agent_development_kit.md
         error_message: null
         retry_count: 0
@@ -1188,9 +1188,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-18T01:46:56.044363Z'
-        completed_at: '2026-09-18T01:46:56.044363Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/agent_evaluation.md
         error_message: null
         retry_count: 0
@@ -1207,9 +1207,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-20T19:38:31.997326Z'
-        completed_at: '2026-09-20T19:38:31.997326Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/agent2agent.md
         error_message: null
         retry_count: 0
@@ -1226,9 +1226,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-20T20:26:46.164150Z'
-        completed_at: '2026-09-20T20:26:46.164150Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/agentgateway.md
         error_message: null
         retry_count: 0
@@ -1245,9 +1245,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-08-17T01:47:46.884550Z'
-        completed_at: '2026-08-17T01:47:46.884550Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/agno.md
         error_message: null
         retry_count: 0
@@ -1264,9 +1264,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-08-20T01:38:30.732922Z'
-        completed_at: '2026-08-20T01:38:30.732922Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/agones.md
         error_message: null
         retry_count: 0
@@ -1283,9 +1283,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-10T01:51:41.553680Z'
-        completed_at: '2026-09-10T01:51:41.553680Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/apache_age.md
         error_message: null
         retry_count: 0
@@ -1302,9 +1302,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-15T02:01:53.269832Z'
-        completed_at: '2026-09-15T02:01:53.269832Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/autogen.md
         error_message: null
         retry_count: 0
@@ -1321,9 +1321,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-20T18:26:05.086036Z'
-        completed_at: '2026-09-20T18:26:05.086036Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/axolotl.md
         error_message: null
         retry_count: 0
@@ -1340,9 +1340,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-09-20T22:28:22.558506Z'
-        completed_at: '2026-09-20T22:28:22.558506Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/astron_agent.md
         error_message: null
         retry_count: 0
@@ -1359,9 +1359,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-10-27T15:20:56.119160Z'
-        completed_at: '2026-10-27T15:20:56.119160Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/agent_substrate.md
         error_message: null
         retry_count: 0
@@ -1378,9 +1378,9 @@ items:
         retry_count: 0
         agent: researcher
       content:
-        status: completed
-        started_at: '2026-11-15T22:00:00.000000Z'
-        completed_at: '2026-11-15T22:00:00.000000Z'
+        status: pending
+        started_at: null
+        completed_at: null
         output_file: website/content/tools/authelia.md
         error_message: null
         retry_count: 0
@@ -1389,9 +1389,9 @@ items:
 week_tasks:
   tasks:
     blog_post:
-      status: completed
+      status: in_progress
       started_at: '2026-09-23T21:37:50Z'
-      completed_at: '2026-09-23T21:37:50Z'
+      completed_at: null
       output_file: website/content/posts/2027-A1-cloud-platforms-and-security.md
       error_message: null
       retry_count: 0

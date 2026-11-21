@@ -41,9 +41,7 @@ Standardize & Version Your Workflows, Let Everyone on Your Team Deploy to Kubern
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 See https://devspace.sh/docs/getting-started/installation
-```
 {{< /callout >}}
 
 

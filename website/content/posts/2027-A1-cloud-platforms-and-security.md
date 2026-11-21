@@ -1,7 +1,7 @@
 ---
 title: "Cruising through the 'A's (Part 1): Cloud Infrastructure, Orchestration, and Zero-Trust Security"
 date: 2027-01-04T09:00:00Z
-draft: false
+draft: true
 letter: "A"
 week: 1
 ---

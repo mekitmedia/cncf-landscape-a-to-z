@@ -44,9 +44,7 @@ Web Server, Load Balancer, Reverse Proxy, API Gateway, Content Cache
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 For a gentle introduction to NGINX basics, please see our Beginner’s Guide. To run a locally compiled binary: `sudo /usr/local/nginx/sbin/nginx`. Test with `curl localhost`.
-```
 {{< /callout >}}
 
 

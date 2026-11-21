@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:38.770746'
 homepage_url: https://spark.apache.org/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Apache Spark
 repo_url: https://github.com/apache/spark
 status: completed
@@ -40,9 +40,7 @@ Large-scale batch ETL pipelines, streaming analytics, ML feature engineering, an
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Install via `pip install pyspark` and launch interactive sessions via `pyspark`.
-```
 {{< /callout >}}
 
 

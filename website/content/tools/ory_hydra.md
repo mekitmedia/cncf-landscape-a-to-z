@@ -44,9 +44,7 @@ OAuth2 and OpenID Connect for single sign on, API access, and machine to machine
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Install the Ory CLI if you do not have it yet
-```
 {{< /callout >}}
 
 

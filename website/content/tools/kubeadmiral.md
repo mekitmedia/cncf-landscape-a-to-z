@@ -44,14 +44,12 @@ Managing Kubernetes resources across multiple clusters, migrating from single-cl
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 If you wish to see how KubeAdmiral works, you can easily start a cluster that includes the KubeAdmiral control plane on your local machine.
 
 ```console
 $ git clone https://github.com/kubewharf/kubeadmiral
 $ cd kubeadmiral
 $ make local-up
-```
 ```
 {{< /callout >}}
 

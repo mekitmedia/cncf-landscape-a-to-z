@@ -35,9 +35,7 @@ Deploying complicated machine learning, image recognition, and event processing 
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Get started with the official documentation at https://kubeedge.io/en/docs.
-```
 {{< /callout >}}
 
 

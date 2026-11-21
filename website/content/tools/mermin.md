@@ -45,9 +45,7 @@ Ideal for bridging the gap between application performance monitoring and IP-lev
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Deploy Mermin via Helm using `helm repo add elastiflow https://elastiflow.github.io/mermin` followed by `helm install mermin elastiflow/mermin --namespace mermin --create-namespace`.
-```
 {{< /callout >}}
 
 

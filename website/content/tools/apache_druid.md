@@ -5,7 +5,7 @@ description: A high performance real-time analytics database.
 homepage_url: https://druid.apache.org/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Apache Druid
 repo_url: https://github.com/apache/druid
 status: completed
@@ -41,9 +41,7 @@ Powering real-time user-facing analytics dashboards, clickstream tracking, and l
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Download binary and run `./bin/start-micro-quickstart`, opening UI at `http://localhost:8888`.
-```
 {{< /callout >}}
 
 

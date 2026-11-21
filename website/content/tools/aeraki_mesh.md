@@ -5,7 +5,7 @@ description: Aeraki Mesh allows you to manage any layer-7 traffic in a service m
 homepage_url: https://www.aeraki.net/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Aeraki Mesh
 repo_url: https://github.com/aeraki-mesh/aeraki
 status: completed
@@ -43,9 +43,7 @@ Ideal for microservices architectures that use a mix of protocols (RPC, messagin
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Visit the Aeraki Mesh quickstart guide on aeraki.net to deploy it alongside an Istio installation, or install it via Helm.
-```
 {{< /callout >}}
 
 

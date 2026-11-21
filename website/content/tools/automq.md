@@ -6,7 +6,7 @@ description: AutoMQ is a cloud-native fork of Kafka by separating storage to S3.
 homepage_url: https://www.automq.com
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: AutoMQ
 repo_url: https://github.com/AutoMQ/automq
 status: completed
@@ -46,9 +46,7 @@ Cloud-native data streaming, event-driven architectures, replacing traditional s
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Run AutoMQ locally using Docker (`curl -O https://raw.githubusercontent.com/AutoMQ/automq/refs/tags/1.5.5/docker/docker-compose.yaml && docker compose -f docker-compose.yaml up -d`) or deploy on Kubernetes for production via helm charts.
-```
 {{< /callout >}}
 
 

@@ -5,7 +5,7 @@ description: Terraform Pull Request Automation for Teams
 homepage_url: https://www.runatlantis.io/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Atlantis
 repo_url: https://github.com/runatlantis/atlantis
 status: completed
@@ -41,9 +41,7 @@ Running Terraform workflows directly from pull requests.
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Check out the guide at https://www.runatlantis.io/guide
-```
 {{< /callout >}}
 
 

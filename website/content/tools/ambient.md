@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:39.481911'
 homepage_url: https://www.ambient.run/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Ambient
 repo_url: https://github.com/AmbientRun/Ambient
 status: completed
@@ -40,9 +40,7 @@ Building real-time multiplayer 3D games, simulations, and virtual environments.
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Install Ambient CLI via `cargo install ambient` and run `ambient new`.
-```
 {{< /callout >}}
 
 

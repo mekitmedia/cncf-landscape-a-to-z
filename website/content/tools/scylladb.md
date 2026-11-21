@@ -40,9 +40,7 @@ Replacing Cassandra or DynamoDB setups for real-time big data workloads with red
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Run Scylla with Docker: `docker run --name scylla -d -p 8000:8000 scylladb/scylla:latest --alternator-port=8000 --alternator-write-isolation=always`
-```
 {{< /callout >}}
 
 

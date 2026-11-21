@@ -46,9 +46,7 @@ Ideal for IoT, crypto, finance, SaaS, and a myriad other domains, Timescale Clou
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 curl -sL https://tsdb.co/start-local | sh
-```
 {{< /callout >}}
 
 

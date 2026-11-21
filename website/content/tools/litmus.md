@@ -48,10 +48,8 @@ Litmus is a tool for Cloud-Native Chaos Engineering that lets teams test and imp
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 helm repo add litmuschaos https://litmuschaos.github.io/litmus-helm/
 helm install chaos litmuschaos/litmus --namespace=litmus --set portal.frontend.service.type=NodePort
-```
 {{< /callout >}}
 
 

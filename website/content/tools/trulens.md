@@ -44,9 +44,7 @@ Instrument any app with a decorator, score every step with LLM judges that expla
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 pip install trulens
-```
 {{< /callout >}}
 
 

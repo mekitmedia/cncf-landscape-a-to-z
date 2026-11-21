@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:39.285450'
 homepage_url: https://camel.apache.org
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Apache Camel K
 repo_url: https://github.com/apache/camel-k
 status: completed
@@ -40,9 +40,7 @@ Building event-driven microservice integrations and serverless ETL workflows on 
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Install `kamel` CLI and run `kamel run Integration.java --dev`.
-```
 {{< /callout >}}
 
 

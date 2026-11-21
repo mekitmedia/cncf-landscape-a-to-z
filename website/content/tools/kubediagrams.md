@@ -56,9 +56,7 @@ Visualizing cloud-native applications, cluster state analysis, infrastructure do
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 pip install KubeDiagrams
-```
 {{< /callout >}}
 
 

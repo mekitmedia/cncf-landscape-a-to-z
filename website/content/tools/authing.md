@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:39.637939'
 homepage_url: https://www.authing.cn
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Authing
 repo_url: https://github.com/Authing/Authing
 status: completed
@@ -42,9 +42,7 @@ Providing unified login experiences for SaaS platforms, managing enterprise work
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 To get started, developers can use the SDK or Authing Guard universal component to quickly launch a secure, customizable UI unified login form.
-```
 {{< /callout >}}
 
 

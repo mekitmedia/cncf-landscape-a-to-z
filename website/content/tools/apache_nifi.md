@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:38.734909'
 homepage_url: https://nifi.apache.org/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Apache NiFi
 repo_url: https://github.com/apache/nifi
 status: completed
@@ -40,9 +40,7 @@ Automating IoT edge ingestion, secure data routing across networks, and enterpri
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Download NiFi, start via `./bin/nifi.sh start`, and open `https://localhost:8443/nifi` in browser.
-```
 {{< /callout >}}
 
 

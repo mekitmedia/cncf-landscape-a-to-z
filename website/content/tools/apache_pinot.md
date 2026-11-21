@@ -5,7 +5,7 @@ description: A realtime distributed OLAP datastore.
 homepage_url: https://pinot.apache.org/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Apache Pinot
 repo_url: https://github.com/apache/pinot
 status: completed
@@ -41,9 +41,7 @@ Powering real-time user-facing analytics, ride-share dispatch metrics, and live 
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Launch quickstart cluster via `./bin/quick-start-streaming.sh` and access console at `localhost:9000`.
-```
 {{< /callout >}}
 
 

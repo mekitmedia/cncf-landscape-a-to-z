@@ -52,9 +52,7 @@ Zero-instrumentation observability with eBPF, continuous profiling, and AI-power
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 You can run Coroot as a Docker container or deploy it into any Kubernetes cluster. Check out the [Installation guide](https://docs.coroot.com/).
-```
 {{< /callout >}}
 
 

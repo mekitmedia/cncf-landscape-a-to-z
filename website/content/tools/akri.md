@@ -5,7 +5,7 @@ description: A Kubernetes Resource Interface for the Edge
 homepage_url: https://docs.akri.sh
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Akri
 repo_url: https://github.com/project-akri/akri
 status: completed
@@ -43,9 +43,7 @@ Simplifying edge computing deployments by automating the connection of cameras i
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Install Akri using its Helm charts (`helm install akri akri-helm-charts/akri`), apply an Akri Configuration (like ONVIF or udev) to your cluster, and deploy pods requesting those resources. See documentation at https://project-akri.github.io/akri/ and learn more about real-world discovery setups at https://oneuptime.com/blog/post/2026-02-09-akri-iot-device-discovery/view.
-```
 {{< /callout >}}
 
 

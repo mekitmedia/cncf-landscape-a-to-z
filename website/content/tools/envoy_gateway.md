@@ -41,9 +41,7 @@ Providing an open source application gateway using Envoy Proxy with dynamic conf
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 To clean up the quickstart, you can run 'helm uninstall eg -n envoy-gateway-system'.
-```
 {{< /callout >}}
 
 

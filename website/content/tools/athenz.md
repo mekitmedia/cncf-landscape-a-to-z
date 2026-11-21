@@ -6,7 +6,7 @@ description: Open source platform for X.509 certificate based service authentica
 homepage_url: https://www.athenz.io
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Athenz
 repo_url: https://github.com/AthenZ/athenz
 status: completed
@@ -42,9 +42,7 @@ Service identity in the form of short-lived X.509 certificates to all workloads 
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Read the documentation or clone the GitHub repo at https://github.com/AthenZ/athenz
-```
 {{< /callout >}}
 
 

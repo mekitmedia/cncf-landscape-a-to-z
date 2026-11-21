@@ -4,7 +4,7 @@ date: '2026-10-04T18:37:39.175796'
 homepage_url: https://www.alluxio.io/
 layout: single
 letter: A
-lifecycle_stage: tech_writing
+lifecycle_stage: first_pass
 project_name: Alluxio
 repo_url: https://github.com/alluxio/alluxio
 status: completed
@@ -40,9 +40,7 @@ Accelerating distributed machine learning training over remote object stores and
 
 
 {{< callout title="Getting Started" type="code" >}}
-```bash
 Deploy Alluxio on Kubernetes via Helm and mount object store buckets to `alluxio://` URIs.
-```
 {{< /callout >}}
 
 
