@@ -67,6 +67,6 @@ Agno supports deployment anywhere that runs containers, from local Docker to AWS
 
 - [PostgreSQL](/tools/postgresql/)
 
-- [Autogen](/tools/autogen/)
+- [Agent2agent](/tools/agent2agent/)
 
 

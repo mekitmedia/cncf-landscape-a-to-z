@@ -8,7 +8,7 @@ week: 1
 
 Welcome to the official launch of our 52-week cloud-native voyage! Over the next 365 days, we are methodically exploring the vast Cloud Native Computing Foundation (CNCF) Landscape—from **A to Z**, dedicating two focused weeks to each letter.
 
-We kick off with one of the most foundational and densely packed letters in the entire landscape: **A**. Spanning 71 verified projects in total, Letter A houses the operational backbone of modern cloud engineering: declarative GitOps engines, multi-cluster orchestrators, edge discoverers, API gateways, and zero-trust authentication proxies.
+We kick off with one of the most foundational and densely packed letters in the entire landscape: **A**. Spanning 70 verified projects in total, Letter A houses the operational backbone of modern cloud engineering: declarative GitOps engines, multi-cluster orchestrators, edge discoverers, API gateways, and zero-trust authentication proxies.
 
 To make this massive catalog digestible, we have broken Letter A into a two-part weekly series. **Part 1** focuses on Cloud Infrastructure, Kubernetes Platforms, Networking, and Security.
 
@@ -548,7 +548,7 @@ A lightweight, cross-language remote procedure call (RPC) framework with a power
 ### What's Next in Week 2?
 
 In next week's edition (**Part 2 of Letter A**), we shift our lens from cluster operations to the data and intelligence tier:
-- **GenAI & Agentic Frameworks**: AIBrix, AutoGen, Agno, Agentgateway, and Axolotl.
+- **GenAI & Agentic Frameworks**: AIBrix, Agno, Agentgateway, and Axolotl.
 - **Streaming & Big Data**: AutoMQ, Apache Flink, Apache Spark, and Apache Pinot.
 - **Serverless & WebAssembly**: AWS SAM, Azure Functions, Apache Camel K, and Asyncify.
 
