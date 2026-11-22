@@ -1,0 +1,47 @@
+project_name: Cerbos
+homepage_url: https://cerbos.dev/
+repo_url: https://github.com/cerbos/cerbos
+docs_url: https://docs.cerbos.dev/
+cncf_status: non-cncf
+summary: Cerbos is a stateless, cloud-native authorization service that decouples access control policies
+  from application source code.
+key_features:
+- Stateless authorization engine evaluating context-aware access control policies via high-performance
+  gRPC and REST APIs.
+- Human-readable declarative YAML policies combining Role-Based (RBAC) and Attribute-Based (ABAC) rules.
+- Embedded WebAssembly runtime and Cerbos Hub for distributed edge policy synchronization.
+- Interactive policy testing framework with built-in unit tests and CI/CD validation.
+recent_updates: Recent versions added Cerbos Hub edge policy distribution, expanded WebAssembly compilation
+  targets, and optimized query plan evaluations.
+use_cases: Decoupling authorization logic from microservices, multi-tenant B2B SaaS permissions, and centralized
+  policy enforcement.
+ecosystem_perspectives:
+  strengths: Stateless and blazing fast (sub-millisecond decisions); avoids embedding complex database
+    schemas into policy logic.
+  considerations: Requires client applications to fetch resource context data and pass it along with the
+    authorization check request.
+  community_discussions:
+  - Widely praised by product engineers for freeing developers from writing repetitive permission check
+    logic in application code.
+interesting_facts: Cerbos policies can generate executable database query filters (PlanResources API)
+  so SQL queries automatically return only authorized rows.
+get_started: Run Cerbos locally with Docker using docker run -p 3592:3592 ghcr.io/cerbos/cerbos:latest
+  server, and test policies with the cerbosctl CLI.
+related_tools:
+- Open Policy Agent
+- Cedar
+- SpiceDB
+latest_release:
+  version: v0.57.0
+  date: '2026-10-23T07:22:42Z'
+  release_notes_url: https://github.com/cerbos/cerbos/releases/tag/v0.57.0
+sources:
+- id: src_readme
+  title: Cerbos GitHub README
+  url: https://github.com/cerbos/cerbos
+  source_type: github_readme
+  quotes:
+  - Cerbos is an authorization layer that evolves with your product. It enables you to define powerful,
+    context-aware access control rules for your application resources in simple, intuitive YAML policies;
+    managed and deployed via your Git-ops infrastructure. It provides highly available APIs to make simple
+    requests to evaluate policies and make dynamic access decisions for your application.

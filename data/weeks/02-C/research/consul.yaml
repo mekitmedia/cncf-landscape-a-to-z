@@ -1,0 +1,46 @@
+project_name: Consul
+homepage_url: https://www.consul.io/
+repo_url: https://github.com/hashicorp/consul
+docs_url: https://developer.hashicorp.com/consul/docs
+cncf_status: non-cncf
+summary: Consul is a multi-cloud service networking platform providing service discovery, automated service
+  mesh, and distributed key-value configuration.
+key_features:
+- Distributed service discovery with automated health checking and DNS/HTTP query interfaces.
+- Full-featured service mesh with transparent Envoy sidecar proxies, mutual TLS (mTLS), and traffic permissions.
+- Distributed Key-Value store with atomic transactions and long-polling watch notifications for dynamic
+  configuration.
+- Multi-datacenter federation connecting services across heterogeneous clouds, on-premises datacenters,
+  and Kubernetes clusters.
+recent_updates: Recent versions bring enhanced Kubernetes service mesh zero-trust automation, updated
+  Envoy integrations, and optimized Raft consensus throughput.
+use_cases: Service discovery across hybrid cloud environments, microservice zero-trust mTLS encryption,
+  dynamic application configuration, and multi-cloud connectivity.
+ecosystem_perspectives:
+  strengths: Excels at bridging traditional virtual machines with modern Kubernetes clusters across multi-datacenter
+    topologies.
+  considerations: License transition to BSL by HashiCorp has motivated some community users to evaluate
+    open alternatives like CoreDNS or Istio.
+  community_discussions:
+  - A long-standing enterprise fixture for teams migrating legacy monolithic VM services into cloud-native
+    microservices.
+interesting_facts: Consul provides an integrated DNS server that allows applications to discover services
+  using standard domain lookups like my-service.service.consul.
+get_started: Download the Consul binary and start a local development agent with consul agent -dev, then
+  register services via HTTP or configuration files.
+related_tools:
+- CoreDNS
+- Istio
+- etcd
+latest_release:
+  version: v2.1.0
+  date: '2026-10-22T15:36:13Z'
+  release_notes_url: https://github.com/hashicorp/consul/releases/tag/v2.1.0
+sources:
+- id: src_readme
+  title: Consul GitHub README
+  url: https://github.com/hashicorp/consul
+  source_type: github_readme
+  quotes:
+  - Consul is a distributed, highly available, and data center aware solution to connect and configure
+    applications across dynamic, distributed infrastructure.

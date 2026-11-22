@@ -1,0 +1,42 @@
+project_name: C++
+homepage_url: https://isocpp.org/
+repo_url: https://github.com/cplusplus/draft
+docs_url: https://en.cppreference.com/w/cpp
+cncf_status: non-cncf
+summary: C++ is a high-performance compiled systems programming language with broad support for WebAssembly
+  compilation across cloud-native runtimes.
+key_features:
+- Deterministic resource management via RAII and zero-overhead abstractions.
+- Compilation to WebAssembly (Wasm/WASI) using Clang and Emscripten toolchains.
+- High-throughput native execution for edge compute, networking filters, and microservices.
+- Standard ISO C++ language specifications with continuous multi-year evolution.
+recent_updates: Draft C++ working paper updates incorporating modern concurrency primitives, contracts,
+  and modular compilation improvements.
+use_cases: Building high-performance Envoy proxies, WebAssembly plugins, edge runtimes, and low-latency
+  distributed storage systems.
+ecosystem_perspectives:
+  strengths: Unrivaled performance, hardware efficiency, and foundational ecosystem support across the
+    entire cloud-native infrastructure stack.
+  considerations: Steep learning curve, complex build configurations, and manual memory safety management
+    compared to modern memory-safe alternatives.
+  community_discussions:
+  - Extensively used in core CNCF engines including Envoy, Ceph, and Node.js native addons.
+interesting_facts: The ISO C++ draft repository contains the official sources for the working paper that
+  shapes future C++ international standards.
+get_started: Install Clang and CMake, or use Emscripten via emcc to compile C++ source code into WebAssembly
+  modules.
+related_tools:
+- Rust
+- Go
+- WebAssembly
+latest_release:
+  version: n4917
+  date: '2022-09-08T16:57:40Z'
+  release_notes_url: https://github.com/cplusplus/draft/releases/tag/n4917
+sources:
+- id: src_readme
+  title: C++ GitHub README
+  url: https://github.com/cplusplus/draft
+  source_type: github_readme
+  quotes:
+  - These are the sources used to generate drafts of the C++

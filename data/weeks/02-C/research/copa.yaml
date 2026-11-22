@@ -1,0 +1,45 @@
+project_name: Copa
+homepage_url: https://project-copa.github.io/copa/
+repo_url: https://github.com/project-copa/copa
+docs_url: https://project-copa.github.io/copa/docs/overview/
+cncf_status: sandbox
+summary: Copa (Copacetic) is an open-source CNCF Sandbox CLI tool for directly patching security vulnerabilities
+  in container images without rebuilding from source.
+key_features:
+- Direct container image patching updating vulnerable OS packages in place using scanner vulnerability
+  reports.
+- Integrates seamlessly with vulnerability scanners like Trivy to automatically target reported CVEs.
+- Fast patching performance executing in seconds without requiring full Dockerfile re-builds or source
+  checkouts.
+- Generates patched OCI container images with updated layers ready for registry publishing.
+recent_updates: Releases bring support for expanded Linux package managers (apk, dpkg, rpm), improved
+  BuildKit backend integration, and multi-arch image patching.
+use_cases: Automated DevSecOps vulnerability remediation, patching third-party container images where
+  source Dockerfiles are unavailable, and rapid CVE mitigation.
+ecosystem_perspectives:
+  strengths: Drastically reduces the mean-time-to-remediation (MTTR) for critical CVEs by automating package
+    updates directly in container artifacts.
+  considerations: Patches OS-level packages (apt, apk, yum); application-level dependency vulnerabilities
+    (npm, pip) still require code-level updates.
+  community_discussions:
+  - Originally created by Microsoft engineers to solve the operational nightmare of waiting days for upstream
+    base images to release CVE patches.
+interesting_facts: The name 'Copa' is short for Copacetic, meaning 'in excellent order'—reflecting the
+  goal of keeping container images continuously clean and compliant.
+get_started: Scan an image with Trivy to generate a report, then run copa patch -i image:tag -r report.json
+  to produce an immediately patched container image.
+related_tools:
+- Trivy
+- BuildKit
+- Docker
+latest_release:
+  version: v0.15.0
+  date: '2026-09-04T02:44:26Z'
+  release_notes_url: https://github.com/project-copacetic/copacetic/releases/tag/v0.15.0
+sources:
+- id: src_readme
+  title: Copa GitHub README
+  url: https://github.com/project-copa/copa
+  source_type: github_readme
+  quotes:
+  - For more details and how to get started, please refer to [full documentation](https://project-copacetic.github.io/copacetic/).

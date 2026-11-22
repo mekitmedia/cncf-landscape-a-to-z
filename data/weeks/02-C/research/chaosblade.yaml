@@ -1,0 +1,44 @@
+project_name: Chaosblade
+homepage_url: https://chaosblade.io/
+repo_url: https://github.com/chaosblade-io/chaosblade
+docs_url: https://chaosblade.io/docs
+cncf_status: sandbox
+summary: Chaosblade is an easy-to-use and powerful chaos engineering experiment toolkit supporting multi-platform,
+  multi-environment fault injection.
+key_features:
+- 'Broad multi-environment support: injects faults across bare metal, Docker, Kubernetes, and JVM applications.'
+- 'Rich fault injection library: CPU stress, memory overload, disk filling, network loss, process killing,
+  and Java exception injection.'
+- CLI-first architecture with lightweight agent footprint and zero runtime background overhead when idle.
+- Integration with chaos engineering platforms via standardized command-line and REST APIs.
+recent_updates: Recent versions bring support for modern Java 21 JVM fault injection, updated Kubernetes
+  operator compatibility, and arm64 binary builds.
+use_cases: Testing application resilience during high CPU/memory pressure, simulating network latency
+  between microservices, and validating Java middleware timeouts.
+ecosystem_perspectives:
+  strengths: CNCF Sandbox project; exceptionally rich application-level fault injection for Java/JVM stacks
+    in addition to OS-level faults.
+  considerations: Primarily focused on execution tools; full enterprise orchestration typically requires
+    pairing with the Chaosblade-Box management console.
+  community_discussions:
+  - Originally created by Alibaba and battle-tested during Double 11 shopping festivals to ensure platform
+    fault-tolerance.
+interesting_facts: Chaosblade includes specialized modules capable of injecting arbitrary latency or exceptions
+  into specific Java methods without recompiling code.
+get_started: Download the chaosblade release tarball, extract blade CLI, and inject a 50% CPU load experiment
+  with blade create cpu load --cpu-percent 50.
+related_tools:
+- Chaos Mesh
+- Chaos Toolkit
+- LitmusChaos
+latest_release:
+  version: blade-ai-v0.7.4
+  date: '2026-11-05T09:21:32Z'
+  release_notes_url: https://github.com/chaosblade-io/chaosblade/releases/tag/blade-ai-v0.7.4
+sources:
+- id: src_readme
+  title: Chaosblade GitHub README
+  url: https://github.com/chaosblade-io/chaosblade
+  source_type: github_readme
+  quotes:
+  - 'Wiki: [DeepWiki](https://deepwiki.com/chaosblade-io/chaosblade-for-deepwiki)'

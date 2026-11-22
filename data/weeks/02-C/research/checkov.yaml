@@ -1,0 +1,44 @@
+project_name: Checkov
+homepage_url: https://www.checkov.io/
+repo_url: https://github.com/bridgecrewio/checkov
+docs_url: https://www.checkov.io/docs/welcome.html
+cncf_status: non-cncf
+summary: Checkov is a static code analysis tool that scans Infrastructure as Code (IaC) configurations
+  for security and compliance misconfigurations.
+key_features:
+- Scans Terraform, CloudFormation, Kubernetes manifests, Helm charts, Dockerfiles, and Bicep.
+- Over 1,000 built-in security policies enforcing CIS benchmarks and industry compliance frameworks (PCI-DSS,
+  HIPAA, SOC 2).
+- Graph-based framework analysis detecting multi-resource security relationships and blast radius exposures.
+- Seamless CI/CD pipeline integration with automated pull request comments and blocking gates.
+recent_updates: Continuous releases adding graph-based Terraform policy evaluations, SBOM generation,
+  and expanded container scanning modules.
+use_cases: Shift-left cloud security, automated CI/CD pipeline gates, infrastructure compliance auditing,
+  and containerfile hardening.
+ecosystem_perspectives:
+  strengths: Broadest multi-framework IaC support in the industry, backed by an active community and extensive
+    out-of-the-box rule library.
+  considerations: Can produce high alert volumes on legacy codebases; requires fine-tuning suppressions
+    and baseline configurations.
+  community_discussions:
+  - The standard open-source tool for shifting cloud security left in GitHub Actions and GitLab CI.
+interesting_facts: Checkov builds an in-memory graph of all infrastructure resources to detect complex
+  misconfigurations that simple regex linters miss.
+get_started: Install Checkov via pip install checkov, and scan a Terraform directory by running checkov
+  -d /path/to/tf/code.
+related_tools:
+- Trivy
+- KubeLinter
+- tfsec
+latest_release:
+  version: 3.4.6
+  date: '2026-11-19T23:01:36Z'
+  release_notes_url: https://github.com/bridgecrewio/checkov/releases/tag/3.4.6
+sources:
+- id: src_readme
+  title: Checkov GitHub README
+  url: https://github.com/bridgecrewio/checkov
+  source_type: github_readme
+  quotes:
+  - '**Checkov** is a static code analysis tool for infrastructure as code (IaC) and also a software composition
+    analysis (SCA) tool for images and open source packages.'

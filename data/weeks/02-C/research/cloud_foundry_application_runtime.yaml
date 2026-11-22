@@ -1,0 +1,44 @@
+project_name: Cloud Foundry Application Runtime
+homepage_url: https://www.cloudfoundry.org/
+repo_url: https://github.com/cloudfoundry/cf-deployment
+docs_url: https://docs.cloudfoundry.org/
+cncf_status: non-cncf
+summary: Cloud Foundry Application Runtime is a proven, enterprise-grade cloud application platform providing
+  the gold standard 'cf push' developer experience.
+key_features:
+- Legendary 'cf push' workflow that automatically detects language runtimes, builds images, and scales
+  containers.
+- Self-healing application routing, health management, and automated zero-downtime rolling deploys.
+- Role-based multi-tenancy with strict Organization and Space isolation boundaries.
+- Service marketplace enabling developers to bind databases, message queues, and caching services on demand.
+recent_updates: Releases featuring integration with Korifi to bring the beloved Cloud Foundry developer
+  experience natively on top of Kubernetes.
+use_cases: Enterprise Platform-as-a-Service (PaaS), high-velocity software delivery, and standardized
+  multi-cloud application hosting.
+ecosystem_perspectives:
+  strengths: The benchmark for developer experience; allows engineers to focus 100% on code without worrying
+    about Dockerfiles or Kubernetes YAML.
+  considerations: Traditional deployment footprint requires substantial operational resources; modern
+    adoption favors Kubernetes-native Korifi.
+  community_discussions:
+  - 'Universally admired for popularizing the developer mantra: ''Here is my code. Run it on the cloud.
+    I don''t care how.'''
+interesting_facts: Cloud Foundry's buildpack technology was donated to CNCF and became the Cloud Native
+  Buildpacks graduated project.
+get_started: Install the Cloud Foundry CLI (cf), log in to an endpoint with cf login, navigate to your
+  app directory, and run cf push.
+related_tools:
+- Backstage
+- Buildpacks
+- OpenShift
+latest_release:
+  version: v8.19.0
+  date: '2026-08-28T19:19:13Z'
+  release_notes_url: https://github.com/cloudfoundry/cli/releases/tag/v8.19.0
+sources:
+- id: src_readme
+  title: Cloud Foundry Application Runtime GitHub README
+  url: https://github.com/cloudfoundry/cf-deployment
+  source_type: github_readme
+  quotes:
+  - Cloud Foundry

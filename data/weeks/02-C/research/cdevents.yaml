@@ -1,0 +1,43 @@
+project_name: CDEvents
+homepage_url: https://cdevents.dev/
+repo_url: https://github.com/cdevents/spec
+docs_url: https://cdevents.dev/docs/
+cncf_status: non-cncf
+summary: CDEvents is an open-source common specification for Continuous Delivery events, enabling vendor-neutral
+  interoperability across CI/CD tools.
+key_features:
+- Standardized event schema covering the full software lifecycle (builds, tests, deployments, environments).
+- Built on the CloudEvents standard, ensuring broad compatibility with cloud messaging systems.
+- Decouples CI/CD pipeline tools, allowing automated tool swapping without rewriting integration logic.
+- Enables unified DORA metrics collection and enterprise delivery observability across diverse pipeline
+  platforms.
+recent_updates: Specification v0.4 release introducing expanded incident events, software supply chain
+  security metadata, and enhanced SDKs in Go, Python, and Java.
+use_cases: Multi-tool CI/CD orchestration, automated DORA metrics tracking, software supply chain traceability,
+  and event-driven release gating.
+ecosystem_perspectives:
+  strengths: Governed by the Continuous Delivery Foundation (CDF); solves the fragmentation of incompatible
+    CI/CD webhook formats.
+  considerations: Adoption requires CI/CD tooling vendors and platform teams to emit and consume compliant
+    CDEvents payloads.
+  community_discussions:
+  - Championed by the Continuous Delivery Foundation alongside Tekton, Spinnaker, and Jenkins communities.
+interesting_facts: CDEvents standardizes critical pipeline milestones like 'pipelinerun started' or 'artifact
+  packaged' so analytics tools can ingest metrics uniformly.
+get_started: Explore the specification at cdevents.dev and use the official Python or Go SDKs to emit
+  your first CDEvent.
+related_tools:
+- CloudEvents
+- Tekton
+- Argo Events
+latest_release:
+  version: v0.5.1
+  date: '2026-04-15T15:21:43Z'
+  release_notes_url: https://github.com/cdevents/spec/releases/tag/v0.5.1
+sources:
+- id: src_readme
+  title: CDEvents GitHub README
+  url: https://github.com/cdevents/spec
+  source_type: github_readme
+  quotes:
+  - CDEvents is a common specification for Continuous Delivery events, enabling

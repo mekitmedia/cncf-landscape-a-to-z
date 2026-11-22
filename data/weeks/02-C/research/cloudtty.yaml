@@ -1,0 +1,45 @@
+project_name: CloudTTY
+homepage_url: https://cloudtty.github.io/cloudtty/
+repo_url: https://github.com/cloudtty/cloudtty
+docs_url: https://cloudtty.github.io/cloudtty/docs/
+cncf_status: non-cncf
+summary: CloudTTY is a friendly Kubernetes CloudShell and web terminal operator that provides interactive
+  browser-based terminal access to clusters.
+key_features:
+- CloudShell custom resource provisioning web terminal pods with pre-configured kubectl, helm, and debugging
+  tools.
+- Secure browser access over WebSockets with customizable authentication and role-based permissions.
+- Multi-cluster terminal proxying allowing administrators to jump into remote clusters from a single UI.
+- Configurable timeout and TTL mechanisms automatically destroying idle CloudShell sessions to conserve
+  cluster resources.
+recent_updates: Recent versions bring support for modern ttyd backends, updated client tool versions (kubectl
+  1.30+), and improved ingress TLS routing.
+use_cases: Interactive Kubernetes web consoles, developer playground portals, remote cluster troubleshooting,
+  and zero-client onboarding.
+ecosystem_perspectives:
+  strengths: Eliminates the requirement for developers to configure local kubeconfigs and CLI tools by
+    providing instant web-based terminal sessions.
+  considerations: Requires strict RBAC boundaries and secure ingress configuration to ensure terminal
+    sessions cannot be accessed by unauthorized users.
+  community_discussions:
+  - Maintained by DaoCloud and widely used in cloud management portals to deliver an AWS CloudShell-like
+    experience on Kubernetes.
+interesting_facts: CloudTTY uses the lightweight C-based ttyd utility inside container pods to bridge
+  Linux pseudo-terminals directly to browser WebSockets.
+get_started: Install CloudTTY using kubectl apply -f https://raw.githubusercontent.com/cloudtty/cloudtty/main/deploy/install.yaml,
+  and create a CloudShell CR.
+related_tools:
+- ContainerSSH
+- K9s
+- Teleport
+latest_release:
+  version: cloudtty-0.8.10
+  date: '2026-09-18T01:48:01Z'
+  release_notes_url: https://github.com/cloudtty/cloudtty/releases/tag/cloudtty-0.8.10
+sources:
+- id: src_readme
+  title: CloudTTY GitHub README
+  url: https://github.com/cloudtty/cloudtty
+  source_type: github_readme
+  quotes:
+  - English | [简体中文](https://github.com/cloudtty/cloudtty/blob/main/README_zh.md)

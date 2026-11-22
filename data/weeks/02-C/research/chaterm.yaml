@@ -1,0 +1,44 @@
+project_name: Chaterm
+homepage_url: https://github.com/chaterm/chaterm
+repo_url: https://github.com/chaterm/chaterm
+docs_url: https://github.com/chaterm/chaterm#readme
+cncf_status: non-cncf
+summary: Chaterm is an open-source AI-powered terminal and SSH client for managing EC2 instances, databases,
+  and Kubernetes clusters using natural language.
+key_features:
+- AI-powered command assistance translating natural language queries into executable bash and kubectl
+  commands.
+- Integrated multi-cloud management connecting AWS EC2, Kubernetes clusters, and database endpoints.
+- Session recording, terminal bookmarking, and multi-tab connection management.
+- Secure credential storage and encrypted SSH tunneling for remote infrastructure access.
+recent_updates: Releases adding support for modern LLM provider APIs, improved kubectl command generation,
+  and refined terminal UI themes.
+use_cases: Interactive Kubernetes debugging, cloud infrastructure troubleshooting, and onboarding developers
+  to complex command-line utilities.
+ecosystem_perspectives:
+  strengths: Combines terminal productivity with generative AI assistance directly where developers spend
+    their time.
+  considerations: Requires providing an LLM API key; teams must review AI-generated commands before executing
+    on production clusters.
+  community_discussions:
+  - Part of the rapidly growing wave of GenAI-native developer terminal tooling designed to reduce cognitive
+    syntax overhead.
+interesting_facts: Chaterm allows developers to ask questions like 'how do I find pods consuming high
+  memory in namespace prod?' and get ready-to-run kubectl snippets.
+get_started: Download the latest desktop application release from GitHub, configure your SSH or cloud
+  credentials, and enter commands in the terminal prompt.
+related_tools:
+- Warp
+- CloudTTY
+- K9s
+latest_release:
+  version: v0.13.0
+  date: '2026-11-19T09:46:30Z'
+  release_notes_url: https://github.com/chaterm/Chaterm/releases/tag/v0.13.0
+sources:
+- id: src_readme
+  title: Chaterm GitHub README
+  url: https://github.com/chaterm/chaterm
+  source_type: github_readme
+  quotes:
+  - Chaterm

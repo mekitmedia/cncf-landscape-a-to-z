@@ -1,0 +1,47 @@
+project_name: Chef Habitat
+homepage_url: https://www.chef.io/products/chef-habitat
+repo_url: https://github.com/habitat-sh/habitat
+docs_url: https://docs.chef.io/habitat/
+cncf_status: non-cncf
+summary: Chef Habitat is an automation platform that packages applications together with their configuration,
+  dependencies, and lifecycle behaviors.
+key_features:
+- Application-centric packaging format encapsulating runtime dependencies, secrets, and configuration.
+- Habitat Supervisor managing runtime clustering, automated rolling updates, and health monitoring.
+- Exportable to multiple deployment targets including Docker containers, tarballs, and native virtual
+  machine packages.
+- Dynamic peer-to-peer configuration gossiping across running service topologies.
+recent_updates: Maintenance releases providing security patches, updated core plan dependencies, and container
+  exporter enhancements.
+use_cases: Modernizing legacy applications for container deployment, multi-cloud application packaging,
+  and automated software release management.
+ecosystem_perspectives:
+  strengths: Treats the application—rather than the infrastructure—as the first-class unit of automation
+    and deployment.
+  considerations: Presents a proprietary packaging format that requires organizational buy-in compared
+    to standard OCI container images.
+  community_discussions:
+  - Historically pioneering for application-first deployment concepts that later influenced cloud-native
+    packaging tools.
+interesting_facts: Habitat's core philosophy is that applications should be responsible for managing their
+  own lifecycle behaviors, not the underlying host.
+get_started: Download the hab CLI, run hab setup to configure your environment, and build a plan using
+  hab pkg build .
+related_tools:
+- Cloud Native Buildpacks
+- Nix
+- Docker
+latest_release:
+  version: 2.1.23
+  date: '2026-06-11T20:59:54Z'
+  release_notes_url: https://github.com/habitat-sh/habitat/releases/tag/2.1.23
+sources:
+- id: src_readme
+  title: Chef Habitat GitHub README
+  url: https://github.com/habitat-sh/habitat
+  source_type: github_readme
+  quotes:
+  - The goal of Habitat is to allow you to automate your application behavior when you create your application,
+    and then bundle your application with the automation it needs to behave with the correct run time
+    behavior, update strategies, failure handling strategies, and scaling behavior, wherever you choose
+    to deploy it.

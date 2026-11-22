@@ -1,0 +1,48 @@
+project_name: Cilium
+homepage_url: https://cilium.io/
+repo_url: https://github.com/cilium/cilium
+docs_url: https://docs.cilium.io/
+cncf_status: graduated
+summary: Cilium is an open-source, eBPF-based networking, observability, and security solution for containerized
+  and cloud-native workloads.
+key_features:
+- High-performance eBPF-powered dataplane replacing kube-proxy with scalable BPF hash tables.
+- Identity-based Layer 3 to Layer 7 network security policy enforcement decoupled from IP addresses.
+- Hubble deep observability platform providing interactive service dependency maps and network metrics.
+- Transparent encryption (WireGuard and IPsec), integrated ingress/egress gateways, and sidecarless service
+  mesh.
+recent_updates: Recent releases bring expanded eBPF mutual authentication (mTLS), BGP enhancements, and
+  improved Gateway API performance.
+use_cases: Enterprise Kubernetes CNI, high-throughput container networking, multi-cluster mesh connectivity,
+  and zero-trust runtime network security.
+ecosystem_perspectives:
+  strengths: CNCF Graduated powerhouse; the undisputed gold standard for eBPF networking, scalability,
+    and deep kernel-level visibility.
+  considerations: Requires modern Linux kernel features (kernel 5.4+ recommended) to take full advantage
+    of advanced eBPF capabilities.
+  community_discussions:
+  - Adopted by major hyperscalers including Google GKE and AWS EKS Anywhere as their default networking
+    layer.
+interesting_facts: Cilium was the project that catalyzed the entire cloud-native eBPF revolution, leading
+  to the creation of the eBPF Foundation.
+get_started: Install the Cilium CLI and deploy Cilium into your Kubernetes cluster by running cilium install,
+  then verify health with cilium status.
+related_tools:
+- Calico
+- Flannel
+- Istio
+latest_release:
+  version: v1.20.5
+  date: '2026-11-17T09:53:42Z'
+  release_notes_url: https://github.com/cilium/cilium/releases/tag/v1.20.5
+sources:
+- id: src_readme
+  title: Cilium GitHub README
+  url: https://github.com/cilium/cilium
+  source_type: github_readme
+  quotes:
+  - Cilium is a networking, observability, and security solution with an eBPF-based dataplane.
+  - It provides a simple flat Layer 3 network with the ability to span multiple clusters in either a native
+    routing or overlay mode.
+  - It is L7-protocol aware and can enforce network policies on L3-L7 using an identity-based security
+    model

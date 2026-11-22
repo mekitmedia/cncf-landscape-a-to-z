@@ -1,0 +1,45 @@
+project_name: Connect RPC
+homepage_url: https://connectrpc.com/
+repo_url: https://github.com/connectrpc/connect-go
+docs_url: https://connectrpc.com/docs/introduction
+cncf_status: sandbox
+summary: Connect RPC is a family of lightweight, type-safe libraries for building browser-friendly, gRPC-compatible
+  HTTP APIs in Go, TypeScript, and Swift.
+key_features:
+- 'Tri-protocol support: seamlessly handles the Connect protocol, standard gRPC, and gRPC-Web on a single
+  endpoint.'
+- Direct browser accessibility without requiring complex gRPC-Web proxy sidecars (Envoy).
+- Built entirely on standard HTTP/1.1 and HTTP/2 semantics, easily working with standard reverse proxies
+  and CDNs.
+- Rich type-safety generated from standard Protocol Buffer (Protobuf) schema definitions.
+recent_updates: Recent releases feature enhanced streaming performance, expanded interceptor support,
+  and refined Go 1.22+ routing integration.
+use_cases: Modern web application APIs, microservice RPC backends, mobile-to-cloud communications, and
+  replacing REST/GraphQL with type-safe RPC.
+ecosystem_perspectives:
+  strengths: Eliminates the painful Envoy proxy requirement for web-to-backend gRPC, offering a dramatically
+    simpler developer experience.
+  considerations: Relies on Protocol Buffers for schema definitions, requiring a protobuf compilation
+    step (buf) in the build pipeline.
+  community_discussions:
+  - Created by Buf and rapidly adopted across the industry as the premier modern alternative to traditional
+    gRPC.
+interesting_facts: 'Connect requests can be inspected and called directly using standard cURL commands:
+  curl -X POST -H ''Content-Type: application/json'' ...'
+get_started: Install connectrpc.com/connect, generate Go or TypeScript code from your .proto schema using
+  buf, and mount the handler on http.DefaultServeMux.
+related_tools:
+- gRPC
+- Buf
+- Twirp
+latest_release:
+  version: v2.0.2
+  date: '2026-10-21T22:07:19Z'
+  release_notes_url: https://github.com/connectrpc/connect-go/releases/tag/v2.0.2
+sources:
+- id: src_readme
+  title: Connect RPC GitHub README
+  url: https://github.com/connectrpc/connect-go
+  source_type: github_readme
+  quotes:
+  - Connect is a slim library for building browser and gRPC-compatible HTTP APIs.

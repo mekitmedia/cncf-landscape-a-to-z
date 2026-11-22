@@ -1,0 +1,45 @@
+project_name: CyberArk Conjur
+homepage_url: https://www.conjur.org/
+repo_url: https://github.com/cyberark/conjur
+docs_url: https://docs.conjur.org/
+cncf_status: non-cncf
+summary: CyberArk Conjur is an enterprise-grade open-source secrets management and machine identity platform
+  designed for cloud-native workflows and CI/CD pipelines.
+key_features:
+- Centralized secrets storage, automatic rotation, and fine-grained role-based access control (RBAC).
+- 'Native Kubernetes integration: authenticates pods using native Kubernetes ServiceAccount tokens via
+  mutual TLS.'
+- Comprehensive audit trail recording every secret access request for compliance and forensic auditing.
+- Seamless integrations with CI/CD tools (Jenkins, GitHub Actions, GitLab) and DevOps platforms (Ansible,
+  Terraform).
+recent_updates: Releases featuring optimized Kubernetes authenticator sidecars, improved REST API throughput,
+  and updated OpenID Connect integrations.
+use_cases: Securing database credentials in Kubernetes pods, eliminating hardcoded secrets in CI/CD pipelines,
+  and enforcing zero-trust machine identity.
+ecosystem_perspectives:
+  strengths: Enterprise heritage with robust auditability and native integrations into CyberArk's broader
+    privileged access management (PAM) suite.
+  considerations: Requires deploying and maintaining Conjur server clusters or connecting to enterprise
+    Conjur/CyberArk infrastructure.
+  community_discussions:
+  - Preferred by enterprise security teams requiring strict audit logs and seamless alignment with corporate
+    CyberArk PAM policies.
+interesting_facts: Conjur was designed specifically for 'machine identities'—ensuring that microservices,
+  scripts, and CI jobs authenticate securely without human intervention.
+get_started: Deploy Conjur Open Source with Docker Compose using the quickstart guide at conjur.org, and
+  authenticate via the conjur CLI.
+related_tools:
+- HashiCorp Vault
+- Bank-Vaults
+- SPIRE
+latest_release:
+  version: v1.27.0
+  date: '2026-06-16T16:00:40Z'
+  release_notes_url: https://github.com/cyberark/conjur/releases/tag/v1.27.0
+sources:
+- id: src_readme
+  title: CyberArk Conjur GitHub README
+  url: https://github.com/cyberark/conjur
+  source_type: github_readme
+  quotes:
+  - Conjur

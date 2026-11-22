@@ -1,0 +1,44 @@
+project_name: Capsule
+homepage_url: https://projectcapsule.dev/
+repo_url: https://github.com/projectcapsule/capsule
+docs_url: https://projectcapsule.dev/docs/general/overview/
+cncf_status: sandbox
+summary: Capsule provides multi-tenancy and policy-based resource governance for Kubernetes clusters using
+  lightweight Tenant abstractions.
+key_features:
+- Tenant custom resource aggregating multiple Kubernetes namespaces under single administrative ownership.
+- Policy enforcement for resource quotas, node selectors, ingress hostnames, and storage classes.
+- Self-service namespace creation for tenant users without granting cluster-admin privileges.
+- Zero cluster disruption by working seamlessly alongside native Kubernetes RBAC and admission controllers.
+recent_updates: Recent v0.7.x releases bring enhanced tenant namespace labeling, cross-tenant isolation
+  enforcement, and improved proxy authentication.
+use_cases: SaaS multi-tenancy on shared Kubernetes clusters, corporate team isolation, and self-service
+  developer namespace provisioning.
+ecosystem_perspectives:
+  strengths: Enables multi-tenancy within a single shared cluster, dramatically reducing infrastructure
+    costs compared to cluster-per-team models.
+  considerations: Relies on soft multi-tenancy; requires kernel isolation tools like Kata Containers or
+    gVisor for untrusted multi-tenant workloads.
+  community_discussions:
+  - Praised by platform engineers for avoiding cluster proliferation and simplifying self-service developer
+    access.
+interesting_facts: Capsule overcomes Kubernetes' lack of hierarchical tenancy by treating groups of namespaces
+  as managed tenant boundaries.
+get_started: Install Capsule with Helm via helm install capsule projectcapsule/capsule, and define your
+  first Tenant custom resource.
+related_tools:
+- vcluster
+- Kiosk
+- Hierarchical Namespace Controller (HNC)
+latest_release:
+  version: v0.15.2
+  date: '2026-10-26T13:30:59Z'
+  release_notes_url: https://github.com/projectcapsule/capsule/releases/tag/v0.15.2
+sources:
+- id: src_readme
+  title: Capsule GitHub README
+  url: https://github.com/projectcapsule/capsule
+  source_type: github_readme
+  quotes:
+  - '**Join the community** on the [#capsule](https://kubernetes.slack.com/archives/C03GETTJQRL) channel
+    in the [Kubernetes Slack](https://slack.k8s.io/).'

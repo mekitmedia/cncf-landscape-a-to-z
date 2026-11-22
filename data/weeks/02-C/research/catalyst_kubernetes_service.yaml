@@ -1,0 +1,42 @@
+project_name: Catalyst Kubernetes Service
+homepage_url: https://catalystcloud.nz/services/compute/kubernetes-service/
+repo_url: https://github.com/catalyst-cloud/catalystcloud-k8s
+docs_url: https://docs.catalystcloud.nz/
+cncf_status: non-cncf
+summary: Catalyst Kubernetes Service provides automated, enterprise-grade managed Kubernetes clusters
+  hosted on New Zealand sovereign cloud infrastructure.
+key_features:
+- Certified Kubernetes conformant managed clusters running on open-source OpenStack infrastructure.
+- Automated node provisioning, cluster scaling, and non-disruptive rolling upgrades.
+- 100% New Zealand data sovereignty and local low-latency cloud hosting.
+- Native integration with Catalyst Cloud NVMe block storage, private networks, and load balancers.
+recent_updates: Regular upstream Kubernetes version updates and expanded support for automated cluster
+  API provisioning.
+use_cases: Sovereign cloud compute, public sector cloud-native workloads, and low-latency container hosting
+  across the Asia-Pacific region.
+ecosystem_perspectives:
+  strengths: Guarantees strict regional data sovereignty and compliance with New Zealand privacy regulations
+    on OpenStack.
+  considerations: Geographically focused on New Zealand infrastructure; not applicable for global multi-region
+    deployments outside the region.
+  community_discussions:
+  - Relied upon by New Zealand government agencies and enterprises prioritizing national data jurisdiction.
+interesting_facts: Catalyst Cloud is New Zealand's first dedicated OpenStack and CNCF-certified public
+  cloud service provider.
+get_started: Access the Catalyst Cloud management console or use Terraform with the OpenStack provider
+  to provision a Kubernetes cluster.
+related_tools:
+- OpenStack
+- Cluster API
+- Kind
+latest_release:
+  version: newton-eol
+  date: '2026-11-20T00:00:00Z'
+  release_notes_url: https://github.com/catalyst-cloud/magnum/releases
+sources:
+- id: src_readme
+  title: Catalyst Kubernetes Service GitHub README
+  url: https://github.com/catalyst-cloud/catalystcloud-k8s
+  source_type: github_readme
+  quotes:
+  - '.. image:: https://governance.openstack.org/badges/magnum.svg'

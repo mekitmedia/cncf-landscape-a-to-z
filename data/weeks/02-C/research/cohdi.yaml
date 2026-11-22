@@ -1,0 +1,47 @@
+project_name: CoHDI
+homepage_url: https://github.com/CoHDI
+repo_url: https://github.com/CoHDI
+docs_url: https://github.com/CoHDI/.github/blob/main/README.md
+cncf_status: sandbox
+summary: CoHDI (Composable Hardware in Disaggregated Infrastructure) is an open-source CNCF Sandbox project
+  bridging Kubernetes with dynamically composable hardware.
+key_features:
+- Integrates directly with Kubernetes Dynamic Resource Allocation (DRA) to dynamically attach PCIe and
+  CXL devices to worker nodes.
+- Composable-DRA-Driver reporting disaggregated hardware resource slices (GPUs, accelerators) to the Kubernetes
+  scheduler.
+- Dynamic-Device-Scaler coordinating PCIe switches to hot-add and hot-remove physical GPUs to servers
+  on demand.
+- Maximizes data center hardware utilization and energy efficiency by disaggregating compute and accelerator
+  pools.
+recent_updates: Ongoing work aligning with upstream Kubernetes Dynamic Resource Allocation (KEP-5007)
+  and expanding CXL fabric driver support.
+use_cases: Dynamic GPU hot-plugging for AI training pods, composable data center infrastructure, and maximizing
+  GPU cluster ROI.
+ecosystem_perspectives:
+  strengths: CNCF Sandbox project; pioneers the cutting-edge frontier of Composable Disaggregated Infrastructure
+    (CDI) within cloud-native computing.
+  considerations: Requires specialized hardware infrastructure (PCIe/CXL fabric switches and disaggregated
+    GPU pools).
+  community_discussions:
+  - Collaborating closely with Kubernetes SIG-Node, SIG-Scheduling, and hardware vendors to standardize
+    dynamic device allocation.
+interesting_facts: CoHDI allows a Kubernetes pod to request a GPU, triggers a physical PCIe switch to
+  attach a GPU to a node in real time, and detaches it when the pod terminates.
+get_started: Inspect the project architecture at github.com/CoHDI/.github, and review the composable-dra-driver
+  and dynamic-device-scaler repositories.
+related_tools:
+- Dynamic Resource Allocation (DRA)
+- KubeRay
+- Volcano
+latest_release: {}
+sources:
+- id: src_readme
+  title: CoHDI GitHub README
+  url: https://github.com/CoHDI
+  source_type: github_readme
+  quotes:
+  - 'CoHDI Project: Vision Statement'
+  - The objective is to cultivate a community-driven, standards-based ecosystem for next-generation architectures
+    built on Composable Hardware in Disaggregated Infrastructure
+  - integrating directly with Kubernetes' Dynamic Resource Allocation (DRA)

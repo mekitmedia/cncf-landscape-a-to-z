@@ -1,0 +1,47 @@
+project_name: Coder
+homepage_url: https://coder.com/
+repo_url: https://github.com/coder/coder
+docs_url: https://coder.com/docs
+cncf_status: non-cncf
+summary: Coder is an open-source platform that provisions self-hosted Cloud Development Environments (CDEs)
+  on your own infrastructure using Terraform.
+key_features:
+- Provisions cloud developer environments on any infrastructure (Kubernetes, Docker, VMs, bare metal,
+  public clouds) via standard Terraform templates.
+- 'Zero vendor lock-in: developers connect via their favorite local IDEs (VS Code, JetBrains), web browsers,
+  and standard SSH.'
+- 'Automated workspace lifecycle management: automated scheduling, auto-stop on idle, and pre-warmed workspace
+  pools.'
+- 'Fine-grained enterprise security: centralized access control, role-based permissions, and end-to-end
+  WireGuard peer-to-peer encryption.'
+recent_updates: Recent versions bring support for multi-organization workspaces, enhanced workspace proxies
+  for low-latency global teams, and updated JetBrains Gateway plugins.
+use_cases: Remote engineering workspaces, secure developer environments for regulated industries, rapid
+  engineer onboarding, and AI workstation provisioning.
+ecosystem_perspectives:
+  strengths: Self-hosted alternative to GitHub Codespaces; 100% open-source core powered by Terraform,
+    keeping source code and credentials inside your own network.
+  considerations: Requires operating Coder server infrastructure and designing organizational Terraform
+    workspace templates.
+  community_discussions:
+  - Praised by enterprise security teams for eliminating code exfiltration risks by keeping all code and
+    compute inside private clouds.
+interesting_facts: Coder establishes direct peer-to-peer WireGuard connections between a developer's laptop
+  and their remote workspace for near-zero latency typing.
+get_started: Install Coder with curl -L https://coder.com/install.sh | sh, run coder server to start the
+  server, and provision workspaces via the web UI.
+related_tools:
+- Gitpod
+- DevSpace
+- Devcontainer
+latest_release:
+  version: v2.38.10
+  date: '2026-11-16T05:55:30Z'
+  release_notes_url: https://github.com/coder/coder/releases/tag/v2.38.10
+sources:
+- id: src_readme
+  title: Coder GitHub README
+  url: https://github.com/coder/coder
+  source_type: github_readme
+  quotes:
+  - Self-Hosted Cloud Development Environments and AI Agents

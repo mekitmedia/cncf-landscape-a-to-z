@@ -1,0 +1,46 @@
+project_name: Container Storage Interface (CSI)
+homepage_url: https://github.com/container-storage-interface/spec
+repo_url: https://github.com/container-storage-interface/spec
+docs_url: https://kubernetes-csi.github.io/docs/
+cncf_status: non-cncf
+summary: Container Storage Interface (CSI) is an industry-standard specification for exposing block and
+  file storage systems to containerized workloads.
+key_features:
+- Universal specification enabling third-party storage vendors to write a single driver that works across
+  Kubernetes, Mesos, and Nomad.
+- 'Out-of-tree plugin architecture: storage drivers are developed, released, and updated without compiling
+  code into Kubernetes core.'
+- Standardized operations for volume provisioning, attaching, mounting, snapshotting, and dynamic expansion.
+- Extensive production ecosystem with hundreds of CSI driver implementations across cloud and on-premises
+  storage arrays.
+recent_updates: CSI specification v1.10 updates refining volume health monitoring, capacity tracking,
+  and volume group snapshot APIs.
+use_cases: The foundational interface implemented by all Kubernetes persistent volume storage plugins
+  (Ceph, EBS, Longhorn, Portworx).
+ecosystem_perspectives:
+  strengths: The universal storage standard that successfully extracted storage driver code completely
+    out of the core Kubernetes codebase.
+  considerations: CSI is an RPC specification; storage providers implement the spec, and cluster admins
+    deploy their corresponding driver pods.
+  community_discussions:
+  - Collaboratively authored by the CNCF, Kubernetes, Cloud Foundry, and Mesos communities to solve storage
+    vendor lock-in.
+interesting_facts: Before CSI, every storage provider had to submit pull requests directly into the main
+  Kubernetes git repository to add storage support.
+get_started: Inspect the specification repository at github.com/container-storage-interface/spec and review
+  the Kubernetes CSI deployment sidecars.
+related_tools:
+- Container Network Interface (CNI)
+- Rook
+- Ceph
+latest_release:
+  version: v1.14.0
+  date: '2026-11-17T18:05:19Z'
+  release_notes_url: https://github.com/container-storage-interface/spec/releases/tag/v1.14.0
+sources:
+- id: src_readme
+  title: Container Storage Interface (CSI) GitHub README
+  url: https://github.com/container-storage-interface/spec
+  source_type: github_readme
+  quotes:
+  - Container Storage Interface (CSI) Specification

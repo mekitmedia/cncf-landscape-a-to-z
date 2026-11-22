@@ -1,0 +1,44 @@
+project_name: Couchbase
+homepage_url: https://www.couchbase.com/
+repo_url: https://github.com/couchbase/couchbase-operator
+docs_url: https://docs.couchbase.com/operator/current/overview.html
+cncf_status: non-cncf
+summary: Couchbase Autonomous Operator manages enterprise Couchbase distributed multi-model NoSQL database
+  clusters natively on Kubernetes.
+key_features:
+- Combines memory-first key-value caching with flexible JSON document storage and SQL-compatible querying
+  (N1QL).
+- 'Automated Kubernetes cluster management: autonomous scaling, rolling upgrades, node rebalancing, and
+  self-healing failover.'
+- Integrated full-text search, real-time analytics, and vector search capabilities in a unified cluster.
+- Cross-Datacenter Replication (XDCR) enabling low-latency geo-distributed multi-cloud data synchronization.
+recent_updates: Autonomous Operator releases adding support for Kubernetes 1.30+, enhanced persistent
+  storage volume management, and vector indexing.
+use_cases: High-throughput web session caching, customer 360 profile management, distributed mobile data
+  sync, and mission-critical NoSQL backends.
+ecosystem_perspectives:
+  strengths: Memory-first architecture delivers sub-millisecond read/write latency; Couchbase Operator
+    automates complex stateful cluster operations.
+  considerations: Demands adequate RAM sizing to capitalize on its memory-first caching architecture.
+  community_discussions:
+  - A leading enterprise NoSQL platform favored by global brands requiring high-speed caching and flexible
+    document JSON schemas.
+interesting_facts: Couchbase's N1QL query language brought standard SQL syntax (SELECT, JOIN, WHERE) to
+  unstructured JSON documents years before other NoSQL databases.
+get_started: Install the Couchbase Autonomous Operator using Helm, and apply a CouchbaseCluster custom
+  resource to deploy an automated NoSQL cluster.
+related_tools:
+- MongoDB
+- Cassandra
+- Redis
+latest_release:
+  version: 1.7.1.1
+  date: '2026-11-20T00:00:00Z'
+  release_notes_url: https://github.com/couchbase/manifest/releases
+sources:
+- id: src_readme
+  title: Couchbase GitHub README
+  url: https://github.com/couchbase/couchbase-operator
+  source_type: github_readme
+  quotes:
+  - Couchbase

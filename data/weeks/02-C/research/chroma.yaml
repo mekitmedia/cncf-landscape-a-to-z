@@ -1,0 +1,45 @@
+project_name: Chroma
+homepage_url: https://www.trychroma.com/
+repo_url: https://github.com/chroma-core/chroma
+docs_url: https://docs.trychroma.com/
+cncf_status: non-cncf
+summary: Chroma is the AI-native, open-source embedding database designed to make it simple to build LLM
+  applications with pluggable memory and retrieval.
+key_features:
+- Python and JavaScript first-class client SDKs designed specifically for rapid AI application prototyping.
+- Built-in embedding generation supporting OpenAI, Hugging Face, Cohere, and local sentence transformers.
+- Full semantic search with metadata filtering, document storage, and approximate nearest neighbor (ANN)
+  indexes.
+- 'Dual deployment flexibility: runs fully embedded in-memory/on-disk or as a scalable distributed client-server
+  cluster.'
+recent_updates: Recent versions bring distributed Chroma clustering on Kubernetes, updated Rust-based
+  execution internals, and enhanced indexing throughput.
+use_cases: Retrieval-Augmented Generation (RAG), LLM conversational memory, semantic document search,
+  and multimodal embedding indexing.
+ecosystem_perspectives:
+  strengths: The simplest, fastest setup of any vector database in the AI ecosystem; can be running in
+    4 lines of Python code.
+  considerations: Originally designed for developer prototyping; multi-node distributed enterprise scaling
+    on Kubernetes is a newer architectural addition.
+  community_discussions:
+  - The default vector database across thousands of LangChain, LlamaIndex, and Crew AI tutorials and open-source
+    applications.
+interesting_facts: Chroma was engineered with the philosophy of 'batteries included'—it automatically
+  computes embeddings for your raw text if you don't provide an embedding model.
+get_started: Install with pip install chromadb, import chromadb, create a collection with client.create_collection('docs'),
+  and add text documents directly.
+related_tools:
+- Qdrant
+- Milvus
+- Weaviate
+latest_release:
+  version: 1.5.9
+  date: '2026-05-05T05:55:40Z'
+  release_notes_url: https://github.com/chroma-core/chroma/releases/tag/1.5.9
+sources:
+- id: src_readme
+  title: Chroma GitHub README
+  url: https://github.com/chroma-core/chroma
+  source_type: github_readme
+  quotes:
+  - 'pip install chromadb # python client'

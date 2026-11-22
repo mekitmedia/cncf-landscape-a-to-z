@@ -1,0 +1,48 @@
+project_name: Crew AI
+homepage_url: https://crewai.com/
+repo_url: https://github.com/crewAIInc/crewAI
+docs_url: https://docs.crewai.com/
+cncf_status: non-cncf
+summary: Crew AI is a cutting-edge open-source multi-agent framework that orchestrates role-playing autonomous
+  AI agents to collaborate and solve complex problems.
+key_features:
+- Role-playing agent architecture assigning explicit roles, goals, backstories, and specialized tools
+  to autonomous agents.
+- Flexible task delegation and sequential or hierarchical process orchestration mimicking real-world human
+  teams.
+- Extensive tool integration ecosystem supporting web browsing, code execution, search, and custom Python
+  functions.
+- Framework-agnostic LLM support compatible with OpenAI, Anthropic Claude, Ollama, Groq, and local open-source
+  models.
+recent_updates: Recent releases bring flow orchestration primitives, memory and state caching optimizations,
+  and enhanced enterprise tracing integrations.
+use_cases: Autonomous software development, comprehensive market research reports, automated content generation,
+  and multi-step customer support.
+ecosystem_perspectives:
+  strengths: The most intuitive, developer-friendly role-playing multi-agent framework in the AI ecosystem,
+    experiencing explosive community adoption.
+  considerations: Autonomous agent collaboration requires clear goal framing and guardrails to prevent
+    circular delegation or runaway API tokens.
+  community_discussions:
+  - Celebrated across developer communities worldwide for making multi-agent systems practical, elegant,
+    and fun to build.
+interesting_facts: 'Crew AI models agent interactions after human corporate teams: you can assign an agent
+  as a ''Manager'' who delegates subtasks to specialist ''Workers''.'
+get_started: Install with pip install crewai, define your agents, tasks, and crew in Python, and trigger
+  the workflow with crew.kickoff().
+related_tools:
+- CAMEL
+- AutoGen
+- LangGraph
+latest_release:
+  version: 1.15.44
+  date: '2026-11-19T17:59:49Z'
+  release_notes_url: https://github.com/crewAIInc/crewAI/releases/tag/1.15.44
+sources:
+- id: src_readme
+  title: Crew AI GitHub README
+  url: https://github.com/crewAIInc/crewAI
+  source_type: github_readme
+  quotes:
+  - '> CrewAI is an open-source Python framework with high-level abstractions and low-level APIs for building
+    production-ready multi-agent workflows.'

@@ -1,0 +1,44 @@
+project_name: Clusternet
+homepage_url: https://clusternet.io/
+repo_url: https://github.com/clusternet/clusternet
+docs_url: https://clusternet.io/docs/
+cncf_status: sandbox
+summary: Clusternet is an open-source CNCF Sandbox project designed for managing massive-scale multi-cluster
+  Kubernetes deployments across edge and hybrid clouds.
+key_features:
+- Universal multi-cluster management coordinating public, private, hybrid, and edge Kubernetes clusters.
+- Direct scheduling of raw Kubernetes manifests, Helm charts, and custom resources without translation
+  wrappers.
+- Dual push and pull management modes tailored for edge networks with intermittent connectivity.
+- Cross-cluster service discovery, multi-cluster RBAC, and unified traffic routing.
+recent_updates: Recent v0.16+ releases bring refined multi-cluster scheduling algorithms, improved Helm
+  deployment sync, and edge networking stabilization.
+use_cases: Edge computing cluster fleets, multi-cloud redundancy, hybrid on-premises and cloud Kubernetes
+  orchestration, and IoT gateway fleets.
+ecosystem_perspectives:
+  strengths: Allows scheduling raw, unmodified Kubernetes manifests directly to remote clusters without
+    forcing proprietary CRD schemas.
+  considerations: Requires installing agent components on child clusters and operating a centralized Clusternet
+    control plane.
+  community_discussions:
+  - Recognized in edge computing communities for robustly handling thousands of edge clusters with intermittent
+    network links.
+interesting_facts: Clusternet was built to scale to tens of thousands of edge clusters while maintaining
+  native Kubernetes API compatibility.
+get_started: Install Clusternet control plane using Helm via helm install clusternet-hub clusternet/clusternet-hub,
+  and register worker clusters with clusternet-agent.
+related_tools:
+- Karmada
+- Open Cluster Management
+- Submariner
+latest_release:
+  version: v1.0.0
+  date: '2026-06-28T00:40:01Z'
+  release_notes_url: https://github.com/clusternet/clusternet/releases/tag/v1.0.0
+sources:
+- id: src_readme
+  title: Clusternet GitHub README
+  url: https://github.com/clusternet/clusternet
+  source_type: github_readme
+  quotes:
+  - Managing Your Clusters (including public, private, hybrid, edge, etc.) as easily as Visiting the Internet.

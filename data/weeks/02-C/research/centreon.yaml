@@ -1,0 +1,43 @@
+project_name: Centreon
+homepage_url: https://www.centreon.com/
+repo_url: https://github.com/centreon/centreon
+docs_url: https://docs.centreon.com/
+cncf_status: non-cncf
+summary: Centreon is a comprehensive open-source enterprise IT infrastructure monitoring platform providing
+  end-to-end operational visibility.
+key_features:
+- Hybrid IT monitoring covering cloud-native containers, networks, virtual machines, databases, and physical
+  hardware.
+- Over 700 pre-configured monitoring plugins and connectors for rapid zero-configuration onboarding.
+- Unified web interface with real-time dashboards, service mapping, and event correlation engines.
+- Scalable distributed poller architecture monitoring thousands of geographically dispersed IT assets.
+recent_updates: Continuous releases adding enhanced cloud plugin packs, updated API endpoints, and refined
+  modern UI dashboard widgets.
+use_cases: Enterprise IT operations monitoring, hybrid cloud infrastructure tracking, network performance
+  monitoring, and SLA management.
+ecosystem_perspectives:
+  strengths: Bridges traditional on-premises legacy data centers with modern cloud infrastructure through
+    an immense plugin library.
+  considerations: Centrally focused on traditional NOC/ITOM operations rather than purely microservice-oriented
+    OpenTelemetry tracing.
+  community_discussions:
+  - A long-standing staple in European IT operations management and enterprise data center monitoring.
+interesting_facts: Centreon originally started as a GUI frontend for Nagios in the early 2000s before
+  completely evolving into an independent enterprise monitoring platform.
+get_started: Deploy Centreon with Docker or standard RPM packages, log in to the web console, and install
+  monitoring connectors from the Plugin Packs menu.
+related_tools:
+- Zabbix
+- Checkmk
+- Prometheus
+latest_release:
+  version: centreon-web-24.10.32
+  date: '2026-11-20T08:30:03Z'
+  release_notes_url: https://github.com/centreon/centreon/releases/tag/centreon-web-24.10.32
+sources:
+- id: src_readme
+  title: Centreon GitHub README
+  url: https://github.com/centreon/centreon
+  source_type: github_readme
+  quotes:
+  - Centreon

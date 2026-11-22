@@ -1,0 +1,42 @@
+project_name: Chef InSpec
+homepage_url: https://docs.chef.io/inspec/
+repo_url: https://github.com/inspec/inspec
+docs_url: https://docs.chef.io/inspec/reference/
+cncf_status: non-cncf
+summary: Chef InSpec is an open-source testing framework for infrastructure, security, and compliance
+  as code.
+key_features:
+- Human-readable declarative language for expressing security benchmarks and compliance requirements.
+- Agentless execution scanning local systems, SSH/WinRM remote servers, and cloud APIs (AWS, Azure, GCP).
+- Comprehensive resource library testing files, ports, users, firewall rules, and container settings.
+- Automated compliance report generation supporting CIS Benchmarks and DISA STIGs.
+recent_updates: Recent versions provide expanded cloud resource matchers, improved Windows WinRM connection
+  handling, and updated reporting output formats.
+use_cases: Continuous security compliance testing, infrastructure regression verification, and automated
+  regulatory auditing.
+ecosystem_perspectives:
+  strengths: Unmatched expressiveness for defining compliance rules in plain code that both developers
+    and auditors can understand.
+  considerations: Ruby-based DSL requires maintaining Ruby dependencies or utilizing containerized/precompiled
+    runners.
+  community_discussions:
+  - The de facto compliance automation framework across heavily regulated federal, defense, and healthcare
+    environments.
+interesting_facts: InSpec was created to turn dense PDF compliance checklists into automated, executable
+  unit tests that run in CI/CD pipelines.
+get_started: Install the InSpec CLI and execute a local security check by running inspec exec https://github.com/dev-sec/linux-baseline.
+related_tools:
+- OpenSCAP
+- Checkov
+- Falco
+latest_release:
+  version: v5.24.24
+  date: '2026-06-25T13:38:48Z'
+  release_notes_url: https://github.com/inspec/inspec/releases/tag/v5.24.24
+sources:
+- id: src_readme
+  title: Chef InSpec GitHub README
+  url: https://github.com/inspec/inspec
+  source_type: github_readme
+  quotes:
+  - '* **Issues Response SLA: 14 business days**'

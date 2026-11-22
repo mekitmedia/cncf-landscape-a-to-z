@@ -1,0 +1,44 @@
+project_name: CANN
+homepage_url: https://gitcode.com/cann
+repo_url: https://gitcode.com/cann
+docs_url: https://www.hiascend.com/document
+cncf_status: non-cncf
+summary: CANN (Compute Architecture for Neural Networks) is Huawei's heterogeneous computing architecture
+  designed to optimize AI workloads on Ascend processors.
+key_features:
+- Heterogeneous computing acceleration bridging deep learning frameworks and hardware processors.
+- AscendCL (Ascend Computing Language) unified programming interface for device management and kernel
+  dispatch.
+- Operator development framework supporting customized high-performance tensor kernels.
+- Broad compatibility with popular AI frameworks including PyTorch, TensorFlow, and MindSpore.
+recent_updates: CANN 8.0 releases delivering substantial operator optimization for large language models,
+  MoE architectures, and distributed tensor parallelism.
+use_cases: Accelerating LLM pre-training, high-throughput distributed inference, computer vision model
+  deployment, and cloud-native AI clusters.
+ecosystem_perspectives:
+  strengths: Deeply optimized for Huawei Ascend hardware, delivering high compute efficiency and hardware
+    utilization for enterprise AI.
+  considerations: Specifically tailored for the Ascend ecosystem; not applicable for standard NVIDIA GPU
+    infrastructure.
+  community_discussions:
+  - A crucial national AI hardware foundation in Asian cloud markets powering supercomputing clusters
+    and foundation model training.
+interesting_facts: CANN serves as the foundational software layer connecting the Ascend hardware architecture
+  directly with global AI frameworks.
+get_started: Download the CANN toolkit from Huawei Ascend portal and install the AscendCL packages to
+  start compiling optimized AI kernels.
+related_tools:
+- CUDA
+- ROCm
+- OneAPI
+latest_release:
+  version: 8.0.RC3
+  date: '2026-10-31T00:00:00Z'
+  release_notes_url: https://gitcode.com/cann
+sources:
+- id: src_readme
+  title: CANN GitHub README
+  url: https://gitcode.com/cann
+  source_type: github_readme
+  quotes:
+  - CANN（Compute Architecture for Neural Networks）是华为针对AI场景推出的异构计算架构

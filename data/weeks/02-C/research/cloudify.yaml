@@ -1,0 +1,44 @@
+project_name: Cloudify
+homepage_url: https://cloudify.co/
+repo_url: https://github.com/cloudify-cosmo/cloudify-manager-install
+docs_url: https://docs.cloudify.co/
+cncf_status: non-cncf
+summary: Cloudify is an open-source multi-cloud orchestration and Environment-as-a-Service platform based
+  on the TOSCA standard.
+key_features:
+- Model-driven orchestration using declarative OASIS TOSCA standards and YAML blueprints.
+- Multi-cloud and hybrid infrastructure provisioning across AWS, Azure, GCP, OpenStack, and Kubernetes.
+- Environment-as-a-Service (EaaS) automating self-service developer sandboxes and staging environments.
+- Plugin architecture connecting Terraform, Ansible, Helm, and native cloud APIs.
+recent_updates: Maintenance releases improving cloud provider plugin integrations, Terraform runner execution,
+  and cluster manager setup.
+use_cases: Automating hybrid cloud environments, network functions virtualization (NFV) orchestration,
+  and Environment-as-a-Service.
+ecosystem_perspectives:
+  strengths: Acts as an orchestrator of orchestrators, coordinating Terraform, Ansible, and Helm into
+    unified composite blueprints.
+  considerations: TOSCA blueprints introduce an additional modeling abstraction layer that requires administrative
+    learning.
+  community_discussions:
+  - Frequently deployed in telecommunications and enterprise networking for large-scale NFV and hybrid
+    cloud management.
+interesting_facts: Cloudify was designed to eliminate 'tool sprawl' by orchestrating disparate tools like
+  Terraform, Ansible, and Kubernetes in a single workflow.
+get_started: Install the Cloudify CLI and bootstrap a manager on Docker or a cloud VM using the cloudify-manager-install
+  scripts.
+related_tools:
+- Terraform
+- Crossplane
+- Ansible
+latest_release:
+  version: 6.0.0
+  date: '2021-05-26T13:49:48Z'
+  release_notes_url: https://github.com/cloudify-cosmo/cloudify-manager/releases/tag/6.0.0
+sources:
+- id: src_readme
+  title: Cloudify GitHub README
+  url: https://github.com/cloudify-cosmo/cloudify-manager-install
+  source_type: github_readme
+  quotes:
+  - Cloudify
+  - Cloudify Manager

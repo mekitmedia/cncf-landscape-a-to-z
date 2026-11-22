@@ -1,0 +1,43 @@
+project_name: Caddy
+homepage_url: https://caddyserver.com/
+repo_url: https://github.com/caddyserver/caddy
+docs_url: https://caddyserver.com/docs/
+cncf_status: non-cncf
+summary: Caddy is a powerful, enterprise-ready open-source web server written in Go with automatic HTTPS
+  and dynamic configuration.
+key_features:
+- Automatic zero-touch TLS certificate provisioning and renewal via Let's Encrypt and ZeroSSL.
+- Flexible declarative configuration via Caddyfile alongside a dynamic runtime JSON REST API.
+- Production HTTP/1.1, HTTP/2, and HTTP/3 (QUIC) support out of the box.
+- Extensible modular plugin architecture for rate limiting, auth, reverse proxying, and caching.
+recent_updates: Continuous releases adding HTTP/3 performance boosts, fine-grained reverse proxy retry
+  policies, and expanded ACME automation features.
+use_cases: Edge reverse proxying, automatic HTTPS termination, ingress routing, static asset serving,
+  and microservice gateway routing.
+ecosystem_perspectives:
+  strengths: Memory-safe Go implementation, unmatched simplicity in automated TLS certificates, and clean
+    human-readable Caddyfile configuration.
+  considerations: Smaller ecosystem of enterprise ingress controllers compared to Nginx and Envoy in standard
+    Kubernetes setups.
+  community_discussions:
+  - Celebrated across developer communities for removing the operational complexity of SSL certificate
+    management.
+interesting_facts: Caddy was the first web server in the world to automatically obtain and renew TLS certificates
+  by default.
+get_started: Run caddy file-server --browse to serve static files locally, or create a simple Caddyfile
+  and execute caddy run.
+related_tools:
+- Nginx
+- Traefik
+- Envoy
+latest_release:
+  version: v2.11.9
+  date: '2026-11-05T01:30:24Z'
+  release_notes_url: https://github.com/caddyserver/caddy/releases/tag/v2.11.9
+sources:
+- id: src_readme
+  title: Caddy GitHub README
+  url: https://github.com/caddyserver/caddy
+  source_type: github_readme
+  quotes:
+  - '- [Build from source](#build-from-source)'

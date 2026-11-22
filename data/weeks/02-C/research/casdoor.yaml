@@ -1,0 +1,43 @@
+project_name: Casdoor
+homepage_url: https://casdoor.org/
+repo_url: https://github.com/casdoor/casdoor
+docs_url: https://casdoor.org/docs/overview/
+cncf_status: non-cncf
+summary: Casdoor is a modern, UI-first identity and access management (IAM) platform supporting OAuth
+  2.0, OIDC, SAML, and WebAuthn Single Sign-On.
+key_features:
+- Comprehensive Single Sign-On (SSO) support for OAuth 2.0, OIDC, SAML 2.0, CAS, and WebAuthn.
+- Built-in responsive web UI for user self-registration, profile management, and multi-tenant administration.
+- Pluggable integrations with major third-party identity providers (Google, GitHub, Microsoft, Apple,
+  Okta).
+- Multi-tenant RBAC and ABAC authorization powered by the Casbin access control engine.
+recent_updates: Recent versions introduced passkey/WebAuthn passwordless authentication improvements,
+  localized notifications, and expanded DB backends.
+use_cases: Centralized corporate SSO, developer application authentication, multi-tenant customer identity
+  management, and API token issuance.
+ecosystem_perspectives:
+  strengths: Turnkey user management with a clean built-in UI, eliminating the need to build custom authentication
+    screens from scratch.
+  considerations: Combines UI, API, and auth server into a monolithic binary, which may require tailored
+    tuning for ultra-high-scale deployments.
+  community_discussions:
+  - Popular among open-source teams seeking a lightweight, modern alternative to Keycloak.
+interesting_facts: Casdoor was created by the Casbin community to provide a full UI and authentication
+  frontend for the Casbin authorization engine.
+get_started: Run Casdoor with Docker using docker run -p 8000:8000 casbin/casdoor:latest, and access the
+  web UI at http://localhost:8000.
+related_tools:
+- Keycloak
+- Authelia
+- Ory Kratos
+latest_release:
+  version: v4.30.0
+  date: '2026-11-21T11:36:19Z'
+  release_notes_url: https://github.com/casdoor/casdoor/releases/tag/v4.30.0
+sources:
+- id: src_readme
+  title: Casdoor GitHub README
+  url: https://github.com/casdoor/casdoor
+  source_type: github_readme
+  quotes:
+  - Casdoor is a single sign-on (SSO) and authentication server with a web console.<br>
