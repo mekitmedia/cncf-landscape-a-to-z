@@ -1,0 +1,26 @@
+project_name: DragonflyDB
+homepage_url: https://dragonflydb.io/
+repo_url: https://github.com/dragonflydb/dragonfly
+summary: DragonflyDB is a modern, multi-threaded in-memory data store engineered in
+  C++ as a high-throughput drop-in replacement for Redis and Memcached.
+key_features:
+- Full wire-protocol compatibility with Redis and Memcached APIs.
+- Modern multi-threaded shared-nothing architecture built on Linux io_uring.
+- Up to 25x higher throughput and 30% lower memory footprint on identical server hardware.
+recent_updates: Version 2.1 delivers improved snapshotting speed and extended Redis
+  7 command set compatibility.
+use_cases: High-throughput session caching, real-time gaming leaderboards, and sub-millisecond
+  LLM prompt caching.
+latest_release:
+  version: v2.1
+  date: '2026-11-04T16:10:57Z'
+  release_notes_url: https://github.com/dragonflydb/dragonfly/releases/tag/v2.1
+sources:
+- id: src_readme
+  title: DragonflyDB GitHub README
+  url: https://github.com/dragonflydb/dragonfly
+  source_type: github_readme
+  quotes:
+  - Dragonfly is an in-memory data store built for modern application workloads.
+  - Fully compatible with Redis and Memcached APIs, Dragonfly requires no code changes
+    to adopt.

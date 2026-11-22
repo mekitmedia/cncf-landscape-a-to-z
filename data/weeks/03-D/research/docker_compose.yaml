@@ -1,0 +1,31 @@
+project_name: Docker Compose
+homepage_url: https://docs.docker.com/compose/
+repo_url: https://github.com/docker/compose
+summary: Docker Compose is the ubiquitous tool for defining and orchestrating multi-container
+  Docker applications through declarative Compose YAML specifications.
+key_features:
+- Single-command multi-container deployment via docker compose up.
+- Declarative Compose specification covering services, volumes, networks, and environment
+  variables.
+- Integrated development features including watch mode, secret mounting, and bind
+  volumes.
+recent_updates: Version 5.8 introduces accelerated compose watch file-sync and enhanced
+  build cache reuse.
+use_cases: Local multi-service application development, automated test environment
+  orchestration, and staging stacks.
+latest_release:
+  version: v5.8.0
+  date: '2026-11-17T13:40:19Z'
+  release_notes_url: https://github.com/docker/compose/releases/tag/v5.8.0
+sources:
+- id: src_readme
+  title: Docker Compose GitHub README
+  url: https://github.com/docker/compose
+  source_type: github_readme
+  quotes:
+  - Docker Compose is a tool for running multi-container applications on Docker defined
+    using the [Compose file format](https://compose-spec.io).
+  - A Compose file is used to define how one or more containers that make up your
+    application are configured.
+  - 'Once you have a Compose file, you can create and start your application with
+    a single command: `docker compose up`.'

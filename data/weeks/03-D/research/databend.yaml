@@ -1,0 +1,26 @@
+project_name: Databend
+homepage_url: https://databend.rs
+repo_url: https://github.com/datafuselabs/databend
+summary: Databend is an open-source, Rust-powered cloud data warehouse engineered
+  for lightning-fast analytics, search, and AI agent workloads.
+key_features:
+- Modern columnar storage with complete separation of storage and compute.
+- Unified SQL engine handling structured analytics, full-text search, and AI vector
+  data.
+- Native object storage integration (S3, GCS, Azure Blob) with built-in cache acceleration.
+recent_updates: Latest v1.2 releases deliver enhanced vector search indexing and an
+  isolated Python execution sandbox.
+use_cases: Real-time analytics, AI agent knowledge retrieval, and cost-effective cloud
+  data warehousing.
+latest_release:
+  version: v1.2.881
+  date: '2026-04-17T08:01:42Z'
+  release_notes_url: https://github.com/databendlabs/databend/releases/tag/v1.2.881
+sources:
+- id: src_readme
+  title: Databend GitHub README
+  url: https://github.com/datafuselabs/databend
+  source_type: github_readme
+  quotes:
+  - Databend is an open-source data warehouse built in Rust.
+  - Enterprise Data Warehouse for AI Agents

@@ -1,0 +1,26 @@
+project_name: Dapr SDK
+homepage_url: https://github.com/second-state/dapr-sdk-wasmedge
+repo_url: https://github.com/second-state/dapr-sdk-wasmedge
+summary: Dapr SDK (WasmEdge) provides a Rust-based WebAssembly SDK enabling lightweight
+  Wasm modules to consume Dapr distributed services.
+key_features:
+- Rust dapr_sdk_wasi crate compilable to lightweight WebAssembly modules.
+- Runs inside WasmEdge runtime for high-density edge and serverless execution.
+- Direct access to Dapr pub/sub, state store, and service invocation APIs from Wasm.
+recent_updates: Updated compatibility with recent WasmEdge runtime standards and Dapr
+  v1 API bindings.
+use_cases: Running ultra-fast, sandboxed microservices with Dapr bindings in WebAssembly
+  edge environments.
+latest_release:
+  version: v1.0.0
+  date: '2026-11-20T00:00:00Z'
+  release_notes_url: https://github.com/second-state/dapr-sdk-wasmedge/releases
+sources:
+- id: src_readme
+  title: Dapr SDK GitHub README
+  url: https://github.com/second-state/dapr-sdk-wasmedge
+  source_type: github_readme
+  quotes:
+  - The *dapr_sdk_wasi* crate is a Rust SDK for the [Dapr framework](https://dapr.io/).
+    It provides an easy way for Rust-based microservices in WasmEdge to interact with
+    Dapr APIs and sidecar services.

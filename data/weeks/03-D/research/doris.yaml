@@ -1,0 +1,29 @@
+project_name: Doris
+homepage_url: https://doris.apache.org/
+repo_url: https://github.com/apache/doris
+summary: Apache Doris is a high-performance, real-time analytical database based on
+  Massively Parallel Processing (MPP) architecture for sub-second SQL queries.
+key_features:
+- Massively Parallel Processing (MPP) execution engine optimized for lightning-fast
+  aggregation.
+- Unified real-time data ingestion supporting streaming from Apache Kafka, Flink,
+  and CDC.
+- Hybrid search capabilities combining structured SQL analytics, full-text search,
+  and inverted indexing.
+recent_updates: Latest v4.1 releases introduce enhanced vector search indexing and
+  lakehouse acceleration over Iceberg and Hudi.
+use_cases: Interactive customer-facing analytics dashboards, real-time reporting,
+  and log search over petabytes of data.
+latest_release:
+  version: 4.1.5-release
+  date: '2026-10-15T04:44:11Z'
+  release_notes_url: https://github.com/apache/doris/releases/tag/4.1.5-release
+sources:
+- id: src_readme
+  title: Doris GitHub README
+  url: https://github.com/apache/doris
+  source_type: github_readme
+  quotes:
+  - Apache Doris is an open-source, real-time analytics and search database built
+    on MPP architecture. It provides fast SQL analytics, lakehouse query acceleration,
+    and hybrid search across structured, text, and vector data.

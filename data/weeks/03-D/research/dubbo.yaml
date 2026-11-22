@@ -1,0 +1,28 @@
+project_name: Dubbo
+homepage_url: https://dubbo.apache.org/en/
+repo_url: https://github.com/apache/dubbo
+summary: Apache Dubbo is a high-performance microservice development and RPC framework
+  providing service discovery, traffic governance, and multi-protocol communication.
+key_features:
+- High-throughput RPC communication supporting Triple (HTTP/2 + Protobuf) and legacy
+  Dubbo protocols.
+- Dynamic service discovery, client-side load balancing, and traffic routing rules.
+- Native Kubernetes and service mesh integration with mesh proxy mode.
+recent_updates: Version 3.3 introduces enhanced cloud-native proxy-less service mesh
+  features and Go/Rust interoperability.
+use_cases: Building enterprise-scale distributed microservices with rigorous RPC governance
+  and service discovery.
+latest_release:
+  version: 3.3.7
+  date: '2026-10-26T01:57:03Z'
+  release_notes_url: https://github.com/apache/dubbo/releases/tag/3.3.7
+sources:
+- id: src_readme
+  title: Dubbo GitHub README
+  url: https://github.com/apache/dubbo
+  source_type: github_readme
+  quotes:
+  - Apache Dubbo is a high-performance, Java-based open-source RPC framework. Please
+    visit the [official site](http://dubbo.apache.org) for the quick start guide and
+    documentation, as well as the [wiki](https://github.com/apache/dubbo/wiki) for
+    news, FAQ, and release notes.

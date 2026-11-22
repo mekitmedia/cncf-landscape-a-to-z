@@ -1,0 +1,28 @@
+project_name: Docker Swarm
+homepage_url: https://docs.docker.com/engine/swarm/
+repo_url: https://github.com/moby/swarmkit
+summary: Docker Swarm (powered by SwarmKit) provides native clustering, declarative
+  service orchestration, and Raft consensus built directly into Docker Engine.
+key_features:
+- Embedded cluster orchestration with zero external dependencies.
+- Raft consensus algorithm for decentralized manager election and state management.
+- Declarative service scaling, rolling updates, and built-in ingress routing mesh.
+recent_updates: Ongoing stability maintenance in SwarmKit ensuring compatibility with
+  modern containerd and Linux kernels.
+use_cases: Simple, low-overhead container cluster management for teams seeking minimal
+  operational complexity.
+latest_release:
+  version: v2.1.2
+  date: '2026-04-23T18:21:25Z'
+  release_notes_url: https://github.com/moby/swarmkit/releases/tag/v2.1.2
+sources:
+- id: src_readme
+  title: Docker Swarm GitHub README
+  url: https://github.com/moby/swarmkit
+  source_type: github_readme
+  quotes:
+  - '*SwarmKit* is a toolkit for orchestrating distributed systems at any scale. It
+    includes primitives for node discovery, raft-based consensus, task scheduling
+    and more.'
+  - Machines running *SwarmKit* can be grouped together in order to form a *Swarm*,
+    coordinating tasks with each other.

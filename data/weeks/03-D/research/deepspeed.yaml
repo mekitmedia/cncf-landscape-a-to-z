@@ -1,0 +1,26 @@
+project_name: DeepSpeed
+homepage_url: https://github.com/microsoft/DeepSpeed
+repo_url: https://github.com/microsoft/DeepSpeed
+summary: DeepSpeed is Microsoft's distributed deep learning optimization library that
+  pioneered memory optimizations to train and serve planet-scale models.
+key_features:
+- ZeRO (Zero Redundancy Optimizer) memory optimizations allowing massive parameter
+  training on modest GPUs.
+- Extreme-speed distributed training and high-throughput low-latency inference engines.
+- Seamless integration with PyTorch, Hugging Face Transformers, and Ray clusters.
+recent_updates: Introduced SuperOffload capabilities and low-precision master state
+  optimizations for ultra-large model fine-tuning.
+use_cases: Distributed pre-training and fine-tuning of multi-billion parameter LLMs
+  across GPU clusters.
+latest_release:
+  version: v0.20.0
+  date: '2026-11-12T23:02:58Z'
+  release_notes_url: https://github.com/deepspeedai/DeepSpeed/releases/tag/v0.20.0
+sources:
+- id: src_readme
+  title: DeepSpeed GitHub README
+  url: https://github.com/microsoft/DeepSpeed
+  source_type: github_readme
+  quotes:
+  - DeepSpeed was an important part of Microsoft’s [AI at Scale](https://www.microsoft.com/en-us/research/project/ai-at-scale/)
+    initiative to enable next-generation AI capabilities at scale
