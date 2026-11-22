@@ -1,0 +1,43 @@
+project_name: CAMEL
+homepage_url: https://www.camel-ai.org/
+repo_url: https://github.com/camel-ai/camel
+docs_url: https://docs.camel-ai.org/
+cncf_status: non-cncf
+summary: CAMEL is an open-source communicative multi-agent framework exploring the scaling laws and autonomous
+  behaviors of cooperative AI agents.
+key_features:
+- Inception prompting enabling autonomous multi-agent cooperation and role-playing conversations.
+- Scalable multi-agent society simulations modeling complex economic and social dynamics.
+- Extensible tool calling, code execution, and web browsing environments for autonomous task execution.
+- Multimodal agent architectures supporting text, vision, and audio reasoning models.
+recent_updates: Recent versions introduced enhanced multimodal agent cooperation, updated tool integrations,
+  and optimized prompt caching.
+use_cases: Autonomous software development simulations, multi-agent cooperative problem solving, synthetic
+  data generation, and LLM behavior research.
+ecosystem_perspectives:
+  strengths: Pioneered communicative agent research; provides a mathematically rigorous foundation for
+    exploring autonomous multi-agent collaboration.
+  considerations: Requires careful management of LLM context limits and API rate quotas during long-running
+    multi-turn agent conversations.
+  community_discussions:
+  - Cited in hundreds of academic AI publications as a seminal framework for cooperative multi-agent intelligence.
+interesting_facts: The name CAMEL stands for Communicative Agents for 'Mind' Exploration of Large Language
+  Model Society.
+get_started: Install with pip install camel-ai, configure your API keys, and run a two-agent cooperative
+  conversation script in Python.
+related_tools:
+- Crew AI
+- AutoGen
+- LangGraph
+latest_release:
+  version: v0.2.90
+  date: '2026-03-22T08:37:36Z'
+  release_notes_url: https://github.com/camel-ai/camel/releases/tag/v0.2.90
+sources:
+- id: src_readme
+  title: CAMEL GitHub README
+  url: https://github.com/camel-ai/camel
+  source_type: github_readme
+  quotes:
+  - Join us ([*Discord*](https://discord.camel-ai.org/) or [*WeChat*](https://ghli.org/camel/wechat.png))
+    in pushing the boundaries of finding the scaling laws of agents.

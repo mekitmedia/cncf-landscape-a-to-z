@@ -1,0 +1,44 @@
+project_name: Cloud Custodian
+homepage_url: https://cloudcustodian.io/
+repo_url: https://github.com/cloud-custodian/cloud-custodian
+docs_url: https://cloudcustodian.io/docs/
+cncf_status: incubating
+summary: Cloud Custodian is an open-source rules engine for cloud security, governance, and cost optimization
+  defined via simple YAML DSL policies.
+key_features:
+- Multi-cloud governance supporting AWS, Azure, Google Cloud Platform, and Kubernetes.
+- Declarative YAML DSL expressing complex filters, tagging rules, and automated remediation actions.
+- Real-time event-driven remediation triggered by CloudWatch/EventBridge and serverless Lambda functions.
+- 'Automated cost optimization: stopping idle resources, resizing databases, and cleaning up unattached
+  storage.'
+recent_updates: Recent releases bring enhanced GCP policy coverage, improved AWS IAM policy evaluation
+  filters, and streamlined CLI telemetry controls.
+use_cases: Cloud compliance enforcement, automated FinOps cost reduction, security remediation, and garbage
+  collection of unused cloud assets.
+ecosystem_perspectives:
+  strengths: Incubating CNCF project; combines security compliance with automated cost governance in a
+    unified, lightweight DSL.
+  considerations: Requires managing cloud event integrations (e.g. AWS EventBridge) to enable real-time
+    reactive remediation.
+  community_discussions:
+  - Heavily utilized by Fortune 500 cloud engineering teams to save millions of dollars in idle cloud
+    resources.
+interesting_facts: Cloud Custodian policies can directly provision serverless lambdas on-the-fly to react
+  to cloud events within milliseconds.
+get_started: Install with pip install c7n, define a policy in custodian.yml, and run custodian run --output-dir=.
+  custodian.yml.
+related_tools:
+- Checkov
+- Steampipe
+- Open Policy Agent
+latest_release:
+  version: 0.9.53.0
+  date: '2026-10-01T22:58:55Z'
+  release_notes_url: https://github.com/cloud-custodian/cloud-custodian/releases/tag/0.9.53.0
+sources:
+- id: src_readme
+  title: Cloud Custodian GitHub README
+  url: https://github.com/cloud-custodian/cloud-custodian
+  source_type: github_readme
+  quotes:
+  - Cloud Custodian, also known as c7n, is a rules engine for managing

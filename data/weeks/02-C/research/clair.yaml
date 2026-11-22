@@ -1,0 +1,43 @@
+project_name: Clair
+homepage_url: https://quay.github.io/clair/
+repo_url: https://github.com/quay/clair
+docs_url: https://quay.github.io/clair/reference/getting_started.html
+cncf_status: non-cncf
+summary: Clair is an open-source vulnerability analysis and static security scanning engine for container
+  images and OCI artifacts.
+key_features:
+- Static analysis of container image layers to discover installed software packages and dependencies.
+- Automated vulnerability matching against national and OS security advisories (CVEs).
+- Extensible notification system dispatching alerts when new CVEs affect previously scanned images.
+- Tight native integration with Project Quay and enterprise container registries.
+recent_updates: Recent versions feature indexing performance optimizations, updated security data fetchers,
+  and improved OCI artifact support.
+use_cases: Container registry security scanning, CI/CD image vulnerability gating, and continuous container
+  fleet CVE monitoring.
+ecosystem_perspectives:
+  strengths: Pioneered container layer vulnerability analysis; deeply integrated as the core security
+    scanner in Red Hat Quay.
+  considerations: Architected as a dedicated server service rather than a lightweight single-binary developer
+    CLI like Trivy.
+  community_discussions:
+  - Favored by enterprise registry operators needing continuous, asynchronous background scanning across
+    millions of layers.
+interesting_facts: Clair was originally created by CoreOS to provide automated security scanning for their
+  Quay container registry.
+get_started: Deploy Clair with Docker or Kubernetes using the official quay.io/projectquay/clair container
+  image and connect it to a PostgreSQL database.
+related_tools:
+- Trivy
+- Grype
+- Harbor
+latest_release:
+  version: v4.9.0
+  date: '2025-12-10T18:34:49Z'
+  release_notes_url: https://github.com/quay/clair/releases/tag/v4.9.0
+sources:
+- id: src_readme
+  title: Clair GitHub README
+  url: https://github.com/quay/clair
+  source_type: github_readme
+  quotes:
+  - Clair

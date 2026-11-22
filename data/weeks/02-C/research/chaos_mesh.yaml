@@ -1,0 +1,48 @@
+project_name: Chaos Mesh
+homepage_url: https://chaos-mesh.org/
+repo_url: https://github.com/chaos-mesh/chaos-mesh
+docs_url: https://chaos-mesh.org/docs/
+cncf_status: incubating
+summary: Chaos Mesh is a cloud-native Chaos Engineering platform for Kubernetes that orchestrates fault
+  injection experiments across pods, networks, and disks.
+key_features:
+- 'Comprehensive fault injection: pod kills, network delays, packet loss, DNS tampering, disk I/O faults,
+  and stress tests.'
+- Kernel-level and JVM fault simulation using eBPF and JVM byte-code injection.
+- Intuitive web dashboard (Chaos Dashboard) for designing experiments, visualizing timelines, and monitoring
+  blast radius.
+- Chaos Schedule and Workflow custom resources integrating chaos experiments directly into CI/CD automated
+  test pipelines.
+recent_updates: Recent versions bring optimized eBPF kernel fault probes, improved Chaos Dashboard UX,
+  and enhanced multi-tenant security RBAC.
+use_cases: Validating microservice resilience, testing Kubernetes failover behavior, evaluating disaster
+  recovery playbooks, and continuous chaos CI testing.
+ecosystem_perspectives:
+  strengths: CNCF Incubating project; Kubernetes-native CRD design with an exceptional web UI making chaos
+    engineering accessible to non-specialists.
+  considerations: Requires cluster-admin level privileges to inject network partitions and kernel faults;
+    requires careful safeguards in production clusters.
+  community_discussions:
+  - Created by PingCAP (the team behind TiDB) to battle-test distributed databases against network latency
+    and node crashes.
+interesting_facts: Chaos Mesh uses eBPF and Linux cgroups to inject network latency and disk throttling
+  without ever modifying application container binaries.
+get_started: Install Chaos Mesh via Helm with helm install chaos-mesh chaos-mesh/chaos-mesh, access the
+  dashboard, and submit your first NetworkChaos CR.
+related_tools:
+- Chaos Toolkit
+- LitmusChaos
+- Chaosblade
+latest_release:
+  version: v2.8.8
+  date: '2026-11-06T02:58:33Z'
+  release_notes_url: https://github.com/chaos-mesh/chaos-mesh/releases/tag/v2.8.8
+sources:
+- id: src_readme
+  title: Chaos Mesh GitHub README
+  url: https://github.com/chaos-mesh/chaos-mesh
+  source_type: github_readme
+  quotes:
+  - Chaos Mesh is an open source, cloud-native Chaos Engineering platform for Kubernetes. It uses Kubernetes
+    custom resources to define, orchestrate, and observe controlled fault injection against workloads,
+    infrastructure, cloud services, and applications.

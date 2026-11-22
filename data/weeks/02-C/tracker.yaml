@@ -2,10 +2,10 @@ items:
   C++:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/c.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -13,7 +13,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/c.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -21,10 +21,10 @@ items:
   CDEvents:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/cdevents.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -32,7 +32,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/cdevents.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -40,10 +40,10 @@ items:
   CDK for Kubernetes (CDK8s):
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/cdk_for_kubernetes_cdk8s.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -51,7 +51,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/cdk_for_kubernetes_cdk8s.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -78,10 +78,10 @@ items:
   CRI-O:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/cri-o.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -89,7 +89,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/cri-o.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -97,10 +97,10 @@ items:
   Caddy:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/caddy.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -108,7 +108,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/caddy.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -116,10 +116,10 @@ items:
   Cadence Workflow:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/cadence_workflow.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -127,7 +127,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/cadence_workflow.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -135,10 +135,10 @@ items:
   Canonical Charmed Kubernetes:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/canonical_charmed_kubernetes.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -146,7 +146,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/canonical_charmed_kubernetes.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -154,10 +154,10 @@ items:
   Capsule:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/capsule.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -165,7 +165,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/capsule.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -173,10 +173,10 @@ items:
   Carina:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/carina.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -184,7 +184,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/carina.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -192,10 +192,10 @@ items:
   Cartographer:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/cartographer.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -203,7 +203,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/cartographer.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -211,10 +211,10 @@ items:
   Cartography:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/cartography.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -222,7 +222,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/cartography.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -230,10 +230,10 @@ items:
   Carvel:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/carvel.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -241,7 +241,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/carvel.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -249,10 +249,10 @@ items:
   Casper:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/casper.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -260,7 +260,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/casper.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -269,16 +269,16 @@ items:
     tasks:
       research:
         status: completed
-        started_at: 2026-10-03T02:35:48.039061+00:00
-        completed_at: 2026-10-03T02:35:48.039061+00:00
+        started_at: 2026-10-03 02:35:48.039061+00:00
+        completed_at: 2026-10-03 02:35:48.039061+00:00
         output_file: data/weeks/02-C/research/cassandra.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
         status: completed
-        started_at: 2026-10-03T02:35:48.039061+00:00
-        completed_at: 2026-10-03T02:35:48.039061+00:00
+        started_at: 2026-10-03 02:35:48.039061+00:00
+        completed_at: 2026-10-03 02:35:48.039061+00:00
         output_file: website/content/tools/cassandra.md
         error_message: null
         retry_count: 0
@@ -287,10 +287,10 @@ items:
   Catalyst Kubernetes Service:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/catalyst_kubernetes_service.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -298,7 +298,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/catalyst_kubernetes_service.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -307,16 +307,16 @@ items:
     tasks:
       research:
         status: completed
-        started_at: 2026-10-01T02:45:28.887901+00:00
-        completed_at: 2026-10-01T02:45:28.887901+00:00
+        started_at: 2026-10-01 02:45:28.887901+00:00
+        completed_at: 2026-10-01 02:45:28.887901+00:00
         output_file: data/weeks/02-C/research/cedar.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
         status: completed
-        started_at: 2026-10-01T02:45:28.887901+00:00
-        completed_at: 2026-10-01T02:45:28.887901+00:00
+        started_at: 2026-10-01 02:45:28.887901+00:00
+        completed_at: 2026-10-01 02:45:28.887901+00:00
         output_file: website/content/tools/cedar.md
         error_message: null
         retry_count: 0
@@ -325,10 +325,10 @@ items:
   Centreon:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/centreon.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -336,7 +336,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/centreon.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -345,7 +345,7 @@ items:
     tasks:
       research:
         status: completed
-        started_at: null
+        started_at: '2026-11-22T10:00:00Z'
         completed_at: '2026-11-06T21:39:19.774929Z'
         output_file: data/weeks/02-C/research/ceph.yaml
         error_message: null
@@ -353,7 +353,7 @@ items:
         agent: researcher
       content:
         status: completed
-        started_at: null
+        started_at: '2026-11-22T10:00:00Z'
         completed_at: '2026-11-06T21:39:19.774929Z'
         output_file: website/content/tools/ceph.md
         error_message: null
@@ -363,10 +363,10 @@ items:
   Cerbos:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/cerbos.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -374,7 +374,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/cerbos.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -382,10 +382,10 @@ items:
   Chalice:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/chalice.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -393,7 +393,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/chalice.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -401,10 +401,10 @@ items:
   Chaos Mesh:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/chaos_mesh.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -412,7 +412,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/chaos_mesh.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -420,10 +420,10 @@ items:
   Chaos Toolkit:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/chaos_toolkit.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -431,7 +431,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/chaos_toolkit.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -439,10 +439,10 @@ items:
   Chaosblade:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/chaosblade.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -450,7 +450,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/chaosblade.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -458,10 +458,10 @@ items:
   Chaterm:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/chaterm.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -469,7 +469,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/chaterm.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -477,10 +477,10 @@ items:
   Checkmk:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/checkmk.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -488,7 +488,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/checkmk.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -496,10 +496,10 @@ items:
   Checkov:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/checkov.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -507,7 +507,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/checkov.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -515,10 +515,10 @@ items:
   Chef Habitat:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/chef_habitat.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -526,7 +526,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/chef_habitat.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -534,10 +534,10 @@ items:
   Chef InSpec:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/chef_inspec.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -545,7 +545,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/chef_inspec.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -553,10 +553,10 @@ items:
   Chef Infra:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/chef_infra.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -564,7 +564,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/chef_infra.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -572,10 +572,10 @@ items:
   Chroma:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/chroma.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -583,7 +583,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/chroma.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -591,10 +591,10 @@ items:
   Cilium:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/cilium.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -602,7 +602,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/cilium.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -610,10 +610,10 @@ items:
   Clair:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/clair.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -621,7 +621,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/clair.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -629,10 +629,10 @@ items:
   ClickHouse:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/clickhouse.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -640,7 +640,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/clickhouse.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -648,10 +648,10 @@ items:
   Cloud Custodian:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/cloud_custodian.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -659,7 +659,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/cloud_custodian.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -667,10 +667,10 @@ items:
   Cloud Foundry Application Runtime:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/cloud_foundry_application_runtime.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -678,7 +678,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/cloud_foundry_application_runtime.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -686,10 +686,10 @@ items:
   Cloud Native Landscape:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/cloud_native_landscape.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -697,7 +697,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/cloud_native_landscape.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -705,10 +705,10 @@ items:
   CloudARK KubePlus:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/cloudark_kubeplus.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -716,7 +716,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/cloudark_kubeplus.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -724,10 +724,10 @@ items:
   CloudEvents:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/cloudevents.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -735,7 +735,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/cloudevents.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -743,10 +743,10 @@ items:
   CloudMatos:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/cloudmatos.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -754,7 +754,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/cloudmatos.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -762,10 +762,10 @@ items:
   CloudNativePG:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/cloudnativepg.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -773,7 +773,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/cloudnativepg.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -781,10 +781,10 @@ items:
   CloudTTY:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/cloudtty.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -792,7 +792,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/cloudtty.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -800,10 +800,10 @@ items:
   CloudWeGo:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/cloudwego.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -811,7 +811,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/cloudwego.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -819,10 +819,10 @@ items:
   Cloudify:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/cloudify.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -830,7 +830,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/cloudify.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -838,10 +838,10 @@ items:
   Clusternet:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/clusternet.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -849,7 +849,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/clusternet.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -858,16 +858,16 @@ items:
     tasks:
       research:
         status: completed
-        started_at: null
-        completed_at: "2026-11-05T23:54:05.012693Z"
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-05T23:54:05.012693Z'
         output_file: data/weeks/02-C/research/clusterpedia.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
         status: completed
-        started_at: null
-        completed_at: "2026-11-05T23:54:05.012693Z"
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-05T23:54:05.012693Z'
         output_file: website/content/tools/clusterpedia.md
         error_message: null
         retry_count: 0
@@ -876,10 +876,10 @@ items:
   CockroachDB:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/cockroachdb.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -887,7 +887,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/cockroachdb.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -895,10 +895,10 @@ items:
   Coder:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/coder.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -906,7 +906,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/coder.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -914,10 +914,10 @@ items:
   Concourse:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/concourse.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -925,7 +925,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/concourse.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -933,10 +933,10 @@ items:
   Confidential Containers:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/confidential_containers.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -944,7 +944,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/confidential_containers.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -952,10 +952,10 @@ items:
   Connect RPC:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/connect_rpc.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -963,7 +963,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/connect_rpc.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -990,10 +990,10 @@ items:
   Consul:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/consul.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -1001,7 +1001,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/consul.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -1009,10 +1009,10 @@ items:
   Container Network Interface (CNI):
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/container_network_interface_cni.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -1020,7 +1020,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/container_network_interface_cni.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -1028,10 +1028,10 @@ items:
   Container Storage Interface (CSI):
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/container_storage_interface_csi.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -1039,7 +1039,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/container_storage_interface_csi.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -1047,10 +1047,10 @@ items:
   ContainerSSH:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/containerssh.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -1058,7 +1058,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/containerssh.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -1066,10 +1066,10 @@ items:
   Contour:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/contour.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -1077,7 +1077,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/contour.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -1085,10 +1085,10 @@ items:
   Copa:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/copa.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -1096,7 +1096,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/copa.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -1104,10 +1104,10 @@ items:
   CoreDNS:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/coredns.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -1115,7 +1115,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/coredns.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -1124,16 +1124,16 @@ items:
     tasks:
       research:
         status: completed
-        started_at: null
-        completed_at: "2026-11-05T10:32:00.485925Z"
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-05T10:32:00.485925Z'
         output_file: data/weeks/02-C/research/coroot.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
         status: completed
-        started_at: null
-        completed_at: "2026-11-05T10:32:00.485925Z"
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-05T10:32:00.485925Z'
         output_file: website/content/tools/coroot.md
         error_message: null
         retry_count: 0
@@ -1142,10 +1142,10 @@ items:
   Cortex:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/cortex.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -1153,7 +1153,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/cortex.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -1161,10 +1161,10 @@ items:
   CosmWasm:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/cosmwasm.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -1172,7 +1172,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/cosmwasm.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -1180,10 +1180,10 @@ items:
   Couchbase:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/couchbase.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -1191,7 +1191,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/couchbase.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -1199,10 +1199,10 @@ items:
   Couler:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/couler.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -1210,7 +1210,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/couler.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -1219,16 +1219,16 @@ items:
     tasks:
       research:
         status: completed
-        started_at: 2026-10-03T15:20:12.732288+00:00
-        completed_at: 2026-10-03T15:20:12.732288+00:00
+        started_at: 2026-10-03 15:20:12.732288+00:00
+        completed_at: 2026-10-03 15:20:12.732288+00:00
         output_file: data/weeks/02-C/research/cozystack.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
         status: completed
-        started_at: 2026-10-03T15:20:12.732288+00:00
-        completed_at: 2026-10-03T15:20:12.732288+00:00
+        started_at: 2026-10-03 15:20:12.732288+00:00
+        completed_at: 2026-10-03 15:20:12.732288+00:00
         output_file: website/content/tools/cozystack.md
         error_message: null
         retry_count: 0
@@ -1237,10 +1237,10 @@ items:
   Crate.io:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/crate_io.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -1248,7 +1248,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/crate_io.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -1256,10 +1256,10 @@ items:
   Crossplane:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/crossplane.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -1267,7 +1267,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/crossplane.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -1275,10 +1275,10 @@ items:
   Crunchy Postgres Operator:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/crunchy_postgres_operator.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -1286,7 +1286,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/crunchy_postgres_operator.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -1313,10 +1313,10 @@ items:
   CubeFS:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/cubefs.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -1324,7 +1324,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/cubefs.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -1332,10 +1332,10 @@ items:
   CyberArk Conjur:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/cyberark_conjur.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -1343,7 +1343,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/cyberark_conjur.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -1351,10 +1351,10 @@ items:
   Cybozu Kubernetes Engine:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/cybozu_kubernetes_engine.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -1362,7 +1362,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/cybozu_kubernetes_engine.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -1370,10 +1370,10 @@ items:
   Cyclops:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/cyclops.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -1381,7 +1381,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/cyclops.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -1389,10 +1389,10 @@ items:
   CoHDI:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/cohdi.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -1400,7 +1400,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/cohdi.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -1408,10 +1408,10 @@ items:
   CAMEL:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/camel.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -1419,7 +1419,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/camel.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -1427,10 +1427,10 @@ items:
   CANN:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/cann.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -1438,7 +1438,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/cann.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -1446,10 +1446,10 @@ items:
   Casdoor:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/casdoor.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -1457,7 +1457,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/casdoor.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -1465,10 +1465,10 @@ items:
   Composio:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/composio.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -1476,7 +1476,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/composio.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -1484,10 +1484,10 @@ items:
   Crew AI:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/crew_ai.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -1495,7 +1495,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/crew_ai.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -1504,16 +1504,16 @@ items:
     tasks:
       research:
         status: completed
-        started_at: null
-        completed_at: 2026-09-23T21:44:21.354929+00:00
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: 2026-09-23 21:44:21.354929+00:00
         output_file: data/weeks/02-C/research/cubesandbox.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
         status: completed
-        started_at: null
-        completed_at: 2026-09-23T21:44:21.354929+00:00
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: 2026-09-23 21:44:21.354929+00:00
         output_file: website/content/tools/cubesandbox.md
         error_message: null
         retry_count: 0
@@ -1522,10 +1522,10 @@ items:
   Curvine:
     tasks:
       research:
-        status: pending
-        started_at: null
-        completed_at: null
-        output_file: null
+        status: completed
+        started_at: '2026-11-22T10:00:00Z'
+        completed_at: '2026-11-22T10:00:00Z'
+        output_file: data/weeks/02-C/research/curvine.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -1533,7 +1533,7 @@ items:
         status: pending
         started_at: null
         completed_at: null
-        output_file: null
+        output_file: website/content/tools/curvine.md
         error_message: null
         retry_count: 0
         agent: writer
@@ -1541,13 +1541,13 @@ items:
 week_tasks:
   tasks:
     blog_post:
-      status: pending
-      started_at: null
+      status: in_progress
+      started_at: '2026-11-22T10:00:00Z'
       completed_at: null
-      output_file: null
+      output_file: website/content/posts/2027-C1-cloud-platforms-runtimes-and-zero-trust.md
       error_message: null
       retry_count: 0
-      agent: writer
+      agent: editor
 metadata:
   created_at: '2026-02-01T19:37:47.046818'
   week_letter: C

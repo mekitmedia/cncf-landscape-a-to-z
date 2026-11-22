@@ -1,0 +1,46 @@
+project_name: CloudWeGo
+homepage_url: https://www.cloudwego.io/
+repo_url: https://github.com/cloudwego/kitex
+docs_url: https://www.cloudwego.io/docs/kitex/
+cncf_status: non-cncf
+summary: CloudWeGo Kitex is a high-performance, enterprise-grade Golang RPC microservice framework developed
+  and battle-tested by ByteDance.
+key_features:
+- Extremely high-throughput, low-latency Golang RPC framework powered by Netpoll network library.
+- Dual support for Thrift and gRPC/Protobuf protocols with zero-copy deserialization optimizations.
+- 'Rich service governance features: service discovery, circuit breaking, rate limiting, and distributed
+  tracing.'
+- Modular and extensible architecture allowing custom transport, codec, and middleware implementations.
+recent_updates: Recent versions provide enhanced gRPC HTTP/2 stream multiplexing, updated Thrift codecs,
+  and refined OpenTelemetry integration.
+use_cases: Ultra-high-concurrency microservices, real-time streaming backends, enterprise RPC service
+  meshes, and financial payment systems.
+ecosystem_perspectives:
+  strengths: Battle-hardened at massive scale across ByteDance services handling billions of requests
+    per second with minimal CPU overhead.
+  considerations: Primarily focused on Go; teams with polyglot tech stacks must use standard gRPC interfaces
+    to interoperate.
+  community_discussions:
+  - Widely studied by systems engineers for its custom Netpoll networking library that outperforms Go's
+    standard net package.
+interesting_facts: Kitex powers the internal backend microservices for TikTok, handling hundreds of millions
+  of concurrent requests daily.
+get_started: Install the Kitex code generation tool with go install github.com/cloudwego/kitex/tool/cmd/kitex@latest,
+  and generate an RPC server from an IDL.
+related_tools:
+- gRPC
+- Connect RPC
+- Dubbo
+latest_release:
+  version: v0.16.4
+  date: '2026-10-10T06:15:24Z'
+  release_notes_url: https://github.com/cloudwego/kitex/releases/tag/v0.16.4
+sources:
+- id: src_readme
+  title: CloudWeGo GitHub README
+  url: https://github.com/cloudwego/kitex
+  source_type: github_readme
+  quotes:
+  - Kitex [kaɪt'eks] is a **high-performance** and **strong-extensibility** Go RPC framework that helps
+    developers build microservices. If the performance and extensibility are the main concerns when you
+    develop microservices, Kitex can be a good choice.

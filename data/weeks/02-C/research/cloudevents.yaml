@@ -1,0 +1,43 @@
+project_name: CloudEvents
+homepage_url: https://cloudevents.io/
+repo_url: https://github.com/cloudevents/spec
+docs_url: https://cloudevents.io/docs/
+cncf_status: graduated
+summary: CloudEvents is an open-source CNCF Graduated specification that standardizes event data metadata
+  across cloud providers and event-driven architectures.
+key_features:
+- Universal specification describing event metadata (id, source, type, specversion, datacontenttype, time).
+- Protocol bindings for HTTP, AMQP, MQTT, Kafka, NATS, and WebSockets.
+- Binary and structured serialization modes supporting JSON, Protocol Buffers, and Avro payloads.
+- Official multi-language SDKs in Go, Python, Java, C#, Rust, JavaScript, and Ruby.
+recent_updates: Specification v1.0.2 stabilization, updated transport binding recommendations, and expanded
+  SDK performance improvements.
+use_cases: Decoupling serverless functions, multi-cloud event-driven architectures, asynchronous microservice
+  messaging, and webhooks.
+ecosystem_perspectives:
+  strengths: CNCF Graduated specification; universally implemented across AWS EventBridge, Google Eventarc,
+    Azure Event Grid, and Knative Eventing.
+  considerations: CloudEvents defines the metadata envelope, not the business payload schema; payload
+    serialization remains application-specific.
+  community_discussions:
+  - The foundational bedrock that made event-driven serverless computing truly interoperable across vendors.
+interesting_facts: CloudEvents achieved CNCF Graduated status alongside Kubernetes, Prometheus, and Envoy,
+  confirming its status as a core Internet protocol standard.
+get_started: Explore the spec at cloudevents.io, or install the Python SDK via pip install cloudevents
+  to create and serialize CloudEvent objects.
+related_tools:
+- Knative Eventing
+- CDEvents
+- Apache Kafka
+latest_release:
+  version: ce@v1.0.2
+  date: '2022-02-06T00:48:06Z'
+  release_notes_url: https://github.com/cloudevents/spec/releases/tag/ce%40v1.0.2
+sources:
+- id: src_readme
+  title: CloudEvents GitHub README
+  url: https://github.com/cloudevents/spec
+  source_type: github_readme
+  quotes:
+  - CloudEvents is a specification for describing event data in common formats to provide interoperability
+    across services, platforms and systems.

@@ -1,0 +1,45 @@
+project_name: Confidential Containers
+homepage_url: https://confidentialcontainers.org/
+repo_url: https://github.com/confidential-containers/cloud-api-adaptor
+docs_url: https://confidentialcontainers.org/docs/
+cncf_status: incubating
+summary: Confidential Containers is an open-source CNCF project that enables cloud-native confidential
+  computing using hardware-isolated execution environments.
+key_features:
+- Hardware-level memory encryption and attestation leveraging AMD SEV, Intel TDX, and ARM CCA.
+- Seamless Kubernetes integration deploying confidential pods without modifying application container
+  images.
+- Peer-pod architecture enabling confidential computing on public cloud bare metal and managed Kubernetes
+  (EKS, AKS, GKE).
+- Remote attestation integration ensuring untrusted infrastructure hosts cannot access decrypted memory.
+recent_updates: Recent releases bring Intel TDX support, refined cloud-api-adaptor image provisioning,
+  and enhanced remote attestation services.
+use_cases: Processing sensitive healthcare and financial data in public clouds, multi-party confidential
+  AI model inference, and zero-trust cloud hosting.
+ecosystem_perspectives:
+  strengths: CNCF Incubating project; establishes the standard architectural bridge between hardware Trusted
+    Execution Environments (TEEs) and Kubernetes pods.
+  considerations: Requires specialized hardware support (AMD SEV-SNP, Intel TDX) and introduces minor
+    boot latency for confidential VM provisioning.
+  community_discussions:
+  - Backed by major cloud providers and chipmakers (AMD, Intel, Red Hat, IBM, Microsoft, Google) to make
+    confidential computing cloud-native.
+interesting_facts: With Confidential Containers, even cloud provider administrators with root access to
+  the physical host cannot inspect the memory of your running pod.
+get_started: Deploy the Confidential Containers operator on a compatible Kubernetes cluster and use the
+  kata-qemu-coco or peer-pod runtimeClass in your pod spec.
+related_tools:
+- Kata Containers
+- Inclavare Containers
+- gVisor
+latest_release:
+  version: v0.23.0
+  date: '2026-09-28T13:34:42Z'
+  release_notes_url: https://github.com/confidential-containers/confidential-containers/releases/tag/v0.23.0
+sources:
+- id: src_readme
+  title: Confidential Containers GitHub README
+  url: https://github.com/confidential-containers/cloud-api-adaptor
+  source_type: github_readme
+  quotes:
+  - Confidential Containers

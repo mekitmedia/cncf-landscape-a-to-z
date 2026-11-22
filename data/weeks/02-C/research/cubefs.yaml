@@ -1,0 +1,47 @@
+project_name: CubeFS
+homepage_url: https://cubefs.io/
+repo_url: https://github.com/cubefs/cubefs
+docs_url: https://cubefs.io/docs/master/overview/introduction.html
+cncf_status: graduated
+summary: CubeFS is an open-source CNCF Graduated cloud-native distributed file system and object storage
+  platform built for large-scale data and AI workloads.
+key_features:
+- 'Multi-access protocol support: seamlessly access the same data via POSIX filesystem interfaces, S3-compatible
+  APIs, and HDFS protocols.'
+- Separation of metadata and data storage engines, scaling to hundreds of billions of files across petabytes
+  of storage.
+- Multi-tier storage caching integrating local NVMe/SSD caching with high-density HDD cold storage for
+  cost optimization.
+- Kubernetes CSI driver providing scalable, high-concurrency ReadWriteMany (RWX) volume storage.
+recent_updates: Recent versions bring optimized S3 object storage compatibility, improved erasure coding
+  performance, and enhanced metadata memory caching.
+use_cases: Large-scale AI model training datasets, big data analytics (Spark, Flink), enterprise data
+  lakes, and shared Kubernetes container storage.
+ecosystem_perspectives:
+  strengths: CNCF Graduated powerhouse; proven in massive production deployments at JD.com and NetEase
+    managing hundreds of petabytes.
+  considerations: Deploying and operating a full distributed CubeFS cluster requires dedicated storage
+    nodes and network bandwidth planning.
+  community_discussions:
+  - Originally created as ChubaoFS before being donated to CNCF and advancing to full Graduated maturity.
+interesting_facts: CubeFS powers the core storage infrastructure behind JD.com's e-commerce platform,
+  surviving massive traffic surges during global shopping festivals.
+get_started: Deploy CubeFS on Kubernetes using the official Helm chart, deploy the CubeFS CSI driver,
+  and provision persistent volume claims with ReadWriteMany access.
+related_tools:
+- Ceph
+- SeaweedFS
+- MinIO
+latest_release:
+  version: v3.6.0
+  date: '2026-08-12T09:21:44Z'
+  release_notes_url: https://github.com/cubefs/cubefs/releases/tag/v3.6.0
+sources:
+- id: src_readme
+  title: CubeFS GitHub README
+  url: https://github.com/cubefs/cubefs
+  source_type: github_readme
+  quotes:
+  - CubeFS ("储宝" in Chinese) is an open-source cloud-native distributed file & object storage system,
+    hosted by the [Cloud Native Computing Foundation](https://cncf.io) (CNCF) as a [graduated](https://www.cncf.io/projects/)
+    project.

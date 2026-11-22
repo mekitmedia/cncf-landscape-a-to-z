@@ -1,0 +1,43 @@
+project_name: Cartography
+homepage_url: https://cartography-cncf.github.io/cartography/
+repo_url: https://github.com/cartography-cncf/cartography
+docs_url: https://cartography-cncf.github.io/cartography/dev/tutorial.html
+cncf_status: sandbox
+summary: Cartography is an open-source Python tool that consolidates infrastructure assets and security
+  relationships into an intuitive Neo4j graph.
+key_features:
+- Consolidates complex multi-cloud assets across AWS, GCP, Azure, Kubernetes, Okta, and GitHub.
+- Graph-based representation of infrastructure dependencies, IAM permissions, and exposed assets in Neo4j.
+- Automated vulnerability and blast radius analysis using Cypher queries.
+- Extensible plugin architecture for ingesting custom enterprise asset data.
+recent_updates: Releases bring expanded GCP security coverage, improved Kubernetes cluster topology mapping,
+  and updated sync scheduling modules.
+use_cases: Cloud security posture management (CSPM), attack surface mapping, IAM privilege escalation
+  detection, and compliance auditing.
+ecosystem_perspectives:
+  strengths: Graph queries make it effortless to discover obscure security pathways (e.g., exposed EC2
+    instance -> IAM role -> critical S3 bucket).
+  considerations: Requires deploying and operating a Neo4j graph database backend alongside periodic asset
+    sync jobs.
+  community_discussions:
+  - Originally created by Lyft's security team to untangle massive multi-account AWS architectures.
+interesting_facts: Cartography's graph approach was inspired by the insight that attackers think in graphs
+  while defenders often think in lists.
+get_started: Start a Neo4j database with Docker, install cartography via pip, and execute cartography
+  --neo4j-uri bolt://localhost:7687.
+related_tools:
+- Cloud Custodian
+- Steampipe
+- BloodHound
+latest_release:
+  version: 0.145.0
+  date: '2026-11-19T19:37:36Z'
+  release_notes_url: https://github.com/cartography-cncf/cartography/releases/tag/0.145.0
+sources:
+- id: src_readme
+  title: Cartography GitHub README
+  url: https://github.com/cartography-cncf/cartography
+  source_type: github_readme
+  quotes:
+  - Cartography is a Python tool that pulls infrastructure assets and their relationships into a [Neo4j](https://www.neo4j.com)
+    graph database.

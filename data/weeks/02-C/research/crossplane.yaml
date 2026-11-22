@@ -1,0 +1,46 @@
+project_name: Crossplane
+homepage_url: https://www.crossplane.io/
+repo_url: https://github.com/crossplane/crossplane
+docs_url: https://docs.crossplane.io/
+cncf_status: graduated
+summary: Crossplane is an open-source CNCF Graduated control plane framework that transforms Kubernetes
+  into a universal cloud infrastructure orchestrator.
+key_features:
+- Compositions and Composite Resource Definitions (XRDs) creating custom self-service cloud infrastructure
+  APIs.
+- Extensible Provider ecosystem managing resources across AWS, GCP, Azure, GitHub, and bare-metal providers.
+- Continuous reconciliation ensuring cloud infrastructure matches desired GitOps state and automatically
+  fixing drift.
+- Crossplane Functions providing programmable composition pipelines using Go, Python, or KCL.
+recent_updates: Crossplane 1.16+ releases bring stable Composition Functions, improved provider memory
+  footprints, and enhanced validation CLI tools.
+use_cases: Building Internal Developer Platforms (IDPs), replacing static Terraform runs with active Kubernetes
+  reconciliation, and GitOps multi-cloud provisioning.
+ecosystem_perspectives:
+  strengths: CNCF Graduated; empowers platform teams to build customized, enterprise-tailored infrastructure
+    APIs that hide cloud complexity from developers.
+  considerations: Requires operating a resilient Kubernetes control plane and learning Composition modeling
+    principles.
+  community_discussions:
+  - Celebrated across platform engineering as the definitive bridge between Kubernetes control planes
+    and multi-cloud infrastructure.
+interesting_facts: 'Crossplane allows developers to request a database using a simple Custom Resource
+  like ''kind: PostgreSQLInstance'' without knowing whether it is running on AWS RDS, GCP CloudSQL, or
+  on-prem.'
+get_started: Install Crossplane via Helm with helm install crossplane --namespace crossplane-system crossplane-stable/crossplane,
+  then install your cloud Provider.
+related_tools:
+- Terraform
+- OpenTofu
+- Backstage
+latest_release:
+  version: v2.4.3
+  date: '2026-10-22T15:50:21Z'
+  release_notes_url: https://github.com/crossplane/crossplane/releases/tag/v2.4.3
+sources:
+- id: src_readme
+  title: Crossplane GitHub README
+  url: https://github.com/crossplane/crossplane
+  source_type: github_readme
+  quotes:
+  - Crossplane is a framework for building cloud native control planes without

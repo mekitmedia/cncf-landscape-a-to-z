@@ -1,0 +1,46 @@
+project_name: Cadence Workflow
+homepage_url: https://cadenceworkflow.io/
+repo_url: https://github.com/cadence-workflow/cadence
+docs_url: https://cadenceworkflow.io/docs/get-started/
+cncf_status: sandbox
+summary: Cadence is a distributed, scalable, and fault-oblivious stateful code orchestration engine originally
+  developed by Uber.
+key_features:
+- Fault-oblivious stateful code execution allowing developers to write long-running business logic as
+  standard procedural code.
+- 'Automatic durability: workflow state, local variables, and execution threads survive process crashes
+  and node reboots seamlessly.'
+- Scalable microservice activity execution with built-in retries, backoffs, timeouts, and heartbeat monitoring.
+- Multi-language SDK support in Go, Java, and Python with comprehensive workflow history auditing.
+recent_updates: Recent releases bring optimized Cassandra and MySQL history persistence, improved async
+  event queue processing, and updated observability exporters.
+use_cases: Distributed financial transactions, order fulfillment pipelines, long-running human-in-the-loop
+  approvals, and complex microservice sagas.
+ecosystem_perspectives:
+  strengths: CNCF Sandbox project; proven at staggering scale at Uber and large enterprises handling billions
+    of mission-critical workflows.
+  considerations: Workflows must be strictly deterministic; non-deterministic code (like random numbers
+    or unmocked time calls) can corrupt event replays.
+  community_discussions:
+  - Pioneered the modern workflow-as-code paradigm that inspired both Temporal and Azure Durable Functions.
+interesting_facts: Cadence workflows can sleep or wait for external signals for months or even years without
+  consuming active CPU or memory while waiting.
+get_started: Run Cadence server locally with Docker Compose, and build your first workflow in Go using
+  the cadence-client SDK.
+related_tools:
+- Temporal
+- Airflow
+- Argo Workflows
+latest_release:
+  version: v1.4.5
+  date: '2026-10-30T22:16:09Z'
+  release_notes_url: https://github.com/cadence-workflow/cadence/releases/tag/v1.4.5
+sources:
+- id: src_readme
+  title: Cadence Workflow GitHub README
+  url: https://github.com/cadence-workflow/cadence
+  source_type: github_readme
+  quotes:
+  - Cadence Workflow is an open-source platform since 2017 for building and running scalable, fault-tolerant,
+    and long-running workflows. This repository contains the core orchestration engine and tools including
+    CLI, schema managment, benchmark and canary.

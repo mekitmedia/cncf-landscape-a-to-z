@@ -1,0 +1,45 @@
+project_name: Crate.io
+homepage_url: https://crate.io/
+repo_url: https://github.com/crate/crate
+docs_url: https://crate.io/docs/crate/reference/en/latest/
+cncf_status: non-cncf
+summary: CrateDB is a distributed, open-source SQL database built for real-time analytics, time-series,
+  and large-scale industrial IoT data.
+key_features:
+- Distributed SQL database combining the familiarity of PostgreSQL SQL syntax with the search power of
+  Lucene.
+- Dynamic document schemas with full-text search, geospatial queries, and automatic column indexing.
+- Shared-nothing distributed architecture with automatic horizontal sharding and self-healing replication.
+- High-throughput ingestion handling millions of sensor readings and time-series events per second.
+recent_updates: Recent versions bring vector search indexing for AI applications, PostgreSQL 14 protocol
+  compatibility improvements, and optimized aggregation queries.
+use_cases: Industrial IoT telemetry, smart city sensor monitoring, time-series metrics logging, and real-time
+  operational analytics.
+ecosystem_perspectives:
+  strengths: Combines relational SQL querying with Lucene document indexing and time-series partitioning
+    in a single unified cluster.
+  considerations: Optimized for analytical queries and streaming append workloads; not designed for heavy
+    complex relational table joins.
+  community_discussions:
+  - Widely adopted in manufacturing and IoT environments to ingest sensor telemetry without having to
+    manage separate database and search engines.
+interesting_facts: CrateDB natively speaks the PostgreSQL wire protocol, allowing users to connect to
+  it using standard PostgreSQL drivers and tools like Grafana.
+get_started: Run CrateDB locally with Docker via docker run -d -p 4200:4200 -p 5432:5432 crate:latest,
+  and access the web administration console at http://localhost:4200.
+related_tools:
+- ClickHouse
+- TimescaleDB
+- InfluxDB
+latest_release:
+  version: 6.5.1
+  date: '2026-11-04T13:57:08Z'
+  release_notes_url: https://github.com/crate/crate/releases/tag/6.5.1
+sources:
+- id: src_readme
+  title: Crate.io GitHub README
+  url: https://github.com/crate/crate
+  source_type: github_readme
+  quotes:
+  - CrateDB is a distributed SQL database that makes it simple to store and analyze massive amounts of
+    data in real-time.

@@ -1,0 +1,47 @@
+project_name: Couler
+homepage_url: https://couler-proj.github.io/couler/
+repo_url: https://github.com/couler-proj/couler
+docs_url: https://couler-proj.github.io/couler/
+cncf_status: non-cncf
+summary: Couler is an open-source Python programming interface for constructing and managing machine learning
+  workflow pipelines on cloud-native engines.
+key_features:
+- Unified Pythonic interface for expressing complex directed acyclic graph (DAG) machine learning workflows.
+- Multi-backend engine compilation generating native pipelines for Argo Workflows, Tekton, and Airflow.
+- Step caching, automated artifact passing, and conditional execution primitives.
+- Extensible integration with distributed training and model inference runtimes.
+recent_updates: Updates expanding Argo Workflows v3.5+ schema compatibility, improved artifact tracking,
+  and streamlined Python SDK imports.
+use_cases: End-to-end machine learning workflows, distributed model training pipelines, automated feature
+  engineering, and MLOps CI/CD.
+ecosystem_perspectives:
+  strengths: Allows data scientists to write plain, idiomatic Python code that compiles cleanly to cloud-native
+    Argo Workflow YAML without writing YAML.
+  considerations: Smaller community footprint compared to Kubeflow Pipelines, but offers a lighter and
+    more modular programming alternative.
+  community_discussions:
+  - Created by Ant Group to simplify MLOps pipeline construction across large-scale Kubernetes clusters.
+interesting_facts: Couler is named after the French word for 'to flow', symbolizing the seamless flow
+  of data through machine learning pipelines.
+get_started: Install with pip install couler, write a simple pipeline script in Python, and compile it
+  to Argo Workflows YAML using couler.run().
+related_tools:
+- Argo Workflows
+- Kubeflow Pipelines
+- Prefect
+latest_release:
+  version: v0.1.1rc8-stable
+  date: '2021-04-12T14:47:58Z'
+  release_notes_url: https://github.com/couler-proj/couler/releases/tag/v0.1.1rc8-stable
+sources:
+- id: src_readme
+  title: Couler GitHub README
+  url: https://github.com/couler-proj/couler
+  source_type: github_readme
+  quotes:
+  - '* Couler is a system designed for unified machine learning workflow optimization in the cloud. Couler
+    endeavors to provide a unified interface for constructing and optimizing workflows across various
+    workflow engines, such as [Argo Workflows](https://github.com/argoproj/argo-workflows), [Tekton Pipelines](https://tekton.dev/),
+    and [Apache Airflow](https://airflow.apache.org/). Couler enhances workflow efficiency through features
+    like Autonomous Workflow Construction, Automatic Artifact Caching Mechanisms, Big Workflow Auto Parallelism
+    Optimization, and Automatic Hyperparameters Tuning.'

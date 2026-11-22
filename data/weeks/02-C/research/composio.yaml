@@ -1,0 +1,46 @@
+project_name: Composio
+homepage_url: https://composio.dev/
+repo_url: https://github.com/ComposioHQ/composio
+docs_url: https://docs.composio.dev/
+cncf_status: non-cncf
+summary: Composio is an open-source tooling and integration platform that equips AI agents with over 1,000
+  tools, actions, and managed authentication protocols.
+key_features:
+- 1,000+ pre-built tool integrations across GitHub, Slack, Jira, Gmail, Salesforce, Notion, and Discord.
+- Managed authentication handling OAuth 2.0, API keys, and user impersonation seamlessly on behalf of
+  autonomous agents.
+- Framework-agnostic tool calling compatible with OpenAI Assistants, LangChain, Crew AI, AutoGen, and
+  Claude.
+- Action execution sandboxing ensuring safe execution and granular audit logging of AI agent behaviors.
+recent_updates: Recent versions bring automated tool search, dynamic schema pruning to conserve LLM context
+  windows, and real-time execution telemetry.
+use_cases: Equipping customer support agents with live SaaS integrations, autonomous software engineering
+  agents, and automated business workflows.
+ecosystem_perspectives:
+  strengths: Solves the painful authentication and API wrapping bottleneck for autonomous agents, drastically
+    accelerating AI agent development.
+  considerations: Requires managing API credentials or relying on Composio's managed authentication gateway
+    for third-party OAuth flows.
+  community_discussions:
+  - A runaway hit in the open-source AI community for turning complex multi-step SaaS APIs into simple
+    agent function calls.
+interesting_facts: Composio automatically reduces API schemas to only the fields needed by the LLM, reducing
+  prompt token costs by up to 80%.
+get_started: Install with pip install composio-core, authenticate an app with composio add github, and
+  pass the tools directly into your agent framework.
+related_tools:
+- Crew AI
+- LangChain
+- CAMEL
+latest_release:
+  version: '@composio/cli@0.6.3'
+  date: '2026-11-20T18:42:16Z'
+  release_notes_url: https://github.com/ComposioHQ/composio/releases/tag/%40composio/cli%400.6.3
+sources:
+- id: src_readme
+  title: Composio GitHub README
+  url: https://github.com/ComposioHQ/composio
+  source_type: github_readme
+  quotes:
+  - Composio gives your AI agents 1000+ pre-authenticated toolkits, per-user sessions, authentication,
+    triggers, and a sandbox, so you can ship agents that turn intent into action.

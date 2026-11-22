@@ -1,0 +1,45 @@
+project_name: Chef Infra
+homepage_url: https://docs.chef.io/chef_overview/
+repo_url: https://github.com/chef/chef
+docs_url: https://docs.chef.io/workstation/
+cncf_status: non-cncf
+summary: Chef Infra is a foundational infrastructure-as-code automation platform that configures and manages
+  fleet operating environments declaratively.
+key_features:
+- Idempotent declarative configuration management using Ruby-based cookbooks and recipes.
+- Chef Infra Client ensuring continuous node convergence and preventing configuration drift.
+- Extensive resource library covering package management, user provisioning, system services, and storage
+  mounts.
+- Scalable client-server architecture managing tens of thousands of heterogeneous Linux, Windows, and
+  macOS nodes.
+recent_updates: Continuous releases adding support for the latest Linux distributions, updated Ruby runtime
+  libraries, and performance optimizations.
+use_cases: Automating OS configuration across enterprise server fleets, bare-metal server provisioning,
+  and consistent VM baseline enforcement.
+ecosystem_perspectives:
+  strengths: Decades of production battle-testing across thousands of global enterprises managing large
+    heterogeneous server estates.
+  considerations: Requires dedicated server/client infrastructure and Ruby programming expertise compared
+    to agentless tools like Ansible.
+  community_discussions:
+  - One of the pioneering DevOps pillars that established infrastructure-as-code before the container
+    revolution.
+interesting_facts: Chef pioneered the culinary naming convention (cookbooks, recipes, knife, chef-server)
+  that popularized DevOps culture worldwide.
+get_started: Install Chef Workstation, generate a new cookbook with chef generate cookbook my_cookbook,
+  and converge locally using chef-client -z.
+related_tools:
+- Ansible
+- Puppet
+- CFEngine
+latest_release:
+  version: v15.8.23
+  date: '2020-02-20T06:51:07Z'
+  release_notes_url: https://github.com/chef/chef/releases/tag/v15.8.23
+sources:
+- id: src_readme
+  title: Chef Infra GitHub README
+  url: https://github.com/chef/chef
+  source_type: github_readme
+  quotes:
+  - Chef Infra is a configuration management tool designed to bring automation to your entire infrastructure.

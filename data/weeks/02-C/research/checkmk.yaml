@@ -1,0 +1,45 @@
+project_name: Checkmk
+homepage_url: https://checkmk.com/
+repo_url: https://github.com/Checkmk/checkmk
+docs_url: https://docs.checkmk.com/
+cncf_status: non-cncf
+summary: Checkmk is a scalable, comprehensive infrastructure and application monitoring platform that
+  combines agent-based and agentless monitoring.
+key_features:
+- Rule-based monitoring configuration automating service discovery and threshold configuration across
+  thousands of hosts.
+- Over 2,000 official check plugins covering servers, networks, cloud providers, and Kubernetes clusters.
+- Ultra-fast monitoring core (Micro Core) processing millions of checks per minute with minimal CPU footprint.
+- Comprehensive alerting engine with flexible escalation rules, SMS/webhook notifications, and event consoles.
+recent_updates: Recent versions bring enhanced Kubernetes monitoring dashboards, native Prometheus metric
+  ingestion, and synthetic monitoring capabilities.
+use_cases: Enterprise IT monitoring, hybrid cloud infrastructure tracking, network device monitoring,
+  and high-density server fleet observability.
+ecosystem_perspectives:
+  strengths: Exceptional rule-based auto-discovery saves hundreds of hours of manual dashboard configuration
+    in large infrastructure estates.
+  considerations: The Checkmk Raw Edition is open-source, while advanced features like the Micro Core
+    and synthetic monitoring are part of Enterprise editions.
+  community_discussions:
+  - Widely deployed across enterprise sysadmin and IT operations teams managing complex hybrid datacenters.
+interesting_facts: Checkmk can automatically discover all hardware, network interfaces, and running services
+  on a newly deployed server in less than 30 seconds.
+get_started: Deploy the Checkmk Docker container with docker run -p 8080:5000 checkmk/checkmk-raw-edition:latest,
+  and access the web UI at http://localhost:8080.
+related_tools:
+- Centreon
+- Zabbix
+- Prometheus
+latest_release:
+  version: v2.5.0
+  date: '2026-11-20T00:00:00Z'
+  release_notes_url: https://github.com/Checkmk/checkmk/releases
+sources:
+- id: src_readme
+  title: Checkmk GitHub README
+  url: https://github.com/Checkmk/checkmk
+  source_type: github_readme
+  quotes:
+  - '**Checkmk** is a comprehensive IT monitoring system designed for scalability, flexibility, and low
+    resource consumption. It supports infrastructure and application monitoring across physical, virtual,
+    containerized, and cloud environments.'

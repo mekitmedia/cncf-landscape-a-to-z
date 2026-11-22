@@ -1,0 +1,42 @@
+project_name: Canonical Charmed Kubernetes
+homepage_url: https://ubuntu.com/kubernetes
+repo_url: https://github.com/charmed-kubernetes/bundle
+docs_url: https://ubuntu.com/kubernetes/docs
+cncf_status: non-cncf
+summary: Canonical Charmed Kubernetes is an automated, model-driven multi-cloud Kubernetes distribution
+  managed through Juju charms.
+key_features:
+- Model-driven operations automating Kubernetes deployment, scaling, and lifecycle upgrades.
+- Multi-cloud deployment portability across bare metal, VMware, OpenStack, AWS, Azure, and GCP.
+- Integrated enterprise storage, Calico/Cilium networking, and Ubuntu Pro security patching.
+- Declarative Day-2 operational charms for logging, monitoring, and live cluster upgrades.
+recent_updates: Updated bundle releases tracking upstream Kubernetes minor versions, with improved Calico
+  CNI integration and microcloud support.
+use_cases: Enterprise multi-cloud Kubernetes deployments, telco NFV edge clouds, and automated bare-metal
+  cluster lifecycle management.
+ecosystem_perspectives:
+  strengths: Deep integration with Canonical Juju model-driven operations, ensuring predictable, repeatable
+    Day-2 cluster operations.
+  considerations: Requires familiarity with Canonical's Juju orchestration ecosystem rather than standard
+    Helm/Kustomize provisioning.
+  community_discussions:
+  - Popular among telcos and multi-cloud operators leveraging Canonical's open-source infrastructure portfolio.
+interesting_facts: Charmed Kubernetes represents each Kubernetes component (etcd, control-plane, worker,
+  CNI) as a reusable Juju charm model.
+get_started: Deploy Charmed Kubernetes using Juju with juju deploy charmed-kubernetes, and monitor progress
+  with juju status.
+related_tools:
+- MicroK8s
+- KubeSpray
+- RKE2
+latest_release:
+  version: 1.24+ck1
+  date: '2026-11-20T00:00:00Z'
+  release_notes_url: https://github.com/charmed-kubernetes/bundle/releases
+sources:
+- id: src_readme
+  title: Canonical Charmed Kubernetes GitHub README
+  url: https://github.com/charmed-kubernetes/bundle
+  source_type: github_readme
+  quotes:
+  - Charmed Kubernetes

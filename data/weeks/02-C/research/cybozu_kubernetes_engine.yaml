@@ -1,0 +1,44 @@
+project_name: Cybozu Kubernetes Engine
+homepage_url: https://github.com/cybozu-go/cke
+repo_url: https://github.com/cybozu-go/cke
+docs_url: https://github.com/cybozu-go/cke/blob/master/docs/index.md
+cncf_status: non-cncf
+summary: Cybozu Kubernetes Engine (CKE) is an automated, distributed service that manages and bootstraps
+  Kubernetes clusters on bare-metal servers.
+key_features:
+- Bare-metal focused automated Kubernetes clustering and lifecycle maintenance.
+- Built-in distributed etcd clustering and control-plane bootstrapping.
+- Continuous reconciliation ensuring cluster node state aligns with the declarative configuration.
+- Zero-downtime rolling updates of Kubernetes components on physical servers.
+recent_updates: Releases updating supported Kubernetes minor versions, improving bare-metal hardware health
+  checks, and optimizing etcd operations.
+use_cases: Bare-metal on-premises data centers, private cloud infrastructure, and automated physical server
+  Kubernetes provisioning.
+ecosystem_perspectives:
+  strengths: Engineered specifically for the harsh realities of physical bare-metal hardware maintenance
+    where cloud APIs do not exist.
+  considerations: Requires dedicated physical network planning and hardware lifecycle tools like Sabakan
+    in Cybozu's stack.
+  community_discussions:
+  - Powers the core on-premises bare-metal cloud infrastructure at Cybozu running mission-critical enterprise
+    applications.
+interesting_facts: CKE manages etcd itself as part of its reconciliation loop, automatically handling
+  etcd member additions and removals as physical nodes change.
+get_started: Install the cke and ckecli binaries, configure an etcd backend, define your cluster configuration
+  in YAML, and run ckecli cluster set cluster.yml.
+related_tools:
+- KubeOne
+- KubeSpray
+- Talos Linux
+latest_release:
+  version: v1.35.8
+  date: '2026-11-07T19:42:41Z'
+  release_notes_url: https://github.com/cybozu-go/cke/releases/tag/v1.35.8
+sources:
+- id: src_readme
+  title: Cybozu Kubernetes Engine GitHub README
+  url: https://github.com/cybozu-go/cke
+  source_type: github_readme
+  quotes:
+  - '**CKE** (Cybozu Kubernetes Engine) is a distributed service that automates [Kubernetes][] cluster
+    management.'

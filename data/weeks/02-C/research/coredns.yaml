@@ -1,0 +1,44 @@
+project_name: CoreDNS
+homepage_url: https://coredns.io/
+repo_url: https://github.com/coredns/coredns
+docs_url: https://coredns.io/manual/toc/
+cncf_status: graduated
+summary: CoreDNS is a fast, flexible, and extensible DNS server written in Go that serves as the default
+  cluster DNS provider for Kubernetes.
+key_features:
+- Chained plugin architecture where every DNS feature (caching, logging, Kubernetes discovery, rewrite)
+  is a standalone plugin.
+- Default DNS service discovery provider for Kubernetes clusters worldwide.
+- 'Multi-backend support: etcd, file zones, cloud DNS providers, and upstream forwarders.'
+- Support for modern DNS transport protocols including DNS-over-TLS (DoT), DNS-over-gRPC, and DNS-over-HTTPS
+  (DoH).
+recent_updates: Continuous releases adding memory efficiency optimizations, updated Kubernetes client
+  libraries, and improved forward plugin health checks.
+use_cases: Kubernetes cluster service discovery, hybrid cloud split-horizon DNS routing, edge gateway
+  DNS forwarding, and private enterprise naming.
+ecosystem_perspectives:
+  strengths: CNCF Graduated foundational project; clean plugin model, highly reliable, and universally
+    deployed in virtually every Kubernetes cluster.
+  considerations: Heavy DNS query volume in large clusters requires tuning autoscaling and local NodeLocal
+    DNSCache sidecars to avoid connection limits.
+  community_discussions:
+  - Replaced kube-dns in Kubernetes 1.13 and has remained the bedrock of cloud-native naming ever since.
+interesting_facts: CoreDNS was originally created by Miek Gieben as a fork of the Caddy web server, repurposing
+  Caddy's plugin architecture for DNS.
+get_started: Download the CoreDNS binary, configure a simple Corefile (e.g., . { forward . 8.8.8.8; log
+  }), and run ./coredns.
+related_tools:
+- kube-dns
+- Bind9
+- Unbound
+latest_release:
+  version: v1.15.0
+  date: '2026-10-21T03:27:34Z'
+  release_notes_url: https://github.com/coredns/coredns/releases/tag/v1.15.0
+sources:
+- id: src_readme
+  title: CoreDNS GitHub README
+  url: https://github.com/coredns/coredns
+  source_type: github_readme
+  quotes:
+  - CoreDNS is a DNS server/forwarder, written in Go, that chains [plugins](https://coredns.io/plugins).

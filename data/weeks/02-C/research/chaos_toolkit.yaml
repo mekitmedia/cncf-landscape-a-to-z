@@ -1,0 +1,43 @@
+project_name: Chaos Toolkit
+homepage_url: https://chaostoolkit.org/
+repo_url: https://github.com/chaostoolkit/chaostoolkit
+docs_url: https://chaostoolkit.org/reference/usage/getting-started/
+cncf_status: non-cncf
+summary: Chaos Toolkit is an open-source, vendor-neutral automation platform for practicing chaos engineering
+  across diverse systems and clouds.
+key_features:
+- Open, declarative JSON/YAML experiment specification defining steady-state hypotheses, probes, and actions.
+- Automated hypothesis verification ensuring systems return to steady-state after injected disruptions.
+- Extensible driver plugin ecosystem connecting Kubernetes, AWS, Azure, GCP, Cloud Foundry, and Istio.
+- Pipeline-native CLI easily integrated into CI/CD automated resilience testing workflows.
+recent_updates: Updates refining hypothesis validation reporting, enhanced OpenTelemetry tracing of experiment
+  runs, and updated cloud driver plugins.
+use_cases: Automating continuous resilience tests, verifying disaster recovery hypotheses, and embedding
+  chaos experiments into release pipelines.
+ecosystem_perspectives:
+  strengths: Cloud-agnostic and vendor-neutral; provides a formal, scientific methodology for hypothesis
+    verification rather than just throwing random errors.
+  considerations: Relies on Python drivers; requires configuring appropriate API credentials for each
+    target cloud or orchestrator.
+  community_discussions:
+  - Supported by the Open Chaos Community and widely recognized for formalizing the Open Chaos Experiment
+    Specification.
+interesting_facts: Chaos Toolkit emphasizes the 'Steady State Hypothesis'—requiring you to mathematically
+  prove your system is healthy before and after injecting faults.
+get_started: Install via pip install -U chaostoolkit, initialize an experiment with chaos init, and execute
+  it using chaos run experiment.json.
+related_tools:
+- Chaos Mesh
+- LitmusChaos
+- Gremlin
+latest_release:
+  version: 1.21.4
+  date: '2026-10-05T09:44:32Z'
+  release_notes_url: https://github.com/chaostoolkit/chaostoolkit/releases/tag/1.21.4
+sources:
+- id: src_readme
+  title: Chaos Toolkit GitHub README
+  url: https://github.com/chaostoolkit/chaostoolkit
+  source_type: github_readme
+  quotes:
+  - The Chaos Toolkit, or as we love to call it &#x201C;ctk&#x201D;, is a simple

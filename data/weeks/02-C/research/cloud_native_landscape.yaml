@@ -1,0 +1,42 @@
+project_name: Cloud Native Landscape
+homepage_url: https://landscape.cncf.io/
+repo_url: https://github.com/cncf/landscapeapp
+docs_url: https://github.com/cncf/landscapeapp#readme
+cncf_status: non-cncf
+summary: Cloud Native Landscape is the open-source web application that generates and visualizes the interactive
+  CNCF cloud-native ecosystem map.
+key_features:
+- Interactive categorization of thousands of cloud-native projects and products across compute, storage,
+  networking, and security.
+- Automated data extraction pulling GitHub stars, commit activity, funding, and licenses dynamically.
+- Exportable high-resolution PDF landscapes, dynamic card grids, and customizable subcategory views.
+- Fully open-source React and Node.js codebase maintained directly by the Linux Foundation.
+recent_updates: Ongoing releases improving responsive search performance, updated CNCF project maturity
+  badges, and accessibility improvements.
+use_cases: Discovering cloud-native tooling, mapping enterprise technology stacks, tracking CNCF project
+  maturity, and market research.
+ecosystem_perspectives:
+  strengths: The authoritative industry reference for understanding the breadth and organization of the
+    cloud-native ecosystem.
+  considerations: Can be overwhelming due to the sheer volume of projects; requires curated guidance to
+    navigate effectively.
+  community_discussions:
+  - Famous across the tech industry as the ultimate visual showcase of the exploding cloud-native landscape.
+interesting_facts: The CNCF Landscape app renders thousands of SVG logos simultaneously using optimized
+  canvas and virtualized DOM rendering.
+get_started: Clone the landscapeapp repository, install dependencies with npm install, and run npm start
+  to host your own local landscape map.
+related_tools:
+- Backstage
+- Artifact Hub
+latest_release:
+  version: v1.0.657
+  date: '2026-11-20T00:00:00Z'
+  release_notes_url: https://github.com/cncf/landscapeapp/releases
+sources:
+- id: src_readme
+  title: Cloud Native Landscape GitHub README
+  url: https://github.com/cncf/landscapeapp
+  source_type: github_readme
+  quotes:
+  - '- [Adding and managing landscape entries](#adding-and-managing-landscape-entries)'

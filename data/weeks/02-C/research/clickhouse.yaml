@@ -1,0 +1,44 @@
+project_name: ClickHouse
+homepage_url: https://clickhouse.com/
+repo_url: https://github.com/ClickHouse/ClickHouse
+docs_url: https://clickhouse.com/docs/
+cncf_status: non-cncf
+summary: ClickHouse is an open-source column-oriented database management system that delivers blazing-fast
+  real-time analytical query performance at scale.
+key_features:
+- Columnar storage architecture with vectorized SIMD query execution processing billions of rows per second
+  per server.
+- Unrivaled data compression ratios (5x-10x) reducing disk footprint and maximizing I/O cache efficiency.
+- Native distributed query execution across petabyte-scale clusters with multi-master asynchronous replication.
+- Full SQL support with specialized analytical functions for time-series, arrays, and geospatial data.
+recent_updates: Continuous releases adding inverted indexes for full-text search, enhanced S3 object storage
+  caching, and optimized vector search capabilities.
+use_cases: Real-time observability logging (OpenTelemetry), financial market analytics, web traffic clickstream
+  analysis, and telemetry event storage.
+ecosystem_perspectives:
+  strengths: The undisputed performance champion for real-time analytical SQL queries over massive streaming
+    event datasets.
+  considerations: Optimized for append-only bulk inserts; not designed for transactional row-level updates
+    or OLTP workloads.
+  community_discussions:
+  - Adopted across top observability and cybersecurity platforms (Uber, Cloudflare, Datadog) as their
+    core analytics engine.
+interesting_facts: ClickHouse was originally developed at Yandex to power Yandex.Metrica—the second-largest
+  web analytics platform in the world—before being open-sourced.
+get_started: Download the single standalone binary with curl https://clickhouse.com/ | sh, and start an
+  interactive SQL shell with ./clickhouse local.
+related_tools:
+- Apache Pinot
+- Apache Druid
+- Trino
+latest_release:
+  version: v26.9.35.9-stable
+  date: '2026-11-21T16:51:09Z'
+  release_notes_url: https://github.com/ClickHouse/ClickHouse/releases/tag/v26.9.35.9-stable
+sources:
+- id: src_readme
+  title: ClickHouse GitHub README
+  url: https://github.com/ClickHouse/ClickHouse
+  source_type: github_readme
+  quotes:
+  - curl https://clickhouse.com/ | sh

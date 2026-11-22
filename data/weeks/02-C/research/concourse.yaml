@@ -1,0 +1,45 @@
+project_name: Concourse
+homepage_url: https://concourse-ci.org/
+repo_url: https://github.com/concourse/concourse
+docs_url: https://concourse-ci.org/docs.html
+cncf_status: non-cncf
+summary: Concourse is an open-source, pipeline-based continuous integration and continuous delivery system
+  built on stateless, declarative container abstractions.
+key_features:
+- Pipelines as first-class citizens visualized as an interactive visual flow graph in the web UI.
+- 'Stateless, container-native execution: every build step runs inside a clean, ephemeral container.'
+- 'Resource abstraction model: all inputs and outputs (git repos, s3 buckets, docker images) are represented
+  as standard Resources.'
+- 'Zero hidden configuration: entire pipelines and credentials are fully defined in declarative YAML and
+  version-controlled.'
+recent_updates: Recent maintenance releases bring container runtime optimizations, updated web dashboard
+  dependencies, and security patches.
+use_cases: Enterprise continuous integration, automated multi-stage software delivery, artifact promotion,
+  and infrastructure verification.
+ecosystem_perspectives:
+  strengths: Exceptional pipeline visualization and uncompromising stateless architecture; eliminates
+    'snowflake' CI worker configuration drift.
+  considerations: Strict container-based paradigm can present a learning curve for teams accustomed to
+    traditional script-runner CI systems like Jenkins.
+  community_discussions:
+  - Heavily relied upon by Cloud Foundry and enterprise platform teams for orchestrating complex, multi-stage
+    release pipelines.
+interesting_facts: Concourse was designed around the core principle that everything in a pipeline is an
+  input, a task, or an output, making all builds 100% reproducible.
+get_started: Run Concourse locally with Docker Compose using the official quickstart, install the fly
+  CLI, and execute fly -t local set-pipeline -p hello -c pipeline.yml.
+related_tools:
+- Tekton
+- Argo Workflows
+- Jenkins
+latest_release:
+  version: v8.3.3
+  date: '2026-11-03T12:44:41Z'
+  release_notes_url: https://github.com/concourse/concourse/releases/tag/v8.3.3
+sources:
+- id: src_readme
+  title: Concourse GitHub README
+  url: https://github.com/concourse/concourse
+  source_type: github_readme
+  quotes:
+  - Concourse is an automation system written in Go. It is most commonly used for
