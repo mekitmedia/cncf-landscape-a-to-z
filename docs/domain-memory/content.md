@@ -17,3 +17,7 @@ This file records insights, learnings, and canonical actions discovered during C
 ## 2026-11-10 - Writing tool content file and updating tracker
 **Learning:** The AIBrix tool's content file already existed but the tracker state was still pending for the writer.
 **Action:** Fixed the tracker state to match the existence of the content file.
+
+## 2026-11-22 - Internal Editorial Memos for Thematic Clusters
+**Learning:** Certain tools naturally cluster into compelling platform engineering architectures (e.g. Cozystack, Capsule, Clusternet, Clusterpedia forming an end-to-end bare-metal PaaS, in-cluster multi-tenancy, fleet dispatch, and global search stack).
+**Action:** Record internal editorial memos and deep-dive outlines under `docs/memos/` to preserve content ideas, article hooks, and reproduction lab notes for future writing.
