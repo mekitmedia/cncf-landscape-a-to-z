@@ -1,0 +1,25 @@
+project_name: Deepchecks
+homepage_url: https://github.com/deepchecks/deepchecks
+repo_url: https://github.com/deepchecks/deepchecks
+summary: Deepchecks provides continuous validation and automated testing for machine
+  learning models, LLMs, and data pipelines from research to production.
+key_features:
+- Holistic validation suites for tabular data, NLP, computer vision, and LLM applications.
+- Automated detection of data drift, label leakage, and model performance degradation.
+- CI/CD integration for automated testing gates before model deployment.
+recent_updates: Recent versions introduce enhanced LLM evaluation suites and automated
+  guardrail monitoring.
+use_cases: Validating training data integrity, testing ML models in CI pipelines,
+  and tracking production model drift.
+latest_release:
+  version: 0.19.1
+  date: '2024-12-15T15:25:39Z'
+  release_notes_url: https://github.com/deepchecks/deepchecks/releases/tag/0.19.1
+sources:
+- id: src_readme
+  title: Deepchecks GitHub README
+  url: https://github.com/deepchecks/deepchecks
+  source_type: github_readme
+  quotes:
+  - Deepchecks is a holistic open-source solution for all of your AI & ML validation
+    needs, enabling you to thoroughly test your data and models from research to production.

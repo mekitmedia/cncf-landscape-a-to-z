@@ -1,0 +1,25 @@
+project_name: DatenLord
+homepage_url: https://datenlord.github.io/
+repo_url: https://github.com/datenlord/datenlord
+summary: DatenLord is a high-performance cloud-native distributed storage system designed
+  to deliver extreme IOPS and low latency for cloud applications.
+key_features:
+- Distributed POSIX file system built with Rust and modern hardware acceleration.
+- Designed to meet high-performance and large capacity demands in cloud-native environments.
+- Direct support for Kubernetes container storage via CSI drivers.
+recent_updates: Enhanced distributed metadata caching and lock-free concurrency optimizations.
+use_cases: High-throughput cloud storage for distributed machine learning training
+  and stateful Kubernetes workloads.
+latest_release:
+  version: v1.0.0
+  date: '2026-11-20T00:00:00Z'
+  release_notes_url: https://github.com/datenlord/datenlord/releases
+sources:
+- id: src_readme
+  title: DatenLord GitHub README
+  url: https://github.com/datenlord/datenlord
+  source_type: github_readme
+  quotes:
+  - '*DatenLord* is a next-generation cloud-native distributed storage platform, which
+    aims to meet the performance-critical storage needs from next-generation cloud-native
+    applications'

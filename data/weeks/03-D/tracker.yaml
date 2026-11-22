@@ -2,10 +2,10 @@ items:
   Dalec:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-22T18:00:00Z'
+        output_file: data/weeks/03-D/research/dalec.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -21,10 +21,10 @@ items:
   Dapr:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-22T18:00:00Z'
+        output_file: data/weeks/03-D/research/dapr.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -40,10 +40,10 @@ items:
   Dapr SDK:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-22T18:00:00Z'
+        output_file: data/weeks/03-D/research/dapr_sdk.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -59,10 +59,10 @@ items:
   Dart:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-22T18:00:00Z'
+        output_file: data/weeks/03-D/research/dart.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -78,10 +78,10 @@ items:
   Databend:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-22T18:00:00Z'
+        output_file: data/weeks/03-D/research/databend.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -97,10 +97,10 @@ items:
   DatenLord:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-22T18:00:00Z'
+        output_file: data/weeks/03-D/research/datenlord.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -116,10 +116,10 @@ items:
   Daytona:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-22T18:00:00Z'
+        output_file: data/weeks/03-D/research/daytona.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -154,10 +154,10 @@ items:
   DeepSpeed:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-22T18:00:00Z'
+        output_file: data/weeks/03-D/research/deepspeed.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -173,10 +173,10 @@ items:
   Deepchecks:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-22T18:00:00Z'
+        output_file: data/weeks/03-D/research/deepchecks.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -192,10 +192,10 @@ items:
   Desktop Kubernetes:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-22T18:00:00Z'
+        output_file: data/weeks/03-D/research/desktop_kubernetes.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -230,10 +230,10 @@ items:
   Devfile:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-22T18:00:00Z'
+        output_file: data/weeks/03-D/research/devfile.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -249,10 +249,10 @@ items:
   Devtron:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-22T18:00:00Z'
+        output_file: data/weeks/03-D/research/devtron.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -268,10 +268,10 @@ items:
   Dex:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-22T18:00:00Z'
+        output_file: data/weeks/03-D/research/dex.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -287,10 +287,10 @@ items:
   Dfinity:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-22T18:00:00Z'
+        output_file: data/weeks/03-D/research/dfinity.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -306,10 +306,10 @@ items:
   Dgraph:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-22T18:00:00Z'
+        output_file: data/weeks/03-D/research/dgraph.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -326,16 +326,16 @@ items:
     tasks:
       research:
         status: completed
-        started_at: 2026-10-02T17:14:35.036563+00:00
-        completed_at: 2026-10-02T17:14:35.036563+00:00
+        started_at: 2026-10-02 17:14:35.036563+00:00
+        completed_at: 2026-10-02 17:14:35.036563+00:00
         output_file: data/weeks/03-D/research/direktiv.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
         status: completed
-        started_at: 2026-10-02T17:14:35.036563+00:00
-        completed_at: 2026-10-02T17:14:35.036563+00:00
+        started_at: 2026-10-02 17:14:35.036563+00:00
+        completed_at: 2026-10-02 17:14:35.036563+00:00
         output_file: website/content/tools/direktiv.md
         error_message: null
         retry_count: 0
@@ -344,10 +344,10 @@ items:
   Distribution:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-22T18:00:00Z'
+        output_file: data/weeks/03-D/research/distribution.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -363,10 +363,10 @@ items:
   Docker (Wasm):
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-22T18:00:00Z'
+        output_file: data/weeks/03-D/research/docker_(wasm).yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -382,10 +382,10 @@ items:
   Docker Compose:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-22T18:00:00Z'
+        output_file: data/weeks/03-D/research/docker_compose.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -401,10 +401,10 @@ items:
   Docker Swarm:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-22T18:00:00Z'
+        output_file: data/weeks/03-D/research/docker_swarm.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -420,10 +420,10 @@ items:
   DolphinScheduler:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-22T18:00:00Z'
+        output_file: data/weeks/03-D/research/dolphinscheduler.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -439,10 +439,10 @@ items:
   Doris:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-22T18:00:00Z'
+        output_file: data/weeks/03-D/research/doris.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -458,10 +458,10 @@ items:
   Dragonfly:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-22T18:00:00Z'
+        output_file: data/weeks/03-D/research/dragonfly.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -477,10 +477,10 @@ items:
   DragonflyDB:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-22T18:00:00Z'
+        output_file: data/weeks/03-D/research/dragonflydb.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -515,10 +515,10 @@ items:
   Druid:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-22T18:00:00Z'
+        output_file: data/weeks/03-D/research/druid.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -534,10 +534,10 @@ items:
   Dubbo:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-22T18:00:00Z'
+        output_file: data/weeks/03-D/research/dubbo.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -553,10 +553,10 @@ items:
   Distr:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-22T18:00:00Z'
+        output_file: data/weeks/03-D/research/distr.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -572,10 +572,10 @@ items:
   DeepEval:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-22T18:00:00Z'
+        output_file: data/weeks/03-D/research/deepeval.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -591,10 +591,10 @@ items:
   Dify:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-22T18:00:00Z'
+        output_file: data/weeks/03-D/research/dify.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -610,10 +610,10 @@ items:
   Docling:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-22T18:00:00Z'
+        output_file: data/weeks/03-D/research/docling.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -629,10 +629,10 @@ items:
   DataBuff:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-22T18:00:00Z'
+        output_file: data/weeks/03-D/research/databuff.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -660,3 +660,5 @@ metadata:
   week_letter: D
   last_synced: '2026-08-08T15:46:35.377151'
   etl_item_count: 35
+blog_post:
+  status: in_progress

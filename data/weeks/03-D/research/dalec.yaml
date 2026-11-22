@@ -1,0 +1,28 @@
+project_name: Dalec
+homepage_url: https://project-dalec.github.io/dalec/
+repo_url: https://github.com/project-dalec/dalec
+summary: Dalec is a declarative package and container build system that focuses on
+  software supply chain security.
+key_features:
+- Declarative format for building system packages and containers.
+- Designed with a strong focus on software supply chain security.
+- Enables reproducible package compilation across multiple targets.
+recent_updates: Recent updates add refined packaging targets and enhanced build provenance
+  tracking.
+use_cases: Building verified Linux packages and minimal secure container images with
+  full provenance.
+latest_release:
+  version: v0.22.4
+  date: '2026-10-29T20:54:58Z'
+  release_notes_url: https://github.com/project-dalec/dalec/releases/tag/v0.22.4
+sources:
+- id: src_readme
+  title: Dalec GitHub README
+  url: https://github.com/project-dalec/dalec
+  source_type: github_readme
+  quotes:
+  - Dalec is a project aimed at providing a declarative format for building system
+    packages and containers
+  - Our goal is to provide a secure way to build packages and containers, with a focus
+    on supply chain security.
+cncf_status: sandbox

@@ -1,0 +1,25 @@
+project_name: DataBuff
+homepage_url: https://databuff.ai/
+repo_url: https://github.com/databufflabs/databuff
+summary: DataBuff is an AI-native Application Performance Monitoring (APM) backend
+  engineered for OpenTelemetry telemetry ingestion and multi-agent systems.
+key_features:
+- Direct ingestion of OpenTelemetry traces, metrics, and logs via native OTLP/gRPC/HTTP.
+- Architected specifically as an APM backend optimized for the AI era and multi-agent
+  workloads.
+- Automated anomaly correlation across distributed services and database calls.
+recent_updates: Recent releases add improved OTLP collector throughput and multi-agent
+  trace visualization.
+use_cases: Observability for distributed microservices, multi-agent LLM systems, and
+  enterprise OpenTelemetry telemetry.
+latest_release:
+  version: v0.1.10
+  date: '2026-10-06T13:02:47Z'
+  release_notes_url: https://github.com/databufflabs/databuff/releases/tag/v0.1.10
+sources:
+- id: src_readme
+  title: DataBuff GitHub README
+  url: https://github.com/databufflabs/databuff
+  source_type: github_readme
+  quotes:
+  - '**DataBuff is an AI-native APM backend built on Opentelemetry**'

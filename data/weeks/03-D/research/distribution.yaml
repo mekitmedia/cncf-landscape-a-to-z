@@ -1,0 +1,26 @@
+project_name: Distribution
+homepage_url: https://github.com/distribution/distribution
+repo_url: https://github.com/distribution/distribution
+summary: Distribution is the CNCF Sandbox project providing the reference implementation
+  and specification toolkit for OCI container image registries.
+key_features:
+- Reference implementation of the OCI Distribution Specification.
+- Pluggable storage backend architecture supporting S3, Azure Blob, Google Cloud Storage,
+  and local filesystems.
+- Foundation of major registry products including Harbor, AWS ECR, and Docker Hub.
+recent_updates: Recent v3.1 releases deliver OCI v1.1 artifact reference types, enhanced
+  garbage collection, and improved concurrency.
+use_cases: Hosting private OCI container registries and distributing container images
+  across Kubernetes clusters.
+latest_release:
+  version: v3.1.2
+  date: '2026-09-24T12:21:27Z'
+  release_notes_url: https://github.com/distribution/distribution/releases/tag/v3.1.2
+sources:
+- id: src_readme
+  title: Distribution GitHub README
+  url: https://github.com/distribution/distribution
+  source_type: github_readme
+  quotes:
+  - The toolset to pack, ship, store, and deliver content.
+cncf_status: sandbox

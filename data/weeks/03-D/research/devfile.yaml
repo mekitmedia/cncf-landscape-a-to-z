@@ -1,0 +1,26 @@
+project_name: Devfile
+homepage_url: https://devfile.io
+repo_url: https://github.com/devfile/api
+summary: Devfile is a CNCF Sandbox open standard and API defining portable, reproducible
+  containerized cloud development environments.
+key_features:
+- Declarative YAML specification defining developer workspaces, runtimes, and tools.
+- Standardizes development environments across Eclipse Che, OpenShift, and JetBrains
+  Space.
+- Kube-native workspace lifecycle management with automated volume and container provisioning.
+recent_updates: Recent v2.3 releases refine multi-container workspace specifications
+  and IDE plugin definitions.
+use_cases: Standardizing developer workspace configurations across distributed engineering
+  teams and web IDEs.
+latest_release:
+  version: v2.3.0
+  date: '2024-06-03T15:52:50Z'
+  release_notes_url: https://github.com/devfile/api/releases/tag/v2.3.0
+sources:
+- id: src_readme
+  title: Devfile GitHub README
+  url: https://github.com/devfile/api
+  source_type: github_readme
+  quotes:
+  - '# Kube-native API for cloud development workspaces specification'
+cncf_status: sandbox

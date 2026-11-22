@@ -1,0 +1,27 @@
+project_name: Docling
+homepage_url: https://www.docling.ai/
+repo_url: https://github.com/docling-project/docling
+summary: Docling is an open-source document parsing library created by IBM Research
+  that converts PDFs, DOCX, and tables into clean markdown for generative AI and RAG.
+key_features:
+- Advanced PDF layout analysis, reading order reconstruction, and complex table structure
+  recovery.
+- Exports structured documents directly to Markdown and JSON optimized for LLM chunking.
+- Native integration with LlamaIndex, LangChain, and vector embedding pipelines.
+recent_updates: Recent releases add OCR acceleration, scanned document enhancements,
+  and multimodal chart understanding.
+use_cases: Preprocessing complex business documents, research papers, and spreadsheets
+  for LLM RAG pipelines.
+latest_release:
+  version: v2.151.1
+  date: '2026-11-19T15:27:09Z'
+  release_notes_url: https://github.com/docling-project/docling/releases/tag/v2.151.1
+sources:
+- id: src_readme
+  title: Docling GitHub README
+  url: https://github.com/docling-project/docling
+  source_type: github_readme
+  quotes:
+  - Docling simplifies document processing by parsing diverse formats — including
+    advanced PDF understanding — and providing seamless integrations with the generative
+    AI ecosystem.

@@ -1,0 +1,26 @@
+project_name: Daytona
+homepage_url: https://www.daytona.io
+repo_url: https://github.com/daytonaio/daytona
+summary: Daytona is a standardized development environment manager and infrastructure
+  framework originally created for managing developer workspaces and running AI code.
+key_features:
+- Standardized cloud development environments provisioned with single-command CLI.
+- Infrastructure sandboxing designed for running AI-generated code securely.
+- Multi-cloud and local provider integrations for rapid workspace spin-up.
+recent_updates: In June 2026, Daytona core development transitioned to a private codebase
+  while the v0.190 codebase remains public under open license.
+use_cases: Self-hosted cloud development environments and automated sandboxes for
+  executing untrusted AI code.
+latest_release:
+  version: v0.190.0
+  date: '2026-06-23T13:25:53Z'
+  release_notes_url: https://github.com/daytonaio/daytona/releases/tag/v0.190.0
+sources:
+- id: src_readme
+  title: Daytona GitHub README
+  url: https://github.com/daytonaio/daytona
+  source_type: github_readme
+  quotes:
+  - '> **This repository is no longer maintained.**'
+  - '> As of June 2026, Daytona''s core development has moved to a private codebase.
+    This repository will receive no further updates, fixes, or releases.'

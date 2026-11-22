@@ -1,0 +1,30 @@
+project_name: Dgraph
+homepage_url: https://dgraph.io/
+repo_url: https://github.com/dgraph-io/dgraph
+summary: Dgraph is an open-source, distributed graph database with native GraphQL
+  support designed for high throughput, low latency, and ACID transactions.
+key_features:
+- Horizontally scalable distributed graph architecture with native GraphQL API support.
+- ACID transactions, consistent replication using Raft, and linearizable distributed
+  reads.
+- Disk layout optimized for graph traversals to minimize I/O seeks and network hops.
+recent_updates: Version 25 introduces performance optimizations for large-scale graph
+  traversals and simplified cluster clustering.
+use_cases: Real-time recommendation engines, knowledge graph query backends, and fraud
+  detection platforms.
+latest_release:
+  version: v25.5.1
+  date: '2026-10-22T15:56:09Z'
+  release_notes_url: https://github.com/dgraph-io/dgraph/releases/tag/v25.5.1
+sources:
+- id: src_readme
+  title: Dgraph GitHub README
+  url: https://github.com/dgraph-io/dgraph
+  source_type: github_readme
+  quotes:
+  - Dgraph is a horizontally scalable and distributed GraphQL database with a graph
+    backend. It provides ACID transactions, consistent replication, and linearizable
+    reads.
+  - Being a native GraphQL database, it tightly controls how the data is arranged
+    on disk to optimize for query performance and throughput, reducing disk seeks
+    and network calls in a cluster.

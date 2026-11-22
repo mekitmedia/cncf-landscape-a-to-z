@@ -1,0 +1,28 @@
+project_name: DolphinScheduler
+homepage_url: https://dolphinscheduler.apache.org
+repo_url: https://github.com/apache/dolphinscheduler
+summary: Apache DolphinScheduler is a distributed visual workflow scheduler for big
+  data orchestration and complex DAG task dependency management.
+key_features:
+- Visual drag-and-drop DAG workflow canvas with low-code pipeline composition.
+- High availability and fault-tolerant master-worker distributed architecture.
+- Dozens of out-of-the-box task executors covering Spark, Flink, SQL, Python, and
+  Kubernetes.
+recent_updates: Version 3.4 brings improved worker auto-scaling and enhanced data
+  lineage tracking.
+use_cases: Orchestrating enterprise ETL data workflows, machine learning pipelines,
+  and scheduled batch jobs.
+latest_release:
+  version: 3.4.3
+  date: '2026-09-06T03:26:05Z'
+  release_notes_url: https://github.com/apache/dolphinscheduler/releases/tag/3.4.3
+sources:
+- id: src_readme
+  title: DolphinScheduler GitHub README
+  url: https://github.com/apache/dolphinscheduler
+  source_type: github_readme
+  quotes:
+  - Apache DolphinScheduler is a modern data orchestration platform that empowers
+    agile, low-code development of high-performance workflows.
+  - It is dedicated to handling complex task dependencies in data pipelines and provides
+    a wide range of built-in job types **out of the box**.
