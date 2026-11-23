@@ -2,6 +2,7 @@ AI Agent:
   Agent Framework:
   - Agent Development Kit
   - Agno
+  - Autogen
   - CAMEL
   - Crew AI
   - LangChain
@@ -64,6 +65,7 @@ AI Native Infra:
   - NCCL
   - Triton
   Continuous Integration and Delivery:
+  - BentoML
   - Kubeflow Pipelines
   - Mlflow
   - MLRun
@@ -90,7 +92,7 @@ AI Native Infra:
   - Weight and Biases (wandb)
   Orchestration and Scheduling:
   - agent-sandbox
-  - Kuberay
+  - KubeRay
   - Kueue
   - LeaderWorkerSet
   - Nvidia NeMo
@@ -170,6 +172,7 @@ App Definition and Development:
   - Telepresence
   - Tilt
   - Visual Studio Code Kubernetes Tools
+  - VMAPI
   - xRegistry
   - yoke
   Continuous Integration & Delivery:
@@ -338,6 +341,7 @@ Data:
   - XGBoost
 Inference:
   Framework:
+  - AI Runway
   - AIBrix
   - Arks
   - InferNex
@@ -544,6 +548,7 @@ Orchestration & Management:
   - kcp
   - k0s
   - k0rdent
+  - K2s
   - KEDA
   - Kestra
   - KAI Scheduler
@@ -565,7 +570,6 @@ Orchestration & Management:
   - OpenFunction
   - OpenNebula
   - OpenSandbox
-  - OpenShell
   - Prefect
   - Serverless Devs
   - StackStorm
@@ -678,6 +682,7 @@ Provisioning:
   - BOSH
   - Bub
   - Cadence Workflow
+  - CAIPE
   - CDK for Kubernetes (CDK8s)
   - CFEngine
   - Chaterm
@@ -798,6 +803,7 @@ Provisioning:
   - Open Policy Containers
   - OpenFGA
   - OpenSCAP
+  - OpenShell
   - OSCAL-COMPASS
   - Paladin Cloud
   - Paralus
@@ -965,6 +971,7 @@ Training:
   - Hyperopt
   - Kubeflow Katib
   - LlamaFactory
+  - OpenRL
   - Optuna
   - Unsloth
   - verl

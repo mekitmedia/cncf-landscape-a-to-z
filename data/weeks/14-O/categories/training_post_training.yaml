@@ -1,3 +1,12 @@
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: OpenRL is a self-hosted, Kubernetes-native post-training (SFT and RL)
+    API for LLMs, compatible with the Tinker SDK.
+  featured: true
+  homepage_url: https://openrl.dev/
+  logo: cncf.svg
+  name: OpenRL
+  project: sandbox
+  repo_url: https://github.com/openrl-dev/openrl
 - description: A hyperparameter optimization framework
   featured: true
   homepage_url: https://optuna.org/

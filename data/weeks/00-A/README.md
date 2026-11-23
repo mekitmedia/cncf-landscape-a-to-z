@@ -1,6 +1,6 @@
 # Summary for 00-A
 
-This week has a total of 71 items.
+This week has a total of 72 items.
 
 
 - **Provisioning Automation Configuration**: 5 items
@@ -61,7 +61,7 @@ This week has a total of 71 items.
 
 - **Ai Agent Workflow Orchestration**: 1 items
 
-- **Inference Framework**: 2 items
+- **Inference Framework**: 3 items
 
 - **Data Data Architecture**: 4 items
 

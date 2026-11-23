@@ -269,16 +269,16 @@ items:
     tasks:
       research:
         status: completed
-        started_at: 2026-10-03 02:35:48.039061+00:00
-        completed_at: 2026-10-03 02:35:48.039061+00:00
+        started_at: '2026-10-03T02:35:48.039061Z'
+        completed_at: '2026-10-03T02:35:48.039061Z'
         output_file: data/weeks/02-C/research/cassandra.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
         status: completed
-        started_at: 2026-10-03 02:35:48.039061+00:00
-        completed_at: 2026-10-03 02:35:48.039061+00:00
+        started_at: '2026-10-03T02:35:48.039061Z'
+        completed_at: '2026-10-03T02:35:48.039061Z'
         output_file: website/content/tools/cassandra.md
         error_message: null
         retry_count: 0
@@ -307,16 +307,16 @@ items:
     tasks:
       research:
         status: completed
-        started_at: 2026-10-01 02:45:28.887901+00:00
-        completed_at: 2026-10-01 02:45:28.887901+00:00
+        started_at: '2026-10-01T02:45:28.887901Z'
+        completed_at: '2026-10-01T02:45:28.887901Z'
         output_file: data/weeks/02-C/research/cedar.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
         status: completed
-        started_at: 2026-10-01 02:45:28.887901+00:00
-        completed_at: 2026-10-01 02:45:28.887901+00:00
+        started_at: '2026-10-01T02:45:28.887901Z'
+        completed_at: '2026-10-01T02:45:28.887901Z'
         output_file: website/content/tools/cedar.md
         error_message: null
         retry_count: 0
@@ -1219,16 +1219,16 @@ items:
     tasks:
       research:
         status: completed
-        started_at: 2026-10-03 15:20:12.732288+00:00
-        completed_at: 2026-10-03 15:20:12.732288+00:00
+        started_at: '2026-10-03T15:20:12.732288Z'
+        completed_at: '2026-10-03T15:20:12.732288Z'
         output_file: data/weeks/02-C/research/cozystack.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
         status: completed
-        started_at: 2026-10-03 15:20:12.732288+00:00
-        completed_at: 2026-10-03 15:20:12.732288+00:00
+        started_at: '2026-10-03T15:20:12.732288Z'
+        completed_at: '2026-10-03T15:20:12.732288Z'
         output_file: website/content/tools/cozystack.md
         error_message: null
         retry_count: 0
@@ -1505,7 +1505,7 @@ items:
       research:
         status: completed
         started_at: '2026-11-22T10:00:00Z'
-        completed_at: 2026-09-23 21:44:21.354929+00:00
+        completed_at: '2026-09-23T21:44:21.354929Z'
         output_file: data/weeks/02-C/research/cubesandbox.yaml
         error_message: null
         retry_count: 0
@@ -1513,7 +1513,7 @@ items:
       content:
         status: completed
         started_at: '2026-11-22T10:00:00Z'
-        completed_at: 2026-09-23 21:44:21.354929+00:00
+        completed_at: '2026-09-23T21:44:21.354929Z'
         output_file: website/content/tools/cubesandbox.md
         error_message: null
         retry_count: 0
@@ -1538,6 +1538,25 @@ items:
         retry_count: 0
         agent: writer
     removed: false
+  CAIPE:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
 week_tasks:
   tasks:
     blog_post:
@@ -1551,5 +1570,5 @@ week_tasks:
 metadata:
   created_at: '2026-02-01T19:37:47.046818'
   week_letter: C
-  last_synced: '2026-08-08T15:46:35.286672'
-  etl_item_count: 79
+  last_synced: '2026-11-23T04:39:50.654927'
+  etl_item_count: 80

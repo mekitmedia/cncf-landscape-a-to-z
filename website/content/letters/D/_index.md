@@ -8,11 +8,7 @@ layout: "list"
 
 # Summary for 03-D
 
-This week has a total of 34 items.
-
-## Featured 2027 Weekly Releases
-
-- **Week 7**: [Cruising through the 'D's: Distributed Application Runtimes, Autonomous AI Agents, and High-Speed Data Engines](/posts/2027-d-distributed-runtimes-ai-agents-and-data-engines/)
+This week has a total of 35 items.
 
 
 - **Provisioning Container Registry**: 2 items

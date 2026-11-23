@@ -8,15 +8,10 @@ layout: "list"
 
 # Summary for 02-C
 
-This week has a total of 79 items.
-
-## Featured 2027 Weekly Releases
-
-- **Part 1 (Week 5)**: [Cruising through the 'C's (Part 1): Cloud Platforms, Container Runtimes, and Zero-Trust Security](/posts/2027-c1-cloud-platforms-runtimes-and-zero-trust/)
-- **Part 2 (Week 6)**: [Cruising through the 'C's (Part 2): AI Agents, Developer Platforms, and Distributed Data](/posts/2027-c2-ai-agents-developer-platforms-and-data/)
+This week has a total of 80 items.
 
 
-- **Provisioning Automation Configuration**: 8 items
+- **Provisioning Automation Configuration**: 9 items
 
 - **Provisioning Security Compliance**: 11 items
 

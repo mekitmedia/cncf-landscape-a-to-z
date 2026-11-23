@@ -9,6 +9,7 @@
     - BOSH
     - Bub
     - Cadence Workflow
+    - CAIPE
     - CDK for Kubernetes (CDK8s)
     - CFEngine
     - Chaterm
@@ -123,6 +124,7 @@
     - Open Policy Containers
     - OpenFGA
     - OpenSCAP
+    - OpenShell
     - OSCAL-COMPASS
     - Paladin Cloud
     - Paralus
@@ -277,6 +279,7 @@
     - kcp
     - k0s
     - k0rdent
+    - K2s
     - KEDA
     - Kestra
     - KAI Scheduler
@@ -298,7 +301,6 @@
     - OpenFunction
     - OpenNebula
     - OpenSandbox
-    - OpenShell
     - Prefect
     - Serverless Devs
     - StackStorm
@@ -578,6 +580,7 @@
     - Telepresence
     - Tilt
     - Visual Studio Code Kubernetes Tools
+    - VMAPI
     - xRegistry
     - yoke
     path: app_definition_and_development_application_definition_image_build
@@ -1041,6 +1044,7 @@
   - items:
     - Agent Development Kit
     - Agno
+    - Autogen
     - CAMEL
     - Crew AI
     - LangChain
@@ -1122,6 +1126,7 @@
 - category: Inference
   subcategories:
   - items:
+    - AI Runway
     - AIBrix
     - Arks
     - InferNex
@@ -1181,6 +1186,7 @@
     - Hyperopt
     - Kubeflow Katib
     - LlamaFactory
+    - OpenRL
     - Optuna
     - Unsloth
     - verl
@@ -1195,7 +1201,7 @@
   subcategories:
   - items:
     - agent-sandbox
-    - Kuberay
+    - KubeRay
     - Kueue
     - LeaderWorkerSet
     - Nvidia NeMo
@@ -1249,6 +1255,7 @@
     path: ai_native_infra_observability
     subcategory: Observability
   - items:
+    - BentoML
     - Kubeflow Pipelines
     - Mlflow
     - MLRun

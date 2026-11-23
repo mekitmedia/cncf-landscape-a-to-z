@@ -1,4 +1,4 @@
-- crunchbase: https://www.crunchbase.com/organization/daocloud
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: MatrixHub is an open-source, self-hosted, Hugging Face-compatible AI
     model registry and distribution layer for enterprise inference. It accelerates
     vLLM and SGLang on Kubernetes with pull-once-serve-all caching, air-gapped delivery,
@@ -7,5 +7,5 @@
   homepage_url: https://matrixhub.ai
   logo: matrixhub.svg
   name: MatrixHub
-  project: null
+  project: sandbox
   repo_url: https://github.com/matrixhub-ai/matrixhub

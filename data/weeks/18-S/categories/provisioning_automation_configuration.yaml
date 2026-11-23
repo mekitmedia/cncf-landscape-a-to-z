@@ -1,11 +1,11 @@
-- crunchbase: https://www.crunchbase.com/organization/nokia
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: SDC (Schema Driven Configuration) exposes any schema based configuration
     as Kubernetes resources.
   featured: true
   homepage_url: https://docs.sdcio.dev/
   logo: sdc.svg
   name: SDC
-  project: null
+  project: sandbox
   repo_url: https://github.com/sdcio/docs
 - crunchbase: https://www.crunchbase.com/organization/vmware
   featured: true

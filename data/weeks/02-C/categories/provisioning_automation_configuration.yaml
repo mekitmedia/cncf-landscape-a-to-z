@@ -8,6 +8,16 @@
   project: incubating
   repo_url: https://github.com/cloud-custodian/cloud-custodian
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: CAIPE is a self-hosted, open-source AI agent platform that provides
+    a shared control plane for building, governing, and operating agents and workflows
+    across cloud-native engineering systems.
+  featured: true
+  homepage_url: https://caipe.io/
+  logo: cncf.svg
+  name: CAIPE
+  project: sandbox
+  repo_url: https://github.com/caipe-io/ai-platform-engineering
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: CDK8s lets you define Kubernetes apps and components using familiar
     programming languages and object-oriented APIs.
   featured: true
@@ -42,7 +52,7 @@
   repo_url: https://github.com/chaterm/Chaterm
   twitter: https://x.com/Chaterm_ai
 - crunchbase: https://www.crunchbase.com/organization/chef
-  featured: true
+  featured: false
   homepage_url: https://www.chef.io/
   logo: chef_infra.svg
   name: Chef Infra

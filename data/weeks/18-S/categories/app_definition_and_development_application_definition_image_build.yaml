@@ -39,7 +39,8 @@
   name: Squash
   project: null
   repo_url: https://github.com/solo-io/squash
-- description: Stacker is a tool for building OCI images and related artifacts such
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Stacker is a tool for building OCI images and related artifacts such
     as SBOMs natively via a declarative yaml format.
   featured: true
   homepage_url: https://stackerbuild.io

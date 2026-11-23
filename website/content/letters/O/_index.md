@@ -8,12 +8,12 @@ layout: "list"
 
 # Summary for 14-O
 
-This week has a total of 62 items.
+This week has a total of 63 items.
 
 
 - **Provisioning Automation Configuration**: 4 items
 
-- **Provisioning Security Compliance**: 7 items
+- **Provisioning Security Compliance**: 8 items
 
 - **Provisioning Key Management**: 2 items
 
@@ -21,7 +21,7 @@ This week has a total of 62 items.
 
 - **Runtime Cloud Native Network**: 3 items
 
-- **Orchestration Management Scheduling Orchestration**: 5 items
+- **Orchestration Management Scheduling Orchestration**: 4 items
 
 - **Orchestration Management Coordination Service Discovery**: 1 items
 
@@ -57,6 +57,6 @@ This week has a total of 62 items.
 
 - **Inference Runtime**: 1 items
 
-- **Training Post Training**: 1 items
+- **Training Post Training**: 2 items
 
 - **Ai Native Infra Governance Policy And Security**: 2 items

@@ -1,4 +1,13 @@
 - crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: Provider-neutral Kubernetes APIs and core controllers for virtual machine
+    lifecycle management
+  featured: true
+  homepage_url: https://github.com/vm-api/vm-api
+  logo: vm-api.svg
+  name: VMAPI
+  project: sandbox
+  repo_url: https://github.com/vm-api/vm-api
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   description: The extension for developers building applications to run in Kubernetes
     clusters and for DevOps staff troubleshooting Kubernetes applications.
   featured: true
