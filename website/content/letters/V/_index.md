@@ -8,7 +8,7 @@ layout: "list"
 
 # Summary for 21-V
 
-This week has a total of 14 items.
+This week has a total of 15 items.
 
 
 - **Provisioning Security Compliance**: 1 items
@@ -23,7 +23,7 @@ This week has a total of 14 items.
 
 - **App Definition And Development Database**: 3 items
 
-- **App Definition And Development Application Definition Image Build**: 1 items
+- **App Definition And Development Application Definition Image Build**: 2 items
 
 - **Observability And Analysis Observability**: 2 items
 

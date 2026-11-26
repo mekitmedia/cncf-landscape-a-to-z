@@ -1,10 +1,11 @@
-- description: A toolkit to run Ray applications on Kubernetes
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: A toolkit to run Ray applications on Kubernetes
   featured: true
-  homepage_url: https://github.com/ray-project/kuberay
-  logo: ./ray_logo.svg
-  name: Kuberay
-  project: null
-  repo_url: https://github.com/ray-project/kuberay
+  homepage_url: https://github.com/kuberay-project/kuberay
+  logo: kuberay.svg
+  name: KubeRay
+  project: sandbox
+  repo_url: https://github.com/kuberay-project/kuberay
 - description: Cloud-native job queueing system for batch, HPC, AI/ML, and similar
     applications in a Kubernetes cluster.
   featured: true

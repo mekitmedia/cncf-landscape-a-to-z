@@ -1594,7 +1594,7 @@ items:
         error_message: null
         retry_count: 0
         agent: writer
-    removed: false
+    removed: true
   Kuberhealthy:
     tasks:
       research:
@@ -2070,6 +2070,44 @@ items:
         retry_count: 0
         agent: writer
     removed: false
+  K2s:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
+  KubeRay:
+    tasks:
+      research:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: researcher
+      content:
+        status: pending
+        started_at: null
+        completed_at: null
+        output_file: null
+        error_message: null
+        retry_count: 0
+        agent: writer
+    removed: false
 week_tasks:
   tasks:
     blog_post:
@@ -2083,5 +2121,5 @@ week_tasks:
 metadata:
   created_at: '2026-02-01T19:37:47.393397'
   week_letter: K
-  last_synced: '2026-11-02T03:16:39.800169'
-  etl_item_count: 109
+  last_synced: '2026-11-23T04:39:50.931911'
+  etl_item_count: 110

@@ -1,3 +1,12 @@
+- crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+  description: AI Runway provides a web UI and a unified Kubernetes CRD to deploy
+    AI models across multiple inference engines and providers.
+  featured: true
+  homepage_url: https://ai-runway.github.io/airunway/
+  logo: cncf.svg
+  name: AI Runway
+  project: sandbox
+  repo_url: https://github.com/ai-runway/airunway
 - description: Cost-efficient and pluggable Infrastructure components for GenAI inference.
   featured: true
   homepage_url: https://aibrix.github.io/

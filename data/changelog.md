@@ -1,5 +1,34 @@
 # Data Update Changelog
 
+## [2026-11-23] Data Update
+
+### 🚀 Added Tools
+
+- **AI Runway** ([Repo](https://github.com/ai-runway/airunway))
+- **Autogen** ([Repo](https://github.com/microsoft/autogen))
+- **BentoML** ([Repo](https://github.com/bentoml/BentoML))
+- **CAIPE** ([Repo](https://github.com/caipe-io/ai-platform-engineering))
+- **K2s** ([Repo](https://github.com/k2s-project/k2s))
+- **KubeRay** ([Repo](https://github.com/kuberay-project/kuberay))
+- **OpenRL** ([Repo](https://github.com/openrl-dev/openrl))
+- **VMAPI** ([Repo](https://github.com/vm-api/vm-api))
+
+
+### 🗑️ Removed Tools
+
+- **Hexa**
+- **Kuberay**
+- **Nivida NeMo**
+- **QBO**
+- **Rancher Kubernetes Engine (RKE)**
+- **Stacklock Minder**
+
+
+### 🔄 Updated Tools
+
+- **MatrixHub**: Status changed from **None** to **sandbox**
+- **SDC**: Status changed from **None** to **sandbox**
+
 ## [2026-11-09] Data Update
 
 ### 🚀 Added Tools
