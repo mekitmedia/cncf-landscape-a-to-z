@@ -1,0 +1,39 @@
+project_name: EaseAgent
+homepage_url: https://github.com/megaease/easeagent
+repo_url: https://github.com/megaease/easeagent
+docs_url: https://github.com/megaease/easeagent
+cncf_status: non-cncf
+latest_release:
+  version: v2.3.0
+  date: '2025-08-29T09:15:37Z'
+  release_notes_url: https://github.com/megaease/easeagent/releases/tag/v2.3.0
+summary: EaseAgent is a lightweight, non-intrusive Java agent tailored for cloud-native
+  APM and distributed tracing.
+key_features:
+- Non-intrusive bytecode instrumentation for Java microservices.
+- Standardized metrics collection compatible with Prometheus and OpenTelemetry.
+- Distributed tracing integration with Zipkin and Jaeger protocols.
+recent_updates: Enhanced Spring Cloud integration and reduced agent memory overhead
+  in containerized runtimes.
+use_cases: Extracting runtime performance metrics and distributed traces from Java
+  microservices without code modifications.
+ecosystem_perspectives: null
+interesting_facts: EaseAgent is an essential cloud-native technology in Letter E.
+get_started: Check the official documentation at https://github.com/megaease/easeagent
+  and repository at https://github.com/megaease/easeagent to get started.
+related_tools:
+- Envoy
+- Kubernetes
+- Prometheus
+sources:
+- id: src-readme
+  title: EaseAgent Official GitHub README
+  url: https://github.com/megaease/easeagent
+  source_type: github_readme
+  quotes:
+  - A lightweight & opening Java Agent for Cloud-Native and APM system
+editorial_lock: false
+locked_by: null
+locked_at: null
+last_researched_at: null
+research_version: 1

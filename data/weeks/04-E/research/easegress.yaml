@@ -1,0 +1,39 @@
+project_name: Easegress
+homepage_url: https://megaease.cn/easegress/
+repo_url: https://github.com/easegress-io/easegress
+docs_url: https://megaease.cn/easegress/
+cncf_status: sandbox
+latest_release:
+  version: v2.11.0
+  date: '2026-03-18T01:25:44Z'
+  release_notes_url: https://github.com/easegress-io/easegress/releases/tag/v2.11.0
+summary: Easegress is a CNCF Sandbox all-in-one traffic orchestration system and high-availability
+  API gateway written in Go.
+key_features:
+- All-in-one traffic routing, load balancing, reverse proxying, and API orchestration.
+- Built-in cluster-wide state synchronization using the Raft consensus algorithm.
+- Custom pipeline processing and dynamic filter extensibility with WebAssembly.
+recent_updates: Enhanced Wasm filter execution pipeline and improved Kubernetes Ingress
+  and Gateway API controller support.
+use_cases: Managing complex API traffic pipelines, microservice routing, and high-availability
+  edge proxying.
+ecosystem_perspectives: null
+interesting_facts: Easegress is an essential cloud-native technology in Letter E.
+get_started: Check the official documentation at https://megaease.cn/easegress/ and
+  repository at https://github.com/easegress-io/easegress to get started.
+related_tools:
+- Envoy
+- Kubernetes
+- Prometheus
+sources:
+- id: src-readme
+  title: Easegress Official GitHub README
+  url: https://github.com/easegress-io/easegress
+  source_type: github_readme
+  quotes:
+  - '`Easegress` is a Cloud Native traffic orchestration system designed for:'
+editorial_lock: false
+locked_by: null
+locked_at: null
+last_researched_at: null
+research_version: 1

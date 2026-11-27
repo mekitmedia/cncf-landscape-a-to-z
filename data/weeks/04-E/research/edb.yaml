@@ -1,0 +1,39 @@
+project_name: EDB
+homepage_url: https://www.enterprisedb.com/
+repo_url: https://github.com/EnterpriseDB/cloudnative-pg
+docs_url: https://www.enterprisedb.com/
+cncf_status: incubating
+latest_release:
+  version: v0.30.0
+  date: '2025-01-14T09:45:03Z'
+  release_notes_url: https://github.com/EnterpriseDB/cloudnative-pg/releases/tag/v0.30.0
+summary: EDB (EnterpriseDB) provides enterprise-grade database solutions and is a
+  core driver of CloudNativePG for PostgreSQL on Kubernetes.
+key_features:
+- Seamless Kubernetes integration for PostgreSQL lifecycle management.
+- High availability with automated failover and WAL archiving.
+- Declarative schema migrations, zero-downtime upgrades, and backup management.
+recent_updates: CloudNativePG achieved CNCF Incubating status in 2026 with enhanced
+  connection pooling and declarative backup retention.
+use_cases: Running mission-critical, enterprise PostgreSQL databases on multi-cloud
+  Kubernetes clusters.
+ecosystem_perspectives: null
+interesting_facts: EDB is an essential cloud-native technology in Letter E.
+get_started: Check the official documentation at https://www.enterprisedb.com/ and
+  repository at https://github.com/EnterpriseDB/cloudnative-pg to get started.
+related_tools:
+- Envoy
+- Kubernetes
+- Prometheus
+sources:
+- id: src-readme
+  title: EDB Official GitHub README
+  url: https://github.com/EnterpriseDB/cloudnative-pg
+  source_type: github_readme
+  quotes:
+  - '**CloudNativePG (CNPG)** is an open-source platform designed to seamlessly'
+editorial_lock: false
+locked_by: null
+locked_at: null
+last_researched_at: null
+research_version: 1

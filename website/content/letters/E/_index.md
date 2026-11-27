@@ -10,6 +10,10 @@ layout: "list"
 
 This week has a total of 24 items.
 
+## Featured 2027 Weekly Releases
+
+- **Week 8**: [Cruising through the 'E's: Service Proxies, Modern API Gateways, and Wasm Runtimes](/posts/2027-e-service-proxies-edge-gateways-and-wasm-runtimes/)
+
 
 - **Provisioning Security Compliance**: 1 items
 

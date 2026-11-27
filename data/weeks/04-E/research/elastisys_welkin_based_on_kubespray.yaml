@@ -1,0 +1,42 @@
+project_name: "Elastisys Welkin\xAE based on Kubespray"
+homepage_url: https://elastisys.io/welkin
+repo_url: https://github.com/elastisys/welkin
+docs_url: https://elastisys.io/welkin
+cncf_status: non-cncf
+latest_release:
+  version: v1.0.0
+  date: '2026-11-20T00:00:00Z'
+  release_notes_url: https://github.com/elastisys/welkin/releases
+summary: Elastisys Welkin is a security-hardened, compliance-first Kubernetes platform
+  engineered to meet European regulations such as GDPR and NIS2.
+key_features:
+- Certified Kubernetes distribution automated via Ansible and Kubespray.
+- Pre-integrated security stack including Falco, OPA Gatekeeper, Harbor, and Prometheus.
+- Out-of-the-box compliance controls for highly regulated healthcare, finance, and
+  public sector workloads.
+recent_updates: Upgraded base Kubespray engine and expanded CIS Kubernetes benchmark
+  automated compliance profiles.
+use_cases: Deploying audit-ready, compliant Kubernetes platforms on bare metal and
+  European sovereign clouds.
+ecosystem_perspectives: null
+interesting_facts: "Elastisys Welkin\xAE based on Kubespray is an essential cloud-native\
+  \ technology in Letter E."
+get_started: Check the official documentation at https://elastisys.io/welkin and repository
+  at https://github.com/elastisys/welkin to get started.
+related_tools:
+- Envoy
+- Kubernetes
+- Prometheus
+sources:
+- id: src-readme
+  title: "Elastisys Welkin\xAE based on Kubespray Official GitHub README"
+  url: https://github.com/elastisys/welkin
+  source_type: github_readme
+  quotes:
+  - Built on Kubernetes and trusted cloud native technologies, it delivers a secure,
+    compliant, and effortless platform for running modern applications at scale.
+editorial_lock: false
+locked_by: null
+locked_at: null
+last_researched_at: null
+research_version: 1

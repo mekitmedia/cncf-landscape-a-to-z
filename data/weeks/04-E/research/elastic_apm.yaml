@@ -1,0 +1,41 @@
+project_name: Elastic APM
+homepage_url: https://www.elastic.co/observability/application-performance-monitoring
+repo_url: https://github.com/elastic/apm-server
+docs_url: https://www.elastic.co/observability/application-performance-monitoring
+cncf_status: non-cncf
+latest_release:
+  version: v9.5.7
+  date: '2026-11-23T13:21:48Z'
+  release_notes_url: https://github.com/elastic/apm-server/releases/tag/v9.5.7
+summary: Elastic APM is an application performance monitoring system that streams
+  real-time performance metrics and distributed traces into Elasticsearch.
+key_features:
+- Central APM Server transforming agent telemetry into searchable Elasticsearch documents.
+- Deep transaction tracing, error logging, and database query profiling.
+- OpenTelemetry ingestion support bridging open-source instrumentation with Elastic
+  dashboards.
+recent_updates: Optimized high-throughput OTLP ingest pipelines and unified GenAI
+  model observability metrics.
+use_cases: Tracing distributed microservices, identifying latency bottlenecks, and
+  monitoring production application health.
+ecosystem_perspectives: null
+interesting_facts: Elastic APM is an essential cloud-native technology in Letter E.
+get_started: Check the official documentation at https://www.elastic.co/observability/application-performance-monitoring
+  and repository at https://github.com/elastic/apm-server to get started.
+related_tools:
+- Envoy
+- Kubernetes
+- Prometheus
+sources:
+- id: src-readme
+  title: Elastic APM Official GitHub README
+  url: https://github.com/elastic/apm-server
+  source_type: github_readme
+  quotes:
+  - The APM Server receives data from Elastic APM agents and transforms it into Elasticsearch
+    documents.
+editorial_lock: false
+locked_by: null
+locked_at: null
+last_researched_at: null
+research_version: 1

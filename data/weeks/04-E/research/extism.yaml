@@ -1,0 +1,43 @@
+project_name: Extism
+homepage_url: https://extism.org
+repo_url: https://github.com/extism/extism
+docs_url: https://extism.org
+cncf_status: non-cncf
+latest_release:
+  version: v1.41.0
+  date: '2026-10-09T18:09:09Z'
+  release_notes_url: https://github.com/extism/extism/releases/tag/v1.41.0
+summary: Extism is a universal WebAssembly plugin framework that makes it easy to
+  run sandboxed Wasm plugins across 16+ programming languages.
+key_features:
+- Polyglot Host SDKs supporting Python, Go, Rust, Node.js, Ruby, Java, C#, and more.
+- Sandboxed plugin execution isolating untrusted code safely with memory and time
+  limits.
+- Extism PDKs (Plugin Development Kits) for authoring plugins in Rust, TypeScript,
+  C, and Go.
+recent_updates: Introduced Extism CLI enhancements, runtime memory sharing optimizations,
+  and expanded browser Wasm support.
+use_cases: Adding secure, user-extensible plugin architectures to cloud services,
+  CLI tools, and data pipelines.
+ecosystem_perspectives: null
+interesting_facts: Extism is an essential cloud-native technology in Letter E.
+get_started: Check the official documentation at https://extism.org and repository
+  at https://github.com/extism/extism to get started.
+related_tools:
+- Envoy
+- Kubernetes
+- Prometheus
+sources:
+- id: src-readme
+  title: Extism Official GitHub README
+  url: https://github.com/extism/extism
+  source_type: github_readme
+  quotes:
+  - Extism is a lightweight framework for building with WebAssembly (Wasm). It supports
+    running Wasm code on servers, the edge, CLIs, IoT, browsers and everything in
+    between.
+editorial_lock: false
+locked_by: null
+locked_at: null
+last_researched_at: null
+research_version: 1

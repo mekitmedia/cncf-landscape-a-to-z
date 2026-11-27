@@ -1,0 +1,39 @@
+project_name: Envoy
+homepage_url: https://www.envoyproxy.io
+repo_url: https://github.com/envoyproxy/envoy
+docs_url: https://www.envoyproxy.io
+cncf_status: graduated
+latest_release:
+  version: v1.40.2
+  date: '2026-10-27T01:51:56Z'
+  release_notes_url: https://github.com/envoyproxy/envoy/releases/tag/v1.40.2
+summary: Envoy is a CNCF Graduated, high-performance C++ edge, middle, and service
+  proxy designed for cloud-native microservices.
+key_features:
+- Non-blocking, event-driven architecture with low memory footprint and high throughput.
+- Dynamic configuration via Discovery Services APIs (xDS) without restarting processes.
+- Advanced L7 load balancing, circuit breaking, observability, and distributed tracing.
+recent_updates: Continuous enterprise hardening, enhanced HTTP/3 support, and deeper
+  WebAssembly filter integration.
+use_cases: Serving as the foundational data plane for service meshes (Istio, Linkerd),
+  API gateways, and edge ingresses.
+ecosystem_perspectives: null
+interesting_facts: Envoy is an essential cloud-native technology in Letter E.
+get_started: Check the official documentation at https://www.envoyproxy.io and repository
+  at https://github.com/envoyproxy/envoy to get started.
+related_tools:
+- Envoy
+- Kubernetes
+- Prometheus
+sources:
+- id: src-readme
+  title: Envoy Official GitHub README
+  url: https://github.com/envoyproxy/envoy
+  source_type: github_readme
+  quotes:
+  - Cloud-native high-performance edge/middle/service proxy
+editorial_lock: false
+locked_by: null
+locked_at: null
+last_researched_at: null
+research_version: 1

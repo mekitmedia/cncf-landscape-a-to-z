@@ -1,0 +1,41 @@
+project_name: Envoy (Wasm)
+homepage_url: https://www.envoyproxy.io
+repo_url: https://github.com/envoyproxy/envoy
+docs_url: https://www.envoyproxy.io
+cncf_status: graduated
+latest_release:
+  version: v1.40.2
+  date: '2026-10-27T01:51:56Z'
+  release_notes_url: https://github.com/envoyproxy/envoy/releases/tag/v1.40.2
+summary: Envoy (Wasm) represents the WebAssembly extension runtime in Envoy Proxy,
+  allowing dynamic L7 filter development in Rust, C++, and Go.
+key_features:
+- Dynamic filter loading and execution without recompiling or rebooting Envoy.
+- Sandboxed WebAssembly memory isolation protecting the host proxy process.
+- Polyglot development using proxy-wasm SDKs across Rust, Go, AssemblyScript, and
+  C++.
+recent_updates: Enhanced V8 and Wasmtime engine performance and standardized Proxy-Wasm
+  specification compliance.
+use_cases: Writing custom authentication, transformation, and rate-limiting proxy
+  plugins deployed dynamically at runtime.
+ecosystem_perspectives: null
+interesting_facts: Envoy (Wasm) is an essential cloud-native technology in Letter
+  E.
+get_started: Check the official documentation at https://www.envoyproxy.io and repository
+  at https://github.com/envoyproxy/envoy to get started.
+related_tools:
+- Envoy
+- Kubernetes
+- Prometheus
+sources:
+- id: src-readme
+  title: Envoy (Wasm) Official GitHub README
+  url: https://github.com/envoyproxy/envoy
+  source_type: github_readme
+  quotes:
+  - Cloud-native high-performance edge/middle/service proxy
+editorial_lock: false
+locked_by: null
+locked_at: null
+last_researched_at: null
+research_version: 1

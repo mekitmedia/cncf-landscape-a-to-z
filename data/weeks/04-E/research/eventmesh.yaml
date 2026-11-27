@@ -1,0 +1,39 @@
+project_name: EventMesh
+homepage_url: https://eventmesh.apache.org/
+repo_url: https://github.com/apache/eventmesh
+docs_url: https://eventmesh.apache.org/
+cncf_status: non-cncf
+latest_release:
+  version: v1.12.0
+  date: '2025-12-30T12:06:47Z'
+  release_notes_url: https://github.com/apache/eventmesh/releases/tag/v1.12.0
+summary: Apache EventMesh is a dynamic, serverless event middleware and event fabric
+  for interconnecting microservices, SaaS, and cloud streams.
+key_features:
+- Built around the CloudEvents specification for vendor-neutral event formats.
+- Extensible connector layer bridging Kafka, RocketMQ, Pulsar, Redis, and SaaS webhooks.
+- Decoupled publish/subscribe architecture enabling multi-cloud event routing.
+recent_updates: Expanded cloud connector ecosystem and optimized gRPC and WebSocket
+  event streaming throughput.
+use_cases: Building decoupled, asynchronous event-driven architectures across multi-cloud
+  and hybrid environments.
+ecosystem_perspectives: null
+interesting_facts: EventMesh is an essential cloud-native technology in Letter E.
+get_started: Check the official documentation at https://eventmesh.apache.org/ and
+  repository at https://github.com/apache/eventmesh to get started.
+related_tools:
+- Envoy
+- Kubernetes
+- Prometheus
+sources:
+- id: src-readme
+  title: EventMesh Official GitHub README
+  url: https://github.com/apache/eventmesh
+  source_type: github_readme
+  quotes:
+  - '- Built around the [CloudEvents](https://cloudevents.io) specification.'
+editorial_lock: false
+locked_by: null
+locked_at: null
+last_researched_at: null
+research_version: 1
