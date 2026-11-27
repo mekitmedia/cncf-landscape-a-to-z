@@ -11,6 +11,8 @@ tags:
   - "ai-agents"
   - "graduated"
   - "open-source"
+image: "/images/posts/2026-retrospective.jpg"
+image_alt: "2026 CNCF Landscape Retrospective Cover Graphic"
 ---
 
 As 2026 draws to a close, the Cloud Native Computing Foundation (CNCF) landscape stands at a profound inflection point. 
