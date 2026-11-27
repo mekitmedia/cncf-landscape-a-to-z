@@ -4,6 +4,8 @@ date: 2026-09-21T12:00:00Z
 draft: false
 author: "Alexandre Couëdelo"
 description: "Discover the origins of the CNCF Landscape A to Z project and our Medium publication dedicated to exploring cloud-native tools bi-weekly."
+image: "/images/posts/cloud-native-wilderness.jpg"
+image_alt: "Exploring the Cloud Native Wilderness Landscape"
 ---
 
 The story behind [CNCF Landscape A to Z](https://cncf-landscape-a-to-z.com/) began over four years ago while working at an IoT company (Vosker). My teammates and I felt we weren't doing enough technology watching. Balancing busy workloads with dedicated exploration time was a struggle, so we came up with a playful compromise: naming each of our development sprints after a tool from the CNCF landscape! 😆

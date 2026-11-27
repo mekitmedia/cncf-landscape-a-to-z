@@ -51,6 +51,12 @@
                     </div>
                 </header>
 
+                {{ if .Params.image }}
+                <div class="mb-12 rounded-[2rem] overflow-hidden aspect-[16/9] shadow-xl border border-slate-200">
+                    <img src="{{ .Params.image | relURL }}" alt="{{ .Params.image_alt | default .Title }}" class="w-full h-full object-cover">
+                </div>
+                {{ end }}
+
                 <div class="blog-content prose prose-slate prose-lg max-w-none text-slate-600 leading-[1.8]">
                     {{ .Content }}
                 </div>
