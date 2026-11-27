@@ -1,0 +1,42 @@
+project_name: Casper
+homepage_url: https://casper.network/
+repo_url: https://github.com/casper-network/casper-node
+docs_url: https://docs.casper.network/
+cncf_status: non-cncf
+summary: Casper is a decentralized Layer-1 blockchain platform built around a WebAssembly execution engine
+  and upgradeable smart contracts.
+key_features:
+- WebAssembly-native execution engine supporting smart contracts compiled from Rust and C++.
+- Correct-by-Construction (CBC) Casper consensus mechanism with proof-of-stake security.
+- Direct on-chain contract upgradeability without complex proxy contract patterns.
+- Predictable gas fee models designed for enterprise blockchain applications.
+recent_updates: Protocol upgrades optimizing block propagation times, validator node efficiency, and smart
+  contract execution throughput.
+use_cases: Decentralized enterprise identity, supply chain provenance, digital asset tokenization, and
+  Wasm-powered smart contract execution.
+ecosystem_perspectives:
+  strengths: Built from the ground up for WebAssembly, allowing developers to use standard systems languages
+    rather than specialized smart contract DSLs.
+  considerations: Specialized blockchain execution model outside traditional cloud-native Kubernetes microservice
+    architectures.
+  community_discussions:
+  - Engaged with enterprise consortiums seeking upgradeable contracts and deterministic gas economics.
+interesting_facts: Casper's CBC consensus model was one of the earliest academic formalizations of proof-of-stake
+  safety and liveness.
+get_started: Clone casper-node, install Rust via rustup, and run cargo build --release to build the Casper
+  node binary.
+related_tools:
+- CosmWasm
+- Near
+- Ethereum
+latest_release:
+  version: v2.2.2
+  date: '2026-07-01T14:49:38Z'
+  release_notes_url: https://github.com/casper-network/casper-node/releases/tag/v2.2.2
+sources:
+- id: src_readme
+  title: Casper GitHub README
+  url: https://github.com/casper-network/casper-node
+  source_type: github_readme
+  quotes:
+  - Reference node for the Casper Blockchain Protocol.

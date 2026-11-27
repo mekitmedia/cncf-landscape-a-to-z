@@ -1,0 +1,26 @@
+project_name: Docker (Wasm)
+homepage_url: https://www.docker.com
+repo_url: https://github.com/docker/compose
+summary: Docker (Wasm) integrates WebAssembly runtimes (such as WasmEdge and Wasmtime)
+  directly into the Docker Desktop and container engine workflows.
+key_features:
+- Run WebAssembly workloads alongside standard OCI Linux containers without container
+  virtualization overhead.
+- Unified developer workflow leveraging familiar Docker CLI and Compose definitions.
+- Instant container startup times and sub-millisecond cold start execution.
+recent_updates: Expanded support for WASI Preview 2 and improved multi-runtime selection
+  via containerd runwasi shims.
+use_cases: Running lightweight serverless microservices and edge compute workloads
+  within standard Docker environments.
+latest_release:
+  version: v5.8.0
+  date: '2026-11-17T13:40:19Z'
+  release_notes_url: https://github.com/docker/compose/releases/tag/v5.8.0
+sources:
+- id: src_readme
+  title: Docker (Wasm) GitHub README
+  url: https://github.com/docker/compose
+  source_type: github_readme
+  quotes:
+  - Docker Compose is a tool for running multi-container applications on Docker defined
+    using the [Compose file format](https://compose-spec.io).

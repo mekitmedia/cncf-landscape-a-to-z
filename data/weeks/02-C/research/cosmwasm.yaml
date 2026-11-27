@@ -1,0 +1,43 @@
+project_name: CosmWasm
+homepage_url: https://cosmwasm.com/
+repo_url: https://github.com/CosmWasm/cosmwasm
+docs_url: https://docs.cosmwasm.com/
+cncf_status: non-cncf
+summary: CosmWasm is a secure WebAssembly smart contract engine enabling multi-chain decentralized applications
+  across the Cosmos ecosystem and beyond.
+key_features:
+- WebAssembly-native smart contract execution written in Rust and executed inside a secure Wasmer VM.
+- Actor model architecture preventing common smart contract vulnerabilities such as reentrancy attacks.
+- Inter-Blockchain Communication (IBC) native support for trustless cross-chain contract calls.
+- Modular integration as a Cosmos SDK module enabling any chain to plug in Wasm execution.
+recent_updates: Recent versions bring CosmWasm 2.0 release enhancements, updated Wasmer runtime integrations,
+  and improved gas metering.
+use_cases: Cross-chain decentralized finance (DeFi), multi-chain governance, digital asset settlement,
+  and secure smart contract logic.
+ecosystem_perspectives:
+  strengths: Memory-safe Rust contracts combined with Wasm sandboxing, effectively eliminating entire
+    classes of exploits common in EVM environments.
+  considerations: Requires familiarity with Rust and the Cosmos SDK architecture rather than standard
+    Ethereum Solidity tooling.
+  community_discussions:
+  - The standard smart contract platform powering dozens of sovereign Cosmos blockchains and decentralized
+    applications.
+interesting_facts: CosmWasm was specifically designed around the Actor model so that contracts cannot
+  directly call each other synchronously, making reentrancy impossible.
+get_started: Install cargo-generate, initialize a contract template with cargo generate --git https://github.com/CosmWasm/cw-template.git,
+  and compile to Wasm.
+related_tools:
+- Casper
+- Wasmtime
+- Near
+latest_release:
+  version: v3.0.11
+  date: '2026-10-08T16:34:38Z'
+  release_notes_url: https://github.com/CosmWasm/cosmwasm/releases/tag/v3.0.11
+sources:
+- id: src_readme
+  title: CosmWasm GitHub README
+  url: https://github.com/CosmWasm/cosmwasm
+  source_type: github_readme
+  quotes:
+  - WebAssembly smart contracts for the Cosmos SDK

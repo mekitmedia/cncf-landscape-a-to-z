@@ -1,0 +1,29 @@
+project_name: Dragonfly
+homepage_url: https://d7y.io/
+repo_url: https://github.com/dragonflyoss/dragonfly
+summary: Dragonfly is a CNCF graduated peer-to-peer (P2P) image and file distribution
+  system that eliminates registry bottlenecks across massive Kubernetes clusters.
+key_features:
+- P2P-powered distribution eliminating bandwidth saturation on central image registries.
+- Non-invasive proxy mode compatible with standard container runtimes (containerd,
+  CRI-O).
+- Nydus image acceleration support for instant OCI container startup without pulling
+  entire images.
+recent_updates: Recent v2.5 releases bring optimized chunk scheduling algorithms and
+  enhanced enterprise peer security.
+use_cases: Accelerating container image distribution in massive multi-thousand node
+  clusters and distributed edge fleets.
+latest_release:
+  version: v2.5.4
+  date: '2026-11-13T02:18:03Z'
+  release_notes_url: https://github.com/dragonflyoss/dragonfly/releases/tag/v2.5.4
+sources:
+- id: src_readme
+  title: Dragonfly GitHub README
+  url: https://github.com/dragonflyoss/dragonfly
+  source_type: github_readme
+  quotes:
+  - Delivers efficient, stable, and secure data distribution and acceleration powered
+    by P2P technology, with an optional content‑addressable filesystem that accelerates
+    OCI container launch.
+cncf_status: graduated

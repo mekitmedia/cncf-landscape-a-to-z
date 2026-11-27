@@ -1,0 +1,28 @@
+project_name: Distr
+homepage_url: https://distr.sh/
+repo_url: https://github.com/distr-sh/distr
+summary: Distr is an open-source platform designed for software vendors to distribute,
+  license, and manage self-hosted and air-gapped on-premise deployments.
+key_features:
+- Standardized delivery and update engine for self-hosted software distributions.
+- Support for Docker Compose quick-starts alongside enterprise Helm and air-gapped
+  packages.
+- Centralized customer instance licensing, telemetry, and automated update management.
+recent_updates: Recent v4.10 releases bring enhanced air-gapped bundle packaging and
+  customer licensing audit logs.
+use_cases: Vendor delivery of on-premise enterprise software to customer-managed Kubernetes
+  clusters and VMs.
+latest_release:
+  version: 4.10.0
+  date: '2026-11-11T10:00:31Z'
+  release_notes_url: https://github.com/distr-sh/distr/releases/tag/4.10.0
+sources:
+- id: src_readme
+  title: Distr GitHub README
+  url: https://github.com/distr-sh/distr
+  source_type: github_readme
+  quotes:
+  - Distr is the open-source platform to ship self-hosted software. Start simple,
+    scale as you go. Onboard to Distr and setup Docker Compose POCs in minutes, Helm
+    and air-gapped when the deal needs it. All the tools you need to succeed with
+    offering self-hosted.

@@ -1,0 +1,47 @@
+project_name: Cartographer
+homepage_url: https://cartographer.sh/
+repo_url: https://github.com/vmware-tanzu/cartographer
+docs_url: https://cartographer.sh/docs/latest/
+cncf_status: non-cncf
+summary: Cartographer is a Kubernetes-native choreographing framework that ties disparate CI/CD tools
+  into unified software supply chain pipelines.
+key_features:
+- SupplyChain and Delivery custom resources connecting source repositories, image builders, security scanners,
+  and GitOps deployments.
+- 'Choreography model: components interact asynchronously through Kubernetes resource state rather than
+  tight imperative step coupling.'
+- Workload specification allowing developers to specify only source code and parameters while platform
+  engineers own the supply chain template.
+- Pluggable ecosystem coordinating Tekton, Knative, Tanzu Build Service, Kpack, and Argo CD.
+recent_updates: Maintenance releases improving supply chain templating, parameter propagation, and status
+  condition reporting.
+use_cases: Enterprise software supply chains, secure path-to-production automation, and decoupling developer
+  code from infrastructure CI/CD pipelines.
+ecosystem_perspectives:
+  strengths: 'Separates concerns beautifully: developers only maintain a lightweight Workload CR, while
+    platform teams control the entire secure build pipeline.'
+  considerations: Requires solid understanding of declarative Kubernetes resource choreography rather
+    than traditional linear pipeline DAGs.
+  community_discussions:
+  - Created by VMware Tanzu as the core supply chain choreography engine for modern enterprise Kubernetes
+    delivery.
+interesting_facts: Unlike traditional orchestrators that push tasks step-by-step, Cartographer uses choreography
+  where each tool watches the output of the preceding tool.
+get_started: Install Cartographer with Helm, define a ClusterSupplyChain template, and create a Workload
+  resource pointing to your git repository.
+related_tools:
+- Tekton
+- Argo Workflows
+- Kpack
+latest_release:
+  version: v0.8.5
+  date: '2023-10-30T16:28:41Z'
+  release_notes_url: https://github.com/vmware-tanzu/cartographer/releases/tag/v0.8.5
+sources:
+- id: src_readme
+  title: Cartographer GitHub README
+  url: https://github.com/vmware-tanzu/cartographer
+  source_type: github_readme
+  quotes:
+  - Cartographer is a Kubernetes-native [Choreographer] providing higher modularity and scalability for
+    the software supply chain.

@@ -1,0 +1,44 @@
+project_name: Chalice
+homepage_url: https://github.com/aws/chalice
+repo_url: https://github.com/aws/chalice
+docs_url: https://aws.github.io/chalice/
+cncf_status: non-cncf
+summary: AWS Chalice is an open-source Python serverless microframework that allows developers to quickly
+  create and deploy applications using AWS Lambda and API Gateway.
+key_features:
+- Familiar Flask-like Python decorator API for routing HTTP endpoints to AWS Lambda functions.
+- Automated IAM policy generation scanning application source code to deduce required permissions.
+- 'Native support for event sources: S3 bucket notifications, SQS queues, SNS topics, and scheduled cron
+  events.'
+- Seamless local testing environment with built-in development server and packaging automation.
+recent_updates: Releases adding support for modern Python runtimes, updated CloudFormation packaging,
+  and improved CDK integration.
+use_cases: Rapid serverless Python APIs, event-driven data pipelines on AWS, automated cloud webhook processors,
+  and scheduled background tasks.
+ecosystem_perspectives:
+  strengths: The fastest, most frictionless way for Python developers to ship production-ready serverless
+    REST APIs on AWS Lambda.
+  considerations: Tightly coupled to AWS cloud infrastructure; not portable to Kubernetes (Knative) or
+    multi-cloud serverless runtimes without rewriting.
+  community_discussions:
+  - Maintained directly by AWS; widely recommended for small-to-medium serverless microservices where
+    simplicity is paramount.
+interesting_facts: Chalice automatically inspects your Python code at packaging time and generates the
+  exact IAM execution role required, so you don't write IAM JSON by hand.
+get_started: Install with pip install chalice, initialize an app with chalice new-project demo, test locally
+  with chalice local, and deploy with chalice deploy.
+related_tools:
+- Serverless Framework
+- SAM
+- FastAPI
+latest_release:
+  version: 1.34.0
+  date: '2026-11-20T00:00:00Z'
+  release_notes_url: https://github.com/aws/chalice/releases
+sources:
+- id: src_readme
+  title: Chalice GitHub README
+  url: https://github.com/aws/chalice
+  source_type: github_readme
+  quotes:
+  - It allows you to quickly create and deploy applications that use AWS Lambda.

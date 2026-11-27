@@ -1,0 +1,26 @@
+project_name: Druid
+homepage_url: https://druid.apache.org/
+repo_url: https://github.com/apache/druid
+summary: Apache Druid is a distributed, real-time analytical database designed for
+  rapid sub-second ad-hoc queries over high-concurrency streaming event streams.
+key_features:
+- Native streaming ingestion directly from Apache Kafka and Amazon Kinesis with exactly-once
+  guarantees.
+- Columnar storage with automated bitmap indexing and dictionary encoding.
+- Sub-second query responses under thousands of concurrent user queries.
+recent_updates: Version 39.0 brings multi-stage query (MSQ) engine enhancements and
+  improved window function support.
+use_cases: Clickstream analytics, real-time APM telemetry dashboards, and digital
+  advertising reporting.
+latest_release:
+  version: druid-39.0.0
+  date: '2026-11-19T09:32:39Z'
+  release_notes_url: https://github.com/apache/druid/releases/tag/druid-39.0.0
+sources:
+- id: src_readme
+  title: Druid GitHub README
+  url: https://github.com/apache/druid
+  source_type: github_readme
+  quotes:
+  - Druid is a high performance real-time analytics database. Druid's main value add
+    is to reduce time to insight and action.

@@ -1,0 +1,46 @@
+project_name: Cyclops
+homepage_url: https://cyclops-ui.com/
+repo_url: https://github.com/cyclops-ui/cyclops
+docs_url: https://cyclops-ui.com/docs/
+cncf_status: non-cncf
+summary: Cyclops is an open-source, developer-friendly web UI for Kubernetes workloads that renders dynamic
+  form interfaces from Helm charts.
+key_features:
+- Dynamically generates intuitive web form UIs from complex Helm charts and values.yaml files.
+- Empowers developers to configure and deploy applications to Kubernetes without writing raw YAML manifests.
+- Customizable UI templates defined by platform teams to constrain options and enforce organizational
+  standards.
+- Integrated workload status monitoring and pod log viewing directly from the web interface.
+recent_updates: Recent versions bring support for multi-cluster management, enhanced UI schema validation,
+  and improved role-based access control.
+use_cases: Self-service developer portals, reducing developer onboarding friction on Kubernetes, and eliminating
+  YAML copy-paste errors.
+ecosystem_perspectives:
+  strengths: Turns complex, intimidating Helm charts into beautiful, validated form fields that any developer
+    can configure in seconds.
+  considerations: Primarily focused on application deployment interfaces; does not replace full GitOps
+    engines like Argo CD.
+  community_discussions:
+  - Rapidly growing open-source platform tool praised by engineers for lowering the Kubernetes barrier
+    to entry.
+interesting_facts: Cyclops inspects your Helm chart's values schema and automatically decides whether
+  to render a dropdown, text input, number slider, or checkbox.
+get_started: Install Cyclops in your cluster with kubectl apply -f https://raw.githubusercontent.com/cyclops-ui/cyclops/main/install/cyclops-install.yaml,
+  and open the web UI.
+related_tools:
+- Backstage
+- Portainer
+- Lens
+latest_release:
+  version: v0.21.1
+  date: '2025-06-26T14:42:54Z'
+  release_notes_url: https://github.com/cyclops-ui/cyclops/releases/tag/v0.21.1
+sources:
+- id: src_readme
+  title: Cyclops GitHub README
+  url: https://github.com/cyclops-ui/cyclops
+  source_type: github_readme
+  quotes:
+  - Cyclops is an open-source dev tool that simplifies Kubernetes with an easy-to-use UI, making it less
+    intimidating. Instead of creating and configuring your Kubernetes manifests with YAML, use Cyclops
+    to painlessly configure and deploy your applications - validations included!

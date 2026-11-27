@@ -1,0 +1,43 @@
+project_name: Contour
+homepage_url: https://projectcontour.io/
+repo_url: https://github.com/projectcontour/contour
+docs_url: https://projectcontour.io/docs/
+cncf_status: incubating
+summary: Contour is an open-source CNCF Incubating ingress controller for Kubernetes that deploys and
+  configures the Envoy service proxy dynamically.
+key_features:
+- Envoy control plane dynamically translating Kubernetes resources into high-performance Envoy xDS configurations.
+- HTTPProxy custom resource enabling multi-team ingress delegation, path routing, and header rewrites.
+- Full support for native Kubernetes Ingress and the modern Kubernetes Gateway API.
+- 'Advanced traffic management: weighted canary deployments, TLS certificate termination, and rate limiting.'
+recent_updates: Recent releases bring expanded Gateway API v1.1 conformance, updated Envoy proxy versions,
+  and refined rate limiting integration.
+use_cases: Enterprise Kubernetes ingress routing, multi-team ingress delegation, zero-downtime canary
+  rollouts, and edge TLS termination.
+ecosystem_perspectives:
+  strengths: Incubating CNCF project; pioneered delegated multi-tenant ingress (HTTPProxy) and leverages
+    Envoy's battle-tested C++ performance.
+  considerations: Primarily focused on ingress; does not provide East-West service mesh features unless
+    paired with other mesh tools.
+  community_discussions:
+  - Favored by enterprise platform teams who want the power of Envoy proxy without having to write raw
+    Envoy xDS YAML.
+interesting_facts: Contour's HTTPProxy CRD introduced the concept of 'route delegation', allowing cluster
+  admins to delegate specific subpaths or domains to application teams safely.
+get_started: Install Contour with Helm via helm install contour bitnami/contour, or apply the official
+  quickstart manifest from projectcontour.io.
+related_tools:
+- Envoy
+- Emissary-ingress
+- Traefik
+latest_release:
+  version: v1.33.8
+  date: '2026-10-31T11:22:32Z'
+  release_notes_url: https://github.com/projectcontour/contour/releases/tag/v1.33.8
+sources:
+- id: src_readme
+  title: Contour GitHub README
+  url: https://github.com/projectcontour/contour
+  source_type: github_readme
+  quotes:
+  - Contour supports dynamic configuration updates out of the box while maintaining a lightweight profile.

@@ -1,0 +1,45 @@
+project_name: ContainerSSH
+homepage_url: https://containerssh.io/
+repo_url: https://github.com/ContainerSSH/ContainerSSH
+docs_url: https://containerssh.io/docs/
+cncf_status: sandbox
+summary: ContainerSSH is an open-source CNCF Sandbox project that launches a dedicated, isolated container
+  for each incoming SSH connection.
+key_features:
+- Dynamic backend provisioning launching ephemeral containers in Kubernetes, Docker, or Podman per SSH
+  session.
+- 'Zero persistent host access: users interact exclusively within their own isolated container environment.'
+- Pluggable authentication and authorization webhooks integrating with OAuth2, LDAP, and custom enterprise
+  APIs.
+- Full session audit logging and terminal playback recording user keystrokes and session output securely.
+recent_updates: Releases adding expanded Kubernetes backend configuration options, enhanced auditing storage,
+  and optimized connection handshakes.
+use_cases: Secure cloud bastion hosts, student/developer sandbox environments, interactive terminal hosting,
+  and isolated support access.
+ecosystem_perspectives:
+  strengths: Radically reduces security blast radius by replacing shared SSH jump boxes with disposable,
+    single-use container pods.
+  considerations: Requires integration with an external authentication webhook and persistent volume management
+    for user home directories.
+  community_discussions:
+  - Celebrated by security teams for transforming SSH from a high-risk perimeter vector into an auditable,
+    ephemeral container service.
+interesting_facts: When an SSH session ends in ContainerSSH, the backend container is completely destroyed,
+  leaving zero leftover artifacts or credential traces.
+get_started: Deploy ContainerSSH using Docker or Helm, configure an authentication webhook, and connect
+  using standard ssh user@containerssh-host.
+related_tools:
+- Teleport
+- CloudTTY
+- Boundary
+latest_release:
+  version: v0.6.1
+  date: '2026-10-29T11:49:17Z'
+  release_notes_url: https://github.com/ContainerSSH/ContainerSSH/releases/tag/v0.6.1
+sources:
+- id: src_readme
+  title: ContainerSSH GitHub README
+  url: https://github.com/ContainerSSH/ContainerSSH
+  source_type: github_readme
+  quotes:
+  - In a hurry? This one-minute video explains everything you need to know about ContainerSSH.

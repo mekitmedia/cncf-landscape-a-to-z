@@ -13,14 +13,27 @@
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         {{ range first 3 (where .Site.RegularPages "Type" "posts") }}
         <a href="{{ .RelPermalink }}" aria-label="Read article: {{ .Title }}" class="group bg-white rounded-[2rem] border border-slate-200 overflow-hidden hover:border-blue-400 hover:shadow-2xl hover:shadow-blue-200/50 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none transition-all flex flex-col">
-            <div class="aspect-video flex items-center justify-center relative overflow-hidden {{ if .Params.letter }}bg-slate-100 border-b border-slate-200{{ else }}bg-gradient-to-br from-orange-400 to-orange-600{{ end }}">
-                {{ if .Params.letter }}
-                    <span class="text-7xl font-black text-slate-300 group-hover:text-blue-500/10 group-hover:scale-110 transition-all duration-700 uppercase">{{ .Params.letter }}</span>
+            <div class="aspect-video flex items-center justify-center relative overflow-hidden {{ if .Params.image }}bg-slate-900{{ else if eq .Params.letter "2026" }}bg-gradient-to-br from-indigo-950 via-slate-900 to-blue-950 border-b border-indigo-900/40{{ else if eq .Params.letter "Meta" }}bg-gradient-to-br from-slate-950 via-cyan-950 to-slate-900 border-b border-cyan-900/40{{ else if .Params.letter }}bg-gradient-to-br from-blue-700 via-indigo-700 to-slate-900 border-b border-blue-900/40{{ else }}bg-gradient-to-br from-orange-400 to-orange-600{{ end }}">
+                {{ if .Params.image }}
+                    <img src="{{ .Params.image | relURL }}" alt="{{ .Params.image_alt | default .Title }}" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
+                {{ else if eq .Params.letter "2026" }}
+                    <div class="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_center,_white_1px,_transparent_1px)] bg-[length:14px_14px]"></div>
+                    <span class="text-7xl font-black text-indigo-300/40 group-hover:text-cyan-400/40 group-hover:scale-110 transition-all duration-700 tracking-wider">2026</span>
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
+                {{ else if eq .Params.letter "Meta" }}
+                    <div class="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_center,_#38bdf8_1px,_transparent_1px)] bg-[length:14px_14px]"></div>
+                    <span class="text-7xl font-black text-cyan-300/30 group-hover:text-cyan-300/50 group-hover:scale-110 transition-all duration-700 tracking-widest uppercase">META</span>
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
+                {{ else if .Params.letter }}
+                    <div class="absolute inset-0 opacity-15 bg-[radial-gradient(circle_at_center,_white_1px,_transparent_1px)] bg-[length:14px_14px]"></div>
+                    <span class="text-7xl font-black text-white/30 group-hover:text-blue-300/50 group-hover:scale-110 transition-all duration-700 uppercase">{{ .Params.letter }}</span>
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
                 {{ else }}
                     <div class="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_center,_white_1px,_transparent_1px)] bg-[length:12px_12px]"></div>
                     <i data-lucide="sparkles" class="w-16 h-16 text-white group-hover:rotate-12 group-hover:scale-110 transition-all duration-700"></i>
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
                 {{ end }}
-                <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
             </div>
             <div class="p-8 flex-1 flex flex-col">
                 <div class="flex items-center gap-2 mb-3">

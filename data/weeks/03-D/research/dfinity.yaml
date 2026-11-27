@@ -1,0 +1,28 @@
+project_name: Dfinity
+homepage_url: https://dfinity.org/
+repo_url: https://github.com/dfinity/ic
+summary: Dfinity develops the Internet Computer Protocol (ICP), a decentralized cloud
+  platform running sovereign WebAssembly canisters at web speed.
+key_features:
+- Decentralized cloud network executing tamper-proof WebAssembly smart contracts (canisters).
+- Runs directly at web speed with unbounded sub-second consensus scaling.
+- Enables end-to-end decentralized hosting of web services without traditional cloud
+  providers.
+recent_updates: Recent protocol releases deliver 64-bit Wasm heap limit expansions
+  and enhanced cross-canister messaging throughput.
+use_cases: Hosting decentralized web applications, sovereign backend microservices,
+  and tamper-proof computational canisters.
+latest_release:
+  version: release-2026-11-20_03-19-enable-heap-limits
+  date: '2026-11-20T13:35:52Z'
+  release_notes_url: https://github.com/dfinity/ic/releases/tag/release-2026-11-20_03-19-enable-heap-limits
+sources:
+- id: src_readme
+  title: Dfinity GitHub README
+  url: https://github.com/dfinity/ic
+  source_type: github_readme
+  quotes:
+  - The Internet Computer is the world’s first blockchain that runs at web speed and
+    can increase its capacity without bound. Like the Internet (which is composed
+    of many machines adhering to TCP/IP protocol) and blockchain protocols (such as
+    Bitcoin and Ethereum).

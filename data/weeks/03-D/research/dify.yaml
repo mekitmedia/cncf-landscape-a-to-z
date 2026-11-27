@@ -1,0 +1,29 @@
+project_name: Dify
+homepage_url: https://dify.ai/
+repo_url: https://github.com/langgenius/dify
+summary: Dify is a leading open-source LLM application development platform featuring
+  visual AI agent workflows, prompt management, and high-performance RAG pipelines.
+key_features:
+- Visual canvas for designing multi-agent workflows, tool execution, and prompt logic.
+- Built-in RAG pipeline with flexible document chunking, embedding, and hybrid retrieval.
+- Unified model management supporting hundreds of proprietary and open-weights LLMs.
+- Integrated enterprise observability with Opik, Langfuse, and Arize Phoenix integrations.
+recent_updates: Version 1.20+ expands complex agentic orchestration nodes and multi-tenant
+  enterprise access controls.
+use_cases: Building enterprise AI assistants, complex multi-step agentic workflows,
+  and internal document search engines.
+latest_release:
+  version: 1.20.0
+  date: '2026-11-18T09:55:28Z'
+  release_notes_url: https://github.com/langgenius/dify/releases/tag/1.20.0
+sources:
+- id: src_readme
+  title: Dify GitHub README
+  url: https://github.com/langgenius/dify
+  source_type: github_readme
+  quotes:
+  - Dify is an open-source LLM app development platform. Its intuitive interface combines
+    AI workflow, RAG pipeline, agent capabilities, model management, observability
+    features (including [Opik](https://www.comet.com/docs/opik/integrations/dify),
+    [Langfuse](https://docs.langfuse.com), and [Arize Phoenix](https://docs.arize.com/phoenix))
+    and more, letting you quickly go from prototype to production.

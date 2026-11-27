@@ -1,0 +1,46 @@
+project_name: Cortex
+homepage_url: https://cortexmetrics.io/
+repo_url: https://github.com/cortexproject/cortex
+docs_url: https://cortexmetrics.io/docs/
+cncf_status: incubating
+summary: Cortex is an open-source CNCF Incubating project providing horizontally scalable, highly available,
+  multi-tenant Prometheus as a Service.
+key_features:
+- Horizontally scalable Prometheus-compatible metrics storage scaling to hundreds of millions of active
+  time-series.
+- Seamless multi-tenancy with strict tenant data isolation, query quotas, and rate limiting.
+- Cost-effective long-term storage persisting compressed metric chunks directly to cloud object storage
+  (S3, GCS, Azure Blob).
+- Full PromQL query engine compatibility supporting native Prometheus dashboards and alerts in Grafana.
+recent_updates: Recent versions bring query-frontend performance optimizations, improved compactor efficiency,
+  and reduced memory utilization.
+use_cases: Enterprise Prometheus long-term storage, centralized multi-cluster metrics aggregation, and
+  multi-tenant observability platforms.
+ecosystem_perspectives:
+  strengths: CNCF Incubating project; battle-tested by major cloud providers (AWS Managed Prometheus)
+    for massive multi-tenant metrics ingestion.
+  considerations: Microservices architecture (distributor, ingester, querier, compactor) requires operational
+    expertise to deploy and tune at scale.
+  community_discussions:
+  - The architectural predecessor that laid the foundation for Mimir and revolutionized long-term Prometheus
+    storage.
+interesting_facts: AWS Managed Service for Prometheus (AMP) is built directly upon the open-source Cortex
+  codebase.
+get_started: Deploy Cortex on Kubernetes using the official Helm chart via helm install cortex cortex-helm/cortex,
+  and configure Prometheus remote_write.
+related_tools:
+- Prometheus
+- Thanos
+- Mimir
+latest_release:
+  version: v1.22.0
+  date: '2026-11-20T17:44:47Z'
+  release_notes_url: https://github.com/cortexproject/cortex/releases/tag/v1.22.0
+sources:
+- id: src_readme
+  title: Cortex GitHub README
+  url: https://github.com/cortexproject/cortex
+  source_type: github_readme
+  quotes:
+  - Cortex is a horizontally scalable, highly available, multi-tenant, long-term storage solution for
+    [Prometheus](https://prometheus.io) and [OpenTelemetry Metrics](https://opentelemetry.io/docs/specs/otel/metrics/).

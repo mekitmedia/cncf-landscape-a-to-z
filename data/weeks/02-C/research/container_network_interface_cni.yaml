@@ -1,0 +1,45 @@
+project_name: Container Network Interface (CNI)
+homepage_url: https://github.com/containernetworking/cni
+repo_url: https://github.com/containernetworking/cni
+docs_url: https://www.cni.dev/
+cncf_status: incubating
+summary: Container Network Interface (CNI) is an open-source CNCF Incubating project specifying standard
+  libraries and plugins for configuring network interfaces in Linux containers.
+key_features:
+- Standardized JSON-based specification for container network configuration and IP address management
+  (IPAM).
+- Universal plugin execution model called by container runtimes (containerd, CRI-O, Kubernetes).
+- Core reference plugins including bridge, macvlan, ipvlan, ptp, host-device, and loopback.
+- Pluggable IPAM plugins for host-local allocation, DHCP leasing, and static routing.
+recent_updates: Version updates refining CNI specification v1.1.0, enhancing CHECK operations, and improving
+  plugin execution error propagation.
+use_cases: Foundational networking specification implemented by all major Kubernetes CNIs (Cilium, Calico,
+  Flannel, AWS VPC CNI).
+ecosystem_perspectives:
+  strengths: The undisputed universal standard for container networking; enables seamless interoperability
+    between container runtimes and network providers.
+  considerations: CNI is a low-level specification and plugin runner, not a complete overlay or routing
+    solution on its own.
+  community_discussions:
+  - Every single Kubernetes pod created worldwide relies directly or indirectly on CNI plugins to acquire
+    network connectivity.
+interesting_facts: CNI was originally authored by CoreOS to provide clean, modular networking for the
+  rkt container engine before becoming the Kubernetes standard.
+get_started: Inspect the specification at cni.dev, or install reference plugins from github.com/containernetworking/plugins
+  to /opt/cni/bin.
+related_tools:
+- Cilium
+- Calico
+- Container Storage Interface (CSI)
+latest_release:
+  version: v1.3.1
+  date: '2026-09-03T20:19:08Z'
+  release_notes_url: https://github.com/containernetworking/cni/releases/tag/v1.3.1
+sources:
+- id: src_readme
+  title: Container Network Interface (CNI) GitHub README
+  url: https://github.com/containernetworking/cni
+  source_type: github_readme
+  quotes:
+  - consists of a specification and libraries for writing plugins to configure network interfaces in Linux
+    containers

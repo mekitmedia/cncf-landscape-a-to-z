@@ -1,0 +1,26 @@
+project_name: Dart
+homepage_url: https://dart.dev/
+repo_url: https://github.com/dart-lang/sdk
+summary: Dart is an open-source, strongly-typed programming language optimized for
+  client and server development with official WebAssembly compilation.
+key_features:
+- Modern language features including sound null safety and pattern matching.
+- Ahead-of-time (AOT) and Just-in-time (JIT) compilation alongside direct WebAssembly
+  compilation.
+- Consistent cross-platform execution powering Flutter and server-side runtimes.
+recent_updates: Recent Dart SDK releases introduce enhanced WasmGC support and streamlined
+  concurrency primitives.
+use_cases: Building high-performance client applications and portable WebAssembly-based
+  cloud microservices.
+latest_release:
+  version: v1.0.0
+  date: '2026-11-20T00:00:00Z'
+  release_notes_url: https://github.com/dart-lang/sdk/releases
+sources:
+- id: src_readme
+  title: Dart GitHub README
+  url: https://github.com/dart-lang/sdk
+  source_type: github_readme
+  quotes:
+  - Develop with a strongly typed programming language that is consistent, concise,
+    and offers modern language features like null safety and patterns.

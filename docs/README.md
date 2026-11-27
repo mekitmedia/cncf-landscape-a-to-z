@@ -26,6 +26,10 @@ docs/
 │   ├── kubeopencode-agent-templates.md        # KubeOpenCode AgentTemplate & GitOps automation
 │   └── ../.agents/skills/cncf-weekly-content/ # Multi-harness portable skill
 │
+├── 📝 Editorial Memos & Content Ideation
+│   ├── memos/README.md                        # Editorial ideas, topic clusters & deep-dive backlog
+│   └── memos/2026-11-22-kubernetes-fleet-and-platform-architecture.md
+│
 └── 🔬 Explorations & Optimizations
     ├── token-optimization.md                  # Token reduction & prompt engineering
     └── iteration-and-tokens.md                # Cost vs. quality trade-offs in feedback loops
@@ -110,6 +114,15 @@ docs/
 #### [CNCF Weekly Content Skill](../.agents/skills/cncf-weekly-content/SKILL.md)
 **Portable Skill for Claude Code, Codex/OpenAI, OpenCode, and Antigravity**
 - Harness-agnostic skill definition allowing contributors to run the weekly workflow without the Pydantic AI runtime
+
+---
+
+### Editorial Memos & Content Ideation
+
+#### [memos/README.md](memos/README.md)
+**Editorial Ideation & Topic Clusters**
+- Long-form deep dive concepts, tool synergy memos, and comparative architecture blueprints
+- Active memos: [Modern Kubernetes Fleet & Platform Architecture](memos/2026-11-22-kubernetes-fleet-and-platform-architecture.md) (Cozystack, Capsule, Clusternet, Clusterpedia)
 
 ---
 

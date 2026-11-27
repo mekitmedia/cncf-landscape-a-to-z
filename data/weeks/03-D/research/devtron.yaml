@@ -1,0 +1,26 @@
+project_name: Devtron
+homepage_url: https://devtron.ai
+repo_url: https://github.com/devtron-labs/devtron
+summary: Devtron is an open-source software delivery platform and extensible Kubernetes
+  dashboard for managing Helm applications, GitOps, and CI/CD pipelines.
+key_features:
+- Extensible Kubernetes dashboard streamlining Helm application management.
+- Multi-cluster workload visibility with integrated insights for Argo CD and Flux
+  deployments.
+- Enterprise-grade role-based access control (RBAC) and security policy governance.
+recent_updates: Version 2.2 introduces enhanced multi-cluster management and unified
+  GitOps deployment observability.
+use_cases: Managing Kubernetes applications, simplifying Helm deployments for developers,
+  and providing cluster visibility.
+latest_release:
+  version: v2.2.1
+  date: '2026-11-04T12:56:25Z'
+  release_notes_url: https://github.com/devtron-labs/devtron/releases/tag/v2.2.1
+sources:
+- id: src_readme
+  title: Devtron GitHub README
+  url: https://github.com/devtron-labs/devtron
+  source_type: github_readme
+  quotes:
+  - Centralized Dashboard to view and manage K8s resources across multiple clusters
+  - Comprehensive SSO and RBAC to ensure secure dashboard access for team collaboration

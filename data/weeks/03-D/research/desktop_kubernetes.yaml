@@ -1,0 +1,26 @@
+project_name: Desktop Kubernetes
+homepage_url: https://github.com/aceeric/desktop-kubernetes
+repo_url: https://github.com/aceeric/desktop-kubernetes
+summary: Desktop Kubernetes is a Linux Bash CLI utility that provisions production-compatible
+  multi-node Kubernetes clusters locally using KVM or VirtualBox.
+key_features:
+- CLI-based provisioning of multi-node Kubernetes clusters on Linux desktops.
+- Uses KVM or VirtualBox hypervisors with enterprise Linux guests (Alma, CentOS, Rocky).
+- Creates 100% production-compatible testing and development environments locally.
+recent_updates: Added updated Kubernetes 1.30+ cluster definitions and automated CNI
+  network setup.
+use_cases: Local multi-node Kubernetes development without cloud costs or remote cluster
+  dependencies.
+latest_release:
+  version: v1.0.0
+  date: '2026-11-20T00:00:00Z'
+  release_notes_url: https://github.com/aceeric/desktop-kubernetes/releases
+sources:
+- id: src_readme
+  title: Desktop Kubernetes GitHub README
+  url: https://github.com/aceeric/desktop-kubernetes
+  source_type: github_readme
+  quotes:
+  - '_Desktop Kubernetes_ is a Linux Bash CLI that provisions a Kubernetes cluster
+    right on your desktop using KVM or VirtualBox - with each cluster node consisting
+    of a guest VM running any of: Alma, CentOS, or Rocky Linux.'

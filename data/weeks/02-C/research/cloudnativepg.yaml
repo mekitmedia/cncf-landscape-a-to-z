@@ -1,0 +1,45 @@
+project_name: CloudNativePG
+homepage_url: https://cloudnative-pg.io/
+repo_url: https://github.com/cloudnative-pg/cloudnative-pg
+docs_url: https://cloudnative-pg.io/documentation/current/
+cncf_status: incubating
+summary: CloudNativePG is an open-source CNCF Incubating operator that manages high-availability PostgreSQL
+  clusters natively within Kubernetes.
+key_features:
+- Kubernetes-native controller pattern orchestrating PostgreSQL instances directly without external failover
+  tools.
+- High-availability replication with automated zero-data-loss failover and self-healing standby promotion.
+- Continuous WAL archiving and point-in-time recovery (PITR) integrated with cloud object storage (S3,
+  GCS, Azure Blob).
+- Zero-downtime rolling minor and major PostgreSQL version upgrades and automated TLS certificate management.
+recent_updates: Recent v1.24+ releases bring PostgreSQL 17 support, connection pooling improvements, enhanced
+  volume snapshots, and declarative tablespaces.
+use_cases: Production enterprise PostgreSQL on Kubernetes, stateful microservice databases, automated
+  disaster recovery, and cloud-agnostic DBaaS.
+ecosystem_perspectives:
+  strengths: CNCF Incubating project; widely regarded by the Postgres and Kubernetes communities as the
+    cleanest, most robust Kubernetes Postgres operator.
+  considerations: Requires solid operational knowledge of PostgreSQL replication and adequate storage
+    performance (IOPS) on worker nodes.
+  community_discussions:
+  - Created by PostgreSQL experts (EnterpriseDB) and celebrated for avoiding heavyweight third-party HA
+    daemons like Patroni.
+interesting_facts: CloudNativePG treats PostgreSQL primary and replica instances as native Kubernetes
+  Pods, using Kubernetes' own Raft consensus for failover decisions.
+get_started: Deploy the operator with kubectl apply -f https://raw.githubusercontent.com/cloudnative-pg/cloudnative-pg/main/releases/cnpg-operator.yaml
+  and define a Cluster CR.
+related_tools:
+- Crunchy Postgres Operator
+- Zalando Postgres Operator
+- Spilo
+latest_release:
+  version: v1.30.2
+  date: '2026-11-17T11:31:47Z'
+  release_notes_url: https://github.com/cloudnative-pg/cloudnative-pg/releases/tag/v1.30.2
+sources:
+- id: src_readme
+  title: CloudNativePG GitHub README
+  url: https://github.com/cloudnative-pg/cloudnative-pg
+  source_type: github_readme
+  quotes:
+  - '**CloudNativePG (CNPG)** is an open-source platform designed to seamlessly'

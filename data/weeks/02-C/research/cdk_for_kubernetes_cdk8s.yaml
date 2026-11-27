@@ -1,0 +1,46 @@
+project_name: CDK for Kubernetes (CDK8s)
+homepage_url: https://cdk8s.io/
+repo_url: https://github.com/cdk8s-team/cdk8s
+docs_url: https://cdk8s.io/docs/latest/
+cncf_status: sandbox
+summary: CDK for Kubernetes (CDK8s) is an open-source software development framework that lets you define
+  Kubernetes apps using familiar programming languages.
+key_features:
+- 'Define Kubernetes applications using general-purpose languages: TypeScript, JavaScript, Python, Java,
+  and Go.'
+- Synthesizes pure, standard Kubernetes YAML manifests compatible with any cluster or GitOps engine.
+- Generates type-safe construct classes directly from Kubernetes CRDs and core API schemas.
+- Enables object-oriented composition, unit testing, and abstraction sharing via standard package managers
+  (npm, PyPI).
+recent_updates: Recent versions bring support for Kubernetes 1.31 API schemas, updated cdk8s-cli performance,
+  and refined cdk8s-plus high-level constructs.
+use_cases: Replacing unmaintainable YAML/Helm templates with type-checked code, sharing reusable company
+  constructs, and unit-testing manifests in CI.
+ecosystem_perspectives:
+  strengths: CNCF Sandbox project; eliminates YAML indentation errors and template string interpolation
+    by leveraging full IDE autocomplete and type safety.
+  considerations: Requires a synthesis compilation step in CI/CD pipelines before applying generated manifests
+    to clusters.
+  community_discussions:
+  - Originally created by AWS and donated to CNCF; deeply beloved by developers who prefer writing real
+    code over complex Helm templates.
+interesting_facts: Because CDK8s synthesizes plain Kubernetes YAML, you can pipe its output directly into
+  kubectl apply -f - or commit it to a GitOps repository.
+get_started: Install the CLI with npm i -g cdk8s-cli, initialize a new project with cdk8s init python-app,
+  and run cdk8s synth.
+related_tools:
+- Kustomize
+- Helm
+- Pulumi
+latest_release:
+  version: redirect
+  date: '2021-10-13T20:21:32Z'
+  release_notes_url: https://github.com/cdk8s-team/cdk8s/releases/tag/redirect
+sources:
+- id: src_readme
+  title: CDK for Kubernetes (CDK8s) GitHub README
+  url: https://github.com/cdk8s-team/cdk8s
+  source_type: github_readme
+  quotes:
+  - CDK8s apps synthesize into standard Kubernetes manifests
+  - which can be applied to any Kubernetes cluster

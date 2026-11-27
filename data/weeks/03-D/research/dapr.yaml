@@ -1,0 +1,26 @@
+project_name: Dapr
+homepage_url: https://dapr.io
+repo_url: https://github.com/dapr/dapr
+summary: Dapr is a CNCF graduated portable, event-driven distributed application runtime
+  for microservices, workflows, and AI agents.
+key_features:
+- Standardized APIs for state management, pub/sub, service invocation, and secrets.
+- Built-in durable workflow execution and AI agent orchestration.
+- Language-agnostic sidecar architecture deployable on Kubernetes and edge.
+recent_updates: Latest v1.19+ releases include expanded durable workflow features
+  and first-class AI agent integration primitives.
+use_cases: Building polyglot microservice architectures, event-driven systems, and
+  resilient multi-step workflows.
+latest_release:
+  version: v1.19.2
+  date: '2026-11-19T10:10:35Z'
+  release_notes_url: https://github.com/dapr/dapr/releases/tag/v1.19.2
+sources:
+- id: src_readme
+  title: Dapr GitHub README
+  url: https://github.com/dapr/dapr
+  source_type: github_readme
+  quotes:
+  - Dapr is an open-source runtime for building distributed applications, workflows,
+    and AI agents.
+cncf_status: graduated

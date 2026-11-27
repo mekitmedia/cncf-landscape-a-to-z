@@ -11,6 +11,8 @@ tags:
   - "gitops"
   - "flux"
   - "automation"
+image: "/images/posts/kubeopencode.jpg"
+image_alt: "Self-Hosting Autonomous AI Agents on k3s with GitOps"
 ---
 
 A few months ago, I wrote about [putting Google Jules to work](/posts/putting-jules-to-work/), exploring the concept of **Task as Code**: checking markdown prompts and task backlogs directly into Git, and having an asynchronous agent pick them up via scheduled GitHub Actions to generate reviewable pull requests.

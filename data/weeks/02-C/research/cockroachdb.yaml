@@ -1,0 +1,48 @@
+project_name: CockroachDB
+homepage_url: https://www.cockroachlabs.com/
+repo_url: https://github.com/cockroachdb/cockroach
+docs_url: https://www.cockroachlabs.com/docs/
+cncf_status: non-cncf
+summary: CockroachDB is an open-source, cloud-native distributed SQL database that provides horizontal
+  scalability, serializable transactions, and global survival.
+key_features:
+- Distributed SQL architecture combining standard PostgreSQL wire protocol compatibility with linear horizontal
+  scalability.
+- Strict serializable ACID transactions across multi-node, multi-region clusters using distributed consensus
+  (Raft).
+- Automated data sharding, rebalancing, and self-healing surviving disk, node, and whole-region availability
+  zone failures.
+- Multi-region data domiciling pinning specific rows to geographic regions for low latency and data residency
+  compliance (GDPR).
+recent_updates: Continuous releases adding vector indexing for AI workloads, optimized distributed execution
+  plans, and enhanced Kubernetes operator features.
+use_cases: Global transactional banking backends, mission-critical e-commerce platforms, multi-region
+  cloud applications, and resilient SaaS architectures.
+ecosystem_perspectives:
+  strengths: The gold standard for multi-region distributed SQL; delivers seamless scalability without
+    sacrificing strict ACID consistency.
+  considerations: Higher latency on cross-region writes compared to single-node databases due to multi-datacenter
+    consensus roundtrips.
+  community_discussions:
+  - Widely adopted by enterprise financial institutions and global cloud services replacing fragile sharded
+    database architectures.
+interesting_facts: Named CockroachDB because it was designed to survive catastrophic infrastructure disasters—like
+  a cockroach surviving an apocalypse.
+get_started: Run a single-node test cluster using Docker via docker run -d --name roach -p 26257:26257
+  -p 8080:8080 cockroachdb/cockroach:latest start-single-node --insecure.
+related_tools:
+- YugabyteDB
+- TiDB
+- PostgreSQL
+latest_release:
+  version: v26.2.12
+  date: '2026-11-20T00:00:00Z'
+  release_notes_url: https://github.com/cockroachdb/cockroach/releases
+sources:
+- id: src_readme
+  title: CockroachDB GitHub README
+  url: https://github.com/cockroachdb/cockroach
+  source_type: github_readme
+  quotes:
+  - CockroachDB is a distributed SQL database built on a transactional and strongly-consistent key-value
+    store.

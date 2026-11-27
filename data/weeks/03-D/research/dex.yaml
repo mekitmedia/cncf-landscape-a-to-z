@@ -1,0 +1,30 @@
+project_name: Dex
+homepage_url: https://dexidp.io/
+repo_url: https://github.com/dexidp/dex
+summary: Dex is a CNCF Sandbox federated OpenID Connect identity provider that brokers
+  authentication between applications and external identity systems.
+key_features:
+- Federated OpenID Connect (OIDC) identity and OAuth 2.0 provider.
+- Pluggable connectors for LDAP, SAML 2.0, GitHub, Google, GitLab, and Microsoft Entra
+  ID.
+- Lightweight, stateless design easily deployed as a Kubernetes-native microservice.
+recent_updates: Latest v2.46+ releases deliver enhanced connector security, updated
+  Go dependencies, and OpenSSF Best Practices compliance.
+use_cases: Providing unified SSO and authentication for Kubernetes API servers, Argo
+  CD, and internal corporate portals.
+latest_release:
+  version: v2.46.1
+  date: '2026-10-21T14:33:21Z'
+  release_notes_url: https://github.com/dexidp/dex/releases/tag/v2.46.1
+sources:
+- id: src_readme
+  title: Dex GitHub README
+  url: https://github.com/dexidp/dex
+  source_type: github_readme
+  quotes:
+  - Dex is an identity service that uses [OpenID Connect][openid-connect] to drive
+    authentication for other apps.
+  - Dex acts as a portal to other identity providers through ["connectors."](#connectors)
+    This lets dex defer authentication to LDAP servers, SAML providers, or established
+    identity providers like GitHub, Google, and Active Directory.
+cncf_status: sandbox

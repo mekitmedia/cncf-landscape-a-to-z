@@ -1,0 +1,47 @@
+project_name: Carvel
+homepage_url: https://carvel.dev/
+repo_url: https://github.com/carvel-dev/kapp
+docs_url: https://carvel.dev/kapp/docs/latest/
+cncf_status: sandbox
+summary: Carvel provides a set of reliable, single-purpose, composable tools that aid in packaging, building,
+  and deploying Kubernetes applications.
+key_features:
+- 'kapp: Explicit, deterministic Kubernetes resource deployment engine that tracks resource groups and
+  calculates precise diffs before applying.'
+- 'ytt: Structural, YAML-aware templating engine using the Python-like Starlark language to prevent syntax
+  errors.'
+- 'kbld: Seamless image building and digest resolution ensuring immutable image references in production
+  manifests.'
+- 'imgpkg: Bundling and distributing Kubernetes configurations and dependencies as standard OCI container
+  image artifacts.'
+recent_updates: Recent versions bring enhanced kapp waiting rules, updated ytt Starlark modules, and expanded
+  imgpkg OCI registry authentication support.
+use_cases: Deterministic GitOps delivery, air-gapped application distribution, enterprise YAML configuration
+  templating, and image digest pinning.
+ecosystem_perspectives:
+  strengths: CNCF Sandbox project; adheres strictly to the Unix philosophy—each tool (kapp, ytt, kbld,
+    imgpkg) does one job exceptionally well and composes cleanly.
+  considerations: Adopting the full Carvel tool suite requires learning Starlark (ytt) rather than standard
+    Jinja/Go templating.
+  community_discussions:
+  - Renowned among enterprise platform engineers for kapp's rock-solid convergence and explicit dependency
+    ordering.
+interesting_facts: kapp calculates diffs against the live cluster state rather than local files, showing
+  you exactly what changes will take place before you confirm.
+get_started: Download the Carvel tool binaries (or brew install carvel-dev/carvel/kapp) and deploy manifests
+  deterministically with kapp deploy -a app -f manifests/.
+related_tools:
+- Helm
+- Kustomize
+- Flux
+latest_release:
+  version: v0.56.0
+  date: '2026-11-16T09:23:21Z'
+  release_notes_url: https://github.com/carvel-dev/ytt/releases/tag/v0.56.0
+sources:
+- id: src_readme
+  title: Carvel GitHub README
+  url: https://github.com/carvel-dev/kapp
+  source_type: github_readme
+  quotes:
+  - '* Play: Jump right in by trying out the [online playground](https://carvel.dev/ytt/#playground)'

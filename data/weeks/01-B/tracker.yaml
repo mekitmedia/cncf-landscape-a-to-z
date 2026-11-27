@@ -150,7 +150,7 @@ items:
         error_message: null
         retry_count: 0
         agent: writer
-    removed: false
+    removed: true
   BigchainDB:
     tasks:
       research:

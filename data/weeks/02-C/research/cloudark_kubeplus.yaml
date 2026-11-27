@@ -1,0 +1,46 @@
+project_name: CloudARK KubePlus
+homepage_url: https://cloudark.io/
+repo_url: https://github.com/cloud-ark/kubeplus
+docs_url: https://cloud-ark.github.io/kubeplus/docs/html/index.html
+cncf_status: non-cncf
+summary: CloudARK KubePlus is a Kubernetes-native SaaS operator that automates multi-instance multi-tenancy
+  for containerized applications.
+key_features:
+- Transforms standard application Helm charts into self-service multi-tenant SaaS APIs.
+- Automated namespace-per-tenant isolation with dedicated resource quotas, network policies, and RBAC.
+- Consumer API endpoints enabling users to self-provision isolated application instances on demand.
+- Resource relationship tracking monitoring tenant resource health and utilization across clusters.
+recent_updates: Releases updating support for modern Kubernetes versions, enhanced Helm 3 chart binding,
+  and streamlined tenant metrics reporting.
+use_cases: Building internal self-service developer platforms, delivering B2B multi-instance SaaS on Kubernetes,
+  and automating sandbox provisioning.
+ecosystem_perspectives:
+  strengths: Eliminates the complexity of building custom SaaS controllers by turning existing Helm charts
+    into managed consumer APIs.
+  considerations: Focuses on multi-instance (namespace-per-tenant) architectures rather than shared multi-tenant
+    database designs.
+  community_discussions:
+  - Praised by software vendors and internal platform teams seeking to offer managed services on top of
+    Kubernetes.
+interesting_facts: KubePlus creates a Custom Resource Definition (CRD) directly from your Helm chart's
+  values.yaml, instantly giving your chart a Kubernetes API.
+get_started: Install KubePlus operator with Helm, register your application Helm chart using the ResourceComposition
+  CRD, and create tenant instances.
+related_tools:
+- Capsule
+- vcluster
+- Crossplane
+latest_release:
+  version: kubectl-plugins-v4.1.5
+  date: '2026-03-03T16:49:26Z'
+  release_notes_url: https://github.com/cloud-ark/kubeplus/releases/tag/kubectl-plugins-v4.1.5
+sources:
+- id: src_readme
+  title: CloudARK KubePlus GitHub README
+  url: https://github.com/cloud-ark/kubeplus
+  source_type: github_readme
+  quotes:
+  - KubePlus is a Kubernetes Operator that enables teams to deliver applications as managed, multi-tenant
+    services on Kubernetes. It bridges the gap between deploying an application and operating it at scale
+    for multiple customers or internal teams, automating the isolation, access control, and lifecycle
+    management that true multi-tenancy requires.

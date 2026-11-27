@@ -1,0 +1,39 @@
+project_name: CloudMatos
+homepage_url: https://cloudmatos.com/
+repo_url: https://github.com/cloudmatos/matos
+docs_url: https://docs.cloudmatos.com/
+cncf_status: non-cncf
+summary: CloudMatos is an automated cloud compliance and security governance framework for Kubernetes,
+  Terraform, and multi-cloud environments.
+key_features:
+- Multi-cloud posture management assessing Kubernetes clusters, AWS, GCP, and Azure configurations.
+- Automated compliance evaluation against CIS Benchmarks, NIST, and HIPAA standards.
+- Shift-left static analysis for Infrastructure as Code (Terraform) templates.
+- Self-healing automated remediation workflows for detected misconfigurations.
+recent_updates: Updates expanding Kubernetes pod security standards audit rules and streamlining CLI report
+  generation.
+use_cases: Multi-cloud security posture management, Kubernetes compliance auditing, and CI/CD security
+  gate enforcement.
+ecosystem_perspectives:
+  strengths: Provides unified scanning across both runtime Kubernetes clusters and pre-deployment Infrastructure
+    as Code.
+  considerations: Smaller community footprint compared to industry giants like Checkov and Trivy.
+  community_discussions:
+  - Appreciated by security engineers looking for an integrated scanner covering both cloud and cluster
+    state.
+interesting_facts: CloudMatos was engineered with a focus on self-healing automation, aiming to fix misconfigurations
+  rather than just generating alerts.
+get_started: Clone the repository, install Python dependencies, and run matos cli to scan your local Kubernetes
+  or cloud configurations.
+related_tools:
+- Checkov
+- Cloud Custodian
+- Kubescape
+latest_release: {}
+sources:
+- id: src_readme
+  title: CloudMatos GitHub README
+  url: https://github.com/cloudmatos/matos
+  source_type: github_readme
+  quotes:
+  - CloudMatos

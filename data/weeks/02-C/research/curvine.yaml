@@ -1,0 +1,43 @@
+project_name: Curvine
+homepage_url: https://github.com/curvine-io/curvine
+repo_url: https://github.com/curvine-io/curvine
+docs_url: https://github.com/curvine-io/curvine#readme
+cncf_status: sandbox
+summary: Curvine is an open-source CNCF Sandbox distributed multi-tier caching system written in Rust
+  designed for high-throughput AI and big data workloads.
+key_features:
+- High-performance distributed caching architecture written in memory-safe Rust.
+- Multi-tier caching hierarchy combining memory, NVMe SSDs, and remote cloud object storage.
+- POSIX and S3 storage compatibility delivering low-latency cached data access to compute clusters.
+- Optimized for distributed AI deep learning training pipelines reading massive dataset shards concurrently.
+recent_updates: Recent developments expanding Kubernetes CSI driver integration, updated async Rust runtimes,
+  and optimized NVMe page caching.
+use_cases: Accelerating AI/ML model training data ingestion, big data analytics cache acceleration, and
+  reducing cloud object storage egress costs.
+ecosystem_perspectives:
+  strengths: CNCF Sandbox project; modern Rust implementation ensures memory safety, high concurrency,
+    and minimal CPU overhead.
+  considerations: An emerging project in the CNCF Sandbox; community adoption is growing as teams evaluate
+    modern Rust data caching tools.
+  community_discussions:
+  - Targeted at the massive I/O bottleneck in large-scale GPU clusters where GPUs sit idle waiting for
+    slow data loading.
+interesting_facts: Curvine's Rust-based engine eliminates garbage collection pauses, ensuring predictable,
+  sub-millisecond cache latency for GPU training jobs.
+get_started: Clone the repository, build with cargo build --release, and configure local storage cache
+  directories according to the documentation.
+related_tools:
+- Alluxio
+- JuiceFS
+- CubeFS
+latest_release:
+  version: v0.6.1-alpha
+  date: '2026-11-18T06:25:15Z'
+  release_notes_url: https://github.com/CurvineIO/curvine/releases/tag/v0.6.1-alpha
+sources:
+- id: src_readme
+  title: Curvine GitHub README
+  url: https://github.com/curvine-io/curvine
+  source_type: github_readme
+  quotes:
+  - Full POSIX semantics on top of object storage, with a built-in multi-tier distributed cache.<br>

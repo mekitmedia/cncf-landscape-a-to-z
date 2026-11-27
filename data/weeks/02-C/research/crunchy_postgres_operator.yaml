@@ -1,0 +1,49 @@
+project_name: Crunchy Postgres Operator
+homepage_url: https://www.crunchydata.com/products/crunchy-postgresql-operator
+repo_url: https://github.com/CrunchyData/postgres-operator
+docs_url: https://access.crunchydata.com/documentation/postgres-operator/latest/
+cncf_status: non-cncf
+summary: Crunchy Postgres Operator (PGO) is an enterprise-grade Kubernetes operator that automates production
+  PostgreSQL cluster management and high availability.
+key_features:
+- High availability and automated failover powered by Patroni distributed consensus and active standby
+  replicas.
+- Disaster recovery and automated backup management using pgBackRest with streaming WAL archiving to S3,
+  GCS, and Azure Blob.
+- Integrated connection pooling using pgBouncer, and monitoring exporters for Prometheus and Grafana.
+- Declarative custom resources managing major version upgrades, read-only replicas, and automated TLS
+  certificate rotation.
+recent_updates: PGO v5 releases adding expanded volume snapshot support, pgvector integration for AI applications,
+  and enhanced standby cluster replication.
+use_cases: Enterprise production PostgreSQL on Kubernetes, financial database architectures, geo-distributed
+  standby clusters, and AI vector data storage.
+ecosystem_perspectives:
+  strengths: Decades of enterprise PostgreSQL expertise from Crunchy Data; incorporates industry-standard
+    components (Patroni, pgBackRest, pgBouncer).
+  considerations: Patroni and pgBackRest architecture introduces multiple moving parts that require familiarity
+    during deep troubleshooting.
+  community_discussions:
+  - A trusted standard across enterprise and government Kubernetes environments for mission-critical PostgreSQL
+    databases.
+interesting_facts: Crunchy Data was among the very first companies to build a production Kubernetes operator
+  for PostgreSQL, starting back in the Kubernetes 1.4 era.
+get_started: Install PGO using the Crunchy Data Helm chart or Kustomize installer, and apply a PostgresCluster
+  custom resource to deploy a cluster.
+related_tools:
+- CloudNativePG
+- Zalando Postgres Operator
+- StackGres
+latest_release:
+  version: v6.0.2
+  date: '2026-06-02T19:23:08Z'
+  release_notes_url: https://github.com/CrunchyData/postgres-operator/releases/tag/v6.0.2
+sources:
+- id: src_readme
+  title: Crunchy Postgres Operator GitHub README
+  url: https://github.com/CrunchyData/postgres-operator
+  source_type: github_readme
+  quotes:
+  - Designed for your GitOps workflows, it is [easy to get started](https://access.crunchydata.com/documentation/postgres-operator/v5/quickstart/)
+    with Postgres on Kubernetes with PGO. Within a few moments, you can have a production-grade Postgres
+    cluster complete with high availability, disaster recovery, and monitoring, all over secure TLS communications.
+    Even better, PGO lets you easily customize your Postgres cluster to tailor it to your workload!
