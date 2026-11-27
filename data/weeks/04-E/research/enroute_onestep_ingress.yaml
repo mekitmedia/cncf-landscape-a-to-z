@@ -1,0 +1,40 @@
+project_name: EnRoute OneStep Ingress
+homepage_url: https://www.getenroute.io
+repo_url: https://github.com/saarasio/enroute
+docs_url: https://www.getenroute.io
+cncf_status: non-cncf
+latest_release:
+  version: v1.0.0
+  date: '2023-08-15T00:38:39Z'
+  release_notes_url: https://github.com/saarasio/enroute/releases/tag/v1.0.0
+summary: EnRoute OneStep Ingress is a streamlined, Envoy-powered Kubernetes ingress
+  controller and API gateway with one-click setup.
+key_features:
+- Simple single-command Helm deployment for exposing Kubernetes services.
+- Declarative L7 policies for rate limiting, JWT verification, and traffic shaping.
+- Automated SSL/TLS certificate lifecycle management via ACME and Let's Encrypt.
+recent_updates: Updated Envoy engine and simplified multi-tenant ingress policy toggles.
+use_cases: Rapidly deploying secure Envoy edge gateways in small and medium Kubernetes
+  environments.
+ecosystem_perspectives: null
+interesting_facts: EnRoute OneStep Ingress is an essential cloud-native technology
+  in Letter E.
+get_started: Check the official documentation at https://www.getenroute.io and repository
+  at https://github.com/saarasio/enroute to get started.
+related_tools:
+- Envoy
+- Kubernetes
+- Prometheus
+sources:
+- id: src-readme
+  title: EnRoute OneStep Ingress Official GitHub README
+  url: https://github.com/saarasio/enroute
+  source_type: github_readme
+  quotes:
+  - EnRoute makes is simple to expose services running in Kubernetes using one helm
+    command. L7 policy can be specified using simple switches to enable/disable functionality
+editorial_lock: false
+locked_by: null
+locked_at: null
+last_researched_at: null
+research_version: 1

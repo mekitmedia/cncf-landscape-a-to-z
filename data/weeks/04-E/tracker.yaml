@@ -2,10 +2,10 @@ items:
   EDB:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-27T22:00:00Z'
+        output_file: data/weeks/04-E/research/edb.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -21,10 +21,10 @@ items:
   EJBCA Community:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-27T22:00:00Z'
+        output_file: data/weeks/04-E/research/ejbca_community.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -40,10 +40,10 @@ items:
   EMQX:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-27T22:00:00Z'
+        output_file: data/weeks/04-E/research/emqx.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -59,10 +59,10 @@ items:
   EaseAgent:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-27T22:00:00Z'
+        output_file: data/weeks/04-E/research/easeagent.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -78,10 +78,10 @@ items:
   EaseMesh:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-27T22:00:00Z'
+        output_file: data/weeks/04-E/research/easemesh.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -97,10 +97,10 @@ items:
   Easegress:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-27T22:00:00Z'
+        output_file: data/weeks/04-E/research/easegress.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -116,10 +116,10 @@ items:
   Easy-Ngo:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-27T22:00:00Z'
+        output_file: data/weeks/04-E/research/easy_ngo.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -135,10 +135,10 @@ items:
   Eclipse Che:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-27T22:00:00Z'
+        output_file: data/weeks/04-E/research/eclipse_che.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -155,16 +155,16 @@ items:
     tasks:
       research:
         status: completed
-        started_at: 2026-09-29T17:19:19.014625+00:00
-        completed_at: 2026-09-29T17:19:19.014625+00:00
+        started_at: 2026-09-29 17:19:19.014625+00:00
+        completed_at: '2026-11-27T22:00:00Z'
         output_file: data/weeks/04-E/research/elastic.yaml
         error_message: null
         retry_count: 0
         agent: researcher
       content:
         status: completed
-        started_at: 2026-09-29T17:19:19.014625+00:00
-        completed_at: 2026-09-29T17:19:19.014625+00:00
+        started_at: 2026-09-29 17:19:19.014625+00:00
+        completed_at: 2026-09-29 17:19:19.014625+00:00
         output_file: website/content/tools/elastic.md
         error_message: null
         retry_count: 0
@@ -173,10 +173,10 @@ items:
   Elastic APM:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-27T22:00:00Z'
+        output_file: data/weeks/04-E/research/elastic_apm.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -189,13 +189,13 @@ items:
         retry_count: 0
         agent: writer
     removed: false
-  Elastisys Welkin® based on Kubespray:
+  "Elastisys Welkin\xAE based on Kubespray":
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-27T22:00:00Z'
+        output_file: data/weeks/04-E/research/elastisys_welkin_based_on_kubespray.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -211,10 +211,10 @@ items:
   Embrace:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-27T22:00:00Z'
+        output_file: data/weeks/04-E/research/embrace.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -230,10 +230,10 @@ items:
   Emissary-Ingress:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-27T22:00:00Z'
+        output_file: data/weeks/04-E/research/emissary_ingress.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -249,10 +249,10 @@ items:
   EnRoute OneStep Ingress:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-27T22:00:00Z'
+        output_file: data/weeks/04-E/research/enroute_onestep_ingress.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -268,10 +268,10 @@ items:
   Encore:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-27T22:00:00Z'
+        output_file: data/weeks/04-E/research/encore.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -287,10 +287,10 @@ items:
   Envoy:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-27T22:00:00Z'
+        output_file: data/weeks/04-E/research/envoy.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -306,10 +306,10 @@ items:
   Envoy (Wasm):
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-27T22:00:00Z'
+        output_file: data/weeks/04-E/research/envoy_(wasm).yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -327,7 +327,7 @@ items:
       research:
         status: completed
         started_at: null
-        completed_at: "2026-10-15T15:58:54.174917+00:00"
+        completed_at: '2026-11-27T22:00:00Z'
         output_file: data/weeks/04-E/research/envoy_gateway.yaml
         error_message: null
         retry_count: 0
@@ -335,7 +335,7 @@ items:
       content:
         status: completed
         started_at: null
-        completed_at: "2026-10-15T15:58:54.174917+00:00"
+        completed_at: '2026-10-15T15:58:54.174917+00:00'
         output_file: website/content/tools/envoy_gateway.md
         error_message: null
         retry_count: 0
@@ -344,10 +344,10 @@ items:
   Epsilla:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-27T22:00:00Z'
+        output_file: data/weeks/04-E/research/epsilla.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -363,10 +363,10 @@ items:
   Eraser:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-27T22:00:00Z'
+        output_file: data/weeks/04-E/research/eraser.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -382,10 +382,10 @@ items:
   EventMesh:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-27T22:00:00Z'
+        output_file: data/weeks/04-E/research/eventmesh.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -401,10 +401,10 @@ items:
   Extism:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-27T22:00:00Z'
+        output_file: data/weeks/04-E/research/extism.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -420,10 +420,10 @@ items:
   Endee:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-27T22:00:00Z'
+        output_file: data/weeks/04-E/research/endee.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -439,10 +439,10 @@ items:
   Envoy-ai-gateway:
     tasks:
       research:
-        status: pending
+        status: completed
         started_at: null
-        completed_at: null
-        output_file: null
+        completed_at: '2026-11-27T22:00:00Z'
+        output_file: data/weeks/04-E/research/envoy_ai_gateway.yaml
         error_message: null
         retry_count: 0
         agent: researcher
@@ -458,10 +458,10 @@ items:
 week_tasks:
   tasks:
     blog_post:
-      status: pending
-      started_at: null
+      status: in_progress
+      started_at: '2026-11-27T22:00:00Z'
       completed_at: null
-      output_file: null
+      output_file: website/content/posts/2027-E-service-proxies-edge-gateways-and-wasm-runtimes.md
       error_message: null
       retry_count: 0
       agent: writer

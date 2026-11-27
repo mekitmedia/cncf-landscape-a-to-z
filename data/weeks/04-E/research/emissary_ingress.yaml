@@ -1,0 +1,41 @@
+project_name: Emissary-Ingress
+homepage_url: https://emissary-ingress.dev/
+repo_url: https://github.com/emissary-ingress/emissary
+docs_url: https://emissary-ingress.dev/
+cncf_status: incubating
+latest_release:
+  version: v4.2.0
+  date: '2026-11-10T06:53:08Z'
+  release_notes_url: https://github.com/emissary-ingress/emissary/releases/tag/v4.2.0
+summary: Emissary-Ingress is a CNCF Incubating, open-source Kubernetes-native API
+  gateway and ingress controller built on Envoy Proxy.
+key_features:
+- Self-service routing and declarative configuration via Kubernetes CRDs.
+- Full L7 protocol support including gRPC, HTTP/2, WebSockets, and TCP.
+- Integrated rate limiting, OAuth/OIDC authentication, and distributed tracing.
+recent_updates: Enhanced Kubernetes Gateway API conformance and updated underlying
+  Envoy runtime to latest stable branches.
+use_cases: Serving as the primary edge ingress router and API gateway for production
+  Kubernetes clusters.
+ecosystem_perspectives: null
+interesting_facts: Emissary-Ingress is an essential cloud-native technology in Letter
+  E.
+get_started: Check the official documentation at https://emissary-ingress.dev/ and
+  repository at https://github.com/emissary-ingress/emissary to get started.
+related_tools:
+- Envoy
+- Kubernetes
+- Prometheus
+sources:
+- id: src-readme
+  title: Emissary-Ingress Official GitHub README
+  url: https://github.com/emissary-ingress/emissary
+  source_type: github_readme
+  quotes:
+  - Emissary-ingress is a CNCF incubation project (and was formerly known as Ambassador
+    API Gateway).
+editorial_lock: false
+locked_by: null
+locked_at: null
+last_researched_at: null
+research_version: 1

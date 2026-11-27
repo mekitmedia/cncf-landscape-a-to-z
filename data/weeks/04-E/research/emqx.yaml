@@ -1,0 +1,42 @@
+project_name: EMQX
+homepage_url: https://www.emqx.com/en
+repo_url: https://github.com/emqx/emqx
+docs_url: https://www.emqx.com/en
+cncf_status: non-cncf
+latest_release:
+  version: 6.3.3
+  date: '2026-11-11T13:27:33Z'
+  release_notes_url: https://github.com/emqx/emqx/releases/tag/6.3.3
+summary: EMQX is an ultra-scalable, distributed MQTT message broker designed for IoT,
+  industrial automation, and connected vehicle fleets.
+key_features:
+- Massive scalability supporting up to 100M concurrent MQTT connections.
+- Sub-millisecond latency with Erlang/OTP actor model concurrency.
+- Built-in SQL-based rule engine routing messages directly to databases and cloud
+  streams.
+recent_updates: Recent versions introduced unified multi-protocol gateways and native
+  Apache Kafka and Iceberg data streaming bridges.
+use_cases: Connecting hyper-scale IoT devices, automotive telematics, and real-time
+  edge messaging.
+ecosystem_perspectives: null
+interesting_facts: EMQX is an essential cloud-native technology in Letter E.
+get_started: Check the official documentation at https://www.emqx.com/en and repository
+  at https://github.com/emqx/emqx to get started.
+related_tools:
+- Envoy
+- Kubernetes
+- Prometheus
+sources:
+- id: src-readme
+  title: EMQX Official GitHub README
+  url: https://github.com/emqx/emqx
+  source_type: github_readme
+  quotes:
+  - Starting from v5.9.0, EMQX has unified all features from the previous Open Source
+    and Enterprise editions into a single, powerful offering with the Business Source
+    License (BSL) 1.1.
+editorial_lock: false
+locked_by: null
+locked_at: null
+last_researched_at: null
+research_version: 1

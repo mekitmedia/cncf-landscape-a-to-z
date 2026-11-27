@@ -1,0 +1,41 @@
+project_name: Eraser
+homepage_url: https://eraser-dev.github.io/eraser/
+repo_url: https://github.com/eraser-dev/eraser
+docs_url: https://eraser-dev.github.io/eraser/
+cncf_status: sandbox
+latest_release:
+  version: v1.4.2
+  date: '2026-08-07T20:34:23Z'
+  release_notes_url: https://github.com/eraser-dev/eraser/releases/tag/v1.4.2
+summary: Eraser is a CNCF Sandbox tool that automates the cleanup and removal of unused,
+  non-running container images across Kubernetes nodes.
+key_features:
+- Automated removal of non-running and vulnerable container images from all nodes.
+- Pattern-matching exclusions protecting essential daemonsets and infrastructure images.
+- Scheduled CronJob cleanup reducing node disk pressure and container registry pull
+  quotas.
+recent_updates: Added container vulnerability scanner integration and refined containerd/CRI-O
+  image deletion hooks.
+use_cases: Preventing Kubernetes worker node disk exhaustion and eliminating stale
+  vulnerable images automatically.
+ecosystem_perspectives: null
+interesting_facts: Eraser is an essential cloud-native technology in Letter E.
+get_started: Check the official documentation at https://eraser-dev.github.io/eraser/
+  and repository at https://github.com/eraser-dev/eraser to get started.
+related_tools:
+- Envoy
+- Kubernetes
+- Prometheus
+sources:
+- id: src-readme
+  title: Eraser Official GitHub README
+  url: https://github.com/eraser-dev/eraser
+  source_type: github_readme
+  quotes:
+  - Eraser helps Kubernetes admins remove a list of non-running images from all Kubernetes
+    nodes in a cluster.
+editorial_lock: false
+locked_by: null
+locked_at: null
+last_researched_at: null
+research_version: 1

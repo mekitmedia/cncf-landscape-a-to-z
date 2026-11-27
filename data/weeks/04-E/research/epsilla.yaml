@@ -1,0 +1,41 @@
+project_name: Epsilla
+homepage_url: https://epsilla.com
+repo_url: https://github.com/epsilla-cloud/vectordb
+docs_url: https://epsilla.com
+cncf_status: non-cncf
+latest_release:
+  version: v0.3.16
+  date: '2025-03-09T00:32:48Z'
+  release_notes_url: https://github.com/epsilla-cloud/vectordb/releases/tag/v0.3.16
+summary: Epsilla is an open-source vector database engineered for scalability, low
+  latency, and cost-effective similarity search in GenAI applications.
+key_features:
+- State-of-the-art graph indexing providing 10x query throughput improvements.
+- Bridges information retrieval and persistent memory retention for LLM applications.
+- Scalable cloud-native architecture deployable locally via Docker or in Kubernetes.
+recent_updates: Added multi-modal vector embeddings support and hybrid lexical-semantic
+  search pipelines.
+use_cases: Powering fast retrieval-augmented generation (RAG) and long-term memory
+  systems for autonomous AI agents.
+ecosystem_perspectives: null
+interesting_facts: Epsilla is an essential cloud-native technology in Letter E.
+get_started: Check the official documentation at https://epsilla.com and repository
+  at https://github.com/epsilla-cloud/vectordb to get started.
+related_tools:
+- Envoy
+- Kubernetes
+- Prometheus
+sources:
+- id: src-readme
+  title: Epsilla Official GitHub README
+  url: https://github.com/epsilla-cloud/vectordb
+  source_type: github_readme
+  quotes:
+  - Epsilla is an open-source vector database. Our focus is on ensuring scalability,
+    high performance, and cost-effectiveness of vector search. EpsillaDB bridges the
+    gap between information retrieval and memory retention in Large Language Models.
+editorial_lock: false
+locked_by: null
+locked_at: null
+last_researched_at: null
+research_version: 1

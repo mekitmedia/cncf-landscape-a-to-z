@@ -1,0 +1,41 @@
+project_name: EJBCA Community
+homepage_url: https://www.ejbca.org/
+repo_url: https://github.com/Keyfactor/ejbca-ce
+docs_url: https://www.ejbca.org/
+cncf_status: non-cncf
+latest_release:
+  version: r9.6.3
+  date: '2026-09-15T19:54:03Z'
+  release_notes_url: https://github.com/Keyfactor/ejbca-ce/releases/tag/r9.6.3
+summary: EJBCA Community is an open-source, enterprise-grade Public Key Infrastructure
+  (PKI) and Certificate Authority (CA) platform.
+key_features:
+- Full certificate lifecycle management from enrollment to automated validation.
+- Platform-independent Java architecture deployable on Linux and Windows.
+- Support for enterprise cryptographic standards, EST, CMP, and ACME.
+recent_updates: Latest community releases add improved ACME protocol compliance and
+  containerized deployment blueprints.
+use_cases: Managing enterprise X.509 certificates, private CAs, and Zero Trust machine
+  identities.
+ecosystem_perspectives: null
+interesting_facts: EJBCA Community is an essential cloud-native technology in Letter
+  E.
+get_started: Check the official documentation at https://www.ejbca.org/ and repository
+  at https://github.com/Keyfactor/ejbca-ce to get started.
+related_tools:
+- Envoy
+- Kubernetes
+- Prometheus
+sources:
+- id: src-readme
+  title: EJBCA Community Official GitHub README
+  url: https://github.com/Keyfactor/ejbca-ce
+  source_type: github_readme
+  quotes:
+  - EJBCA is a public key infrastructure (PKI) and certificate authority (CA) solution
+    and one of the longest-running CA software projects.
+editorial_lock: false
+locked_by: null
+locked_at: null
+last_researched_at: null
+research_version: 1

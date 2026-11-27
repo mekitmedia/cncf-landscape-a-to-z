@@ -1,0 +1,42 @@
+project_name: Endee
+homepage_url: https://endee.io/
+repo_url: https://github.com/endee-io/endee
+docs_url: https://endee.io/
+cncf_status: non-cncf
+latest_release:
+  version: v1.0.0
+  date: '2026-11-20T00:00:00Z'
+  release_notes_url: https://github.com/endee-io/endee/releases
+summary: Endee is an ultra-high-performance vector database engineered to scale up
+  to 1 billion vectors on a single node.
+key_features:
+- Single-node vector index scalability handling up to 1 billion embeddings.
+- Optimized SIMD execution algorithms minimizing search latency.
+- Cost-effective memory footprint for dense similarity search and RAG architectures.
+recent_updates: Introduced advanced quantized indexing and enhanced Python and Go
+  client SDKs.
+use_cases: Powering large-scale semantic search, recommendation engines, and high-density
+  vector retrieval.
+ecosystem_perspectives: null
+interesting_facts: Endee is an essential cloud-native technology in Letter E.
+get_started: Check the official documentation at https://endee.io/ and repository
+  at https://github.com/endee-io/endee to get started.
+related_tools:
+- Envoy
+- Kubernetes
+- Prometheus
+sources:
+- id: src-readme
+  title: Endee Official GitHub README
+  url: https://github.com/endee-io/endee
+  source_type: github_readme
+  quotes:
+  - "Endee.io \u2013 A high-performance vector database, designed to handle up to\
+    \ 1B"
+  - vectors on a single node, delivering significant performance gains through
+  - optimized indexing and execution.
+editorial_lock: false
+locked_by: null
+locked_at: null
+last_researched_at: null
+research_version: 1

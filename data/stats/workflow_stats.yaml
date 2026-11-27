@@ -57,12 +57,12 @@ letter_progress:
   week_index: 4
   period_weeks: Weeks 9-10
   total_items: 24
-  research_completed: 2
+  research_completed: 24
   content_completed: 2
-  blog_post_status: pending
-  completed_tasks: 4
+  blog_post_status: in_progress
+  completed_tasks: 26
   total_tasks: 49
-  completion_percentage: 8.2
+  completion_percentage: 53.1
 - letter: F
   week_index: 5
   period_weeks: Weeks 11-12
@@ -279,8 +279,8 @@ status_counts:
   sandbox: 152
 summary:
   completed_blog_posts: 0
-  overall_completed_tasks: 384
-  overall_completion_percentage: 21.7
+  overall_completed_tasks: 406
+  overall_completion_percentage: 22.9
   overall_total_tasks: 1770
   total_blog_posts: 26
   total_categories: 13
