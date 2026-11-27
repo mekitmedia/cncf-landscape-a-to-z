@@ -1,0 +1,40 @@
+project_name: Eclipse Che
+homepage_url: https://www.eclipse.org/che/
+repo_url: https://github.com/eclipse-che/che
+docs_url: https://www.eclipse.org/che/
+cncf_status: non-cncf
+latest_release:
+  version: 7.125.0
+  date: '2026-11-19T15:54:42Z'
+  release_notes_url: https://github.com/eclipse-che/che/releases/tag/7.125.0
+summary: Eclipse Che is an open-source, Kubernetes-native Cloud Development Environment
+  (CDE) platform and containerized workspace manager.
+key_features:
+- On-demand containerized developer workspaces running in Kubernetes pods.
+- Browser-based VS Code and web IDE integration with zero local setup.
+- Enterprise access control, Devfile-driven configuration, and reproducible toolchains.
+recent_updates: Recent versions streamline Devfile v2 workspace declarations and container
+  runtime startup performance.
+use_cases: Providing instant, standardized, secure developer environments across distributed
+  engineering teams.
+ecosystem_perspectives: null
+interesting_facts: Eclipse Che is an essential cloud-native technology in Letter E.
+get_started: Check the official documentation at https://www.eclipse.org/che/ and
+  repository at https://github.com/eclipse-che/che to get started.
+related_tools:
+- Envoy
+- Kubernetes
+- Prometheus
+sources:
+- id: src-readme
+  title: Eclipse Che Official GitHub README
+  url: https://github.com/eclipse-che/che
+  source_type: github_readme
+  quotes:
+  - Platform for providing Kubernetes-based Cloud Development Environments for Enterprise
+    Teams
+editorial_lock: false
+locked_by: null
+locked_at: null
+last_researched_at: null
+research_version: 1

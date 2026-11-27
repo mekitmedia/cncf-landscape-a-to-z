@@ -1,0 +1,42 @@
+project_name: Encore
+homepage_url: https://encore.dev
+repo_url: https://github.com/encoredev/encore
+docs_url: https://encore.dev
+cncf_status: non-cncf
+latest_release:
+  version: v1.58.10
+  date: '2026-11-23T11:15:08Z'
+  release_notes_url: https://github.com/encoredev/encore/releases/tag/v1.58.10
+summary: Encore is an open-source backend development engine and infrastructure SDK
+  that automates cloud provisioning directly from code.
+key_features:
+- Type-safe infrastructure primitives (databases, pub/sub, cron jobs) declared directly
+  in Go/TypeScript code.
+- Automatic architecture parsing and automated provisioning on AWS and GCP.
+- Built-in local development environment with distributed tracing and architecture
+  visualization.
+recent_updates: Added native AI coding agent integrations and expanded multi-cloud
+  microservice orchestration capabilities.
+use_cases: Accelerating cloud-native backend development without writing Terraform
+  or boilerplate infrastructure configs.
+ecosystem_perspectives: null
+interesting_facts: Encore is an essential cloud-native technology in Letter E.
+get_started: Check the official documentation at https://encore.dev and repository
+  at https://github.com/encoredev/encore to get started.
+related_tools:
+- Envoy
+- Kubernetes
+- Prometheus
+sources:
+- id: src-readme
+  title: Encore Official GitHub README
+  url: https://github.com/encoredev/encore
+  source_type: github_readme
+  quotes:
+  - Encore helps developers and AI coding agents build and deploy backend applications
+    without having to manually set up and manage infrastructure.
+editorial_lock: false
+locked_by: null
+locked_at: null
+last_researched_at: null
+research_version: 1

@@ -1,0 +1,41 @@
+project_name: EaseMesh
+homepage_url: https://megaease.com/easemesh
+repo_url: https://github.com/megaease/easemesh
+docs_url: https://megaease.com/easemesh
+cncf_status: non-cncf
+latest_release:
+  version: v2.2.1
+  date: '2022-11-07T09:17:56Z'
+  release_notes_url: https://github.com/megaease/easemesh/releases/tag/v2.2.1
+summary: EaseMesh is a cloud-native service mesh purpose-built for seamless compatibility
+  with Spring Cloud ecosystems.
+key_features:
+- Native integration with Java and Spring Cloud microservices without modifying application
+  code.
+- Uses Easegress as a high-performance sidecar proxy and EaseAgent for observability.
+- Declarative traffic routing, circuit breaking, and canary deployments.
+recent_updates: Optimized multi-cluster discovery and reduced sidecar proxy resource
+  footprints.
+use_cases: Modernizing legacy Spring Cloud architectures to Kubernetes-native service
+  mesh environments.
+ecosystem_perspectives: null
+interesting_facts: EaseMesh is an essential cloud-native technology in Letter E.
+get_started: Check the official documentation at https://megaease.com/easemesh and
+  repository at https://github.com/megaease/easemesh to get started.
+related_tools:
+- Envoy
+- Kubernetes
+- Prometheus
+sources:
+- id: src-readme
+  title: EaseMesh Official GitHub README
+  url: https://github.com/megaease/easemesh
+  source_type: github_readme
+  quotes:
+  - EaseMesh is a service mesh that is compatible with the Spring Cloud ecosystem.
+    It is based
+editorial_lock: false
+locked_by: null
+locked_at: null
+last_researched_at: null
+research_version: 1

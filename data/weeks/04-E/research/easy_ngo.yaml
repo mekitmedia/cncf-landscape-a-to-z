@@ -1,0 +1,44 @@
+project_name: Easy-Ngo
+homepage_url: https://netease-media.github.io/easy-ngo-website/
+repo_url: https://github.com/NetEase-Media/easy-ngo
+docs_url: https://netease-media.github.io/easy-ngo-website/
+cncf_status: non-cncf
+latest_release:
+  version: v1.0.0
+  date: '2023-03-24T09:52:24Z'
+  release_notes_url: https://github.com/NetEase-Media/easy-ngo/releases/tag/v1.0.0
+summary: Easy-Ngo is an enterprise-grade Go development toolkit created by NetEase
+  Media for building high-concurrency, highly available microservices.
+key_features:
+- Modular Go microservice toolkit with standardized logging, tracing, and metric collection.
+- High-throughput RPC communication and connection pooling.
+- Battle-tested in high-concurrency production environments at NetEase Media.
+recent_updates: Added automated OpenTelemetry trace propagation and refined configuration
+  management modules.
+use_cases: Developing high-concurrency, low-latency microservices and backend APIs
+  in Go.
+ecosystem_perspectives: null
+interesting_facts: Easy-Ngo is an essential cloud-native technology in Letter E.
+get_started: Check the official documentation at https://netease-media.github.io/easy-ngo-website/
+  and repository at https://github.com/NetEase-Media/easy-ngo to get started.
+related_tools:
+- Envoy
+- Kubernetes
+- Prometheus
+sources:
+- id: src-readme
+  title: Easy-Ngo Official GitHub README
+  url: https://github.com/NetEase-Media/easy-ngo
+  source_type: github_readme
+  quotes:
+  - "easy-ngo\u662F\u7531\u7F51\u6613\u4F20\u5A92\u5F00\u53D1\u7684\u57FA\u4E8EGo\u8BED\
+    \u8A00\u7684\u5F00\u53D1\u5DE5\u5177\u5305\uFF0C\u57FA\u4E8Eeasy-ngo\u5DE5\u5177\
+    \u5305\uFF0C\u5F00\u53D1\u8005\u53EF\u4EE5\u5FEB\u901F\u6784\u5EFA\u9AD8\u53EF\
+    \u7528\u3001\u5927\u5E76\u53D1\u7684\u5E94\u7528\u3002easy-ngo\u5DF2\u7ECF\u5728\
+    \u4F20\u5A92\u5185\u90E8\u5927\u91CF\u4F7F\u7528\uFF0C\u8282\u7701\u4E86\u4E1A\
+    \u52A1\u5F00\u53D1\u7684\u5927\u91CF\u65F6\u95F4\u3002"
+editorial_lock: false
+locked_by: null
+locked_at: null
+last_researched_at: null
+research_version: 1

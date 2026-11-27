@@ -1,0 +1,43 @@
+project_name: Envoy-ai-gateway
+homepage_url: https://aigateway.envoyproxy.io/
+repo_url: https://github.com/envoyproxy/ai-gateway
+docs_url: https://aigateway.envoyproxy.io/
+cncf_status: non-cncf
+latest_release:
+  version: v1.3.0
+  date: '2026-11-18T18:44:18Z'
+  release_notes_url: https://github.com/theagentrouter/agent-router/releases/tag/v1.3.0
+summary: Envoy-ai-gateway (Agent Router) is an Envoy-native gateway providing unified,
+  OpenAI-compatible APIs, routing, and governance for LLM inference and tools.
+key_features:
+- Unified OpenAI-compatible endpoint bridging public LLM APIs, self-hosted models,
+  and MCP tools.
+- Centralized quota management, token rate limiting, and prompt caching enforced by
+  Envoy.
+- Model routing with automated fallback, failover, and cost attribution.
+recent_updates: Expanded support for Anthropic and vLLM backends, streaming token
+  metrics, and Model Context Protocol (MCP) server routing.
+use_cases: Serving as an enterprise AI gateway managing LLM credentials, caching,
+  and inference traffic across teams.
+ecosystem_perspectives: null
+interesting_facts: Envoy-ai-gateway is an essential cloud-native technology in Letter
+  E.
+get_started: Check the official documentation at https://aigateway.envoyproxy.io/
+  and repository at https://github.com/envoyproxy/ai-gateway to get started.
+related_tools:
+- Envoy
+- Kubernetes
+- Prometheus
+sources:
+- id: src-readme
+  title: Envoy-ai-gateway Official GitHub README
+  url: https://github.com/envoyproxy/ai-gateway
+  source_type: github_readme
+  quotes:
+  - Agent Router gives application teams one consistent, OpenAI-compatible API for
+    every model
+editorial_lock: false
+locked_by: null
+locked_at: null
+last_researched_at: null
+research_version: 1

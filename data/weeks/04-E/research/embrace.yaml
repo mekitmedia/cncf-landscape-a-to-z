@@ -1,0 +1,41 @@
+project_name: Embrace
+homepage_url: https://embrace.io/
+repo_url: https://github.com/embrace-io/embrace-apple-sdk
+docs_url: https://embrace.io/
+cncf_status: non-cncf
+latest_release:
+  version: 7.2.0
+  date: '2026-11-24T17:59:37Z'
+  release_notes_url: https://github.com/embrace-io/embrace-apple-sdk/releases/tag/7.2.0
+summary: Embrace is an OpenTelemetry-native mobile observability platform connecting
+  frontend user experiences with backend cloud services.
+key_features:
+- Native mobile SDKs built directly on OpenTelemetry data models.
+- End-to-end user session replay, crash reporting, and network latency tracing.
+- Correlates frontend mobile crashes and API latency with backend distributed microservice
+  traces.
+recent_updates: Expanded support for visionOS and automated OpenTelemetry trace correlation
+  across mobile-to-cloud hops.
+use_cases: Diagnosing mobile app crashes, performance regressions, and bridging mobile
+  telemetry with cloud observability stacks.
+ecosystem_perspectives: null
+interesting_facts: Embrace is an essential cloud-native technology in Letter E.
+get_started: Check the official documentation at https://embrace.io/ and repository
+  at https://github.com/embrace-io/embrace-apple-sdk to get started.
+related_tools:
+- Envoy
+- Kubernetes
+- Prometheus
+sources:
+- id: src-readme
+  title: Embrace Official GitHub README
+  url: https://github.com/embrace-io/embrace-apple-sdk
+  source_type: github_readme
+  quotes:
+  - iOS/iPadOs/tvOS/visionOS/watchOS apps and provides user-focused observability
+    of your system by connecting mobile and backend telemetry seamlessly.
+editorial_lock: false
+locked_by: null
+locked_at: null
+last_researched_at: null
+research_version: 1
