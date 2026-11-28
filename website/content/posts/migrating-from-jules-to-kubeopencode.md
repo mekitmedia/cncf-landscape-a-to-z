@@ -94,7 +94,7 @@ Here is how each piece of the Jules system translates into KubeOpenCode:
 |---|---|---|
 | **Jules Web / SaaS Agent** | `AgentTemplate` + `Agent` | `.kubeopencode/agent-template.yaml` |
 | **Scheduled Actions** (`jules_schedule.yml`) | `CronTask` resources (one per file) | `.kubeopencode/crontask-*.yaml` |
-| **GitHub Secrets** (`JULES_API_KEY`) | Kubernetes Secrets (`github-creds`, `google-creds`) | Mounted in Pod via `credentials[]` |
+| **GitHub Secrets** (`JULES_API_KEY`) | Kubernetes Secrets (`github-creds`, `google-creds`) | Patched by cluster owner via Kustomize overlay (`credentials[]`) |
 | **GitHub Action Checkout** | Git Context with `sync: HotReload` | Handled automatically by OpenCode `git-sync` |
 | **Agent Prompt Files** | `CronTask.spec.taskTemplate.spec.description` | Stored directly in YAML specs |
 | **`.Jules/` Domain Memory** | `docs/domain-memory/` | Discovered as knowledge context in workspace |
@@ -137,18 +137,18 @@ spec:
           policy: HotReload
       mountPath: .
 
-  # Credentials mounted from Kubernetes Secrets
-  credentials:
-    - name: github-token
-      secretRef:
-        name: github-creds
-        key: token
-      env: GITHUB_TOKEN
-    - name: google-api-key
-      secretRef:
-        name: google-creds
-        key: api-key
-      env: GOOGLE_API_KEY
+  # Credentials (injected by cluster owner via Kustomize overlay rather than hardcoded in Git)
+  # credentials:
+  #   - name: github-token
+  #     secretRef:
+  #       name: github-creds
+  #       key: token
+  #     env: GITHUB_TOKEN
+  #   - name: google-api-key
+  #     secretRef:
+  #       name: google-creds
+  #       key: api-key
+  #     env: GOOGLE_API_KEY
 
   # Floating fast model configuration
   config:

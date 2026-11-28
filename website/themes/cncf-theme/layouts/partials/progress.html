@@ -14,11 +14,12 @@
             {{ if not $isLocked }}
                 <a href="{{ "letters/" | relURL }}{{ $letter | lower }}/"
                    class="flex items-center justify-center flex-shrink-0 w-10 h-10 rounded-lg font-bold text-sm transition-all focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none {{ if $isActive }}bg-blue-600 text-white shadow-lg shadow-blue-200 scale-110{{ else if $isCompleted }}bg-blue-100 text-blue-600 border border-blue-200{{ else }}bg-white text-slate-400 border border-slate-200 hover:border-blue-300 hover:text-blue-500{{ end }}"
+                   aria-label="Letter {{ $letter }}{{ if $isActive }} (Current Week){{ else if $isCompleted }} (Completed){{ end }}"
                    {{ if $isActive }}aria-current="step"{{ end }}>
                     {{ $letter }}
                 </a>
             {{ else }}
-                <span class="flex items-center justify-center flex-shrink-0 w-10 h-10 rounded-lg font-bold text-sm transition-all bg-slate-50 text-slate-300 border border-slate-100 cursor-not-allowed" title="Locked - Available in a future week" aria-hidden="true">
+                <span class="flex items-center justify-center flex-shrink-0 w-10 h-10 rounded-lg font-bold text-sm transition-all bg-slate-50 text-slate-300 border border-slate-100 cursor-not-allowed" title="Locked - Available in a future week" aria-label="Letter {{ $letter }} (Locked)">
                     {{ $letter }}
                 </span>
             {{ end }}

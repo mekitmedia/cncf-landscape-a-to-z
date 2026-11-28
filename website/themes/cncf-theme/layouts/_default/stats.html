@@ -199,7 +199,7 @@
                         <tr class="hover:bg-slate-50/80 transition-colors">
                             <td class="py-4">
                                 {{ $letterStr := printf "%v" .letter }}{{ if eq $letterStr "false" }}{{ $letterStr = "N" }}{{ else if eq $letterStr "true" }}{{ $letterStr = "Y" }}{{ end }}
-                                <a href="/letters/{{ $letterStr | lower }}/" class="inline-flex items-center gap-3 font-bold text-slate-900 hover:text-blue-600 group">
+                                <a href="/letters/{{ $letterStr | lower }}/" class="inline-flex items-center gap-3 font-bold text-slate-900 hover:text-blue-600 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none rounded-lg group" title="View Letter {{ $letterStr }} Journey">
                                     <span class="w-8 h-8 bg-slate-900 text-white rounded-lg flex items-center justify-center font-black group-hover:bg-blue-600 transition-colors">
                                         {{ $letterStr }}
                                     </span>
@@ -259,7 +259,7 @@
                 <div class="p-4 bg-slate-50 rounded-2xl border border-slate-200">
                     <div class="flex items-center justify-between mb-3">
                         {{ $letterStr := printf "%v" .letter }}{{ if eq $letterStr "false" }}{{ $letterStr = "N" }}{{ else if eq $letterStr "true" }}{{ $letterStr = "Y" }}{{ end }}
-                        <a href="/letters/{{ $letterStr | lower }}/" class="flex items-center gap-2 font-bold text-slate-900">
+                        <a href="/letters/{{ $letterStr | lower }}/" class="flex items-center gap-2 font-bold text-slate-900 hover:text-blue-600 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none rounded-md" title="View Letter {{ $letterStr }} Journey">
                             <span class="w-7 h-7 bg-slate-900 text-white rounded-md flex items-center justify-center font-bold text-xs">
                                 {{ $letterStr }}
                             </span>

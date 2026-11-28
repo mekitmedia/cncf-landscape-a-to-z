@@ -12,7 +12,7 @@
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         {{ range first 3 (where .Site.RegularPages "Type" "posts") }}
-        <a href="{{ .RelPermalink }}" class="group bg-white rounded-[2rem] border border-slate-200 overflow-hidden hover:border-blue-400 hover:shadow-2xl hover:shadow-blue-200/50 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none transition-all flex flex-col">
+        <a href="{{ .RelPermalink }}" aria-label="Read article: {{ .Title }}" class="group bg-white rounded-[2rem] border border-slate-200 overflow-hidden hover:border-blue-400 hover:shadow-2xl hover:shadow-blue-200/50 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:outline-none transition-all flex flex-col">
             <div class="aspect-video flex items-center justify-center relative overflow-hidden {{ if .Params.image }}bg-slate-900{{ else if eq .Params.letter "2026" }}bg-gradient-to-br from-indigo-950 via-slate-900 to-blue-950 border-b border-indigo-900/40{{ else if eq .Params.letter "Meta" }}bg-gradient-to-br from-slate-950 via-cyan-950 to-slate-900 border-b border-cyan-900/40{{ else if .Params.letter }}bg-gradient-to-br from-blue-700 via-indigo-700 to-slate-900 border-b border-blue-900/40{{ else }}bg-gradient-to-br from-orange-400 to-orange-600{{ end }}">
                 {{ if .Params.image }}
                     <img src="{{ .Params.image | relURL }}" alt="{{ .Params.image_alt | default .Title }}" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
@@ -38,7 +38,7 @@
             <div class="p-8 flex-1 flex flex-col">
                 <div class="flex items-center gap-2 mb-3">
                     <span class="px-2 py-0.5 rounded-full bg-blue-50 text-blue-600 text-[10px] font-bold uppercase tracking-wider">News</span>
-                    <span class="text-[10px] text-slate-400 font-medium uppercase tracking-wider">{{ .Date.Format "Jan 02, 2006" }}</span>
+                    <span class="text-[10px] text-slate-500 font-medium uppercase tracking-wider">{{ .Date.Format "Jan 02, 2006" }}</span>
                 </div>
                 <h3 class="text-lg font-bold text-slate-900 group-hover:text-blue-600 transition-colors mb-2 line-clamp-2">{{ .Title }}</h3>
                 <p class="text-sm text-slate-500 line-clamp-3 mb-4 leading-relaxed flex-1">

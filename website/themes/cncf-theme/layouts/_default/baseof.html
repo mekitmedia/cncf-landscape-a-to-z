@@ -6,25 +6,23 @@
     <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
     <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else if .IsPage }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}">
     
+    <!-- Canonical URL -->
     {{ if .Params.canonicalURL }}
     <link rel="canonical" href="{{ .Params.canonicalURL }}">
-    {{ else }}
-    <link rel="canonical" href="{{ .Permalink }}">
-    {{ end }}
-    <!-- OpenGraph -->
-    {{ template "_internal/opengraph.html" . }}
-    <!-- Twitter Cards -->
-    {{ template "_internal/google_analytics.html" . }}
-    {{ template "_internal/twitter_cards.html" . }}
-
-    <!-- Canonical URL -->
-    {{ if .Params.canonicalUrl }}
+    {{ else if .Params.canonicalUrl }}
     <link rel="canonical" href="{{ .Params.canonicalUrl }}">
     {{ else if .Params.canonical }}
     <link rel="canonical" href="{{ .Params.canonical }}">
     {{ else }}
     <link rel="canonical" href="{{ .Permalink }}">
     {{ end }}
+
+    <!-- OpenGraph -->
+    {{ template "_internal/opengraph.html" . }}
+    <!-- Google Analytics -->
+    {{ template "_internal/google_analytics.html" . }}
+    <!-- Twitter Cards -->
+    {{ template "_internal/twitter_cards.html" . }}
 
     <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
     <!-- Lucide Icons -->
